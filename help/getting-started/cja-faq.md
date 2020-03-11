@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over klantreisanalyse
 description: Analyse van de reis van de klant - Veelgestelde vragen.
 translation-type: tm+mt
-source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 | **Vereisten** |  |
 | Hebt u apparaatgrafiek of apparaatcoop nodig voor de analyse van de reis van de klant? | No, Private Device Graph or Device Coop is not required for Customer Journey Analytics. Ze worden zelfs nog niet ondersteund. |
 | Hebt u de Experience Cloud ID (ECID) nodig voor de analyse van de reis van de klant? | Nee, de Analyse van de Reis van de Klant steunt om het even welke identiteitskaart in een dataset, of dat ECID of om het even welke andere identiteitskaart is u kiest. |
-| Wat als u uw gegevens vóór de Analyse van de Reis van de Klant moet ETL? | Vandaag, moet u met een partner ETL (Unifi of Informatica) werken als u uw gegevens moet omzetten alvorens het in AEP te zetten. Als u ETL nodig hebt nadat de gegevens al zijn ingevoerd, biedt AEP Query Services enkele beperkte opties. |
+| Wat gebeurt er als u uw gegevens vóór de analyse van de reis van de klant moet uitpakken, transformeren, laden? | Vandaag, moet u met een partner ETL (Unifi of Informatica) werken als u uw gegevens moet omzetten alvorens het in AEP te zetten. Als u ETL nodig hebt nadat de gegevens al zijn ingevoerd, biedt AEP Query Services enkele beperkte opties. |
 | **Stiksel** |  |
 | Kan de Analyse van de Reis van de Klant op apparaten of over datasets &quot;aansluiten&quot;? | Nee. De Analyse van de Reis van de klant is een &quot;breng-uw-identiteitskaart&quot;analysesysteem. In de werkzaamheden staan plannen voor een goede aanpak. |
 | Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund? | Nee, nog niet. |
