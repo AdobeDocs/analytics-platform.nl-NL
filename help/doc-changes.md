@@ -1,17 +1,17 @@
 ---
 title: CJA-documentatieupdates
-description: 'Maakt een lijst van inhoudsupdates voor de de documentatiereeks van de Analyse van de Reis van de Klant sinds December, 2019. '
+description: 'Geeft een overzicht van de inhoudsupdates voor de documentatie van Reisanalyse van de Klant die sinds december 2019 is ingesteld. '
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 
 ---
 
 
-# Updates van documentatie over de journalistiek van de klant
+# Documentatieupdates van de analyse van de Klant
 
-De volgende updates zijn sinds de aanvang van de CJA-documentatie doorgevoerd.
+De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang ervan.
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| 27 februari 2020 | Updates van de pagina voor ondersteuning van de [klantendrukanalyse](/help/getting-started/cja-aa.md) . |
-| december 2019 | Eerste ontwerp van CJA-documentatie |
+| 27 februari 2020 | Updates van de pagina Ondersteuning [van de functie](/help/getting-started/cja-aa.md) Klantenanalyse. |
+| december 2019 | Eerste conceptversie van CJA-documentatie |
