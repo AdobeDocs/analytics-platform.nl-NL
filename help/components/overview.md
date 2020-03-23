@@ -1,5 +1,5 @@
 ---
-title: Overzicht componenten
+title: Overzicht van componenten
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
 source-git-commit: 076ee40e5aef1773976545692378f1b8a55089d4
@@ -7,16 +7,16 @@ source-git-commit: 076ee40e5aef1773976545692378f1b8a55089d4
 ---
 
 
-# Overzicht componenten
+# Overzicht van componenten
 
-De componenten zijn eigenschappen in de Analyse van de Reis van de Klant die in rapporten, of complementrapporteringseigenschappen kunnen worden gebruikt. U kunt deze componenten beheren gebruikend de volgende stappen:
+Componenten zijn functies in de analyse van de reis van de Klant die kunnen worden gebruikt in rapporten of als aanvulling op de rapportfuncties. U kunt deze componenten als volgt beheren:
 
-1. Meld u aan bij [Analytics.adobe.com](https://analytics.adobe.com) met uw Adobe ID-referenties.
-2. Navigeer aan [!UICONTORL Componenten] > [!UICONTROL Components] in het kopbalmenu.
+1. Meld u aan bij [Analytics.adobe.com](https://analytics.adobe.com) met uw Adobe-id.
+2. Navigeer naar [!UICONTORL Componenten] > [!UICONTROL Components] in het koptekstmenu.
 
 U kunt de volgende componenten beheren:
 
-* [**Filters **](filters/filters-overview.md): Delen van uw gegevens uitsluiten om u te richten op waarden voor een gemeenschappelijke dimensie
-* [**Berekende waarden **](calc-metrics/calc-metr-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in rapportering
-* [**Datumbereik **](date-ranges/overview.md): Pas en verfris de aanbiedingen van de Werkruimte van de Analyse van datumwaaiers aan
-* [**Projecten **](projects/overview.md): Organiseer en handhaaf uw projecten in de Werkruimte van de Analyse
+* [**Filters **](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op gemeenschappelijke waarden voor dimensies
+* [**Berekende cijfers **](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
+* [**Datumbereiken **](date-ranges/overview.md): Aanpassen en verfijnen van de aanbiedingen van de Werkruimte van de Analyse van datumwaaiers
+* [**Projecten **](projects/overview.md): Uw projecten organiseren en onderhouden in de analysewerkruimte
