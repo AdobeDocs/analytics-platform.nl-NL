@@ -1,6 +1,6 @@
 ---
 title: Referentie - basisfuncties
-description: 'De Berekende Bouwer van Metriek laat u statistische en wiskundige functies toepassen om Geavanceerde Berekende Metriek te bouwen. '
+description: 'Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen. '
 translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
@@ -9,19 +9,19 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 # Referentie - basisfuncties
 
-De Berekende Bouwer van Metriek laat u statistische en wiskundige functies toepassen om Geavanceerde Berekende Metriek te bouwen.
+Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 
-Hier is een alfabetische lijst van de functies en hun definities.
+Hier volgt een alfabetische lijst van de functies en hun definities.
 
-> [!NOTE] Waar [!DNL metric] als argument in een functie wordt geïdentificeerd, worden andere uitdrukkingen van metriek ook toegestaan. Bijvoorbeeld, staat [!DNL MAXV(metrics)] ook toe voor [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere uitdrukkingen van metriek ook toegestaan. Zo kunt u [!DNL MAXV(metrics)] ook [!DNL MAXV(PageViews + Visits).]
 
-## Tabel Functies versus Row-functies
+## Tabelfuncties versus rijfuncties
 
-Een lijstfunctie is één waar de output het zelfde voor elke rij van de lijst is. Een rijfunctie is één waar de output voor elke rij van de lijst verschillend is.
+Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
 ## Absolute waarde (rij)
 
-Keert de absolute waarde van een aantal terug. De absolute waarde van een aantal is het aantal met een positieve waarde.
+Retourneert de absolute waarde van een getal. De absolute waarde van een getal is het getal met een positieve waarde.
 
 ```
 ABS(metric)
@@ -29,11 +29,11 @@ ABS(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | Metrisch waarvoor u de absolute waarde wilt. |
+| *metrisch* | De metrische waarde waarvoor u de absolute waarde wilt. |
 
 ## Maximum kolom
 
-Keert de grootste waarde in een reeks afmetingselementen voor een metrische kolom terug. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
 ```
 MAXV(metric)
@@ -45,7 +45,7 @@ MAXV(metric)
 
 ## Minimaal kolom
 
-Keert de kleinste waarde in een reeks afmetingselementen voor een metrische kolom terug. MINV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
 
 ```
 MINV(metric)
@@ -55,7 +55,7 @@ MINV(metric)
 |---|---|
 | *metrisch* | Een metrisch die u zou willen geëvalueerd hebben. |
 
-## Kolom Som
+## Aantal kolommen
 
 Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
 
@@ -65,11 +65,11 @@ SUM(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | Metrisch waarvoor u de totale waarde of de som wilt. |
+| *metrisch* | De metrische waarde waarvoor u de totale waarde of som wilt. |
 
 ## Aantal (tabel)
 
-Keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een afmeting worden gemeld).
+Retourneert het aantal of het aantal niet-nulwaarden voor een metrische waarde binnen een kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd).
 
 ```
 COUNT(metric)
@@ -77,11 +77,11 @@ COUNT(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | De metrisch die u wilt tellen. |
+| *metrisch* | De metrische waarde die u wilt tellen. |
 
 ## Exponent (rij)
 
-Keert op *e* opgeheven aan de macht van een bepaald aantal terug. De constante *e* is 2.71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
+Retourneert *dat* de macht van een bepaald getal wordt verhoogd. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
 
 ```
 EXP(metric)
@@ -89,19 +89,19 @@ EXP(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | De exponent was van toepassing op de basis *e*. |
+| *metrisch* | De exponent die op de basis *e* wordt toegepast. |
 
 ## Uitstel
 
-Energiebeheerder
+Power Operator
 
 <pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*.. (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*.. (y keer)
 </pre>
 
-## Gemiddelde (tabel)
+## Gemiddeld (tabel)
 
-Keert het rekenkundig gemiddelde, of gemiddelde, voor metrisch in een kolom terug.
+Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde in een kolom.
 
 ```
 MEAN(metric)
@@ -109,11 +109,11 @@ MEAN(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | Metrisch waarvoor u het gemiddelde wilt. |
+| *metrisch* | De metrische waarde waarvoor u het gemiddelde wilt. |
 
 ## Mediaan (tabel)
 
-Keert de mediaan voor metrisch in een kolom terug. De mediaan is het aantal in het midden van een reeks aantal-dat is, hebben de helft de aantallen waarden die groter dan of gelijk aan de mediaan zijn, en de helft is minder dan of gelijk aan de mediaan.
+Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen, dat wil zeggen dat de helft van de getallen waarden heeft die groter zijn dan of gelijk zijn aan de mediaan, en de helft kleiner dan of gelijk is aan de mediaan.
 
 ```
 MEDIAN(metric)
@@ -121,19 +121,19 @@ MEDIAN(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | Metrisch waarvoor u de mediaan wilt. |
+| *metrisch* | De metrische waarde waarvoor u de mediaan wilt. |
 
 ## Modulo
 
-De rest van col1/col2, gebruikmakend van Euclidean-divisie.
+The rest of col1 / col2, using Euclidean Division.
 
-Keert de rest na het verdelen x door y terug.
+Retourneert de rest na het delen van x door y.
 
 ```
 x = floor(x/y) + modulo(x,y)
 ```
 
-De terugkeerwaarde heeft het zelfde teken zoals de input (of is nul).
+De geretourneerde waarde heeft hetzelfde teken als de invoer (of is nul).
 
 ```
 modulo(4,3) = 1 
@@ -141,15 +141,15 @@ modulo(-4,3) = -1
 modulo(-3,3) = 0
 ```
 
-Om altijd een positief aantal te krijgen, gebruik
+Als u altijd een positief getal wilt ophalen, gebruikt u
 
 ```
 modulo(modulo(x,y)+y,y)
 ```
 
-## Percentiel (tabel)
+## Percentage (tabel)
 
-Keert het k-th percentiel van waarden voor metrisch terug. U kunt deze functie gebruiken om een drempel van goedkeuring te vestigen. Bijvoorbeeld, kunt u beslissen afmetingselementen te onderzoeken die boven het 90 percentiel scoren.
+Retourneert het k-th-percentiel van waarden voor een metrische waarde. U kunt deze functie gebruiken om een acceptatiedrempel vast te stellen. U kunt bijvoorbeeld afmetingselementen bekijken die boven het 90-percentiel liggen.
 
 ```
 PERCENTILE(metric,k)
@@ -165,18 +165,18 @@ PERCENTILE(metric,k)
  <tbody> 
   <tr> 
    <td colname="col1"> <i>metrisch</i> </td> 
-   <td colname="col2"> De metrische kolom die relatieve staat bepaalt. </td> 
+   <td colname="col2"> De metrische kolom die relatieve status definieert. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> De percentielwaarde in waaier 0 tot 100, inclusief. </td> 
+   <td colname="col2"> De percentielwaarde in het bereik 0 tot en met 100. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Kwart (tabel)
+## Kwartaal (tabel)
 
-Keert het kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. MINV, MEDIAN, en MAXV keren de zelfde waarde terug zoals KWANTITAAL wanneer de quart aan 0 (nul), 2, respectievelijk 4 gelijk is.
+Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. MINV, MEDIAN en MAXV retourneren dezelfde waarde als QUARTILE wanneer quart gelijk is aan respectievelijk 0 (nul), 2 en 4.
 
 ```
 QUARTILE(metric,quart)
@@ -192,20 +192,20 @@ QUARTILE(metric,quart)
  <tbody> 
   <tr> 
    <td colname="col1"> <i>metrisch</i> </td> 
-   <td colname="col2"> Metrisch waarvoor u de kwartielwaarde wilt. </td> 
+   <td colname="col2"> De metrische waarde waarvoor u de kwartielwaarde wilt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>kwart </p> </td> 
-   <td colname="col2"> Wijst op welke *value aan terugkeer. </td> 
+   <td colname="col2"> Geeft aan welke *value moet worden geretourneerd. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*If *quart* = 0, KWAAR de minimumwaarde terug. Als *quart* = 1, keert QUARTILE het eerste kwartiel (25 percentiel) terug. Als *quart* = 2, keert QUARTILE het eerste kwartiel (50 percentiel) terug. Als *quart* = 3, keert QUARTILE het eerste kwartiel (75 percentiel) terug. Als *quart* = 4, KWAAR de maximumwaarde terug.
+*If *quart* = 0, QUARTILE keert de minimumwaarde terug. Als *quart* = 1, retourneert QUARTILE het eerste kwartiel (25 percentiel). Indien *quart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *quart* = 3, retourneert QUARTILE het eerste kwartiel (75 percentiel). Als *quart* = 4, keert QUARTILE de maximumwaarde terug.
 
 ## Rond
 
-Keert het meest dichtbijgelegen geheel voor een bepaalde waarde terug. Bijvoorbeeld, als u het melden van muntdecimalen voor opbrengst wilt vermijden en een product $569.34 heeft, gebruik de formuleRonde ( *Opbrengst*) aan ronde opbrengst aan de dichtstbijzijnde dollar, of $569. Een product dat $569,51 meldt, is rond tot de dichtstbijzijnde dollar, of $570.
+Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule Round( *Inkomsten*) om inkomsten naar de dichtstbijzijnde dollar te afronden, oftewel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
 
 ```
 ROUND(metric)
@@ -213,9 +213,9 @@ ROUND(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *nummer* | De metrisch u wilt ronden. |
+| *getal* | De metrische waarde die u wilt afronden. |
 
-Rond zonder een cijferparameter is het zelfde als rond met een cijferparameter van 0, namelijk rond aan het meest dichtbijgelegen geheel. Met een cijferparameter keert het dat vele cijfers rechts van de decimaal terug. Als de cijfers negatief zijn, keert het 0&#39;s links van de decimaal terug.
+Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s links van decimaal terug.
 
 ```
 round( 314.15, 0) = 314 
@@ -226,23 +226,23 @@ round( 314.15, -2) = 300
 
 ## Aantal rijen
 
-Keert de telling van rijen voor een bepaalde kolom (het aantal unieke die elementen terug binnen een afmeting worden gemeld). &quot;Overschrijding&quot; wordt geteld als 1.
+Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). &quot;Onkruisen&quot; wordt geteld als 1.
 
-## Row Max
+## Max. rij
 
 Het maximum van de kolommen in elke rij.
 
-## Row Min
+## Min. rij
 
 Het minimum van de kolommen in elke rij.
 
-## Row Sum
+## Rijsom
 
-De som kolommen van elke rij.
+De som van de kolommen van elke rij.
 
-## Vierkante wortel (rij)
+## Vierkante hoofdmap (rij)
 
-Keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een aantal is de waarde van dat aantal dat aan de macht van 1/2 wordt opgeheven.
+Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
 
 ```
 SQRT(metric)
@@ -250,17 +250,17 @@ SQRT(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *nummer* | Metrisch waarvoor u de vierkantswortel wilt. |
+| *getal* | De metrische waarde waarvoor u de vierkantswortel wilt. |
 
 ## Standaardafwijking (tabel)
 
-Keert de standaardafwijking, of vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
+Retourneert de standaardafwijking of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-waarin x het gemiddelde (*metrisch*) van het monster is en *n* de steekproefgrootte.
+waarbij x het gemiddelde (*metrische*) van het monster is en *n* de steekproefgrootte.
 
 ```
 STDEV(metric)
@@ -274,20 +274,20 @@ STDEV(metric)
   </tr> 
   <tr> 
    <td> <b> <i> metrisch</i></b> </td> 
-   <td> <p> Metrisch waarvoor u voor standaardafwijking wilt. </p> </td> 
+   <td> <p> De metrische waarde waarvoor u standaardafwijking wilt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Variantie (tabel)
 
-Keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
+Geeft de variantie gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waarbij x het gemiddelde van het monster is, MEAN(*metrisch*) en *n* de steekproefgrootte.
+waarbij x het gemiddelde van het monster is, MEAN (*metrisch*) en *n* de steekproefgrootte.
 
 ```
 VARIANCE(metric)
@@ -295,19 +295,19 @@ VARIANCE(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | Metrisch waarvoor u de variantie wilt. |
+| *metrisch* | De metrische waarde waarvoor u de variantie wilt. |
 
-om een variantie te berekenen bekijkt u een volledige kolom van aantallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt ga u door elke ingang en doe het volgende:
+Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt gaat u door elke ingang en doet het volgende:
 
-1. Trek het gemiddelde van het aantal af.
+1. Trek het gemiddelde van het getal af.
 
-2. Het resultaat uitlijnen.
+2. Maak het resultaat vierkant.
 
 3. Voeg dat toe aan het totaal.
 
-Zodra u over de volledige kolom hebt herhaald hebt u één enkel totaal. U verdeelt dan dat totaal door het aantal punten in de kolom. Dat aantal is de variantie voor de kolom. Het is één getal. Het wordt, echter, getoond als kolom van aantallen.
+Als u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat totaal door het aantal items in de kolom. Dat getal is de variantie voor de kolom. Het is een enkel getal. Deze wordt echter weergegeven als een kolom met getallen.
 
-Als voorbeeld, zeg u een drie-puntskolom hebt:
+Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 1
 
@@ -315,7 +315,7 @@ Als voorbeeld, zeg u een drie-puntskolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad hoc Analyse zal dit als dit kijken:
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In de ad hoc analyse zal dit als volgt kijken:
 
 1 2/3
 
