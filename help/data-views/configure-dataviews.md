@@ -64,7 +64,7 @@ Het model beschrijft de distributie van omzettingen in de gebeurtenissen in een 
 
 ### Verlopen
 
-Geeft een tijdsperiode op, of een gebeurtenis, waarna de waarde van de dimensie vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
+Geeft een tijdsperiode op, of gebeurtenis, waarna de waarde van de dimensie vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
 
 | Instelling | Definitie |
 |---|---|
