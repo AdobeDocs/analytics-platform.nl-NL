@@ -9,11 +9,11 @@ source-git-commit: 43d7606886c1e1e51c549d4741924a902a7de26c
 
 # Verbindingen beheren
 
-Zodra u één of meerdere verbindingen hebt gecreeerd, kunt u hen in de Manager van Verbindingen beheren. U kunt
+Nadat u een of meer verbindingen hebt gemaakt, kunt u deze beheren in Connections Manager. U kunt
 
-* Verwijder een verbinding.
-* Noem een verbinding anders.
-* Creeer een gegevensmening van een verbinding.
+* Een verbinding verwijderen.
+* Wijzig de naam van een verbinding.
+* Maak een gegevensweergave via een verbinding.
 * Gegevensstreaming starten en stoppen.
 
 ![Verbindingsbeheer](assets/connections-manager.png)
@@ -22,13 +22,13 @@ Zodra u één of meerdere verbindingen hebt gecreeerd, kunt u hen in de Manager 
 
 2. Selecteer welke verbinding(en) u wilt bewerken of beheren.
 
-3. Voltooi één van de volgende acties:
+3. Voer een van de volgende handelingen uit:
 
-   | Actie | Beschrijving |
+   | Handeling | Beschrijving |
    |---|---|
-   | Verwijderen | Het schrappen van een verbinding schrapt niet de dataset, aangezien het gegeven nog in het Platform van de Ervaring van Adobe is. |
-   | Naam wijzigen | Een verbinding anders noemen... |
-   | Gegevensweergave maken | Deze verbinding neemt u aan de bouwer van de [gegevensmening](/help/data-views/create-dataview.md). |
-   | Gegevensstreaming starten of stoppen | &quot;Streaming&quot; betekent dat als er nieuwe batches worden toegevoegd aan een van de datasets in de verbinding, deze nieuwe gegevens worden meegenomen in de Klant Journey Analytics voor rapportage. |
+   | Verwijderen | Als u een verbinding verwijdert, wordt de gegevensset niet verwijderd, omdat de gegevens zich nog steeds in het Adobe Experience Platform bevinden. |
+   | Naam wijzigen | De naam van een verbinding wijzigen... |
+   | Gegevensweergave maken | Met deze koppeling gaat u naar de builder van de [gegevensweergave](/help/data-views/create-dataview.md). |
+   | Gegevensstreaming starten of stoppen | &quot;Streaming&quot; betekent dat als er nieuwe batches worden toegevoegd aan een van de gegevenssets in de verbinding, deze nieuwe gegevens worden overgebracht naar de Analyse van de Reis van de Klant voor rapportage. |
 
 
