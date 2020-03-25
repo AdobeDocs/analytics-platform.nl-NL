@@ -254,7 +254,7 @@ SQRT(metric)
 
 ## Standaardafwijking (tabel)
 
-Retourneert de standaardafwijking of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
+Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor STDEV is:
 
