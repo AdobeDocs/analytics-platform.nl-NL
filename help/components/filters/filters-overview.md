@@ -30,7 +30,7 @@ Hier volgt een voorbeeld:
 
 | Eén bezoeken | Twee bezoeken | Drie bezoeken |
 |---|---|---|
-| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sluit de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C) en vervolgens naar een nieuwe pagina (D). | De bezoeker ging en volgde hetzelfde pad als bij de eerste en tweede bezoeken, en sloot vervolgens pagina F uit om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
+| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sloot de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C), en toen naar een nieuwe pagina (D). | De bezoeker heeft hetzelfde pad ingevoerd en gevolgd als bij de eerste en de tweede bezoeken, en heeft vervolgens pagina F uitgesloten om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
 
 ## Filtercontainers
 
