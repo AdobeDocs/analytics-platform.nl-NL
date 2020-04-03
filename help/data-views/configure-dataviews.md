@@ -32,7 +32,7 @@ Houd dit in gedachten voordat u attributie-instellingen toepast:
 Nadat u de instellingen [voor de gegevensweergave en toegevoegde componenten hebt](/help/data-views/create-dataview.md) ingesteld en opgeslagen, kunt u desgewenst toewijzingsinstellingen opgeven. U kunt de instellingen voor kenmerk/vervaldatum/terugzoekfunctie opgeven voor afmetingen en metriek. Als u bijvoorbeeld wilt dat een dimensie blijft bestaan, wilt u waarschijnlijk een aangepaste vervaltijd instellen. Als u bijvoorbeeld wilt dat de afmeting &#39;Tracking code&#39; (een campagnevariabele) wordt ingesteld op de kenmerk &#39;Last Touch&#39; voor een week behouden blijft, voegt u een aangepaste vervaldatum van 1 week toe.
 
 >[!IMPORTANT]
->U kunt de toewijzing/vervaldatum niet instellen. In dat geval zullen de afmetingen zich gedragen als de punten (het &quot;Zelfde aanraakattributiemodel&quot;). Metriek zonder ingestelde attributie-instellingen nemen de instellingen over voor de dimensie waarop deze metrische waarde wordt toegepast.
+>U kunt de toewijzing/vervaldatum niet instellen. In dat geval zullen de afmetingen zich gedragen als de punten (het attributiemodel &quot;Zelfde aanraking&quot;). Metriek zonder ingestelde attributie-instellingen nemen de instellingen over voor de dimensie waarop deze metrische waarde wordt toegepast.
 
 ![](assets/edit-component.png)
 
@@ -64,7 +64,7 @@ Het model beschrijft de distributie van omzettingen in de gebeurtenissen in een 
 
 ### Verlopen
 
-Geeft een tijdsperiode op, of gebeurtenis, waarna de waarde van de dimensie vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
+Geeft een tijdsperiode op, of een gebeurtenis, waarna de waarde van de dimensie vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
 
 | Instelling | Definitie |
 |---|---|
