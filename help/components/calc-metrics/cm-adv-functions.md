@@ -2,7 +2,7 @@
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -27,7 +27,7 @@ Aan de andere kant, als u twee metriek hebt die u geinteresseerd in bent, kan he
 
 Retourneert de waarde van het argument ervan. Gebruik NOT om ervoor te zorgen dat een waarde niet gelijk is aan één bepaalde waarde.
 
-> [!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
+>[!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -203,7 +203,7 @@ Retourneert het gemiddelde van de laatste N-rijen.
 
 Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wordt bevolen is het slechts nuttig op afmetingen die een natuurlijke orde zoals datum of weglengte hebben.
 
-> [!NOTE] Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/bezoeker: het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en bezoekers over de laatste N op te tellen en ze vervolgens te verdelen. Gebruik in plaats daarvan
+>[!NOTE] Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/bezoeker: het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en bezoekers over de laatste N op te tellen en ze vervolgens te verdelen. Gebruik in plaats daarvan
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -446,7 +446,7 @@ Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.
 
 Geeft TRUE terug als een argument TRUE is, of FALSE als alle argumenten FALSE zijn.
 
-> [!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
+>[!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -687,7 +687,7 @@ De vergelijking voor Z-score is:
 
 waar [!DNL x] de onbewerkte score is, [!DNL μ] is het gemiddelde van de populatie en [!DNL σ] is de standaardafwijking van de populatie.
 
-> [!NOTE] [!DNL μ] (mu) en[!DNL σ] (sigma) worden automatisch berekend op basis van de meting.
+>[!NOTE] [!DNL μ] (mu) en[!DNL σ] (sigma) worden automatisch berekend op basis van de meting.
 
 Z-score (metrisch)
 
@@ -712,5 +712,5 @@ Voert een n-tailed Z-test met Z-score van A uit.
 
 Retourneert de waarschijnlijkheid dat de huidige rij toevallig in de kolom kan worden weergegeven.
 
-> [!NOTE] gaat ervan uit dat de waarden normaal worden verdeeld.
+>[!NOTE] gaat ervan uit dat de waarden normaal worden verdeeld.
 
