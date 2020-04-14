@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over klantreisanalyse
 description: Analyse van de reis van de klant - Veelgestelde vragen.
 translation-type: tm+mt
-source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
+source-git-commit: 69f9154387ec11e9b1ec6f867ebab6d556451a9a
 
 ---
 
@@ -12,17 +12,17 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 | Vraag | Antwoord |
 |---|---|
 | **Vereisten** |  |
-| Hebt u apparaatgrafiek of apparaatcoop nodig voor de analyse van de reis van de klant? | No, Private Device Graph or Device Coop is not required for Customer Journey Analytics. Ze worden zelfs nog niet ondersteund. |
-| Hebt u de Experience Cloud ID (ECID) nodig voor de analyse van de reis van de klant? | Nee, de Analyse van de Reis van de Klant steunt om het even welke identiteitskaart in een dataset, of dat ECID of om het even welke andere identiteitskaart is u kiest. |
+| Hebt u de Grafiek van het Apparaat of Coop van het Apparaat voor [!UICONTROL Customer Journey Analytics]nodig? | Nee, persoonlijke apparaatgrafiek of apparaatcoop zijn niet vereist voor [!UICONTROL Customer Journey Analytics]. Ze worden zelfs nog niet ondersteund. |
+| Hebt u ECID (Experience Cloud ID) nodig voor [!UICONTROL Customer Journey Analytics]? | Nr, [!UICONTROL Customer Journey Analytics] steunt om het even welke identiteitskaart in een dataset, of dat ECID of een andere identiteitskaart is u kiest. |
 | Wat gebeurt er als u uw gegevens vóór de analyse van de reis van de klant moet uitpakken, transformeren, laden? | Vandaag, moet u met een partner ETL (Unifi of Informatica) werken als u uw gegevens moet omzetten alvorens het in AEP te zetten. Als u ETL nodig hebt nadat de gegevens al zijn ingevoerd, biedt AEP Query Services enkele beperkte opties. |
 | **Stiksel** |  |
-| Kan de Analyse van de Reis van de Klant op apparaten of over datasets &quot;aansluiten&quot;? | Nee. De Analyse van de Reis van de klant is een &quot;breng-uw-identiteitskaart&quot;analysesysteem. In de werkzaamheden staan plannen voor een goede aanpak. |
+| Kan [!UICONTROL Customer Journey Analytics] &quot;vastmaken&quot;over apparaten of over datasets? | Nee. [!UICONTROL Customer Journey Analytics] is een &#39;breng-uw-eigen-identiteitskaart&#39; analysesysteem. In de werkzaamheden staan plannen voor een goede aanpak. |
 | Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund? | Nee, nog niet. |
-| **Gegevens ophalen in de reisanalyse van de klant** |  |
-| Wat is de verwachte latentie voor de Analyse van de Reis van de Klant op Platform? | <ul><li>Onder normale belasting: &lt; 60<br>**minutenOpmerking:**In het geval van een ongebruikelijk hoog volume van gegevensstroom door de pijpleiding, zou het tot 24 uren kunnen vergen.</li><li>Back-upgegevens (maximaal 10 miljard gebeurtenissen): &lt; 4 weken</li></ul> |
-| Hoe verbindt u online gegevens met off-line gegevens in de Analyse van de Reis van de Klant? | De Analyse van de Reis van de klant is een &quot;breng uw eigen identiteitskaart&quot;analysesysteem. Zolang de persoon identiteitskaart tussen datasets aanpast, kan de Analyse van de Reis van de Klant segmenten, attributie, stroom, reserve, enz. verbinden over datasets. |
-| Hoe breng ik mijn offline gegevens naar de Analyse van de Reis van de Klant? | Klanten moeten eerst alle gegevens naar AEP brengen voordat ze deze kunnen gebruiken met Customer Reader Analytics. De gegevens van het Experience Platform over instapkaartteam kunnen klanten indien nodig helpen aanbevelingen of advies te geven. |
-| Hoe krijg ik Analytische gegevens in de Analyse van de Reis van de Klant? | De analysegegevens kunnen met AEP door de Verbinding van Gegevens van Analytics worden verbonden. De meeste analytische gebieden worden gebracht over in formaat XDM, maar andere gebieden zijn nog niet beschikbaar (als de afmetingen van de Kanalen van de Marketing). |
+| **Gegevens ophalen in[!UICONTROL Customer Journey Analytics]** |  |
+| Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Experience Platform]? | <ul><li>Onder normale belasting: &lt; 60<br>**minutenOpmerking:**In het geval van een ongebruikelijk hoog volume van gegevensstroom door de pijpleiding, zou het tot 24 uren kunnen vergen.</li><li>Back-upgegevens (maximaal 10 miljard gebeurtenissen): &lt; 4 weken</li></ul> |
+| Hoe verbindt u online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] is een &#39;breng je eigen id&#39; analysesysteem. Zolang de persoonidentiteitskaart tussen datasets aanpast, [!UICONTROL Customer Journey Analytics] kan segmenten, attributie, stroom, reserve, enz. verbinden over datasets. |
+| Hoe breng ik mijn offline gegevens naar de Analyse van de Reis van de Klant? | Klanten moeten eerst alle gegevens naar het Experience Platform verzenden voordat ze deze kunnen gebruiken met Customer Reader Analytics. De gegevens van het Experience Platform over instapkaartteam kunnen klanten indien nodig helpen aanbevelingen of advies te geven. |
+| Hoe krijg ik Analytische gegevens in de Analyse van de Reis van de Klant? | De analysegegevens kunnen met het Platform van de Ervaring door de Verbinding van Gegevens van Analytics worden verbonden. De meeste analytische gebieden worden gebracht over in formaat XDM, maar andere gebieden zijn nog niet beschikbaar (als de afmetingen van de Kanalen van de Marketing). |
 | Hoe lang duurt het om datasetelementen in een gegevensmening samen te stellen? | Een paar uur om te beginnen en een paar dagen om een back-up te maken van de laatste 13 maanden van gegevens. |
 | Is het noodzakelijk om PII gegevens te brengen om verbindingen tussen de gegevens te vestigen? | Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel van een klant identiteitskaart gebruiken, die geen PII is. |
 | **Traditionele analytische componenten** |  |
