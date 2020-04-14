@@ -2,7 +2,7 @@
 title: CJA-documentatieupdates
 description: 'Geeft een overzicht van de inhoudsupdates voor de documentatie van Reisanalyse van de Klant die sinds december 2019 is ingesteld. '
 translation-type: tm+mt
-source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
+source-git-commit: f147f4b2a68cc1ce52356ab763546bfe7dc622da
 
 ---
 
@@ -13,5 +13,6 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| 14 april 2020 | Updates aan recentste UI in het [Create onderwerp van Verbindingen](/help/connections/create-connection.md) . |
 | 27 februari 2020 | Updates van de pagina Ondersteuning [van de functie](/help/getting-started/cja-aa.md) Klantenanalyse. |
 | december 2019 | Eerste conceptversie van CJA-documentatie |
