@@ -2,7 +2,7 @@
 title: Een gegevensweergave maken
 description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in de Analyse van de Reis van de Klant (CJA).
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
 ## Vereiste
 
-Voordat u gegevensweergaven kunt maken, moet u een of meer verbindingen [instellen met de gegevenssets](/help/connections/create-connection.md)van het Adobe Experience Platform.
+Voordat u gegevensweergaven kunt maken, moet u een of meer verbindingen [instellen om de gegevenssets van het platform] te gebruiken.](/help/connections/create-connection.md).
 
 ## Instellingen configureren
 
@@ -27,7 +27,7 @@ Voordat u gegevensweergaven kunt maken, moet u een of meer verbindingen [instell
 
    | Sessieinstelling | Definitie |
    |---|---|
-   | Verbinding | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die de dataset/s van het Platform bevat. |
+   | Verbinding | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die de [!UICONTROL Experience Platform] dataset/s bevat. |
    | Naam | Het is verplicht de gegevensweergave een naam te geven. |
    | Beschrijving | Een gedetailleerde beschrijving is niet verplicht, maar aanbevolen. |
    | Codes toevoegen | Met tags kunt u de gegevensweergaven indelen in categorieën. |
