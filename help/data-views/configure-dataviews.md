@@ -2,7 +2,7 @@
 title: Gegevensweergaven en -toewijzing configureren
 description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in de Analyse van de Reis van de Klant
 translation-type: tm+mt
-source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Houd dit in gedachten voordat u attributie-instellingen toepast:
 
 * In de gebruikersinterface van gegevensweergaven geeft u de standaardtoewijzing op. **Opmerking**: Op een latere datum kunt u deze instellingen overschrijven in Workspace-projecten. Deze functionaliteit is momenteel echter niet beschikbaar.
 
-* De montages van de attributie in de Analyse van de Reis van de Klant zijn niet-destructief en retroactief. Met andere woorden, u kunt geen onherstelbare schade aan uw datasets in de Analyse van de Reis van de Klant doen. Zelfs als u per ongeluk iets schrapt, kunt u altijd teruggaan naar het Platform van de Ervaring en de dataset terugbrengen binnen. (Houd er echter rekening mee dat extra kosten ontstaan wanneer de gegevensset weer wordt ingevoerd.)
+* De montages van de attributie in de Analyse van de Reis van de Klant zijn niet-destructief en retroactief. Met andere woorden, u kunt geen onherstelbare schade aan uw datasets in de Analyse van de Reis van de Klant doen. Zelfs als u per ongeluk iets schrapt, kunt u altijd terugkeren naar [!UICONTROL Experience Platform] en de dataset terug binnen brengen. (Houd er echter rekening mee dat extra kosten ontstaan wanneer de gegevensset weer wordt ingevoerd.)
 
 * Als u een afmeting &quot;gedraagt&quot;als traditionele eVar (omzettingsvariabele) wilt hebben, zou u het met &quot;Last Touch Visit&quot;attributie door gebrek moeten vormen.
 
@@ -32,7 +32,7 @@ Houd dit in gedachten voordat u attributie-instellingen toepast:
 Nadat u de instellingen [voor de gegevensweergave en toegevoegde componenten hebt](/help/data-views/create-dataview.md) ingesteld en opgeslagen, kunt u desgewenst toewijzingsinstellingen opgeven. U kunt de instellingen voor kenmerk/vervaldatum/terugzoekfunctie opgeven voor afmetingen en metriek. Als u bijvoorbeeld wilt dat een dimensie blijft bestaan, wilt u waarschijnlijk een aangepaste vervaltijd instellen. Als u bijvoorbeeld wilt dat de afmeting &#39;Tracking code&#39; (een campagnevariabele) wordt ingesteld op de kenmerk &#39;Last Touch&#39; voor een week behouden blijft, voegt u een aangepaste vervaldatum van 1 week toe.
 
 >[!IMPORTANT]
->U kunt de toewijzing/vervaldatum niet instellen. In dat geval zullen de afmetingen zich gedragen als de punten (het attributiemodel &quot;Zelfde aanraking&quot;). Metriek zonder ingestelde attributie-instellingen nemen de instellingen over voor de dimensie waarop deze metrische waarde wordt toegepast.
+>U kunt de toewijzing/vervaldatum niet instellen. In dat geval zullen de afmetingen zich gedragen als de punten (het &quot;Zelfde aanraakattributiemodel&quot;). Metriek zonder ingestelde attributie-instellingen nemen de instellingen over voor de dimensie waarop deze metrische waarde wordt toegepast.
 
 ![](assets/edit-component.png)
 
