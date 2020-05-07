@@ -2,7 +2,10 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
 >[!IMPORTANT]
-Filters worden in Adobe Analytics &#39;segments&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters, omdat Adobe Experience Platform een andere definitie heeft voor &quot;segment&quot;. Een segment in AEP verwijst naar..
+>Filters worden in Adobe Analytics &#39;segments&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters, omdat Adobe Experience Platform een andere definitie heeft voor &quot;segment&quot;.
 
 Filteren omvat de [Bouwer](/help/components/filters/create-filters.md) van de Filter om filters te construeren en een pre-test in werking te stellen, en de Manager [van de](/help/components/filters/manage-filters.md) Filter om filters over uw organisatie te verzamelen, te etiketteren, goed te keuren, te plaatsen en te delen.
 
@@ -30,7 +33,7 @@ Hier volgt een voorbeeld:
 
 | Eén bezoeken | Twee bezoeken | Drie bezoeken |
 |---|---|---|
-| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sloot de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C), en toen naar een nieuwe pagina (D). | De bezoeker heeft hetzelfde pad ingevoerd en gevolgd als bij de eerste en de tweede bezoeken, en heeft vervolgens pagina F uitgesloten om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
+| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sluit de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C) en vervolgens naar een nieuwe pagina (D). | De bezoeker heeft hetzelfde pad ingevoerd en gevolgd als bij de eerste en de tweede bezoeken, en heeft vervolgens pagina F uitgesloten om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
 
 ## Filtercontainers
 
