@@ -2,7 +2,10 @@
 title: Verbinding maken
 description: Beschrijft hoe te om een verbinding aan een dataset van het Platform in de Analyse van de Reis van de Klant tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: f17994c7d6812480102b9dc5fdbfc4609d2d1012
+source-git-commit: b81116bba59c4b52dfe5b8b628c581e332a05c48
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,11 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
 ![Verbinding maken](assets/create-connection.png)
 
-1. De linkerspoorstaaf toont alle datasets in [!DNL Experience Platform] die u kunt trekken. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**. (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
+1. Kies eerst een sandbox in Experience Platform die de gegevensset of gegevenssets bevat waarmee u verbinding wilt maken. Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) die één platforminstantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. U kunt sandboxen beschouwen als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om de toegang tot gegevenssets te beheren. U hebt geen toegang tot gegevens in verschillende sandboxen.
 
-1. Daarna, voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen. Er zijn 3 verschillende datasettypes: [!UICONTROL Event] , gegevens, [!UICONTROL Profile] en [!UICONTROL Lookup] gegevens.
+1. Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**. (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
+
+1. Daarna, voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen. Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens en [!UICONTROL Lookup] gegevens.
 
    | Type gegevensset | Beschrijving | Tijdstempel | Schema | Persoon-id |
    |---|---|---|---|---|
