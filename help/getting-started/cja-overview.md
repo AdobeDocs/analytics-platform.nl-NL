@@ -2,7 +2,10 @@
 title: Overzicht van de analyse van de reis van de klant
 description: Introductie van de analyse van de reis van de klant
 translation-type: tm+mt
-source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
+source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ CJA integreert met de datasets van het Platform van de Ervaring van Adobe en laa
 
 De Analyse van de Reis van de Klant laat u:
 
-* **Raadpleeg de klant in een reiscontext**: U kunt gegevens opeenvolgend bekijken en analyseren, die veelvoudige kanalen overspannen. Gegevens van callcenter, POS-systemen en online eigenschappen kunnen worden gecombineerd in één rapportweergave.
+* **Raadpleeg de klant in een reiscontext**: U kunt gegevens opeenvolgend bekijken en analyseren, die veelvoudige kanalen overspannen. De gegevens van uw vraagcentrum, POS systemen, en online eigenschappen kunnen in één enkele rapporteringsmening worden gecombineerd.
 * **Inzichten voor iedereen** beschikbaar maken: De gegevenstoegang van de democratisering en meer mensen laten bedrijfsbesluiten met gegeven-afgeleide inzichten maken. Iedereen in de organisatie met verantwoordelijkheid voor om het even welk aspect van de klantenervaring kan echte besluiten sneller maken, die op volledigere gegevens worden gebaseerd.
 * **Maak gebruik van de kracht van gegevenswetenschap voor uw analisten**: De Analyse van de Reis van de klant laat normale mensen gegevenswetenschap gebruiken om diepe inzichten en analyse te ontsluiten.
 * **Visualiseer en interactie met uw datasets gebruikend ad hoc rapportering**: De werkruimte kan om het even welke dataset van het Platform van de Ervaring van Adobe gebruiken die aan sommige basisregels voldoet.
