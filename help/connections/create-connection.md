@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om een verbinding aan een dataset van het Platform in de Analyse van de Reis van de Klant tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
+source-git-commit: 4b672b0decfecc5a3c607ad966ebb2ecbf178a96
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '834'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,8 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
    ![Verbinding maken](assets/create-connection.png)
 
-1. Kies eerst een sandbox in Experience Platform die de gegevensset of gegevenssets bevat waarmee u verbinding wilt maken. Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) die één platforminstantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. U kunt sandboxen beschouwen als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om de toegang tot gegevenssets te beheren. U hebt geen toegang tot gegevens in verschillende sandboxen.
+1. Kies onder **[!UICONTROL Select Datasets]** eerst een gegevensset [!UICONTROL sandbox] in het ervaringsplatform met de gegevensset(s) waarmee u verbinding wilt maken.
+Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) die één platforminstantie in afzonderlijke virtuele omgevingen verdelen. U kunt aan [!UICONTROL sandboxes] &quot;gegevenssilo&#39;s&quot;denken die gegevensreeksen bevatten en worden gebruikt om toegang tot gegevensreeksen te controleren. U hebt geen toegang tot gegevens over [!UICONTROL sandboxes]de verschillende zijden.
 
 1. Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**. (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
 
