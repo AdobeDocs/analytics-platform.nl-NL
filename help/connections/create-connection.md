@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om een verbinding aan een dataset van het Platform in de Analyse van de Reis van de Klant tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: 4b672b0decfecc5a3c607ad966ebb2ecbf178a96
+source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '842'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,17 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
    ![Verbinding maken](assets/create-connection.png)
 
-1. Kies onder **[!UICONTROL Select Datasets]** eerst een gegevensset [!UICONTROL sandbox] in het ervaringsplatform met de gegevensset(s) waarmee u verbinding wilt maken.
-Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) die één platforminstantie in afzonderlijke virtuele omgevingen verdelen. U kunt aan [!UICONTROL sandboxes] &quot;gegevenssilo&#39;s&quot;denken die gegevensreeksen bevatten en worden gebruikt om toegang tot gegevensreeksen te controleren. U hebt geen toegang tot gegevens over [!UICONTROL sandboxes]de verschillende zijden.
+1. Kies een zandbak in het Platform van de Ervaring dat de dataset/s bevat waaraan u een verbinding wilt tot stand brengen.
 
-1. Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**. (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
+   Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) die één platforminstantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. U kunt sandboxen beschouwen als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om de toegang tot gegevenssets te beheren. U hebt geen toegang tot gegevens in verschillende sandboxen. Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken.
 
-1. Daarna, voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen. Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens en [!UICONTROL Lookup] gegevens.
+1. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**.
+
+   (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
+
+1. Daarna, voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
+
+   Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens en [!UICONTROL Lookup] gegevens.
 
    | Type gegevensset | Beschrijving | Tijdstempel | Schema | Persoon-id |
    |---|---|---|---|---|
@@ -39,7 +44,7 @@ Adobe Experience Platform biedt [sandboxen](https://docs.adobe.com/content/help/
    | [!UICONTROL Lookup] | Dit is gelijk aan een bestand met classificaties. Deze gegevens worden gebruikt om waarden of toetsen in uw gebeurtenis- of profielgegevens op te zoeken. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
    | [!UICONTROL Profile] | Analoog aan [!UICONTROL Customer Attributes] - voor niet-veranderende en niet-temporale kenmerken. Gegevens die worden toegepast op uw bezoekers, gebruikers of klanten in de [!UICONTROL Event] gegevens. Bijvoorbeeld, staat u toe om de gegevens van CRM over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de gegevensset is gedefinieerd, [!DNL Experience Platform] heeft een eigen set met een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort.<br>![Persoon](assets/person-id.png)**IDNote **: Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
 
-1. Als u klikt, gaat **[!UICONTROL Next]** u naar het [!UICONTROL Create Connection] dialoogvenster.
+1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Create Connection] dialoogvenster te gaan.
 
    ![Verbinding maken](assets/create-connection2.png)
 
