@@ -2,7 +2,10 @@
 title: Gecombineerde gegevenssets
 description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
 translation-type: tm+mt
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -58,8 +61,8 @@ Als de verbinding alleen de eerste tabel en niet de tweede bevat, ziet u het vol
 
 | string_color | metrisch_a |
 | --- | --- |
-| Blauw | 5 |
 | Niet opgegeven | 6 |
+| Blauw | 3 |
 | Rood | 2 |
 
 Nochtans, als u beide lijsten in uw verbinding omvatte, verandert de attributie aangezien in beide datasets `user_847` is. Een rij van de tweede dataset kenmerken `metric_a` aan &quot;Geel&quot;waar zij vroeger niet specificeerden:
@@ -67,5 +70,5 @@ Nochtans, als u beide lijsten in uw verbinding omvatte, verandert de attributie 
 | string_color | metrisch_a |
 | --- | --- |
 | Geel | 6 |
-| Rood | 2 |
 | Blauw | 3 |
+| Rood | 2 |
