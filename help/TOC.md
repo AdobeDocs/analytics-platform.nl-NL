@@ -2,7 +2,7 @@
 git-repo: https://github.com/adobedocs/analytics-platform.en
 cloud: experience-cloud
 product: adobe analytics
-sub-product: customer journey
+sub-product: reis van klant
 index: true
 user-guide-title: Customer Journey Analytics Guide
 solution-title: Experience Cloud
@@ -13,24 +13,23 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Zelfstudies
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
+source-git-commit: d8450b8435400aa16ce4d87868f804b82d1df4d7
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 58%
 
 ---
 
 
-# Help voor analyse van klantreizen {#using}
+# Customer Journey Analytics Help {#using}
 
-+ [Productdocumentatie voor klantreisanalyse](getting-started/cja-landing.md)
-+ Overzicht van de analyse van de reis van de klant {#cja-overview}
-   + [Overzicht van de analyse van de reis van de klant](getting-started/cja-overview.md)
++ [Customer Journey Analytics-productdocumentatie](getting-started/cja-landing.md)
++ Customer Journey Analytics overview {#cja-overview}
+   + [Customer Journey Analytics-overzicht](getting-started/cja-overview.md)
    + [Aan de slag](getting-started/cja-getting-started.md)
    + [Veelgestelde vragen](getting-started/cja-faq.md)
-   + [Klantenservice voor analyse van reisgegevens](getting-started/cja-aa.md)
+   + [Ondersteuning voor Customer Journey Analytics-functies](getting-started/cja-aa.md)
    + [Verklarende woordenlijst](getting-started/cja-glossary.md)
-+ Werkruimteprojecten {#cja-reporting}
-   + [Inleiding tot werkruimte](projects/workspace-basics.md)
-   + [Basisanalyse uitvoeren](projects/perform-basic-analysis.md)
-   + [Geavanceerde analyse uitvoeren](projects/perform-adv-analysis.md)
 + Verbindingen {#cja-connections}
    + [Verbinding maken](connections/create-connection.md)
    + [Verbindingen beheren](connections/manage-connection.md)
@@ -38,12 +37,96 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 + Gegevens {#cja-dataviews}
    + [Een gegevensweergave maken](data-views/create-dataview.md)
    + [Gegevensweergaven en -toewijzing configureren](data-views/configure-dataviews.md)
-+ Componenten {#cja-components}
++ Werkruimteprojecten {#cja-workspace}
+   + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
+   + [Basisanalyse uitvoeren](analysis-workspace/perform-basic-analysis.md)
+   + [Geavanceerde analyse uitvoeren](analysis-workspace/perform-adv-analysis.md)
+   + Een Workspace-project maken {#build-workspace-project}
+      + [Project maken - overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
+      + Instellingen voor kolommen en rijen {#column-row-settings}
+         + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
+         + [Rij-instellingen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
+         + [Handmatige versus dynamische rijen](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Instellingen ongedaan maken en opnieuw uitvoeren](analysis-workspace/build-workspace-project/undo-redo.md)
+      + [Beschikbare hotkeys in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Pagineren, filteren en tabellen sorteren](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
+      + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
+      + [Workspace-totalen](analysis-workspace/build-workspace-project/workspace-totals.md)
+   + Visualisaties {#visualizations}
+      + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Databronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Vrije-vormentabel](analysis-workspace/visualizations/freeform-table.md)
+      + Cohorttabel {#cohort-table}
+         + [Wat is cohortanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Een rapport voor cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Gebruiksgevallen van cohortanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+      + Uitval {#fallout}
+         + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Een uitvalvisualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Interdimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Filters toepassen in falloutanalyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+      + Stroom {#flow}
+         + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
+         + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Stroominstellingen](analysis-workspace/visualizations/c-flow/flow-settings.md)
+         + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + [Histogram](analysis-workspace/visualizations/histogram.md)
+      + [Venn](analysis-workspace/visualizations/venn.md)
+      + [Gebied en gestapeld gebied](analysis-workspace/visualizations/area.md)
+      + [Balkgrafiek en gestapelde-balkgrafiek](analysis-workspace/visualizations/bar.md)
+      + [Staafdiagram](analysis-workspace/visualizations/bullet-graph.md)
+      + [Cirkeldiagram](analysis-workspace/visualizations/donut.md)
+      + [Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Lijn](analysis-workspace/visualizations/line.md)
+      + [Spreidingsdiagram](analysis-workspace/visualizations/scatterplot.md)
+      + [Cijferoverzicht en Wijzigingsoverzicht](analysis-workspace/visualizations/summary-number-change.md)
+      + [Tekst](analysis-workspace/visualizations/text.md)
+      + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
+   + Deelvensters {#panels}
+      + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
+      + [Deelvenster voor attributie](analysis-workspace/c-panels/attribution.md)
+      + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
+      + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
+      + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
+   + Projecten selecteren of delen {#curate-share}
+      + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
+      + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Alleen-weergeven werkruimteprojecten](analysis-workspace/curate-share/view-only-projects.md)
+      + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
+      + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Beheer geplande projecten](analysis-workspace/curate-share/schedule-projects.md)
+   + Attribution IQ {#attribution}
+      + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
+      + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
+      + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
+      + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
+   + Virtual Analyst {#virtual-analyst}
+      + [Overzicht van Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
+      + Anomaliedetectie {#anomaly-detection}
+         + [Overzicht van anomaliedetectie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+         + [Anomalieën weergeven in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
+         + [Statistische technieken voor anomaliedetectie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + Veelgestelde vragen over Workspace {#workspace-faq}
+      + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
+      + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Beperkingen van Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Beheervereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
++ Onderdelen {#cja-components}
+   + [Overzicht van onderdelen](components/overview.md)
+   + Dimensies {#dimensions}
+      + [Voorvertoningsdimensies](components/dimensions/view-dimensions.md)
+      + [Uitsplitsingsdimensies](components/dimensions/t-breakdown-fa.md)
+      + [Tijduitsplitsende dimensies](components/dimensions/time-parting-dimensions.md)
+   + [Cijfers](components/apply-create-metrics.md)
    + Filters {#cja-filters}
       + [Overzicht van filters](components/filters/filters-overview.md)
       + [Een filter maken](components/filters/create-filters.md)
       + [Filters beheren](components/filters/manage-filters.md)
-   + Berekende cijfers {#cja-calcmetrics}
+   + Berekende statistieken {#cja-calcmetrics}
       + [Overzicht van berekende metriek](components/calc-metrics/calc-metr-overview.md)
       + [Een berekende metrische waarde maken](components/calc-metrics/create.md)
       + [Berekende waarden beheren](components/calc-metrics/manage.md)
@@ -53,12 +136,11 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
       + [Overzicht van datumbereiken](components/date-ranges/overview.md)
       + [Een datumbereik maken](components/date-ranges/create.md)
       + [Datumbereiken beheren](components/date-ranges/manage.md)
-   + Projecten {cja-projecten}
-      + [Overzicht van projecten](components/projects/overview.md)
-      + [Een project maken](components/projects/create.md)
-      + [Projecten beheren](components/projects/manage.md)
+      + [Overzicht van agenda](components/date-ranges/calendar.md)
+      + [Aangepaste datumbereiken maken](components/date-ranges/custom-date-ranges.md)
+      + [Datumvergelijking](components/date-ranges/time-comparison.md)
 + Gebruik hoofdletters {#cja-usecases}
-   + [Gebruiksscenario&#39;s voor Analyse van reizen van klanten](use-cases/cja-usecases.md)
+   + [Customer Journey Analytics-gebruikskwesties](use-cases/cja-usecases.md)
 + Privacy {#cja-privacy}
    + [Privacyoverzicht](privacy/privacy-overview.md)
 + [CJA-documentatieupdates](doc-changes.md)
