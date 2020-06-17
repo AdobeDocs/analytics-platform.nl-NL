@@ -2,12 +2,17 @@
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 translation-type: tm+mt
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '2946'
+ht-degree: 1%
 
 ---
 
 
 # Referentie - geavanceerde functies
+
+>[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U hebt toegang tot deze functies door deze te controleren **[!UICONTROL Show Advanced]** in de **[!UICONTROL Functions]** vervolgkeuzelijst.
 
@@ -687,7 +692,7 @@ De vergelijking voor Z-score is:
 
 waar [!DNL x] de onbewerkte score is, [!DNL μ] is het gemiddelde van de populatie en [!DNL σ] is de standaardafwijking van de populatie.
 
->[!NOTE] [!DNL μ] (mu) en[!DNL σ] (sigma) worden automatisch berekend op basis van de meting.
+>[!NOTE] [!DNL μ] (mu) en (sigma[!DNL σ] ) worden automatisch berekend op basis van de meting.
 
 Z-score (metrisch)
 
