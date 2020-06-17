@@ -2,12 +2,17 @@
 title: Referentie - basisfuncties
 description: 'Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen. '
 translation-type: tm+mt
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 2%
 
 ---
 
 
 # Referentie - basisfuncties
+
+>[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 
@@ -273,7 +278,7 @@ STDEV(metric)
    <td> <b> Beschrijving</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metrisch</i></b> </td> 
+   <td> <b> <i> metrisch</i> </b> </td> 
    <td> <p> De metrische waarde waarvoor u standaardafwijking wilt. </p> </td> 
   </tr> 
  </tbody> 
@@ -315,7 +320,7 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In de ad hoc analyse zal dit als volgt kijken:
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In het Ad hoc analysis ziet dit er zo uit:
 
 1 2/3
 
