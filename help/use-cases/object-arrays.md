@@ -1,16 +1,16 @@
 ---
-title: CJA gebruiken met arrays van objecten
+title: Arrays van objecten gebruiken
 description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
 translation-type: tm+mt
-source-git-commit: b7cd74f3fe2f0222e78452f58a7c387f6e0c86d2
+source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# CJA gebruiken met arrays van objecten
+# Arrays van objecten gebruiken
 
 Sommige platformschema&#39;s kunnen objectarrays hebben. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
 
@@ -206,7 +206,7 @@ Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat de waa
       "SKU": "1234", 
       "category": "Washing Machines", 
       "name": "LG Washing Machine 2000", 
-      "orders": 1, 
++      "orders": 1, 
       "revenue": 1600, 
       "units": 1,
       "order_id":"abc123", 
@@ -239,3 +239,30 @@ Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat de waa
 +  "timestamp": 1534219229
 +}
 ```
+
+Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die worden toegewezen aan de waarde van de &#39;Niet-opgegeven&#39; dimensie.
+
+### Metrische gegevens combineren
+
+In CJA worden metriek met dezelfde naam niet native gecombineerd als deze op verschillende objectniveaus staan.
+
+| `product : category` | `product : revenue` | `product : warranty : revenue` |
+| --- | --- | --- |
+| `Washing Machines` | `1600` | `250` |
+| `Dryers` | `500` | `0` |
+| `Total` | `2100` | `250` |
+
+U kunt echter wel een berekende maateenheid maken die de gewenste maatstaven combineert:
+
+Berekende metrische &quot;totale inkomsten&quot;: `[product : revenue] + [product : warranty : revenue]`
+
+Wanneer u deze berekende metrische waarde toepast, worden de gewenste resultaten weergegeven:
+
+| `product : warranty : name` | `Total revenue (calculated metric)` |
+| --- | --- |
+| `Washing Machines` | `1850` |
+| `Dryers` | `500` |
+| `Total` | `2350` |
+
+## Voorbeelden van persistentie
+
