@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/adobedocs/analytics-platform.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.nl-NL
 cloud: experience-cloud
 product: adobe analytics
 sub-product: reis van klant
@@ -13,9 +13,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Zelfstudies
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: d8450b8435400aa16ce4d87868f804b82d1df4d7
+source-git-commit: 17e6cc8f79c542465971162666d846e2b1e0da58
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 58%
 
 ---
@@ -141,6 +141,7 @@ ht-degree: 58%
       + [Datumvergelijking](components/date-ranges/time-comparison.md)
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruikskwesties](use-cases/cja-usecases.md)
+   + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
 + Privacy {#cja-privacy}
    + [Privacyoverzicht](privacy/privacy-overview.md)
 + [CJA-documentatieupdates](doc-changes.md)
