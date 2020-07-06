@@ -2,7 +2,7 @@
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2946'
 ht-degree: 1%
@@ -12,7 +12,9 @@ ht-degree: 1%
 
 # Referentie - geavanceerde functies
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U hebt toegang tot deze functies door deze te controleren **[!UICONTROL Show Advanced]** in de **[!UICONTROL Functions]** vervolgkeuzelijst.
 
@@ -32,7 +34,9 @@ Aan de andere kant, als u twee metriek hebt die u geinteresseerd in bent, kan he
 
 Retourneert de waarde van het argument ervan. Gebruik NOT om ervoor te zorgen dat een waarde niet gelijk is aan één bepaalde waarde.
 
->[!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
+>[!NOTE]
+>
+>0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -208,7 +212,9 @@ Retourneert het gemiddelde van de laatste N-rijen.
 
 Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wordt bevolen is het slechts nuttig op afmetingen die een natuurlijke orde zoals datum of weglengte hebben.
 
->[!NOTE] Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/bezoeker: het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en bezoekers over de laatste N op te tellen en ze vervolgens te verdelen. Gebruik in plaats daarvan
+>[!NOTE]
+>
+>Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/bezoeker: het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en bezoekers over de laatste N op te tellen en ze vervolgens te verdelen. Gebruik in plaats daarvan
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -451,7 +457,9 @@ Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.
 
 Geeft TRUE terug als een argument TRUE is, of FALSE als alle argumenten FALSE zijn.
 
->[!NOTE] 0 (nul) betekent Onwaar en elke andere waarde is Waar.
+>[!NOTE]
+>
+>0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -692,7 +700,9 @@ De vergelijking voor Z-score is:
 
 waar [!DNL x] de onbewerkte score is, [!DNL μ] is het gemiddelde van de populatie en [!DNL σ] is de standaardafwijking van de populatie.
 
->[!NOTE] [!DNL μ] (mu) en (sigma[!DNL σ] ) worden automatisch berekend op basis van de meting.
+>[!NOTE]
+>
+>[!DNL μ] (mu) en (sigma[!DNL σ] ) worden automatisch berekend op basis van de meting.
 
 Z-score (metrisch)
 
@@ -717,5 +727,7 @@ Voert een n-tailed Z-test met Z-score van A uit.
 
 Retourneert de waarschijnlijkheid dat de huidige rij toevallig in de kolom kan worden weergegeven.
 
->[!NOTE] gaat ervan uit dat de waarden normaal worden verdeeld.
+>[!NOTE]
+>
+>gaat ervan uit dat de waarden normaal worden verdeeld.
 
