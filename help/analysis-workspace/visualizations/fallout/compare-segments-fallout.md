@@ -4,7 +4,7 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -14,11 +14,15 @@ ht-degree: 1%
 
 # Filters toepassen in falloutanalyse
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt filters van een aanraakpunt tot stand brengen, segmenten toevoegen als aanraakpunt, en zeer belangrijke werkschema&#39;s over diverse filters in Analysis Workspace vergelijken.
 
->[!IMPORTANT] Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Met een bezoek-contextVallout, moeten de filters die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
+>[!IMPORTANT]
+>
+>Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Met een bezoek-contextVallout, moeten de filters die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
 
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie
