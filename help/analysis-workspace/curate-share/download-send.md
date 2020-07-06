@@ -3,7 +3,7 @@ description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- e
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 3%
@@ -13,7 +13,9 @@ ht-degree: 3%
 
 # PDF- of CSV-bestanden downloaden
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- en CSV-indeling.
 
