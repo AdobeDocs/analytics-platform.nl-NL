@@ -2,7 +2,7 @@
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 28%
@@ -38,7 +38,9 @@ Zie [Creeer een project](/help/analysis-workspace/home.md) voor informatie over 
 
 U kunt componenten (afzonderlijk of door meer dan één te selecteren) op verschillende manieren beheren. Klik met de rechtermuisknop op een component of klik **[!UICONTROL Actions]** boven aan de lijst met componenten.
 
->[!NOTE] Deze handelingen zijn niet van toepassing op tijdcomponenten.
+>[!NOTE]
+>
+>Deze handelingen zijn niet van toepassing op tijdcomponenten.
 
 | Component Handeling | Beschrijving |
 |--- |--- |
