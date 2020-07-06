@@ -3,7 +3,7 @@ description: Hoe te met statische rijen in lijsten in wisselwerking te staan.
 title: Statische versus dynamische rijen
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -13,7 +13,9 @@ ht-degree: 1%
 
 # Statische versus dynamische rijen
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace-tabellen genereren &#39;dynamische&#39; rijen wanneer u een dimensie in de tabel neerzet. Dit houdt in dat alle items die overeenkomen met de dimensie, voor een bepaalde metrische waarde, in de tabel worden geplaatst.
 
