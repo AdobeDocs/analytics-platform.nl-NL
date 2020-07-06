@@ -2,7 +2,7 @@
 title: Gecombineerde gegevenssets
 description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
 translation-type: tm+mt
-source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -22,7 +22,9 @@ Wanneer u een verbinding creeert, combineert CJA alle schema&#39;s en datasets i
 
 Neem het volgende voorbeeld. U hebt twee datasets, elk met verschillende gebieden die verschillende gegevens bevatten.
 
->[!NOTE] In Adobe Experience Platform wordt de tijdstempel meestal opgeslagen in Unix milliseconden. Voor leesbaarheid in dit voorbeeld worden datum en tijd gebruikt.
+>[!NOTE]
+>
+>Adobe Experience Platform slaat tijdstempel doorgaans op in Unix milliseconden. Voor leesbaarheid in dit voorbeeld worden datum en tijd gebruikt.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
