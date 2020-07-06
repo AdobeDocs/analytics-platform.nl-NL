@@ -3,7 +3,7 @@ description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt
 title: Tijduitsplitsende dimensies
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 3%
@@ -22,7 +22,9 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 * Hoe vergelijk mijn weekendverkopen met mijn weekdagverkopen?
 * Produceert een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?
 
->[!NOTE] De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u de afmetingen voor tijdpartering wilt gebruiken in andere Analytics-oplossingen, kunt u de plug-in [getTimeParting implementeren](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
+>[!NOTE]
+>
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u de afmetingen voor tijdpartering wilt gebruiken in andere Analytics-oplossingen, kunt u de plug-in [getTimeParting implementeren](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
