@@ -2,7 +2,7 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -26,7 +26,9 @@ Houd er rekening mee dat:
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] Filters die op deze manier worden gemaakt, zijn intern voor het project.
+>[!NOTE]
+>
+>Filters die op deze manier worden gemaakt, zijn intern voor het project.
 
 U kunt deze filters openbaar (algemeen) maken door de volgende stappen uit te voeren:
 
