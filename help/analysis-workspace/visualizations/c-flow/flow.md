@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -13,7 +13,9 @@ ht-degree: 2%
 
 # Overzicht van stroom
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 De flowfunctie toont de paden van klanten via uw websites en apps.
 
@@ -23,7 +25,9 @@ Hiermee kunt u:
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Segmenten maken door een specifiek punt op te geven in een gekozen pad
 
->[!NOTE] Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad hoc analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad hoc analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
