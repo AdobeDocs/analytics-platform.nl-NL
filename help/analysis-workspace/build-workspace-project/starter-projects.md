@@ -3,7 +3,7 @@ description: Sjablonen in werkruimte
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 3%
@@ -13,7 +13,9 @@ ht-degree: 3%
 
 # Sjablonen
 
->[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt kiezen of u een project wilt maken van:
 
@@ -115,7 +117,9 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 ### Mensen
 
->[!NOTE] De sjabloon Personen en de bijbehorende maatstaf Personen zijn alleen beschikbaar voor gebruik als onderdeel van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
+>[!NOTE]
+>
+>The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
