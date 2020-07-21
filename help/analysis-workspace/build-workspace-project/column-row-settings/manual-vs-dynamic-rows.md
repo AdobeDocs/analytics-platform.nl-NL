@@ -1,43 +1,53 @@
 ---
-description: Hoe te met statische rijen in lijsten in wisselwerking te staan.
-title: Statische versus dynamische rijen
-uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
+title: Dynamische waarden versus statische waarden
+description: Hoe te met dynamische en statische afmetingswaarden in lijsten in wisselwerking te staan.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 0477302df92ccab30d9f3a45cc7b22f2112a0c70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 2%
 
 ---
 
 
-# Statische versus dynamische rijen
+# Dynamische waarden versus waarden van statische afmetingen in vrije-vormtabellen
 
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>[!NOTE] U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Analysis Workspace-tabellen genereren &#39;dynamische&#39; rijen wanneer u een dimensie in de tabel neerzet. Dit houdt in dat alle items die overeenkomen met de dimensie, voor een bepaalde metrische waarde, in de tabel worden geplaatst.
+In Freeform-tabellen kunnen de rijen en kolommen verschillende componentwaarden bevatten. Deze waarden kunnen dynamisch (verandering met tijd) of statisch (veranderen niet met tijd) zijn, afhankelijk van de analyse die u wilt bouwen.
 
-Wanneer u bijvoorbeeld de afmetingen van de browser naar de tabel sleept, worden alle bijbehorende dimensies (bijvoorbeeld Android-browser, Mobile Safari, Firefox, enz.) dynamisch in de tabel worden geplaatst.
+## Dynamische waarden van afmetingen
 
-Als u daarentegen handmatig een specifieke metrische, segment-, gegevensbereik- of afzonderlijke dimensie-item in een tabel selecteert en neerzet, is het resultaat een hardcodeerde of &quot;statische&quot; rij of lijst. U kunt nu op de volgende manieren werken met een statische rij:
+De dynamische afmetingswaarden veranderen met tijd en zijn afhankelijk van metrisch die door in de vrije vormlijst wordt gesorteerd. De dynamische waarden van de afmeting worden geprefereerd wanneer u de hoogste punten voor een bepaalde tijdspanne wilt analyseren.
 
-* Klik op het pictogram Voorvertoning in statische rijen, zodat u een voorvertoning kunt weergeven van segmenten, maateenheden en datumbereiken.
-* Klik op het pictogram &quot;x&quot; om die rij uit de tabel te verwijderen.
-* Beperk het aantal rijen dat wordt weergegeven en schakel paginering in.
-* Voeg &quot;items met gemengde dimensies&quot; toe. Voeg bijvoorbeeld een item uit een browserdimensie en een ander item uit een productdimensie toe.
+Wanneer u een dimensie in een vrije vormlijst laat vallen, zijn de dynamische rijen teruggekeerd. Zij vertegenwoordigen de hoogste punten die aan de afmeting voor een bepaalde metrisch en tijdspanne beantwoorden. U kunt ook een dimensie neerzetten in vrije-vormtabelkolommen en de dimensie wordt automatisch uitgebreid naar de bovenste waarden van de vijf dimensies.
 
-   Hier volgt een illustratie:
+Als u bijvoorbeeld de dimensie Browsertype naar de tabel sleept, worden de waarden van de bovenste browsertype (bijv. Microsoft, Apple, Google, enz.) Hiermee gaat u dynamisch terug naar de tabelrijen. Indien neergezet in een kolom, de hoogste 5 waarden van de Browser van het Type dynamisch terugkeren.
 
-   ![](assets/static_rows.png)
+Dynamische waarden van afmetingen hebben de optie voor het rijfilter en er zijn **geen** vergrendelingspictogrammen en X-pictogrammen aanwezig.
 
-Bovendien (slechts) wanneer u op een statische rijwijze bent, kunt u nu veranderen hoe de kolomtotalen worden berekend. Klik op het tandwielpictogram en schakel tussen deze twee opties:
+## Statische waarden voor afmetingen
 
-![](assets/column-totals.png)
+De waarden van de statische afmeting veranderen niet met tijd; het zijn vaste componenten die altijd worden geretourneerd in een vrije-vormtabel. De statische waarden van de afmeting worden geprefereerd wanneer u altijd het zelfde punt wilt analyseren, of het specifieke campagnes of specifieke dagen in de week zijn.
 
-| Optie | Beschrijving |
-|---|---|
-| (Standaard) Bereken totalen door de waarden op te tellen die momenteel in elke kolom staan. | Met deze optie worden alleen de rijen berekend die momenteel in de tabel staan. (Clientberekening) |
-| Bereken totalen die op alle rijen voor elke metrisch worden gebaseerd. | Deze optie omvat alle afmetingspunten voor deze afmeting, zelfs die niet vermeld in de lijst. (Server-side berekening) |
+Wanneer u handmatig bepaalde componentwaarden (afmetingen, metrisch, segment, datumbereik) in een tabel selecteert en neerzet, is het resultaat een statische lijst met rijen of kolommen. U kunt ook statische waarden voor dimensies maken als u dat wilt:
 
+* Van rijen, klik met de rechtermuisknop > [!UICONTROL Display only selected rows]
+* Van kolommen, klik met de rechtermuisknop > [!UICONTROL Make item static]
+
+Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft en Apple, worden die twee specifieke items altijd in de tabel geplaatst.
+
+Waarden voor statische afmetingen hebben **niet** de optie Rijfilter. In plaats daarvan worden op elk item de pictogrammen Vergrendelen en X weergegeven. Klik op het X-pictogram om die waarde voor de dimensie uit de tabel te verwijderen.
+
+## Waarden voor gemengde dimensies
+
+Dimensiewaarden van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. De rijkopbal zegt &quot;Gemengde Afmetingen&quot;in deze gevallen. Deze waarden voor afmetingen zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingswaarden van de Browser dimensie van het Type en andere afmeting waarden van de Browser afmeting.
+
+## Totaal aantal rijen vrije vorm
+
+Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
+
+* Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde afmetingen zoals bezoeken of bezoekers
+* Statische rijen worden als client-side opgeteld en dedupliceren **niet** metriek.
+
+[Meer informatie over de totale](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) opties van de Werkruimte voor dynamische en statische rijen.
