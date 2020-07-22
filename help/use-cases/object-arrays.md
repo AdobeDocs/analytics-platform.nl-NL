@@ -2,7 +2,7 @@
 title: Arrays van objecten gebruiken
 description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
 translation-type: tm+mt
-source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -188,7 +188,7 @@ CJA kijkt naar deze delen van de hit om het rapport te genereren:
 
 Aangezien de droger geen garantie bevatte, is deze niet in de tabel opgenomen.
 
-Aangezien u om het even welke afmeting met om het even welke metrisch kunt combineren, toont de volgende lijst hoe de gegevens met niet gespecificeerde afmetingswaarden zouden zijn:
+Aangezien u om het even welke afmeting met om het even welke metrisch kunt combineren, toont de volgende lijst hoe de gegevens met niet gespecificeerde afmetingspunten zouden:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Aangezien u om het even welke afmeting met om het even welke metrisch kunt combi
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat de waarde van de dimensie aan &#39;Unspecified&#39; wordt toegewezen. Dezelfde situatie geldt ook voor de productgarantiebestelling:
+Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat het item Dimensie aan &#39;Niet opgegeven&#39; toewijst. Dezelfde situatie geldt ook voor de productgarantiebestelling:
 
 ```diff
 {
@@ -240,7 +240,7 @@ Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat de waa
 +}
 ```
 
-Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die worden toegewezen aan de waarde van de &#39;Niet-opgegeven&#39; dimensie.
+Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die worden toegewezen aan de dimensie-item &#39;Niet gespecificeerd&#39;.
 
 ### Metrische gegevens combineren
 
