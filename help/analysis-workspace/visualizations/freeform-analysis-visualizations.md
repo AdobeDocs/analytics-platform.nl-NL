@@ -3,7 +3,7 @@ description: Meer informatie over visualisatie- en visualisatie-instellingen in 
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 4%
@@ -34,7 +34,7 @@ YouTube-video: [Visualisatietypen in Analysis Workspace](https://www.youtube.com
 | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). |
 | [Horizontale balk](/help/analysis-workspace/visualizations/horizontal-bar.md) | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
 | [Lijn](/help/analysis-workspace/visualizations/line.md) | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt. |
-| [Spreidingsdiagram](/help/analysis-workspace/visualizations/scatterplot.md) | Toont het verband tussen afmetingswaarden en tot drie metriek. |
+| [Spreidingsdiagram](/help/analysis-workspace/visualizations/scatterplot.md) | Toont het verband tussen afmetingspunten en tot drie metriek. |
 | [Samenvattingsnummer](/help/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cel die is geselecteerd, worden bij deze visualisatie totalen en samenvattingen weergegeven. |
 | [Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cellen die zijn geselecteerd, worden cellen met elkaar vergeleken met deze visualisatie. |
 | [Tekst](/help/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. |
