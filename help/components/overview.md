@@ -2,7 +2,7 @@
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 28%
@@ -19,7 +19,7 @@ Componenten zijn functies in Customer Journey Analytics die kunnen worden gebrui
 
 U kunt de volgende componenten beheren:
 
-* [**Filters **](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op gemeenschappelijke waarden voor dimensies
+* [**Filters **](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op elementen met een gemeenschappelijke dimensie
 * [**Berekende cijfers **](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
 * [**Datumbereiken **](date-ranges/overview.md): De datumbereiken aanpassen en verfijnen die Analysis Workspace biedt
 * [**Projecten **](/help/analysis-workspace/home.md): Uw projecten organiseren en onderhouden in Analysis Workspace
