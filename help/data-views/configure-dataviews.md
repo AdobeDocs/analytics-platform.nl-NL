@@ -1,15 +1,18 @@
 ---
 title: Gegevensweergaven en -toewijzing configureren
-description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in de Analyse van de Reis van de Klant
+description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
+source-wordcount: '1520'
+ht-degree: 1%
 
 ---
 
 
 # Component- en attributie-instellingen
 
-Vars, props en gebeurtenissen in de traditionele betekenis van Adobe Analytics bestaan niet meer in de Analyse van de Reis van de Klant. In plaats daarvan hebt u onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Alle attributie montages die u gebruikte om op eVars en steunen tijdens het proces van de gegevensinzameling van toepassing te zijn worden nu toegepast bij vraagtijd - die ook als rapport-tijd verwerking wordt bekend.
+Vars, props en gebeurtenissen in de traditionele betekenis van Adobe Analytics bestaan niet meer in Customer Journey Analytics. In plaats daarvan hebt u onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Alle attributie montages die u gebruikte om op eVars en steunen tijdens het proces van de gegevensinzameling van toepassing te zijn worden nu toegepast bij vraagtijd - die ook als rapport-tijd verwerking wordt bekend.
 
 Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) voor een video-overzicht.
 
@@ -17,7 +20,7 @@ Houd dit in gedachten voordat u attributie-instellingen toepast:
 
 * In de gebruikersinterface van gegevensweergaven geeft u de standaardtoewijzing op. **Opmerking**: Op een latere datum kunt u deze instellingen overschrijven in Workspace-projecten. Deze functionaliteit is momenteel echter niet beschikbaar.
 
-* De montages van de attributie in de Analyse van de Reis van de Klant zijn niet-destructief en retroactief. Met andere woorden, u kunt geen onherstelbare schade aan uw datasets in de Analyse van de Reis van de Klant doen. Zelfs als u per ongeluk iets schrapt, kunt u altijd terugkeren naar [!UICONTROL Experience Platform] en de dataset terug binnen brengen. (Houd er echter rekening mee dat extra kosten ontstaan wanneer de gegevensset weer wordt ingevoerd.)
+* Attributie-instellingen in Customer Journey Analytics zijn niet-destructief en retroactief. Met andere woorden, je kunt geen onherstelbare schade toebrengen aan je datasets in Customer Journey Analytics. Zelfs als u per ongeluk iets schrapt, kunt u altijd terugkeren naar [!UICONTROL Experience Platform] en de dataset terug binnen brengen. (Houd er echter rekening mee dat extra kosten ontstaan wanneer de gegevensset weer wordt ingevoerd.)
 
 * Als u een afmeting &quot;gedraagt&quot;als traditionele eVar (omzettingsvariabele) wilt hebben, zou u het met &quot;Last Touch Visit&quot;attributie door gebrek moeten vormen.
 
@@ -47,7 +50,7 @@ U kunt de naam van metrisch of afmeting veranderen in iets gebruikersvriendelijk
 
 ### Attributiemodel
 
-Het model beschrijft de distributie van omzettingen in de gebeurtenissen in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking. Bepaalt hoe de Analyse van de Reis van de Klant krediet voor een succesgebeurtenis toewijst als een variabele veelvoudige waarden vóór de gebeurtenis ontvangt.
+Het model beschrijft de distributie van omzettingen in de gebeurtenissen in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking. Bepaalt hoe Customer Journey Analytics credit for a success event toewijst als een variabele meerdere waarden vóór de gebeurtenis ontvangt.
 
 | UI-pictogram | Attributiemodel | Definitie | Wanneer gebruiken |
 | --- | --- | --- | --- |
@@ -64,7 +67,7 @@ Het model beschrijft de distributie van omzettingen in de gebeurtenissen in een 
 
 ### Verlopen
 
-Geeft een tijdsperiode op, of een gebeurtenis, waarna de waarde van de dimensie vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
+Geeft een tijdsperiode aan, of een gebeurtenis, waarna het dimensiepunt vervalt (ontvangt geen krediet meer voor succesgebeurtenissen). U kunt het aflopen van de toewijzing instellen op de sessie, persoon of aangepast niveau.
 
 | Instelling | Definitie |
 |---|---|
