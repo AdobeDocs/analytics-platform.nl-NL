@@ -5,7 +5,7 @@ title: Uitsplitsingsdimensies
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 13%
@@ -28,7 +28,7 @@ U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s
 
    ![Stap Resultaat](assets/fa_data_table_actions.png)
 
-   U kunt metriek onderverdelen door afmetingswaarden of publiekssegmenten over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
+   U kunt metriek onderverdelen door afmetingspunten of publiekssegmenten over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
 
    >[!NOTE] Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor exportuitsplitsingen.
 
