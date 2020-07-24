@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Zelfstudies
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 57%
@@ -47,7 +47,7 @@ ht-degree: 57%
       + Instellingen voor kolommen en rijen {#column-row-settings}
          + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Rij-instellingen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Handmatige versus dynamische rijen](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Dynamische versus statische items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Instellingen ongedaan maken en opnieuw uitvoeren](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Beschikbare hotkeys in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Pagineren, filteren en tabellen sorteren](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -93,7 +93,7 @@ ht-degree: 57%
    + Projecten selecteren of delen {#curate-share}
       + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
       + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
-      + [Alleen-weergeven werkruimteprojecten](analysis-workspace/curate-share/view-only-projects.md)
+      + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
