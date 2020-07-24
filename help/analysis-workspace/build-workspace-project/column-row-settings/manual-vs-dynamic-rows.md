@@ -1,10 +1,10 @@
 ---
-title: Dynamische of statische dimensie-items
+title: Dynamische versus statische dimensie-items in vrije-vormtabellen
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,8 @@ Als u bijvoorbeeld de dimensie Browsertype naar de tabel sleept, worden de boven
 
 Items van dynamische dimensies hebben de optie voor het filter van de rij en beschikken **niet** over vergrendelingspictogrammen en X-pictogrammen.
 
+![](assets/dynamic-items.png)
+
 ## Statische dimensie-items
 
 Statische dimensie-items veranderen niet met de tijd; het zijn vaste componenten die altijd worden geretourneerd in een vrije-vormtabel. De statische afmetingspunten worden geprefereerd wanneer u altijd het zelfde punt wilt analyseren, of het specifieke campagnes of specifieke dagen in de week zijn.
@@ -39,15 +41,18 @@ Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft
 
 De statische afmetingspunten hebben **niet** de optie van de rijfilter. In plaats daarvan worden op elk item de pictogrammen Vergrendelen en X weergegeven. Klik op het X-pictogram om dat dimensie-item uit de tabel te verwijderen.
 
+![](assets/static-items.png)
+
 ## Items met gemengde dimensies
 
 Dimensie-items van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. De rijkopbal zegt &quot;Gemengde Afmetingen&quot;in deze gevallen. Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser dimensie van het Type en andere afmetingspunten van de Browser afmeting.
+
+![](assets/mixed-dimensions.png)
 
 ## Totaal aantal rijen vrije vorm
 
 Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
 
-* Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde cijfers zoals bezoeken of bezoekers
-* Statische rijen worden als client-side opgeteld en dedupliceren **niet** metriek.
+* Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde afmetingen zoals bezoeken of bezoekers
+* Statische rijen worden als client-side opgeteld en dedupliceren **niet** metriek. Als u de totale rijserver wilt berekenen, wijzigt u de instelling Rij in Totaal **** tonen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
-[Meer informatie over de totale](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) opties van de Werkruimte voor dynamische en statische rijen.
