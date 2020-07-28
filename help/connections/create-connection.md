@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,13 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
 1. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**.
 
-   (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk boven de lijst met gegevenssets.)
+   (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de **[!UICONTROL Search datasets]** zoekbalk boven de lijst met gegevenssets.)
 
-1. Daarna, voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
+## Gegevensset configureren
+
+Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
+
+1. **[!UICONTROL Dataset type]**: Voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
 
    Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens en [!UICONTROL Lookup] gegevens.
 
@@ -46,9 +50,19 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
    | [!UICONTROL Lookup] | Dit is gelijk aan een bestand met classificaties. Deze gegevens worden gebruikt om waarden of toetsen in uw gebeurtenis- of profielgegevens op te zoeken. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
    | [!UICONTROL Profile] | Analoog aan [!UICONTROL Customer Attributes] - voor niet-veranderende en niet-temporale kenmerken. Gegevens die worden toegepast op uw bezoekers, gebruikers of klanten in de [!UICONTROL Event] gegevens. Bijvoorbeeld, staat u toe om de gegevens van CRM over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de gegevensset is gedefinieerd, [!DNL Experience Platform] heeft een eigen set met een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort.<br>![Persoon](assets/person-id.png)**IDNote **: Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
 
-1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Create Connection] dialoogvenster te gaan.
+1. **[!UICONTROL Dataset ID]**: Deze id wordt automatisch gegenereerd.
 
-   ![Verbinding maken](assets/create-connection2.png)
+1. **[!UICONTROL Timestamp]**: inhoud hier toevoegen
+
+1. **[!UICONTROL Schema]**:
+
+1. **[!UICONTROL Person ID]**:
+
+1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Enable Connection] dialoogvenster te gaan.
+
+   ![Verbinding inschakelen](assets/create-connection2.png)
+
+## Verbinding inschakelen
 
 1. Definieer de volgende instellingen in het [!UICONTROL Create Connection] dialoogvenster:
 
