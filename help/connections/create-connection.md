@@ -2,10 +2,10 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
+source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 1%
+source-wordcount: '943'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
 1. Klik **[!UICONTROL Create new connection]** op de rechterbovenhoek.
 
-   ![Verbinding maken](assets/create-connection.png)
+   ![Verbinding maken](assets/create-connection0.png)
 
 1. Kies een sandbox in het Experience Platform die de gegevensset of gegevenssets bevat waarnaar u een verbinding wilt maken.
 
@@ -40,6 +40,8 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
 Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
 
+![Gegevensset configureren](assets/create-connection.png)
+
 1. **[!UICONTROL Dataset type]**: Voor elke dataset die u aan deze verbinding toevoegde, plaatst [!UICONTROL Customer Journey Analytics] automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
 
    Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens en [!UICONTROL Lookup] gegevens.
@@ -52,19 +54,27 @@ Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
 
 1. **[!UICONTROL Dataset ID]**: Deze id wordt automatisch gegenereerd.
 
-1. **[!UICONTROL Timestamp]**: inhoud hier toevoegen
+1. **[!UICONTROL Time stamp]**: inhoud hier toevoegen
 
-1. **[!UICONTROL Schema]**:
+1. **[!UICONTROL Schema]**: Dit is het schema dat wordt gebaseerd waarop de dataset in Adobe Experience Platform werd gecreeerd.
 
-1. **[!UICONTROL Person ID]**:
+1. **[!UICONTROL Person ID]**: Selecteer een persoonidentiteitskaart van de beschikbare identiteiten die in het datasetschema in het Experience Platform worden bepaald.
+
+   >[!IMPORTANT]
+   >
+   >Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer persoon-id&#39;s niet zijn gedefinieerd in het schema. Bekijk [deze video](https://youtu.be/G_ttmGl_LRU) over het definiëren van een identiteit in een Experience Platform.
 
 1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Enable Connection] dialoogvenster te gaan.
 
-   ![Verbinding inschakelen](assets/create-connection2.png)
+### Identiteitskaart
+
+
 
 ## Verbinding inschakelen
 
-1. Definieer de volgende instellingen in het [!UICONTROL Create Connection] dialoogvenster:
+![Verbinding inschakelen](assets/create-connection2.png)
+
+1. Definieer de volgende instellingen om een verbinding in te schakelen:
 
    | Veld | Beschrijving |
    |---|---|
