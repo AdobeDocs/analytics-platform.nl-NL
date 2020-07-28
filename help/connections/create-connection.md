@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
+source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -56,9 +56,9 @@ Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
 
 1. **[!UICONTROL Time stamp]**: inhoud hier toevoegen
 
-1. **[!UICONTROL Schema]**: Dit is het schema dat wordt gebaseerd waarop de dataset in Adobe Experience Platform werd gecreeerd.
+1. **[!UICONTROL Schema]**: Dit is het [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) op basis waarvan de dataset in Adobe Experience Platform is gemaakt.
 
-1. **[!UICONTROL Person ID]**: Selecteer een persoonidentiteitskaart van de beschikbare identiteiten die in het datasetschema in het Experience Platform worden bepaald.
+1. **[!UICONTROL Person ID]**: Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in het Experience Platform. Zie hieronder voor informatie over het gebruik van Identiteitskaart als Persoon identiteitskaart
 
    >[!IMPORTANT]
    >
@@ -66,9 +66,20 @@ Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
 
 1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Enable Connection] dialoogvenster te gaan.
 
-### Identiteitskaart
+### Identiteitskaart gebruiken als identiteitskaart van de Persoon
 
+Customer Journey Analytics ondersteunt nu de mogelijkheid om de identiteitskaart te gebruiken voor de bijbehorende persoon-id. Identiteitskaart is een structuur van kaartgegevens die iemand toestaat om sleutel -> waardeparen te uploaden. De sleutels zijn identiteitsnaamruimten en de waarde is een structuur die de identiteitswaarde houdt. De identiteitskaart bestaat op elke rij/gebeurtenis die wordt geüpload en wordt voor elke rij overeenkomstig gevuld.
 
+De Kaart van de Identiteit is beschikbaar voor om het even welke dataset die een schema gebruikt dat op de XDM klasse ExperienceEvent wordt gebaseerd. Wanneer u een dergelijke dataset selecteert die in een Verbinding CJA moet worden omvat, hebt u de optie om of een gebied als primaire identiteitskaart of de Kaart van de Identiteit te selecteren:
+
+![](assets/idmap1.png)
+
+Als u Identiteitskaart selecteert, krijgt u twee extra configuratieopties:
+
+| Optie | Beschrijving |
+|---|---|
+| [!UICONTROL Use Primary ID Namespace] | Dit instrueert CJA, per rij, om de identiteit in de Kaart van de Identiteit te vinden die met een primair=true attribuut duidelijk is en dat als Persoon identiteitskaart voor die rij te gebruiken. Dit betekent dat dit de primaire sleutel is die in Experience Platform voor het verdelen zal worden gebruikt. Het is ook de eerste kandidaat voor gebruik als bezoekersidentiteitskaart van CJA (afhankelijk van hoe de dataset in een Verbinding CJA wordt gevormd). |
+| [!UICONTROL Namespace] | (Deze optie is alleen beschikbaar als u de primaire-id-naamruimte niet gebruikt.) Identiteitsnaamruimten zijn een onderdeel van de [identiteitsdienst](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) van het Adobe Experience Platform dat als indicatoren van de context dient waarop een identiteit betrekking heeft. Als u een naamruimte opgeeft, zoekt CJA in elke rij naar Identiteitskaart voor deze naamruimtesleutel en gebruikt de identiteit onder die naamruimte als de persoon-id voor die rij. Merk op dat aangezien CJA geen volledige datasetaftasten van alle rijen kan doen om te bepalen welke namespaces eigenlijk aanwezig zijn, alle mogelijke namespaces zijn vermeld in dropdown. U moet weten welke naamruimten in de gegevens zijn opgegeven. dit kan niet automatisch worden gedetecteerd. |
 
 ## Verbinding inschakelen
 
@@ -76,7 +87,7 @@ Aan de rechterkant, kunt u de dataset nu vormen u hebt toegevoegd.
 
 1. Definieer de volgende instellingen om een verbinding in te schakelen:
 
-   | Veld | Beschrijving |
+   | Optie | Beschrijving |
    |---|---|
    | [!UICONTROL Name Connection] | Geef de verbinding een beschrijvende naam. De verbinding kan niet zonder een naam worden opgeslagen. |
    | [!UICONTROL Description] | Voeg meer details toe om deze verbinding van anderen te onderscheiden. |
