@@ -1,11 +1,11 @@
 ---
-description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- en CSV-indeling.
+description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- en CSV-indelingen.
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 387e9755d963e70a9ba8dbc5f1f01f83541b5511
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -15,31 +15,31 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- en CSV-indeling.
+U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- en CSV-indelingen.
 
-De naam van het PDF- of CSV-bestand komt overeen met de huidige naam van het project. Voor niet-opgeslagen projecten bevat het gedownloade bestand de niet-opgeslagen wijzigingen in het project. Niet-opgeslagen projecten kunt u niet plannen in PDF of CSV.
+De naam van het PDF- of CSV-bestand komt overeen met de huidige naam van het project. Voor unsaved projecten, omvat het gedownloade dossier de unsaved veranderingen in het project. Merk op dat u niet unsaved projecten in PDF of CSV kunt plannen.
 
 Houd dit in gedachten:
 
-* We ondersteunen ook de Fallout-visualisatie in CSV-indeling.
-* Wanneer wij een project aan PDF teruggeven, geven wij enkel wat op de pagina is. Als een project visualisaties en deelvensters van aangepaste grootte heeft, moet u deze wijzigen om automatisch van grootte te zijn (knop in de rechterbovenhoek), zodat er geen afgekapte inhoud is.
-* PDF&#39;s die in de browser worden gedownload, kunnen enkele minuten in beslag nemen om te worden geëxporteerd. Dit komt omdat we het hele project opnieuw moeten uitvoeren op onze servers voordat we het in PDF-indeling kunnen renderen. We raden u aan het project pas te laten nadat de PDF in uw browser is gedownload. U kunt echter wijzigingen in het project blijven aanbrengen terwijl u wacht.
-* Als u zeer lange werkruimteprojecten hebt, worden PDF&#39;s momenteel geëxporteerd als één grote pagina in plaats van als een gepagineerd document. We werken aan een verbetering van de PDF-export naar Workspace die paginering mogelijk maakt.
+* Wij steunen ook de Fallout visualisatie in CSV formaat.
+* Wanneer wij een project aan PDF teruggeven, geven wij enkel wat op de pagina is. Als een project douane-gerangschikte visualisaties en panelen heeft, moet u hen veranderen om auto-gerangschikt (knoop in hoogste juiste hoek) te zijn zodat er geen beknot inhoud zal zijn.
+* PDFs die in browser wordt gedownload kan verscheidene notulen vergen om uit te voeren. Dit is omdat wij het volledige project op onze servers moeten opnieuw in werking stellen alvorens het in formaat terug te geven PDF. Wij adviseren niet het verlaten van het project tot PDF in uw browser downloadt. Nochtans, kunt u blijven veranderingen in het project aanbrengen terwijl u wacht.
+* Wij zijn ons ervan bewust dat als u zeer lange werkruimteprojecten hebt, PDFs momenteel als één reuzenpagina, eerder dan als gepagineerd document uitvoert. Wij werken aan een verbetering aan de uitvoer van de Werkruimte PDF die voor paginering zal toestaan.
 
-1. Maak of open een project.
+1. Creeer of open een project.
 1. Klik op **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
 
-Op 11 april 2019 zijn er verschillende wijzigingen aangebracht in het **[!CSV downloaden]** (en **[!Ckopiëren naar klembord]**) van Analysis Workspace om de opmaak van geëxporteerde gegevens te verwijderen.
-* Het scheidingsteken voor duizendtallen wordt niet meer opgenomen. (Het decimale scheidingsteken blijft opgenomen en blijft in de indeling die onder **[!UICONTROL Components > Report Settings > Thousands Separator]**) is gedefinieerd.)
+Op 11 april 2019 werden verschillende wijzigingen aangebracht in **[!CSV downloads]** en **[!Copy to Clipboard]**) uit de Werkruimte van de Analyse om het formatteren uit uitgevoerde gegevens te verwijderen.
+* De duizenden separator is niet meer inbegrepen. (Het decimale scheidingsteken blijft inbegrepen, en zal aan het formaat houden dat onder wordt bepaald **[!UICONTROL Components > Report Settings > Thousands Separator]**).
 * Er worden geen valutasymbolen weergegeven.
-* Er worden geen percentagesymbolen weergegeven.
-* Percentages worden in decimale vorm uitgedrukt; Zo wordt 75% weergegeven als 0,75.
-* Tijd wordt weergegeven in seconden.
-* In kleurentabellen worden alleen onbewerkte waarden weergegeven. percentages worden verwijderd.
-* Als een getal ongeldig is, wordt een lege cel weergegeven.
+* Geen percentensymbolen worden getoond.
+* Percentages zijn in decimale vorm; Zo wordt 75% weergegeven als 0,75.
+* De tijd wordt getoond in seconden.
+* De Lijsten van de cohort tonen ruwe slechts waarden; percentages worden verwijderd.
+* Als een aantal ongeldig is, wordt een lege cel getoond.
 
->[!NOpmerking:]
+>[!NOTE]
 >
-> Numerieke waarden die een komma als decimaalteken gebruiken, blijven in het geëxporteerde CSV-bestand worden vermeld.
+>De numerieke waarden die een komma als decimaalteken gebruiken zullen in uitgevoerde CSV blijven worden geciteerd.
