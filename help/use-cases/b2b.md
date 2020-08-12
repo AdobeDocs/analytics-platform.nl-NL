@@ -2,9 +2,9 @@
 title: (B2B) voeg rekening-vlakke gegevens als raadplegingsdataset toe
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan CJA toe te voegen
 translation-type: tm+mt
-source-git-commit: 721915ffdc9f196a13a360fb5ac145f750788bcf
+source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,15 @@ Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in
 1. Noem de dataset (in ons voorbeeld, B2B Info) en verstrek een beschrijving.
 1. Klik op **[!UICONTROL Finish]**.
 
+## 3. Verzamel gegevens in het ervaringsplatform
 
-## 3. Gegevensreeksen combineren in een verbinding (Analyse van de Reis van de Klant)
+Instructies over hoe te [Een CSV-bestand toewijzen aan een XDM-schema](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) moet u helpen als u een CSV-bestand gebruikt.
+
+[Andere methoden](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) zijn ook beschikbaar.
+
+Het aan boord gaan van de gegevens en het vestigen van de raadpleging nemen ongeveer 2 tot 4 uur, afhankelijk van de grootte van de raadplegingslijst.
+
+## 4. Gegevensreeksen combineren in een verbinding (Analyse van de Reis van de Klant)
 
 Bijvoorbeeld, combineren wij 3 datasets in één verbinding CJA:
 
@@ -61,20 +68,18 @@ Hier is hoe u de datasets combineert:
 
 1. In de Analyse van de Reis van de Klant, selecteer **[!UICONTROL Connections]** tabblad
 1. Selecteer de datasets (in ons voorbeeld, de drie hierboven) u wilt combineren.
-1. (Niet zeker dit is waar de stap..) voor de B2B dataset van Info behoort, selecteer de `accountID` sleutel die in uw raadplegingslijst zal worden gebruikt. Dan selecteer zijn passende sleutel (overeenkomstige afmeting), ook `accountID` in uw gebeurtenisdataset.
+1. Voor de B2B dataset van Info, selecteer `accountID` sleutel die in uw raadplegingslijst zal worden gebruikt. Dan selecteer zijn passende sleutel (overeenkomstige afmeting), ook `accountID` in uw gebeurtenisdataset.
 1. Klik op **[!UICONTROL Next]**.
 1. De naam en beschrijft de verbinding en vormt het volgens [deze instructies](/help/connections/create-connection.md).
 1. Klik op **[!UICONTROL Save]**.
 
-Nu zullen de gegevens worden ingeslikt. Het aan boord gaan van de gegevens en het vestigen van de raadpleging nemen ongeveer 2 tot 4 uur, afhankelijk van de grootte van de raadplegingslijst.
-
-## Creeer een gegevensmening van deze verbinding
+## 5. Creeer een gegevensmening van deze verbinding
 
 Volg de instructies op [het creëren van gegevensmeningen](/help/data-views/create-dataview.md).
 
 * Voeg alle componenten (afmetingen en metriek) toe die u van de datasets nodig hebt.
 
-## Analyseer de gegevens in Werkruimte
+## 6. Analyseer de gegevens in Werkruimte
 
 U kunt de projecten van de Werkruimte nu tot stand brengen die op de gegevens van alle 3 datasets worden gebaseerd.
 
