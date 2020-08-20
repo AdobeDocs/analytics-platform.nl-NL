@@ -2,9 +2,9 @@
 title: Een verbinding maken
 description: Beschrijft hoe te om een verbinding aan een dataset van het Platform in de Analyse van de Reis van de Klant tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: bbe86f2d6e052262f0e8a84bca0996f4e2589433
+source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1594'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/
 
    >[!IMPORTANT]
    >
-   >U kunt tot gegevens over sandboxes toegang hebben, d.w.z. u kunt datasets binnen één zandbak slechts combineren.
+   >U kunt tot gegevens over sandboxes toegang hebben, d.w.z., kunt u datasets slechts combineren die binnen de zelfde zandbak worden gevestigd.
 
 1. Selecteer één of meerdere datasets waarin u wilt trekken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**.
 
