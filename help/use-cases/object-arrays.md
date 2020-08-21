@@ -2,7 +2,7 @@
 title: Arrays van objecten gebruiken
 description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Arrays van objecten gebruiken
 
-Sommige platformschema&#39;s kunnen objectarrays hebben. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
+Sommige platformschema&#39;s kunnen objecten series hebben. Een van de meest voorkomende voorbeelden zou een winkelwagentje zijn, die meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid, en een andere afmetingen u wilt volgen. Al deze facetten hebben afzonderlijke vereisten, maar moeten allen in de zelfde klap passen.
 
-In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`), om facetten van een product te scheiden, terwijl door komma&#39;s (`,`) gescheiden producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. CJA breidt dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
+In vorige versies van de Analyse van Adobe, werd deze eigenschap verwezenlijkt gebruikend `products` variabele. Het was een aaneengeschakeld koord dat door puntkomma&#39;s wordt gescheiden (`;`) om facetten van een product te scheiden, terwijl komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen geen &#39;object arrays&#39; ondersteunen. CJA breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van de Analyse van Adobe.
 
-## Zelfde raakvoorbeeld
+## Zelfde treffer
 
-De volgende hit is een JSON-object dat een klant vertegenwoordigt die van een wasmachine en droger is gemaakt.
+De volgende hit is een JSON-object dat staat voor een aankoop door een klant van een wasmachine en droger.
 
 ```json
 {
@@ -62,27 +62,27 @@ De volgende hit is een JSON-object dat een klant vertegenwoordigt die van een wa
 }
 ```
 
-Bij het maken van een gegevensweergave zijn de volgende afmetingen en metrische gegevens beschikbaar (op basis van schema):
+Wanneer het creëren van een gegevensmening, zijn de volgende afmetingen en metrisch beschikbaar (gebaseerd op schema):
 
 * **Dimensies:**
    * ID
-   * product: SKU
-   * product: name
-   * product: order_id
-   * product: garantie: dekking
-   * product: garantie: length
-   * product: garantie: name
-   * product: garantie: type
+   * product : SKU
+   * product : naam
+   * product : order_id
+   * product : garantie : dekking
+   * product : garantie : lengte
+   * product : garantie : naam
+   * product : garantie : type
 * **Cijfers:**
-   * product: orders
-   * product: eenheden
-   * product: inkomsten
-   * product: garantie
-   * product: garantie: inkomsten
+   * product : orders
+   * product : eenheden
+   * product : inkomsten
+   * product : garantie
+   * product : garantie : inkomsten
 
-### Zelfde treffers (rapportagegedrag)
+### Zelfde hit-voorbeelden (rapporteringsgedrag)
 
-Gebruikend enkel bovengenoemde klap, tonen de volgende lijsten de rapporten van de Werkruimte met één of andere afmeting en metrische combinaties.
+Gebruikend enkel de bovengenoemde klap, tonen de volgende lijsten de rapporten van de Werkruimte met één of andere afmeting en metrische combinaties.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ Gebruikend enkel bovengenoemde klap, tonen de volgende lijsten de rapporten van 
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA kijkt selectief naar de dimensie en metriek van het voorwerp dat op de lijst wordt gebaseerd.
+CJA bekijkt selectief de afmeting en de metriek van het voorwerp dat op de lijst wordt gebaseerd.
 
 ```diff
 {
@@ -142,7 +142,7 @@ Als u over enkel garantieopbrengst wilde rapporteren, zou uw project gelijkaardi
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA kijkt naar deze delen van de hit om het rapport te genereren:
+CJA bekijkt deze delen van de klap om het rapport te produceren:
 
 ```diff
 {
@@ -188,7 +188,7 @@ CJA kijkt naar deze delen van de hit om het rapport te genereren:
 
 Aangezien de droger geen garantie bevatte, is deze niet in de tabel opgenomen.
 
-Aangezien u om het even welke afmeting met om het even welke metrisch kunt combineren, toont de volgende lijst hoe de gegevens met niet gespecificeerde afmetingspunten zouden:
+Aangezien u om het even welke afmeting met om het even welke metrisch kunt combineren, toont de volgende lijst hoe het gegeven met niet gespecificeerde afmetingspunten zou zijn:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Aangezien u om het even welke afmeting met om het even welke metrisch kunt combi
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat het item Dimensie aan &#39;Niet opgegeven&#39; toewijst. Dezelfde situatie geldt ook voor de productgarantiebestelling:
+Een productorder bestaat zonder een garantienaam die eraan gekoppeld is, zodat wordt de dimensie item toegewezen aan &#39;Niet gespecificeerd&#39;. Dezelfde situatie geldt ook voor de bestelling van de productgarantie:
 
 ```diff
 {
@@ -240,11 +240,11 @@ Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat het it
 +}
 ```
 
-Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die worden toegewezen aan de dimensie-item &#39;Niet gespecificeerd&#39;.
+Neem nota van de orden die geen naam verbonden aan hen hebben. Dit zijn de orders toegewezen aan de &quot;Niet-gespecificeerde&quot; dimensie-post.
 
-### Metrische gegevens combineren
+### Het combineren van metriek
 
-In CJA worden metriek met dezelfde naam niet native gecombineerd als deze op verschillende objectniveaus staan.
+CJA combineert niet natively zo ook genoemde metriek als zij op verschillende objecten niveaus zijn.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |
@@ -252,11 +252,11 @@ In CJA worden metriek met dezelfde naam niet native gecombineerd als deze op ver
 | `Dryers` | `500` | `0` |
 | `Total` | `2100` | `250` |
 
-U kunt echter wel een berekende maateenheid maken die de gewenste maatstaven combineert:
+Nochtans, kunt u berekende metrisch tot stand brengen die de gewenste metriek combineert:
 
 Berekende metrische &quot;totale inkomsten&quot;: `[product : revenue] + [product : warranty : revenue]`
 
-Wanneer u deze berekende metrische waarde toepast, worden de gewenste resultaten weergegeven:
+Het toepassen van deze berekende metrische vertoningen de gewenste resultaten:
 
 | `product : warranty : name` | `Total revenue (calculated metric)` |
 | --- | --- |
@@ -264,5 +264,5 @@ Wanneer u deze berekende metrische waarde toepast, worden de gewenste resultaten
 | `Dryers` | `500` |
 | `Total` | `2350` |
 
-## Voorbeelden van persistentie
+## Persistentie-voorbeelden
 
