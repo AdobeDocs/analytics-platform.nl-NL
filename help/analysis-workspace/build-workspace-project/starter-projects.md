@@ -3,7 +3,7 @@ description: Sjablonen in werkruimte
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c7bf87b4ff3a7d0da930a22336db762fa3d74393
+source-git-commit: 43487b0dc9d0246fc4750fcc0175055899a198b5
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 3%
@@ -81,7 +81,9 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 ### Commerce
 
-* **Magento: Marketing en handel**: Dit malplaatje onderbreekt uw elektronische handelomzetting door marketing kanaalattributie, evenals het verstrekken van inzicht door onderzoekssleutelwoord, landende pagina, geografische plaats, en meer. Voor een videooverzicht, zie >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing en handel**: Dit malplaatje onderbreekt uw elektronische handelomzetting door marketing kanaalattributie, evenals het verstrekken van inzicht door onderzoekssleutelwoord, landende pagina, geografische plaats, en meer. Voor een videooverzicht, zie:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Media
 
