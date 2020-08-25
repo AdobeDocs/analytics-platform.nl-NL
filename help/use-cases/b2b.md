@@ -2,9 +2,9 @@
 title: (B2B) voeg rekening-vlakke gegevens als raadplegingsdataset toe
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan CJA toe te voegen
 translation-type: tm+mt
-source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Bijvoorbeeld, combineren wij 3 datasets in één verbinding CJA:
 | Naam dataset | Beschrijving | AEP Schema klasse | Gegevens over gegevensverzameling |
 |---|---|---|---|
 | B2B-onderdruk | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Bijvoorbeeld, bevat het e-mailidentiteitskaart en overeenkomstige rekeningsidentiteitskaart, evenals de marketing naam, voor het runnen van marketing advertenties. Het omvat ook de indrukken voor die advertenties, per gebruiker. | Gebaseerd op XDM ExperienceEvent schemaklasse | De `emailID` wordt gebruikt als primaire identiteit en toegewezen aan een `Customer ID` naamruimte. Dientengevolge, zal het als gebrek verschijnen **[!UICONTROL Person ID]** in Klantreisanalyse. ![Impressie](assets/impressions-mixins.png) |
-| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, welke rekening zij tot, hun profiel LinkedIn, enz. behoren. | Gebaseerd op XDM Individuele het schemaklasse van het Profiel | Geen behoefte te selecteren `emailID` als primaire identiteitskaart in dit schema. Zorg ervoor om toe te laten **[!UICONTROL Profile]**; Als u niet, zal CJA niet kunnen verbinden `emailID` in B2B-profiel met `emailID` in B2B-onderdrukkingsgegevens. (Dit vermogen wordt genoemd op gebied-gebaseerd stikken.) ![Profiel](assets/profile-mixins.png) |
+| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, welke rekening zij tot, hun profiel LinkedIn, enz. behoren. | Gebaseerd op XDM Individuele het schemaklasse van het Profiel | Geen behoefte te selecteren `emailID` als primaire identiteitskaart in dit schema. Zorg ervoor om toe te laten **[!UICONTROL Profile]**; Als u niet, zal CJA niet kunnen verbinden `emailID` in B2B-profiel met `emailID` in B2B-onderdrukkingsgegevens. ![Profiel](assets/profile-mixins.png) |
 | B2B-gegevens | Zie &quot;hierboven reeks raadplegingsgegevens maken&quot;. | B2BAccount (klasse aangepast raadplegingsschema) | De relatie tussen `accountID` en de B2B dataset van Impressies is automatisch gecreeerd door de B2B dataset van Info met de B2B dataset van de Impressie in CJA, zoals die in de hieronder stappen wordt beschreven te verbinden. ![Zoeken](assets/lookup-mixins.png) |
 
 Hier is hoe u de datasets combineert:
