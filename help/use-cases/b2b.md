@@ -2,9 +2,9 @@
 title: (B2B) voeg rekening-vlakke gegevens als raadplegingsdataset toe
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan CJA toe te voegen
 translation-type: tm+mt
-source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
+source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ Het creëren van uw eigen schema voor [raadpleging](/help/getting-started/cja-gl
 ## 2. Maak de set raadplegingsgegevens (het platform van de Ervaring)
 
 Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in het Platform van de Ervaring tot stand brengen. Deze raadplegingsdataset bevat rekening-vlakke marketing informatie, zoals: de bedrijfsnaam, het totale aantal werknemers, domeinnaam, welke industrie zij tot, jaarlijkse opbrengst behoren, of zij huidige klanten van het Platform van de Ervaring of niet zijn, welke verkoopstadium zij binnen zijn, welk team binnen de rekening CJA gebruikt, enz.
+
+>[!IMPORTANT]
+>
+>CJA steunt geen gehelen in raadplegingsdatasets. Als u de geheelgebieden in uw schema XDM voor uw raadplegingsdataset toevoegt, zult u niet die gehelen als metriek of berekende metriek kunnen gebruiken. Bijvoorbeeld, als annualRevenue of totalEmployees als gehelen worden gedefinieerd, zullen zij als &quot;0&quot;in rapportering in CJA tonen. Nochtans, als u hen als koorden toewijst, kunt u hen als raadplegingsinformatie gebruiken.
+
+Bijvoorbeeld, wordt annualRevenue of totalEmployees gedefinieerd als Geheel in het volgende voorbeeld, dat is de reden, zijn tonend &quot;0&quot;in CJA.
 
 1. In het Platform van de Ervaring van Adobe, ga naar **[!UICONTROL Data Management > Datasets]**.
 1. Klik op **[!UICONTROL + Create dataset]**.
@@ -75,7 +81,7 @@ Hier is hoe u de datasets combineert:
 
 ## 5. Creeer een gegevensmening van deze verbinding
 
-Volg de instructies op [het creëren van gegevensmeningen](/help/data-views/create-dataview.md).
+Volg de instructies op [gegevensweergaven maken](/help/data-views/create-dataview.md).
 
 * Voeg alle componenten (afmetingen en metriek) toe die u van de datasets nodig hebt.
 
