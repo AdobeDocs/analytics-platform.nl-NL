@@ -3,10 +3,10 @@ description: Gebruik het Summiere Aantal en de visualisaties van de Verandering 
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 6%
+source-wordcount: '403'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,8 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als één enkele cel wordt geselecteerd, toont het de samenvatting voor die cel.
 * Als meer dan één cel wordt geselecteerd, toont het de eerste geselecteerde cel.
 * Als de kolom wordt geselecteerd, plukt het de eerste celwaarde in de kolom.
+
+![Overzicht](assets/summary-number.png)
 
 Klik op de **Visualisatie-instellingen** zet binnen aan het hoogste recht om de Summiere montages van het Aantal te vormen:
 
@@ -43,6 +45,8 @@ Deze visualisatie gedraagt zich op de volgende manieren:
 * Als meer dan twee cellen worden geselecteerd, overweegt het slechts de eerste twee voor vergelijking.
 * Als een waaier van cellen wordt geselecteerd, vergelijkt het eerste bij de laatste cellen die in de waaier worden geselecteerd.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde bij zich, die een verandering van 0 toont.
+
+![Summiere verandering](assets/summary-change.png)
 
 Klik op de **Visualisatie-instellingen** zet binnen aan het hoogste recht om de Summiere montages van de Verandering te vormen:
 
