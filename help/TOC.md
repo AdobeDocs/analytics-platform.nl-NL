@@ -13,15 +13,15 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Leerprogramma's
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 55%
 
 ---
 
 
-# Help bij reisanalyse van klanten {#using}
+# Help voor reisanalyse van klanten {#using}
 
 + [Productdocumentatie voor reisanalyse klant](getting-started/cja-landing.md)
 + Overzicht van de reisanalyse van de klant {#cja-overview}
@@ -93,6 +93,7 @@ ht-degree: 55%
    + Projecten selecteren of delen {#curate-share}
       + [Werkruimteprojecten van de curate](analysis-workspace/curate-share/curate.md)
       + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Verdeelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
       + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
