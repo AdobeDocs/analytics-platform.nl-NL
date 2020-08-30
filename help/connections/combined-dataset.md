@@ -1,6 +1,6 @@
 ---
-title: Gecombineerde gegevenssets
-description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
+title: Gecombineerde datasets
+description: Leer hoe CJA tot een verbinding door datasets te combineren leidt.
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -10,21 +10,21 @@ ht-degree: 1%
 ---
 
 
-# Gecombineerde gegevenssets
+# Gecombineerde datasets
 
 Wanneer u een verbinding creeert, combineert CJA alle schema&#39;s en datasets in één enkele dataset. Deze &quot;gecombineerde dataset&quot; is wat CJA gebruikt voor rapportage. Wanneer u veelvoudige schema&#39;s of datasets in een verbinding omvat:
 
-* Schema&#39;s worden gecombineerd. Dubbele schemavelden worden samengevoegd.
-* De kolom &#39;Person ID&#39; van elke dataset wordt samengevoegd in één kolom, ongeacht de naam ervan. Deze kolom vormt de basis voor het identificeren van unieke bezoekers in CJA.
-* Rijen worden verwerkt op basis van een tijdstempel.
+* Schema&#39;s zijn gecombineerd. De dubbele schemagebieden worden samengevoegd.
+* De kolom &quot;identiteitskaart van de Persoon&quot;van elke dataset wordt samengevoegd in één enkele kolom, ongeacht hun naam. Deze kolom is de stichting van het identificeren van unieke bezoekers in CJA.
+* De rijen worden verwerkt gebaseerd op timestamp.
 
 ## Voorbeeld
 
-Neem het volgende voorbeeld. U hebt twee datasets, elk met verschillende gebieden die verschillende gegevens bevatten.
+Overweeg het volgende voorbeeld. U hebt twee datasets, elk met verschillende gebieden die verschillende gegevens bevatten.
 
 >[!NOTE]
 >
->Adobe Experience Platform slaat tijdstempel doorgaans op in Unix milliseconden. Voor leesbaarheid in dit voorbeeld worden datum en tijd gebruikt.
+>Het Platform van de Ervaring van Adobe slaat typisch timestamp in de milliseconden van Unix op. Voor leesbaarheid in dit voorbeeld, worden de datum en de tijd gebruikt.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
@@ -55,22 +55,22 @@ Wanneer u een verbinding gebruikend deze twee datasets creeert, wordt de volgend
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Deze gecombineerde dataset is wat in rapportering wordt gebruikt. Het maakt niet uit van welke gegevensset een rij afkomstig is; CJA behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze beschouwd als dezelfde unieke bezoeker. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie.
+Deze gecombineerde dataset is wat in rapportering wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is; CJA behandelt alle gegevens alsof het in de zelfde dataset is. Als een passende identiteitskaart van de Persoon in beide datasets verschijnt, worden zij beschouwd als de zelfde unieke bezoeker. Als een passende identiteitskaart van de Persoon in beide datasets met timestamp binnen 30 minuten verschijnt, worden zij beschouwd als deel van de zelfde zitting.
 
-Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke gegevensset een rij afkomstig is; attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
+Dit begrip geldt ook voor de toerekening. Het maakt niet uit van welke dataset een rij afkomstig is; de attributie werkt precies alsof alle gebeurtenissen uit één enkele dataset kwamen. Het gebruik van de bovenstaande tabellen als voorbeeld:
 
-Als de verbinding alleen de eerste tabel en niet de tweede bevat, ziet u het volgende als u een rapport met de `string_color` afmetingen en de `metric_a` metrische waarde trekt met de laatste aanraakkenmerk:
+Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend een rapport gebruikend `string_color` dimensie en `metric_a` De metrisch gebruikend laatste aanraking attributen zou tonen:
 
 | string_color | metrisch_a |
 | --- | --- |
-| Niet opgegeven | 6 |
+| Niet gespecificeerd | 6 |
 | Blauw | 3 |
 | Rood | 2 |
 
-Nochtans, als u beide lijsten in uw verbinding omvatte, verandert de attributie aangezien in beide datasets `user_847` is. Een rij van de tweede dataset kenmerken `metric_a` aan &quot;Geel&quot;waar zij vroeger niet specificeerden:
+Nochtans, als u beide lijsten in uw verbinding omvatte, verandert de attributie sinds `user_847` is in beide datasets. Een rij van de tweede datasetattributen `metric_a` &quot;Geel&quot;, indien zij voorheen niet waren gespecificeerd:
 
 | string_color | metrisch_a |
 | --- | --- |
 | Geel | 6 |
-| Blauw | 3 |
+| Blauw | 1 |
 | Rood | 2 |
