@@ -1,6 +1,6 @@
 ---
 title: Virtual Analyst
-description: Leer welke functies in Adobe Analytics bijdragen aan de Virtual Analyst.
+description: Leer welke eigenschappen in de Analyse van Adobe tot de Virtuele Analyst bijdragen.
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -14,12 +14,12 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Virtual Analyst, een reeks functies die onderdeel is van Adobe Analytics, maakt gebruik van voorspellende algoritmen en computerleren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
+Virtual Analyst, een set functies die deel uitmaken van Adobe Analytics, gebruikt voorspellende algoritmen en machine learning om inzicht te geven in anomalieën die van invloed zijn op uw bedrijf. Het laat u de gemeenschappelijkste en dure werkschema&#39;s van de gegevenswetenschap automatiseren om te identificeren wat ongewoon gedrag in uw gegevens drijft.
 
 ## Functies {#features}
 
-De virtuele Analyst in de Analyse van de Reis van de Klant bestaat uit [Anomaly Detection:](c-anomaly-detection/anomaly-detection.md), die een statistische methode verstrekt om te bepalen hoe bepaalde metrisch met betrekking tot vorige gegevens is veranderd.
+Virtual Analyst in Klantreisanalyse bestaat uit: [Anomaly detectie:](c-anomaly-detection/anomaly-detection.md), die een statistische methode biedt om te bepalen hoe een bepaalde meting ten opzichte van eerdere gegevens is gewijzigd.
 
-De Analyse van de Bijdrage en Intelligente Alarm zijn nog niet beschikbaar in de Analyse van de Reis van de Klant.
+De Analyse van de bijdrage en het Intelligente Alarm zijn nog niet beschikbaar in de Analyse van de Reis van de Klant.
