@@ -1,6 +1,6 @@
 ---
 title: Een datumbereik maken
-description: Maak een datumbereik voor rapportage.
+description: Creeer een datumwaaier voor gebruik in rapportering.
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -14,63 +14,63 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt een aangepast datumbereik maken met een van de volgende twee methoden:
+U kunt een waaier van de douanedatum tot stand brengen gebruikend één van beiden van de volgende twee methodes:
 
-* Rechtstreeks in een werkruimteproject door op de knop &#39;`+`&#39; naast de lijst met componenten voor het datumbereik aan de linkerkant te klikken
+* Direct in een werkruimteproject door te klikken &quot;`+`&#39; knoop naast de lijst van de componenten van de datumwaaier op de linkerzijde
 * Binnen de datumbereikmanager
 
-U kunt als volgt een datumbereik maken in de datumbereikmanager:
+Om een datumwaaier in de manager van de datumwaaier tot stand te brengen:
 
-1. Meld u met uw Adobe-id aan bij [Analytics.adobe.com](https://analytics.adobe.com) .
+1. Aanmelden bij [Analytics.adobe.com](https://analytics.adobe.com) het gebruiken van uw geloofsbrieven van AdobeID.
 1. Ga naar [!UICONTROL Components] > [!UICONTROL Date Ranges].
-1. Klik op de [!UICONTROL Add] knop om het modale venster te openen waarin een datumbereik wordt gemaakt.
+1. Klik op de [!UICONTROL Add] knoop om het modale venster te openen dat tot een datumwaaier leidt.
 
-## Een modaal venster voor een datumbereik maken
+## Creeer een modaal venster van het datumbereik
 
-Het modale venster heeft vier velden die u kunt bewerken:
+Het modaal venster heeft vier gebieden u kunt uitgeven:
 
-* **Datumbereik**: Het datumbereik dat u voor deze component wilt gebruiken.
-* **Titel**: De naam die u voor deze component wilt gebruiken. De titel wordt gebruikt in werkruimteprojecten.
-* **Omschrijving**: De beschrijving die u voor deze component wilt gebruiken. De beschrijving wordt weergegeven wanneer u op het pictogram ![i](../assets/i.png) klikt.
-* **Tags**: Gebruik labels om uw datumbereiken te ordenen. Een datumbereik kan tot meerdere tags behoren.
+* **Datumbereik**: De datumwaaier u voor deze component wilt.
+* **Titel**: De naam u voor deze component wilt. De titel wordt gebruikt in werkruimteprojecten.
+* **Beschrijving**: De beschrijving u voor deze component wilt. De beschrijving wordt gezien wanneer het klikken van ![i](../assets/i.png) pictogram.
+* **Labels**: Gebruik tags om de datumbereiken te ordenen. Een datumwaaier kan tot veelvoudige markeringen behoren.
 
 ## Een datumbereik selecteren
 
-Als u in het modale venster op het datumbereik klikt, hebt u verschillende opties:
+Wanneer het klikken van de datumwaaier in het modale venster, hebt u verscheidene opties:
 
-* **Kalender**: Selecteer de begin- en einddatum.
-* **Roldatums** gebruiken: Schakel dit selectievakje in als u wilt dat het datumbereik wordt gewijzigd terwijl de tijd doorgaat. Schakel dit selectievakje niet in als u wilt dat het datumbereik statisch blijft.
-* **Voorinstelling** selecteren: Gebruik dit vervolgkeuzemenu als u een aangepast datumbereik wilt dat is gebaseerd op een bereik dat standaard door Adobe wordt aangeboden. Wanneer u een voorinstelling selecteert, kunt u het datumbereik verder aanpassen aan uw wensen. Dit heeft geen invloed op de voorinstelling die Adobe aanbiedt.
+* **Agenda**: Selecteer de begin- en einddatum.
+* **Roldatums gebruiken**: Controleer deze doos als u de datumwaaier wilt veranderen aangezien de tijd verdergaat. Controleer deze doos niet als u uw datumwaaier statisch wilt blijven.
+* **Voorinstelling selecteren**: Gebruik deze dropdown als u een waaier wilt van de douanedatum die op een waaier wordt gebaseerd die Adobe door gebrek aanbiedt. Wanneer u vooraf ingesteld selecteert, kunt u de datumwaaier verder aanpassen om uw behoeften aan te passen. Het beïnvloedt vooraf ingesteld niet dat Adobe aanbiedt.
 
-## Roldatumbereiken
+## Roldatumbereik
 
-Als u een het rollen datumwaaier wilt, kunt u aanpassen wanneer het rolt. U kunt bepalen wanneer de begin- en einddatum onafhankelijk van elkaar worden verschoven.
+Als u een het rollen datumwaaier wilt, kunt u aanpassen wanneer het rolt. U kunt controleren wanneer de begin en einddatums onafhankelijk van elkaar rollen.
 
-* **Wanneer de datum begint**: Kies of de datum begint aan het begin van een tijdsperiode, aan het einde van een tijdsperiode of gebruik een vaste dag.
-* **De periode die moet worden gebruikt**: Kies hoe vaak het datumbereik wordt verschoven. Je kunt het elke dag laten rollen, elke week, elke maand, elk kwartaal, of elk jaar.
-* **Verschuiving**: Kies de verschuiving van het datumbereik. U kunt dagen, weken, maanden, kwarten of jaren toevoegen of verwijderen.
+* **Wanneer de datum begint**: Kies als de datum aan het begin van een tijdspanne, aan het eind van een tijdspanne begint, of gebruik een vaste dag.
+* **De periode waarin**: Kies hoe vaak de datumwaaier rollen. Je kunt het elke dag laten rollen, elke week, elke maand, elk kwartaal, of elk jaar.
+* **Compensatie**: Kies de compensatie van de datumwaaier. U kunt dagen, weken, maanden, kwartalen of jaren toevoegen of aftrekken.
 
 ## Voorbeelden van roldatums
 
-Sommige datumbereiken zijn handig in bepaalde rapporten.
+Sommige datumwaaiers kunnen in bepaalde rapporten nuttig zijn.
 
-Jaarlijks:
+Tot op heden jaar:
 
 ```text
 Start: Start of current year
 End: End of current day
 ```
 
-Afgelopen donderdag tot en met donderdag:
+Afgelopen donderdag tot donderdag:
 
 ```text
 Start: Start of current week minus 3 days
 End: Start of current week plus 4 days
 ```
 
-Begrotingsjaar (bijvoorbeeld wanneer een boekjaar in december begint)
+Begrotingsjaar (bijvoorbeeld indien een boekjaar in december begint)
 
 ```text
 Start: Start of current year minus 1 month
