@@ -1,6 +1,6 @@
 ---
-description: Lijst met bekende beperkingen in Adobe Analysis Workspace en verwante componenten
-title: Bekende beperkingen in Analysis Workspace
+description: Lijst van bekende beperkingen in de Werkruimte van de Analyse van Adobe en zijn verwante componenten
+title: Bekende beperkingen in de Analyse Werkruimte
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -10,27 +10,27 @@ ht-degree: 2%
 ---
 
 
-# Bekende beperkingen in Analysis Workspace
+# Bekende beperkingen in de Analyse Werkruimte
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbehorende componenten:
+Hier is een lijst van bekende beperkingen in de Werkruimte van de Analyse en zijn verwante componenten:
 
 ## Tabellen
 
-* Datumvergelijkingskolommen kunnen niet worden toegevoegd wanneer datumbereiken of metriek worden gebruikt als rijen van een tabel.
-* Metrisch maken van selectie is uitgeschakeld wanneer segmenten worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
-* Voorwaardelijke opmaak voor splitsingsrijen kan geen aangepaste bereiken gebruiken.
-* De totale rijen van de lijst kunnen niet worden getrand wanneer Berekende totalen door de rijwaarden op te tellen wordt toegepast die (typisch wordt gebruikt met Statische rijpunten) plaatsen.
-* [!UICONTROL Contribution Analysis] kan [!UICONTROL daily] alleen _met de_ granulariteit worden uitgevoerd. Het kan niet worden uitgevoerd tegen [!UICONTROL hourly], [!UICONTROL weekly]etc., gegevens.
+* De de vergelijkingskolommen van de datum kunnen niet worden toegevoegd wanneer of datumwaaiers of metriek als rijen van een lijst worden gebruikt.
+* Creeer metrisch van selectie is gehandicapt wanneer de segmenten als rijen van een lijst worden gebruikt. Bovendien, creeer metrisch van selectie niet op datum-gerichte kolommen zou moeten worden toegepast.
+* Het voorwaardelijke formatteren voor mislukkingsrijen kan geen douanereeksen gebruiken.
+* De totale rijen van de lijst kunnen niet worden getrind wanneer de Berekende totalen door de rijwaarden samen te vatten wordt het plaatsen toegepast (typisch gebruikt met Statische rijpunten).
+* [!UICONTROL Contribution Analysis] kan worden uitgevoerd op de [!UICONTROL daily] granulariteit _alleen_. Het kan niet worden bestreden [!UICONTROL hourly], [!UICONTROL weekly], enz., gegevens.
 
 ## Visualisaties
 
-* Visualisaties die de hefboomfinanciering segmentatie, zoals [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort]en [!UICONTROL Histogram], niet berekende metriek als input accepteren.
-* [!UICONTROL Flow]: Afmetingen in- en uitgangen, bv. [!UICONTROL Entry page], kan niet worden gebruikt in Flow.
-* [!UICONTROL Cohort]: Niet-gehele getallen kunnen niet als cohortcriteria worden gebruikt.
+* Visualisaties die hefboomsegmentatie, zoals [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort]en [!UICONTROL Histogram], kan berekende metriek als input niet accepteren.
+* [!UICONTROL Flow]: afmetingen voor in- en uitgang, bv. [!UICONTROL Entry page], kan niet in Stroom worden gebruikt.
+* [!UICONTROL Cohort]: Niet-gehelen kunnen niet worden gebruikt als cohortcriteria.
 
 <!--## Panels
 
@@ -38,23 +38,23 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 
 ## Componenten > Filters
 
-* Bepaalde maatstaven en dimensies kunnen niet worden gesegmenteerd, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors]enz.
-* Bepaalde componenten en operatoren zijn niet beschikbaar als een filter wordt gemaakt in Workspace (en niet van [!UICONTROL Components > Filters]). Bijvoorbeeld, IP Adres.
+* Bepaalde metriek en afmetingen zijn niet segmenteerbaar, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
+* Bepaalde componenten en exploitanten zijn niet beschikbaar als een filter van Werkruimte (in tegenstelling tot wordt gecreeerd van) wordt gecreeerd [!UICONTROL Components > Filters]). Bijvoorbeeld, IP Adres.
 
-## Componenten > Berekende cijfers
+## Componenten > Berekende waarden
 
-* Berekende meetgegevens kunnen niet worden gebruikt in bepaalde visualisaties. Zie &#39;Visualisaties&#39; hierboven.
-* Berekende metriek kunnen niet in het [!UICONTROL Attribution] paneel worden gebruikt, aangezien de berekende metriek zelf afzonderlijke attributiemodellen kunnen omvatten.
-* Bepaalde componenten en operatoren zijn niet beschikbaar als een berekende metrische waarde wordt gemaakt in Workspace (in tegenstelling tot het resultaat van [!UICONTROL Components > Segments]). Bijvoorbeeld, [!UICONTROL IP Address].
+* De berekende metriek kunnen niet in bepaalde visualisaties worden gebruikt. Zie &#39;Visualisaties&#39; hierboven.
+* De berekende metriek kunnen niet in worden gebruikt [!UICONTROL Attribution] paneel, aangezien de berekende metriek zelf afzonderlijke attributiemodellen kunnen omvatten.
+* Bepaalde componenten en exploitanten zijn niet beschikbaar als berekende metrisch van Werkruimte (in tegenstelling tot wordt gecreeerd van [!UICONTROL Components > Segments]). Bijvoorbeeld, [!UICONTROL IP Address].
 
 ## Componenten > Datumbereik
 
-* Aangepaste datumbereiken bieden geen ondersteuning voor [!UICONTROL This day last year], [!UICONTROL This day last month]enzovoort.
+* De datumwaaiers van de douane steunen niet [!UICONTROL This day last year], [!UICONTROL This day last month], enz.
 
 ## Componenten > Rapportinstellingen
 
-* Sommige instellingen op de [!UICONTROL Report Settings] pagina zijn niet van toepassing. Analysis Workspace gebruikt alleen de onderste [!UICONTROL Language/Currency/Encoding] instellingen: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding]en [!UICONTROL CSV Separator Character].
+* Enkele montages op [!UICONTROL Report Settings] pagina is niet van toepassing. De Werkruimte van de analyse gebruikt slechts [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding]en [!UICONTROL CSV Separator Character].
 
 ## Attribution IQ
 
-* Een subset metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst, zie de Veelgestelde vragen van [Attributie IQ](../attribution/faq.md).
+* Een ondergroep van metriek wordt niet gesteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst, zie [Attributie IQ FAQ](../attribution/faq.md).
