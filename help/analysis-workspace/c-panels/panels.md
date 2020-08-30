@@ -14,48 +14,48 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Een deelvenster is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace. Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperiodes, bedrijfseenheden, geografie, enzovoort. Deze vier typen deelvensters zijn beschikbaar in Analysis Workspace voor Customer Journey Analytics:
+Een paneel is een inzameling van lijsten &amp; visualisaties. U kunt tot panelen van het hoogste linkerpictogram in Werkruimte toegang hebben. De Comités zijn nuttig wanneer u uw projecten volgens tijdsperioden, bedrijfseenheden, aardrijkskunde, enz. wilt organiseren. Deze vier soorten panelen zijn beschikbaar in de Werkruimte van de Analyse voor de Analyse van de Reis van de Klant:
 
 * [Leeg deelvenster](blank-panel.md)
-* [Deelvenster Snelle inzichten](quickinsight.md)
+* [deelvenster Snelle inzichten](quickinsight.md)
 * [Deelvenster voor attributie](attribution.md)
 * [Deelvenster Vrije vorm](freeform-panel.md)
 
-Deelvensters Snelle inzichten, Lege tinten en Vrije vorm zijn ideale startpunten voor uw analyse, terwijl het deelvenster Kenmerken van IQ zichzelf leent voor geavanceerdere analyses. Een `"+"` knop is beschikbaar in projecten, zodat u op elk gewenst moment lege deelvensters kunt toevoegen.
+De snelle Inzichten, de Leeg en de panelen van de Freeform zijn grote plaatsen om uw analyse te beginnen, terwijl het paneel van IQ van de Attributie zich aan geavanceerdere analyses leent. A `"+"` de knoop is beschikbaar in projecten zodat kunt u lege panelen op elk ogenblik toevoegen.
 
-Het standaardbeginvenster is het deelvenster Vrije vorm, maar u kunt ook het [lege deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) als standaard instellen.
+Het standaardbeginnende paneel is het paneel Freeform, maar u kunt het [leeg paneel](/help/analysis-workspace/c-panels/blank-panel.md) ook uw standaard.
 
-## Vervolgkeuzefilters in deelvensters
+## Drop-down filters in panelen
 
-De dropzone van het deelvenster heeft vervolgkeuzemogelijkheden voor filteren. Met deze filters kunt u op beheerste wijze werken met de projectgegevens, zodat u diepgaande analyses kunt uitvoeren, uw projecten kunt vereenvoudigen en/of inzichten met anderen kunt delen.
+De streek van de paneeldaling heeft drop-down het filtreren mogelijkheden. Deze filters laten u met de projectgegevens op een gecontroleerde manier in wisselwerking staan zodat u diepte-duik analyse kunt doen, uw projecten, en/of inzicht met anderen kunt vereenvoudigen delen.
 
-Hier is een voorbeeld van een vereenvoudigd project: Stel dat u verschillende versies van een project/deelvenster hebt om landenspecifieke rapporten op te stellen. U kunt deze projecten/deelvensters nu samenvouwen tot één deelvenster en in een vervolgkeuzelijst met landen toevoegen om te filteren tussen verschillende gegevenssets.
+Hier is een voorbeeld van een vereenvoudigd project: Veronderstel u verscheidene versies van een project/een paneel hebt om land-specifieke rapportering te verstrekken. U kunt die projecten/panelen in één enkel paneel nu doen ineenstorten, en in een landdrop-down in plaats daarvan toevoegen aan filter tussen verschillende gegevensreeksen.
 
 ![](assets/dropdowns.png)
 
 Houd dit in gedachten:
 
 * U kunt in veelvoudige componenten (of afmetingspunten) vallen, en dan tussen hen in een dropdown schakelen om de paneelinhoud te filtreren.
-* U kunt ook meerdere vervolgkeuzelijsten maken in hetzelfde deelvenster.
-* U kunt de titel van de vervolgkeuzelijst aanpassen door op de titel te klikken en deze te wijzigen, of u kunt de titel helemaal verwijderen door op de x naast de titel te klikken.
-* U kunt drop-down filters tot stand brengen gebruikend om het even welk componententype: afmetingen, datumbereiken, segmenten en metriek. De datumbereiken in de vervolgkeuzelijst hebben altijd voorrang op de datumbereiken in het deelvenster.
-* De kleuren van de component blijven behouden vanaf de linkerspoorstaaf: geel voor de dalingen van afmetingspunt, groen voor metriek, blauw voor segmenten, en paars voor datumwaaiers.
-* De dropzone maakt nog steeds raaksegmenten voor items die als segmenten worden gesleept. U kunt deze zoals gewoonlijk wijzigen door het informatiepictogram (i) naast het segment, dan het potloodvormig uitgeeft pictogram te klikken en het in de Bouwer van het Segment uit te geven.
+* U kunt veelvoudige drop-down lijsten op het zelfde paneel ook tot stand brengen.
+* U kunt de titel van de drop-down lijst aanpassen door de titel te klikken en het te wijzigen, of de titel helemaal te verwijderen door de x naast het te klikken.
+* U kunt drop-down filters tot stand brengen gebruikend om het even welk componententype: afmetingen, datumwaaiers, segmenten, en metriek. Merk op dat de drop-down datumwaaiers altijd de waaiers van de paneeldatum zullen met voeten treden.
+* Wij handhaven de componentenkleuren van de linkerspoorstaaf: geel voor de dropdowns van het afmetingspunt, groen voor metriek, blauw voor segmenten, en paars voor datumwaaiers.
+* De dropzone zal nog klap-vlakke segmenten voor punten creëren die binnen als segmenten worden gesleept. U kunt deze zoals gebruikelijk wijzigen door op het informatiepictogram (i) naast het segment te klikken, dan geeft het potlood-vormige pictogram uit en geeft het in de Bouwer van het Segment uit.
 
-**Vervolgkeuzefilters maken en gebruiken:**
+**Om drop-down filters tot stand te brengen en te gebruiken:**
 
-1. Selecteer items in het linkerspoor en zet ze, **terwijl u de toets** ingedrukt houdt, neer in de neerzetzone van het deelvenster.
+1. Selecteer om het even welke punten van de linkerspoorstaaf en, **terwijl de sleutel wordt ingedrukt**, laat vallen hen in de gebied van de paneeldaling.
 
    ![](assets/create_dropdown.png)
 
-   Hierdoor worden de componenten omgezet in een vervolgkeuzelijst in plaats van in een segment. (U kunt ook segmenten toevoegen door de toets niet ingedrukt te houden.)
+   Dit zal de componenten in een drop-down lijst, eerder dan in een segment veranderen. (U kunt segmenten ook nog toevoegen door de sleutel niet te onderdrukken.)
 
    ![](assets/dropdown.png)
 
-1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het onderstaande deelvenster te wijzigen. (U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door te selecteren **[!UICONTROL No filter]**.)
-1. Als u de gegevens bijvoorbeeld ook via een marketingkanaal wilt segmenteren, kunt u een ander vervolgkeuzemenu met de naam &quot;Marketing Channel&quot; toevoegen:
+1. Selecteer één van de opties van dropdown om de gegevens in het hieronder paneel te veranderen. (U kunt ook verkiezen om het even welke paneelgegevens niet te filtreren door te selecteren **[!UICONTROL No filter]**.)
+1. Bijvoorbeeld, als u ook de gegevens door marketing kanaal wilde snijden, kon u een andere dropdown toevoegen genoemd &quot;het Kanaal van de Marketing&quot;:
 
    ![](assets/mc_dropdown.png)
 
