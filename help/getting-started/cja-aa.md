@@ -1,6 +1,6 @@
 ---
-title: Ondersteuning voor Customer Journey Analytics-functies
-description: Customer Journey Analytics-functies vergeleken met de Adobe Analytics-functies.
+title: Customer Journey Analytics-functionaliteit
+description: De eigenschappen van de Analyse van de Reis van de klant vergeleken met de eigenschappen van de Analyse van Adobe plaatsen.
 translation-type: tm+mt
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
 workflow-type: tm+mt
@@ -10,94 +10,94 @@ ht-degree: 5%
 ---
 
 
-# Ondersteuning voor Customer Journey Analytics-functies
+# Customer Journey Analytics-functionaliteit
 
-In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worden ondersteund, gedeeltelijk of niet ondersteund in Customer Journey Analytics (CJA). Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan CJA worden toegevoegd.
+De volgende lijsten maken een lijst van welke eigenschappen in de Analyse van Adobe worden gesteund, gedeeltelijk of niet gesteund in de Analyse van de Reis van de Klant (CJA). Deze lijsten zullen in tijd veranderen aangezien de eigenschappen aan CJA worden toegevoegd.
 
-## Volledig ondersteunde functies/componenten
+## Volledig ondersteunde functies/onderdelen
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
-| Metrics | CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Sommige standaardmetriek zijn hernoemd van traditionele Analytics: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
-| Dimensies | CJA gebruikt XDM en ondersteunt onbeperkte afmetingen en is niet gekoppeld aan de aangepaste succesgebeurtenissen van traditionele Analytics. |
-| Variabelen/lijsteigenschappen weergeven | CJA gebruikt XDM en ondersteunt onbeperkte lijstvariabelen |
-| Datumbereik | Ondersteuning voor Aangepaste agenda is gepland. |
-| Berekende standaarden | Bestaande cijfers in de traditionele Analysis Workspace worden niet naar CJA verzonden. |
-| Segmenten | Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
-| Anomaliedetectie | Volledige ondersteuning vanaf juni 2020 |
-| Attribution IQ | Volledige ondersteuning |
-| Projectcuratie | Volledige ondersteuning |
-| Projectkoppeling | Volledige ondersteuning |
-| Datumvergelijkingen | Volledige ondersteuning |
-| Virtuele rapportsuites | Nu genoemd de [Mening](/help/data-views/create-dataview.md)van Gegevens. |
-| VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
-| Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
-| GDPR-verwijdering | Merk op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Experience Platform] - CJA erft wat gegevensveranderingen in onderliggende datasets [!UICONTROL Experience Platform] maken. |
+| Metrics | CJA hefboomwerkingen het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet gebonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Mensen, Bezoeken = Zittingen, Hits = Gebeurtenissen. |
+| Dimensies | CJA hefboomwerkingen XDM en steunt onbeperkte afmetingen en is niet gebonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. |
+| Lijst variabelen/Lijst Props | CJA hefboomwerkingen XDM en steunen onbeperkte lijstvariabelen |
+| Datumbereik | Aangepaste agenda-ondersteuning is gepland. |
+| Berekende standaarden | Merk op dat om het even welke bestaande calc metriek in de traditionele Werkruimte van de Analyse niet aan CJA zal worden gesteund. |
+| Segmenten | Nu genoemd &quot;Filters&quot; - merk op dat om het even welke bestaande segmenten in de traditionele Werkruimte van de Analyse niet aan CJA zullen worden gemeld. |
+| Anomaliedetectie | Volledige steun vanaf juni 2020 |
+| Attribution IQ | Volledige support |
+| Projectralculatie | Volledige support |
+| Projectkoppeling | Volledige support |
+| Datumvergelijkingen | Volledige support |
+| Virtuele rapportsuites | Nu geroepen [Gegevensweergaven](/help/data-views/create-dataview.md). |
+| VRS Component Curation | Nu deel van de Meningen van Gegevens. |
+| Rapporttijdverwerking | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
+| GDPR-verwijdering | Merk op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Experience Platform] - CJA erft alle gegevenswijzigingen [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
 
 ## Ondersteund met caveats
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
-| Productvariabele | De productvariabele die momenteel beschikbaar is voor rapportage voor gegevens die voldoen aan het schema Experience Event (met name met behulp van het productListItems-object). |
-| Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
-| AAM-publiek | Als de klanten [!UICONTROL Analytics Data Connector] datasets gebruiken, zullen deze gegevens deel van de gegevens ADC uitmaken. |
-| Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
-| Aangepaste sessie | Ondersteuning voor alle andere aangepaste sessionisatiefuncties dan mobiele achtergrondhits. |
-| Standaardinstellingen voor eVar | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dit betekent dat alle persistentie gebaseerd zal zijn op het bereik van de rapportagedatum in plaats van op de volledige gegevens. |
-| Classificaties | Deze worden nu &#39;Opzoekgegevenssets&#39; genoemd en worden niet automatisch geïmporteerd uit traditionele Analytics. Ze moeten worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
-| Klantkenmerken | Deze worden nu &quot;profielgegevenssets&quot; genoemd en worden niet automatisch geïmporteerd uit Experience Cloud, maar moeten worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
+| Productvariabele | De productvariabele die momenteel beschikbaar is voor rapportering voor gegevens die met het schema van de Gebeurtenis van de Ervaring in overeenstemming zijn (specifiek gebruikend het productListItems voorwerp). |
+| Visualisaties | Alle visualisaties worden gesteund behalve de visualisatie van de Kaart. |
+| AAM-doelgroepen | Als de klanten gebruiken [!UICONTROL Analytics Data Connector] gegevensreeksen, deze gegevens zullen deel uitmaken van de ADC-gegevens. |
+| Projectdeling | Het delen van het project wordt slechts gesteund tussen gebruikers van CJA - er is geen project het delen tussen CJA en de traditionele Werkruimte van de Analyse. |
+| Aangepaste sessie | Steun voor alle eigenschappen van de douanesessie buiten mobiele achtergrondhits. |
+| persistentiemontages van eVar | Vars maken geen deel meer uit van CJA. Nochtans, maken de persistentiemontages nu deel uit van de Meningen van Gegevens en zijn beschikbaar voor alle afmetingen. Houd in mening dat de persistentie op de verwerking van de rapporttijd, niet de verwerking van de gegevensinzameling gebaseerd is. Dit betekent dat alle persistentie gebaseerd zal zijn op de rapporteringsdatumrange in plaats van op alle gegevens. |
+| Classificaties | Nu genoemd de &quot;Datasets van de Raadpleging&quot;, worden zij niet automatisch ingevoerd uit traditionele Analytica. Ze moeten worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
+| Klantkenmerken | Nu genoemd &quot;de Datasets van het Profiel&quot;, worden zij niet automatisch ingevoerd uit de Wolk van de Ervaring, maar zullen aan AEP moeten worden geupload alvorens zij in CJA beschikbaar zijn. |
 
 ## Gedeeltelijke ondersteuning
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
-| Analysis Workspace-afmetingen buiten de box (zoals browsertype, Type referentie, Marketingkanalen, Nummer bezoek, enz.) | CJA biedt deze afmetingen niet native. Voor klanten die de Verbinding van Gegevens van Analytics (ADC) gebruiken, zijn sommige van deze dimensies beschikbaar, maar niet allen. Raadpleeg onze [documentatie over Analytics-variabelen die via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)worden ondersteund. |
-| Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken en Analytics for Target (A4T) worden niet ondersteund. |
-| Merchandising-eVars | Merchandising eVars zal slechts met op ADC-Gebaseerde datasets werken tenzij zij strikt aan het zelfde XDM schema (gelijkend op de beperkingen van de productlijst hierboven) in overeenstemming zijn. |
-| Bot filteren | Voor gegevenssets die zijn gebaseerd op Analytics Data Connector (ADC), wordt beide filtering toegepast. De algemene beide filtrerende logica voor andere datasets wordt niet uitgevoerd door [!UICONTROL Experience Platform] of CJA. |
+| De afmetingen van de Werkruimte van de uit-van-de-doos Analyse (b.v. Browser Type, het Type van Referrer, de Kanalen van de Marketing, het Aantal van het Bezoek enz.) | CJA verstrekt deze afmetingen natively niet. Voor klanten die de Schakelaar van de Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop de analytische variabelen via ADC worden ondersteund](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
+| Deelvensters | Het lege Comité, het Comité van de Attributie, het Comité Freeform, en de Snelle Inzichten worden volledig gesteund. De vergelijking en de Analyse van het Segment voor de panelen van het Doel (A4T) worden niet gesteund. |
+| Merchandising-eVars | Merchandising eVars zal slechts met op ADC-Gebaseerde datasets werken tenzij zij strikt met het zelfde schema XDM (gelijkend op de beperkingen van de productlijst hierboven) in overeenstemming zijn. |
+| Bodemfilter | Voor gegevenssets op basis van analytische gegevens-connector (ADC) wordt bot filtering toegepast. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
 | Verwerkingsregels | Voor op ADC-Gebaseerde datasets, worden de verwerkingsregels nog toegepast. |
-| Identiteitsinstellingen voor meerdere apparaten | De klanten zijn beperkt tot &quot;eenmalig&quot;steunen van de gegevens via de Dienst van de Vraag, of moeten momenteel deze logica op gegevens toepassen voorafgaand aan [!UICONTROL Experience Platform] gegevensopname. |
+| Identiteitskaart voor meerdere apparaten kiezen | De klanten zijn beperkt tot &quot;eenmalig&quot;plaatsen van de gegevens via de Dienst van de Vraag, of moeten momenteel deze logica op gegevens voorafgaand aan [!UICONTROL Experience Platform] gegevensopname. |
 
 ## Momenteel niet ondersteund, maar gepland
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
 | Contributieanalyse | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
-| Segmentpublicatie (segmenten vanuit Workspace naar de Experience Cloud verzenden) | Er is steun gepland. |
-| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | Alle gebruikers in CJA hebben de zelfde toegangscontroles - dit betekent alle gebruikers toegang tot alle verbindingen, gegevensmeningen, enz. hebben. In feite zijn alle gebruikers gebruikers op beheerniveau in CJA. De steun is gepland voor 2020. |
+| Segment Publishing (segmenten vanuit de werkruimte naar de cloud van de ervaring verzenden) | Er is steun gepland. |
+| Gebruikersrechten/toegangscontroles voor gegevens | Alle gebruikers in CJA hebben de zelfde toegangscontroles - dit betekent alle gebruikers toegang tot alle verbindingen, gegevensmeningen, enz. hebben. Fundamenteel, zijn alle gebruikers admin-vlakke gebruikers in CJA. De steun is gepland voor 2020. |
 | CSV-download | Er is steun gepland. |
 | Geplande rapporten/projecten | Er is steun gepland. |
 | Waarschuwingen | Er is steun gepland. |
 | Aangepaste kalenders | Er is steun gepland. |
 | Marketingkanalen | Er is steun gepland. |
-| PDF exporteren | Er is steun gepland. |
-| API-toegang rapporteren | Ondersteuning is gepland; alleen beschikbaar met API 2.0. |
-| ID-instelling via apparaatgrafiek | Er is steun gepland. |
+| PDF-export | Er is steun gepland. |
+| API-toegang melden | De steun is gepland - zal slechts met API 2.0 beschikbaar zijn. |
+| ID Stitching via Device Graph | Er is steun gepland. |
 
 ## Steun nog niet gepland
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
 | A4T | De steun is nog niet gepland. |
-| Video Analytics | De steun is nog niet gepland. |
+| Videoanalyse | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
-| Report Builder (Excel-plug-in) | De steun is nog niet gepland. |
+| De Bouwer van het rapport (de stop van Excel) | De steun is nog niet gepland. |
 | Activity Map | De steun is nog niet gepland. |
 | Builder voor classificatieregels | De steun is nog niet gepland. |
-| Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
+| Summiere Gegevensbronnen | De steun is nog niet gepland. |
 | Real-time rapportage | De steun is nog niet gepland. |
 
 ## Wordt nooit ondersteund
 
-| Functie | Notities |
+| Functie | Opmerkingen |
 | --- | --- |
-| Metrische personen met behulp van Cross-Device Coop |  |
-| Rapporten en Analytics-dashboards |  |
-| Rapporten en Analytics-bladwijzers |  |
-| Rapporten en Analytics-doelen |  |
-| Rapporten en Analytics-agendagebeurtenissen |  |
+| De metrische mensen die de Coop van het Kruisapparaat gebruiken |  |
+| Dashboards voor rapporten en analyses |  |
+| Rapporten en analytische bladwijzers |  |
+| Doelstellingen voor rapporten en analyses |  |
+| Evenementen van de Kalender van rapporten &amp; van de Analyse |  |
 | Ad Hoc Analysis |  |
-| Data warehouse Rapportage | [!UICONTROL Experience Platform Query Service] wordt de nieuwe interface voor deze gebruiksgevallen in CJA. |
+| Data Warehouse Reporting | [!UICONTROL Experience Platform Query Service] zal de nieuwe interface voor deze gebruiksgevallen in CJA zijn. |
 | Mobiele services |  |
 | Gegevensfeeds |  |
