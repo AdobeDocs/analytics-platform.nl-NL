@@ -1,5 +1,5 @@
 ---
-description: Leer hoe u de weergavedichtheid aanpast.
+description: Leer hoe te om de meningsdichtheid aan te passen.
 title: Dichtheid weergeven
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen.
-U hebt drie opties wanneer u de weergavedoniteit via keuzerondjes in- of uitschakelt:
+Het aanpassen van de meningsdichtheid laat u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, de freeformlijsten en de cohortlijsten te verminderen.
+U hebt 3 opties wanneer het van een knevel voorzien van de meningsdichtheid via radioknopen:
 
-- **[!UICONTROL Compact]**: Dit is de versie met de meest versmalde weergave.
-- **[!UICONTROL Comfortable]**: Hierdoor blijft er iets meer opvulling over dan bij de compacte versie.
-- **[!UICONTROL Expanded]** (standaard): Dit is de weergave die u gebruikt in Workspace.
+- **[!UICONTROL Compact]**: Dit is de versie met de meest gecondenseerde mening.
+- **[!UICONTROL Comfortable]**: Dit verlaat een weinig meer opvulling dan de Compacte versie.
+- **[!UICONTROL Expanded]** (standaard): Dit is de mening u aan in Werkruimte wordt gebruikt.
 
 ![](assets/view-density.png)
 
-De weergavedichtheid instellen:
+Om de meningsdichtheid te plaatsen:
 
-1. Navigeer in Workspace naar **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
+1. In Werkruimte, navigeer aan **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
-1. Selecteer een van de drie opties die hierboven zijn beschreven en klik op **[!UICONTROL Save]**.
+1. Selecteer een van de drie bovenstaande opties en klik op **[!UICONTROL Save]**.
