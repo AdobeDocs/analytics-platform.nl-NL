@@ -1,138 +1,141 @@
 ---
 title: Filters beheren
-description: leunen hoe te om filters in de Analyse van de Reis van de Klant te beheren
+description: hoe te slanken om filters in de Analyse van de Reis van de Klant te beheren
 translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 1%
 
 ---
 
 
 # Filters beheren
 
-Filterbeheer biedt verschillende manieren om segmenten te curven, zoals delen, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
+De manager van de Filter biedt vele manieren aan om segmenten, zoals het delen, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te krullen.
 
-In Filterbeheer worden alle filters weergegeven die u hebt en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle filters in de organisatie zien. In dit overzicht worden de gebruikersinterface en de mogelijkheden van Filterbeheer weergegeven.
+De manager van de Filter toont u alle filters u bezit en die met u zijn gedeeld. De beheerder-vlakke gebruikers kunnen alle filters in de organisatie zien. Dit overzicht stelt het gebruikersinterface en de mogelijkheden van de Manager van de Filter voor.
 
-Ga in de bovenste navigatie naar **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]** om Filterbeheer te openen.
+Heb toegang tot de Manager van de Filter door te gaan **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]** in de bovenste navigatie.
 
-## Gebruikersinterface voor filterbeheer
+## Filter Manager UI
 
 ![](assets/filter-manager-ui.png)
 
-| # | UI-onderdeel | Beschrijving |
+| # | UI-functie | Beschrijving |
 |---|---|---|
-| 1 | Filterbeheerbalk | Nadat u een filter hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
-| 2 | Selectievakjes | Controleer een filter om het te beheren. |
-| 4 | Favorieten | Wanneer u op de ster naast een filter klikt, wordt de ster geel en wordt het filter als favoriet gemarkeerd. |
-| 5 | Titel en beschrijving | Opgegeven in de Filter Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Filterbouwer. |
-| 6 | Rapportageopties | Deze kolom geeft aan in welke rapportsuite het filter het laatst is opgeslagen. |
-| 7 | Eigenaar | Hiermee wordt aangegeven wie de eigenaar van het filter is. Als niet-beheerder kunt u alleen filters zien die u bezit of die met u gedeeld zijn. |
-| 8 | Labels (niet gecontroleerd in kolomkiezer, vandaar dat de kolom niet wordt weergegeven) | Tags die op het filter zijn toegepast, door u of door personen die het filter met u hebben gedeeld. |
-| 9 | Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het filter hebt gedeeld. |
-| 10 | Datum gewijzigd | Hiermee wordt de datum weergegeven waarop het filter voor het laatst is gewijzigd. |
-| 11 | Kolomkiezer | (Rechtsboven) Hiermee kunt u selecteren welke kolommen u wilt weergeven in Filterbeheer. |
-| 12 | Gedeeld pictogram | Geeft aan dat dit filter door u of met u wordt gedeeld. |
-| 13 | Goedgekeurd pictogram | Geeft aan dat dit filter is goedgekeurd door een beheerder. |
-| 14 | Overige filters | Hiermee kunt u filters weergeven op basis van tags, rapportsets, eigenaars en overige (Alles tonen, Mijne, Gedeeld met mij, Goedgekeurd, Favorieten.) |
+| 1 | Filter Management Tool Bar | Zodra u een filter hebt gecontroleerd, verschijnt deze hulpmiddelbar. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
+| 2 | Vakken | Controleer een filter om het te beheren. |
+| 4 | Favorieten | Het klikken van de ster naast een filter draait het stergeel en merkt de filter als favoriet. |
+| 5 | Titel en beschrijving | Verstrekt in de Bouwer van de Filter. Om de titel en de beschrijving uit te geven, klik de titelverbinding - dit neemt u terug naar de Bouwer van de Filter. |
+| 6 | Rapportsuites | Deze kolom wijst erop waarin de rapportreeks de filter het laatst werd bewaard. |
+| 7 | Eigenaar | Wijst op wie de filter bezit. Als niet-Admin, kunt u slechts filters zien u of die bezitten die met u werden gedeeld. |
+| 8 | Markeringen (niet ingeschakeld in kolomkiezer, dus kolom niet weergegeven) | Markeringen die werden toegepast op de filter, door u of door mensen die de filter met u deelden. |
+| 9 | Gedeeld met | Maakt een lijst van individuen of groepen (Admin slechts) of allen (Admin slechts) die u de filter met deelde. |
+| 10 | Datum gewijzigd | Toont de datum dat de filter het laatst werd gewijzigd. |
+| 11 | Kolom selector | (Bovenste recht) laat u selecteren welke kolommen aan vertoning in de Manager van de Filter. |
+| 12 | Gedeeld pictogram | Wijst erop dat deze filter door u of met u wordt gedeeld. |
+| 13 | Goedgekeurd pictogram | Wijst erop dat deze filter door een Beheerder is goedgekeurd. |
+| 14 | Andere filters | Laat u filters door Markeringen, de Uitrusting van het Rapport, Eigenaars, en Andere zien (toon allen, Mijn, Gedeeld met me, Goedgekeurd, Favorieten.) |
 
-## Abonnementsfilters
+## Filters plannen
 
-Het besteden van wat tijd om segmenten te plannen verbetert de kansen dat zij voor uw organisatie nuttig zullen zijn en dat hun aantallen in controle zullen worden gehouden.
+Het wijden van wat tijd om segmenten te plannen verbetert de kansen dat zij voor uw organisatie nuttig zullen zijn en dat hun aantallen in controle zullen worden gehouden.
 
-* Kijk naar het publiek: Wie zal het consumeren? Met wie gaat u het delen? Welke groepen mensen gebruiken dit filter en hoe moet ik het dienovereenkomstig labelen? Dit betekent ook dat u een goede filterbeschrijving moet geven. De beschrijving moet ten minste de volgende vragen beantwoorden:
+* Denk aan het publiek: Wie zal het consumeren? Met wie ga je het delen? Welke groepen mensen zullen deze filter gebruiken en hoe zou ik het dienovereenkomstig moeten etiketteren? Dit betekent ook dat u een goede filterbeschrijving moet geven. De beschrijving moet ten minste de volgende vragen beantwoorden:
 
-   * Wanneer is dit filter nuttig?
+   * Waar is deze filter nuttig voor?
 
-   * Wanneer moet ik dit filter gebruiken?
+   * Wanneer moet ik deze filter gebruiken?
 
-* Bepaal het filterbereik. Welke [filtercontainer](/help/components/filters/filters-overview.md) vertegenwoordigt het beste werkingsgebied? Gebruik de kleinst mogelijke container.
+* Bepaal het filterbereik. Welke [filtercontainer](/help/components/filters/filters-overview.md) geeft het bereik het beste weer ? Gebruik de kleinste mogelijke container.
 
-* Bepaal welke elementen u in de filterdefinitie wilt opnemen en welke waarden.
+* Beslis welke elementen in de filterdefinitie moeten omvatten, en welke waarden.
 
-* Overweeg hoe u uw goedkeuringsproces wilt ontvouwen. Zal één persoon filters controleren en goedkeuren of zal het een besluit van een commissie zijn?
+* Overweeg hoe u uw goedkeuringsproces wilt ontvouwen. Zal één persoon filters beoordelen en goedkeuren of zal het een besluit van de commissie zijn?
 
-* Definieer uw filters met het oog op een filterbibliotheek die zakelijke gebruikers de mogelijkheid biedt om filteronderdelen of componenten op modulaire wijze te stapelen en opnieuw te gebruiken. Welke &quot;modules&quot;moet u bepalen om deze bibliotheek tot realiteit te maken?
+* Bepaal uw filters met het oog op een filterbibliotheek die bedrijfsgebruikers de capaciteit geeft om filterstukken of componenten op een modulaire manier te stapelen en opnieuw te gebruiken. Welke &quot;modules&quot; moet u definiëren om deze bibliotheek tot realiteit te maken?
 
-### Labelfilters
+### Markeringsfilters
 
-In Filterbeheer kunt u de filters organiseren door ze te labelen. Alle gebruikers kunnen labels voor filters maken en een of meer tags op een segment toepassen. U kunt echter alleen tags zien voor de filters die u bezit of die met u zijn gedeeld.
+In de Manager van de Filter, staat het etiketteren van filters u toe om hen te organiseren. Alle gebruikers kunnen markeringen voor filters tot stand brengen en één of meerdere markeringen op een segment toepassen. Nochtans, kunt u markeringen slechts voor die filters zien die u bezit of die met u zijn gedeeld.
 
-Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:
+Welke soorten markeringen zou u moeten creëren? Hier zijn sommige suggesties voor nuttige markeringen:
 
-* Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing.
+* Markeringen op teamnamen, zoals Sociale Marketing, Mobiele Marketing worden gebaseerd.
 
-* Projectlabels (analysetags), zoals analyse van de pagina Entry.
+* De markeringen van het project (analysetags), zoals ingang-pagina analyse.
 
 * Categorielabels: Mannen; geografie.
 
-* Workflowlabels: goed te keuren; Gecurreerd voor (een specifieke bedrijfseenheid)
+* Werkstroomtags: te erkennen; Gecurreerd voor (een specifieke bedrijfseenheid)
 
-Een filter labelen:
+Om een filter te labelen:
 
-1. Markeer in Filterbeheer het selectievakje naast het filter dat u wilt labelen. De werkbalk voor filterbeheer wordt weergegeven.
+1. In de Manager van de Filter, merk checkbox naast de filter u wilt etiketteren. De werkbalk voor filterbeheer wordt weergegeven.
 
-1. Klik **[!UICONTROL Tag]** en kies
+1. Klik **[!UICONTROL Tag]** en hetzij
 
-   * uit bestaande tags selecteren, of
+   * uit bestaande tags te selecteren, of
 
-   * Voer een nieuwe tagnaam in en druk op **[!UICONTROL Enter]**.
+   * voer een nieuwe tagnaam in en druk op **[!UICONTROL Enter]**.
 
 1. Klik **[!UICONTROL Tag]** opnieuw om het segment te etiketteren.
 
-Het label moet nu in de kolom Codes staan. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
-U kunt ook filteren op tags door naar **[!UICONTROL Filters > Tags]** te gaan.
+De markering zou nu in de kolom van Markeringen moeten verschijnen. (Klik het vistuigpictogram op het hoogste recht om uw kolommen te beheren.)
+U kunt ook op tags filteren door naar **[!UICONTROL Filters > Tags]**.
 
 ### Filters goedkeuren
 
-Binnen de Manager van de Filter, kunt u opstelling een werkschema dat het goedkeuren van filter voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
+Binnen de Manager van de Filter, kunt u opstelling een werkschema dat het goedkeuren van filter voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het melden van beleid omvat.
 
-Hieronder wordt beschreven hoe u een filter kunt markeren zoals het is goedgekeurd:
+Hier is hoe te om een filter te markeren zoals goedgekeurd:
 
-1. Schakel in Filterbeheer het selectievakje links van de titel Filter in.
+1. In de Manager van de Filter, controleer checkbox links van de titel van de Filter.
 
-1. Klik op **[!UICONTROL Approve]** de taakbalk voor filterbeheer.
+1. Klik **[!UICONTROL Approve]** op de taakbalk voor filterbeheer.
 
-1. U kunt overwegen het goedgekeurde segment of de goedgekeurde segmenten met uw organisatie te delen.
+1. Denk na delend het goedgekeurde segment/de goedgekeurde segmenten met uw organisatie.
 
 1. Klik op **[!UICONTROL OK]**.
 
-   Let op het goedkeuringspictogram naast het filter in de lijst:
+   Merk het goedkeuringspictogram naast het filter in de lijst op:
 
    ![](assets/seg_approved.png)
 
-1. U kunt een goedgekeurd segment ook niet goedkeuren door te klikken **[!UICONTROL Unapprove]**.
+1. U kunt een goedgekeurd segment ook goedkeuren door te klikken **[!UICONTROL Unapprove]**.
 
 ### Filters delen
 
-Afhankelijk van uw machtigingen kunt u filters delen met uw hele organisatie, groepen of individuele gebruikers.
+Afhankelijk van uw toestemmingen, kunt u filters met uw gehele organisatie, groepen, of individuele gebruikers delen.
 
 | Beheerder | Niet-beheerder |
 |---|---|
-| Kan filters delen met Alles, met groepen en met gebruikers. Raadpleeg de documentatie bij [de](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) beheerconsole voor meer informatie. | Filters kunnen alleen met individuele gebruikers worden gedeeld. |
+| Kan filters met allen, met Groepen, en met Gebruikers delen. Zie de [Admin Console-documentatie](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) voor meer informatie . | Kan filters slechts met individuele gebruikers delen. |
 
-Wanneer zou u filters met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier volgen enkele aanbevolen procedures:
+Wanneer zou u filters met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier zijn sommige beste praktijken u zou kunnen volgen:
 
-* Als Admin, deel een filter met allen als het van nut voor het volledige bedrijf is en iedereen het comfortabel gebruikt. In dit geval moet u ook overwegen om er een goedgekeurd filter van te maken.
+* Als Admin, deel een filter met allen als het van nut aan het volledige bedrijf is en iedereen het comfortabel gebruiken is. In dit geval, zou u ook moeten overwegen om van het een goedgekeurd filter te maken.
 
 * Als Admin, deel een filter met een specifiek Profiel van het Product als de filter goede bedrijfswaarde voor dat team verstrekt. Dit type filter niet officieel goedkeuren.
 
-* Als Admin of een individuele gebruiker, deel een filter met andere individuen om een filter te onderzoeken en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Dit type filter niet officieel goedkeuren.
+* Als Admin of een individuele gebruiker, deel een filter met andere individuen om een filter af te vuren en te bevestigen. Als het niet nuttig blijkt, kan het worden weggegooid. Dit type filter niet officieel goedkeuren.
 
-Een filter delen:
+Om een filter te delen:
 
-1. Markeer in Filterbeheer het selectievakje naast het filter dat u wilt delen.
+1. In de Manager van de Filter, merk checkbox naast de filter u wilt delen.
 
-1. Klik op de werkbalk Filterbeheer **[!UICONTROL Share]**.
+1. Klik op de balk met het gereedschap Filterbeheer op **[!UICONTROL Share]**.
 
-1. Als u een beheerder bent, kunt u Alles selecteren of kiezen uit Groepen en Gebruikers in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het veld Zoeken om te zoeken naar groepen of gebruikers. Klik op **[!UICONTROL Share]**. Het pictogram Gedeeld wordt weergegeven naast het filter: ![](assets/share_icon.png)
+1. Als u een Admin bent, kunt u allen selecteren of van Groepen en Gebruikers in uw organisatie kiezen. Als niet-Admin, kunt u slechts individuele gebruikers zien. Gebruik het gebied van het Onderzoek aan onderzoek naar groepen of gebruikers. Klik op **[!UICONTROL Share]**. Het gedeelde pictogram verschijnt naast de filter: ![](assets/share_icon.png)
 
-1. U kunt filteren op filters die met u worden gedeeld door naar Filters > Andere Filters > met mij worden gedeeld.
+1. U kunt op filters filtreren die met u worden gedeeld door naar Filters > Andere Filters te gaan > met me worden gedeeld.
 
 ### Filters markeren als favorieten
 
-U kunt segmenten ook als favorieten markeren om ze zo eenvoudig mogelijk te organiseren.
+Het merken van segmenten als favorieten is een andere manier om hen voor gemak van gebruik te organiseren.
 
-1. Controleer in Filterbeheer de ster naast een filter dat u als favoriet wilt markeren. De ster wordt geel wanneer u deze selecteert.
+1. In de Manager van de Filter, controleer de ster naast om het even welke filter die u als favoriet wilt merken. De ster wordt geel wanneer u het selecteert.
 
-1. U kunt ook filteren op favorieten onder Filters > Overige filters > Favorieten.
+1. U kunt ook op favorieten filteren onder Filters > Andere Filters > Favorieten.
 
