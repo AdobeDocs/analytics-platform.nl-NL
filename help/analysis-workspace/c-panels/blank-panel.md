@@ -14,9 +14,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-In een leeg deelvenster worden alle visualisaties gemarkeerd die u kunt maken vanuit een deelvenster, inclusief Vrije vorm, Kaart, Fallout, Stroom, Histogram, Cohort en Venn. U kunt er ook voor kiezen om van het deelvenster Blanco de standaardstartstatus van het project te maken in plaats van een deelvenster met vrije vorm.
+Een leeg paneel benadrukt alle visualisaties u van binnen een paneel, met inbegrip van Freeform, Kaart, Uitloop, Stroom, Histogram, Cohort, en Venn kunt bouwen. U kunt ook verkiezen om het Leeg Comité te maken uw standaardproject beginnende staat, in plaats van een vrije vormpaneel.
 
 ![](assets/blank_panel.png)
 
