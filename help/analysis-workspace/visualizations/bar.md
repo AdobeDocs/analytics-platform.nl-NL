@@ -15,23 +15,23 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-## Balk
+## Bar
 
-Bij deze visualisatie worden verticale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
+Deze visualisatie toont verticale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
 
 ![](assets/bar.png)
 
-Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
+Met een granularity drop-down in de visualisatiemontages kunt u een trending visualization (b.v. lijn, bar) van dag aan week in maand veranderen, enz.
 
-## Stapel gestapeld
+## Bar gestapeld
 
-Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
+Deze visualisatie is als een streepjesgrafiek, maar met de reeksbars die bovenop elkaar worden gestapeld.
 
 ![](assets/bar-stacked.png)
 
-Met een nieuwe visualisatie-instelling op staafgestapelde visualisaties verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie:
+Een nieuwe visualisatie die op bar gestapelde visualisaties plaatst verandert de grafiek in een &quot;100% gestapelde&quot;visualisatie:
 
 ![](assets/stacked_100_percent.png)
 
