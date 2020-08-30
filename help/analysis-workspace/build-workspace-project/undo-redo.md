@@ -1,5 +1,5 @@
 ---
-description: Wijzigingen en verbeteringen in de optie Ongedaan maken in Analysis Workspace
+description: Veranderingen en verhogingen aan de Undo optie in de Werkruimte van de Analyse
 title: Instellingen ongedaan maken en opnieuw uitvoeren
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
@@ -14,24 +14,24 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* De **[!UICONTROL Redo]** optie (om ongedaan te maken) staat in het **[!UICONTROL Edit]** menu.
+* De **[!UICONTROL Redo]** optie (om ongedaan te maken ongedaan maken) staat in de **[!UICONTROL Edit]** menu.
 
-* Als u klikt, wordt de **[!UICONTROL Save]** stapel **[!UICONTROL Undo]** niet gewist.
+* Klikken **[!UICONTROL Save]** de **[!UICONTROL Undo]** stapel.
 
-* **[!UICONTROL New Project]** of **[!UICONTROL Open Existing Project]** wis de **[!UICONTROL Undo]** stapel
+* **[!UICONTROL New Project]** of **[!UICONTROL Open Existing Project]** de **[!UICONTROL Undo]** stapel
 
-* U kunt het wijzigen van de rapportsuite ongedaan maken of opnieuw uitvoeren.
-* Een bericht voor Ongedaan maken/Opnieuw wordt weergegeven bij de naam van het project - het geeft aan wanneer er een bewerking Ongedaan maken of Opnieuw wordt uitgevoerd.
-* U kunt de volgende [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)gebruiken:
+* U kunt het veranderen van de rapportreeks ongedaan maken/opnieuw doen.
+* Undo/redo berichtvertoningen dichtbij de projectnaam - het wijst erop wanneer undo of redo lopend is.
+* U kunt deze gebruiken [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
-   * CTRL(CMD)+Z voor Ongedaan maken
-   * CTRL(CMD)+SHIFT+Z voor Opnieuw
+   * CTRL(CMD)+Z voor ongedaan maken
+   * CTRL(CMD)+SHIFT+Z voor Redo
 
-## Wat u ongedaan kunt maken en opnieuw kunt uitvoeren {#section_1E94152CC206470D84FC11710311DA12}
+## Wat u ongedaan kunt maken en opnieuw kunt doen {#section_1E94152CC206470D84FC11710311DA12}
 
 * Curation
 * Alles wissen
@@ -39,38 +39,38 @@ ht-degree: 4%
 * Contributieanalyse
 * Segmentvergelijking
 * Projectnaam
-* Selectie van rapportsuite
+* Selecteer Rapportpakket
 * Visualisatie toevoegen/verwijderen
-* Deelvenster of visualisatie samenvouwen/uitvouwen
-* Invoegen met sneltoetsen (CTRL(CMD)+Z voor Ongedaan maken), (CTRL(CMD)+SHIFT+Z voor Opnieuw)
+* Invouwen/deelvenster of visualisatie uitbreiden
+* Invoegen met sneltoetsen (CTRL(CMD)+Z voor ongedaan maken), (CTRL(CMD)+SHIFT+Z voor Redo)
 * Deelvenster Invoegen
-* Klik met de rechtermuisknop op deelvensteropties (Deelvenster dupliceren, Alle deelvensters samenvouwen, Alle deelvensters uitvouwen, Alle deelvensters samenvouwen in deelvenster, Alle deelvensters in deelvenster uitvouwen, Beschrijving van deelvenster bewerken)
-* Wijzigingen in deelvenster Vrije vorm
-* Visualisatiegrootte, deelvenstergrootte, wijzigingen in de visualisatiepositie
-* Opties voor vrije vorm met rechtermuisknop klikken
+* Klik met de rechtermuisknop op paneelopties (deelvenster dupliceren, Alle panelen samenvouwen, Alle panelen uitbreiden, Alle vensters samenvouwen in deelvenster, Alle Viz uitvouwen in deelvenster, Alles uitvouwen in deelvenster, Beschrijving van deelvenster bewerken)
+* Wijzigingen in het deelvenster Vrije vorm
+* Visualisatiegrootte, paneelgrootte, visualisatiepositie, wijzigingen
+* De vrije vorm klikt opties met de rechtermuisknop aan
 * Selectie
-* Selectie van een legenda visualiseren
+* Schema-legenselectie
 * Een segment toevoegen aan een deelvenster
-* Visualisatie-instellingen voor grafieken
-* Legenda-labels bewerken
+* Visualisatie-instellingen op grafieken
+* legendetiketten bewerken
 * Magische visualisatie
 * Gegevensbroninstellingen
-* Instellingen voor aanraakpunten en visualisatie voor noodgevallen
-* Wijzigingen en visualisatie-instellingen voor Stroomknooppunten
+* Instellingen voor aanraakpunt en visualisatie van de uitval
+* Wijzigingen en visualisatie-instellingen voor stroomknooppunten
 * Histogram- en visualisatie-instellingen
-* Instellingen voor verf en visualisatie
-* Cohort (granularity change ongedaan maken, Ongedaan maken toevoegen of wijzigen van Inclusion Metric en Return Metric, Ongedaan maken Herstellen, Ongedaan maken Run Report)
-* Opnieuw starten voor stroom, venn en histogram
+* Instellingen voor venn en visualisatie
+* Cohort ( maak granularity verandering ongedaan, maak toevoegen of verandering van Insluiting Metrische en Terugkeer ongedaan, maak Terugstellen ongedaan ongedaan, maak Rapport van de Looppas ongedaan)
+* Begin over voor Stroom, Venn en Histogram
 * Beschrijving bewerken
 * Dubbele visualisatie
 
-## Wat u niet ongedaan kunt maken en opnieuw kunt uitvoeren {#section_65BB313E048F4744B692926362873230}
+## Wat u niet ongedaan kunt maken en opnieuw kunt doen {#section_65BB313E048F4744B692926362873230}
 
-* Wijzigingen in projectinformatie en -instellingen (tags toevoegen, beschrijvingswijzigingen, instelling voor herhaalde instanties tellen)
-* Instellen als bestemmingspagina
-* Nieuw toevoegen (segment/metrisch/Datumbereik/Waarschuwing)
-* Project delen, Projectkoppeling ophalen, Bestand verzenden (Nu of Programma)
-* Segment maken voor dit pad bij stroomvisualisatie
-* Berekende metrisch maken
+* De veranderingen van de Info &amp; van de Montages van het project (voeg Markeringen, de Veranderingen van de Beschrijving toe, de Telling herhaalt Instanties die plaatsen)
+* Instellen als landingspagina
+* Nieuw toevoegen (Segment/metrisch/Datumbereik/Waarschuwing)
+* Het Project van het aandeel, krijgt de Verbinding van het Project, verzendt Dossier (nu of Programma)
+* Creeer Segment voor deze weg op de Visualisatie van de Stroom
+* Berekend metrisch maken
 * Datumbereik maken
 
