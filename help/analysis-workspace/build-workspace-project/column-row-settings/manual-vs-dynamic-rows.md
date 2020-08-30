@@ -47,7 +47,7 @@ Statische dimensieitems **niet** heb de optie van de rijfilter. In plaats daarva
 
 ## Posten met gemengde afmetingen
 
-De punten van de maat van verschillende afmetingen kunnen aan de zelfde lijst worden toegevoegd. De rijkopbal zegt &quot;Gemengde Afmetingen&quot;in deze gevallen. Deze afmetingspunten zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van het Type en andere afmetingspunten van de Browser afmeting.
+De punten van de maat van verschillende afmetingen kunnen aan de zelfde lijst worden toegevoegd. De rijkopbal zegt &quot;Gemengde Dimensies&quot;in deze gevallen. Deze afmetingspunten zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van het Type en andere afmetingspunten van de Browser afmeting.
 
 ![](assets/mixed-dimensions.png)
 
@@ -56,5 +56,5 @@ De punten van de maat van verschillende afmetingen kunnen aan de zelfde lijst wo
 De dynamische en statische rijen gedragen zich verschillend in de freeform totale rij. Standaard:
 
 * De dynamische rijen worden samengevat server-kant en deduplicatie metriek zoals bezoeken of bezoekers
-* De statische rijen worden samengevat cliënt-kant en doen **niet** deduplicatie-metingen. Om de totale rij server-kant te berekenen, verander het plaatsen van de Rij aan **Totaal-generaal weergeven**. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
+* De statische rijen worden samengevat cliënt-kant en doen **niet** deduplicatie-metingen. Om de totale rij server-kant te berekenen, verander het plaatsen van de Rij aan **Totaal-generaal weergeven**. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
