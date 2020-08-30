@@ -17,36 +17,36 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-U kunt een robuust Analytics-project maken op basis van elke combinatie van visualisaties, rapportcomponenten en gegevenstabellen. Het brengt veel van de eigenschappen van de lijstbouwer van Ad hoc analysis in Analytics.
+U kunt een robuust project tot stand brengen Analytics dat op om het even welke combinatie visualisaties, rapportcomponenten, en gegevenslijsten wordt gebaseerd. Het brengt veel van de eigenschappen van de lijstbouwer van Ad hoc Analyse in Analytics.
 
-In Analysis Workspace kunt u gegevens vergelijken en scheiden op manieren die voorheen niet mogelijk waren. Bijvoorbeeld, vorm gerangschikte rapporten en breng directe herhalende veranderingen in de gegevensvraag aan, en heb dan toegang tot en manipuleer de waarden op het rapporteringsniveau.
+In de Werkruimte van de Analyse, kunt u gegevens op manieren vergelijken en scheiden niet eerder mogelijk. Bijvoorbeeld, vorm gerangschikte rapporten en breng directe herhalende veranderingen in de gegevensvraag aan, en dan toegang en manipuleer de waarden op het rapporteringsniveau.
 
-De vraag gaat direct naar rapporterend motor-u kan veranderingen inline aanbrengen zonder andere rapporten op te nemen om uw analyse tot stand te brengen. Resultaten worden direct geretourneerd, zonder dat de browser wordt vernieuwd.
+De vraag gaat direct naar rapporterend motor-u kan veranderingen maken gealigneerd zonder andere rapporten omhoog te brengen om uw analyse tot stand te brengen. De resultaten keren onmiddellijk terug, zonder browser verfrist zich.
 
-## Werkruimteprojectlijstpagina {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Pagina Projectlijst Werkruimte {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Wanneer u voor het eerst naar **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** gaat, worden op de pagina alle projecten weergegeven die u hebt of waartoe toegang is verleend. U kunt deze pagina instellen als de openingspagina van Adobe Analytics door op **[!UICONTROL Set as Landing Page]** te klikken. (Als deze optie niet wordt weergegeven, zoals in de onderstaande schermafbeelding, is het al uw openingspagina.)
+Wanneer je voor het eerst naar **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, maakt de pagina een lijst van alle projecten u bezit of toegang tot hebt verleend. U kunt deze pagina instellen als uw Adobe Analytics-landingspagina door te klikken op **[!UICONTROL Set as Landing Page]**. (Als u deze optie niet ziet, zoals in het scherm dat hieronder wordt weergegeven, is het al uw landingspagina.)
 
 ![](assets/sample-project.png)
 
-De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
+De pagina van de het projectlijst van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| Projectsjablonen [](/help/analysis-workspace/build-workspace-project/starter-projects.md) | U kunt deze vooraf ingevulde projectmalplaatjes gebruiken aangezien zij zijn of hen aanpassen aan uw behoeften (door metriek of visualisaties toe te voegen of te vervangen, bijvoorbeeld) en hen te bewaren onder een nieuwe naam. |
-| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
-| Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waar al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Zelfstudies weergeven | Ga naar de [Analysis Workspace YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
-| Naam | Naam van het project van de Werkruimte. |
-| Gemaakt door | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| Tags | Tags die op het project zijn toegepast, in Projectcomponentbeheer of onder **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
+| Project [Sjablonen](/help/analysis-workspace/build-workspace-project/starter-projects.md) | U kunt deze pre-bevolkte projectmalplaatjes gebruiken aangezien zij zijn of hen aanpassen aan uw behoeften (door metriek of visualisaties toe te voegen of te vervangen, bijvoorbeeld) en hen te bewaren onder een nieuwe naam. |
+| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik deze verbinding om een nieuw project van kras te beginnen. |
+| Projecten beheren | Het klikken van deze verbinding neemt u aan de Manager van de Component van Projecten ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), dat een lijst maakt van al uw projecten en u laat etiketteren, delen, schrappen, anders noemen, goedkeuren, kopiëren, en de uitvoerprojecten naar CSV. |
+| Leerprogramma&#39;s bekijken | Neemt u mee naar de [YouTube-video&#39;s voor analysewerkruimte](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
+| Naam | Naam van het project Werkruimte. |
+| Gemaakt door | De persoon die dit project creeerde (of u of iemand die het project met u deelde.) |
+| Labels | Markeringen die werden toegepast op het project, in de Projecten Component Manager of onder **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
 
-## Projectinfo en -instellingen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
+## Projectgegevens en -instellingen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
 
@@ -56,43 +56,43 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Instelling | Beschrijving |
 |---|---|
-| Projectnaam | De naam die aan het project is gegeven. U kunt dubbelklikken op de naam om deze te bewerken. |
+| Projectnaam | De naam die aan het project wordt gegeven. U kunt de naam tweemaal klikken om het uit te geven. |
 | Gemaakt door | Naam eigenaar project |
 | Laatst gewijzigd | Datum van laatste wijziging van het project. |
-| Tags | Hier worden alle tags weergegeven die op een project zijn toegepast om het eenvoudiger te categoriseren. U kunt projecten ook labelen terwijl u ze opslaat. Bekijk de markeringen van een project op de het Landen Pagina van de Werkruimte in de [!UICONTROL Tags] kolom. |
-| Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt dubbelklikken op de beschrijving om deze te bewerken. |
-| Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Als u meerdere opeenvolgende waarden voor dezelfde variabele hebt, kunt u deze als één of als meerdere instanties van de laten tellen. |
-| Visualisatiekleurenschema | U kunt het kleurenschema wijzigen dat in Workspace wordt gebruikt, door een keuze te maken in een ander kleurenpalet of door uw eigen palet op te geven. Deze functie is van invloed op veel zaken in Workspace, waaronder de meeste visualisaties. |
-| Dichtheid weergeven | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
+| Labels | Maakt een lijst van om het even welke markeringen die op een project voor gemakkelijkere categorisering worden toegepast. U kunt projecten ook etiketteren terwijl het bewaren van hen. Bekijk de markeringen van een project op de het Landen Pagina van de Werkruimte in [!UICONTROL Tags] kolom. |
+| Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt de beschrijving tweemaal klikken om het uit te geven. |
+| De telling herhaalt instanties in project | Specificeert of de herhaalde instanties in rapporten worden geteld. Als u meerdere opeenvolgende waarden voor dezelfde variabele hebt, kunt u deze als één of als meerdere instanties van de laten tellen. |
+| Beeldvormingskleurenschema | U kunt het kleurenschema veranderen dat in Werkruimte wordt gebruikt, door van een verschillend kleurenpalet te kiezen of door uw eigen palet te specificeren. Deze eigenschap beïnvloedt vele dingen in Werkruimte, met inbegrip van de meeste visualisaties. |
+| Dichtheid weergeven | Laat u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, de freeformlijsten en de cohortlijsten te verminderen. |
 
 ## Menu Projecten {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
-Het bovenste menu Projecten ziet er als volgt uit:
+Het hoogste menu van Projecten kijkt als dit:
 
 ![](assets/new-project-menus.png)
 
-De submenu&#39;s bevatten de volgende opties.
+Submenus bevat de volgende opties.
 
 >[!NOTE]
 >
->Opties gemarkeerd met een sterretje (*) worden alleen weergegeven met **opgeslagen** projecten.
+>Opties gemarkeerd met een asterisk (*) weergave alleen met **opgeslagen** projecten.
 
-| Project | Bewerken | Invoegen | Onderdelen | Delen | Help |
+| Project | Bewerken | Invoegen | Onderdelen | Delen | Hulp |
 |---|---|---|---|---|---|
-| Nieuw | Ongedaan maken | Nieuw deelvenster | Nieuw segment | Project delen | Video&#39;s |
-| Open | Wissen | Nieuw deelvenster Vrije vorm | Nieuwe metrisch | Projectkoppeling ophalen* | Hotkeys |
-| Opslaan | Alles wissen | Nieuw deelvenster voor segmentvergelijking | Nieuw datumbereik | Bestand nu verzenden* | Help-forum |
-| Opslaan als* |  | Nieuwe tabel voor vrije vorm | Nieuwe waarschuwing | Bestand verzenden volgens schema* |  |
-| Instellen als bestemmingspagina* |  | Nieuwe regel | Componenten vernieuwen | Cursieve projectgegevens |  |
+| Nieuw | ongedaan maken | Nieuw paneel | Nieuw segment | Project delen | Video&#39;s |
+| Open | Wissen | Nieuw Freeform-paneel | Nieuwe metriek | Projectlink ophalen* | Sneltoetsen |
+| Opslaan | Alles wissen | Nieuw segmentvergelijkingspaneel | Nieuw datumbereik | Bestand nu verzenden* | Help-forum |
+| Opslaan als* |  | Nieuwe Freeform-tabel | Nieuwe waarschuwing | Bestand verzenden op schema* |  |
+| Instellen als landingspagina* |  | Nieuwe lijn | Componenten vernieuwen | Projectgegevens aanpassen |  |
 | Project vernieuwen |  | Nieuwe balk |  |  |  |
 | CSV downloaden |  |  |  |  |  |
 | PDF downloaden* |  |  |  |  |  |
-| Projectinfo en -instellingen |  |  |  |  |  |
+| Projectgegevens en -instellingen |  |  |  |  |  |
 
 ## Linkerspoor {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-De linkerrails hebben drie pictogrammen, zodat u met één klik toegang krijgt tot deelvensters, [visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en [componenten](/help/components/overview.md)(afmetingen, metriek, segmenten, gegevensbereiken):
+De linkerspoorstaaf heeft 3 pictogrammen, die u toegang tot Comités verlenen, [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en [Onderdelen](/help/components/overview.md)(Afmetingen, Metriek, Segmenten, Gegevensbereik) met één klik:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-Er **[!UICONTROL Blank Panel]** is een panelen toegevoegd aan de lijst van panelen die toegankelijk zijn vanaf de linkerspoorstaaf. Als u een **nieuw deelvenster** Coderen wilt maken, sleept u in een leeg deelvenster en sleept u in de visualisatie van een kleurentabel.
+A **[!UICONTROL Blank Panel]** is toegevoegd aan de lijst van panelen die vanaf de linkerspoorstaaf toegankelijk zijn. Om een **nieuw cohortpaneel**, sleep in een Leeg Comité en sleep in een visualisatie van de Lijst van de Cohort.
