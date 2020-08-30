@@ -1,5 +1,5 @@
 ---
-description: Geplande Analysis Workspace-projecten beheren.
+description: Beheer de geplande projecten van de Werkruimte van de Analyse.
 keywords: Analysis Workspace
 title: Beheer geplande projecten
 topic: Reports and analytics
@@ -17,26 +17,26 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van die van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Geplande Analysis Workspace-projecten beheren.
+Beheer de geplande projecten van de Werkruimte van de Analyse.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
 
 ![](assets/components-scheduled-projects.png)
 
-In de Geplande Manager van Projecten, kunt u terugkomende projectleveringen uitgeven en schrappen. U kunt leveringsschema&#39;s maken die uw rapporten via e-mail naar een opgegeven adres verzenden. U kunt deze programma&#39;s vormen om de rapporten met gespecificeerde intervallen voor een tijdsduur of voor onbepaalde tijd automatisch te verzenden, of de levering van een terugkerend project tegen te houden.
+In de Geplande Manager van Projecten, kunt u terugkomende projectleveringen uitgeven en schrappen. U kunt leveringsschema&#39;s maken die uw rapporten via e-mail naar een opgegeven adres verzenden. U kunt deze programma&#39;s vormen om de rapporten met gespecificeerde intervallen voor een duur van tijd of voor onbepaalde tijd automatisch te verzenden, of de levering van een terugkomend project tegen te houden.
 
 De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt.
 
 ![](assets/scheduled-projects.png)
 
-* Bewerk de geplande projecten.
-* Bekijk identiteitskaart van het Programma van een project (die hoofdzakelijk voor het zuiveren doeleinden wordt gebruikt).
-* Zoeken naar geplande projecten.
-* Gepaste projecten labelen.
-* Geef de eigenaar van een gepland project op of wijzig deze.
-* Voeg andere filters toe, zoals Goedgekeurd, Mislukt, Favorieten, Mijnbouw, Alles tonen en Verlopen projecten.
+* Geef geplande projecten uit.
+* Bekijk identiteitskaart van het Programma van een project (hoofdzakelijk gebruikt voor het zuiveren doeleinden).
+* Zoek naar geplande projecten.
+* Geef een label voor geplande projecten.
+* Specificeer/verander de eigenaar van een gepland project.
+* Voeg andere filters, zoals Goedgekeurd, Ontbroken, Favorieten, Mijn, toon allen, en Verlopen Projecten toe.
 
-* Definieer een geplande vervaldatum voor projecten.
+* Bepaal een geplande projectvervaldatum.
 
