@@ -1,24 +1,25 @@
 ---
 title: CJA-documentatieupdates
-description: 'Maakt een lijst van inhoudsupdates voor de de documentatiereeks van de Analyse van de Reis van de Klant sinds December, 2019. '
+description: 'Hiermee geeft u inhoudsupdates weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld. '
 translation-type: tm+mt
-source-git-commit: deb34a4a836d10e4925dcced68c5949ea85ffc3f
+source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 13%
+source-wordcount: '118'
+ht-degree: 12%
 
 ---
 
 
-# Klantreisanalyse - documentatieupdates
+# Customer Journey Analytics - documentatie-updates
 
-De volgende updates werden gemaakt aan de CJA- documentatie sinds zijn aanvang.
+De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang ervan.
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| 7 augustus 2020 | Nieuw onderwerp op [B22 gebruikscase - raadplegingsdataset](/help/use-cases/b2b.md) toegevoegd. |
-| juli 2020 | Toegevoegde informatie over [De optie van de Kaart van de identiteit voor identiteitskaart van de Persoon](https://docs.adobe.com/content/help/nl-NL/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
-| juli 2020 | Nieuw onderwerp op [objectarrays](/help/use-cases/object-arrays.md) of &quot;gegevenshiërarchieën&quot; toegevoegd. |
-| 14 april 2020 | Updates aan recentste UI in [Verbindingen maken](/help/connections/create-connection.md) onderwerp. |
-| 27 februari 2020 | Updates bij de [Customer Journey Analytics-functionaliteit](/help/getting-started/cja-aa.md) pagina. |
-| december 2019 | Eerste ontwerp van CJA-documentatie |
+| 2 september 2020 | Bijgewerkte sectie op [gebruikersmachtigingen](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions) |
+| 7 augustus 2020 | Nieuw onderwerp over [B22 gebruik case - opzoekgegevensset](/help/use-cases/b2b.md) toegevoegd. |
+| juli 2020 | Extra informatie over [Identiteitskaart, optie voor identiteitskaart](https://docs.adobe.com/content/help/nl-NL/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| juli 2020 | Nieuw onderwerp over [objectarrays](/help/use-cases/object-arrays.md) of &#39;gegevenshiërarchieën&#39; toegevoegd. |
+| 14 april 2020 | Updates van de meest recente interface in het dialoogvenster [Verbindingen maken](/help/connections/create-connection.md) onderwerp. |
+| 27 februari 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/cja-aa.md) pagina. |
+| december 2019 | Eerste conceptversie van CJA-documentatie |
