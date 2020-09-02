@@ -1,11 +1,11 @@
 ---
-description: Gebruik de lijnvisualisatie om trending (op tijd-gebaseerde) gegevensreeksen af te schilderen
+description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegevenssets weer te geven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: afe5b341ea1b442c23561299fbffce59dae45930
+source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '430'
 ht-degree: 3%
 
 ---
@@ -13,44 +13,48 @@ ht-degree: 3%
 
 # Lijn
 
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
 
 ![Lijnvisualisatie](assets/line-viz.png)
 
 >[!IMPORTANT]
 >
->Sommige de visualiseringsmontages van de Lijn, zoals [!UICONTROL Show trendline], zijn momenteel beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
+>Bepaalde instellingen voor lijnvisualisatie, zoals [!UICONTROL Show trendline], momenteel in beperkte mate worden getest. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
-Klik op het versnellingspictogram rechtsboven in de lijnvisualisatie om toegang te krijgen [**Visualisatie-instellingen**](freeform-analysis-visualizations.md) beschikbaar. De montages worden gecategoriseerd in:
+Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang [**Visualisatie-instellingen**](freeform-analysis-visualizations.md) beschikbaar. Instellingen worden gecategoriseerd in:
 
-* **Algemeen**: Instellingen die bij visualisatietypen gebruikelijk zijn
-* **As**: Instellingen die de x- of y-as van de lijnvisualisatie beïnvloeden
-* **Overschrijvingen**: Opties om extra context aan de reeks toe te voegen die in uw lijnvisualisatie wordt getoond.
+* **Algemeen**: Instellingen die gemeenschappelijk zijn voor verschillende visualisatietypen
+* **As**: Instellingen die van invloed zijn op de x- of y-as van de lijnvisualisatie
+* **Bedekkingen**: Opties om extra context aan de reeks toe te voegen die in uw lijnvisualisatie wordt getoond.
 
 ![Visualisatie-instellingen](assets/viz-settings-modal.png)
 
-## Granulariteit wijzigen
+## Korreligheid wijzigen
 
-Een granularity drop-down in [visualisatie-instellingen](freeform-analysis-visualizations.md) Hiermee kunt u een trendmatige visualisatie (bv. lijn, balk) van dag tot week en maand wijzigen, enzovoort. granularity wordt ook bijgewerkt in de gegevensbronlijst.
+Een granulariteit-vervolgkeuzelijst in het dialoogvenster [visualisatie-instellingen](freeform-analysis-visualizations.md) Hiermee kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) van dag naar week wijzigen in maand enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
 
 ## min of max tonen
 
-onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, kunt u een minimum en maximumwaardeetiket bedekken om de pieken en de dalen in metrisch snel te benadrukken.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** kunt u een minimum- en maximumwaarde-label bedekken om de pieken en dalen snel in een metrische kleur te markeren. Opmerking: De min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
 
-![min./max. weergeven](assets/min-max-labels.png)
+![min/max tonen](assets/min-max-labels.png)
 
-## Tendlinebedekking tonen
+## Trendline-bedekking tonen
 
-onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressietrendline aan uw lijnreeks toe te voegen. De rendlines helpen om een duidelijker patroon in de gegevens af te schilderen.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u een regressietriendline toevoegen aan uw lijnreeks. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
 
 ![Lineaire trendlijn](assets/show-linear-trendline.png)
 
-Alle modellen zijn geschikt met de gewone kleinste kwadraten:
+Alle modellen zijn geschikt met behulp van de kleinste vierkantjes:
 
 | Model | Beschrijving |
-|---|---|
-| Lineair | Creeert een best-geschikte rechte lijn voor eenvoudige lineaire gegevensreeksen en is nuttig wanneer de gegevens met een constant tarief stijgen of verminderen. Vergelijking: `y = a + b * x` |
-| Logaritmisch | Creeert een best-geschikte gebogen lijn en is nuttig wanneer het tarief van verandering in de gegevens snel stijgt of vermindert en dan niveaus uit. Een logaritmische trendline kan negatieve en positieve waarden gebruiken. Vergelijking: `y = a + b * log(x)` |
-| Exponent | Creeert een gebogen lijn en is nuttig wanneer de gegevens stijgen of bij constant stijgende tarieven vallen. Deze optie zou niet moeten worden gebruikt als uw gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a + e^(b * x)` |
-| Voeding | Creeert een gebogen lijn en is nuttig voor gegevensreeksen die metingen vergelijken die aan een specifiek tarief stijgen. Deze optie zou niet moeten worden gebruikt als uw gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a * x^b` |
-| Quadratische | Vindt best-geschikt voor een gegevensreeks die als parabola wordt gevormd (concave naar boven of naar onder). Vergelijking: `y = a + b * x + c * x^2` |
+| --- | --- |
+| Lineair | Hiermee maakt u een rechte lijn die het best past bij eenvoudige lineaire gegevenssets. Deze lijn is handig wanneer de gegevens met een constante snelheid worden verhoogd of verlaagd. Vergelijking: `y = a + b * x` |
+| Logaritmisch | Hiermee maakt u een lijn met een curve die het best past. Deze lijn is handig wanneer de snelheid waarmee de gegevens worden gewijzigd snel toeneemt of afneemt en vervolgens niveaus uit. Een logaritmische trendline kan negatieve en positieve waarden gebruiken. Vergelijking: `y = a + b * log(x)` |
+| Exponential | Hiermee maakt u een gekromde lijn. Deze lijn is handig wanneer de gegevenssnelheid voortdurend toeneemt of daalt. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a + e^(b * x)` |
+| Voeding | Maakt een gekromde lijn en is handig voor gegevenssets die metingen vergelijken die met een specifieke snelheid toenemen. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a * x^b` |
+| Quadratisch | Vindt het best-past voor een gegevensreeks die als parabool wordt gevormd (naar boven of naar onder bedekken). Vergelijking: `y = a + b * x + c * x^2` |
