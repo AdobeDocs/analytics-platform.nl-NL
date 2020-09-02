@@ -3,9 +3,9 @@ description: Gebruik het Summiere Aantal en de visualisaties van de Verandering 
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '438'
 ht-degree: 5%
 
 ---
@@ -13,46 +13,50 @@ ht-degree: 5%
 
 # Cijferoverzicht en Wijzigingsoverzicht
 
-## Overzicht nummerweergave {#summary-number}
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie gedraagt zich op de volgende manieren:
+## Visualisatie overzichtsaantal {#summary-number}
 
-* Selecteert het totaal van de kolom als geen cel wordt geselecteerd.
-* Als één enkele cel wordt geselecteerd, toont het de samenvatting voor die cel.
-* Als meer dan één cel wordt geselecteerd, toont het de eerste geselecteerde cel.
-* Als de kolom wordt geselecteerd, plukt het de eerste celwaarde in de kolom.
+Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
 
-![Overzicht](assets/summary-number.png)
+* Hiermee selecteert u het totaal van de kolom als er geen cel is geselecteerd.
+* Als er één cel is geselecteerd, wordt het overzicht voor die cel weergegeven.
+* Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
+* Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-Klik op de **Visualisatie-instellingen** zet binnen aan het hoogste recht om de Summiere montages van het Aantal te vormen:
+![Samenvattingsnummer](assets/summary-number.png)
 
-| Instelling | Definitie |
-|--- |--- |
-| Percentages | De percentages van de vertoning in plaats van ruwe aantallen. |
-| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
-| Afkorting waarde | Verkies om waarden af te breken en tot 3 decimalen te tonen. |
-| Vat waarde door samen | Verkies om maximum, min, gemiddelde, mediaan, of som voor een selectie van gegevens te tonen. |
-
-## Overzicht visualisatie wijzigen {#summary-change}
-
-Gebruik de Summiere visualisatie van de Verandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door worden gecontroleerd [aangepaste gebeurtenispolariteit](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrieke waarde [Toon stijgende trend zoals](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie.
-
-Deze visualisatie gedraagt zich op de volgende manieren:
-
-* Als geen cel wordt geselecteerd, vergelijkt het de eerste twee celwaarden in de kolom.
-* Als één cel wordt geselecteerd, toont het 0, omdat het de celwaarde aan zich vergelijkt.
-* Als twee cellen worden geselecteerd, wordt de eerste geselecteerde cel genomen als teller en de tweede als noemer.
-* Als meer dan twee cellen worden geselecteerd, overweegt het slechts de eerste twee voor vergelijking.
-* Als een waaier van cellen wordt geselecteerd, vergelijkt het eerste bij de laatste cellen die in de waaier worden geselecteerd.
-* Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde bij zich, die een verandering van 0 toont.
-
-![Summiere verandering](assets/summary-change.png)
-
-Klik op de **Visualisatie-instellingen** zet binnen aan het hoogste recht om de Summiere montages van de Verandering te vormen:
+Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek om de Summiere montages van het Aantal te vormen:
 
 | Instelling | Definitie |
 |--- |--- |
-| Percentages | De percentages van de vertoning in plaats van ruwe aantallen. |
+| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
 | Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
-| Percentswijziging weergeven | Toont de percentenverandering tussen de 2 aantallen. |
-| Ruwe verschil tonen | Toont het ruwe verschil tussen de 2 aantallen. U kunt waarden ook afbreken en tot 3 decimalen met deze optie tonen. |
+| Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
+| Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+
+## Visualisatie overzichtswijziging {#summary-change}
+
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door worden gecontroleerd [polariteit aangepaste gebeurtenis](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrieke waarde [Toon Opwaartse trend als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie.
+
+Deze visualisatie werkt op de volgende manieren:
+
+* Als er geen cel is geselecteerd, worden de eerste twee celwaarden in de kolom vergeleken.
+* Als er één cel is geselecteerd, wordt 0 weergegeven, omdat de celwaarde dan met zichzelf wordt vergeleken.
+* Als twee cellen zijn geselecteerd, wordt de eerste geselecteerde cel als teller en de tweede als noemer genomen.
+* Als er meer dan twee cellen zijn geselecteerd, worden alleen de eerste twee ter vergelijking in aanmerking genomen.
+* Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
+* Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
+
+![Samenvattingswijziging](assets/summary-change.png)
+
+Klik op de knop **Visualisatie-instellingen** Wijs in het hoogste recht aan om de Summiere montages van de Verandering te vormen:
+
+| Instelling | Definitie |
+|--- |--- |
+| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
+| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
+| Percentage wijziging tonen | Geeft de procentuele wijziging tussen de twee getallen weer. |
+| Onbewerkt verschil tonen | Geeft het onbewerkte verschil weer tussen de twee getallen. Met deze optie kunt u ook waarden afbreken en maximaal drie decimalen weergeven. |
