@@ -1,44 +1,45 @@
 ---
-title: Productdocumentatie voor reisanalyse klant
-description: Landingspagina van de Analyse van de Reis van de Klant.
+title: Customer Journey Analytics Productdocumentatie
+description: Customer Journey Analytics landingspagina.
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 12%
+source-wordcount: '288'
+ht-degree: 11%
 
 ---
 
 
-# Reisanalyse van klant - Productdocumentatie
+# Customer Journey Analytics - Productdocumentatie
 
-Deze gids voor technische documentatie biedt zelfhulp voor de analyse van de reis van de Klant. De Analyse van de Reis van de klant staat u toe om uw klantengegevens van om het even welk kanaal te brengen u - zowel online als off-line - in het Platform van de Ervaring van Adobe kiest, en dan deze gegevens te analyseren enkel zoals u uw bestaande digitale gegevens gebruikend de Werkruimte van de Analyse vandaag.
+Deze handleiding voor technische documentatie biedt zelfhulp voor Customer Journey Analytics. Met Customer Journey Analytics kunt u uw klantgegevens vanuit elk kanaal dat u kiest — online en offline — naar Adobe Experience Platform brengen en deze gegevens vervolgens analyseren op dezelfde manier als uw bestaande digitale gegevens vandaag nog met Analysis Workspace.
 
-De Analyse van de Reis van de klant laat u controleren hoe u uw online en off-line gegevens in de Werkruimte van de Analyse op om het even welke gemeenschappelijke klantenidentiteitskaart aansluit, definitief toestaand u om attributie, segmentatie, stroom, neerslag, enz. te doen. over uw volledige reeks van klantengegevens in de Analyse van Adobe.
+Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace verbindt met een gemeenschappelijke klant-id, zodat u uiteindelijk kunt toewijzen, segmenteren, doorlopen, fallout enzovoort. in Adobe Analytics.
 
-Klanten die op Analytics Select, Prime en Ultimate zijn aangewezen om dit add-on product te kopen. Neem contact op met uw Adobe-accountteam voor meer informatie.
+Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. Neem voor meer informatie contact op met uw Adobe-accountteam.
 
 <table frame="none"> 
  <tbody> 
   <tr> 
-   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of topaanbiedingen</b> </p> <p> 
+   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions"> Bijgewerkte vereisten voor gebruikersmachtigingen (vanaf 9 september 2020) </a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html"> Arrays van objecten gebruiken </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/b2b.html"> Voeg rekening-vlakke gegevens als raadplegingsdataset toe </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Aan de slag met de reisanalyse van de klant </a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/b2b.html"> Gegevens op accountniveau toevoegen als een opzoekgegevensset </a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Aan de slag met Customer Journey Analytics </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-faq.html"> Veelgestelde vragen</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html"> Verklarende woordenlijst van de Analyse van de Reis van de Klant</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html"> Customer Journey Analytics Verklarende woordenlijst</a> </li> 
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> Adobe Analytics API 2.0</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Release-opmerkingen</b> </p> 
     <ul> 
-     <li>Bekijk de nieuwste <a href="https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html" format="https" scope="external"> Ervaar de opmerkingen van Cloud Release</a> voor nieuwe eigenschappen en moeilijke situaties. </li> 
-    </ul> <p class="head"> <b>Middelen van het Platform van de Ervaring van Adobe</b> </p> 
+     <li>Zie de nieuwste <a href="https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html" format="https" scope="external"> Opmerkingen bij de release Experience Cloud</a> voor nieuwe functies en correcties. </li> 
+    </ul> <p class="head"> <b>Adobe Experience Platform-bronnen</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
-     <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external"> Leerprogramma's Adobe Experience Platform</a> </li> 
+     <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external"> Adobe Experience Platform Tutorials</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API-referentie</a> </li> 
-     <li><a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en ontwikkelingsmiddelen</a> </li> 
+     <li><a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en bronnen voor ontwikkelaars</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
