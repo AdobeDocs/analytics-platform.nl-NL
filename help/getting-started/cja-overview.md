@@ -2,9 +2,9 @@
 title: Overzicht van Customer Journey Analytics
 description: Customer Journey Analytics inleiding
 translation-type: tm+mt
-source-git-commit: 7fb439c0796f94e79ae2b738b71cfa85b86f2e8f
+source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De eerste release van Customer Journey Analytics bevat veel van de functies die 
 
 [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) integreert met de Adobe Experience Platform Identity Service, waarbij gebruik wordt gemaakt van de Co-op grafiek of de Private Graph, om te bepalen hoe digitale apparaten aan mensen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
 
-CJA integreert met Adobe Experience Platform datasets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen, en die datasets kunnen voorbij digitale gegevens gaan om zowel online als off-line aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
+CJA daarentegen integreert met Adobe Experience Platform-gegevenssets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen, en die datasets kunnen voorbij digitale gegevens gaan om zowel online als off-line aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
 
 ## Hoofdgebruik
 
@@ -49,23 +49,25 @@ Voordat u kunt beginnen met het gebruik van Customer Journey Analytics, moet aan
 * Uw organisatie heeft een actief contract met Adobe Analytics voor Select, Prime of Ultimate met de Customer Journey Analytics add-on. Neem contact op met de accountmanager van uw organisatie als u niet zeker weet welk type contract u hebt of als u de CJA-invoegtoepassing hebt.
 * Uw organisatie is ingericht voor Adobe Experience Platform.
 
-## Toegangsrechten gebruiker
+## Beheerdersrechten
 
 Om verbindingen tot stand te brengen, voeg datasets toe, enz., hebt u de volgende toestemmingen in nodig [Admin Console](https://adminconsole.adobe.com/enterprise/):
 
-* Om datasets in het Experience Platform te beheren, moet u deel van een Profiel van het Product van het Platform uitmaken dat u de toestemming &quot;geeft Datasets&quot;te leiden. Zie voor meer informatie [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
-* Om een verbinding aan een gegevensset van het Experience Platform tot stand te brengen, moet u deel van een Profiel van het Product van het Platform uitmaken dat u de volgende toestemmingen geeft:
-   * Schema&#39;s weergeven
-   * Gegevensbestanden weergeven
-   * Identiteitsnaamruimten beheren
-   * Sandboxen weergeven
-* Vanaf 9 september 2020 moet u, om toegang te krijgen tot Customer Journey Analytics of een verbinding te maken, ook als Admin aan een Profiel van het Product van de Customer Journey Analytics worden toegevoegd in [Admin Console](https://adminconsole.adobe.com/enterprise/). Beheerders hebben de volgende machtigingen:
+* Vanaf 9 september 2020 moet u als beheerder aan een **Customer Journey Analytics-productprofiel** in de [Admin Console](https://adminconsole.adobe.com/enterprise/). Beheerders hebben de volgende machtigingen nodig:
    * Verbindingen of gegevensweergaven maken/bijwerken/verwijderen
    * Werk/schrap projecten, filters, calc metriek, of segmenten bij die door andere gebruikers worden gecreeerd
    * Een Workspace-project delen met alle gebruikers
-* Niet-beheerders (gebruikers) in Customer Journey Analytics kunnen de Weergaven of Verbindingen van Gegevens niet bekijken, maar kunnen filters, projecten, en berekende metriek tot stand brengen.
+* Het verkrijgen van een productbeheerder binnen Customer Journey Analytics is niet genoeg om een verbinding te maken, bij te werken of te verwijderen. Om een verbinding aan een dataset van de Experience Platform tot stand te brengen, hebt u ook de toestemmingen van het Experience Platform nodig. U moet specifiek deel uitmaken van een **Productprofiel Experience Platform** dat u de volgende toestemmingen geeft:
+   * Schema&#39;s weergeven
+   * Schema&#39;s beheren
+   * Identiteitsnaamruimten weergeven
+   * Datasets weergeven Voor meer informatie over machtigingen voor Experience Platforms raadpleegt u [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
-### Terminologie-updates
+### Toegang van gebruikers
+
+Niet-beheerders (gebruikers) in Customer Journey Analytics kunnen de Weergaven of Verbindingen van Gegevens niet bekijken, maar kunnen filters, projecten, en berekende metriek tot stand brengen.
+
+## Terminologie-updates
 
 Verschillende functies in CJA hebben in vergelijking met traditionele Adobe Analytics een andere naam gekregen om zich aan te passen aan de industriestandaarden. Enkele bijgewerkte terminologie:
 
