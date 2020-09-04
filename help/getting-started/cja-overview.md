@@ -2,7 +2,7 @@
 title: Overzicht van Customer Journey Analytics
 description: Customer Journey Analytics inleiding
 translation-type: tm+mt
-source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
+source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 0%
@@ -61,7 +61,9 @@ Om verbindingen tot stand te brengen, voeg datasets toe, enz., hebt u de volgend
    * Schema&#39;s weergeven
    * Schema&#39;s beheren
    * Identiteitsnaamruimten weergeven
-   * Datasets weergeven Voor meer informatie over machtigingen voor Experience Platforms raadpleegt u [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+   * Gegevensbestanden weergeven
+
+Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
 ### Toegang van gebruikers
 
