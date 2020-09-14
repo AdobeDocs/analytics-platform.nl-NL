@@ -2,9 +2,9 @@
 title: Opties voor gegevensinvoer voor Customer Journey Analytics
 description: Begrijp de verschillende manieren u gegevens in Customer Journey Analytics kunt opnemen
 translation-type: tm+mt
-source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
+source-git-commit: a48ebc2fbd4cb43de4424e9c1805504752a44fce
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,3 @@ Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankel
 1. Gebruiken [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Launch is een oplossing voor tagbeheer waarmee u naast andere vereisten voor codering ook analytische code kunt implementeren. De lancering biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 1. Een [Adobe Analytics-bronaansluiting](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [XDM-systeem (Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 1. Gebruiken [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
-
-## Gegevens verzamelen van de AEP Web SDK
-
-TBD
-
-### Via Experience Edge
-
-TBD
-
-### Via Launch
-
-TBD
-
-## Inname in batch en streaming
-
-TBD
-
-## Gegevens Google Analytics samenvoegen
-
-TBD
-
-## Gegevens invoegen via de API voor bulkinname
-
-TBD
