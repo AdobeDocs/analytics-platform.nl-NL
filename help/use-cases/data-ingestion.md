@@ -2,9 +2,9 @@
 title: Opties voor gegevensinvoer voor Customer Journey Analytics
 description: Begrijp de verschillende manieren u gegevens in Customer Journey Analytics kunt opnemen
 translation-type: tm+mt
-source-git-commit: a48ebc2fbd4cb43de4424e9c1805504752a44fce
+source-git-commit: 4ea06ca1f13255c570ccc9f69cb328d57bf975b2
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Opties voor gegevensinvoer voor Customer Journey Analytics
 
-U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analytics. Sommigen gaan ervan uit dat u de traditionele Adobe Analytics-gegevens wilt verplaatsen. Sommigen gaan ervan uit dat u gegevens rechtstreeks vanuit Adobe Experience Platform invoert. Deze naslaggids biedt stappen op hoog niveau die moeten worden uitgevoerd.
+U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analytics. Sommigen gaan ervan uit dat u de traditionele Adobe Analytics-gegevens wilt verplaatsen. Sommigen gaan ervan uit dat u gegevens rechtstreeks vanuit Adobe Experience Platform invoert. Deze naslaggids bevat stappen op hoog niveau die moeten worden gevolgd, met koppelingen naar meer gedetailleerde informatie.
 
 ## Gegevens uit traditionele Adobe Analytics verzamelen
 
