@@ -1,10 +1,10 @@
 ---
 title: Overzicht van Customer Journey Analytics
-description: Customer Journey Analytics inleiding
+description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
+source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
