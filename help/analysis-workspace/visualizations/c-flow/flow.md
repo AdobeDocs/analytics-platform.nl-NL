@@ -3,9 +3,9 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---
@@ -13,30 +13,26 @@ ht-degree: 2%
 
 # Overzicht van stroom
 
->[!NOTE]
->
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+De flowfunctie toont de paden van klanten via uw websites en apps.
 
-De stroomeigenschap toont klantenwegen door uw websites en apps.
+Hiermee kunt u:
 
-Het laat je toe:
-
-* Visualiseer de klantenreis door uw website of toepassing
-* Analyseer waar de klanten vóór en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting gaan, of uitgang
-* Creeer segmenten door een specifiek punt in een gekozen weg aan te wijzen
+* De reis van de klant door uw website of toepassing visualiseren
+* Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
+* Segmenten maken door een specifiek punt op te geven in een gekozen pad
 
 >[!NOTE]
 >
->Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen de Werkruimte van de Analyse en de Analyses &amp; Analytics/Ad hoc Analyse zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Uitloop](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad Hoc Analysis zouden kunnen verschillen, zie [Segmentatie als een basis voor stroom en uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Videozelfstudie voor stroomvisualisatie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-U kunt de [stroom tussen de afmetingen](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Bijvoorbeeld, zou u pagina&#39;s en afdelingen in één diagram kunnen combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van de Schoenen kunnen gaan.
+U kunt de [stroom tussen dimensies](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
 
-Elke kolom kon een verschillende afmeting tonen. Sleep een afmeting en een daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
+Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
-## De Diagrammen van de Stroom van de uitvoer als Deel van de Dossiers van het Project .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## De Diagrammen van de Stroom van de uitvoer als Deel van de Dossiers .CSV van het Project {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-De diagrammen van de stroom maken deel uit van het .CSV dossier van een project dat u kunt tot stand brengen door naar te gaan **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Dit staat u toe om de resultaten van de Stroom binnen Microsoft Excel (visualized als lijst) of elders te analyseren.
+De diagrammen van de stroom maken deel uit van het .CSV dossier van een project dat u kunt tot stand brengen door te gaan **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.
