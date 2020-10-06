@@ -3,27 +3,23 @@ description: 'null'
 title: Pagineren, filteren en tabellen sorteren
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 33%
+source-wordcount: '92'
+ht-degree: 42%
 
 ---
 
 
 # Pagineren, filteren en tabellen sorteren
 
->[!NOTE]
->
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+Bekijk de volgende videozelfstudie voor een overzicht:
 
-Bekijk deze video voor een overzicht op YouTube:
+[Paginering-, filtreer- en sorteertabellen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
-[Paginering, het Filtreren en het Sorteren Lijsten in de Werkruimte van de Analyse](https://www.youtube.com/watch?v=2zxpRPCGspg)
+## Geavanceerde filteropties {#section_36E92E31442B4EBCB052073590C1F025}
 
-## Geavanceerde filteropties
-
-Het klikken van het filterpictogram, dan toont Geavanceerd, naast een afmeting in een freeformlijst u het filtreren gebruikend de volgende criteria:
+Klik op het filterpictogram en kies vervolgens Geavanceerd tonen naast een dimensie in een vrije-vormtabel om te filteren aan de hand van de volgende criteria:
 
 * Bevat
 * Bevat niet
