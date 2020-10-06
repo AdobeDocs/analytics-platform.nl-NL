@@ -1,52 +1,36 @@
 ---
-description: U kunt gegevensanomalieën bekijken en contextueel analyseren, binnen de Werkruimte van de Analyse.
+description: U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 title: Overzicht van anomaliedetectie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 7%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
 
 # Overzicht van anomaliedetectie
 
->[!NOTE]
->
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 
-U kunt gegevensanomalieën binnen de Werkruimte van de Analyse contextueel bekijken en analyseren.
+[Videozelfstudie Anomaly Detection](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[Anomaly Detection on YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens.
 
-De anomaly Detection verstrekt een statistische methode om te bepalen hoe bepaalde metrisch met betrekking tot vorige gegevens is veranderd.
+Met Anomaly Detection kunt u &quot;echte signalen&quot; scheiden van &quot;ruis&quot; en vervolgens mogelijke factoren identificeren die tot die signalen of anomalieën hebben bijgedragen. Met andere woorden, het laat je zien welke statistische fluctuaties belangrijk zijn en welke niet. U kunt dan de worteloorzaak van een ware anomalie identificeren. Bovendien kunt u betrouwbare metrische (KPI) prognoses krijgen.
 
-Met Anomaly Detection kunt u &quot;ware signalen&quot; scheiden van &quot;ruis&quot; en vervolgens potentiële factoren identificeren die tot die signalen of anomalieën hebben bijgedragen. Met andere woorden, het laat je identificeren welke statistische fluctuaties belangrijk zijn en welke niet. U kunt de worteloorzaak van een ware anomalie dan identificeren. Bovendien kunt u betrouwbare metrische (KPI) voorspellingen krijgen.
+Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 
-De voorbeelden van anomalieën u zou kunnen onderzoeken omvatten:
-
-* Drastische dalingen in gemiddelde orderwaarde
-* Spikes in orders met lage inkomsten
+* Drastische afname in gemiddelde orderwaarde
+* Pieken in orders met lage inkomsten
 * Spikes of druppels in proefregistraties
-* Drukt in het landen paginameningen
+* Druppels in weergaven van openingspagina&#39;s
 * Spikes in videobuffergebeurtenissen
-* Spikes in lage videobit-rates
+* Spikes in lage videobitsnelheden
 
-Zowel anomalische detectie als [Bijdrage-analyse](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernwerkstromen in de Werkruimte van de Analyse. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van de Werkruimte van de Analyse inbedden.
+Analysis Workspace-algoritme voor het opsporen van anomalieën bevat
 
->[!IMPORTANT]
->
->De Analyse van de bijdrage is nog niet beschikbaar in de Analyse van de Reis van de Klant.
-
-Het anomaliedetectiealgoritme van de Analyse Workspace omvat
-
-* Naast de bestaande dagelijkse granulariteit wordt ook steun verleend voor de granulariteit per uur, per week en per maand.
-* Bewustmaking van seizoensgebondenheid (zoals &quot;Zwarte Vrijdag&quot;) en feestdagen.
-
-## Anomaliedetectie uitschakelen
-
-U kunt anomalische opsporing op het kolomniveau uitzetten door naar de kolommontages te gaan en uncheck **[!UICONTROL Anomalies]**.
-
-![](assets/turnoff_anomalies.png)
+* Naast de bestaande dagelijkse granulariteit wordt ook ondersteuning geboden voor granulariteit per uur, week en maand.
+* Bewustzijn van seizoensgebondenheid (zoals &quot;Zwarte Vrijdag&quot;) en feestdagen.
