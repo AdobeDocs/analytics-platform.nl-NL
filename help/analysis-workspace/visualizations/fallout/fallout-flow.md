@@ -3,9 +3,9 @@ description: 'null'
 title: Overzicht van uitval
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '515'
 ht-degree: 2%
 
 ---
@@ -13,53 +13,49 @@ ht-degree: 2%
 
 # Overzicht van uitval
 
->[!NOTE]
->
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen).
 
-De visualisaties van de val verstrekken meer opties om uw reserverapporten te bouwen. De rapporten van de val tonen waar de bezoekers verlieten (vielen uit) en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s verdergingen.
-
-Met een uitvalvisualisatie kunt u
+Met uitvalvisualisaties kunt u
 
 * Voer zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit.
 * Trechterstappen (aanraakpunten) slepen, neerzetten en opnieuw rangschikken
-* Meng en pas waarden van verschillende afmetingen en metriek aan
-* Creeer een multi-dimensionaal eindrapport
-* Identificeer waar de klanten onmiddellijk na het vallen uit gaan
+* Waarden van verschillende afmetingen en maateenheden mixen en afstemmen
+* Een multidimensionaal uitvalrapport maken
+* Identificeer waar de klanten onmiddellijk na het vallen gaan
 
-De de vertoningenomzetting van de val en fall-outtarieven tussen elke stap of touchpoint in een opeenvolging.
+Bij Uitvallen worden de conversie- en uitvalsnelheden tussen elke stap of elk aanraakpunt in een reeks weergegeven.
 
-Bijvoorbeeld, kunt u de reservepunten van een bezoeker tijdens een aankoopproces volgen. Selecteer enkel een begin touchpoint en een conclusie touchpoint, en voeg middentouchpoints toe om een weg van de websitenavigatie tot stand te brengen. Maar je kunt ook multi-dimensionele uitvalsingen doen.
+U kunt bijvoorbeeld de uitvalpunten van een bezoeker bijhouden tijdens een aankoopproces. Selecteer gewoon een begin- en een eindaanraakpunt en voeg tussenliggende aanraakpunten toe om een websitenavigatiepad te maken. Maar je kunt ook multidimensionale fallouts doen.
 
-Een uitvalvisualisatie is nuttig om te analyseren:
+Een uitvalvisualisatie is handig voor het analyseren van:
 
 * Conversiepercentages via specifieke processen op uw site (zoals een aankoop- of registratieproces).
-* Algemene verkeersstromen met een breder bereik: Van de mensen die de homepage zagen, toont deze stroom hoeveel er verder gingen om een zoekopdracht uit te voeren, en hoeveel er uiteindelijk naar een specifiek item gingen kijken.
-* Correlaties tussen gebeurtenissen op je site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product ging kopen.
+* Algemene verkeersstromen met een groter bereik: Van de mensen die de homepage zagen, toont deze stroom hoeveel er doorgingen om een onderzoek uit te voeren, en toen hoeveel van hen uiteindelijk naar een specifiek punt gingen kijken.
+* Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
 
-[Volledige visualisatie op YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[Videozelfstudie voor Fallout Visualization](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
-## Segmentering als basis voor stroom en uitval {#section_654F37A398C24DDDB1552A543EE29AA9}
+## Segmentatie als basis voor flow en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-De segmenten die op de panelen van de Werkruimte worden toegepast werken lichtjes verschillend dan segmenten die op reserve en stroomrapporten in Rapporten &amp; Analytics of Ad hoc Analyse worden toegepast. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat de Rapporten &amp; de Analyse en de Ad hoc Analyse het segment bij elke stap van de opeenvolging toepassen. Dit kan resulteren in enigszins verschillende uitkomsten.
+Segmenten die zijn toegepast op deelvensters Werkruimte, werken iets anders dan segmenten die zijn toegepast op rapportage over fallout en stroom in rapporten en analyse of Ad Hoc Analysis. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics en Ad Hoc Analysis het segment bij elke stap van de opeenvolging toepassen. Dit kan tot iets verschillende resultaten leiden.
 
-Laten we een voorbeeld nemen van uitval met twee stappen:
+Laten we een voorbeeld nemen van fallout met twee stappen:
 
 ![](assets/fallout_segments1.png)
 
-Als u dan een segment op het het paneelniveau van de Werkruimte toepast, combineert het segment met de output als dit:
+Als u dan een segment op het het paneelniveau van de Werkruimte toepast, combineert het segment met de reserve als dit:
 
 ![](assets/fallout_seg.png)
 
-Wanneer rapporten en analyses en ad hoc analyse het segment daarentegen berekenen, wordt het segment op deze manier gecombineerd:
+Als daarentegen het segment wordt berekend door Rapporten &amp; Analytics en Ad Hoc Analysis, wordt het segment op deze manier gecombineerd:
 
 ![](assets/fallout_segments3.png)
 
-De rapporten &amp; de Analyse en de Ad hoc Analyse combineren het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers wordt afgestemd.
+Rapporten &amp; Analytics en Ad Hoc Analysis combineren het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
 
-Nochtans, als het segment dat op het paneel wordt toegepast kleiner is dan het niveau van de uitval (b.v. klapniveau), dan zal het segment verschillende resultaten wegens hoe het door het rapport wordt gecombineerd tonen. Om te herhalen, in de meeste omstandigheden passen de aantallen in de Werkruimte van de Analyse die in Rapporten &amp; Analytics en Ad hoc Analyse aan. Zij zullen **niet** pas aan als alle onderstaande gevallen waar zijn:
+Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, komen de aantallen in Analysis Workspace in de meeste gevallen overeen met die in Reports &amp; Analytics en Ad Hoc Analysis. Zij zullen **niet** alleen overeenkomen als alle onderstaande gevallen waar zijn:
 
-* Het segment is niet op het zelfde niveau als de uitval.
+* Het segment bevindt zich niet op hetzelfde niveau als de uitval.
 * Het segment heeft een variabele waarbij de bezoeker/bezoeker meerdere waarden kan hebben tijdens een bezoek/bezoeker.
 
-In het zeldzame geval waar u de Werkruimte van de Analyse moet hebben past de manier van Rapporten &amp; van de Analyse om segmenten toe te passen om uit te vallen/stroom, eenvoudig laat vallen het segment in elke uitvalstap in Werkruimte en het zal in de zelfde aantallen resulteren.
+In het zeldzame geval waarin u Analysis Workspace de Rapporten &amp; van de Analyse manier moet hebben om segmenten toe te passen aan fallout/stroom, eenvoudig laat vallen het segment in elke falloutstap in Werkruimte en het zal in de zelfde aantallen resulteren.
