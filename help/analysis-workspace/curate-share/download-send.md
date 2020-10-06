@@ -3,9 +3,9 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 23856a744ce66ac03656d84f72b4bce4cdef253a
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1015'
 ht-degree: 1%
 
 ---
@@ -96,5 +96,6 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 | --- | --- |
 | Waarom is mijn gedownloade PDF één pagina? | De gedownloade PDF&#39;s worden momenteel niet door de werkruimte gepagineerd. |
 | Kan ik meer dan 50.000 items exporteren met de optie Items downloaden als CSV? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
-| Wat doet **[!UICONTROL Copy visualization]** doen? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [De video bekijken](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| Wat doet **[!UICONTROL Copy visualization]** doen? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. Bekijk de video: |
 
+>[!VIDEO](https://video.tv.adobe.com/v/23724)
