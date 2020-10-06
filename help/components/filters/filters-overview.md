@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 translation-type: tm+mt
-source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
+source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '885'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
 >[!IMPORTANT]
->Filters worden in Adobe Analytics &#39;segmenten&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters, omdat Adobe Experience Platform een andere definitie van &quot;segment&quot; heeft.
+>Filters worden in Adobe Analytics &#39;segmenten&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters omdat Adobe Experience Platform [een andere definitie van &quot;segment&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 Filteren bevat de opdracht [Filter Builder](/help/components/filters/create-filters.md) om filters te maken en een pretest uit te voeren, en [Filterbeheer](/help/components/filters/manage-filters.md) om filters te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en over uw organisatie te delen.
 
@@ -32,7 +32,7 @@ Hier volgt een voorbeeld:
 ![](assets/sequential_fil.png)
 
 | Eén bezoeken | Twee bezoeken | Drie bezoeken |
-|---|---|---|
+| --- | --- | --- |
 | De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sloot de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C), en toen naar een nieuwe pagina (D). | De bezoeker ging en volgde hetzelfde pad als bij de eerste en tweede bezoeken, en sloot vervolgens pagina F uit om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
 
 ## Filtercontainers
@@ -52,9 +52,7 @@ De container Person bevat elk bezoek en elke paginaweergave voor bezoekers binne
 De containers van de persoon kunnen waarden omvatten die op de algemene geschiedenis van een bezoeker worden gebaseerd:
 
 * Dagen vóór eerste aankoop
-
 * Oorspronkelijke invoerpagina
-
 * Oorspronkelijke verwijzende domeinen
 
 ### Sessiecontainer
@@ -62,19 +60,14 @@ De containers van de persoon kunnen waarden omvatten die op de algemene geschied
 Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet en u laat bepalen welke zittingen u in de bouw en het toepassen van een segment wilt omvatten of uitsluiten. Het kan u helpen deze vragen beantwoorden:
 
 * Hoeveel bezoekers hebben de sectie Nieuws en Sport in dezelfde sessie bekeken?
-
 * Welke pagina&#39;s hebben bijgedragen tot een geslaagde omzetting in een uitverkoop?
 
 Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sessie:
 
 * Sessienummer
-
 * Itempagina
-
 * Retourfrequentie
-
 * Deelnamemetriek
-
 * Lineaire toegewezen metriek
 
 ### Gebeurteniscontainer
@@ -84,9 +77,6 @@ In de container Event wordt gedefinieerd welke paginagebeurtenissen u wilt opnem
 Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pagina:
 
 * Producten
-
 * Props weergeven
-
 * Lijstafmetingen
-
 * Merchandising-afmetingen (in de context van gebeurtenissen)
