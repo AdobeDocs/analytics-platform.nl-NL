@@ -2,33 +2,33 @@
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 28%
+source-wordcount: '339'
+ht-degree: 29%
 
 ---
 
 
 # Overzicht van onderdelen
 
-De componenten zijn eigenschappen in de Analyse van de Reis van de Klant die in rapporten, of complementrapporteringseigenschappen kunnen worden gebruikt. U kunt deze componenten beheren gebruikend de volgende stappen:
+Componenten zijn functies in Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
 
-1. Aanmelden bij [Analytics.adobe.com](https://analytics.adobe.com) het gebruiken van uw geloofsbrieven van identiteitskaart van Adobe.
-2. Blader naar [!UICONTROL Components] > [!UICONTROL Components] in het kopbalmenu.
+1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) je Adobe ID-gebruikersgegevens gebruiken.
+2. Navigeren naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
 
 U kunt de volgende componenten beheren:
 
-* [**Filters**](filters/filters-overview.md): Onderdelen van uw gegevens uitsluiten om zich te richten op items met een gemeenschappelijke dimensie
-* [**Berekende waarden**](calc-metrics/calc-metr-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in rapportering
-* [**Datumbereiken**](date-ranges/overview.md): Pas en verfris de aanbiedingen van de Werkruimte van de Analyse van datumwaaiers aan
-* [**Projecten**](/help/analysis-workspace/home.md): Organiseer en handhaaf uw projecten in de Werkruimte van de Analyse
+* [**Filters**](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op elementen met een gemeenschappelijke dimensie
+* [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
+* [**Datumbereiken**](date-ranges/overview.md): De datumbereiken aanpassen en verfijnen die Analysis Workspace biedt
+* [**Projecten**](/help/analysis-workspace/home.md): Uw projecten organiseren en onderhouden in Analysis Workspace
 
-## Analyse-werkruimtecomponenten
+## Analysis Workspace-componenten
 
-De componenten in de Werkruimte van de Analyse bestaan uit metriek, afmetingen, segmenten, en tijdgranulariteiten die u op een project kunt slepen-en-daling. De componenten van de douane die u creeert worden toegevoegd aan deze panelen, zoals de waaiers van de douanedatum.
+De componenten in Analysis Workspace bestaan uit metriek, dimensies, segmenten, en tijdgranulariteit die u op een project kunt slepen-en-neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
 
-Om tot het paneel van Componenten toegang te hebben, klik **[!UICONTROL Components]** pictogram in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg paneel, [Freeform-paneel](/help/analysis-workspace/visualizations/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md)of [Attributie-IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), en componenten die gebruikmaken van de linker-railpictogrammen of door gebruik te maken van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
@@ -36,11 +36,11 @@ Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over h
 
 ## Componenthandelingen
 
-U kunt componenten (individueel of door meer dan één te selecteren) op een aantal manieren beheren. Klik met de rechtermuisknop op een onderdeel of klik op **[!UICONTROL Actions]** boven aan de lijst van onderdelen.
+U kunt componenten (afzonderlijk of door meer dan één te selecteren) op verschillende manieren beheren. Klik met de rechtermuisknop op een component of klik op **[!UICONTROL Actions]** boven aan de lijst met componenten.
 
 >[!NOTE]
 >
->Deze acties zijn niet van toepassing op de componenten van de Tijd.
+>Deze handelingen zijn niet van toepassing op tijdcomponenten.
 
 | Component Handeling | Beschrijving |
 |--- |--- |
@@ -50,5 +50,6 @@ U kunt componenten (individueel of door meer dan één te selecteren) op een aan
 | Delen | Alleen van toepassing op segmenten. |
 | Verwijderen | Alleen van toepassing op segmenten. |
 
-[Metriek, Segmenten en Data maken op YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+Bekijk de video over het maken van statistieken, segmenten en datums:
 
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
