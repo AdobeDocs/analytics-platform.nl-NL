@@ -2,7 +2,7 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -46,4 +46,6 @@ Er zijn verschillende andere methoden voor het toepassen van filters op een proj
 | Filter van selectie maken | Maak een inlinefilter. Selecteer rijen, klik met de rechtermuisknop op de selectie en maak vervolgens een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
 | Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [Filter Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over filteren. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Curven en delen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
-| Filters gebruiken als afmetingen | Video: Filters gebruiken als Dimension in Analysis Workspace<br>>[!VIDEO](https://video.tv.adobe.com/v/23974) |
+| Filters gebruiken als afmetingen | Video: Filters gebruiken als Dimension in Analysis Workspace |
+
+>[!VIDEO](https://video.tv.adobe.com/v/23974)
