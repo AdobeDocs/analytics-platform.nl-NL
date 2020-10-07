@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '875'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Datumbereik | Ondersteuning voor Aangepaste agenda is gepland. |
 | Berekende standaarden | Bestaande cijfers in de traditionele Analysis Workspace worden niet naar CJA verzonden. |
 | Segmenten | Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
-| Anomaliedetectie | Volledige ondersteuning vanaf september 2020 |
+| Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
@@ -33,6 +33,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
 | Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Experience Platform] - CJA neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
+| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of maateenheden bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
 
 ## Ondersteund met caveats
 
@@ -52,7 +53,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Analysis Workspace-afmetingen buiten de box (zoals browsertype, Type referentie, Marketingkanalen, Nummer bezoek, enz.) | CJA biedt deze afmetingen niet native. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie over de door ADC ondersteunde analytische variabelen](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segmentvergelijking en Analyse voor Doel (A4T) worden niet ondersteund. |
+| Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
 | Merchandising-eVars | Merchandising eVars zal slechts met op ADC-Gebaseerde datasets werken tenzij zij strikt aan het zelfde XDM schema (gelijkend op de beperkingen van de productlijst hierboven) in overeenstemming zijn. |
 | Bot filteren | Voor gegevenssets op basis van de analytische gegevensconnector (ADC) wordt beide filters toegepast. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
 | Verwerkingsregels | Voor op ADC-Gebaseerde datasets, worden de verwerkingsregels nog toegepast. |
@@ -65,7 +66,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Contributieanalyse | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. |
-| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | Alle gebruikers in CJA hebben de zelfde toegangscontroles - dit betekent alle gebruikers toegang tot alle verbindingen, gegevensmeningen, enz. hebben. In feite zijn alle gebruikers gebruikers op beheerniveau in CJA. De steun is gepland voor 2020. |
 | CSV-download | Er is steun gepland. |
 | Geplande rapporten/projecten | Er is steun gepland. |
 | Waarschuwingen | Er is steun gepland. |
