@@ -3,7 +3,7 @@ description: Sjablonen in werkruimte
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: bb75be2608a9eedaa856cfb5f0a233fff7f8c074
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 3%
@@ -59,7 +59,9 @@ Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de l
 
 U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw behoeften aanpassen (door bijvoorbeeld metriek of visualisaties toe te voegen of te vervangen) en ze onder een andere naam op te slaan.
 
->[!VIDEO](https://video.tv.adobe.com/v/23960) (2:46)
+>[!VIDEO](https://video.tv.adobe.com/v/23960)
+
+*(2:46)*
 
 Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
