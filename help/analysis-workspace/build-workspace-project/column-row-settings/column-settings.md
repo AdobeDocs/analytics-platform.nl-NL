@@ -1,9 +1,9 @@
 ---
-description: De montages van de kolom laten u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
+description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
+source-git-commit: 12172ab612db8ebb78bcf4b2c1b68f125c7d5a34
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 23%
@@ -13,11 +13,11 @@ ht-degree: 23%
 
 # [!UICONTROL Column Settings]
 
-[!UICONTROL Column Settings] laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
+[!UICONTROL Column Settings] Laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
 
-## Bewerken [!UICONTROL Column Settings] {#column-settings}
+## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
 
-Toegang [!UICONTROL Column Settings], sleep een Lijst Freeform aan het project, dan klik het vistuigpictogram in de kolomrubriek.
+Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het tandwielpictogram in de kolomkop.
 
 ![](assets/column_settings.png)
 
@@ -25,40 +25,40 @@ U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel ee
 
 | Element | Beschrijving |
 | --- | --- |
-| Aantal | Bepaalt als een cel de numerieke waarde voor metrisch toont/verbergt. Bijvoorbeeld, als metrisch de Meningen van de Pagina is, is de numerieke waarde het aantal paginameningen voor het rijpunt. |
-| Percentage | Bepaalt als een cel de percentenwaarde voor metrisch toont/verbergt. Bijvoorbeeld, als metrisch de Meningen van de Pagina is, is de percentenwaarde het aantal paginameningen voor het rijpunt dat door de totale paginameningen voor de kolom wordt verdeeld.  Opmerking: We kunnen percentages van meer dan 100 procent tonen, om nauwkeuriger te zijn. Wij bewegen ook de bovengrens verbindende GLB naar 1.000% om ervoor te zorgen de kolommen in breedten te kunnen groeien. |
-| Anomalies | Bepaalt als de anomalieopsporing op de waarden in deze kolom in werking wordt gesteld. |
-| Tekst koptekst omloop | Laat u de kopbaltekst in Freeform lijsten verpakken om kopballen leesbaarder en lijsten aandeelbaarder te maken. Dit is nuttig voor .pdf het teruggeven en voor metriek met lange namen. Standaard ingeschakeld. |
-| Interpreteer nul als geen waarde | Voor cellen met een 0 waarde, bepaalt of om een 0 of een lege cel te tonen. Dit is nuttig wanneer u gegevens voor elke dag van een maand bekijkt, en sommige dagen zijn nog niet gebeurd.  In plaats van het tonen van 0&#39;s voor toekomstige data, kunnen de lege cellen in plaats daarvan worden getoond. De grafieken respecteren eveneens dit het plaatsen (d.w.z., tonen zij geen lijn of bar met 0 waarden wanneer dit het plaatsen wordt gecontroleerd). |
-| Achtergrond | Bepaalt als een cel al cel het formatteren, met inbegrip van de bargrafiek en het voorwaardelijke formatteren toont/verbergt. |
-| Bar Graph | Toont een horizontale bargrafiek die de waarde van de cel met betrekking tot het totaal voor de kolom vertegenwoordigt. |
-| Voorwaardelijke opmaak | Zie het gedeelte hieronder. |
-| Voorbeeld tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde het formatteren toegepaste opties verschijnt. |
+| Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
+| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
+| Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
+| Tekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
+| nul interpreteren als geen waarde | Voor cellen met een waarde 0 bepaalt u of een cel van 0 of een lege cel moet worden weergegeven. Dit is handig wanneer u gegevens bekijkt voor elke dag van een maand, en sommige dagen zijn nog niet gebeurd.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, kunnen lege cellen worden weergegeven. Grafieken voldoen ook aan deze instelling (ze geven dus geen lijn of balk weer met 0 waarden als deze instelling is ingeschakeld). |
+| Achtergrond | Hiermee bepaalt u of alle celopmaak, inclusief de staafgrafiek en voorwaardelijke opmaak, in een cel wordt weergegeven of verborgen. |
+| Staafgrafiek | Hiermee wordt een horizontale staafgrafiek weergegeven die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
+| Voorwaardelijke opmaak | Zie de onderstaande paragraaf. |
+| Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
 
 ## Voorwaardelijke opmaak {#conditional-formatting}
 
-Het voorwaardelijke formatteren past het formatteren op hoger, middelpunt, en lagere grenzen toe die u kunt bepalen. Het toepassen van het voorwaardelijke formatteren (kleuren, enz.) binnen de lijsten Freeform wordt ook automatisch toegelaten op onderbrekingen, tenzij de &quot;grenzen van de Douane&quot;worden geselecteerd.
+Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (kleuren, enz.) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
 
 ![](assets/conditional-formatting.png)
 
 | Element | Beschrijving |
 | --- | --- |
 | Voorwaardelijke opmaak | Hiermee worden de volgende kleuren toegepast op cellen, op basis van datawaarden worden: <ul><li>Groen: hoge waarden</li><li>Geel: middelpuntwaarden</li><li>Rood: lage waarden</li></ul> <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |
-| Percentagelimieten gebruiken | Verander de grenswaaier die op percentages eerder dan absolute waarden moet worden gebaseerd. Dit werkt voor metriek die uitsluitend gebaseerd percentage (als het Tarief van de Strijd) evenals voor metriek zijn die een telling en een percentage (als de Meningen van de Pagina) hebben. |
-| Automatisch genereren | Berekent automatisch de boven-, midden- en ondergrenzen op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
-| Aangepast | Wijs manueel boven-/midden-/ondergrenzen toe. Dit biedt u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
+| Percentagelimieten gebruiken | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Dit werkt voor metriek die uitsluitend op percentage-gebaseerd (zoals het Tarief van de Stuiting) evenals voor metriek zijn die een telling en een percentage (zoals de Weergaven van de Pagina. hebben) |
+| Automatisch genereren | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
+| Aangepast | Handmatig bovenste/middelste/onderste limieten toewijzen. Dit biedt u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 
 ## Niet-standaard toewijzingsmodel gebruiken {#attribution}
 
-Ondersteuning voor analysewerkruimte [toeschrijving](../../attribution/overview.md) voor bijna elke metrieke.
+Analysis Workspace-ondersteuning [toewijzing](../../attribution/overview.md) voor bijna elke metrische waarde.
 
-1. Klik op het pictogram Instellingen (versnelling) in een kolom Freeform-tabel.
+1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
 
-   ![Selectievakje Attributie](assets/attribution-checkbox.png)
+   ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
-1. onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen: [Attributiemodellen](../../attribution/models.md).
+1. Onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen [Attributiemodellen](../../attribution/models.md).
 
-   ![Selecteer toewijzingsmodel](assets/attribution-select.png)
+   ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >
