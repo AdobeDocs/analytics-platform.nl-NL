@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
+source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '859'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Productvariabele | De productvariabele die momenteel beschikbaar is voor rapportage voor gegevens die voldoen aan het schema Experience Event (met name met behulp van het productListItems-object). |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
-| AAM publiek | Als klanten [!UICONTROL Analytics Data Connector] gegevenssets, deze gegevens maken deel uit van de ADC-gegevens. |
 | Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
 | Aangepaste sessie | Ondersteuning voor alle andere aangepaste sessionisatiefuncties dan mobiele achtergrondhits. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dit betekent dat alle persistentie gebaseerd zal zijn op het bereik van de rapportagedatum in plaats van op de volledige gegevens. |
