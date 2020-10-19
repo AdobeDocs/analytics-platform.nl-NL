@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
+source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 
    * Als de cumulatieve grootte van de historische gegevens voor alle datasets in de verbinding meer dan 1,5 miljard rijen bedraagt, zal een foutenmelding erop wijzen dat u niet deze hoeveelheid historische gegevens kunt invoeren. Nochtans, als u een dataset met 1 Miljoen rijen van historische gegevens moest toevoegen, en die gegevens invoerden, en een week later, een andere dataset van de zelfde grootte toevoegde en zijn historische gegevens invoerde, zou dit werken.
    * Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze gegevens de laagste latentie.
-   * Alle backfill (historische) gegevens worden langzamer geïmporteerd.
+   * Alle backfill (historische) gegevens worden langzamer geïmporteerd (tot 13 maanden aan gegevens, ongeacht de grootte).
 
 1. Klik op **[!UICONTROL Save]**.
 
