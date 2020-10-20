@@ -1,56 +1,63 @@
 ---
-source-git-commit: 1cddd8624826bddb89c9b362ec91a2c0c30c7a6f
+source-git-commit: ed44f33e545df2e52566bd922fa40d9692df6bf2
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '521'
+ht-degree: 5%
 
 ---
-# Bijdragen aan de documentatie van de Analyse van de Reis van de Klant
+# Contribute voor Customer Journey Analytics-documentatie
 
-Wij verwelkomen bijdragen van onze gemeenschap evenals van de werknemers van Adobe van buiten de documentatieteams.
+| EXL-PR | EXL | Voorvertoning | Activeren | Gepubliceerd | Help |
+|--- |--- |--- |--- |--- |--- |
+| [![Status samenstellen](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_pr-exl/lastBuild/) | [![Status samenstellen](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_exl/lastBuild/lastBuild) | [Voorbeeld-URL](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) | [Ontwerphandleiding](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
-## Adobe Open Source Code of Conduct
+Wij verwelkomen de bijdragen van onze gemeenschap en van Adobe werknemers van buiten de documentatieteams.
+
+## Adobe Open-Source-gedragscode
 
 Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
 
-## Ongeveer uw bijdragen aan de inhoud van Adobe
+## Over uw bijdragen aan Adobe-inhoud
 
-Zie de Gids van de Contributor van de [Docs van Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Zie de [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
-Hoe je een bijdrage levert, hangt af van wie je bent en het soort veranderingen dat je wilt meebrengen:
+Hoe u een bijdrage levert, hangt af van wie u bent en van het soort veranderingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates uit de goedheid van uw hart bijdraagt, bezoek het artikel en klik de **Edit** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene Gids [van de Medewerker van Adobe van Docs van](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobe voor meer informatie.
+Als u kleine updates aanbrengt uit uw goedheid, gaat u naar het artikel en klikt u op de knop **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) voor meer informatie .
 
-De kleine correcties of de verduidelijkingen u voor documentatie en codevoorbeelden in dit repo voorlegt worden behandeld door de termijnen van Adobe van gebruik.
+Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van de Adobe.
 
 ### Belangrijke wijzigingen of nieuwe artikelen van leden van de gemeenschap
 
-Als u deel van de gemeenschap van Adobe uitmaakt en u een nieuw artikel wilt tot stand brengen of belangrijke veranderingen voorleggen, te gebruiken gelieve het lusje van Kwesties in de bewaarplaats van de Git om een kwestie voor te leggen om een gesprek met het documentatieteam te beginnen. Zodra u met een plan hebt ingestemd, zult u met een werknemer moeten samenwerken helpen die nieuwe inhoud door een combinatie van werk in de openbare en privé bewaarplaatsen brengen.
+Als u deel uitmaakt van de gemeenschap van de Adobe en u een nieuw artikel wilt creëren of belangrijke veranderingen voorleggen, gelieve het lusje van Kwesties in de bewaarplaats van de it te gebruiken om een kwestie voor te leggen om een gesprek met het documentatieteam te beginnen. Zodra u met een plan hebt ingestemd, zult u met een werknemer moeten werken helpen die nieuwe inhoud door een combinatie van het werk in de openbare en privé bewaarplaatsen brengen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Belangrijke veranderingen van de Werknemers van Adobe
+### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technische schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van de Wolk van de Ervaring van Adobe bent en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)moeten gebruiken. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van Adobe Experience Cloud bent en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats moeten gebruiken [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## Hulpmiddelen en installatie
+## Gereedschappen en instellen
 
-De communautaire contribuanten kunnen GitHub UI voor het basisuitgeven gebruiken of de vork de repo om belangrijke bijdragen te leveren.
+Communautaire contribuanten kunnen GitHub UI voor basishet uitgeven of vork gebruiken het repo om belangrijke bijdragen te leveren.
 
-Zie de Gids [](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) van de Medewerker van Adobe van Docs voor details.
+Zie de [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
 
-## Hoe te om prijsverlaging te gebruiken om uw onderwerp te formatteren
+## Hoe te om prijsdaling te gebruiken om uw onderwerp te formatteren
 
-Alle artikelen in deze bewaarplaats gebruiken GitHub gearomatiseerde prijsverlaging. Als u niet vertrouwd met prijsverlaging bent, zie:
+Alle artikelen in deze repository gebruiken GitHub gearomatiseerde prijsopgave. Als u niet vertrouwd bent met markering, zie:
 
-* [Basisprincipes voor afwaardering](https://help.github.com/articles/markdown-basics/)
-* [Afdrukbare prijsaanduiding voor de valplaat](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grondbeginselen van markeringen](https://help.github.com/articles/markdown-basics/)
+* [Afdrukbare opmaakmodel](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Etiketten
+## Labels
 
-In de openbare repository worden geautomatiseerde labels toegewezen om aanvragen te verzamelen om ons te helpen de workflow van het pull-verzoek te beheren en u te helpen te laten weten wat er aan de hand is met uw pull-verzoek:
+In de openbare bewaarplaats, worden de geautomatiseerde etiketten toegewezen om verzoeken te trekken om ons te helpen de werkschema van het trekkingsverzoek beheren en u te helpen laten weten wat aan de hand is uw trekkrachtverzoek:
 
-* **Wijziging verzonden naar auteur**: De auteur is op de hoogte gebracht van het hangende pull-verzoek.
-* **klaar voor samenvoeging**: Klaar voor overzicht door ons beoordelingsteam van het trekkingsverzoek.
+* **Wijziging verzonden naar auteur**: De auteur is op de hoogte gesteld van het aanloopverzoek.
+* **samenvoegen**: Klaar voor overzicht door ons team van het trekpleonderzoek.
