@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
+source-git-commit: 64c77d3080bc2a36af4e80a854f10adce2632064
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -100,22 +100,26 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 
 ![Verbinding inschakelen](assets/create-connection2.png)
 
-1. Definieer de volgende instellingen om een verbinding in te schakelen:
+1. Om een verbinding toe te laten, bepaal deze montages voor de volledige verbinding, d.w.z. alle datasets in de verbinding:
 
    | Optie | Beschrijving |
-   |---|---|
+   | --- | --- |
    | [!UICONTROL Name Connection] | Geef de verbinding een beschrijvende naam. De verbinding kan niet zonder een naam worden opgeslagen. |
    | [!UICONTROL Description] | Voeg meer details toe om deze verbinding van anderen te onderscheiden. |
    | [!UICONTROL Datasets] | De datasets die in deze verbinding inbegrepen zijn. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in stromen [!UICONTROL Workspace]. |
-   | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets die in deze verbinding zijn zal worden ingevoerd. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. <br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
+   | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets in dit verband zal worden ingevoerd of backfill. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. <br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
+   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie.<!--Rohit to provide and make sure we include multiple datasets.--> |
 
-   **Houd er rekening mee dat:**
+1. Klik op **[!UICONTROL Save and create data view]**. Zie voor documentatie [een gegevensweergave maken](/help/data-views/create-dataview.md).
 
-   * Als de cumulatieve grootte van de historische gegevens voor alle datasets in de verbinding meer dan 1,5 miljard rijen bedraagt, zal een foutenmelding erop wijzen dat u niet deze hoeveelheid historische gegevens kunt invoeren. Nochtans, als u een dataset met 1 Miljoen rijen van historische gegevens moest toevoegen, en die gegevens invoerden, en een week later, een andere dataset van de zelfde grootte toevoegde en zijn historische gegevens invoerde, zou dit werken.
-   * Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze gegevens de laagste latentie.
-   * Alle backfill (historische) gegevens worden langzamer geïmporteerd (tot 13 maanden aan gegevens, ongeacht de grootte).
+### Back-up maken van historische gegevens
 
-1. Klik op **[!UICONTROL Save]**.
+**[!UICONTROL Import all existing data]** Hiermee kunt u historische gegevens terugvullen. Houd dit in gedachten:
 
-De volgende stap in de workflow is: [een gegevensweergave maken](/help/data-views/create-dataview.md).
+* Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze nieuwe gegevens de laagste latentie.
+* Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt, gecombineerd met de **[!UICONTROL Average number of daily events]** die u hebt geselecteerd. Als u bijvoorbeeld meer dan een miljard rijen gegevens per dag hebt, plus drie jaar historische gegevens, kan het meerdere weken duren om deze te importeren. Anderzijds, als u minder dan een miljoen rijen per dag en een week van historische gegevens hebt, zou dat minder dan een uur vergen.
+* De steun is op de volledige verbinding, niet op elke dataset individueel van toepassing.
+* De [Adobe Analytics Data Connector](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) invoer tot 13 maanden van gegevens, ongeacht de omvang ervan.
+
+<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
