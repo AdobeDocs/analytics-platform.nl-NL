@@ -3,15 +3,15 @@ description: Factoren die invloed hebben op de prestaties van de werkruimte en a
 title: Analysis Workspace-prestatiefactoren en -optimalisatie
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 3928307fb51d1bde628773a91d5f4e2d4e5c2a5c
 workflow-type: tm+mt
-source-wordcount: '1939'
-ht-degree: 0%
+source-wordcount: '1937'
+ht-degree: 1%
 
 ---
 
 
-# Analysis Workspace-prestatiefactoren en -optimalisatie
+# Analysis Workspace-prestaties optimaliseren
 
 Verschillende factoren kunnen de prestaties van een project in Analysis Workspace beïnvloeden. Het is belangrijk om te weten wat die contribuanten zijn alvorens u begint een project te bouwen zodat u het project op de meest optimale manier kunt plannen en bouwen. Deze pagina bevat een lijst met factoren die van invloed zijn op de prestaties en aanbevolen optimalisaties die u kunt maken om de prestaties in Analysis Workspace optimaal te laten presteren.
 
