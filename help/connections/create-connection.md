@@ -2,7 +2,7 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 619eaeabfbd0fb6a7205488075c1c9cfb0fd5a26
+source-git-commit: 3f57da53a377f357109a828721e7f3b2c964a1eb
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 1%
@@ -109,7 +109,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
    | [!UICONTROL Datasets] | De datasets die in deze verbinding inbegrepen zijn. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in stromen [!UICONTROL Workspace]. |
    | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets in dit verband zal worden ingevoerd of backfill. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. Zie ook [Back-up maken van historische gegevens](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) hieronder.<br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
-   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie. Hier volgen de selecties voor deze optie: ![dagelijkse gebeurtenissen](assets/daily_size.png) |
+   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie. Hier volgen de selecties voor deze optie:<br>![dagelijkse gebeurtenissen](assets/daily_size.png) |
 
 1. Klik op **[!UICONTROL Save and create data view]**. Zie voor documentatie [een gegevensweergave maken](/help/data-views/create-dataview.md).
 
