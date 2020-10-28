@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 3f57da53a377f357109a828721e7f3b2c964a1eb
+source-git-commit: f1dcbd209a9b523db1c18ad0d81fcca0b7877a19
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1796'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
    | [!UICONTROL Datasets] | De datasets die in deze verbinding inbegrepen zijn. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in stromen [!UICONTROL Workspace]. |
    | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets in dit verband zal worden ingevoerd of backfill. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. Zie ook [Back-up maken van historische gegevens](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) hieronder.<br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
-   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie. Hier volgen de selecties voor deze optie:<br>![dagelijkse gebeurtenissen](assets/daily_size.png) |
+   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Selecteer een optie in het keuzemenu. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie. |
 
 1. Klik op **[!UICONTROL Save and create data view]**. Zie voor documentatie [een gegevensweergave maken](/help/data-views/create-dataview.md).
 
@@ -117,6 +117,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 
 **[!UICONTROL Import all existing data]** Hiermee kunt u historische gegevens terugvullen. Houd dit in gedachten:
 
+* We hebben de beperking voor backfill (historische gegevensimport) verwijderd. Eerder, kon u een maximum van 2.5 miljard rijen op uw en anders vereiste technische betrokkenheid terugvullen. Nu kunt u zonder enige beperking back-ups maken van gegevens.
 * Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze nieuwe gegevens de laagste latentie.
 * Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt, gecombineerd met de **[!UICONTROL Average number of daily events]** die u hebt geselecteerd. Als u bijvoorbeeld meer dan een miljard rijen gegevens per dag hebt, plus drie jaar historische gegevens, kan het meerdere weken duren om deze te importeren. Anderzijds, als u minder dan een miljoen rijen per dag en een week van historische gegevens hebt, zou dat minder dan een uur vergen.
 * De steun is op de volledige verbinding, niet op elke dataset individueel van toepassing.
