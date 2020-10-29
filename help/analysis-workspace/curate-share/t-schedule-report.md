@@ -1,60 +1,64 @@
 ---
-description: Verzend een project van de Werkruimte van de Analyse via e-mail of plant het voor levering.
+description: Een Analysis Workspace-project verzenden via e-mail of het plannen voor levering.
 keywords: Analysis Workspace
-title: Geplande projecten
-topic: Reports and analytics
-uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
+title: Projecten plannen
 translation-type: tm+mt
-source-git-commit: c4c6bc367ba1a45146267b968edb88a634cbc7ae
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 
-# Geplande projecten
+# Projecten plannen
 
-Vanuit de werkruimte **Menu Delen**, kunt u de projecten van de Werkruimte van de Analyse via e-mail naar geselecteerde ontvangers verzenden. De dossiers kunnen in formaat worden verzonden CSV of PDF.
+Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
 ## Bestand nu verzenden
 
-U kunt als volgt een bestand direct per e-mail naar ontvangers sturen:
+Een bestand direct via e-mail naar ontvangers verzenden:
 
-1. Klik **Delen > Bestand nu verzenden**.
-1. Specificeer het dossiertype (CSV of PDF).
-1. (Facultatief) voeg een beschrijving toe die in e-mail zal worden omvat om het dossier te verklaren dat wordt ontvangen.
-1. Voeg ontvangers of groepen toe. E-mailadressen kunnen ook worden ingevoerd.
-1. Klik **Nu verzenden**.
-1. (Optioneel) Klik op **Opties voor planning weergeven** om een leveringsschema op te geven.
+1. Klikken **Delen > Bestand nu verzenden**.
+1. Geef het bestandstype op (CSV of PDF).
+1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
+1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
+1. Klikken **Nu verzenden**.
+1. (Optioneel) Klik op **Planningsopties tonen** om een leveringsschema op te geven.
 
-## Bestand op schema verzenden
+![Bestand nu verzenden](assets/send-file-now.png)
 
-Om een bestand op een terugkerend schema per e-mail naar ontvangers te verzenden:
+## Bestand verzenden volgens schema
 
-1. Klik **Delen > Bestand verzenden in planning**.
-1. Specificeer het dossiertype (CSV of PDF).
-1. (Facultatief) voeg een beschrijving toe die in e-mail zal worden omvat om het dossier te verklaren dat wordt ontvangen.
-1. Voeg ontvangers of groepen toe. E-mailadressen kunnen ook worden ingevoerd.
-1. Specificeer de waaier het programma zou moeten worden geleverd over door te wijzigen Beginnend en Eind op input. De einddatum moet binnen een jaar zijn vanaf de dag dat het schema wordt gecreeerd of gewijzigd.
-1. Geef de leveringsfrequentie op. Elke frequentie staat voor verschillende aanpassingen toe.
-1. Klik **Verzenden volgens schema**.
+Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
+
+1. Klikken **Delen > Bestand verzenden volgens schema**.
+1. Geef het bestandstype op (CSV of PDF).
+1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
+1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
+1. Geef het bereik op waarover de planning moet worden geleverd door Starten op en Eindigen op de invoer te wijzigen. De einddatum moet binnen een jaar zijn vanaf de dag dat het schema wordt opgesteld of gewijzigd.
+1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
+1. Klikken **Verzenden volgens schema**.
+
+![](assets/send-on-schedule.png)
 
 ## Geplande projectmanager
 
-De geplande projecten van de Werkruimte van de Analyse kunnen onder worden beheerd **Analyse > Componenten > Geplande Projecten**.
+Geplande Analysis Workspace-projecten kunnen worden beheerd in het kader van **Analyse > Componenten > Geplande projecten**.
 
-In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in de linkerspoor te gebruiken. U kunt filtreren door markering, goedgekeurde programma&#39;s, eigenaars en meer.
+In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, goedgekeurde schema&#39;s, eigenaars en meer.
 
-Het volgende is gemeenschappelijke acties in de Geplande Projectmanager:
+![](assets/scheduled-project-manager.png)
 
-| Actie | Beschrijving |
+Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten:
+
+| Handeling | Beschrijving |
 |---|---|
-| **Planning bewerken** | Klik de titel van het programma om zijn leveringsmontages bij te werken. |
-| **Schrap schema** | Selecteer het geplande project in de lijst en klik dan Schrapping van het menu. Dit zal het geselecteerde programma voor het project schrappen; het project zelf zal niet worden geschrapt . |
-| **Labels toevoegen** | Selecteer het geplande project in de lijst en kies dan &quot;Markering&quot;of &quot;goedkeuren&quot;om uw programma&#39;s te organiseren en hen gemakkelijker te maken om naar te zoeken. |
-| **Ontbroken planningen bekijken** | Navigeer aan de linkerspoorstaaf > Andere filters > Slaagde er niet in om programma&#39;s te zien die hebben ontbroken. |
-| **Geëindigde schema&#39;s bekijken** | Navigeer aan de linkerspoor > Andere filters > Verlopen om programma&#39;s te zien die zijn verlopen. Klik op de titel van het schema om een nieuw regelschema in te stellen. |
-| **Planning-id bekijken** | Navigeer aan kolomopties in het hoogste recht en voeg de kolom van identiteitskaart van het Programma aan de lijst toe. De geplande identiteitskaart is vaak nuttig om te zuiveren. |
+| **Tijdschema bewerken** | Klik op de titel van de planning om de leveringsinstellingen bij te werken. |
+| **Schema verwijderen** | Selecteer het geplande project in de lijst en klik dan Schrapping van het menu. Hiermee verwijdert u het geselecteerde schema voor het project. het project zelf wordt niet verwijderd . |
+| **Tags toevoegen** | Selecteer het geplande project in de lijst en kies &quot;Tag&quot; of &quot;Goedkeuren&quot; om uw schema&#39;s te ordenen en ze gemakkelijker te maken om naar te zoeken. |
+| **Ontbroken schema&#39;s weergeven** | Navigeer naar de linkertrack > Overige filters > Kan geen mislukte planningen zien. |
+| **Verlopen schema&#39;s weergeven** | Navigeer naar de linkerrail > Andere filters > Verlopen om programma&#39;s te zien die zijn verlopen. Klik de titel van het programma aan opstelling een nieuw leveringsprogramma. |
+| **Plan-id weergeven** | Navigeer naar kolomopties rechtsboven en voeg de kolom Id van planning toe aan de tabel. De geplande id is vaak handig voor foutopsporing. |
 
-De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt. De geplande projecteigendom kan zijn **overgedragen** aan een nieuwe gebruiker onder **Beheer > Analysegebruikers en -middelen > Transfermiddelen**.
+De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt. De geplande projecteigendom kan worden **overgedragen** aan een nieuwe gebruiker onder **Beheer > Gebruikers en middelen voor analyse > Middelen voor gegevensoverdracht**.
