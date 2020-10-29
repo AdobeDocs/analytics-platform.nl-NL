@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 51%
+source-wordcount: '410'
+ht-degree: 49%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 51%
    + [Geavanceerde analyse uitvoeren](analysis-workspace/perform-adv-analysis.md)
    + Een Workspace-project maken {#build-workspace-project}
       + [Project maken - overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
       + Instellingen voor kolommen en rijen {#column-row-settings}
          + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
@@ -94,13 +95,13 @@ ht-degree: 51%
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
    + Projecten selecteren of delen {#curate-share}
-      + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
-      + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
+      + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
-      + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
+      + [Alleen-weergeven -projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
-      + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Beheer geplande projecten](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution}
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
