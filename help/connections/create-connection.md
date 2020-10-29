@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 translation-type: tm+mt
-source-git-commit: 240c0d33eb3db8bd3618698cac7f61f88048e953
+source-git-commit: 55347b8704fa93bdc833faec68b8da6dd589420b
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1874'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
    | [!UICONTROL Datasets] | De datasets die in deze verbinding inbegrepen zijn. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in stromen [!UICONTROL Workspace]. |
    | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets in dit verband zal worden ingevoerd of backfill. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. Zie ook [Back-up maken van historische gegevens](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) hieronder.<br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
-   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Selecteer een optie in het keuzemenu. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie. De query ziet er als volgt uit:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;` |
+   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Selecteer een optie in het keuzemenu. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) voor meer informatie.<br>Zie &quot;Het gemiddelde aantal dagelijkse gebeurtenissen berekenen&quot; hieronder. |
 
 1. Klik op **[!UICONTROL Save and create data view]**. Zie voor documentatie [een gegevensweergave maken](/help/data-views/create-dataview.md).
 
@@ -123,4 +123,13 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 * De steun is op de volledige verbinding, niet op elke dataset individueel van toepassing.
 * De [Adobe Analytics Data Connector](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) invoer tot 13 maanden van gegevens, ongeacht de omvang ervan.
 
-<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
+### Het gemiddelde aantal dagelijkse gebeurtenissen berekenen
+
+Deze berekening moet voor elke dataset in de verbinding worden uitgevoerd.
+
+1. Ga naar [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) en maak een nieuwe query.
+
+1. De query ziet er als volgt uit:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
+
+* In dit voorbeeld is &quot;analytics_demo_data&quot; de naam van de dataset.
+* Voer het `Show Tables` vraag om alle datasets te tonen die in AEP bestaan.
