@@ -1,69 +1,69 @@
 ---
-description: De cursus laat u componenten beperken alvorens een project te delen.
+description: Met Curatie kunt u componenten beperken voordat u een project deelt.
 keywords: Analysis Workspace curation
-title: Werkruimteprojecten van de curate
+title: Cursieve projecten
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '496'
 ht-degree: 3%
 
 ---
 
 
-# Werkruimteprojecten van de curate
+# Cursieve projecten
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-De cursus laat u de componenten (afmetingen, metriek, segmenten, datumwaaiers) beperken alvorens een project te delen. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. De cursus is een facultatieve maar geadviseerde stap alvorens een project te delen.
+Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> De profielen van het product zijn het primaire mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door de Console van Admin van de Ervaring van Adobe Cloud. Curatie is een secundair filter.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Ze worden beheerd via de Adobe Experience Cloud Admin Console. Curatie is een secundair filter.
 
-## projectcursus toepassen
+## Projectcursus toepassen
 
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 De componenten die in het project worden gebruikt zullen automatisch worden toegevoegd.
    **Opmerking**: Als een project veelvoudige rapportreeksen heeft, zult u een curate gebied voor elke rapportreeks in het project zien.
-1. (Facultatief) om meer componenten toe te voegen, sleep componenten u van de linkerspoor aan wilt delen [!UICONTROL Curate Components] veld.
+1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u de componenten die u wilt delen van de linkerspoorstaaf naar de [!UICONTROL Curate Components] veld.
 1. Klik op **[!UICONTROL Done]**.
 
-De kromming kan ook vanaf [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt extra componenten na de stappen hierboven toevoegen.
+De kromming kan ook vanaf worden toegepast [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
 
 ![](assets/curation-field.png)
 
-## Verboren projectweergave
+## Samengevoegde projectweergave
 
 Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen reeks componenten zien u hebt bepaald:
 
 ![](assets/curate-project.png)
 
-## Verwijder projectcursus
+## Projectcursus verwijderen
 
-Om de projectkromming te verwijderen en de volledige reeks componenten in de linkerspoorstaaf te herstellen:
+U kunt als volgt de projectcuratie verwijderen en de volledige set componenten in de linkerspoorstaaf herstellen:
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Klik op **[!UICONTROL Remove Curation]**.
 1. Klik op **[!UICONTROL Done]**.
 
-## Virtuele rapportcursus (VRS)
+## Cursus Virtual Report Suite (VRS)
 
-Om kromming op een rapport-reeks niveau toe te passen, zodat het op vele projecten meteen van toepassing is, kunt u [De curate componenten in een Virtuele Reeks van het Rapport (VRS)](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html).
+Als u cursus wilt toepassen op het niveau van een rapport en suite, zodat deze op veel projecten tegelijk van toepassing is, kunt u [curate componenten in een Virtuele Reeks van het Rapport (VRS)](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html).
 
 >[!NOTE]
-> De kromming van VRS wordt altijd toegepast vóór projectkromming. Dit betekent dat zelfs als uw beheerd project bepaalde componenten omvat, zij uit zullen worden gefiltreerd als de gebogen VRS hen niet omvat.
+> De kromming van VRS wordt altijd toegepast vóór projectkromming. Dit betekent dat zelfs als uw gebogen project bepaalde componenten omvat, zij uit zullen worden gefiltreerd als het gebogen VRS hen niet omvat.
 
-## Alle componenten weergeven, optie
+## Alle componenten tonen, optie
 
-In een beheerd project of VRS, zal de ontvanger met de optie aan worden voorgesteld **[!UICONTROL Show All]** onderdelen in de linker spoorstaaf. [!UICONTROL Show All] openbaart verschillende reeksen componenten, afhankelijk van:
+In een beheerd project of VRS zal de ontvanger de optie worden voorgesteld om **[!UICONTROL Show All]** in de linkerspoorstaaf. [!UICONTROL Show All] onthult verschillende reeksen componenten, afhankelijk van:
 
-* Het de toestemmingsniveau van de gebruiker (admin of niet-admin)
-* Projectrol (eigenaar/redacteur of niet)
-* Soort curatie toegepast (VRS of project)
+* Het machtigingsniveau van de gebruiker (admin of non-admin)
+* Projectrol (eigenaar/editor of niet)
+* Type toegepaste kromming (VRS of project)
 
-| Type valuta | Admins | Niet-beheerder projecteigenaar of geef rol uit | Niet-beheerder duplicaat of rol bekijken |
+| Curvetype | Admins | Niet-Admin-projecteigenaar of -bewerkingsrol | Niet-beheerder dubbele rol of weergavefunctie |
 |---|---|---|---|
-| Gecumuleerde VRS | Alle niet-gebogen VRS-onderdelen | Niet-gekrulde componenten van VRS die deze rol bezit of die met hen zijn gedeeld | Niet-gekrulde componenten van VRS die deze rol bezit of die met hen zijn gedeeld |
-| Geautomatiseerd project | Alle niet-behandelde projectcomponenten | Alle niet-behandelde projectcomponenten | Niet-curated projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
-| Gecumuleerd project in een gelabelde VRS | Alle niet-gebogen onderdelen, vermeld onder **[!UICONTROL Non-Curated Project Components]** en **[!UICONTROL Non-Curated VRS Components]** | Alle niet-gebogen projectcomponenten EN niet-gebogen componenten van VRS die deze rol bezit of die met hen zijn gedeeld | Niet-gebogen VRS en projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
+| Gekromde VRS | Alle niet-gebogen VRS-componenten | Niet-beheerde VRS-componenten waarvan deze rol eigenaar is of die met hen zijn gedeeld | Niet-beheerde VRS-componenten waarvan deze rol eigenaar is of die met hen zijn gedeeld |
+| Samengevoegd project | Alle niet-gekrulde projectcomponenten | Alle niet-gekrulde projectcomponenten | Niet-gekrulde projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
+| Gekromd project in een gekromd VRS | Alle niet-gebogen bestanddelen, vermeld onder **[!UICONTROL Non-Curated Project Components]** en **[!UICONTROL Non-Curated VRS Components]** | Alle niet-gebogen projectcomponenten EN niet-gekrulde componenten VRS die deze rol bezit of die met hen zijn gedeeld | Niet-gekromde VRS en projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
