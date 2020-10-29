@@ -3,19 +3,15 @@ description: Met Curatie kunt u componenten beperken voordat u een project deelt
 keywords: Analysis Workspace curation
 title: Cursieve projecten
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '461'
 ht-degree: 3%
 
 ---
 
 
 # Cursieve projecten
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
@@ -43,6 +39,7 @@ Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen r
 ## Projectcursus verwijderen
 
 U kunt als volgt de projectcuratie verwijderen en de volledige set componenten in de linkerspoorstaaf herstellen:
+
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Klik op **[!UICONTROL Remove Curation]**.
 1. Klik op **[!UICONTROL Done]**.
