@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
+source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '933'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dit betekent dat alle persistentie gebaseerd zal zijn op het bereik van de rapportagedatum in plaats van op de volledige gegevens. |
 | Classificaties | Deze worden nu &#39;Gegevensbestanden opzoeken&#39; genoemd en worden niet automatisch geïmporteerd uit traditionele analysemogelijkheden. Ze moeten worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
 | Klantkenmerken | Nu &quot;profielgegevenssets&quot; genoemd, worden ze niet automatisch geïmporteerd uit Experience Cloud, maar moeten ze worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
+| Apparaat, browser, technologische afmetingen | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. |
+| De ingangen, de Uitgangen, en de afmetingen van de Tijdopnemer en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 
 ## Gedeeltelijke ondersteuning
 
@@ -66,6 +68,10 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Segment-IQ | Er is steun gepland. |
 | Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. |
 | CSV-download | Er is steun gepland. |
+| Metrische deduplicatie | Er is steun gepland. |
+| Aangepaste kalenders | Er is steun gepland. |
+| Metrische deduplicatie | Er is steun gepland. |
+| Handelswijzigingsvariabele persistentie | Er is steun gepland. |
 | Geplande rapporten/projecten | Er is steun gepland. |
 | Waarschuwingen | Er is steun gepland. |
 | Aangepaste kalenders | Er is steun gepland. |
