@@ -3,15 +3,19 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace sharing
 title: Deelbare koppelingen maken
 translation-type: tm+mt
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '317'
 ht-degree: 3%
 
 ---
 
 
 # Deelbare koppelingen maken
+
+>[!NOTE]
+>
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Gebruikers die een koppeling ontvangen, moeten zich aanmelden bij Adobe Analytics voordat ze aan het project kunnen deelnemen.
 
