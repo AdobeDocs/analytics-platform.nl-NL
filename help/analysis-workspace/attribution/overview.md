@@ -1,8 +1,8 @@
 ---
 title: Overzicht van attributie
-description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensieitems.
+description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 48%
@@ -14,14 +14,14 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-De attributen geven analisten de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen. Bijvoorbeeld:
+Attributie geeft analisten de mogelijkheid om aan te passen hoe dimensie-items krediet krijgen voor succesgebeurtenissen. Bijvoorbeeld:
 
-1. Een bezoeker aan uw plaats klikt een betaalde onderzoeksverbinding aan één van uw productpagina&#39;s. Voeg het product aan de kar toe, maar koop het niet aan.
+1. Een bezoeker van uw site klikt op een koppeling naar een betaalde zoekopdracht naar een van uw productpagina&#39;s. Voeg het product toe aan het winkelwagentje, maar koop het niet.
 2. De volgende dag, zie een sociaal media bericht van één van hun vrienden, klik de verbinding, dan voltooi de aankoop.
 
-In sommige rapporten, zou u de orde kunnen willen die aan Betaald onderzoek wordt toegewezen. In andere rapporten, zou u de orde kunnen willen die aan Sociaal wordt toegewezen. De attributen laten u dit aspect van rapportering controleren. Het is beschikbaar aan alle organisaties op de Ultimate, Prime, Select and Foundation van Adobe Analytics. Als u niet zeker weet welk type contract u met Adobe hebt, neemt u contact op met de accountmanager van uw organisatie.
+In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren. Het is beschikbaar voor alle organisaties op Adobe Analytics Ultimate, Premier, Select en Foundation. Als u niet zeker weet welk type contract u met Adobe hebt, neemt u contact op met de accountmanager van uw organisatie.
 
 ## Waarde van Attribution IQ
 
@@ -44,7 +44,7 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 
 Attribution IQ biedt de volgende kenmerken:
 
-* [Attributiepaneel](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [Toekenning op metrisch toepassen](../build-workspace-project/column-row-settings/column-settings.md): Gebruik een non-default attributie op om het even welke metrisch in een project.
-* [Toerekening van een uitsplitsing toepassen](/help/components/dimensions/t-breakdown-fa.md): Gebruik een niet-standaardindeling op een uitsplitsing.
-* [Vergelijk toewijzingsmodellen](/help/components/apply-create-metrics.md): Zie snel hoe de verschillende attributiemodellen voor om het even welke metrisch vergelijken.
+* [Kenmerk, deelvenster](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
+* [Kenmerken toepassen op metrisch](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [Toewijzing op een uitsplitsing toepassen](/help/components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
+* [Kenmerkingsmodellen vergelijken](/help/components/apply-create-metrics.md): Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
