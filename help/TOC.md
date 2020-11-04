@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: a5f7a17d99d5ea7c8f944d02fb304bddf759030a
+source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 49%
+source-wordcount: '404'
+ht-degree: 48%
 
 ---
 
@@ -48,20 +48,20 @@ ht-degree: 49%
       + [Project maken - overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
-      + Instellingen voor kolommen en rijen {#column-row-settings}
-         + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [Rij-instellingen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Dynamische versus statische items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Instellingen ongedaan maken en opnieuw uitvoeren](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Beschikbare hotkeys in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Pagineren, filteren en tabellen sorteren](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
-      + [Workspace-totalen](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Databronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [Vrije-vormentabel](analysis-workspace/visualizations/freeform-table.md)
+      + Vrije-vormentabel {#freeform-table}
+         + [Vrije-vormentabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + Instellingen voor kolommen en rijen {#column-row-settings}
+            + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [Rij-instellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Pagineren, filteren en tabellen sorteren](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Workspace-totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport voor cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
