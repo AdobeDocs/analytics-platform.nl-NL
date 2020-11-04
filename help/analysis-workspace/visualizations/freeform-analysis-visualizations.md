@@ -3,7 +3,7 @@ description: Meer informatie over visualisatie- en visualisatie-instellingen in 
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 5%
@@ -26,7 +26,7 @@ Videozelfstudie: [Visualisatietypen in Analysis Workspace](https://docs.adobe.co
 | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
 | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). |
 | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Kies deze optie om klantpaden weer te geven via uw websites en apps. |
-| [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
+| [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
 | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). |
 | [Horizontale balk](/help/analysis-workspace/visualizations/horizontal-bar.md) | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
 | [Lijn](/help/analysis-workspace/visualizations/line.md) | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt. |
