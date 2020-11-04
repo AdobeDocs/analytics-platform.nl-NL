@@ -1,81 +1,79 @@
 ---
-description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in de Werkruimte van de Analyse.
+description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in Analysis Workspace.
 keywords: Analysis Workspace
-title: Hotkeys (sneltoetsen) zijn beschikbaar in de Werkruimte van de Analyse
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Hotkeys (sneltoetsen)
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '306'
 ht-degree: 4%
 
 ---
 
 
-# Hotkeys (sneltoetsen) zijn beschikbaar in de Werkruimte van de Analyse
+# Hotkeys (sneltoetsen)
 
-Hotkeys (sneltoetsen) zijn beschikbaar in Analyse Workspace voor naadloze navigatie, analyse en democratisering.
+Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse en democratisering.
 
 Opmerking: `CTRL` = Windows en `command` = Mac
 
-## Navigatieacties
+## Navigatiehandelingen
 
-| Actie | Snelkoppeling |
+| Handeling | Sneltoets |
 |---|---|
 | Nieuw project maken | ctrl (of cmd) + shift + p |
-| Open bestaand project | ctrl (of cmd) + o |
-| Ga naar deelvenster Panelen | alt + verschuiving + 1 |
-| Ga naar het deelvenster Visualisaties | alt + verschuiving + 2 |
-| Ga naar het deelvenster Componenten | alt + verschuiving + 3 |
-| Alle deelvensters samenvouwen/uitbreiden | alt + m |
+| Bestaand project openen | ctrl (of cmd) + o |
+| Naar deelvenster Deelvensters | alt + shift + 1 |
+| Naar het deelvenster Visualisatie | alt + shift + 2 |
+| Naar deelvenster Componenten | alt + shift + 3 |
+| Alle deelvensters samenvouwen/uitvouwen | alt + m |
 | Actief deelvenster samenvouwen/uitvouwen | alt + ctrl + m |
-| Naar volgend deelvenster gaan | alt + rechtertoets |
+| Naar volgend deelvenster gaan | alt + toets rechts |
 | Naar vorig deelvenster gaan | alt + linkertoets |
 
-## Analyse
+## Analyse-acties
 
-| Actie | Snelkoppeling |
+| Handeling | Sneltoets |
 |---|---|
 | Zoeken in linkerrail | ctrl + / |
 | Een waarschuwing maken | ctrl (of cmd) + shift + a |
-| Berekend metrisch maken | ctrl (of cmd) + shift + c |
+| Berekende metrisch maken | ctrl (of cmd) + shift + c |
 | Een datumbereik maken | ctrl (of cmd) + shift + d |
 | Een segment maken | ctrl (of cmd) + shift + e |
 | Alles wissen | alt + w |
-| Kopie | ctrl (of cmd) + c |
-| Redo | ctrl (of cmd) + shift + z |
-| ongedaan maken | ctrl (of cmd) + z |
-| Componenten vernieuwen | alt + verschuiving + r |
+| Kopiëren | ctrl (of cmd) + c |
+| Opnieuw | ctrl (of cmd) + shift + z |
+| Ongedaan maken | ctrl (of cmd) + z |
+| Componenten vernieuwen | alt + shift + r |
 | Project vernieuwen | alt + r |
-| Instellen als landingspagina | ctrl (of cmd) + shift + l |
+| Instellen als bestemmingspagina | ctrl (of cmd) + shift + l |
 
-## Voeg panelen en visualiseringsacties toe
+## Deelvensters en visualisatiehandelingen toevoegen
 
-| Actie | Snelkoppeling |
+| Handeling | Sneltoets |
 |---|---|
-| Nieuwe analyse voor doelgroep | alt + g |
-| Nieuw Attributiepaneel | alt + e |
-| Nieuw leeg paneel | alt + b |
-| Nieuw Freeform-paneel | alt + a |
-| Nieuw paneel Mediagelijktijdige kijkers | alt + h |
-| Nieuw snel inzichtsvenster | alt + f |
-| Nieuw segmentvergelijkingspaneel | alt + c |
-| Nieuwe Freeform-tabel | alt + 1 |
+| Nieuwe analyse voor doelvenster | alt + g |
+| Nieuw deelvenster Kenmerken | alt + e |
+| Nieuw leeg deelvenster | alt + b |
+| Nieuw deelvenster Vrije vorm | alt + a |
+| Nieuw deelvenster Mediagelijktijdige viewers | alt + h |
+| Nieuw deelvenster Snelle inzichten | alt + f |
+| Nieuw deelvenster voor segmentvergelijking | alt + c |
+| Nieuwe tabel voor vrije vorm | alt + 1 |
 | Nieuwe lijngrafiek | alt + 2 |
-| Nieuwe staafgrafiek | alt + 3 |
+| Nieuwe staafdiagram | alt + 3 |
 
-## Democratiseringsacties
+## democratiseringsacties
 
-| Actie | Snelkoppeling |
+| Handeling | Sneltoets |
 |---|---|
 | Project opslaan | ctrl (of cmd) + s |
 | Project opslaan als | ctrl (of cmd) + shift + s |
-| Opslaan als template | alt + t |
-| Download als CSV | ctrl (of cmd) + shift + v |
-| Download als PDF | ctrl (of cmd) + shift + b |
-| Projectgegevens aanpassen | ctrl (of cmd) + shift + g |
+| Opslaan als sjabloon | alt + t |
+| Downloaden als CSV | ctrl (of cmd) + shift + v |
+| Downloaden als PDF | ctrl (of cmd) + shift + b |
+| Cursieve projectgegevens | ctrl (of cmd) + shift + g |
 | Project delen | ctrl (of cmd) + g |
-| Projectlink ophalen | alt + l |
+| Projectkoppeling ophalen | alt + l |
 | Bestand nu verzenden | alt + s |
-| Bestand op schema verzenden | verschuiving + alt + s |
+| Bestand verzenden volgens schema | shift + alt + s |
