@@ -2,9 +2,9 @@
 title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
 translation-type: tm+mt
-source-git-commit: 830e7d71ad38539d1a73fe2df9f8886956f57acc
+source-git-commit: 1f8526e0b48e334a62776eb2ca4fbf09febf4dd4
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Wat de schrapping betreft, gaat het om zes onderdelen: zandbak, schema, dataset,
 | Schema&#39;s verwijderen in [!UICONTROL Adobe Experience Platform], maar niet de dataset(s) verbonden aan dit schema? | [!UICONTROL Adobe Experience Platform] staat niet toe dat schema&#39;s worden geschrapt die één of meerdere datasets verbonden aan hen hebben. Nochtans, kan Admin met de aangewezen reeks rechten de datasets eerst schrappen en dan het schema schrappen. |
 | Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform]? | Het schrappen van een dataset in AEP zal gegevensstroom van die dataset aan om het even welke Verbindingen tegenhouden die die dataset omvatten. Om het even welke gegevens van die dataset worden niet automatisch geschrapt van bijbehorende Verbindingen CJA. |
 | Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics]? | U kunt momenteel geen dataset verwijderen binnen een verbinding die is opgeslagen. U moet de gehele verbinding verwijderen en opnieuw beginnen. (U kunt echter wel een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform].) |
-| Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform])? | Als een partij uit een dataset van AEP wordt geschrapt, zal de zelfde partij uit om het even welke Verbindingen worden verwijderd CJA die die specifieke partij bevatten. |
+| Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform])? | Als een partij uit een [!UICONTROL Adobe Experience Platform] dataset, zal de zelfde partij uit om het even welke Verbindingen worden verwijderd CJA die die specifieke partij bevatten.  CJA is op de hoogte gesteld van het verwijderen van partijen in [!UICONTROL Adobe Experience Platform]. |
 | Een batch verwijderen **tijdens de inname** in [!UICONTROL Customer Journey Analytics]? | Als er slechts één partij in de dataset is, zullen geen gegevens of gedeeltelijke gegevens van die partij in verschijnen [!UICONTROL Customer Journey Analytics]. De inname wordt teruggedraaid. Als, bijvoorbeeld, er 5 partijen in de dataset zijn en 3 van hen reeds zijn opgenomen toen de dataset werd geschrapt, zullen de gegevens van die 3 partijen in verschijnen [!UICONTROL Customer Journey Analytics]. |
 | Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics]? | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
 | Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics]? | Een foutenmelding zal erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer werkend zullen zijn. |
