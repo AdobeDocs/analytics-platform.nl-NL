@@ -3,6 +3,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.nl-NL
 cloud: experience-cloud
 product: adobe analytics
 sub-product: reis van klant
+solution: Customer Journey Analytics
+type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
@@ -16,7 +18,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
+source-git-commit: 5fe2177d8e1da64304b0f9c84caa5383b6909d06
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 48%
