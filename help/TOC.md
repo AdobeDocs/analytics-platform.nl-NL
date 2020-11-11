@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5fe2177d8e1da64304b0f9c84caa5383b6909d06
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 48%
+source-wordcount: '407'
+ht-degree: 47%
 
 ---
 
@@ -38,8 +38,9 @@ ht-degree: 48%
 + Verbindingen {#cja-connections}
    + [Verbinding maken](connections/create-connection.md)
    + [Verbindingen beheren](connections/manage-connection.md)
+   + [De verbindingsgrootte schatten](connections/estimate-connection-size.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](connections/combined-dataset.md)
-+ Gegevens {#cja-dataviews}
++ Gegevensweergaven {#cja-dataviews}
    + [Een gegevensweergave maken](data-views/create-dataview.md)
    + [Gegevensweergaven en -toewijzing configureren](data-views/configure-dataviews.md)
 + Werkruimteprojecten {#cja-workspace}
@@ -147,7 +148,7 @@ ht-degree: 48%
       + [Overzicht van agenda](components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](components/date-ranges/time-comparison.md)
-+ Gebruik hoofdletters {#cja-usecases}
++ Gebruik gevallen {#cja-usecases}
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
    + [(B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset](use-cases/b2b.md)
