@@ -2,9 +2,9 @@
 title: De verbindingsgrootte schatten
 description: Rapport over wat uw huidige gebruik van Customer Journey Analytics is (voor factureringsdoeleinden)
 translation-type: tm+mt
-source-git-commit: 443b878d90c52ae29fe127b4b6f151c4fbc3a0e9
+source-git-commit: 27b3b1d9e6042f4c61cd1d5bb9d574cc268c3460
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # De verbindingsgrootte schatten
 
-Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Customer Journey Analytics]. Het doel van dit onderwerp is u te tonen hoe te om over wat te rapporteren uw huidige gebruik van [!UICONTROL Customer Journey Analytics] is, voor factureringsdoeleinden.
+Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Customer Journey Analytics]. Het doel van dit onderwerp is u te tonen hoe te om over uw huidige gebruik van [!UICONTROL Customer Journey Analytics] te rapporteren.
 
 1. Klik in [!UICONTROL Customer Journey Analytics] op het tabblad **[!UICONTROL Connections]**.
 1. Selecteer in het scherm [!UICONTROL Edit connection] een verbinding waarvoor u de grootte van het gebruik/de verbinding wilt bepalen.
 
    ![Verbinding bewerken](assets/edit-connection.png)
 
-1. Selecteer een dataset die uw deel van verbinding van de linkerspoorstaaf is. In dit geval is het de dataset &quot;B2B Impression&quot;.
+1. Selecteer een dataset die uw deel van de verbinding van de linkerspoorstaaf is. In dit geval is het de dataset &quot;B2B Impression&quot;.
 
    ![gegevensset](assets/dataset.png)
 
@@ -33,22 +33,22 @@ Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Cus
 
 ## Aantal toegevoegde rijen bepalen
 
-Het aantal gebeurtenissen die daadwerkelijk in CJA worden opgenomen hangt van uw montages van de verbindingsconfiguratie af. Bovendien als u verkeerde identiteitskaart van de Persoon selecteerde of als dit identiteitskaart niet beschikbaar voor sommige rijen in de datasets is, dan [!UICONTROL Customer Journey Analytics] zal die rijen negeren. Op deze manier kunt u de werkelijke rijen met gebeurtenissen vaststellen die worden ingevoerd wanneer een verbinding is opgeslagen.
+Het aantal gebeurtenissen die daadwerkelijk in CJA worden opgenomen hangt van uw montages van de verbindingsconfiguratie af. Bovendien als u verkeerde identiteitskaart van de Persoon selecteerde of als dit identiteitskaart niet beschikbaar voor sommige rijen in de datasets is, dan [!UICONTROL Customer Journey Analytics] zal die rijen negeren. Voer de volgende stappen uit om de werkelijke rijen met opgenomen gebeurtenissen te bepalen:
 
 1. Wanneer u de verbinding hebt opgeslagen, maakt u een gegevensweergave van dezelfde verbinding zonder filters.
-1. Creeer een project van de Werkruimte en selecteer de correcte gegevensmening. Creeer een vrije vormlijst en sleep en laat vallen **[!UICONTROL Events]** metrisch met een **[!UICONTROL Year]** afmeting. Kies het maximale datumbereik in de kalender voor datumselectie. Hierdoor kunt u het aantal gebeurtenissen zien dat in [!UICONTROL Customer Journey Analytics] wordt opgenomen.
+1. Creeer een project van de Werkruimte en selecteer de correcte gegevensmening. Creeer een vrije vormlijst en sleep en laat vallen **[!UICONTROL Events]** metrisch met een **[!UICONTROL Year]** afmeting. Kies een groot genoeg datumbereik in de kalender voor datumselectie om alle gegevens in de verbinding in te kapselen. Hierdoor kunt u het aantal gebeurtenissen zien dat in [!UICONTROL Customer Journey Analytics] wordt opgenomen.
 
    ![Werkruimteproject](assets/event-number.png)
 
    >[!NOTE]
    >
-   >Dit laat u het aantal gebeurtenissen zien die van uw gebeurtenisdataset worden opgenomen. Het omvat profiel en raadplegingstype geen datasets. Voer stap 1-3 voor profiel- en opzoekgegevenssets uit en voeg de nummers toe om het totaal aan gebeurtenissen voor deze verbinding op te halen.
+   >Dit laat u het aantal gebeurtenissen zien die van uw gebeurtenisdataset worden opgenomen. Het omvat profiel en raadplegingstype geen datasets. Voer stap 1-3 voor profiel- en opzoekgegevenssets uit en voeg de nummers toe om het totale aantal rijen voor deze verbinding op te halen.
 
-## Foutopsporingsverschillen opsporen
+## Detectie discrepanties
 
-U kunt opgemerkt hebben dat het totale aantal ingegrepen gebeurtenissen &quot;7650&quot;is, maar de verbinding had slechts de gebeurtenisdataset &quot;B2B Impression&quot;met &quot;3830 rijen&quot;in AEP. Waarom is er een discrepantie? Laten we wat foutopsporing uitvoeren.
+In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die door uw Verbinding worden opgenomen verschillend is dan het aantal rijen in de dataset in AEP. In dit geval heeft de dataset &quot;B2B Impression&quot; 7650 rijen, maar de dataset bevat 3830 rijen in AEP. Er zijn verschillende redenen waarom er verschillen kunnen optreden en de volgende stappen kunnen worden uitgevoerd om een diagnose te stellen:
 
-1. Verdeel deze afmeting door **[!UICONTROL Platform Dataset ID]** en u zult twee datasets met de zelfde grootte maar verschillend **[!UICONTROL Platform Dataset IDs]** opmerken. Elke dataset heeft 3825 verslagen. Dat betekent dat [!UICONTROL Customer Journey Analytics] 5 records heeft genegeerd vanwege ontbrekende persoon-id&#39;s of BAVID&#39;s (Big Visitor ID&#39;s):
+1. Verdeel deze afmeting door **[!UICONTROL Platform Dataset ID]** en u zult twee datasets met de zelfde grootte maar verschillend **[!UICONTROL Platform Dataset IDs]** opmerken. Elke dataset heeft 3825 verslagen. Dat betekent dat [!UICONTROL Customer Journey Analytics] 5 records heeft genegeerd vanwege ontbrekende persoon-id&#39;s of ontbrekende tijdstempels:
 
    ![uitsplitsing](assets/data-size2.png)
 
