@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 8eb7d3e24a941eaf882426e230561e2bf0d0145e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 47%
+source-wordcount: '424'
+ht-degree: 45%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 47%
    + [Verbindingen beheren](connections/manage-connection.md)
    + [De verbindingsgrootte schatten](connections/estimate-connection-size.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](connections/combined-dataset.md)
+   + Kanaaloverschrijdende analyse {#cca}
+      + [Overzicht van kanaalanalyse](connections/cca/overview.md)
+      + [Hoe herspeelt u](connections/cca/replay.md)
+      + [Veelgestelde vragen over kanaalanalyse](connections/cca/faq.md)
 + Gegevensweergaven {#cja-dataviews}
    + [Een gegevensweergave maken](data-views/create-dataview.md)
    + [Gegevensweergaven en -toewijzing configureren](data-views/configure-dataviews.md)
@@ -152,6 +156,7 @@ ht-degree: 47%
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
    + [(B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset](use-cases/b2b.md)
+   + [Telefooncentrum en webgegevens importeren](use-cases/call-center.md)
    + [Gebruiksgevallen voor gegevensinvoer](use-cases/data-ingestion.md)
 + Privacy {#cja-privacy}
    + [Privacyoverzicht](privacy/privacy-overview.md)
