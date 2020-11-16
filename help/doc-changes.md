@@ -2,10 +2,10 @@
 title: CJA-documentatieupdates
 description: 'Hiermee geeft u inhoudsupdates weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld. '
 translation-type: tm+mt
-source-git-commit: fa70d59a4c30b78c09ea9d11dfc804bf12e9b603
+source-git-commit: 06079f13a61ec9732a69c8acee0bed7356910a84
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 8%
+source-wordcount: '205'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,9 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| 11 november 2020 | Een onderwerp toegevoegd op [De verbindingsgrootte schatten](/help/connections/estimate-connection-size.md) voor factureringsdoeleinden. |
+| 13 november 2020 | Nieuwe onderwerpen op [Kanaalanalysemogelijkheden](/help/connections/cca/overview.md), die u toestaat om identiteitskaart van de persoon van een dataset opnieuw te zeer belangrijk te maken, die een naadloze combinatie veelvoudige datasets toelaat. |
+| 13 november 2020 | Er is een nieuw gebruiksgeval toegevoegd op [callcenter en webgegevens importeren](/help/use-cases/call-center.md). |
+| 11 november 2020 | Een onderwerp toegevoegd op [Het schatten van de verbindingsgrootte](/help/connections/estimate-connection-size.md). |
 | 10 november 2020 | Een sectie toegevoegd over de gevolgen van het verwijderen van gegevenscomponenten aan [FAQ](/help/getting-started/cja-faq.md). |
 | 2 november 2020 | Updates voor de [pagina Customer Journey Analytics-functieondersteuning](/help/getting-started/cja-aa.md). |
 | 7 oktober 2020 | Een onderwerp toegevoegd op [gecombineerde gebeurtenisdatasets](/help/connections/combined-dataset.md). |
