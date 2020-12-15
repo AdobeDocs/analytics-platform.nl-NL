@@ -15,9 +15,9 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt PDF/CSV-projecten beheren, delen en plannen voor ontvangers in uw organisatie in de werkruimte **Menu Delen**.
+U kunt PDF/CSV-projecten beheren, delen en plannen met ontvangers in uw organisatie in het menu Delen **Delen**.
 
 | Menuoptie | Beschrijving |
 |---|---|
