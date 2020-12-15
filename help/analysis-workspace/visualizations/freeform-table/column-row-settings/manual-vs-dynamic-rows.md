@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 In Freeform-tabellen kunnen de rijen en kolommen verschillende componentwaarden bevatten. Deze waarden kunnen dynamisch (verandering met tijd) of statisch (veranderen niet met tijd) zijn, afhankelijk van de analyse die u wilt bouwen.
 
@@ -26,7 +26,7 @@ Wanneer u een dimensie in een vrije vormlijst laat vallen, zijn de dynamische ri
 
 Als u bijvoorbeeld de dimensie Browsertype naar de tabel sleept, worden de bovenste dimensie Browsertype weergegeven (bijvoorbeeld Microsoft, Apple, Google, enz.) Hiermee gaat u dynamisch terug naar de tabelrijen. Indien neergezet in een kolom, de hoogste 5 Browser de afmetingspunten van het Type dynamisch terugkeren.
 
-Items voor dynamische afmetingen hebben de optie Rijfilter en doen dit **niet** beschikken over vergrendelings- en X-pictogrammen.
+De dynamische afmetingspunten hebben de optie van de rijfilter, en doen **niet** hebben slot en de pictogrammen van X aanwezig.
 
 ![](assets/dynamic-items.png)
 
@@ -36,12 +36,12 @@ Statische dimensie-items veranderen niet met de tijd; het zijn vaste componenten
 
 Wanneer u handmatig bepaalde componentwaarden (afmetingen, metrisch, segment, datumbereik) in een tabel selecteert en neerzet, is het resultaat een statische lijst met rijen of kolommen. De statische afmetingspunten kunnen ook worden gecreeerd als u verkiest:
 
-* Van rijen, klik met de rechtermuisknop > [!UICONTROL Display only selected rows]
-* Van kolommen, klik met de rechtermuisknop > [!UICONTROL Make item static]
+* Vanuit rijen klikt u met de rechtermuisknop > [!UICONTROL Display only selected rows]
+* Klik met de rechtermuisknop > [!UICONTROL Make item static] in kolommen
 
 Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft en Apple, worden die twee specifieke items altijd in de tabel geplaatst.
 
-Statische dimensie-items doen dit **niet** hebben de optie Rijfilter. In plaats daarvan worden op elk item de pictogrammen Vergrendelen en X weergegeven. Klik op het X-pictogram om dat dimensie-item uit de tabel te verwijderen.
+De statische afmetingspunten hebben **not** de optie van de rijfilter. In plaats daarvan worden op elk item de pictogrammen Vergrendelen en X weergegeven. Klik op het X-pictogram om dat dimensie-item uit de tabel te verwijderen.
 
 ![](assets/static-items.png)
 
@@ -56,5 +56,5 @@ Items van het type Dimension van verschillende afmetingen kunnen aan dezelfde ta
 Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
 
 * Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde cijfers zoals bezoeken of bezoekers
-* Statische rijen worden als client samengevoegd en wel **niet** deduplicatie van metingen. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Totaal-generaal tonen**. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Statische rijen worden als client-side opgeteld en doen **niet** de-duplicate metriek. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Groot totaal tonen**. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
 
