@@ -1,6 +1,6 @@
 ---
-title: Overzicht datumbereiken
-description: Leer welke datumwaaiers zijn en hoe u hen in rapportering kunt gebruiken.
+title: Overzicht van datumbereiken
+description: Leer welke datumbereiken zijn en hoe u deze kunt gebruiken in rapporten.
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -10,12 +10,12 @@ ht-degree: 1%
 ---
 
 
-# Overzicht datumbereiken
+# Overzicht van datumbereiken
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-De waaiers van de datum zijn een type van component u in de projecten van de Werkruimte kunt gebruiken. Zij staan u toe om gegevens te zien die in tijd worden trended of wanneer de gebeurtenissen het meest gebeuren. De waaiers van de datum zijn kleur-gecodeerde paars.
+Datumbereiken zijn een type component dat u kunt gebruiken in Workspace-projecten. Ze stellen u in staat om gegevens te zien die in de loop der tijd trended zijn of om te zien wanneer gebeurtenissen het meest voorkomen. Datumbereiken zijn paars met kleurcodes.
 
-De de datumwaaiers van de douane staan u toe om de data aan te passen u in de projecten van de Werkruimte ziet. Gebruik de Datumbereikmanager om [beheren](manage.md) of [creëren](create.md) aangepaste datumbereiken.
+Met aangepaste datumbereiken kunt u de datums aanpassen die u in Workspace-projecten ziet. Gebruik de manager van de waaier van de Datum aan [beheer](manage.md) of [creeer](create.md) aangepaste datumwaaiers.
