@@ -1,5 +1,5 @@
 ---
-description: Laat u user-defined tekst aan uw Werkruimte toevoegen.
+description: Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte.
 title: Tekst
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
@@ -15,17 +15,17 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Laat u user-defined tekst aan uw Werkruimte toevoegen.
+Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte.
 
-U kunt de lettertypemontages wijzigen (vet, cursief, enz.) en voeg hyperlinks toe in het tekstvak visualisaties en beschrijvingen van deelvenster/visualisatie.
+U kunt de lettertype-instellingen wijzigen (vet, cursief, enz.) en voeg hyperlinks toe in de visualisaties van het tekstvak en in de beschrijvingen van het deelvenster en de visualisatie.
 
-## Lettertypemontages wijzigen {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+## Lettertype-instellingen wijzigen {#section_32727EE03FD04A8EB1D1B387DCAF6537}
 
 ![](assets/rich-text1.png)
 
-Na het slepen van een tekstvisualisatie in een paneel en het toevoegen van tekst, kunt u de tekst formatteren door rubriekniveaus toe te voegen, de tekst vet/cursief/onderstreep te veranderen, tekstkleur te veranderen, enz.
+Nadat u een tekstvisualisatie naar een deelvenster hebt gesleept en tekst hebt toegevoegd, kunt u de tekst opmaken door kopniveaus toe te voegen, de tekst vet/cursief/onderstreept te wijzigen, de tekstkleur te wijzigen, enzovoort.
 
 ## Hyperlinks toevoegen {#section_D55B857188A74A06B49006DF3511DC7C}
 
