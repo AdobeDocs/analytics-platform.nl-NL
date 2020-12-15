@@ -14,8 +14,8 @@ ht-degree: 29%
 
 Componenten zijn functies in Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
 
-1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) je Adobe ID-gebruikersgegevens gebruiken.
-2. Navigeren naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
+1. Meld u met uw Adobe ID-gegevens aan bij [analytics.adobe.com](https://analytics.adobe.com).
+2. Navigeer naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
 
 U kunt de volgende componenten beheren:
 
@@ -28,11 +28,11 @@ U kunt de volgende componenten beheren:
 
 De componenten in Analysis Workspace bestaan uit metriek, dimensies, segmenten, en tijdgranulariteit die u op een project kunt slepen-en-neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
 
-Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Als u het deelvenster Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen deelvensters (Leeg paneel, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md) of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) deelvenster), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) en Componenten met behulp van de pictogrammen voor de linkerspoorstaaf of met [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
-Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project.
+Zie [Een project](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project tot stand brengen.
 
 ## Componenthandelingen
 
