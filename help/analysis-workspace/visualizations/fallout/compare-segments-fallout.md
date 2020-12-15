@@ -1,5 +1,5 @@
 ---
-description: U kunt segmenten van een touchpoint tot stand brengen, segmenten toevoegen als touchpoint, en zeer belangrijke werkschema's over diverse segmenten in de Werkruimte van de Analyse vergelijken.
+description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
@@ -12,55 +12,55 @@ ht-degree: 1%
 ---
 
 
-# Filters toepassen in de valanalyse
+# Filters toepassen in falloutanalyse
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt filters van een touchpoint tot stand brengen, segmenten toevoegen als touchpoint, en zeer belangrijke werkschema&#39;s over diverse filters in de Werkruimte van de Analyse vergelijken.
+U kunt filters van een aanraakpunt tot stand brengen, segmenten toevoegen als aanraakpunt, en zeer belangrijke werkschema&#39;s over diverse filters in Analysis Workspace vergelijken.
 
 >[!IMPORTANT]
 >
->De filters die als controlepunten in Uitval worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de visualisatie van de Uitloop is. Met een bezoeker-contextUitval, moeten de filters die als controlepunten worden gebruikt bezoek of op slag-gebaseerde filters zijn. Met een bezoek-contextUitval, moeten de filters die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, zal de fall-out 100% zijn. Wij hebben een waarschuwing aan de visualisatie van de Uitloop toegevoegd die zal tonen wanneer u een onverenigbare filter als touchpoint toevoegt. Bepaalde ongeldige combinaties van filtercontainers zullen tot ongeldige diagrammen van de Uitloop, zoals leiden:
+>Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Met een bezoek-contextVallout, moeten de filters die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
 
-* Het gebruiken van een op bezoeker-gebaseerd filter als touchpoint binnen een bezoeker-contextVallout visualisatie
-* Het gebruiken van een op bezoeker-gebaseerd filter als touchpoint binnen een bezoek-contextVallout visualisatie
-* Het gebruiken van een op bezoek-Gebaseerd filter als touchpoint binnen een bezoek-contextVallout visualisatie
+* Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
+* Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie
+* Een op bezoek gebaseerd filter gebruiken als aanraakpunt binnen een visualisatie van de &quot;visit-context&quot;
 
-## Creeer een filter van een touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Een filter maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Creeer een filter van een specifiek touchpoint dat u in bijzonder geinteresseerd bent en dat nuttig zou kunnen zijn om op andere rapporten van toepassing te zijn. U doet dit door het touchpoint met de rechtermuisknop aan te klikken en te selecteren **[!UICONTROL Create filter from touchpoint]**.
+1. Maak een filter vanuit een specifiek aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create filter from touchpoint]** te selecteren.
 
    ![](assets/segment-from-touchpoint.png)
 
-   De ontwerper van de Filter opent, pre-bevolkt met de pre-gebouwde opeenvolgende filter die touchpoint aanpast u selecteerde:
+   De Filterbouwer wordt geopend en wordt vooraf gevuld met het vooraf gebouwde opeenvolgende filter dat overeenkomt met het geselecteerde aanraakpunt:
 
    ![](assets/segment-builder.png)
 
 1. Geef het filter een titel en een beschrijving en sla het op.
 
-   U kunt deze filter in om het even welk project nu gebruiken u wenst.
+   U kunt dit filter nu gebruiken in elk project dat u wilt.
 
-## Voeg een filter als touchpoint toe {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Een filter toevoegen als aanraakpunt {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Als u wilt zien, bijvoorbeeld, hoe uw gebruikers in de VS trends en de gevolgen voor de uitval, sleept u gewoon het filter van de Amerikaanse gebruikers naar de uitval:
+Als u bijvoorbeeld wilt zien hoe uw gebruikers in de VS zich ontwikkelen en de neerslag beïnvloeden, sleept u de gebruikers in de VS naar de uitval:
 
 ![](assets/segment-touchpoint.png)
 
-Of u kunt een EN touchpoint tot stand brengen door het de gebruikersfilter van de V.S. op een ander controlepunt te slepen.
+U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikersfilter naar een ander controlepunt te slepen.
 
-## Vergelijk filters in uitval {#section_E0B761A69B1545908B52E05379277B56}
+## Filters vergelijken in fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-U kunt een onbeperkt aantal filters in de visualisatie van de Uitloop vergelijken.
+U kunt een onbeperkt aantal filters vergelijken in de Fallout-visualisatie.
 
-1. Selecteer de segmenten die u wilt vergelijken met de [!UICONTROL Filter] de trein links. In ons voorbeeld, hebben wij 2 segmenten geselecteerd: Gebruikers in de VS en gebruikers buiten de VS.
-1. Sleep hen in de dalingsstreek van de Filter bij de bovenkant.
+1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Filter]-rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Sleep ze naar de neerzetzone van het filter bovenaan.
 
    ![](assets/segment-drop.png)
 
-1. Optioneel: U kunt &quot;Alle Bezoeken&quot;als standaardcontainer houden of het schrappen.
+1. Optioneel: U kunt &quot;Alle Bezoekopdrachten&quot; als de standaardcontainer behouden of verwijderen.
 
    ![](assets/seg-compare.png)
 
-1. U kunt de uitval over de twee filters nu vergelijken, zoals waar één filter een andere overtreft, of andere inzichten.
+1. U kunt nu de fallout vergelijken over de twee filters, zoals waar het ene filter het andere overtreft, of andere inzichten.
