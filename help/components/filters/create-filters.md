@@ -16,11 +16,11 @@ De Filterbouwer verstrekt een canvas om metriek, afmetingen, filters, en gebeurt
 
 U kunt onmiddellijk filters tot stand brengen door om het even welk componententype (afmeting, afmetingpunt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de gebied van de filterdaling bij de bovenkant van een paneel te laten vallen.
 
-Componenttypen worden automatisch omgezet in filters. U kunt ook op het plusteken (+) klikken in het dialoogvenster **[!UICONTROL Add Filter]** dropbox.
+Componenttypen worden automatisch omgezet in filters. U kunt ook op het plusteken (+) klikken in het dropvak **[!UICONTROL Add Filter]**.
 
 Houd er rekening mee dat:
 
-* U **kan** Zet de volgende componenttypen neer in de filterzone: berekende metriek en afmetingen/metriek waarvan u geen filters kunt bouwen.
+* U **kunt niet** de volgende componenttypen in de filterzone neerzetten: berekende metriek en afmetingen/metriek waarvan u geen filters kunt bouwen.
 * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39; raakfilters. Voorbeelden: &quot;Druk op de plaats waar eVar1 bestaat&quot; of &quot;druk op de plaats waar event1 bestaat&quot;.
 * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze correct wordt behandeld.
 
@@ -43,9 +43,9 @@ Er zijn verschillende andere methoden voor het toepassen van filters op een proj
 
 | Handeling | Beschrijving |
 |--- |--- |
-| Filter van selectie maken | Maak een inlinefilter. Selecteer rijen, klik met de rechtermuisknop op de selectie en maak vervolgens een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
-| Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [Filter Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over filteren. |
-| Delen > Project delen of Delen > Projectgegevens krommen | In [Curven en delen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
+| Filter van selectie maken | Maak een inlinefilter. Selecteer rijen, klik met de rechtermuisknop op de selectie en maak vervolgens een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klik *Filter maken van selectie*. |
+| Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [De Bouwer van de filter](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over het filtreren. |
+| Delen > Project delen of Delen > Projectgegevens krommen | In [Curate en Delen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de filters die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
 | Filters gebruiken als afmetingen | Video: Filters gebruiken als Dimension in Analysis Workspace |
 
 >[!VIDEO](https://video.tv.adobe.com/v/23974)
