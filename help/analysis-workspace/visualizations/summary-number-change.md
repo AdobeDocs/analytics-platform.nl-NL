@@ -15,9 +15,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-## Visualisatie overzichtsaantal {#summary-number}
+## Visualisatie van samenvattingsnummer {#summary-number}
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
 
@@ -28,7 +28,7 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 
 ![Samenvattingsnummer](assets/summary-number.png)
 
-Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek om de Summiere montages van het Aantal te vormen:
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingsnummer te configureren:
 
 | Instelling | Definitie |
 |--- |--- |
@@ -37,9 +37,9 @@ Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek
 | Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
 | Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
 
-## Visualisatie overzichtswijziging {#summary-change}
+## Visualisatie van overzichtswijziging {#summary-change}
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door worden gecontroleerd [polariteit aangepaste gebeurtenis](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrieke waarde [Toon Opwaartse trend als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie.
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [de polariteit van de douanegebeurtenis ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrische [Toon de Naar boven optie als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
@@ -52,7 +52,7 @@ Deze visualisatie werkt op de volgende manieren:
 
 ![Samenvattingswijziging](assets/summary-change.png)
 
-Klik op de knop **Visualisatie-instellingen** Wijs in het hoogste recht aan om de Summiere montages van de Verandering te vormen:
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingswijziging te configureren:
 
 | Instelling | Definitie |
 |--- |--- |
