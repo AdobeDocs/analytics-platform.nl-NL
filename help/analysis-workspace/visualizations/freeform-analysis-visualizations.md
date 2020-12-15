@@ -39,7 +39,7 @@ Videozelfstudie: [Visualisatietypen in Analysis Workspace](https://docs.adobe.co
 
 ## Deelvenster Visualisaties {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Klik op **[!UICONTROL Visualizations]** in het linkerspoor.
+Als u het deelvenster Visualisaties wilt weergeven, klikt u op **[!UICONTROL Visualizations]** in de linkertrack.
 
 ![Stap Resultaat](assets/visualizations.png)
 
@@ -47,11 +47,11 @@ De meeste visualisatietypen (zoals Vlak, Bar, Donut en Lijngrafieken) zijn u bek
 
 ## Visualisatie-instellingen {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Toegang tot [!UICONTROL Visualization Settings], sleep een visualisatie naar de [!UICONTROL Freeform Panel]klikt u op de knop [!UICONTROL Visualization Settings] tandwielpictogram.
+Als u [!UICONTROL Visualization Settings] wilt openen, sleept u een visualisatie naar [!UICONTROL Freeform Panel] en klikt u op het tandwielpictogram [!UICONTROL Visualization Settings].
 
 >[!IMPORTANT]
 >
->Welke visualisatie-instellingen zichtbaar zijn, is afhankelijk van de visualisatie. Niet alle instellingen zijn van toepassing op alle visualisaties. Bovendien worden enkele geavanceerde instellingen weergegeven **alleen** voor specifieke visualisaties, zoals de [Histograminstellingen](/help/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Welke visualisatie-instellingen zichtbaar zijn, is afhankelijk van de visualisatie. Niet alle instellingen zijn van toepassing op alle visualisaties. Bovendien worden sommige geavanceerde instellingen **alleen** weergegeven voor specifieke visualisaties, zoals de [Histograminstellingen](/help/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -66,13 +66,13 @@ Toegang tot [!UICONTROL Visualization Settings], sleep een visualisatie naar de 
 | Dual Axis weergeven | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. |
 | Anomalies tonen | Verbetert lijngrafieken en vrije-vormlijsten om gegevensanomalieën te tonen. |
 
-## Visueel pictogram maken {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Visueel pictogram {#section_9C11D9DEDC42413AA53E69A71A509DFC} maken
 
-Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op de knop **[!UICONTROL Create Visual]** in een tabelrij. Dit pictogram wordt weergegeven wanneer u de muisaanwijzer op de tabelrij plaatst. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld maximaal drie segmenten hebt geselecteerd, wordt een Venn-diagram gemaakt. Voor meer dan 3 segmenten, zal het tot een staafgrafiek leiden. Voor andere typen gegevens kan er een lijngrafiek worden gemaakt, enzovoort.
+Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij. Dit pictogram wordt weergegeven wanneer u de muisaanwijzer op de tabelrij plaatst. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld maximaal drie segmenten hebt geselecteerd, wordt een Venn-diagram gemaakt. Voor meer dan 3 segmenten, zal het tot een staafgrafiek leiden. Voor andere typen gegevens kan er een lijngrafiek worden gemaakt, enzovoort.
 
 ![](assets/create-visual.png)
 
-## Klikken met rechtermuisknop op visualisatie/deelvenstermenu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Klik met de rechtermuisknop op visualisatie/deelvenstermenu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Instellingen die contextueel zijn ten opzichte van een grafiek, zijn toegankelijk wanneer u met de rechtermuisknop klikt naast een visualisatie- of deelvensterkop. Enkele of alle volgende instellingen zijn beschikbaar:
 
@@ -92,11 +92,11 @@ Instellingen die contextueel zijn ten opzichte van een grafiek, zijn toegankelij
 | Visualisatiekoppeling ophalen | Hiermee kunt u deze koppeling kopiëren en delen en anderen rechtstreeks naar deze visualisatie sturen. Gebruikers moeten zich aanmelden. |
 | Opnieuw starten | (Werkt voor stroom, venn, Histogram) Hiermee verwijdert u de configuratie voor de huidige visualisatie en opent u een nieuw deelvenster waarin u het opnieuw kunt configureren. |
 
-## Legenda-labels bewerken {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## Legenda-labels {#section_94F1988CB4B9434BA1D9C6034062C3DE} bewerken
 
 U kunt de namen van reeksen wijzigen in visualisatielanden (Fallout, Gebied, Gebied Gestapeld, Staaf, Stapelde balk, Donut, Histogram, Horizontale balk, Horizontale balk Gestapeld, Lijn, Verspreiden en Venn) om de visuele kwaliteit te verbeteren.
 
-Legenda bewerken doet dit **niet** van toepassing op: Treemap, Opsommingsteken, Samenvattingswijziging of Nummer, Tekst, Vrije vorm, Histogram, Cohort- of Flow-visualisaties.
+Bewerken van legenda is **niet** van toepassing op: Treemap, Opsommingsteken, Samenvattingswijziging of Nummer, Tekst, Vrije vorm, Histogram, Cohort- of Flow-visualisaties.
 
 Als u bijvoorbeeld een legenda-label in een lijndiagram wilt bewerken,
 
@@ -106,6 +106,6 @@ Als u bijvoorbeeld een legenda-label in een lijndiagram wilt bewerken,
    ![](assets/edit-label.png)
 
 1. Voer de nieuwe labeltekst in.
-1. Druk **[!UICONTROL Enter]** om op te slaan.
+1. Druk op **[!UICONTROL Enter]** om op te slaan.
 
-Hier is een [koppelen naar een video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) over dit onderwerp.
+Hier is een [verbinding aan een video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) op dit onderwerp.
