@@ -15,13 +15,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt kiezen of u een project wilt maken van:
 
-* **Leeg project (standaard)**: Zie voor instructies [Een Analysis Workspace-project maken](/help/analysis-workspace/home.md).
+* **Leeg project (standaard)**: Zie Een Analysis Workspace-project [ ](/help/analysis-workspace/home.md)maken voor instructies.
 * **Standaardsjabloon**: Deze sjablonen worden gemaakt door Adobe en worden samen met het product verzonden.
-* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat aan hen de [!UICONTROL Analysis Workspace: Save as Template] toestemming in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de  [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -38,7 +38,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 
    >[!NOTE]
    >
-   >Door gebrek, zijn de projectmalplaatjes zichtbaar aan iedereen in uw organisatie. U kunt ze ordenen door labels toe te passen. (Ga naar **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** om tags en beschrijvingen te bewerken.)
+   >Door gebrek, zijn de projectmalplaatjes zichtbaar aan iedereen in uw organisatie. U kunt ze ordenen door labels toe te passen. (Ga naar **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** om markeringen en beschrijvingen uit te geven.)
 
 ### Handelingen die u kunt uitvoeren op aangepaste sjablonen
 
@@ -46,7 +46,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 
 | Handeling | Beschrijving |
 |--- |--- |
-| Sjabloon bewerken | Hiermee kan een beheerder de sjabloon bewerken door de gegevensbron te wijzigen, componenten, visualisaties, datumbereiken enz. te wijzigen.  Als u een aangepaste sjabloon wilt bewerken,<ul><li>Open de lijst met aangepaste sjablonen in Analysis Workspace, selecteer een sjabloon en klik op Sjabloon bewerken, of</li><li>Navigeer in Analytics naar Componenten > Projecten en filter vervolgens op Sjablonen. Klik op de naam van de sjabloon die u wilt bewerken.</li></ul>**Opmerking:** Nadat u een sjabloon hebt bewerkt, hebt u, afhankelijk van de situatie, twee opties: Opslaan, Opslaan als. Zo verschillen ze:<ul><li>**Opslaan:** Hiermee werkt u de aangepaste sjabloon voor alle gebruikers bij. Wanneer iemand anders een project van dit douanemalplaatje creeert, zullen zij de veranderingen zien u hebt aangebracht.</li><li>**Opslaan als:** Hiermee maakt u een kopie van de aangepaste sjabloon met uw wijzigingen. (U kunt zien dat u in de bewerkingsmodus werkt wanneer het menu-item Delen > Project delen is uitgeschakeld.)</li></ul> |
+| Sjabloon bewerken | Hiermee kan een beheerder de sjabloon bewerken door de gegevensbron te wijzigen, componenten, visualisaties, datumbereiken enz. te wijzigen.  Als u een aangepaste sjabloon wilt bewerken,<ul><li>Open de lijst met aangepaste sjablonen in Analysis Workspace, selecteer een sjabloon en klik op Sjabloon bewerken, of</li><li>Navigeer in Analytics naar Componenten > Projecten en filter vervolgens op Sjablonen. Klik op de naam van de sjabloon die u wilt bewerken.</li></ul>**Opmerking:** Na het bewerken van een sjabloon hebt u, afhankelijk van de situatie, twee opties: Opslaan, Opslaan als. Zo verschillen ze:<ul><li>**Opslaan:** werkt de aangepaste sjabloon voor alle gebruikers bij. Wanneer iemand anders een project van dit douanemalplaatje creeert, zullen zij de veranderingen zien u hebt aangebracht.</li><li>**Opslaan als:** hiermee maakt u een kopie van de aangepaste sjabloon met uw wijzigingen. (U kunt zien dat u in de bewerkingsmodus werkt wanneer het menu-item Delen > Project delen is uitgeschakeld.)</li></ul> |
 | Zoeken op sjablonen | Klik in het dialoogvenster Aangepaste sjablonen op Sjablonen zoeken. |
 | Sjablonen sorteren | U kunt sjablonen alfabetisch sorteren, op relevantie en op aanmaakdatum.  Klik in het dialoogvenster Aangepaste sjablonen op Sorteren: |
 | Tags toepassen op een sjabloon | Open de sjabloon en ga naar Project > Projectinfo &amp; -instellingen. Klik op Codes toevoegen. |
@@ -69,9 +69,9 @@ Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
 Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Zij zijn beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangen het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben.
 
-* **Lesbestand voor training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
+* **Lesbestand training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
 
-* **Lesbestand voor training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse kunt maken voor uw managers, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
+* **Lesbestand training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse kunt maken voor uw managers, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
 
 ### Reclame
 
@@ -79,7 +79,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
 
-* **Betaalde zoekmachines**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
+* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en nog veel meer onderverdeeld.
 
 ### Commerce
 
@@ -98,32 +98,32 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Mobiele sjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Mobiel.
 
-* **Berichten:** Richt zich op in-app en duw overseinenprestaties.
-* **Locatie:** Bevat een Kaart met locatiegegevens.
-* **Belangrijkste cijfers:** Houd een impuls op de belangrijkste metriek van uw app.
-* **Toepassingsgebruik:** Hoeveel gebruikers van apps, lanceert, en lanceert eerst app had, en wat was de gemiddelde zittingslengte?
-* **Overname:** Zie hoe mobiele verwervingskoppelingen werken.
+* **Berichten:** focus op in-app en pushberichten.
+* **Locatie:** bevat een kaart met locatiegegevens.
+* **Belangrijke cijfers:** houd een impuls aan de belangrijkste meetgegevens van uw app.
+* **Toepassingsgebruik:** Hoeveel gebruikers van apps, startende apps en startende apps heeft de app voor het eerst, en wat was de gemiddelde sessielengte?
+* **Overname:** Zie hoe mobiele acquisitie-koppelingen werken.
 * **Prestaties:** Hoe presteert de app en waar hebben gebruikers problemen?
-* **Behoud:** Wie zijn mijn loyale gebruikers en wat doen ze?
+* **Behoud:** Wie zijn mijn loyale gebruikers en wat doen zij?
 * **Reizen:** Wat zijn de opvallende gebruikspatronen voor mijn app?
 
 ### Detailhandel
 
-* **Campagneprestaties:** Welke campagnes drijven de meeste inkomsten?
+* **Campagne Prestaties:** Welke campagnes drijven de meeste opbrengst?
 * **Producten:** Welke producten presteren het beste?
 
 ### Web
 
-* **Overname:** Wat zijn de hoogste verkeersbestuurders aan mijn website?
-* **Inhoudsverbruik:** Wat zijn de beste plaatsen waar mensen op mijn site gaan?
+* **Verwerving:** Wat zijn de belangrijkste verkeersstuurprogramma&#39;s op mijn website?
+* **Inhoudsconsumptie:** Wat zijn de beste plaatsen waar mensen op mijn site naartoe gaan?
 * **Behoud:** Welke soorten gebruikers waarschijnlijk loyale gebruikers van mijn plaats zijn?
-* **Technologie:** Welke technologie gebruiken mensen om tot mijn plaats toegang te hebben?
+* **Technologie:** Welke technologie gebruiken mensen om mijn site te openen?
 
 ### Mensen
 
 >[!NOTE]
 >
->Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
+>Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [het ApparaatCo-op van Adobe Experience Cloud](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
@@ -139,17 +139,17 @@ Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde ver
 
 <!--This content is mirrored in the CDA doc.-->
 
-Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Het is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
+Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
 
-* **Speciale notitie voor leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
-* **Identificatie van de gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
-* **Grootte publiek meten**: Geeft een vergelijking van &#39;Unieke apparaten&#39; in vergelijking met &#39;Mensen&#39;. Het aandeel van deze twee getallen wordt &#39;apparaatcompressie&#39; genoemd, een berekende metrische waarde die zichtbaar is in dit deelvenster. Deze compressiemetrie is afhankelijk van een groot aantal factoren:
-   * **De grafiek Coop of Privé gebruiken**: In het algemeen zien organisaties die het apparaatco-op gebruiken doorgaans betere compressiesnelheden dan organisaties die de persoonlijke grafiek gebruiken.
+* **Bijzondere notitie voor de leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
+* **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
+* **Grootte** publiek meten: Geeft een vergelijking van &#39;Unieke apparaten&#39; in vergelijking met &#39;Mensen&#39;. Het aandeel van deze twee getallen wordt &#39;apparaatcompressie&#39; genoemd, een berekende metrische waarde die zichtbaar is in dit deelvenster. Deze compressiemetrie is afhankelijk van een groot aantal factoren:
+   * **De grafiek** Coop of Privé gebruiken: In het algemeen zien organisaties die het apparaatco-op gebruiken doorgaans betere compressiesnelheden dan organisaties die de persoonlijke grafiek gebruiken.
    * **Aanmeldfrequentie**: Hoe meer gebruikers zich aanmelden op uw site, hoe meer Adobe bezoekers op verschillende apparaten kan identificeren en aanhechten. Sites met een lage aanmeldingsfrequentie hebben ook een lage compressiesnelheid.
    * **Experience Cloud ID-dekking**: Alleen bezoekers met een ECID kunnen worden aangesloten. Een lager percentage bezoekers van uw site met een ECID correleert met lagere compressiesnelheden.
-   * **Meervoudig apparaatgebruik**: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.
-   * **Korreligheid melden**: Compressie per dag is doorgaans kleiner dan compressie per maand of jaar. De kansen voor een individu om veelvoudige apparaten te gebruiken worden kleiner binnen één enkele dag dan over een volledige maand. Het segmenteren, het filtreren, of het gebruiken van breekdimensies kunnen een lagere compressiesnelheid ook tonen.
+   * **Meerdere apparaatgebruik**: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.
+   * **Korreligheid** rapporteren: Compressie per dag is doorgaans kleiner dan compressie per maand of jaar. De kansen voor een individu om veelvoudige apparaten te gebruiken worden kleiner binnen één enkele dag dan over een volledige maand. Het segmenteren, het filtreren, of het gebruiken van breekdimensies kunnen een lagere compressiesnelheid ook tonen.
 * **Op personen gebaseerde segmenten**: Bevat een segmentvervolgkeuzelijst waarmee u apparaatspecifieke gegevens kunt weergeven. In dit deelvenster kunt u beter experimenteren met segmenten om te zien hoe het opnemen of uitsluiten van apparaattypen van invloed is op rapporten.
-* **De reis naar andere apparaten analyseren**: Verstrekt stroom en reserverapporten die op apparatentype worden gebaseerd.
-* **Apparaattoewijzing**: Combineer de functies van Reis IQ en Attribution IQ.
+* **Analyseren van de reis** tussen apparaten: Verstrekt stroom en reserverapporten die op apparatentype worden gebaseerd.
+* **Apparaatattributie**: Combineer de functies van Reis IQ en Attribution IQ.
 * **Overige tips en trucs**: Nuttige onderwerpen rond CDA die u meer uit het gebruiken van het laten komen.
