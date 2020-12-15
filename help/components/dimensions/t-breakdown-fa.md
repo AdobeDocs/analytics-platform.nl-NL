@@ -17,14 +17,14 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
 U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s bouwen met relevante metrics, dimensies, segmenten, tijdlijnen en andere uitsplitsingswaarden voor de analyse.
 
-1. [Een project maken](/help/analysis-workspace/home.md) met een datatabel.
-1. Klik in de gegevenstabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
+1. [Maak een ](/help/analysis-workspace/home.md) project met een gegevenstabel.
+1. Klik in de datatabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Stap Resultaat](assets/fa_data_table_actions.png)
 
@@ -44,6 +44,6 @@ U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s
 
 ## Toewijzingsmodellen toepassen op uitsplitsingen
 
-Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat op een indeling is toegepast, plaatst u de muisaanwijzer boven het indelingsmodel en klikt u op **[!UICONTROL Edit]**:
+Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat is toegepast op een indeling, beweegt u de muisaanwijzer over het splitsingsmodel en klikt u op **[!UICONTROL Edit]**:
 
 ![Onderbrekingsinstellingen](assets/breakdown_settings.png)
