@@ -1,5 +1,5 @@
 ---
-description: Leer over vrije vormpanelen
+description: Meer informatie over vrije-vormvensters
 title: Deelvenster Vrije vorm
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Een paneel Freeform is een leeg paneel met een vrije vormlijst inbegrepen als beginnende staat.
+Een deelvenster Vrije vorm is een leeg deelvenster met een vrije-vormentabel als begintoestand.
 
 ![](assets/freeform-panel.png)
 
