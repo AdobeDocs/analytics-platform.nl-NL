@@ -1,5 +1,5 @@
 ---
-description: De visualisatie van de Venn laat u binnen tot 3 segmenten (van Componenten) en metrisch slepen om een diagram van de Venn te bouwen.
+description: Met de Venn-visualisatie kunt u maximaal drie segmenten (van Componenten) en één metrisch slepen om een Venn-diagram te maken.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 translation-type: tm+mt
@@ -15,19 +15,19 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-De visualisatie van de Venn laat u binnen tot 3 segmenten (van Componenten) en metrisch slepen om een diagram van de Venn te bouwen.
+Met de Venn-visualisatie kunt u maximaal drie segmenten (van Componenten) en één metrisch slepen om een Venn-diagram te maken.
 
 ![](assets/venn.png)
 
-U kunt dan over de segmenten hangen om meer inzicht in percentages, enz. te verkrijgen.
+U kunt de muisaanwijzer op de segmenten plaatsen om meer inzicht te krijgen in percentages, enzovoort.
 
 ![](assets/venn_hover.png)
 
-Om het diagram van de Venn in een Freeform lijst te veranderen, klik de gekleurde punt naast **[!UICONTROL Venn]** koptekst en selecteer **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]**.
+Als u het Venn-diagram wilt omzetten in een tabel voor vrije vorm, klikt u op de gekleurde punt naast de koptekst **[!UICONTROL Venn]** en selecteert u **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]**.
 
-Om het diagram van de Venn (neem de grootte uit het) te normaliseren, ga naar zijn pictogram van de Montages van de Visualisatie en selecteer **[!UICONTROL Normalization]**.
+Als u het Venn-diagram wilt normaliseren (de grootte hiervan wilt wegnemen), gaat u naar het pictogram Visualisatie-instellingen en selecteert u **[!UICONTROL Normalization]**.
 
 ![](assets/normalization.png)
 
