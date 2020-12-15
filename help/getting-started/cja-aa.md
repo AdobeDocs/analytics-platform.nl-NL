@@ -29,10 +29,10 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
 | Datumvergelijkingen | Volledige ondersteuning |
-| Virtuele rapportsuites | Wordt nu aangeroepen [Gegevens](/help/data-views/create-dataview.md). |
+| Virtuele rapportsuites | Wordt nu [Gegevensweergaven](/help/data-views/create-dataview.md) genoemd. |
 | VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
 | Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
-| GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Experience Platform] - CJA neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
+| GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Experience Platform] wordt behandeld - CJA erft welke gegevensveranderingen [!UICONTROL Experience Platform] aan onderliggende datasets maakt. |
 | Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of maateenheden bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
 
 ## Ondersteund met caveats
@@ -53,12 +53,12 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| Analysis Workspace-afmetingen buiten de box (zoals browsertype, Type referentie, Marketingkanalen, Nummer bezoek, enz.) | CJA biedt deze afmetingen niet native. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie over de door ADC ondersteunde analytische variabelen](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
+| Analysis Workspace-afmetingen buiten de box (zoals browsertype, Type referentie, Marketingkanalen, Nummer bezoek, enz.) | CJA biedt deze afmetingen niet native. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop analysevariabelen worden ondersteund via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
 | Merchandising-eVars | Merchandising eVars zal slechts met op ADC-Gebaseerde datasets werken tenzij zij strikt aan het zelfde XDM schema (gelijkend op de beperkingen van de productlijst hierboven) in overeenstemming zijn. |
-| Bot filteren | Voor gegevenssets op basis van de analytische gegevensconnector (ADC) wordt beide filters toegepast. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
+| Bot filteren | Voor gegevenssets op basis van de analytische gegevensconnector (ADC) wordt beide filters toegepast. De algemene binaire filterlogica voor andere datasets wordt niet uitgevoerd door [!UICONTROL Experience Platform] of CJA. |
 | Verwerkingsregels | Voor op ADC-Gebaseerde datasets, worden de verwerkingsregels nog toegepast. |
-| Identiteitsinstellingen voor meerdere apparaten | Klanten zijn beperkt tot &quot;eenmalige&quot; sites van de gegevens via Query Service, of moeten deze logica momenteel toepassen op gegevens voordat [!UICONTROL Experience Platform] gegevensinvoer. |
+| Identiteitsinstellingen voor meerdere apparaten | Klanten zijn beperkt tot &quot;eenmalige&quot; sites van de gegevens via Query Service, of moeten deze logica momenteel toepassen op gegevens voordat [!UICONTROL Experience Platform] gegevens worden ingevoerd. |
 
 ## Momenteel niet ondersteund, maar gepland
 
@@ -101,6 +101,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 * Doelstellingen voor rapporten en analyses
 * Gebeurtenissen van de agenda voor rapporten en analyses
 * Ad Hoc Analysis
-* Rapportage Data Warehouse - [!UICONTROL Experience Platform Query Service] wordt de nieuwe interface voor deze gebruiksgevallen in CJA.
+* Rapportage van de Data Warehouse - [!UICONTROL Experience Platform Query Service] zal de nieuwe interface voor deze gebruiksgevallen in CJA zijn.
 * Mobiele services
 * Gegevensfeeds
