@@ -1,6 +1,6 @@
 ---
-title: Gebruiksscenario's voor reisanalyse van klanten
-description: Gebruiksscenario's voor reisanalyse van de klant
+title: Customer Journey Analytics-gebruik
+description: Gebruik hoofdletters/kleine letters voor Customer Journey Analytics
 translation-type: tm+mt
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 workflow-type: tm+mt
@@ -10,13 +10,13 @@ ht-degree: 0%
 ---
 
 
-# Gebruiksscenario&#39;s voor reisanalyse van klanten
+# Customer Journey Analytics-gebruik
 
-De Analyse van de Reis van de klant laat de volgende belangrijkste gebruiksgevallen toe:
+Customer Journey Analytics laat de volgende zeer belangrijke gebruiksgevallen toe:
 
-* **Bekijk de klant in een reiscontext**: U kunt gegevens bekijken en analyseren opeenvolgend, overspannend veelvoudige kanalen. De gegevens van call centre, punt-van-verkoop systemen, en online eigenschappen kunnen in één enkele rapporteringsmening worden gecombineerd.
-* **Iedereen inzichten ter beschikking stellen**: Laat de toegang tot gegevens democratiseren en meer mensen zakelijke beslissingen nemen met op gegevens gebaseerde inzichten. Iedereen in de organisatie met verantwoordelijkheid voor om het even welk aspect van de klantenervaring kan echte besluiten sneller nemen, die op vollediger gegevens worden gebaseerd.
-* **Profiteer van de kracht van de gegevenswetenschap voor uw analisten**: De Analyse van de Reis van de klant laat normale mensen gegevenswetenschap gebruiken om diepe inzichten en analyse te openen.
-* **Visualiseer en maak met uw datasets interactie aan gebruikend ad hoc rapportering**: De werkruimte kan om het even welke dataset van het Platform van de Ervaring van Adobe gebruiken dat met sommige basisregels in overeenstemming is.
-* **Niet-webgegevens bekijken**: De werkruimte is niet meer beperkt tot een starre definitie van een &quot;hit&quot; of &quot;event&quot;. De schema&#39;s van de douane staan volledige controle over gegevens en definities toe.
-* **Verbeter de controle over uw gegevensmanipulatie**: De gegevens van de verandering u hebt geupload, creëren nieuwe datasets, en voeren hen in Werkruimte in. Het Platform van de Ervaring van Adobe verstrekt het vragen, het halen, het omzetten, en het laden hulpmiddelen door de Dienst van de Vraag van de Wolk van de Ervaring.
+* **Raadpleeg de klant in een reiscontext**: U kunt gegevens opeenvolgend bekijken en analyseren, die veelvoudige kanalen overspannen. Gegevens van callcenter, verkooppuntsystemen en online eigenschappen kunnen worden gecombineerd in één rapportweergave.
+* **Inzichten voor iedereen** beschikbaar maken: De gegevenstoegang van de democratisering en meer mensen laten bedrijfsbesluiten met gegeven-afgeleide inzichten maken. Iedereen in de organisatie met verantwoordelijkheid voor om het even welk aspect van de klantenervaring kan echte besluiten sneller maken, die op volledigere gegevens worden gebaseerd.
+* **Maak gebruik van de kracht van gegevenswetenschap voor uw analisten**: Customer Journey Analytics laat normale mensen data science gebruiken om diepe inzichten en analyse te ontsluiten.
+* **Visualiseer en interactie met uw datasets gebruikend ad hoc rapportering**: De werkruimte kan om het even welke dataset van Adobe Experience Platform gebruiken die aan sommige basisregels in overeenstemming is.
+* **Niet-webgegevens** weergeven: De werkruimte is niet langer beperkt tot een starre definitie van een &#39;hit&#39; of &#39;event&#39;. De schema&#39;s van de douane staan volledige controle over gegevens en definities toe.
+* **Meer controle over het manipuleren** van gegevens: De gegevens van de verandering u hebt geupload, creeert nieuwe datasets, en voert hen in Werkruimte in. Adobe Experience Platform biedt hulpprogramma&#39;s voor het opvragen, extraheren, transformeren en laden via de Experience Cloud Query Service.
