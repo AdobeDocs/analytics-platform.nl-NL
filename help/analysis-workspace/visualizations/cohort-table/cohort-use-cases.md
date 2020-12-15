@@ -1,5 +1,5 @@
 ---
-description: Gebruik voorbeelden voor cohortanalyse.
+description: Gebruik voorbeelden van hoofdletters en kleine letters voor cohortanalyse.
 keywords: Analysis Workspace
 title: Gebruiksgevallen van cohortanalyse
 topic: Reports and analytics
@@ -13,60 +13,60 @@ ht-degree: 0%
 ---
 
 
-# [!UICONTROL Cohort Analysis] gebruiksgevallen
+# [!UICONTROL Cohort Analysis] use cases
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Gebruik voorbeelden voor voorbeelden voor [!UICONTROL Cohort Analysis].
+Gebruik voorbeelden van hoofdletters en kleine letters voor [!UICONTROL Cohort Analysis].
 
-## Gebruiksscenario voor service met app
+## Gebruiksscenario voor betrokkenheid van apps
 
-Veronderstel dat u wilt analyseren hoe de gebruikers die uw app installeren met het in tijd in dienst nemen. Installeer het en gebruik het nooit? Gebruiken ze het een tijdje en vallen ze dan weg? Of blijven ze in de loop der tijd betrokken?
+Stel dat u wilt analyseren hoe gebruikers die uw app installeren er na verloop van tijd mee werken. Installeren ze het en gebruiken ze het nooit? Hebben ze het een tijdje gebruikt en vallen ze dan weg? Of blijven ze in de loop der tijd betrokken?
 
-U kunt een [!UICONTROL Cohort Analysis]:
+U kunt een [!UICONTROL Cohort Analysis] van zes maanden tot stand brengen:
 
-**Granulariteit**: Maandelijks, van januari 2015 tot en met juni 2015.
+**Korreligheid**: Maandelijks, van januari 2015 tot en met juni 2015.
 
-**Inclusiemetrisch**: App Installs.
+**Inclusiemetrisch**: App-installaties.
 
-**Metrisch rendement**: Sessies of lanceringen
+**Metrisch** retourneren: Sessies of Launches
 
-Bezoekers tellen niet mee *`engaged`* in de daaropvolgende maanden, tenzij zij een sessie hebben of ten minste de app starten. [!UICONTROL Cohort Analysis] dan zou u patronen in gebruik tonen waar *`App Install`* komt altijd voor op Maand 0. U zou kunnen opmerken dat de gebruiksonderbreking in Maand 2, ongeacht wanneer de gebruikers app installeerden. (Voor degenen die de app in januari 2015 hebben geïnstalleerd, is maand 2 maart 2015. Voor degenen die de app in februari 2015 hebben geïnstalleerd, is maand 2 april 2015, etc.) Met deze analyse kunt u een e-mail of een push-bericht naar alle gebruikers sturen in de tweede maand nadat ze de app hebben geïnstalleerd, zodat ze eraan kunnen herinneren dat ze de app moeten gebruiken.
+Bezoekers tellen de volgende maanden niet als *`engaged`* mee, tenzij ze een sessie hebben of de app ten minste starten. [!UICONTROL Cohort Analysis] toont u dan patronen in gebruik waar  *`App Install`* altijd voorkomt op Maand 0. Mogelijk ziet u dat het gebruik in maand 2 wordt onderbroken, ongeacht wanneer gebruikers de app hebben geïnstalleerd. (Voor degenen die de app in januari 2015 hebben geïnstalleerd, is maand 2 maart 2015. Voor degenen die de app in februari 2015 hebben geïnstalleerd, is maand 2 april 2015, enzovoort.) Met deze analyse kunt u een e-mail- of pushbericht naar alle gebruikers sturen tijdens de tweede maand na de installatie van de app om hen eraan te herinneren de app te gebruiken.
 
 ## Gebruiksscenario voor abonnement
 
-U werkt op Adobe.com en biedt een gratis Creative Cloud-abonnement aan. Het doel is voor gebruikers om van de vrije versie aan de 30 dagproefversie of, uiteindelijk, de betaalde versie te bevorderen.
+U werkt op Adobe.com en biedt een gratis Creative Cloud-abonnement aan. Het is de bedoeling dat gebruikers een upgrade uitvoeren van de gratis versie naar de proefversie van 30 dagen of uiteindelijk naar de betaalde versie.
 
-**Granulariteit**: Maandelijks
+**Korreligheid**: Maandelijks
 
-**Inclusiemetrisch**: Link downloaden
+**Inclusiemetrisch**: Koppeling downloaden
 
-**Metrisch rendement**: Betaalde creatieve cloud kopen
+**Metrisch** retourneren: Betaalde Creative Cloud aanschaffen
 
-Dit gebruiken [!UICONTROL Cohort Analysis], kon u bijvoorbeeld zien dat tussen 8% en 10% van de gratis Creative Cloud-gebruikers in de eerste maand na de installatie upgraden, ongeacht wanneer ze zijn geïnstalleerd. 12-15% upgrade in de tweede maand van gebruik. Daarna daalt de verbetering beduidend weg: 4-5% in maand drie, 3-4% in maand vier, en 1-2% in maand vijf.
+Met behulp van [!UICONTROL Cohort Analysis] kunt u bijvoorbeeld zien dat tussen 8% en 10% van de gratis Creative Cloud-gebruikers in de eerste maand na de installatie een upgrade uitvoeren, ongeacht wanneer ze zijn geïnstalleerd. 12-15% verbetering in de tweede maand van gebruik. Hierna wordt de upgrade aanzienlijk minder: 4-5% in maand drie, 3-4% in maand vier, en 1-2% in maand vijf.
 
-Erkennend dat u potentiële klanten in maand drie niet moet verliezen, vestigt u opstelling een e-mailcampagne die wordt ontworpen om in het midden van maand drie aan een steekproef van gebruikers uit te gaan, die een coupon $50 aan gebruikers aanbieden die nog niet hebben bevorderd.
+Erkennend dat u potentiële klanten in maand drie niet moet verliezen, stelde u een e-mailcampagne op die wordt ontworpen om in het midden van maand drie aan een steekproef van gebruikers uit te gaan, die een coupon van $50 aan gebruikers aanbieden die nog niet hebben bevorderd.
 
-Bekijk uw rapport van de cohortanalyse een paar maanden later. Voor cohorten die na de lancering van de campagne zijn gevormd, is de omzetting in betaalde Creative Cloud abonnementen in maand drie gestegen van 4-5% tot 13-14%, resulterend in honderdduizenden dollars per cohort, voor elke maandelijkse cohort die maand drie vanaf dat punt vooruit raakt.
+Neem een paar maanden later contact op met uw rapport over cohortanalyse. Voor cohorten die na de start van de campagne zijn gevormd, is de conversie naar betaalabonnementen voor Creative Cloud in maand drie gestegen van 4-5% naar 13-14%, wat heeft geresulteerd in honderdduizenden dollars per cohort, voor elke maandelijkse cohort die maand drie van dat punt vooruit raakt.
 
-## Complexe Cohort Segmenten gebruiken case
+## Complexe kleurensegmenten gebruiken hoofdletters/kleine letters
 
-Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen gebruikerscohorten te identificeren die u wilt richten, willen ze zeer specifieke cohortgroepen maken. Het augmented gebruiken [!UICONTROL Inclusion] en [!UICONTROL Return] Criteria binnen [!UICONTROL Cohort] De lijsten, kunnen zij enkel de juiste cohortgroeperingen met veelvoudige metriek en segmenten bepalen om ondermaatse klantengroepen te identificeren om hen met bevorderingen en overeenkomsten te richten om het boeken te verhogen.
+Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen van gebruikerscohorten te identificeren om te richten, willen zij zeer specifieke cohortgroepen tot stand brengen. Met behulp van de gewijzigde [!UICONTROL Inclusion]- en [!UICONTROL Return]-criteria in [!UICONTROL Cohort]-tabellen kunnen ze alleen de juiste cohortgroepen definiëren met meerdere maatstaven en segmenten om ondermaatse klantengroepen te identificeren, zodat ze zich kunnen richten op promoties en deals om boekingen te verhogen.
 
-## App Version Adoption-gebruiksscenario
+## Toepassingsversie adoptie-case
 
-Een groot verzekeringsbedrijf drijft een hoop klantenbetrokkenheid door het gebruik van zijn mobiele app. Nochtans, aangezien de nieuwe eigenschappen aan hun app worden toegevoegd, is het kritiek dat hun klanten aan de recentste app versie bevorderen. Zij kunnen elk van hun app versies naast elkaar analyseren en vergelijken gebruikend [!UICONTROL Custom Dimension] Cohort om te zien welke klanten op welke app versie aan doel zijn. Bovendien, kunnen zij zowel behoud als kurn volgen om te zien of drijven de specifieke app versies klanten weg van het gebruiken van app in tijd. Door mobiele overseineninspanningen, kunnen zij met deze gebruikers opnieuw in dienst nemen om hen aan de recentste versie te krijgen om uit hun recentste eigenschappen voordeel te halen.
+Een groot verzekeringsbedrijf drijft veel klantenbetrokkenheid door het gebruik van zijn mobiele app. Als er echter nieuwe functies aan hun app worden toegevoegd, is het van essentieel belang dat hun klanten een upgrade uitvoeren naar de nieuwste app-versie. Ze kunnen al hun app-versies naast elkaar analyseren en vergelijken met behulp van [!UICONTROL Custom Dimension] Cohort om te zien welke klanten de app-versie als doel hebben. Bovendien kunnen ze zowel de retentie als het churn bijhouden om te zien of bepaalde app-versies klanten in de loop der tijd van het gebruik van de app afhouden. Via mobiele communicatie kunnen ze opnieuw contact opnemen met deze gebruikers om ze te laten upgraden naar de nieuwste versie om te profiteren van hun nieuwste functies.
 
-## Campagne Stickiness Use case
+## Campagne Gebruiksscenario
 
-Een multinationaal mediabedrijf maakt gebruik van gerichte campagnes om gebruikers naar hun verschillende platforms te sturen om de betrokkenheid te stimuleren. Advertentie-uitgaven per platform zijn gebaseerd op klantenservice en behoud; succesvolle campagnes zijn dan ook van cruciaal belang voor het succes van hun bedrijf . Ze gebruiken onze nieuwe [!UICONTROL Custom Dimension] Cohortfunctie in [!UICONTROL Cohort] Tabellen om verschillende campagnes naast elkaar te vergelijken om te bepalen welke campagnes het meest effectief zijn bij het aanschaffen en behouden van gebruikers om de betrokkenheid te vergroten. Zij kunnen dan identificeren welke aspecten een campagne succesvol maken en het toepassen op andere campagnes om betrokkenheid over hun diverse platform te verhogen.
+Een multinational in de media gebruikt gerichte campagnes om gebruikers naar hun verschillende platforms te drijven om betrokkenheid te drijven. Advertentie-uitgaven per platform zijn gebaseerd op betrokkenheid en retentie van klanten. succesvolle campagnes zijn dan ook van cruciaal belang voor het succes van hun bedrijf . Ze gebruiken onze nieuwe [!UICONTROL Custom Dimension] codehortfunctie in Tabellen [!UICONTROL Cohort] om verschillende campagnes naast elkaar te vergelijken om te bepalen welke campagnes het meest effectief zijn in het aanschaffen en behouden van gebruikers om de betrokkenheid te vergroten. Vervolgens kunnen zij vaststellen welke aspecten een campagne succesvol maken en deze toepassen op andere campagnes om de betrokkenheid op hun verschillende platform te vergroten.
 
-## Product Gebruiksscenario starten
+## Gebruiksscenario bij starten van product
 
-Een grote kledingdetailhandelaar heeft vele specifieke klantensegmenten die grote delen van opbrengst voor hun zaken drijven. Elk segment heeft specifieke producten die met het segment in mening worden ontworpen en worden gecreeerd. Met elke productlancering, willen zij weten hoe het nieuwe product verkoop aan diverse cohorten in tijd heeft bevorderd. Het nieuwe gebruiken [!UICONTROL Latency Table] instelling in [!UICONTROL Cohort Analysis], kunnen zij het gedrag en de inkomsten van een bepaald klantensegment vóór en na de introductie analyseren. Gebruikend deze informatie, kunnen zij identificeren welke producten nieuwe opbrengst drijven en die geen tractie met klanten krijgen.
+Een grote apparel detailhandelaar heeft vele specifieke klantensegmenten die grote delen van opbrengst voor hun zaken drijven. Elk segment heeft specifieke producten die met het segment in mening worden ontworpen en worden gecreeerd. Bij elke productintroductie willen ze weten hoe het nieuwe product de verkoop aan verschillende cohorten in de loop der tijd heeft gestimuleerd. Met de nieuwe [!UICONTROL Latency Table]-instelling in [!UICONTROL Cohort Analysis] kunnen zij het gedrag en de inkomsten van een bepaald klantensegment vóór en na de introductie analyseren. Op basis van deze informatie kunnen zij vaststellen welke producten nieuwe inkomsten genereren en die geen tractie krijgen met klanten.
 
-## Individuele Stickiness - De meeste Gelofelijke Gebruikers gebruiken case
+## Individuele filiaalheid - De meest geliefde gebruikers gebruiken hoofdletters/kleine letters
 
-Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen vormen hun loyale reizigers de meerderheid van hun inkomsten en is het behouden van die klanten van cruciaal belang voor hun succes op de lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Het gebruik van de nieuwe [!UICONTROL Rolling Calculation] instelling in [!UICONTROL Cohort Analysis], konden zij loyale klantensegmenten analyseren en te weten komen welke reizigers maand-over-maand herhaalde kopers waren. Zij konden deze reizigers dan met beloningen en perken voor hun loyaliteit toespreken. Bovendien, door het type van Cohort van behoud aan kurn te schakelen, konden zij ook identificeren welke klanten niet maand-over-maand herhaalde kopers waren en die segmenten met bevorderingen richten om met hen opnieuw in dienst te nemen en te verzekeren zij loyale klanten in de toekomst blijven.
+Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen zijn hun loyale reizigers het grootste deel van hun inkomsten en het behoud van die klanten van cruciaal belang voor hun succes op lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Met de nieuwe [!UICONTROL Rolling Calculation]-instelling in [!UICONTROL Cohort Analysis] konden ze echter loyale klantsegmenten analyseren en erachter komen welke reizigers maand-op-maand herhaalde kopers waren. Vervolgens konden zij deze reizigers met beloningen en perken voor hun loyaliteit aanspreken. Bovendien, door het type van Cohort van behoud aan churn over te schakelen, konden zij ook identificeren welke klanten niet de maand-over-maand kopers herhaalden en die segmenten richten met bevorderingen om met hen opnieuw in dienst te nemen en ervoor te zorgen dat zij in de toekomst loyale klanten blijven.
