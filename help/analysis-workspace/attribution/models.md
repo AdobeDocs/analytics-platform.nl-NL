@@ -1,6 +1,6 @@
 ---
-title: Attributiemodellen en terugkijkvensters
-description: Hoe verschillende soorten attributie krediet verdelen tussen dimensiepunten.
+title: Attributiemodellen en terugzoekvensters
+description: Hoe verschillende soorten attributie krediet verdelen tussen dimensie-items.
 translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
@@ -10,76 +10,76 @@ ht-degree: 0%
 ---
 
 
-# Attributiemodellen en terugkijkvensters
+# Attributiemodellen en terugzoekvensters
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Het concept attributie in de Analyse van Adobe vereist twee componenten:
+Het attribuutconcept in Adobe Analytics vereist twee componenten:
 
-* **Attributiemodel:** Het model beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
-* **Het terugkijkvenster van de attributen:** Het terugkijkvenster beschrijft welke groeperingen van hits voor elk model worden overwogen. Bijvoorbeeld bezoek of bezoeker.
+* **Attributiemodel:** Het model beschrijft de distributie van conversies naar de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
+* **Het terugkijkvenster van de Attributie:** Het terugkijkvenster beschrijft welke groepen klappen voor elk model worden overwogen. Bijvoorbeeld bezoek of bezoeker.
 
 ## Attributiemodellen
 
-| UI-pictogram | Attributiemodel | Definitie | Wanneer te gebruiken |
+| UI-pictogram | Attributiemodel | Definitie | Wanneer gebruiken |
 | --- | --- | --- | --- |
-| ![Laatste aanraking](assets/last_touch1.png) | Laatste aanraking | Geeft 100% krediet aan het aanrakingspunt dat onlangs voor omzetting voorkomt. | Het meest fundamentele en gemeenschappelijke attributiemodel. Het wordt vaak gebruikt voor omzettingen met een korte bezinningscyclus. Last Touch wordt algemeen gebruikt door teams die zoekmarketing beheren of interne zoektrefwoorden analyseren. |
-| ![Eerste aanraking](assets/first_touch.png) | Eerste aanraking | Geeft 100% krediet aan het aanrakingspunt dat eerst in het de terugkijkvenster van de attributie wordt gezien. | Een ander gemeenschappelijk attributiemodel dat nuttig is voor het analyseren van marketingkanalen die bedoeld zijn om merkbekendheid te geven of klanten aan te schaffen. Het wordt vaak gebruikt door tentoonstellings of sociale marketing teams, maar is ook groot voor het beoordelen van de doeltreffendheid van de onsite productaanbeveling. |
-| ![Zelfde aanraking](assets/same_touch.png) | Zelfde aanraking | Geeft 100% krediet aan de zeer hit waar de conversie plaatsvond. Als een aanrakingspunt niet op de zelfde klap zoals een omzetting gebeurt, wordt het geknipt onder &quot;niets&quot;. | Een nuttig model wanneer het evalueren van de inhoud of de gebruikerservaring die onmiddellijk op het tijdstip van omzetting werd voorgesteld. Product- of ontwerpteams gebruiken vaak dit model om de effectiviteit van een pagina te beoordelen waar conversie plaatsvindt. |
-| ![Lineair](assets/linear.png) | Lineair | Biedt evenveel krediet aan elk aanraakpunt dat wordt gezien voor een conversie. | Nuttig voor conversies met langere evaluatiecycli of gebruikerservaringen die een frequentere klantenservice nodig hebben. Het wordt vaak gebruikt door teams die mobiele app berichtdoeltreffendheid of met op abonnement-gebaseerde producten meten. |
-| ![U-vorm](assets/u_shaped.png) | U-vorm | Geeft 40% krediet aan de eerste interactie, 40% krediet aan de laatste interactie, en verdeelt de resterende 20% aan om het even welke aanrakingspunten binnen. Voor omzettingen met één aanraakpunt, wordt 100% krediet gegeven. Voor omzettingen met twee aanrakingspunten, wordt 50% krediet gegeven aan allebei. | Een goed model voor degenen die interacties waarderen die een omzetting introduceerden of gesloten, maar nog willen het bijstaan van interactie erkennen. U-vormige attributie wordt algemeen gebruikt door teams die een evenwichtiger benadering nemen maar meer krediet aan kanalen willen geven die een omzetting vonden of sluiten. |
-| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Geeft 60% krediet aan de laatste interactie, 20% krediet aan de eerste interactie, en verdeelt de resterende 20% aan om het even welke aanrakingspunten binnen. Voor omzettingen met één aanraakpunt, wordt 100% krediet gegeven. Voor omzettingen met twee aanrakingspunten, wordt 75% krediet gegeven aan de laatste interactie, en wordt 25% krediet gegeven aan de eerste. | Dit model is groot voor degenen die aan vinders en sluiters voorrang geven, maar zich bij het sluiten van interactie willen concentreren. J-vormige attributie wordt vaak gebruikt door teams die een evenwichtiger benadering kiezen en meer krediet willen verlenen aan kanalen die een omzetting sluiten. |
-| ![Inverse J-vorm](assets/inverse_j.png) | Invers J | Geeft 60% krediet aan het eerste aanraakpunt, 20% krediet aan het laatste aanraakpunt, en verdeelt de resterende 20% aan om het even welke aanrakingspunten binnen. Voor omzettingen met één aanraakpunt, wordt 100% krediet gegeven. Voor omzettingen met twee aanrakingspunten, wordt 75% krediet gegeven aan de eerste interactie, en wordt 25% krediet gegeven aan het laatste. | Dit model is ideaal voor degenen die aan vinders en sluiters voorrang geven, maar zich op het vinden van interactie willen concentreren. De omgekeerde eigenschap van J wordt gebruikt door teams die een evenwichtiger benadering kiezen en meer krediet aan kanalen willen geven die een omzetting in werking stelden. |
-| ![Aangepast](assets/custom.png) | Aangepast | Hiermee kunt u het gewicht opgeven dat u wilt geven aan de eerste aanraakpunten, de laatste aanraakpunten en alle tussenliggende aanraakpunten. De gespecificeerde waarden worden genormaliseerd aan 100% zelfs als de ingegane douanenummers niet aan 100 toevoegen. Voor omzettingen met één aanraakpunt, wordt 100% krediet gegeven. Voor interactie met twee aanrakingspunten, wordt de middenparameter genegeerd. De eerste en laatste aanraakpunten worden dan genormaliseerd aan 100%, en de kredieten worden dienovereenkomstig toegewezen. | Dit model is ideaal voor diegenen die volledige controle over hun toewijzingsmodel willen en specifieke behoeften hebben waaraan andere toewijzingsmodellen niet voldoen. |
-| ![Tijdsvertraging](assets/time_decay.png) | Tijd-Verval | Volgt en exponentieel verval met een parameter van de douanehalfwaardetijd, waar het gebrek 7 dagen is. Het gewicht van elk kanaal hangt van de hoeveelheid tijd af die tussen de initiatie van het aanrakingspunt en de uiteindelijke omzetting overging. De formule voor de bepaling van het krediet is `2^(-t/halflife)`, waarbij `t` is de hoeveelheid tijd tussen een aanraakpunt en een conversie. Alle aanraakpunten worden dan genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame maken of op de markt brengen tegen evenementen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
-| ![Deelname](assets/participation.png) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Het totale aantal omzettingen wordt opgepompt in vergelijking met andere toerekeningsmodellen. De participatie dedupliceert kanalen die veelvoudige tijden worden gezien. | Uitstekend om te begrijpen wie vaak aan een bepaalde interactie wordt blootgesteld. De organisaties van media gebruiken vaak dit model om inhoudssnelheid te berekenen. De detailhandelorganisaties gebruiken vaak dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
-| ![Algoritme](assets/algorithmic.png) | [Algoritme](/help/analysis-workspace/attribution/algorithmic.md) | Maakt gebruik van statistische technieken om de optimale allocatie van krediet voor de gekozen maatstaf dynamisch te bepalen. | Handig om giswerk of heuristiek te voorkomen bij het kiezen van het juiste toewijzingsmodel voor uw bedrijf. |
+| ![Laatste aanraking](assets/last_touch1.png) | Laatste aanraking | Geeft 100% krediet aan het aanraakpunt dat het laatst voor de conversie optrad. | Het eenvoudigste en meest gangbare attributiemodel. Het wordt vaak gebruikt voor omzettingen met een korte bezinningscyclus. Last Touch wordt vaak gebruikt door teams die marketingacties voor zoekopdrachten beheren of interne zoektrefwoorden analyseren. |
+| ![Eerste aanraking](assets/first_touch.png) | Eerste aanraking | Biedt 100% krediet aan het aanraakpunt dat het eerst in het terugkijkvenster van de attributie wordt gezien. | Een ander algemeen attributiemodel dat nuttig is voor het analyseren van marketingkanalen die bedoeld zijn om merkbekendheid te geven of klanten aan te trekken. Het wordt vaak gebruikt door display- of sociale marketingteams, maar is ook ideaal voor het beoordelen van de doeltreffendheid van on-site productaanbevelingen. |
+| ![Zelfde aanraking](assets/same_touch.png) | Zelfde aanraking | Verleent 100% krediet aan de klap waar de omzetting plaatsvond. Als een aanraakpunt niet optreedt bij dezelfde druk als bij een conversie, wordt het item ingesloten onder &quot;Geen&quot;. | Een handig model bij het evalueren van de inhoud of gebruikerservaring die direct op het moment van de conversie werd gepresenteerd. Product- of ontwerpteams gebruiken dit model vaak om de doeltreffendheid van een pagina te beoordelen waar conversie plaatsvindt. |
+| ![Lineair](assets/linear.png) | Lineair | Biedt hetzelfde krediet aan elk aanraakpunt dat wordt weergegeven voor een conversie. | Nuttig voor conversies met langere omrekeningscycli of gebruikerservaring die frequentere betrokkenheid van klanten vereisen. Het wordt vaak gebruikt door teams die de doeltreffendheid van meldingen voor mobiele apps meten of met producten op basis van abonnementen. |
+| ![U-vorm](assets/u_shaped.png) | U-vorm | Biedt 40% krediet aan de eerste interactie, 40% aan de laatste interactie, en verdeelt de resterende 20% aan om het even welke aanraakpunten tussenin. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt aan beide een krediet van 50% toegekend. | Een goed model voor degenen die interacties waarderen die een omzetting introduceerden of sluiten, maar nog steeds hulpinteractie willen erkennen. De U-Vormen attributie wordt algemeen gebruikt door teams die een evenwichtigere benadering kiezen maar meer krediet aan kanalen willen geven die gevonden of gesloten een omzetting. |
+| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Geeft 60% krediet aan de laatste interactie, 20% krediet aan de eerste interactie, en verdeelt de resterende 20% aan om het even welke aanraakpunten tussenin. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt 75% aan de laatste interactie besteed en wordt 25% aan de eerste. | Dit model is ideaal voor diegenen die aan vinders en sluiters voorrang geven, maar zich willen concentreren op het sluiten van interacties. De J-Vormen attributie wordt vaak gebruikt door teams die een evenwichtigere benadering kiezen en meer krediet aan kanalen willen geven die een omzetting sluiten. |
+| ![Omgekeerde J-vorm](assets/inverse_j.png) | Omgekeerd J | Biedt 60% krediet aan het eerste aanraakpunt, 20% aan het laatste aanraakpunt en verdeelt de resterende 20% aan de tussenliggende aanraakpunten. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt 75% aan de eerste interactie toegekend en wordt 25% aan de laatste toegekend. | Dit model is ideaal voor diegenen die prioriteit geven aan vinders en sluiters, maar zich willen richten op het zoeken naar interacties. De attributie Inverse J wordt gebruikt door teams die een evenwichtigere benadering kiezen en meer krediet willen geven aan kanalen die een omzetting in gang hebben gezet. |
+| ![Aangepast](assets/custom.png) | Aangepast | Hiermee kunt u de gewichten opgeven die u wilt geven aan de eerste aanraakpunten, de laatste aanraakpunten en de tussenliggende aanraakpunten. De opgegeven waarden worden genormaliseerd naar 100%, zelfs als de ingevoerde aangepaste getallen niet bij 100 komen te liggen. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor interactie met twee aanraakpunten wordt de middelste parameter genegeerd. De eerste en laatste aanraakpunten worden vervolgens genormaliseerd tot 100% en de kredieten worden dienovereenkomstig toegewezen. | Dit model is ideaal voor diegenen die volledige controle over hun attributiemodel willen en specifieke behoeften hebben die andere attributiemodellen niet vervullen. |
+| ![Tijdverlies](assets/time_decay.png) | Verval | Volgt en exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om krediet te bepalen is `2^(-t/halflife)`, waarbij `t` de hoeveelheid tijd tussen een aanraakpunt en een omzetting is. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame of -markten uitvoeren tegen evenementen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
+| ![Deelname](assets/participation.png) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Het totale aantal omzettingen wordt opgevoerd in vergelijking met andere attributiemodellen. De participatie dedupliceert kanalen die veelvoudige tijden worden gezien. | Uitstekend om te begrijpen wie vaak klanten worden blootgesteld aan een bepaalde interactie. Mediaorganisaties gebruiken dit model vaak om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken vaak dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](/help/analysis-workspace/attribution/algorithmic.md) | Gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde maatstaf vast te stellen. | Nuttig om guesswork of heuristiek te voorkomen wanneer u het juiste toewijzingsmodel voor uw bedrijf kiest. |
 
-## Referentievensters
+## Venster opzoeken
 
-Een terugkijkvenster is de hoeveelheid tijd een omzetting zou moeten terugkijken om aanrakingspunten te omvatten. De modellen van de attributen die meer krediet aan eerste interactie geven zien grotere verschillen wanneer het bekijken van verschillende raadplegingsvensters.
+Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken om aanraakpunten op te nemen. Attributiemodellen die meer krediet geven aan de eerste interacties zien grotere verschillen bij het weergeven van verschillende terugkijkvensters.
 
-* **Het terugkijkvenster van het bezoek:** Het kijkt terug naar het begin van een bezoek waar een conversie plaatsvond. De de terugkijkvensters van het bezoek zijn smal, aangezien zij niet voorbij het bezoek kijken. De de raadplegingsvensters van het bezoek respecteren de gewijzigde bezoekdefinitie in virtuele rapportreeksen.
+* **Bezoek het terugkijkvenster:** kijkt terug naar het begin van het bezoek waar een omzetting plaatsvond. De terugkijkvensters van het bezoek zijn smal, aangezien zij niet voorbij het bezoek kijken. De raadplegingsvensters van het bezoek respecteren de gewijzigde bezoekdefinitie in virtuele rapportreeksen.
 
-* **Het terugkijkvenster van de bezoeker:** Bekijk alle bezoeken file tot de 1st van de maand van de huidige datumwaaier. De de terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugblik van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Bijvoorbeeld, als de waaier van de rapportdatum 15 september - september 30 is, omvat de de datumwaaier van de bezoekersraadpleging 1 - september 30.
+* **Het terugkijkvenster van de bezoeker:** Zoekt naar alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugkijker van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
-* **Aangepast terugkijkvenster:** Staat u toe om het attributievenster voorbij de rapporteringsdatumwaaier tot maximaal 90 dagen uit te breiden. De de raadplegingsvensters van de douane worden geëvalueerd op elke omzetting in de rapporteringsperiode. Bijvoorbeeld, voor een omzetting die op 20th feb voorkomt, zou een terugkijkvenster van 10 dagen alle afmetingstouchpoints van 10e tot 20e feb in het attributiemodel evalueren.
+* **Aangepast terugkijkvenster:** Hiermee kunt u het attributievenster buiten het bereik van de rapportdatum uitbreiden tot maximaal 90 dagen. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
 
 >[!NOTE]
 >
->**[!UICONTROL Custom lookback windows]** momenteel in beperkte mate worden getest. Zie [Adobe Analytics-functies](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html) voor meer informatie .
+>**[!UICONTROL Custom lookback windows]** worden momenteel beperkt getest. Zie [Adobe Analytics-functiereleases](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html) voor meer informatie.
 
 ## Voorbeeld
 
-Overweeg het volgende voorbeeld:
+Bekijk het volgende voorbeeld:
 
-1. Op 15 september arriveert een bezoeker via een betaalde zoekadvertentie naar je site, waarna hij vertrekt.
-2. Op 18 september arriveert de bezoeker opnieuw naar je site via een sociale mediablink die hij van een vriend kreeg. Ze voegen verschillende objecten toe aan hun winkelwagentje, maar kopen niets.
-3. Op 24 september stuurt uw marketingteam hen een e-mail met een coupon voor enkele objecten in hun winkelwagen. Zij passen de coupon toe, maar bezoeken verschillende andere plaatsen om te zien of er andere coupons beschikbaar zijn. Ze vinden er een andere via een advertentie, en maken dan uiteindelijk een aankoop voor $50.
+1. Op 15 september arriveert een bezoeker via een betaalde zoekadvertentie naar uw site en verlaat vervolgens zijn site.
+2. Op 18 september arriveert de bezoeker opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
+3. Op 24 september stuurt uw marketingteam hen een e-mail met een coupon voor sommige objecten in hun winkelwagentje. Ze passen de coupon toe, maar gaan naar verschillende andere sites om te zien of er andere coupons beschikbaar zijn. Ze vinden een andere advertentie via een advertentie en kopen uiteindelijk $50.
 
-Afhankelijk van uw terugkijkvenster en attributiemodel, ontvangen de kanalen verschillend krediet. Hieronder volgen enkele opmerkelijke voorbeelden:
+Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanalen verschillende kredieten. Hieronder volgen enkele belangrijke voorbeelden:
 
-* Gebruiken **eerste aanraking** en **terugkijkvenster** De toeschrijving heeft alleen betrekking op het derde bezoek. Tussen e-mail en weergave was e-mail het eerst, dus e-mail krijgt 100% krediet voor de aankoop van $50.
-* Gebruiken **eerste aanraking** en **terugkijkvenster bezoeker** De toeschrijving kijkt naar alle drie de bezoeken. Betaalde zoekopdracht was het eerst, dus krijgt het 100% krediet voor de aankoop van $50.
-* Gebruiken **lineair** en **terugkijkvenster**, wordt het krediet verdeeld over e-mail en weergave. Beide kanalen krijgen elk $25 krediet.
-* Gebruiken **lineair** en **terugkijkvenster bezoeker**, creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale, e-mail- en weergavekredieten. Elk kanaal krijgt $12.50 krediet voor deze aankoop.
-* Gebruiken **J-vormig** en **terugkijkvenster bezoeker**, creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale, e-mail- en weergavekredieten.
-   * Voor $30 wordt 60% krediet aan display gegeven.
-   * Er wordt 20% krediet gegeven voor betaalde zoekopdrachten, voor $10.
-   * De resterende 20% is verdeeld over sociale en e-mail, wat elk $5 oplevert.
-* Gebruiken **Tijdsvertraging** en **terugkijkvenster bezoeker**, creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale, e-mail- en weergavekredieten. Gebruikend de standaard halfwaardetijd van 7 dagen:
-   * Gap van 0 dagen tussen aanraakpunt en conversie van beeldscherm. `2^(-0/7) = 1`
-   * Graad 0 dagen tussen het aanraakpunt per e-mail en de conversie. `2^(-0/7) = 1`
-   * Een kloof van 6 dagen tussen het sociale aanraakpunt en de conversie. `2^(-6/7) = 0.552`
-   * Slag van 9 dagen tussen betaald aanraakpunt en conversie. `2^(-9/7) = 0.41`
+* Met **first touch** en een **visit lookback window**, kijkt de attributie naar slechts het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50.
+* Met behulp van **first touch** en een **bezoekersvenster opzoeken**, bekijkt de attributie alle drie de bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50.
+* Met behulp van **linear** en een **visit lookback window** wordt de creditering verdeeld tussen e-mail en de weergave. Beide kanalen krijgen elk $25 krediet.
+* Met behulp van **linear** en een **terugkijkvenster van bezoekers**, wordt de creditering verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning. Elk kanaal krijgt $12,50 krediet voor deze aankoop.
+* Met behulp van **J-vormig** en een **terugkijkvenster van de bezoeker**, wordt de creditering verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning.
+   * 60% krediet wordt gegeven aan vertoning, voor $30.
+   * 20% krediet wordt gegeven voor betaalde zoekopdrachten, voor $10.
+   * De resterende 20% is verdeeld tussen sociale media en e-mail, wat elk $5 geeft.
+* Met **Tijdverlies** en een **terugkijkvenster van de bezoeker**, wordt de krediet verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning. De standaardhalfwaardetijd van 7 dagen gebruiken:
+   * Tussenruimte van 0 dagen tussen aanraakpunt weergeven en conversie. `2^(-0/7) = 1`
+   * Tussenruimte van 0 dagen tussen aanraakpunt en conversie via e-mail. `2^(-0/7) = 1`
+   * Tussenruimte van 6 dagen tussen sociale aanraakpunten en conversie. `2^(-6/7) = 0.552`
+   * Tussenruimte van 9 dagen tussen betaald aanraakpunt en conversie. `2^(-9/7) = 0.41`
    * Het normaliseren van deze waarden resulteert in het volgende:
       * Weergave: 33,8%, $ 16,88
-      * E-mail: 33,8% krijgt $ 16,88
-      * Sociaal: 18,6%, met $ 9,32
+      * E-mail: 33,8% voor $ 16,88
+      * Sociaal: 18,6%, krijgt $ 9,32
       * Betaalde zoekopdracht: 13,8%, met $ 6,92
 
 >[!NOTE]
 >
->Andere conversiegebeurtenissen, zoals bestellingen of aangepaste gebeurtenissen, worden ook verdeeld als het krediet tot meer dan één kanaal behoort. Bijvoorbeeld, als twee kanalen aan een douanegebeurtenis gebruikend een Lineair attributiemodel bijdragen, krijgen beide kanalen 0.5 van de douanegebeurtenis. Deze gebeurtenisfracties worden samengeteld over alle bezoeken, dan rond gemaakt aan het meest dichtbijgelegen geheel voor rapportering.
+>Andere conversiegebeurtenissen, zoals orders of aangepaste gebeurtenissen, worden ook verdeeld als de kredieten tot meer dan één kanaal behoren. Als twee kanalen bijvoorbeeld via een lineair toewijzingsmodel een bijdrage leveren aan een aangepaste gebeurtenis, krijgen beide kanalen 0,5 van de aangepaste gebeurtenis. Deze gebeurtenisfracties worden bij alle bezoeken opgeteld en vervolgens afgerond naar het dichtstbijzijnde gehele getal voor rapportage.
