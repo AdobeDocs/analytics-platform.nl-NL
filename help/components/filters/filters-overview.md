@@ -19,9 +19,9 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
 >[!IMPORTANT]
->Filters worden in Adobe Analytics &#39;segmenten&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters omdat Adobe Experience Platform [een andere definitie van &quot;segment&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
+>Filters worden in Adobe Analytics &#39;segmenten&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters omdat Adobe Experience Platform [een andere definitie van &quot;segment&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) heeft.
 
-Filteren bevat de opdracht [Filter Builder](/help/components/filters/create-filters.md) om filters te maken en een pretest uit te voeren, en [Filterbeheer](/help/components/filters/manage-filters.md) om filters te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en over uw organisatie te delen.
+Filteren omvat [Filter Builder](/help/components/filters/create-filters.md) om filters te construeren en een pretest in werking te stellen, en [de Manager van de Filter](/help/components/filters/manage-filters.md) om filters over uw organisatie te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en te delen.
 
 ## Opeenvolgende filters
 
