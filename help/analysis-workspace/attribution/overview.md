@@ -14,7 +14,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Attributie geeft analisten de mogelijkheid om aan te passen hoe dimensie-items krediet krijgen voor succesgebeurtenissen. Bijvoorbeeld:
 
@@ -45,6 +45,6 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 Attribution IQ biedt de volgende kenmerken:
 
 * [Kenmerk, deelvenster](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [Kenmerken toepassen op metrisch](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [Toewijzing op een uitsplitsing toepassen](/help/components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
-* [Kenmerkingsmodellen vergelijken](/help/components/apply-create-metrics.md): Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
+* [Kenmerk toepassen op een metrische waarde](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [Toewijzing toepassen op een uitsplitsing](/help/components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
+* [Kenmerkingsmodellen](/help/components/apply-create-metrics.md) vergelijken: Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
