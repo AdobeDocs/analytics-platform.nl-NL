@@ -1,5 +1,5 @@
 ---
-description: Een histogram is een nieuw visualisatietype in de Werkruimte van de Analyse.
+description: Een histogram is een nieuw visualisatietype in Analysis Workspace.
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
@@ -15,54 +15,54 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Een histogram is gelijkaardig aan een grafiek van de bar, maar het groepeert aantallen in waaiers (emmers). Analytics automatiseert het &quot;bucketing&quot;van aantallen in waaiers, maar u kunt de montages in veranderen [Geavanceerde instellingen](#section_09D774C584864D4CA6B5672DC2927477).
+Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). Analytics automatiseert de &quot;bucketing&quot;van aantallen in waaiers, maar u kunt de montages in [Geavanceerde Montages](#section_09D774C584864D4CA6B5672DC2927477) veranderen.
 
 ## Een histogram maken {#section_74647707CC984A1CB6D3097F43A30B45}
 
-Om een histogram te maken:
+Een histogram maken:
 
-1. Klik **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
-1. Slepen **[!UICONTROL Histogram]** naar het paneel.
-1. Kies een Metrisch om aan de visualisatie van de Histogram te slepen en klik **[!UICONTROL Build]**.
+1. Klik op **[!UICONTROL Visualizations]** in de linkertrack.
+1. Sleep **[!UICONTROL Histogram]** naar het deelvenster.
+1. Kies een metrisch teken om naar de histogram te slepen en klik op **[!UICONTROL Build]**.
 
 ![](assets/histogram.png)
 
 >[!NOTE]
 >
->Histogrammen steunen slechts standaardmetriek, niet berekende metriek.
+>Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
 
-Hier hebben we de pagina Materieel voor unieke bezoekers gebruikt. De eerste (verlaten) emmer beantwoordt aan 1 paginamening per unieke bezoeker, het tweede emmer aan twee paginameningen, enz.
+Hier hebben we de metagegevens voor paginaweergaven gebruikt voor unieke bezoekers. Het eerste (linker) emmertje komt overeen met een paginaweergave per unieke bezoeker, het tweede emmertje met twee paginaweergaven, enzovoort.
 
 ![](assets/histogram2.png)
 
 ## Geavanceerde instellingen {#section_09D774C584864D4CA6B5672DC2927477}
 
-Om uw histogram montages aan te passen, klik het pictogram van Montages (&quot;toestel&quot;) in de hogere juiste hoek. Hier zijn de montages u kunt wijzigen:
+Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instellingen (&quot;versnelling&quot;) in de rechterbovenhoek. Hier volgen de instellingen die u kunt wijzigen:
 
-| Histogram Instellingen | Wat zij doet |
+| Histograminstellingen | Wat het doet |
 |---|---|
-| Emmer | Bepaalt welke emmer de histogram met begint. &quot;1&quot; is de standaardwaarde. U kunt beginnende aantallen van 0 aan oneindig (geen negatieve aantallen) plaatsen. |
-| metrische emmers | Laat u het aantal gegevenswaaiers (emmers.) verhogen/verminderen Het maximumaantal emmers is 50. |
-| Metrische Emmergrootte | Laat u de grootte van elke emmer plaatsen. Bijvoorbeeld, kunt u de bucketgrootte van 1 paginamening in 2 paginameningen veranderen. |
-| Telmethode | Laat u kiezen uit [Bezoeker](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [Bezoek](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html), of Sittype. Bijvoorbeeld, paginameningen per bezoek of paginameningen per bezoeker of paginameningen per klap. Voor Hit, wordt de &quot;Voorkomen&quot; gebruikt als y-as metrisch in een freeformlijst. |
+| Emmertje starten | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
+| Metrische emmertjes | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
+| Grootte van metrisch emmertje | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
+| Telmethode | Hiermee kunt u kiezen uit [Visitor](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [Visit](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html) of Type Actief. Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Voorbeelden**:
 
-* Emmer starten: 1; metrische emmers: 5; Metrische Bucketgrootte: 2 zal in deze histogram resulteren: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Emmer starten: 0; metrische emmers: 3. Metrische Bucketgrootte: 5 zal in deze histogram resulteren: 0-4, 5-9, 10-14
+* Emmertje starten: 1; Metrische emmers: 5; Grootte metrische Emmertje: 2 resulteert in dit histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
+* Emmertje starten: 0; Metrische emmers: 3. Grootte metrische Emmertje: 5 resulteert in dit histogram: 0-4, 5-9, 10-14
 
-## De mening en geeft histogram gegevens uit {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
+## Histogramgegevens weergeven en bewerken {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Om de gegevensbron voor de histogram grafiek te bekijken of te veranderen, klik de punt naast de kopbal van de Histogram om naar te gaan **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+Als u de gegevensbron voor het histogramdiagram wilt weergeven of wijzigen, klikt u op de punt naast de kop van het histogram om naar **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]** te gaan.
 
 ![](assets/manage-data-source.png)
 
-De pre-gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en zullen niet in de selecteur van het Segment verschijnen. Klik op het pictogram &quot;i&quot; naast de segmentnaam en klik vervolgens op **[!UICONTROL Make public]** het segment openbaar te maken.
+Vooraf gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en zullen niet omhoog in de selecteur van het Segment verschijnen. Klik op het pictogram &quot;i&quot; naast de segmentnaam en klik vervolgens op **[!UICONTROL Make public]** om het segment openbaar te maken.
 
 ![](assets/prebuilt_segments.png)
 
-Om meer manieren te verkennen om de lijsten van Freeform- gegevens en andere visualisaties te beheren, zoals het doen van gegevensonderverdelingen, gaan [hier](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Ga [hier](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) voor meer manieren om gegevenstabellen en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
