@@ -1,6 +1,6 @@
 ---
-description: De steuneigenschappen van de toegankelijkheid in de Werkruimte van de Analyse
-title: Toegankelijkheid in analysewerkruimte
+description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
+title: Toegankelijkheid in Analysis Workspace
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
@@ -10,91 +10,91 @@ ht-degree: 1%
 ---
 
 
-# Toegankelijkheid in analysewerkruimte
+# Toegankelijkheid in Analysis Workspace
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Meer weten over toegankelijkheidsondersteuning in [!UICONTROL Analysis Workspace], het belangrijkste analyseprogramma voor Adobe Analytics.
+Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace], het belangrijkste hulpprogramma voor analyse voor Adobe Analytics.
 
-De toegankelijkheid verwijst naar het maken van producten bruikbaar voor mensen met visuele, auditieve, cognitieve, motorische en andere handicaps. De voorbeelden van toegankelijkheidseigenschappen voor softwareproducten omvatten de steun van de het schermlezer, tekstequivalenten voor grafiek, toetsenbordkortere weg, verandering van vertoningskleuren in hoog contrast, etc.
+Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
-[!UICONTROL Analysis Workspace] biedt een aantal gereedschappen die het toegankelijk maken voor gebruik, waaronder:
+[!UICONTROL Analysis Workspace] bevat enkele gereedschappen die het programma toegankelijk maken voor gebruik, zoals:
 
-## navigeren [!UICONTROL Workspace] het toetsenbord gebruiken
+## [!UICONTROL Workspace] navigeren met het toetsenbord
 
-Navigatie in [!UICONTROL Analysis Workspace] werkt boven > naar beneden en links > naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
+Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
-* De `F6` sleutel maakt het mogelijk om landmarktoversnelingen te maken
-* De `Tab` belangrijke bewegingen tussen afzonderlijke elementen.
-* Wij passen nadrukindicatoren toe zodat de waargenomen toetsenbordgebruikers een duidelijke aanwijzing hebben waarvan het element UI momenteel nadruk heeft. De indicator is een blauwe grens rond het geselecteerde element.
+* Met de toets `F6` schakelt u vaste sneltoetsen in
+* De `Tab` sleutel beweegt zich tussen individuele elementen.
+* We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
 
    ![Focusindicator](assets/focus-indicator.png)
 
-### Toetsenbordnavigatie voor interactie bij slepen en neerzetten
+### Toetsenbordnavigatie voor interactie Slepen en neerzetten
 
-[!UICONTROL Analysis Workspace] is een belemmering &amp; dalingsgebruikersinterface. Nochtans, kunnen de gebruikers componenten toevoegen gebruikend het toetsenbord in plaats daarvan:
+[!UICONTROL Analysis Workspace] is een gebruikersinterface voor slepen en neerzetten. Gebruikers kunnen echter wel componenten toevoegen met het toetsenbord:
 
-1. Tab aan een component in de linkerrail.
-1. Druk `Enter` om te selecteren.
-1. De pijlsleutels van het gebruik om aan het gebied te navigeren waar u de component wilt laten vallen.
-1. Druk `Enter` om het onderdeel te plaatsen.
+1. Tab naar een component in de linkerspoorstaaf.
+1. Druk op `Enter` om te selecteren.
+1. Met de pijltoetsen navigeert u naar het gebied waar u de component wilt neerzetten.
+1. Druk op `Enter` om de component te plaatsen.
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkstroom. Sommige gemeenschappelijke kortere weg voor navigatie, analyseverwezenlijking, en inzicht democratisering zijn hieronder vermeld.
+[!UICONTROL Analysis Workspace] biedt een uitgebreide set  [sneltoetsen ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
 
 #### Navigatie
 
-| Snelkoppeling | Actie |
+| Sneltoets | Handeling |
 |---|---|
-| Alt + Shift + 1 / 2 / 3 | Sprong op verschillende rails: [!UICONTROL Panels], [!UICONTROL Visualizations]of [!UICONTROL Components] |
-| Alt + pijl links/rechts | Navigeer tussen deelvensters |
-| Alt + M | Alle deelvensters samenvouwen/uitbreiden |
-| Alt+ Ctrl + M | Het actieve paneel van de ineenstorting/breidt uit |
+| Alt + Shift + 1 / 2 / 3 | Naar verschillende rails springen: [!UICONTROL Panels], [!UICONTROL Visualizations] of [!UICONTROL Components] |
+| Alt + Pijl-links/Pijl-rechts | Navigeren tussen deelvensters |
+| Alt + M | Alle deelvensters samenvouwen/uitvouwen |
+| Alt+ Ctrl + M | Actief deelvenster samenvouwen/uitvouwen |
 | Ctrl + / | Zoeken in linkerrail |
 
 #### Analyse maken
 
-| Snelkoppeling | Actie |
+| Sneltoets | Handeling |
 |---|---|
-| Alt + 1 | Nieuwe freeformtabel |
+| Alt + 1 | Nieuwe vrije-vormlijst |
 | Ctrl + Shift + C | Nieuwe berekende metrisch |
-| Ctrl + Shift + D | Nieuwe datumbereik |
+| Ctrl + Shift + D | Nieuw datumbereik |
 | Ctrl + Shift + E | Nieuw segment |
-| Ctrl + Z | ongedaan maken |
-| De verschuiving van de greep (in de dropzone van het paneelsegment) | Een [druppelfilter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Ctrl + Z | Ongedaan maken |
+| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Een [dropdown-filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) maken |
 
 #### democratisering
 
-| Snelkoppeling | Actie |
+| Sneltoets | Handeling |
 |---|---|
 | Ctrl + S | Opslaan |
-| Ctrl + Shift + G | krullen |
+| Ctrl + Shift + G | Curate |
 | Ctrl + G | Delen |
-| Alt + Shift + S | Planning |
+| Alt + Shift + S | Schema |
 | Alt + L | Koppeling naar project ophalen |
 | Ctrl + Shift + B | PDF downloaden |
 
-## Ondersteuning voor schermlezers en schermmagnifiers
+## Ondersteuning voor schermlezers en schermvergrotingen
 
-Een het schermlezer leest tekst die op het computerscherm verschijnt. Het leest ook niet-tekstuele informatie, zoals knoopetiketten of beeldbeschrijvingen in de toepassing, die in toegankelijkheidsmarkeringen of attributen wordt verstrekt.
+Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
 
 ## Kleurenpaletten en contrast
 
-[!UICONTROL Analysis Workspace] streeft naar overeenstemming met WCAG 2.1 AA, met inbegrip van vereisten voor kleurencontrast.
+[!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder plaatsen **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet project](/help/analysis-workspace/build-workspace-project/color-palettes.md).
+Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Projectkleurenpalet](/help/analysis-workspace/build-workspace-project/color-palettes.md).
 
-## Vereiste veldvalidatie in componentbouwers
+## Vereiste veldvalidatie in componentbuilders
 
-Wanneer het bouwen van een component, worden de vereiste gebieden bevestigd wanneer u sparen. Als een vereist gebied geen bevestiging overgaat, zal het in rood met een foutenpictogram worden geschetst. Er verschijnt een schriftelijke beschrijving van de kwestie die moet worden vastgelegd.
+Wanneer u een component maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. Er verschijnt een schriftelijke beschrijving van het probleem dat moet worden opgelost.
 
-Zodra een component volledig bevestigd is, drukt u op `Save` sluit de bouwer.
+Wanneer een component volledig is gevalideerd en u op `Save` drukt, wordt de builder gesloten.
 
 ![Foutvalidatie](assets/error-validation.png)
 
-## Ondersteuning voor functies voor toegankelijkheid van besturingssystemen
+## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 
-De Werkruimte van de analyse steunt ingebouwde MS Windows en macOS toegankelijkheidseigenschappen zoals hoog-contrastwijze, kleverige sleutels, en langzame sleutels/filtersleutels. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
+Analysis Workspace biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties van MS Windows en macOS, zoals de modus voor hoog contrast, sticky keys en slow keys/filters. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
