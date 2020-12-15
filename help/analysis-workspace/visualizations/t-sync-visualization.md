@@ -1,5 +1,5 @@
 ---
-description: Het synchroniseren van visualisaties laat u controleren welke gegevenslijst of gegevensbron aan een visualisatie beantwoordt.
+description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Databronnen beheren
 translation-type: tm+mt
@@ -15,38 +15,38 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Het synchroniseren van visualisaties laat u controleren welke gegevenslijst of gegevensbron aan een visualisatie beantwoordt.
+Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
 
-**Tip:** U kunt zien welke visualisaties gerelateerd zijn aan de kleur van de stip naast de titel. De gelijke kleuren betekenen dat de visualisaties op de zelfde gegevensbron gebaseerd zijn.
+**Tip:** U kunt zien welke visualisaties gerelateerd zijn aan de kleur van de stip naast de titel. Gelijktijdige kleuren betekenen dat visualisaties zijn gebaseerd op dezelfde gegevensbron.
 
-Het leiden van een gegevensbron laat u de gegevensbron tonen of de selectie sluiten. Deze montages bepalen hoe de visualisatie verandert (of niet verandert) wanneer de nieuwe gegevens binnen komen.
+Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selectie vergrendelen. Deze instellingen bepalen hoe de visualisatie verandert (of niet verandert) wanneer er nieuwe gegevens binnenkomen.
 
-1. [Een project maken](/help/analysis-workspace/home.md) met een datatabel en een [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
-1. In de gegevenslijst, selecteer de cellen (gegevensbron) u met de visualisatie wilt associëren.
-1. In de visualisatie, klik de punt naast de titel om omhoog te brengen **[!UICONTROL Data Source]** dialoog. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
+1. [Maak een ](/help/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. Selecteer in de gegevenstabel de cellen (gegevensbron) die u aan de visualisatie wilt koppelen.
+1. Klik in de visualisatie op de punt naast de titel om het dialoogvenster **[!UICONTROL Data Source]** weer te geven. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
 
    ![](assets/manage-data-source.png)
 
-   Het synchroniseren van een visualisatie aan een lijstcel leidt tot een nieuwe (verborgen) lijst en kleur-codes de gesynchroniseerde visualisatie met die lijst.
+   Als u een visualisatie synchroniseert met een tabelcel, wordt een nieuwe (verborgen) tabel gemaakt en wordt de gesynchroniseerde visualisatie met die tabel gekleurd.
 
 | Element | Beschrijving |
 |--- |--- |
-| Gekoppelde visualisaties | Als er visualisaties zijn die met een freeform of cohortlijst worden verbonden, opent de hoogste linkerpunt om van de verbonden visualisaties een lijst te maken en heeft een &quot;show&quot;checkbox optie om de lijst te tonen/te verbergen.  Het verbergen benadrukt de verbonden visualisatie, en het klikken van het neemt u aan het. |
-| Gegevensbron weergeven | Laat u (door checkbox toe te laten) of verbergen (door onbruikbaar te maken) de gegevenslijst tonen die aan de visualisatie beantwoordt. |
-| Selectie vergrendelen | Laat dit het plaatsen toe om de visualisatie aan de gegevens te sluiten die momenteel in de overeenkomstige gegevenslijst worden geselecteerd. Zodra toegelaten, kies tussen:  <ul><li>**Geselecteerde posities**: Kies deze optie als u de visualisatie gesloten op de posities wilt blijven die in de overeenkomstige gegevenslijst worden geselecteerd. Deze posities zullen zichtbaar blijven, zelfs als de specifieke posten in deze posities veranderen. Bijvoorbeeld, kies deze optie als u de hoogste vijf campagnenamen in deze visualisatie wilt altijd tonen, geen kwestie die campagnenamen in hoogste vijf verschijnen.</li> <li>**Geselecteerde items**: Kies deze optie als u wilt dat de visualisatie vergrendeld blijft op de specifieke items die momenteel zijn geselecteerd in de corresponderende datatabel. Deze items blijven zichtbaar, zelfs als ze hun rangschikking tussen de items in de tabel wijzigen. Bijvoorbeeld, kies deze optie als u de zelfde vijf specifieke campagnemenamen in deze visualisatie wilt altijd tonen, geen kwestie waar die campagnenamen rangschikken.</li></ul> |
+| Gekoppelde visualisaties | Als er visualisaties zijn die met een vrije vorm of cohortlijst worden verbonden, opent de hoogste linkerpunt om van de aangesloten visualisaties een lijst te maken en een &quot;show&quot;checkbox optie te hebben om de lijst te tonen/te verbergen.  Als u de muisaanwijzer boven de gekoppelde visualisatie houdt, gaat u naar de gekoppelde visualisatie. |
+| Gegevensbron tonen | Hiermee kunt u (door het selectievakje in te schakelen) of de datatabel die overeenkomt met de visualisatie verbergen (door deze uit te schakelen). |
+| Selectie vergrendelen | Schakel deze instelling in om de visualisatie te vergrendelen op de gegevens die momenteel zijn geselecteerd in de corresponderende gegevenstabel. Als deze optie is ingeschakeld, kiest u tussen:  <ul><li>**Geselecteerde posities**: Kies deze optie als de visualisatie vergrendeld moet blijven op de posities die zijn geselecteerd in de bijbehorende gegevenstabel. Deze posities zullen zichtbaar blijven, zelfs als de specifieke posten in deze posities veranderen. Kies deze optie bijvoorbeeld als u de vijf belangrijkste campagnemenamen in deze visualisatie altijd wilt weergeven, ongeacht de naam van welke campagne in de bovenste vijf voorkomt.</li> <li>**Geselecteerde items**: Kies deze optie als de visualisatie vergrendeld moet blijven op de specifieke items die momenteel zijn geselecteerd in de bijbehorende tabel. Deze items blijven zichtbaar, zelfs als ze een andere positie innemen onder de items in de tabel. Kies deze optie bijvoorbeeld als u in deze visualisatie altijd dezelfde vijf specifieke campagnemenamen wilt weergeven, ongeacht de plaats waar die campagnemenamen staan.</li></ul> |
 
-Deze architectuur verschilt van vorige in dat de Werkruimte van de Analyse niet meer tot een dubbele verborgen lijst leidt die de gesloten selectie voor u opslaat. Nu, richt de gegevensbron aan de lijst dat u de visualisatie van creeerde.
+Deze architectuur verschilt van de vorige omdat Analysis Workspace niet langer een dubbele, verborgen tabel maakt waarin de vergrendelde selectie voor u wordt opgeslagen. De gegevensbron verwijst nu naar de tabel waaruit u de visualisatie hebt gemaakt.
 
-**Voorbeelden:**
+**Gebruiksscenario&#39;s:**
 
-* U kunt een summiere visualisatie tot stand brengen en het sluiten aan een cel in de lijst u het van creeerde. Wanneer u &quot;toont Gegevensbron&quot;toelaat, toont het u precies waar deze informatie uit in de lijst komt. De brongegevens worden grijs weergegeven:
+* U kunt een overzichtsvisualisatie tot stand brengen en het sluiten aan een cel in de lijst u het van creeerde. Wanneer u &quot;Gegevensbron tonen&quot;toelaat, toont het u precies waar deze informatie uit in de lijst komt. De brongegevens worden grijs weergegeven:
 
    ![](assets/data-source2.png)>
-* U kunt veel visualisaties toevoegen en hen uit verschillende cellen in de zelfde lijst, zoals hier getoond bron. De lijst is het zelfde als in het voorbeeld hierboven, maar de bronced cel (en metrisch) is verschillend:
+* U kunt veel visualisaties toevoegen en deze uit verschillende cellen in dezelfde tabel betrekken, zoals u hier ziet. De tabel is hetzelfde als in het bovenstaande voorbeeld, maar de broncel (en metrisch) zijn anders:
 
    ![](assets/data-source3.png)>
-* U kunt zien of er visualisaties zijn die met een freeform of cohortlijst worden verbonden door de hoogste linkerpunt (de Montages van de Gegevensbron) te klikken. Als u de muis hierboven houdt, wordt de gekoppelde visualisatie weergegeven. En als u erop klikt, gaat u direct naar de gekoppelde visualisatie.
+* U kunt zien of er visualisaties zijn die met een vrije vorm of een cohortlijst worden verbonden door de hoogste linkerpunt (de Montages van de Gegevensbron) te klikken. Als u de muis hierboven houdt, wordt de gekoppelde visualisatie weergegeven. En als u erop klikt, gaat u direct naar de gekoppelde visualisatie.
 
    ![](assets/linked-visualizations.png)>
