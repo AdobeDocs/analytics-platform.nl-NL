@@ -15,19 +15,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+Vanuit het menu Delen van de werkruimte **kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden.** Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
 ## Bestand nu verzenden
 
 Een bestand direct via e-mail naar ontvangers verzenden:
 
-1. Klikken **Delen > Bestand nu verzenden**.
+1. Klik **Delen > Bestand nu verzenden**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. Klikken **Nu verzenden**.
+1. Klik **Nu verzenden**.
 1. (Optioneel) Klik op **Planningsopties tonen** om een leveringsschema op te geven.
 
 ![Bestand nu verzenden](assets/send-file-now.png)
@@ -36,19 +36,19 @@ Een bestand direct via e-mail naar ontvangers verzenden:
 
 Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
 
-1. Klikken **Delen > Bestand verzenden volgens schema**.
+1. Klik **Delen > Bestand verzenden op schema**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
 1. Geef het bereik op waarover de planning moet worden geleverd door Starten op en Eindigen op de invoer te wijzigen. De einddatum moet binnen een jaar zijn vanaf de dag dat het schema wordt opgesteld of gewijzigd.
 1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
-1. Klikken **Verzenden volgens schema**.
+1. Klik **Verzenden op schema**.
 
 ![](assets/send-on-schedule.png)
 
 ## Geplande projectmanager
 
-Geplande Analysis Workspace-projecten kunnen worden beheerd in het kader van **Analyse > Componenten > Geplande projecten**.
+De geplande projecten van Analysis Workspace kunnen onder **Analytics > Componenten > Geplande Projecten** worden beheerd.
 
 In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, goedgekeurde schema&#39;s, eigenaars en meer.
 
@@ -65,4 +65,4 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten:
 | **Verlopen schema&#39;s weergeven** | Navigeer naar de linkerrail > Andere filters > Verlopen om programma&#39;s te zien die zijn verlopen. Klik de titel van het programma aan opstelling een nieuw leveringsprogramma. |
 | **Plan-id weergeven** | Navigeer naar kolomopties rechtsboven en voeg de kolom Id van planning toe aan de tabel. De geplande id is vaak handig voor foutopsporing. |
 
-De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt. De geplande projecteigendom kan worden **overgedragen** aan een nieuwe gebruiker onder **Beheer > Gebruikers en middelen voor analyse > Middelen voor gegevensoverdracht**.
+De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt. De geplande projecteigendom kan **worden overgedragen** aan een nieuwe gebruiker onder **Admin > Gebruikers &amp; Activa van Analytics > Overdrachtsactiva**.
