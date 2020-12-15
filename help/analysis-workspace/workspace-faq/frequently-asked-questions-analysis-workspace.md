@@ -1,5 +1,5 @@
 ---
-description: Systeemvereisten voor analysewerkruimte.
+description: Systeemvereisten voor Analysis Workspace.
 keywords: Analysis Workspace
 title: Beheervereisten
 translation-type: tm+mt
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Systeemvereisten voor analysewerkruimte.
+Systeemvereisten voor Analysis Workspace.
 
-| Voorschrift | Beschrijving |
+| Vereiste | Beschrijving |
 |--- |--- |
-| Product SKU | U moet de Standaard van de Analyse van Adobe of de Premie van de Analyse van Adobe hebben. Als u slechts toegang tot Rapporten &amp; Analytics als standalone product hebt, werk met uw accountteam om de oplossing van de Analyse van Adobe te kopen. |
-| Administrateurs | Heb volledige toegang tot de Werkruimte van de Analyse. |
-| Gebruikers | Om toegang tot het lusje van de Werkruimte in Analytics toe te laten, moeten de beheerders een productprofiel met de toestemming van de Toegang van de Werkruimte van de Analyse creëren en gebruikers aan het in [Beheerconsole](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html). |
-| Browser | <ul><li>Voorkeur: Nieuwste versies van Firefox, Chrome, Safari of Edge. Nieuwste versie van Microsoft Internet Explorer 11. **Opmerking:**  Adobe beëindigde steun voor Internet Explorer 11 binnen de Analyse van Adobe op 13 November, 2018. Schakel zo snel mogelijk over naar Microsoft Edge of een andere ondersteunde browser.</li><li>De koekjes en JavaScript moeten worden toegelaten.</li><li>Beeldresolutie van 1.024 x 768 met 16-bits kleurdiepte (of hoger).</li></ul> |
+| Product SKU | Je moet Adobe Analytics Standard of Adobe Analytics Premium hebben. Als u alleen toegang hebt tot Rapporten &amp; Analytics als zelfstandig product, werkt u samen met uw accountteam om de Adobe Analytics-oplossing te kopen. |
+| Beheerders | volledige toegang tot Analysis Workspace hebben. |
+| Gebruikers | Om toegang tot het lusje van de Werkruimte in Analytics toe te laten, moeten de beheerders een productprofiel met de toestemming van Analysis Workspace Access tot stand brengen en gebruikers toevoegen aan het in [Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html). |
+| Browser | <ul><li>Voorkeur: Laatste versies van Firefox, Chrome, Safari of Edge. Laatste versie van Microsoft Internet Explorer 11. **Opmerking:**  Adobe beëindigde ondersteuning voor Internet Explorer 11 in Adobe Analytics op 13 november 2018. Schakel zo snel mogelijk over naar Microsoft Edge of een andere ondersteunde browser.</li><li>Cookies en JavaScript moeten zijn ingeschakeld.</li><li>Monitorresolutie van 1024 x 768 met 16-bits kleurdiepte (of hoger).</li></ul> |
