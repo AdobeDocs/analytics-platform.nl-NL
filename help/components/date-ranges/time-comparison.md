@@ -1,5 +1,5 @@
 ---
-description: De Vergelijking van de datum in de Werkruimte van de Analyse laat u om het even welke kolom nemen die een datumwaaier bevatten en een gemeenschappelijke datumvergelijking tot stand brengen, zoals jaar-over jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
+description: Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
 title: Datumvergelijking
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
@@ -15,86 +15,86 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-De Vergelijking van de datum in de Werkruimte van de Analyse laat u om het even welke kolom nemen die een datumwaaier bevatten en een gemeenschappelijke datumvergelijking tot stand brengen, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enz.
+Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
 
-## Vergelijk tijdsperioden
+## Vergelijk tijdsperiodes
 
-De analyse vereist context, en vaak wordt die context verstrekt door een vorige tijdspanne. Bijvoorbeeld de vraag &quot;Hoeveel beter/slechter doen we dan op dit moment vorig jaar?&quot; is essentieel voor het begrijpen van uw bedrijf. De Vergelijking van de datum omvat automatisch een &quot;verschil&quot;kolom, die de percentageverandering in vergelijking met een gespecificeerde tijdspanne toont.
+De analyse vereist context, en vaak wordt die context verstrekt door een vorige tijdspanne. Bijvoorbeeld de vraag &quot;Hoeveel beter/slechter doen we dan op dit moment vorig jaar?&quot; is fundamenteel voor het begrijpen van uw zaken. De Vergelijking van de datum omvat automatisch een &quot;verschilkolom&quot;, die de percentageverandering in vergelijking met een gespecificeerde tijdspanne toont.
 
-1. Creeer een lijst Freeform, met om het even welke afmetingen en metriek u over een tijdspanne wilt vergelijken.
+1. Maak een tabel voor vrije vorm met de afmetingen en metriek die u over een tijdsperiode wilt vergelijken.
 1. Klik met de rechtermuisknop op een tabelrij en selecteer **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
-   >Deze met de rechtermuisknop aanklikken optie is gehandicapt voor metrische rijen, de rijen van de datumwaaier, en de rijen van de tijddimensie.
+   >Deze klikoptie is gehandicapt voor metrische rijen, de rijen van de datumwaaier, en de rijen van de tijddimensie.
 
-1. Afhankelijk van hoe u de de datumwaaier van de lijst hebt geplaatst, hebt u deze opties voor vergelijking:
+1. Afhankelijk van de manier waarop u het datumbereik van de tabel hebt ingesteld, kunt u het volgende vergelijken:
 
    | Optie | Beschrijving |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Vergelijkt met de week/maand/enz. onmiddellijk voor deze datumwaaier. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Vergeleken met dezelfde datumwaaier een jaar geleden. |
-   | **[!UICONTROL Select range]** | Laat u een waaier van de douanedatum selecteren. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Vergelijkt met week/maand/enz. onmiddellijk voor dit datumbereik. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Vergelijkt tot de zelfde datumwaaier een jaar geleden. |
+   | **[!UICONTROL Select range]** | Hiermee kunt u een aangepast datumbereik selecteren. |
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een 14-daagse reeks), krijgt u slechts 2 opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
 
 1. De resulterende vergelijking ziet er als volgt uit:
 
    ![](assets/compare-time-result.png)
 
-   De rijen in de Percenten kolom van de Verandering lijken rood voor negatieve waarden en groen voor positieve waarden.
+   De rijen in de kolom Percentage wijziging worden rood weergegeven voor negatieve waarden en groen voor positieve waarden.
 
-1. (Facultatief) zoals in een andere projecten van de Werkruimte, kunt u visualisaties tot stand brengen die op deze tijdvergelijkingen worden gebaseerd. Bijvoorbeeld, hier is een grafiek van de Bar:
+1. (Optioneel) Net als bij andere Workspace-projecten kunt u visualisaties maken op basis van deze tijdvergelijkingen. Hier ziet u bijvoorbeeld een staafgrafiek:
 
    ![](assets/compare-time-barchart.png)
 
-   Merk op dat om de percentageverandering in de bargrafiek te tonen, u de [!UICONTROL Percentages] instelling ingeschakeld in [!UICONTROL Visualization Settings].
+   Merk op dat om de percentageverandering in het bar grafiek te tonen, u [!UICONTROL Percentages] het plaatsen moet hebben gecontroleerd in [!UICONTROL Visualization Settings].
 
-## Voeg een kolom van de tijdperiode voor vergelijking toe
+## Een tijdspannekolom toevoegen ter vergelijking
 
-U kunt nu een tijdsperiode toevoegen aan elke tabelkolom. Zo kunt u een andere tijdsperiode toevoegen dan de periode waarop uw kalender is ingesteld. Dit is een andere manier u datums kunt vergelijken.
+U kunt nu een tijdsperiode toevoegen aan elke tabelkolom. Zo kunt u een andere tijdsperiode toevoegen dan de periode waarop uw kalender is ingesteld. Dit is een andere manier om datums te vergelijken.
 
-1. Klik een kolom in de lijst met de rechtermuisknop aan en selecteer **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
+1. Klik met de rechtermuisknop op een kolom in de tabel en selecteer **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
 
-1. Afhankelijk van hoe u de de datumwaaier van de lijst hebt geplaatst, hebt u deze opties voor vergelijking:
+1. Afhankelijk van de manier waarop u het datumbereik van de tabel hebt ingesteld, kunt u het volgende vergelijken:
 
    | Optie | Beschrijving |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Voegt een kolom met de week/maand/etc. toe. onmiddellijk voor deze datumwaaier. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Voegt de zelfde datumwaaier een jaar terug toe. |
-   | **[!UICONTROL Select range]** | Laat u een waaier van de douanedatum selecteren. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Voegt een kolom met de week/maand/enz. toe. onmiddellijk voor dit datumbereik. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Hiermee voegt u hetzelfde datumbereik toe een jaar geleden. |
+   | **[!UICONTROL Select range]** | Hiermee kunt u een aangepast datumbereik selecteren. |
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een 14-daagse reeks), krijgt u slechts 2 opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
 
-1. De tijdspanne zal bovenop de kolom worden opgenomen u selecteerde:
+1. De tijdsperiode wordt ingevoegd vóór de kolom die u hebt geselecteerd:
 
    ![](assets/add-time-period-column2.png)
 
-1. U kunt zo vele tijdkolommen toevoegen aangezien u wilt, evenals mengen en verschillende datumwaaiers aanpassen:
+1. U kunt zoveel tijdkolommen toevoegen als u wilt, maar u kunt ook verschillende datumbereiken combineren en met elkaar in overeenstemming brengen:
 
    ![](assets/add-time-period-column4.png)
 
-1. Bovendien kunt u op elke kolom sorteren, die de orde van dagen afhankelijk van de kolom zal veranderen u op sorteert.
+1. Bovendien kunt u op elke kolom sorteren, die de orde van dagen afhankelijk van de kolom zult veranderen u sorteert.
 
-## Richt kolomdata om op dezelfde rij te beginnen {#section_5085E200082048CB899C3F355062A733}
+## Kolom-datums uitlijnen zodat deze op dezelfde rij {#section_5085E200082048CB899C3F355062A733} beginnen
 
-Het nieuwe plaatsen voor alle lijsten laat u **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. &quot;Is op volledige lijst&quot;van toepassing betekent dat als u, bijvoorbeeld, een uitsplitsing in de lijst doet, en als u dit het plaatsen voor de uitsplitsing verandert, het het plaatsen voor de volledige lijst zal veranderen.
+Met een nieuwe instelling voor alle tabellen kunt u **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. &quot;Is van toepassing op volledige lijst&quot;betekent dat als u, bijvoorbeeld een uitsplitsing in de lijst doet, en als u dit het plaatsen voor de uitsplitsing verandert, het het plaatsen voor de volledige lijst zal veranderen.
 
 ![](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
->Deze instelling is **gehandicapt** (ongecontroleerd) voor alle bestaande projecten en **ingeschakeld** (gecontroleerd) voor alle nieuwe projecten.
+>Deze instelling is **uitgeschakeld** (uitgeschakeld) voor alle bestaande projecten en **ingeschakeld** (ingeschakeld) voor alle nieuwe projecten.
 
-Voorbeeld: Wanneer u verkiest om de data te richten, als u een maand-over-maand vergelijking tussen Oktober en September 2016 doet, zal de linkerkolom met Oktober 1 beginnen en de juiste kolom zal met September 1 beginnen:
+Voorbeeld: Wanneer u ervoor kiest om de datums op één lijn te brengen, als u een maand-over-maand vergelijking tussen oktober en september 2016 doet, zal de linkerkolom met 1 Oktober beginnen en de juiste kolom zal met 1 September beginnen:
 
 ![](assets/add-time-period-column3.png)
 
