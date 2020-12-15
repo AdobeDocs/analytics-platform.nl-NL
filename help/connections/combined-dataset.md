@@ -59,7 +59,7 @@ Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het m
 
 Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke gegevensset een rij afkomstig is; attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
 
-Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend een rapport gebruikend `string_color` dimensie en `metric_a` Metrisch met laatste aanraakkenmerk geeft het volgende weer:
+Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, zou het trekken van een rapport gebruikend de `string_color` afmeting en `metric_a` metrisch gebruikend laatste aanraakattributie tonen:
 
 | string_color | metrisch_a |
 | --- | --- |
@@ -67,7 +67,7 @@ Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend ee
 | Blauw | 3 |
 | Rood | 2 |
 
-Als u echter beide tabellen hebt opgenomen in uw verbinding, verandert de toewijzing sinds `user_847` bevindt zich in beide gegevenssets. Een rij van de tweede dataset attributen `metric_a` op &#39;Geel&#39; waar ze voorheen niet waren gespecificeerd:
+Nochtans, als u beide lijsten in uw verbinding omvatte, attributieveranderingen aangezien `user_847` in beide datasets is. Een rij van de tweede dataset kenmerkt `metric_a` aan &quot;Geel&quot;waar zij eerder niet gespecificeerd waren:
 
 | string_color | metrisch_a |
 | --- | --- |
