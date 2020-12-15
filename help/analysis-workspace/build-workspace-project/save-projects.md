@@ -11,21 +11,21 @@ ht-degree: 3%
 
 # Projecten opslaan
 
-Ga naar de werkruimte om uw wijzigingen in een project op te slaan **[!UICONTROL Project]** -menu. Bovendien slaat Adobe projecten in bepaalde gevallen automatisch op.
+Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimte **[!UICONTROL Project]**. Bovendien slaat Adobe projecten in bepaalde gevallen automatisch op.
 
 ## Projectopties opslaan {#Save}
 
-Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het kader van de **[!UICONTROL Project]** afhankelijk van hoe u in de toekomst toegang tot uw analyse wilt krijgen.
+Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UICONTROL Project]**, afhankelijk van de manier waarop u in de toekomst toegang wilt krijgen tot uw analyse.
 
 | Handeling | Beschrijving |
 |---|---| 
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) extra tags toe te voegen. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-| **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ![](assets/save-project.png)
 
-## Automatisch opslaan {#Autosave}
+## {#Autosave} automatisch opslaan
 
 Bestaande projecten, d.w.z. projecten die minstens één keer eerder zijn opgeslagen, worden elke twee minuten automatisch opgeslagen op uw lokale computer. Nieuwe projecten die nog nooit zijn opgeslagen, worden momenteel niet automatisch opgeslagen.
 
@@ -45,8 +45,8 @@ De browser waarschuwt dat niet-opgeslagen wijzigingen verloren gaan. U kunt kiez
 
 ### Browsercrashes of sessietijden uit
 
-Voor **bestaand** projecten, na het terugkeren naar Workspace, ziet de gebruiker een **Projectherstel** modal. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
+Voor **bestaande** projecten, bij het terugkeren naar Workspace, zal de gebruiker een **projectterugwinning** modaal zien. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
 
 ![](assets/project-recovery.png)
 
-Voor **new** projecten die nooit zijn opgeslagen, niet-opgeslagen wijzigingen kunnen niet worden hersteld.
+Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijzigingen niet worden hersteld.
