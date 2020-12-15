@@ -1,5 +1,5 @@
 ---
-description: Het ontleden van de tijd neemt de timestamp van verzamelde hits en breekt het in zinvollere dimensies, zoals "Uren van Dag" of "Dag van Week".
+description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
 title: Tijduitsplitsende dimensies
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
@@ -13,28 +13,28 @@ ht-degree: 3%
 
 # Tijduitsplitsende dimensies
 
-Het ontleden van de tijd neemt de timestamp van verzamelde hits en breekt het in zinvollere dimensies, zoals &quot;Uren van Dag&quot; of &quot;Dag van Week&quot;.
+Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals &quot;Uur van dag&quot; of &quot;Dag van week&quot;.
 
-De tijd-scheidende afmetingen zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in de Werkruimte van de Analyse en kunnen helpen om de volgende vragen te beantwoorden:
+De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
-* Over een grote datumwaaier, wat is de populairste tijd van dag voor bezoekers om tot mijn plaats of app toegang te hebben?
-* Zijn er dagen van de week of uren van de dag waarop de omzetting op mijn plaats of app hoger is?
-* Hoe verhoudt mijn weekendverkoop zich tot mijn weekdagverkoop?
-* Verleent een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?
+* Wat is, over een groot datumbereik, de populairste tijd van dag voor bezoekers om tot mijn plaats of app toegang te hebben?
+* Zijn er dagen van de week of uren van de dag waarop de conversie hoger is op mijn site of app?
+* Hoe vergelijk mijn weekendverkopen met mijn weekdagverkopen?
+* Produceert een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?
 
 >[!NOTE]
 >
->De tijd-scheidende afmetingen zijn slechts beschikbaar in de Werkruimte van de Analyse. Om tijd-paring afmetingen in andere oplossingen van de Analyse te gebruiken, kunt u uitvoeren [getTimeParting plug-in](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u [getTimeParting stop-in](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html) uitvoeren.
 
-De tijd-scheidende afmetingen in de Werkruimte van de Analyse omvatten:
+Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
-| Afmetingen | Voorbeeldwaarden |
+| Dimension | Voorbeeldwaarden |
 |--- |--- |
-| Uur van de dag | 0-23 |
+| Uur van dag | 0-23 |
 | AM/PM | AM, PM |
 | Weekdag | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
-| Weekend/Weekdag | Weekend, Weekdag |
+| Weekend/Weekdag | Weekend, weekdag |
 | Dag van Maand | 1-31 |
-| Maand van het Jaar | januari-december |
-| Dag van Jaar | 1-366 |
-| Kwartaal van het jaar | Q1, Q2, Q3, Q4 |
+| Maand van jaar | Januari-december |
+| Dag van het Jaar | 1-366 |
+| Kwartaal van jaar | Q1, Q2, Q3, Q4 |
