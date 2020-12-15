@@ -1,5 +1,5 @@
 ---
-description: Een inter-dimensionele stroom laat u gebruikerswegen over diverse afmetingen onderzoeken.
+description: Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 title: Interdimensionale stromen
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
@@ -15,54 +15,54 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Een inter-dimensionele stroom laat u gebruikerswegen over diverse afmetingen onderzoeken.
+Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 
-Een afmetingsetiket bij de bovenkant van elke kolom van de Stroom maakt het gebruiken van veelvoudige afmetingen in een stroomvisualisatie meer intuïtief:
+Een afmetingslabel boven aan elke stroomkolom maakt het gebruik van meerdere dimensies in een stroomvisualisatie intuïtiever:
 
 ![](assets/flow.png)
 
-We zullen kijken naar twee gebruiksgevallen: een toepassingsgebruiksgeval en een geval van het Webgebruik.
+We zullen naar twee gebruiksgevallen kijken: een gebruiksgeval voor apps en een gebruiksgeval voor het web.
 
-## Eerste geval gebruiken: app
+## Eerste hoofdletter gebruiken: app
 
-De [!UICONTROL Action Name] de dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt die [!UICONTROL ItemAdded]:
+De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt dat [!UICONTROL ItemAdded] is:
 
 ![](assets/multi-dimensional-flow.png)
 
-Om de interactie tussen schermen/pagina&#39;s en acties in deze app te onderzoeken, kunt u de paginadimensie aan veelvoudige plaatsen dan slepen, afhankelijk van wat u wilt onderzoeken:
+Als u de interactie tussen schermen/pagina&#39;s en acties in deze app wilt verkennen, kunt u de paginadimensie naar meerdere plaatsen slepen, afhankelijk van wat u wilt verkennen:
 
-* Sleep het aan één van beide eind van de dalingsstreek (binnen de zwart-gekeerde rechthoekige streek die verschijnt) aan **vervangen** de hoogste resultaten aan de uiteinden:
+* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) naar **vervang** de bovenste resultaten aan de uiteinden:
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
-* Sleep het aan de witte ruimte op het eind (merk de zwarte steun op) aan **toevoegen aan** de visualisatie:
+* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om **aan** de visualisatie toe te voegen:
 
    ![](assets/multi-dimensional-flow4.png)
 
-Hier is het resultaat als u beslist om het punt ItemScaled in de juiste kolom met de dimensie van de Pagina te vervangen. Het hoogste resultaat verandert nu in het hoogste resultaat voor de dimensie van de Pagina:
+Hier is het resultaat als u besluit om het item ItemScaled in de juiste kolom met de dimensie van de Pagina te vervangen. Het bovenste resultaat wordt nu gewijzigd in het bovenste resultaat voor de pagina-afmeting:
 
 ![](assets/multi-dimensional-flow5.png)
 
-Nu kunt u zien hoe de klanten zich door acties en pagina&#39;s bewegen. U kunt de stroom verder verkennen door op verschillende knopen te klikken:
+Nu kunt u zien hoe klanten door acties en pagina&#39;s bewegen. U kunt de stroom verder verkennen door op verschillende knooppunten te klikken:
 
 ![](assets/multi-dimensional-flow6.png)
 
-Dit is wat gebeurt als u een andere dimensie van de Naam van de Actie op het eind van de visualisatie toevoegt:
+Dit is wat gebeurt als u een andere dimensie van de Naam van de Actie op het eind van visualisatie toevoegt:
 
 ![](assets/multi-dimensional-flow7.png)
 
-Dit zal voor sommige diepgaande inzichten en mogelijke veranderingen in app toestaan u analyseert.
+Op deze manier kunt u diepgaande inzichten en mogelijke wijzigingen aanbrengen in de app die u analyseert.
 
-## Tweede geval gebruiken: web
+## Hoofdlettergebruik twee: web
 
-Dit gebruiksgeval toont hoe u kunt analyseren welke campagnes de meeste ingangen aan een website drijven.
+In dit geval kunt u zien hoe u kunt analyseren welke campagnes de meeste items naar een website sturen.
 
 Sleep de dimensie van de Naam van de Campagne in een nieuwe stroom:
 
 ![](assets/multi-dimensional-flow8.png)
 
-Nu wil ik zien aan welke pagina&#39;s die campagnes verkeer drijven, zodat sleep ik de dimensie van de Pagina rechts van de stroomresultaten om op de visualisatie toe te voegen:
+Nu wil ik zien aan welke pagina&#39;s die campagnes verkeer drijven, zodat sleep ik de dimensie van de Pagina rechts van de stroomresultaten om op visualisatie toe te voegen:
 
 ![](assets/multi-dimensional-flow9.png)
