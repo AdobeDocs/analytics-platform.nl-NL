@@ -1,6 +1,6 @@
 ---
-title: Verklarende woordenlijst van de Analyse van de Reis van de Klant
-description: Verklarende woordenlijst van de Analyse van de Reis van de Klant.
+title: Customer Journey Analytics glossarium
+description: Customer Journey Analytics verklarende woordenlijst.
 translation-type: tm+mt
 source-git-commit: 307bfae11f44d088aa8d004f1f7ddd17375f60fc
 workflow-type: tm+mt
@@ -10,20 +10,20 @@ ht-degree: 1%
 ---
 
 
-# Verklarende woordenlijst van de Analyse van de Reis van de Klant
+# Customer Journey Analytics glossarium
 
-Sommige termijnen van de Analyse van de Reis van de Klant verschillen van hoe zij traditioneel in de Analyse van Adobe zijn gebruikt:
+Sommige Customer Journey Analytics-termen verschillen van de traditionele manier waarop ze in Adobe Analytics worden gebruikt:
 
-| Nieuwe term voor klantreisanalyse | Adobe Analytics-term | Beschrijving |
+| Nieuwe Customer Journey Analytics term | Adobe Analytics term | Beschrijving |
 |---|---|---|
-| Gegevensset zoeken | Classificatie | De raadpleging van het gebruik om de waarde van de gespecificeerde dataset voor een sleutel/de passende sleutel (in een gebeurtenisdataset) terug te winnen waar er een 1-aan-1 verhouding is. Bijvoorbeeld, kon u &quot;tracking_code&quot;als sleutel specificeren die &quot;tracking_code&quot;in de gebeurtenisdataset aanpast. |
-| Profieldataset | Klantkenmerk | Als u de gegevens van de ondernemingsklant in een gegevensbestand van het het beheer van de klantenverhouding (CRM) vangt, kunt u de gegevens in een dataset van het Profiel in het Platform van de Ervaring van Adobe uploaden. Zodra u een verbinding aan die dataset in de Analyse van de Reis van de Klant creeert en een gegevensmening creeert, hefboomwerking de gegevens in Werkruimte. |
-| Login-bedrijf | Ervaring Cloud Organization | Zie [Organisaties en koppelingen van rekeningen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1). |
-| N.v.t. | Report Suite | De reeksen van het rapport in de traditionele betekenis van de Analyse van Adobe bestaan niet meer. In plaats daarvan maakt u (virtueel) [gegevensweergaven](/help/data-views/create-dataview.md) van de datasets van het Platform waaraan u verbindingen vestigde. |
-| Filter | Segment | Segmenten zijn nu filters. De filters in de Analyse van de Reis van de Klant gedragen het zelfde als segmenten. Alleen de terminologie is veranderd. |
-| Gegevensweergave | Virtuele rapportsuite | In de Analyse van Adobe, is een virtuele rapportreeks een gesegmenteerde mening van een reeks van het ouderrapport. Het belangrijkste verschil tussen een virtuele rapportreeks en een gegevensmening in CJA is dat de virtuele rapportreeks een ondergroep van een &quot;basis&quot;of &quot;ouder&quot;rapportreeks is en, als dusdanig, een aantal van zijn montages erft. Aangezien de ouder/de reeksen van het basisrapport niet meer bestaan, bepaalt u gegevensmeningen met hun eigen montages. |
+| Gegevensset opzoeken | Classificatie | De raadpleging van het gebruik om de waarde van de gespecificeerde dataset voor een sleutel/passende sleutel (in een gebeurtenisdataset) terug te winnen waar er een 1-aan-1 verhouding is. U kunt bijvoorbeeld &quot;tracking_code&quot; opgeven als de sleutel die overeenkomt met de &quot;tracking_code&quot; in de gebeurtenissenreeks. |
+| Profielgegevensset | Klant, kenmerk | Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een dataset van het Profiel in Adobe Experience Platform uploaden. Zodra u een verbinding aan die dataset in Customer Journey Analytics creeert en een gegevensmening creeert, hefboomwerking de gegevens in Werkruimte. |
+| Aanmeldingsbedrijf | Experience Cloud-organisatie | Zie [Organisaties en account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1). |
+| N.v.t. | Rapportsuite | Keuringssuites in de traditionele Adobe Analytics-zin bestaan niet meer. In plaats daarvan, creeert u (virtueel) [gegevensmeningen](/help/data-views/create-dataview.md) van de datasets van het Platform die u verbindingen aan vestigde. |
+| Filter | Segment | Segmenten zijn nu filters. Filters in Customer Journey Analytics gedragen zich hetzelfde als segmenten. Alleen de terminologie is veranderd. |
+| Gegevens, weergave | Virtuele rapportsuite | In Adobe Analytics is een virtuele rapportsuite een gesegmenteerde weergave van een bovenliggende rapportsuite. Het belangrijkste verschil tussen een virtuele rapportreeks en een gegevensmening in CJA is dat de virtuele rapportreeks een ondergroep van een &quot;basis&quot;of &quot;ouder&quot;rapportreeks is en, als zodanig, een aantal van zijn montages erft. Aangezien de ouder/basisrapportreeksen niet meer bestaan, bepaalt u gegevensmeningen met hun eigen montages. |
 
-## Verklarende woordenlijst Adobe Experience Platform
+## Adobe Experience Platform glossary
 
-Het Platform van de Ervaring van Adobe standaardiseert gegevens en inhoud over de onderneming, aandrijvend in real time consumentenprofielen, toelatend gegevenswetenschap, en het versnellen van inhoudssnelheid om ervaringsverpersoonlijking over de klantenreis te drijven.
-Zie de [Verklarende woordenlijst Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/acp-glossary.html)voor meer informatie .
+Adobe Experience Platform standaardiseert gegevens en inhoud in de hele onderneming, biedt realtime consumentenprofielen, maakt gegevenswetenschap mogelijk en versnelt de snelheid van de inhoud om de persoonlijke functionaliteit van de klant te verbeteren.
+Zie [Adobe Experience Platform Glossary](https://www.adobe.io/apis/experienceplatform/home/services/acp-glossary.html)voor meer informatie.
