@@ -15,9 +15,9 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor de Werkruimte van de Analyse in de Analyse van de Reis van de Klant. Zijn eigenschapreeks verschilt lichtjes van [De Werkruimte van de analyse in de traditionele Analyse van Adobe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Beweeg het informatie (i) pictogram naast een afmeting. Dit toont de hoogste 5 waarden voor niet-tijddimensies (en 15 voor tijdsdimensies). We hielden die waarden altijd statisch (d.w.z. de vijf gekozen waarden zijn nooit veranderd).
+Houd de muisaanwijzer boven het informatiepictogram (i) naast een dimensie. Dit toont de hoogste 5 waarden voor niet-tijdafmetingen (en 15 voor tijddimensies). We hielden die waarden altijd statisch (de 5 gekozen waarden zijn dus nooit gewijzigd).
 
 ![](assets/dimension-preview.png)
 
@@ -29,8 +29,8 @@ Nu, door gebrek, tonen wij dynamische waarden in plaats van statische degenen, m
 
 ![](assets/dimension_static.png)
 
-## Afmetingen weergeven
+## Dimensie-items tonen
 
-Wanneer u over een afmeting hangt en de grijze pijl-rechts naast het klikt, verschijnt een lijst van zijn afmetingspunten. Om het even welke lijst van afmetingspunten toont gewoonlijk de hoogste punten voor de laatste 30 dagen.
+Wanneer u de cursor boven een dimensie houdt en op de grijze pijl-rechts naast de dimensie klikt, wordt een lijst met de bijbehorende dimensie-items weergegeven. Een lijst met dimensie-items toont doorgaans de bovenste items voor de laatste 30 dagen.
 
-Als u neer aan de bodem van de lijst scrolt, zult u een **[!UICONTROL Show Top Items From Last 6 Months]**. Klik deze optie om hoogste afmetingspunten van de laatste 180 dagen te zien.
+Als u omlaag naar de onderkant van de lijst schuift, ziet u een **[!UICONTROL Show Top Items From Last 6 Months]**. Klik op deze optie om items met de bovenste dimensie van de afgelopen 180 dagen weer te geven.
