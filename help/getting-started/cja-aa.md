@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '973'
 ht-degree: 5%
 
 ---
@@ -40,6 +40,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Productvariabele | De productvariabele die momenteel beschikbaar is voor rapportage voor gegevens die voldoen aan het schema Experience Event (met name met behulp van het productListItems-object). |
+| Marketingkanalen | De gegevens van de Kanalen van de marketing stromen nu in CJA door de Verbinding van Gegevens van de Analyse. De regels van het Kanaal van de marketing moeten nog in traditionele Adobe Analytics worden gevormd. Sommige regels worden niet ondersteund. Zie [CJA-documentatie over marketingkanalen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) voor meer informatie. |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
 | Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
 | Aangepaste sessie | Ondersteuning voor alle andere aangepaste sessionisatiefuncties dan mobiele achtergrondhits. |
@@ -75,10 +76,11 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Geplande rapporten/projecten | Er is steun gepland. |
 | Waarschuwingen | Er is steun gepland. |
 | Aangepaste kalenders | Er is steun gepland. |
-| Marketingkanalen | Er is steun gepland. |
 | PDF exporteren | Er is steun gepland. |
 | API-toegang rapporteren | Ondersteuning is gepland; alleen beschikbaar met API 2.0. |
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
+| Report Builder (Excel-plug-in) | Er is steun gepland. |
+| Real-time rapportage | Er is steun gepland. |
 
 ## Steun nog niet gepland
 
@@ -87,11 +89,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | A4T | De steun is nog niet gepland. |
 | Media Analytics | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
-| Report Builder (Excel-plug-in) | De steun is nog niet gepland. |
 | Activity Map | De steun is nog niet gepland. |
 | Builder voor classificatieregels | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
-| Real-time rapportage | De steun is nog niet gepland. |
 
 ## Wordt nooit ondersteund
 
