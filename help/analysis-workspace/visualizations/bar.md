@@ -3,21 +3,17 @@ description: 'null'
 title: Balkgrafiek en gestapelde-balkgrafiek
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 9%
+source-wordcount: '81'
+ht-degree: 11%
 
 ---
 
 
 # Balkgrafiek en gestapelde-balkgrafiek
 
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
-
-## Balk
+## Balk {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
 
 Bij deze visualisatie worden verticale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
 
@@ -25,7 +21,7 @@ Bij deze visualisatie worden verticale balken weergegeven die verschillende waar
 
 Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
 
-## Stapel gestapeld
+## Stapel {#section_9EA83779AE964635907EE5031A785A49}
 
 Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
 
