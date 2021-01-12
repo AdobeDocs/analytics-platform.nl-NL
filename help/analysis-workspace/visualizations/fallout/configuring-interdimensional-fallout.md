@@ -3,19 +3,15 @@ description: Met de val in Analysis Workspace kunt u dimensies en metriek combin
 title: Interdimensionale uitval
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 3%
+source-wordcount: '164'
+ht-degree: 2%
 
 ---
 
 
 # Interdimensionale uitval
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 
