@@ -2,19 +2,15 @@
 description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '642'
+ht-degree: 2%
 
 ---
 
 
 # Toegankelijkheid in Analysis Workspace
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace], het belangrijkste hulpprogramma voor analyse voor Adobe Analytics.
 
@@ -26,11 +22,20 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 
 Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
-* Met de toets `F6` schakelt u vaste sneltoetsen in
-* De `Tab` sleutel beweegt zich tussen individuele elementen.
+* Met de `Tab`-toets kunt u sneltoetsen voor landmarkeringen gebruiken die tussen grotere secties in Workspace worden verplaatst. In het linkerspoor, `Tab` laat u ook toe om zich van één draggable optie aan volgende te bewegen.
+* De beweging `left/right arrows` tussen individuele elementen nadat `Tab` het heeft benadrukt.
+* `F6` navigeert aan het eerste paneel in het project en beweegt zich tussen de visualisaties binnen dat paneel. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
 
    ![Focusindicator](assets/focus-indicator.png)
+
+### Toetsenbordnavigatie voor de menubalk
+
+1. Tab totdat u de menubalk hebt bereikt.
+1. Gebruik de pijltoetsen naar links en rechts om naar het gewenste menu te navigeren.
+1. Druk op `Enter` om het menu te selecteren en de opties ervan weer te geven.
+1. Gebruik de pijltoetsen omhoog en omlaag om naar de gewenste menuoptie te navigeren.
+1. Druk op `Enter` om de optie te selecteren.
 
 ### Toetsenbordnavigatie voor interactie Slepen en neerzetten
 
@@ -43,7 +48,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een uitgebreide set  [sneltoetsen ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
+[!UICONTROL Analysis Workspace] biedt een uitgebreide set  [sneltoetsen ](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
 
 #### Navigatie
 
@@ -85,7 +90,7 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagi
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Projectkleurenpalet](/help/analysis-workspace/build-workspace-project/color-palettes.md).
+Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Projectkleurenpalet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
 
 ## Vereiste veldvalidatie in componentbuilders
 
