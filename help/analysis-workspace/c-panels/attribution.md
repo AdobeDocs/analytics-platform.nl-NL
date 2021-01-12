@@ -2,9 +2,9 @@
 title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -12,16 +12,12 @@ ht-degree: 1%
 
 # Deelvenster voor attributie
 
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
-
-Het toewijzingspaneel is een eenvoudige manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een eigenschap in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
+Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te bouwen die diverse attributiemodellen vergelijkt. Het is een eigenschap in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
 
 ## Een deelvenster met kenmerken maken
 
 1. Klik op het deelvensterpictogram aan de linkerkant.
-1. Sleep het deelvenster Kenmerken naar uw Analysis Workspace-project.
+1. Sleep het [!UICONTROL Attribution] paneel in uw Project van Analysis Workspace.
 
    ![Nieuw deelvenster voor kenmerken](assets/Attribution_Panel_1.png)
 
@@ -38,9 +34,10 @@ Het toewijzingspaneel is een eenvoudige manier om een analyse te maken waarin ve
 ## Attributievisualisaties
 
 * **Totaal metrisch**: Het totale aantal omzettingen dat zich tijdens het rapporttijdvenster voordeed. Dit zijn de omzettingen die over de afmeting worden toegeschreven u selecteerde.
-* **Metrische vergelijkingsbalkgrafiek** voor kenmerken: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
-* **Metrische kenmerken vrije-vormtabel**: Hiermee worden dezelfde gegevens weergegeven als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze lijst doet gelijkaardig aan een andere Lijst Freeform in Werkruimte - toestaand u om componenten zoals metriek, segmenten, of onderverdelingen toe te voegen.
-* **Overlap grafiek** Dimension: Een tekening van Venn die de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. De grootte van de ballonoverlapping geeft bijvoorbeeld aan hoe vaak conversies hebben plaatsgevonden wanneer een bezoeker aan beide dimensie-items werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
-* **Aanraakpunten op de markt per reis**: Een histogram dat het aantal aanraakpunten aangeeft dat een bezoeker in het terugzoekvenster had. Dit is handig om te zien hoe belangrijk multitouch-kenmerk is voor uw gegevensset. Als bijna alle bezoekers slechts één aanraakpunt hebben, tonen verschillende attributiemodellen waarschijnlijk vergelijkbare gegevens.
-* **Detail** van marketingkanaalprestaties: Hiermee kunt u maximaal drie kenmerkingsmodellen visueel vergelijken met behulp van een spreidingsgrafiek.
-* **Marketing Channel Flow**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde de bezoeker op reis is.
+* **Vergelijkingsbalk** voor kenmerken: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
+* **Vergelijkingstabel** kenmerk: Hiermee worden dezelfde gegevens weergegeven als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze lijst doet gelijkaardig aan een andere Lijst Freeform in Werkruimte - toestaand u om componenten zoals metriek, segmenten, of onderverdelingen toe te voegen.
+* **Overlap diagram**: Een tekening van Venn die de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. De grootte van de ballonoverlapping geeft bijvoorbeeld aan hoe vaak conversies hebben plaatsgevonden wanneer een bezoeker aan beide dimensie-items werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkingsmodellen visueel vergelijken met behulp van een spreidingsgrafiek.
+* **Trended Performance**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde de bezoeker op reis is.
+
