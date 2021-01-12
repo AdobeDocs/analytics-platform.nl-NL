@@ -3,19 +3,15 @@ description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel 
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Databronnen beheren
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 3%
 
 ---
 
 
 # Databronnen beheren
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
 
@@ -23,7 +19,7 @@ Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbr
 
 Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selectie vergrendelen. Deze instellingen bepalen hoe de visualisatie verandert (of niet verandert) wanneer er nieuwe gegevens binnenkomen.
 
-1. [Maak een ](/help/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Maak een ](//help/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Selecteer in de gegevenstabel de cellen (gegevensbron) die u aan de visualisatie wilt koppelen.
 1. Klik in de visualisatie op de punt naast de titel om het dialoogvenster **[!UICONTROL Data Source]** weer te geven. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
 
