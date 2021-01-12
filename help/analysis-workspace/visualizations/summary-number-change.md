@@ -3,19 +3,15 @@ description: Gebruik het Summiere Aantal en de visualisaties van de Verandering 
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '462'
 ht-degree: 5%
 
 ---
 
 
 # Cijferoverzicht en Wijzigingsoverzicht
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 ## Visualisatie van samenvattingsnummer {#summary-number}
 
@@ -26,7 +22,15 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-![Samenvattingsnummer](assets/summary-number.png)
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingsnummer te configureren:
+
+| Instelling | Definitie |
+|--- |--- |
+| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
+| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
+| Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
+| Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+
 
 Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingsnummer te configureren:
 
@@ -36,6 +40,7 @@ Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellin
 | Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
 | Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
 | Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+
 
 ## Visualisatie van overzichtswijziging {#summary-change}
 
@@ -50,7 +55,9 @@ Deze visualisatie werkt op de volgende manieren:
 * Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 
-![Samenvattingswijziging](assets/summary-change.png)
+
+![](assets/summary-change.png)
+
 
 Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingswijziging te configureren:
 
