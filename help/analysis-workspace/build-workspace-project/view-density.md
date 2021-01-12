@@ -2,19 +2,15 @@
 description: Leer hoe u de weergavedichtheid aanpast.
 title: Dichtheid weergeven
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
 
 
 # Dichtheid weergeven
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen.
 U hebt drie opties wanneer u de weergavedoniteit via keuzerondjes in- of uitschakelt:
