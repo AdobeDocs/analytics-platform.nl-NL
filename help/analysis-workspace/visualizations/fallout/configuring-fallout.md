@@ -3,19 +3,15 @@ description: 'null'
 title: Een uitvalvisualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
 
 
 # Een uitvalvisualisatie configureren
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen toevoegen, zoals eenheden, en unieke bezoekers en terugkeerbezoeken. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
 
@@ -69,7 +65,6 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
 | Instelling | Beschrijving |
 |--- |--- |
 | Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
-| Alle bezoekers tonen als eerste aanraakpunt | U kunt dit deselecteren als u liever niet &quot;Alle bezoekers&quot; als eerste aanraakpunt hebt. |
 
 Wanneer u **met de rechtermuisknop op een aanraakpunt** klikt, worden de volgende opties weergegeven:
 
