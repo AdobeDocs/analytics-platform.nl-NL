@@ -2,19 +2,15 @@
 description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bijbehorende onderdelen
 title: Bekende beperkingen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 2%
+source-wordcount: '332'
+ht-degree: 1%
 
 ---
 
 
 # Bekende beperkingen in Analysis Workspace
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbehorende componenten:
 
@@ -32,14 +28,14 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 * [!UICONTROL Flow]: Afmetingen in- en uitgangen, bv.  [!UICONTROL Entry page], kan niet worden gebruikt in Flow.
 * [!UICONTROL Cohort]: Niet-gehele getallen kunnen niet als cohortcriteria worden gebruikt.
 
-<!--## Panels
+## Deelvensters
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.<-->
+* Segmentvergelijking: Het [!UICONTROL Everyone Else] segment wordt niet gecreeerd als een segmentmalplaatje in de aanvankelijke dalingsstreek wordt gebruikt.
 
 ## Componenten > Filters
 
-* Bepaalde metriek en afmetingen zijn niet segmenteerbaar, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
-* Bepaalde componenten en operatoren zijn niet beschikbaar als een filter wordt gemaakt vanuit Workspace (in tegenstelling tot een filter dat wordt gemaakt van [!UICONTROL Components > Filters]). Bijvoorbeeld, IP Adres.
+* Bepaalde metriek en afmetingen kunnen niet worden gefilterd, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
+* Ad-hoc filters die in [paneeldropzone](/help/analysis-workspace/c-panels/panels.md) worden gecreeerd zullen niet in de linkerspoorstaaf van Workspace of de de componentenmanager van de Filter verschijnen, tenzij zij openbaar worden gemaakt. U doet dit door het filter te bewerken en **[!UICONTROL Make this filter public]** te selecteren.
 
 ## Componenten > Berekende cijfers
 
@@ -50,6 +46,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Componenten > Datumbereik
 
 * Aangepaste datumbereiken bieden geen ondersteuning voor [!UICONTROL This day last year], [!UICONTROL This day last month], enzovoort.
+
 
 ## Componenten > Rapportinstellingen
 
