@@ -3,19 +3,15 @@ description: 'null'
 title: Een stroomvisualisatie configureren
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
 
 
 # Een stroomvisualisatie configureren
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met Flow kunt u een pad door uw pagina&#39;s of dimensies volgen, zoals eVars:
 
