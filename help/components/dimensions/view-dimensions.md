@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: Hiermee geeft u de bovenste 5-waarden weer voor afmetingen die niet bij de tijd horen (en 15 voor tijdafmetingen).
 title: Voorvertoningsdimensies
-uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 27%
+source-wordcount: '219'
+ht-degree: 25%
 
 ---
 
