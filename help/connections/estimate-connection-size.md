@@ -2,7 +2,7 @@
 title: De verbindingsgrootte schatten
 description: Rapport over uw huidige gebruik van Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 1f496175e504cefed4239aab454744ecae72a6ea
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -54,4 +54,4 @@ In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die do
 
 1. Als we [!UICONTROL Adobe Experience Platform] inchecken, is er bovendien geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset heeft verwijderd uit [!UICONTROL Adobe Experience Platform] toen de eerste verbinding werd gemaakt. Later werd het opnieuw toegevoegd aan [!UICONTROL Customer Journey Analytics], maar een verschillende [!UICONTROL Platform Dataset ID] werd geproduceerd door [!UICONTROL Adobe Experience Platform].
 
-   Lees meer over [implicaties van dataset en verbindingsschrapping](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
+Lees meer over [implicaties van dataset en verbindingsschrapping](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
