@@ -1,11 +1,10 @@
 ---
-description: 'null'
+description: Met de functie Flow kunt u zien wat de klantenpaden zijn via uw websites en apps.
 title: Overzicht van stroom
-uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -19,11 +18,7 @@ Hiermee kunt u:
 
 * De reis van de klant door uw website of toepassing visualiseren
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
-* Segmenten maken door een specifiek punt op te geven in een gekozen pad
-
->[!NOTE]
->
->Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad Hoc Analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Filters maken door een specifiek punt in een gekozen pad aan te wijzen
 
 [Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) voor stroomvisualisatie (4:56)
 
