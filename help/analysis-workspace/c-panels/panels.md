@@ -2,10 +2,10 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 2%
+source-wordcount: '768'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,6 @@ A [!UICONTROL panel] is een inzameling van lijsten en visualisaties. U hebt toeg
 
 Het standaardstartvenster is het [!UICONTROL Freeform]-deelvenster, maar u kunt ook het [lege deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) als standaard instellen.
 
-## Rapportsuite {#report-suite}
-
-Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken. Als u één rapportsuite op alle deelvensters in een project wilt toepassen, **klikt u met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
-
-De lijst van rapportreeksen wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
-
-![](assets/panel-report-suite.png)
-
 ## Kalender {#calendar}
 
 De paneelkalender bepaalt het rapporteringswaaier voor lijsten en visualisaties binnen een paneel.
@@ -49,15 +41,15 @@ Met de dropzone van het deelvenster kunt u segment- en vervolgkeuzefilters toepa
 
 ### Segmentfilters
 
-Sleep een segment van de linkerspoorstaaf naar de neerzetzone van het deelvenster om het deelvenster te filteren.
+Sleep alle filters van de linkertrack naar de neerzetzone van het deelvenster om het deelvenster te filteren.
 
 ![](assets/segment-filter.png)
 
-### Ad-hocsegmentfilters
+### Ad-hocfilters
 
-Niet-segmentcomponenten kunnen ook rechtstreeks naar de dropzone worden gesleept om ad-hocsegmenten te maken, waardoor u tijd en moeite bespaart om naar de Segment Builder te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
+Niet-segmentcomponenten kunnen ook rechtstreeks naar de dropzone worden gesleept om ad-hocfilters te maken, waardoor u tijd en moeite bespaart om naar de Filter Builder te gaan. Filters die op deze manier worden gemaakt, worden automatisch gedefinieerd als filters op raakniveau. Deze definitie kan worden gewijzigd door te klikken op het informatiepictogram (i) naast het filter, vervolgens op het pictogram voor het bewerken van de vorm van een potlood en dit te bewerken in de Filter Builder.
 
-Ad-hocsegmenten zijn lokaal voor het project en verschijnen niet in uw linkerspoor tenzij u ze openbaar maakt.
+Ad-hocfilters zijn lokaal voor het project en worden alleen in de linkerrail weergegeven als u ze openbaar maakt.
 
 ![](assets/adhoc-segment-filter.png)
 
@@ -89,11 +81,10 @@ De volgende instellingen zijn beschikbaar:
 
 | Instelling | Beschrijving |
 | --- | --- |
-| Gekopieerd deelvenster/visualisatie invoegen | Hiermee kunt u een gekopieerd deelvenster of een visualisatie plakken (&quot;invoegen&quot;) naar een andere locatie in het project of naar een geheel ander project. |
-| Deelvenster kopiëren | Hiermee kunt u met de rechtermuisknop klikken en een deelvenster kopiëren, zodat u het kunt invoegen op een andere locatie in het project of in een geheel ander project. |
-| Rapportsuite toepassen op alle deelvensters | Hiermee kunt u de rapportsuite van het actieve deelvenster toepassen op alle deelvensters in het project. |
-| Deelvenster dupliceren | Hiermee maakt u een exacte kopie van het huidige deelvenster, dat u vervolgens kunt wijzigen. |
-| Alle deelvensters samenvouwen/uitvouwen | Hiermee vouwt u alle projectdeelvensters samen en breidt u deze uit. |
-| Alle visualisaties in deelvenster samenvouwen/uitvouwen | Hiermee vouwt u alle visualisaties in het huidige deelvenster samen en breidt u deze uit. |
-| Beschrijving bewerken | Voeg (of bewerk) een tekstbeschrijving voor het paneel toe. |
-| Deelvensterkoppeling ophalen | Hiermee kunt u iemand doorsturen naar een specifiek deelvenster binnen een project. Wanneer op de koppeling wordt geklikt, moet de ontvanger zich aanmelden voordat deze wordt omgeleid naar het exacte deelvenster dat is gekoppeld aan. |
+| [!UICONTROL Insert Copied Panel/Visualization] | Hiermee kunt u een gekopieerd deelvenster of een visualisatie plakken (&quot;invoegen&quot;) naar een andere locatie in het project of naar een geheel ander project. |
+| [!UICONTROL Copy Panel] | Hiermee kunt u met de rechtermuisknop klikken en een deelvenster kopiëren, zodat u het kunt invoegen op een andere locatie in het project of in een geheel ander project. |
+| [!UICONTROL Duplicate Panel] | Hiermee maakt u een exacte kopie van het huidige deelvenster, dat u vervolgens kunt wijzigen. |
+| [!UICONTROL Collapse/Expand all Panels] | Hiermee vouwt u alle projectdeelvensters samen en breidt u deze uit. |
+| [!UICONTROL Collapse/Expand all Visualizations in Panel] | Hiermee vouwt u alle visualisaties in het huidige deelvenster samen en breidt u deze uit. |
+| [!UICONTROL Edit Description] | Voeg (of bewerk) een tekstbeschrijving voor het paneel toe. |
+| [!UICONTROL Get Panel Link] | Hiermee kunt u iemand doorsturen naar een specifiek deelvenster binnen een project. Wanneer op de koppeling wordt geklikt, moet de ontvanger zich aanmelden voordat deze wordt omgeleid naar het exacte deelvenster dat is gekoppeld aan. |
