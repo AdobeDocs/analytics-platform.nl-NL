@@ -1,9 +1,8 @@
 ---
 description: Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 title: Interdimensionale uitval
-uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
