@@ -3,10 +3,10 @@ description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel 
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Databronnen beheren
 translation-type: tm+mt
-source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
+source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbr
 
 Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selectie vergrendelen. Deze instellingen bepalen hoe de visualisatie verandert (of niet verandert) wanneer er nieuwe gegevens binnenkomen.
 
-1. [Maak een ](//help/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Maak een ](/help/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Selecteer in de gegevenstabel de cellen (gegevensbron) die u aan de visualisatie wilt koppelen.
 1. Klik in de visualisatie op de punt naast de titel om het dialoogvenster **[!UICONTROL Data Source]** weer te geven. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
 
@@ -29,9 +29,9 @@ Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selecti
 
 | Element | Beschrijving |
 |--- |--- |
-| Gekoppelde visualisaties | Als er visualisaties zijn die met een vrije vorm of cohortlijst worden verbonden, opent de hoogste linkerpunt om van de aangesloten visualisaties een lijst te maken en een &quot;show&quot;checkbox optie te hebben om de lijst te tonen/te verbergen.  Als u de muisaanwijzer boven de gekoppelde visualisatie houdt, gaat u naar de gekoppelde visualisatie. |
-| Gegevensbron tonen | Hiermee kunt u (door het selectievakje in te schakelen) of de datatabel die overeenkomt met de visualisatie verbergen (door deze uit te schakelen). |
-| Selectie vergrendelen | Schakel deze instelling in om de visualisatie te vergrendelen op de gegevens die momenteel zijn geselecteerd in de corresponderende gegevenstabel. Als deze optie is ingeschakeld, kiest u tussen:  <ul><li>**Geselecteerde posities**: Kies deze optie als de visualisatie vergrendeld moet blijven op de posities die zijn geselecteerd in de bijbehorende gegevenstabel. Deze posities zullen zichtbaar blijven, zelfs als de specifieke posten in deze posities veranderen. Kies deze optie bijvoorbeeld als u de vijf belangrijkste campagnemenamen in deze visualisatie altijd wilt weergeven, ongeacht de naam van welke campagne in de bovenste vijf voorkomt.</li> <li>**Geselecteerde items**: Kies deze optie als de visualisatie vergrendeld moet blijven op de specifieke items die momenteel zijn geselecteerd in de bijbehorende tabel. Deze items blijven zichtbaar, zelfs als ze een andere positie innemen onder de items in de tabel. Kies deze optie bijvoorbeeld als u in deze visualisatie altijd dezelfde vijf specifieke campagnemenamen wilt weergeven, ongeacht de plaats waar die campagnemenamen staan.</li></ul> |
+| [!UICONTROL Linked Visualizations] | Als er visualisaties zijn die met een vrije vorm of cohortlijst worden verbonden, opent de hoogste linkerpunt om van de aangesloten visualisaties een lijst te maken en een &quot;show&quot;checkbox optie te hebben om de lijst te tonen/te verbergen.  Als u de muisaanwijzer boven de gekoppelde visualisatie houdt, gaat u naar de gekoppelde visualisatie. |
+| [!UICONTROL Show Data Source] | Hiermee kunt u (door het selectievakje in te schakelen) of de datatabel die overeenkomt met de visualisatie verbergen (door deze uit te schakelen). |
+| [!UICONTROL Lock Selection] | Schakel deze instelling in om de visualisatie te vergrendelen op de gegevens die momenteel zijn geselecteerd in de corresponderende gegevenstabel. Als deze optie is ingeschakeld, kiest u tussen:  <ul><li>**Geselecteerde posities**: Kies deze optie als de visualisatie vergrendeld moet blijven op de posities die zijn geselecteerd in de bijbehorende gegevenstabel. Deze posities zullen zichtbaar blijven, zelfs als de specifieke posten in deze posities veranderen. Kies deze optie bijvoorbeeld als u de vijf belangrijkste campagnemenamen in deze visualisatie altijd wilt weergeven, ongeacht de naam van welke campagne in de bovenste vijf voorkomt.</li> <li>**Geselecteerde items**: Kies deze optie als de visualisatie vergrendeld moet blijven op de specifieke items die momenteel zijn geselecteerd in de bijbehorende tabel. Deze items blijven zichtbaar, zelfs als ze een andere positie innemen onder de items in de tabel. Kies deze optie bijvoorbeeld als u in deze visualisatie altijd dezelfde vijf specifieke campagnemenamen wilt weergeven, ongeacht de plaats waar die campagnemenamen staan.</li></ul> |
 
 Deze architectuur verschilt van de vorige omdat Analysis Workspace niet langer een dubbele, verborgen tabel maakt waarin de vergrendelde selectie voor u wordt opgeslagen. De gegevensbron verwijst nu naar de tabel waaruit u de visualisatie hebt gemaakt.
 
