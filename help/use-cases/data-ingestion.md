@@ -2,9 +2,9 @@
 title: Opties voor gegevensinvoer voor Customer Journey Analytics
 description: Begrijp de verschillende manieren u gegevens in Customer Journey Analytics kunt opnemen
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 8a3a868ff4e2fbbcdf83ff7769382c6a92f78ec2
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -34,15 +34,9 @@ Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankel
 
 ## Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
 
-[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud. U kunt deze opname met of zonder Lancering vormen.
+[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud.
 
-### Zonder starten
-
-Deze koppeling werkt niet: https://docs.adobe.com/content/help/en/experience-platform/edge/get-started/quick-start-without-launch.html. Is dit nog mogelijk zonder Starten?
-
-### Met starten
-
-1. [Configureer de AEP Web SDK-extensie ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) om gegevens vanuit wegeigenschappen naar de Adobe Experience Cloud te verzenden via het Adobe Experience Platform Edge Network.
+1. [Configureer de AEP Web SDK-extensie in ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) Launchto en verzend gegevens naar de Adobe Experience Cloud vanuit wegeigenschappen via het Adobe Experience Platform Edge Network.
 1. Gebruik [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) om één of meerdere verbindingen en gegevensmeningen tot stand te brengen die uw kanaalrapportering zullen informeren.
 
 ## Ingrepen gegevens met batch-opname en streaming opname
