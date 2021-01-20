@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over kanaalanalyse
 description: Veelgestelde vragen voor kanaalanalyse
 translation-type: tm+mt
-source-git-commit: dd4e7e5cd04db6483f0e4a1f3161f23f8a5a8294
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Het aantal permanente id&#39;s is irrelevant ten gunste van de tijdelijke id. É
 
 ## Wanneer ik met de gewenste informatie contact opneem met mijn accountmanager, hoe lang duurt het dan voordat de opgehaalde gegevensset beschikbaar is?
 
-Livestitching is ongeveer 1 week beschikbaar nadat Adobe kanaalanalyse heeft ingeschakeld. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. Kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen doorgaans een paar dagen in beslag, terwijl grote gegevenssets (1 miljard gebeurtenissen per dag) een week of meer kunnen duren.
+Livemetching is ongeveer 1 week beschikbaar nadat Adobe Kanaalanalyse heeft ingeschakeld. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. Kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen doorgaans een paar dagen in beslag, terwijl grote gegevenssets (1 miljard gebeurtenissen per dag) een week of meer kunnen duren.
 
-## Hoe behandelt de Analysefunctie van het Kanaal GDPR en CCPA verzoeken?
+## Hoe behandelt de Analysefuncties van het Kanaal GDPR en CCPA verzoeken?
 
 Adobe behandelt verzoeken van de GDPR en de CCPA overeenkomstig de lokale en internationale wetgeving. Adobe biedt de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om verzoeken om gegevenstoegang en verwijdering in te dienen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
