@@ -1,8 +1,8 @@
 ---
 title: Hoe herspeelt u
-description: Begrijp het concept "replay"in de Analytics van het Kanaal
+description: Begrijp het concept "replay"in Kanaalanalyse
 translation-type: tm+mt
-source-git-commit: 26486c79f6d94db1aa795bf024f581cad74c25f6
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hoe herspeelt u
 
-De Analyse van de Kanalen maakt twee overgangen op gegevens over een bepaalde verbinding:
+Met Kanaalanalyse kunt u gegevens op een bepaalde verbinding in twee stappen doorgeven:
 
 * **Levend stitching**: CCA probeert om elke hit te stikken terwijl hij binnenkomt. De netto nieuwe apparaten aan de dataset die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
 * **Opnieuw afspelen**: CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de verbinding vastgezet. Adobe biedt twee herhalingsintervallen:
