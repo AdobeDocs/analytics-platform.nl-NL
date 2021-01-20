@@ -2,7 +2,7 @@
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 translation-type: tm+mt
-source-git-commit: b57895d037f8db3ffc418312b95fc43dd0280dc9
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Overzicht van kanaalanalyse
 
-**Reis-IQ: De** Analyse van het dwars-kanaal een eigenschap die u toestaat om identiteitskaart van de persoon van een dataset opnieuw aan te wijzen, die een naadloze combinatie veelvoudige datasets toelaat. CCA bekijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. Met de kanaalanalyse kunt u vragen beantwoorden zoals:
+**Reis-IQ: De** Analyse van het Kanaal een eigenschap die u toestaat om identiteitskaart van de persoon van een dataset opnieuw aan te wijzen, die een naadloze combinatie veelvoudige datasets toelaat. CCA bekijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. Met Kanaaloverschrijdende analyse kunt u vragen beantwoorden zoals:
 
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
@@ -29,7 +29,7 @@ Wanneer u datasets met gelijkaardige persoon IDs combineert, wordt de attributie
 >
 >Het nalaten om aan alle voorwaarden te voldoen kan in de oncapaciteit resulteren om een verbinding CCA of slechte resultaten tot stand te brengen wanneer het combineren van datasets.
 
-Voordat u de functie voor kanaalanalyse gebruikt, moet u controleren of uw organisatie is voorbereid met behulp van het volgende:
+Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisatie is voorbereid met behulp van het volgende:
 
 * Eén gegevensset in Adobe Experience Platform moet uit twee kolommen bestaan waarmee bezoekers kunnen worden geïdentificeerd:
    * A **persistent ID**, een identifier aanwezig op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van Adobe Analytics AppMeasurement wordt geproduceerd.
@@ -39,25 +39,25 @@ Voordat u de functie voor kanaalanalyse gebruikt, moet u controleren of uw organ
 
 ## Beperkingen
 
-Kanaaloverschrijdende analyse is een baanbrekende en robuuste functie, maar heeft beperkingen op hoe deze kan worden gebruikt.
+De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkingen op hoe het kan worden gebruikt.
 
 * De huidige mogelijkheden voor opnieuw aanvragen zijn beperkt tot één stap (permanente id tot tijdelijke id). Het opnieuw activeren in meerdere stappen (bijvoorbeeld een blijvende id naar een tijdelijke id en een andere tijdelijke id) wordt niet ondersteund.
 * Alleen gegevenssets voor gebeurtenissen worden ondersteund. Andere datasets, zoals raadplegingsdatasets, worden niet gesteund.
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
 * De Adobe-grafiek en de privégrafiek worden niet ondersteund.
 
-## Kanaalanalyse inschakelen
+## Kanaaloverschrijdende analyse inschakelen
 
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in CJA te gebruiken.
 
 1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 1. Neem contact op met uw accountmanager van Adobe, die het volgende bevat:
-   * Een verzoek om kanaalanalyse in te schakelen
+   * Een verzoek om Kanaaloverschrijdende analyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt)
    * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets)
    * Uw voorkeur van [replay](replay.md) frequentie en raadplegingslengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
-1. De accountmanager van Adobe schakelt de kanaalanalyse in wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe ID-kolom weergegeven. Uw Adobe Account Manager kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
+1. De Adobe Account Manager schakelt Channel Analytics in bij het ontvangen van uw verzoek. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe ID-kolom weergegeven. Uw Adobe Account Manager kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
 1. [Creeer een ](../create-connection.md) verbinding in CJA gebruikend de onlangs geproduceerde dataset en om het even welke andere datasets die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Maak een ](/help/data-views/create-dataview.md) gegevensweergave op basis van de verbinding.
 
