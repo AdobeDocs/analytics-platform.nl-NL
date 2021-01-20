@@ -79,7 +79,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
 
-* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en nog veel meer onderverdeeld.
+* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
 
 ### Commerce
 
