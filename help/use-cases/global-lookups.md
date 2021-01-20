@@ -4,7 +4,7 @@ description: Gebruik globale raadplegingen om de rapportage te vergroten met nut
 translation-type: tm+mt
 source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
