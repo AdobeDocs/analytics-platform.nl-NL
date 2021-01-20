@@ -2,9 +2,9 @@
 title: Telefooncentrum en webgegevens importeren
 description: Leer hoe te om een dataset tot stand te brengen die de gegevens van het vraagcentrum en van de website verbindt.
 translation-type: tm+mt
-source-git-commit: 8d2f70ad47dcf9b97808da3a04d32d3412a1f0c8
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Telefooncentrum en webgegevens importeren
 
-Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om datasets van verschillende bronnen in één enkel project van de Werkruimte te combineren. Gebruik deze gids om te begrijpen hoe uw organisatie gegevens van uw website aan gegevens kan verbinden die uit uw vraagcentrum voortkomen.
+Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om datasets van verschillende bronnen in één enkel project van de Werkruimte te combineren. In deze handleiding leert u hoe uw organisatie websitegegevens kan combineren met gegevens van callcenter.
 
 ## Vereisten
 
@@ -31,7 +31,7 @@ Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om dat
 
 ## Webgegevens en callcentergegevens importeren in Platform
 
-Beginnen met het importeren van gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
+Importeer uw gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 
 Als u gegevens importeert in Platform, kunt u met deze tips meer inzicht krijgen in de resulterende rapporten:
 
@@ -43,7 +43,7 @@ Als u gegevens importeert in Platform, kunt u met deze tips meer inzicht krijgen
 CJA vereist een gemeenschappelijke herkenningsteken om [gecombineerde dataset](../connections/combined-dataset.md) te produceren.
 
 * Als uw datasets reeds een gemeenschappelijke herkenningsteken op elke gebeurtenis over beide datasets hebben, kunt u deze stap overslaan en te werk gaan om een verbinding tot stand te brengen.
-* Als één van uw datasets een gemeenschappelijke herkenningsteken op slechts sommige gebeurtenissen heeft, kunt u gegevens verenigen gebruikend de Analytics van het Kanaal. Zie [Overzicht van de Analytics van het Kanaal](/help/connections/cca/overview.md) voor stappen om CCA voor deze twee datasets toe te laten.
+* Als één van uw datasets een gemeenschappelijke herkenningsteken op slechts sommige gebeurtenissen heeft, kunt u gegevens verbinden gebruikend Analytics over het Kanaal. Zie [Overzicht van de Analytics van het Kanaal](/help/connections/cca/overview.md) voor stappen om CCA voor deze twee datasets toe te laten.
 
 ## Verbinding maken in CJA
 
@@ -100,9 +100,19 @@ step 3: call
 another good one
 
 step 1: all sessions
-step 2: -->
+step 2: 
 
-<!--  use target (AB testing) to test new versions of these pages so they reduce calls (using an eVar to determine A/B?)
-  filter by specific call reason using workspace dropdowns
-  visualize flow of pages > call reason 
--->
+Orrr we could also use dataset ID
+
+### Site sections that result in a call within 30 minutes
+
+Slide 4
+
+Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+
+wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
+
+use sequential segmentation, but you lose the ability to use attribution IQ
+
+## What to do when you've found insight -->
+
