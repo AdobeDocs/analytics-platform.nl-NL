@@ -2,9 +2,9 @@
 title: Gecombineerde gegevenssets voor gebeurtenissen
 description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
 translation-type: tm+mt
-source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
+source-git-commit: b6bfb14b594f42efc114bbde1b047b814e1cf653
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '344'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ Wanneer u een verbinding creeert, combineert CJA alle schema&#39;s en datasets i
 * Schema&#39;s worden gecombineerd. Dubbele schemavelden worden samengevoegd.
 * De kolom &#39;Person ID&#39; van elke dataset wordt samengevoegd in één kolom, ongeacht de naam ervan. Deze kolom vormt de basis voor het identificeren van unieke bezoekers in CJA.
 * Rijen worden verwerkt op basis van een tijdstempel.
+
+Het concept van gecombineerde gegevensbestanden is vergelijkbaar met het concept van het combineren van rapportagesets in traditionele Adobe Analytics.
 
 ## Voorbeeld
 
@@ -64,7 +66,7 @@ Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, zou het tre
 | string_color | metrisch_a |
 | --- | --- |
 | Niet opgegeven | 6 |
-| Blauw | 3 |
+| Blauw | 1 |
 | Rood | 2 |
 
 Nochtans, als u beide lijsten in uw verbinding omvatte, attributieveranderingen aangezien `user_847` in beide datasets is. Een rij van de tweede dataset kenmerkt `metric_a` aan &quot;Geel&quot;waar zij eerder niet gespecificeerd waren:
