@@ -2,10 +2,10 @@
 description: Tabellen pagineren, filteren en sorteren in Workspace
 title: Pagineren, filteren en tabellen sorteren
 translation-type: tm+mt
-source-git-commit: 71401db7bf034136eb053f559962b1eb49175ec1
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 Bekijk de volgende videozelfstudie voor een overzicht van paginering, filteren en sorteren van tabellen in Analysis Workspace:
 
->[!VIDEO](https://publish.tv.adobe.com/bucket/1/category/2282/video/23968/)
+>[!VIDEO](https://video.tv.adobe.com/v/23968)
 
 ## Geavanceerde filteropties {#section_36E92E31442B4EBCB052073590C1F025}
 
