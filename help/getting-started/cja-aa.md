@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: c70662468126279110f14291c135a3f60dd919db
+source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1003'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Adobe Experience Platform] wordt behandeld - CJA erft welke gegevensveranderingen [!UICONTROL Experience Platform] aan onderliggende datasets maakt. |
 | Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of maateenheden bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
+| Draaien tussen apparaten en kanalen | Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | Buiten-de-box Analysis Workspace-afmetingen (bv. Browsertype, Type referentie, Besturingssysteem enz.) | CJA biedt deze afmetingen native zolang de basis-XDM-velden (zoals gebruikersagent of apparaat-id) zijn gevuld. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop analysevariabelen worden ondersteund via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | API-toegang rapporteren | Momenteel beschikbaar via de Analytics API 2.0. |
 
@@ -59,8 +60,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
 | Merchandising-eVars | Het gedrag van Merchandising eVars kan worden bereikt gebruikend dimensies binnen een Serie van Objecten aangezien een koopjesdising eVar niet wordt geplaatst om persistentie te gebruiken. Op dit moment is de persistentie van de dimensie van de koophandel niet beschikbaar. |
 | Bot filteren | Voor gegevenssets op basis van de analytische gegevensconnector (ADC) wordt beide filters toegepast. De algemene binaire filterlogica voor andere datasets wordt niet uitgevoerd door [!UICONTROL Experience Platform] of CJA. |
-| Verwerkingsregels | Voor op ADC-Gebaseerde datasets, worden de verwerkingsregels nog toegepast. |
-| Identiteitsinstellingen voor meerdere apparaten | CJA ondersteunt voortdurend cross-device, cross-channel identiteitsstitching, inclusief periodieke aanpassing van historische gegevens. Momenteel kan dit alleen worden gedaan met behulp van één door de klant ingestelde identiteit in combinatie met één cookie-id. |
+| Verwerkingsregels | Voor op gegevensschakelaar-gebaseerde datasets van Gegevens van Analytics, worden de verwerkingsregels nog toegepast. |
 | Media Analytics | De gegevens van media zijn beschikbaar als deel van de Verbinding van Gegevens van Analytics. |
 
 ## Momenteel niet ondersteund, maar gepland
