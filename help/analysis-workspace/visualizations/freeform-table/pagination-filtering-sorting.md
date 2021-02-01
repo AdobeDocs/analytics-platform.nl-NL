@@ -2,7 +2,7 @@
 description: Tabellen pagineren, filteren en sorteren in Workspace
 title: Pagineren, filteren en tabellen sorteren
 translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 17%
@@ -46,7 +46,7 @@ Als u op het filterpictogram klikt en vervolgens **[!UICONTROL Show Advanced]** 
 
 1. In om het even welke lijst van de Vrije Vorm in een project, klik de pijl naast de afmetingsnaam:
 
-Voeg hier screenshot in.
+![](assets/sort-dimensions.png)
 
 * De pijl-omlaag sorteert in aflopende volgorde en de pijl-omhoog (standaard) in oplopende volgorde.
-* U kunt de afmetingen alfabetisch of numeriek sorteren. U hebt bijvoorbeeld genummerde stappen in een werkstroom en wilt mogelijk sorteren op het stapnummer. U kunt een aan een datum gerelateerde dimensie op datum sorteren. Of u kunt een productnaamdimensie alfabetisch sorteren.
+* U kunt de afmetingen alfabetisch of numeriek sorteren. U hebt bijvoorbeeld genummerde stappen in een werkstroom en wilt mogelijk sorteren op het stapnummer. U kunt een aan een datum gerelateerde dimensie op datum sorteren. U kunt gegevensbronnen ook alfabetisch sorteren, zoals in de bovenstaande schermafbeelding.
