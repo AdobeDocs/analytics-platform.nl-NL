@@ -4,7 +4,7 @@ cloud: experience-cloud
 product: adobe analytics
 sub-product: reis van klant
 solution: Customer Journey Analytics
-type: Documentation
+type: Documentatie
 index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
@@ -20,7 +20,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 43%
 
 ---
