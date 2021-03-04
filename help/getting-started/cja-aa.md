@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: 1a436ac162df0ae96525fd2e71daef55b078a59c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 ## Volledig ondersteunde functies/componenten
 
-| Adobe Analytics-functie | Notities |
+| Adobe Analytics-functie | Opmerkingen over ondersteuning |
 | --- | --- |
 | Metrics | CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
 | Dimensies | CJA gebruikt XDM en ondersteunt onbeperkte afmetingen en is niet gekoppeld aan de aangepaste eVars of props van traditionele Analytics. |
@@ -100,5 +100,4 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 * Bladwijzers voor rapporten en analyses
 * Doelstellingen voor rapporten en analyses
 * Gebeurtenissen van de agenda voor rapporten en analyses
-* Ad Hoc Analysis
 * Mobiele services
