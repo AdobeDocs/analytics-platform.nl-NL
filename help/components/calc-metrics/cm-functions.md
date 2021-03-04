@@ -2,10 +2,10 @@
 title: Referentie - basisfuncties
 description: 'Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen. '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -318,16 +318,10 @@ Als u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat 
 
 Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
-3
+1
 
 2
 
-3
+1
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis ziet dit er zo uit:
-
-1-2-3
-
-2/3
-
-3 2/3
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
