@@ -2,9 +2,9 @@
 description: De valutamogelijkheden laten zien waar bezoekers een vooraf gedefinieerde reeks pagina's hebben verlaten (uitgevallen) en doorlopen (doorlopen).
 title: Overzicht van uitval
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '515'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Een uitvalvisualisatie is handig voor het analyseren van:
 
 ## Segmentatie als basis voor stroom en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Segmenten die zijn toegepast op deelvensters Werkruimte, werken iets anders dan segmenten die zijn toegepast op rapportage over fallout en stroom in rapporten en analyse of Ad Hoc Analysis. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics en Ad Hoc Analysis het segment bij elke stap van de opeenvolging toepassen. Dit kan tot iets verschillende resultaten leiden.
+Segmenten die worden toegepast op deelvensters Werkruimte, werken iets anders dan segmenten die worden toegepast op fallout- en stroomrapporten in Rapporten en Analyse in Adobe Analytics. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics het segment bij elke stap van de opeenvolging toepast. Dit kan tot iets verschillende resultaten leiden.
 
 Laten we een voorbeeld nemen van fallout met twee stappen:
 
@@ -46,13 +46,13 @@ Als u dan een segment op het het paneelniveau van de Werkruimte toepast, combine
 
 ![](assets/fallout_seg.png)
 
-Als daarentegen het segment wordt berekend door Rapporten &amp; Analytics en Ad Hoc Analysis, wordt het segment op deze manier gecombineerd:
+Als het segment daarentegen wordt berekend met behulp van Rapporten en Analytics, wordt het segment op deze manier gecombineerd:
 
 ![](assets/fallout_segments3.png)
 
-Rapporten &amp; Analytics en Ad Hoc Analysis combineren het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
+Rapporten &amp; Analytics combineert het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
 
-Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, komen de aantallen in Analysis Workspace in de meeste gevallen overeen met die in Reports &amp; Analytics en Ad Hoc Analysis. Ze zullen alleen **niet** overeenkomen als alle onderstaande gevallen waar zijn:
+Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, komen in de meeste gevallen de aantallen in Analysis Workspace overeen met die in Rapporten &amp; Analytics. Ze zullen alleen **niet** overeenkomen als alle onderstaande gevallen waar zijn:
 
 * Het segment bevindt zich niet op hetzelfde niveau als de uitval.
 * Het segment heeft een variabele waarbij de bezoeker/bezoeker meerdere waarden kan hebben tijdens een bezoek/bezoeker.
