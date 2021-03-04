@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 translation-type: tm+mt
-source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
+source-git-commit: 1a436ac162df0ae96525fd2e71daef55b078a59c
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1025'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Adobe Analytics-functie | Notities |
 | --- | --- |
 | Metrics | CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
-| Dimensies | CJA maakt gebruik van XDM en ondersteunt onbeperkte afmetingen en is niet gekoppeld aan de aangepaste succesgebeurtenissen van traditionele Analytics. |
-| Variabelen/lijsteigenschappen weergeven | CJA gebruikt XDM en ondersteunt onbeperkte lijstvariabelen |
+| Dimensies | CJA gebruikt XDM en ondersteunt onbeperkte afmetingen en is niet gekoppeld aan de aangepaste eVars of props van traditionele Analytics. |
+| Variabelen/lijsteigenschappen weergeven | CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
 | Datumbereik | Ondersteuning voor Aangepaste agenda is gepland. |
 | Berekende standaarden | Bestaande cijfers in de traditionele Analysis Workspace worden niet naar CJA verzonden. |
 | Segmenten | Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
@@ -33,7 +33,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
 | Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Adobe Experience Platform] wordt behandeld - CJA erft welke gegevensveranderingen [!UICONTROL Experience Platform] aan onderliggende datasets maakt. |
-| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of maateenheden bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
+| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of meetgegevens bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
 | Draaien tussen apparaten en kanalen | Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | Buiten-de-box Analysis Workspace-afmetingen (bv. Browsertype, Type referentie, Besturingssysteem enz.) | CJA biedt deze afmetingen native zolang de basis-XDM-velden (zoals gebruikersagent of apparaat-id) zijn gevuld. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop analysevariabelen worden ondersteund via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | API-toegang rapporteren | Momenteel beschikbaar via de Analytics API 2.0. |
@@ -80,6 +80,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
 | Report Builder (Excel-plug-in) | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
+| Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. [!UICONTROL Experience Platform Query Service] verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
 
 ## Steun nog niet gepland
 
@@ -90,6 +91,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Activity Map | De steun is nog niet gepland. |
 | Builder voor classificatieregels | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
+| Gegevensfeeds | De steun is nog niet gepland. |
 
 ## Wordt nooit ondersteund
 
@@ -99,6 +101,4 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 * Doelstellingen voor rapporten en analyses
 * Gebeurtenissen van de agenda voor rapporten en analyses
 * Ad Hoc Analysis
-* Rapportage van de Data Warehouse - [!UICONTROL Experience Platform Query Service] zal de nieuwe interface voor deze gebruiksgevallen in CJA zijn.
 * Mobiele services
-* Gegevensfeeds
