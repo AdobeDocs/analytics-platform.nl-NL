@@ -2,9 +2,9 @@
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 translation-type: tm+mt
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
+source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Alleen gegevenssets voor gebeurtenissen worden ondersteund. Andere datasets, zoals raadplegingsdatasets, worden niet gesteund.
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
 * De Adobe-grafiek en de privégrafiek worden niet ondersteund.
+* Met Kanaaloverschrijdende analyse wordt het veld dat wordt gebruikt voor stitching op geen enkele manier getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld zoals deze bestaat in de ongeordende dataset in het gegevensmeer. Als bijvoorbeeld soms het woord &#39;Bob&#39; in het veld wordt weergegeven en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze als twee aparte personen behandeld.
+
 
 ## Kanaaloverschrijdende analyse inschakelen
 
