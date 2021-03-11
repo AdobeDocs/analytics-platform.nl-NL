@@ -2,9 +2,9 @@
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 translation-type: tm+mt
-source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, 
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt)
    * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets)
    * Uw voorkeur van [replay](replay.md) frequentie en raadplegingslengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
-1. De Adobe Account Manager schakelt Channel Analytics in bij het ontvangen van uw verzoek. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe ID-kolom weergegeven. Uw Adobe Account Manager kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
+1. De accountmanager van Adobe werkt samen met de Adobe om Kanaalanalyse in te schakelen bij het ontvangen van uw verzoek. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Uw Adobe Account Manager kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
+1. Als Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens met een stitched-functie gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
 1. [Creeer een ](../create-connection.md) verbinding in CJA gebruikend de onlangs geproduceerde dataset en om het even welke andere datasets die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Maak een ](/help/data-views/create-dataview.md) gegevensweergave op basis van de verbinding.
 
