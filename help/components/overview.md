@@ -2,10 +2,10 @@
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 29%
+source-wordcount: '588'
+ht-degree: 17%
 
 ---
 
@@ -53,3 +53,15 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) op versch
 Bekijk de video over het maken van statistieken, segmenten en datums:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
+
+## Machtigingen voor componenttoegang
+
+Beheerders kunnen bepalen (via [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)) welke componenten aan gebruikers worden blootgesteld in de rapportage. In de volgende tabel ziet u hoe deze machtigingen voor componenttoegang werken:
+
+| Curvetype | Admin kan | Niet-admin-projecteigenaar (of bewerkingsrol) kan zien | Niet-beheerder dubbele rol |
+| --- | --- | --- | --- |
+| **Componenten &quot;verborgen&quot; in een gegevensweergave** | Alle componenten van de gegevensmening beschikbaar voor het melden (de verborgen componenten vereisen klikkend &quot;toont allen&quot;) | Niet beschikbaar voor rapportage | Niet beschikbaar voor rapportage |
+| **Componenten die zijn toegevoegd of verwijderd uit een gegevensweergave** | Alleen componenten die aan de gegevensweergave zijn toegevoegd (verborgen of niet verborgen). Beheerders kunnen geen gegevens rapporteren over velden of componenten die niet zijn gedefinieerd in de gegevensweergave. | Alleen componenten die zijn toegevoegd aan de gegevensweergave of componenten die eigendom zijn van of worden gedeeld met de gebruiker. Verborgen componenten zijn niet beschikbaar (zoals VRS-curatie). | Alleen componenten die aan de DV zijn toegevoegd, worden niet verborgen en zijn opgenomen in de projectcuratie. |
+| **Samengevoegde componenten in een project** | Alle componenten van de gegevensmening beschikbaar voor het melden (de verborgen componenten vereisen klikkend &quot;toont allen&quot;) | Alle niet-verborgen componenten van de gegevensweergave (klik op Alles tonen) | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
+| **Gekromd project dat een gegevensmening met verborgen componenten gebruikt** | Alle gegevenscomponenten die beschikbaar zijn voor rapportage (voor verborgen en niet-gekromde componenten moet u op Alles tonen klikken) | Alle niet-beheerde projectcomponenten, alle niet-verborgen componenten van de gegevensmening, en om het even welke componenten die door of met de gebruiker worden bezeten worden gedeeld | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
+
