@@ -2,10 +2,10 @@
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
+source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 13%
 
 ---
 
@@ -43,10 +43,10 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) op versch
 >Deze handelingen zijn niet van toepassing op tijdcomponenten.
 
 | Component Handeling | Beschrijving |
-|--- |--- |
-| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. De component wordt vervolgens weergegeven in de respectievelijke componentbeheerfunctie, zoals Analytics > Componenten > Segmenten, of Analytics > Componenten > Projecten |
-| Favorieten | Voeg de component toe aan de lijst met favorieten. De component wordt vervolgens weergegeven in de respectievelijke componentbeheerfunctie, zoals Analytics > Componenten > Segmenten, of Analytics > Componenten > Projecten. |
-| Goedkeuren | Keur de component goed om deze canonicaal te maken. De component wordt vervolgens weergegeven in de respectievelijke componentbeheerfunctie, zoals Analytics > Componenten > Segmenten, of Analytics > Componenten > Projecten |
+| --- | --- |
+| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Favorieten | Voeg de component toe aan de lijst met favorieten. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
+| Goedkeuren | Keur de component goed om deze canonicaal te maken. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
 | Delen | Alleen van toepassing op segmenten. |
 | Verwijderen | Alleen van toepassing op segmenten. |
 
@@ -56,12 +56,4 @@ Bekijk de video over het maken van statistieken, segmenten en datums:
 
 ## Machtigingen voor componenttoegang
 
-Beheerders kunnen bepalen (via [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)) welke componenten aan gebruikers worden blootgesteld in de rapportage. In de volgende tabel ziet u hoe deze machtigingen voor componenttoegang werken:
-
-| Curvetype | Admin kan | Niet-admin-projecteigenaar (of bewerkingsrol) kan zien | Niet-beheerder dubbele rol |
-| --- | --- | --- | --- |
-| **Componenten &quot;verborgen&quot; in een gegevensweergave** | Alle componenten van de gegevensmening beschikbaar voor het melden (de verborgen componenten vereisen klikkend &quot;toont allen&quot;) | Niet beschikbaar voor rapportage | Niet beschikbaar voor rapportage |
-| **Componenten die zijn toegevoegd of verwijderd uit een gegevensweergave** | Alleen componenten die aan de gegevensweergave zijn toegevoegd (verborgen of niet verborgen). Beheerders kunnen geen gegevens rapporteren over velden of componenten die niet zijn gedefinieerd in de gegevensweergave. | Alleen componenten die zijn toegevoegd aan de gegevensweergave of componenten die eigendom zijn van of worden gedeeld met de gebruiker. Verborgen componenten zijn niet beschikbaar (zoals VRS-curatie). | Alleen componenten die aan de DV zijn toegevoegd, worden niet verborgen en zijn opgenomen in de projectcuratie. |
-| **Samengevoegde componenten in een project** | Alle componenten van de gegevensmening beschikbaar voor het melden (de verborgen componenten vereisen klikkend &quot;toont allen&quot;) | Alle niet-verborgen componenten van de gegevensweergave (klik op Alles tonen) | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
-| **Gekromd project dat een gegevensmening met verborgen componenten gebruikt** | Alle gegevenscomponenten die beschikbaar zijn voor rapportage (voor verborgen en niet-gekromde componenten moet u op Alles tonen klikken) | Alle niet-beheerde projectcomponenten, alle niet-verborgen componenten van de gegevensmening, en om het even welke componenten die door of met de gebruiker worden bezeten worden gedeeld | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
-
+In Analysis Workspace kunnen Admins [curate](/help/analysis-workspace/curate-share/curate.md) gebruiken welke componenten aan gebruikers in het melden worden blootgesteld.
