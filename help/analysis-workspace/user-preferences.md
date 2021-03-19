@@ -2,7 +2,7 @@
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
 description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
 translation-type: tm+mt
-source-git-commit: 90b69c13a7a63228f62c4b6291b3d66f8e3c821b
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 1%
@@ -36,8 +36,8 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
 | **Weergave** |  |  |
-|  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Door Adobe verschafte paletten (standaard)</li><li>Aangepaste paletten</li></ul> |
+|  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
+|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Door Adobe verschafte paletten (standaard)</li><li>Aangepaste paletten</li></ul> |
 | **Gegevens** |  |  |
 |  | [Rapportsuites](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>Recentste (standaard)</li><li>Specifiek - gekozen uit een lijst</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | Lijst met datumbereiken die buiten de box vallen, inclusief **[!UICONTROL This month]** (standaard) |
