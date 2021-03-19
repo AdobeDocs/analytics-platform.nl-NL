@@ -1,20 +1,20 @@
 ---
-title: Customer Journey Analytics dashboards - Overzicht
+title: Analysedashboards - Overzicht
 description: Productdocumentatie en zelfhulp voor Customer Journey Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: 6a2e32f6bdac3b47a74e262c0b0e0f4f93b2dc4d
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 
-# Customer Journey Analytics [!UICONTROL dashboards] - Overzicht
+# Analyse [!UICONTROL dashboards] - Overzicht
 
-**Customer Journey Analytics[!UICONTROL dashboards]** biedt altijd en overal inzicht in Customer Journey Analytics. Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
+**Analyses[!UICONTROL dashboards]** bieden altijd en overal inzicht in Customer Journey Analytics. Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
 
-Raadpleeg de volgende bronnen voor meer informatie over Customer Journey Analytics [!UICONTROL dashboards]:
+Raadpleeg de volgende bronnen voor meer informatie over Analytics [!UICONTROL dashboards]:
 
 * [Curatorhulplijn](/help/mobile-app/curator.md): Deze gids is bedoeld om curatoren van gegevens te helpen Scorecards voor hun uitvoerende gebruikers vormen op  [!UICONTROL dashboards]. Curatoren kunnen organisatieadministrateurs of personen in andere functies zijn die verantwoordelijk zijn voor het opstellen van scoreborden.
 
