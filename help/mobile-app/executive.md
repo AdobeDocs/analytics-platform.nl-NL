@@ -1,23 +1,23 @@
 ---
 description: Instructies voor het gebruik van de dashboards scorecards.
-title: Handleiding voor Adobe Analytics-dashboards
+title: Uitvoeringshandleiding voor analytische dashboards
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
+# Analysedashboards: Handleiding voor snel starten van gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
+De volgende informatie verstrekt uitvoerende gebruikers van informatie over beste praktijken voor het gebruiken van en het bekijken van de dashboards van Analytics. Zie [In-app-ervaring voor analysedashboards](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
 
 
 ## Inleiding
 
-Adobe Analytics-dashboards bieden altijd en overal inzicht vanuit Adobe Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
+De dashboards van de Analytics verstrekt om het even welk ogenblik, overal inzichten van Customer Journey Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Meer informatie over deze handleiding
 
@@ -27,8 +27,8 @@ Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en
 
 | Term | Definitie |
 |--- |--- |
-| Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
-| Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
+| Consumenten | Executive-gebruiker die belangrijke metriek en inzichten van CJA op een mobiel apparaat bekijkt |
+| Curator | De gegevens schrijven mensen voor die binnen CJA inzichten vinden en verspreiden en de Scorecards vormen die door de consument moeten worden bekeken |
 | Curation | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
 | Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
@@ -44,7 +44,7 @@ Om de dashboards effectief te gebruiken, zult u uw hulp van de Curator van het S
 
 Als u toegang wilt tot scoreborden op dashboards, moet u ervoor zorgen dat:
 
-* U hebt een geldige aanmelding bij Adobe Analytics
+* U hebt een geldige aanmelding bij Customer Journey Analytics
 * Uw curator heeft op de juiste wijze mobiele scoreborden gemaakt en deze met u gedeeld
 
 ### Dashboards downloaden en installeren
@@ -53,13 +53,13 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in CJA onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [iOS-koppeling](https://apple.co/2zXq0aN)
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in CJA onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [Android-koppeling](https://bit.ly/2LM38Oo)
 
