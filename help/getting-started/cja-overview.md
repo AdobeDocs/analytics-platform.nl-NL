@@ -2,9 +2,9 @@
 title: Overzicht van Customer Journey Analytics
 description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
+source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Voordat u kunt beginnen met het gebruik van Customer Journey Analytics, moet aan
 
 Om verbindingen tot stand te brengen, voeg datasets, enz. toe, hebt u de volgende toestemmingen in [Admin Console](https://adminconsole.adobe.com/enterprise/) nodig:
 
-* Vanaf 9 september 2020 moet u als Admin aan **Customer Journey Analytics Product** in [Admin Console](https://adminconsole.adobe.com/enterprise/) worden toegevoegd om toegang te krijgen tot Customer Journey Analytics of een verbinding te maken. Aan productbeheerders worden de volgende machtigingen verleend:
+* Om tot Customer Journey Analytics toegang te hebben of een verbinding te maken, zult u als Admin aan **Customer Journey Analytics Product** in [Admin Console](https://adminconsole.adobe.com/enterprise/) moeten worden toegevoegd. Aan productbeheerders worden de volgende machtigingen verleend:
    * Verbindingen of gegevensweergaven maken/bijwerken/verwijderen
    * Werk/schrap projecten, filters, calc metriek, of segmenten bij die door andere gebruikers worden gecreeerd
    * Een Workspace-project delen met alle gebruikers
