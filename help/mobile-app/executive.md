@@ -2,9 +2,9 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Uitvoeringshandleiding voor analytische dashboards
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Dashboards gebruiken:
 
    * Afhankelijk van het interval dat u tikt (**Day**, **Week**, **Month**, of **Year**), zult u twee opties voor datumwaaier-of de huidige tijdspanwijdte of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]**- gebieden en de Scorecard tegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe waaiers u selecteerde.
 
-7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [De ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
+7. Tik op de vervolgkeuzelijst met filters en selecteer een filter dat door de curator is geconfigureerd om een filter op uw scorebord toe te passen. [De ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
 
-   ![Segment, filter](assets/segment_filter.png)
+   ![Filter](assets/segment_filter.png)
 
 8. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
