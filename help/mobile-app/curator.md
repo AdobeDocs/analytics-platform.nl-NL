@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Customer Journey Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 6a2e32f6bdac3b47a74e262c0b0e0f4f93b2dc4d
+source-git-commit: 026771a61bcbd0eec8cb59a1d06f3dad0b96acf6
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2328'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics 
 
 ## Inleiding
 
-De dashboards van Analytics verstrekken om het even welk tijd, overal inzichten die op uw gegevens van Customer Journey Analytics worden gebaseerd. Met de app kunnen gebruikers mobiele toegang krijgen tot intuïtieve scorecards die u maakt en deelt vanuit de gebruikersinterface van het Customer Journey Analytics-bureaublad. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytische dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
+Adobe Analytics-dashboards bieden altijd en overal inzicht op basis van uw Customer Journey Analytics-gegevens. Met de app kunnen gebruikers mobiele toegang krijgen tot intuïtieve scorecards die u maakt en deelt vanuit de gebruikersinterface van het Customer Journey Analytics-bureaublad. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderbrekingen en trended gegevensmeningen kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytische dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Meer informatie over deze handleiding
 
@@ -26,10 +26,10 @@ Deze gids is bedoeld om curatoren van Customer Journey Analytics gegevens te hel
 
 ## Verklarende woordenlijst
 
-In de volgende tabel worden de voorwaarden beschreven voor het begrijpen van het publiek, de functies en de werking van de Customer Journey Analytics-dashboards.
+In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de functies en de werking van de dashboards van Analytics.
 
 | Term | Definitie |
-| --- | --- |
+|--- |--- |
 | Consumenten | Executive-gebruiker die belangrijke metriek en inzichten van CJA op een mobiel apparaat bekijkt |
 | Curator | De gegevens schrijven mensen voor die binnen CJA inzichten vinden en verspreiden en de Scorecards vormen die door de consument moeten worden bekeken |
 | Curation | Het maken of bewerken van een mobiel scorebord met relevante meetgegevens, afmetingen en andere componenten voor de consument |
@@ -60,31 +60,31 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje op één van de vo
 
 **Een nieuw project maken**
 
-1. Open CJA en klik **[!UICONTROL Workspace]** tabel.
-2. Klik **[!UICONTROL Create New Project]** en selecteer **[!UICONTROL Blank Mobile Scorecard]** projectmalplaatje.
-3. Klik op **[!UICONTROL Create]**.
+1. Open Customer Journey Analytics en klik **Projecten**.
+2. Klik **[!UICONTROL Create New Project]** knoop en selecteer **[!UICONTROL Blank Mobile Scorecard]** projectmalplaatje.
+3. Klik op de knop **[!UICONTROL Create]**.
 
-![Scorecard-sjabloon](assets/new_template.png)
+![Scorecard-sjabloon](assets/new_template_cja.png)
 
 **Een project toevoegen**
 
-Klik in het scherm **[!UICONTROL Projects]** onder de tab **[!UICONTROL Components]** op **[!UICONTROL Add]** en selecteer **[!UICONTROL Mobile Scorecard]**.
+Klik in het scherm **[!UICONTROL Projects]** onder het tabblad **[!UICONTROL Components]** op de knop **[!UICONTROL Add]** en selecteer **[!UICONTROL Mobile Scorecard]**.
 
 ![Projecten toevoegen](assets/add_project.png)
 
-**Gereedschappen  [!DNL Analytics] gebruiken**
+**of**
 
-Klik in [!DNL Analytics] op het menu **[!UICONTROL Tools]** en selecteer **[!UICONTROL Analytics dashboards (Mobile App)]**. Klik op de knop **[!UICONTROL Create new scorecard]** in het volgende scherm.
+Selecteer **[!UICONTROL Analytics dashboards (Mobile App)]** in het menu **[!UICONTROL Tools]**. Klik op de knop **[!UICONTROL Create new scorecard]** in het volgende scherm.
 
 ### Het scorebord configureren met gegevens en opslaan
 
 Het scorebordsjabloon implementeren:
 
-1. Geef onder **[!UICONTROL Properties]** (in de rechterrail) een **[!UICONTROL Project report suite]** op waaruit u gegevens wilt gebruiken.
+1. Geef onder **[!UICONTROL Properties]** (in de rechterrail) een **[!UICONTROL Project data view]** op waaruit u gegevens wilt gebruiken.
 
-   ![Selectie van rapportsuite](assets/properties_save.png)
+   ![Selectie in Datumweergave](assets/properties_save.png)
 
-1. Als u een nieuwe tegel aan uw scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de zone **[!UICONTROL Drag and Drop Metrics Here]**. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
+2. Als u een nieuwe tegel aan uw scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de zone **[!UICONTROL Drag and Drop Metrics Here]**. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
    ![Tegels toevoegen](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Het scorebordsjabloon implementeren:
    *Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.*
 
 
-1. Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer. U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen en neer te zetten; De afmetingen die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+3. Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer. U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen en neer te zetten; De afmetingen die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
    ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-   U kunt ook een dimensie aan alle tegels toevoegen door deze op het Scorecard-canvas te neerzetten.
-
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
+
+   ![Eigenschappen, tegel](assets/properties_tile.png)
 
    Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
 
@@ -106,23 +106,35 @@ Het scorebordsjabloon implementeren:
 
    Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-1. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
+4. Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter uit het linkerdeelvenster en zet u het filter direct boven op de tegel neer. Als u het filter op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
 
-   ![Segmenten maken voor filter](assets/segment_ui.png)
+   ![Een filter maken](assets/segment_ui.png)
 
-1. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor het **[!DNL Mobile Customers]** segment beweegt:
+5. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoek** filter beweegt:
 
    ![Remove_components](assets/new_remove.png)
 
-1. Onder Scorecard **[!UICONTROL Properties]**, kunt u naar keuze het volgende ook specificeren:
+6. U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
-   * A **[!UICONTROL Default date range]**. De hier opgegeven bereiken zijn dezelfde als die welke worden toegepast op de eerste toegang van de gebruiker tot het scorebord in zijn app.
+   ![Nieuwe scorekaart](assets/new_score_card.png)
 
-   * A **[!UICONTROL Comparison date range]**
+   Elke nieuwe scorecard begint met 6 datumwaaiercombinaties die zich op de gegevens van vandaag en gisteren concentreren. U kunt overbodige datumbereiken verwijderen door op de x te klikken of u kunt elke datumbereikcombinatie bewerken door op het potlood te klikken.
 
-   * Elke **[!UICONTROL Segments]** die op het hele scorebord moet worden toegepast
+   ![Nieuwe scorekaart2](assets/new_score_card2.png)
 
-1. Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
+   Als u een primaire datum wilt maken of wijzigen, gebruikt u de vervolgkeuzelijst om een van de beschikbare datumbereiken te selecteren of sleept u een datumcomponent van de rechterrail naar de neerzetzone.
+
+   ![Nieuwe scorekaart3](assets/new_score_card3.png)
+
+   Als u een vergelijkingsdatum wilt maken, kunt u een keuze maken uit handige voorinstellingen voor algemene tijdvergelijkingen in het keuzemenu. U kunt ook een datumcomponent slepen en neerzetten vanaf de rechterrail.
+
+   ![Nieuwe scorekaart4](assets/new_score_card4.png)
+
+   Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik maken door op het kalenderpictogram te klikken.
+
+   ![Nieuwe scorekaart4](assets/new_score_card5.png)
+
+7. Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan. Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -158,7 +170,7 @@ Om uitvoerende gebruikers te helpen tot uw Scorecards op app toegang hebben, zor
 * De minimale vereisten voor mobiele besturingssystemen op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
 * Ze hebben een geldige aanmelding bij Adobe Analytics
 * U hebt op de juiste wijze mobiele scoreborden voor hen gemaakt en deze scoreborden met hen gedeeld
-* Ze hebben toegang tot Analysis Workspace en de rapportensuite waarop het scorebord is gebaseerd
+* Ze hebben toegang tot Analysis Workspace en de gegevensweergave waarop het scorebord is gebaseerd
 * Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren wanneer u uw scoreborden deelt naar **[!UICONTROL Share embedded components]**.
 
 ### Help uitvoerende gebruikers met de app
@@ -201,7 +213,7 @@ Zo helpt u uitvoerende gebruikers:
    * Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
 
-3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **[!UICONTROL Preferences]** hieronder als u denkt uw uitvoerende gebruiker deze het bekijken opt-on) verkiest:
+3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **[!UICONTROL Preferences]** hieronder als u denkt uw uitvoerende gebruiker deze het bekijken optie verkiest):
 
    ![Stijlen verklaren](assets/newexplain.png)
 
@@ -225,13 +237,9 @@ Zo helpt u uitvoerende gebruikers:
 
    * Er wordt een tabel opgenomen waarin de aan de tegel toegevoegde afmetingen worden weergegeven. Tik op de pijl omlaag om de afmetingen te selecteren. Als er geen dimensie aan de tegel is toegevoegd, worden de diagramgegevens weergegeven in de tabel.
 
-5. U wijzigt de datumbereiken voor uw scorebord als volgt:
+5. Als u datumbereiken voor uw scorebord wilt wijzigen, tikt u op de Datumkop en selecteert u de combinatie van het primaire bereik en het vergelijkingsdatumbereik dat u wilt weergeven.
 
    ![Datums wijzigen](assets/changedate.png)
-
-   * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
-
-   * Afhankelijk van het interval dat u tikt (**Day**, **Week**, **Month**, of **Year**), zult u twee opties voor datumwaaier-of de huidige tijdspanwijdte of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]**- gebieden en de Scorecard tegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe waaiers u selecteerde.
 
 6. Feedback geven op deze app:
 
