@@ -2,9 +2,9 @@
 title: Analysedashboards - Overzicht
 description: Productdocumentatie en zelfhulp voor Customer Journey Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 8b8fa177b1fdfc760845b1fad7c145da68c320c8
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Analyse [!UICONTROL dashboards] - Overzicht
 
-**Analyses[!UICONTROL dashboards]** bieden altijd en overal inzicht in Customer Journey Analytics. Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
+**Analyses[!UICONTROL dashboards]** bieden altijd en overal inzicht in Adobe Analytics, waaronder Customer Journey Analytics. Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderbrekingen en trended gegevensmeningen kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
 
 Raadpleeg de volgende bronnen voor meer informatie over Analytics [!UICONTROL dashboards]:
 
