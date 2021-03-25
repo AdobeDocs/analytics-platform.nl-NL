@@ -1,10 +1,10 @@
 ---
 title: Wat is een gegevensweergave in Customer Journey Analytics?
-description: null
+description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,15 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 ## Vereiste
 
 * Alvorens u gegevensmeningen kunt tot stand brengen, moet u [opstelling één of meerdere verbindingen aan Experience Platform datasets](/help/connections/create-connection.md).
-* Voor het maken of beheren van een gegevensweergave hebt u de volgende machtigingen in Adobe Admin Console nodig:
+* Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen nodig in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
 
 ## Informatie over een component weergeven
 
 Klik op het infopictogram (i) in Workspace om te zien op welk schemaveld een component is gebaseerd, en op de bijbehorende instellingen, zoals een beschrijving.
 
 ## Gegevens weergeven instellingen die u kunt overschrijven in werkruimte
+
+Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysis Workspace op projectniveau, andere niet.
 
 * Venster Opzoeken
 * Metrische kenmerken
@@ -70,10 +72,6 @@ Klik op het infopictogram (i) in Workspace om te zien op welk schemaveld een com
 * Metrische opmaak
 * Naam gegevensweergave
 * Dimension-toewijzing
-
-## Geen waarde
-
-U kunt beslissen wat u deze Geen/Geen waarde/Niet-opgegeven dimensie noemt en of u deze zichtbaar wilt maken voor gebruikers in de rapportage. Beheerders en gebruikers (voor projecten die ze zelf hebben) kunnen de zichtbaarheidsinstelling in Workspace echter wijzigen.
 
 ## Gegevensweergaven verwijderen
 
