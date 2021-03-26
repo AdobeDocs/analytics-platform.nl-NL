@@ -5,25 +5,29 @@ solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services
 solution-image: help/assets/experience-cloud-logo-24.png
 getting-started-title: Aan de slag
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
-tutorials-title: Leerprogramma's
+tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-process.html
-git-repo: https://github.com/AdobeDocs/analytics-platform.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.nl-NL
+description: Dit bestand bevat metagegevens op repo-niveau die worden doorgegeven aan de bestanden in de revisie van de gebruikershandleiding TOC.md.
 translation-type: tm+mt
-source-git-commit: 8559ff2f6e311822bc8021e98c2c8c72880bbe8a
+source-git-commit: 7f846ac36d787159d25aaf9ff7240e3a51979408
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 2%
 
 ---
 
 
 # Metagegevens voor intern gebruik
 
-Het metadata.md- dossier omvat repo-vlakke meta-gegevens die tot de dossiers van de gebruikersgids TOC.md in de repo overgaan. Als u meta-gegevens.md inhoud voor om het even welke gebruikersgids wilt veranderen, doe dit in om het even welk dossier TOC.md.
+Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven aan de bestanden in de repo in de gebruikershandleiding TOC.md. Als u de inhoud metadata.md voor om het even welke gebruikersgids wilt veranderen, doe dit in om het even welk dossier van TOC.md.
 
 | metagegevens | wat het doet |
 |--- |--- |
-| titel van oplossing | Gebruikt in artikelkopbal als verbinding |
+| titel oplossing | Gebruikt in artikelkoptekst als koppeling |
 | oplossing-hub-url | Opent helpx-hubpagina |
-| oplossingspictogram | Het oplossingspictogram van vertoningen naast oplossingstitel. Nog niet geïmplementeerd |
-| aan de slag | Link naar helpx om de startpagina te openen |
-| tutorials-url | Koppeling naar videozelfstudies — ofwel helpxzelfstudies of KT-zelfstudies |
-| mini-toc-niveaus | Bepaalt het aantal rubriekniveaus die in juiste spoorstaaf verschijnen. standaard is 2 |
-| git-repo | Specificeert de plaats van de hoofdrepo voor intern gebruik |
+| oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
+| aan de slag-url | Aan de slag met Help-pagina koppelen |
+| zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
+| mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
+| git-repo | Hiermee wordt de locatie van het master repo voor intern gebruik opgegeven |
