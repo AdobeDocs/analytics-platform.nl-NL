@@ -1,0 +1,196 @@
+---
+title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
+description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
+translation-type: tm+mt
+source-git-commit: 6cfab7fc7ce3360b5ea2ed8bdd7f3e0a8e76a24d
+workflow-type: tm+mt
+source-wordcount: '2314'
+ht-degree: 1%
+
+---
+
+
+# Een nieuwe gegevensweergave maken
+
+Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. Het creëren van metriek of dimensies geeft u een enorme hoeveelheid flexibiliteit. Eerder, was de veronderstelling dat als u datasets in Adobe Experience Platform had, koordgebieden dimensies waren en numerieke gebieden metriek waren. Als u een van deze velden wilt wijzigen, moet u het schema in het Platform bewerken. De interface voor gegevensweergaven biedt nu een meer vrije definitie van metriek en dimensies.
+
+## Instellingen en containers voor gegevensweergaven configureren
+
+1. Ga in Customer Journey Analytics naar het tabblad **Gegevensweergaven**.
+2. Klik **Add** om een nieuwe gegevensmening tot stand te brengen en zijn montages te vormen.
+
+![](assets/)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| Verbinding | Dit veld koppelt de gegevensweergave aan de verbinding die u eerder hebt gemaakt en die een of meer Adobe Experience Platform-gegevenssets bevat. |
+| Naam | Het is verplicht de gegevensweergave een naam te geven. |
+| Beschrijving | Een gedetailleerde beschrijving is niet verplicht, maar wordt aanbevolen. |
+| Tijdzone | Kies in welke tijdzone de gegevens moeten worden weergegeven. |
+| Tags | Met tags kunt u de gegevensweergaven indelen in categorieën. |
+| Containers | U kunt de naam van uw containers hier wijzigen. Dit is hoe deze worden weergegeven in elk Workspace-project dat is gebaseerd op deze gegevensweergave. Containers worden gebruikt in filters en fallout/flow om te bepalen hoe breed of smaller het bereik of de context is. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| Naam van personencontainer is... | Persoon (standaard). De container Person bevat elk bezoek en elke paginaweergave voor bezoekers binnen een opgegeven tijdsperiode. U kunt de naam van dit item wijzigen in &#39;Gebruiker&#39; of elke andere gewenste term. |
+| Naam van sessiecontainer is.. | Sessie (standaard). Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van dit bestand wijzigen in &#39;Visit&#39; of in een andere gewenste term. |
+| Naam van gebeurteniscontainer is... | Gebeurtenis (standaard). In de container Event wordt gedefinieerd welke paginagebeurtenissen u wilt opnemen in of uitsluiten van een filter. |
+
+Daarna, gaat u metriek en afmetingen van schemaelementen tot stand brengen.
+
+## Metriek en afmetingen maken op basis van schema-elementen
+
+1. Klik in [!UICONTROL Customer Journey Aalytics] > [!UICONTROL Data Views] op het tabblad [!UICONTROL Components].
+
+![](assets/components-tab.png)
+
+U kunt [!UICONTROL Connection] bij de hoogste linkerzijde zien, die de datasets, en zijn [!UICONTROL Schema fields] hieronder bevat.
+
+1. Sleep nu een schemaveld, zoals [!UICONTROL pageTitle], van de linkerspoor naar de sectie Metriek of Dimension.
+
+   U kunt het zelfde schemagebied in de afmetingen of metriek goed veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie maken met de naam &quot;Productpagina&#39;s&quot; en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot;, enzovoort. Vanaf **[!UICONTROL pageTitle]**; kunt u ook metriek maken op basis van een tekenreekswaarde. U kunt bijvoorbeeld een of meer **[!UICONTROL Orders]** metriek met verschillende attributie-instellingen en verschillende include/exclude-waarden maken.
+
+   ![](assets/components-tab-3.png)
+
+1. Als u de component hebt geselecteerd, ziet u rechts een aantal instellingen. Configureer de component met behulp van de hieronder beschreven instellingen.
+
+### Componentinstellingen configureren
+
+![](assets/component-settings.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| [!UICONTROL Component type] | Vereist. Hiermee kunt u een component wijzigen van Metrisch in Dimension of andersom. |
+| [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een naam geven die specifiek is voor de gegevensweergave. |
+| [!UICONTROL Description] | Optioneel, maar aanbevolen, om informatie over de component aan andere gebruikers te verstrekken. |
+| [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
+| [!UICONTROL Field Name] | De naam van het schemaveld. |
+| [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
+| [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit gebied kan veelvoudige datasets bevatten, zoals wanneer u veelvoudige rapportreeksen combineert. |
+| [!UICONTROL Schema type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is. |
+| [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. U kunt op het bewerkingspictogram klikken en deze component-id wijzigen. Als u deze component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken.<br>Als u ooit een andere gegevensmening creeert die een verschillend gebied voor een pageTitle afmeting gebruikt, kunt u het anders noemen en de afmeting geschikt maken dwars-gegevensmening. |
+| Pad | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
+| Component verbergen in rapportage | Standaard = uit. Hiermee kunt u de component uit de gegevensweergave buigen wanneer deze wordt gebruikt bij rapportage. Dit beïnvloedt geen toestemmingen, enkel componentencuratie. Met andere woorden, u kunt de component voor niet-beheerders verbergen in de rapportage. Beheerders hebben er nog steeds toegang toe door in een Analysis Workspace-project op [!UICONTROL Show All Components] te klikken. |
+
+### Indelingsinstellingen configureren
+
+Indelingsinstellingen zijn alleen voor metriek.
+
+![](assets/format-settings.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| [!UICONTROL Format] | Hier kunt u de opmaak van metrische waarden opgeven, zoals Decimaal, Tijd, Percentage of Valuta. |
+| [!UICONTROL Decimal Places] | Hier geeft u het aantal decimalen op dat metrisch moet worden weergegeven. |
+| [!UICONTROL Show upward trend as] | Hier kunt u opgeven of een opwaartse trend voor deze metrische waarde als goed (groen) of slecht (rood) moet worden beschouwd. |
+| [!UICONTROL Currency] | Deze instelling wordt alleen weergegeven als de geselecteerde metrische indeling [!UICONTROL Currency] is. Er is een lijst met valutaopties beschikbaar. De standaardwaarde is geen valuta. Op deze manier kunt u inkomsten in de valuta van uw keuze voor rapportage weergeven. Dit is geen valutaconversie, alleen een opmaakoptie voor de gebruikersinterface. |
+
+### Attributie-instellingen configureren
+
+![](assets/attribution-settings.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| [!UICONTROL Set attribution] | Hier kunt u de toewijzingsinstellingen opgeven die u standaard op deze metrische waarde wilt toepassen wanneer deze wordt gebruikt. Dit gebrek kan in een Lijst worden met vrije vorm of in Berekend Metrisch met voeten getreden. |
+| [!UICONTROL Attribution model] | Hier kunt u een standaard toewijzingsmodel opgeven. Dit is alleen actief wanneer u de instelling [!UICONTROL Use Non-default attribution model] inschakelt. Wordt standaard ingesteld op [!UICONTROL Last Touch]. De opties zijn: Laatste aanraking, Eerste aanraking, Lineair, Deelname, Zelfde aanraking, U-Vormen, J Curve, Omgekeerde J, Tijdvermindering, Douane, Algorithmic. Sommige van deze opties maken extra velden die moeten worden ingevuld, zoals Aangepast of Tijdverlies. U kunt veelvoudige metriek tot stand brengen gebruikend het zelfde gebied - dit betekent u één [!UICONTROL Last touch] omzet metrisch en één [!UICONTROL First Touch] opbrengst metrisch kunt hebben, maar gebaseerd op het zelfde opbrengstgebied in het schema. |
+| [!UICONTROL Lookback window] | Hier kunt u een standaardterugzoekvenster opgeven dat metrisch is - alleen actief wanneer u de instelling [!UICONTROL Use Non-default attribution model] inschakelt. De opties zijn: Persoon (Meldend Venster), Zitting, Douane. Als Aangepast is geselecteerd, kunnen we ook een willekeurig aantal dagen/weken/maanden/enzovoort selecteren. (tot 90 dagen), net als Attribution IQ. U kunt veelvoudige metriek hebben gebruikend het zelfde schemagebied, maar elk met een afzonderlijk raadplegingsvenster. |
+
+### Instellingen voor waarden opnemen/uitsluiten configureren
+
+Met deze instelling kunt u de onderliggende gegevens wijzigen waarop u rapporteert, tijdens de query. Het is niet het zelfde als een filter (vroeger genoemd segment.) Maar filters respecteren deze nieuwe dimensie, net als tekenen en attributie.
+
+U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#39;foutpagina&#39;s&#39; noemen en elke pagina opnemen die [!UICONTROL contains the phrase] &#39;error&#39; is.
+
+![](assets/include-exclude.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| [!UICONTROL Case sensitive] | Standaard = Aan. Deze instelling is iets anders voor Dimension dan voor Metrisch.<ul><li>**Metrisch**: Deze instelling is alleen van toepassing op de  [!UICONTROL Include/Exclude Values] sectie. Hiermee kunt u aangeven of het filter dat u toepast, hoofdlettergevoelig moet zijn.</li><li>**Dimension** : Deze instelling bepaalt of de gegevens in deze dimensie moeten worden samengevoegd in een hoofdlettergevoelig of hoofdlettergevoelig geval. Dit wijzigt de manier waarop rapporten/filters/attributie-instellingen worden uitgevoerd voor een tekenreeksveld.</li></ul> |
+| [!UICONTROL Match] | Hier kunt u opgeven met welke waarden u rekening wilt houden voor rapportage voorafgaand aan toewijzing en segmentatie (bijvoorbeeld alleen waarden gebruiken die de woordgroep &quot;error&quot; bevatten). U kunt het volgende opgeven: **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
+| [!UICONTROL Criteria] | Hier geeft u de logica op die moet worden toegepast op een bepaalde filterregel.<ul><li>**Tekenreeks**: Bevat de uitdrukking, Bevat om het even welke termijn, Bevat alle termijnen, bevat geen termijn, bevat niet de uitdrukking, Gelijk, is niet gelijk, Begint met, Eind met</li><li>**Dubbel/geheel getal**: gelijk aan, niet gelijk aan, groter dan, kleiner dan, groter dan of gelijk aan, kleiner dan of gelijk aan</li><li>**Datum**: is gelijk aan, niet gelijk aan, is later dan, is eerder, komt voor binnen</li></ul> |
+| [!UICONTROL Match operand] | Hier geeft u de overeenkomende operand op waarop de overeenkomende operator moet worden toegepast.<ul><li>**Tekenreeks**: Tekstveld</li><li>**Dubbel/geheel getal**: Tekstveld met pijl-omhoog/pijl-omlaag voor numerieke waarden</li><li>**Datum**: Selector voor daggranulariteit (kalender)</li><li>**Datum en tijd**: Selector voor granulariteit voor datum en tijd</li></ul> |
+| [!UICONTROL Add rule] | Hier kunt u een extra match-operator en -operand opgeven. |
+
+### Gedragsinstellingen configureren
+
+![](assets/behavior-settings.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| [!UICONTROL Count values] | Hiermee kunt u een telling maken van het aantal keren dat een Booleaans veld is ingesteld op `true`; als metrisch. Bijvoorbeeld, het aantal [!UICONTROL Page Views] waar een gebied Van Boole genoemd `isPage` aan `true` wordt geplaatst. |
+| [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
+
+### [!UICONTROL No Value Options]-instellingen configureren
+
+[!UICONTROL No Value Options] de instellingen zijn gelijk aan  [!UICONTROL Unspecified] of  [!UICONTROL None] waarden in de rapportage. In de interface van gegevensmeningen, op een component-door-component basis, kunt u beslissen hoe u deze waarden in rapportering wilt worden behandeld. U kunt de naam van [!UICONTROL No value] ook wijzigen in iets dat beter aansluit bij uw omgeving, zoals [!UICONTROL Null], [!UICONTROL Not set] of andere.
+
+Belangrijk: Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Red&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Red&quot; die in de gegevens zelf worden weergegeven, dus ook onder hetzelfde lijstitem als u hebt opgegeven.
+
+Merk ook op dat wat u op dit gebied specificeert voor speciale behandeling UI van het de lijnpunt van de &quot;Geen Waarde&quot;in het melden zoals vermeld in &quot;Geen Opties van de Waarde&quot;het plaatsen kan worden gebruikt. (Niet zeker wat dit betekent.)
+
+![](assets/no-value-options.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| Indien getoond, roep [!UICONTROL No value].. | Hier kunt u de naam van **[!UICONTROL No value]** wijzigen in iets anders. |
+| **[!UICONTROL No value]** standaard niet tonen | Deze waarde wordt niet weergegeven in de rapportage. |
+| Standaard **[!UICONTROL No value]** tonen | Deze waarde wordt niet weergegeven in de rapportage. |
+| **[!UICONTROL No value]** behandelen als een waarde | Als u bijvoorbeeld mobiele apparaattypen als de dimensie had, kunt u de naam van het **[!UICONTROL No value]**-item wijzigen in &quot;Computer&quot;. |
+
+### Persistinstellingen configureren
+
+![](assets/persistence.png)
+
+Deze instellingen lijken op de eVar-instellingen in traditionele Adobe Analytics.
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| persistentie instellen | Schakelen tussen toetsen |
+| Toewijzing | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: Recentste versie, Origineel, Instance, All. Als u een waarde wilt behouden (vergelijkbaar met eVars in traditionele Analytics), stelt u deze hier in. Het enige belangrijke verschil is dat de maximale persistentie die u kunt instellen 90 dagen is. [!UICONTROL Never expire] is ook geen optie. |
+| Verlopen | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: Sessie (standaard), Person, Tijd, Metric. Mogelijk moet u de afmeting bij een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen van commercieel gebruik). Met &quot;Metrisch&quot; kunt u een van de gedefinieerde metriek opgeven als de vervaldatum voor deze dimensie (bijvoorbeeld een &quot;Aankoop&quot;-metriek). |
+
+### Instellingen voor waardetabels configureren
+
+![](assets/value-bucketing.png)
+
+| Instelling | Beschrijving/Hoofdletters gebruiken |
+| --- | --- |
+| Emmertje, waarde | Hiermee kunt u een gekorte versie van een numerieke dimensie maken. Dit laat u over emmers van opbrengst of andere numerieke waarden als dimensie in rapportering rapporteren. U kunt maximaal vijf emmers maken. |
+| Tot maximaal | Hier kunt u de grenzen van het eerste numerieke afmetingsemmertje opgeven. Dit geldt alleen voor numerieke afmetingen. |
+| Tussen en maximaal | Hier kunt u de grenzen van volgende numerieke afmetingsemmers opgeven. |
+| Emmertje toevoegen | Hiermee kunt u nog een emmertje toevoegen aan een numerieke dimensie-emmer. |
+
+## Standaardcomponenten gebruiken
+
+Naast het creëren van metriek en dimensies van schemaelementen, kunt u standaardcomponenten in uw gegevensmeningen ook gebruiken.
+
+De standaardcomponenten zijn componenten die niet van de gebieden van het datasetschema worden geproduceerd maar in plaats daarvan systeem geproduceerd. Sommige systeemcomponenten zijn vereist in elke gegevensweergave om rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl andere systeemcomponenten optioneel zijn.
+
+![](RackMultipart20210326-4-374d6q_html_1100d8d54f8c09ac.png)
+
+Vereiste standaardonderdelen
+
+| Componentnaam | Dimension of metrisch | Notities |
+| --- | --- | --- |
+| Mensen | Metrisch | Vroeger bekend als [!UICONTROL Unique Visitors] in traditionele Analytics. Deze metrische waarde is gebaseerd op de persoonidentiteitskaart in een Verbinding wordt gespecificeerd die. |
+| Sessies | Metrisch | Vroeger bekend als [!UICONTROL Visits] in traditionele Analytics. Deze maatstaf is gebaseerd op de onderstaande sessionisatie-instellingen. |
+| Gebeurtenissen | Metrisch | Vroeger bekend als [!UICONTROL Occurrences] in traditionele Analytics. Deze metrische waarde vertegenwoordigt het aantal rijen van alle gebeurtenisdatasets in een Verbinding. |
+| Dag | Dimension |  |
+| Week | Dimension |  |
+| Maand | Dimension |  |
+| Kwart | Dimension |  |
+| Jaar | Dimension |  |
+| Uur | Dimension |  |
+| Minuut | Dimension |  |
+
+## Optionele standaardonderdelen
+
+Sommige systeemcomponenten zijn vereist in elke gegevensweergave om rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl de onderstaande onderdelen optioneel zijn.
+
+| Componentnaam | Dimension of metrisch | Notities |
+| --- | --- | --- |
+| [!UICONTROL Session Starts] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de eerste gebeurtenis van een zitting waren. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), het filters neer tot enkel de eerste gebeurtenis van elke zitting. Merk op dat dit verschillend gedrag van [!UICONTROL Entries] in zoverre is dat het altijd de eerste gebeurtenis van een zitting telt - niet de eerste waarde aanwezig voor een afmeting in een zitting. |
+| [!UICONTROL Session Ends] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de laatste gebeurtenis van een zitting waren. Net als [!UICONTROL Session Starts], kan deze ook worden gebruikt in een filterdefinitie om items tot aan de laatste gebeurtenis van elke sessie te filteren. Merk op dat dit verschillend gedrag van [!UICONTROL Exits] in zoverre is dat het altijd de laatste gebeurtenis van een zitting telt - niet de laatste waarde aanwezig voor een afmeting in een zitting. |
+| [!UICONTROL Time Spent (seconds)] | Metrisch | De metrische waarde [!UICONTROL Time Spent] werkt op dezelfde manier als in traditionele Adobe Analytics: het optellen van de tijd tussen twee verschillende waarden voor een dimensie. Nochtans, gebruikend de Metrisch van Begin van de Zitting en van het Eind van de Zitting, kunnen de klanten [!UICONTROL Time Spent per Person] en [!UICONTROL Time Spent per Session] berekende metriek zelf construeren (zie filters OTB en calc hieronder). |
+| [!UICONTROL Time Spent per Event] | Dimension | Dit is eigenlijk slechts een emmer van de bovenstaande metrische waarde. We leveren standaardemmers, maar laat je de emmers veranderen in wat je maar wilt. |
+| Tijd besteed per sessie | Dimension |  |
+| Tijd besteed per persoon | Dimension |  |
+| Batch-id | Dimension |  |
+| Dataset-id | Dimension |  |
