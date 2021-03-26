@@ -2,10 +2,10 @@
 title: Overzicht van berekende metriek
 description: 'Meer informatie over '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 5%
+source-wordcount: '510'
+ht-degree: 4%
 
 ---
 
@@ -47,3 +47,12 @@ Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavan
 | Berekende standaard-beheer | <ul><li>Deel metriek met anderen.</li><li>Metriek goedkeuren en krullen.</li><li>Organiseer uw gegevens (tag) zodat mensen ze kunnen vinden.</li><li>Metrische gegevens verwijderen.</li><li>Naam metriek wijzigen.</li></ul> |
 | API voor berekende cijfers | Deel van de Adobe Analytics 2.0 API-set. |
 
+## Sjablonen voor berekende metriek in CJA
+
+| Berekende metrische naam | Berekende metrische beschrijving |
+| --- | --- |
+| Sessies per persoon | Gemiddeld aantal sessies per persoon |
+| Beginsnelheid van sessie | Het percentage van tijd dat om het even welk afmetingspunt op de eerste gebeurtenis van een zitting voorkwam. |
+| Eindfrequentie sessie | Het percentage van tijd dat om het even welk afmetingspunt op de laatste gebeurtenis van een zitting voorkwam. |
+| Tijd besteed per persoon | De gemiddelde hoeveelheid tijd die een persoon aan om het even welk bepaald afmetingspunt heeft doorgebracht. |
+| Tijd besteed per sessie | De gemiddelde hoeveelheid tijd die een persoon per Zitting aan om het even welk bepaald afmetingspunt doorbracht. |
