@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 translation-type: tm+mt
-source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '967'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Hier volgt een voorbeeld:
 
 | Eén bezoeken | Twee bezoeken | Drie bezoeken |
 | --- | --- | --- |
-| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sloot de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C), en toen naar een nieuwe pagina (D). | De bezoeker ging en volgde hetzelfde pad als bij de eerste en tweede bezoeken, en sloot vervolgens pagina F uit om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
+| De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sluit de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C) en vervolgens naar een nieuwe pagina (D). | De bezoeker ging en volgde hetzelfde pad als bij de eerste en tweede bezoeken, en sloot vervolgens pagina F uit om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
 
 ## Filtercontainers
 
@@ -80,3 +80,11 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 * Props weergeven
 * Lijstafmetingen
 * Merchandising-afmetingen (in de context van gebeurtenissen)
+
+## Filtersjabloon buiten de box
+
+Traditionele analyse wordt geleverd met veel out-of-the-box sjabloonsegmenten (filters) en berekende meetgegevens. Veel van deze regels zijn niet van toepassing op CJA of moeten worden hernoemd of opnieuw worden gemaakt. Andere zullen van een oplossing voor context-bewuste variabelen in CJA afhangen.
+
+| Filternaam | Beschrijving |
+| --- | --- |
+| Alle gegevens | Dit is een vereist filter analoog aan het &quot;Alle Bezoeken&quot;segment in traditionele Adobe Analtyics. Het wordt dynamisch toegevoegd aan het melden wanneer metrisch aan de rij van een lijst Freeform wordt toegevoegd. |
