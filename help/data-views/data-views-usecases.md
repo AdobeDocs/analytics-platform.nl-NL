@@ -2,9 +2,9 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 translation-type: tm+mt
-source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
+source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gebruiksscenario&#39;s voor gegevensweergaven
 
-De mogelijkheden voor
+Deze gebruiksgevallen die de flexibiliteit en de macht van gegevensmeningen in Customer Journey Analytics tonen.
 
 ## Creeer metrisch van Orden van een pageTitle (koord) schemagebied
 
