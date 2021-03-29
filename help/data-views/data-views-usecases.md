@@ -2,15 +2,19 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 translation-type: tm+mt
-source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 
 # Gebruiksscenario&#39;s voor gegevensweergaven
+
+>[!IMPORTANT]
+>
+>Deze functionaliteit wordt momenteel beperkt getest.
 
 Deze gebruiksgevallen die de flexibiliteit en de macht van gegevensmeningen in Customer Journey Analytics tonen.
 
