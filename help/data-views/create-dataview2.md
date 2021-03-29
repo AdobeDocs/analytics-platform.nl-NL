@@ -2,7 +2,7 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: 6cfab7fc7ce3360b5ea2ed8bdd7f3e0a8e76a24d
+source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
 workflow-type: tm+mt
 source-wordcount: '2314'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 1. Ga in Customer Journey Analytics naar het tabblad **Gegevensweergaven**.
 2. Klik **Add** om een nieuwe gegevensmening tot stand te brengen en zijn montages te vormen.
 
-![](assets/)
+![](assets/new-data-view.png)
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
