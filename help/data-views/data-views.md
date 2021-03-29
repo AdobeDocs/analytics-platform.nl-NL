@@ -2,15 +2,19 @@
 title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
 # Wat is een gegevensweergave?
+
+>[!IMPORTANT]
+>
+>Deze functionaliteit wordt momenteel beperkt getest.
 
 Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace.
 
