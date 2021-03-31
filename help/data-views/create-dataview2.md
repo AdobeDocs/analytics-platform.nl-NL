@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,6 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Count values] | Hiermee kunt u een telling maken van het aantal keren dat een Booleaans veld is ingesteld op `true`; als metrisch. Bijvoorbeeld, het aantal [!UICONTROL Page Views] waar een gebied Van Boole genoemd `isPage` aan `true` wordt geplaatst. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
@@ -160,7 +159,7 @@ Een emmertje van &quot;tussen 5 en maximaal 10&quot; wordt bijvoorbeeld weergege
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Bucket value] | Hiermee kunt u een gekorte versie van een numerieke dimensie maken. Dit laat u over emmers van opbrengst of andere numerieke waarden als dimensie in rapportering rapporteren. U kunt maximaal vijf emmers maken. |
+| [!UICONTROL Bucket value] | Hiermee kunt u een gekorte versie van een numerieke dimensie maken. Dit laat u over emmers van opbrengst of andere numerieke waarden als dimensie in rapportering rapporteren. |
 | [!UICONTROL Up to] | Hier kunt u de grenzen van het eerste numerieke afmetingsemmertje opgeven. Dit geldt alleen voor numerieke afmetingen. |
 | [!UICONTROL Between and up to] | Hier kunt u de grenzen van volgende numerieke afmetingsemmers opgeven. |
 | [!UICONTROL Add bucket] | Hiermee kunt u nog een emmertje toevoegen aan een numerieke dimensie-emmer. |
@@ -190,7 +189,7 @@ Vereiste standaardonderdelen
 
 ### Optionele standaardonderdelen
 
-Sommige systeemcomponenten zijn vereist in elke gegevensweergave om rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl de onderstaande onderdelen optioneel zijn.
+Sommige systeemonderdelen zijn vereist in elke gegevensweergave om rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl de onderstaande onderdelen optioneel zijn.
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
