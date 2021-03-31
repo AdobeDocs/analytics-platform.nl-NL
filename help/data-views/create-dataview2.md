@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2347'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze functionaliteit wordt momenteel beperkt getest.
+>Deze functionaliteit is over het algemeen beschikbaar op 22 april 2021.
 
-Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. Het creëren van metriek of dimensies geeft u een enorme hoeveelheid flexibiliteit. Eerder, was de veronderstelling dat als u datasets in Adobe Experience Platform had, de koordgebieden als afmetingen werden gebruikt en de numerieke gebieden als metriek werden gebruikt. Als u een van deze velden wilt wijzigen, moet u het schema in het Platform bewerken. De interface voor gegevensweergaven biedt nu een meer vrije definitie van metriek en dimensies](/help/data-views/data-views.md).[
+Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. Het creëren van metriek of dimensies geeft u een enorme hoeveelheid flexibiliteit. Eerder, was de veronderstelling dat als u datasets in Adobe Experience Platform had, de koordgebieden als afmetingen werden gebruikt en de numerieke gebieden als metriek werden gebruikt. Als u een van deze velden wilt wijzigen, moet u het schema in het Platform bewerken. De interface voor gegevensweergaven biedt nu een meer vrije definitie van metriek en dimensies](/help/data-views/data-views.md). [ Voor meer gebruiksgevallen, zie [De meningen van gegevens gebruiken gevallen](/help/data-views/data-views-usecases.md).
 
 ## 1. Instellingen en containers voor gegevensweergaven configureren
 
@@ -40,8 +40,6 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U kunt ook Standaardcomponenten gebruiken.
 
 ## 2. Metriek en afmetingen maken op basis van schema-elementen
-
-
 
 1. Klik in [!UICONTROL Customer Journey Analytics] > [!UICONTROL Data Views] op het tabblad [!UICONTROL Components].
 
@@ -112,7 +110,7 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Case sensitive] | Standaard = Aan. Deze instelling is iets anders voor Dimension dan voor Metrisch.<ul><li>**Metrisch**: Deze instelling is alleen van toepassing op de  [!UICONTROL Include/Exclude Values] sectie. Hiermee kunt u aangeven of het filter dat u toepast, hoofdlettergevoelig moet zijn.</li><li>**Dimension** : Deze instelling bepaalt of de gegevens in deze dimensie moeten worden samengevoegd in een hoofdlettergevoelig of hoofdlettergevoelig geval. Dit wijzigt de manier waarop rapporten/filters/attributie-instellingen worden uitgevoerd voor een tekenreeksveld.</li></ul> |
+| [!UICONTROL Case sensitive] | Standaard = Aan. Deze instelling is alleen van toepassing op de sectie [!UICONTROL Include/Exclude Values]. Het staat u toe om te zeggen of omvat/sluit regel u toepast zou geval gevoelig moeten zijn. |
 | [!UICONTROL Match] | Hier kunt u opgeven met welke waarden u rekening wilt houden voor rapportage voorafgaand aan toewijzing en segmentatie (bijvoorbeeld alleen waarden gebruiken die de woordgroep &quot;error&quot; bevatten). U kunt het volgende opgeven: **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
 | [!UICONTROL Criteria] | Hier geeft u de logica op die moet worden toegepast op een bepaalde filterregel.<ul><li>**Tekenreeks**: Bevat de uitdrukking, Bevat om het even welke termijn, Bevat alle termijnen, bevat geen termijn, bevat niet de uitdrukking, Gelijk, is niet gelijk, Begint met, Eind met</li><li>**Dubbel/geheel getal**: gelijk aan, niet gelijk aan, groter dan, kleiner dan, groter dan of gelijk aan, kleiner dan of gelijk aan</li><li>**Datum**: is gelijk aan, niet gelijk aan, is later dan, is eerder, komt voor binnen</li></ul> |
 | [!UICONTROL Match operand] | Hier geeft u de overeenkomende operand op waarop de overeenkomende operator moet worden toegepast.<ul><li>**Tekenreeks**: Tekstveld</li><li>**Dubbel/geheel getal**: Tekstveld met pijl-omhoog/pijl-omlaag voor numerieke waarden</li><li>**Datum**: Selector voor daggranulariteit (kalender)</li><li>**Datum en tijd**: Selector voor granulariteit voor datum en tijd</li></ul> |
@@ -131,10 +129,6 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 
 [!UICONTROL No Value Options] de instellingen zijn gelijk aan  [!UICONTROL Unspecified] of  [!UICONTROL None] waarden in de rapportage. In de interface van gegevensmeningen, op een component-door-component basis, kunt u beslissen hoe u deze waarden in rapportering wilt worden behandeld. U kunt de naam van [!UICONTROL No value] ook wijzigen in iets dat beter aansluit bij uw omgeving, zoals [!UICONTROL Null], [!UICONTROL Not set] of andere.
 
->[!NOTE]
->
->Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Red&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Red&quot; die in de gegevens zelf worden weergegeven, dus ook onder hetzelfde lijstitem als u hebt opgegeven.
-
 Merk ook op dat wat u op dit gebied specificeert voor speciale behandeling UI van [!UICONTROL No Value] lijnpunt in rapportering zoals vermeld in [!UICONTROL No Value Options] het plaatsen kan worden gebruikt.
 
 ![](assets/no-value-options.png)
@@ -144,7 +138,7 @@ Merk ook op dat wat u op dit gebied specificeert voor speciale behandeling UI va
 | [!UICONTROL If shown, call No value]… | Hier kunt u de naam van **[!UICONTROL No value]** wijzigen in iets anders. |
 | [!UICONTROL Don't show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. |
 | [!UICONTROL Show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. |
-| [!UICONTROL Treat No value as a value] | Als u bijvoorbeeld mobiele apparaattypen als de dimensie had, kunt u de naam van het **[!UICONTROL No value]**-item wijzigen in &quot;Computer&quot;. |
+| [!UICONTROL Treat No value as a value] | Als u bijvoorbeeld mobiele apparaattypen als de dimensie had, kunt u de naam van het **[!UICONTROL No value]**-item wijzigen in &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Red&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Red&quot; die in de gegevens zelf worden weergegeven, dus ook onder hetzelfde lijstitem als u hebt opgegeven. |
 
 ### Persistinstellingen configureren
 
@@ -155,10 +149,12 @@ Deze instellingen lijken op de eVar-instellingen in traditionele Adobe Analytics
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
 | [!UICONTROL Set persistence] | Schakelen tussen toetsen |
-| [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: Recentste versie, Origineel, Instance, All. Als u een waarde wilt behouden (vergelijkbaar met eVars in traditionele Analytics), stelt u deze hier in. Het enige belangrijke verschil is dat de maximale persistentie die u kunt instellen 90 dagen is. [!UICONTROL Never expire] is ook geen optie. |
+| [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Als u een waarde wilt behouden (vergelijkbaar met eVars in traditionele Analytics), stelt u deze hier in. Het enige belangrijke verschil is dat de maximale persistentie die u kunt instellen 90 dagen is. [!UICONTROL Never expire] is ook geen optie. |
 | [!UICONTROL Expiration] | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: [!UICONTROL Session] (standaardwaarde), [!UICONTROL Person], [!UICONTROL Time], [!UICONTROL Metric]. Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). [!UICONTROL Metric] Hiermee kunt u een van de gedefinieerde metriek opgeven als de vervaldatum voor deze dimensie (bijvoorbeeld een  [!UICONTROL Purchase] metrische waarde). |
 
 ### Instellingen voor waardetabels configureren
+
+Een emmertje van &quot;tussen 5 en maximaal 10&quot; wordt bijvoorbeeld weergegeven als een regelitem &quot;5 tot en met 10&quot; in Workspace-rapportage.
 
 ![](assets/value-bucketing.png)
 
