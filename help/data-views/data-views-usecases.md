@@ -2,9 +2,9 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze functionaliteit wordt momenteel beperkt getest.
+>Deze functionaliteit is over het algemeen beschikbaar op 22 april 2021.
 
 Deze gebruiksgevallen die de flexibiliteit en de macht van gegevensmeningen in Customer Journey Analytics tonen.
 
@@ -38,7 +38,12 @@ U kunt ook een andere [!UICONTROL Orders] metrisch van het zelfde gebied tot sta
 Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers (inclusief aangepaste gebeurtenissen uit Adobe Analytics) kunnen nu als afmetingen worden beschouwd. Hier volgt een voorbeeld:
 
 1. Sleep het gehele getal [!UICONTROL call_length_min] naar de sectie [!UICONTROL Dimensions] onder [!UICONTROL Included Components]:
+
    ![](assets/integers.png)
 
-1. U kunt [!UICONTROL Value Bucketing] nu toevoegen om deze dimensie op een beknopte manier in rapportering voor te stellen. Anders zou elke instantie van deze dimensie als lijnpunt in Werkruimte verschijnen.
+1. U kunt [!UICONTROL Value Bucketing] nu toevoegen om deze dimensie op een beknopte manier in rapportering voor te stellen. (Zonder vastzetten, zou elk geval van deze dimensie als lijnpunt in Werkruimte rapporterend verschijnen.)
+
    ![](assets/bucketing.png)
+
+Zie [Gegevensweergaven maken](/help/data-views/create-dataview2.md) voor meer informatie over andere instellingen voor gegevensweergaven.
+Voor een conceptueel overzicht van gegevensmeningen, zie [Overzicht van de meningen van Gegevens](/help/data-views/data-views.md).
