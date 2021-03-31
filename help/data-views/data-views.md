@@ -2,9 +2,9 @@
 title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze functionaliteit wordt momenteel beperkt getest.
+>Deze functionaliteit is over het algemeen beschikbaar op 22 april 2021.
 
 Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace.
 
@@ -43,9 +43,9 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 
 * **U kunt een** component labelen om het zoeken naar de component in Workspace eenvoudiger te maken.
 
-* **U kunt een component verbergen in de rapportage**. Voor sommige maatinstellingen en dimensies in DV2 was een tweede metrische waarde of dimensie vereist voor de configuratie (zoals metrische deduplicatie of deduplicatie van aankopen). Dit staat u toe om metrisch of afmeting te bepalen die in de montages van een andere metrisch of afmeting kan worden gebruikt zonder direct in rapportering (zoals aankoopidentiteitskaart) worden blootgesteld.
+* **U kunt een component verbergen in de rapportage**. Voor sommige maateenheden en dimensies is een tweede metrische waarde of dimensie vereist voor de configuratie (zoals metrische deduplicatie of aanschafdeduplicatie). Dit staat u toe om metrisch of afmeting te bepalen die in de montages van een andere metrisch of afmeting kan worden gebruikt zonder direct in rapportering (zoals aankoopidentiteitskaart) worden blootgesteld.
 
-* **U kunt opmaak toepassen op metrische**  getallen, zoals decimalen, tijd, percentages of valuta&#39;s. het specificeren van decimalen; een opwaartse trend vertonen als groen of rood; en het opgeven van valutaopties.
+* **U kunt opmaak toepassen op metrische** getallen, zoals decimalen, tijd, percentages of valuta&#39;s. het specificeren van decimalen; een opwaartse trend vertonen als groen of rood; en het opgeven van valutaopties.
 
 * U kunt **een metrische of afmeting tot stand brengen die op slechts enkele waarden op het schemagebied** wordt gebaseerd. Als u bijvoorbeeld een &#39;foutmeting&#39; wilt, kunt u een metrische waarde maken in het veld Paginanaam, maar alleen pagina&#39;s opnemen die het woord &#39;fout&#39; bevatten. De metrische fouten die hiermee worden gemaakt, worden ondersteund door filters, kunnen worden ingevoegd in berekende metriek en werken met kenmerk, stroom, fallout, enzovoort.
 
