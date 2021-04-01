@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2334'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Merk ook op dat wat u op dit gebied specificeert voor speciale behandeling UI va
 
 ![](assets/persistence.png)
 
-Deze instellingen lijken op de eVar-instellingen in traditionele Adobe Analytics.
+Voor meer informatie, zie het onderwerp op [Persistence](/help/data-views/persistence.md).
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
@@ -215,7 +215,7 @@ U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens be
 
 ## 3. Een algemeen filter toevoegen aan de gegevensweergave
 
-U kunt filters (voorheen segmenten genoemd) toevoegen die op uw volledige gegevensmening, gelijkend op de gefiltreerde mening van gegevens in Virtuele Reeksen van het Rapport (traditionele Adobe Analytics) van toepassing zijn.
+U kunt filters toevoegen die op uw volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert.
 
 1. Klik op het tabblad [!UICONTROL Settings] in [!UICONTROL Data views].
 1. Sleep een filter van de lijst in de linkerspoorstaaf aan het [!UICONTROL Add filters] gebied.
