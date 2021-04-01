@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 1%
 
 ---
@@ -87,4 +87,4 @@ Traditionele analyse wordt geleverd met veel out-of-the-box sjabloonsegmenten (f
 
 | Filternaam | Beschrijving |
 | --- | --- |
-| Alle gegevens | Dit is een vereist filter analoog aan het &quot;Alle Bezoeken&quot;segment in traditionele Adobe Analtyics. Het wordt dynamisch toegevoegd aan het melden wanneer metrisch aan de rij van een lijst Freeform wordt toegevoegd. |
+| Alle gegevens | Dit is een vereist filter dat dynamisch aan het melden wordt toegevoegd wanneer metrisch aan de rij van een lijst Freeform wordt toegevoegd. |
