@@ -2,9 +2,9 @@
 title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 >
 >Deze functionaliteit is over het algemeen beschikbaar op 22 april 2021.
 
-Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace.
+Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace. Gegevensweergaven zijn retroactief en niet-destructief. Met andere woorden, de onderliggende gegevens worden niet permanent gewijzigd.
 
-Als u eerder traditionele Adobe Analytics hebt gebruikt, is een gegevensmening gelijkaardig aan een virtuele rapportreeks in zoverre dat het een &quot;gefilterde&quot;mening van de gegevens is.
+Als u eerder traditionele Adobe Analytics hebt gebruikt, is een gegevensmening gelijkaardig aan een virtuele rapportreeks in zoverre dat het een &quot;gefilterde&quot;mening van de gegevens kan zijn.
 
-U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met verschillende instellingen voor de time-out van een bezoek, de toewijzing, enzovoort. U kunt ook meerdere gegevensweergaven maken voor één gegevensset. U kunt bijvoorbeeld een gegevensweergave hebben waarin alle afmetingen zijn ingesteld op [!UICONTROL Last Touch] en tegelijkertijd een andere gegevensweergave (op basis van dezelfde gegevensset) met alle afmetingen ingesteld op [!UICONTROL First Touch].
+U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met zeer verschillende sets componenten (afmetingen/metriek). U kunt ook gegevensweergaven maken met verschillende instellingen voor de time-out van een bezoek, de toewijzing, enz. U kunt bijvoorbeeld een gegevensweergave hebben waarin alle afmetingen zijn ingesteld op [!UICONTROL Last Touch] en tegelijkertijd een andere gegevensweergave (op basis van dezelfde gegevensset) met alle afmetingen ingesteld op [!UICONTROL First Touch].
 
 Werkruimteprojecten in Customer Journey Analytics zijn gebaseerd op gegevensweergaven.
 
