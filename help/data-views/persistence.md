@@ -2,10 +2,10 @@
 title: Wat is dimensie persistentie in Customer Journey Analytics?
 description: Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen ze welke waarden voor dimensies behouden blijven.
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -14,29 +14,85 @@ ht-degree: 0%
 
 Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen ze welke waarden voor dimensies behouden blijven. Adobe adviseert hoogst dat u binnen uw organisatie bespreekt hoe de veelvoudige waarden voor elke afmeting (toewijzing) worden behandeld en wanneer de afmetingswaarden het persisteren van gegevens (afloop) tegenhouden.
 
-* Een waarde voor de dimensie gebruikt standaard de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
+* Een waarde voor afmetingen gebruikt standaard? toewijzing.
 * Een waarde voor de dimensie gebruikt standaard de vervaldatum [!UICONTROL Session].
 
 ## Toewijzing
 
-Bepaalt hoe CJA krediet voor een succesgebeurtenis toewijst als een variabele veelvoudige waarden vóór de gebeurtenis ontvangt. Tot de ondersteunde waarden behoren:
+Toewijzing past een transformatie toe op de onderliggende waarde die u gebruikt. Tot de ondersteunde toewijzingsmodellen behoren:
 
-* Recentste versie: De laatste waarde van de eVar ontvangt altijd krediet voor succesgebeurtenissen tot die eVar verloopt.
-* Oorspronkelijke waarde: De eerste eVar krijgt altijd krediet voor succesgebeurtenissen tot die eVar verloopt.
-* Instantie: ??
+* Meest recent
+* Origineel
+* Alle
+* Eerste gekend
+* Laatst bekend
 
-Opmerking: Als u van of naar Lineair schakelt, worden historische gegevens niet weergegeven. Het mengen van toewijzingstypes in de rapporteringsinterface kan tot misverklaarbare gegevens in rapporten leiden. Zo kan lineaire toewijzing inkomsten verdelen over een aantal verschillende eVar. Na het terugkeren naar de meest recente toewijzing, zou 100% van die opbrengst met de meest recente enige waarde worden geassocieerd. Deze koppeling kan leiden tot onjuiste conclusies van gebruikers.
+### [!UICONTROL Most recent] toewijzing
 
-Om de kans op verwarring bij het rapporteren te vermijden, maakt Analytics de historische gegevens niet aan de interface beschikbaar. U kunt deze weergeven als u de opgegeven eVar wilt wijzigen in de oorspronkelijke toewijzingsinstelling, maar u kunt de instellingen voor de eVar-toewijzing niet wijzigen om alleen toegang te krijgen tot de historische gegevens. Adobe raadt aan een nieuwe eVar te gebruiken wanneer nieuwe toewijzingsinstellingen gewenst zijn voor gegevens die al worden geregistreerd, in plaats van toewijzingsinstellingen te wijzigen voor een eVar waarin al een aanzienlijke hoeveelheid historische gegevens is opgebouwd.
+Hier volgt een voor-en-na voorbeeld van [!UICONTROL Most recent]-toewijzing:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| tijdstempel (min) | 3 | 2 | 3 | 6 | 7 |
+| oorspronkelijke waarden |  | C | B |  | A |
+| Meest recente toewijzing |  | C | B | B | A |
+
+### [!UICONTROL Original] toewijzing
+
+Hier volgt een voor-en-na voorbeeld van [!UICONTROL Original]-toewijzing:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| tijdstempel (min) | 3 | 2 | 1 | 6 | 7 |
+| oorspronkelijke waarden |  | C | B |  | A |
+| Oorspronkelijke toewijzing |  | C | C | C | C |
+
+### [!UICONTROL All] toewijzing
+
+Deze nieuwe dimensie-toewijzing kan op zowel op serie-gebaseerde dimensies als enig-waardedimensies worden toegepast. Het werkt op dezelfde manier als het [!UICONTROL Participation] attributiemodel voor metriek. Het verschil is dat afzonderlijke waarden in het veld op verschillende punten kunnen verlopen. Stel dat er 5 gebeurtenissen zijn in een tekenreeksveld, waarbij de toewijzing is ingesteld op Alles en de vervaldatum op 5 minuten. Het volgende gedrag wordt verwacht:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| tijdstempel (min) | 3 | 2 | 3 | 6 | 7 |
+| oorspronkelijke waarden | A | B | C |  | A |
+| ná persistentie | A | A,B | A, B, C | B,C | A,C |
+
+U ziet dat de waarde van A aanhoudt tot de markering van 5 minuten is bereikt, terwijl B en C aanhouden tot Actief 4 omdat er nog geen 5 minuten zijn verstreken voor die waarden. Merk op dat deze toewijzing tot een multi-getaxeerde dimensie van een enig-getaxeerd gebied zal leiden. Dit model moet ook op arraygebaseerde afmetingen worden ondersteund:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| tijdstempel (min) | 3 | 2 | 3 | 6 | 7 |
+| oorspronkelijke waarden | A,B | C | B,C |  | A |
+| ná persistentie | A,B | A, B, C | A, B, C | B,C | A, B, C |
+
+### &quot;First Known&quot; en &quot;Last Known&quot; toewijzingen
+
+Deze twee nieuwe toewijzingsmodellen nemen de eerste of laatste waargenomen waarde voor een dimensie binnen een gespecificeerd persistentiegereik (zitting, persoon, of douanetijdspanne met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| tijdstempel (min) | 1 | 2 | 3 | 6 | 7 |
+| oorspronkelijke waarden |  | C | B |  | A |
+| eerste gekend | C | C | C | C | C |
+| laatst gekend | A | A | A | A | A |
+
+De eerste of laatst bekende waarden kunnen worden toegepast op alleen een sessie of op het bereik van de persoon (het rapportagevenster) of op een aangepast, of op tijd gebaseerd bereik (in feite een personenbereik met toegevoegd terugzoekvenster).
 
 ## Verlopen
 
-De waarden van Dimension verlopen na de tijdspanne die u specificeert. Nadat de afmetingswaarde verloopt, ontvangt het geen krediet meer voor metrisch. Dimension kunnen ook worden gevormd om op metriek te verlopen. Als je bijvoorbeeld een interne aanbieding hebt die aan het einde van een bezoek vervalt, ontvangt de interne aanbieding alleen kredieten voor aankopen of registraties die plaatsvinden tijdens het bezoek waarin ze zijn geactiveerd.
+[!UICONTROL Expiration] Hiermee kunt u het persistentievenster voor een dimensie opgeven.
 
-Er zijn twee manieren om een eVar te verlopen:
+Er zijn vier manieren om een afmetingswaarde te verlopen:
 
-U kunt instellen dat de eVar na een opgegeven tijdsperiode of gebeurtenis vervalt.
-U kunt de vervaldatum van een eVar forceren door deze opnieuw in te stellen. Dit is handig wanneer u een variabele opnieuw gebruikt.
-Als u bijvoorbeeld de vervaldatum van een eVar wijzigt van 30 tot 90 dagen, blijven de verzamelde eVar behouden gedurende de nieuwe vervaldatum (in dit geval 90 dagen). Het systeem bekijkt eenvoudig de huidige die vervalbepaling en laatste vastgestelde timestamp van de eVar waarde wordt verzameld om afloop te bepalen. Alleen de optie Herstellen vervalt waarden en doet dit onmiddellijk.
+* Sessie (standaard): Verloopt na een bepaalde sessie.
+* Persoon: ?
+* Tijd: U kunt de waarde van de dimensie instellen op verlopen na een opgegeven tijdsperiode of gebeurtenis.
+* Metrisch: U kunt om het even welke bepaalde metriek als het afloopeind voor deze afmeting specificeren (b.v. metrisch &quot;van de Aankoop&quot;).
+* Aangepast:
 
-Een ander voorbeeld: Als een eVar in Mei wordt gebruikt om interne bevorderingen te weerspiegelen en na 21 dagen verloopt, en in juni wordt het gebruikt om interne onderzoekssleutelwoorden te vangen, dan zou u op 1 Juni de afloop van, of het terugstellen van, de variabele moeten dwingen. Als u dat doet, blijven de interne promotiewaarden buiten de verslagen van juni.
+### Wat is het verschil tussen Toewijzing en Attributie?
+
+**Toewijzing**: Denk aan toewijzing als &quot;gegevenstransformatie&quot; van de dimensie. Toewijzing vindt plaats voordat wordt gefilterd. Als u een filter maakt, zal dit wegvallen van de getransformeerde dimensie.
+
+**Attributie**: Hoe verdeel ik het krediet van metrisch aan de dimensie die het wordt toegepast? Attributie vindt plaats na het filteren.
+
