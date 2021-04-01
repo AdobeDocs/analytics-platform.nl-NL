@@ -1,10 +1,10 @@
 ---
-title: Wat is volharding in Customer Journey Analytics?
+title: Wat is dimensie persistentie in Customer Journey Analytics?
 description: Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen ze welke waarden voor dimensies behouden blijven.
 translation-type: tm+mt
-source-git-commit: 09f49cff89d69ae630e917243425967dbf56a9ed
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
