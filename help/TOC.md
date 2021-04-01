@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5182e6c97e475296ca5ecd4014193770491b1988
+source-git-commit: 16341ab99e24d40580a1052aacc7daedb5b5f9c1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 42%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 42%
    + [Een gegevensweergave 2 maken](data-views/create-dataview2.md)
    + [Gegevensweergaven en -toewijzing configureren](data-views/configure-dataviews.md)
    + [Gebruiksscenario&#39;s voor gegevensweergaven](data-views/data-views-usecases.md)
+   + [Persistentie](data-views/persistence.md)
 + Werkruimteprojecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + [Basisanalyse uitvoeren](analysis-workspace/perform-basic-analysis.md)
