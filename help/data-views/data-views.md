@@ -2,9 +2,9 @@
 title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 >
 >Deze functionaliteit is over het algemeen beschikbaar op 22 april 2021.
 
-Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace. Gegevensweergaven zijn retroactief en niet-destructief. Met andere woorden, de onderliggende gegevens worden niet permanent gewijzigd.
+Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace.
 
-Als u eerder traditionele Adobe Analytics hebt gebruikt, is een gegevensmening gelijkaardig aan een virtuele rapportreeks in zoverre dat het een &quot;gefilterde&quot;mening van de gegevens kan zijn.
+>[!NOTE]
+>
+>Alle instellingen die u selecteert of wijzigt in een gegevensweergave, zijn retroactief en niet-destructief. Met andere woorden, de onderliggende gegevens worden niet permanent gewijzigd.
 
 U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met zeer verschillende sets componenten (afmetingen/metriek). U kunt ook gegevensweergaven maken met verschillende instellingen voor de time-out van een bezoek, de toewijzing, enz. U kunt bijvoorbeeld een gegevensweergave hebben waarin alle afmetingen zijn ingesteld op [!UICONTROL Last Touch] en tegelijkertijd een andere gegevensweergave (op basis van dezelfde gegevensset) met alle afmetingen ingesteld op [!UICONTROL First Touch].
 
@@ -28,7 +30,7 @@ Werkruimteprojecten in Customer Journey Analytics zijn gebaseerd op gegevensweer
 
 De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat u kunt doen met gegevensweergaven. Deze verhogingen laten u **schemaelementmontages in de Mening van Gegevens spontaan veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu CJA opnieuw uitvoeren**.
 
-* **U kunt een component wijzigen van Metrisch in Dimension en andersom**. U kunt metriek van koordgebieden tot stand brengen of dimensies van numerieke gebieden tot stand brengen. Dit maakt uw leven gemakkelijker in zoverre dat u geen numeriek gebied in uw schema XDM voor elke metrisch moet tot stand brengen u wilt. In plaats daarvan kunt u deze alleen spontaan maken in het dialoogvenster met gegevensweergaven. Hier volgen enkele voorbeelden:
+* **U kunt een component wijzigen van Metrisch in Dimension en andersom**. U kunt metriek van koordgebieden tot stand brengen of dimensies van numerieke gebieden tot stand brengen. Dit maakt uw leven gemakkelijker, omdat u geen numeriek gebied in uw schema XDM voor elke metrisch moet creëren u wilt. In plaats daarvan kunt u deze alleen spontaan maken in het dialoogvenster met gegevensweergaven. Hier volgen enkele voorbeelden:
    * **Maak een of meer en/of één afmetingen van één schemaveld**. Het is een één-op-veel relatie. U kunt bijvoorbeeld een of meer omzetmaatstaven en/of een of meer inkomstendimensies maken van één schemaveld.
    * **Gebruik een tekenreeksveld als metrisch**: Wanneer u een schema in Experience Platform met een dataset bevolkt, zou u niet omhoog kunnen weten welke schemaelementen u nodig hebt. Het kan bijvoorbeeld zijn dat u niet besefte dat u een metrische waarde nodig had voor &quot;Fouten op een pagina&quot;. Als gevolg hiervan hebt u geen numeriek schema-element voor dit effect gemaakt. Door een tekenreekselement als metrisch te gebruiken, kunt u nu de montages van gegevensmeningen gebruiken om te specificeren dat wanneer een koord het woord &quot;fout&quot;bevat, het als metrisch kan worden gebruikt.
    * **Een numeriek veld gebruiken als een afmeting**: Bijvoorbeeld, als u de metrisch van de Opbrengst van de afmeting van de Opbrengst wilt trekken, zou de afmeting van de Opbrengst elke waarde als afmetingspunt ($100, $175, $1.000, enz.) tonen en het aantal instanties voor elk dimensie-item. De opbrengst als metrisch zou zich als het altijd gedraagt.
@@ -37,7 +39,7 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 
 * **U kunt de id van een component**  bewerken. Dit wordt gebruikt voor compatibiliteit tussen gegevensweergaven. De component-id is de id die de rapportage-API gebruikt om een specifieke metrische of dimensie te identificeren. Omdat u willekeurig vele metriek of dimensies van één XDM gebied kunt tot stand brengen, zullen wij u de optie geven om uw eigen componentenidentiteitskaart te bepalen. Dientengevolge, metrisch u in één project van de Werkruimte gebruikt kan over gegevensmeningen (en API) compatibel zijn, zelfs als zij op totaal verschillende gebieden van verschillende verbindingen of gegevensmeningen of van een verschillend schema in XDM gebaseerd zijn.
 
-* **U kunt de vriendschappelijke componentennaam specificeren die in Analysis Workspace** zal verschijnen. Deze naam wordt standaard overgenomen van de weergavenaam van het schema, maar u kunt deze naam nu overschrijven voor deze specifieke gegevensweergave. (Dit is ook de manier waarop componentcuratie werkt in Virtual Report Suites in traditionele Adobe Analytics).
+* **U kunt de vriendschappelijke componentennaam specificeren die in Analysis Workspace** zal verschijnen. Deze naam wordt standaard overgenomen van de weergavenaam van het schema, maar u kunt deze naam nu overschrijven voor deze specifieke gegevensweergave.
 
 * **U kunt meer op schema betrekking hebbende informatie over componenten** , zoals bekijken: het type gegevensset (gebeurtenis, profiel, raadpleging) waaruit het afkomstig is; welk schematype (koord, geheel, etc.) het afkomstig was van; en het schemapad (het XDM-veld waarop het is gebaseerd).
 
@@ -58,11 +60,7 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 * Alvorens u gegevensmeningen kunt tot stand brengen, moet u [opstelling één of meerdere verbindingen aan Experience Platform datasets](/help/connections/create-connection.md).
 * Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen nodig in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
 
-## Informatie over een component weergeven
-
-Klik op het infopictogram (i) in Workspace om te zien op welk schemaveld een component is gebaseerd, en op de bijbehorende instellingen, zoals een beschrijving.
-
-## Gegevens weergeven instellingen die u kunt overschrijven in werkruimte
+## De weergave-instellingen die u kunt overschrijven in de werkruimte
 
 Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysis Workspace op projectniveau, andere niet.
 
@@ -70,7 +68,7 @@ Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysi
 * Metrische kenmerken
 * Bepaalt of gebruikers het regelitem Geen waarde in een rapport al dan niet zien
 
-## Gegevens weergeven instellingen die u niet kunt overschrijven in werkruimte
+## De instellingen van de gegevensweergave die u niet kunt overschrijven in de werkruimte
 
 * Componenttype
 * Metrische opmaak
