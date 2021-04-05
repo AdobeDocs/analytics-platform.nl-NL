@@ -1,14 +1,14 @@
 ---
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
+exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2533'
 ht-degree: 0%
 
 ---
-
 
 # Een nieuwe gegevensweergave maken
 
@@ -45,7 +45,10 @@ Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U ku
 
 ![](assets/components-tab.png)
 
-U kunt [!UICONTROL Connection] bij de hoogste linkerzijde zien, die de datasets, en zijn [!UICONTROL Schema fields] hieronder bevat. De componenten die al aanwezig zijn, zijn de vereiste standaardcomponenten (het gegenereerde systeem).
+U kunt [!UICONTROL Connection] bij de hoogste linkerzijde zien, die de datasets, en zijn [!UICONTROL Schema fields] hieronder bevat. Houd er rekening mee dat:
+
+* De reeds inbegrepen componenten zijn de standaard vereiste componenten (systeem geproduceerd.)
+* Ook past u het filter **[!UICONTROL Contains data]** standaard toe, zodat alleen Schema-velden met gegevens worden weergegeven. Als u een veld zoekt dat geen gegevens bevat, verwijdert u gewoon het filter.
 
 1. Sleep nu een schemaveld, zoals [!UICONTROL pageTitle], van de linkerspoor naar de sectie Metriek of Dimension.
 
@@ -173,35 +176,35 @@ Naast het creëren van metriek en dimensies van schemaelementen, kunt u standaar
 
 ![](assets/standard-components.png)
 
-Vereiste standaardonderdelen
+De vereiste standaardcomponenten worden door gebrek toegevoegd aan uw gegevensmening.
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
-| [!UICONTROL People] | Metrisch | Vroeger bekend als [!UICONTROL Unique Visitors] in traditionele Analytics. Deze metrische waarde is gebaseerd op de persoonidentiteitskaart in een Verbinding wordt gespecificeerd die. |
-| [!UICONTROL Sessions] | Metrisch | Vroeger bekend als [!UICONTROL Visits] in traditionele Analytics. Deze maatstaf is gebaseerd op de onderstaande sessionisatie-instellingen. |
-| [!UICONTROL Events] | Metrisch | Vroeger bekend als [!UICONTROL Occurrences] in traditionele Analytics. Deze metrische waarde vertegenwoordigt het aantal rijen van alle gebeurtenisdatasets in een Verbinding. |
-| [!UICONTROL Day] | Dimension |  |
-| [!UICONTROL Week] | Dimension |  |
-| [!UICONTROL Month] | Dimension |  |
-| [!UICONTROL Quarter] | Dimension |  |
-| [!UICONTROL Year] | Dimension |  |
-| [!UICONTROL Hour] | Dimension |  |
-| [!UICONTROL Minute] | Dimension |  |
+| [!UICONTROL People] | Metrisch | Deze metrische waarde is gebaseerd op de persoonidentiteitskaart in een Verbinding wordt gespecificeerd die. |
+| [!UICONTROL Sessions] | Metrisch | Deze maatstaf is gebaseerd op de onderstaande sessionisatie-instellingen. |
+| [!UICONTROL Events] | Metrisch | Deze metrische waarde vertegenwoordigt het aantal rijen van alle gebeurtenisdatasets in een Verbinding. |
+| [!UICONTROL Day] | Dimension | De dimensie &quot;Dag&quot; rapporteert de dag waarop een bepaalde metrische waarde is opgetreden. Het eerste afmetingspunt is de eerste dag in de datumwaaier, en het laatste afmetingspunt is de laatste dag in de datumwaaier. |
+| [!UICONTROL Week] | Dimension | De &quot;Week&quot;-dimensie meldt de week dat een bepaalde meting heeft plaatsgevonden. Het eerste dimensie-item is de eerste week in het datumbereik en het laatste dimensie-item is de laatste week in het datumbereik. |
+| [!UICONTROL Month] | Dimension | De dimensie van de Maand meldt de maand dat bepaalde metrisch voorkwam. Het eerste afmetingspunt is de eerste maand in de datumwaaier, en het laatste afmetingspunt is de laatste maand in de datumwaaier. |
+| [!UICONTROL Quarter] | Dimension | De &quot;Kwartdimensie&quot; rapporteert het kwartaal dat een bepaalde meting heeft plaatsgevonden. De post van de eerste dimensie is het eerste kwartaal in het datumbereik, en de laatste dimensie is het laatste kwartaal in het datumbereik. |
+| [!UICONTROL Year] | Dimension | De dimensie &quot;Jaar&quot; geeft het jaar weer waarin een bepaalde meting heeft plaatsgevonden. De eerste dimensie-post is het eerste jaar in het datumbereik, en de laatste dimensie-post is het meest recente jaar in het datumbereik. |
+| [!UICONTROL Hour] | Dimension | De dimensie &quot;Uur&quot; geeft het uur weer waarop een bepaalde metrische waarde heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is het eerste uur in de datumwaaier, en het laatste afmetingspunt is het laatste uur in de datumwaaier. |
+| [!UICONTROL Minute] | Dimension | De dimensie &quot;Minuut&quot; rapporteert de minuut die een bepaalde metrische waarde heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut in de datumwaaier, en het laatste afmetingspunt is de laatste minuut in de datumwaaier. |
 
 ### Optionele standaardonderdelen
 
-Sommige systeemonderdelen zijn vereist in elke gegevensweergave om rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl de onderstaande onderdelen optioneel zijn.
+Optionele standaardcomponenten zijn beschikbaar op het tabblad **[!UICONTROL Standard Components]**.
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
-| [!UICONTROL Session Starts] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de eerste gebeurtenis van een zitting waren. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), het filters neer tot enkel de eerste gebeurtenis van elke zitting. Merk op dat dit verschillend gedrag van [!UICONTROL Entries] in zoverre is dat het altijd de eerste gebeurtenis van een zitting telt - niet de eerste waarde aanwezig voor een afmeting in een zitting. |
-| [!UICONTROL Session Ends] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de laatste gebeurtenis van een zitting waren. Net als [!UICONTROL Session Starts], kan deze ook worden gebruikt in een filterdefinitie om items tot aan de laatste gebeurtenis van elke sessie te filteren. Merk op dat dit verschillend gedrag van [!UICONTROL Exits] in zoverre is dat het altijd de laatste gebeurtenis van een zitting telt - niet de laatste waarde aanwezig voor een afmeting in een zitting. |
-| [!UICONTROL Time Spent (seconds)] | Metrisch | De metrische waarde [!UICONTROL Time Spent] werkt op dezelfde manier als in traditionele Adobe Analytics: het optellen van de tijd tussen twee verschillende waarden voor een dimensie. Nochtans, gebruikend de Metrisch van Begin van de Zitting en van het Eind van de Zitting, kunnen de klanten [!UICONTROL Time Spent per Person] en [!UICONTROL Time Spent per Session] berekende metriek zelf construeren (zie filters OTB en calc hieronder). |
-| [!UICONTROL Time Spent per Event] | Dimension | Dit is eigenlijk slechts een emmer van de bovenstaande metrische waarde. We leveren standaardemmers, maar laat je de emmers veranderen in wat je maar wilt. |
-| [!UICONTROL Time Spent per Session] | Dimension |  |
-| [!UICONTROL Time Spent per Person] | Dimension |  |
-| [!UICONTROL Batch ID] | Dimension |  |
-| [!UICONTROL Dataset ID] | Dimension |  |
+| [!UICONTROL Session Starts] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de eerste gebeurtenis van een zitting waren. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), het filters neer tot enkel de eerste gebeurtenis van elke zitting. |
+| [!UICONTROL Session Ends] | Metrisch | Deze metrische waarde telt het aantal gebeurtenissen die de laatste gebeurtenis van een zitting waren. Net als [!UICONTROL Session Starts], kan deze ook worden gebruikt in een filterdefinitie om items tot aan de laatste gebeurtenis van elke sessie te filteren. |
+| [!UICONTROL Time Spent (seconds)] | Metrisch | Met de metrische waarde [!UICONTROL Time Spent] wordt de tijd tussen twee verschillende waarden voor een dimensie opgeteld. |
+| [!UICONTROL Time Spent per Event] | Dimension | [!UICONTROL Time Spent per Event] emmert  [!UICONTROL Time Spent] metrisch in  [!UICONTROL Event] emmers. |
+| [!UICONTROL Time Spent per Session] | Dimension | [!UICONTROL Time Spent per Session] emmert  [!UICONTROL Time Spent] metrisch in  [!UICONTROL Session] emmers. |
+| [!UICONTROL Time Spent per Person] | Dimension | [!UICONTROL Time Spent per Person] emmert  [!UICONTROL Time Spent] metrisch in  [!UICONTROL Person] emmers. |
+| [!UICONTROL Batch ID] | Dimension | Vertegenwoordigt de partij van het Experience Platform dat een [!UICONTROL Event] deel van was. |
+| [!UICONTROL Dataset ID] | Dimension | Vertegenwoordigt de dataset van het Experience Platform dat een [!UICONTROL Event] deel van was. |
 
 ### Filterschemavelden en afmetingen/metriek
 
@@ -209,9 +212,10 @@ U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtrere
 
 ![](assets/filter-fields.png)
 
-U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens bevat of dat het een identiteit is:
+U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens bevat of dat het een identiteit is. Standaard passen we het filter **[!UICONTROL Contains data]** toe op alle gegevensweergaven.
 
 ![](assets/filter-other.png)
+
 
 ## 3. Een algemeen filter toevoegen aan de gegevensweergave
 
