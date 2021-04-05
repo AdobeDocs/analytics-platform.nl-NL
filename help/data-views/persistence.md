@@ -1,20 +1,20 @@
 ---
 title: Wat is dimensie persistentie in Customer Journey Analytics?
 description: Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen ze welke waarden voor dimensies behouden blijven.
+exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
+source-git-commit: 16e43f5d938ac25445f382e5eba8fc12e0e67161
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 12%
 
 ---
-
 
 # Persistentie
 
 Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen ze welke waarden voor dimensies behouden blijven. Adobe adviseert hoogst dat u binnen uw organisatie bespreekt hoe de veelvoudige waarden voor elke afmeting (toewijzing) worden behandeld en wanneer de afmetingswaarden het persisteren van gegevens (afloop) tegenhouden.
 
-* Een waarde voor afmetingen gebruikt standaard? toewijzing.
+* Standaard gebruikt een afmetingswaarde [WAT?] toewijzing.
 * Een waarde voor de dimensie gebruikt standaard de vervaldatum [!UICONTROL Session].
 
 ## Toewijzing
@@ -33,7 +33,7 @@ Hier volgt een voor-en-na voorbeeld van [!UICONTROL Most recent]-toewijzing:
 
 | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
 | --- | --- | --- | --- | --- | --- |
-| tijdstempel (min) | 3 | 2 | 3 | 6 | 7 |
+| tijdstempel (min) | 1 | 2 | 3 | 6 | 7 |
 | oorspronkelijke waarden |  | C | B |  | A |
 | Meest recente toewijzing |  | C | B | B | A |
 
@@ -43,7 +43,7 @@ Hier volgt een voor-en-na voorbeeld van [!UICONTROL Original]-toewijzing:
 
 | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
 | --- | --- | --- | --- | --- | --- |
-| tijdstempel (min) | 3 | 2 | 1 | 6 | 7 |
+| tijdstempel (min) | 1 | 2 | 1 | 6 | 7 |
 | oorspronkelijke waarden |  | C | B |  | A |
 | Oorspronkelijke toewijzing |  | C | C | C | C |
 
@@ -95,4 +95,3 @@ Er zijn vier manieren om een afmetingswaarde te verlopen:
 **Toewijzing**: Denk aan toewijzing als &quot;gegevenstransformatie&quot; van de dimensie. Toewijzing vindt plaats voordat wordt gefilterd. Als u een filter maakt, zal dit wegvallen van de getransformeerde dimensie.
 
 **Attributie**: Hoe verdeel ik het krediet van metrisch aan de dimensie die het wordt toegepast? Attributie vindt plaats na het filteren.
-
