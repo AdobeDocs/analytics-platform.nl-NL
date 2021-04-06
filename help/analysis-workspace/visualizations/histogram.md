@@ -1,14 +1,14 @@
 ---
 description: Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers).
 title: Histogram
+exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 3%
 
 ---
-
 
 # Histogram
 
@@ -60,7 +60,7 @@ Als u de gegevensbron voor het histogramdiagram wilt weergeven of wijzigen, klik
 
 ![](assets/manage-data-source.png)
 
-Vooraf gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en zullen niet omhoog in de selecteur van het Segment verschijnen. Klik op het pictogram &quot;i&quot; naast de segmentnaam en klik vervolgens op **[!UICONTROL Make public]** om het segment openbaar te maken.
+Vooraf samengestelde filters die in de tabel worden weergegeven, zijn interne filters die niet worden weergegeven in de filterkiezer. Klik op het pictogram &quot;i&quot; naast de filternaam en klik vervolgens op **[!UICONTROL Make public]** om het filter openbaar te maken.
 
 ![](assets/prebuilt_segments.png)
 
