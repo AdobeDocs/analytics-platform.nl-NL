@@ -5,7 +5,7 @@ title: Overzicht van projecten
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Binnen een project, [worden panelen](/help/analysis-workspace/c-panels/panels.md
 
 U kunt ook toegang krijgen tot visualisaties en deelvensters via [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md).
 
-Componenten (Dimension, Metriek, Segmenten, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
+Componenten (Dimension, Metriek, Filters, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
 
 ![](assets/left-rail.png)
 
