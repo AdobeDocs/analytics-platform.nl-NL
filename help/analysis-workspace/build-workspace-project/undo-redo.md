@@ -3,9 +3,9 @@ description: Meer informatie over de opties Ongedaan maken en Opnieuw in Analysi
 title: Instellingen ongedaan maken en opnieuw uitvoeren
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,6 @@ ht-degree: 4%
 * Alles wissen
 * Tijdsperiode
 * Contributieanalyse
-* Segmentvergelijking
 * Projectnaam
 * Visualisatie toevoegen/verwijderen
 * Deelvenster of visualisatie samenvouwen/uitvouwen
@@ -45,7 +44,7 @@ ht-degree: 4%
 * Opties voor vrije vorm met rechtermuisknop klikken
 * Selectie
 * Selectie van een legenda visualiseren
-* Een segment toevoegen aan een deelvenster
+* Een filter toevoegen aan een deelvenster
 * Visualisatie-instellingen voor grafieken
 * Legenda-labels bewerken
 * Magische visualisatie
@@ -63,9 +62,9 @@ ht-degree: 4%
 
 * Wijzigingen in projectinformatie en -instellingen (tags toevoegen, beschrijvingswijzigingen, instelling voor herhaalde instanties tellen)
 * Instellen als bestemmingspagina
-* Nieuw toevoegen (segment/metrisch/Datumbereik/Waarschuwing)
+* Nieuw toevoegen (filter/metrisch/Datumbereik/Waarschuwing)
 * Project delen, Projectkoppeling ophalen, Bestand verzenden (Nu of Programma)
-* Segment maken voor dit pad bij stroomvisualisatie
+* Filter maken voor dit pad bij stroomvisualisatie
 * Berekende metrisch maken
 * Datumbereik maken
 
