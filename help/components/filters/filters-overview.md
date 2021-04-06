@@ -1,14 +1,14 @@
 ---
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
+exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '926'
 ht-degree: 1%
 
 ---
-
 
 # Overzicht van filters
 
@@ -18,14 +18,11 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
->[!IMPORTANT]
->Filters worden in Adobe Analytics &#39;segmenten&#39; genoemd. We hebben de naam van segmenten gewijzigd in filters omdat Adobe Experience Platform [een andere definitie van &quot;segment&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) heeft.
-
 Filteren omvat [Filter Builder](/help/components/filters/create-filters.md) om filters te construeren en een pretest in werking te stellen, en [de Manager van de Filter](/help/components/filters/manage-filters.md) om filters over uw organisatie te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en te delen.
 
 ## Opeenvolgende filters
 
-Met opeenvolgende filters kunt u bezoekers identificeren op basis van navigatie en paginaweergave op uw site. Zo beschikt u over een filter met gedefinieerde handelingen en interacties. Met behulp van opeenvolgende segmenten kunt u bepalen wat een bezoeker leuk vindt en wat een bezoeker vermijdt. Wanneer het bouw van opeenvolgende filters, wordt de exploitant THEN gebruikt om bezoekersnavigatie te bepalen en te ordenen.
+Met opeenvolgende filters kunt u bezoekers identificeren op basis van navigatie en paginaweergave op uw site. Zo beschikt u over een filter met gedefinieerde handelingen en interacties. Met behulp van opeenvolgende filters kunt u bepalen wat een bezoeker leuk vindt en wat een bezoeker vermijdt. Wanneer het bouw van opeenvolgende filters, wordt de exploitant THEN gebruikt om bezoekersnavigatie te bepalen en te ordenen.
 
 Hier volgt een voorbeeld:
 
@@ -57,7 +54,7 @@ De containers van de persoon kunnen waarden omvatten die op de algemene geschied
 
 ### Sessiecontainer
 
-Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet en u laat bepalen welke zittingen u in de bouw en het toepassen van een segment wilt omvatten of uitsluiten. Het kan u helpen deze vragen beantwoorden:
+Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet en u laat bepalen welke zittingen u in de bouw en het toepassen van een filter wilt omvatten of uitsluiten. Het kan u helpen deze vragen beantwoorden:
 
 * Hoeveel bezoekers hebben de sectie Nieuws en Sport in dezelfde sessie bekeken?
 * Welke pagina&#39;s hebben bijgedragen tot een geslaagde omzetting in een uitverkoop?
@@ -83,7 +80,7 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 
 ## Filtersjabloon buiten de box
 
-Traditionele analyse wordt geleverd met veel out-of-the-box sjabloonsegmenten (filters) en berekende meetgegevens. Veel van deze regels zijn niet van toepassing op CJA of moeten worden hernoemd of opnieuw worden gemaakt. Andere zullen van een oplossing voor context-bewuste variabelen in CJA afhangen.
+Traditionele analyse wordt geleverd met veel out-of-the-box sjabloonfilters (filters) en berekende meetgegevens. Veel van deze regels zijn niet van toepassing op CJA of moeten worden hernoemd of opnieuw worden gemaakt. Andere zullen van een oplossing voor context-bewuste variabelen in CJA afhangen.
 
 | Filternaam | Beschrijving |
 | --- | --- |
