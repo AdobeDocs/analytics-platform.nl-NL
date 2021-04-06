@@ -1,15 +1,15 @@
 ---
 description: Alleen-weergeven projecten in Workspace
-keywords: View-only projects
+keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
+exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # Alleen-weergeven -projecten
 
@@ -26,7 +26,6 @@ U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door [het werksche
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerspoor
-* Rapportsuite
 * Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
 * Freeform-filtering
 * Vrije vorm # van zichtbare rijen
