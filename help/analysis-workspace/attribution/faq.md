@@ -3,9 +3,9 @@ title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
@@ -53,4 +53,4 @@ Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgeg
 
 **Hoe werkt attributie met filters?**
 
-Attributie wordt altijd uitgevoerd voordat filters worden toegepast en segmentatie wordt uitgevoerd voordat andere rapportfilters worden toegepast.
+Attributie wordt altijd uitgevoerd voordat filters worden toegepast en globale filters worden uitgevoerd voordat andere rapportfilters worden toegepast.
