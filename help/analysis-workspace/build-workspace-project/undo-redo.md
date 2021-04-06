@@ -3,9 +3,9 @@ description: Meer informatie over de opties Ongedaan maken en Opnieuw in Analysi
 title: Instellingen ongedaan maken en opnieuw uitvoeren
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '273'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 4%
 
 * **[!UICONTROL New Project]** of  **[!UICONTROL Open Existing Project]** wis de  **[!UICONTROL Undo]** stapel
 
-* U kunt het wijzigen van de rapportsuite ongedaan maken of opnieuw uitvoeren.
 * Een bericht voor Ongedaan maken/Opnieuw wordt weergegeven bij de naam van het project - het geeft aan wanneer er een bewerking Ongedaan maken of Opnieuw wordt uitgevoerd.
 * U kunt deze [sneltoetsen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) gebruiken:
 
@@ -36,7 +35,6 @@ ht-degree: 4%
 * Contributieanalyse
 * Segmentvergelijking
 * Projectnaam
-* Selectie van rapportsuite
 * Visualisatie toevoegen/verwijderen
 * Deelvenster of visualisatie samenvouwen/uitvouwen
 * Invoegen met sneltoetsen (CTRL(CMD)+Z voor Ongedaan maken), (CTRL(CMD)+SHIFT+Z voor Opnieuw)
