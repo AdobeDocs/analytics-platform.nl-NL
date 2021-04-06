@@ -2,16 +2,16 @@
 description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
 keywords: Analysis Workspace
 title: Uitsplitsingsdimensies
-topic: Reports and analytics
+topic: Rapporten en analyses
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 15%
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
-
 
 # Uitsplitsingsdimensies
 
@@ -21,14 +21,14 @@ ht-degree: 15%
 
 Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
-U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s bouwen met relevante metrics, dimensies, segmenten, tijdlijnen en andere uitsplitsingswaarden voor de analyse.
+U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoeften; bouwen vragen gebruikend relevante metriek, dimensies, filters, tijdlijnen, en andere waarden van de analyseonderbreking.
 
 1. [Maak een ](/help/analysis-workspace/home.md) project met een gegevenstabel.
 1. Klik in de datatabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Stap Resultaat](assets/fa_data_table_actions.png)
 
-   U kunt metriek onderverdelen door afmetingspunten of publiekssegmenten over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
+   U kunt metriek onderverdelen door afmetingspunten of publieksfilters over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
 
    >[!NOTE]
    >
