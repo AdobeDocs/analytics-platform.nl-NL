@@ -1,14 +1,14 @@
 ---
 title: Overzicht van attributie
 description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
+exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 48%
+ht-degree: 42%
 
 ---
-
 
 # Overzicht van attributie
 
@@ -35,7 +35,7 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 * Een onbeperkt aantal attributiemodellen vergelijken: vergelijk dynamisch zoveel modellen als u wilt.
 * Geen late wijzigingen tijdens de implementatie: met de functies voor verwerking van de rapporttijd en context-bewuste sessies, kan de context van het klanttraject worden ingebouwd voor toepassing tijdens runtime.
 * Construeer de sessie die het beste overeenkomt met uw attributiescenario.
-* Uitsplitsing van attributie per segment: vergelijk eenvoudig de prestaties van uw marketingkanalen voor elk belangrijk segment (bijvoorbeeld Nieuwe of Terugkerende klanten, Product X versus Product Y, Loyaliteitsniveau of CLV).
+* Verdeling van kenmerken door filters: Vergelijk eenvoudig de prestaties van uw marketingkanalen met elk belangrijk filter (bijvoorbeeld Nieuwe of Herhaalde klanten, Product X versus Product Y, Loyalty level of CLV).
 * Controle dankzij &#39;channel cross-over&#39; en multi-touchanalyse: gebruik Venn-diagrammen en histogrammen en volg de trends in attributieresultaten.
 * Visuele analyse van belangrijke marketingreeksen: werk met visuele methoden die leiden tot conversie, zoals flows voor meerdere knooppunten en uitvalvisualisaties.
 * Stel berekende standaarden samen: gebruik een willekeurig aantal toewijzingsmethoden voor attributie.
