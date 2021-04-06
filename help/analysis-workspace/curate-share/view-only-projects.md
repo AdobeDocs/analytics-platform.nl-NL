@@ -4,7 +4,7 @@ keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 * Freeform-filtering
 * Vrije vorm # van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
-* Deelvenstersegmenten
+* Deelvensterfilters
 * Menu&#39;s Bewerken, Invoegen en Component
 * Tips voor werkruimte
 
