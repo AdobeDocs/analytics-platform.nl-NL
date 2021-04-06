@@ -2,14 +2,14 @@
 description: Gebruik sjablonen in Workspace en maak aangepaste sjablonen.
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
+exl-id: 464032a1-6dae-4df5-b4db-b277788e88c2
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 3%
+source-wordcount: '700'
+ht-degree: 1%
 
 ---
-
 
 # Sjablonen
 
@@ -55,7 +55,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 
 ## Standaardsjablonen
 
-Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de linkertrack. Analysis Workspace Templates behandelt veelvoorkomende gebruiksgevallen. Zij worden gegroepeerd door verticaal zij tot behoren en met verschillende afmetingen, segmenten, metriek en visualisaties, afhankelijk van de rapportreeks bevolkt zijn u hebt geselecteerd.
+Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de linkertrack. Analysis Workspace Templates behandelt veelvoorkomende gebruiksgevallen. Ze worden gegroepeerd op de verticale as waartoe ze behoren en worden gevuld met verschillende afmetingen, filters, metriek en visualisaties, afhankelijk van de geselecteerde gegevensweergave.
 
 U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw behoeften aanpassen (door bijvoorbeeld metriek of visualisaties toe te voegen of te vervangen) en ze onder een andere naam op te slaan.
 
@@ -73,39 +73,11 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 * **Lesbestand training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse kunt maken voor uw managers, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
 
-### Reclame
-
->[!IMPORTANT]
->
->Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
-
-* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
-
-### Commerce
-
-* **Magento: Marketing en handel**: Deze sjabloon verdeelt uw e-commerceconversie door kanaalattributie op de markt te brengen en biedt inzicht door zoekwoord, landingspagina, geografische locatie en meer. Zie voor een video-overzicht:
-
->[!VIDEO](https://video.tv.adobe.com/v/28164)
-
 ### Media
 
 * **Audioverbruik**: Welke inhoud wordt het meest verbruikt en betrekt gebruikers?
 * **Frequentie - Loyalty**: Wie zijn mijn loyale lezers?
 
-### Mobile
-
->[!IMPORTANT]
->
->Mobiele sjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Mobiel.
-
-* **Berichten:** focus op in-app en pushberichten.
-* **Locatie:** bevat een kaart met locatiegegevens.
-* **Belangrijke cijfers:** houd een impuls aan de belangrijkste meetgegevens van uw app.
-* **Toepassingsgebruik:** Hoeveel gebruikers van apps, startende apps en startende apps heeft de app voor het eerst, en wat was de gemiddelde sessielengte?
-* **Overname:** Zie hoe mobiele acquisitie-koppelingen werken.
-* **Prestaties:** Hoe presteert de app en waar hebben gebruikers problemen?
-* **Behoud:** Wie zijn mijn loyale gebruikers en wat doen zij?
-* **Reizen:** Wat zijn de opvallende gebruikspatronen voor mijn app?
 
 ### Detailhandel
 
@@ -119,37 +91,3 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 * **Behoud:** Welke soorten gebruikers waarschijnlijk loyale gebruikers van mijn plaats zijn?
 * **Technologie:** Welke technologie gebruiken mensen om mijn site te openen?
 
-### Mensen
-
->[!NOTE]
->
->Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [het ApparaatCo-op van Adobe Experience Cloud](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
-
-Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
-
-* Segmenteer uw gegevens voor de VS/Canada versus de rest van de wereld. De Device Co-op is momenteel alleen beschikbaar in Noord-Amerika.
-* Vergelijk de maatstaven Personen en Unieke bezoekers naast elkaar.
-* Zie de &quot;compressiesnelheid&quot;, een berekende maatstaf die berekent hoeveel kleiner de personenmetrische waarde is als een percentage van Unieke bezoekers.
-* Vergelijk de totalen van het apparaattype die uw klanten gebruiken
-* Zie hoeveel gemiddelde apparaten per persoon worden gebruikt.
-* Ontdek hoe u segmenten kunt stapelen met de metrische modus Personen.
-* Onderzoek hoe het gebruiken van identiteitskaart van de Experience Cloud in uw milieu de doeltreffendheid van de metrische Mensen verbetert.
-
-### Reis-IQ: Sjabloon voor apparaatanalyse
-
-<!--This content is mirrored in the CDA doc.-->
-
-Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
-
-* **Bijzondere notitie voor de leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
-* **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
-* **Grootte** publiek meten: Geeft een vergelijking van &#39;Unieke apparaten&#39; in vergelijking met &#39;Mensen&#39;. Het aandeel van deze twee getallen wordt &#39;apparaatcompressie&#39; genoemd, een berekende metrische waarde die zichtbaar is in dit deelvenster. Deze compressiemetrie is afhankelijk van een groot aantal factoren:
-   * **De grafiek** Coop of Privé gebruiken: In het algemeen zien organisaties die het apparaatco-op gebruiken doorgaans betere compressiesnelheden dan organisaties die de persoonlijke grafiek gebruiken.
-   * **Aanmeldfrequentie**: Hoe meer gebruikers zich aanmelden op uw site, hoe meer Adobe bezoekers op verschillende apparaten kan identificeren en aanhechten. Sites met een lage aanmeldingsfrequentie hebben ook een lage compressiesnelheid.
-   * **Experience Cloud ID-dekking**: Alleen bezoekers met een ECID kunnen worden aangesloten. Een lager percentage bezoekers van uw site met een ECID correleert met lagere compressiesnelheden.
-   * **Meerdere apparaatgebruik**: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.
-   * **Korreligheid** rapporteren: Compressie per dag is doorgaans kleiner dan compressie per maand of jaar. De kansen voor een individu om veelvoudige apparaten te gebruiken worden kleiner binnen één enkele dag dan over een volledige maand. Het segmenteren, het filtreren, of het gebruiken van breekdimensies kunnen een lagere compressiesnelheid ook tonen.
-* **Op personen gebaseerde segmenten**: Bevat een segmentvervolgkeuzelijst waarmee u apparaatspecifieke gegevens kunt weergeven. In dit deelvenster kunt u beter experimenteren met segmenten om te zien hoe het opnemen of uitsluiten van apparaattypen van invloed is op rapporten.
-* **Analyseren van de reis** tussen apparaten: Verstrekt stroom en reserverapporten die op apparatentype worden gebaseerd.
-* **Apparaatattributie**: Combineer de functies van Reis IQ en Attribution IQ.
-* **Overige tips en trucs**: Nuttige onderwerpen rond CDA die u meer uit het gebruiken van het laten komen.
