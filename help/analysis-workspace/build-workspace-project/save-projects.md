@@ -1,11 +1,12 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als en opslaan als sjabloon.
 title: Projecten opslaan
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 translation-type: tm+mt
-source-git-commit: f01585ffdc0b54d1b21b035278869e59bd4947dc
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 3%
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UIC
 |---|---| 
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) extra tags toe te voegen. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-| **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Sla uw project op als een aangepaste sjabloon die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ![](assets/save-project.png)
 
