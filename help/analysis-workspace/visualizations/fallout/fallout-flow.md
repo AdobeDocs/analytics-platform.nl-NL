@@ -1,14 +1,14 @@
 ---
 description: De valutamogelijkheden laten zien waar bezoekers een vooraf gedefinieerde reeks pagina's hebben verlaten (uitgevallen) en doorlopen (doorlopen).
 title: Overzicht van uitval
+exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 4%
 
 ---
-
 
 # Overzicht van uitval
 
@@ -16,7 +16,7 @@ Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapp
 
 Met uitvalvisualisaties kunt u
 
-* Voer zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit.
+* Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.
 * Trechterstappen (aanraakpunten) slepen, neerzetten en opnieuw rangschikken
 * Waarden van verschillende afmetingen en maateenheden mixen en afstemmen
 * Een multidimensionaal uitvalrapport maken
@@ -34,27 +34,3 @@ Een uitvalvisualisatie is handig voor het analyseren van:
 
 [Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  voor het uitvalvisualiseren (4:15)
 
-## Segmentatie als basis voor stroom en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-Segmenten die worden toegepast op deelvensters Werkruimte, werken iets anders dan segmenten die worden toegepast op fallout- en stroomrapporten in Rapporten en Analyse in Adobe Analytics. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics het segment bij elke stap van de opeenvolging toepast. Dit kan tot iets verschillende resultaten leiden.
-
-Laten we een voorbeeld nemen van fallout met twee stappen:
-
-![](assets/fallout_segments1.png)
-
-Als u dan een segment op het het paneelniveau van de Werkruimte toepast, combineert het segment met de reserve als dit:
-
-![](assets/fallout_seg.png)
-
-Als het segment daarentegen wordt berekend met behulp van Rapporten en Analytics, wordt het segment op deze manier gecombineerd:
-
-![](assets/fallout_segments3.png)
-
-Rapporten &amp; Analytics combineert het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
-
-Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, komen in de meeste gevallen de aantallen in Analysis Workspace overeen met die in Rapporten &amp; Analytics. Ze zullen alleen **niet** overeenkomen als alle onderstaande gevallen waar zijn:
-
-* Het segment bevindt zich niet op hetzelfde niveau als de uitval.
-* Het segment heeft een variabele waarbij de bezoeker/bezoeker meerdere waarden kan hebben tijdens een bezoek/bezoeker.
-
-In het zeldzame geval waarin u Analysis Workspace de Rapporten &amp; van de Analyse manier moet hebben om segmenten toe te passen aan fallout/stroom, eenvoudig laat vallen het segment in elke falloutstap in Werkruimte en het zal in de zelfde aantallen resulteren.
