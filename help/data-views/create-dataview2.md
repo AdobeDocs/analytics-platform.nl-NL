@@ -3,9 +3,9 @@ title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot sta
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Indelingsinstellingen zijn alleen voor metriek.
 
 ### Instellingen voor waarden opnemen/uitsluiten configureren
 
-Met deze instelling kunt u de onderliggende gegevens wijzigen waarop u rapporteert, tijdens de query. Het is niet het zelfde als een filter (vroeger genoemd segment.) Maar filters respecteren deze nieuwe dimensie, net als tekenen en attributie.
+Met deze instelling kunt u de onderliggende gegevens wijzigen waarop u rapporteert, tijdens de query. Het is niet hetzelfde als een filter. Maar filters respecteren deze nieuwe dimensie, net als tekenen en attributie.
 
 U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#39;foutpagina&#39;s&#39; noemen en elke pagina opnemen die [!UICONTROL contains the phrase] &#39;error&#39; is.
 
@@ -115,7 +115,7 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
 | [!UICONTROL Case sensitive] | Standaard = Aan. Deze instelling is alleen van toepassing op de sectie [!UICONTROL Include/Exclude Values]. Het staat u toe om te zeggen of omvat/sluit regel u toepast zou geval gevoelig moeten zijn. |
-| [!UICONTROL Match] | Hier kunt u opgeven met welke waarden u rekening wilt houden voor rapportage voorafgaand aan toewijzing en segmentatie (bijvoorbeeld alleen waarden gebruiken die de woordgroep &quot;error&quot; bevatten). U kunt het volgende opgeven: **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
+| [!UICONTROL Match] | Hier kunt u opgeven welke waarden u wilt gebruiken voor de rapportage voorafgaand aan de toewijzing en filters (bijvoorbeeld alleen waarden gebruiken die de uitdrukking &quot;fout&quot; bevatten). U kunt het volgende opgeven: **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
 | [!UICONTROL Criteria] | Hier geeft u de logica op die moet worden toegepast op een bepaalde filterregel.<ul><li>**Tekenreeks**: Bevat de uitdrukking, Bevat om het even welke termijn, Bevat alle termijnen, bevat geen termijn, bevat niet de uitdrukking, Gelijk, is niet gelijk, Begint met, Eind met</li><li>**Dubbel/geheel getal**: gelijk aan, niet gelijk aan, groter dan, kleiner dan, groter dan of gelijk aan, kleiner dan of gelijk aan</li><li>**Datum**: is gelijk aan, niet gelijk aan, is later dan, is eerder, komt voor binnen</li></ul> |
 | [!UICONTROL Match operand] | Hier geeft u de overeenkomende operand op waarop de overeenkomende operator moet worden toegepast.<ul><li>**Tekenreeks**: Tekstveld</li><li>**Dubbel/geheel getal**: Tekstveld met pijl-omhoog/pijl-omlaag voor numerieke waarden</li><li>**Datum**: Selector voor daggranulariteit (kalender)</li><li>**Datum en tijd**: Selector voor granulariteit voor datum en tijd</li></ul> |
 | [!UICONTROL Add rule] | Hier kunt u een extra match-operator en -operand opgeven. |
