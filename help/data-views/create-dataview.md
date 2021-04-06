@@ -1,14 +1,14 @@
 ---
 title: Een gegevensweergave maken
 description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in Customer Journey Analytics (CJA).
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
-
 
 # Een gegevensweergave maken
 
@@ -43,7 +43,7 @@ Alvorens u gegevensmeningen kunt tot stand brengen, moet u [opstelling één of 
 
 ## Componenten toevoegen
 
-1. Nu is het tijd om componenten (afmetingen, metriek) aan de gegevensmening (gelijkend op de curvaring in virtuele rapportreeksen toe te voegen.) Merk op dat elk van de gebieden in de datasets nu in afmetingen of metriek wordt vertaald. Sleep afmetingen en metriek in het paneel of **[!UICONTROL Select All]** om alle componenten toe te voegen.
+1. Nu is het tijd om componenten (afmetingen, metriek) aan de gegevensmening toe te voegen. Merk op dat elk van de gebieden in de datasets nu in afmetingen of metriek wordt vertaald. Sleep afmetingen en metriek in het paneel of **[!UICONTROL Select All]** om alle componenten toe te voegen.
 
    ![](assets/add-all-components.png)
 
