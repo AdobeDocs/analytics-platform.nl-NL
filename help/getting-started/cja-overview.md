@@ -1,14 +1,14 @@
 ---
 title: Overzicht van Customer Journey Analytics
 description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
+exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van Customer Journey Analytics
 
@@ -19,7 +19,7 @@ Customer Journey Analytics is een analysemogelijkheid waarmee u de kracht van An
 Customer Journey Analytics breidt het bereik van Analytics uit door gebruiksvriendelijke mogelijkheden voor meerdere kanalen te bieden en beperkingen in eerdere versies van Adobe Analytics te verwijderen. Enkele opmerkelijke verbeteringen zijn:
 
 * **Onbeperkte variabelen en gebeurtenissen**: De concepten eVars, props en gebeurtenissen bestaan niet meer. De gegevens zijn vooral gericht op dimensies en metriek. Gegevenssets kunnen een onbeperkte hoeveelheid unieke afmetingen en metriek hebben.
-* **Onbeperkte unieke waarden**: Adobe Experience Platform is niet beperkt tot enige unieke beperkingen, zoals de unieke waarden van 500 kB in traditionele rapportsuites.
+* **Onbeperkte unieke waarden**: Adobe Experience Platform is niet beperkt tot enige unieke beperking.
 * **Historische gegevens** wijzigen: Met Adobe Experience Platform kunnen gegevens worden verwijderd of gecorrigeerd.
 * **Gegevens** uit meerdere rapporten: Bestaande implementaties van meerdere gegevenssets kunnen in Platform worden gecombineerd.
 
@@ -74,7 +74,7 @@ Niet-productbeheerders (gebruikers) in Customer Journey Analytics kunnen de Weer
 Verschillende functies in CJA hebben in vergelijking met traditionele Adobe Analytics een andere naam gekregen om zich aan te passen aan de industriestandaarden. Enkele bijgewerkte terminologie:
 
 * Segmenten worden nu &#39;filters&#39; genoemd.
-* Virtuele rapportsets worden nu &#39;Weergaven&#39; genoemd.
+* Virtuele rapportsets worden nu &#39;gegevensweergaven&#39; genoemd.
 * Classificaties worden nu &#39;Gegevensbestanden opzoeken&#39; genoemd.
 * Klantkenmerken worden nu &#39;profielgegevenssets&#39; genoemd.
 * De containers van de greep zijn nu genoemd geworden &quot;Event&quot;containers.
