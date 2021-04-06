@@ -2,14 +2,14 @@
 description: Met Curatie kunt u componenten beperken voordat u een project deelt.
 keywords: Analysis Workspace curation
 title: Cursieve projecten
+exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 translation-type: tm+mt
-source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
-
 
 # Cursieve projecten
 
@@ -22,7 +22,6 @@ Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken
 
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 De componenten die in het project worden gebruikt zullen automatisch worden toegevoegd.
-   **Opmerking**: Als een project veelvoudige rapportreeksen heeft, zult u een curate gebied voor elke rapportreeks in het project zien.
 1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van de linkerrails naar het veld [!UICONTROL Curate Components].
 1. Klik op **[!UICONTROL Done]**.
 
@@ -58,4 +57,3 @@ In een gebogen project wordt de ontvanger de optie voor **[!UICONTROL Show All]*
 | **Componenten die zijn toegevoegd of verwijderd uit een gegevensweergave** | Alleen componenten die aan de gegevensweergave zijn toegevoegd (verborgen of niet verborgen). Beheerders kunnen geen gegevens rapporteren over velden of componenten die niet zijn gedefinieerd in de gegevensweergave. | Alleen componenten die zijn toegevoegd aan de gegevensweergave of componenten die eigendom zijn van of worden gedeeld met de gebruiker. Verborgen componenten zijn niet beschikbaar (zoals VRS-curatie). | Alleen componenten die aan de DV zijn toegevoegd, worden niet verborgen en zijn opgenomen in de projectcuratie. |
 | **Samengevoegde componenten in een project** | Alle componenten van de gegevensmening beschikbaar voor het melden (de verborgen componenten vereisen klikkend &quot;toont allen&quot;) | Alle niet-verborgen componenten van de gegevensweergave (klik op Alles tonen) | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
 | **Gekromd project dat een gegevensmening met verborgen componenten gebruikt** | Alle gegevenscomponenten die beschikbaar zijn voor rapportage (voor verborgen en niet-gekromde componenten moet u op Alles tonen klikken) | Alle niet-beheerde projectcomponenten, alle niet-verborgen componenten van de gegevensmening, en om het even welke componenten die door of met de gebruiker worden bezeten worden gedeeld | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
-
