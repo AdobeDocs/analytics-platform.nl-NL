@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
+exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
 
 ---
-
 
 # Veelgestelde vragen
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 | --- | --- |
 | Kan ik gegevens van verschillende [!UICONTROL Adobe Experience Platform] zandbakken in één [!UICONTROL Customer Journey Analytics] verbinding combineren? | Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
 | Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Onder normale belasting: &lt; 60 minuten <br>**Opmerking:** In het geval van een ongebruikelijk hoog gegevensvolume door de pijpleiding, kan het tot 24 uur duren.</li><li>Backfill-gegevens (tot 13 maanden aan gegevens, ongeacht de grootte): &lt; 4 weken</li></ul> |
-| Hoe verbind ik online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] is een &#39;breng je eigen id&#39; analysesysteem. Zolang de persoonidentiteitskaart tussen datasets aanpast, [!UICONTROL Customer Journey Analytics] kan segmenten, attributie, stroom, reserve, enz. verbinden over datasets. |
+| Hoe verbind ik online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] is een &#39;breng je eigen id&#39; analysesysteem. Zolang de persoonidentiteitskaart tussen datasets aanpast, [!UICONTROL Customer Journey Analytics] filters, attributie, stroom, fallout, enz. kan verbinden over datasets. |
 | Hoe breng ik mijn off-line gegevens in [!UICONTROL Customer Journey Analytics]? | U moet eerst om het even welke gegevens brengen aan Experience Platform alvorens u het met [!UICONTROL Customer Journey Analytics] kunt gebruiken. Het team voor gegevens aan boord van het Experience Platform kan u, indien nodig, aanbevelingen of advies geven. |
 | Hoe krijg ik [!UICONTROL Adobe Analytics] gegevens in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Adobe Analytics] gegevens kunnen via de  [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) op het Experience Platform worden aangesloten. De meeste [!UICONTROL Adobe Analytics] gebieden worden gebracht over in formaat XDM, maar andere gebieden zijn nog niet beschikbaar (zoals [!UICONTROL Marketing Channels] afmetingen). |
 | Hoe lang duurt het om datasetelementen in een gegevensmening samen te stellen? | Een paar uur om te beginnen en een paar dagen om een back-up te maken van de laatste 13 maanden van gegevens. |
@@ -44,7 +44,7 @@ ht-degree: 1%
 | Vraag | Antwoord |
 | --- | --- |
 | Wat betekent dit voor ons traditionele [!UICONTROL Adobe Analytics] product? | [!UICONTROL Customer Journey Analytics] is ons product van de volgende generatie. Het evolueren van onze huidige producten naar [!UICONTROL Customer Journey Analytics] zal jaren en veel coördinatie vergen. Raadpleeg [Ondersteuning van Customer Journey Analytics-functies](/help/getting-started/cja-aa.md) voor meer informatie. |
-| Kan ik segmenten van [!UICONTROL Customer Journey Analytics] aan AEP of andere oplossingen delen? | Nog niet. We zijn op zoek naar nieuwe, innovatieve manieren om in de toekomst segmenten van [!UICONTROL Customer Journey Analytics] naar AEP te delen die niet zo lang wachten. Dat gezegd, kunt u de output van de Diensten van de Vraag aan Verenigd Profiel als potentiële alternerende actie delen. |
+| Kan ik filters van [!UICONTROL Customer Journey Analytics] aan AEP of andere oplossingen delen? | Nog niet. We zijn op zoek naar nieuwe, innovatieve manieren om filters van [!UICONTROL Customer Journey Analytics] naar AEP te delen in de toekomst die niet zo lang wachten. Dat gezegd, kunt u de output van de Diensten van de Vraag aan Verenigd Profiel als potentiële alternerende actie delen. |
 | Wat is er gebeurd met mijn oude eVar-omgeving? | Vars, props en gebeurtenissen in de traditionele Adobe Analytics-betekenis bestaan niet meer in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. |
 | Waar zijn al mijn zitting en veranderlijke persistentie montages nu? | [!UICONTROL Customer Journey Analytics] Hiermee past u al deze instellingen toe tijdens de rapporttijd. Deze instellingen worden nu live weergegeven in de gegevensweergave. De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken! |
 | Wat gebeurt er met onze bestaande segmenten/berekende maatstaven? | [!UICONTROL Customer Journey Analytics] gebruikt niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan een AEP-schema. Dit betekent geen van de bestaande segmenten of de cijfers van de calc compatibel met [!UICONTROL Customer Journey Analytics] zijn. |
