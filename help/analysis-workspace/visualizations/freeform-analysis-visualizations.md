@@ -2,14 +2,14 @@
 description: Geef je gegevens visueel weer in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
+exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
-
 
 # Overzicht van visualisaties
 
@@ -27,7 +27,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Balk](/help/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
 | [Staafdiagram](/help/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
 | [Cohortingtabel](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep mensen die gemeenschappelijke kenmerken over een gespecificeerde periode delen. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
-| [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
+| [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of filters van een geheel. |
 | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). Kan worden ingesteld op uiteindelijke of exacte reeksen |
 | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Hiermee geeft u exacte klantpaden weer via uw websites en apps. |
 | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. Dit is de basis voor gegevensanalyse in Workspace. |
@@ -39,7 +39,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md) | Hiermee geeft u de wijziging tussen de geselecteerde cellen als 1 groot getal/percentage weer. |
 | [Tekst](/help/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
 | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken. |
-| [Venn](/help/analysis-workspace/visualizations/venn.md) | Gebruikt cirkels om de metrische overlapping van maximaal 3 segmenten aan te geven. |
+| [Venn](/help/analysis-workspace/visualizations/venn.md) | Gebruikt cirkels om de metrische overlapping van maximaal 3 filters aan te geven. |
 
 ## Instellingen {#settings}
 
@@ -97,6 +97,6 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 
 ## Visueel pictogram {#quick-viz} maken
 
-Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u 3 geselecteerde segmentrijen hebt, zal het tot een diagram van de Venn leiden.
+Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u drie filterrijen hebt geselecteerd, wordt er een Venn-diagram gemaakt.
 
 ![](assets/quick-viz.png)
