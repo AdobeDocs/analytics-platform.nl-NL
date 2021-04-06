@@ -2,16 +2,16 @@
 description: Gebruik voorbeelden van hoofdletters en kleine letters voor cohortanalyse.
 keywords: Analysis Workspace
 title: Gebruiksgevallen van cohortanalyse
-topic: Reports and analytics
+topic: Rapporten en analyses
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
+exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL Cohort Analysis] use cases
 
@@ -51,9 +51,9 @@ Erkennend dat u potentiële klanten in maand drie niet moet verliezen, stelde u 
 
 Neem een paar maanden later contact op met uw rapport over cohortanalyse. Voor cohorten die na de start van de campagne zijn gevormd, is de conversie naar betaalabonnementen voor Creative Cloud in maand drie gestegen van 4-5% naar 13-14%, wat heeft geresulteerd in honderdduizenden dollars per cohort, voor elke maandelijkse cohort die maand drie van dat punt vooruit raakt.
 
-## Complexe kleurensegmenten gebruiken hoofdletters/kleine letters
+## Complexe cohortfilters gebruiken hoofdletters
 
-Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen van gebruikerscohorten te identificeren om te richten, willen zij zeer specifieke cohortgroepen tot stand brengen. Met behulp van de gewijzigde [!UICONTROL Inclusion]- en [!UICONTROL Return]-criteria in [!UICONTROL Cohort]-tabellen kunnen ze alleen de juiste cohortgroepen definiëren met meerdere maatstaven en segmenten om ondermaatse klantengroepen te identificeren, zodat ze zich kunnen richten op promoties en deals om boekingen te verhogen.
+Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen van gebruikerscohorten te identificeren om te richten, willen zij zeer specifieke cohortgroepen tot stand brengen. Met behulp van de gewijzigde [!UICONTROL Inclusion]- en [!UICONTROL Return]-criteria in [!UICONTROL Cohort]-tabellen kunnen ze alleen de juiste cohortgroepen definiëren met meerdere maatstaven en filters om ondermaatse klantengroepen te identificeren, zodat ze zich kunnen richten op promoties en deals om boekingen te verhogen.
 
 ## Toepassingsversie adoptie-case
 
@@ -65,8 +65,8 @@ Een multinational in de media gebruikt gerichte campagnes om gebruikers naar hun
 
 ## Gebruiksscenario bij starten van product
 
-Een grote apparel detailhandelaar heeft vele specifieke klantensegmenten die grote delen van opbrengst voor hun zaken drijven. Elk segment heeft specifieke producten die met het segment in mening worden ontworpen en worden gecreeerd. Bij elke productintroductie willen ze weten hoe het nieuwe product de verkoop aan verschillende cohorten in de loop der tijd heeft gestimuleerd. Met de nieuwe [!UICONTROL Latency Table]-instelling in [!UICONTROL Cohort Analysis] kunnen zij het gedrag en de inkomsten van een bepaald klantensegment vóór en na de introductie analyseren. Op basis van deze informatie kunnen zij vaststellen welke producten nieuwe inkomsten genereren en die geen tractie krijgen met klanten.
+Een grote apparel detailhandelaar heeft vele specifieke klantenfilters die grote delen van opbrengst voor hun zaken drijven. Elk filter heeft specifieke producten die met het filter in mening worden ontworpen en worden gecreeerd. Bij elke productintroductie willen ze weten hoe het nieuwe product de verkoop aan verschillende cohorten in de loop der tijd heeft gestimuleerd. Met de nieuwe [!UICONTROL Latency Table]-instelling in [!UICONTROL Cohort Analysis] kunnen ze het gedrag en de inkomsten van een bepaald klantfilter voor en na de introductie analyseren. Op basis van deze informatie kunnen zij vaststellen welke producten nieuwe inkomsten genereren en die geen tractie krijgen met klanten.
 
 ## Individuele filiaalheid - De meest geliefde gebruikers gebruiken hoofdletters/kleine letters
 
-Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen zijn hun loyale reizigers het grootste deel van hun inkomsten en het behoud van die klanten van cruciaal belang voor hun succes op lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Met de nieuwe [!UICONTROL Rolling Calculation]-instelling in [!UICONTROL Cohort Analysis] konden ze echter loyale klantsegmenten analyseren en erachter komen welke reizigers maand-op-maand herhaalde kopers waren. Vervolgens konden zij deze reizigers met beloningen en perken voor hun loyaliteit aanspreken. Bovendien, door het type van Cohort van behoud aan churn over te schakelen, konden zij ook identificeren welke klanten niet de maand-over-maand kopers herhaalden en die segmenten richten met bevorderingen om met hen opnieuw in dienst te nemen en ervoor te zorgen dat zij in de toekomst loyale klanten blijven.
+Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen zijn hun loyale reizigers het grootste deel van hun inkomsten en het behoud van die klanten van cruciaal belang voor hun succes op lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Met de nieuwe [!UICONTROL Rolling Calculation]-instelling in [!UICONTROL Cohort Analysis] konden ze echter loyale klantfilters analyseren en erachter komen welke reizigers maand-op-maand herhaalde kopers waren. Vervolgens konden zij deze reizigers met beloningen en perken voor hun loyaliteit aanspreken. Bovendien, door het type van Cohort van behoud aan churn over te schakelen, konden zij ook identificeren welke klanten niet de maand-over-maand kopers herhaalden en die filters richten met bevorderingen om met hen opnieuw in dienst te nemen en ervoor te zorgen dat zij in de toekomst loyale klanten blijven.
