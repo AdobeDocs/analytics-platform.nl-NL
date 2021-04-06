@@ -1,14 +1,14 @@
 ---
 title: Overzicht van berekende metriek
-description: 'Meer informatie over '
+description: Meer informatie over
+exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '484'
 ht-degree: 4%
 
 ---
-
 
 # Overzicht van berekende metriek
 
@@ -16,12 +16,11 @@ ht-degree: 4%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen. Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Zij staan u als verkopers, productmanagers en analisten toe om vragen van de gegevens te stellen zonder het moeten uw [!DNL Analytics] implementatie veranderen.
+Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen. Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw implementatie hoeft te wijzigen.
 
 U kunt
 
-* Creeer gefilterde metriek die bij rapportruntime, [zonder het moeten implementatie ](https://youtu.be/CuQTm9RaUpY) worden afgeleid. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op filters.
-* De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
+* Creeer gefilterde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op filters.
 * (Alleen Geavanceerde berekende cijfers) Filter op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
 * (Alleen geavanceerde berekende statistieken) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
