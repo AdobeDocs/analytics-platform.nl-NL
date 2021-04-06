@@ -1,14 +1,14 @@
 ---
 title: Overzicht van onderdelen
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
+exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 translation-type: tm+mt
-source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
-
 
 # Overzicht van onderdelen
 
@@ -26,7 +26,7 @@ U kunt de volgende componenten beheren:
 
 ## Analysis Workspace-componenten
 
-De componenten in Analysis Workspace bestaan uit metriek, dimensies, segmenten, en tijdgranulariteit die u op een project kunt slepen-en-neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
+Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en tijdkorreligheid die u naar een project kunt slepen en neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
 
 Als u het deelvenster Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen deelvensters (Leeg paneel, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md) of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) deelvenster), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) en Componenten met behulp van de pictogrammen voor de linkerspoorstaaf of met [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
@@ -44,13 +44,13 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) op versch
 
 | Component Handeling | Beschrijving |
 | --- | --- |
-| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Favorieten | Voeg de component toe aan de lijst met favorieten. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
-| Goedkeuren | Keur de component goed om deze canonicaal te maken. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Delen | Alleen van toepassing op segmenten. |
-| Verwijderen | Alleen van toepassing op segmenten. |
+| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Favorieten | Voeg de component toe aan de lijst met favorieten. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
+| Goedkeuren | Keur de component goed om deze canonicaal te maken. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Delen | Alleen van toepassing op filters. |
+| Verwijderen | Alleen van toepassing op filters. |
 
-Bekijk de video over het maken van statistieken, segmenten en datums:
+Bekijk de video over het maken van statistieken, filters en datums:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
 
