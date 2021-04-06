@@ -3,14 +3,14 @@ description: Overzicht van de projecten van de Werkruimte met menubar en montage
 keywords: Analysis Workspace
 title: Overzicht van projecten
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
+exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1206'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van projecten
 
@@ -26,14 +26,14 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik deze verbinding om een nieuw project van kras of van een [malplaatje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace) te beginnen die voor u wordt gecreeerd. |
+| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik deze verbinding om een nieuw project van kras of van een [malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md) te beginnen die voor u wordt gecreeerd. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**). Hierin worden al uw projecten vermeld en kunt u projecten labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
-| [Tutorials weergeven](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
+| [Tutorials weergeven](/help/analysis-workspace/home.md) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
 | Naam | Naam van het project van de Werkruimte. |
 | Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/mobapp/home.html) is. |
-| [Projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
+| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](/help/mobile-app/home.md) is. |
+| [Projectrol](/help/analysis-workspace/curate-share/share-projects.md) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
 | Tags | Tags die op het project zijn toegepast. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
 | Mijn favoriete projecten | Als u een project als favoriet wilt markeren, opent u het project en klikt u op de ster naast de naam ervan. De volgende keer dat u Workspace opent, wordt deze lijst weergegeven. |
@@ -41,13 +41,13 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 ## Menubalk {#menu-bar}
 
-Binnen een project, verstrekt het menu opties om uw project te beheren, componenten toe te voegen, hulp, en meer vinden. Elke menuoptie is ook toegankelijk via het toetsenbord [sneltoetsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html).
+Binnen een project, verstrekt het menu opties om uw project te beheren, componenten toe te voegen, hulp, en meer vinden. Elke menuoptie is ook toegankelijk via het toetsenbord [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/menu.png)
 
 | Menu-item | Beschrijving |
 |---|---|
-| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [sparen als malplaatje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) PDF downloaden kunt u gegevens exporteren uit Workspace. [Projectinfo en -](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) instellingen bieden veel opties voor het beheer van uw project. |
+| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [sparen als malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) PDF downloaden kunt u gegevens exporteren uit Workspace. [Projectinfo en -](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) instellingen bieden veel opties voor het beheer van uw project. |
 | Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | Creeer nieuw segment, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
@@ -71,16 +71,16 @@ Voorbeelden van instellingen:
 | Tags | Hier worden alle tags weergegeven die op een project zijn toegepast om het eenvoudiger te categoriseren. |
 | Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt dubbelklikken op de beschrijving om deze te bewerken. |
 | Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Opmerking: Deze instelling is niet van toepassing op stroomvisualisaties of uitvullingen. |
-| [Kleurenpalet Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel zaken in Workspace, waaronder de meeste visualisaties. |
-| [Dichtheid weergeven](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
+| [Kleurenpalet Project](/help/analysis-workspace/build-workspace-project/color-palettes.md) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel zaken in Workspace, waaronder de meeste visualisaties. |
+| [Dichtheid weergeven](/help/analysis-workspace/build-workspace-project/view-density.md) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
 
 ## Linkerspoor {#left-rail}
 
-Binnen een project, [worden panelen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), lijsten, [visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), en [componenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
+Binnen een project, [worden panelen](/help/analysis-workspace/c-panels/panels.md), lijsten, [visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), en [componenten] betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
 
-U kunt ook toegang krijgen tot visualisaties en deelvensters via [Leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html).
+U kunt ook toegang krijgen tot visualisaties en deelvensters via [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md).
 
-Componenten (Dimension, Metriek, Segmenten, Datumbereik) in de linkertrack hebben betrekking op de actieve rapportsuite van het deelvenster. Het actieve paneel zal een blauwe grens rond het hebben, en de actieve rapportreeks zal bij de bovenkant van de componentenspoorstaaf worden vermeld.
+Componenten (Dimension, Metriek, Segmenten, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
 
 ![](assets/left-rail.png)
 
@@ -88,9 +88,9 @@ Componenten (Dimension, Metriek, Segmenten, Datumbereik) in de linkertrack hebbe
 
 Het projectcanvas is waar u panelen, lijsten, visualisaties, en componenten samenbrengt om uw analyse te bouwen. Een project kan vele panelen bevatten, en elk paneel kan vele lijsten en visualisaties bevatten.
 
-Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. Het actieve deelvenster heeft een blauwe rand en bepaalt welke componenten beschikbaar zijn in het linkerspoor.
+Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperioden, gegevensweergaven of het geval waarin de analyse wordt gebruikt. Het actieve deelvenster heeft een blauwe rand en bepaalt welke componenten beschikbaar zijn in het linkerspoor.
 
-Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een [vrije-vormtabel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) of een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) in het canvas om mee te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [Leer ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) meer over de verschillende opties om een lijst te bouwen, of hefboomwerking onze  [trainingszelfstudie ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) voor meer begeleiding bij het bouwen van uw eerste project.
+Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een [vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) in het canvas om mee te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [Leer ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) meer over de verschillende opties om een lijst te bouwen, of hefboomwerking onze  [trainingszelfstudie ](/help/analysis-workspace/home.md) voor meer begeleiding bij het bouwen van uw eerste project.
 
 ![](assets/canvas.png)
 
@@ -106,9 +106,9 @@ De volgende acties zijn algemene acties in de Projectmanager en kunnen worden ui
 
 | Handeling | Beschrijving |
 |---|---|
-| Toevoegen | Creeer een nieuw project van kras of begin van [malplaatje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Toevoegen | Creeer een nieuw project van kras of begin van [malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md). |
 | Coderen of goedkeuren | Kies &quot;Tag&quot; of &quot;Goedkeuren&quot; om uw projecten te organiseren en ze gemakkelijker te maken om naar te zoeken. |
-| [Delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. |
+| [Delen](/help/analysis-workspace/curate-share/share-projects.md) | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. |
 | Verwijderen | Verwijder uw project. |
 | Naam wijzigen | Bewerk de naam van het project. |
 | Kopiëren | Maak een kopie van uw project. Dit leidt tot een nieuw project en project identiteitskaart Delen of schema&#39;s die aan het oorspronkelijke project zijn gekoppeld, worden niet gekopieerd. |
