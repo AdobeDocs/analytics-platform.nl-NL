@@ -1,14 +1,14 @@
 ---
 title: Dimensie Lange staart
 description: Verklaart de afmetingspost "Lange Staart"en waarom het in rapportering verschijnt.
+exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
 translation-type: tm+mt
-source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
 
 ---
-
 
 # Dimensie Lange staart
 
@@ -22,7 +22,7 @@ Als een individuele server die een subset van gegevens verwerkt meer dan 500.000
 
 ## Verschillen tussen &#39;Lange liniaal&#39; en &#39;Laag verkeer&#39;
 
-In vorige versies van Adobe Analytics werd een andere verwerkingsarchitectuur gebruikt. De gegevens werden verwerkt op het moment dat ze werden verzameld. De punten van Dimension werden geplaatst onder &quot;Laag-Verkeer&quot;nadat een afmeting unieke waarden 500K bereikte, en toepasten agressievere het filtreren bij unieke waarden 1M. Het unieke aantal waarden is opnieuw ingesteld aan het begin van elke kalendermaand. de verwerkte gegevens permanent waren; Er was geen manier om bestaande gegevens uit &quot;Laag-Verkeer&quot; te halen.
+In eerdere versies van Adobe Analytics werd een andere verwerkingsarchitectuur gebruikt. De gegevens werden verwerkt op het moment dat ze werden verzameld. De punten van Dimension werden geplaatst onder &quot;Laag-Verkeer&quot;nadat een afmeting unieke waarden 500K bereikte, en toepasten agressievere het filtreren bij unieke waarden 1M. Het unieke aantal waarden is opnieuw ingesteld aan het begin van elke kalendermaand. de verwerkte gegevens permanent waren; Er was geen manier om bestaande gegevens uit &quot;Laag-Verkeer&quot; te halen.
 
 In CJA, worden de afmetingspunten slechts gezet in &quot;Lange Lang&quot;als een individuele verwerkingsserver meer dan 500K unieke waarden bevat. De verwerkte gegevens zijn niet permanent, wat betekent dat u het &quot;Lange Lusje&quot;afmetingspunt kunt verminderen door uw rapport te wijzigen.
 
@@ -33,4 +33,4 @@ Als u het afmetingsitem Lange staart wilt verkleinen, raadt Adobe een van de vol
 * Gebruik een [filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset gegevens verwerkt. Door het aantal unieke waarden dat ze retourneren te beperken, wordt het item voor de dimensie &#39;Long Tail&#39; kleiner.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 
-Over het geheel genomen is het moeilijk om een rapport te gebruiken dat meer dan 500K unieke dimensiepunten bevat. Als u een segment of een dimensie van de raadplegingsdataset toepast, kunt u de aanwezigheid van &quot;Lang Leren&quot;verminderen terwijl het maken van uw rapport gemakkelijker te verbruiken. Adobe is voornemens deze ervaring te verbeteren naarmate de CJA verder wordt ontwikkeld.
+Over het geheel genomen is het moeilijk om een rapport te gebruiken dat meer dan 500K unieke dimensiepunten bevat. Als u een filter of een dimensie van de raadplegingsdataset toepast, kunt u de aanwezigheid van &quot;Lang Leren&quot;verminderen terwijl het maken van uw rapport gemakkelijker te verbruiken. Adobe is voornemens deze ervaring te verbeteren naarmate de CJA verder wordt ontwikkeld.
