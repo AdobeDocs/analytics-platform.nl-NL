@@ -1,20 +1,20 @@
 ---
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
+exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-
 # Filters maken
 
 De Filterbouwer verstrekt een canvas om metriek, afmetingen, filters, en gebeurtenissen te slepen en te laten vallen aan filterbezoekers die op de logica van de containerhiërarchie, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee bezoekerskenmerken en handelingen tijdens bezoeken en paginakijken worden geïdentificeerd.
 
-U kunt onmiddellijk filters tot stand brengen door om het even welk componententype (afmeting, afmetingpunt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de gebied van de filterdaling bij de bovenkant van een paneel te laten vallen.
+U kunt ogenblikkelijke filters tot stand brengen door om het even welk componententype (afmeting, afmetingpunt, gebeurtenis, metrisch, filter, filtermalplaatje, datumwaaier) in de gebied van de filterdaling bij de bovenkant van een paneel te laten vallen.
 
 Componenttypen worden automatisch omgezet in filters. U kunt ook op het plusteken (+) klikken in het dropvak **[!UICONTROL Add Filter]**.
 
