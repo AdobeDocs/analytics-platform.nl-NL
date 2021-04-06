@@ -1,15 +1,15 @@
 ---
-description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
-keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
+description: U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
+keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fallout
 title: Filters toepassen in falloutanalyse
+exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
-
 
 # Filters toepassen in falloutanalyse
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt filters van een aanraakpunt tot stand brengen, segmenten toevoegen als aanraakpunt, en zeer belangrijke werkschema&#39;s over diverse filters in Analysis Workspace vergelijken.
+U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
 
 >[!IMPORTANT]
 >
->Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Met een bezoek-contextVallout, moeten de filters die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
+>Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Bij een &#39;visit-context&#39;-uitval moeten filters die als controlepunt worden gebruikt, op een hit gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
 
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie
@@ -53,7 +53,7 @@ U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikersfilter naar 
 
 U kunt een onbeperkt aantal filters vergelijken in de Fallout-visualisatie.
 
-1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Filter]-rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de filters die u wilt vergelijken in de [!UICONTROL Filter]-rail aan de linkerkant. In ons voorbeeld hebben we twee filters geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
 1. Sleep ze naar de neerzetzone van het filter bovenaan.
 
    ![](assets/segment-drop.png)
