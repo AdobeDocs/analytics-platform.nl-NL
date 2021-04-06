@@ -3,17 +3,17 @@ description: Maak een project en voeg componenten (afmetingen, metriek, segmente
 keywords: Analysis Workspace
 title: Een Workspace-project maken
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 14%
+source-wordcount: '648'
+ht-degree: 16%
 
 ---
 
 
 # Een Workspace-project maken
 
-Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
+Maak een project en voeg componenten (afmetingen, metriek, filters, datumbereiken) toe aan het deelvenster Vrije vorm.
 
 Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en toont hoe te om een project tot stand te brengen.
 
@@ -36,8 +36,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    U kunt kiezen of u een project wilt maken van
 
 * Een leeg project (standaard). Zie hieronder voor instructies.
-* Een standaardsjabloon. Deze sjablonen worden gemaakt door Adobe en uit de doos te verzenden. Zie [Sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) voor instructies
-* Een aangepaste sjabloon. Deze sjablonen worden gemaakt door gebruikers met beheerdersrechten. Zie [Sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) voor instructies
+* Een aangepaste sjabloon. Deze sjablonen worden gemaakt door gebruikers met beheerdersrechten.
 
    ![](assets/start_modal.png)
 
@@ -49,10 +48,6 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    Een leeg projectvertoningen, die een freeform paneel en een visualisatie van de gegevenslijst tonen.
 
    ![](assets/fa_project_new.png)
-
-   >[!NOTE]
-   >
-   >Soms verschijnt het bericht &quot;Incompatible Report Suite&quot; wanneer een project wordt geladen (of wordt overgeschakeld op een rapportsuite), waarbij niet alle componenten (maateenheden/afmetingen) die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. U kunt een lijst zien van de componenten die niet compatibel zijn, zodat u weet waarom u het bericht krijgt.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -134,7 +129,7 @@ Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytic
 
 1. Stap
 
-## Gebruik het met de rechtermuisknop aangeklikte Menu om Uw Gegevens {#concept_8117C300F21843B99F4E1B9AB7B11B6F} aan te passen
+## Gebruik het klikmenu met de rechtermuisknop om uw gegevens {#concept_8117C300F21843B99F4E1B9AB7B11B6F} aan te passen
 
 Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de cel in een tabel waarop u met de rechtermuisknop klikt.
 
@@ -173,7 +168,7 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensies </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Metrics </li> 
-     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Segmenten </li> 
+     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Filters </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Tijd </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
@@ -191,7 +186,7 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Segment maken van selectie</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Filter van selectie maken</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
