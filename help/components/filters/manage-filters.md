@@ -3,7 +3,7 @@ title: Filters beheren
 description: slanken hoe te om filters in Customer Journey Analytics te beheren
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Filters beheren
 
-Filterbeheer biedt verschillende manieren om segmenten te curven, zoals delen, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
+Filterbeheer biedt verschillende manieren om filters te krommen, zoals delen, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 
 In Filterbeheer worden alle filters weergegeven die u hebt en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle filters in de organisatie zien. In dit overzicht worden de gebruikersinterface en de mogelijkheden van Filterbeheer weergegeven.
 
@@ -39,7 +39,7 @@ Open Filterbeheer door in de bovenste navigatie naar **[!UICONTROL Customer Jour
 
 ## Abonnementsfilters
 
-Het besteden van wat tijd om segmenten te plannen verbetert de kansen dat zij voor uw organisatie nuttig zullen zijn en dat hun aantallen in controle zullen worden gehouden.
+Wanneer u enige tijd besteedt aan het plannen van filters, wordt de kans groter dat deze voor uw organisatie nuttig zijn en dat de nummers van deze filters gecontroleerd blijven.
 
 * Kijk naar het publiek: Wie zal het consumeren? Met wie gaat u het delen? Welke groepen mensen gebruiken dit filter en hoe moet ik het dienovereenkomstig labelen? Dit betekent ook dat u een goede filterbeschrijving moet geven. De beschrijving moet ten minste de volgende vragen beantwoorden:
 
@@ -57,7 +57,7 @@ Het besteden van wat tijd om segmenten te plannen verbetert de kansen dat zij vo
 
 ### Labelfilters
 
-In Filterbeheer kunt u de filters organiseren door ze te labelen. Alle gebruikers kunnen labels voor filters maken en een of meer tags op een segment toepassen. U kunt echter alleen tags zien voor de filters die u bezit of die met u zijn gedeeld.
+In Filterbeheer kunt u de filters organiseren door ze te labelen. Alle gebruikers kunnen labels voor filters maken en een of meer tags op een filter toepassen. U kunt echter alleen tags zien voor de filters die u bezit of die met u zijn gedeeld.
 
 Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:
 
@@ -79,7 +79,7 @@ Een filter labelen:
 
    * Voer een nieuwe tagnaam in en druk op **[!UICONTROL Enter]**.
 
-1. Klik nogmaals **[!UICONTROL Tag]** om het segment te labelen.
+1. Klik nogmaals **[!UICONTROL Tag]** om het filter te labelen.
 
 Het label moet nu in de kolom Codes staan. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
 U kunt ook filteren op tags door naar **[!UICONTROL Filters > Tags]** te gaan.
@@ -94,7 +94,7 @@ Hieronder wordt beschreven hoe u een filter kunt markeren zoals het is goedgekeu
 
 1. Klik op **[!UICONTROL Approve]** in de taakbalk voor filterbeheer.
 
-1. U kunt overwegen het goedgekeurde segment of de goedgekeurde segmenten met uw organisatie te delen.
+1. U kunt overwegen de goedgekeurde filters met uw organisatie te delen.
 
 1. Klik op **[!UICONTROL OK]**.
 
@@ -102,7 +102,7 @@ Hieronder wordt beschreven hoe u een filter kunt markeren zoals het is goedgekeu
 
    ![](assets/seg_approved.png)
 
-1. U kunt een goedgekeurd segment ook niet goedkeuren door **[!UICONTROL Unapprove]** te klikken.
+1. U kunt een goedgekeurd filter ook niet goedkeuren door **[!UICONTROL Unapprove]** te klikken.
 
 ### Filters delen
 
@@ -132,7 +132,7 @@ Een filter delen:
 
 ### Filters markeren als favorieten
 
-U kunt segmenten ook als favorieten markeren om ze zo eenvoudig mogelijk te organiseren.
+Filters markeren als favorieten is een andere manier om ze te ordenen voor gebruiksgemak.
 
 1. Controleer in Filterbeheer de ster naast een filter dat u als favoriet wilt markeren. De ster wordt geel wanneer u deze selecteert.
 
