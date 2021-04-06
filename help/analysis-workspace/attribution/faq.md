@@ -1,14 +1,14 @@
 ---
 title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
+exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: e4bef70f72019bdceb09938dffe2fd266ff4248d
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
-
 
 # Veelgestelde vragen over attributie
 
@@ -26,7 +26,7 @@ Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie 
 
 **Wanneer moet ik een terugzoekopdracht voor bezoekerskenmerk gebruiken?**
 
-De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt het aangeraden een bezoeker terug te zoeken. Het maken van een virtuele rapportsuite met een definitie voor een langer bezoek is ook een potentiële oplossing.
+De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt het aangeraden een bezoeker terug te zoeken. Het maken van een gegevensweergave met een definitie voor een langer bezoek is ook een mogelijke oplossing.
 
 **Hoe vergelijken props en eVars wanneer het gebruiken van attributie?**
 
