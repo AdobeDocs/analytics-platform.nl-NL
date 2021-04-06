@@ -1,18 +1,18 @@
 ---
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
+exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
 
 ---
 
-
 # Overzicht van deelvensters
 
-A [!UICONTROL panel] is een inzameling van lijsten en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of via een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
+A [!UICONTROL panel] is een inzameling van lijsten en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of via een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperioden, gegevensweergaven of het geval waarin de analyse wordt gebruikt. De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
 
 | Vensternaam | Beschrijving |
 | --- | --- |
