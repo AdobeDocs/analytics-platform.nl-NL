@@ -1,14 +1,14 @@
 ---
 description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Deelvenster Snelle inzichten
+exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 translation-type: tm+mt
-source-git-commit: 468f1f3bbe8ed555e944be49ec3bf3dcc577a23e
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
 
 ---
-
 
 # Deelvenster Snelle inzichten
 
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 [!UICONTROL Quick Insights] biedt richtlijnen voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] over hoe ze zakelijke kwesties snel en eenvoudig kunnen beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
-Wanneer u voor het eerst deze [!UICONTROL Analysis Workspace] gaat gebruiken, vraagt u zich wellicht af welke visualisaties het nuttigst zouden zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar items moeten worden gesleept en neergezet, waar een segment moet worden gemaakt, enz.
+Wanneer u voor het eerst deze [!UICONTROL Analysis Workspace] gebruikt, vraagt u zich misschien af welke visualisaties het nuttigst zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een filter tot stand te brengen, etc.
 
-Om dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevenscomponenten in [!UICONTROL Analysis Workspace], gebruikt [!UICONTROL Quick Insights] een algoritme dat u met de populairste afmetingen, metriek, segmenten, en datumwaaiers zal voorstellen uw bedrijf gebruikt. In feite, zult u afmetingen, metriek, en segmenten die als [!UICONTROL Popular] worden geëtiketteerd in de drop-down lijst zien, zoals hier getoond:
+Om dit te helpen, en gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] van uw eigen bedrijf, gebruikt [!UICONTROL Quick Insights] een algoritme dat u met de populairste afmetingen, metriek, filters, en datumwaaiers zal voorstellen uw bedrijf gebruikt. In feite ziet u dimensies, metriek en filters die zijn gecodeerd als [!UICONTROL Popular] in de vervolgkeuzelijst, zoals u hier ziet:
 
 ![](assets/popular-tag.png)
 
@@ -32,7 +32,7 @@ Om dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevensc
 
 * U moet een gegevenstabel en een bijbehorende visualisatie op de juiste wijze maken in [!UICONTROL Analysis Workspace].
 * Leer de terminologie en woordenschat voor basiscomponenten en stukken van [!UICONTROL Analysis Workspace].
-* Doe eenvoudige onderverdelingen van dimensies, voeg veelvoudige metriek toe, of vergelijk segmenten gemakkelijk binnen [!UICONTROL Freeform table].
+* Voer eenvoudige dimensies uit, voeg meerdere metriek toe of vergelijk filters eenvoudig binnen een [!UICONTROL Freeform table].
 * U kunt verschillende visualisatietypen wijzigen of uitproberen om snel en intuïtief het zoekgereedschap voor uw analyse te vinden.
 
 ## Basistoets
@@ -46,7 +46,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 | [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc. |
 | [!UICONTROL Visualization] | De werkruimte biedt [een aantal visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen te bouwen. |
 | [!UICONTROL Dimension Breakdown] | Een afbraak van dimensies is een manier om een dimensie letterlijk op andere dimensies in te delen. In ons voorbeeld kunt u de VS-staten opsplitsen op mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen, of u kunt mobiele apparaten opsplitsen op typen mobiele apparaten, op regio&#39;s, op interne campagnes, enz. |
-| [!UICONTROL Segment] | Met segmenten kunt u subsets van bezoekers identificeren op basis van kenmerken of interacties van websites. U kunt bijvoorbeeld [!UICONTROL Visitor]-segmenten maken op basis van kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of op basis van interacties: campagnes, sleutelwoordonderzoek, onderzoeksmotor, of gebaseerd op uitgang en ingangen: bezoekers van Facebook, een gedefinieerde bestemmingspagina, een verwijzend domein of gebaseerd op aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
+| [!UICONTROL filter] | Met filters kunt u subsets bezoekers identificeren op basis van eigenschappen of interacties op de website. U kunt bijvoorbeeld [!UICONTROL Visitor]-filters maken op basis van kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of op basis van interacties: campagnes, sleutelwoordonderzoek, onderzoeksmotor, of gebaseerd op uitgang en ingangen: bezoekers van Facebook, een gedefinieerde bestemmingspagina, een verwijzend domein of gebaseerd op aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
 ## Aan de slag met Quick Insights
 
@@ -58,7 +58,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
    ![](assets/qi-panel.png)
 
 1. Wanneer u begint uit, doorloop de korte zelfstudie die u enkele basisbeginselen van [!UICONTROL Quick Insights panel] leert. Of klik op **[!UICONTROL Skip Tutorial]**.
-1. Selecteer de bouwstenen (ook wel componenten genoemd): afmetingen (oranje), metriek (groen), segmenten (blauw), of datumwaaiers (paars) U moet minstens één afmeting en één metrisch selecteren voor een lijst die automatisch moet worden gebouwd.
+1. Selecteer de bouwstenen (ook wel componenten genoemd): afmetingen (oranje), metriek (groen), filters (blauw), of datumwaaiers (paars) U moet minstens één afmeting en één metrisch selecteren voor een lijst die automatisch moet worden gebouwd.
 
    ![](assets/qibuilder2.png)
 
@@ -98,7 +98,7 @@ Andere handige tips verschijnen in de [!UICONTROL Quick Insights Builder], sommi
 
    ![](assets/qibuilder6.png)
 
-* **Meer segmenten** toevoegen: U kunt maximaal twee segmenten toevoegen door de operatoren AND of OR te gebruiken om ze aan de tabel toe te voegen. Kijk wat er met de tabel gebeurt wanneer u mobiele gebruikers OF koninklijke bezoekers toevoegt. Ze zijn naast elkaar, boven de metriek. Als u Mobiele Gebruikers EN Weergavebezoekers toevoegt, ziet u de resultaten van beide segmenten samen en worden deze op elkaar gestapeld in de tabel.
+* **Meer filters** toevoegen: U kunt maximaal twee filters toevoegen door de operatoren AND of OR te gebruiken om ze aan de tabel toe te voegen. Kijk wat er met de tabel gebeurt wanneer u mobiele gebruikers OF koninklijke bezoekers toevoegt. Ze zijn naast elkaar, boven de metriek. Als u Mobiele Gebruikers EN Weergavebezoekers toevoegt, ziet u de resultaten van beide filters bij elkaar en worden deze op elkaar gestapeld in de tabel.
 
    ![](assets/qibuilder7.png)
 
@@ -113,4 +113,3 @@ Er verschijnt een waarschuwing voordat u iets rechtstreeks aan de tabel toevoegt
 ![](assets/qibuilder8.png)
 
 Anders, zal het bouwen direct de lijst ertoe brengen om zich nu als traditionele lijst van de Vrije vorm te gedragen, zonder de nuttige eigenschappen voor nieuwe gebruikers.
-
