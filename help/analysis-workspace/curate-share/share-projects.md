@@ -1,15 +1,15 @@
 ---
 description: Projectdeling en projectrollen in Workspace
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace delen
 title: Projecten delen
+exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1066'
 ht-degree: 3%
 
 ---
-
 
 # Projecten delen
 
@@ -52,7 +52,7 @@ Om ontvangers aan uw gedeelde project toe te voegen:
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 1. Voeg ontvangers of groepen ontvangers toe.
 Verwijs naar het hulppictogram bij de bovenkant voor beschrijvingen van elke rol.
-1. (Optioneel) Deel ingesloten projectcomponenten (segmenten, berekende metriek en datumbereiken) met alle ontvangers.
+1. (Optioneel) Deel ingesloten projectcomponenten (filters, berekende meetgegevens en datumbereiken) met alle ontvangers.
 Nadat deze componenten worden gedeeld, zullen deze in de drop-down Componenten van de Werkruimte van de ontvanger verschijnen. Deze instelling blijft niet bestaan, het is een enkelvoudige actie op het moment van delen.
 1. (Optioneel) Stel deze pagina in als de bestemmingspagina voor ontvangers.
 Deze instelling blijft niet bestaan. Het is een enkelvoudige actie op het moment van delen.
