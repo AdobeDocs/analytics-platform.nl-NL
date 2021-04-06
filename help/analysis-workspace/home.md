@@ -4,7 +4,7 @@ title: Overzicht van Analysis Workspace
 description: Overzicht van Analysis Workspace-mogelijkheden
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -47,7 +47,7 @@ In uw project van de Werkruimte, **worden de panelen, de lijsten, de visualisati
 
 ### Onderdelen
 
-**** Componenten zijn dimensies, metriek, segmenten, of datumwaaiers, die allen in een kunnen worden gecombineerd  **[!UICONTROL Freeform table]** om uw bedrijfsvraag te beginnen beantwoorden. Zorg ervoor dat u bekend bent met elk [componenttype](/help/components/overview.md) voordat u in de analyse gaat duiken. Als u de componentterminologie onder de knie hebt, kunt u beginnen met slepen en neerzetten naar [uw analyse](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in een **[!UICONTROL Freeform table]** bouwen.
+**** Componenten zijn dimensies, metriek, filters, of datumwaaiers, die allen in een kunnen worden gecombineerd  **[!UICONTROL Freeform table]** om uw bedrijfsvraag te beginnen beantwoorden. Zorg ervoor dat u bekend bent met elk [componenttype](/help/components/overview.md) voordat u in de analyse gaat duiken. Als u de componentterminologie onder de knie hebt, kunt u beginnen met slepen en neerzetten naar [uw analyse](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in een **[!UICONTROL Freeform table]** bouwen.
 
 ![](assets/build-components.png)
 
