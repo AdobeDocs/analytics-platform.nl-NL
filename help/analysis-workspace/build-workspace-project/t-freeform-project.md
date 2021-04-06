@@ -1,11 +1,11 @@
 ---
-description: Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
+description: Maak een project en voeg componenten (afmetingen, metriek, filters, datumbereiken) toe aan het deelvenster Vrije vorm.
 keywords: Analysis Workspace
 title: Een Workspace-project maken
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '644'
 ht-degree: 16%
 
 ---
@@ -59,7 +59,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Onderdelen</a> </td> 
-   <td colname="col2"> <p>Dimension, metriek, segmenten en datumbereiken die u in projecten kunt slepen. </p> </td> 
+   <td colname="col2"> <p>Dimension, metriek, filters, en datumwaaiers die u in projecten kunt slepen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualisaties</a> </td> 
@@ -90,7 +90,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
    **Onderdelen**
 
-   Op de werkbalk Component worden doorzoekbare afmetingen, maateenheden, segmenten en datumbereiken weergegeven die u het meest gebruikt.
+   Op de werkbalk Component worden doorzoekbare afmetingen, meetgegevens, filters en datumbereiken weergegeven die u het meest gebruikt.
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -109,8 +109,8 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    <td colname="col2"> <p>Toepassen op projectniveau. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> </span> Komt voor is standaard metrisch voor de gegevenslijst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Segmenten (blauw) </td> 
-   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde segmenten in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Zie <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenten </a> voor meer informatie. </p> </td> 
+   <td colname="col1"> Filters (blauw) </td> 
+   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde filters in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Zie <a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Filters </a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumbereiken en korreligheid (paars) </td> 
@@ -187,10 +187,6 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Filter van selectie maken</a> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Uitvoeren in segmentvergelijking</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
