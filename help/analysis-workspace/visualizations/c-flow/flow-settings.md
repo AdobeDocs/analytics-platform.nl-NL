@@ -1,14 +1,14 @@
 ---
 description: Instellingen voor de stroomvisualisatie in de werkruimte
 title: Stroominstellingen
+exl-id: 85de8ee7-b79f-4ac4-9601-a4e7f6fb3b2a
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 4%
 
 ---
-
 
 # Stroominstellingen
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 | --- | --- |
 | Focus op dit knooppunt | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | Opnieuw starten | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
-| Segment maken van dit punt in de flow | Maak een segment. Dit neemt u in de Bouwer van het Segment, waar u het nieuwe segment kunt vormen. |
+| Filter maken van dit punt in de flow | Maak een filter. Dit neemt u in de filterBouwer, waar u de nieuwe filter kunt vormen. |
 | Uitsplitsing | Verdeel de knoop neer door beschikbare Dimension, Metriek, of Tijd. |
 | Trend | Creeer een trended diagram voor de knoop. |
 | Volledige kolom uitvouwen | Vouw een kolom uit om alle knooppunten weer te geven. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
