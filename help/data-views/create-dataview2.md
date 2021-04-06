@@ -3,9 +3,9 @@ title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot sta
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c021892119cbebccaa49e5c04fd7cc7450cce8c6
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '2534'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie met de n
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
 | [!UICONTROL Field Name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
-| [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit gebied kan veelvoudige datasets bevatten, zoals wanneer u veelvoudige rapportreeksen combineert. |
+| [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit veld kan meerdere gegevenssets bevatten. |
 | [!UICONTROL Schema type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. U kunt op het bewerkingspictogram klikken en deze component-id wijzigen. Als u deze component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken.<br>Als u ooit een andere gegevensmening creeert die een verschillend gebied voor een pageTitle afmeting gebruikt, kunt u het anders noemen en de afmeting geschikt maken dwars-gegevensmening. |
 | [!UICONTROL Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
