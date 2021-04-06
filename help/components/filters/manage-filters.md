@@ -1,14 +1,14 @@
 ---
 title: Filters beheren
 description: slanken hoe te om filters in Customer Journey Analytics te beheren
+exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1079'
 ht-degree: 1%
 
 ---
-
 
 # Filters beheren
 
@@ -28,7 +28,6 @@ Open Filterbeheer door in de bovenste navigatie naar **[!UICONTROL Customer Jour
 | 2 | Selectievakjes | Controleer een filter om het te beheren. |
 | 4 | Favorieten | Wanneer u op de ster naast een filter klikt, wordt de ster geel en wordt het filter als favoriet gemarkeerd. |
 | 5 | Titel en beschrijving | Opgegeven in de Filter Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Filterbouwer. |
-| 6 | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het filter het laatst is opgeslagen. |
 | 7 | Eigenaar | Hiermee wordt aangegeven wie de eigenaar van het filter is. Als niet-beheerder kunt u alleen filters zien die u bezit of die met u gedeeld zijn. |
 | 8 | Labels (niet gecontroleerd in kolomkiezer, vandaar dat de kolom niet wordt weergegeven) | Tags die op het filter zijn toegepast, door u of door personen die het filter met u hebben gedeeld. |
 | 9 | Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het filter hebt gedeeld. |
@@ -36,7 +35,7 @@ Open Filterbeheer door in de bovenste navigatie naar **[!UICONTROL Customer Jour
 | 11 | Kolomkiezer | (Rechtsboven) Hiermee kunt u selecteren welke kolommen u wilt weergeven in Filterbeheer. |
 | 12 | Gedeeld pictogram | Geeft aan dat dit filter door u of met u wordt gedeeld. |
 | 13 | Goedgekeurd pictogram | Geeft aan dat dit filter is goedgekeurd door een beheerder. |
-| 14 | Overige filters | Hiermee kunt u filters weergeven op basis van tags, rapportsets, eigenaars en overige (Alles tonen, Mijne, Gedeeld met mij, Goedgekeurd, Favorieten.) |
+| 14 | Overige filters | Hiermee kunt u filters weergeven op basis van tags, gegevensweergaven, eigenaars en andere opties (Alles tonen, Mijne, Gedeeld met mij, Goedgekeurd, Favorieten.) |
 
 ## Abonnementsfilters
 
@@ -138,4 +137,3 @@ U kunt segmenten ook als favorieten markeren om ze zo eenvoudig mogelijk te orga
 1. Controleer in Filterbeheer de ster naast een filter dat u als favoriet wilt markeren. De ster wordt geel wanneer u deze selecteert.
 
 1. U kunt ook filteren op favorieten onder Filters > Overige filters > Favorieten.
-
