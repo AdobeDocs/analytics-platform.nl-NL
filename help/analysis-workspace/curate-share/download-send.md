@@ -1,14 +1,14 @@
 ---
 description: U kunt gegevens downloaden van Analysis Workspace door deze te kopiëren of in PDF- en CSV-indeling.
 title: PDF- of CSV-bestanden downloaden
+exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 1%
 
 ---
-
 
 # PDF- of CSV-bestanden downloaden
 
@@ -53,7 +53,7 @@ Met de optie **[!UICONTROL Download data as CSV]** kunt u een gegevenslijst of d
 
 ## Items downloaden als CSV {#download-items}
 
-Als u meer dan de zichtbare 400 rijen van gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer **punten als CSV (de naam van Dimension)**. Met deze optie kunt u maximaal 50.000 dimensieitems (op basis van de tabelsortering) exporteren voor de geselecteerde dimensie, met toegepaste filters en segmenten. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
+Als u meer dan de zichtbare 400 rijen van gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer **punten als CSV (de naam van Dimension)**. Met deze optie kunt u maximaal 50.000 dimensieitems (op basis van de tabelsortering) exporteren voor de geselecteerde afmeting, waarbij filters en filters zijn toegepast. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
 
 >[!TIP]
 >
@@ -67,11 +67,11 @@ U kunt meerdere taken uitvoeren binnen het project en zelfs naar een nieuw Works
 
 De functies van de tabel worden als volgt op het gedownloade bestand toegepast:
 
-* Alle deelvenstersegmenten worden als filters toegepast.
+* Alle deelvensterfilters worden als filters toegepast.
 * De onderverdelingen **boven** de geselecteerde afmeting in de lijst worden toegepast als filters boven elke kolom.
 * Onderverdelingen **onder** worden de geselecteerde dimensie in de tabel verwijderd.
 
-In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvenstersegment (Nieuwe bezoekers) en de bovenstaande componenten (Marketing Channel = e-mail) toegepast als filters, en worden de onderliggende componenten (Type mobiel apparaat) verwijderd uit de gedownloade CSV.
+In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvensterfilter (Nieuwe bezoekers) en de bovenstaande componenten (Marketing Channel = e-mail) toegepast als filters, en worden de onderliggende componenten (Type mobiel apparaat) verwijderd uit de gedownloade CSV.
 
 ![](assets/downloaded-file.png)
 
@@ -92,4 +92,3 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 | Waarom is mijn gedownloade PDF één pagina? | De gedownloade PDF&#39;s worden momenteel niet door de werkruimte gepagineerd. |
 | Kan ik meer dan 50.000 items exporteren met de optie Items downloaden als CSV? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
 | Wat doet **[!UICONTROL Copy visualization]**? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [Intra-linking video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
-
