@@ -2,10 +2,10 @@
 description: Leer hoe u een visuele kaart van metrische objecten maakt in Analysis Workspace.
 title: Kaart
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 2%
+source-wordcount: '520'
+ht-degree: 3%
 
 ---
 
@@ -30,19 +30,6 @@ Visualisatie op de kaart in Analysis Workspace
 
 1. Sleep in metrische vorm vanuit de lijst met metriek (inclusief berekende metriek).
 1. Geef de gegevensbron op waaruit u wilt tekenen. (Dit dialoogvenster wordt alleen weergegeven als u locatie-tracking hebt ingeschakeld voor gegevens van mobiele apps.)
-
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Mobiel lang</b> </p> </td> 
-   <td colname="col2"> <p>Deze optie vertegenwoordigt gegevens van mobiele apps. </p> <p>Deze optie wordt alleen weergegeven als u deze voor uw rapportsuite hebt ingeschakeld in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Report Suites </span> &gt; <span class="uicontrol"> &lt;select report suite&gt; </span> &gt; <span class="uicontrol"> Edit Settings </span> &gt; <span class="uicontrol"> Mobiel beheer </span> &gt; <span class="uicontrol"> Locatie bijhouden inschakelen </span> </span>. </p> <p>Dit is de standaardinstelling (als locatie bijhouden is ingeschakeld). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Geografische Dimension  </b> </p> </td> 
-   <td colname="col2"> <p>Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in Land, Regio, en Stad. Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. </p> <p>Bijna alle rapportsuites hebben deze toegelaten dimensie. Als u dat niet doet, neemt u contact op met de klantenservice van Adobe om geografische rapporten ingeschakeld te laten. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 1. Klik op **[!UICONTROL Build]**.
 
