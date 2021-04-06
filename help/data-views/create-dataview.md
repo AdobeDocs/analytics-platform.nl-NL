@@ -3,9 +3,9 @@ title: Een gegevensweergave maken
 description: Beschrijft hoe te om een gegevensmening tot stand te brengen aan een dataset van het Platform in Customer Journey Analytics (CJA).
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Alvorens u gegevensmeningen kunt tot stand brengen, moet u [opstelling één of 
    | Beschrijving | Een gedetailleerde beschrijving is niet verplicht, maar aanbevolen. |
    | Codes toevoegen | Met tags kunt u de gegevensweergaven indelen in categorieën. |
    | Tijdzone | Kies de tijdzone voor de gegevensweergave. |
-   | Time-out sessie | Selecteer wat uw definitie van een &quot;sessie&quot; is. De time-outinstelling voor de sessie definieert de hoeveelheid inactiviteit die een unieke bezoeker moet hebben voordat een nieuwe sessie automatisch wordt gestart. De standaardwaarde is 30 minuten. Als u de sessietime-out bijvoorbeeld instelt op 45 minuten, wordt een nieuwe sessiegroep gemaakt voor elke reeks resultaten die wordt verzameld, gescheiden door 45 minuten inactiviteit. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | Nieuwe sessie starten met gebeurtenis | Een nieuwe sessie wordt gestart wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de het segmentcontainer van de Zitting (vroeger Bezoek), en de logica van de bezoekafloop op dimensies beïnvloeden. |
-   | Filters toevoegen | &quot;Filters&quot; is de term voor &quot;segmenten&quot; in Customer Journey Analytics. Als u de gegevens wilt filteren, sleept u het juiste filter   hier vanaf de linkerspoorlijn . Als u geen filter selecteert, bevat de gegevensweergave al uw gegevens. |
+   | Time-out sessie | Selecteer wat uw definitie van een &quot;sessie&quot; is. De time-outinstelling voor de sessie definieert de hoeveelheid inactiviteit die een unieke bezoeker moet hebben voordat een nieuwe sessie automatisch wordt gestart. De standaardwaarde is 30 minuten. Als u de sessietime-out bijvoorbeeld instelt op 45 minuten, wordt een nieuwe sessiegroep gemaakt voor elke reeks resultaten die wordt verzameld, gescheiden door 45 minuten inactiviteit. <!--This setting impacts not only your visit counts, but also how visit filter containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | Nieuwe sessie starten met gebeurtenis | Een nieuwe sessie wordt gestart wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Deze instelling heeft invloed op het aantal bezoeken, de filtercontainer Sessie (voorheen Visit) en de logica voor het verlopen van het bezoek op de afmetingen. |
+   | Filters toevoegen | Als u uw gegevens wilt filteren, sleept u het juiste filter hier van de linkerspoorstaaf. Als u geen filter selecteert, bevat de gegevensweergave al uw gegevens. |
 
 1. Klik op **[!UICONTROL Continue]**.
 
