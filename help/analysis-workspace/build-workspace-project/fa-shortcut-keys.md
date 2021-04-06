@@ -2,14 +2,14 @@
 description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in Analysis Workspace.
 keywords: Analysis Workspace
 title: Hotkeys (sneltoetsen)
+exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 4%
+source-wordcount: '288'
+ht-degree: 5%
 
 ---
-
 
 # Hotkeys (sneltoetsen)
 
@@ -39,7 +39,7 @@ Opmerking: `CTRL` = Windows en `command` = Mac
 | Een waarschuwing maken | ctrl (of cmd) + shift + a |
 | Berekende metrisch maken | ctrl (of cmd) + shift + c |
 | Een datumbereik maken | ctrl (of cmd) + shift + d |
-| Een segment maken | ctrl (of cmd) + shift + e |
+| Een filter maken | ctrl (of cmd) + shift + e |
 | Alles wissen | alt + w |
 | Kopiëren | ctrl (of cmd) + c |
 | Opnieuw | ctrl (of cmd) + shift + z |
@@ -52,13 +52,10 @@ Opmerking: `CTRL` = Windows en `command` = Mac
 
 | Handeling | Sneltoets |
 |---|---|
-| Nieuwe analyse voor doelvenster | alt + g |
 | Nieuw deelvenster Kenmerken | alt + e |
 | Nieuw leeg deelvenster | alt + b |
 | Nieuw deelvenster Vrije vorm | alt + a |
-| Nieuw deelvenster Mediagelijktijdige viewers | alt + h |
 | Nieuw deelvenster Snelle inzichten | alt + f |
-| Nieuw deelvenster voor segmentvergelijking | alt + c |
 | Nieuwe tabel voor vrije vorm | alt + 1 |
 | Nieuwe lijngrafiek | alt + 2 |
 | Nieuwe staafdiagram | alt + 3 |
