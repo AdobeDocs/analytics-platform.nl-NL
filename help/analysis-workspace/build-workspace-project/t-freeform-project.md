@@ -3,9 +3,9 @@ description: Maak een project en voeg componenten (afmetingen, metriek, segmente
 keywords: Analysis Workspace
 title: Een Workspace-project maken
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '729'
 ht-degree: 14%
 
 ---
@@ -124,9 +124,9 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
  </tbody> 
 </table>
 
-**[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
+**[Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytics, grafieken, donuts, gegevenstabellen, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) lijsten, de diagrammen van venn, etc. U kunt meerdere visualisaties naar uw project slepen en neerzetten.
+Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytics, grafieken, donuts, gegevenstabellen, [cohort](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) lijsten, de diagrammen van venn, etc. U kunt meerdere visualisaties naar uw project slepen en neerzetten.
 
 ![Stap Resultaat](assets/visualizations.png)
 
@@ -149,11 +149,11 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Kolom voor tijdperiode toevoegen</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Kolom voor tijdperiode toevoegen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Vergelijk tijdsperiodes</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Vergelijk tijdsperiodes</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Uitsplitsing</a> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Uitsplitsing</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensies </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Metrics </li> 
@@ -179,23 +179,23 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualiseren</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualiseren</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > Downloaden als CSV</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/curate-share/download-send.md"  > Downloaden als CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > Trend selection</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/home.md"  > Trend selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segment maken van selectie</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Segment maken van selectie</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Uitvoeren in segmentvergelijking</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Uitvoeren in segmentvergelijking</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -209,4 +209,4 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
  </tbody> 
 </table>
 
-Zie [Interacties met toetsenborden en muis beschikbaar in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
+Zie [Interacties met toetsenborden en muis beschikbaar in Analysis Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
