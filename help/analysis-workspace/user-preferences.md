@@ -1,14 +1,14 @@
 ---
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
 description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
+exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
-
 
 # Gebruikersvoorkeuren
 
@@ -39,7 +39,6 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 |  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
 |  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Door Adobe verschafte paletten (standaard)</li><li>Aangepaste paletten</li></ul> |
 | **Gegevens** |  |  |
-|  | [Rapportsuites](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>Recentste (standaard)</li><li>Specifiek - gekozen uit een lijst</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | Lijst met datumbereiken die buiten de box vallen, inclusief **[!UICONTROL This month]** (standaard) |
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1 000 00</li><li>1 000 00</li></ul> |
