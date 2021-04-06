@@ -1,14 +1,14 @@
 ---
 title: Algoritmische attributie
 description: Details over het algoritmische attributiemodel.
+exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 4%
 
 ---
-
 
 # Algoritmische attributie
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >
 >**[!UICONTROL Algorithmic attribution]** wordt momenteel beperkt getest. Zie [Adobe Analytics-functiereleases](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html) voor meer informatie.
 
-Het algoritme [attributiemodel](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet toe te wijzen over de dimensiepunten in uw rapport of vrije lijst. Zoals alle andere attributiemodellen in Analysis Workspace, kan het op om het even welke afmeting of metrisch worden gebruikt en steunt onbeperkte segmentatie en onderverdelingen en verdeelt 100% van omzettingen aan de afmeting(en) in de lijst (ook genoemd geworden &quot;fractionele&quot;attributie).
+Het algoritme [attributiemodel](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet toe te wijzen over de dimensiepunten in uw rapport of vrije lijst. Zoals alle andere attributiemodellen in Analysis Workspace, kan het op om het even welke afmeting of metrisch worden gebruikt en steunt onbeperkte filters en onderverdelingen en verdeelt 100% van omzettingen aan de afmeting(en) in de lijst (ook genoemd geworden &quot;fractionele&quot;attributie).
 
 Het algoritme dat wordt gebruikt voor attributie is gebaseerd op de Harsanyi Dividend van coöperatieve speltheorie. Het dividend van Harsanyi is een generalisering van de Shapley-waardeoplossing (genoemd naar Lloyd Shapley, een Nobelprijswinnaar) voor het verdelen van krediet onder spelers in een spel met ongelijke bijdragen aan de uitkomst.
 
