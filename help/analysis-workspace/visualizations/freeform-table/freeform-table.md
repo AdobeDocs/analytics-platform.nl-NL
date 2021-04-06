@@ -1,14 +1,14 @@
 ---
 title: Vrije-vormentabel
 description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
+exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 2%
 
 ---
-
 
 # Vrije-vormentabel
 
@@ -24,7 +24,7 @@ De snelste manier om een lijst te bouwen is componenten in een leeg project, een
 
 ## Samenstellen van tabellen voor vrije vorm
 
-Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan geef de gegevens terug, kunt u de Bouwer van de Lijst van de Vrije vorm toelaten. Als de builder is ingeschakeld, kunt u in vele dimensies, onderverdelingen, metriek en segmenten slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden niet ter plekke bijgewerkt, maar worden bijgewerkt wanneer u op **[!UICONTROL Build]** klikt.
+Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan geef de gegevens terug, kunt u de Bouwer van de Lijst van de Vrije vorm toelaten. Met de builder ingeschakeld, kunt u slepen en neerzetten in vele dimensies, breuken, metriek en filters om lijsten te bouwen die complexere vragen beantwoorden. Gegevens worden niet ter plekke bijgewerkt, maar worden bijgewerkt wanneer u op **[!UICONTROL Build]** klikt.
 
 ![](assets/table-builder.png)
 
@@ -39,7 +39,7 @@ U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpasse
    * Rijen kunnen [worden gefilterd](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) om een beperkte reeks items weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Kolommen**
-   * Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
+   * Componenten kunnen in kolommen worden gestapeld om gefilterde metriek, cross-tab analyse en meer te maken.
    * De weergave van elke kolom kan worden aangepast onder de [kolominstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
    * Verscheidene acties zijn beschikbaar door [klik met de rechtermuisknop menu](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
 
