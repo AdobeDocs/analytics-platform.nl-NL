@@ -3,7 +3,7 @@ description: Hoe de totalen van de werkruimte worden berekend.
 title: Totalen werkruimte
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven met twee totalen:
 
-* **[!UICONTROL Grand Total]** (grijs &#39;van&#39; getal) - dit totaal vertegenwoordigt alle treffers die zijn verzameld. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle treffers te wijzen die de segmentcriteria aanpassen.
+* **[!UICONTROL Grand Total]** (grijs &#39;van&#39; getal) - dit totaal vertegenwoordigt alle treffers die zijn verzameld. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle treffers te wijzen die de filtercriteria aanpassen.
 * **[!UICONTROL Table Total]** (zwart getal) - dit totaal is doorgaans gelijk aan of een subset van het  [!UICONTROL Grand Total]object. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de optie [!UICONTROL Include None].
 
 ![](assets/total-row.png)
