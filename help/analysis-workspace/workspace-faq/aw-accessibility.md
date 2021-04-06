@@ -1,14 +1,14 @@
 ---
 description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
+exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
 
 ---
-
 
 # Toegankelijkheid in Analysis Workspace
 
@@ -67,9 +67,9 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 | Alt + 1 | Nieuwe vrije-vormlijst |
 | Ctrl + Shift + C | Nieuwe berekende metrisch |
 | Ctrl + Shift + D | Nieuw datumbereik |
-| Ctrl + Shift + E | Nieuw segment |
+| Ctrl + Shift + E | Nieuw filter |
 | Ctrl + Z | Ongedaan maken |
-| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Een [dropdown-filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) maken |
+| Houd Shift ingedrukt (in dropzone van het deelvensterfilter) | Een [dropdown-filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) maken |
 
 #### democratisering
 
