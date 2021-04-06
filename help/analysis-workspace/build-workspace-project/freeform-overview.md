@@ -5,9 +5,9 @@ title: Overzicht van projecten
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik deze verbinding om een nieuw project van kras of van een [malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md) te beginnen die voor u wordt gecreeerd. |
+| [Nieuw project maken](/help/analysis-workspace/home.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**). Hierin worden al uw projecten vermeld en kunt u projecten labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
 | [Tutorials weergeven](/help/analysis-workspace/home.md) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
@@ -47,12 +47,12 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 | Menu-item | Beschrijving |
 |---|---|
-| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [sparen als malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) PDF downloaden kunt u gegevens exporteren uit Workspace. [Projectinfo en -](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) instellingen bieden veel opties voor het beheer van uw project. |
+| Project | Bevat algemene acties voor projectbeheer, waaronder Nieuw, Openen, Opslaan, Opslaan als en Opslaan als sjabloon. U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en ](/help/analysis-workspace/curate-share/download-send.md) PDF downloaden kunt u gegevens exporteren uit Workspace. **Projectinfo en -instellingen**  (zie hieronder) bieden veel opties voor het beheer van uw project. |
 | Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
-| [Onderdelen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | Creeer nieuw segment, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
-| [Delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) | U kunt PDF/CSV-projecten curven, delen en plannen voor ontvangers in uw organisatie. |
-| Help | Toegang tot Help-documentatie, video&#39;s en de Analytics [Experience League-community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de foutopsporing [beheren. ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) Meer informatie over de werkruimte en factoren die van invloed zijn op de prestaties van het project [a1/>.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| [Onderdelen](/help/components/overview.md) | Creeer nieuwe filters, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
+| [Delen](/help/analysis-workspace/curate-share/send-schedule-files.md) | U kunt PDF-/CSV-projecten trainen, delen en plannen voor ontvangers in uw organisatie. |
+| Help | Toegang tot Help-documentatie, video&#39;s en de Analytics [Experience League-community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de foutopsporing [beheren. ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) Meer informatie over de werkruimte en factoren die van invloed zijn op de prestaties van het project [a1/>.](/help/analysis-workspace/workspace-faq/optimizing-performance.md) |
 | Knop Delen of Eigenaar | Als u in een Eigen bent of voor het project uitgeeft, geeft de knoop van het Aandeel in top-right u met één klik toegang om uw projectontvangers te beheren. Als u in een Duplicaat of rol van de Mening voor het project bent, zult u de naam van de projecteigenaar zien. |
 
 ### Projectinfo en -instellingen {#info-settings}
@@ -106,7 +106,7 @@ De volgende acties zijn algemene acties in de Projectmanager en kunnen worden ui
 
 | Handeling | Beschrijving |
 |---|---|
-| Toevoegen | Creeer een nieuw project van kras of begin van [malplaatje](/help/analysis-workspace/build-workspace-project/starter-projects.md). |
+| Toevoegen | Maak een geheel nieuw project. |
 | Coderen of goedkeuren | Kies &quot;Tag&quot; of &quot;Goedkeuren&quot; om uw projecten te organiseren en ze gemakkelijker te maken om naar te zoeken. |
 | [Delen](/help/analysis-workspace/curate-share/share-projects.md) | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. |
 | Verwijderen | Verwijder uw project. |
