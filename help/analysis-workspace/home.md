@@ -2,14 +2,14 @@
 keywords: Analysis Workspace
 title: Overzicht van Analysis Workspace
 description: Overzicht van Analysis Workspace-mogelijkheden
+exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
-
 
 # Overzicht van Analysis Workspace
 
@@ -40,8 +40,6 @@ Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Wo
 Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
 
 ![](assets/create-new-project.png)
-
-U kunt ook met uw analyse beginnen van vooraf gebouwde **templates**, of Adobe-Geleverde standaardmalplaatjes of douanesjablonen die door uw organisatie werden gecreeerd. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u in gedachten hebt. [Meer weten ](/help/analysis-workspace/build-workspace-project/starter-projects.md) over de verschillende beschikbare sjabloonopties?
 
 ## Uw analyse {#analysis} samenstellen
 
