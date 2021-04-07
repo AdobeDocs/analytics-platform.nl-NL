@@ -1,14 +1,14 @@
 ---
 title: (B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan CJA toe te voegen
+exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 translation-type: tm+mt
-source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
+source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
-
 
 # (B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset
 
@@ -20,9 +20,9 @@ In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven 
 * Hoe presteert deze rekening als geheel met betrekking tot een specifieke marketingcampagne, in vergelijking met een andere rekening?
 * Werken bepaalde rollen (zoals IT Manager) bij één account anders dan dezelfde rol bij een andere account?
 
-U verwezenlijkt dit alles door de rekening-vlakke informatie als [lookup](/help/getting-started/cja-glossary.md) dataset (gelijkend op classificaties in traditionele Adobe Analytics) te brengen.
+U verwezenlijkt dit alles door de rekening-vlakke informatie als [lookup](/help/getting-started/cja-glossary.md) dataset te brengen.
 
-U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding CJA tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
+U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA0 tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in
 >
 >CJA steunt geen gehelen in raadplegingsdatasets. Als u de geheelgebieden in uw schema XDM voor uw raadplegingsdataset toevoegt, zult u niet die gehelen als metriek of berekende metriek kunnen gebruiken. Bijvoorbeeld, als annualRevenue of totalEmployees als gehelen worden gedefinieerd, zullen zij als &quot;0&quot;in rapportering in CJA tonen. Als u ze echter toewijst als tekenreeksen, kunt u ze als opzoekinformatie gebruiken.
 
-AnnualRevenue of totalEmployees worden bijvoorbeeld in het volgende voorbeeld als Geheel gedefinieerd, dat is de reden, zijn het tonen &quot;0&quot;in CJA.
+Zo worden annualRevenue of totalEmployees in het volgende voorbeeld gedefinieerd als Geheel getal - dat is de reden waarom het &quot;0&quot;toont in CJA.
 
 1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Management > Datasets]**.
 1. Klik op **[!UICONTROL + Create dataset]**.
@@ -65,7 +65,7 @@ Het aan boord nemen van de gegevens en het bepalen van de raadpleging duurt onge
 Voor dit voorbeeld, combineren wij 3 datasets in één verbinding CJA:
 
 | Naam gegevensset | Beschrijving | AEP Schema, klasse | Gegevens over gegevensset |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | `emailID` wordt gebruikt als primaire identiteit en toegewezen een `Customer ID` namespace. Dientengevolge, zal het als gebrek **[!UICONTROL Person ID]** in Customer Journey Analytics verschijnen. ![Impressies](assets/impressions-mixins.png) |
 | B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun LinkedIn profiel, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | U hoeft `emailID` niet als primaire id in dit schema te selecteren. Zorg ervoor dat **[!UICONTROL Profile]** wordt ingeschakeld; Als u dat niet doet, kan CJA het `emailID` in B2B-profiel niet verbinden met de `emailID` in B2B-indrukgegevens. ![Profiel](assets/profile-mixins.png) |
 | B2B-info | Zie &quot;Opzoekgegevensset maken&quot; hierboven. | B2BAccount (aangepaste opzoekschema-klasse) | De verhouding tussen `accountID` en B2B de dataset van Inpressies is automatisch gecreeerd door de B2B dataset van Info met de B2B dataset van de Indrukking in CJA aan te sluiten, zoals die in de hieronder stappen wordt beschreven. ![Opzoeken](assets/lookup-mixins.png) |
