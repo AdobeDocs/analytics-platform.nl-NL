@@ -2,7 +2,7 @@
 title: Google Analytics instellen die rapporteren in Customer Journey Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
+source-git-commit: 13828f484ec1edcd00a6d049ff78c7e2642d2b01
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 1%
@@ -47,7 +47,8 @@ Zie [deze instructies](https://support.google.com/analytics/answer/3416092?hl=en
 
    ![](assets/ga-bigquery.png)
 U moet een SQL vraag tot stand brengen om de Universele gegevens van Analytics in een ervaring-Platform-volgzaam formaat om te zetten.
-   * Bekijk deze video voor instructies.
+   * Bekijk deze video voor instructies:
+   >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
 1. Exporteer Google Analytics-gebeurtenissen in JSON-indeling naar Google Cloud Storage en sla deze op in een emmertje.
 Zie [deze instructies](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
