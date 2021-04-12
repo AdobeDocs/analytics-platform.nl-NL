@@ -4,7 +4,7 @@ cloud: Experience Cloud
 product: adobe analytics
 sub-product: reis van klant
 solution: Customer Journey Analytics
-type: Documentatie
+type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 42%
+source-wordcount: '462'
+ht-degree: 41%
 
 ---
 
@@ -164,6 +164,7 @@ ht-degree: 42%
    + [Gebruiksgevallen voor gegevensinvoer](use-cases/data-ingestion.md)
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
    + [Voeg globale raadplegingen aan uw datasets toe](use-cases/global-lookups.md)
+   + [Google Analytics instellen die rapporteren in CJA](use-cases/ga-to-cja.md)
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
