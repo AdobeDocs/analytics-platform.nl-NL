@@ -2,9 +2,9 @@
 title: Google Analytics instellen die rapporteren in Customer Journey Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
+source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Exportschema voor BigQuery (https://support.google.com/analytics/answer/3437719?
 * Toegang tot Universal Google Analytics (versie Google Analytics 360) of Google Analytics 4 (versie met gratis versie of versie Google Analytics 360)
 * Toegang tot Customer Journey Analytics
 
-## Gegevens van Google Analytics verbinden met Adobe Experience Platform
+## 1. Gegevens van Google Analytics verbinden met Adobe Experience Platform
 
 Hoe u gegevens van Google Analytics in Adobe Experience Platform brengt hangt van welke versie van Google Analytics af u gebruikt:
 
@@ -41,7 +41,15 @@ De volgende instructies zijn gebaseerd op Universal Google Analytics.
 
 1. Verbind uw gegevens van Google Analytics met BigQuery en
 Zie [deze instructies](https://support.google.com/analytics/answer/3416092?hl=en).
-1. (Alleen voor Universal Analytics-klanten) Transformeer Google Analytics-sessies naar gebeurtenissen in BigQuery.
-Zie [deze instructies](https://support.google.com/analytics/answer/3437618?hl=en).
-1. Exporteer Google Analytics-gebeurtenissen naar Google Cloud Storage.
+1. (Alleen voor Universal Analytics-klanten) Transformeer Google Analytics-sessies naar gebeurtenissen in BigQuery. Hierdoor zijn de gegevens compatibel met Adobe Experience Platform. Zie [deze instructies](https://support.google.com/analytics/answer/3437618?hl=en).
+
+   Details: In BigQuery worden uw GA-gegevens weergegeven als een tabel:
+
+   ![](assets/ga-bigquery.png)
+U moet een SQL vraag tot stand brengen om de Universele gegevens van Analytics in een ervaring-Platform-volgzaam formaat om te zetten.
+   * Bekijk deze video voor instructies.
+
+1. Exporteer Google Analytics-gebeurtenissen in JSON-indeling naar Google Cloud Storage en sla deze op in een emmertje.
 Zie [deze instructies](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
+1. Breng de gegevens van Google Cloud Storage in Experience Platform. (Bekijk dia 10 van Trevor.)
+
