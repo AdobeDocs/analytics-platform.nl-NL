@@ -3,9 +3,9 @@ title: Google Analytics in Adobe Experience Platform krijgen voor analyse in Cus
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
+source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Hoe u gegevens van Google Analytics in Adobe Experience Platform brengt hangt va
 
 | Als u... | U hebt deze licentie ook nodig... | En doe dit... |
 | --- | --- | --- |
-| **Universele Google Analytics** | Google Analytics 360 | Voer stap 1 - 5 van de onderstaande instructies uit |
+| **Universal Analytics** | Google Analytics 360 | Voer stap 1 - 5 van de onderstaande instructies uit |
 | **Google Analytics 4** | Gratis GA-versie of Google Analytics 360 | Voer stap 1 en 3-5 van de onderstaande instructies uit. Geen behoefte aan stap 2. |
 
 ## Voorbeeld van historische gegevens
@@ -53,11 +53,30 @@ Zie [deze instructies](https://support.google.com/analytics/answer/3416092?hl=en
 
 GA-gegevens slaan elke record in de gegevens op als een gebruikerssessie in plaats van als afzonderlijke gebeurtenissen. U moet een SQL vraag tot stand brengen om de Universele gegevens van Analytics in een ervaring-Platform-volgzaam formaat om te zetten. U past de functie &quot;Unest&quot; toe op het veld &quot;hits&quot; in het GA-schema. Hier volgt het SQL-voorbeeld dat u kunt gebruiken:
 
-`SQL sample`
+`SELECT
+*,
+timestamp_seconds(`` + hit.time) AS `` 
+FROM
+(
+SELECT
+fullVisitorId,
+visitNumber,
+visitId,
+visitStartTime,
+trafficSource,
+socialEngagementType,
+channelGrouping,
+device,
+geoNetwork,
+hit 
+FROM
+`visitStartTimetimestampyour_bq_table_2021_04_*`,
+UNNEST(hits) AS hit 
+)`
 
 Zodra de vraag voltooit, sparen de volledige resultaten in een lijst BigQuery.
 
-Zie [deze instructies](https://support.google.com/analytics/answer/3437618?hl=en).
+Zie [deze instructies](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql).
 
 Of bekijk deze video:
 
