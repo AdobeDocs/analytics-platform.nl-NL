@@ -1,14 +1,14 @@
 ---
 title: Voeg globale raadplegingen aan uw datasets toe
 description: Gebruik globale raadplegingen om de rapportage te vergroten met nuttige dimensies in Customer Journey Analytics.
+exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 translation-type: tm+mt
-source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
+source-git-commit: e19e9b7d7a88232e1eeb7ddaa739389e26763c1a
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
 
 ---
-
 
 # Voeg globale raadplegingen aan uw datasets toe
 
@@ -23,7 +23,7 @@ De globale raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als
 
 ## Globale raadplegingen van het gebruik met douanedatasets
 
-Er moet een sleutel in de gebeurtenisdataset zijn die met de globale raadplegingsdatasets compatibel is. Zolang u de juiste XDM gebieden door enkele van onze standaard [het schemamengins van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) toe te voegen bevolkt, kunt u het werk van douanedatasets met globale raadplegingen maken.
+Een sleutel moet in de gebeurtenisdataset aanwezig zijn die met de globale raadplegingsdatasets compatibel is. Zolang u de juiste XDM gebieden door enkele van onze standaard [het schemamengins van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) toe te voegen bevolkt, kunt u het werk van douanedatasets met globale raadplegingen maken.
 
 ## Beschikbare algemene opzoekvelden
 
@@ -67,4 +67,3 @@ Als u de globale opzoekafmetingen wilt rapporteren, moet u deze toevoegen wannee
 U kunt de opgezochte gegevens in Werkruimte dan zien:
 
 ![](assets/gl-reporting.png)
-
