@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
+source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Toewijzingen zijn zeer gemakkelijk te veranderen en u kunt zelfs afgeleide of be
 
 U kunt ook livestreaminggebeurtenissen vastleggen van Google Tag Manager rechtstreeks naar Adobe Experience Platform.
 
-### Aangepaste variabelen toevoegen
+### 1. Aangepaste variabelen toevoegen
 
 Nadat u zich hebt aangemeld bij de Google Tag Manager-account, moet u aangepaste constante variabelen toevoegen die betrekking hebben op Adobe org-id en gegevensset-id&#39;s. U hebt waarschijnlijk al variabelen in Google Tag Manager die naar Google Analytic worden verzonden, zoals het e-mailadres van de klant, de naam van de klant, de taal en de aanmeldingsstatus van de klant. U moet vijf nieuwe aangepaste variabelen definiëren:
 
@@ -120,7 +120,7 @@ Het krijgen van deze waarden zorgt ervoor dat alle gegevens van Google Analytics
 
 Nadat u deze aangepaste variabelen hebt gedefinieerd, kunnen we een trigger instellen om alle gegevens die u al verzendt, ook naar de Google Analytics van het Experience Platform te verzenden.
 
-### Een trigger instellen in Google Tag Manager
+### 2. Een trigger instellen in Google Tag Manager
 
 In dit voorbeeld is de trigger Account Creation gedefinieerd, waarbij `pageUrl equals account-creation` is gedefinieerd. Door enige informatie aan deze trigger toe te voegen, kunt u ervoor zorgen dat gegevens naar zowel Google Analytics als AEP worden verzonden wanneer de gebruiker met succes verifieert en de pagina voor het maken van een account wordt geladen.
 
@@ -128,11 +128,12 @@ Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-### Volgende stappen
+## Creeer een Verbinding in CJA aan de dataset van Google Analytics
 
 Als de Adobe Experience Platform de live Google Analytics-gegevens heeft ontvangen en u een back-up hebt gemaakt van de historische Google Analytics-gegevens van BigQuery, kunt u naar CJA springen en
+[maak uw eerste verbinding](/help/connections/create-connection.md). Met deze verbinding worden de GA-gegevens gekoppeld aan al uw andere klantgegevens met behulp van een gemeenschappelijke &quot;Customer ID&quot;.
 
-1. [Maak uw eerste ](/help/connections/create-connection.md) verbinding, waarmee de GA-gegevens worden gekoppeld aan al uw andere klantgegevens met een gemeenschappelijke &quot;klant-id&quot;.
-1. Voer een verbluffende analyse uit in Workspace, bijvoorbeeld..
 
-*Is dit waar dit onderwerp zou moeten stoppen of moeten we in detail ingaan over de verbinding?*
+## Ongelofelijke analyses uitvoeren in Workspace
+
+Ga als volgt te werk
