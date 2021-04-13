@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
+source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 41%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 41%
    + [Gebruiksgevallen voor gegevensinvoer](use-cases/data-ingestion.md)
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
    + [Voeg globale raadplegingen aan uw datasets toe](use-cases/global-lookups.md)
-   + [Google Analytics instellen die rapporteren in CJA](use-cases/ga-to-cja.md)
+   + [Gegevens van Google Analytics opnemen in Adobe Experience Platform](use-cases/ga-to-cja.md)
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
