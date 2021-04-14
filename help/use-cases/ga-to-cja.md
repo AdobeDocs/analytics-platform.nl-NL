@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
+source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,6 @@ Bekijk deze video voor instructies:
 Als de Adobe Experience Platform de live Google Analytics-gegevens heeft ontvangen en u een back-up hebt gemaakt van de historische Google Analytics-gegevens van BigQuery, kunt u naar CJA springen en
 [maak uw eerste verbinding](/help/connections/create-connection.md). Met deze verbinding worden de GA-gegevens gekoppeld aan al uw andere klantgegevens met behulp van een gemeenschappelijke &quot;Customer ID&quot;.
 
-
 ## Ongelofelijke analyses uitvoeren in Workspace
 
-Ga als volgt te werk
+Meer inhoud hier.
