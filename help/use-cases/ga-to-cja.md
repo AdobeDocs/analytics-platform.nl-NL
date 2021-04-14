@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: df3b69b837fda821e1b50b0ba211ac578d856892
+source-git-commit: 99ae3fb2978afc2f5ec7db05ac82cfb5113df3b4
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,9 @@ Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-## Ongelofelijke analyses uitvoeren in Workspace
+## Volgende stappen
 
-Meer inhoud hier.
+* Een gegevensweergave maken op basis van Google Analytics-gegevens
+Daarna, creeert u [een gegevensmening](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews) in CJA, die op de verbinding wordt gebaseerd die de gegevens van Google Analytics bevat.
+
+* Voer een verbluffende analyse uit in [Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/home.html?lang=en#cja-workspace).
