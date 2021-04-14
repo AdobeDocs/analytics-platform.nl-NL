@@ -1,14 +1,14 @@
 ---
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
+exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Gebruiksscenario&#39;s voor gegevensweergaven
 
@@ -45,5 +45,5 @@ Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers 
 
    ![](assets/bucketing.png)
 
-Zie [Gegevensweergaven maken](/help/data-views/create-dataview2.md) voor meer informatie over andere instellingen voor gegevensweergaven.
+Zie [Gegevensweergaven maken](/help/data-views/create-dataview.md) voor meer informatie over andere instellingen voor gegevensweergaven.
 Voor een conceptueel overzicht van gegevensmeningen, zie [Overzicht van de meningen van Gegevens](/help/data-views/data-views.md).
