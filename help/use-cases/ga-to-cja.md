@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,25 @@ Bekijk deze video voor instructies:
 
 Daarna, kunt u de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk XDM- schema u kiest. Zodra u het schema hebt geselecteerd, past het Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [XDM schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui) automatisch pre-in kaart te brengen.
 
+![](assets/schema-map.png)
+
 Toewijzingen zijn zeer gemakkelijk te veranderen en u kunt zelfs afgeleide of berekende gebieden van de gegevens van Google Analytics tot stand brengen. Nadat u de velden hebt toegewezen aan uw XDM-schema, kunt u deze import op terugkerende basis plannen en tijdens het innameproces foutvalidatie toepassen. Op die manier weet u zeker dat er geen problemen zijn met de gegevens die u hebt geïmporteerd.
+
+**Berekend veld tijdstempel**
+
+Voor het `timestamp` gebied in Google Analytics gegevens, moet u een speciaal berekend gebied in het schema UI van het Experience Platform tot stand brengen. Klik **[!UICONTROL Add calculated field]** en verpakt de `timestamp` koord in een `date` functie, als dit:
+
+`date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+
+Vervolgens moet u dit berekende veld opslaan in de gegevensstructuur van het tijdstempel in het schema:
+
+![](assets/timestamp.png)
+
+**_id XDM Berekend veld**
+
+Het schemaveld `_id` moet een waarde erin hebben - CJA geeft niet wat de waarde is. U kunt gewoon een &quot;1&quot; aan het veld toevoegen:
+
+![](assets/_id.png)
 
 ## Live streaming Google Analytics-gegevens verwerken
 
