@@ -3,9 +3,9 @@ title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 
 * U kunt de naam van uw containers **wijzigen** in een gegevensweergave en die hernoemde containeroppervlakte hebben in elk project van de Werkruimte dat op die gegevensmening gebaseerd is.
 
-## Vereiste
+## Voorwaarden voor gegevensweergaven
 
 * Alvorens u gegevensmeningen kunt tot stand brengen, moet u [opstelling één of meerdere verbindingen aan Experience Platform datasets](/help/connections/create-connection.md).
 * Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen nodig in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
