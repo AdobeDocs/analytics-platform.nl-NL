@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Hoe u gegevens van Google Analytics in Adobe Experience Platform brengt hangt va
 | **Universal Analytics** | Google Analytics 360 | Voer stap 1 - 5 van de onderstaande instructies uit |
 | **Google Analytics 4** | Gratis GA-versie of Google Analytics 360 | Voer stap 1 en 3-5 van de onderstaande instructies uit. Geen behoefte aan stap 2. |
 
-## Voorbeeld van historische gegevens
+## Samenvatting historische gegevens (backfill)
 
 ### 1. Verbind uw gegevens van Google Analytics met BigQuery
 
@@ -84,13 +84,20 @@ Of bekijk deze video:
 
 ### 3. Exporteer Google Analytics-gebeurtenissen in JSON-indeling naar Google Cloud Storage en sla deze op in een emmertje
 
-Vervolgens importeert u de Google Analytics-gebeurtenissen in JSON-indeling naar Google Cloud Storage.
+Vervolgens exporteert u de Google Analytics-gebeurtenissen naar Google Cloud Storage in JSON-indeling. Klik **Exporteren > Exporteren naar GCS**. Als er eenmaal gegevens beschikbaar zijn, kunnen ze naar Adobe Experience Platform worden gehaald.
 
 Zie [deze instructies](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
 
-### 4. De gegevens van Google Cloud Storage in Experience Platform brengen
+### 4. Gegevens van Google Cloud Storage importeren in Experience Platform
 
-Selecteer **[!UICONTROL Sources]** in Experience Platform en zoek de optie **[!UICONTROL Google Cloud Storage]**. Van daar, moet u enkel de dataset vinden u van de Grote Vraag had bewaard.
+Selecteer **[!UICONTROL Sources]** in Experience Platform en zoek de optie **[!UICONTROL Google Cloud Storage]**. Van daar, moet u enkel de dataset vinden u van BigQuery had bewaard.
+
+Houd dit in gedachten:
+
+* Selecteer de JSON-indeling.
+* U kunt een bestaande dataset selecteren, of een nieuwe dataset (geadviseerd) creëren.
+* Zorg ervoor om het zelfde schema voor historische gegevens van Google Analytics en levende het stromen Google Analytics te selecteren, zelfs als zij in afzonderlijke datasets zijn. U kunt de datasets in een [verbinding CJA ](/help/connections/combined-dataset.md) later samenvoegen.
+
 
 Bekijk deze video voor instructies:
 
@@ -98,7 +105,7 @@ Bekijk deze video voor instructies:
 
 ### 5. GCS-gebeurtenissen importeren naar Adobe Experience Platform en toewijzen aan XDM-schema
 
-Daarna, kunt u de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset creëren gebruikend welk XDM- schema u kiest. Zodra u het schema hebt geselecteerd, past het Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw eigen schema automatisch in kaart te brengen.
+Daarna, kunt u de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk XDM- schema u kiest. Zodra u het schema hebt geselecteerd, past het Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [XDM schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui) automatisch pre-in kaart te brengen.
 
 Toewijzingen zijn zeer gemakkelijk te veranderen en u kunt zelfs afgeleide of berekende gebieden van de gegevens van Google Analytics tot stand brengen. Nadat u de velden hebt toegewezen aan uw XDM-schema, kunt u deze import op terugkerende basis plannen en tijdens het innameproces foutvalidatie toepassen. Op die manier weet u zeker dat er geen problemen zijn met de gegevens die u hebt geïmporteerd.
 
