@@ -3,7 +3,7 @@ title: Telefooncentrum en webgegevens importeren
 description: Leer hoe te om een dataset tot stand te brengen die de gegevens van het vraagcentrum en van de website verbindt.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Deze vrije lijst laat u de hoogste pagina&#39;s zien die bijdragen tot de gebeur
 1. Sleep de dimensie die uw webpaginanamen bevat naar een visualisatie voor vrije-vormtabellen.
 1. Vervang metrisch met gewenste metrisch vraagcentrum dat u omzetting wilt meten.
 1. Klik op het tandwielpictogram bij de metrische koptekst. Klik op **[!UICONTROL Use non-default attribution model]**.
-1. Stel het gewenste [Attributiemodel](/help/data-views/configure-dataviews.md#Attribution-model) in.
+1. Stel het gewenste [Attributiemodel](/help/data-views/create-dataview.md) in.
 
 Het resulterende rapport toont hoogste metrisch van de gegevens van het vraagcentrum. <!-- Complement with donut visualization -->
 
