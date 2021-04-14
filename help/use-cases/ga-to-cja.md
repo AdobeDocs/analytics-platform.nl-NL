@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
+source-git-commit: df3b69b837fda821e1b50b0ba211ac578d856892
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,8 @@ Of bekijk deze video:
 
 Vervolgens exporteert u de Google Analytics-gebeurtenissen naar Google Cloud Storage in JSON-indeling. Klik **Exporteren > Exporteren naar GCS**. Als er eenmaal gegevens beschikbaar zijn, kunnen ze naar Adobe Experience Platform worden gehaald.
 
-Zie [deze instructies](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
+Zie [deze instructies voor Universal Analytics](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
+Zie [deze instructies voor Google Analytics 4](https://support.google.com/analytics/answer/7029846?hl=en).
 
 ### 4. Gegevens van Google Cloud Storage importeren in Experience Platform
 
@@ -98,10 +99,11 @@ Houd dit in gedachten:
 * U kunt een bestaande dataset selecteren, of een nieuwe dataset (geadviseerd) creëren.
 * Zorg ervoor om het zelfde schema voor historische gegevens van Google Analytics en levende het stromen Google Analytics te selecteren, zelfs als zij in afzonderlijke datasets zijn. U kunt de datasets in een [verbinding CJA ](/help/connections/combined-dataset.md) later samenvoegen.
 
-
 Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
+
+Raadpleeg de documentatie bij Google als u deze import op terugkerende basis wilt plannen.
 
 ### 5. GCS-gebeurtenissen importeren naar Adobe Experience Platform en toewijzen aan XDM-schema
 
@@ -110,6 +112,10 @@ Daarna, kunt u de GA gebeurtenisgegevens in een bestaande dataset in kaart breng
 ![](assets/schema-map.png)
 
 Toewijzingen zijn zeer gemakkelijk te veranderen en u kunt zelfs afgeleide of berekende gebieden van de gegevens van Google Analytics tot stand brengen. Nadat u de velden hebt toegewezen aan uw XDM-schema, kunt u deze import op terugkerende basis plannen en tijdens het innameproces foutvalidatie toepassen. Op die manier weet u zeker dat er geen problemen zijn met de gegevens die u hebt geïmporteerd.
+
+Bekijk deze video voor instructies:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **Berekend veld tijdstempel**
 
@@ -133,13 +139,13 @@ U kunt ook livestreaminggebeurtenissen vastleggen van Google Tag Manager rechtst
 
 ### 1. Aangepaste variabelen toevoegen
 
-Nadat u zich hebt aangemeld bij de Google Tag Manager-account, moet u aangepaste constante variabelen toevoegen die betrekking hebben op Adobe org-id en gegevensset-id&#39;s. U hebt waarschijnlijk al variabelen in Google Tag Manager die naar Google Analytic worden verzonden, zoals het e-mailadres van de klant, de naam van de klant, de taal en de aanmeldingsstatus van de klant. U moet vijf nieuwe aangepaste variabelen definiëren:
+Nadat u zich hebt aangemeld bij het Google Tag Manager-account, moet u enkele aangepaste constante variabelen toevoegen die betrekking hebben op Adobe. U hebt waarschijnlijk al variabelen in Google Tag Manager die naar Google Analytic worden verzonden, zoals het e-mailadres van de klant, de naam van de klant, de taal en de aanmeldingsstatus van de klant. U moet vijf nieuwe aangepaste variabelen definiëren:
 
 * Adobe Experience Cloud org ID
 * DCS Streaming-eindpunt
 * ID gegevensset Experience Platform
 * Schema
-* Tijdstempel pagina.
+* Tijdstempel pagina
 
 Het krijgen van deze waarden zorgt ervoor dat alle gegevens van Google Analytics naar de correcte dataset worden verzonden en het juiste schema hebben. Als u de Experience Cloud Org of een van de andere variabelen die we zojuist hebben genoemd niet kent, kan uw accountmanager van Adobe u helpen deze op te sporen.
 
@@ -153,10 +159,16 @@ Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
+U kunt ook naar [Gegevensverwerking en Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9) verwijzen.
+
 ## Creeer een Verbinding in CJA aan de dataset van Google Analytics
 
 Als de Adobe Experience Platform de live Google Analytics-gegevens heeft ontvangen en u een back-up hebt gemaakt van de historische Google Analytics-gegevens van BigQuery, kunt u naar CJA springen en
 [maak uw eerste verbinding](/help/connections/create-connection.md). Met deze verbinding worden de GA-gegevens gekoppeld aan al uw andere klantgegevens met behulp van een gemeenschappelijke &quot;Customer ID&quot;.
+
+Bekijk deze video voor instructies:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332676)
 
 ## Ongelofelijke analyses uitvoeren in Workspace
 
