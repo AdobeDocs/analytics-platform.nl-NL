@@ -1,8 +1,9 @@
 ---
 title: Gecombineerde gegevenssets voor gebeurtenissen
 description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
+exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -64,7 +65,7 @@ Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, zou het tre
 | string_color | metrisch_a |
 | --- | --- |
 | Niet opgegeven | 6 |
-| Blauw | 3 |
+| Blauw | 1 |
 | Rood | 2 |
 
 Nochtans, als u beide lijsten in uw verbinding omvatte, attributieveranderingen aangezien `user_847` in beide datasets is. Een rij van de tweede dataset kenmerkt `metric_a` aan &quot;Geel&quot;waar zij eerder niet gespecificeerd waren:
@@ -72,5 +73,5 @@ Nochtans, als u beide lijsten in uw verbinding omvatte, attributieveranderingen 
 | string_color | metrisch_a |
 | --- | --- |
 | Geel | 6 |
-| Blauw | 3 |
+| Blauw | 1 |
 | Rood | 2 |
