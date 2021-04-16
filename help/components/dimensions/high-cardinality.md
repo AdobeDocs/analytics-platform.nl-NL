@@ -1,14 +1,14 @@
 ---
 title: Dimension met een zeer hoge kardinaliteit in Customer Journey Analytics
 description: Beschrijft beste praktijken in het behandelen van high-cardinaliteitsdimensies in Customer Journey Analytics
+exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 translation-type: tm+mt
-source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
+source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Dimension met zeer hoge kardinaliteit
 
@@ -49,7 +49,7 @@ Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer h
 
 * Voeg een filter toe aan de kolom of het paneel waarop de bewerking betrekking heeft.
 * Hiermee past u een zoekopdracht toe op uw tabel voor vrije vorm.
-* Pas een uitsplitsing toe op de rijen of gebruik de dimensie in hoge mate als uitsplitsingsdimensie
+* Pas een uitsplitsing toe op de rijen of gebruik de dimensie in hoge mate als uitsplitsingsdimensie.
 * Voeg toe omvat/sluit criteria aan de configuratie van de Mening van Gegevens van de afmeting uit om het aantal unieke waarden te beperken aanwezig in de afmeting.
 
 Met deze technieken kunt u vaak ongewenste schattingen of waarschuwingen voorkomen die u krijgt bij het gebruik van afmetingen met een hoge kardinale waarde.
