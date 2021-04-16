@@ -2,9 +2,9 @@
 title: Dimension met een zeer hoge kardinaliteit in Customer Journey Analytics
 description: Beschrijft beste praktijken in het behandelen van high-cardinaliteitsdimensies in Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 9af5c74164462851ac4a6cbc4764569789f677fc
+source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Afhankelijk van het aantal gebeurtenissen in een specifieke verbinding CJA, kunn
 
 ### 1. Aantal rijen is mogelijk niet exact te rapporteren
 
-Rijtellingen met hoge kardinaalafmetingen zijn mogelijk niet precies te melden. Wanneer dit gebeurt, zullen de lijsten van de Vrije vorm een aanwijzing zoals hieronder getoond verstrekken:
+Rijtellingen met hoge kardinaalafmetingen zijn mogelijk niet precies te melden. Wanneer dit gebeurt, zullen de lijsten van de Vrije vorm een aanwijzing, zoals hieronder getoond verstrekken:
 
 ![](assets/high-cardinality.png)
 
@@ -45,7 +45,7 @@ Alhoewel er beperkingen aan sommige berekende metriek en de tellingen van de afm
 
 ## Aanbevolen werkwijzen voor het werken met afmetingen met hoge kardinale afmetingen
 
-Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer u afmetingen met hoge kardinaliteit gebruikt, adviseren wij dat u het aantal rijen die in uw rapport worden overwogen beperkt gebruikend één van de volgende methodes:
+Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer het gebruiken van dimensies met hoge kardinaliteit, adviseren wij dat u het aantal rijen die in uw rapport worden overwogen beperkt, gebruikend één van de volgende methodes:
 
 * Voeg een filter toe aan de kolom of het paneel waarop de bewerking betrekking heeft.
 * Hiermee past u een zoekopdracht toe op uw tabel voor vrije vorm.
