@@ -2,9 +2,9 @@
 title: Dimension met een zeer hoge kardinaliteit in Customer Journey Analytics
 description: Beschrijft beste praktijken in het behandelen van high-cardinaliteitsdimensies in Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: be423e0fd298ed3ea9d6efa272f865882406b811
+source-git-commit: 9af5c74164462851ac4a6cbc4764569789f677fc
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ Rijtellingen met hoge kardinaalafmetingen zijn mogelijk niet precies te melden. 
 
 ![](assets/high-cardinality.png)
 
-### 2. Berekende cijfers kunnen schattingen retourneren
+### 2. Berekende metriek kan schattingen gebruiken voor bepaalde functies en voor de sorteervolgorde
 
 Bij gebruik met zeer kardinale afmetingen kunnen sommige berekende metrische functies schattingen retourneren, waaronder: Kolommaximum, Kolomminimum, Aantal rijen, Gemiddeld, Mediaan, Percentage, Kwartaal, Standaardafwijking, Variantie, Regressiefuncties en T- en Z-functies.
 
 Bovendien kan het sorteren van een tabelkolom met behulp van een berekende metrische waarde gebaseerd zijn op een schatting en niet altijd de exacte sorteervolgorde weerspiegelen. Er verschijnt een waarschuwingsbericht om u te waarschuwen dat er mogelijk ramingen zijn gebruikt.
 
-Houd er rekening mee dat, ook al kunnen berekende meetwaarden soms schattingen retourneren, de kolomtotalen altijd nauwkeurig zijn en nooit gebaseerd zijn op schattingen. Op dezelfde manier, wanneer het gebruiken van standaardmetriek, worden de ramingen nooit gebruikt om een kolom te sorteren en altijd op nauwkeurige soortorden te wijzen.
+Houd er rekening mee dat, ook al kunnen berekende meetwaarden soms schattingen retourneren, de kolomtotalen altijd nauwkeurig zijn en nooit gebaseerd zijn op schattingen. Op dezelfde manier, wanneer het gebruiken van standaardmetriek, worden de ramingen nooit gebruikt en weerspiegelen altijd nauwkeurige sorteerorden.
 
-## Waar alle waarden van de dimensie in aanmerking worden genomen
+### Waar alle waarden van de dimensie in aanmerking worden genomen
 
-Alhoewel er beperkingen aan sommige berekende metriek en de tellingen van de afmetingsrij zijn, ben me ervan bewust dat de volgende mogelijkheden altijd alle unieke waarden in om het even welke afmeting overwegen. Ze beschouwen ze ongeacht of een dimensie al dan niet zeer kardinaal is:
+Alhoewel er beperkingen aan sommige berekende metriek en de tellingen van de afmetingsrij zijn, ben zich ervan bewust dat de volgende mogelijkheden altijd alle unieke waarden in om het even welke afmeting overwegen ongeacht of een afmeting hoogst kardinaal is of niet:
 
 * Metrische toewijzing en dimensie-toewijzing
 * De onderzoeken van het lijn-punt die op een lijst worden toegepast Freeform
@@ -45,11 +45,11 @@ Alhoewel er beperkingen aan sommige berekende metriek en de tellingen van de afm
 
 ## Aanbevolen werkwijzen voor het werken met afmetingen met hoge kardinale afmetingen
 
-Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer u afmetingen met hoge kardinaliteit gebruikt, adviseren wij dat u het aantal rijen die in uw rapport worden overwogen beperkt, gebruikend één van de volgende methodes:
+Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer u afmetingen met hoge kardinaliteit gebruikt, adviseren wij dat u het aantal rijen die in uw rapport worden overwogen beperkt gebruikend één van de volgende methodes:
 
 * Voeg een filter toe aan de kolom of het paneel waarop de bewerking betrekking heeft.
 * Hiermee past u een zoekopdracht toe op uw tabel voor vrije vorm.
-* Pas een uitsplitsing toe op de rijen van rente, of het gebruiken van de hoogst-kardinale dimensie als verdelingsdimensie.
+* Pas een uitsplitsing toe op de rijen of gebruik de dimensie in hoge mate als uitsplitsingsdimensie
 * Voeg toe omvat/sluit criteria aan de configuratie van de Mening van Gegevens van de afmeting uit om het aantal unieke waarden te beperken aanwezig in de afmeting.
 
 Met deze technieken kunt u vaak ongewenste schattingen of waarschuwingen voorkomen die u krijgt bij het gebruik van afmetingen met een hoge kardinale waarde.
