@@ -3,9 +3,9 @@ title: Wat is dimensie persistentie in Customer Journey Analytics?
 description: Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen zij hoe of of de waarden van de afmeting van de ene gebeurtenis naar de volgende blijven.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: 7370caf3495ff707698022889bf17528582da803
+source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '562'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Er zijn vier manieren om een afmetingswaarde te verlopen:
 
 * Sessie (standaard): Verloopt na een bepaalde sessie.
 * Persoon: Verloopt aan het einde van het rapportagevenster.
-* Tijd: U kunt de waarde van de dimensie instellen op verlopen na een opgegeven tijdsperiode of gebeurtenis. Deze optie voor verlopen is alleen beschikbaar voor de toewijzingsmodellen Origineel en Recentste.
+* Tijd: U kunt de waarde van de dimensie instellen op verlopen na een opgegeven periode (maximaal 90 dagen). Deze optie voor verlopen is alleen beschikbaar voor de toewijzingsmodellen Origineel en Recentste. Wanneer u op tijd gebaseerde vervaldatums gebruikt, worden waarden vóór het begin van het rapportagevenster (maximaal 90 dagen) in overweging genomen.
 * Metrisch: U kunt om het even welke bepaalde metriek als het afloopeind voor deze afmeting specificeren (b.v. metrisch &quot;van de Aankoop&quot;). Deze vervaldatum is alleen beschikbaar voor oorspronkelijke en meest recente toewijzingsmodellen.
 
 ### Wat is het verschil tussen Toewijzing en Attributie?
