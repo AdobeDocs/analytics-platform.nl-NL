@@ -2,7 +2,7 @@
 description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
 keywords: Analysis Workspace
 title: Aangepaste datumbereiken maken
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 translation-type: tm+mt
