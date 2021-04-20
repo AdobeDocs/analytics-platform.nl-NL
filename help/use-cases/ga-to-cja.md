@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1dcc566f286b0399e5ebd1e06e9d42a9522a1684
+source-git-commit: de822eb00a5e205889b4fa96f729845ad4c7e356
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -99,10 +99,6 @@ U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u
 ![](assets/schema-map.png)
 
 Toewijzingen zijn zeer gemakkelijk te veranderen en u kunt zelfs afgeleide of berekende gebieden van de gegevens van Google Analytics tot stand brengen. Nadat u de velden hebt toegewezen aan uw XDM-schema, kunt u deze import op terugkerende basis plannen en tijdens het innameproces foutvalidatie toepassen. Op die manier weet u zeker dat er geen problemen zijn met de gegevens die u hebt geïmporteerd.
-
-Bekijk deze video voor instructies:
-
->[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **Berekend veld &#39;Tijdstempel&#39;**
 
