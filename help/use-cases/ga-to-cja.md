@@ -3,9 +3,9 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw Google Analytics en firebase gegevens in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 99ae3fb2978afc2f5ec7db05ac82cfb5113df3b4
+source-git-commit: 1dcc566f286b0399e5ebd1e06e9d42a9522a1684
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevens van Google Analytics opnemen in Adobe Experience Platform
 
-Dit gebruiksgeval concentreert zich op hoe te om uw gegevens van Google Analytics als dataset in Adobe Experience Platform in te nemen. We zullen uitleggen hoe we zowel historische als live gegevens kunnen opnemen. Zodra gedaan, kunt u beide datasets in Customer Journey Analytics combineren om een dwars-apparatenmening van de reis van uw gebruiker te bereiken.
+Dit gebruiksgeval concentreert zich op hoe te om uw gegevens van Google Analytics als dataset in Adobe Experience Platform in te nemen. We leggen uit hoe we zowel historische als live gegevens kunnen opnemen. Zodra gedaan, kunt u beide datasets in Customer Journey Analytics combineren om een dwars-apparatenmening van de reis van uw gebruiker te bereiken.
 
 Datasets in het Experience Platform bestaan uit twee dingen: een schema en de daadwerkelijke verslagen in de dataset. Het schema (wij roepen dit het Model van Gegevens van de Ervaring of XDM voor kort) is als de kolommen van de dataset en is als blauwdruk of de regels die de gegevens zelf beschrijven. Binnen het Platform, verstrekt Adobe 2 types van schema&#39;s:
 
@@ -34,18 +34,16 @@ Hoe u gegevens van Google Analytics in Adobe Experience Platform brengt hangt va
 
 | Als u... | U hebt deze licentie ook nodig... | En doe dit... |
 | --- | --- | --- |
-| **Universal Analytics** | Google Analytics 360 | Voer stap 1 - 5 van de onderstaande instructies uit |
-| **Google Analytics 4** | Gratis GA-versie of Google Analytics 360 | Voer stap 1 en 3-5 van de onderstaande instructies uit. Geen behoefte aan stap 2. |
+| **Universal Analytics** | Google Analytics 360 | Voer stap 1-3 van de onderstaande instructies uit |
+| **Google Analytics 4** | Gratis GA-versie of Google Analytics 360 | Voer stap 1 en 3 van de onderstaande instructies uit. Geen behoefte aan stap 2. |
 
 ## Samenvatting historische gegevens (backfill)
 
 ### 1. Verbind uw gegevens van Google Analytics met BigQuery
 
-De volgende instructies zijn gebaseerd op Universal Google Analytics. Zij zijn van toepassing op historische gegevens. Ga voor instructies over live streaminggegevens naar [Live streaminggegevens in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#ingest-live-streaming-google-analytics-data) plaatsen.
+Raadpleeg [deze instructies](https://support.google.com/analytics/answer/3416092?hl=en) voor meer informatie. Deze instructies zijn gebaseerd op Universal Google Analytics.
 
-Zie [deze instructies](https://support.google.com/analytics/answer/3416092?hl=en).
-
-### 2. Google Analytics-sessies transformeren naar gebeurtenissen in BigQuery
+### 2. Google Analytics-sessies transformeren naar gebeurtenissen in BigQuery en exporteren naar Google Cloud Storage
 
 >[!IMPORTANT]
 >
@@ -76,20 +74,13 @@ UNNEST(hits) AS hit
 
 Zodra de vraag voltooit, sparen de volledige resultaten in een lijst BigQuery.
 
-Zie [deze instructies](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql).
+Zie [deze instructies](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql), die instructies op de SQL vraag omvatten.
 
-Of bekijk deze video:
+In de volgende video wordt ook de volgende stap uitgelegd, namelijk het exporteren van de Google Analytics-gebeurtenissen naar Google Cloud Storage in JSON-indeling. Klik **Exporteren > Exporteren naar GCS**. Als er eenmaal gegevens beschikbaar zijn, kunnen ze naar Adobe Experience Platform worden gehaald.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
-### 3. Exporteer Google Analytics-gebeurtenissen in JSON-indeling naar Google Cloud Storage en sla deze op in een emmertje
-
-Vervolgens exporteert u de Google Analytics-gebeurtenissen naar Google Cloud Storage in JSON-indeling. Klik **Exporteren > Exporteren naar GCS**. Als er eenmaal gegevens beschikbaar zijn, kunnen ze naar Adobe Experience Platform worden gehaald.
-
-Zie [deze instructies voor Universal Analytics](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
-Zie [deze instructies voor Google Analytics 4](https://support.google.com/analytics/answer/7029846?hl=en).
-
-### 4. Gegevens van Google Cloud Storage importeren in Experience Platform
+### 3. Gegevens van Google Cloud Storage importeren in Experience Platform en toewijzen aan XDM-schema
 
 Selecteer **[!UICONTROL Sources]** in Experience Platform en zoek de optie **[!UICONTROL Google Cloud Storage]**. Van daar, moet u enkel de dataset vinden u van BigQuery had bewaard.
 
@@ -101,13 +92,9 @@ Houd dit in gedachten:
 
 Bekijk deze video voor instructies:
 
->[!VIDEO](https://video.tv.adobe.com/v/332641)
+>[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-Raadpleeg de documentatie bij Google als u deze import op terugkerende basis wilt plannen.
-
-### 5. GCS-gebeurtenissen importeren naar Adobe Experience Platform en toewijzen aan XDM-schema
-
-Daarna, kunt u de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk XDM- schema u kiest. Zodra u het schema hebt geselecteerd, past het Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [XDM schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui) automatisch pre-in kaart te brengen.
+U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk schema XDM u kiest. Zodra u het schema hebt geselecteerd, past het Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [XDM schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui) automatisch pre-in kaart te brengen.
 
 ![](assets/schema-map.png)
 
@@ -117,9 +104,9 @@ Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
 
-**Berekend veld tijdstempel**
+**Berekend veld &#39;Tijdstempel&#39;**
 
-Voor het `timestamp` gebied in Google Analytics gegevens, moet u een speciaal berekend gebied in het schema UI van het Experience Platform tot stand brengen. Klik **[!UICONTROL Add calculated field]** en verpakt de `timestamp` koord in een `date` functie, als dit:
+Voor het `timestamp` schemagebied in Google Analytics gegevens, moet u een speciaal berekend gebied in het schema UI van het Experience Platform tot stand brengen. Klik **[!UICONTROL Add calculated field]** en verpakt de `timestamp` koord in een `date` functie, als dit:
 
 `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 
@@ -127,7 +114,7 @@ Vervolgens moet u dit berekende veld opslaan in de gegevensstructuur van het tij
 
 ![](assets/timestamp.png)
 
-**_id XDM Berekend veld**
+**Berekend veld &#39;_id&#39;**
 
 Het schemaveld `_id` moet een waarde erin hebben - CJA geeft niet wat de waarde is. U kunt gewoon een &quot;1&quot; aan het veld toevoegen:
 
@@ -155,24 +142,19 @@ Nadat u deze aangepaste variabelen hebt gedefinieerd, kunnen we een trigger inst
 
 In dit voorbeeld is de trigger Account Creation gedefinieerd, waarbij `pageUrl equals account-creation` is gedefinieerd. Door enige informatie aan deze trigger toe te voegen, kunt u ervoor zorgen dat gegevens naar zowel Google Analytics als AEP worden verzonden wanneer de gebruiker met succes verifieert en de pagina voor het maken van een account wordt geladen.
 
+U kunt ook naar [Gegevensverwerking en Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9) verwijzen.
+
 Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-U kunt ook naar [Gegevensverwerking en Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9) verwijzen.
-
 ## Creeer een Verbinding in CJA aan de dataset van Google Analytics
 
-Als de Adobe Experience Platform de live Google Analytics-gegevens heeft ontvangen en u een back-up hebt gemaakt van de historische Google Analytics-gegevens van BigQuery, kunt u naar CJA springen en
-[maak uw eerste verbinding](/help/connections/create-connection.md). Met deze verbinding worden de GA-gegevens gekoppeld aan al uw andere klantgegevens met behulp van een gemeenschappelijke &quot;Customer ID&quot;.
-
-Bekijk deze video voor instructies:
-
->[!VIDEO](https://video.tv.adobe.com/v/332676)
+Zodra Adobe Experience Platform is begonnen de levende gegevens van Google Analytics te ontvangen, en u hebt de historische gegevens van Google Analytics van BigQuery teruggevuld, bent u klaar om in CJA te springen en [uw eerste verbinding te creëren](/help/connections/create-connection.md). Met deze verbinding worden de GA-gegevens gekoppeld aan al uw andere klantgegevens met behulp van een gemeenschappelijke &quot;Customer ID&quot;.
 
 ## Volgende stappen
 
 * Een gegevensweergave maken op basis van Google Analytics-gegevens
 Daarna, creeert u [een gegevensmening](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews) in CJA, die op de verbinding wordt gebaseerd die de gegevens van Google Analytics bevat.
 
-* Voer een verbluffende analyse uit in [Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/home.html?lang=en#cja-workspace).
+* Voer een verbluffende analyse uit in [Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/home.html?lang=en#cja-workspace). Kom later terug voor bepaalde gevallen van rapportgebruik.
