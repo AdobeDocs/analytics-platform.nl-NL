@@ -11,9 +11,9 @@ user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Anal
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 42%
 
 ---
@@ -157,6 +157,7 @@ ht-degree: 42%
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
    + [Voeg globale raadplegingen aan uw datasets toe](use-cases/global-lookups.md)
    + [Gegevens van Google Analytics opnemen in Adobe Experience Platform](use-cases/ga-to-cja.md)
+   + [Rapport over gegevens over Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
