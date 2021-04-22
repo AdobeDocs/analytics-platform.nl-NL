@@ -3,9 +3,9 @@ title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
+source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -60,20 +60,20 @@ De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat 
 
 Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysis Workspace op projectniveau, andere niet.
 
-* Venster Opzoeken
-* Metrische kenmerken
-* Bepaalt of gebruikers het regelitem Geen waarde in een rapport al dan niet zien
+* [!UICONTROL Lookback window]
+* Metrische kenmerk
+* Of gebruikers het [!UICONTROL No Value] lijnpunt in een rapport al dan niet zien
 
 ## De instellingen van de gegevensweergave die u niet kunt overschrijven in de werkruimte
 
-* Componenttype
+* [!UICONTROL Component type]
 * Metrische opmaak
 * Naam gegevensweergave
 * Dimension-toewijzing
 
 ## Gegevensweergaven verwijderen
 
-Als u een gegevensmening in [!UICONTROL Customer Journey Analytics] schrapt, zal een foutenmelding erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer zullen werken.
+Als u een gegevensmening in [!UICONTROL Customer Journey Analytics] schrapt, zal een foutenmelding erop wijzen dat om het even welke [!UICONTROL Workspace] projecten die van deze geschrapte gegevensmening afhangen niet meer zullen werken.
 
 ## Volgende stappen
 
