@@ -1,14 +1,14 @@
 ---
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
+exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+source-git-commit: 4b543a1566580a8f3060c2387928148d55be70f2
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1026'
 ht-degree: 4%
 
 ---
-
 
 # Ondersteuning voor Customer Journey Analytics-functies
 
@@ -36,7 +36,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of meetgegevens bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
 | Draaien tussen apparaten en kanalen | Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | Buiten-de-box Analysis Workspace-afmetingen (bv. Browsertype, Type referentie, Besturingssysteem enz.) | CJA biedt deze afmetingen native zolang de basis-XDM-velden (zoals gebruikersagent of apparaat-id) zijn gevuld. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop analysevariabelen worden ondersteund via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| API-toegang rapporteren | Momenteel beschikbaar via de Analytics API 2.0. |
+| API-toegang rapporteren | Nu beschikbaar met de [CJA API](https://www.adobe.io/cja-apis/docs/). |
+| Geplande rapporten/projecten | Volledige ondersteuning |
+| PDF exporteren | Volledige ondersteuning |
 
 ## Ondersteund met caveats
 
@@ -74,9 +76,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Aangepaste kalenders | Er is steun gepland. |
 | Metrische deduplicatie | Er is steun gepland. |
 | Handelswijzigingsvariabele persistentie | Er is steun gepland. |
-| Geplande rapporten/projecten | Er is steun gepland. |
 | Waarschuwingen | Er is steun gepland. |
-| PDF exporteren | Er is steun gepland. |
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
 | Report Builder (Excel-plug-in) | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
