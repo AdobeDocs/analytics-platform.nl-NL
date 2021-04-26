@@ -1,14 +1,14 @@
 ---
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
+exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 translation-type: tm+mt
-source-git-commit: 1ac845af7255428d9df0fa7d4d733f60e014ed83
+source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van kanaalanalyse
 
@@ -50,6 +50,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Veldgebaseerde stitching combineert of schakelt geen velden samen.
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
+* De Analyse van de Kanaal houdt spoor van elke blijvende waarde van identiteitskaart gedurende 1 jaar (TTL = 1 jaar). Als een apparaat langer dan een jaar geen activiteit heeft en dan opnieuw activiteit begint te hebben, zullen de nieuwe gebeurtenissen met een anonieme persoon worden geassocieerd tot de gebruiker (zoals via nieuwe login) wordt herkend.
 
 
 ## Kanaaloverschrijdende analyse inschakelen
