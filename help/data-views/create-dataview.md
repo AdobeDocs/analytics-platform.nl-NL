@@ -3,9 +3,9 @@ title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot sta
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c6ce71788582b20f6542ff8e26a7b86d8b1b3eb3
+source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -172,13 +172,13 @@ Naast het creëren van metriek en dimensies van schemaelementen, kunt u standaar
 
 ![](assets/standard-components.png)
 
-Deze vereiste standaardcomponenten worden standaard toegevoegd aan de gegevensweergave.
+Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevensweergave.
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
-| [!UICONTROL People] | Metrisch | Deze metrische waarde is gebaseerd op de persoonidentiteitskaart in een Verbinding wordt gespecificeerd die. |
+| [!UICONTROL People] | Metrisch | Deze metrische waarde is gebaseerd op de persoon-id die is opgegeven in een [!UICONTROL Connection]. |
 | [!UICONTROL Sessions] | Metrisch | Deze maatstaf is gebaseerd op de onderstaande sessionisatie-instellingen. |
-| [!UICONTROL Events] | Metrisch | Deze metrische waarde vertegenwoordigt het aantal rijen van alle gebeurtenisdatasets in een Verbinding. |
+| [!UICONTROL Events] | Metrisch | Deze metrische waarde vertegenwoordigt het aantal rijen van alle gebeurtenisdatasets in [!UICONTROL Connection]. |
 | [!UICONTROL Day] | Dimension | De dimensie &quot;Dag&quot; rapporteert de dag waarop een bepaalde metrische waarde is opgetreden. Het eerste afmetingspunt is de eerste dag in de datumwaaier, en het laatste afmetingspunt is de laatste dag in de datumwaaier. |
 | [!UICONTROL Week] | Dimension | De &quot;Week&quot;-dimensie meldt de week dat een bepaalde meting heeft plaatsgevonden. Het eerste dimensie-item is de eerste week in het datumbereik en het laatste dimensie-item is de laatste week in het datumbereik. |
 | [!UICONTROL Month] | Dimension | De dimensie van de Maand meldt de maand dat bepaalde metrisch voorkwam. Het eerste afmetingspunt is de eerste maand in de datumwaaier, en het laatste afmetingspunt is de laatste maand in de datumwaaier. |
