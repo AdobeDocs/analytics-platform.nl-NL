@@ -3,7 +3,7 @@ title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
+source-git-commit: 9bc3e1c211c8cafa0abf73a8732d70185a4f0861
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 1%
@@ -37,8 +37,8 @@ ht-degree: 1%
 
 ## 3. Gegevens ophalen in [!UICONTROL Customer Journey Analytics]
 
-| Aantal | Vraag | Antwoord |
-| --- | --- | --- |
+| Vraag | Antwoord |
+| --- | --- |
 | Kan ik gegevens van verschillende [!UICONTROL Adobe Experience Platform] zandbakken in één [!UICONTROL Customer Journey Analytics] verbinding combineren? | Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden. [Meer informatie](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
 | Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Onder normale belasting: &lt; 60 minuten <br>**Opmerking:** In het geval van een ongebruikelijk hoog gegevensvolume door de pijpleiding, kan het tot 24 uur duren.</li><li>Backfill-gegevens (tot 13 maanden aan gegevens, ongeacht de grootte): &lt; 4 weken</li></ul> |
 | Hoe verbind ik online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]? | Zolang de persoonidentiteitskaart tussen datasets aanpast, [!UICONTROL Customer Journey Analytics] filters, attributie, stroom, fallout, enz. kan verbinden over datasets. |
