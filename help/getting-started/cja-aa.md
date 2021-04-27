@@ -3,10 +3,10 @@ title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 translation-type: tm+mt
-source-git-commit: b149b4e95d8395c41242de7a2a3997315ba142a6
+source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -44,17 +44,16 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-
-| Classificaties | Nu ook wel &quot;Lookup Datasets&quot; genoemd. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en CJA met behulp van de gegevensconnector voor analytische classificaties. Gegevenssets voor opzoeken kunnen ook rechtstreeks naar AEP worden geüpload en beschikbaar worden gesteld in CJA. |
+| Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en CJA met behulp van de gegevensconnector voor analytische classificaties. Gegevenssets voor opzoeken kunnen ook rechtstreeks naar AEP worden geüpload en beschikbaar worden gesteld in CJA. |
 | Aangepaste sessie | Ondersteuning voor alle andere aangepaste sessionisatiefuncties dan mobiele achtergrondhits. |
 | Klantkenmerken | Nu &quot;profielgegevenssets&quot; genoemd, worden ze niet automatisch geïmporteerd uit Experience Cloud, maar moeten ze worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
-| Afmetingen van apparaat, browser, technologie | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. |
-| Ingangen, uitgangen en de afmetingen en metriek van de bestede tijd | Ondersteund (Invoer en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
+| Apparaat, browser, technologische afmetingen | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. |
+| De ingangen, de Uitgangen, en de tijd bestede dimensies en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimension in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
 | Marketingkanalen | De gegevens van Kanalen van de marketing stromen in CJA door de Verbinding van Gegevens van de Analyse. De regels van het Kanaal van de marketing moeten nog in traditionele Adobe Analytics worden gevormd. Sommige regels worden niet ondersteund. Zie [CJA-documentatie over marketingkanalen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) voor meer informatie. |
-| Productvariabele | Binnen het Experience Platform kunnen gebruikers een array van objecttypevelden binnen een datasetschema gebruiken om aan dit gebruik te voldoen. Binnen CJA kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
-| Delen van projecten | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen projectdeling tussen CJA en de traditionele Analysis Workspace tot stand gebracht. |
-| Visualisatie | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
+| Productvariabele | Binnen het Experience Platform, kunnen de gebruikers serie van de typegebieden van Objecten binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen CJA kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
+| Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
+| Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
 
 ## Gedeeltelijke ondersteuning
 
