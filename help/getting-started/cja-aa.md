@@ -2,10 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-translation-type: tm+mt
-source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
+source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1060'
 ht-degree: 4%
 
 ---
@@ -63,7 +62,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Media Analytics | De gegevens van media zijn beschikbaar als deel van de Verbinding van Gegevens van Analytics. |
 | Merchandising-eVars | Het gedrag van Merchandising eVars kan worden bereikt gebruikend dimensies binnen een Serie van Objecten aangezien een koopjesdising eVar niet wordt geplaatst om persistentie te gebruiken. Op dit moment is de persistentie van de dimensie van de koophandel niet beschikbaar. |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
-| Verwerkingsregels | Voor op gegevensschakelaar-gebaseerde datasets van Gegevens van Analytics, worden de verwerkingsregels nog toegepast. |
+| Verwerkingsregels | Voor op gegevensschakelaar-gebaseerde datasets van Gegevens van Analytics, worden de verwerkingsregels nog toegepast. [De mogelijkheden van de prep van gegevens in het ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) Platform van de Ervaring van Adobe kunnen ook als vervanging voor verwerkingsregels voor gegevens worden gebruikt die rechtstreeks naar Platform gaan. |
 
 ## Momenteel niet ondersteund, maar gepland
 
