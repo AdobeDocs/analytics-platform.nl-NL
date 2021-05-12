@@ -2,19 +2,14 @@
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
 description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
 
 # Gebruikersvoorkeuren
-
->[!NOTE]
->
->Deze functie is binnenkort beschikbaar. Algemene beschikbaarheid is 25 maart 2021.
 
 Met de pagina [!UICONTROL Components] > [!UICONTROL User preferences] kunt u Analysis Workspace-instellingen en de bijbehorende componenten voor uw gebruikers beheren. De voorkeur van de gebruiker is op *alle* nieuwe projecten of panelen van toepassing.
 
