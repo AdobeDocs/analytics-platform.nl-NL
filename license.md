@@ -1,14 +1,16 @@
 ---
-source-git-commit: 46e050f3acb874d9276e43092f12daa7c013b778
-translation-type: tm+mt
+source-git-commit: b2abe1f4714832794053e1c41a410b769398248b
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 # MIT-licentie
 
-© Copyright 2018 Adobe. Alle rechten voorbehouden.
+© Copyright 2021 Adobe. all rights reserved.
 
-Er wordt gratis toestemming verleend aan eenieder die een kopie van deze software en bijbehorende documentatiebestanden (de &quot;Software&quot;) verkrijgt, om de Software zonder beperking te verwerken, inclusief het recht om de Software te gebruiken, kopiëren, wijzigen, samenvoegen, publiceren, distribueren, sublicentiëren en/of verkopen, en om personen aan wie de Software is geleverd, toe te staan dit te doen, onder de volgende voorwaarden:
+Hierbij wordt kosteloos een machtiging verleend aan eenieder die een kopie van deze software en de bijbehorende documentatiebestanden (de &quot;Software&quot;) ontvangt, om zonder beperking in de Software te handelen, met inbegrip van de rechten om, onder de volgende voorwaarden, kopieën van de Software te gebruiken, te kopiëren, te wijzigen, samen te voegen, te publiceren, te sublicentiëren en/of te verkopen, en om personen aan wie de Software wordt geleverd, toe te staan dit te doen:
 
-De bovenstaande copyrightvermelding en deze machtigingskennisgeving worden opgenomen in alle exemplaren of belangrijke gedeelten van de Software.
+De bovenstaande copyrightkennisgeving en deze machtigingskennisgeving worden opgenomen in alle exemplaren of belangrijke delen van de Software.
 
-DE SOFTWARE WORDT VERSTREKT &quot;ZOALS&quot;IS, ZONDER GARANTIE VAN OM HET EVEN WELKE SOORT, UITDRUKKELIJK GEOORSPRONKELIJK, MET INBEGRIP VAN MAAR NIET BEPERKT TOT DE GARANTIES VAN MERCHANTABILITEIT, GESCHIKTHEID VOOR EEN BEPAALD DOEL EN NONINBREUK. IN GEEN GEVAL KUNNEN VERDREIGERS OF KOPYRICHTHOUDERS AANSPRAKELIJK ZIJN VOOR ELKE VORDERING, SCHADE OF ANDERE AANSPRAKELIJKHEID, IN EEN OPTREDEN VAN CONTRACT, TORT OF ANDERS, DIE VOORTVLOEIEN UIT, UIT OF IN VERBAND MET DE SOFTWARE OF HET GEBRUIK OF ANDERE SCHAALINGEN IN DE.
+DE SOFTWARE WORDT &quot;AS IS&quot; VERSTREKT, ZONDER ENIGE SOORT GARANTIE, UITDRUKKELIJK OF IMPLICIET, INCLUSIEF MAAR NIET BEPERKT TOT DE GARANTIES VAN MERKANTABILITEIT, PLAATSBAARHEID VOOR EEN BEPAALD DOEL EN NIET-INBREUK. IN GEEN GEVAL ZIJN DE AUTEURS OF DE HOUDERS VAN HET COPYRIGHT AANSPRAKELIJK VOOR EEN AANVRAAG, SCHADE OF ANDERE AANSPRAKELIJKHEID, OF HET EEN ACTIE VAN CONTRACT, TEORT OF ANDERS IS, DIE VOORTVLOEIT UIT, UIT OF IN VERBAND MET DE SOFTWARE OF HET GEBRUIK OF ANDERE AFWIJKINGEN IN DE SOFTWARE.
