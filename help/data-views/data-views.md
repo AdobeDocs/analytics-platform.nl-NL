@@ -2,10 +2,9 @@
 title: Wat is een gegevensweergave in Customer Journey Analytics?
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-translation-type: tm+mt
-source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -22,9 +21,9 @@ U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met zeer 
 
 Werkruimteprojecten in Customer Journey Analytics zijn gebaseerd op gegevensweergaven.
 
-## Nieuwe functies in gegevensweergaven?
+## Mogelijkheden voor gegevensweergaven
 
-De nieuwste update van gegevensweergaven biedt u veel meer flexibiliteit in wat u kunt doen met gegevensweergaven. Deze verhogingen laten u **schemaelementmontages in de Mening van Gegevens spontaan veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu CJA opnieuw uitvoeren**.
+De meningen van gegevens laten u spontaan schemaelementmontages veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu opnieuw uitvoeren CJA.
 
 * **U kunt een component wijzigen van Metrisch in Dimension en andersom**. U kunt metriek van koordgebieden tot stand brengen of dimensies van numerieke gebieden tot stand brengen. Dit maakt uw leven gemakkelijker, omdat u geen numeriek gebied in uw schema XDM voor elke metrisch moet creëren u wilt. In plaats daarvan kunt u deze alleen spontaan maken in het dialoogvenster met gegevensweergaven. Hier volgen enkele voorbeelden:
    * **Maak een of meer en/of één afmetingen van één schemaveld**. Het is een één-op-veel relatie. U kunt bijvoorbeeld een of meer omzetmaatstaven en/of een of meer inkomstendimensies maken van één schemaveld.
