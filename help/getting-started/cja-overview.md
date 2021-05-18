@@ -2,10 +2,9 @@
 title: Overzicht van Customer Journey Analytics
 description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -64,6 +63,10 @@ Om verbindingen tot stand te brengen, voeg datasets, enz. toe, hebt u de volgend
    * Gegevensbestanden weergeven
 
 Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+
+>[!NOTE]
+>
+>U kunt geen toestemming geven voor individuele metriek of dimensies in Customer Journey Analytics, zoals in traditionele Adobe Analytics. Metriek en dimensies kunnen worden gewijzigd in gegevensweergaven en zijn daarom onderhevig aan wijzigingen in CJA, die ook de rapportage met terugwerkende kracht wijzigt.
 
 ### Toegang van gebruikers
 
