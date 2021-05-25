@@ -2,10 +2,9 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -40,6 +39,14 @@ Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers 
 1. U kunt [!UICONTROL Value Bucketing] nu toevoegen om deze dimensie op een beknopte manier in rapportering voor te stellen. (Zonder vastzetten, zou elk geval van deze dimensie als lijnpunt in Werkruimte rapporterend verschijnen.)
 
    ![](assets/bucketing.png)
+
+## Numerieke afmetingen gebruiken als &#39;metriek&#39; in stroomdiagrammen
+
+U kunt een numerieke dimensie gebruiken om &quot;metriek&quot;in uw [!UICONTROL  Flow] visualisatie te krijgen. In het onderstaande voorbeeld ziet u hoe [!UICONTROL Marketing Channels] doorloopt in [!UICONTROL Orders]:
+
+![](assets/flow.png)
+
+## Metrische waarden opnemen of uitsluiten
 
 Zie [Gegevensweergaven maken](/help/data-views/create-dataview.md) voor meer informatie over andere instellingen voor gegevensweergaven.
 Voor een conceptueel overzicht van gegevensmeningen, zie [Overzicht van de meningen van Gegevens](/help/data-views/data-views.md).
