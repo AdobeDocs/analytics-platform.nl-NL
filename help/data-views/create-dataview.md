@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
 workflow-type: tm+mt
-source-wordcount: '2529'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,9 @@ U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie met de n
 | [!UICONTROL Field Name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit veld kan meerdere gegevenssets bevatten. |
-| [!UICONTROL Schema type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is. |
+| [!UICONTROL Schema Data Type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. U kunt op het bewerkingspictogram klikken en deze component-id wijzigen. Als u deze component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken.<br>Als u ooit een andere gegevensmening creeert die een verschillend gebied voor een pageTitle afmeting gebruikt, kunt u het anders noemen en de afmeting geschikt maken dwars-gegevensmening. |
-| [!UICONTROL Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
+| [!UICONTROL Schema Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
 | [!UICONTROL Hide component in reporting] | Standaard = uit. Hiermee kunt u de component uit de gegevensweergave buigen wanneer deze wordt gebruikt bij rapportage. Dit beïnvloedt geen toestemmingen, enkel componentencuratie. Met andere woorden, u kunt de component voor niet-beheerders verbergen in de rapportage. Beheerders hebben er nog steeds toegang toe door in een Analysis Workspace-project op [!UICONTROL Show All Components] te klikken. |
 
 ### Indelingsinstellingen configureren
@@ -121,6 +121,7 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
+| [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
