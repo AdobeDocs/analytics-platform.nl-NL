@@ -2,10 +2,10 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
+source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
@@ -53,14 +53,36 @@ U kunt een numerieke dimensie gebruiken om &quot;metriek&quot;in uw [!UICONTROL 
 
 U kunt gebeurtenissen filteren om alleen weer te geven wat u wilt zien. Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in gegevensweergaven om alleen te verwijzen naar producten die een omzet van meer dan 50 dollar hebben gegenereerd. Dus als u een bestelling hebt die een product van 50 dollar en een product van 25 dollar bevat, verwijderen we alleen de aankoop van het product van 25 dollar, niet de volledige bestelling.
 
-1. Op de [Componenten ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) tabel in de Datumweergave sleept u het schemaveld [!UICONTROL Orders] naar het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
+1. Op de [Componenten ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) tabel in de Datumweergave sleept u het schemaveld [!UICONTROL Revenue] naar het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
 1. Selecteer metrisch en vorm het volgende op de rechterkant:
-   1. Selecteer onder [!UICONTROL Format] de optie [!UICONTROL Currency].
-   1. Selecteer onder [!UICONTROL Currency] USD.
-   1. Selecteer onder [!UICONTROL Include/Exclude Values] het selectievakje naast [!UICONTROL Set include/exclude values].
-   1. Selecteer onder [!UICONTROL Match] de optie [!UICONTROL If all criteria are met].
-   1. Selecteer onder [!UICONTROL Criteria] de optie [!UICONTROL is greater than or equal].
-   1. Geef &quot;50&quot; op als waarde.
+a. Selecteer [!UICONTROL Currency] onder [!UICONTROL Format].
+b. Selecteer onder [!UICONTROL Currency] USD.
+c. Selecteer onder [!UICONTROL Include/Exclude Values] het selectievakje naast [!UICONTROL Set include/exclude values].
+d. Selecteer [!UICONTROL If all criteria are met] onder [!UICONTROL Match].
+e. Selecteer [!UICONTROL is greater than or equal] onder [!UICONTROL Criteria].
+f. Geef &quot;50&quot; op als waarde.
+
+Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijken en alles onder $50 filteren.
+
+## 5. De instelling [!UICONTROL No Value Options] gebruiken
+
+Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt [de naam van &quot;Geen Waarde&quot;nu veranderen in &quot;Niet gespecificeerd&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) in de UI van de Mening van Gegevens.
+
+## 6. De functie [!UICONTROL Duplicate] gebruiken
+
+Het dupliceren van een metrische waarde en het vervolgens wijzigen van specifieke instellingen is een eenvoudige manier om meerdere metriek of dimensies te maken op basis van één schemaveld.
+
+Selecteer de instelling Dupliceren onder de naam van de metrische waarde of de afmetingen in de rechterbovenhoek:
+
+![](assets/duplicate.png)
+
+## Meerdere metriek met verschillende kenmerkinstellingen maken
+
+Maak met de bovenstaande functie [!UICONTROL Duplicate] een aantal omzetmaatstaven met verschillende toewijzingsinstellingen, zoals [!UICONTROL First Touch], [!UICONTROL Last Touch] en [!UICONTROL Algorithmic].
+
+Vergeet niet elke metrisch anders te noemen om op de verschillen, zoals &quot;Algorithmic Revenue&quot;te wijzen:
+
+![](assets/algo-revenue.png)
 
 Zie [Gegevensweergaven maken](/help/data-views/create-dataview.md) voor meer informatie over andere instellingen voor gegevensweergaven.
 Voor een conceptueel overzicht van gegevensmeningen, zie [Overzicht van de meningen van Gegevens](/help/data-views/data-views.md).
