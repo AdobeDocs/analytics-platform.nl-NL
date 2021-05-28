@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2635'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,13 @@ U kunt bijvoorbeeld een afmeting maken van het veld pageTitle, maar deze ook &#3
 
 ### Gedragsinstellingen configureren
 
+Hier kunt u opgeven hoe een metrische waarde zich moet gedragen in de rapportage.
+
 ![](assets/behavior-settings.png)
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. |
+| [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. Dit geeft u de daadwerkelijke waarde van metrisch, zoals &quot;50&quot;als er een ordewaarde van 50 was. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
@@ -202,6 +204,12 @@ Optionele standaardcomponenten zijn beschikbaar op het tabblad **[!UICONTROL Sta
 | [!UICONTROL Batch ID] | Dimension | Vertegenwoordigt de partij van het Experience Platform dat een [!UICONTROL Event] deel van was. |
 | [!UICONTROL Dataset ID] | Dimension | Vertegenwoordigt de dataset van het Experience Platform dat een [!UICONTROL Event] deel van was. |
 
+## De functie [!UICONTROL Duplicate] gebruiken
+
+Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer de instelling [!UICONTROL Duplicate] onder de naam van de metrische waarde of de afmetingen rechtsboven. Wijzig vervolgens de nieuwe metrische waarde of dimensie en sla deze onder een beschrijvende naam op.
+
+![](assets/duplicate.png)
+
 ### Filterschemavelden en afmetingen/metriek
 
 U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtreren:
@@ -212,8 +220,7 @@ U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens be
 
 ![](assets/filter-other.png)
 
-
-## 3. Een algemeen filter toevoegen aan de gegevensweergave
+## Een algemeen filter toevoegen aan de gegevensweergave
 
 U kunt filters toevoegen die op uw volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert.
 
