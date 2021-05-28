@@ -2,9 +2,9 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Deze gebruiksgevallen tonen de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics.
 
-## 1. Creeer metrisch van Orden van een pageTitle (koord) schemagebied
+## 1. Een metrische waarde maken op basis van een tekenreeksschemaveld
 
 Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders]-metrische waarde maken vanuit een schemaveld [!UICONTROL pageTitle] dat een tekenreeks is. Hier volgen de volgende stappen:
 
@@ -27,6 +27,8 @@ Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders
    De uitdrukking &quot;bevestiging&quot;wijst erop dat dit een orde is. Na het controleren van alle paginatitels waar aan die criteria wordt voldaan, zal &quot;1&quot;voor elke instantie worden geteld. Het resultaat is nieuw metrisch (niet berekend metrisch.) Een metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt andere metrisch. Het werkt met Attribution IQ, filters, en overal anders kunt u standaardmetriek gebruiken.
 1. U kunt een attributiemodel voor deze metrisch, zoals [!UICONTROL Last Touch], met [!UICONTROL Lookback window] van [!UICONTROL Session] verder specificeren.
 U kunt ook een andere [!UICONTROL Orders] metrisch van het zelfde gebied tot stand brengen en een verschillend attributiemodel voor het specificeren, zoals [!UICONTROL First Touch], en een verschillende [!UICONTROL Lookback window], zoals [!UICONTROL 30 days].
+
+Een ander voorbeeld zou de identiteitskaart van de Bezoeker, een afmeting, als metrisch moeten gebruiken om te bepalen hoeveel Bezoeker IDs uw bedrijf heeft.
 
 ## 2. Gehele getallen gebruiken als afmetingen
 
@@ -68,17 +70,9 @@ Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijke
 
 Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt [de naam van &quot;Geen Waarde&quot;nu veranderen in &quot;Niet gespecificeerd&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) in de UI van de Mening van Gegevens.
 
-## 6. De functie [!UICONTROL Duplicate] gebruiken
+## 6. Meerdere metriek maken met verschillende [!UICONTROL Attribution]-instellingen
 
-Het dupliceren van een metrische waarde en het vervolgens wijzigen van specifieke instellingen is een eenvoudige manier om meerdere metriek of dimensies te maken op basis van één schemaveld.
-
-Selecteer de instelling Dupliceren onder de naam van de metrische waarde of de afmetingen in de rechterbovenhoek:
-
-![](assets/duplicate.png)
-
-## Meerdere metriek met verschillende kenmerkinstellingen maken
-
-Maak met de bovenstaande functie [!UICONTROL Duplicate] een aantal omzetmaatstaven met verschillende toewijzingsinstellingen, zoals [!UICONTROL First Touch], [!UICONTROL Last Touch] en [!UICONTROL Algorithmic].
+Met de functie [!UICONTROL Duplicate] rechtsboven maakt u een aantal maateenheden voor inkomsten met verschillende toewijzingsinstellingen, zoals [!UICONTROL First Touch], [!UICONTROL Last Touch] en [!UICONTROL Algorithmic].
 
 Vergeet niet elke metrisch anders te noemen om op de verschillen, zoals &quot;Algorithmic Revenue&quot;te wijzen:
 
