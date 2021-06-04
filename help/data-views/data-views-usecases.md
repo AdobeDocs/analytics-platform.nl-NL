@@ -2,9 +2,9 @@
 title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,9 @@ U kunt een numerieke dimensie gebruiken om &quot;metriek&quot;in uw [!UICONTROL 
 
 ## 4. Filteren van subgebeurtenissen uitvoeren
 
-U kunt gebeurtenissen filteren om alleen weer te geven wat u wilt zien. Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in gegevensweergaven om alleen te verwijzen naar producten die een omzet van meer dan 50 dollar hebben gegenereerd. Dus als u een bestelling hebt die een product van 50 dollar en een product van 25 dollar bevat, verwijderen we alleen de aankoop van het product van 25 dollar, niet de volledige bestelling.
+Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op subgebeurtenisniveau, terwijl filters (segmenten) die in de filterbuilder zijn ingebouwd, u alleen filteren op gebeurtenisniveau geven. Zo kunt u sub-gebeurtenis het filtreren door te gebruiken omvat/sluit in de Mening van Gegevens, en dan die nieuwe metrische dimensie in een filter op het gebeurtenisniveau van verwijzingen.
+
+Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in gegevensweergaven om alleen te verwijzen naar producten die een omzet van meer dan 50 dollar hebben gegenereerd. Dus als u een bestelling hebt die een product van 50 dollar en een product van 25 dollar bevat, verwijderen we alleen de aankoop van het product van 25 dollar, niet de volledige bestelling.
 
 1. Op de [Componenten ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) tabel in de Datumweergave sleept u het schemaveld [!UICONTROL Revenue] naar het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
 1. Selecteer metrisch en vorm het volgende op de rechterkant:
@@ -69,6 +71,8 @@ Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijke
 ## 5. De instelling [!UICONTROL No Value Options] gebruiken
 
 Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt [de naam van &quot;Geen Waarde&quot;nu veranderen in &quot;Niet gespecificeerd&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) in de UI van de Mening van Gegevens.
+
+Een ander voorbeeld zou een dimensie voor een registratie van het lidmaatschapsprogramma zijn. In dit geval kunt u de naam &quot;Geen waarde&quot; wijzigen in &quot;Registratie van geen lidmaatschapsprogramma&quot;.
 
 ## 6. Meerdere metriek maken met verschillende [!UICONTROL Attribution]-instellingen
 
