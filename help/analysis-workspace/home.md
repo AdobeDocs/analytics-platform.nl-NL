@@ -3,11 +3,10 @@ keywords: Analysis Workspace
 title: Overzicht van Analysis Workspace
 description: Overzicht van Analysis Workspace-mogelijkheden
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 4%
+source-wordcount: '457'
+ht-degree: 3%
 
 ---
 
@@ -37,11 +36,11 @@ Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Wo
 
 ## Nieuw project maken {#new-project}
 
-Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
+Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
 
 ![](assets/create-new-project.png)
 
-## Uw analyse {#analysis} samenstellen
+## Uw analyse maken {#analysis}
 
 In uw project van de Werkruimte, **worden de panelen, de lijsten, de visualisaties, en de componenten** betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
 
@@ -65,4 +64,4 @@ In uw project van de Werkruimte, **worden de panelen, de lijsten, de visualisati
 
 ## Aanvullende bronnen {#resources}
 
-* Adobe biedt honderden [Lesbestanden voor videotraining voor analyse](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html).
+* Adobe biedt honderden [Lesbestanden voor videotraining voor analyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
