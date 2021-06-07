@@ -3,10 +3,9 @@ description: Geef je gegevens visueel weer in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 4%
 
 ---
@@ -76,7 +75,7 @@ Een label voor een legenda bewerken:
 1. Voer de nieuwe labeltekst in.
 1. Druk op **[!UICONTROL Enter]** om op te slaan.
 
-Hier is een [verbinding aan een video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) op dit onderwerp.
+Hier is een [verbinding aan een video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) op dit onderwerp.
 
 ## Klikken met rechtermuisknop op menu {#right-click}
 
