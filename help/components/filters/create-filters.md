@@ -2,10 +2,9 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -44,8 +43,8 @@ Er zijn verschillende andere methoden voor het toepassen van filters op een proj
 | Handeling | Beschrijving |
 |--- |--- |
 | Filter van selectie maken | Maak een inlinefilter. Selecteer rijen, klik met de rechtermuisknop op de selectie en maak vervolgens een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klik *Filter maken van selectie*. |
-| Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [De Bouwer van de filter](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over het filtreren. |
-| Delen > Project delen of Delen > Projectgegevens krommen | In [Curate en Delen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de filters die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
+| Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [De Bouwer van de filter](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over het filtreren. |
+| Delen > Project delen of Delen > Projectgegevens krommen | In [Curate en Delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de filters die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
 | Filters gebruiken als afmetingen | Video: Filters gebruiken als Dimension in Analysis Workspace |
 
 >[!VIDEO](https://video.tv.adobe.com/v/23974)
