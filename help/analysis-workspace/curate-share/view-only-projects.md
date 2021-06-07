@@ -3,10 +3,9 @@ description: Alleen-weergeven projecten in Workspace
 keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '277'
 ht-degree: 3%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door [het werkschema van het aandeel van het Project](/help/analysis-workspace/curate-share/share-projects.md) delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
@@ -26,7 +25,7 @@ U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door [het werksche
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerspoor
-* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
+* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
 * Freeform-filtering
 * Vrije vorm # van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
