@@ -2,10 +2,9 @@
 description: Leer hoe u de aanraakpunten opgeeft om een multidimensionale fallout-reeks te maken.
 title: Een uitvalvisualisatie configureren
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -18,7 +17,7 @@ U kunt zelfs filters toevoegen binnen een aanraakpunt. U kunt bijvoorbeeld filte
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
 1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in [!UICONTROL Freeform Table].
 
@@ -59,7 +58,7 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
  </tbody> 
 </table>
 
-## Afvalinstellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Fallout-instellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Instelling | Beschrijving |
 |--- |--- |
