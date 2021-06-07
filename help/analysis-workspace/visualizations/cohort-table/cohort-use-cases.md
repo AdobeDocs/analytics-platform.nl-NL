@@ -2,13 +2,12 @@
 description: Gebruik voorbeelden van hoofdletters en kleine letters voor cohortanalyse.
 keywords: Analysis Workspace
 title: Gebruiksgevallen van cohortanalyse
-feature: Reports & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Gebruik voorbeelden van hoofdletters en kleine letters voor [!UICONTROL Cohort Analysis].
 
