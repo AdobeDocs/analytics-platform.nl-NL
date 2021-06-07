@@ -1,20 +1,19 @@
 ---
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '2944'
 ht-degree: 1%
 
 ---
-
 
 # Referentie - geavanceerde functies
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt deze functies openen door **[!UICONTROL Show Advanced]** in de vervolgkeuzelijst **[!UICONTROL Functions]** te controleren.
 
@@ -730,4 +729,3 @@ Retourneert de waarschijnlijkheid dat de huidige rij toevallig in de kolom kan w
 >[!NOTE]
 >
 >gaat ervan uit dat de waarden normaal worden verdeeld.
-
