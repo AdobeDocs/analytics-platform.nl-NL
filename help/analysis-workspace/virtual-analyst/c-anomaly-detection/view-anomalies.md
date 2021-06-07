@@ -2,24 +2,23 @@
 description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 4%
 
 ---
-
 
 # Anomalieën weergeven in Analysis Workspace
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 
-## anomalieën in een tabel {#section_869A87B92B574A38B017A980ED8A29C5} weergeven
+## anomalieën in een tabel weergeven {#section_869A87B92B574A38B017A980ED8A29C5}
 
 In een Freeform-tabel uit de tijdreeks wordt nu automatisch elke rij gemarkeerd met een donkergrijze uitroepteken als er een gegevensanomalie is gedetecteerd.
 
@@ -48,4 +47,3 @@ Met het betrouwbaarheidsinterval voor Anomaly-detectie wordt de y-as van een vis
 U hebt de optie om het betrouwbaarheidsinterval toe te staan om de grafiek te schalen. Klik op het pictogram Instellingen (versnelling) en schakel **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]** in.
 
 ![](assets/scale-y-axis.png)
-
