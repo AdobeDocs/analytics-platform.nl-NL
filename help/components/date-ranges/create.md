@@ -1,20 +1,19 @@
 ---
 title: Een datumbereik maken
 description: Maak een datumbereik voor rapportage.
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
-
 
 # Een datumbereik maken
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt een aangepast datumbereik maken met een van de volgende twee methoden:
 
