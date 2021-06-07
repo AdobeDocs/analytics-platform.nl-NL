@@ -2,11 +2,10 @@
 description: Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers).
 title: Histogram
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). Analytics automatiseert de &quot;bucketing&quot;van aantallen in waaiers, maar u kunt de montages in [Geavanceerde Montages](#section_09D774C584864D4CA6B5672DC2927477) veranderen.
 
@@ -45,7 +44,7 @@ Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instell
 | Emmertje starten | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
 | Metrische emmertjes | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
 | Grootte van metrisch emmertje | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
-| Telmethode | Hiermee kunt u kiezen uit [Visitor](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [Visit](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html) of Type Actief. Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
+| Telmethode | Hiermee kunt u kiezen uit [Visitor](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [Visit](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) of Type Actief. Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -64,4 +63,4 @@ Vooraf samengestelde filters die in de tabel worden weergegeven, zijn interne fi
 
 ![](assets/prebuilt_segments.png)
 
-Ga [hier](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) voor meer manieren om gegevenstabellen en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
+Ga [hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) voor meer manieren om gegevenstabellen en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
