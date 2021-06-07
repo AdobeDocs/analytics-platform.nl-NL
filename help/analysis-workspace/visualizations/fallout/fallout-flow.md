@@ -2,10 +2,9 @@
 description: De valutamogelijkheden laten zien waar bezoekers een vooraf gedefinieerde reeks pagina's hebben verlaten (uitgevallen) en doorlopen (doorlopen).
 title: Overzicht van uitval
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '243'
 ht-degree: 4%
 
 ---
@@ -32,5 +31,5 @@ Een uitvalvisualisatie is handig voor het analyseren van:
 * Algemene verkeersstromen met een groter bereik: Van de mensen die de homepage zagen, toont deze stroom hoeveel er doorgingen om een onderzoek uit te voeren, en toen hoeveel van hen uiteindelijk naar een specifiek punt gingen kijken.
 * Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  voor het uitvalvisualiseren (4:15)
+[Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  voor het uitvalvisualiseren (4:15)
 
