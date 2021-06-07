@@ -1,14 +1,13 @@
 ---
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Uitvoeringshandleiding voor analytische dashboards
-translation-type: tm+mt
-source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Analysedashboards: Handleiding voor snel starten van gebruikers
 
@@ -120,7 +119,7 @@ Dashboards gebruiken:
 
    * Afhankelijk van het interval dat u tikt (**Day**, **Week**, **Month**, of **Year**), zult u twee opties voor datumwaaier-of de huidige tijdspanwijdte of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]**- gebieden en de Scorecard tegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe waaiers u selecteerde.
 
-7. Tik op de vervolgkeuzelijst met filters en selecteer een filter dat door de curator is geconfigureerd om een filter op uw scorebord toe te passen. [De ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
+7. Tik op de vervolgkeuzelijst met filters en selecteer een filter dat door de curator is geconfigureerd om een filter op uw scorebord toe te passen. [De ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
 
    ![Filter](assets/segment_filter.png)
 
