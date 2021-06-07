@@ -3,10 +3,9 @@ description: De rijinstellingen variëren afhankelijk van de component die u naa
 title: Rij-instellingen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Als u de tabelrijinstellingen wilt openen, klikt u op het pictogram Instellingen naast een dimensie, filter, metrisch, tijdsperiode of een verdeling binnen elk van deze instellingen:
 
