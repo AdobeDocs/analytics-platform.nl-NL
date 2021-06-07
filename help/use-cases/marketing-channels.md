@@ -1,23 +1,22 @@
 ---
 title: Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
 description: Gebruik de Verbinding van Gegevens van Analytics om de verwerkingsregels van het Kanaal van de Marketing in Adobe Experience Platform te brengen.
-translation-type: tm+mt
-source-git-commit: b5ed4c65877fa8e2de83810a3c4bd1a4048f5b31
+exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
-
 # Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
 
-Als uw organisatie [Analytics Data Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) gebruikt om rapportreeksgegevens in CJA te brengen, kunt u een verbinding in CJA vormen om op de dimensies van het Kanaal van de Marketing te rapporteren.
+Als uw organisatie [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) gebruikt om rapportreeksgegevens in CJA te brengen, kunt u een verbinding in CJA vormen om op de dimensies van het Kanaal van de Marketing te rapporteren.
 
 ## Vereisten
 
-* Gegevens uit de rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de [Gegevensconnector voor analysemogelijkheden](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
-* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor het in de handel brengen van Kanalen](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html) in de traditionele gids van de Componenten van Analytics.
+* Gegevens uit de rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de [Gegevensconnector voor analysemogelijkheden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
+* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor het in de handel brengen van Kanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html) in de traditionele gids van de Componenten van Analytics.
 
 ## Schema-elementen marketingkanaal
 
@@ -25,8 +24,8 @@ Zodra u de Verbinding van Gegevens van de Analyse op een gewenste rapportreeks v
 
 1. [Creeer een ](/help/connections/create-connection.md) verbinding die een dataset omvat die op de Verbinding van Gegevens van de Analyse wordt gebaseerd.
 2. [Maak een ](/help/data-views/create-dataview.md) gegevensweergave met de volgende afmetingen:
-   * **`channel.typeAtSource`**: Equivalent met de dimensie  [Marketing ](https://docs.adobe.com/content/help/en/analytics/components/dimensions/marketing-channel.html) channelle.
-   * **`channel._id`**: Gelijk aan de details van het  [marketingkanaal](https://docs.adobe.com/content/help/en/analytics/components/dimensions/marketing-detail.html)
+   * **`channel.typeAtSource`**: Equivalent met de dimensie  [Marketing ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) channelle.
+   * **`channel._id`**: Gelijk aan de details van het  [marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)
 3. Geef elke dimensie het gewenste attributiemodel en de persistentie. Als u zowel eerste als laatste aanraakafmetingen wilt, sleept u elke dimensie van het marketingkanaal meerdere keren naar het gebied met componenten. Geef elke dimensie het gewenste attributiemodel en de persistentie. Adobe raadt ook aan om elke dimensie een weergavenaam te geven om het gebruik in Workspace te vereenvoudigen.
 4. Maak de gegevensweergave.
 
@@ -62,4 +61,4 @@ Omdat de architectuur van Adobe Experience Platform anders is dan een traditione
 * Controleer tweemaal of uw verbinding de zelfde rapportreeks zoals traditionele Analytics gebruikt. Als uw verbinding CJA veelvoudige rapportreeksen met hun eigen de verwerkingsregels van het Kanaal van de Marketing bevat, is er geen gemakkelijke manier om het met traditionele Analytics te vergelijken. U zou een afzonderlijke verbinding voor elke rapportreeks willen tot stand brengen om gegevens te vergelijken.
 * Zorg ervoor dat u de zelfde datumwaaiers vergelijkt, en dat de tijdzone die in uw gegevensmening plaatst het zelfde als de tijdzone van de rapportreeks is.
 * Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Gebruik bijvoorbeeld de [Marketing channel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html)-dimensie met meetgegevens die een niet-standaard attributiemodel gebruiken. Adobe adviseert tegen het vergelijken van de standaardafmetingen [First touch channel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html) of [Last touch channel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html), omdat zij op attributie baseren die in de rapportreeks wordt verzameld. CJA vertrouwt niet op de toewijzingsgegevens van een rapportsuite; in plaats daarvan, wordt het berekend wanneer een CJA- rapport in werking wordt gesteld.
-* Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en de gegevens van het Platform. Voorbeelden zijn bezoeken/sessies, bezoekers/personen en voorvallen/gebeurtenissen.
+* Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en Platform gegevens. Voorbeelden zijn bezoeken/sessies, bezoekers/personen en voorvallen/gebeurtenissen.
