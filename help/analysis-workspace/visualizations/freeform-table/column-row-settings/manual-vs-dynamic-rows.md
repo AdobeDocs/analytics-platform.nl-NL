@@ -2,10 +2,9 @@
 title: Dynamische versus statische dimensie-items in vrije-vormtabellen
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan.
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 In Freeform-tabellen kunnen de rijen en kolommen verschillende componentwaarden bevatten. Deze waarden kunnen dynamisch (verandering met tijd) of statisch (veranderen niet met tijd) zijn, afhankelijk van de analyse die u wilt bouwen.
 
@@ -56,4 +55,4 @@ Items van het type Dimension van verschillende afmetingen kunnen aan dezelfde ta
 Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
 
 * Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde cijfers zoals bezoeken of bezoekers
-* Statische rijen worden als client-side opgeteld en doen **niet** de-duplicate metriek. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Groot totaal tonen**. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Statische rijen worden als client-side opgeteld en doen **niet** de-duplicate metriek. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Groot totaal tonen**. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
