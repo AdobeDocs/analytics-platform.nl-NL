@@ -2,11 +2,10 @@
 description: Maak een project en voeg componenten (afmetingen, metriek, filters, datumbereiken) toe aan het deelvenster Vrije vorm.
 keywords: Analysis Workspace
 title: Een Workspace-project maken
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 16%
+source-wordcount: '642'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +20,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
+   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. Klik in [!DNL Experience Cloud] op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -129,7 +128,7 @@ Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytic
 
 1. Stap
 
-## Gebruik het klikmenu met de rechtermuisknop om uw gegevens {#concept_8117C300F21843B99F4E1B9AB7B11B6F} aan te passen
+## Gebruik het snelmenu om uw gegevens aan te passen {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de cel in een tabel waarop u met de rechtermuisknop klikt.
 
