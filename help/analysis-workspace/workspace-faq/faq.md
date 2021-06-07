@@ -2,10 +2,9 @@
 description: Veelgestelde vragen over werkruimten en tips voor het oplossen van problemen.
 title: Veelgestelde vragen
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 42%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 | Vraag | Antwoord |
 |--- |--- |
@@ -36,4 +35,4 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 
 * Als u een filter in uw rapport toepaste, zouden de filtercriteria geen gegevens kunnen aanpassen. Probeer het filter te verwijderen of de filterdefinitie aan te passen.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer naar uw website en gebruik [Foutopsporing](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) om te controleren of de gegevens worden verzameld.
+* Navigeer naar uw website en gebruik [Foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te controleren of de gegevens worden verzameld.
