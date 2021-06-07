@@ -1,20 +1,19 @@
 ---
 description: Tabellen pagineren, filteren en sorteren in Workspace
 title: Pagineren, filteren en tabellen sorteren
-translation-type: tm+mt
-source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
+exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 17%
 
 ---
-
 
 # Pagineren, filteren en tabellen sorteren
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Bekijk de volgende videozelfstudie voor een overzicht van paginering, filteren en sorteren van tabellen in Analysis Workspace:
 
