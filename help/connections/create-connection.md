@@ -2,10 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-translation-type: tm+mt
-source-git-commit: 26176b446c5d825aa8893f0fe45190079d923251
+source-git-commit: 90470be09d666c0c3937670d5d5669ab668ed2c4
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1892'
 ht-degree: 1%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 1%
 
 Met een verbinding kunt u gegevenssets van [!DNL Adobe Experience Platform] integreren in [!UICONTROL Workspace]. Om over [!DNL Experience Platform] datasets te rapporteren, moet u eerst een verbinding tussen datasets in [!DNL Experience Platform] en [!UICONTROL Workspace] vestigen.
 
-Klik [hier](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html) voor een video-overzicht.
+Klik [hier](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en) voor een video-overzicht.
 
 U hebt de volgende machtigingen nodig om een CJA-verbinding te maken:
 
