@@ -2,14 +2,13 @@
 description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 5%
 
 ---
-
 
 # Metrisch
 
@@ -29,7 +28,7 @@ Om het gemakkelijker te maken om berekende metriek snel tot stand te brengen, **
 
 ![](assets/calc_metrics.png)
 
-[Berekende waarden: Metriek](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  zonder implementatie (3:42)
+[Berekende waarden: Metriek](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  zonder implementatie (3:42)
 
 ## Metriek vergelijken met verschillende attributiemodellen
 
