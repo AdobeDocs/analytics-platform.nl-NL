@@ -2,10 +2,9 @@
 title: Telefooncentrum en webgegevens importeren
 description: Leer hoe te om een dataset tot stand te brengen die de gegevens van het vraagcentrum en van de website verbindt.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om dat
 
 ## Webgegevens en callcentergegevens importeren in Platform
 
-Importeer uw gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
+Importeer uw gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 
 Als u gegevens importeert in Platform, kunt u met deze tips meer inzicht krijgen in de resulterende rapporten:
 
