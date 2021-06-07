@@ -2,20 +2,19 @@
 description: Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 title: Statistische technieken voor anomaliedetectie
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
-
 
 # Statistische technieken voor anomaliedetectie
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 
@@ -50,7 +49,7 @@ Deze feestdagen werden gekozen op basis van een uitgebreide statistische analyse
 
 Zodra het model is geselecteerd en de feestdagen zijn geïdentificeerd in de rapporteringsdatumreeks, gaat het algoritme op de volgende manier te werk:
 
-1. De afwijkende referentieperiode samenstellen - dit omvat 35 dagen vóór het bereik van de rapportagedatum en een periode van 1 jaar vóór de matchingdatum (rekening houdend met schrikkeldagen wanneer dat nodig is en met alle van toepassing zijnde feestdagen die zich op een andere kalenderdag van het voorgaande jaar kunnen hebben voorgedaan).
+1. De afwijkende referentieperiode samenstellen - dit omvat 35 dagen vóór het bereik van de rapportagedatum en een periode van 1 jaar vóór de matchingdatum (rekening houdend met schrikkeldagen wanneer dat vereist is en met alle van toepassing zijnde feestdagen die zich op een andere kalenderdag van het voorgaande jaar kunnen hebben voorgedaan).
 1. Test of de feestdagen in de huidige periode (exclusief het voorafgaande jaar) op basis van de meest recente gegevens abnormaal zijn.
 1. Als de vakantie in het huidige datumbereik afwijkend is, past u de verwachte waarde en betrouwbaarheidsinterval van de huidige vakantie aan op basis van de vakantie van het voorgaande jaar (rekening houdend met twee dagen voor en na). De correctie voor de huidige vakantie is gebaseerd op het laagste gemiddelde absolute foutenpercentage van:
 
