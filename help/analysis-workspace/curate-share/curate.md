@@ -3,11 +3,10 @@ description: Met Curatie kunt u componenten beperken voordat u een project deelt
 keywords: Analysis Workspace curation
 title: Cursieve projecten
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '471'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 2%
 Met Curatie kunt u de componenten (afmetingen, meetwaarden, filters, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html). Curatie is een secundair filter.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Curatie is een secundair filter.
 
 ## Projectcursus toepassen
 
