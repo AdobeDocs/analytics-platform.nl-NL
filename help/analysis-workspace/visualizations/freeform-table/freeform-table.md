@@ -2,17 +2,16 @@
 title: Vrije-vormentabel
 description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 2%
+source-wordcount: '495'
+ht-degree: 0%
 
 ---
 
 # Vrije-vormentabel
 
-In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie [componenten](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, zal de lijst onmiddellijk bijwerken zodat kunt u snel analyseren en dieper graven.
+In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie [componenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, zal de lijst onmiddellijk bijwerken zodat kunt u snel analyseren en dieper graven.
 
 ![](assets/opening-section.png)
 
@@ -33,15 +32,15 @@ Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan
 U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpassen:
 
 * **Rijen**
-   * U kunt meer rijen in één enkel scherm passen door [meningsdichtheid](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) van het project aan te passen.
+   * U kunt meer rijen in één enkel scherm passen door [meningsdichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) van het project aan te passen.
    * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Klik op het nummer naast &quot;Rijen&quot; om meer rijen op een pagina weer te geven. Navigeer naar een andere pagina met de paginapijl in de koptekst.
-   * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Meer informatie over [storingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-   * Rijen kunnen [worden gefilterd](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) om een beperkte reeks items weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+   * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Meer informatie over [storingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
+   * Rijen kunnen [worden gefilterd](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) om een beperkte reeks items weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Kolommen**
    * Componenten kunnen in kolommen worden gestapeld om gefilterde metriek, cross-tab analyse en meer te maken.
-   * De weergave van elke kolom kan worden aangepast onder de [kolominstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
-   * Verscheidene acties zijn beschikbaar door [klik met de rechtermuisknop menu](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
+   * De weergave van elke kolom kan worden aangepast onder de [kolominstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
+   * Verscheidene acties zijn beschikbaar door [klik met de rechtermuisknop menu](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
 
 ## Gegevens vrije-vormentabel exporteren
 
