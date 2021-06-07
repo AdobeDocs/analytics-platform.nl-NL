@@ -2,10 +2,9 @@
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-translation-type: tm+mt
-source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -57,7 +56,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in CJA te gebruiken.
 
-1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
+1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens invoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 1. Neem contact op met uw accountmanager van Adobe, die het volgende bevat:
    * Een verzoek om Kanaaloverschrijdende analyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken
