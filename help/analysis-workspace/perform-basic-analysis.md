@@ -1,20 +1,19 @@
 ---
 title: Basisanalyse uitvoeren in Customer Journey Analytics
 description: Beschrijft hoe te om basisvisualisaties te gebruiken om gegevens in Customer Journey Analytics te analyseren
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
-
 
 # Basisanalyse uitvoeren
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Nadat u verbindingen en gegevensmeningen hebt gecreeerd, analyseer de gegevens u binnen gebruikend de macht en de flexibiliteit van Analysis Workspace hebt gebracht. U kunt experimenteren en slepen in dimensies en metriek, dimensie- en metriekattribuutinstellingen wijzigen, vriendelijke namen, tijdzone, sessie-instellingen enzovoort.
 
@@ -29,4 +28,3 @@ Hier volgt een voorbeeld van basisvisualisaties in Workspace. U kunt bijvoorbeel
 ![](assets/cja-basic-analysis.png)
 
 ![](assets/cja-basic-analysis2.png)
-
