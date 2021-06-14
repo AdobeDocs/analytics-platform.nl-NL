@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
+source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2679'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 | [!UICONTROL Name] | Het is verplicht de gegevensweergave een naam te geven. |
 | [!UICONTROL Description] | Een gedetailleerde beschrijving is niet verplicht, maar wordt aanbevolen. |
 | [!UICONTROL Time zone] | Kies in welke tijdzone de gegevens moeten worden weergegeven. |
-| [!UICONTROL Tags] | Met tags kunt u de gegevensweergaven indelen in categorieën. |
-| [!UICONTROL Containers] | U kunt hier de naam van uw containers wijzigen om te bepalen hoe deze worden weergegeven in een werkruimteproject dat is gebaseerd op deze gegevensweergave. Containers worden gebruikt in filters en fallout/flow enzovoort om te definiëren hoe breed of smaller het bereik of de context is. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL Tags] | [!UICONTROL Tags] Hiermee kunt u de gegevensweergaven indelen in categorieën. |
+| [!UICONTROL Containers] | U kunt hier de naam van uw containers wijzigen om te bepalen hoe deze worden weergegeven in een werkruimteproject dat is gebaseerd op deze gegevensweergave. [!UICONTROL Containers] worden gebruikt in filters en fallout/flow, enzovoort, om te definiëren hoe breed of smaller het bereik of de context is. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL Person container name is…] | [!UICONTROL Person] (standaard). De container [!UICONTROL Person] bevat elk bezoek en elke paginaweergave voor bezoekers binnen een opgegeven tijdsperiode. U kunt de naam van deze container wijzigen in &#39;Gebruiker&#39; of elke andere gewenste term. |
 | [!UICONTROL Session container name is…] | [!UICONTROL Session] (standaard). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of een andere term naar wens. |
 | [!UICONTROL Event container name is…] | [!UICONTROL Event] (standaard). De container [!UICONTROL Event] bepaalt welke paginagebeurtenissen u van een filter zou willen omvatten of uitsluiten. |
@@ -71,7 +71,7 @@ U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie met de n
 | [!UICONTROL Field Name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit veld kan meerdere gegevenssets bevatten. |
-| [!UICONTROL Schema Data Type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is. |
+| [!UICONTROL Schema Data Type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. U kunt datasets aan CJA met schemagebiedtypes buiten koorden of gehelen toevoegen, maar CJA kan niet die gegevens tonen. Bovendien worden slechts de Koorden toegestaan in datasets van de Opzoeken momenteel. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. U kunt op het bewerkingspictogram klikken en deze component-id wijzigen. Als u deze component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken.<br>Als u ooit een andere gegevensmening creeert die een verschillend gebied voor een pageTitle afmeting gebruikt, kunt u het anders noemen en de afmeting geschikt maken dwars-gegevensmening. |
 | [!UICONTROL Schema Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
 | [!UICONTROL Hide component in reporting] | Standaard = uit. Hiermee kunt u de component uit de gegevensweergave buigen wanneer deze wordt gebruikt bij rapportage. Dit beïnvloedt geen toestemmingen, enkel componentencuratie. Met andere woorden, u kunt de component voor niet-beheerders verbergen in de rapportage. Beheerders hebben er nog steeds toegang toe door in een Analysis Workspace-project op [!UICONTROL Show All Components] te klikken. |
@@ -95,9 +95,9 @@ Indelingsinstellingen zijn alleen voor metriek.
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Set attribution] | Hier kunt u de toewijzingsinstellingen opgeven die u standaard op deze metrische waarde wilt toepassen wanneer deze wordt gebruikt. Dit gebrek kan in een Lijst worden met vrije vorm of in Berekend Metrisch met voeten getreden. |
+| [!UICONTROL Set attribution] | Hier kunt u de toewijzingsinstellingen opgeven die u standaard op deze metrische waarde wilt toepassen wanneer deze wordt gebruikt. Deze standaardwaarde kan in [!UICONTROL Freeform Table] of in Berekend Metrisch worden met voeten getreden. |
 | [!UICONTROL Attribution model] | Hier kunt u een standaard toewijzingsmodel opgeven. Dit is alleen actief wanneer u de instelling [!UICONTROL Use Non-default attribution model] inschakelt. Wordt standaard ingesteld op [!UICONTROL Last Touch]. De opties zijn: Laatste aanraking, Eerste aanraking, Lineair, Deelname, Zelfde aanraking, U-Vormen, J Curve, Omgekeerde J, Tijdvermindering, Douane, Algorithmic. Sommige van deze opties maken extra velden die moeten worden ingevuld, zoals Aangepast of Tijdverlies. U kunt veelvoudige metriek tot stand brengen gebruikend het zelfde gebied - dit betekent u één [!UICONTROL Last touch] omzet metrisch en één [!UICONTROL First Touch] opbrengst metrisch kunt hebben, maar gebaseerd op het zelfde opbrengstgebied in het schema. |
-| [!UICONTROL Lookback window] | Hier kunt u een standaardterugzoekvenster opgeven dat metrisch is - alleen actief wanneer u de instelling [!UICONTROL Use Non-default attribution model] inschakelt. De opties zijn: Persoon (Meldend Venster), Zitting, Douane. Als Aangepast is geselecteerd, kunnen we ook een willekeurig aantal dagen/weken/maanden/enzovoort selecteren. (tot 90 dagen), net als Attribution IQ. U kunt veelvoudige metriek hebben gebruikend het zelfde schemagebied, maar elk met een afzonderlijk raadplegingsvenster. |
+| [!UICONTROL Lookback window] | Hier kunt u een standaardterugzoekvenster opgeven dat metrisch is - alleen actief wanneer u de instelling [!UICONTROL Use Non-default attribution model] inschakelt. De opties zijn: [!UICONTROL Person] (Rapportagevenster), [!UICONTROL Session], [!UICONTROL Custom]. Wanneer [!UICONTROL Custom] wordt geselecteerd, geven wij u ook de optie om om het even welk aantal dagen/weken/maanden/etc. te selecteren. (maximaal 90 dagen), net als [!UICONTROL Attribution IQ]. U kunt veelvoudige metriek hebben gebruikend het zelfde schemagebied, maar elk met een afzonderlijk raadplegingsvenster. |
 
 ### Instellingen voor waarden opnemen/uitsluiten configureren
 
