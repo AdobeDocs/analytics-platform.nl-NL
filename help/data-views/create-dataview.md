@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
+source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie met de n
 | [!UICONTROL Field Name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk type veld de component afkomstig is (bijvoorbeeld String, Geheel getal, enz.). Dit veld kan meerdere gegevenssets bevatten. |
-| [!UICONTROL Schema Data Type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. U kunt datasets aan CJA met schemagebiedtypes buiten koorden of gehelen toevoegen, maar CJA kan niet die gegevens tonen. Bovendien worden slechts de Koorden toegestaan in datasets van de Opzoeken momenteel. |
+| [!UICONTROL Schema Data Type] | Geeft aan of de component een tekenreeks, geheel getal, enzovoort is.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. De volgende gegevenstypen worden ondersteund: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String` en `Boolean`. Merk op dat slechts de Koorden op dit ogenblik in datasets van de Opzoeken worden toegestaan. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. U kunt op het bewerkingspictogram klikken en deze component-id wijzigen. Als u deze component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken.<br>Als u ooit een andere gegevensmening creeert die een verschillend gebied voor een pageTitle afmeting gebruikt, kunt u het anders noemen en de afmeting geschikt maken dwars-gegevensmening. |
 | [!UICONTROL Schema Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
 | [!UICONTROL Hide component in reporting] | Standaard = uit. Hiermee kunt u de component uit de gegevensweergave buigen wanneer deze wordt gebruikt bij rapportage. Dit beïnvloedt geen toestemmingen, enkel componentencuratie. Met andere woorden, u kunt de component voor niet-beheerders verbergen in de rapportage. Beheerders hebben er nog steeds toegang toe door in een Analysis Workspace-project op [!UICONTROL Show All Components] te klikken. |
