@@ -3,9 +3,9 @@ description: Geef je gegevens visueel weer in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. De meeste visualisatietypen zijn u bekend als u Adobe Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
 
-U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html) of via het snelmenu in uw workflow.
+U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) of via het snelmenu in uw workflow.
 
 ![](assets/viz-rail.png)
 
