@@ -2,10 +2,9 @@
 title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw gegevens van Google Analytics in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 316819116e9b47110763479af4e8504a2bffaff3
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -51,26 +50,28 @@ Raadpleeg [deze instructies](https://support.google.com/analytics/answer/3416092
 
 GA-gegevens slaan elke record in de gegevens op als een gebruikerssessie in plaats van als afzonderlijke gebeurtenissen. U moet een SQL vraag tot stand brengen om de Universele gegevens van Analytics in een ervaring-Platform-volgzaam formaat om te zetten. U past de functie &quot;Unest&quot; toe op het veld &quot;hits&quot; in het GA-schema. Hier volgt het SQL-voorbeeld dat u kunt gebruiken:
 
-`SELECT
-*,
-timestamp_seconds(`` + hit.time) AS `` 
-FROM
-(
+```
 SELECT
-fullVisitorId,
-visitNumber,
-visitId,
-visitStartTime,
-trafficSource,
-socialEngagementType,
-channelGrouping,
-device,
-geoNetwork,
-hit 
+   *,
+   timestamp_seconds(`visitStartTime` + hit.time) AS `timestamp` 
 FROM
-`visitStartTimetimestampyour_bq_table_2021_04_*`,
-UNNEST(hits) AS hit 
-)`
+   (
+      SELECT
+         fullVisitorId,
+         visitNumber,
+         visitId,
+         visitStartTime,
+         trafficSource,
+         socialEngagementType,
+         channelGrouping,
+         device,
+         geoNetwork,
+         hit 
+      FROM
+         `your_bq_table_2021_04_*`,
+         UNNEST(hits) AS hit 
+   )
+```
 
 Zodra de vraag voltooit, sparen de volledige resultaten in een lijst BigQuery.
 
