@@ -2,9 +2,9 @@
 description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Deelvenster Snelle inzichten
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
 ## Aan de slag met Quick Insights
 
-1. Meld u aan bij Adobe Analytics met de gegevens die u hebt ontvangen.
+1. Meld u aan bij Customer Journey Analytics met de gegevens die u hebt ontvangen.
 1. Ga naar [!UICONTROL Workspace], klik **[!UICONTROL Create New Project]** en klik dan **[!UICONTROL Quick Insights]**. (U kunt dit deelvenster ook openen via het menu **[!UICONTROL Panel]** in de linkertrack.)
 
    ![](assets/qibuilder.png)
