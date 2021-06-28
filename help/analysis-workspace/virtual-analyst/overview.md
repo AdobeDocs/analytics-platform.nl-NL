@@ -1,8 +1,8 @@
 ---
 title: Virtual Analyst
-description: Leer welke functies in Adobe Analytics bijdragen aan de Virtual Analyst.
+description: Leer welke functies in Customer Journey Analytics bestaan uit Virtual Analyst.
 exl-id: 5fb6ac39-d09d-49f0-ae1f-13f223e20800
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Virtual Analyst, een reeks functies die deel uitmaakt van Adobe Analytics, gebruikt voorspellende algoritmen en computerleren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
+Virtuele analist, een reeks functies die onderdeel zijn van Customer Journey Analytics, gebruikt voorspellende algoritmen en machinaal leren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
 
 ## Functies {#features}
 
