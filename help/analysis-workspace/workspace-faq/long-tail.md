@@ -2,10 +2,9 @@
 title: Dimensie Lange staart
 description: Verklaart de afmetingspost "Lange Staart"en waarom het in rapportering verschijnt.
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ Als een individuele server die een subset van gegevens verwerkt meer dan 500.000
 
 ## Verschillen tussen &#39;Lange liniaal&#39; en &#39;Laag verkeer&#39;
 
-In eerdere versies van Adobe Analytics werd een andere verwerkingsarchitectuur gebruikt. De gegevens werden verwerkt op het moment dat ze werden verzameld. De punten van Dimension werden geplaatst onder &quot;Laag-Verkeer&quot;nadat een afmeting unieke waarden 500K bereikte, en toepasten agressievere het filtreren bij unieke waarden 1M. Het unieke aantal waarden is opnieuw ingesteld aan het begin van elke kalendermaand. de verwerkte gegevens permanent waren; Er was geen manier om bestaande gegevens uit &quot;Laag-Verkeer&quot; te halen.
+In vorige versies van Analytics werd een andere verwerkingsarchitectuur gebruikt. De gegevens werden verwerkt op het moment dat ze werden verzameld. De punten van Dimension werden geplaatst onder &quot;Laag-Verkeer&quot;nadat een afmeting unieke waarden 500K bereikte, en toepasten agressievere het filtreren bij unieke waarden 1M. Het unieke aantal waarden is opnieuw ingesteld aan het begin van elke kalendermaand. de verwerkte gegevens permanent waren; Er was geen manier om bestaande gegevens uit &quot;Laag-Verkeer&quot; te halen.
 
 In CJA, worden de afmetingspunten slechts gezet in &quot;Lange Lang&quot;als een individuele verwerkingsserver meer dan 500K unieke waarden bevat. De verwerkte gegevens zijn niet permanent, wat betekent dat u het &quot;Lange Lusje&quot;afmetingspunt kunt verminderen door uw rapport te wijzigen.
 
