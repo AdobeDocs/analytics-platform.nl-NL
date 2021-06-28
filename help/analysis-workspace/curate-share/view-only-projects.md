@@ -3,9 +3,9 @@ description: Alleen-weergeven projecten in Workspace
 keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door [het werkschema van het aandeel van het Project](/help/analysis-workspace/curate-share/share-projects.md) delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
+U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door [het werkschema van het aandeel van het Project](/help/analysis-workspace/curate-share/share-projects.md) delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
 ![](assets/view-only-project.png)
 
