@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Gebruikers die een koppeling ontvangen, moeten zich aanmelden bij Adobe Analytics voordat ze aan het project kunnen deelnemen.
+Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Gebruikers die een koppeling ontvangen, moeten zich aanmelden bij Customer Journey Analytics voordat ze aan het project kunnen deelnemen.
 
-## Projectkoppeling {#project-link} ophalen
+## Projectkoppeling ophalen {#project-link}
 
 Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICONTROL Share > Get project link]**. Als de ontvanger van de verbinding geen [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) is toegewezen, ontvangen Admins **[!UICONTROL Can edit]** en niet-admins **[!UICONTROL Can duplicate]** ervaringen.
 
 ![](assets/get-project-link.png)
 
-## Deelvenster- of visualisatiekoppeling {#panel-link} ophalen
+## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
 U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoals een deelvenster of een afzonderlijke visualisatie. Dit wordt soms ook wel intra-linking genoemd. Dit kan nuttig zijn om de aandacht van uw gebruikers op zeer belangrijke inzichten binnen het project te vestigen.
 
