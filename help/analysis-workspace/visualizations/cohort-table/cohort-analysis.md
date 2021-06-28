@@ -2,9 +2,9 @@
 title: Wat is Cohort Analysis?
 description: Meer informatie over cohortanalyse in Analysis Workspace
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 * Bekijk een [!UICONTROL Cohort Analysis] rapport binnen een Geleide Rapport van de Analyse.
 
-[!UICONTROL Cohort Analysis] is beschikbaar voor alle Adobe Analytics-klanten met toegangsrechten tot  [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort Analysis] is beschikbaar voor alle Customer Journey Analytics-klanten met toegangsrechten tot  [!UICONTROL Analysis Workspace].
 
 [Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  Cohortinganalyse (4:36)
 
@@ -64,7 +64,7 @@ Hiermee wordt de tijd gemeten die is verstreken vóór en na de opnemingsgebeurt
 
 ### [!UICONTROL Custom Dimension] Cohort
 
-Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Gebruik afmetingen zoals [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region] of een andere dimensie in Adobe Analytics om aan te geven hoe de retentie verandert op basis van de verschillende waarden van deze afmetingen.
+Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Gebruik afmetingen zoals [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region] of een andere dimensie in Customer Journey Analytics om aan te geven hoe de retentie verandert op basis van de verschillende waarden van deze afmetingen.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
