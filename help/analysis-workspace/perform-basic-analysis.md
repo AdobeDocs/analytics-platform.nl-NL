@@ -2,9 +2,9 @@
 title: Basisanalyse uitvoeren in Customer Journey Analytics
 description: Beschrijft hoe te om basisvisualisaties te gebruiken om gegevens in Customer Journey Analytics te analyseren
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Hier volgt een voorbeeld van basisvisualisaties in Workspace. U kunt bijvoorbeel
 
 * Creeer een trended rapport van online versus in-store opbrengst die de twee gegevensbronnen in tijd vergelijkt.
 
-* Wijs de publieksgrootte door gegevensbronnen, zoals gegevens van de advertentie, gegevens van Adobe Analytics, e-mailgegevens, POS gegevens, gegevens van het vraagcentrum, en onderzoeksgegevens af.
+* Wijs publieksgrootte door gegevensbronnen, zoals de gegevens van de advertentie, Customer Journey Analytics gegevens, e-mailgegevens, POS gegevens, de gegevens van het vraagcentrum, en onderzoeksgegevens af.
 
 ![](assets/cja-basic-analysis.png)
 
