@@ -2,10 +2,10 @@
 title: Algoritmische attributie
 description: Details over het algoritmische attributiemodel.
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 34a1e7cea518e39ee665470dc3e1087d728b654d
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 2%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
-
->[!NOTE]
->
->**[!UICONTROL Algorithmic attribution]** wordt momenteel beperkt getest. Zie [Adobe Analytics-functiereleases](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) voor meer informatie.
 
 Het algoritme [attributiemodel](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet toe te wijzen over de dimensiepunten in uw rapport of vrije lijst. Zoals alle andere attributiemodellen in Analysis Workspace, kan het op om het even welke afmeting of metrisch worden gebruikt en steunt onbeperkte filters en onderverdelingen en verdeelt 100% van omzettingen aan de afmeting(en) in de lijst (ook genoemd geworden &quot;fractionele&quot;attributie).
 
