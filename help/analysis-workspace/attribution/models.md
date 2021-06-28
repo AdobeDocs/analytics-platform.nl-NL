@@ -2,9 +2,9 @@
 title: Attributiemodellen en terugzoekvensters
 description: Hoe verschillende soorten attributie krediet verdelen tussen dimensie-items.
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Het attribuutconcept in Adobe Analytics vereist twee componenten:
+Het attribuutconcept in Customer Journey Analytics vereist twee componenten:
 
 * **Attributiemodel:** Het model beschrijft de distributie van conversies naar de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
 * **Het terugkijkvenster van de Attributie:** Het terugkijkvenster beschrijft welke groepen klappen voor elk model worden overwogen. Bijvoorbeeld bezoek of bezoeker.
@@ -45,10 +45,6 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **Het terugkijkvenster van de bezoeker:** Zoekt naar alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugkijker van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
 * **Aangepast terugkijkvenster:** Hiermee kunt u het attributievenster buiten het bereik van de rapportdatum uitbreiden tot maximaal 90 dagen. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
-
->[!NOTE]
->
->**[!UICONTROL Custom lookback windows]** worden momenteel beperkt getest. Zie [Adobe Analytics-functiereleases](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) voor meer informatie.
 
 ## Voorbeeld
 
