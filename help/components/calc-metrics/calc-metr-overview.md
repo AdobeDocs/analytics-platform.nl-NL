@@ -2,9 +2,9 @@
 title: Overzicht van berekende metriek
 description: Meer informatie over
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavan
 |--- |--- |
 | Berekende metrische bouwer | <ul><li>Creeer berekende en geavanceerde berekende metriek gebruikend geavanceerde toewijzingsmodellen.</li><li>Filters inline toevoegen aan metrische formules.</li><li>Vergelijk filters in hetzelfde rapport. Vergelijk bijvoorbeeld lokale bezoekers met internationale bezoekers.</li><li>Gebruik statistische functies.</li><li> Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het wordt gebruikt, waar het NIET wordt gebruikt).</li><li>Kopieer definities naar nieuwe metriek.</li><li>Een inline metrische voorvertoning weergeven.</li><li>Metrische polariteit instellen die aangeeft of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd.</li><li>Metrische codes.</li></ul> |
 | Berekende standaard-beheer | <ul><li>Deel metriek met anderen.</li><li>Metriek goedkeuren en krullen.</li><li>Organiseer uw gegevens (tag) zodat mensen ze kunnen vinden.</li><li>Metrische gegevens verwijderen.</li><li>Naam metriek wijzigen.</li></ul> |
-| API voor berekende cijfers | Deel van de Adobe Analytics 2.0 API-set. |
+| API voor berekende cijfers | Onderdeel van de CJA API-set. |
 
 ## Sjablonen voor berekende metriek in CJA
 
