@@ -3,9 +3,9 @@ keywords: Analysis Workspace
 title: Overzicht van Analysis Workspace
 description: Overzicht van Analysis Workspace-mogelijkheden
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 3%
 
 ---
@@ -22,21 +22,21 @@ Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wa
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Aanmelden bij Adobe Analytics {#login}
+## Customer Journey Analytics aanmelden {#login}
 
-Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Adobe Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics) te gaan. U zult op de de lijsthomepage van het project van de Werkruimte landen, als een specifiek project niet eerder voor u is geselecteerd.
+Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Customer Journey Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics) te gaan. U zult op de de lijsthomepage van het project van de Werkruimte landen, als een specifiek project niet eerder voor u is geselecteerd.
 
 ![](assets/login-analytics.png)
 
-## De trainingszelfstudie {#training-tutorial} gebruiken
+## De zelfstudie Training gebruiken {#training-tutorial}
 
 Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Workspace Training zijn, die u door algemene terminologie en stappen begeleidt voor het maken van uw eerste analyse in Workspace. Als u wilt beginnen met de zelfstudie, klikt u op **[!UICONTROL Create New Project]** en selecteert u **Training-zelfstudie** in het nieuwe projectmodale.
 
 ![](assets/training-tutorial.png)
 
-## Nieuw project maken {#new-project}
+## Een nieuw project maken {#new-project}
 
-Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
+Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om van een leeg project of [lege mobiele scorecard](/help/mobile-app/curator.md) te beginnen, afhankelijk van of u van plan bent om uw analyse van browser of de Customer Journey Analytics dashboards mobiele app te delen.
 
 ![](assets/create-new-project.png)
 
