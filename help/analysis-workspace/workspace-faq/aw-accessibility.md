@@ -2,16 +2,16 @@
 description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
 
 # Toegankelijkheid in Analysis Workspace
 
-Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace], het belangrijkste hulpprogramma voor analyse voor Adobe Analytics.
+Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace], het belangrijkste analyseprogramma voor Customer Journey Analytics.
 
 Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
