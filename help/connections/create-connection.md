@@ -2,9 +2,9 @@
 title: Verbinding maken
 description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
+source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1899'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Klik [hier](https://experienceleague.adobe.com/docs/customer-journey-analytics-l
 
 ## Vereiste machtigingen
 
-Als u een Customer Journey Analytics-verbinding (CJA) wilt maken, hebt u de volgende machtigingen nodig in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Als u een CJA-verbinding wilt maken, hebt u de volgende machtigingen nodig in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Gegevensmodellering: Schema&#39;s weergeven, schema&#39;s beheren
@@ -33,7 +33,9 @@ Customer Journey Analytics
 
 ## Sandbox en datasets selecteren
 
-1. Ga naar [https://analytics.adobe.com](https://analytics.adobe.com).
+1. Ga naar [https://analytics.adobe.com](https://analytics.adobe.com) en meld u aan met uw Adobe ID.
+
+1. Klik op het pictogram [!DNL Customer Journey Analytics].
 
 1. Klik op het tabblad **[!UICONTROL Connections]**.
 
@@ -53,10 +55,7 @@ Customer Journey Analytics
 
    (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de zoekbalk **[!UICONTROL Search datasets]** boven de lijst met gegevenssets.)
 
-   CJA is gebaseerd op gegevenssets van Experience Platforms. Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. U kunt datasets aan CJA met schemagebiedtypes buiten koorden of cijfers toevoegen, maar CJA kan niet die gegevens tonen. Bovendien worden slechts de Koorden toegestaan in datasets van de Opzoeken momenteel.
-Als u een gebied zoekt om aan een gegevensmening toe te voegen na het toevoegen van de dataset aan een Verbinding, is het standaardmarkering [!UICONTROL Contains data] beschikbaar voor alle gebieden in de datasets. Deze markering houdt gegevensmeningen manageable aangezien het slechts schemagebieden omvat die gegevens in uw datasets hebben.
-
-## Gegevensset configureren
+## 2. Gegevensset configureren
 
 Aan de rechterkant kunt u nu de gegevensset(s) configureren die u hebt toegevoegd.
 
