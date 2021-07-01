@@ -10,11 +10,10 @@ user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 42%
+source-wordcount: '449'
+ht-degree: 41%
 
 ---
 
@@ -27,10 +26,11 @@ ht-degree: 42%
    + [Aan de slag](getting-started/cja-getting-started.md)
    + [Veelgestelde vragen](getting-started/cja-faq.md)
    + [Ondersteuning voor Customer Journey Analytics-functies](getting-started/cja-aa.md)
+   + [Gevolgen van verwijdering](getting-started/cja-deletion.md)
    + [Verklarende woordenlijst](getting-started/cja-glossary.md)
 + Verbindingen {#cja-connections}
    + [Verbinding maken](connections/create-connection.md)
-   + [Verbindingen beheren](connections/manage-connection.md)
+   + [Verbindingen beheren](connections/manage-connections.md)
    + [De verbindingsgrootte schatten](connections/estimate-connection-size.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](connections/combined-dataset.md)
    + Kanaaloverschrijdende analyse {#cca}
@@ -50,7 +50,7 @@ ht-degree: 42%
       + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
+      + [Kleurpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -130,7 +130,7 @@ ht-degree: 42%
       + [Uitsplitsingsdimensies](components/dimensions/t-breakdown-fa.md)
       + [Tijduitsplitsende dimensies](components/dimensions/time-parting-dimensions.md)
       + [Dimension met zeer hoge kardinaliteit](components/dimensions/high-cardinality.md)
-   + [Cijfers](components/apply-create-metrics.md)
+   + [Metrics](components/apply-create-metrics.md)
    + Filters {#cja-filters}
       + [Overzicht van filters](components/filters/filters-overview.md)
       + [Een filter maken](components/filters/create-filters.md)
