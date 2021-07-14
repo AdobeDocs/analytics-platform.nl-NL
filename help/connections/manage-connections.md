@@ -2,7 +2,7 @@
 title: Verbindingen beheren
 description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (CJA) te beheren.
 mini-toc-levels: 3
-source-git-commit: fb0b35173d7a2b0daa17c34272b2b2b271095f4a
+source-git-commit: ec76734f270666d13db28fd60ffdf62c04e378bf
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Zodra Admin gebruikers [één of meerdere verbindingen](/help/connections/create
 * Het laat u **om het even welke gegevensdiscrepanties** wegens verkeerde configuratie identificeren. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd gevormd en ontbrekende gegevens in CJA veroorzaakt?
 
 >[!NOTE]
-> Deze functionaliteit is over het algemeen beschikbaar op 26 juli 2021.
+> Deze functionaliteit is over het algemeen beschikbaar op 19 augustus 2021.
 
 ## Verbindingsbeheer {#connections-manager}
 
