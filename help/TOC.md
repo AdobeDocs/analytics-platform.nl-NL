@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
+source-git-commit: a2e8f8a48078bfe247645b4ca57e10bf4f4e3fab
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 42%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 41%
       + [Berekende waarden beheren](components/calc-metrics/manage.md)
       + [Basisfuncties](components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](components/calc-metrics/cm-adv-functions.md)
-   + Datumbereiken {cja-date-range}
+   + Datumbereiken {#cja-date-ranges}
       + [Overzicht van datumbereiken](components/date-ranges/overview.md)
       + [Een datumbereik maken](components/date-ranges/create.md)
       + [Datumbereiken beheren](components/date-ranges/manage.md)
