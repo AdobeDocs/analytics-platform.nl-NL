@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
+source-git-commit: 423cf7d8a73c307bef42a62e91e7b64219f02670
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Adobe Analytics-functie | Opmerkingen over ondersteuning |
 | --- | --- |
+| A4T | Ondersteuning wordt geboden via velden in de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 | Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
 | Berekende standaarden | Bestaande cijfers in de traditionele Analysis Workspace worden niet naar CJA verzonden. |
@@ -32,13 +33,12 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
 | Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
-| API-toegang rapporteren | Nu beschikbaar met de [CJA API](https://www.adobe.io/cja-apis/docs/). |
+| API-toegang rapporteren | Beschikbaar via de [CJA API](https://www.adobe.io/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
 | Segmenten | Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
-| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of meetgegevens bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
+| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=en) productbeheerders en gebruikers. Alleen productbeheerders kunnen <ul><li>Verbindingen of gegevensweergaven maken/bijwerken/verwijderen</li><li>Werk/schrap projecten, filters, of calc metriek bij die door andere gebruikers werden gecreeerd, en</li><li>Een Workspace-project delen met alle gebruikers.</li></ul> |
 | Virtuele rapportsuites | Wordt nu [Gegevensweergaven](/help/data-views/create-dataview.md) genoemd. |
 | VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
-| A4T | De steun wordt verleend door gebieden in [de Verbinding van Gegevens van Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 
 ## Ondersteund met caveats
 
