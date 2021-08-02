@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
+source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1075'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen Adobe Admin Console-productbeheerders en -gebruikers. Alleen productbeheerders kunnen 1) verbindingen of gegevensweergaven maken/bijwerken/verwijderen, 2) projecten, filters of meetgegevens bijwerken/verwijderen die door andere gebruikers zijn gemaakt, en 3) een Workspace-project delen met alle gebruikers |
 | Virtuele rapportsuites | Wordt nu [Gegevensweergaven](/help/data-views/create-dataview.md) genoemd. |
 | VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
+| A4T | De steun wordt verleend door gebieden in [de Verbinding van Gegevens van Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 
 ## Ondersteund met caveats
 
@@ -85,7 +86,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| A4T | De steun is nog niet gepland. |
 | Activity Map | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
 | Builder voor classificatieregels | De steun is nog niet gepland. |
