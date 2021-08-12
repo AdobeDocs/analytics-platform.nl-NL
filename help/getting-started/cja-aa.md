@@ -2,10 +2,10 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 423cf7d8a73c307bef42a62e91e7b64219f02670
+source-git-commit: c23b172fd4dc5d0303723c4e8ccfeaa251257bfd
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 4%
+source-wordcount: '1177'
+ht-degree: 3%
 
 ---
 
@@ -17,39 +17,40 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Adobe Analytics-functie | Opmerkingen over ondersteuning |
 | --- | --- |
-| A4T | Ondersteuning wordt geboden via velden in de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 | Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
-| Berekende standaarden | Bestaande cijfers in de traditionele Analysis Workspace worden niet naar CJA verzonden. |
-| Draaien tussen apparaten en kanalen | Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
+| Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
+| Draaien tussen apparaten en kanalen | volledige ondersteuning; Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | Datumvergelijkingen | Volledige ondersteuning |
-| Datumbereik | Ondersteuning voor Aangepaste agenda is gepland. |
-| Dimensies | CJA gebruikt XDM en ondersteunt onbeperkte afmetingen en is niet gekoppeld aan de aangepaste eVars of props van traditionele Analytics. |
+| Dimensies | volledige ondersteuning; CJA gebruikt XDM en ondersteunt onbeperkte afmetingen. CJA is niet gekoppeld aan de aangepaste eVars of props van traditionele Adobe Analytics. |
 | Buiten-de-box Analysis Workspace-afmetingen (bv. Browsertype, Type referentie, Besturingssysteem enz.) | CJA biedt deze afmetingen native zolang de basis-XDM-velden (zoals gebruikersagent of apparaat-id) zijn gevuld. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie waarop analysevariabelen worden ondersteund via ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| GDPR-verwijdering | Merk op dat GDPR nu in coördinatie met [!UICONTROL Adobe Experience Platform] wordt behandeld - CJA erft welke gegevensveranderingen [!UICONTROL Experience Platform] aan onderliggende datasets maakt. |
-| Variabelen/lijsteigenschappen weergeven | CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
-| Metrics | CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
+| GDPR-verwijdering | volledige ondersteuning; Merk op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Adobe Experience Platform]. CJA erft alle gegevenswijzigingen die [!UICONTROL Experience Platform] aanbrengt in onderliggende gegevenssets. |
+| Variabelen/lijsteigenschappen weergeven | volledige ondersteuning; CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
+| Metrics | volledige ondersteuning; CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
 | PDF exporteren | Volledige ondersteuning |
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
-| Tijdverwerking rapporteren | CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
-| API-toegang rapporteren | Beschikbaar via de [CJA API](https://www.adobe.io/cja-apis/docs/). |
+| Tijdverwerking rapporteren | volledige ondersteuning; CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
+| API-toegang rapporteren | volledige ondersteuning; Beschikbaar via de [CJA API](https://www.adobe.io/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
-| Segmenten | Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
-| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=en) productbeheerders en gebruikers. Alleen productbeheerders kunnen <ul><li>Verbindingen of gegevensweergaven maken/bijwerken/verwijderen</li><li>Werk/schrap projecten, filters, of calc metriek bij die door andere gebruikers werden gecreeerd, en</li><li>Een Workspace-project delen met alle gebruikers.</li></ul> |
-| Virtuele rapportsuites | Wordt nu [Gegevensweergaven](/help/data-views/create-dataview.md) genoemd. |
-| VRS-componentcursus | Nu onderdeel van gegevensweergaven. |
+| Segmenten | volledige ondersteuning; Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet worden geëxporteerd naar CJA. |
+| Gebruikersmachtigingen/Toegangsbeheer voor gegevens | volledige ondersteuning; CJA maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=en) productbeheerders en gebruikers. Alleen productbeheerders kunnen <ul><li>Verbindingen of gegevensweergaven maken/bijwerken/verwijderen</li><li>Werk/schrap projecten, filters, of calc metriek bij die door andere gebruikers werden gecreeerd, en</li><li>Een Workspace-project delen met alle gebruikers.</li></ul> |
+| Virtuele rapportsuites | volledige ondersteuning; Wordt nu [Gegevensweergaven](/help/data-views/create-dataview.md) genoemd. |
+| VRS-componentcursus | volledige ondersteuning; Nu onderdeel van gegevensweergaven. |
 
 ## Ondersteund met caveats
 
 | Functie | Notities |
 | --- | --- |
+| A4T | Ondersteuning wordt geboden via velden in de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 | Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en CJA met behulp van de gegevensconnector voor analytische classificaties. Gegevenssets voor opzoeken kunnen ook rechtstreeks naar AEP worden geüpload en beschikbaar worden gesteld in CJA. |
 | Aangepaste sessie | Ondersteuning voor alle andere aangepaste sessionisatiefuncties dan mobiele achtergrondhits. |
 | Klantkenmerken | Nu &quot;profielgegevenssets&quot; genoemd, worden ze niet automatisch geïmporteerd uit Experience Cloud, maar moeten ze worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
+| Datumbereik | De functionaliteit voor alle datumbereiken wordt ondersteund, behalve de geplande aangepaste ondersteuning voor de kalender. |
 | Apparaat, browser, technologische afmetingen | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. |
 | De ingangen, de Uitgangen, en de tijd bestede dimensies en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimension in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
+| GeoSegmentation-afmetingen | Alle GeoSegmentation/geography die in Adobe Analytics wordt verzameld stroomt in CJA door de Verbinding van Gegevens van de Analyse. Implementaties die geen gebruik maken van de gegevensconnector Analytics, zoals toepassingen die voor digitale gegevensverzameling afhankelijk zijn van AEP Web SDK, hebben niet de volledige serie van automatisch uitgevoerde geografische zoekopdrachten (land en staat worden ondersteund, plaats en ritssluiting worden niet ondersteund). |
 | Marketingkanalen | De gegevens van Kanalen van de marketing stromen in CJA door de Verbinding van Gegevens van de Analyse. De regels van het Kanaal van de marketing moeten nog in traditionele Adobe Analytics worden gevormd. Sommige regels worden niet ondersteund. Zie [CJA-documentatie over marketingkanalen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) voor meer informatie. |
 | Productvariabele | Binnen het Experience Platform, kunnen de gebruikers serie van de typegebieden van Objecten binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen CJA kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
 | Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
