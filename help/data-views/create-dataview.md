@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
+source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Hier kunt u opgeven hoe een metrische waarde zich moet gedragen in de rapportage
 | --- | --- |
 | [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. Dit geeft u de daadwerkelijke waarde van metrisch, zoals &quot;50&quot;als er een ordewaarde van 50 was. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
-| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;string&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Deze schermafbeelding toont een voorbeeld van een hoofdlettergevoelige dimensie in Workspace:<br>![hoofdlettergevoelige dimensie](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;tekenreeks&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Als u **[!UICONTROL Lower case]** controleert, zullen alle instanties van een dimensie met de zelfde waarde als kleine letters worden gerapporteerd. In deze schermafbeelding ziet u wat er gebeurt als u **niet** [!UICONTROL Lower case] controleert. U ziet hoe &quot;liverpool&quot;, &quot;Liverpool&quot; en &quot;LIVERPOOL&quot; resulteren in drie afzonderlijke regelitems in de rapportage:<br>![hoofdlettergevoelige dimensie](assets/case-sens-workspace.png) |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
 
@@ -140,7 +140,7 @@ Merk ook op dat wat u op dit gebied specificeert voor speciale behandeling UI va
 | [!UICONTROL If shown, call No value...] | Hier kunt u de naam van **[!UICONTROL No value]** wijzigen in iets anders. |
 | [!UICONTROL Don't show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. |
 | [!UICONTROL Show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. |
-| [!UICONTROL Treat No value as a value] | Met deze instelling worden lege waarden in de gegevens vervangen door de tekst die u onder [!UICONTROL If shown, call No value ...] hebt opgegeven. Als u bijvoorbeeld mobiele apparaattypen als de dimensie had, kunt u de naam van het **[!UICONTROL No value]**-item wijzigen in &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Red&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Red&quot; die in de gegevens zelf worden weergegeven, dus ook onder hetzelfde lijstitem als u hebt opgegeven. |
+| [!UICONTROL Treat No value as a value] | Met deze instelling worden lege waarden in de gegevens vervangen door de tekst die u onder [!UICONTROL If shown, call No value ...] hebt opgegeven. Als u bijvoorbeeld mobiele apparaattypen als de dimensie had, kunt u de naam van het **[!UICONTROL No value]**-item wijzigen in &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Rood&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Rood&quot; die in de gegevens zelf worden weergegeven, daarom onder hetzelfde lijstitem als u hebt opgegeven. |
 
 ### Persistinstellingen configureren
 
