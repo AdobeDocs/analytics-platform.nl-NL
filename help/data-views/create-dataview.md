@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
+source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2713'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,7 @@ Hier kunt u opgeven hoe een metrische waarde zich moet gedragen in de rapportage
 | --- | --- |
 | [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. Dit geeft u de daadwerkelijke waarde van metrisch, zoals &quot;50&quot;als er een ordewaarde van 50 was. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
+| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;string&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Deze schermafbeelding toont een voorbeeld van een hoofdlettergevoelige dimensie in Workspace:<br>![hoofdlettergevoelige dimensie](assets/case-sens-workspace.png) |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
 
