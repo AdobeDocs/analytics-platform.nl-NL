@@ -2,9 +2,9 @@
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '2944'
+source-wordcount: '2941'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in he
 
 ## Uniques Exceeded
 
-Net als Count() en RowCount(), geldt bij benadering onderscheid tussen tellen () voor [&quot;overschrijden&quot; limieten](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
+Net als Count() en RowCount(), geldt bij benadering onderscheid tussen tellen () voor [&quot;overschrijden&quot; limieten](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
 ## Telfuncties vergelijken
 
