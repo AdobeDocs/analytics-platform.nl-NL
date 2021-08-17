@@ -2,9 +2,9 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
+source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Hier kunt u opgeven hoe een metrische waarde zich moet gedragen in de rapportage
 | --- | --- |
 | [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. Dit geeft u de daadwerkelijke waarde van metrisch, zoals &quot;50&quot;als er een ordewaarde van 50 was. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
-| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;tekenreeks&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Als u **[!UICONTROL Lower case]** controleert, zullen alle instanties van een dimensie met de zelfde waarde als kleine letters worden gerapporteerd. In deze schermafbeelding ziet u wat er gebeurt als u **niet** [!UICONTROL Lower case] controleert. U ziet hoe &quot;liverpool&quot;, &quot;Liverpool&quot; en &quot;LIVERPOOL&quot; resulteren in drie afzonderlijke regelitems in de rapportage:<br>![hoofdlettergevoelige dimensie](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;tekenreeks&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Als u **[!UICONTROL Lower case]** controleert, zullen alle instanties van een dimensie met de zelfde waarde als kleine letters worden gerapporteerd. In deze schermafbeelding ziet u wat er gebeurt als u **not** [!UICONTROL Lower case] controleert in plaats van **do** het selectievakje in te schakelen. In de linkertabel ziet u hoe &quot;liverpool&quot;, &quot;Liverpool&quot; en &quot;LIVERPOOL&quot; resulteren in drie afzonderlijke regelitems in de rapportage. In de juiste lijst, zijn die zelfde waarden geschrapt-gedupliceerd en vallen onder één lijnpunt:<br>![case-sensitive afmeting](assets/case-sens-workspace.png) |
 
 ### [!UICONTROL No Value Options]-instellingen configureren
 
@@ -151,7 +151,7 @@ Voor meer informatie, zie het onderwerp op [Persistence](/help/data-views/persis
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
 | [!UICONTROL Set persistence] | Schakelen tussen toetsen |
-| [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Als u een waarde wilt behouden (vergelijkbaar met eVars in traditionele Analytics), stelt u deze hier in. Het enige belangrijke verschil is dat de maximale persistentie die u kunt instellen 90 dagen is. [!UICONTROL Never expire] is ook geen optie. |
+| [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Als u een waarde wilt voortbestaan, is dit waar u het plaatst. De maximale persistentie die u kunt instellen, is 90 dagen. [!UICONTROL Never expire] is ook geen optie. |
 | [!UICONTROL Expiration] | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: [!UICONTROL Session] (standaardwaarde), [!UICONTROL Person], [!UICONTROL Time], [!UICONTROL Metric]. Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). [!UICONTROL Metric] Hiermee kunt u een van de gedefinieerde metriek opgeven als de vervaldatum voor deze dimensie (bijvoorbeeld een  [!UICONTROL Purchase] metrische waarde).<br>**Opmerking**: U kunt geen aangepaste vervaldatum instellen voor een dimensie wanneer u een toewijzing van  [!UICONTROL All]. |
 
 ### Instellingen voor waardetabels configureren
