@@ -1,9 +1,9 @@
 ---
 title: Aanbevolen werkwijzen voor kenmerken
 description: Wat zijn de beste praktijken rond het beslissen over een attributiemodel?
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek maken gereedschappen zoals [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (voor onbewerkte gegevens) of Analysis Workspace het gemakkelijker om te begrijpen
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek kunnen gereedschappen zoals Analysis Workspace en het opnemen in gegevensbronnen vanuit meerdere kanalen (zoals Impressions-gegevens) u helpen
 
 * Hoeveel klanten raken verschillende marketing kanalen alvorens om te zetten?
 * De verhouding/verdeling van deze gedragingen.
@@ -53,6 +53,3 @@ Omdat het zeer moeilijk is om een groot aantal mogelijke hypothesen en combinati
 ## Andere overwegingen
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
-* U kunt op onbewerkte gegevens vertrouwen, zoals in gegevensfeeds van Adobe.
-* U kunt bijvoorbeeld [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en) gebruiken als u uw Impressiegegevens wilt overwegen.
-
