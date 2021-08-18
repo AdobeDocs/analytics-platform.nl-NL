@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: f6ec268d3820a7bcbcc84521e486c26e8ea9329b
+source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 41%
 
 ---
@@ -107,6 +107,7 @@ ht-degree: 41%
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
       + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
+      + [Aanbevolen werkwijzen voor kenmerken](analysis-workspace/attribution/best-practices.md)
       + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Overzicht van Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
