@@ -3,9 +3,9 @@ description: Geef je gegevens visueel weer in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1034'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging va
 
 U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) of via het snelmenu in uw workflow.
 
-![](assets/viz-rail.png)
+![Visualisatiespoor](assets/viz-rail.png)
 
 De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
@@ -44,7 +44,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
 Elke visualisatie heeft eigen instellingen die u kunt beheren. Als u [!UICONTROL Visualization Settings] wilt openen, klikt u op het tandwielpictogram [!UICONTROL Visualization Settings].
 
-![](assets/settings.png)
+![Instellingen](assets/settings.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -70,18 +70,16 @@ Een label voor een legenda bewerken:
 1. Klik met de rechtermuisknop op een van de legenda-labels.
 1. Klik op **[!UICONTROL Edit Label]**.
 
-   ![](assets/edit-label.png)
+   ![Label bewerken](assets/edit-label.png)
 
 1. Voer de nieuwe labeltekst in.
 1. Druk op **[!UICONTROL Enter]** om op te slaan.
-
-Hier is een [verbinding aan een video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) op dit onderwerp.
 
 ## Klikken met rechtermuisknop {#right-click}
 
 Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rechtermuisknop op de visualisatiekop te klikken. De instellingen variëren per visualisatie. Enkele beschikbare instellingen zijn:
 
-![](assets/right-click.png)
+![Klikken met rechtermuisknop](assets/right-click.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -98,4 +96,4 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 
 Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u drie filterrijen hebt geselecteerd, wordt er een Venn-diagram gemaakt.
 
-![](assets/quick-viz.png)
+![Snelle visualisatie](assets/quick-viz.png)

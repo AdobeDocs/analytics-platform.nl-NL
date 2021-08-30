@@ -2,9 +2,9 @@
 title: Opties voor gegevensinvoer voor Customer Journey Analytics
 description: Begrijp de verschillende manieren u gegevens in Customer Journey Analytics kunt opnemen
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
-source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -17,18 +17,11 @@ U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analy
 
 Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankelijk van het feit of u DTM of Launch gebruikt als tagbeheer.
 
-### Via dynamisch tagbeheer (DTM)
-
-1. [Maak een gegevenslaag](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html) als u dat nog niet hebt gedaan. Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
-1. Gebruik [DTM](https://experienceleague.adobe.com/docs/analytics/implementation/other/dtm/dtm-implementation-overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Het dynamische Beheer van de Markering verstrekt één enkele gegevenslaag die gegevens uit veelvoudige bronnen duwt.
-1. Maak een [Adobe Analytics-bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [het Systeem van de Gegevens van de Ervaring van het Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
-1. Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om één of meerdere verbindingen en gegevensmeningen tot stand te brengen die uw kanaalrapportering zullen informeren.
-
 ### Via Launch
 
 1. [Maak een gegevenslaag](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html) als u dat nog niet hebt gedaan. Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
 1. Gebruik [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Launch is een oplossing voor tagbeheer waarmee u naast andere vereisten voor codering ook analytische code kunt implementeren. De lancering biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
-1. Maak een [Adobe Analytics-bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [het Systeem van de Gegevens van de Ervaring van het Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+1. Maak een [Adobe Analytics-bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [het Systeem van de Gegevens van de Ervaring van het Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 1. Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om één of meerdere verbindingen en gegevensmeningen tot stand te brengen die uw kanaalrapportering zullen informeren.
 
 ## Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
