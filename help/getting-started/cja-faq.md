@@ -2,9 +2,9 @@
 title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
@@ -75,3 +75,16 @@ Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zan
 | Een batch **verwijderen tijdens het invoegen** in [!UICONTROL Customer Journey Analytics] | Als er slechts één partij in de dataset is, zullen geen gegevens of gedeeltelijke gegevens van die partij in [!UICONTROL Customer Journey Analytics] verschijnen. De inname wordt teruggedraaid. Als, bijvoorbeeld, er 5 partijen in de dataset zijn en 3 van hen reeds zijn opgenomen toen de dataset werd geschrapt, zullen de gegevens van die 3 partijen in [!UICONTROL Customer Journey Analytics] verschijnen. |
 | Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
 | Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutenmelding zal erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer werkend zullen zijn. |
+
+## 6. Overwegingen bij het samenvoegen van rapportsuites in CJA
+
+Als u van plan bent om Adobe Analytics gegevens door [Adobe Analytics bronschakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en) in te voeren, overweeg deze vertakkingen wanneer het samenvoegen van 2 of meer Adobe Analytics rapportreeksen.
+
+| Probleem | Overwegingen |
+| --- | --- |
+| Variabelen | Variabelen zoals [!UICONTROL eVars] mogen niet worden uitgelijnd in hele rapportsuites. eVar 1 in rapportsuite 1 verwijst bijvoorbeeld naar **[!UICONTROL Page]**. In rapportsuite 2 verwijst eVar1 mogelijk naar **[!UICONTROL Internal Campaign]**, wat leidt tot gemengde en onjuiste rapportage. |
+| [!UICONTROL Sessions] en  [!UICONTROL People] aantallen | Ze worden gededupliceerd door hele rapportesuites. Hierdoor komen aantallen mogelijk niet overeen. |
+| Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders]) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID]). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, kunnen de metriek zoals [!UICONTROL Orders] niet over rapportsuites optellen. |
+| Valuta | Valutaconversie wordt nog niet ondersteund in CJA. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
+| [!UICONTROL Persistence] | [](/help/data-views/persistence.md) Persistenceextends over rapporten, welke gevolgen hebben  [!UICONTROL filters],  [!UICONTROL attribution]enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
+| [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden combineert tot één [!UICONTROL lookup] gegevensset, kunnen er problemen optreden. |

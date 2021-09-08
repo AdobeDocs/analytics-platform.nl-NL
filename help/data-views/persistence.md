@@ -2,10 +2,9 @@
 title: Wat is dimensie persistentie in Customer Journey Analytics?
 description: Dimension persistentie is een combinatie van allocatie en vervaldatum. Samen bepalen zij hoe of of de waarden van de afmeting van de ene gebeurtenis naar de volgende blijven.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-translation-type: tm+mt
-source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
+source-git-commit: ab81c7fff2b7e942491fd417cfa115dd428f222d
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 5%
 
 ---
@@ -27,7 +26,7 @@ Toewijzing past een transformatie toe op de onderliggende waarde die u gebruikt.
 
 ### [!UICONTROL Most recent] toewijzing
 
-De meest recente toewijzing blijft de meest recente (door tijdstempel) waarde in de dimensie. De waarden die daarna in dezelfde sessie worden weergegeven, vervangen de waarde die eerder doorloopt. Als &quot;Geen waarde behandelen&quot; is geselecteerd op deze dimensie, worden de lege waarden vervangen door &quot;Geen waarde&quot; voordat persistentie wordt toegepast. Hier is een voor en na voorbeeld van [!UICONTROL Most recent] toewijzing die veronderstelt [!UICONTROL Session] voor vervaldatum wordt gebruikt en alle gebeurtenissen binnen [!UICONTROL Session] voorkomen:
+Bij de meest recente toewijzing blijft de meest recente (door tijdstempel) waarde in de dimensie behouden. Als er waarden in dezelfde sessie volgen, wordt de vorige waarde voor het voortbestaan vervangen. Als &quot;Geen waarde behandelen&quot; is geselecteerd op deze dimensie, worden de lege waarden vervangen door &quot;Geen waarde&quot; voordat persistentie wordt toegepast. Hier is een voor en na voorbeeld van [!UICONTROL Most recent] toewijzing die veronderstelt [!UICONTROL Session] voor vervaldatum wordt gebruikt en alle gebeurtenissen binnen [!UICONTROL Session] voorkomen:
 
 | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
 | --- | --- | --- | --- | --- | --- |
@@ -36,7 +35,7 @@ De meest recente toewijzing blijft de meest recente (door tijdstempel) waarde in
 
 ### [!UICONTROL Original] toewijzing
 
-De oorspronkelijke toewijzing blijft de oorspronkelijke waarde (in tijdstempel) binnen de dimensie gedurende een verloopperiode behouden. Hier volgt een voor-en-na voorbeeld van [!UICONTROL Original]-toewijzing:
+Oorspronkelijke toewijzing houdt de oorspronkelijke waarde (op tijdstempel) die binnen de dimensie aanwezig is, aan gedurende een verloopperiode. Hier volgt een voor-en-na voorbeeld van [!UICONTROL Original]-toewijzing:
 
 | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
 | --- | --- | --- | --- | --- | --- |
