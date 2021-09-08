@@ -2,14 +2,14 @@
 title: Hoe te om een nieuwe gegevensmening in Customer Journey Analytics tot stand te brengen.
 description: Beschrijft alle montages nodig om nieuwe gegevensmeningen tot stand te brengen.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
+source-git-commit: fb8de8c65b44fd57ca5da6d993bb02b8574f7f47
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
 
-# Een nieuwe gegevensweergave maken
+# Een gegevensweergave maken
 
 Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. Het creëren van metriek of dimensies geeft u een enorme hoeveelheid flexibiliteit. Eerder, was de veronderstelling dat als u datasets in Adobe Experience Platform had, de koordgebieden als afmetingen werden gebruikt en de numerieke gebieden als metriek werden gebruikt. Als u een van deze velden wilt wijzigen, moet u het schema in het Platform bewerken. De interface voor gegevensweergaven biedt nu een meer vrije definitie van metriek en dimensies](/help/data-views/data-views.md). [ Voor meer gebruiksgevallen, zie [De meningen van gegevens gebruiken gevallen](/help/data-views/data-views-usecases.md).
 
@@ -125,7 +125,11 @@ Hier kunt u opgeven hoe een metrische waarde zich moet gedragen in de rapportage
 | --- | --- |
 | [!UICONTROL Count values] | Alleen voor Booleaanse cijfers kunt u met deze instelling opgeven of u [!UICONTROL Count True], [!UICONTROL Count False] of [!UICONTROL Count True or False] als de metrische waarde wilt opgeven. De standaardwaarde is [!UICONTROL Count True]. Dit geeft u de daadwerkelijke waarde van metrisch, zoals &quot;50&quot;als er een ordewaarde van 50 was. |
 | [!UICONTROL Count instances] | Hier kunt u opgeven of een numeriek veld of een datumtekstveld dat als metrisch wordt gebruikt, de tijd moet tellen waarop het is ingesteld in plaats van de waarde zelf.<br> Als u de instanties van een numeriek veld wilt optellen en eenvoudig het aantal keren wilt optellen dat een veld is  ** ingesteld in plaats van de werkelijke binnenste waarde.<br>Dit is bijvoorbeeld handig als u een  [!UICONTROL Orders] metrische waarde wilt maken op basis van een  [!UICONTROL Revenue] veld. Als de ontvangsten werden vastgesteld, dan willen wij één enkele orde eerder dan het numerieke opbrengstbedrag tellen. |
-| [!UICONTROL Lower case] | *Nieuw*  - Voor afmetingen van het type &quot;tekenreeks&quot;. Met deze instelling kunt u bepalen of Customer Journey Analytics waarden van dimensies behandelt als hoofdlettergevoelig. Hiermee kunt u rijen met dezelfde waarde, maar met een ander hoofdlettergebruik, dedupliceren. Als u **[!UICONTROL Lower case]** controleert, zullen alle instanties van een dimensie met de zelfde waarde als kleine letters worden gerapporteerd. In deze schermafbeelding ziet u wat er gebeurt als u **not** [!UICONTROL Lower case] controleert in plaats van **do** het selectievakje in te schakelen. In de linkertabel ziet u hoe &quot;liverpool&quot;, &quot;Liverpool&quot; en &quot;LIVERPOOL&quot; resulteren in drie afzonderlijke regelitems in de rapportage. In de juiste lijst, zijn die zelfde waarden geschrapt-gedupliceerd en vallen onder één lijnpunt:<br>![case-sensitive afmeting](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | Wordt gebruikt met tekenreeksafmetingen. De-dupliceert rijen die de zelfde waarde maar verschillende gevallen hebben. Indien ingeschakeld, worden alle gevallen van een dimensie met dezelfde waarde gerapporteerd als kleine letters. Uw gegevensset bevat bijvoorbeeld de waarden `"liverpool"`, `"Liverpool"` en `"LIVERPOOL"` in een tekenreeksdimensie. Wanneer [!UICONTROL Lower case] is ingeschakeld, worden alle drie waarden gecombineerd in `"liverpool"`. Indien uitgeschakeld worden alle drie waarden als afzonderlijke waarden behandeld:<br>![hoofdlettergevoelige dimensie](assets/case-sens-workspace.png)<br> |
+
+>[!NOTE]
+>
+>Als u [!UICONTROL Lower case] op een dimensie van de raadplegingsdataset toelaat, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict gebeurt, gebruikt CJA de eerste ASCII gesorteerde waarde (waarden in hoofdletters staan voor waarden in kleine letters). Adobe adviseert tegen het gebruiken van raadplegingsdatasets die de zelfde waarde bevatten wanneer [!UICONTROL Lower case] wordt toegelaten.
 
 ### [!UICONTROL No Value Options]-instellingen configureren
 
