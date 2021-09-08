@@ -2,10 +2,9 @@
 title: CJA-documentatieupdates
 description: Hiermee geeft u updates van de inhoud weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-translation-type: tm+mt
-source-git-commit: b552fc55e2c4167c1ff903a0ac2a8d6559839606
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '399'
 ht-degree: 5%
 
 ---
@@ -16,6 +15,11 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| September 2021 | Nieuwe sectie over de [implicaties van het samenvoegen van rapportreeksen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#6.-Overwegingen-wanneer-samenvoegen-rapport-suites-in-cja) in CJA. |
+| Augustus 2021 | Nieuwe sectie over verbeterde [Verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) ervaring in CJA. |
+| Augustus 2021 | Nieuwe sectie over [hoofdlettergevoeligheid in de afmetingen van de Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) |
+| Juni 2021 | Nieuwe documentatie over [vorige projectversies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) in Werkruimte. |
+| April 2021 | Nieuwe documentatie over steun voor geplande projecten in Werkruimte. |
 | April 2021 | Nieuwe onderwerpen op [de verbeterde ervaring van de Kijken van Gegevens](/help/data-views/data-views.md). |
 | April 2021 | Nieuwe onderwerpen over [het opnemen van Google Analytics gegevens](/help/use-cases/ga-to-cja.md) en [het analyseren van die gegevens](/help/use-cases/ga-to-cja-reporting.md) |
 | April 2021 | Toegevoegd onderwerp op [geplande rapporten](/help/analysis-workspace/curate-share/t-schedule-report.md) in Werkruimte |
@@ -39,4 +43,4 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Juli 2020 | Nieuw onderwerp op [toegevoegde objecten series](/help/use-cases/object-arrays.md) of &quot;gegevenshiërarchieën&quot;. |
 | 14 april 2020 | Updates aan recentste UI in [creeer Verbindingen](/help/connections/create-connection.md) onderwerp. |
 | 27 februari 2020 | Updates voor de [pagina Customer Journey Analytics-functieondersteuning](/help/getting-started/cja-aa.md). |
-| december 2019 | Eerste conceptversie van CJA-documentatie |
+| December 2019 | Eerste conceptversie van CJA-documentatie |
