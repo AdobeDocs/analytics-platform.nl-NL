@@ -3,9 +3,9 @@ title: Verbindingen beheren
 description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (CJA) te beheren.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,9 @@ Hiermee kunt u:
 * Identificeer configuratieproblemen die tot overgeslagen, of geschrapte verslagen leiden.
 * Zie wanneer de gegevens beschikbaar zijn voor rapportage.
 
+>[!IMPORTANT]
+>Gegevens die vóór 13 augustus 2021 zijn ingevoerd, worden niet weergegeven in dit [!UICONTROL Connections]-dialoogvenster.
+
 Hier worden de widgets en instellingen beschreven:
 
 ![Verbindingsdetails weergeven](assets/conn-details.png)
@@ -88,11 +91,11 @@ Hier worden de widgets en instellingen beschreven:
 | --- | --- |
 | Gegevensset selecteren | Hiermee kunt u een of alle gegevenssets in de verbinding kiezen. U kunt geen datasets selecteren. Wordt standaard ingesteld op [!UICONTROL All datasets]. |
 | Kalender-/datumbereiken | Het datumbereik geeft aan wanneer u gegevens hebt toegevoegd aan de verbinding. Alle standaardkalendervoorinstellingen worden opgenomen. U kunt het datumbereik aanpassen, maar in de vervolgkeuzelijst worden geen aangepaste datumbereiken weergegeven. |
-| [!UICONTROL Records available] widget | Vertegenwoordigt het totale aantal rijen beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. Het verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. (Let op: er is een latentie van 1-2 uur om de gegevens weer te geven in de rapportage, zodra deze is toegevoegd.) |
-| [!UICONTROL Metrics] widget | Hiermee geeft u een overzicht van de records die zijn toegevoegd/overgeslagen/verwijderd en het aantal toegevoegde batches, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. |
-| [!UICONTROL Records added] widget | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Om de 10 minuten bijgewerkt. |
-| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt enzovoort. Om de 10 minuten bijgewerkt. |
-| [!UICONTROL Records deleted] widget | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Iemand heeft bijvoorbeeld een dataset in Experience Platform verwijderd. Om de 10 minuten bijgewerkt. |
+| [!UICONTROL Records of event data available] widget | Vertegenwoordigt het totale aantal rijen van de gebeurtenisdataset beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. Het verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. (Let op: er is een latentie van 1-2 uur om de gegevens weer te geven in de rapportage, zodra deze is toegevoegd.) |
+| [!UICONTROL Metrics] widget | Hiermee geeft u een overzicht van de gebeurtenisrecords die zijn toegevoegd/overgeslagen/verwijderd en van het aantal toegevoegde batches, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. |
+| [!UICONTROL Records added] widget | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor  **[!UICONTROL Records added]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt enzovoort. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor  **[!UICONTROL Records skipped]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records deleted] widget | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode, **voor de gegevensset en het datumbereik dat u hebt geselecteerd**. Iemand heeft bijvoorbeeld een dataset in Experience Platform verwijderd. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor  **[!UICONTROL Records deleted]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | Zoekvak voor gegevensset | U kunt zoeken op naam van gegevensset of [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets] | Toont de datasets die deel van de verbinding uitmaken. U kunt op de hyperlink klikken om alle datasets in de verbinding weer te geven. |
 | [!UICONTROL Dataset ID] | Deze id wordt automatisch gegenereerd door Adobe Experience Platform. |
@@ -115,9 +118,10 @@ Hier worden de widgets en instellingen beschreven:
 | **Rechterspoor op gegevenssetniveau** |  |
 | [!UICONTROL Dataset description] | Beschrijft de parameters van elke dataset in deze verbinding. |
 | [!UICONTROL Records available] | Vertegenwoordigt het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. (De uitzondering is dat wanneer u een gloednieuwe verbinding creeert, er [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#3.-getting-data-into-customer-trip-analytics) zal zijn. |
-| [!UICONTROL Records added] | Hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. |
-| [!UICONTROL Records skipped] | Hoeveel rijen zijn overgeslagen tijdens inname in de geselecteerde tijdsperiode. |
-| [!UICONTROL Record skipped errors] | De reden waarom records zijn overgeslagen, wordt hier aangegeven. Het kan gaan om ontbrekende tijdstempels, ontbrekende persoon-id, enzovoort. |
+| [!UICONTROL Records added] | Hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **Opmerking**: Gegevens voor  **[!UICONTROL Records added]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records skipped] | Hoeveel rijen zijn overgeslagen tijdens inname in de geselecteerde tijdsperiode. **Opmerking**: Gegevens voor  **[!UICONTROL Records skipped]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records deleted] | Hoeveel records zijn verwijderd tijdens de geselecteerde tijdsperiode. **Opmerking**: Gegevens voor  **[!UICONTROL Records deleted]** bevatten momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Record skipped errors] | De reden waarom records zijn overgeslagen, wordt hier aangegeven. Motivering kan bestaan uit ontbrekende tijdstempels, ontbrekende persoon-id enz. |
 | [!UICONTROL Batches ingested] | Hoeveel gegevensbatches zijn toegevoegd aan deze gegevensset. |
 | [!UICONTROL Last added] | Wanneer de laatste batch is toegevoegd. |
 | [!UICONTROL Dataset type] | Ofwel [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -131,3 +135,5 @@ Hiermee kunnen beheerders de verbinding bewerken. Selecteer een verbinding en kl
 
 * Nieuwe gegevens beginnen en stoppen. Dit proces werd voorheen &quot;gegevensstreaming&quot; genoemd.
 * Wijzig de naam van een verbinding.
+* Vernieuw de gegevensset(s).
+* Verwijder dataset/s uit de verbindingen.
