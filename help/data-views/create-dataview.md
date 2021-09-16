@@ -2,9 +2,9 @@
 title: Een gegevensweergave maken
 description: Alle instellingen die u kunt aanpassen om een gegevensweergave te maken of te bewerken.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+source-git-commit: 49b4998194274eec2ab8eca231029ccb5ccf648d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,17 @@ U kunt bijvoorbeeld in het veld **[!UICONTROL pageTitle]** een dimensie met de n
    >
    >U kunt in de mappen met schemavelden slepen vanaf de linkerrails en deze worden automatisch gesorteerd in traditionele secties. Tekenreeksvelden worden afgesloten in de sectie [!UICONTROL Dimensions] en cijfers in de sectie [!UICONTROL Metrics]. U kunt ook op **[!UICONTROL Add all]** klikken en alle schemavelden worden toegevoegd.
 
-1. Als u de component hebt geselecteerd, ziet u rechts een aantal instellingen. Configureer de component met behulp van de hieronder beschreven instellingen.
+1. Als u de component hebt geselecteerd, ziet u rechts een aantal instellingen. De component configureren met behulp van de instellingen die worden beschreven in
+
+* [[!UICONTROL Component] instellingenoverzicht](/help/data-views/component-settings/overview.md)
+* [[!UICONTROL Attribution] componentinstellingen](/help/data-views/component-settings/attribution.md)
+* [[!UICONTROL Behavior] componentinstellingen](/help/data-views/component-settings/behavior.md)
+* [[!UICONTROL Format] componentinstellingen](/help/data-views/component-settings/format.md)
+* [[!UICONTROL Include|exclude] componentinstellingen](/help/data-views/component-settings/include-exclude-values.md)
+* [[!UICONTROL Metric deduplication] componentinstellingen](/help/data-views/component-settings/metric-deduplication.md)
+* [[!UICONTROL No value] componentinstellingen](/help/data-views/component-settings/no-value-options.md)
+* [[!UICONTROL Persistence] componentinstellingen](/help/data-views/component-settings/persistence.md)
+   [[!UICONTROL Value bucketing] componentinstellingen](/help/data-views/component-settings/value-bucketing.md)
 
 ## De functie [!UICONTROL Duplicate] gebruiken
 

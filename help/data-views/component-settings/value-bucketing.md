@@ -1,15 +1,15 @@
 ---
 title: Instellingen van waardetekenmerken
 description: Combineer numerieke waarden in een dimensie.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
 
-# Instellingen van component Value Bucketing
+# [!UICONTROL Value Bucketing] componentinstellingen
 
 Wanneer u een gegevensweergave maakt of bewerkt, kunt u numerieke waarden combineren op basis van een bereik. Het is alleen beschikbaar voor dimensies die de gegevenstypen Geheel getal of Dubbel schema gebruiken.
 

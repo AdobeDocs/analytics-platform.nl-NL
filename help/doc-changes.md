@@ -2,9 +2,9 @@
 title: CJA-documentatieupdates
 description: Hiermee geeft u updates van de inhoud weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 6fca2dbffb0a631b0c5425c7d8964296ad22b7cc
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
@@ -15,8 +15,9 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| September 2021 | Nieuwe sectie over de [implicaties van het samenvoegen van rapportreeksen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#6.-Overwegingen-wanneer-samenvoegen-rapport-suites-in-cja) in CJA. |
-| Augustus 2021 | Nieuwe sectie over verbeterde [Verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) ervaring in CJA. |
+| September 2021 | Breek de componentinstellingen in gegevensweergaven uit naar afzonderlijke bestanden:<ul><li>[[!UICONTROL Component] instellingenoverzicht](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Attribution] componentinstellingen](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Behavior] componentinstellingen](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Format] componentinstellingen](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Include/exclude] componentinstellingen](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Metric deduplication] componentinstellingen](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL No value] componentinstellingen](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Persistence] componentinstellingen](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Value bucketing] componentinstellingen](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
+| september 2021 | Nieuwe sectie over de [implicaties van het samenvoegen van rapportreeksen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#6.-Overwegingen-wanneer-samenvoegen-rapport-suites-in-cja) in CJA. |
+| Augustus 2021 | Nieuwe sectie over de verbeterde [Verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) ervaring in CJA. |
 | Augustus 2021 | Nieuwe sectie over [hoofdlettergevoeligheid in de afmetingen van de Mening van Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings). |
 | Juni 2021 | Nieuwe documentatie over [vorige projectversies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) in Werkruimte. |
 | April 2021 | Nieuw onderwerp op [persistentie](data-views/component-settings/persistence.md). |
