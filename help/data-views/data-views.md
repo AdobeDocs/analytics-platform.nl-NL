@@ -1,17 +1,17 @@
 ---
-title: Wat is een gegevensweergave in Customer Journey Analytics?
+title: Overzicht van gegevensweergaven
 description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de CJA-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
+source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
 
-# Wat is een gegevensweergave?
+# Overzicht van gegevensweergaven
 
-Een gegevensweergave bevindt zich boven op een Customer Journey Analytics (CJA) [verbinding](/help/connections/create-connection.md). Een verbinding combineert één of meerdere datasets van Adobe Experience Platform en verbindt het met CJA. In de gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort. Gegevensweergaven worden gedefinieerd als voorbereiding op het rapporteren van gegevens in Workspace.
+Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een [verbinding](/help/connections/create-connection.md) te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 >[!NOTE]
 >
@@ -78,4 +78,3 @@ Als u een gegevensmening in [!UICONTROL Customer Journey Analytics] schrapt, zal
 
 * [Gegevensweergaven maken](/help/data-views/create-dataview.md)
 * [Gebruiksscenario&#39;s voor gegevensweergaven](/help/data-views/data-views-usecases.md)
-* Details over hoe [persistentie](/help/data-views/persistence.md) werkt

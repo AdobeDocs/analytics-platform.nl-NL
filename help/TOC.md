@@ -2,7 +2,7 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.nl-NL
 cloud: Experience Cloud
 product: adobe analytics
-sub-product: reis van klant
+sub-product: customer journey
 solution: Customer Journey Analytics
 type: Documentation
 index: true
@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: dd88dc79d523d6e5ef4fa868eef4bbb22df6b61b
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 41%
+source-wordcount: '471'
+ht-degree: 39%
 
 ---
 
@@ -40,8 +40,18 @@ ht-degree: 41%
 + Gegevensweergaven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](data-views/data-views.md)
    + [Een gegevensweergave maken](data-views/create-dataview.md)
+   + Componentinstellingen {#component-settings}
+      + [Overzicht van componentinstellingen](data-views/component-settings/overview.md)
+      + [Attributie](data-views/component-settings/attribution.md)
+      + [Gedraging](data-views/component-settings/behavior.md)
+      + [Indeling](data-views/component-settings/format.md)
+      + [Waarden uitsluiten opnemen](data-views/component-settings/include-exclude-values.md)
+      + [Metrische deduplicatie](data-views/component-settings/metric-deduplication.md)
+      + [Geen waardeopties](data-views/component-settings/no-value-options.md)
+      + [Persistentie](data-views/component-settings/persistence.md)
+      + [Waardebeperking](data-views/component-settings/value-bucketing.md)
+   + [Standaardcomponentverwijzing](data-views/component-reference.md)
    + [Gebruiksscenario&#39;s voor gegevensweergaven](data-views/data-views-usecases.md)
-   + [Persistentie](data-views/persistence.md)
 + Werkruimteprojecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + [Basisanalyse uitvoeren](analysis-workspace/perform-basic-analysis.md)

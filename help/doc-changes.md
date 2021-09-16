@@ -2,7 +2,7 @@
 title: CJA-documentatieupdates
 description: Hiermee geeft u updates van de inhoud weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: 8f576a8321c0e50cc34c1c08c8f8f7c48b427233
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -19,7 +19,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Augustus 2021 | Nieuwe sectie over verbeterde [Verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) ervaring in CJA. |
 | Augustus 2021 | Nieuwe sectie over [hoofdlettergevoeligheid in de afmetingen van de Mening van Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings). |
 | Juni 2021 | Nieuwe documentatie over [vorige projectversies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) in Werkruimte. |
-| April 2021 | Nieuw onderwerp op [persistentie](/help/data-views/persistence.md). |
+| April 2021 | Nieuw onderwerp op [persistentie](data-views/component-settings/persistence.md). |
 | April 2021 | Nieuwe documentatie over steun voor geplande projecten in Werkruimte. |
 | April 2021 | Nieuwe onderwerpen op [de verbeterde ervaring van de Kijken van Gegevens](/help/data-views/data-views.md). |
 | April 2021 | Nieuwe onderwerpen over [het opnemen van Google Analytics gegevens](/help/use-cases/ga-to-cja.md) en [het analyseren van die gegevens](/help/use-cases/ga-to-cja-reporting.md). |

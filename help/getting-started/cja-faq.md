@@ -2,7 +2,7 @@
 title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 1%
@@ -86,5 +86,5 @@ Als u van plan bent om Adobe Analytics gegevens door [Adobe Analytics bronschake
 | [!UICONTROL Sessions] en  [!UICONTROL People] aantallen | Ze worden gededupliceerd door de rapportsuites. Hierdoor komen aantallen mogelijk niet overeen. |
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders]) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID]). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, kunnen de metriek zoals [!UICONTROL Orders] niet over rapportsuites optellen. |
 | Valuta | Valutaconversie wordt nog niet ondersteund in CJA. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
-| [!UICONTROL Persistence] | [](/help/data-views/persistence.md) Persistenceextends over rapporten, welke gevolgen hebben  [!UICONTROL filters],  [!UICONTROL attribution]enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
+| [!UICONTROL Persistence] | [](../data-views/component-settings/persistence.md) Persistenceextends over rapporten, welke gevolgen hebben  [!UICONTROL filters],  [!UICONTROL attribution]enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden combineert tot één [!UICONTROL lookup] gegevensset, kunnen er problemen optreden. |
