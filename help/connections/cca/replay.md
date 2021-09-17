@@ -1,14 +1,13 @@
 ---
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Kanaalanalyse
-translation-type: tm+mt
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
+exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
+source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
-
 
 # Hoe herspeelt u
 
@@ -54,6 +53,10 @@ Met regelmatige intervallen (eens per week of eens per dag afhankelijk van het g
 | `5` | `3579` | `Bob` | - | `Bob` | Bob meldt zich aan via mobile | `1` (Bob) |
 | `6` | - | - | `Bob` | `Bob` | Bob doet een andere oproep aan de klantenservice | `1` (Bob) |
 | `7` | `246` | - | - | `Bob` | Bob bezoekt opnieuw uw site op zijn bureaublad, niet geverifieerd | `1` (Bob) |
+
+>[!NOTE]
+>
+>Gegevens worden alleen voor de websitegegevensset afgespeeld. De dataset van het vraagcentrum blijft onveranderd, maar past op wanneer correcte persoon identiteitskaart wordt gebruikt.
 
 ## Opnieuw
 

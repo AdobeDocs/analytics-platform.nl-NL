@@ -2,9 +2,9 @@
 title: Telefooncentrum en webgegevens importeren
 description: Leer hoe te om een dataset tot stand te brengen die de gegevens van het vraagcentrum en van de website verbindt.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -79,30 +79,58 @@ De resulterende Venn visualisatie toont het aantal mensen in uw dataset die zowe
 Deze vrije lijst laat u de hoogste pagina&#39;s zien die bijdragen tot de gebeurtenissen van het vraagcentrum. Controleer eerst of de gewenste afmetingen en metriek het juiste toewijzingsmodel hebben:
 
 1. Sleep de dimensie die uw webpaginanamen bevat naar een visualisatie voor vrije-vormtabellen.
-1. Vervang metrisch met gewenste metrisch vraagcentrum dat u omzetting wilt meten.
+1. Vervang metrisch met gewenste metrisch vraagcentrum dat u wilt meten.
 1. Klik op het tandwielpictogram bij de metrische koptekst. Klik op **[!UICONTROL Use non-default attribution model]**.
-1. Stel het gewenste [Attributiemodel](/help/data-views/create-dataview.md) in.
+1. Stel het gewenste [Attributiemodel](/help/analysis-workspace/attribution/models.md) in. Bijvoorbeeld, een model van het Verval van de Tijd met een halfwaardetijd van 15 minuten, en een Venster van de Raadpleging van Zitting. Dit attributiemodel geeft krediet aan de pagina&#39;s die tot de vraag aan uw vraagcentrum leiden.
 
-Het resulterende rapport toont hoogste metrisch van de gegevens van het vraagcentrum.
+Het resulterende rapport toont de hoogste pagina&#39;s die vraag aan uw vraagcentrum drijven. <!-- use case behind what we use these pages for -->
 
-<!-- ### Flow between web data and call center
+<!-- Complement with donut visualization -->
 
-call reason as an exit dimension, web page name for previous pages
+U kunt inzicht met deze lijst verder verhogen door Vraag door reden of categorie te verdelen.
+
+1. Klik het juiste chevron onder de dimensie van de Reden van de Vraag in de lijst van componenten. Deze actie onthult individuele afmetingswaarden.
+2. Sleep de gewenste afmetingswaarde(s) onder metrisch van &quot;Vraag&quot;, die metrisch door elke respectieve vraagreden filtreert.
+3. Herhaal dit voor elke reden waarom u wilt bellen. Gebruik het filter &#39;Alle sessies&#39; om het geaggregeerde totaal weer te geven.
+
+<!-- screenshot -->
+
+### Stroomvisualisatie
+
+U kunt inzicht in krijgen wat een klant probeerde te doen alvorens zij het kanaal van het vraagcentrum gebruikten. Deze stroomvisualisatie helpt u de frequentste reizen begrijpen een klant neemt om uw vraagcentrum te bereiken. Met dit inzicht kunt u de meest effectieve verbeteringen bepalen die u kunt aanbrengen in uw site, zodat klanten minder vaak kunnen inbellen.
+
+1. Klik op het tabblad **[!UICONTROL Visualizations]** aan de linkerkant en sleep een stroomvisualisatie naar het canvas van de werkruimte.
+2. Klik **[!UICONTROL Components]** lusje op de linkerzijde en bepaal de plaats van de &quot;Reden van de Vraag&quot;afmeting.
+3. Klik op het rechterchevron naast deze dimensie. Deze actie onthult individuele afmetingswaarden.
+4. Sleep het gewenste de afmetingspunt van de vraagreden aan de centrumplaats van de stroomvisualisatie.
+5. De stroomvisualisatie bevolkt automatisch vorige en volgende vraagredenen. Vervang de vorige vraagreden met de dimensie van de websitepagina.
+6. Klik op het tandwielpictogram rechtsboven in de stroomvisualisatie en wijzig de container in **[!UICONTROL Session]**.
 
 ### Histogram
 
+Hoeveel klanten hebben één keer geroepen, tweemaal geroepen, of 6+ keer geroepen? Sommige van deze mensen bezoeken nooit de website. Gebruik de histogramvisualisatie om te bepalen hoeveel mensen in elk emmertje vallen. Voor mensen die nooit de website bezoeken, zie hoe wij hen kunnen aanmoedigen om zelf te dienen.
+
+1. Klik op het tabblad **[!UICONTROL Visualizations]** aan de linkerkant en sleep een histogram visualisatie naar het canvas van de werkruimte.
+2. Klik **[!UICONTROL Components]** lusje op de linkerzijde en sleep metrisch vraag aan de histogram visualisatie.
+3. Klik **[!UICONTROL Show advanced settings]** in het midden van de visualisatie en pas de gewenste emmers aan.
+4. Klik op **[!UICONTROL Build]**.
+
+<!--
+### Web to call, call to web
+
 ### Fallout
 
-step 1: all sessions
-step 2: purchase step 1
-step 3: call
+Fallout sessions - session
 
-another good one
+All sessions > page views metric > calls metric
+
+All sessions > calls metric > page views
+
+Orrr we could also use dataset ID
 
 step 1: all sessions
 step 2: 
 
-Orrr we could also use dataset ID
 
 ### Site sections that result in a call within 30 minutes
 
