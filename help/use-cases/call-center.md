@@ -2,16 +2,16 @@
 title: Telefooncentrum en webgegevens importeren
 description: Leer hoe te om een dataset tot stand te brengen die de gegevens van het vraagcentrum en van de website verbindt.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
 
 # Telefooncentrum en webgegevens importeren
 
-Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om datasets van verschillende bronnen in één enkel project van de Werkruimte te combineren. In deze handleiding leert u hoe uw organisatie websitegegevens kan combineren met gegevens van callcenter.
+Customer Journey Analytics verstrekt het waardevolle en robuuste vermogen om datasets van verschillende bronnen in één enkel project van de Werkruimte te combineren. In deze handleiding leert u hoe uw organisatie websitegegevens kan combineren met gegevens van callcenter. U kunt bijvoorbeeld begrijpen welke acties een klant uitvoert, welke inhoud deze weergeeft en welke voorwaarden hij of zij zoekt voordat hij of zij contact opneemt met de klantenondersteuning. U kunt dan de inhoud en de zelfbedieningshulpmiddelen bepalen om te verbeteren zodat kunnen de klanten kwesties zelf beter oplossen zonder het moeten binnen roepen.
 
 ## Vereisten
 
@@ -53,8 +53,10 @@ CJA vereist een gemeenschappelijke herkenningsteken om [gecombineerde dataset](.
 
 ## Een gegevensweergave maken
 
-Nadat u een verbinding hebt gemaakt, kunt u [een gegevensweergave maken](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace. <!-- page dimension last touch, session persistence -->
-<!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
+Nadat u een verbinding hebt gemaakt, kunt u [een gegevensweergave maken](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace. De nuttige componenten omvatten:
+
+* Een pagina-dimensie met laatste aanraking en sessieresistentie. U kunt de metriek van het vraagcentrum met de laatste pagina verbinden die een klant alvorens binnen te roepen bekeken.
+* Een vraag metrisch die een het schemagebied van het &quot;centrum van de Vraag&quot;gebruikt om voorkomen te verhogen. Gebruik [Metrische deduplicatie](/help/data-views/component-settings/metric-deduplication.md) zodat deze slechts eenmaal per sessie toeneemt.
 
 ## Visualisaties maken
 
@@ -81,14 +83,13 @@ Deze vrije lijst laat u de hoogste pagina&#39;s zien die bijdragen tot de gebeur
 1. Klik op het tandwielpictogram bij de metrische koptekst. Klik op **[!UICONTROL Use non-default attribution model]**.
 1. Stel het gewenste [Attributiemodel](/help/data-views/create-dataview.md) in.
 
-Het resulterende rapport toont hoogste metrisch van de gegevens van het vraagcentrum. <!-- Complement with donut visualization -->
+Het resulterende rapport toont hoogste metrisch van de gegevens van het vraagcentrum.
 
 <!-- ### Flow between web data and call center
 
 call reason as an exit dimension, web page name for previous pages
 
 ### Histogram
-
 
 ### Fallout
 

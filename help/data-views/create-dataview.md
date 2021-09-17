@@ -2,7 +2,7 @@
 title: Een gegevensweergave maken of bewerken
 description: Alle instellingen die u kunt aanpassen om een gegevensweergave te maken of te bewerken.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 384679788d140a01a12e1c830b47099398a920b1
+source-git-commit: 36b7cc72c34e27f90af29146f7a32c525b279b9b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -60,12 +60,9 @@ Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U ku
 1. Klik op **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
 1. Klik op het tabblad **[!UICONTROL Components]**.
 
-![Tabblad Componenten](assets/components-tab.png)
+   ![Tabblad Componenten](assets/components-tab.png)
 
-U kunt [!UICONTROL Connection] bij de hoogste linkerzijde zien, die de datasets, en zijn [!UICONTROL Schema fields] hieronder bevat. Houd er rekening mee dat:
-
-    * De reeds inbegrepen componenten zijn de standaard vereiste componenten (geproduceerd systeem).
-    * Adobe past standaard het filter **[!UICONTROL Contains data]** toe, zodat alleen Schema-velden met gegevens worden weergegeven. Als u een veld zoekt dat geen gegevens bevat, verwijdert u het filter.
+   U kunt [!UICONTROL Connection] bij de hoogste linkerzijde zien, die de datasets, en zijn [!UICONTROL Schema fields] hieronder bevat. Merk op dat de reeds inbegrepen componenten standaard vereiste componenten (systeem geproduceerd) voor alle gegevensmeningen zijn. Adobe past standaard ook het filter **[!UICONTROL Contains data]** toe, zodat alleen Schema-velden met gegevens worden weergegeven. Als u een veld wilt hebben dat geen gegevens bevat, verwijdert u dit filter.
 
 1. Sleep een schemagebied, zoals `pageTitle`, van de linkerspoorstaaf in de sectie van Metriek of van Dimension.
 
