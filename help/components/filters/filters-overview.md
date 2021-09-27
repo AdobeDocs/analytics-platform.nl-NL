@@ -2,8 +2,7 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 1%
@@ -14,7 +13,7 @@ ht-degree: 1%
 
 Met Customer Journey Analytics kunt u krachtige, doelgerichte publieksfilters maken, beheren, delen en toepassen op uw rapporten. Met filters kunt u subsets van bezoekers identificeren op basis van eigenschappen of interacties van websites. Filters zijn ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en met andere teamleden kunt delen.
 
-Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezoeken, land, geslacht), interacties (campagnes, trefwoordzoeker, zoekmachine), uitgangen en items (bezoekers van Facebook, een gedefinieerde bestemmingspagina, verwijzingsdomein), aangepaste variabelen (formulierveld, gedefinieerde categorieën, klant-id) en andere criteria.
+Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezoeken, land, geslacht), interacties (campagnes, trefwoordzoeker, zoekmachine), uitgangen en items (bezoekers uit Facebook, een gedefinieerde bestemmingspagina, verwijzingsdomein), aangepaste variabelen (formulierveld, gedefinieerde categorieën, klant-id) en andere criteria.
 
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
