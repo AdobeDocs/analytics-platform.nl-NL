@@ -3,22 +3,22 @@ description: Gebruik snelle filters in Analysis Workspace.
 title: Snelle filters
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: a32b260fb4c4696ac460903f44b240cb71a62db9
+exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
+source-git-commit: 300bc4069b77b62ae13fd5baf2eec5846676fc6e
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
-
 
 # Snelle filters
 
 U kunt snelle filters binnen een project tot stand brengen om de ingewikkeldheid van volledige [de Bouwer van de Filter](/help/components/filters/create-filters.md) te mijden. Snelle filters
 
-* Alleen toepassen op specifieke projecten (u kunt dit wijzigen).
+* Alleen van toepassing op projecten waarin ze zijn gemaakt (u kunt dit wijzigen).
 * Maximaal 3 regels toestaan
 * Plaats geen geneste containers of opeenvolgende regels.
-* Werken in deelvensters met meerdere rapportsuites
+* Werken in projecten met meerdere rapportsuites
 
 Voor een vergelijking van wat de snelle filters kunnen doen versus volledig-afgewerkte component-lijst filters, ga [hier](/help/components/filters/filters-overview.md).
 
@@ -27,7 +27,7 @@ Voor een vergelijking van wat de snelle filters kunnen doen versus volledig-afge
 
 ## Vereisten
 
-Gebruikers hebben de [!UICONTROL Filter Creation] machtiging in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om snelle filters te kunnen maken.
+Gebruikers hebben de [!UICONTROL Segment Creation] machtiging in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om snelle filters te kunnen maken.
 
 ## Snelle filters maken
 
@@ -37,9 +37,9 @@ Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van he
 
 | Instelling | Beschrijving |
 | --- | --- |
-| Naam | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen. |
+| Naam | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijkere naam. |
 | Opnemen/uitsluiten | U kunt componenten in uw filterdefinitie opnemen of uitsluiten, maar niet beide. |
-| Handje/Bezoek/Bezoeker container | Snelle filters omvatten slechts één [filtercontainer](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) die u een afmeting/metrisch/datumwaaier in (of het van) de filter laat uitsluiten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een container [!UICONTROL Visit] kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een container [!UICONTROL Hit] kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
+| Handje/Bezoek/Bezoeker container | Snelle filters omvatten slechts één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) die u een afmeting/metrisch/datumwaaier in (of het van) de filter laat uitsluiten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een container [!UICONTROL Visit] kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een container [!UICONTROL Hit] kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
 | Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door de afmetingen en/of metriek en/of datumbereiken en hun waarden toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Filter] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
 | Operator | Gebruik het vervolgkeuzemenu om standaardoperatoren en [!UICONTROL Distinct Count]-operatoren te zoeken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
 | plusteken (+) | Een andere regel toevoegen |
@@ -83,9 +83,6 @@ De zijbalk van het filter verandert van gestreept blauw in blauw. Het wordt nu w
 
 1. Houd de muisaanwijzer boven het snelle filter en selecteer het pictogram Info (&quot;i&quot;).
 1. **[!UICONTROL Save filter]** selecteren
-
-   ![](assets/save-quick-seg.png)
-
 1. Laat de naam ongewijzigd of wijzig de naam van het filter.
 
    Ga terug naar Workspace en zie hoe het filter nu een blauw zijpaneel heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Filter Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
@@ -100,7 +97,7 @@ Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de f
 
    ![](assets/project-only.png)
 
-1. Selecteren naast **[!UICONTROL Make this filter available to all your projects and add it to your component list.]**
+1. Selecteren naast **[!UICONTROL Make available to all your projects and add to your component list.]**
 1. Klik op **[!UICONTROL Save]**.
 1. Het filter verschijnt nu in uw lijst van de filtercomponent voor al uw projecten.
 1. U kunt het filter [ook met andere mensen in uw organisatie delen.](/help/components/filters/manage-filters.md)

@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1099'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,18 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
 Filteren omvat [Filter Builder](/help/components/filters/create-filters.md) om filters te construeren en een pretest in werking te stellen, en [de Manager van de Filter](/help/components/filters/manage-filters.md) om filters over uw organisatie te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en te delen.
+
+## Filtertypen
+
+U kunt verschillende soorten filters in Werkruimte en de Bouwer van de Filter tot stand brengen, afhankelijk van hoe complex zij moeten zijn, of zij op dit project slechts, enz. zouden moeten van toepassing zijn. Hier volgt een overzicht van filtertypen:
+
+| Filtertype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
+| --- | --- | --- | --- |
+| Component-list, filter | Klik +, wat u aan [de Bouwer van de Filter ](/help/components/filters/create-filters.md) neemt | Al uw projecten van de Werkruimte | Voor complexere filters, opeenvolgende filters |
+| Snel filter | [Snelle filterbuilder](/help/components/filters/quick-filters.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
+| Ad-hocprojectfilter | [Sleep in segment dalingsstreek in een project](/help/components/filters/ad-hoc-filters.md) | Alleen project, maar u kunt het bestand opslaan en toevoegen aan uw filterlijst. | Voor filters met één regel |
+| Filters in falloutanalyse | [Fallout-](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) visualisatie in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
+| Op basis van berekende meetwaarden, filter | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Filter/s toepassen binnen uw metrische definitie |
 
 ## Opeenvolgende filters
 
