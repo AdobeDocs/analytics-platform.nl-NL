@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
+source-git-commit: d833e12c67d74696438be9547db159438e671b2c
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1185'
 ht-degree: 3%
 
 ---
@@ -31,9 +31,11 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Variabelen/lijsteigenschappen weergeven | volledige ondersteuning; CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
 | Metrics | volledige ondersteuning; CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
 | Metrische deduplicatie | Volledige ondersteuning |
+| Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. |
 | PDF exporteren | Volledige ondersteuning |
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
+| Report Builder (Excel-plug-in) | Volledige ondersteuning (oktober 2021) |
 | Tijdverwerking rapporteren | volledige ondersteuning; CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | API-toegang rapporteren | volledige ondersteuning; Beschikbaar via de [CJA API](https://www.adobe.io/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
@@ -80,7 +82,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
 | Handelswijzigingsvariabele persistentie | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
-| Report Builder (Excel-plug-in) | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. |
 
