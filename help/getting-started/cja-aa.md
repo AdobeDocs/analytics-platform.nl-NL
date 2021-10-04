@@ -2,9 +2,9 @@
 title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: d833e12c67d74696438be9547db159438e671b2c
+source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Attribution IQ | Volledige ondersteuning |
 | Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
 | Draaien tussen apparaten en kanalen | volledige ondersteuning; Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
+| CSV-download | Volledige ondersteuning |
 | Aangepaste kalenders | Volledige ondersteuning |
 | Datumvergelijkingen | Volledige ondersteuning |
 | Datumbereik | Alle functionaliteit voor datumbereik wordt ondersteund. |
@@ -77,7 +78,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
 | Contributieanalyse | Er is steun gepland. |
-| CSV-download | Er is steun gepland. |
 | Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. [!UICONTROL Experience Platform Query Service] verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
 | Handelswijzigingsvariabele persistentie | Er is steun gepland. |
