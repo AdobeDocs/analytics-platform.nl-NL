@@ -1,39 +1,21 @@
 ---
 description: Instructies voor het gebruik van de dashboards scorecards.
-title: Uitvoeringshandleiding voor analytische dashboards
-exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+title: Handleiding voor Adobe Analytics-dashboards
+feature: Analytics Dashboards
+role: User, Admin
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
 
-# Analysedashboards: Handleiding voor snel starten van gebruikers
+# Snelle handleiding voor executive gebruikers
 
-De volgende informatie verstrekt uitvoerende gebruikers van informatie over beste praktijken voor het gebruiken van en het bekijken van de dashboards van Analytics. Zie [In-app-ervaring voor analysedashboards](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
 
-
-## Inleiding
-
-De dashboards van de Analytics verstrekt om het even welk ogenblik, overal inzichten van Customer Journey Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
-
-## Meer informatie over deze handleiding
-
-Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en interpreteren van scoreborden op analytische dashboards. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
-
-## Verklarende woordenlijst
-
-| Term | Definitie |
-|--- |--- |
-| Consumenten | Executive-gebruiker die belangrijke metriek en inzichten van CJA op een mobiel apparaat bekijkt |
-| Curator | De gegevens schrijven mensen voor die binnen CJA inzichten vinden en verspreiden en de Scorecards vormen die door de consument moeten worden bekeken |
-| Curation | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
-| Scorecard | Een dashboardweergave met een of meer tegels |
-| Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
-| Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
-| Datumbereik | Het primaire datumbereik voor dashboardrapportage |
-| Vergelijkingsdatumbereik | Het datumbereik dat wordt vergeleken met het primaire datumbereik |
+Deze gids is bedoeld om uitvoerende gebruikers te helpen scorecards op de dashboards van Analytics lezen en interpreteren. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
 ## Stel dashboards in op uw apparaat
 
@@ -43,7 +25,7 @@ Om de dashboards effectief te gebruiken, zult u uw hulp van de Curator van het S
 
 Als u toegang wilt tot scoreborden op dashboards, moet u ervoor zorgen dat:
 
-* U hebt een geldige aanmelding bij Customer Journey Analytics
+* U hebt een geldige aanmelding bij Adobe Analytics
 * Uw curator heeft op de juiste wijze mobiele scoreborden gemaakt en deze met u gedeeld
 
 ### Dashboards downloaden en installeren
@@ -52,13 +34,13 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in CJA onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [iOS-koppeling](https://apple.co/2zXq0aN)
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in CJA onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [Android-koppeling](https://bit.ly/2LM38Oo)
 
@@ -74,9 +56,9 @@ Dashboards gebruiken:
 
    ![Volgorde aanmelden](assets/signseq.png)
 
-2. Kies een bedrijf. Nadat u zich hebt aangemeld bij dashboards, wordt het **[!UICONTROL Choose a company]** scherm weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
+1. Kies een bedrijf. Nadat u zich hebt aangemeld bij dashboards, verschijnt het **[!UICONTROL Choose a company]** scherm. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
 
-3. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
+1. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
 
    ![Kies een bedrijf](assets/nextseq.png)
 
@@ -87,7 +69,7 @@ Dashboards gebruiken:
 
    ![Niets gedeeld](assets/nothing.png)
 
-4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie).
+1. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie).
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
@@ -106,12 +88,12 @@ Dashboards gebruiken:
 
    ![Voorbeeld van scorebord](assets/intro_scorecard.png)
 
-5. Tik op een tegel om te zien hoe een gedetailleerde uitsplitsing van de tegel werkt.
+1. Tik op een tegel om te zien hoe een gedetailleerde uitsplitsing van de tegel werkt.
 
    ![Weergave Schaduwen](assets/sparkline.png)
 
 
-6. U wijzigt de datumbereiken voor uw scorebord als volgt:
+1. U wijzigt de datumbereiken voor uw scorebord als volgt:
 
    ![Datums wijzigen](assets/changedate.png)
 
@@ -119,13 +101,13 @@ Dashboards gebruiken:
 
    * Afhankelijk van het interval dat u tikt (**Day**, **Week**, **Month**, of **Year**), zult u twee opties voor datumwaaier-of de huidige tijdspanwijdte of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]**- gebieden en de Scorecard tegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe waaiers u selecteerde.
 
-7. Tik op de vervolgkeuzelijst met filters en selecteer een filter dat door de curator is geconfigureerd om een filter op uw scorebord toe te passen. [De ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
+1. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Filters in de app werken op dezelfde manier als in de Analytics Workspace.
 
-   ![Filter](assets/segment_filter.png)
+   ![Segment, filter](assets/segment_filter.png)
 
-8. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
+1. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
-9. Feedback geven op deze app:
+1. Feedback geven op deze app:
 
    1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
    2. Tik op **[!UICONTROL Settings]** op het scherm **[!UICONTROL Feedback]**.
@@ -133,7 +115,7 @@ Dashboards gebruiken:
 
       ![Instellingenscherm](assets/settings.png)
 
-10. Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+1. Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
    ![Donkere modus](assets/darkmode.png)
 
@@ -141,7 +123,6 @@ Dashboards gebruiken:
 **Een fout** rapporteren:
 
 Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor het melden van een fout uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermopname van uw accountgegevens aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om het rapport te verzenden.
-
 
 ![Fout rapporteren](assets/newbug.png)
 
@@ -152,3 +133,17 @@ Tik op de optie en kies een subcategorie voor de suggestie. Geef in het aanvraag
 **Een vraag** stellen:
 
 Tik op de optie en geef uw e-mailadres op in het bovenste veld en uw vraag in het veld eronder. Een het schermschot wordt automatisch in bijlage aan het bericht, maar u kunt dit schrappen als u wilt door **X** in het gehechtheidsbeeld te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de vraag te verzenden.
+
+## Verklarende woordenlijst
+
+| Term | Definitie |
+|--- |--- |
+| Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
+| Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
+| Curation | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
+| Scorecard | Een dashboardweergave met een of meer tegels |
+| Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
+| Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
+| Datumbereik | Het primaire datumbereik voor dashboardrapportage |
+| Vergelijkingsdatumbereik | Het datumbereik dat wordt vergeleken met het primaire datumbereik |
+
