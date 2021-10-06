@@ -4,9 +4,9 @@ title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,9 @@ ht-degree: 0%
 De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!NOTE]
+>Schermafbeeldingen met scoreborden voor deze pagina zijn gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit CJA. De gebruikersinterface is bijna identiek.
 
 Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een getimede lay-out, zoals hieronder getoond:
 
@@ -116,7 +119,7 @@ U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikke
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
 
-![Samenvattingsnummer](assets/sparkline.png)
+![Samenvattingsnummer](assets/summary-number.png)
 
 ### [!UICONTROL Donut]
 
@@ -153,11 +156,11 @@ Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de e
 
 ![Eigenschappen, tegel](assets/properties_tile.png)
 
-## Insteekmodules weergeven (onderbrekingen)
+## Insteekmodules weergeven (uitsplitsingen)
 
-Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
+Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. U kunt dimensies en dimensies opsplitsen om uw gegevens op te splitsen voor uw specifieke behoeften. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
 
-De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere metriek en afmetingen, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
+De onderbrekingen verfijnen uw analyse door afmetingen door andere metriek en dimensies, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
 
 * Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
