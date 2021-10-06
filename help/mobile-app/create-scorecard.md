@@ -3,13 +3,13 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
+exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
-
 
 # Een scorecard maken
 
@@ -112,32 +112,31 @@ U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikke
 
 ![Visualisaties](assets/vizs.png)
 
-**[!UICONTROL Summary Number]**
+### [!UICONTROL Summary Number]
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
 
 ![Samenvattingsnummer](assets/sparkline.png)
 
-**[!UICONTROL Donut]visualisatie**
+### [!UICONTROL Donut]
 
 Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel bijvoorbeeld dat u wilt zien welke advertentieplatform heeft bijgedragen aan het totale aantal unieke bezoekers:
 
 ![Donut visualisatie](assets/donut-viz.png)
 
-**[!UICONTROL Line]visualisatie**
+### [!UICONTROL Line]
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
 ![Lijnvisualisatie](assets/line.png)
 
-
-**[!UICONTROL Horizontal Bar]visualisatie**
+### [!UICONTROL Horizontal Bar]
 
 Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor uw voorkeursvisualisatie.
 
 ![horizontale balk](assets/horizontal.png)
 
-**Verwijderen[!UICONTROL Unspecified]**
+### Dimensie-item [!UICONTROL Unspecified] verwijderen
 
 Als u [!UICONTROL Unspecified] afmetingspunten uit uw gegevens wilt verwijderen, doe het volgende:
 
@@ -153,6 +152,8 @@ Als u [!UICONTROL Unspecified] afmetingspunten uit uw gegevens wilt verwijderen,
 Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
 ![Eigenschappen, tegel](assets/properties_tile.png)
+
+## Insteekmodules weergeven (onderbrekingen)
 
 Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
 

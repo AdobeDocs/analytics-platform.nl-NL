@@ -3,13 +3,13 @@ description: Gebruikers instellen om de mobiele app Analytics te gebruiken
 title: Stel managers in voor het gebruik van dashboards
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
+exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoerende gebruikers instellen voor het gebruik van dashboards
 
@@ -19,7 +19,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 
 1. Stel nieuwe gebruikers in de [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en) in.
 
-1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de rapportsuites toegang te hebben die scorecards op, evenals segmenten, metriek en dimensies gebaseerd zijn.
+1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de gegevensmeningen toegang te hebben die scorecards, evenals filters, metriek en dimensies gebaseerd zijn.
 
 ## Systeemvereisten voor gebruikers van de app
 
@@ -111,4 +111,3 @@ Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt geme
 * De scorecard is mogelijk niet gedeeld met de uitvoerende gebruiker.
 
 Verifieer dat de uitvoerende gebruiker in de juiste instantie van Adobe Analytics kan registreren en dat de scorecard is gedeeld.
-
