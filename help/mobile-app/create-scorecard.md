@@ -3,9 +3,9 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Het scorebordsjabloon implementeren:
 
    ![Selectie van rapportsuite](assets/properties_save.png)
 
-1. Als u een nieuwe tegel aan uw scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de zone **[!UICONTROL Drag and Drop Metrics Here]**. You can also insert a metric between two tiles using a similar workflow.
+1. Als u een nieuwe tegel aan uw scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de zone **[!UICONTROL Drag and Drop Metrics Here]**. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
    ![Tegels toevoegen](assets/build_list.png)
 
@@ -126,7 +126,7 @@ Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven 
 
 **[!UICONTROL Line]visualisatie**
 
-De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een grafiek van de Lijn kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
 ![Lijnvisualisatie](assets/line.png)
 
@@ -146,7 +146,7 @@ Als u [!UICONTROL Unspecified] afmetingspunten uit uw gegevens wilt verwijderen,
 
    ![ongespecificeerd](assets/unspecified.png)
 
-1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen.
+1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
 
 ## Eigenschappen van tegels weergeven en configureren
 
@@ -154,13 +154,13 @@ Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de e
 
 ![Eigenschappen, tegel](assets/properties_tile.png)
 
-Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. If no dimension has been applied to the tile, the breakdown dimension will be **hour** or **days**, depending on the default date range.
+Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
 
 De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere metriek en afmetingen, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
 
 * Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
-* Total Revenue broken down by Product Name
+* Totaal ontvangsten uitgesplitst naar productnaam
 
 ![Onderverdeling_weergave](assets/break_view.png)
 
@@ -195,6 +195,6 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 ![Share_Scorecards](assets/new_share.png)
 
-After you have shared a scorecard, your recipients can access it on their Analytics dashboards. Als u verdere veranderingen in scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. Executive users will then see the changes after refreshing the Scorecard on their app.
+Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u verdere veranderingen in scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
 Als u de scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en **[!UICONTROL Share embedded components]** optie) controleren om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
