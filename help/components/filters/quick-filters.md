@@ -4,9 +4,9 @@ title: Snelle filters
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
+source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,6 @@ U kunt snelle filters binnen een project tot stand brengen om de ingewikkeldheid
 * Alleen van toepassing op projecten waarin ze zijn gemaakt (u kunt dit wijzigen).
 * Maximaal 3 regels toestaan
 * Plaats geen geneste containers of opeenvolgende regels.
-* Werken in projecten met meerdere rapportsuites
 
 Voor een vergelijking van wat de snelle filters kunnen doen versus volledig-afgewerkte component-lijst filters, ga [hier](/help/components/filters/filters-overview.md).
 
