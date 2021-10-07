@@ -2,7 +2,7 @@
 title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
+source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
 workflow-type: tm+mt
 source-wordcount: '2941'
 ht-degree: 1%
@@ -97,7 +97,7 @@ ACOS(metric)
 Retourneert de arcsinus, of omgekeerde sinus, van een getal. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arcsinus in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI( ).
 
 ```
-ASIN(metric) 
+ASIN(metric)
 ```
 
 | Argument |  |
@@ -134,10 +134,10 @@ ESTIMATE.EXP(metric_X, metric_Y)
 Retourneert het percentage waarden in de t-distributie van een student met n vrijheidsgraden met een z-score kleiner dan x.
 
 ```
-cdf_t( -∞, n ) = 0 
-cdf_t(  ∞, n ) = 1 
-cdf_t( 3, 5 ) ? 0.99865 
-cdf_t( -2, 7 ) ? 0.0227501 
+cdf_t( -∞, n ) = 0
+cdf_t(  ∞, n ) = 1
+cdf_t( 3, 5 ) ? 0.99865
+cdf_t( -2, 7 ) ? 0.0227501
 cdf_t( x, ∞ ) ? cdf_z( x )
 ```
 
@@ -146,12 +146,11 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 Retourneert het percentage van waarden in een normale distributie met een z-score van minder dan x.
 
 ```
-cdf_z( -∞ ) = 0 
-cdf_z( ∞ ) = 1 
-cdf_z( 0 ) = 0.5 
-cdf_z( 2 ) ? 0.97725 
-cdf_z( -3 ) ? 0.0013499 
- 
+cdf_z( -∞ ) = 0
+cdf_z( ∞ ) = 1
+cdf_z( 0 ) = 0.5
+cdf_z( 2 ) ? 0.97725
+cdf_z( -3 ) ? 0.0013499
 ```
 
 ## Plakken (rij)
@@ -197,12 +196,11 @@ Retourneert de som van x voor de laatste N-rijen (zoals geordend door de dimensi
 Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wordt bevolen is het slechts nuttig op afmetingen die een natuurlijke orde zoals datum of weglengte hebben.
 
 ```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
-|------+------+--------------+--------------| 
-| May  | $500 | $500         | $500         | 
-| June | $200 | $700         | $700         | 
-| July | $400 | $1100        | $600         | 
- 
+| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) |
+|------+------+--------------+--------------|
+| May  | $500 | $500         | $500         |
+| June | $200 | $700         | $700         |
+| July | $400 | $1100        | $600         |
 ```
 
 ## Cumulatief gemiddelde
@@ -705,19 +703,19 @@ waarbij [!DNL x] de onbewerkte score is, [!DNL μ] het gemiddelde van de populat
 
 Z-score (metrisch)
 
-<table id="table_AEA3622A58F54EA495468A9402651E1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
+<table id="table_AEA3622A58F54EA495468A9402651E1B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Argument </th>
+   <th colname="col2" class="entry"> Beschrijving </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metrisch</i> </td> 
-   <td colname="col2"> <p> Retourneert de waarde van het eerste argument anders dan nul. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <i>metrisch</i> </td>
+   <td colname="col2"> <p> Retourneert de waarde van het eerste argument anders dan nul. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Z-test

@@ -1,12 +1,12 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
-feature: Basisprincipes van werkruimte
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
+source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimt
 Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UICONTROL Project]**, afhankelijk van de manier waarop u in de toekomst toegang wilt krijgen tot uw analyse.
 
 | Handeling | Beschrijving |
-|---|---| 
+|---|---|
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
 | **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |

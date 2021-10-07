@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: 4b528ef401cbe63b6237c66c2e9f39ee831aa71e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 37%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -133,6 +133,15 @@ ht-degree: 37%
       + [Beheervereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Lange staart in Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
++ Report Builder {#cja-reportbuilder}
+   + [Overzicht van Report Builder](report-builder/report-buider-overview.md)
+   + [Report Builder instellen](report-builder/report-builder-setup.md)
+   + [Een gegevensblok maken](report-builder/create-a-data-block.md)
+   + [Report Builder Hub](report-builder/report-builder-hub.md)
+   + [Een datumbereik selecteren](report-builder/select-date-range.md)
+   + [Werken met filters](report-builder/work-with-filters.md)
+   + [Dimension filteren](report-builder/filter-dimensions.md)
+   + [Report Builder-instellingen](report-builder/report-builder-settings.md)
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](components/overview.md)
    + Dimensies {#dimensions}
