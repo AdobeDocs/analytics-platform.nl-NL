@@ -4,17 +4,17 @@ description: Beschrijft Report Builder voor Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
+exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
+source-git-commit: bc80a77c2136232ec209dfecc1ece1d614b438a8
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Info over Report Builder voor Customer Journey Analytics
 
-Report Builder is toe:voegen-binnen van Microsoft Excel die u toestaat om douanerapporten gemakkelijk tot stand te brengen uit te geven en te verfrissen gebruikend de gegevens van Customer Journey Analytics. Met Report Builder en Excel, kunt u eenvoudige maar flexibele belemmering-en-dalingsUI gebruiken om complexe gegevensverzoeken gemakkelijk te bouwen.
+Met Report Builder for Customer Journey Analytics Report Builder kunt u eenvoudig aangepaste rapporten maken, bewerken en vernieuwen met Adobe Customer Journey Analytics-gegevens. Customer Journey Analytics is de dienst die op Adobe Experience Platform wordt voortgebouwd die u bij veelvoudige gegevensbronnen laat aansluiten om een holistische mening van uw zaken tot stand te brengen. Met Report Builder eenvoudig en flexibel slepen en neerzetten UI kunt u complexe gegevensquery&#39;s en aangepaste rapporten maken vanuit Customer Journey Analytics, allemaal in Excel.
 
 Met Report Builder voor Customer Journey Analytics kunt u:
 
@@ -28,6 +28,7 @@ Report Builder for Customer Journey Analytics is beschikbaar voor Excel op de vo
 - Windows
 - Webbrowsers
 
+>[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
 >[!NOTE]
 >
