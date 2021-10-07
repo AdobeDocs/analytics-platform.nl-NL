@@ -1,12 +1,12 @@
 ---
-description: Gebruik snelle filters in Analysis Workspace.
+description: Snelfilters gebruiken in Analysis Workspace voor Customer Journey Analytics
 title: Snelle filters
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 300bc4069b77b62ae13fd5baf2eec5846676fc6e
+source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Voor een vergelijking van wat de snelle filters kunnen doen versus volledig-afge
 
 ## Vereisten
 
-Gebruikers hebben de [!UICONTROL Segment Creation] machtiging in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om snelle filters te kunnen maken.
+Iedereen kan een Snel segment maken. Nochtans, hebt u de toestemming van de Aanmaak van het Segment in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om een snelle segmenten te kunnen bewaren of het in de Bouwer van het Segment te openen.
 
 ## Snelle filters maken
 
@@ -40,15 +40,15 @@ Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van he
 | Naam | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijkere naam. |
 | Opnemen/uitsluiten | U kunt componenten in uw filterdefinitie opnemen of uitsluiten, maar niet beide. |
 | Handje/Bezoek/Bezoeker container | Snelle filters omvatten slechts één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) die u een afmeting/metrisch/datumwaaier in (of het van) de filter laat uitsluiten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een container [!UICONTROL Visit] kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een container [!UICONTROL Hit] kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
-| Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door de afmetingen en/of metriek en/of datumbereiken en hun waarden toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Filter] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
+| Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen en/of metriek en/of datumbereiken) en hun waarden toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Filter] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
 | Operator | Gebruik het vervolgkeuzemenu om standaardoperatoren en [!UICONTROL Distinct Count]-operatoren te zoeken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
 | plusteken (+) | Een andere regel toevoegen |
 | EN/OF kwalificatietekens | U kunt de aanduidingen AND of OR toevoegen aan de regels, maar u kunt AND en OR niet combineren in één filterdefinitie. |
 | Toepassen | Pas dit filter toe op het deelvenster. Als het filter geen gegevens bevat, wordt u gevraagd of u wilt doorgaan. |
-| Opbouwfunctie openen | Opent de Filter Builder. Nadat u het filter hebt opgeslagen in de Filter Builder, wordt het niet langer beschouwd als een &quot;Snel filter&quot;. Het wordt onderdeel van de filterbibliotheek van de component-lijst. |
+| Opbouwfunctie openen | Opent de Filter Builder. Wanneer u het filter opslaat of toepast in de Filter Builder, wordt het niet langer beschouwd als een &quot;Snel filter&quot;. Het wordt onderdeel van de filterbibliotheek van de component-lijst. |
 | Annuleren | Annuleer dit snelle filter - pas het niet toe. |
 | Datumbereik | De validator gebruikt het datumbereik van het deelvenster voor het opzoeken van de gegevens. Maar elk datumbereik dat u in een snel filter toepast, overschrijft het datumbereik van het deelvenster boven in het deelvenster. |
-| Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig filter hebt en hoe breed het filter is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten wanneer u dit filter toepast. Mogelijk ziet u een waarschuwing die aangeeft dat dit filter geen gegevens heeft. U kunt doorgaan of de filterdefinitie wijzigen. |
+| Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig filter hebt en hoe breed het filter is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten wanneer u dit filter toepast. Er kan een melding verschijnen dat aangeeft dat dit filter geen gegevens heeft. In dit geval kunt u doorgaan of de filterdefinitie wijzigen. |
 
 Hier volgt een voorbeeld van een filter waarin afmetingen en meetwaarden worden gecombineerd:
 
@@ -77,7 +77,7 @@ U kunt ervoor kiezen om snelle filters op te slaan in [!UICONTROL Quick Filter B
 1. (Optioneel) Wijzig de naam van het filter.
 1. Klik op **[!UICONTROL Save]**.
 
-De zijbalk van het filter verandert van gestreept blauw in blauw. Het wordt nu weergegeven in uw lijst met componenten in de linkerrails.
+De zijbalk van het filter verandert van gestreept blauw in lichter blauw. Het wordt nu weergegeven in uw lijst met componenten in de linkerrails.
 
 ### Opslaan in de Filterbouwer
 
@@ -85,7 +85,7 @@ De zijbalk van het filter verandert van gestreept blauw in blauw. Het wordt nu w
 1. **[!UICONTROL Save filter]** selecteren
 1. Laat de naam ongewijzigd of wijzig de naam van het filter.
 
-   Ga terug naar Workspace en zie hoe het filter nu een blauw zijpaneel heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Filter Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
+   Ga terug naar Workspace en zie hoe het filter nu een lichtblauwe zijbalk heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Filter Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
 
    ![](assets/quick-seg4.png)
 
@@ -104,4 +104,6 @@ Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de f
 
 ## Wat zijn alleen-projectfilters?
 
-Filters met alleen een project zijn snelle filters of ad-hocprojectfilters in de werkruimte. Wanneer het uitgeven van/het openen van hen in [!UICONTROL Filter Builder], zal het project-enige vakje verschijnen. Als u een snel filter toepast in de builder maar het selectievakje voor het beschikbaar maken niet inschakelt, is het nog steeds een filter dat alleen voor het project geldt, maar kan het niet meer worden geopend in [!UICONTROL Quick Filter Builder]. Als u het vakje controleert en **[!UICONTROL SAVE]** klikt, is het nu een component-lijst filter.
+Filters met alleen een project zijn snelle filters of ad-hocprojectfilters in de werkruimte. Wanneer het uitgeven van/het openen van hen in [!UICONTROL Filter Builder], verschijnt het project-enige vakje.
+
+Als u een snel filter toepast in de builder maar het vakje &quot;ter beschikking stellen&quot; niet inschakelt, is het nog steeds een alleen-projectfilter maar kan het niet meer worden geopend in [!UICONTROL Quick Filter Builder]. Als u het vakje controleert en **[!UICONTROL Save]** klikt, is het nu een component-lijst filter.

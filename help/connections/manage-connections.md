@@ -3,9 +3,9 @@ title: Verbindingen beheren
 description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (CJA) te beheren.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
+source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -131,9 +131,16 @@ Hier worden de widgets en instellingen beschreven:
 
 ### Verbinding bewerken
 
-Hiermee kunnen beheerders de verbinding bewerken. Selecteer een verbinding en klik op [!UICONTROL Edit Connection] om dit dialoogvenster te openen. Hier kunt u het volgende doen:
+Hiermee kunnen beheerders de verbinding bewerken. Selecteer een verbinding en klik vervolgens op [!UICONTROL Edit Connection] om dit dialoogvenster te openen. Hier kunt u het volgende doen:
 
 * Nieuwe gegevens beginnen en stoppen. Dit proces werd voorheen &quot;gegevensstreaming&quot; genoemd.
 * Wijzig de naam van een verbinding.
 * Vernieuw de gegevensset(s).
 * Verwijder dataset/s uit de verbindingen.
+
+## Rolvenster instellen voor het bewaren van [!UICONTROL Connection]-gegevens
+
+>[!IMPORTANT]
+>Neem contact op met de klantenservice of uw Adobe-accountmanager om deze instelling te laten implementeren. Deze is nog niet beschikbaar via de gebruikersinterface van CJA.
+
+Met deze instelling kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (3 maanden, 6 maanden, enz.) op een niveau [!UICONTROL connection] (niet op een niveau [!UICONTROL dataset]). Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn. Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
