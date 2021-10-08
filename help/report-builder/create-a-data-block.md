@@ -4,13 +4,13 @@ description: Beschrijft hoe te om een gegevensblok tot stand te brengen.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: d946e6dbda608499594cf48a9456131485e7349a
+exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
+source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
-
 
 # Een gegevensblok maken
 
@@ -36,7 +36,7 @@ Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van
 
 1. Stel het **Datumbereik** in.
 
-   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Zie &lt;&lt; koppeling naar datumbereik >> voor meer informatie over opties voor gegevensbereik.
+   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Zie [Een datumbereik selecteren](select-date-range.md) voor informatie over opties voor gegevensbereik.
 
 1. Klik **Volgende**.
 
