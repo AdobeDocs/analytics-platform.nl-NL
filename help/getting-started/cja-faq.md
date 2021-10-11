@@ -2,10 +2,10 @@
 title: Customer Journey Analytics Veelgestelde vragen
 description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,6 @@ ht-degree: 1%
 | Vraag | Antwoord |
 | --- | --- |
 | Kan ik gegevens van verschillende [!UICONTROL Adobe Experience Platform] zandbakken in één [!UICONTROL Customer Journey Analytics] verbinding combineren? | Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Onder normale belasting: &lt; 60 minuten <br>**Opmerking:** In het geval van een ongebruikelijk hoog gegevensvolume door de pijpleiding, kan het tot 24 uur duren.</li><li>Backfill-gegevens (tot 13 maanden aan gegevens, ongeacht de grootte): &lt; 4 weken</li></ul> |
 | Hoe verbind ik online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]? | Zolang de persoonidentiteitskaart tussen datasets aanpast, [!UICONTROL Customer Journey Analytics] filters, attributie, stroom, fallout, enz. kan verbinden over datasets. |
 | Hoe breng ik mijn off-line gegevens in [!UICONTROL Customer Journey Analytics]? | Met uw recht op Customer Journey Analytics kunt u gegevens in het Experience Platform invoeren. Vervolgens kunt u verbindingen maken met die gegevens en gegevensweergaven in [!UICONTROL Customer Journey Analytics], voor rapportage in Analysis Workspace. Het team voor gegevens aan boord van het Experience Platform kan u, indien nodig, aanbevelingen of advies geven. |
 | Hoe krijg ik [!UICONTROL Adobe Analytics] gegevens in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Adobe Analytics] gegevens kunnen via de  [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) op het Experience Platform worden aangesloten. De meeste [!UICONTROL Adobe Analytics] gebieden worden gebracht over in formaat XDM, maar andere gebieden zijn nog niet beschikbaar. |
@@ -48,7 +47,17 @@ ht-degree: 1%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. Traditionele [!UICONTROL Adobe Analytics]-componenten
+## 4. Latentieoverwegingen
+
+>[!NOTE]
+>Er is geen vaste gegevensgrootte in CJA en dus kan Adobe zich niet vastleggen op een standaardinnametijd. We werken actief aan het verkleinen van deze latentie door nieuwe updates en optimalisatie van inname.
+
+| Vraag | Antwoord |
+| --- | --- |
+| Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in AEP.</li><li>Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 24 uur<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul> |
+
+
+## 5. Traditionele [!UICONTROL Adobe Analytics]-componenten
 
 | Vraag | Antwoord |
 | --- | --- |
@@ -61,7 +70,7 @@ ht-degree: 1%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 5. Implicaties van het verwijderen van gegevenscomponenten
+## 6. Implicaties van het verwijderen van gegevenscomponenten
 
 Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zandbak, schema, dataset, verbinding, gegevensmening, en het project van de Werkruimte. Hier zijn enkele mogelijke scenario&#39;s voor het verwijderen van een van deze componenten:
 
@@ -76,7 +85,7 @@ Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zan
 | Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
 | Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutenmelding zal erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer werkend zullen zijn. |
 
-## 6. Overwegingen bij het samenvoegen van rapportsuites in CJA
+## 7. Overwegingen bij het samenvoegen van rapportsuites in CJA
 
 Als u van plan bent om Adobe Analytics gegevens door [Adobe Analytics bronschakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en) in te voeren, overweeg deze vertakkingen wanneer het samenvoegen van 2 of meer Adobe Analytics rapportreeksen.
 
@@ -86,5 +95,5 @@ Als u van plan bent om Adobe Analytics gegevens door [Adobe Analytics bronschake
 | [!UICONTROL Sessions] en  [!UICONTROL People] aantallen | Ze worden gededupliceerd door de rapportsuites. Hierdoor komen aantallen mogelijk niet overeen. |
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders]) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID]). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, kunnen de metriek zoals [!UICONTROL Orders] niet over rapportsuites optellen. |
 | Valuta | Valutaconversie wordt nog niet ondersteund in CJA. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
-| [!UICONTROL Persistence] | [](../data-views/component-settings/persistence.md) Persistenceextends over rapporten, welke gevolgen hebben  [!UICONTROL filters],  [!UICONTROL attribution]enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
+| [!UICONTROL Persistence] | [](../data-views/component-settings/persistence.md) Persistenceextends over rapportsuites, die van invloed zijn  [!UICONTROL filters],  [!UICONTROL attribution]enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden combineert tot één [!UICONTROL lookup] gegevensset, kunnen er problemen optreden. |
