@@ -4,10 +4,10 @@ title: Snelle filters
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -32,15 +32,15 @@ Iedereen kan een Snel segment maken. Nochtans, hebt u de toestemming van de Aanm
 
 Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van het deelvenster:
 
-![](assets/quick-seg1.png)
+![Segment, filter](assets/quick-seg1.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
 | Naam | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijkere naam. |
 | Opnemen/uitsluiten | U kunt componenten in uw filterdefinitie opnemen of uitsluiten, maar niet beide. |
 | Handje/Bezoek/Bezoeker container | Snelle filters omvatten slechts één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) die u een afmeting/metrisch/datumwaaier in (of het van) de filter laat uitsluiten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een container [!UICONTROL Visit] kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een container [!UICONTROL Hit] kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
-| Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen en/of metriek en/of datumbereiken) en hun waarden toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Filter] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
-| Operator | Gebruik het vervolgkeuzemenu om standaardoperatoren en [!UICONTROL Distinct Count]-operatoren te zoeken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
+| Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen, metriek, datumbereiken of afmetingswaarden) toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Filter] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
+| Operator | Gebruik het vervolgkeuzemenu om standaardoperatoren en [!UICONTROL Distinct Count]-operatoren te zoeken. Zie [Filteroperatoren](operators.md). |
 | plusteken (+) | Een andere regel toevoegen |
 | EN/OF kwalificatietekens | U kunt de aanduidingen AND of OR toevoegen aan de regels, maar u kunt AND en OR niet combineren in één filterdefinitie. |
 | Toepassen | Pas dit filter toe op het deelvenster. Als het filter geen gegevens bevat, wordt u gevraagd of u wilt doorgaan. |
@@ -51,11 +51,11 @@ Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van he
 
 Hier volgt een voorbeeld van een filter waarin afmetingen en meetwaarden worden gecombineerd:
 
-![](assets/quick-seg2.png)
+![Voorbeeld van filterdefinitie](assets/quick-seg2.png)
 
 Het filter verschijnt bovenaan. Let op de zijbalk met een blauwe streep, in tegenstelling tot de blauwe zijbalk voor filters op componentniveau in de filterbibliotheek aan de linkerkant.
 
-![](assets/quick-seg3.png)
+![Componentlocaties filteren](assets/quick-seg3.png)
 
 ## Snelle filters bewerken
 
@@ -86,7 +86,7 @@ De zijbalk van het filter verandert van gestreept blauw in lichter blauw. Het wo
 
    Ga terug naar Workspace en zie hoe het filter nu een lichtblauwe zijbalk heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Filter Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
 
-   ![](assets/quick-seg4.png)
+   ![Lijst met filtercomponenten](assets/quick-seg4.png)
 
 Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de filtercomponent toe te voegen en het ter beschikking te stellen van al uw projecten.
 
@@ -94,7 +94,7 @@ Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de f
 
 1. Boven aan de Filter Builder ziet u dit dialoogvenster:
 
-   ![](assets/project-only.png)
+   ![Dialoogvenster Filter](assets/project-only.png)
 
 1. Selecteren naast **[!UICONTROL Make available to all your projects and add to your component list.]**
 1. Klik op **[!UICONTROL Save]**.
