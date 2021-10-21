@@ -1,9 +1,9 @@
 ---
 description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Cijfers samenstellen
-source-git-commit: 92d9c3bd7478af5fbd4aca20fd814e2c9f2d6ef4
+source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 | Definitie | Dit is waar u in metriek/berekende metriek, filters, en/of functies sleept om berekende metrisch te bouwen. Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. U kunt definities nesten met containers. In tegenstelling tot gesegmenteerde containers, functioneren deze containers als een wiskundige uitdrukking en bepalen de orde van verrichtingen. |
 | Operator | [!UICONTROL Divided by] is de standaardoperator, plus de operatoren +, - en x. |
 | Voorvertoning | Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
+| Productcompatibiliteit | De verenigbaarheid van het product toont u of metrisch met Volledig Verwerkte Gegevens compatibel is. |
 | Toevoegen | Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u filters en functies ook toevoegen.<ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Als u een segment naar een container sleept, wordt alles in die container gesegmenteerd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere filters in een container stapelen.</li></ul> |
 | Pictogram tandwiel (metrisch type, kenmerk) | Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en de kenmerkmodellen opgeven. |
 | + Nieuw | Hiermee kunt u een nieuwe component maken, zoals een nieuw filter (waarmee u naar de Filterbouwer gaat). |
