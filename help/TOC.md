@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
+source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 36%
+source-wordcount: '560'
+ht-degree: 41%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 36%
       + [Overzicht van kanaalanalyse](connections/cca/overview.md)
       + [Hoe herspeelt u](connections/cca/replay.md)
       + [Veelgestelde vragen over kanaalanalyse](connections/cca/faq.md)
-+ Gegevensweergaven {#cja-dataviews}
++ Gegevens {#cja-dataviews}
    + [Overzicht van gegevensweergaven](data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](data-views/create-dataview.md)
    + Componentinstellingen {#component-settings}
@@ -104,7 +104,7 @@ ht-degree: 36%
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
-   + Projecten voor curven, delen en plannen {#curate-share}
+   + Projecten cureren, delen en plannen {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
@@ -159,8 +159,21 @@ ht-degree: 36%
       + [Operatoren](components/filters/operators.md)
    + Berekende statistieken {#cja-calcmetrics}
       + [Overzicht van berekende metriek](components/calc-metrics/calc-metr-overview.md)
-      + [Een berekende metrische waarde maken](components/calc-metrics/create.md)
-      + [Berekende waarden beheren](components/calc-metrics/manage.md)
+      + Workflow voor berekende statistieken {#cm-workflow}
+         + [Workflow voor berekende standaard](components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [Cijfers zoeken](components/calc-metrics/cm-workflow/cm-finding.md)
+         + [Cijfers samenstellen](components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Type cijfers en attributie](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+         + [Een eenvoudige indicator voor &quot;Paginaweergaven per bezoek&quot; maken](components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Gefilterde metriek](components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [Segmenten stapelen en vervangen](components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Gefilterde en gewogen cijfers](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [Functies gebruiken](components/calc-metrics/cm-workflow/cm-using-functions.md)
+         + [Participatiecijfers](components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Berekende standaard een label geven](components/calc-metrics/cm-workflow/cm-tagging.md)
+         + [Berekende standaard goedkeuren](components/calc-metrics/cm-workflow/cm-approving.md)
+         + [Berekende standaard delen](components/calc-metrics/cm-workflow/cm-sharing.md)
+         + [Berekende standaard-beheer](components/calc-metrics/cm-workflow/cm-manager.md)
       + [Basisfuncties](components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](components/calc-metrics/cm-adv-functions.md)
    + Datumbereiken {#cja-date-ranges}
@@ -170,7 +183,7 @@ ht-degree: 36%
       + [Overzicht van agenda](components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](components/date-ranges/time-comparison.md)
-+ Gebruik gevallen {#cja-usecases}
++ Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
    + [(B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset](use-cases/b2b.md)
