@@ -3,10 +3,10 @@ description: De rijinstellingen variëren afhankelijk van de component die u naa
 title: Rij-instellingen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 7abd4d08f02597aed1af27970b8497898a553a10
+source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+
+Bekijk hier een video over rij- en kolominstellingen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
 
 De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Klik op de knop [!UICONTROL Settings] pictogram naast een afmeting, filter, metrisch, tijdspanne, of een afbraak binnen elk van deze:
 

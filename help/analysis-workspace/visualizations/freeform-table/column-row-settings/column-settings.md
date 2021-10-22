@@ -1,31 +1,34 @@
 ---
 description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
-translation-type: tm+mt
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
+exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
+source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '623'
 ht-degree: 23%
 
 ---
-
 
 # [!UICONTROL Column Settings]
 
 [!UICONTROL Column Settings] Laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
 
-## [!UICONTROL Column Settings] {#edit-column-settings} bewerken
+Bekijk hier een video over rij- en kolominstellingen:
 
-Als u [!UICONTROL Column Settings] wilt openen, sleept u een tabel voor vrije vorm naar het project en klikt u op het tandwielpictogram in de kolomkop.
+>[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+
+## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
+
+Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het tandwielpictogram in de kolomkop.
 
 ![](assets/column_settings.png)
 
-U kunt instellingen **voor meerdere kolommen tegelijk bewerken**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
+U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
 
 | Element | Beschrijving |
 | --- | --- |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
-| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking:  We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
+| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
 | Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
 | Tekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
 | nul interpreteren als geen waarde | Voor cellen met een waarde 0 bepaalt u of een cel van 0 of een lege cel moet worden weergegeven. Dit is handig wanneer u gegevens bekijkt voor elke dag van een maand, en sommige dagen zijn nog niet gebeurd.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, kunnen lege cellen worden weergegeven. Grafieken voldoen ook aan deze instelling (ze geven dus geen lijn of balk weer met 0 waarden als deze instelling is ingeschakeld). |
@@ -49,13 +52,13 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 ## Niet-standaard toewijzingsmodel gebruiken {#attribution}
 
-Analysis Workspace ondersteunt [attributie](/help/analysis-workspace/attribution/overview.md) voor bijna elke metrische waarde.
+Analysis Workspace-ondersteuning [toewijzing](/help/analysis-workspace/attribution/overview.md) voor bijna elke metrische waarde.
 
 1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
 
    ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
-1. Controleer **[!UICONTROL Use non-default attribution model]** onder **[!UICONTROL Data Settings]**. Zie [Attributiemodellen](/help/analysis-workspace/attribution/models.md) voor meer informatie over verschillende attributiemodellen.
+1. Onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen [Attributiemodellen](/help/analysis-workspace/attribution/models.md).
 
    ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
 
