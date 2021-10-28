@@ -2,16 +2,16 @@
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
 description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 # Gebruikersvoorkeuren
 
-Met de pagina [!UICONTROL Components] > [!UICONTROL User preferences] kunt u Analysis Workspace-instellingen en de bijbehorende componenten voor uw gebruikers beheren. De voorkeur van de gebruiker is op *alle* nieuwe projecten of panelen van toepassing.
+De [!UICONTROL Components] > [!UICONTROL User preferences] kunt u Analysis Workspace-instellingen en de bijbehorende componenten voor uw gebruikers beheren. Gebruikersvoorkeuren zijn van toepassing op *alles* nieuwe projecten of panels.
 
 ![Gebruikersvoorkeuren](assets/user-preferences.png)
 
@@ -38,3 +38,14 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1 000 00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
+
+## [!UICONTROL Dark theme]
+
+Als u liever een donkere achtergrond voor uw Customer Journey Analytics-gebruikersinterface hebt, kunt u schakelen tussen [!UICONTROL Dark theme].
+
+1. Klik op het gebruikerspictogram Experience Cloud rechtsboven.
+
+   ![donkerthema](assets/dark-theme.png)
+
+1. Verplaats de **[!UICONTROL Dark theme]** naar rechts.
+
