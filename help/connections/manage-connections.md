@@ -3,9 +3,9 @@ title: Verbindingen beheren
 description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (CJA) te beheren.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 6b9a725cf31385576f358c137a1e6ba71cd74f95
+source-git-commit: 236bba2e3ff851f6e7097c4c41a04f1b6221efa0
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Hier worden de widgets en instellingen beschreven:
 | [!UICONTROL Records of event data available] widget | Vertegenwoordigt het totale aantal rijen van de gebeurtenisdataset beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. Het verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. (Let op: er is een latentie van 1-2 uur om de gegevens weer te geven in de rapportage, zodra deze is toegevoegd.) |
 | [!UICONTROL Metrics] widget | Hiermee geeft u een overzicht van de gebeurtenisrecords die zijn toegevoegd/overgeslagen/verwijderd en het aantal toegevoegde batches, **voor de dataset en de datumwaaier u hebt geselecteerd**. |
 | [!UICONTROL Records added] widget | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records added]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
-| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt enzovoort. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt of is ongeldig, enz. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens.<p>Ongeldige persoon-id&#39;s (niet gedefinieerd, alle nullen) kunnen niet worden toegewezen aan een specifieke gebruiker of persoon. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportageprocessen. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruik stitching om ongedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li> | <li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
 | [!UICONTROL Records deleted] widget | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Iemand heeft bijvoorbeeld een dataset in Experience Platform verwijderd. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records deleted]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | Zoekvak voor gegevensset | U kunt zoeken op naam van een gegevensset of [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets] | Toont de datasets die deel van de verbinding uitmaken. U kunt op de hyperlink klikken om alle datasets in de verbinding weer te geven. |
