@@ -3,9 +3,9 @@ title: Verbindingen beheren
 description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (CJA) te beheren.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 3103e02bb49b6e5913c8a71d7ecf436b5ee90d11
+source-git-commit: 4ac2d58cd14df8a6aae5728b4fabd11ec47abbed
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Met de Connections Manager kunt u:
 * Maak een gegevensweergave via een verbinding.
 
 ![](assets/conn-manager.png)
+
+### Verbindingsbeheer-instellingen
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -87,6 +89,8 @@ Hier worden de widgets en instellingen beschreven:
 
 ![](assets/conn-details.png)
 
+### Instellingen voor verbindingsdetails
+
 | Widget/Setting | Beschrijving |
 | --- | --- |
 | Gegevensset selecteren | Hiermee kunt u een of alle gegevenssets in de verbinding kiezen. U kunt geen datasets selecteren. Standaardwaarden: [!UICONTROL All datasets]. |
@@ -94,7 +98,7 @@ Hier worden de widgets en instellingen beschreven:
 | [!UICONTROL Records of event data available] widget | Vertegenwoordigt het totale aantal rijen van de gebeurtenisdataset beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. Het verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. (Let op: er is een latentie van 1-2 uur om de gegevens weer te geven in de rapportage, zodra deze is toegevoegd.) |
 | [!UICONTROL Metrics] widget | Hiermee geeft u een overzicht van de gebeurtenisrecords die zijn toegevoegd/overgeslagen/verwijderd en het aantal toegevoegde batches, **voor de dataset en de datumwaaier u hebt geselecteerd**. |
 | [!UICONTROL Records added] widget | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records added]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
-| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt of is ongeldig, enz. Om de 10 minuten bijgewerkt.<p>Ongeldige persoon-id&#39;s (niet gedefinieerd, alle nullen) kunnen niet worden toegewezen aan een specifieke gebruiker of persoon. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportageprocessen. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruik stitching om ongedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul><p>**Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records skipped] widget | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt of is ongeldig, enz. Om de 10 minuten bijgewerkt.<p>Ongeldige personen-id&#39;s (zoals &quot;undefined&quot; of &quot;00000000&quot; of een willekeurige combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) kan niet aan een specifieke gebruiker of persoon worden toegeschreven. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportage. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) om de niet-gedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul><p>**Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Records deleted] widget | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Iemand heeft bijvoorbeeld een dataset in Experience Platform verwijderd. Om de 10 minuten bijgewerkt. **Opmerking**: Gegevens voor **[!UICONTROL Records deleted]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | Zoekvak voor gegevensset | U kunt zoeken op naam van een gegevensset of [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets] | Toont de datasets die deel van de verbinding uitmaken. U kunt op de hyperlink klikken om alle datasets in de verbinding weer te geven. |
@@ -103,7 +107,11 @@ Hier worden de widgets en instellingen beschreven:
 | [!UICONTROL Last added] | Toont timestamp voor de laatste toegevoegde partij aan deze dataset. |
 | [!UICONTROL Dataset type] | Het gegevenstype van de dataset voor deze dataset kan zijn [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | Schema | Het Adobe Experience Platform-schema waarop de gegevenssets in deze verbinding zijn gebaseerd. |
-| **Rechterspoor op verbindingsniveau** |  |
+
+### Instellingen voor rechtse spoorstaven op verbindingsniveau
+
+| Instelling | Beschrijving |
+| --- | --- |
 | [!UICONTROL Refresh] | Vernieuw de verbinding zodat onlangs toegevoegde verslagen worden weerspiegeld. |
 | [!UICONTROL Delete] | Verwijder deze verbinding. |
 | [!UICONTROL Create data view] | Maak een nieuwe gegevensweergave op basis van deze verbinding. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
@@ -117,13 +125,17 @@ Hier worden de widgets en instellingen beschreven:
 | [!UICONTROL Created by] | Hiermee wordt de naam weergegeven van de persoon die de verbinding heeft gemaakt. |
 | [!UICONTROL Last modified] | Geeft de datum en tijd weer van de laatste wijziging in de verbinding. |
 | [!UICONTROL Last modified by] | Toont de persoon die de verbinding het laatst heeft gewijzigd. |
-| **Rechterspoor op gegevenssetniveau** |  |
+
+### Instellingen voor rechtse spoorstaven op gegevenssetniveau
+
+| Instelling | Beschrijving |
+| --- | --- |
 | [!UICONTROL Person ID] | Toont een identiteit die in het datasetschema in het Experience Platform werd bepaald. Dit is de persoon-id die u hebt gekozen tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde identiteitskaart van de Persoon over datasets gebruiken. |
 | [!UICONTROL Records available] | Vertegenwoordigt het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. (De uitzondering is dat wanneer u een gloednieuwe verbinding maakt, er [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#3.-getting-data-into-customer-trip-analytics). |
 | [!UICONTROL Records added] | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **Opmerking**: Gegevens voor **[!UICONTROL Records added]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Records deleted] | Geeft aan hoeveel records tijdens de geselecteerde tijdsperiode zijn verwijderd. **Opmerking**: Gegevens voor **[!UICONTROL Records deleted]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Batches added] | Geeft aan hoeveel gegevensbatches zijn toegevoegd aan deze gegevensset. |
-| [!UICONTROL Records skipped] | Hiermee geeft u aan hoeveel rijen zijn overgeslagen tijdens het invoeren in de geselecteerde tijdsperiode.<p>Ongeldige persoon-id&#39;s (niet gedefinieerd, alle nullen) kunnen niet worden toegewezen aan een specifieke gebruiker of persoon. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportageprocessen. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruik stitching om ongedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul><p>**Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
+| [!UICONTROL Records skipped] | Hiermee geeft u aan hoeveel rijen zijn overgeslagen tijdens het invoeren in de geselecteerde tijdsperiode.<p>Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt of is ongeldig, enz. Om de 10 minuten bijgewerkt.<p>Ongeldige personen-id&#39;s (zoals &quot;undefined&quot; of &quot;00000000&quot; of een willekeurige combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) kan niet aan een specifieke gebruiker of persoon worden toegeschreven. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportage. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) om de niet-gedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul><p>**Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Last added] | Geeft aan wanneer de laatste batch is toegevoegd. |
 | [!UICONTROL Dataset type] | Willekeurig [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL Schema] | Toont het schema van Adobe Experience Platform dat deze dataset op gebaseerd is. |
