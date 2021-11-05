@@ -2,10 +2,10 @@
 title: Customer Journey Analytics Guide
 description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: 0a44d4c80caa0198938a8f9c57f492c2aaaf9539
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 3%
+source-wordcount: '344'
+ht-degree: 4%
 
 ---
 
@@ -22,24 +22,25 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en#cja-dataviews"> Nieuwe documentatie over de verbeterde mogelijkheden voor gegevensweergaven  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#cja-usecases"> Nieuwe documentatie over het opnemen van Google Analytics in Adobe Experience Platform  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=en#cja-usecases"> Nieuwe documentatie over het analyseren van Google Analytics-gegevens in CJA  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics)  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> Bijgewerkte vereisten voor gebruikersmachtigingen  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> Arrays van objecten gebruiken  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> Gegevens op accountniveau toevoegen als een opzoekgegevensset  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Aan de slag met Customer Journey Analytics  </a> </li> 
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-detail"> Documentatie over verbeterde mogelijkheden voor verbindingsbeheer </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en#cja-dataviews"> Documentatie over de verbeterde mogelijkheden voor gegevensweergaven </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#cja-usecases"> Documentatie over het opnemen van Google Analytics in Adobe Experience Platform </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=en#cja-usecases"> Documentatie over de analyse van gegevens van Google Analytics in CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics) </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> Bijgewerkte vereisten voor gebruikersmachtigingen </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> Arrays van objecten gebruiken </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> Gegevens op accountniveau toevoegen als een opzoekgegevensset </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Aan de slag met Customer Journey Analytics </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> Veelgestelde vragen</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>Release-opmerkingen</b> </p> 
     <ul> 
-     <li>Raadpleeg de nieuwste <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external"> Opmerkingen bij de release van Experience Cloud</a> voor nieuwe functies en oplossingen. </li> 
+     <li>Zie de nieuwste <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external"> Opmerkingen bij de release Experience Cloud</a> voor nieuwe functies en correcties. </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform-bronnen</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external"> Adobe Experience Platform Tutorials</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API-referentie</a> </li> 
-     <li><a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en bronnen voor ontwikkelaars</a> </li> 
+     <li><a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en bronnen voor ontwikkelaars</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
