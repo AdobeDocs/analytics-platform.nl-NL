@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 94b086c9eb0b148ebb176a37205030b862ac2678
+source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U hebt toegan
 
 ## Deelvenstertypen
 
-De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
+De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICONTROL Customer Journey Analytics]:
 
 | Vensternaam | Beschrijving |
 | --- | --- |
