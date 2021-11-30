@@ -4,13 +4,13 @@ description: Beschrijft hoe te opstelling Report Builder in CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: e76f6cbb8ecf2032a8211d1c6bd18a79c2a6f5d2
+exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
+source-git-commit: fb4c8cf2d5dec5b49ecc81494a888fb6090379d6
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
 
 ---
-
 
 # Report Builder instellen
 
@@ -32,7 +32,7 @@ Report Builder for Customer Journey Analytics wordt ondersteund door de volgende
 
    Alle gebruikers van Windows Desktop Excel moeten Microsoft Edge Webview2 installeren om toe:voegen-binnen te gebruiken. De controller installeren:
 
-   1. Ga naar <http://aka.ms/webview2installer>.
+   1. Ga naar <https://aka.ms/webview2installer>.
    1. Selecteer en download het Evergreen standalone installatieprogramma.
    1. Volg de installatieaanwijzingen.
 
@@ -85,7 +85,7 @@ Nadat u Report Builder for Excel toe:voegen-binnen voor uw werkend platform of b
 
 1. Klik op het Report Builder-pictogram om Report Builder te starten.
 
-1. Van de toolbar van Adobe Report Builder, klik **Login**.
+1. Klik op de werkbalk van Adobe Report Builder op **Aanmelden**.
 
    ![](./assets/rb_login.png)
 
@@ -115,4 +115,4 @@ U kunt zich vanuit het gebruikersprofiel afmelden bij Report Builder.
 
    ![](./assets/image6.png)
 
-1. Klik **Afmelden**.
+1. Klikken **Afmelden**.
