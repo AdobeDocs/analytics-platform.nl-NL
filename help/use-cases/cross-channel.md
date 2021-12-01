@@ -1,13 +1,14 @@
 ---
 title: Reisanalyse Kanaal
 description: Analyseer en extraheer inzichten van klanteninteractie over de klantenreis.
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+exl-id: 285532b1-eb37-4984-9559-054a18515ddf
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # Reisanalyse Kanaal
 
@@ -19,15 +20,15 @@ Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanale
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
-1. [Gegevens opnemen in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html).
-1. Gebruik een gemeenschappelijke namespace identiteitskaart over datasets, of gebruik [KanaalAnalytics](/help/connections/cca/overview.md) om mensen samen te verbinden. Merk op dat Customer Journey Analytics momenteel niet de diensten van het Profiel van het Experience Platform of van de Identiteit voor het stitching gebruikt.
+1. [Schema&#39;s maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden ingevoerd.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
+1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html).
+1. Een gemeenschappelijke naamruimte-id gebruiken in verschillende gegevenssets of gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) om mensen aan elkaar te koppelen. Merk op dat Customer Journey Analytics momenteel niet de diensten van het Profiel van het Experience Platform of van de Identiteit voor het stitching gebruikt.
 1. Voer om het even welke voorbereiding van douanegegevens uit om een gemeenschappelijke sleutel over tijdreeksdatasets te verzekeren die in Customer Journey Analytics moeten worden opgenomen.
 1. Opzoekgegevens een primaire id geven die kan worden gekoppeld aan een veld in de gebeurtenisgegevens. Telt als rijen in licentie.
 1. Stel dezelfde primaire id voor profielgegevens in als de primaire id van de gebeurtenisgegevens.
 1. Configureer een gegevensverbinding om gegevens van Experience Platform tot Customer Journey Analytics in te voeren.
-1. [Maak een gegevensweergave ](/help/data-views/create-dataview.md) waarin de verbinding wordt weergegeven en selecteer de specifieke afmetingen en metriek die in de weergave moeten worden opgenomen. Attributie- en toewijzingsinstellingen worden ook geconfigureerd in de gegevensweergave. Deze instellingen worden tijdens het rapport berekend.
+1. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op de verbinding om de specifieke afmetingen en metriek te selecteren die in de mening moeten worden omvat. Attributie- en toewijzingsinstellingen worden ook geconfigureerd in de gegevensweergave. Deze instellingen worden tijdens het rapport berekend.
 1. Creeer een project om dashboards en rapporten binnen Analysis Workspace te vormen.
 
 ## Overwegingen

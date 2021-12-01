@@ -2,7 +2,8 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Kanaalanalyse
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
-source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -36,7 +37,7 @@ CCA probeert om elke gebeurtenis op inzameling aan bekende apparaten en kanalen 
 
 Zowel niet-geverifieerde als geverifieerde gebeurtenissen op nieuwe apparaten worden als afzonderlijke personen geteld (tijdelijk). Niet-geverifieerde gebeurtenissen op herkende apparaten worden live-gezet.
 
-Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld zijn alle gebeurtenissen behalve de gebeurtenissen 1 en 4 live-gezet (ze gebruiken allemaal de `Bob`-id). Attributie werkt bij gebeurtenissen 1 en 4 na het opnieuw afspelen van stitching.
+Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld zijn alle gebeurtenissen behalve de gebeurtenissen 1 en 4 live-gezet (ze gebruiken allemaal de `Bob` id). Attributie werkt bij gebeurtenissen 1 en 4 na het opnieuw afspelen van stitching.
 
 ## Stap 2: Replay stitching
 

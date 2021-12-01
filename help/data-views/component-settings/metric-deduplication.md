@@ -1,13 +1,14 @@
 ---
 title: Instellingen voor metagegevensdeduplicatie
 description: Telling slechts het eerste voorkomen van metrisch in rapporten.
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 1%
 
 ---
-
 
 # Instellingen voor metagegevensdeduplicatie
 

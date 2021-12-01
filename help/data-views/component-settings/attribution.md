@@ -1,13 +1,14 @@
 ---
 title: Instellingen van component Attributie
 description: Hiermee kunt u de standaardattributie voor een metrische waarde instellen.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
 
 ---
-
 
 # Instellingen van component Attributie
 
@@ -17,6 +18,6 @@ Met kenmerk kunt u een standaardattributiemodel instellen voor een metrische waa
 
 | Instelling | Beschrijving/Hoofdletters gebruiken |
 | --- | --- |
-| [!UICONTROL Set attribution] | Schakelt een standaard attributiemodel in wanneer deze metrische waarde wordt gebruikt. Deze standaardwaarde kan in [!UICONTROL Freeform Table] of in Berekend Metrisch worden met voeten getreden. |
-| [!UICONTROL Attribution model] | Hier kunt u opgeven welk standaard [attributiemodel](/help/analysis-workspace/attribution/models.md) moet worden gebruikt. Wordt standaard ingesteld op [!UICONTROL Last Touch]. De opties zijn: Laatste aanraking, Eerste aanraking, Lineair, Deelname, Zelfde aanraking, U-Vormen, J Curve, Omgekeerde J, Tijdvermindering, Douane, Algorithmic. Sommige van deze opties maken extra velden die moeten worden ingevuld, zoals Aangepast of Tijdverlies. U kunt veelvoudige metriek tot stand brengen gebruikend het zelfde gebied - dit betekent u één [!UICONTROL Last touch] omzet metrisch en één [!UICONTROL First Touch] opbrengst metrisch kunt hebben, maar gebaseerd op het zelfde opbrengstgebied in het schema. |
-| [!UICONTROL Lookback window] | Hier kunt u een standaardterugzoekvenster voor metrische gegevens opgeven. De opties zijn: [!UICONTROL Person] (Rapportagevenster), [!UICONTROL Session], [!UICONTROL Custom]. Wanneer [!UICONTROL Custom] wordt geselecteerd, geven wij u ook de optie om om het even welk aantal dagen/weken/maanden/etc. te selecteren. (maximaal 90 dagen), net als [!UICONTROL Attribution IQ]. U kunt veelvoudige metriek hebben gebruikend het zelfde schemagebied, maar elk met een afzonderlijk raadplegingsvenster. |
+| [!UICONTROL Set attribution] | Schakelt een standaard attributiemodel in wanneer deze metrische waarde wordt gebruikt. Deze standaardwaarde kan worden overschreven in een [!UICONTROL Freeform Table] of in een Berekend metrisch. |
+| [!UICONTROL Attribution model] | Hier kunt u opgeven welke standaard [toewijzingsmodel](/help/analysis-workspace/attribution/models.md) te gebruiken. Standaardwaarden: [!UICONTROL Last Touch]. De opties zijn: Laatste aanraking, Eerste aanraking, Lineair, Deelname, Zelfde aanraking, U-Vormen, J Curve, Omgekeerde J, Tijdvermindering, Douane, Algorithmic. Sommige van deze opties maken extra velden die moeten worden ingevuld, zoals Aangepast of Tijdverlies. U kunt meerdere metriek maken met hetzelfde veld - dit betekent dat u er één kunt maken [!UICONTROL Last touch] omzet metrisch en één [!UICONTROL First Touch] omzet metrisch, maar gebaseerd op het zelfde opbrengstgebied in het schema. |
+| [!UICONTROL Lookback window] | Hier kunt u een standaardterugkijkvenster voor metrisch zoeken opgeven. De opties zijn: [!UICONTROL Person] (Rapportagevenster), [!UICONTROL Session], [!UICONTROL Custom]. Wanneer [!UICONTROL Custom] is geselecteerd, kunt u ook een willekeurig aantal dagen/weken/maanden/enzovoort selecteren. (maximaal 90 dagen), net als [!UICONTROL Attribution IQ]. U kunt veelvoudige metriek hebben gebruikend het zelfde schemagebied, maar elk met een afzonderlijk raadplegingsvenster. |

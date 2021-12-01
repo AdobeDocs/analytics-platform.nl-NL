@@ -4,13 +4,14 @@ description: Beschrijft hoe te om filters in Report Builder voor CJA te gebruike
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: dc6317bc754218c03d78145be1c8681ad202bcb8
+exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 1%
 
 ---
-
 
 # Dimension filteren
 
@@ -22,19 +23,19 @@ Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
 1. Klik op Volgende om het tabblad Dimension weer te geven.
 
-1. Klik op **..** pictogram naast een componentennaam in de lijst.
+1. Klik op de knop **...** naast de naam van een component in de tabel.
 
    ![](./assets/image27.png)
 
-1. Selecteer **Dimensie filteren** in het pop-upmenu om het deelvenster **Dimensie filteren** weer te geven.
+1. Selecteren **Filterdimensie** in het pop-upmenu om de **Filterdimensie** venster.
 
-1. Selecteer **Meest populaire** of **Specifiek**.
+1. Selecteren **Meest populair** of **Specifiek**.
 
    ![](./assets/image28.png)
 
 1. Selecteer de gewenste opties op basis van het gekozen filtertype.
 
-1. Klik **Toepassen** om het filter toe te voegen.
+1. Klikken **Toepassen** om het filter toe te voegen.
 
    Report Builder geeft een melding weer ter bevestiging van het toegevoegde filter.
 
@@ -53,7 +54,7 @@ Met de populairste optie kunt u dimensie-items dynamisch filteren op basis van m
 
 ### Opties voor Pagina en Rijen
 
-Met de velden **Pagina** en **Rijen** kunt u gegevens opsplitsen in opeenvolgende groepen of pagina&#39;s. Dit staat u toe om gerangschikte rijwaarden buiten de hoogste waarden in uw rapport te trekken. Deze functie is vooral handig voor het ophalen van gegevens boven de limiet van 50.000 rijen.
+Gebruik de **Pagina** en **Rijen** velden om gegevens te verdelen in opeenvolgende groepen of pagina&#39;s. Dit staat u toe om gerangschikte rijwaarden buiten de hoogste waarden in uw rapport te trekken. Deze functie is vooral handig voor het ophalen van gegevens boven de limiet van 50.000 rijen.
 
 #### Standaardwaarden voor pagina en rijen
 
@@ -118,31 +119,31 @@ Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en
 
 ## Specifieke filtering
 
-Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filter **Specific** om de nauwkeurige afmetingspunten te specificeren om in uw filter te omvatten. U kunt items in een lijst of uit een reeks cellen selecteren.
+Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik de **Specifiek** het filtreren type om de nauwkeurige afmetingspunten te specificeren om in uw filter te omvatten. U kunt items in een lijst of uit een reeks cellen selecteren.
 
 ![](./assets/image32.png)
 
 ### Van lijst
 
-1. Selecteer de optie **Van lijst** om dimensie-items te zoeken en te selecteren.
+1. Selecteer **Van lijst** om dimensie-items te zoeken en te selecteren.
 
-   Wanneer u **Van lijst** optie selecteert, wordt de lijst bevolkt met afmetingspunten met de meeste gebeurtenissen eerst.
+   Wanneer u **Van lijst** de lijst wordt gevuld met dimensie-items met de meeste gebeurtenissen eerst.
 
    ![](./assets/image33.png)
 
-   De lijst **Beschikbare items** wordt geordend van dimensie-items met de meeste gebeurtenissen naar de minst overeenkomende items.
+   De **Beschikbare objecten** de lijst wordt bevolen van afmetingspunten met de meeste gebeurtenissen aan die met het minste.
 
-1. Typ een zoekterm in het veld **Item toevoegen** om de lijst te doorzoeken.
+1. Voer een zoekterm in het dialoogvenster **Item toevoegen** te doorzoeken in de lijst.
 
-1. Als u wilt zoeken naar een item dat niet in de laatste 90 dagen van de gegevens is opgenomen, klikt u op **Items weergeven voor de laatste 6 maanden** om de zoekopdracht uit te breiden.
+1. Als u wilt zoeken naar een item dat niet in de laatste 90 dagen van de gegevens is opgenomen, klikt u op **Objecten weergeven voor de laatste 6 maanden** om de zoekopdracht uit te breiden.
 
    ![](./assets/image34.png)
 
-   Nadat gegevens van de afgelopen zes maanden zijn geladen, werkt Report Builder de koppeling naar **Items weergeven voor de laatste 18 maanden** bij.
+   Nadat gegevens van de afgelopen zes maanden zijn geladen, werkt Report Builder de koppeling naar **Objecten weergeven voor afgelopen 18 maanden**.
 
 1. Selecteer een dimensie-item.
 
-   Geselecteerde dimensie-items worden automatisch toegevoegd aan de lijst **Geselecteerde items**.
+   Geselecteerde dimensie-items worden automatisch toegevoegd aan de **Geselecteerde items** lijst.
 
    ![](./assets/image35.png)
 
@@ -152,13 +153,13 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
    ![](./assets/image36.png)
 
-1. Klik **Toepassen**
+1. Klikken **Toepassen**
 
    Report Builder werkt de lijst bij om het specifieke filtreren te tonen u toepaste.
 
 ### Uit celbereik
 
-Selecteer de optie **Van celbereik** om een celbereik te kiezen dat de lijst met de afmetingen bevat die moeten overeenkomen.
+Selecteer **Uit celbereik** kiest u een celbereik dat de lijst bevat met de afmetingen die moeten overeenkomen.
 
 ![](./assets/image37.png)
 
@@ -172,8 +173,8 @@ Uw selectie kan lege cellen of cellen met waarden bevatten die niet met een spec
 
 ### Van het lusje van Dimension in de Bouwer van de Lijst
 
-Klik op het tabblad **Dimension** op het chevron-pictogram naast de naam van een dimensie om de lijst met dimensie-items weer te geven.
+Van de **Dimension** klikt u op het chevron-pictogram naast de naam van een dimensie om de lijst met dimensie-items weer te geven.
 
 ![](./assets/dimensions_chevron.png)
 
-U kunt punten naar **Lijst** slepen of een puntnaam tweemaal klikken om het aan **Lijst** bouwer toe te voegen.
+U kunt items naar de **Tabel** of dubbelklik op de naam van een item om het toe te voegen aan de **Tabel** bouwer.

@@ -4,13 +4,14 @@ description: Beschrijft de componenten van de Hub van Report Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: bb53440ac1019b639b5c4dd1e0ecd41fc1150ec3
+exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
 
 ---
-
 
 # Report Builder Hub
 
@@ -47,9 +48,9 @@ De wijzigingen die u hebt aangebracht met de secties Snel bewerken zijn van toep
 
 ### Gegevensweergaven
 
-Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als er meerdere gegevensblokken zijn geselecteerd in een werkblad en deze gegevens niet uit dezelfde gegevensweergave halen, wordt met de koppeling **Gegevensweergaven** *Multiple* weergegeven.
+Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als er meerdere gegevensblokken zijn geselecteerd in een werkblad en deze geen gegevens ophalen uit dezelfde gegevensweergave, worden de **Gegevensweergaven** koppelingsweergaven *Meerdere*.
 
-Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld een id die overeenkomt met ```evars```). Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
+Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld id ```evars```). Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
 
 Als u de gegevensweergave wilt wijzigen, selecteert u een nieuwe gegevensweergave in het keuzemenu.
 
@@ -57,8 +58,8 @@ Als u de gegevensweergave wilt wijzigen, selecteert u een nieuwe gegevensweergav
 
 ### Datumbereik
 
-**Het datumbereik** geeft het datumbereik voor de geselecteerde gegevensblokken weer. Als er meerdere gegevensblokken met meerdere datumbereiken zijn geselecteerd, wordt met de koppeling **Datumbereik** *Multiple* weergegeven.
+**Datumbereik** Hiermee geeft u het datumbereik voor de geselecteerde gegevensblokken weer. Als er meerdere gegevensblokken met meerdere datumbereiken zijn geselecteerd, wordt de **Datumbereik** koppelingsweergaven *Meerdere*.
 
 ### Filters
 
-Met de koppeling **Filters** wordt een overzicht weergegeven van de filters die worden gebruikt door de geselecteerde gegevensblokken. Als er meerdere gegevensblokken zijn geselecteerd met meerdere filters toegepast, wordt met de koppeling **Filters** *Multiple* weergegeven.
+De **Filters** de verbinding toont een summiere lijst van de filters die door de geselecteerde gegevensblokken worden gebruikt. Als er meerdere gegevensblokken zijn geselecteerd met meerdere filters toegepast, wordt **Filters** koppelingsweergaven *Meerdere*.

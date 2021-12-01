@@ -4,13 +4,14 @@ description: Beschrijft hoe te om de kalender, het rollen data, en douaneuitdruk
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
+exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
 
 ---
-
 
 # Een datumbereik selecteren
 
@@ -39,7 +40,7 @@ U kunt vandaag uitsluiten voor elk geselecteerd datumbereik.
 
 ## De kalender gebruiken
 
-Wanneer u **Calendar** gebruikt, toont het gebied van de datumwaaier de huidige datumwaaier voor het verzoek van het gegevensblok. U kunt datums rechtstreeks invoeren in het datumbereikveld of een optie voor het selecteren van gegevensbereiken gebruiken.
+Wanneer u de **Kalender** In het datumbereikveld wordt het huidige datumbereik voor de gegevensblokaanvraag weergegeven. U kunt datums rechtstreeks invoeren in het datumbereikveld of een optie voor het selecteren van gegevensbereiken gebruiken.
 
 ### Datumbereik
 
@@ -71,7 +72,7 @@ Het keuzemenu met voorinstellingen bevat een standaardset vooraf ingestelde datu
 
 Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
-1. Selecteer **Roldatums gebruiken**.
+1. Selecteren **Roldatums gebruiken**.
 
 1. Selecteer een roluitdrukking voor uw begin en of einddatum.
 
@@ -79,9 +80,9 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
    **Begin van** — Hiermee kunt u het begin van een dag, week, maand, kwartaal of jaar selecteren.
 
-   **Einde van**  - Hiermee kunt u het einde van een dag, week, maand, kwartaal of jaar selecteren.
+   **Einde van** — Hiermee kunt u het einde van een dag, week, maand, kwartaal of jaar selecteren.
 
-   **Vaste dag**  - Hiermee kunt u een begin- of einddatum herstellen terwijl de andere datum wordt verschoven.
+   **Vaste dag** — Hiermee kunt u een begin- of einddatum herstellen terwijl de andere datum wordt verschoven.
 
 1. Kies dag, week, maand, kwartaal of jaar als de rolperiode.
 
@@ -99,27 +100,27 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 Met de optie voor aangepaste expressies kunt u het datumbereik wijzigen door een aangepaste expressie te maken of een rekenkundige formule in te voeren.
 
-1. Selecteer **Roldatums gebruiken**.
+1. Selecteren **Roldatums gebruiken**.
 
-1. Selecteer **Aangepaste expressie gebruiken**.
+1. Selecteren **Aangepaste expressie gebruiken**.
 
-   Als u de optie **Aangepaste expressie gebruiken** selecteert, worden de standaardbesturingselementen voor het schuifdatumbereik uitgeschakeld.
+   Wanneer u **Aangepaste expressie gebruiken** de standaardbesturingselementen voor het roldatumbereik zijn uitgeschakeld.
 
    ![](./assets/custom_expression.png)
 
 1. Voer een aangepaste expressie in.
 
-   Zie **Datumexpressies** voor een voorbeeldlijst met aangepaste expressies.
+   Zie voor een voorbeeldlijst met aangepaste expressies **Datumexpressies**.
 
 1. Gebruik de datumvoorvertoning om te controleren of het resulterende datumbereik het gewenste bereik is.
 
 #### Een aangepaste expressie maken
 
-1. Voer een **Datumreferentie** in.
+1. Voer een **Datumverwijzing**.
 
-1. Voeg **Datumoperatoren** toe om de datum naar het verleden of de toekomst te verplaatsen.
+1. Toevoegen **Datumoperatoren** om de datum naar het verleden of de toekomst te verplaatsen.
 
-U kunt een aangepaste datumexpressie invoeren die meerdere operatoren bevat, zoals ```tm-11m-1d```.
+U kunt een aangepaste datumexpressie invoeren die meerdere operatoren bevat, zoals ```tm-11m-1d```.
 
 #### Datumverwijzingen
 
@@ -160,15 +161,15 @@ In de volgende tabel staan voorbeelden van datumexpressies.
 
 ## Datumbereik van cel
 
-Het datumbereik kan worden opgegeven in werkbladcellen. Met de optie **Datumbereik van cel** kunt u de begin- en einddatum van het gegevensblok kiezen uit geselecteerde cellen. Als u de optie **Van cel** selecteert, worden in het deelvenster **Van** en **Naar** velden weergegeven waar u een cellocatie kunt invoeren.
+Het datumbereik kan worden opgegeven in werkbladcellen. Gebruik de **Datumbereik van cel** Selecteer de begin- en einddatum van het gegevensblok in de geselecteerde cellen. Wanneer u **Uit cel** in het deelvenster **Van** en **Naar** velden waarin u een cellocatie kunt invoeren.
 
 ![](./assets/image23.png)
 
 ## Vandaag uitsluiten
 
-Kies de optie **Vandaag uitsluiten** om vandaag uit te sluiten van een geselecteerd datumbereik. Als u vandaag kiest voor opname, worden mogelijk onvolledige gegevens gebruikt voor vandaag.
+Kies de optie **Vandaag uitsluiten** om vandaag uit te sluiten van een geselecteerd datumbereik. Als u vandaag kiest voor opname, worden mogelijk onvolledige gegevens gebruikt voor vandaag.
 
-Als deze optie is geselecteerd, sluit u de huidige dag uit van alle modi voor datumbereik, zoals kalender, roldatums of aangepaste expressies.****
+Als deze optie is geselecteerd, wordt **Vandaag uitsluiten** Hiermee sluit u de huidige dag uit van alle datumbereikmodi, inclusief kalender, roldatums of aangepaste expressies.
 
 ## Geldige datumbereiken
 
@@ -178,7 +179,7 @@ In de volgende lijst worden geldige datumbereikindelingen beschreven.
 
 - De begindatum moet eerder zijn dan of gelijk zijn aan de einddatum. Beide datums kunnen op de toekomst worden ingesteld.
 
-- Wanneer u roldatums gebruikt, moet de begindatum vandaag of in het verleden zijn. Het moet in het verleden zijn als **Vandaag uitsluiten** wordt gecontroleerd.
+- Wanneer u roldatums gebruikt, moet de begindatum vandaag of in het verleden zijn. Het moet in het verleden zijn of **Vandaag uitsluiten** is ingeschakeld.
 
 - U kunt een statisch datumbereik maken dat is ingesteld voor de toekomst. Het kan bijvoorbeeld nodig zijn een datum in te stellen voor een marketingcampagne die volgende week wordt gestart. Deze optie leidt tot een werkboek controle voor een campagne vooruit.
 
@@ -186,19 +187,19 @@ In de volgende lijst worden geldige datumbereikindelingen beschreven.
 
 U kunt het datumbereik van een bestaand gegevensblok bewerken door Gegevensblok bewerken te selecteren in het deelvenster OPDRACHTEN of door de koppeling voor het datumbereik te selecteren in het deelvenster SNEL BEWERKEN.
 
-**Gegevensblok**  bewerken: hiermee kunt u meerdere gegevensblokparameters bewerken, inclusief datumbereik, voor één gegevensblok.
+**Gegevensblok bewerken** — Hiermee kunt u meerdere gegevensblokparameters bewerken, inclusief datumbereik, voor één gegevensblok.
 
-**Snel bewerken: Datumbereik** : hiermee kunt u het datumbereik van een of meer gegevensblokken bewerken.
+**Snel bewerken: Datumbereik** — Hiermee kunt u het datumbereik van een of meer gegevensblokken bewerken.
 
 Het datumbereik bewerken via het deelvenster SNEL BEWERKEN
 
 1. Selecteer cellen in een of meer gegevensblokken in een werkblad.
 
-1. Klik op de koppeling **Datumbereik** in het deelvenster SNEL BEWERKEN.
+1. Klik op de knop **Datumbereik** in het deelvenster SNEL BEWERKEN.
 
 1. Selecteer het datumbereik met een van de opties voor datumselectie.
 
-1. Klik **Toepassen**.
+1. Klikken **Toepassen**.
 
 
 Report Builder past het nieuwe datumbereik toe op alle gegevensblokken in de selectie.

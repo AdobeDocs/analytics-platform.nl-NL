@@ -5,7 +5,8 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
-source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -14,31 +15,31 @@ ht-degree: 0%
 
 # Een gegevensblok maken
 
-Een *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek worden gecreeerd. Een werkboek van Report Builder kan veelvoudige gegevensblokken bevatten. Wanneer u een gegevensblok creeert, vorm eerst het gegevensblok en bouwt dan het gegevensblok.
+A *gegevensblok* Dit is de tabel met gegevens die worden gemaakt door één gegevensaanvraag. Een werkboek van Report Builder kan veelvoudige gegevensblokken bevatten. Wanneer u een gegevensblok creeert, vorm eerst het gegevensblok en bouwt dan het gegevensblok.
 
 ## Het gegevensblok configureren
 
 Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van Gegevens, de meningen van Gegevens, en een waaier van de Datum.
 
-1. Klik **Gegevensblok maken**.
+1. Klikken **Gegevensblok maken**.
 
    ![](./assets/create_db.png)
 
-1. Stel de locatie **Gegevensblok** in.
+1. Stel de **Locatie gegevensblok**.
 
    De optie voor gegevensbloklocatie definieert de werkbladlocatie waar de rapportbuilder de gegevens aan uw werkblad toevoegt.
 
    Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
-1. Kies de **Gegevens weergaven**.
+1. Kies de optie **Gegevensweergaven**.
 
    Met de optie Gegevens kunt u een gegevensweergave kiezen in een vervolgkeuzelijst of naar een gegevensweergave verwijzen vanuit een cellocatie.
 
-1. Stel het **Datumbereik** in.
+1. Stel de **Datumbereik**.
 
-   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Zie [Een datumbereik selecteren](select-date-range.md) voor informatie over opties voor gegevensbereik.
+   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over opties voor gegevensbereiken raadpleegt u [Een datumbereik selecteren](select-date-range.md).
 
-1. Klik **Volgende**.
+1. Klikken **Volgende**.
 
    ![](./assets/choose_date_data_view3.png)
 
@@ -54,7 +55,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Voeg Dimension, Metriek, en Filters toe.
 
-   Schuif de componentenlijsten of gebruik **search** gebied om van componenten de plaats te bepalen. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
+   Schuif de componentlijsten of gebruik de component **zoeken** veld voor het zoeken van componenten. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
 
    Dubbelklik op een component om deze toe te voegen aan een standaardsectie van de tabel.
 
@@ -70,7 +71,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    ![](./assets/image10.png)
 
-1. Klik **Voltooien**.
+1. Klikken **Voltooien**.
 
    Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
 

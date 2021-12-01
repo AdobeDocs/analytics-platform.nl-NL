@@ -1,13 +1,14 @@
 ---
 title: Standaardcomponentverwijzing
 description: Details en informatie over alle standaardcomponenten die u kunt toevoegen aan elke gegevensweergave.
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
 
 ---
-
 
 # Standaardcomponentverwijzing
 
@@ -23,7 +24,7 @@ Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevens
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
-| [!UICONTROL People] | Metrisch | Gebaseerd op de persoonID in [!UICONTROL Connection] wordt gespecificeerd. |
+| [!UICONTROL People] | Metrisch | Gebaseerd op de persoon-id die is opgegeven in een [!UICONTROL Connection]. |
 | [!UICONTROL Sessions] | Metrisch | Gebaseerd op de de zittingsmontages van de gegevensmening. |
 | [!UICONTROL Events] | Metrisch | Het aantal rijen van alle gebeurtenisdatasets in a [!UICONTROL Connection]. |
 | [!UICONTROL Minute] | Dimension | De minuut dat een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut in de datumwaaier, en het laatste afmetingspunt is de laatste minuut in de datumwaaier. |
@@ -36,15 +37,15 @@ Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevens
 
 ## Optionele standaardonderdelen
 
-Optionele standaardcomponenten zijn beschikbaar onder **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Standard Components]** tab.
+Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Standard Components]** tab.
 
 | Componentnaam | Dimension of metrisch | Notities |
 | --- | --- | --- |
-| [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), het filters neer tot enkel de eerste gebeurtenis van elke zitting. |
-| [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Net als [!UICONTROL Session Starts], kan deze ook worden gebruikt in een filterdefinitie om items tot aan de laatste gebeurtenis van elke sessie te filteren. |
+| [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), filtert het tot enkel de eerste gebeurtenis van elke zitting. |
+| [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Vergelijkbaar met [!UICONTROL Session Starts], kan het ook in een filterdefinitie worden gebruikt om dingen tot de laatste gebeurtenis van elke zitting te filtreren. |
 | [!UICONTROL Time Spent (seconds)] | Metrisch | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat. |
-| [!UICONTROL Time Spent per Event] | Dimension | Sluit [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
-| [!UICONTROL Time Spent per Session] | Dimension | Sluit [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |
-| [!UICONTROL Time Spent per Person] | Dimension | Sluit [!UICONTROL Time Spent] metrisch in [!UICONTROL Person] emmers. |
-| [!UICONTROL Batch ID] | Dimension | Vertegenwoordigt de partij van het Experience Platform dat een [!UICONTROL Event] deel van was. |
-| [!UICONTROL Dataset ID] | Dimension | Vertegenwoordigt de dataset van het Experience Platform dat een [!UICONTROL Event] deel van was. |
+| [!UICONTROL Time Spent per Event] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
+| [!UICONTROL Time Spent per Session] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |
+| [!UICONTROL Time Spent per Person] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Person] emmers. |
+| [!UICONTROL Batch ID] | Dimension | Vertegenwoordigt de partij van het Experience Platform die [!UICONTROL Event] maakte deel uit van. |
+| [!UICONTROL Dataset ID] | Dimension | Vertegenwoordigt de dataset van het Experience Platform die een [!UICONTROL Event] maakte deel uit van. |

@@ -2,7 +2,8 @@
 title: Veelgestelde vragen over kanaalanalyse
 description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
-source-git-commit: 2be442915587780ce41f33b13e27b8cf44e239a6
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
-1. Meld u aan bij [analytics.adobe.com](https://analytics.adobe.com) en maak een leeg Workspace-project.
+1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) en maak een leeg Workspace-project.
 2. Klik op het tabblad Visualisatie aan de linkerkant en sleep een stroomvisualisatie naar het canvas aan de rechterkant.
 3. Klik op het tabblad Componenten aan de linkerkant en sleep de dimensie &#39;Dataset ID&#39; naar de middelste locatie met de naam &#39;Dimension of Item&#39;.
 4. Dit stroomrapport is interactief. Klik op een van de waarden om de stromen naar volgende of vorige pagina&#39;s uit te vouwen. Gebruik het met de rechtermuisknop aanklikken menu om kolommen uit of samen te vouwen. Binnen hetzelfde stroomrapport kunnen ook verschillende afmetingen worden gebruikt.
@@ -24,7 +25,7 @@ Als u de de afmetingspunten van identiteitskaart van de dataset zou willen ander
 
 ## Hoe ver terug brengt CCA bezoekers?
 
-Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens [replay](replay.md) af. Bijvoorbeeld, als u opstelling CCA om gegevens eens per week opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen 7 dagen. Als u opstelling CCA om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen 1 dag.
+Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens af [replay](replay.md). Bijvoorbeeld, als u opstelling CCA om gegevens eens per week opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen 7 dagen. Als u opstelling CCA om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen 1 dag.
 
 ## Hoe worden gedeelde apparaten afgehandeld?
 
@@ -44,13 +45,13 @@ Livemetching is ongeveer 1 week beschikbaar nadat Adobe Kanaalanalyse heeft inge
 
 ## Hoe behandelt de Analysefuncties van het Kanaal GDPR en CCPA verzoeken?
 
-Adobe behandelt verzoeken van de GDPR en de CCPA overeenkomstig de lokale en internationale wetgeving. Adobe biedt de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om verzoeken om gegevenstoegang en verwijdering in te dienen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
+Adobe behandelt verzoeken van de GDPR en de CCPA overeenkomstig de lokale en internationale wetgeving. Adobe biedt de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) verzoeken om toegang tot en verwijdering van gegevens in te dienen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 ## Wat gebeurt er als het veld Persistent-id in een of meer gebeurtenissen leeg is?
 
-Als het veld `Persistent ID` leeg is voor een gebeurtenis in een dataset die wordt gekoppeld aan een stitching op de basis van het veld, vult CCA `Stitched ID` voor die gebeurtenis op een van de volgende twee manieren in:
-* Als het `Transient ID` gebied niet leeg is, gebruikt CCA de waarde in `Transient ID` als `Stitched ID`.
-* Als het veld `Transient ID` leeg is, laat CCA ook de spatie `Stitched ID`. In dit geval zijn `Persistent ID`, `Transient ID` en `Stitched ID` allemaal leeg voor de gebeurtenis. Gebeurtenissen als deze worden weggelaten uit CJA in om het even welke verbinding CJA die de dataset gebruikt die wordt vastgemaakt waar `Stitched ID` als `Person ID` werd gekozen.
+Als de `Persistent ID` Het veld is leeg voor een gebeurtenis in een gegevensset die wordt vastgezet met een stitching op de basis, CCA vult de `Stitched ID` voor dat evenement op twee manieren :
+* Als de `Transient ID` veld is niet leeg, CCA gebruikt de waarde in `Transient ID` als de `Stitched ID`.
+* Als de `Transient ID` veld is leeg, CCA verlaat ook het veld `Stitched ID` leeg. In dit geval: `Persistent ID`, `Transient ID`, en `Stitched ID` zal allen leeg op de gebeurtenis zijn. Gebeurtenissen zoals dit worden gelaten vallen van CJA in om het even welke verbinding CJA gebruikend de dataset die waar wordt vastgemaakt `Stitched ID` is gekozen als `Person ID`.
 
 ## Hoe vergelijken de metriek in CJA gestitched datasets met gelijkaardige metriek in CJA unstitched datasets en met traditionele Adobe Analytics?
 
@@ -58,8 +59,8 @@ Bepaalde metriek in CJA zijn gelijkaardig aan metriek in traditionele Analytics,
 
 | **CJA-gebonden gegevens** | **Niet-opgeslagen CJA-gegevens** | **Traditioneel Adobe Analytics** | **Analytics Ultimate met CDA** |
 | ----- | ----- | ----- | ----- |
-| **People** = Aantal van verschillende  `Person ID`s waar  `Stitched ID` wordt gekozen als  `Person ID`. **Afhankelijk van het resultaat van het stitching-proces kunnen** mensen hoger of lager zijn dan  **Unieke** bezoekers in het traditionele Adobe Analytics. | **People** = Aantal van verschillende  `Person ID`s die op de kolom wordt gebaseerd die als  `Person ID`. wordt geselecteerd **De gegevenssets van** Peoplein Adobe Analytics Connector (ADC) zijn vergelijkbaar met  **Unique** Visitorsin Traditional Adobe Analytics als  `endUserIDs. _experience. aaid.id` wordt gekozen zoals  `Person ID` in CJA. | **Unieke bezoekers** = Aantal verschillende bezoeker-id&#39;s. **Unieke bezoekers** mogen niet hetzelfde zijn als het aantal verschillende **ECID** s. | Zie [Personen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
-| **Sessies**: Wordt gedefinieerd op basis van de sessionisatie-instellingen die zijn opgegeven in de CJA-gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Wordt gedefinieerd op basis van de sessionisatie-instellingen die zijn opgegeven in de CJA-gegevensweergave. | **Bezoeken**: Zie  [Bezoekingen](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Bezoeken**: Wordt gedefinieerd op basis van de sessionisatie-instellingen die zijn opgegeven in de virtuele- [rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en) van CDA. |
-| **Events** = aantal rijen in de gegevens in de bijlage in CJA. In het algemeen moet dit in traditionele Adobe Analytics bijna **voorkomen** zijn. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege `Persistent ID`. | **Events** = aantal rijen in de ongeordende gegevens in CJA. In het algemeen moet dit in traditionele Adobe Analytics bijna **voorkomen** zijn. Merk op, echter, dat als om het even welke gebeurtenissen een lege `Person ID` in de ongestitched gegevens in het gegevensmeer van AEP hebben, deze gebeurtenissen (niet inbegrepen) in CJA zullen worden gelaten vallen. | **Voorvallen**: Zie  [Voorvallen](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Voorvallen**: Zie  [Voorvallen](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
+| **Mensen** = Aantal verschillende `Person ID`s waar `Stitched ID` wordt gekozen als `Person ID`. **Mensen** kan hoger of lager zijn dan **Unieke bezoekers** in het traditionele Adobe Analytics, afhankelijk van de uitkomst van het stitching-proces. | **Mensen** = Aantal verschillende `Person ID`s is gebaseerd op de geselecteerde kolom `Person ID`. **Mensen** in Adobe Analytics Connector-gegevenssets (ADC) is vergelijkbaar met **Unieke bezoekers** in het traditionele Adobe Analytics als `endUserIDs. _experience. aaid.id` wordt gekozen als `Person ID` in CJA. | **Unieke bezoekers** = Aantal verschillende bezoeker-id&#39;s. Let op: **Unieke bezoekers** mag niet hetzelfde zijn als het aantal afzonderlijke **ECID** s. | Zie [Mensen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
+| **Sessies**: Wordt gedefinieerd op basis van de sessionisatie-instellingen die zijn opgegeven in de CJA-gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Wordt gedefinieerd op basis van de sessionisatie-instellingen die zijn opgegeven in de CJA-gegevensweergave. | **Bezoeken**: Zie [Bezoeken](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Bezoeken**: Wordt gedefinieerd op basis van de instellingen voor sessionisatie die zijn opgegeven in het dialoogvenster [Virtuele CDA-rapportenpakket](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en). |
+| **Gebeurtenissen** = aantal rijen in de gegevens in de bijlage in CJA. In het algemeen moet dit dicht bij **Voorval** in het traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege pagina `Persistent ID`. | **Gebeurtenissen** = aantal rijen in de niet-ingestelde gegevens in CJA. In het algemeen moet dit dicht bij **Voorval** in het traditionele Adobe Analytics. Houd er echter rekening mee dat gebeurtenissen leeg zijn `Person ID` In de ongeordende gegevens in het gegevensmeer van AEP zullen deze gebeurtenissen worden weggelaten (niet inbegrepen) in CJA. | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
 
-Andere metriek kunnen gelijkaardig zijn in CJA en traditionele Adobe Analytics. Het totale aantal voor Adobe Analytics [aangepaste gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) (gebeurtenissen 1-100) moet in het algemeen zeer dicht bij de traditionele Adobe Analytics en CJA liggen (vast of niet gekoppeld). Dit is echter niet altijd het geval vanwege verschillen in mogelijkheden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en), zoals het dedupliceren van gebeurtenissen tussen CJA en traditionele Adobe Analytics.[
+Andere metriek kunnen gelijkaardig zijn in CJA en traditionele Adobe Analytics. Bijvoorbeeld het totale aantal voor Adobe Analytics [aangepaste gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) (gebeurtenissen 1-100) zouden in het algemeen zeer dicht bij de traditionele Adobe Analytics en CJA moeten liggen (of ze nu vastzitten of niet vastzitten). Dit is echter niet altijd waar vanwege [verschillen in mogelijkheden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en)  zoals deduplicatie van gebeurtenissen tussen CJA en traditionele Adobe Analytics.

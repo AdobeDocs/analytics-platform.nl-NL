@@ -1,12 +1,12 @@
 ---
-title: Overzicht van onderdelen
+title: Wat zijn componenten in Customer Journey Analytics?
 description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 11%
+source-wordcount: '344'
+ht-degree: 10%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 11%
 
 Componenten zijn functies in Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
 
-1. Meld u met uw Adobe ID-gegevens aan bij [analytics.adobe.com](https://analytics.adobe.com).
-2. Navigeer naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
+1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) je Adobe ID-gebruikersgegevens gebruiken.
+2. Navigeren naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
 
 U kunt de volgende componenten beheren:
 
@@ -28,11 +28,11 @@ U kunt de volgende componenten beheren:
 
 Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en tijdkorreligheid die u naar een project kunt slepen en neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
 
-Als u het deelvenster Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen deelvensters (Leeg paneel, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md) of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) deelvenster), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) en Componenten met behulp van de pictogrammen voor de linkerspoorstaaf of met [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
-Zie [Een project](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project tot stand brengen.
+Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project.
 
 ## Componenthandelingen
 
@@ -44,9 +44,9 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) op versch
 
 | Component Handeling | Beschrijving |
 | --- | --- |
-| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Favorieten | Voeg de component toe aan de lijst met favorieten. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
-| Goedkeuren | Keur de component goed om deze canonicaal te maken. Vervolgens wordt deze weergegeven in de respectievelijke componentmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters], of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Favorieten | Voeg de component toe aan de lijst met favorieten. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters], of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
+| Goedkeuren | Keur de component goed om deze canonicaal te maken. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters], of  [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
 | Delen | Alleen van toepassing op filters. |
 | Verwijderen | Alleen van toepassing op filters. |
 
@@ -56,4 +56,4 @@ Bekijk de video over het maken van statistieken, filters en datums:
 
 ## Machtigingen voor componenttoegang
 
-In Analysis Workspace kunnen Admins [curate](/help/analysis-workspace/curate-share/curate.md) gebruiken welke componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace kunnen beheerders [krullen](/help/analysis-workspace/curate-share/curate.md) welke componenten bij de rapportage aan gebruikers worden blootgesteld.

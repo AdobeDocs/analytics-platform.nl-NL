@@ -2,7 +2,8 @@
 title: (B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan CJA toe te voegen
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 0%
@@ -19,7 +20,7 @@ In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven 
 * Hoe presteert deze rekening als geheel met betrekking tot een specifieke marketingcampagne, in vergelijking met een andere rekening?
 * Werken bepaalde rollen (zoals IT Manager) bij één account anders dan dezelfde rol bij een andere account?
 
-U verwezenlijkt dit alles door de rekening-vlakke informatie als [lookup](/help/getting-started/cja-glossary.md) dataset te brengen.
+U bereikt dit alles door de gegevens op accountniveau als een [opzoeken](/help/getting-started/cja-glossary.md) dataset.
 
 U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA0 tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
 
@@ -29,7 +30,7 @@ U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens 
 
 ## 1. Opzoekschema maken (Experience Platform)
 
-Creërend uw eigen schema voor [lookup](/help/getting-started/cja-glossary.md) lijst zorgt ervoor dat de gebruikte dataset beschikbaar in CJA met de correcte opstelling (verslagtype) zal zijn. De beste praktijken moeten [een klasse van het douaneschema tot stand brengen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) genoemd &quot;Opzoeken&quot;, leeg van om het even welk element, dat voor alle raadplegingslijsten kan worden opnieuw gebruikt.
+Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de lijst zorgt ervoor dat de gebruikte dataset in CJA met de correcte opstelling (verslagtype) beschikbaar zal zijn. De beste praktijken zijn [een aangepaste schema-klasse maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) genoemd &quot;Opzoeken&quot;, leeg van om het even welk element, dat voor alle raadplegingslijsten kan worden opnieuw gebruikt.
 
 ![](assets/create-new-class.png)
 
@@ -53,9 +54,9 @@ Zo worden annualRevenue of totalEmployees in het volgende voorbeeld gedefinieerd
 
 ## 3. Gegevens in Experience Platform opnemen
 
-Instructies voor het [Wijs een CSV-bestand toe aan een XDM-schema](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) als u een CSV-bestand gebruikt.
+Instructies over hoe [Een CSV-bestand toewijzen aan een XDM-schema](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) moet u helpen als u een CSV-bestand gebruikt.
 
-[Er zijn ook andere ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) methoden beschikbaar.
+[Andere methoden](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) zijn ook beschikbaar.
 
 Het aan boord nemen van de gegevens en het bepalen van de raadpleging duurt ongeveer 2 tot 4 uur, afhankelijk van de grootte van de raadplegingstabel.
 
@@ -65,22 +66,22 @@ Voor dit voorbeeld, combineren wij 3 datasets in één verbinding CJA:
 
 | Naam gegevensset | Beschrijving | AEP Schema, klasse | Gegevens over gegevensset |
 | --- | --- | --- | --- |
-| B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | `emailID` wordt gebruikt als primaire identiteit en toegewezen een `Customer ID` namespace. Dientengevolge, zal het als gebrek **[!UICONTROL Person ID]** in Customer Journey Analytics verschijnen. ![Impressies](assets/impressions-mixins.png) |
-| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun profiel van LinkedIn, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | U hoeft `emailID` niet als primaire id in dit schema te selecteren. Zorg ervoor dat **[!UICONTROL Profile]** wordt ingeschakeld; Als u dat niet doet, kan CJA het `emailID` in B2B-profiel niet verbinden met de `emailID` in B2B-indrukgegevens. ![Profiel](assets/profile-mixins.png) |
-| B2B-info | Zie &quot;Opzoekgegevensset maken&quot; hierboven. | B2BAccount (aangepaste opzoekschema-klasse) | De verhouding tussen `accountID` en B2B de dataset van Inpressies is automatisch gecreeerd door de B2B dataset van Info met de B2B dataset van de Indrukking in CJA aan te sluiten, zoals die in de hieronder stappen wordt beschreven. ![Opzoeken](assets/lookup-mixins.png) |
+| B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | De `emailID` wordt gebruikt als primaire identiteit en toegewezen aan `Customer ID` naamruimte. Als gevolg hiervan wordt deze standaard weergegeven **[!UICONTROL Person ID]** in Customer Journey Analytics. ![Impressies](assets/impressions-mixins.png) |
+| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun profiel van LinkedIn, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | U hoeft niet te selecteren `emailID` als primaire id in dit schema. Zorg ervoor dat u **[!UICONTROL Profile]**; Als u dat niet doet, kan CJA geen verbinding maken met de `emailID` in B2B-profiel met de `emailID` in B2B-indrukgegevens. ![Profiel](assets/profile-mixins.png) |
+| B2B-info | Zie &quot;Opzoekgegevensset maken&quot; hierboven. | B2BAccount (aangepaste opzoekschema-klasse) | De relatie tussen `accountID` en de B2B dataset van de Impressies automatisch is gecreeerd door de B2B dataset van Info met de B2B dataset van de Impressie in CJA aan te sluiten, zoals die in de hieronder stappen wordt beschreven. ![Opzoeken](assets/lookup-mixins.png) |
 
 Hier is hoe u de datasets combineert:
 
-1. Selecteer in Customer Journey Analytics de tab **[!UICONTROL Connections]**.
+1. Selecteer in Customer Journey Analytics de **[!UICONTROL Connections]** tab.
 1. Selecteer de datasets (in ons voorbeeld, de drie hierboven) u wilt combineren.
-1. Voor de B2B dataset van Info, selecteer `accountID` sleutel die in uw raadplegingstabel zal worden gebruikt. Selecteer vervolgens de bijbehorende sleutel (corresponderende dimensie), ook `accountID` in de gebeurtenissenreeks.
+1. Voor de B2B gegevensreeks van Info selecteert `accountID` die in uw raadplegingslijst zal worden gebruikt. Selecteer vervolgens de overeenkomende sleutel (corresponderende dimensie), ook `accountID` in uw gebeurtenisdataset.
 1. Klik op **[!UICONTROL Next]**.
-1. Geef een naam en beschrijf de verbinding en configureer deze in overeenstemming met [deze instructies](/help/connections/create-connection.md).
+1. Naam en beschrijf de verbinding en vorm het volgens [deze instructies](/help/connections/create-connection.md).
 1. Klik op **[!UICONTROL Save]**.
 
 ## 5. Een gegevensweergave maken van deze verbinding
 
-Volg instructies op [het creëren van gegevensmeningen](/help/data-views/create-dataview.md).
+Volg de instructies op [gegevensweergaven maken](/help/data-views/create-dataview.md).
 
 * Voeg alle componenten (afmetingen en metriek) toe die u van de datasets nodig hebt.
 

@@ -4,41 +4,42 @@ description: Beschrijft hoe te om off-line-mode, taal, zoals-van-datum, en het o
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
+exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-
 # Report Builder-instellingen
 
-Met het deelvenster **Instellingen** kunt u instellingen op toepassingsniveau configureren, zoals de taal die wordt weergegeven door de gebruikersinterface, of u nu wel of niet wilt werken in de offline modus. De instellingen worden direct toegepast en ingesteld voor alle toekomstige sessies totdat ze worden gewijzigd.
+Gebruik de **Instellingen** om toepassing-vlakke montages zoals de taal te vormen die door UI wordt getoond of al dan niet om op off-line wijze te werken. De instellingen worden direct toegepast en ingesteld voor alle toekomstige sessies totdat ze worden gewijzigd.
 
 Report Builder-instellingen wijzigen
 
-1. Klik op het pictogram **Instellingen**.
+1. Klik op de knop **Instellingen** pictogram.
 
 1. Breng wijzigingen aan in de modus Off-line inschakelen, selecteer een taal of schakel de loginstellingen van Problemen oplossen in.
 
-1. Klik **Toepassen**.
+1. Klikken **Toepassen**.
 
    ![](./assets/image38.png)
 
 ## Offlinemodus
 
-Bij het maken en bewerken van een gegevensblok in de offline modus worden geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel een gegevensblok kunt maken en bewerken zonder te wachten op het uitvoeren van de aanvraag. Als u weer online bent, vernieuwt de opdracht *Gegevensblok vernieuwen* of *Alle gegevensblokken vernieuwen* de gegevensblokken die u met werkelijke gegevens hebt gemaakt.
+Bij het maken en bewerken van een gegevensblok in de offline modus worden geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel een gegevensblok kunt maken en bewerken zonder te wachten op het uitvoeren van de aanvraag. Wanneer u weer online bent, *Gegevensblok vernieuwen* of *Alle gegevensblokken vernieuwen* vernieuwt de gegevensblokken die u met werkelijke gegevens hebt gemaakt.
 
 Offlinemodus inschakelen
 
-1. Klik op het pictogram **Instellingen**.
+1. Klik op de knop **Instellingen** pictogram.
 
-1. Selecteer **Offlinemodus inschakelen**.
+1. Selecteren **Offlinemodus inschakelen**.
 
-1. Voer een positief geheel getal in het veld **Metrische gegevens weergeven als**.
+1. Geef een positief geheel getal op in het dialoogvenster **Metrische gegevens weergeven als** veld.
 
-1. Klik **Toepassen**.
+1. Klikken **Toepassen**.
 
 ## Taal
 
@@ -48,14 +49,14 @@ Om de taal te selecteren die in Report Builder UI wordt gebruikt
 
 1. Klik op Instellingen.
 
-1. Selecteer een taal in het keuzemenu **Taal**.
+1. Selecteer een taal in het menu **Taal** vervolgkeuzelijst.
 
    ![](./assets/image39.png)
 
-1. Klik **Toepassen.**
+1. Klikken **Toepassen.**
 
 ## Problemen oplossen
 
 Gebruik de instelling voor probleemoplossing om alle client-/servergegevens te registreren bij een lokaal bestand. Gebruik deze optie om ondersteuningstickets op te lossen.
 
-Om de optie van het Oplossen van problemen toe te laten, selecteer **verzoek van de rapportbouwer van het Logboek aan lokaal dossier**.
+Als u de optie Problemen oplossen wilt inschakelen, selecteert u **Aanvraag voor logboekrapportbuilder naar lokaal bestand**.

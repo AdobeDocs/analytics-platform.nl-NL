@@ -1,13 +1,14 @@
 ---
 title: Componentinstellingen opmaken
 description: Vorm hoe metrisch wordt geformatteerd.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 2%
 
 ---
-
 
 # Componentinstellingen opmaken
 
@@ -21,4 +22,4 @@ Met de indeling kunt u bepalen hoe een bepaalde metrische waarde wordt weergegev
 | [!UICONTROL Decimal Places] | Niet zichtbaar op de gegevenstypen van het schema van het Geheel. Hier kunt u het aantal decimalen opgeven dat metrisch wordt weergegeven. |
 | [!UICONTROL Currency] | Als de notatie Valuta is, bepaalt u in welke valuta de metrische waarde moet worden weergegeven. Deze optie is niet van toepassing op valutaomrekeningen; het is enkel voor het formatteren UI. |
 | [!UICONTROL Show upward trend as] | Hier kunt u opgeven of een opwaartse trend in deze metrische waarde goed (groen) of slecht (rood) is. |
-| [!UICONTROL True value] en [!UICONTROL False value] | Alleen zichtbaar op gegevenstypen van een Booleaans schema. Hiermee kunt u het label van het dimensie-item aanpassen voor waarden `true` en `false`. |
+| [!UICONTROL True value] en [!UICONTROL False value] | Alleen zichtbaar op gegevenstypen van een Booleaans schema. Hiermee kunt u het label van het dimensie-item aanpassen voor `true` en `false` waarden. |

@@ -2,7 +2,8 @@
 title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-source-git-commit: a1b4ddc0799d741edb9a4624e22a800a0307e5eb
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%

@@ -1,18 +1,18 @@
 ---
 title: Rapport over gegevens over Google Analytics in Customer Journey Analytics
 description: Hiermee worden nuttige rapporten over de gegevens van Google Analytics in Customer Journey Analytics weergegeven
-translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-
 # Rapport over gegevens over Google Analytics in Customer Journey Analytics
 
-Nu u [ingested de gegevens van Google Analytics in Experience Platform en Customer Journey Analytics (CJA) ](/help/use-cases/ga-to-cja.md) hebt, zullen wij u enkele nuttige scenario&#39;s voor het melden van die gegevens tonen.
+Nu hebt u [de Google Analytics-gegevens zijn opgenomen in Experience Platform en Customer Journey Analytics (CJA)](/help/use-cases/ga-to-cja.md), zullen wij u enkele nuttige scenario&#39;s voor het melden van die gegevens tonen.
 
 ## Webgegevens en toepassingsgegevens visualiseren als gecombineerde gegevenssets
 
@@ -39,7 +39,7 @@ Nu bekijken welke Web-pagina&#39;s de inkomende vraag bij het vraagcentrum leidd
 We doen dit door
 
 * Het gebruiken van berekende metrisch om de gegevens neer aan slechts zittingen te filtreren die met een vraag van het vraagcentrum beëindigden.
-* Met behulp van het model &quot;participation&quot; in de [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace) van de CJA.
+* Het &quot;participatiemodel&quot; in CJA&#39;s gebruiken [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace).
 
 U kunt gemakkelijk zien welke pagina&#39;s het vaakst aan een zitting deelnemen die in een vraag beëindigt. U kunt zien dat de pagina&#39;s &quot;Winkelwagentje&quot; en &quot;Afhandelingsinformatie&quot; de meeste vraag stelden. Aangezien u ook de gegevens van de mobiele app voor de firebase hebt opgenomen, kunt u zelfs paginafouten en toepassingscrashes zien die de aanroepen genereren. Dit is een heel belangrijk gegevenspunt als u geweldige ervaring met internet en mobiele apps wilt bieden.
 
@@ -63,10 +63,10 @@ Met Attribution IQ kunt u ook eenvoudig uw gegevens filteren. De attributie kan 
 
 ![](assets/filter.png)
 
-Ten slotte kunt u ook uw Web- en App-inkomsten toewijzen aan uw Google Ad Content. U zult zien dat u meer inkomsten hebt behaald van de mobiele app die wordt aangestuurd door onze online Google Ads dan van het web. Door advertenties te sorteren op internet en app-inkomsten krijgt u een heel ander beeld van wat uw toppodiumadvertenties waren.
+Ten slotte kunt u ook uw Web- en App-inkomsten toewijzen aan uw Google Ad Content. U zult zien dat u meer inkomsten hebt behaald van de mobiele app die wordt aangestuurd door onze online Google Ads dan van het web. Door advertenties te sorteren op internet en app-inkomsten krijgt u een heel ander beeld van wat uw best presterende Google-advertenties waren.
 
 ![](assets/google-ad.png)
 
-Zonder CJA kon u niet weten dat uw online advertenties invloed hadden op producten die op uw mobiele app zijn aangeschaft. Nu kun je zien dat de inkomsten uit mobiele apps van Google Ads $14k- $5k extra bedragen, vergeleken met alleen het web.
+Zonder CJA kon u niet weten dat uw online advertenties invloed hadden op producten die op uw mobiele app zijn aangeschaft. Nu ziet u dat de inkomsten uit mobiele apps van Google Ads een extra $14k - $5k vertegenwoordigen, in vergelijking met alleen het web.
 
 ![](assets/google-ad2.png)
