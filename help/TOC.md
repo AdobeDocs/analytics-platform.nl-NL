@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 41%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 41%
    + [Verbindingen beheren](connections/manage-connections.md)
    + [De verbindingsgrootte schatten](connections/estimate-connection-size.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](connections/combined-dataset.md)
+   + [Standaardzoekopdrachten](connections/standard-lookups.md)
    + Kanaaloverschrijdende analyse {#cca}
       + [Overzicht van kanaalanalyse](connections/cca/overview.md)
       + [Hoe herspeelt u](connections/cca/replay.md)
@@ -191,7 +192,6 @@ ht-degree: 41%
    + [Telefooncentrum en webgegevens importeren](use-cases/call-center.md)
    + [Gebruiksgevallen voor gegevensinvoer](use-cases/data-ingestion.md)
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
-   + [Voeg globale raadplegingen aan uw datasets toe](use-cases/global-lookups.md)
    + [Gegevens van Google Analytics opnemen in Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Rapport over gegevens over Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Analysedashboards {#cja-dashboards}

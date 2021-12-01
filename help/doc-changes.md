@@ -3,7 +3,7 @@ title: CJA-documentatieupdates
 description: Hiermee geeft u updates van de inhoud weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 5%
@@ -40,7 +40,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Maart 2021 | Nieuw onderwerp over [gebruikersvoorkeuren](/help/analysis-workspace/user-preferences.md) in Workspace. |
 | Februari 2021 | Nieuw onderwerp bij gebruik [Afmetingen marketingkanaal in Adobe Experience Platform](/help/use-cases/marketing-channels.md). |
 | Februari 2021 | De nieuwe [CJA API](https://www.adobe.io/cja-apis/docs/) documentatie. |
-| Januari 2021 | Nieuw onderwerp over [toevoegen van globale raadplegingen aan uw dataset](/help/use-cases/global-lookups.md). |
+| Januari 2021 | Nieuw onderwerp over [het toevoegen van standaardraadplegingen aan uw dataset](/help/connections/standard-lookups.md). |
 | 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
 | 13 november 2020 | Een nieuwe gebruikscase op [callcenter en webgegevens importeren](/help/use-cases/call-center.md) is toegevoegd. |
 | 11 november 2020 | Een onderwerp toegevoegd op [De verbindingsgrootte schatten](/help/connections/estimate-connection-size.md). |
