@@ -3,7 +3,7 @@ title: Overzicht van Customer Journey Analytics
 description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
-source-git-commit: 69ded6c9d08981810f6d9edef273cad95cb2c367
+source-git-commit: 3389515bd18903eda14af1670ff7d1ab080c9db2
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 0%
@@ -64,9 +64,8 @@ Om verbindingen tot stand te brengen, voeg datasets toe, enz., hebt u de volgend
 * Het alleen binnen Customer Journey Analytics beheren van een product is niet voldoende om een verbinding te maken, bij te werken of te verwijderen. Om een verbinding aan een dataset van de Experience Platform tot stand te brengen, hebt u ook de toestemmingen van het Experience Platform nodig. U moet specifiek deel uitmaken van een **Productprofiel Experience Platform** dat u de volgende toestemmingen geeft:
    * Schema&#39;s weergeven
    * Schema&#39;s beheren
+   * Identiteitsnaamruimten weergeven
    * Gegevensbestanden weergeven
-   * Gegevensbestanden beheren
-   * Bronnen beheren
 
 Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
