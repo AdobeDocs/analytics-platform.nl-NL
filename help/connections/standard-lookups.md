@@ -3,9 +3,9 @@ title: Standaardraadplegingen toevoegen aan uw datasets
 description: Gebruik standaardraadplegingen om de rapportage te vergroten met nuttige dimensies in Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
+source-git-commit: 4e31b02815e32695d97eab0f563c71725bc79c11
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Standaardraadplegingen toevoegen aan uw datasets
 
 >[!IMPORTANT]
->De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de Verbinding van Gegevens van Analytics in CJA. U kunt deze alleen gebruiken als u de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) of de Experience Platform-gegevensverzameling-API&#39;s.
+>De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de Verbinding van Gegevens van Analytics in CJA. U kunt ze alleen gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
 
 De standaardraadplegingen (die ook als Adobe-Geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &#39;Standaard opzoeken&#39; lijkt op een opzoekgegevensset. De standaardraadplegingen zijn toepasselijk over organisaties van Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die Adobe classificeert.
 
