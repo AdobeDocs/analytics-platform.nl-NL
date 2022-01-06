@@ -3,9 +3,9 @@ title: Standaardraadplegingen toevoegen aan uw datasets
 description: Gebruik standaardraadplegingen om de rapportage te vergroten met nuttige dimensies in Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 4e31b02815e32695d97eab0f563c71725bc79c11
+source-git-commit: 0f2cbe4ff8bdc083fff363d9623afe68a5132d6f
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Standaardraadplegingen toevoegen aan uw datasets
 
 >[!IMPORTANT]
->De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de Verbinding van Gegevens van Analytics in CJA. U kunt ze alleen gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
+>De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de Verbinding van Gegevens van Analytics in CJA. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
 
 De standaardraadplegingen (die ook als Adobe-Geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &#39;Standaard opzoeken&#39; lijkt op een opzoekgegevensset. De standaardraadplegingen zijn toepasselijk over organisaties van Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die Adobe classificeert.
 
@@ -22,6 +22,19 @@ In traditionele Adobe Analytics worden deze dimensies alleen weergegeven, terwij
 ## Standaardraadplegingen gebruiken met gegevenssets voor gegevensaansluiting voor Adobe-gegevens
 
 De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de Verbinding van Gegevens van Analytics gebruikt en u een afmeting brengt waarvoor Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
+
+<!--
+### Specific IDs that need to be populated
+
+The following IDs need to be populated in the specific XDM mixins for this functionality to work:
+
+* Environment Details Mixin – device/typeID value populated - Must match Device Atlas IDs and will populate device data.
+* Adobe Analytics ExperienceEvent Template Mixin or Adobe Analytics ExperienceEvent Full Extension Mixin with analytics/environment/browserIDStr and analytics/environment/operatingSystemIDStr. Both must match the Adobe IDs and  populate browser and OS data, respectively.
+
+You need these mixins with the three IDs populated (device/typeID, environment/browserIDStr, and environment/operatingSystemIDStr). The lookup dimensions will then be pulled automatically by CJA and will be available in the Data View.
+
+The catch here is that they can only populate those IDs today if they have a direct relationship with Device Atlas. They are Device Atlas IDs, and they provide an API to allow a customer to look them up. This is a significant hurdle, and we may just want to take the reference to this capability out of the product documentation until we have a productized way to expose the Device Atlas ID lookup functionality.
+-->
 
 ### Beschikbare standaardopzoekvelden
 
