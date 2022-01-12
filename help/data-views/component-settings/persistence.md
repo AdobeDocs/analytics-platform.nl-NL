@@ -3,10 +3,10 @@ title: Instellingen voor persistentiecomponenten
 description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis aan volgende blijven.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
+source-git-commit: 25557196c9841489e2732dece2c3402ebaf6224e
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 5%
+source-wordcount: '794'
+ht-degree: 6%
 
 ---
 
@@ -52,6 +52,15 @@ Details over de beschikbare toewijzingsinstellingen.
    | --- | --- | --- | --- | --- | --- |
    | Waarden gegevensset | A | B | C |  | A |
    | Alle toewijzingen | A | A,B | A, B, C | A, B, C | A, B, C |
+
+* **[!UICONTROL First Known]** en **[!UICONTROL Last Known]**: (19 januari 2022) Deze twee toewijzingsmodellen voldoen aan de &quot;entry&quot; - en &quot;exit&quot; - criteria. Zij nemen de eerste of laatste waargenomen waarde voor een afmeting binnen een gespecificeerd persistentieschema (zitting, persoon, of douanetijdspanne met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
+
+| Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+| --- | --- | --- | --- | --- | --- |
+| Tijdstempel (min) | 1 | 2 | 3 | 6 | 7 |
+| Oorspronkelijke waarden |  | C | B |  | A |
+| Eerste gekend | C | C | C | C | C |
+| Laatst bekend | A | A | A | A | A |
 
 ## [!UICONTROL Expiration] instellingen
 
