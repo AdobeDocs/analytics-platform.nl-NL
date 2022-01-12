@@ -3,9 +3,9 @@ title: Instellingen voor persistentiecomponenten
 description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis aan volgende blijven.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 4d45314ae77ee1ca78bbd44b0aa08add0f7030cc
+source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '714'
 ht-degree: 5%
 
 ---
@@ -66,10 +66,10 @@ Details over de beschikbare vervalinstellingen.
 
 Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt koppelen aan waarden van de dimensie in een andere dimensie. Tot de geldige vervolgkeuzemogelijkheden behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
-Deze instelling wordt meestal gebruikt in objectarrays en wordt meestal gebruikt voor het meten van zaken als methoden voor het zoeken van producten, interne zoekresultaten, indrukkingen van interne promoties of inhoud of productaanbevelingen. In vorige versies van Adobe Analytics wordt dit concept ook wel omzetsyntaxisomzetting genoemd.
+Deze instelling wordt meestal gebruikt in objectarrays en wordt meestal gebruikt voor het meten van zaken als methoden voor het zoeken van producten, interne zoekresultaten, indrukkingen van interne promoties of inhoud of productaanbevelingen. In vorige versies van Adobe Analytics was dit concept vergelijkbaar met omzetsyntaxisverkoop.
 
 ## [!UICONTROL Binding Metric]
 
 Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bindende trigger fungeert. Tot de geldige vervolgkeuzemogelijkheden behoren ook de meetgegevens die in de gegevensweergave zijn opgenomen.
 
-Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting. In vorige versies van Adobe Analytics wordt een vergelijkbaar, maar beperkter concept hiervan ook wel &#39;productsyntaxisverkoop&#39; genoemd.
+Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting. In vorige versies van Adobe Analytics wordt een vergelijkbaar, maar beperkter concept ook wel productsyntaxisverkoop genoemd.
