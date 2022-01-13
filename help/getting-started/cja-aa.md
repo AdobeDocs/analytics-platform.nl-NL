@@ -3,9 +3,9 @@ title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1194'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,14 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Buiten-de-box Analysis Workspace-afmetingen (bv. Browsertype, Type referentie, Besturingssysteem enz.) | CJA biedt deze afmetingen native zolang de basis-XDM-velden (zoals gebruikersagent of apparaat-id) zijn gevuld. Voor klanten die de Verbinding van Gegevens van de Analyse (ADC) gebruiken, zijn sommige van deze afmetingen beschikbaar, maar niet allen. Raadpleeg onze [documentatie over de door ADC ondersteunde analytische variabelen](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | GDPR-verwijdering | volledige ondersteuning; merkt op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Adobe Experience Platform]. CJA neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
 | Variabelen/lijsteigenschappen weergeven | volledige ondersteuning; CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
+| Handelswijzigingsvariabele persistentie | Volledige ondersteuning (januari 2022) |
 | Metrics | volledige ondersteuning; CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
 | Metrische deduplicatie | Volledige ondersteuning |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. |
 | PDF exporteren | Volledige ondersteuning |
 | Projectcuratie | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
-| Report Builder (Excel-plug-in) | Volledige ondersteuning (oktober 2021) |
+| Report Builder (Excel-plug-in) | Volledige ondersteuning |
 | Tijdverwerking rapporteren | volledige ondersteuning; CJA baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | API-toegang rapporteren | volledige ondersteuning; Beschikbaar via [CJA API](https://www.adobe.io/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
@@ -79,9 +80,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
 | Contributieanalyse | Er is steun gepland. |
-| Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. [!UICONTROL Experience Platform Query Service] verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
+| Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
-| Handelswijzigingsvariabele persistentie | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. |

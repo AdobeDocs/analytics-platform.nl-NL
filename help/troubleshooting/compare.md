@@ -4,14 +4,16 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 6f77dd9caef1ac8c838f825a48ace6cf533d28a9
+source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-gegevens vergelijken met CJA-gegevens
+
+Aangezien uw organisatie CJA goedkeurt, kunt u sommige verschillen in gegevens tussen Adobe Analytics en CJA opmerken. Dit is normaal en kan om verschillende redenen voorkomen. CJA is ontworpen om u toe te staan om op enkele beperkingen op uw gegevens in AA te verbeteren. Onverwachte/onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team CJA kunnen gebruiken onbelemmerd door zorgen over gegevensintegriteit.
 
 Stel dat u Adobe Analytics-gegevens in AEP hebt ingevoerd via de Bronverbinding Analytics en vervolgens een CJA-verbinding hebt gemaakt met deze dataset.
 

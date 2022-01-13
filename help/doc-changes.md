@@ -3,9 +3,9 @@ title: CJA-documentatieupdates
 description: Hiermee geeft u updates van de inhoud weer voor de documentatieset Customer Journey Analytics die sinds december 2019 is ingesteld.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
+source-git-commit: 226c2549ecd0ee694b9aea8072aa1c5e76226c4a
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#allocation-settings) |
+| Januari 2022 | Een artikel toegevoegd op [Adobe Analytics-gegevens vergelijken met Analytics-gegevens in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
 | November 2021 | Bijgewerkte documentatie voor [[!UICONTROL Records skipped]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-details-settings) op de pagina Verbindingen Details. |
 | Oktober 2021 | Documentatie voor [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) in CJA. |
 | Oktober 2021 | Customer Journey Analytics [Controlelogboek](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API-documentatie |
