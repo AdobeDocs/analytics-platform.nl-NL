@@ -3,13 +3,13 @@ title: Uw AA-gegevens vergelijken met CJA-gegevens
 description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegevens in Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
-source-git-commit: b0d29964c67d8a6a847a05dbe113b8213b346f9b
+exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
+source-git-commit: 6f77dd9caef1ac8c838f825a48ace6cf533d28a9
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Analytics-gegevens vergelijken met CJA-gegevens
 
@@ -26,7 +26,6 @@ Hier volgen enkele stappen om uw oorspronkelijke Adobe Analytics-gegevens te ver
 * Zorg ervoor de dataset van Analytics in AEP gegevens voor de datumwaaier bevat u onderzoekt.
 
 * Zorg ervoor dat de rapportsuite die u hebt geselecteerd in Analytics overeenkomt met de rapportsuite die in Adobe Experience Platform is ingevoerd.
-
 
 ## Stap 1: Metrische voorvallen uitvoeren in Adobe Analytics
 
@@ -48,7 +47,7 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
 >
 >Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in CJA wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd eenvoudig om te repliceren in AA, vooral als de Kanaalanalyse is ingeschakeld.
 
-1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), voer de volgende Totaal Records door timestamps-query uit:
+1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)voert u het volgende uit [!UICONTROL Total Records by timestamps] query:
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -62,7 +61,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en), identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen door de connector Analytics Source kunnen worden neergezet.
+1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en)identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn verwijderd door de connector voor Analytische bron.
 
    De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) kan rijen tijdens de transformatie naar XDM-schema neerzetten. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als om het even welke volgende gebieden van Analytics deze waarden hebben, zal de volledige rij worden gelaten vallen.
 
@@ -75,20 +74,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53 63 |
 
-1. Als de schakelaar rijen liet vallen, trek die rijen van metrische Voorvallen af. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de AEP-gegevenssets.
+1. Als de schakelaar rijen liet vallen, trek die rijen van af [!UICONTROL Occurrences] metrisch. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de Adobe Experience Platform-gegevenssets.
 
 ## Waarom records kunnen worden verwijderd of overgeslagen tijdens inname van AEP
 
-CJA [Verbindingen](/help/connections/create-connection.md) staat u toe om veelvoudige datasets samen te brengen en samen te voegen die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op de achtergrond passen we deduplicatie toe: volledige buitenste verbinding of vereniging op gebeurtenisdatasets die op timestamps worden gebaseerd en dan binnenste zich bij profiel en raadplegingsdataset aansluiten, die op identiteitskaart van de Persoon wordt gebaseerd.
+CJA [Verbindingen](/help/connections/create-connection.md) staat u toe om veelvoudige datasets samen te brengen en samen te voegen die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op de achtergrond passen we deduplicatie toe: de volledige buitenste verbinding of de vereniging op gebeurtenisdatasets die op timestamps worden gebaseerd, en toen binnenste zich bij profiel en raadplegingsdataset aansluiten, die op identiteitskaart van de Persoon wordt gebaseerd.
 
 Hier zijn een aantal redenen waarom records kunnen worden overgeslagen bij het opnemen van gegevens van AEP.
 
-* **Ontbrekende tijdstempels** - Als er tijdstempels ontbreken in gebeurtenisgegevenssets, worden deze records tijdens inname volledig genegeerd of overgeslagen. omdat zij gegevenssets samen zouden laten verenigen .
+* **Ontbrekende tijdstempels** - Als er tijdstempels ontbreken in gebeurtenisgegevenssets, worden deze records tijdens inname volledig genegeerd of overgeslagen.
 
-* **Ontbrekende persoon-id&#39;s** - Ontbrekende personen-id&#39;s (op basis van de gegevensset met gebeurtenissen en/of op basis van de gegevensset met profielen/opzoekingen) zorgen ervoor dat deze records worden genegeerd of overgeslagen. De reden is dat er geen gemeenschappelijke IDs of passende sleutels zijn om zich bij de verslagen aan te sluiten.
+* **Ontbrekende persoon-id&#39;s** - Ontbrekende personen-id&#39;s (op basis van de gegevensset voor gebeurtenissen en/of van de gegevensset voor profiel/zoekopdracht) zorgen ervoor dat deze records worden genegeerd of overgeslagen. De reden is dat er geen gemeenschappelijke IDs of passende sleutels zijn om zich bij de verslagen aan te sluiten.
 
-* **Ongeldige personen-id&#39;s** - Met ongeldige IDs, kan het systeem geen geldige gemeenschappelijke identiteitskaart onder de datasets vinden om zich aan te sluiten. In sommige gevallen heeft de kolom met de persoon-id ongeldige personen-id&#39;s, zoals &quot;undefined&quot; of &quot;00000000&quot;.
-
-* **Id van grote persoon** - Een persoon-id met een combinatie van cijfers en letters die in een gebeurtenis meer dan 1 miljoen keer per maand voorkomt, kan niet worden toegewezen aan een specifieke gebruiker of persoon. Het wordt gecategoriseerd als ongeldig. Deze records kunnen niet in het systeem worden opgenomen en resulteren in foutgevoelige inname en rapportage.
-
-
+* **Ongeldige of grote persoon-id&#39;s** - Met ongeldige IDs, kan het systeem geen geldige gemeenschappelijke identiteitskaart onder de datasets vinden om zich aan te sluiten. In sommige gevallen heeft de kolom met de persoon-id ongeldige personen-id&#39;s, zoals &quot;undefined&quot; of &quot;00000000&quot;. Een persoon-id (met een combinatie van cijfers en letters) die in een gebeurtenis meer dan 1 miljoen keer per maand wordt weergegeven, kan niet aan een specifieke gebruiker of persoon worden toegewezen. Het wordt gecategoriseerd als ongeldig. Deze records kunnen niet in het systeem worden opgenomen en resulteren in foutgevoelige inname en rapportage.
