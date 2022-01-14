@@ -3,9 +3,9 @@ title: Een gegevensweergave maken of bewerken
 description: Alle instellingen die u kunt aanpassen om een gegevensweergave te maken of te bewerken.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 
 ![Nieuwe gegevensweergave](assets/new-data-view.png)
 
-### Instellingen
+### Instellingen voor gegevensweergave
 
 Verstrekt overkoepelende montages voor de gegevensmening.
 
