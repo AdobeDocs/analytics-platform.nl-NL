@@ -3,9 +3,9 @@ title: Een gegevensweergave maken of bewerken
 description: Alle instellingen die u kunt aanpassen om een gegevensweergave te maken of te bewerken.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -84,21 +84,23 @@ Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U ku
    * [[!UICONTROL Persistence]](component-settings/persistence.md)
    * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
 
-Indien nodig kunt u de volgende functies gebruiken:
+## Maten of afmetingen dupliceren
 
-* **[!UICONTROL Duplicate]**: Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer [!UICONTROL Duplicate] het plaatsen onder de metrische metrische naam of dimensies bij het hoogste recht. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
+Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer [!UICONTROL Duplicate] het plaatsen onder de metrische metrische naam of dimensies bij het hoogste recht. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
 
-   ![Dupliceren](assets/duplicate.png)
+![Dupliceren](assets/duplicate.png)
 
-* **[!UICONTROL Filter]**: U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtreren:
+## Filterschemavelden of -gegevenssets
 
-   ![Filtervelden](assets/filter-fields.png)
+U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtreren:
 
-   U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens bevat of dat het een identiteit is. Standaard past Adobe eerst de **[!UICONTROL Contains data]** naar alle gegevensweergaven te filteren.
+![Filtervelden](assets/filter-fields.png)
 
-   ![Andere filters](assets/filter-other.png)
+U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens bevat of dat het een identiteit is. Standaard past Adobe eerst de **[!UICONTROL Contains data]** naar alle gegevensweergaven te filteren.
 
-## Instellingen
+![Andere filters](assets/filter-other.png)
+
+## Het tabblad Instellingen
 
 1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
 1. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
