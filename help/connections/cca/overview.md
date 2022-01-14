@@ -3,9 +3,9 @@ title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 0f348f1d2119c902716a5e096a859521a4b316b0
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisati
 
 ## Beperkingen
 
+>[!IMPORTANT]
+>
+>Houd er rekening mee dat elke wijziging in het algemene schema van de gebeurtenisdataset ook moet worden toegepast in het nieuwe, naastgelegen schema van de dataset. Als dit niet het geval is, wordt de naastgelegen dataset verbroken.
+
 De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkingen op hoe het kan worden gebruikt.
 
 * De huidige mogelijkheden voor opnieuw aanvragen zijn beperkt tot één stap (permanente id tot tijdelijke id). Het opnieuw activeren in meerdere stappen (bijvoorbeeld een blijvende id naar een tijdelijke id en een andere tijdelijke id) wordt niet ondersteund.
@@ -58,13 +62,14 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in CJA te gebruiken.
 
 1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
-1. Neem contact op met uw Adobe Technical Account Manager met de volgende informatie:
+1. Neem contact op met de klantenondersteuning van Adobe via de volgende informatie:
    * Een verzoek om Kanaaloverschrijdende analyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt)
    * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets)
-   * Je voorkeur van [replay](replay.md) frequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
-1. De Adobe Technical Account Manager werkt samen met de Adobe-engineering om Kanaalanalyse in te schakelen bij het ontvangen van uw verzoek. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Uw Adobe Technical Account Manager kan de nieuwe dataset-id en de kolomnaam van de persoon-id opgeven.
+   * Je voorkeur van [replay](replay.md) frequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster
+   * Naam van sandbox.
+1. De Klantenondersteuning van Adobe werkt samen met Adobe-engineering om Kanaalanalyse mogelijk te maken wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Adobe Klantenondersteuning kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
 1. Als Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens met een stitched-functie gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
 1. [Verbinding maken](../create-connection.md) in CJA die de onlangs geproduceerde dataset en andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op basis van de verbinding.
