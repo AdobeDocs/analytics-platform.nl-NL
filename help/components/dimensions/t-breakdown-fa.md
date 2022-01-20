@@ -3,10 +3,10 @@ description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
 keywords: Analysis Workspace
 title: Uitsplitsingsdimensies
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
+source-git-commit: 0176f10ffed85786b0bfa77204ca7a19d9c39ba7
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
 
@@ -44,3 +44,25 @@ U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoefte
 Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat op een indeling is toegepast, plaatst u de muisaanwijzer boven het indelingsmodel en klikt u op **[!UICONTROL Edit]**:
 
 ![Onderbrekingsinstellingen](assets/breakdown_settings.png)
+
+Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onderverdelingen of het uitgeven van hen:
+
+* Als u een attributie toepast terwijl er geen andere attributies bestaan, wordt de attributie toegepast op de gehele kolomstructuur.
+
+* Als u een uitsplitsing toevoegt nadat een toewijzing is toegepast, wordt de standaardinstelling gebruikt voor de opgegeven uitsplitsing die is toegevoegd (als die dimensie een standaardinstelling heeft). Anders wordt de uitsplitsing van de bovenliggende kolom gebruikt. Sommige dimensies hebben een standaardtoewijzing. De tijdafmetingen en de referentie gebruiken bijvoorbeeld Gelijke aanraking. De dimensie van het Product gebruikt Last Touch. Andere afmetingen hebben geen standaardwaarde en gebruiken de toewijzing van de bovenliggende kolom.
+
+* Als de kolomstructuur al kenmerken bevat, heeft het wijzigen van de toewijzing alleen invloed op de eigenschap die u bewerkt.
+
+## Video&#39;s
+
+Afmetingen en metriek toevoegen aan uw project in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606)
+
+Werken met afmetingen in een tabel voor vrije vorm:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179)
+
+Uitsplitsingen naar positie Dimension:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033)
