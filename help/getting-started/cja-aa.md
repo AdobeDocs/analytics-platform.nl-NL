@@ -3,9 +3,9 @@ title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
+source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1301'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,12 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
-| Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. |
+| Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. Wordt in CJA &quot;Audience Publishing&quot; genoemd. |
+| Nieuwe versus herhaalde sessierapportage | De steun is gepland met sommige bedenkingen. |
+| Lift and Trust Reporting | Er is steun gepland. |
+| Builder voor classificatieregels | Werkt iets anders in CJA gebruikend de manipulaties van het on-the-fly koord bij rapporttijd eerder dan raadplegingsdatasets. |
+| Verwerkingsregels, VISTA-regels, regels voor verwerking van distributiekanalen | De steun geplande, maar zal bij vraag-tijd eerder dan tijdens gegevensinzameling voor flexibelere en retroactieve en niet-destructieve gegevensmanipulaties werken. |
+| Projectsjablonen | Er is steun gepland. |
 
 ## Steun nog niet gepland
 
@@ -95,6 +100,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Builder voor classificatieregels | De steun is nog niet gepland. |
 | Gegevensfeeds | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
+| Gegevensbronnen van transactie-id | De steun is nog niet gepland. |
+| Valutaconversie | De steun is nog niet gepland. |
+| Real Time Reports | De steun is nog niet gepland. |
 
 ## Wordt nooit ondersteund
 
