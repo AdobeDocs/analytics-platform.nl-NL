@@ -3,7 +3,7 @@ title: Gegevens van Google Analytics opnemen in Adobe Experience Platform
 description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) om uw gegevens van Google Analytics in Adobe Experience Platform in te voeren. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 445317efa636024dbaf0ac34b6a74b52b92b9000
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 0%
@@ -124,7 +124,7 @@ U kunt livestreaminggebeurtenissen ook rechtstreeks vastleggen vanuit Google Tag
 
 ### 1. Aangepaste variabelen toevoegen
 
-Nadat u zich hebt aangemeld bij het Google Tag Manager-account, moet u enkele aangepaste constante variabelen toevoegen die betrekking hebben op Adobe. U hebt waarschijnlijk al variabelen in Google Tag Manager die naar Google Analytic worden verzonden, zoals de klant-e-mail, de naam van de klant, de taal en de aanmeldingsstatus van de klant. U moet vijf nieuwe aangepaste variabelen definiëren:
+Nadat u zich hebt aangemeld bij het Google Tag Manager-account, moet u enkele aangepaste constante variabelen toevoegen die betrekking hebben op Adobe. U hebt waarschijnlijk al variabelen in Google Tag Manager die naar Google Analytics worden verzonden, zoals de klant-e-mail, de naam van de klant, de taal en de aanmeldingsstatus van de klant. U moet vijf nieuwe aangepaste variabelen definiëren:
 
 * Adobe Experience Cloud org ID
 * DCS Streaming-eindpunt
