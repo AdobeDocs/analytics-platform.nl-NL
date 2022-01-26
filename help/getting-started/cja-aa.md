@@ -3,9 +3,9 @@ title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
+source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1304'
 ht-degree: 3%
 
 ---
@@ -79,6 +79,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
+| Kalendergebeurtenissen | Wordt &#39;Annotaties&#39; genoemd in Workspace. |
 | Builder voor classificatieregels | Het zal lichtjes verschillend in CJA werken, gebruikend koordmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
 | Contributieanalyse | Er is steun gepland. |
 | Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
@@ -98,11 +99,11 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Activity Map | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
 | Builder voor classificatieregels | De steun is nog niet gepland. |
+| Valutaconversie | De steun is nog niet gepland. |
 | Gegevensfeeds | De steun is nog niet gepland. |
+| Real Time Reports | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
 | Gegevensbronnen van transactie-id | De steun is nog niet gepland. |
-| Valutaconversie | De steun is nog niet gepland. |
-| Real Time Reports | De steun is nog niet gepland. |
 
 ## Wordt nooit ondersteund
 
@@ -110,5 +111,4 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 * Dashboards voor rapporten en analyses
 * Bladwijzers voor rapporten en analyses
 * Doelstellingen voor rapporten en analyses
-* Gebeurtenissen van de agenda voor rapporten en analyses
 * Mobiele services
