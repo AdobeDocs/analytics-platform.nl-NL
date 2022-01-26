@@ -3,9 +3,9 @@ title: Ondersteuning voor Customer Journey Analytics-functies
 description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-functies ingesteld.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
+source-git-commit: d46779a30fd841194f8ba0e80ab17ea5714569db
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1300'
 ht-degree: 3%
 
 ---
@@ -69,8 +69,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| Bot filteren | Voor gegevenssets die zijn gebaseerd op gegevenssets op basis van analytische bronaansluiting, wordt beide filtering toegepast. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
-| Media Analytics | De gegevens van media zijn beschikbaar als deel van de Verbinding van Gegevens van Analytics. |
+| Bot filteren | Voor [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)Op gegevenssets gebaseerde gegevenssets worden beide gefilterd. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
+| Media Analytics | De gegevens van media zijn beschikbaar als deel van de Bron van Analytics Schakelaar. |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
 | Verwerkingsregels | Voor op gegevensschakelaar-gebaseerde datasets van Gegevens van Analytics, worden de verwerkingsregels nog toegepast. [Mogelijkheden voor gegevensuitwisseling in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) kan ook worden gebruikt als vervanging voor verwerkingsregels voor gegevens die rechtstreeks naar het Platform gaan. |
 
@@ -98,10 +98,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Activity Map | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
-| Builder voor classificatieregels | De steun is nog niet gepland. |
 | Valutaconversie | De steun is nog niet gepland. |
 | Gegevensfeeds | De steun is nog niet gepland. |
-| Real Time Reports | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
 | Gegevensbronnen van transactie-id | De steun is nog niet gepland. |
 
