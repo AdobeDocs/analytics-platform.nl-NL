@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 1f0851fa9543439467d6514e22cbe82eafad87c3
+source-git-commit: 0822b27006c79e88d463055ecb0f7172cda8e141
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '571'
 ht-degree: 41%
 
 ---
@@ -205,3 +205,7 @@ ht-degree: 41%
 + Privacy {#cja-privacy}
    + [Privacyoverzicht](privacy/privacy-overview.md)
 + [CJA-documentatieupdates](doc-changes.md)
++ Release-opmerkingen {#releases}
+   + [Meest recente release](release-notes/latest.md)
+   + [Eerdere versies](release-notes/previous.md)
+
