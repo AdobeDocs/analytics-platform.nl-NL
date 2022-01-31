@@ -1,13 +1,13 @@
 ---
 title: Het gebruiken van bindende dimensies en metriek in CJA
 description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarrays.
-source-git-commit: b93809c9af02227295c9dd66565f04675236c393
+exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
+source-git-commit: 4381a01b072084701d065d7f41de539412c8d371
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '837'
 ht-degree: 1%
 
 ---
-
 
 # Het gebruiken van bindende dimensies en metriek in CJA
 
@@ -15,7 +15,81 @@ Customer Journey Analytics biedt verschillende manieren om waarden van dimensies
 
 Hoewel u bindingsdimensies kunt gebruiken met gebeurtenisgegevens op hoofdniveau, kunt u dit concept het beste gebruiken wanneer u werkt met [Objectarrays](object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder het op alle attributen in een bepaalde gebeurtenis toe te passen toeschrijven. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
 
-## Voorbeeld 2: Het gebruiken van bindende metriek om onderzoekstermijn aan een productaankoop te binden
+## Voorbeeld 1: Bindingsdimensies gebruiken om aanvullende productkenmerken aan een aankoop toe te wijzen
+
+U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert CJA de gebonden dimensie en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
+
+1. Een bezoeker bekijkt een productpagina op een wasmachine.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "color": "white",
+               "type": "front loader",
+           },
+       ],
+       "timestamp": 1534219229
+   }
+   ```
+
+1. De bezoeker bekijkt dan een productpagina op een droger.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Dryer 2000",
+               "color": "neon orange",
+           },
+       ],
+       "timestamp": 1534219502
+   }
+   ```
+
+1. Uiteindelijk kopen ze. De kleur van elk product is niet opgenomen in de aankoopgebeurtenis.
+
+   ```json
+   {
+       "PersonID": "1",
+       "orders": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "price": 1600,
+           },
+           {
+               "name": "Dryer 2000",
+               "price": 499
+           }
+       ],
+       "timestamp": 1534219768
+   }
+   ```
+
+Als u omzet door kleur zonder een bindende dimensie wilt bekijken, de dimensie `product.color` De kleur van de droger blijft behouden en krijgt een onjuiste waarde:
+
+| product.color | omzet |
+| --- | --- |
+| neonoranje | 2099 |
+
+U kunt in de Manager van de Mening van Gegevens gaan en productkleur binden aan productnaam:
+
+![Dimensie binding](assets/binding-dimension.png)
+
+Wanneer u dit persistentiemodel instelt, neemt Adobe de productnaam in wanneer de productkleur wordt ingesteld. Wanneer het de zelfde productnaam in een volgende gebeurtenis voor deze bezoeker herkent, wordt de productkleur ook gebracht. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
+
+| product.color | omzet |
+| --- | --- |
+| wit | 1600 |
+| neonoranje | 499 |
+
+## Voorbeeld 2: Gebruik bindingsmetriek om zoekterm aan een productaankoop te koppelen
 
 Een van de meest gebruikte handelsmethoden in Adobe Analytics is het binden van een zoekterm aan een product, zodat elke zoekterm krediet krijgt voor het juiste product. Overweeg de volgende klantenreis:
 
@@ -204,11 +278,7 @@ Als u laatste toewijzing met de dimensie van de onderzoekstermijn gebruikte, ken
 
 Hoewel dit voorbeeld slechts één bezoeker omvat, kunnen veel bezoekers die naar verschillende dingen zoeken, zoektermen verkeerd aan verschillende producten toeschrijven, waardoor het moeilijk wordt te bepalen wat de beste zoekresultaten eigenlijk zijn.
 
-Met een bindende dimensie, neemt Adobe nota van het afmetingspunt dat het aan verbindend is. Wanneer die zelfde bindende waarde in een verdere gebeurtenis wordt gezien, brengt het over het afmetingspunt zodat u gewenste metrisch aan het kunt toeschrijven. In dit voorbeeld, kunnen wij de bindende afmeting voor search_term aan productnaam plaatsen:
-
-![Dimensie binding](assets/binding-dimension.png)
-
-Wanneer wij deze afmeting in de Manager van de Mening van Gegevens plaatsen, worden wij ook vereist om bindende metrisch te plaatsen omdat de bindende afmeting in een objecten serie is. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In deze voorbeeldimplementatie, omvat de pagina van onderzoeksresultaten altijd een onderzoeksterm dimensie en metrisch onderzoek. We kunnen zoektermen aan productnaam binden wanneer de metrische zoekopdracht wordt uitgevoerd.
+Met een bindende dimensie, neemt Adobe nota van het afmetingspunt dat het aan verbindend is. Wanneer die zelfde bindende waarde in een verdere gebeurtenis wordt gezien, brengt het over het afmetingspunt zodat u gewenste metrisch aan het kunt toeschrijven. In dit voorbeeld, kunnen wij de bindende afmeting voor search_term aan productnaam plaatsen. Wanneer wij deze afmeting in de Manager van de Mening van Gegevens plaatsen, worden wij ook vereist om bindende metrisch te plaatsen omdat de bindende afmeting in een objecten serie is. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In deze voorbeeldimplementatie, omvat de pagina van onderzoeksresultaten altijd een onderzoeksterm dimensie en metrisch onderzoek. We kunnen zoektermen aan productnaam binden wanneer de metrische zoekopdracht wordt uitgevoerd.
 
 ![Metrische binding](assets/binding-metric.png)
 
