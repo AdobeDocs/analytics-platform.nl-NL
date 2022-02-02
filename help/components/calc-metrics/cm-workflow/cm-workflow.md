@@ -1,7 +1,9 @@
 ---
 description: Leer meer over de stappen die u moet ondernemen voor het maken van berekende metriek.
 title: Workflow voor berekende standaard
-source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
+feature: Calculated Metrics
+exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 4%

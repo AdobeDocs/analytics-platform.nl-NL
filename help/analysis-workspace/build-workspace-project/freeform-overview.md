@@ -2,10 +2,9 @@
 description: Overzicht van de projecten van de Werkruimte met menubar en montages
 keywords: Analysis Workspace
 title: Overzicht van projecten
-uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
+feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 2%
@@ -18,7 +17,7 @@ Met werkruimteprojecten kunt u gegevenscomponenten, tabellen en visualisaties co
 
 ## Projectlijst {#project-list}
 
-Wanneer u eerst naar **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** gaat, maakt de pagina een lijst van alle projecten u bezit of aan u wordt gedeeld. Dit is ook de landingspagina voor Adobe Analytics, tenzij u eerder een aangepaste bestemmingspagina hebt ingesteld.
+Wanneer je voor het eerst **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, bevat de pagina alle projecten die u hebt of hebt gedeeld. Dit is ook de landingspagina voor Adobe Analytics, tenzij u eerder een aangepaste bestemmingspagina hebt ingesteld.
 
 ![](assets/sample-project.png)
 
@@ -27,12 +26,12 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 | Element | Beschrijving |
 |---|---|
 | [Nieuw project maken](/help/analysis-workspace/home.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
-| Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**). Hierin worden al uw projecten vermeld en kunt u projecten labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
+| Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waarin al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
 | [Tutorials weergeven](/help/analysis-workspace/home.md) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
 | Naam | Naam van het project van de Werkruimte. |
 | Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](/help/mobile-app/home.md) is. |
+| Type | Geeft aan of dit een werkruimteproject of een [Mobiel scorebord](/help/mobile-app/home.md). |
 | [Projectrol](/help/analysis-workspace/curate-share/share-projects.md) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
 | Tags | Tags die op het project zijn toegepast. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
@@ -47,17 +46,17 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 | Menu-item | Beschrijving |
 |---|---|
-| Project | Bevat algemene acties voor projectbeheer, waaronder Nieuw, Openen, Opslaan, Opslaan als en Opslaan als sjabloon. U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en ](/help/analysis-workspace/curate-share/download-send.md) PDF downloaden kunt u gegevens exporteren uit Workspace. **Projectinfo en -instellingen**  (zie hieronder) bieden veel opties voor het beheer van uw project. |
+| Project | Bevat algemene acties voor projectbeheer, waaronder Nieuw, Openen, Opslaan, Opslaan als en Opslaan als sjabloon. U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [CSV en PDF downloaden](/help/analysis-workspace/curate-share/download-send.md) kunt u gegevens exporteren uit Workspace. **Projectinfo en -instellingen** (zie hieronder) biedt vele opties voor het beheer van uw project. |
 | Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](/help/components/overview.md) | Creeer nieuwe filters, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
-| [Delen](/help/analysis-workspace/curate-share/send-schedule-files.md) | U kunt PDF-/CSV-projecten trainen, delen en plannen voor ontvangers in uw organisatie. |
-| Help | Toegang tot Help-documentatie, video&#39;s en de Analytics [Experience League-community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de foutopsporing [beheren. ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) Meer informatie over de werkruimte en factoren die van invloed zijn op de prestaties van het project [a1/>.](/help/analysis-workspace/workspace-faq/optimizing-performance.md) |
+| [Delen](/help/analysis-workspace/curate-share/send-schedule-files.md) | De curate, deelt en plant PDF/CSV projecten aan ontvangers in uw organisatie. |
+| Help | Toegang tot Help-documentatie, video&#39;s en Analytics [Experience League-gemeenschap](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de [foutopsporing](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Meer informatie over de werkruimte en factoren die van invloed zijn op het project [prestaties](/help/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | Knop Delen of Eigenaar | Als u in een Eigen bent of voor het project uitgeeft, geeft de knoop van het Aandeel in top-right u met één klik toegang om uw projectontvangers te beheren. Als u in een Duplicaat of rol van de Mening voor het project bent, zult u de naam van de projecteigenaar zien. |
 
 ### Projectinfo en -instellingen {#info-settings}
 
-**[!UICONTROL Workspace]** >  **[!UICONTROL Project]** >  **[!UICONTROL Project Info & Settings]** biedt informatie op projectniveau over het actieve project.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** verstrekt project-vlakke informatie over het momenteel actieve project.
 
 ![](assets/projectinfo.png)
 
@@ -76,9 +75,9 @@ Voorbeelden van instellingen:
 
 ## Linkerspoor {#left-rail}
 
-Binnen een project, [worden panelen](/help/analysis-workspace/c-panels/panels.md), lijsten, [visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), en [componenten] betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
+Binnen een project [deelvensters](/help/analysis-workspace/c-panels/panels.md), tabellen, [visualisatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), en [componenten] toegankelijk zijn vanaf de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
 
-U kunt ook toegang krijgen tot visualisaties en deelvensters via [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md).
+U hebt ook toegang tot visualisaties en deelvensters via de [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) ook.
 
 Componenten (Dimension, Metriek, Filters, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
 
@@ -90,13 +89,13 @@ Het projectcanvas is waar u panelen, lijsten, visualisaties, en componenten same
 
 Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperioden, gegevensweergaven of het geval waarin de analyse wordt gebruikt. Het actieve deelvenster heeft een blauwe rand en bepaalt welke componenten beschikbaar zijn in het linkerspoor.
 
-Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een [vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) in het canvas om mee te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [Leer ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) meer over de verschillende opties om een lijst te bouwen, of hefboomwerking onze  [trainingszelfstudie ](/help/analysis-workspace/home.md) voor meer begeleiding bij het bouwen van uw eerste project.
+Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een van de volgende [vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) op het canvas om mee te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [Meer informatie](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) over de verschillende opties voor het samenstellen van een tabel of het benutten van onze [trainingszelfstudie](/help/analysis-workspace/home.md) voor meer hulp bij het bouwen van uw eerste project.
 
 ![](assets/canvas.png)
 
-## Projectbeheer {#manager}
+## Projectmanager {#manager}
 
-Analysis Workspace-projecten kunnen worden beheerd onder **Analytics > Components > Projecten**. De projectmanager toont de punten die een specifieke gebruiker heeft gecreeerd. De eigendom van het project kan naar een nieuwe gebruiker worden overgedragen via Beheer > Gebruikers en middelen voor analyse > Middelen voor overdracht.
+Analysis Workspace-projecten kunnen worden beheerd in het kader van **Analyse > Componenten > Projecten**. De projectmanager toont de punten die een specifieke gebruiker heeft gecreeerd. De eigendom van het project kan naar een nieuwe gebruiker worden overgedragen via Beheer > Gebruikers en middelen voor analyse > Middelen voor overdracht.
 
 In de Projectmanager, kunt u toevoegen, etiketteren, delen, dupliceren/kopiëren, en meer. Zoek naar een project in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, eigenaars, projecttype en meer.
 

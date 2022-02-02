@@ -1,15 +1,14 @@
 ---
 description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegevenssets weer te geven
 title: Lijn
-uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+feature: Visualizations
+exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
 
 ---
-
 
 # Lijn
 
@@ -17,7 +16,7 @@ De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te t
 
 ![Lijnvisualisatie](assets/line-viz.png)
 
-Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie om toegang te krijgen tot [**beschikbare visualisatie-instellingen**](freeform-analysis-visualizations.md). Instellingen worden gecategoriseerd in:
+Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang [**Visualisatie-instellingen**](freeform-analysis-visualizations.md) beschikbaar. Instellingen worden gecategoriseerd in:
 
 * **Algemeen**: Instellingen die gemeenschappelijk zijn voor verschillende visualisatietypen
 * **As**: Instellingen die van invloed zijn op de x- of y-as van de lijnvisualisatie
@@ -27,21 +26,21 @@ Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie om toegang te k
 
 ## Korreligheid wijzigen
 
-Met een vervolgkeuzelijst met granulariteit in de [visualisatie-instellingen](freeform-analysis-visualizations.md) kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
+Een granulariteit-vervolgkeuzelijst in het dialoogvenster [visualisatie-instellingen](freeform-analysis-visualizations.md) Hiermee kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) van dag naar week wijzigen in maand enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
 
 ## min of max tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, kunt u een minimum en maximumwaardeetiket bedekken om de pieken en dalen in metrisch snel te benadrukken. Opmerking: De min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** kunt u een minimum- en maximumwaarde-label bedekken om de pieken en dalen snel in een metrische kleur te markeren. Opmerking: De min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
 
 ![min/max tonen](assets/min-max-labels.png)
 
 ## Trendline-bedekking tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressie of het bewegen gemiddelde trendline aan uw lijnreeks toe te voegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u een regressie of bewegende gemiddelde trendline aan uw lijnreeks toevoegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
 
 >[!TIP]
 >
->Aanbevolen wordt trendlines toe te passen op gegevens die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie, kies uw metrische kolom, dan laat **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]** toe.
+>Aanbevolen wordt trendlines toe te passen op gegevens die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie, kies uw metrische kolom, dan laat toe **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
 
 ![Lineaire trendlijn](assets/show-linear-trendline.png)
 

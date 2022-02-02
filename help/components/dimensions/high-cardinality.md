@@ -1,9 +1,10 @@
 ---
 title: Dimension met een zeer hoge kardinaliteit in Customer Journey Analytics
 description: Beschrijft beste praktijken in het behandelen van high-cardinaliteitsdimensies in Customer Journey Analytics
+feature: Dimensions
+solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-translation-type: tm+mt
-source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
+source-git-commit: 0e9d612e1c0f6d64cd6f1e045c1049a1f8202b72
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Dimension met zeer hoge kardinaliteit
 
-Customer Journey Analytics (CJA) stelt geen limieten in voor het aantal unieke waarden of dimensie-items waarop binnen één dimensie kan worden gerapporteerd. In sommige omstandigheden kunnen de afmetingen met een zeer groot aantal unieke artikelen - ook wel bekend als afmetingen met een hoge cardinaliteit - echter van invloed zijn op wat er kan worden gerapporteerd.
+Customer Journey Analytics (CJA) stelt geen limieten in voor het aantal unieke waarden of dimensie-items waarop binnen één dimensie kan worden gerapporteerd. In sommige omstandigheden kunnen de afmetingen met een zeer groot aantal unieke items - ook wel bekend als afmetingen met een hoge cardinaliteit - echter van invloed zijn op wat er kan worden gerapporteerd.
 
 ## Beperkingen
 

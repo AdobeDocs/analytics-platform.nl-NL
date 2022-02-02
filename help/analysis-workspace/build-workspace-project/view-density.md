@@ -1,14 +1,14 @@
 ---
 description: Leer hoe u de weergavedichtheid in Analysis Workspace kunt aanpassen.
 title: Dichtheid weergeven
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+feature: CJA Workspace Basics
+exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
 
 ---
-
 
 # Dichtheid weergeven
 
@@ -25,4 +25,4 @@ De weergavedichtheid instellen:
 
 1. Navigeer in Workspace naar **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
-1. Selecteer een van de drie opties die hierboven worden beschreven en klik op **[!UICONTROL Save]**.
+1. Selecteer een van de drie hierboven beschreven opties en klik op **[!UICONTROL Save]**.

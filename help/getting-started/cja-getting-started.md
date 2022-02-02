@@ -3,7 +3,8 @@ title: Aan de slag met Customer Journey Analytics
 description: Begrijp de eerste vereisten en het werkschema die worden vereist om Customer Journey Analytics uit te voeren.
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+feature: CJA Basics
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%

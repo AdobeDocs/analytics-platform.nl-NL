@@ -1,14 +1,14 @@
 ---
 description: Met de stroomvisualisatie kunt u een pad door uw pagina's of dimensies volgen.
 title: Een stroomvisualisatie configureren
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: b379f1f0-e51a-44ec-91e1-b6479901c945
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
 
 ---
-
 
 # Een stroomvisualisatie configureren
 
@@ -34,12 +34,12 @@ Het stroomdiagram is interactief. Plaats de muis boven het diagram om de weergeg
 
 De paden in het diagram zijn proportioneel. Paden met meer activiteit lijken dikker.
 
-Wanneer u op een knoop in het diagram klikt, verschijnen de details voor die knoop. Bijvoorbeeld, als u **[!UICONTROL Search Results]** bij het hoogste recht in het hoogste diagram hierboven klikt, breidt het diagram zich uit om meer details over de knoop van onderzoeksresultaten te tonen. Klik nogmaals op een knooppunt om het samen te vouwen.
+Wanneer u op een knoop in het diagram klikt, verschijnen de details voor die knoop. Als u bijvoorbeeld op **[!UICONTROL Search Results]** bij het hoogste recht in het hoogste diagram hierboven, breidt het diagram zich uit om meer details over de knoop van onderzoeksresultaten te tonen. Klik nogmaals op een knooppunt om het samen te vouwen.
 
 ![](assets/flow3.jpg)
 
-Standaard toont het diagram de bovenste vijf stromen. Als u op de **[!UICONTROL More]** knoop bij de bodem van het diagram klikt, breidt het diagram zich neer om vijf meer stromen te tonen. Blijf klikken **[!UICONTROL More]** om uit te breiden tot er geen extra stromen zijn om te tonen.
+Standaard toont het diagram de bovenste vijf stromen. Als u op de knop **[!UICONTROL More]** knoop bij de bodem van het diagram, breidt het diagram zich neer om vijf meer stromen te tonen. Doorgaan met klikken **[!UICONTROL More]** om uit te breiden tot er geen extra stromen zijn om te tonen.
 
 Er zijn geen grenzen aan hoeveel u binnen het diagram van de Stroom kunt onderzoeken.
 
-U kunt ook het stroomdiagram exporteren en verder analyseren als onderdeel van het CSV-bestand van een project door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan.
+U kunt uw diagram van de Stroom als deel van het .CSV dossier van een project ook uitvoeren en verder analyseren door te gaan naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.

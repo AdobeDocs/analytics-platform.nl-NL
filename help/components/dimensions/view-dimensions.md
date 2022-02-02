@@ -1,8 +1,9 @@
 ---
 description: Hiermee geeft u de bovenste 5-waarden weer voor afmetingen die niet bij de tijd horen (en 15 voor tijdafmetingen).
 title: Een voorvertoning weergeven van afmetingen in CJA Workspace
+feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 23%

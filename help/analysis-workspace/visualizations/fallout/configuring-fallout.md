@@ -1,8 +1,9 @@
 ---
 description: Leer hoe u de aanraakpunten opgeeft om een multidimensionale fallout-reeks te maken.
 title: Een uitvalvisualisatie configureren
+feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -17,11 +18,11 @@ U kunt zelfs filters toevoegen binnen een aanraakpunt. U kunt bijvoorbeeld filte
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die meerdere waarden per hit kunnen hebben, zoals producten, listVars, merchandising Vars en list props). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
-1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in [!UICONTROL Freeform Table].
+1. Sleep een [!UICONTROL Fallout] visualisatie via de keuzelijst Visualisaties in een [!UICONTROL Freeform Table].
 
-1. Sleep de afmetingen van de pagina naar de tabel voor vrije vorm en sleep vanaf deze tabel een pagina (in dit geval Home - JJEsquire) naar het veld **[!UICONTROL Add TouchPoint]** als eerste aanraakpunt.
+1. Sleep de afmetingen van de pagina naar de tabel voor vrije vorm en sleep vanaf deze tabel een pagina (in dit geval Home - JJEsquire) naar de **[!UICONTROL Add TouchPoint]** veld als eerste aanraakpunt.
 
    ![](assets/fallout1.png)
 
@@ -41,7 +42,7 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. U kunt **individuele touchpoints aan volgende hit** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen de weg ook beperken. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
+1. U kunt ook **afzonderlijke aanraakpunten beperken tot de volgende treffer** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen het pad. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
 
    ![](assets/next-hit-eventually.png)
 
@@ -64,7 +65,7 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
 |--- |--- |
 | Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
-Wanneer u **met de rechtermuisknop op een aanraakpunt** klikt, worden de volgende opties weergegeven:
+Wanneer u **met de rechtermuisknop op een aanraakpunt klikken** worden de volgende opties weergegeven:
 
 | Optie | Beschrijving |
 |--- |--- |

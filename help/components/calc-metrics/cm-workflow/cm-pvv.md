@@ -1,7 +1,9 @@
 ---
 description: Toont hoe te om een eenvoudige metrische "de Mening van de Pagina per Bezoek"te bouwen.
 title: Een eenvoudige indicator voor "Paginaweergaven per bezoek" maken
-source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
+feature: Calculated Metrics
+exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 7%
@@ -12,7 +14,7 @@ ht-degree: 7%
 
 Toont hoe te om een eenvoudige metrische &quot;de Mening van de Pagina per Bezoek&quot;te bouwen.
 
-Voor een gedetailleerde beschrijving van de UI-componenten raadpleegt u [Metrisch bouwen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+Voor een gedetailleerde beschrijving van de UI-componenten raadpleegt u [Metrische gegevens samenstellen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 Hieronder wordt beschreven hoe u een eenvoudige metrische &quot;Paginaweergaven per bezoek&quot; maakt.
 

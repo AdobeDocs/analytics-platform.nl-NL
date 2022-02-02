@@ -1,8 +1,9 @@
 ---
 description: Tabellen pagineren, filteren en sorteren in Workspace
 title: Pagineren, filteren en tabellen sorteren
+feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 17%
@@ -13,7 +14,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Bekijk de volgende videozelfstudie voor een overzicht van paginering, filteren en sorteren van tabellen in Analysis Workspace:
 
@@ -21,7 +22,7 @@ Bekijk de volgende videozelfstudie voor een overzicht van paginering, filteren e
 
 ## Geavanceerde filteropties {#section_36E92E31442B4EBCB052073590C1F025}
 
-Als u op het filterpictogram klikt en vervolgens **[!UICONTROL Show Advanced]** naast een dimensie in een vrije-vormtabel, kunt u filteren met de volgende criteria. U kunt veelvoudige het filtreren regels toepassen.
+Klik op het filterpictogram en klik vervolgens **[!UICONTROL Show Advanced]** Naast een dimensie in een vrije-vormlijst kunt u filteren met de volgende criteria. U kunt veelvoudige het filtreren regels toepassen.
 
 * Bevat
 * Bevat niet

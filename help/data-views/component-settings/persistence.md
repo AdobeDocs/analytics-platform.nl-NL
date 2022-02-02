@@ -3,7 +3,8 @@ title: Instellingen voor persistentiecomponenten
 description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis aan volgende blijven.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 8c82aad72beca8d206d30f8f0e842445fd18758b
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 6%

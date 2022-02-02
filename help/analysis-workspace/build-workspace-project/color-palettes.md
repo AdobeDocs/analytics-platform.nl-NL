@@ -1,11 +1,11 @@
 ---
 description: Hoe u het palet met visualisatiekleuren wijzigt of uw eigen aangepaste kleurenpalet opgeeft.
 title: Kleurenpalet Visualisatie
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze functie heeft invloed op de meeste visualisaties in Workspace, maar **niet** heeft invloed op Samenvattingswijziging, voorwaardelijke opmaak in Freeform-tabellen en de Kaartweergave.
+U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze functie is van invloed op de meeste visualisaties in Workspace, maar **niet** beïnvloedt Summiere Verandering, voorwaardelijk formatteren in de lijsten van de Vrije vorm, en de visualisatie van de Kaart.
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzi
 
 Houd rekening met het volgende:
 
-* Er zijn vijf vooraf ingestelde kleurenpaletten waaruit u kunt kiezen. Het standaardpalet en het onderstaande kleurenpalet zijn geoptimaliseerd voor optimaal contrast en zijn beide toegankelijker voor kleurenblinden.
+* Er zijn vijf vooraf ingestelde kleurenpaletten waaruit u kunt kiezen. Het standaardpalet en het onderstaande kleurenpalet zijn geoptimaliseerd voor contrast en zijn beide toegankelijker voor kleurenblinden.
 * Het derde tot het vijfde kleurenpalet onder de bovenste twee zijn geoptimaliseerd voor kleurharmonie.
 
 ## Het kleurenpalet wijzigen:
 
 1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. In het vervolgkeuzemenu **[!UICONTROL Project Color Palette]** kunt u een van de vijf vooraf ingestelde kleurenschema&#39;s kiezen.
+1. Van de **[!UICONTROL Project Color Palette]** kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
 
    ![](assets/custom_palette.png)
 

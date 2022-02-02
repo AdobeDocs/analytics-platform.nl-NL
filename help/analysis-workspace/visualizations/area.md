@@ -1,14 +1,14 @@
 ---
 description: De visualisatie van het Gebied is als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
 title: Gebied en gestapeld gebied
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: d9662b29-fc41-4074-8cf6-031202994ece
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 8%
 
 ---
-
 
 # Gebied en gestapeld gebied
 
@@ -27,4 +27,3 @@ Deze visualisatie is als een Grafiek van het Gebied, maar elke reeks begint bij 
 Met een nieuwe visualisatie-instelling voor gebied met gestapelde visualisatie verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie.
 
 ![](assets/areastacked100.png)
-

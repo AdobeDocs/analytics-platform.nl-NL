@@ -1,10 +1,10 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
-feature: Workspace Basics
+feature: CJA Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Projecten opslaan
 
-Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimte **[!UICONTROL Project]**. In bepaalde gevallen worden projecten ook automatisch opgeslagen in de werkruimte.
+Ga naar de werkruimte om uw wijzigingen in een project op te slaan **[!UICONTROL Project]** -menu. In bepaalde gevallen worden projecten ook automatisch opgeslagen in de werkruimte.
 
 ## Projectopties opslaan {#Save}
 
-Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UICONTROL Project]**, afhankelijk van de manier waarop u in de toekomst toegang wilt krijgen tot uw analyse.
+Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het kader van de **[!UICONTROL Project]** afhankelijk van hoe u in de toekomst toegang tot uw analyse wilt krijgen.
 
 | Handeling | Beschrijving |
 |---|---|
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
-| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
+| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar aan alle redacteurs onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-| **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ![](assets/save-project.png)
 
@@ -48,11 +48,11 @@ De browser waarschuwt dat niet-opgeslagen wijzigingen verloren gaan. U kunt kiez
 
 ### Browsercrashes of sessietijden uit
 
-Voor **bestaande** projecten, bij het terugkeren naar Werkruimte, zult u **de terugwinning van het Project** modaal zien. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
+Voor **bestaand** projecten, wanneer u terugkeert naar Workspace, ziet u een **Projectherstel** modal. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
 
 ![](assets/project-recovery.png)
 
-Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijzigingen niet worden hersteld.
+Voor **new** projecten die nooit zijn opgeslagen, niet-opgeslagen wijzigingen kunnen niet worden hersteld.
 
 ## Vorige versie openen {#previous-version}
 
@@ -67,6 +67,6 @@ Een vorige versie van een project openen:
    ![](assets/previous-versions.png)
 
 1. Controleer de lijst met eerdere beschikbare versies.
-   [!UICONTROL Timestamp] en  [!UICONTROL Editor] worden getoond, naast  [!UICONTROL Notes] of zij werden toegevoegd toen het  [!UICONTROL Editor] bewaarde. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
-1. Selecteer een vorige versie en klik **[!UICONTROL Load]**.
-De vorige versie wordt vervolgens geladen met een melding. De vorige versie wordt pas de huidige opgeslagen versie van uw project als u **[!UICONTROL Save]** klikt. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.
+   [!UICONTROL Timestamp] en [!UICONTROL Editor] worden weergegeven naast [!UICONTROL Notes] als deze bij de [!UICONTROL Editor] opgeslagen. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
+1. Selecteer een vorige versie en klik op **[!UICONTROL Load]**.
+De vorige versie wordt vervolgens geladen met een melding. De vorige versie wordt pas de huidige opgeslagen versie van het project als u op **[!UICONTROL Save]**. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.

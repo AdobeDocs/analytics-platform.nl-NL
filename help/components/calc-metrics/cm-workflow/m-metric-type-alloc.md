@@ -1,7 +1,9 @@
 ---
-description: 'Meer informatie over '
+description: Meer informatie over
 title: Type cijfers en attributie
-source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
+feature: Calculated Metrics
+exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 5%
@@ -25,4 +27,3 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 >[!IMPORTANT]
 >Voor een volledige lijst met ondersteunde niet-standaard toewijzingsmodellen en terugzoekvensters raadpleegt u [Attributiemodellen en terugzoekvensters](/help/analysis-workspace/attribution/models.md).
-

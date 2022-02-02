@@ -1,8 +1,9 @@
 ---
 description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
 title: Tijduitsplitsende dimensies
+feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

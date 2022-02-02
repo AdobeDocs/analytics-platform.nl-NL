@@ -1,8 +1,9 @@
 ---
 description: Veelgestelde vragen over werkruimten en tips voor het oplossen van problemen.
 title: Veelgestelde vragen
+feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 42%
@@ -13,14 +14,14 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 | Vraag | Antwoord |
 |--- |--- |
 | **Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace?** | Voor het gebruik van Analysis Workspace is een werkende Customer Journey Analytics-implementatie vereist. Zorg ervoor dat uw organisatie gegevens naar de Adobe Experience Platform stuurt voordat u het hulpprogramma gebruikt. |
 | **Wat zijn de vereisten inzake beheer en toegang voor Analysis Workspace?** | Zie [Beheervereisten](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | **Heeft het gebruik van Analysis Workspace invloed op gegevensverzameling?** | Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed op de dataverzameling. U kunt componenten lukraak naar een project slepen om te zien wat er gebeurt, zonder negatieve gevolgen. Sleep verschillende combinaties van dimensies en metrics naar uw Workspace-project om te zien wat er beschikbaar is. Als u per ongeluk een ongeldige component naar uw Workspace-project sleept of een stap terug wilt gaan, drukt u op Ctrl + Z (Windows) of Cmd + Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door in het menu linksboven te klikken op *[!UICONTROL Project] > [!UICONTROL New]*. |
-| **Hoe kan ik Analysis Workspace implementeren?** | Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven Customer Journey Analytics. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Vereisten voor beheer en toegang](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
+| **Hoe kan ik Analysis Workspace implementeren?** | Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven Customer Journey Analytics. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Beheer- en toegangseisen](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | **Hoe kan ik de prestaties van Analysis Workspace optimaliseren?** | Zie [Prestaties optimaliseren](/help/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
 ## Problemen oplossen
@@ -35,4 +36,4 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 
 * Als u een filter in uw rapport toepaste, zouden de filtercriteria geen gegevens kunnen aanpassen. Probeer het filter te verwijderen of de filterdefinitie aan te passen.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer naar uw website en gebruik [Foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te controleren of de gegevens worden verzameld.
+* Ga naar uw website en gebruik de [Foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te controleren of er gegevens worden verzameld.

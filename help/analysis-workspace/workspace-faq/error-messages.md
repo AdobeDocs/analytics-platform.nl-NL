@@ -1,8 +1,9 @@
 ---
 description: Lijst met foutberichten in Adobe Analysis Workspace en de bijbehorende componenten
 title: Algemene foutberichten in Analysis Workspace
+feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Er kunnen fouten optreden bij de interactie met Analysis Workspace die ook van i
 | Foutbericht | Waarom gebeurt dit? | Optimalisatie |
 | --- | --- | --- |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under **[!UICONTROL Help > Submit Support Ticket]** and include your error code.] | Adobe heeft een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
-| [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [firewallmontages](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html), zijn een bijdragende factor aan deze fout. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
+| [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [firewallinstellingen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html), een factor die aan deze fout bijdraagt. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
 | [!UICONTROL One of the filters or the search in this visualization contains a text search that returned too many results.] | De filtercriteria of het rapportfilter zijn te breed. | Verfijn uw zoektekstcriteria en probeer het verzoek opnieuw. |
 | [!UICONTROL The request is too complex.] | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn onderbrekingen vanwege de grootte van het verzoek, te veel overeenkomende items in een filter of zoekfilter, te veel meetgegevens, incompatibele afmetingen en metrische combinaties, enz. | Vereenvoudig uw verzoek door sommige kolommen of rijen in uw lijst te verwijderen, of denk na het splitsen van de lijst in afzonderlijke verzoeken. |
-| [!UICONTROL This dimension does not currently support non-default attribution models.] | Niet-standaardtoewijzing wordt niet ondersteund voor de dimensie die u gebruikt. | Vervang de dimensie in uw lijst met die compatibel is met [Attribution IQ](/help/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL This dimension does not currently support non-default attribution models.] | Niet-standaardtoewijzing wordt niet ondersteund voor de dimensie die u gebruikt. | Vervang de dimensie in uw tabel door een dimensie die compatibel is met [Attribution IQ](/help/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | Uw tabel bevat te veel vrije-vormcellen (rij * kolommen). | Verwijder kolommen of rijen in de tabel of u kunt de tabel opsplitsen in afzonderlijke aanvragen. |

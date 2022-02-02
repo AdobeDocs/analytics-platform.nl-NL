@@ -1,7 +1,9 @@
 ---
 description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Cijfers samenstellen
-source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
+feature: Calculated Metrics
+exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -48,4 +50,3 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 | Lijst met filters | (Alleen Geavanceerde berekende metriek) Als beheerder worden in deze lijst alle filters weergegeven die in uw aanmeldingsbedrijf zijn gemaakt. Als u een gebruiker niet-Admin bent, toont deze lijst filters u bezit en die met u worden gedeeld. |
 | Lijst met functies | (Alleen geavanceerde berekende metriek) Functies worden in twee lijsten onderverdeeld: Standaard (vaak gebruikt) en Geavanceerd. |
 | Selector gegevensweergave | Met deze kiezer (rechtsboven) kunt u overschakelen naar een andere gegevensweergave. |
-

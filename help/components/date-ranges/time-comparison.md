@@ -1,9 +1,9 @@
 ---
 description: Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
 title: Datumvergelijking
-uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
+feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
 
@@ -41,7 +41,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]**, en **[!UICONTROL Select range]**.
 
 1. De resulterende vergelijking ziet er als volgt uit:
 
@@ -53,7 +53,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
    ![](assets/compare-time-barchart.png)
 
-   Merk op dat om de percentageverandering in het bar grafiek te tonen, u [!UICONTROL Percentages] het plaatsen moet hebben gecontroleerd in [!UICONTROL Visualization Settings].
+   Als u het percentage van de wijziging in het staafdiagram wilt weergeven, moet u beschikken over de optie [!UICONTROL Percentages] instelling ingecheckt in het dialoogvenster [!UICONTROL Visualization Settings].
 
 ## Een tijdspannekolom toevoegen ter vergelijking
 
@@ -71,7 +71,7 @@ U kunt nu een tijdsperiode toevoegen aan elke tabelkolom. Zo kunt u een andere t
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]**, en **[!UICONTROL Select range]**.
 
 1. De tijdsperiode wordt ingevoegd vóór de kolom die u hebt geselecteerd:
 
@@ -91,7 +91,7 @@ Met een nieuwe instelling voor alle tabellen kunt u **[!UICONTROL Align Dates fr
 
 >[!IMPORTANT]
 >
->Deze instelling is **uitgeschakeld** (uitgeschakeld) voor alle bestaande projecten en **ingeschakeld** (ingeschakeld) voor alle nieuwe projecten.
+>Deze instelling is **uitgeschakeld** (niet ingeschakeld) voor alle bestaande projecten en **enabled** (gecontroleerd) voor alle nieuwe projecten.
 
 Voorbeeld: Wanneer u ervoor kiest om de datums op één lijn te brengen, als u een maand-over-maand vergelijking tussen oktober en september 2016 doet, zal de linkerkolom met 1 Oktober beginnen en de juiste kolom zal met 1 September beginnen:
 

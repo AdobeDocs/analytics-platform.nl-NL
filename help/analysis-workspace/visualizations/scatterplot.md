@@ -1,8 +1,9 @@
 ---
 title: Spreidingsdiagram
 description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
+feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
 

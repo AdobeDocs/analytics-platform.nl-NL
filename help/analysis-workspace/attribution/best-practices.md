@@ -1,13 +1,14 @@
 ---
 title: Aanbevolen werkwijzen voor kenmerken
 description: Wat zijn de beste praktijken rond het beslissen over een attributiemodel?
-source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
+feature: Attribution
+exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen werkwijzen voor kenmerken
 
@@ -28,7 +29,7 @@ Vervolgens kon u een analyse van de bovenste en onderste funnel uitvoeren om uw 
 
 ### Analyse van de bovenfuntrechter
 
-De analyse van de bovenste funnel analyseert kanalen die worden gebruikt om merk of productbewustzijn te creëren. Het doel van de meeste tv-advertenties is bijvoorbeeld merkbewustzijn. U kunt het attributiemodel [&quot;Tijdverlies&quot; gebruiken](/help/analysis-workspace/attribution/models.md), omdat mensen uw tv-advertentie na verloop van tijd zullen vergeten.
+De analyse van de bovenste funnel analyseert kanalen die worden gebruikt om merk of productbewustzijn te creëren. Het doel van de meeste tv-advertenties is bijvoorbeeld merkbewustzijn. U kunt de [Toekeningsmodel &quot;Verval van tijd&quot;](/help/analysis-workspace/attribution/models.md), omdat mensen uw tv-advertentie na verloop van tijd zullen vergeten.
 
 ### Analyse van de ondertrechter
 
@@ -40,15 +41,15 @@ Het doel van deze stap is uw hypothesen te bevestigen.
 
 **Voorbeeld 1**
 
-Laten we zeggen dat je hypothese is: &quot;Mijn First-touch kanaal heeft meer invloed op de conversie dan mijn laatste aanraakkanaal. Vervolgens gebruikt u het attributiemodel [&quot;Inverse J-shaped&quot;](/help/analysis-workspace/attribution/models.md) om deze hypothese te testen. Dit model geeft 60% van het krediet aan het eerste aanraakpunt.
+Laten we zeggen dat je hypothese is: &quot;Mijn First-touch kanaal heeft meer invloed op de conversie dan mijn laatste aanraakkanaal. Vervolgens gebruikt u de [&quot;Inverse J-vormig&quot; attributiemodel](/help/analysis-workspace/attribution/models.md) deze hypothese te testen. Dit model geeft 60% van het krediet aan het eerste aanraakpunt.
 
 **Voorbeeld 2**
 
-Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. U zou dan uw [lookback venster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows) in 90 dagen veranderen.
+Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. Vervolgens wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows) tot 90 dagen.
 
 ## Stap 3: Algoritmische toewijzing gebruiken
 
-Omdat het zeer moeilijk is om een groot aantal mogelijke hypothesen en combinaties te bevestigen, kunt u [algoritmische attributie](/help/analysis-workspace/attribution/algorithmic.md) gebruiken om dit werk aan ingebouwde algoritmen te verlaten. Als u al het perfecte attributiemodel hebt gevonden dat al uw vragen beantwoordt en een perfecte pasvorm is, dan hoeft u deze stap duidelijk niet te nemen.
+Omdat het erg moeilijk is om een groot aantal mogelijke hypothesen en combinaties te valideren, kunt u [algoritmische toewijzing](/help/analysis-workspace/attribution/algorithmic.md) om dit werk aan ingebouwde algoritmen over te laten. Als u al het perfecte attributiemodel hebt gevonden dat al uw vragen beantwoordt en een perfecte pasvorm is, dan hoeft u deze stap duidelijk niet te nemen.
 
 ## Andere overwegingen
 

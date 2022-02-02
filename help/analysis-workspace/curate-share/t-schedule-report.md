@@ -2,8 +2,9 @@
 description: Een Analysis Workspace-project verzenden via e-mail of het plannen voor levering.
 keywords: Analysis Workspace
 title: Projecten plannen
+feature: Curate and Share
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -14,19 +15,19 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
-Vanuit het menu Delen van de werkruimte **kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden.** Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
 ## Bestand nu verzenden
 
 Een bestand direct via e-mail naar ontvangers verzenden:
 
-1. Klik **Delen > Bestand nu verzenden**.
+1. Klikken **Delen > Bestand nu verzenden**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. Klik **Nu verzenden**.
+1. Klikken **Nu verzenden**.
 1. (Optioneel) Klik op **Planningsopties tonen** om een leveringsschema op te geven.
 
 ![Bestand nu verzenden](assets/send-file-no-scheduling-options.JPG)
@@ -35,19 +36,19 @@ Een bestand direct via e-mail naar ontvangers verzenden:
 
 Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
 
-1. Klik **Delen > Bestand verzenden op schema**.
+1. Klikken **Delen > Bestand verzenden volgens schema**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
 1. Geef het bereik op waarover de planning moet worden geleverd door Starten op en Eindigen op de invoer te wijzigen. De einddatum moet binnen een jaar zijn vanaf de dag dat het schema wordt opgesteld of gewijzigd.
 1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
-1. Klik **Verzenden op schema**.
+1. Klikken **Verzenden volgens schema**.
 
 ![](assets/send-file.JPG)
 
 ## Geplande projectmanager
 
-De geplande projecten van Analysis Workspace kunnen onder **Analytics > Componenten > Geplande Projecten** worden beheerd.
+Geplande Analysis Workspace-projecten kunnen worden beheerd in het kader van **Analyse > Componenten > Geplande projecten**.
 
 In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, goedgekeurde schema&#39;s, eigenaars en meer.
 

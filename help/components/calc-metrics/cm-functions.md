@@ -1,8 +1,9 @@
 ---
 title: Referentie - basisfuncties
 description: Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
+feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 
@@ -21,7 +22,7 @@ Hier volgt een alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Wanneer [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. [!DNL MAXV(metrics)] staat bijvoorbeeld ook [!DNL MAXV(PageViews + Visits).] toe
+>Wanneer [!DNL metric] wordt geïdentificeerd als een argument in een functie, worden andere expressies van metriek ook toegestaan. Bijvoorbeeld: [!DNL MAXV(metrics)] staat ook [!DNL MAXV(PageViews + Visits).]
 
 ## Tabelfuncties versus rijfuncties
 
@@ -41,7 +42,7 @@ ABS(metric)
 
 ## Maximum kolom
 
-Retourneert de hoogste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
 ```
 MAXV(metric)
@@ -89,7 +90,7 @@ COUNT(metric)
 
 ## Exponent (rij)
 
-Retourneert *e* tot de macht van een bepaald getal. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
+Retourneert *e* verhoogd tot de macht van een bepaald getal. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
 
 ```
 EXP(metric)
@@ -97,14 +98,14 @@ EXP(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | De exponent die op de basis *e* wordt toegepast. |
+| *metrisch* | De exponent die op de basis wordt toegepast *e*. |
 
 ## Uitstel
 
 Power Operator
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*.. (y times)
+pow(x,y) = x<sup>y</sup> = x*x*x*.. (y keer)
 </pre>
 
 ## Gemiddeld (tabel)
@@ -209,11 +210,11 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*If *quart* = 0, KWALITEIT keert de minimumwaarde terug. Als *quart* = 1, retourneert QUARTILE het eerste kwartiel (25 percentiel). Als *quart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Als *quart* = 3, retourneert QUARTILE het eerste kwartiel (75 percentiel). Als *quart* = 4, KWALITEIT de maximumwaarde terugkeert.
+* Als *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
 
 ## Rond
 
-Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor opbrengsten en een product $569,34 heeft, gebruikt u de formule Round ( *Revenue*) om inkomsten naar de dichtstbijzijnde dollar te afronden, oftewel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
+Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor de omzet en een product $569,34 heeft, gebruikt u de formule Round( *Ontvangsten*) om de omzet naar de dichtstbijzijnde dollar te afronden, ofwel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
 
 ```
 ROUND(metric)
@@ -268,7 +269,7 @@ De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-waarbij x het gemiddelde van het monster (*metrisch*) is en *n* de steekproefgrootte.
+waarbij x het gemiddelde van het monster is (*metrisch*) en *n* is de steekproefgrootte.
 
 ```
 STDEV(metric)
@@ -295,7 +296,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waarbij x het gemiddelde van het monster is, MEAN(*metrisch*) en *n* de steekproefgrootte.
+waarbij x het gemiddelde van het monster is, MEAN(*metrisch*), en *n* is de steekproefgrootte.
 
 ```
 VARIANCE(metric)
@@ -321,6 +322,6 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 2
 
-1
+3
 
 Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.

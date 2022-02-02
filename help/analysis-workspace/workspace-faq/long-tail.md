@@ -1,8 +1,9 @@
 ---
 title: Dimensie Lange staart
 description: Verklaart de afmetingspost "Lange Staart"en waarom het in rapportering verschijnt.
+feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 
 # Dimensie Lange staart
 
-Als u een dimensie gebruikt die een groot aantal unieke waarden bevat, kunt u soms een waarde in het melden van geëtiketteerde **[!UICONTROL Long Tail]** zien. Deze dimensie-item houdt in dat de CJA-rapportagearchitectuur teveel unieke waarden gebruikt om te verwerken.
+Als u een dimensie gebruikt die een groot aantal unieke waarden bevat, kunt u soms een waarde in het melden van geëtiketteerde waarden zien **[!UICONTROL Long Tail]**. Deze dimensie-item houdt in dat de CJA-rapportagearchitectuur teveel unieke waarden gebruikt om te verwerken.
 
 ## CJA-verwerkingsarchitectuur en unieke waarden
 
 CJA verwerkt rapporten op het tijdstip dat zij in werking worden gesteld, die de gecombineerde dataset aan een aantal servers verdelen. De gegevens per verwerkingsserver worden gegroepeerd door identiteitskaart van de Persoon, betekenend dat één enkele verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra de verwerking is voltooid, stuurt het de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
 
-Als een individuele server die een subset van gegevens verwerkt meer dan 500.000 unieke afmetingspunten ontmoet, keert het de hoogste 500.000 afmetingspunten van zijn eigen ondergroep terug, dan keert de rest onder &#39;[!UICONTROL Long Tail]&#39; terug. Het &#39;[!UICONTROL Long Tail]&#39; dimensie-item dat in een Workspace-rapport wordt weergegeven, is het geaggregeerde totaal van de waarden van elke afzonderlijke verwerkingsserver die de unieke waarden van 500 kB overschrijden.
+Als om het even welke individuele server die een ondergroep van gegevens verwerkt meer dan 500.000 unieke afmetingspunten ontmoet, keert het de hoogste 500.000 afmetingspunten van zijn eigen ondergroep terug, dan keert de rest onder &quot;[!UICONTROL Long Tail]&quot;. De &#39;[!UICONTROL Long Tail]&#39;Dimensie-item dat in een Workspace-rapport wordt weergegeven, is het geaggregeerde totaal van de waarden van elke afzonderlijke verwerkingsserver die de unieke waarden van 500 kB overschrijden.
 
 ## Verschillen tussen &#39;Lange liniaal&#39; en &#39;Laag verkeer&#39;
 
@@ -29,7 +30,7 @@ In CJA, worden de afmetingspunten slechts gezet in &quot;Lange Lang&quot;als een
 
 Als u het afmetingsitem Lange staart wilt verkleinen, raadt Adobe een van de volgende opties aan:
 
-* Gebruik een [filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset gegevens verwerkt. Door het aantal unieke waarden dat ze retourneren te beperken, wordt het item voor de dimensie &#39;Long Tail&#39; kleiner.
+* Een [filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset gegevens verwerkt. Door het aantal unieke waarden dat ze retourneren te beperken, wordt het item voor de dimensie &#39;Long Tail&#39; kleiner.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 
 Over het geheel genomen is het moeilijk om een rapport te gebruiken dat meer dan 500K unieke dimensiepunten bevat. Als u een filter of een dimensie van de raadplegingsdataset toepast, kunt u de aanwezigheid van &quot;Lang Leren&quot;verminderen terwijl het maken van uw rapport gemakkelijker te verbruiken. Adobe is voornemens deze ervaring te verbeteren naarmate de CJA verder wordt ontwikkeld.

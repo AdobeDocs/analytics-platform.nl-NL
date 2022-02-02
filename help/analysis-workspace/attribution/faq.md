@@ -1,8 +1,9 @@
 ---
 title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
+feature: Attribution
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 6%
@@ -13,7 +14,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 **Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?**
 
@@ -21,7 +22,7 @@ Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt di
 
 **Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?**
 
-Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie [Gegevens buiten rapportagevenster](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in Analytics KB voor meer informatie. Adobe is van plan om deze extra rijen in een aanstaande versie uit te filteren.
+Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie [Gegevens buiten rapportagevenster](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in de KB Analytics voor meer informatie. Adobe is van plan om deze extra rijen in een aanstaande versie uit te filteren.
 
 **Wanneer moet ik een terugzoekopdracht voor bezoekerskenmerk gebruiken?**
 

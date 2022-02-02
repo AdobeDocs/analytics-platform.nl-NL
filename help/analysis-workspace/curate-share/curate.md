@@ -2,8 +2,9 @@
 description: Met Curatie kunt u componenten beperken voordat u een project deelt.
 keywords: Analysis Workspace curation
 title: Cursieve projecten
+feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -15,16 +16,16 @@ ht-degree: 1%
 Met Curatie kunt u de componenten (afmetingen, meetwaarden, filters, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Curatie is een secundair filter.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd via de [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Curatie is een secundair filter.
 
 ## Projectcursus toepassen
 
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 De componenten die in het project worden gebruikt zullen automatisch worden toegevoegd.
-1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van de linkerrails naar het veld [!UICONTROL Curate Components].
+1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u de componenten die u wilt delen van de linkerspoorstaaf naar de [!UICONTROL Curate Components] veld.
 1. Klik op **[!UICONTROL Done]**.
 
-De kromming kan ook van [!UICONTROL Share] menu worden toegepast door **[!UICONTROL Curate and Share]** te klikken. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
+De kromming kan ook vanaf worden toegepast [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
 
 ![](assets/curation-field.png)
 
@@ -44,7 +45,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Opties voor componentcurving
 
-In een gebogen project wordt de ontvanger de optie voor **[!UICONTROL Show All]**-componenten in de linkerspoorstaaf aangeboden. [!UICONTROL Show All] onthult verschillende reeksen componenten, afhankelijk van:
+In een beheerd project krijgt de ontvanger de mogelijkheid om **[!UICONTROL Show All]** in de linkerspoorstaaf. [!UICONTROL Show All] onthult verschillende reeksen componenten, afhankelijk van:
 
 * Het machtigingsniveau van de gebruiker (admin of non-admin)
 * Projectrol (eigenaar/editor of niet)

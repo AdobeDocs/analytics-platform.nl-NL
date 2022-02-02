@@ -2,12 +2,11 @@
 description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
 keywords: Analysis Workspace
 title: Aangepaste datumbereiken maken
-feature: Grondbeginselen van rapporten en analyses
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
+feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 4%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
 
@@ -30,7 +29,7 @@ De volgende waaier van de douanedatum toont een datumwaaier voor &quot;twee maan
 
 ![](assets/date-range-two-months-ago.png)
 
-Het aangepaste datumbereik wordt boven aan het deelvenster [!UICONTROL Date Range] in uw project weergegeven:
+Het aangepaste datumbereik wordt boven aan het dialoogvenster [!UICONTROL Date Range] deelvenster in uw project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -48,10 +47,10 @@ U kunt bijvoorbeeld een datumbereik maken dat een rolvenster van 7 dagen opgeeft
 
 ![](assets/create_date_range.png)
 
-Gebruik *`rolling daily`*.
+Gebruiken *`rolling daily`*.
 
-* De begininstellingen zijn *`current day minus 14 days`*.
+* De instellingen voor Start worden *`current day minus 14 days`*.
 
-* De instellingen voor Einde zijn *`current day minus 7 days`*.
+* De instellingen voor Einde worden *`current day minus 7 days`*.
 
 Dit datumbereik kan een component zijn die u naar elke vrije-vormtabel sleept.

@@ -2,8 +2,9 @@
 description: Geef je gegevens visueel weer in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
+feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: fa0033202650f17acd275f1050565285c1464f53
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 4%
@@ -14,7 +15,7 @@ ht-degree: 4%
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. De meeste visualisatietypen zijn u bekend als u Customer Journey Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
 
-U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) of via het snelmenu in uw workflow.
+U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md)of via het snelmenu in uw workflow.
 
 ![Visualisatiespoor](assets/viz-rail.png)
 
@@ -25,7 +26,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Gebied](/help/analysis-workspace/visualizations/area.md) | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
 | [Balk](/help/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
 | [Staafdiagram](/help/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
-| [Cohortingtabel](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep mensen die gemeenschappelijke kenmerken over een gespecificeerde periode delen. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
+| [Cohortingtabel](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een bepaalde periode. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
 | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of filters van een geheel. |
 | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). Kan worden ingesteld op uiteindelijke of exacte reeksen |
 | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Hiermee geeft u exacte klantpaden weer via uw websites en apps. |
@@ -42,7 +43,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
 ## Instellingen {#settings}
 
-Elke visualisatie heeft eigen instellingen die u kunt beheren. Als u [!UICONTROL Visualization Settings] wilt openen, klikt u op het tandwielpictogram [!UICONTROL Visualization Settings].
+Elke visualisatie heeft eigen instellingen die u kunt beheren. Toegang tot [!UICONTROL Visualization Settings]klikt u op de knop [!UICONTROL Visualization Settings] tandwielpictogram.
 
 ![Instellingen](assets/settings.png)
 
@@ -63,7 +64,7 @@ Elke visualisatie heeft eigen instellingen die u kunt beheren. Als u [!UICONTROL
 
 Met een visuele legenda kunt u de datum in een brontabel koppelen aan de plotselinge reeksen in de visualisatie. De legenda is interactief. U kunt op een legenda-item klikken om een reeks in de visualisatie weer te geven of te verbergen. Dit is handig als u de gegevens die worden weergegeven, wilt vereenvoudigen.
 
-Bovendien kunt u de naam van legenda-labels wijzigen om de visuele kwaliteit te verbeteren. Opmerking: legenda bewerken is **niet** van toepassing op: Treemap, Opsommingsteken, Samenvattingswijziging/Nummer, Tekst, Vrije vorm, Histogram, Cohort- of Flow-visualisaties.
+Bovendien kunt u de naam van legenda-labels wijzigen om de visuele kwaliteit te verbeteren. Opmerking: legenda bewerken **niet** van toepassing op: Treemap, Opsommingsteken, Samenvattingswijziging/Nummer, Tekst, Vrije vorm, Histogram, Cohort- of Flow-visualisaties.
 
 Een label voor een legenda bewerken:
 
@@ -73,7 +74,7 @@ Een label voor een legenda bewerken:
    ![Label bewerken](assets/edit-label.png)
 
 1. Voer de nieuwe labeltekst in.
-1. Druk op **[!UICONTROL Enter]** om op te slaan.
+1. Druk **[!UICONTROL Enter]** om op te slaan.
 
 ## Klikken met rechtermuisknop {#right-click}
 
@@ -94,6 +95,6 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 
 ## Visueel pictogram maken {#quick-viz}
 
-Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u drie filterrijen hebt geselecteerd, wordt er een Venn-diagram gemaakt.
+Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op de knop **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar op de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u drie filterrijen hebt geselecteerd, wordt er een Venn-diagram gemaakt.
 
 ![Snelle visualisatie](assets/quick-viz.png)

@@ -1,9 +1,9 @@
 ---
 description: Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 title: Statistische technieken voor anomaliedetectie
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
+feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 
@@ -24,7 +24,7 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele filtering genoemd).
 
-De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS) zoals beschreven door [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven in [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)
@@ -43,7 +43,7 @@ Na modelselectie past het algoritme vervolgens de resultaten aan op basis van va
 * Cyber maandag
 * 24-26 december
 * Januari 1
-* 31 december
+* December 31
 
 Deze feestdagen werden gekozen op basis van een uitgebreide statistische analyse van vele datapunten van klanten om vast te stellen welke vakanties het meest tot het hoogste aantal trends van klanten hebben beïnvloed. Hoewel de lijst zeker niet uitputtend voor alle klanten of bedrijfscycli is, ontdekten wij dat het toepassen van deze vakanties beduidend de prestaties van het algoritme over het algemeen voor bijna alle datasets van klanten verbeterde.
 

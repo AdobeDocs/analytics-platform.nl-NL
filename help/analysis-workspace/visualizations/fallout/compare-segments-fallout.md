@@ -2,8 +2,9 @@
 description: U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
 keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fallout
 title: Filters toepassen in falloutanalyse
+feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset verschilt enigszins van [Analysis Workspace in traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
+>U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
 
@@ -28,7 +29,7 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 
 ## Een filter maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Maak een filter vanuit een specifiek aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create filter from touchpoint]** te selecteren.
+1. Maak een filter vanuit een specifiek aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create filter from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -52,7 +53,7 @@ U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikersfilter naar 
 
 U kunt een onbeperkt aantal filters vergelijken in de Fallout-visualisatie.
 
-1. Selecteer de filters die u wilt vergelijken in de [!UICONTROL Filter]-rail aan de linkerkant. In ons voorbeeld hebben we twee filters geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de filters die u wilt vergelijken in het dialoogvenster [!UICONTROL Filter] spoorstaaf links. In ons voorbeeld hebben we twee filters geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
 1. Sleep ze naar de neerzetzone van het filter bovenaan.
 
    ![](assets/segment-drop.png)
