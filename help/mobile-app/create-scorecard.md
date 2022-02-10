@@ -5,14 +5,14 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 929656128214ed0dc2fe2195ea691122edb6566e
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
 
-# Een scorecard maken
+# Een mobiele scorecard maken
 
 De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
 
@@ -34,11 +34,11 @@ U moet het volgende doen om het scorebord te maken:
 1. Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] sjabloon.
 2. Vorm scorecard met gegevens en bewaar het.
 
-## Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] template
+## Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] template {#template}
 
 U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een nieuw project, of van het menu van Hulpmiddelen te creëren.
 
-### Een nieuw project maken
+### Een nieuw project maken {#create}
 
 1. Open Adobe Analytics en klik op de knop **[!UICONTROL Workspace]** tab.
 1. Klikken **[!UICONTROL Create project]** en selecteert u de **[!UICONTROL Blank mobile scorecard]** projectsjabloon.
@@ -51,7 +51,7 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 1. Van de **[!UICONTROL Tools]** menu, selecteert u **[!UICONTROL Analytics dashboards (Mobile App)]**.
 1. Klik in het volgende scherm op **[!UICONTROL Create new scorecard]**.
 
-## Vorm scorecard met gegevens en bewaar het
+## Vorm scorecard met gegevens en bewaar het {#configure}
 
 Het scorebordsjabloon implementeren:
 
@@ -66,7 +66,7 @@ Het scorebordsjabloon implementeren:
 
 1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
 
-## Afmetingen of metingen toevoegen
+## Afmetingen of metriek toevoegen (#dimsmetrics)
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
@@ -74,7 +74,7 @@ U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Chan
 
 ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-## Segmenten toepassen
+## Segmenten toepassen {#segments}
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
@@ -82,7 +82,7 @@ Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de teg
 
 ![Segmenten maken voor filter](assets/segment_ui.png)
 
-## Datumbereiken toevoegen
+## Datumbereiken toevoegen {#dates}
 
 U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
@@ -106,7 +106,7 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
-## Visualisaties toepassen
+## Visualisaties toepassen {#viz}
 
 De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de optie [!UICONTROL chart type] van een tegel [!UICONTROL Properties]. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 
@@ -151,13 +151,13 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
 
-## Eigenschappen van tegels weergeven en configureren
+## Eigenschappen van tegels weergeven en configureren {#tiles}
 
 Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze trein kunt u een nieuwe **[!UICONTROL Title]** voor de tegel en configureert u de tegel anders door componenten op te geven in plaats van deze vanuit de linkerspoorstaaf te slepen en neer te zetten.
 
 ![Eigenschappen, tegel](assets/properties_tile.png)
 
-## Insteekmodules weergeven (uitsplitsingen)
+## Insteekmodules weergeven (uitsplitsingen) {#breakdowns}
 
 Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. U kunt dimensies en dimensies opsplitsen om uw gegevens op te splitsen voor uw specifieke behoeften. Indien er geen dimensie op de tegel is toegepast, wordt de uitsplitsingsdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
@@ -171,19 +171,39 @@ De onderbrekingen verfijnen uw analyse door afmetingen door andere metriek en di
 
 Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-## Componenten verwijderen
+## Componenten verwijderen {#remove}
 
 Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door het te klikken **x** dat wordt weergegeven wanneer u de muisaanwijzer op de component plaatst, zoals hieronder voor de component **Eerste bezoeken** segment:
 
 ![Remove_components](assets/new_remove.png)
 
-## Een scorecard een naam geven
+## Voorvertoning scorecard {#preview}
+
+U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gepubliceerd in de app Analytics-dashboards.
+
+1. Klikken **[!UICONTROL Preview]** in de rechterbovenhoek van het scherm.
+
+   ![Preview_scorecards](assets/preview.png)
+
+1. Als u wilt zien hoe de scorecard er op verschillende apparaten uitziet, selecteert u een apparaat in het menu [!UICONTROL Device preview] vervolgkeuzemenu.
+
+   ![Apparaat_voorvertoning](assets/device-preview.png)
+
+1. Als u met de voorvertoning wilt werken, kunt u:
+
+   * Klik met de linkermuisknop om tikken op het telefoonscherm te simuleren.
+
+   * Gebruik de schuiffunctie van uw computer om het schuiven door het telefoonscherm met uw vinger te simuleren.
+
+   * Klik en houd vast om het drukken en het houden van uw vinger op het telefoonscherm te simuleren. Dit is handig voor interactie met de visualisaties in de gedetailleerde weergave.
+
+## Een scorecard een naam geven {#name}
 
 Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Een scorecard delen
+## Een scorecard delen {#share}
 
 U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
