@@ -3,13 +3,13 @@ title: Migreren van Adobe Analytics naar Customer Journey Analytics
 description: Stappen voor migratie van Adobe Analytics naar Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 868cd819148b29436fbd92cf220c8bc4cb9e0725
+exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
+source-git-commit: 2a330a430b48eb753d269e1165e95b61cb5fb483
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
-
 
 # Migratie van Adobe Analytics naar Customer Journey Analytics voorbereiden
 
@@ -24,10 +24,10 @@ Het voorbereiden van uw Adobe Analytics-gegevens voor een naadloze overgang naar
 Misschien de meest kritieke component van het begrip van een klantenreis is het weten van wie de klant bij elke stap is. Voor Customer Journey Analytics, staat het hebben van een herkenningsteken dat over al uw kanalen en de overeenkomstige gegevens bestaat voor het verbinden van veelvoudige bronnen binnen CJA toe.
 Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn. Ongeacht de identiteit (en er kunnen meerdere zijn), moet u rekening houden met het volgende voor elke id:
 
-* Bestaat of kan aan op alle gegevensbronnen worden toegevoegd u in CJA wilt brengen
-* Wordt gevuld op elke rij gegevens
-* Bevat geen PII. Pas hashing op om het even wat toe die gevoelig zou kunnen zijn.
-* Gebruikt dezelfde indeling voor alle bronnen (dezelfde lengte, dezelfde hash-methode, enz.)
+* Id bestaat of kan worden toegevoegd aan alle gegevensbronnen die u in CJA wilt plaatsen
+* ID is gevuld op elke rij gegevens
+* ID bevat geen PII. Pas hashing op om het even wat toe die gevoelig zou kunnen zijn.
+* ID gebruikt dezelfde indeling voor alle bronnen (dezelfde lengte, dezelfde hash-methode, enz.)
 
 In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegevens bestaan, maar een secundaire identiteit. In dit geval, kan de Analytics van het Kanaal (vroeger genoemd &quot;Op gebied-gebaseerde Stitching&quot;) worden gebruikt om de hiaat tussen rijen te overbruggen wanneer een klant slechts door hun ECID wordt geïdentificeerd en wanneer een identiteit wordt verzameld (bijvoorbeeld, wanneer een klant voor authentiek verklaart). [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
@@ -51,9 +51,9 @@ De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetze
 
 Adobe heeft gepubliceerd [bijgewerkte best practices voor implementatie van marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en). Met deze bijgewerkte aanbevelingen kunt u optimaal gebruikmaken van de mogelijkheden die Adobe Analytics al met Attribution IQ heeft. Ze zullen u ook instellen voor succes bij het overschakelen naar Customer Journey Analytics.
 
-### 4. Beslissen over het gebruik van gegevensconnector Analytics vs. SDK&#39;s van Experience Platforms
+### 4. Beslissen over het gebruik van de gegevensbronaansluiting versus Experience Platform-SDK&#39;s
 
-Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) De gegevensinzameling evolueert, zult u waarschijnlijk aan of het Web SDK van Adobe Experience Platform of de Mobiele SDK van Adobe Experience Platform met het Netwerk van de Rand van Adobe Experience Platform migreren. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
+Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
 
 Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk uitgebreid: Er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend CJA [Gegevens](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
 
