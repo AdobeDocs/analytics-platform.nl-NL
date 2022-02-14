@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b9b6c411552e8be98547e834ce81ba45d28dda60
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1482'
 ht-degree: 1%
 
 ---
@@ -57,15 +57,15 @@ ht-degree: 1%
 
 | Vraag | Antwoord |
 | --- | --- |
-| Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in AEP.</li><li>Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 24 uur<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul> |
+| Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]? | <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in AEP. (Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 24 uur<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul> |
 
 
 ## 5. Traditioneel [!UICONTROL Adobe Analytics] componenten
 
 | Vraag | Antwoord |
 | --- | --- |
-| Kan ik filters (segmenten) van Customer Journey Analytics aan Experience Platform Verenigd Profiel, of andere toepassingen van Experience Cloud delen/publiceren? | Nog niet, maar we werken actief aan het leveren van deze capaciteit. |
-| Wat is er gebeurd met mijn oude eVar-omgeving? | Vars, props en gebeurtenissen in de traditionele Adobe Analytics-zin bestaan niet meer in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. |
+| Kan ik delen/publiceren [!UICONTROL filters] ([!UICONTROL segments]) van [!DNL Customer Journey Analytics] aan Experience Platform Verenigd Profiel, of andere toepassingen van Experience Cloud? | Nog niet, maar we werken actief aan het leveren van deze capaciteit. |
+| Wat is er gebeurd met mijn oude [!UICONTROL eVar] instellen? | [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. |
 | Waar zijn al mijn zitting en veranderlijke persistentie montages nu? | [!UICONTROL Customer Journey Analytics] Hiermee past u al deze instellingen toe tijdens de rapporttijd. Deze instellingen worden nu live weergegeven in de gegevensweergave. De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken! |
 | Wat gebeurt er met onze bestaande segmenten/berekende maatstaven? | [!UICONTROL Customer Journey Analytics] gebruikt niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan een AEP-schema. Dit betekent dat geen van de bestaande segmenten of statistische gegevens compatibel zijn met [!UICONTROL Customer Journey Analytics]. |
 | Hoe werkt [!UICONTROL Customer Journey Analytics] handgreep `Uniques Exceeded` beperkingen? | [!UICONTROL Customer Journey Analytics] heeft geen unieke waardebeperkingen, dus hoeft u zich daar geen zorgen over te maken! |
