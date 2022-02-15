@@ -4,9 +4,9 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegeve
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ De eerste release van Customer Journey Analytics bevat veel van de functies die 
 
 ## CJA vergelijken met apparaatanalyse
 
-[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) integreert met de Adobe Experience Platform Identity Service, waarbij gebruik wordt gemaakt van de Co-op grafiek of de Private Graph, om te bepalen hoe digitale apparaten aan mensen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
+[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) integreert met [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en), waarbij de coopgrafiek of de privégrafiek wordt gebruikt om te bepalen hoe digitale apparaten aan personen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
 
-CJA daarentegen integreert met Adobe Experience Platform-gegevenssets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen, en die datasets kunnen voorbij digitale gegevens gaan om zowel online als off-line aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
+CJA daarentegen integreert met Adobe Experience Platform-gegevenssets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen. Die datasets kunnen verder gaan dan digitale gegevens om zowel online als offline aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
 
 ## Hoofdgebruik
 
