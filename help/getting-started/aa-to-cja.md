@@ -4,9 +4,9 @@ description: Stappen voor migratie van Adobe Analytics naar Customer Journey Ana
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
+source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegev
 
 ### 2. Variabelen uitlijnen
 
-De meest eenvoudige migratie van Adobe Analytics-gegevens naar Customer Journey Analytics is het opnemen van een algemene rapportsuite in Experience Platform met behulp van de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in AEP in kaart, die beurtelings gemakkelijk met CJA kunnen worden verbonden.
+De meest eenvoudige migratie van Adobe Analytics-gegevens naar Customer Journey Analytics is het opnemen van een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) in Experience Platform met de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in AEP in kaart, die beurtelings gemakkelijk met CJA kunnen worden verbonden.
 
 Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u veelvoudige rapportreeksen in Customer Journey Analytics wilt brengen, moet u vooruit plannen om variabelen over die rapportreeksen te brengen.
 
@@ -77,7 +77,7 @@ De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
 ### Geniet van gemak met de verwerking van de rapporttijd
 
-De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid gegevens die vooraf wordt verwerkt om resultaten te genereren zoals de persistentie die u in [!UICONTROL eVars]. Customer Journey Analytics voert die berekeningen in rapportruntime uit.
+De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid gegevens die vooraf wordt verwerkt om resultaten te genereren zoals de persistentie die u in [!UICONTROL eVars]. Customer Journey Analytics voert deze berekeningen daarentegen uit tijdens de uitvoering van het rapport.
 
 [!UICONTROL Report time processing] Hiermee opent u de mogelijkheid om instellingen met terugwerkende kracht toe te passen en meerdere versies van variabele persistentie te maken zonder dat u hoeft te wijzigen hoe de onderliggende gegevens worden verzameld.
 
@@ -100,6 +100,14 @@ Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 * [Adobe Analytics-segmenten verplaatsen naar Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [Je berekende cijfers van Adobe Analytics naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+### Andere overwegingen
+
+* Gebruikend de macht van CJA- gegevensmeningen, hebt u veel meer flexibiliteit in de definitie van metriek en dimensies binnen Customer Journey Analytics. U kunt bijvoorbeeld de waarde van een dimensie gebruiken om een metrische definitie te worden. [Meer informatie](/help/data-views/data-views-usecases.md)
+
+* Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u vergelijkbare kalendermogelijkheden binnen CJA. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
+
+* In Customer Journey Analytics, kunt u een douanebezoek/zittingsonderbreking bepalen evenals metrisch bepalen die een nieuwe zitting zal beginnen. U kunt gegevensweergaven maken met verschillende sessiedefinities om meer inzicht te krijgen dan in Adobe Analytics mogelijk was. Dit vermogen kan bijzonder gunstig zijn voor mobiele datasets.
 
 ## Volgende stappen
 
