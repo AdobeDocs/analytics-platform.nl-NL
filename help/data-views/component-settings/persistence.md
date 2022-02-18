@@ -4,9 +4,9 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '788'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Details over de beschikbare vervalinstellingen.
 
 * **Sessie**: Verloopt na een bepaalde sessie. Standaardvervalvenster.
 * **Persoon**: Verloopt aan het einde van het rapportagevenster.
-* **Tijd**: U kunt de waarde van de dimensie instellen op verlopen na een opgegeven periode (maximaal 90 dagen). Deze optie voor verlopen is alleen beschikbaar voor de toewijzingsmodellen Origineel en Recentste. Wanneer u op tijd gebaseerde vervaldatums gebruikt, worden waarden vóór het begin van het rapportagevenster (maximaal 90 dagen) in overweging genomen.
+* **Aangepaste tijd**: Vervalt na een opgegeven periode (maximaal 90 dagen). Deze optie voor verlopen is alleen beschikbaar voor de toewijzingsmodellen Origineel en Recentste. Wanneer u op tijd gebaseerde vervaldatums gebruikt, worden waarden vóór het begin van het rapportagevenster (maximaal 90 dagen) in overweging genomen.
 * **Metrisch**: Wanneer dit metrisch in een klap wordt gezien, onmiddellijk verlopen de persisted waarde in de afmeting. U kunt elke gewenste metrische waarde gebruiken als eindwaarde voor de vervaldatum voor deze dimensie. Deze optie voor verlopen is alleen beschikbaar voor de instellingen Origineel en Recentste toewijzing.
 
 ## [!UICONTROL Binding Dimension]
