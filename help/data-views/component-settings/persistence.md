@@ -4,10 +4,10 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 6%
+source-wordcount: '763'
+ht-degree: 7%
 
 ---
 
@@ -76,10 +76,12 @@ Details over de beschikbare vervalinstellingen.
 
 Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt koppelen aan waarden van de dimensie in een andere dimensie. Tot de geldige vervolgkeuzemogelijkheden behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
-Deze instelling wordt meestal gebruikt in objectarrays en wordt meestal gebruikt voor het meten van zaken als methoden voor het zoeken van producten, interne zoekresultaten, indrukkingen van interne promoties of inhoud of productaanbevelingen. In vorige versies van Adobe Analytics was dit concept vergelijkbaar met omzetsyntaxisverkoop.
+Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
 
 ## [!UICONTROL Binding Metric]
 
 Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bindende trigger fungeert. Tot de geldige vervolgkeuzemogelijkheden behoren ook de meetgegevens die in de gegevensweergave zijn opgenomen.
 
-Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting. In vorige versies van Adobe Analytics wordt een vergelijkbaar, maar beperkter concept ook wel productsyntaxisverkoop genoemd.
+Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
+
+Zie het tweede voorbeeld onder [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.
