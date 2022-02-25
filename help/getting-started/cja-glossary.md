@@ -4,9 +4,9 @@ description: Customer Journey Analytics verklarende woordenlijst.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 Sommige Customer Journey Analytics-termen verschillen van de traditionele manier waarop ze in Adobe Analytics worden gebruikt:
 
 | Nieuwe Customer Journey Analytics term | Adobe Analytics term | Beschrijving |
-|---|---|---|
+| --- | --- | --- |
 | Gegevensset opzoeken | Classificatie | De raadpleging van het gebruik om de waarde van de gespecificeerde dataset voor een sleutel/passende sleutel (in een gebeurtenisdataset) terug te winnen waar er een 1-aan-1 verhouding is. U kunt bijvoorbeeld &quot;tracking_code&quot; opgeven als de sleutel die overeenkomt met de &quot;tracking_code&quot; in de gebeurtenissenreeks. |
 | Profielgegevensset | Klant, kenmerk | Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een dataset van het Profiel in Adobe Experience Platform uploaden. Zodra u een verbinding aan die dataset in Customer Journey Analytics creeert en een gegevensmening creeert, hefboomwerking de gegevens in Werkruimte. |
 | Aanmeldingsbedrijf | Experience Cloud-organisatie | Zie [Organisaties en accountkoppelingen](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1). |
@@ -27,4 +27,4 @@ Sommige Customer Journey Analytics-termen verschillen van de traditionele manier
 ## Adobe Experience Platform glossary
 
 Adobe Experience Platform standaardiseert gegevens en inhoud in de hele onderneming, biedt realtime consumentenprofielen, maakt gegevenswetenschap mogelijk en versnelt de snelheid van de inhoud om de persoonlijke functionaliteit van de klant te verbeteren.
-Zie de [Adobe Experience Platform Verklarende woordenlijst](https://www.adobe.io/apis/experienceplatform/home/services/acp-glossary.html)voor meer informatie .
+Zie de [Adobe Experience Platform Verklarende woordenlijst](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en)voor meer informatie .
