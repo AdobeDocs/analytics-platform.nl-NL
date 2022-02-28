@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics Guide
-user-guide-description: Deze gids verstrekt zelf-hulp voor Customer Journey Analytics, Adobe-volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
+user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
+source-git-commit: 47c025bc8c84515cfb9ba3d357fe897bb018648a
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 40%
+source-wordcount: '597'
+ht-degree: 39%
 
 ---
 
@@ -153,6 +153,11 @@ ht-degree: 40%
    + [Report Builder-instellingen](report-builder/report-builder-settings.md)
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](components/overview.md)
+   + Annotaties {#annotations}
+      + [Overzicht van annotaties](components/annotations/overview.md)
+      + [Annotaties maken](components/annotations/create-annotations.md)
+      + [Annotaties beheren](components/annotations/manage-annotations.md)
+      + [Annotaties weergeven](components/annotations/view-annotations.md)
    + Dimensies {#dimensions}
       + [Voorvertoningsdimensies](components/dimensions/view-dimensions.md)
       + [Uitsplitsingsdimensies](components/dimensions/t-breakdown-fa.md)
