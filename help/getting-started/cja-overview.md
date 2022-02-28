@@ -4,9 +4,9 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegeve
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ De CJA-architectuur op hoog niveau wordt hier weergegeven:
 
 ![architectuur](assets/cja-architecture.png)
 
+Voor een video op
+
 ## CJA vergelijken met Traditionele Adobe Analytics
 
-Customer Journey Analytics breidt het bereik van Analytics uit door gebruiksvriendelijke mogelijkheden voor meerdere kanalen te bieden en beperkingen in eerdere versies van Adobe Analytics te verwijderen. Enkele opmerkelijke verbeteringen zijn:
+Customer Journey Analytics breidt het bereik van Adobe Analytics uit door gebruiksvriendelijke kanaalmogelijkheden te bieden en beperkingen in eerdere versies van Adobe Analytics te verwijderen. Enkele opmerkelijke verbeteringen zijn:
 
 * **Onbeperkte variabelen en gebeurtenissen**: De concepten eVars, props en gebeurtenissen bestaan niet meer. De gegevens zijn vooral gericht op dimensies en metriek. Gegevenssets kunnen een onbeperkte hoeveelheid unieke afmetingen en metriek hebben.
 * **Onbeperkte unieke waarden**: Adobe Experience Platform is niet beperkt tot enige unieke beperking.
@@ -68,11 +70,11 @@ Om verbindingen tot stand te brengen, voeg datasets toe, enz., hebt u de volgend
    * Identiteitsnaamruimten weergeven
    * Gegevensbestanden weergeven
 
-Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en).
 
 >[!NOTE]
 >
->U kunt geen toestemming geven voor individuele metriek of dimensies in Customer Journey Analytics, zoals in traditionele Adobe Analytics. Metriek en dimensies kunnen worden gewijzigd in gegevensweergaven en zijn daarom onderhevig aan wijzigingen in CJA, die ook de rapportage met terugwerkende kracht wijzigt.
+>U kunt geen toestemming geven voor individuele metriek of dimensies in Customer Journey Analytics, zoals in traditionele Adobe Analytics. Metriek en afmetingen kunnen worden gewijzigd in [gegevensweergaven](/help/data-views/data-views.md) en zijn derhalve onderhevig aan wijzigingen in de CJA, die ook de rapportage met terugwerkende kracht wijzigen.
 
 ### Toegang van gebruikers
 
@@ -102,3 +104,14 @@ Van de Ingestie van Gegevens aan directe SQL toegang, zijn verscheidene componen
 * [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en):
 * [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
 * [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) in de optie &quot;developer&quot;: u kunt prebuilt artificiële intelligentie (AI) en machine-leert modellen in Adobe Experience Platform gebruiken om diverse punten van de klantenreis te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
+
+## Video&#39;s
+
+* Werken met gegevens in Customer Journey Analytics:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
+
+* Architectuur en integratie van Customer Journey Analytics:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
+
