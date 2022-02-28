@@ -4,7 +4,7 @@ description: Hoe te om annotaties in Werkruimte tot stand te brengen.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | Aanmaakmethode | Details |
 | --- | --- |
-| **Ga naar [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** | De pagina Annotatiebeheer wordt geopend. Klikken [!UICONTROL Create New Annotation] en de [!UICONTROL Annotation builder] wordt geopend. |
+| **Ga naar [!UICONTROL Components] > [!UICONTROL Annotation].** | De pagina Annotatiebeheer wordt geopend. Klikken [!UICONTROL Create New Annotation] en de [!UICONTROL Annotation builder] wordt geopend. |
 | **Klik met de rechtermuisknop op een punt in een tabel.** | [!UICONTROL The Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-table.png) |
 | **Klik met de rechtermuisknop op een punt in een [!UICONTROL Line] grafiek.** | De [!UICONTROL Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-line.png) |
 | **Ga in Workspace naar [!UICONTROL Components] > [!UICONTROL Create annotation].** | De [!UICONTROL Annotation builder] wordt geopend. |
