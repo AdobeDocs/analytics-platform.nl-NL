@@ -1,9 +1,9 @@
 ---
-title: Het gebruiken van bindende dimensies en metriek in CJA
+title: Bindingsafmetingen en metriek gebruiken in CJA
 description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarrays.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Het gebruiken van bindende dimensies en metriek in CJA
+# Bindingsafmetingen en metriek gebruiken in CJA
 
 Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden voorbij de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe aanbiedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
 

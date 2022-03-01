@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 47c025bc8c84515cfb9ba3d357fe897bb018648a
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 39%
@@ -200,7 +200,7 @@ ht-degree: 39%
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
-   + [Afmetingen en metriek binden gebruiken](use-cases/binding-dimensions-metrics.md)
+   + [Afmetingen en metriek van binding gebruiken](use-cases/binding-dimensions-metrics.md)
    + [(B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset](use-cases/b2b.md)
    + [Gegevens via kanalen analyseren](use-cases/cross-channel.md)
    + [Telefooncentrum en webgegevens importeren](use-cases/call-center.md)
