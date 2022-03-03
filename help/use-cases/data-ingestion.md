@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '783'
 ht-degree: 2%
 
 ---
@@ -19,10 +19,10 @@ U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analy
 
 Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankelijk van het feit of u DTM of Launch gebruikt als tagbeheer.
 
-### Via Launch
+### Via tags in Adobe Experience Platform (voorheen Launch genoemd)
 
 1. [Een gegevenslaag maken](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html), als je dat nog niet hebt gedaan. Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
-1. Gebruiken [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Launch is een oplossing voor tagbeheer waarmee u naast andere vereisten voor codering ook analytische code kunt implementeren. De lancering biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
+1. Gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Met deze oplossing voor tagbeheer kunt u de analytische code naast andere vereisten voor codering implementeren. De markeringen bieden integratie met andere oplossingen en producten aan, en laten u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 1. Een [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [XDM-systeem (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
 
@@ -30,8 +30,8 @@ Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankel
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud.
 
-1. [De extensie AEP Web SDK configureren in Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en) gegevens vanuit wegeigenschappen naar de Adobe Experience Cloud verzenden via het Adobe Experience Platform Edge Network.
-1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
+1. [De extensie AEP Web SDK configureren in tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en) gegevens vanuit wegeigenschappen naar de Adobe Experience Cloud verzenden via het Adobe Experience Platform Edge Network.
+1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer [verbindingen](/help/connections/create-connection.md) en [gegevensweergaven](/help/data-views/data-views.md) die u op de hoogte brengt van uw rapportage via het andere kanaal.
 
 ## Ingrepen gegevens met batch-opname en streaming opname
 
@@ -40,12 +40,12 @@ Adobe Experience Platform brengt gegevens uit meerdere bronnen samen om marketer
 ### Inname in batch
 
 1. Instellen [Batchinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) om u toe te staan om gegevens in Adobe Experience Platform in te voeren als batchbestanden. Gegevens die worden opgenomen kunnen de profielgegevens van een vlak dossier in een systeem van CRM (zoals een parquetdossier), of gegevens zijn die aan een bekend schema in het register van het Model van de Gegevens van de Ervaring (XDM) in overeenstemming zijn.
-1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
+1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer [verbindingen](/help/connections/create-connection.md) en [gegevensweergaven](/help/data-views/data-views.md) die u op de hoogte brengt van uw rapportage via het andere kanaal.
 
 ### Streaming opname
 
 1. Instellen [Streaming opname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#streaming) om gegevens van client- en serverapparaten in real-time naar het Experience Platform te verzenden.
-1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
+1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer [verbindingen](/help/connections/create-connection.md) en [gegevensweergaven](/help/data-views/data-views.md) die u op de hoogte brengt van uw rapportage via het andere kanaal.
 
 ## Google Analytics-gegevens inbrengen om te analyseren in Customer Journey Analytics
 
@@ -55,4 +55,4 @@ Bekijk deze zelfstudie over hoe u [Gegevens van Google Analytics analyseren met 
 
 1. [Opsommings-API gebruiken](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) om gegevens van verzamelingen op de server naar Adobe Analytics te verzenden. Hiermee kunt u CSV-bestanden met gebeurtenisgegevens verzenden.
 1. [Een Adobe Analytics-bronaansluiting maken](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) deze consumentengegevens naar Adobe Experience Platform te brengen.
-1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
+1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer [verbindingen](/help/connections/create-connection.md) en [gegevensweergaven](/help/data-views/data-views.md) die u op de hoogte brengt van uw rapportage via het andere kanaal.
