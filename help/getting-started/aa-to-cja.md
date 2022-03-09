@@ -1,19 +1,20 @@
 ---
-title: Migreren van Adobe Analytics naar Customer Journey Analytics
-description: Stappen voor migratie van Adobe Analytics naar Customer Journey Analytics
+title: Adobe Analytics naar Customer Journey Analytics evolutie
+description: Stappen om gegevens van Adobe Analytics naar Customer Journey Analytics te verplaatsen
+role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
+source-git-commit: a47343628ace3063d23c6ba023f73dcbdc24dbcc
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
-# Migratie van Adobe Analytics naar Customer Journey Analytics voorbereiden
+# Adobe Analytics naar Customer Journey Analytics evolutie
 
-Voordat u uw gegevens van Adobe Analytics naar Customer Journey Analytics migreert, verkent u deze overwegingen om uw gegevens voor te bereiden en om u bewust te maken van de kritieke verschillen tussen de twee technologieën.
+Naarmate uw organisatie evolueert naar het gebruik van Customer Journey Analytics, verkent u deze stappen om uw gegevens voor te bereiden en om bewust te worden van de kritieke verschillen tussen de twee technologieën. Dit artikel is gericht op een beheerdersgroep.
 
 ## Uw gegevens voorbereiden
 
@@ -33,7 +34,7 @@ In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegev
 
 ### 2. Variabelen uitlijnen
 
-De meest eenvoudige migratie van Adobe Analytics-gegevens naar Customer Journey Analytics is het opnemen van een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) in Experience Platform met de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in AEP in kaart, die beurtelings gemakkelijk met CJA kunnen worden verbonden.
+De eenvoudigste manier om Adobe Analytics-gegevens om te zetten in Customer Journey Analytics-gegevens is om een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) in Experience Platform met de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
 
 Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u veelvoudige rapportreeksen in Customer Journey Analytics wilt brengen, moet u vooruit plannen om variabelen over die rapportreeksen te brengen.
 
@@ -57,7 +58,7 @@ Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform
 
 Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk uitgebreid: Er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend CJA [Gegevens](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
 
-**Voordelen van het gebruiken van Experience Platform SDKs**
+**Voordelen van het gebruik van Experience Platform-SDK&#39;s:**
 
 * Flexibel schema voor het definiëren van velden die u nodig hebt
 * Niet afhankelijk van Adobe Analytics-nomenclatuur (profiel, eVar, gebeurtenis, enz.)
@@ -105,7 +106,7 @@ Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 
 * Gebruikend de macht van CJA- gegevensmeningen, hebt u veel meer flexibiliteit in de definitie van metriek en dimensies binnen Customer Journey Analytics. U kunt bijvoorbeeld de waarde van een dimensie gebruiken om een metrische definitie te worden. [Meer informatie](/help/data-views/data-views-usecases.md)
 
-* Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u vergelijkbare kalendermogelijkheden binnen CJA. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
+* Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u een vergelijkbare kalender [aangepaste kalendermogelijkheden](/help/components/date-ranges/custom-date-ranges.md) binnen CJA. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
 
 * In Customer Journey Analytics, kunt u een douanebezoek/zittingsonderbreking bepalen evenals metrisch bepalen die een nieuwe zitting zal beginnen. U kunt gegevensweergaven maken met verschillende sessiedefinities om meer inzicht te krijgen dan in Adobe Analytics mogelijk was. Dit vermogen kan bijzonder gunstig zijn voor mobiele datasets.
 
