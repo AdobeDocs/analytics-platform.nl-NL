@@ -4,46 +4,43 @@ description: Rapport over uw huidige gebruik van Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # De verbindingsgrootte schatten
 
-Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Customer Journey Analytics]. Het doel van dit onderwerp is u te tonen hoe te om over uw huidige gebruik van te rapporteren [!UICONTROL Customer Journey Analytics].
+Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Customer Journey Analytics]. Ga als volgt te werk om een accuraat overzicht te krijgen van het gebruik van de records (gegevensrijen) met gebeurtenisgegevens van uw organisatie **voor elk van de verbindingen die door uw organisatie worden gecreeerd**.
 
 1. In [!UICONTROL Customer Journey Analytics]klikt u op de knop **[!UICONTROL Connections]** tab.
-1. Op de [!UICONTROL Edit connection] , selecteert u een verbinding waarvan u de grootte van het gebruik of de verbinding wilt bepalen.
 
-   ![Verbinding bewerken](assets/edit-connection.png)
+   U kunt nu een lijst met al uw huidige verbindingen zien.
 
-1. Selecteer een dataset die uw deel van de verbinding van de linkerspoorstaaf is. In dit geval is het de dataset &quot;B2B Impression&quot;.
+1. Klik op elke naam van de verbinding om deze weer te geven.
 
-   ![gegevensset](assets/dataset.png)
+1. Voeg de **[!UICONTROL Records of event data available]** voor alle gemaakte verbindingen. (Afhankelijk van de grootte van de verbinding kan het even duren voordat het nummer wordt weergegeven.)
 
-1. Klik op het blauwe pictogram (i) (info) naast de naam ervan. U zult merken dat de dataset 3.8k rijen/gebeurtenissen heeft. Voor het exacte aantal rijen klikt u bovendien op **[!UICONTROL Edit in Experience Platform]** onder de voorbeeldtabel. Dit zal u aan datasets in omleiden [!UICONTROL Adobe Experience Platform].
+   ![gebeurtenisgegevens](assets/event-data.png)
 
-   ![Gegevens AEP-gegevensset](assets/data-size.png)
+1. Als u een som van alle rijen met gebeurtenisgegevens hebt, zoekt u de machtiging &quot;Rijen van gegevens&quot; op in het Customer Journey Analytics-contract dat uw bedrijf met Adobe heeft ondertekend.
 
-1. Let op: **[!UICONTROL Total records]** voor deze gegevensset bedraagt de hoeveelheid 3,83 k records, waarbij de grootte van de gegevens 388,59 kB is.
+   Dit geeft u het maximumaantal rijen van gegevens die in de Orde van de Verkoop worden geautoriseerd. Als het aantal rijen gegevens dat uit Stap 3 is voortgekomen groter is dan dit aantal, gaat u over.
 
-1. Herhaal stap 1-5 voor andere datasets in uw verbinding en voeg omhoog het aantal verslagen/rijen toe. Het uiteindelijke geaggregeerde getal is de gebruikstemetrische waarde van de verbinding. Dit is het aantal rijen van de datasets van uw verbinding die u van gaat krijgen [!UICONTROL Adobe Experience Platform].
+1. U kunt deze situatie op verschillende manieren verhelpen:
 
-## Aantal toegevoegde rijen bepalen
+   * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#set-rolling-window-for-connection-data-retention).
+   * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * Neem contact op met de accountmanager van de Adobe om een licentie voor extra capaciteit te verkrijgen.
 
-Het aantal gebeurtenissen dat daadwerkelijk is opgenomen in [!UICONTROL Customer Journey Analytics] hangt van uw montages van de verbindingsconfiguratie af. Bovendien als u verkeerde identiteitskaart van de Persoon selecteerde of als dit identiteitskaart niet beschikbaar voor sommige rijen in de datasets is, dan [!UICONTROL Customer Journey Analytics] Deze rijen worden genegeerd. Voer de volgende stappen uit om de werkelijke rijen met opgenomen gebeurtenissen te bepalen:
+## Over gebruiksoverschrijdingen
 
-1. Wanneer u de verbinding hebt opgeslagen, maakt u een gegevensweergave van dezelfde verbinding zonder filters.
-1. Creeer een project van de Werkruimte en selecteer de correcte gegevensmening. Een vrije-vormtabel maken en de **[!UICONTROL Events]** metrisch met een **[!UICONTROL Year]** dimensie. Kies een groot voldoende datumbereik in de kalender voor datumselectie om alle gegevens in de verbinding in te kapselen. Op deze manier kunt u het aantal gebeurtenissen zien waarin [!UICONTROL Customer Journey Analytics].
+De gebruikslimieten worden dagelijks door Adobe strikt gecontroleerd en gehandhaafd. &quot;Rijen van gegevens&quot;: de dagelijkse gemiddelde rijen van gegevens die beschikbaar zijn voor analyse binnen Customer Journey Analytics.
 
-   ![Werkruimteproject](assets/event-number.png)
-
-   >[!NOTE]
-   >
-   >Dit laat u het aantal gebeurtenissen zien die van uw gebeurtenisdataset worden opgenomen. Het omvat profiel en raadplegingstype geen datasets. Voer stap 1-3 onder &quot;De verbindingsgrootte schatten&quot; voor profiel- en opzoekgegevenssets uit en voeg de nummers toe om het totale aantal rijen voor deze verbinding op te halen.
+Stel dat uw contractrecht het aantal rijen tot 1 miljoen beperkt. Stel dat u op dag 1 van het gebruik van Customer Journey Analytics 2 miljoen rijen gegevens uploadt. Op dag 2 verwijdert u 1 miljoen rijen en behoudt u het gebruik het toegewezen maximum. Voor dag 1 worden overgebruikskosten aangerekend.
 
 ## Diagnose discrepanties
 
@@ -53,6 +50,6 @@ In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die do
 
    ![uitsplitsing](assets/data-size2.png)
 
-1. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding werd gemaakt. Later werd het toegevoegd aan [!UICONTROL Customer Journey Analytics] maar een andere [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
+1. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding werd gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
 
 Meer informatie over de [implicaties van gegevensset en het schrappen van verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
