@@ -4,9 +4,9 @@ description: Rapport over uw huidige gebruik van Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 74934c8684198104c808284310bcdfd633085574
+source-git-commit: 966274d433d8495d32823d74c5f72107bb5f383a
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Cus
 
 ## Over gebruiksoverschrijdingen
 
-De gebruikslimieten worden dagelijks door Adobe strikt gecontroleerd en gehandhaafd. &quot;Rijen van gegevens&quot;: de dagelijkse gemiddelde rijen van gegevens die beschikbaar zijn voor analyse binnen Customer Journey Analytics.
+De gebruikslimieten worden regelmatig gecontroleerd en afgedwongen door Adobe. &quot;Rijen van gegevens&quot;: de dagelijkse gemiddelde rijen van gegevens die beschikbaar zijn voor analyse binnen Customer Journey Analytics.
 
-Stel dat uw contractrecht het aantal rijen tot 1 miljoen beperkt. Stel dat u op dag 1 van het gebruik van Customer Journey Analytics 2 miljoen rijen gegevens uploadt. Op dag 2 verwijdert u 1 miljoen rijen en behoudt u voor de rest van de Licentieperiode het toegewezen maximum. Afhankelijk van uw contractuele voorwaarden, kunt u nog steeds geproreerde kosten voor overgebruik voor dag 1 maken.
+Stel bijvoorbeeld dat uw contract u recht geeft op één miljoen rijen met gegevens. Stel dat u op dag 1 van het gebruik van Customer Journey Analytics twee miljoen rijen gegevens uploadt. Op dag 2, schrapt u 1 miljoen rijen en houdt uw gebruik bij dat gecommitteerde maximum (d.w.z., één miljoen rij gegevens) voor de rest van uw Termijn van de Vergunning. Afhankelijk van uw contractvoorwaarden, kunt u nog steeds geproreerde overgebruikskosten voor dag 1 maken, aangezien u uw licentierechten voor &quot;rijen met gegevens&quot; hebt overschreden.
 
 ## Diagnose discrepanties
 
