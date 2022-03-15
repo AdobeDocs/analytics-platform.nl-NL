@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cae8402c35d82483f6947c9082d074a18ac85dd9
+source-git-commit: 621b40ffebe0c28376bcb36fabf84b53b54e4992
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '686'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| Maart | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/estimate-connection-size.html?lang=en). |
+| Maart | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](/help/getting-started/cja-faq.md). |
 | Februari 2022 | [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=en) |
 | Januari 2022 | Nieuwe gebruiksaanwijzing voor [Het gebruiken van bindende dimensies en metriek in CJA](/help/use-cases/binding-dimensions-metrics.md) |
 | Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#allocation-settings) |
@@ -49,7 +49,6 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Januari 2021 | Nieuw onderwerp over [het toevoegen van standaardraadplegingen aan uw dataset](/help/connections/standard-lookups.md). |
 | 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
 | 13 november 2020 | Een nieuwe gebruikscase op [callcenter en webgegevens importeren](/help/use-cases/call-center.md) is toegevoegd. |
-| 11 november 2020 | Een onderwerp toegevoegd op [De verbindingsgrootte schatten](/help/connections/estimate-connection-size.md). |
 | 10 november 2020 | Een sectie toegevoegd over de gevolgen van het verwijderen van gegevenscomponenten voor de [Veelgestelde vragen](/help/getting-started/cja-faq.md). |
 | 2 november 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/cja-aa.md) pagina. |
 | November 2020 | Toegevoegde inhoud op [beperkingen voor backfill verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#backfill-historical-data) voor verbindingen. |

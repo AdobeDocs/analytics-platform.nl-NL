@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 0%
+source-wordcount: '1698'
+ht-degree: 1%
 
 ---
 
@@ -152,9 +152,3 @@ Hiermee kunnen beheerders de verbinding bewerken. Selecteer een verbinding en kl
 * Vernieuw de gegevensset(s).
 * Verwijder dataset/s uit de verbindingen.
 
-## Rolvenster instellen voor [!UICONTROL Connection] gegevensbewaring
-
->[!IMPORTANT]
->Neem contact op met de klantenservice of uw Adobe-accountmanager om deze instelling te laten implementeren. Deze is nog niet beschikbaar via de gebruikersinterface van CJA.
-
-Met deze instelling kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (3 maanden, 6 maanden, enz.), bij een [!UICONTROL connection] niveau (niet op een [!UICONTROL dataset] niveau). Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn. Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
