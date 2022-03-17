@@ -2,14 +2,14 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
+source-git-commit: 38c64f99b5e4a0061ccf9afb1d5ff219a78aec94
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 1%
 
 ---
 
-# Overzicht van filters
+# Overzicht van filters {#overview}
 
 Met Customer Journey Analytics kunt u krachtige, doelgerichte publieksfilters maken, beheren, delen en toepassen op uw rapporten. Met filters kunt u subsets van bezoekers identificeren op basis van eigenschappen of interacties van websites. Filters zijn ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en met andere teamleden kunt delen.
 
@@ -17,21 +17,21 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
-Filteren omvat [Filter Builder](/help/components/filters/create-filters.md) om filters te construeren en een pretest in werking te stellen, en [de Manager van de Filter](/help/components/filters/manage-filters.md) om filters over uw organisatie te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en te delen.
+Filteren bevat de opdracht [Filter Builder](/help/components/filters/create-filters.md) om filters te maken en een pretest uit te voeren, en [Filterbeheer](/help/components/filters/manage-filters.md) om filters te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en over uw organisatie te delen.
 
-## Filtertypen
+## Filtertypen {#types}
 
 U kunt verschillende soorten filters in Werkruimte en de Bouwer van de Filter tot stand brengen, afhankelijk van hoe complex zij moeten zijn, of zij op dit project slechts, enz. zouden moeten van toepassing zijn. Hier volgt een overzicht van filtertypen:
 
 | Filtertype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
 | --- | --- | --- | --- |
-| Component-list, filter | Klik +, wat u aan [de Bouwer van de Filter ](/help/components/filters/create-filters.md) neemt | Al uw projecten van de Werkruimte | Voor complexere filters, opeenvolgende filters |
+| Component-list, filter | Klik +, wat u aan [Filter Builder](/help/components/filters/create-filters.md) | Al uw projecten van de Werkruimte | Voor complexere filters, opeenvolgende filters |
 | Snel filter | [Snelle filterbuilder](/help/components/filters/quick-filters.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
 | Ad-hocprojectfilter | [Sleep in segment dalingsstreek in een project](/help/components/filters/ad-hoc-filters.md) | Alleen project, maar u kunt het bestand opslaan en toevoegen aan uw filterlijst. | Voor filters met één regel |
-| Filters in falloutanalyse | [Fallout-](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) visualisatie in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
+| Filters in falloutanalyse | [Uitvalvisualisatie](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
 | Op basis van berekende meetwaarden, filter | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Filter/s toepassen binnen uw metrische definitie |
 
-## Opeenvolgende filters
+## Opeenvolgende filters {#sequential}
 
 Met opeenvolgende filters kunt u bezoekers identificeren op basis van navigatie en paginaweergave op uw site. Zo beschikt u over een filter met gedefinieerde handelingen en interacties. Met behulp van opeenvolgende filters kunt u bepalen wat een bezoeker leuk vindt en wat een bezoeker vermijdt. Wanneer het bouw van opeenvolgende filters, wordt de exploitant THEN gebruikt om bezoekersnavigatie te bepalen en te ordenen.
 
@@ -43,7 +43,7 @@ Hier volgt een voorbeeld:
 | --- | --- | --- |
 | De bezoeker ging naar de hoofdlandingspagina (A), sloot de campagnepagina (B) uit en bekeken de productpagina (C). | De bezoeker ging opnieuw naar de hoofdbestemmingspagina (A), sluit de campagnepagina (B) uit, en ging opnieuw naar de productpagina (C) en vervolgens naar een nieuwe pagina (D). | De bezoeker ging en volgde hetzelfde pad als bij de eerste en tweede bezoeken, en sloot vervolgens pagina F uit om rechtstreeks naar een bepaalde productpagina (G) te gaan. |
 
-## Filtercontainers
+## Filtercontainers {#containers}
 
 Filters zijn gebaseerd op een hiërarchie op Person-, Session- en Gebeurtenisniveau met behulp van een genest containermodel. Met de geneste containers kunt u persoonkenmerken en handelingen definiëren op basis van regels tussen en binnen de containers.
 
@@ -54,7 +54,7 @@ Een filter stelt voorwaarden in om een bezoeker te filteren op basis van zijn of
 
 De containerarchitectuur die in de Bouwer van de Filter wordt gebruikt bepaalt Persoon als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat. Met een geneste container voor sessies kunt u regels instellen om de gegevens van de bezoeker op basis van sessies op te splitsen. Met een geneste container voor gebeurtenissen kunt u bezoekersinformatie opsplitsen op basis van afzonderlijke paginaweergaven. Met elke container kunt u de geschiedenis van een bezoeker, interacties die zijn opgesplitst naar sessie, of afzonderlijke gebeurtenissen onderverdelen.
 
-### Persoonscontainer
+### Persoonscontainer {#person}
 
 De container Person bevat elk bezoek en elke paginaweergave voor bezoekers binnen een opgegeven tijdsperiode. Een filter op het niveau van de Persoon keert de pagina terug die aan de voorwaarde plus alle andere pagina&#39;s voldoet die door de bezoeker (en slechts beperkt door bepaalde datumwaaiers) worden bekeken. Als meest breed-bepaalde container, zullen de rapporten die op het niveau van de container van de Persoon worden geproduceerd paginameningen over alle bezoeken terugkeren en laat u een multi-bezoek analyse produceren. Daarom is de container van de Persoon het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
 De containers van de persoon kunnen waarden omvatten die op de algemene geschiedenis van een bezoeker worden gebaseerd:
@@ -63,7 +63,7 @@ De containers van de persoon kunnen waarden omvatten die op de algemene geschied
 * Oorspronkelijke invoerpagina
 * Oorspronkelijke verwijzende domeinen
 
-### Sessiecontainer
+### Sessiecontainer {#session}
 
 Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet en u laat bepalen welke zittingen u in de bouw en het toepassen van een filter wilt omvatten of uitsluiten. Het kan u helpen deze vragen beantwoorden:
 
@@ -78,7 +78,7 @@ Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sess
 * Deelnamemetriek
 * Lineaire toegewezen metriek
 
-### Gebeurteniscontainer
+### Gebeurteniscontainer {#event}
 
 In de container Event wordt gedefinieerd welke paginagebeurtenissen u wilt opnemen in of uitsluiten van een filter. Het is het meest smalle van de beschikbare containers om u specifieke kliks en paginamening te laten identificeren waar een voorwaarde waar is, latend u één enkele het volgen code bekijken, of gedrag binnen een bepaalde sectie van uw plaats isoleren. U kunt ook een specifieke waarde aanwijzen wanneer een handeling plaatsvindt, zoals het marketingkanaal wanneer een order is geplaatst.
 
@@ -89,7 +89,7 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 * Lijstafmetingen
 * Merchandising-afmetingen (in de context van gebeurtenissen)
 
-## Filtersjabloon buiten de box
+## Filtersjabloon buiten de box {#template}
 
 Traditionele analyse wordt geleverd met veel out-of-the-box sjabloonfilters (filters) en berekende meetgegevens. Veel van deze regels zijn niet van toepassing op CJA of moeten worden hernoemd of opnieuw worden gemaakt. Andere zullen van een oplossing voor context-bewuste variabelen in CJA afhangen.
 

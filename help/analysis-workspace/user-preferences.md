@@ -4,10 +4,10 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
@@ -40,6 +40,7 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1 000 00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
+|  | Vrije-vormentabel | <ul><li>anomalieën tonen </li><li>Meerdere regels tonen</li><li>Annotaties tonen</li></ul> |
 
 ## [!UICONTROL Dark theme]
 

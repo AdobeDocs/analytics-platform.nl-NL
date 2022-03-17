@@ -4,31 +4,32 @@ title: Ad-hocprojectfilters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 1%
 
 ---
 
 # Ad-hocprojectfilters
 
+Met ad-hocprojectfilters kunt u een component rechtstreeks naar de neerzetzone van het deelvenster slepen om een filter te maken. Het filter wordt een [filter op projectniveau](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?#what-are-project-only-segments) lokaal aan het huidige project.
+
 Hier volgt een video over het maken van ad-hocprojectfilters:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-U kunt ad hoc projectfilters tot stand brengen als u wilt snel onderzoeken hoe een filter uw project zou kunnen beïnvloeden, zonder naar de Bouwer van het Segment te gaan. Beschouw deze filters als tijdelijke filters op projectniveau. Ze maken doorgaans geen deel uit van uw filter &quot;bibliotheek&quot;, zoals componentfilters in de linkerrail. U kunt de bestanden echter opslaan, zoals hieronder wordt weergegeven.
 
-Voor een vergelijking van wat ad-hocprojectfilters kunnen doen versus volledig-afgewerkte component-vlakke filters, ga [hier](/help/components/filters/filters-overview.md).
+1. 
+   1. Zet een componenttype (afmetingen, afmeting, item, gebeurtenis, metrisch, segment, segmentsjabloon, datumbereik) neer in de neerzetzone van het filter boven in een deelvenster. Componenttypen worden automatisch omgezet in ad-hocfilters of [Snelle filters](/help/components/filters/quick-filters.md) indien compatibel.
 
-1. Zet een componenttype (afmetingen, afmeting, item, gebeurtenis, metrisch, filter, filtersjabloon, datumbereik) neer in de neerzetzone van het filter boven in een deelvenster. Componenttypen worden automatisch omgezet in filters.
-Hier ziet u hoe u een filter voor het Twitter-verwijzingsdomein kunt maken:
+   Hier ziet u hoe u een filter voor het Twitter-verwijzingsdomein kunt maken:
 
    ![](assets/ad-hoc1.png)
 
    Dit filter wordt automatisch toegepast in uw deelvenster en u kunt de resultaten direct zien.
 
-1. U kunt een onbeperkt aantal componenten aan een paneel toevoegen.
+1. U kunt een onbeperkt aantal filters toevoegen aan een deelvenster.
 1. Raadpleeg de onderstaande sectie als u dit filter wilt opslaan.
 
 Houd rekening met het volgende:
@@ -37,19 +38,14 @@ Houd rekening met het volgende:
 * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39; raakfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
 * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze op de juiste wijze wordt behandeld tijdens het filteren.
 
->[!NOTE]
->
->Segmenten die op deze manier worden gemaakt, bevinden zich intern in het project.
-
 ## Ad-hocprojectfilters opslaan {#ad-hoc-save}
 
 U kunt deze filters opslaan door de volgende stappen uit te voeren:
 
 1. Houd de muisaanwijzer boven het filter in de neerzetzone en klik op het pictogram &quot;i&quot;.
-1. Klik in het informatievenster dat wordt weergegeven op **[!UICONTROL Save]**.
+1. Klik op het bewerkingspotlood om naar de Filterbouwer te gaan.
+1. Controleren **[!UICONTROL Make available to all projects and add to your component list]**.
+1. Klik op **[!UICONTROL SAVE]**.
 
-   ![](assets/segment-info.png)
+Als het filter eenmaal is opgeslagen, is het beschikbaar in de lijst met onderdelen van het linkerspoor en kan het met andere gebruikers worden gedeeld via Filterbeheer.
 
-## Wat zijn alleen-projectfilters?
-
-Filters met alleen een project zijn snelle filters of ad-hocprojectfilters in de werkruimte. Wanneer het uitgeven van/het openen van hen in de filterbouwer dan zal het project-enige vakje verschijnen. Als ze een snel filter toepassen in de builder maar het selectievakje voor het beschikbaar stellen niet inschakelen, is het nog steeds een filter dat alleen voor het project geldt, maar kan het niet meer worden geopend in de builder voor kwaliteitscontrole. Als ze het selectievakje inschakelen en OPSLAAN, is het nu een filter voor een componentlijst.
