@@ -4,9 +4,9 @@ description: Wat vanuit het perspectief van de gebruiker te overwegen wanneer uw
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
+source-git-commit: 24a6319b1303eaef80ddf6142deae60e7f664ae4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,17 @@ ht-degree: 0%
 
 # CJA-gebruikershandleiding voor Adobe Analytics-gebruikers
 
+>[!NOTE]
+>
+>Deze pagina is in opbouw.
+
 Gefeliciteerd, uw bedrijf begint Customer Journey Analytics te werken! Als gebruiker van Adobe Analytics heb je al een geweldige start. Als u met Customer Journey Analytics werkt, zult u merken dat er grote verschillen en enkele overeenkomsten zijn. Deze pagina is bedoeld om de dingen uit te leggen die niet zijn gewijzigd, en ook een aantal van de grote verschillen. Wij zullen u ook vertellen hoe u meer informatie over nieuwe concepten kunt krijgen, en verdere stappen om UW klantenreis gemakkelijker en succesvoller te maken.
 
 ## Wat niet is gewijzigd
 
-Veel van wat u op de verslaggevende kant kent, is niet veranderd. U kunt nog steeds gebruikmaken van de kracht van Analysis Workspace om uw gegevens te analyseren, plus Adobe Analytics-dashboards en een nieuwe versie van Report Builder. Werkruimte en dashboards werken in wezen hetzelfde als in traditionele Adobe Analytics. Report Builder heeft een nieuwe interface en loopt nu op PCs, de computers van Mac, en de Webversie van Excel. Meldend-wijs, wat verschillend is is dat u toegang tot veel meer dwars-kanaalgegevens hebt om te analyseren. Hier volgt een voorbeeld van een werkruimte
+Veel van wat u op de verslaggevende kant kent, is niet veranderd. U kunt de kracht van Analysis Workspace nog steeds gebruiken om uw gegevens te analyseren. U hebt ook dezelfde versie van Adobe Analytics-dashboards tot uw beschikking. Werkruimte en dashboards werken in wezen hetzelfde als in traditionele Adobe Analytics. Report Builder heeft een nieuwe interface en loopt nu op PCs, de computers van Mac, en de Webversie van Excel. Meldend-wijs, wat verschillend is is dat u toegang tot veel meer dwars-kanaalgegevens hebt om te analyseren. Hier volgt een voorbeeld van een aantal meerkanaalse visualisaties:
+
+![multikanaal](assets/cross-channel.png)
 
 ## Nieuwe architectuur
 
@@ -26,7 +32,7 @@ Customer Journey Analytics krijgt zijn gegevens van Adobe Experience Platform. M
 
 De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
 
-Uw CJA Admin zal verbindingen aan de gegevens in Platform vestigen, en bouwt gegevensmeningen binnen die verbindingen. Beschouw gegevensweergaven als vergelijkbaar met virtuele rapportsuites. Gegevensweergaven vormen de basis voor rapportage in Customer Journey Analytics.
+Uw CJA-beheerder heeft [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Platform. Ze hebben toen gebouwd [gegevensweergaven](/help/data-views/data-views.md) binnen die verbindingen. Beschouw gegevensweergaven als vergelijkbaar met virtuele rapportsuites. Gegevensweergaven vormen de basis voor rapportage in Customer Journey Analytics.
 
 ## Nieuwe concepten en terminologie
 
