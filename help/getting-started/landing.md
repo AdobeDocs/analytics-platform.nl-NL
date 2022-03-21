@@ -3,9 +3,9 @@ description: Verklaart de eigenschappen van de nieuwe landingspagina.
 title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 186c462c363660970080acbb9a906c4cf8254df8
+source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,13 @@ U kunt
 
 [!UICONTROL Projects] dient als [!UICONTROL Workspace] homepage. Alle Workspace-projecten worden hier weergegeven, inclusief Mobiele scorecards. **[!UICONTROL Projects]** Dit zijn dingen die u hebt gebouwd of die iemand anders met u heeft gebouwd en gedeeld. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
 
-![Alles landen](assets/landing-all.png)
-
 >[!NOTE]
 >
 >Verschillende van de volgende instellingen blijven bestaan (worden onthouden) tijdens de gehele sessie en tijdens verschillende sessies. Voorbeelden: Op welk tabblad u klikt, welke filters zijn geselecteerd, welke kolommen zijn geselecteerd en in welke richting de kolommen worden gesorteerd. De zoekresultaten worden echter niet voortgezet.
 
 | UI-element | Definitie |
 | --- | --- |
-| ... Meer | Laat u [!UICONTROL View Tutorials], en [Gebruikersvoorkeuren bewerken](/help/analyze/analysis-workspace/user-preferences.md). |
+| ... Meer | Laat u [!UICONTROL View Tutorials], en [Gebruikersvoorkeuren bewerken](/help/analysis-workspace/user-preferences.md). |
 | **[!UICONTROL Create new]** modal is back | Wanneer u op **[!UICONTROL Create new]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. |
 | [!UICONTROL Show less/more] | Hiermee schakelt u tussen het niet weergeven en weergeven van de banner: ![Bovenste banner](assets/top-banner.png) |
 | [!UICONTROL Blank project] | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) zodat u kunt vullen. |
@@ -52,7 +50,7 @@ U kunt
 | Selectievak | Wanneer u op dit vak naast een of meer projecten klikt, worden de projectbeheeracties weergegeven die u kunt uitvoeren: Verwijderen, labelen, Vastzetten, Goedkeuren, Delen, Naam wijzigen, Kopiëren en Exporteren naar CSV. U hebt mogelijk geen machtigingen om al deze handelingen uit te voeren. |
 | [!UICONTROL Favorites] | Als u een project bevoordeelt, wordt er een ster achter geplaatst en wordt het als een favoriet gemarkeerd waarop u kunt filteren. |
 | [!UICONTROL Name] | De naam van het project. |
-| Info (i), pictogram | Als u op het pictogram Info klikt, wordt de volgende informatie over dit project weergegeven: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het geeft ook aan wie kan [bewerken of dupliceren](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/curate-share/share-projects.html) dit project. |
+| Info (i), pictogram | Als u op het pictogram Info klikt, wordt de volgende informatie over dit project weergegeven: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het geeft ook aan wie kan [bewerken of dupliceren](/help/analysis-workspace/curate-share/share-projects.md) dit project. |
 | Ovaal (...) | Wanneer u op de ellips naast een project klikt, worden de projectbeheeracties weergegeven die u kunt uitvoeren: Verwijderen, labelen, Vastzetten, Goedkeuren, Delen, Naam wijzigen, Kopiëren en Exporteren naar CSV. Mogelijk hebt u geen machtigingen om al deze handelingen uit te voeren. |
 | [!UICONTROL Type] | Geeft aan of dit type een Workspace-project of een Mobile-scorecard is. |
 | [!UICONTROL Tags] | U kunt rapporten labelen om deze in groepen te ordenen. |
@@ -62,7 +60,7 @@ U kunt
 | [!UICONTROL Shared with] | Met wie is dit project gedeeld. |
 | [!UICONTROL Last Modified] | Toen dit project voor het laatst werd gewijzigd. |
 | [!UICONTROL Last opened] | Toen dit project voor het laatst door u werd geopend. |
-| [!UICONTROL Scheduled] | Instellen op [!UICONTROL On] wanneer een project gepland is of **[!UICONTROL Off]** wanneer dat niet het geval is. Klik op de knop **[!UICONTROL On]** de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent. |
+| [!UICONTROL Scheduled] | Instellen op [!UICONTROL On] wanneer een project gepland is of **[!UICONTROL Off]** wanneer dat niet het geval is. Klik op de knop **[!UICONTROL On]** de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](/help/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent. |
 | [!UICONTROL Project ID] | Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt. |
 | [!UICONTROL Longest Date Range] | De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. |
 | [!UICONTROL Number of Queries] | Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. |
