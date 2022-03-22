@@ -4,9 +4,9 @@ description: Annotaties weergeven in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
@@ -27,18 +27,18 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 | **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>Wanneer u deze optie selecteert in het lijndiagram, worden de metagegevens van de annotatie weergegeven en kunt u deze bewerken of verwijderen:![](assets/multi-hover.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png) |
 | **Overlappende annotaties** | Op dagen waarop meerdere annotaties zijn gekoppeld, wordt het pictogram weergegeven in een grijze kleur.<p>![](assets/grey.png)<p>Wanneer u de cursor boven het grijze pictogram houdt, worden alle overlappende annotaties weergegeven:<p>![](assets/overlap.png) |
 
-## Annotaties weergeven in een overzichtstabel
-
-![](assets/ann-summary.png)
-
 ## Annotaties weergeven in een .pdf-bestand
 
 Aangezien u de muisaanwijzer niet boven pictogrammen in een .pdf-bestand kunt plaatsen, bevat dit bestand (na het exporteren) onder in een deelvenster notities met uitleg. Hier volgt een voorbeeld:
 
 ![](assets/ann-pdf.png)
 
-## Annotaties weergeven die niet zijn gebaseerd op datums
+## Annotaties met niet-trendgegevens weergeven
 
-Soms is een aantekening niet gekoppeld aan een datum, maar aan een bepaalde dimensie. In dat geval worden ze alleen in een summiere annotatie in de rechterbenedenhoek weergegeven. Hier volgt een voorbeeld:
+Soms wordt annotatie weergegeven met niet-trendgegevens, maar gekoppeld aan een specifieke dimensie. In dat geval worden ze alleen in een summiere annotatie in de rechterbenedenhoek weergegeven. Hier volgt een voorbeeld:
 
 ![](assets/non-date.png)
+
+Het overzichtsdiagram wordt weergegeven in alle visualisatietypen in de hoek, niet alleen in niet-beheerde vrije-vormtabellen en samenvattingsnummers. Het wordt ook weergegeven in visualisaties zoals [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], enzovoort.
+
+![](assets/ann-summary.png)

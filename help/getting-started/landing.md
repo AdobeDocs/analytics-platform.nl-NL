@@ -3,9 +3,10 @@ description: Verklaart de eigenschappen van de nieuwe landingspagina.
 title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
+exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
+source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ U kunt
 | [!UICONTROL Scheduled] | Instellen op [!UICONTROL On] wanneer een project gepland is of **[!UICONTROL Off]** wanneer dat niet het geval is. Klik op de knop **[!UICONTROL On]** de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](/help/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent. |
 | [!UICONTROL Project ID] | Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt. |
 | [!UICONTROL Longest Date Range] | De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. |
-| [!UICONTROL Number of Queries] | Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. |
+| [!UICONTROL Number of Queries] | Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. |
 | Tabelpictogram aanpassen | (Rechtsboven) Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, kunt u dit doen door ze te selecteren of te deselecteren. |
 | &lt; (Terug) | Deze knoop in een project van de Werkruimte neemt u terug naar uw meest recente het landen paginaconfiguratie. De paginasonfiguratie die u had toen u de openingspagina verliet, zal aanhouden wanneer u terugkeert. |
 
