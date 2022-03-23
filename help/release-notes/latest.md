@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: abe97ed01ce841d3a74b29dedc9d2c4248c554c4
+source-git-commit: 4afb87d0160dff9cd3249889bab84dacfdc43e2a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Annotaties in werkruimte | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. [Meer informatie](/help/components/annotations/overview.md) | 23 maart 2022 |
+| Annotaties in werkruimte | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. [Meer informatie](/help/components/annotations/overview.md) | Geleidelijke uitrol start op 23 maart 2022 |
 | Nieuwe bestemmingspagina van Customer Journey Analytics | De landingspagina voor Customer Journey Analytics is voorzien van een startpagina voor projectmanagers en een leergedeelte om u te helpen efficiënter aan de slag te gaan. [Meer informatie](/help/getting-started/landing.md) | 1 april 2022 |
 | [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. | 1 april 2022 |
 
