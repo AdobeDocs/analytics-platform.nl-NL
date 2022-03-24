@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 2ebbee4ae7990bdb69f42cf25f8fcef3c20a26ee
+source-git-commit: 77b0783459cc6ddc3cc83c805f5da073eb1e8674
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1316'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
 | Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
+| Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
 | Draaien tussen apparaten en kanalen | volledige ondersteuning; Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | CSV-download | Volledige ondersteuning |
 | Aangepaste kalenders | Volledige ondersteuning |
@@ -79,7 +80,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
-| Kalendergebeurtenissen | Wordt &#39;Annotaties&#39; genoemd in Workspace. |
 | Builder voor classificatieregels | Het zal lichtjes verschillend in CJA werken, gebruikend koordmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
 | Contributieanalyse | Er is steun gepland. |
 | Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
