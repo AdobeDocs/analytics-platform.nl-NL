@@ -4,16 +4,16 @@ title: Ad-hocprojectfilters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
 
 # Ad-hocprojectfilters
 
-Met ad-hocprojectfilters kunt u een component rechtstreeks naar de neerzetzone van het deelvenster slepen om een filter te maken. Het filter wordt een [filter op projectniveau](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?#what-are-project-only-segments) lokaal aan het huidige project.
+Met ad-hocprojectfilters kunt u een component rechtstreeks naar de neerzetzone van het deelvenster slepen om een filter te maken. Het filter wordt een [filter op projectniveau](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) lokaal aan het huidige project.
 
 Hier volgt een video over het maken van ad-hocprojectfilters:
 

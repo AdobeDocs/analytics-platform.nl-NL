@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt snelle filters binnen een project maken om de complexiteit van de volledige [Filter Builder](/help/components/filters/create-filters.md). Snelle filters
 
-* Toepassen als [projectgebonden segmenten](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?lang=en#what-are-project-only-filters).
+* Toepassen als [projectgebonden segmenten](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html).
 * Maximaal 3 regels toestaan
 * Plaats geen geneste containers of opeenvolgende regels.
 
@@ -99,7 +99,7 @@ Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de f
 1. Het filter verschijnt nu in uw lijst van de filtercomponent voor al uw projecten.
 1. U kunt ook [delen, filter](/help/components/filters/manage-filters.md) met andere mensen in uw organisatie.
 
-## Wat zijn alleen-projectfilters?
+## Wat zijn alleen-projectfilters? {#project-only}
 
 Alleen-projectfilters zijn filters die alleen van toepassing zijn op het huidige project waarin ze zijn gemaakt. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers. Ze zijn bedoeld voor een snelle verkenning van uw gegevens zonder dat u een filter hoeft te maken en op te slaan in de linkerspoorstaaf. U kunt alleen-projectfilters maken in de neerzetzone van het deelvenster met behulp van snelle filters of [ad-hocfilters](/help/components/filters/ad-hoc-filters.md).
 
