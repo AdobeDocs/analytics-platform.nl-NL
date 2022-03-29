@@ -4,9 +4,9 @@ description: Wat vanuit het perspectief van de gebruiker te overwegen wanneer uw
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d31f07d8b26ea4d60481c040a0ca1ba491d4ecf0
+source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ Gefeliciteerd, uw bedrijf begint met Customer Journey Analytics te werken! Als g
 
 ## Wat niet is gewijzigd
 
-Veel van wat u op de verslaggevende kant kent, is niet veranderd. U kunt de kracht van Analysis Workspace nog steeds gebruiken om uw gegevens te analyseren. U hebt ook dezelfde versie van Adobe Analytics-dashboards tot uw beschikking. Werkruimte en dashboards werken in wezen hetzelfde als in traditionele Adobe Analytics. Report Builder heeft een nieuwe interface en loopt nu op PCs, de computers van Mac, en de Webversie van Excel. Meldend-wijs, wat verschillend is is dat u toegang tot veel meer dwars-kanaalgegevens hebt om te analyseren. Hier volgt een voorbeeld van een aantal meerkanaalse visualisaties:
+Veel van wat u op de verslaggevende kant kent, is niet veranderd.
 
-![multikanaal](assets/cross-channel.png)
+* U kunt de kracht van [Analysis Workspace](/help/analysis-workspace/home.md) om uw gegevens te analyseren.
+* U hebt ook dezelfde versie van [Adobe Analytics-dashboards](/help/mobile-app/home.md) beschikbaar. Werkruimte en dashboards werken hetzelfde als in traditionele Adobe Analytics.
+* [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt nu op PCs, Macs, en de Webversie van Excel.
+
+Wat de rapportage betreft, is het verschil dat je toegang hebt tot veel meer kanaalgegevens om te analyseren. Hier volgt een voorbeeld van een aantal multikanaalsvisualisaties die een aantal bronnen van dwars-kanaalgegevens bevatten:
+
+![meerkanaalse visualisaties](assets/cross-channel.png)
 
 ## Nieuwe architectuur
 
