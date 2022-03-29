@@ -4,9 +4,9 @@ description: Gebruik de Verbinding van Gegevens van Analytics om de verwerkingsr
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,13 @@ De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysi
 >
 >Er zijn verscheidene fundamentele gegevensverschillen tussen de gegevens van de rapportreeks en Platform. Adobe raadt u ten zeerste aan om de verwerkingsregels van uw rapportsuite aan te passen om een correcte gegevensverzameling in Platform te vergemakkelijken.
 
+>[!NOTE]
+>
+>Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en).
+
 De montages van het de verkoopkanaal werken verschillend tussen de gegevens van het Platform en rapportsuite gegevens. Houd rekening met de volgende verschillen bij het instellen van marketingkanalen voor CJA:
 
-* **Is de eerste bezoekpagina**: Deze regelcriteria gelden voor verschillende standaarddefinities van marketingkanalen. Een verwerkingsregel die deze criteria bevat, wordt in het Platform genegeerd (andere criteria in dezelfde regel blijven van toepassing). De zittingen worden bepaald bij de tijd van de gegevensvraag in plaats van op het tijdstip van gegevensinzameling, verhinderend Platform deze specifieke regelcriteria te gebruiken. Adobe raadt aan de criteria &#39;Is First Page of Visit&#39; te verwijderen uit elke regel voor verwerking van marketingkanalen.
+* **Is de eerste bezoekpagina**: Deze regelcriteria gelden voor verschillende standaarddefinities van marketingkanalen. Een verwerkingsregel die deze criteria bevat, wordt in het Platform genegeerd (andere criteria in dezelfde regel blijven van toepassing). De zittingen worden bepaald bij de tijd van de gegevensvraag in plaats van op het tijdstip van gegevensinzameling, verhinderend Platform deze specifieke regelcriteria te gebruiken. Adobe beveelt aan om alle regels voor de verwerking van marketingkanalen die de criteria &#39;Is First Page of Visit&#39; bevatten, opnieuw te evalueren en te kiezen voor alternatieve benaderingen waarmee uw doelstellingen worden bereikt.
 
    ![Eerste pagina van het bezoek](assets/first-page-of-visit.png)
 
