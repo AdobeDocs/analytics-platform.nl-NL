@@ -4,7 +4,7 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 2%
@@ -17,7 +17,7 @@ Een verbinding laat u datasets van integreren [!DNL Adobe Experience Platform] i
 
 Hier volgt een video-overzicht:
 
->[!VIDEO](https://video.tv.adobe.com/v/32549/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/331788/?quality=12&learn=on)
 
 ## Vereiste machtigingen
 
@@ -146,11 +146,12 @@ Deze berekening moet voor elke dataset in de verbinding worden uitgevoerd.
 
 1. Ga naar [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) en maak een nieuwe query.
 
-1. De query ziet er als volgt uit:
+   De query ziet er als volgt uit:
 
    ```
    Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;
    ```
 
-* In dit voorbeeld is &quot;analytics_demo_data&quot; de naam van de dataset.
-* Voer het `Show Tables` vraag om alle datasets te tonen die in AEP bestaan.
+   In dit voorbeeld is &quot;analytics_demo_data&quot; de naam van de dataset.
+
+1. Voer het `Show Tables` vraag om alle datasets te tonen die in AEP bestaan.

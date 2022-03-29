@@ -4,9 +4,9 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Een gegevensweergave maken of bewerken
 
 Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. De meeste schemaelementen kunnen of een afmeting of metrisch afhankelijk van de vereisten van uw zaken zijn. Zodra u een schemaelement in een gegevensmening sleept, verschijnen de opties op het recht waar u kunt aanpassen hoe de afmeting of metrisch in CJA werkt.
+
+Hier volgt een video over het onderwerp:
+
+>[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
 ## Een gegevensweergave configureren
 
