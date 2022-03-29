@@ -4,7 +4,7 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
+source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 0%
@@ -19,14 +19,14 @@ Hier volgt een video over het onderwerp:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## Een gegevensweergave configureren
+## Een gegevensweergave configureren {#configure}
 
 1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
 2. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
 
 ![Nieuwe gegevensweergave](assets/new-data-view.png)
 
-### Instellingen voor gegevensweergave
+### Instellingen voor gegevensweergave {#settings}
 
 Verstrekt overkoepelende montages voor de gegevensmening.
 
@@ -36,9 +36,9 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 | [!UICONTROL Name] | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in het rechtsboven weergegeven vervolgkeuzemenu in Analysis Workspace. |
 | [!UICONTROL Description] | Optioneel. Adobe raadt een gedetailleerde beschrijving aan, zodat gebruikers begrijpen waarom de gegevensweergave bestaat en voor wie deze is ontworpen. |
 
-### Containers
+### Containers {#containers}
 
-Hiermee geeft u de naam van containers voor de gegevensweergave aan. Containernamen worden vaak gebruikt in [Filters](/help/components/filters/filters-overview.md#Filter-containers).
+Hiermee geeft u de naam van containers voor de gegevensweergave aan. Containernamen worden vaak gebruikt in [filters](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -46,7 +46,7 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. Containerna
 | [!UICONTROL Session container name] | [!UICONTROL Session] (standaard). De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
 | [!UICONTROL Event container name] | [!UICONTROL Event] (standaard). De [!UICONTROL Event] de container bepaalt individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
-### Kalender
+### Kalender {#calendar}
 
 Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegevensweergave. U kunt meerdere gegevensweergaven hebben op basis van hetzelfde [Verbinding](/help/connections/create-connection.md) en geef deze verschillende kalendertypen of tijdzones. Deze gegevensmeningen kunnen teams toestaan die verschillende kalendertypes gebruiken om hun respectieve behoeften met de zelfde onderliggende gegevens aan te passen.
 
@@ -58,7 +58,7 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 | [!UICONTROL First day of current year] | Zichtbaar voor aangepaste kalendertypen. Geef op welke dag van het jaar het huidige jaar moet beginnen. Op basis van deze waarde wordt de eerste dag van elke week automatisch opgemaakt in de kalender. |
 | [!UICONTROL Year in which the "extra" week occurs] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij een extra week vormen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
 
-## De componenten van een gegevensweergave instellen
+## De componenten van een gegevensweergave instellen {#set-components}
 
 Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U kunt ook Standaardcomponenten gebruiken.
 
@@ -89,13 +89,13 @@ Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U ku
    * [[!UICONTROL Persistence]](component-settings/persistence.md)
    * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
 
-## Maten of afmetingen dupliceren
+## Maten of afmetingen dupliceren {#duplicate}
 
 Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer [!UICONTROL Duplicate] het plaatsen onder de metrische metrische naam of dimensies bij het hoogste recht. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
 
 ![Dupliceren](assets/duplicate.png)
 
-## Filterschemavelden of -gegevenssets
+## Filterschemavelden of -gegevenssets {#filter}
 
 U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtreren:
 
@@ -105,20 +105,18 @@ U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens be
 
 ![Andere filters](assets/filter-other.png)
 
-## Het tabblad Instellingen
+## Het tabblad Instellingen {#settings-tab}
 
 1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
 1. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
 1. Klik op de knop **[!UICONTROL Settings]** tab.
 
-### Globaal, filter
+### Globaal, filter {#global-filter}
 
 U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u uitvoert in Workspace. Sleep een filter van de lijst in de linkerspoorstaaf aan [!UICONTROL Add filters] veld.
 
-### Sessieinstellingen
+### Sessieinstellingen {#sessions}
 
-Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen.
-
-Een tijdsperiode is vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat.
+Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Een tijdsperiode is vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat.
 
 Als alle gewenste instellingen zijn opgegeven, klikt u op **[!UICONTROL Save and finish]**.
