@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
+source-git-commit: a1bb56c5a7e6d3bb6b59e2cf3448409d85ec2efa
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt snelle filters binnen een project maken om de complexiteit van de volledige [Filter Builder](/help/components/filters/create-filters.md). Snelle filters
 
-* Toepassen als [projectgebonden segmenten](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html).
+* Toepassen als [alleen-projectfilters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en#project-only).
 * Maximaal 3 regels toestaan
 * Plaats geen geneste containers of opeenvolgende regels.
 
@@ -27,7 +27,7 @@ Hier is een video over snelle filters (merk op dat in plaats daarvan de term &qu
 
 ## Vereisten {#prereqs}
 
-Iedereen kan een Snel segment maken. U hebt echter de machtiging Segment maken nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) om een snel segment op te slaan of te openen in de Segment Builder.
+Iedereen kan een snel filter maken. U hebt echter de machtiging Filterontwerp nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) om een snel filter op te slaan of het in de Bouwer van de Filter te openen.
 
 ## Snelle filters maken {#create}
 
@@ -107,7 +107,7 @@ Nadat u het filter hebt toegepast, kunt u verkiezen om het aan uw lijst van de f
 
 Alleen-projectfilters zijn filters die alleen van toepassing zijn op het huidige project waarin ze zijn gemaakt. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers. Ze zijn bedoeld voor een snelle verkenning van uw gegevens zonder dat u een filter hoeft te maken en op te slaan in de linkerspoorstaaf. U kunt alleen-projectfilters maken in de neerzetzone van het deelvenster met behulp van snelle filters of [ad-hocfilters](/help/components/filters/ad-hoc-filters.md).
 
-Als u een alleen-projectfilter opent in het dialoogvenster [!UICONTROL Filter Builder], verschijnt een bericht dat alleen voor het project geldt. Als u &quot;Dit filter beschikbaar maken&quot; niet inschakelt. en klik op **[!UICONTROL APPLY]**, blijft het segment een project-slechts segment.
+Als u een alleen-projectfilter opent in het dialoogvenster [!UICONTROL Filter Builder], verschijnt een bericht dat alleen voor het project geldt. Als u &quot;Dit filter beschikbaar maken&quot; niet inschakelt. en klik op **[!UICONTROL APPLY]**, blijft het segment een project-slechts filter.
 
 >[!NOTE]
 >
