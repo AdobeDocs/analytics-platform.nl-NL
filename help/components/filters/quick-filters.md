@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ U kunt snelle filters binnen een project maken om de complexiteit van de volledi
 * Plaats geen geneste containers of opeenvolgende regels.
 
 Voor een vergelijking van wat snelle filters kunnen doen versus volledig-afgewerkte componenten-lijst filters, ga [hier](/help/components/filters/filters-overview.md).
+
+Hier is een video over snelle filters (merk op dat in plaats daarvan de term &quot;snelle segmenten&quot; wordt gebruikt.) De functionaliteit is echter hetzelfde.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Vereisten {#prereqs}
 

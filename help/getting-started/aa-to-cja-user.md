@@ -4,9 +4,9 @@ description: Wat vanuit het perspectief van de gebruiker te overwegen wanneer uw
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Gefeliciteerd, uw bedrijf begint werk te vinden Customer Journey Analytics! Als 
 
 Veel van wat u op de verslaggevende kant kent, is niet veranderd.
 
-* U kunt de kracht van [Analysis Workspace](/help/analysis-workspace/home.md) om uw gegevens te analyseren.
-* U hebt ook dezelfde versie van [Adobe Analytics-dashboards](/help/mobile-app/home.md) beschikbaar. Werkruimte en dashboards werken hetzelfde als in traditionele Adobe Analytics.
+* U kunt de kracht van [Analysis Workspace](/help/analysis-workspace/home.md) om uw gegevens te analyseren. De werkruimte werkt hetzelfde als in traditionele Adobe Analytics.
+* U hebt ook dezelfde versie van [Adobe Analytics-dashboards](/help/mobile-app/home.md) beschikbaar. Dashboards (ook bekend als Mobile App) werkt hetzelfde als in traditionele Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt nu op PCs, Macs, en de Webversie van Excel.
 
 Wat de rapportage betreft, is het verschil dat je toegang hebt tot veel meer kanaalgegevens om te analyseren. Hier is een voorbeeld van een aantal visualisaties die bronnen van dwars-kanaalgegevens omvatten:
@@ -78,10 +78,11 @@ De meningen van gegevens nemen het concept virtuele rapportsuites zoals zij vand
 
 **Wat u moet doen**:
 
-* Verken uzelf met de vele gebruiksgevallen rond gegevensweergaven.
 * U ziet dat in Workspace de rapportsuite-kiezer die u nu gebruikt, u de mogelijkheid biedt een keuze te maken uit de gegevensweergaven die uw beheerder met u heeft gedeeld:
 
    ![data-view-selector](assets/data-views.png)
+
+* U vertrouwd maken met de vele [gebruik gevallen rond gegevensweergaven](/help/data-views/data-views-usecases.md).
 
 ### Gegevens uit meerdere rapporten
 
