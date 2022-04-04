@@ -4,7 +4,7 @@ description: Wat vanuit het perspectief van de gebruiker te overwegen wanneer uw
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: fcd178add387cc79dabecace3fa1f84bd64c904f
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Bestaande implementaties van meerdere gegevenssets kunnen in Experience Platform
 
 ## Instellingen voor sessie en variabelerepersistentie
 
-[!UICONTROL Customer Journey Analytics] past al deze instellingen tijdens het rapport toe en deze instellingen bevinden zich nu in [gegevensweergaven](help/data-views/component-settings/persistence.md). De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken.
+[!UICONTROL Customer Journey Analytics] past al deze instellingen tijdens het rapport toe en deze instellingen bevinden zich nu in [gegevensweergaven](/help/data-views/component-settings/persistence.md). De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken.
 
 **Wat u moet doen**:
 
