@@ -5,9 +5,9 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,9 @@ Zodra Admin-gebruikers [één of meerdere verbindingen tot stand hebben gebracht
 
 * Het laat u **eventuele gegevensdiscrepanties vaststellen** vanwege verkeerde configuratie. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd gevormd en ontbrekende gegevens in CJA veroorzaakt?
 
->[!NOTE]
-> Deze functionaliteit is over het algemeen beschikbaar op 20 september 2021.
+Hier is een video over de nieuwe Manager van Verbindingen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
 ## Verbindingsbeheer {#connections-manager}
 

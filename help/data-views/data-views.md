@@ -4,7 +4,7 @@ description: In een gegevensweergave wordt aangegeven hoe u elementen van de geg
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -23,7 +23,7 @@ U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met zeer 
 
 Werkruimteprojecten in Customer Journey Analytics zijn gebaseerd op gegevensweergaven.
 
-## Mogelijkheden voor gegevensweergaven
+## Mogelijkheden voor gegevensweergaven {#capabilities}
 
 De meningen van gegevens laten u spontaan schemaelementmontages veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu opnieuw uitvoeren CJA.
 
@@ -52,12 +52,12 @@ De meningen van gegevens laten u spontaan schemaelementmontages veranderen, zond
 
 * U kunt **naam van containers wijzigen** in een gegevensmening en hebben die anders genoemde containeroppervlakte in om het even welk project van de Werkruimte dat op die gegevensmening gebaseerd is.
 
-## Voorwaarden voor gegevensweergaven
+## Voorwaarden voor gegevensweergaven {#prerequisites}
 
 * Voordat u gegevensweergaven kunt maken, moet u [opstelling één of meerdere verbindingen met de datasets van de Experience Platform](/help/connections/create-connection.md).
 * Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
 
-## De weergave-instellingen die u kunt overschrijven in de werkruimte
+## De weergave-instellingen die u kunt overschrijven in de werkruimte {#settings-override}
 
 Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysis Workspace op projectniveau, andere niet.
 
@@ -65,14 +65,14 @@ Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysi
 * Metrische kenmerk
 * Of gebruikers de [!UICONTROL No Value] lijstitem in een rapport
 
-## De instellingen van de gegevensweergave die u niet kunt overschrijven in de werkruimte
+## De instellingen van de gegevensweergave die u niet kunt overschrijven in de werkruimte {#settings-no-override}
 
 * [!UICONTROL Component type]
 * Metrische opmaak
 * Naam gegevensweergave
 * Dimension-toewijzing
 
-## Gegevensweergaven verwijderen
+## Gegevensweergaven verwijderen {#delete}
 
 Als u een gegevensweergave verwijdert in [!UICONTROL Customer Journey Analytics], geeft een foutbericht aan dat [!UICONTROL Workspace] projecten die afhankelijk zijn van deze verwijderde gegevensweergave, werken niet meer.
 

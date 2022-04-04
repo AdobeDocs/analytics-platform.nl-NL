@@ -4,9 +4,9 @@ description: Wat vanuit het perspectief van de gebruiker te overwegen wanneer uw
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 48cde188fffd810f7bb292923fb0137fb476dcd4
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Deze pagina is in opbouw.
 
-Gefeliciteerd, uw bedrijf begint werk te vinden Customer Journey Analytics! Als gebruiker die bekend is met Adobe Analytics, hebt u al een geweldige start. Als u met Customer Journey Analytics werkt, zult u merken dat er grote verschillen en enkele overeenkomsten zijn. Deze pagina is bedoeld om de dingen uit te leggen die niet zijn gewijzigd, en ook een aantal van de grote verschillen. Wij zullen u ook vertellen hoe u meer informatie over nieuwe concepten kunt krijgen, en verdere stappen om UW klantenreis gemakkelijker en succesvoller te maken.
+Uw bedrijf begint Customer Journey Analytics in dienst te nemen. Als gebruiker die bekend is met Adobe Analytics, hebt u al een geweldige start. Als u met Customer Journey Analytics werkt, zult u merken dat er grote verschillen en enkele overeenkomsten zijn. Deze pagina is bedoeld om de dingen uit te leggen die niet zijn gewijzigd, en ook een aantal van de grote verschillen. Wij zullen u ook vertellen hoe u meer informatie over nieuwe concepten kunt krijgen, en verdere stappen om UW klantenreis gemakkelijker en succesvoller te maken.
 
 ## Wat niet is gewijzigd
 
@@ -44,13 +44,25 @@ Uw CJA-beheerder heeft [verbindingen](/help/connections/create-connection.md) na
 
 Verschillende functies in CJA zijn in vergelijking met traditionele Adobe Analytics hernoemd en opnieuw ontworpen om aan de industrienormen te voldoen. Sommige bijgewerkte terminologie omvat segmenten, virtuele rapportsuites, classificaties, klantenattributen, en containernamen. Vertrouwde concepten zoals eVars en props bestaan niet meer, samen met de beperkingen die ze opleggen.
 
-## Geen eVars en props meer
+## (Virtueel) rapportsuites zijn nu &#39;gegevensweergaven&#39;
 
-[!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd.
+[!UICONTROL Data views] het concept van virtuele - rapportensuites zoals ze vandaag bestaan , uitbreiden tot [extra controles van de gegevens toelaten](/help/data-views/create-dataview.md) beschikbaar gesteld door verbindingen. Dit maakt timezone en zittingsonderbreking uit intervallen configureerbaar. U kunt kenmerken en vervalwaarden ook dynamisch toepassen op afzonderlijke dimensies. Deze worden met terugwerkende kracht toegepast op alle gegevens.
 
 **Wat u moet doen**:
 
-* Verken uzelf met de vele manieren die u kunt
+* U ziet dat in Workspace de rapportsuite-kiezer die u nu gebruikt, u de mogelijkheid biedt een keuze te maken uit de gegevensweergaven die uw beheerder met u heeft gedeeld:
+
+   ![data-view-selector](assets/data-views.png)
+
+* U vertrouwd maken met de vele [gebruik gevallen rond gegevensweergaven](/help/data-views/data-views-usecases.md).
+
+## Geen eVars en props meer
+
+[!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. Uw CJA-beheerder heeft gegevensweergaven gemaakt
+
+**Wat u moet doen**:
+
+* Verken uzelf met de vele manieren deze schemaelementen kunnen worden gebruikt om neer in uw gegevens te boor.
 
 ## Segmenten zijn nu &#39;filters&#39;
 
@@ -72,17 +84,6 @@ Voorlopig kunt u niet delen/publiceren [!UICONTROL filters] ([!UICONTROL segment
 * Als u berekende maateenheden van Adobe Analytics wilt verplaatsen naar Customer Journey Analytics, kunt u de weergave [deze video](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en).
 * Anders maakt u de berekende metriek opnieuw in Customer Journey Analytics.
 
-## Virtuele rapportsuites zijn nu &#39;gegevensweergaven&#39;
-
-De meningen van gegevens nemen het concept virtuele rapportsuites zoals zij vandaag bestaan en breiden het tot uit [extra controles van de gegevens toelaten](/help/data-views/create-dataview.md) beschikbaar gesteld door verbindingen. Dit maakt timezone en zittingsonderbreking uit intervallen configureerbaar. U kunt kenmerken en vervalwaarden ook dynamisch toepassen op afzonderlijke dimensies. Deze worden met terugwerkende kracht toegepast op alle gegevens.
-
-**Wat u moet doen**:
-
-* U ziet dat in Workspace de rapportsuite-kiezer die u nu gebruikt, u de mogelijkheid biedt een keuze te maken uit de gegevensweergaven die uw beheerder met u heeft gedeeld:
-
-   ![data-view-selector](assets/data-views.png)
-
-* U vertrouwd maken met de vele [gebruik gevallen rond gegevensweergaven](/help/data-views/data-views-usecases.md).
 
 ## Gegevens uit meerdere rapporten
 
@@ -96,8 +97,9 @@ Bestaande implementaties van meerdere gegevenssets kunnen in Experience Platform
 
 **Wat u moet doen**:
 
-
 ## Classificaties zijn nu &#39;Gegevensbestanden opzoeken&#39;
+
+
 
 ## Klantkenmerken zijn nu &#39;Profielgegevenssets&#39;
 
