@@ -4,9 +4,9 @@ description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige dat
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 16ebf5672099b0cd0c5e4dafd577f175370fa9b5
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
 * Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt het aanwijzen van campagnes die op één apparaat landen tot omschakeling elders?
-* Hoe verandert mijn inzicht in de doeltreffendheid van campagnes als ik rekening houd met cross-device reizen? Hoe verandert mijn trechter-analyse?
+* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik rekening houd met apparatuurreizen? Hoe verandert mijn trechter-analyse?
 * Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
 * Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
 
@@ -43,6 +43,8 @@ Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisati
 >[!IMPORTANT]
 >
 >Houd er rekening mee dat elke wijziging in het algemene schema van de gebeurtenisdataset ook moet worden toegepast in het nieuwe, naastgelegen schema van de dataset. Als dit niet het geval is, wordt de naastgelegen dataset verbroken.
+>
+>Ook, als u de brondataset verwijdert, stopt de gestikte dataset verwerking en wordt verwijderd door het systeem.
 
 De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkingen op hoe het kan worden gebruikt.
 
@@ -56,6 +58,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
 * De Analyse van de Kanaal houdt spoor van elke blijvende waarde van identiteitskaart gedurende 1 jaar (TTL = 1 jaar). Als een apparaat langer dan een jaar geen activiteit heeft en dan opnieuw activiteit begint te hebben, zullen de nieuwe gebeurtenissen met een anonieme persoon worden geassocieerd tot de gebruiker (zoals via nieuwe login) wordt herkend.
+* Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt CCA ophoudt stitching gegevens voor dat apparaat.
 
 
 ## Kanaaloverschrijdende analyse inschakelen
