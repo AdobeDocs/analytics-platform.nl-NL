@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Naarmate uw organisatie evolueert naar het gebruik van Customer Journey Analytic
 
 Het voorbereiden van uw Adobe Analytics-gegevens voor een naadloze overgang naar Customer Journey Analytics is van essentieel belang voor de gegevensintegriteit en de consistentie van rapporten.
 
-### 1. Identiteiten verzamelen
+### 1. Identiteiten verzamelen {#identities}
 
 Misschien de meest kritieke component van het begrip van een klantenreis is het weten van wie de klant bij elke stap is. Voor Customer Journey Analytics, staat het hebben van een herkenningsteken dat over al uw kanalen en de overeenkomstige gegevens bestaat voor het verbinden van veelvoudige bronnen binnen CJA toe.
 Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn. Ongeacht de identiteit (en er kunnen meerdere zijn), moet u rekening houden met het volgende voor elke id:
@@ -32,7 +32,7 @@ Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn
 
 In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegevens bestaan, maar een secundaire identiteit. In dit geval, kan de Analytics van het Kanaal (vroeger genoemd &quot;Op gebied-gebaseerde Stitching&quot;) worden gebruikt om de hiaat tussen rijen te overbruggen wanneer een klant slechts door hun ECID wordt geïdentificeerd en wanneer een identiteit wordt verzameld (bijvoorbeeld, wanneer een klant voor authentiek verklaart). [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
-### 2. Variabelen uitlijnen
+### 2. Variabelen uitlijnen {#variables}
 
 De eenvoudigste manier om Adobe Analytics-gegevens om te zetten in Customer Journey Analytics-gegevens is om een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) in Experience Platform met de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
 
@@ -44,7 +44,7 @@ Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor e
 
 Als u niet naar een algemene rapportsuite bent gegaan vanwege problemen met [!UICONTROL Uniques Exceeded] of [!UICONTROL Low Traffic], weet dat CJA geen [kardinaliteitsbeperkingen voor een dimensie](/help/components/dimensions/high-cardinality.md). Hiermee kan elke unieke waarde worden weergegeven en geteld.
 
-### 3. (Opnieuw)Uw marketingkanalen configureren
+### 3. (Opnieuw)Uw marketingkanalen configureren {#marketing-channels}
 
 De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetzelfde uit in CJA. Dit is om twee redenen:
 
@@ -54,7 +54,7 @@ De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetze
 
 Adobe heeft gepubliceerd [bijgewerkte best practices voor implementatie van marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en). Met deze bijgewerkte aanbevelingen kunt u optimaal gebruikmaken van de mogelijkheden die Adobe Analytics al met Attribution IQ heeft. Ze zullen u ook instellen voor succes bij het overschakelen naar Customer Journey Analytics.
 
-### 4. Beslissen over het gebruik van de gegevensbronaansluiting versus Experience Platform-SDK&#39;s
+### 4. Beslissen over het gebruik van de gegevensbronaansluiting versus Experience Platform-SDK&#39;s {#connector-vs-sdk}
 
 Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
 
@@ -78,7 +78,7 @@ De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
 ## Voorbereiden op kritieke verschillen
 
-### Geniet van gemak met de verwerking van de rapporttijd
+### Geniet van gemak met de verwerking van de rapporttijd {#report-time}
 
 De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid gegevens die vooraf wordt verwerkt om resultaten te genereren zoals de persistentie die u in [!UICONTROL eVars]. Customer Journey Analytics voert deze berekeningen daarentegen uit tijdens de uitvoering van het rapport.
 
@@ -86,7 +86,7 @@ De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid
 
 Deze verschuiving resulteert in enkele verschillen in de manier waarop gegevens worden gerapporteerd, met name voor variabelen die een lang verloopvenster kunnen hebben. U kunt beginnen door te evalueren hoe de rapport-tijd verwerking uw rapportering kan beïnvloeden gebruikend [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
-### Identificeer kritieke Segmenten en Berekende Metriek
+### Identificeer kritieke Segmenten en Berekende Metriek {#segments-calcmetrics}
 
 Adobe Analytics-segmenten (opgeroepen [!UICONTROL filters] in CJA) en berekende meetwaarden zijn niet compatibel met Customer Journey Analytics. In veel gevallen, kunnen deze componenten in CJA worden herbouwd gebruikend de nieuwe schema&#39;s en beschikbare gegevens.
 

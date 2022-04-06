@@ -5,20 +5,18 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 171b174624dbb48873024368884992766dcd0922
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # CJA-gebruikershandleiding voor Adobe Analytics-gebruikers
 
->[!NOTE]
->
->Deze pagina is in opbouw.
+Uw bedrijf begint Customer Journey Analytics in dienst te nemen. Als gebruiker die bekend is met Adobe Analytics, hebt u al een geweldige start. Wanneer u met Customer Journey Analytics werkt, zult u enige gelijkenissen en enkele grote verschillen zien. Deze pagina is bedoeld om de dingen uit te leggen die niet zijn gewijzigd, en ook een aantal van de grote verschillen. Wij zullen u ook vertellen hoe u meer informatie over nieuwe concepten kunt krijgen, en verdere stappen om UW klantenreis gemakkelijker en succesvoller te maken.
 
-Uw bedrijf begint Customer Journey Analytics in dienst te nemen. Als gebruiker die bekend is met Adobe Analytics, hebt u al een geweldige start. Als u met Customer Journey Analytics werkt, zult u merken dat er grote verschillen en enkele overeenkomsten zijn. Deze pagina is bedoeld om de dingen uit te leggen die niet zijn gewijzigd, en ook een aantal van de grote verschillen. Wij zullen u ook vertellen hoe u meer informatie over nieuwe concepten kunt krijgen, en verdere stappen om UW klantenreis gemakkelijker en succesvoller te maken.
+Verschillende functies in CJA zijn in vergelijking met traditionele Adobe Analytics hernoemd en opnieuw ontworpen om aan de industrienormen te voldoen. Sommige bijgewerkte terminologie omvat segmenten, virtuele rapportsuites, classificaties, klantenattributen, en containernamen. Vertrouwde concepten zoals eVars en props bestaan niet meer, samen met de beperkingen die ze opleggen.
 
 ## Wat niet is gewijzigd
 
@@ -40,9 +38,9 @@ De gegevens van de klant in het platform worden opgeslagen als datasets, die uit
 
 Uw CJA-beheerder heeft [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Platform. Ze hebben toen gebouwd [gegevensweergaven](/help/data-views/data-views.md) binnen die verbindingen. Beschouw gegevensweergaven als vergelijkbaar met virtuele rapportsuites. Gegevensweergaven vormen de basis voor rapportage in Customer Journey Analytics. Het concept van een rapportsuite bestaat niet meer.
 
-## Nieuwe concepten en terminologie
+## Rapportsuites
 
-Verschillende functies in CJA zijn in vergelijking met traditionele Adobe Analytics hernoemd en opnieuw ontworpen om aan de industrienormen te voldoen. Sommige bijgewerkte terminologie omvat segmenten, virtuele rapportsuites, classificaties, klantenattributen, en containernamen. Vertrouwde concepten zoals eVars en props bestaan niet meer, samen met de beperkingen die ze opleggen.
+Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector of de Web SDK in Experience Platform worden gebracht, vooral als uw organisatie nog steeds op het Adobe Analytics-platform werkt en CJA/AEP toevoegt. U zult typisch datasets die rapport-reeks specifiek gebruikend het schema van Analytics zijn.
 
 ## (Virtueel) rapportsuites zijn nu &#39;gegevensweergaven&#39;
 
