@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 171b174624dbb48873024368884992766dcd0922
+source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Wat de rapportage betreft, **wat is anders** is dat u toegang hebt tot veel meer
 
 ![meerkanaalse visualisaties](assets/cross-channel.png)
 
-## Nieuwe architectuur
+## Nieuwe architectuur {#architecture}
 
 Customer Journey Analytics krijgt zijn gegevens van Adobe Experience Platform. Met Experience Platform kunt u klantgegevens en inhoud van elk systeem of kanaal centraliseren en standaardiseren. Bovendien kunt u door middel van het leren van gegevens en computers het ontwerp en de levering van persoonlijke ervaringen verbeteren.
 
@@ -38,11 +38,11 @@ De gegevens van de klant in het platform worden opgeslagen als datasets, die uit
 
 Uw CJA-beheerder heeft [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Platform. Ze hebben toen gebouwd [gegevensweergaven](/help/data-views/data-views.md) binnen die verbindingen. Beschouw gegevensweergaven als vergelijkbaar met virtuele rapportsuites. Gegevensweergaven vormen de basis voor rapportage in Customer Journey Analytics. Het concept van een rapportsuite bestaat niet meer.
 
-## Rapportsuites
+## Rapportsuites {#report-suites}
 
 Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector of de Web SDK in Experience Platform worden gebracht, vooral als uw organisatie nog steeds op het Adobe Analytics-platform werkt en CJA/AEP toevoegt. U zult typisch datasets die rapport-reeks specifiek gebruikend het schema van Analytics zijn.
 
-## (Virtueel) rapportsuites zijn nu &#39;gegevensweergaven&#39;
+## (Virtueel) rapportsuites zijn nu &#39;gegevensweergaven&#39; {#data-views}
 
 [!UICONTROL Data views] het concept van virtuele - rapportensuites zoals ze vandaag bestaan , uitbreiden tot [extra controles van de gegevens toelaten](/help/data-views/create-dataview.md) beschikbaar gesteld door verbindingen. Dit maakt timezone en zittingsonderbreking uit intervallen configureerbaar. U kunt kenmerken en vervalwaarden ook dynamisch toepassen op afzonderlijke dimensies. Deze worden met terugwerkende kracht toegepast op alle gegevens.
 
@@ -54,7 +54,7 @@ Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector o
 
 * U vertrouwd maken met de vele [gebruik gevallen rond gegevensweergaven](/help/data-views/data-views-usecases.md).
 
-## Geen eVars en props meer
+## Vars en props
 
 [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. Uw CJA-beheerder heeft gegevensweergaven gemaakt
 
