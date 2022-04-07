@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '782'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analy
 
 Deze workflow maakt gebruik van de Adobe Analytics Data Connector en is afhankelijk van het feit of u DTM of Launch gebruikt als tagbeheer.
 
-### Via tags in Adobe Experience Platform (voorheen Launch genoemd)
+### Via tags in Adobe Experience Platform (voorheen genoemd) [!UICONTROL Launch])
 
 1. [Een gegevenslaag maken](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html), als je dat nog niet hebt gedaan. Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
 1. Gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Met deze oplossing voor tagbeheer kunt u de analytische code naast andere vereisten voor codering implementeren. De markeringen bieden integratie met andere oplossingen en producten aan, en laten u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.

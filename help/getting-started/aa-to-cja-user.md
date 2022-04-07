@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,21 @@ De gegevens van de klant in het platform worden opgeslagen als datasets, die uit
 
 Uw CJA-beheerder heeft [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Platform. Ze hebben toen gebouwd [gegevensweergaven](/help/data-views/data-views.md) binnen die verbindingen. Beschouw gegevensweergaven als vergelijkbaar met virtuele rapportsuites. Gegevensweergaven vormen de basis voor rapportage in Customer Journey Analytics. Het concept van een rapportsuite bestaat niet meer.
 
+## Verbindingen
+
+Een verbinding laat uw Analysebeheerder datasets van integreren [!DNL Adobe Experience Platform] in [!UICONTROL Workspace]. Om verslag uit te brengen over [!DNL Experience Platform] datasets, moet u eerst een verband tussen datasets in vestigen [!DNL Experience Platform] en [!UICONTROL Workspace].
+
+Hier volgt een video-overzicht:
+
+>[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+
 ## Rapportsuites {#report-suites}
 
-Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector of de Web SDK in Experience Platform worden gebracht, vooral als uw organisatie nog steeds op het Adobe Analytics-platform werkt en CJA/AEP toevoegt. U zult typisch datasets die rapport-reeks specifiek gebruikend het schema van Analytics zijn.
+Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector of de Web SDK in Experience Platform worden gebracht, als uw organisatie zich nog steeds op het Adobe Analytics-platform bevindt en CJA/AEP toevoegt. U zult typisch datasets die rapport-reeks specifiek gebruikend het schema van Analytics zijn.
+
+Verslagen vormen echter niet langer de basis voor rapportage in CJA - [gegevensweergaven](/help/data-views/data-views.md) zijn. Zie de onderstaande sectie voor meer informatie over gegevensweergaven.
+
+Bestaande implementaties van meerdere gegevenssets kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze gegevensreeksen gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
 
 ## (Virtueel) rapportsuites zijn nu &#39;gegevensweergaven&#39; {#data-views}
 
@@ -56,7 +68,7 @@ Uw gegevens van de rapportsuite kunnen via de Adobe Analytics Source Connector o
 
 ## Vars en props
 
-[!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd. Uw CJA-beheerder heeft gegevensweergaven gemaakt
+[!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in de traditionele Adobe Analytics-zin niet meer bestaan in [!UICONTROL Customer Journey Analytics]. U hebt onbeperkte schema-elementen (afmetingen, metriek, lijstvelden). Zo worden alle attributie montages u gebruikte om tijdens het proces van de gegevensinzameling toe te passen nu toegepast bij vraagtijd.
 
 **Wat u moet doen**:
 
@@ -82,29 +94,30 @@ Voorlopig kunt u niet delen/publiceren [!UICONTROL filters] ([!UICONTROL segment
 * Als u berekende maateenheden van Adobe Analytics wilt verplaatsen naar Customer Journey Analytics, kunt u de weergave [deze video](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en).
 * Anders maakt u de berekende metriek opnieuw in Customer Journey Analytics.
 
-
-## Gegevens uit meerdere rapporten
-
-Bestaande implementaties van meerdere gegevenssets kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze gegevensreeksen gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
-
-**Wat u moet doen**:
-
 ## Instellingen voor sessie en variabelerepersistentie
 
 [!UICONTROL Customer Journey Analytics] past al deze instellingen tijdens het rapport toe en deze instellingen bevinden zich nu in [gegevensweergaven](/help/data-views/component-settings/persistence.md). De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken.
 
-**Wat u moet doen**:
-
 ## Classificaties zijn nu &#39;Gegevensbestanden opzoeken&#39;
 
-
+De datasets van de opzoekopdracht worden gebruikt om op waarden of sleutels te kijken die in uw gegevens van de Gebeurtenis of van het Profiel worden gevonden. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [dit geval gebruiken](/help/use-cases/b2b.md) bijvoorbeeld.
 
 ## Klantkenmerken zijn nu &#39;Profielgegevenssets&#39;
 
+De datasets van het profiel bevatten gegevens die op uw bezoekers, gebruikers, of klanten in worden toegepast [!UICONTROL Event] gegevens. Bijvoorbeeld, staat het u toe om de gegevens van CRM over uw klanten te uploaden. U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode, enzovoort.
+
+## Identiteiten
+
+CJA breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Gebruikend gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) de hulp verbindt mensen over verschillende datasets samen. Om het even welke gebruiker die opstelling een project van de Werkruimte in CJA moet IDs begrijpen over de datasets wordt gebruikt.
+
+Hier volgt een video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## De naam van containers is gewijzigd
 
 U geeft een container op voor [elke gegevensweergave die u maakt](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
+
 * **Handcontainers zijn nu &#39;Event&#39;-containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor bezoekers binnen de opgegeven tijdsperiode.
 * **Bezoek containers zijn nu &#39;Sessie&#39;-containers**. De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren.
 * **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor bezoekers binnen de opgegeven tijdsperiode.
@@ -112,7 +125,6 @@ U geeft een container op voor [elke gegevensweergave die u maakt](https://experi
 **Wat u moet doen**:
 
 U kunt de naam van elke container aanpassen aan de behoeften van uw organisatie.
-
 
 ## `Uniques Exceeded` beperkingen
 
