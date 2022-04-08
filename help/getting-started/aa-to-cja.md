@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
+source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,8 @@ Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 * Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u een vergelijkbare kalender [aangepaste kalendermogelijkheden](/help/components/date-ranges/custom-date-ranges.md) binnen CJA. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
 
 * In Customer Journey Analytics, kunt u een douanebezoek/zittingsonderbreking bepalen evenals metrisch bepalen die een nieuwe zitting zal beginnen. U kunt gegevensweergaven maken met verschillende sessiedefinities om meer inzicht te krijgen dan in Adobe Analytics mogelijk was. Dit vermogen kan bijzonder gunstig zijn voor mobiele datasets.
+
+* U kunt overwegen een gegevenswoordenboek voor uw gebruikers op te geven - of de SDR uit te breiden met de veldnaam van het Experience Platform voor schema-elementen.
 
 ## Volgende stappen
 
