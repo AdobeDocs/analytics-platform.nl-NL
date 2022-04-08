@@ -4,9 +4,9 @@ description: Hoe te om annotaties in Werkruimte tot stand te brengen.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
+source-git-commit: 97cbe0d376892a86d35f38956bc11f3d43bf754a
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 | **Klik met de rechtermuisknop op een punt in een [!UICONTROL Line] grafiek.** | De [!UICONTROL Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-line.png) |
 | **Ga in Workspace naar [!UICONTROL Components] > [!UICONTROL Create annotation].** | De [!UICONTROL Annotation builder] wordt geopend. |
 | **Deze hotkey gebruiken** om de aannemer van de Annotatie te openen: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Houd er rekening mee dat u met de sneltoets een annotatie maakt voor de huidige datum zonder dat er een bereik (afmetingen of metriek) is geselecteerd. |
+| **Gebruik de [CJA Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Met de API&#39;s voor CJA-annotaties kunt u via Adobe I/O annotaties maken, bijwerken of ophalen. Deze API&#39;s gebruiken dezelfde gegevens en methoden die Adobe gebruikt in de interface van het product. |
 
 1. Vul de [!UICONTROL Annotation builder] elementen.
 
