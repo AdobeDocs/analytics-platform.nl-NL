@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
+source-git-commit: 64ba233212fa6bfc1d63c122e1f8dcebe6735f39
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Zie [Gebruik hoofdletters en kleine letters in gegevensweergaven](/help/data-vie
 
 De begrippen [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in het traditionele Adobe Analytics bestaat niet meer in [!UICONTROL Customer Journey Analytics]. Onbeperkte schema-elementen zijn beschikbaar, zoals afmetingen, metriek en lijstvelden. Deze worden toegewezen aan onbeperkte schemaelementen met inbegrip van afmetingen, metriek en lijstgebieden in Experience Platform. Alle instellingen voor bezoeken en toeschrijvingen die zijn toegepast na de verwerkingsregels in Adobe Analytics, zijn nu van toepassing op het querytijdstip in Customer Journey Analytics.
 
+Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebied als zowel dimensies als metrisch kan worden gebruikt om verschillende het volgen behoeften te steunen.
+
 ## Wijzigingen van het begrip &quot;segmenten&quot;
 
 Adobe heeft de naam van de component &quot;segmenten&quot; gewijzigd in &quot;filters&quot; om deze beter af te stemmen op de industriestandaarden en een beter onderscheid te maken met segmenten in Adobe Experience Platform.
@@ -100,10 +102,10 @@ De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets va
 
 ## Wijzigingen in de manier waarop Adobe bezoekers identificeert
 
-CJA breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Gebruikend gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) de hulp verbindt mensen over verschillende datasets samen. Om het even welke gebruiker die opstelling een project van de Werkruimte in CJA moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt:
+CJA breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Gebruikend gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) de hulp verbindt mensen over verschillende datasets samen. Om het even welke gebruiker die opstelling een project van de Werkruimte in CJA moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in CJA wordt benadrukt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 
-In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. CJA heeft vele beperkingen aan velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensies rapporteren. Zie [Lange staart](../analysis-workspace/workspace-faq/long-tail.md) voor meer informatie over hoe CJA rapportage optimaliseert voor dimensies met vele unieke waarden.
+In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. CJA heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensies rapporteren. Zie [Lange staart](../analysis-workspace/workspace-faq/long-tail.md) voor meer informatie over hoe CJA rapportage optimaliseert voor dimensies met vele unieke waarden.
