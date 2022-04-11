@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
+source-git-commit: f1f6fa889bad331378218dc1cee3356828fd847f
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '714'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,9 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| April 2022 | Nieuw [CJA-gebruikershandleiding voor Adobe Analytics-gebruikers](/help/getting-started/aa-to-cja-user.md). |
+| Maart 2022 | Nieuw [Documentatie CJA Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
+| Maart 2022 | Nieuwe documentatie over [Annotaties in werkruimte](/help/components/annotations/overview.md). |
 | Maart 2022 | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](/help/getting-started/cja-faq.md). |
 | Februari 2022 | [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=en) |
 | Januari 2022 | Nieuwe gebruiksaanwijzing voor [Het gebruiken van bindende dimensies en metriek in CJA](/help/use-cases/binding-dimensions-metrics.md) |

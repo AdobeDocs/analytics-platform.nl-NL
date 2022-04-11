@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 64ba233212fa6bfc1d63c122e1f8dcebe6735f39
+source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U hebt veel meer toegang tot kanaalgegevens om te analyseren. Bijvoorbeeld, kunt
 
 CJA haalt haar gegevens op uit Adobe Experience Platform. Met Experience Platform kunt u klantgegevens en inhoud van elk systeem of kanaal centraliseren en standaardiseren. Bovendien kunt u door middel van het leren van gegevens en computers het ontwerp en de levering van persoonlijke ervaringen verbeteren.
 
-De gegevens van de klant in het Experience Platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
+De gegevens van de klant in het Experience Platform worden opgeslagen als datasets, die uit een [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=nl) en batches gegevens. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
 
 Uw CJA Admin vestigt [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Experience Platform. Vervolgens bouwen ze [gegevensweergaven](/help/data-views/data-views.md) die verbindingen gebruiken. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in CJA. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
 
@@ -58,7 +58,9 @@ Zie [Gebruik hoofdletters en kleine letters in gegevensweergaven](/help/data-vie
 
 ## Wijzigingen in het concept van eVars en props
 
-De begrippen [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in het traditionele Adobe Analytics bestaat niet meer in [!UICONTROL Customer Journey Analytics]. Onbeperkte schema-elementen zijn beschikbaar, zoals afmetingen, metriek en lijstvelden. Deze worden toegewezen aan onbeperkte schemaelementen met inbegrip van afmetingen, metriek en lijstgebieden in Experience Platform. Alle instellingen voor bezoeken en toeschrijvingen die zijn toegepast na de verwerkingsregels in Adobe Analytics, zijn nu van toepassing op het querytijdstip in Customer Journey Analytics.
+De begrippen [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in het traditionele Adobe Analytics bestaat niet meer in [!UICONTROL Customer Journey Analytics]. In Adobe Analytics worden in eVars en props beschrijvingen van inhoud, klanten, campagnes, enzovoort opgeslagen. en gebeurtenissen tellen dingen zoals opbrengst, abonnementen, of geproduceerde lood. Customer Journey Analytics behoudt beide typen gegevens en u kunt ze op dezelfde manier benaderen - vanaf de linkerspoorstaaf in Analysis Workspace, onder Dimension of Metrics.
+
+In CJA zijn onbeperkte schema-elementen beschikbaar, waaronder afmetingen, metriek en lijstvelden. Deze worden toegewezen aan onbeperkte schemaelementen met inbegrip van afmetingen, metriek en lijstgebieden in Experience Platform. Alle instellingen voor bezoeken en toeschrijvingen die zijn toegepast na de verwerkingsregels in Adobe Analytics, zijn nu van toepassing op het querytijdstip in Customer Journey Analytics.
 
 Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebied als zowel dimensies als metrisch kan worden gebruikt om verschillende het volgen behoeften te steunen.
 
