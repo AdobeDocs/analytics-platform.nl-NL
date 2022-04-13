@@ -4,9 +4,9 @@ description: Hiermee worden nuttige rapporten over de gegevens van Google Analyt
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Nu bekijken welke Web-pagina&#39;s de inkomende vraag bij het vraagcentrum leidd
 We doen dit door
 
 * Het gebruiken van berekende metrisch om de gegevens neer aan slechts zittingen te filtreren die met een vraag van het vraagcentrum beëindigden.
-* Het &quot;participatiemodel&quot; in CJA&#39;s gebruiken [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace).
+* Het &quot;participatiemodel&quot; in CJA&#39;s gebruiken [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace).
 
 U kunt gemakkelijk zien welke pagina&#39;s het vaakst aan een zitting deelnemen die in een vraag beëindigt. U kunt zien dat de pagina&#39;s &quot;Winkelwagentje&quot; en &quot;Afhandelingsinformatie&quot; de meeste vraag stelden. Aangezien u ook de gegevens van de mobiele app voor de firebase hebt opgenomen, kunt u zelfs paginafouten en toepassingscrashes zien die de aanroepen genereren. Dit is een heel belangrijk gegevenspunt als u geweldige ervaring met internet en mobiele apps wilt bieden.
 

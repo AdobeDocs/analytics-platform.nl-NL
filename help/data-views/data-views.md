@@ -4,9 +4,9 @@ description: In een gegevensweergave wordt aangegeven hoe u elementen van de geg
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ De meningen van gegevens laten u spontaan schemaelementmontages veranderen, zond
 ## Voorwaarden voor gegevensweergaven {#prerequisites}
 
 * Voordat u gegevensweergaven kunt maken, moet u [opstelling één of meerdere verbindingen met de datasets van de Experience Platform](/help/connections/create-connection.md).
-* Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
+* Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions).
 
 ## De weergave-instellingen die u kunt overschrijven in de werkruimte {#settings-override}
 

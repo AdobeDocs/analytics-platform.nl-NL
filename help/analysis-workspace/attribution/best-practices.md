@@ -3,9 +3,9 @@ title: Aanbevolen werkwijzen voor kenmerken
 description: Wat zijn de beste praktijken rond het beslissen over een attributiemodel?
 feature: Attribution
 exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Laten we zeggen dat je hypothese is: &quot;Mijn First-touch kanaal heeft meer in
 
 **Voorbeeld 2**
 
-Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. Vervolgens wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows) tot 90 dagen.
+Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. Vervolgens wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#lookback-windows) tot 90 dagen.
 
 ## Stap 3: Algoritmische toewijzing gebruiken
 

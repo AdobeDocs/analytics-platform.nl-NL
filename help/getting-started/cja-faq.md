@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 3c353d668bbf1f0d276edfa0d3491969a1a9dfeb
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2058'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 | --- | --- |
 | Moet ik [!UICONTROL Private Device Graph] of [!UICONTROL Device Coop] for [!UICONTROL Customer Journey Analytics]? | Nee, [!UICONTROL Private Device Graph] of [!UICONTROL Device Coop] niet vereist zijn voor [!UICONTROL Customer Journey Analytics]. Ze worden zelfs nog niet ondersteund. |
 | Moet ik [!UICONTROL Experience Cloud ID] (ECID) voor [!UICONTROL Customer Journey Analytics]? | Nee, [!UICONTROL Customer Journey Analytics] steunt om het even welke identiteitskaart in een dataset, of dat is [!UICONTROL ECID] of een andere id die u kiest. |
-| Wat moet ik doen als ik mijn gegevens moet extraheren, transformeren, laden? [!UICONTROL Customer Journey Analytics]? | Customer Journey Analytics omvat [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html) mogelijkheden om u te helpen uw gegevens om te zetten voordat u deze in het gegevenspMeer van Adobe Experience Platform plaatst. Als u ETL nodig hebt nadat de gegevens al zijn ingevoerd, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=en#queries) bevat een aantal beperkte opties, hoewel er wellicht extra kosten mee gemoeid zijn. |
+| Wat moet ik doen als ik mijn gegevens moet extraheren, transformeren, laden? [!UICONTROL Customer Journey Analytics]? | Customer Journey Analytics omvat [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html) mogelijkheden om u te helpen uw gegevens om te zetten voordat u deze in het gegevenspMeer van Adobe Experience Platform plaatst. Als u ETL nodig hebt nadat de gegevens al zijn ingevoerd, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html#queries) bevat een aantal beperkte opties, hoewel er wellicht extra kosten mee gemoeid zijn. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -31,8 +31,8 @@ ht-degree: 1%
 | --- | --- |
 | Kan [!UICONTROL Customer Journey Analytics] &quot;aansluiten&quot; op verschillende apparaten of op verschillende gegevenssets? | Ja. [!UICONTROL Customer Journey Analytics] heeft een verstikkende oplossing die [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) (CCA). Het laat u de persoonsidentiteitskaart van een dataset re-key, die een naadloze combinatie veelvoudige datasets toelaat. |
 | Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund? | Ja. [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) kijkt naar gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. |
-| Hoe werkt &#39;replay&#39; in CCA? | CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. Bij opnieuw afspelen worden nieuwe apparaten aan de verbinding vastgezet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=en#step-1%3A-live-stitching) |
-| Hoe werkt het stitching van historische gegevens (backfill) in CCA? | Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#enable-cross-channel-analytics) |
+| Hoe werkt &#39;replay&#39; in CCA? | CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. Bij opnieuw afspelen worden nieuwe apparaten aan de verbinding vastgezet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
+| Hoe werkt het stitching van historische gegevens (backfill) in CCA? | Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -85,7 +85,7 @@ Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zan
 
 ## 7. Overwegingen bij het samenvoegen van rapportsuites in CJA {#merge-reportsuite}
 
-Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)Houd rekening met deze vertakkingen bij het samenvoegen van twee of meer Adobe Analytics-rapportreeksen.
+Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Houd rekening met deze vertakkingen bij het samenvoegen van twee of meer Adobe Analytics-rapportreeksen.
 
 | Probleem | Overwegingen |
 | --- | --- |
@@ -130,9 +130,9 @@ Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Cus
 
 1. U kunt deze situatie op verschillende manieren verhelpen:
 
-   * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#set-rolling-window-for-connection-data-retention).
-   * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
-   * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention).
+   * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
+   * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * Neem contact op met de accountmanager van de Adobe om een licentie voor extra capaciteit te verkrijgen.
 
 ## 10 Over gebruiksoverschrijdingen {#overage}
@@ -151,4 +151,4 @@ In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die do
 
 1. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding werd gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
 
-Meer informatie over de [implicaties van gegevensset en het schrappen van verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
+Meer informatie over de [implicaties van gegevensset en het schrappen van verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].

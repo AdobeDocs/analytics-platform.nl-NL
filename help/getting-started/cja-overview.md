@@ -4,10 +4,10 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegeve
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 0%
+source-wordcount: '1257'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ De eerste release van Customer Journey Analytics bevat veel van de functies die 
 
 ## CJA vergelijken met apparaatanalyse
 
-[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) integreert met [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en), waarbij de coopgrafiek of de privégrafiek wordt gebruikt om te bepalen hoe digitale apparaten aan personen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
+[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) integreert met [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl), waarbij de coopgrafiek of de privégrafiek wordt gebruikt om te bepalen hoe digitale apparaten aan personen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
 
 CJA daarentegen integreert met Adobe Experience Platform-gegevenssets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen. Die datasets kunnen verder gaan dan digitale gegevens om zowel online als offline aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
 
@@ -72,7 +72,7 @@ Om verbindingen tot stand te brengen, voeg datasets toe, enz., hebt u de volgend
    * Identiteitsnaamruimten weergeven
    * Gegevensbestanden weergeven
 
-Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en).
+Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
 
 >[!NOTE]
 >
@@ -98,14 +98,14 @@ Verschillende functies in CJA hebben in vergelijking met traditionele Adobe Anal
 
 Customer Journey Analytics is één van de mogelijkheden van velen die op de Adobe Experience Platform vertrouwen. Met verschillende andere mogelijkheden, die ook op Experience Platform zijn gebaseerd, kunt u optimaal profiteren van uw gegevens.
 
-Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
+Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 Van de Ingestie van Gegevens aan directe SQL toegang, zijn verscheidene componenten van het Experience Platform centraal aan Customer Journey Analytics en handelen samen met het:
 
-* [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en): Gebruik standaard SQL om gegevens van Adobe Experience Platform terug te winnen, zoals de oplossingsgegevens van de Adobe, klant 1st-party gegevens, of een andere Platform gegevens. Het is een server-zonder hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in rapportering, de Werkruimte van de Wetenschap van Gegevens, of voor opname in de Dienst van het Profiel te vangen. U kunt de Dienst van de Vraag gebruiken om gegevensanalysecosystemen te bouwen, die tot een beeld van consumenten over hun diverse interactiekanalen leiden. Deze kanalen zouden de systemen van het Punt-van-verkoop, Web, Mobiel, CRM, enz. kunnen omvatten.
-* [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en):
-* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
-* [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) in de optie &quot;developer&quot;: u kunt prebuilt artificiële intelligentie (AI) en machine-leert modellen in Adobe Experience Platform gebruiken om diverse punten van de klantenreis te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
+* [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaard SQL om gegevens van Adobe Experience Platform terug te winnen, zoals de oplossingsgegevens van de Adobe, klant 1st-party gegevens, of een andere Platform gegevens. Het is een server-zonder hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in rapportering, de Werkruimte van de Wetenschap van Gegevens, of voor opname in de Dienst van het Profiel te vangen. U kunt de Dienst van de Vraag gebruiken om gegevensanalysecosystemen te bouwen, die tot een beeld van consumenten over hun diverse interactiekanalen leiden. Deze kanalen zouden de systemen van het Punt-van-verkoop, Web, Mobiel, CRM, enz. kunnen omvatten.
+* [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html):
+* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html):
+* [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html) in de optie &quot;developer&quot;: u kunt prebuilt artificiële intelligentie (AI) en machine-leert modellen in Adobe Experience Platform gebruiken om diverse punten van de klantenreis te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
 
 ## Video&#39;s
 

@@ -3,9 +3,9 @@ title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2939'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in he
 
 ## Uniques Exceeded
 
-Net als Count() en RowCount(), is Approximate Count Distinct() onderworpen aan [Grenswaarden voor &quot;overschrijding uniques&quot;](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
+Net als Count() en RowCount(), is Approximate Count Distinct() onderworpen aan [Grenswaarden voor &quot;overschrijding uniques&quot;](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
 ## Telfuncties vergelijken
 

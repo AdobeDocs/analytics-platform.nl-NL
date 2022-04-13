@@ -4,9 +4,9 @@ title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ U kunt
 | ... Meer | Laat u [!UICONTROL View Tutorials], en [Gebruikersvoorkeuren bewerken](/help/analysis-workspace/user-preferences.md). |
 | **[!UICONTROL Create new]** modal is back | Wanneer u op **[!UICONTROL Create new]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. |
 | [!UICONTROL Show less/more] | Hiermee schakelt u tussen het niet weergeven en weergeven van de banner: ![Bovenste banner](assets/top-banner.png) |
-| [!UICONTROL Blank project] | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) zodat u kunt vullen. |
-| [!UICONTROL Blank mobile scorecard] | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) zodat u kunt vullen. |
+| [!UICONTROL Blank project] | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) zodat u kunt vullen. |
+| [!UICONTROL Blank mobile scorecard] | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) zodat u kunt vullen. |
 | [!UICONTROL Open Training Tutorial] | Hiermee opent u de zelfstudie Workspace-training die nieuwe gebruikers stapsgewijs begeleidt bij het ontwikkelen van een project. |
 | [!UICONTROL Open release notes] | Hiermee opent u de nieuwste Adobe Experience Cloud-releaseopmerkingen. |
 | Filterpictogram | U kunt filteren op tags, rapportsuites, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
@@ -53,7 +53,7 @@ U kunt
 | [!UICONTROL Name] | De naam van het project. |
 | Info (i), pictogram | Als u op het pictogram Info klikt, wordt de volgende informatie over dit project weergegeven: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het geeft ook aan wie kan [bewerken of dupliceren](/help/analysis-workspace/curate-share/share-projects.md) dit project. |
 | Ovaal (...) | Wanneer u op de ellips naast een project klikt, worden de projectbeheeracties weergegeven die u kunt uitvoeren: Verwijderen, labelen, Vastzetten, Goedkeuren, Delen, Naam wijzigen, Kopiëren en Exporteren naar CSV. Mogelijk hebt u geen machtigingen om al deze handelingen uit te voeren. |
-| [!UICONTROL Type] | Geeft aan of dit type een Workspace-project of een Mobile-scorecard is. |
+| [!UICONTROL Type] | Wijst erop of dit type een project van de Werkruimte of een Mobiele scorecard is. |
 | [!UICONTROL Tags] | U kunt rapporten labelen om deze in groepen te ordenen. |
 | [!UICONTROL Project Role] | De rollen van het project verwijzen naar of u de projecteigenaar bent, en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
 | [!UICONTROL Data View] | Tabellen en visualisaties in een deelvenster leiden gegevens af van de gegevensweergave die rechtsboven in het deelvenster is geselecteerd. In de gegevensweergave wordt ook bepaald welke componenten beschikbaar zijn in de linkertrack. Binnen een project, kunt u één of vele gegevensmeningen gebruiken, afhankelijk van uw gevallen van het analysegebruik. De lijst met gegevensweergaven wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de gegevensweergave is gebruikt door de huidige gebruiker en hoe vaak de gegevensweergave wordt gebruikt binnen de organisatie. |

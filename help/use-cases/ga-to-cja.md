@@ -4,9 +4,9 @@ description: 'Verklaart hoe te hefboomwerking Customer Journey Analytics (CJA) o
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voor het uitvoeren van deze taken hebt u de volgende toegang en machtigingen nod
 
 * Toegang tot Adobe Experience Platform
 * Toegang tot Universal Google Analytics (versie Google Analytics 360) of Google Analytics 4 (versie met gratis versie of versie Google Analytics 360)
-* Toegang tot Customer Journey Analytics en [Beheerdersmachtigingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
+* Toegang tot Customer Journey Analytics en [Beheerdersmachtigingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions).
 
 Hoe u gegevens van Google Analytics in Adobe Experience Platform brengt hangt van welke versie van Google Analytics af u gebruikt:
 
@@ -97,7 +97,7 @@ Bekijk deze video voor instructies:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk schema XDM u kiest. Nadat u het schema hebt geselecteerd, wordt automatisch leren toegepast op het Experience Platform om automatisch elk van de velden in de Google Analytics-gegevens vooraf toe te wijzen aan uw [XDM-schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui).
+U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een nieuwe dataset tot stand brengen, gebruikend welk schema XDM u kiest. Nadat u het schema hebt geselecteerd, wordt automatisch leren toegepast op het Experience Platform om automatisch elk van de velden in de Google Analytics-gegevens vooraf toe te wijzen aan uw [XDM-schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui).
 
 ![](assets/schema-map.png)
 
@@ -141,7 +141,7 @@ Nadat u deze aangepaste variabelen hebt gedefinieerd, kunnen we een trigger inst
 
 In dit voorbeeld is de trigger &quot;Account Creation&quot; gedefinieerd, waarbij de `pageUrl equals account-creation`. Door enige informatie aan deze trigger toe te voegen, kunt u ervoor zorgen dat gegevens naar zowel Google Analytics als AEP worden verzonden wanneer de gebruiker met succes verifieert en de pagina voor het maken van een account wordt geladen.
 
-U kunt ook verwijzen naar [Gegevensverwerking en Google-tagbeheer](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9).
+U kunt ook verwijzen naar [Gegevensverwerking en Google-tagbeheer](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html#module9).
 
 Bekijk deze video voor instructies:
 
@@ -153,6 +153,6 @@ Als de Adobe Experience Platform de live Google Analytics-gegevens heeft ontvang
 
 ## Volgende stappen
 
-* Een [gegevensweergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews) op basis van de verbinding die Google Analytics-gegevens bevat.
+* Een [gegevensweergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#cja-dataviews) op basis van de verbinding die Google Analytics-gegevens bevat.
 
 * Wat verbazingwekkend [analyse in Workspace](/help/use-cases/ga-to-cja-reporting.md).

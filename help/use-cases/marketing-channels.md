@@ -4,9 +4,9 @@ description: Gebruik de Verbinding van Gegevens van Analytics om de verwerkingsr
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysi
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en).
+>Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html).
 
 De montages van het de verkoopkanaal werken verschillend tussen de gegevens van het Platform en rapportsuite gegevens. Houd rekening met de volgende verschillen bij het instellen van marketingkanalen voor CJA:
 

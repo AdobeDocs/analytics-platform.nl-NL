@@ -4,9 +4,9 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Aangezien uw organisatie CJA goedkeurt, kunt u sommige verschillen in gegevens tussen Adobe Analytics en CJA opmerken. Dit is normaal en kan om verschillende redenen voorkomen. CJA is ontworpen om u toe te staan om op enkele beperkingen op uw gegevens in AA te verbeteren. Onverwachte/onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team CJA kunnen gebruiken onbelemmerd door zorgen over gegevensintegriteit.
 
-Laten we aannemen dat u Adobe Analytics-gegevens via de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en)en maakte vervolgens een CJA-verbinding met deze dataset.
+Laten we aannemen dat u Adobe Analytics-gegevens via de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)en maakte vervolgens een CJA-verbinding met deze dataset.
 
 ![gegevensstroom](assets/compare.png)
 
@@ -31,7 +31,7 @@ Hier volgen enkele stappen om uw oorspronkelijke Adobe Analytics-gegevens te ver
 
 ## Stap 1: Metrische voorvallen uitvoeren in Adobe Analytics
 
-De [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en) metrisch toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd.
+De [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) metrisch toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd.
 
 1. In Analytics > [!UICONTROL Workspace]Sleep het datumbereik waarover u wilt rapporteren als een dimensie naar een [!UICONTROL Freeform] tabel.
 
@@ -63,7 +63,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en)identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn verwijderd door de connector voor Analytische bron.
+1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn verwijderd door de connector voor Analytische bron.
 
    De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) kan rijen tijdens de transformatie naar XDM-schema neerzetten. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als om het even welke volgende gebieden van Analytics deze waarden hebben, zal de volledige rij worden gelaten vallen.
 

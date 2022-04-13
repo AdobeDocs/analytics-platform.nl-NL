@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Report Builder for Customer Journey Analytics is beschikbaar voor Excel op de vo
 
 >[!NOTE]
 >
->Deze documentatie is voor Report Builder voor Customer Journey Analytics. Voor informatie over Report Builder voor Analytics op Vensters, zie [Report Builder voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en).
+>Deze documentatie is voor Report Builder voor Customer Journey Analytics. Voor informatie over Report Builder voor Analytics op Vensters, zie [Report Builder voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html).
 
 U kunt Report Builder voor Customer Journey Analytics downloaden vanaf
 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).

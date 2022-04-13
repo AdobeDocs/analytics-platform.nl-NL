@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U hebt veel meer toegang tot kanaalgegevens om te analyseren. Bijvoorbeeld, kunt
 
 CJA haalt haar gegevens op uit Adobe Experience Platform. Met Experience Platform kunt u klantgegevens en inhoud van elk systeem of kanaal centraliseren en standaardiseren. Bovendien kunt u door middel van het leren van gegevens en computers het ontwerp en de levering van persoonlijke ervaringen verbeteren.
 
-De gegevens van de klant in het Experience Platform worden opgeslagen als datasets, die uit een [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=nl) en batches gegevens. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
+De gegevens van de klant in het Experience Platform worden opgeslagen als datasets, die uit een [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) en batches gegevens. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 Uw CJA Admin vestigt [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Experience Platform. Vervolgens bouwen ze [gegevensweergaven](/help/data-views/data-views.md) die verbindingen gebruiken. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in CJA. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
 

@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers 
 
 U kunt een numerieke dimensie gebruiken om &#39;metriek&#39; in uw [!UICONTROL  Flow] visualisatie.
 
-1. In de gegevensweergaven [Componenten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) tabblad, sleept u de [!UICONTROL Marketing Channels] schemaveld in [!UICONTROL Metrics] areaal [!UICONTROL Included components].
+1. In de gegevensweergaven [Componenten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) tabblad, sleept u de [!UICONTROL Marketing Channels] schemaveld in [!UICONTROL Metrics] areaal [!UICONTROL Included components].
 2. In Workspace-rapportage wordt deze stroom weergegeven [!UICONTROL Marketing Channels] stromen naar [!UICONTROL Orders]:
 
 ![](assets/flow.png)
@@ -59,7 +59,7 @@ Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionali
 
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in gegevensweergaven om alleen te verwijzen naar producten die een omzet van meer dan 50 dollar hebben gegenereerd. Dus als u een bestelling hebt die een product van 50 dollar en een product van 25 dollar bevat, verwijderen we alleen de aankoop van het product van 25 dollar, niet de volledige bestelling.
 
-1. In de gegevensweergaven [Componenten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) tabblad, sleept u de [!UICONTROL Revenue] schemaveld in [!UICONTROL Metrics] areaal [!UICONTROL Included components].
+1. In de gegevensweergaven [Componenten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) tabblad, sleept u de [!UICONTROL Revenue] schemaveld in [!UICONTROL Metrics] areaal [!UICONTROL Included components].
 1. Selecteer metrisch en vorm het volgende op de rechterkant: a. Onder [!UICONTROL Format], selecteert u [!UICONTROL Currency].
 b. Onder [!UICONTROL Currency]selecteert u USD.
 c. Onder [!UICONTROL Include/Exclude Values]schakelt u het selectievakje naast [!UICONTROL Set include/exclude values].
@@ -71,7 +71,7 @@ Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijke
 
 ## 5. De opdracht [!UICONTROL No Value Options] instellen
 
-Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt nu [naam van &quot;Geen waarde&quot; wijzigen in &quot;Niet opgegeven&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) in de interface voor gegevensweergaven.
+Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt nu [naam van &quot;Geen waarde&quot; wijzigen in &quot;Niet opgegeven&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-no-value-options-settings) in de interface voor gegevensweergaven.
 
 Een ander voorbeeld zou een dimensie voor een registratie van het lidmaatschapsprogramma zijn. In dit geval kunt u de naam &quot;Geen waarde&quot; wijzigen in &quot;Registratie van geen lidmaatschapsprogramma&quot;.
 

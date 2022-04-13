@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a1bb56c5a7e6d3bb6b59e2cf3448409d85ec2efa
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt snelle filters binnen een project maken om de complexiteit van de volledige [Filter Builder](/help/components/filters/create-filters.md). Snelle filters
 
-* Toepassen als [alleen-projectfilters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en#project-only).
+* Toepassen als [alleen-projectfilters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only).
 * Maximaal 3 regels toestaan
 * Plaats geen geneste containers of opeenvolgende regels.
 
@@ -27,7 +27,7 @@ Hier is een video over snelle filters (merk op dat in plaats daarvan de term &qu
 
 ## Vereisten {#prereqs}
 
-Iedereen kan een snel filter maken. U hebt echter de machtiging Filterontwerp nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) om een snel filter op te slaan of het in de Bouwer van de Filter te openen.
+Iedereen kan een snel filter maken. U hebt echter de machtiging Filterontwerp nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) om een snel filter op te slaan of het in de Bouwer van de Filter te openen.
 
 ## Snelle filters maken {#create}
 
@@ -39,7 +39,7 @@ Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van he
 | --- | --- |
 | [!UICONTROL Name] | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijkere naam. |
 | [!UICONTROL Include/exclude] | U kunt componenten in uw filterdefinitie opnemen of uitsluiten, maar niet beide. |
-| [!UICONTROL Hit/Visit/Visitor] container | Snelle filters omvatten één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) alleen dat u een dimensie/metrisch/datumbereik in het filter kunt opnemen (of dit kunt uitsluiten). [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. A [!UICONTROL Visit] Met de container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken te splitsen, en een [!UICONTROL Hit] Met de container kunt u bezoekersinformatie onderverdelen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
+| [!UICONTROL Hit/Visit/Visitor] container | Snelle filters omvatten één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers) alleen dat u een dimensie/metrisch/datumbereik in het filter kunt opnemen (of dit kunt uitsluiten). [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. A [!UICONTROL Visit] Met de container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken te splitsen, en een [!UICONTROL Hit] Met de container kunt u bezoekersinformatie onderverdelen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
 | [!UICONTROL Components] (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen, metriek, datumbereiken of afmetingswaarden) toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin met typen en [!UICONTROL Quick Filter] de bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
 | [!UICONTROL Operator] | Gebruik het vervolgkeuzemenu om standaardoperatoren te zoeken en [!UICONTROL Distinct Count] operatoren. Zie [Filteroperatoren](operators.md). |
 | plusteken (+) | Een andere regel toevoegen |

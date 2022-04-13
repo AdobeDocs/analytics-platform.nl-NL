@@ -5,9 +5,9 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1685'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,9 @@ Met de Connections Manager kunt u:
 | Verbindingsinfo | Klik op het pictogram Info naast de naam van de verbinding om de volgende informatie weer te geven:![Verbindingsgegevens weergeven](assets/conn-info.png) |
 | Een verbinding bewerken | Klik op het ovaal (...) naast de naam van de verbinding en klik vervolgens op [!UICONTROL Edit].![Verbinding bewerken](assets/conn-edit-delete.png) Zie &quot;Verbinding bewerken&quot; hieronder voor meer informatie. |
 | Een verbinding verwijderen | Klik op het ovaal (...) naast de naam van de verbinding en klik vervolgens op [!UICONTROL Delete]. Meer informatie vindt u onder de kop Verbindingen verwijderen hieronder. |
-| Gegevensweergave maken | Klik op het ovaal (...) naast de naam van de verbinding en klik vervolgens op [!UICONTROL Create data view]. Met deze actie maakt u een nieuwe gegevensweergave op basis van deze verbinding. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| Gegevensweergave maken | Klik op het ovaal (...) naast de naam van de verbinding en klik vervolgens op [!UICONTROL Create data view]. Met deze actie maakt u een nieuwe gegevensweergave op basis van deze verbinding. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | [!UICONTROL Datasets] | De datasets die deel van de verbinding uitmaken. U kunt op de hyperlink klikken om alle datasets in de verbinding weer te geven. Als u op een gegevensset klikt, wordt die gegevensset in Adobe Experience Platform geopend op een nieuw tabblad. |
-| [!UICONTROL Sandbox] | De [Adobe Experience Platform-sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) waarvan deze verbinding zijn datasets trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
+| [!UICONTROL Sandbox] | De [Adobe Experience Platform-sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) waarvan deze verbinding zijn datasets trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
 | [!UICONTROL Owner] | De persoon die de verbinding heeft gemaakt. |
 | [!UICONTROL Import Data Sets] | Hiermee kunt u in- of uitschakelen wat voorheen &#39;gegevensstreaming&#39; werd genoemd. |
 | [!UICONTROL Date Created] | De datum waarop de verbinding voor het eerst is gemaakt. |
@@ -108,7 +108,7 @@ Hier worden de widgets en instellingen beschreven:
 | [!UICONTROL Dataset ID] | Deze id wordt automatisch gegenereerd door Adobe Experience Platform. |
 | [!UICONTROL Batches] | Geeft aan hoeveel gegevensbatches aan deze gegevensset zijn toegevoegd. |
 | [!UICONTROL Last added] | Toont timestamp voor de laatste toegevoegde partij aan deze dataset. |
-| [!UICONTROL Dataset type] | Het gegevenstype van de dataset voor deze dataset kan zijn [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| [!UICONTROL Dataset type] | Het gegevenstype van de dataset voor deze dataset kan zijn [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | Schema | Het Adobe Experience Platform-schema waarop de gegevenssets in deze verbinding zijn gebaseerd. |
 
 ### Instellingen voor rechtse spoorstaven op verbindingsniveau
@@ -117,10 +117,10 @@ Hier worden de widgets en instellingen beschreven:
 | --- | --- |
 | [!UICONTROL Refresh] | Vernieuw de verbinding zodat onlangs toegevoegde verslagen worden weerspiegeld. |
 | [!UICONTROL Delete] | Verwijder deze verbinding. |
-| [!UICONTROL Create data view] | Maak een nieuwe gegevensweergave op basis van deze verbinding. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL Create data view] | Maak een nieuwe gegevensweergave op basis van deze verbinding. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | [!UICONTROL Connection name] | Toont de vriendschappelijke naam van de verbinding. |
 | [!UICONTROL Connection description] | Toont een meer gedetailleerde beschrijving die ideaal het doel van deze verbinding beschrijft. |
-| [!UICONTROL Sandbox] | De [Adobe Experience Platform-sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) waarvan deze verbinding zijn dataset(s) trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
+| [!UICONTROL Sandbox] | De [Adobe Experience Platform-sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) waarvan deze verbinding zijn dataset(s) trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
 | [!UICONTROL Connection ID] | Deze id is een systeem dat is gegenereerd in Adobe Experience Platform. |
 | [!UICONTROL Data views using connection] | Hier worden alle gegevensweergaven weergegeven die deze verbinding gebruiken. |
 | [!UICONTROL Import new data] | (Aan/Uit) Geeft aan of nieuwe batches gegevens al dan niet moeten worden toegevoegd aan de historische gegevens (backfill). |
@@ -134,13 +134,13 @@ Hier worden de widgets en instellingen beschreven:
 | Instelling | Beschrijving |
 | --- | --- |
 | [!UICONTROL Person ID] | Toont een identiteit die in het datasetschema in het Experience Platform werd bepaald. Dit is de persoon-id die u hebt gekozen tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde identiteitskaart van de Persoon over datasets gebruiken. |
-| [!UICONTROL Records available] | Vertegenwoordigt het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. (De uitzondering is dat wanneer u een gloednieuwe verbinding maakt, er [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#3.-getting-data-into-customer-trip-analytics). |
+| [!UICONTROL Records available] | Vertegenwoordigt het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. (De uitzondering is dat wanneer u een gloednieuwe verbinding maakt, er [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-trip-analytics). |
 | [!UICONTROL Records added] | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **Opmerking**: Gegevens voor **[!UICONTROL Records added]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Records deleted] | Geeft aan hoeveel records tijdens de geselecteerde tijdsperiode zijn verwijderd. **Opmerking**: Gegevens voor **[!UICONTROL Records deleted]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Batches added] | Geeft aan hoeveel gegevensbatches zijn toegevoegd aan deze gegevensset. |
 | [!UICONTROL Records skipped] | Hiermee geeft u aan hoeveel rijen zijn overgeslagen tijdens het invoeren in de geselecteerde tijdsperiode.<p>Redenen voor het overslaan van records zijn: Tijdstempels ontbreken, persoon-id ontbreekt of is ongeldig, enz. Om de 10 minuten bijgewerkt.<p>Ongeldige personen-id&#39;s (zoals &quot;undefined&quot; of &quot;00000000&quot; of een willekeurige combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) kan niet aan een specifieke gebruiker of persoon worden toegeschreven. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportage. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) om de niet-gedefinieerde of helemaal geen gebruikers-id&#39;s te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt tijdens de inname overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul><p>**Opmerking**: Gegevens voor **[!UICONTROL Records skipped]** bevat momenteel alleen gebeurtenisgegevens, geen profiel- of opzoekgegevens. |
 | [!UICONTROL Last added] | Geeft aan wanneer de laatste batch is toegevoegd. |
-| [!UICONTROL Dataset type] | Willekeurig [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| [!UICONTROL Dataset type] | Willekeurig [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL Schema] | Toont het schema van Adobe Experience Platform dat deze dataset op gebaseerd is. |
 | [!UICONTROL Dataset ID] | Deze id is een systeem dat is gegenereerd in Adobe Experience Platform. |
 
