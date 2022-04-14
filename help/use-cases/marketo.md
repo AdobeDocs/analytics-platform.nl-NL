@@ -1,27 +1,27 @@
 ---
-title: B2B-gegevens opnemen in AEP en rapporteren in CJA
-description: Leer hoe u Marketo-gegevens kunt overbrengen naar CJA
+title: Marketo Engage-gegevens in AEP opnemen en rapporteren in CJA
+description: Leer hoe u Marketo Engage-gegevens kunt overbrengen naar CJA
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e18de2563427941f8c227881b46f73c490be218d
+exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
+source-git-commit: ad8e3c18dbb73a064662a4543cb0e553cd52cec3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
+# Marketo Engage-gegevens in AEP opnemen en rapporteren in CJA
 
-# Voeg Marketo B2B-gegevens toe aan AEP en rapporteer deze in CJA
-
-U kunt de nieuwe Marketo B2B-datasets in Adobe Experience Platform (AEP) gebruiken om waardevolle analytische en rapporteringsoplossingen aan B2B-marketers te bieden. Dan rapport over deze datasets in Customer Journey Analytics (CJA.)
+U kunt de nieuwe beschikbare gegevenssets voor Marketo Engage in Adobe Experience Platform (AEP) gebruiken om waardevolle analytische en rapporteringsoplossingen aan B2B-marketers te bieden. Dan rapport over deze datasets in Customer Journey Analytics (CJA.)
 
 ## Stap 1: Marketo-brongegevensvelden toewijzen aan hun XDM-doelen
 
-Wijs de [Personen](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) en [Activiteiten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) op hun respectieve XDM schema doelgebieden.
+Wijs de [Personen](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) en [Activiteiten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) objecten naar hun respectieve XDM schema doelgebieden.
 
 ## Stap 2: Marketo-gegevens in AEP opnemen
 
-Gebruik de [Marketo Engage-aansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) om B2B-gegevens van Marketo naar Experience Platform te brengen en deze gegevens up-to-date te houden met toepassingen die zijn aangesloten op het Platform.
+Gebruik de [Marketo Engage-aansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) om gegevens van Marketo naar Experience Platform te brengen en deze gegevens bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 ## Stap 3: Een verbinding met deze gegevensset instellen in CJA
 
@@ -36,6 +36,7 @@ A [gegevensweergave](/help/data-views/data-views.md) is een container specifiek 
 Eén gebruiksgeval dat u zou kunnen verkennen, is: Hoeveel webpagina&#39;s hebben we in april-juni 2020 bezocht door leads?
 
 1. Openen [Analysewerkruimte](/help/analysis-workspace/home.md) en maak een nieuw project.
+Klanten met B2B/B2P CDP kunnen B2C-stijlanalyse in CJA uitvoeren. B2B-objecten zijn nog niet beschikbaar.
 
 1. Een [filter](/help/components/filters/create-filters.md) voor webpaginaweergaven als volgt - Gebeurtenistype = web.webpagedetails.pageViews:
 
