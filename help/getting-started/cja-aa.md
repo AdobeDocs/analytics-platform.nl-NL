@@ -4,7 +4,7 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 4%
@@ -23,6 +23,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Attribution IQ | Volledige ondersteuning |
 | Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
 | Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
+| Builder voor classificatieregels | Volledige ondersteuning. Geroepen [subtekenreeksen](/help/data-views/component-settings/substring.md) in CJA. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
 | Draaien tussen apparaten en kanalen | volledige ondersteuning; Zie [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md). |
 | CSV-download | Volledige ondersteuning |
 | Aangepaste kalenders | Volledige ondersteuning |
@@ -80,7 +81,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
-| Builder voor classificatieregels | Het zal lichtjes verschillend in CJA werken, gebruikend koordmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
 | Contributieanalyse | Er is steun gepland. |
 | Rapportage van Data Warehouse (100% rijexport) | Ondersteuning is gepland via de Analysis Workspace-interface. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) verstrekt ook een interface voor deze gebruiksgevallen in CJA. |
 | ID-instelling via apparaatgrafiek | Er is steun gepland. |
