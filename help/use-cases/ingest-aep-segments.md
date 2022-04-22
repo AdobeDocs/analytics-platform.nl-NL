@@ -3,15 +3,19 @@ title: AEP-publiek opnemen in Customer Journey Analytics
 description: Verklaart hoe te om AEP publiek in Customer Journey Analytics voor verdere analyse op te nemen.
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: cd1d639ad698c188c506881b2b17103b0a3559f2
+source-git-commit: ed01fd0899cac21fff156e0c31dc2b52ff7c8cca
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
 
 # AEP-publiek opnemen in Customer Journey Analytics (CJA)
+
+>[!NOTE]
+>
+>Dit onderwerp is in voorbereiding.
 
 (Brandon, fyi, &#39;Unified Profile&#39; is een verouderde term voor &#39;Real-time klantprofiel&#39; - volgens de documentmanager van AEP. U zult geen doc op UP vinden in de AEP doc set.)
 
@@ -61,7 +65,7 @@ Hier volgen de gegevenselementen die aanwezig moeten zijn:
 * `audienceMembershipIdList` tekenreeksveld: De gebruikers-id
 * Voeg een vriendelijke naam voor het publiek toe (`audienceMembershipIdName`), zoals
 
-   ![Vriendelijke publieksnaam](assets/audience-name)
+   ![Vriendelijke publieksnaam](assets/audience-name.png)
 
 ## Stap 5: Verbinding maken in CJA met deze profielgegevensset
 
