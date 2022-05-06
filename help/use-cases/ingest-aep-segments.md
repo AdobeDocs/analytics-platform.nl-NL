@@ -4,40 +4,42 @@ description: Verklaart hoe te om AEP publiek in Customer Journey Analytics voor 
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 535095dc82680882d1a53076ea0655b1333b576b
+source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # AEP-publiek opnemen in Customer Journey Analytics (CJA)
 
->[!NOTE]
->
->Dit onderwerp is in voorbereiding.
-
 Deze gebruikszaak verkent een tijdelijke, handmatige manier om Adobe Experience Platform (AEP)-publiek naar CJA te brengen. Dit publiek zou in de Bouwer van het Segment van AEP, of Adobe Audience Manager, of andere hulpmiddelen kunnen gecreeerd zijn, en opgeslagen in het Profiel van de Klant in real time (RTCP). Het publiek bestaat uit een set profiel-id&#39;s, samen met eventuele toepasselijke kenmerken/gebeurtenissen/enzovoort. en wij willen hen in de Werkruimte van CJA voor analyse brengen.
 
 ## Vereisten
 
-* Toegang tot Adobe Experience Platform (AEP), in het bijzonder Real-time Klantprofiel.  Ook toegang tot creeer/beheer de schema&#39;s en datasets van AEP.
-* Toegang tot AEP Query Service (en de mogelijkheid om SQL te schrijven) of een ander hulpmiddel om bepaalde lichte transformaties uit te voeren
-* Toegang tot Customer Journey Analytics (moet een CJA-productbeheerder zijn om CJA-verbindingen en gegevensweergaven te maken/wijzigen)
+* Toegang tot Adobe Experience Platform (AEP), in het bijzonder Real-time Klantprofiel.
+* Toegang tot AEP-schema&#39;s en gegevenssets maken/beheren.
+* Toegang tot AEP Query Service (en de mogelijkheid om SQL te schrijven) of een ander hulpmiddel om bepaalde lichte transformaties uit te voeren.
+* Toegang tot Customer Journey Analytics. U moet een CJA-productbeheerder zijn om CJA-verbindingen en gegevensweergaven te maken/wijzigen.
 * Mogelijkheid om de Adobe-API&#39;s te gebruiken (segmentatie, optioneel andere)
 
 ## Stap 1: Kies een of meer doelgroepen in het profiel voor realtime klanten {#audience}
 
-Adobe Experience Platform [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) laat u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren. U hebt waarschijnlijk al een publiek in RTCP dat uit diverse bronnen kan zijn gekomen. Kies een of meer soorten publiek om in CJA in te nemen.
+Adobe Experience Platform [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) laat u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren.
+
+U hebt waarschijnlijk al een publiek in RTCP dat uit diverse bronnen kan zijn gekomen. Kies een of meer soorten publiek om in CJA in te nemen.
 
 ## Stap 2: Een profielgegevensset voor Unie maken voor het exporteren
 
 Om het publiek naar een dataset uit te voeren die uiteindelijk aan een verbinding in CJA kan worden toegevoegd, moet u een dataset tot stand brengen het waarvan schema een Profiel is [Unieschema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+
 De schema&#39;s van de unie zijn samengesteld uit veelvoudige schema&#39;s die de zelfde klasse delen en voor Profiel toegelaten. Met het samenvoegingsschema kunt u een samenvoeging zien van alle velden in schema&#39;s die dezelfde klasse delen. Het Profiel van de Klant in real time gebruikt het verenigingsschema om een holistische mening van elke individuele klant tot stand te brengen.
 
 ## Stap 3: Een publiek naar de profielunie exporteren via een API-aanroep {#export}
 
-Alvorens u een publiek in CJA kunt brengen, moet u het naar een dataset van AEP uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en). U kunt een uitvoerbaan tot stand brengen gebruikend publiekidentiteitskaart van uw keus, en de resultaten in de dataset van de Vereniging van het Profiel zetten AEP u in Stap 2 creeerde.  Hoewel u verschillende kenmerken/gebeurtenissen voor het publiek kunt exporteren, hoeft u alleen het veld met de specifieke profiel-id te exporteren dat overeenkomt met het veld met de persoon-id dat wordt gebruikt in de CJA-verbinding waarop u wilt gaan tekenen (zie onder in Stap 5).
+Alvorens u een publiek in CJA kunt brengen, moet u het naar een dataset van AEP uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+
+U kunt een uitvoerbaan tot stand brengen gebruikend publiekidentiteitskaart van uw keus, en de resultaten in de dataset van de Vereniging van het Profiel zetten AEP u in Stap 2 creeerde. Hoewel u verschillende kenmerken/gebeurtenissen voor het publiek kunt exporteren, hoeft u alleen het veld met de specifieke profiel-id te exporteren dat overeenkomt met het veld met de persoon-id dat wordt gebruikt in de CJA-verbinding waarop u wilt gaan tekenen (zie onder in Stap 5).
 
 ## Stap 4: De exportuitvoer bewerken
 
@@ -67,13 +69,15 @@ Hier volgen de gegevenselementen die aanwezig moeten zijn:
 
 * Voeg desgewenst andere publieksmetagegevens toe.
 
-## Stap 5: Deze profielgegevensset toevoegen aan een bestaande verbinding in CJA (BG: u zou een nieuwe kunnen creëren, maar 99% van de tijd zullen de klanten het aan een bestaande verbinding willen toevoegen waar zij hun gegevens reeds hebben; het publiek noemt alleen de bestaande gegevens in CJA &quot;verrijken&quot;
+## Stap 5: Deze profielgegevensset toevoegen aan een bestaande verbinding in CJA
+
+U kunt een nieuwe verbinding maken, maar de meeste klanten willen deze toevoegen aan een bestaande verbinding. De gebruikers-id&#39;s verrijken de bestaande gegevens in CJA.
 
 [Verbinding maken](/help/connections/create-connection.md)
 
 ## Stap 6: Bestaande CJA-gegevensweergave wijzigen (of nieuwe CJA-gegevensweergave maken)
 
-Toevoegen `audienceMembershipId`, `audienceMembershipIdName` en `personID` naar de gegevensweergave.
+Toevoegen `audienceMembershipId`, `audienceMembershipIdName` en `personID` in de gegevensweergave.
 
 ## Stap 7: Rapport in werkruimte
 
