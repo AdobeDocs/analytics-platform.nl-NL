@@ -2,7 +2,7 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: 38b68d2f61b2db9dbc2cdf4853a8c32a1f8639e9
+source-git-commit: b907e62bfabd8cb42dc89d551d7b5285cb61298e
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Er zijn verschillende andere methoden voor het toepassen van filters op een proj
 
 | Handeling | Beschrijving |
 |--- |--- |
-| Filter van selectie maken | Maak een inlinefilter. Selecteer rijen, klik met de rechtermuisknop op de selectie en maak vervolgens een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
+| Filter van selectie maken | Maak een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter.<p> 1. Selecteer welke tabelrijen u wilt opnemen in het filter.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
 | Componenten > Nieuw filter | Geeft de Filter Builder weer. Zie [Filter Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over filteren. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Curven en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
 | Filters gebruiken als afmetingen | Video: Filters gebruiken als Dimension in Analysis Workspace |
