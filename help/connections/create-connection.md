@@ -1,157 +1,162 @@
 ---
-title: Verbinding maken
-description: Beschrijft hoe te om tot een verbinding aan een dataset van het Platform in Customer Journey Analytics te leiden.
+title: Create a connection
+description: Describes how to create a connection to a Platform dataset in Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 8dfebc4af72c57118bdad36b4374aa81efb05591
+source-git-commit: 5ca6c92f1d06cb5a388fa37f232ee0b870f14f33
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1903'
 ht-degree: 2%
 
 ---
 
-# Verbinding maken
+# Create a connection
 
-Een verbinding laat u datasets van integreren [!DNL Adobe Experience Platform] in [!UICONTROL Workspace]. Om verslag uit te brengen over [!DNL Experience Platform] datasets, moet u eerst een verband tussen datasets in vestigen [!DNL Experience Platform] en [!UICONTROL Workspace].
+[!DNL Adobe Experience Platform][!UICONTROL Workspace] [!DNL Experience Platform][!DNL Experience Platform][!UICONTROL Workspace]
 
-Hier volgt een video-overzicht:
+Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
 
-## Vereiste machtigingen
+## Required permissions
 
-Als u een CJA-verbinding wilt maken, hebt u de volgende machtigingen nodig in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+[](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)
 
 Adobe Experience Platform:
-* Gegevensmodellering: Schema&#39;s weergeven, schema&#39;s beheren
-* Gegevensbeheer: Datasets weergeven, Gegevens beheren
-* Gegevensinname: Bronnen beheren
+* Data Modeling: View Schemas, Manage Schemas
+* Data Management: View Datasets, Manage Datasets
+* Data Ingestion: Manage Sources
 
 Customer Journey Analytics
-* Toegang tot productbeheerder
+* Product Admin Access
 
 >[!IMPORTANT]
 >
->U kunt meerdere [!DNL Experience Platform] datasets in één enkele verbinding.
+>[!DNL Experience Platform]
 
-## Sandbox en datasets selecteren
+## Select sandbox and datasets
 
-1. Ga naar [https://analytics.adobe.com](https://analytics.adobe.com) en meld u aan met uw Adobe ID.
+1. [](https://analytics.adobe.com)
 
-1. Klik op de knop [!DNL Customer Journey Analytics] pictogram.
+1. [!DNL Customer Journey Analytics]
 
-1. Klik op de knop **[!UICONTROL Connections]** tab.
+1. **[!UICONTROL Connections]**
 
-1. Klikken **[!UICONTROL Create new connection]** rechtsboven.
+1. **[!UICONTROL Create new connection]**
 
-   ![Verbinding maken](assets/create-connection0.png)
+   ![](assets/create-connection0.png)
 
-1. Kies een sandbox in het Experience Platform die de gegevensset of gegevenssets bevat waarnaar u een verbinding wilt maken.
+1. Choose a sandbox in Experience Platform that contains the dataset/s to which you want to create a connection.
 
-   Adobe Experience Platform biedt [sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en ontwikkelen. U kunt sandboxen beschouwen als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om de toegang tot gegevenssets te beheren.  Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken.
-
-   >[!IMPORTANT]
-   >
-   >U hebt geen toegang tot gegevens in verschillende sandboxen. U kunt dus alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden.
-
-1. Selecteer een of meer gegevenssets die u wilt gebruiken [!UICONTROL Customer Journey Analytics] en klik op **[!UICONTROL Add]**.
-
-   (Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met de **[!UICONTROL Search datasets]** zoekbalk boven de lijst met gegevenssets.)
-
-## Gegevensset configureren
-
-Aan de rechterkant kunt u nu de gegevensset(s) configureren die u hebt toegevoegd.
-
-![Gegevensset configureren](assets/create-connection.png)
-
-1. **[!UICONTROL Dataset type]**: Voor elke dataset die u aan deze verbinding toevoegde, [!UICONTROL Customer Journey Analytics] plaatst automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
-
-   Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens, en [!UICONTROL Lookup] gegevens.
-
-   | Type gegevensset | Beschrijving | Tijdstempel | Schema | Persoon-id |
-   |---|---|---|---|---|
-   | [!UICONTROL Event] | Gegevens die gebeurtenissen in de tijd vertegenwoordigen (bv. webbezoeken, interacties, transacties, POS-gegevens, enquêtegegevens, gegevens van de indruk enz.). Dit kunnen bijvoorbeeld standaard klikstreamgegevens zijn, met een klant-id of een cookie-id en een tijdstempel. Bij Gebeurtenisgegevens hebt u enige flexibiliteit met betrekking tot de id die wordt gebruikt als de Person-id. | Wordt automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in [!UICONTROL Experience Platform]. | Om het even welk ingebouwd of douaneschema dat op een klasse XDM met het &quot;gedrag van de Reeks van de Tijd&quot;gebaseerd is. Voorbeelden zijn &quot;XDM Experience Event&quot; of &quot;XDM Decision Event&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Voor elk gegevenssetschema dat in het Experience Platform is gedefinieerd, kan een eigen set met een of meer identiteiten zijn gedefinieerd en gekoppeld aan een naamruimte Identiteit. Elk van deze kan worden gebruikt als de persoon-id. Voorbeelden zijn Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort. |
-   | [!UICONTROL Lookup] | Deze gegevens worden gebruikt om waarden of toetsen in uw gebeurtenis- of profielgegevens op te zoeken. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [dit geval gebruiken](/help/use-cases/b2b.md) bijvoorbeeld. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
-   | [!UICONTROL Profile] | Gegevens die worden toegepast op uw bezoekers, gebruikers of klanten in de [!UICONTROL Event] gegevens. Bijvoorbeeld, staat u toe om de gegevens van CRM over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode, enzovoort.<br>![Persoon-id ](assets/person-id.png)**Opmerking**: Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
-
-1. **[!UICONTROL Dataset ID]**: Deze id wordt automatisch gegenereerd.
-
-1. **[!UICONTROL Time stamp]**: Alleen voor gebeurtenisgegevenssets wordt deze instelling automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in [!UICONTROL Experience Platform].
-
-1. **[!UICONTROL Schema]**: Dit is het [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) op basis waarvan de gegevensset in Adobe Experience Platform is gemaakt.
-
-1. **[!UICONTROL Person ID]**: Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in het Experience Platform. Zie hieronder voor informatie over het gebruik van Identiteitskaart als Persoon identiteitskaart
+   [](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) You can think of sandboxes as &quot;data silos&quot; that contain data sets. Sandboxes are used to control access to data sets.  Once you have selected the sandbox, the left rail shows all the datasets in that sandbox that you can pull from.
 
    >[!IMPORTANT]
    >
-   >Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer persoon-id&#39;s niet zijn gedefinieerd in het schema. Weergave [deze video](https://youtu.be/G_ttmGl_LRU) over het definiëren van een identiteit in Experience Platform.
+   >You cannot access data across sandboxes, i.e., you can only combine datasets that are located within the same sandbox.
 
-1. Klikken **[!UICONTROL Next]** om naar de [!UICONTROL Enable Connection] .
+1. [!UICONTROL Customer Journey Analytics]**[!UICONTROL Add]**
 
-### Identiteitskaart gebruiken als identiteitskaart van de Persoon
+   **[!UICONTROL Search datasets]**
 
-Customer Journey Analytics ondersteunt nu de mogelijkheid om de identiteitskaart te gebruiken voor de bijbehorende persoon-id. Identiteitskaart is een structuur van kaartgegevens die iemand toestaat om sleutel -> waardeparen te uploaden. De sleutels zijn identiteitsnaamruimten en de waarde is een structuur die de identiteitswaarde bevat. De identiteitskaart bestaat op elke rij/gebeurtenis die wordt geüpload en wordt voor elke rij overeenkomstig gevuld.
+## Configure dataset
 
-De Kaart van de Identiteit is beschikbaar voor om het even welke dataset die een schema gebruikt dat op [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) klasse. Wanneer u een dergelijke dataset selecteert die in een Verbinding CJA moet worden omvat, hebt u de optie om of een gebied als primaire identiteitskaart of de Kaart van de Identiteit te selecteren:
+On the right-hand side, you can now configure the dataset/s you have added.
+
+![](assets/create-connection.png)
+
+1. **[!UICONTROL Dataset type]**[!UICONTROL Customer Journey Analytics]
+
+>[!IMPORTANT]
+>
+>    You need to add at least one event dataset as part of a connection.
+
+
+    [!UICONTROL Event][!UICONTROL Profile][!UICONTROL Lookup]
+    
+    
+    
+    [!UICONTROL Event] For example, this could be typical clickstream data, with a customer ID or a cookie ID, and a timestamp. With Event data, you have flexibility as to which ID is used as the Person ID. [!UICONTROL Experience Platform] | Any built-in or custom schema that is based on an XDM class with the &quot;Time Series&quot; behavior. Examples include &quot;XDM Experience Event&quot; or &quot;XDM Decision Event.&quot; | You can pick which Person ID you want to include. Each dataset schema defined in the Experience Platform can have its own set of one or more identities defined and associated with an Identity Namespace. Any of these can be used as the Person ID. Examples include Cookie ID, Stitched ID, User ID, Tracking Code, etc. 
+    [!UICONTROL Lookup] For example, you might upload lookup data that maps numeric IDs in your event data to product names. See [this use case](/help/use-cases/b2b.md) for an example. | N/A | Any built-in or custom schema that is based on an XDM class with the &quot;Record&quot; behavior, except for the &quot;XDM Individual Profile&quot; class. 
+    [!UICONTROL Profile][!UICONTROL Event] For example, allows you to upload CRM data about your customers. | N/A | Any built-in or custom schema that is based on the &quot;XDM Individual Profile&quot; class. | You can pick which Person ID you want to include.  [!DNL Experience Platform] &lt;br>![Person ID](assets/person-id.png)**Note**: If you create a connection that includes datasets with different IDs, the reporting will reflect that. 
+
+1. **[!UICONTROL Dataset ID]**
+
+1. **[!UICONTROL Time stamp]**[!UICONTROL Experience Platform]
+
+1. **[!UICONTROL Schema]**[](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
+
+1. **[!UICONTROL Person ID]** These identities were defined in the dataset schema in the Experience Platform. See below for information on how to use Identity Map as a Person ID.
+
+   >[!IMPORTANT]
+   >
+   >If there are no person IDs to choose from, that means one or more person IDs have not been defined in the schema. [](https://youtu.be/G_ttmGl_LRU)
+
+1. **[!UICONTROL Next]**[!UICONTROL Enable Connection]
+
+### Use Identity Map as a Person ID
+
+Customer Journey Analytics now supports the ability to use the Identity Map for its Person ID. Identity Map is a map data structure that allows someone to upload key -> value pairs. De sleutels zijn identiteitsnaamruimten en de waarde is een structuur die de identiteitswaarde bevat. The Identity Map exists on each row/event uploaded and is populated for each row accordingly.
+
+[](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) When you select such a dataset to be included in a CJA Connection, you have the option of selecting either a field as the primary ID or the Identity Map:
 
 ![](assets/idmap1.png)
 
-Als u Identiteitskaart selecteert, krijgt u twee extra configuratieopties:
+If you select Identity Map, you get two additional configuration options:
 
 | Optie | Beschrijving |
 |---|---|
-| [!UICONTROL Use Primary ID Namespace] | Dit instrueert CJA, per rij, om de identiteit in de Kaart van de Identiteit te vinden die met een primair=true attribuut duidelijk is en dat als Persoon identiteitskaart voor die rij te gebruiken. Dit betekent dat dit de primaire sleutel is die in Experience Platform voor het verdelen zal worden gebruikt. Het is ook de eerste kandidaat voor gebruik als bezoekersidentiteitskaart van CJA (afhankelijk van hoe de dataset in een Verbinding CJA wordt gevormd). |
-| [!UICONTROL Namespace] | (Deze optie is alleen beschikbaar als u de primaire-id-naamruimte niet gebruikt.) Identiteitsnaamruimten zijn een component van [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) die dienen als indicatoren van de context waarop een identiteit betrekking heeft. Als u een naamruimte opgeeft, zoekt CJA in elke rij naar Identiteitskaart voor deze naamruimtesleutel en gebruikt de identiteit onder die naamruimte als de persoon-id voor die rij. Merk op dat aangezien CJA geen volledige datasetaftasten van alle rijen kan doen om te bepalen welke namespaces eigenlijk aanwezig zijn, alle mogelijke namespaces zijn vermeld in dropdown. U moet weten welke naamruimten in de gegevens zijn opgegeven. dit kan niet automatisch worden gedetecteerd. |
+| [!UICONTROL Use Primary ID Namespace] | This instructs CJA, per row, to find the identity in the Identity Map that is marked with a primary=true attribute and use that as the Person ID for that row. This means that this is the primary key that will be used in Experience Platform for partitioning. It is also the prime candidate for usage as CJA&#39;s visitor ID (depending on how the dataset is configured in a CJA Connection). |
+| [!UICONTROL Namespace] | (This option is only available if you do not use the Primary ID Namespace.) [](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) If you specify a namespace, CJA will search each row&#39;s Identity Map for this namespace key and use the identity under that namespace as the person ID for that row. Note that since CJA cannot do a full dataset scan of all rows to determine which namespaces are actually present, all possible namespaces are listed in the dropdown. You need to know which namespaces are specified in the data; this cannot be auto-detected. |
 
-### Kwalen met de rand van Identity Map
+### Identity Map edge cases
 
-Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zijn en hoe zij worden behandeld:
+This table shows the two configuration options when edge cases are present and how they are handled:
 
-| Optie | Er zijn geen id&#39;s aanwezig op de identiteitskaart | Geen id&#39;s zijn gemarkeerd als primair | Meerdere id&#39;s zijn gemarkeerd als primaire id | Eén id is gemarkeerd als primaire id | Ongeldige naamruimte met een id gemarkeerd als primair |
+| Optie | No IDs are present in Identity Map | No IDs are marked as primary | Multiple IDs are marked as primary | Single ID is marked as primary | Invalid namespace with an ID marked as primary |
 |---|---|---|---|---|---|
-| **[!UICONTROL Use Primary ID Namespace]ingeschakeld** | De rij wordt neergezet door CJA. | De rij wordt neergezet door CJA, aangezien geen primaire identiteitskaart wordt gespecificeerd. | Alle id&#39;s die als primair zijn gemarkeerd, worden onder alle naamruimten geëxtraheerd naar een lijst. Vervolgens worden ze alfabetisch gesorteerd; met deze nieuwe sortering wordt de eerste naamruimte met de eerste id gebruikt als de Persoon-id. | De enige id die als primair is gemarkeerd, wordt gebruikt als de persoon-id. | Hoewel de naamruimte ongeldig kan zijn (niet aanwezig in AEP), gebruikt CJA de primaire id onder die naamruimte als de Person-id. |
-| **[!UICONTROL Specific Identity Map namespace]geselecteerd** | De rij wordt neergezet door CJA. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. (Alleen een geldige naamruimte kan tijdens het maken van de verbinding worden geselecteerd, zodat een ongeldige naamruimte/id niet kan worden gebruikt als Person-id.) |
+| **[!UICONTROL Use Primary ID Namespace]** | The row is dropped by CJA. | The row is dropped by CJA, as no primary ID is specified. | All IDs marked as primary, under all namespaces, are extracted into a list. They are then alphabetically sorted; with this new sorting, the first namespace with its first ID is used as the Person ID. | The single ID marked as primary is used as the Person ID. | Even though the namespace may be invalid (not present in AEP), CJA will use the primary ID under that namespace as the Person ID. |
+| **[!UICONTROL Specific Identity Map namespace]** | The row is dropped by CJA. | All IDs under the selected namespace are extracted into a list and the first is used as the Person ID. | All IDs under the selected namespace are extracted into a list and the first is used as the Person ID. | All IDs under the selected namespace are extracted into a list and the first is used as the Person ID. | All IDs under the selected namespace are extracted into a list and the first is used as the Person ID. (Only a valid namespace can be selected at Connection creation time, so it is not possible for an invalid namespace/ID to be used as Person ID) |
 
-## Verbinding inschakelen
+## Enable connection
 
-![Verbinding inschakelen](assets/create-connection2.png)
+![](assets/create-connection2.png)
 
-1. Om een verbinding toe te laten, bepaal deze montages voor de volledige verbinding, d.w.z. alle datasets in de verbinding:
+1. To enable a connection, define these settings for the entire connection, i.e. all the datasets in the connection:
 
    | Optie | Beschrijving |
    | --- | --- |
-   | [!UICONTROL Name Connection] | Geef de verbinding een beschrijvende naam. De verbinding kan niet zonder een naam worden opgeslagen. |
-   | [!UICONTROL Description] | Voeg meer details toe om deze verbinding van anderen te onderscheiden. |
-   | [!UICONTROL Datasets] | De datasets die in deze verbinding inbegrepen zijn. |
-   | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in stromen [!UICONTROL Workspace]. |
-   | [!UICONTROL Import all existing data] | Wanneer u deze optie selecteert en de verbinding opslaat, worden alle bestaande (historische) gegevens van [!DNL Experience Platform] voor alle datasets in dit verband zal worden ingevoerd of backfill. In de toekomst worden alle bestaande historische gegevens voor nieuwe gegevenssets die aan deze opgeslagen verbinding zijn toegevoegd, ook automatisch geïmporteerd. Zie ook [Back-up maken van historische gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) hieronder.<br>**Als deze verbinding eenmaal is opgeslagen, kan deze instelling niet worden gewijzigd.** |
-   | [!UICONTROL Average number of daily events] | U moet het gemiddelde aantal dagelijkse gebeurtenissen opgeven dat moet worden geïmporteerd (nieuwe gegevens **en** backfill gegevens) voor alle datasets in de verbinding. Selecteer een optie in het keuzemenu. Dit is zodat Adobe voldoende ruimte kan toewijzen aan deze gegevens.<br>Als u niet het gemiddelde aantal dagelijkse gebeurtenissen kent uw bedrijf gaat invoeren, kunt u een eenvoudige SQL vraag binnen doen [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) voor meer informatie.<br>Zie &quot;Het gemiddelde aantal dagelijkse gebeurtenissen berekenen&quot; hieronder. |
+   | [!UICONTROL Name Connection] | Give the connection a descriptive name. The connection cannot be saved without a name. |
+   | [!UICONTROL Description] | Add more detail to distinguish this connection from others. |
+   | [!UICONTROL Datasets] | The datasets that are included in this connection. |
+   | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | [!UICONTROL Workspace] |
+   | [!UICONTROL Import all existing data] | [!DNL Experience Platform] In the future, all existing historical data for any new dataset(s) added to this saved connection will also be automatically imported. [](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)<br>**** |
+   | [!UICONTROL Average number of daily events] | **** Select one option from the drop-down menu. This is so that Adobe can allocate sufficient space for this data.<br>[](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl)<br> |
 
-1. Klik op **[!UICONTROL Save and create data view]**. Zie voor documentatie [een gegevensweergave maken](/help/data-views/create-dataview.md).
+1. Klik op **[!UICONTROL Save and create data view]**. [](/help/data-views/create-dataview.md)
 
-### Back-up maken van historische gegevens
+### Backfill historical data
 
-**[!UICONTROL Import all existing data]** Hiermee kunt u historische gegevens terugvullen. Houd dit in gedachten:
+**[!UICONTROL Import all existing data]** Keep this in mind:
 
-* We hebben de beperking voor backfill (historische gegevensimport) verwijderd. Eerder, kon u een maximum van 2.5 miljard rijen op uw en anders vereiste technische betrokkenheid terugvullen. U kunt nu zonder beperkingen back-ups maken van gegevens.
-* Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze nieuwe gegevens de laagste latentie.
-* Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt, gecombineerd met de **[!UICONTROL Average number of daily events]** die u hebt geselecteerd. Als u bijvoorbeeld meer dan een miljard rijen gegevens per dag hebt, plus drie jaar historische gegevens, kan het meerdere weken duren om deze te importeren. Anderzijds, als u minder dan een miljoen rijen per dag en een week van historische gegevens hebt, zou dat minder dan een uur vergen.
-* De steun is op de volledige verbinding, niet op elke dataset individueel van toepassing.
-* De [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) invoer tot 13 maanden van gegevens, ongeacht de omvang ervan.
+* We have removed the backfill (historical data import) limitation. Previously, you could backfill a maximum of 2.5 billion rows on your own and otherwise required engineering involvement. Now, you can backfill data on your own, without any limitations.
+* We prioritize new data added to a dataset in the connection, so this new data has the lowest latency.
+* Any backfill (historical) data is imported at a slower rate. **[!UICONTROL Average number of daily events]** For example, if you have more than one billion rows of data per day, plus 3 years of historical data, that could take multiple weeks to import. On the other hand, if you have less than a million rows per day and one week of historical data, that would take less than an hour.
+* Backfilling applies to the whole connection, not to each dataset individually.
+* [](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)
 
-### Het gemiddelde aantal dagelijkse gebeurtenissen berekenen
+### Calculate the average number of daily events
 
-Deze berekening moet voor elke dataset in de verbinding worden uitgevoerd.
+This calculation has to be done for every dataset in the connection.
 
-1. Ga naar [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) en maak een nieuwe query.
+1. [](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
 
-   De query ziet er als volgt uit:
+   The query would look like this:
 
    ```
    Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;
    ```
 
-   In dit voorbeeld is &quot;analytics_demo_data&quot; de naam van de dataset.
+   In this example, &quot;analytics_demo_data&quot; is the name of the dataset.
 
-1. Voer het `Show Tables` vraag om alle datasets te tonen die in AEP bestaan.
+1. `Show Tables`
