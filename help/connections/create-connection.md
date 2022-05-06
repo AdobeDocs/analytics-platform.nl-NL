@@ -4,9 +4,9 @@ description: Describes how to create a connection to a Platform dataset in Custo
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 5ca6c92f1d06cb5a388fa37f232ee0b870f14f33
+source-git-commit: b17bdb20b120ec37a9f11425062bc7f8bcebd7e7
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1896'
 ht-degree: 2%
 
 ---
@@ -67,18 +67,18 @@ On the right-hand side, you can now configure the dataset/s you have added.
 
 1. **[!UICONTROL Dataset type]**[!UICONTROL Customer Journey Analytics]
 
->[!IMPORTANT]
->
->    You need to add at least one event dataset as part of a connection.
+   >[!IMPORTANT]
+   >
+   >You need to add at least one event dataset as part of a connection.
 
 
-    [!UICONTROL Event][!UICONTROL Profile][!UICONTROL Lookup]
-    
-    
-    
-    [!UICONTROL Event] For example, this could be typical clickstream data, with a customer ID or a cookie ID, and a timestamp. With Event data, you have flexibility as to which ID is used as the Person ID. [!UICONTROL Experience Platform] | Any built-in or custom schema that is based on an XDM class with the &quot;Time Series&quot; behavior. Examples include &quot;XDM Experience Event&quot; or &quot;XDM Decision Event.&quot; | You can pick which Person ID you want to include. Each dataset schema defined in the Experience Platform can have its own set of one or more identities defined and associated with an Identity Namespace. Any of these can be used as the Person ID. Examples include Cookie ID, Stitched ID, User ID, Tracking Code, etc. 
-    [!UICONTROL Lookup] For example, you might upload lookup data that maps numeric IDs in your event data to product names. See [this use case](/help/use-cases/b2b.md) for an example. | N/A | Any built-in or custom schema that is based on an XDM class with the &quot;Record&quot; behavior, except for the &quot;XDM Individual Profile&quot; class. 
-    [!UICONTROL Profile][!UICONTROL Event] For example, allows you to upload CRM data about your customers. | N/A | Any built-in or custom schema that is based on the &quot;XDM Individual Profile&quot; class. | You can pick which Person ID you want to include.  [!DNL Experience Platform] &lt;br>![Person ID](assets/person-id.png)**Note**: If you create a connection that includes datasets with different IDs, the reporting will reflect that. 
+   [!UICONTROL Event][!UICONTROL Profile][!UICONTROL Lookup]
+
+   | Dataset Type | Beschrijving | Timestamp | Schema | Person ID |
+   |---|---|---|---|---|
+   | [!UICONTROL Event] | Data that represents events in time (e.g., web visits, interactions, transactions, POS data, survey data, ad impression data, etc.). For example, this could be typical clickstream data, with a customer ID or a cookie ID, and a timestamp. With Event data, you have flexibility as to which ID is used as the Person ID. | [!UICONTROL Experience Platform] | Any built-in or custom schema that is based on an XDM class with the &quot;Time Series&quot; behavior. Examples include &quot;XDM Experience Event&quot; or &quot;XDM Decision Event.&quot; | You can pick which Person ID you want to include. Each dataset schema defined in the Experience Platform can have its own set of one or more identities defined and associated with an Identity Namespace. Any of these can be used as the Person ID. Examples include Cookie ID, Stitched ID, User ID, Tracking Code, etc. |
+   | [!UICONTROL Lookup] | This data is used to look up values or keys found in your Event or Profile data. For example, you might upload lookup data that maps numeric IDs in your event data to product names. [](/help/use-cases/b2b.md) | N.v.t. | Any built-in or custom schema that is based on an XDM class with the &quot;Record&quot; behavior, except for the &quot;XDM Individual Profile&quot; class. | N.v.t. |
+   | [!UICONTROL Profile] | [!UICONTROL Event] For example, allows you to upload CRM data about your customers. | N.v.t. | Any built-in or custom schema that is based on the &quot;XDM Individual Profile&quot; class. | You can pick which Person ID you want to include. [!DNL Experience Platform]<br>![](assets/person-id.png)**** To really merge datasets, you need use the same Person ID. |
 
 1. **[!UICONTROL Dataset ID]**
 
