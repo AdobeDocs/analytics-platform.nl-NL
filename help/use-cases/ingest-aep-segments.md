@@ -4,9 +4,9 @@ description: Verklaart hoe te om AEP publiek in Customer Journey Analytics voor 
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
+source-git-commit: 9c4869bb632f3d69d8704009744246b975cb5c4a
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ U kunt een uitvoerbaan tot stand brengen gebruikend publiekidentiteitskaart van 
 
 ## Stap 4: De exportuitvoer bewerken
 
-De resultaten van de exporttaak moeten worden omgezet in een afzonderlijke profielgegevensset om te worden opgenomen in CJA.  Deze transformatie kan worden uitgevoerd met AEP Query Service of een ander transformatiemiddel van uw keuze.  We hebben alleen de profiel-id (die overeenkomt met de persoon-id in CJA) en een of meer gebruikers-id(&#39;s) nodig om de rapportage in CJA uit te voeren. De standaard exporttaak bevat echter meer gegevens en daarom moeten we deze uitvoer bewerken om irrelevante gegevens te verwijderen en enkele zaken te verplaatsen.  Ook, moet u een schema/dataset eerst tot stand brengen alvorens u de getransformeerde gegevens aan het toevoegt.
+De resultaten van de exporttaak moeten worden omgezet in een afzonderlijke profielgegevensset om te worden opgenomen in CJA.  Deze transformatie kan worden uitgevoerd met [AEP Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)of een ander transformatiegereedschap van uw keuze. We hebben alleen de profiel-id (die overeenkomt met de persoon-id in CJA) en een of meer gebruikers-id(&#39;s) nodig om de rapportage in CJA uit te voeren.
+
+De standaard exporttaak bevat echter meer gegevens en daarom moeten we deze uitvoer bewerken om irrelevante gegevens te verwijderen en enkele zaken te verplaatsen.  Ook, moet u een schema/dataset eerst tot stand brengen alvorens u de getransformeerde gegevens aan het toevoegt.
 
 Hier is een voorbeeld van de uitvoeroutput in de de verenigingsdataset van het Profiel, **voor** alle bewerkingen:
 
@@ -71,9 +73,7 @@ Hier volgen de gegevenselementen die aanwezig moeten zijn:
 
 ## Stap 5: Deze profielgegevensset toevoegen aan een bestaande verbinding in CJA
 
-U kunt een nieuwe verbinding maken, maar de meeste klanten willen deze toevoegen aan een bestaande verbinding. De gebruikers-id&#39;s verrijken de bestaande gegevens in CJA.
-
-[Verbinding maken](/help/connections/create-connection.md)
+U kunt [een nieuwe verbinding maken](/help/connections/create-connection.md), maar de meeste klanten zullen de dataset van het Profiel aan een bestaande verbinding willen toevoegen. De gebruikers-id&#39;s verrijken de bestaande gegevens in CJA.
 
 ## Stap 6: Bestaande CJA-gegevensweergave wijzigen (of nieuwe CJA-gegevensweergave maken)
 
