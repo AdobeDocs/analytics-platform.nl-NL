@@ -4,9 +4,9 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
+source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,8 @@ Plaatsaanduidingen voor uitvoer worden ook ondersteund. U kunt deze reeksen gebr
 | `$+` | Hiermee wordt uitgevoerd wat overeenkomt met de laatst gemarkeerde subexpressie in de reguliere expressie. |
 | `$$` | Hiermee wordt het teken van de tekenreeks uitgevoerd `"$"`. |
 
-Hier volgt een video over Bindende Dimension:
+## Video over bindingsdimensies
+
+Hier volgt een video over het inbinden van afmetingen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
