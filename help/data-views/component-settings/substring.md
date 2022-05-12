@@ -3,9 +3,10 @@ title: Instellingen van subtekenreeksen
 description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a8bdb5b0c00a9dbca2f466452a5d18045b2e9971
+exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
+source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -112,3 +113,7 @@ Plaatsaanduidingen voor uitvoer worden ook ondersteund. U kunt deze reeksen gebr
 | ``$` `` | Hiermee wordt de tekst uitgevoerd tussen het einde van de laatste gevonden overeenkomst (of het begin van de tekst als er geen vorige overeenkomst is gevonden) en het begin van de huidige overeenkomst. |
 | `$+` | Hiermee wordt uitgevoerd wat overeenkomt met de laatst gemarkeerde subexpressie in de reguliere expressie. |
 | `$$` | Hiermee wordt het teken van de tekenreeks uitgevoerd `"$"`. |
+
+Hier volgt een video over Bindende Dimension:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
