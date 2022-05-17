@@ -3,9 +3,9 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Sleep alle filters van de linkertrack naar de neerzetzone van het deelvenster om
 
 Niet-filtercomponenten kunnen ook rechtstreeks naar de dropzone worden gesleept om ad-hocfilters te maken, waardoor u tijd en moeite bespaart om naar de Filter Builder te gaan. Filters die op deze manier worden gemaakt, worden automatisch gedefinieerd als filters op raakniveau. Deze definitie kan worden gewijzigd door te klikken op het informatiepictogram (i) naast het filter, vervolgens op het pictogram voor het bewerken van de vorm van een potlood en dit te bewerken in de Filter Builder.
 
-Ad-hocfilters zijn lokaal voor het project en worden alleen in de linkerrail weergegeven als u ze openbaar maakt.
+Ad hoc filters zijn lokaal voor het project en zullen niet in uw linkerspoor verschijnen tenzij u hen openbaar maakt.
 
 ![](assets/adhoc-segment-filter.png)
 
