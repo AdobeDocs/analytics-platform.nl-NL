@@ -3,10 +3,10 @@ description: Ontdek hoe AEP-Attribution AI kunnen worden geïntegreerd met Works
 title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: e75836841cdaf8acd2408723111f13048d31505d
+source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,21 +14,31 @@ ht-degree: 4%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, is een multi-channel, algoritmische attributiedienst die de invloed en de incrementele impact van klanteninteractie tegen gespecificeerde resultaten berekent. Met Attribution AI kunnen marketers marketing- en advertentiekosten meten en optimaliseren door de impact van elke individuele interactie van de klant in elke fase van de klantentransmissie te begrijpen.
 
-Attribution AI ondersteunt twee scores: algoritmisch en op regel gebaseerd. Algoritmische scores omvatten incrementele en beïnvloede scores. Op regels gebaseerde scores zijn onder andere First touch, Last touch, Linear, U-shaped en Time-Decay.
+Attribution AI ondersteunt twee scores: algoritmisch en op regel gebaseerd. Algoritmische scores omvatten incrementele en beïnvloede scores. Op regels gebaseerde scores zijn onder andere First touch, Last touch, Linear, U-shaped en Time-Decay. Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
 
 Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen gegevens in werking stelt en dan CJA de output van die modellen als gegevensreeks invoert, die dan met de rest van uw CJA gegevensreeksen kan worden geïntegreerd. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
-
-Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
 
 ## Workflow
 
 Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA.
 
-### Attribution AI-scores downloaden
+### Stap 1: Attribution AI-scores downloaden
 
-1. Download in Experience Platform de Attribution AI-scores die worden beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
-1. Maak in Experience Platform een Attribution AI-instantie door gegevens te selecteren en toe te wijzen, gebeurtenissen te definiëren en uw gegevens op te leiden, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
-1. In CJA:
+Download in Adobe Experience Platform de Attribution AI-scores die worden beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
+
+### Stap 2: Een Attribution AI-instantie maken
+
+Maak in Experience Platform een Attribution AI-instantie door gegevens te selecteren en toe te wijzen, gebeurtenissen te definiëren en uw gegevens op te leiden, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
+
+### Stap 3: Een CJA-verbinding met gegevenssets van Attribution AI instellen
+
+In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets worden weergegeven met het voorvoegsel &quot;Attribution AI Scores&quot;, zoals hier wordt getoond:
+
+![AAI-scores](assets/aai-scores.png)
+
+### Stap 4: Gegevensweergaven maken op basis van deze verbindingen
+
+In CJA:
 
 ## Verschillen tussen Attribution AI en Attribution IQ
 

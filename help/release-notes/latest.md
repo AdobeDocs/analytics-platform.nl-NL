@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 72486c527fa48775395bc5a31e6dd98eb30cbdc1
+source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 6%
 | ----------- | ---------- | ----- |
 | Nieuwe interface voor bewerken en maken van verbindingen | Deze gestroomlijnde ervaring laat u gegevens op datasetniveau terugvullen, een het rollen venster van het gegevensbehoud toelaten, aan datasets toevoegen en verwijderen uit een verbinding. [Meer informatie](/help/connections/create-connection.md) | 18 mei 2022 |
 | Report Builder voor CJA-updates | Bevat functies zoals planning en gegevensblokbeheer. [Meer informatie] | 18 mei 2022 |
-| AI-integratie van klant | Hiermee kunt u scores voor AI-modellen van klanten opnemen in CJA voor verdere analyse in de CJA-analysewerkruimte. [Meer informatie] | 25 mei 2022 |
-| Attribution AI integratie | Hiermee kunt u de scores voor Attribution AI-modellen in CJA invoeren voor verdere analyse in de CJA-werkruimte Analyse. [Meer informatie] | 25 mei 2022 |
+| AI-integratie van klant | Hiermee kunt u scores voor AI-modellen van klanten opnemen in CJA voor verdere analyse in de CJA-analysewerkruimte. [Meer informatie - volgen] | 25 mei 2022 |
+| Attribution AI integratie | Hiermee kunt u de scores voor Attribution AI-modellen in CJA invoeren voor verdere analyse in de CJA-werkruimte Analyse. [Meer informatie - volgen] | 25 mei 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
