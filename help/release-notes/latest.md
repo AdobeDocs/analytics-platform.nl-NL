@@ -3,18 +3,14 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
+source-git-commit: bf1f96a26111d43935404d300699e2b2a768d375
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
 # Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (mei 2022)
-
->[!NOTE]
->
->Deze pagina bevat pre-releasegegevens die kunnen worden gewijzigd.
 
 **Laatste update**: 18 mei 2022
 
