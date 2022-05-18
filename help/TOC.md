@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 565a247da0e66953d84b70dfb2fa50555e36b27d
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '634'
 ht-degree: 37%
 
 ---
@@ -200,6 +200,15 @@ ht-degree: 37%
       + [Overzicht van agenda](components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](components/date-ranges/time-comparison.md)
++ Analysedashboards {#cja-dashboards}
+   + [Analysedashboards - Overzicht](mobile-app/home.md)
+   + [Curatortaken](mobile-app/curator.md)
+   + [Een scorecard maken](mobile-app/create-scorecard.md)
+   + [Stel managers in voor het gebruik van dashboards](mobile-app/set-up-execs.md)
+   + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
++ Integraties {#integrations}
+   + [Attribution AI integreren met CJA](integrations/attribution-ai.md)
+   + [Integreer Customer AI met CJA](integrations/customer-ai.md)
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
@@ -213,12 +222,6 @@ ht-degree: 37%
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
    + [Gegevens van Google Analytics opnemen in Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Rapport over gegevens over Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
-+ Analysedashboards {#cja-dashboards}
-   + [Analysedashboards - Overzicht](mobile-app/home.md)
-   + [Curatortaken](mobile-app/curator.md)
-   + [Een scorecard maken](mobile-app/create-scorecard.md)
-   + [Stel managers in voor het gebruik van dashboards](mobile-app/set-up-execs.md)
-   + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met CJA-gegevens](troubleshooting/compare.md)
 + Privacy {#cja-privacy}
