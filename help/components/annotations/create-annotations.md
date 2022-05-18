@@ -4,18 +4,14 @@ description: Hoe te om annotaties in Werkruimte tot stand te brengen.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 15faee32171a2beab7cf42b92b09358b5cb1acc3
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Annotaties maken
-
->[!NOTE]
->
->Deze functie is momenteel in beperkte tests.
 
 1. U kunt op verschillende manieren annotaties maken:
 
