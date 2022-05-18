@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
+source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze pagina bevat pre-releasegegevens die kunnen worden gewijzigd.
 
-**Laatste update**: 16 mei 2022
+**Laatste update**: 18 mei 2022
 
 ## Belangrijkste kenmerken
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
 | Nieuwe interface voor bewerken en maken van verbindingen | Deze gestroomlijnde ervaring laat u gegevens op datasetniveau terugvullen, een het rollen venster van het gegevensbehoud toelaten, aan datasets toevoegen en verwijderen uit een verbinding. [Meer informatie](/help/connections/create-connection.md) | 18 mei 2022 |
-| Report Builder voor CJA-updates | Bevat functies zoals planning en gegevensblokbeheer. [Meer informatie] | 18 mei 2022 |
+| Report Builder voor CJA-updates | Bevat functies zoals planning en gegevensblokbeheer. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) | 18 mei 2022 |
 | AI-integratie van klant | Hiermee kunt u scores voor AI-modellen van klanten opnemen in CJA voor verdere analyse in de CJA-analysewerkruimte. [Meer informatie - volgen] | 25 mei 2022 |
 | Attribution AI integratie | Hiermee kunt u de scores voor Attribution AI-modellen in CJA invoeren voor verdere analyse in de CJA-werkruimte Analyse. [Meer informatie - volgen] | 25 mei 2022 |
 

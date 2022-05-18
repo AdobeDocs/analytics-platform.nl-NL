@@ -3,9 +3,9 @@ description: Ontdek hoe AEP Klantenservice AI integreert met Workspace in CJA.
 title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
+source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-conne
 
 Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening&quot;te bevorderen is aan één dataset gelijk.
 
-Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande dataset of een nieuwe dataset zou invoeren:
+Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande of nieuwe dataset zou opnemen:
 
 ![CAI-schema](assets/cai-schema.png)
 
@@ -58,4 +58,4 @@ Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande data
 
 ### Stap 5: Gegevensweergaven maken op basis van deze verbindingen
 
-In CJA kunt u nu doorgaan met het maken van gegevensweergaven met de afmetingen die als
+In CJA kunt u nu doorgaan om gegevensweergaven te maken met de afmetingen die zijn geïntroduceerd als onderdeel van de verbinding die u hebt gemaakt.
