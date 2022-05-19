@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -32,30 +32,21 @@ Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Att
 
 Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA. De uitvoer bestaat uit een gegevensset met een toegepast Attribution AI-model.
 
-### Stap 1: Attribution AI-scores downloaden
-
-Download in Adobe Experience Platform de Attribution AI-scores die worden beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
-
-### Stap 2: Een Attribution AI-instantie maken
+### Stap 1: Een Attribution AI-instantie maken
 
 Maak in Experience Platform een Attribution AI-instantie door gegevens te selecteren en toe te wijzen, gebeurtenissen te definiëren en uw gegevens op te leiden, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
-### Stap 3: Een CJA-verbinding met gegevenssets van Attribution AI instellen
+### Stap 2: Een CJA-verbinding met gegevenssets van Attribution AI instellen
 
 In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets worden weergegeven met het voorvoegsel &quot;Attribution AI Scores&quot;, zoals hier wordt getoond:
 
 ![AAI-scores](assets/aai-scores.png)
 
->[!IMPORTANT]
->
->U kunt profiel en raadplegingsdatasets, evenals vraag centrum en de gegevens van CRM aan de verbinding toevoegen. Nochtans, adviseert Adobe het toevoegen van de datasets van Adobe Analytics aan datasets met Attribution AI scores in de zelfde verbinding niet.
-
-
-### Stap 4: Gegevensweergaven maken op basis van deze verbindingen
+### Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
 In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.md) die de Attribution AI XDM-velden bevatten. (Zou hier geweldig zijn om een screenshot te maken.)
 
-### Stap 5: AAI-gegevens rapporteren in CJA Workspace
+### Stap 4: AAI-gegevens rapporteren in CJA Workspace
 
 In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van AAI&quot;trekken, en dimensies zoals &quot;Naam van de Campagne AAI&quot; of &quot;Kanaal van de Marketing van AAI&quot;, bijvoorbeeld.
 
@@ -75,7 +66,7 @@ Wanneer moet u dus Attribution AI-gegevens gebruiken in plaats van [Attribution 
 | Functionaliteit | Attribution AI | Attribution IQ |
 | --- | --- | --- |
 | Heeft fractionele toewijzing | Ja | Nee |
-| Hiermee kunnen gebruikers het model aanpassen | Nee | Ja |
+| Hiermee kunnen gebruikers het model aanpassen | Ja | Ja |
 | Kenmerken via kanalen (Opmerking: AAI gebruikt niet de gegevens die in CJA zijn opgeslagen.) | Ja | Ja |
 | Inclusief incrementele en beïnvloede scores | Ja | Nee |
 | Werken met ML | Ja | Ja |

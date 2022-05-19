@@ -4,9 +4,9 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Met behulp van invloedrijke factoren kan de AI van de Klant u vertellen wat een klant waarschijnlijk zal doen en waarom. Bovendien kunnen marketers profiteren van de voorspellingen en inzichten van de klant van AI om de ervaringen van klanten aan te passen door de meest geschikte aanbiedingen en berichten te bedienen.
 
-De AI van de Klant werkt door één van de volgende datasets te analyseren om de scores van de kromme of van de omzettingsdichtheid te voorspellen:
+De AI van de klant werkt door één of meerdere van de volgende datasets te analyseren om het kromtrekken of de scores van de omzetsingsdichtheid te voorspellen:
 
 * Adobe Analytics-gegevens via de gegevensbronaansluiting Analytics
 * Adobe Audience Manager-gegevens via de Audience Manager-bronaansluiting
@@ -34,19 +34,11 @@ De AI van de Klant integreert met Customer Journey Analytics (CJA) voor zover de
 
 Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA.
 
-### Stap 1: AI-scores van klanten downloaden
-
-Het downloaden van AI-scores van klanten gebeurt via een combinatie van API-aanroepen van Experience Platforms, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/getting-started.html?lang=en#downloading-customer-ai-scores).
-
-### Stap 2: Invoer en uitvoer van AI van klanten definiëren
-
-Dit proces wordt beschreven in het dialoogvenster [Invoer en uitvoer in AI van de Klant](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/input-output.html?lang=en) documentatie.
-
-### Stap 3: Een Customer AI-instantie configureren
+### Stap 1: Een Customer AI-instantie configureren
 
 Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïnstalleerd, begint u met het volgende: [Een AI-instantie van een klant configureren](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) hulplijn.
 
-### Stap 4: Een CJA-verbinding met AI-gegevenssets van klanten instellen
+### Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
 
 In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Deze gegevenssets worden weergegeven met het voorvoegsel &quot;Klantenreferentie AI-scores&quot;, zoals hieronder wordt getoond:
 
@@ -60,11 +52,11 @@ Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande of n
 
 (Merk op dat het voorbeeld een profieldataset is; de zelfde reeks schemavoorwerp zou deel van een dataset van de Gebeurtenis van de Ervaring uitmaken die CJA zou grijpen. De dataset van de Gebeurtenis van de Ervaring zou timestamps als scoredatum omvatten.) Elke klant die in dit model een score heeft behaald, heeft een scoreDate, enzovoort. geassocieerd met hen.
 
-### Stap 5: Gegevensweergaven maken op basis van deze verbindingen
+### Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
-In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create-dataview.md) met de dimensies (zoals score, score, datum, waarschijnlijkheid, enzovoort) die zijn ingevoerd als onderdeel van de verbinding die u hebt gemaakt.
+In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, enzovoort) en metriek die zijn ingevoerd als onderdeel van de verbinding die u hebt gemaakt.
 
-### Stap 6: Rapport over CAI-scores in werkruimte
+### Stap 4: Rapport over CAI-scores in werkruimte
 
 Hier is een voorbeeld van een project van de Werkruimte met CAI gegevens die scoredata in een gestapeld staafdiagram toont:
 
