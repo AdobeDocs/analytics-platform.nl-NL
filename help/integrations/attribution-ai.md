@@ -1,65 +1,84 @@
 ---
-description: Find out how AEP Attribution AI integrates with Workspace in CJA.
-title: Integrate Attribution AI with CJA
+description: Ontdek hoe AEP-Attribution AI kunnen worden geïntegreerd met Workspace in CJA.
+title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: e0b5e91897ce6cdcaebfb2d6663e565dff850d74
+source-git-commit: aa4559daa7156091d1a3c5d602dd7390f85aebd6
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '592'
+ht-degree: 2%
 
 ---
 
-# Integrate Attribution AI with CJA
+# Attribution AI integreren met CJA
 
 >[!NOTE]
 >
->This page is under construction.
+>Deze pagina is in opbouw.
 
-[](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en) With Attribution AI, marketers can measure and optimize marketing and advertising spend by understanding the impact of every individual customer interaction across each phase of the customer journeys.
+[Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, is een multi-channel, algoritmische attributiedienst die de invloed en de incrementele impact van klanteninteractie tegen gespecificeerde resultaten berekent. Met Attribution AI kunnen marketers marketing- en advertentiekosten meten en optimaliseren door de impact van elke individuele interactie van de klant in elke fase van de klantentransmissie te begrijpen.
 
-Attribution AI supports two categories of scores: algorithmic and rule-based. Algorithmic scores include incremental and influenced scores. Rule-based scores include First touch, Last touch, Linear, U-shaped, and Time-Decay. Attribution AI supports 3 Experience Platform schemas: Experience Event, Adobe Analytics, and Consumer Experience Event.
+Attribution AI ondersteunt twee scores: algoritmisch en op regel gebaseerd. Algoritmische scores omvatten incrementele en beïnvloede scores.
 
-Attribution AI integrates with Customer Journey Analytics (CJA) to the extent that Attribution AI runs models against data and then CJA imports the output of those models as a data set, which can then be integrated with the rest of your CJA data sets. Attribution AI-enabled datasets can be then be leveraged in data views and reporting in CJA.
+* **Betrokken scores** 100 % van het conversiekrediet wordt verdeeld over de afzetkanalen .
+* **Incrementele scores** in de eerste plaats rekening houden met een basislijn voor omzetting die u zelfs zonder marketing zou hebben bereikt. Deze basislijn hangt van AI observaties van patronen, seizoensgebondenheid, etc., toe te schrijven aan bestaande merkerkenning, loyaliteit, en woord van mond. De resterende kredieten worden verdeeld over de afzetkanalen.
+
+Op regels gebaseerde scores omvatten [!UICONTROL First touch], [!UICONTROL Last touch], [!UICONTROL Linear], [!UICONTROL U-shaped], en [!UICONTROL Time-Decay]. Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
+
+Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen gegevens in werking stelt en dan CJA de output van die modellen als gegevensreeks invoert, die dan met de rest van uw CJA gegevensreeksen kan worden geïntegreerd. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
 
 ## Workflow
 
-Some of the steps are performed in Adobe Experience Platform prior to working with the output in CJA.
+Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA. De uitvoer bestaat uit een gegevensset met een toegepast Attribution AI-model.
 
-### Step 1: Download Attribution AI scores
+### Stap 1: Attribution AI-scores downloaden
 
-[](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores)
+Download in Adobe Experience Platform de Attribution AI-scores die worden beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
 
-### Step 2: Create an Attribution AI instance
+### Stap 2: Een Attribution AI-instantie maken
 
-[](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)
+Maak in Experience Platform een Attribution AI-instantie door gegevens te selecteren en toe te wijzen, gebeurtenissen te definiëren en uw gegevens op te leiden, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
-### Step 3: Set up a CJA connection to Attribution AI datasets
+### Stap 3: Een CJA-verbinding met gegevenssets van Attribution AI instellen
 
-[](/help/connections/create-connection.md) These datasets appears with the &quot;Attribution AI Scores&quot; prefix, as shown here:
+In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets worden weergegeven met het voorvoegsel &quot;Attribution AI Scores&quot;, zoals hier wordt getoond:
 
-![](assets/aai-scores.png)
+![AAI-scores](assets/aai-scores.png)
 
-### Step 4: Create data views based on these connections
+>[!IMPORTANT]
+>
+>U kunt profiel en raadplegingsdatasets, evenals vraag centrum en de gegevens van CRM aan de verbinding toevoegen. Nochtans, adviseert Adobe het toevoegen van de datasets van Adobe Analytics aan datasets met Attribution AI scores in de zelfde verbinding niet.
 
-[](/help/data-views/create-dataview.md) (Would be great to have a screenshot here.)
 
-### Step 5: Report on AAI data in CJA Workspace
+### Stap 4: Gegevensweergaven maken op basis van deze verbindingen
 
-Here is an example of a Workspace project with AAI data that shows...
+In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.md) die de Attribution AI XDM-velden bevatten. (Zou hier geweldig zijn om een screenshot te maken.)
 
-## Differences between Attribution AI and Attribution IQ
+### Stap 5: AAI-gegevens rapporteren in CJA Workspace
 
-[](/help/analysis-workspace/attribution/overview.md) This table shows some of the differences in functionality:
+In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van AAI&quot;trekken, en dimensies zoals &quot;Naam van de Campagne AAI&quot; of &quot;Kanaal van de Marketing van AAI&quot;, bijvoorbeeld.
 
-| Functionality | Attribution AI | Attribution IQ |
+![AAI-afmetingen](assets/aai-dims.png)
+
+Hier zien we een Workspace-project met AAI-gegevens die orders met beïnvloede en incrementele scores weergeven.
+
+![AAI-project](assets/aai-project.png)
+
+![AAI-project](assets/aai-project2.png)
+
+
+## Verschillen tussen Attribution AI en Attribution IQ
+
+Wanneer moet u dus Attribution AI-gegevens gebruiken in plaats van [Attribution IQ](/help/analysis-workspace/attribution/overview.md), een native CJA-mogelijkheid? In deze tabel worden enkele verschillen in functionaliteit weergegeven:
+
+| Functionaliteit | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| Does fractional attribution | Ja | Nee |
-| Allows users to adjust model | Nee | Ja |
-| Does attribution across channels (Note: AAI does not use the same stitched data that CJA does.) | Ja | Ja |
-| Includes incremental and influenced scores | Ja | Nee |
-| Does ML modeling | Ja | Ja |
-| Does ML modeling with predictions | Ja | Nee |
+| Heeft fractionele toewijzing | Ja | Nee |
+| Hiermee kunnen gebruikers het model aanpassen | Nee | Ja |
+| Kenmerken via kanalen (Opmerking: AAI gebruikt niet de gegevens die in CJA zijn opgeslagen.) | Ja | Ja |
+| Inclusief incrementele en beïnvloede scores | Ja | Nee |
+| Werken met ML | Ja | Ja |
+| Modellering van ML met voorspellingen | Ja | Nee |
 
 {style=&quot;table-layout:auto&quot;}
