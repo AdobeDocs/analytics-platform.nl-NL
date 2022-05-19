@@ -4,16 +4,16 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: beb9e94e0870f8957de59e643957f7422f902182
+source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2008'
 ht-degree: 2%
 
 ---
 
 # Verbinding maken
 
-In mei 2022 wordt in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindingen gestart. Hier volgt een overzicht van de nieuwe mogelijkheden:
+Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindingen gestart. Hier volgt een overzicht van de nieuwe mogelijkheden:
 
 * U kunt het rollen venster van het gegevensbehoud toelaten wanneer u de verbinding creeert.
 * U kunt datasets toevoegen aan en verwijderen uit een verbinding. (Als u een gegevensset verwijdert, wordt deze uit de verbinding verwijderd en worden de bijbehorende gegevensweergaven en onderliggende Analysis Workspace-projecten beïnvloed.)
