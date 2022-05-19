@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 01a9ff4e03e002da723c10500de6dec4444f951e
+exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
-
 
 # Gegevensblokken beheren in Report Builder
 
@@ -50,19 +50,17 @@ U kunt de gegevensweergave, het datumbereik of de filters bewerken die op een of
 
 U kunt bijvoorbeeld een bestaand filter vervangen door een nieuw filter in een of meer gegevensblokken.
 
-1. Selecteer de gegevensblokken die u wilt bijwerken.
+1. Selecteer de gegevensblokken die u wilt bijwerken. U kunt het selectievakje op het hoogste niveau inschakelen om alle gegevensblokken te selecteren of u kunt afzonderlijke gegevensblokken selecteren.
 
-U kunt het selectievakje op het hoogste niveau inschakelen om alle gegevensblokken te selecteren of u kunt afzonderlijke gegevensblokken selecteren.
-
-![image](./assets/image56.png)
+   ![image](./assets/image56.png)
 
 1. Klik op het bewerkingspictogram om het venster Snel bewerken weer te geven.
 
-![image](./assets/image58.png)
+   ![image](./assets/image58.png)
 
 1. Selecteer een filterkoppeling om de gegevensweergaven, datumbereiken of filters bij te werken.
 
-![image](./assets/image59.png)
+   ![image](./assets/image59.png)
 
 ## Gegevensblokken vernieuwen
 
@@ -81,9 +79,9 @@ Klik op het prullenbakpictogram om een geselecteerd gegevensblok te verwijderen.
 
 ## Gegevensblokken groeperen
 
-Klik op de kolomtitels om gegevensblokken te groeperen of selecteer een kolomnaam in het menu **Groeperen op** *Naam* lijst.
+U kunt gegevensblokken groeperen met de **Groeperen op** of u kunt op een kolomtitel klikken. Als u gegevensblokken op kolom wilt sorteren, klikt u op de kolomtitel. Als u gegevensblokken wilt groeperen op groepen, selecteert u een groepsnaam in het menu **Groeperen op** vervolgkeuzemenu. In de onderstaande schermafbeelding ziet u bijvoorbeeld gegevensblokken gegroepeerd op Werkblad. Het toont gegevensblokken die door Blad1 en Blad2 worden gegroepeerd.  Dit is bijvoorbeeld handig bij het gebruik van het filter ter vervanging. Als er meerdere filters op elk gegevensblok zijn toegepast, is het handig om een groep te maken die alle gegevensblokken bevat die u wilt vervangen. Vervolgens kunt u ze allemaal tegelijk selecteren en bewerken.
 
-![image](./assets/image514.png)
+![image](./assets/group-data-blocks.png)
 
 ## De weergave Data Block Manager wijzigen
 
