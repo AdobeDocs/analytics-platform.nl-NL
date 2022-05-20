@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
+source-git-commit: 289ab8bd5492017709239174e80ac5a4e5dd9033
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/attribution-ai.html?lang=en"> Attribution AI integreren met CJA </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html">Integreer Customer AI met CJA</a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/customer-ai.html?lang=en">Integreer Customer AI met CJA</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html"> Adobe Analytics naar Customer Journey Analytics evolutie </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> CJA-gebruikershandleiding voor Adobe Analytics-gebruikers </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> De verbeterde mogelijkheden voor verbindingsbeheer gebruiken </a> </li>
