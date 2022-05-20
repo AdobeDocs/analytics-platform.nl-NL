@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 8544de42c643c729558f27a7d64b0e4a8af608d0
+source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Gebruik het deelvenster OPDRACHTEN voor toegang tot opdrachten die compatibel zi
 | Weergegeven opdrachten | Beschikbaar als... | Doel |
 |------|------------------|--------|
 | Gegevensblok maken | Één of meerdere cellen wordt geselecteerd in het werkboek. | Wordt gebruikt om een gegevensblok te maken |
-| Gegevensblok bewerken | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te bewerken |
-| Gegevensblok vernieuwen | De selectie bevat ten minste één gegevensblok. De opdracht vernieuwt alleen de gegevensblokken in de selectie. | Wordt gebruikt om een of meer gegevensblokken te vernieuwen |
+| Gegevensblok bewerken | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Used to edit a data block |
+| Gegevensblok vernieuwen | De selectie bevat ten minste één gegevensblok. De opdracht vernieuwt alleen de gegevensblokken in de selectie. | Used to refresh one or more data blocks |
 | Alle gegevensblokken vernieuwen | Het werkboek bevat één of meerdere gegevensblokken. | Gebruikt om ALLE gegevensblokken in het werkboek te verfrissen |
 | Gegevensblok kopiëren | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Wordt gebruikt om een gegevensblok te kopiëren |
-| Gegevensblok verwijderen | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te verwijderen |
+| Gegevensblok verwijderen | The selected cell or cells range is part of one data block only. | Wordt gebruikt om een gegevensblok te verwijderen |
 
 ## Deelvenster SNEL BEWERKEN
 
@@ -55,15 +55,15 @@ De wijzigingen die u hebt aangebracht met de secties Snel bewerken zijn van toep
 
 Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als er meerdere gegevensblokken zijn geselecteerd in een werkblad en deze geen gegevens ophalen uit dezelfde gegevensweergave, worden de **Gegevensweergaven** koppelingsweergaven *Meerdere*.
 
-Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld id ```evars```). Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
+Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld id ```evars```). If a component isn&#39;t found in a data block, a warning message is displayed and the component is removed from the data block.
 
-Als u de gegevensweergave wilt wijzigen, selecteert u een nieuwe gegevensweergave in het keuzemenu.
+To change the data view, select a new data view from the drop-down menu.
 
 ![](./assets/image16.png)
 
 ### Datumbereik
 
-**Datumbereik** Hiermee geeft u het datumbereik voor de geselecteerde gegevensblokken weer. Als er meerdere gegevensblokken met meerdere datumbereiken zijn geselecteerd, wordt de **Datumbereik** koppelingsweergaven *Meerdere*.
+**Datumbereik** Hiermee geeft u het datumbereik voor de geselecteerde gegevensblokken weer. If multiple data blocks are selected with multiple date ranges, the **Datumbereik** koppelingsweergaven *Meerdere*.
 
 ### Filters
 
