@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
+source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 4%
 
 ---
@@ -24,11 +24,10 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
+       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/attribution-ai.html?lang=en"> Attribution AI integreren met CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html">Integreer Customer AI met CJA</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html"> Adobe Analytics naar Customer Journey Analytics evolutie </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> CJA-gebruikershandleiding voor Adobe Analytics-gebruikers </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html"> Het gebruiken van bindende dimensies en metriek in CJA </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html"> Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
- </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> De verbeterde mogelijkheden voor verbindingsbeheer gebruiken </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html#cja-dataviews"> De verbeterde mogelijkheden voor gegevensweergaven gebruiken </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html#cja-usecases"> Gegevens van Google Analytics opnemen in Adobe Experience Platform </a> </li>
