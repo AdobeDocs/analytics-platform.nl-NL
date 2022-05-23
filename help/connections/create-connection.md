@@ -4,7 +4,7 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
+source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 2%
@@ -20,6 +20,8 @@ Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindi
 * U kunt terugvullingsgegevens per dataset toelaten en verzoeken.
 * U kunt datasets uitgeven, bijvoorbeeld om een andere backfill te verzoeken.
 * U kunt bestaande gegevens per dataset importeren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
 ## Verbinding maken en configureren {#create-connection}
 
