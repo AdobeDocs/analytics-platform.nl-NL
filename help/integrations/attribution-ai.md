@@ -4,10 +4,10 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
+source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 2%
+source-wordcount: '875'
+ht-degree: 1%
 
 ---
 
@@ -19,14 +19,28 @@ ht-degree: 2%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, is een multi-channel, algoritmische attributiedienst die de invloed en de incrementele impact van klanteninteractie tegen gespecificeerde resultaten berekent. Met Attribution AI kunnen marketers marketing- en advertentiekosten meten en optimaliseren door de impact van elke individuele interactie van de klant in elke fase van de klantentransmissie te begrijpen.
 
-Attribution AI ondersteunt twee scores: algoritmisch en op regel gebaseerd. Algoritmische scores omvatten incrementele en beïnvloede scores.
-
-* **Betrokken scores** 100 % van het conversiekrediet wordt verdeeld over de afzetkanalen .
-* **Incrementele scores** in de eerste plaats rekening houden met een basislijn voor omzetting die u zelfs zonder marketing zou hebben bereikt. Deze basislijn hangt van AI observaties van patronen, seizoensgebondenheid, etc., toe te schrijven aan bestaande merkerkenning, loyaliteit, en woord van mond. De resterende kredieten worden verdeeld over de afzetkanalen.
-
-Op regels gebaseerde scores omvatten [!UICONTROL First touch], [!UICONTROL Last touch], [!UICONTROL Linear], [!UICONTROL U-shaped], en [!UICONTROL Time-Decay]. Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
-
 Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen gegevens in werking stelt en dan CJA de output van die modellen als gegevensreeks invoert, die dan met de rest van uw CJA gegevensreeksen kan worden geïntegreerd. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
+
+Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
+
+Attribution AI ondersteunt twee scores: algoritmisch en op regel gebaseerd.
+
+## Algoritmische scores
+
+Algoritmische scores omvatten incrementele en beïnvloede scores.
+
+* **[!UICONTROL Influenced]scores** 100 % van het conversiekrediet wordt verdeeld over de afzetkanalen .
+* **[!UICONTROL Incremental]scores** in de eerste plaats rekening houden met een basislijn voor omzetting die u zelfs zonder marketing zou hebben bereikt. Deze basislijn hangt van AI observaties van patronen, seizoensgebondenheid, etc., toe te schrijven aan bestaande merkerkenning, loyaliteit, en woord van mond. De resterende kredieten worden verdeeld over de afzetkanalen.
+
+## Op regels gebaseerde scores
+
+Op regels gebaseerde scores omvatten
+
+* **[!UICONTROL First touch]** geeft 100% krediet aan het aanraakpunt dat voor het eerst in het terugkijkvenster van de attributie wordt gezien.
+* **[!UICONTROL Last touch]** geeft 100% krediet aan het aanraakpunt dat zich het laatst vóór de conversie voordeed.
+* **[!UICONTROL Linear]** geeft hetzelfde krediet aan elk aanraakpunt dat wordt weergegeven voor een conversie.
+* **[!UICONTROL U-shaped]** geeft 40% krediet aan de eerste interactie, 40% krediet aan de laatste interactie, en deelt de resterende 20% aan om het even welke aanraakpunten tussenin. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt aan beide een krediet van 50% toegekend.
+* **[!UICONTROL Time-Decay]** volgt een exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om het krediet te bepalen is `2^(-t/halflife)`, waarbij `t` is de hoeveelheid tijd tussen een aanraakpunt en een conversie. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%.
 
 ## Workflow
 
@@ -60,9 +74,15 @@ Hier zien we een Workspace-project met AAI-gegevens die orders met beïnvloede e
 
 ![AAI-project](assets/aai-project2.png)
 
+**Marketingprestaties**
+
+Toonpuntattributie vergelijken en contrasten tussen verschillende attributiemodellen:
+
+![Vergelijken](assets/compare.png)
+
 **Kanaalinteractie**
 
-Begrijp kanaalinteractie om te zien welk kanaal het meest effectief met andere kanalen kan worden gebruikt:
+Begrijp kanaalinteractie om te zien welk kanaal het meest effectief met andere kanalen kan worden gebruikt, gebruikend een diagram van de Plaats:
 
 ![Overlappen van marketingkanaal](assets/mc-overlap.png)
 
