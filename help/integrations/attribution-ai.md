@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
+source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '716'
 ht-degree: 2%
 
 ---
@@ -52,19 +52,27 @@ In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van 
 
 ![AAI-afmetingen](assets/aai-dims.png)
 
+**Orders met beïnvloede en incrementele scores**
+
 Hier zien we een Workspace-project met AAI-gegevens die orders met beïnvloede en incrementele scores weergeven. Bouw neer aan om het even welke afmeting om attributie te begrijpen door: campagne, productgroep, gebruikerssegment, geografie, enzovoort.
 
 ![AAI-project](assets/aai-project.png)
 
 ![AAI-project](assets/aai-project2.png)
 
+**Kanaalinteractie**
+
 Begrijp kanaalinteractie om te zien welk kanaal het meest effectief met andere kanalen kan worden gebruikt:
 
 ![Overlappen van marketingkanaal](assets/mc-overlap.png)
 
+**Bovenste paden naar conversie**
+
 In deze tabel worden de belangrijkste paden naar conversie (gededupliceerd) weergegeven die u helpen bij het ontwerpen en optimaliseren van aanraakpunten:
 
 ![Bovenste kanalen](assets/top-channels.png)
+
+**Tijd leiden naar conversie**
 
 Hier zien we de aanlooptijd naar conversie wanneer een aanraakpunt in de mix zit. Het helpt bij het optimaliseren van doorlooptijd:
 
@@ -80,6 +88,8 @@ Hier zien we de aanlooptijd naar conversie wanneer een aanraakpunt in de mix zit
 | [!UICONTROL AAI AVG Days Away from Order] | Voor elk kanaal, het gemiddelde aantal dagen sinds de orde. |
 | [!UICONTROL AAI AVG Total Days in Sales Process] | Voor elk kanaal, het gemiddelde totale dagen van de omzettingswegen het aanraakte. |
 | [!UICONTROL AVG Touches Away From Order] | Voor elk kanaal raakt het gemiddelde van orde weg. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Verschillen tussen Attribution AI en Attribution IQ
 
