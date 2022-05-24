@@ -4,10 +4,10 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
+source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, is een multi-channel, algoritmische attributiedienst die de invloed en de incrementele impact van klanteninteractie tegen gespecificeerde resultaten berekent. Met Attribution AI kunnen marketers marketing- en advertentiekosten meten en optimaliseren door de impact van elke individuele interactie van de klant in elke fase van de klantentransmissie te begrijpen.
 
-Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen gegevens in werking stelt en dan CJA de output van die modellen als gegevensreeks invoert, die dan met de rest van uw CJA gegevensreeksen kan worden geïntegreerd. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
+Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen de marketing touchpoints van klanten en omzettingsdatasources in werking stelt. CJA importeert dan de uitvoer van die modellen als een gegevensset, of het kan worden geïntegreerd met de rest van uw CJA-gegevenssets. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
 
 Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
 
@@ -52,7 +52,7 @@ Maak in Experience Platform een Attribution AI-instantie door gegevens te select
 
 ### Stap 2: Een CJA-verbinding met gegevenssets van Attribution AI instellen
 
-In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets worden weergegeven met het voorvoegsel &quot;Attribution AI Scores&quot;, zoals hier wordt getoond:
+In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets verschijnen met het prefix &quot;van Scores van de Attribution AI&quot;, zoals hier getoond:
 
 ![AAI-scores](assets/aai-scores.png)
 
@@ -65,6 +65,11 @@ In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.m
 In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van AAI&quot;trekken, en dimensies zoals &quot;Naam van de Campagne AAI&quot; of &quot;Kanaal van de Marketing van AAI&quot;, bijvoorbeeld.
 
 ![AAI-afmetingen](assets/aai-dims.png)
+
+>[!IMPORTANT]
+>
+>Deze afmetingen en metriek worden niet op deze manier genoemd. Dit zijn &quot;vriendelijke namen&quot;. De [naamgevingsconventie in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) volgt het schemapad. Wij adviseren het anders noemen van de lange namen van de schemaweg in AAI aan korte, gebruikersvriendelijkere namen (afmetingen/metriek) in CJA. U kunt dit doen in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Schema fields]** -> Klik op een schemaveld -> **[!UICONTROL Component name]**.
+
 
 **Orders met beïnvloede en incrementele scores**
 
@@ -98,30 +103,18 @@ Hier zien we de aanlooptijd naar conversie wanneer een aanraakpunt in de mix zit
 
 ![Leadtijd](assets/lead-time.png)
 
-## Nieuwe CJA-metriek
-
-| Metrisch | Beschrijving |
-| --- | --- |
-| [!UICONTROL Acquisition Rate] | Voor elk kanaal, onder de omzettingswegen het aanraakte, is het percentage van het kanaal de Starter. |
-| [!UICONTROL Player rate] | Voor elk kanaal, onder de omzettingswegen het aanraakte, is het percentage van het kanaal een Speler. |
-| [!UICONTROL Closer rate] | Voor elk kanaal, onder de omzettingswegen het aanraakte, is het percentage van het kanaal dichter. |
-| [!UICONTROL AAI AVG Days Away from Order] | Voor elk kanaal, het gemiddelde aantal dagen sinds de orde. |
-| [!UICONTROL AAI AVG Total Days in Sales Process] | Voor elk kanaal, het gemiddelde totale dagen van de omzettingswegen het aanraakte. |
-| [!UICONTROL AVG Touches Away From Order] | Voor elk kanaal raakt het gemiddelde van orde weg. |
-
-{style=&quot;table-layout:auto&quot;}
-
 ## Verschillen tussen Attribution AI en Attribution IQ
 
 Wanneer moet u dus Attribution AI-gegevens gebruiken in plaats van [Attribution IQ](/help/analysis-workspace/attribution/overview.md), een native CJA-mogelijkheid? In deze tabel worden enkele verschillen in functionaliteit weergegeven:
 
 | Functionaliteit | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| Heeft fractionele toewijzing | Ja | Nee |
+| Bepaalt incrementele toewijzing | Ja | Nee |
 | Hiermee kunnen gebruikers het model aanpassen | Ja | Ja |
 | Kenmerken via kanalen (Opmerking: AAI gebruikt niet de gegevens die in CJA zijn opgeslagen.) | Ja | Ja |
-| Inclusief incrementele en beïnvloede scores | Ja | Nee |
+| Inclusief beïnvloede scores | Ja | Ja |
 | Werken met ML | Ja | Ja |
-| Modellering van ML met voorspellingen | Ja | Nee |
+| Op regio&#39;s gebaseerde attributiemodellen | Ja | Ja |
+| Kan marketingaanraakpunten in model opnemen | Ja | Nee |
 
 {style=&quot;table-layout:auto&quot;}
