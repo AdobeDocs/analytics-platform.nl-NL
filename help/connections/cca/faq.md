@@ -4,9 +4,9 @@ description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: de12bb7758904fb471a2da940d5281a5937f7d21
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -65,3 +65,7 @@ Bepaalde metriek in CJA zijn gelijkaardig aan metriek in traditionele Analytics,
 | **Gebeurtenissen** = aantal rijen in de gegevens in de bijlage in CJA. In het algemeen moet dit dicht bij **Voorval** in het traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege pagina `Persistent ID`. | **Gebeurtenissen** = aantal rijen in de niet-ingestelde gegevens in CJA. In het algemeen moet dit dicht bij **Voorval** in het traditionele Adobe Analytics. Houd er echter rekening mee dat gebeurtenissen leeg zijn `Person ID` In de ongeordende gegevens in het gegevensmeer van AEP zullen deze gebeurtenissen worden weggelaten (niet inbegrepen) in CJA. | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
 Andere metriek kunnen gelijkaardig zijn in CJA en traditionele Adobe Analytics. Bijvoorbeeld het totale aantal voor Adobe Analytics [aangepaste gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html) (gebeurtenissen 1-100) zouden in het algemeen zeer dicht bij de traditionele Adobe Analytics en CJA moeten liggen (of ze nu vastzitten of niet vastzitten). Dit is echter niet altijd waar vanwege [verschillen in mogelijkheden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html)  zoals deduplicatie van gebeurtenissen tussen CJA en traditionele Adobe Analytics.
+
+## Kan CCA de gebieden van de Kaart van de Identiteit gebruiken?
+
+Nee, CCA kan momenteel geen IDMap-velden gebruiken.
