@@ -4,7 +4,7 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -12,10 +12,6 @@ ht-degree: 0%
 ---
 
 # Integreer Customer AI met CJA
-
->[!NOTE]
->
->Deze functionaliteit wordt op 25 mei 2022 gepubliceerd.
 
 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, biedt marketers de kracht om klantprognoses op individueel niveau te genereren.
 
@@ -41,7 +37,11 @@ Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïn
 
 ### Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
 
-In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze gegevenssets worden weergegeven met het voorvoegsel &quot;Klantenreferentie AI-scores&quot;, zoals hieronder wordt getoond:
+In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
+
+>[!IMPORTANT]
+>
+>Elke AI-instantie van de Klant heeft twee uitvoergegevenssets als de schakeloptie is ingeschakeld om scores voor CJA mogelijk te maken tijdens de configuratie in Stap 1. Eén uitvoergegevensset wordt weergegeven in de indeling Profile XDM en één in de indeling Experience Event XDM.
 
 ![CAI-scores](assets/cai-scores.png)
 
