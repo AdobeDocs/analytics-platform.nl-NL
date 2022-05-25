@@ -4,9 +4,9 @@ description: Leer hoe CJA tot een verbinding leidt door datasets te combineren.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Gecombineerde gegevenssets voor gebeurtenissen
 
-Wanneer u een verbinding creeert, combineert CJA alle schema&#39;s en datasets in één enkele dataset. Dit &quot;gecombineerde gebeurtenisdataset&quot;is wat CJA voor rapportering gebruikt. Wanneer u veelvoudige schema&#39;s of datasets in een verbinding omvat:
+Wanneer u een verbinding creeert, combineert Customer Journey Analytics (CJA) alle schema&#39;s en datasets in één enkele dataset. Dit &quot;gecombineerde gebeurtenisdataset&quot;is wat CJA voor rapportering gebruikt. Wanneer u veelvoudige schema&#39;s of datasets in een verbinding omvat:
 
 * Schema&#39;s worden gecombineerd. Dubbele schemavelden worden samengevoegd.
 * De kolom &#39;Person ID&#39; van elke dataset wordt samengevoegd in één kolom, ongeacht de naam ervan. Deze kolom vormt de basis voor het identificeren van unieke bezoekers in CJA.
