@@ -4,9 +4,9 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 Met behulp van invloedrijke factoren kan de AI van de Klant u vertellen wat een klant waarschijnlijk zal doen en waarom. Bovendien kunnen marketers profiteren van de voorspellingen en inzichten van de klant van AI om de ervaringen van klanten aan te passen door de meest geschikte aanbiedingen en berichten te bedienen.
 
-AI van de Klant baseert zich op individuele gedragsgegevens en profielgegevens voor het rangschikken van eigenschappen. De AI van de Klant is flexibel in die zin dat het in veelvoudige gegevensbronnen, met inbegrip van Adobe Analytics, Adobe Audience Manager, de gegevens van de Gebeurtenis van de Consumentenervaring en de gegevens van de Gebeurtenis van de Ervaring kan nemen. Als u de AEP-gegevensconnector gebruikt om Adobe Audience Manager- en Adobe Analytics-gegevens in te voeren, neemt het model automatisch de standaardgebeurtenistypen op om het model te trainen en te scoren. Als u uw eigen dataset van de Gebeurtenis van de Ervaring zonder standaardgebeurtenistypen brengt, zullen om het even welke relevante gebieden als douanegebeurtenissen of profielattributen moeten worden in kaart gebracht als u het in het model wilt gebruiken. Dit kan worden gedaan in de configuratiestap van AI van de Klant. &#x200B;
+AI van de Klant baseert zich op individuele gedragsgegevens en profielgegevens voor het rangschikken van eigenschappen. De AI van de Klant is flexibel in die zin dat het in veelvoudige gegevensbronnen, met inbegrip van Adobe Analytics, Adobe Audience Manager, de gegevens van de Gebeurtenis van de Consumentenervaring en de gegevens van de Gebeurtenis van de Ervaring kan nemen. Als u de bronschakelaar van het Experience Platform gebruikt om Adobe Audience Manager en Adobe Analytics gegevens in te brengen, neemt het model automatisch de standaardgebeurtenistypen op om het model te trainen en te scoren. Als u uw eigen dataset van de Gebeurtenis van de Ervaring zonder standaardgebeurtenistypen brengt, zullen om het even welke relevante gebieden als douanegebeurtenissen of profielattributen moeten worden in kaart gebracht als u het in het model wilt gebruiken. Dit kan worden gedaan in de configuratiestap van AI van de Klant in Experience Platform. &#x200B;
 
 De AI van de Klant integreert met Customer Journey Analytics (CJA) voor zover de Klant AI-Toegelaten datasets in gegevensmeningen en rapportering in CJA kunnen worden gebruikt. Met deze integratie kunt u
 
 * **Volgheidscores bijhouden voor een gebruikerssegment in de loop van de tijd**. Voorbeeld van gebruik: Hoe groot is de kans dat een hotelklant een showticket koopt op de concertlocatie van het hotel?
 * **Analyseren welke succesgebeurtenissen of kenmerken zijn gekoppeld aan propensiteitsscores**. &#x200B;Voorbeeld van gebruik: Ik wil de attributen of succesgebeurtenissen begrijpen verbonden aan aandrijvingsscores.
 * **Volg de ingangsstroom voor klantenneiging over verschillende het scoren looppas**. Voorbeeld van gebruik: Ik zou graag mensen willen begrijpen die aanvankelijk gebruikers met een lage dichtheid waren en die na verloop van tijd gebruikers met een hoge dichtheid werden. &#x200B;
-* **Kijk naar de verdeling van de neiging**. Hoofdlettergebruik: Ik zou graag de verdeling van de nevenscores voor mijn segmenten willen begrijpen. &#x200B;Voorbeeld: een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen.  Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enz. Zij analyseren de gegevens en besluiten slechts de hoogste 80%+ &#x200B; van hun klanten te richten.
+* **Kijk naar de verdeling van de neiging**. Hoofdlettergebruik: Ik zou graag de verdeling van de nevenscores voor mijn segmenten willen begrijpen. &#x200B;Voorbeeld: een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de hoogste 80%+ &#x200B; van hun klanten te richten.
 * **Kijk naar de neiging om in de loop der tijd een actie voor een bepaald cohort uit te voeren**. Hoofdlettergebruik: Ik wil graag een specifieke cohort bijhouden in de loop van de tijd. Dit is vergelijkbaar met het eerste voorbeeld, maar u kunt een specifieke cohort in de loop van de tijd bijhouden. &#x200B; Voorbeeld van ziekenhuisopname: Een markator kan hun bronzen laag in vergelijking met hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag in de loop van de tijd. Dan zien ze de neiging van elke cohort om het hotel in de loop van de tijd te boeken. &#x200B;
 
 ## Workflow
@@ -33,7 +33,7 @@ Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gew
 
 ### Stap 1: Een Customer AI-instantie configureren
 
-Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïnstalleerd, begint u met het volgende: [Een AI-instantie van een klant configureren](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) hulplijn.
+Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïnstalleerd, begint u met het volgende: [Een AI-instantie van een klant configureren](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) in Adobe Experience Platform.
 
 ### Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
 
