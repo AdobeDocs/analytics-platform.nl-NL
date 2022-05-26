@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-conne
 
 ### Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
-In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.md) die de Attribution AI XDM-velden bevatten. (Zou hier geweldig zijn om een screenshot te maken.)
+In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.md) die de Attribution AI XDM-velden bevatten.
 
 ### Stap 4: AAI-gegevens rapporteren in CJA Workspace
 
@@ -64,7 +64,7 @@ In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van 
 
 >[!IMPORTANT]
 >
->Deze afmetingen en metriek worden niet op deze manier genoemd. Dit zijn &quot;vriendelijke namen&quot;. De [naamgevingsconventie in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) volgt het schemapad. Wij adviseren het anders noemen van de lange namen van de schemaweg in AAI aan korte, gebruikersvriendelijkere namen (afmetingen/metriek) in CJA. U kunt dit doen in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Schema fields]** -> Klik op een schemaveld -> **[!UICONTROL Component name]**.
+>Deze afmetingen en metriek worden niet op deze manier genoemd. Dit zijn &quot;vriendelijke namen&quot;. De [naamgevingsconventie in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) volgt het schemapad. We raden u aan de namen van lange AAI-schemapaden te wijzigen in korte, gebruikersvriendelijkere namen (afmetingen/metriek) in CJA. U kunt dit doen in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Schema fields]** -> Klik op een schemaveld -> **[!UICONTROL Component name]**.
 
 
 **Orders met beïnvloede en incrementele scores**

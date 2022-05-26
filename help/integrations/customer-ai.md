@@ -4,9 +4,9 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,31 @@ In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create
 
 In de Werkruimte van CJA, kunt u een nieuw project en trekkracht in visualisaties nu tot stand brengen.
 
+**Scherptediepte**
+
 Hier is een voorbeeld van een project van de Werkruimte met de gegevens van CAI die de tendensiteitsscores voor een segment van gebruikers in tijd, in &#x200B; een gestapeld staafdiagram trends:
 
 ![Score-emmers](assets/workspace-scores.png)
+
+**Tabel met redencodes**
 
 Hier volgt een tabel met redencodes waarom een segment een &#x200B; met een hoge of lage dichtheid heeft:
 
 ![Reden](assets/reason-codes.png)
 
+**Invoerstroom voor klantgevoeligheid**
+
 Dit stroomdiagram toont de ingangsstroom voor klantenneiging over verschillende het scoren looppas &#x200B;:
 
 ![Invoer stroom](assets/flow.png)
 
+**Verdeling van de dichtheidsscores**
+
 In dit staafdiagram wordt de verdeling van &#x200B; voor de dichtheid getoond:
 
 ![Distributie](assets/distribution.png)
+
+**Propensiteit overlapt**
 
 In dit Venn-diagram ziet u de nevenoverlappingen in verschillende scoring-reeksen:
 
