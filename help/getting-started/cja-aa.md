@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
+source-git-commit: 146c8b9b4918c753391484dc1267e1cb90380525
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1301'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Merchandising-eVars | Volledige ondersteuning via [afmetingen binden en metriek binden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) (januari 2022) |
 | Metrics | volledige ondersteuning; CJA gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van traditionele Analytics. Merk op dat sommige standaardmetriek van traditionele Analytics zijn anders genoemd: Bezoekers = Personen, Bezoeken = Sessies, Hits = Gebeurtenissen. |
 | Metrische deduplicatie | Volledige ondersteuning |
+| Mobiel scorebord/dashboards | Volledige ondersteuning |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. |
 | PDF exporteren | Volledige ondersteuning |
 | Projectcuratie | Volledige ondersteuning |
