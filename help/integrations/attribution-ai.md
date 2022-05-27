@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
+source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -46,15 +46,27 @@ Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gew
 
 Maak in Experience Platform een Attribution AI-instantie door gegevens te selecteren en toe te wijzen, gebeurtenissen te definiëren en uw gegevens op te leiden, zoals beschreven [hier](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
+![AAI-instantie](assets/aai-instance.png)
+
 ### Stap 2: Een CJA-verbinding met gegevenssets van Attribution AI instellen
 
 In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van Experience Platforms die van instrumenten zijn voorzien voor Attribution AI. Deze datasets verschijnen met het prefix &quot;van Scores van de Attribution AI&quot;, zoals hier getoond:
 
 ![AAI-scores](assets/aai-scores.png)
 
+![Verbinding maken](assets/aai-create-connection.png)
+
 ### Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
 In CJA: [een of meer gegevensweergaven maken](/help/data-views/create-dataview.md) die de Attribution AI XDM-velden bevatten.
+
+Hier volgen de XDM-schemavelden voor aanraakpunten:
+
+![XDM-velden met aanraakpunten](assets/touchpoint-fields.png)
+
+En hier zijn de XDM schemagebieden voor omzetting:
+
+![XDM-velden converteren](assets/conversion-fields.png)
 
 ### Stap 4: AAI-gegevens rapporteren in CJA Workspace
 
@@ -66,6 +78,7 @@ In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van 
 >
 >Deze afmetingen en metriek worden niet op deze manier genoemd. Dit zijn &quot;vriendelijke namen&quot;. De [naamgevingsconventie in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) volgt het schemapad. We raden u aan de namen van lange AAI-schemapaden te wijzigen in korte, gebruikersvriendelijkere namen (afmetingen/metriek) in CJA. U kunt dit doen in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Schema fields]** -> Klik op een schemaveld -> **[!UICONTROL Component name]**.
 
+![Dimensienamen wijzigen](assets/change-name.png)
 
 **Orders met beïnvloede en incrementele scores**
 
