@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
+source-git-commit: 17e89d7cfeddff831e34fc441ee17de8b1c3fe21
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Datum | Beschrijving bijwerken |
 | --- | --- |
 | Mei 2022 | Significant bijgewerkt artikel op [verbindingen maken](/help/connections/create-connection.md) in CJA. |
-| Mei 2022 | Nieuw artikel over [CJA integreren met Attribution AI](/help/integrations/attribution-ai.md) in Adobe Experience Platform. |
-| Mei 2022 | Nieuw artikel over [CJA integreren met Customer AI in Adobe Experience Platform](/help/integrations/customer-ai.md). |
+| Mei 2022 | Nieuw artikel over de integratie van CJA met Attribution AI (link to follow) in Adobe Experience Platform. |
+| Mei 2022 | Nieuw artikel over de integratie van CJA met Customer AI in Adobe Experience Platform (link to follow). |
 | Mei 2022 | Nieuw artikel over hoe [gegevensblokken beheren in CJA Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
 | Mei 2022 | Nieuw artikel over [Adobe Experience Platform-publiek wordt opgenomen in CJA](/help/use-cases/ingest-aep-segments.md) |
 | April 2022 | Documentatie over [subtekenreeksen voor dimensies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
