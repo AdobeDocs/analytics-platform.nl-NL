@@ -4,7 +4,7 @@ title: Ad-hocprojectfilters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 6627c8e8f6e88fd93ffaad12b38e5e1dbbc844a8
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -20,8 +20,7 @@ Hier volgt een video over het maken van ad-hocprojectfilters:
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 
-1. 
-   1. Zet een componenttype (afmetingen, afmeting, item, gebeurtenis, metrisch, segment, segmentsjabloon, datumbereik) neer in de neerzetzone van het filter boven in een deelvenster. Componenttypen worden automatisch omgezet in ad-hocfilters of [Snelle filters](/help/components/filters/quick-filters.md) indien compatibel.
+1. Zet een componenttype (afmetingen, afmeting, item, gebeurtenis, metrisch, segment, segmentsjabloon, datumbereik) neer in de neerzetzone van het filter boven in een deelvenster. Componenttypen worden automatisch omgezet in ad-hocfilters of [Snelle filters](/help/components/filters/quick-filters.md) indien compatibel.
 
    Hier ziet u hoe u een filter voor het Twitter-verwijzingsdomein kunt maken:
 
