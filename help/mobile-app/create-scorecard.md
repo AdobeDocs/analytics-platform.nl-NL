@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 929656128214ed0dc2fe2195ea691122edb6566e
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
 >Schermafbeeldingen met scoreborden voor deze pagina zijn gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit CJA. De gebruikersinterface is bijna identiek.

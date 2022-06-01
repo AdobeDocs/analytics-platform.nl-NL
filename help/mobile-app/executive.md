@@ -5,16 +5,18 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
 
 # Snelle handleiding voor executive gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Als u een video wilt bekijken waarin deze informatie wordt getoond, raadpleegt u [Ervaring met Adobe Analytics-dashboards in de app](https://youtu.be/QXqQ_PkArbA).
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Hier volgt een video waarin deze informatie wordt getoond:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
 Deze gids is bedoeld om uitvoerende gebruikers te helpen scorecards op de dashboards van Analytics lezen en interpreteren. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
