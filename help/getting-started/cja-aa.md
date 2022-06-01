@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ab60cb09e4578be0fda642a3669af7e4c796fd52
+source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1418'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Datumvergelijkingen | Volledige ondersteuning |
 | Datumbereik | Alle functionaliteit voor datumbereik wordt ondersteund. |
 | zomertijd | Volledige ondersteuning |
-| Apparaat, Browser, Referrer, de dimensies van de Technologie | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. Raadpleeg onze [documentatie over de door ADC ondersteunde analytische variabelen](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). Voor klanten CJA die geen ADC gebruiken om gegevens van Adobe Analytics in CJA te bevolken, maar in plaats daarvan de gegevensinzameling van SDK van het Web van AEP gebruiken, wordt het Apparaat en de dimensies die op de raadpleging van het Apparaat worden gebaseerd momenteel niet gesteund, maar zullen in de nabije toekomst zijn. |
+| Apparaat, Browser, Referrer, de dimensies van de Technologie | Deze afmetingen worden automatisch opgenomen wanneer een AEP-gegevensset specifieke XDM-schemavelden bevat en voldoet aan de XDM Experience Event-klasse. Raadpleeg onze [documentatie over de door ADC ondersteunde analytische variabelen](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en).<p>Als u geen Adobe Source Connector gebruikt om gegevens van Adobe Analytics in CJA te bevolken, maar in plaats daarvan de gegevensinzameling van SDK van het Web van het Experience Platform te gebruiken, worden het Apparaat en de dimensies die op de raadpleging van het Apparaat worden gebaseerd momenteel niet gesteund. Zij zullen in de nabije toekomst worden gesteund. |
 | Dimensies | volledige ondersteuning; CJA gebruikt XDM en ondersteunt onbeperkte afmetingen. CJA is niet gekoppeld aan de aangepaste eVars of props van traditionele Adobe Analytics. |
 | GDPR-verwijdering | volledige ondersteuning; merkt op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Adobe Experience Platform]. CJA neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
 | Variabelen/lijsteigenschappen weergeven | volledige ondersteuning; CJA gebruikt XDM en steunt onbeperkte koordseries die op dezelfde manier als listVars kunnen worden gebruikt. |
@@ -52,6 +52,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Virtuele rapportsuites | volledige ondersteuning; Wordt nu aangeroepen [Gegevens](/help/data-views/create-dataview.md). |
 | VRS-componentcursus | volledige ondersteuning; Nu onderdeel van gegevensweergaven. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Ondersteund met caveats
 
 | Functie | Notities |
@@ -69,14 +71,18 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Gedeeltelijke ondersteuning
 
 | Functie | Notities |
 | --- | --- |
 | Bot filteren | Voor [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Op gegevenssets gebaseerde gegevenssets worden beide gefilterd. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of CJA. |
-| Media Analytics | De gegevens van media zijn beschikbaar als deel van de Bron van Analytics Schakelaar. |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segment vergelijken, Analytics voor Doel (A4T) en Medium Gelijktijdige Viewers worden niet ondersteund. |
 | Verwerkingsregels | Voor op gegevensschakelaar-gebaseerde datasets van Gegevens van Analytics, worden de verwerkingsregels nog toegepast. [Mogelijkheden voor gegevensuitwisseling in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) kan ook worden gebruikt als vervanging voor verwerkingsregels voor gegevens die rechtstreeks naar het Platform gaan. |
+| Streaming media-analyse | De mediagegevens zijn beschikbaar als onderdeel van de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Momenteel niet ondersteund, maar gepland
 
@@ -94,6 +100,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. Wordt in CJA &quot;Audience Publishing&quot; genoemd. |
 | Nieuwe versus herhaalde sessierapportage | De steun is gepland met sommige bedenkingen. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Steun nog niet gepland
 
 | Functie | Notities |
@@ -104,6 +112,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Gegevensfeeds | De steun is nog niet gepland. |
 | Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
 | Gegevensbronnen van transactie-id | De steun is nog niet gepland. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Wordt nooit ondersteund
 
