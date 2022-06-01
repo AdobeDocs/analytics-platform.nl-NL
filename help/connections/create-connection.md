@@ -4,16 +4,16 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
+source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 2%
+source-wordcount: '2233'
+ht-degree: 1%
 
 ---
 
 # Verbinding maken
 
-Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindingen gestart. Hier volgt een overzicht van de nieuwe mogelijkheden:
+Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindingen gestart. De nieuwe ervaring van de verbindingsverwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met hulpwerkschema.  Wij verstrekten gedetailleerde datasetselectie, configuratie, en overzichtservaring met kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Person IDs, en veel meer om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de nieuwe mogelijkheden:
 
 * U kunt het rollen venster van het gegevensbehoud toelaten wanneer u de verbinding creeert.
 * U kunt datasets toevoegen aan en verwijderen uit een verbinding. (Als u een gegevensset verwijdert, wordt deze uit de verbinding verwijderd en worden de bijbehorende gegevensweergaven en onderliggende Analysis Workspace-projecten beïnvloed.)
@@ -47,7 +47,7 @@ Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindi
    | **[!UICONTROL Key]** | Alleen voor opzoekgegevenssets (zoals _id). |
    | **[!UICONTROL Matching Key]** | Alleen voor opzoekgegevenssets (zoals _id). |
    | **[!UICONTROL Import new data]** | Instellen op Aan of Uit. |
-   | **[!UICONTROL Backfill data]** |  |
+   | **[!UICONTROL Backfill data]** | U kunt verzoeken de gegevens in een dataset terug te vullen die op gebeurtenistimestamps wordt gebaseerd. Bijvoorbeeld, kunt u verzoeken om de laatste 7 dagen van gegevens terug te vullen, juiste identiteitskaart van de Persoon te vormen en uw verbinding voor correcte configuratie te testen. Als alles er goed uitziet, kunt u eenvoudig back-ups maken van alle resterende gegevens.<p>Bovendien kunt u de invoer van nieuwe gegevens door dataset toelaten. U kunt bijvoorbeeld het importeren van nieuwe gegevens alleen inschakelen voor opzoekgegevens. |
    | **[!UICONTROL Backfill status]** | Geeft aan of er backfill-gegevens worden verwerkt. |
 
    {style=&quot;table-layout:auto&quot;}
@@ -77,7 +77,7 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
    | **[!UICONTROL Schema]** | Dit is het schema waarop de dataset in Adobe Experience Platform werd gecreeerd. |
    | **[!UICONTROL Dataset]** | De naam van de gegevensset. |
    | **[!UICONTROL Preview]**: `<dataset name>` | Hiermee geeft u een voorvertoning weer van de gegevensset met datum, mijn id- en id-kolommen. |
-   | **[!UICONTROL Remove]** | Verwijder deze dataset uit de verbinding. |
+   | **[!UICONTROL Remove]** | U kunt de dataset schrappen of verwijderen en identiteitskaart van de Persoon veranderen zonder de volledige verbinding te schrappen. Dit vermindert de kosten verbonden aan gegevensopname en het lastige proces om de volledige verbinding en bijbehorende gegevensmeningen opnieuw te creëren. |
 
    {style=&quot;table-layout:auto&quot;}
 
