@@ -1,11 +1,11 @@
 ---
 title: Overzicht van berekende metriek
-description: Meer informatie over
+description: Leer over gefilterde metriek die bij rapportruntime worden afgeleid.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
+source-git-commit: e98b21824789600c7729cce99d7592011ad18577
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '457'
 ht-degree: 4%
 
 ---

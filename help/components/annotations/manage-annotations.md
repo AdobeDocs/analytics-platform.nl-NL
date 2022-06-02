@@ -4,9 +4,9 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
+source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ De [!UICONTROL Annotations] de manager toont u alle annotaties u bezit die aan a
 | [!UICONTROL Applied Date Range] | De datum of het datumbereik waarop deze aantekening van toepassing is. |
 | [!UICONTROL Shared with] | Hier wordt weergegeven met hoeveel personen of groepen u de annotatie hebt gedeeld. Klik voor meer details. |
 | [!UICONTROL Date Modified] | Geeft de datum en tijd weer waarop de annotatie voor het laatst is gewijzigd. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Annotaties bewerken
 
@@ -75,3 +77,5 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 | Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
 | Exporteren naar CSV | Exporteer de annotatiedefinitie naar een CSV-bestand. |
 | Filter (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
+
+{style=&quot;table-layout:auto&quot;}
