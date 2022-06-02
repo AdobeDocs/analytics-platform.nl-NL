@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -76,9 +76,9 @@ Hoewel u nog niet kunt delen of publiceren [!UICONTROL filters] ([!UICONTROL seg
 
 Naast het concept van segmenten die veranderen, worden de segmentcontainers ook bijgewerkt.
 
-* **Handcontainers zijn nu &#39;Event&#39;-containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor bezoekers binnen de opgegeven tijdsperiode.
-* **Bezoek containers zijn nu &#39;Sessie&#39;-containers**. De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren.
-* **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor bezoekers binnen de opgegeven tijdsperiode.
+* **Handcontainers zijn nu [!UICONTROL Event] containers**. De [!UICONTROL Event] Met de container kunt u bezoekersinformatie onderverdelen op basis van afzonderlijke paginaweergaven/hits.
+* **Bezoek containers zijn nu [!UICONTROL Session] containers**. De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren.
+* **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor een bezoeker binnen de opgegeven tijdsperiode.
 
 ## Wijzigingen in het concept van berekende meetwaarden
 
