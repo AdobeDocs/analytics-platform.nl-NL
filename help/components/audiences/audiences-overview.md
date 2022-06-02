@@ -1,9 +1,9 @@
 ---
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Het publiek publiceert een duidelijke manier om actie te ondernemen tegen de inz
 * E-mails verzenden naar dit publiek.
 * Pushberichten verzenden naar dit publiek.
 * Het publiek gebruiken voor een reis in Adobe Journey Optimizer.
-* Het publiek naar een derde via een AEP-bestemming exporteren
+* Het publiek naar een derde via een bestemming van een Experience Platform exporteren.
 
 ## Belangrijke terminologie
 
@@ -34,5 +34,7 @@ Beheerders krijgen automatisch de opdracht [!UICONTROL Audience Publishing] toes
 
 ## Volgende stappen
 
+* [Soorten publiek maken en publiceren](/help/components/audiences/publish.md)
+* [Soorten publiek beheren](/help/components/audiences/manage.md)
 
 
