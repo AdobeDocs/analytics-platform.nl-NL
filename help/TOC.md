@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
+source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '639'
 ht-degree: 37%
 
 ---
@@ -162,6 +162,10 @@ ht-degree: 37%
       + [Annotaties maken](components/annotations/create-annotations.md)
       + [Annotaties beheren](components/annotations/manage-annotations.md)
       + [Annotaties weergeven](components/annotations/view-annotations.md)
+   + Soorten publiek {#audiences}
+      + [Overzicht van soorten publiek](components/audiences/audiences-overview.md)
+      + [Soorten publiek maken en publiceren](components/audiences/publish.md)
+      + [Soorten publiek beheren](components/audiences/manage.md)
    + Dimensies {#dimensions}
       + [Voorvertoningsdimensies](components/dimensions/view-dimensions.md)
       + [Uitsplitsingsdimensies](components/dimensions/t-breakdown-fa.md)
