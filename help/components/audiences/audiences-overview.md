@@ -1,9 +1,9 @@
 ---
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
-source-git-commit: 9d19e1ea55a6c2de701d38cb417d6d39e753c640
+source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >
 >Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
-U kunt nu publiek publiceren dat is ontdekt in Customer Journey Analytics (CJA) aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie. Met het Profiel van de Klant in real time, kunt u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt.
+U kunt nu publiek maken en publiceren dat is ontdekt in Customer Journey Analytics (CJA) naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie. Met het Profiel van de Klant in real time, kunt u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt.
 
 Het publiek publiceert een duidelijke manier om actie te ondernemen tegen de inzichten die in CJA zijn gevonden. Deze acties kunnen het volgende omvatten:
 

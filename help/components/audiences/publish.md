@@ -1,9 +1,9 @@
 ---
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
-Dit onderwerp bespreekt hoe te om publiek te publiceren dat in Customer Journey Analytics (CJA) wordt ontdekt aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics (CJA) wordt ontdekt aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
 Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis te nemen van het CJA-publiek.
 
@@ -47,7 +47,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale waarde. is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
    | [!UICONTROL Filter] | Filters zijn de belangrijkste invoer voor het publiek. U kunt maximaal 20 filters toevoegen. Deze filters kunnen worden aangesloten met `And` of `Or` operatoren. |
-   | [!UICONTROL View sample IDs] | Een voorbeeld van id&#39;s in dit publiek. Gebruik de zoekbalk om te zoeken naar voorbeeld-id&#39;s.<p>!![](assets/sample-ids.png |
+   | [!UICONTROL View sample IDs] | Een voorbeeld van id&#39;s in dit publiek. Gebruik de zoekbalk om te zoeken naar voorbeeld-id&#39;s. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -72,7 +72,23 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 1. Als alles er goed uitziet, klikt u op **[!UICONTROL Publish]**.
 
+   Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd.
+
+1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en wordt u doorgestuurd naar de gebruikersinterface van Segment in Adobe Experience Platform. Zie hieronder voor meer informatie.
+
+## CJA-publiek gebruiken in Experience Platform
+
+U kunt CJA-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
+
+U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
+
+![](assets/audiences-aep.png)
+
+Als u ervoor kiest om deze Publiek naar het meer van Gegevens van AEP uit te voeren, zal het als dataset verschijnen die aan de Klasse van het Schema van het Individuele Profiel XDM in overeenstemming is:
+
+![](assets/aep-datalake.png)
+
+
 ## Volgende stappen
 
 * Ga naar de [Gebruikersinterface voor beheer](/help/components/audiences/manage.md).
-* Ga hier om met dit publiek in Adobe Experience Platform te werken.
