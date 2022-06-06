@@ -1,13 +1,13 @@
 ---
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
-source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
+exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
+source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
-
 
 # Soorten publiek maken en publiceren
 
@@ -65,18 +65,20 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Estimated audience return] | Deze instelling is handig als u klanten in dit publiek die terugkeren naar uw site opnieuw wilt richten. (Met andere woorden, die opnieuw in deze dataset worden gezien.) <p>Hier kunt u het tijdkader (volgende 7 dagen, volgende 2 weken, volgende maand) selecteren voor het geschatte aantal klanten dat kan terugkeren. |
    | [!UICONTROL Estimated to return] | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u van de drop-down lijst selecteerde. We kijken naar de historische waarde van de kroon voor dit publiek om dit getal te voorspellen. |
    | [!UICONTROL Preview metrics] | Met deze instelling kunt u naar specifieke maateenheden kijken om te zien of dit publiek een onevenredig grote bijdrage levert aan deze metrische waarde, zoals &#39;[!UICONTROL Revenue]&#39; of &#39;[!UICONTROL Average time on site]&quot;. Het geeft u het totale aantal metrisch, evenals het percentage van het totaal het vertegenwoordigt. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
-   | Ingesloten naamruimten | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-   | Sandbox | De sandbox met Experience Platform waarin dit publiek zich bevindt. Wanneer u dit publiek naar het Platform publiceert, kunt u er alleen binnen de grenzen van deze sandbox mee werken. |
+   | [!UICONTROL Namespaces included] | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
+   | [!UICONTROL Sandbox] | De [Experience Platform sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) waarin dit publiek woont. Wanneer u dit publiek naar het Platform publiceert, kunt u er alleen binnen de grenzen van deze sandbox mee werken. |
 
    {style=&quot;table-layout:auto&quot;}
 
-1. Als alles er goed uitziet, klikt u op **[!UICONTROL Publish]**.
+1. Controleer uw publieksconfiguratie tweemaal en klik **[!UICONTROL Publish]**.
 
    Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd.
 
-1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en wordt u doorgestuurd naar de gebruikersinterface van Segment in Adobe Experience Platform. Zie hieronder voor meer informatie.
+1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## CJA-publiek gebruiken in Experience Platform
+
+CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar Real-time klantprofiel. RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Als het één vindt, zal het namespace en identiteitskaart aan andere IDs in dit profiel als attribuut van het segmentlidmaatschap toevoegen. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op al zijn apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 U kunt CJA-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
 
