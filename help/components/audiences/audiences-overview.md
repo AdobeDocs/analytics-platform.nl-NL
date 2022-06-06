@@ -2,9 +2,9 @@
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
+source-git-commit: 1fd3bc1f0d62bedfbaebfe6ca84099ccbd9d3c5f
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 1%
 
 U kunt nu publiek maken en publiceren dat is ontdekt in Customer Journey Analytics (CJA) naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) in Adobe Experience Platform voor klantgerichtheid en personalisatie. Met het Profiel van de Klant in real time, kunt u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt.
 
-Het publiek publiceert een duidelijke manier om actie te ondernemen tegen de inzichten die in CJA zijn gevonden. Deze acties kunnen het volgende omvatten:
+Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden inzichten te activeren en actie te ondernemen. Deze acties kunnen het volgende omvatten:
 
 * E-mails verzenden naar dit publiek.
 * Pushberichten verzenden naar dit publiek.
 * Het publiek gebruiken voor een reis in Adobe Journey Optimizer.
 * Het publiek naar een derde via een bestemming van een Experience Platform exporteren.
 * Het verrijken van het Real-time klantenprofiel met nuttige attributen die uit op gebeurtenis-gebaseerde gegevens in CJA worden afgeleid, zonder het moeten alle gebeurtenisgegevens aan RTCP toevoegen.
+* Dit alles doen met minimale vertraging na publicatie van het publiek (een paar minuten)
+* Eenmalig publiek of terugkerend publiek publiceren
 
 ## Belangrijke terminologie
 
