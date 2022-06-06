@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -72,13 +72,13 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 1. Controleer uw publieksconfiguratie tweemaal en klik **[!UICONTROL Publish]**.
 
-   Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd.
+   Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd. Het duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt. (Zelfs voor het publiek met miljoenen leden moet het minder dan 5 minuten duren.)
 
 1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## CJA-publiek gebruiken in Experience Platform
 
-CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar Real-time klantprofiel. RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Als het één vindt, zal het namespace en identiteitskaart aan andere IDs in dit profiel als attribuut van het segmentlidmaatschap toevoegen. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op al zijn apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
+CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op al zijn apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 U kunt CJA-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
 
