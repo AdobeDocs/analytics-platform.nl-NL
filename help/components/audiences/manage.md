@@ -1,13 +1,13 @@
 ---
 title: In Customer Journey Analytics gemaakt publiek beheren
 description: Leer hoe u het publiek beheert in Customer Journey Analytics
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
+source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # In Customer Journey Analytics gemaakt publiek beheren
 
@@ -25,8 +25,6 @@ Door eerder gemaakte soorten publiek te beheren, kunt u
 
 ## Gebruikersinterface voor beheer
 
-screenshot
-
 | UI-instelling | Definitie |
 | --- | --- |
 | Filters verbergen/tonen | Hiermee kunt u de volgende filters in de linkerrails weergeven of verbergen: <ul><li>Gegevens, weergave</li><li>Eigenaar</li><li>Frequentie vernieuwen</li><li>Tags</li></ul> |
@@ -40,4 +38,3 @@ screenshot
 | [!UICONTROL Last Modified] | Wanneer het publiek voor het laatst is bewerkt of gewijzigd. |
 
 {style=&quot;table-layout:auto&quot;}
-
