@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 37%
@@ -95,7 +95,7 @@ ht-degree: 37%
          + [Filters toepassen in falloutanalyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
-         + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Stroominstellingen](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogram](analysis-workspace/visualizations/histogram.md)

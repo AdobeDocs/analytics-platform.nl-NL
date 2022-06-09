@@ -3,18 +3,14 @@ description: Met een interdimensionale stroom kunt u gebruikerspaden in verschil
 title: Interdimensionale stromen
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
 
 # Interdimensionale stromen
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 
