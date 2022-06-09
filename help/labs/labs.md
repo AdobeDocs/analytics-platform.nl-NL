@@ -2,13 +2,13 @@
 title: Gebruikershandleiding voor labels
 description: Voorvertoning maken van prototypeprojecten voor Customer Journey Analytics
 role: Admin
-source-git-commit: 2e1a97b6ed2bfd1f8c03399b635a6135c26bce55
+exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
+source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL Labs] Handboek
 
@@ -68,8 +68,12 @@ Een prototype starten en evalueren:
 
 1. Klikken **[!UICONTROL Submit]** om terug te keren naar de hoofdportal Voorvertoningen.
 
+## CJA Labs-prototypen
+
+* Generator van inzicht in de natuurlijke taal: Verstrekt een natuurlijk-taalsamenvatting van om het even welke gegevens die u in een vrije vormlijst analyseert.
+* Aanbevolen visualisatie: adviseert visualisaties die goed met uw gegevens koppelen.
+
 ## Aanvullende informatie
 
 * Sommige prototypen binnen [!UICONTROL Labs] worden Customer Journey Analytics-functies, andere niet. Je feedback geeft de beslissing, dus bekijk de prototypen en laat Adobe weten hoe waardevol je ze vindt.
 * Labs is beschikbaar voor alle SKU-rechten.
-
