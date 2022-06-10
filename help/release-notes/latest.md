@@ -3,31 +3,28 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
+source-git-commit: 74c93b9327b1c7081c461187d53b1b27a686cfdd
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 4%
+source-wordcount: '211'
+ht-degree: 2%
 
 ---
 
-# Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (mei 2022)
+# Opmerkingen bij de release Current Customer Journey Analytics (CJA) (juni 2022)
 
-**Laatste update**: 19 mei 2022
+**Laatste update**: 10 juni 2022
 
 ## Belangrijkste kenmerken
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Nieuwe interface voor bewerken en maken van verbindingen | Deze gestroomlijnde ervaring laat u gegevens op datasetniveau terugvullen, een het rollen venster van het gegevensbehoud toelaten, aan datasets toevoegen en verwijderen uit een verbinding. [Meer informatie](/help/connections/create-connection.md) | 18 mei 2022 |
-| Report Builder voor CJA-updates | Bevat functies zoals planning en gegevensblokbeheer. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) | 18 mei 2022 |
-| AI-integratie van klant | Hiermee kunt u scores voor AI-modellen van klanten opnemen in CJA voor verdere analyse in de CJA-analysewerkruimte. Meer informatie - binnenkort beschikbaar | TBD |
-| Attribution AI integratie | Hiermee kunt u de scores voor Attribution AI-modellen in CJA invoeren voor verdere analyse in de CJA-werkruimte Analyse. Meer informatie - binnenkort beschikbaar | TBD |
+| Publiceren van het publiek aan het Profiel van de Klant in real time | Staat u toe om publiek te publiceren dat in CJA aan AEP/RTCDP voor klant wordt ontdekt richt en verpersoonlijking. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | 15 juni 2022 |
+| Nieuwe interface voor stroomvisualisatie | Biedt extra functionaliteit voor onze stroomvisualisatie om deze krachtiger en beter in staat te maken. Meer informatie (volgen) | 15 juni 2022 |
+| Ondersteuning voor numerieke velden als opzoektoetsen en opzoekwaarden | Nuttig als u tekenreekswaarden wilt classificeren met een numeriek veld, zoals een COGS of marge op een product-SKU. Het toestaan van metriek van raadplegingen helpt u deze gegevenspunten in rapportering krijgen. Meer informatie (volgen) | 15 juni 2022 |
+| Analyselaboratoria in CJA | Ondersteuning voor Labs in CJA zodat u prototypen kunt verkennen met gegevens over meerdere kanalen. [Meer informatie](/help/labs/labs.md) | 15 juni 2022 |
+| Annotaties delen op mobiele scorecards | U kunt annotaties weergeven die zijn gemaakt in Workspace, in Mobiele Scorecards. Hierdoor kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes rechtstreeks delen binnen Mobile Scorecard-projecten, die kunnen worden weergegeven in de mobiele app Analytics dashboards. Meer informatie (volgen) | 15 juni 2022 |
 
 {style=&quot;table-layout:auto&quot;}
-
-### CJA-correcties
-
-AN-279234; AN-284839; AN-285417
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics-documentupdates](/help/release-notes/doc-changes.md)
