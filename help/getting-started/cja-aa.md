@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
+source-git-commit: ab44c58a4089a5a48ad845579fb536f668d9f9f6
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
+| Publiek publiceren | Volledige ondersteuning. Opgeroepen Segment Publishing (verzending van segmenten van Workspace naar Experience Cloud) in AA. [Publiek publiceren](/help/components/audiences/audiences-overview.md) stuurt het publiek naar het Real-time Klantprofiel in het Platform van de Ervaring. |
 | Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
 | Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
 | Builder voor classificatieregels | Volledige ondersteuning. Geroepen [subtekenreeksen](/help/data-views/component-settings/substring.md) in CJA. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
@@ -97,7 +98,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Projectsjablonen | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
-| Segmentpublicatie (segmenten verzenden van Workspace naar Experience Cloud) | Er is steun gepland. Wordt in CJA &quot;Audience Publishing&quot; genoemd. |
 | Nieuwe versus herhaalde sessierapportage | De steun is gepland met sommige bedenkingen. |
 
 {style=&quot;table-layout:auto&quot;}
