@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Veel van wat u op de verslaggevende kant kent is niet veranderd.
 
 * U kunt de kracht van [Analysis Workspace](/help/analysis-workspace/home.md) om uw gegevens te analyseren. Workspace werkt op dezelfde manier als in traditionele Adobe Analytics.
 * Dezelfde versie van [Adobe Analytics-dashboards](/help/mobile-app/home.md) is beschikbaar en werkt op vergelijkbare wijze tussen CJA en traditionele Analytics.
-* [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt op MS Windows, iOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kunt u deze alleen gebruiken in Mac als u deze versie op VMware hebt uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
+* [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt op MS Windows, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kunt u deze alleen gebruiken in Mac als u deze versie op VMware hebt uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
 
 ## Wijzigingen in de rapportage
 
