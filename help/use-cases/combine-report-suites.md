@@ -1,19 +1,19 @@
 ---
 title: Rapportsuites combineren met verschillende schema's
 description: Leer hoe te om Prep van Gegevens te gebruiken om rapportreeksen met verschillende schema's te combineren
-source-git-commit: c602ee5567e7ba90d1d302f990cc1d8fc49e5adc
+source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
 
 
-# De Reeksen van het Rapport met Verschillende Schema&#39;s combineren
+# Rapportsets combineren met verschillende schema&#39;s
 
-De [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) biedt een manier om rapportsuite-gegevens van Adobe Analytics naar de Adobe Experience Platform te brengen voor gebruik door AEP-toepassingen, zoals Real-time Customer Data Platform en Customer Journey Analytics (CJA). Elke rapportsuite die in AEP wordt geïntroduceerd, wordt geconfigureerd als een individuele bronverbindingsgegevensstroom en elke gegevensstroom landt als een gegevensset binnen het AEP-gegevensmeer. De verbinding van de Bron van Analytics leidt tot één dataset per rapportreeks.
+De [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) brengt rapportsuite-gegevens van Adobe Analytics naar de Adobe Experience Platform (AEP) voor gebruik door AEP-toepassingen, zoals Real-time Customer Data Platform en Customer Journey Analytics (CJA). Elke rapportsuite die in AEP wordt geïntroduceerd, wordt geconfigureerd als een individuele bronverbindingsgegevensstroom en elke gegevensstroom landt als een gegevensset binnen het AEP-gegevensmeer. De verbinding van de Bron van Analytics leidt tot één dataset per rapportreeks.
 
-CJA-klanten gebruiken [verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en) gegevenssets van het gegevensmeer van AEP te integreren in de Analysis Workspace van CJA. Wanneer echter een combinatie wordt gemaakt van een combinatie van een rapportsuite, moeten de schemaverschillen tussen de rapportsuites worden opgelost aan de hand van de [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) functionaliteit om ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in CJA.
+CJA-klanten gebruiken [verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en) gegevenssets van het gegevensmeer van AEP te integreren in de Analysis Workspace van CJA. Wanneer echter een combinatie wordt gemaakt van een combinatie van een rapportsuite, moeten de schemaverschillen tussen de rapportsuites worden opgelost aan de hand van de [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) functionaliteit. Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in CJA.
 
 ## Schemaverschillen tussen rapportsuites zijn problematisch
 
@@ -21,8 +21,8 @@ Stel dat uw bedrijf gegevens van twee verschillende rapportsuites in AEP wil bre
 
 | Reeks A rapporteren | Reeks B rapporteren |
 | --- | --- |
-| eVar1 => Zoekterm | eVar1 => Bedrijfseenheid |
-| eVar2 => Klantcategorie | eVar2 => Zoekterm |
+| eVar1 = Zoekterm | eVar1 = Bedrijfseenheid |
+| eVar2 = Klantcategorie | eVar2 = Zoekterm |
 
 Om het eenvoudig te houden, laten we zeggen dat dit de enige gedefinieerde eVars zijn voor beide rapportsuites.
 
@@ -30,8 +30,8 @@ Stel dat u de volgende handelingen uitvoert:
 
 - Een verbinding met een bron voor Analytics maken (zonder gegevensprep) die wordt toegevoegd **Reeks A rapporteren** in AEP data Lake als **Gegevensset A**.
 - Een verbinding met een bron voor Analytics maken (zonder gegevensprep) die wordt toegevoegd **Reeks B rapporteren** in AEP data Lake als **Gegevensset B**.
-- Een CJA-verbinding maken met de naam **Alle rapportsets** die Dataset A en Dataset B combineert.
-- Een CJA-gegevensweergave maken met de naam **Globale weergave** dat is gebaseerd op de Al verbinding van de Reeksen van het Rapport.
+- Een [CJA-verbinding](/help/connections/create-connection.md) gebeld **Alle rapportsets** die Dataset A en Dataset B combineert.
+- Een [CJA-gegevensweergave](/help/data-views/create-dataview.md) gebeld **Globale weergave** dat is gebaseerd op de Al verbinding van de Reeksen van het Rapport.
 
 Zonder het gebruik van Prep van Gegevens om de schemaverschillen tussen Dataset A en Dataset B op te lossen, zullen eVars in de Globale mening gegevensmening een mengeling van waarden bevatten:
 
@@ -48,9 +48,9 @@ Deze situatie leidt tot betekenisloze verslagen voor eVar1 en eVar2:
 
 ## De Prep van Gegevens van AEP van het gebruik om schemaverschillen tussen rapportreeksen op te lossen
 
-De functionaliteit van de Prep van Gegevens van AEP is geïntegreerd met de Bron van Analytics Schakelaar en kan worden gebruikt om de schemaverschillen op te lossen die in het bovenstaande scenario worden beschreven. Dit resulteert in eVars met verenigbare betekenissen in de CJA gegevensmening. (De naamgevingsconventies die hieronder worden gebruikt, kunnen naar wens worden aangepast.)
+De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd met de Bronverbinding Analytics en kan worden gebruikt om de schemaverschillen op te lossen die in het bovenstaande scenario worden beschreven. Dit resulteert in eVars met verenigbare betekenissen in de CJA gegevensmening. (De naamgevingsconventies die hieronder worden gebruikt, kunnen naar wens worden aangepast.)
 
-1. Creëer vóór het creëren van de gegevensstromen van de bronverbinding voor de Reeks A van het Rapport en Suite B, een groep van het douanegebied in AEP (wij zullen het noemen **Verenigde velden** in ons voorbeeld) dat de volgende gebieden bevat:
+1. Voordat u de gegevensstromen van de bronverbinding maakt voor Report Suite A en Report Suite B, [een aangepaste veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) in AEP (we noemen het **Verenigde velden** in ons voorbeeld) dat de volgende gebieden bevat:
 
    | Aangepaste veldgroep &quot;Verenigde velden&quot;  |
    | --- |
@@ -58,7 +58,7 @@ De functionaliteit van de Prep van Gegevens van AEP is geïntegreerd met de Bron
    | Bedrijfseenheid |
    | Klantcategorie |
 
-1. Een nieuw schema maken in AEP (we noemen het **Unified Schema** in ons voorbeeld.) Voeg de volgende veldgroepen toe aan het schema:
+1. [Een nieuw schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) in AEP (we noemen het **Unified Schema** in ons voorbeeld.) Voeg de volgende veldgroepen toe aan het schema:
 
    | Veldgroepen voor &quot;Unified Schema&quot; |
    | --- |
@@ -106,9 +106,9 @@ De functionaliteit van de Prep van Gegevens van AEP is geïntegreerd met de Bron
 
    U hebt nu eVar1 en eVar2 van de bronrapportreeksen aan drie nieuwe gebieden in kaart gebracht. Merk op dat een ander voordeel van het gebruiken van de afbeeldingen van de Prep van Gegevens is dat de bestemmingsgebieden nu op semantisch betekenisvolle namen (de term van het Onderzoek, BedrijfsEenheid, de categorie van de Klant) in plaats van de minder betekenisvolle namen van eVar (eVar1, eVar2.) worden gebaseerd.
 
->[!NOTE]
->
->De verenigde groep van het douaneveld, en de bijbehorende gebiedstoewijzingen kunnen aan bestaande gegevensstromen en datasets van de Bron van Analytics van de Schakelaar op elk ogenblik worden toegevoegd. Dit is echter alleen van invloed op doorlopende gegevens.
+   >[!NOTE]
+   >
+   >De verenigde groep van het douaneveld, en de bijbehorende gebiedstoewijzingen kunnen aan bestaande gegevensstromen en datasets van de Bron van Analytics van de Schakelaar op elk ogenblik worden toegevoegd. Dit is echter alleen van invloed op doorlopende gegevens.
 
 ## Meer dan alleen rapportsuites
 
