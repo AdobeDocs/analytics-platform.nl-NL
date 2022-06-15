@@ -1,22 +1,19 @@
 ---
-title: 'Mobiele scorebordannotaties    '
+title: Mobiele scorebordannotaties
 description: Leer hoe u annotaties kunt oppervlakken in Mobile Scorecards.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 20e495040c213c5fff0450cddc1899ce340f785d
+exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
+source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 
 # Annotaties delen in mobiele scoreborden
-
->[!NOTE]
->
->Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 U kunt annotaties weergeven die zijn gemaakt in Workspace, in Mobiele Scorecards. Hierdoor kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes rechtstreeks delen binnen Mobile Scorecard-projecten, die kunnen worden weergegeven in de mobiele app Analytics dashboards.
 
@@ -26,17 +23,17 @@ Als u annotaties in mobiele scorecards wilt weergeven, maakt u eerst de annotati
 
 Voor informatie over het maken van annotaties raadpleegt u [Annotaties maken](create-annotations.md). Annotaties worden standaard uitgeschakeld in mobiele scorecards. Deze annotaties moeten zijn ingeschakeld voor elke scorecard die u wilt laten verschijnen in mobiele scorecards.
 
-1. Schakel notities in. Als u annotaties wilt inschakelen, raadpleegt u [Annotaties in- of uitschakelen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
+1. Schakel notities in. Als u annotaties wilt inschakelen, raadpleegt u [Annotaties in- of uitschakelen](overview.md#annotations-on-off).
 
 1. Maak een annotatie en zorg ervoor dat deze wordt gedeeld met al uw projecten. Als u een annotatie wilt maken in Workspace, raadpleegt u [Annotaties maken](create-annotations.md).
 
 1. Selecteren **Annotaties tonen** om de annotatie weer te geven in Mobile Scorecards.
 
-![](assets/show-annotations.png)
+   ![](assets/show-annotations.png)
 
 1. Bevestig dat Annotaties tonen is geselecteerd, ga naar **Project** > **Projectinformatie en instellingen**.
 
-![](assets/project-info-settings.png)
+   ![](assets/project-info-settings.png)
 
 ## Annotaties weergeven in mobiele scènes
 
