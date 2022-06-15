@@ -3,18 +3,14 @@ title: Gebruikershandleiding voor labels
 description: Voorvertoning maken van prototypeprojecten voor Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
-source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Labs] Handboek
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 [!UICONTROL Labs] maakt het mogelijk sneller prototypen te maken van ideeën in een vroeg stadium. Het is een combinatie hulpmiddelen en processen die ontwikkeling doorzichtig, met een klantennadruk versnelt. Het staat gebruikers toe om met opkomende technologieën in wisselwerking te staan, waardevolle inzichten te ontdekken, en toekomstige eigenschapontwikkeling en prioriteiten te beïnvloeden. U kunt Laboratoria gebruiken om vroege toegang tot Customer Journey Analytics (CJA) innovaties te krijgen en komende eigenschappen binnen de context van uw eigen zaken te evalueren gebruiksgevallen en gegevens.
 

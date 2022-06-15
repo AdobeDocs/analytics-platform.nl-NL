@@ -2,18 +2,14 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 0108b07fd4fac33d026b8832931ffa3018b298e0
+source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Soorten publiek maken en publiceren
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics (CJA) wordt geïdentificeerd aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
@@ -60,8 +56,8 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | Voorvertoning instellen | Beschrijving |
    | --- | --- |
    | [!UICONTROL Data preview] venster | Het datumbereik voor het publiek. |
-   | [!UICONTROL Total people] | Een samenvattingsnummer van het totale aantal personen in dit publiek. Het kan tot 100 miljoen mensen gaan. Als uw publiek meer dan 100 miljoen mensen telt, moet u de omvang van het publiek reduceren voordat u het kunt publiceren. |
-   | [!UICONTROL Audience size limit] | Toont hoe ver van de 100 miljoen grens dit publiek is. |
+   | [!UICONTROL Total people] | Een samenvattingsnummer van het totale aantal personen in dit publiek. Het kan maar liefst 200 miljoen mensen gaan. Als uw publiek meer dan 200 miljoen mensen telt, moet u de omvang van het publiek reduceren voordat u het kunt publiceren. |
+   | [!UICONTROL Audience size limit] | Toont hoe ver van de 200 miljoen grens dit publiek is. |
    | [!UICONTROL Estimated audience return] | Deze instelling is handig als u klanten in dit publiek die terugkeren naar uw site opnieuw wilt richten. (Met andere woorden, die opnieuw in deze dataset worden gezien.) <p>Hier kunt u het tijdkader (volgende 7 dagen, volgende 2 weken, volgende maand) selecteren voor het geschatte aantal klanten dat kan terugkeren. |
    | [!UICONTROL Estimated to return] | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u van de drop-down lijst selecteerde. We kijken naar de historische waarde van de kroon voor dit publiek om dit getal te voorspellen. |
    | [!UICONTROL Preview metrics] | Met deze instelling kunt u naar specifieke maateenheden kijken om te zien of dit publiek een onevenredig grote bijdrage levert aan deze metrische waarde, zoals &#39;[!UICONTROL Revenue]&#39; of &#39;[!UICONTROL Average time on site]&quot;. Het geeft u het totale aantal metrisch, evenals het percentage van het totaal het vertegenwoordigt. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |

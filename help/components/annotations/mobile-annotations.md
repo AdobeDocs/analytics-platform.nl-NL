@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Voor informatie over het maken van annotaties raadpleegt u [Annotaties maken](cr
 
 1. Maak een annotatie en zorg ervoor dat deze wordt gedeeld met al uw projecten. Als u een annotatie wilt maken in Workspace, raadpleegt u [Annotaties maken](create-annotations.md).
 
-1. Selecteren **Annotaties tonen** om de annotatie weer te geven in Mobile Scorecards.
+1. Selecteren **[!UICONTROL Show annotations]** om de annotatie weer te geven in Mobile Scorecards.
 
    ![](assets/show-annotations.png)
 
-1. Bevestig dat Annotaties tonen is geselecteerd, ga naar **Project** > **Projectinformatie en instellingen**.
+1. Bevestig dat Annotaties tonen is geselecteerd, ga naar **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**.
 
    ![](assets/project-info-settings.png)
 
@@ -49,6 +49,6 @@ Annotatiekleuren worden geselecteerd wanneer de annotatie wordt gemaakt in de we
 
 | Datum | Weergave |
 | --- | --- |
-| **Eén dag** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Datumbereik** | ![](assets/date-range.png) |
-| **Overlappende annotaties** | ![](assets/overlapping-annotations.png)<br></br>Tik op een annotatiepictogram om de annotatiedetails weer te geven in de app Analytics dashboards. <br></br>Wanneer u een annotatie in een diagram weergeeft, kunt u naar links en naar rechts vegen om door alle annotaties in het diagram te navigeren. Als u een annotatie in de tabel weergeeft, veegt u naar links en naar rechts om door alle annotaties te navigeren die aan dat rijitem in de tabel zijn gekoppeld. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>In grafieken zonder tijdbasis *x-as*, zoals de donut- of horizontale staafdiagrammen, kunnen annotaties die van toepassing zijn op het diagram worden weergegeven door te tikken op het pictogram in de rechterbenedenhoek.<br></br> ![](assets/charts-without-timebase.png) |
+| **[!UICONTROL Single da]y** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **[!UICONTROL Date range]** | ![](assets/date-range.png) |
+| **[!UICONTROL Overlapping annotations]** | ![](assets/overlapping-annotations.png)<br></br>Tik op een annotatiepictogram om de annotatiedetails weer te geven in de app Analytics dashboards. <br></br>Wanneer u een annotatie in een diagram weergeeft, kunt u naar links en naar rechts vegen om door alle annotaties in het diagram te navigeren. Als u een annotatie in de tabel weergeeft, veegt u naar links en naar rechts om door alle annotaties te navigeren die aan dat rijitem in de tabel zijn gekoppeld. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>In grafieken zonder tijdbasis *x-as*, zoals de donut- of horizontale staafdiagrammen, kunnen annotaties die van toepassing zijn op het diagram worden weergegeven door te tikken op het pictogram in de rechterbenedenhoek.<br></br> ![](assets/charts-without-timebase.png) |

@@ -4,9 +4,9 @@ title: Projecten opslaan
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,6 @@ Voor **bestaand** projecten, wanneer u terugkeert naar Workspace, ziet u een **P
 Voor **new** projecten die nooit zijn opgeslagen, niet-opgeslagen wijzigingen kunnen niet worden hersteld.
 
 ## Vorige versie openen {#previous-version}
-
->[!NOTE]
->
->Eerdere projectversies zijn momenteel in beperkte versie beschikbaar.
 
 Een vorige versie van een project openen:
 
