@@ -1,13 +1,13 @@
 ---
 title: Rapportsuites combineren met verschillende schema's
 description: Leer hoe te om Prep van Gegevens te gebruiken om rapportreeksen met verschillende schema's te combineren
-source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
+exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
+source-git-commit: b7446d204eab2530d188600aed7e4cc0c603bf1d
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
-
 
 # Rapportsets combineren met verschillende schema&#39;s
 
@@ -50,7 +50,14 @@ Deze situatie leidt tot betekenisloze verslagen voor eVar1 en eVar2:
 
 De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd met de Bronverbinding Analytics en kan worden gebruikt om de schemaverschillen op te lossen die in het bovenstaande scenario worden beschreven. Dit resulteert in eVars met verenigbare betekenissen in de CJA gegevensmening. (De naamgevingsconventies die hieronder worden gebruikt, kunnen naar wens worden aangepast.)
 
-1. Voordat u de gegevensstromen van de bronverbinding maakt voor Report Suite A en Report Suite B, [een aangepaste veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) in AEP (we noemen het **Verenigde velden** in ons voorbeeld) dat de volgende gebieden bevat:
+1. Voordat u de gegevensstromen van de bronverbinding maakt voor Report Suite A en Report Suite B, [Een nieuw schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) in AEP (we noemen het **Unified Schema** in ons voorbeeld.) Voeg het volgende toe aan het schema:
+
+   | &quot;Unified Schema&quot; |
+   | --- |
+   | **XDM ExperienceEvent** class |
+   | **Adobe Analytics ExperienceEvent-sjabloon** veldgroep |
+
+1. Een andere veldgroep toevoegen aan het schema of [een aangepaste veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) en voeg het toe aan het schema. We maken een nieuwe veldgroep en noemen deze **Verenigde velden**. Vervolgens voegen we de volgende velden toe aan de nieuwe veldgroep:
 
    | Aangepaste veldgroep &quot;Verenigde velden&quot;  |
    | --- |
@@ -58,17 +65,7 @@ De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd me
    | Bedrijfseenheid |
    | Klantcategorie |
 
-1. [Een nieuw schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) in AEP (we noemen het **Unified Schema** in ons voorbeeld.) Voeg de volgende veldgroepen toe aan het schema:
-
-   | Veldgroepen voor &quot;Unified Schema&quot; |
-   | --- |
-   | XDM Experience Event |
-   | Adobe Analytics Experience Event-sjabloon |
-   | Verenigde velden |
-
-   Bij het maken van de bronverbindingsgegevensstroom voor **Reeks A rapporteren**, selecteert u **Unified Schema** voor gebruik in de gegevensstroom.
-
-1. Voeg als volgt aangepaste toewijzingen toe:
+1. De gegevensstroom van de bronverbinding maken voor **Reeks A rapporteren**, selecteren **Unified Schema** voor gebruik in de gegevensstroom. Voeg als volgt aangepaste toewijzingen toe aan de gegevensstroom:
 
    | Een bronveld van de rapportsuite | Doelveld uit veldgroep Verenigde velden |
    | --- | --- |
@@ -77,11 +74,9 @@ De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd me
 
    >[!NOTE]
    >
-   >Het XDM-pad voor uw doelvelden is afhankelijk van de manier waarop u de aangepaste veldgroep instelt.
+   >Het XDM-pad voor uw doelvelden is afhankelijk van de structuur van uw aangepaste veldgroep.
 
-1. Bij het maken van de bronverbindingsgegevensstroom voor **Reeks B rapporteren** selecteert u nogmaals **Unified Schema** voor gebruik in de gegevensstroom.
-
-   Uit de workflow blijkt dat twee velden een beschrijvingsnaamconflict hebben. Dit komt doordat de beschrijvingen voor eVar1 en eVar2 in Report Suite B anders zijn dan in Report Suite A. Maar we weten dit al, zodat we het conflict veilig kunnen negeren en aangepaste toewijzingen als volgt kunnen gebruiken:
+1. De gegevensstroom van de bronverbinding maken voor **Reeks B rapporteren**, nogmaals selecteren **Unified Schema** voor gebruik in de gegevensstroom. De workflow toont aan dat twee velden een beschrijvingsnaamconflict hebben. Dit komt doordat de beschrijvingen voor eVar1 en eVar2 in Report Suite B anders zijn dan in Report Suite A. Maar we weten dit al, zodat we het conflict veilig kunnen negeren en aangepaste toewijzingen als volgt kunnen gebruiken:
 
    | Bronveld van Reeks B rapporteren | Doelveld uit veldgroep Verenigde velden |
    |---|---|
@@ -90,11 +85,9 @@ De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd me
 
 1. Maak nu een **Alle rapportsets** verbinding voor CJA, het combineren van Dataset A en Dataset B.
 
-1. Een **Globale weergave** gegevensweergave in CJA.
+1. Een **Globale weergave** gegevensweergave in CJA. Negeer de oorspronkelijke velden eVar en neem alleen de velden van de veldgroep Verenigde velden op.
 
-   Negeer de oorspronkelijke velden eVar en neem alleen de velden van de veldgroep Verenigde velden op.
-
-   Globale weergave van weergavegegevens in CJA:
+   **Globale weergave** gegevensweergave in CJA:
 
    | Bronveld | Opnemen in de gegevensweergave? |
    | --- | --- | 
@@ -104,11 +97,11 @@ De Prep-functionaliteit van Gegevens van Experience Platform is geïntegreerd me
    | _\&lt;path>_.Customer_category  | Ja |
    | _\&lt;path>_.Business_unit | Ja |
 
-   U hebt nu eVar1 en eVar2 van de bronrapportreeksen aan drie nieuwe gebieden in kaart gebracht. Merk op dat een ander voordeel van het gebruiken van de afbeeldingen van de Prep van Gegevens is dat de bestemmingsgebieden nu op semantisch betekenisvolle namen (de term van het Onderzoek, BedrijfsEenheid, de categorie van de Klant) in plaats van de minder betekenisvolle namen van eVar (eVar1, eVar2.) worden gebaseerd.
+U hebt nu eVar1 en eVar2 van de bronrapportreeksen aan drie nieuwe gebieden in kaart gebracht. Merk op dat een ander voordeel van het gebruiken van de afbeeldingen van de Prep van Gegevens is dat de bestemmingsgebieden nu op semantisch betekenisvolle namen (de term van het Onderzoek, BedrijfsEenheid, de categorie van de Klant) in plaats van de minder betekenisvolle namen van eVar (eVar1, eVar2.) worden gebaseerd.
 
-   >[!NOTE]
-   >
-   >De verenigde groep van het douaneveld, en de bijbehorende gebiedstoewijzingen kunnen aan bestaande gegevensstromen en datasets van de Bron van Analytics van de Schakelaar op elk ogenblik worden toegevoegd. Dit is echter alleen van invloed op doorlopende gegevens.
+>[!NOTE]
+>
+>De verenigde groep van het douaneveld, en de bijbehorende gebiedstoewijzingen kunnen aan bestaande gegevensstromen en datasets van de Bron van Analytics van de Schakelaar op elk ogenblik worden toegevoegd. Dit is echter alleen van invloed op doorlopende gegevens.
 
 ## Meer dan alleen rapportsuites
 
@@ -124,37 +117,34 @@ De mogelijkheden van Prep van Gegevens om datasets met verschillende schema&#39;
 
 Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in de gegevens van Analytics met de Categorie van de Klant op Some_field in de gegevens van het vraagcentrum combineren. Hier is één manier waarop je dat kunt doen. Ook hier kan de naamgevingsconventie aan uw wensen worden aangepast.
 
-1. Een aangepaste veldgroep maken:
+1. Maak een schema in AEP. Voeg het volgende toe aan het schema:
+
+   | &quot;Uitgebreid schema&quot; |
+   | --- | 
+   | **XDM Experience Event** class |
+   | **Adobe Analytics Experience Event-sjabloon** veldgroep |
+
+1. Maak een nieuwe veldgroep en voeg deze toe aan het schema. Velden toevoegen aan de veldgroep:
 
    | Aangepaste veldgroep &quot;Klantgegevens&quot;  |
    | --- |
    | Customer_category |
 
-1. Maak een schema in AEP. Voeg de volgende veldgroepen toe aan het schema:
-
-   | Veldgroepen voor &quot;Uitgebreid schema&quot; |
-   | --- | 
-   | XDM Experience Event |
-   | Adobe Analytics Experience Event-sjabloon |
-   | Klantgegevens |
-
-1. Bij het maken van de gegevensstroom voor **Gegevensset A**, selecteert u **Uitgebreid schema** als uw schema.
-
-1. Voeg als volgt aangepaste toewijzingen toe:
+1. Maak de gegevensstroom voor **Gegevensset A**, selecteren **Uitgebreid schema** als uw schema. Voeg als volgt aangepaste toewijzingen toe aan de gegevensstroom:
 
    | Gegevensset A-bronveld | Doelveld uit de veldgroep Klantgegevens |
    | --- | --- |
    | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Customer_category |
 
-1. Bij het maken van de gegevensstroom voor **Gegevensset B** selecteert u nogmaals **Uitgebreid schema** als uw schema.
-
-1. Voeg als volgt aangepaste toewijzingen toe:
+1. Maak de gegevensstroom voor **Gegevensset B**, nogmaals selecteren **Uitgebreid schema** als uw schema. Voeg als volgt aangepaste toewijzingen toe aan de gegevensstroom:
 
    | Bronveld Gegevensset B | Doelveld uit de veldgroep Klantgegevens |
    | --- | --- |
    | _\&lt;path>_.Some_field | _\&lt;path>_.Customer_category |
 
-   Creeer een verbinding CJA die Dataset A en Dataset B combineert. Maak een gegevensweergave in CJA met de zojuist gemaakte CJA-verbinding. Negeer de oorspronkelijke velden van de eVar en neem alleen de velden op van de veldgroep Klantgegevens.
+1. Creeer een verbinding CJA die Dataset A en Dataset B combineert.
+
+1. Maak een gegevensweergave in CJA met de zojuist gemaakte CJA-verbinding. Negeer de oorspronkelijke velden van de eVar en neem alleen de velden op van de veldgroep Klantgegevens.
 
    Gegevensweergave in CJA:
 
@@ -169,4 +159,3 @@ Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in d
 Zoals hierboven is beschreven, kunt u met Data Prep verschillende velden aan elkaar toewijzen in meerdere Adobe Analytics-rapportsets. Dit is nuttig in CJA wanneer u gegevens van veelvoudige datasets in één enkele verbinding wilt combineren CJA. Nochtans, als u van plan bent om de rapportreeksen in afzonderlijke verbindingen te houden CJA maar u één reeks rapporten over die verbindingen en gegevensmeningen wilt gebruiken, verstrekt het veranderen van onderliggende identiteitskaart van de Component in CJA een manier om rapporten compatibel te maken zelfs als de schema&#39;s verschillend zijn. Zie [Componentinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) voor meer informatie .
 
 Het wijzigen van de component-id is een CJA-functie en heeft geen invloed op de gegevens van de Analytics Source Connector die naar Real-time Customer Profile en RTCDP wordt verzonden.
-
