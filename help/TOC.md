@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 243dc9bfcb7dde08e58fa4f8a11c8ec8c1e49de1
+source-git-commit: a92a6e5825ae01fa2eac30d778293681eab9dd3e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '666'
 ht-degree: 35%
 
 ---
@@ -34,7 +34,10 @@ ht-degree: 35%
    + [Veelgestelde vragen](getting-started/cja-faq.md)
    + [Adobe Analytics naar Customer Journey Analytics evolutie](getting-started/aa-to-cja.md)
    + [Gebruikershandleiding voor nieuwe Customer Journey Analytics-gebruikers](getting-started/aa-to-cja-user.md)
-   + [Ondersteuning voor Customer Journey Analytics-functies](getting-started/cja-aa.md)
+   + Adobe Analytics en Customer Journey Analytics vergelijken {#compare-aa-cja}
+      + [Ondersteuning voor Customer Journey Analytics-functies](getting-started/aa-vs-cja/cja-aa.md)
+      + [Gegevensverwerking vergelijken in Adobe Analytics en CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Virtuele rapportageomgevingen en sandboxomgevingen](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
    + [Gevolgen van verwijdering](getting-started/cja-deletion.md)
    + [Verklarende woordenlijst](getting-started/cja-glossary.md)
 + Verbindingen {#cja-connections}
@@ -229,6 +232,5 @@ ht-degree: 35%
    + [Gebruikershandleiding voor labels](labs/labs.md)
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met CJA-gegevens](troubleshooting/compare.md)
-   + [Gegevensverwerking vergelijken in Adobe Analytics en CJA](troubleshooting/data-processing-comparisons.md)
 + Privacy {#cja-privacy}
    + [Privacyoverzicht](privacy/privacy-overview.md)
