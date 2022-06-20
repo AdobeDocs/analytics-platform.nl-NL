@@ -3,18 +3,14 @@ description: Een histogram lijkt op een staafdiagram, maar het groepeert getalle
 title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
 # Histogram
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). Analytics automatiseert de &#39;bucketing&#39; van getallen in bereiken, maar u kunt de instellingen wijzigen in [Geavanceerde instellingen](#section_09D774C584864D4CA6B5672DC2927477).
 

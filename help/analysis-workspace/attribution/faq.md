@@ -3,18 +3,14 @@ title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '273'
 ht-degree: 6%
 
 ---
 
 # Veelgestelde vragen over attributie
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 **Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?**
 

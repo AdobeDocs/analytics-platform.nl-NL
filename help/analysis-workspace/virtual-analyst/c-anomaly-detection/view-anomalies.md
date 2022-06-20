@@ -3,18 +3,14 @@ description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
 
 # Anomalieën weergeven in Analysis Workspace
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 

@@ -3,18 +3,14 @@ description: Met Datumvergelijking in Analysis Workspace kunt u elke kolom met e
 title: Datumvergelijking
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '560'
 ht-degree: 6%
 
 ---
 
 # Datumvergelijking
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
 

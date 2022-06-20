@@ -4,18 +4,14 @@ keywords: Analysis Workspace
 title: Gebruiksgevallen van cohortanalyse
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Cohort Analysis] use cases
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Voorbeelden van hoofdletters/kleine letters gebruiken [!UICONTROL Cohort Analysis].
 

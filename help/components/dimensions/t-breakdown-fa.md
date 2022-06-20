@@ -5,18 +5,14 @@ title: Uitsplitsingsdimensies
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 4bea8d7997d4084cfb87c1035689c0eea6b1f3b1
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
 
 # Afmetingen onderverdelen in werkruimte
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
@@ -31,7 +27,7 @@ U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoefte
 
    >[!NOTE]
    >
-   >Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor exportuitsplitsingen.
+   >Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor uitsplitsingen exporteren.
 
 **Video: Dimension in Analysis Workspace**
 

@@ -3,18 +3,14 @@ title: Algoritmische attributie
 description: Details over het algoritmische attributiemodel.
 feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 1%
 
 ---
 
 # Algoritmische attributie
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Hier volgt een video-overzicht van Algorithmic Attribution:
 

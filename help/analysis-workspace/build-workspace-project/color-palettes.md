@@ -3,18 +3,14 @@ description: Hoe u het palet met visualisatiekleuren wijzigt of uw eigen aangepa
 title: Kleurenpalet Visualisatie
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
 
 # Kleurenpalet Visualisatie
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze functie is van invloed op de meeste visualisaties in Workspace, maar **niet** beïnvloedt Summiere Verandering, voorwaardelijk formatteren in de lijsten van de Vrije vorm, en de visualisatie van de Kaart.
 

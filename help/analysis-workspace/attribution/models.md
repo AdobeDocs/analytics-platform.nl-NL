@@ -3,18 +3,14 @@ title: Attributiemodellen en terugzoekvensters
 description: Hoe verschillende soorten attributie krediet verdelen tussen dimensie-items.
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
 
 # Attributiemodellen en terugzoekvensters
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Het attribuutconcept in Customer Journey Analytics vereist twee componenten:
 

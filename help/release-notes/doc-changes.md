@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cd6f78b2ce40a3368b1e643a60e9f3070dd80c55
+source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '822'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| Juni 2022 | Nieuw artikel over [virtuele rapportageomgevingen en sandboxomgevingen](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
+| Juni 2022 | Nieuw artikel over [vergelijking van gegevensverwerking in Adobe Analytics en CJA-rapportagefuncties](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
 | Juni 2022 | Nieuw artikel over [het combineren van rapportsuites met verschillende schema&#39;s](/help/use-cases/combine-report-suites.md) |
 | Juni 2022 | Nieuw artikel over [annotaties delen in Mobile-scorecards](/help/components/annotations/mobile-annotations.md) |
 | Juni 2022 | Nieuw artikel over [Analytics Labs in CJA](/help/labs/labs.md) |
@@ -63,7 +65,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
 | 13 november 2020 | Een nieuwe gebruikscase op [callcenter en webgegevens importeren](/help/use-cases/call-center.md) is toegevoegd. |
 | 10 november 2020 | Een sectie toegevoegd over de gevolgen van het verwijderen van gegevenscomponenten voor de [Veelgestelde vragen](/help/getting-started/cja-faq.md). |
-| 2 november 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/cja-aa.md) pagina. |
+| 2 november 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) pagina. |
 | November 2020 | Toegevoegde inhoud op [beperkingen voor backfill verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) voor verbindingen. |
 | 7 oktober 2020 | Een onderwerp toegevoegd op [gecombineerde gebeurtenisgegevenssets](/help/connections/combined-dataset.md). |
 | 15 september 2020 | Een onderwerp toegevoegd op [gegevensinvoer](/help/use-cases/data-ingestion.md). |
@@ -72,7 +74,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Juli 2020 | Extra informatie over [Identiteitskaart, optie voor identiteitskaart](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html). |
 | Juli 2020 | Nieuw onderwerp over [objectarrays](/help/use-cases/object-arrays.md) of &#39;gegevenshiërarchieën&#39; toegevoegd. |
 | 14 april 2020 | Updates van de meest recente interface in het dialoogvenster [Verbindingen maken](/help/connections/create-connection.md) onderwerp. |
-| 27 februari 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/cja-aa.md) pagina. |
+| 27 februari 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) |
 | December 2019 | Eerste conceptversie van CJA-documentatie |
 
 {style=&quot;table-layout:auto&quot;}

@@ -4,18 +4,14 @@ keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '245'
 ht-degree: 3%
 
 ---
 
 # Alleen-weergeven -projecten
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door delen [Workflow voor delen van projecten](/help/analysis-workspace/curate-share/share-projects.md). Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 

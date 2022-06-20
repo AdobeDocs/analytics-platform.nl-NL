@@ -3,18 +3,14 @@ title: Overzicht van attributie
 description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
 Feature: Attribution
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 43%
+source-wordcount: '388'
+ht-degree: 46%
 
 ---
 
 # Overzicht van attributie
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Attributie geeft analisten de mogelijkheid om aan te passen hoe dimensie-items krediet krijgen voor succesgebeurtenissen. Bijvoorbeeld:
 

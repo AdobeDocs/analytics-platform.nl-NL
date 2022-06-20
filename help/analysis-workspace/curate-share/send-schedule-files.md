@@ -3,18 +3,14 @@ description: U kunt PDF/CSV-projecten aan ontvangers in uw organisatie beheren, 
 title: Menu Delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '147'
 ht-degree: 6%
 
 ---
 
 # Menu Delen
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt PDF/CSV-projecten aan ontvangers in uw organisatie binnen de werkruimte beheren, delen en plannen **Menu Delen**.
 

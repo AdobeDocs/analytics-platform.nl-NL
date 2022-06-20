@@ -3,18 +3,14 @@ title: Datumbereiken beheren
 description: U kunt datumbereiken delen, hernoemen of verwijderen in Analysis Workspace.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Datumbereiken beheren
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Gebruik de manager van de datumwaaier om, datumwaaiers te delen anders te noemen of te schrappen. De datummanager bereiken:
 

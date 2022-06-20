@@ -4,18 +4,14 @@ keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fal
 title: Filters toepassen in falloutanalyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
 # Filters toepassen in falloutanalyse
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
 

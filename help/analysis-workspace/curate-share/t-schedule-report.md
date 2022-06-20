@@ -4,18 +4,14 @@ keywords: Analysis Workspace
 title: Projecten plannen
 feature: Curate and Share
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
 # Projecten plannen
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 

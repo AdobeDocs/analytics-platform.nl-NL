@@ -3,18 +3,14 @@ title: Een datumbereik maken
 description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Een datumbereik maken
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 U kunt een aangepast datumbereik maken met een van de volgende twee methoden:
 

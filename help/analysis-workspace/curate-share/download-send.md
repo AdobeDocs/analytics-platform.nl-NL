@@ -3,18 +3,14 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
 
 # PDF- of CSV-bestanden downloaden
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Er zijn verschillende manieren waarop u gegevens uit Analysis Workspace kunt exporteren, afhankelijk van de gegevensset die u buiten het hulpprogramma wilt analyseren en van de vraag wie de gegevens moet ontvangen. Geëxporteerde gegevens kunnen de vorm hebben van gekopieerde gegevens, CSV- of PDF-bestanden. Een PDF heeft doorgaans de voorkeur als u visualisaties in het bestand wilt opnemen, terwijl een CSV (of gekopieerde gegevens) de voorkeur heeft als u gewoon gegevens met normale tekst wilt.
 

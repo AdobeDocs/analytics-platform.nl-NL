@@ -4,18 +4,14 @@ keywords: Analysis Workspace
 title: Beheervereisten
 feature: FAQ
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '149'
 ht-degree: 5%
 
 ---
 
 # Beheervereisten
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Systeemvereisten voor Analysis Workspace.
 

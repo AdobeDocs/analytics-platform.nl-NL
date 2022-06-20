@@ -3,18 +3,14 @@ title: Referentie - basisfuncties
 description: Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
 
 # Referentie - basisfuncties
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 
@@ -210,7 +206,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-* Als *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
+&#42;Indien *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
 
 ## Rond
 

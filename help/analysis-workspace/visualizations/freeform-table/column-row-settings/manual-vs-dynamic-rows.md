@@ -3,18 +3,14 @@ title: Dynamische versus statische dimensie-items in vrije-vormtabellen
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Dynamische versus statische dimensie-items in vrije-vormtabellen
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 In Freeform-tabellen kunnen de rijen en kolommen verschillende componentwaarden bevatten. Deze waarden kunnen dynamisch (verandering met tijd) of statisch (veranderen niet met tijd) zijn, afhankelijk van de analyse die u wilt bouwen.
 

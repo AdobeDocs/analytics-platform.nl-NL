@@ -3,18 +3,14 @@ description: Anomaly detection in Analysis Workspace maakt gebruik van een reeks
 title: Statistische technieken voor anomaliedetectie
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
 
 # Statistische technieken voor anomaliedetectie
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 

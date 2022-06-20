@@ -3,18 +3,14 @@ description: Hoe de totalen van de werkruimte worden berekend.
 title: Totalen werkruimte
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 1%
+source-wordcount: '437'
+ht-degree: 0%
 
 ---
 
 # Totalen werkruimte
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven met twee totalen:
 

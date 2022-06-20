@@ -3,18 +3,14 @@ description: Veelgestelde vragen over werkruimten en tips voor het oplossen van 
 title: Veelgestelde vragen
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 42%
+source-wordcount: '377'
+ht-degree: 45%
 
 ---
 
 # Veelgestelde vragen
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 | Vraag | Antwoord |
 |--- |--- |

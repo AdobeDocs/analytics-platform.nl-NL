@@ -3,18 +3,14 @@ description: Hiermee geeft u de bovenste 5-waarden weer voor afmetingen die niet
 title: Een voorvertoning weergeven van afmetingen in CJA Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 23%
+source-wordcount: '192'
+ht-degree: 26%
 
 ---
 
 # Afmetingen voorvertonen in Analysis Workspace
-
->[!NOTE]
->
->U bekijkt de documentatie voor Analysis Workspace in Customer Journey Analytics. De functieset wijkt enigszins af van [Analysis Workspace in het traditionele Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Meer informatie...](/help/getting-started/cja-aa.md)
 
 Houd de muisaanwijzer boven het informatiepictogram (i) naast een dimensie. Dit toont de hoogste 5 waarden voor niet-tijdafmetingen (en 15 voor tijddimensies). We hielden die waarden altijd statisch (de 5 gekozen waarden zijn dus nooit gewijzigd).
 
