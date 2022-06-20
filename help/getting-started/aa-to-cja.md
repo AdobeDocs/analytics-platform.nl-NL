@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,8 @@ Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor e
 * Gebruik de [Datumprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) functie voor het toewijzen van variabelen. Hoewel het eenvoudiger wordt als alle rapportsuites hetzelfde gemeenschappelijke variabelenontwerp gebruiken, is het niet vereist als u het nieuwe Experience Platform gebruikt [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) gebruiken. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
 
 Als u niet naar een algemene rapportsuite bent gegaan vanwege problemen met [!UICONTROL Uniques Exceeded] of [!UICONTROL Low Traffic], weet dat CJA geen [kardinaliteitsbeperkingen voor een dimensie](/help/components/dimensions/high-cardinality.md). Hiermee kan elke unieke waarde worden weergegeven en geteld.
+
+Hier is een gebruiksgeval ingeschakeld [het combineren van rapportsuites met verschillende schema&#39;s](/help/use-cases/combine-report-suites.md).
 
 ### 3. (Opnieuw)Uw marketingkanalen configureren {#marketing-channels}
 
