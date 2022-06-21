@@ -4,9 +4,9 @@ description: Begrijp het concept "replay"in Kanaalanalyse
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Met Kanaalanalyse kunt u gegevens op een bepaalde verbinding in twee stappen doo
 * **Opnieuw afspelen**: CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de verbinding vastgezet. Adobe biedt twee herhalingsintervallen:
    * Dagelijks: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
    * Wekelijks: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Gegevens van minder dan een week oud worden echter niet vastgezet.
+
+Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een bezoeker moet binnen een bepaald terugkijkvenster voor authentiek verklaren opdat een niet voor authentiek verklaard bezoek en een voor authentiek verklaard bezoek samen worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt voorwaarts vastgezet.
 
 ## Stap 1: Levend stitching
 

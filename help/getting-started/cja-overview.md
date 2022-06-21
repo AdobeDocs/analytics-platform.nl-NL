@@ -4,9 +4,9 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegeve
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1144'
 ht-degree: 1%
 
 ---
@@ -33,12 +33,6 @@ Customer Journey Analytics breidt het bereik van Adobe Analytics uit door gebrui
 * **Gegevens uit meerdere rapporten**: Bestaande implementaties van meerdere gegevenssets kunnen in Platform worden gecombineerd.
 
 De eerste release van Customer Journey Analytics bevat veel van de functies die in Analysis Workspace zijn opgenomen. Voor een volledige lijst raadpleegt u [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md).
-
-## CJA vergelijken met apparaatanalyse
-
-[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) integreert met [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl), waarbij de coopgrafiek of de privégrafiek wordt gebruikt om te bepalen hoe digitale apparaten aan personen worden toegewezen. Deze is beschikbaar voor Adobe Analytics Ultimate-klanten.
-
-CJA daarentegen integreert met Adobe Experience Platform-gegevenssets en maakt kanaalanalyse in Analysis Workspace mogelijk. Hoewel CJA nog niet met de coop of de Privé identiteitsgrafieken integreert, kunt u &quot;uw eigen identiteitskaart&quot;brengen om datasets samen te voegen. Die datasets kunnen verder gaan dan digitale gegevens om zowel online als offline aanraakpunten te omvatten. CJA-voorwaarden worden hieronder gedetailleerder behandeld.
 
 ## Hoofdgebruik
 
