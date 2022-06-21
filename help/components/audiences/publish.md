@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
+source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -74,14 +74,19 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 ## CJA-publiek gebruiken in Experience Platform
 
+CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). CJA verzendt het publiek over naar Experience Platform met de primaire identiteit die aan wordt geplaatst wat als persoonsidentiteitskaart werd geselecteerd toen de verbinding werd gevormd.
 
-CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op alle apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
+RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op alle apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 U kunt CJA-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
 
 U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
 
 ![](assets/audiences-aep.png)
+
+## Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA?
+
+In dit geval wordt vanuit CJA een afsluitgebeurtenis naar het Experience Platform verzonden.
 
 ## Volgende stappen
 
