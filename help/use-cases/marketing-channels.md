@@ -1,10 +1,10 @@
 ---
 title: Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
-description: Gebruik de Verbinding van Gegevens van Analytics om de verwerkingsregels van het Kanaal van de Marketing in Adobe Experience Platform te brengen.
+description: Gebruik de Analytics Source Connector om de verwerkingsregels van het Kanaal van de Marketing in Adobe Experience Platform te brengen.
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
 
-Als uw organisatie de [Gegevensconnector Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in CJA te brengen, kunt u een verbinding in CJA vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
+Als uw organisatie de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in CJA te brengen, kunt u een verbinding in CJA vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
 
 ## Vereisten
 
-* Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Gegevensconnector Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
+* Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
 * De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html) in de traditionele handleiding Analytics Components (Analytische onderdelen).
 
 ## Schema-elementen marketingkanaal
 
-Zodra u de Verbinding van Gegevens van de Analyse op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave maakt in CJA.
+Zodra u de Verbinding van de Bron van Analytics op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave maakt in CJA.
 
-1. [Verbinding maken](/help/connections/create-connection.md) die een dataset omvat die op de Verbinding van Gegevens van Analytics wordt gebaseerd.
+1. [Verbinding maken](/help/connections/create-connection.md) die een dataset omvat die op de Bronschakelaar van de Analytics wordt gebaseerd.
 2. [Een gegevensweergave maken](/help/data-views/create-dataview.md) die de volgende afmetingen bevat:
    * **`channel.typeAtSource`**: Equivalent met de [Marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) dimensie.
    * **`channel._id`**: Equivalent met de [Detailgegevens marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)

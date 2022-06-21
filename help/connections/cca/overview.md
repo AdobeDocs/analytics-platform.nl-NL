@@ -4,7 +4,7 @@ description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige dat
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 16ebf5672099b0cd0c5e4dafd577f175370fa9b5
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -53,7 +53,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
 * De Adobe-grafiek en de privégrafiek worden niet ondersteund.
 * Met Kanaaloverschrijdende analyse wordt het veld dat wordt gebruikt voor stitching op geen enkele manier getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld zoals deze bestaat in de ongeordende dataset in het gegevensmeer. Het hechten proces is hoofdlettergevoelig. Als bijvoorbeeld soms het woord &#39;Bob&#39; in het veld wordt weergegeven en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze als twee aparte personen behandeld.
-* Op basis van veldgebaseerde stitching is hoofdlettergevoelig voor gegevenssets van Analytics die via de gegevensconnector van Analytics worden gegenereerd. Adobe raadt aan alle VISTA-regels of verwerkingsregels te herzien die van toepassing zijn op het veld transient ID om ervoor te zorgen dat geen van deze regels nieuwe vormen van dezelfde id introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde voor het overgangsveld Id invoeren voor slechts een deel van de gebeurtenissen.
+* Op bepaalde gebieden-gebaseerde het stitching is case-sensitive, voor de datasets van Analytics die door de Bron van de Analyse wordt geproduceerd Schakelaar, adviseert Adobe om het even welke regels van VISTA of verwerkingsregels te herzien die op het transient gebied van identiteitskaart van toepassing zijn om ervoor te zorgen dat geen van deze regels nieuwe vormen van zelfde identiteitskaart introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde voor het overgangsveld Id invoeren voor slechts een deel van de gebeurtenissen.
 * Veldgebaseerde stitching combineert of voegt geen velden samen.
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
