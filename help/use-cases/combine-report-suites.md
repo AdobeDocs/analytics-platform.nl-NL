@@ -2,10 +2,10 @@
 title: Rapportsuites combineren met verschillende schema's
 description: Leer hoe te om Prep van Gegevens te gebruiken om rapportreeksen met verschillende schema's te combineren
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
-source-git-commit: b7446d204eab2530d188600aed7e4cc0c603bf1d
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

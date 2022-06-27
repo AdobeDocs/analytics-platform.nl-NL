@@ -1,13 +1,13 @@
 ---
 title: Virtuele rapportsuite, gegevensweergaven, AEP-sandboxen en de Bronverbinding voor analyse
 description: Meer informatie over virtuele-rapporteringsomgevingen en sandboxomgevingen.
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Virtuele rapportsuite, gegevensweergaven, AEP-sandboxen en de Bronverbinding voor analyse
 

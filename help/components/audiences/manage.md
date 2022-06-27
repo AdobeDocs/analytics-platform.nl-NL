@@ -2,9 +2,9 @@
 title: In Customer Journey Analytics gemaakt publiek beheren
 description: Leer hoe u het publiek beheert in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Door eerder gemaakte soorten publiek te beheren, kunt u
 
 * **Schema of planning ongedaan maken** automatisch publiek vernieuwen/bijwerken. De maximale vervaldatum in de planning is 1 jaar.
 * **Een publiek vernieuwen in het schema** wanneer het bijna verlopen is. Het uitbreiden van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het programma verloopt.
-* De **interval vernieuwen** en de **laatste keer dat een publiek is bijgewerkt**
+* De weergave van **interval vernieuwen** en de **laatste keer dat een publiek is bijgewerkt**
 * Meer inzicht in de **de tijd die nodig was om een publiek te maken** van Customer Journey Analytics (CJA), en de hoeveelheid tijd het kostte om het publiek in het Profiel van de Klant in real time voor activeringsdoeleinden te hebben getoond.
 * Zie of het publiek in CJA **actief wordt gebruikt door het Profiel van de Klant in real time** of (idealiter) een Experience Platform-toepassing die het publiek gebruikt dat door CJA is gemaakt.
 
