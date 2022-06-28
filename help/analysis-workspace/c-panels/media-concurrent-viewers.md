@@ -4,16 +4,16 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
 
 # Deelvenster voor gelijktijdige mediaviewers
 
-Klanten van Media Analytics kunnen gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige optreden plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de betrokkenheid van de inhoud en de kijker gaven, en om te helpen bij het oplossen van problemen of het plannen van volume of schaal.
+U kunt gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige uitvoering plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de kijker veroorzaakten, en om te helpen bij het oplossen van problemen of het plannen voor volume of schaal.
 
 In Analysis Workspace is Gelijktijdige viewers het aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 

@@ -4,16 +4,16 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Media afspelen tijd besteed, deelvenster
 
-Klanten van Media Analytics kunnen de afspeeltijd analyseren die ze hebben doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering plaatsvond of waar drop-offs kostbare inzichten hebben opgeleverd in de kwaliteit van de betrokkenheid van content en viewers, en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
+U kunt de afspeeltijd analyseren die u hebt doorgebracht om te begrijpen waar de maximale gelijktijdige uitvoering plaatsvond of waar drop-offs kostbare inzichten hebben opgeleverd in de kwaliteit van de inhoud en de betrokkenheid van de viewer, en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
 
 In Analysis Workspace is Afspeeltijd de tijd die nodig is om de mediastream(s) op een bepaald tijdstip weer te geven en omvat pauze, buffer en begintijd.
 
