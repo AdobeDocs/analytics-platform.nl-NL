@@ -3,9 +3,9 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICON
 | [Deelvenster Snelle inzichten](quickinsight.md) | Snel een vrije-vormlijst en een bijbehorende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
 | [Deelvenster voor attributie](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
 | [Deelvenster Vrije vorm](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
+| [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
+| [Deelvenster Tijdlijn media afspelen](media-playback-timespent/media-playback-time-spent.md) | Analyseer de afspeeltijd die u hebt doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering heeft plaatsgevonden of waar een drop-down heeft plaatsgevonden. |
 
 ![](assets/panel-overview.png)
 

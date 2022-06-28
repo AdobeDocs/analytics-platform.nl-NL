@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 348f4e8596146f7ff4234535fa76a54f7be33171
+source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 34%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 34%
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
+      + [Deelvenster voor gelijktijdige mediaviewers](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + Tijd van afspelen van media besteed {#media-playback-timespent}
+         + [Overzicht](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Invoer- en uitvoerinstellingen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [Veelgestelde vragen](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
    + Projecten cureren, delen en plannen {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
