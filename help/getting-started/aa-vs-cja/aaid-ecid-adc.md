@@ -2,9 +2,9 @@
 title: STEUN, ECID, AACUSTOMID en de Analytics Source Connector
 description: Leer hoe de Analytics Source Connector werkt met Adobe Analytics-identiteitsvelden.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 89fb87653355ffe174d9ad7e19eb5979dd78eaaf
+source-git-commit: 4c9d87b6c6b7859ffac4cd2d26e8c89d12fe1285
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,6 @@ Binnen identityMap:
 Anders wordt STEUN gemarkeerd als de primaire identiteit voor de gebeurtenis.
 * AACUSTOMID is nooit gemarkeerd als primaire id voor de gebeurtenis. Als AACUSTOMID echter aanwezig is, is STEUN gebaseerd op AACUSTOMID zoals in de bovenstaande beschrijving wordt beschreven.
 
-Wat CJA betreft, is de definitie van primaire id alleen van belang als de eindgebruiker besluit de primaire id te gebruiken als de persoon-id. Dat is echter niet verplicht. De gebruiker kan een andere identiteitskolom kiezen als Persoon-id.
+## CJA en primaire id
+
+Wat CJA betreft, is de definitie van primaire id alleen belangrijk als u besluit de primaire id te gebruiken als de persoon-id. Dat is echter niet verplicht. U kunt een andere identiteitskolom kiezen als Persoon-id.
