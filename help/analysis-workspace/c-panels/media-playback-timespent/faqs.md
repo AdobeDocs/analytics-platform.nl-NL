@@ -3,14 +3,19 @@ title: Veelgestelde vragen over de afspeeltijd van media
 description: Wat zijn de veelgestelde vragen over de afspeeltijd van media?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: be5d5557-ef5f-4a13-8d4c-0a64a8163412
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
 
 # Veelgestelde vragen over de afspeeltijd van media
+
+>[!NOTE]
+>
+>Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 
 | Vraag | Antwoord |

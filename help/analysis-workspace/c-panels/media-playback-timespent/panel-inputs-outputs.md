@@ -3,14 +3,20 @@ title: Invoer en uitvoer van het deelvenster Media Playback Time Spelling
 description: Wat zijn de instellingen voor invoer en uitvoer van de afspeeltijd van media?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
 
 # Invoer en uitvoer van deelvenster Media afspeeltijd {#Inputs-and-outputs}
+
+>[!NOTE]
+>
+>Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md).
+
 
 U kunt het deelvenster Tijd voor afspelen van media aanpassen met de volgende invoer- en uitvoerinstellingen.
 
