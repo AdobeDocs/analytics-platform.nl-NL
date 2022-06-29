@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: 29d8f5e293ddee10578e953e2db224099f7b7033
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2165'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 1%
 | Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund? | Ja. [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) kijkt naar gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. |
 | Hoe werkt &#39;replay&#39; in CCA? | CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. Bij opnieuw afspelen worden nieuwe apparaten aan de verbinding vastgezet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
 | Hoe werkt het stitching van historische gegevens (backfill) in CCA? | Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
+| Wat is het verwachte gedrag voor records met niet-opgeslagen profielgegevens? | **Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding CJA door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een reeks van het het profielgegevens van CRM. 40% van de gegevensset CRM heeft `CRMid` aanwezig in de de gebeurtenisgegevensreeks van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in CJA. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven. |
 
 {style=&quot;table-layout:auto&quot;}
 
