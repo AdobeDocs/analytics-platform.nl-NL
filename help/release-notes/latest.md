@@ -3,22 +3,22 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b4f9e39ba012569b7e1232af00ca90080f2e1c33
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '228'
 ht-degree: 5%
 
 ---
 
 # Opmerkingen bij de release Current Customer Journey Analytics (CJA) (juni 2022)
 
-**Laatste update**: 16 juni 2022
+**Laatste update**: 29 juni 2022
 
 ## Belangrijkste kenmerken
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Publiceren van het publiek aan het Profiel van de Klant in real time | Staat u toe om publiek te publiceren dat in CJA aan AEP/RTCDP voor klant wordt ontdekt richt en verpersoonlijking. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | 15 juni 2022 |
+| Publiceren van het publiek aan het Profiel van de Klant in real time | Staat u toe om publiek te publiceren dat in CJA aan AEP/RTCDP voor klant wordt ontdekt richt en verpersoonlijking. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md). GA is TBD. |
 | Nieuwe interface voor stroomvisualisatie | Biedt extra functionaliteit voor onze stroomvisualisatie om deze krachtiger en beter in staat te maken. [Meer informatie](/help/analysis-workspace/visualizations/c-flow/create-flow.md) | Uitrol start op 15 juni 2022; GA uiterlijk 27 juni 2022 |
 | Ondersteuning voor numerieke velden als opzoektoetsen en opzoekwaarden | Nuttig als u tekenreekswaarden wilt classificeren met een numeriek veld, zoals een COGS of marge op een product-SKU. Het toestaan van metriek van raadplegingen helpt u deze gegevenspunten in rapportering krijgen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 15 juni 2022 |
 | Analyselaboratoria in CJA | Ondersteuning voor Labs in CJA zodat u prototypen kunt verkennen met gegevens over meerdere kanalen. [Meer informatie](/help/labs/labs.md) | 15 juni 2022 |
