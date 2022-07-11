@@ -2,9 +2,9 @@
 title: Virtuele rapportsuite, gegevensweergaven, AEP-sandboxen en de Bronverbinding voor analyse
 description: Meer informatie over virtuele-rapporteringsomgevingen en sandboxomgevingen.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
+source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe biedt verschillende manieren om virtuele rapporteringsomgevingen en sandbo
 
 Zie voor meer informatie: [Overzicht van virtuele-rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en).
 
-A VRS:
+Een virtuele rapportsuite:
 
 * Kan worden gebaseerd op Adobe Analytics-segmenten.
 * Kan op niet-destructieve wijze op zowel historische als nieuwe gegevens worden toegepast.
