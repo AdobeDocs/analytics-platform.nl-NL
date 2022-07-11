@@ -4,9 +4,9 @@ description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering k
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 83a725ac746629874162827d30d5bdf8be0fa6dc
+source-git-commit: d75f432d8933e9f6aa735ff9ca3bc12277ee0b0a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '387'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,8 @@ Componenten zijn functies in Customer Journey Analytics die kunnen worden gebrui
 
 U kunt de volgende componenten beheren:
 
-* [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie. **Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md).**
+* [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
+* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): In CJA (Customer Journey Analytics) ontdekte soorten publiek maken en publiceren naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 * [**Filters**](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op elementen met een gemeenschappelijke dimensie
 * [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
 * [**Datumbereiken**](date-ranges/overview.md): De datumbereiken aanpassen en verfijnen die Analysis Workspace biedt
