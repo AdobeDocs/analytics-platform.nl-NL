@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 434695e87a0b342da9c17c94b93e0253cf1e621e
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1385'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Anomaliedetectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
-| Publiek publiceren | Volledige ondersteuning. Opgeroepen Segment Publishing (verzending van segmenten van Workspace naar Experience Cloud) in AA. [Publiek publiceren](/help/components/audiences/audiences-overview.md) stuurt het publiek naar het Real-time Klantprofiel in het Platform van de Ervaring. |
 | Berekende standaarden | volledige ondersteuning; Merk op dat bestaande berekende metriek in traditionele Analysis Workspace niet naar CJA zal worden uitgevoerd. |
 | Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
 | Builder voor classificatieregels | Volledige ondersteuning. Geroepen [subtekenreeksen](/help/data-views/component-settings/substring.md) in CJA. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
