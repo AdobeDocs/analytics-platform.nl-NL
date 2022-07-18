@@ -4,7 +4,7 @@ description: Details en informatie over alle standaardcomponenten die u kunt toe
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -48,9 +48,9 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Day of Month] | Afmeting van tijd-paring | 1-31 |
 | [!UICONTROL Day of Week] | Afmeting van tijd-paring | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
 | [!UICONTROL Day of Year] | Afmeting van tijd-paring | 1-366 |
-| [!UICONTROL First-time session] | Metrisch | Door een persoon gedefinieerde eerste sessie binnen het rapportagevenster |
 | [!UICONTROL Hour of Day] | Afmeting van tijd-paring | 0-23 |
 | [!UICONTROL  Month of Year] | Afmeting van tijd-paring | Januari - december |
+| [!UICONTROL New session] | Metrisch | Door een persoon gedefinieerde eerste sessie binnen het rapportagevenster |
 | [!UICONTROL Person ID] | Dimension | Voor elk gegevenssetschema dat in het Experience Platform is gedefinieerd, kan een eigen set met een of meer identiteiten zijn gedefinieerd en gekoppeld aan een naamruimte Identiteit. Elk van deze kan worden gebruikt als de persoon-id. Voorbeelden zijn Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort. De [!UICONTROL Person ID] dimensie is de basis voor het combineren van gegevenssets en het identificeren van unieke bezoekers in CJA.<p>Mogelijke gebruiksgevallen zijn:<ul><li>Het creëren van een filter op een specifieke waarde van persoonidentiteitskaart om alles tot het gedrag van die gebruiker te filtreren.</li><li>Foutopsporing: ervoor zorgen dat de gegevens voor een specifieke cookie-id (of een specifieke klant-id) aanwezig zijn.</li><li>Het identificeren van de gebruikers die binnen aan een vraagcentrum riepen.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimension | Welk type van identiteitskaart [!UICONTROL Person ID] bestaat uit: Voorbeelden: `email address`, `cookie ID`, `Analytics ID`, enz. |
 | [!UICONTROL Quarter of Year] | Afmeting van tijd-paring | Q1, Q2, Q3, Q4 |

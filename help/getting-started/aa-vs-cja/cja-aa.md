@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1395'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimension in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
 | GeoSegmentation-afmetingen | Alle GeoSegmentation/geography die in Adobe Analytics wordt verzameld stroomt in CJA door [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Implementaties die geen gebruik maken van de Bronverbinding Analytics, zoals die welke voor digitale gegevensverzameling afhankelijk zijn van AEP Web SDK, zullen niet de volledige serie van automatisch uitgevoerde geografische zoekopdrachten hebben: Land en staat worden wereldwijd ondersteund, stad en zip niet. |
 | Marketingkanalen | De gegevens van Kanalen van de marketing stromen in CJA door de Bron van Analytics Schakelaar. De regels van het Kanaal van de marketing moeten nog in traditionele Adobe Analytics worden gevormd. Sommige regels worden niet ondersteund. Zie voor meer informatie [Documentatie CJA-marketingkanalen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases). |
-| Nieuwe versus herhaalde sessierapportage | Ondersteund, met een terugzoekvenster van 13 maanden. |
+| Nieuwe versus herhaalde sessierapportage | Ondersteund, [met een terugzoekvenster van 13 maanden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat). |
 | Productvariabele | Binnen het Experience Platform, kunnen de gebruikers serie van de typegebieden van Objecten binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen CJA kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
 | Project delen | Het delen van projecten wordt alleen ondersteund door gebruikers van CJA - er wordt geen project gedeeld tussen CJA en de traditionele Analysis Workspace. |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |

@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Vergeet niet elke metrisch anders te noemen om op de verschillen, zoals &quot;Al
 Zie voor meer informatie over andere instellingen van gegevensweergaven [Gegevensweergaven maken](/help/data-views/create-dataview.md).
 Voor een conceptueel overzicht van gegevensweergaven raadpleegt u [Overzicht van gegevensweergaven](/help/data-views/data-views.md).
 
-## Nieuwe versus herhaalde sessierapportage {#new-repeat}
+## 7. Nieuwe versus herhaalde sessierapportage {#new-repeat}
 
 U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruiker of niet is, die op het rapporteringsvenster wordt gebaseerd dat u voor deze gegevensmening en een 13 maanden terugkijkvenster bepaalde. Met deze rapportage kunt u bijvoorbeeld bepalen:
 
@@ -96,9 +96,9 @@ U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruike
 
 Drie componenten vergemakkelijken deze rapportage:
 
-* 1 dimensie: Nieuwe versus terugkerende sessies
+* 1 dimensie: [Sessietype](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Deze dimensie heeft twee waarden: 1) [!UICONTROL New] en 2) [!UICONTROL Returning]. De [!UICONTROL New] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Indien meeteenheden geen deel uitmaken van een sessie, vallen zij voor deze dimensie in het &quot;niet van toepassing&quot;-segment.
 
-* 2 cijfers: Nieuwe sessies, Return-sessies
+* 2 cijfers: [Nieuwe sessies, Return-sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Een nieuwe sessie wordt gedefinieerd als een door een persoon gedefinieerde eerste sessie in het rapportagevenster. Retoursessies is het aantal sessies dat de eerste sessie van een persoon niet was.
 
 Deze componenten openen:
 
@@ -108,7 +108,7 @@ Deze componenten openen:
 
 95%-99% van de tijd, nieuwe zittingen zullen correct worden gemeld. De enige uitzonderingen zijn:
 
-* Wanneer een zitting vóór het 13 maanden raadplegingsvenster voorkwam. Deze sessie wordt genegeerd.
+* Wanneer een eerste zitting vóór het 13 maanden raadplegingsvenster voorkwam. Deze sessie wordt genegeerd.
 
 * Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Stel dat u een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als terugkerende sessies.
 
