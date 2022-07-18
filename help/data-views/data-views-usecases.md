@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze gebruiksgevallen tonen de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics.
 
-## 1. Een metrische waarde maken op basis van een tekenreeksschemaveld
+## 1. Een metrische waarde maken op basis van een tekenreeksschemaveld {#string}
 
 Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders] metrisch van een [!UICONTROL pageTitle] schemaveld dat een tekenreeks is. Hier volgen de volgende stappen:
 
@@ -32,7 +32,7 @@ U kunt ook een andere [!UICONTROL Orders] metrisch van het zelfde gebied en spec
 
 Een ander voorbeeld zou de identiteitskaart van de Bezoeker, een afmeting, als metrisch moeten gebruiken om te bepalen hoeveel Bezoeker IDs uw bedrijf heeft.
 
-## 2. Gehele getallen gebruiken als afmetingen
+## 2. Gehele getallen gebruiken als afmetingen {#integers}
 
 Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers (inclusief aangepaste gebeurtenissen uit Adobe Analytics) kunnen nu als afmetingen worden beschouwd. Hier volgt een voorbeeld:
 
@@ -44,7 +44,7 @@ Eerder, zouden gehelen automatisch als metriek in CJA worden behandeld. Cijfers 
 
    ![](assets/bucketing.png)
 
-## 3. Numerieke afmetingen gebruiken als &#39;metriek&#39; in stroomdiagrammen
+## 3. Numerieke afmetingen gebruiken als &#39;metriek&#39; in stroomdiagrammen {#numeric}
 
 U kunt een numerieke dimensie gebruiken om &#39;metriek&#39; in uw [!UICONTROL  Flow] visualisatie.
 
@@ -53,7 +53,7 @@ U kunt een numerieke dimensie gebruiken om &#39;metriek&#39; in uw [!UICONTROL  
 
 ![](assets/flow.png)
 
-## 4. Filteren van subgebeurtenissen uitvoeren
+## 4. Filteren van subgebeurtenissen uitvoeren {#sub-event}
 
 Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op subgebeurtenisniveau, terwijl filters (segmenten) die in de filterbuilder zijn ingebouwd, u alleen filteren op gebeurtenisniveau geven. Zo kunt u sub-gebeurtenis het filtreren door te gebruiken omvat/sluit in de Mening van Gegevens, en dan die nieuwe metrische dimensie in een filter op het gebeurtenisniveau van verwijzingen.
 
@@ -69,13 +69,13 @@ f. Geef &quot;50&quot; op als waarde.
 
 Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijken en alles onder $50 filteren.
 
-## 5. De opdracht [!UICONTROL No Value Options] instellen
+## 5. De opdracht [!UICONTROL No Value Options] instellen {#no-value}
 
 Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;in rapporten te verwachten. De standaardwaarde in gegevensweergaven is &quot;Geen waarde&quot;. U kunt nu [naam van &quot;Geen waarde&quot; wijzigen in &quot;Niet opgegeven&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-no-value-options-settings) in de interface voor gegevensweergaven.
 
 Een ander voorbeeld zou een dimensie voor een registratie van het lidmaatschapsprogramma zijn. In dit geval kunt u de naam &quot;Geen waarde&quot; wijzigen in &quot;Registratie van geen lidmaatschapsprogramma&quot;.
 
-## 6. Meerdere metriek maken met verschillende [!UICONTROL Attribution] instellingen
+## 6. Meerdere metriek maken met verschillende [!UICONTROL Attribution] instellingen {#attribution}
 
 Met de [!UICONTROL Duplicate] aan de rechterbovenhoek een aantal maatstaven voor inkomsten maken met verschillende toewijzingsinstellingen, zoals [!UICONTROL First Touch], [!UICONTROL Last Touch], en [!UICONTROL Algorithmic].
 
@@ -85,3 +85,30 @@ Vergeet niet elke metrisch anders te noemen om op de verschillen, zoals &quot;Al
 
 Zie voor meer informatie over andere instellingen van gegevensweergaven [Gegevensweergaven maken](/help/data-views/create-dataview.md).
 Voor een conceptueel overzicht van gegevensweergaven raadpleegt u [Overzicht van gegevensweergaven](/help/data-views/data-views.md).
+
+## Nieuwe versus herhaalde sessierapportage {#new-repeat}
+
+U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruiker of niet is, die op het rapporteringsvenster wordt gebaseerd dat u voor deze gegevensmening en een 13 maanden terugkijkvenster bepaalde. Met deze rapportage kunt u bijvoorbeeld bepalen:
+
+* Welk percentage van uw bestellingen komt uit nieuwe versus herhaalde sessies?
+
+* Voor een bepaald marketingkanaal, of een specifieke campagne, richt u zich op nieuwe gebruikers of terugkeergebruikers? Hoe beïnvloedden deze keuzes de omrekeningskoersen?
+
+Drie componenten vergemakkelijken deze rapportage:
+
+* 1 dimensie: Nieuwe versus terugkerende sessies
+
+* 2 cijfers: Nieuwe sessies, Return-sessies
+
+Deze componenten openen:
+
+1. Ga in de redacteur van de gegevensmening.
+1. Klik op de knop **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** -tab in linkerrails.
+1. Sleep ze naar de gegevensweergave.
+
+95%-99% van de tijd, nieuwe zittingen zullen correct worden gemeld. De enige uitzonderingen zijn:
+
+* Wanneer een zitting vóór het 13 maanden raadplegingsvenster voorkwam. Deze sessie wordt genegeerd.
+
+* Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Stel dat u een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als terugkerende sessies.
+

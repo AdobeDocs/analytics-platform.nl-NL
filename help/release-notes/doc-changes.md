@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 70df0ae886508b703d0b87d3608b75f21d7952a6
+source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '850'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| Juli 2022 | Nieuwe vs. Herhaal de documentatie van de Rapportering van de Zitting. |
 | Juni 2022 | Nieuw artikel over [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
 | Juni 2022 | Nieuw artikel over [Adobe Analytics-verwerkingsregels, VISTA en classificaties versus Data Prep voor de Analytics Source Connector](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Juni 2022 | Nieuw artikel over [virtuele rapportageomgevingen en sandboxomgevingen](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
