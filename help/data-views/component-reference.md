@@ -4,9 +4,9 @@ description: Details en informatie over alle standaardcomponenten die u kunt toe
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,14 +50,14 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Day of Year] | Afmeting van tijd-paring | 1-366 |
 | [!UICONTROL Hour of Day] | Afmeting van tijd-paring | 0-23 |
 | [!UICONTROL  Month of Year] | Afmeting van tijd-paring | Januari - december |
-| [!UICONTROL New session] | Metrisch | Door een persoon gedefinieerde eerste sessie binnen het rapportagevenster |
+| [!UICONTROL New session] | Metrisch | De eerste sessie van een persoon is gedefinieerd in het rapportagevenster. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
 | [!UICONTROL Person ID] | Dimension | Voor elk gegevenssetschema dat in het Experience Platform is gedefinieerd, kan een eigen set met een of meer identiteiten zijn gedefinieerd en gekoppeld aan een naamruimte Identiteit. Elk van deze kan worden gebruikt als de persoon-id. Voorbeelden zijn Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort. De [!UICONTROL Person ID] dimensie is de basis voor het combineren van gegevenssets en het identificeren van unieke bezoekers in CJA.<p>Mogelijke gebruiksgevallen zijn:<ul><li>Het creëren van een filter op een specifieke waarde van persoonidentiteitskaart om alles tot het gedrag van die gebruiker te filtreren.</li><li>Foutopsporing: ervoor zorgen dat de gegevens voor een specifieke cookie-id (of een specifieke klant-id) aanwezig zijn.</li><li>Het identificeren van de gebruikers die binnen aan een vraagcentrum riepen.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimension | Welk type van identiteitskaart [!UICONTROL Person ID] bestaat uit: Voorbeelden: `email address`, `cookie ID`, `Analytics ID`, enz. |
 | [!UICONTROL Quarter of Year] | Afmeting van tijd-paring | Q1, Q2, Q3, Q4 |
-| [!UICONTROL Return session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. |
+| [!UICONTROL Repeat session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
 | [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), filtert het tot enkel de eerste gebeurtenis van elke zitting. |
 | [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Vergelijkbaar met [!UICONTROL Session Starts], kan het ook in een filterdefinitie worden gebruikt om dingen tot de laatste gebeurtenis van elke zitting te filtreren. |
-| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Indien metriek geen deel uitmaken van een sessie, vallen zij voor deze dimensie in het &quot;niet van toepassing&quot;-segment. [Meer informatie](/help/data-views/data-views-usecases.md) |
+| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Indien metriek geen deel uitmaken van een sessie, vallen zij voor deze dimensie in het &quot;niet van toepassing&quot;-segment. [Meer informatie]([Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat)) |
 | [!UICONTROL Time Spent (seconds)] | Metrisch | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat. |
 | [!UICONTROL Time Spent per Event] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
 | [!UICONTROL Time Spent per Session] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |

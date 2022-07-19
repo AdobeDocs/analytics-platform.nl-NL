@@ -4,19 +4,14 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Media afspelen tijd besteed, deelvenster
-
->[!NOTE]
->
->Deze functie staat momenteel in [beperkte tests](/help/release-notes/releases.md).
-
 
 U kunt de afspeeltijd analyseren die u hebt doorgebracht om te begrijpen waar de maximale gelijktijdige uitvoering plaatsvond of waar drop-offs kostbare inzichten hebben opgeleverd in de kwaliteit van de inhoud en de betrokkenheid van de viewer, en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
 
