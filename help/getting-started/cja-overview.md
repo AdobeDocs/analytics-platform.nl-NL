@@ -4,10 +4,10 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegeve
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 64cd3983f58f1f0de1d8639e5cb1e705dd72ef44
+source-git-commit: f2a10a34618d625157445bbb496cf3fc93d280af
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 1%
+source-wordcount: '917'
+ht-degree: 2%
 
 ---
 
@@ -52,30 +52,6 @@ Voordat u kunt beginnen met het gebruik van Customer Journey Analytics, moet aan
 * Uw organisatie heeft een actief contract met Adobe Analytics voor Select, Prime of Ultimate met de Customer Journey Analytics add-on. Neem contact op met de accountmanager van uw organisatie als u niet zeker weet welk type contract u hebt of als u de CJA-invoegtoepassing hebt.
 * Uw organisatie is ingericht voor Adobe Experience Platform.
 
-## Beheerdersrechten
-
-Om verbindingen tot stand te brengen, voeg datasets toe, etc., hebt u de volgende toestemmingen in nodig [Admin Console](https://adminconsole.adobe.com/enterprise/):
-
-* Als u toegang wilt krijgen tot Customer Journey Analytics of verbinding wilt maken, moet u als beheerder aan de **Customer Journey Analytics-product** in de [Admin Console](https://adminconsole.adobe.com/enterprise/). Aan productbeheerders worden de volgende machtigingen verleend:
-   * Verbindingen of gegevensweergaven maken/bijwerken/verwijderen
-   * Projecten, filters, berekende metriek of filters die door andere gebruikers worden gemaakt bijwerken/verwijderen
-   * Een Workspace-project delen met alle gebruikers
-* Het alleen binnen Customer Journey Analytics beheren van een product is niet voldoende om een verbinding te maken, bij te werken of te verwijderen. Om een verbinding aan een dataset van de Experience Platform tot stand te brengen, hebt u ook de toestemmingen van het Experience Platform nodig. U moet specifiek deel uitmaken van een **Productprofiel Experience Platform** dat u de volgende toestemmingen geeft:
-   * Schema&#39;s weergeven
-   * Schema&#39;s beheren
-   * Identiteitsnaamruimten weergeven
-   * Gegevensbestanden weergeven
-
-Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
-
->[!NOTE]
->
->U kunt geen toestemmingen op individuele metriek of dimensies in Customer Journey Analytics verlenen of ontkennen zoals u in traditionele Adobe Analytics kunt. Metriek en afmetingen kunnen worden gewijzigd in [gegevensweergaven](/help/data-views/data-views.md) en zijn derhalve onderhevig aan wijzigingen in de CJA, die ook de rapportage met terugwerkende kracht wijzigen.
-
-### Toegang van gebruikers
-
-Niet-productbeheerders (gebruikers) in Customer Journey Analytics kunnen de Weergaven of Verbindingen van Gegevens niet bekijken, maar kunnen filters, projecten, en berekende metriek tot stand brengen.
-
 ## Terminologie-updates
 
 Verschillende functies in CJA hebben in vergelijking met traditionele Adobe Analytics een andere naam gekregen om zich aan te passen aan de industriestandaarden. Enkele bijgewerkte terminologie:
@@ -97,8 +73,8 @@ Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem ce
 Van de Ingestie van Gegevens aan directe SQL toegang, zijn verscheidene componenten van het Experience Platform centraal aan Customer Journey Analytics en vullen het aan:
 
 * [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaard SQL om gegevens van Adobe Experience Platform terug te winnen, zoals de oplossingsgegevens van de Adobe, klant 1st-party gegevens, of een andere Platform gegevens. Het is een server-zonder hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in rapportering, de Werkruimte van de Wetenschap van Gegevens, of voor opname in de Dienst van het Profiel te vangen. U kunt de Dienst van de Vraag gebruiken om gegevensanalysecosystemen te bouwen, die tot een beeld van consumenten over hun diverse interactiekanalen leiden. Deze kanalen zouden de systemen van het Punt-van-Verkoop, Web, Mobiel, systemen van CRM, etc. kunnen omvatten.
-* [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html):
-* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html):
+* [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
+* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl):
 * [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html) in de optie &quot;developer&quot;: u kunt prebuilt artificiële intelligentie (AI) en machine-leert modellen in Adobe Experience Platform gebruiken om diverse punten van de klantenreis te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
 
 ## Video&#39;s
