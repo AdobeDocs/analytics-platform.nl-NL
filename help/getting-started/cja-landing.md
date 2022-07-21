@@ -4,10 +4,10 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 464961194405341b0bb8240a9e327d668d4cde64
+source-git-commit: 9874626b52fd4e87bd6337b20ac03d837d8ad888
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,6 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en"> Publiceren van publiek CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en"> Virtuele rapportsuites, gegevensmeningen, AEP zandbakken en de Bron van de Analyse Verbinding </a> </li>
