@@ -1,19 +1,20 @@
 ---
-description: Verklaart welke factoren de consistentie van metriek tussen Real-time Customer Data Platform (in real time CDP) en CJA beïnvloeden.
-title: Consistentie van metriek tussen Echt - tijd CDP en CJA
+description: Verklaart welke factoren de consistentie van metriek en kijkcijfers van het publiekslidmaatschap tussen Real-time Customer Data Platform (in real time CDP) en CJA beïnvloeden.
+title: Consistentie van metriek en het tellen van het publieksenlidmaatschap tussen CDP In real time en CJA
 role: Admin
 feature: CJA Basics
-source-git-commit: 2318b303c981ad556dc61a3419af4cce9fbbf92b
+exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
+source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 
-# Consistentie van metriek tussen Echt - tijd CDP en CJA
+# Consistentie van metriek en het tellen van het publieksenlidmaatschap tussen CDP In real time en CJA
 
-In real-world scenario&#39;s, kan de consistentie van metriek over Real-time Customer Data Platform (in real time CDP) en Customer Journey Analytics (CJA) niet worden gewaarborgd. In dit document wordt uitgelegd waarom.
+In real-world scenario&#39;s, kan de consistentie van metriek en het aantal van het publiekslidmaatschap over Real-time Customer Data Platform (Real-time CDP) en Customer Journey Analytics (CJA) niet worden gewaarborgd. In dit document wordt uitgelegd waarom.
 
 ## CJA gebruikt nog geen identiteitsgrafiek
 
