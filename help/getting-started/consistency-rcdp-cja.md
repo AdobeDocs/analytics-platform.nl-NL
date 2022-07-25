@@ -4,9 +4,9 @@ title: Consistentie van metriek en het tellen van het publieksenlidmaatschap tus
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
+source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -16,45 +16,22 @@ ht-degree: 0%
 
 In real-world scenario&#39;s, kan de consistentie van metriek en het aantal van het publiekslidmaatschap over Real-time Customer Data Platform (Real-time CDP) en Customer Journey Analytics (CJA) niet worden gewaarborgd. In dit document wordt uitgelegd waarom.
 
-## CJA gebruikt nog geen identiteitsgrafiek
+## Verschillen in identiteitsconfiguraties
 
-CDP en CJA delen niet de zelfde definitie van een persoon vandaag. CJA gebruikt nog niet [Identiteitsgrafiek](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) haar definitie van een persoon mede te delen. CDP in real time baseert zich volledig op de informatie in de Grafiek van de Identiteit om een samengevoegd profiel te bouwen.
+CDP en CJA in realtime hebben vandaag niet dezelfde definitie van een persoon. Real-time CDP vertrouwt volledig op de informatie in [Identiteitsgrafiek](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) om een samengevoegd profiel te maken.
 
-CJA gebruikt een methode die [Veldgebaseerde plaatsing](/help/connections/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden. In de tussenliggende toekomst zal CJA naar verwachting beginnen gebruik te maken van [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) de uitvoer naar het gegevens meer, die voor een gedeeld begrip van identiteit over CDP en CJA in real time toestaan.
+CJA kan worden geconfigureerd voor gebruik [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
+In de toekomst zal CJA de Grafiek van de Identiteit kunnen gebruiken.
 
->[!IMPORTANT]
->
->Als u van de Adobe Experience Platform Identity Service de identiteitsbron van de waarheid maakt voor alle Adobe Experience Platform-toepassingen, worden de meetgegevens niet automatisch consistent in alle toepassingen. Lees verder om te leren waarom.
+## Verschillen in configuratie gegevensset
 
-## Flexibiliteit van toepassingsgegevens
+U kunt verkiezen om sommige gegevens in Real-time CDP en wat in CJA te zetten; vaak, verkiezen de klanten om meer historische gegevens in CJA te zetten dan voor CDP in real time relevant is. Andere datasets zouden voor in real time CDP dan voor CJA relevanter kunnen zijn.
 
-Experience Platform past geen strenge handhaving toe om de gegevens tussen het Profiel van de Klant in real time en het meer van Gegevens te houden. In sommige gevallen worden gegevens gebruikt in [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/profile/profile-overview.html?lang=en) (activering), terwijl anderen buiten de [gegevensmeer](https://business.adobe.com/blog/basics/data-lake) (rapportage- en queryservice).
+## Verschillen in verwerkingsconfiguratie
 
-CDP-klanten in realtime beschikken doorgaans niet over 100% van de gegevens in het Adobe Experience Platform-datumpigment dat in Profile wordt uitgevoerd. Dit is door ontwerp - de klanten zouden gegevens in het meer voor Profiel specifiek moeten toelaten. CJA staat gegevensanalisten toe om vrij te selecteren welke gegevens zij voor analyse van het gegevensmeer willen binnen brengen, onafhankelijk van wat voor CDP in real time wordt toegelaten.
+CJA staat voor uitgebreide gegevenswijziging bij vraagtijd toe, zoals het combineren van gebieden, het splitsen van gebieden uit elkaar, en andere manipulaties zoals omvat/omvat/sluit, substrings, waarde deduplicatie, zittingsbepaling, en rij-vlakke het filtreren.
 
-## Toepassingsspecifieke modifiers
-
-CJA staat voor uitgebreide gegevenswijziging bij vraagtijd toe, zoals het combineren van gebieden, het splitsen van gebieden uit elkaar, en andere manipulaties zoals muntomzettingen, waarde deduplicatie, zittingsbepaling, en rij-vlakke het filtreren. Deze mogelijkheden zijn niet beschikbaar voor CDP.
-
-Op dezelfde manier wordt CDP in real time toegepast [beleid samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en) om te bepalen welke gegevens voorrang krijgen en welke gegevens zullen worden gecombineerd om een verenigde mening van een persoon tot stand te brengen. Deze configuraties bevinden zich stevig in de logica van elke toepassing en worden niet gedeeld.
-
-## Leestijd versus schrijven-tijd gedrag
-
-CDP in real time vereist punt-in-tijd profielstitching gebruikend de recentste grafiek van identiteitskaart.
-
-* CDP in real time wordt ontworpen om profielinformatie in real time voor activering samen te stellen.
-
-* Het kan in real time alle veranderingen in de vastgestelde herkenningstekens voor een bepaalde gebruiker aanpassen.
-
-* Het terugkijkvenster wordt gecontroleerd door de segmentdefinitie.
-
-CJA vereist dat gegevens bij schrijftijd worden vastgezet gebruikend de uitvoer van de Grafiek van identiteitskaart.
-
-* CJA past complexe voorverwerkingsstappen toe, zoals indexeren, arceren en groeperen, voordat de gegevens klaar zijn voor analyse.
-
-* De persoon-identificator voor een bepaalde gebruiker is een kritische input voor de fasen van de voorbehandeling; het wijzigen van de identificatiecode van de persoon heeft aanzienlijke opwerkingskosten.
-
-* Het terugkijkvenster wordt gecontroleerd op toepassingsniveau.
+CDP in real time biedt een verschillende reeks hulpmiddelen van de gegevensmanipulatie aan. Zij is van toepassing [beleid samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en) om te bepalen welke gegevens voorrang krijgen en welke gegevens zullen worden gecombineerd om een verenigde mening van een persoon tot stand te brengen.
 
 ## Verschillen in TTL (Tijd aan Levende) en gegevensopname
 
@@ -70,10 +47,6 @@ Zelfs als de datasets in Echt - tijd CDP en CJA het zelfde zijn, kan CDP in real
 
 * De Opslag van het profiel in Echt - tijd CDP staat voor klant-configureerbare TTLs toe. Klanten kunnen deze TTL wijzigen in wat ze nodig hebben om binnen hun licentierechten te blijven.
 
-## Verschillen in verwerking van GDPR (algemene gegevensbeschermingsverordening)
-
-Gegevensverwerkingslogica voor GDPR en gegevenshygiëne in real-time CDP en data Lake is heel anders. We werken aan één enkele aanpak.
-
 ## Verschillen in de latentie bij het opnemen van gegevens
 
-CJA-rapportage bevat enige vertraging voordat gegevens beschikbaar zijn voor rapportage of het creëren van een publiek. CDP in real time verwerkt gegevens door verschillende systemen die verschillende latentie hebben.
+CJa heeft nog niet de mogelijkheden in real time van CDP in real time en dientengevolge, omvat CJA het melden wat latentie alvorens de gegevens voor het melden of publieksverwezenlijking beschikbaar zijn. CDP in real time verwerkt gegevens door verschillende systemen die verschillende latentie hebben.
