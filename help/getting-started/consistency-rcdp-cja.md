@@ -4,9 +4,9 @@ title: Consistentie van metriek en het tellen van het publieksenlidmaatschap tus
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
+source-git-commit: 769eef205df32865874753859ce79e573db40641
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 0%
 
 In real-world scenario&#39;s, kan de consistentie van metriek en het aantal van het publiekslidmaatschap over Real-time Customer Data Platform (Real-time CDP) en Customer Journey Analytics (CJA) niet worden gewaarborgd. In dit document wordt uitgelegd waarom.
 
+Wanneer het vergelijken van het aantal van het publiekslidmaatschap tussen CDP in real time en CJA, is het belangrijk om in mening de verschillende doelstellingen van deze twee hulpmiddelen te houden. CDP in real time gebruikt gegevens van het klantenprofiel om digitale ervaringen aan individuele consumenten te richten, terwijl CJA wordt ontworpen om gebruikers te helpen patronen in zeer belangrijke bedrijfsmetriek en segmenten begrijpen. Terwijl het publiek dat van CJA aan CDP in real time publiceert een gebruiker van deze hulpmiddelen toestaat om een inzicht gemakkelijk en native &quot;te activeren&quot;, die uit de lessen voordeel halen die in CJA worden verkregen, dienen deze hulpmiddelen niettemin fundamenteel verschillende doeleinden.
+
 ## Verschillen in identiteitsconfiguraties
 
 CDP en CJA in realtime hebben vandaag niet dezelfde definitie van een persoon. Real-time CDP vertrouwt volledig op de informatie in [Identiteitsgrafiek](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) om een samengevoegd profiel te maken.
 
 CJA kan worden geconfigureerd voor gebruik [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
+
 In de toekomst zal CJA de Grafiek van de Identiteit kunnen gebruiken.
 
 ## Verschillen in configuratie gegevensset
