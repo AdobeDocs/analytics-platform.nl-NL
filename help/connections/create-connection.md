@@ -4,7 +4,7 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: fd403194eed70e1b4a5a63cd02c8a84a11902e1d
+source-git-commit: 3fa65dd46e807041cec1fee64e918aacaa5b7a1b
 workflow-type: tm+mt
 source-wordcount: '2382'
 ht-degree: 1%
@@ -140,7 +140,7 @@ Als u Identiteitskaart selecteert, krijgt u twee extra configuratieopties:
 
 Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zijn en hoe zij worden behandeld:
 
-| Optie | Er zijn geen id&#39;s aanwezig op de identiteitskaart | Geen id&#39;s zijn gemarkeerd als primair | Meerdere id&#39;s zijn gemarkeerd als primaire id | Eén id, al dan niet gemarkeerd als primair | Ongeldige naamruimte met een id gemarkeerd als primair |
+| Optie | Er zijn geen id&#39;s aanwezig op de identiteitskaart | Meerdere id&#39;s, geen gemarkeerd als primair | Meerdere id&#39;s zijn gemarkeerd als primaire id | Eén id, al dan niet gemarkeerd als primair | Ongeldige naamruimte met een id gemarkeerd als primair |
 |---|---|---|---|---|---|
 | **[!UICONTROL Use Primary ID Namespace]ingeschakeld** | De rij wordt neergezet door CJA. | De rij wordt neergezet door CJA, aangezien geen primaire identiteitskaart wordt gespecificeerd. | Alle id&#39;s die als primair zijn gemarkeerd, worden onder alle naamruimten geëxtraheerd naar een lijst. Vervolgens worden ze alfabetisch gesorteerd; met deze nieuwe sortering wordt de eerste naamruimte met de eerste id gebruikt als de Persoon-id. | Eén id wordt gebruikt als de persoon-id. | Hoewel de naamruimte ongeldig kan zijn (niet aanwezig in AEP), gebruikt CJA de primaire id onder die naamruimte als de Person-id. |
 | **[!UICONTROL Specific Identity Map namespace]geselecteerd** | De rij wordt neergezet door CJA. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. (Alleen een geldige naamruimte kan tijdens het maken van de verbinding worden geselecteerd, zodat een ongeldige naamruimte/id niet kan worden gebruikt als Person-id.) |
