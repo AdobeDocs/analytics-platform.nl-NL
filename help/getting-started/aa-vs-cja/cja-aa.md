@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9d928a68e9b2eb16ba14cd793857547432ba11b0
+source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1479'
 ht-degree: 3%
 
 ---
@@ -67,6 +67,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | De ingangen, de Uitgangen, en de tijd bestede dimensies en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimension in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
 | GeoSegmentation-afmetingen | Alle GeoSegmentation/geography die in Adobe Analytics wordt verzameld stroomt in CJA door [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Implementaties die geen gebruik maken van de Bronverbinding Analytics, zoals die welke voor digitale gegevensverzameling afhankelijk zijn van AEP Web SDK, zullen niet de volledige serie van automatisch uitgevoerde geografische zoekopdrachten hebben: Land en staat worden wereldwijd ondersteund, stad en zip niet. |
+| IP Obfuscatie | Voor CJA-klanten die de Analytics Source Connector gebruiken om gegevens van Adobe Analytics in CJA te vullen: De IP die de verduisteringsmontages in Adobe Analytics worden toegepast stromen door aan uw gegevens CJA. U kunt deze instellingen desgewenst in Adobe Analytics beheren.<p>Voor klanten CJA die SDK van het Web van Adobe Experience Platform gebruiken om gegevens in Platform en CJA direct te bevolken: U kunt Prep van Gegevens voor de Inzameling van Gegevens in Platform gebruiken om regels te vormen die het IP adres zullen verduisteren dat op de vereisten van uw bedrijf wordt gebaseerd. |
 | Marketingkanalen | De gegevens van Kanalen van de marketing stromen in CJA door de Bron van Analytics Schakelaar. De regels van het Kanaal van de marketing moeten nog in traditionele Adobe Analytics worden gevormd. Sommige regels worden niet ondersteund. Zie voor meer informatie [Documentatie CJA-marketingkanalen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases). |
 | Nieuwe versus herhaalde sessierapportage | Ondersteund op 17 augustus 2022, [met een terugzoekvenster van 13 maanden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat). |
 | Productvariabele | Binnen het Experience Platform, kunnen de gebruikers serie van de typegebieden van Objecten binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen CJA kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
