@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
+source-git-commit: 141a41cfff54bf0ec3db031d567fa68d092fd7ee
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '711'
 ht-degree: 33%
 
 ---
@@ -104,18 +104,19 @@ ht-degree: 33%
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
          + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Histogram](analysis-workspace/visualizations/histogram.md)
-      + [Venn](analysis-workspace/visualizations/venn.md)
       + [Gebied en gestapeld gebied](analysis-workspace/visualizations/area.md)
       + [Balkgrafiek en gestapelde-balkgrafiek](analysis-workspace/visualizations/bar.md)
       + [Staafdiagram](analysis-workspace/visualizations/bullet-graph.md)
       + [Cirkeldiagram](analysis-workspace/visualizations/donut.md)
+      + [Histogram](analysis-workspace/visualizations/histogram.md)
       + [Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Samenvatting van metrische sleutel](analysis-workspace/visualizations/key-metric.md)
       + [Lijn](analysis-workspace/visualizations/line.md)
       + [Spreidingsdiagram](analysis-workspace/visualizations/scatterplot.md)
       + [Cijferoverzicht en Wijzigingsoverzicht](analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](analysis-workspace/visualizations/text.md)
       + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
+      + [Venn](analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
       + [Deelvenster voor attributie](analysis-workspace/c-panels/attribution.md)
