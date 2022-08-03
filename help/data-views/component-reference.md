@@ -4,9 +4,9 @@ description: Details en informatie over alle standaardcomponenten die u kunt toe
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
+source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,8 @@ Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevens
 | [!UICONTROL Quarter] | Dimension | Het kwart dat een bepaalde gebeurtenis heeft plaatsgevonden. De post van de eerste dimensie is het eerste kwartaal in het datumbereik, en de laatste dimensie is het laatste kwartaal in het datumbereik. |
 | [!UICONTROL Year] | Dimension | Het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-post is het eerste jaar in het datumbereik, en de laatste dimensie-post is het meest recente jaar in het datumbereik. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Optionele standaardonderdelen {#optional}
 
 Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Standard Components]** tab.
@@ -64,3 +66,4 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Time Spent per Person] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Person] emmers. |
 | [!UICONTROL Weekend]/[!UICONTROL Weekday] | Afmeting van tijd-paring | Weekend of Weekdag |
 
+{style=&quot;table-layout:auto&quot;}
