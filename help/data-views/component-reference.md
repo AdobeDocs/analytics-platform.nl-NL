@@ -4,10 +4,10 @@ description: Details en informatie over alle standaardcomponenten die u kunt toe
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
+source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
@@ -57,7 +57,7 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Repeat session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
 | [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Indien gebruikt in een filterdefinitie (bv. &#39;[!UICONTROL Session Starts] bestaat&#39;), filtert het tot enkel de eerste gebeurtenis van elke zitting. |
 | [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Vergelijkbaar met [!UICONTROL Session Starts], kan het ook in een filterdefinitie worden gebruikt om dingen tot de laatste gebeurtenis van elke zitting te filtreren. |
-| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Indien metriek geen deel uitmaken van een sessie, vallen zij voor deze dimensie in het &quot;niet van toepassing&quot;-segment. [Meer informatie]([Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat)) |
+| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Indien metriek geen deel uitmaken van een sessie, vallen zij voor deze dimensie in het &quot;niet van toepassing&quot;-segment. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
 | [!UICONTROL Time Spent (seconds)] | Metrisch | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat. |
 | [!UICONTROL Time Spent per Event] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
 | [!UICONTROL Time Spent per Session] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |
