@@ -2,9 +2,9 @@
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,11 @@ Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden in
 
 ## Toestemmingen
 
-Beheerders krijgen automatisch de opdracht [!UICONTROL Audience Publishing] toestemming in Adobe Admin Console. Zij kunnen deze toestemming aan individuele gebruikers verlenen.
+* Beheerders krijgen automatisch de opdracht **[!UICONTROL Audience Publishing]** toestemming in Adobe Admin Console.
+
+* Beheerders kunnen deze machtiging verlenen aan individuele gebruikers.
+
+* Beheerders hebben ook de opdracht **[!UICONTROL Manage Profiles]** toestemming in Adobe Experience Platform.
 
 ## Volgende stappen
 

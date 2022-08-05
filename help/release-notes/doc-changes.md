@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bd246314734e8bcebc351d42ebe28ad4912f7ba6
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '908'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| Augustus 2022 | Nieuwe documentatie over [Publiceren van het publiek aan het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html) |
 | Juli 2022 | [Media afspelen tijd besteed, deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) documentatie. |
 | Juli 2022 | [Deelvenster Mediagelijktijdige viewer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentatie. |
 | Juli 2022 | [Nieuwe versus herhalingssessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) rapportagedocumentatie. |
