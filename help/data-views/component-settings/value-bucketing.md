@@ -4,9 +4,9 @@ description: Combineer numerieke waarden in een dimensie.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
@@ -28,3 +28,5 @@ Als u de flexibiliteit wilt om zowel over een gespikte als niet-gespikte dimensi
 | [!UICONTROL Including] [!UICONTROL and less than] | Grenzen van volgende emmers. |
 | [!UICONTROL Greater than or equal to] | De ondergrens van het laatste afmetingsemmer. |
 | [!UICONTROL Add bucket] | Hiermee kunt u nog een emmertje toevoegen aan een numerieke dimensie-emmer. U kunt maximaal 20 emmers in één dimensie toevoegen. |
+
+{style=&quot;table-layout:auto&quot;}

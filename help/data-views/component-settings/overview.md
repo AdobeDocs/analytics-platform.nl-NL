@@ -4,10 +4,10 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 1%
 
 ---
 
@@ -28,8 +28,11 @@ De montages van de kern die een component van de gegevensmening gebruikt.
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |
 | [!UICONTROL Schema Type] | Een niet-bewerkbaar veld dat het gegevenstype van de component weergeeft.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. De volgende gegevenstypen worden ondersteund: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, en `Boolean`. Alleen de `String` het gegevenstype van schemagegevens wordt momenteel toegestaan in de datasets van de Opzoekopdracht. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. Elke component in een gegevensweergave moet uniek zijn. Adobe genereert automatisch een id voor elke component; u kunt echter op het bewerkingspictogram klikken en de component-id wijzigen. Wanneer u de component-id wijzigt, worden alle bestaande werkruimteprojecten die deze component bevatten, verbroken. Hoewel elke component een unieke id in één gegevensweergave nodig heeft, kunt u dezelfde component-id in andere gegevensweergaven gebruiken. Als u dezelfde component-id in andere gegevensweergaven gebruikt, kunt u Workspace-projecten compatibel maken in verschillende gegevensweergaven. |
-| [!UICONTROL Schema Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
+| [!UICONTROL Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
+| [!UICONTROL Data Usage Labels] | Alle labels voor gegevensgebruik die in Adobe Experience Platform aan deze component zijn toegewezen. Meer informatie |
 | [!UICONTROL Hide component in reporting] | Hiermee kunt u de component uit de gegevensweergave voor niet-beheerders beheren. Beheerders hebben er nog steeds toegang toe door op [!UICONTROL Show All Components] in een Analysis Workspace-project. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Hier volgt een video over componentinstellingen in gegevensweergaven:
 

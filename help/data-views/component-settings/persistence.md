@@ -4,9 +4,9 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 7%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 7%
 | [!UICONTROL Set persistence] | Laat persistentie voor de dimensie toe. Als persistentie niet is ingeschakeld, heeft de dimensie alleen betrekking op metriek die in dezelfde gebeurtenis bestaan. Deze instelling is standaard uitgeschakeld. |
 | [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Vanaf 28 oktober 2021 wordt een terugzoekvenster van maximaal 90 dagen toegevoegd aan de [!UICONTROL Allocation] instellen. |
 | [!UICONTROL Expiration] | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: [!UICONTROL Session] (standaard), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric]. Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). De maximale vervaltijd die u kunt instellen, is 90 dagen. Als u een toewijzing van [!UICONTROL All], alleen [!UICONTROL Session] of [!UICONTROL Person] verlopen is beschikbaar. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Allocation] instellingen
 

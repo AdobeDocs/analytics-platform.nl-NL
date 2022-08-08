@@ -4,9 +4,9 @@ description: Bepaal hoe een dimensie moet worden verwerkt als deze leeg is.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -23,3 +23,5 @@ Geen waardeopties laten u bepalen hoe Analysis Workspace situaties behandelt waa
 | [!UICONTROL Don't show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. Metrische voorvallen die niet aan deze dimensie zijn gekoppeld, zijn niet zichtbaar in het rapport. |
 | [!UICONTROL Show No value by default] | Deze waarde wordt in de rapportage weergegeven. |
 | [!UICONTROL Treat No value as a value] | Hiermee vervangt u lege waarden in de gegevens door de tekst die u onder [!UICONTROL If shown, call "No value"]. Als u bijvoorbeeld Mobiel apparaattypen als de dimensie had, kunt u de naam van de component **[!UICONTROL No value]** item naar &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Rood&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Rood&quot; die in de gegevens zelf worden weergegeven, daarom onder hetzelfde lijstitem als u hebt opgegeven. |
+
+{style=&quot;table-layout:auto&quot;}
