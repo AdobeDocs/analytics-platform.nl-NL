@@ -4,7 +4,7 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -108,11 +108,10 @@ Deze componenten openen:
 
 1. Ga in de redacteur van de gegevensmening.
 1. Klik op de knop **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** -tab in linkerrails.
-1. Sleep ze naar de gegevensweergave.
+1. Sleep deze componenten naar de gegevensweergave.
 
-95%-99% van de tijd, nieuwe zittingen zullen correct worden gemeld. De enige uitzonderingen zijn:
+95%-99% van de tijd, nieuwe zittingen worden correct gemeld. De enige uitzonderingen zijn:
 
 * Wanneer een eerste zitting vóór het 13 maanden raadplegingsvenster voorkwam. Deze sessie wordt genegeerd.
 
-* Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Stel dat u een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als terugkerende sessies.
-
+* Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Stel dat u een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als retoursessies.

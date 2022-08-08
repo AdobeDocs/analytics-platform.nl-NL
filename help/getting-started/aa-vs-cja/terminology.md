@@ -1,11 +1,18 @@
 ---
-source-git-commit: c25e320268aeda85eb6709ca3458c60c6f24fea3
+title: Vergelijk terminologie voor de gegevens van de Analyse die door de Bronschakelaar van de Analyse worden overgegaan
+description: Bepaalde terminologieverschillen
+solution: Customer Journey Analytics
+source-git-commit: 287c75fd2b519f3d1d86209e0b0ab4ed7f761814
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 3%
+source-wordcount: '788'
+ht-degree: 2%
 
 ---
-# Vergelijking van Terminologie voor de Gegevens van Analytics die door de Verbinding van de Bron van Analytics worden overgegaan
+
+
+# Vergelijk terminologie voor de gegevens van de Analyse die door de Bronschakelaar van de Analyse worden overgegaan
+
+Er bestaan enkele terminologische verschillen tussen Adobe Analytics, Data Feeds, Analytics Source Connector/Data Lake en CJA. Dit onderwerp is bedoeld om die verschillen te benadrukken en te verduidelijken.
 
 | Verwante voorwaarden | Adobe Analytics | Adobe Analytics Data Feeds | Bronverbinding voor analyse/Data Lake | CJA | Notities |
 |---|---|---|---|---|---|

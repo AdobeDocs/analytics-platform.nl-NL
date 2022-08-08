@@ -4,7 +4,7 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -126,3 +126,4 @@ U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn
 Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Een tijdsperiode is vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat.
 
 Als alle gewenste instellingen zijn opgegeven, klikt u op **[!UICONTROL Save and finish]**.
+
