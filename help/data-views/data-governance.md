@@ -2,9 +2,9 @@
 title: CJA-ondersteuning voor Adobe Experience Platform Data Governance
 description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald rapportering in CJA beïnvloeden.
 mini-toc-levels: 3
-source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,12 @@ Het beleid bestaat uit twee onderdelen: het gegevensetiket en een marketingactie
 
 * Analyse - gegevens gebruiken voor analytische doeleinden, zoals het meten, analyseren en rapporteren van het consumentengebruik van de sites of apps van uw organisatie.
 
-* Gegevens exporteren naar een derde partij, dat wil zeggen uit de Adobe-omgeving.
+* Gegevens exporteren - dat wil zeggen uit de Adobe-omgeving.
 
 U koppelt labels en marketingacties aan een beleid en schakelt het beleid vervolgens in. Het beleid neemt het etiket en de marketing actie en zegt: deze beperking handhaven. In CJA worden twee door Adobe gedefinieerde beleidsregels weergegeven die van invloed zijn op rapportage en downloaden/delen:
 
-* Beleid voor analyse afdwingen
-* Downloadbeleid afdwingen
-
+* [!UICONTROL Enforce Analytics] beleid
+* [!UICONTROL Enforce Download] beleid
 
 ### Gegevenslabels weergeven in CJA-gegevensweergaven
 
@@ -93,7 +92,7 @@ Op individuele componenten zou het bericht gelijkaardig aan dit zijn:
 
 ### Hoe [!UICONTROL Enforce Download] beleid beïnvloedt Werkruimteprojecten
 
-Als dit beleid wordt aangezet, zal om het even welke download (zoals het e-mailen of het delen van pdfs) van de projecten van de Werkruimte de gevoelige gebieden hakken. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden weergegeven als gehashte items in het .pdf-bestand.
+Als dit beleid wordt aangezet, zal om het even welke uitvoer of download (zoals het e-mailen of het delen van pdfs) van de projecten van de Werkruimte de gevoelige gebieden hakken. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden weergegeven als gehashte items in het .pdf-bestand.
 
 Voeg hier een schermafbeelding toe.
 
