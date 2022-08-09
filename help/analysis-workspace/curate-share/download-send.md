@@ -3,9 +3,9 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ U kunt meerdere taken uitvoeren binnen het project en zelfs naar een nieuw Works
 
 ![](assets/download-items.png)
 
-### Bestand met gedownloade items
+### Bestand met gedownloade items {#items-file}
 
 De functies van de tabel worden als volgt op het gedownloade bestand toegepast:
 
@@ -71,7 +71,7 @@ In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvenster
 
 ![](assets/downloaded-file.png)
 
-### Meldingen downloaden
+### Meldingen downloaden {#notifications}
 
 Terwijl het bestand wordt gedownload, wordt een informatieve melding over de voortgang weergegeven. U kunt de download op elk gewenst moment annuleren door op **[!UICONTROL Cancel download]**. De toast sluiten **niet** het downloaden annuleren.
 
@@ -80,6 +80,10 @@ Nadat het bestand is voltooid, wordt een voltooiingsbericht weergegeven en wordt
 Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elke extra download in de wachtrij wordt geplaatst totdat de vorige download is voltooid.
 
 ![](assets/toast.png)
+
+## Gevoelige gegevens downloaden {#sensitive}
+
+Als het beleid voor het beheer van downloadgegevens afdwingen is ingeschakeld, worden de gegevensvelden die als gevoelig zijn gemarkeerd, verborgen bij elke download (zoals het e-mailen of delen van PDF&#39;s) van Workspace-projecten. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden weergegeven als gehashte items in het .pdf-bestand.
 
 ## Veelgestelde vragen {#faq}
 

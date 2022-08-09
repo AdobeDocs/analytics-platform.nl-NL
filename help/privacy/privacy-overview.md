@@ -1,18 +1,21 @@
 ---
-title: Overzicht van Customer Journey Analytics-privacy
-description: Beschrijft hoe de privacymontages in Customer Journey Analytics werken.
-translation-type: tm+mt
-source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
+title: Customer Journey Analytics- en gegevensbeheer
+description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics werkt.
+exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
+source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
+# Customer Journey Analytics- en gegevensbeheer
 
-# Overzicht van Customer Journey Analytics-privacy
+In het algemeen worden instellingen met betrekking tot gegevensbeheer in Customer Journey Analytics overgenomen van Adobe Experience Platform.
 
-In het algemeen worden privacygerelateerde instellingen in Customer Journey Analytics overgenomen van Adobe Experience Platform.
+## Data Governance
+
+CJA biedt ondersteuning voor labels en beleidsregels voor gegevensbeheer die zijn ingesteld in Adobe Experience Platform. Zie CJA-ondersteuning voor Adobe Experience Platform Data Governance voor meer informatie.
 
 ## GDPR
 
