@@ -2,9 +2,9 @@
 title: Customer Journey Analytics- en gegevensbeheer
 description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics werkt.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: 0d48c1ed8d0bf50939f8eda1f5656c95370ac0b7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Customer Journey Analytics zal zich niet rechtstreeks op de centrale dienst van 
 
 ## CCPA
 
-De California Consumer Privacy Act (CCPA) verbetert de privacyrechten en consumentenbescherming voor inwoners van Californië in de Verenigde Staten. Deze wet wordt van kracht op 1 januari 2020.
+De California Consumer Privacy Act (CCPA) verbetert de privacyrechten en consumentenbescherming voor inwoners van Californië in de Verenigde Staten. Deze wet werd van kracht op 1 januari 2020.
 De CCPA biedt de inwoners van Californië nieuwe privacyrechten op het gebied van gegevens, zoals het recht op toegang tot en verwijdering van hun persoonsgegevens, om te weten of hun persoonsgegevens worden verkocht of openbaar gemaakt (en aan wie), en om de verkoop van hun persoonsgegevens te weigeren.
 In afwachting van de CCPA zal de Privacy Service verzoeken om niet te mogen verkopen van persoonsgegevens steunen.

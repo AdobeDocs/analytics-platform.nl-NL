@@ -1,11 +1,10 @@
 ---
-title: CJA-ondersteuning voor Adobe Experience Platform Data Governance
-description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald rapportering in CJA beïnvloeden.
-mini-toc-levels: 3
+title: Labels en beleid
+description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald gegevensmeningen en rapportering in CJA beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,8 +25,8 @@ De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik
 
 In CJA worden twee door Adobe gedefinieerde beleidsregels weergegeven die van invloed zijn op rapportage en downloaden/delen:
 
-* [!UICONTROL Enforce Analytics] beleid
-* [!UICONTROL Enforce Download] beleid
+* **[!UICONTROL Enforce Analytics]** beleid
+* **[!UICONTROL Enforce Download]** beleid
 
 ## Gegevenslabels weergeven in CJA-gegevensweergaven
 
@@ -35,9 +34,11 @@ De etiketten van gegevens die in Experience Platform werden gecreeerd worden get
 
 | Locatie | Beschrijving |
 | --- | --- |
-| De knop Info op een schemaveld | Klik op deze knop om aan te geven welke labels voor gegevensgebruik momenteel van toepassing zijn op een veld:<p>![](assets/data-label-left.png) |
-| Rechterspoor onder [Componentinstellingen](/help/data-views/component-settings/overview.md) | Alle labels voor gegevensgebruik worden hier weergegeven:<p>![](assets/data-label-right.png) |
-| Gegevenslabels toevoegen als kolom | U kunt de Etiketten van Gegevens als kolom aan de Opgenomen kolommen van Componenten in gegevensmeningen toevoegen. Klik enkel het pictogram van de kolomselecteur en selecteer de Etiketten van het Gebruik van Gegevens:<p>![](assets/data-label-column.png) |
+| De knop Info op een schemaveld | Als u op deze knop klikt, wordt aangegeven welke [!UICONTROL Data Usage Labels] momenteel van toepassing op een veld:<p>![](assets/data-label-left.png) |
+| Rechterspoor onder [Componentinstellingen](/help/data-views/component-settings/overview.md) | Alle [!UICONTROL Data Usage Labels] worden hier weergegeven:<p>![](assets/data-label-right.png) |
+| Gegevenslabels toevoegen als kolom | U kunt [!UICONTROL Data Labels] als een kolom voor de [!UICONTROL Included Components] kolommen in gegevensweergaven. Klik gewoon op het pictogram van de kolomkiezer en selecteer **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Filter op labels voor gegevensbeheer in gegevensweergaven
 
@@ -55,7 +56,7 @@ Klik nogmaals op het pictogram Filter in de linkertrack en klik onder Gegevensbe
 
 ![](assets/filter-policies.png)
 
-Klikken **[!UICONTROL Apply]** om te zien welk beleid wordt toegelaten _voor deze gegevensweergave?_
+Klikken **[!UICONTROL Apply]** om te zien welk beleid wordt toegelaten.
 
 ## Hoe [!UICONTROL Enforce Analytics] beleid beïnvloedt Werkruimteprojecten
 
