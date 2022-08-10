@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 235f08b275fd2f5706024823005e732b61af1c07
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren 
 
 Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis te nemen van het CJA-publiek.
 
-## publiek maken
+## publiek maken {#create}
 
 1. U kunt op drie manieren een publiek maken:
 
@@ -56,8 +56,8 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | Voorvertoning instellen | Beschrijving |
    | --- | --- |
    | [!UICONTROL Data preview] venster | Het datumbereik voor het publiek. |
-   | [!UICONTROL Total people] | Een samenvattingsnummer van het totale aantal personen in dit publiek. Het kan maar liefst 200 miljoen mensen gaan. Als uw publiek meer dan 200 miljoen mensen telt, moet u de omvang van het publiek reduceren voordat u het kunt publiceren. |
-   | [!UICONTROL Audience size limit] | Toont hoe ver van de 200 miljoen grens dit publiek is. |
+   | [!UICONTROL Total people] | Een samenvattingsnummer van het totale aantal personen in dit publiek. Het kan maar liefst 20 miljoen mensen gaan. Als uw publiek meer dan 20 miljoen mensen telt, moet u de omvang van het publiek reduceren voordat u het publiek kunt publiceren. |
+   | [!UICONTROL Audience size limit] | Toont hoe ver van de 20 miljoen grens dit publiek is. |
    | [!UICONTROL Estimated audience return] | Deze instelling is handig als u klanten in dit publiek die terugkeren naar uw site opnieuw wilt richten. (Met andere woorden, die opnieuw in deze dataset worden gezien.) <p>Hier kunt u het tijdkader (volgende 7 dagen, volgende 2 weken, volgende maand) selecteren voor het geschatte aantal klanten dat kan terugkeren. |
    | [!UICONTROL Estimated to return] | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u van de drop-down lijst selecteerde. We kijken naar de historische waarde van de kroon voor dit publiek om dit getal te voorspellen. |
    | [!UICONTROL Preview metrics] | Met deze instelling kunt u naar specifieke maateenheden kijken om te zien of dit publiek een onevenredig grote bijdrage levert aan deze metrische waarde, zoals &#39;[!UICONTROL Revenue]&#39; of &#39;[!UICONTROL Average time on site]&quot;. Het geeft u het totale aantal metrisch, evenals het percentage van het totaal het vertegenwoordigt. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
@@ -72,7 +72,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
-## CJA-publiek gebruiken in Experience Platform
+## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 
 CJA neemt nu alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). CJA verzendt het publiek over naar Experience Platform met de primaire identiteit die aan wordt geplaatst wat als persoonsidentiteitskaart werd geselecteerd toen de verbinding werd gevormd.
 
@@ -84,9 +84,13 @@ U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
 
 ![](assets/audiences-aep.png)
 
-## Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA?
+## Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA? {#no-member}
 
 In dit geval wordt vanuit CJA een afsluitgebeurtenis naar het Experience Platform verzonden.
+
+## Wat gebeurt er als u een publiek verwijdert in CJA? {#delete}
+
+Wanneer een publiek CJA wordt geschrapt, zal dat publiek niet meer in de interface van het Experience Platform verschijnen. Er zijn echter geen profielen die aan dat publiek zijn gekoppeld, die in het Platform worden verwijderd.
 
 ## Volgende stappen
 
