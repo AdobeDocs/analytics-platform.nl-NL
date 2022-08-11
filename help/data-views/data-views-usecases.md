@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,6 @@ Voor een conceptueel overzicht van gegevensweergaven raadpleegt u [Overzicht van
 
 ## 7. Nieuwe versus herhaalde sessierapportage {#new-repeat}
 
->[!NOTE]
->
->Deze functionaliteit wordt momenteel beperkt getest.
-
 U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruiker of niet is, die op het rapporteringsvenster wordt gebaseerd dat u voor deze gegevensmening en een 13 maanden terugkijkvenster bepaalde. Met deze rapportage kunt u bijvoorbeeld bepalen:
 
 * Welk percentage van uw bestellingen komt uit nieuwe versus herhaalde sessies?
@@ -115,3 +111,19 @@ Deze componenten openen:
 * Wanneer een eerste zitting vóór het 13 maanden raadplegingsvenster voorkwam. Deze sessie wordt genegeerd.
 
 * Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Stel dat u een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als retoursessies.
+
+## De functionaliteit Datum en tijd gebruiken {#date}
+
+>[!NOTE]
+>
+>Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
+
+Gebruiksscenario&#39;s:
+
+* Datum: Een reisbedrijf verzamelt de vertrekdatum voor reizen als een veld in de gegevens. Zij zouden graag een verslag hebben waarin de [!UICONTROL Day of Week] voor alle vertrekdata die worden verzameld om te begrijpen wat het populairst is . Ze willen hetzelfde doen voor [!UICONTROL Month of Year].
+
+* Datum/tijd: Een detailhandelsonderneming verzamelt de tijd voor elk van hun aankopen in verkooppunten (verkooppunten). Meer dan een maand willen ze graag de drukste boodschapperiodes van [!UICONTROL Hour of Day].
+
+>[!MORELIKETHIS]
+>[Datum en datum-tijd in de instelling van de component Format](/help/data-views/component-settings/format.md)
+
