@@ -2,9 +2,9 @@
 title: Labels en beleid
 description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald gegevensmeningen en rapportering in CJA beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 >
 >Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
-Wanneer u een dataset in Experience Platform creeert, kunt u tot stand brengen [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. Tot nu toe zijn deze labels niet beschikbaar gesteld in CJA. Met deze release kunt u deze labels weergeven in CJA. Voor CJA zijn de volgende labels van bijzonder belang:
+Wanneer u een dataset in Experience Platform creeert, kunt u tot stand brengen [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. Tot nu toe zijn deze labels niet beschikbaar gesteld in CJA. Met deze release kunt u deze labels en beleidsregels weergeven in CJA.
+
+Voor CJA zijn de volgende labels van bijzonder belang:
 
 * De `C8` label - **[!UICONTROL No measurement]**. Dit label geeft aan dat gegevens niet kunnen worden gebruikt voor analyses op de websites of apps van uw organisatie.
 
@@ -36,13 +38,13 @@ De etiketten van gegevens die in Experience Platform werden gecreeerd worden get
 | --- | --- |
 | De knop Info op een schemaveld | Als u op deze knop klikt, wordt aangegeven welke [!UICONTROL Data Usage Labels] momenteel van toepassing op een veld:<p>![](assets/data-label-left.png) |
 | Rechterspoor onder [Componentinstellingen](/help/data-views/component-settings/overview.md) | Alle [!UICONTROL Data Usage Labels] worden hier weergegeven:<p>![](assets/data-label-right.png) |
-| Gegevenslabels toevoegen als kolom | U kunt [!UICONTROL Data Labels] als een kolom voor de [!UICONTROL Included Components] kolommen in gegevensweergaven. Klik gewoon op het pictogram van de kolomkiezer en selecteer **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
+| Gegevenslabels toevoegen als kolom | U kunt [!UICONTROL Data Usage Labels] als een kolom voor de [!UICONTROL Included Components] kolommen in gegevensweergaven. Klik gewoon op het pictogram van de kolomkiezer en selecteer **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Filter op labels voor gegevensbeheer in gegevensweergaven
 
-Klik in de editor voor gegevensweergaven op het pictogram Filter in het linkerspoor en filter de componenten van de gegevensweergaven op het label of de labels voor gegevensbeheer:
+Klik in de editor voor gegevensweergaven op het pictogram Filter in het linkerspoor en filtert de componenten van de gegevensweergaven met **[!UICONTROL Data Governance]** en type **[!UICONTROL Label]**:
 
 ![](assets/filter-labels.png)
 
@@ -52,35 +54,21 @@ Klikken **[!UICONTROL Apply]** om te zien welke componenten etiketten hebben in 
 
 U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van bepaalde elementen van de CJA- gegevensmening voor analytische of uitvoerdoel blokkeert.
 
-Klik nogmaals op het pictogram Filter in de linkertrack en klik onder Gegevensbeheer op Beleid:
+Klik nogmaals op het pictogram Filter in de linkertrack en onder **[!UICONTROL Data Governance]**, klikt u op **[!UICONTROL Policies]**:
 
 ![](assets/filter-policies.png)
 
 Klikken **[!UICONTROL Apply]** om te zien welk beleid wordt toegelaten.
 
-## Hoe [!UICONTROL Enforce Analytics] beleid beïnvloedt Werkruimteprojecten
+## Hoe ingeschakeld beleid invloed heeft op gegevensweergaven
 
-Als dit beleid wordt aangezet, die schemagebieden die bepaalde gegevensetiketten (zoals C8) verbonden aan hen hebben niet voor analysedoeleinden binnen de Werkruimte CJA kunnen worden gebruikt.
+Als de **[!UICONTROL Enforce Analytics]** of **[!UICONTROL Enforce Download]** het beleid wordt aangezet, die schemacomponenten die bepaalde gegevensetiketten (zoals C8 of C12) verbonden aan hen hebben kunnen niet aan gegevensmeningen worden toegevoegd.
 
-Voor rapportage betekent dit dat
+Deze onderdelen worden grijs weergegeven in de linkerrails [!UICONTROL Schema fields] lijst:
 
-* U kunt deze velden niet toevoegen aan gegevensweergaven en ze worden grijs weergegeven in de linkertrack [!UICONTROL Schema fields] lijst.
-* U kunt geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
+![](assets/component-greyed.png)
 
-Als u probeert een Workspace-analyse uit te voeren op gegevensweergaven die items bevatten die niet zijn toegestaan voor analyses, krijgt u een bericht zoals dit:
+U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 
-![](assets/policy-enforce.png)
-
-Op individuele componenten zou het bericht gelijkaardig aan dit zijn:
-
-![](assets/policy-enforce2.png)
-
-## Hoe [!UICONTROL Enforce Download] beleid beïnvloedt Werkruimteprojecten
-
-Als dit beleid wordt aangezet, zal om het even welke uitvoer of download (zoals het e-mailen of het delen van pdfs) van de projecten van de Werkruimte de gevoelige gebieden hakken. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden weergegeven als gehashte items in het .pdf-bestand.
-
-Voeg hier een schermafbeelding toe.
-
-## Labels weergeven in Report Builder
-
-Zie _deze sectie_ voor meer informatie . (link naar Christine&#39;s doc)
+>[!MORELIKETHIS]
+>[Gevoelige gegevens downloaden](/help/analysis-workspace/curate-share/download-send.md)

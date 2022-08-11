@@ -4,7 +4,7 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -29,7 +29,7 @@ De montages van de kern die een component van de gegevensmening gebruikt.
 | [!UICONTROL Schema Type] | Een niet-bewerkbaar veld dat het gegevenstype van de component weergeeft.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. De volgende gegevenstypen worden ondersteund: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, en `Boolean`. Alleen de `String` het gegevenstype van schemagegevens wordt momenteel toegestaan in de datasets van de Opzoekopdracht. |
 | [!UICONTROL Component ID] | Vereist. De [CJA API](https://adobe.io/cja-apis/docs) gebruikt dit veld om naar de component te verwijzen. Elke component in een gegevensweergave moet uniek zijn. Adobe genereert automatisch een id voor elke component; u kunt echter op het bewerkingspictogram klikken en de component-id wijzigen. Wanneer u de component-id wijzigt, worden alle bestaande werkruimteprojecten die deze component bevatten, verbroken. Hoewel elke component een unieke id in één gegevensweergave nodig heeft, kunt u dezelfde component-id in andere gegevensweergaven gebruiken. Als u dezelfde component-id in andere gegevensweergaven gebruikt, kunt u Workspace-projecten compatibel maken in verschillende gegevensweergaven. |
 | [!UICONTROL Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
-| [!UICONTROL Data Usage Labels] | Alle labels voor gegevensgebruik die in Adobe Experience Platform aan deze component zijn toegewezen. Meer informatie |
+| [!UICONTROL Data Usage Labels] | Alle labels voor gegevensgebruik die in Adobe Experience Platform aan deze component zijn toegewezen. [Meer informatie](/help/data-views/data-governance.md) |
 | [!UICONTROL Hide component in reporting] | Hiermee kunt u de component uit de gegevensweergave voor niet-beheerders beheren. Beheerders hebben er nog steeds toegang toe door op [!UICONTROL Show All Components] in een Analysis Workspace-project. |
 
 {style=&quot;table-layout:auto&quot;}

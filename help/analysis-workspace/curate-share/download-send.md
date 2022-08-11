@@ -3,9 +3,9 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 
 ## Gevoelige gegevens downloaden {#sensitive}
 
-Als het beleid voor het beheer van downloadgegevens afdwingen is ingeschakeld, worden de gegevensvelden die als gevoelig zijn gemarkeerd, verborgen bij elke download (zoals het e-mailen of delen van PDF&#39;s) van Workspace-projecten. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden weergegeven als gehashte items in het .pdf-bestand.
+Als de **[!UICONTROL Enforce Download]** [beleid inzake gegevensbeheer](/help/data-views/data-governance.md) wordt aangezet in de gegevensmening u rapporteert, om het even welke download (zoals het e-mailen of het delen van pdfs) van de projecten van de Werkruimte zal de gegevensgebieden hakken die als gevoelig worden geëtiketteerd. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden als leeg weergegeven in het .pdf- of .csv-bestand.
 
 ## Veelgestelde vragen {#faq}
 

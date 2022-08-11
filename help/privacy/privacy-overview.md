@@ -2,10 +2,10 @@
 title: Customer Journey Analytics- en gegevensbeheer
 description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics werkt.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 0d48c1ed8d0bf50939f8eda1f5656c95370ac0b7
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,8 @@ De etiketten en het beleid van de privacy die op datasets werden gecreeerd die d
 Wanneer gegevens vanuit CJA worden geëxporteerd (via rapportage, export, API, enz.), worden bovendien waarschuwingen of labels toegevoegd om gebruikers te laten weten dat een rapport gevoelige informatie bevat die op een specifieke manier moet worden behandeld.
 
 Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevensstewards in uw organisatie kunnen beleid plaatsen om gebruik te beperken. Dientengevolge, kunnen uw gebruikers CJA gegevens betrouwbaarder gebruiken, wetend dat het aan beleid voldoet dat door gegevens eerder wordt bepaald.
+
+[Meer informatie](/help/data-views/data-governance.md)
 
 ## GDPR
 
