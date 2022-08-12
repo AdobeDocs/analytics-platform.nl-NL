@@ -4,7 +4,7 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
+source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Deze componenten openen:
 >
 >Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
-Schema&#39;s in Adobe Experience Platform bevatten velden Datum en Datum en tijd. De CJA-gegevensweergaven ondersteunen deze velden nu. Wanneer u deze velden als een dimensie naar een gegevensweergave sleept, kunt u hun [format](/help/data-views/component-settings/format.md). Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
+Schemas in Adobe Experience Platform bevat [!UICONTROL Date] en [!UICONTROL Date-Time] velden. De CJA-gegevensweergaven ondersteunen deze velden nu. Wanneer u deze velden als een dimensie naar een gegevensweergave sleept, kunt u hun [format](/help/data-views/component-settings/format.md). Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
 
 * Als u voor de datumnotatie **[!UICONTROL Day]** met de notatie **[!UICONTROL Month, Day, Year]** Een voorbeelduitvoer in de rapportage zou er als volgt kunnen uitzien: 23 augustus 2022.
 
