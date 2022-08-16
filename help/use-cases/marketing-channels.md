@@ -4,9 +4,9 @@ description: Gebruik de Analytics Source Connector om de verwerkingsregels van h
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 8d333627d3fe4f4dd68ec0f9316838c88678bc0f
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Zodra u de Verbinding van de Bron van Analytics op een gewenste rapportreeks ves
 4. Maak de gegevensweergave.
 
 De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysis Workspace.
+
+>[!NOTE]
+>
+> De verbinding van de Bron van de Analyse vereist dat allebei `channel.typeAtSource` (Marketingkanaal) en `channel._id` (Marketing Channel Detail) moet worden gevuld, anders wordt geen van beide naar de XDM ExperienceEvent overgedragen. Als het Detail van het Kanaal van de Marketing in de bronrapportreeks leeg is, resulteert dit in een leeg `channel._id` en de Analytics Source Connector wordt leeg gemaakt `channel.typeAtSource` ook. Dit kan resulteren in verschillen tussen Adobe Analytics en Customer Journey Analytics.
 
 ## Verschillen in verwerking en architectuur
 
