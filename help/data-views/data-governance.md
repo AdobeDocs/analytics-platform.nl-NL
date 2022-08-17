@@ -2,7 +2,7 @@
 title: Labels en beleid
 description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald gegevensmeningen en rapportering in CJA beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
+source-git-commit: 7962114aaab42a283f1cb35a312b0a707038c31a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,4 +71,5 @@ U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 
 >[!MORELIKETHIS]
 >[Wat zijn beperkte labels in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+
 
