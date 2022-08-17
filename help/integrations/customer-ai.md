@@ -4,9 +4,9 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
+source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create
 
 ### Stap 4: Rapport over CAI-scores in werkruimte
 
-In de Werkruimte van CJA, kunt u een nieuw project en trekkracht in visualisaties nu tot stand brengen.
+Maak in de CJA-werkruimte een nieuw project en trek de visualisaties over.
 
 **Scherptediepte**
 

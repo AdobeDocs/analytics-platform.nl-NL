@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 0e626b4072c68a69ae94dbfdfb53169aa34ca8ac
+exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
-
 
 # Beperkte labels in Report Builder
 
@@ -26,10 +26,6 @@ Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevenss
 Zie voor meer informatie [Customer Journey Analytics- en gegevensbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
 
 ## Beperkte gegevens weergeven in Report Builder
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 In CJA worden twee door Adobe gedefinieerde beleidsregels weergegeven die van invloed zijn op rapportage, downloaden en delen:
 
