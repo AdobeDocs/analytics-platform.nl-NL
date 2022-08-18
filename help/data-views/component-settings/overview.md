@@ -4,9 +4,9 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,8 @@ De montages van de kern die een component van de gegevensmening gebruikt.
 | [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |
 | [!UICONTROL Description] | Optioneel, maar aanbevolen. Verstrekt informatie over de component aan andere gebruikers. |
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
-| [!UICONTROL Field Name] | De naam van het schemaveld. |
+| [!UICONTROL Context labels] | U kunt specifieke afmetingen en/of metriek voor specifieke gebruiksgevallen in rapportering etiketteren. Voorbeelden zijn mediapanelen voor CJA, het nieuwe deelvenster Experimenten en rapportagesjablonen. |
+| [!UICONTROL Schema field name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |
 | [!UICONTROL Schema Type] | Een niet-bewerkbaar veld dat het gegevenstype van de component weergeeft.  Hoewel u elk ondersteund schemaveldtype in Platform kunt gebruiken, worden niet alle veldtypen ondersteund in CJA. De volgende gegevenstypen worden ondersteund: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, en `Boolean`. Alleen de `String` het gegevenstype van schemagegevens wordt momenteel toegestaan in de datasets van de Opzoekopdracht. |
