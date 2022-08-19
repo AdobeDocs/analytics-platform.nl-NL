@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
+source-git-commit: 49af5869f5aa3b8915b9fb36edb16abe3a3cf34b
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Name] | De naam van het publiek. |
    | [!UICONTROL Tags] | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een bestaande tag gebruiken of een nieuwe tag invoeren. |
    | [!UICONTROL Description] | Voeg een goede beschrijving van het publiek toe om het van anderen te onderscheiden. |
-   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor alle vernieuwingsfrequenties geldt een limiet van 75 of 150 soorten publiek, afhankelijk van uw CJA-machtiging. Voor andere intervallen is er geen maximumaantal doelgroepen.</li></ul> |
+   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor alle vernieuwingsfrequenties geldt een limiet van 75 of 150 soorten publiek, afhankelijk van uw CJA-machtiging.</li></ul> |
    | Vervaldatum | Wanneer het publiek stopt met vernieuwen. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het verouderen van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het publiek verloopt. |
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale duur is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
