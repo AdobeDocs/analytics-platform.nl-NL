@@ -4,10 +4,10 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
+source-git-commit: 3d0de872f92de3586bfe5e38ac01799da20526de
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ De montages van de kern die een component van de gegevensmening gebruikt.
 | [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |
 | [!UICONTROL Description] | Optioneel, maar aanbevolen. Verstrekt informatie over de component aan andere gebruikers. |
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
-| [!UICONTROL Context labels] | U kunt specifieke afmetingen en/of metriek voor specifieke gebruiksgevallen in rapportering etiketteren. Voorbeelden zijn mediapanelen voor CJA, het nieuwe deelvenster Experimenten en rapportagesjablonen. |
+| [!UICONTROL Context labels] | U kunt specifieke afmetingen en/of metriek voor specifieke gebruiksgevallen in rapportering etiketteren. Voorbeelden zijn mediapanelen voor CJA, het nieuwe deelvenster Experimenten en rapportagesjablonen. Het verwijderen van een contextlabel kan gevolgen hebben voor specifieke deelvensters of rapporten waar de component wordt vereist. |
 | [!UICONTROL Schema field name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |

@@ -2,13 +2,13 @@
 description: Leer hoe u de resultaten van A/B-tests kunt analyseren in het deelvenster CJA-experimenten.
 title: Deelvenster Experimentatie
 feature: Panels
-source-git-commit: 2c217c7d31819ac8eb27d2d1010e0df787601e21
+exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
+source-git-commit: 76ebaf5ae5bd6027f83945d5750ddc13533a7b47
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Deelvenster Experimentatie
 
@@ -24,19 +24,7 @@ De **[!UICONTROL Experimentation]** kunt u verschillende gebruikerservaring, mar
 
 ## Toegangsbeheer
 
-Het deelvenster Experimentatie is beschikbaar voor alle Customer Journey Analytics-gebruikers (CJA). Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie zijn echter labels vereist in gegevensweergaven die alleen door beheerders kunnen worden toegewezen.
-
-## Terminologie
-
-* **Experimenteer**: Een experiment is een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen wat het beste is om in eeuwigheid te blijven. Een experiment bestaat uit twee of meer variaties, waarvan er één als variatie in de controlegroep wordt beschouwd.
-
-* **Variatie**: Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Als controleorgaan moet één variant worden gekozen en slechts één variant kan als controlevariant worden beschouwd.
-
-* **Control**: Een specifieke variant die de status quo of de standaardstatus van een gebruikerservaring vertegenwoordigt. Waarmet alle andere variaties worden vergeleken.
-
-* **Metrisch normaliseren**: De basis (sessies of personen) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de omrekeningskoersen van verschillende variaties vergelijken, waarbij de omrekeningskoers wordt berekend als omzettingen per sessie of omzettingen per persoon.
-
-* **Omzettingsmetrisch**: De metrische waarde waarmee een gebruiker variaties vergelijkt. De variatie met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt als &quot;winnaar&quot; van een experiment aangemerkt.
+Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers (CJA) worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
 
 ## Stap 1: Verbinding maken om gegevensset(s) te experimenteren
 
@@ -53,7 +41,7 @@ In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één
 
 ![contextlabel](assets/context-label.png)
 
-Zonder deze labels werkt het deelvenster Experimenteren niet.
+Zonder deze labels werkt het deelvenster Experimenten niet, omdat er geen experimenten zijn om mee te werken.
 
 ## Stap 3: Het deelvenster Experimenteren configureren
 
@@ -61,6 +49,36 @@ Zonder deze labels werkt het deelvenster Experimenteren niet.
 
 ![deelvenster experimenteren](assets/experiment.png)
 
+>[!IMPORTANT]
+>Als de noodzakelijke opstelling in CJA- gegevensmeningen niet is voltooid, zult u een bericht aan dat effect ontvangen alvorens u kunt te werk gaan.
+
+1. Configureer de instellingen voor deelvensterinvoer.
+
+   | Instelling | Definitie |
+   | --- | --- |
+   | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke ervaring het beste in onbeperkte tijd kan worden bewaard. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling is vooraf gevuld met de afmetingen die zijn gelabeld met de  **[!UICONTROL Experiment]** in gegevensweergaven en de waarde van het experiment van de laatste drie maanden. |
+   | **[!UICONTROL Control Variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die zijn gelabeld met de  **[!UICONTROL Variant]** label in gegevensweergaven. Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
+   | **[!UICONTROL Success Metrics]** | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt de &quot;primaire metrische waarde&quot; van een experiment genoemd. U kunt maximaal vijf metriek toevoegen. |
+   | **[!UICONTROL Normalizing Metric]** | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als **[!UICONTROL Conversions per session]** of **[!UICONTROL Conversions per person]**. |
+
+1. Klik op **[!UICONTROL Build]**.
+
+## Stap 4: De uitvoer van het deelvenster interpreteren
+
+Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door in de rechterbovenhoek op het potlood te klikken. U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. U kunt ook samenvattingsnummers voor de variant zien met de grootste lichthoogte en betrouwbaarheid.
+
+![experimenteren met uitvoer](assets/exp-output1.png)
+
+Voor elke succesmetrische metrisch u selecteerde, zullen één vrije lijst en één trend van de omzettingssnelheid worden getoond:
+
+![experimenteren met uitvoer](assets/exp-output2.png)
+
+![experimenteren met uitvoer](assets/exp-output3.png)
+
+
+## Statistische methodologie voor het deelvenster Experimenten
+
+Om te volgen.
 
 
 
