@@ -3,10 +3,10 @@ description: Veelgestelde vragen over werkruimten en tips voor het oplossen van 
 title: Veelgestelde vragen
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: e5ae592c6765638e26ee5252f458e82af9d24e44
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 | Vraag | Antwoord |
 |--- |--- |
-| **Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace?** | Voor het gebruik van Analysis Workspace is een werkende Customer Journey Analytics-implementatie vereist. Zorg ervoor dat uw organisatie gegevens naar de Adobe Experience Platform stuurt voordat u het hulpprogramma gebruikt. |
+| **Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace?** | Voor het gebruik van Analysis Workspace in CJA is een werkende Customer Journey Analytics-implementatie vereist. Zorg ervoor dat uw organisatie gegevens naar de Adobe Experience Platform stuurt voordat u het hulpprogramma gebruikt. |
 | **Wat zijn de vereisten inzake beheer en toegang voor Analysis Workspace?** | Zie [Beheervereisten](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | **Heeft het gebruik van Analysis Workspace invloed op gegevensverzameling?** | Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed op de dataverzameling. U kunt componenten lukraak naar een project slepen om te zien wat er gebeurt, zonder negatieve gevolgen. Sleep verschillende combinaties van dimensies en metrics naar uw Workspace-project om te zien wat er beschikbaar is. Als u per ongeluk een ongeldige component naar uw Workspace-project sleept of een stap terug wilt gaan, drukt u op Ctrl + Z (Windows) of Cmd + Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door in het menu linksboven te klikken op *[!UICONTROL Project] > [!UICONTROL New]*. |
 | **Hoe kan ik Analysis Workspace implementeren?** | Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven Customer Journey Analytics. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Beheer- en toegangseisen](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |

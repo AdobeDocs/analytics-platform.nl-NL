@@ -4,9 +4,9 @@ description: Leer over toegangsbeheervereisten voor het creëren van verbindinge
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
-source-git-commit: c80c10e1e4887bfe7fdc3b59d0dfe415b1b0d5eb
+source-git-commit: e5ae592c6765638e26ee5252f458e82af9d24e44
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,10 @@ U kunt geen toestemmingen op individuele metriek of dimensies in Customer Journe
 ## Toegang van gebruikers
 
 Niet-productbeheerders (gebruikers) in Customer Journey Analytics kunnen geen gegevensweergaven of verbindingen weergeven, maar kunnen wel filters, projecten en berekende metriek maken.
+
+## Workspace-projectcursus
+
+Voor meer informatie over hoe te om componenten (afmetingen, metriek, segmenten, datumwaaiers) op het projectniveau te beperken, zie [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md).
+
+
 
