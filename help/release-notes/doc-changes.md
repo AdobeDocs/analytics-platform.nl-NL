@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
+source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '973'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
+| Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) |
+| Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/getting-started/cja-access-control.md) |
 | Augustus 2022 | Nieuw artikel over [CJA-ondersteuning voor labels en beleid voor gegevensbeheer](/help/data-views/data-governance.md) |
 | Augustus 2022 | Nieuwe sectie over [Datumveldondersteuning in CJA](/help/data-views/data-views-usecases.md#date) |
 | Augustus 2022 | Nieuw artikel over [Het vergelijken van terminologie voor de gegevens van de Analyse die door de Verbinding van de Bron van de Analyse worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md) |
