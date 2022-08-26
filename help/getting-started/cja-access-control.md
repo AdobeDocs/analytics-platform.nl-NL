@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ccb13b9632433f2fcc9c765e9527f157dad632d4
+source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Voor meer informatie over de toestemmingen van het Experience Platform, zie [Toe
 
 Een productprofiel is een set machtigingen. Beheerders van productprofielen kunnen
 
-* Afzonderlijke productprofielen maken en beheren, zoals nieuwe gebruikers toevoegen.
+* Afzonderlijke productprofielen maken en beheren, zoals nieuwe gebruikers toevoegen of gebruikersgroepen en de bijbehorende productprofielen beheren.
 
 * Bewerk in CJA de gegevensweergaven die deel uitmaken van een productprofiel dat ze beheren. Ze kunnen geen nieuwe gegevensweergaven maken.
 
