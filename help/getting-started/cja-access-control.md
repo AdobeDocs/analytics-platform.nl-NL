@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
+source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # CJA Access Control
 
 Customer Journey Analytics (CJA) wordt bepaald door drie toegangsniveaus of drie rollen: De rol van Admin van het product, de rol van Admin van het Profiel van het Product, en gebruiker-vlakke toegang. In dit onderwerp worden deze rollen gedetailleerder beschreven.
+
+Bovendien bespreken wij meer korrelige manieren om toegang, zoals de kromming van de Werkruimte en rij-niveau evenals waarde-vlakke toegangsbeheer te beperken.
 
 ## De rol Productbeheerder
 
@@ -76,7 +78,7 @@ Gebruikers die toegang hebben tot een gegevensweergave, kunnen alleen werken met
 
 Hier volgt een voorbeeld van de gezondheidszorg: Stel dat u een metrische waarde met de naam &quot;Hypertensie&quot; maakt in een gegevensweergave, op basis van een gegevensset die deze gegevens bevat. Het feit dat het een metrische waarde is, zou je in staat stellen de totale waarde van deze metrische waarde te zien, maar niet de individuele patiënten die eronder vallen.
 
-## CJA-machtigingen
+## CJA-machtigingen in Admin Console
 
 De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Console](https://adminconsole.adobe.com/enterprise/). U kunt gebruikers toevoegen aan specifieke productprofielen. Vervolgens wijst u rechten toe aan specifieke gegevensweergaven en geeft u op welke machtigingen de gebruikers in een productprofiel hebben. Hier zijn de CJA-specifieke toestemmingen:
 
@@ -86,7 +88,7 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | --- | --- |
 | **[!UICONTROL Data Views]** | Als u schakelt **[!UICONTROL Auto-Include]** tot **[!UICONTROL On]** Gebruikers die deel uitmaken van dit productprofiel, kunnen alle bestaande en nieuwe gegevensweergaven bekijken. Als deze instelling is ingesteld op **[!UICONTROL Off]**, kunt u specifieke gegevensweergaven selecteren waartoe gebruikers toegang hebben. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Momenteel [auditlogboeken](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) zijn alleen beschikbaar via de API. Deze toestemming is voor een toekomstige UI die in ontwikkeling is. |
+| **[!UICONTROL Audit Logs Access]** | Momenteel [auditlogboeken](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) zijn alleen beschikbaar via de API. Deze toestemming dwingt de toestemmingscontrole op API en een aanstaande controle logboeken UI af. |
 | **[!UICONTROL Reporting Usage Admin]** | Laat gebruikers om het even welk rapport bekijken en schrappen dat in hun bedrijf loopt. (De rapportfunctionaliteit voor gebruik wordt nog niet vrijgegeven.) |
 | **[!UICONTROL Reporting Usage View]** | Hiermee kunnen gebruikers alle gelijktijdige rapportageaanvragen bekijken. (De rapportfunctionaliteit voor gebruik wordt nog niet vrijgegeven.) |
 | **[!UICONTROL Calculated Metrics Creation]** | Gebruikers kunnen [berekende meetwaarden](/help/components/calc-metrics/calc-metr-overview.md). |
