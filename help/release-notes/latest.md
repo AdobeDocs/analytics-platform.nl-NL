@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e7ff0bfae0f7d041a8131cecbf362cf71aca9740
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 4%
 
 ---
 
 # Opmerkingen bij de release Current Customer Journey Analytics (CJA) (augustus 2022)
 
-**Laatste update**: 23 augustus 2022
+**Laatste update**: 25 augustus 2022
 
 ## Belangrijkste kenmerken
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 | **CJA-ondersteuning voor labels en beleid voor gegevensbeheer** | Automatiseert de integratie tussen CJA en Adobe Experience Platform privacy labels en beleid. De etiketten van gegevens die op datasets worden gecreeerd die door Platform worden verbruikt worden bedekt in CJA- gegevensmeningen om gebruikers tegen te houden of te waarschuwen die metriek en/of dimensies van gevoelige gebieden tot stand brengen. Daarnaast geldt dat wanneer gegevens worden geëxporteerd vanuit CJA (via Workspace of Report Builder-rapportage, export, API, enzovoort) extra waarschuwingen of etiketten zullen worden toegevoegd om gebruikers mee te delen dat een rapport gevoelige informatie bevat die op een specifieke manier moet worden behandeld. [Meer informatie](/help/data-views/data-governance.md) | 17 augustus 2022 |
 | **Datumveldondersteuning in CJA** | Staat CJA toe om op datum en datum-tijd gebieden te melden. [Meer informatie](/help/data-views/data-views-usecases.md#date) | 17 augustus 2022 |
 | **Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector** | U kunt nu rapportsuites uit om het even welke regio (Verenigde Staten, Verenigd Koninkrijk, of Singapore) opnemen. Deze rapportsuites moeten echter worden toegewezen aan dezelfde organisatie als de Sandbox-instantie van het Experience Platform waarin de bronverbinding wordt gemaakt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) | 24 augustus 2022 |
-| **Eerste versus rapportage van sessie herhalen** | U kunt nu ontdekken of een bepaalde sessie de eerste sessie van een gebruiker was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 24 augustus 2022 |
+| **Eerste sessiemelding** | U kunt nu ontdekken of een bepaalde sessie de eerste sessie van een gebruiker was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 24 augustus 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
