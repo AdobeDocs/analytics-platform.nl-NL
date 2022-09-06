@@ -2,9 +2,9 @@
 title: Filteroperatoren
 description: Bepaal hoe een component met een waarde binnen een filter interactie aangaat.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: 87da431752c235c442d13fd185c7ab8f6cf20eba
+source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Met de filterbuilder kunt u waarden vergelijken en beperken met behulp van gesel
 | --- | --- |
 | equals | Retourneert items die exact overeenkomen voor een numerieke waarde of tekenreekswaarde. Als u jokertekens gebruikt, gebruikt u de operator &quot;overeenkomsten&quot;. |
 | is niet gelijk aan | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.  Als u jokertekens gebruikt, gebruikt u de operator &quot;komt niet overeen&quot;. |
+| is gelijk aan een van de | Retourneert items die overeenkomen met de ingevoerde subtekenreekswaarden, gescheiden door een komma. |
 | contains | Retourneert items die de subtekenreeksen van de ingevoerde waarden vergelijken. Als de regel voor een tekenreeksdimensie bijvoorbeeld `"Search"`, komt deze overeen met elke pagina die de subtekenreeks heeft `"Search"` in het `"Search Results"`, `"Search"`, en `"Searching"`. Deze operator is hoofdlettergevoelig. |
 | bevat niet | Alle items die overeenkomen met de ingevoerde waarde worden niet in de resultaten opgenomen. Als de regel voor een tekenreeksdimensie bijvoorbeeld geen `"Search"`, worden pagina&#39;s met de subtekenreeks uitgesloten `"Search"` in het `"Search Results"`, `"Search"`, en `"Searching"`. |
 | bevat alle | Retourneert items die alle subtekenreeksen (gescheiden door een spatie) in een willekeurige volgorde bevatten. Als u bijvoorbeeld `"Search Results"` met deze operator zou overeenkomen `"Search Results"` en `"Results of Search"`, maar niet `"Search"` of `"Results"` onafhankelijk. Deze operator ondersteunt maximaal 100 woorden gescheiden door spaties. |
