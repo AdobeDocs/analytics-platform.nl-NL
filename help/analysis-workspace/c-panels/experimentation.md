@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B-tests kunt analyseren in het deelv
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
+source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één
 
 ![contextlabel](assets/context-label.png)
 
-Zonder deze labels werkt het deelvenster Experimenten niet, omdat er geen experimenten zijn om mee te werken.
+Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen experimenten zijn om mee te werken.
 
 ## Stap 3: Het deelvenster Experimenteren configureren
 
@@ -70,13 +70,9 @@ Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisati
 
 U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. Conclusiviteit is gebaseerd op statistische significantie. (Zie &quot;Statistische methodologie&quot; hieronder.) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
 
->[!NOTE]
->
->Lift and Trust are also [geavanceerde berekende metrische functies](/help/components/calc-metrics/cm-adv-functions.md) in CJA, zodat kunt u uw eigen lift en betrouwbaarheidsmetriek bouwen.
+Voor elke succesmetrische metrische u selecteerde, zullen één vrije lijst en één omzettingstendens worden getoond.
 
 ![experimenteren met uitvoer](assets/exp-output1.png)
-
-Voor elke succesmetrische metrische u selecteerde, zullen één vrije lijst en één omzettingstendens worden getoond.
 
 De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL Control Variant] prestaties:
 
@@ -85,6 +81,10 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 >[!NOTE]
 >
 >Dit panel ondersteunt momenteel geen analyse van A/A-tests.
+
+>[!NOTE]
+>
+>Lift and Trust are also [geavanceerde berekende metrische functies](/help/components/calc-metrics/cm-adv-functions.md) in CJA, zodat kunt u uw eigen lift en betrouwbaarheidsmetriek bouwen.
 
 ## Stap 5: De resultaten interpreteren
 
