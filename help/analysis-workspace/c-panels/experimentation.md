@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B-tests kunt analyseren in het deelv
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
+source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Zonder deze labels werkt het deelvenster Experimenten niet, omdat er geen experi
 ![deelvenster experimenteren](assets/experiment.png)
 
 >[!IMPORTANT]
->Als de noodzakelijke opstelling in CJA- gegevensmeningen niet is voltooid, zult u een bericht aan dat effect ontvangen alvorens u kunt te werk gaan.
+>Als de vereiste opstelling in CJA- gegevensmeningen niet is voltooid, zult u dit bericht ontvangen alvorens u kunt te werk gaan: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
 
 1. Configureer de instellingen voor deelvensterinvoer.
 
@@ -64,7 +64,7 @@ Zonder deze labels werkt het deelvenster Experimenten niet, omdat er geen experi
 
 1. Klik op **[!UICONTROL Build]**.
 
-## Stap 4: De uitvoer van het deelvenster interpreteren
+## Stap 4: De uitvoer van het deelvenster weergeven
 
 Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door in de rechterbovenhoek op het potlood te klikken.
 
@@ -76,25 +76,17 @@ U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet ov
 
 ![experimenteren met uitvoer](assets/exp-output1.png)
 
-Voor elke succesmetrische metrisch u selecteerde, zullen één vrije lijst en één trend van de omzettingssnelheid worden getoond:
-
-![experimenteren met uitvoer](assets/exp-output2.png)
+Voor elke succesmetrische metrische u selecteerde, zullen één vrije lijst en één omzettingstendens worden getoond.
 
 De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL Control Variant] prestaties:
 
-![experimenteren met uitvoer](assets/exp-output3.png)
+![experimenteren met uitvoer](assets/exp-output2.png)
 
 >[!NOTE]
 >
 >Dit panel ondersteunt momenteel geen analyse van A/A-tests.
 
-## Adobe
-
-Om gemakkelijk te interpreteren en veilige statistische conclusies te kunnen trekken, heeft Adobe een statistische methodologie aangenomen die gebaseerd is op [Altijd geldige betrouwbaarheidsreeksen](https://doi.org/10.48550/arXiv.2103.06476).
-
-Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Interval van het Vertrouwen. Om te begrijpen wat een vertrouwensopeenvolging is, stel voor herhalend uw experimenten honderd keer, en het berekenen van een schatting van gemiddelde bedrijfsmetrisch (b.v. open tarief van een e-mail) en zijn bijbehorende 95%-Vertrouwensopeenvolging voor *elke nieuwe gebruiker* dat het experiment binnenkomt. Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kan slechts eenmaal per experiment worden berekend om dezelfde 95%-dekkingsgarantie te bieden; niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat de foutpercentages worden verhoogd, d.w.z. dat met deze resultaten kan worden gespiekt.
-
-### De resultaten interpreteren
+## Stap 5: De resultaten interpreteren
 
 1. **Experimenteer is Sluiten**: Telkens wanneer u het experimentatierapport bekijkt, analyseert Adobe de gegevens die in het experiment tot op heden zijn verzameld en zal een experiment als &quot;Sluiten&quot; worden aangemerkt wanneer het altijd geldige vertrouwen een drempel van 95% overschrijdt voor *ten minste één* van de varianten (met een Bonferoni-correctie toegepast wanneer er meer dan twee armen zijn, om te corrigeren voor meervoudige hypothesetests).
 
@@ -106,4 +98,12 @@ Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Inte
 
 5. **Vertrouwen**: Het Geldige Vertrouwen van Anytime dat wordt getoond, is een probabilistische maatregel van hoeveel bewijs er is dat een bepaalde variant het zelfde als de controlevariant is. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren. Meer in het bijzonder is het vertrouwen dat wordt weergegeven een waarschijnlijkheid (uitgedrukt als een percentage) dat we een kleiner verschil in omrekeningskoersen tussen een bepaalde variant en het besturingselement zouden hebben gezien, als er in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. In termen van *p*-waarden, het weergegeven vertrouwen is 1 - *p*-value.
 
-Bij een volledige beschrijving van de resultaten moet echter rekening worden gehouden met alle beschikbare gegevens (bijv. opzet van het experiment, omvang van het monster, omrekeningskoersen, betrouwbaarheid enz.), en niet alleen met de verklaring van overtuigend of niet. Zelfs als een resultaat nog niet &quot;overtuigend&quot; is, kan er nog steeds overtuigend bewijs zijn dat de ene variant anders is dan de andere (zo zijn betrouwbaarheidsintervallen bijna niet-overlapt). Idealiter zou de besluitvorming moeten worden gebaseerd op alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd.
+>[!NOTE]
+>
+>Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bijv. opzet van het experiment, omvang van de steekproef, omrekeningskoersen, betrouwbaarheid enz.) en niet alleen met de vermelding van overtuigend of niet. Zelfs als een resultaat nog niet &quot;overtuigend&quot; is, kan er nog steeds overtuigend bewijs zijn dat de ene variant anders is dan de andere (zo zijn betrouwbaarheidsintervallen bijna niet-overlapt). Idealiter zou de besluitvorming moeten worden gebaseerd op alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd.
+
+## Adobe
+
+Om gemakkelijk te interpreteren en veilige statistische conclusies te kunnen trekken, heeft Adobe een statistische methodologie aangenomen die gebaseerd is op [Altijd geldige betrouwbaarheidsreeksen](https://doi.org/10.48550/arXiv.2103.06476).
+
+Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Interval van het Vertrouwen. Om te begrijpen wat een vertrouwensopeenvolging is, stel voor herhalend uw experimenten honderd keer, en het berekenen van een schatting van gemiddelde bedrijfsmetrisch (b.v. open tarief van een e-mail) en zijn bijbehorende 95%-Vertrouwensopeenvolging voor *elke nieuwe gebruiker* dat het experiment binnenkomt. Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kan slechts eenmaal per experiment worden berekend om dezelfde 95%-dekkingsgarantie te bieden; niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat de foutpercentages worden verhoogd, d.w.z. dat met deze resultaten kan worden gespiekt.
