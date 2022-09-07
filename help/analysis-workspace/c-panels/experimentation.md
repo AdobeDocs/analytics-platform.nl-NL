@@ -3,7 +3,7 @@ description: Leer hoe u de resultaten van A/B-tests kunt analyseren in het deelv
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
+source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -34,8 +34,8 @@ Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe
 
 In de weergave-instellingen van CJA-gegevensweergaven kunnen beheerders toevoegen [contextlabels](/help/data-views/component-settings/overview.md) aan een afmeting of metrisch en de diensten CJA zoals [!UICONTROL Experimentation] kunnen deze labels voor hun doeleinden gebruiken. Voor het deelvenster Experimentatie worden twee vooraf gedefinieerde labels gebruikt:
 
-* [!UICONTROL Experiment]
-* [!UICONTROL Variant]
+* [!UICONTROL Experimentation Experiment]
+* [!UICONTROL Experimentation Variant]
 
 In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één met de experimentatiegegevens en één met de variantgegevens. Geef vervolgens een label aan deze afmetingen met de **[!UICONTROL Experiment]** en de **[!UICONTROL Variant]** labels.
 
