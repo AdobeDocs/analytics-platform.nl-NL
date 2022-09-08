@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B-tests kunt analyseren in het deelv
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
+source-git-commit: 31f29e9453d252f119a4fa7c26f96e9f01ed2abf
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschil
 Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers (CJA) worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
 
 ## Stap 1: Verbinding maken om gegevensset(s) te experimenteren
+
+Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
 
 Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in CJA](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 
@@ -76,7 +78,7 @@ Voor elke succesmetrische metrische u selecteerde, zullen één vrije lijst en �
 
 De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL Control Variant] prestaties:
 
-![experimenteren met uitvoer](assets/exp-output2.png)
+![lijngrafiekuitvoer](assets/exp-output2.png)
 
 >[!NOTE]
 >
