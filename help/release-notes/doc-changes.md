@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
+source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -15,29 +15,32 @@ ht-degree: 6%
 
 De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang ervan.
 
+## 2022
+
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) |
-| Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/getting-started/cja-access-control.md) |
-| Augustus 2022 | Nieuw artikel over [CJA-ondersteuning voor labels en beleid voor gegevensbeheer](/help/data-views/data-governance.md) |
-| Augustus 2022 | Nieuwe sectie over [Datumveldondersteuning in CJA](/help/data-views/data-views-usecases.md#date) |
-| Augustus 2022 | Nieuw artikel over [Het vergelijken van terminologie voor de gegevens van de Analyse die door de Verbinding van de Bron van de Analyse worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md) |
-| Augustus 2022 | Nieuwe documentatie over [Publiceren van het publiek aan het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html) |
+| September 2022 | Nieuw onderwerp over [Combografieken](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
+| september 2022 | Nieuw onderwerp over [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
+| Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). |
+| Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/getting-started/cja-access-control.md). |
+| Augustus 2022 | Nieuw artikel over [CJA-ondersteuning voor labels en beleid voor gegevensbeheer](/help/data-views/data-governance.md). |
+| Augustus 2022 | Nieuw artikel over [Het vergelijken van terminologie voor de gegevens van de Analyse die door de Verbinding van de Bron van de Analyse worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md). |
+| Augustus 2022 | Nieuwe documentatie over [Publiceren van het publiek aan het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html). |
 | Juli 2022 | [Media afspelen tijd besteed, deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) documentatie. |
 | Juli 2022 | [Deelvenster Mediagelijktijdige viewer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentatie. |
-| Juli 2022 | [Eerste versus herhalingssessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) rapportagedocumentatie. |
+| Juli 2022 | [Eerste sessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) rapportagedocumentatie. |
 | Juni 2022 | Nieuw artikel over [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
-| Juni 2022 | Nieuw artikel over [Adobe Analytics-verwerkingsregels, VISTA en classificaties versus Data Prep voor de Analytics Source Connector](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
-| Juni 2022 | Nieuw artikel over [virtuele rapportageomgevingen en sandboxomgevingen](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
-| Juni 2022 | Nieuw artikel over [vergelijking van gegevensverwerking in Adobe Analytics en CJA-rapportagefuncties](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
-| Juni 2022 | Nieuw artikel over [het combineren van rapportsuites met verschillende schema&#39;s](/help/use-cases/combine-report-suites.md) |
-| Juni 2022 | Nieuw artikel over [annotaties delen in Mobile-scorecards](/help/components/annotations/mobile-annotations.md) |
-| Juni 2022 | Nieuw artikel over [Analytics Labs in CJA](/help/labs/labs.md) |
-| Juni 2022 | Nieuwe sectie over [ondersteuning voor numerieke velden als opzoektoetsen en opzoekwaarden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) |
-| Juni 2022 | Updates van de [Workflow voor stroomvisualisatie](/help/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| Juni 2022 | Nieuw artikel over [Adobe Analytics-verwerkingsregels, VISTA en classificaties versus Data Prep voor de Analytics Source Connector](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
+| Juni 2022 | Nieuw artikel over [virtuele rapportageomgevingen en sandboxomgevingen](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
+| Juni 2022 | Nieuw artikel over [vergelijking van gegevensverwerking in Adobe Analytics en CJA-rapportagefuncties](/help/getting-started/aa-vs-cja/data-processing-comparisons.md). |
+| Juni 2022 | Nieuw artikel over [het combineren van rapportsuites met verschillende schema&#39;s](/help/use-cases/combine-report-suites.md). |
+| Juni 2022 | Nieuw artikel over [annotaties delen in Mobile-scorecards](/help/components/annotations/mobile-annotations.md). |
+| Juni 2022 | Nieuw artikel over [Analytics Labs in CJA](/help/labs/labs.md). |
+| Juni 2022 | Nieuwe sectie over [ondersteuning voor numerieke velden als opzoektoetsen en opzoekwaarden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric). |
+| Juni 2022 | Updates van de [Workflow voor stroomvisualisatie](/help/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | Mei 2022 | Significant bijgewerkt artikel op [verbindingen maken](/help/connections/create-connection.md) in CJA. |
-| Mei 2022 | Nieuw artikel over hoe [gegevensblokken beheren in CJA Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
-| Mei 2022 | Nieuw artikel over [Adobe Experience Platform-publiek wordt opgenomen in CJA](/help/use-cases/ingest-aep-segments.md) |
+| Mei 2022 | Nieuw artikel over hoe [gegevensblokken beheren in CJA Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html). |
+| Mei 2022 | Nieuw artikel over [Adobe Experience Platform-publiek wordt opgenomen in CJA](/help/use-cases/ingest-aep-segments.md). |
 | April 2022 | Documentatie over [subtekenreeksen voor dimensies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
 | april 2022 | Nieuw [CJA-gebruikershandleiding voor Adobe Analytics-gebruikers](/help/getting-started/aa-to-cja-user.md). |
 | Maart 2022 | Nieuw [Documentatie CJA Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
@@ -47,6 +50,13 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Januari 2022 | Nieuwe gebruiksaanwijzing voor [Het gebruiken van bindende dimensies en metriek in CJA](/help/use-cases/binding-dimensions-metrics.md) |
 | Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) |
 | Januari 2022 | Nieuw artikel over [Adobe Analytics-gegevens vergelijken met Analytics-gegevens in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2021
+
+| Datum | Beschrijving bijwerken |
+| --- | --- |
 | November 2021 | Bijgewerkte documentatie voor [[!UICONTROL Records skipped]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html) op de pagina Verbindingen Details. |
 | Oktober 2021 | Documentatie voor [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) in CJA. |
 | Oktober 2021 | Customer Journey Analytics [Controlelogboek](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API-documentatie |
@@ -72,6 +82,13 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Februari 2021 | Nieuw onderwerp bij gebruik [Afmetingen marketingkanaal in Adobe Experience Platform](/help/use-cases/marketing-channels.md). |
 | Februari 2021 | De nieuwe [CJA API](https://www.adobe.io/cja-apis/docs/) documentatie. |
 | Januari 2021 | Nieuw onderwerp over [het toevoegen van standaardraadplegingen aan uw dataset](/help/connections/standard-lookups.md). |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2020
+
+| Datum | Beschrijving bijwerken |
+| --- | --- |
 | 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
 | 13 november 2020 | Een nieuwe gebruikscase op [callcenter en webgegevens importeren](/help/use-cases/call-center.md) is toegevoegd. |
 | 10 november 2020 | Een sectie toegevoegd over de gevolgen van het verwijderen van gegevenscomponenten voor de [Veelgestelde vragen](/help/getting-started/cja-faq.md). |
