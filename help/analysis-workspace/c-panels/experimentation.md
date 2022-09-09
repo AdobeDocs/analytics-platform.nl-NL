@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -83,10 +83,6 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 >[!NOTE]
 >
 >Dit panel ondersteunt momenteel geen analyse van A/A-tests.
-
->[!NOTE]
->
->Lift and Trust are also [geavanceerde berekende metrische functies](/help/components/calc-metrics/cm-adv-functions.md) in CJA, zodat kunt u uw eigen lift en betrouwbaarheidsmetriek bouwen.
 
 ## Stap 5: De resultaten interpreteren
 

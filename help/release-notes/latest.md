@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,10 +32,6 @@ ht-degree: 4%
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Deelvenster Mediagelijktijdige viewer** | Begrijp waar de piekgelijktijdig voorkwam of waar drop-outs voorkwamen. Krijg waardevol inzicht in de kwaliteit van inhoud en viewerbetrokkenheid, en hulp bij het oplossen van problemen of het plannen voor volume en schaal. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) | 9 augustus 2022 |
-| **Media afspelen tijd besteed, deelvenster** | Media Playback Time Spent biedt een waardevol inzicht in de betrokkenheid van de kijker en stelt mediaorganisaties in staat diepere, meer korrelige inzichten af te leiden met de betrokkenheid van gebruikers van minuut tot minuut door middel van geavanceerde tijdbestede analyse met mogelijkheden voor het parseren van dagen.<p>U kunt de hoeveelheid tijd waarnemen die het bekijken van uw media stromen op een specifiek punt in tijd besteedt. U kunt de afspeelduur splitsen op verschillende granulariteiten, zoals nieuwe granulariteiten van 5 minuten, 15 minuten en 30 minuten. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) | 9 augustus 2022 |
-| **Publiceren van het publiek aan het Profiel van de Klant in real time** | Staat u toe om publiek te publiceren dat in CJA aan Adobe Experience Platform/Real-time het Profiel van de Klant voor klant wordt ontdekt en personalisatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | 17 augustus 2022 |
-| **CJA-ondersteuning voor labels en beleid voor gegevensbeheer** | Automatiseert de integratie tussen CJA en Adobe Experience Platform privacy labels en beleid. De etiketten van gegevens die op datasets worden gecreeerd die door Platform worden verbruikt worden bedekt in CJA- gegevensmeningen om gebruikers tegen te houden of te waarschuwen die metriek en/of dimensies van gevoelige gebieden tot stand brengen. Daarnaast geldt dat wanneer gegevens worden geëxporteerd vanuit CJA (via Workspace of Report Builder-rapportage, export, API, enzovoort) extra waarschuwingen of etiketten zullen worden toegevoegd om gebruikers mee te delen dat een rapport gevoelige informatie bevat die op een specifieke manier moet worden behandeld. [Meer informatie](/help/data-views/data-governance.md) | 17 augustus 2022 |
 | **Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector** | U kunt nu rapportsuites uit om het even welke regio (Verenigde Staten, Verenigd Koninkrijk, of Singapore) opnemen. Deze rapportsuites moeten echter worden toegewezen aan dezelfde organisatie als de Sandbox-instantie van het Experience Platform waarin de bronverbinding wordt gemaakt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) | 24 augustus 2022 |
 | **Eerste sessiemelding** | Ontdek of een bepaalde zitting de eerste-ooit zitting van een gebruiker was. [Meer informatie](/help/data-views/data-views-usecases.md) | 24 augustus 2022 |
 | **Deelvenster Experimentatie voor CJA** | Met dit nieuwe deelvenster Werkruimte kunnen CJA-gebruikers de lift en het vertrouwen evalueren van een A/B-experiment vanuit een willekeurige bron - online, offline, vanuit Adobe-oplossingen, Adobe Journey Optimizer en zelfs BYO-gegevens (uw eigen gegevens leveren). [Meer informatie](/help/analysis-workspace/c-panels/experimentation.md) | [Beperkte release](/help/release-notes/releases.md) 14 september 2022 |
