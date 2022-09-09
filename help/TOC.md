@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Deze gids verleent steun voor Customer Journey Analytics, Adobe volgende-generatieoplossing voor dwars-kanaalanalyse, die op Adobe Experience Platform wordt gebaseerd.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 32%
+source-wordcount: '757'
+ht-degree: 31%
 
 ---
 
@@ -230,6 +230,11 @@ ht-degree: 32%
    + [Stel managers in voor het gebruik van dashboards](mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
 + Gebruik hoofdletters {#cja-usecases}
+   + Google Analytics {#ga}
+      + [Gegevens migreren van Google Analytics naar CJA-overzicht](use-cases/ga/overview.md)
+      + [Historische gegevens van Google Analytics opnemen in Platform](use-cases/ga/backfill.md)
+      + [Gegevens van streaming Google Analytics in Platform configureren](use-cases/ga/streaming.md)
+      + [Rapport over gegevens over Google Analytics in CJA](use-cases/ga/report.md)
    + [Customer Journey Analytics-gebruik](use-cases/cja-usecases.md)
    + [Rapportsuites combineren met verschillende schema&#39;s](use-cases/combine-report-suites.md)
    + [Arrays van objecten gebruiken](use-cases/object-arrays.md)
@@ -241,8 +246,6 @@ ht-degree: 32%
    + [Telefooncentrum en webgegevens importeren](use-cases/call-center.md)
    + [Gebruiksgevallen voor gegevensinvoer](use-cases/data-ingestion.md)
    + [Afmetingen marketingkanaal gebruiken](use-cases/marketing-channels.md)
-   + [Gegevens van Google Analytics opnemen in Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [Rapport over gegevens over Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](labs/labs.md)
 + Problemen oplossen {#troubleshooting}

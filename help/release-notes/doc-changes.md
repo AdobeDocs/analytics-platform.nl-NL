@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
+source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1004'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| September 2022 | Nieuw onderwerp over [Combografieken](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
+| September 2022 | Nieuwe gebruikscase op [Gegevens van Google Analytics migreren naar CJA](/help/use-cases/ga/overview.md). |
+| september 2022 | Nieuw onderwerp over [Combografieken](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
 | september 2022 | Nieuw onderwerp over [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). |
 | Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/getting-started/cja-access-control.md). |
@@ -74,7 +75,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | April 2021 | Nieuw onderwerp over [volharding](/help/data-views/component-settings/persistence.md). |
 | April 2021 | Nieuwe documentatie over steun voor geplande projecten in Werkruimte. |
 | April 2021 | Nieuwe onderwerpen over de [Verbeterde weergave van gegevens](/help/data-views/data-views.md). |
-| April 2021 | Nieuwe onderwerpen over [gegevens van Google Analytics opnemen](/help/use-cases/ga-to-cja.md) en [die gegevens analyseren](/help/use-cases/ga-to-cja-reporting.md). |
+| April 2021 | Nieuwe onderwerpen over [gegevens van Google Analytics opnemen](/help/use-cases/ga/overview.md) en [die gegevens analyseren](/help/use-cases/ga/report.md). |
 | April 2021 | Toegevoegd onderwerp op [geplande rapporten](/help/analysis-workspace/curate-share/t-schedule-report.md) in Workspace. |
 | April 2021 | Nieuw onderwerp over [afmetingen met hoge kardinaliteit in CJA](/help/components/dimensions/high-cardinality.md). |
 | Maart 2021 | Toegevoegd onderwerp op steun voor [Analysedashboards](/help/mobile-app/home.md) (mobiele app). |

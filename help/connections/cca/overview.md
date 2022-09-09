@@ -4,9 +4,9 @@ description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige dat
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisati
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat elke wijziging in het algemene schema van de gebeurtenisdataset ook moet worden toegepast in het nieuwe, naastgelegen schema van de dataset. Als dit niet het geval is, wordt de naastgelegen dataset verbroken.
+>Om het even welke verandering in het globale schema van de gebeurtenisdataset moet ook in het nieuwe gestikte datasetschema worden toegepast, anders zal het de gestikte dataset breken.
 >
 >Ook, als u de brondataset verwijdert, stopt de gestikte dataset verwerking en wordt verwijderd door het systeem.
 
@@ -51,7 +51,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * De huidige mogelijkheden voor opnieuw aanvragen zijn beperkt tot één stap (permanente id tot tijdelijke id). Het opnieuw activeren in meerdere stappen (bijvoorbeeld een blijvende id naar een tijdelijke id en een andere tijdelijke id) wordt niet ondersteund.
 * Alleen gegevenssets voor gebeurtenissen worden ondersteund. Andere datasets, zoals raadplegingsdatasets, worden niet gesteund.
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
-* De Adobe-grafiek en de privégrafiek worden niet ondersteund.
+* De persoonlijke grafiek voor meerdere apparaten wordt niet ondersteund.
 * Met Kanaaloverschrijdende analyse wordt het veld dat wordt gebruikt voor stitching op geen enkele manier getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld zoals deze bestaat in de ongeordende dataset in het gegevensmeer. Het hechten proces is hoofdlettergevoelig. Als bijvoorbeeld soms het woord &#39;Bob&#39; in het veld wordt weergegeven en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze als twee aparte personen behandeld.
 * Op bepaalde gebieden-gebaseerde het stitching is case-sensitive, voor de datasets van Analytics die door de Bron van de Analyse wordt geproduceerd Schakelaar, adviseert Adobe om het even welke regels van VISTA of verwerkingsregels te herzien die op het transient gebied van identiteitskaart van toepassing zijn om ervoor te zorgen dat geen van deze regels nieuwe vormen van zelfde identiteitskaart introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde voor het overgangsveld Id invoeren voor slechts een deel van de gebeurtenissen.
 * Veldgebaseerde stitching combineert of voegt geen velden samen.
