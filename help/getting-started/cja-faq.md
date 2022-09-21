@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 29d8f5e293ddee10578e953e2db224099f7b7033
+source-git-commit: 91d9e473d38e12a7ba9cafea92c864641cebd206
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 | Vraag | Antwoord |
 | --- | --- |
-| Kan [!UICONTROL Customer Journey Analytics] &quot;aansluiten&quot; op verschillende apparaten of op verschillende gegevenssets? | Ja. [!UICONTROL Customer Journey Analytics] heeft een verstikkende oplossing die [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) (CCA). Het laat u de persoonsidentiteitskaart van een dataset re-key, die een naadloze combinatie veelvoudige datasets toelaat. |
+| Kan [!UICONTROL Customer Journey Analytics] &quot;aansluiten&quot; op verschillende apparaten of op verschillende gegevenssets? | Ja. [!UICONTROL Customer Journey Analytics] heeft een verstikkende oplossing die [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) (CCA). Het laat u de identiteitskaart van de persoon van een dataset re-key, die een naadloze combinatie veelvoudige datasets toelaat. |
 | Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund? | Ja. [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) kijkt naar gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. |
 | Hoe werkt &#39;replay&#39; in CCA? | CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. Bij opnieuw afspelen worden nieuwe apparaten aan de verbinding vastgezet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
 | Hoe werkt het stitching van historische gegevens (backfill) in CCA? | Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
@@ -62,10 +62,7 @@ ht-degree: 1%
 
 ## 5. Rolvenster instellen voor [!UICONTROL Connection] gegevensbewaring {#data-retention}
 
->[!IMPORTANT]
->Neem contact op met de klantenservice of uw Adobe-accountmanager om deze instelling te laten implementeren. Deze is nog niet beschikbaar via de gebruikersinterface van CJA.
-
-Met deze instelling kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (3 maanden, 6 maanden, enz.), bij een [!UICONTROL connection] niveau (niet op een [!UICONTROL dataset] niveau). Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
+De [**[!UICONTROL Enable rolling data window]**instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection) Hiermee kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (3 maanden, 6 maanden enz.). Deze is ingesteld op een [!UICONTROL connection] niveau, niet op een [!UICONTROL dataset] niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
@@ -140,7 +137,7 @@ Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Cus
 
 De gebruikslimieten worden regelmatig gecontroleerd en afgedwongen door Adobe. &quot;Rijen van gegevens&quot;: de dagelijkse gemiddelde rijen van gegevens die beschikbaar zijn voor analyse binnen Customer Journey Analytics.
 
-Stel bijvoorbeeld dat uw contract u recht geeft op één miljoen rijen met gegevens. Stel dat u op dag 1 van het gebruik van Customer Journey Analytics twee miljoen rijen gegevens uploadt. Op dag 2, schrapt u 1 miljoen rijen en houdt uw gebruik bij dat gecommitteerde maximum (d.w.z., één miljoen rij gegevens) voor de rest van uw Termijn van de Vergunning. Afhankelijk van uw contractvoorwaarden, kunt u nog steeds geproreerde overgebruikskosten voor dag 1 maken, aangezien u uw licentierechten voor &quot;rijen met gegevens&quot; hebt overschreden.
+Bijvoorbeeld, laten wij zeggen uw contract u aan één miljoen rijen van gegevens machtigt. Stel dat u op dag 1 van het gebruik van Customer Journey Analytics twee miljoen rijen gegevens uploadt. Op dag 2, schrapt u 1 miljoen rijen en houdt uw gebruik bij dat gecommitteerde maximum (d.w.z., één miljoen rij gegevens) voor de rest van uw Termijn van de Vergunning. Afhankelijk van uw contractvoorwaarden, kunt u nog steeds geproreerde overgebruikskosten voor dag 1 maken, aangezien u uw licentierechten voor &quot;rijen met gegevens&quot; hebt overschreden.
 
 ## 11. Verschillen in onderzoeksgegevens {#discrepancies}
 
