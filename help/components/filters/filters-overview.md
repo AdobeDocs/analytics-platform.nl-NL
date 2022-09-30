@@ -2,12 +2,13 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
+
 
 # Overzicht van filters {#overview}
 
@@ -18,6 +19,8 @@ Filters kunnen worden gebaseerd op kenmerken (browsertype, apparaat, aantal bezo
 U kunt filters bouwen en bewaren in de Bouwer van de Filter, of filters van een visualisatie van de Vallout (in Werkruimte) produceren. Bovendien kunnen filters samen als gestapelde filters worden gebruikt.
 
 Filteren bevat de opdracht [Filter Builder](/help/components/filters/create-filters.md) om filters te maken en een pretest uit te voeren, en [Filterbeheer](/help/components/filters/manage-filters.md) om filters te verzamelen, te etiketteren, goed te keuren, veiligheid te plaatsen, en over uw organisatie te delen.
+
+Het maximumaantal filters dat u per IMS-organisatie kunt maken, is 50.000.
 
 ## Filtertypen {#types}
 
