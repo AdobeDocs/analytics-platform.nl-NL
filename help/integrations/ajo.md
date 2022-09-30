@@ -1,9 +1,9 @@
 ---
 title: Adobe Journey Optimizer met Customer Journey Analytics integreren
 description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
-source-git-commit: 28bc99a7f5ec7b280fd26a7a45dc076e67f652dc
+source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Berichten verzonden | Het aantal berichten dat is verzonden | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sent` |
 | Synchronisatiefouten | Het totale aantal berichten dat niet kon worden gesynchroniseerd | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sync` |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Berekende metriek configureren met behulp van Journey Optimizer-meetgegevens
 
 Zodra u de gewenste afmetingen en metriek voor de dataset van Journey Optimizer hebt gevormd, kunt u ook vormen [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md) voor meer inzichten over die gegevens. Deze berekende metriek zijn gebaseerd op de bovengenoemde metriek die in de Manager van de Mening van Gegevens wordt gecreeerd.
@@ -48,6 +50,8 @@ Zodra u de gewenste afmetingen en metriek voor de dataset van Journey Optimizer 
 | Berekende metrische waarde | Beschrijving | Formule |
 | --- | --- | --- |
 | Totaal aantal verzonden berichten | Het totale aantal verzonden, geslaagde of mislukte berichten | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Verschillen in rapportage tussen Journey Optimizer en Customer Journey Analytics
 
