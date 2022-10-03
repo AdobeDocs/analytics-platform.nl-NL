@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -104,4 +104,10 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 
 Om gemakkelijk te interpreteren en veilige statistische conclusies te kunnen trekken, heeft Adobe een statistische methodologie aangenomen die gebaseerd is op [Altijd geldige betrouwbaarheidsreeksen](https://doi.org/10.48550/arXiv.2103.06476).
 
-Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Interval van het Vertrouwen. Om te begrijpen wat een vertrouwensopeenvolging is, stel voor herhalend uw experimenten honderd keer, en het berekenen van een schatting van gemiddelde bedrijfsmetrisch (b.v. open tarief van een e-mail) en zijn bijbehorende 95%-Vertrouwensopeenvolging voor *elke nieuwe gebruiker* dat het experiment binnenkomt. Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kan slechts eenmaal per experiment worden berekend om dezelfde 95%-dekkingsgarantie te bieden; niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat de foutpercentages worden verhoogd, d.w.z. dat met deze resultaten kan worden gespiekt.
+Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Interval van het Vertrouwen. Om te begrijpen wat een vertrouwensopeenvolging is, stel voor herhalend uw experimenten honderd keer, en het berekenen van een schatting van gemiddelde bedrijfsmetrisch (b.v. open tarief van een e-mail) en zijn bijbehorende 95%-Vertrouwensopeenvolging voor *elke nieuwe gebruiker* dat het experiment binnenkomt.
+
+Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kan slechts eenmaal per experiment worden berekend om dezelfde 95%-dekkingsgarantie te bieden; niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat de foutpercentages worden verhoogd, d.w.z. dat met deze resultaten kan worden gespiekt.
+
+## Nieuwe functies in Berekende metriek
+
+Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UICONTROL Confidence]. Zie voor meer informatie [Referentie - geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md).

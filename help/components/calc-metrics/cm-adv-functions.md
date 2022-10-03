@@ -3,9 +3,9 @@ title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '3107'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,23 @@ CEILING(metric)
 | Argument | Beschrijving |
 |---|---|
 | *metrisch* | De metrische waarde die u wilt afronden. |
+
+## Vertrouwen
+
+[!UICONTROL Confidence] is een probabilistische maat van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
+
+```
+fx Confidence (normalizing-container, success-metric, control, significance-threshold)
+```
+
+| Argument | Beschrijving |
+| --- | --- |
+| Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
+| Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| Significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Cosinus (rij)
 
@@ -334,6 +351,22 @@ Retourneert items waarvan het numerieke aantal kleiner is dan de ingevoerde waar
 ## Kleiner dan of gelijk aan
 
 Retourneert items waarvan het numerieke getal kleiner dan of gelijk is aan de ingevoerde waarde.
+
+## Optillen
+
+Retourneert de Lift die een bepaalde variant had in conversies over een besturingsvariant. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| Argument | Beschrijving |
+| --- | --- |
+| Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
+| Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Lineaire regressie_ Correlatiecoëfficiënt
 
