@@ -4,18 +4,14 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 6238a3b2239a20aaedbec5e5603d0c72bb4ae463
+source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Samenvatting van metrische sleutel
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdsbestek trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 

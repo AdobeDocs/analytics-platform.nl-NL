@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
+source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -86,21 +86,21 @@ Vergeet niet elke metrisch anders te noemen om op de verschillen, zoals &quot;Al
 Zie voor meer informatie over andere instellingen van gegevensweergaven [Gegevensweergaven maken](/help/data-views/create-dataview.md).
 Voor een conceptueel overzicht van gegevensweergaven raadpleegt u [Overzicht van gegevensweergaven](/help/data-views/data-views.md).
 
-## 7. Nieuwe sessierapport {#new-repeat}
+## 7. Nieuwe sessie- en retoursessierapport {#new-repeat}
 
-U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruiker of niet is, die op het rapporteringsvenster wordt gebaseerd dat u voor deze gegevensmening en een 13 maanden terugkijkvenster bepaalde. Met deze rapportage kunt u bijvoorbeeld bepalen:
+U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruiker of een terugkeerzitting is, die op het rapporteringsvenster wordt gebaseerd dat u voor deze gegevensmening en een 13 maanden raadplegingsvenster bepaalde. Met deze rapportage kunt u bijvoorbeeld bepalen:
 
-* Welk percentage van uw bestellingen komt uit nieuwe sessies?
+* Welk percentage van uw bestellingen komt uit nieuwe of terugkeerzittingen?
 
-* Voor een bepaald marketingkanaal, of een specifieke campagne, richt u zich op nieuwe gebruikers? Hoe beïnvloedt deze keuze de omrekeningskoersen?
+* Voor een bepaald marketingkanaal, of een specifieke campagne, richt u zich op nieuwe gebruikers of terugkeergebruikers? Hoe beïnvloedt deze keuze de omrekeningskoersen?
 
-Eén maatstaf vereenvoudigt deze rapportage:
+Eén dimensie en twee metriek vereenvoudigen deze rapportage:
 
-<!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
+* [Sessietype](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Deze dimensie heeft twee waarden: 1) [!UICONTROL New] en 2) [!UICONTROL Returning]. De [!UICONTROL New] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
 
-* [Nieuwe sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Een nieuwe sessie wordt gedefinieerd als een door een persoon gedefinieerde eerste sessie in het rapportagevenster.
+* [Nieuwe sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). De metrische waarde van de nieuwe sessies wordt gedefinieerd als de eerste sessie van een persoon in het rapportagevenster.
 
-   <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
+* [Retoursessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) De metrische waarde van de retoursessies is het aantal sessies dat niet de eerste sessie van een persoon was.—>
 
 Deze component openen:
 
@@ -114,20 +114,20 @@ Deze component openen:
 
 * Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Laten we zeggen dat je een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als retoursessies.
 
-<!--## Use the Date and Date-Time functionality {#date}
+## 8. De functionaliteit Datum en tijd gebruiken {#date}
 
-Schemas in Adobe Experience Platform contain [!UICONTROL Date] and [!UICONTROL Date-Time] fields. CJA data views now support these fields. When you drag these fields into a data view as a dimension, you can specify their [format](/help/data-views/component-settings/format.md). This format setting determines how the fields are displayed in reporting. For example:
+Schemas in Adobe Experience Platform bevat [!UICONTROL Date] en [!UICONTROL Date-Time] velden. De CJA-gegevensweergaven ondersteunen deze velden nu. Wanneer u deze velden als een dimensie naar een gegevensweergave sleept, kunt u hun [format](/help/data-views/component-settings/format.md). Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
 
-* For the Date format, if you select **[!UICONTROL Day]** with the format **[!UICONTROL Month, Day, Year]**, an example output in reporting might look like: August 23, 2022.
+* Als u voor de datumnotatie **[!UICONTROL Day]** met de notatie **[!UICONTROL Month, Day, Year]** Een voorbeelduitvoer in de rapportage zou er als volgt kunnen uitzien: 23 augustus 2022.
 
-* For the Date-Time format, if you select **[!UICONTROL Minute of Day]** with the format **[!UICONTROL Hour:Minute]**, your output might look like: 20:20.
+* Als u voor de datum-tijd-indeling **[!UICONTROL Minute of Day]** met de notatie **[!UICONTROL Hour:Minute]**, zou uw output als kunnen kijken: 20:20.
 
-### Example use cases:
+### Gebruiksscenario&#39;s:
 
-* Date: A travel company is collecting the departure date for trips as a field in their data. They would like to have a report which compares the [!UICONTROL Day of Week] for all departure dates collected to understand which is most popular. They would like to do the same for [!UICONTROL Month of Year].
+* Datum: Een reisbedrijf verzamelt de vertrekdatum voor reizen als een veld in de gegevens. Zij zouden graag een verslag hebben waarin de [!UICONTROL Day of Week] voor alle vertrekdata die worden verzameld om te begrijpen wat het populairst is . Ze willen hetzelfde doen voor [!UICONTROL Month of Year].
 
-* Date-Time: A retail company is collecting the time for each of their in-store point-of-sale (POS) purchases. Over a given month, they would like to understand the busiest shopping periods by [!UICONTROL Hour of Day].
+* Datum/tijd: Een detailhandelsonderneming verzamelt de tijd voor elk van hun aankopen in verkooppunten (verkooppunten). Meer dan een maand willen ze graag de drukste boodschapperiodes van [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[Date and Date-Time in the Format component setting](/help/data-views/component-settings/format.md)-->
+>[Datum en datum-tijd in de instelling van de component Format](/help/data-views/component-settings/format.md)
 
