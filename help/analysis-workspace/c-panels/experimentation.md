@@ -3,18 +3,14 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
 
 # Deelvenster Experimentatie
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschillende gebruikerservaringen, marketing of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren - online, off-line, van Adobe oplossingen, Adobe Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
 
