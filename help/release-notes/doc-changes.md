@@ -4,7 +4,7 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+source-git-commit: 3b89c88186b27148ba7d0cdee77cd60699b7161f
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 6%
@@ -21,7 +21,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | --- | --- |
 | Oktober 2022 | Nieuw onderwerp over [Samenvatting van metrische sleutel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) visualisatie. |
 | Oktober 2022 | Nieuwe sectie over [datum- en datumfunctionaliteit in gegevensweergaven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#date) |
-| Oktober 2022 | Mobiele app: Nieuw onderwerp over [aangepaste detailweergaven](https://experienceleague.corp.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
+| Oktober 2022 | Mobiele app: Nieuw onderwerp over [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
 | September 2022 | Nieuwe gebruikscase op [Gegevens van Google Analytics migreren naar CJA](/help/use-cases/ga/overview.md). |
 | september 2022 | Nieuw onderwerp over [Combografieken](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
 | september 2022 | Nieuw onderwerp over [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |

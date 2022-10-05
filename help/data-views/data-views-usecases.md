@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8492a400d7402a95ba98dc0800970b25a1d7d473
+source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -114,11 +114,7 @@ Deze component openen:
 
 * Wanneer een sessie zowel het terugzoekvenster als het rapportagevenster omvat. Laten we zeggen dat je een rapport maakt van 1 juni tot 15 juni 2022. Het terugkijkvenster zou 1 mei 2021 tot 31 mei 2022 omvatten. Als een sessie zou beginnen op 30 mei 2022 en op 1 juni 2022 zou eindigen, omdat de sessie is opgenomen in het terugzoekvenster, worden alle sessies in het rapportagevenster geteld als retoursessies.
 
-## De functionaliteit Datum en tijd gebruiken {#date}
-
->[!NOTE]
->
->Deze functionaliteit wordt momenteel beperkt getest.
+## 8. De functionaliteit Datum en tijd gebruiken {#date}
 
 Schemas in Adobe Experience Platform bevat [!UICONTROL Date] en [!UICONTROL Date-Time] velden. De CJA-gegevensweergaven ondersteunen deze velden nu. Wanneer u deze velden als een dimensie naar een gegevensweergave sleept, kunt u hun [format](/help/data-views/component-settings/format.md). Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
 
