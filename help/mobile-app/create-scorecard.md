@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 
 Het scorebordsjabloon implementeren:
 
-1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project report suite]** waarvan u gegevens wilt gebruiken.
+1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project report suite]** waarvan u gegevens wilt gebruiken. De reeksen van het rapport zijn gegevensmeningen in CJA.
 
    ![Selectie van rapportsuite](assets/properties_save.png)
 
@@ -66,7 +66,7 @@ Het scorebordsjabloon implementeren:
 
 1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
 
-## Afmetingen of metriek toevoegen (#dimsmetrics)
+## Afmetingen of metingen toevoegen {#dimsmetrics}
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
@@ -74,13 +74,13 @@ U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Chan
 
 ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-## Segmenten toepassen {#segments}
+## Filters toepassen {#filters}
 
-Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
+Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in CJA) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
 
-Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureren en toepassen van filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
+Als u het filter op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [configureren en toepassen van filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
 
-![Segmenten maken voor filter](assets/segment_ui.png)
+![Filters maken](assets/segment_ui.png)
 
 ## Datumbereiken toevoegen {#dates}
 
@@ -124,7 +124,7 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 
 ### [!UICONTROL Donut]
 
-Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel bijvoorbeeld dat u wilt zien welke advertentieplatform heeft bijgedragen aan het totale aantal unieke bezoekers:
+Net als bij een cirkeldiagram toont deze visualisatie gegevens als delen van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel bijvoorbeeld dat u wilt zien welke advertentieplatform heeft bijgedragen aan het totale aantal unieke bezoekers:
 
 ![Donut visualisatie](assets/donut-viz.png)
 
@@ -153,15 +153,15 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze trein kunt u een nieuwe **[!UICONTROL Title]** voor de tegel en configureert u de tegel anders door componenten op te geven in plaats van deze vanuit de linkerspoorstaaf te slepen en neer te zetten.
+Wanneer u op een tegel klikt in de Scorecard Builder, ziet u in de rechterrails de eigenschappen en kenmerken van die tegel en de bijbehorende dia met details. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door filters toe te passen. Segmenten zijn filters in CJA.
 
-![Eigenschappen, tegel](assets/properties_tile.png)
+![Eigenschappen, tegel](assets/properties-tile-new.png)
 
-## Insteekmodules weergeven (uitsplitsingen) {#breakdowns}
+## Gedetailleerde dia&#39;s weergeven {#view-detail-slides}
 
-Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. U kunt dimensies en dimensies opsplitsen om uw gegevens op te splitsen voor uw specifieke behoeften. Indien er geen dimensie op de tegel is toegepast, wordt de uitsplitsingsdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+Wanneer u op tegels klikt, wordt in een dynamisch pop-upvenster weergegeven hoe de detaildia er uitziet voor de uitvoerende gebruiker in de app. U kunt dimensies toevoegen om uw gegevens naar behoefte op te splitsen. Als er geen dimensie is toegepast, wordt de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
-De onderbrekingen verfijnen uw analyse door afmetingen door andere metriek en dimensies, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
+De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals het volgende te verdelen:
 
 * Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
@@ -171,9 +171,33 @@ De onderbrekingen verfijnen uw analyse door afmetingen door andere metriek en di
 
 Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
+## Detaildia&#39;s aanpassen {#customize-detail-slide}
+
+Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek. U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
+
+![Aangepaste detaildia](assets/custom-detail-slide.png)
+
+### De dialay-out wijzigen
+
+Wijzig de dialay-out om de nadruk op de belangrijkste informatie te leggen. U kunt bijvoorbeeld de lay-out zodanig wijzigen dat alleen een grafiek of alleen een tabel wordt weergegeven. Als u de dialay-out wilt wijzigen, selecteert u een van de vooraf ontworpen indelingen.
+
+![Schuivende indeling](assets/layout.png)
+
+U kunt de dialay-out ook veranderen door visualiseringscomponenten van de linkerspoorstaaf op het canvas te slepen en te laten vallen. Elke detaildia kan slechts twee visualisaties tegelijk bevatten.
+
+![Schuifregelaar](assets/slide-layout-change.png)
+
+### Beschrijvende tekst toevoegen aan een dia
+
+U kunt tekst toevoegen om betekenisvolle informatie te verstrekken over wat in de grafieken of nuances over de gegevens bevat.
+
+Als u tekst wilt toevoegen aan een detaildia, selecteert u een lay-out waarin de `T` of sleep de tekstvisualisatiecomponent van de linkerspoorstaaf over. De teksteditor wordt automatisch geopend wanneer u een nieuwe tekstvisualisatie toevoegt of een dialay-out met tekst kiest. De teksteditor bevat alle standaardopties voor de opmaak van de tekst. U kunt tekststijlen toepassen, zoals alinea&#39;s, koppen en subkoppen, en vette en cursieve lettertypen toepassen. U kunt tekst uitvullen, lijsten met opsommingstekens en nummers toevoegen en koppelingen toevoegen. Wanneer u klaar bent met bewerken, selecteert u de knop Minimaliseren in de rechterbovenhoek van de teksteditor om deze te sluiten. Als u de tekst die u al hebt toegevoegd wilt bewerken, selecteert u het potloodpictogram om de teksteditor opnieuw te openen.
+
+![Schuifregelaar](assets/add-descriptive-text.png)
+
 ## Componenten verwijderen {#remove}
 
-Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door het te klikken **x** dat wordt weergegeven wanneer u de muisaanwijzer op de component plaatst, zoals hieronder voor de component **Eerste bezoeken** segment:
+Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door het te klikken **x** dat wordt weergegeven wanneer u de muisaanwijzer op de component plaatst, zoals hieronder voor de component **Eerste bezoeken**:
 
 ![Remove_components](assets/new_remove.png)
 
