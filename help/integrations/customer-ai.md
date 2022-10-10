@@ -1,12 +1,12 @@
 ---
-description: Ontdek hoe AEP Klantenservice AI integreert met Workspace in CJA.
-title: Integreer Customer AI met CJA
+description: Ontdek hoe AEP Customer AI-gegevens integreren met Workspace in CJA.
+title: AI-gegevens van klanten integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,13 @@ De AI van de Klant integreert met Customer Journey Analytics (CJA) voor zover de
 * **Kijk naar de verdeling van de neiging**. Hoofdlettergebruik: Ik zou graag de verdeling van de neiging-scores naar ik willen begrijpen die preciezer kan zijn met mijn segmenten. &#x200B;Voorbeeld: een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de hoogste 80%+ &#x200B; van hun klanten te richten.
 * **Kijk naar de neiging om in de loop der tijd een actie voor een bepaald cohort uit te voeren**. Hoofdlettergebruik: Ik wil graag een specifieke cohort bijhouden in de loop van de tijd. Dit is vergelijkbaar met het eerste voorbeeld, maar u kunt een specifieke cohort in de loop van de tijd bijhouden. &#x200B; Voorbeeld van ziekenhuisopname: Een markator kan hun bronzen laag in vergelijking met hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag in de loop van de tijd. Dan zien ze de neiging van elke cohort om het hotel in de loop van de tijd te boeken. &#x200B;
 
-## Workflow
-
 Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA.
 
-### Stap 1: Een Customer AI-instantie configureren
+## Stap 1: Een Customer AI-instantie configureren
 
 Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïnstalleerd, begint u met het volgende: [Een AI-instantie van een klant configureren](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) in Adobe Experience Platform.
 
-### Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
+## Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
 
 In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
 
@@ -57,41 +55,41 @@ Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande of n
 
 (Merk op dat het voorbeeld een profieldataset is; de zelfde reeks schemavoorwerp zou deel van een dataset van de Gebeurtenis van de Ervaring uitmaken die CJA zou grijpen. De dataset van de Gebeurtenis van de Ervaring zou timestamps als scoredatum omvatten.) Elke klant die in dit model een score heeft behaald, heeft een scoreDate, enzovoort. geassocieerd met hen.
 
-### Stap 3: Gegevensweergaven maken op basis van deze verbindingen
+## Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
 In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, enzovoort) en metriek die zijn ingevoerd als onderdeel van de verbinding die u hebt gemaakt.
 
 ![Gegevensweergave maken](assets/create-dataview.png)
 
-### Stap 4: Rapport over CAI-scores in werkruimte
+## Stap 4: Rapport over CAI-scores in werkruimte
 
 Maak in de CJA-werkruimte een nieuw project en trek de visualisaties over.
 
-**Scherptediepte**
+### Scherptediepte
 
 Hier is een voorbeeld van een project van de Werkruimte met de gegevens van CAI die de tendensiteitsscores voor een segment van gebruikers in tijd, in &#x200B; een gestapeld staafdiagram trends:
 
 ![Score-emmers](assets/workspace-scores.png)
 
-**Tabel met redencodes**
+### Tabel met redencodes
 
 Hier volgt een tabel met redencodes waarom een segment een &#x200B; met een hoge of lage dichtheid heeft:
 
 ![Reden](assets/reason-codes.png)
 
-**Invoerstroom voor klantgevoeligheid**
+### Invoerstroom voor klantgevoeligheid
 
 Dit stroomdiagram toont de ingangsstroom voor klantenneiging over verschillende het scoren looppas &#x200B;:
 
 ![Invoer stroom](assets/flow.png)
 
-**Verdeling van de dichtheidsscores**
+### Verdeling van de dichtheidsscores
 
 In dit staafdiagram wordt de verdeling van &#x200B; voor de dichtheid getoond:
 
 ![Distributie](assets/distribution.png)
 
-**Propensiteit overlapt**
+### Propensiteit overlapt
 
 In dit Venn-diagram ziet u de nevenoverlappingen in verschillende scoring-reeksen:
 
