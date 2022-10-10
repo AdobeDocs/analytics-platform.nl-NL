@@ -4,14 +4,18 @@ title: Integreer Customer AI met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
+source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
 
-# Integreer Customer AI met CJA
+# AI-gegevens van klanten integreren met CJA
+
+>[!NOTE]
+>
+>Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md) en niet algemeen beschikbaar.
 
 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, biedt marketers de kracht om klantprognoses op individueel niveau te genereren.
 
@@ -23,8 +27,8 @@ De AI van de Klant integreert met Customer Journey Analytics (CJA) voor zover de
 
 * **Volgheidscores bijhouden voor een gebruikerssegment in de loop van de tijd**. Voorbeeld van gebruik: Hoe groot is de kans dat een hotelklant een showticket koopt op de concertlocatie van het hotel?
 * **Analyseren welke succesgebeurtenissen of kenmerken zijn gekoppeld aan propensiteitsscores**. &#x200B;Voorbeeld van gebruik: Ik wil de attributen of succesgebeurtenissen begrijpen verbonden aan aandrijvingsscores.
-* **Volg de ingangsstroom voor klantenneiging over verschillende het scoren looppas**. Voorbeeld van gebruik: Ik zou graag mensen willen begrijpen die aanvankelijk gebruikers met een lage dichtheid waren en die na verloop van tijd gebruikers met een hoge dichtheid werden. &#x200B;
-* **Kijk naar de verdeling van de neiging**. Hoofdlettergebruik: Ik zou graag de verdeling van de nevenscores voor mijn segmenten willen begrijpen. &#x200B;Voorbeeld: een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de hoogste 80%+ &#x200B; van hun klanten te richten.
+* **Volg de ingangsstroom voor klantenneiging over verschillende het scoren looppas**. Voorbeeld van gebruik: Ik zou graag mensen begrijpen die aanvankelijk gebruikers met lage populiteit waren en, in de loop der tijd, gebruikers met hoge neiging werden. &#x200B;
+* **Kijk naar de verdeling van de neiging**. Hoofdlettergebruik: Ik zou graag de verdeling van de neiging-scores naar ik willen begrijpen die preciezer kan zijn met mijn segmenten. &#x200B;Voorbeeld: een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de hoogste 80%+ &#x200B; van hun klanten te richten.
 * **Kijk naar de neiging om in de loop der tijd een actie voor een bepaald cohort uit te voeren**. Hoofdlettergebruik: Ik wil graag een specifieke cohort bijhouden in de loop van de tijd. Dit is vergelijkbaar met het eerste voorbeeld, maar u kunt een specifieke cohort in de loop van de tijd bijhouden. &#x200B; Voorbeeld van ziekenhuisopname: Een markator kan hun bronzen laag in vergelijking met hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag in de loop van de tijd. Dan zien ze de neiging van elke cohort om het hotel in de loop van de tijd te boeken. &#x200B;
 
 ## Workflow
