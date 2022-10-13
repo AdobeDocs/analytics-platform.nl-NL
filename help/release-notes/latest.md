@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fc1a5b1b0f01ace6207820e2421d1770f68c3583
+source-git-commit: 45e4a60b6bbf38e33f307dbbbf68ab3124dd6a33
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de release Customer Journey Analytics (CJA) (oktober 2022)
 
-**Laatste update**: 5 oktober 2022
+**Laatste update**: 13 oktober 2022
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,7 +26,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 * [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
-## Belangrijkste kenmerken
+## Belangrijke functies en updates
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
@@ -34,6 +34,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **[!UICONTROL Key metric summary]visualisatie** | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Meer informatie | Geleidelijke uitrol vanaf 5 oktober 2022 |
 | **Datumveldondersteuning in CJA** | Staat CJA toe om op datum en datum-tijd gebieden te melden. [Meer informatie](/help/data-views/data-views-usecases.md#date) | 5 oktober 2022 |
 | **Mobiele app: Aangepaste detailweergaven** | Met de gedetailleerde weergaven van Aangepast kunt u zich nog meer richten op de informatie die u deelt met uw publiek, doordat u deze kunt richten op wat het belangrijkst is. U kunt de lay-out van de detailmening veranderen verbonden aan elke scorecardtegel en u kunt tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en) | 5 oktober 2022 |
+| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden die zijn opgeslagen in mvar1 - mvar3 niet meer automatisch verlaagd. In plaats daarvan, zullen de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan op het originele geval wijzen dat van de pagina werd overgegaan. | 24 oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
