@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
+source-git-commit: 1ce51f7eb5a40584fec781727e82b448cd23cc7a
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Schemas in Adobe Experience Platform bevat [!UICONTROL Date] en [!UICONTROL Date
 
 * Als u voor de datum-tijd-indeling **[!UICONTROL Minute of Day]** met de notatie **[!UICONTROL Hour:Minute]**, zou uw output als kunnen kijken: 20:20.
 
-### Gebruiksscenario&#39;s:
+### Datum- en datumnotatiefalen
 
 * Datum: Een reisbedrijf verzamelt de vertrekdatum voor reizen als een veld in de gegevens. Zij zouden graag een verslag hebben waarin de [!UICONTROL Day of Week] voor alle vertrekdata die worden verzameld om te begrijpen wat het populairst is . Ze willen hetzelfde doen voor [!UICONTROL Month of Year].
 
