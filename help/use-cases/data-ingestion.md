@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 5a6d2b14ba7ed1221921cfb253026850fc7b6d73
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '771'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Adobe Experience Platform brengt gegevens uit meerdere bronnen samen om marketer
 
 ## Google Analytics-gegevens inbrengen om te analyseren in Customer Journey Analytics
 
-Bekijk deze zelfstudie over hoe u [Gegevens van Google Analytics analyseren met Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html#objectives) voor gedetailleerde stappen.
+Bekijk deze zelfstudie over hoe u [Gegevens van Google Analytics analyseren met Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=en) voor gedetailleerde stappen.
 
 ## De Bulk API van de Invoeging van Gegevens van het gebruik om gegevens in Analytics te krijgen, dan wordt opgenomen via de Bron van Adobe Schakelaar in Experience Platform
 
