@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 31%
+source-wordcount: '794'
+ht-degree: 30%
 
 ---
 
@@ -79,6 +79,12 @@ ht-degree: 31%
    + Projecten {#build-workspace-project}
       + [Overzicht van projecten](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
+      + Mappen in werkruimte {#workspace-folders}
+         + [Mappen in werkruimte](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Mappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Projecten toevoegen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Een project verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Een nieuw project opslaan](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Hotkeys (sneltoetsen)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurpaletten](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](../analysis-workspace/build-workspace-project/view-density.md)
