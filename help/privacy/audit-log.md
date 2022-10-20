@@ -3,8 +3,8 @@ title: Controlelogboeken
 description: Leer om CJA- controlelogboeken te bekijken en te beheren.
 source-git-commit: a866dec61df93bf730529a2d7513b4d76bab6694
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '818'
+ht-degree: 3%
 
 ---
 
