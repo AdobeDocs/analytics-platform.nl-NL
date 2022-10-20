@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 785ea95049135adef888c20a6d9fef9f31439a7d
+source-git-commit: a3d47318d74df161cf9054b849c9eb8ef09e60c4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '500'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,6 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Mappen in werkruimteprojecten** | De omslagen in de Projecten van de Werkruimte helpen gebruikers hun projecten organiseren en indelen gebruikend omslagen voor betere herwinning en toegang. Met een gedeelde bedrijfsmap kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers [Meer informatie](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 oktober 2022 |
 | **Deelvenster Experimentatie** | Met dit nieuwe deelvenster Werkruimte kunnen CJA-gebruikers de lift en het vertrouwen evalueren van een A/B-experiment vanuit elke bron - online, offline, vanuit Adobe-oplossingen, Adobe Journey Optimizer en zelfs BYO-gegevens. [Meer informatie](/help/analysis-workspace/c-panels/experimentation.md) | 5 oktober 2022 |
 | **[!UICONTROL Key metric summary]visualisatie** | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Meer informatie | Geleidelijke uitrol vanaf 5 oktober 2022 |
 | **Datumveldondersteuning in CJA** | Staat CJA toe om op datum en datum-tijd gebieden te melden. [Meer informatie](/help/data-views/data-views-usecases.md#date) | 5 oktober 2022 |

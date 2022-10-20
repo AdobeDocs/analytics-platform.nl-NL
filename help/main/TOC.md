@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
+source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 30%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 30%
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Mappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Projecten toevoegen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Een project verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Een nieuw project opslaan](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -260,6 +260,7 @@ ht-degree: 30%
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met CJA-gegevens](../troubleshooting/compare.md)
-+ Privacy {#cja-privacy}
++ Data Governance {#cja-privacy}
+   + [Controlelogboeken](../privacy/audit-log.md)
    + [Data Governance](../privacy/privacy-overview.md)
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)
