@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 8262d7f0ec56a792bfcd8fe94b7f7685ee5b5438
+source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Een ander niveau van toegangsbeheer kan op het de rapportniveau van de Werkruimt
 
 ## Toegang verlenen tot individuele metriek of dimensies
 
-U kunt geen toestemmingen op individuele metriek of dimensies in Customer Journey Analytics verlenen of ontkennen zoals u in traditionele Adobe Analytics kunt. Metriek en afmetingen kunnen worden gewijzigd in [gegevensweergaven](/help/data-views/data-views.md) en zijn derhalve onderhevig aan wijzigingen in CJA. Als u ze wijzigt, wordt de rapportage ook met terugwerkende kracht gewijzigd.
+U kunt geen toestemmingen voor individuele metriek of dimensies in Customer Journey Analytics verlenen of ontkennen zoals u in traditionele Adobe Analytics kunt. Metriek en afmetingen kunnen worden gewijzigd in [gegevensweergaven](/help/data-views/data-views.md) en zijn derhalve onderhevig aan wijzigingen in CJA. Als u ze wijzigt, wordt de rapportage ook met terugwerkende kracht gewijzigd.
 
 ## Gebruik hoofdletters
 
@@ -88,7 +88,7 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | --- | --- |
 | **[!UICONTROL Data Views]** | Als u schakelt **[!UICONTROL Auto-Include]** tot **[!UICONTROL On]** Gebruikers die deel uitmaken van dit productprofiel, kunnen alle bestaande en nieuwe gegevensweergaven bekijken. Als deze instelling is ingesteld op **[!UICONTROL Off]**, kunt u specifieke gegevensweergaven selecteren waartoe gebruikers toegang hebben. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Deze toestemming dwingt de toestemmingscontrole op [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) en de [UI voor auditlogbestanden](/help/privacy/audit-log.md). |
+| **[!UICONTROL Audit Logs Access]** | Deze toestemming dwingt de toestemmingscontrole op [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) en de volgende interface voor auditlogs. |
 | **[!UICONTROL Reporting Usage Admin]** | Laat gebruikers om het even welk rapport bekijken en schrappen dat in hun bedrijf loopt. (De rapportfunctionaliteit voor gebruik wordt nog niet vrijgegeven.) |
 | **[!UICONTROL Reporting Usage View]** | Hiermee kunnen gebruikers alle gelijktijdige rapportageaanvragen bekijken. (De rapportfunctionaliteit voor gebruik wordt nog niet vrijgegeven.) |
 | **[!UICONTROL Calculated Metrics Creation]** | Gebruikers kunnen [berekende meetwaarden](/help/components/calc-metrics/calc-metr-overview.md). |
