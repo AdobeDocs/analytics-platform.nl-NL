@@ -3,9 +3,9 @@ description: Leer hoe u projecten uit mappen kunt verwijderen
 keywords: Analysis Workspace
 title: Projecten uit mappen verwijderen
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Als u een project uit een map wilt verwijderen, kunt u het project naar een ande
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 >[!NOTE]
 >

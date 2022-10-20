@@ -3,9 +3,9 @@ description: Leer hoe u mappen toevoegt in Workspace
 keywords: Analysis Workspace
 title: Mappen toevoegen in werkruimte
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevo
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 ## Vanuit de tabelweergave
 

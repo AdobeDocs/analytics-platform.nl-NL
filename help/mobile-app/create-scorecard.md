@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -173,7 +173,11 @@ Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervol
 
 ## Detaildia&#39;s aanpassen {#customize-detail-slide}
 
-Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek. U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
+Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
 
 ![Aangepaste detaildia](assets/custom-detail-slide.png)
 

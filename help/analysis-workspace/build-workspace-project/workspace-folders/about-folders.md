@@ -3,9 +3,9 @@ description: Meer informatie over mappen in werkruimte
 keywords: Analysis Workspace
 title: Overzicht van mappen
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De omslagen in de Projecten van de Werkruimte is een omslagbeheerssysteem dat op
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 De omslagen in de Projecten van de Werkruimte helpen gebruikers hun projecten organiseren en indelen voor betere herwinning en toegang. Bovendien staat een gedeelde Omslag van het Bedrijf Admins toe om inhoud met alle gebruikers van de Werkruimte gemakkelijk tot stand te brengen en te delen. 
 
