@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3028024c97355cb43fb7a844acef5771d2f5cbcf
+source-git-commit: a7636909c0570655ee6d3638e56828916044d2bd
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **[!UICONTROL Key metric summary]visualisatie** | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md) | 5 oktober 2022 | 19 oktober 2022 |
 | **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1` - `mvvar3` wordt niet meer automatisch verlaagd. In plaats daarvan, zullen de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan op het originele geval wijzen dat van de pagina werd overgegaan. | N.v.t. | 24 oktober 2022 |
 | **CJA-auditlogboek** | Met Customer Journey Analytics (CJA) kunt u gebruikersactiviteiten voor verschillende services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA). Deze logbestanden waren voorheen alleen beschikbaar via de API voor controlelogbestanden. [Te volgen documentatie] | N.v.t. | 26 oktober 2022 |
-| **Gereedheid CJA HIPAA** | Te volgen beschrijvingen | N.v.t. | 26 oktober 2022 |
+| **Gereedheid van HIPAA** | Te volgen beschrijving | N.v.t. | 7 november 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
