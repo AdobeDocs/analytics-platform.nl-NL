@@ -3,40 +3,37 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a3d47318d74df161cf9054b849c9eb8ef09e60c4
+source-git-commit: 3028024c97355cb43fb7a844acef5771d2f5cbcf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '493'
 ht-degree: 3%
 
 ---
 
-# Opmerkingen bij de release Customer Journey Analytics (CJA) (oktober 2022)
+# Opmerkingen bij de release Customer Journey Analytics (CJA) (oktober/november 2022)
 
-**Laatste update**: 18 oktober 2022
+**Laatste update**: 19 oktober 2022
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-## Gerelateerde bronnen
-
-* [Opmerkingen bij de vorige CJA-release voor 2022](/help/release-notes/2022.md)
-
-* [Opmerkingen bij de release van Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=en)
-
-* [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-
-* [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
-
 ## Belangrijke functies en updates
 
-| Functie | Beschrijving | [Doeldatum](/help/release-notes/releases.md) |
-| ----------- | ---------- | ----- |
-| **Deelvenster Experimentatie** | Met dit nieuwe deelvenster Werkruimte kunnen CJA-gebruikers de lift en het vertrouwen evalueren van een A/B-experiment vanuit elke bron - online, offline, vanuit Adobe-oplossingen, Adobe Journey Optimizer en zelfs BYO-gegevens. [Meer informatie](/help/analysis-workspace/c-panels/experimentation.md) | 5 oktober 2022 |
-| **[!UICONTROL Key metric summary]visualisatie** | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Meer informatie | Geleidelijke uitrol vanaf 5 oktober 2022 |
-| **Datumveldondersteuning in CJA** | Staat CJA toe om op datum en datum-tijd gebieden te melden. [Meer informatie](/help/data-views/data-views-usecases.md#date) | 5 oktober 2022 |
-| **Mobiele app: Aangepaste detailweergaven** | Met de gedetailleerde weergaven van Aangepast kunt u zich nog meer richten op de informatie die u deelt met uw publiek, doordat u deze kunt richten op wat het belangrijkst is. U kunt de lay-out van de detailmening veranderen verbonden aan elke scorecardtegel en u kunt tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en) | 5 oktober 2022 |
-| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1` - `mvvar3` wordt niet meer automatisch verlaagd. In plaats daarvan, zullen de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan op het originele geval wijzen dat van de pagina werd overgegaan. | 24 oktober 2022 |
+| Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
+| ----------- | ---------- | ----- | --- |
+| **[!UICONTROL Key metric summary]visualisatie** | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md) | 5 oktober 2022 | 19 oktober 2022 |
+| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1` - `mvvar3` wordt niet meer automatisch verlaagd. In plaats daarvan, zullen de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan op het originele geval wijzen dat van de pagina werd overgegaan. | N.v.t. | 24 oktober 2022 |
+| **CJA-auditlogboek** | Met Customer Journey Analytics (CJA) kunt u gebruikersactiviteiten voor verschillende services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA). Deze logbestanden waren voorheen alleen beschikbaar via de API voor controlelogbestanden. [Te volgen documentatie] | N.v.t. | 26 oktober 2022 |
+| **Gereedheid CJA HIPAA** | Te volgen beschrijvingen | N.v.t. | 26 oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
+
+## Oplossingen
+
+* Probleem verholpen waarbij recente MacOS-versies onjuist werden aangeduid als &quot;Macintosh&quot;. Met deze correctie begint de dimensie van het besturingssysteem met het gebruik van &quot;MacOS&quot;-versienummering, te beginnen met MacOS 11. (AN-301834)
+
+### Overige correcties
+
+AN-302367; AN-302562
 
 ## Belangrijke kennisgevingen voor CJA-beheerders
 
@@ -48,5 +45,15 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 {style=&quot;table-layout:auto&quot;}
 
->[!MORELIKETHIS]
->[Customer Journey Analytics-documentupdates](/help/release-notes/doc-changes.md)
+
+## Gerelateerde bronnen
+
+* [Opmerkingen bij de vorige CJA-release voor 2022](/help/release-notes/2022.md)
+
+* [Opmerkingen bij de release van Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=en)
+
+* [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+
+* [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
+
+* [Customer Journey Analytics-documentupdates](/help/release-notes/doc-changes.md)

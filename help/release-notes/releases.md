@@ -1,9 +1,10 @@
 ---
 description: Verklaart de ononderbroken strategie van de eigenschapversie voor Customer Journey Analytics
 title: Customer Journey Analytics-functiereleases
-source-git-commit: b740d3a18d1090b04cc50869d38600f016cf30d5
+exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
+source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -16,9 +17,7 @@ De versies van Customer Journey Analytics werken op een ononderbroken leveringsm
 
 [!UICONTROL Analysis Workspace] maakt gebruik van functiemarkeringen (ook wel &#39;&#39;schakelingen&#39;&#39; genoemd) om de zichtbaarheid van nieuwe functies te bepalen, zodat tests op gecontroleerde schaal vóór volledige release mogelijk zijn. Deze releasestrategie omvat de volgende fasen:
 
-* **Vrijgave voor productie (RTP)**: De code wordt vrijgegeven aan productie, met de eigenschap zicht uitgezet in Analysis Workspace. De functie is soms beschikbaar in de CJA API.
-
-* **Beperkte tests**: Een gefaseerde versie begint met het testen door interne gebruikers van Adobe. De release wordt vervolgens in de loop van een paar maanden geschaald van 0% naar 100% beschikbaarheid. De gefaseerde uitrol gebeurt op het niveau van de Organisatie van de Experience Cloud, zodat ontvangen alle gemachtigde gebruikers in een organisatie de zelfde ervaring.
+* **Begin van rollout**: De introductie van een gefaseerde release begint met beperkte tests door interne Adobe-gebruikers. De release wordt vervolgens in de loop van een paar maanden geschaald van 0% naar 100% beschikbaarheid voor klanten. De gefaseerde uitrol gebeurt op het niveau van de Organisatie van de Experience Cloud, zodat ontvangen alle gemachtigde gebruikers in een organisatie de zelfde ervaring.
 
 * **Algemene beschikbaarheid (GA)**: De functie is beschikbaar voor 100% van de organisaties met bevoegdheid voor Experience Cloud en de release met functies is voltooid.
 
