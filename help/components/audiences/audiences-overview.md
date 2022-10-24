@@ -2,9 +2,9 @@
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
+source-git-commit: 18306a5a2fc8873850eb62b7407acb55db4007ea
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '424'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,10 @@ Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden in
 * Beheerders kunnen deze machtiging verlenen aan individuele gebruikers.
 
 * Beheerders hebben ook de opdracht **[!UICONTROL Manage Profiles]** toestemming in Adobe Experience Platform.
+
+## Beheer en instemming van gegevens
+
+Wanneer u een publiek in CJA publiceert, worden de etiketten en het beleid van het Beleid van Gegevens verbonden aan de gebieden die in het publiek worden gebruikt geregistreerd.  Wanneer het publiek wordt geactiveerd in een Adobe Experience App, zijn alle bijbehorende labels en beleidsregels voor gegevensbeheer beschikbaar voor dat publiek en kan de juiste handhaving worden toegepast.  [Meer informatie over toestemming](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
 
 ## Volgende stappen
 
