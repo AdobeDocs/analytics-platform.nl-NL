@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
+source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ De wachtwoordvereisten voldoen aan de Adobe-standaard, die minimaal 8 tekens ver
 
 ### Nieuw gepland project
 
-1. Nadat u het project hebt opgeslagen, gaat u naar Delen > Bestand nu verzenden of Delen > Bestand op schema verzenden.
-1. Volg de bovenstaande instructies onder Bestand nu delen of Bestand delen volgens schema.
+1. Nadat u uw project hebt opgeslagen, ga naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]**, of [!UICONTROL Share] > **[!UICONTROL Send file on schedule]**.
+1. Volg de bovenstaande instructies onder [Bestand nu verzenden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) of [Bestand verzenden volgens schema](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### Bestaand gepland project
 
