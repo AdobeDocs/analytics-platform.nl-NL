@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ Vóór de tijd waarvoor een project gepland is, zal de eigenaar van het project 
 
 ![email](assets/email-password.png)
 
+1. Log terug in Customer Journey Analytics.
 1. Klik op **[!UICONTROL View Scheduled Project]**.
 1. In de **[!UICONTROL Edit scheduled project]** voert u een wachtwoord in en voert u dit opnieuw in.
 1. (Slechts) de ontvangers van het geplande project weten over dit wachtwoord.
