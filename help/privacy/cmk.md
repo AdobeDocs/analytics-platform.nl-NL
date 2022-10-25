@@ -3,9 +3,9 @@ title: Door de klant beheerde toetsen
 description: Leer hoe u door klanten beheerde sleutels voor CJA instelt.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ce386f30e344b3921689a8ecc0e6fba0a55137f9
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Deze functionaliteit zal in november 2022 beschikbaar zijn.
 
-Customer Journey Analytics (CJA) biedt de mogelijkheid voor klanten van het gezondheidsschild en privacy- en beveiligingsschild om een Azure Customer Managed Key (CMK) te gebruiken die op uw CJA-gegevens moet worden toegepast.  Dit proces staat los van de Adobe Experience Platform CMK-instelling (koppeling om te volgen).
+Customer Journey Analytics (CJA) biedt de optie voor [Gezondheidsschild](https://www.adobe.com/trust/compliance/hipaa-ready.html) en Privacy &amp; Security Shield-klanten gebruiken een Azure Customer Managed Key (CMK) die op uw CJA-gegevens moet worden toegepast.  Merk op dat dit proces los staat van [Adobe Experience Platform CMK instellen](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html).
 
 >[!NOTE]
 >
