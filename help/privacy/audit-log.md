@@ -1,19 +1,17 @@
 ---
 title: Controlelogboeken
 description: Leer om CJA- controlelogboeken te bekijken en te beheren.
-source-git-commit: a866dec61df93bf730529a2d7513b4d76bab6694
+hide: true
+hidefromtoc: true
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '811'
 ht-degree: 3%
 
 ---
 
 
 # Controlelogboeken
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 Om de transparantie en de zichtbaarheid van de in het systeem uitgevoerde activiteiten te vergroten, kunt u met Customer Journey Analytics (CJA) gebruikersactiviteiten voor diverse services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA).
 
