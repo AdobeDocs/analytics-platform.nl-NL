@@ -3,9 +3,9 @@ title: Door de klant beheerde toetsen
 description: Leer hoe u door klanten beheerde sleutels voor CJA instelt.
 hide: true
 hidefromtoc: true
-source-git-commit: ce386f30e344b3921689a8ecc0e6fba0a55137f9
+source-git-commit: 3aa5d9e1b426e67f27ef1909a2640f335719502a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,13 @@ Customer Journey Analytics (CJA) biedt de optie voor [Gezondheidsschild](https:/
 >
 >Door de klant beheerde toetsen zijn momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) invoegtoepassing.
 
+## CMK instellen voor CJA
+
 Ga als volgt te werk om CMK in te stellen voor CJA:
 
-1. Zorg ervoor dat u recht hebt op CMK door contact op te nemen met uw Adobe-accountteam.
-1. Maak een nieuwe Azure Key Vault die alleen met CJA kan worden gebruikt.
-1. Steek uw Azure Key Value naar de Azure CJA CMK-app (link naar follow-up).
+1. Zorg ervoor dat u recht hebt op Adobe CJA CMK door contact op te nemen met het team van uw Adobe-account.
+1. Zorg ervoor dat u in Azure een beheerder met een geprivilegieerde rol bent, zoals Toepassingsbeheerder, Cloud Application Administrator of Global Administrator. [Meer informatie van Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
+1. Maak een nieuwe Azure Key Vault die alleen met CJA kan worden gebruikt. [Meer informatie van Microsoft](https://learn.microsoft.com/en-us/azure/key-vault/general/)
+1. Bied de Adobe Azure App toegang tot uw sleutel in de sleutelkluis. Dit is de toepassings-id Adobe: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Meer informatie over Microsoft](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
 1. Maak een Adobe Customer Care-ticket voor een aanvraag voor CMK-installatie. Neem de Azure URI op in uw ticket.
-1. De klantenservice van Adobe zal bevestigen dat de CMK-toepassing op uw CJA-gegevens is voltooid.
+1. De klantenservice van Adobe bevestigt de voltooiing van de CMK-toepassing op uw CJA-gegevens.
