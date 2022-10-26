@@ -3,9 +3,9 @@ title: Controlelogboeken
 description: Leer om CJA- controlelogboeken te bekijken en te beheren.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 6cf2d5ccbeeea7baeea8a675f2b7e96e6203fe24
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '812'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelo
 
 Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over de **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor CJA-functies de [toegangsbeheerdocumentatie](/help/getting-started/cja-access-control.md).
 
-## De controlelogboeken van de mening in UI
+## Bekijk het controlelogboek in UI
 
 Navigeer in CJA naar **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]**.
 
