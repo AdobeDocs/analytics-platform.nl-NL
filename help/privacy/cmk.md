@@ -3,9 +3,9 @@ title: Door de klant beheerde toetsen
 description: Leer hoe u door klanten beheerde sleutels voor CJA instelt.
 hide: true
 hidefromtoc: true
-source-git-commit: 90521aa7326486b9016321d35191a73ef891a0bc
+source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,10 @@ Ga als volgt te werk om CMK in te stellen voor CJA:
 1. Zorg ervoor dat u in Azure een beheerder met een geprivilegieerde rol bent, zoals Toepassingsbeheerder, Cloud Application Administrator of Global Administrator. [Meer informatie van Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 1. Maak een nieuwe Azure Key Vault die alleen met CJA kan worden gebruikt. [Meer informatie van Microsoft](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 1. Bied de Adobe Azure App toegang tot uw sleutel in de sleutelkluis. Dit is de toepassings-id Adobe: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Meer informatie over Microsoft](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
-1. Maak een Adobe Customer Care-ticket voor een aanvraag voor CMK-installatie. Neem de Azure URI op in uw ticket. De URI vindt u in het veld Key Identifier van uw Azure-sleutel.
+1. Maak een Adobe Customer Care-ticket voor een aanvraag voor CMK-installatie. Neem de Azure URI op in uw ticket. De URI vindt u in het dialoogvenster **Sleutel-id** van uw Azure Key.
+
+   ![](assets/key-identifier.png)
+
 1. De klantenservice van Adobe bevestigt de voltooiing van de CMK-toepassing op uw CJA-gegevens.
+
+Alle gegevens die door Platform worden gebruikt, worden in doorvoer en in rust gecodeerd om uw gegevens veilig te houden, met of zonder CMK. Voor informatie over Adobe Experience Platform-codering, [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
