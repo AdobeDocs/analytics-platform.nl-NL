@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
+source-git-commit: b0a1fdcfb2d200d40c308c557c2ddff172c1e18f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -84,12 +84,12 @@ Nadat uw bedrijf de SKU van het Schild van de Gezondheidszorg heeft gekocht en v
 
 De wachtwoordvereisten voldoen aan de Adobe-standaard, die minimaal 8 tekens vereist met ten minste één getal en één speciaal teken.
 
-### Nieuw gepland project
+### Wachtwoord-beschermt een nieuw gepland project
 
 1. Nadat u uw project hebt opgeslagen, ga naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]**, of [!UICONTROL Share] > **[!UICONTROL Send file on schedule]**.
 1. Volg de bovenstaande instructies onder [Bestand nu verzenden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) of [Bestand verzenden volgens schema](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
-### Bestaand gepland project
+### Wachtwoord-beschermt een bestaand gepland project
 
 Vóór de tijd waarvoor een project gepland is, zal de eigenaar van het project een e-mail gelijkaardig aan dit ontvangen:
 
