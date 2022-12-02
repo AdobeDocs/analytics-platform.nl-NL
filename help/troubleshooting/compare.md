@@ -4,9 +4,9 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
+source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn verwijderd door de connector voor Analytische bron.
+1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn uitgefilterd door de connector van de bron voor analyse.
 
-   De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) kan rijen tijdens de transformatie naar XDM-schema neerzetten. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als om het even welke volgende gebieden van Analytics deze waarden hebben, zal de volledige rij worden gelaten vallen.
+   De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) Hiermee kunt u bepaalde rijen filteren tijdens de transformatie naar het XDM-schema. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als een van de volgende analytische velden deze waarden heeft, wordt de hele rij uitgefilterd.
 
    | Veld Analyse | Waarden die ertoe leiden dat een rij wordt neergezet |
    | --- | --- |
@@ -78,9 +78,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    Zie voor meer informatie over hit\_source: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en). Zie voor meer informatie over page\_event: [Pagina-gebeurtenis opzoeken](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en).
 
-1. Als de schakelaar rijen liet vallen, trek die rijen van af [!UICONTROL Occurrences] metrisch. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de Adobe Experience Platform-gegevenssets.
+1. Als de schakelaar rijen filtreerde, trek die rijen van af [!UICONTROL Occurrences] metrisch. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de Adobe Experience Platform-gegevenssets.
 
-## Waarom records kunnen worden verwijderd of overgeslagen tijdens inname van AEP
+## Waarom records tijdens inname van AEP gefilterd of overgeslagen kunnen worden
 
 CJA [Verbindingen](/help/connections/create-connection.md) staat u toe om veelvoudige datasets samen te brengen en samen te voegen die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op de achtergrond passen we deduplicatie toe: de volledige buitenste verbinding of de vereniging op gebeurtenisdatasets die op timestamps worden gebaseerd, en toen binnenste zich bij profiel en raadplegingsdataset aansluiten, die op identiteitskaart van de Persoon wordt gebaseerd.
 

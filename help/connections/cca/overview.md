@@ -4,9 +4,9 @@ description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige dat
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
+source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in CJA te gebruiken.
 
-1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
+1. Importeer de gewenste gegevens naar Adobe Experience Platform. Voor Adobe Analytics-gegevens raadpleegt u [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Voor andere soorten gegevens raadpleegt u [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 1. Neem contact op met de klantenondersteuning van Adobe via de volgende informatie:
    * Een verzoek om Kanaaloverschrijdende analyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken

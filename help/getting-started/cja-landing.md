@@ -4,10 +4,10 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9874626b52fd4e87bd6337b20ac03d837d8ad888
+source-git-commit: d976160ae5186e9c8b9890b3835a251cac518b02
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 4%
+source-wordcount: '427'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,8 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
-       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-data-in-cja.html?lang=en?lang=en">Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en"> Virtuele rapportsuites, gegevensmeningen, AEP zandbakken en de Bron van de Analyse Verbinding </a> </li>
@@ -48,7 +49,8 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
      <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html" format="https" scope="external"> Adobe Experience Platform Tutorials</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API-referentie</a> </li> 
-     <li><a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en bronnen voor ontwikkelaars</a> </li> 
+     <li><a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentatie en bronnen voor ontwikkelaars</a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html" format="https" scope="external"> Adobe Analytics-bronaansluiting voor rapportsuite-gegevens</a> </li>
     </ul> </td> 
   </tr> 
  </tbody> 

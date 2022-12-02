@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 5a6d2b14ba7ed1221921cfb253026850fc7b6d73
+source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '783'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Deze workflow maakt gebruik van de Adobe Analytics Source Connector en is afhank
 
 1. [Een gegevenslaag maken](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html), als je dat nog niet hebt gedaan. Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
 1. Gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) om code op uw plaats voor gegevensinzameling uit te voeren, als u nog niet hebt. Met deze oplossing voor tagbeheer kunt u de analytische code naast andere vereisten voor codering implementeren. De markeringen bieden integratie met andere oplossingen en producten aan, en laten u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
-1. Een [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [XDM-systeem (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+1. Een [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Deze bronschakelaar zal uw gegevens van Analytics in Experience Platform in een gestandaardiseerd kader opnemen genoemd [XDM-systeem (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl). Zie ook [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
 1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer verbindingen en gegevensweergaven te maken die uw rapportage via meerdere kanalen mogelijk maken.
 
 ## Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
