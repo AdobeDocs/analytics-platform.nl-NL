@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d976160ae5186e9c8b9890b3835a251cac518b02
+source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-data-in-cja.html?lang=en?lang=en">Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=en">Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties </a> </li>
