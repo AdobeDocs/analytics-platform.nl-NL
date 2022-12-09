@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
@@ -54,7 +54,7 @@ U ziet dat de rapportsuite-kiezer in de rechterbovenhoek u nu in de beschikbare 
 
 ![data-view-selector](assets/data-views.png)
 
-Zie [Gebruik hoofdletters en kleine letters in gegevensweergaven](/help/data-views/data-views-usecases.md) voor meer informatie over dit concept .
+Zie [Gebruik hoofdletters en kleine letters in gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md) voor meer informatie over dit concept .
 
 ## Wijzigingen in het concept van eVars en props
 
@@ -68,7 +68,7 @@ Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebie
 
 Adobe heeft de naam van de component &quot;segmenten&quot; gewijzigd in &quot;filters&quot; om deze beter af te stemmen op de industriestandaarden en een beter onderscheid te maken met segmenten in Adobe Experience Platform.
 
-[!UICONTROL Customer Journey Analytics] gebruikt niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan de veldnaam van het Experience Platform-schema waaraan ze zijn toegewezen. Deze wijziging betekent dat geen van de bestaande segmenten in Adobe Analytics compatibel is met [!UICONTROL Customer Journey Analytics]. Zie de volgende video als u bestaande Adobe Analytics-segmenten naar Customer Journey Analytics wilt verplaatsen:
+[!UICONTROL Customer Journey Analytics] gebruikt niet meer eVars, props, of gebeurtenissen en gebruikt in plaats daarvan de het schemagebiedsnaam van het Experience Platform waaraan zij in kaart zijn gebracht. Deze wijziging betekent dat geen van de bestaande segmenten in Adobe Analytics compatibel is met [!UICONTROL Customer Journey Analytics]. Zie de volgende video als u bestaande Adobe Analytics-segmenten naar Customer Journey Analytics wilt verplaatsen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
@@ -96,7 +96,7 @@ U kunt ook meerdere gegevensweergaven hebben op basis van dezelfde verbinding. U
 
 ## Wijzigingen in het begrip classificatie
 
-&quot;Classificaties&quot; worden nu &quot;Gegevensbestanden opzoeken&quot; genoemd. De datasets van de opzoekopdracht worden gebruikt om op waarden of sleutels te kijken die in uw gegevens van de Gebeurtenis of van het Profiel worden gevonden. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [Gegevens op accountniveau toevoegen als een opzoekgegevensset](/help/use-cases/b2b.md) voor een voorbeeld gebruikt.
+&quot;Classificaties&quot; worden nu &quot;Gegevensbestanden opzoeken&quot; genoemd. De datasets van de opzoekopdracht worden gebruikt om op waarden of sleutels te kijken die in uw gegevens van de Gebeurtenis of van het Profiel worden gevonden. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [Gegevens op accountniveau toevoegen als een opzoekgegevensset](/help/use-cases/b2b/b2b.md) voor een voorbeeld gebruikt.
 
 ## Wijzigingen in het concept van klantkenmerken
 

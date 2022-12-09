@@ -4,7 +4,7 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 7%
@@ -78,7 +78,7 @@ Details over de beschikbare vervalinstellingen.
 
 Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt koppelen aan waarden van de dimensie in een andere dimensie. Tot de geldige vervolgkeuzemogelijkheden behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
-Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
+Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
 
 ## [!UICONTROL Binding Metric]
 
@@ -86,4 +86,4 @@ Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bind
 
 Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
 
-Zie het tweede voorbeeld onder [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.
+Zie het tweede voorbeeld onder [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.

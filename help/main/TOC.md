@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 52593d05b10c872322236fb82c4ce5346ddcc9ac
+source-git-commit: 879350c645cf4c6e12361184dddfb065224d758c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 29%
 
 ---
@@ -71,7 +71,6 @@ ht-degree: 29%
       + [Subtekenreeks](../data-views/component-settings/substring.md)
       + [Waardebeperking](../data-views/component-settings/value-bucketing.md)
    + [Standaardcomponentverwijzing](../data-views/component-reference.md)
-   + [Gebruiksscenario&#39;s voor gegevensweergaven](../data-views/data-views-usecases.md)
    + [Labels en beleid](../data-views/data-governance.md)
 + Werkruimteprojecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](../analysis-workspace/home.md)
@@ -248,16 +247,22 @@ ht-degree: 29%
       + [Historische gegevens van Google Analytics opnemen in Platform](../use-cases/ga/backfill.md)
       + [Gegevens van streaming Google Analytics in Platform configureren](../use-cases/ga/streaming.md)
       + [Rapport over gegevens over Google Analytics in CJA](../use-cases/ga/report.md)
-   + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/combine-report-suites.md)
+   + Gegevensinvoer {#data-ingestion}
+      + [Gebruiksgevallen voor gegevensinvoer](../use-cases/data-ingestion/data-ingestion.md)
+      + [Marketo Engage-gegevens in AEP opnemen en rapporteren in CJA](../use-cases/data-ingestion/marketo.md)
+      + [AEP-publiek vertalen in CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + Gegevensweergaven {#data-views}
+      + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
+      + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
+   + B2B {#b2b}
+   + [Gegevens op accountniveau toevoegen als een opzoekgegevensset](../use-cases/b2b/b2b.md)
+   + Kanaalgegevens {#cross-channel}
+      + [Gegevens via kanalen analyseren](../use-cases/cross-channel/cross-channel.md)
+      + [Telefooncentrum en webgegevens importeren](../use-cases/cross-channel/call-center.md)
+   + Adobe Analytics-gegevens {#aa-data}
+      + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
+      + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
    + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
-   + [Afmetingen en metriek van binding gebruiken](../use-cases/binding-dimensions-metrics.md)
-   + [(B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset](../use-cases/b2b.md)
-   + [Marketo Engage-gegevens in AEP opnemen en rapporteren in CJA](../use-cases/marketo.md)
-   + [AEP-publiek vertalen in CJA](../use-cases/ingest-aep-segments.md)
-   + [Gegevens via kanalen analyseren](../use-cases/cross-channel.md)
-   + [Telefooncentrum en webgegevens importeren](../use-cases/call-center.md)
-   + [Gebruiksgevallen voor gegevensinvoer](../use-cases/data-ingestion.md)
-   + [Afmetingen marketingkanaal gebruiken](../use-cases/marketing-channels.md)
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 + Problemen oplossen {#troubleshooting}
