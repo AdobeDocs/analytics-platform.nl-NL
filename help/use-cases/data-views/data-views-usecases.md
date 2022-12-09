@@ -4,9 +4,9 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -121,6 +121,8 @@ Schemas in Adobe Experience Platform bevat [!UICONTROL Date] en [!UICONTROL Date
 * Als u voor de datumnotatie **[!UICONTROL Day]** met de notatie **[!UICONTROL Month, Day, Year]** Een voorbeelduitvoer in de rapportage zou er als volgt kunnen uitzien: 23 augustus 2022.
 
 * Als u voor de datum-tijd-indeling **[!UICONTROL Minute of Day]** met de notatie **[!UICONTROL Hour:Minute]**, zou uw output als kunnen kijken: 20:20.
+
+We ondersteunen momenteel datums na 1 januari 1900 (met uitzondering van 1 januari 1970) en datumtijdwaarden na 1 januari 2000 00:00:00
 
 ### Datum- en datumnotatiefalen
 
