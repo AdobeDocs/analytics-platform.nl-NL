@@ -4,9 +4,9 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
+source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 ## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
 
-1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) voor elk van uw verbindingen en er zijn geen filters toegepast.
+1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) voor elk van uw verbindingen, zonder toegepaste filters.
 
-1. Maak in Workspace een nieuw project en trek alle gebeurtenissen aan (vanuit de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
+1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
 
    ![Gebeurtenissen](assets/events-usage.png)
 
