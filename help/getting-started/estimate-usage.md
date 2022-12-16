@@ -4,9 +4,9 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: e8f5982ae073d4e3dca85b3054fd325cc40ff40a
+source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Om uw gebruik van CJA te begrijpen, kunt u 3 methodes gebruiken:
 
 Je CJA-gebruik beheren:
 
-* Definieer een schuivend gegevensvenster. (Zie hieronder.)
+* Definieer een schuivend gegevensvenster. (Zie **Een schuivend gegevensvenster definiëren** hieronder.)
 
 ## De verbindingsgrootte schatten {#estimate-size}
 
@@ -58,7 +58,7 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 ## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
 
-1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) die gegevens ophaalt uit ALLE verbindingen en waarop geen filters zijn toegepast. Met andere woorden, het bevat al uw gegevens.
+1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) voor elk van uw verbindingen en er zijn geen filters toegepast.
 
 1. Maak in Workspace een nieuw project en trek alle gebeurtenissen aan (vanuit de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
 
