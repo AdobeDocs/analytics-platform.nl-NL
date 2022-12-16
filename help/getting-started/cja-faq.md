@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 91d9e473d38e12a7ba9cafea92c864641cebd206
+source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1953'
+ht-degree: 1%
 
 ---
 
@@ -110,28 +110,7 @@ Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics
 
 ## 9. De verbindingsgrootte schatten {#estimate-size}
 
-Mogelijk moet u weten hoeveel rijen gegevens u momenteel hebt in [!UICONTROL Customer Journey Analytics]. Ga als volgt te werk om een accuraat overzicht te krijgen van het gebruik van de records (gegevensrijen) met gebeurtenisgegevens van uw organisatie **voor elk van de verbindingen die door uw organisatie worden gecreeerd**.
-
-1. In [!UICONTROL Customer Journey Analytics]klikt u op de knop **[!UICONTROL Connections]** tab.
-
-   U kunt nu een lijst met al uw huidige verbindingen zien.
-
-1. Klik op elke naam van de verbinding om deze weer te geven.
-
-1. Voeg de **[!UICONTROL Records of event data available]** voor alle gemaakte verbindingen. (Afhankelijk van de grootte van de verbinding kan het even duren voordat het nummer wordt weergegeven.)
-
-   ![gebeurtenisgegevens](assets/event-data.png)
-
-1. Als u een som van alle rijen met gebeurtenisgegevens hebt, zoekt u de machtiging &quot;Rijen van gegevens&quot; op in het Customer Journey Analytics-contract dat uw bedrijf met Adobe heeft ondertekend.
-
-   Dit geeft u het maximumaantal rijen van gegevens die in de Orde van de Verkoop worden geautoriseerd. Als het aantal rijen gegevens dat uit Stap 3 is voortgekomen groter is dan dit aantal, gaat u over.
-
-1. U kunt deze situatie op verschillende manieren verhelpen:
-
-   * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention).
-   * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * Neem contact op met de accountmanager van de Adobe om een licentie voor extra capaciteit te verkrijgen.
+Zie [Gebruik schatten en beheren](/help/getting-started/estimate-usage.md).
 
 ## 10 Over gebruiksoverschrijdingen {#overage}
 

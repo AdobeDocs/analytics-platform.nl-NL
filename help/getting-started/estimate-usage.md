@@ -3,9 +3,9 @@ title: Uw CJA-gebruik schatten en beheren
 description: Toont twee methodes om gebruik en één methode te schatten om het te beheren.
 role: Admin
 feature: CJA Basics
-source-git-commit: 58d582b693708f883842fb6a18cc57d481f2b2ab
+source-git-commit: 2bcf1f805a54581f13f7d08b9ef034535d7959b1
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 Om uw gebruik van CJA te begrijpen, kunt u 2 methodes gebruiken:
 
-* De gebeurtenisgegevens voor elke verbinding toevoegen (zie **De verbindingsgrootte schatten** hieronder)
-* Analysis Workspace gebruiken om...
+* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. (Zie **De verbindingsgrootte schatten** hieronder)
+* Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden. (Zie **Een Workspace-project maken met al uw gebeurtenisgegevens** hieronder.)
 
 Je CJA-gebruik beheren:
 
-* De CJA API gebruiken
+* Gebruik de CJA API. (Zie **Een rapport maken in de CJA API** hieronder.)
 
 ## De verbindingsgrootte schatten {#estimate-size}
 
@@ -36,9 +36,13 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 1. Klik op elke naam van de verbinding om deze weer te geven.
 
-1. Voeg de **[!UICONTROL Records of event data available]** voor alle gemaakte verbindingen. (Afhankelijk van de grootte van de verbinding kan het even duren voordat het nummer wordt weergegeven.)
+1. Voeg de **[!UICONTROL Records of event data available]** voor elke verbinding die uw organisatie heeft gemaakt. (Afhankelijk van de grootte van de verbinding kan het even duren voordat het nummer wordt weergegeven.)
 
    ![gebeurtenisgegevens](assets/event-data.png)
+
+   >[!CAUTION]
+   >
+   >   Deze telling is alleen van toepassing op gebeurtenisgegevens, niet op profiel- of opzoekgegevens. Als u profiel- en opzoekgegevens hebt, is het aantal iets hoger. Er is momenteel echter geen manier om het gebruik van profiel- en opzoekgegevens in de gebruikersinterface te rapporteren. Deze functionaliteit is gepland voor 2023.
 
 1. Als u een som van alle rijen met gebeurtenisgegevens hebt, zoekt u de machtiging &quot;Rijen van gegevens&quot; op in het Customer Journey Analytics-contract dat uw bedrijf met Adobe heeft ondertekend.
 
@@ -50,3 +54,17 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
    * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * Neem contact op met de accountmanager van de Adobe om een licentie voor extra capaciteit te verkrijgen.
+
+## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
+
+1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) die gegevens ophaalt uit ALLE verbindingen en waarop geen filters zijn toegepast. Met andere woorden, het bevat al uw gegevens.
+
+1. Maak in Workspace een nieuw project en trek alle gebeurtenissen aan (vanuit de **[!UICONTROL Metrics]** (vervolgkeuzelijst) voor de vorige maand.
+
+   ![Gebeurtenissen](assets/events-usage.png)
+
+1. doet dit
+
+## Een rapport maken in de CJA API {#api-report}
+
+Gebruik de [API voor CJA-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport uit te voeren over al uw gebeurtenisgegevens.
