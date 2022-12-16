@@ -3,24 +3,25 @@ title: Uw CJA-gebruik schatten en beheren
 description: Toont twee methodes om gebruik en één methode te schatten om het te beheren.
 role: Admin
 feature: CJA Basics
-source-git-commit: 2bcf1f805a54581f13f7d08b9ef034535d7959b1
+exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
+source-git-commit: e8f5982ae073d4e3dca85b3054fd325cc40ff40a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
-
 # Uw CJA-gebruik schatten en beheren
 
-Om uw gebruik van CJA te begrijpen, kunt u 2 methodes gebruiken:
+Om uw gebruik van CJA te begrijpen, kunt u 3 methodes gebruiken:
 
-* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. (Zie **De verbindingsgrootte schatten** hieronder)
-* Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden. (Zie **Een Workspace-project maken met al uw gebeurtenisgegevens** hieronder.)
+* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. (Zie **De verbindingsgrootte schatten** hieronder) Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
+* Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden. (Zie **Een Workspace-project maken met al uw gebeurtenisgegevens** hieronder.) Hierdoor kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik nader analyseren.
+* Gebruik CJA API om een geautomatiseerd rapport tot stand te brengen. (Zie **Een rapport maken in de CJA API** hieronder.)
 
 Je CJA-gebruik beheren:
 
-* Gebruik de CJA API. (Zie **Een rapport maken in de CJA API** hieronder.)
+* Definieer een schuivend gegevensvenster. (Zie hieronder.)
 
 ## De verbindingsgrootte schatten {#estimate-size}
 
@@ -59,12 +60,33 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) die gegevens ophaalt uit ALLE verbindingen en waarop geen filters zijn toegepast. Met andere woorden, het bevat al uw gegevens.
 
-1. Maak in Workspace een nieuw project en trek alle gebeurtenissen aan (vanuit de **[!UICONTROL Metrics]** (vervolgkeuzelijst) voor de vorige maand.
+1. Maak in Workspace een nieuw project en trek alle gebeurtenissen aan (vanuit de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
 
    ![Gebeurtenissen](assets/events-usage.png)
 
-1. doet dit
+   Zo krijgt u een goed idee hoe uw gebruik maand tot maand wordt.
 
-## Een rapport maken in de CJA API {#api-report}
+1. Afhankelijk van uw behoeften, kunt u neer door dataset, enz. boren.
 
-Gebruik de [API voor CJA-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport uit te voeren over al uw gebeurtenisgegevens.
+
+## Een geautomatiseerd rapport maken in de CJA API {#api-report}
+
+1. Gebruik de [API voor CJA-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport over al uw gebeurtenisgegevens uit te voeren, **voor elke verbinding**. Opstelling dit zodat het rapport loopt
+
+   * elke derde vrijdag van elke maand.
+   * teruggaan naar de eerste dag van je huidige CJA-contract.
+
+   Zo krijgt u een goed idee hoe uw gebruik maand tot maand wordt. Hiermee krijgt u het totale aantal rijen op al uw CJA-verbindingen.
+
+1. Gebruik Excel om dit rapport verder aan te passen.
+
+## Een schuivend gegevensvenster definiëren {#rolling}
+
+Om uw gebruik te beheren, [UI voor verbindingen](/help/connections/create-connection.md) Hiermee kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden enz.), op verbindingsniveau.
+
+Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
+
+Als u de standaardinstelling (uitgeschakeld) verlaat, wordt de bewaarperiode vervangen door de bewaarinstelling voor Adobe Experience Platform-gegevens. Als je 25 maanden aan gegevens in Experience Platform hebt, zal CJA 25 maanden aan gegevens door backfill krijgen. Als u 10 van die maanden in Platform schrapte, zou CJA de resterende 15 maanden behouden.
+
+Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor het schuivende gegevensvenster voor profiel- of opzoekgegevenssets, omdat er geen relevante tijdstempels zijn. Nochtans, als uw verbinding om het even welk profiel of raadplegingsdatasets (naast één of meerdere gebeurtenisdatasets) omvat, zullen die gegevens voor de zelfde tijdspanne worden behouden.
+
