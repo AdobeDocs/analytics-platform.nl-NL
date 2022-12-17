@@ -4,24 +4,26 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
+source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
 
-# Uw CJA-gebruik schatten en beheren
+# Uw CJA-gebruik weergeven en beheren
 
-Om uw gebruik van CJA te begrijpen, kunt u 3 methodes gebruiken:
+U kunt verschillende methoden gebruiken om uw CJA-gebruik te bekijken:
 
-* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. (Zie **De verbindingsgrootte schatten** hieronder) Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
-* Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden. (Zie **Een Workspace-project maken met al uw gebeurtenisgegevens** hieronder.) Hierdoor kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik nader analyseren.
-* Gebruik CJA API om een geautomatiseerd rapport tot stand te brengen. (Zie **Een rapport maken in de CJA API** hieronder.)
+* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. Zie [De verbindingsgrootte schatten](#estimsize) hieronder. Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
+* Bekijk uw gebruik op drie manieren, elk die hieronder meer gedetailleerd wordt beschreven:
+   * Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden.
+   * Gebruik Report Builder om de gebeurtenissen van vorige maand te melden.
+   * Gebruik CJA API om een geautomatiseerd rapport tot stand te brengen.
 
 Je CJA-gebruik beheren:
 
-* Definieer een schuivend gegevensvenster. (Zie **Een schuivend gegevensvenster definiëren** hieronder.)
+* Definieer een schuivend gegevensvenster.
 
 ## De verbindingsgrootte schatten {#estimate-size}
 
@@ -58,6 +60,8 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 ## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
 
+Met deze methode kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik nader analyseren.
+
 1. Voordat u het project maakt in Workspace, [een gegevensweergave maken](/help/data-views/create-dataview.md) voor elk van uw verbindingen, zonder toegepaste filters.
 
 1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
@@ -68,19 +72,22 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
 1. Afhankelijk van uw behoeften, kunt u neer door dataset, enz. boren.
 
+## Een gegevensblok maken in Report Builder {#arb}
+
+In Report Builder, [één gegevensblok maken](/help/report-builder/create-a-data-block.md) voor elke gegevensmening, dan som hen.
 
 ## Een geautomatiseerd rapport maken in de CJA API {#api-report}
 
 1. Gebruik de [API voor CJA-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport over al uw gebeurtenisgegevens uit te voeren, **voor elke verbinding**. Opstelling dit zodat het rapport loopt
 
-   * elke derde vrijdag van elke maand.
+   * elke eerste vrijdag van elke maand.
    * teruggaan naar de eerste dag van je huidige CJA-contract.
 
    Zo krijgt u een goed idee hoe uw gebruik maand tot maand wordt. Hiermee krijgt u het totale aantal rijen op al uw CJA-verbindingen.
 
 1. Gebruik Excel om dit rapport verder aan te passen.
 
-## Een schuivend gegevensvenster definiëren {#rolling}
+## Uw gebruik beheren door een schuivend gegevensvenster te definiëren {#rolling}
 
 Om uw gebruik te beheren, [UI voor verbindingen](/help/connections/create-connection.md) Hiermee kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden enz.), op verbindingsniveau.
 
