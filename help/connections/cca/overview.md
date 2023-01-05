@@ -4,9 +4,9 @@ description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige dat
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+source-git-commit: a9c4465ae099763c92cdc355de56d383ac625432
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Veldgebaseerde stitching combineert of voegt geen velden samen.
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
-* De Analyse van de Kanaal houdt spoor van elke blijvende waarde van identiteitskaart gedurende 1 jaar (TTL = 1 jaar). Als een apparaat langer dan een jaar geen activiteit heeft en dan opnieuw activiteit begint te hebben, zullen de nieuwe gebeurtenissen met een anonieme persoon worden geassocieerd tot de gebruiker (zoals via nieuwe login) wordt herkend.
 * Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt CCA ophoudt stitching gegevens voor dat apparaat.
 
 
