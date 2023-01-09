@@ -4,9 +4,9 @@ description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdata
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2b21d6e4e092c33947220b2d22a8a757407fabb
+source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven 
 
 U bereikt dit alles door de gegevens op accountniveau als een [opzoeken](/help/getting-started/cja-glossary.md) dataset.
 
-U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA0 tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
+U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA) tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
 
 >[!NOTE]
 >
@@ -38,12 +38,6 @@ Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de li
 ## 2. Opzoekgegevensset maken (Experience Platform)
 
 Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in Experience Platform tot stand brengen. Deze raadplegingsdataset bevat account-vlakke marketing informatie, zoals: de naam van het bedrijf, het totale aantal werknemers, de domeinnaam, de industrie waartoe zij behoren, de jaarlijkse opbrengst, of zij huidige klanten van de Experience Platform zijn of niet, welke verkoopfase zij binnen zijn, welk team binnen de rekening CJA gebruikt, enz.
-
->[!IMPORTANT]
->
->CJA steunt geen gehelen in raadplegingsdatasets. Als u de geheelgebieden in uw schema XDM voor uw raadplegingsdataset toevoegt, zult u niet die gehelen als metriek of berekende metriek kunnen gebruiken. Bijvoorbeeld, als annualRevenue of totalEmployees als gehelen worden gedefinieerd, zullen zij als &quot;0&quot;in rapportering in CJA tonen. Als u ze echter toewijst als tekenreeksen, kunt u ze als opzoekinformatie gebruiken.
-
-Voorbeeld: annualRevenue of totalEmployees worden in het volgende voorbeeld gedefinieerd als Geheel getal - dat is de reden dat het &quot;0&quot;toont in CJA.
 
 1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Management > Datasets]**.
 1. Klik op **[!UICONTROL + Create dataset]**.
@@ -96,4 +90,4 @@ U vindt bijvoorbeeld antwoorden op de antwoorden in de inleiding:
 * Hoeveel werknemers worden toegewezen aan een specifieke account-id?
 * Tot welke branche behoort een account-id?
 
-![](../assets/project-lookup.png)
+![project-lookup2](https://git.corp.adobe.com/storage/user/5902/files/348183a8-343c-497e-b270-4fc02b32cb9e)
