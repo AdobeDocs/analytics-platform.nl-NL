@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
+source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | Visualisatienaam | Beschrijving |
 | --- | --- |
 | [Gebied](/help/analysis-workspace/visualizations/area.md) | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
-| [Balk](/help/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
+| [Balk](/help/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die verschillende waarden vertegenwoordigen over een of meer metriek. |
 | [Staafdiagram](/help/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
 | [Cohortingtabel](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een bepaalde periode. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
 | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of filters van een geheel. |
@@ -40,6 +40,24 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Tekst](/help/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
 | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Gebruikt cirkels om de metrische overlapping van maximaal 3 filters aan te geven. |
+
+## Visualisatie-instellingen aanpassen
+
+U kunt visualisatie-instellingen aanpassen voor een afzonderlijke visualisatie of voor alle visualisaties die u maakt.
+
+### Visualisatie-instellingen aanpassen voor één visualisatie
+
+Toegang tot [!UICONTROL Visualization Settings] voor een individuele visualisatie:
+
+1. Houd in Analysis Workspace de muis boven de visualisatie waarvan u de instellingen wilt aanpassen.
+
+1. Klik op het tandwielpictogram.
+
+   Elk type visualisatie heeft unieke instellingen die u kunt aanpassen. Voor informatie over de beschikbare instellingen raadpleegt u [Instellingen](#settings).
+
+### De visualisatie-instellingen aanpassen voor alle visualisaties die u maakt
+
+U kunt instellingen aanpassen voor alle visualisaties die u maakt. Zie voor meer informatie [Gebruikersvoorkeuren](/help/analysis-workspace/user-preferences.md).
 
 ## Instellingen {#settings}
 
