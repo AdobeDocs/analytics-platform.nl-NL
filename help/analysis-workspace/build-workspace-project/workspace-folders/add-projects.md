@@ -3,25 +3,19 @@ description: Leer hoe u mappen toevoegt in Workspace
 keywords: Analysis Workspace
 title: Mappen toevoegen in werkruimte
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Projecten toevoegen aan mappen
 
 U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevoegen.
 
->[!NOTE]
->
->Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
-
-## Vanuit de tabelweergave
+## Vanuit de tabelweergave {#table-view}
 
 Voeg projecten aan een omslag van de lijstmening op de homepage toe.
 
@@ -47,7 +41,7 @@ Voeg projecten aan een omslag van de lijstmening op de homepage toe.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Vanuit een map
+## Vanuit een map {#inside-folder}
 
 U kunt projecten van binnen een omslag ook toevoegen gebruikend de ellipsen verbinding.
 
@@ -72,4 +66,8 @@ U kunt projecten van binnen een omslag ook toevoegen gebruikend de ellipsen verb
 1. Klikken **Toevoegen** om de projecten aan de omslag toe te voegen.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-Slechts kunnen Admins projecten aan de Omslag van het Bedrijf toevoegen of een netto nieuw project tot stand brengen en het opslaan aan de Omslag van het Bedrijf
+
+
+>[!NOTE]
+>
+>Slechts kunnen Admins projecten aan de Omslag van het Bedrijf toevoegen of een nieuw project tot stand brengen en het opslaan aan de Omslag van het Bedrijf

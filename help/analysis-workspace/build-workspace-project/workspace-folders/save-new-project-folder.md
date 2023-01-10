@@ -3,23 +3,17 @@ description: Meer informatie over het opslaan van projecten in mappen in Workspa
 keywords: Analysis Workspace
 title: Projecten opslaan in mappen
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---
 
-
 # Een nieuw project opslaan in een map
 
 Als u een nieuw project in een specifieke map wilt opslaan, selecteert u de mapnaam in het dialoogvenster Project opslaan.
-
->[!NOTE]
->
->Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 1. Maak een nieuw project in Workspace.
 

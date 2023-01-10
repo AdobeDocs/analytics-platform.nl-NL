@@ -3,25 +3,19 @@ description: Leer hoe u mappen en submappen maakt in Workspace
 keywords: Analysis Workspace
 title: Mappen maken
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '146'
 ht-degree: 1%
 
 ---
-
 
 # Mappen maken
 
 U kunt een nieuwe map of een submap toevoegen aan de lijst met projecten en mappen op de bestemmingspagina van de werkruimte.
 
->[!NOTE]
->
->Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
-
-## Nieuwe map maken
+## Nieuwe map maken {#create-new-folder}
 
 Als u een nieuwe map wilt maken,
 
@@ -29,7 +23,7 @@ Als u een nieuwe map wilt maken,
 
 1. Voer een naam in voor de nieuwe map.
 
-1. Selecteer labels in het keuzemenu.
+1. Selecteer labels in het keuzemenu of voeg nieuwe tags toe.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
@@ -41,7 +35,7 @@ Als u een nieuwe map wilt maken,
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-## Een submap maken
+## Een submap maken {#create-subfolder}
 
 Met submappen kunt u aanvullende niveaus voor projectbeheer en -organisatie opgeven.
 

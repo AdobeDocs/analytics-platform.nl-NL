@@ -3,15 +3,13 @@ description: Leer hoe u projecten uit mappen kunt verwijderen
 keywords: Analysis Workspace
 title: Projecten uit mappen verwijderen
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
+source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '177'
 ht-degree: 1%
 
 ---
-
 
 # Een project verwijderen uit een map
 
@@ -19,13 +17,11 @@ Als u een project uit een map wilt verwijderen, kunt u het project naar een ande
 
 >[!NOTE]
 >
->Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
-
->[!NOTE]
->
 >Wanneer Admin een project naar de Omslag van het Bedrijf verplaatst, wordt de omslag gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt. Wanneer Admin een project uit de Omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.
 
-## Een project verplaatsen
+## Een project verplaatsen {#move-project-in-folder}
+
+U kunt projecten van één omslag naar een andere omslag verplaatsen die u creeerde.
 
 1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
 
@@ -43,7 +39,7 @@ Als u een project uit een map wilt verwijderen, kunt u het project naar een ande
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Een project verwijderen uit een projectmap
+## Een project verwijderen uit een projectmap {#delete-project-in-folder}
 
 Wanneer u een project uit een omslag schrapt, wordt het project volledig geschrapt.
 

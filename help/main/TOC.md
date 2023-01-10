@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
+source-git-commit: aff7b978382446e705d6507dbaa07790bd1dd2ae
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '835'
 ht-degree: 29%
 
 ---
@@ -83,6 +83,7 @@ ht-degree: 29%
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Mappen verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Projecten toevoegen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Een project verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Een nieuw project opslaan](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -177,6 +178,7 @@ ht-degree: 29%
    + [Werken met filters](../report-builder/work-with-filters.md)
    + [Dimension filteren](../report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
+   + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
    + [Beperkte labels](../report-builder/restricted-labels.md)
    + [Report Builder-instellingen](../report-builder/report-builder-settings.md)
 + Onderdelen {#cja-components}
