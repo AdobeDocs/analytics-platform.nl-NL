@@ -3,52 +3,78 @@ description: Leer meer over de verschillende opslagopties, zoals automatisch ops
 title: Projecten opslaan
 feature: CJA Workspace Basics
 role: User, Admin
-exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
+source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # Projecten opslaan
 
-Ga naar de werkruimte om uw wijzigingen in een project op te slaan **[!UICONTROL Project]** -menu. In bepaalde gevallen worden projecten ook automatisch opgeslagen in de werkruimte.
+Projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslagen.
+
+U kunt projecten ook handmatig opslaan. Er zijn aanvullende opties beschikbaar, zoals tags of notities toevoegen, wanneer u een project handmatig opslaat.
 
 ## Projectopties opslaan {#Save}
 
-Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het kader van de **[!UICONTROL Project]** afhankelijk van hoe u in de toekomst toegang tot uw analyse wilt krijgen.
+Er zijn verschillende opties beschikbaar wanneer u een project handmatig opslaat in Analysis Workspace.
 
-| Handeling | Beschrijving |
-|---|---|
-| **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
-| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar aan alle redacteurs onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
-| **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-| **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
+Een project handmatig opslaan:
 
-![](assets/save-project.png)
+1. Open uw project in Analysis Workspace en selecteer **[!UICONTROL Project]** Kies vervolgens een van de volgende opties:
+
+   | Handeling | Beschrijving |
+   |---|---| 
+   | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
+   | **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar aan alle redacteurs onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
+   | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
+   | **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
+
+   ![](assets/save-project.png)
 
 ## Automatisch opslaan {#Autosave}
 
-Bestaande projecten, d.w.z. projecten die minstens één keer eerder zijn opgeslagen, worden elke twee minuten automatisch opgeslagen op uw lokale computer. Nieuwe projecten die nog nooit zijn opgeslagen, worden momenteel niet automatisch opgeslagen.
+Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslagen op uw lokale computer. Dit geldt ook voor nieuwe projecten die nog niet handmatig zijn opgeslagen.
 
-Er zijn een paar scenario&#39;s die u van niet bewaarde veranderingen in een project kunnen leiden, resulterend in verschillende beschikbare acties.
+* **Nieuwe projecten:** Hoewel nieuwe projecten automatisch worden opgeslagen, moet u elk nieuw project de eerste keer handmatig opslaan. Analysis Workspace vraagt u om nieuwe projecten handmatig op te slaan wanneer u overschakelt naar een ander project, het browsertabblad sluit enzovoort.
 
-### Een ander Workspace-project openen
+   Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`.
 
-Adobe biedt de optie om op te slaan voordat u de pagina verlaat. Nadat u een bestaand project hebt verlaten, wordt de automatisch opgeslagen lokale kopie verwijderd.
+   ![](assets/recovered-folder.png)
+
+* **Bestaande projecten:** Als u om het even welke reden een project met veranderingen verlaat die nog niet auto-bewaarde zijn, of Analysis Workspace vraagt u om uw veranderingen te bewaren of een waarschuwingsbericht verstrekt.
+
+   Hier volgen enkele veelvoorkomende scenario&#39;s:
+
+### Een ander project openen
+
+Als u een extra project opent terwijl het werken aan een project dat veranderingen bevat die nog niet auto-bewaarde zijn, vraagt Analysis Workspace u om het huidige project te bewaren alvorens weg te gaan.
+
+De volgende opties zijn beschikbaar:
+
+* **Opslaan:** Hiermee vervangt u de meest recente automatisch opgeslagen lokale kopie van uw project door de meest recente wijzigingen.
+* **Opslaan als:** Hiermee slaat u de laatste wijzigingen op als een nieuw project. Het oorspronkelijke project wordt alleen opgeslagen met de meest recente automatisch opgeslagen wijzigingen.
+* **Wijzigingen negeren:** Hiermee worden de laatste wijzigingen genegeerd. In het project blijven de meest recente automatisch opgeslagen wijzigingen behouden.
 
 ![](assets/existing-save.png)
 
 ### Navigeren weg of een tabblad sluiten
 
-De browser waarschuwt dat niet-opgeslagen wijzigingen verloren gaan. U kunt kiezen om te vertrekken of te annuleren.
+Als u van de pagina weg navigeert of het browser lusje terwijl het bekijken van een project met veranderingen sluit die nog niet auto-bewaard zijn, waarschuwt browser dat uw niet bewaarde veranderingen zullen verloren worden. U kunt kiezen om te vertrekken of te annuleren.
 
 ![](assets/browser-image.png)
 
 ### Browsercrashes of sessietijden uit
 
-Voor **bestaand** projecten, wanneer u terugkeert naar Workspace, ziet u een **Projectherstel** modal. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
+Als uw browser vastloopt of als uw sessietijden uit zijn, dan wordt de volgende keer dat u Analysis Workspace opent, u ertoe aangezet om het even welke veranderingen in uw project terug te krijgen die nog niet auto-bewaard zijn.
+
+Hier volgt het dialoogvenster Projectherstel waarin de eerste keer dat u Analysis Workspace opent na een crash of een time-out, wordt weergegeven.
+
+Selecteren **Ja** om het project van het meest recente auto-bewaarde exemplaar te herstellen.
+
+Selecteren **Nee** om de automatisch opgeslagen kopie te verwijderen en de laatst door de gebruiker opgeslagen versie van het project te openen.
 
 ![](assets/project-recovery.png)
 
