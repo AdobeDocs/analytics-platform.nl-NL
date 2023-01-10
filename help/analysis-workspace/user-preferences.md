@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 652ae043f504ff71e8ed469a33f2ef4ebf1c7d04
+source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2425'
 ht-degree: 1%
 
 ---
@@ -155,11 +155,6 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | Aantal emmers | Kies het aantal gegevensbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Zie voor meer informatie [Histogram](/help/analysis-workspace/visualizations/histogram.md).</p> |
 |  | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Bezoek</li><li>Bezoeker</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per bezoeker paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per hit kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
-| **Kaart** |  |  |
-|  | Dimensie vastzetten | <ul><li>Mobiele breedte/lengte</li><li>Geografische dimensie</li></ul> |
-|  | Type kaart | <ul><li>Luchtbellen</li><li>Warmtekaart</li></ul> |
-|  | Kleurthema | Kies uit Koraal, Rode tinten, Groenen, Vervagen, Heatmap en Positief/Negatief. |
-|  | Type kaart | Kies uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |
 | **[Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Waarde | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percentage wijziging</li><li>Onbewerkt verschil</li></ul> |
 |  | Percentage | De waarden van vertoningen in percentages voor de Summiere visualisaties van de Verandering. |
