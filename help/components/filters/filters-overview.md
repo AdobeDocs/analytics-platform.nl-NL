@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
+source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -70,12 +70,12 @@ De containers van de persoon kunnen waarden omvatten die op de algemene geschied
 
 Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet en u laat bepalen welke zittingen u in de bouw en het toepassen van een filter wilt omvatten of uitsluiten. Het kan u helpen deze vragen beantwoorden:
 
-* Hoeveel bezoekers hebben de sectie Nieuws en Sport in dezelfde sessie bekeken?
+* Hoeveel zittingen betrokken met zowel Web als de gegevensbronnen van het Centrum van de Vraag?
 * Welke pagina&#39;s hebben bijgedragen tot een geslaagde omzetting in een uitverkoop?
 
 Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sessie:
 
-* Sessienummer
+* Type sessie
 * Itempagina
 * Retourfrequentie
 * Deelnamemetriek
