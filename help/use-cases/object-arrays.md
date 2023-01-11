@@ -4,16 +4,16 @@ description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # Arrays van objecten gebruiken
 
-Sommige platformschema&#39;s kunnen objectarrays hebben. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
+Sommige platformschema&#39;s kunnen objectarrays hebben. CJA ondersteunt het opnemen en rapporteren van objectarrays binnen gebeurtenis-, lookup- en profielgegevens. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
 
 In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de opdracht `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`) om de facetten van een product te scheiden, met komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. CJA breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
 

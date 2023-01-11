@@ -4,9 +4,9 @@ description: Verklaart hoe te om AEP publiek in Customer Journey Analytics voor 
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,6 @@ U kunt nu rapporteren over `audienceMembershipId`, `audienceMembershipIdName` en
 * U zou dit proces op een regelmatige kadentie moeten uitvoeren, zodat de publieksgegevens constant binnen CJA worden verfrist.
 * U kunt meerdere soorten publiek importeren binnen één CJA-verbinding. Dit vergroot de complexiteit van het proces, maar het is mogelijk. Dit werkt alleen als u enkele wijzigingen aanbrengt in het bovenstaande proces:
    1. Voer dit proces voor elk gewenst publiek in uw publieksinzameling binnen RTCP uit.
-   1. Wanneer u de transformaties van de uitvoer van de exporttaak uitvoert, moet u een lijst maken met `audienceMembershipId(s)`, omdat één CJA-persoon-id tot meerdere soorten publiek kan behoren. Op een gegeven moment in de toekomst zal CJA arrays/objectarrays in profieldatasets ondersteunen. Wanneer deze worden ondersteund, gebruikt u een array met objecten voor de `audienceMembershipId` of `audienceMembershipIdName` is de beste optie. Extraheer in de tussentijd alle huidige gebruikers-id&#39;s voor elke profiel-id in de uitvoer-taakuitvoer (met de status &quot;gereed&quot; of &quot;ingevoerd&quot;) en plaats deze in een tekenreeks met door komma&#39;s gescheiden waarden (dat wil zeggen, `<id1>,<id2>,...`).  Als er een publiek-id is met de status &quot;exited&quot;, controleert u of deze zich NIET in de lijst bevindt.  Als u de vriendschappelijke naamvereniging met identiteitskaart wilt handhaven, kunt u het op het eind van elke identiteitskaart in de lijst (samen met andere meta-gegevens) vastmaken.
+   1. CJA ondersteunt arrays/objectarrays in profielgegevenssets. Een [array van objecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) voor publiekMembershipId of publiekMembershipIdName is de beste optie.
    1. Maak in de gegevensweergave een nieuwe dimensie met behulp van de subtekenreekstransformatie op het tabblad `audienceMembershipId` veld voor het omzetten van de tekenreeks met door komma&#39;s gescheiden waarden in een array. OPMERKING: momenteel is er een limiet van 10 waarden in de array .
    1. U kunt nu verslag uitbrengen over deze nieuwe dimensie `audienceMembershipIds` in CJA Workspace.
