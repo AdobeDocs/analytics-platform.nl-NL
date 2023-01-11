@@ -4,7 +4,7 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Algemene voorkeuren zijn van toepassing op uw CJA-ervaring in de browser.
 | --- | --- |
 | Openingspagina | Kies welke pagina als de standaardpagina wordt weergegeven wanneer u Adobe Analytics opent: <ul><li>Projectlijst (standaard)</li><li>Leeg project</li><li>Specifiek project geselecteerd uit een lijst</li></ul> |
 | Tips weergeven | Hiermee geeft u tips weer in een blauw vak rechtsonder in Analysis Workspace. <p>Deze optie is standaard ingeschakeld.</p> |
-| <span class="preview">Onderdelen die worden weergegeven in linkerspoorweggroepen</span> | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace raadpleegt u [Overzicht van componenten](/help/components/overview.md).</p> |
+| Onderdelen die worden weergegeven in linkerspoorweggroepen | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace raadpleegt u [Overzicht van componenten](/help/components/overview.md).</p> |
 
 ## Projectvoorkeuren
 
@@ -53,7 +53,7 @@ Klik op de gekoppelde voorkeurstitels voor meer informatie en context over elke 
 | --- | --- | --- |
 | **Weergave** |  |  |
 |  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies het kleurenpalet voor visualisatie dat in Analysis Workspace wordt gebruikt. <ul><li>Door Adobe verschafte paletten (standaard)</li><li><span class="preview">Voorwaardelijk opmaakpalet </span></li><li><span class="preview">Palet Omhoog/omlaag (omlaag)</span><li>Aangepaste paletten</li></ul> |
+|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies het kleurenpalet voor visualisatie dat in Analysis Workspace wordt gebruikt. <ul><li>Door Adobe verschafte paletten (standaard)</li><li>Voorwaardelijk opmaakpalet </li><li>Palet Omhoog/omlaag (omlaag)<li>Aangepaste paletten</li></ul> |
 | **Gegevens** |  |  |
 |  | [Rapportsuite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies uit waar tabellen en visualisaties de gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke rapportsuite geselecteerd uit een lijst</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |

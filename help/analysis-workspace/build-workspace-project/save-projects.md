@@ -4,9 +4,9 @@ title: Projecten opslaan
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,22 @@ Een project handmatig opslaan:
    | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
    | **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
-   ![](assets/save-project.png)
-
 ## Automatisch opslaan {#Autosave}
 
 Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslagen op uw lokale computer. Dit geldt ook voor nieuwe projecten die nog niet handmatig zijn opgeslagen.
 
 * **Nieuwe projecten:** Hoewel nieuwe projecten automatisch worden opgeslagen, moet u elk nieuw project de eerste keer handmatig opslaan. Analysis Workspace vraagt u om nieuwe projecten handmatig op te slaan wanneer u overschakelt naar een ander project, het browsertabblad sluit enzovoort.
 
-   Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`.
+   Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`. U moet het herstelde project herstellen en het handmatig op de gewenste locatie opslaan.
 
-   ![](assets/recovered-folder.png)
+   Een hersteld project herstellen:
+
+   1. Ga naar de [!UICONTROL **Herstelde projecten**] op de bestemmingspagina van Analysis Workspace.
+
+      ![](assets/recovered-folder.png)
+
+   1. Open het project en sla het op de gewenste locatie op.
+
 
 * **Bestaande projecten:** Als u om het even welke reden een project met veranderingen verlaat die nog niet auto-bewaarde zijn, of Analysis Workspace vraagt u om uw veranderingen te bewaren of een waarschuwingsbericht verstrekt.
 
