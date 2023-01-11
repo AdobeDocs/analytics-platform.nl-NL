@@ -4,9 +4,9 @@ title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: acf55556e3f53e7f4e8f8de69044e456b931a80b
+source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | Vastgezette items opnieuw ordenen | Als u vastgezette items omhoog en omlaag wilt verplaatsen, klikt u op de ellips naast het vastgezette item en selecteert u **[!UICONTROL Move up]** of **[!UICONTROL Move down]**. | ![Vastgezette items verplaatsen](assets/move-up-down.png) |
 | Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](../analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. </li><li>**[!UICONTROL Number of Queries]**: Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. </li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
 | **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
-| Ook beschikbaar in Customer Journey Analytics | Deze openingspagina, in een gewijzigde vorm, is ook beschikbaar in CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
 
