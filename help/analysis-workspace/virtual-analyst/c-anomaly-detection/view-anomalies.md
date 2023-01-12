@@ -3,10 +3,10 @@ description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: e62261d1d440c0a85e4cab95611c6e6272de6724
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 4%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
@@ -16,30 +16,53 @@ U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 
 ## anomalieën in een tabel weergeven {#section_869A87B92B574A38B017A980ED8A29C5}
 
-In een Freeform-tabel uit de tijdreeks wordt nu automatisch elke rij gemarkeerd met een donkergrijze uitroepteken als er een gegevensanomalie is gedetecteerd.
+U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
-![](assets/anomaly_detected.png)
+1. Selecteer het pictogram voor kolominstellingen in de kolomkop en zorg ervoor dat de [!UICONTROL **Anomalies**] wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Kolominstellingen](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-De verticale grijze lijn in elke rij geeft de verwachte waarde aan. Wanneer u de aanwijzer op het uitroepteken plaatst, wordt aangegeven in welke mate de afwijking afwijkt van de verwachte waarde (in + of - %).
+1. Klik buiten het instellingenmenu om de bijgewerkte tabel weer te geven.
+
+   ![](assets/anomaly_detected.png)
+
+1. In de tabel worden als volgt anomen weergegeven:
+
+   A **donkergrijze driehoek** wordt in de rechterbovenhoek van elke rij weergegeven waarin een anomalie in de gegevens wordt gedetecteerd.
+
+   De kleur **verticale lijn** in elke rij wordt de verwachte waarde aangegeven. De kleur **schaduwgebied** in elke rij wordt de werkelijke waarde aangegeven. Hoe de lijn (verwachte waarde) vergelijkt met het gearceerde gebied (werkelijke waarde) bepaalt of er een anomalie is. (Een waarneming wordt op basis van de in [Statistische technieken voor de opsporing van anomalieën](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).)
+
+1. Selecteer het grijze driehoekje rechtsboven in een rij om details over de anomalie weer te geven. Dit geeft de mate (als percentage) aan waarin de werkelijke waarde boven of onder de verwachte waarde afwijkt.
 
 ## anomalieën weergeven in een lijndiagram {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
 
-Het lijndiagram toont de lichtgroene betrouwbaarheidsband met de afwijkende waarden (witte stippen).
+De grafieken van de lijn zijn de enige visualisatie die u toestaat om anomalieën te bekijken.
 
-Als u op een witte stip klikt, wordt deze groen en wordt het volgende weergegeven:
+Om anomalieën in een lijngrafiek te bekijken:
 
-* De datum waarop de anomalie is opgetreden
-* De onbewerkte waarde van de anomalie
-* De percentagewaarde boven of onder de verwachte waarde, die door de stevige groene lijn wordt vertegenwoordigd.
+1. Selecteer het instellingenpictogram in de visualisatiekoptekst en zorg er vervolgens voor dat de optie [!UICONTROL **anomalieën tonen**] wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Lijn](/help/analysis-workspace/visualizations/line.md).
 
-<!--* The Analyze link to start [Contribution Analysis](/help/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).-->
+1. (Optioneel) Als u wilt dat het betrouwbaarheidsinterval het diagram schaalt, selecteert u het instellingenpictogram in de visualisatiekop en selecteert u vervolgens de optie. **[!UICONTROL Allow anomalies to Scale Y-axis]**.
 
-![](assets/anomaly_linechart.png)
+   Deze optie is niet standaard geselecteerd, omdat het diagram hierdoor soms minder leesbaar wordt.
 
-Als u veelvoudige metriek in het lijndiagram hebt, tonen wij slechts de anomalieën en u moet over elke anomalie bewegen om de betrouwbaarheidsband voor die metrisch te zien.
+1. Klik buiten het instellingenmenu om het bijgewerkte lijndiagram weer te geven.
 
-Met het betrouwbaarheidsinterval voor Anomaly-detectie wordt de y-as van een visualisatie niet automatisch geschaald om de grafiek beter leesbaar te maken.
+   ![](assets/anomaly_linechart.png)
 
-U hebt de optie om het betrouwbaarheidsinterval toe te staan om de grafiek te schalen. Klik op het pictogram Instellingen (versnelling) en controleer **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
+   Anomalies worden als volgt in het lijndiagram weergegeven:
 
-![](assets/scale-y-axis.png)
+   A **witte stip** verschijnt op de regel waar een anomalie in de gegevens wordt gedetecteerd. (Een waarneming wordt op basis van de in [Statistische technieken voor de opsporing van anomalieën](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).)
+
+   De **lichtschaduwgebied** is de betrouwbaarheidsband, of het verwachte bereik, waar waarden moeten voorkomen. Elke waarde die buiten dit verwachte bereik valt, is een anomalie.
+
+   Als u veelvoudige metriek in het lijndiagram hebt, slechts worden de anomalieën getoond en u moet over elke anomalie bewegen om de betrouwbaarheidsband voor die metrisch te zien.
+
+   De **stippellijn** is de exacte verwachte waarde.
+
+1. Klik op een anomalie (witte stip) om de volgende informatie weer te geven:
+
+   * De datum waarop de anomalie is opgetreden
+
+   * De onbewerkte waarde van de anomalie
+
+   * De percentagewaarde boven of onder de verwachte waarde, die door de stevige groene lijn wordt vertegenwoordigd.
+
