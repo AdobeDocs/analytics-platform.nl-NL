@@ -4,9 +4,9 @@ title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
+source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,18 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles landen](assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |
 | TONEN: Mappen en projecten voor alle projecten | Hiermee wijzigt u de weergave-instelling in de tabel om mappen en projecten weer te geven op basis van uw maporganisatie **of** toon al uw projecten in een niet georganiseerde lijst. |
 | &lt; (Terug) | Hiermee gaat u terug naar de meest recente configuratie van de bestemmingspagina in een Workspace-project. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
+
+### Verdringing van de pagina Projectmanager {#deprecate-pm-page}
+
+Met de versie van de nieuwe het landen pagina, verwierpen wij de Manager van het Project zoals die onder de Manager van Componenten wordt vermeld. De nieuwe het landen pagina behandelt alle functionaliteit van de oude pagina van de Manager van het Project en meer.
+
+Één gemeenschappelijk gebruiksgeval voor de pagina van de Manager van het Project was al uw projecten te bekijken. Als u alle projecten op de nieuwe bestemmingspagina wilt weergeven met de filterrail, selecteert u **ANDERE FILTERS** en selecteer vervolgens **Alles tonen**.
+
+![Overige filters](assets/other-filters.png)
+
+Als u in de mening van &quot;Omslagen &amp; van Projecten&quot;bent, zal een modaal pop-up vragend of wilt u op de mening van &quot;Alle projecten&quot;schakelen die het gemakkelijker maakt om al uw projecten buiten om het even welke omslagen te bekijken die zij kunnen worden georganiseerd.   Selecteren **Overschakelen naar de weergave Alle projecten** om beter alle projecten te bekijken u tot toegang hebt.
+
+![Overschakelen naar alle projecten](assets/switch-all-projects-view.png)
 
 ## Navigeren op het tabblad Leren {#navigate-learning}
 
