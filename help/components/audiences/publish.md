@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 96e374440fda61665a45797483eadab930c48c10
+source-git-commit: 06e27fc2ecc2b54e30616bc69b44550af20af76f
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Name] | De naam van het publiek. |
    | [!UICONTROL Tags] | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een bestaande tag gebruiken of een nieuwe tag invoeren. |
    | [!UICONTROL Description] | Voeg een goede beschrijving van het publiek toe om het van anderen te onderscheiden. |
-   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor alle vernieuwingsfrequenties geldt een limiet van 75 tot 150 soorten publiek, afhankelijk van uw CJA-machtiging.</li></ul> |
+   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor de vernieuwingsfrequentie van 4 uur geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw CJA-machtiging.</li></ul> |
    | Vervaldatum | Wanneer het publiek stopt met vernieuwen. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het verouderen van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het publiek verloopt. |
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale duur is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
@@ -84,7 +84,7 @@ U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
 
 ![](assets/audiences-aep.png)
 
-## Veelgestelde vragen
+## Veelgestelde vragen {#faq}
 
 Veelgestelde vragen over het publiceren van publiek.
 
@@ -92,7 +92,7 @@ Veelgestelde vragen over het publiceren van publiek.
 
 In dit geval wordt vanuit CJA een afsluitgebeurtenis naar het Experience Platform verzonden.
 
-### Wat gebeurt er als u een publiek verwijdert in CJA? {#delete}
+### Wat gebeurt er als u een publiek verwijdert in CJA?
 
 Wanneer een publiek CJA wordt geschrapt, zal dat publiek niet meer in de interface van het Experience Platform verschijnen. Er zijn echter geen profielen die aan dat publiek zijn gekoppeld, die in het Platform worden verwijderd.
 
