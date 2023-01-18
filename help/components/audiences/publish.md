@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 49af5869f5aa3b8915b9fb36edb16abe3a3cf34b
+source-git-commit: 96e374440fda61665a45797483eadab930c48c10
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Name] | De naam van het publiek. |
    | [!UICONTROL Tags] | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een bestaande tag gebruiken of een nieuwe tag invoeren. |
    | [!UICONTROL Description] | Voeg een goede beschrijving van het publiek toe om het van anderen te onderscheiden. |
-   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor alle vernieuwingsfrequenties geldt een limiet van 75 of 150 soorten publiek, afhankelijk van uw CJA-machtiging.</li></ul> |
+   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor alle vernieuwingsfrequenties geldt een limiet van 75 tot 150 soorten publiek, afhankelijk van uw CJA-machtiging.</li></ul> |
    | Vervaldatum | Wanneer het publiek stopt met vernieuwen. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het verouderen van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het publiek verloopt. |
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale duur is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
@@ -84,13 +84,37 @@ U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
 
 ![](assets/audiences-aep.png)
 
-## Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA? {#no-member}
+## Veelgestelde vragen
+
+Veelgestelde vragen over het publiceren van publiek.
+
+### Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA?
 
 In dit geval wordt vanuit CJA een afsluitgebeurtenis naar het Experience Platform verzonden.
 
-## Wat gebeurt er als u een publiek verwijdert in CJA? {#delete}
+### Wat gebeurt er als u een publiek verwijdert in CJA? {#delete}
 
 Wanneer een publiek CJA wordt geschrapt, zal dat publiek niet meer in de interface van het Experience Platform verschijnen. Er zijn echter geen profielen die aan dat publiek zijn gekoppeld, die in het Platform worden verwijderd.
+
+### Als er geen corresponderend profiel bestaat in RTCDP, wordt er een nieuw profiel gemaakt?
+
+Ja, dat zal het wel.
+
+### Verzendt CJA de publieksgegevens over als pijpleidingsgebeurtenissen of een plat dossier dat ook naar gegevens meer gaat?
+
+Het stroomt de gegevens in RTCP via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
+
+### Welke identiteiten verzendt CJA?
+
+Welke identiteit/namespace paren die in de opstelling van de Verbinding werden gebruikt. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;persoonsidentiteitskaart&quot;willen gebruiken.
+
+### Wat wordt gekozen als primaire identiteit?
+
+Zie hierboven. We sturen slechts één identiteit per CJA &quot;persoon&quot;.
+
+### Verwerkt RTCP ook de CJA- berichten? Kan CJA identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?
+
+Nee. We sturen slechts één identiteit per &quot;persoon&quot;, dus er zouden geen grafiekranden zijn voor RTCP om te verbruiken.
 
 ## Volgende stappen
 
