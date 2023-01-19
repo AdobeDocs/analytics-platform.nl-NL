@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: aff7b978382446e705d6507dbaa07790bd1dd2ae
+source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 29%
+source-wordcount: '858'
+ht-degree: 28%
 
 ---
 
@@ -47,6 +47,14 @@ ht-degree: 29%
       + [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Gevolgen van verwijdering](../getting-started/cja-deletion.md)
    + [Verklarende woordenlijst](../getting-started/cja-glossary.md)
++ Gegevensinname {#cja-data-ingestion}
+   + [Overzicht van gegevensinname](../data-ingestion/data-ingestion.md)
+   + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
+      + [Adobe Analytics](../data-ingestion/analytics.md)
+      + [Adobe Experience Platform Web SDK en Edge Network](../data-ingestion/aepwebsdk.md)
+      + [Batchgegevens](../data-ingestion/batch.md)
+      + [Streaming gegevens](../data-ingestion/streaming.md)
+      + [Bronaansluitingen](../data-ingestion/sources.md)
 + Verbindingen {#cja-connections}
    + [Overzicht van verbindingen](../connections/overview.md)
    + [Verbinding maken](../connections/create-connection.md)
@@ -251,7 +259,6 @@ ht-degree: 29%
       + [Gegevens van streaming Google Analytics in Platform configureren](../use-cases/ga/streaming.md)
       + [Rapport over gegevens over Google Analytics in CJA](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
-      + [Gebruiksgevallen voor gegevensinvoer](../use-cases/data-ingestion/data-ingestion.md)
       + [Marketo Engage-gegevens in AEP opnemen en rapporteren in CJA](../use-cases/data-ingestion/marketo.md)
       + [AEP-publiek vertalen in CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}

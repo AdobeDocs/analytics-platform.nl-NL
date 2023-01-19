@@ -4,7 +4,7 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 8%
@@ -124,7 +124,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | 2 november 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) pagina. |
 | November 2020 | Toegevoegde inhoud op [beperkingen voor backfill verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) voor verbindingen. |
 | 7 oktober 2020 | Een onderwerp toegevoegd op [gecombineerde gebeurtenisgegevenssets](/help/connections/combined-dataset.md). |
-| 15 september 2020 | Een onderwerp toegevoegd op [gegevensinvoer](/help/use-cases/data-ingestion/data-ingestion.md). |
+| 15 september 2020 | Een onderwerp toegevoegd op [gegevensinvoer](/help/data-ingestion/data-ingestion.md). |
 | 2 september 2020 | Bijgewerkte sectie op [gebruikersmachtigingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). |
 | 7 augustus 2020 | Nieuw onderwerp over [B2B-gebruiksscenario - opzoekgegevensset](/help/use-cases/b2b/b2b.md) toegevoegd. |
 | Juli 2020 | Extra informatie over [Identiteitskaart, optie voor identiteitskaart](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html). |
