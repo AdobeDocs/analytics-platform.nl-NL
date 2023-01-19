@@ -1,15 +1,15 @@
 ---
 title: Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
-description: Verklaar hoe te om gegevens in de Analyse van de Reis van de Kant via het Web SDK van Adobe Experience Platform en het Netwerk van de Rand in te voeren
+description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en het Netwerk van de Rand in te voeren
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3273'
 ht-degree: 0%
 
 ---
-
 
 # Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
 
@@ -17,36 +17,36 @@ In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bi
 
 Hiervoor moet u:
 
-- **Een schema en gegevensset instellen** in Adobe Experience Platform om het model (schema) te bepalen van de gegevens u wilt verzamelen en waar te om de gegevens (dataset) daadwerkelijk te verzamelen.
+- **Een schema en gegevensset instellen** in Adobe Experience Platform om het model (schema) te bepalen van de gegevens die u wilt verzamelen en waar te om de gegevens (dataset) daadwerkelijk te verzamelen.
 
 - **Een gegevensstroom instellen** om het Adobe Experience Platform Edge Network te configureren om de verzamelde gegevens te routeren naar de gegevensset die u in Adobe Experience Platform hebt geconfigureerd.
 
-- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw gegevenslaag op uw website en ervoor te zorgen dat de gegevens worden verzonden naar de gegevensstroom die is geconfigureerd in het Adobe Experience Platform Edge-netwerk.
+- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw gegevenslaag op uw website. Controleer vervolgens of de gegevens naar de gegevensstroom zijn verzonden die op het Adobe Experience Platform Edge-netwerk is geconfigureerd.
 
 - **Implementeren en valideren**. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen en publiceer deze live in uw productieomgeving als alles is gevalideerd.
 
 - **Een verbinding instellen** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
 
-- **Een gegevensweergave instellen** in Customer Journey Analytics om de metriek en de afmeting te bepalen u in Analysis Workspace wilt gebruiken.
+- **Een gegevensweergave instellen** in Customer Journey Analytics om de metriek en de afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
 
 - **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties samen te stellen.
 
 >[!NOTE]
 >
->Dit is een vereenvoudigde handleiding voor het invoeren van gegevens die van uw site zijn verzameld in Adobe Experience Platform en voor gebruik in Customer Journey Analytics.  Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Dit is een vereenvoudigde handleiding voor het invoeren van gegevens die van uw site zijn verzameld in Adobe Experience Platform en voor gebruik in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 
 ## Een schema en gegevensset instellen
 
-Als u gegevens in Adobe Experience Platform wilt invoeren, moet u eerst definiëren welke gegevens u wilt verzamelen. Alle gegevens die in Adobe Experience Platform worden ingevoerd, moeten voldoen aan een standaard, gedenormaliseerde structuur om te worden herkend en door downstreammogelijkheden en -functies te worden toegepast. Het Model van Gegevens van de ervaring (XDM) is het standaardkader dat deze structuur in de vorm van schema&#39;s verstrekt.
+Als u gegevens in Adobe Experience Platform wilt invoeren, moet u eerst definiëren welke gegevens u wilt verzamelen. Alle gegevens die in Adobe Experience Platform worden ingevoerd, moeten voldoen aan een standaard, gedenormaliseerde structuur, zodat deze kan worden herkend en kan worden toegepast door de mogelijkheden en functies op de downstreammarkt. Het Model van Gegevens van de ervaring (XDM) is het standaardkader dat deze structuur in de vorm van schema&#39;s verstrekt.
 
-Zodra u een schema hebt bepaald, zult u één of meerdere datasets gebruiken om de inzameling van gegevens op te slaan en te beheren. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+Zodra u een schema hebt bepaald, gebruikt u één of meerdere datasets om de inzameling van gegevens op te slaan en te beheren. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
 Alle gegevens die in Adobe Experience Platform worden opgenomen moeten met een vooraf gedefinieerd schema in overeenstemming zijn alvorens het als dataset kan worden voortgeduurd.
 
 ### Een schema instellen
 
-U wilt enkele minimale gegevens bijhouden uit profielen die uw website bezoeken, zoals paginanaam, identificatie, enzovoort.
+U wilt enkele minimale gegevens bijhouden van profielen die uw website bezoeken, zoals paginanaam, identificatie.
 Hiervoor moet u eerst een schema definiëren dat deze gegevens modelleert.
 
 Uw schema instellen:
@@ -94,7 +94,7 @@ Uw schema instellen:
 
    ![Identificatieobject](./assets/identification-field.png)
 
-   Hierdoor worden id-mogelijkheden aan uw schema toegevoegd. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn veel andere kenmerken beschikbaar waarmee de identiteit van uw bezoeker kan worden bijgehouden (bijvoorbeeld de id van de klant, de id van de loyaliteit enz.).
+   Hiermee voegt u id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw bezoeker te volgen (bijvoorbeeld klant identiteitskaart, loyaliteitsidentiteitskaart).
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
@@ -104,7 +104,7 @@ Uw schema instellen:
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aan elkaar koppelen).
 
-   Selecteren **[!UICONTROL Apply]**. Er wordt een vingerafdrukpictogram weergegeven in het ecid-kenmerk.
+   Selecteren **[!UICONTROL Apply]**. U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
 7. Selecteer **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de lijst [!UICONTROL Field Properties] deelvenster.
 
@@ -112,13 +112,13 @@ Uw schema instellen:
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
-   Selecteren **[!UICONTROL Apply]**. Er wordt een vingerafdrukpictogram weergegeven in het e-mailkenmerk.
+   Selecteren **[!UICONTROL Apply]**. U ziet dat er een vingerafdrukpictogram wordt weergegeven in het e-mailkenmerk.
 
    Selecteren **[!UICONTROL Save]**.
 
 8. Selecteer het basiselement van uw schema dat de naam van het schema toont, dan selecteer **[!UICONTROL Profile]** switch.
 
-   U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, zullen die gegevens in het Profiel van de Klant in real time worden samengevoegd.
+   U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
    Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) voor meer informatie .
 
@@ -150,7 +150,7 @@ Zie [Schema&#39;s maken en bewerken in de gebruikersinterface](https://experienc
 
 ### Een gegevensset instellen
 
-Met uw schema hebt u uw gegevensmodel gedefinieerd. U moet nu de constructie definiëren om die gegevens op te slaan en te beheren. Dit wordt gedaan door datasets.
+Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie definiëren om die gegevens op te slaan en te beheren. Dit wordt gedaan door datasets.
 
 Uw gegevensset instellen:
 
@@ -174,11 +174,11 @@ Uw gegevensset instellen:
 
 7. Selecteer **[!UICONTROL Profile]** switch.
 
-   U wordt ertoe aangezet om de dataset voor profiel toe te laten. Zodra toegelaten, zal de dataset klantenprofielen in real time met zijn opgenomen gegevens verrijken.
+   U wordt ertoe aangezet om de dataset voor profiel toe te laten. Zodra toegelaten, verrijkt de dataset klantenprofielen in real time met zijn opgenomen gegevens.
 
    >[!IMPORTANT]
    >
-   >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset zich aansluit, ook voor profiel wordt toegelaten.
+   >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
    ![Schema voor profiel inschakelen](./assets/aepwebsdk-dataset-profile.png)
 
@@ -245,7 +245,7 @@ Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om het te op
 
 #### **Extensies**
 
-U moet de uitbreiding van SDK van het Web van het Platform van de Adobe aan uw markering toevoegen om ervoor te zorgen u gegevens naar Adobe Experience Platform (via uw gegevensstroom) kunt verzenden.
+Voeg de uitbreiding van SDK van het Web van het Adobe Platform aan uw markering toe om ervoor te zorgen u gegevens naar Adobe Experience Platform (via uw gegevensstroom) kunt verzenden.
 
 U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configureren:
 
@@ -265,7 +265,7 @@ U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configur
 
 Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) voor meer informatie .
 
-U wilt ook de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud instellen zodat kunt u gemakkelijk van de Dienst van identiteitskaart van de Experience Cloud gebruik maken. De Experience Cloud ID Service identificeert de viewers voor alle Adobe Experience Cloud-oplossingen.
+U wilt ook opstelling de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud zodat kunt u van Experience Cloud identiteitskaart gemakkelijk gebruiken. De Experience Cloud ID-service identificeert bezoekers in alle Adobe Experience Cloud-oplossingen.
 
 Om de uitbreiding van de Dienst van identiteitskaart van Experience Cloud tot stand te brengen en te vormen:
 
@@ -283,7 +283,7 @@ Om de uitbreiding van de Dienst van identiteitskaart van Experience Cloud tot st
 
 #### **Gegevenselementen**
 
-De elementen van gegevens zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die u kunt lezen vanaf uw gegevenslaag en die u kunt gebruiken om gegevens naar Adobe Experience Platform te verzenden.
+De elementen van gegevens zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden.
 
 Er zijn verschillende typen gegevenselementen. U stelt eerst een gegevenselement in om de paginanaam vast te leggen die bezoekers op uw site bekijken.
 
@@ -295,7 +295,7 @@ Een gegevenselement voor de paginanaam definiëren:
 
 3. In de [!UICONTROL Create Data Element] dialoogvenster:
 
-   - Geef uw gegevenselement een naam, bijvoorbeeld `Page Name`.
+   - Geef uw gegevenselement bijvoorbeeld een naam `Page Name`.
 
    - Selecteren **[!UICONTROL Core]** van de [!UICONTROL Extension] lijst.
 
@@ -305,7 +305,7 @@ Een gegevenselement voor de paginanaam definiëren:
 
       ![Datumelement maken met behulp van pagina-info](./assets/create-dataelement-1.png)
 
-      U had de waarde van een variabele in uw gegevenslaag kunnen gebruiken, bijvoorbeeld `pageName` en de [!UICONTROL JavaScript Variable] het elementtype van gegevens om het gegevenselement te bepalen.
+      U had de waarde van bijvoorbeeld een variabele in uw gegevenslaag kunnen gebruiken `pageName` en de [!UICONTROL JavaScript Variable] het elementtype van gegevens om het gegevenselement te bepalen.
 
       ![Gegevenselement maken met JavaScript-variabele](./assets/create-dataelement-2.png)
 
@@ -321,7 +321,7 @@ Een ECID-gegevenselement definiëren:
 
 3. In de [!UICONTROL Create Data Element] dialoogvenster:
 
-   - Geef uw gegevenselement een naam, bijvoorbeeld `ECID`.
+   - Geef uw gegevenselement bijvoorbeeld een naam `ECID`.
 
    - Selecteren **[!UICONTROL Experience Cloud ID Service]** van de [!UICONTROL Extension] lijst.
 
@@ -331,7 +331,7 @@ Een ECID-gegevenselement definiëren:
 
    - Selecteren **[!UICONTROL Save]**.
 
-Tot slot wilt u nu om het even welke specifieke gegevenselementen aan het schema in kaart brengen u vroeger bepaalde. U moet een ander gegevenselement bepalen dat een vertegenwoordiging van uw schema XDM verstrekt.
+Tot slot wilt u nu om het even welke specifieke gegevenselementen aan het schema in kaart brengen u vroeger bepaalde. U definieert een ander gegevenselement dat een representatie van uw XDM-schema biedt.
 
 Een XDM-objectelement definiëren:
 
@@ -341,7 +341,7 @@ Een XDM-objectelement definiëren:
 
 3. In de [!UICONTROL Create Data Element] dialoogvenster:
 
-   - Geef uw gegevenselement een naam, bijvoorbeeld `XDM - Page View`.
+   - Geef uw gegevenselement bijvoorbeeld een naam `XDM - Page View`.
 
    - Selecteren **[!UICONTROL Adobe Experience Platform Web SDK]** van de [!UICONTROL Extension] lijst.
 
@@ -351,7 +351,7 @@ Een XDM-objectelement definiëren:
 
    - Selecteer uw schema in het menu [!UICONTROL Schema] lijst.
 
-   - Wijs de `identification > core > ecid` -kenmerk, gedefinieerd in uw schema, aan het ECID-gegevenselement. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen uit de lijst met gegevenselementen.
+   - Wijs de `identification > core > ecid` -kenmerk, gedefinieerd in uw schema, aan het ECID-gegevenselement. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen in de lijst met gegevenselementen.
 
       ![ECID-gegevenselement kiezen](./assets/pick-ecid-dataelement.png)
 
@@ -367,7 +367,7 @@ Een XDM-objectelement definiëren:
 
 #### **Regels**
 
-Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een XDM-object) naar Adobe-Experience Platform te verzenden met de Adobe Experience Platform Web SDK-extensie.
+Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een voorwerp XDM) naar Adobe Experience Platform te verzenden gebruikend de uitbreiding van SDK van het Web van Adobe Experience Platform.
 
 Een regel definiëren:
 
@@ -417,7 +417,7 @@ Een regel definiëren:
 
 Dit is slechts een voorbeeld van het definiëren van een regel die XDM-gegevens, die waarden uit andere gegevenselementen bevatten, naar Adobe Experience Platform verzendt.
 
-U kunt regels op verschillende manieren gebruiken in de tag om variabelen te manipuleren (waarbij u gebruikmaakt van de gegevenselementen).
+U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 
 Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) voor meer informatie .
 
@@ -431,7 +431,7 @@ Om uw markering te bouwen en te publiceren:
 
 2. Selecteren **[!UICONTROL Select a working library]**, gevolgd door **[!UICONTROL Add Library…]**.
 
-3. In de [!UICONTROL Create Libray] dialoogvenster:
+3. In de [!UICONTROL Create Library] dialoogvenster:
 
    - Geef de bibliotheek een naam.
 
@@ -449,7 +449,7 @@ Om uw markering te bouwen en te publiceren:
 
    ![Publiceren - Bibliotheek maken](./assets/build-library.png)
 
-Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die bij uw implementatie van de Adobe Experience Platform Web SDK horen.
+Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform Web SDK.
 
 Zie [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) voor meer informatie .
 
@@ -486,7 +486,7 @@ Valideer uw implementatie, verbeter het waar nodig, en zodra correct, stel het i
 
 ## Een verbinding instellen
 
-Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset en werkschema voortvloeien.
+Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset, en werkschema voortvloeien.
 
 Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Werkruimte vestigen.
 
@@ -500,11 +500,11 @@ Om uw verbinding tot stand te brengen:
 
    Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings].
 
-   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het [!UICONTROL Avergage number of daily events] lijst.
+   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het [!UICONTROL Average number of daily events] lijst.
 
    ![Verbindingsinstellingen](./assets/cja-connections-1.png)
 
-   Selecteren **[!UICONTROL Add datsets]**.
+   Selecteren **[!UICONTROL Add datasets]**.
 
    In de [!UICONTROL Select datasets] stap in [!UICONTROL Add datasets]:
 
@@ -519,7 +519,7 @@ Om uw verbinding tot stand te brengen:
 
       - Selecteer een [!UICONTROL Person ID] uit de beschikbare identiteiten die zijn gedefinieerd in de gegevenssetschema&#39;s in Adobe Experience Platform.
 
-      - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** voeg dan een beschrijving voor uw gegevensbron toe.
+      - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
@@ -552,7 +552,7 @@ Uw gegevensweergave maken:
 
 4. In de [!UICONTROL Components] stap:
 
-   Voeg een schemaveld en/of standaardcomponent die u wilt opnemen toe aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] deelvakken.
+   Voeg schemagebieden en/of standaardcomponent toe die u aan wilt omvatten [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] deelvakken.
 
    ![Componenten van gegevensweergave](./assets/cja-dataview-2.png)
 
@@ -569,7 +569,7 @@ Zie [Overzicht van gegevensweergaven](../data-views/data-views.md) voor meer inf
 
 ## Een project instellen
 
-Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen op basis van uw gegevens. U gebruikt de projecten van de Werkruimte om gegevenscomponenten, lijsten en visualisaties te combineren om uw analyse en aandeel met iedereen in uw organisatie te bundelen.
+Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen op basis van uw gegevens. U gebruikt de projecten van de Werkruimte om gegevenscomponenten, lijsten, en visualisaties te combineren om uw analyse te bundelen en met iedereen in uw organisatie te delen.
 
 Uw project maken:
 
@@ -589,12 +589,12 @@ Uw project maken:
 
    ![Werkruimte selecteren, gegevensweergave](./assets/cja-projects-3.png).
 
-5. Begin met slepen en zet afmetingen en metriek neer op het [!UICONTROL Freeform table] in de [!UICONTROL Panel] om uw eerste rapport te maken. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van de profielen die uw website hebben bezocht en die ook deel uitmaken van het loyaliteitsprogramma voor het verzamelen van loyaliteitspunten.
+5. Begin met slepen en zet afmetingen en metriek neer op het [!UICONTROL Freeform table] in de [!UICONTROL Panel] om uw eerste rapport te maken. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
    ![Werkruimte - Eerste rapport](./assets/cja-projects-5.png)
 
-Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisatie en panelen.
+Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw website en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om gebruik te maken van uw website die gegevens en andere gegevens bijhoudt. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
+>U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw website en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw website-volggegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
