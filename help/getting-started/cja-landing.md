@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
+source-git-commit: 316f53c99053023fa54e0890fe9cf5f6c9cfcb4d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,7 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html#cja-connections"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=en">Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
@@ -33,7 +34,6 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> CJA-gebruikershandleiding voor Adobe Analytics-gebruikers </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> De verbeterde mogelijkheden voor verbindingsbeheer gebruiken </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html#cja-dataviews"> De verbeterde mogelijkheden voor gegevensweergaven gebruiken </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#cja-connections"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics) </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>Aan de slag</b> </p> 
       <ul> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Aan de slag met Customer Journey Analytics </a> </li> 
