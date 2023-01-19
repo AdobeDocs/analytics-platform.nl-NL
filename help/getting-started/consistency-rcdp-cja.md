@@ -4,9 +4,9 @@ title: Consistentie van metriek en het tellen van het publieksenlidmaatschap tus
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 769eef205df32865874753859ce79e573db40641
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wanneer het vergelijken van het aantal van het publiekslidmaatschap tussen CDP i
 
 CDP en CJA in realtime hebben vandaag niet dezelfde definitie van een persoon. Real-time CDP vertrouwt volledig op de informatie in [Identiteitsgrafiek](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) om een samengevoegd profiel te maken.
 
-CJA kan worden geconfigureerd voor gebruik [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
+CJA kan worden geconfigureerd voor gebruik [Kanaaloverschrijdende analyse](/help/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
 
 In de toekomst zal CJA de Grafiek van de Identiteit kunnen gebruiken.
 

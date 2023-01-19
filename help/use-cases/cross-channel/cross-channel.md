@@ -4,7 +4,7 @@ description: Analyseer en extraheer inzichten van klanteninteractie over de klan
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanale
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
 1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html).
-1. Een gemeenschappelijke naamruimte-id gebruiken in verschillende gegevenssets of gebruiken [Kanaaloverschrijdende analyse](/help/connections/cca/overview.md) om mensen aan elkaar te koppelen. Merk op dat Customer Journey Analytics momenteel niet de diensten van het Profiel van het Experience Platform of van de Identiteit voor het stitching gebruikt.
+1. Een gemeenschappelijke naamruimte-id gebruiken in verschillende gegevenssets of gebruiken [Kanaaloverschrijdende analyse](/help/cca/overview.md) om mensen aan elkaar te koppelen. Merk op dat Customer Journey Analytics momenteel niet de diensten van het Profiel van het Experience Platform of van de Identiteit voor het stitching gebruikt.
 1. Voer om het even welke voorbereiding van douanegegevens uit om een gemeenschappelijke sleutel over tijdreeksdatasets te verzekeren die in Customer Journey Analytics moeten worden opgenomen.
 1. Opzoekgegevens een primaire id geven die kan worden gekoppeld aan een veld in de gebeurtenisgegevens. Telt als rijen in licentie.
 1. Stel dezelfde primaire id voor profielgegevens in als de primaire id van de gebeurtenisgegevens.

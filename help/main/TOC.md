@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
+source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '860'
 ht-degree: 28%
 
 ---
@@ -61,10 +61,7 @@ ht-degree: 28%
    + [Verbindingen beheren](../connections/manage-connections.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](../connections/combined-dataset.md)
    + [Standaardzoekopdrachten](../connections/standard-lookups.md)
-   + Kanaaloverschrijdende analyse {#cca}
-      + [Overzicht van kanaalanalyse](../connections/cca/overview.md)
-      + [Hoe herspeelt u](../connections/cca/replay.md)
-      + [Veelgestelde vragen over kanaalanalyse](../connections/cca/faq.md)
+   + [Kanaaloverschrijdende analyse](../connections/cca.md)
 + Gegevens {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
@@ -177,18 +174,6 @@ ht-degree: 28%
       + [Beheervereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Lange staart in Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
-+ Report Builder {#cja-reportbuilder}
-   + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
-   + [Report Builder instellen](../report-builder/report-builder-setup.md)
-   + [Een gegevensblok maken](../report-builder/create-a-data-block.md)
-   + [Report Builder Hub](../report-builder/report-builder-hub.md)
-   + [Een datumbereik selecteren](../report-builder/select-date-range.md)
-   + [Werken met filters](../report-builder/work-with-filters.md)
-   + [Dimension filteren](../report-builder/filter-dimensions.md)
-   + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
-   + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
-   + [Beperkte labels](../report-builder/restricted-labels.md)
-   + [Report Builder-instellingen](../report-builder/report-builder-settings.md)
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](../components/overview.md)
    + Annotaties {#annotations}
@@ -246,11 +231,31 @@ ht-degree: 28%
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
++ Report Builder {#cja-reportbuilder}
+   + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
+   + [Report Builder instellen](../report-builder/report-builder-setup.md)
+   + [Een gegevensblok maken](../report-builder/create-a-data-block.md)
+   + [Report Builder Hub](../report-builder/report-builder-hub.md)
+   + [Een datumbereik selecteren](../report-builder/select-date-range.md)
+   + [Werken met filters](../report-builder/work-with-filters.md)
+   + [Dimension filteren](../report-builder/filter-dimensions.md)
+   + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
+   + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
+   + [Beperkte labels](../report-builder/restricted-labels.md)
+   + [Report Builder-instellingen](../report-builder/report-builder-settings.md)
++ Kanaaloverschrijdende analyse {#cca}
+   + [Overzicht van kanaalanalyse](../cca/overview.md)
+   + [Hoe herspeelt u](../cca/replay.md)
+   + [Veelgestelde vragen over kanaalanalyse](../cca/faq.md)
 + Adobe-integratie {#integrations}
    + [Adobe-oplossingen integreren met CJA-overzicht](/help/integrations/overview.md)
    + [Adobe Analytics met Customer Journey Analytics integreren](/help/integrations/aa.md)
    + [Journey Optimizer-gegevens integreren met CJA](/help/integrations/ajo.md)
    + [AI-gegevens van klanten integreren met CJA](/help/integrations/customer-ai.md)
++ Data Governance {#cja-privacy}
+   + [Data Governance](../privacy/privacy-overview.md)
+   + [Controlelogboek](../privacy/audit-log.md)
+   + [Door de klant beheerde toetsen](../privacy/cmk.md)
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](../use-cases/cja-usecases.md)
    + Google Analytics {#ga}
@@ -277,8 +282,4 @@ ht-degree: 28%
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met CJA-gegevens](../troubleshooting/compare.md)
-+ Data Governance {#cja-privacy}
-   + [Data Governance](../privacy/privacy-overview.md)
-   + [Controlelogboek](../privacy/audit-log.md)
-   + [Door de klant beheerde toetsen](../privacy/cmk.md)
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)

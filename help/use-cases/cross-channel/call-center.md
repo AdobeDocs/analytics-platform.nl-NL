@@ -4,7 +4,7 @@ description: Leer hoe te om een dataset tot stand te brengen die de gegevens van
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Als u gegevens importeert in Platform, kunt u met deze tips meer inzicht krijgen
 CJA vereist een gemeenschappelijke id om een [gecombineerde gegevensset](/help/connections/combined-dataset.md).
 
 * Als uw datasets reeds een gemeenschappelijke herkenningsteken op elke gebeurtenis over beide datasets hebben, kunt u deze stap overslaan en te werk gaan om een verbinding tot stand te brengen.
-* Als één van uw datasets een gemeenschappelijke herkenningsteken op slechts sommige gebeurtenissen heeft, kunt u gegevens verbinden gebruikend Analytics over het Kanaal. Zie [Overzicht van kanaalanalyse](/help/connections/cca/overview.md) voor stappen om CCA voor deze twee datasets toe te laten.
+* Als één van uw datasets een gemeenschappelijke herkenningsteken op slechts sommige gebeurtenissen heeft, kunt u gegevens verbinden gebruikend Analytics over het Kanaal. Zie [Overzicht van kanaalanalyse](/help/cca/overview.md) voor stappen om CCA voor deze twee datasets toe te laten.
 
 ## Verbinding maken in CJA
 
