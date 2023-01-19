@@ -4,7 +4,7 @@ description: Uitleggen hoe gegevens uit traditionele Adobe Analytics kunnen word
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -125,7 +125,7 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
-      ![Gegevenssets configureren](./assets/cja-connections-3.png)
+      ![Gegevenssets configureren](./assets/cja-connections-3a.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
    Selecteren **[!UICONTROL Save]**.
