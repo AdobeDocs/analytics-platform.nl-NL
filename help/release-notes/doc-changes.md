@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4488c87604db363ca4ddb0954216b195990c8bb1
+source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1215'
 ht-degree: 8%
 
 ---
@@ -23,6 +23,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
 | Automatisch opslaan voor projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| Openingspagina | Nieuwe updates van bestemmingspagina [landingspagina](/help/getting-started/landing.md). |
+| Workbooks plannen | Speciale pagina om te beschrijven hoe [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 
 ## 2022
 
