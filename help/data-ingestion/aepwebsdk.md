@@ -4,7 +4,7 @@ description: Verklaar hoe te om gegevens in Customer Journey Analytics via het W
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
+source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
 workflow-type: tm+mt
 source-wordcount: '3273'
 ht-degree: 0%
@@ -467,7 +467,7 @@ De code ophalen die naar de tag verwijst:
    In de [!UICONTROL Web Install Instructions] selecteert u de knop Kopiëren naast de scriptcode die als volgt moet worden gelezen:
 
    ```javascript
-   <script src="https://assets.adobedtm.com/2a518741ab24/806645a0b9bb/launch-716db315b4e2-development.min.js" async></script>
+   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>
    ```
 
    ![Omgeving](./assets/environment.png)

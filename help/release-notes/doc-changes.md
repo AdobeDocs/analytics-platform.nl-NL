@@ -4,10 +4,10 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
+source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 8%
+source-wordcount: '1230'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2023** |  |
+| Hulplijnen voor snel starten | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in CJA. |
 | Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
 | Automatisch opslaan voor projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
