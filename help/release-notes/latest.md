@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7ed39a9280e1e4e517b804727e1f082dc27185af
+source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '557'
 ht-degree: 6%
 
 ---
 
 # Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (januari 2023)
 
-**Laatste update**: 13 januari 2023
+**Laatste update**: 23 januari 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,6 +20,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gemaakt, [Adobe leidt tot een Experience Platform het stromen segment voor elke nieuwe Auditie CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). | N.v.t. | 23 januari 2023 |
 | **Mappen in werkruimte** | De omslagen helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast wordt een gedeelde **[!UICONTROL Company]** Met deze map kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N.v.t. | 11 januari 2023 |
 | **Standaardlandingspagina** | De [nieuwe bestemmingspagina](/help/getting-started/landing.md) die eerder in 2022 is geïntroduceerd, wordt de standaardervaring voor alle gebruikers op **11 januari 2023**. De verouderde landingspagina wordt vervangen en iedereen moet de nieuwe ervaring gebruiken. | N.v.t. | 11 januari 2023 |
 | **Pagina Projectbeheer is vervangen** | Met de release van de nieuwe bestemmingspagina hebben we de **[!UICONTROL Project Manager]** als vermeld onder **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]**. De nieuwe het landen pagina heeft alle functionaliteit van de oude pagina van de Manager van het Project en meer. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N.v.t. | 11 januari 2023 |

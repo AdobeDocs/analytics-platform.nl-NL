@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
+source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1260'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2023** |  |
+| Bijwerken naar CJA-publiek doc | Nieuwe documentatie over [wat gebeurt er na het creëren van een nieuw publiek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Snelstarthulplijnen voor gegevensinvoer | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in CJA. |
 | Werkruimtemappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Gebruikersvoorkeuren voor werkruimte | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
