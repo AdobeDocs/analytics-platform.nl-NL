@@ -1,13 +1,13 @@
 ---
 title: Controlelogboeken
 description: Leer om CJA- controlelogboeken te bekijken en te beheren.
-source-git-commit: 37a23a4669c08c8f7d9c6595286998ebd7e60ac4
+exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
+source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '819'
 ht-degree: 3%
 
 ---
-
 
 # Controlelogboeken
 
@@ -46,7 +46,7 @@ De volgende items worden weergegeven:
 | Naam van handeling | Hier volgt een lijst met mogelijke acties: <ul><li>API_Request</li><li>Goedkeuren</li><li>Maken</li><li>Bewerken</li><li>Exporteren</li><li>Aanmelden_mislukt</li><li>Aanmelden_geslaagd</li><li>Afmelden</li><li>Org_change</li><li>Vernieuwen</li><li>Delen</li><li>Overdracht</li><li>Niet goedkeuren</li><li>Delen opheffen</li></ul> |
 | Beschrijving | Een overzicht van de handeling, het componenttype (met id) en andere waarden. |
 | Gebruikersnaam | De gebruiker die de actie uitvoert. |
-| Componenttype | Mogelijke componenttypen zijn: <ul><li>Aantekening</li><li>Audience</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Gegevens_weergave</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobile</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
+| Componenttype | Mogelijke componenttypen zijn: <ul><li>Aantekening</li><li>Audience</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Data_View (dit componenttype omvat afmetingen en metriek)</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobile</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
 | IMS Org ID | Een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg. |
 | Gebruikers-id | Een unieke id die de gebruiker identificeert die deze handeling heeft uitgevoerd. |
 | Gemaakt op | Wanneer deze actie is uitgevoerd. |
@@ -70,7 +70,7 @@ De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 | [!UICONTROL User ID] | Filter op een specifieke gebruiker op basis van de gebruikersnaam. U kunt de gebruikersnaam vinden door de knop info (i) naast een gebruikersnaam te selecteren. |
 | [!UICONTROL Email] | Filter op het e-mailadres van een specifieke gebruiker. U kunt het e-mailbericht vinden door op de knop Info (i) naast een gebruikersnaam te klikken. |
 | [!UICONTROL Component ID] | Filter op een specifieke component-id. De gebruikers-id kunt u vinden door de knop info (i) voor een gewenste component te selecteren. |
-| [!UICONTROL Component Type] | Filter op een of meer componenttypen: <ul><li>Aantekening</li><li>Publiek</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Gegevens_weergave</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobiel</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
+| [!UICONTROL Component Type] | Filter op een of meer componenttypen: <ul><li>Aantekening</li><li>Audience</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Gegevens_weergave</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobile</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
