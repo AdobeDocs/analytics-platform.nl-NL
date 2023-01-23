@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1235'
 ht-degree: 7%
 
 ---
@@ -20,14 +20,14 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2023** |  |
-| Hulplijnen voor snel starten | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in CJA. |
-| Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
-| Automatisch opslaan voor projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| Snelstarthulplijnen voor gegevensinvoer | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in CJA. |
+| Werkruimtemappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Gebruikersvoorkeuren voor werkruimte | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
+| Automatisch opslaan voor werkruimteprojecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Openingspagina | Nieuwe updates van bestemmingspagina [landingspagina](/help/getting-started/landing.md). |
 | Workbooks plannen | Speciale pagina om te beschrijven hoe [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 
-## 2022
+## 2022 {#22}
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
@@ -85,7 +85,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021
+## 2021 {#21}
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
@@ -126,7 +126,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2020
+## 2020 {#20}
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |

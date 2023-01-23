@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 06e27fc2ecc2b54e30616bc69b44550af20af76f
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,16 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd. Het duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt. (Zelfs voor het publiek met miljoenen leden moet het minder dan 5 minuten duren.)
 
 1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
+
+## Wat gebeurt er na het maken van een publiek {#after-audience-created}
+
+Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA dat wordt gecreeerd.
+
+* Het AEP-segment heeft dezelfde naam/beschrijving als de CJA Audience, maar de naam wordt met de CJA Audience ID toegevoegd om ervoor te zorgen dat deze uniek is.
+
+* Als de naam/beschrijving van het publiek CJA verandert, geeft de naam/beschrijving van het AEP-segment ook die wijziging weer.
+
+* Als een CJA-publiek wordt verwijderd door een gebruiker, wordt het AEP-segment NIET verwijderd, voor het geval dat het CJA-publiek later wordt verwijderd.
 
 ## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 
