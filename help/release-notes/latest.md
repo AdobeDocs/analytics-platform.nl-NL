@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '547'
 ht-degree: 6%
 
 ---
@@ -26,6 +26,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Werkboeken plannen in Report Builder** | In Customer Journey Analytics, kunt u programma&#39;s tot stand brengen om werkboeken met regelmatige intervallen te verzenden. Ontvangers kunnen nu regelmatig de nieuwste updates van uw werkboeken ontvangen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N.v.t. | 11 januari 2023 |
 | **Nieuwe projecten automatisch opslaan** | Analysis Workspace slaat nu automatisch nieuwe projecten op. Als om het even welke reden u onverwacht toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, is een terugwinningsversie van uw project nu beschikbaar. Eerder werden projecten pas automatisch opgeslagen nadat ze eerst handmatig waren opgeslagen. [Meer informatie](/help/analysis-workspace/build-workspace-project/save-projects.md) | N.v.t. | 11 januari 2023 |
 | **Verbeterde gebruikersvoorkeuren** | U kunt nu aanvullende voorkeuren op gebruikersniveau configureren (in [!UICONTROL Components] > [!UICONTROL Preferences]). Wanneer u gebruikersvoorkeur plaatst, overspannen uw selecties zich over uw projecten, lijsten, en visualisaties. De pagina Voorkeuren bevat nu de volgende nieuwe tabbladen, die elk een groot aantal nieuwe configuratieopties bevatten:<ul><li>Vrije-vormentabel</li><li>Visualisaties>/li></ul>. Bovendien zijn er nu meer voorkeuren beschikbaar op de **[!UICONTROL General]** en **[!UICONTROL Project]** tabs.<p>Eerder, waren veel van deze voorkeur configureerbaar slechts voor individuele projecten, lijsten, en visualisaties. [Meer informatie](/help/analysis-workspace/user-preferences.md) | N.v.t. | 11 januari 2023 |
+| **Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets** | De datasets van het profiel en de raadplegingsdatasets steunen nu objecten series voor gebruik in CJA. | N.v.t. | 11 januari 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 

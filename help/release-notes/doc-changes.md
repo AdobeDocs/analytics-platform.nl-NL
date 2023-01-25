@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1262'
 ht-degree: 7%
 
 ---
@@ -26,6 +26,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Automatisch opslaan voor werkruimteprojecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Openingspagina | Nieuwe updates van bestemmingspagina [landingspagina](/help/getting-started/landing.md). |
 | Workbooks plannen | Speciale pagina om te beschrijven hoe [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
+| Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets | Bijgewerkt [Arrays van objecten gebruiken](/help/use-cases/object-arrays.md) en [Ingest AEP-publiek](/help/use-cases/data-ingestion/ingest-aep-segments.md) om de steun van de objecten serie voor profiel en raadplegingsdatasets te weerspiegelen. |
 
 ## 2022 {#22}
 
