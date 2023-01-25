@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
+source-git-commit: ddba0cdee1956048ba1875b49e8f2b77085c46da
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (januari 2023)
 
-**Laatste update**: 13 januari 2023
+**Laatste update**: 24 januari 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,13 +20,13 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets** | De datasets van het profiel en de raadplegingsdatasets steunen nu objecten series voor gebruik in CJA. | 11 januari 2023 | 19 januari 2023 |
 | **Mappen in werkruimte** | De omslagen helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast wordt een gedeelde **[!UICONTROL Company]** Met deze map kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N.v.t. | 11 januari 2023 |
 | **Standaardlandingspagina** | De [nieuwe bestemmingspagina](/help/getting-started/landing.md) die eerder in 2022 is geïntroduceerd, wordt de standaardervaring voor alle gebruikers op **11 januari 2023**. De verouderde landingspagina wordt vervangen en iedereen moet de nieuwe ervaring gebruiken. | N.v.t. | 11 januari 2023 |
 | **Pagina Projectbeheer is vervangen** | Met de release van de nieuwe bestemmingspagina hebben we de **[!UICONTROL Project Manager]** als vermeld onder **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]**. De nieuwe het landen pagina heeft alle functionaliteit van de oude pagina van de Manager van het Project en meer. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N.v.t. | 11 januari 2023 |
 | **Werkboeken plannen in Report Builder** | In Customer Journey Analytics, kunt u programma&#39;s tot stand brengen om werkboeken met regelmatige intervallen te verzenden. Ontvangers kunnen nu regelmatig de nieuwste updates van uw werkboeken ontvangen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N.v.t. | 11 januari 2023 |
 | **Nieuwe projecten automatisch opslaan** | Analysis Workspace slaat nu automatisch nieuwe projecten op. Als om het even welke reden u onverwacht toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, is een terugwinningsversie van uw project nu beschikbaar. Eerder werden projecten pas automatisch opgeslagen nadat ze eerst handmatig waren opgeslagen. [Meer informatie](/help/analysis-workspace/build-workspace-project/save-projects.md) | N.v.t. | 11 januari 2023 |
 | **Verbeterde gebruikersvoorkeuren** | U kunt nu aanvullende voorkeuren op gebruikersniveau configureren (in [!UICONTROL Components] > [!UICONTROL Preferences]). Wanneer u gebruikersvoorkeur plaatst, overspannen uw selecties zich over uw projecten, lijsten, en visualisaties. De pagina Voorkeuren bevat nu de volgende nieuwe tabbladen, die elk een groot aantal nieuwe configuratieopties bevatten:<ul><li>Vrije-vormentabel</li><li>Visualisaties>/li></ul>. Bovendien zijn er nu meer voorkeuren beschikbaar op de **[!UICONTROL General]** en **[!UICONTROL Project]** tabs.<p>Eerder, waren veel van deze voorkeur configureerbaar slechts voor individuele projecten, lijsten, en visualisaties. [Meer informatie](/help/analysis-workspace/user-preferences.md) | N.v.t. | 11 januari 2023 |
-| **Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets** | De datasets van het profiel en de raadplegingsdatasets steunen nu objecten series voor gebruik in CJA. | N.v.t. | 11 januari 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
