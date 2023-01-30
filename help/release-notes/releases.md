@@ -2,9 +2,9 @@
 description: Verklaart de ononderbroken strategie van de eigenschapversie voor Customer Journey Analytics
 title: Customer Journey Analytics-functiereleases
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
+source-git-commit: 40f145d20125c41f3399ab0690a673f01c1817e3
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,9 @@ De versies van Customer Journey Analytics werken op een ononderbroken leveringsm
 
 [!UICONTROL Analysis Workspace] maakt gebruik van functiemarkeringen (ook wel &#39;&#39;schakelingen&#39;&#39; genoemd) om de zichtbaarheid van nieuwe functies te bepalen, zodat tests op gecontroleerde schaal vóór volledige release mogelijk zijn. Deze releasestrategie omvat de volgende fasen:
 
-* **Begin van rollout**: De introductie van een gefaseerde release begint met beperkte tests door interne Adobe-gebruikers. De release wordt vervolgens in de loop van een paar maanden geschaald van 0% naar 100% beschikbaarheid voor klanten. De gefaseerde uitrol gebeurt op het niveau van de Organisatie van de Experience Cloud, zodat ontvangen alle gemachtigde gebruikers in een organisatie de zelfde ervaring.
+* **Beperkte tests**: Een gefaseerde versie begint met het testen door interne gebruikers van Adobe. Het wordt dan ter beschikking gesteld aan een kleine groep klantenrekeningen om ervoor te zorgen dat de eigenschap aan klantenbehoeften en verwachtingen voldoet.
+
+* **Begin van rollout**: De introductie van een gefaseerde release begint met de beperkte testfase. De release wordt vervolgens in de loop van een paar maanden geschaald van 0% naar 100% beschikbaarheid voor klanten. De gefaseerde uitrol gebeurt op het niveau van de Organisatie van de Experience Cloud, zodat ontvangen alle gemachtigde gebruikers in een organisatie de zelfde ervaring.
 
 * **Algemene beschikbaarheid (GA)**: De functie is beschikbaar voor 100% van de organisaties met bevoegdheid voor Experience Cloud en de release met functies is voltooid.
 
