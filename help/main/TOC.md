@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics Guide
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
+source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 28%
@@ -104,7 +104,7 @@ ht-degree: 28%
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rij-instellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Pagineren, filteren en tabellen sorteren](../analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Pagineren, filteren en tabellen sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Workspace-totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
