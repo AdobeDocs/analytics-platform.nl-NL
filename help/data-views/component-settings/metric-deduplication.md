@@ -4,9 +4,9 @@ description: Telling slechts het eerste voorkomen van metrisch in rapporten.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: e2ebda486eae7740351370f48bdf104c90494ae3
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '146'
 ht-degree: 1%
 
 ---
@@ -22,3 +22,7 @@ Met Metrische deduplicatie kunt u een metrische waarde configureren, zodat waard
 | [!UICONTROL Deduplication ID] | In plaats van deduplicatie toe te passen op metrisch zelf, staat u toe om metrische deduplicatie toe te passen die op een afmeting wordt gebaseerd. Waardevol voor dimensies zoals de aankoop-id om deduplicatie toe te passen. |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!CAUTION]
+>
+>   Deduplicatie op een _persoon_ bereik wordt geëvalueerd met volledige maanden UTC-tijd. Een rapportagevenster voor een gedeeltelijke maand geeft mogelijk niet alle eerste of laatste exemplaren weer, als sommige gevallen zich binnen de volledige maand maar buiten de rapportagedatums hebben voorgedaan.
