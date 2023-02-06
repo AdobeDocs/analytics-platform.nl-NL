@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ddba0cdee1956048ba1875b49e8f2b77085c46da
+source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 7%
 
 ---
 
 # Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (januari 2023)
 
-**Laatste update**: 24 januari 2023
+**Laatste update**: 6 februari 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,6 +20,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gemaakt, [Adobe leidt tot een Experience Platform het stromen segment voor elke nieuwe Auditie CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). Een AEP-streaming segment wordt alleen gemaakt als de organisatie is ingesteld op streamingsegmentatie. | N.v.t. | 3 februari 2023 |
 | **Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets** | De datasets van het profiel en de raadplegingsdatasets steunen nu objecten series voor gebruik in CJA. | 11 januari 2023 | 19 januari 2023 |
 | **Mappen in werkruimte** | De omslagen helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast wordt een gedeelde **[!UICONTROL Company]** Met deze map kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N.v.t. | 11 januari 2023 |
 | **Standaardlandingspagina** | De [nieuwe bestemmingspagina](/help/getting-started/landing.md) die eerder in 2022 is geïntroduceerd, wordt de standaardervaring voor alle gebruikers op **11 januari 2023**. De verouderde landingspagina wordt vervangen en iedereen moet de nieuwe ervaring gebruiken. | N.v.t. | 11 januari 2023 |
@@ -51,6 +52,6 @@ AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
 
 * [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 
-* [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
+* [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl)
 
 * [Customer Journey Analytics-documentupdates](/help/release-notes/doc-changes.md)
