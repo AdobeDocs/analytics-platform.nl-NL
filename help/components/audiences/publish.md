@@ -2,7 +2,7 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e14881682f79633313258382c0baae951ef7f43b
+source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -72,9 +72,9 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
-## Wat gebeurt er na het maken van een publiek {#after-audience-created}
+## Wat gebeurt er nadat een publiek is gemaakt? {#after-audience-created}
 
-Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Een AEP-streaming segment wordt alleen gemaakt als de organisatie is ingesteld op streamingsegmentatie.
+Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Een AEP-streaming segment wordt alleen gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
 
 * Het AEP-segment heeft dezelfde naam/beschrijving als het CJA-publiek, maar de naam wordt met de CJA-gebruikers-id toegevoegd om ervoor te zorgen dat deze uniek is.
 * Als de naam/beschrijving van het CJA-publiek verandert, geeft de naam/beschrijving van het AEP-segment ook die wijziging weer.

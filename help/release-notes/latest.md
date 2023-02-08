@@ -3,14 +3,14 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
+source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 7%
+source-wordcount: '416'
+ht-degree: 8%
 
 ---
 
-# Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (januari 2023)
+# Opmerkingen bij de release Current Customer Journey Analytics (CJA) (februari 2023)
 
 **Laatste update**: 6 februari 2023
 
@@ -20,38 +20,29 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gemaakt, [Adobe leidt tot een Experience Platform het stromen segment voor elke nieuwe Auditie CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). Een AEP-streaming segment wordt alleen gemaakt als de organisatie is ingesteld op streamingsegmentatie. | N.v.t. | 3 februari 2023 |
-| **Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets** | De datasets van het profiel en de raadplegingsdatasets steunen nu objecten series voor gebruik in CJA. | 11 januari 2023 | 19 januari 2023 |
-| **Mappen in werkruimte** | De omslagen helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast wordt een gedeelde **[!UICONTROL Company]** Met deze map kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N.v.t. | 11 januari 2023 |
-| **Standaardlandingspagina** | De [nieuwe bestemmingspagina](/help/getting-started/landing.md) die eerder in 2022 is geïntroduceerd, wordt de standaardervaring voor alle gebruikers op **11 januari 2023**. De verouderde landingspagina wordt vervangen en iedereen moet de nieuwe ervaring gebruiken. | N.v.t. | 11 januari 2023 |
-| **Pagina Projectbeheer is vervangen** | Met de release van de nieuwe bestemmingspagina hebben we de **[!UICONTROL Project Manager]** als vermeld onder **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]**. De nieuwe het landen pagina heeft alle functionaliteit van de oude pagina van de Manager van het Project en meer. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N.v.t. | 11 januari 2023 |
-| **Werkboeken plannen in Report Builder** | In Customer Journey Analytics, kunt u programma&#39;s tot stand brengen om werkboeken met regelmatige intervallen te verzenden. Ontvangers kunnen nu regelmatig de nieuwste updates van uw werkboeken ontvangen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N.v.t. | 11 januari 2023 |
-| **Nieuwe projecten automatisch opslaan** | Analysis Workspace slaat nu automatisch nieuwe projecten op. Als om het even welke reden u onverwacht toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, is een terugwinningsversie van uw project nu beschikbaar. Eerder werden projecten pas automatisch opgeslagen nadat ze eerst handmatig waren opgeslagen. [Meer informatie](/help/analysis-workspace/build-workspace-project/save-projects.md) | N.v.t. | 11 januari 2023 |
-| **Verbeterde gebruikersvoorkeuren** | U kunt nu aanvullende voorkeuren op gebruikersniveau configureren (in [!UICONTROL Components] > [!UICONTROL Preferences]). Wanneer u gebruikersvoorkeur plaatst, overspannen uw selecties zich over uw projecten, lijsten, en visualisaties. De pagina Voorkeuren bevat nu de volgende nieuwe tabbladen, die elk een groot aantal nieuwe configuratieopties bevatten:<ul><li>Vrije-vormentabel</li><li>Visualisaties>/li></ul>. Bovendien zijn er nu meer voorkeuren beschikbaar op de **[!UICONTROL General]** en **[!UICONTROL Project]** tabs.<p>Eerder, waren veel van deze voorkeur configureerbaar slechts voor individuele projecten, lijsten, en visualisaties. [Meer informatie](/help/analysis-workspace/user-preferences.md) | N.v.t. | 11 januari 2023 |
+| **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Er wordt alleen een streaming segment gemaakt als uw organisatie is ingesteld op streamingsegmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | N.v.t. | 3 februari 2023 |
+| **Vergelijk datumbereiken in Mobile Scorecards verbergen** | Met Mobile Scorecards kunt u nu vergelijkingsdatumbereiken verbergen. | N.v.t. | 8 februari 2023 |
+| **Agenda-updates in werkruimte** | <ul><li>Datums deelvenster Anker: U kunt de componenten van het datumbereik relatief maken ten opzichte van de deelvensterkalender. [Meer informatie](/help/components/date-ranges/calendar.md)</li><li>Updates voor kalenderstijlen: De kalenderstijlen door UI zijn bevorderd om een consistentere en gebruiksvriendelijker werkschema voor te stellen.</li><li>Updates van de kalenderformule: Als u relatieve datums gebruikt, wordt in alle kalenderformules het begin van het datumbereik van het deelvenster weergegeven. [Meer informatie](/help/components/date-ranges/calendar.md)</li></ul> | N.v.t. | 8 februari 2023 |
+| **Rij-/kolomfiltering voor streaming Adobe Analytics Source Connector** | Met de Bronverbinding Analytics in Adobe Experience Platform kunt u nu analysegegevens filteren die worden gebruikt om profielen te vullen in [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en).<p>Filteren op rijniveau helpt het aantal gebeurtenissen dat aan profielen is gekoppeld, te verminderen. Filteren op kolomniveau helpt de rijkheid van de gebeurtenissen zelf te verminderen, zodat u het gebruik van profielrechten kunt optimaliseren. Deze filtering is alleen van toepassing op gegevens die naar het realtime-klantprofiel worden verzonden en [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en).<p>**Filteren heeft geen invloed op de gegevens die naar het Data Lake worden verzonden voor gebruik in toepassingen zoals Customer Journey Analytics**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N.v.t. | 22 februari 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Oplossingen
+## Oplossingen in Customer Journey Analytics
 
-AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
+AN-309106
 
 ## Belangrijke kennisgevingen voor CJA-beheerders
 
 | Bericht | Bericht toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **Verbeterde IP-naar-geolocatietoewijzing** | 29 september 2022 | Digitaal verkoper voor IP raadplegingen, Element, bevordert aan een nieuwe betere dataset (de Pulse van de NetAcuity) voor IP-aan-geolocatietoewijzing. Adobe Analytics heeft de goedkeuring van deze nieuwe gegevensset uitgesteld tot **11 januari 2023**. De nieuwe database is nauwkeuriger dan vorige versies. Sommige IP-aan-geo afbeeldingen zullen veranderen/verbeteren wanneer het nieuwe gegevensbestand wordt goedgekeurd.<p> CJA-gegevens verstrekt via [!UICONTROL Analytics Source Connector] zal ook automatisch voordeel van de nieuwe afbeeldingen halen. |
+| Geen huidige aankondigingen | N.v.t. | N.v.t. |
 
 {style=&quot;table-layout:auto&quot;}
 
-
 ## Gerelateerde bronnen
 
-* [Opmerkingen bij de vorige CJA-release voor 2022](/help/release-notes/2022.md)
-
+* [Opmerkingen bij de vorige CJA-release voor 2023](/help/release-notes/2023.md)
 * [Opmerkingen bij de release van Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=en)
-
 * [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-
 * [Releaseopmerkingen bij Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl)
-
 * [Customer Journey Analytics-documentupdates](/help/release-notes/doc-changes.md)

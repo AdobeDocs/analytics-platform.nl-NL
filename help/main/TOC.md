@@ -6,22 +6,23 @@ sub-product: customer journey
 solution: Customer Journey Analytics
 type: Documentation
 index: true
-user-guide-title: Customer Journey Analytics Guide
-user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
-breadcrumb-title: Customer Journey Analytics Guide
-source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
+user-guide-title: Handleiding voor Customer Journey Analytics
+user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
+breadcrumb-title: Handleiding voor Customer Journey Analytics
+source-git-commit: 97e648de4363eefd4375effad66d6cb17e3f2c2c
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 28%
+source-wordcount: '861'
+ht-degree: 32%
 
 ---
 
 
-# Customer Journey Analytics Guide {#using}
+# Handleiding voor Customer Journey Analytics {#using}
 
-+ [Customer Journey Analytics Guide](../getting-started/cja-landing.md)
++ [Handleiding voor Customer Journey Analytics](../getting-started/cja-landing.md)
 + Release-opmerkingen {#releases}
    + [Meest recente release](../release-notes/latest.md)
+   + [2023 releases](../release-notes/2023.md)
    + [2022 introducties](../release-notes/2022.md)
    + [Release 2021](../release-notes/2021.md)
    + [2020 introducties](../release-notes/2020.md)
@@ -47,7 +48,7 @@ ht-degree: 28%
       + [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Gevolgen van verwijdering](../getting-started/cja-deletion.md)
    + [Verklarende woordenlijst](../getting-started/cja-glossary.md)
-+ Gegevensinname {#cja-data-ingestion}
++ Gegevensopname {#cja-data-ingestion}
    + [Overzicht van gegevensinname](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
