@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
+source-git-commit: bacf1568b0d39d20f948c087d616881b66d96ca2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,16 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 ![Nieuwe scorekaart5](assets/new_score_card5.png)
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
+
+### Vergelijkingsdatumbereiken tonen {#show-comparison-dates}
+
+Als u datumbereiken met elkaar wilt vergelijken, schakelt u het **Inclusief vergelijkingsdatums** instellen.
+
+![Inclusief vergelijkingsdatums](assets/include-comparison-dates.png)
+
+De instelling is *op* standaard. Schakel deze optie uit als u geen vergelijkingsdatums wilt weergeven.
+
+![Niet-geselecteerde vergelijkingsdatuminstelling](assets/no-comparison-dates.png)
 
 ## Visualisaties toepassen {#viz}
 
