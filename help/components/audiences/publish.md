@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
+source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,19 @@ Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het 
 * Het AEP-segment heeft dezelfde naam/beschrijving als het CJA-publiek, maar de naam wordt met de CJA-gebruikers-id toegevoegd om ervoor te zorgen dat deze uniek is.
 * Als de naam/beschrijving van het CJA-publiek verandert, geeft de naam/beschrijving van het AEP-segment ook die wijziging weer.
 * Als een CJA-publiek wordt verwijderd door een gebruiker, wordt het AEP-segment NIET verwijderd. De reden is dat het publiek CJA later kan worden verwijderd.
+
+## Latentieoverwegingen {#latency}
+
+Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
+
+![](assets/latency-diagram.png)
+
+| Latentiepunt | Latentieduur |
+| --- | --- |
+| Gegevensopname in Data Lake | Tot 30 minuten |
+| Gegevensopname van Experience Platform in CJA | Tot 60 minuten |
+| Publiceren van het publiek aan het Profiel van de Klant in real time | Minder dan 5 minuten (afhankelijk van de grootte van het publiek) |
+| Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
 
 ## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 
