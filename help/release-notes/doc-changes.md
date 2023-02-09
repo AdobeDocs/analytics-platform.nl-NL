@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
+source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1370'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,8 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | --- | --- |
 | **Februari 2023** |  |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gemaakt, maakt Adobe een Experience Platform [streaming segment voor elk nieuw CJA Audience](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
+| Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/mobile-app/create-scorecard.md#show-comparison-dates) in CJA. |
 | **Januari 2023** |  |
 | Tabellen filteren en sorteren | Bijgewerkte inhoud (inclusief het toevoegen van procedures en het uitleggen van beschikbare opties) in de [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artikel. De naam van dit artikel is gewijzigd in &quot;Paginering, filteren en sorteren van tabellen&quot;. |
 | Snelstarthulplijnen voor gegevensinvoer | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in CJA. |
