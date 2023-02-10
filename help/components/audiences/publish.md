@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
+source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep 
 | Gegevensopname van Experience Platform in CJA | Tot 60 minuten |
 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Ongeveer 60 minuten |
 | Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
-| Doel maken in AEP: Het nieuwe segment activeren in Adobe Target | Momenteel, kan dit tot 24 uren, afhankelijk van het interval en het type van segmentevaluatie van de publieksupdate vergen |
+| Doel maken in AEP: Het nieuwe segment activeren | 1-2 uur |
 
 ## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 
