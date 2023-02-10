@@ -9,17 +9,16 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 97e648de4363eefd4375effad66d6cb17e3f2c2c
+source-git-commit: 7ee35a3d1e5b4335d87ac3649585a9a4d079bdf5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 32%
+source-wordcount: '852'
+ht-degree: 33%
 
 ---
 
 
 # Handleiding voor Customer Journey Analytics {#using}
 
-+ [Handleiding voor Customer Journey Analytics](../getting-started/cja-landing.md)
 + Release-opmerkingen {#releases}
    + [Meest recente release](../release-notes/latest.md)
    + [2023 releases](../release-notes/2023.md)
@@ -28,17 +27,18 @@ ht-degree: 32%
    + [2020 introducties](../release-notes/2020.md)
    + [CJA-releases](../release-notes/releases.md)
    + [CJA-documentatieupdates](../release-notes/doc-changes.md)
-+ Overzicht van Customer Journey Analytics {#cja-overview}
-   + [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
-   + [Aan de slag](../getting-started/cja-getting-started.md)
-   + [Consistentie van metriek en het tellen van het publieksenlidmaatschap tussen CDP In real time en CJA](../getting-started/consistency-rcdp-cja.md)
-   + [CJA Access Control](../getting-started/cja-access-control.md)
-   + [Customer Journey Analytics-landingspagina](../getting-started/landing.md)
-   + [Adobe Analytics naar Customer Journey Analytics evolutie](../getting-started/aa-to-cja.md)
-   + [Gebruikershandleiding voor nieuwe Customer Journey Analytics-gebruikers](../getting-started/aa-to-cja-user.md)
-   + [CJA-gebruik weergeven en beheren](../getting-started/estimate-usage.md)
+
++ [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
+
++ Aan de slag {#cja-getting-started}
+   + [Snelle startgids](../getting-started/cja-getting-started.md)
+   + [Openingspagina](../getting-started/landing.md)
    + [Veelgestelde vragen](../getting-started/cja-faq.md)
-   + Adobe Analytics en Customer Journey Analytics vergelijken {#compare-aa-cja}
+
++ Customer Journey Analytics en Adobe Analytics {#compare-aa-cja}
+   + [Evolutie uit Adobe Analytics ](../getting-started/aa-to-cja.md)
+   + [Gebruikershandleiding voor Adobe Analytics-gebruikers](../getting-started/aa-to-cja-user.md)
+   + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Adobe Analytics-gegevens gebruiken in Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Ondersteuning voor Customer Journey Analytics-functies](../getting-started/aa-vs-cja/cja-aa.md)
       + [Vergelijk terminologie voor de gegevens van de Analyse die door de Bronschakelaar van de Analyse worden overgegaan](../getting-started/aa-vs-cja/terminology.md)
@@ -46,8 +46,7 @@ ht-degree: 32%
       + [Virtuele rapportageomgevingen en sandboxomgevingen](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Verwerkingsregels, VISTA en classificaties versus Data Prep](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
-   + [Gevolgen van verwijdering](../getting-started/cja-deletion.md)
-   + [Verklarende woordenlijst](../getting-started/cja-glossary.md)
+
 + Gegevensopname {#cja-data-ingestion}
    + [Overzicht van gegevensinname](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
@@ -56,6 +55,7 @@ ht-degree: 32%
       + [Batchgegevens](../data-ingestion/batch.md)
       + [Streaming gegevens](../data-ingestion/streaming.md)
       + [Bronaansluitingen](../data-ingestion/sources.md)
+
 + Verbindingen {#cja-connections}
    + [Overzicht van verbindingen](../connections/overview.md)
    + [Verbinding maken](../connections/create-connection.md)
@@ -63,6 +63,7 @@ ht-degree: 32%
    + [Gecombineerde gegevenssets voor gebeurtenissen](../connections/combined-dataset.md)
    + [Standaardzoekopdrachten](../connections/standard-lookups.md)
    + [Kanaaloverschrijdende analyse](../connections/cca.md)
+
 + Gegevens {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
@@ -79,10 +80,13 @@ ht-degree: 32%
       + [Waardebeperking](../data-views/component-settings/value-bucketing.md)
    + [Standaardcomponentverwijzing](../data-views/component-reference.md)
    + [Labels en beleid](../data-views/data-governance.md)
+
+
 + Werkruimteprojecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](../analysis-workspace/home.md)
    + [Basisanalyse uitvoeren](../analysis-workspace/perform-basic-analysis.md)
    + [Geavanceerde analyse uitvoeren](../analysis-workspace/perform-adv-analysis.md)
+
    + Projecten {#build-workspace-project}
       + [Overzicht van projecten](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -99,6 +103,7 @@ ht-degree: 32%
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Databronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
+
       + Vrije-vormentabel {#freeform-table}
          + [Vrije-vormentabel](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
@@ -106,6 +111,7 @@ ht-degree: 32%
             + [Rij-instellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Pagineren, filteren en tabellen sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+
          + [Workspace-totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -121,6 +127,7 @@ ht-degree: 32%
          + [Een stroomvisualisatie configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Gebied en gestapeld gebied](../analysis-workspace/visualizations/area.md)
+
       + [Balkgrafiek en gestapelde-balkgrafiek](../analysis-workspace/visualizations/bar.md)
       + [Staafdiagram](../analysis-workspace/visualizations/bullet-graph.md)
       + [Combodiagram](../analysis-workspace/visualizations/combo-charts.md)
@@ -167,6 +174,7 @@ ht-degree: 32%
          + [Anomalieën weergeven in Analysis Workspace](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Statistische technieken voor anomaliedetectie](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
+
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-prestaties optimaliseren](../analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -175,6 +183,18 @@ ht-degree: 32%
       + [Beheervereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Lange staart in Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
+
+
+
+
+
+
+
+
+
+
+
+
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](../components/overview.md)
    + Annotaties {#annotations}
@@ -226,12 +246,14 @@ ht-degree: 32%
       + [Overzicht van agenda](../components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
+
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
+
 + Report Builder {#cja-reportbuilder}
    + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
    + [Report Builder instellen](../report-builder/report-builder-setup.md)
@@ -244,19 +266,23 @@ ht-degree: 32%
    + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
    + [Beperkte labels](../report-builder/restricted-labels.md)
    + [Report Builder-instellingen](../report-builder/report-builder-settings.md)
+
 + Kanaaloverschrijdende analyse {#cca}
    + [Overzicht van kanaalanalyse](../cca/overview.md)
    + [Hoe herspeelt u](../cca/replay.md)
    + [Veelgestelde vragen over kanaalanalyse](../cca/faq.md)
+
 + Adobe-integratie {#integrations}
    + [Adobe-oplossingen integreren met CJA-overzicht](/help/integrations/overview.md)
    + [Adobe Analytics met Customer Journey Analytics integreren](/help/integrations/aa.md)
    + [Journey Optimizer-gegevens integreren met CJA](/help/integrations/ajo.md)
    + [AI-gegevens van klanten integreren met CJA](/help/integrations/customer-ai.md)
+
 + Data Governance {#cja-privacy}
    + [Data Governance](../privacy/privacy-overview.md)
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
+
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](../use-cases/cja-usecases.md)
    + Google Analytics {#ga}
@@ -271,16 +297,28 @@ ht-degree: 32%
       + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
    + B2B {#b2b}
-   + [Gegevens op accountniveau toevoegen als een opzoekgegevensset](../use-cases/b2b/b2b.md)
+      + [Gegevens op accountniveau toevoegen als een opzoekgegevensset](../use-cases/b2b/b2b.md)
    + Kanaalgegevens {#cross-channel}
       + [Gegevens via kanalen analyseren](../use-cases/cross-channel/cross-channel.md)
       + [Telefooncentrum en webgegevens importeren](../use-cases/cross-channel/call-center.md)
    + Adobe Analytics-gegevens {#aa-data}
       + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
       + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
-   + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
+   + Complexe gegevens {#complex-data}
+      + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
+
++ Beheer {#cja-admin}
+   + [Toegangsbeheer](../admin/cja-access-control.md)
+   + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
+   + [Gevolgen van verwijdering](../admin/cja-deletion.md)
+
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
+
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met CJA-gegevens](../troubleshooting/compare.md)
+   + [Consistentie van metriek en het tellen van het publieksenlidmaatschap tussen CDP In real time en CJA](../troubleshooting/consistency-rcdp-cja.md)
+
++ [Verklarende woordenlijst](../getting-started/cja-glossary.md)
+
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)

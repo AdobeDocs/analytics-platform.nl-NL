@@ -1,13 +1,13 @@
 ---
 title: Aan de slag met Customer Journey Analytics
-description: Begrijp de eerste vereisten en het werkschema die worden vereist om Customer Journey Analytics uit te voeren.
+description: Inzicht in de vereisten en workflow die vereist zijn om Customer Journey Analytics te implementeren.
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
+source-git-commit: 5d0f012505d254406e106939234d4e1d103168db
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,12 @@ Customer Journey Analytics is beschikbaar voor klanten die
 
 | Taak | Details |
 | --- | --- |
-| **Stap 1: Als u van Adobe Analytics naar CJA migreert, moet u leren wat u moet doen.** | Zie [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). |
-| **Stap 2: Andere gegevens ophalen in Adobe Experience Platform** | Deze stap, uitgevoerd in Adobe Experience Platform, omvat verschillende substappen:<ul><li>**Stap 2a: Gegevensschema voorbereiden**: Gebruiken [Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) om de gegevens van de klantervaring te standaardiseren en [schema&#39;s definiëren](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor het beheer van de gebruikerservaring.</li><li>**Stap 2b: Creeer een dataset die op het schema wordt gebaseerd**: Gegevens in Platform bestaan uit gegevenssets, zoals e-mailgegevenssets, CRM-gegevenssets, POS-gegevenssets, de Adobe Analytics-gegevensset, enz. Elke gegevensset bestaat uit een schema en gegevensbatches. U kunt [een gegevensset maken in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html).</li><li>**Stap 2c: Gegevens in Experience Platform opnemen**: Hier hebt u verschillende opties. Weergave [gegevensinvoer - overzicht](/help/data-ingestion/data-ingestion.md) voor meer informatie . |
+| **Stap 1: Als u van Adobe Analytics naar CJA migreert, moet u leren wat u moet doen.** | Zie [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md) en [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](../data-ingestion/analytics.md). |
+| **Stap 2: Andere gegevens ophalen in Adobe Experience Platform** | Deze stap, uitgevoerd in Adobe Experience Platform, omvat verschillende substappen:<ul><li>**Stap 2a: Gegevensschema voorbereiden**: Gebruiken [Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) om de gegevens van de klantervaring te standaardiseren en [schema&#39;s definiëren](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor het beheer van de gebruikerservaring.</li><li>**Stap 2b: Creeer een dataset die op het schema wordt gebaseerd**: Gegevens in Platform bestaan uit gegevenssets, zoals e-mailgegevenssets, CRM-gegevenssets, POS-gegevenssets, de Adobe Analytics-gegevensset, enz. Elke gegevensset bestaat uit een schema en gegevensbatches. U kunt [een gegevensset maken in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html).</li><li>**Stap 2c: Gegevens in Experience Platform opnemen**: Hier hebt u verschillende opties.</li></ul> |
 | **Stap 3: Verbindingen maken tussen platformgegevenssets en Customer Journey Analytics** | Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over de datasets van het Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Werkruimte vestigen.<br>Zie [Verbinding maken](/help/connections/create-connection.md). |
 | **Stap 4: Gegevensweergaven maken** | Een gegevensweergave is een gefilterde weergave van de gegevens. U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met verschillende instellingen voor de time-out van een bezoek, de toewijzing enzovoort. U kunt veelvoudige gegevensmeningen voor één enkele dataset tot stand brengen.<br>Zie [Een gegevensweergave maken](/help/data-views/create-dataview.md). |
 | **Stap 5: Rapport over uw kanaalgegevens in Workspace** | Nadat u verbindingen en gegevensmeningen hebt gecreeerd, analyseer de gegevens u binnen gebruikend de macht en de flexibiliteit van Analysis Workspace hebt gebracht.<br>Zie [Basisanalyse uitvoeren](/help/analysis-workspace/perform-basic-analysis.md) en [Geavanceerde analyse uitvoeren](/help/analysis-workspace/perform-adv-analysis.md). |
+
+## Hulplijnen voor snel starten
+
+De [Gegevensinvoer](../data-ingestion/data-ingestion.md) bevat snelle handleidingen voor de bovenstaande workflow. Deze snelstarthulplijnen tonen hoe u gegevens uit verschillende bronnen (waaronder Adobe Analytics) in Adobe Experience Platform kunt invoeren en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.

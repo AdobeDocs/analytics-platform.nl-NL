@@ -4,7 +4,7 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 7%
@@ -38,7 +38,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Datum | Beschrijving bijwerken |
 | --- | --- |
 | **december 2022** |  |
-| 16 december 2022 | Nieuw onderwerp over [het meten en beheren van uw CJA-gegevensgebruik](/help/getting-started/estimate-usage.md). |
+| 16 december 2022 | Nieuw onderwerp over [het meten en beheren van uw CJA-gegevensgebruik](/help/admin/estimate-usage.md). |
 | **Oktober 2022** |  |
 | Oktober 2022 | Nieuw onderwerp over [wachtwoordbeveiliging voor geplande projecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Oktober 2022 | Nieuw onderwerp over [Door de klant beheerde toetsen](/help/privacy/cmk.md). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
@@ -53,7 +53,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | September 2022 | Nieuw onderwerp over [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | **augustus 2022** |  |
 | Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de analytische bronconnector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). |
-| Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/getting-started/cja-access-control.md). |
+| Augustus 2022 | Significant bijgewerkt artikel op [CJA toegangsbeheer](/help/admin/cja-access-control.md). |
 | Augustus 2022 | Nieuw artikel over [CJA-ondersteuning voor labels en beleid voor gegevensbeheer](/help/data-views/data-governance.md). |
 | Augustus 2022 | Nieuw artikel over [Het vergelijken van terminologie voor de gegevens van de Analyse die door de Verbinding van de Bron van de Analyse worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md). |
 | Augustus 2022 | Nieuwe documentatie over [Publiceren van het publiek aan het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html). |

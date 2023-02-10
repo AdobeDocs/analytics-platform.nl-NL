@@ -1,18 +1,18 @@
 ---
-title: Adobe Analytics naar Customer Journey Analytics evolutie
+title: Evolutie uit Adobe Analytics
 description: Stappen om Adobe Analytics-gegevens om te zetten in Customer Journey Analytics-gegevens
 role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics naar Customer Journey Analytics evolutie
+# Evolutie uit Adobe Analytics
 
 Naarmate uw organisatie evolueert naar het gebruik van Customer Journey Analytics, verkent u deze stappen om uw gegevens voor te bereiden en om bewust te worden van de kritieke verschillen tussen de twee technologieën. Dit artikel is gericht op een beheerdersgroep.
 
@@ -99,9 +99,9 @@ Als u de overgang zo soepel mogelijk wilt laten verlopen voor gebruikers die een
 
 1. De meest kritieke onderdelen van deze componenten identificeren.
 
-1. hun definities te documenteren, en
+2. hun definities te documenteren, en
 
-1. Identificeren welke velden in de gegevens vereist zijn om deze in CJA te repliceren als [Filters](/help/components/filters/filters-overview.md) en [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md).
+3. Identificeren welke velden in de gegevens vereist zijn om deze in CJA te repliceren als [Filters](/help/components/filters/filters-overview.md) en [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md).
 
 Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 

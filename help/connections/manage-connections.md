@@ -5,7 +5,7 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Wanneer u een verbinding verwijdert in [!UICONTROL Customer Journey Analytics], 
 * Gegevensweergaven die zijn gemaakt op basis van de verwijderde verbinding, werken niet meer.
 * Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.
 
-[Meer informatie](/help/getting-started/cja-deletion.md) over de gevolgen van verwijdering.
+[Meer informatie](/help/admin/cja-deletion.md) over de gevolgen van verwijdering.
 
 ### Zoeken naar een verbinding of gegevensset
 

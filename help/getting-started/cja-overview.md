@@ -1,13 +1,13 @@
 ---
 title: Overzicht van Customer Journey Analytics
-description: Leer hoe u met Customer Journey Analytics Analysis Workspace gegevens uit Experience Platform kunt gebruiken.
+description: Leer hoe u met Customer Journey Analytics Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f70cb6a8567d1bb2f844b1694f552ec4bfe70adc
+source-git-commit: e808ac175092af659ac702bb43f94f82c0ff22f9
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -55,7 +55,7 @@ Voordat u kunt beginnen met het gebruik van Customer Journey Analytics, moet aan
 
 ## Toegangsbeheer
 
-Zie de [Toegangsbeheer](/help/getting-started/cja-access-control.md) onderwerp.
+Zie de [Toegangsbeheer](/help/admin/cja-access-control.md) onderwerp.
 
 ## Terminologie-updates
 
@@ -78,7 +78,7 @@ Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem ce
 Van de Ingestie van Gegevens aan directe SQL toegang, zijn verscheidene componenten van het Experience Platform centraal aan Customer Journey Analytics en vullen het aan:
 
 * [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaard SQL om gegevens van Adobe Experience Platform terug te winnen, zoals de oplossingsgegevens van de Adobe, klant 1st-party gegevens, of een andere Platform gegevens. Het is een server-zonder hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in rapportering, de Werkruimte van de Wetenschap van Gegevens, of voor opname in de Dienst van het Profiel te vangen. U kunt de Dienst van de Vraag gebruiken om gegevensanalysecosystemen te bouwen, die tot een beeld van consumenten over hun diverse interactiekanalen leiden. Deze kanalen zouden de systemen van het Punt-van-Verkoop, Web, Mobiel, systemen van CRM, etc. kunnen omvatten.
-* [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
+* [Klantprofiel in real time](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
 * [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl):
 * [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html) in de optie &quot;developer&quot;: u kunt prebuilt artificiële intelligentie (AI) en machine-leert modellen in Adobe Experience Platform gebruiken om diverse punten van de klantenreis te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
 
