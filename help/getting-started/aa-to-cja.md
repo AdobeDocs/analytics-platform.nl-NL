@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Adobe heeft gepubliceerd [bijgewerkte best practices voor implementatie van mark
 
 ### 4. Beslissen over het gebruik van de gegevensbronaansluiting versus Experience Platform-SDK&#39;s {#connector-vs-sdk}
 
-Adobe Analytics-klanten kunnen hun rapportsuites eenvoudig benutten in de Adobe Experience Platform en Customer Journey Analytics via de Analytics Source Connector. Voor informatie bij het gebruiken van de Bron van de Analyse Schakelaar, zie [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en).
+Adobe Analytics-klanten kunnen hun rapportsuites eenvoudig benutten in de Adobe Experience Platform en Customer Journey Analytics via de Analytics Source Connector. Voor informatie bij het gebruiken van de Bron van de Analyse Schakelaar, zie de snelle startgids over hoe te [Gegevens van Adobe Analytics opnemen en gebruiken in CJA](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
 
 Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
 
@@ -76,10 +76,10 @@ Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk ui
 
 De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
-* Marketingkanalen
 * Bot filteren
 * Geo, Domain, Device Lookups
-* Analyses voor doel (A4T)
+* Metingen voor streamingmedia
+* Livestream- of Livestream-triggers
 
 ## Voorbereiden op kritieke verschillen
 
