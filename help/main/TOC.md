@@ -9,15 +9,17 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 7ee35a3d1e5b4335d87ac3649585a9a4d079bdf5
+source-git-commit: f1e8c79aeaa11fe2ee64a466115014c80c28606a
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '856'
 ht-degree: 33%
 
 ---
 
 
 # Handleiding voor Customer Journey Analytics {#using}
+
++ [Handleiding voor Customer Journey Analytics](../getting-started/cja-landing.md)
 
 + Release-opmerkingen {#releases}
    + [Meest recente release](../release-notes/latest.md)
