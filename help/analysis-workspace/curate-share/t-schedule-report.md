@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+source-git-commit: 7ef67276dabca2afdc9e3e799aab5eb5d93d22fd
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ De Geplande Manager van Projecten toont de punten die een specifieke gebruiker h
 
 >[!NOTE]
 >
->De optie om een gepland project met een wachtwoord te beveiligen wordt alleen weergegeven voor CJA-klanten die de [Gezondheidsschild](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en) add-on product.
+>De optie om een gepland project met een wachtwoord te beveiligen wordt alleen weergegeven voor CJA-klanten die de [Gezondheidsschild](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) add-on product.
 
 Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
