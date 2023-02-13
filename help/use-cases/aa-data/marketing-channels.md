@@ -4,9 +4,9 @@ description: Gebruik de Analytics Source Connector om de verwerkingsregels van h
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Als uw organisatie de [Bronverbinding voor analyse](https://experienceleague.ado
 ## Vereisten
 
 * Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
-* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html) in de traditionele handleiding Analytics Components (Analytische onderdelen).
+* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en) in de traditionele handleiding Analytics Components (Analytische onderdelen).
 
 ## Schema-elementen marketingkanaal
 

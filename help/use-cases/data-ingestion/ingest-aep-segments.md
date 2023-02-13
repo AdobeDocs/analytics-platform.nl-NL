@@ -4,9 +4,9 @@ description: Verklaart hoe te om AEP publiek in Customer Journey Analytics voor 
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,6 @@ U kunt nu rapporteren over `audienceMembershipId`, `audienceMembershipIdName` en
 * U zou dit proces op een regelmatige kadentie moeten uitvoeren, zodat de publieksgegevens constant binnen CJA worden verfrist.
 * U kunt meerdere soorten publiek importeren binnen één CJA-verbinding. Dit vergroot de complexiteit van het proces, maar het is mogelijk. Dit werkt alleen als u enkele wijzigingen aanbrengt in het bovenstaande proces:
    1. Voer dit proces voor elk gewenst publiek in uw publieksinzameling binnen RTCP uit.
-   1. CJA ondersteunt arrays/objectarrays in profielgegevenssets. Een [array van objecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) voor publiekMembershipId of publiekMembershipIdName is de beste optie.
+   1. CJA ondersteunt arrays/objectarrays in profielgegevenssets. Een [array van objecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) voor publiekMembershipId of publiekMembershipIdName is de beste optie.
    1. Maak in de gegevensweergave een nieuwe dimensie met behulp van de subtekenreekstransformatie op het tabblad `audienceMembershipId` veld voor het omzetten van de tekenreeks met door komma&#39;s gescheiden waarden in een array. OPMERKING: momenteel is er een limiet van 10 waarden in de array .
    1. U kunt nu verslag uitbrengen over deze nieuwe dimensie `audienceMembershipIds` in CJA Workspace.

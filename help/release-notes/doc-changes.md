@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1392'
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Juli 2022 | [Deelvenster Mediagelijktijdige viewer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentatie. |
 | Juli 2022 | [Eerste sessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) rapportagedocumentatie. |
 | **Juni 2022** |  |
-| Juni 2022 | Nieuw artikel over [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
+| Juni 2022 | Nieuw artikel over [STEUN, ECID, AACUSTOMID en de Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) |
 | Juni 2022 | Nieuw artikel over [Adobe Analytics-verwerkingsregels, VISTA en classificaties versus Data Prep voor de Analytics Source Connector](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
 | Juni 2022 | Nieuw artikel over [virtuele rapportageomgevingen en sandboxomgevingen](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
 | Juni 2022 | Nieuw artikel over [vergelijking van gegevensverwerking in Adobe Analytics en CJA-rapportagefuncties](/help/getting-started/aa-vs-cja/data-processing-comparisons.md). |
@@ -84,7 +84,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Maart 2022 | Nieuwe documentatie over [Annotaties in werkruimte](/help/components/annotations/overview.md). |
 | Maart 2022 | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](/help/getting-started/cja-faq.md). |
 | **Februari 2022** |  |
-| Februari 2022 | Een nieuwe handleiding voor beheerders die van Adobe Analytics naar CJA verhuizen: [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html) |
+| Februari 2022 | Een nieuwe handleiding voor beheerders die van Adobe Analytics naar CJA verhuizen: [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
 | **Januari 2022** |  |
 | Januari 2022 | Nieuwe gebruiksaanwijzing voor [Het gebruiken van bindende dimensies en metriek in CJA](/help/use-cases/data-views/binding-dimensions-metrics.md) |
 | Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) |

@@ -2,7 +2,7 @@
 title: Door de klant beheerde toetsen
 description: Leer hoe u door klanten beheerde sleutels voor CJA instelt.
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Customer Journey Analytics (CJA) biedt de optie voor [Gezondheidsschild](https:/
 
 >[!NOTE]
 >
->Door de klant beheerde toetsen zijn momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) invoegtoepassing.
+>Door de klant beheerde toetsen zijn momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en) invoegtoepassing.
 
 ## CMK instellen voor CJA
 
