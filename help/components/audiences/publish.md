@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -84,13 +84,17 @@ Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het 
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-| Latentiepunt | Latentieduur |
-| --- | --- |
-| Gegevensopname in Data Lake | Tot 30 minuten |
-| Gegevensopname van Experience Platform in CJA | Tot 60 minuten |
-| Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Ongeveer 60 minuten |
-| Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
-| Doel maken in AEP: Het nieuwe segment activeren | 1-2 uur |
+![](assets/latency-diagram.png)
+
+| Aantal | Latentiepunt | Latentieduur |
+| --- | --- | --- |
+| 1 | Gegevensopname in Data Lake | Tot 30 minuten |
+| 2 | Gegevensopname van Experience Platform in CJA | Tot 60 minuten |
+| 3 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Ongeveer 60 minuten |
+| 4 | Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
+| 5 | Doel maken in AEP: Het nieuwe segment activeren | 1-2 uur |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 

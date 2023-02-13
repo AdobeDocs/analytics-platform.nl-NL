@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1390'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Februari 2023** |  |
+| Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gemaakt, maakt Adobe een Experience Platform [streaming segment voor elk nieuw CJA Audience](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/mobile-app/create-scorecard.md#show-comparison-dates) in CJA. |
