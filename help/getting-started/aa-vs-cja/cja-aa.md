@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1518'
 ht-degree: 3%
 
 ---
@@ -112,7 +112,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Activity Map | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
-| Samenvattingsgegevensbronnen | De steun is nog niet gepland. |
 
 {style=&quot;table-layout:auto&quot;}
 
