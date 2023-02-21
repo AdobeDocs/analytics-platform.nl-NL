@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
+source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -74,11 +74,7 @@ In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van 
 
 ![AAI-afmetingen](assets/aai-dims.png)
 
->[!IMPORTANT]
->
->Deze afmetingen en metriek worden niet op deze manier genoemd. Dit zijn &quot;vriendelijke namen&quot;. De [naamgevingsconventie in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) volgt het schemapad. We raden u aan de namen van lange AAI-schemapaden te wijzigen in korte, gebruikersvriendelijkere namen (afmetingen/metriek) in CJA. U kunt dit doen in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** tab > **[!UICONTROL Schema fields]** -> Klik op een schemaveld -> **[!UICONTROL Component name]**.
 
-![Dimensienamen wijzigen](assets/change-name.png)
 
 **Orders met beïnvloede en incrementele scores**
 
