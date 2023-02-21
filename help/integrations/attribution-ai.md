@@ -4,9 +4,9 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,15 @@ In een project van de Werkruimte van CJA, kunt u metriek zoals &quot;Orders van 
 
 ![AAI-afmetingen](assets/aai-dims.png)
 
+De onbewerkte score in AAI heeft een genest schema, waarbij het pad naar velden lang genoeg kan zijn om de meeste spaties in tabellen of visualisaties op te nemen. Ter beknoptheid: [!UICONTROL Display Name] wordt automatisch gegenereerd en gebruikt in CJA volgens de onderstaande regels:
 
+* Alle velden hebben een voorvoegsel &quot;AAI&quot;
+* Voor aanraakpuntvelden:
+   * Voor gebieden die deel van de score XDM uitmaken, verschijnen zij in CJA zoals `AAI T {field name}`
+   * Voor velden die zijn opgenomen als passThrough-kolom, worden ze in CJA weergegeven als `AAI T PT {field name}`
+* Voor conversievelden:
+   * Voor gebieden die deel van de score XDM uitmaken, zullen zij in CJA verschijnen zoals `AAI C {field name}`
+   * Voor velden die zijn opgenomen als passThrough-kolom, worden ze in CJA weergegeven als `AAI C PT {field name}`
 
 **Orders met beïnvloede en incrementele scores**
 
