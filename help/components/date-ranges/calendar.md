@@ -4,9 +4,9 @@ title: Overzicht van kalender- en datumbereiken
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 969040538e12ef3c3d15881ae225af02bef1cba4
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -70,3 +70,10 @@ Wanneer u een aangepaste weekkalender gebruikt en u maanden of jaren toevoegt, b
 ### Informatie over segmenten die roldatums en relatieve paneeldatumbereiken gebruiken {#segments-relative-dates}
 
 Als u een segment bouwt of een segment met een roldatum gebruikt, bijvoorbeeld de Laatste 7 Dagen of de Laatste 2 Weken, en u op de segmentvoorproef klikt, zal het de roldatum van beginnen *Vandaag* in plaats van de begindatum van het deelvenster. Dientengevolge zal de voorproef voor het segment niet aanpassen wanneer u werkelijk het segment in de lijst gebruikt. De voorvertoning wordt beïnvloed, niet het segment zelf.
+
+## Richtlijnen voor datumbereiken en voorvertoningen in het deelvenster {#guidelines-panel-dates}
+
+* Vanaf de release van februari worden voorvertoningen van componenten en gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen.
+* Alle componenten die in de linkerspoorstaaf worden vermeld zullen beschikbaar zijn gebaseerd op de waaier van de paneeldatum.
+* Alle datumvoorvertoningen in het segment en de berekende metrische builders worden gebaseerd op het bereik van de deelvensterdatum (tenzij ze worden benaderd door de componentmanagers, die geen bijbehorend deelvenster hebben, zijn ze nog steeds gebaseerd op de laatste 90 dagen).
+* In alle voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.

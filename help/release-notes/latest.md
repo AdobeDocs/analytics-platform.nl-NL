@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 8%
+source-wordcount: '522'
+ht-degree: 6%
 
 ---
 
@@ -23,6 +23,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Er wordt alleen een streaming segment gemaakt als uw organisatie is ingesteld op streamingsegmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | N.v.t. | 3 februari 2023 |
 | **Vergelijk datumbereiken in Mobile Scorecards verbergen** | Met Mobile Scorecards kunt u nu vergelijkingsdatumbereiken verbergen. | N.v.t. | 8 februari 2023 |
 | **Agenda-updates in werkruimte** | <ul><li>Datums deelvenster Anker: U kunt de componenten van het datumbereik relatief maken ten opzichte van de deelvensterkalender. [Meer informatie](/help/components/date-ranges/calendar.md)</li><li>Updates voor kalenderstijlen: De kalenderstijlen door UI zijn bevorderd om een consistentere en gebruiksvriendelijker werkschema voor te stellen.</li><li>Updates van de kalenderformule: Als u relatieve datums gebruikt, wordt in alle kalenderformules het begin van het datumbereik van het deelvenster weergegeven. [Meer informatie](/help/components/date-ranges/calendar.md)</li></ul> | N.v.t. | 8 februari 2023 |
+| **Updates voor het datumbereik van deelvensters** | In Workspace zijn de volgende verbeteringen aangebracht:<ul><li>Vanaf de release van februari worden voorvertoningen van componenten en gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen. </li><li>Alle componenten die in de linkerspoorstaaf worden vermeld zullen beschikbaar zijn gebaseerd op de waaier van de paneeldatum.</li><li>Alle datumvoorvertoningen in het segment en de berekende metrische builders worden gebaseerd op het bereik van de deelvensterdatum (tenzij ze worden benaderd door de componentmanagers, die geen bijbehorend deelvenster hebben, zijn ze nog steeds gebaseerd op de laatste 90 dagen).</li><li>In alle voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.</li></ul> | N.v.t. | 8 februari 2023 |
 | **Rij-/kolomfiltering voor streaming Adobe Analytics Source Connector** | Met de Bronverbinding Analytics in Adobe Experience Platform kunt u nu analysegegevens filteren die worden gebruikt om profielen te vullen in [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en).<p>Filteren op rijniveau helpt het aantal gebeurtenissen dat aan profielen is gekoppeld, te verminderen. Filteren op kolomniveau helpt de rijkheid van de gebeurtenissen zelf te verminderen, zodat u het gebruik van profielrechten kunt optimaliseren. Deze filtering is alleen van toepassing op gegevens die naar het realtime-klantprofiel worden verzonden en [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en).<p>**Filteren heeft geen invloed op de gegevens die naar het Data Lake worden verzonden voor gebruik in toepassingen zoals Customer Journey Analytics**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N.v.t. | 22 februari 2023 |
 
 {style=&quot;table-layout:auto&quot;}
