@@ -2,9 +2,9 @@
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden in
 * Het publiek gebruiken voor een reis in Adobe Journey Optimizer.
 * Het publiek naar een derde via een bestemming van een Experience Platform exporteren.
 * Het verrijken van het Real-Time klantenprofiel met nuttige attributen die uit op gebeurtenis-gebaseerde gegevens in CJA worden afgeleid.
-* Dit alles doen met minimale vertraging na publicatie van het publiek (een paar minuten)
+* Dit alles doen met minimale vertraging na publicatie van het publiek. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
 * Eenmalig publiek of terugkerend publiek publiceren
 
 ## Belangrijke terminologie

@@ -4,9 +4,9 @@ description: Customer Journey Analytics tot BI-oplossingen vergelijken
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 91cfd3ccfe1864b6a2a50a8881e73bd778a7848e
+source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met de huidige nadruk op klantenervaring, vereisen de merken geavanceerde oplossingen om de holistische klantenreis beter te begrijpen. Het begrip van deze volledige klantenreis staat u toe om waardevolle inzichten in te analyseren en te bereiken hoe online en off-line kanalen klanten in dienst nemen en tot stijgende omzetting, behoud, en loyaliteit leiden. In dit verband kan een klant de eenvoudige online bestelling zijn van een maaltijd in een sushi voedselketen. Of de aankoop van een nieuwe auto, waarbij de klant online onderzoek combineert met bezoeken aan de showroom van de dealer, en een definitieve persoonlijk aankoop.
 
-Veel organisaties hebben hun omnichannel gegevens geconsolideerd in een data-meer of data-entrepot. De bedrijfsintelligentie (BI) hulpmiddelen worden gebruikt bovenop deze gegevensopslag om de rapporten, visualisaties, en inzichten te verstrekken die de zaken vereisen om de klantenreis te begrijpen. Vaak is deze combinatie van oplossingen en hulpmiddelen van algemene aard en ontwerp en niet expliciet gericht op de klant. Customer Journey Analytics (CJA) richt zich op het mondig maken van degenen die verantwoordelijk zijn voor de klantervaring, zoals marketers, gegevensanalisten, datamanamen. Het hulpmiddel staat hen toe om de klantenreis in volledige context over alle kanalen in echt - tijd zonder beperkingen te visualiseren die vele andere hulpmiddelen van BI hebben.
+Vele organisaties hebben hun gegevens in het omni-kanaal geconsolideerd in een gegevenshoek of een datapakhuis. De bedrijfsintelligentie (BI) hulpmiddelen worden gebruikt bovenop deze gegevensopslag om de rapporten, visualisaties, en inzichten te verstrekken die de zaken vereisen om de klantenreis te begrijpen. Vaak is deze combinatie van oplossingen en hulpmiddelen van algemene aard en ontwerp en niet expliciet gericht op de klant. Customer Journey Analytics (CJA) richt zich op het mondig maken van degenen die verantwoordelijk zijn voor de klantervaring, zoals marketers, gegevensanalisten, datamanamen. Het hulpmiddel staat hen toe om de klantenreis in volledige context over alle kanalen in echt - tijd zonder beperkingen te visualiseren die vele andere hulpmiddelen van BI hebben.
 
 In dit gedeelte van de documentatie worden de fundamentele verschillen tussen CJA en veelgebruikte BI-gereedschappen toegelicht, waarbij eerst wordt gekeken naar de algemene workflow die wordt gebruikt om de hierboven vermelde doelstelling te verwezenlijken: inzicht in die reis van de klant. Dan verstrekt het meer details over hoe het gegeven wordt opgeslagen, verzameld, en verschillend gevraagd tussen hulpmiddelen CJA en BI. Tot slot wordt hiermee uitgelegd wat de verschillen zijn in visualisatiemogelijkheden.
 
@@ -28,15 +28,15 @@ Een veelvuldig obstakel voor de traditionele benadering van het analyseren van k
 
 Als u wilt begrijpen hoe een specifieke digitale campagne een off-line actie beïnvloedt die in een verschillende gegevenssilo wordt opgeslagen, geeft u een verzoek aan de rij van het team van BI uit. Het team van BI schrijft de vereiste vraag om de gegevens te verwerven en om te zetten. Zodra de ruwe gegevens worden teruggewonnen, leidt het team van BI tot visualisatie. De gegevens worden met u gedeeld en u besteedt tijd aan het doornemen van inzichten en het extraheren van gegevens voor activering in andere systemen.
 
-Elk van deze stappen kan uren, dagen, of zelfs weken vergen. Als er vervolgvragen of problemen zijn met de gevraagde gegevens, kan het nog meer tijd duren voordat deze vragen worden behandeld en de cyclus wordt voortgezet. Voor aan de gang zijnde analyse, exploratie en begrip van de klantenreis, is dit proces inefficiënt en niet scalable. Ook, richten de teams van BI typisch meer dan enkel klant op reis-gerelateerde vragen.
+Elk van deze stappen kan uren, dagen, of zelfs weken vergen. Als er vervolgvragen of problemen met de gevraagde gegevens zijn, kan het nog meer tijd duren voordat die vragen zijn beantwoord en de cyclus verdergaat. Voor aan de gang zijnde analyse, exploratie en begrip van de klantenreis, is dit proces inefficiënt en niet scalable. Ook, richten de teams van BI typisch meer dan enkel klant op reis-gerelateerde vragen.
 
 ## CJA: Gegerichte workflow voor online- en offlinegegevens
 
-CJA verstrekt een milieu om online en off-line dwars-kanaalgegevens op het overkoepelende klantenniveau met het enige doel te verbinden om de klantenreis te begrijpen. Er is een eerste setup nodig om verbinding te maken en weergaven te definiëren voor de gegevens die u als relevant aanmerkt. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie, wat resulteert in het geleidelijk verkrijgen van inzicht in en inzicht in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant op reis-gerelateerde vragen in seconden beantwoorden.
+CJA verstrekt een milieu om online en off-line dwars-kanaalgegevens op het overkoepelende klantenniveau met het enige doel te verbinden om de klantenreis te begrijpen. Hiervoor is een eerste installatie vereist [verbinden](/help/connections/overview.md) en [weergaven definiëren](/help/data-views/data-views.md) aan de gegevens die u als relevant aanmerkt. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
 
 ![CJA-workflow](./assets/cjaworkflow.png)
 
-U kunt CJA gebruiken om vragen te stellen met behulp van de werkruimte voor visuele analyse en bijna onmiddellijk inzichten te verkrijgen. De gegevens en rapporten die via meerdere kanalen worden weergegeven, zijn direct beschikbaar, zonder dat SQL-code is vereist. Extra query&#39;s en analyse kunnen worden uitgevoerd met een eenvoudige sleepbewerking en neerzetbewerking in de gebruikersinterface, met volledig gecorreleerde gegevens. U kunt vragen blijven stellen, geleidelijk meer details onderzoeken zoals u vereist. U kunt dan onmiddellijk actie ondernemen op de inzichten die u ontdekt, zoals het delen van publiek voor activering en orkest.
+U kunt CJA gebruiken om vragen te stellen met de visuele Analysis Workspace-omgeving en bijna onmiddellijk inzichten te verkrijgen. De gegevens en rapporten van het dwars-kanaal zijn onmiddellijk beschikbaar, zonder SQL vereiste code. Extra query&#39;s en analyse kunnen worden uitgevoerd met een eenvoudige sleepbewerking en neerzetbewerking in de gebruikersinterface, met volledig gecorreleerde gegevens. U kunt vragen blijven stellen, geleidelijk meer details onderzoeken zoals u vereist. U kunt dan onmiddellijk actie ondernemen op de inzichten die u ontdekt, zoals het delen van publiek voor activering en orkest.
 
 ## De krachtige rapporteringsengine van CJA
 
@@ -48,15 +48,15 @@ CJA gebruikt een krachtige merkgebonden architectuur die analyse over honderden 
 
 * **Efficiënte query op complexe gegevensstromen**: Één van de grootste verschillen van de rapporteringsmotor van traditionele SQL en gegevensbestanden NoSQL is zijn capaciteit om predikaten te bepalen die op opeenvolgingsgeoriënteerde verhoudingen op een fundamenteel niveau worden gebaseerd. Deze fundamentele zoekbewerkingen kunnen de recordstream bekijken, die bestaat uit vele interleaved (en zelfs geneste) reeksen. Zij voeren een vraag tegen elk van deze onderling verweven stromen van gegevens met de efficiency van één enkele, aangrenzende opeenvolgingsverrichting uit.
 
-* **Ontworpen om grote vragen snel te beantwoorden**: De rapportageengine is niet zo algemeen bedoeld als traditionele grote gegevenssystemen. Het is echter specifiek ontworpen om query&#39;s te beantwoorden die miljoenen of zelfs miljarden records (gebeurtenisgegevens/ervaringsgebeurtenissen), doorgaans in minder dan een seconde, beslaan. In tegenstelling tot andere grote gegevenssystemen, doet het dit niet door de gegevens te bemonsteren of de antwoorden op alle vragen vooraf te berekenen die u zou kunnen stellen. In plaats daarvan kan het de antwoorden snel genoeg berekenen om interactieve vragen van gebruiksgevallen te steunen. Dit specifieke ontwerp van de CJA-rapporteringsengine maakt het gemakkelijker om gegevens snel en snel beschikbaar te maken voor doorlopende analyse en exploratie, zodat u geleidelijk inzicht kunt krijgen in en inzicht kunt krijgen in klantreizen.
+* **Ontworpen om grote vragen snel te beantwoorden**: De rapportageengine is niet zo algemeen bedoeld als traditionele grote gegevenssystemen. Nochtans, wordt het specifiek ontworpen om vragen te beantwoorden die miljoenen of zelfs miljarden verslagen (gebeurtenisgegevens/ervaringsgebeurtenissen), over het algemeen in onder een seconde overspannen. In tegenstelling tot andere grote gegevenssystemen, doet het dit niet door de gegevens te bemonsteren of de antwoorden op alle vragen vooraf te berekenen die u zou kunnen stellen. In plaats daarvan kan het de antwoorden snel genoeg berekenen om interactieve vragen van gebruiksgevallen te steunen. Dit specifieke ontwerp van de CJA-rapporteringsengine maakt het gemakkelijker om gegevens snel en snel beschikbaar te maken voor doorlopende analyse en exploratie, zodat u geleidelijk inzicht kunt krijgen in en inzicht kunt krijgen in klantreizen.
 
-* **Handelen als een oplossing zonder kop**: U definieert de afmetingen, metriek, filters op één locatie en vervolgens kan elke CJA-client (inclusief onze openbare CJA API) toegang krijgen tot deze componenten. Dit onttrekt complexe vragen weg van eind - gebruikers en waarborgt dat de resultaten het zelfde zijn, geen kwestie die rapporteert of visualisatieclient u gebruikt.
+* **Werkt als een oplossing zonder kop**: U definieert de afmetingen, metriek, filters op één locatie en vervolgens kan elke CJA-client (inclusief onze openbare CJA API) toegang krijgen tot deze componenten. Dit onttrekt complexe vragen weg van eind - gebruikers en waarborgt dat de resultaten het zelfde zijn, geen kwestie die rapporteert of visualisatieclient u gebruikt.
 
 ## De unieke visualisatiemogelijkheden van CJA
 
 De rapporteringsmotor is fundamenteel voor CJA om u toe te staan om geleidelijk met alle gegevens van de klantenreis binnen die rapporteringsmotor in wisselwerking te staan en te handelen. CJA wordt geleverd met een uitgebreide set componenten die u in staat stellen dit visueel en via slepen en neerzetten te doen. Met BI-visualisatieprogramma&#39;s kunt u zoeken binnen de grenzen van SQL-voorbereide gegevens (zoals gedefinieerd door IT). Met CJA kunt u zo veel mogelijk splitsen en segmenteren, zonder dat u weer een SQL-weergave hoeft te maken.
 
-&quot;Progressief&quot; is hier een sleutelbegrip: in tegenstelling tot de meeste visualisaties in de hulpmiddelen van BI, staat visuele belemmering-en-dalings UI in CJA u toe om onophoudelijk uw gegevens voor uw specifieke behoeften te breken: bouwen interactief vragen visueel gebruikend relevante metriek, dimensies, filters (segmenten), berekeningen, tijdlijnen, annotaties, en andere analysewaarden.
+&quot;Progressief&quot; is hier een sleutelbegrip: in tegenstelling tot de meeste visualisaties in de hulpmiddelen van BI, staat visuele belemmering-en-dalings UI in CJA u toe om onophoudelijk uw gegevens voor uw specifieke behoeften te breken: u kunt op interactieve wijze visuele vragen bouwen gebruikend relevante metriek, afmetingen, filters (segmenten), berekeningen, tijdlijnen, annotaties, en andere analysewaarden.
 
 De volgende onderdelen van visualisatie zijn ingebouwd:
 
@@ -66,11 +66,11 @@ De volgende onderdelen van visualisatie zijn ingebouwd:
 
    * [Analyse van het behoud van klanten via cohort-/latentietabellen](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), waar u eenvoudig metriek/afmetingen sleept en neerzet in een bouwer en u wordt gedaan in minder dan 30 seconden,
 
-   * [Fallout](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md) visualisaties. binnen een minuut
+   * [Fallout](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md) visualisaties. In minder dan een minuut instellen.
 
-   * [Attributiemodellen](/help/analysis-workspace/attribution/algorithmic.md) zoals eerste aanraking, laatste aanraking, deelname, tijdverlies, zelfs aangepaste, die een paar klikken aan opstelling nemen,
+   * [Attributiemodellen](/help/analysis-workspace/attribution/algorithmic.md) zoals eerste aanraking, laatste aanraking, participatie, tijdverval, zelfs douanedegenen die een paar klikken aan opstelling vergen.
 
-* **Segmenteringsmogelijkheden in elke stap van uw progressieve exploratie**: wanneer u denkt het steek houdt, kunt u uw publiek terug in Experience Platform en van daar aan om het even welke gesteunde bestemmingen publiceren;
+* **Segmenteringsmogelijkheden in elke stap van uw progressieve exploratie**: wanneer u denkt het steek houdt, kunt u uw publiek terug naar Experience Platform en van daar aan om het even welke gesteunde bestemmingen publiceren.
 
 * **Sessionering** dat is volledig [aanpasbaar](/help/data-views/component-settings/persistence.md): u bepaalt wanneer een zitting, als deel van een kanaal in een klantenreis, begint en beëindigt.
 
@@ -85,5 +85,5 @@ Het vergelijken van de visualisatiemogelijkheden van CJA met welke hulpmiddelen 
 
 ## Samenvatting
 
-CJA verschilt van de hulpmiddelen van BI in hoe het een hoogst geoptimaliseerde klant-reis-geconcentreerde rapporteringsmotor naadloos met gebruikersvriendelijke hulpmiddelen en componenten integreert om analyses uit te voeren en rapporten en geavanceerde visualisaties te bouwen. Allemaal vanuit één interface, zonder dat u als gebruiker heen en weer moet schakelen tussen de query-engine en de visualisatieomgeving.
+CJA verschilt van de hulpmiddelen van BI in hoe het een hoogst geoptimaliseerde klant-reis-geconcentreerde rapporteringsmotor naadloos met gebruikersvriendelijke hulpmiddelen en componenten integreert om analyses uit te voeren en rapporten en geavanceerde visualisaties te bouwen. Allemaal vanuit één interface, zonder dat u heen en weer moet schakelen tussen de query-engine en de visualisatieomgeving.
 
