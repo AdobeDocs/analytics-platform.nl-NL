@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1410'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Februari 2023** |  |
+| CJA- en BI-oplossingen vergelijken | Nieuw document op een [vergelijking](../getting-started/cja-vs-bi.md) van Customer Journey Analytics naar typische BI-oplossingen. |
 | Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gemaakt, maakt Adobe een Experience Platform [streaming segment voor elk nieuw CJA Audience](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
