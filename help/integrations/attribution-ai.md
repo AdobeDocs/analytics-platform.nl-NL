@@ -4,9 +4,10 @@ title: Attribution AI integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
+mini-toc-levels: 3
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, is een multi-channel, algoritmische attributiedienst die de invloed en de incrementele impact van klanteninteractie tegen gespecificeerde resultaten berekent. Met Attribution AI kunnen marketers marketing- en advertentiekosten meten en optimaliseren door de impact van elke individuele interactie van de klant in elke fase van de klantentransmissie te begrijpen.
 
-Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen de marketing touchpoints van klanten en omzettingsdatasources in werking stelt. CJA importeert dan de uitvoer van die modellen als een gegevensset, of het kan worden geïntegreerd met de rest van uw CJA-gegevenssets. Attribution AI-toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
+Attribution AI integreert met Customer Journey Analytics (CJA) voor zover de Attribution AI modellen tegen de marketing touchpoints van klanten en omzettingsdatasources in werking stelt. CJA importeert dan de uitvoer van die modellen als een gegevensset, of het kan worden geïntegreerd met de rest van uw CJA-gegevenssets. Attribution AI-Toegelaten datasets kunnen dan in gegevensmeningen en rapportering in CJA worden gebruikt.
 
 Attribution AI steunt 3 schema&#39;s van het Experience Platform: Experience Event, Adobe Analytics en Consumer Experience Event.
 
