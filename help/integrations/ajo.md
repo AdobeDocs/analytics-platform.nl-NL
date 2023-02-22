@@ -1,13 +1,13 @@
 ---
-title: Adobe Journey Optimizer met Customer Journey Analytics integreren
+title: Adobe Journey Optimizer (AJO) integreren met Customer Journey Analytics (CJA)
 description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
-source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
+exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
+source-git-commit: 3a4dbe9a87f8e195a4daf78423d29d73f2be0f83
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Journey Optimizer met Customer Journey Analytics integreren
 
@@ -27,35 +27,56 @@ Zodra Journey Optimizer-gegevens in Adobe Experience Platform zijn opgeslagen, k
 
 Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](/help/data-views/create-dataview.md) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
-U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [Componentinstellingen](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond hoe te om afmetingen en metriek aan te passen.
+>!![NOTE]
+De verschillen in gegevens tussen AJO en CJA zijn doorgaans minder dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
 
-| Metrisch | Beschrijving | Instellingen voor gegevensweergave |
+### Dimensies configureren in de gegevensweergave
+
+In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pariteit met vergelijkbare afmetingen te bereiken. Zie [Componentinstellingen](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond afmetingsaanpassingsopties.
+
+| Dimension | Schema-element | Componentinstellingen |
 | --- | --- | --- |
-| Bounces | Het aantal berichten dat is teruggestuurd | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Als aan bepaalde criteria is voldaan<br>Gelijk aan: `bounce`<br>Gelijk aan: `denylist` |
-| Fouten | Het aantal berichten dat is uitgevallen | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `error` |
-| Exclusief | Het aantal uitgesloten berichten | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `exclude` |
-| Abonnementen opzeggen | Het aantal aftekeningmeldingen | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageInteraction.interactionType` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `unsubscribe` |
-| Klikken | Het aantal klikken binnen berichten | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageInteraction.interactionType` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `click` |
-| Openen | Het aantal geopende berichten | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageInteraction.interactionType` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `open` |
-| Spam-klachten | Aantal klachten over spam | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageInteraction.interactionType` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `spam_complaint` |
-| Berichten verzonden | Het aantal berichten dat is verzonden | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sent` |
-| Synchronisatiefouten | Het totale aantal berichten dat niet kon worden gesynchroniseerd | Het element SchemaString gebruiken `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category` met de volgende instellingen:<br>Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sync` |
+| Reisnaam | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Componenttype: Dimension |
+| Naam en versie van reis | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | Componenttype: Dimension |
+| Naam van knooppunt | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Componenttype: Dimension |
+| Type knooppunt | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | Componenttype: Dimension |
+| Campagneraam | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | Componenttype: Dimension |
+| Kanaal | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | Componenttype: Dimension |
+| Titel duwen | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.push.title` | Componenttype: Dimension |
+| E-mailonderwerp | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.email.subject` | Componenttype: Dimension |
+| Koppelingslabel | `_experience.customerJourneyManagement.`<br>`messageInteraction.label` | Componenttype: Dimension |
+| Naam experiment | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | Componenttype: Dimension<br>Contextlabels: Experimentatieexperiment |
+| Naam behandeling | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Componenttype: Dimension<br>Contextlabels: Experimentvariant |
+| Reden voor mislukte e-maillevering | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Componenttype: Dimension |
+| Reden voor uitsluiting van e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Componenttype: Dimension |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Berekende metriek configureren met behulp van Journey Optimizer-meetgegevens
+### Metriek configureren in de gegevensweergave
+
+U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [Componentinstellingen](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond metriek aanpassingsopties.
+
+| Metrisch | Beschrijving | Schema-element | Componentinstellingen |
+| --- | --- | --- | --- |
+| Bounces | Het aantal berichten dat is teruggedraaid, inclusief zowel directe stuitingen als stuitingen na levering. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Als aan bepaalde criteria is voldaan<br>Gelijk aan: `bounce`, is gelijk aan: `denylist` |
+| Stortingen na levering | Sommige e-mailservices melden de geleverde e-mailberichten en sturen deze later weer op. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `async` |
+| E-mailklikken | De telling van kliks binnen berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `click` |
+| E-mailopenen | Het aantal geopende berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `open` |
+| Fouten | Het aantal berichten dat uittrok. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `error` |
+| Exclusief | Het aantal uitgesloten berichten. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `exclude` |
+| Verzenden | Het aantal berichten dat e-mailproviders hebben geaccepteerd. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sent` |
+| Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `spam_complaint` |
+| Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `unsubscribe` |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Berekende waarden configureren in Analysis Workspace
 
 Zodra u de gewenste afmetingen en metriek voor de dataset van Journey Optimizer hebt gevormd, kunt u ook vormen [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md) voor meer inzichten over die gegevens. Deze berekende metriek zijn gebaseerd op de bovengenoemde metriek die in de Manager van de Mening van Gegevens wordt gecreeerd.
 
 | Berekende metrische waarde | Beschrijving | Formule |
 | --- | --- | --- |
-| Totaal aantal verzonden berichten | Het totale aantal verzonden, geslaagde of mislukte berichten | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+| Berichten verzonden | Het totale aantal verzonden berichten. Bevat gelukte of mislukte berichten. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
+| Berichten geleverd | Het aantal e-mails dat aan klanten wordt geleverd. | `[Sends] - [Bounces After Delivery]` |
 
 {style=&quot;table-layout:auto&quot;}
-
-## Verschillen in rapportage tussen Journey Optimizer en Customer Journey Analytics
-
-Gegevensverschillen tussen producten liggen doorgaans tussen 1-2%. Grotere verschillen tussen producten kunnen mogelijk worden toegeschreven aan:
-
-* De verwerkingstijd voor binnenkomende gegevens kan enigszins verschillen tussen producten, vooral voor gegevens die binnen de laatste twee uur worden verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
-* De berekende metrische &quot;Totaal verzonden berichten&quot;omvat niet metrisch &quot;probeert&quot;. Gegevens voor de metrische waarde &#39;Retries&#39; zijn niet opgenomen in de Dataset en tonen mogelijk lagere aantallen in CJA-rapportage versus AJO-rapportage. Nochtans, worden de gegevens van het nieuwe begin samengekomen in &quot;Berichten met succes verzonden&quot;of metrische &quot;Bounces&quot;. De datumwaaiers van het gebruik een week of ouder om discrepanties met de &quot;Totale verzonden berichten&quot;metrisch tussen producten te verlichten.
