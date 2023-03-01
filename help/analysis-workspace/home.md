@@ -5,10 +5,10 @@ description: Overzicht van Analysis Workspace-mogelijkheden
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: e104a7a36df3743028fd18b47b46e936841a586a
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +20,27 @@ Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wa
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Customer Journey Analytics aanmelden {#login}
+## Aanmelden bij Customer Journey Analytics {#login}
 
-Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Customer Journey Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics). U zult op de de lijsthomepage van het project van de Werkruimte landen, als een specifiek project niet eerder voor u is geselecteerd.
+Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Customer Journey Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics). U zult op de pagina van Projecten landen, als een specifiek project niet eerder voor u is geselecteerd.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
-## De zelfstudie Training gebruiken {#training-tutorial}
+## De sjabloon voor de zelfstudie training gebruiken {#training-tutorial}
 
-Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Workspace Training zijn, die u door algemene terminologie en stappen begeleidt voor het maken van uw eerste analyse in Workspace. Klik op **[!UICONTROL Create New Project]** en selecteer vervolgens **Lesbestand voor training** in het nieuwe project modal.
+Zodra het programma geopend, kan uw eerste eind het malplaatje van de Leerprogramma van de Opleiding van Analysis Workspace zijn, dat u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Workspace begeleidt. Om met de zelfstudie te beginnen,
+
+1. Klik op de knop **[!UICONTROL Learning]** links.
+1. Klik op **[!UICONTROL Open Tutorial]**.
 
 ![](assets/training-tutorial.png)
 
 ## Een nieuw project maken {#new-project}
 
-Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. De **nieuw project, modaal** biedt u verschillende opties om uw analyse te starten. U kunt ervoor kiezen om te beginnen met een leeg project of [leeg mobiel scorecard](/help/mobile-app/curator.md), afhankelijk van het feit of u uw analyse wilt delen vanuit de browser of de mobiele app Customer Journey Analytics dashboards.
+Nadat u de zelfstudie hebt voltooid, kunt u beginnen met het bouwen van uw eerste project. Op de [!UICONTROL Projects] kunt u kiezen om te beginnen vanaf
 
-![](assets/create-new-project.png)
+* [!UICONTROL Blank project] als u van plan bent om uw analyse van browser te delen, of
+* [[!UICONTROL Blank mobile scorecard]](/help/mobile-app/curator.md), als u uw analyse wilt delen via de mobiele app Customer Journey Analytics dashboards.
 
 ## Uw analyse maken {#analysis}
 
