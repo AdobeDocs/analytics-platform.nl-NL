@@ -4,7 +4,7 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace kunt g
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 4%
@@ -54,7 +54,7 @@ Met Customer Journey Analytics kunt u:
 
 Voordat u kunt beginnen met het gebruik van Customer Journey Analytics, moet aan de volgende voorwaarden worden voldaan:
 
-* Uw organisatie heeft een actief contract met Adobe Analytics voor Select, Prime of Ultimate met de Customer Journey Analytics add-on. Neem contact op met de accountmanager van uw organisatie als u niet zeker weet welk type contract u hebt of als u de CJA-invoegtoepassing hebt.
+* Uw organisatie heeft een actief contract met Adobe Analytics voor Select, Prime of Ultimate met de Customer Journey Analytics add-on. Als u niet zeker bent welk type van contract u hebt, of niet zeker bent als u toe:voegen-op CJA hebt, contacteer uw Team van de Rekening van de Adobe.
 * Uw organisatie is ingericht voor Adobe Experience Platform.
 * U kunt Customer Journey Analytics ook als een zelfstandig product kopen, zonder dat u Adobe Analytics nodig hebt.
 

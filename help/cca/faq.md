@@ -4,9 +4,9 @@ description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1068'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ In sommige situaties kan een individuele gebruiker veel permanente id&#39;s kopp
 
 Het aantal permanente id&#39;s is irrelevant ten gunste van de tijdelijke id. Één enkele gebruiker kan tot om het even welk aantal apparaten behoren zonder de capaciteit van CCA te beïnvloeden om over apparaten te hechten.
 
-## Wanneer ik met de gewenste informatie contact opneem met mijn accountmanager, hoe lang duurt het dan voordat de opgehaalde gegevensset beschikbaar is?
+## Zodra ik mijn Team van de Rekening van de Adobe met de gewenste informatie contacteer, hoe lang duurt het voor de opgeklapte dataset beschikbaar wordt?
 
 Livemetching is ongeveer een week beschikbaar nadat Adobe Kanaalanalyse heeft ingeschakeld. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. Kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen doorgaans een paar dagen in beslag, terwijl grote gegevenssets (1 miljard gebeurtenissen per dag) een week of meer kunnen duren.
 

@@ -4,7 +4,7 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
    * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention).
    * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * Neem contact op met de accountmanager van de Adobe om een licentie voor extra capaciteit te verkrijgen.
+   * Neem contact op met het accountteam van uw Adobe om een licentie voor extra capaciteit te verkrijgen.
 
 ## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
 

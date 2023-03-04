@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer (AJO) integreren met Customer Journey Analytics (CJA)
 description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
+source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '737'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,14 @@ Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding
 ## Verbinding maken in Customer Journey Analytics
 
 Zodra Journey Optimizer-gegevens in Adobe Experience Platform zijn opgeslagen, kunt u [Verbinding maken](/help/connections/create-connection.md) op basis van uw Journey Optimizer-gegevensset. Selecteer de gegevensset die u naar het Platform hebt verzonden.
+
+| Gegevensset | Het type DataSet | Verbindingsinstellingen | Beschrijving |
+| --- | --- | --- | --- |
+| Dataset voor AJO-feedbackgebeurtenis | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor berichtlevering, zoals &#39;[!UICONTROL Sends]&#39; en &#39;[!UICONTROL Bounces]&quot;. |
+| Dataset voor AJO-e-mailtrackingervaring | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van e-mail, zoals &#39;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, en &#39;[!UICONTROL Unsubscribes]&quot;. |
+| Dataset voor AJO-gebeurtenis voor het bijhouden van push | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van pushberichten, zoals &#39;[!UICONTROL App Launches]&quot;. |
+| Gebeurtenissen reisstap | Gebeurtenis | Persoon-id: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Bevat gebeurtenissen die tonen welke profielen aan elk knooppunt van de reis deelnamen. |
+| Dataset AJO-entiteit | Opnemen | Sleutel: `_id`<br>Overeenkomende sleutel: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Bevat classificaties die de meta-gegevens van de Reizen en van de Campagne aan alle gebeurtenisgegevens van AJO associëren. |
 
 ## De gegevensweergave configureren om de afmetingen en afmetingen van Journey Optimizer aan te passen
 
