@@ -3,22 +3,30 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
 # Deelbare koppelingen maken
 
-Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Gebruikers die een koppeling ontvangen, moeten zich aanmelden bij Customer Journey Analytics voordat ze aan het project kunnen deelnemen.
+Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Sommige verbindingstypen vereisen dat de ontvanger zich aanmeldt bij Adobe Analytics voordat het project wordt geopend, terwijl andere niet.
 
 ## Projectkoppeling ophalen {#project-link}
 
 Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICONTROL Share > Get project link]**. Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ![](assets/get-project-link.png)
+
+## Openbare koppeling ophalen
+
+{{release-limited-testing-section}}
+
+U kunt een alleen-weergeven koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics.
+
+Voor meer informatie, zie &quot;een openbare verbinding met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
