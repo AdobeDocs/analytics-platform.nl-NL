@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
+source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 33%
+source-wordcount: '890'
+ht-degree: 32%
 
 ---
 
@@ -199,6 +199,7 @@ ht-degree: 33%
 
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](../components/overview.md)
+   + [Componentbeschrijvingen toevoegen](../components/add-component-descriptions.md)
    + Annotaties {#annotations}
       + [Overzicht van annotaties](../components/annotations/overview.md)
       + [Annotaties maken](../components/annotations/create-annotations.md)
@@ -239,6 +240,7 @@ ht-degree: 33%
          + [Berekende standaard goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [Berekende standaard delen](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [Berekende standaard-beheer](../components/calc-metrics/cm-workflow/cm-manager.md)
+      + [Berekende standaardwaarden](../components/calc-metrics/default-calcmetrics.md)
       + [Basisfuncties](../components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](../components/calc-metrics/cm-adv-functions.md)
    + Datumbereiken {#cja-date-ranges}
@@ -248,7 +250,11 @@ ht-degree: 33%
       + [Overzicht van agenda](../components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
-
+   + Gegevenswoordenboek {#data-dictionary}
+      + [Overzicht van gegevenswoordenboek](../components/data-dictionary/data-dictionary-overview.md)
+      + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
+      + [Onderdeelitems in gegevenswoordenboek bewerken](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [Gezondheid gegevenswoordenboek controleren](../components/data-dictionary/monitor-data-dictionary-health.md)
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
