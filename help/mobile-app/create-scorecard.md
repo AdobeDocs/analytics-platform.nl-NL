@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 05cc4410d78e69919447356ea343543c3415afd7
+source-git-commit: 7065215f89f964e7504f3e95996b352410b89779
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 0%
@@ -225,7 +225,7 @@ Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Een gegevensartikel maken**
+**Een gegevensartikel maken** {#data-story-create}
 
 Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te voegen.
 
