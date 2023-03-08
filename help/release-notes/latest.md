@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d1fec541a41f01bf249cedb5f7e535166174a372
+source-git-commit: 2f974cab2eee158f3ac5c1ae6139cfd924d62c67
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '347'
+ht-degree: 7%
 
 ---
 
@@ -22,14 +22,14 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | ----------- | ---------- | ----- | --- |
 | **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, meetgegevens) in hun CJA-omgeving bijhouden en beter begrijpen. Meer informatie | 8 maart 2023 | 22 maart 2023 |
 | **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. Meer informatie | N.v.t. | 8 maart 2023 |
-| **Vervaldata voor geplande projecten** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. | N.v.t. | 8 maart 2023 |
+| **Vervaldata voor geplande projecten** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) | N.v.t. | 8 maart 2023 |
 | **Het delen van de verbinding voor projecten (geen vereiste login) - Privé bètatoegang slechts** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot CJA. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor CJA zijn. Meer informatie (volgen)<p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie. | 15 maart 2023 (particuliere bèta) | April 2023 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Customer Journey Analytics
 
-AN-309729; AN-309975; AN-311779; AN-313095;
+AN-309729; AN-309975; AN-311779; AN-313095
 
 ## Belangrijke kennisgevingen voor CJA-beheerders
 

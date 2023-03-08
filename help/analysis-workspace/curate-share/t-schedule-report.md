@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 5adf47139a3a083f90007dfab3bc63fd187ddcff
+source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s
 | [!UICONTROL Owner] | De persoon die het project heeft gemaakt en bezit. |
 | [!UICONTROL Tags] | (facultatief) het etiketteren is een goede manier om projecten te organiseren. Alle gebruikers kunnen labels maken en een of meer tags toepassen op een project. U kunt echter alleen labels zien voor de projecten die u hebt of die met u zijn gedeeld. |
 | [!UICONTROL Delivered To] | De ontvanger(s) van dit geplande project. |
-| [!UICONTROL Expiration Date] | De standaardvervaldatum hangt van de planningsfrequentie af. Zie &quot;Geplande projectvervaldatums&quot; hieronder. |
+| [!UICONTROL Expiration Date] | U kunt de vervaldatum instellen op maximaal één jaar, ongeacht de frequentie van de planning. |
 | [!UICONTROL Frequency] | Hoe vaak wilt u dat dit planningsproject naar de ontvanger(s) wordt verzonden. |
 | [!UICONTROL Execution Time] | Op welk tijdstip van de dag dit geplande project wordt verzonden. |
 | [!UICONTROL Number of Queries] | Het aantal vragen tegen dit project. |
@@ -76,15 +76,6 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten:
 | **[!UICONTROL View schedule ID]** | Navigeer naar kolomopties rechtsboven en voeg de kolom Id van planning toe aan de tabel. De geplande id is vaak handig voor foutopsporing. |
 
 De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt.
-
-## Vervaldata voor geplande projecten {#expiration}
-
-De vervaldatums voor geplande projecten zijn afhankelijk van de geplande leveringsfrequentie:
-
-* Uurleveringen verlopen over een week.
-* Dagelijkse leveringen verlopen over een maand.
-* Wekelijkse leveringen verlopen over 6 maanden.
-* Maandelijkse/jaarlijkse leveringen verlopen over een jaar.
 
 ## Wachtwoord-beschermt een gepland project {#password}
 
