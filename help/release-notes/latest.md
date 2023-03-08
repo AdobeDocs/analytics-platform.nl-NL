@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b73404d9594b0915cea64f4016c9c7b36c3aaf01
+source-git-commit: c6714b375c8e74f12018fe54d80eb411e55e7097
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 6%
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
-# Opmerkingen bij de release Current Customer Journey Analytics (CJA) (februari 2023)
+# Opmerkingen bij de release Current Customer Journey Analytics (CJA) (maart 2023)
 
-**Laatste update**: 23 februari 2023
+**Laatste update**: 8 maart 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,25 +20,23 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Bijwerken naar publiek CJA** | Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Er wordt alleen een streaming segment gemaakt als uw organisatie is ingesteld op streamingsegmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | N.v.t. | 3 februari 2023 |
-| **Vergelijk datumbereiken in Mobile Scorecards verbergen** | Met Mobile Scorecards kunt u nu vergelijkingsdatumbereiken verbergen. | N.v.t. | 8 februari 2023 |
-| **Agenda-updates in werkruimte** | <ul><li>Datums deelvenster Anker: U kunt de componenten van het datumbereik relatief maken ten opzichte van de deelvensterkalender. [Meer informatie](/help/components/date-ranges/calendar.md)</li><li>Updates voor kalenderstijlen: De kalenderstijlen door UI zijn bevorderd om een consistentere en gebruiksvriendelijker werkschema voor te stellen.</li><li>Updates van de kalenderformule: Als u relatieve datums gebruikt, wordt in alle kalenderformules het begin van het datumbereik van het deelvenster weergegeven. [Meer informatie](/help/components/date-ranges/calendar.md)</li></ul> | N.v.t. | 8 februari 2023 |
-| **Updates voor het datumbereik van deelvensters** | In Workspace zijn de volgende verbeteringen aangebracht:<ul><li>Vanaf de release van februari worden voorvertoningen van componenten en gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen. </li><li>Alle weergegeven dimensie-items zijn beschikbaar op basis van het datumbereik van het deelvenster.</li><li>Alle datumvoorvertoningen in het segment en de berekende metrische builders worden gebaseerd op het bereik van de deelvensterdatum (tenzij ze worden benaderd door de componentmanagers, die geen bijbehorend deelvenster hebben, zijn ze nog steeds gebaseerd op de laatste 90 dagen).</li><li>In alle voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.</li></ul> | N.v.t. | 8 februari 2023 |
-| **Rij-/kolomfiltering voor streaming Adobe Analytics Source Connector** | Met de Bronverbinding Analytics in Adobe Experience Platform kunt u nu analysegegevens filteren die worden gebruikt om profielen te vullen in [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en).<p>Filteren op rijniveau helpt het aantal gebeurtenissen dat aan profielen is gekoppeld, te verminderen. Filteren op kolomniveau helpt de rijkheid van de gebeurtenissen zelf te verminderen, zodat u het gebruik van profielrechten kunt optimaliseren. Deze filtering is alleen van toepassing op gegevens die naar het realtime-klantprofiel worden verzonden en [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en).<p>**Filteren heeft geen invloed op de gegevens die naar het Data Lake worden verzonden voor gebruik in toepassingen zoals Customer Journey Analytics**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N.v.t. | Gewijzigd tot 29 maart 2023 |
+| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, meetgegevens) in hun CJA-omgeving bijhouden en beter begrijpen. Meer informatie | 8 maart 2023 | 22 maart 2023 |
+| **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. Meer informatie | N.v.t. | 8 maart 2023 |
+| **Vervaldata voor geplande projecten** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. | N.v.t. | 8 maart 2023 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Oplossingen in Customer Journey Analytics
 
-AN-309106
+AN-309729; AN-309975; AN-311779; AN-313095;
 
 ## Belangrijke kennisgevingen voor CJA-beheerders
 
 | Bericht | Bericht toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| Geen huidige aankondigingen | N.v.t. | N.v.t. |
+| Beschikbaarheid van analytische bronconnector | 15 februari 2023 | Op 28 februari 2023 werd de Analytics Source Connector beschikbaar gesteld in het nieuwe Adobe Experience Platform-datacenter in Canada. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gerelateerde bronnen
 
