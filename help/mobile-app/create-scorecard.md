@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
+source-git-commit: 05cc4410d78e69919447356ea343543c3415afd7
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '2301'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,68 @@ Op dezelfde manier om een component te verwijderen die op het volledige Scorecar
 
 ![Remove_components](assets/new_remove.png)
 
-## Voorvertoning scorecard {#preview}
+## Gegevensartikelen maken {#create-data-story}
+
+Een gegevensverhaal is een inzameling van ondersteunende gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch wordt gebouwd.
+
+Bijvoorbeeld, als u zich op Webverkeer concentreert, kan uw belangrijkste metrisch bezoeken zijn, maar u kunt ook in nieuwe bezoekers, unieke bezoekers geinteresseerd zijn, en u kunt gegevens willen zien die door Web-pagina worden verdeeld of door welk apparatentype het verkeer uit komt. Met gegevensartikelen in mobiele scorecardprojecten kunt u uw belangrijkste metriek vooraan en centraal plaatsen en het hele verhaal achter de metriek vertellen met meerdere detaildia&#39;s.
+
+Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobiele scorecardprojecten in Analysis Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+**Een gegevensartikel maken**
+
+Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te voegen.
+
+1. Begin met een mobiel scorecardproject.
+1. Selecteer een tegel waarvan u een artikel wilt maken.
+   ![Een gegevensartikel maken](assets/data-story1.png)
+   ![Pictogrammen voor gegevensartikelen maken](assets/create-data-story.png){width=".50%"}
+1. Voeg dia&#39;s toe om uw gegevensverhaal te bouwen. De eerste dia wordt standaard gegenereerd.
+Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
+   * Tik op + om een nieuwe dia te maken.
+   * Tik op het dubbele pictogram om de bestaande dia te dupliceren.
+1. Als u een lege dia maakt, sleept u componenten vanuit de linkerrail en zet u de component neer. U kunt ook een lay-out kiezen om de dia automatisch te vullen met de gegevens uit de tegel.
+   ![Een gegevensartikel maken](assets/data-story2.png)
+Tik op het prullenbakpictogram om een dia te verwijderen.
+
+### Een gegevensartikel aanpassen {#customize-data-story}
+
+Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om filters toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisatie te wijzigen.
+
+**Tegels aanpassen**
+
+1. Tik op een tegel. De geselecteerde tegel krijgt een blauwe omtrek en de eigenschappen Naast elkaar staan in het rechterdeelvenster.
+1. Wijzig de titel, het diagramtype en andere tegelopties.
+1. Sleep een component naar de tegel.
+   ![Een gegevensartikel maken](assets/data-story3.png)
+Wanneer u een component, zoals een visualisatie, naar een tegel sleept, wordt de component toegepast op alle dia&#39;s met gegevensartikelen.
+1. Als u een wijziging alleen op de titel wilt toepassen, houdt u Shift ingedrukt om de wijziging toe te passen.
+   ![Een gegevensartikel maken](assets/data-story4.png)
+
+>[!NOTE]
+>Dia&#39;s nemen componenten van de tegel over, maar tegels nemen geen componenten van dia&#39;s over.
+
+**Afzonderlijke dia&#39;s aanpassen**
+
+U kunt de visualisatie voor afzonderlijke dia&#39;s in een gegevensartikel wijzigen. U kunt bijvoorbeeld een horizontale balk wijzigen in een donutgrafiek voor een bepaalde dia. U kunt ook de lay-out wijzigen. Zie [Detaildia&#39;s aanpassen](#customize-detail-slide).
+
+### Een gegevensartikel voorvertonen {#preview-data-story}
+
+Nadat u een gegevensartikel hebt gemaakt, gebruikt u de opdracht **Voorvertoning** om een gegevensartikel weer te geven en te interageren alsof u een app-gebruiker bent. Voor informatie over het voorvertonen van uw gegevensartikel raadpleegt u [Een voorvertoning van een scorecard weergeven](#preview)
+
+### Navigeren tussen tegels en dia&#39;s {#navigate-tiles-slides}
+
+Op de navigatiebalk worden pictogrammen weergegeven die aangeven wat er op elke dia staat. Met de navigatiebalk kunt u gemakkelijk naar een bepaalde dia navigeren als u veel dia&#39;s hebt.
+
+Tik op de navigatiebalk om te schakelen tussen de tegel en de dia&#39;s.
+![Een gegevensartikel maken](assets/data-story5.png)
+![Een gegevensartikel maken](assets/data-story-nav.png){width="45%"}
+
+U kunt ook heen en weer navigeren met de pijlen op het toetsenbord of door een component te selecteren en deze links of rechts van het scherm te houden om te schuiven.
+
+## Voorvertoning scorecards {#preview}
 
 U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gepubliceerd in de app Analytics-dashboards.
 
@@ -235,13 +296,13 @@ U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gep
 
    * Klik en houd vast om het drukken en het houden van uw vinger op het telefoonscherm te simuleren. Dit is handig voor interactie met de visualisaties in de gedetailleerde weergave.
 
-## Een scorecard een naam geven {#name}
+## Naamscorecards {#name}
 
 Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Een scorecard delen {#share}
+## Scorecards delen {#share}
 
 U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
