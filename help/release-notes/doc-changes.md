@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
+source-git-commit: 9e87d7b834873d33474d9f48f34ee41d10271419
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1518'
 ht-degree: 6%
 
 ---
@@ -21,6 +21,9 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | --- | --- |
 | **maart 2023** |  |
 | Functieondersteuning | Bijgewerkt [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) met een lijst van eigenschappen beschikbaar in CJA maar niet beschikbaar of gesteund in AA. |
+| Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
+| Gegevenswoordenboek | <p>Nieuwe documentatie toegevoegd voor het gegevenswoordenboek, inclusief een [Overzicht](/help/components/data-dictionary/data-dictionary-overview.md), [Weergeven](/help/components/data-dictionary/view-data-dictionary.md), [Bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md), en [Toezicht](/help/components/data-dictionary/monitor-data-dictionary-health.md) het gegevenswoordenboek.</p><p>Informatie in [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md) is bijgewerkt voor de functie Gegevenswoordenboek.</p> |
+| Het delen van verbindingen voor projecten (geen vereiste login) | <p>Bijgewerkte bestaande documentatie om uit te leggen hoe u een read-only verbinding van een project kunt delen met mensen die geen toegang tot Analysis Workspace hebben.</p> <p>De bijgewerkte gebruikersdocumentatie bevat [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) en [Deelbare koppelingen maken](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Er zijn opties voor beheerders toegevoegd aan [Voorkeuren](/help/analysis-workspace/user-preferences.md).</p> |
 | **Februari 2023** |  |
 | CJA- en BI-oplossingen vergelijken | Nieuw document op een [vergelijking](../getting-started/cja-vs-bi.md) van Customer Journey Analytics naar typische BI-oplossingen. |
 | Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
@@ -93,7 +96,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) |
 | Januari 2022 | Nieuw artikel over [Adobe Analytics-gegevens vergelijken met Analytics-gegevens in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 {#21}
 
@@ -134,7 +137,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | **Januari 2021** |  |
 | Januari 2021 | Nieuw onderwerp over [het toevoegen van standaardraadplegingen aan uw dataset](/help/connections/standard-lookups.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 {#20}
 
@@ -155,4 +158,4 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | 27 februari 2020 | Updates van de [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) |
 | December 2019 | Eerste conceptversie van CJA-documentatie |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
