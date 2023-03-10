@@ -4,9 +4,9 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 5db5747637c014da00744802e81f8706c3901b5b
 workflow-type: tm+mt
-source-wordcount: '2382'
+source-wordcount: '2380'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Onlangs is in Customer Journey Analytics (CJA) een nieuwe workflow voor verbindi
    | **[!UICONTROL Backfill data]** | U kunt verzoeken de gegevens in een dataset terug te vullen die op gebeurtenistimestamps wordt gebaseerd. Bijvoorbeeld, kunt u verzoeken om de laatste 7 dagen van gegevens terug te vullen, juiste identiteitskaart van de Persoon te vormen en uw verbinding voor correcte configuratie te testen. Als alles er goed uitziet, kunt u eenvoudig back-ups maken van alle resterende gegevens.<p>Bovendien kunt u de invoer van nieuwe gegevens door dataset toelaten. U kunt bijvoorbeeld het importeren van nieuwe gegevens alleen inschakelen voor opzoekgegevens. |
    | **[!UICONTROL Backfill status]** | Geeft aan of er backfill-gegevens worden verwerkt. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Gegevenssets toevoegen en configureren {#add-dataset}
 
@@ -68,6 +68,7 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
    | --- | --- |
    | **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in het Experience Platform. Zie hieronder voor informatie over het gebruik van Identiteitskaart als Persoon identiteitskaart<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer persoon-id&#39;s niet zijn gedefinieerd in het schema. Bekijk deze video over het definiëren van een identiteit in een Experience Platform. |
    | **[!UICONTROL Timestamp]** | Alleen voor gebeurtenisgegevenssets wordt deze instelling automatisch ingesteld op het standaardtijdstempelveld van op gebeurtenissen gebaseerde schema&#39;s in Experience Platform. |
+   | **[!UICONTROL Data source type]** | De types van gegevensbronnen omvatten de gegevens van CRM, de gegevens van het Centrum van de Vraag, e-mailgegevens, enz. |
    | **[!UICONTROL Import new data]** | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in Werkruimte stromen. Kan worden ingesteld op Aan of Uit. |
    | **[!UICONTROL Dataset backfill]** | Klikken **[!UICONTROL Request backfill]** om historische gegevens te herstellen.<ul><li>U kunt elke dataset afzonderlijk terugvullen.</li><li>Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze nieuwe gegevens de laagste latentie.</li><li>Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt.</li><li>De Adobe Analytics Source Connector importeert tot 13 maanden aan gegevens, ongeacht de grootte.</li></ul> |
    | **[!UICONTROL Backfill status]** | Mogelijke statusindicatoren zijn:<ul><li>Succes</li><li>X backfill(s) verwerken</li><li>Uit</li></ul> |
@@ -79,7 +80,7 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
    | **[!UICONTROL Preview]**: `<dataset name>` | Hiermee geeft u een voorvertoning weer van de gegevensset met datum, mijn id- en id-kolommen. |
    | **[!UICONTROL Remove]** | U kunt de dataset schrappen of verwijderen en identiteitskaart van de Persoon veranderen zonder de volledige verbinding te schrappen. Dit vermindert de kosten verbonden aan gegevensopname en het lastige proces om de volledige verbinding en bijbehorende gegevensmeningen opnieuw te creëren. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Verbindingsvoorbeeld {#preview}
 
@@ -105,7 +106,7 @@ Er zijn 3 verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL P
 | **[!UICONTROL Lookup]** | Deze gegevens worden gebruikt om waarden of toetsen in uw gebeurtenis- of profielgegevens op te zoeken. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [dit geval gebruiken](/help/use-cases/b2b/b2b.md) bijvoorbeeld. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
 | **[!UICONTROL Profile]** | Gegevens die worden toegepast op uw bezoekers, gebruikers of klanten in de [!UICONTROL Event] gegevens. Bijvoorbeeld, staat u toe om de gegevens van CRM over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode, enzovoort.<br>![Persoon-id ](assets/person-id.png)**Opmerking**: Als u een verbinding creeert die datasets met verschillende IDs omvat, zal het melden dat weerspiegelen. Om datasets echt samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Numerieke velden gebruiken als opzoektoetsen en opzoekwaarden {#numeric}
 
@@ -134,7 +135,7 @@ Als u Identiteitskaart selecteert, krijgt u twee extra configuratieopties:
 | **[!UICONTROL Use Primary ID Namespace]** | Dit instrueert CJA, per rij, om de identiteit in de Kaart van de Identiteit te vinden die met een primair=true attribuut duidelijk is en dat als Persoon identiteitskaart voor die rij te gebruiken. Dit betekent dat dit de primaire sleutel is die in Experience Platform voor het verdelen zal worden gebruikt. Het is ook de eerste kandidaat voor gebruik als bezoekersidentiteitskaart van CJA (afhankelijk van hoe de dataset in een Verbinding CJA wordt gevormd). |
 | **[!UICONTROL Namespace]** | (Deze optie is alleen beschikbaar als u de primaire-id-naamruimte niet gebruikt.) Identiteitsnaamruimten zijn een component van [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) die dienen als indicatoren van de context waarop een identiteit betrekking heeft. Als u een naamruimte opgeeft, zoekt CJA in elke rij naar Identiteitskaart voor deze naamruimtesleutel en gebruikt de identiteit onder die naamruimte als de persoon-id voor die rij. Merk op dat aangezien CJA geen volledige datasetaftasten van alle rijen kan doen om te bepalen welke namespaces eigenlijk aanwezig zijn, alle mogelijke namespaces zijn vermeld in dropdown. U moet weten welke naamruimten in de gegevens zijn opgegeven. dit kan niet automatisch worden gedetecteerd. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Kwalen met de rand van Identity Map {#id-map-edge}
 
@@ -145,7 +146,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 | **[!UICONTROL Use Primary ID Namespace]ingeschakeld** | De rij wordt neergezet door CJA. | De rij wordt neergezet door CJA, aangezien geen primaire identiteitskaart wordt gespecificeerd. | Alle id&#39;s die als primair zijn gemarkeerd, worden onder alle naamruimten geëxtraheerd naar een lijst. Vervolgens worden ze alfabetisch gesorteerd; met deze nieuwe sortering wordt de eerste naamruimte met de eerste id gebruikt als de Persoon-id. | Eén id wordt gebruikt als de persoon-id. | Hoewel de naamruimte ongeldig kan zijn (niet aanwezig in AEP), gebruikt CJA de primaire id onder die naamruimte als de Person-id. |
 | **[!UICONTROL Specific Identity Map namespace]geselecteerd** | De rij wordt neergezet door CJA. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. | Alle id&#39;s onder de geselecteerde naamruimte worden geëxtraheerd naar een lijst en de eerste id wordt gebruikt als de Person-id. (Alleen een geldige naamruimte kan tijdens het maken van de verbinding worden geselecteerd, zodat een ongeldige naamruimte/id niet kan worden gebruikt als Person-id.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Het gemiddelde aantal dagelijkse gebeurtenissen berekenen
 
