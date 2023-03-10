@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 538c0d2858983fb508393c92686f3e7cc52578fa
+source-git-commit: 116000f3dd0212896ca96d7e45e4d4cfc5cdd357
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '1995'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) worden ondersteund, gedeeltelijk of niet ondersteund in Customer Journey Analytics (CJA) en welke functies van CJA niet worden ondersteund of beschikbaar zijn in AA. Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan CJA worden toegevoegd.
 
-## Volledig ondersteunde functies/componenten
+## Volledig ondersteunde functies/componenten {#full-support}
 
 | Adobe Analytics-functie | Opmerkingen over ondersteuning |
 | --- | --- |
@@ -46,9 +46,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) 
 | VRS-componentcursus | volledige ondersteuning; Nu onderdeel van gegevensweergaven. |
 | Streaming media-analyse | De mediagegevens zijn beschikbaar via de gegevensverbinding Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Nieuwe ondersteuning
+## Nieuwe ondersteuning {#new-support}
 
 | Functie | Notities |
 | --- | --- |
@@ -71,9 +71,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) 
 | Gebruikersmachtigingen/Toegangsbeheer voor gegevens | CJA maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, productprofielbeheerders en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave van gegevens kunnen bewerken. Er zijn extra gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filter of annotaties. |
 | Verwerkingsregels, VISTA-regels, regels voor verwerking van distributiekanalen | Ondersteund met Adobe Experience Platform Data Prep-functionaliteit voor zowel WebSDK-gegevenssets als gegevens van de gegevensconnector Analytics Data. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Gedeeltelijke ondersteuning
+## Gedeeltelijke ondersteuning {#partial}
 
 | Functie | Notities |
 | --- | --- |
@@ -86,9 +86,9 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) 
 | Verwerkingsregels | Voor Analytics Source Connector-gebaseerde datasets, worden de verwerkingsregels nog toegepast. [Mogelijkheden voor gegevensuitwisseling in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) kan ook worden gebruikt als vervanging voor verwerkingsregels voor gegevens die rechtstreeks naar het Platform gaan. |
 | A4T | De gedeeltelijke steun wordt verleend door gebieden in [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Momenteel niet ondersteund, maar gepland
+## Momenteel niet ondersteund, maar gepland {#planned}
 
 | Functie | Notities |
 | --- | --- |
@@ -104,26 +104,25 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) 
 | Projecten/filters/berekende metriek van AA aan CJA migreren | Er is steun gepland. |
 | Gegevensbronnen op overzichtsniveau | Er is steun gepland. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Steun nog niet gepland
+## Steun nog niet gepland {#not-planned}
 
 | Functie | Notities |
 | --- | --- |
 | Activity Map | De steun is nog niet gepland. |
 | Advertising Cloud | De steun is nog niet gepland. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Wordt nooit ondersteund
+## Wordt nooit ondersteund {#never}
 
 * Metrische personen met behulp van Cross-Device Coop
 * Dashboards voor rapporten en analyses
 * Bladwijzers voor rapporten en analyses
 * Doelstellingen voor rapporten en analyses
-* Mobiele services
 
-## CJA-functies niet beschikbaar in Adobe Analytics
+## CJA-functies niet beschikbaar in Adobe Analytics {#cja-not-aa}
 
 De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer Journey Analytics (CJA), maar die niet worden ondersteund in Adobe Analytics (AA).
 
@@ -138,4 +137,4 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | SQL Access | Met de optie Gegevens-Distiller kan CJA de beperkingen van gegevens die zijn verzameld op Adobe backend-verwerking verwijderen. U kunt uw gegevens met SQL wijzigen, nieuwe waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Uitgebreide beveiligings- en privacyopties - HIPAA-gereedheid | CJA is HIPAA klaar en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
