@@ -4,9 +4,9 @@ description: Wat gebeurt wanneer u verbindingen, datasets, of partijen in Custom
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f56d56d65491ab14c5d0e6d3005c0e5e13127c9b
+source-git-commit: 64c165e30926f2571bce5ea2f31560daf50acc46
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Overweeg dit alvorens u verbindingen, datasets, of partijen in Customer Journey 
 
 | Wanneer u... | Dit gebeurt... |
 | --- | --- |
-| Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
+| Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul>U kunt geen CJA-verbindingen verwijderen die zijn gekoppeld aan AEP-sandboxen waarvoor u geen machtigingen hebt. Zelfs als u machtigingen hebt voor de gegevensweergaven die op die verbindingen zijn gebaseerd, kunt u de verbindingen pas verwijderen als u machtigingen hebt gekregen voor de onderliggende AEP-sandboxen. |
 | Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform] (AEP) | Het schrappen van een dataset in AEP zal gegevensstroom van die dataset aan om het even welke verbindingen tegenhouden die die dataset omvatten. Om het even welke gegevens van die dataset worden niet automatisch geschrapt van bijbehorende Verbindingen CJA. |
 | Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics] | Wanneer u een dataset van een verbinding in CJA schrapt, zullen om het even welke gegevensmeningen en projecten die zich op die dataset baseerden niet meer werken. |
 | Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform]) | Als een partij uit een [!UICONTROL Adobe Experience Platform] dataset, zal de zelfde partij uit om het even welk worden verwijderd [!UICONTROL Customer Journey Analytics] verbindingen die die specifieke partij bevatten. [!UICONTROL Customer Journey Analytics] wordt op de hoogte gesteld van partijen die zijn verwijderd in [!UICONTROL Adobe Experience Platform]. |
