@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer (AJO) integreren met Customer Journey Analytics (CJA)
 description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
+source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,10 @@ Zodra Journey Optimizer-gegevens in Adobe Experience Platform zijn opgeslagen, k
 
 Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](/help/data-views/create-dataview.md) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
->!![NOTE]
-De verschillen in gegevens tussen AJO en CJA zijn doorgaans minder dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
+>[!NOTE]
+>
+>De verschillen in gegevens tussen AJO en CJA zijn doorgaans minder dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
+
 
 ### Dimensies configureren in de gegevensweergave
 
@@ -58,7 +60,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 | Reden voor mislukte e-maillevering | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Componenttype: Dimension |
 | Reden voor uitsluiting van e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Componenttype: Dimension |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Metriek configureren in de gegevensweergave
 
@@ -76,7 +78,7 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `spam_complaint` |
 | Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `unsubscribe` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Berekende waarden configureren in Analysis Workspace
 
@@ -87,4 +89,4 @@ Zodra u de gewenste afmetingen en metriek voor de dataset van Journey Optimizer 
 | Berichten verzonden | Het totale aantal verzonden berichten. Bevat gelukte of mislukte berichten. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
 | Berichten geleverd | Het aantal e-mails dat aan klanten wordt geleverd. | `[Sends] - [Bounces After Delivery]` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
