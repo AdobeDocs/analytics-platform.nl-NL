@@ -4,9 +4,9 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 1490efac916594b7d7eb146f1cfa6a1835878199
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2371'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,8 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
    | --- | --- |
    | **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in het Experience Platform. Zie hieronder voor informatie over het gebruik van Identiteitskaart als Persoon identiteitskaart<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer persoon-id&#39;s niet zijn gedefinieerd in het schema. Bekijk deze video over het definiëren van een identiteit in een Experience Platform. |
    | **[!UICONTROL Timestamp]** | Alleen voor gebeurtenisgegevenssets wordt deze instelling automatisch ingesteld op het standaardtijdstempelveld van op gebeurtenissen gebaseerde schema&#39;s in Experience Platform. |
-   | **[!UICONTROL Data source type]** | De volgende gegevensbronnen kunnen worden gebruikt: Webgegevens, Mobile App-gegevens, POS-gegevens, CRM-gegevens, enquêtegegevens, Call Center-gegevens, productgegevens, accountgegevens, transactiegegevens, feedback van klanten en andere gegevens. |
-   | **[!UICONTROL Import new data]** | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in Werkruimte stromen. Kan worden ingesteld op Aan of Uit. |
+   | **[!UICONTROL Data source type]** | De volgende gegevensbronnen kunnen worden gebruikt: [!UICONTROL Web data], [!UICONTROL Mobile App data], [!UICONTROL POS data], [!UICONTROL CRM data], [!UICONTROL Survey data], [!UICONTROL Call Center data], [!UICONTROL Product data], [!UICONTROL Accounts data], [!UICONTROL Transaction data], [!UICONTROL Customer Feedback data], en [!UICONTROL Other]. |
+   | **[!UICONTROL Import new data]** | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in Werkruimte stromen. Kan worden ingesteld op [!UICONTROL On] of [!UICONTROL Off]. |
    | **[!UICONTROL Dataset backfill]** | Klikken **[!UICONTROL Request backfill]** om historische gegevens te herstellen.<ul><li>U kunt elke dataset afzonderlijk terugvullen.</li><li>Wij geven prioriteit aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat hebben deze nieuwe gegevens de laagste latentie.</li><li>Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt.</li><li>De Adobe Analytics Source Connector importeert tot 13 maanden aan gegevens, ongeacht de grootte.</li></ul> |
    | **[!UICONTROL Backfill status]** | Mogelijke statusindicatoren zijn:<ul><li>Succes</li><li>X backfill(s) verwerken</li><li>Uit</li></ul> |
    | **[!UICONTROL Dataset ID]** | Deze id wordt automatisch gegenereerd. |

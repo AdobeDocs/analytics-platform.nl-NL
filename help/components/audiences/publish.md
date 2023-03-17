@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | Vanuit een tabel voor vrije vorm | Klik met de rechtermuisknop op een item in een tabel voor vrije vorm en selecteer **[!UICONTROL Create an audience from selection]**. Met deze methode wordt het filter vooraf gevuld met de dimensie of het dimensie-item dat u in de tabel hebt geselecteerd. |
    | Via de interface voor het maken/bewerken van filters | Schakel het selectievakje **[!UICONTROL Create an audience from this filter]**. Met deze methode wordt het filter vooraf gevuld. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Het publiek opbouwen.
 
@@ -45,7 +45,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Filter] | Filters zijn de belangrijkste invoer voor het publiek. U kunt maximaal 20 filters toevoegen. Deze filters kunnen worden aangesloten met `And` of `Or` operatoren. |
    | [!UICONTROL View sample IDs] | Een voorbeeld van id&#39;s in dit publiek. Gebruik de zoekbalk om te zoeken naar voorbeeld-id&#39;s. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. De gegevensvoorvertoning interpreteren.
 
@@ -64,7 +64,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Namespaces included] | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
    | [!UICONTROL Sandbox] | De [Experience Platform sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) waarin dit publiek woont. Wanneer u dit publiek naar het Platform publiceert, kunt u er alleen binnen de grenzen van deze sandbox mee werken. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Controleer uw publieksconfiguratie tweemaal en klik **[!UICONTROL Publish]**.
 
@@ -84,17 +84,18 @@ Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het 
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-![](assets/latency-diagram.png)
+![latentie van AEP naar CJA](assets/latency-diagram.png)
 
 | Aantal | Latentiepunt | Latentieduur |
 | --- | --- | --- |
-| 1 | Gegevensopname in Data Lake | Tot 30 minuten |
-| 2 | Gegevensopname van Experience Platform in CJA | Tot 60 minuten |
+| Niet weergegeven | Adobe Analytics to Analytics Source Connector (A4T) | Tot 30 minuten |
+| 1 | Gegevensopname in Data Lake (van Analytics Source Connector of andere bronnen) | Tot 90 minuten |
+| 2 | Gegevensopname van Experience Platform Data Lake naar CJA | Tot 90 minuten |
 | 3 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Ongeveer 60 minuten |
 | 4 | Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
 | 5 | Doel maken in AEP: Het nieuwe segment activeren | 1-2 uur |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
 
@@ -130,7 +131,7 @@ Ja, dat zal het wel.
 
 +++
 
-+++**Verzendt CJA de publieksgegevens over als pijpleidingsgebeurtenissen of een plat dossier dat ook naar gegevens meer gaat?**
++++**Verzendt CJA de publieksgegevens over als pijpleidingsgebeurtenissen of als plat dossier dat ook naar gegevens meer gaat?**
 
 CJA stroomt de gegevens in RTCP via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
 
@@ -138,7 +139,7 @@ CJA stroomt de gegevens in RTCP via pijpleiding, en deze gegevens worden ook ver
 
 +++**Welke identiteiten verzendt CJA?**
 
-Welke identiteit/naamruimteparen zijn gebruikt in het dialoogvenster [Verbinding instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection). Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;identiteitskaart van de Persoon&quot;willen gebruiken.
+Welke identiteit/naamruimteparen zijn opgegeven in het dialoogvenster [Verbinding instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection). Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;identiteitskaart van de Persoon&quot;willen gebruiken.
 
 +++
 
