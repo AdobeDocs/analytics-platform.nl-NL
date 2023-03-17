@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICON
 
 ![](assets/get-project-link.png)
 
-## Openbare koppeling ophalen
+## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
 {{release-limited-testing-section}}
 
-U kunt een alleen-weergeven koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics.
+U kunt een read-only verbinding met de projecten van Analysis Workspace met mensen delen die geen toegang tot Customer Journey Analytics hebben.
 
-Voor meer informatie, zie &quot;een openbare verbinding met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md).
+Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
