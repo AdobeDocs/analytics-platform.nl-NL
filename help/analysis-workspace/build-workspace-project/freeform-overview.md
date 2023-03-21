@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 2%
+source-wordcount: '1326'
+ht-degree: 3%
 
 ---
 
@@ -33,8 +33,6 @@ De pagina Projecten bevat de volgende informatie:
 | [Voorkeuren bewerken](/help/analysis-workspace/user-preferences.md) | Beheer instellingen voor Analysis Workspace en de bijbehorende componenten voor alle nieuwe projecten of deelvensters die u maakt. |
 | [Map maken](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Voeg een nieuwe map of submap toe aan de lijst met projecten en mappen. |
 | [Project maken](/help/analysis-workspace/home.md) | Een nieuw project starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
-| Projecten beheren <!--I don't see this option--> | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waarin al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Instellen als bestemmingspagina <!--I don't see this option--> | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
 | Meer weergeven | onthult opties voor het creëren van een leeg project of een mobiele scorecard, [weergeven, trainingszelfstudies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), of [Opmerkingen bij de release weergeven](/help/release-notes/latest.md). |
 | Mappen en projecten tonen | Geef op of u de mapstructuur van projecten wilt weergeven. Zie voor meer informatie [Over mappen in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Tabel aanpassen (pictogram) | Staat u toe om de informatie aan te passen die voor elk project op de pagina van Projecten toont. |
@@ -53,8 +51,6 @@ De pagina Projecten bevat de volgende informatie:
 | Langste datumbereik | Het langste datumbereik van het project. |
 | Aantal query&#39;s | Het totale aantal vragen in het project. |
 | Locatie | De map waarin het project zich bevindt. |
-| Mijn favoriete projecten <!--I don't see this option--> | Als u een project als favoriet wilt markeren, opent u het project en klikt u op de ster naast de naam ervan. De volgende keer dat u Workspace opent, wordt deze lijst weergegeven. |
-| Veelgebruikte projecten <!--I don't see this option--> | Hiermee geeft u alle projecten weer die u vaak opent, voor eenvoudige toegang. |
 
 ## Menubalk {#menu-bar}
 
