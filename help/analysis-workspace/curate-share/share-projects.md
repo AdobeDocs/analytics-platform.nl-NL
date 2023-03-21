@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >* Projecten met meer dan 14 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot CJA.
 
 
-Een openbare koppeling naar een Analysis Workspace-project delen:
+Een Analysis Workspace-project met iedereen delen:
 
 1. Open het Analysis Workspace-project dat u wilt delen.
 

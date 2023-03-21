@@ -3,7 +3,7 @@ description: Beheerders zijn verantwoordelijk voor het controleren van de gezond
 title: Gezondheid gegevenswoordenboek controleren
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Gezondheid gegevenswoordenboek controleren
-
-{{release-limited-testing}}
 
 Customer Journey Analytics-beheerders zijn verantwoordelijk voor het onderhoud van een gezond gegevenswoordenboek.
 

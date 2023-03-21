@@ -3,7 +3,7 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
-source-git-commit: 5d6942af4ac3f999c5e7fd7d6ba74a5fe7a26a9d
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van gegevenswoordenboek
-
-{{release-limited-testing}}
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen.
 

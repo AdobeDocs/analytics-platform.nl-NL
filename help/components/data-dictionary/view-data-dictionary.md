@@ -3,16 +3,14 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Het gegevenswoordenboek weergeven
 feature: Components
 role: User, Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Componentinformatie weergeven in gegevenswoordenboek
-
-{{release-limited-testing}}
 
 In het gegevenswoordenboek kunt u informatie weergeven over een component, zoals de componentbeschrijving, vergelijkbare componenten, andere componenten waarmee een component vaak wordt gebruikt en meer.
 
@@ -31,6 +29,8 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 1. Controleer of de rapportsuite die de component bevat die u wilt weergeven, is geselecteerd in de vervolgkeuzelijst. Standaard wordt de rapportsuite weergegeven waarin u zich al bevindt.
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
+
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](assets/dimension-icon.png) oranje zijn, **Segmenten** ![Segmentpictogram](assets/segment-icon.png) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](assets/date-range-icon.png) paars zijn, en **Metrisch** ![Metrisch pictogram](assets/default-metric-icon.png) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een segmentsjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
 
