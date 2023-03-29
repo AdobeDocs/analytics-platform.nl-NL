@@ -2,9 +2,9 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,19 @@ Zie hierboven. We sturen slechts één identiteit per CJA &quot;persoon&quot;.
 Nee. We sturen slechts één identiteit per &quot;persoon&quot;, dus er zouden geen grafiekranden zijn voor RTCP om te verbruiken.
 
 +++
+
++++**Op welk tijdstip van de dag worden dagelijks, wekelijks en maandelijks vernieuwd? Op welke dag van de week vinden wekelijkse vernieuwingen plaats?**
+
+De timing van verfrissen is gebaseerd op wanneer het originele publiek werd gepubliceerd en ankers aan dat tijdstip van dag (en dag van week of maand).
+
++++
+
++++**Kunnen de dagelijkse, wekelijkse, en maandelijkse tijd van verfrissen door gebruikers worden gevormd?**
+
+Nr, kunnen zij niet door gebruikers worden gevormd.
+
++++
+
 
 ## Volgende stappen
 
