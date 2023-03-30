@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -121,6 +121,10 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >* De capaciteit om een project op deze manier te delen kan door de beheerder CJA worden onbruikbaar gemaakt, zoals die in [Voorkeuren](/help/analysis-workspace/user-preferences.md). Als u geen project kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder CJA deze capaciteit onbruikbaar gemaakt.
 >
 >* Projecten met meer dan 14 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot CJA.
+>
+>* Gebruikers met wie u deelt, kunnen alle filters weergeven die tijdens het project op het project zijn toegepast [kromming](curate.md).
+> 
+>* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 
 
 Een Analysis Workspace-project met iedereen delen:
@@ -152,6 +156,8 @@ Een Analysis Workspace-project met iedereen delen:
 1. Deel de koppeling met de personen die u toegang tot het project wilt geven. U kunt de koppeling bijvoorbeeld in een e-mail plakken.
 
    Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken.
+
+1. (Optioneel) U kunt op de knop **Nieuwe koppeling genereren** pictogram ![Koppelingspictogram genereren](assets/regenerate-link.png) om toegang van gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
 
 1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 
