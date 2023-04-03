@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Sommige verbindingstypen vereisen dat de ontvanger zich aanmeldt bij Adobe Analytics voordat het project wordt geopend, terwijl andere niet.
 
-## Projectkoppeling ophalen {#project-link}
+## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICONTROL Share > Get project link]**. Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
+Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar [!UICONTROL **Delen**] > [!UICONTROL **Projectkoppeling ophalen**] (of **Delen**] > [!UICONTROL **Delen met Workspace-gebruikers**] > [!UICONTROL **Delen via koppeling**). Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-![](assets/get-project-link.png)
+Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 

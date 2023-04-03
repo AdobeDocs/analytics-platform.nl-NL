@@ -3,10 +3,10 @@ description: U kunt PDF/CSV-projecten aan ontvangers in uw organisatie beheren, 
 title: Menu Delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
@@ -14,10 +14,14 @@ ht-degree: 6%
 
 U kunt PDF/CSV-projecten aan ontvangers in uw organisatie binnen de werkruimte beheren, delen en plannen **Menu Delen**.
 
+>[!AVAILABILITY]
+>
+>Sommige functies die in dit artikel worden beschreven, bevinden zich in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+
 | Menuoptie | Beschrijving |
-| --- | --- |
-| [!UICONTROL Share Project] | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| [!UICONTROL Get Project Link] | Creeer een deelbare verbinding voor snelle toegang tot een project. Gebruikers moeten zich aanmelden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
-| [!UICONTROL Send File now] | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. |
-| [!UICONTROL Send File on Schedule] | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
-| [!UICONTROL Curate Project Data] | Beperk de componenten (afmetingen, metriek, filters, datumwaaiers) beschikbaar in een project. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html) |
+|---|---|
+| Delen met Workspace-gebruikers | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. Deel met specifieke gebruikers of maak een deelbare koppeling voor snelle toegang tot een project. Gebruikers moeten zich aanmelden. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) |
+| Delen met iedereen | Alleen-lezen toegang verlenen tot Analysis Workspace-projecten aan mensen die geen toegang hebben tot Adobe Analytics. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) |
+| Bestand exporteren | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
+| Bestanden exporteren plannen | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
+| Projectgegevens wissen | Beperk de componenten (afmetingen, metriek, segmenten, datumwaaiers) beschikbaar in een project. [Meer informatie](/help/analysis-workspace/curate-share/curate.md) |

@@ -5,7 +5,7 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Vanuit de werkruimte **[!UICONTROL Share]** kunt u Analysis Workspace-projecten 
 
 Een bestand direct via e-mail naar ontvangers verzenden:
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Send File Now]**.
+1. Klik op **[!UICONTROL Share]>[!UICONTROL Export file]**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
@@ -34,7 +34,7 @@ Een bestand direct via e-mail naar ontvangers verzenden:
 
 Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Send File on Schedule]**.
+1. Klik op **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
