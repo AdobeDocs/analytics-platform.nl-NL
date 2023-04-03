@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
+source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,21 @@ De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschil
 >
 >Op dit punt [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) gegevens die via de Analytics Source Connector naar Adobe Experience Platform worden gebracht **kan** worden geanalyseerd in het [!UICONTROL Experimentation] deelvenster. We verwachten dat er in 2023 een resolutie over deze kwestie komt.
 
-## Toegangsbeheer
+## Toegangsbeheer {#access}
 
 Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers (CJA) worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
 
-## Stap 1: Verbinding maken om gegevensset(s) te experimenteren
+## Nieuwe functies in Berekende metriek {#functions}
+
+Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UICONTROL Confidence]. Zie voor meer informatie [Referentie - geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md).
+
+## Stap 1: Verbinding maken om gegevensset(s) te experimenteren {#connection}
 
 Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
 
 Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in CJA](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 
-## Stap 2: Contextlabels toevoegen in gegevensweergaven
+## Stap 2: Contextlabels toevoegen in gegevensweergaven {#contect-labels}
 
 In de weergave-instellingen van CJA-gegevensweergaven kunnen beheerders toevoegen [contextlabels](/help/data-views/component-settings/overview.md) aan een afmeting of metrisch en de diensten CJA zoals [!UICONTROL Experimentation] kunnen deze labels voor hun doeleinden gebruiken. Voor het deelvenster Experimentatie worden twee vooraf gedefinieerde labels gebruikt:
 
@@ -41,7 +45,7 @@ In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één
 
 Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen experimenten zijn om mee te werken.
 
-## Stap 3: Het deelvenster Experimenteren configureren
+## Stap 3: Het deelvenster Experimenteren configureren {#configure}
 
 1. Sleep het deelvenster Experimentatie naar een project in de CJA-werkruimte.
 
@@ -62,7 +66,7 @@ Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen expe
 
 1. Klik op **[!UICONTROL Build]**.
 
-## Stap 4: De uitvoer van het deelvenster weergeven
+## Stap 4: De uitvoer van het deelvenster weergeven {#view}
 
 Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door in de rechterbovenhoek op het potlood te klikken.
 
@@ -80,7 +84,7 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 >
 >Dit panel ondersteunt momenteel geen analyse van A/A-tests.
 
-## Stap 5: De resultaten interpreteren
+## Stap 5: De resultaten interpreteren {#interpret}
 
 1. **Experimenteer is Sluiten**: Telkens wanneer u het experimentatierapport bekijkt, analyseert Adobe de gegevens die in het experiment tot op heden zijn verzameld en zal een experiment als &quot;Sluiten&quot; worden aangemerkt wanneer het altijd geldige vertrouwen een drempel van 95% overschrijdt voor *ten minste één* van de varianten (met een Bonferoni-correctie toegepast wanneer er meer dan twee armen zijn, om te corrigeren voor meervoudige hypothesetests).
 
@@ -96,7 +100,7 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 >
 >Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bijv. opzet van het experiment, omvang van de steekproef, omrekeningskoersen, betrouwbaarheid enz.) en niet alleen met de vermelding van overtuigend of niet. Zelfs als een resultaat nog niet &quot;overtuigend&quot; is, kan er nog steeds overtuigend bewijs zijn dat de ene variant anders is dan de andere (zo zijn betrouwbaarheidsintervallen bijna niet-overlapt). Idealiter zou de besluitvorming moeten worden gebaseerd op alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd.
 
-## Adobe
+## Adobe {#statistics}
 
 Om gemakkelijk te interpreteren en veilige statistische conclusies te kunnen trekken, heeft Adobe een statistische methodologie aangenomen die gebaseerd is op [Altijd geldige betrouwbaarheidsreeksen](https://doi.org/10.48550/arXiv.2103.06476).
 
@@ -104,6 +108,20 @@ Een reeks van het Vertrouwen is een &quot;opeenvolgend&quot;analoog van een Inte
 
 Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kan slechts eenmaal per experiment worden berekend om dezelfde 95%-dekkingsgarantie te bieden; niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat de foutpercentages worden verhoogd, d.w.z. dat met deze resultaten kan worden gespiekt.
 
-## Nieuwe functies in Berekende metriek
+## Niet-gerandomiseerde afmetingen interpreteren {#non-randomized}
 
-Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UICONTROL Confidence]. Zie voor meer informatie [Referentie - geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md).
+Met CJA kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor bezoekers willekeurig worden gekozen?
+
+Neem bijvoorbeeld een advertentie die een bezoeker ziet. Het kan interessant zijn om de verandering in wat metrisch (bijvoorbeeld, gemiddelde opbrengst) te meten als u besluit om bezoekers &quot;ad B&quot;in plaats van &quot;a&quot;te tonen. Het causale effect van het aantonen van advertentie B in plaats van advertentie A is van cruciaal belang om tot het besluit over het in de handel brengen te komen. Dit causale effect kan worden gemeten als de gemiddelde inkomsten over de gehele bevolking, als we de status quo van het tonen van steun A vervangen door de alternatieve strategie van het tonen van steun B.
+
+A/B-tests zijn de gouden standaard in de industrie voor het objectief meten van de effecten van dergelijke interventies. De kritieke reden waarom een A/B-test aanleiding geeft tot een causale schatting is gelegen in de randomisatie van bezoekers om een van de mogelijke varianten te ontvangen.
+
+Denk nu eens aan een dimensie die niet wordt bereikt door randomisatie, bijvoorbeeld, de Amerikaanse staat van de bezoeker. Laten we zeggen dat onze bezoekers voornamelijk uit twee staten komen, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische ligging van bezoekers verschillend is.
+
+Met het deelvenster Experimentatie in Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per staat van de bezoekers. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de bezoekers door de staten. Dit wordt ook wel &quot;Statistical Hypothesis Testing&quot; genoemd. Het resultaat van deze analyse is misschien interessant, maar niet noodzakelijkerwijs uitvoerbaar, omdat we bezoekers niet en soms niet kunnen koppelen aan een van de mogelijke waarden van de dimensie.
+
+In de volgende afbeelding worden deze situaties gecontrasteerd:
+
+![gerandomiseerd experiment](assets/randomize.png)
+
+Wanneer u de impact van interventie X op resultaat Y wilt meten, is het mogelijk dat de echte oorzaak van beide factoren de verwarrende factor C is. Als de gegevens niet worden bereikt door bezoekers op X te zetten, is het moeilijker om de impact te meten en zal de analyse expliciet rekening houden met C. randomisatie breekt de afhankelijkheid van X op C, waardoor we het effect van X op Y kunnen meten zonder dat we ons zorgen hoeven te maken over andere variabelen.
