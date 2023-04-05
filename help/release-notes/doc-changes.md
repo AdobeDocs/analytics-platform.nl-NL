@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4b84436315d4eb87e39085f4838b51797a1f9b7
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1564'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **maart 2023** |  |
+| Beslissingsbeheergegevens integreren | Toegevoegde inhoud waarin wordt uitgelegd hoe u [Adobe Journey Optimizer-beslissingsbeheergegevens integreren in CJA](/help/integrations/ajo-od.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |
 | Functieondersteuning | Bijgewerkt [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) met een lijst van eigenschappen beschikbaar in CJA maar niet beschikbaar of gesteund in AA. |
 | Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
