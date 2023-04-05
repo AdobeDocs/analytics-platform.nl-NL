@@ -1,7 +1,7 @@
 ---
 title: Adobe Journey Optimizer-beheer voor Besluit integreren met Customer Journey Analytics (CJA)
 description: Neem gegevens die door Adobe Journey Optimizer Decision Management zijn gegenereerd, in Customer Journey Analytics op en analyseer deze met Analysis Workspace.
-source-git-commit: f9ee0db464c49339bc36b144e18ef4aea4f4f033
+source-git-commit: 00a87f5f370310672ca37ab9df08350d14fc6a91
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -78,4 +78,5 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om benaderend
 | Abonnement op voorstellen opgezegd | Het aantal aanbiedingen dat wordt aangevraagd door profiel, hoeft in de toekomst niet te worden weergegeven. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Componenttype: Metrisch |
 
 {style="table-layout:auto"}
+
 [1] U kunt meerdere metriek definiëren voor de verschillende beschikbare gebeurtenistypen. Zie [Inclusief instellingen van waardecomponent](/help/data-views/component-settings/include-exclude-values.md) voor meer informatie .
