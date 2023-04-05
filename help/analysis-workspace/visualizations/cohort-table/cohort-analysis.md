@@ -3,9 +3,9 @@ title: Wat is Cohort Analysis?
 description: Meer informatie over cohortanalyse in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,7 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis]
->
->ondersteunt geen niet-filtreerbare metriek (inclusief berekende metriek), niet-geheelmetriek (zoals Opbrengst), of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan worden gebruikt in
->[!UICONTROL Cohort Analysis]en kunnen slechts met één worden verhoogd.
+>[!UICONTROL Cohort Analysis] ondersteunt geen niet-filtreerbare metriek (inclusief berekende metriek), niet-geheelmetriek (zoals Opbrengst), of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan worden gebruikt in [!UICONTROL Cohort Analysis]en kunnen slechts één voor één worden verhoogd.
 
 ## Cohortanalyse-mogelijkheden
 
