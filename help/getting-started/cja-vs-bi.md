@@ -4,13 +4,13 @@ description: Customer Journey Analytics tot BI-oplossingen vergelijken
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
+exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
-
 
 # CJA- en BI-oplossingen vergelijken
 
@@ -62,13 +62,11 @@ De volgende onderdelen van visualisatie zijn ingebouwd:
 
 * **Functies van virtuele analisten** zoals [Anomaly Detection](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) die voorspellende algoritmen en machinaal leren gebruiken om inzicht te krijgen in wat ongewoon gedrag in uw gegevens drijft.
 
-* **Geavanceerde analysefuncties** die specifiek op de inzichten van de klantenreis gericht zijn, zoals [stroomdiagrammen](/help/analysis-workspace/visualizations/c-flow/flow.md), [toewijzing-IQ](/help/analysis-workspace/attribution/overview.md), [herfstschema&#39;s](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), en [uitsplitsingen naar dimensie](/help/components/dimensions/t-breakdown-fa.md). Voorbeelden van out-of-the-box-visualisaties zijn:
+* **Geavanceerde analysefuncties** die specifiek op de inzichten van de klantenreis gericht zijn, zoals [stroomdiagrammen](/help/analysis-workspace/visualizations/c-flow/flow.md), [Kenmerk, deelvenster](/help/analysis-workspace/c-panels/attribution.md), [herfstschema&#39;s](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), en [uitsplitsingen naar dimensie](/help/components/dimensions/t-breakdown-fa.md). Voorbeelden van out-of-the-box-visualisaties zijn:
 
    * [Analyse van het behoud van klanten via cohort-/latentietabellen](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), waar u eenvoudig metriek/afmetingen sleept en neerzet in een bouwer en u wordt gedaan in minder dan 30 seconden,
 
    * [Fallout](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md) visualisaties. In minder dan een minuut instellen.
-
-   * [Attributiemodellen](/help/analysis-workspace/attribution/algorithmic.md) zoals eerste aanraking, laatste aanraking, participatie, tijdverval, zelfs douanedegenen die een paar klikken aan opstelling vergen.
 
 * **Segmenteringsmogelijkheden in elke stap van uw progressieve exploratie**: wanneer u denkt het steek houdt, kunt u uw publiek terug naar Experience Platform en van daar aan om het even welke gesteunde bestemmingen publiceren.
 
@@ -86,4 +84,3 @@ Het vergelijken van de visualisatiemogelijkheden van CJA met welke hulpmiddelen 
 ## Samenvatting
 
 CJA verschilt van de hulpmiddelen van BI in hoe het een hoogst geoptimaliseerde klant-reis-geconcentreerde rapporteringsmotor naadloos met gebruikersvriendelijke hulpmiddelen en componenten integreert om analyses uit te voeren en rapporten en geavanceerde visualisaties te bouwen. Allemaal vanuit één interface, zonder dat u heen en weer moet schakelen tussen de query-engine en de visualisatieomgeving.
-

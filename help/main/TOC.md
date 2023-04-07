@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 32%
+source-wordcount: '881'
+ht-degree: 31%
 
 ---
 
@@ -163,12 +163,6 @@ ht-degree: 32%
       + [Alleen-weergeven -projecten](../analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](../analysis-workspace/curate-share/download-send.md)
       + [Projecten plannen](../analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
-      + [Overzicht van attributie](../analysis-workspace/attribution/overview.md)
-      + [Attributiemodellen en terugzoekvensters](../analysis-workspace/attribution/models.md)
-      + [Algoritmische attributie](../analysis-workspace/attribution/algorithmic.md)
-      + [Aanbevolen werkwijzen voor kenmerken](../analysis-workspace/attribution/best-practices.md)
-      + [Veelgestelde vragen](../analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Overzicht van Virtual Analyst](../analysis-workspace/virtual-analyst/overview.md)
       + Anomaliedetectie {#anomaly-detection}
@@ -185,7 +179,6 @@ ht-degree: 32%
       + [Beheervereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Lange staart in Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
-
 
 
 

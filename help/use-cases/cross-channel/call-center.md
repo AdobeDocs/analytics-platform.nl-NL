@@ -4,7 +4,7 @@ description: Leer hoe te om een dataset tot stand te brengen die de gegevens van
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Deze vrije lijst laat u de hoogste pagina&#39;s zien die bijdragen tot de gebeur
 1. Sleep de dimensie die uw webpaginanamen bevat naar een visualisatie voor vrije-vormtabellen.
 1. Vervang metrisch met gewenste metrisch vraagcentrum dat u wilt meten.
 1. Klik op het tandwielpictogram bij de metrische koptekst. Klik op **[!UICONTROL Use non-default attribution model]**.
-1. Stel het gewenste [Attributiemodel](/help/analysis-workspace/attribution/models.md). Bijvoorbeeld, een model van het Verval van de Tijd met een halfwaardetijd van 15 minuten, en een Venster van de Raadpleging van Zitting. Dit attributiemodel geeft krediet aan de pagina&#39;s die tot de vraag aan uw vraagcentrum leiden.
+1. Stel het gewenste [Attributiemodel](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Bijvoorbeeld, een model van het Verval van de Tijd met een halfwaardetijd van 15 minuten, en een Venster van de Raadpleging van Zitting. Dit attributiemodel geeft krediet aan de pagina&#39;s die tot de vraag aan uw vraagcentrum leiden.
 
 Het resulterende rapport toont de hoogste pagina&#39;s die vraag aan uw vraagcentrum drijven. <!-- use case behind what we use these pages for -->
 

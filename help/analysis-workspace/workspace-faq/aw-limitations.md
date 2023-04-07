@@ -3,9 +3,9 @@ description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bij
 title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '294'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,3 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 
 * Enkele instellingen in het dialoogvenster [!UICONTROL Report Settings] is niet van toepassing. Analysis Workspace gebruikt alleen de [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], en [!UICONTROL CSV Separator Character].
 
-## Attribution IQ
-
-* Een subset van metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst raadpleegt u de [Veelgestelde vragen over Attribution IQ](../attribution/faq.md).

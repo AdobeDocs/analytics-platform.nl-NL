@@ -3,16 +3,27 @@ title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '514'
+ht-degree: 22%
 
 ---
 
 # Deelvenster voor attributie
 
-De [!UICONTROL Attribution] is een gemakkelijke manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie in [Attribution IQ](../attribution/overview.md) dat u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
+De [!UICONTROL Attribution] is een gemakkelijke manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie die u een specifieke werkruimte biedt voor het gebruik en vergelijken van attributiemodellen.
+
+Customer Journey Analytics verbetert de attributie door u te laten:
+
+* Definitie van attributie die verder gaat dan &#39;paid media&#39;: hiermee kan elke dimensie of gebeurtenis, en elke metric of elk kanaal worden toegepast op modellen (bijvoorbeeld intern zoeken), niet alleen marketingcampagnes.
+* Een onbeperkt aantal attributiemodellen vergelijken: vergelijk dynamisch zoveel modellen als u wilt.
+* Geen late wijzigingen tijdens de implementatie: met de functies voor verwerking van de rapporttijd en context-bewuste sessies, kan de context van het klanttraject worden ingebouwd voor toepassing tijdens runtime.
+* Construeer de sessie die het beste overeenkomt met uw attributiescenario.
+* Verdeling van kenmerken door filters: Vergelijk eenvoudig de prestaties van uw marketingkanalen met elk belangrijk filter (bijvoorbeeld Nieuwe of Herhaalde klanten, Product X versus Product Y, Loyalty level of CLV).
+* Controle dankzij &#39;channel cross-over&#39; en multi-touchanalyse: gebruik Venn-diagrammen en histogrammen en volg de trends in attributieresultaten.
+* Visuele analyse van belangrijke marketingreeksen: werk met visuele methoden die leiden tot conversie, zoals flows voor meerdere knooppunten en uitvalvisualisaties.
+* Stel berekende standaarden samen: gebruik een willekeurig aantal toewijzingsmethoden voor attributie.
 
 ## Een deelvenster met kenmerken maken
 
@@ -25,7 +36,7 @@ De [!UICONTROL Attribution] is een gemakkelijke manier om een analyse te maken w
 
    ![Dimensie en metrisch selecteren](assets/attribution_panel2.png)
 
-1. Selecteer [toewijzingsmodellen en terugzoekvenster](../attribution/models.md) je wilt vergelijken.
+1. Selecteer de kenmerken en het terugzoekvenster die u wilt vergelijken.
 
 1. Het deelvenster Kenmerken retourneert een uitgebreide set gegevens en visualisaties die de kenmerk voor de geselecteerde dimensie en de metrische waarde met elkaar vergelijken.
 

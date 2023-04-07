@@ -3,9 +3,9 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 46873cc66461c40d7f44c8aac91ddc3ccf15ee21
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '656'
 ht-degree: 19%
 
 ---
@@ -54,13 +54,13 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 ## Niet-standaard toewijzingsmodel gebruiken {#attribution}
 
-Analysis Workspace-ondersteuning [toewijzing](/help/analysis-workspace/attribution/overview.md) voor bijna elke metrische waarde.
+Hiermee kunt u de standaardkenmerkset overschrijven die is ingesteld in [Gegevensweergaven](/help/data-views/component-settings/attribution.md).
 
 1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
 
    ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
-1. Onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen [Attributiemodellen](/help/analysis-workspace/attribution/models.md).
+2. Onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen [Attributiemodellen](/help/data-views/component-settings/attribution.md).
 
    ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
 

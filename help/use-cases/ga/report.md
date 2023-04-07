@@ -4,9 +4,9 @@ description: Hiermee worden nuttige rapporten over de gegevens van Google Analyt
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U kunt bekijken welke producten de meeste vraag aan uw vraagcentrum veroorzaken 
 
 Wanneer u een afmetingsuitsplitsing van &#39;Oproepreden&#39; toepast, wordt in het voorbeeld een dimensie-item &#39;Beschadigd product&#39; weergegeven. De volgende stap zou zijn om de afdeling kwaliteitscontrole te contacteren en te zien waarom klanten beschadigde T-shirts hebben ontvangen.
 
-U kunt bekijken welke websitepagina&#39;s vraag aan het vraagcentrum leidden. Dit rapport laat u weten waar de minder optimale ervaringen op de website zijn en helpt uw productmanagers deze uitdagingen op te lossen. Het volgende voorbeeld gebruikt berekende metrisch om de gegevens te filtreren neer aan slechts zittingen die met een vraag van het vraagcentrum beëindigden. Het gebruikt ook het &quot;participatiemodel&quot; in CJA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace).
+U kunt bekijken welke websitepagina&#39;s vraag aan het vraagcentrum leidden. Dit rapport laat u weten waar de minder optimale ervaringen op de website zijn en helpt uw productmanagers deze uitdagingen op te lossen. Het volgende voorbeeld gebruikt berekende metrisch met een model van de deelnemingsattributie om de gegevens te filtreren neer aan slechts zittingen die met een vraag van het vraagcentrum beëindigden.
 
 In het volgende voorbeeld wordt getoond dat de pagina&#39;s &quot;Winkelwagentje&quot; en &quot;Afhandelingsinformatie&quot; de meeste aanroepen aandrijft.
 

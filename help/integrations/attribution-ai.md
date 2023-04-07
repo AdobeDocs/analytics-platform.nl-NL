@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -117,11 +117,11 @@ Hier zien we de aanlooptijd naar conversie wanneer een aanraakpunt in de mix zit
 
 ![Leadtijd](assets/lead-time.png)
 
-## Verschillen tussen Attribution AI en Attribution IQ
+## Verschillen tussen de toewijzingsmogelijkheden van Attribution AI en CJA
 
-Wanneer moet u dus Attribution AI-gegevens gebruiken in plaats van [Attribution IQ](/help/analysis-workspace/attribution/overview.md), een native CJA-mogelijkheid? In deze tabel worden enkele verschillen in functionaliteit weergegeven:
+In de volgende tabel worden enkele verschillen in functionaliteit weergegeven:
 
-| Functionaliteit | Attribution AI | Attribution IQ |
+| Functionaliteit | Attribution AI | CJA-toewijzing |
 | --- | --- | --- |
 | Bepaalt incrementele toewijzing | Ja | Nee |
 | Hiermee kunnen gebruikers het model aanpassen | Ja | Ja |
@@ -131,4 +131,4 @@ Wanneer moet u dus Attribution AI-gegevens gebruiken in plaats van [Attribution 
 | Op regio&#39;s gebaseerde attributiemodellen | Ja | Ja |
 | Kan marketingaanraakpunten in model configureren | Ja | Nee |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
