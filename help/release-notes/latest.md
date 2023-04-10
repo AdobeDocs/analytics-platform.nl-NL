@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ffb98086d38c2e1d880f0b3c584fdbb33d75966e
+source-git-commit: 46a0d5128dfb1023a1cb1c0627c48192d18c3a66
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '493'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, meetgegevens) in hun CJA-omgeving bijhouden en beter begrijpen. [Meer informatie](/help/components/data-dictionary/data-dictionary-overview.md) | 8 maart 2023 | **Tijdelijk niet beschikbaar** |
+| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, meetgegevens) in hun CJA-omgeving bijhouden en beter begrijpen. [Meer informatie](/help/components/data-dictionary/data-dictionary-overview.md) | 8 maart 2023 | 29 maart 2023 |
 | **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. [Meer informatie](/help/mobile-app/create-scorecard.md#create-data-story) | N.v.t. | 8 maart 2023 |
 | **Vervaldata voor geplande projecten** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) | N.v.t. | 8 maart 2023 |
 | **Het delen van de verbinding voor projecten (geen vereiste login) - Privé bètatoegang slechts** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot CJA. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor CJA zijn. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md)<p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie. | 26 april 2023 | Juni 2023 |
