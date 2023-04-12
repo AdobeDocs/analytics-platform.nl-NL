@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 5b4aac81ad2ef5829b1140334fa2e2286a529436
+source-git-commit: c8b2133a55b73757c7a74e9309ff8b74df818e34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 6%
 
 ---
 
-# Opmerkingen bij de release Current Customer Journey Analytics (CJA) (maart 2023)
+# Opmerkingen bij de huidige release van Customer Journey Analytics (CJA) (april 2023)
 
-**Laatste update**: 10 maart 2023
+**Laatste update**: 12 april 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,23 +20,22 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Begin van rollout](/help/release-notes/releases.md) | [Algemene beschikbaarheid](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Rij-/kolomfiltering voor streaming van Analyse Source Connector** | Met de Bronverbinding Analytics in Adobe Experience Platform kunt u nu analysegegevens filteren die worden gebruikt om profielen te vullen in [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en). Filteren op rijniveau helpt het aantal gebeurtenissen dat aan profielen is gekoppeld, te verminderen. Filteren op kolomniveau helpt de rijkheid van de gebeurtenissen zelf te verminderen, zodat u het gebruik van profielrechten kunt optimaliseren. Deze filtering is alleen van toepassing op gegevens die naar het realtime-klantprofiel worden verzonden en [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en). **Filteren heeft geen invloed op de gegevens die naar het Data Lake worden verzonden voor gebruik in toepassingen zoals Customer Journey Analytics**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N.v.t. | 29 maart 2023 |
 | **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, meetgegevens) in hun CJA-omgeving bijhouden en beter begrijpen. [Meer informatie](/help/components/data-dictionary/data-dictionary-overview.md) | 8 maart 2023 | 29 maart 2023 |
-| **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. [Meer informatie](/help/mobile-app/create-scorecard.md#create-data-story) | N.v.t. | 8 maart 2023 |
-| **Vervaldata voor geplande projecten** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) | N.v.t. | 8 maart 2023 |
-| **Het delen van de verbinding voor projecten (geen vereiste login) - Privé bètatoegang slechts** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot CJA. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor CJA zijn. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) | 26 april 2023 | Juni 2023 |
-| **Updates voor het datumbereik van deelvensters** | In Workspace zijn de volgende verbeteringen aangebracht:<ul><li>Vanaf de release van februari zijn dimensiepunten en voorvertoningen van gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen. </li><li>Alle weergegeven dimensie-items zijn gebaseerd op gegevens binnen het datumbereik van het deelvenster. Als een dimensie-item gegevens buiten het datumbereik heeft, kunt u aanvullende gegevens buiten het datumbereik onder aan de lijst weergeven.</li><li>Dimension die geen gegevens hebben, kunnen in het linkerspoor worden getoond. Klik op de optie Meer opties tonen om dimensie-items weer te geven met gegevens buiten het datumbereik van het deelvenster.</li><li>De voorproeven van gegevens in het segment en de berekende metrische bouwers zijn gebaseerd op de waaier van de paneeldatum tenzij betreden van de componentenmanagers, die geen bijbehorend paneel hebben en nog gebaseerd op de laatste 90 dagen zijn.</li><li>In voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.</li></ul> | N.v.t. | 8 februari 2023 |
+| **Het delen van de verbinding voor projecten (geen vereiste login) - Privé bètatoegang slechts** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot CJA. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor CJA zijn. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md)<p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie. | 26 april 2023 | Juni 2023 |
+| **Adobe Product Analytics - Alleen persoonlijke bètatoegang** | Op 21 maart 2023 kondigde Adobe Product Analytics van Adobe aan, een nieuwe manier om met kanaalgegevens en inzichten in Customer Journey Analytics te communiceren. Dankzij deze nieuwe mogelijkheden kunnen productteams gegevens en inzichten over hun productervaring zelf bedienen via geleide &#x200B; voor analyses. Teams kunnen:<ul><li>Begrijp patronen in gebruikersbetrokkenheid in tijd &#x200B;</li><li>De groei van &#x200B; analyseren</li><li>Wrijvingsgebieden in een reeks stappen identificeren &#x200B;</li><li>De impact van &#x200B; meten</li><li>Ontdek zinvolle segmenten om gedurende hun hele levenslange reis met het product &#x200B; te gaan en te voeden</li><li>Open in Analysis Workspace voor een diepgaande analyse en samenwerking met analisten en nog veel meer! &#x200B;</li></ul>Neem contact op met het accountteam van Adobe als u een CJA-klant bent en u wilt deelnemen aan de persoonlijke bètaversie. [Meer informatie](https://business.adobe.com/products/product-analytics/adobe-product-analytics.html) | N.v.t. | 17 juli 2023 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Customer Journey Analytics
 
-AN-309729; AN-309975; AN-311779; AN-313095
+AN-313118; AN-313390; AN-314135; AN-316381; AN-316811
 
 ## Belangrijke kennisgevingen voor CJA-beheerders
 
 | Bericht | Bericht toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| Beschikbaarheid van analytische bronconnector | 15 februari 2023 | Op 28 februari 2023 werd de Analytics Source Connector beschikbaar gesteld in het nieuwe Adobe Experience Platform-datacenter in Canada. |
+| N.v.t. | N.v.t. | N.v.t. |
 
 {style="table-layout:auto"}
 
