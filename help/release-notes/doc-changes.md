@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1589'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,12 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Functie | Beschrijving |
 | --- | --- |
+| **April 2023** |  |
+| Bijwerken naar documentatie in het deelvenster Experimentatie | Sectie toegevoegd op [niet-gerandomiseerde afmetingen interpreteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | **maart 2023** |  |
 | Beslissingsbeheergegevens integreren | Toegevoegde inhoud waarin wordt uitgelegd hoe u [Adobe Journey Optimizer-beslissingsbeheergegevens integreren in CJA](/help/integrations/ajo-od.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |
-| Functieondersteuning | Bijgewerkt [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) met een lijst van eigenschappen beschikbaar in CJA maar niet beschikbaar of gesteund in AA. |
+| Verbeterde functieondersteuning | Bijgewerkt [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) met een lijst van eigenschappen beschikbaar in CJA maar niet beschikbaar of gesteund in AA. |
 | Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
 | Gegevenswoordenboek | <p>Nieuwe documentatie toegevoegd voor het gegevenswoordenboek, inclusief een [Overzicht](/help/components/data-dictionary/data-dictionary-overview.md), [Weergeven](/help/components/data-dictionary/view-data-dictionary.md), [Bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md), en [Toezicht](/help/components/data-dictionary/monitor-data-dictionary-health.md) het gegevenswoordenboek.</p><p>Informatie in [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md) is bijgewerkt voor de functie Gegevenswoordenboek.</p> |
 | Het delen van verbindingen voor projecten (geen vereiste login) | <p>Bijgewerkte bestaande documentatie om uit te leggen hoe u een read-only verbinding van een project kunt delen met mensen die geen toegang tot Analysis Workspace hebben.</p> <p>De bijgewerkte gebruikersdocumentatie bevat [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) en [Deelbare koppelingen maken](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Er zijn opties voor beheerders toegevoegd aan [Voorkeuren](/help/analysis-workspace/user-preferences.md).</p> |
