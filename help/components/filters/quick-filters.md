@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ U kunt ervoor kiezen om snelle filters op te slaan als filters voor lijsten met 
 * Beschikbaarheid voor al uw werkruimteprojecten
 * Complexere filters en opeenvolgende filters ondersteunen
 
-U kunt filters opslaan vanuit de Snelle Filterbouwer of vanuit de [!UICONTROL Filter Builder].
+U kunt filters opslaan vanuit de functie Snel filter maken of vanuit de functie [!UICONTROL Filter Builder].
 
 ### Opslaan in de snelle filterbuilder {#save2}
 
@@ -119,13 +119,17 @@ Nadat u het filter hebt toegepast, kunt u het toevoegen aan de lijst met filterc
 
 1. Houd de muisaanwijzer boven het opgeslagen filter en selecteer het potloodpictogram.
 
+1. Selecteren [!UICONTROL **Opbouwfunctie openen**].
+
 1. Boven aan de Filter Builder ziet u dit dialoogvenster:
 
-   ![Dialoogvenster Filter](assets/project-only.png)
+   ![Dialoogvenster Filter](assets/project-only-filter-dialog.png)
 
-1. Schakel het selectievakje in naast **[!UICONTROL Make available to all your projects and add to your component list.]**
+1. Schakel het selectievakje in naast **[!UICONTROL Make this filtr available to all your projects and add it to your component list.]**
+
 1. Selecteren **[!UICONTROL Save]**.
-Het filter verschijnt nu in uw lijst van de filtercomponent voor al uw projecten.
+
+   Het filter verschijnt nu in uw lijst van de filtercomponent voor al uw projecten.
 U kunt ook [delen, filter](/help/components/filters/manage-filters.md) met andere mensen in uw organisatie.
 
 ## Voorbeeld van snel filter
