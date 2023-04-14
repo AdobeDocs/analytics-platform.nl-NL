@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
+source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1622'
 ht-degree: 6%
 
 ---
@@ -21,6 +21,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | --- | --- |
 | **April 2023** |  |
 | Bijwerken naar documentatie in het deelvenster Experimentatie | Sectie toegevoegd op [niet-gerandomiseerde afmetingen interpreteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| Projectfilters (ad-hocfilters en snelle filters) | Gestroomlijnde documentatie over projectfilters en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocfilters worden nu gecombineerd met de stappen voor [snelle filters maken](/help/components/filters/quick-filters.md). |
 | **maart 2023** |  |
 | Beslissingsbeheergegevens integreren | Toegevoegde inhoud waarin wordt uitgelegd hoe u [Adobe Journey Optimizer-beslissingsbeheergegevens integreren in CJA](/help/integrations/ajo-od.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |

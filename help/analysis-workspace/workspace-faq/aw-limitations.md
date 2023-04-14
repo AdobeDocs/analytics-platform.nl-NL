@@ -3,9 +3,9 @@ description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bij
 title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Componenten > Filters
 
 * Bepaalde metriek en afmetingen kunnen niet worden gefilterd, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
-* Ad-hocfilters die zijn gemaakt in het dialoogvenster [dropzone van deelvenster](/help/analysis-workspace/c-panels/panels.md) niet in de linkerrail van Workspace of de de componentenmanager van de Filter verschijnen, tenzij zij openbaar worden gemaakt. U doet dit door het filter te bewerken en **[!UICONTROL Make this filter public]**.
+* Ad-hocfilters die zijn gemaakt in het dialoogvenster [dropzone van deelvenster](/help/analysis-workspace/c-panels/panels.md) Dit is een type snel filter. Ze worden alleen weergegeven in de linkerrail van Workspace of in de beheerder van de filtercomponent als ze openbaar zijn gemaakt. Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters.md).
 
 ## Componenten > Berekende cijfers
 

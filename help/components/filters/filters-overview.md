@@ -2,10 +2,10 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 0%
+source-wordcount: '1096'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +29,7 @@ U kunt verschillende soorten filters in Werkruimte en de Bouwer van de Filter to
 | Filtertype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
 | --- | --- | --- | --- |
 | Component-list, filter | Klik +, wat u aan [Filter Builder](/help/components/filters/create-filters.md) | Al uw projecten van de Werkruimte | Voor complexere filters, opeenvolgende filters |
-| Snel filter | [Snelle filterbuilder](/help/components/filters/quick-filters.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
-| Ad-hocprojectfilter | [Sleep in segment dalingsstreek in een project](/help/components/filters/ad-hoc-filters.md) | Alleen project, maar u kunt het bestand opslaan en toevoegen aan uw filterlijst. | Voor filters met één regel |
+| Snel filter | [Snelle filterbuilder](/help/components/filters/quick-filters.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Kan worden gebruikt voor ad-hocfilters met één regel (met slepen en neerzetten) of voor het toevoegen/bewerken van meerdere regels (door op het pictogram Filter te klikken) |
 | Filters in falloutanalyse | [Uitvalvisualisatie](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
 | Op basis van berekende meetwaarden, filter | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Filter/s toepassen binnen uw metrische definitie |
 
