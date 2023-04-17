@@ -3,9 +3,9 @@ title: Wat is Cohort Analysis?
 description: Meer informatie over cohortanalyse in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 76840d025d1ace28abce5557d66d104795818167
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,6 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 * Het marketingbudget verschuiven op precies het juiste moment in de levenscyclus van de klant.
 * Herken wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
-* Een [!UICONTROL Cohort Analysis] in een rapport met instructies.
 
 [!UICONTROL Cohort Analysis] is beschikbaar voor alle Customer Journey Analytics-klanten met toegangsrechten tot [!UICONTROL Analysis Workspace].
 
