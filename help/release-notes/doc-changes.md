@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1639'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2023** |  |
+| Filterdocumentatie | Artikel toegevoegd over het gebruik van de [Filter builder](/help/components/filters/filter-builder.md). <p>Gestroomlijnde documentatie in [Filters maken](/help/components/filters/create-filters.md) en [Overzicht van filters](/help/components/filters/filters-overview.md).</p> |
 | Bijwerken naar documentatie in het deelvenster Experimentatie | Sectie toegevoegd op [niet-gerandomiseerde afmetingen interpreteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | Projectfilters (ad-hocfilters en snelle filters) | Gestroomlijnde documentatie over projectfilters en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocfilters worden nu gecombineerd met de stappen voor [snelle filters maken](/help/components/filters/quick-filters.md). |
 | **maart 2023** |  |

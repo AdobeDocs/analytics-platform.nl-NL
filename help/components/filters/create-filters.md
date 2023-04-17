@@ -2,49 +2,31 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Filters maken
 
-De Filterbouwer verstrekt een canvas om metriek, afmetingen, filters, en gebeurtenissen te slepen en te laten vallen aan filterbezoekers die op de logica van de containerhiërarchie, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee bezoekerskenmerken en handelingen tijdens bezoeken en paginakijken worden geïdentificeerd.
+U kunt verschillende soorten filters in Werkruimte tot stand brengen, afhankelijk van hoe complex zij moeten zijn, of zij op het huidige project slechts of op alle projecten, etc. van toepassing zouden moeten zijn.
 
-U kunt ogenblikkelijke filters tot stand brengen door om het even welk componententype (afmeting, afmetingpunt, gebeurtenis, metrisch, filter, filtermalplaatje, datumwaaier) in de gebied van de filterdaling bij de bovenkant van een paneel te laten vallen.
+Hieronder volgt een overzicht van de beschikbare filtertypen, met koppelingen naar informatie over hoe u deze kunt maken:
 
-Componenttypen worden automatisch omgezet in filters. U kunt ook op het plusteken (+) klikken in het dialoogvenster **[!UICONTROL Add Filter]** dropbox.
+| Filtertype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
+| --- | --- | --- | --- |
+| Component-list, filter | Klik +, wat u aan [Filter Builder](/help/components/filters/filter-builder.md) | Al uw projecten van de Werkruimte | Voor complexere filters, opeenvolgende filters |
+| Snel filter | [Snelle filterbuilder](/help/components/filters/quick-filters.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Kan worden gebruikt voor ad-hocfilters met één regel (met slepen en neerzetten) of voor het toevoegen/bewerken van meerdere regels (door op het pictogram Filter te klikken) |
+| Filters in falloutanalyse | [Uitvalvisualisatie](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
+| Op basis van berekende meetwaarden, filter | [Berekende metrische builder](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | Op berekende individuele metrieke waarde | Filter/s toepassen binnen uw metrische definitie |
 
-Houd er rekening mee dat:
-
-* U **kan** Zet de volgende componenttypen neer in de filterzone: berekende metriek en afmetingen/metriek waarvan u geen filters kunt bouwen.
-* Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39; raakfilters. Voorbeelden: &quot;Druk op de plaats waar eVar1 bestaat&quot; of &quot;druk op de plaats waar event1 bestaat&quot;.
-* Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze correct wordt behandeld.
-
-![](assets/segment-dropzone.png)
-
->[!NOTE]
->
->Filters die op deze manier worden gemaakt, zijn intern voor het project.
-
-U kunt deze filters openbaar (algemeen) maken door de volgende stappen uit te voeren:
-
-1. Houd de muisaanwijzer boven het filter in de neerzetzone en klik op het pictogram &quot;i&quot;.
-1. Klik in het informatievenster dat wordt weergegeven op **[!UICONTROL Make public]**.
-
-   ![](assets/segment-info.png)
-
-## Andere methoden voor het toepassen van filters
-
-Er zijn verschillende andere methoden voor het toepassen van filters op een project:
+Wanneer u filters toepast op een vrije-vormproject, zijn er verschillende andere methoden beschikbaar:
 
 | Handeling | Beschrijving |
 | --- | --- |
 | Filter van selectie maken | Maak een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter.<p> 1. Selecteer welke tabelrijen u wilt opnemen in het filter.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
-| Werkruimte [!UICONTROL Components] > [!UICONTROL New Filter] | Geeft de Filter Builder weer. Zie [Filter Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over filteren. |
-| Delen > Project delen of Delen > Projectgegevens krommen | In [Curven en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
-| Filters gebruiken als afmetingen | Zie onderstaande video: Filters gebruiken als Dimension in Analysis Workspace |
-
->[!VIDEO](https://video.tv.adobe.com/v/23974)
+| Werkruimte [!UICONTROL Components] > [!UICONTROL New Filter] | Geeft de Filter Builder weer. Zie [Filter Builder](/help/components/filters/filter-builder.md) voor meer informatie over filteren. |
+| Delen > Project delen of Delen > Projectgegevens krommen | In [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) of [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
+| Filters gebruiken als afmetingen | In de volgende video wordt getoond hoe u filters als afmetingen kunt gebruiken: (**Opmerking:** in deze video wordt de term &#39;&#39;segmenten&#39;&#39; gebruikt in plaats van &#39;&#39;filters&#39;&#39;. De functionaliteit is echter hetzelfde.) <p>[Segmenten gebruiken als Dimension in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en)</p> |
