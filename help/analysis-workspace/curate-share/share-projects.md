@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: df939712d3ee8d029dd42a9a769c022a4d0dbdf1
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1652'
 ht-degree: 0%
 
 ---
@@ -137,6 +137,10 @@ Een Analysis Workspace-project met iedereen delen:
    <!-- Add screen shot of new modal -->
 
 1. De optie **[!UICONTROL Link is active]** als deze optie nog niet is ingeschakeld.
+
+   Als u deze optie selecteert, wordt een koppeling naar het project gemaakt die met iedereen kan worden gedeeld. U kunt toegang tot het project op elk ogenblik onbruikbaar maken door deze optie onbruikbaar te maken.
+
+   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker slechts worden overgebracht wanneer de projecteigendom, zoals die in wordt beschreven wordt overgebracht [Gebruikerselementen overdragen of verlopen van account instellen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) in de handleiding Analytics Admin.
 
 1. Kies of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door uw CJA-beheerder):
 
