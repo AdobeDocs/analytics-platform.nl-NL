@@ -4,9 +4,9 @@ description: Uitleggen hoe gegevens uit traditionele Adobe Analytics kunnen word
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Een Adobe Analytics-bronaansluiting maken:
    ![Controleren](./assets/review.png)
 
 
-Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks, met inbegrip van het opnemen van tot 13 maanden historische gegevens te bevolken.
+Zodra de verbinding wordt gecreeerd, wordt dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken, met inbegrip van het opnemen van tot 13 maanden historische gegevens voor productiestanddozen. (Met ingang van 26 april 2023 is de achtergrondvulling in niet-productiesandboxen beperkt tot 3 maanden.)
 
 Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door Customer Journey Analytics te worden gebruikt.
 
