@@ -4,9 +4,9 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: 95f92d742dcc59098f51978a02c2989c42594807
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -51,18 +51,19 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
 
 1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)voert u het volgende uit [!UICONTROL Total Records by timestamps] query:
 
-```
-SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
-        Count(_id) AS Records 
-        FROM  {dataset} \ 
-        WHERE timestamp>=from_utc_timestamp('{fromDate}','UTC') \ 
-        AND timestamp<from_utc_timestamp('{toDate}','UTC') \ 
-        AND timestamp IS NOT NULL \ 
-        AND enduserids._experience.aaid.id IS NOT NULL  \ 
-        GROUP BY Day \ 
-        ORDER BY Day; 
-```
-
+       &quot;
+       SELECT Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10) als Dag, \
+       Tellen(_id) AS-records
+       VAN {dataset} \
+       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;) \
+       EN tijdstempel&lt;from_utc_timestamp todate=&quot;&quot; utc=&quot;&quot; span=&quot;&quot; id=&quot;11&quot; translate=&quot;no&quot; />       EN tijdstempel IS NIET NULL \
+       EN enduserids.
+_experience.id IS NIET NULL \
+       GROEP OP dag \
+       ORDER BY Day;
+       
+       &quot;
+   
 1. In [Gegevensdoorvoer analyseren](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identificeert u aan de hand van de onbewerkte gegevens of bepaalde rijen zijn uitgefilterd door de connector van de bron voor analyse.
 
    De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) Hiermee kunt u bepaalde rijen filteren tijdens de transformatie naar het XDM-schema. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als een van de volgende analytische velden deze waarden heeft, wordt de hele rij uitgefilterd.
