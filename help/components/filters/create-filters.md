@@ -2,9 +2,9 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Wanneer u filters toepast op een vrije-vormproject, zijn er verschillende andere
 | Filter van selectie maken | Maak een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter.<p> 1. Selecteer welke tabelrijen u wilt opnemen in het filter.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
 | Werkruimte [!UICONTROL Components] > [!UICONTROL New Filter] | Geeft de Filter Builder weer. Zie [Filter Builder](/help/components/filters/filter-builder.md) voor meer informatie over filteren. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) of [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
-| Filters gebruiken als afmetingen | In de volgende video wordt getoond hoe u filters als afmetingen kunt gebruiken: (**Opmerking:** in deze video wordt de term &#39;&#39;segmenten&#39;&#39; gebruikt in plaats van &#39;&#39;filters&#39;&#39;. De functionaliteit is echter hetzelfde.) <p>[Segmenten gebruiken als Dimension in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en)</p> |
+| Filters gebruiken als afmetingen | In de volgende video wordt getoond hoe u filters als afmetingen kunt gebruiken:  <p>[Filters gebruiken als afmetingen in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |
