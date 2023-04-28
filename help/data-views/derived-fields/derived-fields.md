@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
+source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '3015'
 ht-degree: 3%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 # Afgeleide velden
 
-Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid (douane) gebied staat u toe om (vaak complexe) gegevensmanipulaties te bepalen, door een klantgerichte regelbouwer. U kunt dat afgeleide gebied dan als component (metrisch of afmeting) in Werkruimte gebruiken of zelfs verder als component in de mening van Gegevens bepalen.
+Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid (douane) gebied staat u toe om (vaak complexe) gegevensmanipulaties te bepalen, door een klantgerichte regelbouwer. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs nader te definiëren als component in [Gegevens, weergave](../data-views.md).
 
-Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten CJA. Zoals Data Prep, Data Distiller of binnen ETL-processen (Extract Transform Load) / Extract Load Transform (ELT)-processen.
+Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten CJA. zoals [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)of binnen uw eigen ETL-processen (Extract Transform Load) / Extract Load Transform (ELT-processen).
 
-Afgeleide velden worden gedefinieerd als aangepaste velden binnen [Gegevensweergaven](../data-views.md)en zijn gebaseerd op een set functies en worden toegepast op beschikbare standaard- en/of schemavelden.
+Afgeleide velden worden gedefinieerd als aangepaste velden binnen [Gegevensweergaven](../data-views.md), zijn gebaseerd op een set functies en worden toegepast op beschikbare standaard- en/of schemavelden.
 
 Voorbeelden van gebruiksgevallen zijn:
 
