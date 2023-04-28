@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
+source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
 workflow-type: tm+mt
-source-wordcount: '3015'
+source-wordcount: '3020'
 ht-degree: 3%
 
 ---
@@ -15,18 +15,19 @@ ht-degree: 3%
 
 # Afgeleide velden
 
+{{release-limited-testing}}
+
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid (douane) gebied staat u toe om (vaak complexe) gegevensmanipulaties te bepalen, door een klantgerichte regelbouwer. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs nader te definiëren als component in [Gegevens, weergave](../data-views.md).
 
 Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten CJA. zoals [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)of binnen uw eigen ETL-processen (Extract Transform Load) / Extract Load Transform (ELT-processen).
 
-Afgeleide velden worden gedefinieerd als aangepaste velden binnen [Gegevensweergaven](../data-views.md), zijn gebaseerd op een set functies en worden toegepast op beschikbare standaard- en/of schemavelden.
+Afgeleide velden worden gedefinieerd als aangepaste velden binnen [Gegevensweergaven](../data-views.md), zijn gebaseerd op een set functies die als regels worden gedefinieerd en worden toegepast op beschikbare standaard- en/of schemavelden.
 
 Voorbeelden van gebruiksgevallen zijn:
 
 - Definieer een aangepast veld Paginanaam waarmee onjuist verzamelde waarden voor paginanamen worden gecorrigeerd.
 
 - Definieer een aangepast veld Marketingkanaal dat het juiste marketingkanaal bepaalt op basis van een of meer voorwaarden (bijvoorbeeld URL-parameter, pagina-URL, paginanaam).
-
 
 ## Aangepaste veldinterface
 
@@ -37,7 +38,7 @@ Wanneer u een aangepast veld maakt of bewerkt, gebruikt u de aangepaste veldinte
 
 |  | Naam | Beschrijving |
 |---------|----------|--------|
-| 1 | **Kiezer** | U gebruikt het selectiegebied om uw ![Functie](assets/Smock_Function_18_N.svg) functie,![Pictogram voor functiesjabloon](assets/Smock_FileTemplate_18_N.svg) functiesjabloon,![Pictogram Schema-veld](assets/Smock_Folder_18_N.svg) schemaveld, of![Standaardveldpictogram](assets/Smock_DragHandle_18_N.svg)het standaardgebied op aan de regelbouwer. <br/>Gebruik de vervolgkeuzelijst om te selecteren tussen [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields], en [!UICONTROL Standard fields].<br/>Met het vak Zoeken kunt u zoeken naar functies, functiesjablonen, schema&#39;s en standaardvelden. <br/>U kunt de lijst met geselecteerde objecten filteren door ![Filterpictogram](assets/Smock_Filter_18_N.svg) Filteren en filters opgeven in het dialoogvenster [!UICONTROL Filter fields by] . U kunt filters eenvoudig verwijderen met ![Pictogram Sluiten](assets/CrossSize75.svg) voor elk filter. |
+| 1 | **Kiezer** | U gebruikt het selectiegebied om uw ![Functie](assets/Smock_Function_18_N.svg) functie,![Pictogram voor functiesjabloon](assets/Smock_FileTemplate_18_N.svg) functiesjabloon,![Pictogram Schema-veld](assets/Smock_Folder_18_N.svg) schemaveld, of![Standaardveldpictogram](assets/Smock_DragHandle_18_N.svg)het standaardgebied op aan de regelbouwer. <br/>Gebruik de vervolgkeuzelijst om te selecteren tussen [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields], en [!UICONTROL Standard fields].<br/>Met de opdracht ![Zoekpictogram](assets/Smock_Search_18_N.svg) Zoekvak. <br/>U kunt de lijst met geselecteerde objecten filteren door ![Filterpictogram](assets/Smock_Filter_18_N.svg) Filteren en filters opgeven in het dialoogvenster [!UICONTROL Filter fields by] . U kunt filters eenvoudig verwijderen met ![Pictogram Sluiten](assets/CrossSize75.svg) voor elk filter. |
 | 2 | **Regelbouwer** | U kunt een aangepast veld opeenvolgend maken met een of meer regels. Een regel is een specifieke implementatie van een functie en wordt daarom altijd met slechts één functie geassocieerd. U creeert een regel door een functie in de Bouwer van de Regel te slepen en te laten vallen. Het functietype bepaalt de interface van de regel.<br/>Zie de [Regelinterface](#rule-interface) voor meer informatie . <br/>U kunt een functie bij het begin, het eind, of binnen tussen regels opnemen reeds beschikbaar in de Bouwer van de Regel. De laatste regel in de Bouwer van de Regel bepaalt de definitieve output van het douanegebied. |
 | 3 | **[!UICONTROL ** Veldinstellingen **]** | U kunt het aangepaste veld een naam geven en beschrijven en het veldtype controleren. |
 | 4 | **[!UICONTROL ** Uiteindelijke uitvoer **]** | In dit gebied ziet u een ter plekke bijgewerkte voorvertoning van uitvoerwaarden, gebaseerd op gegevens in de afgelopen 30 dagen en de wijzigingen die u aanbrengt in het aangepaste veld in de regelbouwer. |
