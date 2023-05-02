@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 64a774d9151c40ea9eadb1fb80c07db168ac8667
+source-git-commit: 7f657820e01696aa5d9b466ea2eaa6bc417ee6cf
 workflow-type: tm+mt
-source-wordcount: '3136'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 | **Algemene standaardinstellingen** |  |  |
 |  | Percentage | Hiermee geeft u waarden weer in percentages voor alle visualisaties. |
 |  | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legendetekst voor alle visualisaties verbergen. |
-|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as voor alle visualisaties. Dit kan handig zijn als u een grote gegevensset hebt. |
+|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as voor alle visualisaties. Dit kan nuttig zijn als u een grote dataset hebt. |
 |  | Dubbele as weergeven (indien van toepassing) | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 |  | Normalisatie (indien van toepassing) | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 |  | Y-as anker bij nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
@@ -115,7 +115,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 | **[Lijn](/help/analysis-workspace/visualizations/line.md)** |  |  |
 |  | Percentage | De waarden van vertoningen in percentages voor de visualisaties van de Lijn. |
 |  | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor lijnvisualisatie verbergen. |
-|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de lijnvisualisatie. Dit kan handig zijn als u een grote gegevensset hebt. |
+|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de lijnvisualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 |  | Dubbele as weergeven (indien van toepassing) | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 |  | Normalisatie (indien van toepassing) | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 |  | x-as tonen | Hiermee geeft u de x-as weer op het lijndiagram. |
@@ -166,13 +166,13 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 |  | Afkorting | In de [!UICONTROL **Samenvattingsnummer**] sectie |
 | **[Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)** |  |  |
 |  | Percentage | Hiermee geeft u waarden weer in percentages voor de Treemap-visualisaties. |
-|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de Treemap-visualisatie. Dit kan handig zijn als u een grote gegevensset hebt. |
+|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de Treemap-visualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 | **[Venn](/help/analysis-workspace/visualizations/venn.md)** |  |  |
 |  | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legendetekst voor de Venn-visualisatie verbergen. |
 | **[Spreiding](/help/analysis-workspace/visualizations/scatterplot.md)** |  |  |
 |  | Percentage | Hiermee geeft u waarden weer in percentages voor de verstrooiingsvisualisaties. |
 |  | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor de verstrooiing verbergen. |
-|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de verstrooiingsvisualisatie. Dit kan handig zijn als u een grote gegevensset hebt. |
+|  | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de verstrooiingsvisualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 |  | Anker y-as bij nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 
 ## Bedrijfsvoorkeuren

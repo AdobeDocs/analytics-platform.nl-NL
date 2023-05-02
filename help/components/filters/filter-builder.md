@@ -3,9 +3,9 @@ description: De filterontwikkelaar biedt een canvas voor het slepen en neerzette
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e918b93a7d5aa98fe0ac1532fa76a2994f6a0c07
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ U kunt regeldefinities en containers toevoegen om uw filters te definiëren. (Vo
 1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
 1. **[!UICONTROL Filters]**: Klik op de koptekst om deze uit te vouwen.
 1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit filter wordt opgeslagen. U kunt het filter nog steeds in alle rapportsuites gebruiken.
-1. **[!UICONTROL Filter Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste meetgegevens weergeven om te zien of u een geldig filter hebt en hoe breed het filter is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten om te zien of u dit filter toepast. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor te tonen [!UICONTROL Event], [!UICONTROL Person], en [!UICONTROL Session] voor een filter dat wordt uitgevoerd tegen een gegevensset. Dit diagram wordt direct bijgewerkt nadat u de filterdefinitie hebt gemaakt of gewijzigd.
+1. **[!UICONTROL Filter Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste meetgegevens weergeven om te zien of u een geldig filter hebt en hoe breed het filter is. Vertegenwoordigt de verdeling van de dataset u kunt verwachten om te zien of past u dit filter toe. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor te tonen [!UICONTROL Event], [!UICONTROL Person], en [!UICONTROL Session] voor een filter dat tegen een dataset wordt uitgevoerd. Dit diagram wordt direct bijgewerkt nadat u de filterdefinitie hebt gemaakt of gewijzigd.
 1. **[!UICONTROL Product Compatibility]**: Bevat een lijst met Adobe Analytics-producten (Analysis Workspace, [!UICONTROL Reports & Analytics], Data Warehouse) waarmee het filter dat u hebt gemaakt compatibel is. De meeste filters zijn compatibel met alle producten. Niet alle operatoren en dimensies zijn echter compatibel met alle analytische producten, met name [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html). Dit diagram wordt direct bijgewerkt nadat u wijzigingen in de filterdefinitie hebt aangebracht.
 1. **[!UICONTROL Save]** of **[!UICONTROL Cancel]**: Hiermee slaat u het filter op of annuleert u het. Na klikken **[!UICONTROL Save]**, gaat u naar Filterbeheer waar u het filter kunt beheren.
 

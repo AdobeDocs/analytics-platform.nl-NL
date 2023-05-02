@@ -3,11 +3,11 @@ description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Dashboards gebruiken:
 
    * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumbereiken—ofwel de huidige tijdsperiode of de reeks die er direct aan voorafgaat. Tik op een van deze twee opties om het eerste bereik te selecteren. Onder de **[!UICONTROL COMPARE TO]** tikt u op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tikken **[!UICONTROL Done]** in de rechterbovenhoek van het scherm. De **[!UICONTROL Date Ranges]** worden de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd, bijgewerkt met de scorebordtegels.
 
-1. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
+1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
 
    ![Segment, filter](assets/segment_filter.png)
 
@@ -149,4 +149,3 @@ Tik op de optie en geef uw e-mailadres op in het bovenste veld en uw vraag in he
 | Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
 | Datumbereik | Het primaire datumbereik voor dashboardrapportage |
 | Vergelijkingsdatumbereik | Het datumbereik dat wordt vergeleken met het primaire datumbereik |
-

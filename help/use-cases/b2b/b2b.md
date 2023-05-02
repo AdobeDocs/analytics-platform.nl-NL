@@ -4,9 +4,9 @@ description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdata
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 1a18ddbab09e272189a25041396570d127bb81c3
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven 
 
 U bereikt dit alles door de gegevens op accountniveau als een [opzoeken](/help/getting-started/cja-glossary.md) dataset.
 
-U maakt eerst een opzoekschema in Adobe Experience Platform en maakt vervolgens een gegevensset van een opzoektabel door op .csv gebaseerde gegevens op accountniveau in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA) tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
+U creeert eerst een raadplegingsschema in Adobe Experience Platform, dan creeer een dataset van de raadplegingstafel door op .csv-Gebaseerde rekening-vlakke gegevens in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (CJA) tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ description: Hoe u het palet met visualisatiekleuren wijzigt of uw eigen aangepa
 title: Kleurenpalet Visualisatie
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Houd rekening met het volgende:
 ## Het kleurenpalet wijzigen:
 
 1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Van de **[!UICONTROL Project Color Palette]** kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
+1. Van de **[!UICONTROL Project Color Palette]** in de vervolgkeuzelijst kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
 
    ![](assets/custom_palette.png)
 

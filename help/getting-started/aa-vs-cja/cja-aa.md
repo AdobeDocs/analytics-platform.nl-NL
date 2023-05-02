@@ -4,9 +4,9 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 116000f3dd0212896ca96d7e45e4d4cfc5cdd357
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '1994'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | Onbeperkte kardinaliteit / unieke waarden | CJA ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd. AA is beperkt tot unieke waarden van 500 kB. Hierdoor worden de rapportage- en analysebeperkingen opgeheven die momenteel bestaan met grootschalige implementatie van Analytics. |
 | Tijdtransformaties rapporteren | De Transformaties van de Tijd van het rapport (beter gekend als de Mening van Gegevens) in CJA staat u toe om gegevens van een verbinding verder te interpreteren. U kunt gegevens wijzigen of verwijderen zonder deze opnieuw te implementeren; subtekenreeksen gebruiken om afmetingen te manipuleren; metriek van om het even welke waarde tot stand brengen; filtersubgebeurtenissen. Dit kan allemaal niet-destructief worden gedaan. Adobe Analytics biedt beperkte mogelijkheden door middel van virtuele rapportsuites en sessionisatie. |
 | Experimentatieanalyse | CJA kan de lift en het vertrouwen evalueren van experimenten vanuit elke gegevensbron die is gedefinieerd als onderdeel van een verbinding. Dit staat u toe om oorzaak-en-effect verhoudingen tussen klanteninteractie te begrijpen die om het even welk kanaal overspannen. Analytics is beperkt tot experimentatieanalyses via de integratie Analytics for Target (A4T). |
-| Cross-device Analytics | CJA ondersteunt de naadloze combinatie van apparaatspecifieke gegevenssets van niet-geverifieerde en geverifieerde sessies. U kunt ook back-ups maken van historische gegevens op bekende apparaten. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
+| Cross-device Analytics | CJA steunt de naadloze combinatie apparaat-specifieke datasets van unauthenticated en voor authentiek verklaarde zittingen. U kunt ook back-ups maken van historische gegevens op bekende apparaten. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
 | SQL Access | Met de optie Gegevens-Distiller kan CJA de beperkingen van gegevens die zijn verzameld op Adobe backend-verwerking verwijderen. U kunt uw gegevens met SQL wijzigen, nieuwe waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Uitgebreide beveiligings- en privacyopties - HIPAA-gereedheid | CJA is HIPAA klaar en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 

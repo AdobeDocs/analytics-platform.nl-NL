@@ -4,7 +4,7 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 ## Van links/rechts
 
-Neem een deel van een tekenreeks op basis van zijn positie naar het begin of einde van een tekenreeks. **[!UICONTROL From the Left]** en **[!UICONTROL From the Right]** methoden bieden twee keuzemogelijkheden: **[!UICONTROL From]** (waar de uitvoer begint) en **[!UICONTROL To]** (waar de uitvoer eindigt).
+Neem een deel van een tekenreeks op basis van zijn positie naar het begin of einde van een tekenreeks. **[!UICONTROL From the Left]** en **[!UICONTROL From the Right]** de methodes verstrekken twee drop-down lijsten: **[!UICONTROL From]** (waar de uitvoer begint) en **[!UICONTROL To]** (waar de uitvoer eindigt).
 
 * **[!UICONTROL String Start]**: Het begin van de tekenreeks.
 * **[!UICONTROL String End]**: Het einde van de tekenreeks.
 * **[!UICONTROL Position]**: Een statisch aantal tekens van links of rechts, afhankelijk van de methode.
-* **[!UICONTROL String]**: Pas een teken of reeks tekens aan om het begin of einde van een tekenreeks aan te geven. In dit vervolgkeuzemenu ziet u ook extra opties:
+* **[!UICONTROL String]**: Pas een teken of reeks tekens aan om het begin of einde van een tekenreeks aan te geven. Deze vervolgkeuzelijst toont ook extra opties:
    * **[!UICONTROL Match]**: De tekenreeks die moet overeenkomen. Als de invoer niet overeenkomt met dit veld, [Geen waardeopties](no-value-options.md) van toepassing.
    * **[!UICONTROL Index]**: De **[!UICONTROL Match]** criteria kunnen meerdere keren voorkomen in een tekenreeks. Dit geheel getal bepaalt welke overeenkomst wordt gebruikt om de uitvoer te starten of te beëindigen, afhankelijk van de methode. Bijvoorbeeld een index van `1` vertegenwoordigt de eerste gelijke. Als de index hoger is dan het aantal beschikbare overeenkomsten, [Geen waardeopties](no-value-options.md) van toepassing.
    * **[!UICONTROL Include String]**: Een selectievakje dat het **[!UICONTROL Match]** tekenreeks in de uitvoer indien ingeschakeld.
@@ -114,7 +114,7 @@ Plaatsaanduidingen voor uitvoer worden ook ondersteund. U kunt deze reeksen gebr
 | `$+` | Hiermee wordt uitgevoerd wat overeenkomt met de laatst gemarkeerde subexpressie in de reguliere expressie. |
 | `$$` | Hiermee wordt het teken van de tekenreeks uitgevoerd `"$"`. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Video over bindingsdimensies
 

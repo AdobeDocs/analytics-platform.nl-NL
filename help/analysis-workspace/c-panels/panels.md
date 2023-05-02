@@ -3,9 +3,9 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: 15e83ab3c828b6fd91a3f729001ec4f22f24f9ec
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -63,23 +63,47 @@ Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters
 
 ![](assets/adhoc-segment-filter.png)
 
-### Vervolgkeuzefilters {#dropdown-filter}
+### Statische vervolgkeuzefilters
 
-Naast filters, laten drop-down filters u toe om met de gegevens op een gecontroleerde manier in wisselwerking te staan. U kunt bijvoorbeeld een vervolgkeuzemenu toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt filteren op Tablet, Mobiele telefoon of Computer.
+Met vervolgkeuzefilters kunt u op een gecontroleerde manier met de gegevens werken. U kunt bijvoorbeeld een vervolgkeuzemenu toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt filteren op Tablet, Mobiele telefoon of Computer.
 
 U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één project te consolideren. Als er bijvoorbeeld veel versies van hetzelfde project met verschillende landfilters zijn toegepast, kunt u alle versies samenvoegen tot één project en een vervolgkeuzelijst Land toevoegen.
 
 ![](assets/dropdown-filter-intro.png)
 
-Vervolgkeuzefilters maken:
+Een statisch vervolgkeuzemenu maken:
 
-1. Een vervolgkeuzemenu maken met [!UICONTROL Dimension items], zoals waarden binnen de [!UICONTROL Marketing Channel] , klikt u op het pijl-rechts naast uw afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meerdere onderdelen in de linkertrack en zet ze neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**. Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één filter.
-1. Als u een vervolgkeuzefilter wilt maken met een andere component, zoals metriek, filters of datumbereiken, selecteert u een van de componenttypen in de linkerrails en zet u het neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**.
-1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen geen deelvenstergegevens te filteren door **[!UICONTROL No filter]**.
+* Voor vervolgkeuzefilters die afmetingsitems gebruiken, klikt u op het pijlpictogram naar rechts naast de gewenste afmeting in de linkertrack. Deze actie stelt alle beschikbare afmetingspunten bloot. Meerdere dimensie-items in deze lijst selecteren met `[Shift + Click]` of `[Ctrl + Click]`en zet ze vervolgens neer in de dropzone van het deelvenster **terwijl u`[Shift]`**.
+* Voor vervolgkeuzefilters die andere componenten gebruiken, zoals metriek, filters of datumbereiken, selecteert u meerdere componenten met `[Shift + Click]` of `[Ctrl + Click]`. De selectie neerzetten in de dropzone van het deelvenster **terwijl u`[Shift]`**. Alle componenttypen worden in deze context als filters behandeld.
+* Een enkele vervolgkeuzelijst kan slechts één type component bevatten. Als u meerdere componenttypen in uw selectie opneemt, wordt per componenttype een aparte vervolgkeuzelijst gemaakt. Als u bijvoorbeeld zowel metriek- als dimensie-items in uw selectie opneemt, worden twee aparte vervolgkeuzefilters gemaakt. Eén vervolgkeuzemenu bevat dimensie-items en het andere filter bevat maateenheden.
+
+Selecteer een van de opties in de vervolgkeuzelijst om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen filters in de deelvenstergegevens in te voeren door **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
 
+Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volgende opties kiezen:
+
+* **[!UICONTROL Add label]**: Wanneer u een drop-down filter aan een project toevoegt, wordt een etiket automatisch geplaatst aan de componentennaam. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
+* **[!UICONTROL Delete label]**: Verwijder de tekst boven een vervolgkeuzefilter.
+* **[!UICONTROL Delete drop-down filter]**: Hiermee verwijdert u het vervolgkeuzefilter uit het deelvenster.
+
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
+
+### Dynamische vervolgkeuzefilters
+
+Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de dimensie Landen en Steden. Wanneer u een land selecteert in de vervolgkeuzelijst UICONTROL-landen, wordt de vervolgkeuzelijst Steden dynamisch aangepast zodat alleen de steden in dat land worden weergegeven.
+
+Dit concept geldt voor alle dimensies; alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Dimension-items die in statische vervolgkeuzefilters zijn geselecteerd, zijn van invloed op de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar; Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
+
+Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Clear All]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
+
+Een dynamisch vervolgkeuzemenu maken:
+
+* Eén dimensie naar de dropzone van het deelvenster slepen **terwijl u`[Shift]`**.
+* Dynamische vervolgkeuzefilters zijn niet beschikbaar voor metriek, filters of datumbereiken.
+* Klik met de rechtermuisknop op een vervolgkeuzefilter en selecteer **[!UICONTROL Delete filter]** om deze te verwijderen.
+
+Als u met de rechtermuisknop op een dynamisch vervolgkeuzefilter klikt, hebt u dezelfde opties als statische vervolgkeuzefilters.
 
 ## Klikken met rechtermuisknop {#right-click}
 
@@ -91,8 +115,8 @@ De volgende instellingen zijn beschikbaar:
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Insert Copied Panel/Visualization] | Hiermee kunt u een gekopieerd deelvenster of een visualisatie plakken (&quot;invoegen&quot;) naar een andere locatie in het project of naar een geheel ander project. |
-| [!UICONTROL Copy Panel] | Hiermee kunt u met de rechtermuisknop klikken en een deelvenster kopiëren, zodat u het kunt invoegen op een andere locatie in het project of in een geheel ander project. |
+| [!UICONTROL Insert Copied Panel/Visualization] | Hiermee kunt u een gekopieerd deelvenster of een visualisatie plakken (&quot;invoegen&quot;) naar een andere locatie in het project of naar een ander project. |
+| [!UICONTROL Copy Panel] | Hiermee kunt u met de rechtermuisknop klikken en een deelvenster kopiëren, zodat u het kunt invoegen op een andere locatie in het project of in een ander project. |
 | [!UICONTROL Duplicate Panel] | Hiermee maakt u een exacte kopie van het huidige deelvenster, dat u vervolgens kunt wijzigen. |
 | [!UICONTROL Collapse/Expand all Panels] | Hiermee vouwt u alle projectdeelvensters samen en breidt u deze uit. |
 | [!UICONTROL Collapse/Expand all Visualizations in Panel] | Hiermee vouwt u alle visualisaties in het huidige deelvenster samen en breidt u deze uit. |

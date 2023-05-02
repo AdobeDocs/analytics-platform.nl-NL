@@ -4,9 +4,9 @@ description: Het deelvenster Mediagemiddelde - Minuut publiek in Analysis Worksp
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ U kunt het deelvenster Medium Gemiddelde miniatuur publiek configureren met behu
 |---------|------------|
 | Rapportagedimensies | Wanneer u specifieke inhoud kiest, kunt u de rapportoutput selecteren om of de videonaam of de gebieden van identiteitskaart van de inhoud te gebruiken om de inhoud en zijn bijbehorend gemiddeld minipubliek voor de geselecteerde tijdspanne te tonen. |
 | Inhoud filteren op (optioneel) | U kunt de specifieke inhoud filteren op basis van de gewenste weergave of de structuur van de gegevens. |
-| Tonen, seizoen, aflevering | Als u &#39;Tonen, seizoen, aflevering&#39; selecteert, worden uw beschikbare shows weergegeven in het vervolgkeuzemenu. U kunt deze opties filteren met een zoekopdracht (of door de weergavenaam vanuit de linkerkolom te slepen en neer te zetten). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
+| Tonen, seizoen, aflevering | Als u &#39;Tonen, seizoen, aflevering&#39; selecteert, worden uw beschikbare shows weergegeven in de vervolgkeuzelijst. U kunt deze opties filteren met een zoekopdracht (of door de weergavenaam vanuit de linkerkolom te slepen en neer te zetten). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
 | Aangepaste dimensie | Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in de afmeting (facultatieve) daling te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering. |
-| Geen | U kunt *Geen* om alle videonamen weer te geven die gegevens over het gemiddelde aantal minuten publiek bevatten voor de selectie die u hebt gekozen. |
+| Geen | U kunt *Geen* om alle videonamen te tonen die gemiddelde minieme publieksgegevens voor de selectie hebben u gekozen. |
 
 ### Geavanceerde instellingen voor specifieke inhoud
 
@@ -61,9 +61,9 @@ U kunt het deelvenster Medium Gemiddelde miniatuur publiek configureren met behu
 |---------|------------|
 | Granulariteit | De standaardgranulariteit is 5 minuten, maar u kunt elk van de granulariteiten kiezen die worden gebruikt als noemer voor de tijdreeks binnen de totale tijdsperiode die is geselecteerd in de kalenderselectie. Als u bijvoorbeeld 12:00 tot 12:30 pm met een granulariteit van 5 minuten selecteert, wordt het gemiddelde aantal minuten voor het hele half uur en zes rijen met het gemiddelde aantal minuten voor elke periode van 5 minuten geretourneerd. Deze rijen worden gebruikt als datapoints voor de grafiek van de tijdreeks. |
 | Inhoud filteren op (optioneel) | U kunt de specifieke inhoud filteren op basis van de gewenste weergave of de structuur van de gegevens. |
-| Tonen, seizoen, aflevering | Selecteren *Tonen, seizoen, aflevering* geeft de beschikbare presentaties weer in het vervolgkeuzemenu, dat u kunt filteren door te zoeken (of door de naam van de show te slepen vanuit de linkerkolom). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
+| Tonen, seizoen, aflevering | Selecteren *Tonen, seizoen, aflevering* geeft de beschikbare weergaven weer in de vervolgkeuzelijst, die u kunt filteren via een zoekopdracht (of door de weergavenaam vanuit de linkerkolom te slepen en neer te zetten). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
 | Aangepaste dimensie | Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in de afmeting (facultatieve) daling te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering. |
-| Geen | U kunt *Geen* om alle videonamen weer te geven in de door u gekozen tijdsperiode. |
+| Geen | U kunt *Geen* om alle videonamen over de gekozen tijdsperiode te tonen. |
 
 ### Geavanceerde instellingen voor aangepaste tijdsperiode
 

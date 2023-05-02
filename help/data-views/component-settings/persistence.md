@@ -4,9 +4,9 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '763'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 7%
 | [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Vanaf 28 oktober 2021 wordt een terugzoekvenster van maximaal 90 dagen toegevoegd aan de [!UICONTROL Allocation] instellen. |
 | [!UICONTROL Expiration] | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: [!UICONTROL Session] (standaard), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric]. Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). De maximale vervaltijd die u kunt instellen, is 90 dagen. Als u een toewijzing van [!UICONTROL All], alleen [!UICONTROL Session] of [!UICONTROL Person] verlopen is beschikbaar. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allocation] instellingen
 
@@ -76,13 +76,13 @@ Details over de beschikbare vervalinstellingen.
 
 ## [!UICONTROL Binding Dimension]
 
-Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt koppelen aan waarden van de dimensie in een andere dimensie. Tot de geldige vervolgkeuzemogelijkheden behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
+Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
 Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
 
 ## [!UICONTROL Binding Metric]
 
-Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bindende trigger fungeert. Tot de geldige vervolgkeuzemogelijkheden behoren ook de meetgegevens die in de gegevensweergave zijn opgenomen.
+Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bindende trigger fungeert. Mogelijke geldige opties zijn meetgegevens die zijn opgenomen in de gegevensweergave.
 
 Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
 

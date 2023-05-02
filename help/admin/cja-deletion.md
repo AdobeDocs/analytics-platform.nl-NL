@@ -4,9 +4,9 @@ description: Wat gebeurt wanneer u verbindingen, datasets, of partijen in Custom
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5a93abdfa7f630175e950f385629bef81e5fe8ec
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---

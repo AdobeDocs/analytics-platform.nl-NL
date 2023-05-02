@@ -4,9 +4,9 @@ description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Het aantal permanente id&#39;s is irrelevant ten gunste van de tijdelijke id. É
 
 ## Zodra ik mijn Team van de Rekening van de Adobe met de gewenste informatie contacteer, hoe lang duurt het voor de opgeklapte dataset beschikbaar wordt?
 
-Livemetching is ongeveer een week beschikbaar nadat Adobe Kanaalanalyse heeft ingeschakeld. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. Kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen doorgaans een paar dagen in beslag, terwijl grote gegevenssets (1 miljard gebeurtenissen per dag) een week of meer kunnen duren.
+Livemetching is ongeveer een week beschikbaar nadat Adobe Kanaalanalyse heeft ingeschakeld. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. De kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen typisch een paar dagen, terwijl de grote datasets (1 miljard gebeurtenissen per dag) een week of meer kunnen vergen.
 
 ## Wat is het verschil tussen de Analysefuncties voor apparaten (een functie in traditionele Analytics) en de Analysemogelijkheden voor meerdere kanalen?
 

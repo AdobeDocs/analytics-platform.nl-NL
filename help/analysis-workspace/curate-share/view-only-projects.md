@@ -4,7 +4,7 @@ keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -38,5 +38,5 @@ Enkele opmerkelijkere toegelaten interactie in een mening-slechts project omvatt
 | --- | --- |
 | Vrije-vormtabellen | <ul><li>Paginering en sorteren</li><li>Hovering</li><li>Celselecties waarmee gekoppelde visualisaties worden bijgewerkt</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Klik met de rechtermuisknop > Kopiëren naar klembord</li></ul> |
 | Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitvouwen</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
-| Deelvensters | <ul><li>Interactieve dropdown-filters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitvouwen</li></ul> |
+| Deelvensters | <ul><li>Interactieve vervolgkeuzefilters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitvouwen</li></ul> |
 | Project | <ul><li>Alle informatiepictogrammen controleren</li><li>Projectmenu - Nieuw, Openen, Instellen als bestemmingspagina, Vernieuwen, CSV/PDF downloaden, beperkte projectinfo en -instellingen</li><li>Menu Delen - Projectkoppeling ophalen, bestand nu verzenden</li><li>Menu Help - Alle handelingen behalve Opties voor Tips en Foutopsporing</li></ul> |

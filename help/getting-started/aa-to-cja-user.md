@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,13 @@ CJA haalt haar gegevens op uit Adobe Experience Platform. Met Experience Platfor
 
 De gegevens van de klant in het Experience Platform worden opgeslagen als datasets, die uit een [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) en batches gegevens. Zie voor meer informatie over het platform [Overzicht van Adobe Experience Platform-architectuur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
-Uw CJA Admin vestigt [verbindingen](/help/connections/create-connection.md) naar gegevenssets in Experience Platform. Vervolgens bouwen ze [gegevensweergaven](/help/data-views/data-views.md) die verbindingen gebruiken. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in CJA. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
+Uw CJA Admin vestigt [verbindingen](/help/connections/create-connection.md) op gegevensreeksen in Experience Platform. Vervolgens bouwen ze [gegevensweergaven](/help/data-views/data-views.md) die verbindingen gebruiken. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in CJA. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
 
 Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience Platform integreren in CJA, die in de volgende video zijn opgenomen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de van de Bron Adobe Analytics Schakelaar of Web SDK. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze gegevensreeksen gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
+Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de van de Bron Adobe Analytics Schakelaar of Web SDK. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 

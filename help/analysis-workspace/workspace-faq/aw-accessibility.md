@@ -3,9 +3,9 @@ description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -53,34 +53,34 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 #### Navigatie
 
 | Sneltoets | Handeling |
-|---|---|
-| Alt + Shift + 1 / 2 / 3 | Naar verschillende rails springen: [!UICONTROL Panels], [!UICONTROL Visualizations], of [!UICONTROL Components] |
-| Alt + Pijl-links/Pijl-rechts | Navigeren tussen deelvensters |
-| Alt + M | Alle deelvensters samenvouwen/uitvouwen |
-| Alt+ Ctrl + M | Actief deelvenster samenvouwen/uitvouwen |
-| Ctrl + / | Zoeken in linkerrail |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | Naar verschillende rails springen: [!UICONTROL Panels], [!UICONTROL Visualizations], of [!UICONTROL Components] |
+| `[Alt + Left / Right]` | Navigeren tussen deelvensters |
+| `[Alt + M]` | Alle deelvensters samenvouwen/uitvouwen |
+| `[Alt + Ctrl + M]` | Actief deelvenster samenvouwen/uitvouwen |
+| `[Ctrl + /]` | Zoeken in linkerrail |
 
 #### Analyse maken
 
 | Sneltoets | Handeling |
-|---|---|
-| Alt + 1 | Nieuwe vrije-vormlijst |
-| Ctrl + Shift + C | Nieuwe berekende metrisch |
-| Ctrl + Shift + D | Nieuw datumbereik |
-| Ctrl + Shift + E | Nieuw filter |
-| Ctrl + Z | Ongedaan maken |
-| Houd Shift ingedrukt (in dropzone van het deelvensterfilter) | Een [druppelfilter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| --- | --- |
+| `[Alt + 1]` | Nieuwe vrije-vormlijst |
+| `[Ctrl + Shift + C]` | Nieuwe berekende metrisch |
+| `[Ctrl + Shift + D]` | Nieuw datumbereik |
+| `[Ctrl + Shift + E]` | Nieuw segment |
+| `[Ctrl + Z]` | Ongedaan maken |
+| `[Component drag + Shift]` | Een vervolgkeuzemenu maken |
 
 #### democratisering
 
 | Sneltoets | Handeling |
-|---|---|
-| Ctrl + S | Opslaan |
-| Ctrl + Shift + G | Curate |
-| Ctrl + G | Delen |
-| Alt + Shift + S | Schema |
-| Alt + L | Koppeling naar project ophalen |
-| Ctrl + Shift + B | PDF downloaden |
+| --- | --- |
+| `[Ctrl + S]` | Opslaan |
+| `[Ctrl + Shift + G]` | Curate |
+| `[Ctrl + G]` | Delen |
+| `[Alt + Shift + S]` | Schema |
+| `[Alt + L]` | Koppeling naar project ophalen |
+| `[Ctrl + Shift + B]` | PDF downloaden |
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 

@@ -4,9 +4,9 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Een snelfilter maken:
    | [!UICONTROL Open builder] | Opent de Filter Builder. Nadat u het filter in de Bouwer van de Filter opslaat of toepast, wordt het niet meer beschouwd als een &quot;Snelle Filter&quot;. Het wordt onderdeel van de filterbibliotheek van de component-lijst. <p>Als u de component beschikbaar wilt maken voor al uw projecten en in het linkerspoor, selecteert u de optie [!UICONTROL **Maak dit filter beschikbaar aan al uw projecten en voeg het aan uw componentenlijst toe**].</p><p>Zie de sectie voor meer informatie [Een snel filter opslaan als een filter voor een lijst met componenten](#save-a-quick-filter-as-a-component-list-filter) in dit artikel.</p><p>**Opmerking:** Alleen gebruikers met de machtiging Filter maken in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) kan de Filterbouwer openen.</p> |
    | [!UICONTROL Cancel] | Annuleer dit snelle filter (pas het niet toe). |
    | [!UICONTROL Date range] | De validator gebruikt het datumbereik van het deelvenster voor het opzoeken van de gegevens. Maar elk datumbereik dat u in een snel filter toepast, overschrijft het datumbereik van het deelvenster boven in het deelvenster. |
-   | Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig filter hebt en hoe breed het filter is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten wanneer u dit filter toepast. Er kan een melding verschijnen dat aangeeft dat dit filter geen gegevens heeft. In dit geval kunt u doorgaan of de filterdefinitie wijzigen. |
+   | Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig filter hebt en hoe breed het filter is. Vertegenwoordigt de verdeling van de dataset u kunt verwachten om te zien wanneer u dit filter toepast. Er kan een melding verschijnen dat aangeeft dat dit filter geen gegevens heeft. In dit geval kunt u doorgaan of de filterdefinitie wijzigen. |
 
 1. Selecteren [!UICONTROL **Toepassen**] om uw wijzigingen op te slaan.
 

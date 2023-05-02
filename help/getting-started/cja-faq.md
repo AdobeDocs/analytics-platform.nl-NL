@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: '1926'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van o
 +++
 
 
-+++**Wat is het verwachte gedrag voor records met niet-opgeslagen profielgegevens?**
++++**Wat is het verwachte gedrag voor niet-gestikte verslagen van de profieldataset?**
 
-**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding CJA door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een reeks van het het profielgegevens van CRM. 40% van de gegevensset CRM heeft `CRMid` aanwezig in de de gebeurtenisgegevensreeks van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in CJA. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
+**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding CJA door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een het profieldataset van CRM. 40% van het CRM-gegevensbestand `CRMid` aanwezig in de de gebeurtenisdataset van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in CJA. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
 
 +++
 
@@ -168,7 +168,7 @@ Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders]) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID]). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, metriek als [!UICONTROL Orders] mag niet worden opgeteld bij hele rapportopties. |
 | Valuta | Valutaconversie wordt nog niet ondersteund in CJA. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
 | [!UICONTROL Persistence] | [Persistentie](../data-views/component-settings/persistence.md) breidt zich over rapportseries uit, die gevolgen hebben [!UICONTROL filters], [!UICONTROL attribution], enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
-| [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden in één bestand combineert [!UICONTROL lookup] in de gegevensset, kunnen er problemen optreden. |
+| [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden in één bestand combineert [!UICONTROL lookup] dataset, kon u problemen ontmoeten. |
 
 
 ## 8. Traditioneel [!UICONTROL Adobe Analytics] componenten

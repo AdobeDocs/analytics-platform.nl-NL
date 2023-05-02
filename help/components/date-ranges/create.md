@@ -3,9 +3,9 @@ title: Een datumbereik maken
 description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Als u in het modale venster op het datumbereik klikt, hebt u verschillende optie
 
 * **Kalender**: Selecteer de begin- en einddatum.
 * **Roldatums gebruiken**: Schakel dit selectievakje in als u wilt dat het datumbereik wordt gewijzigd terwijl de tijd doorgaat. Schakel dit selectievakje niet in als u wilt dat het datumbereik statisch blijft.
-* **Voorinstelling selecteren**: Gebruik deze vervolgkeuzelijst als u een aangepast datumbereik wilt dat is gebaseerd op een bereik dat standaard door Adobe wordt aangeboden. Wanneer u een voorinstelling selecteert, kunt u het datumbereik verder aanpassen aan uw wensen. Dit heeft geen invloed op de voorinstelling die Adobe biedt.
+* **Voorinstelling selecteren**: Gebruik deze keuzelijst als u een aangepast datumbereik wilt dat is gebaseerd op een bereik dat standaard door Adobe wordt aangeboden. Wanneer u een voorinstelling selecteert, kunt u het datumbereik verder aanpassen aan uw wensen. Dit heeft geen invloed op de voorinstelling die Adobe biedt.
 
 ## Roldatumbereiken
 

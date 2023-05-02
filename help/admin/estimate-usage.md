@@ -4,9 +4,9 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Met deze methode kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik na
 >
 >    Maak geen nieuwe verbinding die al uw gegevens alleen voor het meten van het gebruik omvat, omdat dat uw gebruik zou verdubbelen.
 
-1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, te beginnen met de eerste dag van uw huidige CJA-contract.
+1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, vanaf de eerste dag van uw huidige CJA-contract.
 
    ![Gebeurtenissen](./assets/events-usage.png)
 

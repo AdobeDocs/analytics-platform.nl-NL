@@ -3,10 +3,10 @@ description: Hiermee kunt u eenvoudig vergelijkingsgegevens visualiseren in Anal
 title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
-exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
+exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Houd dit in gedachten:
    | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![Functies](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![Twee metriek](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Build]**.
 
@@ -69,7 +69,7 @@ Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt 
 | **[!UICONTROL Mean]** | Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde. |
 | **[!UICONTROL Column Minimum]** | Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Hier is een voorbeeld van het cumulatieve gemiddelde van de metrische inkomsten:
 
@@ -92,7 +92,7 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Hiermee geeft u waarden weer in percentages. |
 | **[!UICONTROL Legend visible]** | Hiermee kunt u de gedetailleerde legendetekst voor de visualisatie van Combo-diagrammen verbergen. |
-| **[!UICONTROL Limit max items]** | Hiermee verkleint u het aantal items op de X-as. Als u een grote gegevensset hebt, kunt u alleen de eerste 10 items tonen (of een waarde die u kiest). |
+| **[!UICONTROL Limit max items]** | Hiermee verkleint u het aantal items op de X-as. Als u een grote dataset hebt, kunt u de eerste 10 punten (of om het even welke waarde slechts tonen u kiest). |
 | **[!UICONTROL Overlays]** | Streepjes weergeven of verbergen op lijnen. |
 | **[!UICONTROL Axis]** |  |
 | **[!UICONTROL Display dual axis]** | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. De kleur van de twee assen komt overeen met de kleur van de tabel, tenzij er meerdere vergelijkingen zijn. In dat geval is de kleur voor alle vergelijkingen grijs. |
@@ -101,4 +101,4 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 | **[!UICONTROL Show y-axis]** | Geef de y-as weer of verberg deze. |
 | **[!UICONTROL Anchor y-axis at zero]** | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
