@@ -6,10 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
+source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
 workflow-type: tm+mt
-source-wordcount: '3175'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -461,11 +461,10 @@ U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende 
 
 De volgende afhankelijkheden zijn van toepassing wanneer u waarden selecteert en instelt.
 
-
 |  | Afhankelijkheden van gegevenssets |
 |:---:|----|
 | <span style='color: red'>A</span> | Waarden _selecteren_ binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde gegevensset. |
-| <span style='color: red'>B</span> | Alle waarden die u _set_ binnen constructs en over de regel moet uit dezelfde dataset voortkomen. |
+| <span style='color: red'>B</span> | Alle waarden die u _set_ over een regel moet uit dezelfde dataset voortkomen. |
 | <span style='color: blue'>C</span> | De waarden die u _selecteren_ dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do _niet_ moeten afkomstig zijn van dezelfde gegevensset. |
 
 {style="table-layout:auto"}
@@ -475,8 +474,8 @@ De volgende afhankelijkheden zijn van toepassing wanneer u waarden selecteert en
 
 |  | Tekstafhankelijkheden |
 |:---:|----|
-| <span style='color: red'>D</span> | De typen waarden die u gebruikt _set_ over de hele regel moet hetzelfde zijn . |
-| <span style='color: blue'>E</span> | De typen waarden die u gebruikt _selecteren_ binnen een construct of tussen constructen in een regel kan van elk type zijn (tekenreeks, numeriek, datums). |
+| <span style='color: red'>D</span> | De waardetypen die u _set_ over een regel moet hetzelfde zijn. |
+| <span style='color: blue'>E</span> | De waardetypen die u _selecteren_ binnen een construct of tussen constructen in een regel kan van elk type zijn (tekenreeks, numeriek, datums). |
 
 {style="table-layout:auto"}
 
