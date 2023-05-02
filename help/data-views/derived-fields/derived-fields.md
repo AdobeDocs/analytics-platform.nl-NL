@@ -5,13 +5,13 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
+exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
+source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3175'
 ht-degree: 3%
 
 ---
-
 
 # Afgeleide velden
 
@@ -153,14 +153,21 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 ## Functieverwijzing
 
-Voor elke ondersteunde functie vindt u hieronder meer informatie:
+Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
-- input, operatoren en output
+- specificaties:
+   - invoergegevenstype: type ondersteunde gegevens,
+   - invoer: mogelijke waarden voor invoer,
+   - opgenomen operatoren: operatoren die voor deze functie worden ondersteund (indien aanwezig),
+   - limiet: maximumaantal regels met deze functie u op een afgeleid gebied kunt gebruiken,
+   - uitvoer.
 
 - gebruiksgevallen, waaronder:
    - gegevens voordat het aangepaste veld wordt gedefinieerd
    - het aangepaste veld definiëren
    - gegevens na het definiëren van het aangepaste veld
+
+- afhankelijkheden (optioneel)
 
 
 <!-- Concatenate -->
@@ -171,11 +178,11 @@ Hiermee voegt u twee of meer velden, aangepaste velden of door de gebruiker inge
 
 +++ Details
 
-## Invoer / Operatoren / Uitvoer {#concatenate-io}
+## Specificaties {#concatenate-io}
 
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Uitvoer |
-|---|---|---|---|
-| <p>String</p> | <ul><li>Twee of meer waarden die moeten worden gecombineerd<ul><li>Velden</li><li>Afgeleide waarde van een vorige regel</li><li>Door gebruiker ingevoerde waarde</li></ul></li><li>Scheidingstekens<ul><li>Invoer of selectie van een scheidingsteken voor elke waarde</li></ul></li> </ul> | <p>N.v.t.</p> | <p>Nieuw aangepast veld</p> |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|:--:|---|
+| <p>String</p> | <ul><li>Twee of meer waarden die moeten worden gecombineerd<ul><li>Velden</li><li>Afgeleide waarde van een vorige regel</li><li>Door gebruiker ingevoerde waarde</li></ul></li><li>Scheidingstekens<ul><li>Invoer of selectie van een scheidingsteken voor elke waarde</li></ul></li> </ul> | <p>N.v.t.</p> | <p>2</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
@@ -200,7 +207,7 @@ Stel dat de volgende boekingen plaatsvinden:
 Het gewenste verslag moet er als volgt uitzien:
 
 | Oorsprong/bestemming | Bladwijzers |
-|---|---|
+|----|---:|
 | SLC-MCO | 2 |
 | SLC-LAX | 1 |
 | SLC-SEA | 1 |
@@ -212,7 +219,7 @@ Het gewenste verslag moet er als volgt uitzien:
 ### Gegevens voor {#concatenate-uc-databefore}
 
 | Oorsprong | Doel |
-|----|----|
+|----|---:|
 | SLC | MCO |
 | SLC | LAX |
 | SLC | ZEE |
@@ -249,11 +256,11 @@ Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of mee
 
 +++ Details
 
-## Invoer / Operatoren / Uitvoer {#casewhen-io}
+## Specificaties {#casewhen-io}
 
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Uitvoer |
-|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum/datum/tijd</li></ul> | <ul><li>Invoervelden</li><li>Criteria</li></ul> | <p><u>Tekenreeksen</u></p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan om het even welke termijn</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p><u>Numeriek</u></p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p><u>Datums</u></p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <p>Nieuw aangepast veld</p> |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|:---:|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum/datum/tijd</li></ul> | <ul><li>Invoervelden</li><li>Criteria</li></ul> | <p><u>Tekenreeksen</u></p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan om het even welke termijn</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p><u>Numeriek</u></p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p><u>Datums</u></p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <p>5</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
@@ -273,7 +280,7 @@ U wilt regels definiëren om verschillende marketingkanalen te identificeren doo
 Als uw site de volgende voorbeeldgebeurtenissen ontvangt, die Referrer en Page URL bevatten, moeten deze gebeurtenissen als volgt worden geïdentificeerd:
 
 | Gebeurtenis | Referrer | Pagina-URL | Marketingkanaal |
-|:----:|----|----|----|
+|:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | Natuurlijk sociaal |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | Weergave |
 | 3 |  | `https://site.com/?cid=em_12345678` | E-mail |
@@ -425,8 +432,6 @@ Uw gewenste rapport zou als moeten kijken:
 | 21 |
 | 8 |
 
-{style="table-layout:auto"}
-
 ### Aangepast veld {#casewhen-uc3-customfield}
 
 U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regel in de Bouwer van de Regel. Deze regel past logica toe om de oude **[!UICONTROL ** Duur reis **]** veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
@@ -451,6 +456,32 @@ U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende 
 | lange reis |
 | lange reis |
 
+
+## Afhankelijkheden
+
+De volgende afhankelijkheden zijn van toepassing wanneer u waarden selecteert en instelt.
+
+
+|  | Afhankelijkheden van gegevenssets |
+|:---:|----|
+| <span style='color: red'>A</span> | Waarden _selecteren_ binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde gegevensset. |
+| <span style='color: red'>B</span> | Alle waarden die u _set_ binnen constructs en over de regel moet uit dezelfde dataset voortkomen. |
+| <span style='color: blue'>C</span> | De waarden die u _selecteren_ dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do _niet_ moeten afkomstig zijn van dezelfde gegevensset. |
+
+{style="table-layout:auto"}
+
+![Geval wanneer Dataset Afhankelijkheden](assets/case-when-datasets.png)
+
+
+|  | Tekstafhankelijkheden |
+|:---:|----|
+| <span style='color: red'>D</span> | De typen waarden die u gebruikt _set_ over de hele regel moet hetzelfde zijn . |
+| <span style='color: blue'>E</span> | De typen waarden die u gebruikt _selecteren_ binnen een construct of tussen constructen in een regel kan van elk type zijn (tekenreeks, numeriek, datums). |
+
+{style="table-layout:auto"}
+
+![Hoofdletters/kleine letters als type afhankelijk is](assets/case-when-types.png)
+
 +++
 
 
@@ -462,11 +493,11 @@ Hiermee zoekt u alle waarden in een geselecteerd veld en vervangt u deze waarden
 
 +++ Details
 
-## Invoer / Operatoren / Uitvoer {#findreplace-io}
+## Specificaties {#findreplace-io}
 
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Uitvoer |
-|---|---|---|---|
-| <p>String</p> | <ul><li><span>Veldcriteria &#39;Wanneer moet ik vervangen&#39;</span></li><li><span>Veldwaarde &#39;vervangen door&#39;</span><ul><li><span>Door gebruiker ingevoerd</span></li><li><span>Afzonderlijk veld</span></li></ul></li></ul> | <p><u>Tekenreeksen</u></p><ul><li>Alles zoeken en Alles vervangen</li></ul> | <p>Nieuw aangepast veld</p> |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|:---:|---|
+| <p>String</p> | <ul><li><span>Veldcriteria &#39;Wanneer moet ik vervangen&#39;</span></li><li><span>Veldwaarde &#39;vervangen door&#39;</span><ul><li><span>Door gebruiker ingevoerd</span></li><li><span>Afzonderlijk veld</span></li></ul></li></ul> | <p><u>Tekenreeksen</u></p><ul><li>Alles zoeken en Alles vervangen</li></ul> | <p>1</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
@@ -478,16 +509,16 @@ U hebt een aantal misvormde waarden ontvangen voor uw externe marketingkanaalrap
 **Oorspronkelijk rapport**
 
 | Externe marketingkanalen | Sessies |
-|---|---|
+|---|--:|
 | e-mailmarketing | 500 |
-| email%20marketing | 24 |
+| e-mail %20marketing | 24 |
 
 {style="table-layout:auto"}
 
 **Voorkeursrapport**
 
 | Externe marketingkanalen | Sessies |
-|---|---|
+|---|--:|
 | e-mailmarketing | 524 |
 
 
@@ -533,11 +564,11 @@ Definieert een set opzoekwaarden die worden vervangen door corresponderende waar
 +++ Details
 
 
-## Invoer / Operatoren / Uitvoer {#lookup-io}
+## Specificaties {#lookup-io}
 
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Uitvoer |
-|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Sing-veld</li><li>Bestand opzoeken<ul><li>Toetskolom</li><li>Nieuwe veldkolom</li></ul></li></ul> | <p>N.v.t.</p> | <p>Nieuw aangepast veld</p> |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|:---:|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Sing-veld</li><li>Bestand opzoeken<ul><li>Toetskolom</li><li>Nieuwe veldkolom</li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
@@ -652,11 +683,11 @@ Hiermee worden verschillende delen van een URL uitgeparseerd, zoals protocol-, h
 
 +++ Details
 
-## Invoer / Operatoren / Uitvoer {#urlparse-io}
+## Specificaties {#urlparse-io}
 
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Uitvoer |
-|---|---|---|---|
-| <ul><li>String</li></ul> | <ul><li>Sing-veld</li><li>Parseren, optie<ul><li>Protocol ophalen</li><li>Host ophalen</li><li>Pad ophalen</li><li>Query-waarde ophalen<ul><li>Query-param</li></ul></li><li>Hashwaarde ophalen</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>Nieuw aangepast veld</p> |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|:---:|---|
+| <ul><li>String</li></ul> | <ul><li>Sing-veld</li><li>Parseren, optie<ul><li>Protocol ophalen</li><li>Host ophalen</li><li>Pad ophalen</li><li>Query-waarde ophalen<ul><li>Query-param</li></ul></li><li>Hashwaarde ophalen</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
