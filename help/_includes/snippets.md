@@ -1,7 +1,7 @@
 ---
-source-git-commit: c202effa3b25b1703cad38975786252637291b48
+source-git-commit: a492cbd7801b9523072937ab1d8e707f4b423c72
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 1%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van Customer Journey Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
 
 ## Beperkte testsectie voor releasefase {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
+>De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van Customer Journey Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
 
 ## Criteria van het filter Gegevenswoordenboek {#dd-filter-criteria}
 
