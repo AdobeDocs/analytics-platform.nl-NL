@@ -6,10 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
+source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
 workflow-type: tm+mt
-source-wordcount: '3210'
-ht-degree: 3%
+source-wordcount: '3231'
+ht-degree: 4%
 
 ---
 
@@ -459,7 +459,7 @@ U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende 
 
 ## Restricties
 
-CJA gebruikt een genest containermodel voor zijn functionaliteit. Dit genestelde containermodel bepaalt de beperkingen wanneer het gebruiken van de regelbouwer. Het standaard geneste containermodel CJA gebruikt is gestructureerd zoals hieronder geïllustreerd:
+CJA gebruikt een flexibele geneste containerstructuur die is gemodelleerd na Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (Experience Data Model) voor de functionaliteit ervan. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer. Het standaard geneste containermodel CJA gebruikt is gestructureerd zoals hieronder geïllustreerd:
 
 <p align="center">
 <img src="./assets/containers.png" width="70%" valign="middle">
