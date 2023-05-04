@@ -6,10 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
+source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3210'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Wanneer u een aangepast veld maakt of bewerkt, gebruikt u de aangepaste veldinte
 |  | Naam | Beschrijving |
 |---------|----------|--------|
 | 1 | **Kiezer** | U gebruikt het selectiegebied om uw ![Functie](assets/Smock_Function_18_N.svg) functie,![Pictogram voor functiesjabloon](assets/Smock_FileTemplate_18_N.svg) functiesjabloon,![Pictogram Schema-veld](assets/Smock_Folder_18_N.svg) schemaveld, of![Standaardveldpictogram](assets/Smock_DragHandle_18_N.svg)het standaardgebied op aan de regelbouwer. <br/>Gebruik de vervolgkeuzelijst om te selecteren tussen [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields], en [!UICONTROL Standard fields].<br/>Met de opdracht ![Zoekpictogram](assets/Smock_Search_18_N.svg) Zoekvak. <br/>U kunt de lijst met geselecteerde objecten filteren door ![Filterpictogram](assets/Smock_Filter_18_N.svg) Filteren en filters opgeven in het dialoogvenster [!UICONTROL Filter fields by] . U kunt filters eenvoudig verwijderen met ![Pictogram Sluiten](assets/CrossSize75.svg) voor elk filter. |
-| 2 | **Regelbouwer** | U kunt een aangepast veld opeenvolgend maken met een of meer regels. Een regel is een specifieke implementatie van een functie en wordt daarom altijd met slechts één functie geassocieerd. U creeert een regel door een functie in de Bouwer van de Regel te slepen en te laten vallen. Het functietype bepaalt de interface van de regel.<br/>Zie de [Regelinterface](#rule-interface) voor meer informatie . <br/>U kunt een functie bij het begin, het eind, of binnen tussen regels opnemen reeds beschikbaar in de Bouwer van de Regel. De laatste regel in de Bouwer van de Regel bepaalt de definitieve output van het douanegebied. |
+| 2 | **Regelbouwer** | U kunt een aangepast veld opeenvolgend maken met een of meer regels. Een regel is een specifieke implementatie van een functie en wordt daarom altijd met slechts één functie geassocieerd. U maakt een regel door een functie naar de regelbouwer te slepen. Het functietype bepaalt de interface van de regel.<br/>Zie de [Regelinterface](#rule-interface) voor meer informatie . <br/>U kunt een functie bij het begin, het eind, of binnen tussen regels opnemen reeds beschikbaar in de Bouwer van de Regel. De laatste regel in de Bouwer van de Regel bepaalt de definitieve output van het douanegebied. |
 | 3 | **[!UICONTROL ** Veldinstellingen **]** | U kunt het aangepaste veld een naam geven en beschrijven en het veldtype controleren. |
 | 4 | **[!UICONTROL ** Uiteindelijke uitvoer **]** | In dit gebied ziet u een ter plekke bijgewerkte voorvertoning van uitvoerwaarden, gebaseerd op gegevens in de afgelopen 30 dagen en de wijzigingen die u aanbrengt in het aangepaste veld in de regelbouwer. |
 
@@ -167,7 +167,7 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
    - het aangepaste veld definiëren
    - gegevens na het definiëren van het aangepaste veld
 
-- afhankelijkheden (optioneel)
+- beperkingen (optioneel)
 
 
 <!-- Concatenate -->
@@ -361,7 +361,7 @@ Uw site verzamelt de volgende waarden voor de dimensie Methoden zoeken in uw pro
 
 ### Aangepast veld {#casewhen-uc2-customfield}
 
-U definieert een `Product Finding Methods (new)` aangepast veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regels in de Bouwer van de Regel. Deze regels passen logica op alle mogelijke variaties van oude toe **[!UICONTROL ** Methoden voor het zoeken van producten **]** veldwaarden voor `search` en `browse` met de **[!UICONTROL Contains the phrase]** criterium.
+U definieert een `Product Finding Methods (new)` aangepast veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regels in Regelbouwer. Deze regels passen logica op alle mogelijke variaties van oude toe **[!UICONTROL ** Methoden voor het zoeken van producten **]** veldwaarden voor `search` en `browse` met de **[!UICONTROL Contains the phrase]** criterium.
 
 ![[!DNL Case When] regel 2](assets/case-when-2.png)
 
@@ -434,7 +434,7 @@ Uw gewenste rapport zou als moeten kijken:
 
 ### Aangepast veld {#casewhen-uc3-customfield}
 
-U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regel in de Bouwer van de Regel. Deze regel past logica toe om de oude **[!UICONTROL ** Duur reis **]** veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
+U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regel in Regelbouwer. Deze regel past logica toe om de oude **[!UICONTROL ** Duur reis **]** veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
 
 ![[!DNL Case When] regel 3](assets/case-when-3.png)
 
@@ -457,29 +457,25 @@ U definieert een `Trip Duration (bucketed)` aangepast veld. U maakt de volgende 
 | lange reis |
 
 
-## Afhankelijkheden
+## Restricties
 
-De volgende afhankelijkheden zijn van toepassing wanneer u waarden selecteert en instelt.
+CJA gebruikt een genest containermodel voor zijn functionaliteit. Dit genestelde containermodel bepaalt de beperkingen wanneer het gebruiken van de regelbouwer. Het standaard geneste containermodel CJA gebruikt is gestructureerd zoals hieronder geïllustreerd:
 
-|  | Afhankelijkheden van gegevenssets |
+<p align="center">
+<img src="./assets/containers.png" width="70%" valign="middle">
+</p>
+
+Zie [Containers](../create-dataview.md#containers) en [Filtercontainers](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie.
+
+De volgende containerbeperkingen zijn van toepassing en worden afgedwongen wanneer _selecteren_ en _instellen_ waarden.
+
+|  | Restricties |
 |:---:|----|
-| <span style='color: red'>A</span> | Waarden _selecteren_ binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde gegevensset. |
-| <span style='color: red'>B</span> | Alle waarden die u _set_ over een regel moet uit dezelfde dataset voortkomen. |
-| <span style='color: blue'>C</span> | De waarden die u _selecteren_ dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do _niet_ moeten afkomstig zijn van dezelfde gegevensset. |
+| **<span style='color: red'>A</span>** | Waarden _selecteren_ binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Afhankelijkheid A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | Alle waarden die u _set_ voor een regel uit dezelfde container bestaan en hetzelfde type of dezelfde aangepaste waarde hebben. <br/> ![Afhankelijkheid B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | De waarden die u _selecteren_ dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do _niet_ moeten afkomstig zijn uit dezelfde container en moet _niet_ moeten van hetzelfde type zijn. <br/> ![Afhankelijkheid C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
-
-![Geval wanneer Dataset Afhankelijkheden](assets/case-when-datasets.png)
-
-
-|  | Tekstafhankelijkheden |
-|:---:|----|
-| <span style='color: red'>D</span> | De waardetypen die u _set_ over een regel moet hetzelfde zijn. |
-| <span style='color: blue'>E</span> | De waardetypen die u _selecteren_ binnen een construct of tussen constructen in een regel kan van elk type zijn (tekenreeks, numeriek, datums). |
-
-{style="table-layout:auto"}
-
-![Hoofdletters/kleine letters als type afhankelijk is](assets/case-when-types.png)
 
 +++
 
@@ -567,7 +563,7 @@ Definieert een set opzoekwaarden die worden vervangen door corresponderende waar
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|:---:|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Sing-veld</li><li>Bestand opzoeken<ul><li>Toetskolom</li><li>Nieuwe veldkolom</li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Eén veld</li><li>Bestand opzoeken<ul><li>Toetskolom</li><li>Nieuwe veldkolom</li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 
@@ -686,7 +682,7 @@ Hiermee worden verschillende delen van een URL uitgeparseerd, zoals protocol-, h
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|:---:|---|
-| <ul><li>String</li></ul> | <ul><li>Sing-veld</li><li>Parseren, optie<ul><li>Protocol ophalen</li><li>Host ophalen</li><li>Pad ophalen</li><li>Query-waarde ophalen<ul><li>Query-param</li></ul></li><li>Hashwaarde ophalen</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
+| <ul><li>String</li></ul> | <ul><li>Eén veld</li><li>Parseren, optie<ul><li>Protocol ophalen</li><li>Host ophalen</li><li>Pad ophalen</li><li>Query-waarde ophalen<ul><li>Query-param</li></ul></li><li>Hashwaarde ophalen</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5</p> | <p>Nieuw aangepast veld</p> |
 
 {style="table-layout:auto"}
 

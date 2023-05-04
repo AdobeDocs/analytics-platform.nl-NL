@@ -2,32 +2,27 @@
 title: Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties
 description: Begrijp de verschillen in gegevensverwerking voor de diverse rapportfuncties
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 80d0b95f3bc3d785d9ca7e4b50aa1bd8440373c2
+source-git-commit: d075f3d2b4436c668010e09c6d1ac3191edac241
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 5%
+source-wordcount: '1202'
+ht-degree: 4%
 
 ---
 
 # Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics.
 
-<!--
+U hebt vaak de mogelijkheid nodig om gegevens te verwerken voordat deze nuttig zijn voor rapportage. U kunt die gegevens in verscheidene stadia in de reis verwerken die zich van het verzamelen van gegevens aan het produceren van uw rapport of visualisatie uitstrekken.
 
-You often need the ability to process data before it is useful for reporting. You can process that data at several stages in the journey that spans from collecting data to generating your report or visualization.
+In Adobe Analytics vindt de verwerking van gegevens grotendeels direct plaats nadat de gegevens zijn verzameld. De functies zoals de Regels van VISTA, de Regels van de Verwerking, de Verwerkingsregels van de Kanalen van de Marketing zijn beschikbaar om dit te steunen **verwerking van verzameltijd**.
+De gegevens worden dan opgeslagen en op rapporttijd kunt u extra verwerking toepassen. U kunt bijvoorbeeld de afmetingen splitsen, segmentatie toepassen of een ander attributiemodel selecteren. Dit **verwerking van rapporttijd** gebeurt ter plekke.
 
-In Adobe Analytics most of that processing of data occurs immediately after collecting the data. Functionalties like VISTA Rules, Processing Rules, Marketing Channels Processing Rules are available to support this **collection-time processing**. 
-The data is then stored and at report time you can apply additional processing. For example, break down dimensions, apply segmentation, or  select a different attribution model. This **report-time processing** happens on the fly. 
+In Adobe Analytics, rapport-tijd vertegenwoordigt de verwerking gewoonlijk een kleinere hoeveelheid verwerking dan wat bij inzameling-tijd gebeurt.
 
-In Adobe Analytics, report-time processing commonly represents a smaller amount of processing  than what happens at collection-time.
+![Adobe Analytics-verwerking van verzameltijd](../assets/aa-processing.png)
 
-![Adobe Analytics collection-time processing](../assets/aa-processing.png)
+Customer Journey Analytics (CJA) daarentegen is ontworpen om minimale verwerkingstijd voorafgaand aan de verzameling te vereisen voordat gegevens worden geordend en opgeslagen. De onderliggende architectuur van CJA wordt ontworpen om met de opgeslagen gegevens in rapport-tijd te werken en biedt zijn krachtige rapport-tijd verwerkingsfunctionaliteit niet alleen in Werkruimte maar ook, nog belangrijker, door de definitie van [componenten](/help/data-views/component-settings/overview.md) en [afgeleide velden](/help/data-views/derived-fields/derived-fields.md) in uw gegevensweergaven.
 
-In contrast, Customer Journey Analytics (CJA) is designed to require minimal upfront collection-time processing before data being is organized and stored. The underlying architecture of CJA is more designed to work with the stored data at report-time and offers its powerful report-time processing functionality not only in  Workspace but also, even more importantly, through the definition of components in your Data Views. 
-
-![CJA report-time processing](../assets/cja-processing.png)
-
--->
-
+![CJA rapport-tijd verwerking](../assets/cja-processing.png)
 
 Kennis van de verschillen in gegevensverwerking voor de verschillende rapportfuncties kan nuttig zijn om te begrijpen welke meetgegevens beschikbaar zijn waar en waarom ze kunnen verschillen.
 
@@ -69,6 +64,6 @@ De gegevensverwerkingsstappen die worden uitgevoerd voor Adobe Analytics en CJA 
 | Core AA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en) | <ul><li>Verwerkingsregels</li><li>VISTA-regels</li><li>Definitie van bezoek (zie opmerking)</li><li>Apparaatanalyse (zie opmerking)</li></ul> | <ul><li>Regels voor marketingkanalen op hoog niveau (zie opmerking)</li><li>Regels voor marketingkanalen op bezoekniveau (zie opmerking) Attributielogica</li><li>Segmentlogica</li><li>Berekende standaarden</li></ul> |  | <ul><li>CDA vereist gebruik van virtuele rapportsuites met de verwerking van de rapporttijd.</li><li>Attribution IQ in Core Analytics maakt gebruik van marketingkanalen die volledig zijn afgeleid op het moment van het rapport (d.w.z. afgeleide mid-values).</li><li>Attribution IQ gebruikt een verwerking-tijd bezoekdefinitie behalve wanneer gebruikt in een rapport-tijd verwerking VRS.</li></ul> |
 | Core AA virtuele rapportensuites met [rapporttijdverwerking](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en) (VRS RTP) | <ul><li>Verwerkingsregels</li><li>VISTA-regels</li><li>[Cross-device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en)</li></ul> | <ul><li>Definitie van bezoek</li><li>Attributielogica</li><li>Segmentlogica</li><li>Berekende standaarden</li><li>Andere VRS RTP-instellingen</li></ul> | <ul><li>Regels voor distributiekanalen op hoog niveau</li><li>Regels voor verkoopkanalen op bezoekniveau</li></ul> | <ul><li>Zie VRS RTP [documentatie](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en).</li></ul> |
 | [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)gegevensset op basis van AEP-gegevens in het gegevensmeer | <ul><li>Verwerkingsregels</li><li>VISTA-regels</li><li>Regels voor distributiekanalen op hoog niveau</li><li>Veldgebaseerde stitching (zie opmerking)</li></ul> |  | <ul><li>[Regels voor verkoopkanalen op bezoekniveau](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en)</li><li>Naar logica</li><li>Attributielogica</li><li>Filterlogica</li></ul> | <ul><li>U moet uw eigen filterlogica en berekende meetgegevens toepassen</li><li>Op veld gebaseerde stitching leidt tot een afzonderlijke gestikte dataset naast die gecreeerd door de Bron van Analytics Schakelaar.</li></ul> |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) rapportage | <ul><li>Geïmplementeerd als onderdeel van Adobe Experience Platform-gegevensverzameling</li></ul> | <ul><li>Sessiedefinitie</li><li>[Gegevens, weergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) instellingen<li>Attributielogica</li><li>Berekende standaarden</li><li>Filterlogica</li></ul> | <ul><li>Regels voor verkoopkanalen op bezoekniveau</li></ul> | <ul><li>Moet een gestikte gegevensset gebruiken om te profiteren van op het veld gebaseerde stitching.</li></ul> |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) rapportage | <ul><li>Geïmplementeerd als onderdeel van Adobe Experience Platform-gegevensverzameling</li></ul> | <ul><li>Sessiedefinitie</li><li>[Gegevens, weergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) instellingen<li>Attributielogica</li><li>Berekende standaarden</li><li>Filterlogica</li></ul> | <ul><li>Regels voor verkoopkanalen op bezoekniveau</li></ul> | <ul><li>Moet gebonden gegevenssets gebruiken om te profiteren van kanaalanalyses.</li></ul> |
 
 {style="table-layout:auto"}
