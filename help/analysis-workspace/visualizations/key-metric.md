@@ -3,10 +3,10 @@ description: Gebruik de belangrijkste metrische samenvatting visualisatie om met
 title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
-exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
+source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een segment (indien gewenst) te selecteren:
 
-   ![](assets/key-metric-config.png)
+   ![metrische sleutelconfiguratie](assets/key-metric-config.png)
 
    | Configuratie-instelling | Definitie |
    | --- | --- |
@@ -46,7 +46,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
    | **[!UICONTROL Comparison date range]** | Het datumbereik waarmee u het primaire datumbereik wilt vergelijken. |
    | **[!UICONTROL Segment (optional)]** | Elk segment waarin u specifiek geïnteresseerd bent voor deze samenvatting. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Build]**.
 
@@ -62,7 +62,7 @@ Opmerking:
 
 * Vanaf hier kunt u de cursor boven de lijngrafieken houden om de statistieken voor afzonderlijke dagen weer te geven:
 
-![](assets/key-metric-output2.png)
+![statistieken](assets/key-metric-output2.png)
 
 ## Visualisatie-instellingen
 
@@ -89,7 +89,7 @@ Na het bouwen van visualisatie, kunt u de originele configuratie nog uitgeven.
 
 1. Klik op het potloodpictogram in de rechterbovenhoek van de visualisatie (naast het tandwielpictogram voor instellingen).
 
-   ![](assets/edit-icon.png)
+   ![bewerken](assets/edit-icon.png)
 
    U wordt nu teruggezet naar de originele configuratiemening.
 

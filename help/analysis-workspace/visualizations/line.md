@@ -3,14 +3,18 @@ description: Gebruik lijnvisualisatie om trended (op tijd-gebaseerde) datasets t
 title: Lijn
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
 # Lijn
+
+>[!NOTE]
+>
+>De lijnvisualisatie wordt binnenkort weergegeven [intelligente bijschriften](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
 
