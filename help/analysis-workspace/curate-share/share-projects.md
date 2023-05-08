@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cc475afebba5bd1cfcaf3b1471ce6d1316126a9d
+source-git-commit: dab154ce10b0b4f7fb2873d92a1ce9ceb7478b26
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 > 
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 >
->* Een project zou ontoegankelijk kunnen worden als teveel gebruikers proberen om tot het tezelfdertijd toegang te hebben.
+>* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 
 
 Een Analysis Workspace-project met iedereen delen:
