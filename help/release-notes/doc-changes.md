@@ -4,10 +4,10 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
+source-git-commit: e0417d94c0d371aca3d10af7a25b0e346f8b2a8e
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 5%
+source-wordcount: '1721'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,9 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Mei 2023** |  |
+| Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
+| Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | **April 2023** |  |
 | Video over het gebruik van filters als afmetingen | <p>De video over het gebruik van filters als afmetingen is bijgewerkt. Deze video is gekoppeld vanuit de [Filters maken](/help/components/filters/create-filters.md) pagina.</p> <p>Hier volgt een directe koppeling naar de video: [Filters gebruiken als afmetingen in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | Filterdocumentatie | Artikel toegevoegd over het gebruik van de [Filter builder](/help/components/filters/filter-builder.md). <p>Gestroomlijnde documentatie in [Filters maken](/help/components/filters/create-filters.md) en [Overzicht van filters](/help/components/filters/filters-overview.md).</p> |
