@@ -6,18 +6,25 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: b7338c66ba3f78bd082e6d8da43b91b5517f48ac
+badgeDerivedFields: label="New Feature" type="Positive"
+source-git-commit: 1aece0ac0873e2cf68bfe8b24725072ddf18ad30
 workflow-type: tm+mt
-source-wordcount: '3215'
-ht-degree: 4%
+source-wordcount: '2914'
+ht-degree: 3%
 
 ---
+
 
 # Afgeleide velden
 
 {{release-limited-testing}}
 
-Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs nader te definiëren als component in [Gegevens, weergave](../data-views.md).
+>[!WARNING]
+>
+>In afwachting van de definitieve updates, ziet u [!UICONTROL Custom field] in plaats van [!UICONTROL Derived field] in de gebruikersinterface.
+
+
+Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs het afgeleide veld nader te definiëren als een component in [Gegevens, weergave](../data-views.md).
 
 Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten CJA. zoals [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)of binnen uw eigen ETL-processen (Extract Transform Load) / Extract Load Transform (ELT-processen).
 
@@ -47,12 +54,12 @@ Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterf
 
 ## Veldsjabloonwizard
 
-Wanneer u tot de Voortgekomen gebiedsinterface voor het eerst toegang hebt, [!UICONTROL Start with a field template] wordt weergegeven.
+Wanneer u voor het eerst toegang krijgt tot de afgeleide veldinzet, [!UICONTROL Start with a field template] wordt weergegeven.
 
 1. Selecteer de sjabloon die het beste het type veld beschrijft dat u wilt maken.
 2. Selecteer **[!UICONTROL ** Selecteren **]** om door te gaan.
 
-Het dialoogvenster Afgeleid veld wordt gevuld met vereiste of nuttige regels (en functies) voor het type veld dat u hebt geselecteerd. Zie [Functiesjablonen](#function-templates) voor meer informatie over de beschikbare sjablonen.
+Het dialoogvenster met afgeleide velden wordt gevuld met regels (en functies) die vereist of handig zijn voor het type veld dat u hebt geselecteerd. Zie [Functiesjablonen](#function-templates) voor meer informatie over de beschikbare sjablonen.
 
 ## Regelinterface
 
@@ -63,7 +70,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 |  | Naam | Beschrijving |
 |---------|----------|--------|
 | A | **Naam van regel** | Standaard is de regelnaam **Regel X** (X verwijst naar een volgnummer). Als u de naam van een regel wilt bewerken, selecteert u de naam en typt u de nieuwe naam, bijvoorbeeld `Query Parameter`. |
-| B | **Functienaam** | De geselecteerde functienaam voor de regel, bijvoorbeeld [!DNL URL PARSE]. Wanneer de functie de laatste in de reeks functies is en de uiteindelijke uitvoerwaarden bepaalt, wordt de functienaam gevolgd door [!DNL FINAL OUTPUT]bijvoorbeeld [!DNL URL PARSE - FINAL OUTPUT]. <br/>Als u een pop-up met meer informatie over de functie wilt weergeven, selecteert u ![Help-pictogram](assets/Smock_HelpOutline_18_N.svg). |
+| B | **Functienaam** | De geselecteerde functienaam voor de regel, bijvoorbeeld [!DNL URL PARSE]. Wanneer de functie de laatste in de reeks functies is en de uiteindelijke uitvoerwaarden bepaalt, wordt de functienaam gevolgd door [!DNL - FINAL OUTPUT]bijvoorbeeld [!DNL URL PARSE - FINAL OUTPUT]. <br/>Als u een pop-up met meer informatie over de functie wilt weergeven, selecteert u ![Help-pictogram](assets/Smock_HelpOutline_18_N.svg). |
 | C | **Beschrijving van regel** | U kunt desgewenst een beschrijving aan een regel toevoegen.<br/>Selecteren ![Meer pictogram](assets/More.svg)selecteert u vervolgens **[!UICONTROL ** Beschrijving toevoegen **]** om een beschrijving toe te voegen of **[!UICONTROL ** Beschrijving bewerken **]** om een bestaande beschrijving te bewerken.<br/>Gebruik de editor om een beschrijving in te voeren. U kunt de werkbalk gebruiken om de tekst op te maken (met de stijlkiezer, vet, cursief, onderstrepen, rechts, links, gecentreerd, kleur, nummerlijst, opsommingslijst) en om koppelingen toe te voegen aan externe informatie. <br/>Klik buiten de editor om het bewerken van de beschrijving te voltooien. |
 | D | **Functiegebied** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. Zie [Functieverwijzing](#function-reference) voor gedetailleerde informatie over elk van de ondersteunde functies. |
 
@@ -81,7 +88,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
    Als u het nieuwe afgeleide veld wilt opslaan, selecteert u **[!UICONTROL ** Opslaan **]**.
 
-5. Het nieuwe afgeleide veld wordt toegevoegd aan de **[!UICONTROL ** Afgeleide velden >**]** container, als onderdeel van **[!UICONTROL ** Schema-velden **]** in de linkertrack van de gegevensweergave.
+5. Het nieuwe afgeleide veld wordt toegevoegd aan de [!UICONTROL Derived fields >] container, als onderdeel van **[!UICONTROL ** Schema-velden **]** in de linkertrack van de gegevensweergave.
 
 
 ## Een afgeleid veld bewerken
@@ -125,7 +132,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
 ## Functiesjablonen
 
-Om snel een afgeleid gebied voor specifieke gebruiksgevallen tot stand te brengen, zijn de functiesjablonen beschikbaar. Deze functiesjablonen zijn toegankelijk vanuit het gebied Selector in de interface Afgeleid veld of worden weergegeven bij eerste gebruik in het dialoogvenster [!UICONTROL Start with a field template] wizard.
+Om snel een afgeleid gebied voor specifieke gebruiksgevallen tot stand te brengen, zijn de functiesjablonen beschikbaar. Deze functiesjablonen zijn toegankelijk vanuit het selectiegebied in de afgeleide veldinterface of worden weergegeven bij het eerste gebruik in het dialoogvenster [!UICONTROL Start with a field template] wizard.
 
 
 ### Marketingkanalen
@@ -158,16 +165,16 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 - specificaties:
    - invoergegevenstype: type ondersteunde gegevens,
    - invoer: mogelijke waarden voor invoer,
-   - opgenomen operatoren: operatoren die voor deze functie worden ondersteund (indien aanwezig),
-   - limiet: maximumaantal regels met deze functie u op een afgeleid gebied kunt gebruiken,
+   - opgenomen operatoren: operatoren die voor deze functie worden ondersteund (indien aanwezig);
+   - limiet: maximumaantal regels (met deze functie) dat u kunt gebruiken in een afgeleid veld,
    - uitvoer.
 
 - gebruiksgevallen, waaronder:
-   - gegevens voordat het afgeleide veld wordt gedefinieerd
-   - hoe te om het afgeleide gebied te bepalen
-   - gegevens na het definiëren van het afgeleide veld
+   - gegevens voordat het afgeleide veld wordt gedefinieerd;
+   - hoe het afgeleide veld moet worden gedefinieerd,
+   - gegevens na het definiëren van het afgeleide veld.
 
-- beperkingen (optioneel)
+- beperkingen (indien van toepassing).
 
 
 <!-- Concatenate -->
@@ -230,7 +237,7 @@ Het gewenste verslag moet er als volgt uitzien:
 
 ### Afgeleid veld {#concatenate-derivedfield}
 
-U definieert een nieuwe **[!UICONTROL ** Oorsprong - Bestemming **]** afgeleid veld. U gebruikt de **[!UICONTROL CONCATENATE]** functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
+U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
 
 ![[!DNL Concatenate] regel](assets/concatenate.png)
 
@@ -269,30 +276,30 @@ Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of mee
 
 U wilt regels definiëren om verschillende marketingkanalen te identificeren door trapsgewijze logica toe te passen om een marketingkanaalveld in te stellen op de juiste waarde:
 
-- Als de verwijzer afkomstig is van een zoekmachine en de pagina een querytekenreekswaarde heeft waar `cid` contains `ps_`, dient het afzetkanaal te worden geïdentificeerd als een **Betaalde zoekopdracht**.
-- Als de verwijzer afkomstig is van een zoekmachine en de pagina niet de queryreeks heeft `cid`, dient het afzetkanaal te worden geïdentificeerd als een **Natuurlijk zoeken**.
-- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `em_`, dient het afzetkanaal te worden geïdentificeerd als een **E-mail**.
-- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `ds_`, dient het afzetkanaal te worden geïdentificeerd als een **Advertentie weergeven**.
-- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `so_`, dient het afzetkanaal te worden geïdentificeerd als een **Betaald sociaal**.
-- Als de referentie afkomstig is van een verwijzend domein van twitter.com, facebook.com, linkedin.com of tiktok.com, moet het marketingkanaal worden geïdentificeerd als een **Natuurlijk sociaal**.
-- Indien aan geen van de bovenstaande voorschriften wordt voldaan, moet het afzetkanaal als **Andere referentie**.
+- Als de verwijzer afkomstig is van een zoekmachine en de pagina een querytekenreekswaarde heeft waar `cid` contains `ps_`, dient het afzetkanaal te worden geïdentificeerd als een [!DNL *Betaalde zoekopdracht*].
+- Als de verwijzer afkomstig is van een zoekmachine en de pagina niet de queryreeks heeft `cid`, dient het afzetkanaal te worden geïdentificeerd als een [!DNL *Natuurlijk zoeken*].
+- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `em_`, dient het afzetkanaal te worden geïdentificeerd als een [!DNL *E-mail*].
+- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `ds_`, dient het afzetkanaal te worden geïdentificeerd als een [!DNL *Advertentie weergeven*].
+- Als een pagina een waarde van het vraagkoord heeft waar `cid` contains `so_`, dient het afzetkanaal te worden geïdentificeerd als een [!DNL *Betaald sociaal*].
+- Als de referentie afkomstig is van een verwijzend domein van [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com], of [!DNL tiktok.com], dient het afzetkanaal te worden geïdentificeerd als een [!DNL *Natuurlijk sociaal*].
+- Indien aan geen van de bovenstaande voorschriften wordt voldaan, moet het afzetkanaal als [!DNL *Andere referentie*].
 
-Als uw site de volgende voorbeeldgebeurtenissen ontvangt, die Referrer en Page URL bevatten, moeten deze gebeurtenissen als volgt worden geïdentificeerd:
+Als uw site de volgende voorbeeldgebeurtenissen ontvangt: [!UICONTROL Referrer] en [!UICONTROL Page URL]Deze gebeurtenissen moeten als volgt worden omschreven:
 
-| Gebeurtenis | Referrer | Pagina-URL | Marketingkanaal |
+| [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
-| 1 | `https://facebook.com` | `https://site.com/home` | Natuurlijk sociaal |
-| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | Weergave |
-| 3 |  | `https://site.com/?cid=em_12345678` | E-mail |
-| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | Betaalde zoekopdracht |
-| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | E-mail |
-| 6 | `https://google.com` |  | Natuurlijk zoeken |
+| 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
+| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
+| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
+| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
+| 6 | `https://google.com` |  | [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 ### Gegevens voor {#casewhen-uc1-databefore}
 
-| Referrer | Pagina-URL |
+| [!UICONTROL Referrer] | [!DNL Page URL] |
 |----|----|
 | `https://facebook.com` | `https://site.com/home` |
 | `https://abc.com` | `https://site.com/?cid=ds_12345678` |
@@ -305,79 +312,79 @@ Als uw site de volgende voorbeeldgebeurtenissen ontvangt, die Referrer en Page U
 
 ### Afgeleid veld {#casewhen-uc1-derivedfield}
 
-U definieert een nieuwe `Marketing Channel` afgeleid veld. U gebruikt de **[!UICONTROL CASE WHEN]** functies voor het definiëren van regels die waarden maken voor het object op basis van bestaande waarden voor beide `Page URL` en `Referring URL` veld.
+U definieert een nieuwe `Marketing Channel` afgeleid veld. U gebruikt de [!UICONTROL CASE WHEN] functies voor het definiëren van regels die waarden maken voor het object op basis van bestaande waarden voor beide `Page URL` en `Referring URL` veld.
 
-Let op het gebruik van de functie **[!UICONTROL ** URL-PARSE **]** om regels te definiëren voor het ophalen van de waarden voor `Page Url` en `Referring Url` vóór de **[!UICONTROL ** GEVEN WANNEER **]** worden toegepast.
+Let op het gebruik van de functie [!UICONTROL URL PARSE] om regels te definiëren voor het ophalen van de waarden voor `Page Url` en `Referring Url` vóór de [!UICONTROL CASE WHEN] worden toegepast.
 
 ![[!DNL Case when] regel 1](assets/case-when-1.png)
 
 ### Gegevens na {#casewhen-uc1-dataafter}
 
-| Marketingkanaal |
+| [!DNL Marketing Channel] |
 |----|
-| Natuurlijk sociaal |
-| Weergave |
-| E-mail |
-| Betaalde zoekopdracht |
-| E-mail |
-| Natuurlijk zoeken |
+| [!DNL Natural Social] |
+| [!DNL Display] |
+| [!DNL Email] |
+| [!DNL Paid Search] |
+| [!DNL Email] |
+| [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 
 ## Hoofdlettergebruik 2 {#casewhen-uc2}
 
-U hebt verschillende verschillende zoekvariaties verzameld binnen de dimensie Zoekmethoden voor producten. Om de algemene prestaties van onderzoek te begrijpen versus doorbladeren, moet u heel wat tijd doorbrengen die de resultaten manueel combineert.
+U hebt verschillende verschillende zoekvariaties verzameld in uw [!DNL Product Finding Methods] dimensie. Om de algemene prestaties van onderzoek te begrijpen versus doorbladeren, moet u heel wat tijd doorbrengen die de resultaten manueel combineert.
 
-Uw site verzamelt de volgende waarden voor de dimensie Methoden zoeken in uw product. Uiteindelijk geven al deze waarden een zoekopdracht aan.
+Uw site verzamelt de volgende waarden voor uw [!DNL Product Finding Methods] dimensie. Uiteindelijk geven al deze waarden een zoekopdracht aan.
 
 | Verzamelde waarde | Werkelijke waarde |
 |---|---|
-| search p13n_no | zoeken |
-| zoek p13n_yes | zoeken |
-| zoeken p13n_no verfijnen | zoeken |
-| zoek p13n_yes verfijnen | zoeken |
-| p13n_yes doorzoeken | zoeken |
-| doorzoeken | zoeken |
+| [!DNL search p13n_no] | [!DNL search] |
+| [!DNL search p13n_yes] | [!DNL search] |
+| [!DNL search refine p13n_no] | [!DNL search] |
+| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search redirect p13n_yes] | [!DNL search] |
+| [!DNL search-redirect] | [!DNL search] |
 
 {style="table-layout:auto"}
 
 
 ### Gegevens voor {#casewhen-uc2-databefore}
 
-| Methoden voor het zoeken van producten |
+| [!DNL Product Finding Methods] |
 |----|
-| search p13_no |
-| zoek p13_ja |
-| doorbladeren |
-| zoek verfijnen p13_no |
-| zoek verfijnen p13_yes |
-| doorbladeren |
-| doorzoeken p13_ja |
-| doorzoeken |
-| doorbladeren |
+| [!DNL search p13_no] |
+| [!DNL search p13_yes] |
+| [!DNL browse] |
+| [!DNL search refine p13_no] |
+| [!DNL search refine p13_yes] |
+| [!DNL browse] |
+| [!DNL search redirect p13_yes] |
+| [!DNL search-redirect] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
 ### Afgeleid veld {#casewhen-uc2-derivedfield}
 
-U definieert een `Product Finding Methods (new)` afgeleid veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regels in regelbuilder. Deze regels passen logica op alle mogelijke variaties van oude toe **[!UICONTROL ** Methoden voor het zoeken van producten **]** veldwaarden voor `search` en `browse` met de **[!UICONTROL Contains the phrase]** criterium.
+U definieert een `Product Finding Methods (new)` afgeleid veld. U maakt de volgende [!UICONTROL CASE WHEN] regels in regelbuilder. Deze regels passen logica op alle mogelijke variaties van oude toe [!UICONTROL Product Finding Methods] veldwaarden voor `search` en `browse` met de [!UICONTROL Contains the phrase] criterium.
 
 ![[!DNL Case When] regel 2](assets/case-when-2.png)
 
 ### Gegevens na {#casewhen-uc2-dataafter}
 
-| Methoden voor het zoeken van producten (nieuw) |
+| [!DNL Product Finding Methods (new)] |
 |----|
-| zoeken |
-| zoeken |
-| doorbladeren |
-| zoeken |
-| zoeken |
-| doorbladeren |
-| zoeken |
-| zoeken |
-| doorbladeren |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
@@ -389,9 +396,9 @@ Als reisbedrijf, zou u reisduur voor boekte reizen willen opzeggen zodat kunt u 
 Veronderstellingen:
 
 - De organisatie verzamelt reisduur naar een numeriek veld.
-- Ze willen een duur van 1-3 dagen in een emmer &quot;korte reis&quot; steken
-- Ze willen een duur van 4 tot 7 dagen in een emmer steken, &#39;gemiddelde reis&#39; genoemd
-- Ze willen de duur van 8+ dagen in een emmer &quot;lange reis&quot; stoppen
+- Ze willen de duur van 1 tot 3 dagen in een emmer met de naam &#39;[!DNL short trip]&#39;
+- Ze willen de duur van 4 tot 7 dagen in een emmer met de naam &#39;[!DNL medium trip]&#39;
+- Ze willen de tijdsduur van 8+ dagen in een emmer met de naam &#39;[!DNL long trip]&#39;
 - 132 reizen werden geboekt voor een duur van 1 dag
 - 110 reizen werden geboekt voor een duur van 2 dagen
 - 105 reizen werden geboekt voor een duur van 3 dagen
@@ -407,17 +414,17 @@ Veronderstellingen:
 
 Uw gewenste rapport zou als moeten kijken:
 
-| Type reisduur | Bladwijzers |
+| [!DNL Trip Duration Type] | [!DNL Bookings] |
 |----|---:|
-| middelmatige reis | 358 |
-| korte reis | 347 |
-| lange reis | 241 |
+| [!DNL medium trip] | 358 |
+| [!DNL short trip] | 347 |
+| [!DNL long trip] | 241 |
 
 {style="table-layout:auto"}
 
 ### Gegevens voor {#casewhen-uc3-databefore}
 
-| Duur reis |
+| [!DNL Trip Duration] |
 |---:|
 | 1 |
 | 12 |
@@ -434,27 +441,27 @@ Uw gewenste rapport zou als moeten kijken:
 
 ### Afgeleid veld {#casewhen-uc3-derivedfield}
 
-U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende **[!UICONTROL ** GEVEN WANNEER **]** regel in regelbouwer. Deze regel past logica toe om de oude **[!UICONTROL ** Duur reis **]** veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
+U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [!UICONTROL CASE WHEN] regel in regelbouwer. Deze regel past logica toe om de oude [!UICONTROL Trip Duration] veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
 
 ![[!DNL Case When] regel 3](assets/case-when-3.png)
 
 
 ### Gegevens na {#casewhen-uc3-dataafter}
 
-| Duur van de reis (gespaard) |
+| [!DNL Trip Duration (bucketed)] |
 |---|
-| korte reis |
-| lange reis |
-| korte reis |
-| middelmatige reis |
-| middelmatige reis |
-| lange reis |
-| middelmatige reis |
-| korte reis |
-| korte reis |
-| korte reis |
-| lange reis |
-| lange reis |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL short trip] |
+| [!DNL medium trip] |
+| [!DNL medium trip] |
+| [!DNL long trip] |
+| [!DNL medium trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL long trip] |
 
 
 ## Restricties
@@ -469,13 +476,13 @@ CJA gebruikt het volgende standaardcontainermodel:
 
 
 
-De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer _selecteren_ en _instellen_ waarden.
+De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selecteren* en *instellen* waarden.
 
 |  | Restricties |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Waarden _selecteren_ binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Afhankelijkheid A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Alle waarden die u _set_ over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Afhankelijkheid B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | De waarden die u _selecteren_ dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do _niet_ moeten afkomstig zijn uit dezelfde container en moet _niet_ moeten van hetzelfde type zijn. <br/> ![Afhankelijkheid C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | Waarden *selecteren* binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Afhankelijkheid A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | Alle waarden die u *set* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Afhankelijkheid B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | De waarden die u *selecteren* dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do *niet* moeten afkomstig zijn uit dezelfde container en moet *niet* moeten van hetzelfde type zijn. <br/> ![Afhankelijkheid C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -505,47 +512,47 @@ U hebt een aantal misvormde waarden ontvangen voor uw externe marketingkanaalrap
 
 **Oorspronkelijk rapport**
 
-| Externe marketingkanalen | Sessies |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| e-mailmarketing | 500 |
-| e-mail %20marketing | 24 |
+| [!DNL email marketing] | 500 |
+| [!DNL email %20marketing] | 24 |
 
 {style="table-layout:auto"}
 
 **Voorkeursrapport**
 
-| Externe marketingkanalen | Sessies |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| e-mailmarketing | 524 |
+| [!DNL email marketing] | 524 |
 
 
 ### Gegevens voor {#findreplace-uc-databefore}
 
-| Externe marketing |
+| [!DNL External Marketing] |
 |----|
-| e-mailmarketing |
-| email%20marketing |
-| e-mailmarketing |
-| e-mailmarketing |
-| email%20marketing |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
 
 {style="table-layout:auto"}
 
 ### Afgeleid veld {#findreplace-uc-derivedfield}
 
-U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de **[!UICONTROL FIND AND REPLACE]** functie om een regel te definiëren voor het zoeken en vervangen van alle instanties van `email%20marketing` with `email marketing`.
+U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICONTROL FIND AND REPLACE] functie om een regel te definiëren voor het zoeken en vervangen van alle instanties van `email%20marketing` with `email marketing`.
 
 ![[!DNL Find and Replace] regel](assets/find-and-replace.png)
 
 ### Gegevens na {#findreplace-uc-dataafter}
 
-| Externe marketing<br/>(afgeleid veld) |
+| [!DNL External Marketing (updated)] |
 |----|
-| e-mailmarketing |
-| e-mailmarketing |
-| e-mailmarketing |
-| e-mailmarketing |
-| e-mailmarketing |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
 
 {style="table-layout:auto"}
 
@@ -573,63 +580,63 @@ Definieert een set opzoekwaarden die worden vervangen door corresponderende waar
 ## Hoofdlettergebruik 1 {#lookup-uc1}
 
 U hebt een CSV-bestand met een sleutelkolom voor `hotelID` en een of meer aanvullende kolommen met betrekking tot de `hotelID`: `city`, `rooms`, `hotel name`.
-U verzamelt Hotel-id in een dimensie, maar u wilt een dimensie Hotel-naam maken die is afgeleid van de `hotelID` in het CSV-bestand.
+U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van de `hotelID` in het CSV-bestand.
 
 **CSV-bestandsstructuur en -inhoud**
 
-| hotelID | stad | kamers | hotelnaam |
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
 |---|---|---:|---|
-| SLC123 | Salt Lake City | 40 | SLC Downtown |
-| LAX342 | Los Angels | 60 | Luchthaven LA |
-| SFO456 | San Francisco | 75 | Market Street |
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
 **Huidig rapport**
 
-| Hotel-id | Productweergaven |
+| [!DNL Hotel ID] | Productweergaven |
 |---|---:|
-| SLC123 | 200 |
-| LX342 | 198 |
-| SFO456 | 190 |
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
 
 {style="table-layout:auto"}
 
 
 **Gewenst rapport**
 
-| Hotelnaam | Productweergaven |
+| [!DNL Hotel Name] | Productweergaven |
 |----|----:|
-| SLC Downtown | 200 |
-| Luchthaven LA | 198 |
-| Market Street | 190 |
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
 
 {style="table-layout:auto"}
 
 ### Gegevens voor {#lookup-uc1-databefore}
 
-| Hotel-id |
+| [!DNL Hotel ID] |
 |----|
-| SLC123 |
-| LAX342 |
-| SFO456 |
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
 
 {style="table-layout:auto"}
 
 
 ### Afgeleid veld {#lookup-uc1-derivedfield}
 
-U definieert een `Hotel Name` afgeleid veld. U gebruikt de **[!UICONTROL ** VERGRENDELEN **]** functie om een regel te definiëren waarin u waarden van de **[!UICONTROL ** Hotel-id **]** veld en vervangen door nieuwe waarden.
+U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
 
 ![[!DNL Lookup] regel 1](assets/lookup-1.png)
 
 ### Gegevens na {#lookup-uc1-dataafter}
 
-| Hotelnaam |
+| [!DNL Hotel Name] |
 |----|
-| SLC Downtown |
-| Luchthaven LA |
-| Market Street |
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
@@ -640,13 +647,13 @@ U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschi
 
 ### Gegevens voor {#lookup-uc2-databefore}
 
-| Paginanaam |
+| [!DNL Page Name] |
 |---|
-| Startpagina |
-| Zoeken in vliegen |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
 | `http://www.adobetravel.ca/Hotel-Search` |
 | `https://www.adobetravel.com/Package-Search` |
-| Handelingen en aanbiedingen |
+| [!DNL Deals & Offers] |
 | `http://www.adobetravel.ca/user/reviews` |
 | `https://www.adobetravel.com.br/Generate-Quote/preview` |
 
@@ -654,21 +661,21 @@ U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschi
 
 ### Afgeleid veld {#lookup-uc2-derivedfield}
 
-U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de **[!UICONTROL ** VERGRENDELEN **]** functie om een regel te definiëren waarin u waarden van uw bestaande **[!UICONTROL ** Paginanaam **]** veld en vervangen door bijgewerkte correcte waarden.
+U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van uw bestaande [!UICONTROL Page Name] veld en vervangen door bijgewerkte correcte waarden.
 
 ![[!DNL Lookup] regel 2](assets/lookup-2.png)
 
 ### Gegevens na {#lookup-uc2-dataafter}
 
-| Paginanaam (bijgewerkt) |
+| [!DNL Page Name (updated)] |
 |---|
-| Startpagina |
-| Zoeken in vliegen |
-| Hotel zoeken |
-| Pakket zoeken |
-| Handelingen en aanbiedingen |
-| Revisies |
-| Offerte genereren |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
 
 +++
 
@@ -695,7 +702,7 @@ U wilt het verwijzende domein van verwijzende URL als deel van de reeks van rege
 
 ### Gegevens voor {#urlparse-uc1-databefore}
 
-| URL verwijzen |
+| [!DNL Referring URL] |
 |----|
 | `https://www.google.com/` |
 | `https://duckduckgo.com/` |
@@ -706,29 +713,29 @@ U wilt het verwijzende domein van verwijzende URL als deel van de reeks van rege
 
 ### Afgeleid veld {#urlparse-uc1-derivedfield}
 
-U definieert een  `Referring Domain` afgeleid veld. U gebruikt de **[!UICONTROL ** URL-PARSE **]** functie om een regel te bepalen om de gastheer van te halen **URL verwijzen** en sla dat op in het nieuwe afgeleide veld.
+U definieert een  `Referring Domain` afgeleid veld. U gebruikt de [!UICONTROL URL PARSE] functie om een regel te bepalen om de gastheer van te halen [!UICONTROL Referring URL] en sla dat op in het nieuwe afgeleide veld.
 
 ![[!DNL Url Parse] regel 1](assets/url-parse-1.png)
 
 ### Gegevens na {#urlparse-uc1-dataafter}
 
-| Referentiedomein |
+| [!DNL Referrer Domain] |
 |----|
-| www.google.com |
-| duckduckgo.com |
-| t.co |
-| l.facebook.com |
+| [!DNL www.google.com] |
+| [!DNL duckduckgo.com] |
+| [!DNL t.co] |
+| [!DNL l.facebook.com] |
 
 {style="table-layout:auto"}
 
 
 ## Hoofdlettergebruik 2 {#urlparse-uc2}
 
-U wilt de waarde van `cid` parameter van een vraagkoord in een Pagina URL als deel van de output van een afgeleid het volgen coderapport.
+U wilt de waarde van `cid` parameter van een queryreeks in een [!DNL Page URL] als deel van de output van een afgeleid het volgen coderapport.
 
 ### Gegevens voor {#urlparse-uc2-databefore}
 
-| Pagina-URL |
+| [!DNL Page URL] |
 |----|
 | `https://www.adobe.com/?cid=abc123` |
 | `https://www.adobe.com/?em=email1234&cid=def123` |
@@ -738,17 +745,17 @@ U wilt de waarde van `cid` parameter van een vraagkoord in een Pagina URL als de
 
 ### Afgeleid veld {#urlparse-uc2-derivedfield}
 
-U definieert een `Query String CID` afgeleid veld. U gebruikt de **[!UICONTROL ** URL-PARSE **]** functie om een regel te bepalen om de waarde van de parameter van het vraagkoord in de Pagina URL te halen, specificerend `cid` als de queryparameter. De outputwaarde wordt opgeslagen op het nieuwe afgeleide gebied.
+U definieert een `Query String CID` afgeleid veld. U gebruikt de [!UICONTROL URL PARSE] functie om een regel te bepalen om de waarde van de parameter van het vraagkoord in te halen [!UICONTROL Page URL] veld, opgeven `cid` als de queryparameter. De outputwaarde wordt opgeslagen op het nieuwe afgeleide gebied.
 
 ![[!DNL Url Parse] regel 2](assets/url-parse-2.png)
 
 ### Gegevens na {#urlparse-uc2-dataafter}
 
-| Query String CID |
+| [!DNL Query String CID] |
 |----|
-| abc123 |
-| def123 |
-| xyz123 |
+| [!DNL abc123] |
+| [!DNL def123] |
+| [!DNL xyz123] |
 
 {style="table-layout:auto"}
 
