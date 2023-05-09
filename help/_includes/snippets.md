@@ -1,7 +1,7 @@
 ---
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
@@ -56,3 +56,14 @@ ht-degree: 1%
 | [!UICONTROL **Datum van laatste wijziging**] | Hiermee geeft u de dag weer waarop de component voor het laatst is gewijzigd. Deze sectie wordt weergegeven bij het weergeven van filters, metriek, berekende meetgegevens en datumbereiken. |
 
 {style="table-layout:auto"}
+
+## Sorteeropties voor componenten {#components-sort-options}
+
+| Optie | -functie |
+|---------|----------|
+| [!UICONTROL **Aanbevolen**] | Hiermee sorteert u componenten met de componenten die boven aan de lijst worden aanbevolen. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in de lijst. |
+| [!UICONTROL **Alfabetisch**] | Hiermee worden componenten alfabetisch gesorteerd. |
+| [!UICONTROL **Categorisch**] | Hiermee worden componenten gesorteerd op componenttype (afmetingen, metrisch, segment, datumbereik). |
+
+{style="table-layout:auto"}
+
