@@ -5,7 +5,7 @@ description: Overzicht van Analysis Workspace-mogelijkheden
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
+source-git-commit: e3c9db595b26b96c2079a770ede1bdd609f6de14
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 3%
@@ -31,7 +31,7 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele van de belangri
 | A | **Linkerspoor ver:** Bevat tabbladen voor het toevoegen van deelvensters, visualisaties en componenten aan Analysis Workspace. Bevat ook het pictogram Gegevenswoordenboek dat wordt gebruikt om het gegevenswoordenboek te openen. |
 | B | **Linkerspoor:** Afhankelijk van het tabblad dat u helemaal links selecteert, bevat dit gebied afzonderlijke deelvensters, visualisaties of componenten. |
 | C | **Canvas:** Dit is het belangrijkste gebied waar u inhoud van de linkerspoorstaven sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters, visualisaties en componenten aan het canvas toevoegt. |
-| D | **Vervolgkeuzemenu Rapportsuite:** Voor elk paneel in Analysis Workspace, staat het drop-down menu van de rapportreeks u toe om de rapportreeks te kiezen die u als uw gegevensbron wilt gebruiken. |
+| D | **Vervolgkeuzemenu voor gegevensweergave:** In het vervolgkeuzemenu voor elk deelvenster in Analysis Workspace kunt u de gegevensweergave kiezen die u als gegevensbron wilt gebruiken. |
 
 ## Functies in Analysis Workspace {#analysis}
 
