@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 4b28a3288f1659ca88353540ff8ce7cd7cd50aea
+source-git-commit: 4d21baa88c90ec24d04b802fdce1baf956eddfe3
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 31%
 
 ---
@@ -257,12 +257,12 @@ ht-degree: 31%
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
-
 + Report Builder {#cja-reportbuilder}
    + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
    + [Report Builder instellen](../report-builder/report-builder-setup.md)
    + [Een gegevensblok maken](../report-builder/create-a-data-block.md)
    + [Report Builder Hub](../report-builder/report-builder-hub.md)
+   + [Een gegevensweergave selecteren](../report-builder/select-data-view.md)
    + [Een datumbereik selecteren](../report-builder/select-date-range.md)
    + [Werken met filters](../report-builder/work-with-filters.md)
    + [Dimension filteren](../report-builder/filter-dimensions.md)
