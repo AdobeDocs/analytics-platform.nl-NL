@@ -3,7 +3,7 @@ description: De Berekende Metrische Manager biedt vele manieren om metriek, zoal
 title: Berekende standaard-beheer
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -23,7 +23,7 @@ De Berekende Metrische Manager toont u alle segmenten u bezit en die met u zijn 
 | UI-onderdeel | Beschrijving |
 | --- | --- |
 | Werkbalk Berekend statistisch beheer | Nadat u de meting hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
-| Filters tonen/verbergen | Als u op Filters tonen klikt, wordt het filtermenu weergegeven. U kunt filteren op tags, rapportsets, eigenaars, Alles tonen (alleen Admin), Gedeeld met mij, Mijne, Favorieten en Goedgekeurd. |
+| Filters tonen/verbergen | Als u op Filters tonen klikt, wordt het filtermenu weergegeven. U kunt filteren op tags, gegevensweergaven, eigenaars, Alles tonen (alleen Admin), Gedeeld met mij, Mijne, Favorieten en Goedgekeurd. |
 | Selectievakjes | Controleer een aangepaste metrische waarde om deze te beheren. |
 | Favorieten | Als u op de ster naast een metrische waarde klikt, wordt de ster geel en wordt de metrische waarde als favoriet gemarkeerd. |
 | Titels en beschrijvingen filteren | Opgegeven in de Berekende Metrische Bouwer. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Berekende metrische bouwer. |

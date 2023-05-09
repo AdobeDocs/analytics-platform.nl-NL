@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De Manager van het Blok van Gegevens maakt een lijst van alle gegevensblokken aa
 
 ## De lijst Gegevensblokken sorteren
 
-U kunt de lijst van gewezen personen van gegevens sorteren op een weergegeven kolom. U kunt de lijst van gewezen personen van de gegevens bijvoorbeeld sorteren op Rapportsets, Filters, Datumbereik en andere variabelen.
+U kunt de lijst van gewezen personen van gegevens sorteren op een weergegeven kolom. U kunt de lijst van gewezen personen van de gegevens bijvoorbeeld sorteren op gegevensweergaven, Filters, Datumbereik en andere variabelen.
 
 Klik op een kolomkop om de lijst van gewezen personen van de gegevens te sorteren.
 
@@ -40,7 +40,7 @@ Klik op een kolomkop om de lijst van gewezen personen van de gegevens te sortere
 
 ## De Lijst van gewezen personen Gegevens doorzoeken
 
-Gebruik het veld Zoeken om iets te zoeken in de tabel met gegevensblokken. U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of de rapportsuite. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
+Gebruik het veld Zoeken om iets te zoeken in de tabel met gegevensblokken. U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of gegevensweergave. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
 
 ![image](./assets/image55.png)
 

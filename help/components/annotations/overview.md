@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren met bekende gegevensproblemen, feestdagen, startacties voor campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
 
-Stel dat u projecten deelt met uw organisatie. Als u een sterke toename in het verkeer door een marketing campagne had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige rapportreeks. Wanneer uw gebruikers om het even welke datasets bekijken die die datum omvatten, zien zij de aantekening binnen hun projecten, naast hun gegevens.
+Stel dat u projecten deelt met uw organisatie. Als u een sterke toename in verkeer door een marketing campagne had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige gegevensmening. Wanneer uw gebruikers om het even welke datasets bekijken die die datum omvatten, zien zij de aantekening binnen hun projecten, naast hun gegevens.
 
 ![](assets/multi-day.png)
 
@@ -28,7 +28,7 @@ Houd dit in gedachten:
 
 * Zij kunnen op het project van toepassing zijn waarin zij (gebrek) werden gecreeerd of op alle projecten.
 
-* Zij kunnen op de rapportreeks van toepassing zijn waarin zij (gebrek) werden gecreeerd of op alle rapportsuites.
+* Ze kunnen worden toegepast op de gegevensweergave waarin ze zijn gemaakt (standaard) of op alle gegevensweergaven.
 
 ## Toestemmingen
 

@@ -3,7 +3,8 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Items in het gegevenswoordenboek bewerken
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Onderdeelitems in gegevenswoordenboek bewerken
 
-Customer Journey Analytics-beheerders kunnen componentitems in het gegevenswoordenboek voor een bepaalde rapportsuite bewerken. Alle aangebrachte wijzigingen zijn zichtbaar voor alle gebruikers van de rapportsuite.
+Customer Journey Analytics-beheerders kunnen componentitems in het gegevenswoordenboek voor een bepaalde gegevensweergave bewerken. Alle aangebrachte wijzigingen zijn zichtbaar voor alle gebruikers van de gegevensweergave.
 
 Een component in het gegevenswoordenboek bewerken:
 
@@ -24,7 +25,7 @@ Een component in het gegevenswoordenboek bewerken:
 
    ![Admin-weergave gegevenswoordenboek](assets/data-dictionary-admin.png)
 
-1. Controleer of de juiste rapportsuite is geselecteerd in de keuzelijst. Standaard wordt de rapportsuite weergegeven waarin u zich al bevindt.
+1. Controleer of de juiste gegevensweergave is geselecteerd in het keuzemenu. Standaard wordt de gegevensweergave weergegeven waarin u zich al bevindt.
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt bewerken.
 

@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 7065215f89f964e7504f3e95996b352410b89779
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2294'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 
 Het scorebordsjabloon implementeren:
 
-1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project report suite]** waarvan u gegevens wilt gebruiken. De reeksen van het rapport zijn gegevensmeningen in CJA.
+1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project data view]** waarvan u gegevens wilt gebruiken.
 
-   ![Selectie van rapportsuite](assets/properties_save.png)
+   ![selectie in gegevensweergave](assets/properties_save.png)
 
 1. Als u een nieuwe tegel aan het scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in het deelvenster **[!UICONTROL Drag and Drop Metrics Here]** zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 

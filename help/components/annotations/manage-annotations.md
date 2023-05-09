@@ -3,10 +3,10 @@ title: Annotaties beheren
 description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Components
-exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -28,17 +28,17 @@ De [!UICONTROL Annotations] de manager toont u alle annotaties u bezit die aan a
 | UI-element | Beschrijving |
 | --- | --- | 
 | [!UICONTROL Title and Description] | Opgegeven in de Annotations Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Annotatiebouwer. |
-| [!UICONTROL Report Suite] | De rapportsuite(s) waarop deze aantekening van toepassing is. |
+| [!UICONTROL Data view] | De gegevensweergave(en) waarop deze aantekening van toepassing is. |
 | [!UICONTROL Owner] | Geeft aan wie de annotatie bezit. Als niet-beheerder kunt u alleen annotaties zien die u bezit of die met u hebt gedeeld. |
 | [!UICONTROL Applied Date Range] | De datum of het datumbereik waarop deze aantekening van toepassing is. |
 | [!UICONTROL Shared with] | Hier wordt weergegeven met hoeveel personen of groepen u de annotatie hebt gedeeld. Klik voor meer details. |
 | [!UICONTROL Date Modified] | Geeft de datum en tijd weer waarop de annotatie voor het laatst is gewijzigd. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Annotaties bewerken
 
-Het uitgeven van een aantekening betekent dat u datumwaaiers, kleuren, werkingsgebied kunt aanpassen, of al dan niet het op alle rapportsuites of projecten van toepassing is. U kunt annotaties op twee manieren bewerken:
+Als u een annotatie bewerkt, kunt u datumbereiken, kleuren, bereik aanpassen of dat dit al dan niet van toepassing is op alle gegevensweergaven of projecten. U kunt annotaties op twee manieren bewerken:
 
 * Houd de aanwijzer boven de annotatie in een lijndiagram en klik op het potloodpictogram in de pop-up.
 
@@ -58,7 +58,7 @@ Houd rekening met het volgende wanneer u annotaties deelt of met annotaties werk
 
 ## Aantekeningen en tijdzones
 
-Alle annotaties worden gemaakt met een tijdstempel, maar geen informatie over het uur of de tijdzone. Op het rapporttijdstip wordt de tijdzone van de gegevensweergave van het deelvenster altijd toegepast. Een annotatie die voor kerstdag is gemaakt, gebeurt dus op 25 december - ongeacht in welk tijdzone van de rapportsuite u zich bevindt.
+Alle annotaties worden gemaakt met een tijdstempel, maar geen informatie over het uur of de tijdzone. Op rapporttijdstip wordt de tijdzone van de gegevensweergave van het deelvenster altijd toegepast. Een annotatie die voor kerstdag is gemaakt, gebeurt dus op 25 december - ongeacht in welke tijdzone de gegevens worden weergegeven.
 
 Een ander voorbeeld is Nieuwjaarsdag. Elk uur begint een andere tijdzone met vuurwerk tijdens het nieuwe jaar. Om 10.00 uur &#39;s avonds in de Amerikaanse Mountain Time staat de Amerikaanse oostkust in brand omdat het al 12.00 uur &#39;s morgens is.
 
@@ -76,6 +76,6 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 | Naam wijzigen | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
 | Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
 | Exporteren naar CSV | Exporteer de annotatiedefinitie naar een CSV-bestand. |
-| Filter (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
+| Filter (linkerspoor) | Filteren op tags, gegevensweergave, eigenaars en andere filters (Min, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

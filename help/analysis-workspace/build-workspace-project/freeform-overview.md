@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 3%
@@ -41,7 +41,7 @@ De pagina Projecten bevat de volgende informatie:
 | Tags | Tags die op het project zijn toegepast. |
 | Gepland | Geeft aan of de projecten volgens planning per e-mail naar ontvangers moeten worden verzonden. Zie [Projecten plannen](/help/analysis-workspace/curate-share/t-schedule-report.md). |
 | Gedeelde koppeling (iedereen) | Projecten kunnen met iedereen worden gedeeld, zelfs met mensen die geen toegang hebben tot Analysis Workspace. Deze kolom toont of de projecten op deze manier zijn gedeeld. Zie [Een project delen met iedereen (geen aanmelding vereist)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie . |
-| Rapportsuite | De rapportsuite waaraan het project is gekoppeld. |
+| Gegevens, weergave | De gegevensweergave waaraan het project is gekoppeld. |
 | [Projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
 | Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
 | Gedeeld met | Gebruikers waarmee het project is gedeeld. |

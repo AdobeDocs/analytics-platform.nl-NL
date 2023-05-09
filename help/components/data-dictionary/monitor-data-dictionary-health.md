@@ -3,7 +3,8 @@ description: Beheerders zijn verantwoordelijk voor het controleren van de gezond
 title: Gezondheid gegevenswoordenboek controleren
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
    ![Admin-weergave gegevenswoordenboek](assets/data-dictionary-admin.png)
 
-1. Controleer of de juiste rapportsuite is geselecteerd in de keuzelijst.
+1. Controleer of de juiste gegevensweergave is geselecteerd in het keuzemenu.
 
 1. Op de [!UICONTROL **Woordenboekgezondheid**] tab, selecteert u [!UICONTROL **Weergave**] naast een van de volgende opties:
 

@@ -2,7 +2,8 @@
 description: Adobe verstrekt diverse berekende metriek die u kunt gebruiken. Deze pagina bevat een overzicht van die metingen en het gebruik waarvoor ze zijn bedoeld.
 title: Berekende standaardwaarden
 feature: Calculated Metrics
-source-git-commit: 5d6942af4ac3f999c5e7fd7d6ba74a5fe7a26a9d
+exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -17,7 +18,7 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 
 >[!NOTE]
 >
->Naast de standaard berekende metriek die op deze pagina wordt beschreven, kunt u extra berekende metriek aan een rapportreeks ook toevoegen.
+>Naast de standaard berekende metriek die op deze pagina wordt beschreven, kunt u extra berekende metriek aan een gegevensmening ook toevoegen.
 >
 >U kunt:
 > * Standaardberekende waarden toevoegen voor streamingmedia, zoals beschreven in [Berekende cijfers](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)

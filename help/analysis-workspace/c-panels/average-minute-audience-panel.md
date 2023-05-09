@@ -4,7 +4,7 @@ description: Het deelvenster Mediagemiddelde - Minuut publiek in Analysis Worksp
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Klanten van Media Analytics kunnen het gemiddelde minieme publiek deelvenster ge
 In Analysis Workspace is het gemiddelde aantal minuten voor het publiek de tijd die nodig is om de mediastream weer te geven gedeeld door de duur van de inhoud of de totale selectie van de periode en de geselecteerde granulariteit.
 
 Het deelvenster Mediagemiddelde Minuut publiek biedt een analyse van het gemiddelde aantal minuten voor het publiek op basis van de specifieke inhoud die is geselecteerd als de duur beschikbaar wordt gesteld met behulp van classificaties.
-Het deelvenster Gemiddelde minuten publiek biedt ook analyses over een geselecteerde tijdsperiode die door specifieke inhoud kunnen worden gefilterd, ongeacht of de duur beschikbaar is via classificaties. Als u het deelvenster Mediagemiddelde Minuut publiek wilt openen, navigeert u naar een rapportsuite met ingeschakelde componenten voor Media Analytics. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+Het deelvenster Gemiddelde minuten publiek biedt ook analyses over een geselecteerde tijdsperiode die door specifieke inhoud kunnen worden gefilterd, ongeacht of de duur beschikbaar is via classificaties. Als u het deelvenster Mediagemiddelde Minuut publiek wilt openen, navigeert u naar een gegevensweergave met ingeschakelde componenten voor Media Analytics. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
 
 <!-- For more information, see the Media Average Minute Audience introduction video:
 << replace with AMA video when available >> -->

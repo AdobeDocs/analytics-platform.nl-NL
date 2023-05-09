@@ -3,7 +3,8 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -44,11 +45,11 @@ Hieronder vindt u een aantal manieren waarop analysebeheerders het gegevenswoord
 
 * Identificeer componenten die nog niet zijn goedgekeurd.
 
-* Werk componentenbeschrijvingen rechtstreeks bij in Analysis Workspace. Om het even welke die updates aan componentenbeschrijvingen in het Woordenboek van Gegevens worden aangebracht worden weerspiegeld in de Reeks van het Rapport.
+* Werk componentenbeschrijvingen rechtstreeks bij in Analysis Workspace. Alle updates van componentbeschrijvingen in het gegevenswoordenboek worden weerspiegeld in de gegevensweergave.
 
-   Zo ook worden updates van componentenbeschrijvingen in de Reeks van het Rapport weerspiegeld in Analysis Workspace.
+   Zo worden updates van componentbeschrijvingen in de gegevensweergave ook weerspiegeld in Analysis Workspace.
 
-   Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een Reeks van het Rapport, zie [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md).
+   Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een gegevensmening, zie [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md).
 
 ## Het gegevenswoordenboek openen
 

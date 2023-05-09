@@ -4,9 +4,9 @@ title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](../analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. </li><li>**[!UICONTROL Number of Queries]**: Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. </li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
 | **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Navigeren door de [!UICONTROL Projects] tab {#navigate-projects}
 
@@ -50,7 +50,7 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | [!UICONTROL Mobile scorecard] | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) voor u om te ontwerpen en te bouwen. |
 | [!UICONTROL Open Training Tutorial] | Hiermee opent u de zelfstudie Workspace Training die u door het proces begeleidt voor het bouwen van een nieuw startproject in een stapsgewijze zelfstudie. |
 | [!UICONTROL Open release notes] | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
-| Filterpictogram | Filters op tags, rapportsuites, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
+| Filterpictogram | Filters op tags, gegevensweergaven, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
 | Zoekbalk | Hiermee doorzoekt u alle kolommen in de tabel. |
 | Selectievak | Selecteert één of meerdere projecten om de acties van het projectbeheer te tonen u kunt uitvoeren: **Verwijderen**, **Delen**, **Naam wijzigen**, **Kopiëren**, **Ongedaan maken**, **Omhoog**, **Omlaag**, **Tag**, **Goedkeuren**, **CSV exporteren**, en **Verplaatsen naar**. U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
 | [!UICONTROL Favorites] | Hiermee voegt u een ster toe naast een favoriet project dat of een favoriete map die als filter kan worden gebruikt. |
@@ -61,7 +61,7 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | [!UICONTROL Type] | Wijst erop of dit type een project van de Werkruimte, een Mobiele scorecard, of een omslag is. |
 | [!UICONTROL Tags] | Hiermee worden projecten gecodeerd om ze in groepen te ordenen. |
 | [!UICONTROL Project Role] | Identificeert de projectrollen: of u de eigenaar van het project bent en of u machtigingen hebt om het project te bewerken of te dupliceren. |
-| [!UICONTROL Report Suite] | Identificeert de Reeksen van het Rapport die met het project worden geassocieerd.<br>Tabellen en visualisaties in een deelvenster leiden gegevens af van de rapportsuite die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
+| [!UICONTROL Data View] | Identificeert de gegevensmeningen die met het project worden geassocieerd.<br>Tabellen en visualisaties in een deelvenster leiden gegevens af van de gegevensweergave die rechtsboven in het deelvenster is geselecteerd. In de gegevensweergave wordt ook bepaald welke componenten beschikbaar zijn in de linkertrack. Binnen een project, kunt u één of vele gegevensmeningen afhankelijk van uw gevallen van het analysegebruik gebruiken. De lijst met gegevensweergaven wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
 | [!UICONTROL Owner] | Identificeert de persoon die het project creeerde. |
 | [!UICONTROL Last opened] | Identificeert de datum u het project het laatst opende. |
 | Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles landen](assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |

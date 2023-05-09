@@ -1,11 +1,12 @@
 ---
-description: Beheerders kunnen beschrijvingen voor componenten toevoegen met behulp van beide rapportsuite.
+description: Beheerders kunnen beschrijvingen voor componenten toevoegen met behulp van de gegevensweergave.
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 Met behulp van beschrijvingen kunnen gebruikers het beste de verschillende componenten gebruiken bij het maken van projecten in Analysis Workspace of bij het weergeven van rapporten.
 
-Customer Journey Analytics-beheerders kunnen beschrijvingen voor componenten (Dimension, Metriek, Filters en Datumbereik) toevoegen in de rapportsuite of met gebruik van het gegevenswoordenboek rechtstreeks in Analysis Workspace.
+Customer Journey Analytics-beheerders kunnen beschrijvingen voor componenten (Dimension, Metriek, Filters en Datumbereiken) toevoegen in de gegevensweergave of met gebruik van het gegevenswoordenboek rechtstreeks in Analysis Workspace.
 
-## Beschrijvingen toevoegen aan componenten in een rapportsuite
+## Beschrijvingen toevoegen aan componenten in een gegevensweergave
 
-De volgende video beschrijft hoe te om afmeting en metrische beschrijvingen in een Reeks van het Rapport toe te voegen:
+In de volgende video wordt beschreven hoe u afmetingen en metrische beschrijvingen in een gegevensweergave kunt toevoegen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
