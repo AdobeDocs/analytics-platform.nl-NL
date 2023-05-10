@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 3%
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. De meeste visualisatietypen zijn u bekend als u Customer Journey Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
 
-U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md)of via het snelmenu in uw workflow.
-
-![Visualisatiespoor](assets/viz-rail.png)
+## Visualisatietypen
 
 De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
@@ -40,6 +38,26 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Tekst](/help/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
 | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Gebruikt cirkels om de metrische overlapping van maximaal 3 filters aan te geven. |
+
+## Visualisaties toevoegen aan een deelvenster
+
+1. Open het Analysis Workspace-project waar u een visualisatie wilt toevoegen.
+
+1. Gebruik een van de volgende methoden om de visualisatie toe te voegen:
+
+   * Selecteer in het linkerspoor de optie **Visualisaties** pictogram <!-- add icon -->Sleep vervolgens een visualisatie naar het deelvenster waaraan u de afbeelding wilt toevoegen.
+
+      ![](assets/viz-rail.png)
+
+   * Selecteer in het deelvenster waar u de visualisatie wilt toevoegen de optie **Plus** en kiest u vervolgens het pictogram dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam ervan te zien.
+
+      ![Knop voor het toevoegen van een visualisatie](assets/visualization-add-to-panel.png)
+
+   * Voeg een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)kiest u vervolgens de visualisatie die u wilt toevoegen.
+
+      ![Leeg deelvenster](assets/blank_panel.png)
+
+   * Klik met de rechtermuisknop op een bestaand deelvenster in uw Analysis Workspace-project en selecteer [!UICONTROL **Dubbele visualisatie**] of [!UICONTROL **Visualisatie kopiëren**].
 
 ## Visualisatie-instellingen aanpassen
 
