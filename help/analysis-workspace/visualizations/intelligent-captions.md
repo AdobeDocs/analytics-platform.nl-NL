@@ -3,9 +3,9 @@ description: Gebruik intelligente bijschriften om inzichten in de natuurlijke ta
 title: Intelligente bijschriften
 feature: Visualizations
 role: User, Admin
-source-git-commit: 1474d438e9deafc9d303bff3560ef3ff3aff0ec0
+source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 0%
 
 Intelligente bijschriften maken gebruik van gegevenswetenschap voor waardevolle natuurlijke taalinzichten voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](line.md) visualisatie. (Hierna volgen nog andere visualisaties.)
 
-De analisten hebben deze inzichten nodig om context aan gebruikers te kunnen verstrekken met wie zij hun projecten zouden kunnen delen.
-
 Intelligente bijschriften zijn gericht op:
 
+* Analysten die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
 * Zakelijke gebruikers die snel op hoog niveau willen zoeken.
-* Analysten die verhalen nodig hebben om met andere gebruikers te delen.
 
 Bijschriften zijn beschikbaar voor alle CJA-gebruikers en vereisen geen speciale machtigingen.
 
@@ -34,12 +32,13 @@ Als u automatisch gegenereerde bijschriften voor een lijnvisualisatie wilt start
 
 Inzichten in natuurlijke talen worden nu gegenereerd.
 
+Als u het project op dit punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit dit project worden geëxporteerd.
+
 ## Bijschriften weergeven en interpreteren {#view}
 
 Hier volgt een voorbeeld van hoe de bijschriften eruit zouden kunnen zien:
 
 ![Bijschriften](assets/captions.png)
-
 
 ## Kopiëren naar klembord {#copy}
 
@@ -55,7 +54,18 @@ U kunt de bijschriften bewerken, zoals een bepaalde categorie inzichten verberge
 
 1. Klik op **[!UICONTROL Apply]**.
 
+U kunt de ondertiteling op dezelfde manier weer zichtbaar maken.
+
 ## Bijschriften exporteren {#export}
 
 U kunt **bijschriften exporteren via PDF**, zolang het project wordt opgeslagen met de gegenereerde bijschriften.
 
+## Bijschriften uitschakelen {#toggle}
+
+Als u liever geen intelligente bijschriften wilt genereren, kunt u deze functie uitschakelen door naar de voorkeuren voor Visualisatie te gaan en de optie uit te schakelen **[!UICONTROL Show intelligent captions]**.
+
+![bijschriftinstellingen](assets/toggle-captions.png)
+
+## Bijschriften opnieuw ordenen {#reorder}
+
+U kunt de weergave van de bijschriften opnieuw ordenen door een bijschrift naar een nieuwe positie te slepen.
