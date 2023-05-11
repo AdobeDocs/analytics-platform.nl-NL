@@ -3,9 +3,9 @@ description: Leer hoe u een project maakt in Analysis Workspace
 title: Projecten maken
 feature: CJA Workspace Basics
 role: User, Admin
-source-git-commit: 1c5f0a618e2e95df68ba5598948488b16c9532e6
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -22,30 +22,14 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Werkruimte**].
 
-1. Kies of u een leeg project wilt maken of een project wilt maken op basis van een sjabloon:
+1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Projecten**] aan de linkerkant van de pagina en selecteert u [!UICONTROL **Project maken**].
 
-   +++Een leeg project maken
+1. Kies of u een leeg project of een leeg mobiel scorecard wilt maken
 
-   1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Projecten**] aan de linkerkant van de pagina en selecteert u [!UICONTROL **Project maken**].
+   * **Leeg project** als u van plan bent om uw analyse van browser te delen
+   * [**Lege mobiele scorecard**](/help/mobile-app/curator.md) als u uw analyse wilt delen via de mobiele app voor Adobe Analytics-dashboards.
 
-   1. Kies of u een leeg project of een leeg mobiel scorecard wilt maken
-
-      * **Leeg project** als u van plan bent om uw analyse van browser te delen
-      * [**Lege mobiele scorecard**](/help/mobile-app/curator.md) als u uw analyse wilt delen via de mobiele app voor Adobe Analytics-dashboards.
-   1. Selecteer [!UICONTROL **Maken**].
-
-+++
-
-   +++Een project maken van een sjabloon
-
-   1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Rapporten**] aan de linkerkant van de pagina.
-
-   1. Zoek naar of navigeer naar het malplaatje u wilt gebruiken, dan selecteer het wanneer het verschijnt.
-
-      Standaard is een set standaardsjablonen beschikbaar. Bovendien kan uw organisatie aangepaste sjablonen hebben gemaakt waaruit u kunt kiezen.
-
-      <!-- (I don't know if you can create a project from a template in CJA... Might need to delete this section. Also update table in "Projects overview") For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md). -->
-+++
+1. Selecteer [!UICONTROL **Maken**].
 
 1. Daarna, moet u panelen, visualisaties, en componenten aan uw project toevoegen. Voeg eerst deelvensters toe aan uw project in Analysis Workspace, zoals beschreven in [Deelvensters toevoegen aan het project](#add-panels-to-the-project). Vervolgens kunt u visualisaties toevoegen aan alle deelvensters. Tot slot kunt u componenten aan om het even welke panelen of visualisaties toevoegen.
 

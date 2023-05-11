@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1310'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,11 @@ De pagina Projecten bevat de volgende informatie:
 >
 >Sommige kolommen worden niet standaard weergegeven. Als u de kolommen die u ziet, wilt aanpassen, klikt u op de knop **Tabel aanpassen** pictogram ![Tabel aanpassen](assets/projects-page-customize-columns-icon.png).
 
-
 | Element | Beschrijving |
 |---|---|
 | [Voorkeuren bewerken](/help/analysis-workspace/user-preferences.md) | Beheer instellingen voor Analysis Workspace en de bijbehorende componenten voor alle nieuwe projecten of deelvensters die u maakt. |
 | [Map maken](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Voeg een nieuwe map of submap toe aan de lijst met projecten en mappen. |
-| [Project maken](/help/analysis-workspace/home.md) | Een nieuw project starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| [Project maken](/help/analysis-workspace/build-workspace-project/create-projects.md) | Een geheel nieuw project starten. |
 | Meer weergeven | onthult opties voor het creëren van een leeg project of een mobiele scorecard, [weergeven, trainingszelfstudies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), of [Opmerkingen bij de release weergeven](/help/release-notes/latest.md). |
 | Mappen en projecten tonen | Geef op of u de mapstructuur van projecten wilt weergeven. Zie voor meer informatie [Over mappen in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Tabel aanpassen (pictogram) | Staat u toe om de informatie aan te passen die voor elk project op de pagina van Projecten toont. |
@@ -60,7 +59,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 | Menu-item | Beschrijving |
 |---|---|
-| Project | Bevat algemene acties voor projectbeheer, waaronder Nieuw, Openen, Opslaan, Opslaan als en Opslaan als sjabloon. U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [CSV en PDF downloaden](/help/analysis-workspace/curate-share/download-send.md) kunt u gegevens exporteren uit Workspace. **Projectinfo en -instellingen** (zie hieronder) biedt vele opties voor het beheer van uw project. |
+| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, en sparen als. U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [CSV en PDF downloaden](/help/analysis-workspace/curate-share/download-send.md) kunt u gegevens exporteren uit Workspace. **Projectinfo en -instellingen** (zie hieronder) biedt vele opties voor het beheer van uw project. |
 | Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](/help/components/overview.md) | Creeer nieuwe filters, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
