@@ -4,18 +4,18 @@ title: AI-gegevens van klanten integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: fdd8d96eeca90ac13c035ace4a010c016681bac7
+hide: true
+hide-from-toc: true
+source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
 # AI-gegevens van klanten integreren met CJA
 
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md) en niet algemeen beschikbaar.
+{{release-limited-testing}}
 
 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), als onderdeel van Adobe Experience Platform Intelligent Services, biedt marketers de kracht om klantprognoses op individueel niveau te genereren.
 
