@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: cb63cd52a1618f2e1048f2779c4e6c0317e94f64
+source-git-commit: daa2c69a61e80fb0e38f06ecca248658595b2c3a
 workflow-type: tm+mt
-source-wordcount: '2914'
+source-wordcount: '2902'
 ht-degree: 3%
 
 ---
@@ -18,11 +18,6 @@ ht-degree: 3%
 # Afgeleide velden
 
 {{release-limited-testing}}
-
->[!NOTE]
->
->In afwachting van de definitieve updates, ziet u [!UICONTROL Custom field] in plaats van [!UICONTROL Derived field] in de gebruikersinterface.
-
 
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor real-time rapportage in Customer Journey Analytics (CJA). Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs het afgeleide veld nader te definiëren als een component in [Gegevens, weergave](../data-views.md).
 
