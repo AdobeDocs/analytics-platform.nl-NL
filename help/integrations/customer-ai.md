@@ -4,9 +4,9 @@ title: AI-gegevens van klanten integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AI van de klant kan met Customer Journey Analytics (CJA) worden geïntegreerd in
    * Voorbeeld: Een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de top 80%+ van hun klanten te richten.
 * **Kijk naar de neiging om in de loop der tijd een actie voor een bepaald cohort uit te voeren**.
    * Hoofdlettergebruik: Een specifieke cohort bijhouden in de loop van de tijd.
-   * Voorbeeld: Een marketeter in een hotelketen wil hun bronzen laag in plaats van hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag, in de loop van de tijd. Ze zien dus dat elke cohort de neiging heeft om het hotel in de loop van de tijd te boeken.
+   * Voorbeeld: Een marketeter in een hotelketen wil hun bronzen laag in plaats van hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag, in de loop van de tijd. Ze zien de neiging van elke cohort om het hotel in de loop van de tijd te boeken.
 
 Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk te integreren met CJA:
 

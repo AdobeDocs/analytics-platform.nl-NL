@@ -3,9 +3,9 @@ description: Gebruik intelligente bijschriften om inzichten in de natuurlijke ta
 title: Intelligente bijschriften
 feature: Visualizations
 role: User, Admin
-source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Intelligente bijschriften maken gebruik van gegevenswetenschap voor waardevolle natuurlijke taalinzichten voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](line.md) visualisatie. (Hierna volgen nog andere visualisaties.)
+Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten te bieden voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](line.md) visualisatie. (Hierna volgen nog andere visualisaties.)
 
 Intelligente bijschriften zijn gericht op:
 
@@ -30,7 +30,7 @@ Als u automatisch gegenereerde bijschriften voor een lijnvisualisatie wilt start
 
 ![intelligente bijschriften starten](assets/intell-caps-1.png)
 
-Inzichten in natuurlijke talen worden nu gegenereerd.
+Inzichten in natuurlijke talen worden nu gegenereerd. Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens veranderen in de tabel waardoor de visualisatie wordt ingeschakeld. Als de tabel meerdere metrische waarden bevat, worden alleen bijschriften gegenereerd voor de eerste metrische waarde of voor de metrische waarde die momenteel door de gebruiker is geselecteerd.
 
 Als u het project op dit punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit dit project worden geëxporteerd.
 
@@ -65,7 +65,3 @@ U kunt **bijschriften exporteren via PDF**, zolang het project wordt opgeslagen 
 Als u liever geen intelligente bijschriften wilt genereren, kunt u deze functie uitschakelen door naar de voorkeuren voor Visualisatie te gaan en de optie uit te schakelen **[!UICONTROL Show intelligent captions]**.
 
 ![bijschriftinstellingen](assets/toggle-captions.png)
-
-## Bijschriften opnieuw ordenen {#reorder}
-
-U kunt de weergave van de bijschriften opnieuw ordenen door een bijschrift naar een nieuwe positie te slepen.
