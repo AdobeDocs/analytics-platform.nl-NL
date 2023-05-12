@@ -4,11 +4,9 @@ title: AI-gegevens van klanten integreren met CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-hide: true
-hide-from-toc: true
-source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
+source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -26,19 +24,19 @@ AI van de Klant baseert zich op individuele gedragsgegevens en profielgegevens v
 AI van de klant kan met Customer Journey Analytics (CJA) worden geïntegreerd in zoverre dat door de klant voor AI geschikte gegevenssets kunnen worden gebruikt in gegevensweergaven en rapportage in CJA. U kunt:
 
 * **Volgheidscores bijhouden voor een gebruikerssegment in de loop van de tijd**.
-   * Hoofdlettergebruik: te begrijpen hoe waarschijnlijk het is dat klanten in een bepaald segment zich kunnen omzetten.
+   * Hoofdlettergebruik: Begrijp de waarschijnlijkheid dat klanten in een specifiek segment zich zullen omzetten.
    * Voorbeeld: Een marketeer in een hotelketen wil begrijpen hoe waarschijnlijk het is dat een hotelklant een showticket koopt op de concertlocatie van het hotel.
 * **Analyseren welke succesgebeurtenissen of kenmerken zijn gekoppeld aan propensiteitsscores**.
-   * Hoofdlettergebruik: de attributen of succesgebeurtenissen begrijpen die aan aandrijvingsscores worden geassocieerd.
+   * Hoofdlettergebruik: Begrijp de attributen of succesgebeurtenissen verbonden aan aandrijvingsscores.
    * Voorbeeld: Een marketeer in een hotelketen wil begrijpen hoe aankopen van showtickets op de concertlocatie van een hotel gekoppeld zijn aan nevenscores.
 * **Volg de ingangsstroom voor klantenneiging over verschillende het scoren looppas**.
-   * Hoofdlettergebruik: mensen begrijpen die aanvankelijk gebruikers met een lage neiging waren en, in de loop der tijd, gebruikers met een hoge neiging werden.
+   * Hoofdlettergebruik: Begrijp mensen die aanvankelijk gebruikers met een lage neiging waren en, in de loop der tijd, gebruikers met een hoge neiging werden.
    * Voorbeeld: Een marktmaker in een hotelketen wil begrijpen welke hotelklanten aanvankelijk als klanten met lage neiging werden geïdentificeerd om een showkaartje te kopen, maar in de loop der tijd werden klanten met hoge neiging om een showkaartje te kopen.
 * **Kijk naar de verdeling van de neiging**.
-   * Hoofdlettergebruik: de spreiding van de scores voor de dichtheid nauwkeuriger te begrijpen bij het definiëren van segmenten.
+   * Hoofdlettergebruik: Begrijp de verdeling van de aandrijvingsscores nauwkeuriger in het bepalen van segmenten.
    * Voorbeeld: Een detailhandelaar wil een specifieke promotie voor $50 van een product in werking stellen. Ze willen misschien slechts een zeer beperkte promotie uitvoeren vanwege de begroting, enzovoort. Zij analyseren de gegevens en besluiten slechts de top 80%+ van hun klanten te richten.
 * **Kijk naar de neiging om in de loop der tijd een actie voor een bepaald cohort uit te voeren**.
-   * Hoofdlettergebruik: een specifieke cohort bijhouden in de loop van de tijd.
+   * Hoofdlettergebruik: Een specifieke cohort bijhouden in de loop van de tijd.
    * Voorbeeld: Een marketeter in een hotelketen wil hun bronzen laag in plaats van hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag, in de loop van de tijd. Ze zien dus dat elke cohort de neiging heeft om het hotel in de loop van de tijd te boeken.
 
 Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk te integreren met CJA:
