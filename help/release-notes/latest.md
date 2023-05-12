@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 306c1432163841034c8e7a34f8e112a5cc734da4
+source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Rijen met dynamische afmetingen uit een tabel voor vrije vorm verwijderen** | In een Freeform-tabel in Analysis Workspace kunt u nu snel specifieke rijen met dynamische afmetingen verwijderen met het x-pictogram. Hierbij wordt automatisch de filterregel &quot;Niet gelijk aan&quot; toegepast.<p>Eerder, de enige manier om rijen te schrappen die dynamische afmetingen bevatten was manueel een regel in de dialoog van de Filter te creëren. [Meer informatie](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N.v.t. | 17 mei 2023 |
 | **Nieuwe knop om een visualisatie in een deelvenster toe te voegen** | Er is nu een nieuwe knop beschikbaar onder aan elk deelvenster in Analysis Workspace, zodat u snel een visualisatie kunt toevoegen. <p>Eerder, de enige methodes om een visualisatie aan een paneel toe te voegen waren een visualisatie van de linkerspoorstaaf te slepen, een bestaande visualisatie te dupliceren of te kopiëren, of een leeg paneel tot stand te brengen. [Meer informatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N.v.t. | 17 mei 2023 |
 | **Diepe koppeling (mobiele toepassing)** | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. | N.v.t. | 17 mei 2023 |
-| **Intelligente bijschriften** | Verrijk het vertellen van verhalen voor gebruikers met natuurlijke taalsamenvattingen van a [!UICONTROL Line] visualisatie. | 17 mei 2023 | 1 juni 2023 |
+| **Intelligente bijschriften** | Verrijk het vertellen van verhalen voor gebruikers met natuurlijke taalsamenvattingen van a [!UICONTROL Line] visualisatie. [Meer informatie](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 mei 2023 | 1 juni 2023 |
 
 {style="table-layout:auto"}
 

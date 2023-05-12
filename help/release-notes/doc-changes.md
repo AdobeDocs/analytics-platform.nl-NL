@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1848'
 ht-degree: 5%
 
 ---
@@ -25,6 +25,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Componenten sorteren in linkerraster | Informatie toegevoegd over het sorteren van de lijst met componenten in de linkertrack. Zie de sectie Zoeken, filteren en sorteren in de lijst met componenten in [Overzicht van componenten](/help/components/overview.md). |
 | Rijen met dynamische afmetingen uit een tabel voor vrije vorm verwijderen | Informatie toegevoegd over hoe u snel specifieke rijen kunt verwijderen die dynamische afmetingen bevatten met het pictogram x. Zie de sectie &quot;Snel specifieke rijen uitsluiten van een tabel&quot; in [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Knop om een visualisatie binnen een paneel toe te voegen | Informatie toegevoegd over een nieuwe knop onder aan elk deelvenster in Analysis Workspace waarmee u snel een visualisatie kunt toevoegen. Zie de sectie &quot;Visualisaties toevoegen aan een deelvenster&quot; in [Overzicht van visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| Documentatie voor intelligente bijschriften | Verrijk het vertellen van verhalen voor gebruikers met [natuurlijke-taaloverzichten](/help/analysis-workspace/visualizations/intelligent-captions.md) van een lijnvisualisatie. |
 | **April 2023** |  |
 | Video over het gebruik van filters als afmetingen | De video over het gebruik van filters als afmetingen is bijgewerkt. <p>Deze video is gekoppeld vanuit de [Filters maken](/help/components/filters/create-filters.md) pagina.</p> <p>Hier volgt een directe koppeling naar de video: [Filters gebruiken als afmetingen in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | Filterdocumentatie | Artikel toegevoegd over het gebruik van de [Filter builder](/help/components/filters/filter-builder.md). <p>Gestroomlijnde documentatie in [Filters maken](/help/components/filters/create-filters.md) en [Overzicht van filters](/help/components/filters/filters-overview.md).</p> |
