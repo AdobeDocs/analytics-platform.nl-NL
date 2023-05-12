@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
+source-git-commit: 5b84c2c908f947b1abed621f68aa1a324faeecde
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,9 @@ Gebruikers moeten toegang hebben tot:
    - CJA Workspace projecten, en
    - CJA-gegevensweergaven die ze willen gebruiken.
 
-- Gebruik het verlopen op niet-vervallende geloofsbrieven om de hulpmiddelen van BI met de Schakelaar van CJA te verbinden SQL. Zie [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) voor meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
+- Gebruik het verlopen op niet-vervallende geloofsbrieven om de hulpmiddelen van BI met de Schakelaar van CJA te verbinden SQL. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
+
+Zie [Toegangsbeheer](../admin/cja-access-control.md) in de sectie CJA Administration voor aanvullende informatie.
 
 
 ## Gebruik
