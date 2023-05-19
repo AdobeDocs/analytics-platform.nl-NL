@@ -3,9 +3,9 @@ description: Documentatie waarin wordt beschreven hoe tabellen in Analysis Works
 title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 54032271e8f12673cc6d4f2b209b4fa89f5c4406
+source-git-commit: 1c11eb1b89eccf33fd66a0914b4beb1ab5dd6ff2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U kunt snel specifieke rijen van de lijst uitsluiten zonder het nodig hebben om 
 
 >[!NOTE]
 >
->Wanneer u rijen zoals beschreven in deze sectie uitsluit, [!UICONTROL **Is niet gelijk aan**] regel wordt automatisch toegepast in het dialoogvenster [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) .
+>Wanneer u rijen zoals beschreven in deze sectie uitsluit, [!UICONTROL **Items altijd uitsluiten**] wordt automatisch toegepast in het dialoogvenster met geavanceerde filters. (U kunt de toegepaste regel weergeven door het pictogram Filter te selecteren en vervolgens [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Om specifieke rijen van een lijst van de Vrije vorm snel uit te sluiten:
 
@@ -57,7 +57,7 @@ Gegevens filteren in Freeform-tabellen:
    | [!UICONTROL **Woord of woordgroep zoeken**] | Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven. |
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
 
-1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd filteren**].
+1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd tonen**].
 
    De volgende opties zijn beschikbaar
 
