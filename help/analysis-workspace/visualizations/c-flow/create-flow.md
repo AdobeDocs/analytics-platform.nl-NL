@@ -4,7 +4,7 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 1%
@@ -112,10 +112,10 @@ Houd er bij het gebruik van deze optie rekening mee dat:
 * **[!UICONTROL Limit to first/last occurrence]** alleen het eerste/laatste exemplaar in de reeks telt. Alle andere exemplaren van het **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** criteria worden genegeerd.
 * Indien gebruikt met een **[!UICONTROL Starts with]** stroom, slechts wordt het eerste voorkomen dat de begincriteria aanpast inbegrepen.
 * Indien gebruikt met een **[!UICONTROL Ends with]** flow, alleen de laatste instantie die aan de eindcriteria voldoet, wordt opgenomen.
-* De gebruikte reeks verschilt op basis van de container. Als u de **[!UICONTROL Visit]** container, de reeks hits zal de sessie zijn. Als u de **[!UICONTROL Visitor]** container, zijn de reeksen klapjes alle klappen voor een bepaalde gebruiker in de verstrekte datumwaaier.
+* De gebruikte reeks verschilt op basis van de container. Als u de **[!UICONTROL Visit]** container, de reeks gebeurtenissen zal de zitting zijn. Als u de **[!UICONTROL Visitor]** container, zullen de reeks gebeurtenissen alle gebeurtenissen voor een bepaalde gebruiker in de verstrekte datumwaaier zijn.
 * De **[!UICONTROL Limit to first/last occurrence]** Deze optie kan in de geavanceerde instellingen worden geconfigureerd wanneer u een Metrisch of Dimension-item gebruikt in de velden &quot;Begint met&quot; of &quot;Eindigt met&quot;.
 
-Voorbeeld van een serie hits:
+Voorbeelden van gebeurtenissen:
 
 Home > Producten > Toevoegen aan winkelwagentje > Producten > Toevoegen aan winkelwagentje > Facturering > Bevestiging bestellen
 
@@ -125,19 +125,19 @@ Home > Producten > Toevoegen aan winkelwagentje > Producten > Toevoegen aan wink
 * [!UICONTROL Page] schilderdimensie
 * [!UICONTROL Visit] container
 
-Als &quot;Beperken tot eerste/laatste voorkomen&quot; is uitgeschakeld, telt deze enkele reeks hits 2 exemplaren van &quot;Toevoegen aan winkelwagentje&quot;.
+Als &quot;Beperken tot eerste/laatste voorkomen&quot; is uitgeschakeld, telt deze enkele reeks gebeurtenissen 2 exemplaren van &quot;Toevoegen aan winkelwagentje&quot;.
 Verwachte stroomuitvoer: &quot;Toevoegen aan winkelwagentje&quot; (2) —> &quot;Producten&quot; (1) -> &quot;Facturering&quot; (1)
 
 Als &quot;Beperking tot eerste/laatste voorkomen&quot; echter is ingeschakeld, wordt alleen de eerste keer dat &quot;Toevoegen aan winkelwagentje&quot; voorkomt in de analyse opgenomen.
 Verwachte stroomuitvoer: &quot;Toevoegen aan winkelwagentje&quot; (1) —> &quot;Producten&quot; (1)
 
-### Bekijk dezelfde reeks resultaten, maar gebruik daarbij de volgende instellingen:
+### Bekijk dezelfde serie gebeurtenissen, maar gebruik daarbij de volgende instellingen:
 
 * Eindigt met [!UICONTROL Add to cart] (Dimension-item)
 * [!UICONTROL Page] schilderdimensie
 * [!UICONTROL Visit] container
 
-Indien **[!UICONTROL Limit to first/last occurrence]** is *uitgeschakeld*Deze enkele reeks hits telde 2 exemplaren van &#39;Toevoegen aan winkelwagentje&#39;.
+Indien **[!UICONTROL Limit to first/last occurrence]** is *uitgeschakeld*In dat geval telde deze enkele reeks gebeurtenissen twee exemplaren van &quot;Toevoegen aan winkelwagentje&quot;.
 Verwachte stroomuitvoer: &quot;Producten&quot; (2) &lt;— &quot;Toevoegen aan winkelwagentje&quot; (2)
 
 Als **[!UICONTROL Limit to first/last occurrence]** is *enabled*, alleen de laatste keer dat [!UICONTROL Add to cart] in de analyse worden opgenomen.

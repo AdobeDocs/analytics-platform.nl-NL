@@ -4,7 +4,7 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 3%
@@ -55,10 +55,10 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics (AA) 
 | Publiek publiceren (Segmentpublicatie) | Wordt ondersteund als een licentie wordt verleend voor Adobe Data Platform of Journey Optimizer-producten. [Publiek publiceren](/help/components/audiences/audiences-overview.md) verzendt publiek naar het Profiel van de Klant in real time in Experience Platform. |
 | Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en CJA met behulp van de Bronconnector voor analytische classificaties. Gegevenssets voor opzoeken kunnen ook rechtstreeks naar AEP worden geüpload en beschikbaar worden gesteld in CJA. |
 | Builder voor classificatieregels | Ondersteund met [subtekenreeksen](/help/data-views/component-settings/substring.md) in CJA. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
-| Aangepaste sessie | Ondersteuning voor alle aangepaste sessionisatiefuncties, behalve voor mobiele achtergrondgeluiden. |
+| Aangepaste sessie | Ondersteuning voor alle aangepaste sessionisatiefuncties, behalve mobiele achtergrondgebeurtenissen. |
 | Handelswijzigingsvariabele persistentie | Volledige ondersteuning via [afmetingen binden en metriek binden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | Klantkenmerken | Nu &quot;profielgegevenssets&quot; genoemd, worden ze niet automatisch geïmporteerd uit Experience Cloud, maar moeten ze worden geüpload naar AEP voordat ze beschikbaar zijn in CJA. |
-| Gegevensfeeds | De uitvoer van gegevens van de eerste generatie is beschikbaar via [API voor toegang tot AEP-gegevens](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) en via [AEP-doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Met deze opties kunt u alle gegevens die in het gegevensmeer van AEP zijn verzameld of opgenomen, exporteren naar een raakniveau. Kolommen met gegevens na het proces zijn niet beschikbaar omdat postkolommen bij de query worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
+| Gegevensfeeds | De uitvoer van gegevens van de eerste generatie is beschikbaar via [API voor toegang tot AEP-gegevens](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) en via [AEP-doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Deze opties bieden gebeurtenis-/rijniveau-export van alle gegevens die zijn verzameld of opgenomen in het AEP Data Lake. Kolommen met gegevens na het proces zijn niet beschikbaar omdat postkolommen bij de query worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
 | Metrische deduplicatie | Nu gevormd op metriek binnen de Mening van Gegevens. De metrische deduplicatie gebeurt op het persoon of zittingsniveau eerder dan de Dataset, de Mening van Gegevens, of het niveau van de Verbinding. |
 | De ingangen, de Uitgangen, en de tijd bestede dimensies en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van CJA. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimension in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |

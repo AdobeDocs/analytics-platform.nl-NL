@@ -4,7 +4,7 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '3132'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 | **[Kolom](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** |  |  |
 |  | Koptekst van tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
 |  | Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total]. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de [!UICONTROL Include None] optie. |
-|  | Totaal tonen | Dit totaal vertegenwoordigt alle treffers die zijn verzameld, soms genoemd &quot;totaal van de gegevensmening&quot;. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle treffers te wijzen die de filtercriteria aanpassen. Groot totaal wordt niet ondersteund voor tabellen of uitsplitsingen met [statische rijen](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+|  | Totaal tonen | Dit totaal vertegenwoordigt alle gebeurtenissen die zijn verzameld, ook wel &#39;totaal gegevensweergave&#39; genoemd. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle gebeurtenissen te wijzen die aan de filtercriteria voldoen. Groot totaal wordt niet ondersteund voor tabellen of uitsplitsingen met [statische rijen](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 |  | Menggrijswaarden tonen | Lijngrafieken onder aan het diagram weergeven of verbergen. Als de legenda is verborgen, wordt deze niet langer visueel doorverwezen naar de regels. |
 |  | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 |  | Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
@@ -154,7 +154,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 |  | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. <p>Zie voor meer informatie [Stapel en balk gestapeld](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | Aantal emmers | Kies het aantal gegevensbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Zie voor meer informatie [Histogram](/help/analysis-workspace/visualizations/histogram.md).</p> |
-|  | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Bezoek</li><li>Bezoeker</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per bezoeker paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per hit kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
+|  | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Bezoek</li><li>Bezoeker</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per bezoeker paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per gebeurtenis kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
 | **[Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Waarde | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percentage wijziging</li><li>Onbewerkt verschil</li></ul> |
 |  | Percentage | De waarden van vertoningen in percentages voor de Summiere visualisaties van de Verandering. |

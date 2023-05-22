@@ -4,7 +4,7 @@ description: Begrijp het concept "replay"in Kanaalanalyse
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Kanaalanalyse kunt u gegevens op een bepaalde verbinding in twee stappen doorgeven:
 
-* **Levend stitching**: CCA probeert om elke hit te stikken terwijl hij binnenkomt. De netto nieuwe apparaten aan de dataset die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
+* **Levend stitching**: CCA probeert om elke gebeurtenis te verbinden aangezien het binnen komt. De netto nieuwe apparaten aan de dataset die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
 * **Opnieuw afspelen**: CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de verbinding vastgezet. Adobe biedt twee herhalingsintervallen:
    * Dagelijks: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
    * Wekelijks: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Gegevens van minder dan een week oud worden echter niet vastgezet.
@@ -28,7 +28,7 @@ CCA probeert om elke gebeurtenis op inzameling aan bekende apparaten en kanalen 
 
 *Gegevens zoals deze worden weergegeven op de dag waarop ze worden verzameld:*
 
-| Tijdstempel | Persistente ID van webgegevensset | Tijdelijke id voor webgegevensset | Identiteitskaart van het centrum van de vraag | Gebruikte persoon-id | Toelichting bij treffer | Metrische personen (cumulatief) |
+| Tijdstempel | Persistente ID van webgegevensset | Tijdelijke id voor webgegevensset | Identiteitskaart van het centrum van de vraag | Gebruikte persoon-id | Verklaring van de gebeurtenis | Metrische personen (cumulatief) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `246` | Bob bezoekt uw site op zijn bureaublad, niet geverifieerd | `1` (246) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob meldt zich aan op het bureaublad | `2` (246 en Bob) |
@@ -48,7 +48,7 @@ Met regelmatige intervallen (eens per week of eens per dag afhankelijk van het g
 
 *Dezelfde gegevens na afspelen:*
 
-| Tijdstempel | Persistente ID van webgegevensset | Tijdelijke id voor webgegevensset | Identiteitskaart van het centrum van de vraag | Gebruikte persoon-id | Toelichting bij treffer | Metrische personen (cumulatief) |
+| Tijdstempel | Persistente ID van webgegevensset | Tijdelijke id voor webgegevensset | Identiteitskaart van het centrum van de vraag | Gebruikte persoon-id | Verklaring van de gebeurtenis | Metrische personen (cumulatief) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `Bob` | Bob bezoekt uw site op zijn bureaublad, niet geverifieerd | `1` (Bob) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob meldt zich aan op het bureaublad | `1` (Bob) |

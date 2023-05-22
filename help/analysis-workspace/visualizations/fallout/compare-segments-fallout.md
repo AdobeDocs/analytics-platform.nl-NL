@@ -4,7 +4,7 @@ keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fal
 title: Filters toepassen in falloutanalyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -17,7 +17,7 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 
 >[!IMPORTANT]
 >
->Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val in de context van de bezoeker moeten filters die als controlepunten worden gebruikt, bezoekers of op hit-Gebaseerde filters zijn. Bij een &#39;visit-context&#39;-uitval moeten filters die als controlepunt worden gebruikt, op een hit gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
+>Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Bij een val van de bezoekerscontext moeten filters die als controlepunten worden gebruikt, bezoek- of op gebeurtenissen gebaseerde filters zijn. Bij een &#39;visit-context&#39;-uitval moeten filters die als controlepunt worden gebruikt op gebeurtenissen gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
 
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
 * Een op bezoekers gebaseerd filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie

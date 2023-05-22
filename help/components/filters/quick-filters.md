@@ -4,7 +4,7 @@ title: Snelle filters
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Een snelfilter maken:
       >
       > Houd rekening met het volgende wanneer u een snel filter ad hoc (slepen en neerzetten) maakt:
       > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek waarvan u geen filters kunt bouwen.
-      > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39; raakfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
+      > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39;-gebeurtenisfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
       > * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze op de juiste wijze wordt behandeld tijdens het filteren.
 
 

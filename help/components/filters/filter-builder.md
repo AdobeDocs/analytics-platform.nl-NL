@@ -1,18 +1,18 @@
 ---
-description: De filterontwikkelaar biedt een canvas voor het slepen en neerzetten van metrische Dimension, filters en gebeurtenissen om bezoekers te filteren op basis van containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee bezoekerskenmerken en handelingen tijdens bezoeken en paginakijken worden geïdentificeerd.
+description: De filterontwikkelaar biedt een canvas voor het slepen en neerzetten van metrische Dimension, filters en gebeurtenissen om bezoekers te filteren op basis van containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe filters maken en opslaan die bezoekerskenmerken en -acties in verschillende bezoeken en gebeurtenissen identificeren.
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
 
 # Filter builder
 
-De [!UICONTROL Filter builder] Hiermee kunt u eenvoudige of complexe filters maken waarmee bezoekerskenmerken en -acties worden geïdentificeerd voor bezoeken en pagina-einden. Het verstrekt een canvas om metrische afmetingen, gebeurtenissen, of andere filters te slepen en te laten vallen om bezoekers te filtreren die op hiërarchische logica, regels, en exploitanten worden gebaseerd.
+De [!UICONTROL Filter builder] Hiermee kunt u eenvoudige of complexe filters maken waarmee bezoekerskenmerken en -acties voor verschillende bezoeken en gebeurtenissen worden geïdentificeerd. Het verstrekt een canvas om metrische afmetingen, gebeurtenissen, of andere filters te slepen en te laten vallen om bezoekers te filtreren die op hiërarchische logica, regels, en exploitanten worden gebaseerd.
 
 Voor informatie over hoe u snelle filters kunt maken die alleen van toepassing zijn op het project waar ze zijn gemaakt, raadpleegt u [Snelle filters](/help/components/filters/quick-filters.md).
 

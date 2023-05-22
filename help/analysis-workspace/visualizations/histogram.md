@@ -3,7 +3,7 @@ description: Een histogram lijkt op een staafdiagram, maar het groepeert getalle
 title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instell
 | Emmertje starten | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
 | Metrische emmertjes | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
 | Grootte van metrisch emmertje | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
-| Telmethode | Hiermee kunt u kiezen uit [Bezoeker](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [Bezoek](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html), of Type Actief. Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
+| Telmethode | Hiermee kunt u kiezen uit [Bezoeker](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [Bezoek](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html), of Type Actief. Bijvoorbeeld paginaweergaven per bezoek of per pagina per bezoeker of pagina per gebeurtenis. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

@@ -2,7 +2,7 @@
 title: STEUN, ECID, AACUSTOMID en de Analytics Source Connector
 description: Leer hoe de Analytics Source Connector werkt met Adobe Analytics-identiteitsvelden.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: a8f8d14eb854029d6245932a321cf08dfb3cd7e3
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Analytics-gegevens bevatten meerdere identiteitsvelden. Drie belangrijke i
 
 Adobe Analytics ID (AID) is de primaire apparaat-id in Adobe Analytics en is gegarandeerd aanwezig op elke gebeurtenis die via de Analytics Source Connector is doorgegeven. AID wordt ook wel &quot;verouderde analysetoewijzing-id&quot; genoemd of `s_vi` cookie-id. Er wordt echter wel een STEUN ingesteld, zelfs als de `s_vi` cookie is niet aanwezig. STEUN wordt vertegenwoordigd door de `post_visid_high/post_visid_low` kolommen in [Adobe Analytics-gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types).
 
-In de Analytics Source Connector wordt de HULP getransformeerd naar `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke treffer wordt aangegeven in de `post_visid_type` kolom in Analytics-gegevensfeeds.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en).
+In de Analytics Source Connector wordt de HULP getransformeerd naar `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke gebeurtenis wordt aangegeven in het dialoogvenster `post_visid_type` kolom in Analytics-gegevensfeeds.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en).
 
 ## ECID
 

@@ -4,7 +4,7 @@ description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Sommige platformschema&#39;s kunnen objectarrays hebben. CJA ondersteunt het opn
 
 In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de opdracht `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`) om de facetten van een product te scheiden, met komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. CJA breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
 
-## Zelfde raakvoorbeeld
+## Zelfde gebeurtenisvoorbeeld
 
-De volgende hit is een JSON-object dat een klant vertegenwoordigt die van een wasmachine en droger is gemaakt.
+De volgende gebeurtenis is een JSON-object dat staat voor de aankoop door een klant van een wasmachine en droger.
 
 ```json
 {
@@ -81,9 +81,9 @@ Bij het maken van een gegevensweergave zijn de volgende afmetingen en metrische 
    * product: garantie
    * product: garantie: inkomsten
 
-### Zelfde treffers (rapportagegedrag)
+### Zelfde gebeurtenisvoorbeelden (rapportagegedrag)
 
-Gebruikend enkel bovengenoemde klap, tonen de volgende lijsten de rapporten van de Werkruimte met één of andere afmeting en metrische combinaties.
+Gebruikend enkel de bovengenoemde gebeurtenis, tonen de volgende lijsten de rapporten van de Werkruimte met wat afmeting en metrische combinaties.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ Als u over enkel garantieopbrengst wilde rapporteren, zou uw project gelijkaardi
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA kijkt naar deze delen van de hit om het rapport te genereren:
+CJA bekijkt deze delen van de gebeurtenis om het rapport te produceren:
 
 ```diff
 {

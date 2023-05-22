@@ -3,7 +3,7 @@ description: Adobe verstrekt diverse berekende metriek die u kunt gebruiken. Dez
 title: Berekende standaardwaarden
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 
 | Metrische naam berekend | -functie | Formule |
 |---------|----------|---------|
-| Bouncepercentage | De verhouding tussen bezoeken die precies één treffer bevatten, en het aantal bezoeken op die pagina. Hierdoor kunt u beter begrijpen welke dimensie-items de hoogste stuitsnelheid hebben of kunt u een totale stuitsnelheid van uw site in de loop van de tijd zien. | `[Bounces] / [Entries]` |
+| Bouncepercentage | De verhouding tussen bezoeken die precies één gebeurtenis bevatten en het aantal bezoeken op die pagina. Hierdoor kunt u beter begrijpen welke dimensie-items de hoogste stuitsnelheid hebben of kunt u een totale stuitsnelheid van uw site in de loop van de tijd zien. | `[Bounces] / [Entries]` |
 | Ontvangsten/bezoekers | Het gemiddelde bedrag aan inkomsten dat door elke individuele bezoeker van de site wordt gegenereerd. | `[Revenue] / [Unique Visitors]` |
 | Bestellingen/Bezoeker | Het gemiddelde aantal orders of transacties dat door elke individuele bezoeker van de site wordt gegenereerd | `[Orders] / [Unique Visitors]` |
 | Ontvangsten/bezoeken | Het gemiddelde bedrag aan inkomsten dat wordt gegenereerd door één enkel bezoek aan de locatie. | `[Revenue] / [Visits]` |

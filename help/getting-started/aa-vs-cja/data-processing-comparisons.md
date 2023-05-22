@@ -2,7 +2,7 @@
 title: Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties
 description: Begrijp de verschillen in gegevensverwerking voor de diverse rapportfuncties
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: d075f3d2b4436c668010e09c6d1ac3191edac241
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 4%
@@ -41,7 +41,7 @@ In de onderstaande tabel wordt de terminologie gedefinieerd voor de verschillend
 | Logica op bedrijfsniveau | Logica toegepast op rij-voor-rij niveau. | Voorbeelden: Verwerkingsregels, VISTA, bepaalde regels inzake marketingkanalen. |
 | Logica op bezoekniveau | Logica toegepast op bezoekniveau. | Voorbeelden: Definitie van bezoek en sessie. |
 | Logica op bezoekersniveau | Logica toegepast op bezoekersniveau. | Voorbeeld: Sstitching voor bezoekers over het hele apparaat of het kanaal. |
-| Segmentlogica (filter) | Evaluatie van de regels voor het segment hit/visit/bezoeker (event/session/person) (filter). | Voorbeeld: Mensen die rode schoenen kochten. |
+| Segmentlogica (filter) | Evaluatie van de gesegmenteerde (filter)regels voor gebeurtenissen/bezoeken/bezoekers (gebeurtenis/sessie/persoon). | Voorbeeld: Mensen die rode schoenen kochten. |
 | Berekende standaarden | Evaluatie van door de klant gemaakte aangepaste maatstaven die kunnen worden gebaseerd op complexe formules, waaronder segmenten en filters. | Voorbeeld: Aantal mensen die rode schoenen kochten. |
 | Attributielogica | Logische berekening van attributie. | Voorbeeld: eVar persistentie. |
 | Componentinstellingen | Aanpassingen toepassen op metriek of dimensies, zoals kenmerk, gedrag, indeling en andere | Voorbeeld: waarde bucketing om numerieke waarden te combineren die op een waaier worden gebaseerd |

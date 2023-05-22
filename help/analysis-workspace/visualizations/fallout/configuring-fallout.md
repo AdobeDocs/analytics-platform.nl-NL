@@ -3,7 +3,7 @@ description: Leer hoe u de aanraakpunten opgeeft om een multidimensionale fallou
 title: Een uitvalvisualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -18,7 +18,7 @@ U kunt zelfs filters toevoegen binnen een aanraakpunt. U kunt bijvoorbeeld filte
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die meerdere waarden per hit kunnen hebben, zoals producten, listVars, merchandising Vars en list props). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die meerdere waarden per gebeurtenis kunnen hebben, zoals producten, listVars, merchandising Vars en list props). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
 1. Sleep een [!UICONTROL Fallout] visualisatie via de keuzelijst Visualisaties in een [!UICONTROL Freeform Table].
 
@@ -42,7 +42,7 @@ U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experi
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. U kunt ook **afzonderlijke aanraakpunten beperken tot de volgende treffer** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen het pad. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
+1. U kunt ook **afzonderlijke aanraakpunten beperken tot de volgende gebeurtenis** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen het pad. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
 
    ![](assets/next-hit-eventually.png)
 
@@ -50,11 +50,11 @@ U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eventueel pad </p> <p>(Standaard) </p> </td> 
-   <td colname="col2"> <p>Bezoekers worden geteld die "uiteindelijk" landen op de volgende pagina in het pad, maar niet noodzakelijkerwijs bij de volgende hit. </p> </td> 
+   <td colname="col2"> <p>Bezoekers worden meegeteld dat "uiteindelijk" zal landen op de volgende pagina in het pad, maar niet noodzakelijkerwijs op de volgende gebeurtenis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende keer </p> </td> 
-   <td colname="col2"> <p>Bezoekers worden geteld die op de volgende pagina op het pad landen bij de volgende hit. </p> </td> 
+   <td colname="col2"> <p>Bezoekers worden geteld die op de volgende pagina op het pad landen bij de volgende gebeurtenis. </p> </td> 
   </tr> 
  </tbody> 
 </table>

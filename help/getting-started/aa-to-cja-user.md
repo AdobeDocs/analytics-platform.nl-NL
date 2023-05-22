@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Hoewel u nog niet kunt delen of publiceren [!UICONTROL filters] ([!UICONTROL seg
 
 Naast het concept van segmenten die veranderen, worden de segmentcontainers ook bijgewerkt.
 
-* **Handcontainers zijn nu [!UICONTROL Event] containers**. De [!UICONTROL Event] Met de container kunt u bezoekersinformatie onderverdelen op basis van afzonderlijke paginaweergaven/hits.
+* **Handcontainers zijn nu [!UICONTROL Event] containers**. De [!UICONTROL Event] Met de container kunt u bezoekersinformatie onderverdelen op basis van individuele gebeurtenissen.
 * **Bezoek containers zijn nu [!UICONTROL Session] containers**. De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren.
 * **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor een bezoeker binnen de opgegeven tijdsperiode.
 

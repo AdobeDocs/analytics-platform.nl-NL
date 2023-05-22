@@ -1,13 +1,13 @@
 ---
 title: Verwerkingsregels, VISTA en classificaties vs. Data Prep voor de Analytics Source Connector
 description: Meer informatie over gegevenstransformatie met verwerkingsregels en VISTA versus Data Prep
-source-git-commit: f6b8c5f1e8e82d0eb856b5cfed63b72c7ecfe3db
+exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # Verwerkingsregels, VISTA en classificaties versus Data Prep
 
@@ -27,7 +27,6 @@ Gegevens die door Adobe Analytics worden verzameld en in worden opgeslagen, kunn
 
 Data Prep heeft cross-over met [classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=en) in sommige situaties.
 
-In een veld met scheidingstekens kunt u bijvoorbeeld Data Prep gebruiken om dat veld in meerdere afzonderlijke velden te splitsen zonder classificaties te gebruiken. Over het algemeen zijn classificaties een manier om metagegevens aan een veld toe te voegen door een opzoekbestand te uploaden dat buiten de stroom van binnenkomende analyses wordt geleverd.
+In een veld met scheidingstekens kunt u bijvoorbeeld Data Prep gebruiken om dat veld in meerdere afzonderlijke velden te splitsen zonder classificaties te gebruiken. Over het algemeen zijn classificaties een manier om metagegevens aan een veld toe te voegen door een opzoekbestand te uploaden dat buiten de stroom van inkomende gebeurtenissen Analytics wordt geleverd.
 
 U kunt bijvoorbeeld een classificatiebestand uploaden waarin SKU&#39;s worden gegroepeerd in &#39;grootte&#39;, &#39;merk&#39;, &#39;kleur&#39; enzovoort. Een ander verschil tussen classificaties en Data Prep is dat classificaties van toepassing zijn op gegevens _zowel historisch als in de toekomst_. Aan de andere kant worden gegevenprep-toewijzingen toegepast _doorsturen_ aan gegevens vanaf het moment dat de toewijzing wordt gemaakt.
-
