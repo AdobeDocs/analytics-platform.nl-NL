@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
+source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '888'
 ht-degree: 30%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 30%
 
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace-prestaties optimaliseren](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Foutberichten](../analysis-workspace/workspace-faq/error-messages.md)
       + [Beperkingen van Analysis Workspace](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Beheervereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
@@ -197,6 +196,7 @@ ht-degree: 30%
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](../components/overview.md)
    + [Componentbeschrijvingen toevoegen](../components/add-component-descriptions.md)
+
    + Annotaties {#annotations}
       + [Overzicht van annotaties](../components/annotations/overview.md)
       + [Annotaties maken](../components/annotations/create-annotations.md)
@@ -213,6 +213,7 @@ ht-degree: 30%
       + [Tijduitsplitsende dimensies](../components/dimensions/time-parting-dimensions.md)
       + [Dimension met zeer hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
+
    + Filters {#cja-filters}
       + [Overzicht van filters](../components/filters/filters-overview.md)
       + [Filters maken](../components/filters/create-filters.md)
@@ -252,12 +253,20 @@ ht-degree: 30%
       + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
       + [Onderdeelitems in gegevenswoordenboek bewerken](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Gezondheid gegevenswoordenboek controleren](../components/data-dictionary/monitor-data-dictionary-health.md)
+
+
+
+
+
+
+
 + Analysedashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
+
 + Report Builder {#cja-reportbuilder}
    + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
    + [Report Builder instellen](../report-builder/report-builder-setup.md)
@@ -291,6 +300,7 @@ ht-degree: 30%
 
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruik](../use-cases/cja-usecases.md)
+
    + Google Analytics {#ga}
       + [Gegevens migreren van Google Analytics naar CJA-overzicht](../use-cases/ga/overview.md)
       + [Historische gegevens van Google Analytics opnemen in Platform](../use-cases/ga/backfill.md)
@@ -313,11 +323,16 @@ ht-degree: 30%
    + Complexe gegevens {#complex-data}
       + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
 
+
+
+
+
+
 + Beheer {#cja-admin}
    + [Toegangsbeheer](../admin/cja-access-control.md)
    + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
    + [Gevolgen van verwijdering](../admin/cja-deletion.md)
-   + [CJA-prestaties optimaliseren](../admin/cja-performance.md)
+   + [CJA-prestaties optimaliseren](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
