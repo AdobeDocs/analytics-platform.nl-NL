@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
+source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '899'
 ht-degree: 30%
 
 ---
@@ -192,6 +192,21 @@ ht-degree: 30%
 
 
 
++ Analysedashboards {#cja-dashboards}
+   + [Analysedashboards - Overzicht](../mobile-app/home.md)
+   + [Curatortaken](../mobile-app/curator.md)
+   + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
+   + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
+   + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
+
++ Analyse met instructies {#guided-analysis}
+   + [Overzicht](../guided-analysis/overview.md)
+   + [Interface](../guided-analysis/interface.md)
+   + Typen analyses {#analysis-types}
+      + [Overzicht](../guided-analysis/analysis-types/overview.md)
+      + [Trechter](../guided-analysis/analysis-types/funnel.md)
+      + [Trends](../guided-analysis/analysis-types/trends.md)
+      + [Groei van gebruikers](../guided-analysis/analysis-types/user-growth.md)
 
 + Onderdelen {#cja-components}
    + [Overzicht van onderdelen](../components/overview.md)
@@ -259,13 +274,6 @@ ht-degree: 30%
 
 
 
-
-+ Analysedashboards {#cja-dashboards}
-   + [Analysedashboards - Overzicht](../mobile-app/home.md)
-   + [Curatortaken](../mobile-app/curator.md)
-   + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
-   + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
-   + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
