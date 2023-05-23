@@ -2,9 +2,9 @@
 title: Filters beheren
 description: slanken hoe te om filters in Customer Journey Analytics te beheren
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
+source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ In Filterbeheer kunt u de filters organiseren door ze te labelen. Alle gebruiker
 
 Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:
 
-* Tags die zijn gebaseerd op teamnamen, zoals Social Marketing en Mobile Marketing.
+* Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing.
 
 * Projectlabels (analysetags), zoals analyse van de pagina Entry.
 
@@ -125,7 +125,7 @@ Een filter delen:
 
 1. Klik in de werkbalk Filterbeheer op **[!UICONTROL Share]**.
 
-1. Als u een beheerder bent, kunt u Alles selecteren of kiezen uit Groepen en Gebruikers in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het veld Zoeken om te zoeken naar groepen of gebruikers. Klik op **[!UICONTROL Share]**. Het pictogram Gedeeld wordt weergegeven naast het filter: ![](assets/share_icon.png)
+1. Als u een beheerder bent, kunt u Alles selecteren of kiezen uit Groepen en Gebruikers in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het veld Zoeken om te zoeken naar groepen of gebruikers. Klik op **[!UICONTROL Share]**. Het pictogram Gedeeld wordt weergegeven naast het filter: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. U kunt filteren op filters die met u worden gedeeld door naar Filters > Andere Filters > met mij worden gedeeld.
 

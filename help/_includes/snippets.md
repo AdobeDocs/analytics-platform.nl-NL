@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
+source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '958'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Criteria van het filter Gegevenswoordenboek {#dd-filter-criteria}
 
-1. (Optioneel) Selecteer de optie **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](/help/components/data-dictionary/assets/data-dictionary-filter-icon.png)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te filteren:
+1. (Optioneel) Selecteer de optie **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te filteren:
 
    | Optie | -functie |
    |---------|----------|

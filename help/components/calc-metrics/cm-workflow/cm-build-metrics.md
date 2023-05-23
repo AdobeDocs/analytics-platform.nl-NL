@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, 
 title: Cijfers samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '925'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 
 * Klikken **[!UICONTROL + Add]** boven aan het dialoogvenster [Berekend metrisch beheer](/help/components/calc-metrics/cm-workflow/cm-manager.md), of
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](assets/metrics_icon.png) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
+* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 

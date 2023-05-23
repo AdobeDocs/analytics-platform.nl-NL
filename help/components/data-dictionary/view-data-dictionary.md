@@ -4,9 +4,9 @@ title: Het gegevenswoordenboek weergeven
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
+source-git-commit: b38b5b54ebbf301a3e59156d484bf5d69974b4a4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](assets/dimension-icon.png) oranje zijn, **Segmenten** ![Segmentpictogram](assets/segment-icon.png) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](assets/date-range-icon.png) paars zijn, en **Metrisch** ![Metrisch pictogram](assets/default-metric-icon.png) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een segmentsjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Segmenten** ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een segmentsjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
 
-1. (Optioneel) Selecteer de optie **Sorteren** pictogram ![Pictogram Componenten sorteren](assets/component-sort-icon.png)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+1. (Optioneel) Selecteer de optie **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
 
    {{components-sort-options}}
 

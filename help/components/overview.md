@@ -4,9 +4,9 @@ description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering k
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3b98047d7ac04b370dc9c03300f75b7313e79e5a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1013'
 ht-degree: 6%
 
 ---
@@ -89,25 +89,25 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 ### De componentenlijst doorzoeken
 
-1. Selecteer **Componenten** pictogram ![Pictogram Componenten](assets/components-icon.png) in het linkerspoor.
+1. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
-1. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
+2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](assets/dimension-icon.png) oranje zijn, **Filters** ![Filterpictogram](assets/segment-icon.png) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](assets/date-range-icon.png) paars zijn, en **Metrisch** ![Metrisch pictogram](assets/default-metric-icon.png) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
-1. Selecteer de component wanneer deze in de vervolgkeuzelijst wordt weergegeven.
+3. Selecteer de component wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
 ### De componentlijst filteren
 
-1. Selecteer **Componenten** pictogram ![Pictogram Componenten](assets/components-icon.png) in het linkerspoor.
+1. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
-1. Selecteer **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](assets/components-filter-icon.png).
+2. Selecteer **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
 
    of
 
    Typ het hekje (#) in het zoekveld.
 
-1. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
+3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
    | Optie | -functie |
    |---------|----------|
@@ -120,7 +120,7 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
    | [!UICONTROL **Alles tonen**] | Alle componenten tonen. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Niet goedgekeurd**] | Alleen componenten tonen die nog niet zijn gemarkeerd als goedgekeurd door een beheerder. Als beheerder, is dit nuttig wanneer het identificeren van componenten die uw overzicht en goedkeuring vereisen. Deze optie is alleen beschikbaar voor beheerders. |
 
-1. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
+4. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
 
 ### De componentlijst sorteren
 
@@ -128,9 +128,9 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
 
-1. Selecteer **Componenten** pictogram ![Pictogram Componenten](assets/components-icon.png) in het linkerspoor.
+2. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
-1. Selecteer **Sorteren** pictogram ![Pictogram Componenten sorteren](assets/component-sort-icon.png)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+3. Selecteer **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
 
    {{components-sort-options}}
 
