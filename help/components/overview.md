@@ -4,7 +4,7 @@ description: Leer welke componenten CJA aanbiedt, en hoe u hen in rapportering k
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
+source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 6%
@@ -123,6 +123,8 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 1. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
 
 ### De componentlijst sorteren
+
+{{release-limited-testing-section}}
 
 1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
 
