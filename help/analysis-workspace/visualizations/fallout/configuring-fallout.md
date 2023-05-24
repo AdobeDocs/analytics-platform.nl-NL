@@ -3,7 +3,7 @@ description: Leer hoe u de aanraakpunten opgeeft om een multidimensionale fallou
 title: Een uitvalvisualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Een uitvalvisualisatie configureren
 
-U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen toevoegen, zoals eenheden, en unieke bezoekers en terugkeerbezoeken. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
+U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen, zoals eenheden, en unieke personen en terugkeerbezoeken toevoegen. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
 
 U kunt zelfs filters toevoegen binnen een aanraakpunt. U kunt bijvoorbeeld filters, zoals iOS- en Android-gebruikers, vergelijken. Sleep de gewenste filters naar de bovenkant van de uitval en de informatie over die filters wordt toegevoegd aan het uitvalrapport. Als u alleen die filters wilt tonen, kunt u de basislijn Alle bezoeken verwijderen.
 
@@ -26,7 +26,7 @@ U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experi
 
    ![](assets/fallout1.png)
 
-   Houd de muisaanwijzer boven een aanraakpunt om de uitvalwaarde en andere informatie over dat niveau te zien, zoals de naam van het aanraakpunt, de bezoeker telt op dat punt en zie de successnelheid voor dat aanraakpunt (en vergelijk de successnelheid met andere aanraakpunten).
+   Houd de muis boven een aanraakpunt om de fallout en andere informatie over dat niveau te zien, zoals de naam van het aanraakpunt, de persoon die op dat punt telt, en zie het succespercentage voor dat aanraakpunt (en vergelijk het succespercentage met andere aanraakpunten).
 
    De omcirkelde getallen in het grijze gedeelte van de balk geven de fallout tussen aanraakpunten aan (niet de totale fallout naar dat punt). Het aanraakpunt % toont de geslaagde fallthrough van de vorige stap naar de huidige stap in het falloutrapport.
 
@@ -63,7 +63,7 @@ U kunt op Vars plakken, waaronder eVars verhandelen en [listVars](https://experi
 
 | Instelling | Beschrijving |
 |--- |--- |
-| Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
+| Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van personen te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van personen op het niveau van de persoon (tijdens verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
 Wanneer u **met de rechtermuisknop op een aanraakpunt klikken** worden de volgende opties weergegeven:
 
@@ -72,6 +72,6 @@ Wanneer u **met de rechtermuisknop op een aanraakpunt klikken** worden de volgen
 | Trend touchpoint | Zie trendgegevens voor een aanraakpunt in een lijngrafiek, met sommige vooraf gebouwde anomaliedetectiegegevens. |
 | Trend touchpoint (%) | Hiermee wordt het totale uitvalpercentage verhoogd. |
 | Alle aanraakpunten trenderen (%) | Trends all the touchpoint percentages in the fallout (behalve &quot;All Visits&quot;, if it is included), on the same chart. |
-| Doorslag bij dit aanraakpunt | Bekijk wat bezoekers deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
+| Doorslag bij dit aanraakpunt | Bekijk wat personen deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
 | Uitval onderbreken bij dit aanraakpunt | Bekijk wat mensen die het niet door de trechter maakten onmiddellijk na de geselecteerde stap deden. |
 | Filter maken van aanraakpunt | Maak een nieuw filter op basis van het geselecteerde aanraakpunt. |

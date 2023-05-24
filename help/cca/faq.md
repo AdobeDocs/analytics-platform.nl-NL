@@ -4,7 +4,7 @@ description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Datase
 
 Als u de de afmetingspunten van identiteitskaart van de dataset zou willen anders noemen, kunt u een raadplegingsdataset gebruiken.
 
-## Hoe ver terug brengt CCA bezoekers?
+## Hoe ver gaat de CCA de personen terug?
 
 Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens af [replay](replay.md). Bijvoorbeeld, als u opstelling CCA om gegevens eens per week opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen zeven dagen. Als u opstelling CCA om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
 
@@ -67,7 +67,7 @@ Bepaalde metriek in CJA zijn gelijkaardig aan metriek in traditionele Analytics,
 
 | **CJA-gebonden gegevens** | **Niet-opgeslagen CJA-gegevens** | **Traditioneel Adobe Analytics** | **Analytics Ultimate met CDA** |
 | ----- | ----- | ----- | ----- |
-| **Mensen** = Aantal verschillende `Person ID`s waar `Stitched ID` wordt gekozen als `Person ID`. **Mensen** kan hoger of lager zijn dan **Unieke bezoekers** in het traditionele Adobe Analytics, afhankelijk van de uitkomst van het stitching-proces. | **Mensen** = Aantal verschillende `Person ID`s is gebaseerd op de geselecteerde kolom `Person ID`. **Mensen** in de datasets van de Adobe Source Connector is vergelijkbaar met **Unieke bezoekers** in het traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` wordt gekozen als `Person ID` in CJA. | **Unieke bezoekers** = Aantal verschillende bezoeker-id&#39;s. **Unieke bezoekers** mag niet hetzelfde zijn als het aantal afzonderlijke **ECID** s. | Zie [Mensen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
+| **Mensen** = Aantal verschillende `Person ID`s waar `Stitched ID` wordt gekozen als `Person ID`. **Mensen** kan hoger of lager zijn dan **Unieke bezoekers** in het traditionele Adobe Analytics, afhankelijk van de uitkomst van het stitching-proces. | **Mensen** = Aantal verschillende `Person ID`s is gebaseerd op de geselecteerde kolom `Person ID`. **Mensen** in de datasets van de Adobe Source Connector is vergelijkbaar met **Unieke bezoekers** in het traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` wordt gekozen als `Person ID` in CJA. | **Unieke bezoekers** = Aantal verschillende personen-id&#39;s. **Unieke bezoekers** mag niet hetzelfde zijn als het aantal afzonderlijke **ECID** s. | Zie [Mensen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
 | **Sessies**: Gedefinieerd op basis van de sessie-instellingen in de CJA-gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessie-instellingen die zijn opgegeven in de CJA-gegevensweergave. | **Bezoeken**: Zie [Bezoeken](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html). | **Bezoeken**: Gedefinieerd op basis van de sessie-instellingen die zijn opgegeven in het dialoogvenster [Virtuele CDA-rapportenpakket](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html). |
 | **Gebeurtenissen** = aantal rijen in de gegevens in de bijlage in CJA. Deze metrisch is typisch dicht bij **Voorval** in het traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege pagina `Persistent ID`. | **Gebeurtenissen** = aantal rijen in de niet-ingestelde gegevens in CJA. Deze metrisch is typisch dicht bij **Voorval** in het traditionele Adobe Analytics. Houd er echter rekening mee dat gebeurtenissen leeg zijn `Person ID` in de ongeordende gegevens in Experience Platform data Lake, zijn deze gebeurtenissen niet opgenomen in CJA. | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 

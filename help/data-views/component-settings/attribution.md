@@ -4,7 +4,7 @@ description: Hiermee kunt u de standaardattributie voor een metrische waarde ins
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1778'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De attributie geeft u de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen. Bijvoorbeeld:
 
-1. Een bezoeker van uw site klikt op een koppeling naar een betaalde zoekopdracht naar een van uw productpagina&#39;s. Ze voegen het product aan hun winkelwagentje toe, maar kopen het niet.
+1. Een persoon naar uw site klikt op een koppeling naar een betaalde zoekopdracht naar een van uw productpagina&#39;s. Ze voegen het product aan hun winkelwagentje toe, maar kopen het niet.
 2. De volgende dag zien de mensen een bericht in de sociale media van een van hun vrienden. Ze klikken op de koppeling en voltooien de aankoop.
 
 In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren.
@@ -58,15 +58,15 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **60 dagen**: Zoekt terug tot 60 dagen vanaf het moment dat de conversie plaatsvond.
 * **90 dagen**: Zoekt terug tot 90 dagen vanaf het moment dat de conversie plaatsvond.
 * **Sessie**: Zoekt terug naar het begin van de sessie waar een conversie plaatsvond. De terugkijkervensters van de zitting respecteren gewijzigde [Time-out sessie](../create-dataview.md#session-settings).
-* **Persoon (rapportagevenster)**: Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Persoon (rapportagevenster)**: Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de persoonlijke terugzoekdatum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
 * **Aangepaste tijd:** Hiermee kunt u een aangepast terugzoekvenster instellen vanaf het moment dat de conversie plaatsvond. U kunt het aantal minuten, uren, dagen, weken, maanden of kwartalen opgeven. Bijvoorbeeld, als een omzetting op 20 februari gebeurde, zou een terugkijkvenster van vijf dagen alle afmetingstips van 15 februari tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld
 
 Bekijk het volgende voorbeeld:
 
-1. Op 15 september arriveert een bezoeker via een betaalde zoekadvertentie naar uw site en verlaat vervolgens zijn site.
-2. Op 18 september arriveert de bezoeker opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
+1. Op 15 september arriveert een persoon via een betaalde zoekadvertentie naar uw site en verlaat hij vervolgens.
+2. Op 18 september arriveert de persoon opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
 3. Op 24 september stuurt uw marketingteam hen een e-mail met een coupon voor sommige objecten in hun winkelwagentje. Ze passen de coupon toe, maar gaan naar verschillende andere sites om te zien of er andere coupons beschikbaar zijn. Ze vinden een andere advertentie via een advertentie en kopen uiteindelijk $50.
 
 Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanalen verschillende kredieten. Hieronder volgen enkele belangrijke voorbeelden:

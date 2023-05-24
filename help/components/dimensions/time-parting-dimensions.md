@@ -3,7 +3,7 @@ description: Bij tijdpartering wordt de tijdstempel van verzamelde gebeurtenisse
 title: Tijduitsplitsende dimensies
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Bij tijdpartering wordt de tijdstempel van verzamelde gebeurtenissen gebruikt en
 
 De tijd-ontledende afmetingen zijn gebaseerd op de tijdzone van de gegevensmening. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
-* Wat is, over een groot datumbereik, de populairste tijd van dag voor bezoekers om tot mijn plaats of app toegang te hebben?
+* Wat is, over een groot datumbereik, de populairste tijd van dag voor mensen om tot mijn plaats of app toegang te hebben?
 * Zijn er dagen van de week of uren van de dag waarop de conversie hoger is op mijn site of app?
 * Hoe vergelijk mijn weekendverkopen met mijn weekdagverkopen?
 * Produceert een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?

@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 0%
@@ -76,9 +76,9 @@ Hoewel u nog niet kunt delen of publiceren [!UICONTROL filters] ([!UICONTROL seg
 
 Naast het concept van segmenten die veranderen, worden de segmentcontainers ook bijgewerkt.
 
-* **Handcontainers zijn nu [!UICONTROL Event] containers**. De [!UICONTROL Event] Met de container kunt u bezoekersinformatie onderverdelen op basis van individuele gebeurtenissen.
+* **Handcontainers zijn nu [!UICONTROL Event] containers**. De [!UICONTROL Event] Met container kunt u persoonlijke gegevens onderverdelen op basis van individuele gebeurtenissen.
 * **Bezoek containers zijn nu [!UICONTROL Session] containers**. De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren.
-* **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container bevat elke sessie en gebeurtenis voor een bezoeker binnen de opgegeven tijdsperiode.
+* **Bezoekerscontainers zijn nu [!UICONTROL Person] containers**. De [!UICONTROL Person] container omvat elke zitting en gebeurtenis voor een persoon binnen het gespecificeerde tijdkader.
 
 ## Wijzigingen in het concept van berekende meetwaarden
 
@@ -100,7 +100,7 @@ U kunt ook meerdere gegevensweergaven hebben op basis van dezelfde verbinding. U
 
 ## Wijzigingen in het concept van klantkenmerken
 
-De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets van het Profiel&quot;. De datasets van het profiel bevatten gegevens die op uw bezoekers, gebruikers, of klanten in worden toegepast [!UICONTROL Event] gegevens. Bijvoorbeeld, staat het u toe om de gegevens van CRM over uw klanten te uploaden. U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset gedefinieerd in [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd.
+De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets van het Profiel&quot;. De datasets van het profiel bevatten gegevens die op uw personen, gebruikers, of klanten in worden toegepast [!UICONTROL Event] gegevens. Bijvoorbeeld, staat het u toe om de gegevens van CRM over uw klanten te uploaden. U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset gedefinieerd in [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd.
 
 ## Wijzigingen in de manier waarop Adobe bezoekers identificeert
 

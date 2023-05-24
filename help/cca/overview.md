@@ -1,10 +1,10 @@
 ---
 title: Overzicht van kanaalanalyse
-description: Identiteitskaart van de bezoeker van hersleutel van veelvoudige datasets om bezoekers samen te binden.
+description: Identiteitskaart van de re-zeer belangrijke persoon van veelvoudige datasets aan naakte personen samen.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
 * Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt het aanwijzen van campagnes die op één apparaat landen tot omschakeling elders?
-* Hoe verandert mijn inzicht in de doeltreffendheid van campagnes als ik rekening houd met cross-device reizen? Hoe verandert mijn trechter-analyse?
+* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik rekening houd met apparatuurreizen? Hoe verandert mijn trechter-analyse?
 * Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
 * Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
 
@@ -32,9 +32,9 @@ Wanneer u datasets met gelijkaardige persoon IDs combineert, wordt de attributie
 
 Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisatie is voorbereid met behulp van het volgende:
 
-* Eén gegevensset in Adobe Experience Platform moet uit twee kolommen bestaan waarmee bezoekers kunnen worden geïdentificeerd:
-   * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van Adobe Analytics AppMeasurement wordt geproduceerd.
-   * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken, mits deze minstens één keer aanwezig is op dezelfde gebeurtenis als een bepaalde permanente id.
+* Eén gegevensset in Adobe Experience Platform moet uit twee kolommen bestaan waarmee u personen kunt identificeren:
+   * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een persoon-id die is gegenereerd door een Adobe Analytics AppMeasurement-bibliotheek.
+   * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een persoon de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken, mits deze minstens één keer aanwezig is op dezelfde gebeurtenis als een bepaalde permanente id.
 * Een andere dataset, zoals de gegevens van het vraagcentrum, die een transient identiteitskaart op elke rij bevat. Deze persoon-id moet op dezelfde manier worden opgemaakt als de tijdelijke id in de andere dataset.
 * Met deze functie kunt u gegevenssets samenvoegen die het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens kunnen omvatten. Zorg ervoor dat u voldoet aan de toepasselijke wetten en regels, inclusief het verkrijgen van de benodigde machtigingen voor eindgebruikers, voordat u gegevenssets samenvoegt.
 

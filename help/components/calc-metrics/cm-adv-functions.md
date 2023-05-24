@@ -3,9 +3,9 @@ title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3101'
 ht-degree: 1%
 
 ---
@@ -177,7 +177,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
 | Significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cosinus (rij)
 
@@ -225,10 +225,10 @@ Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wor
 
 >[!NOTE]
 >
->Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/bezoeker: het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en bezoekers over de laatste N op te tellen en ze vervolgens te verdelen. Gebruik in plaats daarvan
+>Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/persoon: het gemiddelde van de percentages in plaats van de inkomsten over de laatste N op te tellen en personen over de laatste N op te tellen en vervolgens te verdelen. Gebruik in plaats daarvan
 
 ```
-cumul(revenue)/cumul(visitor)
+cumul(revenue)/cumul(person)
 ```
 
 ## Gelijk
@@ -366,7 +366,7 @@ fx Lift (normalizing-container, success-metric, control)
 | Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
 | Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Lineaire regressie_ Correlatiecoëfficiënt
 

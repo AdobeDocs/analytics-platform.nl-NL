@@ -3,7 +3,7 @@ title: Wat is Cohort Analysis?
 description: Meer informatie over cohortanalyse in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 76840d025d1ace28abce5557d66d104795818167
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Met de volgende mogelijkheden kunt u de cohorten die u maakt, nauwkeurig instell
 
 ### [!UICONTROL Retention] Tabel
 
-A [!UICONTROL Retention] het cohort rapport geeft bezoekers terug : in elke gegevenscel worden het onbewerkte aantal en het onbewerkte percentage bezoekers in de cohort weergegeven die de actie in die periode hebben uitgevoerd . U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
+A [!UICONTROL Retention] het cohortrapport geeft personen : in elke gegevenscel worden het onbewerkte aantal en het onbewerkte percentage personen in het cohort weergegeven die de actie in die periode hebben uitgevoerd . U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL Churn] Tabel
 
-A [!UICONTROL Churn] cohort is het omgekeerde van een retentietabel en toont de bezoekers die in de loop der tijd niet of niet aan de terugkeercriteria voor uw cohort voldeden. U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
+A [!UICONTROL Churn] cohort is het omgekeerde van een retentietabel en geeft de personen weer die in de loop der tijd niet of niet aan de criteria voor terugkeer voor uw cohort voldeden. U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
 
 ![](assets/churn-report.png)
 

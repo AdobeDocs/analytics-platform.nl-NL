@@ -3,7 +3,7 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 0%
@@ -110,18 +110,18 @@ Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 
 
 ## Niet-gerandomiseerde afmetingen interpreteren {#non-randomized}
 
-Met CJA kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor bezoekers willekeurig worden gekozen?
+Met CJA kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
 
-Neem bijvoorbeeld een advertentie die een bezoeker ziet. Het kan interessant zijn om de verandering in wat metrisch (bijvoorbeeld, gemiddelde opbrengst) te meten als u besluit om bezoekers &quot;ad B&quot;in plaats van &quot;a&quot;te tonen. Het causale effect van het aantonen van advertentie B in plaats van advertentie A is van cruciaal belang om tot het besluit over het in de handel brengen te komen. Dit causale effect kan worden gemeten als de gemiddelde inkomsten over de gehele bevolking, als we de status quo van het tonen van steun A vervangen door de alternatieve strategie van het tonen van steun B.
+Neem bijvoorbeeld een advertentie die een persoon ziet. Het kan interessant zijn om de verandering in metrische cijfers (bijvoorbeeld gemiddelde opbrengst) te meten als u besluit om personen &quot;ad B&quot; in plaats van &quot;ad A&quot; te tonen. Het causale effect van het aantonen van advertentie B in plaats van advertentie A is van cruciaal belang om tot het besluit over het in de handel brengen te komen. Dit causale effect kan worden gemeten als de gemiddelde inkomsten over de gehele bevolking, als we de status quo van het tonen van steun A vervangen door de alternatieve strategie van het tonen van steun B.
 
-A/B-tests zijn de gouden standaard in de industrie voor het objectief meten van de effecten van dergelijke interventies. De kritieke reden waarom een A/B-test aanleiding geeft tot een causale schatting is gelegen in de randomisatie van bezoekers om een van de mogelijke varianten te ontvangen.
+A/B-tests zijn de gouden standaard in de industrie voor het objectief meten van de effecten van dergelijke interventies. De kritieke reden waarom een A/B-test aanleiding geeft tot een causale schatting is te wijten aan de randomisatie van personen die een van de mogelijke varianten ontvangen.
 
-Denk nu eens aan een dimensie die niet wordt bereikt door randomisatie, bijvoorbeeld, de Amerikaanse staat van de bezoeker. Laten we zeggen dat onze bezoekers voornamelijk uit twee staten komen, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische ligging van bezoekers verschillend is.
+Denk nu eens aan een dimensie die niet wordt bereikt door randomisatie, bijvoorbeeld, de staat van de persoon in de VS. Laten we zeggen dat onze mensen voornamelijk uit twee staten komen, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische situatie van personen verschillend is.
 
-Met het deelvenster Experimentatie in Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per staat van de bezoekers. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de bezoekers door de staten. Dit wordt ook wel &quot;Statistical Hypothesis Testing&quot; genoemd. Het resultaat van deze analyse is misschien interessant, maar niet noodzakelijkerwijs uitvoerbaar, omdat we bezoekers niet en soms niet kunnen koppelen aan een van de mogelijke waarden van de dimensie.
+Met het deelvenster voor experimenten in Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde verschil in inkomsten per land van de persoon. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de staten van de personen. Dit wordt ook wel &quot;Statistical Hypothesis Testing&quot; genoemd. De uitkomst van deze analyse is misschien interessant, maar niet noodzakelijkerwijs uitvoerbaar, omdat we personen niet en soms niet kunnen koppelen aan een van de mogelijke waarden van de dimensie.
 
 In de volgende afbeelding worden deze situaties gecontrasteerd:
 
 ![gerandomiseerd experiment](assets/randomize.png)
 
-Wanneer u de impact van interventie X op resultaat Y wilt meten, is het mogelijk dat de echte oorzaak van beide factoren de verwarrende factor C is. Als de gegevens niet worden bereikt door bezoekers op X te zetten, is het moeilijker om de impact te meten en zal de analyse expliciet rekening houden met C. randomisatie breekt de afhankelijkheid van X op C, waardoor we het effect van X op Y kunnen meten zonder dat we ons zorgen hoeven te maken over andere variabelen.
+Wanneer u de impact van interventie X op resultaat Y wilt meten, is het mogelijk dat de echte oorzaak van beide factoren de verwarrende factor C is. Als de gegevens niet worden bereikt door personen op X te randomiseren, is het moeilijker om de impact te meten en zal de analyse expliciet rekening houden met C. randomisatie breekt de afhankelijkheid van X op C, waardoor we het effect van X op Y kunnen meten zonder dat we ons zorgen hoeven te maken over andere variabelen.

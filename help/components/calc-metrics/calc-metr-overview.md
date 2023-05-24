@@ -3,7 +3,7 @@ title: Overzicht van berekende metriek
 description: Leer over gefilterde metriek die bij rapportruntime worden afgeleid.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: e98b21824789600c7729cce99d7592011ad18577
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 4%
@@ -17,7 +17,7 @@ Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek di
 U kunt
 
 * Creeer gefilterde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op filters.
-* (Alleen Geavanceerde berekende cijfers) Filter op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
+* (Alleen Geavanceerde berekende cijfers) Filter op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe personen&quot;, met een aantal personen voor wie dit de eerste sessie is.
 * (Alleen geavanceerde berekende statistieken) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
 ## Berekende meetwaarden versus geavanceerde berekende meetwaarden
@@ -34,11 +34,11 @@ Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavan
 | [Basisfuncties (aantal, abs-waarde, gemiddelde, enz.)](/help/components/calc-metrics/cm-functions.md) | Nee | Ja |
 | [Geavanceerde functies (regressie, indien/toen, t-score, enz.)](/help/components/calc-metrics/cm-adv-functions.md) | Nee | Ja |
 
-## Gereedschappen
+## Tools
 
 | Gereedschap | Mogelijkheden |
 |--- |--- |
-| Berekende metrische bouwer | <ul><li>Creeer berekende en geavanceerde berekende metriek gebruikend geavanceerde toewijzingsmodellen.</li><li>Filters inline toevoegen aan metrische formules.</li><li>Vergelijk filters in hetzelfde rapport. Vergelijk bijvoorbeeld lokale bezoekers met internationale bezoekers.</li><li>Gebruik statistische functies.</li><li> Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het wordt gebruikt, waar het NIET wordt gebruikt).</li><li>Kopieer definities naar nieuwe metriek.</li><li>Een inline metrische voorvertoning weergeven.</li><li>Metrische polariteit instellen die aangeeft of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd.</li><li>Metrische codes.</li></ul> |
+| Berekende metrische bouwer | <ul><li>Creeer berekende en geavanceerde berekende metriek gebruikend geavanceerde toewijzingsmodellen.</li><li>Filters inline toevoegen aan metrische formules.</li><li>Vergelijk filters in hetzelfde rapport. Vergelijk bijvoorbeeld lokale personen met internationale personen.</li><li>Gebruik statistische functies.</li><li> Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het wordt gebruikt, waar het NIET wordt gebruikt).</li><li>Kopieer definities naar nieuwe metriek.</li><li>Een inline metrische voorvertoning weergeven.</li><li>Metrische polariteit instellen die aangeeft of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd.</li><li>Metrische codes.</li></ul> |
 | Berekende standaard-beheer | <ul><li>Deel metriek met anderen.</li><li>Metriek goedkeuren en krullen.</li><li>Organiseer uw gegevens (tag) zodat mensen ze kunnen vinden.</li><li>Metrische gegevens verwijderen.</li><li>Naam metriek wijzigen.</li></ul> |
 | API voor berekende cijfers | Onderdeel van de CJA API-set. |
 

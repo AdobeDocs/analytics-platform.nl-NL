@@ -3,7 +3,7 @@ title: Dimensie Lange staart
 description: Verklaart de afmetingspost "Lange Staart"en waarom het in rapportering verschijnt.
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: 8618690187a0cc35fd59cc8bef9ad1147cadf8b0
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -20,7 +20,7 @@ CJA verwerkt rapporten op het tijdstip dat zij in werking worden gesteld, die de
 
 Als een afzonderlijke server een resultaatset samenvoegt die groter is dan een formaatdrempel, worden de resultaten afgebroken voordat ze worden teruggestuurd. Dit houdt het netwerkverkeer en de samenvoeging binnen grenzen om voor snelle rapportering toe te staan.  Omdat het de resultaten met slechts de mening van zijn eigen gegevens beknot, is het mogelijk (hoewel onwaarschijnlijk) dat de punten die in Analysis Workspace worden getoond onjuiste metrische waarden hebben.
 
-De server kiest welke punten om te verwerpen die op metrisch wordt gebaseerd voor het sorteren wordt gebruikt.  Als dit berekende metrisch is, kan het niet duidelijk zijn hoe te om het te sorteren, en zodat kunnen de resultaten minder nauwkeurig zijn.  Bij het berekenen van &quot;Inkomsten per bezoeker&quot; worden bijvoorbeeld het totale bedrag aan inkomsten en het totale aantal bezoekers geretourneerd en samengevoegd voordat de afdeling wordt uitgevoerd. Dientengevolge, kiest elke knoop veel welke punten te verwijderen, zonder echt te weten hoe hun resultaten het algemene sorteren zullen beïnvloeden.
+De server kiest welke punten om te verwerpen die op metrisch wordt gebaseerd voor het sorteren wordt gebruikt.  Als dit berekende metrisch is, kan het niet duidelijk zijn hoe te om het te sorteren, en zodat kunnen de resultaten minder nauwkeurig zijn.  Bij de berekening van &quot;Ontvangsten per persoon&quot; worden bijvoorbeeld het totale bedrag aan inkomsten en het totale aantal personen geretourneerd en geaggregeerd voordat de splitsing wordt uitgevoerd. Dientengevolge, kiest elke knoop veel welke punten te verwijderen, zonder echt te weten hoe hun resultaten het algemene sorteren zullen beïnvloeden.
 
 ## Verschillen tussen &#39;Lange liniaal&#39; en &#39;Laag verkeer&#39;
 

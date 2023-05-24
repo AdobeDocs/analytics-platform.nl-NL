@@ -4,7 +4,7 @@ description: Begrijp het concept "replay"in Kanaalanalyse
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -17,10 +17,10 @@ Met Kanaalanalyse kunt u gegevens op een bepaalde verbinding in twee stappen doo
 
 * **Levend stitching**: CCA probeert om elke gebeurtenis te verbinden aangezien het binnen komt. De netto nieuwe apparaten aan de dataset die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
 * **Opnieuw afspelen**: CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de verbinding vastgezet. Adobe biedt twee herhalingsintervallen:
-   * Dagelijks: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
+   * Dagelijks: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat replay veel frequenter is, maar niet-geregistreerde personen moeten zich op dezelfde dag verifiëren als zij uw site bezoeken.
    * Wekelijks: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Gegevens van minder dan een week oud worden echter niet vastgezet.
 
-Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een bezoeker moet binnen een bepaald terugkijkvenster voor een ongeautoriseerd bezoek en voor authentiek verklaard bezoek voor authentiek verklaren om samen worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt voorwaarts vastgezet.
+Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een persoon moet binnen een bepaald raadplegingsvenster voor een ongeautoriseerd bezoek en voor authentiek verklaard bezoek voor authentiek verklaren om samen te worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt voorwaarts vastgezet.
 
 ## Stap 1: Levend stitching
 

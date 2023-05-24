@@ -2,7 +2,7 @@
 title: Filteroperatoren
 description: Bepaal hoe een component met een waarde binnen een filter interactie aangaat.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Met de filterbuilder kunt u waarden vergelijken en beperken met behulp van gesel
 
 ## Operatoren voor onderscheiden aantallen
 
-U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. U kunt bijvoorbeeld filters maken voor bezoekers die meer dan vijf verschillende producten hebben bekeken of bezoeken waarbij meer dan vijf afzonderlijke pagina&#39;s werden weergegeven.
+U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. U kunt bijvoorbeeld filters maken voor personen die meer dan vijf verschillende producten hebben bekeken of bezoeken waarbij meer dan vijf afzonderlijke pagina&#39;s zijn weergegeven.
 
 | Operator | Beschrijving |
 | --- | --- |

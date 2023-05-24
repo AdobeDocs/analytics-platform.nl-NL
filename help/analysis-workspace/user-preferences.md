@@ -4,7 +4,7 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '3136'
 ht-degree: 1%
@@ -160,7 +160,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 |  | Vergelijking tonen | Vergelijkingsgegevens tonen. Wanneer deze optie is verborgen, worden zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
 |  | Nummerwaardeopties | In de [!UICONTROL **Hoofdmetrische samenvatting**] sectie <ul><li>Percentage wijziging tonen</li><li>Raw-verschil tonen</li>Onbewerkt verschil tussen de totale waarde van de metrische waarde in het primaire datumbereik en het secundaire datumbereik</ul> |
 | **[Uitval](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** |  |  |
-|  | Container | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Bezoek</li><li>Bezoeker</li></ul> |
+|  | Container | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker. Met deze instellingen kunt u de betrokkenheid van personen op persoonlijke niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Bezoek</li><li>Bezoeker</li></ul> |
 | **[Stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** |  |  |
 |  | Container | In de [!UICONTROL **Stroom**] sectie <ul><li>Bezoek</li><li>Bezoeker</li></ul> |
 |  | Labels voor tekstomloop | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen. Standaard = uitgeschakeld. |
@@ -172,7 +172,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 |  | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. <p>Zie voor meer informatie [Stapel en balk gestapeld](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | Aantal emmers | Kies het aantal gegevensbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Zie voor meer informatie [Histogram](/help/analysis-workspace/visualizations/histogram.md).</p> |
-|  | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Bezoek</li><li>Bezoeker</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per bezoeker paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per gebeurtenis kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
+|  | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Bezoek</li><li>Bezoeker</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per persoon paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per gebeurtenis kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
 | **[Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Waarde | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percentage wijziging</li><li>Onbewerkt verschil</li></ul> |
 |  | Percentage | De waarden van vertoningen in percentages voor de Summiere visualisaties van de Verandering. |

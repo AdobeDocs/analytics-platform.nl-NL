@@ -4,7 +4,7 @@ description: Begrijp de verschillende manieren dat u gegevens in Customer Journe
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analyt
 
 ## Gegevens verzamelen en gebruiken via de Adobe Experience Platform Web SDK en het Edge Network
 
-U wilt uw website analyseren met Adobe-technologie, mogelijk migreren van een andere oplossing of het gedrag van uw bezoeker volgen. U wilt de beste praktijken van Adobe voor implementatie volgen, die Adobe Experience Platform SDKs en het Netwerk van de Rand gebruikt, om de gegevens op te nemen. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in Customer Journey Analytics.
+U wilt uw website analyseren met Adobe-technologie, mogelijk migreren van een andere oplossing of het gedrag van uw persoon volgen. U wilt de beste praktijken van Adobe voor implementatie volgen, die Adobe Experience Platform SDKs en het Netwerk van de Rand gebruikt, om de gegevens op te nemen. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Web SDK en het Edge Network](./aepwebsdk.md) voor meer informatie .
 

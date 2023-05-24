@@ -4,7 +4,7 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Met stroomvisualisaties kunt u de reis begrijpen die voortvloeit uit of leidt to
    | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen/eindigen met de eerste/laatste instantie van een dimensie/item/metrisch. Zie de onderstaande sectie &quot;Voorbeeldscenario voor &#39;beperking tot eerste/laatste voorval&#39;&quot; voor een gedetailleerdere uitleg. |
    | **[!UICONTROL Number of Columns]** | Hiermee bepaalt u hoeveel kolommen u in het stroomdiagram wilt opnemen. |
    | **[!UICONTROL Items expanded per Column]** | Hoeveel punten u in elke kolom wilt. |
-   | **[!UICONTROL Flow Container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
+   | **[!UICONTROL Flow Container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van personen te analyseren. Met deze instellingen kunt u de betrokkenheid van personen op het niveau van de persoon (tijdens verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
 1. Klik op **[!UICONTROL Build]**.
 

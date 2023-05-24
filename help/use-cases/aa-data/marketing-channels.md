@@ -4,7 +4,7 @@ description: Gebruik de Analytics Source Connector om de verwerkingsregels van h
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -59,7 +59,7 @@ De montages van het de verkoopkanaal werken verschillend tussen de gegevens van 
 
    ![Laatste aanraakkanaal overschrijven](../assets/override-last-touch-channel.png)
 
-* **Vervaldatum marketingkanaal**: Deze instelling voor de serviceperiode bepaalt de periode van inactiviteit voordat een bezoeker een nieuw eerste aanraakkanaal in de rapportsuite-gegevens kan verkrijgen. Platform gebruikt eigen attributie-instellingen, zodat deze instelling volledig wordt genegeerd in CJA.
+* **Vervaldatum marketingkanaal**: Deze instelling voor de serviceperiode bepaalt de periode van inactiviteit voordat een persoon een nieuw eerste aanraakkanaal kan verkrijgen in de gegevens van de rapportsuite. Platform gebruikt eigen attributie-instellingen, zodat deze instelling volledig wordt genegeerd in CJA.
 
    ![Vervaldatum marketingkanaal](../assets/marketing-channel-expiration.png)
 
@@ -71,4 +71,4 @@ Omdat de architectuur van Adobe Experience Platform anders is dan een traditione
 * Controleer tweemaal of uw verbinding de zelfde rapportreeks zoals traditionele Analytics gebruikt. Als uw verbinding CJA veelvoudige rapportreeksen met hun eigen de verwerkingsregels van het Kanaal van de Marketing bevat, is er geen gemakkelijke manier om het met traditionele Analytics te vergelijken. U zou een afzonderlijke verbinding voor elke rapportreeks willen tot stand brengen om gegevens te vergelijken.
 * Zorg ervoor dat u de zelfde datumwaaiers vergelijkt, en dat de tijdzone die in uw gegevensmening plaatst het zelfde als de tijdzone van de rapportreeks is.
 * Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Gebruik bijvoorbeeld de [Marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) dimensie met metriek die een niet-standaard attributiemodel gebruiken. Adobe raadt u aan de standaardafmetingen niet te vergelijken [Eerste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html) of [Laatste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html), omdat ze afhankelijk zijn van toeschrijvingen die in de rapportsuite worden verzameld. CJA vertrouwt niet op de toewijzingsgegevens van een rapportsuite; in plaats daarvan, wordt het berekend wanneer een CJA- rapport in werking wordt gesteld.
-* Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en Platform gegevens. Voorbeelden zijn bezoeken/sessies, bezoekers/personen en voorvallen/gebeurtenissen.
+* Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en Platform gegevens. Voorbeelden zijn bezoeken/sessies, personen/personen en voorvallen/gebeurtenissen.

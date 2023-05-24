@@ -3,7 +3,7 @@ description: Hoe de totalen van de werkruimte worden berekend.
 title: Totalen werkruimte
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,8 +29,8 @@ Onder **[!UICONTROL Column Settings]**, er zijn mogelijkheden om **[!UICONTROL S
 
 [Statische rij](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) de totalen gedragen zich verschillend en worden gecontroleerd onder **[!UICONTROL Row Settings]**.
 
-* **[!UICONTROL Show sum of current rows as the total]** - dit toont een cliënt-zijsom van de rijen in de lijst die betekent het totale zal **niet** deduplicatie van metingen zoals bezoeken of bezoekers.
-* **[!UICONTROL Show Grand Total]** - dit toont een bedrag aan serverzijde, wat betekent het totaal metriek zoals bezoeken of bezoekers zal dedupliceren.
+* **[!UICONTROL Show sum of current rows as the total]** - dit toont een cliënt-zijsom van de rijen in de lijst die betekent het totale zal **niet** deduplicatie van metingen zoals bezoeken of personen.
+* **[!UICONTROL Show Grand Total]** - dit toont een bedrag aan serverzijde, wat betekent het totaal metriek zoals bezoeken of personen zal dedupliceren.
 
 ![](assets/static-rows.png)
 

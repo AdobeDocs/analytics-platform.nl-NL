@@ -1,9 +1,9 @@
 ---
-description: 'Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken. '
+description: Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
 title: Gesegmenteerde cijfers
 feature: Calculated Metrics
-exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -21,7 +21,7 @@ In de Berekende metrische bouwer, kunt u filters binnen uw metrische definitie t
 Laten we zeggen dat u verschillende aspecten van een filter &quot;Duitse bezoekers&quot; wilt vergelijken met die van een filter &quot;Internationale Bezoekers&quot;. U kunt metriek tot stand brengen die u inzichten zoals zal geven:
 
 * Hoe vergelijk het gedrag van bladeren door inhoud tussen de twee groepen? (Een ander voorbeeld is: Hoe vergelijk de omrekeningskoers tussen de twee filters?)
-* Hoeveel Duitse bezoekers zijn als percentage van het totale aantal bezoekers op bepaalde pagina&#39;s te vinden, in tegenstelling tot internationale bezoekers?
+* Als percentage van het totale aantal personen, hoeveel Duitse personen op bepaalde pagina&#39;s surfen, tegenover internationale personen?
 * Waar zijn de grootste verschillen in termen van welke inhoud door deze verschillende filters wordt betreden?
 
 1. Als u geen vergelijkbaar filter hebt, maakt u een ad-hocsegment in de Berekende metrische bouwer met de naam &quot;Duitse bezoekers&quot;, waarbij &quot;Landen&quot; gelijk is aan &quot;Duitsland&quot;. Sleep gewoon de dimensie Landen naar het canvas Definition en selecteer Duitsland als waarde:

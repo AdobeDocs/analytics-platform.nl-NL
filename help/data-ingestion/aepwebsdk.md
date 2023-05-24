@@ -4,7 +4,7 @@ description: Verklaar hoe te om gegevens in Customer Journey Analytics via het W
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '3273'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Uw schema instellen:
 
    ![Identificatieobject](./assets/identification-field.png)
 
-   Hiermee voegt u id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw bezoeker te volgen (bijvoorbeeld klant identiteitskaart, loyaliteitsidentiteitskaart).
+   Hiermee voegt u id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon (bijvoorbeeld klant identiteitskaart, loyaliteitsidentiteitskaart) te volgen.
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
@@ -265,7 +265,7 @@ U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configur
 
 Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) voor meer informatie .
 
-U wilt ook opstelling de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud zodat kunt u van Experience Cloud identiteitskaart gemakkelijk gebruiken. De Experience Cloud ID-service identificeert bezoekers in alle Adobe Experience Cloud-oplossingen.
+U wilt ook opstelling de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud zodat kunt u van Experience Cloud identiteitskaart gemakkelijk gebruiken. De Experience Cloud ID Service identificeert personen in alle Adobe Experience Cloud-oplossingen.
 
 Om de uitbreiding van de Dienst van identiteitskaart van Experience Cloud tot stand te brengen en te vormen:
 
@@ -285,7 +285,7 @@ Om de uitbreiding van de Dienst van identiteitskaart van Experience Cloud tot st
 
 De elementen van gegevens zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden.
 
-Er zijn verschillende typen gegevenselementen. U stelt eerst een gegevenselement in om de paginanaam vast te leggen die bezoekers op uw site bekijken.
+Er zijn verschillende typen gegevenselementen. U stelt eerst een gegevenselement in om de paginanaam vast te leggen die personen op uw site bekijken.
 
 Een gegevenselement voor de paginanaam definiëren:
 

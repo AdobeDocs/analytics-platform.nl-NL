@@ -1,15 +1,15 @@
 ---
 title: Kanaaloverschrijdende analyse
-description: Leer hoe u bezoekers-id's van meerdere gegevenssets opnieuw kunt gebruiken om bezoekers aan elkaar te koppelen.
+description: Leer hoe de re-zeer belangrijke persoon ID's van veelvoudige datasets aan verbindende personen samen zijn.
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
+exl-id: 5fb30b64-d305-4de4-ab84-66195ceb8386
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 1%
 
 ---
-
 
 # Kanaaloverschrijdende analyse
 

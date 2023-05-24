@@ -4,7 +4,7 @@ description: Hiermee worden nuttige rapporten over de gegevens van Google Analyt
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -27,7 +27,7 @@ U kunt de tijd van het vraagcentrum die in de laatste twee maanden wordt doorgeb
 
 ![Oproepvolume](../assets/call-volume.png)
 
-Met behulp van de dimensie &#39;Vraag reden&#39; kan u aangeven hoe u de webervaring kunt verbeteren, zodat bezoekers niet in de eerste plaats kunnen bellen. Het bovenstaande voorbeeld toont aan dat &quot;het product van de Schade&quot;een gemiddelde vraagtijd van bijna 3 minuten per vraag heeft, die uw organisatie een nauwkeurige manier geeft om de klantenervaring te verbeteren en vraagcentrum kosten te drijven.
+Het gebruik van de dimensie &#39;Roepreden&#39; kan wijzen op manieren om de webervaring te verbeteren, die mensen verhinderen in de eerste plaats te roepen. Het bovenstaande voorbeeld toont aan dat &quot;het product van de Schade&quot;een gemiddelde vraagtijd van bijna 3 minuten per vraag heeft, die uw organisatie een nauwkeurige manier geeft om de klantenervaring te verbeteren en vraagcentrum kosten te drijven.
 
 U kunt bekijken welke producten de meeste vraag aan uw vraagcentrum veroorzaken en hoeveel klanten die vraag maakten. De bellengrafiek laat zien dat 20.000 mensen die gebeld werden, meer dan 4 uur 30 minuten doorbrachten en 33 eenheden van het product &quot;Men&#39;s short-hoes Tee&quot; teruggaven.
 
