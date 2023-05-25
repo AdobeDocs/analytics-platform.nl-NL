@@ -1,9 +1,9 @@
 ---
 title: Veelgestelde vragen over analyse met instructies
 description: Veelgestelde vragen over de analyse met instructies.
-source-git-commit: 1d10e4cdc70f9f527506b07e7a38070f67ab583d
+source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,21 @@ Neen; Analyse met instructies is een betaalde aanvulling op CJA. Neem contact op
 
 +++**Welke implementatiewijzigingen zijn vereist om de analyse met instructies te gebruiken?**
 
-Als u Analysis Workspace al in CJA gebruikt, zijn er geen aanvullende implementatiewijzigingen nodig. In analyserapporten met instructies worden dezelfde gegevensweergaven en -verbindingen gebruikt als werkruimterapporten. Het proces om aan boord te hebben en om het even welk projecttype te gebruiken is identiek voor al CJA, met inbegrip van Geleide analyse.
+Als u Analysis Workspace al in CJA gebruikt, zijn er geen aanvullende implementatiewijzigingen nodig. Voor de analyse met instructies worden dezelfde gegevensweergaven en -verbindingen gebruikt als voor Analysis Workspace. Het proces om aan boord te hebben en om het even welk projecttype te gebruiken is identiek voor al CJA, met inbegrip van Geleide analyse.
+
++++
+
++++**Hoe verhouden termen zich tot elkaar binnen en buiten de analyse met instructies?**
+
+Bij een analyse met instructies worden termen gebruikt die vaker worden gebruikt in de productanalyse. U kunt naar deze tabel verwijzen bij het schakelen tussen de analyse met instructies en Analysis Workspace.
+
+| Geleide analyseperiode | Analysis Workspace term |
+| --- | --- |
+| Gebeurtenis | Metrisch |
+| Eigenschap | Dimension |
+| Waarde | Dimension-item |
+| Segment | Filter |
+
+{style="table-layout:auto"}
 
 +++
