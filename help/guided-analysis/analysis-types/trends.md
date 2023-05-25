@@ -1,9 +1,9 @@
 ---
 title: Trends
 description: Patronen en wijzigingen in de betrokkenheid van gebruikers zoeken in de loop van de tijd.
-source-git-commit: c47c4364cbf027c24a355bb306ee786c3e2446a9
+source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ De **Trends** [Type analyse](overview.md) biedt waardevol inzicht in de prestati
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **Gebeurtenissen**: Plaatst de gebeurtenissen die u in uw rapport wilt meten. Elke hier geselecteerde gebeurtenis wordt, afhankelijk van het diagramtype, voorgesteld als een gekleurde lijn of een set balken. Aan de tabel wordt een rij toegevoegd die de trended-gebeurtenis vertegenwoordigt. Maximaal vijf gebeurtenissen worden ondersteund.
-* **Mensen**: Plaatst de segmenten die u in uw rapport wilt meten. Elk segment dat u hier selecteert, verdubbelt het aantal regels in het diagram en de rijen in de tabel. Elke set gebeurtenissen wordt voor elk segment weergegeven. Maximaal vijf segmenten worden ondersteund.
+* **Gebeurtenissen**: De gebeurtenissen die u in uw rapport wilt meten. Elke hier geselecteerde gebeurtenis wordt, afhankelijk van het diagramtype, voorgesteld als een gekleurde lijn of een set balken. Aan de tabel wordt een rij toegevoegd die de trended-gebeurtenis vertegenwoordigt. U kunt maximaal vijf gebeurtenissen opnemen.
+* **Mensen**: De segmenten die u in uw rapport wilt meten. Elk segment dat u hier selecteert, verdubbelt het aantal regels in het diagram en de rijen in de tabel. Elke set gebeurtenissen wordt voor elk segment weergegeven. U kunt maximaal vijf segmenten opnemen.
 
 ## Typen weergeven
 
@@ -38,8 +38,8 @@ De tendensen bieden de volgende meningstypes aan. U kunt het weergavetype wijzig
 
 De tendensen bieden de volgende grafiekmontages aan. U kunt de diagraminstellingen aanpassen in het menu tussen het weergavetype en de kalenderkiezer.
 
-* **Metrisch**: Hiermee stelt u de metrische waarde in die u wilt meten. U kunt onder andere gebeurtenissen, sessies, gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen.
-* **Type diagram**: Hiermee stelt u het type visualisatie in dat u wilt gebruiken. Dit menu bevat de opties Lijn, Staaf, Gestapelde balk en Gestapeld gebied.
+* **Metrisch**: De metrische waarde die u wilt meten. U kunt onder andere gebeurtenissen, sessies, gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen.
+* **Type diagram**: Het type visualisatie dat u wilt gebruiken. Dit menu bevat de opties Lijn, Staaf, Gestapelde balk en Gestapeld gebied.
 
 ## Tijdvergelijking toepassen
 
@@ -51,5 +51,5 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 Hiermee stelt u het gewenste datumbereik in. Deze instelling bestaat uit twee belangrijke onderdelen:
 
-* **Interval**: De granulariteit voor de datum waarin u gegevens wilt weergeven. Mogelijke geldige opties zijn Uur, Dagelijks, Wekelijks, Maandelijks en Driemaandelijks. Hetzelfde datumbereik kan verschillende intervallen hebben die het aantal gegevenspunten in het diagram en het aantal kolommen in de tabel beïnvloeden. Bijvoorbeeld, zou het bekijken van een rapport dat drie dagen met dagelijkse granulariteit overspant slechts drie gegevenspunten tonen, terwijl een rapport dat drie dagen met uurgranulariteit overspant 72 gegevenspunten zou tonen.
-* **Datum**: De begin- en einddatum van het project. Voorinstellingen voor datumbereik zijn beschikbaar voor uw gemak of u kunt de kalenderkiezer gebruiken om de exacte gewenste datum in te stellen.
+* **Interval**: De granulariteit voor de datum waarin u gegevens wilt weergeven. Mogelijke geldige opties zijn Uur, Dagelijks, Wekelijks, Maandelijks en Driemaandelijks. Hetzelfde datumbereik kan verschillende intervallen hebben die het aantal gegevenspunten in het diagram en het aantal kolommen in de tabel beïnvloeden. Bijvoorbeeld, zou het bekijken van een analyse die drie dagen met dagelijkse granulariteit overspant slechts drie gegevenspunten tonen, terwijl een analyse die drie dagen met uurgranulariteit overspant 72 gegevenspunten zou tonen.
+* **Datum**: De begin- en einddatum. Voorinstellingen voor datumbereik zijn beschikbaar voor uw gemak of u kunt de kalenderkiezer gebruiken om de exacte gewenste datum in te stellen.
