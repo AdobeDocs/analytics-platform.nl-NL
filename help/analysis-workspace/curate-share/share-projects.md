@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 
 * Personen buiten uw organisatie
 
-* Personen binnen uw organisatie die niet zijn voorzien van Customer Journey Analytics
+* Personen binnen uw organisatie die geen toegang hebben tot Customer Journey Analytics
 
 >[!NOTE]
 >
@@ -126,6 +126,8 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 >
 >* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
+>
+>* Als uw organisatie een vergunning geeft voor het Gezondheidsschild, kunt u projecten alleen delen met gebruikers die door Single Sign On (SSO) of Adobe ID zijn geverifieerd. u kunt geen projecten met unauthenticated gebruikers delen. Het is uw verantwoordelijkheid om deze eigenschap in overeenstemming met het interne beleid van het gegevensbeheer van uw bedrijf te gebruiken en slechts projectverbindingen te delen die Persoonlijke Gezondheidsinformatie (PHI) bevatten met gebruikers die de aangewezen toestemmingen hebben.
 
 
 Een Analysis Workspace-project met iedereen delen:
@@ -154,7 +156,7 @@ Een Analysis Workspace-project met iedereen delen:
 
       * Als deze optie niet zichtbaar is, heeft uw CJA-beheerder deze functie niet ingeschakeld.
 
-      * Als deze optie wordt toegelaten en verduisterd, vereist uw beheerder CJA de authentificatie van de Experience Cloud voor iedereen die tot de projecten van Analysis Workspace toegang heeft.
+      * Als deze optie wordt toegelaten en u het niet kunt onbruikbaar maken, betekent dit dat uw beheerder CJA Experience Cloud authentificatie voor iedereen vereist die tot de projecten van Analysis Workspace toegang heeft. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
 
 1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) om de koppeling naar het systeemklembord te kopiëren.
 
