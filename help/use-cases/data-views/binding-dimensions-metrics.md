@@ -3,9 +3,9 @@ title: Bindingsafmetingen en metriek gebruiken in CJA
 description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarrays.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 71c633f259b25f30d474ab19f714935b074dfc0c
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -78,11 +78,11 @@ Als u omzet door kleur zonder een bindende dimensie wilt bekijken, de dimensie `
 | --- | --- |
 | neonoranje | 2099 |
 
-U kunt in de Manager van de Mening van Gegevens gaan en productkleur binden aan productnaam:
+U kunt naar het gegevensweergavebeheer gaan en de productkleur aan de productnaam binden:
 
 ![Dimensie binding](../assets/binding-dimension.png)
 
-Wanneer u dit persistentiemodel instelt, neemt CJA nota van de productnaam wanneer de productkleur wordt ingesteld. Wanneer het de zelfde productnaam in een volgende gebeurtenis voor deze bezoeker herkent, wordt de productkleur ook gebracht. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
+Wanneer u dit persistentiemodel instelt, neemt CJA nota van de productnaam wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
 
 | product.color | omzet |
 | --- | --- |
@@ -237,19 +237,19 @@ Een van de meest gebruikte handelsmethoden in Adobe Analytics is het binden van 
    }
    ```
 
-Als u een toewijzingsmodel gebruikt dat geen bindende dimensie met onderzoekstermijn omvat, kenmerken alle drie producten opbrengst aan slechts één enkele onderzoekstermijn. Als u bijvoorbeeld Originele toewijzing hebt gebruikt met de zoekterm dimensie:
+Als u een toewijzingsmodel gebruikt dat geen bindende dimensie met onderzoekstermijn omvat, kenmerken alle drie producten opbrengst aan slechts één enkele onderzoekstermijn. Als u bijvoorbeeld [!UICONTROL Original] toewijzing met de dimensie van de zoekterm:
 
 | search_term | omzet |
 | --- | --- |
-| bokshandschoenen | $ 204,97 |
+| bokshandschoenen | $204.97 |
 
-Als u Recentste toewijzing met de dimensie van de onderzoekstermijn gebruikte, kenmerken alle drie producten nog opbrengst aan één enkele onderzoekstermijn:
+Als u [!UICONTROL Most Recent] allocatie met de zoekterm dimensie, waarbij alle drie de producten nog steeds inkomsten toekennen aan één zoekterm:
 
 | search_term | omzet |
 | --- | --- |
-| schoenen | $ 204,97 |
+| schoenen | $204.97 |
 
-Hoewel dit voorbeeld slechts één bezoeker omvat, kunnen veel bezoekers die naar verschillende dingen zoeken, zoektermen verkeerd aan verschillende producten toeschrijven, waardoor het moeilijk wordt te bepalen wat de beste zoekresultaten eigenlijk zijn.
+Hoewel dit voorbeeld slechts één persoon omvat, kunnen veel personen die naar verschillende dingen zoeken, zoektermen verkeerd aan verschillende producten toewijzen, waardoor het moeilijk wordt te bepalen wat de beste zoekresultaten eigenlijk zijn.
 
 U kunt onderzoekstermen aan productnaam binden wanneer metrisch van Zoekopdrachten aanwezig is om correct onderzoeksterm aan opbrengst te Attribueren.
 
@@ -259,9 +259,9 @@ In Analysis Workspace zou het resulterende verslag er als volgt uitzien:
 
 | search_term | omzet |
 | --- | --- |
-| bokshandschoenen | $ 89,99 |
-| tennisracket | $ 34,99 |
-| schoenen | $ 79,99 |
+| bokshandschoenen | $89.99 |
+| tennisracket | $34.99 |
+| schoenen | $79.99 |
 
 CJA detecteert automatisch de relatie tussen de geselecteerde dimensie en de bindingsdimensie. Wanneer de bindingsdimensie zich in een objectenarray bevindt terwijl de geselecteerde dimensie zich op een hoger niveau bevindt, is een bindingsmetrische waarde vereist. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In het bovenstaande voorbeeld bevat de pagina met zoekresultaten altijd een zoekterm en een metrische zoekopdracht.
 
@@ -421,17 +421,17 @@ Als de persistentie wordt ingesteld op de meest recente toewijzing zonder een bi
 
 | Productzoekmethode | Omzet |
 | --- | --- |
-| doorbladeren | 419,98 |
+| doorbladeren | 419.98 |
 
 Als persistentie wordt ingesteld met behulp van de oorspronkelijke toewijzing zonder een bindende dimensie, wordt alle $419,98 aan inkomsten toegewezen aan de `search` zoekmethode.
 
 | Productzoekmethode | Omzet |
 | --- | --- |
-| zoeken | 419,98 |
+| zoeken | 419.98 |
 
 Als u echter bindt `product_finding_method` Aan de Kaart voegt metrisch toe, kenmerkt het resulterende rapport elk product aan de correcte het vinden methode.
 
 | Productzoekmethode | Omzet |
 | --- | --- |
-| zoeken | 399,99 |
-| doorbladeren | 19,99 |
+| zoeken | 399.99 |
+| doorbladeren | 19.99 |
