@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 30%
+source-wordcount: '900'
+ht-degree: 29%
 
 ---
 
@@ -236,19 +236,19 @@ ht-degree: 30%
       + [Filter builder](../components/filters/filter-builder.md)
       + [Filters beheren](../components/filters/manage-filters.md)
       + [Operatoren](../components/filters/operators.md)
-   + Berekende statistieken {#cja-calcmetrics}
+   + Berekende standaarden {#cja-calcmetrics}
       + [Overzicht van berekende metriek](../components/calc-metrics/calc-metr-overview.md)
-      + Workflow voor berekende statistieken {#cm-workflow}
+      + Workflow voor berekende standaard {#cm-workflow}
          + [Workflow voor berekende standaard](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Cijfers zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [Cijfers samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
-         + [Type cijfers en attributie](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Een eenvoudige indicator voor &quot;Paginaweergaven per bezoek&quot; maken](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Metrische gegevens samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Type en attributie metrisch](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+         + [Een metrische waarde voor Paginaweergaven per bezoek maken](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Een &quot;Deelname&quot;-metrisch maken](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Gefilterde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Segmenten stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Gefilterde en gewogen cijfers](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Functies gebruiken](../components/calc-metrics/cm-workflow/cm-using-functions.md)
-         + [Participatiecijfers](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Berekende standaard een label geven](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [Berekende standaard goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [Berekende standaard delen](../components/calc-metrics/cm-workflow/cm-sharing.md)

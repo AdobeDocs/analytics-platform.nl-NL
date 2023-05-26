@@ -3,10 +3,10 @@ description: Meer informatie over
 title: Type cijfers en attributie
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 5%
+source-wordcount: '214'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +16,19 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 ## Metrisch type
 
-![](assets/cm_type_alloc.png)
+Om metrisch type te specificeren wanneer het bouwen van berekende metrisch:
 
-| Metrisch type | Definitie |
-|---|---|
-| Standaard | Deze cijfers zijn dezelfde maatstaven die standaard worden gebruikt [!DNL Analytics] rapportage. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld: [Orders] / [Bezoeken] neemt orders voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
-| Totaal | Gebruik het totaal voor de rapportageperiode in elke post. Als een formule uit één enkel totaal metrisch bestond, toont het het zelfde totale aantal op elk lijnpunt. De totale metriek zijn nuttig om berekende metriek tot stand te brengen die met plaats totale gegevens vergelijkt. Bijvoorbeeld: [Orders] / [Totaal aantal bezoeken] geeft het aantal bestellingen tegen ALLE bezoeken aan uw site weer, niet alleen de bezoeken aan het specifieke onderdeel. |
+1. Selecteer het tandwielpictogram naast metrisch waarvan type u wilt selecteren.
+
+   ![](assets/cm_type_alloc.png)
+
+1. Kies een van de volgende opties:
+
+   | Metrisch type | Definitie |
+   |---|---|
+   | Standaard | Deze cijfers zijn dezelfde maatstaven die standaard worden gebruikt [!DNL Analytics] rapportage. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld: [Orders] / [Bezoeken] neemt orders voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
+   | Totaal-generaal | Gebruik het totaal-generaal voor de rapportageperiode in elke post. Als een formule uit één enkel Eindtotaal metrisch bestond, toont het het zelfde Grote totale aantal op elk lijnpunt. Eindtotaalcijfers zijn handig voor het maken van berekende metriek die wordt vergeleken met de totale gegevens van de site. Bijvoorbeeld: [Orders] / [Totaal aantal bezoeken] geeft het aantal bestellingen tegen ALLE bezoeken aan uw site weer, niet alleen de bezoeken aan het specifieke onderdeel. |
+
+## Attributie
+
+Voor informatie over attributie in CJA raadpleegt u [Instellingen van component Attributie](/help/data-views/component-settings/attribution.md).
