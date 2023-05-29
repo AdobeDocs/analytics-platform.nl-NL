@@ -2,7 +2,7 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
+source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het 
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-![latentie van AEP naar CJA](assets/latency-diagram.png)
+![Latentie van AEP naar CJA](assets/latency-diagram.png)
 
 | Aantal | Latentiepunt | Latentieduur |
 | --- | --- | --- |
