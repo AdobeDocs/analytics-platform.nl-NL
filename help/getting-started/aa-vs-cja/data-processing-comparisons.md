@@ -2,7 +2,7 @@
 title: Gegevensverwerking vergelijken in Adobe Analytics en CJA-rapportagefuncties
 description: Begrijp de verschillen in gegevensverwerking voor de diverse rapportfuncties
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a38e2afac7645e9249e42e0b4830f5249a69b522
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 4%
@@ -45,7 +45,7 @@ In de onderstaande tabel wordt de terminologie gedefinieerd voor de verschillend
 | Berekende standaarden | Evaluatie van door de klant gemaakte aangepaste maatstaven die kunnen worden gebaseerd op complexe formules, waaronder segmenten en filters. | Voorbeeld: Aantal mensen die rode schoenen kochten. |
 | Attributielogica | Logische berekening van attributie. | Voorbeeld: eVar persistentie. |
 | Componentinstellingen | Aanpassingen toepassen op metriek of dimensies, zoals kenmerk, gedrag, indeling en andere | Voorbeeld: waarde bucketing om numerieke waarden te combineren die op een waaier worden gebaseerd |
-| Aangepaste velden | De logica is van toepassing op schema of standaardgebieden als deel van het bepalen van componenten in een mening van Gegevens. | Voorbeeld: het creëren van een nieuwe afmeting van het marketing kanaal |
+| Afgeleide velden | De logica is van toepassing op schema of standaardgebieden als deel van het bepalen van componenten in een mening van Gegevens. | Voorbeeld: het creëren van een nieuwe afmeting van het marketing kanaal |
 
 {style="table-layout:auto"}
 
