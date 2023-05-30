@@ -4,7 +4,7 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 [!UICONTROL Substring] met componentinstellingen kunt u meerdere tekenreeksmanipulatiemethoden uitvoeren om de gewenste dimensie-items in rapporten op te halen.
 
-[!UICONTROL Substring] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop deze worden toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
-
 ![Instellingen voor subtekenreeks](../assets/substring-settings.png)
+
+[!UICONTROL Substring] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop deze worden toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
 
 ## Van links/rechts
 

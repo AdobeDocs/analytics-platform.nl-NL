@@ -4,9 +4,9 @@ description: Combineer numerieke waarden in een dimensie.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 Wanneer u een gegevensweergave maakt of bewerkt, kunt u numerieke waarden combineren op basis van een bereik. Het is alleen beschikbaar voor dimensies die de gegevenstypen Geheel getal of Dubbel schema gebruiken.
 
-De waarde emmer is waardevol wanneer u reeksen samen wilt groeperen in plaats van elk uniek aantal als afzonderlijk afmetingspunt te behandelen. Een emmertje van &#39;Tussen 5 en maximaal 10&#39; wordt bijvoorbeeld in Analysis Workspace weergegeven als een regelitem &#39;5 tot 10&#39;.
-
 ![Waardebeperking](../assets/value-bucketing.png)
+
+De waarde emmer is waardevol wanneer u reeksen samen wilt groeperen in plaats van elk uniek aantal als afzonderlijk afmetingspunt te behandelen. Een emmertje van &#39;Tussen 5 en maximaal 10&#39; wordt bijvoorbeeld in Analysis Workspace weergegeven als een regelitem &#39;5 tot 10&#39;.
 
 Als u de flexibiliteit wilt om zowel over een gespikte als niet-gespikte dimensie rapporteren, sleep twee exemplaren van de component in de beschikbare dimensielijst. Laat het knippen op één afmeting toe, en maak het op andere onbruikbaar.
 
@@ -29,4 +29,4 @@ Als u de flexibiliteit wilt om zowel over een gespikte als niet-gespikte dimensi
 | [!UICONTROL Greater than or equal to] | De ondergrens van het laatste afmetingsemmer. |
 | [!UICONTROL Add bucket] | Hiermee kunt u nog een emmertje toevoegen aan een numerieke dimensie-emmer. U kunt maximaal 20 emmers in één dimensie toevoegen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

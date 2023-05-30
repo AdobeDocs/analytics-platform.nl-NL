@@ -4,16 +4,20 @@ description: Hiermee kunt u de standaardattributie voor een metrische waarde ins
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
 
 # Instellingen van component Attributie
 
-De attributie geeft u de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen. Bijvoorbeeld:
+De attributie geeft u de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen.
+
+![](../assets/attribution-settings.png)
+
+Bijvoorbeeld:
 
 1. Een persoon naar uw site klikt op een koppeling naar een betaalde zoekopdracht naar een van uw productpagina&#39;s. Ze voegen het product aan hun winkelwagentje toe, maar kopen het niet.
 2. De volgende dag zien de mensen een bericht in de sociale media van een van hun vrienden. Ze klikken op de koppeling en voltooien de aankoop.
@@ -22,7 +26,7 @@ In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeke
 
 Met deze instelling voor een component in de gegevensweergave kunt u een standaardattributiemodel instellen voor een metrische waarde. U kunt het attributiemodel van een bepaalde metrische waarde overschrijven terwijl u in Analysis Workspace werkt.
 
-![Attributie](../assets/attribution-settings.png)
+
 
 Als uw organisatie vereist dat metrisch veelvoudige attributie montages heeft, kunt u één van het volgende doen:
 

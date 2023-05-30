@@ -4,7 +4,7 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 7%
@@ -16,12 +16,12 @@ ht-degree: 7%
 
 [!UICONTROL Persistence] is de capaciteit voor een bepaalde afmetingswaarde om op metrisch voorbij de gebeurtenis betrekking te hebben het wordt geplaatst. Er wordt een combinatie van toewijzing en vervaldatum gebruikt.
 
+![Persistentie](../assets/persistence.png)
+
 * **Toewijzing** Hiermee kunt u bepalen welke waarde wordt behouden wanneer meer dan één dimensie-item tegelijk in één kolom kan blijven bestaan.
 * **Verlopen** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
 
 [!UICONTROL Persistence] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop deze worden toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
-
-![Persistentie](../assets/persistence.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
