@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
+source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '2040'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,10 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2023** |  |
+| Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Doc over &quot;Gegevensweergave selecteren uit cel&quot; in Report Builder | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. Dit is nuttig als u een werkboek creeert en u veelvoudige gegevensmeningen hebt die de gelijkaardige gegevensbouw hebben en u een werkboek wilt kunnen veelvoudige tijden, met verschillende gegevensmeningen opnieuw gebruiken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken.  Als u toegang tot meer dan één organisatie onder één login hebt, zullen alle scorecards van uw organisaties in één enkele lijst beschikbaar zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| Optimalisatie-update | Bijgewerkt artikel op [CJA-prestaties optimaliseren](/help/admin/optimizing-performance.md) |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | Componenten sorteren in linkerraster | Informatie toegevoegd over het sorteren van de lijst met componenten in de linkertrack. Zie de sectie Zoeken, filteren en sorteren in de lijst met componenten in [Overzicht van componenten](/help/components/overview.md). |
