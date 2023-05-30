@@ -1,9 +1,10 @@
 ---
 title: Groei van gebruikers
 description: Houd de groei van de gebruikersbasis van uw product bij.
-source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
+exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ De gevallen van het gebruik voor dit analysetype omvatten:
 
 * **Prestatiebeoordeling**: Door de groei van gebruikers kunt u de algemene prestaties van uw product beoordelen in termen van het aanschaffen van nieuwe gebruikers. Door de groeitrends te volgen, kunt u beter begrijpen of uw product gebruikers aantrekt en in een gewenst tempo houdt.
 * **Bewaren en onderdrukken van gebruikers:** De groei van de gebruiker zorgt voor een duidelijke visualisatie rond periodes van hoog of laag gebruikersbehoud. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
-* **Campagnebeoordeling**: Door de gebruikerstoename specifiek voor een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het produceerde, maar ook hoe goed de campagne gebruikers hielp betrokken te blijven.
+* **Campagnebeoordeling**: Door de groei van gebruikers rond een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
 
 [Screenshot van gebruikerstoename]
 
@@ -33,8 +34,8 @@ De gevallen van het gebruik voor dit analysetype omvatten:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **Gebeurtenissen**: De gebeurtenis die u wilt meten. Aangezien dit analysetype op gebruiker is gebaseerd, kan een gebruiker de gebeurtenis eenmaal aanraken binnen de ingestelde datumgranulariteit die als actieve gebruiker moet worden geteld. U kunt slechts één gebeurtenis opnemen.
-* **Mensen**: Het segment dat u wilt meten. U kunt slechts één segment opnemen.
+* **Gebeurtenissen**: De gebeurtenis die u wilt meten. Aangezien dit analysetype op gebruiker is gebaseerd, kan een gebruiker de gebeurtenis eenmaal aanraken binnen de ingestelde datumgranulariteit die als actieve gebruiker moet worden geteld. U kunt slechts één gebeurtenis in een query opnemen.
+* **Mensen**: Het segment dat u wilt meten. U kunt slechts één segment in een vraag omvatten.
 
 ## Typen weergeven
 

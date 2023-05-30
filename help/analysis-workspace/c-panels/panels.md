@@ -3,7 +3,7 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis v
 
 Dit concept geldt voor alle dimensies; alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Dimension-items die in statische vervolgkeuzefilters zijn geselecteerd, zijn van invloed op de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar; Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
 
-Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Clear All]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
+Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
 
 Een dynamisch vervolgkeuzemenu maken:
 
