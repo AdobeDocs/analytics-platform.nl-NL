@@ -3,17 +3,15 @@ description: Gebruik intelligente bijschriften om inzichten in de natuurlijke ta
 title: Intelligente bijschriften
 feature: Visualizations
 role: User, Admin
-source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
+exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
+source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-
 # Intelligente bijschriften
-
-{{release-limited-testing}}
 
 Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten te bieden voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](line.md) visualisatie. (Hierna volgen nog andere visualisaties.)
 
@@ -30,9 +28,13 @@ Als u automatisch gegenereerde bijschriften voor een lijnvisualisatie wilt start
 
 ![intelligente bijschriften starten](assets/intell-caps-1.png)
 
-Inzichten in natuurlijke talen worden nu gegenereerd. Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens veranderen in de tabel waardoor de visualisatie wordt ingeschakeld. Als de tabel meerdere metrische waarden bevat, worden alleen bijschriften gegenereerd voor de eerste metrische waarde of voor de metrische waarde die momenteel door de gebruiker is geselecteerd.
+Inzichten in natuurlijke talen worden nu gegenereerd.
 
-Als u het project op dit punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit dit project worden geëxporteerd.
+* Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens in de tabel veranderen waardoor de visualisatie wordt ingeschakeld.
+
+* Als de tabel meerdere metriek bevat, worden alleen bijschriften gegenereerd voor de eerste metrische waarde of voor de metrische waarde die momenteel door de gebruiker is geselecteerd.
+
+* Als u het project op dit punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit dit project worden geëxporteerd.
 
 ## Bijschriften weergeven en interpreteren {#view}
 
