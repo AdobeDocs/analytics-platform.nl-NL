@@ -4,7 +4,7 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
 1. Geef op of u de volgende opties wilt inschakelen bij het delen van het project:
 
-   * **Ingesloten projectcomponenten delen:** Deelt segmenten, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten worden gedeeld, zullen deze in de drop-down Componenten van de Werkruimte van de ontvanger verschijnen. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
+   * **Ingesloten projectcomponenten delen:** Deelt filters, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten worden gedeeld, zullen deze in de drop-down Componenten van de Werkruimte van de ontvanger verschijnen. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
    * **Instellen als bestemmingspagina voor ontvangers:** Hiermee stelt u deze pagina in als de bestemmingspagina voor ontvangers. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 

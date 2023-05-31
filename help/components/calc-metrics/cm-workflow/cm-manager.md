@@ -3,34 +3,41 @@ description: De Berekende Metrische Manager biedt vele manieren om metriek, zoal
 title: Berekende standaard-beheer
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
-# Berekende standaard-beheer
+# Berekende metrische manager
 
-De Berekende Metrische Manager biedt vele manieren om metriek, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
+De berekende metrische pagina biedt vele manieren aan om metriek, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
 
-De Berekende Metrische Manager toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle aangepaste maatstaven in de organisatie zien. In dit overzicht worden de gebruikersinterface en de mogelijkheden van Berekende metrische manager weergegeven. Toegang tot de
+De Berekende metrische manager toont u alle filters u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle aangepaste maatstaven in de organisatie zien. Dit overzicht geeft de gebruikersinterface en de mogelijkheden van de Berekende metrische manager. Toegang tot de
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de linkernavigatie. Klik vervolgens op **[!UICONTROL Calculated Metrics]**.
+## Toegang tot het Berekende manager van metriek
+
+1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].
+
+## Gebieden van het Berekende metrische beheer
+
+In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van het beheer van berekende metriek uitgelegd.
 
 ![](assets/calcmet_mgr_ui.png)
 
-| UI-onderdeel | Beschrijving |
-| --- | --- |
-| Werkbalk Berekend statistisch beheer | Nadat u de meting hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
-| Filters tonen/verbergen | Als u op Filters tonen klikt, wordt het filtermenu weergegeven. U kunt filteren op tags, gegevensweergaven, eigenaars, Alles tonen (alleen Admin), Gedeeld met mij, Mijne, Favorieten en Goedgekeurd. |
-| Selectievakjes | Controleer een aangepaste metrische waarde om deze te beheren. |
-| Favorieten | Als u op de ster naast een metrische waarde klikt, wordt de ster geel en wordt de metrische waarde als favoriet gemarkeerd. |
-| Titels en beschrijvingen filteren | Opgegeven in de Berekende Metrische Bouwer. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Berekende metrische bouwer. |
-| Gegevens, weergave | Deze kolom geeft aan in welke gegevensweergave de metrische waarde het laatst is opgeslagen. |
-| Eigenaar | Geeft aan wie de aangepaste metrische waarde bezit. Als niet-beheerder kunt u alleen de cijfers zien die u hebt of die met u zijn gedeeld. |
-| Tags | Toont markeringen die op metrisch, of door u of door mensen werden toegepast die het segment met u deelden. |
-| Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het segment hebt gedeeld. |
-| Kolomkiezer | Hiermee kunt u kolommen in Berekend metrisch beheer selecteren of deselecteren, zodat u de weergave kunt aanpassen. |
-| Gedeeld pictogram (niet weergegeven) | Geeft aan dat deze aangepaste metrische waarde door u of met u wordt gedeeld. |
-| Goedgekeurd pictogram (niet weergegeven) | Geeft aan dat deze aangepaste metrische waarde is goedgekeurd door een beheerder. |
+| Locatie in afbeelding | Naam en functie |
+|---|---|
+| 1 | **Werkbalk voor berekend metrische beheer:** Nadat u metrisch hebt geselecteerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
+| 2 | **Filter:** U kunt filteren op tags, rapportsuites, eigenaars, alles (alleen admin), gedeeld met mij, mijn, favorieten en goedgekeurd (alleen admin). |
+| 3 | **Selectievakjes:** Selecteer een aangepaste metrische waarde om deze te beheren. |
+| 4 | **Favorieten:** Als u de ster naast een metrische waarde selecteert, wordt de metrische waarde als favoriet gemarkeerd. |
+| 5 | **Segmenttitels en -beschrijvingen:** Deze waarden worden verstrekt in de Berekende metrische bouwer. Als u de titel en beschrijving wilt bewerken, selecteert u de titelkoppeling om de builder voor berekende metrische gegevens te openen. |
+| 6 | **Rapportsuite:** Wijst erop in welke rapportreeks metrisch het laatst werd bewaard. |
+| 7 | **Eigenaar:** Geeft aan wie de aangepaste metrische waarde bezit. Als niet-beheerder, kunt u slechts metriek zien u bezit of die met u werden gedeeld. |
+| 8 | **Tags:** Toont markeringen die op metrisch, of door u of door mensen werden toegepast die het segment met u deelden. |
+| 9 | **Gedeeld met:** Hiermee geeft u personen of groepen (alleen beheerder) of Alle personen (alleen beheerder) weer waarmee u het segment hebt gedeeld. |
+| 10 | **Kolomkiezer:** Hiermee kunt u kolommen op de pagina Berekende metriek selecteren of deselecteren, zodat u de weergave kunt aanpassen. |
+| Niet weergegeven in afbeelding | **Datum gewijzigd:** Geeft de datum aan waarop de aangepaste metrische waarde voor het laatst is gewijzigd. |
+
+{style="table-layout:auto"}

@@ -3,14 +3,14 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 5%
 
 ---
 
-# Metrisch
+# Metrics
 
 Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
 
@@ -22,7 +22,7 @@ U kunt een standaard metrische, berekende metrische of berekende metrische sjabl
 >
 >Hoewel dit schijnbaar eenvoudig is, is het gebruik van metriek vrij krachtig. U kunt metriek aan een rapport toevoegen door aangewezen metrisch aan de metrieke sectie van een lijst te slepen. U kunt afmetingen ook onderverdelen door metriek, die u verfijnde controle over de lijstmening geven. Voorts kunt u metrisch als afmeting en een afmeting als metrisch opnemen om een overlooprapport tot stand te brengen. Speel rond met de diverse componenten en zie wat u kunt doen. De mogelijkheden zijn eindeloos.
 
-U kunt ook op **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Hiermee gaat u naar de [Berekende metrische bouwer](/help/components/calc-metrics/calc-metr-overview.md), waar u aangepaste metriek kunt maken op basis van bestaande metriek.
+U kunt ook op **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Hiermee gaat u naar de [Berekende metrische builder](/help/components/calc-metrics/calc-metr-overview.md), waar u aangepaste metriek kunt maken op basis van bestaande metriek.
 
 Om het gemakkelijker te maken om snel berekende metriek tot stand te brengen, **[!UICONTROL Create metric from selection]** is toegevoegd aan het met de rechtermuisknop aanklikken van de kolom in de Lijsten van de Vrije Vorm. Deze optie wordt weergegeven wanneer een of meer cellen met kopteksten zijn geselecteerd.
 

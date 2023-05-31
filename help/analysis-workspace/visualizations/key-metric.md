@@ -4,7 +4,7 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 1. Sleep de **[!UICONTROL Key metric summary]** visualisatie van de **[!UICONTROL Visualizations]** in de linkerspoorstaaf in een paneel.
 
-1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een segment (indien gewenst) te selecteren:
+1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een filter (indien gewenst) te selecteren:
 
    ![metrische sleutelconfiguratie](assets/key-metric-config.png)
 
@@ -44,7 +44,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
    | **[!UICONTROL Metric]** | Selecteer metrisch u wilt onderzoeken. Alle metriek worden ondersteund. |
    | **[!UICONTROL Primary date range]** | Het huidige datumbereik voor de vrije-vormtabel. |
    | **[!UICONTROL Comparison date range]** | Het datumbereik waarmee u het primaire datumbereik wilt vergelijken. |
-   | **[!UICONTROL Segment (optional)]** | Elk segment waarin u specifiek geïnteresseerd bent voor deze samenvatting. |
+   | **[!UICONTROL Filter (optional)]** | Filters waarin u specifiek geïnteresseerd bent voor deze samenvatting. |
 
    {style="table-layout:auto"}
 
@@ -93,4 +93,4 @@ Na het bouwen van visualisatie, kunt u de originele configuratie nog uitgeven.
 
    U wordt nu teruggezet naar de originele configuratiemening.
 
-1. Verander metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, of het segment zoals aangewezen.
+1. Wijzig desgewenst het metrische bereik, het primaire datumbereik, het vergelijkingsdatumbereik of het filter.

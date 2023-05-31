@@ -1,5 +1,5 @@
 ---
-source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 1%
@@ -63,7 +63,7 @@ ht-degree: 1%
 |---------|----------|
 | [!UICONTROL **Aanbevolen**] | Hiermee sorteert u componenten met de componenten die boven aan de lijst worden aanbevolen. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in de lijst. |
 | [!UICONTROL **Alfabetisch**] | Hiermee worden componenten alfabetisch gesorteerd. |
-| [!UICONTROL **Categorisch**] | Hiermee worden componenten gesorteerd op componenttype (afmetingen, metrisch, segment, datumbereik). |
+| [!UICONTROL **Categorisch**] | Hiermee worden componenten gesorteerd op componenttype (afmetingen, metrisch, filter, datumbereik). |
 
 {style="table-layout:auto"}
 

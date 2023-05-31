@@ -4,7 +4,7 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 1%
@@ -98,7 +98,7 @@ Boven elke kolom wordt een filter weergegeven wanneer u de muisaanwijzer op de k
 |--- |--- |
 | [!UICONTROL Focus on this node] | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | [!UICONTROL Start Over] | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
-| [!UICONTROL Create Segment from this point in flow] | Maak een segment. Dit neemt u in de Bouwer van het Segment, waar u het nieuwe segment kunt vormen. |
+| [!UICONTROL Create Filter from this point in flow] | Maak een filter. Dit neemt u in de Bouwer van de Vezel, waar u de nieuwe filter kunt vormen. |
 | [!UICONTROL Breakdown] | Verdeel de knoop neer door beschikbare Dimension, Metriek, of Tijd. |
 | [!UICONTROL Trend] | Creeer een trended diagram voor de knoop. |
 | [!UICONTROL Expand entire column] | Vouw een kolom uit om alle knooppunten weer te geven. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |

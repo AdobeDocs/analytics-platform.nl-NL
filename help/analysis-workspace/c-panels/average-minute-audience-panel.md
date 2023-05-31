@@ -4,7 +4,7 @@ description: Het deelvenster Mediagemiddelde - Minuut publiek in Analysis Worksp
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -35,7 +35,7 @@ U kunt het deelvenster Medium Gemiddelde miniatuur publiek configureren met behu
 | Instelling | Beschrijving |
 |---------|------------|
 | Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag. U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven. <br></br> Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
-| Sleep een segment hier naartoe (of een andere component) | Net als andere deelvensters worden met deze instelling de selecties gefilterd op basis van segmenten die u hebt gemaakt. Dit is een goede manier om naar specifieke platforms, levende stromen, of andere gemeenschappelijke media segmenten te kijken. |
+| Sleep een filter hier (of een andere component) | Net als andere deelvensters worden met deze instelling de selecties gefilterd op basis van filters die u hebt gemaakt. Dit is een goede manier om naar specifieke platforms, levende stromen, of andere gemeenschappelijke media segmenten te kijken. |
 | Metrisch berekenen voor | Met deze instelling kunt u kiezen of u het gemiddelde aantal minuten voor een bepaald gedeelte van de inhoud wilt weergeven door *specifieke inhoud* of als u het gemiddelde aantal minuten voor een bepaalde periode wilt zien, selecteert u *aangepaste tijdsperiode*. <br></br>Specifieke inhoud werkt alleen als de duur is bijgewerkt met behulp van classificaties. Als de duur niet beschikbaar is, of als u het gemiddelde minipubliek voor een tijdreeks met veelvoudige stukken van inhoud of inhoud zonder een specifieke toegewezen duur (zoals tijdens een levende stroom of een gebeurtenis) wilt bekijken, dan zou u de periode van de douanetijd moeten selecteren. Met deze instelling wijzigt u de workflow en de rapportuitvoer. |
 
 ### Specifieke inhoud

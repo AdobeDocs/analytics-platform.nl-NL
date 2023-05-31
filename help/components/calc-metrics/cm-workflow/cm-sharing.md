@@ -3,10 +3,10 @@ description: Afhankelijk van uw machtigingen kunt u statistieken delen met uw he
 title: Berekende standaard delen
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 2%
 
 ---
 
@@ -19,24 +19,38 @@ Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisati
 | Beheerder | Kan metriek met allen, met Groepen, en met Gebruikers delen. Groepen worden ingesteld als machtigingsgroepen in de beheerconsole. |
 | Niet-beheerder | Metrische gegevens kunnen alleen met individuele gebruikers worden gedeeld. |
 
-Wanneer zou u metriek met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier volgen enkele aanbevolen procedures:
+Een berekende metrische waarde delen:
 
-* Als Admin, deel metrisch met **[!UICONTROL All]** als het van nut is voor het hele bedrijf en iedereen het comfortabel gebruikt. In dit geval, zou u ook moeten overwegen om van het tot goedgekeurde metrisch te maken.
-* Als Admin, deel metrisch met specifiek **[!UICONTROL Group]** als metrisch goede bedrijfswaarde voor dat team verstrekt.
-* Als Admin of een individuele gebruiker, deel metrisch met andere individuen om het te behandelen en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Deze metrische methode niet officieel goedkeuren.
-
-1. Markeer in Berekende metrische manager het selectievakje naast de metrische waarde die u wilt delen. De taakbalk wordt weergegeven:
+1. Markeer in het venster Berekende metriekmanager het selectievakje naast de metrische waarde die u wilt delen.
 
    ![](assets/cm_task_bar.png)
 
-1. Klik op de knop **[!UICONTROL Share]** pictogram.
+1. Selecteer **[!UICONTROL Share]** pictogram. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+
+   Het dialoogvenster Berekende metrische gegevens delen wordt weergegeven.
 
    ![](assets/cm_share.png)
 
-   Als u een beheerder bent, kunt u **[!UICONTROL All]** of kies uit **[!UICONTROL Groups]** en (omlaag schuiven naar) **[!UICONTROL Users]** in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik de **[!UICONTROL Search]** veld waarin naar groepen of gebruikers kan worden gezocht
+1. Selecteren **[!UICONTROL Share]**.
 
-1. Klik op **[!UICONTROL Share]**.
+1. Kies met wie u wilt delen:
 
-   Het pictogram Gedeeld wordt weergegeven naast de metrische waarde:  ![](assets/share_icon.png)
+   * **[!UICONTROL All]** (Alleen beheerders): Deelt met alle gebruikers in de organisatie.
+
+      U kunt alleen met iedereen delen als het nuttig is voor het hele bedrijf en iedereen het gemakkelijk kan gebruiken. In dit geval moet u ook overwegen om het een [goedgekeurd metrisch](/help/components/calc-metrics/cm-workflow/cm-approving.md).
+
+   * **[!UICONTROL Groups]** (Alleen beheerders): Selecteer de groepen waarmee u wilt delen.
+
+      Overweeg het delen met een groep als metrisch goede bedrijfswaarde voor dat team verstrekt.
+
+   * **[!UICONTROL Individual users]**: Zoek naar en selecteer de individuele gebruikers u met wilt delen.
+
+      Dit is de enige deeloptie die beschikbaar is voor alle gebruikers. Beheerders kunnen deze optie gebruiken om een meting te controleren en te valideren voordat deze beschikbaar wordt gemaakt voor een groep of voor iedereen. Als metrisch niet nuttig is, kan het worden verworpen. Beheerders mogen dit type meting niet officieel goedkeuren.
+
+1. Selecteren **[!UICONTROL Share]**.
+
+   Het pictogram Gedeeld wordt weergegeven naast de metrische waarde: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
 1. U kunt filteren op metriek die met u wordt gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
+
+1. (Optioneel) Selecteer de optie **Filter** pictogram, uitvouwen **[!UICONTROL Other filters]** selecteert u vervolgens **[!UICONTROL Shared with me]**.

@@ -4,9 +4,9 @@ description: Wat zijn de instellingen voor invoer en uitvoer van de afspeeltijd 
 feature: Panels
 role: User, Admin
 exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
-source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende
 | Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag. U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven.<br>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Granulariteit | De standaardwaarde voor granulariteit is Minute.<br>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Samenvattingsnummers deelvenster | Er is een samenvattingsnummer beschikbaar om datum- of tijdgegevens voor de afspeeltijd te zien. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimum worden details voor de dal weergegeven. De som verhoogt de totale playbacktijd die voor de selectie wordt doorgebracht. De paneelstandaard toont slechts Maximum, maar u kunt het veranderen om Minimum, Som, of om het even welke combinatie drie te tonen.<br>Als u onderverdelingen gebruikt, wordt een samenvattingsaantal getoond voor elk. |
-| Uitsplitsing naar serie | U kunt desgewenst de visualisatie opsplitsen in segmenten, dimensies, dimensiepunten of datumbereiken.<p>- U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.</p><p>- Wanneer u een dimensie sleept, worden de bovenste dimensie-items automatisch geselecteerd op basis van het geselecteerde datumbereik van het deelvenster.</p>- Als u datumbereiken wilt vergelijken, sleept u twee of meer datumbereiken naar het filter voor reeksindeling. |
+| Uitsplitsing naar serie | U kunt desgewenst de visualisatie opsplitsen in filters, dimensies, dimensiepunten of datumbereiken.<p>- U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.</p><p>- Wanneer u een dimensie sleept, worden de bovenste dimensie-items automatisch geselecteerd op basis van het geselecteerde datumbereik van het deelvenster.</p>- Als u datumbereiken wilt vergelijken, sleept u twee of meer datumbereiken naar het filter voor reeksindeling. |
 | Tijdnotatie | U kunt de afspeeltijd in een van beide uren weergeven:Minutes:Seconden (standaardwaarde) of in minuten (die in gehele getallen wordt weergegeven, naar boven afgerond op 0,5). |
-| Weergave datumvolgorde | Als u ten minste twee segmenten van het datumbereik als reeksonderverdelingen hebt geplaatst, ziet u de optie om een overlay (standaard) of een sequentiële overlay te selecteren. Met overlay worden de lijnen weergegeven met een gemeenschappelijke beginpunt op de x-as, zodat deze parallel lopen, terwijl bij sequentieel de lijnen met hun specifieke beginpunt op de x-as worden weergegeven. Als de gegevenslijnen omhoog (bijvoorbeeld, eind segment 1 bij 8:44 pm en segment 2 begint bij 8:45 pm), dan zullen de lijnen in opeenvolging tonen. |
+| Weergave datumvolgorde | Als u minstens twee filters van het datumbereik als reeksonderverdelingen hebt geplaatst, zult u de optie zien om of bedekking (gebrek) of opeenvolgend te selecteren. Met overlay worden de lijnen weergegeven met een gemeenschappelijke beginpunt op de x-as, zodat deze parallel lopen, terwijl bij sequentieel de lijnen met hun specifieke beginpunt op de x-as worden weergegeven. Als de gegevensregels omhoog gaan (filter 1 eindigt bijvoorbeeld om 8:44 uur en filter 2 om 8:45 uur), worden de regels op volgorde weergegeven. |
 
 ### Standaardweergave
 

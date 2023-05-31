@@ -1,11 +1,11 @@
 ---
-description: Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
-title: Gesegmenteerde cijfers
+description: Het filtreren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
+title: Gefilterde metriek
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -24,20 +24,30 @@ Laten we zeggen dat u verschillende aspecten van een filter &quot;Duitse bezoeke
 * Als percentage van het totale aantal personen, hoeveel Duitse personen op bepaalde pagina&#39;s surfen, tegenover internationale personen?
 * Waar zijn de grootste verschillen in termen van welke inhoud door deze verschillende filters wordt betreden?
 
-1. Als u geen vergelijkbaar filter hebt, maakt u een ad-hocsegment in de Berekende metrische bouwer met de naam &quot;Duitse bezoekers&quot;, waarbij &quot;Landen&quot; gelijk is aan &quot;Duitsland&quot;. Sleep gewoon de dimensie Landen naar het canvas Definition en selecteer Duitsland als waarde:
+Bouw en bewaar metrisch genoemd &quot;Duitse Bezoekers&quot;en metrisch genoemd &quot;Internationale Bezoekers&quot;:
+
+1. Maak een ad-hocfilter in de berekende metrische builder met de naam &quot;Duitse bezoekers&quot;, waarbij &quot;Landen&quot; gelijk is aan &quot;Duitsland&quot;. Sleep de dimensie Landen naar het canvas Definitie en selecteer [!UICONTROL **Duitsland**] als waarde:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >U kunt dit ook doen in het dialoogvenster [Filter Builder](/help/components/filters/create-filters.md), maar we hebben de workflow vereenvoudigd door afmetingen beschikbaar te maken in de Calculated Metric Builder. &quot;Ad hoc&quot; betekent dat het segment niet zichtbaar is in de **[!UICONTROL Filters]** lijst in de linkerspoorstaaf. U kunt het echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het pictogram te plaatsen en op **[!UICONTROL Make public]**.
+   >U kunt dit ook doen in het dialoogvenster [Filter Builder](/help/components/filters/create-filters.md), maar we hebben de workflow vereenvoudigd door afmetingen beschikbaar te maken in de builder van het type Berekende metrische gegevens. &quot;Ad hoc&quot; betekent dat het filter niet zichtbaar is in de **[!UICONTROL Filters]** lijst in de linkerspoorstaaf. U kunt het echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het pictogram te plaatsen en op **[!UICONTROL Make public]**.
 
-1. Als u geen vergelijkbaar filter hebt, maakt u een filter genaamd &quot;Internationale Bezoekers&quot;, waarbij &quot;Landen&quot; niet gelijk is aan &quot;Duitsland&quot;.
-1. Bouw en bewaar metrisch genoemd &quot;Duitse Bezoekers&quot;door het filter van Duitsland in het canvas van de Definitie te slepen en de Unieke Bezoekers metrisch binnen het te slepen:
+1. Sleep het filter Duitsland naar het canvas Definition en sleep de metrische waarde van de Unique Visitors erin:
 
    ![](assets/german-visitors.png)
 
-1. Herhaal Stap 3 met het Internationale segment van Bezoekers en de Unieke metrisch van Bezoekers om Internationale metrische Bezoekers tot stand te brengen.
+1. Selecteren [!UICONTROL **Opslaan**] om berekende metrisch te bewaren.
+
+1. Maak een ad-hocfilter in de builder van berekende metrische gegevens met de naam &quot;internationale bezoekers&quot;, waarbij &quot;Landen&quot; niet gelijk is aan &quot;Duitsland&quot;.
+
+   Sleep de dimensie Landen naar het canvas Definitie en selecteer [!UICONTROL **Duitsland**] als waarde selecteert u vervolgens [!UICONTROL **is niet gelijk aan**] als de operator.
+
+1. Sleep de metrische gegevens van de Unieke Bezoekers erin.
+
+1. Selecteren [!UICONTROL **Opslaan**] om berekende metrisch te bewaren.
+
 1. Sleep in Analysis Workspace de **[!UICONTROL Page]** Dimension in een lijst van de Vrije Vorm en sleep de 2 nieuwe berekende metriek naast elkaar aan de bovenkant:
 
    ![](assets/workspace-pages.png)

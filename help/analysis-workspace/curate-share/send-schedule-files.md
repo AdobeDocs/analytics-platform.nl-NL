@@ -3,7 +3,7 @@ description: U kunt PDF/CSV-projecten aan ontvangers in uw organisatie beheren, 
 title: Menu Delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: d09094798d22f32d3467527e0c3e1817ff76b5a2
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -25,4 +25,4 @@ U kunt PDF/CSV-projecten aan ontvangers in uw organisatie binnen de werkruimte b
 | Delen met iedereen (beschikbaar in Beperkte tests) | Alleen-lezen toegang verlenen tot Analysis Workspace-projecten aan mensen die geen toegang hebben tot Adobe Analytics. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) |
 | Bestand exporteren | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
 | Bestanden exporteren plannen | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
-| Projectgegevens wissen | Beperk de componenten (afmetingen, metriek, segmenten, datumwaaiers) beschikbaar in een project. [Meer informatie](/help/analysis-workspace/curate-share/curate.md) |
+| Projectgegevens wissen | Beperk de componenten (afmetingen, metriek, filters, datumwaaiers) beschikbaar in een project. [Meer informatie](/help/analysis-workspace/curate-share/curate.md) |

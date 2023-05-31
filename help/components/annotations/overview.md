@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Houd dit in gedachten:
 
 * Annotaties kunnen worden gekoppeld aan één datum of aan een datumbereik.
 
-* Zij kunnen op uw volledige dataset of op gespecificeerde metriek, dimensies, of segmenten van toepassing zijn.
+* Zij kunnen op uw volledige dataset of op gespecificeerde metriek, afmetingen, of filters van toepassing zijn.
 
 * Zij kunnen op het project van toepassing zijn waarin zij (gebrek) werden gecreeerd of op alle projecten.
 
@@ -32,7 +32,7 @@ Houd dit in gedachten:
 
 ## Toestemmingen
 
-Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere onderdelen van Analytics (zoals segmenten, berekende metriek, enz.).
+Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere analytische componenten (zoals filters, berekende metriek, enz.).
 
 Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemming (Analytics Tools) aan gebruikers via [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 

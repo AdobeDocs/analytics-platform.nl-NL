@@ -3,25 +3,29 @@ description: Toont hoe te om filters binnen Berekende Metrische Bouwer te stapel
 title: Filters stapelen en vervangen
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # Filters stapelen en vervangen
 
-Toont hoe te om filters binnen Berekende Metrische Bouwer te stapelen en te vervangen.
+U kunt filters stapelen en vervangen binnen de Berekende metrische bouwer.
 
 ## Stapelfilters {#stack-filter}
 
-Zet in het canvas Definitie het nieuwe filter neer naast het bestaande filter:
+1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. Zet het nieuwe filter neer naast het bestaande filter op het canvas Definition:
 
 ![](assets/cm_stack_seg.png)
 
 ## Een filter vervangen door een ander filter {#replace-filter}
 
-Zet het nieuwe filter gewoon boven op het bestaande filter neer in het canvas Definition:
+1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. Zet het nieuwe filter neer op het bestaande filter op het canvas Definition:
 
 ![](assets/cm_replace_seg.png)

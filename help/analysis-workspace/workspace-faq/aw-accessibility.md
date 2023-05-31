@@ -3,7 +3,7 @@ description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 | `[Alt + 1]` | Nieuwe vrije-vormlijst |
 | `[Ctrl + Shift + C]` | Nieuwe berekende metrisch |
 | `[Ctrl + Shift + D]` | Nieuw datumbereik |
-| `[Ctrl + Shift + E]` | Nieuw segment |
+| `[Ctrl + Shift + E]` | Nieuw filter |
 | `[Ctrl + Z]` | Ongedaan maken |
 | `[Component drag + Shift]` | Een vervolgkeuzemenu maken |
 

@@ -4,7 +4,7 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -19,6 +19,6 @@ In Analysis Workspace is Afspeeltijd de tijd die nodig is om de mediastream(s) o
 
 Met het deelvenster Tijd voor afspelen van media kunt u het afspelen in de loop van de tijd analyseren, waarbij u details kunt vinden over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. Navigeer naar een gegevensweergave als u het deelvenster Tijd voor afspelen van media wilt openen en de componenten Media Analytics hebt ingeschakeld. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
 
-Dit deelvenster bevat ook nieuwe functies in de kalender waarmee u minder dan 24 uur kunt selecteren en weergeven. U kunt dat voor het hele deelvenster doen, of u kunt segmenten maken met opeenvolgende tijdsperioden, zodat u de doorloop in/uitloop in de programma&#39;s of programmaonderdelen kunt bijhouden. Zodra u minstens twee van die datumsegmenten hebt geplaatst, zult u een radioknoopoptie voor de Vertoning van de Reeks van de Datum zien die of de lijnen met een gemeenschappelijke x asstart zal bedekken, of hen in opeenvolging met hun specifieke x asstart zal tonen.
+Dit deelvenster bevat ook nieuwe functies in de kalender waarmee u minder dan 24 uur kunt selecteren en weergeven. U kunt dat voor het hele deelvenster doen, of u kunt filters maken met opeenvolgende tijdsperioden, zodat u de doorloop in/uitloop in de programma&#39;s of programmaonderdelen kunt bijhouden. Nadat u minstens twee van deze datumfilters hebt geplaatst, ziet u een optie voor een keuzerondje voor Datumreeks weergeven die de lijnen bedekken met een gemeenschappelijke beginpunt van de x-as of deze achter elkaar weergeven met hun specifieke beginpunt van de x-as.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338699)

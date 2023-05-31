@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Gebruikers in Customer Journey Analytics kunnen geen gegevensweergaven of verbin
 
 ## Workspace-projectcursus
 
-Een ander niveau van toegangsbeheer kan op het de rapportniveau van de Werkruimte worden gebruikt. U kunt de toegang tot specifieke componenten voor bepaalde gebruikers beperken. Voor meer informatie over hoe te om componenten (afmetingen, metriek, segmenten, datumwaaiers) op het het projectniveau van de Werkruimte te beperken, en hoe de kromming aan gegevensmeningen gebonden is, zie [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md).
+Een ander niveau van toegangsbeheer kan op het de rapportniveau van de Werkruimte worden gebruikt. U kunt de toegang tot specifieke componenten voor bepaalde gebruikers beperken. Voor meer informatie over hoe te om componenten (afmetingen, metriek, filters, datumwaaiers) op het het projectniveau van de Werkruimte te beperken, en hoe de kromming aan gegevensmeningen gebonden is, zie [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md).
 
 ## Toegang verlenen tot individuele metriek of dimensies
 
@@ -98,4 +98,4 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | **[!UICONTROL Audience Creation]** | Gebruikers kunnen [publiek](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Hiermee kunnen gebruikers de weergave [publiek](/help/components/audiences/audiences-overview.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

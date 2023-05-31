@@ -3,23 +3,37 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende standaard goedkeuren
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 # Berekende standaard goedkeuren
 
-In Berekende Metrische Manager, kunt u opstelling een werkschema dat het goedkeuren van metriek voor diverse niveaus van toepassing en voor specifieke afdelingen of groepen omvat.
+In de Berekende metrische manager, kunnen de beheerders opstelling een werkschema dat het goedkeuren van metriek voor diverse niveaus van toepassing en voor specifieke afdelingen of groepen omvat.
 
-Hier is hoe te om berekende metrisch zoals goedgekeurd te markeren:
+>[!NOTE]
+>
+>Beheerders kunnen ook berekende metriek (en andere componenten) uit het gegevenswoordenboek goedkeuren, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Alle berekende metriek die in het gegevenswoordenboek zijn goedgekeurd, worden weerspiegeld in het Berekende metriekbeheer. Op dezelfde manier worden de metriek die in Berekende metriekmanager worden goedgekeurd weerspiegeld in het Woordenboek van Gegevens.
 
-1. Schakel in Berekende metrische manager het selectievakje links van de metrische titel in.
-1. Klikken **[!UICONTROL Approve]** in de beheertaak bovenaan.
-1. U kunt overwegen om de goedgekeurde berekende metrische waarden/s met uw organisatie te delen.
+Berekende waarden als goedgekeurd markeren:
+
+1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
+
+1. In Berekende metrische manager, selecteer checkbox links van om het even welke metriek die u als goedgekeurd wilt merken.
+
+1. Selecteren **[!UICONTROL Approve]** in de beheertaak boven aan de pagina.
+
+   Selecteer **[!UICONTROL Unapprove]**.
+
+1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
+
 1. Klik op **[!UICONTROL OK]**.
-1. Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
-1. U kunt ook op **[!UICONTROL Unapprove]** om deze metrische waarde van de lijst van erkende te schrappen.
-1. En u kunt filteren op goedgekeurde metriek door op **[!UICONTROL Show Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Approved]**.
+
+   Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+
+1. (Optioneel) Selecteer de optie **Filter** pictogram, uitvouwen **[!UICONTROL Other filters]** selecteert u vervolgens **[!UICONTROL Approved]**.

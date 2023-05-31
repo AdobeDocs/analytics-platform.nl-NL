@@ -4,7 +4,7 @@ title: Overzicht van kalender- en datumbereiken
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Relatieve paneeldatumbereiken gebruiken
 
 1. Selecteer **Werkruimte** tab.
 1. Selecteren **Leeg project**.
-1. Voeg afmetingen, metriek, en segmenten van het linkerspoor toe.
+1. Voeg afmetingen, metriek, en filters van de linkerspoorstaaf toe.
 1. Klik op het veld voor het datumbereik van het deelvenster om de instelling voor het relatieve datumbereik van het deelvenster in of uit te schakelen.
 1. Selecteren **Componenten voor datumbereik ten opzichte van de deelvensterkalender maken**.
    * Selecteer de optie om de componenten van het datumbereik te maken ten opzichte van de deelvensterkalender.
@@ -61,19 +61,19 @@ Houd rekening met de volgende richtlijnen wanneer u relatieve datumbereiken in h
 
 ### Formulieren en relatieve datumbereiken {#formula-relative-dates}
 
-Als u relatieve datums hebt geselecteerd, wordt in alle datumformules de begindatum van het deelvenster als beginpunt gebruikt.
+Als u relatieve datums hebt geselecteerd, wordt voor alle datumformules de begindatum van het deelvenster gebruikt als beginpunt.
 
 ### Aangepaste kalenders en relatieve datumbereiken {#custom-calendar-formulas}
 
 Wanneer u een aangepaste weekkalender gebruikt en u maanden of jaren toevoegt, berekent de formule de verschuiving van de dag in de opgegeven periode. De werkelijke datum kan verschillen vanwege de verschuiving. De formule kiest de dag die op de zelfde plaats in de douanekalender aankomt. Bijvoorbeeld de derde vrijdag van de derde week in een aangepaste kalender.
 
-### Informatie over segmenten die roldatums en relatieve paneeldatumbereiken gebruiken {#segments-relative-dates}
+### Informatie over filters die gebruikmaken van roldatums en relatieve datumbereiken in het deelvenster {#segments-relative-dates}
 
-Als u een segment bouwt of een segment met een roldatum gebruikt, bijvoorbeeld de Laatste 7 Dagen of de Laatste 2 Weken, en u op de segmentvoorproef klikt, zal het de roldatum van beginnen *Vandaag* in plaats van de begindatum van het deelvenster. Dientengevolge zal de voorproef voor het segment niet aanpassen wanneer u werkelijk het segment in de lijst gebruikt. De voorvertoning wordt beïnvloed, niet het segment zelf.
+Als u een filter maakt of een filter gebruikt met een roldatum, bijvoorbeeld de Laatste 7 dagen of de Laatste 2 weken, en u klikt op de filtervoorvertoning, begint de roldatum vanaf *Vandaag* in plaats van de begindatum van het deelvenster. Het resultaat is dat de voorvertoning van het filter niet overeenkomt wanneer u het filter in de tabel daadwerkelijk gebruikt. De voorvertoning wordt beïnvloed, niet het filter zelf.
 
 ## Richtlijnen voor datumbereiken en voorvertoningen in het deelvenster {#guidelines-panel-dates}
 
 * Vanaf de release van februari worden voorvertoningen van componenten en gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen.
 * Alle componenten die in de linkerspoorstaaf worden vermeld zullen beschikbaar zijn gebaseerd op de waaier van de paneeldatum.
-* Alle datumvoorvertoningen in het segment en de berekende metrische builders worden gebaseerd op het bereik van de deelvensterdatum (tenzij ze worden benaderd door de componentmanagers, die geen bijbehorend deelvenster hebben, zijn ze nog steeds gebaseerd op de laatste 90 dagen).
+* Alle datumvoorvertoningen in het filter en de berekende metrische builders worden gebaseerd op het bereik van de paneeldatum (tenzij betreden van de componentenmanagers, die geen bijbehorend paneel hebben, zullen zij nog op de laatste 90 dagen gebaseerd zijn).
 * In alle voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.

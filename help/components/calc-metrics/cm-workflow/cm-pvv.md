@@ -3,9 +3,9 @@ description: Toont hoe te om een eenvoudige metrische "de Mening van de Pagina p
 title: Een eenvoudige indicator voor "Paginaweergaven per bezoek" maken
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 3%
 
 ---
@@ -32,4 +32,4 @@ Hieronder wordt beschreven hoe u een eenvoudige metrische &quot;Paginaweergaven 
 
    Let erop dat de **[!UICONTROL Summary]** de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt.
 
-1. (Optioneel) Als u een metrisch object wilt delen, goedkeuren, (her)coderen, hernoemen of verwijderen, gaat u naar het [Pagina Berekende cijfers](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

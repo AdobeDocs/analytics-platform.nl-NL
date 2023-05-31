@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 29%
          + [Een metrische waarde voor Paginaweergaven per bezoek maken](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [Een &quot;Deelname&quot;-metrisch maken](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Gefilterde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
-         + [Segmenten stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Filters stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Gefilterde en gewogen cijfers](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Functies gebruiken](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Berekende standaard een label geven](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [Berekende standaard goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [Berekende standaard delen](../components/calc-metrics/cm-workflow/cm-sharing.md)
-         + [Berekende standaard-beheer](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [Berekende metrische manager](../components/calc-metrics/cm-workflow/cm-manager.md)
       + [Berekende standaardwaarden](../components/calc-metrics/default-calcmetrics.md)
       + [Basisfuncties](../components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](../components/calc-metrics/cm-adv-functions.md)

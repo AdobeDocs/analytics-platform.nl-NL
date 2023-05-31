@@ -4,7 +4,7 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 | Taak | Beschrijving |
 | --- | --- |
 | Toevoegen | Hiermee gaat u naar de builder van Annotaties waar u nieuwe annotaties kunt maken. |
-| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen labels zien voor de segmenten die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
+| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen tags zien voor de filters die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
 | Verwijderen | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
 | Naam wijzigen | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
 | Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |

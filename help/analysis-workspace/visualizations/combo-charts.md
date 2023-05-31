@@ -4,10 +4,10 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 0%
+source-wordcount: '700'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Houd dit in gedachten:
 * U kunt meerdere vergelijkingen toevoegen in één [!UICONTROL Combo chart].
 * Als u een of meer vergelijkingen toevoegt, moeten deze van hetzelfde type zijn, zoals [!UICONTROL Time comparison].
 * U kunt maximaal vijf vergelijkingen maken.
-* U kunt maximaal drie filters (segmenten) toepassen op een metrische waarde.
+* U kunt maximaal drie filters toepassen op een metrische waarde.
 * Berekende metriek worden niet ondersteund in Combo-diagrammen.
 
 ## Een combinatieschema samenstellen
