@@ -6,9 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
+source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
 workflow-type: tm+mt
-source-wordcount: '2867'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ De belangrijkste voordelen zijn:
 
 Als u deze functionaliteit wilt gebruiken, moet u
 
-- De optie [!UICONTROL CJA SQL Connector] in uw organisatie van het Experience Platform.
+<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
 
 - Configureer de functionaliteit voor de relevante productprofielen, gebruikersgroepen en/of individuele gebruikers.<br/>
 Gebruikers moeten toegang hebben tot:
@@ -88,7 +89,7 @@ Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/docs/e
 
 ### BI Tools
 
-De CJA SQL-connector wordt momenteel ondersteund voor Power BI en Tableau.
+De CJA SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden eveneens kunnen werken maar officieel nog niet gesteund.
 
 +++ Power BI
 
@@ -219,9 +220,9 @@ Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net a
 
 Zie [SQL-naslagservice](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) voor de volledige verwijzing naar welk type SQL wordt ondersteund.
 
-Zie de tabel Patronen hieronder voor een overzicht van patronen en voorbeelden.
+Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 
-+++Patronen
++++ Voorbeelden
 
 | Patroon | Voorbeeld |
 |---|---|
@@ -390,4 +391,3 @@ Deze functies kunnen worden gebruikt voor dimensies in de `SELECT`, `WHERE` clau
 | [DATE_TRUNC(granularity, date, or date-time)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven.<br/>Ondersteunde tekenreeksgranulariteiten zijn: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&quot;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, of `'MINUTE'`. |
 
 {style="table-layout:auto"}
-
