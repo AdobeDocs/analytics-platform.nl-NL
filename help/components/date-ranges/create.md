@@ -3,16 +3,16 @@ title: Een datumbereik maken
 description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Een datumbereik maken
 
-U kunt een aangepast datumbereik maken met een van de volgende twee methoden:
+U kunt een datumbereik maken met een van de volgende twee methoden:
 
 * Klik rechtstreeks in een werkruimteproject op de knop &quot;`+`&#39;, naast de lijst met componenten voor het datumbereik aan de linkerkant
 * Binnen de datumbereikmanager

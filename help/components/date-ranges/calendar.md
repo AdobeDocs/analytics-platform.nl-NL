@@ -1,19 +1,19 @@
 ---
-description: In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren.
+description: Datums en datumbereiken opgeven of een voorinstelling selecteren.
 title: Overzicht van kalender- en datumbereiken
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
 
 # Overzicht van kalender- en datumbereiken
 
-In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren.
+Met de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren. Datumbereiken zijn een type component dat u kunt gebruiken in Workspace-projecten. Ze stellen u in staat om gegevens te zien die in de loop der tijd trended zijn of om te zien wanneer gebeurtenissen het meest voorkomen. Datumbereiken hebben een kleurcode die paars is. Met aangepaste datumbereiken kunt u de datums aanpassen die u in Workspace-projecten ziet.
 
 De kalenderselecties zijn van toepassing op paneelniveau, maar u hebt de optie om hen op alle panelen toe te passen. Wanneer u in Workspace op een datumbereik klikt, worden de huidige kalendermaand en de vorige kalendermaand in de interface weergegeven. U kunt deze twee kalenders aanpassen door op de rechter- en linkerpijlen in elke respectievelijke bovenhoek te klikken.
 

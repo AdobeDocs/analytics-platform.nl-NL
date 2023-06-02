@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Leer meer over Customer Journey Analytics (CJA) en hoe u Analysis Workspace kunt gebruiken met data van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 28%
+source-wordcount: '902'
+ht-degree: 29%
 
 ---
 
@@ -256,11 +256,10 @@ ht-degree: 28%
       + [Berekende standaardwaarden](../components/calc-metrics/default-calcmetrics.md)
       + [Basisfuncties](../components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](../components/calc-metrics/cm-adv-functions.md)
-   + Datumbereiken {#cja-date-ranges}
-      + [Overzicht van datumbereiken](../components/date-ranges/overview.md)
+   + Kalender- en datumbereiken {#cja-date-ranges}
+      + [Overzicht van kalender- en datumbereiken](../components/date-ranges/calendar.md)
       + [Een datumbereik maken](../components/date-ranges/create.md)
       + [Datumbereiken beheren](../components/date-ranges/manage.md)
-      + [Overzicht van agenda](../components/date-ranges/calendar.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
    + Gegevenswoordenboek {#data-dictionary}
