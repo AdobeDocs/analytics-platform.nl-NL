@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: a64b380c337f2f359b4cffd23265a8fca8251957
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >* Als uw organisatie een vergunning geeft voor het Gezondheidsschild, kunt u projecten alleen delen met gebruikers die door Single Sign On (SSO) of Adobe ID zijn geverifieerd. u kunt geen projecten met unauthenticated gebruikers delen. Het is uw verantwoordelijkheid om deze eigenschap in overeenstemming met het interne beleid van het gegevensbeheer van uw bedrijf te gebruiken en slechts projectverbindingen te delen die Persoonlijke Gezondheidsinformatie (PHI) bevatten met gebruikers die de aangewezen toestemmingen hebben.
 
 
+In de volgende videodemonstratie en de bijbehorende documentatie worden de opties beschreven voor het delen van een koppeling met iedereen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Een Analysis Workspace-project met iedereen delen:
 
 1. Open het Analysis Workspace-project dat u wilt delen.
@@ -150,7 +154,7 @@ Een Analysis Workspace-project met iedereen delen:
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Wanneer deze optie is ingeschakeld, hebben alleen gebruikers die zich kunnen aanmelden bij de Adobe Experience Cloud-organisatie waar het project dat u deelt, is gemaakt, toegang tot het project.
+      Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Adobe Analytics te hebben.
 
       CJA-beheerders kunnen deze voorkeur voor het bedrijf configureren, zoals wordt beschreven in [Voorkeuren](/help/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
