@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a7a03fa6e0f71d473b4713bd9817e1b97dab383e
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2082'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2023** |  |
-| Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige CJA-functionaliteit. |
+| Berekende metrische updates | De volgende updates zijn aangebracht in de berekende metriekdocumentatie om deze uit te lijnen met de huidige CJA-functionaliteit: <ul><li>De lijst met [berekende standaardwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in CJA</li><li>Bijgewerkte schermafbeeldingen en procedures in diverse berekende metrieartikelen </li></ul> |
 | **Mei 2023** |  |
 | Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Doc over &quot;Gegevensweergave selecteren uit cel&quot; in Report Builder | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. Dit is nuttig als u een werkboek creeert en u veelvoudige gegevensmeningen hebt die de gelijkaardige gegevensbouw hebben en u een werkboek wilt kunnen veelvoudige tijden, met verschillende gegevensmeningen opnieuw gebruiken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |

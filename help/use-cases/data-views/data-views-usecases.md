@@ -4,7 +4,7 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -98,9 +98,9 @@ Eén dimensie en twee metriek vereenvoudigen deze rapportage:
 
 * [Sessietype](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Deze dimensie heeft twee waarden: 1) [!UICONTROL New] en 2) [!UICONTROL Returning]. De [!UICONTROL New] Het lijstitem omvat al gedrag (d.w.z. metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
 
-* [Nieuwe sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). De metrische waarde van de nieuwe sessies wordt gedefinieerd als de eerste sessie van een persoon in het rapportagevenster.
+* [Eerste sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). De metrische waarde van Eerste sessies wordt gedefinieerd als de eerste sessie van een persoon die binnen het rapportagevenster is gedefinieerd.
 
-* [Retoursessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) De metrische waarde van de retoursessies is het aantal sessies dat niet de eerste sessie van een persoon was.—>
+* [Geretourneerde sessies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) De metrische waarde voor Return-sessies is het aantal sessies dat niet de eerste sessie van een persoon was.—>
 
 Deze component openen:
 
