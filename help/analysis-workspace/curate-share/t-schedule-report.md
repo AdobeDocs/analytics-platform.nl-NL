@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '842'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,10 @@ Vanuit de werkruimte **[!UICONTROL Share]** kunt u Analysis Workspace-projecten 
 Een bestand direct via e-mail naar ontvangers verzenden:
 
 1. Klik op **[!UICONTROL Share]>[!UICONTROL Export file]**.
-1. Geef het bestandstype op (CSV of PDF).
-1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
+1. Geef het bestandstype op:
+   * [!UICONTROL **CSV**]: Kies deze optie als u gegevens in onbewerkte tekst wilt.
+   * [!UICONTROL **PDF**]: Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
+1. (Optioneel) Voeg een beschrijving toe die u in de e-mail wilt opnemen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
 1. (Alleen voor klanten van het gezondheidsschild) Geef een wachtwoord op. Zie de sectie Wachtwoord-beschermt een gepland rapport.
 1. Klik op **[!UICONTROL Send Now]**.

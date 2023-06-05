@@ -3,22 +3,34 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1053'
 ht-degree: 1%
 
 ---
 
 # PDF- of CSV-bestanden downloaden
 
-Er zijn verschillende manieren waarop u gegevens uit Analysis Workspace kunt exporteren, afhankelijk van de gegevensset die u buiten het hulpprogramma wilt analyseren en van de vraag wie de gegevens moet ontvangen. Geëxporteerde gegevens kunnen de vorm hebben van gekopieerde gegevens, CSV- of PDF-bestanden. Een PDF heeft doorgaans de voorkeur als u visualisaties in het bestand wilt opnemen, terwijl een CSV (of gekopieerde gegevens) de voorkeur heeft als u gewoon gegevens met normale tekst wilt.
+Er zijn verschillende manieren om gegevens uit Analysis Workspace te exporteren. De methode die u kiest, is afhankelijk van de gegevensset die u wilt analyseren en van de vraag wie er toegang tot moet krijgen.
 
-## Project downloaden als CSV of PDF {#download-project}
+Geëxporteerde gegevens kunnen de vorm hebben van gekopieerde gegevens, CSV- of PDF-gegevens. Een PDF heeft doorgaans de voorkeur als u visualisaties in het bestand wilt opnemen. CSV en gekopieerde gegevens hebben de voorkeur als u gewoon gegevens zonder tekst wilt.
 
-U kunt een volledig project downloaden door naar **[!UICONTROL Project > Download as PDF (or as CSV)]**. Het gedownloade bestand bevat alle weergegeven (zichtbare) tabellen en visualisaties in het project. Een PDF heeft doorgaans de voorkeur als u visualisaties in het bestand wilt opnemen, terwijl een CSV de voorkeur heeft als u gewoon gegevens met normale tekst wilt.
+## Een project downloaden als CSV of PDF {#download-project}
 
-![](assets/download-project.png)
+
+1. Voer een van de volgende twee handelingen uit, afhankelijk van de indeling waarin u het project wilt downloaden:
+
+   * **PDF:** Selecteren **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
+
+      Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
+
+   * **CSV:** Selecteren **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
+
+      Kies deze optie als u gegevens in onbewerkte tekst wilt.
+   ![](assets/download-project.png)
+
+1. (Voorwaardelijk) als u verkoos om een PDF te downloaden, wordt een bericht getoond nadat het project klaar is om te worden gedownload. Klikken [!UICONTROL **Downloaden**].
 
 Houd bij het downloaden van projecten rekening met:
 
@@ -29,12 +41,15 @@ Houd bij het downloaden van projecten rekening met:
 
 ## Gegevens kopiëren naar klembord (hotkey: Ctrl+C) {#copy-data}
 
-De optie Klikken met rechtermuisknop **[!UICONTROL Copy to clipboard]** Hiermee kunt u snel gegevens uit Workspace kopiëren en elders plakken.
+De optie Klikken met rechtermuisknop **[!UICONTROL Copy to clipboard]** Hiermee kunt u snel gegevens uit Workspace kopiëren en in een hulpprogramma van derden plakken.
 
-* Als u de weergegeven tabel wilt kopiëren, klikt u met de rechtermuisknop op de tabelkoptekst en kiest u **Gegevens naar klembord kopiëren**.
+* Als u de weergegeven tabel wilt kopiëren, klikt u met de rechtermuisknop op de tabelkop en kiest u **Gegevens naar klembord kopiëren**.
 * Als u een subset van gegevens wilt kopiëren, maakt u een selectie in de tabel en klikt u met de rechtermuisknop > **Selectie naar klembord kopiëren**.
 
-Daarnaast is de hotkey `Ctrl+C` Hiermee kopieert u de selectie naar het klembord. Nadat u de gegevens hebt gekopieerd, kunt u naar een ander gereedschap gaan en deze plakken (of op `Ctrl+V`).
+>[!TIP]
+>
+>U kunt de sneltoets gebruiken `Ctrl+C` om uw selectie naar het klembord te kopiëren, dan gebruik `Ctrl+V` plakken in een gereedschap van derden.
+
 
 ![](assets/copy-selection.png)
 
@@ -42,14 +57,20 @@ Daarnaast is de hotkey `Ctrl+C` Hiermee kopieert u de selectie naar het klembord
 
 De optie Klikken met rechtermuisknop **[!UICONTROL Download data as CSV]** kunt u een gegevenslijst of de gegevensbron van om het even welke visualisatie als CSV downloaden.
 
-* Klik met de rechtermuisknop in de koptekst van een tabel of visualisatie **[!UICONTROL Download data as CSV]**. Dit downloadt de getoonde gegevens in de lijst of de onderliggende gegevensbron voor visualisatie als CSV. Opmerking: Deze optie wordt niet ondersteund door de Kaartweergave.
-* Als een selectie in de tabel wordt gemaakt, wordt de optie **[!UICONTROL Download selection as CSV]**. Alleen de selectie wordt met deze optie gedownload, in tegenstelling tot de volledige weergegeven tabel.
+* Klik in de koptekst van een tabel of visualisatie met de rechtermuisknop en kies **[!UICONTROL Download data as CSV]**. Dit downloadt de getoonde gegevens in de lijst of de onderliggende gegevensbron voor visualisatie als CSV.
+
+   >[!NOTE]
+   >
+   >  Opmerking: Deze optie wordt niet ondersteund door de Kaartweergave.
+
+
+* Klik in een tabel met de rechtermuisknop en kies **[!UICONTROL Download selection as CSV]**. Alleen de selectie wordt met deze optie gedownload, in tegenstelling tot de volledige weergegeven tabel.
 
 ![](assets/download-data-viz.png)
 
 ## Items als CSV downloaden {#download-items}
 
-Als u meer dan de zichtbare 400 rijen gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer **Items downloaden als CSV (naam Dimension)**. Met deze optie kunt u maximaal 50.000 dimensieitems (op basis van de tabelsortering) exporteren voor de geselecteerde afmeting, waarbij filters en filters zijn toegepast. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
+Als u meer dan de zichtbare 400 rijen gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer **Items als CSV downloaden (_Naam Dimension_)**. Met deze optie exporteert u maximaal 50.000 dimensieitems (op basis van de tabelsortering) voor de geselecteerde dimensie, met sorteeropties en toegepaste filters. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
 
 >[!TIP]
 >
@@ -91,4 +112,4 @@ Als de **[!UICONTROL Enforce Download]** [beleid inzake gegevensbeheer](/help/da
 | --- | --- |
 | Waarom is mijn gedownloade PDF één pagina? | De gedownloade PDF worden momenteel niet gepagineerd door de werkruimte. |
 | Kan ik meer dan 50.000 items exporteren met de optie Items downloaden als CSV? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
-| Wat doet **[!UICONTROL Copy visualization]** doen? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| Wat doet **[!UICONTROL Copy visualization]** doen? | Anders [!UICONTROL **Gegevens naar klembord kopiëren**] of [!UICONTROL **Selectie naar klembord kopiëren**] de **[!UICONTROL Copy visualization]** De optie voor klikken met de rechtermuisknop is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
