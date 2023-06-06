@@ -3,9 +3,9 @@ description: Een histogram lijkt op een staafdiagram, maar het groepeert getalle
 title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -61,3 +61,7 @@ Vooraf samengestelde filters die in de tabel worden weergegeven, zijn interne fi
 ![](assets/prebuilt_segments.png)
 
 Ga voor meer manieren om gegevenstabellen en andere visualisaties in Freeform te beheren, zoals het uitvoeren van gegevensonderverdelingen, naar [hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+
+## Blogbericht
+
+Zie dit blogbericht over informatie op [gebruiken histogrammen om onverwachte gegevenswaarden te identificeren](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

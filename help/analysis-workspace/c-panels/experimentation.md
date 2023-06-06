@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -125,3 +125,7 @@ In de volgende afbeelding worden deze situaties gecontrasteerd:
 ![gerandomiseerd experiment](assets/randomize.png)
 
 Wanneer u de impact van interventie X op resultaat Y wilt meten, is het mogelijk dat de echte oorzaak van beide factoren de verwarrende factor C is. Als de gegevens niet worden bereikt door personen op X te randomiseren, is het moeilijker om de impact te meten en zal de analyse expliciet rekening houden met C. randomisatie breekt de afhankelijkheid van X op C, waardoor we het effect van X op Y kunnen meten zonder dat we ons zorgen hoeven te maken over andere variabelen.
+
+## Berekende meetwaarden gebruiken in het deelvenster Experimentatie
+
+Zie dit blogbericht voor meer informatie over [afgeleide meetgegevens gebruiken in het deelvenster Experimentatie](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
