@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: f9aafab436fa1f26be9ed2e433ded046bbb1135a
+source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
 workflow-type: tm+mt
-source-wordcount: '3067'
+source-wordcount: '3101'
 ht-degree: 3%
 
 ---
@@ -123,6 +123,11 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
    A [!UICONTROL Delete component] wordt u gevraagd de verwijdering te bevestigen. Overweeg om het even welke externe verwijzingen er aan het afgeleide gebied buiten de mening van Gegevens zouden kunnen bestaan.
 
    - Selecteren **[!UICONTROL ** Doorgaan **]** om het afgeleide veld te verwijderen.
+
+>[!NOTE]
+>
+>Afgeleide gebieden worden beheerd op het niveau van de Verbinding in CJA. Om het even welke die verandering in een afgeleid gebied in om het even welke meningen van Gegevens verbonden aan die Verbinding wordt aangebracht is op al deze bijbehorende meningen van Gegevens van toepassing.
+
 
 
 ## Functiesjablonen
