@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -44,10 +44,6 @@ Algemene voorkeuren zijn van toepassing op uw CJA-ervaring in de browser.
 | Onderdelen die worden weergegeven in linkerspoorweggroepen | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace raadpleegt u [Overzicht van componenten](/help/components/overview.md).</p> |
 
 ## Voorkeuren IMS-organisatie
-
->[!AVAILABILITY]
->
->De functie Koppelingen voor openbare toegang die in deze sectie wordt beschreven, bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
 
 U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw organisatie van toepassing is. Voor informatie over hoe u deze voorkeuren kunt openen, raadpleegt u [Voorkeuren bijwerken](#update-preferences).
 

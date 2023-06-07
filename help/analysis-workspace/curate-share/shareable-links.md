@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Als u een koppeling naar een project wilt delen, gaat u naar het project dat u w
 Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
-
-{{release-limited-testing-section}}
 
 U kunt een read-only verbinding met de projecten van Analysis Workspace met mensen delen die geen toegang tot Customer Journey Analytics hebben.
 
