@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
+source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ U kunt een Analysis Workspace-project delen met de volgende typen personen:
 
 * Gebruikers en groepen in uw organisatie die toegang hebben tot Adobe Customer Journey Analytics
 
-   U kunt de toegang Bewerken, Dupliceren of Weergeven delen
+  U kunt de toegang Bewerken, Dupliceren of Weergeven delen
 
 * Gebruikers en groepen in uw organisatie die geen toegang hebben tot Customer Journey Analytics
 
-   Ontvangers hebben alleen-lezen toegang
+  Ontvangers hebben alleen-lezen toegang
 
 * Personen buiten uw organisatie
 
-   Ontvangers hebben alleen-lezen toegang
+  Ontvangers hebben alleen-lezen toegang
 
 Alle [kromming](curate.md) Wanneer ontvangers het project openen, wordt u deze toepassing vóór het delen weergegeven.
 
@@ -54,7 +54,7 @@ Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw 
 
 * Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de opdracht **[!UICONTROL Can edit]** als individu en **[!UICONTROL Can view]** als lid van een groep ontvangen zij een **[!UICONTROL Can edit]** ervaring met projecten.
 
-* Beheerders die in het dialoogvenster **[!UICONTROL Can duplicate]** of **[!UICONTROL Can view]** de rol krijgt die beperkte ervaring wanneer zij een project openen . Indien gewenst kan een beheerder zijn rol verhogen tot **[!UICONTROL Can edit]** op elk moment **[!UICONTROL Components]>[!UICONTROL Projects]**.
+* Beheerders die in het dialoogvenster **[!UICONTROL Can duplicate]** of **[!UICONTROL Can view]** de rol krijgt die beperkte ervaring wanneer zij een project openen . Een beheerder kan zijn rol wijzigen in **[!UICONTROL Can edit]** door het project met zichzelf te delen en de rol Edit toe te kennen, zoals beschreven in de volgende procedure.
 
 Een specifieke projectrol delen met gebruikers of groepen in uw organisatie:
 
@@ -127,7 +127,6 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >
 >* Als uw organisatie een vergunning geeft voor het Gezondheidsschild, kunt u projecten alleen delen met gebruikers die door Single Sign On (SSO) of Adobe ID zijn geverifieerd. u kunt geen projecten met unauthenticated gebruikers delen. Het is uw verantwoordelijkheid om deze eigenschap in overeenstemming met het interne beleid van het gegevensbeheer van uw bedrijf te gebruiken en slechts projectverbindingen te delen die Persoonlijke Gezondheidsinformatie (PHI) bevatten met gebruikers die de aangewezen toestemmingen hebben.
 
-
 In de volgende videodemonstratie en de bijbehorende documentatie worden de opties beschreven voor het delen van een koppeling met iedereen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -152,9 +151,9 @@ Een Analysis Workspace-project met iedereen delen:
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Adobe Analytics te hebben.
+     Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Adobe Analytics te hebben.
 
-      CJA-beheerders kunnen deze voorkeur voor het bedrijf configureren, zoals wordt beschreven in [Voorkeuren](/help/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
+     CJA-beheerders kunnen deze voorkeur voor het bedrijf configureren, zoals wordt beschreven in [Voorkeuren](/help/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
       * Als deze optie niet zichtbaar is, heeft uw CJA-beheerder deze functie niet ingeschakeld.
 
