@@ -3,7 +3,7 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f02cda499b2050cd238ca2352237ae2cc9a502d6
+source-git-commit: a676c5c71e13524ef56143fe0f5d4cf98c64c2f2
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Opmerkingen bij de release Current Customer Journey Analytics (CJA) (juni 2023)
 
-**Laatste update**: 6 juni 2023
+**Laatste update**: 9 juni 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,7 +26,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **PowerBI en Tableau toegang tot CJA-gegevensweergaven** | De Customer Journey Analytics (CJA) SQL-connector biedt SQL toegang tot gegevensweergaven die u in CJA hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers CJA voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) |  | 30 juni 2023 |
 | **Ervaar Edge-geo-zoekopdrachten** | U kunt rapporten samenstellen met gebruik van geolocatiegegevens in CJA als Experience Edge Geo Lookups zijn ingeschakeld voor uw gegevensstroom. |  | 30 juni 2023 |
 | **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | U zult raadplegingsdatasets aan niet alleen gebeurtenisdatasets, maar ook aan profiel en raadplegingsdatasets kunnen toevoegen. | 21 juni 2023 | 12 juli 2023 |
-| **Steun voor valutaomrekening** | CJA ondersteunt valutaconversie als onderdeel van de opmaak van een metrische component in een gegevensweergave. | 21 juni 2023 | 19 juli 2023 |
+| **Steun voor valutaomrekening** | CJA ondersteunt valutaconversie als onderdeel van de opmaak van een metrische component in een gegevensweergave. | 7 juni 2023 | 21 juni 2023 |
 
 {style="table-layout:auto"}
 
