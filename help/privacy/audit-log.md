@@ -2,10 +2,10 @@
 title: Controlelogboeken
 description: Leer om CJA- controlelogboeken te bekijken en te beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 3%
+source-wordcount: '736'
+ht-degree: 1%
 
 ---
 
@@ -41,19 +41,49 @@ Dubbelklik op de knop Info (i) naast een beschrijving.
 
 De volgende items worden weergegeven:
 
-| Item | Beschrijving |
-| --- | --- |
-| Naam van handeling | Hier volgt een lijst met mogelijke acties: <ul><li>API_Request</li><li>Goedkeuren</li><li>Maken</li><li>Bewerken</li><li>Exporteren</li><li>Aanmelden_mislukt</li><li>Aanmelden_geslaagd</li><li>Afmelden</li><li>Org_change</li><li>Vernieuwen</li><li>Delen</li><li>Overdracht</li><li>Niet goedkeuren</li><li>Delen opheffen</li></ul> |
-| Beschrijving | Een overzicht van de handeling, het componenttype (met id) en andere waarden. |
-| Gebruikersnaam | De gebruiker die de actie uitvoert. |
-| Componenttype | Mogelijke componenttypen zijn: <ul><li>Aantekening</li><li>Audience</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Data_View (dit componenttype omvat afmetingen en metriek)</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobile</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
-| IMS Org ID | Een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg. |
-| Gebruikers-id | Een unieke id die de gebruiker identificeert die deze handeling heeft uitgevoerd. |
-| Gemaakt op | Wanneer deze actie is uitgevoerd. |
-| E-mail | Het e-mailadres van de gebruiker die de handeling uitvoert. |
-| Component-id | Een unieke id die de component identificeert waarop wordt gehandeld. |
-| Logboek-id | Een unieke id die deze logbestandvermelding identificeert. |
-| Gebruikerstype | Mogelijke typen zijn: IMS, OKTA |
+* **[!UICONTROL Action Name]**: De ondernomen actie. Mogelijke waarden zijn:
+   * API_REQUEST
+   * GOEDKEUREN
+   * MAKEN
+   * DELETE
+   * BEWERKEN
+   * EXPORTEREN
+   * ORG_CHANGE
+   * VERNIEUWEN
+   * DELEN
+   * OVERDRACHT
+   * ONGOEDKEUREN
+   * ONDELEN
+* **[!UICONTROL Date Created]**: De datum en het tijdstip waarop de actie is uitgevoerd.
+* **[!UICONTROL Description]**: Een samenvatting van de handeling.
+* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd.
+* **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
+* **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
+* **[!UICONTROL Component Type]**: Het type component. Mogelijke waarden zijn:
+   * ANNOTATIE
+   * AUDICE
+   * CALCULATED_METRIC
+   * VERBINDING
+   * DATA_GROUP
+   * DATA_VIEW
+   * DATASET_STITCHING
+   * DATE_RANGE
+   * FEATURE_ACCESS
+   * FILTER
+   * IMS_ORG
+   * MOBIEL
+   * PROJECT
+   * RAPPORT
+   * SCHEDULED_PROJECT
+   * GEBRUIKER
+   * USER_GROUP
+* **[!UICONTROL Component ID]**: De id van de component waarop de gebruiker actie heeft ondernomen.
+* **[!UICONTROL IMS Org ID]**: De IMS-id van de organisatie, in de vorm van `ABC123@AdobeOrg`.
+* **[!UICONTROL Log ID]**: Een unieke id die deze logbestandvermelding identificeert.
+* **[!UICONTROL User ID]**: De unieke id die de gebruiker identificeert die de handeling heeft uitgevoerd.
+* **[!UICONTROL User Type]**: Het gebruikte verificatietype. Geldige waarden zijn:
+   * IMS
+   * OKTA
 
 ### Controllerlogboeken filteren
 
@@ -66,13 +96,13 @@ De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 | Filter | Beschrijving |
 | --- | --- |
 | [!UICONTROL Date Range] | U kunt filteren op een ander datumbereik door een andere datum te selecteren of een datumbereik te selecteren door de cursor over meerdere datums te slepen. Standaard is de datum van vandaag en gisteren geselecteerd. |
-| [!UICONTROL Action] | Filter op een of meer van de volgende handelingen: <ul><li>API_Request</li><li>Goedkeuren</li><li>Maken</li><li>Bewerken</li><li>Exporteren</li><li>Aanmelden_mislukt</li><li>Aanmelden_geslaagd</li><li>Afmelden</li><li>Org_change</li><li>Vernieuwen</li><li>Delen</li><li>Overdracht</li><li>Niet goedkeuren</li><li>Delen opheffen</li></ul> |
+| [!UICONTROL Action] | Filter op een willekeurige actienaam die hierboven wordt vermeld. |
 | [!UICONTROL User ID] | Filter op een specifieke gebruiker op basis van de gebruikersnaam. U kunt de gebruikersnaam vinden door de knop info (i) naast een gebruikersnaam te selecteren. |
 | [!UICONTROL Email] | Filter op het e-mailadres van een specifieke gebruiker. U kunt het e-mailbericht vinden door op de knop Info (i) naast een gebruikersnaam te klikken. |
 | [!UICONTROL Component ID] | Filter op een specifieke component-id. De gebruikers-id kunt u vinden door de knop info (i) voor een gewenste component te selecteren. |
-| [!UICONTROL Component Type] | Filter op een of meer componenttypen: <ul><li>Aantekening</li><li>Audience</li><li>Berekend metrisch</li><li>Verbinding</li><li>Data_Group</li><li>Gegevens_weergave</li><li>Feature_Access</li><li>Filter</li><li>IMS_Org</li><li>Mobile</li><li>Project</li><li>Rapport</li><li>Scheduled_Project</li><li>Gebruiker</li><li>Gebruiker_Groep</li></ul> |
+| [!UICONTROL Component Type] | Filter op elk componenttype dat hierboven wordt vermeld. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gebeurtenistypen die zijn vastgelegd in auditlogboeken
 
@@ -94,7 +124,7 @@ In de volgende tabel wordt aangegeven op welke handelingen componenttypen worden
 | [!UICONTROL User] | <ul><li>API_Request</li><li>Maken</li><li>Verwijderen</li><li>Bewerken</li></ul> |
 | [!UICONTROL User Group] | <ul><li>API_Request</li><li>Maken</li><li>Verwijderen</li><li>Bewerken</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Auditlogboeken downloaden
 
