@@ -2,16 +2,16 @@
 title: Publicatieoverzicht CJA-soorten publiek
 description: Meer informatie over het concept publiekspublicaties in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
+source-git-commit: 7b86650cd3475a203d597baeec2ec2152e082b10
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Publicatieoverzicht van CJA Audience
 
-U kunt nu publiek maken en publiceren dat is ontdekt in Customer Journey Analytics (CJA) naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+U kunt nu publiek maken en publiceren dat is ontdekt in Customer Journey Analytics (CJA) naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
 Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden inzichten te activeren en actie te ondernemen. Deze acties kunnen het volgende omvatten:
 
@@ -19,7 +19,9 @@ Het publiceren van publiek biedt een duidelijke manier om binnen CJA gevonden in
 * Het publiek naar een derde via een bestemming van een Experience Platform exporteren.
 * Het verrijken van het Real-Time klantenprofiel met nuttige attributen die uit op gebeurtenis-gebaseerde gegevens in CJA worden afgeleid.
 * Dit alles doen met minimale vertraging na publicatie van het publiek. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
-* Eenmalig publiek of terugkerend publiek publiceren
+* Eenmalig publiek publiceren of terugkerend publiek.
+
+Het publiek u in CJA creeert moet niet op datasets worden gebaseerd die voor profiel worden toegelaten. U kunt historische gegevens in Experience Platform opnemen zonder bijbehorende datasets en schema&#39;s voor profiel toe te laten. Vervolgens gebruikt u deze gegevenssets om relevante doelgroepen in CJA te ontdekken en deze doelgroepen naar RTCDP in Experience Platform te publiceren voor activeringsdoeleinden.
 
 ## Belangrijke terminologie
 
