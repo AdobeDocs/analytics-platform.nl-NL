@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
+source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij
 
 ![Welkomstscherm van app](assets/welcome.png)
 
-## Dashboards gebruiken
+## Dashboards gebruiken {#use-dashboards}
 
 Dashboards gebruiken:
 
@@ -89,6 +89,7 @@ Dashboards gebruiken:
       * Op een dag is er een uurtrend
       * Meer dan een dag en minder dan een jaar laten een dagelijkse trend zien
       * Een jaar of langer toont een wekelijkse trend
+
    * De formule van de percentagewaardeverandering is metrisch totaal (huidige datumwaaier) - metrisch totaal (de waaier van de vergelijkingsdatum) / metrisch totaal (de waaier van de vergelijkingsdatum).
 
    * U kunt het scherm omlaag trekken om het Scorecard te vernieuwen.
