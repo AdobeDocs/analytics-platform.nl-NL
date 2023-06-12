@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste CJA-release
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a676c5c71e13524ef56143fe0f5d4cf98c64c2f2
+source-git-commit: c3bea466c4960893ebe746046250608bacc9e340
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1367'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **PowerBI en Tableau toegang tot CJA-gegevensweergaven** | De Customer Journey Analytics (CJA) SQL-connector biedt SQL toegang tot gegevensweergaven die u in CJA hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers CJA voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) |  | 30 juni 2023 |
 | **Ervaar Edge-geo-zoekopdrachten** | U kunt rapporten samenstellen met gebruik van geolocatiegegevens in CJA als Experience Edge Geo Lookups zijn ingeschakeld voor uw gegevensstroom. |  | 30 juni 2023 |
 | **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | U zult raadplegingsdatasets aan niet alleen gebeurtenisdatasets, maar ook aan profiel en raadplegingsdatasets kunnen toevoegen. | 21 juni 2023 | 12 juli 2023 |
-| **Steun voor valutaomrekening** | CJA ondersteunt valutaconversie als onderdeel van de opmaak van een metrische component in een gegevensweergave. | 7 juni 2023 | 21 juni 2023 |
+| **Ondersteuning voor conversie van valuta** | De conversie van valuta wordt ondersteund als onderdeel van de opmaak van een metrische component in een gegevensweergave. [Meer informatie](../data-views/component-settings/format.md#currency) | 7 juni 2023 | 21 juni 2023 |
 
 {style="table-layout:auto"}
 
@@ -42,6 +42,10 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Report Builder voor CJA - Gegevensweergave selecteren uit cel** | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. Dit is nuttig als u een werkboek creeert en u veelvoudige gegevensmeningen hebt die de gelijkaardige gegevensbouw hebben en u een werkboek wilt kunnen veelvoudige tijden, met verschillende gegevensmeningen opnieuw gebruiken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) | N.v.t. | 24 mei 2023 |
 | **Bijgewerkte leerpagina voor CJA** | Het tabblad Leren op de bestemmingspagina van Customer Journey Analytics bevat nu inhoud die specifiek is voor CJA, inclusief inhoud die is gericht op de overgang naar CJA vanuit Adobe Analytics.<p>De volgende aanvullende verbeteringen zijn ook beschikbaar op het tabblad Leren:</p><ul><li>Verbeterd ontwerp dat meer leerinhoud weergeeft op één pagina met verbeterde navigatie</li><li>Mogelijkheid om de leerinhoud op ervaringsniveau aan te passen (Beginnend, Midden, en Geavanceerd)</li></ul><p>Eerder bevatte het tabblad Leren in CJA identieke informatie als het tabblad Leren in Adobe Analytics.</p> [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#navigate-learning) | N.v.t. | 30 juni 2023 |
 | **Componenten sorteren in Analysis Workspace** | <p>Er is nu een nieuwe sorteeroptie beschikbaar wanneer u componenten in de linkertrack of in het gegevenswoordenboek in Analysis Workspace bekijkt. U kunt componenten sorteren op Aanbevolen (de meest gebruikte), Alfabetisch of Categorisch (type).</p><p>Eerder kon u alleen componenten zoeken of filteren. [Meer informatie](/help/components/overview.md)</p> | N.v.t. | TBD |
+| **Rijen met dynamische afmetingen uit een tabel voor vrije vorm verwijderen** | In een Freeform-tabel in Analysis Workspace kunt u nu snel specifieke rijen met dynamische afmetingen verwijderen met het x-pictogram. Hierbij wordt automatisch de filterregel &#39;Items altijd uitsluiten&#39; toegepast.<p>Eerder, de enige manier om rijen te schrappen die dynamische afmetingen bevatten was manueel een regel in de dialoog van de Filter te creëren. [Meer informatie](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N.v.t. | 17 mei 2023 |
+| **Nieuwe knop om een visualisatie in een deelvenster toe te voegen** | Er is nu een nieuwe knop beschikbaar onder aan elk deelvenster in Analysis Workspace, zodat u snel een visualisatie kunt toevoegen. <p>Eerder, de enige methodes om een visualisatie aan een paneel toe te voegen waren een visualisatie van de linkerspoorstaaf te slepen, een bestaande visualisatie te dupliceren of te kopiëren, of een leeg paneel tot stand te brengen. [Meer informatie](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N.v.t. | 17 mei 2023 |
+| **Diepe koppeling (mobiele toepassing)** | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) | N.v.t. | 17 mei 2023 |
+| **Intelligente bijschriften** | Verrijk het vertellen van verhalen voor gebruikers met natuurlijke taalsamenvattingen van a [!UICONTROL Line] visualisatie. [Meer informatie](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 mei 2023 | 1 juni 2023 |
 
 {style="table-layout:auto"}
 
