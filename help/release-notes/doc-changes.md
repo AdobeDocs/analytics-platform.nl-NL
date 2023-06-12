@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3426392854d60269f370228cbe7542e9789dae99
+source-git-commit: 62c2c74d1a5d0f92cbe8a641f392ccaba3b105ff
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2066'
 ht-degree: 5%
 
 ---
@@ -20,12 +20,14 @@ De volgende updates zijn aangebracht in de CJA-documentatie sinds de aanvang erv
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2023** | |
+| PowerBI en Tableau toegang tot CJA-gegevensweergaven | De Customer Journey Analytics (CJA) SQL-connector biedt SQL toegang tot gegevensweergaven die u in CJA hebt gedefinieerd. [Meer informatie](/help/data-views/sql-connector.md) |
+| Adobe Journey Optimizer-gegevensweergaven | CJA Admins heeft toegang tot sommige extra gegevensmeningen in CJA, getiteld &quot;de mening van Gegevens AJO (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
 | Berekende metrische updates | De volgende updates zijn aangebracht in de berekende metriekdocumentatie om deze uit te lijnen met de huidige CJA-functionaliteit: <ul><li>De lijst met [berekende standaardwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in CJA</li><li>Bijgewerkte schermafbeeldingen en procedures in diverse berekende metrieartikelen </li></ul> |
 | **Mei 2023** | |
-| Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
-| Doc over &quot;Gegevensweergave selecteren uit cel&quot; in Report Builder | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. Dit is nuttig als u een werkboek creeert en u veelvoudige gegevensmeningen hebt die de gelijkaardige gegevensbouw hebben en u een werkboek wilt kunnen veelvoudige tijden, met verschillende gegevensmeningen opnieuw gebruiken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
-| Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken.  Als u toegang tot meer dan één organisatie onder één login hebt, zullen alle scorecards van uw organisaties in één enkele lijst beschikbaar zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Doc over &quot;Gegevensweergave selecteren uit cel&quot; in Report Builder | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | Optimalisatie-update | Bijgewerkt artikel op [CJA-prestaties optimaliseren](/help/admin/optimizing-performance.md) |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
