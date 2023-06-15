@@ -4,10 +4,10 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -115,9 +115,3 @@ Plaatsaanduidingen voor uitvoer worden ook ondersteund. U kunt deze reeksen gebr
 | `$$` | Hiermee wordt het teken van de tekenreeks uitgevoerd `"$"`. |
 
 {style="table-layout:auto"}
-
-## Video over bindingsdimensies
-
-Hier volgt een video over het inbinden van afmetingen:
-
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)

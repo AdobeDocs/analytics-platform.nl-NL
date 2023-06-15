@@ -4,10 +4,10 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,33 +37,33 @@ Details over de beschikbare toewijzingsinstellingen.
 
 * **[!UICONTROL Most Recent]**: Hiermee blijft de meest recente (door tijdstempel) waarde in de dimensie behouden. Alle volgende waarden die binnen de afloopperiode van de dimensie voorkomen, vervangen de eerder blijkende waarde. Als &quot;Geen waarde behandelen&quot; is ingeschakeld voor deze dimensie onder [Geen waardeopties](no-value-options.md)Lege waarden overschrijven eerder persistente waarden. Neem bijvoorbeeld de volgende tabel met [!UICONTROL Most recent] toewijzing en [!UICONTROL Session] vervaldatum:
 
-   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Waarden gegevensset |  | C | B |  | A |
-   | Meest recente toewijzing |  | C | B | B | A |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Waarden gegevensset |  | C | B |  | A |
+  | Meest recente toewijzing |  | C | B | B | A |
 
 * **[!UICONTROL Original]**: Houdt de oorspronkelijke waarde door timestamp in de dimensie voor de duur van de vervalperiode aanwezig. Als deze dimensie een waarde heeft, wordt deze niet overschreven wanneer een andere waarde wordt waargenomen bij een volgende gebeurtenis. Neem bijvoorbeeld de volgende tabel met [!UICONTROL Original] toewijzing en [!UICONTROL Session] vervaldatum:
 
-   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Waarden gegevensset |  | C | B |  | A |
-   | Oorspronkelijke toewijzing |  | C | C | C | C |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Waarden gegevensset |  | C | B |  | A |
+  | Oorspronkelijke toewijzing |  | C | C | C | C |
 
 * **[!UICONTROL All]**: Handelingen die vergelijkbaar zijn met de [!UICONTROL Participation] attributiemodel voor metriek. Hiermee worden alle waarden op gelijke wijze gehandhaafd, zodat elke waarde bij rapportage volledige creditering voor de maatstaf krijgt. Neem bijvoorbeeld de volgende tabel met [!UICONTROL All] toewijzing en [!UICONTROL Session] vervaldatum:
 
-   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Waarden gegevensset | A | B | C |  | A |
-   | Alle toewijzingen | A | A,B | A, B, C | A, B, C | A, B, C |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Waarden gegevensset | A | B | C |  | A |
+  | Alle toewijzingen | A | A,B | A, B, C | A, B, C | A, B, C |
 
 * **[!UICONTROL First Known]** en **[!UICONTROL Last Known]**: (19 januari 2022) Deze twee toewijzingsmodellen voldoen aan de &quot;entry&quot; - en &quot;exit&quot; - criteria. Zij nemen de eerste of laatste waargenomen waarde voor een afmeting binnen een gespecificeerd persistentieschema (zitting, persoon, of douanetijdspanne met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
 
-   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Tijdstempel (min) | 1 | 2 | 3 | 6 | 7 |
-   | Oorspronkelijke waarden |  | C | B |  | A |
-   | Eerste gekend | C | C | C | C | C |
-   | Laatst bekend | A | A | A | A | A |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Tijdstempel (min) | 1 | 2 | 3 | 6 | 7 |
+  | Oorspronkelijke waarden |  | C | B |  | A |
+  | Eerste gekend | C | C | C | C | C |
+  | Laatst bekend | A | A | A | A | A |
 
 ## [!UICONTROL Expiration] instellingen
 
@@ -79,6 +79,8 @@ Details over de beschikbare vervalinstellingen.
 Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
 Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
 ## [!UICONTROL Binding Metric]
 
