@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer (AJO) integreren met Customer Journey Analytics (CJA)
 description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: 76f13b6c3b05d4a3fa4169ab0b4a1e9573efb9e0
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 | Naam behandeling | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Componenttype: Dimension<br>Contextlabels: Experimentvariant |
 | Reden voor mislukte e-maillevering | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Componenttype: Dimension |
 | Reden voor uitsluiting van e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Componenttype: Dimension |
+| Elementlabel | `_experience.decisioning.propositionAction.label` | Componenttype: Dimension |
 
 {style="table-layout:auto"}
 
@@ -82,6 +83,11 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Verzenden | Het aantal berichten dat e-mailproviders hebben geaccepteerd. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sent` |
 | Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `spam_complaint` |
 | Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `unsubscribe` |
+| Rand verzendt | Het aantal tijden het randnetwerk verzendt een bericht naar of het Web of Mobiele SDK | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.send` |
+| Binnenkomende beeldschermen | Het aantal keer dat een Web- of InApp-bericht aan de gebruiker wordt getoond | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.display` |
+| Binnenkomende klikken | De telling van Web of InApp bericht klikt | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.interact` |
+| InApp-triggers | Het aantal keren dat de beslissingsengine het bericht heeft voorgesteld, moet worden weergegeven. De mobiele SDK kan de beslissing om het aantal daadwerkelijke weergaven te verminderen, negeren. | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.trigger` |
+| InApp-ontslagen | Het aantal keren dat een InApp-bericht door de SDK uit de gebruikersinterface wordt verwijderd | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}
 
