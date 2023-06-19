@@ -3,9 +3,9 @@ description: Leer hoe u de resultaten van A/B tests in het paneel van de Experim
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschil
 
 >[!IMPORTANT]
 >
->Op dit punt [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) gegevens die via de Analytics Source Connector naar Adobe Experience Platform worden gebracht **kan** worden geanalyseerd in het [!UICONTROL Experimentation] deelvenster. We verwachten dat er in 2023 een resolutie over deze kwestie komt.
+>Op dit punt [Adobe Analytics for Target|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] (A4T) gegevens *kan* worden geanalyseerd in het deelvenster Experimentatie.
 
 ## Toegangsbeheer {#access}
 
@@ -28,7 +28,7 @@ Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UIC
 
 ## Stap 1: Verbinding maken om gegevensset(s) te experimenteren {#connection}
 
-Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
+Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in een **enkel** objectarray. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
 
 Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in CJA](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 
@@ -86,9 +86,9 @@ De [!UICONTROL Line] de grafiek geeft u [!UICONTROL Control] versus [!UICONTROL 
 
 ## Stap 5: De resultaten interpreteren {#interpret}
 
-1. **Experimenteer is Sluiten**: Telkens wanneer u het experimentatierapport bekijkt, analyseert Adobe de gegevens die in het experiment tot op heden zijn verzameld en zal een experiment als &quot;Sluiten&quot; worden aangemerkt wanneer het altijd geldige vertrouwen een drempel van 95% overschrijdt voor *ten minste één* van de varianten (met een Bonferoni-correctie toegepast wanneer er meer dan twee armen zijn, om te corrigeren voor meervoudige hypothesetests).
+1. **Experimenteer is Sluiten**: Telkens wanneer u het experimentatierapport bekijkt, analyseert Adobe de gegevens die in het experiment tot op heden zijn verzameld en zal een experiment als &quot;Sluiten&quot; worden aangemerkt wanneer het altijd geldige vertrouwen een drempel van 95% overschrijdt voor *ten minste één* van de varianten (waarbij een Benjamini-Hochberg-correctie wordt toegepast wanneer er meer dan twee armen zijn, ter correctie voor meervoudige hypothesetests).
 
-2. **Best presterende variabele**: Wanneer een experiment overtuigend wordt verklaard, wordt de variant met de hoogste omrekeningskoers aangeduid als de best presterende variant. Deze variant moet ofwel de besturingsvariant of basislijnvariant zijn, ofwel een van de varianten die de 95% overschrijdt op een willekeurig moment geldige betrouwbaarheidsdrempel (met Bonferoni-correcties toegepast).
+2. **Best presterende variabele**: Wanneer een experiment overtuigend wordt verklaard, wordt de variant met de hoogste omrekeningskoers aangeduid als de best presterende variant. Merk op dat deze variant ofwel de besturingsvariant of de basisvariant moet zijn, ofwel een van de varianten die de betrouwbaarheidsdrempel van 95% overschrijdt (met Benjamini-Hochberg correcties toegepast).
 
 3. **Omzetsnelheid**: De omrekeningskoers die wordt getoond is een verhouding van de succes metrische waarde, aan de normaliserende metrische waarde. Merk op dat dit soms groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
 
