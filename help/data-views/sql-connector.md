@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
@@ -18,38 +18,38 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-De [!DNL Customer Journey Analytics (CJA) SQL Connector] biedt SQL toegang tot de [gegevensweergaven](./data-views.md) die u in CJA hebt gedefinieerd. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die CJA-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
+De [!DNL Customer Journey Analytics SQL Connector] biedt SQL toegang tot de [gegevensweergaven](./data-views.md) die u in Customer Journey Analytics hebt gedefinieerd. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
 
-Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL CJA SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om uw CJA- gegevensmeningen als lijsten of meningen in te zien [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiegereedschappen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
+Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL Customer Journey Analytics SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om de gegevensweergaven van uw Customer Journey Analytics als tabellen of weergaven in een [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiegereedschappen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
 
 De belangrijkste voordelen zijn:
 
-- Het is niet nodig om een gelijkwaardige vertegenwoordiging van CJA- gegevensmeningen binnen het hulpmiddel van BI zelf opnieuw te maken. <br/>Zie [Gegevens, weergave](data-views.md) voor meer informatie over de functionaliteit van de meningen van Gegevens om te begrijpen wat moet worden ontspannen.<br/>
+- Het is niet nodig om een gelijkwaardige weergave van de gegevensweergaven van Customer Journey Analytics opnieuw te maken in het BI-gereedschap zelf. <br/>Zie [Gegevens, weergave](data-views.md) voor meer informatie over de functionaliteit van de meningen van Gegevens om te begrijpen wat moet worden ontspannen.<br/>
 
-- Meer consistentie in rapportage en analyse tussen BI-instrumenten en CJA.
+- Meer consistentie in rapportage en analyse tussen BI-instrumenten en Customer Journey Analytics.
 
-- Combineer CJA-gegevens met andere gegevensbronnen die al beschikbaar zijn in BI-gereedschappen.
+- Combineer Customer Journey Analytics-gegevens met andere gegevensbronnen die al beschikbaar zijn in BI-gereedschappen.
 
 ## Vereisten
 
 Als u deze functionaliteit wilt gebruiken, moet u
 
-<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
+<!---   Enable the [!UICONTROL Customer Journey Analytics SQL Connector] in your Experience Platform organization. -->
 
 - Configureer de functionaliteit voor de relevante productprofielen, gebruikersgroepen en/of individuele gebruikers.<br/>
 Gebruikers moeten toegang hebben tot:
    - Query-service Experience Platform,
-   - CJA Workspace projecten, en
-   - CJA-gegevensweergaven die ze willen gebruiken.
+   - Customer Journey Analytics Workspace-projecten, en
+   - Customer Journey Analytics-gegevensweergaven die ze willen gebruiken.
 
-- Gebruik het verlopen op niet-vervallende geloofsbrieven om de hulpmiddelen van BI met de Schakelaar van CJA te verbinden SQL. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
+- Gebruik die op niet-vervallende geloofsbrieven verlopen om de hulpmiddelen van BI met de Schakelaar van Customer Journey Analytics te verbinden SQL. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
 
-Zie [Toegangsbeheer](../admin/cja-access-control.md) in de sectie CJA Administration voor aanvullende informatie.
+Zie [Toegangsbeheer](../admin/cja-access-control.md) in de Customer Journey Analytics Administration sectie voor meer informatie.
 
 
 ## Gebruik
 
-Als u de opdracht [!DNL CJA SQL Connector] kunt u SQL rechtstreeks gebruiken of de slepen en neerzetten-ervaring gebruiken die beschikbaar is in het specifieke BI-gereedschap.
+Als u de opdracht [!DNL Customer Journey Analytics SQL Connector] kunt u SQL rechtstreeks gebruiken of de slepen en neerzetten-ervaring gebruiken die beschikbaar is in het specifieke BI-gereedschap.
 
 ### SQL
 
@@ -89,7 +89,7 @@ Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/docs/e
 
 ### BI Tools
 
-De CJA SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden eveneens kunnen werken maar officieel nog niet gesteund.
+De Customer Journey Analytics SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden eveneens kunnen werken maar officieel nog niet gesteund.
 
 +++ Power BI
 
@@ -120,7 +120,9 @@ De CJA SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en
       3. Wanneer wordt gevraagd om **[!UICONTROL ** Gegevensconnectiviteit **]** modus, selecteren **[!UICONTROL ** DirectQuery **]** om ervoor te zorgen dat de gegevensstructuren op de juiste wijze worden afgevlakt.
 
       4. U wordt gevraagd **[!UICONTROL ** Gebruikersnaam **]** en **[!UICONTROL ** Wachtwoord **]**. De equivalente parameters van Experience Platforms gebruiken [!UICONTROL Credentials].
-   5. Na succesvolle login, verschijnen de lijsten van de Mening van Gegevens CJA in Power BI **[!UICONTROL ** Navigator **]**. Tabellen met gegevensweergave worden geïdentificeerd aan de hand van `dv_` in hun naam.
+
+
+   5. Na succesvolle login, verschijnen de lijsten van de Mening van Gegevens van de Customer Journey Analytics in Power BI **[!UICONTROL ** Navigator **]**. Tabellen met gegevensweergave worden geïdentificeerd aan de hand van `dv_` in hun naam.
 
 
    6. Selecteer de tabellen in de gegevensweergave die u wilt gebruiken en selecteer **[!UICONTROL ** Laden **]**.
@@ -164,7 +166,8 @@ De CJA SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en
       6. Plakken **[!UICONTROL ** Wachtwoord **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Wachtwoord **]** tekstveld.
 
       7. Selecteren **[!UICONTROL ** Aanmelden **]**.
-   4. CJA-gegevensweergaven worden weergegeven als tabellen in het dialoogvenster **[!UICONTROL ** Tabel **]** lijst. Tabellen in de gegevensweergave beginnen met `dv_`.
+
+   4. De gegevensweergaven Customer Journey Analytics worden weergegeven als tabellen in het dialoogvenster **[!UICONTROL ** Tabel **]** lijst. Tabellen in de gegevensweergave beginnen met `dv_`.
 
    5. Sleep de tabellen die u op het canvas wilt gebruiken.
 
@@ -184,9 +187,9 @@ Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u 
 
 ### Gegevensbeheer
 
-De instellingen voor gegevensbeheer in Customer Journey Analytics zijn overgenomen van Adobe Experience Platform. De integratie tussen CJA en Adobe Experience Platform Data Governance maakt het mogelijk gevoelige CJA-gegevens te labelen en het privacybeleid te handhaven.
+De instellingen voor gegevensbeheer in Customer Journey Analytics zijn overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige Customer Journey Analytics-gegevens worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
 
-De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van CJA- gegevensmeningen worden rond gekomen. Daarom tonen de gegevens die met de SQL-connector van CJA worden gevraagd de juiste waarschuwingen of fouten wanneer niet wordt voldaan aan de gedefinieerde privacylabels en het gedefinieerde beleid.
+De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van Customer Journey Analytics worden bezocht. Daarom tonen gegevens die met de Customer Journey Analytics SQL-connector worden aangeroepen, de juiste waarschuwingen of fouten wanneer ze niet voldoen aan de gedefinieerde privacylabels en beleidsregels.
 
 ### Gegevens weergeven
 
@@ -233,7 +236,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 | Metrische totalen | <pre>SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</pre> |
 | Meerdere dimensies<br/>uitsplitsingen<br/>en toponderscheidingen | <pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET DIM1, dim2</pre><pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 1, 2<br/>VOLGORDE MET 1, 2</pre><pre>DIM1 VERSCHUIVEN, dim2 SELECTEREN<br/>VAN dv1</pre> |
 | Subselectie:<br/>Aanvullend resultaat<br/>filteren | <pre>DIM1, m1 SELECTEREN<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</br>  GROEP OP DIm1<br/>)<br/>WAAR grijs 1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
-| Subselectie:<br/>Samenvoegen met<br/>dataset niet in<br/>CJA | <pre>SELECT b.key, a.dim1, a.m1<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/>a)<br/>LEFT JOIN lookups b OP a.dim1 = b.key</pre> |
+| Subselectie:<br/>Samenvoegen met<br/>dataset niet in<br/>Customer Journey Analytics | <pre>SELECT b.key, a.dim1, a.m1<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/>a)<br/>LEFT JOIN lookups b OP a.dim1 = b.key</pre> |
 | Subselectie:<br/>Doorheen zoeken<br/>gegevensweergaven | <pre>SELECT-toets, SUM(m1) AS totaal<br/>VAN (<br/>  DIm1 AS-toets SELECTEREN, SUM(metrisch1) AS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/><br/>  UNIE<br/><br/>  DIm2 AS-toets SELECTEREN, SUM(m1) AS m1<br/>  FROM dv2<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP MET DIm2<br/>GROEP OP toets<br/>VOLGORDE PER totaal</pre> |
 | Subselectie: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    \* SELECTEREN VANUIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET rijen AS (<br/>  MET \_ AS (<br/>    SELECTEREN * UIT data_ares<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2021-01-01&quot; EN &quot;2021-02-01&quot;<br/>  )<br/>  SELECTEER _.item, _.units VAN _<br/>  WAAR _.item NIET NULL IS<br/>)<br/>SELECT rows.item, SUM(rows.units) AS-eenheden<br/>UIT rijen WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROEP OP rijen.item</pre> |
 | Hiermee selecteert u waar de<br/>metriek komt voor<br/> of worden gemengd met<br/>de afmetingen | <pre>SUM(metrisch1) SELECTEREN AS m1, dim1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 2</pre> |
@@ -268,7 +271,7 @@ U kunt het volgende gebruiken:
 
 #### Verschillen tellen
 
-Vanwege de onderliggende aard van de werking van CJA is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de maatstaf voor standaardpersonen, die het aantal verschillende personen is. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
+Vanwege de onderliggende aard van hoe Customer Journey Analytics werkt, is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de maatstaf voor standaardpersonen, die het aantal verschillende personen is. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
 
 #### Voorwaardelijke metriek
 

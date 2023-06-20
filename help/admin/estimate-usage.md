@@ -4,24 +4,24 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Het gebruik van Customer Journey Analytics weergeven en beheren
 
-U kunt verschillende methoden gebruiken om uw CJA-gebruik te bekijken:
+U kunt op verschillende manieren het gebruik van Customer Journey Analytics weergeven:
 
 * Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. Zie [De verbindingsgrootte schatten](#estimsize) hieronder. Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
 * Bekijk uw gebruik op drie manieren, elk die hieronder meer gedetailleerd wordt beschreven:
    * Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden.
    * Gebruik Report Builder om de gebeurtenissen van vorige maand te melden.
-   * Gebruik CJA API om een geautomatiseerd rapport tot stand te brengen.
+   * Gebruik Customer Journey Analytics API om een geautomatiseerd rapport tot stand te brengen.
 
-Je CJA-gebruik beheren:
+Om uw gebruik van Customer Journey Analytics te beheren:
 
 * Definieer een schuivend gegevensvenster.
 
@@ -55,7 +55,7 @@ Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel hebt in 
 
    * Wijzig uw [instellingen voor gegevensbehoud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention).
    * [Ongebruikte verbindingen verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * [Een gegevensset verwijderen in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
+   * [Een gegevensset in Adobe Experience Platform verwijderen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * Neem contact op met het accountteam van uw Adobe om een licentie voor extra capaciteit te verkrijgen.
 
 ## Een Workspace-project maken met al uw gebeurtenisgegevens {#workspace-event-data}
@@ -68,7 +68,7 @@ Met deze methode kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik na
 >
 >    Maak geen nieuwe verbinding die al uw gegevens alleen voor het meten van het gebruik omvat, omdat dat uw gebruik zou verdubbelen.
 
-1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, vanaf de eerste dag van uw huidige CJA-contract.
+1. Maak in Workspace nieuwe projecten op basis van de gegevensweergaven en trek alle gebeurtenissen aan (van de **[!UICONTROL Metrics]** vervolgkeuzelijst) die loopt tot de eerste vrijdag van de maand, vanaf de eerste dag van uw huidige Customer Journey Analytics-contract.
 
    ![Gebeurtenissen](./assets/events-usage.png)
 
@@ -80,24 +80,24 @@ Met deze methode kunt u uw gebruiksgegevens en de geschiedenis van uw gebruik na
 
 In Report Builder, [één gegevensblok maken](/help/report-builder/create-a-data-block.md) voor elke gegevensmening, dan som hen.
 
-## Een geautomatiseerd rapport maken in de CJA API {#api-report}
+## Een geautomatiseerd rapport maken in de Customer Journey Analytics API {#api-report}
 
-1. Gebruik de [API voor CJA-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport over al uw gebeurtenisgegevens uit te voeren, **voor elke verbinding**. Opstelling dit zodat het rapport loopt
+1. Gebruik de [API voor Customer Journey Analytics-rapportage](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) om een rapport over al uw gebeurtenisgegevens uit te voeren, **voor elke verbinding**. Opstelling dit zodat het rapport loopt
 
    * elke eerste vrijdag van elke maand.
-   * teruggaan naar de eerste dag van je huidige CJA-contract.
+   * Ga terug naar de eerste dag van je huidige Customer Journey Analytics contract.
 
-   Zo krijgt u een goed idee hoe uw gebruik maand tot maand wordt. Hiermee krijgt u het totale aantal rijen op al uw CJA-verbindingen.
+   Zo krijgt u een goed idee hoe uw gebruik maand tot maand wordt. Hiermee krijgt u het totale aantal rijen op al uw Customer Journey Analytics-verbindingen.
 
 1. Gebruik Excel om dit rapport verder aan te passen.
 
 ## Uw gebruik beheren door een schuivend gegevensvenster te definiëren {#rolling}
 
-Om uw gebruik te beheren, [UI voor verbindingen](/help/connections/create-connection.md) Hiermee kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden enz.), op verbindingsniveau.
+Om uw gebruik te beheren, [UI voor verbindingen](/help/connections/create-connection.md) Hiermee kunt u de gegevensbewaring van Customer Journey Analytics definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden, enz.), op verbindingsniveau.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
-Als u de standaardinstelling (uitgeschakeld) verlaat, wordt de bewaarperiode vervangen door de bewaarinstelling voor Adobe Experience Platform-gegevens. Als je 25 maanden aan gegevens in Experience Platform hebt, zal CJA 25 maanden aan gegevens door backfill krijgen. Als u 10 van die maanden in Platform schrapte, zou CJA de resterende 15 maanden behouden.
+Als u de standaardinstelling (uitgeschakeld) verlaat, wordt de bewaarperiode vervangen door de bewaarinstelling voor Adobe Experience Platform-gegevens. Als je 25 maanden aan gegevens in Experience Platform hebt, krijgt Customer Journey Analytics 25 maanden aan gegevens via back-up. Als u 10 van die maanden in Platform schrapte, zou Customer Journey Analytics de resterende 15 maanden behouden.
 
-Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor het schuivende gegevensvenster voor profiel- of opzoekgegevenssets, omdat er geen relevante tijdstempels zijn. Als uw verbinding om het even welk profiel of raadplegingsdatasets omvat, aangezien zij met gebeurtenisdatasets worden aangesloten, worden de gegevens bewaard in CJA die op uw montages van het gegevensbehoud op de tijdstempels van de gebeurtenisdataset wordt gebaseerd.
+Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor het schuivende gegevensvenster voor profiel- of opzoekgegevenssets, omdat er geen relevante tijdstempels zijn. Als uw verbinding om het even welk profiel of raadplegingsdatasets omvat, aangezien zij met gebeurtenisdatasets worden aangesloten, worden de gegevens bewaard in Customer Journey Analytics die op uw montages van het gegevensbehoud op de tijdstempels van gebeurtenisdataset wordt gebaseerd.
 

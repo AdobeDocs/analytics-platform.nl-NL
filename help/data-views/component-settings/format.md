@@ -4,9 +4,9 @@ description: Vorm hoe metrisch wordt geformatteerd.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a3fea05ac95407c7f3bee723a267ae0bc03d334a
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Een valuta voor een metrisch object weergeven:
 
 Om de omrekening van een valuta voor metrisch toe te laten:
 
-- Opstelling uw verbinding CJA om minstens één gebeurtenisdataset te bevatten die een dimensie van de muntcode voor elke gebeurtenis bevat die een valuta metrisch bevat. Voor deze dimensie van de valutacode wordt een alfabetische valutacode gebruikt die voldoet aan de [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standaard voor de weergave van valuta&#39;s. Bijvoorbeeld USD voor $, EUR voor €, GBP voor £.
+- Opstelling uw verbinding van de Customer Journey Analytics om minstens één gebeurtenisdataset te bevatten die een dimensie van de muntcode voor elke gebeurtenis bevat die een valuta metrisch bevat. Voor deze dimensie van de valutacode wordt een alfabetische valutacode gebruikt die voldoet aan de [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standaard voor de weergave van valuta&#39;s. Bijvoorbeeld USD voor $, EUR voor €, GBP voor £.
 
 - U hebt (optioneel) het [!UICONTROL Currency Code] context label aan één of meerdere afmetingen die muntcodes bepalen beschikbaar in uw dataset.
 

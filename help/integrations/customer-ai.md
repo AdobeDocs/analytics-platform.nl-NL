@@ -1,17 +1,17 @@
 ---
-description: Ontdek hoe AEP Customer AI-gegevens integreren met Workspace in CJA.
-title: AI-gegevens van klanten integreren met CJA
+description: Ontdek hoe Adobe Experience Platform Customer AI-gegevens integreren met Workspace in Customer Journey Analytics.
+title: AI-gegevens van klant integreren met Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-# AI-gegevens van klanten integreren met CJA
+# AI-gegevens van klanten integreren met Adobe Customer Journey Analytics
 
 {{release-limited-testing}}
 
@@ -21,7 +21,7 @@ Met behulp van invloedrijke factoren kan de AI van de Klant u vertellen wat een 
 
 AI van de Klant baseert zich op individuele gedragsgegevens en profielgegevens voor het rangschikken van eigenschappen. De AI van de Klant is flexibel in die zin dat het in veelvoudige gegevensbronnen, met inbegrip van Adobe Analytics, Adobe Audience Manager, de gegevens van de Gebeurtenis van de Consumentenervaring en de gegevens van de Gebeurtenis van de Ervaring kan nemen. Als u de bronschakelaar van het Experience Platform gebruikt om Adobe Audience Manager en Adobe Analytics gegevens in te brengen, neemt het model automatisch de standaardgebeurtenistypen op om het model te trainen en te scoren. Als u uw eigen dataset van de Gebeurtenis van de Ervaring zonder standaardgebeurtenistypen brengt, zullen om het even welke relevante gebieden als douanegebeurtenissen of profielattributen moeten worden in kaart gebracht als u het in het model wilt gebruiken. Dit kan worden gedaan in de configuratiestap van AI van de Klant in Experience Platform.
 
-AI van de klant kan met Customer Journey Analytics (CJA) worden geïntegreerd in zoverre dat door de klant voor AI geschikte gegevenssets kunnen worden gebruikt in gegevensweergaven en rapportage in CJA. U kunt:
+De AI van de klant kan met Customer Journey Analytics integreren voor zover de door de AI van de klant ingeschakelde gegevenssets kunnen worden gebruikt in gegevensweergaven en rapportage in Customer Journey Analytics. U kunt:
 
 * **Volgheidscores bijhouden voor een gebruikerssegment in de loop van de tijd**.
    * Hoofdlettergebruik: Begrijp de waarschijnlijkheid dat klanten in een specifiek segment zich zullen omzetten.
@@ -39,44 +39,44 @@ AI van de klant kan met Customer Journey Analytics (CJA) worden geïntegreerd in
    * Hoofdlettergebruik: Een specifieke cohort bijhouden in de loop van de tijd.
    * Voorbeeld: Een marketeter in een hotelketen wil hun bronzen laag in plaats van hun zilveren laag volgen, of zilveren laag tegenover hun gouden laag, in de loop van de tijd. Ze zien de neiging van elke cohort om het hotel in de loop van de tijd te boeken.
 
-Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk te integreren met CJA:
+Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk met Customer Journey Analytics te integreren:
 
 >[!NOTE]
 >
->Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in CJA.
+>Sommige stappen worden uitgevoerd in Adobe Experience Platform voordat wordt gewerkt met de uitvoer in Customer Journey Analytics.
 
 
 ## Stap 1: Een Customer AI-instantie configureren
 
 Nadat u de gegevens hebt voorbereid en al uw gegevens en schema&#39;s hebt geïnstalleerd, begint u met het volgende: [Een AI-instantie van een klant configureren](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) in Adobe Experience Platform.
 
-## Stap 2: Een CJA-verbinding met AI-gegevenssets van klanten instellen
+## Stap 2: Een Customer Journey Analytics-verbinding met de AI-gegevenssets van de klant instellen
 
-In CJA kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
+In Customer Journey Analytics kunt u nu [een of meer verbindingen maken](/help/connections/create-connection.md) op gegevenssets van het Experience Platform die van instrumenten zijn voorzien voor AI van de Klant. Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
 
 >[!IMPORTANT]
 >
->Elke AI-instantie van de Klant heeft twee uitvoergegevenssets als de schakeloptie is ingeschakeld om scores voor CJA mogelijk te maken tijdens de configuratie in Stap 1. Eén uitvoergegevensset wordt weergegeven in de indeling Profile XDM en één in de indeling Experience Event XDM.
+>Elke AI-instantie van de Klant heeft twee uitvoergegevenssets als de schakeloptie is ingeschakeld om scores voor Customer Journey Analytics tijdens de configuratie in Stap 1 in te schakelen. Eén uitvoergegevensset wordt weergegeven in de indeling Profile XDM en één in de indeling Experience Event XDM.
 
 ![CAI-scores](assets/cai-scores.png)
 
 ![Verbinding maken](assets/create-conn.png)
 
-Hier is een voorbeeld van een schema XDM dat CJA als deel van een bestaande of nieuwe dataset zou opnemen:
+Hier is een voorbeeld van een schema XDM dat Customer Journey Analytics als deel van een bestaande of nieuwe dataset zou opnemen:
 
 ![CAI-schema](assets/cai-schema.png)
 
-(Merk op dat het voorbeeld een profieldataset is; de zelfde reeks schemavoorwerp zou deel van een dataset van de Gebeurtenis van de Ervaring uitmaken die CJA zou grijpen. De dataset van de Gebeurtenis van de Ervaring zou timestamps als scoredatum omvatten.) Elke klant die in dit model een score heeft behaald, heeft een scoreDate, enzovoort. geassocieerd met hen.
+(Merk op dat het voorbeeld een profieldataset is; dezelfde set schemaobjecten maakt deel uit van een Experience Event-gegevensset die Customer Journey Analytics zou vastleggen. De dataset van de Gebeurtenis van de Ervaring zou timestamps als scoredatum omvatten.) Elke klant die in dit model een score heeft behaald, heeft een scoreDate, enzovoort. geassocieerd met hen.
 
 ## Stap 3: Gegevensweergaven maken op basis van deze verbindingen
 
-In CJA kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, enzovoort) en metriek die zijn ingevoerd als onderdeel van de verbinding die u hebt gemaakt.
+In Customer Journey Analytics kunt u nu doorgaan naar [gegevensweergaven maken](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, enzovoort) en metriek die zijn ingevoerd als onderdeel van de verbinding die u hebt gemaakt.
 
 ![Gegevensweergave maken](assets/create-dataview.png)
 
 ## Stap 4: Rapport over CAI-scores in werkruimte
 
-Maak in de CJA-werkruimte een nieuw project en trek de visualisaties over.
+In de Werkruimte van de Customer Journey Analytics, creeer een nieuw project en trek in visualisaties.
 
 ### Scherptediepte
 

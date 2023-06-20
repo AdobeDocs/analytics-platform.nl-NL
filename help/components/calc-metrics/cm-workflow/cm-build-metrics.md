@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, 
 title: Cijfers samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | Definitie | Dit is waar u in metriek/berekende metriek, filters, en/of functies sleept om berekende metrisch te bouwen. <ul><li>Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. </li> <li>U kunt definities nesten met containers. In tegenstelling tot filtercontainers werken deze containers echter als een wiskundige expressie en bepalen ze de volgorde van bewerkingen. </li> </ul> |
 | Operator | Gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. |
 | Voorvertoning | Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
-| Productcompatibiliteit | Voor berekende metriek die u in CJA creeert, is deze waarde altijd vermeld zoals [!UICONTROL **Volledig verwerkte gegevens**]. Berekende metriek kan slechts gegevens van gebeurtenisdatasets omvatten. |
+| Productcompatibiliteit | Voor berekende metriek die u in Customer Journey Analytics creeert, is deze waarde altijd vermeld zoals [!UICONTROL **Volledig verwerkte gegevens**]. Berekende metriek kan slechts gegevens van gebeurtenisdatasets omvatten. |
 | Toevoegen | Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u filters en functies ook toevoegen.<ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Wanneer u een filter naar een container sleept, wordt alles in die container gefilterd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere filters in een container stapelen.</li></ul> |
 | Pictogram tandwiel (metrisch type, kenmerk) | Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en de kenmerkmodellen opgeven. |
 | Plus (+)-pictogram | Hiermee kunt u een nieuwe component maken, zoals een nieuw filter (waarmee u naar de Filterbouwer gaat). |

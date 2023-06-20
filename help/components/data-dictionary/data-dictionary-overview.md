@@ -4,9 +4,9 @@ title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 9f1a96308fce7fb827cba43833df96098f05ef93
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Hieronder vindt u een aantal manieren waarop analysebeheerders het gegevenswoord
 
 * Werk componentenbeschrijvingen rechtstreeks bij in Analysis Workspace. Alle updates van componentbeschrijvingen in het gegevenswoordenboek worden weerspiegeld in de gegevensweergave.
 
-   Zo worden updates van componentbeschrijvingen in de gegevensweergave ook weerspiegeld in Analysis Workspace.
+  Zo worden updates van componentbeschrijvingen in de gegevensweergave ook weerspiegeld in Analysis Workspace.
 
-   Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een gegevensmening, zie [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md).
+  Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een gegevensmening, zie [Componentbeschrijvingen toevoegen](/help/components/add-component-descriptions.md).
 
 ## Het gegevenswoordenboek openen
 
@@ -59,12 +59,12 @@ U kunt het gegevenswoordenboek op de volgende manieren openen in Analysis Worksp
 
 * Van de **Gegevenswoordenboek** in de linkerspoorstaaf.
 
-   ![Pictogram Gegevenswoordenboek in linkerraster](assets/data-dictionary-access-icon.png)
+  ![Pictogram Gegevenswoordenboek in linkerraster](assets/data-dictionary-access-icon.png)
 
 * Van de **Gegevenswoordenboek** in de info-pop-up van een component.
 
-   ![Pictogram Gegevenswoordenboek in info-pop-up](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![Pictogram Gegevenswoordenboek in info-pop-up](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * Vanuit het menu: [!UICONTROL **Help**] > [!UICONTROL **Gegevenswoordenboek**].
 
@@ -74,7 +74,7 @@ Zie voor meer informatie over de verschillende opties in het gegevenswoordenboek
 
 De beheerders van Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens voor hun organisatie, zoals die in [Gezondheid gegevenswoordenboek controleren](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Als onderdeel van dit proces kunnen CJA-beheerders informatie over elke component in het gegevenswoordenboek bewerken, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Als onderdeel van dit proces kunnen Customer Journey Analytics-beheerders informatie over elke component in het gegevenswoordenboek bewerken, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Het gegevenswoordenboek verplaatsen, minimaliseren of sluiten
 
@@ -84,12 +84,12 @@ U kunt het venster Gegevenswoordenboek op de volgende manieren bewerken:
 
 * Sleep het naar een willekeurig gebied in Analysis Workspace
 
-   Als u Analysis Workspace sluit en weer opent, blijft het venster Gegevenswoordenboek op de locatie staan waar u het als laatste hebt verplaatst. <!--True?-->
+  Als u Analysis Workspace sluit en weer opent, blijft het venster Gegevenswoordenboek op de locatie staan waar u het als laatste hebt verplaatst. <!--True?-->
 
 * Minimaliseren
 
-   Als deze optie is geminimaliseerd, wordt het gegevenswoordenboek weergegeven als een blauw tabblad in de rechterbenedenhoek van Analysis Workspace.
+  Als deze optie is geminimaliseerd, wordt het gegevenswoordenboek weergegeven als een blauw tabblad in de rechterbenedenhoek van Analysis Workspace.
 
-   Wanneer u het blauwe tabblad selecteert, wordt het gegevenswoordenboek geopend voor de component die u het laatst hebt weergegeven.
+  Wanneer u het blauwe tabblad selecteert, wordt het gegevenswoordenboek geopend voor de component die u het laatst hebt weergegeven.
 
 * Sluiten

@@ -4,9 +4,9 @@ description: Hiermee worden nuttige rapporten over de gegevens van Google Analyt
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De cohortlijst staat u toe om te zien hoe lang het typisch voor gebruikers duurt
 
 ## Geavanceerde marketingtoewijzing gebruiken
 
-Met CJA kunt u geavanceerde attributiemodellen gebruiken voor gegevens over meerdere kanalen. In het volgende voorbeeld ziet u een vergelijking van het toepassen van Laatste aanraking, eerste aanraking, u-vormig, en algoritmische attributie van opbrengst aan de dimensie van de Groepering van het Kanaal van Google Analytics.
+Met Customer Journey Analytics kunt u geavanceerde attributiemodellen gebruiken voor gegevens over meerdere kanalen. In het volgende voorbeeld ziet u een vergelijking van het toepassen van Laatste aanraking, eerste aanraking, u-vormig, en algoritmische attributie van opbrengst aan de dimensie van de Groepering van het Kanaal van Google Analytics.
 
 ![Toekenning van marketing](../assets/mktg-attribution.png)
 
@@ -63,6 +63,6 @@ U kunt ook uw Web- en App-inkomsten toewijzen aan uw Google Ad Content. Het voor
 
 ![Google-advertentie](../assets/google-ad.png)
 
-Door gegevenssets te combineren in CJA kunt u in dit voorbeeld zien dat online advertenties enig effect hadden op producten die op uw mobiele app zijn aangeschaft. De volgende visualisatie laat zien dat inkomsten uit mobiele apps van Google Ads een extra $14k - $15k vertegenwoordigen, in vergelijking met alleen het web.
+Door gegevenssets te combineren in Customer Journey Analytics, kunt u in dit voorbeeld zien dat online advertenties enig effect hadden op producten die zijn aangeschaft op uw mobiele app. De volgende visualisatie laat zien dat inkomsten uit mobiele apps van Google Ads een extra $14k - $15k vertegenwoordigen, in vergelijking met alleen het web.
 
 ![Google en 2](../assets/google-ad2.png)

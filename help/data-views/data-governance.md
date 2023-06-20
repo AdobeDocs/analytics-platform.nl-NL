@@ -1,23 +1,23 @@
 ---
 title: Labels en beleid
-description: Leer hoe de gegevensetiketten en het beleid die in AEP worden bepaald gegevensmeningen en rapportering in CJA beïnvloeden.
+description: Leer hoe gegevenslabels en beleidsregels die in Adobe Experience Platform zijn gedefinieerd van invloed zijn op gegevensweergaven en rapportage in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: ba4b1e61891c21610e3bd84a41581b1f6cea6234
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # Labels en beleid
 
-Wanneer u een dataset in Experience Platform creeert, kunt u tot stand brengen [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in CJA.
+Wanneer u een dataset in Experience Platform creeert, kunt u tot stand brengen [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in Customer Journey Analytics.
 
-De volgende labels zijn van bijzonder belang voor CJA:
+De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
 
 * De `C8` label - **[!UICONTROL No measurement]**. Dit label geeft aan dat gegevens niet kunnen worden gebruikt voor analyses op de websites of apps van uw organisatie.
 
-* De `C12` label - **[!UICONTROL No General Data Export]**. Schemavelden met het label this way kunnen niet worden geëxporteerd of gedownload van CJA (via rapportage, export, API, enzovoort)
+* De `C12` label - **[!UICONTROL No General Data Export]**. Schemavelden met het label this way kunnen niet worden geëxporteerd of gedownload van Customer Journey Analytics (via rapportage, export, API, enzovoort)
 
 >[!NOTE]
 >
@@ -25,12 +25,12 @@ De volgende labels zijn van bijzonder belang voor CJA:
 
 De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid maken via de [Beleidsservice-API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
 
-In CJA worden twee door Adobe gedefinieerde beleidsregels weergegeven die van invloed zijn op rapportage en downloaden/delen:
+Er worden twee door Adobe gedefinieerde beleidsregels opgehaald in Customer Journey Analytics en dit heeft invloed op rapportage en downloaden/delen:
 
 * **[!UICONTROL Enforce Analytics]** beleid
 * **[!UICONTROL Enforce Download]** beleid
 
-## Gegevenslabels weergeven in CJA-gegevensweergaven
+## Gegevenslabels weergeven in gegevensweergaven Customer Journey Analytics
 
 De etiketten van gegevens die in Experience Platform werden gecreeerd worden getoond in drie plaatsen in het gebruikersinterface van gegevensmeningen:
 
@@ -52,7 +52,7 @@ Klikken **[!UICONTROL Apply]** om te zien welke componenten etiketten hebben in 
 
 ## Filter op beleid voor gegevensbeheer in gegevensweergaven
 
-U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van bepaalde elementen van de CJA- gegevensmening voor analytische of uitvoerdoel blokkeert.
+U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van bepaalde Customer Journey Analytics gegevens meningselementen voor analytics of de uitvoer gebruikt.
 
 Klik nogmaals op de knop [!UICONTROL filter] pictogram in de linkerspoorstaaf en onder **[!UICONTROL Data Governance]**, klikt u op **[!UICONTROL Policies]**:
 

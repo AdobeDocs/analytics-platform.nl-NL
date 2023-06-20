@@ -1,21 +1,21 @@
 ---
 title: Arrays van objecten gebruiken
-description: Begrijp hoe CJA over gegevenshiërarchieën rapporteert.
+description: Begrijp hoe Customer Journey Analytics over gegevenshiërarchieën rapporteert.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Arrays van objecten gebruiken
 
-Sommige platformschema&#39;s kunnen objectarrays hebben. CJA ondersteunt het opnemen en rapporteren van objectarrays binnen gebeurtenis-, lookup- en profielgegevens. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
+Sommige platformschema&#39;s kunnen objectarrays hebben. Adobe Customer Journey Analytics biedt ondersteuning voor het opnemen en rapporteren van objectarrays binnen gebeurtenis-, lookup- en profielgegevens. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
 
-In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de opdracht `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`) om de facetten van een product te scheiden, met komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. CJA breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
+In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de opdracht `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`) om de facetten van een product te scheiden, met komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. Customer Journey Analytics breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
 
 ## Zelfde gebeurtenisvoorbeeld
 
@@ -91,7 +91,7 @@ Gebruikend enkel de bovengenoemde gebeurtenis, tonen de volgende lijsten de rapp
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA kijkt selectief naar de dimensie en metriek van het voorwerp dat op de lijst wordt gebaseerd.
+Customer Journey Analytics kijkt selectief naar de afmetingen en metriek van het voorwerp dat op de lijst wordt gebaseerd.
 
 ```diff
 {
@@ -143,7 +143,7 @@ Als u over enkel garantieopbrengst wilde rapporteren, zou uw project gelijkaardi
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA bekijkt deze delen van de gebeurtenis om het rapport te produceren:
+Customer Journey Analytics bekijkt deze delen van de gebeurtenis om het rapport te produceren:
 
 ```diff
 {
@@ -245,7 +245,7 @@ Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die wo
 
 ### Metrische gegevens combineren
 
-In CJA worden metriek met dezelfde naam niet native gecombineerd als deze op verschillende objectniveaus staan.
+Customer Journey Analytics combineert native metriek met dezelfde naam niet als deze op verschillende objectniveaus staan.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

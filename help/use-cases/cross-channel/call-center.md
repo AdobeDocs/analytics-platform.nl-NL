@@ -4,9 +4,9 @@ description: Leer hoe te om een dataset tot stand te brengen die de gegevens van
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -41,14 +41,14 @@ Als u gegevens importeert in Platform, kunt u met deze tips meer inzicht krijgen
 
 ## De persoon-id samenstellen
 
-CJA vereist een gemeenschappelijke id om een [gecombineerde gegevensset](/help/connections/combined-dataset.md).
+Customer Journey Analytics vereist een gemeenschappelijke id om een [gecombineerde gegevensset](/help/connections/combined-dataset.md).
 
 * Als uw datasets reeds een gemeenschappelijke herkenningsteken op elke gebeurtenis over beide datasets hebben, kunt u deze stap overslaan en te werk gaan om een verbinding tot stand te brengen.
 * Als één van uw datasets een gemeenschappelijke herkenningsteken op slechts sommige gebeurtenissen heeft, kunt u gegevens verbinden gebruikend Analytics over het Kanaal. Zie [Overzicht van kanaalanalyse](/help/cca/overview.md) voor stappen om CCA voor deze twee datasets toe te laten.
 
-## Verbinding maken in CJA
+## Verbinding maken in Customer Journey Analytics
 
-[Verbinding maken](/help/connections/create-connection.md) in CJA.
+[Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics.
 
 * Als CCA wordt gebruikt, is een nieuwe gestikte dataset beschikbaar voor u aan gebruik. Gebruik het veld Nieuw gekoppelde id als de persoon-id.
 * Anders, kunt u zowel originele Web als vraagcentrum datasets voor gebruik in de verbinding selecteren.

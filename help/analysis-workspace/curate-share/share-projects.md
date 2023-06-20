@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1861'
 ht-degree: 0%
 
 ---
@@ -113,11 +113,11 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 
 >[!NOTE]
 >
->Houd rekening met het volgende wanneer u een Analysis Workspace-project deelt met mensen die geen toegang hebben tot CJA:
+>Houd rekening met het volgende wanneer u een Analysis Workspace-project deelt met mensen die geen toegang hebben tot Customer Journey Analytics:
 >
->* De capaciteit om een project op deze manier te delen kan door de beheerder CJA worden onbruikbaar gemaakt, zoals die in [Voorkeuren](/help/analysis-workspace/user-preferences.md). Als u geen project kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder CJA deze capaciteit onbruikbaar gemaakt.
+>* De capaciteit om een project op deze manier te delen kan door de beheerder van de Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [Voorkeuren](/help/analysis-workspace/user-preferences.md). Als u een project niet kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder van Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
 >
->* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot CJA.
+>* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang tot Customer Journey Analytics hebben.
 >
 >* Gebruikers met wie u deelt, kunnen alle filters weergeven die tijdens het project op het project zijn toegepast [kromming](curate.md).
 > 
@@ -147,17 +147,17 @@ Een Analysis Workspace-project met iedereen delen:
 
    De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker slechts worden overgebracht wanneer de projecteigendom, zoals die in wordt beschreven wordt overgebracht [Gebruikerselementen overdragen of verlopen van account instellen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) in de handleiding Analytics Admin.
 
-1. Kies of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door uw CJA-beheerder):
+1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van de Customer Journey Analytics):
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
      Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Adobe Analytics te hebben.
 
-     CJA-beheerders kunnen deze voorkeur voor het bedrijf configureren, zoals wordt beschreven in [Voorkeuren](/help/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
+     De beheerders van Customer Journey Analytics kunnen deze voorkeur voor het bedrijf vormen, zoals die in wordt beschreven [Voorkeuren](/help/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
-      * Als deze optie niet zichtbaar is, heeft uw CJA-beheerder deze functie niet ingeschakeld.
+      * Als deze optie niet zichtbaar is, heeft de beheerder van de Customer Journey Analytics deze functie niet ingeschakeld.
 
-      * Als deze optie wordt toegelaten en u het niet kunt onbruikbaar maken, betekent dit dat uw beheerder CJA Experience Cloud authentificatie voor iedereen vereist die tot de projecten van Analysis Workspace toegang heeft. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
+      * Als deze optie wordt toegelaten en u het niet kunt onbruikbaar maken, betekent dit dat uw beheerder van Customer Journey Analytics Experience Cloud authentificatie voor iedereen vereist die tot de projecten van Analysis Workspace toegang heeft. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
 
 1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) om de koppeling naar het systeemklembord te kopiëren.
 

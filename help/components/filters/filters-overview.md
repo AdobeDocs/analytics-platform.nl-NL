@@ -2,9 +2,9 @@
 title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '967'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 
 ## Filtersjabloon buiten de box {#template}
 
-De traditionele Analytics komt met talrijke uit-van-de-doos malplaatjefilters (filters) en berekende metriek. Veel van deze regels zijn niet van toepassing op CJA of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in CJA.
+De traditionele Analytics komt met talrijke uit-van-de-doos malplaatjefilters (filters) en berekende metriek. Veel van deze regels zijn niet van toepassing in Customer Journey Analytics of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in Customer Journey Analytics.
 
 | Filternaam | Beschrijving |
 | --- | --- |

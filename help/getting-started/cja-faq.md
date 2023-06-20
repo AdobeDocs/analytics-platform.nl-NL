@@ -4,16 +4,16 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen
 
-[!UICONTROL Customer Journey Analytics] (CJA) is ons product van de volgende generatie. Hieronder volgen antwoorden op veelgestelde vragen over CJA. Voor meer informatie raadpleegt u [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md).
+Adobe Customer Journey Analytics is ons product van de volgende generatie. Hier volgen antwoorden op veelgestelde vragen over Customer Journey Analytics. Voor meer informatie raadpleegt u [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 ## 1. Vereisten {#prerequisites}
 
@@ -70,7 +70,7 @@ Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van o
 
 +++**Wat is het verwachte gedrag voor niet-gestikte verslagen van de profieldataset?**
 
-**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding CJA door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een het profieldataset van CRM. 40% van het CRM-gegevensbestand `CRMid` aanwezig in de de gebeurtenisdataset van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in CJA. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
+**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding van Customer Journey Analytics door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een het profieldataset van CRM. 40% van het CRM-gegevensbestand `CRMid` aanwezig in de de gebeurtenisdataset van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in Customer Journey Analytics. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
 
 +++
 
@@ -118,7 +118,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 +++
 
 
-+++**Wat zijn de grenzen voor het opnemen voorbij of toekomstige data/tijdstempels in CJA gebeurtenisdatasets?**
++++**Wat zijn de grenzen voor het opnemen voorbij of toekomstige data/tijdstempels in de gegevensreeksen van de Customer Journey Analytics gebeurtenis?**
 
 <ul><li>Met betrekking tot eerdere datums/tijdstempels: Gebeurtenisgegevens tot 10 jaar oud.</li><li>Met betrekking tot toekomstige datums/tijdstempels: Gebeurtenisgegevens (voorspellend) tot 1 maand in de toekomst.</li></ul>
 
@@ -128,17 +128,17 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 ## 4. Latentieoverwegingen {#latency}
 
 >[!NOTE]
->Er is geen vaste gegevensgrootte in CJA en dus kan Adobe zich niet vastleggen op een standaardinnametijd. We werken actief aan het verkleinen van deze latentie door nieuwe updates en optimalisatie van inname.
+>Er is geen vaste gegevensgrootte in Customer Journey Analytics en Adobe kan zich dus niet vastleggen op een standaardinnametijdstip. We werken actief aan het verkleinen van deze latentie door nieuwe updates en optimalisatie van inname.
 
 +++**Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] op [!UICONTROL Adobe Experience Platform]?**
 
-<ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in AEP. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>
+<ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>
 
 +++
 
 ## 5. Rolvenster instellen voor [!UICONTROL Connection] gegevensbewaring {#data-retention}
 
-De [**[!UICONTROL Enable rolling data window]**instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection) Hiermee kunt u CJA-gegevensbewaring definiëren als een schuifvenster in maanden (3 maanden, 6 maanden enz.). Deze is ingesteld op een [!UICONTROL connection] niveau, niet op een [!UICONTROL dataset] niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
+De [**[!UICONTROL Enable rolling data window]**instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection) Hiermee kunt u de gegevensbewaring van Customer Journey Analytics definiëren als een schuifvenster in maanden (3 maanden, 6 maanden enz.). Deze is ingesteld op een [!UICONTROL connection] niveau, niet op een [!UICONTROL dataset] niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
@@ -148,16 +148,16 @@ Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zan
 
 | Als u... | Dit gebeurt... |
 | --- | --- |
-| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom naar alle [!UICONTROL Customer Journey Analytics] verbindingen met gegevenssets in die sandbox. Momenteel [!UICONTROL Connections] in CJA gekoppeld aan de verwijderde sandbox wordt niet automatisch verwijderd. |
+| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom naar alle [!UICONTROL Customer Journey Analytics] verbindingen met gegevenssets in die sandbox. Momenteel [!UICONTROL Connections] in Customer Journey Analytics die aan de verwijderde sandbox is gekoppeld, wordt niet automatisch verwijderd. |
 | Schema&#39;s verwijderen in [!UICONTROL Adobe Experience Platform], maar niet de dataset(s) die aan dit schema zijn gekoppeld | [!UICONTROL Adobe Experience Platform] het schrappen van [!UICONTROL schemas] die een of meer [!UICONTROL datasets] geassocieerd met hen. Nochtans, kan Admin met de aangewezen reeks rechten de datasets eerst schrappen en dan het schema schrappen. |
-| Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform] gegevensmeer | Het schrappen van een dataset in het gegevensmeer van AEP zal gegevensstroom van die dataset aan om het even welke Verbindingen van CJA tegenhouden die die dataset omvatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van bijbehorende Verbindingen CJA. |
+| Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform] gegevensmeer | Het schrappen van een dataset in het gegevensmeer van Adobe Experience Platform zal gegevensstroom van die dataset aan om het even welke Verbindingen van de Customer Journey Analytics tegenhouden die die dataset omvatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van bijbehorende Verbindingen van Customer Journey Analytics. |
 | Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics] | Contacteer uw Team van de Rekening van Adobe om in motie het proces voor het schrappen van een dataset binnen een verbinding te plaatsen die is bewaard. |
-| Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform]) | Als een partij uit een [!UICONTROL Adobe Experience Platform] dataset, zal de zelfde partij uit om het even welke Verbindingen worden verwijderd CJA die die specifieke partij bevatten.  CJA is op de hoogte gesteld van het verwijderen van partijen in [!UICONTROL Adobe Experience Platform]. |
+| Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform]) | Als een partij uit een [!UICONTROL Adobe Experience Platform] dataset, zal de zelfde partij uit om het even welke Verbindingen van Customer Journey Analytics worden verwijderd die die specifieke partij bevatten.  Customer Journey Analytics is in kennis gesteld van het verwijderen van partijen in [!UICONTROL Adobe Experience Platform]. |
 | Een batch verwijderen **tijdens de inname** in [!UICONTROL Customer Journey Analytics] | Als er slechts één partij in de dataset is, zullen geen gegevens of gedeeltelijke gegevens van die partij in verschijnen [!UICONTROL Customer Journey Analytics]. De inname wordt teruggedraaid. Als, bijvoorbeeld, er 5 partijen in de dataset zijn en 3 van hen reeds zijn opgenomen toen de dataset werd geschrapt, zullen de gegevens van die 3 partijen in verschijnen [!UICONTROL Customer Journey Analytics]. |
 | Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
 | Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutenmelding zal erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer werkend zullen zijn. |
 
-## 7. Overwegingen bij het samenvoegen van rapportsuites in CJA {#merge-reportsuite}
+## 7. Overwegingen bij het samenvoegen van rapportsuites in Customer Journey Analytics {#merge-reportsuite}
 
 Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics-bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Houd rekening met deze vertakkingen bij het samenvoegen van twee of meer Adobe Analytics-rapportreeksen.
 
@@ -166,7 +166,7 @@ Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics
 | Variabelen | Variabelen zoals [!UICONTROL eVars] mag niet in een andere dan de rapporteereeksen worden uitgelijnd. eVar 1 in rapportsuite 1 verwijst bijvoorbeeld naar **[!UICONTROL Page]**. In rapportsuite 2 kan eVar1 verwijzen naar **[!UICONTROL Internal Campaign]**, hetgeen leidt tot gemengde en onjuiste rapportage. |
 | [!UICONTROL Sessions] en [!UICONTROL People] aantal | Ze worden gededupliceerd door de rapportsuites. Hierdoor komen aantallen mogelijk niet overeen. |
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders]) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID]). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, metriek als [!UICONTROL Orders] mag niet worden opgeteld bij hele rapportopties. |
-| Valuta | Valutaconversie wordt nog niet ondersteund in CJA. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
+| Valuta | Valuta-conversie wordt nog niet ondersteund in Customer Journey Analytics. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
 | [!UICONTROL Persistence] | [Persistentie](../data-views/component-settings/persistence.md) breidt zich over rapportseries uit, die gevolgen hebben [!UICONTROL filters], [!UICONTROL attribution], enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden in één bestand combineert [!UICONTROL lookup] dataset, kon u problemen ontmoeten. |
 
@@ -197,7 +197,7 @@ Nog niet, maar we werken actief aan het leveren van deze capaciteit.
 
 +++**Wat gebeurt er met onze bestaande segmenten/berekende maatstaven?**
 
-[!UICONTROL Customer Journey Analytics] gebruikt niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan een AEP-schema. Dit betekent dat geen van de bestaande segmenten of statistische gegevens compatibel zijn met [!UICONTROL Customer Journey Analytics].
+[!UICONTROL Customer Journey Analytics] gebruikt niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan een Adobe Experience Platform-schema. Dit betekent dat geen van de bestaande segmenten of statistische gegevens compatibel zijn met [!UICONTROL Customer Journey Analytics].
 
 +++
 

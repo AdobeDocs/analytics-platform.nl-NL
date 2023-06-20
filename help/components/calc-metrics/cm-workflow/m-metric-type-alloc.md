@@ -3,9 +3,9 @@ description: Meer informatie over
 title: Type cijfers en attributie
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 4%
 
 ---
@@ -31,4 +31,4 @@ Om metrisch type te specificeren wanneer het bouwen van berekende metrisch:
 
 ## Attributie
 
-Voor informatie over attributie in CJA raadpleegt u [Instellingen van component Attributie](/help/data-views/component-settings/attribution.md).
+Voor informatie over attributie in Customer Journey Analytics raadpleegt u [Instellingen van component Attributie](/help/data-views/component-settings/attribution.md).

@@ -2,18 +2,18 @@
 title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
 
 # Soorten publiek maken en publiceren
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics (CJA) wordt geïdentificeerd aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan wordt geïdentificeerd [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
-Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis te nemen van het CJA-publiek.
+Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis te nemen van het begrip Customer Journey Analytics-publiek.
 
 ## publiek maken {#create}
 
@@ -38,7 +38,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Name] | De naam van het publiek. |
    | [!UICONTROL Tags] | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een bestaande tag gebruiken of een nieuwe tag invoeren. |
    | [!UICONTROL Description] | Voeg een goede beschrijving van het publiek toe om het van anderen te onderscheiden. |
-   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor de vernieuwingsfrequentie van 4 uur geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw CJA-machtiging.</li></ul> |
+   | [!UICONTROL Refresh frequency] | De frequentie waarmee u het publiek wilt vernieuwen.<ul><li>U kunt een eenmalig publiek maken (standaard) dat niet hoeft te worden vernieuwd. Dit kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.</li><li>U kunt andere vernieuwingsintervallen selecteren. Voor de vernieuwingsfrequentie van 4 uur geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw Customer Journey Analytics machtiging.</li></ul> |
    | Vervaldatum | Wanneer het publiek stopt met vernieuwen. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het verouderen van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het publiek verloopt. |
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale duur is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
@@ -74,38 +74,38 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
 ## Wat gebeurt er nadat een publiek is gemaakt? {#after-audience-created}
 
-Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek CJA. Een AEP-streaming segment wordt alleen gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
+Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het stromen segment voor elk nieuw publiek van Customer Journey Analytics. Er wordt alleen een Adobe Experience Platform-streaming segment gemaakt als uw organisatie is ingesteld op segmentatie bij streaming.
 
-* Het AEP-segment heeft dezelfde naam/beschrijving als het CJA-publiek, maar de naam wordt met de CJA-gebruikers-id toegevoegd om ervoor te zorgen dat deze uniek is.
-* Als de naam/beschrijving van het CJA-publiek verandert, geeft de naam/beschrijving van het AEP-segment ook die wijziging weer.
-* Als een CJA-publiek wordt verwijderd door een gebruiker, wordt het AEP-segment NIET verwijderd. De reden is dat het publiek CJA later kan worden verwijderd.
+* Het Adobe Experience Platform-segment heeft dezelfde naam/beschrijving als het Customer Journey Analytics-publiek, maar aan de naam wordt de Customer Journey Analytics-gebruikers-id toegevoegd om ervoor te zorgen dat deze uniek is.
+* Als de naam/beschrijving van het Customer Journey Analytics-publiek verandert, geeft de naam/beschrijving van het Adobe Experience Platform-segment die wijziging ook weer.
+* Als een gebruiker een Customer Journey Analytics-publiek verwijdert, wordt het Adobe Experience Platform-segment NIET verwijderd. De reden is dat het publiek van de Customer Journey Analytics later kan worden verwijderd.
 
 ## Latentieoverwegingen {#latency}
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-![Latentie van AEP naar CJA](assets/latency-diagram.png)
+![Latentie van Adobe Experience Platform naar Customer Journey Analytics](assets/latency-diagram.png)
 
 | Aantal | Latentiepunt | Latentieduur |
 | --- | --- | --- |
 | Niet weergegeven | Adobe Analytics to Analytics Source Connector (A4T) | Tot 30 minuten |
 | 1 | Gegevensopname in Data Lake (van Analytics Source Connector of andere bronnen) | Tot 90 minuten |
-| 2 | Gegevensopname van Experience Platform Data Lake naar CJA | Tot 90 minuten |
+| 2 | Gegevensopname van Experience Platform Data Lake naar Customer Journey Analytics | Tot 90 minuten |
 | 3 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Ongeveer 60 minuten |
 | 4 | Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
-| 5 | Doel maken in AEP: Het nieuwe segment activeren | 1-2 uur |
+| 5 | Doel maken in Adobe Experience Platform: Het nieuwe segment activeren | 1-2 uur |
 
 {style="table-layout:auto"}
 
-## CJA-publiek gebruiken in Experience Platform {#audiences-aep}
+## Customer Journey Analytics-publiek gebruiken in Experience Platform {#audiences-aep}
 
-CJA neemt alle namespace en identiteitskaart combinaties van uw gepubliceerd publiek en stroomt hen in het Profiel van de Klant in real time (RTCP). CJA verzendt het publiek naar het Experience Platform met de primaire identiteitsreeks volgens wat als geselecteerd werd [!UICONTROL Person ID] wanneer de verbinding werd gevormd.
+Customer Journey Analytics neemt alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). Customer Journey Analytics stuurt het publiek naar het Experience Platform met de primaire identiteitsset, afhankelijk van wat als de [!UICONTROL Person ID] wanneer de verbinding werd gevormd.
 
 RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op alle apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
-U kunt CJA-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
+U kunt Customer Journey Analytics-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
 
-U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
+U kunt Customer Journey Analytics-publiek naar de segmentdefinitie voor Adobe Experience Platform-segmenten slepen.
 
 ![](assets/audiences-aep.png)
 
@@ -113,15 +113,15 @@ U kunt CJA-publiek naar de segmentdefinitie voor AEP-segmenten slepen.
 
 Veelgestelde vragen over het publiceren van publiek.
 
-+++**Wat gebeurt er als een gebruiker geen lid meer is van een publiek in CJA?**
++++**Wat gebeurt er als een gebruiker geen lid meer is van een publiek in Customer Journey Analytics?**
 
-In dit geval wordt vanuit CJA een afsluitgebeurtenis naar het Experience Platform verzonden.
+In dit geval wordt een afsluitgebeurtenis vanuit Customer Journey Analytics naar het Experience Platform verzonden.
 
 +++
 
-+++**Wat gebeurt er als u een publiek verwijdert in CJA?**
++++**Wat gebeurt er als u een publiek in Customer Journey Analytics verwijdert?**
 
-Wanneer een publiek CJA wordt geschrapt, zal dat publiek niet meer in de interface van het Experience Platform verschijnen. Er zijn echter geen profielen die aan dat publiek zijn gekoppeld, die in het Platform worden verwijderd.
+Wanneer een publiek van de Customer Journey Analytics wordt geschrapt, zal dat publiek niet meer in de interface van het Experience Platform verschijnen. Er zijn echter geen profielen die aan dat publiek zijn gekoppeld, die in het Platform worden verwijderd.
 
 +++
 
@@ -131,13 +131,13 @@ Ja, dat zal het wel.
 
 +++
 
-+++**Verzendt CJA de publieksgegevens over als pijpleidingsgebeurtenissen of als plat dossier dat ook naar gegevens meer gaat?**
++++**Verstuurt Customer Journey Analytics de publieksgegevens over als pijpleidinggebeurtenissen of als een plat bestand dat ook naar data Lake gaat?**
 
-CJA stroomt de gegevens in RTCP via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
+Customer Journey Analytics stromen de gegevens in RTCP via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
 
 +++
 
-+++**Welke identiteiten verzendt CJA?**
++++**Welke identiteiten verzendt Customer Journey Analytics?**
 
 Welke identiteit/naamruimteparen zijn opgegeven in het dialoogvenster [Verbinding instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection). Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;identiteitskaart van de Persoon&quot;willen gebruiken.
 
@@ -145,11 +145,11 @@ Welke identiteit/naamruimteparen zijn opgegeven in het dialoogvenster [Verbindin
 
 +++**Welke ID wordt gekozen als primaire identiteit?**
 
-Zie hierboven. We sturen slechts één identiteit per CJA &quot;persoon&quot;.
+Zie hierboven. We sturen slechts één identiteit per Customer Journey Analytics &quot;persoon&quot;.
 
 +++
 
-+++**Verwerkt RTCP ook de CJA- berichten? Kan CJA identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
++++**Verwerkt RTCP ook de Customer Journey Analytics berichten? Kan Customer Journey Analytics identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
 
 Nee. We sturen slechts één identiteit per &quot;persoon&quot;, dus er zouden geen grafiekranden zijn voor RTCP om te verbruiken.
 

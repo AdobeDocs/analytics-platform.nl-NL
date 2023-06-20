@@ -3,20 +3,20 @@ title: Dimensie Lange staart
 description: Verklaart de afmetingspost "Lange Staart"en waarom het in rapportering verschijnt.
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
 # Dimensie-item met lange staart
 
-Als u een dimensie gebruikt die een groot aantal unieke waarden bevat, verschijnt soms een waarschuwing met de volgende tekst: **[!UICONTROL Results Truncated]**.  Dit betekent dat de CJA van de rapporterende architectuur teveel unieke waarden gebruikte om efficiënt te verwerken. Dit heeft tot gevolg. zij heeft de punten geschrapt die zij het minst belangrijk achtte .
+Als u een dimensie gebruikt die een groot aantal unieke waarden bevat, verschijnt soms een waarschuwing met de volgende tekst: **[!UICONTROL Results Truncated]**.  Dit betekent dat het gebruik van de Customer Journey Analytics van de rapporterende architectuur te veel unieke waarden bevatte om efficiënt te verwerken. Dit heeft tot gevolg. zij heeft de punten geschrapt die zij het minst belangrijk achtte .
 
-## CJA-verwerkingsarchitectuur en unieke waarden
+## Customer Journey Analytics-verwerkingsarchitectuur en unieke waarden
 
-CJA verwerkt rapporten op het tijdstip dat zij in werking worden gesteld, die de gecombineerde dataset aan een aantal servers verdelen. De gegevens per verwerkingsserver worden gegroepeerd door identiteitskaart van de Persoon, betekenend dat één enkele verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra de server klaar is met de verwerking, worden de verwerkte gegevens naar een aggregatorserver verzonden. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
+Customer Journey Analytics verwerkt rapporten op het tijdstip dat zij in werking worden gesteld, die de gecombineerde dataset aan een aantal servers verdelen. De gegevens per verwerkingsserver worden gegroepeerd door identiteitskaart van de Persoon, betekenend dat één enkele verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra de server klaar is met de verwerking, worden de verwerkte gegevens naar een aggregatorserver verzonden. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
 
 Als een afzonderlijke server een resultaatset samenvoegt die groter is dan een formaatdrempel, worden de resultaten afgebroken voordat ze worden teruggestuurd. Dit houdt het netwerkverkeer en de samenvoeging binnen grenzen om voor snelle rapportering toe te staan.  Omdat het de resultaten met slechts de mening van zijn eigen gegevens beknot, is het mogelijk (hoewel onwaarschijnlijk) dat de punten die in Analysis Workspace worden getoond onjuiste metrische waarden hebben.
 
@@ -26,7 +26,7 @@ De server kiest welke punten om te verwerpen die op metrisch wordt gebaseerd voo
 
 In eerdere versies van Adobe Analytics werd een andere verwerkingsarchitectuur gebruikt. De gegevens werden verwerkt op het moment dat ze werden verzameld. De punten van Dimension werden geplaatst onder &quot;Laag-Verkeer&quot;nadat een afmeting unieke waarden 500K bereikte, en toepasten agressievere het filtreren bij unieke waarden 1M. Het aantal &quot;Unieke waarden&quot; is opnieuw ingesteld aan het begin van elke kalendermaand. de verwerkte gegevens permanent waren; Er was geen manier om bestaande gegevens uit &quot;Laag-Verkeer&quot; te halen.
 
-In CJA, zijn de afmetingspunten slechts afgebroken als de resultaten van een rapport te groot zijn. De verwerkte gegevens zijn niet permanent, wat betekent dat u de beknotting kunt verminderen of elimineren door uw rapport te wijzigen.
+In Customer Journey Analytics, zijn de afmetingspunten slechts afgekapt als de resultaten van een rapport te groot zijn. De verwerkte gegevens zijn niet permanent, wat betekent dat u de beknotting kunt verminderen of elimineren door uw rapport te wijzigen.
 
 ## Het dimensiemenu &#39;Lange staart&#39; verkleinen
 

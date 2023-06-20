@@ -1,12 +1,12 @@
 ---
 description: Hiermee geeft u de bovenste 5-waarden weer voor afmetingen die niet bij de tijd horen (en 15 voor tijdafmetingen).
-title: Een voorvertoning weergeven van afmetingen in CJA Workspace
+title: Afmetingen voorvertonen in Customer Journey Analytics Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 26%
+source-wordcount: '194'
+ht-degree: 25%
 
 ---
 

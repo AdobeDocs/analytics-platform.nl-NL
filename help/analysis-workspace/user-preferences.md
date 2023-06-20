@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: b2931e40bd07b8bd3421216c1f1565bea7e3cd5d
+source-git-commit: c7e6dd4fb9a4dd517464572815e09f698b1761ed
 workflow-type: tm+mt
-source-wordcount: '3114'
+source-wordcount: '3116'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ U kunt instellingen voor Analysis Workspace en de bijbehorende componenten voor 
 
 ## Algemene voorkeuren
 
-Algemene voorkeuren zijn van toepassing op uw CJA-ervaring in de browser. Voor informatie over hoe u deze voorkeuren kunt openen, raadpleegt u [Voorkeuren bijwerken](#update-preferences).
+Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics-ervaring in de browser. Voor informatie over hoe u deze voorkeuren kunt openen, raadpleegt u [Voorkeuren bijwerken](#update-preferences).
 
 | Voorkeur | Opties |
 | --- | --- |

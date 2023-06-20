@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: '2457'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Schermafbeeldingen met scoreborden voor deze pagina zijn gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit CJA. De gebruikersinterface is bijna identiek.
+>Schermafbeeldingen met scoreborden voor deze pagina zijn gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit Customer Journey Analytics. De gebruikersinterface is bijna identiek.
 
 Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een getimede lay-out, zoals hieronder getoond:
 
@@ -76,7 +76,7 @@ U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Chan
 
 ## Filters toepassen {#filters}
 
-Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in CJA) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
+Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in Customer Journey Analytics) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
 
 Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
 
@@ -163,7 +163,7 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterspoorstaaf de eigenschappen en kenmerken weer die aan die tegel en zijn detaildia zijn gekoppeld. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door filters toe te passen. Segmenten zijn filters in CJA.
+Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterspoorstaaf de eigenschappen en kenmerken weer die aan die tegel en zijn detaildia zijn gekoppeld. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door filters toe te passen. Segmenten zijn filters in Customer Journey Analytics.
 
 ![Eigenschappen, tegel](assets/properties-tile-new.png)
 

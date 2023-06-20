@@ -1,17 +1,17 @@
 ---
-title: Bindingsafmetingen en metriek gebruiken in CJA
+title: Bindingsafmetingen en metriek gebruiken in Customer Journey Analytics
 description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarrays.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 71c633f259b25f30d474ab19f714935b074dfc0c
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1340'
 ht-degree: 1%
 
 ---
 
 
-# Bindingsafmetingen en metriek gebruiken in CJA
+# Bindingsafmetingen en metriek gebruiken in Customer Journey Analytics
 
 Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden voorbij de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe aanbiedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
 
@@ -19,7 +19,7 @@ Hoewel u bindingsdimensies kunt gebruiken met gebeurtenisgegevens op hoofdniveau
 
 ## Voorbeeld 1: Bindingsdimensies gebruiken om aanvullende productkenmerken aan een aankoop toe te wijzen
 
-U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert CJA de gebonden dimensie en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
+U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert Customer Journey Analytics de gebonden afmeting en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
 
 1. Een bezoeker bekijkt een productpagina op een wasmachine.
 
@@ -82,7 +82,7 @@ U kunt naar het gegevensweergavebeheer gaan en de productkleur aan de productnaa
 
 ![Dimensie binding](../assets/binding-dimension.png)
 
-Wanneer u dit persistentiemodel instelt, neemt CJA nota van de productnaam wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
+Wanneer u dit persistentiemodel instelt, neemt Customer Journey Analytics de productnaam in wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
 
 | product.color | omzet |
 | --- | --- |
@@ -263,7 +263,7 @@ In Analysis Workspace zou het resulterende verslag er als volgt uitzien:
 | tennisracket | $34.99 |
 | schoenen | $79.99 |
 
-CJA detecteert automatisch de relatie tussen de geselecteerde dimensie en de bindingsdimensie. Wanneer de bindingsdimensie zich in een objectenarray bevindt terwijl de geselecteerde dimensie zich op een hoger niveau bevindt, is een bindingsmetrische waarde vereist. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In het bovenstaande voorbeeld bevat de pagina met zoekresultaten altijd een zoekterm en een metrische zoekopdracht.
+Customer Journey Analytics detecteert automatisch de relatie tussen de geselecteerde dimensie en de bindingsdimensie. Wanneer de bindingsdimensie zich in een objectenarray bevindt terwijl de geselecteerde dimensie zich op een hoger niveau bevindt, is een bindingsmetrische waarde vereist. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In het bovenstaande voorbeeld bevat de pagina met zoekresultaten altijd een zoekterm en een metrische zoekopdracht.
 
 Als u de zoekterm instelt op dit persistentiemodel, wordt de volgende logica uitgevoerd:
 
@@ -353,7 +353,7 @@ Analysis Workspace zou de tweede aflevering van Orangey correct aan de zoekterm 
 
 ## Voorbeeld 4: Evalueer browse vs. onderzoeksgedrag in een detailhandelplaatsen
 
-U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele met een bindende afmeting plaatst, houdt CJA rekening met de persisted waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Neem het volgende voorbeeld waar `product_finding_method` wordt ingesteld op een gebeurtenis en vervolgens gebonden aan de gebeurtenis &#39;Winkelwagentjes toevoegen&#39; op de volgende gebeurtenis.
+U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele met een bindende afmeting plaatst, houdt Customer Journey Analytics rekening met de persisted waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Neem het volgende voorbeeld waar `product_finding_method` wordt ingesteld op een gebeurtenis en vervolgens gebonden aan de gebeurtenis &#39;Winkelwagentjes toevoegen&#39; op de volgende gebeurtenis.
 
 1. Een bezoeker voert een zoekopdracht uit naar `"camera"`. Er zijn geen producten ingesteld op deze pagina.
 

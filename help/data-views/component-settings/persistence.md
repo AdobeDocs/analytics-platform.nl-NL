@@ -4,10 +4,10 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 7%
 
 ---
 
@@ -78,7 +78,7 @@ Details over de beschikbare vervalinstellingen.
 
 Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
-Zie [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
+Zie [Bindingsafmetingen en metriek gebruiken in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden over hoe u op effectieve wijze bindingsdimensies kunt gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -88,4 +88,4 @@ Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bind
 
 Deze instelling wordt alleen weergegeven wanneer de Dimension Binding lager is in de objectarray dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
 
-Zie het tweede voorbeeld onder [Het gebruiken van bindende dimensies en metriek in CJA](../../use-cases/data-views/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.
+Zie het tweede voorbeeld onder [Bindingsafmetingen en metriek gebruiken in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.

@@ -1,14 +1,14 @@
 ---
-title: Een gegevensbereik in CJA selecteren in Report Builder
-description: Beschrijft hoe te om de kalender, het rollen data, en douaneuitdrukkingen in Report Builder voor CJA te gebruiken
+title: Een gegevensbereik in Report Builder selecteren in Customer Journey Analytics
+description: Beschrijft hoe te om de kalender, het rollen data, en douaneuitdrukkingen in Report Builder voor Customer Journey Analytics te gebruiken
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1004'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ In de volgende tabel staan voorbeelden van datumverwijzingen.
 
 | Datumverwijzing | Type | Beschrijving |
 |----------------|--------------|----------------------------|
-| 01-01-10 | Statische datum | Ingevoerd in ISO-datumnotatie |
+| 1/1/10 | Statische datum | Ingevoerd in ISO-datumnotatie |
 | td | Roldatum | Begin van huidige dag |
 | tw | Roldatum | Begin van huidige week |
 | tm | Roldatum | Begin van huidige maand |
@@ -143,9 +143,9 @@ In de volgende tabel worden voorbeelden van datumoperatoren weergegeven.
 |----------------|---------|--------------------|
 | +6d | Dag | 6 dagen toevoegen aan de datumreferentie |
 | +1w | Week | Eén volledige week toevoegen aan de Date Reference |
-| -2 m | Maand | 2 volledige maanden aftrekken van de datumreferentie |
+| -2m | Maand | 2 volledige maanden aftrekken van de datumreferentie |
 | -4q | Kwart | Vier kwartalen aftrekken van de datumreferentie |
-| -1 y | Jaar | Eén jaar aftrekken van de datumreferentie |
+| -1y | Jaar | Eén jaar aftrekken van de datumreferentie |
 
 #### Datumexpressies
 
@@ -157,7 +157,7 @@ In de volgende tabel staan voorbeelden van datumexpressies.
 | tm-1d | Laatste dag van vorige maand |
 | td-52w | Dezelfde dag, 52 weken geleden |
 | tm-11m-1d | Laatste dag van dezelfde maand vorig jaar |
-| &quot;2020-09-06&quot; | 9 september 2020 |
+| “2020-09-06” | 9 september 2020 |
 
 ## Datumbereik van cel
 

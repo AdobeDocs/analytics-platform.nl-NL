@@ -2,9 +2,9 @@
 title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Wanneer u filters toepast op een vrije-vormproject, zijn er verschillende andere
 
 | Handeling | Beschrijving |
 | --- | --- |
-| Filter van selectie maken | Maak een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een CJA-filter.<p> 1. Selecteer welke tabelrijen u wilt opnemen in het filter.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
+| Filter van selectie maken | Maak een inlinefilter. Dit filter is alleen van toepassing op het geopende project en wordt niet opgeslagen als een Customer Journey Analytics-filter.<p> 1. Selecteer welke tabelrijen u wilt opnemen in het filter.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Filter van selectie maken*. |
 | Werkruimte [!UICONTROL Components] > [!UICONTROL New Filter] | Geeft de Filter Builder weer. Zie [Filter Builder](/help/components/filters/filter-builder.md) voor meer informatie over filteren. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) of [Cursieve projecten](/help/analysis-workspace/curate-share/curate.md)leert u hoe de filters die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
 | Filters gebruiken als afmetingen | In de volgende video wordt getoond hoe u filters als afmetingen kunt gebruiken:  <p>[Filters gebruiken als afmetingen in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |

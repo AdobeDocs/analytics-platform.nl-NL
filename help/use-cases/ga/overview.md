@@ -1,9 +1,10 @@
 ---
 title: Gegevens migreren van Google Analytics naar Customer Journey Analytics
 description: Leer de overkoepelende workflow voor het verplaatsen van gegevens van Google Analytics naar Adobe Experience Platform en het weergeven van rapporten in Customer Journey Analytics.
-source-git-commit: 7c195453490499cc42e7d5b2f2d111e2654f918c
+exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,13 @@ Workflows worden verschaft voor zowel historische gegevens als actuele gegevensv
 
 Bij het verzamelen van historische gegevens (backfill) worden gegevens uit Google geëxporteerd en geïmporteerd in Adobe Experience Platform. Zie [Gegevens van Google Analytics opnemen in Adobe Experience Platform](backfill.md).
 
-Als u historische gegevens eenmaal in het Platform hebt opgenomen, kunt u [Huidige gegevens streaming configureren](streaming.md)of de rapportage van teruggevulde gegevens in CJA onmiddellijk starten door [Verbinding maken](/help/connections/create-connection.md).
+Als u historische gegevens eenmaal in het Platform hebt opgenomen, kunt u [Huidige gegevens streaming configureren](streaming.md)of de rapportage van teruggevulde gegevens in Customer Journey Analytics door onmiddellijk starten [Verbinding maken](/help/connections/create-connection.md).
 
 ## Een bestaande Google Analytics-implementatie voor Adobe Experience Platform configureren {#configure}
 
 Bij het verzamelen van huidige (streaming) gegevens moeten gegevens naar Adobe Experience Edge worden verzonden, waarna die gegevens naar Adobe Experience Platform worden doorgestuurd. Zie [Streaming Google Analytics-gegevens instellen in Adobe Experience Platform](streaming.md).
 
-## Vorm een Verbinding en de Mening van Gegevens in CJA
+## Een verbinding en gegevensweergave configureren in Customer Journey Analytics
 
 Als u historische gegevens eenmaal hebt ingevoerd en/of gegevensverzameling hebt geconfigureerd voor Adobe Experience Platform, kunt u [Verbinding maken](/help/connections/create-connection.md) zodat Customer Journey Analytics naar die gegevens kan verwijzen.
 

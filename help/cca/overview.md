@@ -4,9 +4,9 @@ description: Identiteitskaart van de re-zeer belangrijke persoon van veelvoudige
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
 * Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt het aanwijzen van campagnes die op één apparaat landen tot omschakeling elders?
-* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik rekening houd met apparatuurreizen? Hoe verandert mijn trechter-analyse?
+* Hoe verandert mijn inzicht in de doeltreffendheid van campagnes als ik rekening houd met cross-device reizen? Hoe verandert mijn trechter-analyse?
 * Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
 * Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
 
@@ -33,7 +33,7 @@ Wanneer u datasets met gelijkaardige persoon IDs combineert, wordt de attributie
 Voordat u de functie Kanaalanalyse gebruikt, moet u controleren of uw organisatie is voorbereid met behulp van het volgende:
 
 * Eén gegevensset in Adobe Experience Platform moet uit twee kolommen bestaan waarmee u personen kunt identificeren:
-   * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een persoon-id die is gegenereerd door een Adobe Analytics AppMeasurement-bibliotheek.
+   * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een persoon-id die is gegenereerd door een Adobe Analytics-AppMeasurement-bibliotheek.
    * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een persoon de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken, mits deze minstens één keer aanwezig is op dezelfde gebeurtenis als een bepaalde permanente id.
 * Een andere dataset, zoals de gegevens van het vraagcentrum, die een transient identiteitskaart op elke rij bevat. Deze persoon-id moet op dezelfde manier worden opgemaakt als de tijdelijke id in de andere dataset.
 * Met deze functie kunt u gegevenssets samenvoegen die het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens kunnen omvatten. Zorg ervoor dat u voldoet aan de toepasselijke wetten en regels, inclusief het verkrijgen van de benodigde machtigingen voor eindgebruikers, voordat u gegevenssets samenvoegt.
@@ -62,7 +62,7 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 
 ## Kanaaloverschrijdende analyse inschakelen
 
-Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in CJA te gebruiken.
+Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in Customer Journey Analytics te gebruiken.
 
 1. Importeer de gewenste gegevens naar Adobe Experience Platform. Voor Adobe Analytics-gegevens raadpleegt u [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Voor andere soorten gegevens raadpleegt u [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 1. Neem contact op met de klantenondersteuning van Adobe via de volgende informatie:
@@ -74,9 +74,9 @@ Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, 
    * Naam van sandbox.
 1. De Klantenondersteuning van Adobe werkt samen met Adobe-engineering om Kanaalanalyse mogelijk te maken wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Adobe Klantenondersteuning kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
 1. Als Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens met een stitched-functie gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
-1. [Verbinding maken](/help/connections/create-connection.md) in CJA die de onlangs geproduceerde dataset en andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
+1. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op basis van de verbinding.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Zodra de gegevensmening opstelling is, is de Analyse in CJA enkel als een andere analyse in CJA, behalve nu de gegevens over kanalen en apparaten werken.
+Zodra de gegevensmening opstelling is, is de analyse in Customer Journey Analytics enkel als een andere analyse in Customer Journey Analytics, behalve nu werkt de gegevens over kanalen en apparaten.

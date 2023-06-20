@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 role: User, Admin
 exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Intelligente bijschriften zijn gericht op:
 * Analysten die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
 * Zakelijke gebruikers die snel op hoog niveau willen zoeken.
 
-Bijschriften zijn beschikbaar voor alle CJA-gebruikers en vereisen geen speciale machtigingen.
+Bijschriften zijn beschikbaar voor alle Customer Journey Analytics-gebruikers en vereisen geen speciale machtigingen.
 
 ## Intelligente bijschriften starten {#launch}
 

@@ -4,25 +4,25 @@ description: Gebruik de Analytics Source Connector om de verwerkingsregels van h
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
 
 # Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
 
-Als uw organisatie de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in CJA te brengen, kunt u een verbinding in CJA vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
+Als uw organisatie de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in Customer Journey Analytics te brengen, kunt u een verbinding in Customer Journey Analytics vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
 
 ## Vereisten
 
 * Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
-* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en) in de traditionele handleiding Analytics Components (Analytische onderdelen).
+* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en) in de handleiding Adobe Analytics Components.
 
 ## Schema-elementen marketingkanaal
 
-Zodra u de Verbinding van de Bron van Analytics op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave maakt in CJA.
+Zodra u de Verbinding van de Bron van Analytics op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave in Customer Journey Analytics maakt.
 
 1. [Verbinding maken](/help/connections/create-connection.md) die een dataset omvat die op de Bronschakelaar van de Analytics wordt gebaseerd.
 2. [Een gegevensweergave maken](/help/data-views/create-dataview.md) die de volgende afmetingen bevat:
@@ -47,28 +47,28 @@ De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysi
 >
 >Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html).
 
-De montages van het de verkoopkanaal werken verschillend tussen de gegevens van het Platform en rapportsuite gegevens. Houd rekening met de volgende verschillen bij het instellen van marketingkanalen voor CJA:
+De montages van het de verkoopkanaal werken verschillend tussen de gegevens van het Platform en rapportsuite gegevens. Houd rekening met de volgende verschillen bij het instellen van marketingkanalen voor Customer Journey Analytics:
 
 * **Is de eerste bezoekpagina**: Deze regelcriteria gelden voor verschillende standaarddefinities van marketingkanalen. Een verwerkingsregel die deze criteria bevat, wordt in het Platform genegeerd (andere criteria in dezelfde regel blijven van toepassing). De zittingen worden bepaald bij de tijd van de gegevensvraag in plaats van op het tijdstip van gegevensinzameling, verhinderend Platform deze specifieke regelcriteria te gebruiken. Adobe beveelt aan om alle regels voor de verwerking van marketingkanalen die de criteria &#39;Is First Page of Visit&#39; bevatten, opnieuw te evalueren en te kiezen voor alternatieve benaderingen waarmee uw doelstellingen worden bereikt.
 
-   ![Eerste pagina van het bezoek](../assets/first-page-of-visit.png)
+  ![Eerste pagina van het bezoek](../assets/first-page-of-visit.png)
 
 * **Laatste aanraakkanaal overschrijven**: Deze instelling in de Marketing Channel Manager voorkomt normaal gesproken dat bepaalde kanalen het laatste aanraakkanaalkrediet krijgen. Platform negeert deze instelling, waardoor brede kanalen zoals Direct of Intern op mogelijk ongewenste manieren naar metriek kunnen worden gekarakteriseerd. Adobe raadt aan kanalen te verwijderen waarvoor Laatste aanraakkanaal overschrijven is uitgeschakeld.
-   * U kunt het marketingkanaal &#39;Direct&#39; verwijderen in de Marketing Channel Manager en vervolgens vertrouwen op het &#39;Geen waarde&#39;-dimensie-item van CJA voor dat kanaal. U kunt dit afmetingspunt aan &quot;Direct&quot;ook anders noemen of het afmetingspunt volledig uitsluiten wanneer het vormen van een gegevensmening.
-   * U kunt ook een classificatie voor marketingkanalen maken, waarbij elke waarde naar zichzelf wordt geclassificeerd, behalve voor kanalen die u in CJA wilt uitsluiten. U kunt deze classificatiedimensie dan gebruiken wanneer het creëren van een gegevensmening in plaats van `channel.typeAtSource`.
+   * U kunt het marketingkanaal &#39;Direct&#39; verwijderen in de marketingkanaalmanager en vervolgens vertrouwen op het &#39;Geen waarde&#39;-item van de klantanalyse voor dat kanaal. U kunt dit afmetingspunt aan &quot;Direct&quot;ook anders noemen of het afmetingspunt volledig uitsluiten wanneer het vormen van een gegevensmening.
+   * U kunt ook een marketingkanaalclassificatie maken, waarbij elke waarde naar zichzelf wordt geclassificeerd, behalve voor kanalen die u in Customer Journey Analytics wilt uitsluiten. U kunt deze classificatiedimensie dan gebruiken wanneer het creëren van een gegevensmening in plaats van `channel.typeAtSource`.
 
-   ![Laatste aanraakkanaal overschrijven](../assets/override-last-touch-channel.png)
+  ![Laatste aanraakkanaal overschrijven](../assets/override-last-touch-channel.png)
 
-* **Vervaldatum marketingkanaal**: Deze instelling voor de serviceperiode bepaalt de periode van inactiviteit voordat een persoon een nieuw eerste aanraakkanaal kan verkrijgen in de gegevens van de rapportsuite. Platform gebruikt eigen attributie-instellingen, zodat deze instelling volledig wordt genegeerd in CJA.
+* **Vervaldatum marketingkanaal**: Deze instelling voor de serviceperiode bepaalt de periode van inactiviteit voordat een persoon een nieuw eerste aanraakkanaal kan verkrijgen in de gegevens van de rapportsuite. Platform gebruikt eigen attributie-instellingen, zodat deze instelling volledig wordt genegeerd in Customer Journey Analytics.
 
-   ![Vervaldatum marketingkanaal](../assets/marketing-channel-expiration.png)
+  ![Vervaldatum marketingkanaal](../assets/marketing-channel-expiration.png)
 
-## Gegevens tussen CJA en traditionele Analytics vergelijken
+## Gegevens tussen Customer Journey Analytics en Adobe Analytics vergelijken
 
-Omdat de architectuur van Adobe Experience Platform anders is dan een traditionele Analytics-rapportensuite, zijn de resultaten niet gegarandeerd gelijk aan elkaar. U kunt echter de volgende tips gebruiken om deze vergelijking eenvoudiger te maken:
+Omdat de architectuur van Adobe Experience Platform anders is dan een Adobe Analytics-rapportenpakket, zijn de resultaten niet gegarandeerd gelijk. U kunt echter de volgende tips gebruiken om deze vergelijking eenvoudiger te maken:
 
 * Controleer of de architecturale verschillen die hierboven zijn vermeld, geen invloed hebben op uw vergelijking. Dit omvat het verwijderen van kanalen die het laatste aanraakkanaal niet overschrijven, en het verwijderen van regelcriteria die het eerste aanraakpunt van een bezoek (sessie) zijn.
-* Controleer tweemaal of uw verbinding de zelfde rapportreeks zoals traditionele Analytics gebruikt. Als uw verbinding CJA veelvoudige rapportreeksen met hun eigen de verwerkingsregels van het Kanaal van de Marketing bevat, is er geen gemakkelijke manier om het met traditionele Analytics te vergelijken. U zou een afzonderlijke verbinding voor elke rapportreeks willen tot stand brengen om gegevens te vergelijken.
+* Controleer of uw verbinding dezelfde rapportsuite gebruikt als Adobe Analytics. Als uw verbinding van de Customer Journey Analytics veelvoudige rapportreeksen met hun eigen de verwerkingsregels van het Kanaal van de Marketing bevat, is er geen gemakkelijke manier om het met Adobe Analytics te vergelijken. U zou een afzonderlijke verbinding voor elke rapportreeks willen tot stand brengen om gegevens te vergelijken.
 * Zorg ervoor dat u de zelfde datumwaaiers vergelijkt, en dat de tijdzone die in uw gegevensmening plaatst het zelfde als de tijdzone van de rapportreeks is.
-* Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Gebruik bijvoorbeeld de [Marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) dimensie met metriek die een niet-standaard attributiemodel gebruiken. Adobe raadt u aan de standaardafmetingen niet te vergelijken [Eerste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html) of [Laatste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html), omdat ze afhankelijk zijn van toeschrijvingen die in de rapportsuite worden verzameld. CJA vertrouwt niet op de toewijzingsgegevens van een rapportsuite; in plaats daarvan, wordt het berekend wanneer een CJA- rapport in werking wordt gesteld.
+* Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Gebruik bijvoorbeeld de [Marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) dimensie met metriek die een niet-standaard attributiemodel gebruiken. Adobe raadt u aan de standaardafmetingen niet te vergelijken [Eerste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html) of [Laatste aanraakkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html), omdat ze afhankelijk zijn van toeschrijvingen die in de rapportsuite worden verzameld. Customer Journey Analytics vertrouwt niet op de toewijzingsgegevens van een rapportsuite; in plaats daarvan, wordt het berekend wanneer een rapport van de Customer Journey Analytics in werking wordt gesteld.
 * Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en Platform gegevens. Voorbeelden zijn bezoeken/sessies, personen/personen en voorvallen/gebeurtenissen.

@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 69356510596d047d80af63338fccca71e8af53cd
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Deze workflow maakt gebruik van de Adobe Analytics Source Connector en is afhank
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud.
 
-1. [De extensie AEP Web SDK configureren in tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) gegevens vanuit wegeigenschappen naar de Adobe Experience Cloud verzenden via het Adobe Experience Platform Edge Network.
+1. [De extensie Adobe Experience Platform Web SDK configureren in tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) gegevens vanuit wegeigenschappen naar de Adobe Experience Cloud verzenden via het Adobe Experience Platform Edge Network.
 1. Gebruiken [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) om een of meer [verbindingen](/help/connections/create-connection.md) en [gegevensweergaven](/help/data-views/data-views.md) die u op de hoogte brengt van uw rapportage via het andere kanaal.
 
 ## Ingrepen gegevens met batch-opname en streaming opname

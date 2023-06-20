@@ -1,11 +1,11 @@
 ---
-description: Leer hoe u de resultaten van A/B tests in het paneel van de Experimentatie CJA kunt analyseren.
+description: Leer hoe u de resultaten van A/B tests in het paneel van de Experimentatie van de Customer Journey Analytics kunt analyseren.
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1823'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschil
 
 ## Toegangsbeheer {#access}
 
-Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers (CJA) worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
+Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
 
 ## Nieuwe functies in Berekende metriek {#functions}
 
@@ -30,11 +30,11 @@ Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UIC
 
 Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in een **enkel** objectarray. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
 
-Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in CJA](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
+Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in Customer Journey Analytics](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 
 ## Stap 2: Contextlabels toevoegen in gegevensweergaven {#contect-labels}
 
-In de weergave-instellingen van CJA-gegevensweergaven kunnen beheerders toevoegen [contextlabels](/help/data-views/component-settings/overview.md) aan een afmeting of metrisch en de diensten CJA zoals [!UICONTROL Experimentation] kunnen deze labels voor hun doeleinden gebruiken. Voor het deelvenster Experimentatie worden twee vooraf gedefinieerde labels gebruikt:
+In de weergave-instellingen voor Customer Journey Analytics-gegevensweergaven kunnen beheerders toevoegen [contextlabels](/help/data-views/component-settings/overview.md) aan een afmeting of metrische en Customer Journey Analytics diensten zoals [!UICONTROL Experimentation] kunnen deze labels voor hun doeleinden gebruiken. Voor het deelvenster Experimentatie worden twee vooraf gedefinieerde labels gebruikt:
 
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
@@ -47,12 +47,12 @@ Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen expe
 
 ## Stap 3: Het deelvenster Experimenteren configureren {#configure}
 
-1. Sleep het deelvenster Experimentatie naar een project in de CJA-werkruimte.
+1. Sleep in de werkruimte Customer Journey Analytics het deelvenster Experimentatie naar een project.
 
 ![deelvenster experimenteren](assets/experiment.png)
 
 >[!IMPORTANT]
->Als de vereiste opstelling in CJA- gegevensmeningen niet is voltooid, zult u dit bericht ontvangen alvorens u kunt te werk gaan: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
+>Als de vereiste opstelling in de gegevensmeningen van Customer Journey Analytics niet is voltooid, zult u dit bericht ontvangen alvorens u kunt te werk gaan: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
 
 1. Configureer de instellingen voor deelvensterinvoer.
 
@@ -62,7 +62,7 @@ Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen expe
    | **[!UICONTROL Control Variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die zijn gelabeld met de  **[!UICONTROL Variant]** label in gegevensweergaven. Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
    | **[!UICONTROL Success Metrics]** | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt de &quot;best presterende variant&quot; van een experiment genoemd. U kunt maximaal vijf metriek toevoegen. |
    | **[!UICONTROL Normalizing Metric]** | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als **[!UICONTROL Conversions per session]** of **[!UICONTROL Conversions per person]**. |
-   | **[!UICONTROL Date Range]** | Het datumbereik wordt automatisch ingesteld op basis van de eerste gebeurtenis die in CJA is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
+   | **[!UICONTROL Date Range]** | Het datumbereik wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
 
 1. Klik op **[!UICONTROL Build]**.
 
@@ -110,7 +110,7 @@ Een 95% Vertrouwensreeks zal de &quot;ware&quot;waarde van zaken metrisch in 95 
 
 ## Niet-gerandomiseerde afmetingen interpreteren {#non-randomized}
 
-Met CJA kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
+Met Customer Journey Analytics kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
 
 Neem bijvoorbeeld een advertentie die een persoon ziet. Het kan interessant zijn om de verandering in metrische cijfers (bijvoorbeeld gemiddelde opbrengst) te meten als u besluit om personen &quot;ad B&quot; in plaats van &quot;ad A&quot; te tonen. Het causale effect van het aantonen van advertentie B in plaats van advertentie A is van cruciaal belang om tot het besluit over het in de handel brengen te komen. Dit causale effect kan worden gemeten als de gemiddelde inkomsten over de gehele bevolking, als we de status quo van het tonen van steun A vervangen door de alternatieve strategie van het tonen van steun B.
 

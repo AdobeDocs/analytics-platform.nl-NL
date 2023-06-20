@@ -4,9 +4,9 @@ description: Hoe te om annotaties in Werkruimte tot stand te brengen.
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemmin
 | **Klik met de rechtermuisknop op een punt in een [!UICONTROL Line] grafiek.** | De [!UICONTROL Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-line.png) |
 | **Ga in Workspace naar [!UICONTROL Components] > [!UICONTROL Create annotation].** | De [!UICONTROL Annotation builder] wordt geopend. |
 | **Deze hotkey gebruiken** om de aannemer van de Annotatie te openen: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Houd er rekening mee dat u met de sneltoets een annotatie maakt voor de huidige datum zonder dat er een bereik (afmetingen of metriek) is geselecteerd. |
-| **Gebruik de [CJA Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Met de API&#39;s voor CJA-annotaties kunt u annotaties programmatisch maken, bijwerken of ophalen via Adobe Developer. Deze API&#39;s gebruiken dezelfde gegevens en methoden die Adobe gebruikt in de interface van het product. |
+| **Gebruik de [Customer Journey Analytics-API voor annotaties](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Met de API&#39;s voor Customer Journey Analytics-annotaties kunt u annotaties programmatisch maken, bijwerken of ophalen via Adobe Developer. Deze API&#39;s gebruiken dezelfde gegevens en methoden die Adobe gebruikt in de interface van het product. |
 
 1. Vul de [!UICONTROL Annotation builder] elementen.
 

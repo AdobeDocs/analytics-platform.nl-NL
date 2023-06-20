@@ -1,15 +1,15 @@
 ---
-title: Adobe Journey Optimizer (AJO) integreren met Customer Journey Analytics (CJA)
-description: Breng door AJO gegenereerde gegevens in en analyseer deze met Analysis Workspace in CJA.
+title: Adobe Journey Optimizer met Customer Journey Analytics integreren
+description: Neem gegevens in die door Adobe Journey Optimizer worden gegenereerd en analyseer deze met Analysis Workspace in Customer Journey Analytics.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 76f13b6c3b05d4a3fa4169ab0b4a1e9573efb9e0
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
 
-# Adobe Journey Optimizer met Customer Journey Analytics integreren
+# Adobe Journey Optimizer integreren met Adobe Customer Journey Analytics
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl) helpt u verbonden, contextafhankelijke en persoonlijke ervaringen te bieden. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
 
@@ -31,7 +31,7 @@ Selecteer en vorm de volgende datasets:
 | Dataset voor AJO-e-mailtrackingervaring | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van e-mail, zoals &#39;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, en &#39;[!UICONTROL Unsubscribes]&quot;. |
 | Dataset voor AJO-gebeurtenis voor het bijhouden van push | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van pushberichten, zoals &#39;[!UICONTROL App Launches]&quot;. |
 | Gebeurtenissen reisstap | Gebeurtenis | Persoon-id: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Bevat gebeurtenissen die tonen welke profielen aan elk knooppunt van de reis deelnamen. |
-| Dataset AJO-entiteit | Opzoeken | Sleutel: `_id`<br>Overeenkomende sleutel: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Bevat classificaties die de meta-gegevens van de Reizen en van de Campagne aan alle gebeurtenisgegevens van AJO associëren. |
+| Dataset AJO-entiteit | Opzoeken | Sleutel: `_id`<br>Overeenkomende sleutel: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Bevat classificaties die de meta-gegevens van de Reis en van de Campagne aan alle gebeurtenisgegevens van Adobe Journey Optimizer associëren. |
 
 {style="table-layout:auto"}
 
@@ -42,7 +42,7 @@ Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](/help/data-vi
 
 >[!NOTE]
 >
->De verschillen in gegevens tussen AJO en CJA zijn doorgaans minder dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
+>De verschillen tussen gegevens tussen Adobe Journey Optimizer en Customer Journey Analytics zijn doorgaans kleiner dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
 
 
 ### Dimensies configureren in de gegevensweergave

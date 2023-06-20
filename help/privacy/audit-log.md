@@ -1,31 +1,31 @@
 ---
 title: Controlelogboeken
-description: Leer om CJA- controlelogboeken te bekijken en te beheren.
+description: Leer hoe u Customer Journey Analytics-auditlogs kunt weergeven en beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
 
 # Controlelogboeken
 
-Om de transparantie en de zichtbaarheid van de in het systeem uitgevoerde activiteiten te vergroten, kunt u met Customer Journey Analytics (CJA) gebruikersactiviteiten voor diverse services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA).
+Om de transparantie en zichtbaarheid van de in het systeem uitgevoerde activiteiten te vergroten, kunt u in Adobe Customer Journey Analytics gebruikersactiviteiten voor verschillende services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA).
 
 In wezen vertelt een controlelogboek **wie** uitgevoerd **wat** actie, en **wanneer**. Elke actie die in een logboek wordt geregistreerd bevat meta-gegevens die op het actietype, datum en tijd, e-mailidentiteitskaart van de gebruiker die de actie, en extra attributen relevant voor het actietype uitvoerde.
 
-Dit onderwerp behandelt controlelogboeken in CJA, met inbegrip van hoe te om hen in UI te bekijken en te beheren.
+Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inbegrip van hoe te om hen in UI te bekijken en te beheren.
 
 ## Toegang tot auditlogboeken
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over de **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor CJA-functies de [toegangsbeheerdocumentatie](../admin/cja-access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over de **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Als u wilt weten hoe u individuele machtigingen voor functies van Customer Journey Analytics beheert, raadpleegt u de [toegangsbeheerdocumentatie](../admin/cja-access-control.md).
 
 ## Bekijk het controlelogboek in UI
 
-Navigeer in CJA naar **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]**.
+Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]**.
 
 Het controlelogboek voor vandaag en gisteren wordt getoond door gebrek.
 
@@ -136,4 +136,4 @@ U kunt controlelogboeken in CSV of formaten downloaden JSON. Alle toegepaste fil
 
 ## De controlelogboeken beheren in de API
 
-Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie de [CJA API-referentiedocument](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie .
+Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie de [Customer Journey Analytics API-referentiedocument](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie .

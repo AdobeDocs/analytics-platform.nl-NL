@@ -1,31 +1,31 @@
 ---
-title: Uw AA-gegevens vergelijken met CJA-gegevens
+title: Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens
 description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegevens in Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 95f92d742dcc59098f51978a02c2989c42594807
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics-gegevens vergelijken met CJA-gegevens
+# Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens
 
-Aangezien uw organisatie CJA goedkeurt, kunt u sommige verschillen in gegevens tussen Adobe Analytics en CJA opmerken. Dit is normaal en kan om verschillende redenen voorkomen. CJA is ontworpen om u toe te staan om op enkele beperkingen op uw gegevens in AA te verbeteren. Onverwachte/onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team CJA kunnen gebruiken onbelemmerd door zorgen over gegevensintegriteit.
+Als uw organisatie Customer Journey Analytics gebruikt, kunnen er verschillen optreden tussen gegevens in Adobe Analytics en in Customer Journey Analytics. Dit is normaal en kan om verschillende redenen voorkomen. Customer Journey Analytics is ontworpen om u toe te staan om op sommige beperkingen van uw gegevens in AA te verbeteren. Onverwachte/onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team Customer Journey Analytics kunnen gebruiken zonder dat de bezorgdheid over gegevensintegriteit dit toelaat.
 
-Laten we aannemen dat u Adobe Analytics-gegevens via de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)en maakte vervolgens een CJA-verbinding met deze dataset.
+Laten we aannemen dat je Adobe Analytics-gegevens via de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)en maakte vervolgens een Customer Journey Analytics-verbinding met deze dataset.
 
 ![gegevensstroom](assets/compare.png)
 
-Vervolgens hebt u een gegevensweergave gemaakt en tijdens de rapportage van deze gegevens over CJA hebt u afwijkingen van de rapportresultaten in Adobe Analytics vastgesteld.
+Vervolgens hebt u een gegevensweergave gemaakt en tijdens de rapportage van deze gegevens over Customer Journey Analytics hebt u afwijkingen gezien van de rapportresultaten in Adobe Analytics.
 
 Hier volgen enkele stappen om uw oorspronkelijke Adobe Analytics-gegevens te vergelijken met de Adobe Analytics-gegevens die nu in Customer Journey Analytics staan.
 
 ## Vereisten
 
-* Zorg ervoor de dataset van Analytics in AEP gegevens voor de datumwaaier bevat u onderzoekt.
+* Zorg ervoor de dataset van de Analyse in Adobe Experience Platform gegevens voor de datumwaaier bevat u onderzoekt.
 
 * Zorg ervoor dat de rapportsuite die u hebt geselecteerd in Analytics overeenkomt met de rapportsuite die in Adobe Experience Platform is ingevoerd.
 
@@ -39,7 +39,7 @@ De [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metric
 
 1. Sla dit project op zodat u het kunt gebruiken in de vergelijking.
 
-## Stap 2: De resultaten vergelijken met [!UICONTROL Total records by timestamps] in CJA
+## Stap 2: De resultaten vergelijken met [!UICONTROL Total records by timestamps] in Customer Journey Analytics
 
 Vergelijk nu de [!UICONTROL Occurrences] in Analytics aan de Totale verslagen door timestamps in Customer Journey Analytics.
 
@@ -47,18 +47,18 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
 
 >[!NOTE]
 >
->Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in CJA wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd eenvoudig om te repliceren in AA, vooral als de Kanaalanalyse is ingeschakeld.
+>Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dit is misschien niet altijd eenvoudig om in Adobe Analytics te repliceren, vooral als de functie voor kanaalanalyse is ingeschakeld.
 
 1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)voert u het volgende uit [!UICONTROL Total Records by timestamps] query:
 
        &quot;
-       SELECT Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10) als Dag, \
+       SELECT Substring(from_utc_timestamp(timestamp,&#39;){timeZone}&#39;), 1, 10) als dag, \
        Tellen(_id) AS-records
-       VAN {dataset} \
-       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;) \
-       EN tijdstempel&lt;from_utc_timestamp todate=&quot;&quot; utc=&quot;&quot; span=&quot;&quot; id=&quot;11&quot; translate=&quot;no&quot; />       EN tijdstempel IS NIET NULL \
-       EN enduserids.
-_experience.id IS NIET NULL \
+       VAN  {dataset} \
+       WHERE timestamp>=from_utc_timestamp(){fromDate}&#39;,&#39;UTC&#39;) \
+       EN tijdstempel&lt;from_utc_timestamp span=&quot;&quot; id=&quot;14&quot; translate=&quot;no&quot; />&#39;,&#39;UTC&#39;) \
+       EN tijdstempel IS NIET NULL \
+       EN enduserids.{toDate}_experience.id IS NIET NULL \
        GROEP OP dag \
        ORDER BY Day;
        
@@ -81,11 +81,11 @@ _experience.id IS NIET NULL \
 
 1. Als de schakelaar rijen filtreerde, trek die rijen van af [!UICONTROL Occurrences] metrisch. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de Adobe Experience Platform-gegevenssets.
 
-## Waarom records tijdens inname van AEP gefilterd of overgeslagen kunnen worden
+## Waarom records tijdens inname vanuit Adobe Experience Platform gefilterd of overgeslagen kunnen worden
 
-CJA [Verbindingen](/help/connections/create-connection.md) staat u toe om veelvoudige datasets samen te brengen en samen te voegen die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op de achtergrond passen we deduplicatie toe: de volledige buitenste verbinding of de vereniging op gebeurtenisdatasets die op timestamps worden gebaseerd, en toen binnenste zich bij profiel en raadplegingsdataset aansluiten, die op identiteitskaart van de Persoon wordt gebaseerd.
+Customer Journey Analytics [Verbindingen](/help/connections/create-connection.md) staat u toe om veelvoudige datasets samen te brengen en samen te voegen die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op de achtergrond passen we deduplicatie toe: de volledige buitenste verbinding of de vereniging op gebeurtenisdatasets die op timestamps worden gebaseerd, en toen binnenste zich bij profiel en raadplegingsdataset aansluiten, die op identiteitskaart van de Persoon wordt gebaseerd.
 
-Hier zijn een aantal redenen waarom records kunnen worden overgeslagen bij het opnemen van gegevens van AEP.
+Hier volgen enkele redenen waarom records kunnen worden overgeslagen bij het opnemen van gegevens uit Adobe Experience Platform.
 
 * **Ontbrekende tijdstempels** - Als er tijdstempels ontbreken in gebeurtenisgegevenssets, worden deze records tijdens inname volledig genegeerd of overgeslagen.
 

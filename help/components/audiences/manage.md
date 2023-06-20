@@ -2,7 +2,7 @@
 title: In Customer Journey Analytics gemaakt publiek beheren
 description: Leer hoe u het publiek beheert in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,8 +16,8 @@ Door eerder gemaakte soorten publiek te beheren, kunt u
 * **Schema of planning ongedaan maken** automatisch publiek vernieuwen/bijwerken. De maximale vervaldatum in de planning is 1 jaar.
 * **Een publiek vernieuwen volgens schema** wanneer het bijna verlopen is. Het uitbreiden van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het programma verloopt.
 * De weergave van **interval vernieuwen** en de **laatste keer dat een publiek is bijgewerkt**
-* Meer inzicht in de **de tijd die nodig was om een publiek te maken** van Customer Journey Analytics (CJA), en de hoeveelheid tijd het kostte om het publiek in het Profiel van de Klant in real time voor activeringsdoeleinden te hebben getoond.
-* Zie of het publiek in CJA **actief wordt gebruikt door het Profiel van de Klant in real time** of (idealiter) een Experience Platform-toepassing die het publiek gebruikt dat door CJA is gemaakt.
+* Meer inzicht in de **de tijd die nodig was om een publiek te maken** van Customer Journey Analytics, en de hoeveelheid tijd het kostte om het publiek in het Profiel van de Klant in real time voor activeringsdoeleinden te hebben getoond.
+* Zie of het publiek in Customer Journey Analytics gelijk is aan **actief wordt gebruikt door het Profiel van de Klant in real time** of (idealiter) een Experience Platform-toepassing die het publiek gebruikt dat door Customer Journey Analytics wordt gemaakt.
 
 ## Gebruikersinterface voor beheer
 
@@ -36,4 +36,4 @@ Door eerder gemaakte soorten publiek te beheren, kunt u
 | [!UICONTROL  Last refreshed] | Toen het publiek voor het laatst werd vernieuwd. |
 | [!UICONTROL Last modified] | Wanneer het publiek voor het laatst is bewerkt of gewijzigd. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -1,21 +1,22 @@
 ---
-title: Adobe Journey Optimizer-beheer voor Besluit integreren met Customer Journey Analytics (CJA)
+title: Adobe Journey Optimizer-Beslissingsbeheer integreren met Adobe Customer Journey Analytics
 description: Neem gegevens die door Adobe Journey Optimizer Decision Management zijn gegenereerd, in Customer Journey Analytics op en analyseer deze met Analysis Workspace.
-source-git-commit: 00a87f5f370310672ca37ab9df08350d14fc6a91
+exl-id: fde45264-46cf-4c68-9872-7fb739748f21
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
 
-# Beslissingsbeheer integreren met Customer Journey Analytics
+# Beslissingsbeheer integreren met Adobe Customer Journey Analytics
 
 
 Adobe Journey Optimizer [Beslissingsbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=en) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
-Beslissingsbeheer maakt deel uit van en is geïntegreerd met Adobe Journey Optimizer (AJO). Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in de AJO zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) ondersteuning.
+Beslissingsbeheer maakt deel uit van en is geïntegreerd met Adobe Journey Optimizer. Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in Adobe Journey Optimizer zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) ondersteuning.
 
-U kunt gegevens invoeren die door Beslissingsbeheer worden geproduceerd om geavanceerde analyse in Customer Journey Analytics (CJA) uit te voeren door de volgende stappen uit te voeren:
+U kunt gegevens die door Beslissingsbeheer worden gegenereerd, importeren om een geavanceerde analyse in Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
 
 ## Gegevens van Beslissingsbeheer naar Adobe Experience Platform verzenden
 
@@ -30,20 +31,20 @@ Selecteer en vorm de volgende datasets:
 | Gegevensset | Het type DataSet | Verbindingsinstellingen | Beschrijving |
 | --- | --- | --- | --- |
 | ODE-beslissingsgebeurtenissen - _sandbox_ beslissing | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat automatisch gegenereerde gegevens voor besluitvormingsgebeurtenissen van het Beheer van Besluit. _Sandbox_ verwijst naar de specifieke naam van de sandbox. |
-| Dataset voor AJO-feedbackgebeurtenis | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor berichtlevering. |
-| Dataset voor AJO-e-mailtrackingervaring | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van e-mail. |
-| Dataset voor AJO-gebeurtenis voor het bijhouden van push | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van pushberichten. |
-| Dataset AJO-entiteit | Opzoeken | Sleutel: `_id`<br>Overeenkomende sleutel: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Bevat classificaties die de meta-gegevens van de Reizen en van de Campagne aan alle gebeurtenisgegevens van AJO associëren. |
+| Dataset voor Adobe Journey Optimizer-feedbackgebeurtenis | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor berichtlevering. |
+| Adobe Journey Optimizer Email Tracking Experience Event Dataset | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van e-mail. |
+| Dataset voor Adobe Journey Optimizer Push Tracking Experience | Gebeurtenis | Persoon-id: `IdentityMap` | Bevat gebeurtenissen voor het bijhouden van pushberichten. |
+| Gegevensset Adobe Journey Optimizer Entiteit | Opzoeken | Sleutel: `_id`<br>Overeenkomende sleutel: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Bevat classificaties die de meta-gegevens van de Reis en van de Campagne aan alle gebeurtenisgegevens van Adobe Journey Optimizer associëren. |
 
 {style="table-layout:auto"}
 
 ## Een gegevensweergave maken
 
-Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) om de gewenste afmetingen en metriek te vormen beschikbaar in CJA.
+Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
 >[!NOTE]
 >
->De verschillen in gegevens tussen AJO en CJA zijn doorgaans minder dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
+>De verschillen tussen gegevens tussen Adobe Journey Optimizer en Customer Journey Analytics zijn doorgaans kleiner dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
 
 ### Dimensies configureren
 

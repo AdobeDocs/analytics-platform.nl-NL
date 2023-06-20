@@ -1,12 +1,12 @@
 ---
 title: Historische gegevens van Google Analytics opnemen in Adobe Experience Platform
-description: Verklaart hoe te om Customer Journey Analytics (CJA) te gebruiken om uw gegevens van Google Analytics in Adobe Experience Platform in te voeren.
+description: Verklaart hoe te om Adobe Customer Journey Analytics te gebruiken om uw gegevens van Google Analytics in Adobe Experience Platform in te voeren.
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Navigeer in Google Cloud Platform naar **Exporteren > Exporteren naar GCS**. Zod
 
 >[!TIP]
 >
->Als u van plan bent om zowel historische als levende het stromen Google Analytics gegevens in te voeren, zorg ervoor dat u het zelfde schema voor beide datasets gebruikt. U kunt de datasets in CJA samenvoegen gebruikend [Gecombineerde gegevensset](/help/connections/combined-dataset.md).
+>Als u van plan bent om zowel historische als levende het stromen Google Analytics gegevens in te voeren, zorg ervoor dat u het zelfde schema voor beide datasets gebruikt. U kunt de datasets in een Customer Journey Analytics samenvoegen met behulp van een [Gecombineerde gegevensset](/help/connections/combined-dataset.md).
 
 U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een dataset tot stand brengen, gebruikend welk schema XDM u kiest. Nadat u het schema hebt geselecteerd, wordt automatisch leren toegepast op het Experience Platform om automatisch elk van de velden in de Google Analytics-gegevens vooraf toe te wijzen aan uw [XDM-schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui).
 
@@ -91,15 +91,15 @@ Bepaalde XDM-velden in Platform hebben de juiste indeling nodig om de gegevens c
 
 * **`timestamp`**: Creeer een speciaal berekend gebied in het schema UI van het Experience Platform. Klikken **[!UICONTROL Add calculated field]** en de `timestamp` tekenreeks in een `date` functie:
 
-   `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+  `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 
-   Sla het berekende veld op in de gegevensstructuur van het tijdstempel in het schema:
+  Sla het berekende veld op in de gegevensstructuur van het tijdstempel in het schema:
 
-   ![Tijdstempel](../assets/timestamp.png)
+  ![Tijdstempel](../assets/timestamp.png)
 
-* **`_id`**: Dit veld moet een waarde bevatten. CJA kan het niet schelen wat de waarde is. U kunt een &quot;1&quot; aan het veld toevoegen:
+* **`_id`**: Dit veld moet een waarde bevatten. De waarde van Customer Journey Analytics kan er niet om geven. U kunt een &quot;1&quot; aan het veld toevoegen:
 
-   ![ID](../assets/_id.png)
+  ![ID](../assets/_id.png)
 
 ## Volgende stappen
 

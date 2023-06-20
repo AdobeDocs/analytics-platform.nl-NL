@@ -4,10 +4,10 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '837'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ Pas reguliere expressies toe op een dimensie om de gewenste waarde op te halen.
 * **[!UICONTROL Output format]**: Een optioneel veld waarmee u tekst kunt toevoegen of de volgorde van de uitvoer van de regex-subgroep kunt wijzigen. Als dit veld leeg is, is de tekenreeksuitvoer de geëvalueerde regex-expressie.
 * **[!UICONTROL Case sensitive]**: Een selectievakje waarmee de reguliere expressie, indien ingeschakeld, hoofdlettergevoelig wordt gemaakt.
 
-CJA gebruikt een subset van de Perl regex syntaxis. Als de invoer niet overeenkomt met de reguliere expressie en de **[!UICONTROL Output format]** leeg is, [Geen waardeopties](no-value-options.md) van toepassing. De volgende expressies worden ondersteund:
+Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. Als de invoer niet overeenkomt met de reguliere expressie en de **[!UICONTROL Output format]** leeg is, [Geen waardeopties](no-value-options.md) van toepassing. De volgende expressies worden ondersteund:
 
 | Uitdrukking | Beschrijving |
 | --- | --- |
