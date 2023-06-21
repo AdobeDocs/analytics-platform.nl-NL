@@ -3,16 +3,16 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f224a37190d60e7f055fdeb39c42dd77d8764259
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (juni 2023)
 
-**Laatste update**: 19 juni 2023
+**Laatste update**: 21 juni 2023
 
 Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -23,10 +23,10 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Intelligente bijschriften** | Verrijk het vertellen van verhalen voor gebruikers met natuurlijke taalsamenvattingen van a [!UICONTROL Line] visualisatie. [Meer informatie](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 mei 2023 | 1 juni 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Dit omvat het delen met mensen buiten uw organisatie of met mensen binnen uw organisatie die niet zijn ingericht voor Adobe Analytics. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link) <p>Deze functionaliteit is standaard ingeschakeld en kan door de systeembeheerder worden uitgeschakeld. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 3 mei 2023 | 6 juni 2023 |
 | **Afgeleide velden** | Dit vertegenwoordigt de aanvankelijke versie van Afgeleide gebieden. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt het afgeleide veld verder definiëren als een component (metrisch of dimensionaal) in gegevensweergaven en het afgeleide veld vervolgens gebruiken als een component in Workspace.<p>Deze release ondersteunt een sjabloon voor marketingkanalen en de volgende functies:</p><ul><li>Samenvoegen</li><li>Hoofdletters/kleine letters</li><li>Zoeken en vervangen</li><li>Opzoeken</li><li>URL-parsering</li></ul> <p>[Meer informatie](/help/data-views/derived-fields/derived-fields.md)</p> | 10 mei 2023 | 14 juni 2023 |
-| **PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) |  | 30 juni 2023 |
-| **Ervaar Edge-geo-zoekopdrachten** | Zodra Experience Edge Geo Lookups zijn ingeschakeld voor uw gegevensstroom, kunt u rapporten samenstellen met gebruik van geolocatiegegevens in Customer Journey Analytics. |  | 30 juni 2023 |
-| **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | U zult raadplegingsdatasets aan niet alleen gebeurtenisdatasets, maar ook aan profiel en raadplegingsdatasets kunnen toevoegen. | 28 juni 2023 | 12 juli 2023 |
 | **Ondersteuning voor conversie van valuta** | De conversie van valuta wordt ondersteund als onderdeel van de opmaak van een metrische component in een gegevensweergave. [Meer informatie](../data-views/component-settings/format.md#currency) | 7 juni 2023 | 21 juni 2023 |
+| **PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) |  | 30 juni 2023 |
+| **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | U zult raadplegingsdatasets aan niet alleen gebeurtenisdatasets, maar ook aan profiel en raadplegingsdatasets kunnen toevoegen. | 28 juni 2023 | 12 juli 2023 |
+| **Ervaar Edge-geo-zoekopdrachten** | Zodra Experience Edge Geo Lookups zijn ingeschakeld voor uw gegevensstroom, kunt u rapporten samenstellen met gebruik van geolocatiegegevens in Customer Journey Analytics. |  | 26 juli 2023 |
 
 {style="table-layout:auto"}
 
