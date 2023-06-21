@@ -1,9 +1,10 @@
 ---
 title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams gemakkelijk rapporten en inzichten laat produceren.
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
+source-git-commit: e2020d9194f7885f80671214829f06245bbab328
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -17,10 +18,6 @@ De geleide analyse is een rapporteringsformaat dat productteams toestaat om hun 
 Net als Analysis Workspace en Mobile-scorecards gebruikt een analyserapport met instructies gegevens van een [Gegevens, weergave](../data-views/data-views.md), die verwijst naar gegevens in Adobe Experience Platform via een [Verbinding](../connections/overview.md). Alle rapporten die zijn gemaakt in de analyse met instructies kunnen naadloos worden overgedragen naar Analysis Workspace voor aanvullend onderzoek.
 
 De geleide analysegerporten hebben momenteel drie analysetypen: [Trechter](analysis-types/funnel.md), [Trends](analysis-types/trends.md), en [Groei van gebruikers](analysis-types/user-growth.md). Elk van deze analysetypen heeft veelvoudige meningstypes, die extra inzichten aan elk van deze rapporten verstrekken.
-
-## Inrichting
-
-Analyse met instructies is een betaalde aanvulling op Customer Journey Analytics. Neem contact op met het accountteam van Adobe als uw organisatie deze functie wil gaan gebruiken.
 
 ## Interface
 
@@ -45,7 +42,9 @@ De geleide analyse bevat de volgende interfacedelen:
 
 {style="table-layout:auto"}
 
-## Toestemmingen
+## Inrichting
+
+Analyse met instructies maakt deel uit van Adobe Product Analytics, dat een betaalde aanvulling op Customer Journey Analytics is. Neem contact op met het accountteam van Adobe als uw organisatie deze functie wil gaan gebruiken.
 
 Adobe is van plan in de toekomst machtigingen te bieden die specifiek zijn voor analyse met instructies.
 
