@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
+source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,13 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 
 +++**Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] gegevens over [!UICONTROL Adobe Experience Platform]?**
 
+We hebben onlangs veranderd hoe we gegevens verwerken in Customer Journey Analytics.
+
+**Oude weg:**
 <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>
+
+**Nieuwe weg (vanaf juni 2023)**
+<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul>
 
 +++
 
@@ -148,14 +154,14 @@ Wat het schrappen van gegevens betreft, gaat het om zes soorten componenten: zan
 
 | Als u... | Dit gebeurt... |
 | --- | --- |
-| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom naar alle [!UICONTROL Customer Journey Analytics] verbindingen met gegevenssets in die sandbox. Momenteel [!UICONTROL Connections] in Customer Journey Analytics die aan de verwijderde sandbox is gekoppeld, wordt niet automatisch verwijderd. |
+| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom naar alle [!UICONTROL Customer Journey Analytics] verbindingen met gegevenssets in die sandbox. Momenteel [!UICONTROL Connections] in Customer Journey Analytics die aan de verwijderde sandbox is gekoppeld, worden niet automatisch verwijderd. |
 | Schema&#39;s verwijderen in [!UICONTROL Adobe Experience Platform], maar niet de dataset(s) die aan dit schema zijn gekoppeld | [!UICONTROL Adobe Experience Platform] het schrappen van [!UICONTROL schemas] die een of meer [!UICONTROL datasets] geassocieerd met hen. Nochtans, kan Admin met de aangewezen reeks rechten de datasets eerst schrappen en dan het schema schrappen. |
-| Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform] gegevensmeer | Het schrappen van een dataset in het gegevensmeer van Adobe Experience Platform zal gegevensstroom van die dataset aan om het even welke Verbindingen van de Customer Journey Analytics tegenhouden die die dataset omvatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van bijbehorende Verbindingen van Customer Journey Analytics. |
+| Een gegevensset verwijderen in [!UICONTROL Adobe Experience Platform] gegevensmeer | Het schrappen van een dataset in het gegevensmeer van Adobe Experience Platform houdt gegevensstroom van die dataset aan om het even welke Verbindingen van de Customer Journey Analytics die die dataset omvatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van bijbehorende Verbindingen van Customer Journey Analytics. |
 | Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics] | Contacteer uw Team van de Rekening van Adobe om in motie het proces voor het schrappen van een dataset binnen een verbinding te plaatsen die is bewaard. |
 | Een batch verwijderen uit een dataset (in [!UICONTROL Adobe Experience Platform]) | Als een partij uit een [!UICONTROL Adobe Experience Platform] dataset, zal de zelfde partij uit om het even welke Verbindingen van Customer Journey Analytics worden verwijderd die die specifieke partij bevatten.  Customer Journey Analytics is in kennis gesteld van het verwijderen van partijen in [!UICONTROL Adobe Experience Platform]. |
-| Een batch verwijderen **tijdens de inname** in [!UICONTROL Customer Journey Analytics] | Als er slechts één partij in de dataset is, zullen geen gegevens of gedeeltelijke gegevens van die partij in verschijnen [!UICONTROL Customer Journey Analytics]. De inname wordt teruggedraaid. Als, bijvoorbeeld, er 5 partijen in de dataset zijn en 3 van hen reeds zijn opgenomen toen de dataset werd geschrapt, zullen de gegevens van die 3 partijen in verschijnen [!UICONTROL Customer Journey Analytics]. |
+| Een batch verwijderen **tijdens de inname** in [!UICONTROL Customer Journey Analytics] | Als er slechts één partij in de dataset is, zullen geen gegevens of gedeeltelijke gegevens van die partij in verschijnen [!UICONTROL Customer Journey Analytics]. De inname wordt teruggedraaid. Als er bijvoorbeeld 5 batches in de gegevensset zitten en er 3 al zijn opgenomen toen de gegevensset werd verwijderd, worden gegevens van die 3 batches weergegeven in [!UICONTROL Customer Journey Analytics]. |
 | Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier zullen om het even welke projecten van de Werkruimte die van gegevensmeningen in de geschrapte verbinding afhangen ophouden werkend.</li></ul> |
-| Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutenmelding zal erop wijzen dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen niet meer werkend zullen zijn. |
+| Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutenmelding wijst erop dat om het even welke projecten van de Werkruimte die van deze geschrapte gegevensmening afhangen zullen ophouden werkend. |
 
 ## 7. Overwegingen bij het samenvoegen van rapportsuites in Customer Journey Analytics {#merge-reportsuite}
 
@@ -170,16 +176,13 @@ Als u van plan bent Adobe Analytics-gegevens in te nemen via de [Adobe Analytics
 | [!UICONTROL Persistence] | [Persistentie](../data-views/component-settings/persistence.md) breidt zich over rapportseries uit, die gevolgen hebben [!UICONTROL filters], [!UICONTROL attribution], enzovoort. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] niet automatisch gededupliceerd worden bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden in één bestand combineert [!UICONTROL lookup] dataset, kon u problemen ontmoeten. |
 
-
 ## 8. [!UICONTROL Adobe Analytics] componenten
 
-
-+++**Kan ik delen/publiceren [!UICONTROL filters] ([!UICONTROL segments]) van [!DNL Customer Journey Analytics] aan Experience Platform Verenigd Profiel, of andere toepassingen van Experience Cloud?**
++++**Kan ik delen/publiceren [!UICONTROL filters] van [!DNL Customer Journey Analytics] naar Experience Platform Real-Time CDP of andere Experience Cloud-toepassingen?**
 
 Nog niet, maar we werken actief aan het leveren van deze capaciteit.
 
 +++
-
 
 +++**Wat is er gebeurd met mijn oude [!UICONTROL eVar] instellen?**
 
@@ -187,13 +190,11 @@ Nog niet, maar we werken actief aan het leveren van deze capaciteit.
 
 +++
 
-
 +++**Waar zijn al mijn zitting en veranderlijke persistentie montages nu?**
 
-[!UICONTROL Customer Journey Analytics] Hiermee past u al deze instellingen toe tijdens de rapporttijd. Deze instellingen worden nu live weergegeven in de gegevensweergave. De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken!
+[!UICONTROL Customer Journey Analytics] Hiermee past u al deze instellingen tijdens het rapport toe en deze instellingen worden nu live weergegeven in gegevensweergaven. De wijzigingen in deze instellingen zijn nu retroactief en u kunt meerdere versies gebruiken door meerdere gegevensweergaven te gebruiken.
 
 +++
-
 
 +++**Wat gebeurt er met onze bestaande segmenten/berekende maatstaven?**
 
@@ -201,13 +202,11 @@ Nog niet, maar we werken actief aan het leveren van deze capaciteit.
 
 +++
 
-
 +++**Hoe werkt [!UICONTROL Customer Journey Analytics] handgreep `Uniques Exceeded` beperkingen?**
 
 [!UICONTROL Customer Journey Analytics] heeft geen unieke waardebeperkingen, dus hoeft u zich daar geen zorgen over te maken!
 
 +++
-
 
 +++**Als ik een bestaande [!DNL Data Workbench] klant, kan ik naar [!UICONTROL Customer Journey Analytics] nu?**
 
@@ -229,10 +228,10 @@ Bijvoorbeeld, laten wij zeggen uw contract u aan één miljoen rijen van gegeven
 
 In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die door uw verbinding worden opgenomen verschillend is dan het aantal rijen in de dataset in [!UICONTROL Adobe Experience Platform]. In dit voorbeeld heeft de dataset &quot;B2B Impression&quot; 7650 rijen, maar de dataset bevat 3830 rijen in [!UICONTROL Adobe Experience Platform]. Er zijn verschillende redenen waarom er verschillen kunnen optreden en de volgende stappen kunnen worden uitgevoerd om een diagnose te stellen:
 
-1. Verdeel deze dimensie door **[!UICONTROL Platform Dataset ID]** en u zult twee datasets met de zelfde grootte maar verschillend opmerken **[!UICONTROL Platform Dataset IDs]**. Elke dataset heeft 3825 verslagen. Dat betekent [!UICONTROL Customer Journey Analytics] 5 records genegeerd wegens ontbrekende persoon-id&#39;s of ontbrekende tijdstempels:
+1. Verdeel deze dimensie door **[!UICONTROL Platform Dataset ID]** en u zult twee datasets met de zelfde grootte merken maar verschillend **[!UICONTROL Platform Dataset IDs]**. Elke dataset heeft 3825 verslagen. Dat betekent [!UICONTROL Customer Journey Analytics] 5 records genegeerd wegens ontbrekende persoon-id&#39;s of ontbrekende tijdstempels:
 
    ![uitsplitsing](assets/data-size2.png)
 
-2. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding werd gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
+2. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding is gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
 
 Meer informatie over de [implicaties van gegevensset en het schrappen van verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].

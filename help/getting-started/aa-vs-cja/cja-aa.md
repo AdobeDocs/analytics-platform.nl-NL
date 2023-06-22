@@ -4,16 +4,16 @@ description: Customer Journey Analytics-functies vergeleken met Adobe Analytics-
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2047'
 ht-degree: 3%
 
 ---
 
-# Ondersteuning voor Customer Journey Analytics-functies
+# Ondersteuning voor Adobe Customer Journey Analytics-functies
 
-In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worden ondersteund, gedeeltelijk of niet worden ondersteund in Customer Journey Analytics (Customer Journey Analytics) en welke functies van Customer Journey Analytics niet worden ondersteund of beschikbaar zijn in Adobe Analytics. Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan Customer Journey Analytics worden toegevoegd.
+In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worden ondersteund, gedeeltelijk of niet worden ondersteund in Customer Journey Analytics en welke functies van Customer Journey Analytics niet worden ondersteund of beschikbaar zijn in Adobe Analytics. Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan Customer Journey Analytics worden toegevoegd.
 
 ## Volledig ondersteunde functies/componenten {#full-support}
 
@@ -56,6 +56,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die in Analytics worden gebruikt, kunnen naar het Experience Platform en de Customer Journey Analytics worden geïmporteerd met behulp van de Bronconnector voor analytische classificaties. De datasets van de opzoekopdracht kunnen ook direct aan Experience Platform worden geupload en beschikbaar in Customer Journey Analytics worden gemaakt. |
 | Builder voor classificatieregels | Ondersteund met [subtekenreeksen](/help/data-views/component-settings/substring.md) in Customer Journey Analytics. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
 | Aangepaste sessie | Ondersteuning voor alle aangepaste sessionisatiefuncties, behalve mobiele achtergrondgebeurtenissen. |
+| Valutaconversie | Ondersteund als onderdeel van [het formatteren van een metrische component](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) in een gegevensweergave. |
 | Handelswijzigingsvariabele persistentie | Volledige ondersteuning via [afmetingen binden en metriek binden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | Klantkenmerken | Deze worden nu &quot;profielgegevenssets&quot; genoemd en worden niet automatisch geïmporteerd uit Experience Cloud, maar moeten naar Experience Platform worden geüpload voordat ze beschikbaar zijn in Customer Journey Analytics. |
 | Gegevensfeeds | De uitvoer van gegevens van de eerste generatie van datasets is beschikbaar door [API voor gegevenstoegang van Experience Platforms](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) en via [Experience Platform Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Deze opties verstrekken gebeurtenis/rijniveau de uitvoer van alle gegevens die in het meer van Gegevens van het Experience Platform worden verzameld of worden opgenomen. Kolommen met gegevens na het proces zijn niet beschikbaar omdat postkolommen bij de query worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
@@ -99,7 +100,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Projectsjablonen | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
-| Valutaconversie | Er is steun gepland. |
 | Gegevensbronnen van transactie-id | Er is steun gepland. |
 | Projecten/filters/berekende gegevens migreren van Adobe Analytics naar Customer Journey Analytics | Er is steun gepland. |
 | Gegevensbronnen op overzichtsniveau | Er is steun gepland. |
@@ -115,7 +115,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 {style="table-layout:auto"}
 
-## Nooit ondersteuning {#never}
+## Nooit ondersteund {#never}
 
 * Metrische personen met behulp van Cross-Device Coop
 * Dashboards voor rapporten en analyses
