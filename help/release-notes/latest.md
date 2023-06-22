@@ -3,10 +3,10 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f224a37190d60e7f055fdeb39c42dd77d8764259
+source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1316'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **Laatste update**: 21 juni 2023
 
-Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Geen hooglichten {#highlights}
 
@@ -26,7 +26,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 | **Ondersteuning voor conversie van valuta** | De conversie van valuta wordt ondersteund als onderdeel van de opmaak van een metrische component in een gegevensweergave. [Meer informatie](../data-views/component-settings/format.md#currency) | 7 juni 2023 | 21 juni 2023 |
 | **PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) |  | 30 juni 2023 |
 | **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | U zult raadplegingsdatasets aan niet alleen gebeurtenisdatasets, maar ook aan profiel en raadplegingsdatasets kunnen toevoegen. | 28 juni 2023 | 12 juli 2023 |
-| **Ervaar Edge-geo-zoekopdrachten** | Zodra Experience Edge Geo Lookups zijn ingeschakeld voor uw gegevensstroom, kunt u rapporten samenstellen met gebruik van geolocatiegegevens in Customer Journey Analytics. |  | 26 juli 2023 |
+| **Ervaar Edge-geo-zoekopdrachten** | U kunt rapporten samenstellen met gebruik van geolocatiegegevens in Customer Journey Analytics als Adobe Experience Edge-geolookups zijn ingeschakeld voor uw gegevensstroom. |  | 26 juli 2023 |
 
 {style="table-layout:auto"}
 
@@ -34,7 +34,7 @@ Customer Journey Analytics-releases werken op een [continu leveringsmodel](relea
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Journey Optimizer-gegevensweergaven** | Customer Journey Analytics-beheerders hebben toegang tot enkele extra gegevensweergaven in Customer Journey Analytics met de naam &quot;AJO-gegevensweergave (Sandbox-name)&quot;. Deze gegevensweergaven worden gebruikt om de rapporten in Adobe Journey Optimizer aan te sturen. Ze kunnen ook worden gebruikt om de Adobe Journey Optimizer-activiteiten in Customer Journey Analytics grondiger te analyseren. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). | | 25 mei 2023 |
+| **Adobe Journey Optimizer-gegevensweergaven** | Customer Journey Analytics-beheerders hebben toegang tot enkele extra gegevensweergaven in Customer Journey Analytics met de naam &quot;AJO Data view (Sandbox-name)&quot;. Deze gegevensweergaven worden gebruikt om de rapporten in Adobe Journey Optimizer aan te sturen. Ze kunnen ook worden gebruikt om de Adobe Journey Optimizer-activiteiten in Customer Journey Analytics grondiger te analyseren. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). | | 25 mei 2023 |
 | **Backfill voor niet-productiesandboxen** | Wanneer u een gegevensstroom van de Analytics Source Connector maakt in een niet-productiesandbox, wordt de back-up van niet-productiesandboxen beperkt tot 3 maanden. Het zal 13 maanden blijven voor productie zandbakken. | N.v.t. | 26 april 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Dit omvat het delen met mensen buiten uw organisatie of met mensen binnen uw organisatie die niet zijn ingericht voor Adobe Analytics. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=en#share-public-link) <p>Deze functionaliteit is standaard ingeschakeld en kan door de systeembeheerder worden uitgeschakeld. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#ims-organization-preferences)</p> | 3 mei 2023 | 6 juni 2023 |
 | **Bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App)** | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken.  Als u toegang tot meer dan één organisatie onder één login hebt, zullen alle scorecards van uw organisaties in één enkele lijst beschikbaar zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) | N.v.t. | 10 mei 2023 |
