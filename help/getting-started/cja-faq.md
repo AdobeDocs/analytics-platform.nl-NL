@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: eb05f22fdef55147da3bb84ba038f52ee7769167
+source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 
 +++**Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] gegevens over [!UICONTROL Adobe Experience Platform]?**
 
-<ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>
+<ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills: binnen 7 dagen<li>Grote achtervullingen: binnen 30 dagen</li></ul>
 
 We hebben onlangs gewijzigd hoe we gegevens verwerken in Customer Journey Analytics:
 
