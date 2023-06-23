@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
+source-git-commit: cf11fa76503e700c07de7872b5f6c8a73b1d94d1
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -132,13 +132,12 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 
 +++**Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] gegevens over [!UICONTROL Adobe Experience Platform]?**
 
-We hebben onlangs veranderd hoe we gegevens verwerken in Customer Journey Analytics.
+We hebben onlangs gewijzigd hoe we gegevens verwerken in Customer Journey Analytics:
 
-**Oude weg:**
+<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul>
+
 <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>
 
-**Nieuwe weg (vanaf juni 2023)**
-<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul>
 
 +++
 

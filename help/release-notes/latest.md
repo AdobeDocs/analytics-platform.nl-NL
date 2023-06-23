@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
+source-git-commit: cf11fa76503e700c07de7872b5f6c8a73b1d94d1
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1374'
 ht-degree: 4%
 
 ---
@@ -56,7 +56,7 @@ AN-318343; AN-319453
 
 | Bericht | Bericht toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| Wijzigingen in de manier waarop Customer Journey Analytics gegevens verwerkt | 22 juni 2023 | We hebben onlangs veranderd hoe we gegevens verwerken in Customer Journey Analytics.<p>**Oude weg:**<ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills - Bijvoorbeeld, een raadplegingsdataset van 10 miljoen rijen: binnen 7 dagen<li>Grote backfills, bijvoorbeeld 500 miljard rijen: 30 dagen</li></ul>**Nieuwe weg (vanaf juni 2023)**<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul> |
+| Wijzigingen in de manier waarop Customer Journey Analytics gegevens verwerkt | 22 juni 2023 | We hebben onlangs veranderd hoe we gegevens verwerken in Customer Journey Analytics.<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul> |
 
 ## Aankondigingen einde levensduur (EOL) {#eol}
 
