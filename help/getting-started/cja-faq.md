@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
+source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -130,15 +130,11 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 >[!NOTE]
 >Er is geen vaste gegevensgrootte in Customer Journey Analytics en Adobe kan zich dus niet vastleggen op een standaardinnametijdstip. We werken actief aan het verkleinen van deze latentie door nieuwe updates en optimalisatie van inname.
 
-+++**Wat is de verwachte latentie voor [!UICONTROL Customer Journey Analytics] gegevens over [!UICONTROL Adobe Experience Platform]?**
-
 <ul><li>Live gegevens of gebeurtenissen: Verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills: binnen 7 dagen<li>Grote achtervullingen: binnen 30 dagen</li></ul>
 
 We hebben onlangs gewijzigd hoe we gegevens verwerken in Customer Journey Analytics:
 
 <ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul>
-
-+++
 
 ## 5. Rolvenster instellen voor [!UICONTROL Connection] gegevensbewaring {#data-retention}
 
