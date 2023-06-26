@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cc33257a04214ba786d7e5510a1b6bc618a84883
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3130'
 ht-degree: 3%
 
 ---
@@ -761,4 +761,5 @@ U definieert een `Query String CID` afgeleid veld. U gebruikt de [!UICONTROL URL
 De volgende beperkingen zijn van toepassing op de functionaliteit van het afgeleide veld in het algemeen:
 
 - U kunt maximaal 10 verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
+   - Van dit maximum van 10 verschillende schemagebieden, slechts wordt een maximum van 3 raadplegingsschema of profielschemagebieden toegestaan.
 - U kunt maximaal 100 afgeleide velden per Customer Journey Analytics-verbinding hebben.
