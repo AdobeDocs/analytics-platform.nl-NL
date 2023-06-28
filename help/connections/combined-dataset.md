@@ -4,10 +4,10 @@ description: Leer hoe Customer Journey Analytics tot een verbinding door dataset
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '584'
+ht-degree: 1%
 
 ---
 
@@ -77,3 +77,28 @@ Als u echter beide tabellen hebt opgenomen in uw verbinding, verandert de toewij
 | Geel | 6 |
 | Blauw | 3 |
 | Rood | 2 |
+
+## Kanaaloverschrijdende analyse
+
+Het volgende niveau van het combineren van datasets is kanaalanalyse, waar datasets van verschillende kanalen worden gecombineerd, die op een gemeenschappelijke herkenningsteken (persoon ID) wordt gebaseerd. De analyse over kanalen kan van het stitching functionaliteit profiteren, die u toestaat om de de persoonsidentiteitskaart van een dataset opnieuw te bepalen zodat wordt de dataset behoorlijk bijgewerkt om een naadloze combinatie veelvoudige datasets toe te laten. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt een aangesloten id gegenereerd.
+
+Met de kanaalanalyse kunt u vragen beantwoorden zoals:
+
+* Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
+* Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
+* Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt de campagne klikdoorhalingen die op één apparaat landen tot omschakeling elders?
+* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik apparatuurreizen bekijk? Hoe verandert mijn trechter-analyse?
+* Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
+* Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
+
+
+Raadpleeg het specifieke geval van gebruik voor meer informatie over kanaalanalyse:
+
+* [Kanaaloverschrijdende analyse](../use-cases/cross-channel/cross-channel.md)
+
+Ga voor een diepgaandere discussie over stitching-functionaliteit naar:
+
+* [Overzicht van tekenreeksen](/help/stitching/overview.md)
+* [Hoe stikken werkt](../stitching/explained.md)
+* [Veelgestelde vragen](/help/stitching/faq.md)
+

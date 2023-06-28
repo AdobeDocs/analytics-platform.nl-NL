@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -38,39 +38,40 @@ Customer Journey Analytics omvat [Gegevensprep](https://experienceleague.adobe.c
 +++
 
 
-## 2. Gegevens vastleggen (Kanaaloverschrijdende analyse) {#stitching}
+## 2. Gegevens ophalen {#stitching}
 
 +++**Kan [!UICONTROL Customer Journey Analytics] &quot;aansluiten&quot; op verschillende apparaten of op verschillende gegevenssets?**
 
-Ja. [!UICONTROL Customer Journey Analytics] heeft een verstikkende oplossing die [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) (CCA). Het laat u de identiteitskaart van de persoon van een dataset re-key, die een naadloze combinatie veelvoudige datasets toelaat.
+Ja. [!UICONTROL Customer Journey Analytics] heeft [Stiksel](../stitching/overview.md) functionaliteit die over voor authentiek verklaarde en niet voor authentiek verklaarde gebeurtenissen binnen een dataset werkt. Dit staat voor het oplossen van ongelijksoortige verslagen aan één enkele gestikte identiteitskaart, voor dwars-apparatenanalyse op het persoonniveau toe.
+Bovendien wanneer een gemeenschappelijke namespaceID (identiteitskaart van de Persoon wordt gebruikt over datasets binnen een [Verbinding](/help/connections/overview.md), kunt u de analyse uitvoeren op een naadloze combinatie van meerdere gegevenssets, &#39;genest&#39; op persoonlijke niveau.
 
 +++
 
 
 +++**Wordt het stitching van anoniem gedrag aan voor authentiek verklaard gedrag gesteund?**
 
-Ja. [Kanaaloverschrijdende analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) kijkt naar gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren.
+Ja. [Stiksel](../stitching/overview.md) kijkt naar gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren.
 
 +++
 
 
-+++**Hoe werkt &#39;replay&#39; in CCA?**
++++**Hoe werkt &#39;replay&#39; in stitching?**
 
-CCA &quot;replay&quot;gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. Bij opnieuw afspelen worden nieuwe apparaten aan de verbinding vastgezet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching)
-
-+++
-
-
-+++**Hoe werkt het stitching van historische gegevens (backfill) in CCA?**
-
-Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics)
+Gegevens worden opnieuw afgespeeld op basis van unieke id&#39;s die het heeft geleerd. Replay is bedoeld om aanvankelijk niet-geverifieerde gebeurtenissen te koppelen aan apparaten die in de tussentijd zijn geïdentificeerd. [Meer informatie](../stitching/explained.md)
 
 +++
 
 
-+++**Wat is het verwachte gedrag voor niet-gestikte verslagen van de profieldataset?**
++++**Hoe werkt het stitching van historische gegevens (backfill)?**
 
-**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding van Customer Journey Analytics door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een het profieldataset van CRM. 40% van het CRM-gegevensbestand `CRMid` aanwezig in de de gebeurtenisdataset van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in Customer Journey Analytics. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
+Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](../stitching/explained.md)
+
++++
+
+
++++**Wat is het verwachte gedrag voor records met niet-opgeslagen profielgegevens?**
+
+**Voorbeeldscenario**: U sluit zich aan bij 2 datasets in een verbinding van Customer Journey Analytics door te gebruiken `CRMid` als de persoon-id. Een ervan is een webgebeurtenisdataset met `CRMid` in alle records. De andere dataset is een reeks van het het profielgegevens van CRM. 40% van de gegevensset CRM heeft `CRMid` aanwezig in de de gebeurtenisgegevensreeks van het Web. De andere 60% is niet aanwezig in de de gebeurtenisdataset van het Web - verschijnen deze verslagen in rapportering in Analysis Workspace?<p> **Antwoord**: Profielrijen waaraan geen gebeurtenissen zijn gekoppeld, worden opgeslagen in Customer Journey Analytics. U kunt ze echter pas in Analysis Workspace bekijken als er een gebeurtenis met die id wordt weergegeven.
 
 +++
 
@@ -226,6 +227,6 @@ In sommige gevallen, kunt u opmerken dat het totale aantal gebeurtenissen die do
 
    ![uitsplitsing](assets/data-size2.png)
 
-2. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding is gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
+1. Als we inchecken [!UICONTROL Adobe Experience Platform], is er geen dataset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke dataset van schrapte [!UICONTROL Adobe Experience Platform] wanneer de eerste verbinding is gemaakt. Later werd het opnieuw toegevoegd aan Customer Journey Analytics, maar een ander [!UICONTROL Platform Dataset ID] is gegenereerd door [!UICONTROL Adobe Experience Platform].
 
 Meer informatie over de [implicaties van gegevensset en het schrappen van verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].

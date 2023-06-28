@@ -4,9 +4,9 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
 
 >[!NOTE]
 >
->Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dit is misschien niet altijd eenvoudig om in Adobe Analytics te repliceren, vooral als de functie voor kanaalanalyse is ingeschakeld.
+>Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd gemakkelijk om in Adobe Analytics te repliceren, vooral als Stitching is ingeschakeld.
 
 1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)voert u het volgende uit [!UICONTROL Total Records by timestamps] query:
 

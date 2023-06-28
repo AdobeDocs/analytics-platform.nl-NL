@@ -4,9 +4,9 @@ title: Consistentie van metriek en het aantal van het publiekslidmaatschap tusse
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wanneer het vergelijken van het aantal van het publiekslidmaatschap tussen CDP i
 
 CDP en Customer Journey Analytics in real time delen niet de zelfde definitie van een persoon vandaag. Real-time CDP vertrouwt volledig op de informatie in [Identiteitsgrafiek](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) om een samengevoegd profiel te maken.
 
-Customer Journey Analytics kan worden gevormd om te gebruiken [Kanaaloverschrijdende analyse](/help/cca/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
+Customer Journey Analytics kan worden gevormd om te gebruiken [Stiksel](../stitching/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
 
 In de toekomst kan Customer Journey Analytics identiteitsgrafiek gebruiken.
 
