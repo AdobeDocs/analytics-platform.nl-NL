@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2195'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2023** | |
-| Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om het stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden opgeheven gebruikend stitching, wordt al inhoud met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om naar kanaalanalyse te verwijzen als het vermogen en het Stitching van Customer Journey Analytics als belangrijke functionaliteit om dit te verwezenlijken. |
+| Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als Customer Journey Analytics-vermogen en -gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
 | PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven | De Customer Journey Analytics SQL-connector biedt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. [Meer informatie](/help/data-views/sql-connector.md) |
 | Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics-beheerders hebben toegang tot enkele extra gegevensweergaven in Customer Journey Analytics met de naam &quot;AJO-gegevensweergave (Sandbox-name)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
