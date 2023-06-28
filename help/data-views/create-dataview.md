@@ -4,9 +4,9 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,24 @@ Hier volgt een video over het onderwerp:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## Een gegevensweergave configureren
+Een gegevensweergave maken of bewerken:
 
-1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
-2. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
+1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data views]** tab.
+1. Als u een gegevensweergave wilt maken, selecteert u **[!UICONTROL Create new data view]**. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
-![Nieuwe gegevensweergave](assets/new-data-view.png)
 
-### Instellingen voor gegevensweergave
+## Configureren
+
+Een nieuwe of bestaande gegevensweergave configureren:
+
+1. Selecteer **[!UICONTROL Configure]** tab (als deze nog niet actief is).
+
+   ![Gegevensweergave configureren](assets/dataview-configure.png)
+1. Opgeven [!UICONTROL Settings], [!UICONTROL Container], en [!UICONTROL Calendar] nadere gegevens (zie hieronder).
+1. Selecteren **[!UICONTROL Save and continue]** om uw nieuwe of bestaande gegevensmening te blijven vormen. Selecteren **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensmening te bewaren.
+
+
+### Instellingen
 
 Verstrekt overkoepelende montages voor de gegevensmening.
 
@@ -57,34 +67,34 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 | Instelling | Beschrijving |
 | --- | --- |
 | [!UICONTROL Time zone] | Kies in welke tijdzone de gegevens moeten worden weergegeven. Als u een tijdzone kiest die op de Tijd van de Besparing van het Daglicht werkt, worden de gegevens automatisch aangepast om dat te weerspiegelen. In de lente wanneer de klokken één uur vooruit aanpassen, is een gat van één uur aanwezig. In de val wanneer de klokken één uur achter aanpassen, wordt één uur herhaald tijdens de verschuiving van DST. |
-| [!UICONTROL Calendar Type] | Bepaal hoe weken van de maand worden gegroepeerd.<br>**Gregoriaans:** Standaardkalenderindeling. Kwarten worden gegroepeerd op maand.<br>**4-5-4 Detailhandel:** Een gestandaardiseerde 4-5-4 retailkalender. De eerste en laatste maanden van het kwartaal bevatten vier weken, terwijl de tweede maand van het kwartaal uit vijf weken bestaat.<br>**Aangepast (4-5-4):** Gelijkaardig aan 4-5-4 kalender behalve kunt u kiezen de eerste dag van het jaar en welk jaar dat de &quot;extra&quot;week voorkomt.<br>**Aangepast (4-4-5):** De eerste en tweede maand van elk kwartaal bevatten vier weken, terwijl de laatste week van elk kwartaal bestaat uit vijf weken.<br>**Aangepast (5-4-4):** De eerste maand van elk kwartaal bestaat uit vijf weken, terwijl de tweede en derde maand van elk kwartaal uit vier weken bestaan. |
+| [!UICONTROL Calendar Type] | Bepaal hoe weken van de maand worden gegroepeerd.<br>**Gregoriaans:** Standaardkalenderindeling. Kwarten worden gegroepeerd op maand.<br>**4-5-4 Detailhandel:** Een gestandaardiseerde 4-5-4 retailkalender. De eerste en laatste maanden van het kwartaal bevatten vier weken, terwijl de tweede maand van het kwartaal uit vijf weken bestaat.<br>**Aangepast (4-5-4):** Gelijkaardig aan 4-5-4 kalender behalve kunt u kiezen de eerste dag van het jaar en welk jaar dat de &quot;extra&quot;week voorkomt.<br>**Aangepast (4-4-5):** De eerste en tweede maand van elk kwartaal bevatten vier weken, terwijl de laatste week van elk kwartaal vijf weken omvat.<br>**Aangepast (5-4-4):** De eerste maand van elk kwartaal bestaat uit vijf weken, terwijl de tweede en derde maand van elk kwartaal uit vier weken bestaan. |
 | [!UICONTROL First month of the year] en [!UICONTROL First day of week] | Zichtbaar voor het Gregoriaanse kalendertype. Geef op op welke maand het kalenderjaar moet beginnen en op welke dag elke week moet beginnen. |
 | [!UICONTROL First day of current year] | Zichtbaar voor aangepaste kalendertypen. Geef op welke dag van het jaar het huidige jaar moet beginnen. Op basis van deze waarde wordt de eerste dag van elke week automatisch opgemaakt in de kalender. |
-| [!UICONTROL Year in which the "extra" week occurs] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij een extra week vormen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
+| [!UICONTROL Year in which the "extra" week occurs] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij aan een extra week toevoegen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
 
 {style="table-layout:auto"}
 
-## De componenten van een gegevensweergave instellen
+## Onderdelen
 
-Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U kunt ook Standaardcomponenten gebruiken.
+Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit betekent dat u metriek en afmetingen kunt maken op basis van schema-elementen. U kunt ook standaardcomponenten gebruiken.
 
-1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
-1. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
-1. Klik op de knop **[!UICONTROL Components]** tab.
+1. Selecteer **[!UICONTROL Components]** tab.
 
-   ![Tabblad Componenten](assets/components-tab.png)
+   ![Tabblad Componenten](assets/dataview-components.png)
 
-   U kunt de [!UICONTROL Connection] aan de linkerbovenhoek, die de datasets en zijn bevat [!UICONTROL Schema fields] hieronder. Merk op dat de reeds inbegrepen componenten standaard vereiste componenten (systeem geproduceerd) voor alle gegevensmeningen zijn. Adobe past ook het filter toe **[!UICONTROL Contains data]** door gebrek, zodat slechts de gebieden van het Schema die gegevens bevatten verschijnen. Als u een veld wilt hebben dat geen gegevens bevat, verwijdert u dit filter.
+   U kunt de [!UICONTROL Connection] aan de linkerbovenhoek, die de datasets en zijn bevat [!UICONTROL Schema fields] hieronder.  De reeds inbegrepen componenten zijn standaardcomponenten (systeem geproduceerd) die voor alle gegevensmeningen (zoals Gebeurtenissen, Mensen, de metriek van zittingen, en Minuut, Kwart, Week afmetingen) worden vereist. Adobe past ook het filter toe **[!UICONTROL Contains data]** en **[!UICONTROL is not deprecated]** door gebrek, zodat slechts de gebieden van het Schema die gegevens bevatten en die niet verouderd zijn verschijnen.
 
-1. Sleep een schemaveld, zoals `pageTitle`van de linkerspoorstaaf naar het gedeelte Metriek of Dimension.
+1. Een schemaveld zoeken met ![Zoekpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen te bewegen, als ![Mappictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>U kunt ook een afgeleid veld maken met ![Gegevenspictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Afafgeleid veld maken** . Zie [Afgeleide velden](./derived-fields/derived-fields.md) voor meer informatie .
 
-   U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. Bijvoorbeeld vanuit de `pageTitle` in het veld kunt u een dimensie met de naam &quot;Productpagina&#39;s&quot; en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot; maken door een andere dimensie te gebruiken [Componentinstellingen](component-settings/overview.md) rechts.
+1. Wanneer u een specifiek schemaveld hebt gevonden of uw afgeleide veld hebt gedefinieerd, sleept u dat veld, bijvoorbeeld ![Handgreeppictogram](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**van de linkerspoorstaaf naar het gedeelte Metriek of Dimension.
+U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. U kunt bijvoorbeeld in het veld pageName een dimensie met de naam &quot;Productpagina&#39;s&quot; maken en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot;, door een andere dimensie te gebruiken [Componentinstellingen](component-settings/overview.md) rechts.
+Als u een schemagebiedomslag van het linkerspoor sleept, worden zij automatisch gesorteerd in typische secties. Tekenreeksvelden eindigen in het dialoogvenster [!UICONTROL Dimensions] sectie- en numerieke schematypen eindigen in de [!UICONTROL Metrics] sectie. U kunt ook op **[!UICONTROL Add all]** en alle schemavelden worden toegevoegd aan hun respectieve locaties.
 
-   ![Tab 3](assets/components-tab-3.png)
+1. Zodra u een component selecteert, verschijnen de montages op het recht.
 
-   Als u een schemagebiedomslag van het linkerspoor sleept, worden zij automatisch gesorteerd in typische secties. Tekenreeksvelden eindigen in het dialoogvenster [!UICONTROL Dimensions] sectie- en numerieke schematypen eindigen in de [!UICONTROL Metrics] sectie. U kunt ook op **[!UICONTROL Add all]** en alle schemavelden worden toegevoegd aan hun respectieve locaties.
+   ![Geselecteerde component DataView](assets/dataview-component-pagename.png)
 
-1. Nadat u de component hebt geselecteerd, wordt rechts een aantal instellingen weergegeven. De component configureren met [Componentinstellingen](component-settings/overview.md). Welke componentinstellingen beschikbaar zijn, hangt af van het feit of de component een dimensie/metrische component is en van het gegevenstype schema. Voorbeelden van instellingen:
+   De component configureren met [Componentinstellingen](component-settings/overview.md). Welke componentinstellingen beschikbaar zijn, hangt af van het feit of de component een dimensie/metrische component is en van het gegevenstype schema. Voorbeelden van instellingen:
 
    * [[!UICONTROL Attribution]](component-settings/attribution.md)
    * [[!UICONTROL Behavior]](component-settings/behavior.md)
@@ -95,29 +105,27 @@ Vervolgens kunt u metriek en dimensies maken op basis van schema-elementen. U ku
    * [[!UICONTROL Persistence]](component-settings/persistence.md)
    * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
 
-## Maten of afmetingen dupliceren
+1. Selecteren **[!UICONTROL Save and continue]** om uw nieuwe of bestaande gegevensmening te blijven vormen. Selecteren **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensmening te bewaren.
+
+**Maten of afmetingen dupliceren**
 
 Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer [!UICONTROL Duplicate] het plaatsen onder de metrische metrische naam of dimensies bij het hoogste recht. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
 
-![Dupliceren](assets/duplicate.png)
+**Filterschemavelden of -gegevenssets**
 
-## Filterschemavelden of -gegevenssets
+U kunt filteren ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schema-velden in linkerspoor per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]):
 
-U kunt schemagebieden in het linkerspoor door de volgende gegevenstypes filtreren:
+![Filtervelden](assets/dataview-components-filter.png)
 
-![Filtervelden](assets/filter-fields.png)
 
-U kunt ook filteren op gegevenssets en op het feit of een schemaveld gegevens bevat of dat het een identiteit is. Standaard past Adobe eerst de **[!UICONTROL Contains data]** naar alle gegevensweergaven te filteren.
+## Instellingen
 
-![Andere filters](assets/filter-other.png)
+1. Selecteer **[!UICONTROL Settings]** tab.
+1. Configureer filters om toe te passen op de volledige gegevensweergave. Zie [Instellingen (filters)](#settings-filters) hieronder.
+1. Configureer sessietime-out en metriek. Zie [Sessieinstellingen](#session-settings) hieronder.
+1. Selecteren **[!UICONTROL Save and continue]** om uw nieuwe of bestaande gegevensmening te blijven vormen. Selecteren **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensmening te bewaren.
 
-## Het tabblad Instellingen
-
-1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data Views]** tab.
-1. Klikken **[!UICONTROL Add]** om een gegevensweergave te maken of klik op een bestaande gegevensweergave om deze te bewerken.
-1. Klik op de knop **[!UICONTROL Settings]** tab.
-
-### Globaal, filter
+### Instellingen (filters)
 
 U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u uitvoert in Workspace. Sleep een filter van de lijst in de linkerspoorstaaf aan [!UICONTROL Add filters] veld.
 
