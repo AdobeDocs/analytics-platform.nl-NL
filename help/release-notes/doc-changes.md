@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2193'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2023** | |
+| Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om het stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden opgeheven gebruikend stitching, wordt al inhoud met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om naar kanaalanalyse te verwijzen als het vermogen en het Stitching van Customer Journey Analytics als belangrijke functionaliteit om dit te verwezenlijken. |
 | PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven | De Customer Journey Analytics SQL-connector biedt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. [Meer informatie](/help/data-views/sql-connector.md) |
 | Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics-beheerders hebben toegang tot enkele extra gegevensweergaven in Customer Journey Analytics met de naam &quot;AJO-gegevensweergave (Sandbox-name)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
