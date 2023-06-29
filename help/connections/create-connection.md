@@ -4,9 +4,9 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2490'
 ht-degree: 1%
 
 ---
@@ -98,12 +98,14 @@ Voor elke dataset die u aan deze verbinding toevoegt, [!UICONTROL Customer Journ
 >
 >U moet minstens één gebeurtenisdataset als deel van een verbinding toevoegen.
 
+![Dialoogvenster Gegevensset toevoegen](assets/add-dataset.png)
+
 Er zijn drie verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens, en [!UICONTROL Lookup] gegevens.
 
 | Type gegevensset | Beschrijving | Tijdstempel | Schema | Persoon-id |
 |---|---|---|---|---|
 | **[!UICONTROL Event]** | Gegevens die gebeurtenissen op tijd vertegenwoordigen (bijvoorbeeld webbezoeken, interacties, transacties, POS-gegevens, enquêtegegevens, en impressiegegevens, enzovoort). Deze gegevens kunnen bijvoorbeeld standaardgegevens van een klikstream zijn, met een klant-id of een cookie-id en een tijdstempel. Bij Gebeurtenisgegevens hebt u enige flexibiliteit met betrekking tot de id die wordt gebruikt als de Person-id. | Wordt automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in [!UICONTROL Experience Platform]. | Om het even welk ingebouwd of douaneschema dat op een klasse XDM met het &quot;gedrag van de Reeks van de Tijd&quot;gebaseerd is. Voorbeelden zijn &quot;XDM Experience Event&quot; of &quot;XDM Decision Event&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Voor elk gegevenssetschema dat in het Experience Platform is gedefinieerd, kan een eigen set met een of meer identiteiten zijn gedefinieerd en gekoppeld aan een naamruimte Identiteit. Elk van deze identiteiten kan worden gebruikt als de persoon-id. Voorbeelden zijn Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort. |
-| **[!UICONTROL Lookup]** | Deze gegevens worden gebruikt om waarden of toetsen in uw gebeurtenis- of profielgegevens op te zoeken. U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [B2B-gebruiksgeval](/help/use-cases/b2b/b2b.md) bijvoorbeeld. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
+| **[!UICONTROL Lookup]** | U kunt nu datasets toevoegen als raadplegingen van gebieden binnen alle datasettypes: Profiel-, opzoektabel- en gebeurtenisgegevenssets (deze laatste werden altijd ondersteund). Deze extra capaciteit breidt de capaciteit van CJA uit om complexe gegevensmodellen, met inbegrip van B2B CDP te steunen. Deze gegevens worden gebruikt om waarden of toetsen op te zoeken die in uw gebeurtenis-, profiel- of opzoekgegevens zijn gevonden. U kunt maximaal twee niveaus opzoeken. (Let op: [Afgeleide velden](/help/data-views/derived-fields/derived-fields.md) kan niet worden gebruikt als overeenkomende toetsen voor zoekopdrachten in Verbindingen.) U kunt bijvoorbeeld opzoekgegevens uploaden waarmee numerieke id&#39;s in uw gebeurtenisgegevens worden toegewezen aan productnamen. Zie [B2B-gebruiksgeval](/help/use-cases/b2b/b2b.md) bijvoorbeeld. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op een XDM-klasse met het gedrag &quot;Opnemen&quot;, behalve de klasse &quot;Individueel profiel XDM&quot;. | N.v.t. |
 | **[!UICONTROL Profile]** | Gegevens die worden toegepast op uw personen, gebruikers of klanten in de [!UICONTROL Event] gegevens. Bijvoorbeeld, staat u toe om de gegevens van CRM over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset die in de [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd, zoals Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort.<br>![Persoon-id ](assets/person-id.png)**Opmerking**: Als u een verbinding creeert die datasets met verschillende IDs omvat, weerspiegelt het melden dat. Om datasets echt samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
 
 {style="table-layout:auto"}
