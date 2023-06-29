@@ -3,7 +3,7 @@ title: Hoe stikken werkt
 description: Begrijp het concept stitching
 solution: Customer Journey Analytics
 feature: Stitching
-source-git-commit: cfe369ca1d0b18e32f1d88b543e549d01ddc0d64
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 10%
@@ -129,5 +129,5 @@ Wanneer u een privacyverzoek ontvangt, wordt de rij met de originele gebruikersi
 
 * Bij het plaatsen worden bekende apparaten meteen vastgezet, maar worden nieuwe of niet-herkende apparaten niet onmiddellijk vastgezet.
 * De gegevens worden met regelmatige intervallen opnieuw afgespeeld, en verandert historische gegevens in de verbinding die op apparaten wordt gebaseerd het heeft geleerd om zich te identificeren.
-* Op één gegevensset worden actieve stitching en replay stitching uitgevoerd. Het resultaat is een nieuwe opgeheven dataset die geschikter is om te worden gebruikt wanneer het combineren met andere datasets (bijvoorbeeld, vraag-centrum gegevens) om kanaalanalyse uit te voeren.
+* Op één gegevensset worden actieve stitching en replay stitching uitgevoerd. Het resultaat is een nieuwe opgeheven dataset die geschikter is om te worden gebruikt wanneer gecombineerd met andere datasets (bijvoorbeeld, vraag-centrum gegevens) om kanaalanalyse uit te voeren.
 * De verzoeken van de privacy verwijderen identiteiten die aan unauthenticated rijen werden verspreid.

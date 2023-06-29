@@ -3,9 +3,9 @@ description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: e62261d1d440c0a85e4cab95611c6e6272de6724
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 
-## anomalieën in een tabel weergeven {#section_869A87B92B574A38B017A980ED8A29C5}
+## anomalieën in een tabel weergeven {#table}
 
 U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
@@ -32,9 +32,9 @@ U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
 1. Selecteer het grijze driehoekje rechtsboven in een rij om details over de anomalie weer te geven. Dit geeft de mate (als percentage) aan waarin de werkelijke waarde boven of onder de verwachte waarde afwijkt.
 
-## anomalieën weergeven in een lijndiagram {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## anomalieën weergeven in een lijndiagram {#line-chart}
 
-De grafieken van de lijn zijn de enige visualisatie die u toestaat om anomalieën te bekijken.
+Een grafiek van de Lijn is de enige visualisatie die u toestaat om anomalieën te bekijken.
 
 Om anomalieën in een lijngrafiek te bekijken:
 

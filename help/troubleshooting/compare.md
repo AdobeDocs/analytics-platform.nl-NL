@@ -4,16 +4,16 @@ description: Leer hoe u uw Adobe Analytics-gegevens kunt vergelijken met gegeven
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens
 
-Als uw organisatie Customer Journey Analytics gebruikt, kunnen er verschillen optreden tussen gegevens in Adobe Analytics en in Customer Journey Analytics. Dit is normaal en kan om verschillende redenen voorkomen. Customer Journey Analytics is ontworpen om u toe te staan om op sommige beperkingen van uw gegevens in AA te verbeteren. Onverwachte/onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team Customer Journey Analytics kunnen gebruiken zonder dat de bezorgdheid over gegevensintegriteit dit toelaat.
+Als uw organisatie Customer Journey Analytics gebruikt, kunnen er verschillen optreden tussen gegevens in Adobe Analytics en in Customer Journey Analytics. Dit is normaal en kan om verschillende redenen voorkomen. Customer Journey Analytics is ontworpen om u toe te staan om op sommige beperkingen van uw gegevens in AA te verbeteren. Onverwachte en onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team Customer Journey Analytics kunnen gebruiken zonder dat de bezorgdheid over gegevensintegriteit dit toelaat.
 
 Laten we aannemen dat je Adobe Analytics-gegevens via de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)en maakte vervolgens een Customer Journey Analytics-verbinding met deze dataset.
 
