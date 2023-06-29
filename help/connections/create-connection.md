@@ -4,9 +4,9 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
+source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2487'
 ht-degree: 1%
 
 ---
@@ -98,8 +98,6 @@ Voor elke dataset die u aan deze verbinding toevoegt, [!UICONTROL Customer Journ
 >
 >U moet minstens één gebeurtenisdataset als deel van een verbinding toevoegen.
 
-![Dialoogvenster Gegevensset toevoegen](assets/add-dataset.png)
-
 Er zijn drie verschillende datasettypes: [!UICONTROL Event] gegevens, [!UICONTROL Profile] gegevens, en [!UICONTROL Lookup] gegevens.
 
 | Type gegevensset | Beschrijving | Tijdstempel | Schema | Persoon-id |
@@ -150,7 +148,7 @@ Deze lijst toont de twee configuratieopties wanneer de randgevallen aanwezig zij
 
 {style="table-layout:auto"}
 
-## Het gemiddelde aantal dagelijkse gebeurtenissen berekenen
+## Het gemiddelde aantal dagelijkse gebeurtenissen berekenen {#average-number}
 
 Deze berekening wordt gedaan voor elke dataset in de verbinding.
 
