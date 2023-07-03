@@ -2,7 +2,8 @@
 title: Verwerkingsregels, VISTA en classificaties vs. Data Prep voor de Analytics Source Connector
 description: Meer informatie over gegevenstransformatie met verwerkingsregels en VISTA versus Data Prep
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: CJA Basics
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%

@@ -2,12 +2,12 @@
 title: SQL Connector
 description: Leer hoe u de Dienst van de Vraag, Power BI en/of Tableau kunt gebruiken om tot de Kijken van Gegevens toegang te hebben gebruikend de SQL Schakelaar.
 solution: Customer Journey Analytics
-feature: Data Views
+feature: SQL Connector
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 0%

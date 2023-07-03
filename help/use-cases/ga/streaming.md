@@ -1,7 +1,9 @@
 ---
 title: Gegevens voor streaming Google Analytics configureren in Adobe Experience Platform
 description: Leer hoe u uw implementatie instelt voor het verzenden van een Google-gegevenslaag naar Adobe Experience Platform
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
+exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
+feature: Use Cases
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
