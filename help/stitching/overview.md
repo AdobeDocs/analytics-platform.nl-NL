@@ -3,9 +3,9 @@ title: Overzicht van tekenreeksen
 description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 3fd4038c44b50490618f838d281684742920d152
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -56,22 +56,22 @@ Zodra uw organisatie aan alle voorwaarden voldoet en begrijpt [beperkingen](#lim
    * Een verzoek om stitching in te schakelen.
    * De dataset-id voor de gegevensset die u opnieuw wilt invoeren.
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt).
-   * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets).
+   * De kolomnaam van transient identiteitskaart voor gewenste dataset (persoonsidentificatie, die ook als verbinding tussen datasets in de context van een verbinding dienst doet).
    * Je voorkeur van [replay](explained.md) frequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
    * Naam van sandbox.
 
 
-2. De Klantenondersteuning van Adobe werkt samen met de Adobe-engineering om het aansluiten van gegevens bij het ontvangen van uw verzoek mogelijk te maken. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Adobe Klantenondersteuning kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
+2. De Klantenondersteuning van Adobe werkt samen met de Adobe-engineering om het aansluiten van gegevens bij het ontvangen van uw verzoek mogelijk te maken. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe, opnieuw weergegeven gegevensset met een nieuwe kolom Titel ID weergegeven. Adobe Klantenondersteuning kan de id van de nieuwe gegevensset opgeven.
 
-3. Wanneer deze optie voor het eerst is ingeschakeld, biedt Adobe een back-up van opgeslagen gegevens die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens bestaan.
+3. Wanneer deze optie voor het eerst is ingeschakeld, levert Adobe een back-up van gegevens die 30 dagen geleden zijn genest.
 
-4. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
+4. Als u de nieuwe gestikte dataset in een dwars-kanaalanalyse wilt gebruiken, moet u het aan een toevoegen [verbinding](../connections/overview.md) in Customer Journey Analytics samen met andere vereiste gegevensreeksen. Kies correcte persoon identiteitskaart voor elke dataset.
 
 5. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op basis van de verbinding.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Zodra de gegevensmening opstelling is, is de kanaalanalyse in Customer Journey Analytics enkel als elke andere analyse in Customer Journey Analytics, behalve nu werkt de gegevens over kanalen en apparaten.
+Zodra de gegevensmening opstelling is, kunt u uw Customer Journey Analytics rapporteringsanalyse over kanalen en apparaten in werking stellen.
 
 <!-- Uncomment once stitching UI is available (for limited testing)..
 
