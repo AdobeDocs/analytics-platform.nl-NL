@@ -3,9 +3,9 @@ title: Overzicht van tekenreeksen
 description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Wanneer u datasets met gelijkaardige persoon IDs combineert, wordt de attributie
 
 Helaas zijn niet alle op gebeurtenissen gebaseerde gegevenssets die deel uitmaken van uw verbinding in Customer Journey Analytics, voldoende gevuld met gegevens om deze toewijzing uit het vak te ondersteunen. Vooral web-based of mobiel-gebaseerde ervaringsdatasets hebben vaak geen daadwerkelijke informatie van persoonidentiteitskaart beschikbaar over alle gebeurtenissen.
 
-Door middel van tekenreeksen kunnen identiteiten binnen rijen van een gegevensset opnieuw worden ingesteld, zodat de gewenste persoon-id (naastgelegen ID) voor elke gebeurtenis beschikbaar is. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt een aangesloten id gegenereerd. Door plaatsing kunt u afwijkende records omzetten in één naadloze id voor analyse op persoonlijke niveau in plaats van op apparaat- of cookieniveau.
+Door middel van tekenreeksen kunnen identiteiten binnen rijen van één gegevensset opnieuw worden ingesteld, zodat de persoon-id (naastgelegen ID) voor elke gebeurtenis beschikbaar is. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt de gangbare waarde voor de tijdelijke id bepaald die kan worden gebruikt als aangesloten id. Hierdoor kunnen afwijkende records worden omgezet in één naastgelegen id voor analyse op persoonlijke niveau in plaats van op apparaat- of cookieniveau.
 
 U profiteert van kanaalanalyse als u één of meerdere van uw gestikte datasets met andere datasets, zoals de gegevens van het vraagcentrum, als deel van het bepalen van uw verbinding van de Customer Journey Analytics combineert. Dit veronderstelt dat die andere datasets reeds een persoonsidentiteitskaart op elke rij, gelijkend op stitched ID bevatten.
 
@@ -36,12 +36,13 @@ Voordat u stitching gebruikt, moet u ervoor zorgen dat uw organisatie is voorber
    * Voor Adobe Analytics-gegevens raadpleegt u [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
    * Voor andere soorten gegevens raadpleegt u [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 
-* De dataset in Adobe Experience Platform waarop u het stitching wilt toepassen moet twee kolommen hebben die bezoekers helpen identificeren:
+* De dataset van de gebeurtenis in Adobe Experience Platform waarop u het stitching wilt toepassen moet twee kolommen hebben die bezoekers helpen identificeren:
 
    * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Cloud.
-   * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken, mits deze minstens één keer aanwezig is op dezelfde gebeurtenis als een bepaalde permanente id.
+   * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Bij het plaatsen wordt dit veld gebruikt om de werkelijke gegevens van de persoon-id op te nemen. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden.
+Als u van plan bent om deze dataset binnen een verbinding van Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
-* Onder andere het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens wordt opgenomen. Zorg ervoor dat u aan toepasselijke wetten en verordeningen, met inbegrip van het verkrijgen van noodzakelijke eindgebruikertoestemmingen, alvorens datasets samen te voegen voldoet.
+* Onder andere het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens wordt opgenomen. Zorg ervoor dat u aan de toepasselijke wetten en verordeningen, met inbegrip van het verkrijgen van noodzakelijke eindgebruikertoestemmingen voldoet, alvorens het stitching op een gebeurtenisdataset te activeren.
 
 
 ## Sstitching gebruiken

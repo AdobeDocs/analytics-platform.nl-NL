@@ -3,9 +3,9 @@ title: Hoe stikken werkt
 description: Begrijp het concept stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1246'
 ht-degree: 10%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 10%
 
 Met Stitching worden minimaal twee gegevenscontroles in een bepaalde gegevensset uitgevoerd:
 
-* **Actief stiteren**: pogingen om elke hit vast te zetten terwijl hij binnenkomt. De netto nieuwe apparaten aan de dataset die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
+* **Actief stiteren**: pogingen om elke hit (gebeurtenis) te verstevigen terwijl deze binnenkomt. Hits van apparaten die &quot;nieuw&quot;aan de dataset (nooit voor authentiek verklaard) zijn worden typisch niet vastgemaakt op dit niveau. Hits van reeds herkende apparaten worden onmiddellijk vastgezet.
 
-* **Replay stitching**: Hiermee worden gegevens opnieuw afgespeeld op basis van unieke id&#39;s die het heeft geleerd. In dit stadium worden nieuwe apparaten aan de verbinding vastgezet. Adobe biedt twee herhalingsintervallen:
+* **Replay stitching**: Hiermee worden gegevens opnieuw afgespeeld op basis van unieke id&#39;s (transient ID&#39;s) die het heeft geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Adobe biedt twee herhalingsintervallen:
    * **Dagelijks**: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
-   * **Wekelijks**: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Gegevens van minder dan een week oud worden echter niet vastgezet.
+   * **Wekelijks**: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens weer wekelijks worden afgespeeld.
 
 * **Privacy (optioneel)**: Wanneer verzoeken met betrekking tot privacy worden ontvangen, moet, naast het verwijderen van de gevraagde identiteit, elke koppeling van die identiteit tussen niet-geverifieerde gebeurtenissen ongedaan worden gemaakt.
 
-Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een bezoeker moet binnen een bepaald terugkijkvenster voor een ongeautoriseerd bezoek en voor authentiek verklaard bezoek voor authentiek verklaren om samen worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt live vastgezet. De verzoeken van de privacy worden verwerkt over stitched gegevens ongeacht tijd.
+Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een bezoeker moet binnen een bepaald terugkijkvenster voor een ongeautoriseerd bezoek en voor authentiek verklaard bezoek voor authentiek verklaren om samen worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt live vastgezet.
 
 ## Stap 1: Actief stiteren
 
@@ -127,7 +127,7 @@ Wanneer u een privacyverzoek ontvangt, wordt de rij met de originele gebruikersi
 
 ## Samenvatting
 
-* Bij het plaatsen worden bekende apparaten meteen vastgezet, maar worden nieuwe of niet-herkende apparaten niet onmiddellijk vastgezet.
+* Bij het plaatsen worden gebeurtenissen van bekende apparaten meteen vastgezet, maar worden gebeurtenissen niet onmiddellijk vastgezet door nieuwe of niet-herkende apparaten.
 * De gegevens worden met regelmatige intervallen opnieuw afgespeeld, en verandert historische gegevens in de verbinding die op apparaten wordt gebaseerd het heeft geleerd om zich te identificeren.
 * Op één gegevensset worden actieve stitching en replay stitching uitgevoerd. Het resultaat is een nieuwe opgeheven dataset die geschikter is om te worden gebruikt wanneer gecombineerd met andere datasets (bijvoorbeeld, vraag-centrum gegevens) om kanaalanalyse uit te voeren.
 * De verzoeken van de privacy verwijderen identiteiten die aan unauthenticated rijen werden verspreid.

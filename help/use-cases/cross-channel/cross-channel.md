@@ -4,9 +4,9 @@ description: Analyseer en extraheer inzichten van klanteninteractie over de klan
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,6 @@ Zorg ervoor dat u bij het instellen van deze workflow rekening houdt met de volg
 * Voor het analyseren van gegevens tussen kanalen is dezelfde id-naamruimte vereist voor elke record.
 * Het verenigingsproces van het verenigen van verschillende datasets vereist een gemeenschappelijke primaire persoon/entiteitsleutel over de datasets.
 * Secundaire op sleutels gebaseerde unies worden momenteel niet ondersteund.
-* Het stitching proces staat voor het opnieuw teweegbrengen van identiteiten in rijen toe die op verdere voorbijgaande verslagen van identiteitskaart, zoals een authentificatieidentiteitskaart worden gebaseerd. Hierdoor kunnen afwijkende records op één id worden omgezet voor analyse op het niveau van de persoon in plaats van op het apparaat of cookie.
+* Het stitching proces staat voor het opnieuw teweegbrengen van identiteiten in rijen toe die op voorbijgaande identiteitskaart (zoals een authentificatie ID) informatie van verslagen worden gebaseerd die zelfde blijvende identiteitskaart delen.Dit staat voor het oplossen van ongelijksoortige verslagen aan één enkele gestikte identiteitskaart voor analyse op het persoonniveau, eerder dan op het apparaat of koekjesniveau toe.
 * Objecten en kenmerken van hetzelfde XDM-veld worden samengevoegd in één dimensie in Customer Journey Analytics. Om veelvoudige attributen van diverse datasets in de zelfde dimensie van Customer Journey Analytics samen te voegen, zouden de datasets het zelfde XDM gebied of schema moeten van verwijzingen voorzien.
 
