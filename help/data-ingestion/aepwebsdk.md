@@ -2,9 +2,9 @@
 title: Gegevens verzamelen via de Adobe Experience Platform Web SDK en het Edge Network
 description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en het Netwerk van de Rand in te voeren
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3273'
 ht-degree: 0%
@@ -303,11 +303,11 @@ Een gegevenselement voor de paginanaam definiëren:
 
    - Selecteren **[!UICONTROL Title]** van de [!UICONTROL Attribute] lijst.
 
-      ![Datumelement maken met behulp van pagina-info](./assets/create-dataelement-1.png)
+     ![Datumelement maken met behulp van pagina-info](./assets/create-dataelement-1.png)
 
-      U had de waarde van bijvoorbeeld een variabele in uw gegevenslaag kunnen gebruiken `pageName` en de [!UICONTROL JavaScript Variable] het elementtype van gegevens om het gegevenselement te bepalen.
+     U had de waarde van bijvoorbeeld een variabele in uw gegevenslaag kunnen gebruiken `pageName` en de [!UICONTROL JavaScript Variable] het elementtype van gegevens om het gegevenselement te bepalen.
 
-      ![Gegevenselement maken met JavaScript-variabele](./assets/create-dataelement-2.png)
+     ![Gegevenselement maken met JavaScript-variabele](./assets/create-dataelement-2.png)
 
    - Selecteren **[!UICONTROL Save]**.
 
@@ -327,7 +327,7 @@ Een ECID-gegevenselement definiëren:
 
    - Selecteren **[!UICONTROL ECID]** van de [!UICONTROL Data Element Type] lijst.
 
-      ![ECID-gegevenselement](./assets/ecid-dataelement.png)
+     ![ECID-gegevenselement](./assets/ecid-dataelement.png)
 
    - Selecteren **[!UICONTROL Save]**.
 
@@ -353,14 +353,14 @@ Een XDM-objectelement definiëren:
 
    - Wijs de `identification > core > ecid` -kenmerk, gedefinieerd in uw schema, aan het ECID-gegevenselement. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen in de lijst met gegevenselementen.
 
-      ![ECID-gegevenselement kiezen](./assets/pick-ecid-dataelement.png)
+     ![ECID-gegevenselement kiezen](./assets/pick-ecid-dataelement.png)
 
-      ![ECID-gegevenselement toewijzen](./assets/map-ecid.png)
+     ![ECID-gegevenselement toewijzen](./assets/map-ecid.png)
 
 
    - Wijs de `web > webPageDetails > name` -kenmerk, gedefinieerd in uw schema, aan het gegevenselement Paginanaam.
 
-      ![Gegevenselement paginanaam toewijzen](./assets/map-pagename.png)
+     ![Gegevenselement paginanaam toewijzen](./assets/map-pagename.png)
 
    - Selecteren **[!UICONTROL Save]**.
 
@@ -387,9 +387,12 @@ Een regel definiëren:
 
       - Selecteren **[!UICONTROL Window Loaded]** van de [!UICONTROL Event Type] lijst.
 
-         ![Regel - Gebeurtenisconfiguratie](./assets/event-windowloaded-pageview.png)
+        ![Regel - Gebeurtenisconfiguratie](./assets/event-windowloaded-pageview.png)
 
       - Selecteren **[!UICONTROL Keep Changes]**.
+
+
+
    - Selecteren **[!UICONTROL + Add]** ondergronds [!UICONTROL Actions].
 
    - In de [!UICONTROL Action Configuration] dialoogvenster:
@@ -402,18 +405,15 @@ Een regel definiëren:
 
       - Selecteer het cilinderpictogram naast  [!UICONTROL XDM data] en selecteer **[!UICONTROL XDM - Page View]** in de lijst met gegevenselementen.
 
-         ![Regel - Configuratie van handelingen](./assets/action-pageview-xdm.png)
+        ![Regel - Configuratie van handelingen](./assets/action-pageview-xdm.png)
 
       - Selecteren **[!UICONTROL Keep Changes]**.
+
    - Uw regel moet er als volgt uitzien:
 
-      ![Regel maken](assets/rule-pageview.png)
+     ![Regel maken](assets/rule-pageview.png)
 
    - Selecteren **[!UICONTROL Save]**.
-
-
-
-
 
 Dit is slechts een voorbeeld van het definiëren van een regel die XDM-gegevens, die waarden uit andere gegevenselementen bevatten, naar Adobe Experience Platform verzendt.
 
@@ -439,7 +439,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteren **[!UICONTROL + Add All Changed Resources]**.
 
-      ![Publiceren - Bibliotheek maken](./assets/create-library-aep.png)
+     ![Publiceren - Bibliotheek maken](./assets/create-library-aep.png)
 
    - Selecteren **[!UICONTROL Save & Build to Development]**.
 
@@ -510,9 +510,10 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer de gegevensset die u eerder hebt gemaakt (`Example dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
 
-      ![Gegevenssets toevoegen](./assets/cja-connections-2b.png)
+     ![Gegevenssets toevoegen](./assets/cja-connections-2b.png)
 
    - Selecteren **[!UICONTROL Next]**.
+
    In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
 
    - Voor elke gegevensset:
@@ -523,9 +524,10 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
-      ![Gegevenssets configureren](./assets/cja-connections-3b.png)
+     ![Gegevenssets configureren](./assets/cja-connections-3b.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
+
    Selecteren **[!UICONTROL Save]**.
 
 Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.

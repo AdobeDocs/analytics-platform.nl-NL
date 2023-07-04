@@ -1,10 +1,10 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslage
 
 * **Nieuwe projecten:** Hoewel nieuwe projecten automatisch worden opgeslagen, moet u elk nieuw project de eerste keer handmatig opslaan. Analysis Workspace vraagt u om nieuwe projecten handmatig op te slaan wanneer u overschakelt naar een ander project, het browsertabblad sluit enzovoort.
 
-   Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`. U moet het herstelde project herstellen en het handmatig op de gewenste locatie opslaan.
+  Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`. U moet het herstelde project herstellen en het handmatig op de gewenste locatie opslaan.
 
-   Een hersteld project herstellen:
+  Een hersteld project herstellen:
 
    1. Ga naar de [!UICONTROL **Herstelde projecten**] op de bestemmingspagina van Analysis Workspace.
 
@@ -51,7 +51,7 @@ Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslage
 
 * **Bestaande projecten:** Als u om het even welke reden een project met veranderingen verlaat die nog niet auto-bewaarde zijn, of Analysis Workspace vraagt u om uw veranderingen te bewaren of een waarschuwingsbericht verstrekt.
 
-   Hier volgen enkele veelvoorkomende scenario&#39;s:
+  Hier volgen enkele veelvoorkomende scenario&#39;s:
 
 ### Een ander project openen
 

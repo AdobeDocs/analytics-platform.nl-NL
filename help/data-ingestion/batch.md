@@ -2,9 +2,9 @@
 title: Batchgegevens invoegen en gebruiken
 description: Uitleggen hoe u batchgegevens in Customer Journey Analytics kunt opnemen en gebruiken
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -237,9 +237,10 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer de gegevensset die u eerder hebt gemaakt (`Example Loyalty Dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
 
-      ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
+     ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
 
    - Selecteren **[!UICONTROL Next]**.
+
    In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
 
    - Voor elke gegevensset:
@@ -250,9 +251,10 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
-      ![Gegevenssets configureren](./assets/cja-connections-3.png)
+     ![Gegevenssets configureren](./assets/cja-connections-3.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
+
    Selecteren **[!UICONTROL Save]**.
 
 Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.

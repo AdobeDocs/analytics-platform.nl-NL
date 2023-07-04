@@ -1,9 +1,10 @@
 ---
 description: Leer hoe u een project maakt in Analysis Workspace
 title: Projecten maken
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
-source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
+exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -92,4 +93,3 @@ Een component toevoegen:
 Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
 Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het project klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md).
-

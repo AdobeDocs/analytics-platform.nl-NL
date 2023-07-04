@@ -2,9 +2,9 @@
 title: Gegevens verzamelen en gebruiken met behulp van bronconnectors
 description: Verklaar hoe te om gegevens in te voeren en te gebruiken gebruikend bronschakelaars in Customer Journey Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
@@ -187,10 +187,9 @@ Een bronaansluiting instellen:
 
    - Selecteer op de connectortegel de optie **[!UICONTROL ...]** naast [!UICONTROL Set up] of [!UICONTROL Add data].
 
-      ![Documentatie weergeven](./assets/sourceconnector-documentation.png)
+     ![Documentatie weergeven](./assets/sourceconnector-documentation.png)
 
    - Selecteren **[!UICONTROL View documentation]**.
-
 
 Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analytics.md) hoe u de Adobe Analytics-bronconnector kunt gebruiken.
 
@@ -225,9 +224,10 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer de gegevensset die u eerder hebt gemaakt (`Example Loyalty Dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
 
-      ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
+     ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
 
    - Selecteren **[!UICONTROL Next]**.
+
    In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
 
    - Voor elke gegevensset:
@@ -238,9 +238,10 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
-      ![Gegevenssets configureren](./assets/cja-connections-3.png)
+     ![Gegevenssets configureren](./assets/cja-connections-3.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
+
    Selecteren **[!UICONTROL Save]**.
 
 Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.

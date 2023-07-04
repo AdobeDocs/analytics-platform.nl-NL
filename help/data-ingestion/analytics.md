@@ -2,9 +2,9 @@
 title: Gegevens van traditionele Adobe Analytics verzamelen en gebruiken
 description: Uitleggen hoe gegevens uit traditionele Adobe Analytics kunnen worden ingevoerd
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 0%
@@ -24,7 +24,6 @@ In deze handleiding voor snel starten wordt uitgelegd hoe u de gegevens die door
 >- [Analyse implementeren met Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)
 >
 >- [Analytics implementeren met JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
-
 
 Hiervoor moet u:
 
@@ -112,9 +111,10 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer automatisch de dataset die door de Adobe Analytics bronschakelaar en een andere dataset wordt gecreeerd die u in uw verbinding wilt omvatten.
 
-      ![Gegevenssets toevoegen](./assets/cja-connections-2a.png)
+     ![Gegevenssets toevoegen](./assets/cja-connections-2a.png)
 
    - Selecteren **[!UICONTROL Next]**.
+
    In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
 
    - Voor elke gegevensset:
@@ -125,9 +125,10 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
 
-      ![Gegevenssets configureren](./assets/cja-connections-3a.png)
+     ![Gegevenssets configureren](./assets/cja-connections-3a.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
+
    Selecteren **[!UICONTROL Save]**.
 
 Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.

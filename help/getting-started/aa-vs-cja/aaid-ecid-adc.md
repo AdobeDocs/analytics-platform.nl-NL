@@ -2,7 +2,8 @@
 title: STEUN, ECID, AACUSTOMID en de Analytics Source Connector
 description: Leer hoe de Analytics Source Connector werkt met Adobe Analytics-identiteitsvelden.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -39,9 +40,9 @@ De Analytics Source Connector geeft deze identiteiten als volgt door aan Adobe E
 
 Deze velden zijn niet gemarkeerd als identiteiten. In plaats daarvan worden dezelfde identiteiten gekopieerd naar XDM&#39;s **_identityMap_** als sleutelwaardeparen, als volgt:
 
-* `{ “key”: “AAID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “ECID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “AACUSTOMID”, “value”: [ { “id”: “<identity>”, “primary”: false } ] }`
+* `{ "key": "AAID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "ECID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "AACUSTOMID", "value": [ { "id": "<identity>", "primary": false } ] }`
 
 De items tussen haakjes &lt;> geven plaatsen aan waar werkelijke waarden worden weergegeven.
 

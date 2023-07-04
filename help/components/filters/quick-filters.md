@@ -1,10 +1,10 @@
 ---
 description: Snelfilters gebruiken in Analysis Workspace voor Customer Journey Analytics
 title: Snelle filters
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -35,20 +35,19 @@ Een snelfilter maken:
 
    * **Ad hoc (slepen en neerzetten):** Sleep een component van de linkerspoorstaaf naar de neerzetzone naast de **Filter** in de koptekst van het deelvenster en selecteert u vervolgens het pictogram **Bewerken** pictogram om het filter aan te passen.
 
-      ![Ad-hocfilter bewerken](assets/filter-adhoc-edit.png)
+     ![Ad-hocfilter bewerken](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > Houd rekening met het volgende wanneer u een snel filter ad hoc (slepen en neerzetten) maakt:
-      > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek waarvan u geen filters kunt bouwen.
-      > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39;-gebeurtenisfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
-      > * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze op de juiste wijze wordt behandeld tijdens het filteren.
-
+     >[!NOTE]
+     >
+     > Houd rekening met het volgende wanneer u een snel filter ad hoc (slepen en neerzetten) maakt:
+     > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek waarvan u geen filters kunt bouwen.
+     > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39;-gebeurtenisfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
+     > * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze op de juiste wijze wordt behandeld tijdens het filteren.
 
 
    * **Het filterpictogram gebruiken:** Selecteer in een tabel met vrije vorm de optie **Filter** in de koptekst van het deelvenster.
 
-      ![Segment, filter](assets/quick-seg1.png)
+     ![Segment, filter](assets/quick-seg1.png)
 
 1. Pas een van de volgende instellingen aan:
 
@@ -87,7 +86,6 @@ Een snelfilter maken:
 > * Als u een snel filter wilt opslaan, hebt u de machtiging Filterontwerp nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
 > 
 > * Nadat u het filter hebt opgeslagen of toegepast, kan het niet meer worden bewerkt in de snelle filterbuilder. In plaats daarvan moet u de gewone Filter Builder gebruiken.
-
 
 U kunt ervoor kiezen om snelle filters op te slaan als filters voor lijsten met componenten. De voordelen van de filters voor de lijst van componenten zijn:
 
