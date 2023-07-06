@@ -1,27 +1,28 @@
 ---
-description: Adobe Analytics-dashboards maken en delen
+description: How to create and share Analytics dashboards scorecards
 title: scorecards maken en delen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
 
 # Een mobiele scorecard maken
 
-De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Om te beginnen kunt u de Adobe Analytics dashboards scorecard builder video bekijken:
+De volgende informatie instrueert curatoren van Customer Journey Analytics-gegevens over het configureren en presenteren van dashboards voor uitvoerende gebruikers. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Schermafbeeldingen met scoreborden voor deze pagina zijn gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit Customer Journey Analytics. De gebruikersinterface is bijna identiek.
+>
+>Er zijn beeldschermafbeeldingen van analysescorecard voor deze pagina gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit Customer Journey Analytics. De gebruikersinterface is bijna identiek.
 
-Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een getimede lay-out, zoals hieronder getoond:
+Een scorecard van Analytics toont zeer belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een tegellay-out, zoals hieronder getoond:
 
 ![Voorbeeldscorecard](assets/intro_scorecard.png)
 
@@ -40,7 +41,7 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 
 ### Een nieuw project maken {#create}
 
-1. Open Adobe Analytics en klik op de knop **[!UICONTROL Workspace]** tab.
+1. Open Customer Journey Analytics en klik op de knop **[!UICONTROL Workspace]** tab.
 1. Klikken **[!UICONTROL Create project]** en selecteert u de **[!UICONTROL Blank mobile scorecard]** projectsjabloon.
 1. Klik op **[!UICONTROL Create]**.
 
@@ -78,7 +79,7 @@ U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Chan
 
 Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in Customer Journey Analytics) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
 
-Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
+Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier als in Customer Journey Analytics Workspace.
 
 ![Filters maken](assets/segment_ui.png)
 
@@ -278,7 +279,7 @@ U kunt ook heen en weer navigeren met de pijlen op het toetsenbord of door een c
 
 ## Voorvertoning scorecards {#preview}
 
-U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gepubliceerd in de app Analytics-dashboards.
+U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gepubliceerd in de Adobe Analytics-app voor dashboards.
 
 1. Klikken **[!UICONTROL Preview]** in de rechterbovenhoek van het scherm.
 
@@ -337,7 +338,7 @@ Een scorecard delen met behulp van een shareable-koppeling
 
    Wanneer een ontvanger een bureaubladtoepassing of browser gebruikt om de koppeling te openen, wordt het mobiele scorecard-project geopend in Workspace.
 
-   Wanneer een ontvanger de koppeling op een mobiel apparaat opent, wordt de scorecard rechtstreeks geopend in de app Analytics-dashboards.
+   Wanneer een ontvanger de koppeling op een mobiel apparaat opent, wordt de scorecard rechtstreeks geopend in de Adobe Analytics-dashboardapp.
 
    Als een ontvanger de mobiele app niet heeft gedownload, wordt hij of zij verwezen naar de app-aanbieding in de App Store of Google Play Store waar hij of zij deze kan downloaden.
 

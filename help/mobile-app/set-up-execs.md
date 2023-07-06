@@ -1,13 +1,13 @@
 ---
-description: Gebruikers instellen om de mobiele app Analytics te gebruiken
+description: Gebruikers instellen om de mobiele app Adobe Analytics te gebruiken
 title: Stel managers in voor het gebruik van dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -27,25 +27,29 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 Om ervoor te zorgen dat de uitvoerende gebruikers toegang tot uw scorecards op app hebben, zorg ervoor dat:
 
 * De minimale mobiele besturingssysteemvereisten op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
-* Ze hebben een geldige aanmelding bij Adobe Analytics.
+* Ze hebben een geldige aanmelding bij Customer Journey Analytics.
 * U hebt op de juiste wijze mobiele scorecards voor hen gemaakt en deze scorecards met hen gedeeld.
 * Zij hebben toegang tot de Componenten die scorecard omvat. Let op: u kunt een optie selecteren wanneer u uw scorecards deelt naar **[!UICONTROL Share embedded components]**.
 
 ## Help-managers om app te downloaden en installeren
 
+>[!NOTE]
+>
+>Hoewel de mobiele app in de App Store de naam Adobe Analytics-dashboard heeft, kan de app ook worden gebruikt met mobiele Customer Journey Analytics-scorecards.
+
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app aanmelden gebruikend hun bestaande geloofsbrieven van Adobe Analytics; wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
+Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app ondertekenen gebruikend hun bestaande geloofsbrieven van de Customer Journey Analytics; wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
 
 ![Welkomstscherm van app](assets/welcome.png)
 
@@ -108,7 +112,7 @@ Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt geme
 
 ![Niets gedeeld](assets/nothing.png)
 
-* De uitvoerende gebruiker kan de verkeerde instantie van Analytics hebben geselecteerd, of
+* De uitvoerende gebruiker kan de verkeerde zandbak van de Customer Journey Analytics hebben geselecteerd, of
 * De scorecard is mogelijk niet gedeeld met de uitvoerende gebruiker.
 
-Verifieer dat de uitvoerende gebruiker in de juiste instantie van Adobe Analytics kan registreren en dat de scorecard is gedeeld.
+Controleer of de uitvoerende gebruiker zich kan aanmelden bij de juiste Customer Journey Analytics-sandbox en of de scorecard is gedeeld.
