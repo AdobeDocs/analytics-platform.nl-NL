@@ -3,7 +3,7 @@ title: Overzicht van tekenreeksen
 description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 3fd4038c44b50490618f838d281684742920d152
+source-git-commit: 41dc46ed5e30d08708ebb97fa29312aafd99ff9d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Zodra uw organisatie aan alle voorwaarden voldoet en begrijpt [beperkingen](#lim
 
 2. De Klantenondersteuning van Adobe werkt samen met de Adobe-engineering om het aansluiten van gegevens bij het ontvangen van uw verzoek mogelijk te maken. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe, opnieuw weergegeven gegevensset met een nieuwe kolom Titel ID weergegeven. Adobe Klantenondersteuning kan de id van de nieuwe gegevensset opgeven.
 
-3. Wanneer deze optie voor het eerst is ingeschakeld, levert Adobe een back-up van gegevens die 30 dagen geleden zijn genest.
+3. Wanneer deze optie voor het eerst is ingeschakeld, levert Adobe een back-up van gegevens die na 60 dagen zijn genest.
 
 4. Als u de nieuwe gestikte dataset in een dwars-kanaalanalyse wilt gebruiken, moet u het aan een toevoegen [verbinding](../connections/overview.md) in Customer Journey Analytics samen met andere vereiste gegevensreeksen. Kies correcte persoon identiteitskaart voor elke dataset.
 
