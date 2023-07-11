@@ -1,7 +1,7 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
@@ -67,3 +67,8 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## Tijdvergelijking toepassen {#apply-time-comparison}
+
+U kunt de huidige tijdsperiode vergelijken met een vorige tijdsperiode. Als u een optie in dit menu selecteert, ontvangt elk gegevenspunt een met punten gelijkende kleur. Deze tegenhanger vertegenwoordigt die zelfde metrisch in de geselecteerde vorige datumwaaier. Als u deze optie instelt, verdubbelt u het aantal items in het diagram en de rijen in de tabel.
+
+De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken vóór, 52 weken vóór en een aangepast datumbereik. Als u Aangepast datumbereik selecteert, worden aanvullende opties weergegeven waarmee u het getal en de granulariteit kunt selecteren. Als u Geen selecteert, wordt de datumvergelijking verwijderd.
