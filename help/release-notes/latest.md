@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: daf41a2aefeebe6339b4f86cc04c071b57887ce3
+source-git-commit: 2b0d091484c3c80d97de2952f4200d166ab5cd8a
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '731'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ AN-317971; AN-319234; AN-320439; AN-320519; AN-321740; AN-322444; AN-323116
 
 | EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **Migratie naar AdobeIO OAuth Server-to-Server-referenties** | 11 mei 2023 | Adobe Analytics API-, Customer Journey Analytics API- en Livestream-klanten die AdobeIO JWT-gebruikersgegevens gebruiken, moeten naar AdobeIO OAuth Server-to-Server-referenties migreren door **1 januari 2025**. AdobeIO staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[Migreren van JWT-gebruikersgegevens (Service Account)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Het gebruiken van de nieuwe geloofsbrieven van Server-aan-Server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Veelgestelde vragen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **Migratie naar Adobe I/O OAuth Server-aan-Server geloofsbrieven** | 11 mei 2023 | Adobe Analytics API-, Customer Journey Analytics API- en Livestream-klanten die Adobe I/O JWT-gebruikersgegevens gebruiken, moeten naar de gebruikersgegevens van Adobe I/O OAuth Server-to-Server migreren door **1 januari 2025**. Adobe I/O staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[Migreren van JWT-gebruikersgegevens (Service Account)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Het gebruiken van de nieuwe geloofsbrieven van Server-aan-Server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Veelgestelde vragen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
 
