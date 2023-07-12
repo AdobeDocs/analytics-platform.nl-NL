@@ -1,16 +1,16 @@
 ---
-title: Actief
+title: Actieve weergave
 description: Identificeer wie nieuw, behouden, terugkeren, of slapend is.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: c96f30979cc8bf519a8e96a1fafa5aba2ebc4c01
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
-# Actief
+# Actieve weergave
 
 {{release-limited-testing}}
 
@@ -23,13 +23,15 @@ De **Actief** view verschaft inzicht in de groei en de verwerving van gebruikers
 
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.
 
+![Actief](../assets/active.png)
+
+## Gebruik hoofdletters
+
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Bewaren en onderdrukken van gebruikers:** Biedt een duidelijke visualisatie rond periodes van hoog of laag vasthouden van de gebruiker. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
 * **Campagnebeoordeling**: Door een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
 * **Levenscyclusanalyse van gebruikers**: Door de actieve groei van gebruikers gedurende de hele levenscyclus van de gebruiker te analyseren, kunt u specifieke stadia bepalen waarin de betrokkenheid van de gebruiker afneemt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor personen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere begeleiding in het product.
-
-![Actief](../assets/active.png)
 
 ## Query-rail
 

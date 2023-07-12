@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 3364850a56c7382fc1591b75d493ee9478ac59f6
+source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '966'
 ht-degree: 26%
 
 ---
@@ -187,16 +187,16 @@ ht-degree: 26%
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
    + Gevolgen {#impact}
-      + [Geen](../guided-analysis/types/release.md)
-      + [Eerste gebruik](../guided-analysis/types/first-use.md)
+      + [Weergave opheffen](../guided-analysis/types/release.md)
+      + [Weergave voor eerste gebruik](../guided-analysis/types/first-use.md)
    + Trechter {#funnel}
-      + [Wrijving](../guided-analysis/types/friction.md)
-      + [Conversietrends](../guided-analysis/types/conversion-trends.md)
+      + [Wrijvingsweergave](../guided-analysis/types/friction.md)
+      + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
    + Groei van gebruikers {#user-growth}
-      + [Actief](../guided-analysis/types/active.md)
-      + [Netto groei](../guided-analysis/types/net-growth.md)
+      + [Actieve weergave](../guided-analysis/types/active.md)
+      + [Netto-groeiweergave](../guided-analysis/types/net-growth.md)
    + Trends {#trends}
-      + [Gebruik](../guided-analysis/types/usage.md)
+      + [Gebruiksweergave](../guided-analysis/types/usage.md)
    + [Industriële gebruiksgevallen](../guided-analysis/industry-use-cases.md)
    + [Veelgestelde vragen](../guided-analysis/faq.md)
 

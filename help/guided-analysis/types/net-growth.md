@@ -1,15 +1,15 @@
 ---
-title: Netto groei
+title: Netto-groeiweergave
 description: Wint of verliest u gebruikers?
 feature: Guided Analysis
-source-git-commit: ab734506a023eacdeeb7c26f31a4361a6b804795
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
-# Netto groei
+# Netto-groeiweergave
 
 {{release-limited-testing}}
 
@@ -28,13 +28,15 @@ Vergelijkbaar met de [Actief](active.md) weergavetype, worden gebruikers als vol
 * **Dormant**: De gebruiker was actief in de onmiddellijk vorige periode, maar is niet actief in de huidige periode. slapende gebruikers tellen niet mee voor het totale aantal actieve gebruikers.
 * Opmerking: Herhalende gebruikers worden niet in deze berekening meegenomen, omdat ze geen winst of verlies van gebruikers vertegenwoordigen.
 
+![Netto groei](../assets/net-growth.png)
+
+## Gebruik hoofdletters
+
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Prestatiebeoordeling**: Hiermee kunt u de algemene prestaties van uw product beoordelen in termen van het aanschaffen van nieuwe gebruikers. Door de groeitrends te volgen, kunt u beter begrijpen of uw product gebruikers aantrekt en in een gewenst tempo houdt.
 * **Analyse van overname door gebruiker**: Staat u toe om de doeltreffendheid van uw strategieën van de gebruikersverwerving te beoordelen. Door de bronnen van groei van gebruikers te analyseren, zoals zoekmachines, campagnes of andere marketingkanalen, kunt u de belangrijkste bronnen van groei identificeren zodat u bronnen op basis daarvan kunt toewijzen.
 * **Churn-analyse**: De netto groei omvat een beperking in zijn formule (slapende gebruikers). U kunt de algemene gezondheid van uw gebruikersbasis in tijd beoordelen. Indien de nettogroei constant onder blijft `1`, geeft het een grote hoeveelheid aandacht die kan leiden tot het implementeren van retentiestrategieën.
-
-![Netto groei](../assets/net-growth.png)
 
 ## Query-rail
 

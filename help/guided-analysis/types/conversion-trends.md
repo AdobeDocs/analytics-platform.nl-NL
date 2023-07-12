@@ -1,25 +1,29 @@
 ---
-title: Conversietrends
+title: Conversietrends, weergave
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Guided Analysis
-source-git-commit: 84ac8008e4c90250e9f626b8c4d72f20297c14ad
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
-# Conversietrends
+# Conversietrends, weergave
 
 {{release-limited-testing}}
 
-De **Conversietrends** de mening verstrekt een trended visualisatie rond omzettingspercentages in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt. U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De **Conversietrends** de mening verstrekt een trended visualisatie rond omzettingspercentages in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
+
+![Conversietrends](../assets/conversion-trends.png)
+
+## Gebruik hoofdletters
+
+U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Optimalisatie-inspanningen bijhouden**: Na het identificeren van belangrijke knelpunten die u wilt verbeteren het gebruiken [Wrijving](friction.md)kunt u deze weergave gebruiken om te volgen hoe deze optimalisaties de conversiesnelheid in de loop der tijd beïnvloeden.
 * **A/B-testevaluatie**: Evalueren van de doeltreffendheid van A/B-tests of -experimenten in de context van een trechter. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
 * **Campagneevaluatie in de loop der tijd**: De doeltreffendheid van marketingcampagnes in de loop der tijd meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
-
-![Conversietrends](../assets/conversion-trends.png)
 
 ## Query-rail
 

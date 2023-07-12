@@ -1,27 +1,31 @@
 ---
-title: Gebruik
+title: Gebruiksweergave
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 81fe48ba9bdafa73e1bcd02e4016a2efa68ce1d1
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
 
-# Gebruik
+# Gebruiksweergave
 
 {{release-limited-testing}}
 
-De **Gebruik** biedt waardevolle inzichten in de prestaties van uw product of het gedrag van uw gebruikers in de loop van de tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet. U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De **Gebruik** biedt waardevolle inzichten in de prestaties van uw product of het gedrag van uw gebruikers in de loop van de tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
+
+![Gebruik](../assets/usage.png)
+
+## Gebruik hoofdletters
+
+U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Productprestaties evalueren**: Met trends kunt u de algemene prestaties van uw product gedurende een bepaalde periode beoordelen. Door metriek zoals gebruikersbetrokkenheid, goedkeuring, of omzettingspercentages te analyseren, kunt u identificeren als de prestaties van uw product verbeteren, stagneren, of verminderen.
 * **Aanpassing van functies**: De tendensen staan u toe om te begrijpen hoe de gebruikers nieuwe eigenschappen of updates goedkeuren die u vrijgeeft. U kunt bepalen welke functies populair zijn en welke functies moeten worden verbeterd. Met deze informatie kunt u gegevensgestuurde beslissingen maken over de functies waarmee u prioriteiten kunt stellen bij uw ontwikkelingsinspanningen.
 * **Gebruikersgedrag**: De tendensen kunnen inzicht in gebruikersgedrag in tijd verstrekken. Door specifieke acties te onderzoeken die de gebruikers nemen, kunt u patronen identificeren waar de gebruikers zouden kunnen wegvallen. U kunt vanuit deze weergave inzichten combineren met [Wrijving](friction.md) voor nog meer inzicht in gedrag.
 * **A/B-tests en -experimenten**: Als u A/B tests binnen uw product in werking stelt, kunt u Trends gebruiken om te meten welke tests in tijd het meest succesvol zijn.
-
-![Gebruik](../assets/usage.png)
 
 ## Query-rail
 
