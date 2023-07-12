@@ -3,7 +3,7 @@ title: Actief
 description: Meet de groei van uw gebruikersbasis.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -29,7 +29,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 * **Campagnebeoordeling**: Door een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
 * **Levenscyclusanalyse van gebruikers**: Door de actieve groei van gebruikers gedurende de hele levenscyclus van de gebruiker te analyseren, kunt u specifieke stadia bepalen waarin de betrokkenheid van de gebruiker afneemt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor degenen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere productbegeleiding.
 
-[Screenshot van gebruikerstoename]
+![Actief](../assets/active.png)
 
 ## Query-rail
 
@@ -48,6 +48,8 @@ Dit weergavetype biedt de volgende diagraminstellingen. U kunt de diagraminstell
 ## Tijdvergelijking toepassen
 
 {{apply-time-comparison}}
+
+![Vergelijking van actieve tijd](../assets/active-compare.png)
 
 ## Datumbereik
 

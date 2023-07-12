@@ -2,9 +2,9 @@
 title: Conversietrends
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De **Conversietrends** weergavetype biedt een trendmatige visualisatie rond conv
 * **A/B-testevaluatie**: Evalueren van de doeltreffendheid van A/B-tests of -experimenten in de context van een trechter. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
 * **Campagneevaluatie in de loop der tijd**: De doeltreffendheid van marketingcampagnes in de loop der tijd meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
 
-[Screenshot van de trechter]
+![Conversietrends](../assets/conversion-trends.png)
 
 ## Query-rail
 
@@ -39,6 +39,8 @@ De trechter biedt de volgende grafiekmontages aan. U kunt de diagraminstellingen
 ## Tijdvergelijking toepassen
 
 {{apply-time-comparison}}
+
+![Conversietrends tijdvergelijking](../assets/conversion-trends-compare.png)
 
 ## Datumbereik
 

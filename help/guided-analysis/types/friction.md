@@ -3,9 +3,9 @@ title: Wrijving
 description: Vergelijk de conversiesnelheden tussen de stappen.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De **Wrijving** weergavetype biedt een visuele weergave van een kritieke gebruik
 * **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers door eigenschap-verwante stappen te analyseren, kunt u de tarieven van de eigenschapadoptie beoordelen en gebieden identificeren waar de gebruikers bepaalde eigenschappen zouden kunnen verlaten of ondergebruiken. U kunt deze informatie dan gebruiken om zich op eigenschap of verbeteringen UI te concentreren om adoptietarieven te verhogen.
 * **Campagneevaluatie**: De doeltreffendheid van marketingcampagnes meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun omzettingsproces vergelijken met andere campagnes of binnen uw product in het algemeen.
 
-[Screenshot van de trechter]
+![Wrijving](../assets/friction.png)
 
 ## Query-rail
 
@@ -41,6 +41,8 @@ De trechter biedt de volgende grafiekmontages aan. U kunt de diagraminstellingen
 ## Tijdvergelijking toepassen
 
 {{apply-time-comparison}}
+
+![Vergelijking van wrijvingstijd](../assets/friction-compare.png)
 
 ## Datumbereik
 

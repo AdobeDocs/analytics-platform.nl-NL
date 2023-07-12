@@ -3,9 +3,9 @@ title: Gebruik
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De **Gebruik** weergavetype biedt een waardevol inzicht in de prestaties van uw 
 * **Gebruikersgedrag**: De tendensen kunnen inzicht in gebruikersgedrag in tijd verstrekken. Door specifieke acties te onderzoeken die de gebruikers nemen, kunt u patronen identificeren waar de gebruikers zouden kunnen wegvallen. U kunt inzichten van dit weergavetype combineren met [Wrijving](friction.md) voor nog meer inzicht in gedrag.
 * **A/B-tests en -experimenten**: Als u A/B tests binnen uw product in werking stelt, kunt u Trends gebruiken om te meten welke tests in tijd het meest succesvol zijn.
 
-[Schermafbeelding van trends]
+![Gebruik](../assets/usage.png)
 
 ## Query-rail
 
@@ -40,6 +40,8 @@ De tendensen bieden de volgende grafiekmontages aan. U kunt de diagraminstelling
 ## Tijdvergelijking toepassen
 
 {{apply-time-comparison}}
+
+![Vergelijking van gebruiksduur](../assets/usage-compare.png)
 
 ## Datumbereik
 

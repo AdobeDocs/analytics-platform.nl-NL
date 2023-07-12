@@ -2,9 +2,9 @@
 title: Netto groei
 description: Winsten en verliezen van gebruikers in balans brengen.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 * **Prestatiebeoordeling**: Hiermee kunt u de algemene prestaties van uw product beoordelen in termen van het aanschaffen van nieuwe gebruikers. Door de groeitrends te volgen, kunt u beter begrijpen of uw product gebruikers aantrekt en in een gewenst tempo houdt.
 * **Churn-analyse**: De netto groei neemt een beperking in zijn formule (slapende gebruikers) op. U kunt de algemene gezondheid van uw gebruikersbasis in tijd beoordelen. Indien de nettogroei constant onder blijft `1`, geeft het een hoge mate van aandacht aan, waardoor u wordt gevraagd de redenen achter het onderzoek te onderzoeken en retentiestrategieën te implementeren.
 
-[Screenshot van gebruikerstoename]
+![Netto groei](../assets/net-growth.png)
 
 ## Query-rail
 
