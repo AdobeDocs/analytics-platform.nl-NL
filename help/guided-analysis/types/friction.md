@@ -3,9 +3,9 @@ title: Wrijving
 description: Vergelijk de conversiesnelheden tussen de stappen.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
+source-git-commit: 164785f52990c43691c8e13c8fa80e3c201995f7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-De **Wrijving** weergavetype biedt een visuele weergave van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke gebeurtenis die een gebruiker in volgorde moet aanraken. De verticale as geeft het percentage weer van de gebruikers of sessies die elke gebeurtenis raakten. Alle aanraakpunten moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden. U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De **Wrijving** de mening verstrekt een visuele vertegenwoordiging van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden. U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Conversieanalyse**: U kunt omzettingen in elke fase van de trechter analyseren. Door het aantal gebruikers te volgen die van één stap aan volgende overgaan, kunt u knelpunten identificeren die ongebruikelijke of ongewenste omzettingspercentages hebben. Deze informatie is nuttig om te begrijpen waar u uw product voor directe resultaten kunt verbeteren.
 * **Optimalisatie aan boord**: Optimaliseer het aan boord gaan van uw product proces door gebruikersgedrag rond zeer belangrijke gebeurtenissen te onderzoeken. U kunt aangeven met welke stappen gebruikers worstelen of niet.
-* **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers door eigenschap-verwante stappen te analyseren, kunt u de tarieven van de eigenschapadoptie beoordelen en gebieden identificeren waar de gebruikers bepaalde eigenschappen zouden kunnen verlaten of ondergebruiken. U kunt deze informatie dan gebruiken om zich op eigenschap of verbeteringen UI te concentreren om adoptietarieven te verhogen.
+* **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers door eigenschap-verwante stappen te analyseren, kunt u de tarieven van de eigenschapadoptie beoordelen en gebieden identificeren waar de gebruikers bepaalde eigenschappen zouden kunnen verlaten of ondergebruiken. U kunt deze informatie dan gebruiken om zich op eigenschapverbeteringen te concentreren om adoptiecijfers te verhogen.
 * **Campagneevaluatie**: De doeltreffendheid van marketingcampagnes meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun omzettingsproces vergelijken met andere campagnes of binnen uw product in het algemeen.
 
 ![Wrijving](../assets/friction.png)
@@ -32,10 +32,10 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 ## Diagraminstellingen
 
-De trechter biedt de volgende grafiekmontages aan. U kunt de diagraminstellingen aanpassen in het menu tussen het weergavetype en de kalenderkiezer.
+De wrijvingsweergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **Metrisch**: De metrische waarde die u wilt meten. U kunt onder andere sessies en gebruikers kiezen.
-* **Type diagram**: Het type visualisatie dat u wilt gebruiken. De enige optie is Stappen.
+* **Metrisch**: Het bereik dat u op de trechter wilt toepassen. U kunt onder andere sessies en gebruikers kiezen. Door sessies te selecteren, moeten alle stappen binnen dezelfde sessie plaatsvinden om te worden geteld. Door gebruikers te selecteren, moeten alle stappen binnen het rapporteringsvenster gebeuren dat wordt geselecteerd om worden geteld.
+* **Type diagram**: Het type visualisatie dat u wilt gebruiken. U kunt kiezen uit Stappen.
 * **Conversie van**: Hiermee bepaalt u de percentageberekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
 
 ## Tijdvergelijking toepassen
@@ -46,4 +46,7 @@ De trechter biedt de volgende grafiekmontages aan. U kunt de diagraminstellingen
 
 ## Datumbereik
 
-De begin- en einddatum. Voorinstellingen voor datumbereik zijn beschikbaar voor uw gemak of u kunt de kalenderkiezer gebruiken om de exacte gewenste datum in te stellen.
+Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
+
+* **Interval**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Deze instelling heeft geen invloed op niet-trendweergaven, zoals Wrijving.
+* **Datum**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
