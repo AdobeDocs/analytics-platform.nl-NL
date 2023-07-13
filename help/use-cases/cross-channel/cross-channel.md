@@ -4,9 +4,9 @@ description: Analyseer en extraheer inzichten van klanteninteractie over de klan
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 75f27ef2f5fcd0d2a2038dbe7bcf812e865a14fc
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 De analyse tussen kanalen laat één enkele geconsolideerde mening van klantengedrag over diverse kanalen door gegevens van diverse Web, mobiele, en off-line eigenschappen te verenigen toe. U kunt deze geconsolideerde weergave bijvoorbeeld gebruiken om de interactie van klanten op verschillende desktops en mobiele apparaten te analyseren, zodat u het gedrag van klanten begrijpt en inzichten kunt ophalen om de beleving van digitale klanten te optimaliseren. U kunt klanteninteractie over kanalen, met inbegrip van digitale en off-line kanalen zoals steuninteractie en in-store aankopen ook analyseren om de klantenreis beter te begrijpen en te optimaliseren.
 
-## Workflow
-
-![Kanaalarchitectuur](../assets/cca-architecture.png)
-
 ## Implementatiestappen
+
+![Afbeelding van de stroom van implementatiestappen zoals beschreven in [Implementatiestappen](#implementation-steps)](../assets/cca-architecture.png)
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
