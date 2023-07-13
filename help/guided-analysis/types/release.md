@@ -2,9 +2,9 @@
 title: Weergave opheffen
 description: Vergelijk de prestaties in gelijke perioden vóór en na de release.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ De **Geen** de weergave toont een vergelijking van de manier waarop de belangrij
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **Algemene prestatiebeoordeling:** Het vergelijken van algemene zeer belangrijke indicatoren, zoals opbrengst, kan u helpen bepalen als een bepaalde versie algemeen succesvol was.
+* **Algemene prestatiebeoordeling:** Het vergelijken van algemene zeer belangrijke indicatoren, zoals betrokkenheidsmaatregelen, kan u helpen bepalen als een bepaalde versie over het geheel genomen succesvol was.
+* **Toezicht**: Als er bepaalde maatregelen zijn waarvan u verwacht dat ze vlak blijven wanneer er wijzigingen worden aangebracht, zoals webvitalen zoals laadtijd of logins, vergelijkt u deze voor en na de release om ervoor te zorgen dat de release geen onbedoelde gevolgen heeft.
 * **Aanpassing van functies**: Als een productupdate zich op het verbeteren van een bepaalde eigenschap concentreert, kunt u deze mening gebruiken om het gebruik van die eigenschap vóór en na de productupdate direct te vergelijken.
 * **Bugdetectie**: Het volgen van het aantal fouten vóór en na een versie kan een vroege indicator van klantenkwesties verstrekken. Als u onmiddellijk na een release een toename van fouten opmerkt, kunt u samenwerken met ontwikkelingsteams of ontwikkelingsteams om het probleem te identificeren en te verhelpen, zodat de klant niet meer last krijgt.
 
@@ -42,7 +43,7 @@ De weergave Vrijgeven biedt de volgende diagraminstellingen, die kunnen worden a
 
 ## Datumbereik
 
-De selectie van de datum in effectrapporten werkt verschillend dan andere analysetypen, aangezien het rapport rond de datum draait die in vraagspoor wordt gespecificeerd. De volgende opties zijn beschikbaar:
+De datumselectie in de effectbeoordeling werkt anders dan andere analysetypen, aangezien het verslag zich rond de datum bevindt die in de queryrail is gespecificeerd. De volgende opties zijn beschikbaar:
 
 * **Interval**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Geldige opties zijn [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], en [!UICONTROL Quarterly]. Het wijzigen van het interval heeft invloed op de opties die beschikbaar zijn voor de periode Voor en Na.
 * **Voor en na de periode**: De hoeveelheid tijd die voor en na de datum moet worden geanalyseerd die in de querytrack wordt opgegeven. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.
