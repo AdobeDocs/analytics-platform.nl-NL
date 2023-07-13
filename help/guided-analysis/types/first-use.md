@@ -2,9 +2,9 @@
 title: Weergave voor eerste gebruik
 description: Meet het effect van het gebruik van de eerste functie op sleutelindicatoren.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: 9fa4b894e69a25b26632a93f00a655eec8e8aa86
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -24,25 +24,26 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 * **Nieuwe functieanalyse**: Als u een nieuwe functie binnen uw product start, kunt u vergelijken hoe belangrijke indicatoren die voor en na gebruikers voor het eerst aan die nieuwe functie werden blootgesteld, werden uitgevoerd.
 * **Doeltreffendheid van campagnes**: Wanneer een gebruiker een bepaalde campagne bekijkt, kunt u vergelijken hoe de belangrijkste indicatoren vóór en nadat de gebruiker zag of met die campagne in wisselwerking stond.
 
-<!--
-## Query rail
+## Query-rail
 
-The query rail allows you to configure the following components:
+Met de queryrail kunt u de volgende componenten configureren:
 
-* **Key indicators**: The events that you want to measure per user. Each selected key indicator is represented as a colored line. A row representing the event is added to the table. You can include up to three events.
-* **Factors**: The date that you want to compare before and after.
-* **People**: The segment that you want to measure. The selected segment filters your data to focus only on the individuals who match your segment criteria.
+* **Belangrijkste indicatoren**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
+* **Factoren**: Dit standpunt kent twee factoren:
+   * **Datum**: Hoe ver terug u voor de eerste keer wilt zoeken een gebeurtenis werd geraakt.
+   * **Gebeurtenis**: De gebeurtenis die u voor en na het aangeraakt zijn wilt vergelijken.
+* **Mensen**: Het segment dat u wilt meten. Het geselecteerde segment filtert uw gegevens om zich slechts op de individuen te concentreren die uw segmentcriteria aanpassen.
 
-## Chart settings
+## Diagraminstellingen
 
-The Release view offers the following chart settings, which can be adjusted in the menu above the chart:
+De weergave Eerste gebruik biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **Metric**: The metric that you want to measure. Options include [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], and [!UICONTROL Users].
-* **Chart type**: The type of visualization that you want to use. Options include Line.
+* **Metrisch**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Events per user], [!UICONTROL Events], [!UICONTROL Sessions], en [!UICONTROL Users].
+* **Type diagram**: Het type visualisatie dat u wilt gebruiken. U kunt onder andere Lijn kiezen.
 
-## Date range
+## Datumbereik
 
-Date selection in impact reports operate differently than other analysis types, since the report revolves around the date specified in the query rail. The following options are available:
+Datumselecties in effectrapporten werken anders dan andere analysetypen, omdat het rapport draait om een bepaalde gebeurtenis die voor het eerst wordt aangeraakt (opgegeven in de queryrail). De volgende opties zijn beschikbaar:
 
-* **Interval**: The date granularity that you want to view trended data by. Valid options include [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], and [!UICONTROL Quarterly]. Changing the interval affects the options available for the Before and after period.
-* **Before and after period**: The amount of time to analyze before and after the date specified in the query rail. Available options depend on the [!UICONTROL Interval] selection. -->
+* **Interval**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Geldige opties zijn [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], en [!UICONTROL Quarterly]. Het wijzigen van het interval heeft invloed op de opties die beschikbaar zijn voor de periode Voor en Na.
+* **Voor en na de periode**: De hoeveelheid tijd die moet worden geanalyseerd voor en na de aanraakgebeurtenis die is opgegeven in de querytrack. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.
