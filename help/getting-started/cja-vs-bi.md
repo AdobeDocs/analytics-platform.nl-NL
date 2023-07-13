@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ In dit gedeelte van de documentatie worden de fundamentele verschillen tussen Cu
 
 Een veelvuldig obstakel voor de traditionele benadering van het analyseren van klantentransporten is dat het niet klantgericht is. Elk team verzamelt gegevens op locaties, analyseert en optimaliseert ervaringen op basis van de gegevens waartoe zij toegang hebben.
 
-![Normale BI-workflow](./assets/biworkflow.png)
+![Traditionele BI-workflow zoals beschreven in deze sectie](./assets/biworkflow.png)
 
 Als u wilt begrijpen hoe een specifieke digitale campagne een off-line actie beïnvloedt die in een verschillende gegevenssilo wordt opgeslagen, geeft u een verzoek aan de rij van het team van BI uit. Het team van BI schrijft de vereiste vraag om de gegevens te verwerven en om te zetten. Zodra de ruwe gegevens worden teruggewonnen, leidt het team van BI tot visualisatie. De gegevens worden met u gedeeld en u besteedt tijd aan het doornemen van inzichten en het extraheren van gegevens voor activering in andere systemen.
 
@@ -34,7 +34,7 @@ Elk van deze stappen kan uren, dagen, of zelfs weken vergen. Als er vervolgvrage
 
 Customer Journey Analytics verstrekt een milieu om online en off-line dwars-kanaalgegevens op het overkoepelende klantenniveau met het enige doel te verbinden om de klantenreis te begrijpen. Hiervoor is een eerste installatie vereist [verbinden](/help/connections/overview.md) en [weergaven definiëren](/help/data-views/data-views.md) aan de gegevens die u als relevant aanmerkt. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
 
-![Customer Journey Analytics-workflow](./assets/cjaworkflow.png)
+![Customer Journey Analytics-workflow zoals beschreven in deze sectie](./assets/cjaworkflow.png)
 
 U kunt Customer Journey Analytics gebruiken om vragen te stellen met de visuele Analysis Workspace-omgeving en bijna onmiddellijk inzichten te verkrijgen. De gegevens en rapporten van het dwars-kanaal zijn onmiddellijk beschikbaar, zonder SQL vereiste code. Extra query&#39;s en analyse kunnen worden uitgevoerd met een eenvoudige sleepbewerking en neerzetbewerking in de gebruikersinterface, met volledig gecorreleerde gegevens. U kunt vragen blijven stellen, geleidelijk meer details onderzoeken zoals u vereist. U kunt dan onmiddellijk actie ondernemen op de inzichten die u ontdekt, zoals het delen van publiek voor activering en orkest.
 

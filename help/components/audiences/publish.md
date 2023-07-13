@@ -3,9 +3,9 @@ title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
    Configureer deze instellingen voordat u het publiek kunt publiceren.
 
-   ![](assets/create-audience.png)
+   ![Screenshot van hoe u een publiek kunt maken](assets/create-audience.png)
 
    | Instelling | Beschrijving |
    | --- | --- |
@@ -52,7 +52,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
    De voorvertoning voor het publiek wordt weergegeven in de rechtertrack. Hiermee kunt u een samengevatte analyse maken van het publiek dat u hebt gemaakt.
 
-   ![](assets/data-preview.png)
+   ![Schermafbeelding van de gegevensvoorvertoning](assets/data-preview.png)
 
    | Voorvertoning instellen | Beschrijving |
    | --- | --- |
@@ -85,7 +85,7 @@ Nadat u een publiek hebt gecreeerd, leidt Adobe tot een Experience Platform het 
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-![Latentie van Adobe Experience Platform naar Customer Journey Analytics](assets/latency-diagram.png)
+![Latenties in publiekspublicaties zoals beschreven in [Latentieoverwegingen](#latency-considerations)](assets/latency-diagram.png)
 
 | Aantal | Latentiepunt | Latentieduur |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep 
 
 Customer Journey Analytics neemt alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar RTCP (Real-Time Customer Profile). Customer Journey Analytics stuurt het publiek naar het Experience Platform met de primaire identiteitsset, afhankelijk van wat als de [!UICONTROL Person ID] wanneer de verbinding werd gevormd.
 
-RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu kan &#39;user@adobe.com&#39; bijvoorbeeld worden gebruikt op alle apparaten en kanalen. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
+RTCP onderzoekt dan elke namespace/ID combinatie en zoekt een profiel dat het deel van kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. Nu, bijvoorbeeld <user@adobe.com> kan op al hun apparaten en kanalen worden gericht. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 U kunt Customer Journey Analytics-publiek in Platform bekijken door naar **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** tab > **[!UICONTROL CJA Audiences]**.
 
