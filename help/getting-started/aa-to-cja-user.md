@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -110,4 +110,4 @@ Customer Journey Analytics breidt de begrippen van identiteiten voorbij ECIDs ui
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 
-In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensies rapporteren. Zie [Lange staart](../analysis-workspace/workspace-faq/long-tail.md) voor meer informatie over hoe Customer Journey Analytics het rapporteren van dimensies met vele unieke waarden optimaliseert.
+In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensies rapporteren. Zie [Resultaten afgekapt dimensie-item](../analysis-workspace/workspace-faq/results-truncated.md) voor meer informatie over hoe Customer Journey Analytics het rapporteren van dimensies met vele unieke waarden optimaliseert.
