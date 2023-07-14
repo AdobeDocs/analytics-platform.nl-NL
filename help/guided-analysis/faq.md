@@ -3,9 +3,9 @@ title: Veelgestelde vragen over analyse met instructies
 description: Veelgestelde vragen over de analyse met instructies.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 23d3e6a9662cda932a376c09849ab078d22830dc
+source-git-commit: d15ada7c5b46c55f56e3fd3ba2b749f0495a0c10
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,31 @@ ht-degree: 0%
 
 Veelgestelde vragen over de analyse met instructies.
 
-+++**Beschikt iedereen over een analyse met instructies?**
++++**Hoe kan mijn organisatie worden voorzien voor Geleide analyse?**
 
-Neen; Analyse met instructies is een betaalde aanvulling op Customer Journey Analytics. Neem contact op met het accountteam van Adobe als u deze invoegtoepassing wilt gaan gebruiken.
+Analyse met instructies is een betaalde aanvulling op Customer Journey Analytics. Neem contact op met het accountteam van Adobe als u deze invoegtoepassing wilt gaan gebruiken.
 
 +++
 
 +++**Welke implementatiewijzigingen zijn vereist om de analyse met instructies te gebruiken?**
 
-Als u Analysis Workspace al in Customer Journey Analytics gebruikt, zijn er geen aanvullende implementatiewijzigingen nodig. Voor de analyse met instructies worden dezelfde gegevensweergaven en -verbindingen gebruikt als voor Analysis Workspace. Het proces om aan boord te hebben en om het even welk projecttype te gebruiken is identiek voor al Customer Journey Analytics, met inbegrip van Geleide analyse.
+Als u vandaag reeds Customer Journey Analytics gebruikt, zijn geen extra implementatieveranderingen nodig. De geleide analyse gebruikt zelfde [Gegevensweergaven](../data-views/data-views.md) en [Verbindingen](../connections/overview.md) zoals andere CJA-interfaces zoals [Analysis Workspace](../analysis-workspace/home.md).
+
+Als u eindgebruikers wilt laten profiteren van de analyse met instructies, kunt u het beste een krachtig gebeurtenisschema en beheerstrategie toepassen in Adobe Experience Platform en [Gegevensweergaven](../data-views/data-views.md).
 
 +++
 
-+++**Hoe verhouden termen zich tot elkaar binnen en buiten de analyse met instructies?**
++++**Wanneer moet u de analyse met instructies of Analysis Workspace gebruiken?**
 
-Bij een analyse met instructies worden termen gebruikt die vaker worden gebruikt in de productanalyse. U kunt naar deze tabel verwijzen bij het schakelen tussen de analyse met instructies en Analysis Workspace.
+**Analyse met instructies** kunnen gebruikers helpen snel inzicht van hoge kwaliteit te krijgen. Dit is handig voor productteams, gebruikers die betrouwbaarder met gegevens willen werken en zelfs analisten die een begin maken met een diepgaande analyse.
+
+**[Analysis Workspace](../analysis-workspace/home.md)** Dit is een vrijere ruimte waarmee u verder in de gegevens kunt duiken om meer inzichten aan het licht te brengen. Het is handig voor analisten en veeleisende gebruikers die de gegevens goed begrijpen en er diep in willen duiken.
+
++++
+
++++**Hoe vergelijk de terminologie tussen Guided analysis en Analysis Workspace?**
+
+De geleide analyse gebruikt termijnen die vaker onder productteams worden gebruikt. U kunt naar deze tabel verwijzen wanneer u schakelt tussen de analyse Met instructies en [Analysis Workspace](../analysis-workspace/home.md).
 
 | Geleide analyseperiode | Analysis Workspace term |
 | --- | --- |
@@ -44,26 +54,24 @@ Bij een analyse met instructies worden termen gebruikt die vaker worden gebruikt
 
 +++
 
-+++**Wat zijn enkele verschillen ten aanzien van de wijze waarop Analysis Workspace en Guided analysis de benadering bepalen?**
++++**Wat zijn enkele verschillen ten aanzien van de rapportage van Guided analysis en Analysis Workspace?**
 
-Hoewel Analysis Workspace en de analyse met instructies dezelfde onderliggende gegevens gebruiken, is de manier waarop u met elk gereedschap query&#39;s voor die gegevens kunt maken anders.
+while [Analysis Workspace](../analysis-workspace/home.md) en de analyse Met instructies gebruikt de zelfde onderliggende gegevens, de manier dat elk hulpmiddel u toelaat om vragen van die gegevens te vormen is verschillend.
 
-* **Analysis Workspace is een op dimensies gerichte ervaring.** Tabellen bestaan meestal uit rijen voor dimensiepunten, terwijl kolommen meestal metriek zijn. U kunt filters op zowel rijen als kolommen toepassen om de gewenste gegevens te verkrijgen.
+* **Analysis Workspace is een op dimensies gerichte ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen doorgaans metriek zijn. U kunt filters toepassen in zowel rijen als kolommen om de gewenste gegevens te verkrijgen.
 
-* **De geleide analyse is een gebeurtenis-gecentreerde ervaring.** De visualisaties richten zich op gebeurtenissen, gebruikend afmetingen en filters om die gegevens aan te vullen.
+* **De geleide analyse is een gebeurtenis-gecentreerde ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en filters kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
 
 ![Structuur](assets/structure.png)
 
 Kijk in het volgende voorbeeld naar de gegevens op de homepage van uw website. Teams stellen gelijkaardige vragen, maar de analyse benadering kan verschillend zijn.
 
-* Een typisch afmetingsgecentreerde benadering van Analysis Workspace zou zijn: &quot;Hoeveel paginameningen heeft de homepage ontvangen?&quot;
+* Een typisch afmetingsgecentreerde benadering van Analysis Workspace zou zijn: &quot;Laten we naar de homepage kijken en zien hoeveel paginameningen het ontving.&quot;
 
   ![Dimension gecentreerd](assets/dimension-centered.png)
 
 * Een typisch gebeurtenis-gecentreerde Geleide analyse benadering zou zijn, &quot;hoeveel gebruikers de homepage hebben bekeken?&quot;
 
   ![Gebeurtenis gecentreerd](assets/event-centered.png)
-
-Deze instructies illustreren twee verschillende methoden om hetzelfde rapport te bereiken, afhankelijk van uw gebeurtenisbeheerstrategie.
 
 +++
