@@ -3,9 +3,9 @@ title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams snel inzichten van hoge kwaliteit laat krijgen.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: cc76b4c3b03647f6e90f0b57f4d8c819caa8823f
+source-git-commit: bdde5e7798ee3c960006d47dc31947d2e1a74a5f
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,27 @@ De geleide analyse categoriseert meningstypes in **Typen analyses**. De volgende
 
 | Type analyse | Type weergave | Beschrijving |
 | --- | --- | --- |
-| Gevolgen | [Geen](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
-| Gevolgen | [Eerste gebruik](types/first-use.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
-| Trechter | [Wrijving](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
-| Trechter | [Conversietrends](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
-| Groei van gebruikers | [Actief](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
-| Groei van gebruikers | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
-| Trends | [Gebruik](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
+| [!UICONTROL Impact] | [Geen](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
+| [!UICONTROL Impact] | [Eerste gebruik](types/first-use.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
+| [!UICONTROL Funnel] | [Wrijving](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
+| [!UICONTROL Funnel] | [Conversietrends](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
+| [!UICONTROL User growth] | [Actief](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
+| [!UICONTROL Net growth] | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
+| [!UICONTROL Trends] | [Gebruik](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
 
 {style="table-layout:auto"}
 
 ## Toegang
 
-Als uw organisatie is voorzien voor geleide analyse, kan het van de homepage van de Customer Journey Analytics worden betreden.
+Als uw organisatie is ingericht voor geleide analyse, kunt u tot het van de homepage van de Customer Journey Analytics toegang hebben.
 
-Klikken **Analyse met instructies** van de startpagina om rechtstreeks naar de [Weergave trends gebruiken](types/usage.md).
+1. Klikken **[!UICONTROL Guided analysis]** van de startpagina om rechtstreeks naar de [Weergave trends gebruiken](types/usage.md).
 
-Klikken **Nieuw maken** om de verschillende weergaveopties weer te geven en een ander beginpunt voor de analyse te kiezen.
+   ![Een nieuw modaal model maken](assets/create-new-modal.png)
+
+1. Klikken **[!UICONTROL Create new]** om de verschillende weergaveopties weer te geven en een ander beginpunt voor de analyse te kiezen.
+
+   ![Landingspagina-element](assets/landing-page-tile.png)
 
 ## Interface
 
