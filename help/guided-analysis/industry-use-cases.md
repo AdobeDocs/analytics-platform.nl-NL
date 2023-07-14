@@ -1,9 +1,9 @@
 ---
 title: Industriële gebruiksgevallen
 description: Industriële gebruiksgevallen voor geleide analyse
-source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
+source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,8 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 ![De mening van het gebruik voor reis en gastvrijheid](assets/th-trends-usage.png)
 
+![Conversietrends voor reizen en gastvrijheid](assets/th-funnel-conversio-trends.png)
+
 +++
 
 +++**Media en entertainment**
@@ -81,6 +83,8 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 ![Wrijvingsweergave voor media en entertainment](assets/me-funnel-friction.png)
 
 ![Actieve weergave voor media en entertainment](assets/me-user-growth-active.png)
+
+![](assets/me-trends-usage.png)
 
 +++
 
