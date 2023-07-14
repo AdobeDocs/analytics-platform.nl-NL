@@ -2,9 +2,9 @@
 title: Weergave voor eerste gebruik
 description: Meet het effect van het gebruik van de eerste functie op sleutelindicatoren.
 feature: Guided Analysis
-source-git-commit: 9fa4b894e69a25b26632a93f00a655eec8e8aa86
+source-git-commit: 4d642c150f04ed4780820036cfd53fc343fc94c8
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-De **Eerste gebruik** In de weergave wordt een vergelijking getoond van de manier waarop toetsindicatoren die voor en na een gebruiker een bepaalde gebeurtenis voor het eerst aanraken. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale balk in het midden van het diagram geeft aan wanneer de gebeurtenis voor een bepaalde gebruiker heeft plaatsgevonden.
+De **Eerste gebruik** de mening toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een gebruiker een producteigenschap voor het eerst gebruikten. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale bar in het midden van de grafiek vertegenwoordigt dag 0 voor wanneer een eigenschap voor het eerst door een bepaalde gebruiker wordt gebruikt. Omdat de gebruikers niet altijd eigenschappen op de zelfde dag goedkeuren en uw rollouts kunnen over verscheidene dagen gebeuren, zal dag 0 iets anders voor elke individuele gebruiker betekenen.
 
 ![Geen](../assets/first-use.png)
 
@@ -22,7 +22,10 @@ De **Eerste gebruik** In de weergave wordt een vergelijking getoond van de manie
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Nieuwe functieanalyse**: Als u een nieuwe functie binnen uw product start, kunt u vergelijken hoe belangrijke indicatoren die voor en na gebruikers voor het eerst aan die nieuwe functie werden blootgesteld, werden uitgevoerd.
-* **Doeltreffendheid van campagnes**: Wanneer een gebruiker een bepaalde campagne bekijkt, kunt u vergelijken hoe de belangrijkste indicatoren vóór en nadat de gebruiker zag of met die campagne in wisselwerking stond.
+* **Gefaseerde rollouts**: Aangezien de analyse zoekt naar het eerste gebruik van de functie in plaats van naar een vaste datum, is deze weergave vooral handig als u de functies over een bepaalde periode geleidelijk wilt implementeren.
+* **Analyse van nieuwe productversie**: Als u een nieuwe versie van uw product lanceert, kunt u vergelijken hoe zeer belangrijke indicatoren vóór en nadat de gebruikers aan die nieuwe versie voor het eerst werden blootgesteld. Selecteer &quot;om het even welke gebeurtenis&quot;als uw eerste-gebruiksgebeurtenis en filter het aan uw bezit van het Aantal van de Versie.
+* **Verbeteringen voor bestaande functies**: Als u verbeteringen aan een bestaande eigenschap binnen uw product aanbrengt, kunt u vergelijken hoe zeer belangrijke indicatoren vóór en nadat de gebruikers aan die nieuwe verbeteringen voor het eerst werden blootgesteld. U kunt deze analyse op een paar manieren uitvoeren afhankelijk van uw eigenschapinstrumentatie. 1) Selecteer een gebeurtenis die de verbetering als uw eerste-gebruikgebeurtenis vertegenwoordigt, en/of 2) selecteer de datum toen de veranderingen begonnen uit te rollen, en/of 3) segmenteer de analyse aan de groep mensen blootgesteld aan de verbeteringen.
+* **Doeltreffendheid van campagnes**: Wanneer een gebruiker van een bepaalde campagne door klikt, kunt u vergelijken hoe de zeer belangrijke indicatoren vóór en na de gebruiker met die campagne uitvoerden.
 
 ## Query-rail
 
@@ -30,8 +33,8 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **Belangrijkste indicatoren**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
 * **Factoren**: Dit standpunt kent twee factoren:
-   * **Datum**: Hoe ver terug u voor de eerste keer wilt zoeken een gebeurtenis werd geraakt.
-   * **Gebeurtenis**: De gebeurtenis die u voor en na het aangeraakt zijn wilt vergelijken.
+   * **Datum**: Hoe ver terug u wilt beginnen zoekend de eerste tijd gebruikgebeurtenis om voorgekomen te zijn.
+   * **Gebeurtenis**: De gebeurtenis die u voor eerste gebruik van wilt zoeken, om de analyse te centreren.
 * **Mensen**: Het segment dat u wilt meten. Het geselecteerde segment filtert uw gegevens om zich slechts op de individuen te concentreren die uw segmentcriteria aanpassen.
 
 ## Diagraminstellingen
@@ -43,7 +46,7 @@ De weergave Eerste gebruik biedt de volgende diagraminstellingen, die kunnen wor
 
 ## Datumbereik
 
-Datumselecties in effectrapporten werken anders dan andere analysetypen, omdat het rapport draait om een bepaalde gebeurtenis die voor het eerst wordt aangeraakt (opgegeven in de queryrail). De volgende opties zijn beschikbaar:
+Datumselecties in de effectanalyse werken anders dan andere analysetypen, aangezien de analyse rond de in de queryrail gespecificeerde datum draait. De volgende opties zijn beschikbaar:
 
 * **Interval**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Geldige opties zijn [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], en [!UICONTROL Quarterly]. Het wijzigen van het interval heeft invloed op de opties die beschikbaar zijn voor de periode Voor en Na.
-* **Voor en na de periode**: De hoeveelheid tijd die moet worden geanalyseerd voor en na de aanraakgebeurtenis die is opgegeven in de querytrack. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.
+* **Voor en na de periode**: De hoeveelheid tijd die voor en na de eerste gebruiksgebeurtenis moet worden geanalyseerd die in de querytrack is opgegeven. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.
