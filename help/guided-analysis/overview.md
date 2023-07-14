@@ -3,9 +3,9 @@ title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams snel inzichten van hoge kwaliteit laat krijgen.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 41fbbf588c74d653b48f5b0c58ea99f1e8a7e6a9
+source-git-commit: cc76b4c3b03647f6e90f0b57f4d8c819caa8823f
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,14 @@ De geleide analyse categoriseert meningstypes in **Typen analyses**. De volgende
 | Trends | [Gebruik](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
 
 {style="table-layout:auto"}
+
+## Toegang
+
+Als uw organisatie is voorzien voor geleide analyse, kan het van de homepage van de Customer Journey Analytics worden betreden.
+
+Klikken **Analyse met instructies** van de startpagina om rechtstreeks naar de [Weergave trends gebruiken](types/usage.md).
+
+Klikken **Nieuw maken** om de verschillende weergaveopties weer te geven en een ander beginpunt voor de analyse te kiezen.
 
 ## Interface
 
