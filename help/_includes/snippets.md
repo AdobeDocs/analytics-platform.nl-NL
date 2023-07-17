@@ -1,7 +1,7 @@
 ---
-source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
+source-git-commit: 497334bdd0324e5b3955be79029079af88ca56e2
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 1%
 >[!AVAILABILITY]
 >
 >De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van Customer Journey Analytics raadpleegt u [Customer Journey Analytics-functiereleases](/help/release-notes/releases.md).
+
+## Pakket selecteren {#select-package}
+
+>[!NOTE]
+>
+>U moet beschikken over de **Selecteren** gebruiken om de in dit artikel beschreven functionaliteit te gebruiken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+
 
 ## Criteria van het filter Gegevenswoordenboek {#dd-filter-criteria}
 
