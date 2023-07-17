@@ -3,7 +3,7 @@ title: Veelgestelde vragen over analyse met instructies
 description: Veelgestelde vragen over de analyse met instructies.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: d15ada7c5b46c55f56e3fd3ba2b749f0495a0c10
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Veelgestelde vragen over analyse met instructies
-
-{{release-limited-testing}}
 
 Veelgestelde vragen over de analyse met instructies.
 
@@ -32,7 +30,7 @@ Als u eindgebruikers wilt laten profiteren van de analyse met instructies, kunt 
 
 +++**Wanneer moet u de analyse met instructies of Analysis Workspace gebruiken?**
 
-**Analyse met instructies** kunnen gebruikers helpen snel inzicht van hoge kwaliteit te krijgen. Dit is handig voor productteams, gebruikers die betrouwbaarder met gegevens willen werken en zelfs analisten die een begin maken met een diepgaande analyse.
+**Analyse met instructies** kunnen gebruikers helpen snel inzicht van hoge kwaliteit te krijgen. Het is nuttig voor productteams, gebruikers die betrouwbaarder met gegevens willen werken, en zelfs analisten als eerste begin aan diepere analyse.
 
 **[Analysis Workspace](../analysis-workspace/home.md)** Dit is een vrijere ruimte waarmee u verder in de gegevens kunt duiken om meer inzichten aan het licht te brengen. Het is handig voor analisten en veeleisende gebruikers die de gegevens goed begrijpen en er diep in willen duiken.
 

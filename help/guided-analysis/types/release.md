@@ -2,7 +2,7 @@
 title: Weergave opheffen
 description: Vergelijk de prestaties in gelijke perioden vóór en na de release.
 feature: Guided Analysis
-source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -10,8 +10,6 @@ ht-degree: 0%
 ---
 
 # Weergave opheffen
-
-{{release-limited-testing}}
 
 De **Geen** de weergave toont een vergelijking van de manier waarop de belangrijkste indicatoren vóór en na een bepaalde datum zijn uitgevoerd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
 

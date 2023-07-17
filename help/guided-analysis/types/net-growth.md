@@ -2,7 +2,7 @@
 title: Netto-groeiweergave
 description: Wint of verliest u gebruikers?
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -10,8 +10,6 @@ ht-degree: 0%
 ---
 
 # Netto-groeiweergave
-
-{{release-limited-testing}}
 
 De **Netto groei** weergavetype biedt inzicht in de snelheid waarmee u gebruikers gedurende een bepaalde periode bereikt of verliest. De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
