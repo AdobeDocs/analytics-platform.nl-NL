@@ -4,59 +4,75 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1371'
 ht-degree: 1%
 
 ---
 
 # Een stroomvisualisatie configureren
 
-Met stroomvisualisaties kunt u de reis begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Met stroom kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
+Stroomvisualisaties helpen u de reis te begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek.
+
+Met stroomvisualisaties kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
 
 ![Nieuwe Flow-interface](assets/new-flow.png)
 
-## Configuratiestappen {#configure}
+## Stroomvisualisatie maken {#configure}
 
-1. Als u een stroomdiagram wilt maken, voegt u een leeg deelvenster toe aan uw project en klikt u op het pictogram voor visualisatie in de linkertrack. Sleep vervolgens de stroomvisualisatie naar het deelvenster. Of sleep de [!UICONTROL Flow] visualisatie in een bestaand project.
+1. Voeg een leeg paneel aan uw project toe en klik het visualisatiepictogram in het linkerspoor.
 
-1. Veranker uw stroomvisualisatie met een van de volgende drie opties:
+1. Sleep de [!UICONTROL **Stroom**] visualisatie in het deelvenster.
 
-   * [!UICONTROL Starts with] (maateenheden, afmetingen of items), of
-   * [!UICONTROL Contains] (afmetingen, of items), of
-   * [!UICONTROL Ends with] (maateenheden, afmetingen of items)
+   of
+
+   Sleep de [!UICONTROL **Stroom**] visualisatie in een bestaand project.
+
+1. Veranker uw stroomvisualisatie met een van de volgende opties:
+
+   * [!UICONTROL **Begint met**] (maateenheden, afmetingen of items), of
+   * [!UICONTROL **Bevat**] (afmetingen, of items), of
+   * [!UICONTROL **Eindigt met**] (maateenheden, afmetingen of items)
 
    Elk van deze categorieën wordt op het scherm getoond als &quot;dalingsstreek.&quot; U kunt de neerzetzone op drie manieren vullen:
 
    * Gebruik het keuzemenu om metriek of afmetingen te selecteren.
-   * Sleep items vanuit de lijst Afmetingen of Metriek.
-   * Gebruik de zoekfunctie om de gewenste metriek of dimensie te zoeken.
-
-   Stel bijvoorbeeld dat u alles wilt traceren wat tot een uitcheckgebeurtenis leidt. U zou een controle-verwante afmeting of metrisch (zoals slepen [!UICONTROL Order exists]) in de **[!UICONTROL Ends with]** dropzone.
-
-1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL Pathing Dimension], zoals u hier ziet, die u gebruikt om het pad samen te stellen. De standaardwaarde is [!UICONTROL Page].
-
-   ![schilderdimensie](assets/pathing-dim.png)
+   * Sleep afmetingen of metriek van de linkerspoorstaaf.
+   * Typ de naam van een dimensie of metrisch en selecteer deze wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
    >[!IMPORTANT]
    >
-   >Berekende metriek kunnen niet in de  **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** dropzones.
+   >Berekende metriek kan niet worden gebruikt in de  **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** velden.
 
-1. (Optioneel) Klik op **[!UICONTROL Show Advanced Settings]** Geavanceerde instellingen configureren:
+1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL Pathing Dimension] gebruiken om te gebruiken als het pad dat naar of van de geselecteerde component leidt, zoals hier wordt getoond. De standaardwaarde is [!UICONTROL **Pagina**].
+
+   ![schilderdimensie](assets/pathing-dim.png)
+
+1. (Optioneel) Selecteer **[!UICONTROL Show advanced settings]** om een van de volgende opties te configureren:
 
    ![geavanceerde instellingen](assets/adv-settings.png)
 
    | Instelling | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Wrap labels]** | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen.  Standaard = uitgeschakeld. |
-   | **[!UICONTROL Include repeat instances]** | Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhaalde exemplaren, zoals opnieuw laden van pagina&#39;s, opnemen of uitsluiten. Herhalingen kunnen echter niet worden verwijderd uit Flow-visualisaties met multigetaxeerde afmetingen, zoals listVars, listProps, s.product, merchandising Vars, enz. Standaard = uitgeschakeld. |
-   | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen/eindigen met de eerste/laatste instantie van een dimensie/item/metrisch. Zie de onderstaande sectie &quot;Voorbeeldscenario voor &#39;beperking tot eerste/laatste voorval&#39;&quot; voor een gedetailleerdere uitleg. |
-   | **[!UICONTROL Number of Columns]** | Hiermee bepaalt u hoeveel kolommen u in het stroomdiagram wilt opnemen. |
-   | **[!UICONTROL Items expanded per Column]** | Hoeveel punten u in elke kolom wilt. |
-   | **[!UICONTROL Flow Container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van personen te analyseren. Met deze instellingen kunt u de betrokkenheid van personen op het niveau van de persoon (tijdens verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
+   | **[!UICONTROL Include repeat instances]** | Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhaalde exemplaren, zoals opnieuw laden van pagina&#39;s, opnemen of uitsluiten. Herhalingen kunnen echter niet worden verwijderd uit Flow-visualisaties met multigetaxeerde afmetingen, zoals listVars, listProps, s.product, merchandising Vars, enz. <p>Deze optie is standaard uitgeschakeld.</p> |
+   | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen/eindigen met de eerste/laatste instantie van een dimensie/item/metrisch. Zie de onderstaande paragraaf. [Voorbeeldscenario voor &#39;beperking tot eerste/laatste voorkomen&#39;](#example-scenario-for-limit-to-firstlast-occurrence)voor een nadere toelichting. |
+   | **[!UICONTROL Number of columns]** | Het aantal kolommen u in uw diagram van de Stroom wilt. |
+   | **[!UICONTROL Items expanded per column]** | Het aantal items dat u in elke kolom wilt opnemen. |
+   | **[!UICONTROL Flow container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
-1. Klik op **[!UICONTROL Build]**.
+1. Selecteren **[!UICONTROL Build]**.
+
+>[!INFO]
+>
+>**Voorbeeld:** Stel dat u het pad wilt overtrekken dat gebruikers naar en van de populairste pagina&#39;s op uw site hebben gekozen.
+>
+>Om dit te doen, zou u
+>1. Beginnen met het maken van een stroomvisualisatie zoals hierboven beschreven.
+>1. Sleep de [!UICONTROL **Pagina**] in de **[!UICONTROL Contains]** veld, selecteer vervolgens [!UICONTROL **Opbouwen**].
+>1. De stroomvisualisatie bouwt verder met de meest bekeken pagina zichtbaar in het focusknooppunt in het midden van de visualisatie. U ziet ook de bovenste pagina&#39;s die naar die pagina lopen (links van het focusknooppunt) en de bovenliggende pagina&#39;s die uit die focuspagina lopen (rechts van het focusknooppunt).
+>1. Gegevens in de flow analyseren, zoals beschreven in [De stroomuitvoer weergeven en wijzigen](#view-and-change-the-flow-output).
 
 ## De stroomuitvoer weergeven en wijzigen {#output}
 
@@ -70,7 +86,7 @@ Als u verder naar de gegevens wilt gaan, hebt u verschillende opties:
 
 * Wanneer u op een knoop in het diagram klikt, verschijnen de details voor die knoop. Klik nogmaals op het knooppunt om het samen te vouwen.
 
-   ![knooppuntdetails](assets/node-details.png)
+  ![knooppuntdetails](assets/node-details.png)
 
 * U kunt een kolom filteren om alleen bepaalde resultaten weer te geven, zoals inclusief en exclusief, het opgeven van criteria enzovoort.
 
@@ -97,13 +113,17 @@ Boven elke kolom wordt een filter weergegeven wanneer u de muisaanwijzer op de k
 | Optie | Beschrijving |
 |--- |--- |
 | [!UICONTROL Focus on this node] | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
-| [!UICONTROL Start Over] | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
-| [!UICONTROL Create Filter from this point in flow] | Maak een filter. Dit neemt u in de Bouwer van de Vezel, waar u de nieuwe filter kunt vormen. |
+| [!UICONTROL Start over] | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
+| [!UICONTROL Create filter for this path] | Maak een filter. Dit neemt u in de Bouwer van de Filter, waar u de nieuwe filter kunt vormen. |
 | [!UICONTROL Breakdown] | Verdeel de knoop neer door beschikbare Dimension, Metriek, of Tijd. |
+| [!UICONTROL Filter column] | Dezelfde filteropties worden weergegeven als beschikbaar zijn in de tabel Vrije vorm. Zie voor meer informatie over de beschikbare opties de sectie &quot;Een eenvoudig of geavanceerd filter toepassen op een tabel&quot; in [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| [!UICONTROL Exclude item]/[!UICONTROL Restore excluded items] | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Als u het uitgesloten item wilt herstellen, klikt u nogmaals met de rechtermuisknop en selecteert u **[!UICONTROL Restore Excluded Item]**. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | [!UICONTROL Trend] | Creeer een trended diagram voor de knoop. |
+| Volgende kolom tonen/Vorige kolom tonen | Geeft de volgende (rechts) of vorige (links) kolom van de visualisatie aan. |
+| Kolom verbergen | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
 | [!UICONTROL Expand entire column] | Vouw een kolom uit om alle knooppunten weer te geven. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
+| publiek maken van selectie | Hiermee maakt u een publiek op basis van de geselecteerde kolom. |
 | [!UICONTROL Collapse entire column] | Alle knooppunten in een kolom verbergen. |
-| [!UICONTROL Exclude Item]/[!UICONTROL Restore Excluded Items] | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Als u het uitgesloten item wilt herstellen, klikt u nogmaals met de rechtermuisknop en selecteert u **[!UICONTROL Restore Excluded Item]**. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 
 ## Voorbeeldscenario voor &#39;beperking tot eerste/laatste voorkomen&#39;
 
