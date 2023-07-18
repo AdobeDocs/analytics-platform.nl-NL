@@ -3,9 +3,9 @@ title: Wrijvingsweergave
 description: Vergelijk de conversiesnelheden tussen de stappen.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 De **Wrijving** de mening verstrekt een visuele vertegenwoordiging van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
 
 ![Wrijving](../assets/friction.png)
+
+## Zie Wrijving in actie
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 
 ## Gebruik hoofdletters
 
@@ -29,16 +33,16 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **Stappen**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-* **Mensen**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
+* **[!UICONTROL People]**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
 De wrijvingsweergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **Metrisch**: Het bereik dat u op de trechter wilt toepassen. U kunt onder andere sessies en gebruikers kiezen. Door sessies te selecteren, moeten alle stappen binnen dezelfde sessie plaatsvinden om te worden geteld. Door gebruikers te selecteren, moeten alle stappen binnen het rapporteringsvenster gebeuren dat wordt geselecteerd om worden geteld.
-* **Type diagram**: Het type visualisatie dat u wilt gebruiken. U kunt kiezen uit Stappen.
-* **Conversie van**: Hiermee bepaalt u de percentageberekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
+* **[!UICONTROL Metric]**: Het bereik dat u op de trechter wilt toepassen. U kunt onder andere sessies en gebruikers kiezen. Door sessies te selecteren, moeten alle stappen binnen dezelfde sessie plaatsvinden om te worden geteld. Door gebruikers te selecteren, moeten alle stappen binnen het rapporteringsvenster gebeuren dat wordt geselecteerd om worden geteld.
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. U kunt kiezen uit Stappen.
+* **[!UICONTROL Conversion from]**: Hiermee bepaalt u de percentageberekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
 
 ## Tijdvergelijking toepassen
 
@@ -50,5 +54,5 @@ De wrijvingsweergave biedt de volgende diagraminstellingen, die kunnen worden aa
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 
-* **Interval**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Deze instelling heeft geen invloed op niet-trendweergaven, zoals Wrijving.
-* **Datum**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
+* **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Deze instelling heeft geen invloed op niet-trendweergaven, zoals Wrijving.
+* **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.

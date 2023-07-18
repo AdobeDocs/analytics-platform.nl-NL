@@ -1,9 +1,9 @@
 ---
 title: Industriële gebruiksgevallen
 description: Industriële gebruiksgevallen voor geleide analyse
-source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,6 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 ![Actieve weergave van financiële diensten](assets/fsi-user-growth-active.png)
 
-![Alternatieve actieve weergave voor financiële diensten](assets/fsi-user-growth-active-2.png)
-
 +++
 
 +++**Reizen en verblijf**
@@ -65,7 +63,7 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 ![De mening van het gebruik voor reis en gastvrijheid](assets/th-trends-usage.png)
 
-![Conversietrends voor reizen en gastvrijheid](assets/th-funnel-conversio-trends.png)
+![Conversietrends voor reizen en gastvrijheid](assets/th-funnel-conversion-trends.png)
 
 +++
 
