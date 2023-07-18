@@ -1,17 +1,17 @@
 ---
-title: Hoe selecteert u een gegevensweergave in Report Builder
-description: Beschrijft hoe te om gegevensmeningen te selecteren
+title: Een gegevensweergave selecteren in Report Builder
+description: Beschrijft hoe te om gegevensmeningen in Adobe Report Builder te selecteren
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 6ad244cd08d4984168cb37b4a9ad5db4943b9435
+exl-id: 802a8f0b-10c2-4adc-a4ec-25f3d28f3002
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
-
 
 # Een gegevensweergave selecteren
 

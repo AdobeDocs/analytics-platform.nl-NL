@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,24 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
    Wanneer u componenten aan de lijst toevoegt, wordt een voorproef van het gegevensblok getoond bij de het blokplaats van Gegevens in het aantekenvel. De lay-out van de voorvertoning van gegevensblokken wordt automatisch bijgewerkt wanneer u items in de tabel toevoegt, verplaatst of verwijdert.
 
    ![](./assets/image10.png)
+
+   **Rij- en kolomkoppen weergeven of verbergen**
+
+1. Klik op de opdracht Gegevensblok bewerken in de Report Builder-hub.
+
+1. Klik op de knop **Tabel** instellingenpictogram.
+
+   ![voorlopige afbeelding](./assets/table-settings.png){width="35%"}
+
+1. Schakel de optie Rij- en kolomkoppen weergeven in of uit. De kopteksten worden standaard weergegeven.
+
+   **Dimensie-labels en metrische koppen verbergen of weergeven**
+
+1. Klik op het ellipspictogram op de afmetingen of de kolomkoppen om de instellingen weer te geven.
+
+   ![voorlopige afbeelding](./assets/row-heading.png){width="35%"}
+
+1. Klik op Verbergen of Tonen om de dimensielabels of kolomkoppen in en uit te schakelen. Alle labels worden standaard weergegeven.
 
 1. Klikken **Voltooien**.
 

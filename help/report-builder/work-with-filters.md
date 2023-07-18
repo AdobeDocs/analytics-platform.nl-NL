@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,47 @@ U kunt een bestaand filter vervangen door een ander filter om te wijzigen hoe de
 1. Klikken **Toepassen**.
 
    Report Builder werkt de lijst met filters bij om de vervanging te weerspiegelen.
+
+### Gegevensblokfilters definiëren op basis van cel
+
+Gegevensblokken kunnen verwijzen naar filters uit een cel. Meerdere gegevensblokken kunnen verwijzen naar dezelfde cel voor filters, zodat u gemakkelijk kunt schakelen tussen filters voor meerdere gegevensblokken tegelijk.
+
+Filters toepassen uit een cel
+
+1. Navigeer naar stap 2 in het maken of bewerken van gegevensblokken. Zie [Een gegevensblok maken](./create-a-data-block.md).
+1. Klik op de knop **Filters** om filters te definiëren.
+1. Klikken **Filter van cel maken**.
+
+   ![](./assets/create-filter-from-cell.png)
+
+1. Selecteer de cel waaruit u wilt dat de gegevensblokken naar een filter verwijzen.
+
+1. Voeg de gewenste filters toe aan de cel door te dubbelklikken op het filter of door het te slepen naar de sectie Filters Included.
+
+   Opmerking: Er kan slechts één keuze voor de gegeven cel tegelijk worden geselecteerd.
+
+   ![](./assets/select-filters.png)
+
+1. Klikken **Toepassen** om de referentiecel te maken.
+
+1. Van de **Filters** , voegt u het nieuwe filter Referentiecel toe aan uw gegevensblok.
+
+   ![](./assets/reference-cell-filter.png)
+
+1. Klikken **Voltooien**.
+
+   Er kan nu naar deze cel worden verwezen door andere gegevensblokken in hun filters. Als u de referentiecel als filter wilt toepassen op andere gegevensblokken, voegt u de celverwijzing vanuit het tabblad Filters gewoon toe aan de bijbehorende filters.
+
+#### De referentiecel gebruiken om gegevensblokfilters te wijzigen
+
+1. Selecteer de referentiecel in het werkblad.
+
+1. Klik op de koppeling onder **Filters uit cel** in het menu Snel bewerken.
+
+   ![](./assets/filters-from-cell-link.png)
+
+1. Selecteer het filter in de keuzelijst.
+
+   ![](./assets/filter-drop-down.png)
+
+1. Klikken **Toepassen**.
