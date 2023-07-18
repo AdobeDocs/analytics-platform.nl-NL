@@ -2,9 +2,9 @@
 title: Netto-groeiweergave
 description: Wint of verliest u gebruikers?
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Vergelijkbaar met de [Actief](active.md) weergavetype, worden gebruikers als vol
 >[!NOTE]
 >
 >Herhalende gebruikers worden niet in deze berekening meegenomen, omdat ze geen winst of verlies van gebruikers vertegenwoordigen.
-
-Zie de [!UICONTROL Net growth] weergave in actie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

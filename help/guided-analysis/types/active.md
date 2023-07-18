@@ -3,9 +3,9 @@ title: Actieve weergave
 description: Identificeer wie nieuw, behouden, terugkeren, of slapend is.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ De **Actief** view verschaft inzicht in de groei en de verwerving van gebruikers
 * **[!UICONTROL Dormant]**: De gebruiker was actief in de onmiddellijk vorige periode, maar is niet actief in de huidige periode. slapende gebruikers tellen niet mee voor het totale aantal actieve gebruikers.
 
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.
-
-Zie de [!UICONTROL Active] weergave in actie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 

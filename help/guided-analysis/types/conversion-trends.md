@@ -2,9 +2,9 @@
 title: Conversietrends, weergave
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -12,8 +12,6 @@ ht-degree: 0%
 # Conversietrends, weergave
 
 De **Conversietrends** de mening verstrekt een trended visualisatie rond omzettingspercentages in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
-
-Zie de [!UICONTROL Conversion trends] weergave in actie
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 

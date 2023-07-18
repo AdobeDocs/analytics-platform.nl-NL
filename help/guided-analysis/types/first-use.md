@@ -2,9 +2,9 @@
 title: Weergave voor eerste gebruik
 description: Meet het effect van het gebruik van de eerste functie op sleutelindicatoren.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -12,8 +12,6 @@ ht-degree: 0%
 # [!UICONTROL First use] weergave
 
 De **[!UICONTROL First use]** de mening toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een gebruiker een producteigenschap voor het eerst gebruikten. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale bar in het midden van de grafiek vertegenwoordigt dag 0 voor wanneer een eigenschap voor het eerst door een bepaalde gebruiker wordt gebruikt. Omdat de gebruikers niet altijd eigenschappen op de zelfde dag goedkeuren en uw rollouts kunnen over verscheidene dagen gebeuren, zal dag 0 iets anders voor elke individuele gebruiker betekenen.
-
-Zie de [!UICONTROL First use] weergave in actie
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
 

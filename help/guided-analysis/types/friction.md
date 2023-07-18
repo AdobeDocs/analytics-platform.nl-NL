@@ -3,9 +3,9 @@ title: Wrijvingsweergave
 description: Vergelijk de conversiesnelheden tussen de stappen.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # [!UICONTROL Friction] weergave
 
 De **[!UICONTROL Friction]** de mening verstrekt een visuele vertegenwoordiging van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
-
-Zie de [!UICONTROL Friction] weergave in actie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 
