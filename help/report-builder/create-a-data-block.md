@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,6 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
    ![](./assets/image10.png)
 
    **Rij- en kolomkoppen weergeven of verbergen**
-
-1. Klik op de opdracht Gegevensblok bewerken in de Report Builder-hub.
 
 1. Klik op de knop **Tabel** instellingenpictogram.
 
