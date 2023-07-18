@@ -3,7 +3,7 @@ title: Gebruiksweergave
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Usage]** biedt waardevolle inzichten in de prestaties van uw product of het gedrag van uw gebruikers in de loop van de tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
 
-![Gebruik](../assets/usage.png)
-
-## Zie [!UICONTROL Usage] weergave in actie
+Zie de [!UICONTROL Usage] weergave in actie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 

@@ -2,16 +2,16 @@
 title: Netto-groeiweergave
 description: Wint of verliest u gebruikers?
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Netto-groeiweergave
+# [!UICONTROL Net growth] weergave
 
-De **Netto groei** weergavetype biedt inzicht in de snelheid waarmee u gebruikers gedurende een bepaalde periode bereikt of verliest. De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
+De **[!UICONTROL Net growth]** weergavetype biedt inzicht in de snelheid waarmee u gebruikers gedurende een bepaalde periode bereikt of verliest. De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
 Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wordt berekend:
 
@@ -29,9 +29,7 @@ Vergelijkbaar met de [Actief](active.md) weergavetype, worden gebruikers als vol
 >
 >Herhalende gebruikers worden niet in deze berekening meegenomen, omdat ze geen winst of verlies van gebruikers vertegenwoordigen.
 
-![Netto groei](../assets/net-growth.png)
-
-## Zie Weergave voor netto groei in actie
+Zie de [!UICONTROL Net growth] weergave in actie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 
