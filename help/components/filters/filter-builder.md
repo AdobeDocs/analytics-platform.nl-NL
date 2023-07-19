@@ -3,9 +3,9 @@ description: De filterontwikkelaar biedt een canvas voor het slepen en neerzette
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,9 @@ Voor informatie over hoe u snelle filters kunt maken die alleen van toepassing z
 
 U kunt tot de Bouwer van de Filter op om het even welke volgende manieren toegang hebben:
 
-* **Bovenste navigatie van analysemogelijkheden**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]**.
+* **Bovenste navigatie**: Klikken **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]**.
 * **[!UICONTROL Analysis Workspace]**: Open een project in Analysis Workspace en selecteer **[!UICONTROL + Components]** > **[!UICONTROL Create filter]**.
-* **[!UICONTROL Reports & Analytics]**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een bestaand rapport en klikt u op de knop **Filter** pictogram in de linkernavigatie, dan klik **[!UICONTROL Add]**.
-* **[!UICONTROL Report Builder]**: [Filters toevoegen of bewerken in Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Werken met filters in Report Builder](/help/report-builder/work-with-filters.md).
 
 ## Overzicht van Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -153,91 +152,3 @@ Door filter het stapelen te gebruiken, kunt u uw filteraantal tot 22 verminderen
 
 1. Selecteren [!UICONTROL **Opslaan**].
 
-## Filtersjablonen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
-
-De malplaatjes van de filter worden verstrekt voor gemeenschappelijke gevallen van het filtergebruik, zoals &quot;Bezoeken van de Eerste keer&quot;of &quot;Lijsten van Mobiele Apparaten&quot;. Zij zijn beschikbaar in de projecten van de Werkruimte en in de bouwer van de Filter als bouwstenen voor nieuwe filters.
-
-Sjablonen worden aangeduid met het logo Adobe &quot;A&quot;. Hieronder vindt u een voorbeeld van de sjablonen:
-
-<table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Sjabloonnaam </th> 
-   <th colname="col2" class="entry"> Definitie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Abandon Cart </td> 
-   <td colname="col2">Gegevens weergeven voor personen die items aan hun winkelwagentje hebben toegevoegd, maar die niets hebben besteld. In de Filterdefinitie is de container Visit. De regel voor dit opeenvolgende filter is <p> Toevoegingen voor illustraties zijn niet null </p> <p>Vervolgens </p> <p>Orders is gelijk aan 0. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Eerste bezoeken </td> 
-   <td colname="col2">Gegevens weergeven voor personen die maximaal één [1] keer een bezoek hebben gebracht. In de Filterdefinitie is de container Visit. De regel is <p>Visit Number is gelijk aan 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Niet-aankoopcentrales </td> 
-   <td colname="col2">Gegevens weergeven voor personen die niet hebben deelgenomen aan een ordergebeurtenis. In de Filterdefinitie is de container Bezoeker. Dit filter gebruikt de logica voor uitsluiten. De regel is <p>Bestellingen zijn niet null. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoek van niet-enkele pagina (niet-gebonden) </td> 
-   <td colname="col2">Gegevens weergeven voor personen die meerdere keren een bezoek hebben gebracht. In de Filterdefinitie is de container Bezoeker. Dit filter gebruikt de logica voor uitsluiten. De regel is <p>Single Access is niet null. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Betaalde zoekopdracht </td> 
-   <td colname="col2">Gegevens van personen die afkomstig zijn van een betaalde zoekopdracht bekijken. In de Filterdefinitie is de container Visit. De regel is <p>Betaalde zoekopdracht is gelijk aan 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Aankopers </td> 
-   <td colname="col2">Gegevens weergeven voor personen die hebben deelgenomen aan een ordergebeurtenis. In de Filterdefinitie is de container Bezoeker. De regel is <p>Bestellingen zijn niet null. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Terugkerende bezoeken </td> 
-   <td colname="col2">Gegevens weergeven van personen die ten minste één keer een bezoek hebben gebracht. In de Filterdefinitie is de container Visit. De regel is <p>Visitenummer is groter dan 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van één pagina </td> 
-   <td colname="col2"> Gegevens van bezoeken weergeven waarin u een waarde van één pagina ziet, ook al kunt u tijdens dat bezoek meerdere paginaweergaven verzenden. Bezoeken van één pagina met gebeurtenissen voor een afsluitingskoppeling worden opgenomen in het filter. In de Filterdefinitie is de container Visit. De regel is <p>Bezoekingen van één pagina zijn gelijk aan 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bekeken product niet aan winkelwagentje toegevoegd </td> 
-   <td colname="col2">Gegevens weergeven voor personen die producten hebben bekeken maar geen extra winkelwagentjes hebben. In de Filterdefinitie is de container Visit. De regel voor dit opeenvolgende filter is <p>Productweergaven zijn niet null </p> <p>Vervolgens </p> <p> Kart optellen is gelijk aan 0. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van campagne </td> 
-   <td colname="col2">Gegevens weergeven van personen waarnaar door campagnes wordt verwezen. In de Filterdefinitie is de container Visit. De regel is <p>Trackingcode is niet null. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van mobiele apparaten </td> 
-   <td colname="col2">Gegevens weergeven van personen die mobiele apparaten gebruiken. In de Filterdefinitie is de container Visit. De regel is <p>Mobiel apparaat is niet null. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van Natuurlijk zoeken </td> 
-   <td colname="col2">Gegevens bekijken van personen die niet afkomstig zijn van een betaalde zoekopdracht. In de Filterdefinitie is de container Visit. De regel is <p>Betaalde zoekopdracht is gelijk aan 0. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van niet-mobiel apparaat </td> 
-   <td colname="col2">Gegevens weergeven van personen die geen mobiele apparaten gebruiken. In de Filterdefinitie is de container Visit. Dit filter gebruikt de logica voor uitsluiten. De regel is <p>Mobiel apparaattype is gelijk aan mobiele telefoon </p> <p>of </p> <p>Mobiel apparaattype is gelijk aan tablet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van telefoons </td> 
-   <td colname="col2">Gegevens van personen die telefoons gebruiken, weergeven. In de Filterdefinitie is de container Visit. De regel is <p>Apparaattype is gelijk aan mobiele telefoon. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van zoekmachines </td> 
-   <td colname="col2">Gegevens van personen die door zoekmachines worden genoemd, bekijken. In de Filterdefinitie is de container Visit. De regel is <p>Het verwijzingstype is zoekmachines. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van sociale sites </td> 
-   <td colname="col2">Gegevens bekijken van personen die door sociale sites worden genoemd. In de Filterdefinitie is de container Visit. De regel is <p>Het verwijzingstype is sociale netwerken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken van tabletten </td> 
-   <td colname="col2">Gegevens van personen die tabletten gebruiken bekijken. In de Filterdefinitie is de container Visit. De regel is <p>Apparaattype is gelijk aan tablet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bezoeken met cookie van bezoeker-id </td> 
-   <td colname="col2">Gegevens van personen naar uw site bekijken, waar een permanente cookie vereist is. In de Filterdefinitie is de container Visit. De regel is <p>Blijvende cookie is gelijk aan 1. </p> </td> 
-  </tr> 
- </tbody> 
-</table>

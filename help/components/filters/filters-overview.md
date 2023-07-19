@@ -3,9 +3,9 @@ title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ Met opeenvolgende filters kunt u personen identificeren op basis van navigatie e
 >U moet beschikken over de **Selecteren** verpakken om opeenvolgende filters voor meerdere kanalen te maken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
 
 Hier volgt een voorbeeld:
-
-<!--![](assets/sequential_fil.png)-->
 
 | Sessie één | Sessie twee | Sessie drie |
 | --- | --- | --- |
@@ -117,7 +115,7 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 
 ## Filtersjabloon buiten de box {#template}
 
-De traditionele Analytics komt met talrijke uit-van-de-doos malplaatjefilters (filters) en berekende metriek. Veel van deze regels zijn niet van toepassing in Customer Journey Analytics of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in Customer Journey Analytics.
+De traditionele Analytics komt met talrijke out-of-the-box malplaatje en berekende metriek. Veel van deze regels zijn niet van toepassing in Customer Journey Analytics of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in Customer Journey Analytics.
 
 | Filternaam | Beschrijving |
 | --- | --- |
