@@ -4,11 +4,11 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+badgeDerivedFields: label="Nieuwe functie" type="Positive"
+source-git-commit: 33ed28de1c410bcba04ab405ce8d779a501f4b3f
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 3%
+source-wordcount: '4167'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Voorbeelden van gebruiksgevallen zijn:
 
 Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterface.
 
-![Dialoogvenster Afgeleid veld](assets/derived-field-dialog.png)
+![Screenshot van het dialoogvenster Afgeleid veld](assets/derived-field-dialog.png)
 
 
 |  | Naam | Beschrijving |
@@ -56,7 +56,7 @@ Het dialoogvenster met afgeleide velden wordt gevuld met regels (en functies) di
 
 Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
-![Regelinterface](assets/rule-interface.png)
+![Screenshot van de Afgeleide Interface van de Regel van het Gebied](assets/rule-interface.png)
 
 |  | Naam | Beschrijving |
 |---------|----------|--------|
@@ -139,7 +139,7 @@ Dit malplaatje wordt gevormd om te gebruiken [URL-parse](#dnl-url-parse) en [Hoo
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
 
-![Constructor voor sjabloonregels voor marketingkanalen](assets/marketing-channel-template.png)
+![Screenshot van de de regelbouwer van het het kanaalmalplaatje van de Marketing](assets/marketing-channel-template.png)
 
 +++
 
@@ -177,7 +177,7 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
 ### Samenvoegen
 
-Hiermee combineert u twee of meer velden, afgeleide velden of door de gebruiker ingevoerde waarden in één veld met gedefinieerde scheidingstekens.
+Hiermee voegt u veldwaarden samen tot één nieuw afgeleid veld met gedefinieerde scheidingstekens.
 
 +++ Details
 
@@ -185,7 +185,7 @@ Hiermee combineert u twee of meer velden, afgeleide velden of door de gebruiker 
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <p>String</p> | <ul><li>Voor elke [!UICONTROL Value]:<ul><li>Regel</li><li>Standaardveld</li><li>Veld</li><li>Gebruikersinvoer</li></ul></li><li>Voor elke [!UICONTROL Delimiter]:<ul><li>Gebruikersinvoer</li></ul></li> </ul> | <p>N.v.t.</p> | <p>2 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li><li>String</li></ul></li><li>[!UICONTROL Delimiter]:<ul><li>String</li></ul></li> </ul> | <p>N.v.t.</p> | <p>2 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -235,7 +235,7 @@ Het gewenste verslag moet er als volgt uitzien:
 
 U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
 
-![Samenvoegregel](assets/concatenate.png)
+![Schermafbeelding van de regel Samenvoegen](assets/concatenate.png)
 
 ### Gegevens na {#concatenate-dataafter}
 
@@ -263,7 +263,7 @@ Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of mee
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Voor elke [!UICONTROL If], [!UICONTROL Else If] container:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regel</li><li>Standaardveld</li><li>Veld</li></ul><li>[!UICONTROL Criterion] (zie opgenomen operatoren, gebaseerd op geselecteerde waardetype)</li></ul></li><li>Voor elke [!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regel</li><li>Standaardveld</li><li>Veld</li></ul></ul></li></ul> | <p>Tekenreeksen</p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan om het even welke termijn</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Numeriek</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Datums</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <ul><li>5 functies per afgeleid veld</li><li>200 operatoren per afgeleid veld. Een voorbeeld van één enkele operator is &#39;Refering Domain contains google&#39;. </li></ul> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] container:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Criterion] (zie opgenomen operatoren, gebaseerd op geselecteerde waardetype)</li></ul></li><li>[!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul></li></ul> | <p>Tekenreeksen</p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan om het even welke termijn</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Numeriek</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Datums</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <ul><li>5 functies per afgeleid veld</li><li>200 operatoren per afgeleid veld. Een voorbeeld van één enkele operator is &#39;Refering Domain contains google&#39;. </li></ul> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -311,7 +311,7 @@ U definieert een nieuwe `Marketing Channel` afgeleid veld. U gebruikt de [!UICON
 
 Let op het gebruik van de functie [!UICONTROL URL PARSE] om regels te definiëren voor het ophalen van de waarden voor `Page Url` en `Referring Url` vóór de [!UICONTROL CASE WHEN] worden toegepast.
 
-![Geval wanneer regel 1](assets/case-when-1.png)
+![Screenshot van de zaak als regel 1](assets/case-when-1.png)
 
 ### Gegevens na {#casewhen-uc1-dataafter}
 
@@ -365,7 +365,7 @@ Uw site verzamelt de volgende waarden voor uw [!DNL Product Finding Methods] dim
 
 U definieert een `Product Finding Methods (new)` afgeleid veld. U maakt de volgende [!UICONTROL CASE WHEN] regels in regelbuilder. Deze regels passen logica op alle mogelijke variaties van oude toe [!UICONTROL Product Finding Methods] veldwaarden voor `search` en `browse` met de [!UICONTROL Contains the phrase] criterium.
 
-![Hoofdletters/kleine letters regel 2](assets/case-when-2.png)
+![Schermafbeelding van de zaak wanneer regel 2](assets/case-when-2.png)
 
 ### Gegevens na {#casewhen-uc2-dataafter}
 
@@ -438,7 +438,7 @@ Uw gewenste rapport zou als moeten kijken:
 
 U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [!UICONTROL CASE WHEN] regel in regelbouwer. Deze regel past logica toe om de oude [!UICONTROL Trip Duration] veldwaarden in drie waarden: `short trip`, `medium  trip`, en `long trip`.
 
-![Geval indien regel 3](assets/case-when-3.png)
+![Schermafbeelding van de zaak wanneer regel 3](assets/case-when-3.png)
 
 
 ### Gegevens na {#casewhen-uc3-dataafter}
@@ -459,7 +459,7 @@ U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [
 | [!DNL long trip] |
 
 
-## Restricties
+## Meer informatie
 
 Customer Journey Analytics gebruikt een geneste containerstructuur, gemodelleerd na Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (Experience Data Model). Zie [Containers](../create-dataview.md#containers) en [Filtercontainers](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
 
@@ -469,15 +469,13 @@ Customer Journey Analytics gebruikt het volgende standaardcontainermodel:
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-
-
 De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selecteren* en *instellen* waarden.
 
 |  | Restricties |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Waarden *selecteren* binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Afhankelijkheid A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Alle waarden die u *set* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Afhankelijkheid B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | De waarden die u *selecteren* dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do *niet* moeten afkomstig zijn uit dezelfde container en moet *niet* moeten van hetzelfde type zijn. <br/> ![Afhankelijkheid C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | Waarden *selecteren* binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Schermafbeelding van afhankelijkheid A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | Alle waarden die u *set* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Schermafbeelding van afhankelijkheid B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | De waarden die u *selecteren* dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do *niet* moeten afkomstig zijn uit dezelfde container en moet *niet* moeten van hetzelfde type zijn. <br/> ![Screenshot van Dependency C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -496,7 +494,7 @@ Hiermee zoekt u alle waarden in een geselecteerd veld en vervangt u deze waarden
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <p>String</p> | <ul><li>Voor criteria:<ul><li>[!UICONTROL Value]<ul><li>Regel</li><li>Standaardveld</li><li>Veld</li></ul></li></ul></li><li>Voor elke [!UICONTROL Find all], [!UICONTROL and replace all with]:<ul><li>[!UICONTROL Value]</li><ul><li>Gebruikersinvoer</li></ul></li></ul></ul> | <p>Tekenreeksen</p><ul><li>[!UICONTROL Find all], [!UICONTROL and replace all with]</li></ul> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Value]<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL Find all], [!UICONTROL and replace all with]:<ul><li>String</li></ul></li></ul></ul> | <p>Tekenreeksen</p><ul><li>[!UICONTROL Find all], [!UICONTROL and replace all with]</li></ul> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -537,7 +535,7 @@ U hebt een aantal misvormde waarden ontvangen voor uw externe marketingkanaalrap
 
 U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICONTROL FIND AND REPLACE] functie om een regel te definiëren voor het zoeken en vervangen van alle instanties van `email%20marketing` with `email marketing`.
 
-![Regel zoeken en vervangen](assets/find-and-replace.png)
+![Schermafbeelding van de regel Zoeken en vervangen](assets/find-and-replace.png)
 
 ### Gegevens na {#findreplace-uc-dataafter}
 
@@ -558,7 +556,7 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICO
 
 ### Opzoeken
 
-Definieert een set opzoekwaarden die worden vervangen door corresponderende waarden.
+Definieert een set opzoekwaarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
 
 +++ Details
 
@@ -567,7 +565,7 @@ Definieert een set opzoekwaarden die worden vervangen door corresponderende waar
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Voor [!UICONTROL Field to apply lookup]:<ul><li>Regel</li><li>Standaardveld</li><li>Veld</li></ul></li><li>Voor [!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>Gebruikersinvoer</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -623,7 +621,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 
 U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
 
-![Regel 1 opzoeken](assets/lookup-1.png)
+![Schermafbeelding van Lookup-regel 1](assets/lookup-1.png)
 
 ### Gegevens na {#lookup-uc1-dataafter}
 
@@ -658,7 +656,7 @@ U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschi
 
 U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van uw bestaande [!UICONTROL Page Name] veld en vervangen door bijgewerkte correcte waarden.
 
-![Opzoekregel 2](assets/lookup-2.png)
+![Schermafbeelding van Lookup-regel 2](assets/lookup-2.png)
 
 ### Gegevens na {#lookup-uc2-dataafter}
 
@@ -674,6 +672,262 @@ U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL 
 
 +++
 
+<!-- MERGE FIELDS -->
+
+### Velden samenvoegen
+
+Hiermee voegt u waarden uit twee verschillende velden samen tot een nieuw afgeleid veld.
+
++++ Details
+
+## Specificatie {#merge-fields-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#merge-fields-uc}
+
+U zou een nieuwe afmeting willen tot stand brengen die uit het gebied van de paginanaam en het gebied van de vraagreden met de bedoeling wordt gemaakt om de reis over kanalen te analyseren.
+
+### Gegevens voor {#merge-fields-uc-databefore}
+
+| Paginanaam | Sessie | Bezoekers |
+|---|--:|--:|
+| Help-pagina | 250 | 200 |
+| homepage | 500 | 250 |
+| productdetailpagina | 300 | 200 |
+
+{style="table-layout:auto"}
+
+| Reden van oproep | Sessie | Bezoekers |
+|---|--:|--:|
+| vragen over mijn bestelling | 275 | 250 |
+| een wijziging in mijn bestelling aanbrengen | 150 | 145 |
+| probleem met bestellen | 100 | 95 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#merge-fields-uc-derivedfield}
+
+U definieert een `Cross Channel Interactions` afgeleid veld. U gebruikt de [!UICONTROL MERGE FIELDS] functie voor het definiëren van een regel voor het samenvoegen van de waarden uit de [!UICONTROL Page Name] veld en [!UICONTROL Call Reason] en sla dat op in het nieuwe afgeleide veld.
+
+![Schermafbeelding van de regel Velden samenvoegen](assets/merge-fields.png)
+
+### Gegevens na {#merge-fields-uc-dataafter}
+
+| Interacties tussen kanalen | Sessies | Bezoekers |
+|---|--:|--:|
+| homepage | 500 | 250 |
+| productdetailpagina | 300 | 200 |
+| vragen over mijn bestelling | 275 | 250 |
+| Help-pagina | 250 | 200 |
+| een wijziging in mijn bestelling aanbrengen | 150 | 145 |
+| probleem met bestellen | 100 | 95 |
+
+{style="table-layout:auto"}
+
+## Meer informatie {#merge-fields-moreinfo}
+
+U moet hetzelfde type velden selecteren in een regel voor het samenvoegen van velden. Als u bijvoorbeeld een datumveld selecteert, moeten alle andere velden die u wilt samenvoegen datumvelden zijn.
+
+![Screenshot van restrictie op samenvoegvelden](assets/merge-fields-constraint.png)
+
++++
+
+
+<!-- REGEX REPLACE -->
+
+### Regex Replace
+
+Hiermee vervangt u een waarde uit een veld met een reguliere expressie in een nieuw afgeleid veld.
+
++++ Details
+
+## Specificatie {#regex-replace-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>String</li></ul></li><li>[!UICONTROL Output Format]:<ul><li>String</li></ul></ul><ul><li>Hoofdlettergevoelig</li><ul><li>Boolean</li></ul></li></ul></li> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#regex-replace-uc}
+
+U wilt een gedeelte van een URL vastleggen en dat gebruiken als unieke pagina-id om het verkeer te analyseren. U gebruikt `[^/]+(?=/$|$)` voor de reguliere expressie om het einde van de URL vast te leggen en `$1` als het uitvoerpatroon.
+
+### Gegevens voor {#regex-replace-uc-databefore}
+
+| Pagina-URL |
+|---|
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#regex-replace-uc-derivedfield}
+
+U maakt een `Page Identifier` afgeleid veld. U gebruikt de [!UICONTROL REGEX REPLACE] functie om een regel te definiëren die de waarde van de [!UICONTROL Referring URL] veld met een [!UICONTROL Regex] van `[^/]+(?=/$|$)` en [!UICONTROL Output format] van `$1`.
+
+![Screenshot van de Regex Replace-regel](assets/regex-replace.png)
+
+
+### Gegevens na {#regex-replace-uc-dataafter}
+
+| Pagina-id |
+|---|
+| adobe-analytics-benefits.html |
+| adobe-analytics.html |
+| customer-journey-analytics.html |
+| adobe-experience-platform.html |
+
+## Meer informatie
+
+Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. De volgende expressies worden ondersteund:
+
+| Uitdrukking | Beschrijving |
+| --- | --- |
+| `a` | Eén teken `a`. |
+| `a\|b` | Eén teken `a` of `b`. |
+| `[abc]` | Eén teken `a`, `b`, of `c`. |
+| `[^abc]` | Elk enkel teken behalve `a`, `b`, of `c`. |
+| `[a-z]` | Eén teken in het bereik van `a`-`z`. |
+| `[a-zA-Z0-9]` | Eén teken in het bereik van `a`-`z`, `A`-`Z`, of cijfers `0`-`9`. |
+| `^` | Komt overeen met het begin van de regel. |
+| `$` | Komt overeen met het einde van de regel. |
+| `\A` | Begin van tekenreeks. |
+| `\z` | Einde van tekenreeks. |
+| `.` | Komt overeen met elk willekeurig teken. |
+| `\s` | Willekeurig teken voor witruimte. |
+| `\S` | Willekeurig teken zonder spatie. |
+| `\d` | Willekeurig cijfer. |
+| `\D` | Willekeurig niet-cijfer. |
+| `\w` | Een letter, cijfer of onderstrepingsteken. |
+| `\W` | Willekeurig niet-woordteken. |
+| `\b` | Elke woordgrens. |
+| `\B` | Willekeurig teken dat geen woordgrens is. |
+| `\<` | Begin van woord. |
+| `\>` | Einde van woord. |
+| `(...)` | Leg alles vast. |
+| `(?:...)` | Niet-markeren vastleggen. Voorkomt dat in de uitvoertekenreeks naar de overeenkomst wordt verwezen. |
+| `a?` | Nul of één van `a`. |
+| `a*` | Nul of meer van `a`. |
+| `a+` | Eén of meer van `a`. |
+| `a{3}` | Precies 3 van `a`. |
+| `a{3,}` | 3 of meer van `a`. |
+| `a{3,6}` | Tussen 3 en 6 van `a`. |
+
+U kunt deze reeksen gebruiken in het dialoogvenster [!UICONTROL Output format] om het even welk aantal tijden en in om het even welke orde om de gewenste koordoutput te bereiken.
+
+| Tijdelijke plaatsaanduidingsreeks uitvoeren | Beschrijving |
+| --- | --- |
+| `$&` | Hiermee wordt uitgevoerd wat overeenkomt met de gehele expressie. |
+| `$n` | Hiermee wordt uitgevoerd wat overeenkomt met de nde subexpressie. Bijvoorbeeld: `$1` Hiermee wordt de eerste subexpressie uitgevoerd. |
+| ``$` `` | Hiermee wordt de tekst uitgevoerd tussen het einde van de laatste gevonden overeenkomst (of het begin van de tekst als er geen vorige overeenkomst is gevonden) en het begin van de huidige overeenkomst. |
+| `$+` | Hiermee wordt uitgevoerd wat overeenkomt met de laatst gemarkeerde subexpressie in de reguliere expressie. |
+| `$$` | Hiermee wordt het teken van de tekenreeks uitgevoerd `"$"`. |
+
+{style="table-layout:auto"}
+
++++
+
+<!-- SPLIT -->
+
+### Splitsen
+
+Splitst een waarde van een veld in een nieuw afgeleid veld.
+
++++ Details
+
+## Specificatie {#split-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul><ul><li>[!UICONTROL Method]:</li><ul><li>Van links</li><li>Van rechts</li><li>Omzetten in array</li></ul></li><li>Voor scheidingsteken:<ul><li>String</li></ul><li>Voor index:<ul><li>Numeriek</li></ul></li> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdlettergebruik 1 {#split-uc1}
+
+U verzamelt reacties op spraak-apps in een gescheiden lijst in één dimensie. U wilt dat elke waarde in de lijst een unieke waarde is in het reactierapport.
+
+### Gegevens voor {#split-uc1-databefore}
+
+| Reacties van Voice-app | Gebeurtenissen |
+|---|--:|
+| het was geweldig, perfect logisch, zal anderen aanbevelen | 1 |
+| het was groot, wat verwarrend, zal anderen adviseren | 1 |
+| het was niet geweldig, erg verwarrend, zal anderen niet adviseren | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#split-u1-derivedfield}
+
+U maakt een `Responses` afgeleid veld. U gebruikt de [!UICONTROL SPLIT] functie om een regel te bepalen die  [!UICONTROL Convert to array] methode om de waarden om te zetten vanuit de [!UICONTROL Voice App Response] veld gebruiken `,` als de [!UICONTROL Delimiter].
+
+![Screenshot van regel 1 Splitsen](assets/split-1.png)
+
+### Gegevens na {#split-uc1-dataafter}
+
+| Reacties | Gebeurtenissen |
+|---|--:|
+| het was geweldig | 2 |
+| zal anderen aanbevelen | 2 |
+| het was niet geweldig | 1 |
+| perfect | 1 |
+| enigszins verwarrend | 1 |
+| zeer verwarrend | 1 |
+| zal anderen niet adviseren | 1 |
+
+{style="table-layout:auto"}
+
+## Hoofdlettergebruik 2 {#split-uc2}
+
+U verzamelt reacties op spraak-apps in een gescheiden lijst in één dimensie. U wilt de reacties van de eerste waarde in de lijst in een eigen dimensie plaatsen. U wilt de laatste waarde in de lijst in zijn eigen dimensie plaatsen.
+
+### Gegevens voor {#split-uc2-databefore}
+
+| Reacties | Gebeurtenissen |
+|---|--:|
+| het was fantastisch , perfect logisch , zal anderen aanraden | 1 |
+| het was groot, wat verwarrend, zal anderen adviseren | 1 |
+| het was niet geweldig, erg verwarrend, zal anderen niet adviseren | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#split-u2-derivedfield}
+
+U maakt een  `First Response` afgeleid veld. U gebruikt de [!UICONTROL SPLIT] functie om een regel te definiëren die de eerste waarde van de [!UICONTROL Responses] veld links van de reactie `,` als scheidingsteken.
+
+![Screenshot van de regel Splitsen - eerste waarde](assets/split-2.png)
+
+U maakt een `Second Response` afgeleid veld om de laatste waarde te nemen van het veld [!UICONTROL Responses] door Aan de rechterkant 1 als Scheidingsteken en 1 als Index te selecteren.
+
+![Screenshot van de regel Splitsen - laatste waarde](assets/split-3.png)
+
+### Gegevens na {#split-uc2-dataafter}
+
+| Eerste reactie | Gebeurtenissen |
+|---|--:|
+| het was geweldig | 2 |
+| het was niet geweldig | 1 |
+
+{style="table-layout:auto"}
+
+| Tweede reactie | Gebeurtenissen |
+|---|--:|
+| zal anderen aanbevelen | 2 |
+| zal anderen niet adviseren | 1 |
+
+{style="table-layout:auto"}
+
++++
+
+
 <!-- URL PARSE -->
 
 ### URL-parsering
@@ -686,7 +940,7 @@ Hiermee worden verschillende delen van een URL uitgeparseerd, zoals protocol-, h
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li></ul> | <ul><li>Voor [!UICONTROL Field]:</li><ul><li>Regel</li><li>Standaardveld</li><li>Veld</li></ul><li>Voor [!UICONTROL Option]:<ul><li>[!UICONTROL Get protocol]</li><li>[!UICONTROL Get host]</li><li>[!UICONTROL Get path]</li><li>[!UICONTROL Get query string value]<ul><li>[!UICONTROL Query parameter]:<ul><li>Gebruikersinvoer</li></ul></li></ul></li><li>[!UICONTROL Get hash value]</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Option]:<ul><li>[!UICONTROL Get protocol]</li><li>[!UICONTROL Get host]</li><li>[!UICONTROL Get path]</li><li>[!UICONTROL Get query string value]<ul><li>[!UICONTROL Query parameter]:<ul><li>String</li></ul></li></ul></li><li>[!UICONTROL Get hash value]</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -710,7 +964,7 @@ U wilt het verwijzende domein van verwijzende URL als deel van de reeks van rege
 
 U definieert een  `Referring Domain` afgeleid veld. U gebruikt de [!UICONTROL URL PARSE] functie om een regel te bepalen om de gastheer van te halen [!UICONTROL Referring URL] en sla dat op in het nieuwe afgeleide veld.
 
-![ URL-parseringsregel 1](assets/url-parse-1.png)
+![Screenshot van regel 1 van url-parsering](assets/url-parse-1.png)
 
 ### Gegevens na {#urlparse-uc1-dataafter}
 
@@ -742,7 +996,7 @@ U wilt de waarde van `cid` parameter van een queryreeks in een [!DNL Page URL] a
 
 U definieert een `Query String CID` afgeleid veld. U gebruikt de [!UICONTROL URL PARSE] functie om een regel te bepalen om de waarde van de parameter van het vraagkoord in te halen [!UICONTROL Page URL] veld, opgeven `cid` als de queryparameter. De outputwaarde wordt opgeslagen op het nieuwe afgeleide gebied.
 
-![URL-parseringsregel 2](assets/url-parse-2.png)
+![Screenshot van regel 2 van url Parse](assets/url-parse-2.png)
 
 ### Gegevens na {#urlparse-uc2-dataafter}
 
@@ -760,6 +1014,13 @@ U definieert een `Query String CID` afgeleid veld. U gebruikt de [!UICONTROL URL
 
 De volgende beperkingen zijn van toepassing op de functionaliteit van het afgeleide veld in het algemeen:
 
-- U kunt maximaal 10 verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
-   - Van dit maximum van 10 verschillende schemagebieden, slechts wordt een maximum van 3 raadplegingsschema of profielschemagebieden toegestaan.
+- U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
+   - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
 - U kunt maximaal 100 afgeleide velden per Customer Journey Analytics-verbinding hebben.
+
+## Meer informatie
+
+- [De meeste van uw gegevens maken: Een kader voor het Gebruiken van Afgeleide Gebieden in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+
+- [Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+
