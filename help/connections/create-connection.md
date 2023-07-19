@@ -4,16 +4,16 @@ description: Beschrijft hoe te om tot een verbinding aan een dataset van het Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
 
 # Verbinding maken
 
-Onlangs is in Customer Journey Analytics een nieuwe workflow voor verbindingen gestart. De nieuwe ervaring van de verbindingsverwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met hulpwerkschema. U verstrekte gedetailleerde datasetselectie, configuratie, en overzichtservaring met kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Persoon IDs, en veel meer om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de nieuwe mogelijkheden:
+De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met hulpwerkschema uit. Het verstrekt gedetailleerde datasetselectie, configuratie, en overzichtservaring met kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Persoon IDs, en veel meer om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de mogelijkheden:
 
 * U kunt het rollen venster van het gegevensbehoud toelaten wanneer u de verbinding creeert.
 * U kunt datasets toevoegen aan en verwijderen uit een verbinding. (Als u een gegevensset verwijdert, wordt deze uit de verbinding verwijderd en worden de bijbehorende gegevensweergaven en onderliggende Analysis Workspace-projecten beïnvloed.)
@@ -22,6 +22,10 @@ Onlangs is in Customer Journey Analytics een nieuwe workflow voor verbindingen g
 * U kunt bestaande gegevens per dataset importeren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
+>[!IMPORTANT]
+>
+>U moet beschikken over de **Selecteren** pakket om onbeperkte aantallen datasets aan een verbinding toe te voegen. De **Stichting** pakket is beperkt tot één gegevensset. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
 
 ## Verbinding maken en configureren {#create-connection}
 

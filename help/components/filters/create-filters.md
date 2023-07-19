@@ -3,9 +3,9 @@ title: Filters maken
 description: Begrijp de gebruikersinterface van de filterverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Hieronder volgt een overzicht van de beschikbare filtertypen, met koppelingen na
 | Filters in falloutanalyse | [Uitvalvisualisatie](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Naar individuele fallout-visualisaties | Filters maken van een aanraakpunt, filters toevoegen als aanraakpunt en workflows met toetsen vergelijken tussen verschillende filters |
 | Op basis van berekende meetwaarden, filter | [Berekende metrische builder](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | Op berekende individuele metrieke waarde | Filter/s toepassen binnen uw metrische definitie |
 
-Wanneer u filters toepast op een vrije-vormproject, zijn er verschillende andere methoden beschikbaar:
+Wanneer u filters toepast op een vrije-vormproject, zijn verschillende andere methoden ook beschikbaar:
 
 | Handeling | Beschrijving |
 | --- | --- |

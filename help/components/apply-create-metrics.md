@@ -3,7 +3,7 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: a9751cad1ba49fe3e8c2c484e34d1725e063c2d4
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 4%
@@ -13,7 +13,6 @@ ht-degree: 4%
 # Metrics
 
 Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
-
 
 ## Soorten metingen
 

@@ -3,9 +3,9 @@ title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Overzicht van filters {#overview}
 
-Met Customer Journey Analytics kunt u krachtige, doelgerichte publieksfilters maken, beheren, delen en toepassen op uw rapporten. Met filters kunt u subsets van personen identificeren op basis van eigenschappen of interacties van websites. Filters zijn ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en met andere teamleden kunt delen.
+Met Customer Journey Analytics kunt u krachtige, doelgerichte publieksfilters maken, beheren, delen en toepassen op uw rapporten. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties. Filters zijn ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en met andere teamleden kunt delen.
 
 Filters kunnen worden gebaseerd op
 
@@ -37,6 +37,10 @@ Voor informatie over de beschikbare typen filters en hoe u deze kunt maken, raad
 ## Opeenvolgende filters {#sequential}
 
 Met opeenvolgende filters kunt u personen identificeren op basis van navigatie en paginaweergave op de hele site. Zo beschikt u over een filter met gedefinieerde handelingen en interacties. Met behulp van opeenvolgende filters kunt u bepalen wat een persoon leuk vindt en wat een persoon vermijdt. Wanneer het bouwen van opeenvolgende filters, wordt de exploitant THEN gebruikt om persoonnavigatie te bepalen en te ordenen.
+
+>[!IMPORTANT]
+>
+>U moet beschikken over de **Selecteren** verpakken om opeenvolgende filters voor meerdere kanalen te maken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
 
 Hier volgt een voorbeeld:
 

@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 # Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics
 
 Adobe Analytics-klanten kunnen hun rapportsuites in de Adobe Experience Platform en Customer Journey Analytics eenvoudig benutten met behulp van de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). Hieronder wordt uitgelegd hoe u dit doet.
+
+>[!IMPORTANT]
+>
+>U moet beschikken over de **Selecteren** pakket om gegevensanalyse uit te voeren over meer dan één rapportreeks. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
 
 ## Voorbereiding
 

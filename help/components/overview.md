@@ -4,10 +4,10 @@ description: Leer welke componenten Customer Journey Analytics aanbiedt en hoe u
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 6%
+source-wordcount: '1105'
+ht-degree: 5%
 
 ---
 
@@ -21,10 +21,14 @@ Componenten zijn functies in Customer Journey Analytics die kunnen worden gebrui
 U kunt de volgende componenten beheren:
 
 * [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
-* [**Filters**](filters/filters-overview.md): Delen van uw gegevens uitsluiten om de nadruk te leggen op elementen met een gemeenschappelijke dimensie
+* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Ontdekking publiek maken en publiceren in Customer Journey Analytics tot [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+* [**Filters**](filters/filters-overview.md): Creëer, beheer, deel, en pas krachtige, gerichte publieksfilters op uw rapporten toe. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
 * [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
-* [**Datumbereiken**](date-ranges/create.md): De datumbereiken aanpassen en verfijnen die Analysis Workspace biedt
-* [**Projecten**](/help/analysis-workspace/home.md): Uw projecten organiseren en onderhouden in Analysis Workspace
+* [**Gegevenswoordenboek**](/help/components/data-dictionary/data-dictionary-overview.md): Hiermee kunnen gebruikers en beheerders de componenten in hun analyseomgeving bijhouden en beter begrijpen.
+* [**Datumbereiken**](date-ranges/create.md): Pas de datumbereiken aan die Analysis Workspace aanbiedt en verfijn deze.
+* [**Dimension**](/help/components/dimensions/view-dimensions.md): Dimension zijn variabelen die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn onder andere het domein Pagina en Verwijzen.
+* [**Metrisch**](/help/components/apply-create-metrics.md): Hiermee kunt u gegevenspunten kwantificeren in Analysis Workspace.
+* [**Projecten**](/help/analysis-workspace/home.md): Organiseer en onderhoud uw projecten in Analysis Workspace.
 
 ## Analysis Workspace-componenten
 
