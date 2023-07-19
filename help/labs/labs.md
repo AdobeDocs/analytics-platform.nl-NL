@@ -4,9 +4,9 @@ description: Voorvertoning maken van prototypeprojecten voor Customer Journey An
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,6 @@ Een prototype starten en evalueren:
    ![nieuw feedbackvak](assets/short-survey.png)
 
 1. Klikken **[!UICONTROL Submit]** om terug te keren naar de hoofdportal Voorvertoningen.
-
-## Customer Journey Analytics Labs-prototypen
-
-* Generator van inzicht in de natuurlijke taal: Verstrekt een natuurlijk-taalsamenvatting van om het even welke gegevens die u in een vrije vormlijst analyseert.
-* Aanbevolen visualisatie: adviseert visualisaties die goed met uw gegevens koppelen.
 
 ## Aanvullende informatie
 
