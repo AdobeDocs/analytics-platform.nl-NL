@@ -1,10 +1,10 @@
 ---
 title: Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
-description: Gebruik de Analytics Source Connector om de verwerkingsregels van het Kanaal van de Marketing in Adobe Experience Platform te brengen.
+description: Gebruik de de bronschakelaar van de Analyse om de verwerkingsregels van het Kanaal van de Marketing in Adobe Experience Platform te brengen.
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Marketingkanaalafmetingen gebruiken in Adobe Experience Platform
 
-Als uw organisatie de [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in Customer Journey Analytics te brengen, kunt u een verbinding in Customer Journey Analytics vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
+Als uw organisatie de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) om de gegevens van de rapportreeks in Customer Journey Analytics te brengen, kunt u een verbinding in Customer Journey Analytics vormen om over de afmetingen van het Kanaal van de Marketing te rapporteren.
 
 ## Vereisten
 
-* Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
+* Gegevens uit een rapportsuite moeten al in Adobe Experience Platform worden geïmporteerd met de opdracht [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
 * De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [Verwerkingsregels voor distributiekanalen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en) in de handleiding Adobe Analytics Components.
 
 ## Schema-elementen marketingkanaal
 
-Zodra u de Verbinding van de Bron van Analytics op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave in Customer Journey Analytics maakt.
+Zodra u de de bronschakelaar van de Analyse op een gewenste rapportreeks vestigt, wordt een schema XDM gecreeerd voor u. Dit schema bevat alle analytische afmetingen en metriek als onbewerkte gegevens. Deze onbewerkte gegevens bevatten geen kenmerk of persistentie. In plaats daarvan, loopt elke gebeurtenis door de verwerkingsregels van het marketing kanaal en registreert de eerste regel het aanpast. U geeft kenmerk en persistentie op wanneer u een gegevensweergave in Customer Journey Analytics maakt.
 
-1. [Verbinding maken](/help/connections/create-connection.md) die een dataset omvat die op de Bronschakelaar van de Analytics wordt gebaseerd.
+1. [Verbinding maken](/help/connections/create-connection.md) die een dataset omvat die op de bron van Analytics schakelaar wordt gebaseerd.
 2. [Een gegevensweergave maken](/help/data-views/create-dataview.md) die de volgende afmetingen bevat:
    * **`channel.typeAtSource`**: Equivalent met de [Marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) dimensie.
    * **`channel._id`**: Equivalent met de [Detailgegevens marketingkanaal](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)
@@ -35,7 +35,7 @@ De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysi
 
 >[!NOTE]
 >
-> De verbinding van de Bron van de Analyse vereist dat allebei `channel.typeAtSource` (Marketingkanaal) en `channel._id` (Marketing Channel Detail) moet worden gevuld, anders wordt geen van beide naar de XDM ExperienceEvent overgedragen. Als het Detail van het Kanaal van de Marketing in de bronrapportreeks leeg is, resulteert dit in een leeg `channel._id` en de Analytics Source Connector wordt leeg gemaakt `channel.typeAtSource` ook. Dit kan resulteren in verschillen tussen Adobe Analytics en Customer Journey Analytics.
+> De bronschakelaar van de Analyse vereist dat beide `channel.typeAtSource` (Marketingkanaal) en `channel._id` (Marketing Channel Detail) moet worden gevuld, anders wordt geen van beide naar de XDM ExperienceEvent overgedragen. Als het Detail van het Kanaal van de Marketing in de bronrapportreeks leeg is, resulteert dit in een leeg `channel._id` en de bronaansluiting voor Analytics wordt leeg gemaakt `channel.typeAtSource` ook. Dit kan resulteren in verschillen tussen Adobe Analytics en Customer Journey Analytics.
 
 ## Verschillen in verwerking en architectuur
 

@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience P
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de van de Bron Adobe Analytics Schakelaar of Web SDK. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
+Adobe biedt veelvoudige manieren aan om gegevens in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de de bronschakelaar van de Analyse of SDK van het Web te brengen. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 

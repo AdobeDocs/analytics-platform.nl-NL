@@ -1,13 +1,13 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
 
 ---
-# Virtuele rapportsuite, gegevensweergaven, Adobe Experience Platform-sandboxen en de Analytics Source Connector
+# Virtuele rapportsuite, gegevensweergaven, Adobe Experience Platform-sandboxen en de bronconnector van Analytics
 
-Adobe biedt verschillende manieren om virtuele rapporteringsomgevingen en sandboxomgevingen te maken. Het is nuttig om de gelijkenissen en de verschillen tussen de volgende eigenschappen te begrijpen en hoe deze eigenschappen op [Bronverbinding voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en):
+Adobe biedt verschillende manieren om virtuele rapporteringsomgevingen en sandboxomgevingen te maken. Het is nuttig om de gelijkenissen en de verschillen tussen de volgende eigenschappen te begrijpen en hoe deze eigenschappen op [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en):
 
 * Adobe Analytics Virtual Report-suites
 * Customer Journey Analytics-gegevensweergaven
@@ -33,7 +33,7 @@ Een virtuele rapportsuite is (doet) niet:
 
 * Een middel bieden om de rapportsuites te combineren.
 * Beschikbaar in Adobe Analytics Data Warehouse.
-* Beschikbaar als bron voor gegevensstromen in Adobe Experience Platform via de Analytics Source Connector. Alleen volledige (niet-virtuele) rapportsuites zijn beschikbaar voor gebruik met de Bronconnector Analytics.
+* Beschikbaar als bron voor gegevensstromen in Adobe Experience Platform via de bron van Analytics schakelaar. Alleen volledige (niet-virtuele) rapportsuites zijn beschikbaar voor gebruik met de bronconnector van Analytics.
 
 
 ## Customer Journey Analytics-gegevensweergaven
@@ -75,4 +75,4 @@ Een Adobe Experience Platform-sandbox doet dit niet:
 Verder:
 
 * Gegevens van verschillende sandboxen kunnen niet worden gecombineerd binnen Customer Journey Analytics.
-* De verbinding van de Bron van de Analyse verzendt rapportreeksgegevens _in_ een specifieke sandbox. Elk rapportpakket kan als bron voor één enkele zandbak worden gevormd. Zie de [Documentatie over de analytische bronaansluiting](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
+* De verbinding van de Bron van de Analyse verzendt rapportreeksgegevens _in_ een specifieke sandbox. Elk rapportpakket kan als bron voor één enkele zandbak worden gevormd. Zie de [Documentatie over de bronaansluiting voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .

@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren u gegevens in Customer Journey An
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '784'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ U hebt een aantal opties voor het opnemen van gegevens in Customer Journey Analy
 
 ## Gegevens uit traditionele Adobe Analytics verzamelen
 
-Deze workflow maakt gebruik van de Adobe Analytics Source Connector en is afhankelijk van het feit of u DTM of Launch gebruikt als tagbeheer.
+Deze workflow maakt gebruik van de bronaansluiting Analytics en is afhankelijk van het feit of u DTM of Launch gebruikt als tagbeheer.
 
 ### Via tags in Adobe Experience Platform (voorheen genoemd) [!UICONTROL Launch])
 

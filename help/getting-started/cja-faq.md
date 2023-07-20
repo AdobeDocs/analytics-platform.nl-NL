@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Veelgestelde vragen.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2002'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Met uw recht op Customer Journey Analytics kunt u gegevens in het Experience Pla
 
 +++**Hoe krijg ik [!UICONTROL Adobe Analytics] gegevens in [!UICONTROL Customer Journey Analytics]?**
 
-[!UICONTROL Adobe Analytics] gegevens kunnen via de [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Meeste [!UICONTROL Adobe Analytics] velden worden overgebracht in XDM-indeling, maar andere velden zijn nog niet beschikbaar.
+[!UICONTROL Adobe Analytics] gegevens kunnen via de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Meeste [!UICONTROL Adobe Analytics] velden worden overgebracht in XDM-indeling, maar andere velden zijn nog niet beschikbaar.
 
 +++
 

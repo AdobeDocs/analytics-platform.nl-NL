@@ -4,7 +4,7 @@ description: Gebruik standaardraadplegingen om de rapportage te vergroten met nu
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Standaardraadplegingen toevoegen aan uw datasets
 
 >[!IMPORTANT]
->De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de Bron van de Analyse van de Verbinding in Customer Journey Analytics. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
+>De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de bron van de Analyse schakelaar in Customer Journey Analytics. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
 
 De standaardraadplegingen (die ook als Adobe-Geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. De standaardraadplegingen zijn toepasselijk over organisaties van Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die Adobe classificeert.
 
@@ -22,7 +22,7 @@ In traditionele Adobe Analytics worden deze dimensies op zichzelf weergegeven, t
 
 ## Standaardraadplegingen gebruiken met gegevenssets voor Adobe Source Connector
 
-De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de Bron van Analytics Schakelaar gebruikt en u in een afmeting brengt waarvoor Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
+De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de de bronschakelaar van de Analyse gebruikt en u in een afmeting brengt waarvoor Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
 
 <!--
 ### Specific IDs that need to be populated
