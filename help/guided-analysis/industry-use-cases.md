@@ -1,7 +1,8 @@
 ---
 title: Industriële gebruiksgevallen
 description: Industriële gebruiksgevallen voor geleide analyse
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+feature: Guided Analysis
+source-git-commit: 99cd8847ec7e35e71e17ae9f69605bfcb00f2882
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 | **Mobiele winkeltoepassing optimaliseren** | Veel klanten hebben onze mobiele app gedownload, maar zijn nooit teruggekomen. We ontdekten dat ze het alleen gebruikten voor het eerste aanbod en die slapende klanten opnieuw betrekken. | **LTV van mobiele gebruikers vergroten.** Meet en vergroot het gebruik van apps om een &#39;gelukkigere weg&#39;-gebruikerservaring te ontwikkelen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Netto-groeiweergave](types/net-growth.md) |
 | **Het effect van nieuwe afrekenfuncties kwantificeren** | Als supermarkt die onze weg naar online winkelen test, kunnen we snel de impact meten van nieuwe uitcheckfuncties zoals &quot;Hebt u boter vergeten?&quot; productaanbevelingen of nieuwe methoden voor afhandeling, zoals Curbside Pickup. | **Verhoog de conversiesnelheden.** Meet de invloed van uw bedrijf in plaats van alleen het gebruik van functies. | [Weergave-effect](types/release.md) <p/><p/> [Weergave voor eerste gebruik](types/first-use.md) |
 | **Minder kans op lidmaatschap** | We hebben in de klantentransacties frictiepunten ontdekt die ervoor zorgen dat klanten naar huis trekken. Dit bood ons de gelegenheid om lidmaatschapsprogramma&#39;s te herzien en gedragingen en signalen van risicomedewerkers te analyseren. | **Verminder de kurn.** Identificeer manieren om cliëntverhoudingen te bevorderen en te bevorderen om attributie te verhinderen en kurn te verminderen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Wrijvingsweergave](types/friction.md) |
-| **Onefficiënte verkoopreizen zoeken** | We ontdekten inefficiënties in de reis van onze &#39;in-store&#39;-verkoopmedewerkers, waar ze van klanten werden weggehaald. We hebben hun proces aangepast, waardoor klanten een prettigere ervaring kregen bij het winkelen in de winkel. | **Verbeter verkoopreactie.** Verbeter interne reizen om inefficiënte processen te verminderen, wat resulteert in positieve ervaringen van klanten. | [Wrijvingsweergave](types/friction.md) |
+| **Onefficiënte verkoopreizen zoeken** | We ontdekten inefficiënties in de reis van onze &#39;in-store&#39;-verkoopmedewerkers, waar ze van klanten werden weggehaald. We hebben hun proces aangepast, waardoor klanten een prettigere ervaring hebben met winkelen in de winkel. | **Verbeter verkoopreactie.** Verbeter interne reizen om inefficiënte processen te verminderen, wat resulteert in positieve ervaringen van klanten. | [Wrijvingsweergave](types/friction.md) |
 
 {style="table-layout:auto"}
 
