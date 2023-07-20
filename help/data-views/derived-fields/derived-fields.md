@@ -4,7 +4,7 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: b8d6b8b0f2740e118bd744bcb7b7ee46aefc75ed
+source-git-commit: bd017810cb0f7813bdada5e3e951b0f6d5b768e4
 workflow-type: tm+mt
 source-wordcount: '4165'
 ht-degree: 4%
@@ -749,7 +749,7 @@ Hiermee vervangt u een waarde uit een veld met een reguliere expressie in een ni
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>String</li></ul></li><li>[!UICONTROL Output Format]:<ul><li>String</li></ul></ul><ul><li>Hoofdlettergevoelig</li><ul><li>Boolean</li></ul></li></ul></li> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>String</li></ul></li><li>[!UICONTROL Output Format]:<ul><li>String</li></ul></ul><ul><li>Hoofdlettergevoelig</li><ul><li>Boolean</li></ul></li></ul></li> | <p>N.v.t.</p> | <p>1 functie per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
