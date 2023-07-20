@@ -5,9 +5,9 @@ description: Overzicht van Analysis Workspace-mogelijkheden
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 2647acd9dbf0732b02d69528fe1d07e381123aef
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '711'
 ht-degree: 3%
 
 ---
@@ -78,6 +78,10 @@ Nadat u de componentterminologie hebt begrepen, kunt u componenten naar visualis
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen.
 
 Voor meer informatie over het gegevenswoordenboek raadpleegt u [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).
+
+## Databronnen
+
+Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie. Hier vindt u meer informatie over hoe u kunt [gegevensbronnen beheren](/help/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Beginnen met Analysis Workspace
 
