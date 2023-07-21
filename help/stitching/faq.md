@@ -3,7 +3,7 @@ title: Veelgestelde vragen
 description: Veelgestelde vragen over Stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -60,6 +60,8 @@ Livestitching is ongeveer een week beschikbaar nadat Adobe stitching mogelijk ma
 [Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) is een functie die specifiek is voor traditionele Adobe Analytics en waarmee u kunt begrijpen hoe mensen op verschillende apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
 
 Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journey Analytics die u toestaat om te begrijpen hoe de mensen over zowel apparaten als kanalen werken. Het stitches de de persoonsidentiteitskaart van een dataset, toestaand die dataset om naadloos met andere datasets worden gecombineerd. Deze functie werkt op vergelijkbare wijze in ontwerpen als op het veld gebaseerde stitching voor apparaatanalyse, maar de implementatie is anders vanwege de verschillende gegevensarchitectuur tussen traditionele Analytics en Customer Journey Analytics. Zie [Stiksel](overview.md) en de [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) Gebruik hoofdletters/kleine letters voor meer informatie.
+
++++
 
 +++**Hoe behandelt Stitching GDPR en CCPA verzoeken?**
 
