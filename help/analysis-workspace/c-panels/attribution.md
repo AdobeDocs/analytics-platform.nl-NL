@@ -3,10 +3,10 @@ title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 22%
+source-wordcount: '513'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics verbetert de attributie door u te laten:
 
 * Definitie van attributie die verder gaat dan &#39;paid media&#39;: hiermee kan elke dimensie of gebeurtenis, en elke metric of elk kanaal worden toegepast op modellen (bijvoorbeeld intern zoeken), niet alleen marketingcampagnes.
 * Een onbeperkt aantal attributiemodellen vergelijken: vergelijk dynamisch zoveel modellen als u wilt.
-* Geen late wijzigingen tijdens de implementatie: met de functies voor verwerking van de rapporttijd en context-bewuste sessies, kan de context van het klanttraject worden ingebouwd voor toepassing tijdens runtime.
+* Wijzigingen in implementatie voorkomen: Met rapport-tijd verwerking en context-bewuste zittingen, kan de context van de klantenreis binnen worden gebouwd en bij runtime worden toegepast.
 * Construeer de sessie die het beste overeenkomt met uw attributiescenario.
 * Verdeling van kenmerken door filters: Vergelijk eenvoudig de prestaties van uw marketingkanalen met elk belangrijk filter (bijvoorbeeld Nieuwe of Herhaalde klanten, Product X versus Product Y, Loyalty level of CLV).
 * Controle dankzij &#39;channel cross-over&#39; en multi-touchanalyse: gebruik Venn-diagrammen en histogrammen en volg de trends in attributieresultaten.
