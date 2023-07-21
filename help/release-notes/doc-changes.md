@@ -4,10 +4,10 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: e55cd5d9da816b9413dba7542acb385f12709642
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 5%
+source-wordcount: '2347'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,12 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 
 | Functie | Beschrijving |
 | --- | --- |
+| **juli 2023** |
+| Adobe Product Analytics | Adobe Product Analytics is een nieuwe manier om te communiceren met kanaalgegevens en inzichten in Customer Journey Analytics. Dankzij deze nieuwe mogelijkheden kunnen productteams gegevens en inzichten over hun productervaring zelf bedienen via [geleide analyse](/help/guided-analysis/overview.md) &#x200B;. |
+| Afgeleide velden | A [afgeleid veld](/help/data-views/derived-fields/derived-fields.md) staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. |
+| Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens | Verstrekt de capaciteit om datasets als raadplegingen van gebieden binnen de datasets van het Profiel of van de Opzoekopdracht toe te voegen. Eerder werden alleen gegevenssets voor gebeurtenissen ondersteund. [Meer informatie](/help/connections/create-connection.md) |
+| Report Builder-verbeteringen | <ul><li>[Filteren uit cel voor meerdere gegevensblokken](/help/report-builder/select-data-view.md)</li><li>[Rij- en kolomkoppen tonen en verbergen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=en#build-the-data-block)</li></ul> |
+| Ervaar Edge-geo-zoekopdrachten | [Adobe Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) voegt een geo raadplegingsdienst toe die verenigde geografische gegevens aan alle gebruikers van de Rand van de Ervaring verstrekt. |
 | **Juni 2023** | |
 | Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als Customer Journey Analytics-vermogen en -gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
 | PowerBI en Tableau toegang tot Customer Journey Analytics-gegevensweergaven | De Customer Journey Analytics SQL-connector biedt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. [Meer informatie](/help/data-views/sql-connector.md) |

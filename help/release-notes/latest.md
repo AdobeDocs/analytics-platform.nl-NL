@@ -3,9 +3,9 @@ title: Huidige opmerkingen bij de release Customer Journey Analytics weergeven
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9e6231e4dc9770fbb7c859b397ea8c57e7dff478
+source-git-commit: e55cd5d9da816b9413dba7542acb385f12709642
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel]
 | **Afgeleide velden** | Dit vertegenwoordigt de aanvankelijke versie van Afgeleide gebieden. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt het afgeleide veld verder definiëren als een component (metrisch of dimensionaal) in gegevensweergaven en het afgeleide veld vervolgens gebruiken als een component in Workspace.<p>Deze release ondersteunt een sjabloon voor marketingkanalen en de volgende functies:</p><ul><li>Samenvoegen</li><li>Hoofdletters/kleine letters</li><li>Zoeken en vervangen</li><li>Opzoeken</li><li>URL-parsering</li></ul> <p>[Meer informatie](/help/data-views/derived-fields/derived-fields.md)</p> | 10 mei 2023 | 2 augustus 2023 |
 | **Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens** | Verstrekt de capaciteit om datasets als raadplegingen van gebieden binnen de datasets van het Profiel of van de Opzoekopdracht toe te voegen. Eerder werden alleen gegevenssets voor gebeurtenissen ondersteund. [Meer informatie](/help/connections/create-connection.md) | 21 juni 2023 | 12 juli 2023 |
 | **Report Builder-verbeteringen** | <ul><li>Filter van cel voor meerdere gegevensblokken. U kunt de filters op meerdere gegevensblokken in een cel wijzigen. Gebruik een vooraf gedefinieerde cel, wijs deze toe aan meerdere gegevensblokken en werk de gegevens bij op basis van de filters die in de cel zijn gedefinieerd. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=en)</li><li>Rij- en kolomkoppen tonen en verbergen. U kunt gegevensbloktabelkoppen of rij- en kolomkoppen weergeven of verbergen om de tabel opnieuw op te maken en gegevensblokken in een rapport uit te lijnen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=en#build-the-data-block)</li></ul> | N.v.t. | 19 juli 2023 |
-| **Ervaar Edge-geo-zoekopdrachten** | Adobe Experience Edge voegt een geografische opzoekservice toe die alle Experience Edge-gebruikers (Adobe Analytics, Customer Journey Analytics, Adobe Target, Adobe Media Analytics, Adobe Experience Platform, enz.) uniforme geografische gegevens biedt. | N.v.t. | 26 juli 2023 |
+| **Ervaar Edge-geo-zoekopdrachten** | [Adobe Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) voegt een geo lookup-service toe die uniforme geografische gegevens verschaft aan alle Experience Edge-gebruikers (Adobe Analytics, Customer Journey Analytics, Adobe Target, Adobe Media Analytics, Adobe Experience Platform, enz.). | N.v.t. | 26 juli 2023 |
 
 {style="table-layout:auto"}
 
