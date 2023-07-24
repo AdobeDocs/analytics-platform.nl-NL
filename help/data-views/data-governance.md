@@ -3,9 +3,9 @@ title: Labels en beleid
 description: Leer hoe gegevenslabels en beleidsregels die in Adobe Experience Platform zijn gedefinieerd van invloed zijn op gegevensweergaven en rapportage in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
 >
 >De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan stitched datasets. Deze kunnen echter handmatig worden toegevoegd.
 
-De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid maken via de [Beleidsservice-API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
+De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U maakt uw beleid met de [UI Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en) of via de [Beleidsservice-API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
 
 Er worden twee door Adobe gedefinieerde beleidsregels opgehaald in Customer Journey Analytics en dit heeft invloed op rapportage en downloaden/delen:
 
