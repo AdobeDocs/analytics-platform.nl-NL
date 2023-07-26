@@ -4,10 +4,10 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
+source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 1%
+source-wordcount: '1428'
+ht-degree: 0%
 
 ---
 
@@ -30,10 +30,10 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
 1. Veranker uw stroomvisualisatie met een van de volgende opties:
 
    * [!UICONTROL **Begint met**] (maateenheden, afmetingen of items), of
-   * [!UICONTROL **Bevat**] (afmetingen, of items), of
+   * [!UICONTROL **Bevat**] (dimensies, of items), of
    * [!UICONTROL **Eindigt met**] (maateenheden, afmetingen of items)
 
-   Elk van deze categorieën wordt op het scherm getoond als &quot;dalingsstreek.&quot; U kunt de neerzetzone op drie manieren vullen:
+   Elk van deze categorieën wordt op het scherm weergegeven als een &quot;dropzone&quot;. U kunt de neerzetzone op drie manieren vullen:
 
    * Gebruik het keuzemenu om metriek of afmetingen te selecteren.
    * Sleep afmetingen of metriek van de linkerspoorstaaf.
@@ -56,9 +56,14 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
    | **[!UICONTROL Wrap labels]** | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen.  Standaard = uitgeschakeld. |
    | **[!UICONTROL Include repeat instances]** | Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhaalde exemplaren, zoals opnieuw laden van pagina&#39;s, opnemen of uitsluiten. Herhalingen kunnen echter niet worden verwijderd uit Flow-visualisaties met multigetaxeerde afmetingen, zoals listVars, listProps, s.product, merchandising Vars, enz. <p>Deze optie is standaard uitgeschakeld.</p> |
    | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen/eindigen met de eerste/laatste instantie van een dimensie/item/metrisch. Zie de onderstaande paragraaf. [Voorbeeldscenario voor &#39;beperking tot eerste/laatste voorkomen&#39;](#example-scenario-for-limit-to-firstlast-occurrence)voor een nadere toelichting. |
-   | **[!UICONTROL Number of columns]** | Het aantal kolommen u in uw diagram van de Stroom wilt. |
-   | **[!UICONTROL Items expanded per column]** | Het aantal items dat u in elke kolom wilt opnemen. |
+   | **[!UICONTROL Number of columns]** | Het aantal kolommen u in uw diagram van de Stroom wilt. U kunt maximaal vijf kolommen opgeven. |
+   | **[!UICONTROL Items expanded per column]** | Het aantal items dat u in elke kolom wilt opnemen. U kunt maximaal tien items opgeven die per kolom worden uitgevouwen. |
    | **[!UICONTROL Flow container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
+
+   >[!IMPORTANT]
+   >
+   >De combinatie van **[!UICONTROL Number of columns]** en **[!UICONTROL Items expanded per column]** bepaal het aantal onderliggende verzoeken die worden vereist om de stroomvisualisatie tot stand te brengen. Hoe hoger deze getallen, hoe langer het duurt om een visualisatie te renderen.
+
 
 1. Selecteren **[!UICONTROL Build]**.
 
@@ -67,6 +72,7 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
 >**Voorbeeld:** Stel dat u het pad wilt overtrekken dat gebruikers naar en van de populairste pagina&#39;s op uw site hebben gekozen.
 >
 >Om dit te doen, zou u
+>
 >1. Beginnen met het maken van een stroomvisualisatie zoals hierboven beschreven.
 >1. Sleep de [!UICONTROL **Pagina**] in de **[!UICONTROL Contains]** veld, selecteer vervolgens [!UICONTROL **Opbouwen**].
 >1. De stroomvisualisatie bouwt verder met de meest bekeken pagina zichtbaar in het focusknooppunt in het midden van de visualisatie. U ziet ook de bovenste pagina&#39;s die naar die pagina lopen (links van het focusknooppunt) en de bovenliggende pagina&#39;s die uit die focuspagina lopen (rechts van het focusknooppunt).
@@ -88,7 +94,7 @@ Als u verder naar de gegevens wilt gaan, hebt u verschillende opties:
 
 * U kunt een kolom filteren om alleen bepaalde resultaten weer te geven, zoals inclusief en exclusief, het opgeven van criteria enzovoort.
 
-* Klik op het plusteken (+) aan de linkerkant om een kolom uit te vouwen.
+* Klik op het plusteken (+) links om een kolom uit te vouwen.
 
 * Met de rechtermuisknop klikt u op de opties die hieronder worden uitgelegd, om de uitvoer verder aan te passen.
 
@@ -119,7 +125,7 @@ Boven elke kolom wordt een filter weergegeven wanneer u de muisaanwijzer op de k
 | [!UICONTROL Trend] | Creeer een trended diagram voor de knoop. |
 | Volgende kolom tonen/Vorige kolom tonen | Geeft de volgende (rechts) of vorige (links) kolom van de visualisatie aan. |
 | Kolom verbergen | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
-| [!UICONTROL Expand entire column] | Vouw een kolom uit om alle knooppunten weer te geven. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
+| [!UICONTROL Expand entire column] | Breid een kolom uit om alle knopen te tonen. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
 | publiek maken van selectie | Hiermee maakt u een publiek op basis van de geselecteerde kolom. |
 | [!UICONTROL Collapse entire column] | Alle knooppunten in een kolom verbergen. |
 
@@ -137,7 +143,7 @@ Voorbeelden van gebeurtenissen:
 
 Home > Producten > Toevoegen aan winkelwagentje > Producten > Toevoegen aan winkelwagentje > Facturering > Bevestiging bestellen
 
-### Overweeg een stroomanalyse met de volgende instellingen:
+### Overweeg een stroomanalyse met behulp van de volgende instellingen:
 
 * Beginnen met[!UICONTROL  Add to cart] (Dimension-item)
 * [!UICONTROL Page] schilderdimensie
@@ -158,5 +164,5 @@ Verwachte stroomuitvoer: &quot;Toevoegen aan winkelwagentje&quot; (1) —> &quot
 Indien **[!UICONTROL Limit to first/last occurrence]** is *uitgeschakeld*In dat geval telde deze enkele reeks gebeurtenissen twee exemplaren van &quot;Toevoegen aan winkelwagentje&quot;.
 Verwachte stroomuitvoer: &quot;Producten&quot; (2) &lt;— &quot;Toevoegen aan winkelwagentje&quot; (2)
 
-Als **[!UICONTROL Limit to first/last occurrence]** is *enabled*, alleen de laatste keer dat [!UICONTROL Add to cart] in de analyse worden opgenomen.
+Als echter **[!UICONTROL Limit to first/last occurrence]** is *enabled*, alleen de laatste keer dat [!UICONTROL Add to cart] in de analyse worden opgenomen.
 Verwachte stroomuitvoer: &quot;Producten&quot; (1) &lt;— &quot;Toevoegen aan winkelwagentje&quot; (1)
