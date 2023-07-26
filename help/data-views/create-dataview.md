@@ -4,9 +4,9 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
+source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ Hier volgt een video over het onderwerp:
 Een gegevensweergave maken of bewerken:
 
 1. Aanmelden bij [Customer Journey Analytics](https://analytics.adobe.com) en ga naar de **[!UICONTROL Data views]** tab.
-1. Als u een gegevensweergave wilt maken, selecteert u **[!UICONTROL Create new data view]**. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
+1. Selecteer **[!UICONTROL Create new data view]**. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 
 ## Configureren
 
 Een nieuwe of bestaande gegevensweergave configureren:
 
-1. Selecteer **[!UICONTROL Configure]** tab (als deze nog niet actief is).
+1. Selecteer de **[!UICONTROL Configure]** tab (als deze nog niet actief is).
 
    ![Gegevensweergave configureren](assets/dataview-configure.png)
 1. Opgeven [!UICONTROL Settings], [!UICONTROL Container], en [!UICONTROL Calendar] nadere gegevens (zie hieronder).
@@ -54,7 +54,7 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. Containerna
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Person container name] | [!UICONTROL Person] (standaard). De [!UICONTROL Person] de container omvat elke zitting en gebeurtenis voor personen binnen het gespecificeerde tijdkader. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
+| [!UICONTROL Person container name] | [!UICONTROL Person] (standaard). De [!UICONTROL Person] container omvat elke zitting en gebeurtenis voor personen binnen het gespecificeerde tijdkader. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | [!UICONTROL Session container name] | [!UICONTROL Session] (standaard). De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
 | [!UICONTROL Event container name] | [!UICONTROL Event] (standaard). De [!UICONTROL Event] de container bepaalt individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
@@ -78,7 +78,7 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 
 Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit betekent dat u metriek en afmetingen kunt maken op basis van schema-elementen. U kunt ook standaardcomponenten gebruiken.
 
-1. Selecteer **[!UICONTROL Components]** tab.
+1. Selecteer de **[!UICONTROL Components]** tab.
 
    ![Tabblad Componenten](assets/dataview-components.png)
 
@@ -87,7 +87,7 @@ Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit beteken
 1. Een schemaveld zoeken met ![Zoekpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen te bewegen, als ![Mappictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>U kunt ook een afgeleid veld maken met ![Gegevenspictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Afafgeleid veld maken** . Zie [Afgeleide velden](./derived-fields/derived-fields.md) voor meer informatie .
 
 1. Wanneer u een specifiek schemaveld hebt gevonden of uw afgeleide veld hebt gedefinieerd, sleept u dat veld, bijvoorbeeld ![Handgreeppictogram](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**van de linkerspoorstaaf naar het gedeelte Metriek of Dimension.
-U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. U kunt bijvoorbeeld in het veld pageName een dimensie met de naam &quot;Productpagina&#39;s&quot; maken en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot;, door een andere dimensie te gebruiken [Componentinstellingen](component-settings/overview.md) rechts.
+U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. U kunt bijvoorbeeld in het veld pageName een dimensie met de naam &quot;Productpagina&#39;s&quot; maken en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot;, door verschillende [Componentinstellingen](component-settings/overview.md) rechts.
 Als u een schemagebiedomslag van het linkerspoor sleept, worden zij automatisch gesorteerd in typische secties. Tekenreeksvelden eindigen in het dialoogvenster [!UICONTROL Dimensions] sectie- en numerieke schematypen eindigen in de [!UICONTROL Metrics] sectie. U kunt ook op **[!UICONTROL Add all]** en alle schemavelden worden toegevoegd aan hun respectieve locaties.
 
 1. Zodra u een component selecteert, verschijnen de montages op het recht.
@@ -109,20 +109,20 @@ Als u een schemagebiedomslag van het linkerspoor sleept, worden zij automatisch 
 
 **Maten of afmetingen dupliceren**
 
-Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer [!UICONTROL Duplicate] het plaatsen onder de metrische metrische naam of dimensies bij het hoogste recht. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
+Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifieke montages is een gemakkelijke manier om veelvoudige metriek of afmetingen van één enkel schemagebied tot stand te brengen. Selecteer de [!UICONTROL Duplicate] onder de naam van de metrische waarde of de afmetingen in de rechterbovenhoek instellen. Wijzig de nieuwe dimensie of metrische waarde en sla deze onder een beschrijvende naam op.
 
 **Filterschemavelden of -gegevenssets**
 
-U kunt filteren ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schema-velden in linkerspoor per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]):
+U kunt ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schema-velden in linkerspoor per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]):
 
 ![Filtervelden](assets/dataview-components-filter.png)
 
 
 ## Instellingen
 
-1. Selecteer **[!UICONTROL Settings]** tab.
+1. Selecteer de **[!UICONTROL Settings]** tab.
 1. Configureer filters om toe te passen op de volledige gegevensweergave. Zie [Instellingen (filters)](#settings-filters) hieronder.
-1. Configureer sessietime-out en metriek. Zie [Sessieinstellingen](#session-settings) hieronder.
+1. Configureer de sessietime-out en metriek. Zie [Sessieinstellingen](#session-settings) hieronder.
 1. Selecteren **[!UICONTROL Save and continue]** om uw nieuwe of bestaande gegevensmening te blijven vormen. Selecteren **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensmening te bewaren.
 
 ### Instellingen (filters)
@@ -131,6 +131,6 @@ U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn
 
 ### Sessieinstellingen
 
-Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Een tijdsperiode is vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat.
+Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [Contextbewuste sessies](context-aware-sessions.md) voor meer informatie .
 
-Als alle gewenste instellingen zijn opgegeven, klikt u op **[!UICONTROL Save and finish]**.
+Klik op **[!UICONTROL Save and finish]**.

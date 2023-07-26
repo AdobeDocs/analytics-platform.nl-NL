@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '968'
 ht-degree: 26%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 26%
 
 + Aan de slag {#cja-overview}
    + [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
-   + [Snelle startgids](../getting-started/cja-getting-started.md)
+   + [Handleiding voor snel starten](../getting-started/cja-getting-started.md)
    + [Openingspagina](../getting-started/landing.md)
    + [Veelgestelde vragen](../getting-started/cja-faq.md)
    + [Customer Journey Analytics tot BI-oplossingen vergelijken](../getting-started/cja-vs-bi.md)
@@ -50,7 +50,7 @@ ht-degree: 26%
       + [STEUN, ECID, AACUSTOMID en de bronaansluiting voor Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
 + Gegevensopname {#cja-data-ingestion}
-   + [Overzicht van gegevensinname](../data-ingestion/data-ingestion.md)
+   + [Overzicht van gegevensinscriptie](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + [Adobe Experience Platform Web SDK en Edge Network](../data-ingestion/aepwebsdk.md)
@@ -66,9 +66,10 @@ ht-degree: 26%
    + [Standaardzoekopdrachten](../connections/standard-lookups.md)
    + [Kanaaloverschrijdende analyse](../connections/cca.md)
 
-+ Gegevens {#cja-dataviews}
++ Gegevens weergeven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
+   + [Contextbewuste sessies](../data-views/context-aware-sessions.md)
    + Componentinstellingen {#component-settings}
       + [Overzicht van componentinstellingen](../data-views/component-settings/overview.md)
       + [Attributie](../data-views/component-settings/attribution.md)
@@ -210,7 +211,7 @@ ht-degree: 26%
       + [Annotaties weergeven](../components/annotations/view-annotations.md)
       + [Mobiele annotaties](../components/annotations/mobile-annotations.md)
    + Soorten publiek {#audiences}
-      + [Overzicht van soorten publiek](../components/audiences/audiences-overview.md)
+      + [Overzicht publiek](../components/audiences/audiences-overview.md)
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
       + [Soorten publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
@@ -254,7 +255,7 @@ ht-degree: 26%
    + Gegevenswoordenboek {#data-dictionary}
       + [Overzicht van gegevenswoordenboek](../components/data-dictionary/data-dictionary-overview.md)
       + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
-      + [Onderdeelitems in gegevenswoordenboek bewerken](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [Onderdeelitems bewerken in het gegevenswoordenboek](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Gezondheid gegevenswoordenboek controleren](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
@@ -273,13 +274,13 @@ ht-degree: 26%
 
 + Stiksel {#stitching}
    + [Overzicht](../stitching/overview.md)
-   + [Hoe stikken werkt](../stitching/explained.md)
+   + [Hoe stitching werkt](../stitching/explained.md)
    + [Verstikte gegevenssets maken en beheren](../stitching/stitching-ui.md)
    + [Veelgestelde vragen](../stitching/faq.md)
 
 + Kanaaloverschrijdende analyse {#cca}
    + [Overzicht van kanaalanalyse](../cca/overview.md)
-   + [Hoe herspeelt u](../cca/replay.md)
+   + [Hoe herspeelt u?](../cca/replay.md)
    + [Veelgestelde vragen over kanaalanalyse](../cca/faq.md)
 
 + Adobe-integratie {#integrations}
@@ -303,7 +304,7 @@ ht-degree: 26%
       + [Rapport over gegevens over Google Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
       + [Marketo Engage-gegevens in Adobe Experience Platform opnemen en in Customer Journey Analytics rapporteren](../use-cases/data-ingestion/marketo.md)
-      + [Adobe Experience Platform-publiek vertalen in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Adobe Experience Platform-publiek verfraaien in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}
       + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
@@ -333,4 +334,4 @@ ht-degree: 26%
 
 + [Customer Journey Analytics glossarium](../getting-started/cja-glossary.md)
 
-+ [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
++ [CUSTOMER JOURNEY ANALYTICS API](https://developer.adobe.com/cja-apis/docs/)
