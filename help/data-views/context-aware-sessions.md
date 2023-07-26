@@ -3,7 +3,7 @@ title: Contextbewuste sessies
 description: Instellingen in een gegevensweergave die u kunt gebruiken om contextbewuste sessies te definiëren.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6235fbb128098e2a624d5fd4fd72c2c583cfd277
+source-git-commit: 5e4bf2985a0ec75cc0120e2a9549d720077cd5cc
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Contextbewuste sessies in gegevensweergaven veranderen hoe Customer Journey Analytics sessies berekent op basis van de gegevens in uw verbinding.
 
-Binnen de [!UICONTROL Settings] tabblad Gegevens kunt u op elke manier een sessie definiëren die aansluit bij de manier waarop personen met uw digitale ervaringen werken. Contextbewuste sessiedefinities zijn niet-destructief en wijzigen de onderliggende gegevens niet. U kunt veelvoudige gegevensmeningen, elk met hun specifieke context-bewuste zittingsdefinitie als stichting voor uw projecten van de Werkruimte plaatsen.
+Binnen de [!UICONTROL Settings] tabblad Gegevens kunt u op elke manier een sessie definiëren die aansluit bij de manier waarop personen met uw digitale ervaringen werken. Contextbewuste sessiedefinities zijn niet-destructief en wijzigen de onderliggende gegevens niet. U kunt veelvoudige gegevensmeningen - elk met hun specifieke context-bewuste zittingsdefinitie - als stichting voor uw projecten van de Werkruimte opzetten.
 
 De context van een sessie voor een gegevensweergave definiëren:
 
