@@ -3,9 +3,9 @@ title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams snel inzichten van hoge kwaliteit laat krijgen. Wordt ook wel Product Analytics genoemd.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bbf69470727dae531065972511bcc29eb3f47679
+source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,9 @@ Als uw organisatie is ingericht voor geleide analyse, kunt u tot het van de home
 
 ## Interface
 
-De interface voor Begeleide analyse, ongeacht het type analyse, omvat de volgende belangrijkste elementen UI:
+De interface voor geleide analyse volgt een vraag en antwoordformaat. Je vormt je vraag in de queryrail, en dan krijg je een antwoord in de vorm van een geschreven inzicht, grafiek en tabel. Vervolgens kunt u de volgende vraag stellen met de visualisatie-instellingen en weergavetypen.
+
+Ongeacht het type analyse bestaat een geleide analyse uit de volgende UI-elementen:
 
 | Interfacevoorvertoning | UI-element | Beschrijving |
 | --- | --- | --- |
