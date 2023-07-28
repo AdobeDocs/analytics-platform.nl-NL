@@ -2,9 +2,9 @@
 title: Industriële gebruiksgevallen
 description: Industriële gebruiksgevallen voor geleide analyse
 feature: Guided Analysis
-source-git-commit: 99cd8847ec7e35e71e17ae9f69605bfcb00f2882
+source-git-commit: 81ac3476be983ac5d2c7b19abeb618266f3148da
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 | Hoofdletters gebruiken | Voorbeeld | Gevolgen | Analyse |
 | --- | --- | --- | --- |
-| **Mobiele winkeltoepassing optimaliseren** | Veel klanten hebben onze mobiele app gedownload, maar zijn nooit teruggekomen. We ontdekten dat ze het alleen gebruikten voor het eerste aanbod en die slapende klanten opnieuw betrekken. | **LTV van mobiele gebruikers vergroten.** Meet en vergroot het gebruik van apps om een &#39;gelukkigere weg&#39;-gebruikerservaring te ontwikkelen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Netto-groeiweergave](types/net-growth.md) |
+| **Mobiele winkeltoepassing optimaliseren** | Veel klanten hebben onze mobiele app gedownload, maar zijn nooit teruggekomen. We ontdekten dat ze het alleen voor het eerste aanbod gebruikten en die slapende klanten opnieuw betrekken. | **LTV van mobiele gebruikers vergroten.** Meet en vergroot het gebruik van apps om een &#39;gelukkigere weg&#39;-gebruikerservaring te ontwikkelen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Netto-groeiweergave](types/net-growth.md) |
 | **Het effect van nieuwe afrekenfuncties kwantificeren** | Als supermarkt die onze weg naar online winkelen test, kunnen we snel de impact meten van nieuwe uitcheckfuncties zoals &quot;Hebt u boter vergeten?&quot; productaanbevelingen of nieuwe methoden voor afhandeling, zoals Curbside Pickup. | **Verhoog de conversiesnelheden.** Meet de invloed van uw bedrijf in plaats van alleen het gebruik van functies. | [Weergave-effect](types/release.md) <p/><p/> [Weergave voor eerste gebruik](types/first-use.md) |
 | **Minder kans op lidmaatschap** | We hebben in de klantentransacties frictiepunten ontdekt die ervoor zorgen dat klanten naar huis trekken. Dit bood ons de gelegenheid om lidmaatschapsprogramma&#39;s te herzien en gedragingen en signalen van risicomedewerkers te analyseren. | **Verminder de kurn.** Identificeer manieren om cliëntverhoudingen te bevorderen en te bevorderen om attributie te verhinderen en kurn te verminderen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Wrijvingsweergave](types/friction.md) |
-| **Onefficiënte verkoopreizen zoeken** | We ontdekten inefficiënties in de reis van onze &#39;in-store&#39;-verkoopmedewerkers, waar ze van klanten werden weggehaald. We hebben hun proces aangepast, waardoor klanten een prettigere ervaring hebben met winkelen in de winkel. | **Verbeter verkoopreactie.** Verbeter interne reizen om inefficiënte processen te verminderen, wat resulteert in positieve ervaringen van klanten. | [Wrijvingsweergave](types/friction.md) |
+| **Onefficiënte verkoopreizen zoeken** | We ontdekten inefficiënties in de reis van onze &#39;in-store&#39;-verkoopmedewerkers, waar ze van klanten werden weggehaald. We hebben hun proces aangepast, waardoor klanten een prettigere ervaring kregen bij het winkelen in de winkel. | **Verbeter verkoopreactie.** Verbeter interne reizen om inefficiënte processen te verminderen, wat resulteert in positieve ervaringen van klanten. | [Wrijvingsweergave](types/friction.md) |
 
 {style="table-layout:auto"}
 
@@ -72,9 +72,10 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 | Hoofdletters gebruiken | Voorbeeld | Gevolgen | Analyse |
 | --- | --- | --- | --- |
+| **Het effect van nieuwe shows of reeksen kwantificeren** | We kunnen het effect op het publiek analyseren nadat gebruikers een nieuwe show of serie hebben bekeken en beter begrijpen welke inhoud er reanimeert. | **Het viewerschap verhogen.** Zoek naar inhoud die de grootste invloed heeft op het viewerschap. | [Weergave voor eerste gebruik](types/first-use.md) |
 | **Omgevingsrisico identificeren** | We zagen een hoge omzet van klanten die zich voor ons platform hadden aangemeld om een seizoensgebeurtenis te bekijken en die vervolgens werden geannuleerd zodra het evenement voorbij was. Als u deze gebruikers snel identificeert, laten we aanbevelingen zien die ze het recht geven betrokken te blijven bij het platform. | **Houd gelukkige abonnees.** Inhoud zoeken die een groeisegment activeert om met aanbevelingen in te grijpen. | [Groeiweergave van actieve gebruikers](types/active.md) <p/><p/> [Netto-groeiweergave](types/net-growth.md) |
 | **Mogelijkheden voor upsell zoeken** | Jacht aan onze inkomstengroei is in staat om te begrijpen wat in-app aanbiedingen het meest verleidelijk zijn voor onze fans terwijl ze zich in het stadion bevinden. | **Aanvullende inkomsten verhogen.** Begrijp de invloed van aanbiedingen in de app op het aansturen van aankoopgedrag. | [Weergave voor eerste gebruik](types/first-use.md) <p/><p/> [Wrijvingsweergave](types/friction.md) |
-| **Ervaring tussen apparaten optimaliseren** | Ik wil kunnen analyseren hoe mijn abonnees met veelvoudige apparaten/apps interactie hebben zodat kan ik de patronen van de inhoudsconsumptie begrijpen en bepalen waar het best aan hen zou zijn opnieuw te richten. | **Pas de ervaring aan.** Begrijp welke inhoud het beste met abonnees op elk apparaat resoneert. | [Weergave trends gebruiken](types/usage.md) |
+| **Apparaatervaring optimaliseren** | Ik wil kunnen analyseren hoe mijn abonnees met veelvoudige apparaten/apps interactie hebben zodat kan ik de patronen van de inhoudsconsumptie begrijpen en bepalen waar het best aan hen zou zijn opnieuw te richten. | **Pas de ervaring aan.** Begrijp welke inhoud het beste met abonnees op elk apparaat resoneert. | [Weergave trends gebruiken](types/usage.md) |
 | **De vraag van het vraagcentrum richten** | Ik kon een probleem identificeren met onze automatische incasso die niet werkte, wat frustrerende klanten ertoe bracht om ons supportcentrum te bellen om hun plan te annuleren. | **Verminder steunvraag.** Creëer een betere klantenervaring en verminder vraag aan de klantendienst. | [Wrijvingsweergave](types/friction.md) <p/><p/> [Conversietrends, weergave](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
@@ -91,7 +92,7 @@ Het gebruik van de gevallen voor een geleide analyse verschilt per bedrijfstak. 
 
 | Hoofdletters gebruiken | Voorbeeld | Gevolgen | Analyse |
 | --- | --- | --- | --- |
-| **De gezondheidsresultaten van patiënten verbeteren** | Ik had geen duidelijk inzicht in hoeveel leden van het wellntieplan per week gewoon stopten met het gebruik ervan. We hebben nu gegevens om onze inspanningen op groei te richten. | **Verminder uw bezoek aan de arts.** Snel gesignaleerde slapende gebruikers voor een nieuwe betrokkenheid. | [Weergaven voor actieve gebruikersgroei](types/active.md) |
+| **De gezondheidsresultaten van de patiënt verbeteren** | Ik had geen duidelijk inzicht in hoeveel leden van het wellntieplan per week gewoon stopten met het gebruik ervan. We hebben nu gegevens om onze inspanningen op groei te richten. | **Verminder uw bezoek aan de arts.** Snel gesignaleerde slapende gebruikers voor een nieuwe betrokkenheid. | [Weergaven voor actieve gebruikersgroei](types/active.md) |
 | **Ervaar de patiënt beter** | Door rechtstreeks inzicht te krijgen in het aantal patiënten dat onze callcenters voor eenvoudige wachtwoorden riepen, heb ik mijn passie vernieuwd om lasergericht te zijn op het verlagen van de totale kosten van ons bedrijf om onze patiëntenervaring te dienen en te versterken. | **Verminder de totale kosten om te dienen.** Maak een betere patiëntenervaring en verlaag de vraag naar patiëntenservices. | [Weergave trends gebruiken](types/usage.md) <p/><p/> [Wrijvingsweergave](types/friction.md) |
 | **Herhaal kanaaloverschrijdende acties per segment** | Ik moet begrijpen hoe actieve in aanmerking komende leden van Medicare met hun plangebruik zijn om specifieke overseinen aan hen in onze digitale producten te verstrekken. De signalen van het product helpen onze marketing effectiever maken. | **De inschrijvingsopties voor geneesmiddelen aanpassen.** Vergelijk gemeenschappelijke opeenvolgende acties door mijn actiefste planleden. | [Wrijvingsweergave](types/friction.md) <p/><p/> [Groeiweergave van actieve gebruikers](types/active.md) |
 | **De beste experts in de branche behouden** | Onze analytische bronnen zijn zo ingewikkeld voor de tijd. Ik moet snel de gegevens van het productgebruik krijgen ik voor mijn leiderschapsupdate vraag nodig heb. | **De werklast van de analist verminderen.** Krijg sneller antwoorden. Aanvaardbare rapportering voor wanneer ik het het meest nodig heb. | [Analyse met instructies](overview.md) |
