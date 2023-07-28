@@ -2,9 +2,9 @@
 title: Conversietrends, weergave
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+source-git-commit: 9c46c945bf98cff807773e1f1f795e30a28f203b
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ De **Conversietrends** de mening verstrekt een trended visualisatie rond omzetti
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **Optimalisatie-inspanningen bijhouden**: Na het identificeren van belangrijke knelpunten die u wilt verbeteren het gebruiken [Wrijving](friction.md)kunt u deze weergave gebruiken om te volgen hoe deze optimalisaties de conversiesnelheid in de loop der tijd beïnvloeden.
-* **A/B-testevaluatie**: Evalueren van de doeltreffendheid van A/B-tests of -experimenten in de context van een trechter. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
+* **Optimalisatie-inspanningen bijhouden**: Na het identificeren van de belangrijkste knelpunten die u wilt verbeteren gebruiken [Wrijving](friction.md)kunt u deze weergave gebruiken om te volgen hoe deze optimalisaties de conversiesnelheid in de loop der tijd beïnvloeden.
+* **A/B-testevaluatie**: De doeltreffendheid van A/B-tests of -experimenten die in de context van een trechter worden uitgevoerd, evalueren. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
 * **Campagneevaluatie in de loop der tijd**: De doeltreffendheid van marketingcampagnes in de loop der tijd meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
 
 ## Query-rail
@@ -36,7 +36,11 @@ De weergave Conversietrends biedt de volgende diagraminstellingen, die kunnen wo
 
 * **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. U kunt onder andere sessies en gebruikers kiezen.
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. U kunt onder andere Lijn kiezen.
-* **[!UICONTROL Conversion from]**: Hiermee bepaalt u de percentageberekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
+* **[!UICONTROL Conversion from]**: Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
+
+>[!NOTE]
+>
+>De **Gemiddeld** de kolom in de de meningslijst van de tendensen van de Omzetting verschilt van **Totaal** in de [Wrijvingsweergave](friction.md) tabel. De eerste is een gemiddelde van de intervalkolommen (bv. het gemiddelde van de dagelijkse omrekeningskoersen), terwijl de tweede een geaggregeerde berekening is over het volledige datumbereik.
 
 ## Tijdvergelijking toepassen
 
