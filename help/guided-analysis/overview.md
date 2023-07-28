@@ -3,7 +3,7 @@ title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams snel inzichten van hoge kwaliteit laat krijgen. Wordt ook wel Product Analytics genoemd.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
+source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -27,7 +27,7 @@ De geleide analyse categoriseert meningstypes in **Analysetypen**. De volgende a
 | [!UICONTROL Funnel] | [Wrijving](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
 | [!UICONTROL Funnel] | [Conversietrends](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
 | [!UICONTROL User growth] | [Actief](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
-| [!UICONTROL Net growth] | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
+| [!UICONTROL User growth] | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
 | [!UICONTROL Trends] | [Gebruik](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
 
 {style="table-layout:auto"}
