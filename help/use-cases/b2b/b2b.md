@@ -4,9 +4,9 @@ description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdata
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de li
 
 ## 2. Opzoekgegevensset maken (Experience Platform)
 
-Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in Experience Platform tot stand brengen. Deze raadplegingsdataset bevat account-vlakke marketing informatie, zoals: de naam van het bedrijf, het totale aantal werknemers, de domeinnaam, de industrie waartoe zij behoren, de jaarlijkse opbrengst, of zij huidige klanten van de Experience Platform zijn of niet, welke verkoopfase zij binnen zijn, welk team binnen de rekening Customer Journey Analytics gebruikt, enz.
+Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in Experience Platform tot stand brengen. Deze raadplegingsdataset bevat account-vlakke marketing informatie, zoals: bedrijfsnaam, totaal aantal werknemers, domeinnaam, welke industrie zij tot behoren, jaarlijkse opbrengst, of zij huidige klanten van de Experience Platform zijn of niet, welke verkoopstadium zij binnen zijn, welk team binnen de rekening Customer Journey Analytics gebruikt, enz.
 
 1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Management > Datasets]**.
 1. Klik op **[!UICONTROL + Create dataset]**.
@@ -55,26 +55,26 @@ Instructies over hoe [Een CSV-bestand toewijzen aan een XDM-schema](https://expe
 
 Het aan boord nemen van de gegevens en het bepalen van de raadpleging duurt ongeveer 2 tot 4 uur, afhankelijk van de grootte van de raadplegingstabel.
 
-## 4. Gegevenssets combineren in een verbinding (Customer Journey Analytics)
+## 4. Gegevensreeksen combineren in een verbinding (Customer Journey Analytics)
 
 Voor dit voorbeeld, combineren wij 3 datasets in één verbinding van Customer Journey Analytics:
 
 | Naam gegevensset | Beschrijving | Adobe Experience Platform Schema, klasse | Gegevens over gegevensset |
 | --- | --- | --- | --- |
 | B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | De `emailID` wordt gebruikt als primaire identiteit en toegewezen aan `Customer ID` naamruimte. Als gevolg hiervan wordt deze standaard weergegeven **[!UICONTROL Person ID]** in Customer Journey Analytics. ![Impressies](../assets/impressions-mixins.png) |
-| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun profiel van LinkedIn, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | U hoeft niet te selecteren `emailID` als primaire id in dit schema. Zorg ervoor dat u **[!UICONTROL Profile]**; als u dat niet doet, kan Customer Journey Analytics geen verbinding maken met de `emailID` in B2B-profiel met de `emailID` in B2B-indrukgegevens. ![Profiel](../assets/profile-mixins.png) |
+| B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun profiel van LinkedIn, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | Selecteren `emailID` als primaire id in dit schema. |
 | B2B-info | Zie &quot;Opzoekgegevensset maken&quot; hierboven. | B2BAccount (aangepaste opzoekschema-klasse) | De relatie tussen `accountID` en de B2B dataset van de Indrukking is automatisch gecreeerd door de B2B dataset van Info met de B2B dataset van de Indrukking in Customer Journey Analytics te verbinden, zoals die in de hieronder stappen wordt beschreven. ![Opzoeken](../assets/lookup-mixins.png) |
 
 Hier is hoe u de datasets combineert:
 
-1. Selecteer in Customer Journey Analytics de **[!UICONTROL Connections]** tab.
+1. Selecteer in Customer Journey Analytics de optie **[!UICONTROL Connections]** tab.
 1. Selecteer de datasets (in ons voorbeeld, de drie hierboven) u wilt combineren.
-1. Voor de B2B gegevensreeks van Info selecteert `accountID` die in uw raadplegingslijst zal worden gebruikt. Selecteer vervolgens de overeenkomende sleutel (corresponderende dimensie), ook `accountID` in uw gebeurtenisdataset.
+1. Selecteer voor de B2B-gegevensset Info de `accountID` die in uw raadplegingslijst zal worden gebruikt. Selecteer vervolgens de overeenkomende sleutel (corresponderende dimensie), ook `accountID` in uw gebeurtenisdataset.
 1. Klik op **[!UICONTROL Next]**.
 1. Naam en beschrijf de verbinding en vorm het volgens [deze instructies](/help/connections/create-connection.md).
 1. Klik op **[!UICONTROL Save]**.
 
-## 5. Een gegevensweergave maken van deze verbinding
+## 5. Een gegevensweergave maken vanuit deze verbinding
 
 Volg de instructies op [gegevensweergaven maken](/help/data-views/create-dataview.md).
 
