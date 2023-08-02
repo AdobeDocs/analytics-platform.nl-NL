@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5e4bf2985a0ec75cc0120e2a9549d720077cd5cc
+source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2410'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,9 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 
 | Functie | Beschrijving |
 | --- | --- |
-| **juli 2023** |
+| **augustus 2023** | |
+| Snelle handleidingen voor het invoeren van gegevens voor mobiele toepassingen en andere platforms | Extra snelstarthulplijnen voor gegevensinvoer waarin wordt uitgelegd hoe u gegevens van mobiele toepassingen of andere platforms (zoals bureaubladtoepassingen, games op consoles, toepassingen op set-top boxes en IoT-apparaten) in Customer Journey Analytics kunt opnemen en gebruiken. [Meer informatie](../data-ingestion/data-ingestion.md) |
+| **juli 2023** | |
 | Contextbewuste sessies | Een onderwerp toegevoegd voor deze gegevensweergave-instelling. [Meer informatie](/help/data-views/context-aware-sessions.md) |
 | Adobe Product Analytics | Adobe Product Analytics is een nieuwe manier om te communiceren met kanaalgegevens en inzichten in Customer Journey Analytics. Dankzij deze nieuwe mogelijkheden kunnen productteams gegevens en inzichten over hun productervaring zelf bedienen via [geleide analyse](/help/guided-analysis/overview.md) werkstromen &#x200B;. |
 | Afgeleide velden | A [afgeleid veld](/help/data-views/derived-fields/derived-fields.md) staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. |

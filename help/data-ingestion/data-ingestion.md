@@ -4,9 +4,9 @@ description: Begrijp de verschillende manieren dat u gegevens in Customer Journe
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ De dataset in de architectuur hierboven kan uit diverse bronnen voortkomen:
 
 - gegevens van een huidige Adobe Analytics-implementatie;
 
-- gegevens van het bijhouden van uw website/mobiele toepassing met de SDK van Adobe Experience Platform Web/Mobile, of
+- gegevens van het bijhouden van uw website/mobiele toepassing met de Adobe Experience Platform Web/Mobile SDK;
+
+- gegevens van het bijhouden van een bureaubladtoepassing, consolespel, set-top box of IoT-apparaat met de Adobe Experience Platform Edge Network Server-API, of
 
 - gegevens die afkomstig zijn van een externe gegevensaanbieder waarvoor Adobe een bronaansluiting biedt.
 
@@ -46,11 +48,26 @@ Adobe Analytics is al geïmplementeerd en u wilt deze gegevens in Adobe Experien
 
 Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analytics.md) voor meer informatie .
 
-## Gegevens verzamelen en gebruiken via de Adobe Experience Platform Web SDK
+
+## Gegevens verzamelen en gebruiken via Edge Network
+
+### De SDK van Adobe Experience Platform Web gebruiken
 
 U wilt uw website analyseren met Adobe-technologie, mogelijk migreren van een andere oplossing of het gedrag van uw persoon volgen. U wilt de beste praktijken van Adobe voor implementatie volgen, die Adobe Experience Platform SDKs en het Netwerk van de Rand gebruikt, om de gegevens op te nemen. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Web SDK](./aepwebsdk.md) voor meer informatie .
+
+### De Adobe Experience Platform Mobile SDK gebruiken
+
+U wilt uw mobiele app analyseren met Adobe-technologie, waarbij u mogelijk van een andere oplossing migreert of het gedrag van een persoon in de app vanaf het begin kunt volgen. U wilt de beste praktijken van Adobe voor implementatie volgen, die Adobe Experience Platform SDKs en het Netwerk van de Rand gebruikt, om de gegevens op te nemen. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in Customer Journey Analytics.
+
+Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Mobile SDK](./aepmobilesdk.md) voor meer informatie .
+
+### De Adobe Experience Platform Edge Network Server-API gebruiken
+
+U wilt uw desktoptoepassing analyseren, zoals deze wordt afgespeeld op een spelconsole, het gebruik van een videostreaming toepassing op een set-top box of uw IoT-apparaat met Adobe-technologie. Mogelijk migreert u van een andere oplossing of volgt u het gedrag van een persoon op deze apparaten vanaf het begin. U wilt de best practices van de API voor Adobe voor de implementatie volgen, die de Adobe Experience Platform Edge Network Server en Edge Network gebruikt om gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in Customer Journey Analytics.
+
+Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Edge Network Server-API](./serverapi.md) voor meer informatie .
 
 ## Batchgegevens invoegen en gebruiken
 
