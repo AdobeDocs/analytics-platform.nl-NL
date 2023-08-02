@@ -1,19 +1,19 @@
 ---
-title: Overzicht van gegevensinname
+title: Overzicht van gegevensinscriptie
 description: Begrijp de verschillende manieren dat u gegevens in Customer Journey Analytics kunt opnemen
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
-# Overzicht van gegevensinname
+# Overzicht van gegevensinscriptie
 
-U hebt een aantal opties wanneer u gegevens in Customer Journey Analytics opgeeft. Sommigen gaan ervan uit dat je de traditionele Adobe Analytics-gegevens wilt verplaatsen. Sommigen gaan ervan uit dat je gegevens gebruikt die je in Adobe Experience Platform hebt ingevoerd.
+Er zijn verschillende opties voor het opnemen van gegevens in Customer Journey Analytics. Sommigen gaan ervan uit dat u de traditionele Adobe Analytics-gegevens wilt verplaatsen. Sommigen gaan ervan uit dat u gegevens gebruikt die u in Adobe Experience Platform hebt ingevoerd.
 
 >[!IMPORTANT]
 >

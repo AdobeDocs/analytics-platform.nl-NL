@@ -4,9 +4,9 @@ description: Uitleggen hoe gegevens uit traditionele Adobe Analytics kunnen word
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ In deze handleiding voor snel starten wordt uitgelegd hoe u de gegevens die door
 
 Hiervoor moet u:
 
-- **Een Adobe Analytics-bronaansluiting instellen** in Adobe Experience Platform. Hierdoor worden uw huidige Adobe Analytics-gegevens opgenomen in een gegevensset in Adobe Experience Platform.
+- **Een Adobe Analytics-bronaansluiting instellen** in Adobe Experience Platform. De bronschakelaar zorgt ervoor dat uw huidige gegevens van Adobe Analytics in een dataset in Adobe Experience Platform worden opgenomen.
 
-- **Een verbinding instellen** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
+- **Een verbinding instellen** in Customer Journey Analytics. De verbinding moet (ten minste) uw Adobe Experience Platform-gegevensset bevatten.
 
 - **Een gegevensweergave instellen** in Customer Journey Analytics om de metriek en de afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
 
@@ -38,7 +38,7 @@ Hiervoor moet u:
 
 >[!NOTE]
 >
->Dit is een vereenvoudigde gids over hoe te om gegevens in te voeren, gebruikend de bron van Adobe Analytics schakelaar, en gebruik die gegevens in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Deze snelle startgids is een vereenvoudigde gids over hoe te om gegevens in te voeren, gebruikend de bron van Adobe Analytics schakelaar, en gebruik die gegevens in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 
 ## Een Adobe Analytics-bronaansluiting instellen
@@ -78,7 +78,7 @@ Een Adobe Analytics-bronaansluiting maken:
    ![Controleren](./assets/review.png)
 
 
-Zodra de verbinding wordt gecreeerd, wordt dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken, met inbegrip van het opnemen van tot 13 maanden historische gegevens voor productiestanddozen. (Met ingang van 26 april 2023 is de achtergrondvulling in niet-productiesandboxen beperkt tot 3 maanden.)
+Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 
 Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door Customer Journey Analytics te worden gebruikt.
 
@@ -93,7 +93,7 @@ Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren 
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new connection]**.
 
@@ -101,7 +101,7 @@ Om uw verbinding tot stand te brengen:
 
    Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings].
 
-   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het [!UICONTROL Average number of daily events] lijst.
+   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het menu [!UICONTROL Average number of daily events] lijst.
 
    ![Verbindingsinstellingen](./assets/cja-connections-1.png)
 
@@ -123,7 +123,7 @@ Om uw verbinding tot stand te brengen:
 
       - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
 
-      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
+      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
 
      ![Gegevenssets configureren](./assets/cja-connections-3a.png)
 
@@ -139,13 +139,13 @@ Een gegevensweergave is een container specifiek voor Customer Journey Analytics 
 
 Uw gegevensweergave maken:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new data view]**.
 
 3. In de [!UICONTROL Configure] stap:
 
-   Selecteer uw verbinding in het menu [!UICONTROL Connection] lijst.
+   Selecteer uw verbinding van [!UICONTROL Connection] lijst.
 
    Naam en (optioneel) beschrijf uw verbinding.
 
@@ -176,7 +176,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Projects]** in de linkernavigatie.
 
@@ -192,7 +192,7 @@ Uw project maken:
 
    ![Werkruimte selecteren, gegevensweergave](./assets/cja-projects-3.png).
 
-5. Begin met slepen en zet afmetingen en metriek neer op het [!UICONTROL Freeform table] in de [!UICONTROL Panel] om uw eerste rapport te maken. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
+5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek naar het [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
    ![Werkruimte - Eerste rapport](./assets/cja-projects-5.png)
 

@@ -1,19 +1,18 @@
 ---
-title: Gegevens invoeren via de Adobe Experience Platform Web SDK
-description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en het Netwerk van de Rand in te voeren
+title: Gegevens verzamelen via de Adobe Experience Platform Mobile SDK
+description: Uitleggen hoe u gegevens in Customer Journey Analytics kunt opnemen via de Adobe Experience Platform Mobile SDK en het Edge Network
 solution: Customer Journey Analytics
 feature: Basics
-exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 source-git-commit: 662e9645cdb4b67f364525167e5191a52c474864
 workflow-type: tm+mt
-source-wordcount: '3266'
+source-wordcount: '3124'
 ht-degree: 0%
 
 ---
 
-# Gegevens invoeren via de Adobe Experience Platform Web SDK
+# Gegevens verzamelen via de Adobe Experience Platform Mobile SDK
 
-In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van websites rechtstreeks in Adobe Experience Platform kunt invoeren met de Adobe Experience Platform Web SDK en Edge Network en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
+In deze snelstartgids wordt uitgelegd hoe u gegevens voor het bijhouden van mobiele apps rechtstreeks in Adobe Experience Platform kunt opnemen met de Adobe Experience Platform Mobile SDK en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
 
 Hiervoor moet u:
 
@@ -21,7 +20,7 @@ Hiervoor moet u:
 
 - **Een gegevensstroom instellen** om het Adobe Experience Platform Edge Network te configureren om de verzamelde gegevens te routeren naar de gegevensset die u in Adobe Experience Platform hebt geconfigureerd.
 
-- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw gegevenslaag op uw website. Vervolgens zorgt u ervoor dat de gegevens worden verzonden naar de gegevensstroom die op het Adobe Experience Platform Edge-netwerk is geconfigureerd.
+- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw mobiele toepassing. Vervolgens zorgt u ervoor dat de gegevens worden verzonden naar de gegevensstroom die op het Adobe Experience Platform Edge-netwerk is geconfigureerd.
 
 - **Implementeren en valideren**. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen en publiceer deze live in uw productieomgeving als alles is gevalideerd.
 
@@ -33,12 +32,12 @@ Hiervoor moet u:
 
 >[!NOTE]
 >
-> Deze handleiding voor snel starten is een vereenvoudigde gids voor het invoeren van gegevens die van uw site zijn verzameld in Adobe Experience Platform en voor gebruik in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Deze handleiding voor snel starten is een vereenvoudigde gids voor het invoeren van gegevens die zijn verzameld van uw toepassing in Adobe Experience Platform en voor gebruik in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 
 ## Een schema en gegevensset instellen
 
-Als u gegevens in Adobe Experience Platform wilt invoeren, moet u eerst definiëren welke gegevens u wilt verzamelen. Alle gegevens die in Adobe Experience Platform worden ingevoerd, moeten voldoen aan een standaard, gedenormaliseerde structuur, zodat deze kan worden herkend en kan worden toegepast door de mogelijkheden en functies op de downstreammarkt. Het Model van Gegevens van de ervaring (XDM) is het standaardkader dat deze structuur in de vorm van schema&#39;s verstrekt.
+Als u gegevens in Adobe Experience Platform wilt invoeren, moet u eerst definiëren welke gegevens u wilt verzamelen. Alle gegevens die in Adobe Experience Platform worden ingevoerd, moeten voldoen aan een standaard, gedenormaliseerde structuur, zodat deze kan worden herkend en kan worden toegepast door de mogelijkheden en functies op de downstreammarkt. Het Model van Gegevens van de ervaring (XDM) is het standaardkader dat een structuur in de vorm van schema&#39;s verstrekt.
 
 Zodra u een schema hebt bepaald, gebruikt u één of meerdere datasets om de inzameling van gegevens op te slaan en te beheren. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens (typisch een lijst) die een schema (kolommen) en gebieden (rijen) bevat.
 
@@ -46,8 +45,8 @@ Alle gegevens die in Adobe Experience Platform worden opgenomen moeten met een v
 
 ### Een schema instellen
 
-U wilt enkele minimale gegevens bijhouden van profielen die uw website bezoeken, zoals paginanaam, identificatie.
-U moet eerst een schema definiëren dat deze gegevens modelleert.
+U wilt enkele minimale gegevens van profielen bijhouden met uw mobiele app, bijvoorbeeld scènenaam en -identificatie.
+U moet eerst een schema bepalen dat deze gegevens modelleert.
 
 Uw schema instellen:
 
@@ -59,7 +58,7 @@ Uw schema instellen:
 
    >[!INFO]
    >
-   >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals paginaweergave, toevoegen aan winkelwagentje). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
+   >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
 
 
 3. In de [!UICONTROL Untitled schema] scherm:
@@ -74,13 +73,13 @@ Uw schema instellen:
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
-   3. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL AEP Web SDK ExperienceEvent]** veldgroep in de lijst.
+   3. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL AEP Mobile SDK ExperienceEvent]** veldgroep in de lijst.
 
-      ![AEP Web SDK ExperienceEvent-veldgroep](./assets/select-aepwebsdk-experienceevent.png)
+      ![AEP Mobile Lifecycle Details fieldgroep](./assets/select-aepmobilesdk-experienceevent.png)
 
-      U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, zoals `web > webPageDetails > name`.
+      U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, zoals `application > name`.
 
-      ![AEP Web SDK ExperienceEvent-veldgroepvoorbeeld](./assets/aepwebsdk-experiencevent-preview.png)
+      ![AEP Mobile Lifecycle Details fieldgroep voorvertoning](./assets/aepmobilesdk-experienceevent-preview.png)
 
       Selecteren **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -88,19 +87,19 @@ Uw schema instellen:
 
 4. Selecteren **[!UICONTROL +]** naast de naam van het schema in het dialoogvenster [!UICONTROL Structure] deelvenster.
 
-   ![Voorbeeld: Veld toevoegen, knop](./assets/example-schema-plus.png)
+   ![Voorbeeld: Veld toevoegen, knop](./assets/example-mobileschema-plus.png)
 
-5. In de [!UICONTROL Field Properties] paneel, enter `Identification` als naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group].
+5. In de [!UICONTROL Field Properties] paneel, enter `identification` als de [!UICONTROL Field name], **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group].
 
-   ![Identificatieobject](./assets/identification-field.png)
+   ![Identificatieobject](./assets/identification-field-mobile.png)
 
-   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
+   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren met uw mobiele app aan de hand van de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
 6. Selecteer de **[!UICONTROL ecid]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** van de [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![ECID opgeven als identiteit](./assets/specify-identity.png)
+   ![ECID opgeven als identiteit](./assets/specify-identity-mobile.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aan elkaar koppelen).
 
@@ -108,7 +107,7 @@ Uw schema instellen:
 
 7. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de lijst [!UICONTROL Field Properties] deelvenster.
 
-   ![E-mail opgeven als identiteit](./assets/specify-email-identity.png)
+   ![E-mail opgeven als identiteit](./assets/specify-email-identity-mobile.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
@@ -130,11 +129,11 @@ Uw schema instellen:
 
 9. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
 
-U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw website kunt vastleggen. In het schema kunnen profielen worden geïdentificeerd met de Experience Cloud-identiteit en het e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die vanaf uw website zijn vastgelegd, worden toegevoegd aan het realtime-klantprofiel.
+U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw mobiele toepassing kunt vangen. In het schema kunnen profielen worden geïdentificeerd met de Experience Cloud-identiteit en het e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die zijn vastgelegd vanuit uw mobiele toepassing, worden toegevoegd aan het realtime-klantprofiel.
 
-Naast gedragsgegevens kunt u ook profielkenmerkgegevens van uw site vastleggen (bijvoorbeeld gegevens over profielen die zijn geabonneerd op een nieuwsbrief).
+Naast gedragsgegevens kunt u ook profielkenmerkgegevens vastleggen vanuit uw mobiele toepassing (bijvoorbeeld gegevens over profielen die zijn geabonneerd op een nieuwsbrief).
 
-Als u deze profielgegevens wilt vastleggen, doet u het volgende:
+Als u profielgegevens wilt vastleggen, doet u het volgende:
 
 - Maak een schema op basis van de klasse Individueel profiel XDM.
 
@@ -150,7 +149,7 @@ Zie [Schema&#39;s maken en bewerken in de gebruikersinterface](https://experienc
 
 ### Een gegevensset instellen
 
-Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie bepalen om die gegevens op te slaan en te beheren, die door datasets wordt gedaan.
+Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie bepalen om die gegevens op te slaan en te beheren door datasets te gebruiken.
 
 Uw gegevensset instellen:
 
@@ -188,7 +187,7 @@ Zie [UI-gids voor gegevensbestanden](https://experienceleague.adobe.com/docs/exp
 
 Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens verzonden naar het Adobe Experience Platform Edge Network. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
 
-In uw opstelling, wilt u de gegevens die u van de website verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
+In uw opstelling, wilt u de gegevens die u van mobiele app verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
 
 Uw gegevensstroom instellen:
 
@@ -216,15 +215,15 @@ Uw gegevensstroom instellen:
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
-Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw website zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
+Uw gegevensstroom is nu geconfigureerd om de gegevens die zijn verzameld in uw mobiele app door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 
 
 ## Tags gebruiken
 
-Als u code op uw site wilt implementeren om gegevens daadwerkelijk te verzamelen, gebruikt u de functie Codes in Adobe Experience Platform. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform via de Adobe Experience Platform Web SDK-extensie.
+Als u code op uw site wilt implementeren om gegevens te verzamelen, gebruikt u de functie Codes in Adobe Experience Platform. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform met de Adobe Experience Platform Mobile SDK-extensie.
 
 ### Uw tag maken
 
@@ -232,88 +231,54 @@ Als u code op uw site wilt implementeren om gegevens daadwerkelijk te verzamelen
 
 2. Selecteren **[!UICONTROL New Property]**.
 
-   Geef de tag een naam, selecteer **[!UICONTROL Web]** en voert u een domeinnaam in. Selecteren **[!UICONTROL Save]** om door te gaan.
+   Geef de tag een naam, selecteer **[!UICONTROL Mobile]**. Selecteren **[!UICONTROL Save]** om door te gaan.
 
-   ![Een eigenschap maken](./assets/create-property.png)
+   ![Een eigenschap maken](./assets/create-mobile-property.png)
 
 ### Uw tag configureren
 
 Nadat u de tag hebt gemaakt, moet u deze configureren met de juiste extensies en gegevenselementen en -regels configureren op basis van de manier waarop u uw site wilt bijhouden en gegevens naar Adobe Experience Platform wilt verzenden.
 
-Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om het te openen.
+Als u de nieuwe tag wilt configureren, selecteert u deze in de lijst met [!UICONTROL Tag Properties].
 
 
 #### **Extensies**
 
-Om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom), voegt u de extensie SDK van het Web Adobe Platform aan uw tag toe.
+Voeg de Adobe Platform Edge Network-extensie toe aan de tag om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom).
 
-U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configureren:
+U kunt als volgt de extensie Adobe Experience Platform Mobile SDK maken en configureren:
 
-1. Selecteren **[!UICONTROL Extensions]** in het linkerspoor.
+1. Selecteren **[!UICONTROL Extensions]** in het linkerspoor. U ziet dat de extensies Mobiele kern en Profiel al beschikbaar zijn.
 
-2. Selecteren **[!UICONTROL Catalog]** in de bovenste balk.
+1. Selecteren **[!UICONTROL Catalog]** in de bovenste balk.
 
-3. Zoeken naar of schuiven naar de extensie Adobe Experience Platform Web SDK en Selecteren **[!UICONTROL Install]** om het te installeren.
+1. Zoeken naar of schuiven naar **[!UICONTROL Adobe Experience Platform Edge Network]** extensie en selecteren **[!UICONTROL Install]** in het rechterdeelvenster om het te installeren.
 
-   <img src="./assets/aepwebsdk-extension.png" width="35%"/>
+1. Selecteer uw sandbox en uw eerder gemaakte datastream voor uw [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment].
 
-4. Selecteer uw sandbox en uw eerder gemaakte datastream voor uw [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment].
+   ![AEP Mobile SDK-extensieconfiguratie](./assets/aepmobilesdk-extension-datastream.png)
 
-   ![AEP Web SDK-extensieconfiguratie](./assets/aepwebsk-extension-datastreams.png)
+1. Voer uw **[!UICONTROL Edge Network domain]** ondergronds [!UICONTROL Domain configuration]. Doorgaans gebruiken `<organizationName>.data.adobedc.net`.
 
-   Selecteren **[!UICONTROL Save]**.
+1. Selecteren **[!UICONTROL Save]**.
 
-Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) voor meer informatie .
+Zie [De extensie Adobe Experience Platform Edge Network configureren](https://developer.adobe.com/client-sdks/documentation/edge-network) voor meer informatie .
 
-U wilt ook opstelling de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud zodat kunt u van Experience Cloud identiteitskaart gemakkelijk gebruiken. De Experience Cloud ID Service identificeert personen in alle Adobe Experience Cloud-oplossingen.
+U wilt ook de volgende extra extensies instellen vanuit de catalogus:
 
-Om de uitbreiding van de Dienst van identiteitskaart van Experience Cloud tot stand te brengen en te vormen:
+- Identiteit.
+- AEP-betrouwbaarheid.
+- Toestemming.
 
-1. Selecteren **[!UICONTROL Extensions]** in het linkerspoor.
-
-2. Selecteren **[!UICONTROL Catalog]** in de bovenste balk.
-
-3. Zoek naar of rol aan de uitbreiding van de Dienst van identiteitskaart van de Experience Cloud en selecteer **[!UICONTROL Install]** om het te installeren.
-
-   <img src="./assets/ecid-extension.png" width="35%"/>
-
-4. Laat alle configuraties standaard staan.
-
-5. Selecteren **[!UICONTROL Save]**.
+Zie [Een eigenschap voor een tag configureren](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=en) in de Mobile App Tutorial for Experience-platform voor veel meer informatie over extensies en hun configuratie.
 
 #### **Gegevenselementen**
 
-Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden.
+Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die gegevens of gebeurtenissen van mobiele apps lezen en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden.
 
-Er zijn verschillende typen gegevenselementen. U stelt eerst een gegevenselement in om de paginanaam vast te leggen die personen op uw site bekijken.
+U wilt bijvoorbeeld de naam van de provider verzamelen van de mobiele app.
 
-Een gegevenselement voor de paginanaam definiëren:
-
-1. Selecteren **[!UICONTROL Data Elements]** in het linkerspoor.
-
-2. Selecteren **[!UICONTROL Add Data Element]**.
-
-3. In de [!UICONTROL Create Data Element] dialoogvenster:
-
-   - Geef uw gegevenselement bijvoorbeeld een naam `Page Name`.
-
-   - Selecteren **[!UICONTROL Core]** van de [!UICONTROL Extension] lijst.
-
-   - Selecteren **[!UICONTROL Page Info]** van de [!UICONTROL Data Element Type] lijst.
-
-   - Selecteren **[!UICONTROL Title]** van de [!UICONTROL Attribute] lijst.
-
-     ![Datumelement maken met behulp van pagina-info](./assets/create-dataelement-1.png)
-
-     U had de waarde van bijvoorbeeld een variabele in uw gegevenslaag kunnen gebruiken `pageName` en de [!UICONTROL JavaScript Variable] het elementtype van gegevens om het gegevenselement te bepalen.
-
-     ![Gegevenselement maken met JavaScript-variabele](./assets/create-dataelement-2.png)
-
-   - Selecteren **[!UICONTROL Save]**.
-
-U wilt nu opstelling een gegevenselement van verwijzingen voorzien van Experience Cloud identiteitskaart die automatisch door het Web SDK van Adobe Experience Platform en beschikbaar door de uitbreiding van de Dienst van Experience Cloud ID wordt verstrekt.
-
-Een ECID-gegevenselement definiëren:
+Een gegevenselement met de naam van een drager definiëren:
 
 1. Selecteren **[!UICONTROL Data Elements]** in het linkerspoor.
 
@@ -321,53 +286,25 @@ Een ECID-gegevenselement definiëren:
 
 3. In de [!UICONTROL Create Data Element] dialoogvenster:
 
-   - Geef uw gegevenselement bijvoorbeeld een naam `ECID`.
+   - Geef uw gegevenselement bijvoorbeeld een naam `Carrier Name`.
 
-   - Selecteren **[!UICONTROL Experience Cloud ID Service]** van de [!UICONTROL Extension] lijst.
+   - Selecteren **[!UICONTROL Mobile Core]** van de [!UICONTROL Extension] lijst.
 
-   - Selecteren **[!UICONTROL ECID]** van de [!UICONTROL Data Element Type] lijst.
-
-     ![ECID-gegevenselement](./assets/ecid-dataelement.png)
-
-   - Selecteren **[!UICONTROL Save]**.
-
-Tot slot wilt u nu om het even welke specifieke gegevenselementen aan het schema in kaart brengen u vroeger bepaalde. U definieert een ander gegevenselement dat een representatie van uw XDM-schema biedt.
-
-Een XDM-objectelement definiëren:
-
-1. Selecteren **[!UICONTROL Data Elements]** in het linkerspoor.
-
-2. Selecteren **[!UICONTROL Add Data Element]**.
-
-3. In de [!UICONTROL Create Data Element] dialoogvenster:
-
-   - Geef uw gegevenselement bijvoorbeeld een naam `XDM - Page View`.
-
-   - Selecteren **[!UICONTROL Adobe Experience Platform Web SDK]** van de [!UICONTROL Extension] lijst.
-
-   - Selecteren **[!UICONTROL XDM Object]** van de [!UICONTROL Data Element Type] lijst.
-
-   - Selecteer de sandbox in het menu [!UICONTROL Sandbox] lijst.
-
-   - Selecteer uw schema in het menu [!UICONTROL Schema] lijst.
-
-   - Wijs de `identification > core > ecid` -kenmerk, gedefinieerd in uw schema, aan het ECID-gegevenselement. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen in de lijst met gegevenselementen.
-
-     ![ECID-gegevenselement kiezen](./assets/pick-ecid-dataelement.png)
-
-     ![ECID-gegevenselement toewijzen](./assets/map-ecid.png)
+   - Selecteren **[!UICONTROL Carrier Name]** van de [!UICONTROL Data Element Type] lijst.
 
 
-   - Wijs de `web > webPageDetails > name` -kenmerk, gedefinieerd in uw schema, aan het gegevenselement Paginanaam.
-
-     ![Gegevenselement paginanaam toewijzen](./assets/map-pagename.png)
+     ![Datumelement maken met behulp van pagina-info](./assets/create-dataelement-mobile.png)
 
    - Selecteren **[!UICONTROL Save]**.
+
+U kunt zoveel gegevenselementen maken als u wilt en deze gebruiken in regels.
 
 
 #### **Regels**
 
-Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een voorwerp XDM) naar Adobe Experience Platform te verzenden gebruikend de uitbreiding van SDK van het Web van Adobe Experience Platform.
+Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een XDM-object) naar Adobe Experience Platform te verzenden met de Adobe Experience Platform Edge Network-extensie.
+
+U wilt bijvoorbeeld gebeurtenisgegevens verzenden wanneer de mobiele app wordt gebruikt (op de voorgrond) en wanneer de mobiele app niet wordt gebruikt (teruggeduwd naar de achtergrond).
 
 Een regel definiëren:
 
@@ -377,49 +314,45 @@ Een regel definiëren:
 
 3. In de [!UICONTROL Create Rule] dialoogvenster:
 
-   - Geef de regel een naam, bijvoorbeeld `Page View`.
+   - Geef de regel een naam, bijvoorbeeld `Application Status`.
 
    - Selecteren **[!UICONTROL + Add]** ondergronds [!UICONTROL Events].
 
    - In de [!UICONTROL Event Configuration] dialoogvenster:
 
-      - Selecteren **[!UICONTROL Core]** van de [!UICONTROL Extension] lijst.
+      - Selecteren **[!UICONTROL Mobile Core]** van de [!UICONTROL Extension] lijst.
 
-      - Selecteren **[!UICONTROL Window Loaded]** van de [!UICONTROL Event Type] lijst.
-
-        ![Regel - Gebeurtenisconfiguratie](./assets/event-windowloaded-pageview.png)
+      - Selecteren **[!UICONTROL Foreground]** van de [!UICONTROL Event Type] lijst.
 
       - Selecteren **[!UICONTROL Keep Changes]**.
 
+   - Klikken ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) naast [!UICONTROL Mobile Core - Foreground].
 
+      - Selecteren **[!UICONTROL Mobile Core]** van de [!UICONTROL Extension] lijst.
 
-   - Selecteren **[!UICONTROL + Add]** ondergronds [!UICONTROL Actions].
+      - Selecteren **[!UICONTROL Background]** van de [!UICONTROL Event Type] lijst.
 
-   - In de [!UICONTROL Action Configuration] dialoogvenster:
+      - Selecteren **[!UICONTROL Keep Changes]**.
 
-      - Selecteren **[!UICONTROL Adobe Experience Platform Web SDK]** van de [!UICONTROL Extension] lijst.
+   - Klikken ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Onder toevoegen [!UICONTROL ACTIONS]. In de [!UICONTROL Action Configuration] dialoogvenster:
 
-      - Selecteren **[!UICONTROL Send Event]** van de [!UICONTROL Action Type] lijst.
+      - Selecteren **[!UICONTROL Adobe Experience Platform Edge Network]** van de [!UICONTROL Extension] lijst.
 
-      - Selecteren **[!UICONTROL web.webpagedetails.pageViews]** van de [!UICONTROL Type] lijst.
-
-      - Selecteer het cilinderpictogram naast  [!UICONTROL XDM data] en selecteer **[!UICONTROL XDM - Page View]** in de lijst met gegevenselementen.
-
-     ![Regel - Configuratie van handelingen](./assets/action-pageview-xdm.png)
+      - Selecteren **[!UICONTROL Forward event to Edge Network]** van de [!UICONTROL Action Type] lijst.
 
       - Selecteren **[!UICONTROL Keep Changes]**.
 
    - Uw regel moet er als volgt uitzien:
 
-     ![Regel maken](assets/rule-pageview.png)
+     ![Regel maken](assets/rule-appstatus.png)
 
    - Selecteren **[!UICONTROL Save]**.
 
-Het bovenstaande is slechts een voorbeeld van het definiëren van een regel die XDM-gegevens met waarden uit andere gegevenselementen naar Adobe Experience Platform verzendt.
+Het bovenstaande is slechts een voorbeeld van het definiëren van een regel die XDM-gegevens met toepassingsstatus naar het Adobe Edge-netwerk en naar Adobe Experience Platform verzendt.
 
 U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 
-Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) voor meer informatie .
+Zie [Regels](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/#configure-a-rule-to-forward-lifecycle-metrics-to-platform) voor meer informatie .
 
 ### Uw tag maken en publiceren
 
@@ -439,7 +372,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteren **[!UICONTROL + Add All Changed Resources]**.
 
-     ![Publiceren - Bibliotheek maken](./assets/create-library-aep.png)
+     ![Publiceren - Bibliotheek maken](./assets/build-library-mobile.png)
 
    - Selecteren **[!UICONTROL Save & Build to Development]**.
 
@@ -447,42 +380,38 @@ Om uw markering te bouwen en te publiceren:
 
 4. U kunt **[!UICONTROL ...]** om de bibliotheek opnieuw op te bouwen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
-   ![Publiceren - Bibliotheek maken](./assets/build-library.png)
+Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van het Adobe Experience Platform Edge Network.
 
-Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform Web SDK.
-
-Zie [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) voor meer informatie .
+Zie [Overzicht van publicatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) voor meer informatie .
 
 
 ### De tagcode ophalen
 
-Tot slot moet u de tag installeren op de website die u wilt bijhouden. Dit houdt in dat code in de kopteksttag van de sjabloon van uw website wordt geplaatst.
+Tot slot moet u uw tag gebruiken in de mobiele app die u wilt bijhouden.
 
-De code ophalen die naar de tag verwijst:
+U kunt als volgt code-instructies opvragen waarin wordt uitgelegd hoe u uw mobiele app instelt en uw tag in de app gebruikt:
 
 1. Selecteren **[!UICONTROL Environments]** in het linkerspoor.
 
-2. Selecteer de juiste installatieknop in de lijst met omgevingen.
+2. Selecteer de juiste installatie in de lijst met omgevingen ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) knop.
 
-   In de [!UICONTROL Web Install Instructions] selecteert u de knop Kopiëren naast de scriptcode die als volgt moet worden gelezen:
+   In de [!UICONTROL Mobile Install Instructions] selecteert u het juiste platform ([!UICONTROL iOS], [!UICONTROL Android]). Gebruik vervolgens de kopie ![Kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) naast elk relevant codefragment dat u wilt gebruiken voor het instellen en initialiseren van uw mobiele app:
 
-   ```
-   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>>
-   ```
-
-   ![Omgeving](./assets/environment.png)
+   ![Omgeving](./assets/environment-mobile.png)
 
 3. Selecteren **[!UICONTROL Close]**.
 
-In plaats van de code voor het ontwikkelmilieu, zou u een ander milieu (het opvoeren, productie) kunnen selecteren die op waar wordt gebaseerd u in het opstellen van het Web SDK van Adobe Experience Platform bent.
+In plaats van de code voor de ontwikkelomgeving, had u een andere omgeving (staging, productie) kunnen selecteren op basis van waar u bezig bent met het implementeren van de Adobe Experience Platform Mobile SDK.
 
 Zie [Omgevingen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?) voor meer informatie .
 
 ## Implementeren en valideren
 
-U kunt de code nu implementeren in de ontwikkelingsversie van uw website in het dialoogvenster `<head>` -tag. Wanneer uw website wordt geïmplementeerd, worden gegevens verzameld in Adobe Experience Platform.
+U kunt de code nu implementeren in uw mobiele app. Wanneer deze wordt geïmplementeerd, begint uw mobiele app gegevens te verzamelen in Adobe Experience Platform.
 
 Valideer uw implementatie, verbeter het waar nodig, en zodra correct, stel het in uw het opvoeren en productiemilieu gebruikend de het publiceren werkschemafunctie van Markeringen op.
+
+Zie [Zelfstudie Adobe Experience Cloud implementeren in mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html) voor veel gedetailleerdere informatie.
 
 ## Een verbinding instellen
 
@@ -508,9 +437,9 @@ Om uw verbinding tot stand te brengen:
 
    In de [!UICONTROL Select datasets] stap in [!UICONTROL Add datasets]:
 
-   - Selecteer de gegevensset die u eerder hebt gemaakt (`Example dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
+   - Selecteer datasets die u eerder hebt gemaakt en/of andere relevante datasets die u wilt opnemen in uw verbinding (bijvoorbeeld Gegevens van gebeurtenissen voor het bijhouden van push-ervaringen en gegevens van het pushprofiel uit Adobe Journey Optimizer)
 
-     ![Gegevenssets toevoegen](./assets/cja-connections-2b.png)
+     ![Gegevenssets toevoegen](./assets/cja-connections-ajopush.png)
 
    - Selecteren **[!UICONTROL Next]**.
 
@@ -524,7 +453,7 @@ Om uw verbinding tot stand te brengen:
 
       - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
 
-     ![Gegevenssets configureren](./assets/cja-connections-3b.png)
+     ![Gegevenssets configureren](./assets/cja-connections-ajopushid.png)
 
    - Selecteren **[!UICONTROL Add datasets]**.
 
@@ -556,7 +485,7 @@ Uw gegevensweergave maken:
 
    Voeg schemagebieden en/of standaardcomponent toe die u aan wilt omvatten [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] deelvakken.
 
-   ![Componenten van gegevensweergave](./assets/cja-dataview-2.png)
+   ![Componenten van gegevensweergave](./assets/cja-dataview-2-mobile.png)
 
    Selecteren **[!UICONTROL Save and continue]**.
 
@@ -591,12 +520,12 @@ Uw project maken:
 
    ![Werkruimte selecteren, gegevensweergave](./assets/cja-projects-3.png).
 
-5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek naar het [!UICONTROL Freeform table] in de [!UICONTROL Panel]. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
+5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek naar het [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Als voorbeeld sleept u `Events` als metriek en `Push Title` als dimensie, uitgesplitst naar `Event Type` voor een overzicht van uw pushberichten voor uw mobiele app en wat er met hen is gebeurd.
 
-   ![Werkruimte - Eerste rapport](./assets/cja-projects-5.png)
+   ![Werkruimte - Eerste rapport](./assets/cja-projects-5-mobile.png)
 
 Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Eerst definieert u welke gegevens u wilt verzamelen (schema) en waar u deze wilt opslaan (dataset) in Adobe Experience Platform. Vervolgens hebt u een gegevensstroom geconfigureerd in het Edge Network om ervoor te zorgen dat gegevens naar die gegevensset kunnen worden doorgestuurd. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw website en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw website-volggegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
+>U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Edge Network en andere), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw mobiele app en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw gegevens voor pushmeldingen voor mobiele apps en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken. Ten slotte hebt u uw eerste project gemaakt waarmee u uw gegevens van uw mobiele app kunt visualiseren en analyseren.

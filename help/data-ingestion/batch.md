@@ -4,16 +4,16 @@ description: Uitleggen hoe u batchgegevens in Customer Journey Analytics kunt op
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1792'
 ht-degree: 0%
 
 ---
 
 # Batchgegevens invoegen en gebruiken
 
-In deze snelstartgids wordt uitgelegd hoe u batchgegevens kunt invoeren in Adobe Experience Platform en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
+In deze handleiding voor snel starten wordt uitgelegd hoe u batchgegevens kunt invoeren in Adobe Experience Platform en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
 
 Hiervoor moet u:
 
@@ -29,20 +29,20 @@ Hiervoor moet u:
 
 >[!NOTE]
 >
->Dit is een vereenvoudigde handleiding voor het innemen van batchgegevens in Adobe Experience Platform en het gebruik in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Deze handleiding voor snel starten is een vereenvoudigde handleiding voor het invoeren van batchgegevens in Adobe Experience Platform en het gebruik in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 ## Een schema en gegevensset instellen
 
 Als u gegevens in Adobe Experience Platform wilt invoeren, moet u eerst definiëren welke gegevens u wilt verzamelen. Alle gegevens die in Adobe Experience Platform worden ingevoerd, moeten voldoen aan een standaard, gedenormaliseerde structuur, zodat deze kan worden herkend en kan worden toegepast door de mogelijkheden en functies op de downstreammarkt. Het Model van Gegevens van de ervaring (XDM) is het standaardkader dat deze structuur in de vorm van schema&#39;s verstrekt.
 
-Zodra u een schema hebt bepaald, gebruikt u één of meerdere datasets om de inzameling van gegevens op te slaan en te beheren. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+Zodra u een schema hebt bepaald, gebruikt u één of meerdere datasets om de inzameling van gegevens op te slaan en te beheren. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens (typisch een lijst) die een schema (kolommen) en gebieden (rijen) bevat.
 
 Alle gegevens die in Adobe Experience Platform worden opgenomen moeten met een vooraf gedefinieerd schema in overeenstemming zijn alvorens het als dataset kan worden voortgeduurd.
 
 ### Een schema instellen
 
 Voor deze snelle start wilt u gegevens verzamelen over loyaliteit, zoals loyaliteit-id, loyaliteitspunten en loyaliteitsstatus.
-Hiervoor moet u eerst een schema definiëren dat deze gegevens modelleert.
+U moet eerst een schema definiëren dat deze gegevens modelleert.
 
 Uw schema instellen:
 
@@ -54,7 +54,7 @@ Uw schema instellen:
 
    >[!INFO]
    >
-   >    Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals e-mail, status van loyaliteit, loyaliteitspunten). Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om te modelleren _gedrag_ van een profiel (zoals paginaweergave, toevoegen aan winkelwagentje).
+   >    Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals e-mail, status van loyaliteit, loyaliteitspunten). Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals paginaweergave, toevoegen aan winkelwagentje).
 
 
 3. In de [!UICONTROL Untitled schema] scherm:
@@ -89,11 +89,11 @@ Uw schema instellen:
 
    ![Identificatieobject](./assets/identifcation-loyalty-field.png)
 
-   Hiermee voegt u id-mogelijkheden toe aan uw schema. In uw geval, wilt u loyaliteitsinformatie identificeren gebruikend het e-mailadres van uw partijgegevens.
+   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval, wilt u loyaliteitsinformatie identificeren gebruikend het e-mailadres van uw partijgegevens.
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
-6. Selecteer **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de [!UICONTROL Field Properties] deelvenster.
+6. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de [!UICONTROL Field Properties] deelvenster.
 
    ![E-mail opgeven als identiteit](./assets/specify-email-loyalty-id.png)
 
@@ -123,7 +123,7 @@ Zie [Schema&#39;s maken en bewerken in de gebruikersinterface](https://experienc
 
 ### Een gegevensset instellen
 
-Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie definiëren om die gegevens op te slaan en te beheren. Dit wordt gedaan door datasets.
+Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie bepalen om die gegevens op te slaan en te beheren, die door datasets wordt gedaan.
 
 Uw gegevensset instellen:
 
@@ -145,13 +145,13 @@ Uw gegevensset instellen:
 
 6. Selecteren **[!UICONTROL Finish]**.
 
-7. Selecteer **[!UICONTROL Profile]** switch.
+7. Selecteer de **[!UICONTROL Profile]** switch.
 
    U wordt ertoe aangezet om de dataset voor profiel toe te laten. Zodra toegelaten, verrijkt de dataset klantenprofielen in real time met zijn opgenomen gegevens.
 
    >[!IMPORTANT]
    >
-   >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset zich aansluit, ook voor profiel wordt toegelaten.
+   >U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
    ![Schema voor profiel inschakelen](./assets/loyalty-dataset-profile.png)
 
@@ -208,7 +208,12 @@ Workflows gebruiken:
 
 6. Selecteren **[!UICONTROL Finish]** om uw batchgegevens in Adobe Experience Platform in te voeren.
 
-Zie [Een CSV-bestand boven een bestaand XDM-schema plaatsen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) voor meer informatie over hoe te om gegevens in kaart te brengen wanneer uw inkomende gegevens niet compatibel met uw schema XDM zijn, gebruik mappingmalplaatjes, gebruik berekend gebied om ervoor te zorgen dat uw partijgegevens aan beantwoorden wat het schema, en meer verwacht.
+Zie [Een CSV-bestand boven een bestaand XDM-schema plaatsen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) voor meer informatie over :
+
+- hoe te om gegevens in kaart te brengen wanneer uw inkomende gegevens niet compatibel met uw schema XDM zijn.
+- gebruik mappingsjablonen;
+- gebruik berekende velden om ervoor te zorgen dat de batchgegevens overeenstemmen met wat het schema verwacht,
+- en meer.
 
 
 ## Een verbinding instellen
@@ -219,7 +224,7 @@ Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren 
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new connection]**.
 
@@ -227,7 +232,7 @@ Om uw verbinding tot stand te brengen:
 
    Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings].
 
-   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het [!UICONTROL Average number of daily events] lijst.
+   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het menu [!UICONTROL Average number of daily events] lijst.
 
    ![Verbindingsinstellingen](./assets/cja-connections-1.png)
 
@@ -249,7 +254,7 @@ Om uw verbinding tot stand te brengen:
 
       - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
 
-      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** op basis van uw voorkeuren.
+      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
 
      ![Gegevenssets configureren](./assets/cja-connections-3.png)
 
@@ -265,13 +270,13 @@ Een gegevensweergave is een container specifiek voor Customer Journey Analytics 
 
 Uw gegevensweergave maken:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new data view]**.
 
 3. In de [!UICONTROL Configure] stap:
 
-   Selecteer uw verbinding in het menu [!UICONTROL Connection] lijst.
+   Selecteer uw verbinding van [!UICONTROL Connection] lijst.
 
    Naam en (optioneel) beschrijf uw verbinding.
 
@@ -302,7 +307,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
+1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Projects]** in de linkernavigatie.
 
@@ -318,7 +323,7 @@ Uw project maken:
 
    ![Werkruimte selecteren, gegevensweergave](./assets/cja-projects-3.png).
 
-5. Begin met slepen en zet afmetingen en metriek neer op het [!UICONTROL Freeform table] in de [!UICONTROL Panel] om uw eerste rapport te maken. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
+5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek naar het [!UICONTROL Freeform table] in de [!UICONTROL Panel]. Als voorbeeld sleept u `Program Points Balance` en `Page View` als metriek en `email` als dimensie voor een snel overzicht van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
    ![Werkruimte - Eerste rapport](./assets/cja-projects-5.png)
 
