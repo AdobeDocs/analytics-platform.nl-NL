@@ -4,9 +4,9 @@ description: Hiermee geeft u updates van de inhoud weer voor de documentatieset 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c1b92c9f30dc96a6058a320df9fd66cd316b212f
+source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2465'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Ondersteuning voor Adobe Customer Journey Analytics-functies | Meer informatie is toegevoegd in het dialoogvenster *Op een nieuwe manier ondersteund* tabel over de sessionisatiemogelijkheden in Customer Journey Analytics in vergelijking met Adobe Analytics. [Meer informatie](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
+| Evolutie uit Adobe Analytics | De *(Opnieuw)Marketingkanalen configureren* sectie met een verwijzing naar de Afgeleide gebieden de functiesjabloon van de Kanalen van de Marketing. [Meer informatie](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Snelle handleidingen voor het invoeren van gegevens voor mobiele toepassingen en andere platforms | Extra snelstarthulplijnen voor gegevensinvoer waarin wordt uitgelegd hoe u gegevens van mobiele toepassingen of andere platforms (zoals bureaubladtoepassingen, games op consoles, toepassingen op set-top boxes en IoT-apparaten) in Customer Journey Analytics kunt opnemen en gebruiken. [Meer informatie](../data-ingestion/data-ingestion.md) |
 | **juli 2023** | |
 | Contextbewuste sessies | Een onderwerp toegevoegd voor deze gegevensweergave-instelling. [Meer informatie](/help/data-views/context-aware-sessions.md) |
