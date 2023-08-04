@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn
 
 In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegevens bestaan, maar een secundaire identiteit. In dit geval, kan de Analytics van het Kanaal (vroeger genoemd &quot;Op gebied-gebaseerde Stitching&quot;) worden gebruikt om de hiaat tussen rijen te overbruggen wanneer een klant slechts door hun ECID wordt geïdentificeerd en wanneer een identiteit wordt verzameld (bijvoorbeeld, wanneer een klant voor authentiek verklaart). [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html)
 
-### 2. Variabelen uitlijnen {#variables}
+### 2. Lijn de variabelen uit {#variables}
 
 De eenvoudigste manier om Adobe Analytics-gegevens om te zetten in Customer Journey Analytics-gegevens is om een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html) in Experience Platform met de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
 
 Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u veelvoudige rapportreeksen in Customer Journey Analytics wilt brengen, hebt u twee opties:
 
-* Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. eVar 1 in rapportsuite 1 verwijst bijvoorbeeld naar [!UICONTROL Page]. In rapportsuite 2 kan eVar1 verwijzen naar [!UICONTROL Internal Campaign]. Wanneer deze variabelen in Customer Journey Analytics worden opgenomen, zullen ze zich in één enkele eVar1-dimensie mengen, wat kan leiden tot verwarrende en onjuiste rapportage.
+* Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. EVar 1 in rapportsuite 1 verwijst bijvoorbeeld naar [!UICONTROL Page]. In rapportsuite 2 kan eVar1 verwijzen naar [!UICONTROL Internal Campaign]. Wanneer deze variabelen in Customer Journey Analytics worden opgenomen, zullen ze zich in één enkele eVar1-dimensie mengen, wat kan leiden tot verwarrende en onjuiste rapportage.
 
 * Gebruik de [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) functie voor het toewijzen van variabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u het nieuwe Experience Platform gebruikt [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) gebruiken. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
 
@@ -56,13 +56,15 @@ De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetze
 
 Adobe heeft gepubliceerd [bijgewerkte best practices voor implementatie van marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html). Met deze bijgewerkte aanbevelingen kunt u optimaal gebruikmaken van de mogelijkheden die Adobe Analytics al met Attribution IQ heeft. Ze zullen u ook instellen voor succes bij het overschakelen naar Customer Journey Analytics.
 
+Met de invoering van [Afgeleide velden](../data-views/derived-fields/derived-fields.md) als onderdeel van de weergave Customer Journey Analytics-gegevens worden marketingkanalen ook op niet-destructieve en retro-actieve wijze ondersteund met de [Sjabloon voor marketingkanaalfunctie](../data-views/derived-fields/derived-fields.md#function-templates).
+
 ### 4. Beslissen over het gebruik van de bronconnector van Analytics versus SDK&#39;s van Experience Platforms {#connector-vs-sdk}
 
 Adobe Analytics-klanten kunnen hun rapportsuite eenvoudig gebruiken in de Adobe Experience Platform en Customer Journey Analytics via de bronconnector van Analytics. Voor informatie bij het gebruiken van de de bronschakelaar van de Analyse, zie de snelle startgids over hoe te [Gegevens van Adobe Analytics innemen en gebruiken in Customer Journey Analytics](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
 
 Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
 
-Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk uitgebreid: Er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend Customer Journey Analytics [Gegevens](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
+Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk uitgebreid: er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend Customer Journey Analytics [Gegevens weergeven](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
 
 **Voordelen van het gebruik van Experience Platform-SDK&#39;s:**
 
@@ -83,7 +85,7 @@ De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
 ## Voorbereiden op kritieke verschillen
 
-### Geniet van gemak met de verwerking van de rapporttijd {#report-time}
+### Geniet van gemak met rapportverwerking {#report-time}
 
 De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid gegevens die vooraf wordt verwerkt om resultaten te genereren zoals de persistentie die u in [!UICONTROL eVars]. Customer Journey Analytics voert deze berekeningen daarentegen uit tijdens de uitvoering van het rapport.
 
