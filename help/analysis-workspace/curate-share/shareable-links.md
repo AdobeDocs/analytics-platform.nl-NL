@@ -4,7 +4,7 @@ keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar [!UICONTROL **Delen**] > [!UICONTROL **Projectkoppeling ophalen**] (of **Delen**] > [!UICONTROL **Delen met Workspace-gebruikers**] > [!UICONTROL **Delen via koppeling**). Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
+Als aan de ontvanger van de koppeling geen [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
