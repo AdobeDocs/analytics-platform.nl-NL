@@ -1,56 +1,40 @@
 ---
-title: Dimension met een zeer hoge kardinaliteit in Customer Journey Analytics
-description: Beschrijft beste praktijken in het behandelen van high-cardinaliteitsdimensies in Customer Journey Analytics
+title: Afmetingen van hoge kardinaliteit
+description: Verklaart hoe Customer Journey Analytics dimensies met vele unieke waarden behandelt
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Dimension met zeer hoge kardinaliteit
+# Afmetingen van hoge kardinaliteit
 
-Customer Journey Analytics (Customer Journey Analytics) stelt geen limieten vast voor het aantal unieke waarden of dimensie-items waarop binnen één dimensie kan worden gerapporteerd. In sommige omstandigheden kunnen de afmetingen met een zeer groot aantal unieke artikelen - ook wel bekend als afmetingen met een hoge cardinaliteit - echter van invloed zijn op wat er kan worden gerapporteerd.
+Wanneer het gebruiken van een afmeting die vele unieke waarden bevat, kan het resulterende rapport teveel unieke afmetingspunten bevatten om te tonen of te berekenen. Resultaten worden afgekapt door dimensiepunten te verwijderen die als minst belangrijk worden beschouwd. Deze optimalisaties worden uitgevoerd om de project- en productprestaties te behouden.
 
-## Beperkingen
+Wanneer u om een rapport met teveel unieke waarden verzoekt, toont Analysis Workspace een indicator in de afmetingskopbal die verklaart dat niet alle afmetingspunten inbegrepen zijn. Bijvoorbeeld &quot;Rijen: 1-50 van meer dan 22.343.156&quot;. Het &quot;meer dan&quot;sleutelwoord wijst erop dat één of andere optimalisering werd toegepast op het rapport om de belangrijkste afmetingspunten terug te keren.
 
-Afhankelijk van het aantal gebeurtenissen in een specifieke verbinding van de Customer Journey Analytics, kunnen de volgende twee beperkingen samen met high-cardinality afmetingen voorkomen:
+![Werkruimte voorvertonen](assets/high-cardinality.png)
 
-### 1. Aantal rijen is mogelijk niet exact te rapporteren
+## Bepalen welke dimensie-items moeten worden weergegeven
 
-Rijtellingen met hoge kardinaalafmetingen zijn mogelijk niet precies te melden. Wanneer dit gebeurt, zullen de lijsten van de Vrije vorm een aanwijzing, zoals hieronder getoond verstrekken:
+Customer Journey Analytics verwerkt rapporten in de tijd dat zij in werking worden gesteld, die de gecombineerde dataset aan verscheidene servers verdelen. Gegevens per verwerkingsserver worden gegroepeerd op persoon-id, wat betekent dat één verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra een server klaar is met de verwerking, stuurt deze de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
 
-![](assets/high-cardinality.png)
+Als om het even welke individuele server gegevens verwerkt die een unieke drempel overschrijden, beknotten het de resultaten alvorens de verwerkte ondergroep van gegevens terug te keren. Afgeknot dimensieitems worden bepaald op basis van de metrische waarde die wordt gebruikt voor sorteren.
 
-### 2. Berekende metriek kan schattingen gebruiken voor bepaalde functies en voor de sorteervolgorde
+Als het sorteren metrisch berekende metrisch is, gebruikt de server de metriek binnen berekende metrisch om te bepalen welke afmetingspunten om te beknotten. Aangezien berekende metriek verschillende metriek van verschillend belang kan bevatten, kunnen de resultaten minder nauwkeurig zijn. Bij de berekening van &quot;Ontvangsten per persoon&quot; worden bijvoorbeeld het totale bedrag aan inkomsten en het totale aantal personen geretourneerd en geaggregeerd voordat de splitsing wordt uitgevoerd. Dientengevolge, kiest elke individuele verwerkingsserver welke punten om te verwijderen zonder het weten hoe hun resultaten het algemene sorteren beïnvloeden.
 
-Bij gebruik met zeer kardinale afmetingen kunnen sommige berekende metrische functies schattingen retourneren, waaronder: Kolommaximum, Kolomminimum, Aantal rijen, Gemiddeld, Mediaan, Percentage, Kwartaal, Standaardafwijking, Variantie, Regressiefuncties en T- en Z-functies.
+Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zouden kunnen ontbreken, zijn de kolomtotalen nauwkeurig en niet gebaseerd op afgekapte gegevens. De functie &#39;Afzonderlijk tellen&#39; in berekende metriek wordt ook niet beïnvloed door afgekapte dimensie-items.
 
-Bovendien kan het sorteren van een tabelkolom met behulp van een berekende metrische waarde gebaseerd zijn op een schatting en niet altijd de exacte sorteervolgorde weerspiegelen. Er verschijnt een waarschuwingsbericht om u te waarschuwen dat er mogelijk ramingen zijn gebruikt.
+## Aanbevolen werkwijzen voor afmetingen met een hoge cardinaliteit
 
-Houd er rekening mee dat, ook al kunnen berekende meetwaarden soms schattingen retourneren, de kolomtotalen altijd nauwkeurig zijn en nooit gebaseerd zijn op schattingen. Op dezelfde manier, wanneer het gebruiken van standaardmetriek, worden de ramingen nooit gebruikt en weerspiegelen altijd nauwkeurige sorteerorden.
+De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
-### Waar alle waarden van de dimensie in aanmerking worden genomen
-
-Alhoewel er beperkingen aan sommige berekende metriek en de tellingen van de afmetingsrij zijn, ben zich ervan bewust dat de volgende mogelijkheden altijd alle unieke waarden in om het even welke afmeting overwegen ongeacht of een afmeting hoogst kardinaal is of niet:
-
-* Metrische toewijzing en dimensie-toewijzing
-* De onderzoeken van het lijn-punt die op een lijst worden toegepast Freeform
-* Filters die dimensies of dimensie-items gebruiken
-* De geschatte tellings verschillende functie binnen Berekende Metriek
-* Opnemen/uitsluiten van logica die wordt toegepast op elke metrische waarde of dimensie in een gegevensweergave
-* Gegevensbestanden opzoeken die aan een Verbinding worden toegevoegd
-
-## Aanbevolen werkwijzen voor het werken met afmetingen met hoge kardinale afmetingen
-
-Om de waarschuwingen of schattingen te elimineren die kunnen voorkomen wanneer het gebruiken van dimensies met hoge kardinaliteit, adviseren wij dat u het aantal rijen die in uw rapport worden overwogen beperkt, gebruikend één van de volgende methodes:
-
-* Voeg een filter toe aan de kolom of het paneel waarop de bewerking betrekking heeft.
-* Hiermee past u een zoekopdracht toe op uw tabel voor vrije vorm.
-* Pas een uitsplitsing toe op de rijen of gebruik de dimensie in hoge mate als uitsplitsingsdimensie.
-* Voeg toe omvat/sluit criteria aan de configuratie van de Mening van Gegevens van de afmeting uit om het aantal unieke waarden te beperken aanwezig in de afmeting.
-
-Met deze technieken kunt u vaak ongewenste schattingen of waarschuwingen voorkomen die u krijgt bij het gebruik van afmetingen met een hoge kardinale waarde.
+* Een [Filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
+* Gebruik een zoekopdracht. Dimension items die zijn uitgesloten van de zoekterm, worden verwijderd uit de rapportresultaten, waardoor het waarschijnlijker wordt dat u de gewenste dimensie-items ziet.
+* Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
+* Gebruik de [Opnemen/uitsluiten](/help/data-views/component-settings/include-exclude-values.md) in het gegevensweergavebeheer.
+* Verkort het datumbereik van de aanvraag. Als er zich na verloop van tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.

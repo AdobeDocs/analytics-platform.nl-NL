@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe biedt veelvoudige manieren aan om gegevens in Adobe Experience Platform, m
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 
-[!UICONTROL Data views] het concept van virtuele - rapportensuites zoals ze vandaag bestaan , uitbreiden tot [extra controles van de gegevens toelaten](/help/data-views/create-dataview.md) beschikbaar gesteld door verbindingen. Deze veranderingen maken algemene montages zoals timezone en zittingsonderbrekingsintervallen configureerbaar en retroactief. De individuele veranderlijke montages zoals attributie en vervaldatum kunnen ook op een rapport of een niveau van de gegevensmening worden aangepast. Deze instellingen zijn niet-destructief en retroactief.
+[!UICONTROL Data views] het concept van virtuele - rapportensuites zoals ze vandaag bestaan , uitbreiden tot [extra controles op de gegevens mogelijk maken](/help/data-views/create-dataview.md) beschikbaar gesteld door verbindingen. Deze veranderingen maken algemene montages zoals timezone en zittingsonderbrekingsintervallen configureerbaar en retroactief. De individuele veranderlijke montages zoals attributie en vervaldatum kunnen ook op een rapport of een niveau van de gegevensmening worden aangepast. Deze instellingen zijn niet-destructief en retroactief.
 
 U ziet dat de rapportsuite-kiezer in de rechterbovenhoek u nu in de beschikbare gegevensweergaven laat kiezen:
 
@@ -110,4 +110,4 @@ Customer Journey Analytics breidt de begrippen van identiteiten voorbij ECIDs ui
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 
-In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensies rapporteren. Zie [Resultaten afgekapt dimensie-item](../analysis-workspace/workspace-faq/results-truncated.md) voor meer informatie over hoe Customer Journey Analytics het rapporteren van dimensies met vele unieke waarden optimaliseert.
+In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensieitems rapporteren. Zie [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md) voor meer informatie over hoe Customer Journey Analytics het rapporteren van dimensies met vele unieke waarden optimaliseert.
