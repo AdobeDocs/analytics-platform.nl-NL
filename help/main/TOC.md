@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '974'
 ht-degree: 27%
 
 ---
@@ -334,6 +334,7 @@ ht-degree: 27%
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens](../troubleshooting/compare.md)
    + [Consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md)
 
 + [Customer Journey Analytics glossarium](../getting-started/cja-glossary.md)
 

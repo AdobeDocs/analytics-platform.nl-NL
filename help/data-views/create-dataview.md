@@ -4,9 +4,9 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,11 @@ Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifie
 U kunt ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schema-velden in linkerspoor per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]):
 
 ![Filtervelden](assets/dataview-components-filter.png)
+
+>[!TIP]
+>
+>Als de componenten niet correct worden geladen in de gegevensweergave en u een foutbericht ziet, raadpleegt u [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md) voor een resolutie.
+
 
 
 ## Instellingen
