@@ -4,7 +4,7 @@ description: Leer hoe u problemen kunt oplossen die het gevolg zijn van een gebr
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 84a1cd485110be23b1977d916fc39e058b370066
+source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Als voorbeeld kunt u een [Verbinding](../connections/overview.md) en [Gegevens, 
 >[!ENDSHADEBOX]
 
 
-Om deze fout te verbeteren, moet u systeem of productbeheerdervoorrechten voor een organisatie hebben die een product van de Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) voor meer informatie .
+Om deze fout te corrigeren, moet u systeem- of productbeheerdersrechten hebben voor een organisatie die een product van een Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) voor meer informatie .
 
 1. Ga naar de gebruikersinterface van het Adobe Experience Platform.
 
