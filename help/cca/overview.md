@@ -3,19 +3,19 @@ title: Overzicht van kanaalanalyse
 description: Identiteitskaart van de re-zeer belangrijke persoon van veelvoudige datasets aan naakte personen samen.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
-feature: Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
 
 ---
 
+
 # Overzicht van kanaalanalyse
 
-**Reis-IQ: Kanaaloverschrijdende analyse** is een eigenschap die u toestaat om identiteitskaart van de persoon van een dataset re-zeer belangrijk te maken, die een naadloze combinatie veelvoudige datasets toelaat. CCA bekijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. Met Kanaaloverschrijdende analyse kunt u vragen beantwoorden zoals:
+**Reis-IQ: Kanaalanalyse** is een eigenschap die u toestaat om identiteitskaart van de persoon van een dataset re-zeer belangrijk te maken, die een naadloze combinatie veelvoudige datasets toelaat. CCA bekijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren. Met Kanaaloverschrijdende analyse kunt u vragen beantwoorden zoals:
 
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
@@ -55,8 +55,8 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
 * De persoonlijke grafiek voor meerdere apparaten wordt niet ondersteund.
 * Met Kanaaloverschrijdende analyse wordt het veld dat wordt gebruikt voor stitching op geen enkele manier getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld zoals deze bestaat in de ongeordende dataset in het gegevensmeer. Het hechten proces is hoofdlettergevoelig. Als bijvoorbeeld soms het woord &#39;Bob&#39; in het veld wordt weergegeven en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze als twee aparte personen behandeld.
-* Op basis van velden kan stitching hoofdlettergevoelig zijn voor gegevenssets van Analytics die via de bronconnector van Analytics zijn gegenereerd. Adobe raadt aan om alle VISTA-regels of verwerkingsregels te herzien die van toepassing zijn op het veld transient ID om ervoor te zorgen dat geen van deze regels nieuwe vormen van dezelfde id introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde voor het overgangsveld Id invoeren voor slechts een deel van de gebeurtenissen.
-* Veldgebaseerde stitching combineert of voegt geen velden samen.
+* Op basis van velden kan stitching hoofdlettergevoelig zijn voor gegevenssets van Analytics die via de bronconnector van Analytics zijn gegenereerd. Adobe raadt aan om alle VISTA-regels of verwerkingsregels te herzien die van toepassing zijn op het veld transient ID om ervoor te zorgen dat geen van deze regels nieuwe vormen van dezelfde id introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde invoeren in het veld met de tijdelijke id voor slechts een gedeelte van de gebeurtenissen.
+* Veldgebaseerde stitching combineert of schakelt geen velden samen.
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
 * Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt CCA ophoudt stitching gegevens voor dat apparaat.
@@ -66,9 +66,9 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in Customer Journey Analytics te gebruiken.
 
-1. Importeer de gewenste gegevens naar Adobe Experience Platform. Voor Adobe Analytics-gegevens raadpleegt u [Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Voor andere soorten gegevens raadpleegt u [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Gegevens samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
+1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie voor Adobe Analytics-gegevens [Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Zie voor andere typen gegevens [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Samenvattingsgegevens](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
 1. Neem contact op met de klantenondersteuning van Adobe via de volgende informatie:
-   * Een verzoek om Kanaaloverschrijdende analyse in te schakelen
+   * Een verzoek om Kanaalanalyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt)
    * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets)

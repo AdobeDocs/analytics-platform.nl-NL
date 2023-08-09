@@ -3,10 +3,9 @@ title: Veelgestelde vragen over kanaalanalyse
 description: Veelgestelde vragen voor kanaalanalyse
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
-feature: Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 0%
@@ -28,7 +27,7 @@ Als u de de afmetingspunten van identiteitskaart van de dataset zou willen ander
 
 ## Hoe ver gaat de CCA de personen terug?
 
-Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens af [replay](replay.md). Bijvoorbeeld, als u opstelling CCA om gegevens eens per week opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen zeven dagen. Als u opstelling CCA om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
+Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens af [replay](replay.md). Bijvoorbeeld, als u opstelling CCA om gegevens één keer per week opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen zeven dagen. Als u opstelling CCA om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
 
 ## Hoe worden gedeelde apparaten afgehandeld?
 
@@ -58,10 +57,10 @@ Adobe behandelt verzoeken van de GDPR en de CCPA overeenkomstig de lokale en int
 
 ## Wat gebeurt er als het veld Persistent-id in een of meer gebeurtenissen leeg is?
 
-Als de `Persistent ID` Het veld is leeg voor een gebeurtenis in een gegevensset die wordt vastgezet met een stitching op de basis, CCA vult de `Stitched ID` voor dat evenement op twee manieren :
+Als de `Persistent ID` Het veld is leeg voor een gebeurtenis in een gegevensset die wordt vastgezet met een stitching op de basis, CCA vult de `Stitched ID` voor dat evenement op een van de volgende twee manieren :
 
 * Als de `Transient ID` veld is niet leeg, CCA gebruikt de waarde in `Transient ID` als de `Stitched ID`.
-* Als de `Transient ID` veld is leeg, CCA verlaat ook het veld `Stitched ID` leeg. In dit geval: `Persistent ID`, `Transient ID`, en `Stitched ID` zijn allemaal leeg op de gebeurtenis. Deze soorten gebeurtenissen worden gelaten vallen van om het even welke verbinding van Customer Journey Analytics gebruikend de dataset die waar wordt vastgemaakt `Stitched ID` is gekozen als `Person ID`.
+* Als de `Transient ID` veld is leeg, CCA verlaat ook het veld `Stitched ID` leeg. In dit geval: `Persistent ID`, `Transient ID`, en `Stitched ID` zijn allemaal leeg op de gebeurtenis. Deze soorten gebeurtenissen worden gelaten vallen van om het even welke verbinding van Customer Journey Analytics gebruikend de dataset die waar wordt vastgemaakt `Stitched ID` als `Person ID`.
 
 ## Hoe verhouden de metriek in Customer Journey Analytics gestikte datasets zich met gelijkaardige metriek in Customer Journey Analytics niet-stitched datasets en met traditionele Adobe Analytics?
 
@@ -69,9 +68,9 @@ Bepaalde metriek in Customer Journey Analytics zijn vergelijkbaar met metriek in
 
 | **Customer Journey Analytics-gegevens** | **Customer Journey Analytics gegevens niet ingesloten** | **Traditioneel Adobe Analytics** | **Analytics Ultimate met CDA** |
 | ----- | ----- | ----- | ----- |
-| **Mensen** = Aantal verschillende `Person ID`s waar `Stitched ID` wordt gekozen als `Person ID`. **Mensen** kan hoger of lager zijn dan **Unieke bezoekers** in het traditionele Adobe Analytics, afhankelijk van de uitkomst van het stitching-proces. | **Mensen** = Aantal verschillende `Person ID`s is gebaseerd op de geselecteerde kolom `Person ID`. **Mensen** in de gegevenssets van de bronconnector van Analytics is vergelijkbaar met **Unieke bezoekers** in het traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` wordt gekozen als `Person ID` in Customer Journey Analytics. | **Unieke bezoekers** = Aantal verschillende personen-id&#39;s. **Unieke bezoekers** mag niet hetzelfde zijn als het aantal afzonderlijke **ECID** s. | Zie [Mensen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
-| **Sessies**: Gedefinieerd op basis van de sessie-instellingen in de gegevensweergave Customer Journey Analytics. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessie-instellingen die zijn opgegeven in de gegevensweergave Customer Journey Analytics. | **Bezoeken**: Zie [Bezoeken](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html). | **Bezoeken**: Gedefinieerd op basis van de sessie-instellingen die zijn opgegeven in het dialoogvenster [Virtuele CDA-rapportenpakket](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html). |
-| **Gebeurtenissen** = het aantal rijen in de gegevens in de naakte positie in Customer Journey Analytics. Deze metrisch is typisch dicht bij **Voorval** in het traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege pagina `Persistent ID`. | **Gebeurtenissen** = aantal rijen in de niet-ingestelde gegevens in Customer Journey Analytics. Deze metrisch is typisch dicht bij **Voorval** in het traditionele Adobe Analytics. Houd er echter rekening mee dat gebeurtenissen leeg zijn `Person ID` in de ongeordende gegevens in Experience Platform data Lake , zijn deze gebeurtenissen niet opgenomen in Customer Journey Analytics . | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
+| **Mensen** = Aantal verschillende `Person ID`s waar `Stitched ID` wordt gekozen als `Person ID`. **Mensen** hoger of lager dan **Unieke bezoekers** in het traditionele Adobe Analytics, afhankelijk van de uitkomst van het stitching-proces. | **Mensen** = Aantal verschillende `Person ID`s is gebaseerd op de geselecteerde kolom `Person ID`. **Mensen** in de gegevenssets van de bronconnector van Analytics is vergelijkbaar met **Unieke bezoekers** in het traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` wordt gekozen als `Person ID` in Customer Journey Analytics. | **Unieke bezoekers** = Aantal verschillende personen-id&#39;s. **Unieke bezoekers** mag niet hetzelfde zijn als het aantal afzonderlijke **ECID** s. | Zie [Mensen](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
+| **Sessies**: Gedefinieerd op basis van de sessie-instellingen in de gegevensweergave Customer Journey Analytics. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessie-instellingen die zijn opgegeven in de gegevensweergave Customer Journey Analytics. | **Bezoeken**: Zie [Bezoeken](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html). | **Bezoeken**: Gedefinieerd op basis van de sessie-instellingen die in het dialoogvenster [Virtuele CDA-rapportenpakket](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html). |
+| **Gebeurtenissen** = het aantal rijen in de gegevens in de naakte positie in Customer Journey Analytics. Deze metrisch is typisch dicht bij **Voorval** in Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege pagina `Persistent ID`. | **Gebeurtenissen** = aantal rijen in de niet-ingestelde gegevens in Customer Journey Analytics. Deze metrisch is typisch dicht bij **Voorval** in Adobe Analytics. Houd er echter rekening mee dat gebeurtenissen leeg zijn `Person ID` in de ongeordende gegevens in Experience Platform data Lake , zijn deze gebeurtenissen niet opgenomen in Customer Journey Analytics . | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Voorval**: Zie [Voorval](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
 Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en traditionele Adobe Analytics. Bijvoorbeeld het totale aantal voor Adobe Analytics [aangepaste gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html) 1-100 is over het algemeen vergelijkbaar tussen traditionele Adobe Analytics en Customer Journey Analytics (al dan niet gestikt). [Verschillen in mogelijkheden](/help/getting-started/aa-vs-cja/cja-aa.md)), zoals deduplicatie van gebeurtenissen tussen Customer Journey Analytics en traditionele Adobe Analytics, kan leiden tot discrepantie tussen beide producten.
 
