@@ -4,7 +4,7 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een gegevensweergave maken of bewerken
 
-Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. De meeste schemaelementen kunnen of een afmeting of metrisch afhankelijk van de vereisten van uw zaken zijn. Nadat u een schema-element naar een gegevensweergave hebt gesleept, worden aan de rechterkant opties weergegeven waarmee u de werking van de dimensie of metrische waarde in Customer Journey Analytics kunt aanpassen.
+Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. De meeste schemaelementen kunnen of een afmeting of metrisch afhankelijk van de vereisten van uw zaken zijn. Nadat u een schema-element naar een gegevensweergave hebt gesleept, worden aan de rechterkant opties weergegeven waarmee u de werking van de dimensie of metrische elementen in de Customer Journey Analytics kunt aanpassen.
 
 Hier volgt een video over het onderwerp:
 
@@ -44,7 +44,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 | --- | --- |
 | [!UICONTROL Connection] | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die één of meerdere datasets van Adobe Experience Platform bevat. |
 | [!UICONTROL Name] | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in de vervolgkeuzelijst rechtsboven in Analysis Workspace. |
-| [!UICONTROL Description] | Optioneel. Adobe raadt een gedetailleerde beschrijving aan, zodat gebruikers begrijpen waarom de gegevensweergave bestaat en voor wie deze is ontworpen. |
+| [!UICONTROL Description] | Optioneel. De Adobe beveelt een gedetailleerde beschrijving aan zodat de gebruikers begrijpen waarom de gegevensmening bestaat en wie het voor wordt ontworpen. |
 
 {style="table-layout:auto"}
 
@@ -86,7 +86,7 @@ Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit beteken
 
 1. Een schemaveld zoeken met ![Zoekpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen te bewegen, als ![Mappictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>U kunt ook een afgeleid veld maken met ![Gegevenspictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Afafgeleid veld maken** . Zie [Afgeleide velden](./derived-fields/derived-fields.md) voor meer informatie .
 
-1. Wanneer u een specifiek schemaveld hebt gevonden of uw afgeleide veld hebt gedefinieerd, sleept u dat veld, bijvoorbeeld ![Handgreeppictogram](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**van de linkerspoorstaaf naar het gedeelte Metriek of Dimension.
+1. Wanneer u een specifiek schemaveld hebt gevonden of uw afgeleide veld hebt gedefinieerd, sleept u dat veld, bijvoorbeeld ![Handgreeppictogram](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**van de linkerspoorstaaf naar het gedeelte Metriek of Dimensionen.
 U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. U kunt bijvoorbeeld in het veld pageName een dimensie met de naam &quot;Productpagina&#39;s&quot; maken en een andere dimensie met de naam &quot;Foutpagina&#39;s&quot;, door verschillende [Componentinstellingen](component-settings/overview.md) rechts.
 Als u een schemagebiedomslag van het linkerspoor sleept, worden zij automatisch gesorteerd in typische secties. Tekenreeksvelden eindigen in het dialoogvenster [!UICONTROL Dimensions] sectie- en numerieke schematypen eindigen in de [!UICONTROL Metrics] sectie. U kunt ook op **[!UICONTROL Add all]** en alle schemavelden worden toegevoegd aan hun respectieve locaties.
 
@@ -136,6 +136,6 @@ U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn
 
 ### Sessieinstellingen
 
-Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [Contextbewuste sessies](context-aware-sessions.md) voor meer informatie .
+Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [Sessieinstellingen](session-settings.md) voor meer informatie .
 
 Klik op **[!UICONTROL Save and finish]**.

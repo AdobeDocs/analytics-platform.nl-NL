@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: 555ef833c3137c6e1c441b16781c240e5ef43419
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 27%
    + [Release 2021](../release-notes/2021.md)
    + [2020 introducties](../release-notes/2020.md)
    + [Customer Journey Analytics-releases](../release-notes/releases.md)
-   + [Customer Journey Analytics-documentupdates](../release-notes/doc-changes.md)
+   + [Documentatieupdates Customer Journey Analytics](../release-notes/doc-changes.md)
 
 + Aan de slag {#cja-overview}
    + [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
    + [Handleiding voor snel starten](../getting-started/cja-getting-started.md)
    + [Openingspagina](../getting-started/landing.md)
    + [Veelgestelde vragen](../getting-started/cja-faq.md)
-   + [Customer Journey Analytics tot BI-oplossingen vergelijken](../getting-started/cja-vs-bi.md)
+   + [Vergelijk Customer Journey Analytics met de oplossingen van BI](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics en Adobe Analytics {#compare-aa-cja}
    + [Evolutie uit Adobe Analytics](../getting-started/aa-to-cja.md)
    + [Gebruikershandleiding voor Adobe Analytics-gebruikers](../getting-started/aa-to-cja-user.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Adobe Analytics-gegevens gebruiken in Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [Ondersteuning voor Customer Journey Analytics-functies](../getting-started/aa-vs-cja/cja-aa.md)
+      + [Ondersteuning van Customer Journey Analytics-functies](../getting-started/aa-vs-cja/cja-aa.md)
       + [Vergelijk terminologie voor de gegevens van de Analyse die door de bron van de Analyse schakelaar worden overgegaan](../getting-started/aa-vs-cja/terminology.md)
       + [Gegevensverwerking in Adobe Analytics en Customer Journey Analytics vergelijken](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Virtuele rapportageomgevingen en sandboxomgevingen](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
@@ -72,7 +72,7 @@ ht-degree: 27%
 + Gegevens weergeven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
-   + [Contextbewuste sessies](../data-views/context-aware-sessions.md)
+   + [Sessieinstellingen](../data-views/session-settings.md)
    + Componentinstellingen {#component-settings}
       + [Overzicht van componentinstellingen](../data-views/component-settings/overview.md)
       + [Attributie](../data-views/component-settings/attribution.md)
@@ -220,7 +220,7 @@ ht-degree: 27%
       + [Voorvertoningsdimensies](../components/dimensions/view-dimensions.md)
       + [Uitsplitsingsdimensies](../components/dimensions/t-breakdown-fa.md)
       + [Tijduitsplitsende dimensies](../components/dimensions/time-parting-dimensions.md)
-      + [Dimension met zeer hoge kardinaliteit](../components/dimensions/high-cardinality.md)
+      + [Dimensionen met zeer hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
    + Filters {#cja-filters}
       + [Overzicht van filters](../components/filters/filters-overview.md)
@@ -268,7 +268,7 @@ ht-degree: 27%
    + [Een gegevensweergave selecteren](../report-builder/select-data-view.md)
    + [Een datumbereik selecteren](../report-builder/select-date-range.md)
    + [Werken met filters](../report-builder/work-with-filters.md)
-   + [Dimension filteren](../report-builder/filter-dimensions.md)
+   + [Dimensionen filteren](../report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
    + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
    + [Beperkte labels](../report-builder/restricted-labels.md)
@@ -286,8 +286,8 @@ ht-degree: 27%
    + [Veelgestelde vragen over kanaalanalyse](../cca/faq.md)
 
 + Adobe-integratie {#integrations}
-   + [Adobe-oplossingen integreren met Customer Journey Analytics-overzicht](/help/integrations/overview.md)
-   + [Adobe Analytics met Customer Journey Analytics integreren](/help/integrations/aa.md)
+   + [Adobe-oplossingen integreren met overzicht van Customer Journey Analytics](/help/integrations/overview.md)
+   + [Adobe Analytics integreren met Customer Journey Analytics](/help/integrations/aa.md)
    + [Journey Optimizer-gegevens integreren met Customer Journey Analytics](/help/integrations/ajo.md)
    + [Beslissingsbeheergegevens integreren met Customer Journey Analytics](/help/integrations/ajo-od.md)
    + [AI van klant integreren met Customer Journey Analytics](/help/integrations/customer-ai.md)
@@ -298,15 +298,15 @@ ht-degree: 27%
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
 + Gebruik hoofdletters {#cja-usecases}
-   + [Customer Journey Analytics-gebruik](../use-cases/cja-usecases.md)
-   + Google Analytics {#ga}
-      + [Gegevens migreren van Google Analytics naar Customer Journey Analytics-overzicht](../use-cases/ga/overview.md)
-      + [Historische gegevens van Google Analytics opnemen in Platform](../use-cases/ga/backfill.md)
-      + [Gegevens van streaming Google Analytics in Platform configureren](../use-cases/ga/streaming.md)
-      + [Rapport over gegevens over Google Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
+   + [Gebruiksgevallen Customer Journey Analytics](../use-cases/cja-usecases.md)
+   + Gegevens Googles Analytics {#ga}
+      + [Overzicht van migreren van Googles Analytics naar Customer Journey Analytics](../use-cases/ga/overview.md)
+      + [Historische gegevens van Googles Analytics opnemen in platform](../use-cases/ga/backfill.md)
+      + [Gegevens voor streaming Googles Analytics configureren in Platform](../use-cases/ga/streaming.md)
+      + [Rapport over gegevens over Googles Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
-      + [Marketo Engage-gegevens in Adobe Experience Platform opnemen en in Customer Journey Analytics rapporteren](../use-cases/data-ingestion/marketo.md)
-      + [Adobe Experience Platform-publiek verfraaien in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Gegevens van Marketo Engage in Adobe Experience Platform opnemen en in Customer Journey Analytics rapporteren](../use-cases/data-ingestion/marketo.md)
+      + [Adobe Experience Platform-publiek vertalen in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}
       + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
@@ -325,16 +325,16 @@ ht-degree: 27%
    + [Toegangsbeheer](../admin/cja-access-control.md)
    + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
    + [Gevolgen van verwijdering](../admin/cja-deletion.md)
-   + [Customer Journey Analytics-prestaties optimaliseren](../admin/optimizing-performance.md)
+   + [Prestaties van Customers Journey Analytics optimaliseren](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 
 + Problemen oplossen {#troubleshooting}
    + [Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens](../troubleshooting/compare.md)
-   + [Consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [De consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
    + [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md)
 
-+ [Customer Journey Analytics glossarium](../getting-started/cja-glossary.md)
++ [Verklarende woordenlijst Customers Journey Analytics](../getting-started/cja-glossary.md)
 
-+ [CUSTOMER JOURNEY ANALYTICS API](https://developer.adobe.com/cja-apis/docs/)
++ [Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/)
