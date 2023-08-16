@@ -5,9 +5,8 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 hide: true
 hidefromtoc: true
-badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 0%
@@ -18,17 +17,19 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-De [!DNL Customer Journey Analytics SQL Connector] biedt SQL toegang tot de [gegevensweergaven](./data-views.md) die u in Customer Journey Analytics hebt gedefinieerd. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
+{{select-package}}
 
-Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL Customer Journey Analytics SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om de gegevensweergaven van uw Customer Journey Analytics als tabellen of weergaven in een [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiegereedschappen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
+De [!DNL Customer Journey Analytics SQL Connector] biedt SQL toegang tot de [gegevensweergaven](./data-views.md) die u in Customer Journey Analytics hebt gedefinieerd. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die gebruikers van Customers Journey Analytics gebruiken bij het maken van hun Analysis Workspace-projecten.
+
+Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL Customer Journey Analytics SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om de gegevensweergaven van uw Customer Journey Analytics weer te geven als tabellen of weergaven in een [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiehulpmiddelen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
 
 De belangrijkste voordelen zijn:
 
-- Het is niet nodig om een gelijkwaardige weergave van de gegevensweergaven van Customer Journey Analytics opnieuw te maken in het BI-gereedschap zelf. <br/>Zie [Gegevens, weergave](data-views.md) voor meer informatie over de functionaliteit van de meningen van Gegevens om te begrijpen wat moet worden ontspannen.<br/>
+- Het is niet nodig om een gelijkwaardige vertegenwoordiging van de gegevensmeningen van de Customer Journey Analytics binnen het hulpmiddel van BI zelf te ontspannen. <br/>Zie [Gegevens, weergave](data-views.md) voor meer informatie over de functionaliteit van de meningen van Gegevens om te begrijpen wat moet worden ontspannen.<br/>
 
 - Meer consistentie in rapportage en analyse tussen BI-instrumenten en Customer Journey Analytics.
 
-- Combineer Customer Journey Analytics-gegevens met andere gegevensbronnen die al beschikbaar zijn in BI-gereedschappen.
+- Combineer de gegevens van de Customer Journey Analytics met andere gegevensbronnen reeds beschikbaar in de hulpmiddelen van BI.
 
 ## Vereisten
 
@@ -36,15 +37,15 @@ Als u deze functionaliteit wilt gebruiken, moet u
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics SQL Connector] in your Experience Platform organization. -->
 
-- Configureer de functionaliteit voor de relevante productprofielen, gebruikersgroepen en/of individuele gebruikers.<br/>
+- De functionaliteit configureren voor de relevante productprofielen, gebruikersgroepen en/of individuele gebruikers.<br/>
 Gebruikers moeten toegang hebben tot:
-   - Query-service Experience Platform,
-   - Customer Journey Analytics Workspace-projecten, en
-   - Customer Journey Analytics-gegevensweergaven die ze willen gebruiken.
+   - Query-service van Experience Platform,
+   - Customer Journey Analytics Workspace projecten, en
+   - De meningen van Gegevens van de Customer Journey Analytics zij willen gebruiken.
 
-- Gebruik die op niet-vervallende geloofsbrieven verlopen om de hulpmiddelen van BI met de Schakelaar van Customer Journey Analytics te verbinden SQL. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
+- Gebruik die op niet-vervallende geloofsbrieven verlopen om de hulpmiddelen van BI met de Customer Journey Analytics te verbinden SQL Schakelaar. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
 
-Zie [Toegangsbeheer](../admin/cja-access-control.md) in de Customer Journey Analytics Administration sectie voor meer informatie.
+Zie [Toegangsbeheer](../admin/cja-access-control.md) in de sectie Beheer Customer Journey Analytics voor aanvullende informatie.
 
 
 ## Gebruik
@@ -63,7 +64,7 @@ In de interface van het Experience Platform:
 
 2. Selecteren ![Query maken](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Query maken **]**.
 
-3. Als u de query wilt uitvoeren, typt u de SQL-instructie en selecteert u de instructie ![Afspelen](assets/Smock_Play_18_N.svg) (of druk op SHIFT + ENTER).
+3. Als u de query wilt uitvoeren, typt u de SQL-instructie en selecteert u de ![Afspelen](assets/Smock_Play_18_N.svg) (of druk op SHIFT + ENTER).
 
 +++
 
@@ -76,7 +77,7 @@ In de interface van het Experience Platform:
 
    2. Selecteren **[!UICONTROL ** Credentials **]** in de bovenste balk.
 
-   3. Als u de verbindingstekenreeks wilt kopiëren, gebruikt u ![Kopiëren](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL ** PSQL, opdracht **]** sectie.
+   3. Om het verbinden koord te kopiëren, gebruik ![Kopiëren](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL ** PSQL, opdracht **]** sectie.
 
 2. Open uw PostgresSQL CLI.
 
@@ -89,7 +90,7 @@ Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/docs/e
 
 ### BI Tools
 
-De Customer Journey Analytics SQL-connector wordt momenteel alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden eveneens kunnen werken maar officieel nog niet gesteund.
+De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden eveneens kunnen werken maar officieel nog niet gesteund.
 
 +++ Power BI
 
@@ -99,11 +100,11 @@ De Customer Journey Analytics SQL-connector wordt momenteel alleen ondersteund e
 
    2. Selecteren **[!UICONTROL ** Credentials **]** in de bovenste balk.
 
-   3. Gebruiken ![Kopiëren](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven te kopiëren Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en andere) indien nodig in Power BI.
+   3. Gebruiken ![Kopiëren](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven te kopiëren Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en andere) indien nodig in de Power BI.
 
 2. In Power BI:
 
-   1. Selecteer in het hoofdvenster de optie **[!UICONTROL ** Gegevens ophalen **]** in de bovenste werkbalk.
+   1. Selecteer in het hoofdvenster **[!UICONTROL ** Gegevens ophalen **]** in de bovenste werkbalk.
 
    2. Selecteren **[!UICONTROL ** Meer...**]** in het linkerspoor.
 
@@ -111,18 +112,18 @@ De Customer Journey Analytics SQL-connector wordt momenteel alleen ondersteund e
 
    4. In de **[!UICONTROL ** PostgressSQL-database **]** dialoogvenster:
 
-      1. Plakken **[!UICONTROL ** Host **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
+      1. Plakken **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
 
-      2. Plakken **[!UICONTROL ** Database **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
+      2. Plakken **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
 
          Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:all?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
 
-      3. Wanneer wordt gevraagd om **[!UICONTROL ** Gegevensconnectiviteit **]** modus, selecteren **[!UICONTROL ** DirectQuery **]** om ervoor te zorgen dat de gegevensstructuren op de juiste wijze worden afgevlakt.
+      3. Wanneer wordt gevraagd om **[!UICONTROL ** Gegevensconnectiviteit **]** modus, selecteren **[!UICONTROL ** DirectQuery **]** om ervoor te zorgen dat de gegevensstructuren correct worden afgevlakt.
 
       4. U wordt gevraagd **[!UICONTROL ** Gebruikersnaam **]** en **[!UICONTROL ** Wachtwoord **]**. De equivalente parameters van Experience Platforms gebruiken [!UICONTROL Credentials].
 
 
-   5. Na succesvolle login, verschijnen de lijsten van de Mening van Gegevens van de Customer Journey Analytics in Power BI **[!UICONTROL ** Navigator **]**. Tabellen met gegevensweergave worden geïdentificeerd aan de hand van `dv_` in hun naam.
+   5. Na succesvolle login, verschijnen de lijsten van de Mening van Gegevens van de Customer Journey Analytics in Power BI **[!UICONTROL ** Navigator **]**. Tabellen met gegevensweergave worden geïdentificeerd met `dv_` in hun naam.
 
 
    6. Selecteer de tabellen in de gegevensweergave die u wilt gebruiken en selecteer **[!UICONTROL ** Laden **]**.
@@ -151,27 +152,27 @@ De Customer Journey Analytics SQL-connector wordt momenteel alleen ondersteund e
 
    3. In de [!UICONTROL PostgresSQL] dialoogvenster:
 
-      1. Plakken **[!UICONTROL ** Host **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
+      1. Plakken **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
 
-      2. Plakken **[!UICONTROL ** Poort **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Poort **]** tekstveld.
+      2. Plakken **[!UICONTROL ** Poort **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Poort **]** tekstveld.
 
-      3. Plakken **[!UICONTROL ** Database **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
+      3. Plak **[!UICONTROL ** de databaseparameter **]** van Experience-platformquery&#39;s [!UICONTROL Credentials] in **[!UICONTROL ** het tekstveld Database **]** .
 
-         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:all%3FFLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:all%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren afvlakken voor gebruik met BI-tools van](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) derden voor meer informatie.
 
-      4. Selecteren **[!UICONTROL ** Gebruikersnaam en wachtwoord **]** van **[!UICONTROL ** Verificatie **]** lijst.
+      4. Selecteer **[!UICONTROL ** Gebruikersnaam en wachtwoord in **[!UICONTROL ****]** de lijst Verificatie **]**.
 
-      5. Plakken **[!UICONTROL ** Gebruikersnaam **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstveld.
+      5. Plakken **[!UICONTROL ** Gebruikersnaam **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstveld.
 
-      6. Plakken **[!UICONTROL ** Wachtwoord **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Wachtwoord **]** tekstveld.
+      6. Plakken **[!UICONTROL ** Wachtwoord **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Wachtwoord **]** tekstveld.
 
-      7. Selecteren **[!UICONTROL ** Aanmelden **]**.
+      7. Selecteer **[!UICONTROL ** Aanmelden **]**.
 
-   4. De gegevensweergaven Customer Journey Analytics worden weergegeven als tabellen in het dialoogvenster **[!UICONTROL ** Tabel **]** lijst. Tabellen in de gegevensweergave beginnen met `dv_`.
+   4. Gegevensweergaven in Customer Journey Analytics worden weergegeven als tabellen in de **[!UICONTROL ** tabellijst **]** . De tabellen in `dv_`de gegevensweergave hebben de voorvoegsels .
 
    5. Sleep de tabellen die u op het canvas wilt gebruiken.
 
-   U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
+   U kunt nu met de gegevens uit de gegevensweergavetabellen werken om uw rapporten en visualisaties te maken.
 
    Zie [Connect Tableau naar Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) voor meer informatie .
 
@@ -183,13 +184,13 @@ Zie [Client verbinden met Query-service](https://experienceleague.adobe.com/docs
 
 Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd op basis van hun vriendelijke naam. De gegevensweergave met de naam [!UICONTROL My Web Data] heeft de weergavenaam `dv_my_web_data`.
 
-Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u de optionele `CJA_USE_IDS` instellen op de databasenaam wanneer verbinding wordt gemaakt. Bijvoorbeeld: `prod:all?CJA_USE_IDS` toont uw gegevensmeningen met namen als `dv_ABC123`.
+Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u de optionele `CJA_USE_IDS` instellen op de databasenaam wanneer verbinding wordt gemaakt. Bijvoorbeeld: `prod:all?CJA_USE_IDS` geeft uw gegevensweergaven weer met namen als `dv_ABC123`.
 
 ### Gegevensbeheer
 
-De instellingen voor gegevensbeheer in Customer Journey Analytics zijn overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige Customer Journey Analytics-gegevens worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
+De aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics worden overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige gegevens van Customers Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
 
-De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van Customer Journey Analytics worden bezocht. Daarom tonen gegevens die met de Customer Journey Analytics SQL-connector worden aangeroepen, de juiste waarschuwingen of fouten wanneer ze niet voldoen aan de gedefinieerde privacylabels en beleidsregels.
+De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van de Customer Journey Analytics worden bezocht. Daarom tonen de gegevens die worden gevraagd met de Customer Journey Analytics SQL Connector aangewezen waarschuwingen of fouten wanneer het niet voldoen aan de privacyetiketten en het beleid bepaalde.
 
 ### Gegevens weergeven
 
@@ -217,7 +218,7 @@ prod:all=> \dv
 
 ### Geneste in plaats van samengevoegd
 
-Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de `FLATTEN` optie. Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [Werken met geneste gegevensstructuren in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de `FLATTEN` -optie. Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [Werken met geneste gegevensstructuren in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
 
 ### Ondersteunde SQL
 
@@ -231,15 +232,15 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 |---|---|
 | Schema-detectie | <pre>SELECTEREN * VANUIT dv1 WAAR 1=0</pre> |
 | Uitsplitsing | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  filterId = &#39;12345&#39;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  EN (dim2 = &#39;A&#39; OF dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;)<br/>GROEP OP DIm1</pre> |
-| HAVENS | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>MET m1 > 100</pre> |
+| HAVENS | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>VAN > 100</pre> |
 | Onderscheiden, boven <br/>dimensiewaarden | <pre>DIM1 VERSCHUIVEN VANUIT dv1 SELECTEREN</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WHERE \&quot;timestamp\&quot; >= &quot;2022-01-01&quot; AND \&quot;timestamp\&quot; &lt; &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>ORDER BY SUM(metrisch1)<br/>LIMIET 15</pre> |
 | Metrische totalen | <pre>SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</pre> |
 | Meerdere dimensies<br/>uitsplitsingen<br/>en toponderscheidingen | <pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET DIM1, dim2</pre><pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 1, 2<br/>VOLGORDE MET 1, 2</pre><pre>DIM1 VERSCHUIVEN, dim2 SELECTEREN<br/>VAN dv1</pre> |
-| Subselectie:<br/>Aanvullend resultaat<br/>filteren | <pre>DIM1, m1 SELECTEREN<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</br>  GROEP OP DIm1<br/>)<br/>WAAR grijs 1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
-| Subselectie:<br/>Samenvoegen met<br/>dataset niet in<br/>Customer Journey Analytics | <pre>SELECT b.key, a.dim1, a.m1<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/>a)<br/>LEFT JOIN lookups b OP a.dim1 = b.key</pre> |
-| Subselectie:<br/>Doorheen zoeken<br/>gegevensweergaven | <pre>SELECT-toets, SUM(m1) AS totaal<br/>VAN (<br/>  DIm1 AS-toets SELECTEREN, SUM(metrisch1) AS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/><br/>  UNIE<br/><br/>  DIm2 AS-toets SELECTEREN, SUM(m1) AS m1<br/>  FROM dv2<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP MET DIm2<br/>GROEP OP toets<br/>VOLGORDE PER totaal</pre> |
-| Subselectie: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    \* SELECTEREN VANUIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET rijen AS (<br/>  MET \_ AS (<br/>    SELECTEREN * UIT data_ares<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2021-01-01&quot; EN &quot;2021-02-01&quot;<br/>  )<br/>  SELECTEER _.item, _.units VAN _<br/>  WAAR _.item NIET NULL IS<br/>)<br/>SELECT rows.item, SUM(rows.units) AS-eenheden<br/>UIT rijen WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROEP OP rijen.item</pre> |
-| Hiermee selecteert u waar de<br/>metriek komt voor<br/> of worden gemengd met<br/>de afmetingen | <pre>SUM(metrisch1) SELECTEREN AS m1, dim1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 2</pre> |
+| Subselectie maken:<br/>Aanvullend resultaat<br/>filteren | <pre>DIM1, m1 SELECTEREN<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</br>  GROEP OP DIm1<br/>)<br/>WAAR grijs 1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
+| Subselectie maken:<br/>Samenvoegen met<br/>dataset niet in<br/>Customer Journey Analytics | <pre>SELECT b.key, a.dim1, a.m1<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/>a)<br/>LEFT JOIN lookups b OP a.dim1 = b.key</pre> |
+| Subselectie maken:<br/>Doorheen zoeken<br/>gegevensweergaven | <pre>SELECT-toets, SUM(m1) AS totaal<br/>VAN (<br/>  DIm1 AS-toets SELECTEREN, SUM(metrisch1) AS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/><br/>  UNIE<br/><br/>  DIm2 AS-toets SELECTEREN, SUM(m1) AS m1<br/>  FROM dv2<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP MET DIm2<br/>GROEP OP toets<br/>VOLGORDE PER totaal</pre> |
+| Subselectie maken: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    SELECTEER \* UIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET RIJEN ALS (<br/>  MET \_ AS (<br/>    SELECT * FROM data_ares<br/>    WHERE \&#39;TIMESTAMP\&#39; TUSSEN &#39;01-2021-01&#39; EN &#39;2021-02-01&#39;<br/>  )<br/>  SELECTEER _.item, _.eenheden VAN _<br/>  WAAR _.item NIET NULL<br/> IS)<br/>SELECTEER rijen.item, SOM (rijen.eenheden) ALS eenheden<br/>UIT rijen WAARBIJ rijen.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/> GROEP BY rows.item</pre> |
+| Hiermee selecteert u waar de<br/>metrische gegevens voor komen<br/> of worden gecombineerd met<br/>de afmetingen | <pre>SELECTEER SOM (metric1) ALS m1, dim1<br/>VAN dv1<br/>WAARBIJ \&#39;TIJDSTEMPEL\&#39; TUSSEN &#39;2022-01-01&#39; EN &#39;2022-01-02&#39;GROEPEREN<br/> DOOR 2</pre> |
 
 {style="table-layout:auto"}
 
@@ -251,13 +252,13 @@ U kunt alle standaard beschikbare afmetingen selecteren of in de gegevensweergav
 
 ### Metrics
 
-De beschikbare meetgegevens zijn:
+U kunt de volgende gegevens selecteren:
 
-- alle standaard beschikbare cijfers;
+- alle gegevens die standaard beschikbaar zijn,
 
 - gedefinieerd in de gegevensweergave,
 
-- berekende metriek die met de Mening van Gegevens compatibel zijn die de gebruiker toegang tot heeft.
+- berekende gegevens die compatibel zijn met de gegevensweergave waartoe de gebruiker toegang heeft.
 
 U selecteert metrisch door zijn identiteitskaart die in a wordt verpakt `SUM(metric)` -expressie, net als bij andere SQL-bronnen.
 
@@ -267,11 +268,11 @@ U kunt het volgende gebruiken:
 
 - `SELECT COUNT(DISTINCT dimension)` of `SELECT APPROX_COUNT_DISTINCT(dimension)` om de ongeveer verschillende waarden van een dimensie te tellen. Zie details in [Verschillen tellen](#counting-distincts).
 
-- [Inline berekeningen](#inline-calculations) metriek op de vlucht combineren en/of wiskunde op hen doen.
+- [Inline-berekeningen](#inline-calculations) metriek op de vlucht combineren en/of wiskunde op hen doen.
 
 #### Verschillen tellen
 
-Vanwege de onderliggende aard van hoe Customer Journey Analytics werkt, is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de maatstaf voor standaardpersonen, die het aantal verschillende personen is. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
+Door de onderliggende aard van hoe Customer Journey Analytics werkt, is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de maatstaf voor standaardpersonen, die het aantal verschillende personen is. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
 
 #### Voorwaardelijke metriek
 
@@ -287,7 +288,7 @@ SUM(IF(dim1 = 'X' AND dim2 = 'A', metric1, 0)) AS m1
 SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN METRIC1 END) AS m1
 ```
 
-#### Inline berekeningen
+#### Inline-berekeningen
 
 U kunt aanvullende metrische expressies toepassen in uw `SELECT` in plaats van dat de wiskunde in berekende metrisch wordt bepaald. In de volgende tabel wordt aangegeven welk type expressies wordt ondersteund.
 
@@ -295,7 +296,7 @@ U kunt aanvullende metrische expressies toepassen in uw `SELECT` in plaats van d
 |---|---|
 | `+`, `-`, `*`, `/`, en `%` | Toevoegen, aftrekken, vermenigvuldigen, verdelen en modulair/restant |
 | `-X` of `+X` | Het teken wijzigen of een metrische waarde instellen waarbij X de metrische expressie is |
-| `PI()` | π, constante |
+| `PI()` | Constante π |
 | `POSITIVE`, `NEGATIVE`, `ABS`, `FLOOR`, `CEIL`, `CEILING`, `EXP`, `LN`, `LOG10`, `LOG1P`, `SQRT`, `CBRT`, `DEGREES`, `RADIANS`, `SIN`, `COS`, `TAN`, `ACOS`, `ASIN`, `ATAN`, `COSH`, `SINH`, en `TANH` | Unaire rekenfuncties |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | Binaire wiskundige functies |
 
@@ -332,17 +333,17 @@ De WHERE-component wordt in drie stappen afgehandeld:
 
 1. Het datumbereik zoeken in het menu `timestamp` speciaal veld.
 
-2. Zoeken naar extern gedefinieerde items `filterId`s om in het filtreren op te nemen.
+2. Extern gedefinieerde zoeken `filterId`s om in het filtreren op te nemen.
 
 3. Zet de resterende expressies om in ad-hocfilters.
 
-De behandeling wordt uitgevoerd door het eerste niveau van `AND`s in de `WHERE` clausule. Elk hoogste niveau `AND`de expressie ed moet overeenkomen met een van de bovenstaande expressies. Iets dieper dan het eerste niveau van `AND`s, of als de `WHERE` componentgebruik `OR`Op het hoogste niveau wordt dit als een ad-hocfilter behandeld.
+De behandeling wordt uitgevoerd door het eerste niveau van `AND`s in de `WHERE` clausule. Elk hoogste niveau `AND`rd expression must match one of the above. Iets dieper dan het eerste niveau van `AND`s, of als de `WHERE` componentgebruik `OR`Op het hoogste niveau wordt dit als een ad-hocfilter behandeld.
 
 ### VOLGORDE OP
 
-Door gebrek, sorteert de vraag de resultaten door eerste geselecteerde metrisch in dalende orde. U kunt de standaardsorteervolgorde overschrijven door `ORDER BY ... ASC` of `ORDER BY ... DESC`. Als u `ORDER BY`moet u `ORDER BY` op de eerste geselecteerde metrische waarde.
+Door gebrek, sorteert de vraag de resultaten door eerste geselecteerde metrisch in dalende orde. U kunt de standaardsorteervolgorde overschrijven door `ORDER BY ... ASC` of `ORDER BY ... DESC`. Als u deze optie gebruikt `ORDER BY`, moet u de als eerste geselecteerde metriek opgeven `ORDER BY` .
 
-U kunt de volgorde ook spiegelen met `-` (min) vóór de metrische waarde. Beide onderstaande instructies resulteren in dezelfde volgorde:
+U kunt de volgorde ook omdraaien door `-` (min) vóór de metriek te gebruiken. Beide onderstaande afschriften resulteren in dezelfde order:
 
 ```sql
 ORDER BY metric1 ASC
@@ -352,12 +353,12 @@ ORDER BY metric1 ASC
 ORDER BY -metric1 DESC
 ```
 
-### Algemene functieondersteuning
+### Algemene ondersteuning voor functies
 
 | -functie | Voorbeeld | Details |
 |---|---|---|
-| [CAST (kolom AS-type)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` of <br/> `` `timestamp`::string `` | Type casting wordt momenteel niet ondersteund, maar er wordt geen fout gegenereerd. De `CAST` functie wordt genegeerd. |
-| [TIMESTAMP(timeString)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Een tijdtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` clausule. |
+| [CAST(kolom ALS type)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` Of <br/> `` `timestamp`::string `` | Typecasting wordt momenteel niet ondersteund, maar er wordt geen fout gegenereerd. De `CAST` functie wordt genegeerd. |
+| [TIJDSTEMPEL (tijdstring)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Een tijdtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` clausule. |
 | [TO_TIMESTAMP(timeString, formatString)](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | Een tijdtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` clausule, optioneel verstrekkend een formaat voor die tijdkoord. |
 | [DATE(dateString)](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | Een datumtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` clausule. |
 | [TO_DATE(dateString, formatString)](https://spark.apache.org/docs/latest/api/sql/index.html#to_date) | `` WHERE `timestamp` >= TO_DATE('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_DATE('01/02/2022', 'MM/dd/yyyy') `` | Een datumtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` -component, optioneel een notatie voor die datumtekenreeks opgeven. |

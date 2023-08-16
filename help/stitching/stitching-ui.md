@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -14,13 +14,15 @@ ht-degree: 0%
 
 # Verstikte gegevenssets maken en beheren
 
-Door middel van plaatsing kunnen beheerders id&#39;s koppelen aan gegevenssets die beschikbaar zijn in Customer Journey Analytics. Door gegevenssets in te stellen, vergroot u de nauwkeurigheid van de weergave van een profiel. Dit resulteert uiteindelijk in een betere analyse en rapportage.
+{{select-package}}
+
+Door middel van titelformaat kunnen beheerders identiteiten op gegevenssets die beschikbaar zijn in Customer Journey Analytics aan elkaar koppelen. Door gegevenssets in te stellen, vergroot u de nauwkeurigheid van de weergave van een profiel. Dit resulteert uiteindelijk in een betere analyse en rapportage.
 
 Met het koppelingsproces kunt u een bestaande **blijvende id** in een gegevensset. Koppel die permanente id vervolgens aan voor een opgegeven afspeelvenster (dagelijks, wekelijks) met de meest accurate **transient ID** (persoon of voor authentiek verklaard herkenningsteken) beschikbaar voor die dataset. Voorbeelden van transient-id&#39;s zijn e-mail, telefoonnummer, CRM-id of andere id&#39;s die in de grafiek zijn opgeslagen. Zie [Overzicht](overview.md) voor meer informatie over stitching .
 
 ## Maken
 
-Om het stitching in werking te stellen, creeert u één of meerdere gestikte datasets. Om een gestikte dataset tot stand te brengen:
+Om het stitching in werking te stellen, creeert u één of meerdere gestikte datasets. Een gestikte dataset maken:
 
 1. Selecteren **[!UICONTROL ** Stiksel **]** van **[!UICONTROL ** Gegevensbeheer **]** op de bovenste balk.
 
@@ -42,7 +44,7 @@ Om het stitching in werking te stellen, creeert u één of meerdere gestikte dat
 
       ![Beginscherm](./assets/create-initial.png)
 
-   3. Selecteer **[!UICONTROL ** Brongegevensset selecteren **]** knop.
+   3. Selecteer de **[!UICONTROL ** Brongegevensset selecteren **]** knop.
 
       In de [!UICONTROL Select one dataset to stitch] pop-upvenster:
 
@@ -60,9 +62,9 @@ Om het stitching in werking te stellen, creeert u één of meerdere gestikte dat
 
       De minimumvoorwaarden zijn:
 
-      - blijvende id-verzadiging: rate >= 95%
+      - blijvende id-verzadiging: frequentie >= 95%
 
-      - verzadiging van voorbijgaande id: rate >= 5%
+      - verzadiging van transient identifier: snelheid >= 5%
 
         Als aan de minimale voorwaarden wordt voldaan, kunt u experimenteren met samplewaarden.
 
@@ -107,7 +109,7 @@ U kunt de status van stitching weergeven in het dialoogvenster [!UICONTROL Stitc
   |-----|-----|
   | **[!UICONTROL ** In wachtrij **]** | Het verzoek wordt ontvangen en verwerkt spoedig. |
   | **[!UICONTROL ** Maken **]** in uitvoering | De middelen en onlangs gestikte dataset zijn in creatie. |
-  | **[!UICONTROL ** Huidige positie **]** | De middelen en de stitching dataset bestaan en het stitching is lopend |
+  | **[!UICONTROL ** Telling wordt uitgevoerd **]** | De middelen en de stitching dataset bestaan en het stitching is lopend |
   | **[!UICONTROL ** Fout **]** | Er is een probleem met stitching. Mogelijk is een schema gewijzigd tussen de brondataset en de gebonden dataset, is het dagelijkse volume te groot, of... (_**meer informatie nodig...**_) |
 
   >[!INFO]
@@ -115,7 +117,7 @@ U kunt de status van stitching weergeven in het dialoogvenster [!UICONTROL Stitc
   >    Wanneer een status verandert, wordt een melding verzonden met het bericht **[!UICONTROL ** Stitched dataset _naam van gegevensset_ is gewijzigd in status _naam van status _**]**.
 
 
-  De [!UICONTROL Backfill status] kan de volgende waarden hebben: 0%, 25%, 50%, 75% of 100%.
+  De [!UICONTROL Backfill status] U kunt de volgende waarden hebben: 0%, 25%, 50%, 75% of 100%.
 
   U kunt het informatiepictogram selecteren om een pop-up met meer details op de geselecteerde gestikte dataset te tonen.
 
