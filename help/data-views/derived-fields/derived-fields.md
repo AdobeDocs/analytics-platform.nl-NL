@@ -4,9 +4,9 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
+source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
 workflow-type: tm+mt
-source-wordcount: '4196'
+source-wordcount: '4248'
 ht-degree: 4%
 
 ---
@@ -426,7 +426,7 @@ Definieert een set waarden die worden vervangen door corresponderende waarden in
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul><li>Oorspronkelijke waarden tonen<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -443,6 +443,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 | [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
 | [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
 | [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+| [!DNL AMS789] | [!DNL Amsterdam] | 50 | [!DNL Okura] |
 
 {style="table-layout:auto"}
 
@@ -453,6 +454,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 | [!DNL SLC123] | 200 |
 | [!DNL LX342] | 198 |
 | [!DNL SFO456] | 190 |
+| [!DNL AMS789] | 150 |
 
 {style="table-layout:auto"}
 
@@ -474,6 +476,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 | [!DNL SLC123] |
 | [!DNL LAX342] |
 | [!DNL SFO456] |
+| [!DNL AMS789] |
 
 {style="table-layout:auto"}
 
@@ -482,7 +485,9 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 
 U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL CLASSIFY] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
 
-![Screenshot van regel 1 van classificeren](assets/lookup-1.png)
+Als u oorspronkelijke waarden wilt opnemen die u niet hebt gedefinieerd als onderdeel van de waarden die u wilt classificeren (bijvoorbeeld Hotel ID AMS789), selecteert u **[!UICONTROL Show original values]**. Dit zorgt ervoor dat AMS789 deel zal uitmaken van de output voor het afgeleide gebied, ondanks dat die waarde niet wordt geclassificeerd.
+
+![Screenshot van regel 1 van classificeren](assets/classify-1.png)
 
 ### Gegevens na {#classify-uc1-dataafter}
 
@@ -517,7 +522,7 @@ U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschi
 
 U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL CLASSIFY] functie om een regel te definiëren waarin u waarden van uw bestaande [!UICONTROL Page Name] veld en vervangen door bijgewerkte correcte waarden.
 
-![Screenshot van regel 2 van Classificeren](assets/lookup-2.png)
+![Screenshot van regel 2 van Classificeren](assets/classify-2.png)
 
 ### Gegevens na {#classify-uc2-dataafter}
 
