@@ -3,9 +3,9 @@ title: Overzicht van tekenreeksen
 description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -117,10 +117,14 @@ Stikken is een baanbrekende en robuuste functie, maar heeft beperkingen op de ma
 * Het veld transient ID moet één type id bevatten (id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen plaatsvinden met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het veld voor de tijdelijke id, wordt de id geselecteerd door stitching op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere de Ann, selecteert u Ann door te stitching.
 * Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt de Customer Journey Analytics het stitching van gegevens voor dat apparaat op.
+* Wees voorzichtig met scenario&#39;s waarin de tijdelijke id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld &#39;Ongedefinieerd&#39;. Zie [Veelgestelde vragen](faq.md) voor meer informatie .
 
 Let op het verschil tussen aanstikken en:
 
 * De samenvoeging van twee of meer datasets. Stitching is slechts op één dataset van toepassing. Het samenvoegen van datasets komt als resultaat van vestiging een verbinding van de Customer Journey Analytics voor en het selecteren van zelfde identiteitskaart van de Persoon over de geselecteerde datasets in de verbinding.
 
 * De verbinding van twee datasets. In Customer Journey Analytics, wordt een verbinding vaak gebruikt voor raadplegingen of classificaties in Analysis Workspace. Hoewel het stitching gebruikmaakt verbind zich aan functionaliteit, impliceert het proces zelf veel meer dan verbindingen.
+
+
+
 
