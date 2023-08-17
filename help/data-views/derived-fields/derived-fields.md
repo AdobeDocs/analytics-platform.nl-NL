@@ -4,9 +4,9 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
 workflow-type: tm+mt
-source-wordcount: '4165'
+source-wordcount: '4196'
 ht-degree: 4%
 
 ---
@@ -173,84 +173,9 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
 - beperkingen (indien van toepassing).
 
-
-<!-- Concatenate -->
-
-### Samenvoegen
-
-Hiermee voegt u veldwaarden samen tot één nieuw afgeleid veld met gedefinieerde scheidingstekens.
-
-+++ Details
-
-## Specificaties {#concatenate-io}
-
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
-|---|---|---|---|---|
-| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li><li>String</li></ul></li><li>[!UICONTROL Delimiter]:<ul><li>String</li></ul></li> </ul> | <p>N.v.t.</p> | <p>2 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
-
-{style="table-layout:auto"}
-
-
-## Hoofdletters gebruiken {#concatenate-uc}
-
-U verzamelt momenteel de codes van de luchthaven van herkomst en de luchthaven van bestemming als afzonderlijke velden. U wilt de twee velden samenvoegen tot één afmeting, gescheiden door een afbreekstreepje (-). Zo kunt u de combinatie oorsprong en bestemming analyseren om hoogste geboekte routes te identificeren.
-
-Veronderstellingen:
-
-- Oorsprong en doelwaarden worden verzameld in afzonderlijke velden in dezelfde tabel.
-- De gebruiker bepaalt of het scheidingsteken &#39;-&#39; tussen de waarden moet worden gebruikt.
-
-Stel dat de volgende boekingen plaatsvinden:
-
-- De klant ABC123 boekt een vlucht tussen Salt Lake City (SLC) en Orlando (MCO)
-- De klant ABC456 boekt een vlucht tussen Salt Lake City (SLC) en Los Angeles (LAX)
-- De klant ABC789 boekt een vlucht tussen Salt Lake City (SLC) en Seattle (SEA)
-- Klant ABC987 boekt een vlucht tussen Salt Lake City (SLC) en San Jose (SJO)
-- De klant ABC654 boekt een vlucht tussen Salt Lake City (SLC) en Orlando (MCO)
-
-Het gewenste verslag moet er als volgt uitzien:
-
-| Oorsprong/bestemming | Bladwijzers |
-|----|---:|
-| SLC-MCO | 2 |
-| SLC-LAX | 1 |
-| SLC-SEA | 1 |
-| SLC-SJO | 1 |
-
-{style="table-layout:auto"}
-
-
-### Gegevens voor {#concatenate-uc-databefore}
-
-| Oorsprong | Doel |
-|----|---:|
-| SLC | MCO |
-| SLC | LAX |
-| SLC | ZEE |
-| SLC | SJO |
-| SLC | MCO |
-
-{style="table-layout:auto"}
-
-### Afgeleid veld {#concatenate-derivedfield}
-
-U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
-
-![Schermafbeelding van de regel Samenvoegen](assets/concatenate.png)
-
-### Gegevens na {#concatenate-dataafter}
-
-| Oorsprong - Bestemming<br/>(afgeleid veld) |
-|---|
-| SLC-MCO |
-| SLC-LAX |
-| SLC-SEA |
-| SLC-SJO |
-| SLC-MCO |
-
-{style="table-layout:auto"}
-
-+++
+>[!NOTE]
+>
+>De naam van de opzoekfunctie is gewijzigd in [Classificeren](#classify). Zie de [Classificeren](#classify) voor meer informatie.
 
 <!-- CASE WHEN -->
 
@@ -482,6 +407,209 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 
 +++
 
+<!-- CLASSIFY -->
+
+### Classificeren
+
+Definieert een set waarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
+
+
+
+
++++ Details
+
+>[!NOTE]
+>
+>Deze functie heet oorspronkelijk Opzoeken, maar is hernoemd naar Classificeren om ruimte te maken voor een toekomstige opzoekfunctie met andere functionaliteit.
+
+## Specificaties {#classify-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+
+## Hoofdlettergebruik 1 {#classify-uc1}
+
+U hebt een CSV-bestand met een sleutelkolom voor `hotelID` en een of meer aanvullende kolommen met de `hotelID`: `city`, `rooms`, `hotel name`.
+U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van de `hotelID` in het CSV-bestand.
+
+**CSV-bestandsstructuur en -inhoud**
+
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
+|---|---|---:|---|
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+**Huidig rapport**
+
+| [!DNL Hotel ID] | Productweergaven |
+|---|---:|
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
+
+{style="table-layout:auto"}
+
+
+**Gewenst rapport**
+
+| [!DNL Hotel Name] | Productweergaven |
+|----|----:|
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
+
+{style="table-layout:auto"}
+
+### Gegevens voor {#classify-uc1-databefore}
+
+| [!DNL Hotel ID] |
+|----|
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
+
+{style="table-layout:auto"}
+
+
+### Afgeleid veld {#classify-uc1-derivedfield}
+
+U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL CLASSIFY] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
+
+![Screenshot van regel 1 van classificeren](assets/lookup-1.png)
+
+### Gegevens na {#classify-uc1-dataafter}
+
+| [!DNL Hotel Name] |
+|----|
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+
+## Hoofdlettergebruik 2 {#classify-uc2}
+
+U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschillende pagina&#39;s. Deze gemengde verzameling van waarden breekt de rapportage af.
+
+### Gegevens voor {#classify-uc2-databefore}
+
+| [!DNL Page Name] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| `http://www.adobetravel.ca/Hotel-Search` |
+| `https://www.adobetravel.com/Package-Search` |
+| [!DNL Deals & Offers] |
+| `http://www.adobetravel.ca/user/reviews` |
+| `https://www.adobetravel.com.br/Generate-Quote/preview` |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#classify-uc2-derivedfield}
+
+U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL CLASSIFY] functie om een regel te definiëren waarin u waarden van uw bestaande [!UICONTROL Page Name] veld en vervangen door bijgewerkte correcte waarden.
+
+![Screenshot van regel 2 van Classificeren](assets/lookup-2.png)
+
+### Gegevens na {#classify-uc2-dataafter}
+
+| [!DNL Page Name (updated)] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
+
++++
+
+<!-- CONCATENATE -->
+
+### Samenvoegen
+
+Hiermee voegt u veldwaarden samen tot één nieuw afgeleid veld met gedefinieerde scheidingstekens.
+
++++ Details
+
+## Specificaties {#concatenate-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li><li>String</li></ul></li><li>[!UICONTROL Delimiter]:<ul><li>String</li></ul></li> </ul> | <p>N.v.t.</p> | <p>2 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+
+## Hoofdletters gebruiken {#concatenate-uc}
+
+U verzamelt momenteel de codes van de luchthaven van herkomst en de luchthaven van bestemming als afzonderlijke velden. U wilt de twee velden samenvoegen tot één afmeting, gescheiden door een afbreekstreepje (-). Zo kunt u de combinatie oorsprong en bestemming analyseren om hoogste geboekte routes te identificeren.
+
+Veronderstellingen:
+
+- Oorsprong en doelwaarden worden verzameld in afzonderlijke velden in dezelfde tabel.
+- De gebruiker bepaalt of het scheidingsteken &#39;-&#39; tussen de waarden moet worden gebruikt.
+
+Stel dat de volgende boekingen plaatsvinden:
+
+- De klant ABC123 boekt een vlucht tussen Salt Lake City (SLC) en Orlando (MCO)
+- De klant ABC456 boekt een vlucht tussen Salt Lake City (SLC) en Los Angeles (LAX)
+- De klant ABC789 boekt een vlucht tussen Salt Lake City (SLC) en Seattle (SEA)
+- Klant ABC987 boekt een vlucht tussen Salt Lake City (SLC) en San Jose (SJO)
+- De klant ABC654 boekt een vlucht tussen Salt Lake City (SLC) en Orlando (MCO)
+
+Het gewenste verslag moet er als volgt uitzien:
+
+| Oorsprong/bestemming | Bladwijzers |
+|----|---:|
+| SLC-MCO | 2 |
+| SLC-LAX | 1 |
+| SLC-SEA | 1 |
+| SLC-SJO | 1 |
+
+{style="table-layout:auto"}
+
+
+### Gegevens voor {#concatenate-uc-databefore}
+
+| Oorsprong | Doel |
+|----|---:|
+| SLC | MCO |
+| SLC | LAX |
+| SLC | ZEE |
+| SLC | SJO |
+| SLC | MCO |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#concatenate-derivedfield}
+
+U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
+
+![Schermafbeelding van de regel Samenvoegen](assets/concatenate.png)
+
+### Gegevens na {#concatenate-dataafter}
+
+| Oorsprong - Bestemming<br/>(afgeleid veld) |
+|---|
+| SLC-MCO |
+| SLC-LAX |
+| SLC-SEA |
+| SLC-SJO |
+| SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
 
 <!-- FIND AND REPLACE -->
 
@@ -552,127 +680,6 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICO
 
 +++
 
-
-<!-- LOOKUP -->
-
-### Opzoeken
-
-Definieert een set opzoekwaarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
-
-+++ Details
-
-
-## Specificaties {#lookup-io}
-
-| Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
-|---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
-
-{style="table-layout:auto"}
-
-
-## Hoofdlettergebruik 1 {#lookup-uc1}
-
-U hebt een CSV-bestand met een sleutelkolom voor `hotelID` en een of meer aanvullende kolommen met de `hotelID`: `city`, `rooms`, `hotel name`.
-U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van de `hotelID` in het CSV-bestand.
-
-**CSV-bestandsstructuur en -inhoud**
-
-| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
-|---|---|---:|---|
-| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
-| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
-| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-**Huidig rapport**
-
-| [!DNL Hotel ID] | Productweergaven |
-|---|---:|
-| [!DNL SLC123] | 200 |
-| [!DNL LX342] | 198 |
-| [!DNL SFO456] | 190 |
-
-{style="table-layout:auto"}
-
-
-**Gewenst rapport**
-
-| [!DNL Hotel Name] | Productweergaven |
-|----|----:|
-| [!DNL SLC Downtown] | 200 |
-| [!DNL LA Airport] | 198 |
-| [!DNL Market Street] | 190 |
-
-{style="table-layout:auto"}
-
-### Gegevens voor {#lookup-uc1-databefore}
-
-| [!DNL Hotel ID] |
-|----|
-| [!DNL SLC123] |
-| [!DNL LAX342] |
-| [!DNL SFO456] |
-
-{style="table-layout:auto"}
-
-
-### Afgeleid veld {#lookup-uc1-derivedfield}
-
-U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
-
-![Schermafbeelding van Lookup-regel 1](assets/lookup-1.png)
-
-### Gegevens na {#lookup-uc1-dataafter}
-
-| [!DNL Hotel Name] |
-|----|
-| [!DNL SLC Downtown] |
-| [!DNL LA Airport] |
-| [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-
-## Hoofdlettergebruik 2 {#lookup-uc2}
-
-U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschillende pagina&#39;s. Deze gemengde verzameling van waarden breekt de rapportage af.
-
-### Gegevens voor {#lookup-uc2-databefore}
-
-| [!DNL Page Name] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| `http://www.adobetravel.ca/Hotel-Search` |
-| `https://www.adobetravel.com/Package-Search` |
-| [!DNL Deals & Offers] |
-| `http://www.adobetravel.ca/user/reviews` |
-| `https://www.adobetravel.com.br/Generate-Quote/preview` |
-
-{style="table-layout:auto"}
-
-### Afgeleid veld {#lookup-uc2-derivedfield}
-
-U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren waarin u waarden van uw bestaande [!UICONTROL Page Name] veld en vervangen door bijgewerkte correcte waarden.
-
-![Schermafbeelding van regel 2 Opzoeken](assets/lookup-2.png)
-
-### Gegevens na {#lookup-uc2-dataafter}
-
-| [!DNL Page Name (updated)] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| [!DNL Hotel Search] |
-| [!DNL Package Search] |
-| [!DNL Deals & Offers] |
-| [!DNL Reviews] |
-| [!DNL Generate Quote] |
-
-+++
-
 <!-- MERGE FIELDS -->
 
 ### Velden samenvoegen
@@ -691,7 +698,7 @@ Hiermee voegt u waarden uit twee verschillende velden samen tot een nieuw afgele
 
 ## Hoofdletters gebruiken {#merge-fields-uc}
 
-U zou een nieuwe afmeting willen tot stand brengen die uit het gebied van de paginanaam en het gebied van de vraagreden met de bedoeling wordt gemaakt om de reis over kanalen te analyseren.
+U zou een afmeting tot stand willen brengen die uit het gebied van de paginanaam en het gebied van de vraagreden met de bedoeling wordt gemaakt om de reis over kanalen te analyseren.
 
 ### Gegevens voor {#merge-fields-uc-databefore}
 
