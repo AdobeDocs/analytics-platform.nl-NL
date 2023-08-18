@@ -1,17 +1,17 @@
 ---
 title: Hoe te om werkboeken te plannen gebruikend Report Builder in Customer Journey Analytics
-description: Beschrijft hoe te om de programmaeigenschap in Report Builder te gebruiken
+description: Leer hoe u de planningsfunctie in Report Builder gebruikt
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 4c48aa3413ff3c2d3b29e7fc1ca4c73a80c0972d
+exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
+source-git-commit: d40638272263a389421adfe224649e2b905c652b
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
-
 
 # Workbooks plannen
 
@@ -25,9 +25,9 @@ De eigenschap van het Programma staat u ook aan de bescherming van het opstellin
 
 ## Een werkmap plannen
 
-Gebruik de de taakknoop van het Programma in de hub van Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
+Gebruik de de taakknoop van het Programma in de hub van de Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
 
-1. Klik de knoop van het Programma in de hub van Report Builder.
+1. Klik de knoop van het Programma in de hub van de Report Builder.
 
    ![](./assets/schedule-button.png){width="55%"}
 
@@ -49,7 +49,7 @@ Gebruik de de taakknoop van het Programma in de hub van Report Builder om snel e
 
 1. (Optioneel) Selecteer **.zip-compressie** om het bestand te comprimeren en wachtwoordbeveiliging voor het bestand in te stellen.
 
-   Wanneer u deze selectie maakt, wordt u gevraagd een wachtwoord in te voeren om het bestand te openen. Dit is nuttig als u zich zorgen maakt over gegevensbeveiliging en u het werkboek met een wachtwoord wilt beveiligen. Als u het bestand met een wachtwoord wilt beveiligen, moet u **.zip-compressie**. Het wachtwoord moet ten minste 8 tekens hebben en een getal en een speciaal teken bevatten.
+   Wanneer u deze selectie maakt, wordt u gevraagd een wachtwoord in te voeren om het bestand te openen. Dit is nuttig als u zich zorgen maakt over gegevensveiligheid en u wachtwoord het werkboek wilt beschermen. Als u het bestand met een wachtwoord wilt beveiligen, moet u **.zip-compressie**. Het wachtwoord moet ten minste 8 tekens hebben en een getal en een speciaal teken bevatten.
 
    ![alt-beschrijving](./assets/zip-compression.png){width="55%"}
 
@@ -71,7 +71,7 @@ Gebruik de de taakknoop van het Programma in de hub van Report Builder om snel e
 
    ![alt-beschrijving](./assets/send-on-schedule.png){width="55%"}
 
-   U zult een bevestigingstoast bij de bodem van de hub van Report Builder zien en het geplande werkboek is vermeld onder het lusje van Werkboeken.
+   U zult een bevestigingstoast bij de bodem van de hub van de Report Builder zien en het geplande werkboek is vermeld onder het lusje van Werkboeken.
 
    ![alt-beschrijving](./assets/confirmation-toast.png){width="55%"}
 
@@ -91,17 +91,21 @@ U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het 
 
 1. In de sectie van het Programma van de hub van de Report Builder, klik de Werkboeken tabel. Gebruik deze weergave om een lijst met alle geplande werkboeken weer te geven.
 
-1. Selecteer een werkboek. Verscheidene hulpmiddelen worden getoond die u toestaan om het werkboek uit te geven, het programma te veranderen, het programma te pauzeren en opnieuw te beginnen, of het programma te schrappen.
+1. Selecteer een werkboek. Verscheidene hulpmiddelen worden getoond die u toestaan om het werkboek uit te geven, de planningstaak uit te geven, de planningstaak te pauzeren en opnieuw te beginnen, een gepland taakrapport te downloaden, of de planningstaak te schrappen.
 
-   ![alt-beschrijving](./assets/edit-icons.png){width="55%"}
+   ![Screenshot die de werkboekplanningspictogrammen toont.](./assets/schedule-icons.png){width="15%"}
 
-* (Optioneel) Klik op het potloodpictogram om het werkboekschema te bewerken.
+* (Facultatief) klik het potloodpictogram om de werkboekplanningstaak uit te geven.
 
 * (Optioneel) Klik op het klokpictogram om een geschiedenis van elke geplande taak weer te geven.
 
-* (Optioneel) Klik op het pictogram Pauzeren om het distributieprogramma te pauzeren en opnieuw te starten. Dit is nuttig als u het werkboek moet wijzigen alvorens het werkboek wordt verzonden. Klik nogmaals op het pauzepictogram als u de distributie opnieuw wilt starten.
+* (Optioneel) Klik op het pauzepictogram om de taak van het distributieprogramma te onderbreken en opnieuw te starten. Dit is nuttig als u het werkboek moet wijzigen alvorens het werkboek wordt verzonden. Klik nogmaals op het pauzepictogram als u de distributie opnieuw wilt starten.
 
-* (Optioneel) Klik op de prullenbak om het schema te verwijderen.
+* (Facultatief) klik het downloadpictogram om een exemplaar van de werkboekprogrammataak te downloaden.
+
+* (Optioneel) Klik op de prullenbak om de geplande taak te verwijderen.
+
+  ![Screenshot met de lijst met planningstaken.](./assets/selected-workbook.png){width="20%"}
 
 ## De status van geplande taken controleren
 
@@ -122,6 +126,3 @@ U kunt de geschiedenis van een specifiek werkboek van het lusje van Werkboeken o
 Het werkboekfilter zal dan bij de bovenkant van de geschiedenis verschijnen. Klik op de x naast het filter om de geschiedenis van alle geplande taken opnieuw weer te geven.
 
 ![alt-beschrijving](./assets/history3.png){width="55%"}
-
-
-
