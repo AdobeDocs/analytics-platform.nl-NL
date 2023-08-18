@@ -4,10 +4,10 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
+source-git-commit: 0160aee587c1f88e4889f26757b1962c3d59b9fa
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 5%
+source-wordcount: '2530'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Verbeterde Report Builder | Bijgewerkte inhoud voor [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) om informatie te verstrekken voor het downloaden van geplande taken. Bijgewerkte inhoud voor  [Een gegevensblok maken](/help/report-builder/create-a-data-block.md) om informatie te verstrekken voor het gebruiken van de datum van het Begin als afmeting. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Ondersteuning voor Adobe Customer Journey Analytics-functies | Meer informatie is toegevoegd in het dialoogvenster *Op een nieuwe manier ondersteund* tabel over de sessionisatiemogelijkheden in Customer Journey Analytics in vergelijking met Adobe Analytics. [Meer informatie](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evolutie uit Adobe Analytics | De *(Opnieuw)Marketingkanalen configureren* sectie met een verwijzing naar de Afgeleide gebieden de functiesjabloon van de Kanalen van de Marketing. [Meer informatie](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
