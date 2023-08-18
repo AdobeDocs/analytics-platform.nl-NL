@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Stel de begindatum in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u van de begindatum moet duidelijk zijn.
 
-   ![Screenshot met de begindatum in de lijst met afmetingen.](./assets/start-date-dimension.png){width="15%"}
+   ![Screenshot met de begindatum in de lijst met afmetingen.](./assets/start-date-dimension.png){width="30%"}
 
 1. Rangschik de punten in de ruit van de Lijst om de lay-out van uw gegevensblok aan te passen.
 

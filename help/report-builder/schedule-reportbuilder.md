@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: d40638272263a389421adfe224649e2b905c652b
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -93,7 +93,7 @@ U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het 
 
 1. Selecteer een werkboek. Verscheidene hulpmiddelen worden getoond die u toestaan om het werkboek uit te geven, de planningstaak uit te geven, de planningstaak te pauzeren en opnieuw te beginnen, een gepland taakrapport te downloaden, of de planningstaak te schrappen.
 
-   ![Screenshot die de werkboekplanningspictogrammen toont.](./assets/schedule-icons.png){width="15%"}
+   ![Screenshot die de werkboekplanningspictogrammen toont.](./assets/schedule-icons.png){width="20%"}
 
 * (Facultatief) klik het potloodpictogram om de werkboekplanningstaak uit te geven.
 
@@ -105,7 +105,7 @@ U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het 
 
 * (Optioneel) Klik op de prullenbak om de geplande taak te verwijderen.
 
-  ![Screenshot met de lijst met planningstaken.](./assets/selected-workbook.png){width="20%"}
+  ![Screenshot met de lijst met planningstaken.](./assets/selected-workbook.png){width="40%"}
 
 ## De status van geplande taken controleren
 
