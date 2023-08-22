@@ -3,9 +3,9 @@ title: Overzicht van tekenreeksen
 description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+source-git-commit: 52d47e777e8c9f7e1e73f4131f19d7df280cb2a3
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Wanneer u datasets met gelijkaardige persoon IDs combineert, wordt de attributie
 
 Jammer genoeg, niet alle op gebeurtenis-gebaseerde datasets die deel van uw verbinding in Customer Journey Analytics uitmaken zijn voldoende bevolkt met gegevens om deze attributie uit de doos te steunen. Vooral web-based of mobiel-gebaseerde ervaringsdatasets hebben vaak geen daadwerkelijke informatie van persoonidentiteitskaart beschikbaar over alle gebeurtenissen.
 
-Door middel van tekenreeksen kunnen identiteiten binnen rijen van één gegevensset opnieuw worden ingesteld, zodat de persoon-id (naastgelegen ID) voor elke gebeurtenis beschikbaar is. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt de gangbare waarde voor de tijdelijke id bepaald die kan worden gebruikt als aangesloten id. Hierdoor kunnen afwijkende records worden omgezet in één naastgelegen id voor analyse op persoonlijke niveau in plaats van op apparaat- of cookieniveau.
+Door middel van tekenreeksen kunnen identiteiten binnen rijen van één gegevensset opnieuw worden ingesteld, zodat de persoon-id (naastgelegen ID) voor elke gebeurtenis beschikbaar is. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt de gangbare waarde voor de tijdelijke id bepaald die kan worden gebruikt als aangesloten id. Door dit opnieuw activeren kunnen afwijkende records worden omgezet in één naadloze id voor analyse op persoonlijke niveau in plaats van op apparaat- of cookieniveau.
 
 U profiteert van kanaalanalyse als u één of meerdere van uw gestikte datasets met andere datasets, zoals de gegevens van het vraagcentrum, als deel van het bepalen van uw verbinding van de Customer Journey Analytics combineert. Dit veronderstelt dat die andere datasets reeds een persoonsidentiteitskaart op elke rij, gelijkend op stitched ID bevatten.
 
@@ -102,9 +102,11 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 
 >[!IMPORTANT]
 >
->Pas om het even welke verandering toe die u aan het globale schema van de gebeurtenisdataset ook aan het nieuwe gesloten datasetschema aanbrengt, anders breekt het de gestikte dataset.
+>* Pas om het even welke verandering toe die u aan het globale schema van de gebeurtenisdataset ook aan het nieuwe gesloten datasetschema aanbrengt, anders breekt het de gestikte dataset.
 >
->Ook, als u de brondataset verwijdert, stopt de gestikte dataset verwerking en wordt verwijderd door het systeem.
+>* Als u de brondataset verwijdert, stopt de gestikte dataset verwerking en wordt verwijderd door het systeem.
+>
+>* De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan het gestikte datasetschema. Als u de etiketten van het gegevensgebruik hebt die op het schema van de brondataset worden toegepast, moet u deze etiketten van het gegevensgebruik op het gestikte datasetschema manueel toepassen. Zie [Labels voor gegevensgebruik beheren in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en) voor meer informatie .
 
 Stikken is een baanbrekende en robuuste functie, maar heeft beperkingen op de manier waarop het kan worden gebruikt.
 
@@ -123,7 +125,7 @@ Let op het verschil tussen aanstikken en:
 
 * De samenvoeging van twee of meer datasets. Stitching is slechts op één dataset van toepassing. Het samenvoegen van datasets komt als resultaat van vestiging een verbinding van de Customer Journey Analytics voor en het selecteren van zelfde identiteitskaart van de Persoon over de geselecteerde datasets in de verbinding.
 
-* De verbinding van twee datasets. In Customer Journey Analytics, wordt een verbinding vaak gebruikt voor raadplegingen of classificaties in Analysis Workspace. Hoewel het stitching gebruikmaakt verbind zich aan functionaliteit, impliceert het proces zelf veel meer dan verbindingen.
+* De verbinding van twee datasets. In Customer Journey Analytics, wordt een verbinding vaak gebruikt voor raadplegingen of classificaties in Analysis Workspace. Hoewel het stitching gebruikmaakt verbind zich aan functionaliteit, impliceert het proces zelf meer dan verbindingen.
 
 
 
