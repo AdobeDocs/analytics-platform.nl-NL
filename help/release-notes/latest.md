@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0160aee587c1f88e4889f26757b1962c3d59b9fa
+source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Huidige Adobe Customer Journey Analytics-releaseopmerkingen (augustus 2023)
 
-**Laatste update**: 17 augustus 2023
+**Laatste update**: 24 augustus 2023
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus tot 13 september 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -21,10 +21,10 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus to
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Verbeterde Report Builder** | <ul><li>U kunt een geplande taak downloaden van het lusje van Werkboeken dan titel het, sparen het, en het delen. [Meer informatie](/help/report-builder/schedule-reportbuilder.md)</li><li>De datum van het begin als afmeting staat u toe om de begindatum van het gegevensblok als afmeting in de output van het gegevensblok te oppervlakten. [Meer informatie](/help/report-builder/create-a-data-block.md) </li></ul> | N.v.t. | 17 augustus 2023 |
-| **Valutaconversie** | Klantreis voegt de mogelijkheid toe om meerdere valuta&#39;s te ondersteunen. U kunt een valuta converteren naar een andere valuta in de weergave-instellingen voor gegevens. [Meer informatie](/help/data-views/component-settings/format.md) | N.v.t. | 31 augustus 2023 |
-| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | We voegen een correlatie-id toe voor het eenvoudig samenvoegen van classificatiegegevens voor Adobe Target-activiteiten en ervaringsgebeurtenissen. | N.v.t. | 31 augustus 2023 |
-| **Activity Manager rapporteren** | Biedt beheerders gedetailleerde zichtbaarheid bij het rapporteren van verbruik voor elke verbinding, zodat beheerders eenvoudig capaciteitsproblemen tijdens piekrapportagetijden kunnen vaststellen en verhelpen. | N.v.t. | 6 september 2023 |
-| **PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van de Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) | N.v.t. | 13 september 2023 |
+| **Valutaconversie** | Klantreis voegt de mogelijkheid toe om meerdere valuta&#39;s te ondersteunen. U kunt een valuta converteren naar een andere valuta in de weergave-instellingen voor gegevens. [Meer informatie](/help/data-views/component-settings/format.md) | N.v.t. | 30 augustus 2023 |
+| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | We voegen een correlatie-id toe voor het eenvoudig samenvoegen van classificatiegegevens voor Adobe Target-activiteiten en ervaringsgebeurtenissen. | N.v.t. | 11 september 2023 |
+| **Activity Manager rapporteren** | Biedt beheerders gedetailleerde zichtbaarheid bij het rapporteren van verbruik voor elke verbinding, zodat beheerders eenvoudig capaciteitsproblemen tijdens piekrapportagetijden kunnen vaststellen en verhelpen. | N.v.t. | 12 september 2023 |
+| **PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van de Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) | N.v.t. | 12 september 2023 |
 
 {style="table-layout:auto"}
 
