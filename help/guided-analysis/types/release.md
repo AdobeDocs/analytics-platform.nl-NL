@@ -2,9 +2,10 @@
 title: Weergave opheffen
 description: Vergelijk de prestaties in gelijke perioden vóór en na de release.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: productanalyse
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,9 @@ De **[!UICONTROL Release]** de weergave toont een vergelijking van de manier waa
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Algemene prestatiebeoordeling:** Het vergelijken van algemene zeer belangrijke indicatoren, zoals betrokkenheidsmaatregelen, kan u helpen bepalen als een bepaalde versie over het geheel genomen succesvol was.
-* **Toezicht**: Als er bepaalde maatregelen zijn waarvan u verwacht dat ze vlak blijven wanneer er wijzigingen worden aangebracht, zoals webvitalen zoals laadtijd of logins, vergelijkt u deze voor en na de release om ervoor te zorgen dat de release geen onbedoelde gevolgen heeft.
-* **Aanpassing van functies**: Als een productupdate zich op het verbeteren van een bepaalde eigenschap concentreert, kunt u deze mening gebruiken om het gebruik van die eigenschap vóór en na de productupdate direct te vergelijken.
-* **Bugdetectie**: Het volgen van het aantal fouten vóór en na een versie kan een vroege indicator van klantenkwesties verstrekken. Als u onmiddellijk na een release een toename van fouten opmerkt, kunt u samenwerken met ontwikkelingsteams of ontwikkelingsteams om het probleem te identificeren en te verhelpen, zodat de klant niet meer last krijgt.
+* **Toezicht**: Als er bepaalde maatregelen zijn waarvan u verwacht dat ze vlak blijven wanneer er wijzigingen worden aangebracht, zoals webvitalen zoals laadtijd of logins, vergelijkt u deze voor en na de wijzigingen om ervoor te zorgen dat de release geen onbedoelde gevolgen heeft.
+* **Aanpassing van functies**: Als een productupdate gericht is op het verbeteren van een bepaalde eigenschap, kunt u deze mening gebruiken om het gebruik van die eigenschap voor en na de productupdate direct te vergelijken.
+* **Bugdetectie**: Het volgen van het aantal fouten vóór en na een versie kan een vroege indicator van klantenkwesties verstrekken. Als u onmiddellijk na een release een toename van fouten opmerkt, kunt u samenwerken met ontwikkelingsteams of ontwikkelingsteams om het probleem te identificeren en te verhelpen, zodat de klant niet meer te lijden krijgt.
 
 ## Query-rail
 
@@ -44,4 +45,4 @@ De weergave Vrijgeven biedt de volgende diagraminstellingen, die kunnen worden a
 De datumselectie in de effectbeoordeling werkt anders dan andere analysetypen, aangezien het verslag zich rond de datum bevindt die in de queryrail is gespecificeerd. De volgende opties zijn beschikbaar:
 
 * **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Geldige opties zijn [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], en [!UICONTROL Quarterly]. Het wijzigen van het interval heeft invloed op de opties die beschikbaar zijn voor de periode Voor en Na.
-* **[!UICONTROL Before and after period]**: De hoeveelheid tijd die voor en na de datum moet worden geanalyseerd die in de querytrack wordt opgegeven. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.
+* **[!UICONTROL Before and after period]**: De hoeveelheid tijd die moet worden geanalyseerd voor en na de datum die is opgegeven in de querytrack. Welke opties beschikbaar zijn, is afhankelijk van de [!UICONTROL Interval] selectie.

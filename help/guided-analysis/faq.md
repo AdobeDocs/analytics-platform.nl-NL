@@ -3,9 +3,10 @@ title: Veelgestelde vragen over analyse met instructies
 description: Veelgestelde vragen over de analyse met instructies.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+keywords: productanalyse
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ Veelgestelde vragen over de analyse met instructies.
 
 +++**Hoe kan mijn organisatie worden voorzien voor Geleide analyse?**
 
-Analyse met instructies is een betaalde aanvulling op Customer Journey Analytics. Neem contact op met het accountteam van Adobe als u deze invoegtoepassing wilt gaan gebruiken.
+Analyse met instructies is een betaalde aanvulling op de Customer Journey Analytics. Neem contact op met het accountteam van de Adobe als u deze invoegtoepassing wilt gaan gebruiken.
 
 +++
 
 +++**Welke implementatiewijzigingen zijn vereist om de analyse met instructies te gebruiken?**
 
-Als u vandaag reeds Customer Journey Analytics gebruikt, zijn geen extra implementatieveranderingen nodig. De geleide analyse gebruikt zelfde [Gegevensweergaven](../data-views/data-views.md) en [Verbindingen](../connections/overview.md) zoals andere CJA-interfaces zoals [Analysis Workspace](../analysis-workspace/home.md).
+Als u vandaag al Customer Journey Analytics gebruikt, zijn geen extra implementatieveranderingen nodig. De geleide analyse gebruikt zelfde [Gegevensweergaven](../data-views/data-views.md) en [Verbindingen](../connections/overview.md) zoals andere CJA-interfaces zoals [Analysis Workspace](../analysis-workspace/home.md).
 
 Als u eindgebruikers wilt laten profiteren van de analyse met instructies, kunt u het beste een krachtig gebeurtenisschema en beheerstrategie toepassen in Adobe Experience Platform en [Gegevensweergaven](../data-views/data-views.md).
 
@@ -56,7 +57,7 @@ De geleide analyse gebruikt termijnen die vaker onder productteams worden gebrui
 
 while [Analysis Workspace](../analysis-workspace/home.md) en de analyse Met instructies gebruikt de zelfde onderliggende gegevens, de manier dat elk hulpmiddel u toelaat om vragen van die gegevens te vormen is verschillend.
 
-* **Analysis Workspace is een op dimensies gerichte ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen doorgaans metriek zijn. U kunt filters toepassen in zowel rijen als kolommen om de gewenste gegevens te verkrijgen.
+* **Analysis Workspace is een op dimensies gerichte ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen doorgaans metriek zijn. Filters kunnen zowel in rijen als in kolommen worden toegepast om de gewenste gegevens te verkrijgen.
 
 * **De geleide analyse is een gebeurtenis-gecentreerde ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en filters kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
 

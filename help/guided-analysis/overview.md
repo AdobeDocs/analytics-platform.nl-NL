@@ -1,18 +1,19 @@
 ---
 title: Overzicht van geleide analyse
 description: Een methode om gegevens in Customer Journey Analytics te analyseren die productteams snel inzichten van hoge kwaliteit laat krijgen. Wordt ook wel Product Analytics genoemd.
+keywords: productanalyse
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
 
 # Overzicht van geleide analyse
 
-Adobe Product Analytics stelt productteams in staat zelf gegevens en inzichten over hun productervaring te bedienen door middel van geleide analyseworkflows, gebaseerd op de kanaalgegevens van Customer Journey Analytics. De geleide analyse is een rapporteringsformaat dat productteams toestaat om hun gegevensbehoeften snel zelf-te dienen zodat zij high-quality inzicht snel kunnen krijgen en meer gegeven-gedreven productbesluiten kunnen nemen. Interfunctionele teams kunnen in real time verbinding maken om deze rapporten te gebruiken en te begrijpen.
+Adobe Product Analytics stelt productteams in staat zelf gegevens en inzichten over hun productervaring te bedienen door middel van geleide analyseworkflows, gebaseerd op de kanaalgegevens van de Customer Journey Analytics. De geleide analyse is een rapporteringsformaat dat productteams toestaat om hun gegevensbehoeften snel zelf-te dienen zodat zij high-quality inzicht snel kunnen krijgen en meer gegeven-gedreven productbesluiten kunnen nemen. Interfunctionele teams kunnen in real time verbinding maken om deze rapporten te gebruiken en te begrijpen.
 
 Net als Analysis Workspace en Mobile-scorecards gebruikt een analyserapport met instructies gegevens van een [Gegevens, weergave](../data-views/data-views.md), die verwijst naar gegevens in Adobe Experience Platform via een [Verbinding](../connections/overview.md). Alle rapporten die zijn gemaakt in de analyse met instructies kunnen naadloos worden overgedragen naar Analysis Workspace voor aanvullend onderzoek.
 
@@ -34,7 +35,7 @@ De geleide analyse categoriseert meningstypes in **Analysetypen**. De volgende a
 
 ## Toegang
 
-Als uw organisatie is ingericht voor geleide analyse, kunt u tot het van de homepage van de Customer Journey Analytics toegang hebben.
+Als uw organisatie is voorzien voor geleide analyse, kunt u tot het van de homepage van de Customer Journey Analytics toegang hebben.
 
 1. Klikken **[!UICONTROL Guided analysis]** van de startpagina om rechtstreeks naar de [Weergave trends gebruiken](types/usage.md).
 
@@ -56,13 +57,13 @@ Ongeacht het type analyse bestaat een geleide analyse uit de volgende UI-element
 | ![Diagram](assets/chart.png) | Diagram | Een visualisatie van de geretourneerde gegevens op basis van uw invoer van de queryregels en -instellingen. Welke visualisatie u ziet hangt van de mening en de montages boven de grafiek af. De beschikbare meningen hangen van het analysetype boven vraagspoor af. Het diagram bevat ook: <ul><li>**Knopinfo**: Houd de muisaanwijzer boven een gegevenspunt van een diagram om knopinfo met meer informatie weer te geven.</li><li>**Legenda**: Plaats de muisaanwijzer boven de legenda van het diagram om reeksdefinities beschikbaar te maken, indien beschikbaar.</li><li>**Handelingen klikken**: Maak beschikbare volgende handelingen beschikbaar door met de linkermuisknop op een gegevenspunt te klikken. Opties omvatten **Segment opslaan**.</li></ul> |
 | ![Tabel](assets/table.png) | Tabel | Een tabelweergave van de geretourneerde gegevens op basis van uw invoer van de queryregels en -instellingen. Kolommen in de tabel zijn afhankelijk van het weergavetype boven het diagram. De beschikbare meningen hangen van het analysetype boven vraagspoor af. De tabel bevat ook: <ul><li>**Handelingen klikken**: Klik op de knop **[!UICONTROL More]** -menu. Opties omvatten **Segment opslaan**.</li></ul> |
 | ![Visualisatie-instellingen](assets/visualization-settings.png) | Visualisatie-instellingen | Verscheidene opties boven de grafiek die u toestaan om aan te passen hoe de grafiek en de lijst gegevens terugkeren.<ul><li>**Type weergave**: Een keuzelijst waarmee u gegevens voor een bepaald analysetype op een andere manier kunt presenteren.</li><li>**Diagraminstellingen**: Stel nauwkeurig in wat uw diagram en tabel worden weergegeven. Welke opties beschikbaar zijn, is afhankelijk van de geselecteerde weergave.</li><li>**Datumbereik**: Een kalenderkiezer waarmee u het datumbereik van de analyse kunt bepalen. U kunt ook een interval selecteren voor georiënteerde weergaven, zoals dag, week of maand.</li><li>**Inzichten**: Contextuele inzichten afhankelijk van de analyse die u bekijkt. Met de pijlen kunt u extra inzichten weergeven of verbergen met het gloeilamppictogram rechtsboven.</li></ul> |
-| ![Menu](assets/menu.png) | Menu | Opdrachten in de rechterbovenhoek van de analyse met instructies bieden overkoepelende acties voor uw analyse.<ul><li>**Selector gegevensweergave**: Wijzig de gegevensweergave die de analyse gebruikt. Wanneer u de gegevensmening verandert, veranderen de beschikbare componenten in vraagspoor ook.</li><li>**Opslaan**: slaat de analyse op. Als u een nieuwe analyse opslaat, verschijnt een modaal venster dat om een naam en een beschrijving verzoekt.</li><li>**Opslaan als**: Hiermee slaat u de analyse los van de huidige analyse op en maakt u een kopie. Er wordt een modaal venster weergegeven met een nieuwe naam en beschrijving.</li><li>**Openen in werkruimte**: Hiermee maakt u de huidige analyse met instructies in Analysis Workspace opnieuw. Het project Workspace wordt op een nieuw tabblad gemaakt, zodat onderbreking wordt voorkomen tijdens het werken in de analyse met instructies. Het is een kopie van de analyse en blijft niet synchroon met de oorspronkelijke geleide analyse als deze eenmaal is geopend. Gebruik deze opdracht als u de gegevens naar het analyseteam wilt verplaatsen of dieper wilt duiken in de gegevens dan in de analyse met instructies is toegestaan.</li><li>**Kopiëren naar klembord**: Hiermee kopieert u de grafiekafbeelding naar het klembord, die u in andere toepassingen wilt plakken. De queryrail en -tabel worden niet in de afbeelding opgenomen.</li><li>**PNG downloaden**: Hiermee downloadt u de diagramafbeelding als een `.png`. De queryrail en -tabel worden niet in de afbeelding opgenomen.</li><li>**CSV downloaden**: Hiermee worden de tabelgegevens gedownload als een `.csv`. De queryrail en -grafiek worden niet in het bestand opgenomen.</li></ul> |
+| ![Menu](assets/menu.png) | Menu | Opdrachten in de rechterbovenhoek van de analyse met instructies bieden overkoepelende acties voor uw analyse.<ul><li>**Selector gegevensweergave**: Wijzig de gegevensweergave die de analyse gebruikt. Wanneer u de gegevensmening verandert, veranderen de beschikbare componenten in vraagspoor ook.</li><li>**Opslaan**: slaat de analyse op. Als u een nieuwe analyse opslaat, verschijnt een modaal venster dat om een naam en een beschrijving verzoekt.</li><li>**Opslaan als**: Hiermee slaat u de analyse los van de huidige analyse op en maakt u een kopie. Er wordt een modaal venster weergegeven met een nieuwe naam en beschrijving.</li><li>**Openen in werkruimte**: Hiermee maakt u de huidige analyse met instructies in Analysis Workspace opnieuw. Het project Workspace wordt op een nieuw tabblad gemaakt, zodat onderbreking wordt voorkomen tijdens het werken in de analyse Met instructies. Het is een kopie van de analyse en blijft niet synchroon met de oorspronkelijke geleide analyse als deze eenmaal is geopend. Gebruik deze opdracht als u de gegevens naar het analyseteam wilt verplaatsen of dieper wilt duiken in de gegevens dan in de analyse met instructies is toegestaan.</li><li>**Kopiëren naar klembord**: Hiermee kopieert u de grafiekafbeelding naar het klembord, die u in andere toepassingen wilt plakken. De queryrail en -tabel worden niet in de afbeelding opgenomen.</li><li>**PNG downloaden**: Hiermee downloadt u de diagramafbeelding als een `.png`. De queryrail en -tabel worden niet in de afbeelding opgenomen.</li><li>**CSV downloaden**: Hiermee worden de tabelgegevens gedownload als een `.csv`. De queryrail en -grafiek worden niet in het bestand opgenomen.</li></ul> |
 
 {style="table-layout:auto"}
 
 ## Inrichting
 
-Analyse met instructies maakt deel uit van Adobe Product Analytics, dat een betaalde aanvulling op Customer Journey Analytics is. Neem contact op met het accountteam van uw Adobe als uw organisatie deze reeks mogelijkheden wil gaan gebruiken.
+Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is. Neem contact op met het accountteam van uw Adobe als uw organisatie deze reeks mogelijkheden wil gaan gebruiken.
 
 Als uw organisatie is ingericht voor de analyse met instructies, kunnen beheerders van productprofielen er toegang toe toevoegen of verwijderen in de Adobe Admin Console.
 
@@ -75,4 +76,4 @@ Als uw organisatie is ingericht voor de analyse met instructies, kunnen beheerde
 
 >[!TIP]
 >
->Sommige beheerders schakelen de analyse met instructies liever in en schakelen Analysis Workspace voor nieuwe gebruikers uit om te Customer Journey Analytics. Als deze gebruikers klaar zijn met het product en uw organisatorische gegevens, kunt u vervolgens toegang tot Analysis Workspace inschakelen.
+>Sommige beheerders schakelen de analyse met instructies liever in en schakelen Analysis Workspace voor nieuwe gebruikers uit om te Customers Journey Analytics. Als deze gebruikers klaar zijn met het product en uw organisatorische gegevens, kunt u vervolgens toegang tot Analysis Workspace inschakelen.

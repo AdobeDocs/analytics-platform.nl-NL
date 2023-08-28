@@ -3,9 +3,10 @@ title: Gebruiksweergave
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: productanalyse
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ De **[!UICONTROL Usage]** biedt waardevolle inzichten in de prestaties van uw pr
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Productprestaties evalueren**: Met trends kunt u de algemene prestaties van uw product gedurende een bepaalde periode beoordelen. Door metriek zoals gebruikersbetrokkenheid, goedkeuring, of omzettingspercentages te analyseren, kunt u identificeren als de prestaties van uw product verbeteren, stagneren, of verminderen.
-* **Aanpassing van functies**: De tendensen staan u toe om te begrijpen hoe de gebruikers nieuwe eigenschappen of updates goedkeuren die u vrijgeeft. U kunt bepalen welke functies populair zijn en welke functies moeten worden verbeterd. Met deze informatie kunt u gegevensgestuurde beslissingen maken over de functies waarmee u prioriteiten kunt stellen bij uw ontwikkelingsinspanningen.
+* **Aanpassing van functies**: Met trends kunt u begrijpen hoe gebruikers nieuwe functies of updates gebruiken die u vrijgeeft. U kunt bepalen welke functies populair zijn en welke functies moeten worden verbeterd. Met deze informatie kunt u gegevensgestuurde beslissingen maken over de functies waarmee u prioriteiten kunt stellen bij uw ontwikkelingsinspanningen.
 * **Gebruikersgedrag**: De tendensen kunnen inzicht in gebruikersgedrag in tijd verstrekken. Door specifieke acties te onderzoeken die de gebruikers nemen, kunt u patronen identificeren waar de gebruikers zouden kunnen wegvallen. U kunt vanuit deze weergave inzichten combineren met [Wrijving](friction.md) voor nog meer inzicht in gedrag.
 * **A/B-tests en -experimenten**: Als u A/B tests binnen uw product in werking stelt, kunt u Trends gebruiken om te meten welke tests in tijd het meest succesvol zijn.
 
