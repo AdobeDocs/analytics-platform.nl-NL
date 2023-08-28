@@ -3,9 +3,9 @@ description: De filterontwikkelaar biedt een canvas voor het slepen en neerzette
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 35c57e883794c74553ab14d6e99e55824d41d4be
+source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1159'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ U kunt regeldefinities en containers toevoegen om uw filters te definiëren. (Vo
 | **[!UICONTROL And/Or/Then]** | Wijst het [!UICONTROL AND/OR/THEN] operatoren tussen containers of regels. Met de operator THEN kunt u [opeenvolgende filters definiëren](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Metric]** | (Groene zijbalk) Metrisch die is gesleept en verwijderd uit de lijst Metriek. |
 | **[!UICONTROL X]** | (Verwijderen) Hiermee kunt u dit deel van de filterdefinitie verwijderen. |
-| **[!UICONTROL Create audience from filter]** | Als u een publiek maakt op basis van een filter, kunt u het filter met Adobe Experience Platform delen voor activering. [Meer informatie...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL Create audience from filter]** | Als u een publiek maakt op basis van een filter, kunt u het filter delen met Adobe Experience Platform voor activering. [Meer informatie...](/help/components/audiences/audiences-overview.md) |
 | **[!UICONTROL Search component]** | Hiermee doorzoekt u de lijst met afmetingen, filters of metriek. |
 | **[!UICONTROL Dimensions]** | (Lijst) De lijst met afmetingen die u in het filter kunt opnemen. Klik op de koptekst om deze uit te vouwen. |
 | **[!UICONTROL Metrics]** | De lijst met metingen die u in het filter kunt opnemen. Klik op de koptekst om deze uit te vouwen. |
