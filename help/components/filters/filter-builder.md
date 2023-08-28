@@ -1,11 +1,11 @@
 ---
-description: De filterontwikkelaar biedt een canvas voor het slepen en neerzetten van metrische Dimension, filters en gebeurtenissen om personen te filteren op basis van containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee u persoonlijke kenmerken en handelingen kunt identificeren voor bezoeken en gebeurtenissen.
+description: De filterontwikkelaar biedt een canvas voor het slepen en neerzetten van metrische Dimensionen, filters en gebeurtenissen om personen te filteren op basis van containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee u persoonlijke kenmerken en handelingen kunt identificeren voor bezoeken en gebeurtenissen.
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 35c57e883794c74553ab14d6e99e55824d41d4be
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1160'
 ht-degree: 1%
 
 ---
@@ -30,55 +30,33 @@ U kunt regeldefinities en containers toevoegen om uw filters te definiëren. (Vo
 
 ![](assets/segment_builder_ui_2.png)
 
-1. **[!UICONTROL Title]**: Geef het filter een naam.
-1. **[!UICONTROL Description]**: Geef een beschrijving voor het filter op.
-1. **[!UICONTROL Tags]**: [Codeer het filter](/help/components/filters/manage-filters.md) u maakt door tags te kiezen uit een lijst met bestaande tags of door een nieuwe tag te maken.
-1. **[!UICONTROL Definitions]**: Dit is waar u [filters maken en configureren](/help/components/filters/filters-overview.md), voegt regels toe en nest- en reekscontainers.
-1. **[!UICONTROL Show]**: (Selector bovenste container.) Hiermee kunt u het bovenste niveau selecteren [container](/help/components/filters/filters-overview.md) ( [!UICONTROL Person], [!UICONTROL Session], [!UICONTROL Event]). De standaard container op hoofdniveau is de Event-container.
-1. **[!UICONTROL Options]**: (tandwiel) pictogram
-
-   * **[!UICONTROL + Add container]**: Hiermee kunt u een nieuwe container (onder de container op het hoogste niveau) toevoegen aan de filterdefinitie.
-   * **[!UICONTROL Exclude]**: Hiermee kunt u het filter definiëren door een of meer afmetingen, filters of metriek uit te sluiten.
-
-1. **[!UICONTROL Dimensions]**: Componenten worden uit de lijst Dimension gesleept en verwijderd (oranje zijbalk).
-1. **[!UICONTROL Operator]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
-1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het filter of de metrische waarde.
-1. **[!UICONTROL Attribution Models]**: Deze modellen zijn alleen beschikbaar voor afmetingen en bepalen op welke waarden in een dimensie moet worden gefilterd. Dimension-modellen zijn vooral handig bij opeenvolgende filters.
-
-   * **[!UICONTROL Repeating]** (standaard): Bevat varianten en doorlopende waarden voor de dimensie.
-   * **[!UICONTROL Instance]**: Bevat exemplaren voor de dimensie.
-   * **[!UICONTROL Non-repeating instance]**: Hiermee worden unieke (niet-herhalende) instanties voor de dimensie opgenomen. Dit is het model dat wordt toegepast in Flow wanneer herhaalde instanties worden uitgesloten.
-
-   ![](assets/attribution-models.jpg)
-
-   **Voorbeeld: Gebeurtenisfilter waarbij eVar1 = A**
-
-   | Voorbeeld | A | A | A (blijft bestaan) | B | A | C |
-   |---|---|---|---|---|---|---|
-   | Herhalend | X | X | X | - | X | - |
-   | Instance | X | X | - | - | X | - |
-   | Niet-herhalende instantie | X | - | - | - | X | - |
-1. **[!UICONTROL And/Or/Then]**: Wijst het [!UICONTROL AND/OR/THEN] operatoren tussen containers of regels. Met de operator THEN kunt u [opeenvolgende filters definiëren](/help/components/filters/filters-overview.md).
-1. **[!UICONTROL Metric]**: (Groene zijbalk) Metrisch die is gesleept en verwijderd uit de lijst Metriek.
-1. **[!UICONTROL Comparison]** operator: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
-1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het filter of de metrische waarde.
-1. **[!UICONTROL X]**: (Verwijderen) Hiermee kunt u dit deel van de filterdefinitie verwijderen.
-1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-filter publiceert naar de Experience Cloud, kunt u het filter voor marketingactiviteiten gebruiken in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-1. **[!UICONTROL Audience library]**: Personeelsservices beheren de vertaling van personeels-filters. Daarom lijkt het op het maken en beheren van soorten publiek op het maken en gebruiken van filters, met de extra mogelijkheid om het publieksfilter te delen met de Experience Cloud. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-1. **[!UICONTROL Search]**: Hiermee doorzoekt u de lijst met afmetingen, filters of metriek.
-1. **[!UICONTROL Dimensions]**: (Lijst) Klik de kopbal om uit te breiden.
-1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
-1. **[!UICONTROL Filters]**: Klik op de koptekst om deze uit te vouwen.
-1. **[!UICONTROL Data View selector]**: Hiermee selecteert u de rapportsuite waarin dit filter wordt opgeslagen. U kunt het filter nog steeds in alle gegevensweergaven gebruiken.
-1. **[!UICONTROL Filter Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste meetgegevens weergeven om te zien of u een geldig filter hebt en hoe breed het filter is. Vertegenwoordigt de verdeling van de dataset u kunt verwachten om te zien of past u dit filter toe. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor te tonen [!UICONTROL Event], [!UICONTROL Person], en [!UICONTROL Session] voor een filter dat tegen een dataset wordt uitgevoerd. Dit diagram wordt direct bijgewerkt nadat u de filterdefinitie hebt gemaakt of gewijzigd.
-1. **[!UICONTROL Product Compatibility]**: Bevat een lijst met Adobe Analytics-producten (Analysis Workspace, [!UICONTROL Reports & Analytics], Data Warehouse) waarmee het filter dat u hebt gemaakt compatibel is. De meeste filters zijn compatibel met alle producten. Niet alle operatoren en dimensies zijn echter compatibel met alle analytische producten, met name [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html). Dit diagram wordt direct bijgewerkt nadat u wijzigingen in de filterdefinitie hebt aangebracht.
-1. **[!UICONTROL Save]** of **[!UICONTROL Cancel]**: Hiermee slaat u het filter op of annuleert u het. Na klikken **[!UICONTROL Save]**, gaat u naar Filterbeheer waar u het filter kunt beheren.
-
-Filters met ingesloten datumbereiken werken in Analysis Workspace nog steeds anders dan [!UICONTROL Reports & Analytics]: In Workspace overschrijft een filter met een ingesloten datumbereik het datumbereik van het deelvenster. Daarentegen [!UICONTROL Reports & Analytics] geeft u de doorsnede van de waaier van de rapportdatum en de ingebedde de datumwaaier van de filter.
+| UI-element | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Title]** | Geef het filter een naam |
+| **[!UICONTROL Description]** | Geef een gedetailleerde beschrijving van het filter op. |
+| **[!UICONTROL Tags]** | [Codeer het filter](/help/components/filters/manage-filters.md) u maakt door tags te kiezen uit een lijst met bestaande tags of door een nieuwe tag te maken. |
+| **[!UICONTROL Definitions]** | Dit is waar u [filters maken en configureren](/help/components/filters/filters-overview.md), voegt regels toe en nest- en reekscontainers. |
+| **[!UICONTROL Include]** | (Selector bovenste container.) Hiermee kunt u het bovenste niveau selecteren [container](/help/components/filters/filters-overview.md) ( [!UICONTROL Person], [!UICONTROL Session], [!UICONTROL Event]). De standaard container op hoofdniveau is de Event-container. |
+| **[!UICONTROL Options]** | (tandwiel) pictogram | <ul><li>**[!UICONTROL + Add container]**: Hiermee kunt u een nieuwe container (onder de container op het hoogste niveau) toevoegen aan de filterdefinitie.</li><li>**[!UICONTROL Exclude]**: Hiermee kunt u het filter definiëren door een of meer afmetingen, filters of metriek uit te sluiten.</li></ul> |
+| **[!UICONTROL Dimensions]** | Componenten worden uit de lijst Dimensionen gesleept en verwijderd (oranje zijbalk). |
+| **[!UICONTROL Operator]** | U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten. (is gelijk aan, is niet gelijk, bevat, bevat alle, enzovoort.) |
+| **[!UICONTROL Value]** | De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het filter of de metrische waarde. |
+| **[!UICONTROL Attribution Models]** | Deze modellen zijn alleen beschikbaar voor afmetingen en bepalen op welke waarden in een dimensie moet worden gefilterd. Dimensionen zijn vooral handig bij opeenvolgende filters.<ul><li>**[!UICONTROL Repeating]** (standaardwaarde): inclusief varianten en doorlopende waarden voor de dimensie.</li><li>**[!UICONTROL Instance]**: Bevat instanties voor de dimensie.</li><li>**[!UICONTROL Non-repeating instance]**: Bevat unieke (niet-herhalende) instanties voor de dimensie. Dit is het model dat wordt toegepast in Flow wanneer herhaalde instanties worden uitgesloten.</li></ul>Zie de sectie &quot;Kenmerkmodellen&quot; hieronder voor een voorbeeld. |
+| **[!UICONTROL And/Or/Then]** | Wijst het [!UICONTROL AND/OR/THEN] operatoren tussen containers of regels. Met de operator THEN kunt u [opeenvolgende filters definiëren](/help/components/filters/filters-overview.md). |
+| **[!UICONTROL Metric]** | (Groene zijbalk) Metrisch die is gesleept en verwijderd uit de lijst Metriek. |
+| **[!UICONTROL X]** | (Verwijderen) Hiermee kunt u dit deel van de filterdefinitie verwijderen. |
+| **[!UICONTROL Create audience from filter]** | Als u een publiek maakt op basis van een filter, kunt u het filter met Adobe Experience Platform delen voor activering. [Meer informatie...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL Search component]** | Hiermee doorzoekt u de lijst met afmetingen, filters of metriek. |
+| **[!UICONTROL Dimensions]** | (Lijst) De lijst met afmetingen die u in het filter kunt opnemen. Klik op de koptekst om deze uit te vouwen. |
+| **[!UICONTROL Metrics]** | De lijst met metingen die u in het filter kunt opnemen. Klik op de koptekst om deze uit te vouwen. |
+| **[!UICONTROL Filters]** | De lijst met bestaande filters die u in het filter kunt opnemen. Klik op de koptekst om deze uit te vouwen. |
+| **[!UICONTROL Data View selector]** | Hiermee selecteert u de rapportsuite waarin dit filter wordt opgeslagen. U kunt het filter nog steeds in alle gegevensweergaven gebruiken. |
+| **[!UICONTROL Filter Preview]** | Hiermee kunt u een voorvertoning van de belangrijkste meetgegevens weergeven om te zien of u een geldig filter hebt en hoe breed het filter is. Vertegenwoordigt de verdeling van de dataset u kunt verwachten om te zien of past u dit filter toe. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor te tonen [!UICONTROL People], [!UICONTROL Sessions], en [!UICONTROL Reports Run] voor een filter dat tegen een dataset wordt uitgevoerd.<p>Dit diagram wordt meteen bijgewerkt nadat u de filterdefinitie hebt gemaakt of gewijzigd. |
+| **[!UICONTROL Save]** of **[!UICONTROL Cancel]** | Hiermee slaat u het filter op of annuleert u het. Na klikken **[!UICONTROL Save]**, gaat u naar Filterbeheer waar u het filter kunt beheren. |
 
 ## Een filter maken {#build-filters}
 
-1. U sleept gewoon een Dimension-, filter- of metrische gebeurtenis van het linkerdeelvenster naar het deelvenster [!UICONTROL Definitions] veld.
+1. U sleept gewoon een Dimension, filter of metrische gebeurtenis van het linkerdeelvenster naar het [!UICONTROL Definitions] veld.
 
    ![](assets/drag_n_drop_dimension.png)
 
@@ -87,11 +65,11 @@ Filters met ingesloten datumbereiken werken in Analysis Workspace nog steeds and
 1. Voeg indien nodig extra containers toe met **[!UICONTROL And]**, **[!UICONTROL Or]**, of **[!UICONTROL Then]** regels.
 1. Nadat u de containers hebt geplaatst en de regels hebt ingesteld, raadpleegt u de resultaten van het filter in het validatieschema rechtsboven. De validator geeft het percentage en het absolute aantal paginaweergaven, bezoeken en unieke personen aan die overeenkomen met het filter dat u hebt gemaakt.
 1. Onder **[!UICONTROL Tags]**, [tag](/help/components/filters/manage-filters.md) de container door een bestaande tag te selecteren of een nieuwe tag te maken.
-1. Klikken **[!UICONTROL Save]** om het filter op te slaan.
+1. Klikken **[!UICONTROL Save]** het filter opslaan.
 
    U wordt naar de [Filterbeheer](/help/components/filters/manage-filters.md), waar u uw filter op meerdere manieren kunt labelen, delen en beheren.
 
-## Containers toevoegen {#section_1C38F15703B44474B0718CEF06639EFD}
+## Containers toevoegen {#containers}
 
 U kunt [een kader van containers opbouwen](/help/components/filters/filters-overview.md) en plaatst u vervolgens tussen logische regels en operatoren.
 
@@ -109,7 +87,7 @@ U kunt [een kader van containers opbouwen](/help/components/filters/filters-over
 
    Selecteer een of meer regels en klik op **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. Hierdoor verandert uw selectie in een aparte container.
 
-## Datumbereiken gebruiken {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Datumbereiken gebruiken {#date-ranges}
 
 U kunt filters bouwen die het rollen datumwaaiers bevatten om vragen over aan de gang zijnde campagnes of gebeurtenissen te beantwoorden.
 
@@ -121,7 +99,7 @@ Hier volgt een video over het gebruik van roldatumbereiken in filters:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
-## Stapelfilters {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
+## Stapelfilters {#stack}
 
 Het stapelen van filters werkt door de criteria in elk filter te combineren gebruikend een &quot;en&quot;exploitant, en dan het toepassen van de gecombineerde criteria. Dit kan in een project van de Werkruimte direct of in de bouwer van de Filter worden gedaan.
 
@@ -152,3 +130,14 @@ Door filter het stapelen te gebruiken, kunt u uw filteraantal tot 22 verminderen
 
 1. Selecteren [!UICONTROL **Opslaan**].
 
+## Attributiemodellen {#attribution}
+
+![](assets/attribution-models.jpg)
+
+**Voorbeeld: Gebeurtenisfilter waarbij eVar1 = A**
+
+| Voorbeeld | A | A | A (blijft bestaan) | B | A | C |
+|---|---|---|---|---|---|---|
+| Herhalend | X | X | X | - | X | - |
+| Instantie | X | X | - | - | X | - |
+| Niet-herhalende instantie | X | - | - | - | X | - |
