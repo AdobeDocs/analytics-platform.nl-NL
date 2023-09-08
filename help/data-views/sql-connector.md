@@ -6,7 +6,7 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 0%
@@ -116,7 +116,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
       2. Plakken **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
 
-         Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:all?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+         Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:cja?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
 
       3. Wanneer wordt gevraagd om **[!UICONTROL ** Gegevensconnectiviteit **]** modus, selecteren **[!UICONTROL ** DirectQuery **]** om ervoor te zorgen dat de gegevensstructuren correct worden afgevlakt.
 
@@ -158,7 +158,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
       3. Plak **[!UICONTROL ** de databaseparameter **]** van Experience-platformquery&#39;s [!UICONTROL Credentials] in **[!UICONTROL ** het tekstveld Database **]** .
 
-         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:all%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren afvlakken voor gebruik met BI-tools van](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) derden voor meer informatie.
+         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:cja%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren afvlakken voor gebruik met BI-tools van](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) derden voor meer informatie.
 
       4. Selecteer **[!UICONTROL ** Gebruikersnaam en wachtwoord in **[!UICONTROL ****]** de lijst Verificatie **]**.
 

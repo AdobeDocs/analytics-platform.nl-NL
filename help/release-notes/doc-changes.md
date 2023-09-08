@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
+source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2563'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **September 2023** | |
+| Regionale gegevensverzameling | Bijgewerkt [Veelgestelde vragen](../getting-started/cja-faq.md#12-regional-data-collection) met informatie over regionale gegevensverzameling bij gebruik van Customer Journey Analytics. |
 | **augustus 2023** | |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verbeterde Report Builder | Bijgewerkte inhoud voor [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) om informatie te verstrekken voor het downloaden van geplande taken. Bijgewerkte inhoud voor  [Een gegevensblok maken](/help/report-builder/create-a-data-block.md) om informatie te verstrekken voor het gebruiken van de datum van het Begin als afmeting. |
