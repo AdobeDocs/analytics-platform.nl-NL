@@ -3,9 +3,9 @@ title: Conversietrends, weergave
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: a40cfa2498bed03c169eed10cea091574bf90730
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-* **Pople**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL People]**: De segmenten waar u de trechter doorheen wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
@@ -41,7 +41,7 @@ De weergave Conversietrends biedt de volgende diagraminstellingen, die kunnen wo
 
 >[!NOTE]
 >
->De **Gemiddeld** de kolom in de de meningslijst van de tendensen van de Omzetting verschilt van **Totaal** in de [Wrijvingsweergave](friction.md) tabel. De eerste is een gemiddelde van de intervalkolommen (bv. het gemiddelde van de dagelijkse omrekeningskoersen), terwijl de tweede een geaggregeerde berekening is over het volledige datumbereik.
+>De **Gemiddeld** de kolom in de de meningslijst van de tendensen van de Omzetting verschilt van **Totaal** in de [Wrijvingsweergave](friction.md) tabel. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
 
 ## Tijdvergelijking toepassen
 

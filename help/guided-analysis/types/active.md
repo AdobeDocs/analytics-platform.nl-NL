@@ -4,9 +4,9 @@ description: Identificeer wie nieuw, behouden, terugkeren, of slapend is.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 35e009ca6c21754fe7127fe63eea41f8ed00943d
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint 
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **[!UICONTROL User retention and chur]znw:** Biedt een duidelijke visualisatie rond periodes van hoog of laag vasthouden van de gebruiker. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
-* **[!UICONTROL Campaign assessment]**: Door een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
-* **[!UICONTROL User lifecycle analysis]**: Door de actieve groei van gebruikers gedurende de hele levenscyclus van de gebruiker te analyseren, kunt u specifieke fasen identificeren waarin de betrokkenheid van de gebruiker afneemt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor personen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere begeleiding in het product.
+* **Bewaren en onderdrukken van gebruikers:** Biedt een duidelijke visualisatie rond periodes van hoog of laag vasthouden van de gebruiker. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
+* **Campagnebeoordeling**: Door een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
+* **Levenscyclusanalyse van gebruikers**: Door de actieve groei van gebruikers gedurende de hele levenscyclus van de gebruiker te analyseren, kunt u specifieke fasen identificeren waarin de betrokkenheid van de gebruiker afneemt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor personen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere begeleiding in het product.
 
 ## Query-rail
 
