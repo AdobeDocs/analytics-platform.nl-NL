@@ -3,9 +3,9 @@ title: Frequentieweergave
 description: Meet de betrokkenheid per gebruiksfrequentie.
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 1e095720301f3e59e88674d086f5e0de9df88872
+source-git-commit: 77192426a58e1560abe91b904452b9cd46c862e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # [!UICONTROL Frequency] weergave
 
 De **[!UICONTROL Frequency]** in deze weergave worden gebeurtenisgegevens gegroepeerd op hoe vaak een gebeurtenis wordt weergegeven. De verticale as van dit rapport bevat emmers die de frequentie van de bekeken gebeurtenis of gebeurtenissen vertegenwoordigen. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
+
+![Frequentieschermopname](../assets/frequency-stacked.png)
 
 ## Gebruik hoofdletters
 
