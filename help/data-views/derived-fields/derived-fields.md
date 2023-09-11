@@ -4,7 +4,7 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
+source-git-commit: f1935947fe0273e5cdd5752ab7a9c871b02c990d
 workflow-type: tm+mt
 source-wordcount: '4836'
 ht-degree: 4%
@@ -1091,7 +1091,7 @@ U maakt een `Product Identifier` afgeleid veld. U gebruikt de [!UICONTROL TRIM] 
 
 | Product-id | Gebeurtenissen |
 |---|--:|
-| `"prod12356 "` | 3 |
+| `"prod12356"` | 3 |
 
 {style="table-layout:auto"}
 
