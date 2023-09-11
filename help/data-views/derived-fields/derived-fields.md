@@ -4,9 +4,9 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
+source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
 workflow-type: tm+mt
-source-wordcount: '4248'
+source-wordcount: '4836'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 | A | **Naam van regel** | Standaard is de regelnaam **Regel X** (X verwijst naar een volgnummer). Als u de naam van een regel wilt bewerken, selecteert u de naam en typt u de nieuwe naam, bijvoorbeeld `Query Parameter`. |
 | B | **Functienaam** | De geselecteerde functienaam voor de regel, bijvoorbeeld [!UICONTROL URL PARSE]. Wanneer de functie de laatste in de reeks functies is en de uiteindelijke uitvoerwaarden bepaalt, wordt de functienaam gevolgd door [!UICONTROL - FINAL OUTPUT]bijvoorbeeld [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>Als u een pop-up met meer informatie over de functie wilt weergeven, selecteert u ![Help-pictogram](assets/Smock_HelpOutline_18_N.svg). |
 | C | **Beschrijving van regel** | U kunt desgewenst een beschrijving aan een regel toevoegen.<br/>Selecteren ![Meer pictogram](assets/More.svg)selecteert u vervolgens **[!UICONTROL ** Beschrijving toevoegen **]** een beschrijving toevoegen of **[!UICONTROL ** Beschrijving bewerken **]** om een bestaande beschrijving te bewerken.<br/>Gebruik de editor om een beschrijving in te voeren. U kunt de werkbalk gebruiken om de tekst op te maken (met de stijlkiezer, vet, cursief, onderstrepen, rechts, links, gecentreerd, kleur, nummerlijst, opsommingslijst) en om koppelingen toe te voegen aan externe informatie. <br/>Klik buiten de editor om het bewerken van de beschrijving te voltooien. |
-| D | **Functiegebied** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. De vervolgkeuzelijst voor [!UICONTROL Field] of [!UICONTROL Value] geeft alle categorieën velden weer (regels, standaardvelden, velden) die beschikbaar zijn, op basis van het type invoer dat de functie verwacht. Zie [Functieverwijzing](#function-reference) voor gedetailleerde informatie over elk van de ondersteunde functies. |
+| D | **Functiegebied** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. De vervolgkeuzelijst voor [!UICONTROL Field] of [!UICONTROL Value] geeft alle categorieën velden weer (regels, standaardvelden, velden) die beschikbaar zijn, op basis van het type invoer dat de functie verwacht. <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
 
 {style="table-layout:auto"}
 
@@ -413,9 +413,6 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 
 Definieert een set waarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
 
-
-
-
 +++ Details
 
 >[!NOTE]
@@ -426,7 +423,7 @@ Definieert een set waarden die worden vervangen door corresponderende waarden in
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul><li>Oorspronkelijke waarden tonen<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul><li>Oorspronkelijke waarden tonen<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld<br/>100 rijen per functie</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -535,6 +532,17 @@ U definieert een `Page Name (updated)` afgeleid veld. U gebruikt de [!UICONTROL 
 | [!DNL Deals & Offers] |
 | [!DNL Reviews] |
 | [!DNL Generate Quote] |
+
+
+## Meer informatie {#classify-moreinfo}
+
+De volgende aanvullende functionaliteit is beschikbaar in de interface van de regel Classificeren:
+
+- Als u snel alle tabelwaarden wilt wissen, selecteert u ![Wissen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL Clear all table values]**.
+- Als u een CSV-bestand wilt uploaden dat de oorspronkelijke waarden bevat voor Als waarden gelijk zijn en nieuwe waarden voor Vervangen door, selecteert u ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Upload CSV]**.
+- Selecteer ![Downloaden](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Download CSV template]**.
+- Als u een CSV-bestand met alle oorspronkelijke en nieuwe waarden in de regelinterface wilt downloaden, selecteert u ![Downloaden](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Download CSV values]**.
+
 
 +++
 
@@ -680,6 +688,108 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICO
 | [!DNL email marketing] |
 | [!DNL email marketing] |
 | [!DNL email marketing] |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- LOOKUP
+
+### Lookup
+
+Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+
++++ Details
+
+## Specification {#lookup-io}
+
+| Input Data Type | Input | Included Operators | Limit | Output |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+
+{style="table-layout:auto"}
+
+## Use case {#lookup-uc}
+
+You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+
+### A4T lookup dataset {#lookup-uc-lookup}
+
+| Activity Id | Activity Name |
+|---|---|
+| 415851 | MVT Test Category Pages |
+| 415852 | Luma - Campaign Max 2022 |
+| 402922 | Home Page Banners |
+
+{style="table-layout:auto"}
+
+### Derived field {#lookup-uc-derivedfield}
+
+You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+
+![Screenshot of the Lowercase rule](assets/lookup.png)
+
+## More info
+
+You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+
+  1. Select **[!UICONTROL Schema fields]** from selector.
+  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+  1. Select your lookup dataset and find the field you want to use for lookup.
+  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
+     ![Lookup drag](assets/lookup-drag.png) 
+
++++
+
+-->
+
+<!-- LOWERCASE -->
+
+### Kleine letters
+
+Hiermee zet u waarden van een veld om in kleine letters en slaat u deze op in een nieuw afgeleid veld.
+
++++ Details
+
+## Specificatie {#lowercase-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul> | <p>N.v.t.</p> | <p>2 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#lowercase-uc}
+
+U wilt alle verzamelde productnamen naar kleine letters converteren voor een juiste rapportage.
+
+### Gegevens voor {#lowercase-uc-databefore}
+
+| Verzamelde productnamen | Productweergaven |
+|---|---:|
+| Tennis racket | 35 |
+| Tennis Racket | 33 |
+| tennisracket | 21 |
+| Baseball | 15 |
+| Baseball Bat | 12 |
+| honkbal | 10 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#lowercase-uc-derivedfield}
+
+U definieert een `Product Names` afgeleid veld. U gebruikt de [!UICONTROL LOWERCASE] functie om een regel te definiëren die de waarde van de [!UICONTROL Collected Product Names] in het veld naar kleine letters en sla dat op in het nieuwe afgeleide veld.
+
+![Schermafbeelding van de regel Kleine letters](assets/lowercase.png)
+
+
+### Gegevens na {#lowercase-uc-dataafter}
+
+| Productnamen | Productweergaven |
+|---|---|
+| tennisracket | 89 |
+| honkbal | 37 |
 
 {style="table-layout:auto"}
 
@@ -938,6 +1048,119 @@ U maakt een `Second Response` afgeleid veld om de laatste waarde te nemen van he
 
 {style="table-layout:auto"}
 
++++
+
+
+<!-- TRIM -->
+
+### Verkleinen
+
+Hiermee wordt witruimte, speciale tekens of het aantal tekens vanaf het begin of het einde van veldwaarden bijgesneden in een nieuw afgeleid veld.
+
++++ Details
+
+## Specificatie {#trim-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>Witruimte bijsnijden</li><li>Speciale tekens bijsnijden<ul><li>Invoer van speciale tekens</li></ul></li><li>Verkleinen vanaf links<ul><li>Van <ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li><li>Bijsnijden vanaf rechts<ul><li>Van <ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>1 functie per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdlettergebruik 1 {#trim-uc1}
+
+U verzamelt productgegevens, maar die bevatten verborgen spatietekens die worden gerapporteerd door fragmenten. U wilt alle overtollige witruimte gemakkelijk bijsnijden
+
+### Gegevens voor {#trim-uc1-databefore}
+
+| Product-id | Gebeurtenissen |
+|---|--:|
+| `"prod12356 "` | 1 |
+| `"prod12356"` | 1 |
+| `" prod12356"` | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#trim-u1-derivedfield}
+
+U maakt een `Product Identifier` afgeleid veld. U gebruikt de [!UICONTROL TRIM] functie om een regel te bepalen aan **[!UICONTROL Trim whitespace]** van de **[!UICONTROL Product ID]** veld.
+
+![Screenshot van regel 1 Splitsen](assets/trim-1.png)
+
+### Gegevens na {#trim-uc1-dataafter}
+
+| Product-id | Gebeurtenissen |
+|---|--:|
+| `"prod12356 "` | 3 |
+
+{style="table-layout:auto"}
+
+## Hoofdlettergebruik 2 {#trim-uc2}
+
+Uw gegevens over verzamelde paginanamen bevatten enkele onjuiste speciale tekens aan het einde van de paginanaam die moeten worden verwijderd.
+
+### Gegevens voor {#trim-uc2-databefore}
+
+| Naam | Gebeurtenissen |
+|---|--:|
+| homepage# | 1 |
+| homepage? | 1 |
+| homepage% | 1 |
+| homepage&amp; | 1 |
+| homepage/ | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#trim-u2-derivedfield}
+
+U maakt een  `Page Name` afgeleid veld. U gebruikt de [!UICONTROL TRIM] functie om een regel te bepalen aan [!UICONTROL Trim special characters] van de [!UICONTROL Name] veld met de [!UICONTROL Special characters] `#?%&/`.
+
+![Screenshot van de regel Splitsen - eerste waarde](assets/trim-2.png)
+
+### Gegevens na {#trim-uc2-dataafter}
+
+| Paginanaam | Gebeurtenissen |
+|---|--:|
+| homepage | 5 |
+
+{style="table-layout:auto"}
+
+
+## Hoofdlettergebruik 3 {#trim-uc3}
+
+U verzamelt gegevens, waaronder een storeID. De storeID bevat de afgekorte Amerikaanse statuscode als de eerste twee tekens. U wilt die staatscode in uw rapportering slechts gebruiken.
+
+### Gegevens voor {#trim-uc3-databefore}
+
+| storeID | Gebeurtenissen |
+|---|--:|
+| CA293842 | 1 |
+| CA423402 | 1 |
+| UT123418 | 1 |
+| UT189021 | 1 |
+| ID028930 | 1 |
+| OR234223 | 1 |
+| NV22342 | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#trim-u3-derivedfield}
+
+U maakt een  `Store Identifier` afgeleid veld. U gebruikt de [!UICONTROL TRIM] functie om een regel te bepalen aan [!UICONTROL Truncate from right] de [!UICONTROL storeID] veld van einde tekenreeks naar positie `3`.
+
+![Screenshot van de regel Splitsen - eerste waarde](assets/trim-3.png)
+
+### Gegevens na {#trim-uc3-dataafter}
+
+| Store Identifier | Gebeurtenissen |
+|---|--:|
+| CA | 2 |
+| UT | 2 |
+| ID | 1 |
+| OF | 1 |
+| NV | 1 |
+
+{style="table-layout:auto"}
 +++
 
 
