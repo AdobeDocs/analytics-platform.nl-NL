@@ -4,9 +4,9 @@ description: Een methode om gegevens in Customer Journey Analytics te analyseren
 keywords: productanalyse
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
+source-git-commit: 55310a844f5928f0e97e7ea7f44ae146e103dafa
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Ongeacht het type analyse bestaat een geleide analyse uit de volgende UI-element
 
 | Interfacevoorvertoning | UI-element | Beschrijving |
 | --- | --- | --- |
-| ![Query-rail](assets/query-rail.png) | Query-rail | Vorm de gewenste componenten (gebeurtenissen, eigenschappen, en segmenten) die omhoog een analyse maken. Elk analysetype dwingt verschillende grenzen aan het aantal gebeurtenissen en segmenten af die u kunt vormen. Als u op een nieuw analysetype schakelt, worden uw vraagselecties gehandhaafd binnen de toegestane grenzen voor dat analysetype. |
+| ![Query-rail](assets/query-rail.png) | Query-rail | Vorm de gewenste componenten (gebeurtenissen, eigenschappen, en segmenten) die omhoog een analyse maken. Elk analysetype dwingt verschillende grenzen aan het aantal gebeurtenissen en segmenten af die u kunt vormen.<p>Gebruik het filterpictogram om omlaag te versmallen door specifieke gebeurteniseigenschappen of nieuwe segmenten te creëren op de vlucht. Wanneer een eigenschap is geselecteerd, wordt naast de standaardfiltercriteria zoals equals, een lijst met de bovenste 1000-eigenschapswaarden weergegeven en eindigt deze lijst met filtercriteria. Deze lijst wordt beschikbaar gesteld voor snel filteren.<p>Als u op een nieuw analysetype schakelt, worden uw vraagselecties gehandhaafd binnen de toegestane grenzen voor dat analysetype. |
 | ![Diagram](assets/chart.png) | Diagram | Een visualisatie van de geretourneerde gegevens op basis van uw invoer van de queryregels en -instellingen. Welke visualisatie u ziet hangt van de mening en de montages boven de grafiek af. De beschikbare meningen hangen van het analysetype boven vraagspoor af. Het diagram bevat ook: <ul><li>**Knopinfo**: Houd de muisaanwijzer boven een gegevenspunt van een diagram om knopinfo met meer informatie weer te geven.</li><li>**Legenda**: Plaats de muisaanwijzer boven de legenda van het diagram om reeksdefinities beschikbaar te maken, indien beschikbaar.</li><li>**Handelingen klikken**: Maak beschikbare volgende handelingen beschikbaar door met de linkermuisknop op een gegevenspunt te klikken. Opties omvatten **Segment opslaan**.</li></ul> |
 | ![Tabel](assets/table.png) | Tabel | Een tabelweergave van de geretourneerde gegevens op basis van uw invoer van de queryregels en -instellingen. Kolommen in de tabel zijn afhankelijk van het weergavetype boven het diagram. De beschikbare meningen hangen van het analysetype boven vraagspoor af. De tabel bevat ook: <ul><li>**Handelingen klikken**: Klik op de knop **[!UICONTROL More]** -menu. Opties omvatten **Segment opslaan**.</li></ul> |
 | ![Visualisatie-instellingen](assets/visualization-settings.png) | Visualisatie-instellingen | Verscheidene opties boven de grafiek die u toestaan om aan te passen hoe de grafiek en de lijst gegevens terugkeren.<ul><li>**Type weergave**: Een keuzelijst waarmee u gegevens voor een bepaald analysetype op een andere manier kunt presenteren.</li><li>**Diagraminstellingen**: Stel nauwkeurig in wat uw diagram en tabel worden weergegeven. Welke opties beschikbaar zijn, is afhankelijk van de geselecteerde weergave.</li><li>**Datumbereik**: Een kalenderkiezer waarmee u het datumbereik van de analyse kunt bepalen. U kunt ook een interval selecteren voor georiënteerde weergaven, zoals dag, week of maand.</li><li>**Inzichten**: Contextuele inzichten afhankelijk van de analyse die u bekijkt. Met de pijlen kunt u extra inzichten weergeven of verbergen met het gloeilamppictogram rechtsboven.</li></ul> |
