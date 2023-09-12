@@ -4,9 +4,9 @@ description: Een methode om gegevens in Customer Journey Analytics te analyseren
 keywords: productanalyse
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ De geleide analyse categoriseert meningstypes in **Analysetypen**. De volgende a
 | [!UICONTROL User growth] | [Actief](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
 | [!UICONTROL User growth] | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
 | [!UICONTROL Trends] | [Gebruik](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
+| [!UICONTROL Trends] | [Frequentie](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
 
 {style="table-layout:auto"}
 
