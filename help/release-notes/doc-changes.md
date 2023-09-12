@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
+source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2584'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **September 2023** | |
+| Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) en [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) en voor de extra CSV-mogelijkheden die aan de [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) functie. |
 | Regionale gegevensverzameling | Bijgewerkt [Veelgestelde vragen](../getting-started/cja-faq.md#12-regional-data-collection) met informatie over regionale gegevensverzameling bij gebruik van Customer Journey Analytics. |
 | **augustus 2023** | |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
