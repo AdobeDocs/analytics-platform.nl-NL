@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 4754be1df196836bd44feb963c22749a3124c377
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '431'
 ht-degree: 7%
 
 ---
@@ -15,23 +15,21 @@ ht-degree: 7%
 
 Deze handleiding voor technische documentatie biedt zelfhulp voor Customer Journey Analytics. Met Customer Journey Analytics kunt u uw klantgegevens vanuit elk kanaal dat u kiest — online en offline — naar Adobe Experience Platform brengen en deze gegevens vervolgens analyseren op dezelfde manier als uw bestaande digitale gegevens vandaag nog met Analysis Workspace.
 
-Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace aansluit op een gemeenschappelijke klant-id, zodat u uiteindelijk kunt toewijzen, filters, stroom, fallout enzovoort. over uw volledige klantendataset in Customer Journey Analytics.
-
-Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. Neem voor meer informatie contact op met uw Adobe-accountteam.
+Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace aansluit op een gemeenschappelijke klant-id. U kunt dan eindelijk toewijzingen, filters, stroom, fallout enzovoort uitvoeren. over uw volledige klantendataset in Customer Journey Analytics.
 
 <table frame="none"> 
  <tbody> 
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/stitching/overview.html"> Kanaaloverschrijdende analyse (naastbepalende id's in Customer Journey Analytics) </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en">Adobe Analytics-rapportenpakket-gegevens gebruiken in Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/stitching/overview.html"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics) </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en">Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics-rapportagefuncties </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics rapportagefuncties </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=en"> Virtuele rapportsuites, gegevensweergaven, Adobe Experience Platform-sandboxen en de gegevensbronconnector van Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html"> Adobe Analytics naar Customer Journey Analytics evolutie </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html"> Handboek Customer Journey Analytics voor Adobe Analytics-gebruikers </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html"> Gebruikershandleiding voor Customers Journey Analytics voor Adobe Analytics-gebruikers </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> De verbeterde mogelijkheden voor verbindingsbeheer gebruiken </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html#cja-dataviews"> De verbeterde mogelijkheden voor gegevensweergaven gebruiken </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>Aan de slag</b> </p> 
@@ -40,7 +38,7 @@ Klanten met Analytics Select, Prime en Ultimate kunnen dit add-onproduct kopen. 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> Veelgestelde vragen</a> </li> 
    </ul> <p class="head"><b>Release-opmerkingen</b> </p> 
      <li>Zie de nieuwste <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html" format="https" scope="external"> Opmerkingen bij de release Customer Journey Analytics</a> voor nieuwe functies en correcties. </li>
-    <td colname="col3" valign="top"> <p class="head"><b>Customer Journey Analytics API</b> </p> 
+    <td colname="col3" valign="top"> <p class="head"><b>Customer Journey Analytics-API</b> </p> 
     <ul> 
      <li>Alles bekijken <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external"> Customer Journey Analytics-API's</a>. </li>
       <li>Zie de nieuwste <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external"> Customer Journey Analytics Reporting API</a>. </li>
