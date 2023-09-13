@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4de95c6c869e25a0301990669b7c8409ab025350
+source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '508'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Deze releaseopmerkingen betreffen de releaseperiode van 13 september 2023 tot en
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | Ondersteuning voor nieuwe `correlationID` veld voor Adobe Analytics | De `_experience.decisioning.propositions.scopeDetails.correlationID` Het veld is nu beschikbaar in het Adobe Analytics-bronverbindingsschema. Dit veld wordt gebruikt ter ondersteuning van A4T-classificaties en wordt vanaf september 2023 ingevuld. | | N.v.t. | 12 september 2023 |
+| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | De `_experience.decisioning.propositions.scopeDetails.correlationID` Het veld is nu beschikbaar in het Adobe Analytics-bronverbindingsschema. Dit veld wordt gebruikt ter ondersteuning van A4T-classificaties en wordt vanaf september 2023 ingevuld. | | N.v.t. | 12 september 2023 |
 | **Updates voor afgeleide velden** | De volgende updates zijn uitgevoerd voor de functie voor afgeleide velden:<ul><li>De [!UICONTROL Lookup] functie is hernoemd naar [!UICONTROL Classify]met extra opties voor het laden van CSV-gegevens. **(releases 27 september 2023)**</li><li>Er zijn aanvullende functies beschikbaar die u kunt gebruiken bij het definiëren van een afgeleid veld: [!UICONTROL Trim], [!UICONTROL Lowercase] en [!UICONTROL Lookup].</li><li>Afgeleide velddefinities ondersteunen nu ook velden van [!UICONTROL Lookup] en [!UICONTROL Profile] datasets.</li></ul>[Meer informatie](/help/data-views/derived-fields/derived-fields.md) | N.v.t. | 13 september 2023 |
 | **Nieuwe functies in Adobe Product Analytics** | <ul><li>**Anomaly Detection**: Vergelijk gebeurtenissen met verwachte waarden die zijn afgeleid van historische trends. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**Trends Frequency of use view**: Bepaal de manier waarop u de functies aanpast op basis van de gebruiksfrequentie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Gebruikersvoorkeuren**: Configureer een aantal gebruikersvoorkeuren, zoals kleurenpaletten en getalnotatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | N.v.t. | 18 september 2023 |
 | **Zoeken naar Edge-apparaten** | Schakel automatische gegevensverzameling van apparaattypen in via het Edge-netwerk van het Experience Platform. Deze Experience Edge-service biedt voordelen voor Customer Journey Analytics samen met andere Experience Platform-apps. (Koppeling naar documentatie) | N.v.t. | 27 september 2023 |
