@@ -4,9 +4,9 @@ description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kun
 
 * **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. U kunt onder andere gebeurtenissen, sessies, gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen.
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Dit menu bevat de opties Lijn, Staaf, Gestapelde balk en Gestapeld gebied.
+
+## Bedekkingen
+
+Voeg aanvullende gegevens toe aan het diagram.
+
+* **[!UICONTROL Show anomalies]**: voert anomaliedetectie uit op de analyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
 
 ## Tijdvergelijking toepassen
 
