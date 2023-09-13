@@ -3,9 +3,9 @@ title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 53a1a6995caad960d8daba4e0d1f4394aa184206
+source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -73,13 +73,13 @@ Filters zijn gebaseerd op een hiërarchie op persoon-, sessie- en gebeurtenisniv
 >[!NOTE]
 >De Person container werd voorheen de Bezoeker container genoemd. De container van de Zitting werd genoemd de container van het Bezoek, en de container van de Gebeurtenis gebruikte om de container van het Actief te zijn.
 
-Een filter stelt voorwaarden in om een persoon te filteren op basis van de kenmerken of interacties van die persoon met uw site, mobiele app of een ander apparaattype waarvan u gegevens hebt verzameld. Als u de voorwaarden in een filter wilt instellen, stelt u regels in voor het filteren van personen op basis van persoonlijke kenmerken en/of navigatiekenmerken. Als u de gegevens van personen verder wilt opsplitsen, kunt u filteren op basis van specifieke bezoeken en/of treffers in de paginaweergave, schermtikken en menuopties voor elke persoon. De Bouwer van de Filter verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
+Een filter stelt voorwaarden in om een persoon te filteren op basis van de kenmerken of interacties van die persoon met uw site, mobiele app of een ander apparaattype waarvan u gegevens hebt verzameld. Als u de voorwaarden in een filter wilt instellen, stelt u regels in voor het filteren van personen op basis van persoonlijke kenmerken en/of navigatiekenmerken. Als u de persoongegevens verder wilt opsplitsen, kunt u filteren op basis van specifieke bezoeken en/of treffers in de paginaweergave, schermtikken en menuopties in een set-top box voor elke persoon. Maar filter ook op attributen die u van een CRM of loyaliteitssysteem hebt gegeten. De Bouwer van de Filter verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
 
-De containerarchitectuur die in de Bouwer van de Filter wordt gebruikt bepaalt Persoon als buitenste container. De container bevat overkoepelende gegevens die specifiek zijn voor de persoon in verschillende bezoeken en paginaweergaven, mobiele toepassingsschermen of menuschermen in een set-top box. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste Event-container kunt u de persoonlijke gegevens op basis van de afzonderlijke paginaweergaven onderbreken. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele gebeurtenissen onderverdelen.
+De containerarchitectuur die in de Bouwer van de Filter wordt gebruikt bepaalt Persoon als buitenste container. De container bevat overkoepelende gegevens die specifiek zijn voor de persoon in verschillende bezoeken en paginaweergaven, mobiele toepassingsschermen of menuschermen in een set-top box. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste Event-container kunt u de persoonlijke gegevens op basis van individuele interacties onderbreken. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele ervaringsgebeurtenissen onderverdelen.
 
 ### Persoonscontainer {#person}
 
-De container van de Persoon omvat elk bezoek en paginamening, mobiel toepassingsscherm, reeks-hoogste doos, of console-spel interactie voor personen binnen een gespecificeerd tijdkader. Een filter op Personniveau retourneert de paginaweergaven, de mobiele app of de set-top box schermen die aan de voorwaarde voldoen. Plus alle andere pagina&#39;s en de schermen die door die zelfde persoon over kanalen (en slechts beperkt door bepaalde datumwaaiers) worden bekeken. Als de meest algemeen gedefinieerde container worden paginaweergaven, mobiele toepassingsschermen en meer tijdens alle bezoeken geretourneerd door rapporten die op het containerniveau Person worden gegenereerd. Bovendien kunt u zo een multikanaalanalyse genereren. Daarom is de container van de Persoon het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
+De container van de Persoon omvat elk bezoek en paginamening, mobiel toepassingsscherm, reeks-hoogste doos, of console-spel interactie voor personen binnen een gespecificeerd tijdkader. In feite, elke ervaringsgebeurtenis die deel van de datasets uitmaakt die u binnen uw verbinding van de Customer Journey Analytics hebt bepaald. Een filter op Personniveau retourneert de paginaweergaven, de mobiele app of de set-top box schermen die aan de voorwaarde voldoen. Plus alle andere interactie door die zelfde persoon over online en off-line kanalen (en slechts beperkt door bepaalde datumwaaiers). Als meest algemeen bepaalde container, keert de rapporten die op het niveau van de container van de Persoon worden geproduceerd paginameningen, mobiele toepassingsschermen, en meer, over alle bezoeken terug en laat u een multi-bezoek kanaalanalyse produceren. Daarom is de container van de Persoon het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
 De containers van de persoon kunnen waarden omvatten die op de algemene geschiedenis van een persoon worden gebaseerd:
 
 - Dagen vóór eerste aankoop
@@ -101,7 +101,7 @@ Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sess
 - Deelnamemetriek
 - Lineaire toegewezen metriek
 
-Met gegevensweergaven in Customer Journey Analytics kunt u bepalen hoe lang een sessie duurt, maar ook wanneer een nieuwe sessie moet worden gemaakt. U kunt bijvoorbeeld een nieuwe mobiele-toepassingssessie definiëren op basis van het tijdstip waarop een gebruiker de nieuwe app start. Zie [Sessieinstellingen](/help/data-views/session-settings.md) voor meer informatie .
+Met gegevensweergaven in Customer Journey Analytics kunt u bepalen hoe lang een sessie duurt, maar ook wanneer een nieuwe sessie moet worden gemaakt. U kunt bijvoorbeeld een nieuwe mobiele-toepassingssessie definiëren op basis van elke keer dat een gebruiker uw mobiele app start. Zie [Sessieinstellingen](/help/data-views/session-settings.md) voor meer informatie .
 
 ### Gebeurteniscontainer {#event}
 
