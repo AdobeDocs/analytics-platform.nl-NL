@@ -3,40 +3,40 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
+source-git-commit: 98bba7c7bc56cfc2a2436f13d833dbf6504d7d6e
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '521'
+ht-degree: 7%
 
 ---
 
-# Huidige Adobe Customer Journey Analytics-releaseopmerkingen (augustus 2023)
+# Huidige Adobe Customer Journey Analytics-releaseopmerkingen (september 2023)
 
-**Laatste update**: 24 augustus 2023
+**Laatste update**: 7 september 2023
 
-Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus tot 13 september 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze releaseopmerkingen betreffen de releaseperiode van 13 september 2023 tot en met 3 oktober 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of bijgewerkte functies
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Verbeterde Report Builder** | <ul><li>U kunt een geplande taak downloaden van het lusje van Werkboeken dan titel het, sparen het, en het delen. [Meer informatie](/help/report-builder/schedule-reportbuilder.md)</li><li>De datum van het begin als afmeting staat u toe om de begindatum van het gegevensblok als afmeting in de output van het gegevensblok te oppervlakten. [Meer informatie](/help/report-builder/create-a-data-block.md) </li></ul> | N.v.t. | 17 augustus 2023 |
-| **Valutaconversie** | Klantreis voegt de mogelijkheid toe om meerdere valuta&#39;s te ondersteunen. U kunt een valuta converteren naar een andere valuta in de weergave-instellingen voor gegevens. [Meer informatie](/help/data-views/component-settings/format.md) | N.v.t. | 30 augustus 2023 |
-| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | We voegen een correlatie-id toe voor het eenvoudig samenvoegen van classificatiegegevens voor Adobe Target-activiteiten en ervaringsgebeurtenissen. | N.v.t. | 11 september 2023 |
-| **Activity Manager rapporteren** | Biedt beheerders gedetailleerde zichtbaarheid bij het rapporteren van verbruik voor elke verbinding, zodat beheerders eenvoudig capaciteitsproblemen tijdens piekrapportagetijden kunnen vaststellen en verhelpen. | N.v.t. | 12 september 2023 |
-| **PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics** | Met de Adobe Customer Journey Analytics SQL-connector krijgt SQL toegang tot gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. De ingenieurs en de analisten van gegevens vertrouwd met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen kunnen nu rapporten en dashboards tot stand brengen die op de zelfde gegevensmeningen worden gebaseerd die de gebruikers van de Customer Journey Analytics voor hun projecten van Analysis Workspace gebruiken. [Meer informatie](/help/data-views/sql-connector.md) | N.v.t. | 12 september 2023 |
+| **Steun voor classificaties A4T in de Bron van Analytics Schakelaar** | Ondersteuning voor nieuwe `correlationID` veld voor Adobe Analytics | De `_experience.decisioning.propositions.scopeDetails.correlationID` Het veld is nu beschikbaar in het Adobe Analytics-bronverbindingsschema. Dit veld wordt gebruikt ter ondersteuning van A4T-classificaties en wordt vanaf september 2023 ingevuld. | | N.v.t. | 12 september 2023 |
+| **Updates voor afgeleide velden** | De volgende updates zijn uitgevoerd voor de functie voor afgeleide velden:<ul><li>De [!UICONTROL Lookup] functie is hernoemd naar [!UICONTROL Classify]met extra opties voor het laden van CSV-gegevens. **(releases 27 september 2023)**</li><li>Er zijn aanvullende functies beschikbaar die u kunt gebruiken bij het definiëren van een afgeleid veld: [!UICONTROL Trim], [!UICONTROL Lowercase] en [!UICONTROL Lookup].</li><li>Afgeleide velddefinities ondersteunen nu ook velden van [!UICONTROL Lookup] en [!UICONTROL Profile] datasets.</li></ul>[Meer informatie](/help/data-views/derived-fields/derived-fields.md) | N.v.t. | 13 september 2023 |
+| **Nieuwe functies in Adobe Product Analytics** | <ul><li>**Anomaly Detection**: Vergelijk gebeurtenissen met verwachte waarden die zijn afgeleid van historische trends. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li><li>**Trends Frequency of use view**: Bepaal de manier waarop u de functies aanpast op basis van de gebruiksfrequentie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Gebruikersvoorkeuren**: Configureer een aantal gebruikersvoorkeuren, zoals kleurenpaletten, gegevensweergaven, kalenders, telling van instanties, getalnotatie en komma-scheidingsteken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li></ul> | N.v.t. | 18 september 2023 |
+| **Zoeken naar Edge-apparaten** | Schakel automatische gegevensverzameling van apparaattypen in via het Edge-netwerk van het Experience Platform. Deze Experience Edge-service biedt voordelen voor Customer Journey Analytics samen met andere Experience Platform-apps. (Koppeling naar documentatie) | N.v.t. | 27 september 2023 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Customer Journey Analytics
 
-AN-309141; AN-319198; AN-324576; AN-324939; AN-325138; AN-325554
+AN-310972; AN-319509; AN-322245; AN-323411; AN-323719; AN-326101; AN-326125; AN-3 32688
+
 
 ## Belangrijke kennisgevingen voor beheerders van Customers Journey Analytics
 
 | Bericht | Bericht toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **Veranderingen in hoe de Customer Journey Analytics gegevens verwerkt** | 22 juni 2023 | We hebben onlangs veranderd hoe we gegevens verwerken in de Customer Journey Analytics.<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en worden bij een lagere prioriteit opgenomen.</li></ul> |
+| N.v.t. | N.v.t. | N.v.t. |
 
 {style="table-layout:auto"}
 
