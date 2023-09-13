@@ -3,10 +3,10 @@ title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 53a1a6995caad960d8daba4e0d1f4394aa184206
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 1%
+source-wordcount: '1131'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,7 @@ Filters kunnen worden gebaseerd op
 
 - kenmerken (browsertype, apparaat, aantal bezoeken, land, geslacht);
 - interacties (campagnes, trefwoordzoekers, zoekmachines);
-- uitgang en binnenkomst (personen uit Facebook;
-- een gedefinieerde landingspagina, verwijzend domein);
+- uitgang en binnenkomst (personen uit Facebook, een bepaalde landingspagina, verwijzend domein, gebeurtenis geofence);
 - aangepaste variabelen (formulierveld, gedefinieerde categorieën, klant-id),
 - en andere criteria.
 
@@ -36,11 +35,11 @@ Voor informatie over de beschikbare typen filters en hoe u deze kunt maken, raad
 
 ## Opeenvolgende filters {#sequential}
 
-Met opeenvolgende filters kunt u personen identificeren op basis van navigatie en paginaweergave op de hele site. Zo beschikt u over een filter met gedefinieerde handelingen en interacties. Met behulp van opeenvolgende filters kunt u bepalen wat een persoon leuk vindt en wat een persoon vermijdt. Wanneer het bouwen van opeenvolgende filters, wordt de exploitant THEN gebruikt om persoonnavigatie te bepalen en te ordenen.
+Met opeenvolgende filters kunt u personen identificeren op basis van navigatie (paginaweergaven op uw site, interactie met scènes in uw mobiele app of via een menu in een set-top box). De opeenvolgende filters verstrekken een filter van bepaalde acties en interactie en helpen u identificeren wat een persoon houdt en wat een persoon vermijdt. Wanneer het bouwen van opeenvolgende filters, wordt de exploitant THEN gebruikt om persoonnavigatie te bepalen en te ordenen.
 
 >[!IMPORTANT]
 >
->U moet beschikken over de **Selecteren** verpakken om opeenvolgende filters voor meerdere kanalen te maken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
+>U moet beschikken over **Selecteren** pakket maken om opeenvolgende filters voor meerdere kanalen te maken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
 
 Hier volgt een voorbeeld:
 
@@ -50,7 +49,7 @@ Hier volgt een voorbeeld:
 
 ## Filtercontainers {#containers}
 
-Filters zijn gebaseerd op een hiërarchie op Person-, Session- en Gebeurtenisniveau met behulp van een genest containermodel. Met de geneste containers kunt u persoonkenmerken en handelingen definiëren op basis van regels tussen en binnen de containers.
+Filters zijn gebaseerd op een hiërarchie op persoon-, sessie- en gebeurtenisniveau met behulp van een genest containermodel. Met de geneste containers kunt u persoonkenmerken en handelingen definiëren op basis van regels tussen en binnen de containers.
 
 
 <table style="table-layout: fixed; border: none;">
@@ -72,41 +71,43 @@ Filters zijn gebaseerd op een hiërarchie op Person-, Session- en Gebeurtenisniv
 </table>
 
 >[!NOTE]
->De container Person werd voorheen de container van de Bezoeker genoemd. De container van de Zitting werd genoemd de container van het Bezoek, en de container van de Gebeurtenis gebruikte om de container van het Actief te zijn.
+>De Person container werd voorheen de Bezoeker container genoemd. De container van de Zitting werd genoemd de container van het Bezoek, en de container van de Gebeurtenis gebruikte om de container van het Actief te zijn.
 
-Een filter stelt voorwaarden in om een persoon te filteren op basis van de kenmerken van de persoon of de interacties met uw site. Als u de voorwaarden in een filter wilt instellen, stelt u regels in voor het filteren van personen op basis van persoonlijke kenmerken en/of navigatiekenmerken. Als u persoonlijke gegevens verder wilt opsplitsen, kunt u filteren op basis van specifieke bezoeken en/of hits in de paginaweergave voor elke persoon. De Bouwer van de Filter verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
+Een filter stelt voorwaarden in om een persoon te filteren op basis van de kenmerken of interacties van die persoon met uw site, mobiele app of een ander apparaattype waarvan u gegevens hebt verzameld. Als u de voorwaarden in een filter wilt instellen, stelt u regels in voor het filteren van personen op basis van persoonlijke kenmerken en/of navigatiekenmerken. Als u de gegevens van personen verder wilt opsplitsen, kunt u filteren op basis van specifieke bezoeken en/of treffers in de paginaweergave, schermtikken en menuopties voor elke persoon. De Bouwer van de Filter verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
 
-De containerarchitectuur die in de Bouwer van de Filter wordt gebruikt bepaalt Persoon als buitenste container, die overkoepelende gegevens specifiek voor de persoon over bezoeken en paginameningen bevat. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste Event-container kunt u de persoonlijke gegevens op basis van de afzonderlijke paginaweergaven onderbreken. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele gebeurtenissen onderverdelen.
+De containerarchitectuur die in de Bouwer van de Filter wordt gebruikt bepaalt Persoon als buitenste container. De container bevat overkoepelende gegevens die specifiek zijn voor de persoon in verschillende bezoeken en paginaweergaven, mobiele toepassingsschermen of menuschermen in een set-top box. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste Event-container kunt u de persoonlijke gegevens op basis van de afzonderlijke paginaweergaven onderbreken. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele gebeurtenissen onderverdelen.
 
 ### Persoonscontainer {#person}
 
-De container van de Persoon omvat elk bezoek en paginamening voor personen binnen een gespecificeerd tijdkader. Een filter op het niveau van de Persoon keert de pagina terug die aan de voorwaarde plus alle andere pagina&#39;s voldoet die door de persoon (en slechts beperkt door bepaalde datumwaaiers) worden bekeken. Als meest breed bepaalde container, keert de rapporten die op het niveau van de container van de Persoon worden geproduceerd paginameningen over alle bezoeken terug en laat u een multi-bezoek analyse produceren. Daarom is de container van de Persoon het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
+De container van de Persoon omvat elk bezoek en paginamening, mobiel toepassingsscherm, reeks-hoogste doos, of console-spel interactie voor personen binnen een gespecificeerd tijdkader. Een filter op Personniveau retourneert de paginaweergaven, de mobiele app of de set-top box schermen die aan de voorwaarde voldoen. Plus alle andere pagina&#39;s en de schermen die door die zelfde persoon over kanalen (en slechts beperkt door bepaalde datumwaaiers) worden bekeken. Als de meest algemeen gedefinieerde container worden paginaweergaven, mobiele toepassingsschermen en meer tijdens alle bezoeken geretourneerd door rapporten die op het containerniveau Person worden gegenereerd. Bovendien kunt u zo een multikanaalanalyse genereren. Daarom is de container van de Persoon het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
 De containers van de persoon kunnen waarden omvatten die op de algemene geschiedenis van een persoon worden gebaseerd:
 
 - Dagen vóór eerste aankoop
-- Oorspronkelijke invoerpagina
+- Oorspronkelijke instappagina of het startscherm van de mobiele toepassing
 - Oorspronkelijke verwijzende domeinen
 
 ### Sessiecontainer {#session}
 
-Met de container Sessie kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet. Met de container Sessie kunt u ook definiëren welke sessies u wilt opnemen in het samenstellen en toepassen van een filter. Het kan u helpen de volgende vragen beantwoorden:
+Met de Sessiecontainer kunt u paginainteracties of mobiele toepassingsinteracties, campagnes of conversies voor een specifieke sessie identificeren. De container van de Zitting is de gemeenschappelijkste gebruikte container omdat het gedrag voor de volledige bezoekzitting vangt zodra de regel wordt ontmoet. Met de container Sessie kunt u ook definiëren welke sessies u wilt opnemen in het samenstellen en toepassen van een filter. Het kan u helpen de volgende vragen beantwoorden:
 
 - Hoeveel zittingen betrokken met zowel Web als de gegevensbronnen van het Centrum van de Vraag?
 - Welke pagina&#39;s hebben bijgedragen tot een geslaagde omzetting in een uitverkoop?
 
 Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sessie:
 
-- Type sessie
+- Sessietype
 - Itempagina
 - Retourfrequentie
 - Deelnamemetriek
 - Lineaire toegewezen metriek
 
+Met gegevensweergaven in Customer Journey Analytics kunt u bepalen hoe lang een sessie duurt, maar ook wanneer een nieuwe sessie moet worden gemaakt. U kunt bijvoorbeeld een nieuwe mobiele-toepassingssessie definiëren op basis van het tijdstip waarop een gebruiker de nieuwe app start. Zie [Sessieinstellingen](/help/data-views/session-settings.md) voor meer informatie .
+
 ### Gebeurteniscontainer {#event}
 
-De container van de Gebeurtenis bepaalt welke paginagebeurtenissen u van een filter zou willen omvatten of uitsluiten. Het is het meest smalle van de beschikbare containers om u specifieke kliks en paginamening te laten identificeren waar een voorwaarde waar is. Met de container Event kunt u één code voor bijhouden weergeven of gedrag in een bepaald gedeelte van uw site isoleren. U kunt ook een specifieke waarde aanwijzen wanneer een handeling plaatsvindt, zoals het marketingkanaal wanneer een order is geplaatst.
+De container van de Gebeurtenis bepaalt welke pagina, mobiele toepassing, of ander type van gebeurtenissen die u van een filter zou willen omvatten of uitsluiten. Het is het smaakst van de beschikbare containers om u specifieke kliks, paginamening, tikt op knoop in een mobiele app te identificeren waar een voorwaarde waar is. Met de container Event kunt u één trackingcode weergeven of gedrag isoleren binnen een bepaald gebied van uw mobiele app. U kunt ook een specifieke waarde aanwijzen wanneer een handeling plaatsvindt, zoals het marketingkanaal wanneer een order is geplaatst.
 
-Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pagina:
+Gebeurteniscontainers bevatten op waarde gebaseerde uitsplitsingen van één pagina voor:
 
 - Producten
 - Props weergeven
@@ -115,7 +116,7 @@ Gebeurteniscontainers bevatten op waarden gebaseerde uitsplitsingen van één pa
 
 ## Filtersjabloon buiten de box {#template}
 
-De traditionele Analytics komt met talrijke out-of-the-box malplaatje en berekende metriek. Veel van deze regels zijn niet van toepassing in Customer Journey Analytics of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in Customer Journey Analytics.
+De traditionele Analytics komt met talrijke out-of-the-box malplaatjes en berekende metriek. Veel van deze regels zijn niet van toepassing in de Customer Journey Analytics of moeten worden hernoemd of opnieuw worden gemaakt. Andere zijn afhankelijk van een oplossing voor contextgevoelige variabelen in de Customer Journey Analytics.
 
 | Filternaam | Beschrijving |
 | --- | --- |
