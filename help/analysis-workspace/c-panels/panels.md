@@ -3,7 +3,7 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 1%
@@ -25,7 +25,7 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICON
 | [Deelvenster voor attributie](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
 | [Deelvenster Vrije vorm](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
 | [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
-| [Deelvenster Tijdlijn media afspelen](media-playback-timespent/media-playback-time-spent.md) | Analyseer de afspeeltijd die u hebt doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering heeft plaatsgevonden of waar een drop-down heeft plaatsgevonden. |
+| [Deelvenster Tijdlijn media afspelen](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer de afspeeltijd die u hebt doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering heeft plaatsgevonden of waar een drop-down heeft plaatsgevonden. |
 
 ![](assets/panel-overview.png)
 
@@ -37,7 +37,7 @@ Het standaardbeginvenster is het [!UICONTROL Freeform] , maar u kunt het [leeg d
 
 De paneelkalender bepaalt het rapporteringswaaier voor lijsten en visualisaties binnen een paneel.
 
-Opmerking: Als een (paarse) datumbereikcomponent wordt gebruikt binnen een tabel, visualisatie of dropzone van een deelvenster, wordt de paneelkalender hierdoor overschreven.
+Opmerking: als een (paarse) datumbereikcomponent wordt gebruikt in een tabel, visualisatie of dropzone van een deelvenster, wordt de deelvensterkalender hierdoor overschreven.
 
 ![](assets/panel-calendar.png)
 
@@ -67,7 +67,7 @@ Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters
 
 Met vervolgkeuzefilters kunt u op een gecontroleerde manier met de gegevens werken. U kunt bijvoorbeeld een vervolgkeuzemenu toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt filteren op Tablet, Mobiele telefoon of Computer.
 
-U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één project te consolideren. Als er bijvoorbeeld veel versies van hetzelfde project met verschillende landfilters zijn toegepast, kunt u alle versies samenvoegen tot één project en een vervolgkeuzelijst Land toevoegen.
+Vervolgkeuzefilters kunnen worden gebruikt om ook vele projecten in één te consolideren. Als er bijvoorbeeld veel versies van hetzelfde project met verschillende landfilters zijn toegepast, kunt u alle versies samenvoegen tot één project en een vervolgkeuzelijst Land toevoegen.
 
 ![](assets/dropdown-filter-intro.png)
 
@@ -83,7 +83,7 @@ Selecteer een van de opties in de vervolgkeuzelijst om de gegevens in het deelve
 
 Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volgende opties kiezen:
 
-* **[!UICONTROL Add label]**: Wanneer u een drop-down filter aan een project toevoegt, wordt een etiket automatisch geplaatst aan de componentennaam. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
+* **[!UICONTROL Add label]**: Wanneer u een vervolgkeuzefilter toevoegt aan een project, wordt automatisch een label ingesteld op de naam van de component. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
 * **[!UICONTROL Delete label]**: Verwijder de tekst boven een vervolgkeuzefilter.
 * **[!UICONTROL Delete drop-down filter]**: Hiermee verwijdert u het vervolgkeuzefilter uit het deelvenster.
 
@@ -93,7 +93,7 @@ Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volg
 
 Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de dimensie Landen en Steden. Wanneer u een land selecteert in de vervolgkeuzelijst UICONTROL-landen, wordt de vervolgkeuzelijst Steden dynamisch aangepast zodat alleen de steden in dat land worden weergegeven.
 
-Dit concept geldt voor alle dimensies; alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Dimension-items die in statische vervolgkeuzefilters zijn geselecteerd, zijn van invloed op de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar; Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
+Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Items die in statische vervolgkeuzefilters zijn geselecteerd, beïnvloeden de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
 
 Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
 

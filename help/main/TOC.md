@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
+source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '969'
 ht-degree: 26%
 
 ---
@@ -154,10 +154,7 @@ ht-degree: 26%
       + [Deelvenster Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
       + [Deelvenster voor gelijktijdige mediaviewers](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tijd van afspelen van media besteed {#media-playback-timespent}
-         + [Overzicht](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Invoer- en uitvoerinstellingen](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Veelgestelde vragen](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Media afspelen tijd besteed, deelvenster](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + Projecten cureren, delen en plannen {#curate-share}
       + [Menu Delen](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](../analysis-workspace/curate-share/curate.md)

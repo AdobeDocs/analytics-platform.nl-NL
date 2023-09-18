@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2631'
 ht-degree: 4%
 
 ---
@@ -20,10 +20,11 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **September 2023** | |
+| Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |
 | Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) en [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) en voor de extra CSV-mogelijkheden die aan de [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) functie. |
 | Regionale gegevensverzameling | Bijgewerkt [Veelgestelde vragen](../getting-started/cja-faq.md#12-regional-data-collection) met informatie over regionale gegevensverzameling bij gebruik van Customer Journey Analytics. |
 | **augustus 2023** | |
-| Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
+| Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verbeterde Report Builder | Bijgewerkte inhoud voor [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) om informatie te verstrekken voor het downloaden van geplande taken. Bijgewerkte inhoud voor  [Een gegevensblok maken](/help/report-builder/create-a-data-block.md) om informatie te verstrekken voor het gebruiken van de datum van het Begin als afmeting. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Ondersteuning voor Adobe Customer Journey Analytics-functies | Meer informatie is toegevoegd in het dialoogvenster *Op een nieuwe manier ondersteund* tabel over de sessionisatiemogelijkheden in Customer Journey Analytics in vergelijking met Adobe Analytics. [Meer informatie](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
