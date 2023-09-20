@@ -1,10 +1,10 @@
 ---
-description: Snelfilters gebruiken in Analysis Workspace voor Customer Journey Analytics
+description: Snelle filters gebruiken in Analysis Workspace voor Customer Journey Analytics
 title: Snelle filters
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Houd rekening met het volgende wanneer u snelle filters maakt:
 
 * Snelle filters zijn alleen van toepassing op het project waar ze zijn gemaakt. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers.
 * Er zijn maximaal drie regels toegestaan.
-* Geneste containers of sequentiële regels worden niet ondersteund.
+* Geneste containers of opeenvolgende regels worden niet ondersteund.
 
-In de volgende video ziet u hoe u snelle filters kunt gebruiken. (Opmerking: in deze video wordt de term &#39;&#39;snelle segmenten&#39;&#39; gebruikt in plaats van &#39;&#39;snelle filters&#39;&#39;. De functionaliteit is echter hetzelfde.)
+In de volgende video ziet u hoe u snelle filters kunt gebruiken. (Opmerking: in deze video wordt de term &#39;snelle segmenten&#39; gebruikt in plaats van &#39;snelle filters&#39;. De functionaliteit is echter hetzelfde.)
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
@@ -40,7 +40,7 @@ Een snelfilter maken:
      >[!NOTE]
      >
      > Houd rekening met het volgende wanneer u een snel filter ad hoc (slepen en neerzetten) maakt:
-     > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek waarvan u geen filters kunt bouwen.
+     > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek van waaruit u geen filters kunt maken.
      > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;exists&#39;-gebeurtenisfilters. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
      > * Als &#39;unspecified&#39; of &#39;none&#39; wordt neergezet in de neerzetzone van het filter, wordt deze automatisch omgezet in een filter &#39;does not exist&#39;, zodat deze op de juiste wijze wordt behandeld tijdens het filteren.
 
@@ -53,7 +53,7 @@ Een snelfilter maken:
 
    | Instelling | Beschrijving |
    | --- | --- |
-   | [!UICONTROL Name] | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijkere naam. |
+   | [!UICONTROL Name] | De standaardnaam van een filter is een combinatie van de regelnamen in het filter. U kunt de naam van het filter wijzigen in een vriendelijker naam. |
    | [!UICONTROL Include/exclude] | U kunt componenten in uw filterdefinitie opnemen of uitsluiten, maar niet beide. |
    | [!UICONTROL Hit/Visit/Visitor] container | Snelle filters omvatten één [filtercontainer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers) alleen dat u een dimensie/metrisch/datumbereik in het filter kunt opnemen (of dit kunt uitsluiten). [!UICONTROL Visitor] bevat overkoepelende gegevens specifiek voor de persoon over bezoeken en paginameningen. A [!UICONTROL Visit] de container laat u regels plaatsen om de gegevens van de persoon te verdelen die op bezoeken worden gebaseerd, en een [!UICONTROL Hit] Met container kunt u persoonlijke gegevens onderbreken op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
    | [!UICONTROL Components] (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen, metriek, datumbereiken of afmetingswaarden) toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin te typen en de snelle filterbuilder vindt automatisch de juiste component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
@@ -128,7 +128,7 @@ Nadat u het filter hebt toegepast, kunt u het toevoegen aan de lijst met filterc
 1. Selecteren **[!UICONTROL Save]**.
 
    Het filter verschijnt nu in uw lijst van de filtercomponent voor al uw projecten.
-U kunt ook [delen, filter](/help/components/filters/manage-filters.md) met andere mensen in uw organisatie.
+U kunt [delen, filter](/help/components/filters/filters-share.md) met andere mensen in uw organisatie.
 
 ## Voorbeeld van snel filter
 

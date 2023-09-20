@@ -3,9 +3,9 @@ description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe
 title: Berekende standaard een label geven
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,14 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 >
 >De nuttigste types van markeringen zijn gewoonlijk markeringen die op de volgende criteria gebaseerd zijn:
 >
->* **Teamnamen**, zoals sociale marketing of mobiele marketing.
+>* **Teamnamen**, zoals Sociale marketing of Mobiele marketing.
 >* **Project** (analysetags), zoals analyse van de pagina Entry.
 >* **Categorieën**, zoals Vrouwen of Geografie.
 >* **Workflows**, zoals goed te keuren of te laten krappen voor (een specifieke bedrijfseenheid).
 
-
 ## Labels toepassen op een berekende metrische waarde
 
-1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar de Berekende metrische manager te gaan.
+1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].
 
 1. Schakel in het venster Berekende metriek het selectievakje in naast de metriek die u wilt labelen.
 
@@ -47,7 +46,7 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 
 1. In het Berekende metriebeheer worden codes weergegeven in het dialoogvenster [!UICONTROL **Tags**] kolom. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
 
-## Metrisch filteren op tags
+## Metrische waarden filteren op tags
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
 

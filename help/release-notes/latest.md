@@ -3,10 +3,10 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
+source-git-commit: aa7f4361b1353a86b87c36c3d08e99ddb8ffd049
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 7%
+source-wordcount: '595'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,7 @@ Deze releaseopmerkingen betreffen de releaseperiode van 13 september 2023 tot en
 | **Updates voor afgeleide velden** | De volgende updates zijn uitgevoerd voor de functie voor afgeleide velden:<ul><li>De [!UICONTROL Lookup] functie is hernoemd naar [!UICONTROL Classify]met extra opties voor het laden van CSV-gegevens. **(releases 27 september 2023)**</li><li>Er zijn aanvullende functies beschikbaar die u kunt gebruiken bij het definiëren van een afgeleid veld: [!UICONTROL Trim], [!UICONTROL Lowercase] en [!UICONTROL Lookup].</li><li>Afgeleide velddefinities ondersteunen nu ook velden van [!UICONTROL Lookup] en [!UICONTROL Profile] datasets.</li></ul>[Meer informatie](/help/data-views/derived-fields/derived-fields.md) | N.v.t. | 13 september 2023 |
 | **Nieuwe functies in Adobe Product Analytics** | <ul><li>**Anomaly Detection**: Vergelijk gebeurtenissen met verwachte waarden die zijn afgeleid van historische trends. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**Trends Frequency of use view**: Bepaal de manier waarop u de functies aanpast op basis van de gebruiksfrequentie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Gebruikersvoorkeuren**: Configureer een aantal gebruikersvoorkeuren, zoals kleurenpaletten en getalnotatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | N.v.t. | 18 september 2023 |
 | **Zoeken naar Edge-apparaten** | Schakel automatische gegevensverzameling van apparaattypen in via het Edge-netwerk van het Experience Platform. Deze Experience Edge-service biedt voordelen voor Customer Journey Analytics samen met andere Experience Platform-apps. (Koppeling naar documentatie) | N.v.t. | 27 september 2023 |
+| **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar in de [Het berekende manager van metriek](/help/components/calc-metrics/cm-workflow/cm-manager.md) en de [Filterbeheer](/help/components/filters/manage-filters.md) bij het beheren van componenten:<ul><li>Gebruikt in</li><li>Laatst gebruikt</li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt.</p> | 20 september 2023 | 4 oktober 2023 |
 
 {style="table-layout:auto"}
 

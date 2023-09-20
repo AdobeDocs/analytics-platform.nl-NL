@@ -3,7 +3,7 @@ description: De filterontwikkelaar biedt een canvas voor het slepen en neerzette
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 1%
@@ -64,7 +64,7 @@ U kunt regeldefinities en containers toevoegen om uw filters te definiëren. (Vo
 1. Voer een waarde in voor het geselecteerde item of selecteer een waarde.
 1. Voeg indien nodig extra containers toe met **[!UICONTROL And]**, **[!UICONTROL Or]**, of **[!UICONTROL Then]** regels.
 1. Nadat u de containers hebt geplaatst en de regels hebt ingesteld, raadpleegt u de resultaten van het filter in het validatieschema rechtsboven. De validator geeft het percentage en het absolute aantal paginaweergaven, bezoeken en unieke personen aan die overeenkomen met het filter dat u hebt gemaakt.
-1. Onder **[!UICONTROL Tags]**, [tag](/help/components/filters/manage-filters.md) de container door een bestaande tag te selecteren of een nieuwe tag te maken.
+1. Onder **[!UICONTROL Tags]**, [tag](/help/components/filters/filters-tag.md) de container door een bestaande tag te selecteren of een nieuwe tag te maken.
 1. Klikken **[!UICONTROL Save]** het filter opslaan.
 
    U wordt naar de [Filterbeheer](/help/components/filters/manage-filters.md), waar u uw filter op meerdere manieren kunt labelen, delen en beheren.

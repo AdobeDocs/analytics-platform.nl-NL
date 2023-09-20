@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
+source-git-commit: dab672e07ddf834701279e108ad2daab1ad94efa
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1023'
 ht-degree: 25%
 
 ---
@@ -227,6 +227,12 @@ ht-degree: 25%
    + Filters {#cja-filters}
       + [Overzicht van filters](../components/filters/filters-overview.md)
       + [Filters maken](../components/filters/create-filters.md)
+      + [Filters delen](../components/filters/filters-share.md)
+      + [Labelfilters](../components/filters/filters-tag.md)
+      + [De lijst met filters filteren](../components/filters/filters-filter.md)
+      + [Filters markeren als favorieten](../components/filters/filters-favorite.md)
+      + [Filters goedkeuren](../components/filters/filters-approve.md)
+      + [Filters kopiëren](../components/filters/filters-copy.md)
       + [Snelle filters](../components/filters/quick-filters.md)
       + [Filter builder](../components/filters/filter-builder.md)
       + [Filters beheren](../components/filters/manage-filters.md)
@@ -242,6 +248,9 @@ ht-degree: 25%
          + [Gefilterde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Filters stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Gefilterde en gewogen cijfers](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [Berekende maateenheden filteren](../components/calc-metrics/cm-workflow/cm-filter.md)
+         + [Berekende metriek markeren als favorieten](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [Berekende cijfers kopiëren](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Functies gebruiken](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Berekende standaard een label geven](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [Berekende standaard goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)

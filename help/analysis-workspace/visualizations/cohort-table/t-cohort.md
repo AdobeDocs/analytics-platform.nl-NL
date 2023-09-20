@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Een rapport voor cohortanalyse configureren
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Een cohort maken en een [!UICONTROL Cohort Analysis] melden in Analysis Workspac
 
    Selecteer cellen (aaneengesloten of niet-aaneengesloten) en klik met de rechtermuisknop > **[!UICONTROL Create Filter From Selection]**.
 
-1. In de [Filter Builder](/help/components/filters/manage-filters.md), bewerkt u het filter en klikt u op **[!UICONTROL Save]**.
+1. In de [Filter Builder](/help/components/filters/filter-builder.md), bewerkt u het filter en klikt u op **[!UICONTROL Save]**.
 
    Het opgeslagen filter is beschikbaar voor gebruik in het dialoogvenster [!UICONTROL Filter] deelvenster in [!UICONTROL Analysis Workspace].
 1. Geef uw cohortproject een naam en sla het op.
