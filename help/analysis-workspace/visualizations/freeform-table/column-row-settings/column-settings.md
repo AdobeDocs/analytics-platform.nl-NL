@@ -3,10 +3,10 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 19%
+source-wordcount: '672'
+ht-degree: 18%
 
 ---
 
@@ -29,14 +29,14 @@ U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel ee
 | Element | Beschrijving |
 | --- | --- |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
-| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
+| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: we kunnen percentages van meer dan 100% weergeven, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
 | Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
-| Tekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
+| Tekst koptekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
 | nul interpreteren als geen waarde | Voor cellen met een waarde 0 bepaalt u of een cel van 0 of een lege cel moet worden weergegeven. Dit is handig wanneer u gegevens bekijkt voor elke dag van een maand, en sommige dagen zijn nog niet gebeurd.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, kunnen lege cellen worden weergegeven. Grafieken voldoen ook aan deze instelling (ze geven dus geen lijn of balk weer met 0 waarden als deze instelling is ingeschakeld). |
 | Achtergrond | Hiermee bepaalt u of alle celopmaak, inclusief de staafgrafiek en voorwaardelijke opmaak, in een cel wordt weergegeven of verborgen. |
 | Staafgrafiek | Hiermee wordt een horizontale staafgrafiek weergegeven die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
 | Voorwaardelijke opmaak | Zie de onderstaande paragraaf. |
-| Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
+| Tabelcelvoorvertoning | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
 
 ## Voorwaardelijke opmaak {#conditional-formatting}
 
@@ -54,9 +54,27 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 ## Niet-standaard toewijzingsmodel gebruiken {#attribution}
 
-Hiermee kunt u de standaardkenmerkset overschrijven die is ingesteld in [Gegevensweergaven](/help/data-views/component-settings/attribution.md).
+Hiermee kunt u de standaardkenmerkset overschrijven in [Gegevensweergaven](/help/data-views/component-settings/attribution.md).
 
-1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
+<!--
+
+>[!NOTE]
+>
+>Consider the following when updating a component's attribution to a non-default attribution model:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
+
+-->
+
+Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in een Analysis Workspace:
+
+1. Klik op het pictogram Instellingen (versnelling) op een metrische waarde in een kolom Tabel voor vrije vorm.
 
    ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
@@ -67,4 +85,3 @@ Hiermee kunt u de standaardkenmerkset overschrijven die is ingesteld in [Gegeven
 >[!MORELIKETHIS]
 >
 >* [Databronnen beheren](/help/analysis-workspace/visualizations/t-sync-visualization.md)
-

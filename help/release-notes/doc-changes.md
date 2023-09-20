@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 4%
@@ -26,7 +26,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | **augustus 2023** | |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verbeterde Report Builder | Bijgewerkte inhoud voor [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) om informatie te verstrekken voor het downloaden van geplande taken. Bijgewerkte inhoud voor  [Een gegevensblok maken](/help/report-builder/create-a-data-block.md) om informatie te verstrekken voor het gebruiken van de datum van het Begin als afmeting. |
-| Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
+| Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analysis-workspace/export/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Ondersteuning voor Adobe Customer Journey Analytics-functies | Meer informatie is toegevoegd in het dialoogvenster *Op een nieuwe manier ondersteund* tabel over de sessionisatiemogelijkheden in Customer Journey Analytics in vergelijking met Adobe Analytics. [Meer informatie](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evolutie uit Adobe Analytics | De *(Opnieuw)Marketingkanalen configureren* sectie met een verwijzing naar de Afgeleide gebieden de functiesjabloon van de Kanalen van de Marketing. [Meer informatie](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Snelle handleidingen voor het invoeren van gegevens voor mobiele toepassingen en andere platforms | Extra snelstarthulplijnen voor gegevensinvoer waarin wordt uitgelegd hoe u gegevens van mobiele toepassingen of andere platforms (zoals bureaubladtoepassingen, games op consoles, toepassingen op set-top boxes en IoT-apparaten) in Customer Journey Analytics kunt opnemen en gebruiken. [Meer informatie](../data-ingestion/data-ingestion.md) |
@@ -169,7 +169,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | April 2021 | Nieuwe documentatie over steun voor geplande projecten in Werkruimte. |
 | April 2021 | Nieuwe onderwerpen over de [Verbeterde weergave van gegevens](/help/data-views/data-views.md). |
 | April 2021 | Nieuwe onderwerpen over [gegevens van Googles Analytics opnemen](/help/use-cases/ga/overview.md) en [die gegevens analyseren](/help/use-cases/ga/report.md). |
-| April 2021 | Toegevoegd onderwerp op [geplande rapporten](/help/analysis-workspace/curate-share/t-schedule-report.md) in Workspace. |
+| April 2021 | Toegevoegd onderwerp op [geplande rapporten](/help/analysis-workspace/export/t-schedule-report.md) in Workspace. |
 | April 2021 | Nieuw onderwerp over [afmetingen van hoge kwaliteit in Customer Journey Analytics](/help/components/dimensions/high-cardinality.md). |
 | **Maart 2021** | |
 | Maart 2021 | Toegevoegd onderwerp op steun voor [Analysedashboards](/help/mobile-app/home.md) (mobiele app). |

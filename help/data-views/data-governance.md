@@ -1,9 +1,9 @@
 ---
 title: Labels en beleid
-description: Leer hoe gegevenslabels en beleidsregels die in Adobe Experience Platform zijn gedefinieerd van invloed zijn op gegevensweergaven en rapportage in Customer Journey Analytics.
+description: Leer hoe de gegevensetiketten en het beleid in Adobe Experience Platform worden bepaald gegevensmeningen en rapportering in Customer Journey Analytics beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
+source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Labels en beleid
 
-Wanneer u een dataset in Experience Platform creeert, kunt u tot stand brengen [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in Customer Journey Analytics.
+Wanneer u een dataset in Experience Platform creeert, kunt u creëren [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in de Customer Journey Analytics.
 
-De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
+De volgende labels zijn van bijzonder belang voor de Customer Journey Analytics:
 
 * De `C8` label - **[!UICONTROL No measurement]**. Dit label geeft aan dat gegevens niet kunnen worden gebruikt voor analyses op de websites of apps van uw organisatie.
 
@@ -24,14 +24,14 @@ De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
 >
 >De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan stitched datasets. Deze kunnen echter handmatig worden toegevoegd.
 
-De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U maakt uw beleid met de [UI Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en) of via de [Beleidsservice-API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
+De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U maakt uw beleid met de [UI EXPERIENCE PLATFORM](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en) of via de [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
 
-Er worden twee door Adobe gedefinieerde beleidsregels opgehaald in Customer Journey Analytics en dit heeft invloed op rapportage en downloaden/delen:
+Er worden twee door de Adobe gedefinieerde beleidsregels weergegeven in de Customer Journey Analytics en deze zijn van invloed op rapportage en downloaden/delen:
 
 * **[!UICONTROL Enforce Analytics]** beleid
 * **[!UICONTROL Enforce Download]** beleid
 
-## Gegevenslabels weergeven in gegevensweergaven Customer Journey Analytics
+## Gegevenslabels weergeven in gegevensweergaven van Customers Journey Analytics
 
 De etiketten van gegevens die in Experience Platform werden gecreeerd worden getoond in drie plaatsen in het gebruikersinterface van gegevensmeningen:
 
@@ -53,7 +53,7 @@ Klikken **[!UICONTROL Apply]** om te zien welke componenten etiketten hebben in 
 
 ## Filter op beleid voor gegevensbeheer in gegevensweergaven
 
-U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van bepaalde Customer Journey Analytics gegevens meningselementen voor analytics of de uitvoer gebruikt.
+U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van bepaalde de meningselementen van de gegevens van de Customer Journey Analytics voor analytische of uitvoerdoel blokkeert.
 
 Klik nogmaals op de knop [!UICONTROL filter] pictogram in de linkerspoorstaaf en onder **[!UICONTROL Data Governance]**, klikt u op **[!UICONTROL Policies]**:
 
@@ -72,9 +72,9 @@ Deze onderdelen worden grijs weergegeven in de linkerrails [!UICONTROL Schema fi
 U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 
 >[!MORELIKETHIS]
->[Gevoelige gegevens downloaden](/help/analysis-workspace/curate-share/download-send.md)
+>[Gevoelige gegevens downloaden](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[Wat zijn beperkte labels in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+>[Wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
 
 

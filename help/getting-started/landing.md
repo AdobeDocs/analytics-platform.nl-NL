@@ -1,19 +1,19 @@
 ---
 description: Verklaart de eigenschappen van de nieuwe landingspagina.
-title: Customer Journey Analytics-landingspagina
+title: Customer Journey Analytics landingspagina
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics-landingspagina
+# Customer Journey Analytics landingspagina
 
-De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Workspace] en heeft een startpagina van de projectmanager en een het leren sectie om u te helpen de gegevens van de klantenreis effectiever beheren.
+De openingspagina voor markeertekens voor Customers Journey Analytics [!DNL Analysis Workspace] en heeft een startpagina van de projectmanager en een het leren sectie om u te helpen de gegevens van de klantenreis effectiever beheren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -21,10 +21,10 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 
 | Functie | Beschrijving | Schermafbeelding |
 | --- | --- | --- |
-| Uitbreiden [!UICONTROL Projects] tabel naar volledig scherm | Klik op het hamburger-menupictogram om de tabel uit te vouwen. Deze actie zal de linker-spoorlusjes doen ineenstorten. | ![Tabel uitvouwen](assets/landing-collapse2.png) |
+| Uitbreiden [!UICONTROL Projects] tabel naar volledig scherm | Klik op het hamburger-menupictogram om de tabel uit te vouwen. Deze actie zal de linker-spoorlusjes doen ineenstorten. | ![Tabel uitbreiden](assets/landing-collapse2.png) |
 | Kolombreedte aanpassen | Eerder was de kolombreedte vast. Nu kunt u het aanpassen door het kolomscheidingsteken te slepen. | ![Kolombreedte](assets/column-width.png) |
 | Vastgezette items opnieuw ordenen | Als u vastgezette items omhoog en omlaag wilt verplaatsen, klikt u op de ellips naast het vastgezette item en selecteert u **[!UICONTROL Move up]** of **[!UICONTROL Move down]**. | ![Vastgezette items verplaatsen](assets/move-up-down.png) |
-| Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](../analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. </li><li>**[!UICONTROL Number of Queries]**: Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. </li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
+| Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt [de projectplanning bewerken](/help/analysis-workspace/export/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: Met langere datumbereiken wordt het project complexer en kunnen de verwerkings- en laadtijden langer worden. </li><li>**[!UICONTROL Number of Queries]**: Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. </li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
 | **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
 
 {style="table-layout:auto"}
@@ -33,7 +33,7 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 
 [!UICONTROL Projects] dient als [!UICONTROL Workspace] homepage. Het lusje van Projecten toont de omslag van het Bedrijf, om het even welke persoonlijke omslagen u, uw projecten, en Mobiele scorecards creeerde. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Zie voor meer informatie [Over mappen in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
-![Alles landen](assets/landing-all2.png)
+![Alles aanlanden](assets/landing-all2.png)
 
 **[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, lijsten, en visualisaties combineren die u bouwde of die iemand anders bouwde en met u deelde. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
 
@@ -46,8 +46,8 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | Voorkeuren bewerken | Laat u [!UICONTROL View Tutorials], en [Gebruikersvoorkeuren bewerken](/help/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Create new] | Opent het project modaal waar u een project van de Werkruimte of een Mobiele scorecard kunt tot stand brengen of een bedrijfmalplaatje openen. |
 | [!UICONTROL Show less<br> Meer weergeven] | Hiermee schakelt u tussen het niet weergeven en weergeven van de banner: ![Bovenste banner](assets/top-banner.png) |
-| [!UICONTROL Workspace project] | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) voor u om te ontwerpen en te bouwen. |
-| [!UICONTROL Mobile scorecard] | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Workspace project] | Hiermee maakt u een lege [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Mobile scorecard] | Hiermee maakt u een lege [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) voor u om te ontwerpen en te bouwen. |
 | [!UICONTROL Open Training Tutorial] | Hiermee opent u de zelfstudie Workspace Training die u door het proces begeleidt voor het bouwen van een nieuw startproject in een stapsgewijze zelfstudie. |
 | [!UICONTROL Open release notes] | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
 | Filterpictogram | Filters op tags, gegevensweergaven, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
@@ -60,12 +60,12 @@ De openingspagina voor Customer Journey Analytics-hooglichten [!DNL Analysis Wor
 | Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Verwijderen**, **Delen**, **Naam wijzigen**, **Kopiëren**, **Ongedaan maken**, **Omhoog**, **Omlaag**, **Tag**, **Goedkeuren**, **CSV exporteren**, en **Verplaatsen naar**. U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
 | [!UICONTROL Type] | Wijst erop of dit type een project van de Werkruimte, een Mobiele scorecard, of een omslag is. |
 | [!UICONTROL Tags] | Hiermee worden projecten gecodeerd om ze in groepen te ordenen. |
-| [!UICONTROL Project Role] | Identificeert de projectrollen: of u de eigenaar van het project bent en of u machtigingen hebt om het project te bewerken of te dupliceren. |
+| [!UICONTROL Project Role] | Identificeert de projectrollen: of u de projecteigenaar bent en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
 | [!UICONTROL Data View] | Identificeert de gegevensmeningen die met het project worden geassocieerd.<br>Tabellen en visualisaties in een deelvenster leiden gegevens af van de gegevensweergave die rechtsboven in het deelvenster is geselecteerd. In de gegevensweergave wordt ook bepaald welke componenten beschikbaar zijn in de linkertrack. Binnen een project, kunt u één of vele gegevensmeningen afhankelijk van uw gevallen van het analysegebruik gebruiken. De lijst met gegevensweergaven wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
 | [!UICONTROL Owner] | Identificeert de persoon die het project creeerde. |
 | [!UICONTROL Last opened] | Identificeert de datum u het project het laatst opende. |
-| Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles landen](assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |
-| TONEN: Mappen en projecten voor alle projecten | Hiermee wijzigt u de weergave-instelling in de tabel om mappen en projecten weer te geven op basis van uw maporganisatie **of** toon al uw projecten in een niet georganiseerde lijst. |
+| Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles aanlanden](assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |
+| TONEN: Mappen en projecten voor alle projecten | Hiermee wijzigt u de weergave-instelling in de tabel om mappen en projecten weer te geven volgens uw maporganisatie **of** toon al uw projecten in een ongeorganiseerde lijst. |
 | &lt; (Terug) | Hiermee gaat u terug naar de meest recente configuratie van de bestemmingspagina in een Workspace-project. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
 
 ### Verdringing van de pagina Projectmanager {#deprecate-pm-page}
@@ -84,7 +84,7 @@ Als u in de mening van &quot;Omslagen &amp; van Projecten&quot;bent, zal een mod
 
 De pagina Learning bevat praktische videolessen, zelfstudies en koppelingen naar documentatie.
 
-Leerpagina in Customer Journey Analytics gebruiken om te leren:
+Gebruik de het Leren pagina in Customer Journey Analytics om te leren:
 
 * Begin-, tussenliggende of geavanceerde functies en gebruiksgevallen in CJA
 * Hoe kan ik naadloos overstappen van Adobe Analytics naar CJA?
@@ -97,7 +97,7 @@ Leerpagina in Customer Journey Analytics gebruiken om te leren:
 
 * **Inhoud filteren:** Met het pictogram Filter in de linkertrack kunt u leerinhoud filteren op ervaringsniveau (Begin, Midden of Geavanceerd) en op inhoudstype (Document, Video, of Tours &amp; tutorials).
 * **Voortgang track:** Nadat u inhoud hebt geselecteerd, kunt u een **[!UICONTROL Viewed]** wordt weergegeven. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de **[!UICONTROL Viewed]** -code om deze uit een stuk inhoud te verwijderen.
-* **Aanvullende inhoud weergeven:** Selecteer tijdens het weergeven van video de optie **[!UICONTROL Learn more]** om gerelateerde documentatieinhoud op het Experience League weer te geven. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
+* **Aanvullende inhoud weergeven:** Selecteer tijdens het weergeven van een video de optie **[!UICONTROL Learn more]** om gerelateerde documentatieinhoud op het Experience League weer te geven. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
    * **[!UICONTROL Visit YouTube]:** Bekijk de volledige Analysis Workspace YouTube-afspeellijst.
    * [!UICONTROL **Experience League bezoeken**]: Bekijk de volledige reeks CJA-documentatie op het Experience League.
 * **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Workspace Fundamentals] tour wordt aanbevolen voor nieuwe gebruikers. Deze rondleiding neemt u rechtstreeks aan Workspace en begeleidt u door de gemeenschappelijkste acties. Deze rondleiding kan ook op elk gewenst moment opnieuw worden gestart in Workspace via de pop-up voor knopinfo in de koptekst van het deelvenster.

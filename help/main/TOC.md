@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 26%
+source-wordcount: '995'
+ht-degree: 25%
 
 ---
 
@@ -161,8 +161,11 @@ ht-degree: 26%
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-weergeven -projecten](../analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF- of CSV-bestanden downloaden](../analysis-workspace/curate-share/download-send.md)
-      + [Projecten plannen](../analysis-workspace/curate-share/t-schedule-report.md)
+   + Exporteren {#export}
+      + [Overzicht van exporteren](../analysis-workspace/export/export-project-overview.md)
+      + [Download](../analysis-workspace/export/download-send.md)
+      + [Verzenden naar anderen](../analysis-workspace/export/t-schedule-report.md)
+      + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Virtual Analyst {#virtual-analyst}
       + [Overzicht van Virtual Analyst](../analysis-workspace/virtual-analyst/overview.md)
       + Anomaliedetectie {#anomaly-detection}
@@ -253,6 +256,13 @@ ht-degree: 26%
       + [Datumbereiken beheren](../components/date-ranges/manage.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
+   + Uitvoer {#exports}
+      + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
+      + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)
+      + [Cloud-exportlocaties beheren](/help/components/exports/manage-export-locations.md)
+      + [Exporteren beheren](/help/components/exports/manage-exports.md)
+      + [Exportlogboeken beheren](/help/components/exports/manage-export-logs.md)
+      + [Problemen met exporteren oplossen](/help/components/exports/troubleshoot-exports.md)
    + Gegevenswoordenboek {#data-dictionary}
       + [Overzicht van gegevenswoordenboek](../components/data-dictionary/data-dictionary-overview.md)
       + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
@@ -325,6 +335,7 @@ ht-degree: 26%
    + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
    + [Gevolgen van verwijdering](../admin/cja-deletion.md)
    + [Prestaties van Customers Journey Analytics optimaliseren](../admin/optimizing-performance.md)
+   + [IP-adressen](../admin/ip-addresses.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
