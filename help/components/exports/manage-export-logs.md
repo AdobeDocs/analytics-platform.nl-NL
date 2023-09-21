@@ -5,18 +5,16 @@ title: Exportlogboeken beheren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: f070f998758cead3709f6c48412b22b29de00164
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # Exportlogboeken beheren
 
-{{select-package}}
-
-In exportlogboeken vindt u details over elke exportbewerking. Deze logbestanden worden gegenereerd wanneer Analysis Workspace-gegevens naar de cloud worden geëxporteerd. (Voor informatie over hoe gegevens naar de cloud kunnen worden geëxporteerd, raadpleegt u [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).)
+In exportlogboeken vindt u details over elke exportbewerking. Deze logbestanden worden gegenereerd wanneer Analysis Workspace-gegevens naar de cloud worden geëxporteerd. (Voor informatie over hoe gegevens naar de cloud kunnen worden geëxporteerd, raadpleegt u [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md).)
 
 Voor geplande exportbewerkingen weerspiegelen logboeken de exportinstellingen zoals deze waren toen het logboek werd verzonden. Logbestanden kunnen niet worden verwijderd.
 
@@ -38,7 +36,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul>. |
+   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **In behandeling**]: Er is een specifieke instantie van een exportbewerking gestart, maar deze is nog niet voltooid.<p>Als u een exportbewerking met de status In behandeling opnieuw uitvoert, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek exemplaar van een exportbewerking is voltooid en is beschikbaar in de exportaccount.</li><li>[!UICONTROL **Mislukt**]<p>In de volgende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven. <ul><li>Geplande exportvervaldatum</li><li>Rijlimiet bereikt voor geplande export </li></ul> </p></li></ul> |
 
    {style="table-layout:auto"}
@@ -95,10 +93,10 @@ Om kolommen op te vormen [!UICONTROL Log] tab:
 
    | Beschikbare kolom | Beschrijving |
    |---------|----------|
-   | Exportnaam | De naam van de exportbewerking. De gebruikers geven de uitvoer een naam wanneer zij tot hen leiden, zoals die in worden beschreven [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Exportnaam | De naam van de exportbewerking. De gebruikers geven de uitvoer een naam wanneer zij tot hen leiden, zoals die in worden beschreven [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
    | Id exporteren | De id wordt automatisch toegewezen aan de exportbewerking wanneer deze wordt gemaakt. <!-- True? --> |
    | Instantie-id | De id van de instantie Customer Journey Analytics. <!-- True? --> |
-   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. Gebruikers kunnen de gegevensweergave selecteren wanneer ze de exportbewerking maken, zoals wordt beschreven in [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. Gebruikers kunnen de gegevensweergave selecteren wanneer ze de exportbewerking maken, zoals wordt beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
    | Aantal bestanden | Het aantal bestanden dat is opgenomen in de exportbewerking. |
    | Grootte | De grootte van de exportbewerking.<p>De bestandsgrootte wordt berekend met een basis van 1024, die soms wordt weergegeven als KIB en MIB. Als uw cloudprovider de grootte berekent met een basis van 1000, kan dit ertoe leiden dat de grootte die wordt weergegeven in uw cloudprovider enigszins afwijkt van de grootte die hier wordt weergegeven.</p> |
    | Locatie | De locatie op de account waar de gegevens zijn geëxporteerd. |

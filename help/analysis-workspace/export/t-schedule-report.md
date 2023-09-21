@@ -5,7 +5,7 @@ title: Gegevens van Customer Journey Analytics naar anderen verzenden per e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 8eda6e9ed27ab458951cd4bd08f511987bc61eb0
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Gegevens van Customer Journey Analytics naar anderen verzenden via e-mail
 
-U kunt gegevens van Customers Journey Analytics exporteren door deze via e-mail naar geselecteerde ontvangers te verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+U kunt rapporten van de Customer Journey Analytics uitvoeren door het naar geselecteerde ontvangers door e-mail te verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
 Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 

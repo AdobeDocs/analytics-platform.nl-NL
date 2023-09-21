@@ -5,18 +5,16 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
 
 # Cloudexportlocaties configureren
 
-{{select-package}}
-
-Voordat u Customer Journey Analytics-gegevens kunt exporteren naar een cloudinrichting zoals beschreven in [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md), moet u de plaats toevoegen en vormen waar u de gegevens wilt worden verzonden.
+Voordat u Customer Journey Analytics-rapporten kunt exporteren naar een cloudinrichting zoals beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md), moet u de plaats toevoegen en vormen waar u de gegevens wilt worden verzonden.
 
 Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3, Google Cloud Platform, enzovoort) zoals beschreven in [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)en vervolgens de locatie binnen die account (bijvoorbeeld een map binnen de account) toe te voegen en te configureren, zoals in dit artikel wordt beschreven.
 
@@ -26,18 +24,36 @@ Een exportlocatie voor de cloud configureren:
 
 1. U moet een account toevoegen voordat u een locatie kunt toevoegen. Voeg een account toe zoals beschreven in [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md).
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
-1. Op de [!UICONTROL Exports] pagina, selecteert u de [!UICONTROL **Locaties**] tab.
-1. Selecteren [!UICONTROL **Locatie toevoegen**].
+1. Selecteer de [!UICONTROL **Locaties**] tab, dan selecteren [!UICONTROL **Locatie toevoegen**].
 
    ![knop Locatie toevoegen](assets/location-add.png)
 
+   of
+
+   Selecteer de [!UICONTROL **Locatieaccounts**] selecteert u het pictogram met drie punten op een bestaande account waaraan u een locatie wilt toevoegen en selecteert u vervolgens [!UICONTROL **Locatie toevoegen**].
+
+   ![Locatie toevoegen aan bestaande account](assets/add-location-existing-account.png)
+
    Het dialoogvenster Locatie wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de rekening om deze te kunnen onderscheiden van andere rekeningen van hetzelfde type. | | [!UICONTROL **Locatieaccount**] | Selecteer de locatie-account waarin u hebt gemaakt [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de rekening om deze te kunnen onderscheiden van andere rekeningen van hetzelfde type. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
    Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met het accounttype dat u in het dialoogvenster [!UICONTROL **Locatieaccounts**] veld.
+
+   +++Adobe Experience Platform Data Landing Zone
+
+   Geef de volgende informatie op om een locatie in een Adobe Experience Platform Data Landing Zone te configureren:
+
+   <!-- still need to update; can't create AEP account -->
+
+   | Veld | -functie |
+   |---------|----------|
+   | [!UICONTROL **IMS Org ID**] | De IMS Org-id wordt opgegeven door Adobe. Klik op het pictogram Kopiëren naast de knop [!UICONTROL **IMS Org ID**] om de inhoud van het veld te kopiëren, gebruikt u de id in uw account van het Platform voor Adobe. |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+
++++
 
    +++Amazon S3 Role ARN
 
@@ -108,19 +124,6 @@ Een exportlocatie voor de cloud configureren:
    | [!UICONTROL **Werkgebiedpad**] | Het pad naar de locatie waar gegevensbestanden in Snowflake worden opgeslagen. <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
-
-   +++Adobe Experience Platform
-
-   Geef de volgende informatie op om een Adobe Experience Platform-locatie te configureren:
-
-   <!-- still need to update; can't create AEP account -->
-
-   | Veld | -functie |
-   |---------|----------|
-   | [!UICONTROL **IMS Org ID**] | De IMS Org-id wordt opgegeven door Adobe. Klik op het pictogram Kopiëren naast de knop [!UICONTROL **IMS Org ID**] om de inhoud van het veld te kopiëren, gebruikt u de id in uw account van het Platform voor Adobe. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
 
 +++
 

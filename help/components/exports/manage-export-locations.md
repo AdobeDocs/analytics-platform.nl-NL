@@ -5,16 +5,14 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Locaties en accounts voor cloudexport beheren
-
-{{select-package}}
 
 U kunt de exportlocaties van de cloud weergeven, bewerken en verwijderen.
 
@@ -38,7 +36,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul> |
+   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | De naam van de account waaraan de locatie is gekoppeld. |
    | [!UICONTROL **Gemaakt door**] | Het e-mailadres van de gebruiker die de locatie heeft gemaakt. |
 

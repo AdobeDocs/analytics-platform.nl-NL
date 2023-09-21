@@ -1,24 +1,22 @@
 ---
 description: Exporteer een Analysis Workspace-project naar een locatie in de cloud.
 keywords: Analysis Workspace
-title: Gegevens van Customers Journey Analytics exporteren naar de cloud
+title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 92d240581282684fd3e71dd2135d188b9239512b
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1609'
 ht-degree: 2%
 
 ---
 
-# Gegevens van Customers Journey Analytics exporteren naar de cloud
+# Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 
-{{select-package}}
+U kunt volledige tabellen van Workspace vanuit Customer Journey Analytics exporteren en exporteren naar opgegeven cloud-doelen.
 
-U kunt volledige tabellen exporteren vanuit de Customer Journey Analytics en gegevens verzenden naar opgegeven cloudinstellingen.
-
-Er zijn ook andere methoden beschikbaar voor het exporteren van gegevens van Customers Journey Analytics, zoals beschreven in [Overzicht van exporteren](/help/analysis-workspace/export/export-project-overview.md).
+Er zijn ook andere methoden beschikbaar voor het rapporteren van Customer Journey Analytics-exporteurs, zoals beschreven in [Overzicht van exporteren](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Volledige tabellen exporteren vanuit Analysis Workspace
 
@@ -44,15 +42,14 @@ Volledige tabellen exporteren uit Analysis Workspace:
    | Tags | U kunt een bestaande tag toepassen op de exportbewerking of u kunt een nieuwe tag maken en deze toepassen. <p>Als u een bestaande tag op het exporteren wilt toepassen, selecteert u de gewenste tags in het keuzemenu. Alle tags in uw bedrijf kunnen worden toegepast<!-- double-check this -->.</p> <p>Als u een nieuwe tag wilt maken, typt u de naam van de nieuwe tag en drukt u op Enter.</p><p>Houd rekening met het volgende wanneer u labels toepast op een exportbewerking: <ul><li>Tags die u toepast, kunnen in de exporttabel worden gefilterd of doorzocht.</li> <li>De markeringen die op een project worden toegepast worden niet automatisch toegepast wanneer het uitvoeren van een volledige lijst, zoals die in &quot;worden beschreven vormen kolommen op de de uitvoerpagina&quot;in [Exporteren beheren](/help/components/exports/manage-exports.md). (Alternatief, wanneer [een volledig project voor exporteren plannen](/help/analysis-workspace/export/t-schedule-report.md), worden alle tags die op het project zijn toegepast, automatisch toegepast op het exporteren.)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | Beschrijving | Voeg een beschrijving toe aan het exporteren. U kunt beschrijvingen als een kolom weergeven in het dialoogvenster [Pagina exporteren](/help/components/exports/manage-exports.md) bij het weergeven van exportbewerkingen. |
    | Gegevens, weergave | Selecteer de gegevensweergave met de componenten die u wilt opnemen in het exporteren. Het vervolgkeuzemenu in de weergave Gegevens bevindt zich in de linkerbovenhoek van het dialoogvenster en kan worden geïdentificeerd door het pictogram van de gegevensweergave![pictogram gegevensweergave](assets/data-view-icon.png).  <p>**Opmerking:** Als u een gegevensweergave kiest waarin componenten ontbreken die al in de gegevenstabel zijn opgenomen, wordt u gevraagd de gegevenstabel te wissen en opnieuw te maken met gebruik van componenten die in de geselecteerde gegevensweergave zijn opgenomen. </p> |
-   | Venster Opzoeken | Selecteer het tijdframe dat u in de gegevenstabel wilt opnemen. Opties omvatten [!UICONTROL **Vandaag**], [!UICONTROL **Gisteren**], [!UICONTROL **Laatste 7 dagen**], [!UICONTROL **Laatste 30 dagen**], [!UICONTROL **Deze week**], en [!UICONTROL **Deze maand**]. |
+   | Venster Opzoeken | Selecteer het rapporttijdkader dat u in elk exportbestand wilt opnemen. Opties omvatten [!UICONTROL **Vandaag**], [!UICONTROL **Gisteren**], [!UICONTROL **Laatste 7 dagen**], [!UICONTROL **Laatste 30 dagen**], [!UICONTROL **Deze week**], en [!UICONTROL **Deze maand**]. |
    | Wissen | Wist de inhoud van de gegevenstabel. Zo kunt u direct een nieuwe tabel maken in het dialoogvenster Nieuwe volledige tabel exporteren. |
-   | Exportfrequentie | Selecteer hoe vaak het exporteren moet plaatsvinden. <p>U kunt [!UICONTROL **Nu verzenden (één keer)**] om de export slechts eenmaal te verzenden. Wanneer u deze optie selecteert, wordt het exporteren onmiddellijk verzonden.<p>U kunt er ook voor kiezen de exportbewerking volgens een bepaald schema te verzenden. Bij verzending volgens een schema omvatten de opties: [!UICONTROL **Dagelijks**], [!UICONTROL **Wekelijks**], [!UICONTROL **Maandelijks op dag van de week**], [!UICONTROL **Maandelijks op dag van de maand**], [!UICONTROL **Jaarlijks op dag van de maand**], en [!UICONTROL **Jaarlijks op specifieke datum**]. </p><p>Houd rekening met het volgende wanneer u een exportfrequentie selecteert:</p><ul><li>De opties in het dialoogvenster [!UICONTROL **Venster Opzoeken**] het veld wordt gewijzigd, afhankelijk van wat u hier selecteert.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>Afhankelijk van de optie die u kiest, worden extra configuratievelden weergegeven.</li></ul> |
+   | Exportfrequentie | Stel het schema in voor hoe vaak het exporteren moet plaatsvinden. <p>U kunt [!UICONTROL **Nu verzenden (één keer)**] om de export slechts eenmaal te verzenden. Wanneer u deze optie selecteert, wordt het exporteren onmiddellijk gestart.<p>U kunt er ook voor kiezen de exportbewerking volgens een bepaald schema te verzenden. Bij verzending volgens een schema omvatten de opties: [!UICONTROL **Dagelijks**], [!UICONTROL **Wekelijks**], [!UICONTROL **Maandelijks op dag van de week**], [!UICONTROL **Maandelijks op dag van de maand**], [!UICONTROL **Jaarlijks op dag van de maand**], en [!UICONTROL **Jaarlijks op specifieke datum**]. </p><p>Houd rekening met het volgende wanneer u een exportfrequentie selecteert:</p><ul><li>De opties in het dialoogvenster [!UICONTROL **Venster Opzoeken**] het veld wordt gewijzigd, afhankelijk van wat u hier selecteert.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>Afhankelijk van de optie die u kiest, worden extra configuratievelden weergegeven.</li></ul> |
    | Starten bij | De dag en tijd waarop de geplande export moet beginnen. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Einde op | De dag en tijd waarop de geplande export verloopt. De geplande export wordt niet meer uitgevoerd na de datum en tijd die u instelt. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Bestandsindeling | Geef op of de geëxporteerde gegevens de indeling .csv of .json moeten hebben. |
    | Account | Selecteer de exportaccount voor de cloud waarin u de gegevens wilt verzenden. <p>Zie voor meer informatie [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md).</p> |
    | Locatienaam | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden. <p>Zie voor meer informatie [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).</p><p>U kunt de [!UICONTROL **Nieuwe locatie toevoegen**] om een nieuwe locatie voor een bestaande exportaccount te maken. |
-   | Gegevensvoorbeeld | Geeft de geschatte grootte, het geschatte aantal rijen en het aantal uitsplitsingen weer. |
 
    {style="table-layout:auto"}
 
@@ -76,11 +73,11 @@ Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt 
 
 * Berekende metriek opnemen in de geëxporteerde gegevens van de Customer Journey Analytics.
 
-* Structuurafvoer als samengevoegde waarden (zoals Data Warehouse voor Adobe Analytics).
+* De gegevensoutput van de structuur als samengevoegde waarden.
 
 * Exporteer ad hoc of volgens een schema. (Ook beschikbaar bij [andere exportopties](/help/analysis-workspace/export/export-project-overview.md).)
 
-* Bestanden exporteren in CSV- of PDF-indeling. (Ook beschikbaar bij [andere exportopties](/help/analysis-workspace/export/export-project-overview.md).)
+* Bestanden exporteren in de CSV- of JSON-indeling. (Ook beschikbaar bij [andere exportopties](/help/analysis-workspace/export/export-project-overview.md).)
 
 * Tabellen exporteren die meerdere afmetingen bevatten.
 
@@ -145,8 +142,6 @@ Als een niet-gebrek attributiemodel in een rapport wordt gebruikt, wordt het toe
 
 Nadat gegevens uit Analysis Workspace zijn geëxporteerd, kunt u bestaande exportbewerkingen bewerken, opnieuw exporteren, dupliceren, labelen of verwijderen, zoals wordt beschreven in [Exporteren beheren](/help/components/exports/manage-exports.md).
 
-U kunt ook ondersteuningstickets voor mislukte exportbewerkingen opnieuw proberen of registreren, zoals beschreven in [Exportlogboeken beheren](/help/components/exports/manage-export-logs.md).
-
 ## Geëxporteerde gegevens en manifestbestand weergeven
 
 ### Geëxporteerde gegevens
@@ -184,10 +179,10 @@ Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporte
 |---------|----------|---------|
 | Een aangepast rapport maken | Ja | Ja |
 | Berekende standaarden | Ja | Nee |
-| Segmenten | Ja | Ja |
+| Segmenten | Ja | Beperkt |
 | Dimensies | Limiet van 5 | Onbeperkt |
 | Metrics | Limiet van 5 | Onbeperkt |
-| Rijen rapporteren | Limiet van 3, 30, 150 of 300, afhankelijk van niveau | Onbeperkt |
+| Rijen rapporteren | Limiet van 3 miljoen, 30 miljoen, 150 miljoen of 300 miljoen, afhankelijk van de omvang | Onbeperkt |
 | Aantal rapporten | Onbeperkt | Onbeperkt |
 | Ad hoc levering | Ja | Ja |
 | Terugkerende levering plannen | Ja | Ja |

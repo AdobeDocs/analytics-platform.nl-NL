@@ -5,18 +5,16 @@ title: Exporteren beheren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # Exporteren beheren
 
-{{select-package}}
-
-Nadat u een volledige tabel hebt geëxporteerd zoals wordt beschreven in [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md), de uitvoer beschikbaar op [!UICONTROL Exports] op het tabblad [!UICONTROL Exports] pagina.
+Nadat u een volledige tabel hebt geëxporteerd zoals wordt beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md), de uitvoer beschikbaar op [!UICONTROL Exports] op het tabblad [!UICONTROL Exports] pagina.
 
 U kunt alleen de exportbewerkingen zien die u maakt.
 
@@ -38,7 +36,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met exportbewerki
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het exporteren is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul>. |
+   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het exporteren is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager Landing Zone**]</li></ul>. |
    | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **Actief**]: Geeft aan dat een geplande export nog niet is verlopen. </li><li>[!UICONTROL **Voltooid**]: Geeft aan dat een exportbewerking is geëxporteerd. Voor geplande export geeft dit aan dat de planning is verlopen.</li><li>[!UICONTROL **Mislukt**]<p>In de volgende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven. <ul><li>Geplande exportvervaldatum</li><li>Rijlimiet bereikt voor geplande export </li></ul> </p></li></ul> |
    | [!UICONTROL **Frequentie**] | Hoe vaak het exporteren plaatsvindt. De volgende frequenties zijn beschikbaar: <ul><li>[!UICONTROL **Eén keer**]</li><li>[!UICONTROL **Dagelijks**]</li><li>[!UICONTROL **Wekelijks**]</li><li>[!UICONTROL **Maandelijks**]</li><li>[!UICONTROL **Jaarlijks**]</li></ul> |
 
@@ -128,10 +126,10 @@ U kunt kolommen toevoegen aan of verwijderen uit de [!UICONTROL Exports] om te c
 
    | Beschikbare kolom | Beschrijving |
    |---------|----------|
-   | Naam | De naam van de exportbewerking. De gebruikers geven de uitvoer een naam wanneer zij tot hen leiden, zoals die in worden beschreven [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Naam | De naam van de exportbewerking. De gebruikers geven de uitvoer een naam wanneer zij tot hen leiden, zoals die in worden beschreven [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
    | ID | De id wordt automatisch toegewezen aan de exportbewerking wanneer deze wordt gemaakt. <!-- True? --> |
    | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Active], [!UICONTROL Paused], [!UICONTROL Completed], en [!UICONTROL Failed].<p> **Opmerking:** Voor informatie over het oplossen van problemen ontbrak de uitvoer, zie [Problemen met mislukte exportbewerkingen oplossen](/help/components/exports/troubleshoot-exports.md).</p> |
-   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. Gebruikers kunnen de gegevensweergave selecteren wanneer ze de exportbewerking maken, zoals wordt beschreven in [Gegevens van Customers Journey Analytics exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. Gebruikers kunnen de gegevensweergave selecteren wanneer ze de exportbewerking maken, zoals wordt beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
    | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Pending], [!UICONTROL Delivered], en [!UICONTROL Failed]. |
    | Tabelgrootte (laatste verzending) | De grootte van de export wanneer deze voor het laatst is verzonden. |
    | Gemaakt door | De gebruiker die de exportbewerking heeft gemaakt. |
