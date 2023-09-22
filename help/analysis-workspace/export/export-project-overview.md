@@ -5,7 +5,7 @@ title: Overzicht van projectgegevens exporteren
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Er zijn verschillende methoden beschikbaar voor het exporteren vanuit Analysis W
 |---------|----------|
 | [Downloaden naar uw werkstation](/help/analysis-workspace/export/download-send.md) | Gebruik deze methode als u wilt: <ul><li>Download projecten naar uw persoonlijke werkstation.</li><li>Downloads zijn alleen ad hoc (kunnen niet worden gepland).</li> <li>Download in totaal 50.000 rijen.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
 | [Verzenden naar andere gebruikers](/help/analysis-workspace/export/t-schedule-report.md) | Gebruik deze methode als u wilt: <ul><li>Geëxporteerde gegevens van Customers Journey Analytics via e-mail verzenden naar andere gebruikers in uw organisatie.</li><li>Kan ad hoc of op een programma zijn.</li> <li>Neem in totaal 50.000 rijen op.</li> <!--true?--> |
-| [Naar een cloudtoepassing verzenden](/help/analysis-workspace/export/export-cloud.md) | Gebruik deze methode als u wilt: <ul><li>Exporteer naar een gedeelde locatie, zoals Google Cloud Platform, Microsoft Azure, Amazon S3, Snowflake of Adobe Experience Platform Data Landing Zone.</li><li>Kan ad hoc of op een programma zijn.</li><li>Sla grotere hoeveelheden gegevens over de Customer Journey Analytics op.</li><li>Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [Naar een cloudtoepassing verzenden](/help/analysis-workspace/export/export-cloud.md) | Gebruik deze methode als u wilt: <ul><li>Exporteer naar een gedeelde locatie, zoals Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 of Snowflake.</li><li>Kan ad hoc of op een programma zijn.</li><li>Sla grotere hoeveelheden gegevens over de Customer Journey Analytics op.</li><li>Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
 

@@ -5,9 +5,9 @@ title: Problemen met mislukte exportbewerkingen oplossen
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,6 @@ Als u problemen blijft ondervinden, neemt u contact op met de klantenservice van
 
 * Account
 
-* Bedrijfsnaam
-
 * Verbinding
 
-* Gegevens
+* Bedrijfsnaam
