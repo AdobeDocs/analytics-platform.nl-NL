@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -189,8 +189,8 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Account-id**] | Identificeer uniek een rekening van de Snowflake binnen uw organisatie, evenals door het wereldwijde netwerk van Snowflake-gesteunde wolkenplatforms en wolkengebieden. <p>U moet de account-id ophalen van uw Snowflake-account en de gegevens hier plakken.</p><p>Als u wilt weten waar u deze informatie kunt ophalen, raadpleegt u de [De pagina Account Identifiers in de documentatie van de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. Dit is een gebruiker die specifiek voor Adobe zal worden gebruikt. Geef hier de naam op en maak vervolgens een gebruiker in de Snowflake met dezelfde naam. <p>Zie de klasse [Referentiepagina voor de parameter voor de JDBC-stuurprogramma-verbinding in de documentatie bij Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Rol**] | De standaardtoegangsbeheerrol die in de zitting van de Snowflake te gebruiken door de bestuurder in werking wordt gesteld. Dit is een rol die specifiek voor Adobe zal worden gebruikt. Specificeer hier de rol, creeer dan een rol in Snowflake met de zelfde naam en geef het Gelezen en schrijf toegang.<p>Zie de klasse [Referentiepagina voor de parameter voor de JDBC-stuurprogramma-verbinding in de documentatie bij Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
+   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. Dit is een gebruiker die specifiek voor Adobe zal worden gebruikt. Geef hier de naam op en maak vervolgens een gebruiker in de Snowflake met dezelfde naam. <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Rol**] | Dit is een rol die specifiek voor Adobe zal worden gebruikt. Specificeer hier de rol, creeer dan een rol in Snowflake met de zelfde naam en geef de rol aan de gebruiker. <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 

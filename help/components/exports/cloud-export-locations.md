@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -118,9 +118,9 @@ Een exportlocatie voor de cloud configureren:
 
    | Veld | -functie |
    |---------|----------|
-   | [!UICONTROL **DB**] | De standaarddatabase die moet worden gebruikt wanneer verbinding wordt gemaakt, of geeft een lege tekenreeks op. De opgegeven database moet een bestaande database zijn waarvoor de opgegeven standaardrol rechten heeft. <p>Zie de klasse [Referentiepagina voor de parameter voor de JDBC-stuurprogramma-verbinding in de documentatie bij Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Schema**] | Het standaardschema dat voor het gespecificeerde gegevensbestand moet worden gebruikt zodra verbonden, of specificeert een lege koord. Het gespecificeerde schema zou een bestaand schema moeten zijn waarvoor de gespecificeerde standaardrol voorrechten heeft. <p>Zie de klasse [Referentiepagina voor de parameter voor de JDBC-stuurprogramma-verbinding in de documentatie bij Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Werkgebiednaam**] | De naam van de locatie waar gegevensbestanden in Snowflake worden opgeslagen. <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | De opgegeven database moet een bestaande database zijn waarvoor de opgegeven standaardrol rechten heeft.<p>Dit is de database die is gekoppeld aan de naam van het werkgebied.</p> <p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Schema**] | Het gespecificeerde schema zou een bestaand schema moeten zijn waarvoor de gespecificeerde standaardrol voorrechten heeft.<p>Dit is het schema dat aan de naam van het werkgebied is gekoppeld.</p><p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Werkgebiednaam**] | De naam van het werkgebied waarin gegevensbestanden worden opgeslagen in Snowflake. <p>Zorg ervoor dat de rol die u op de account hebt opgegeven, lees- en schrijftoegang heeft tot deze werkgebiednaam. (Omdat u Gelezen en schrijft toegang verleent, adviseren wij gebruikend een stadium dat slechts door Adobe wordt gebruikt.) <p>Voor informatie over het verlenen van bevoegdheden aan een rol raadpleegt u [Rechten verlenen in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Werkgebiedpad**] | Het pad naar de locatie waar gegevensbestanden in Snowflake worden opgeslagen. <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
