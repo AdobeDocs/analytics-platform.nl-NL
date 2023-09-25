@@ -4,9 +4,9 @@ description: Customer Journey Analytics in vergelijking met Adobe Analytics-func
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 3149c50c14430c1960a9311b0464547b6e61bec7
+source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2131'
 ht-degree: 2%
 
 ---
@@ -136,5 +136,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Cross-device Analytics | Customer Journey Analytics steunt de naadloze combinatie apparaat-specifieke datasets van unauthenticated en voor authentiek verklaarde zittingen. De Customer Journey Analytics biedt aan om historische gegevens aan bekende apparaten terug te vullen. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Uitgebreide opties voor beveiliging en privacy - HIPAA-gereedheid | De Customer Journey Analytics is klaar HIPAA en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
+| Mogelijkheid om gegevenssets te combineren (zoals Adobe Analytics-rapportenreeksen) | Met Customer Journey Analytics kunt u gegevens uit meerdere rapportensuites combineren alsof het één rapportsuite in Adobe Analytics betreft. |
+| Afgeleide velden | De afgeleide gebieden staan voor rapport-tijd transformaties aan uw gegevens toe. Gegevens kunnen tijdens de vlucht worden gecombineerd, gecorrigeerd of gemaakt en met terugwerkende kracht op alle rapporten worden toegepast. |
 
 {style="table-layout:auto"}
