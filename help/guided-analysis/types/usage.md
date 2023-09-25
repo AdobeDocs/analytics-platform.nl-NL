@@ -4,9 +4,9 @@ description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
+source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kun
 
 Voeg aanvullende gegevens toe aan het diagram.
 
-* **[!UICONTROL Show anomalies]**: voert anomaliedetectie uit op de analyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
+* **[!UICONTROL Show anomalies]**: Runs [anomaliedetectie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
 
 ## Tijdvergelijking toepassen
 
