@@ -5,7 +5,7 @@ title: Cloudexportaccounts configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik dit SAS-token om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Landing Zone. Meer informatie over toegang tot uw gegevens&quot; |
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 
@@ -98,7 +98,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **ARN gebruiker**] aan uw klembord. De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u in Amazon S3 RolARN creeerde.
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 
@@ -122,7 +122,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Opdrachtgever**] aan uw klembord, dan zorg ervoor dat u toestemming aan Principal verleent om dossiers aan dit emmertje in het Platform van Google Cloud te uploaden. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 
@@ -150,7 +150,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Als u nog geen machtigingen hebt, moet u ervoor zorgen dat u machtigingen verleent aan het emmertje in Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 
@@ -176,7 +176,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Als u niet reeds hebt, zorg ervoor dat u toestemmingen aan de emmer in Azure RBAC verleent. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 
@@ -202,7 +202,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Openbare sleutel**] aan uw klembord. De openbare sleutel wordt verstrekt door Adobe. Gebruik de openbare sleutel in Snowflake om met uw rekening van de Snowflake te verbinden. Zie de klasse [Verificatie van sleutelpaar en rotatie van sleutelpaar in de documentatie bij Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
 
-1. Selecteren [!UICONTROL **Sluiten**].
+1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
 

@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1626'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt 
 
   Dit type van gegevens kan worden gebruikt om tendensen op lange termijn te ontdekken om bedrijfsintelligentie te bereiken, en uiteindelijk tot betere bedrijfsbesluitvorming te leiden.
 
-* Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten. Met andere exportmethoden kunt u maximaal 50.000 rijen exporteren.
+* Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten (3 miljoen, 30 miljoen of 150 miljoen rijen, afhankelijk van het type licentie). Met andere exportmethoden kunt u maximaal 50.000 rijen exporteren.
 
 * Berekende metriek opnemen in de geëxporteerde gegevens van de Customer Journey Analytics.
 
@@ -108,7 +108,7 @@ De volgende functies worden niet ondersteund en worden automatisch verwijderd ui
 
 De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u deze uit uw tabel te verwijderen wanneer u een volledige-tabelexport uitvoert:
 
-* Berekende metriek die geavanceerde functies in metrische definitie gebruiken (zie [Geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md) voor meer informatie )
+* Berekende metriek die fundamentele of geavanceerde functies in metrische definitie gebruiken (zie [Basisfuncties](/help/components/calc-metrics/cm-functions.md) en [Geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md) voor meer informatie )
 * Componenten die door een beheerder zijn beperkt van export (zie de *Filter op beleid voor gegevensbeheer in gegevensweergaven* sectie in [Labels en beleid](/help/data-views/data-governance.md) voor meer informatie )
 * Meer dan 5 dimensies en 5 metriek per rapport (maximaal 5 dimensies en 5 metriek worden gesteund)
 * In tabelkolommen:
