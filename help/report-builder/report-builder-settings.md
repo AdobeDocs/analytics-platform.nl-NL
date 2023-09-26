@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Report Builder-instellingen wijzigen
 
 1. Klikken **Toepassen**.
 
-   ![](./assets/image38.png)
+   ![Klik op Toepassen.](./assets/image38.png)
 
 ## Offlinemodus
 
-Bij het maken en bewerken van een gegevensblok in de offline modus worden geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel een gegevensblok kunt maken en bewerken zonder te wachten op het uitvoeren van de aanvraag. Wanneer u weer online bent, *Gegevensblok vernieuwen* of *Alle gegevensblokken vernieuwen* vernieuwt de gegevensblokken die u met werkelijke gegevens hebt gemaakt.
+Bij het maken en bewerken van een gegevensblok in de offline modus worden geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel een gegevensblok kunt maken en bewerken zonder te wachten op het uitvoeren van de aanvraag. Wanneer u weer online bent, *Gegevensblok vernieuwen* of *Alle gegevensblokken vernieuwen* de opdracht vernieuwt de gegevensblokken die u met werkelijke gegevens hebt gemaakt.
 
 Offlinemodus inschakelen
 
@@ -45,13 +45,13 @@ Offlinemodus inschakelen
 
 U kunt de taal voor Report Builder UI kiezen. Alle ondersteunde Adobe Analytics-talen zijn beschikbaar.
 
-Om de taal te selecteren die in Report Builder UI wordt gebruikt
+De taal selecteren die wordt gebruikt in de gebruikersinterface van de Report Builder
 
 1. Klik op Instellingen.
 
 1. Selecteer een taal in het menu **Taal** vervolgkeuzelijst.
 
-   ![](./assets/image39.png)
+   ![Selecteer de taallijst.](./assets/image39.png)
 
 1. Klikken **Toepassen.**
 

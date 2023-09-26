@@ -1,14 +1,14 @@
 ---
-title: Een gegevensbereik in Report Builder selecteren in Customer Journey Analytics
+title: Hoe te om een gegevenswaaier in Report Builder in Customer Journey Analytics te selecteren
 description: Beschrijft hoe te om de kalender, het rollen data, en douaneuitdrukkingen in Report Builder voor Customer Journey Analytics te gebruiken
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1051'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Met de optie Van cel kunt u verwijzen naar datums die zijn ingevoerd in werkblad
 
 U kunt vandaag uitsluiten voor elk geselecteerd datumbereik.
 
-![](./assets/image17.png)
+![Selecteer vandaag uitsluiten.](./assets/image17.png)
 
 ## De kalender gebruiken
 
-Wanneer u de **Kalender** In het datumbereikveld wordt het huidige datumbereik voor de gegevensblokaanvraag weergegeven. U kunt datums rechtstreeks invoeren in het datumbereikveld of een optie voor het selecteren van gegevensbereiken gebruiken.
+Wanneer u de opdracht **Kalender** In het datumbereikveld wordt het huidige datumbereik voor de gegevensblokaanvraag weergegeven. U kunt datums rechtstreeks invoeren in het veld met het datumbereik of een optie voor het selecteren van gegevensbereiken gebruiken.
 
 ### Datumbereik
 
@@ -62,7 +62,7 @@ Datums selecteren met de kalender
 
 Als u een datumbereik in omgekeerde volgorde wilt instellen, klikt u eerst op de einddatum en vervolgens op de begindatum.
 
-![](./assets/image18.png)
+![Klik op de einddatum en vervolgens op de begindatum.](./assets/image18.png)
 
 ### Vervolgkeuzelijst Voorinstelling
 
@@ -76,7 +76,7 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Selecteer een roluitdrukking voor uw begin en of einddatum.
 
-   ![](./assets/image19.png)
+   ![Selecteer Roldatums gebruiken en vervolgens de rolexpressie.](./assets/image19.png)
 
    **Begin van** — Hiermee kunt u het begin van een dag, week, maand, kwartaal of jaar selecteren.
 
@@ -86,11 +86,11 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Kies dag, week, maand, kwartaal of jaar als de rolperiode.
 
-   ![](./assets/image20.png)
+   ![Kies huidige dag.](./assets/image20.png)
 
 1. Voeg dagen, weken, maanden, kwartalen of jaren toe of trek deze af vanaf de roldatum.
 
-   ![](./assets/image21.png)
+   ![Selecteer huidige dag plus 14 dagen.](./assets/image21.png)
 
 1. Klik op Volgende om het gegevensbereik te definiëren.
 
@@ -106,7 +106,7 @@ Met de optie voor aangepaste expressies kunt u het datumbereik wijzigen door een
 
    Wanneer u **Aangepaste expressie gebruiken** de standaardbesturingselementen voor het roldatumbereik zijn uitgeschakeld.
 
-   ![](./assets/custom_expression.png)
+   ![Selecteer Aangepaste expressie gebruiken met tm-1m tot td-1d.](./assets/custom_expression.png)
 
 1. Voer een aangepaste expressie in.
 
@@ -163,7 +163,7 @@ In de volgende tabel staan voorbeelden van datumexpressies.
 
 Het datumbereik kan worden opgegeven in werkbladcellen. Gebruik de **Datumbereik van cel** Selecteer de begin- en einddatum van het gegevensblok in de geselecteerde cellen. Wanneer u **Uit cel** in het deelvenster **Van** en **Naar** velden waarin u een cellocatie kunt invoeren.
 
-![](./assets/image23.png)
+![Selecteren uit celblad1!H4 naar blad1!I4](./assets/image23.png)
 
 ## Vandaag uitsluiten
 
@@ -175,9 +175,9 @@ Als deze optie is geselecteerd, wordt **Vandaag uitsluiten** Hiermee sluit u de 
 
 In de volgende lijst worden geldige datumbereikindelingen beschreven.
 
-- De begin- en einddatum moeten de volgende notatie hebben: YYYY-MM-DD
+- De begin- en einddatum moeten de volgende notatie hebben: JJJJ-MM-DD
 
-- De begindatum moet eerder zijn dan of gelijk zijn aan de einddatum. Beide datums kunnen op de toekomst worden ingesteld.
+- De begindatum moet eerder zijn dan de einddatum. Beide datums kunnen op de toekomst worden ingesteld.
 
 - Wanneer u roldatums gebruikt, moet de begindatum vandaag of in het verleden zijn. Het moet in het verleden zijn of **Vandaag uitsluiten** is ingeschakeld.
 

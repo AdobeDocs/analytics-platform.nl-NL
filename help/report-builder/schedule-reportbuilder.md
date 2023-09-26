@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Gebruik de de taakknoop van het Programma in de hub van de Report Builder om sne
 
 1. Klik de knoop van het Programma in de hub van de Report Builder.
 
-   ![](./assets/schedule-button.png){width="55%"}
+   ![Klik op de knop Planning om een schema te maken.](./assets/schedule-button.png){width="55%"}
 
 1. Klik het Werkboek van het Programma of de plus knoop in upper-left om een nieuw gepland werkboek tot stand te brengen.
 
-   ![alt-beschrijving](./assets/schedule-workbook.png){width="55%"}
+   ![Het venster Workbooks plannen.](./assets/schedule-workbook.png){width="55%"}
 
    De het plannen ruit toont sommige vooraf bepaalde informatie over het werkboek zoals de werkboeknaam en de laatste datum dat het werkboek werd gewijzigd.
 
-   ![alt-beschrijving](./assets/schedule-pane.png){width="55%"}
+   ![Het planningsvenster.](./assets/schedule-pane.png){width="55%"}
 
 1. (Optioneel) Voer een bestandsnaam in.
 
@@ -51,13 +51,13 @@ Gebruik de de taakknoop van het Programma in de hub van de Report Builder om sne
 
    Wanneer u deze selectie maakt, wordt u gevraagd een wachtwoord in te voeren om het bestand te openen. Dit is nuttig als u zich zorgen maakt over gegevensveiligheid en u wachtwoord het werkboek wilt beschermen. Als u het bestand met een wachtwoord wilt beveiligen, moet u **.zip-compressie**. Het wachtwoord moet ten minste 8 tekens hebben en een getal en een speciaal teken bevatten.
 
-   ![alt-beschrijving](./assets/zip-compression.png){width="55%"}
+   ![Ga een wachtwoord op het Wachtwoord in beschermt het werkboekgebied.](./assets/zip-compression.png){width="55%"}
 
 1. Enter **Ontvangers**. U kunt de naam invoeren van een persoon die in uw organisatie wordt herkend, of u kunt een e-mailadres invoeren van een persoon binnen of buiten uw organisatie.
 
 1. Voer de **Onderwerp** van de e-mail en een beschrijving voor uw ontvangers. Het onderwerp blijft aan de naam van het werkboekdossier in gebreke maar u kunt het onderwerp wijzigen indien nodig. U kunt details in de beschrijvingssectie toevoegen.
 
-   ![alt-beschrijving](./assets/recipients-subject.png){width="55%"}
+   ![Voer een onderwerp in het veld Onderwerp in.](./assets/recipients-subject.png){width="55%"}
 
 1. Opstelling de het plannen opties om de datum en de tijd te plaatsen die u het werkboek aan uw ontvangers wilt e-mailden.
 
@@ -65,15 +65,15 @@ Gebruik de de taakknoop van het Programma in de hub van de Report Builder om sne
 
    Kies de optie **Frequentie** in het keuzemenu. U kunt de frequentie instellen op uurbasis, dagelijks, wekelijks, maandelijks of jaarlijks op een bepaalde dag. Bijvoorbeeld, kunt u opstelling een programma om het werkboek op de eerste Zondagnacht van de maand te verzenden zodat uw ontvangers de e-mail in hun inbox eerste ding op maandagochtend zullen hebben.
 
-   ![alt-beschrijving](./assets/frequency.png){width="55%"}
+   ![Selecteer de frequentie om uw rapport te plannen.](./assets/frequency.png){width="55%"}
 
 1. Nadat u het schema hebt ingesteld, klikt u op **Verzenden volgens schema**.
 
-   ![alt-beschrijving](./assets/send-on-schedule.png){width="55%"}
+   ![Klik op Verzenden volgens schema.](./assets/send-on-schedule.png){width="55%"}
 
    U zult een bevestigingstoast bij de bodem van de hub van de Report Builder zien en het geplande werkboek is vermeld onder het lusje van Werkboeken.
 
-   ![alt-beschrijving](./assets/confirmation-toast.png){width="55%"}
+   ![Bevestigingstoets](./assets/confirmation-toast.png){width="55%"}
 
 ## Het werkboek slechts éénmaal verzenden
 
@@ -81,7 +81,7 @@ U kunt het werkboek ook slechts eenmaal verzenden.
 
 1. Uitschakelen **Planningsopties tonen**
 
-   ![alt-beschrijving](./assets/send-now.png){width="40%"}
+   ![Klik op Niet-controle tonen bij planning om een werkboek één keer te verzenden.](./assets/send-now.png){width="40%"}
 
 1. Klikken **Nu verzenden**.
 
@@ -115,14 +115,14 @@ Een groen vinkje wijst erop dat het werkboek met succes werd verzonden. Een uitr
 
 U kunt kiezen welke kolommen u wilt weergeven op het tabblad Historie door op het pictogram voor kolominstellingen rechts van de zoekbalk te klikken.
 
-![alt-beschrijving](./assets/history.png){width="55%"}
+![Klik op het kolompictogram om specifieke kolommen weer te geven of te verbergen.](./assets/history.png){width="55%"}
 
 U kunt onderaan de geschiedenis filtreren om slechts dat van één enkele geplande werkboeken te zien door naar het werkboeklusje te gaan, het werkboek te selecteren en het geschiedenispictogram te klikken.
 
 U kunt de geschiedenis van een specifiek werkboek van het lusje van Werkboeken ook bekijken. Voor het lusje van Werkboeken, selecteer het werkboek en klik dan het geschiedenispictogram.
 
-![alt-beschrijving](./assets/history2.png){width="55%"}
+![Het historiepictogram voor werkboeken](./assets/history2.png){width="55%"}
 
 Het werkboekfilter zal dan bij de bovenkant van de geschiedenis verschijnen. Klik op de x naast het filter om de geschiedenis van alle geplande taken opnieuw weer te geven.
 
-![alt-beschrijving](./assets/history3.png){width="55%"}
+![Het werkboekfilter.](./assets/history3.png){width="55%"}

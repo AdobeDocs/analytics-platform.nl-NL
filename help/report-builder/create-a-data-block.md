@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van
 
 1. Klikken **Gegevensblok maken**.
 
-   ![](./assets/create_db.png)
+   ![Screenshot met de optie Gegevensblok maken.](./assets/create_db.png)
 
 1. Stel de **Locatie gegevensblok**.
 
@@ -41,13 +41,9 @@ Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van
 
 1. Klikken **Volgende**.
 
-   ![](./assets/choose_date_data_view3.png)
+   ![Screenshot met de datumbereikoptie en de actieve knop Volgende.](./assets/choose_date_data_view3.png)
 
    Nadat u het gegevensblok vormt, kunt u afmetingen, metriek, en filters selecteren om uw gegevensblok te bouwen. De tabbladen Dimensionen, Metriek en Filters worden boven het deelvenster Tabelbouwer weergegeven.
-<!--
-    ![](./assets/image9.png)
-  -->
-
 
 ## Het gegevensblok samenstellen
 
@@ -75,13 +71,13 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Wanneer u componenten aan de lijst toevoegt, wordt een voorproef van het gegevensblok getoond bij de het blokplaats van Gegevens in het aantekenvel. De lay-out van de voorvertoning van gegevensblokken wordt automatisch bijgewerkt wanneer u items in de tabel toevoegt, verplaatst of verwijdert.
 
-   ![](./assets/image10.png)
+   ![Screenshot met de toegevoegde componenten en het bijgewerkte werkblad.](./assets/image10.png)
 
    **Rij- en kolomkoppen weergeven of verbergen**
 
 1. Klik op de knop **Tabel** instellingenpictogram.
 
-   ![voorlopige afbeelding](./assets/table-settings.png){width="35%"}
+   ![Screenshot met de optie Tabelinstellingen.](./assets/table-settings.png){width="35%"}
 
 1. Schakel de optie Rij- en kolomkoppen weergeven in of uit. De kopteksten worden standaard weergegeven.
 
@@ -89,7 +85,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Klik op het ellipspictogram op de afmetingen of de kolomkoppen om de instellingen weer te geven.
 
-   ![voorlopige afbeelding](./assets/row-heading.png){width="35%"}
+   ![Het pictogram voor ovaal in de sectie Rij.](./assets/row-heading.png){width="35%"}
 
 1. Klik op Verbergen of Tonen om de dimensielabels of kolomkoppen in en uit te schakelen. Alle labels worden standaard weergegeven.
 
@@ -97,8 +93,8 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
 
-   ![](./assets/image11.png)
+   ![Het verwerkingsbericht.](./assets/image11.png)
 
    De Report Builder wint de gegevens terug en toont het voltooide gegevensblok in het aantekenvel.
 
-   ![](./assets/image12.png)
+   ![Het voltooide gegevensblok.](./assets/image12.png)

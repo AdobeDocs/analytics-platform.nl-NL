@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt tot Report Builder snel toegang hebben gebruikend het toe:voegen-binnen m
 
 ## Vereisten
 
-Report Builder for Customer Journey Analytics wordt ondersteund door de volgende besturingssystemen en webbrowsers.
+Report Builder voor Customer Journey Analytics wordt ondersteund door de volgende besturingssystemen en webbrowsers.
 
 ### macOS
 
@@ -34,7 +34,7 @@ Report Builder for Customer Journey Analytics wordt ondersteund door de volgende
   Alle gebruikers van Windows Desktop Excel moeten Microsoft Edge Webview2 installeren om toe:voegen-binnen te gebruiken. De controller installeren:
 
    1. Ga naar <https://aka.ms/webview2installer>.
-   1. Selecteer en download het Evergreen standalone installatieprogramma.
+   1. Selecteer en download het Evergreen standalone-installatieprogramma.
    1. Volg de installatieaanwijzingen.
 
 ### Webkantoor
@@ -44,11 +44,11 @@ Report Builder for Customer Journey Analytics wordt ondersteund door de volgende
 
 ## Report Builder Excel-invoegtoepassing
 
-U moet Report Builder Excel toe:voegen-binnen installeren om Report Builder voor Customer Journey Analytics te gebruiken. Zodra u Report Builder Excel toe:voegen-binnen installeert, kunt u tot Report Builder van binnen een open werkboek van Excel toegang hebben.
+U moet Report Builder Excel toe:voegen-binnen installeren om Report Builder voor Customer Journey Analytics te gebruiken. Zodra u toe:voegen-binnen Report Builder Excel installeert, kunt u tot Report Builder van binnen een open werkboek van Excel toegang hebben.
 
-### De Report Builder Add-in downloaden en installeren
+### De invoegtoepassing Report Builder downloaden en installeren
 
-De Report Builder Add-in downloaden en installeren
+De invoegtoepassing voor Reporten Builder downloaden en installeren
 
 1. Start Excel en open een nieuw werkboek.
 
@@ -72,11 +72,11 @@ De Report Builder Add-in downloaden en installeren
 
 Vraag uw IT- of beveiligingsteam om goedkeuring voor de Report Builder Add-in. Nadat goedkeuring wordt verleend, in de dialoog van toe:voegen-ins van het Bureau, selecteer Beheerde Admin tabel.
 
-![](./assets/image1.png)
+![Het tabblad Beheer in het dialoogvenster Office Add-ins.](./assets/image1.png)
 
-Nadat u de invoegtoepassing Report Builder hebt geïnstalleerd, wordt het Report Builder-pictogram weergegeven in het Excel-lint onder het tabblad Start.
+Nadat u de invoegtoepassing Report Builder hebt geïnstalleerd, wordt het pictogram Report Builder weergegeven in het Excel-lint onder het tabblad Start.
 
-![](./assets/rb_app_icon.png)
+![Het pictogram Report Builder in Excel](./assets/rb_app_icon.png)
 
 ## Aanmelden bij Report Builder
 
@@ -84,15 +84,15 @@ Nadat u Report Builder for Excel toe:voegen-binnen voor uw werkend platform of b
 
 1. Open een werkboek van Excel.
 
-1. Klik op het Report Builder-pictogram om Report Builder te starten.
+1. Klik op het pictogram Report Builder om de Report Builder te starten.
 
 1. Klik op de werkbalk van Adobe Report Builder op **Aanmelden**.
 
-   ![](./assets/rb_login.png)
+   ![Klik op de aanmeldknop voor de Report Builder.](./assets/rb_login.png)
 
-1. Voer de gegevens van uw Adobe Experience ID-account in. Uw accountgegevens moeten overeenkomen met uw Customer Journey Analytics-gegevens.
+1. Voer de gegevens van uw Adobe Experience ID-account in. Uw accountgegevens moeten overeenkomen met de gegevens van uw Customer Journey Analytics.
 
-   ![](./assets/image4.png)
+   ![Uw aanmeldingspictogram en organisatie.](./assets/image4.png)
 
 Nadat u zich hebt aangemeld, worden het aanmeldingspictogram en de organisatie boven in het deelvenster weergegeven
 
@@ -104,16 +104,16 @@ Wanneer u zich voor het eerst aanmeldt, wordt u aangemeld bij de standaardorgani
 
 1. Selecteer een organisatie in de lijst met beschikbare organisaties. Alleen organisaties waartoe u toegang hebt, worden vermeld.
 
-   ![](./assets/image5.png)
+   ![De lijst met organisaties waartoe u toegang hebt.](./assets/image5.png)
 
 ## Afmelden
 
-U kunt zich vanuit het gebruikersprofiel afmelden bij Report Builder.
+U kunt zich afmelden bij Report Builder vanuit het gebruikersprofiel.
 
 1. Wijzigingen in geopende werkboeken opslaan.
 
 1. Klik op het pictogram van de avatar om het gebruikersprofiel weer te geven.
 
-   ![](./assets/image6.png)
+   ![De avatar van uw gebruikersprofiel en de knoop van de Teken uit.](./assets/image6.png)
 
 1. Klikken **Afmelden**.
