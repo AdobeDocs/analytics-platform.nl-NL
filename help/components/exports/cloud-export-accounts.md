@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -189,8 +189,8 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Account-id**] | Identificeer uniek een rekening van de Snowflake binnen uw organisatie, evenals door het wereldwijde netwerk van Snowflake-gesteunde wolkenplatforms en wolkengebieden. <p>U moet de account-id ophalen van uw Snowflake-account en de gegevens hier plakken.</p><p>Als u wilt weten waar u deze informatie kunt ophalen, raadpleegt u de [De pagina Account Identifiers in de documentatie van de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. Dit is een gebruiker die specifiek voor Adobe zal worden gebruikt. Geef hier de naam op en maak vervolgens een gebruiker in de Snowflake met dezelfde naam. <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **Rol**] | Dit is een rol die specifiek voor Adobe zal worden gebruikt. Specificeer hier de rol, creeer dan een rol in Snowflake met de zelfde naam en geef de rol aan de gebruiker. <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. We raden u aan een nieuwe gebruiker te maken die specifiek voor Adobe wordt gebruikt. Geef hier de naam op en maak vervolgens een gebruiker in de Snowflake met dezelfde naam. U kunt een gebruiker in Snowflake tot stand brengen gebruikend `CREATE USER` gebruiken.  <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Rol**] | De rol die aan de gebruiker zal worden toegewezen. We raden u aan een nieuwe rol te creëren die specifiek voor Adobe zal worden gebruikt. Specificeer hier de rol, creeer dan een rol in Snowflake met de zelfde naam en geef de rol aan de gebruiker. U kunt een rol in Snowflake tot stand brengen gebruikend `CREATE ROLE` gebruiken. <p>Zie de klasse [Opdrachten voor gebruikers, rollen en bevoegdheden](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
@@ -200,7 +200,17 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    <!-- add screen shot -->
 
-1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Openbare sleutel**] aan uw klembord. De openbare sleutel wordt verstrekt door Adobe. Gebruik de openbare sleutel in Snowflake om met uw rekening van de Snowflake te verbinden. Zie de klasse [Verificatie van sleutelpaar en rotatie van sleutelpaar in de documentatie bij Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
+1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Openbare sleutel**] aan uw klembord. De openbare sleutel wordt verstrekt door Adobe.
+
+   Gebruik de openbare sleutel in Snowflake om met uw rekening van de Snowflake te verbinden. U moet de gebruiker associëren die u met deze openbare sleutel creeerde.
+
+   Geef bijvoorbeeld in Snowflake de volgende opdracht op:
+
+   ```
+   CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
+   ```
+
+   Zie de klasse [Verificatie van sleutelpaar en rotatie van sleutelpaar in de documentatie bij Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
 1. Selecteren [!UICONTROL **OK**].
 

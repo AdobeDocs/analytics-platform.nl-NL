@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -118,9 +118,9 @@ Een exportlocatie voor de cloud configureren:
 
    | Veld | -functie |
    |---------|----------|
-   | [!UICONTROL **DB**] | De opgegeven database moet een bestaande database zijn waarvoor de opgegeven standaardrol rechten heeft.<p>Dit is de database die is gekoppeld aan de naam van het werkgebied.</p> <p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Schema**] | Het gespecificeerde schema zou een bestaand schema moeten zijn waarvoor de gespecificeerde standaardrol voorrechten heeft.<p>Dit is het schema dat aan de naam van het werkgebied is gekoppeld.</p><p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Werkgebiednaam**] | De naam van het werkgebied waarin gegevensbestanden worden opgeslagen in Snowflake. <p>Zorg ervoor dat de rol die u op de account hebt opgegeven, lees- en schrijftoegang heeft tot deze werkgebiednaam. (Omdat u Gelezen en schrijft toegang verleent, adviseren wij gebruikend een stadium dat slechts door Adobe wordt gebruikt.) <p>Voor informatie over het verlenen van bevoegdheden aan een rol raadpleegt u [Rechten verlenen in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | De opgegeven database moet een bestaande database zijn. De rol u creeerde moet voorrechten hebben om tot dit gegevensbestand toegang te hebben.<p>Dit is de database die is gekoppeld aan de naam van het werkgebied.</p><p>U kunt deze rolvoorrechten aan het gegevensbestand in Snowflake verlenen gebruikend het volgende bevel: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Schema**] | Het opgegeven schema moet een bestaand schema zijn. De rol u creeerde moet voorrechten hebben om tot dit schema toegang te hebben.<p>Dit is het schema dat aan de naam van het werkgebied is gekoppeld.<p>U kunt de rol verlenen die u voorrechten aan het schema in Snowflake gebruikend het volgende bevel creeerde: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Werkgebiednaam**] | De naam van het interne werkgebied waarin gegevensbestanden in Snowflake worden opgeslagen.<p>Zorg ervoor dat de rol die u op de account hebt opgegeven, lees- en schrijftoegang heeft tot deze werkgebiednaam. (Omdat u Gelezen en schrijft toegang verleent, adviseren wij gebruikend een stadium dat slechts door Adobe wordt gebruikt.)<p>U kunt Lezen en schrijven toegang tot de werkgebiednaam in Snowflake verlenen gebruikend het volgende bevel: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Voor informatie over het verlenen van bevoegdheden aan een rol raadpleegt u [Rechten verlenen in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Werkgebiedpad**] | Het pad naar de locatie waar gegevensbestanden in Snowflake worden opgeslagen. <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}

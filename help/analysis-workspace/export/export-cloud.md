@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1716'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Er zijn ook andere methoden beschikbaar voor het rapporteren van Customer Journe
 
 >[!NOTE]
 >
->Voordat u gegevens exporteert zoals beschreven in deze sectie, moet u controleren of de tabel voldoet aan de [Exportvereisten](#export-requirements).
+>Voordat u gegevens exporteert zoals beschreven in deze sectie, moet u ervoor zorgen dat de [Exportvereisten](#export-requirements) is voldaan.
 
 Volledige tabellen exporteren uit Analysis Workspace:
 
@@ -85,9 +85,13 @@ Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt 
 
 ### Minimumvereisten
 
-Tabellen moeten minstens één dimensie in de rij en één metrische dimensie in elke kolom bevatten om met een volledig-lijstuitvoer te worden gesteund.
+Zorg ervoor dat uw lijsten, uw milieu, en uw toestemmingen aan de volgende vereisten voldoen:
 
-De beheerders zouden ervoor moeten zorgen dat de IP adressen in [IP adressen die door Customer Journey Analytics worden gebruikt](/help/admin/ip-addresses.md) zijn inbegrepen in de firewall lijst van gewenste personen.
+* **Tabellen** Alle lijsten moeten minstens één afmeting in de rij en één metrisch in elke kolom omvatten om met een volledig-lijstuitvoer te worden gesteund.
+
+* **Omgeving:** De beheerders zouden ervoor moeten zorgen dat de IP adressen in [IP adressen die door Customer Journey Analytics worden gebruikt](/help/admin/ip-addresses.md) zijn inbegrepen in de firewall lijst van gewenste personen.
+
+* **Rechten:** In de Adobe Admin Console moet aan gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige tabelexport**] toestemming die aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een bevoegdheid aan een productprofiel in de Admin Console, zie [Toestemming Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Toegangsbeheer Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
 ### Niet-ondersteunde functies
 
