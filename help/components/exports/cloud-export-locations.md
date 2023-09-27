@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,12 @@ Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazo
 
 Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven, bewerken en verwijderen van locaties, raadpleegt u [Locaties en accounts voor cloudexport beheren](/help/components/exports/manage-export-locations.md).
 
-Een exportlocatie voor de cloud configureren:
+## Beginnen met het maken van een exportlocatie voor de cloud
 
 1. U moet een account toevoegen voordat u een locatie kunt toevoegen. Voeg een account toe zoals beschreven in [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md).
+
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
+
 1. Selecteer de [!UICONTROL **Locaties**] tab, dan selecteren [!UICONTROL **Locatie toevoegen**].
 
    ![knop Locatie toevoegen](assets/location-add.png)
@@ -40,11 +42,17 @@ Een exportlocatie voor de cloud configureren:
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
-   Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met het accounttype dat u in het dialoogvenster [!UICONTROL **Locatieaccounts**] veld.
+   Doorgaan met de sectie hieronder die overeenkomt met het accounttype dat u hebt geselecteerd in het dialoogvenster [!UICONTROL **Locatieaccount**] veld.
 
-   +++Adobe Experience Platform Data Landing Zone
+### Adobe Experience Platform Data Landing Zone
 
-   Geef de volgende informatie op om een locatie in een Adobe Experience Platform Data Landing Zone te configureren:
+>[!IMPORTANT]
+>
+>Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een locatie in een Adobe Experience Platform Data Landing Zone te configureren:
 
    <!-- still need to update; can't create AEP account -->
 
@@ -53,11 +61,17 @@ Een exportlocatie voor de cloud configureren:
    | [!UICONTROL **IMS Org ID**] | De IMS Org-id wordt opgegeven door Adobe. Klik op het pictogram Kopiëren naast de knop [!UICONTROL **IMS Org ID**] om de inhoud van het veld te kopiëren, gebruikt u de id in uw account van het Platform voor Adobe. |
    | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
 
-+++
+   {style="table-layout:auto"}
 
-   +++Amazon S3 Role ARN
+1. Selecteren [!UICONTROL **Opslaan**].
 
-   Geef de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configureren:
+1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
+
+### Amazon S3 Role ARN
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configureren:
 
    <!-- still need to update; can't create S3 role ARN account -->
 
@@ -68,11 +82,15 @@ Een exportlocatie voor de cloud configureren:
 
    {style="table-layout:auto"}
 
-+++
+1. Selecteren [!UICONTROL **Opslaan**].
 
-   +++Google Cloud Platform
+1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Geef de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
+### Google Cloud Platform
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
 
    <!-- still need to update; can't create GCP account -->
 
@@ -83,11 +101,15 @@ Een exportlocatie voor de cloud configureren:
 
    {style="table-layout:auto"}
 
-+++
+1. Selecteren [!UICONTROL **Opslaan**].
 
-   +++Azure SAS
+1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Geef de volgende informatie op om een Azure SAS-locatie te configureren:
+### Azure SAS
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure SAS-locatie te configureren:
 
    | Veld | -functie |
    |---------|----------|
@@ -96,11 +118,15 @@ Een exportlocatie voor de cloud configureren:
 
    {style="table-layout:auto"}
 
-+++
+1. Selecteren [!UICONTROL **Opslaan**].
 
-   +++Azure RBAC
+1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
+### Azure RBAC
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure RBAC-locatie te configureren:
 
    | Veld | -functie |
    |---------|----------|
@@ -110,11 +136,15 @@ Een exportlocatie voor de cloud configureren:
 
    {style="table-layout:auto"}
 
-+++
+1. Selecteren [!UICONTROL **Opslaan**].
 
-   +++Snowflake
+1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Geef de volgende informatie op om de locatie van een Snowflake te configureren:
+### Snowflake
+
+1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+
+1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om de locatie van een Snowflake te configureren:
 
    | Veld | -functie |
    |---------|----------|
@@ -124,8 +154,6 @@ Een exportlocatie voor de cloud configureren:
    | [!UICONTROL **Werkgebiedpad**] | Het pad naar de locatie waar gegevensbestanden in Snowflake worden opgeslagen. <p>Zie de klasse [Een pagina Intern werkgebied voor lokale bestanden kiezen in de documentatie van Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
 
 1. Selecteren [!UICONTROL **Opslaan**].
 
