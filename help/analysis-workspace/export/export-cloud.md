@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1853'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,35 @@ U kunt volledige tabellen van Workspace vanuit Customer Journey Analytics export
 
 Er zijn ook andere methoden beschikbaar voor het rapporteren van Customer Journey Analytics-exporteurs, zoals beschreven in [Overzicht van exporteren](/help/analysis-workspace/export/export-project-overview.md).
 
+## Volledige tabelexport begrijpen
+
+U kunt volledige tabellen van Analysis Workspace naar cloudproviders exporteren, zoals Google, Azure, Amazon en Adobe.
+
+[Voordelen van het exporteren van volledige tabellen naar de cloud](#advantages-of-exporting-to-the-cloud) omvat de capaciteit om miljoenen rijen uit te voeren, omvat berekende metriek, output van structuurgegevens in samengevoegde waarden, en meer.
+
+Houd rekening met het volgende wanneer u volledige tabellen exporteert:
+
+* Voordat u exporteert naar de cloud, moet u controleren of uw tabellen, omgeving en machtigingen voldoen aan de [uitvoervereisten](#export-requirements).
+
+* Sommige [functies](#unsupported-features) en [componenten](#unsupported-components) worden niet ondersteund bij het exporteren van volledige tabellen naar de cloud.
+
+Gebruik het volgende proces bij het exporteren van volledige tabellen naar de cloud:
+
+1. [Een cloudaccount configureren](/help/components/exports/cloud-export-accounts.md)
+
+1. [Een locatie op de account configureren](/help/components/exports/cloud-export-locations.md)
+
+1. [Een volledige tabel exporteren vanuit Workspace](#export-full-tables-from-analysis-workspace)
+
+1. [Toegang krijgen tot gegevens in de cloud](#view-exported-data-and-manifest-file) en [Exporten beheren in Adobe](/help/components/exports/manage-exports.md)
+
+![Volledig tabelexportproces](assets/export-full-table-process.png)
+
 ## Volledige tabellen exporteren vanuit Analysis Workspace
 
 >[!NOTE]
 >
->Voordat u gegevens exporteert zoals beschreven in deze sectie, moet u ervoor zorgen dat de [Exportvereisten](#export-requirements) is voldaan.
+>Voordat u gegevens exporteert zoals beschreven in deze sectie, moet u meer weten over het exporteren van volledige tabellen in het dialoogvenster [Volledige tabelexport begrijpen](#understand-full-table-export) hierboven.
 
 Volledige tabellen exporteren uit Analysis Workspace:
 
@@ -58,6 +82,38 @@ Volledige tabellen exporteren uit Analysis Workspace:
    Gegevens worden verzonden naar de cloudaccount die u hebt opgegeven met de opgegeven frequentie.
 
 1. (Optioneel) Nadat u de exportbewerking hebt gemaakt, kunt u de bewerking nu of volgens een bepaald schema weergeven en beheren in het dialoogvenster [Pagina exporteren](/help/components/exports/manage-exports.md) en bekijk het in de [Logboeken exporteren](/help/components/exports/manage-export-logs.md).</p>
+
+## Exporteren beheren
+
+Nadat gegevens uit Analysis Workspace zijn geëxporteerd, kunt u bestaande exportbewerkingen bewerken, opnieuw exporteren, dupliceren, labelen of verwijderen, zoals wordt beschreven in [Exporteren beheren](/help/components/exports/manage-exports.md).
+
+## Geëxporteerde gegevens en manifestbestand weergeven
+
+### Geëxporteerde gegevens
+
+Geëxporteerde gegevens zijn beschikbaar als een gecomprimeerd bestand in de cloudbestemming die u hebt geconfigureerd, zoals beschreven in [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
+
+De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:
+
+* `cja-export-{reportInstanceId}-{idx}.csv.gz`
+
+* `cja-export-{reportInstanceId}-{idx}.json.gz`
+
+>[!NOTE]
+>
+>U kiest de bestandsindeling in het dialoogvenster [!UICONTROL **Bestandsindeling**] veld bij het exporteren van de tabel, zoals beschreven in [Volledige tabellen exporteren vanuit Analysis Workspace](#export-full-tables-from-analysis-workspace).
+
+### Manifest-bestand
+
+Een manifestbestand met een bestandsnaam van `cja-export-{reportInstanceId}-{idx}.json.gz` wordt meegeleverd bij elke succesvolle exportlevering die ten minste één bestand bevat. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:
+
+* Een lijst met alle geleverde bestanden
+
+* De grootte van elk bestand
+
+* De tijdstempel van elk bestand
+
+<!-- add in  what the file name, structure, and file format will be -->
 
 ## Voordelen van exporteren naar de cloud
 
@@ -141,38 +197,6 @@ Als een niet-gebrek attributiemodel in een rapport wordt gebruikt, wordt het toe
   >[!NOTE]
   >
   >Multidimensionale rapporten worden alleen ondersteund wanneer u gegevens exporteert naar de cloud, zoals in dit artikel wordt beschreven.
-
-## Exporteren beheren
-
-Nadat gegevens uit Analysis Workspace zijn geëxporteerd, kunt u bestaande exportbewerkingen bewerken, opnieuw exporteren, dupliceren, labelen of verwijderen, zoals wordt beschreven in [Exporteren beheren](/help/components/exports/manage-exports.md).
-
-## Geëxporteerde gegevens en manifestbestand weergeven
-
-### Geëxporteerde gegevens
-
-Geëxporteerde gegevens zijn beschikbaar als een gecomprimeerd bestand in de cloudbestemming die u hebt geconfigureerd, zoals beschreven in [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
-
-De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->U kiest de bestandsindeling in het dialoogvenster [!UICONTROL **Bestandsindeling**] veld bij het exporteren van de tabel, zoals beschreven in [Volledige tabellen exporteren vanuit Analysis Workspace](#export-full-tables-from-analysis-workspace).
-
-### Manifest-bestand
-
-Een manifestbestand met een bestandsnaam van `cja-export-{reportInstanceId}-{idx}.json.gz` wordt meegeleverd bij elke succesvolle exportlevering die ten minste één bestand bevat. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:
-
-* Een lijst met alle geleverde bestanden
-
-* De grootte van elk bestand
-
-* De tijdstempel van elk bestand
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## Vergelijking van de volledige uitvoer van tabellen (in Customer Journey Analytics) naar Data Warehouse (in Adobe Analytics)
 
