@@ -5,9 +5,9 @@ title: Exportlogboeken beheren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Logboek**] tab.
+1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
 1. Selecteer de **Filter** pictogram.
 
@@ -45,7 +45,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Logboek**] tab.
+1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
 1. Typ op het tabblad Zoeken alle informatie die is gekoppeld aan het logbestand waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
 
@@ -69,25 +69,29 @@ Deze optie is niet beschikbaar als u meerdere logbestanden selecteert.
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Logboeken**] en selecteert u vervolgens een logboek.
+1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
-   <!-- add screenshot? -->
+1. Zoek het logboek dat is gekoppeld aan het exportbestand dat u wilt bewerken.
 
-1. Selecteren [!UICONTROL **Bewerken**].
+1. Selecteer de **Exporteren bewerken** pictogram ![pictogram exportlogboek](assets/export-icon.png) naast het logbestand.
+
+   of
+
+   Selecteer het logboek en selecteer vervolgens [!UICONTROL **Exporteren bewerken**].
 
 ## Kolommen configureren
 
-U kunt kolommen toevoegen aan of verwijderen uit de [!UICONTROL Log] om te configureren welke informatie wordt weergegeven.
+U kunt kolommen toevoegen aan of verwijderen uit de [!UICONTROL Logs] om te configureren welke informatie wordt weergegeven.
 
 Selecteer een kolomkop om de logbestanden op die kolom te sorteren. Logbestanden worden standaard gesorteerd op de datum en tijd waarop het exporteren is gestart.
 
-Om kolommen op te vormen [!UICONTROL Log] tab:
+Om kolommen op te vormen [!UICONTROL Logs] tab:
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Logboek**] tab.
+1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
-1. Selecteer de **Tabel aanpassen** pictogram ![tabel aanpassen](assets/customize-table-icon.png) in de rechterbovenhoek van het [!UICONTROL Log] pagina.
+1. Selecteer de **Tabel aanpassen** pictogram ![tabel aanpassen](assets/customize-table-icon.png) in de rechterbovenhoek van het [!UICONTROL Logs] pagina.
 
    De volgende kolommen zijn beschikbaar:
 
@@ -108,7 +112,7 @@ Om kolommen op te vormen [!UICONTROL Log] tab:
 
    {style="table-layout:auto"}
 
-1. Zorg ervoor dat alle kolommen die u wilt weergeven, zijn geselecteerd. Geselecteerde kolommen worden weergegeven op de [!UICONTROL Log] pagina en de relevante informatie weergeven.
+1. Zorg ervoor dat alle kolommen die u wilt weergeven, zijn geselecteerd. Geselecteerde kolommen worden weergegeven op de [!UICONTROL Logs] pagina en de relevante informatie weergeven.
 
 ## Controlelogboeken weergeven
 

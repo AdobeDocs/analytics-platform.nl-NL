@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. In de [!UICONTROL **Beschrijving van locatieaccount**] in het veld een korte beschrijving van de account geven om deze te kunnen onderscheiden van andere accounts van hetzelfde type account.
 
-1. In de [!UICONTROL **Accounttype**] selecteert u het type cloudaccount waarnaar u exporteert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en Adobe Experience Platform Data Landing Zone.
+1. In de [!UICONTROL **Accounttype**] selecteert u het type cloudaccount waarnaar u exporteert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en AEP Data Landing Zone.
 
 1. Ga door met de onderstaande sectie die overeenkomt met de [!UICONTROL **Accounttype**] geselecteerd.
 
@@ -50,7 +50,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    * [Snowflake](#snowflake)
 
-### Adobe Experience Platform Data Landing Zone
+### AEP gegevenslandingszone
 
 >[!IMPORTANT]
 >

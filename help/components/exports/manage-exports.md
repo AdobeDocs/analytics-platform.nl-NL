@@ -5,9 +5,9 @@ title: Exporteren beheren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a95be4cf8e11b7b62f6777abe8884779cfebf482
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met exportbewerki
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het exporteren is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het exporteren is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **Actief**]: Geeft aan dat een geplande export nog niet is verlopen. </li><li>[!UICONTROL **Voltooid**]: Geeft aan dat een exportbewerking is geëxporteerd. Voor geplande export geeft dit aan dat de planning is verlopen.</li><li>[!UICONTROL **Mislukt**]<p>In de volgende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven. <ul><li>Geplande exportvervaldatum</li><li>Rijlimiet bereikt voor geplande export </li></ul> </p></li></ul> |
    | [!UICONTROL **Frequentie**] | Hoe vaak het exporteren plaatsvindt. De volgende frequenties zijn beschikbaar: <ul><li>[!UICONTROL **Eén keer**]</li><li>[!UICONTROL **Dagelijks**]</li><li>[!UICONTROL **Wekelijks**]</li><li>[!UICONTROL **Maandelijks**]</li><li>[!UICONTROL **Jaarlijks**]</li></ul> |
 
@@ -120,6 +120,8 @@ U kunt exportbewerkingen verwijderen van de pagina Exporteren. Geplande exportbe
 
 U kunt kolommen toevoegen aan of verwijderen uit de [!UICONTROL Exports] om te configureren welke informatie wordt weergegeven.
 
+Selecteer een kolomkop om het exporteren op die kolom te sorteren. Standaard worden exportbewerkingen gesorteerd op de datum en tijd waarop de exportbewerking voor het laatst is gewijzigd.
+
 1. Selecteer de **Tabel aanpassen** pictogram ![tabel aanpassen](assets/customize-table-icon.png) in de rechterbovenhoek van het [!UICONTROL Exports] pagina.
 
    De volgende kolommen zijn beschikbaar:
@@ -139,7 +141,7 @@ U kunt kolommen toevoegen aan of verwijderen uit de [!UICONTROL Exports] om te c
    | Frequentie | De frequentie waarin de uitvoer wordt verzonden. Beschikbare opties zijn [!UICONTROL One time], [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly by day of the week], [!UICONTROL Monthly by day of the month], [!UICONTROL Yearly by day of the month], en [!UICONTROL Yearly by specific date]. |
    | Verzonden tijd | Het tijdstip waarop het exporteren is verzonden. |
    | Laatst verzonden | De laatste keer dat de exportbewerking is verzonden. |
-   | Laatst gewijzigd | De laatste keer dat de exportbewerking is gewijzigd. |
+   | Laatst gewijzigd | De laatste keer dat de exportbewerking is gewijzigd. De punten op de pagina van Uitvoer worden gesorteerd door deze kolom door gebrek. |
    | Accounttype | Het type cloudaccount waarin de gegevens zijn geëxporteerd. Beschikbare accounttypen zijn [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake], en [!UICONTROL Adobe Experience Platform]. |
    | Tags | Hiermee geeft u alle tags weer die op het exporteren zijn toegepast. Voor informatie over het toepassen van labels op een exportbewerking raadpleegt u [Een exportlabel geven](#tag-an-export). |
 

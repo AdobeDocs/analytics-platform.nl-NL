@@ -5,9 +5,9 @@ title: Locaties en accounts voor cloudexport beheren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Locatie**] tab.
+1. Selecteer de [!UICONTROL **Locaties**] tab.
 
 1. Selecteer de **Filter** pictogram.
 
@@ -36,7 +36,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | De naam van de account waaraan de locatie is gekoppeld. |
    | [!UICONTROL **Gemaakt door**] | Het e-mailadres van de gebruiker die de locatie heeft gemaakt. |
 
@@ -46,7 +46,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Locatie**] tab.
+1. Selecteer de [!UICONTROL **Locaties**] tab.
 
 1. Typ op het tabblad Zoeken alle informatie die is gekoppeld aan de locatie waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
 
@@ -54,7 +54,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Locatie**] selecteert u vervolgens de locatie die u wilt bewerken.
+1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens de locatie die u wilt bewerken.
 
    <!-- add screenshot? -->
 
@@ -74,7 +74,7 @@ Een locatie verwijderen:
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
-1. Selecteer de [!UICONTROL **Locatie**] selecteert u vervolgens een of meer locaties die u wilt verwijderen.
+1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens een of meer locaties die u wilt verwijderen.
 
    <!-- add screenshot? -->
 
