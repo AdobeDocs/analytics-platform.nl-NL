@@ -5,9 +5,10 @@ title: Cloudexportaccounts configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
@@ -58,21 +59,13 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
 
-1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] wordt de volgende informatie weergegeven:
-
-   | Veld | -functie |
-   |---------|----------|
-   | [!UICONTROL **IMS Org ID**] | De IMS Org-id wordt opgegeven door Adobe. Deze informatie is over het algemeen niet nodig. Het kan handig zijn als u problemen ondervindt met uw account en contact moet opnemen met de klantenservice. |
-
-   {style="table-layout:auto"}
-
 1. Selecteren [!UICONTROL **Opslaan**].
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
    <!-- add screen shot -->
 
-1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik dit SAS-token om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Landing Zone. Meer informatie over toegang tot uw gegevens&quot; |
+1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik dit SAS-token om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Landing Zone.
 
 1. Selecteren [!UICONTROL **OK**].
 
@@ -215,6 +208,3 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 1. Selecteren [!UICONTROL **OK**].
 
 1. Doorgaan met [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).
-
-
-

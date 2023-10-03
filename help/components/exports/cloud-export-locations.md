@@ -5,9 +5,10 @@ title: Cloudexportlocaties configureren
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -58,8 +59,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    | Veld | -functie |
    |---------|----------|
-   | [!UICONTROL **IMS Org ID**] | De IMS Org-id wordt opgegeven door Adobe. Klik op het pictogram Kopiëren naast de knop [!UICONTROL **IMS Org ID**] om de inhoud van het veld te kopiëren, gebruikt u de id in uw account van het Platform voor Adobe. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -78,7 +78,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
-   | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
+   | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
 
@@ -97,7 +97,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Emmertje**] | Het emmertje binnen uw rekening GCP waar u de gegevens van de Customer Journey Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. (De Opdrachtgever wordt verstrekt wanneer [configureren van Google Cloud Platform-account](/help/components/exports/cloud-export-accounts.md).) Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie. |
-   | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
+   | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Containernaam**] | De container binnen de account die u hebt opgegeven, waarin u de gegevens van de Customer Journey Analytics wilt verzenden. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -131,7 +131,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | -functie |
    |---------|----------|
    | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
    | [!UICONTROL **Account**] | De Azure-opslagaccount. |
 
    {style="table-layout:auto"}

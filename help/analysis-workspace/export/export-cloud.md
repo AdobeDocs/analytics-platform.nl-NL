@@ -5,9 +5,10 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1924'
 ht-degree: 2%
 
 ---
@@ -110,9 +111,7 @@ Een manifestbestand met een bestandsnaam van `cja-export-{reportInstanceId}-{idx
 
 * Een lijst met alle geleverde bestanden
 
-* De grootte van elk bestand
-
-* De tijdstempel van elk bestand
+* De MD5-controlesom van elk bestand
 
 <!-- add in  what the file name, structure, and file format will be -->
 
@@ -126,7 +125,7 @@ Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt 
 
   Dit type van gegevens kan worden gebruikt om tendensen op lange termijn te ontdekken om bedrijfsintelligentie te bereiken, en uiteindelijk tot betere bedrijfsbesluitvorming te leiden.
 
-* Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten (3 miljoen, 30 miljoen of 150 miljoen rijen, afhankelijk van het type licentie). Met andere exportmethoden kunt u maximaal 50.000 rijen exporteren.
+* Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten (3 miljoen, 30 miljoen, 150 miljoen of 300 miljoen rijen, afhankelijk van het type licentie). Met andere exportmethoden kunt u maximaal 50.000 rijen exporteren.
 
 * Berekende metriek opnemen in de geëxporteerde gegevens van de Customer Journey Analytics.
 
