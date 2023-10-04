@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2b8712506d68d89d41668fac32bb669055d94e91
+source-git-commit: e1254a5ecff0f638cbef1051564c1ce856f715bd
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '769'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 4 oktober 2023 tot e
 | **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar in de [Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) en de [Filterbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) bij het beheren van componenten:<ul><li>Gebruikt in</li><li>Laatst gebruikt</li></ul>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt. | 23 september 2023 | 4 oktober 2023 |
 | **Adobe Analytics-projecten en alle inbegrepen onderdelen migreren naar Customer Journey Analytics** | U kunt nu uw Adobe Analytics-projecten migreren naar Customer Journey Analytics. Dit proces vereenvoudigt de overgang van Adobe Analytics naar Customer Journey Analytics. Wanneer u projecten naar Customer Journey Analytics migreert, worden de activa in kaart gebracht van een het rapportreeks van Adobe Analytics aan een de gegevensmening van de Customer Journey Analytics. **U migreert projecten aan Customer Journey Analytics van de interface van Adobe Analytics.** [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | N.v.t. | 4 oktober 2023 |
 | **Adobe Product Analytics: Reeks tonen/verbergen** | Klik op de diagramlegenda of tabelrijen om de zichtbaarheid van reeksen in uw visualisaties te bepalen.  Meer informatie (binnenkort beschikbaar) | N.v.t. | 4 oktober 2023 |
-| **Annotaties in Adobe Product Analytics** | De geleide analyseprojecten steunen nu de capaciteit om annotaties te bekijken. Verwijs naar elk meningstype in [Analyse met instructies](/help/guided-analysis/overview.md) voor meer informatie over de interactie met annotaties. Meer informatie (binnenkort beschikbaar) | N.v.t. | 4 oktober 2023 |
+| **Annotaties in Adobe Product Analytics** | De geleide analyseprojecten steunen nu de capaciteit om annotaties te bekijken. Verwijs naar elk meningstype in [Analyse met instructies](/help/guided-analysis/overview.md) voor meer informatie over de interactie met annotaties. | N.v.t. | 4 oktober 2023 |
 | **Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke verbinding in uw organisatie zien. Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen. De belangrijkste kenmerken van de manager van de activiteit van de Rapportering omvatten:<ul><li>Huidige rapportageverzoeken annuleren (inclusief verzoeken van geleide analyses en volledige tabelexport)</li><li>Verdere verzoeken voor een bepaalde periode beperken</li></ul>Naast het annuleren van huidige verzoeken, kunnen de beheerders verzoeken voor een bepaalde tijdspanne nu beperken. De beheerders kunnen verzoeken door verzoek, project, of gebruiker beperken.  Meer informatie (binnenkort beschikbaar) | 17 oktober 2023 | 23 oktober 2023 |
 
 {style="table-layout:auto"}
