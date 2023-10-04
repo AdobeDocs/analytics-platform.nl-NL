@@ -4,10 +4,10 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 322f5a10b928a9bf679954aa1fe6415340ec675b
+source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
 workflow-type: tm+mt
-source-wordcount: '3178'
-ht-degree: 1%
+source-wordcount: '3204'
+ht-degree: 0%
 
 ---
 
@@ -111,6 +111,7 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 | **[Rij](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Uitsplitsing naar positie | Selecteer deze optie als u wilt dat de uitsplitsing bij de positie van het item blijft en niet bij het item zelf. Zie voor meer informatie over uitsplitsingen [Afmetingen onderverdelingen](/help/components/dimensions/t-breakdown-fa.md). |
 | | Percentage berekening | <ul><li>Kolom</li><li>Rij</li></ul> |
+| | Kolomtotalen (alleen statische rijen) | <ul><li>De som van rijen weergeven: geeft de som van de afzonderlijke regelitems weer </li><li>Totaal-generaal weergeven: geeft de gedupliceerde som van rijen weer.</li></ul> |
 
 ## Voorkeuren voor visualisatie
 
