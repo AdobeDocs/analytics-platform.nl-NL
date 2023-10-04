@@ -3,9 +3,8 @@ description: Bestaande exportbewerkingen beheren
 keywords: Analysis Workspace
 title: Exporteren beheren
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 0c21802a-c46f-41be-9356-d836c038b174
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 1%
@@ -13,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Exporteren beheren
+
+{{release-limited-testing}}
 
 Nadat u een volledige tabel hebt geëxporteerd zoals wordt beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md), de uitvoer beschikbaar op [!UICONTROL Exports] op het tabblad [!UICONTROL Exports] pagina.
 

@@ -3,9 +3,8 @@ description: Logboeken beheren voor bestaande exportbewerkingen
 keywords: Analysis Workspace
 title: Exportlogboeken beheren
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -13,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Exportlogboeken beheren
+
+{{release-limited-testing}}
 
 In exportlogboeken vindt u details over elke exportbewerking. Deze logbestanden worden gegenereerd wanneer Analysis Workspace-gegevens naar de cloud worden geëxporteerd. (Voor informatie over hoe gegevens naar de cloud kunnen worden geëxporteerd, raadpleegt u [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md).)
 

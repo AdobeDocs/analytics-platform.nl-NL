@@ -3,10 +3,8 @@ description: Exporteer een Analysis Workspace-project naar een locatie in de clo
 keywords: Analysis Workspace
 title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
-hide: true
-hidefromtoc: true
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 2%
@@ -14,6 +12,8 @@ ht-degree: 2%
 ---
 
 # Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
+
+{{release-limited-testing}}
 
 U kunt volledige tabellen van Workspace vanuit Customer Journey Analytics exporteren en exporteren naar opgegeven cloud-doelen.
 

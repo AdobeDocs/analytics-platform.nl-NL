@@ -3,9 +3,8 @@ description: Begrijp de verschillende methodes beschikbaar voor het uitvoeren ui
 keywords: Analysis Workspace
 title: Overzicht van projectgegevens exporteren
 feature: Curate and Share
-hide: true
-hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,5 +38,3 @@ Er zijn verschillende methoden beschikbaar voor het exporteren vanuit Analysis W
 | [Naar een cloudtoepassing verzenden](/help/analysis-workspace/export/export-cloud.md) | Gebruik deze methode als u wilt: <ul><li>Exporteer naar een gedeelde locatie, zoals Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 of Snowflake.</li><li>Kan ad hoc of op een programma zijn.</li><li>Sla grotere hoeveelheden gegevens over de Customer Journey Analytics op.</li><li>Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
-
-

@@ -3,10 +3,8 @@ description: De exportaccount voor de cloud configureren waar Customer Journey A
 keywords: Analysis Workspace
 title: Cloudexportaccounts configureren
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -14,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Cloudexportaccounts configureren
+
+{{release-limited-testing}}
 
 Voordat u Customer Journey Analytics-rapporten kunt exporteren naar een cloudinrichting zoals beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md), moet u de bestemming toevoegen en vormen waar u de gegevens wilt worden verzonden.
 
@@ -65,7 +65,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    <!-- add screen shot -->
 
-1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik dit SAS-token om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Landing Zone.
+1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP-landingszone.
 
 1. Selecteren [!UICONTROL **OK**].
 
