@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Exporteren beheren
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,10 @@ U kunt de eigenschappen, indeling, planning en locatie-informatie van een export
    Deze optie is niet beschikbaar als u meerdere exportbewerkingen selecteert.
 
 1. Selecteren [!UICONTROL **Bewerken**].
+
+   De [!UICONTROL **Volledige tabel exporteren**] wordt weergegeven.
+
+1. Werk een van de beschikbare opties bij. Voor informatie over elke optie raadpleegt u [Volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md).
 
 ## Een exportbewerking dupliceren
 

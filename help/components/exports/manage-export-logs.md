@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Exportlogboeken beheren
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 708367159d00935bb77043e551dc915f79dd2584
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
    |---------|----------|
    | [!UICONTROL **Id exporteren**] | Geef de export-id op van het exportlogboek dat u wilt weergeven. |
    | [!UICONTROL **Accounttype**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **In behandeling**]: Er is een specifieke instantie van een exportbewerking gestart, maar deze is nog niet voltooid.<p>Als u een exportbewerking met de status In behandeling opnieuw uitvoert, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek exemplaar van een exportbewerking is voltooid en is beschikbaar in de exportaccount.</li><li>[!UICONTROL **Mislukt**]<p>In de volgende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven. <ul><li>Geplande exportvervaldatum</li><li>Rijlimiet bereikt voor geplande export </li></ul> </p></li></ul> |
+   | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **In behandeling**]: Er is een specifieke instantie van een exportbewerking gestart, maar deze is nog niet voltooid.<p>Als u een exportbewerking met de status In behandeling opnieuw uitvoert, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek exemplaar van een exportbewerking is voltooid en is beschikbaar in de exportaccount.</li><li>[!UICONTROL **Mislukt**]<p>In verschillende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven.<p>Voor meer informatie over mogelijke redenen voor een mislukking, zie [Problemen met mislukte exportbewerkingen oplossen](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 
