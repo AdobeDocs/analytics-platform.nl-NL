@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Ga door met de onderstaande sectie die overeenkomt met de [!UICONTROL **Accounttype**] geselecteerd.
 
-   * [Adobe Experience Platform Data Landing Zone](#adobe-experience-platform)
+   * [AEP gegevenslandingszone](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -63,9 +63,9 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Dialoogvenster AEP-gegevenslandingszone voor exportaccount](assets/export-account-aep.png)
 
-1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS**] aan uw klembord. Gebruik deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP-landingszone.
+1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS-URI**] aan uw klembord. Gebruik deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP-landingszone.
 
 1. Selecteren [!UICONTROL **OK**].
 
@@ -87,7 +87,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Dialoogvenster Amazon S3 Role ARN voor een exportaccount](assets/export-account-amazons3.png)
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **ARN gebruiker**] aan uw klembord. De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u in Amazon S3 RolARN creeerde.
 
@@ -111,7 +111,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Het dialoogvenster Account maken exporteren](assets/export-account-gcp.png)
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Opdrachtgever**] aan uw klembord, dan zorg ervoor dat u toestemming aan Principal verleent om dossiers aan dit emmertje in het Platform van Google Cloud te uploaden. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -139,7 +139,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Het dialoogvenster Account maken exporteren](assets/export-account-azure.png)
 
 1. Als u nog geen machtigingen hebt, moet u ervoor zorgen dat u machtigingen verleent aan het emmertje in Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -165,7 +165,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Het dialoogvenster Account maken exporteren](assets/export-account-azure.png)
 
 1. Als u niet reeds hebt, zorg ervoor dat u toestemmingen aan de emmer in Azure RBAC verleent. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -191,7 +191,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    De [!UICONTROL **Exportaccount gemaakt**] wordt weergegeven.
 
-   <!-- add screen shot -->
+   ![Het dialoogvenster Account maken exporteren](assets/export-account-snowflake.png)
 
 1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **Openbare sleutel**] aan uw klembord. De openbare sleutel wordt verstrekt door Adobe.
 

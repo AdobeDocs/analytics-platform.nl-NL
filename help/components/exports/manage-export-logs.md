@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Exportlogboeken beheren
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Id exporteren**] | Geef de export-id op van het exportlogboek dat u wilt weergeven. |
+   | [!UICONTROL **Accounttype**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **In behandeling**]: Er is een specifieke instantie van een exportbewerking gestart, maar deze is nog niet voltooid.<p>Als u een exportbewerking met de status In behandeling opnieuw uitvoert, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek exemplaar van een exportbewerking is voltooid en is beschikbaar in de exportaccount.</li><li>[!UICONTROL **Mislukt**]<p>In de volgende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven. <ul><li>Geplande exportvervaldatum</li><li>Rijlimiet bereikt voor geplande export </li></ul> </p></li></ul> |
 
    {style="table-layout:auto"}
@@ -48,7 +49,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
 1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
-1. Typ op het tabblad Zoeken alle informatie die is gekoppeld aan het logbestand waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
+1. In het onderzoeksgebied, begin het typen van om het even welke informatie verbonden aan het logboek u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
 
 <!-- removed for MVP: Retry an export You can re-run the export associated with the selected log, using the data as it was on the day the log was originally exported. This is useful when selecting a log that show a failed export or when selecting a log that was accidentally deleted. 
 
@@ -74,11 +75,11 @@ Deze optie is niet beschikbaar als u meerdere logbestanden selecteert.
 
 1. Zoek het logboek dat is gekoppeld aan het exportbestand dat u wilt bewerken.
 
-1. Selecteer de **Exporteren bewerken** pictogram ![pictogram exportlogboek](assets/export-icon.png) naast het logbestand.
+1. Selecteer de **Exporteren bewerken** pictogram ![pictogram exportlogboek](assets/export-icon.png) naast de lognaam.
 
    of
 
-   Selecteer het logboek en selecteer vervolgens [!UICONTROL **Exporteren bewerken**].
+   Schakel het selectievakje naast het logbestand in en selecteer vervolgens [!UICONTROL **Exporteren bewerken**].
 
 ## Kolommen configureren
 

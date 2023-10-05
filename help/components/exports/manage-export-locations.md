@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Type locatie**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **AEP gegevenslandingszone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | De naam van de account waaraan de locatie is gekoppeld. |
    | [!UICONTROL **Gemaakt door**] | Het e-mailadres van de gebruiker die de locatie heeft gemaakt. |
 
@@ -49,7 +49,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer de [!UICONTROL **Locaties**] tab.
 
-1. Typ op het tabblad Zoeken alle informatie die is gekoppeld aan de locatie waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
+1. Typ in het zoekveld alle informatie die is gekoppeld aan de locatie waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
 
 ## Locaties bewerken
 
@@ -57,7 +57,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens de locatie die u wilt bewerken.
 
-   <!-- add screenshot? -->
+   ![Locaties bewerken](assets/locations-edit.png)
 
 1. Selecteren [!UICONTROL **Bewerken**].
 
@@ -77,7 +77,7 @@ Een locatie verwijderen:
 
 1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens een of meer locaties die u wilt verwijderen.
 
-   <!-- add screenshot? -->
+   ![Locaties bewerken](assets/locations-edit.png)
 
 1. Selecteren [!UICONTROL **Verwijderen**] selecteert u vervolgens [!UICONTROL **Verwijderen**] nogmaals in het bevestigingsvenster.
 
@@ -92,6 +92,20 @@ Een locatie verwijderen:
 1. Selecteren [!UICONTROL **Details weergeven**] op de account die u wilt bewerken.
 
 1. Breng de gewenste wijzigingen aan en selecteer vervolgens [!UICONTROL **Opslaan**].
+
+## Accountsleutels weergeven
+
+Nadat u een account hebt gemaakt, kunt u de accountsleutels voor dat account bekijken. Mogelijk moet u deze informatie weergeven als u de account niet hebt geconfigureerd bij uw cloud provider [toen u oorspronkelijk de rekening vormde](/help/components/exports/cloud-export-accounts.md).
+
+Aan menings sleutels verbonden aan een de uitvoerrekening:
+
+1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
+
+1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
+
+   ![Accounts-pagina](assets/account-page.png)
+
+1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Accountsleutels**].
 
 ## Accounts verwijderen
 
