@@ -3,9 +3,9 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: Gegevens Customer Journey Analytics downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Er zijn ook andere methoden beschikbaar voor het exporteren van gegevens van Cus
 
      Kies deze optie als het gedownloade bestand onbewerkte tekst moet zijn.
 
-   ![](assets/download-project.png)
+   ![De vervolgkeuzelijst Project met de opties CSV downloaden en PDF downloaden gemarkeerd.](assets/download-project.png)
 
 1. (Voorwaardelijk) als u verkoos om een PDF te downloaden, wordt een bericht getoond nadat het project klaar is om te worden gedownload. Selecteren [!UICONTROL **Downloaden**].
 
@@ -51,7 +51,7 @@ De optie Klikken met rechtermuisknop **[!UICONTROL Copy to clipboard]** Hiermee 
 >U kunt de sneltoets gebruiken `Ctrl+C` om uw selectie naar het klembord te kopiëren, dan gebruik `Ctrl+V` plakken in een gereedschap van derden.
 
 
-![](assets/copy-selection.png)
+![De optie Selectie kopiëren naar klembord. ](assets/copy-selection.png)
 
 ## Downloaden als CSV {#download-data}
 
@@ -66,7 +66,7 @@ De optie Klikken met rechtermuisknop **[!UICONTROL Download data as CSV]** kunt 
 
 * Klik in een tabel met de rechtermuisknop en kies **[!UICONTROL Download selection as CSV]**. Alleen de selectie wordt met deze optie gedownload, in tegenstelling tot de volledige weergegeven tabel.
 
-![](assets/download-data-viz.png)
+![De optie Gegevens downloaden als CSV.](assets/download-data-viz.png)
 
 ## Items als CSV downloaden {#download-items}
 
@@ -78,7 +78,7 @@ Als u meer dan de zichtbare 400 rijen gegevens in een lijst wilt analyseren, kli
 
 U kunt meerdere taken uitvoeren binnen het project en zelfs naar een nieuw Workspace-project navigeren op hetzelfde tabblad terwijl de download bezig is. Het downloaden wordt onderbroken als u een nieuw browsertabblad opent. Het downloaden wordt geannuleerd als u Workspace volledig verlaat of het browsertabblad sluit.
 
-![](assets/download-items.png)
+![De optie Items downloaden als CSV (Pagina).](assets/download-items.png)
 
 ### Bestand met gedownloade items {#items-file}
 
@@ -90,7 +90,7 @@ De functies van de tabel worden als volgt op het gedownloade bestand toegepast:
 
 In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvensterfilter (Nieuwe bezoekers) en de bovenstaande componenten (Marketing Channel = e-mail) toegepast als filters, en worden de onderliggende componenten (Type mobiel apparaat) verwijderd uit de gedownloade CSV.
 
-![](assets/downloaded-file.png)
+![Het gedownloade .csv-bestand wordt geopend in Excel.](assets/downloaded-file.png)
 
 ### Meldingen downloaden {#notifications}
 
@@ -100,7 +100,7 @@ Nadat het bestand is voltooid, wordt een voltooiingsbericht weergegeven en wordt
 
 Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elke extra download in de wachtrij wordt geplaatst totdat de vorige download is voltooid.
 
-![](assets/toast.png)
+![Het statusbericht van het downloaden met het percentage dat is voltooid en de downloadkoppeling Annuleren.](assets/toast.png)
 
 ## Gevoelige gegevens downloaden {#sensitive}
 

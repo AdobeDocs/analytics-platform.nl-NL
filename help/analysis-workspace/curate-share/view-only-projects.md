@@ -4,9 +4,9 @@ keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 3%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 3%
 
 U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door delen [Workflow voor delen van projecten](/help/analysis-workspace/curate-share/share-projects.md). Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
-![](assets/view-only-project.png)
+![Een gezamenlijk project met alleen viewers.](assets/view-only-project.png)
 
 ## Uitgeschakelde interacties
 
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerspoor
-* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in toe [drop-down filter met datumwaaiers](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in toe [drop-down filter met datumwaaiers](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * Freeform-filtering
-* Vrije vorm # van zichtbare rijen
+* Vrije vorm nr. van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
 * Deelvensterfilters
 * Menu&#39;s Bewerken, Invoegen en Component
@@ -37,6 +37,6 @@ Enkele opmerkelijkere toegelaten interactie in een mening-slechts project omvatt
 | Gebied | Ingeschakelde interacties |
 | --- | --- |
 | Vrije-vormtabellen | <ul><li>Paginering en sorteren</li><li>Hovering</li><li>Celselecties waarmee gekoppelde visualisaties worden bijgewerkt</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Klik met de rechtermuisknop > Kopiëren naar klembord</li></ul> |
-| Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitvouwen</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
-| Deelvensters | <ul><li>Interactieve vervolgkeuzefilters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitvouwen</li></ul> |
+| Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitbreiden</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
+| Deelvensters | <ul><li>Interactieve vervolgkeuzefilters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitbreiden</li></ul> |
 | Project | <ul><li>Alle informatiepictogrammen controleren</li><li>Projectmenu - Nieuw, Openen, Instellen als bestemmingspagina, Vernieuwen, CSV/PDF downloaden, beperkte projectinfo en -instellingen</li><li>Menu Delen - Projectkoppeling ophalen, bestand nu verzenden</li><li>Menu Help - Alle handelingen behalve Opties voor Tips en Foutopsporing</li></ul> |

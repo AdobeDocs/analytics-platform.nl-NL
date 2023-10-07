@@ -3,9 +3,9 @@ title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '532'
 ht-degree: 17%
 
 ---
@@ -18,9 +18,9 @@ Customer Journey Analytics verbetert de attributie door u te laten:
 
 * Definitie van attributie die verder gaat dan &#39;paid media&#39;: hiermee kan elke dimensie of gebeurtenis, en elke metric of elk kanaal worden toegepast op modellen (bijvoorbeeld intern zoeken), niet alleen marketingcampagnes.
 * Een onbeperkt aantal attributiemodellen vergelijken: vergelijk dynamisch zoveel modellen als u wilt.
-* Wijzigingen in implementatie voorkomen: Met rapport-tijd verwerking en context-bewuste zittingen, kan de context van de klantenreis binnen worden gebouwd en bij runtime worden toegepast.
+* Vermijd implementatieveranderingen: Met rapport-tijd verwerking en context-bewuste zittingen, kan de context van de klantenreis binnen worden gebouwd en bij runtime worden toegepast.
 * Construeer de sessie die het beste overeenkomt met uw attributiescenario.
-* Verdeling van kenmerken door filters: Vergelijk eenvoudig de prestaties van uw marketingkanalen met elk belangrijk filter (bijvoorbeeld Nieuwe of Herhaalde klanten, Product X versus Product Y, Loyalty level of CLV).
+* Verdeling van kenmerken naar filters: vergelijk eenvoudig de prestaties van uw marketingkanalen over een belangrijk filter (bijvoorbeeld Nieuwe klanten vs. klanten herhalen, product X vs. product Y, Loyalty level of CLV).
 * Controle dankzij &#39;channel cross-over&#39; en multi-touchanalyse: gebruik Venn-diagrammen en histogrammen en volg de trends in attributieresultaten.
 * Visuele analyse van belangrijke marketingreeksen: werk met visuele methoden die leiden tot conversie, zoals flows voor meerdere knooppunten en uitvalvisualisaties.
 * Stel berekende standaarden samen: gebruik een willekeurig aantal toewijzingsmethoden voor attributie.
@@ -30,24 +30,24 @@ Customer Journey Analytics verbetert de attributie door u te laten:
 1. Klik op het deelvensterpictogram aan de linkerkant.
 1. Sleep de [!UICONTROL Attribution] in uw Analysis Workspace-project.
 
-   ![Nieuw deelvenster voor kenmerken](assets/Attribution_Panel_1.png)
+   ![Het venster Nieuw project markeert het deelvenster Kenmerken.](assets/Attribution_Panel_1.png)
 
 1. Voeg metrisch toe dat u om het even welke afmeting aan attributen wilt kenmerken en toevoegen tegen. Voorbeelden zijn Marketingkanalen of aangepaste afmetingen, zoals interne promoties.
 
-   ![Dimensie en metrisch selecteren](assets/attribution_panel2.png)
+   ![Het venster van het deelvenster Kenmerken dat verschillende geselecteerde afmetingen en metriek toont.](assets/attribution_panel2.png)
 
 1. Selecteer de kenmerken en het terugzoekvenster die u wilt vergelijken.
 
-1. Het deelvenster Kenmerken retourneert een uitgebreide set gegevens en visualisaties die de kenmerk voor de geselecteerde dimensie en de metrische waarde met elkaar vergelijken.
+1. Het deelvenster Kenmerken retourneert een uitgebreide set gegevens en visualisaties die de kenmerk voor de geselecteerde dimensie en metrisch vergelijken.
 
-   ![Attributievisualisaties](assets/attr_panel_vizs.png)
+   ![De visualisaties in het deelvenster Kenmerken die geselecteerde metriek en dimensies vergelijken.](assets/attr_panel_vizs.png)
 
 ## Attributievisualisaties
 
-* **Totaal metrisch**: Het totale aantal omzettingen dat zich tijdens het rapporttijdvenster voordeed. Dit zijn de omzettingen die over de afmeting worden toegeschreven u selecteerde.
+* **Totaal metrisch**: Het totale aantal conversies dat zich tijdens het rapportagetijdvenster heeft voorgedaan. Dit zijn de omzettingen die over de afmeting worden toegeschreven u selecteerde.
 * **Vergelijkingsbalk voor kenmerken**: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
-* **Vergelijkingstabel voor kenmerken**: Hiermee worden dezelfde gegevens weergegeven als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze lijst doet gelijkaardig aan een andere Lijst Freeform in Werkruimte - toestaand u om componenten zoals metriek, filters, of onderverdelingen toe te voegen.
+* **Vergelijkingstabel voor kenmerken**: Hiermee geeft u dezelfde gegevens weer als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze lijst doet gelijkaardig aan een andere Lijst Freeform in Werkruimte - toestaand u om componenten zoals metriek, filters, of onderverdelingen toe te voegen.
 * **Diagram overlappen**: Een tekening van Venn die de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. Bijvoorbeeld, wijst de grootte van de bel overlapping erop hoe vaak omzettingen voorkwamen wanneer een persoon aan beide afmetingspunten werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
-* **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkingsmodellen visueel vergelijken met behulp van een spreidingsgrafiek.
-* **Trende prestaties**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
-* **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt, en in welke volgorde op de reis van een persoon.
+* **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkmodellen visueel vergelijken met een spreidingsperceel.
+* **Trende prestaties**: Geeft de trend weer van toegewezen omzettingen voor het bovenste dimensie-item. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde op de reis van een persoon.

@@ -1,12 +1,12 @@
 ---
-description: U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
-title: Overzicht van anomaliedetectie
+description: Meer informatie over de detectie van anomalieën in Analysis Workspace.
+title: Hoe Anomaly Detection werkt
 feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '180'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 
-[Videozelfstudie Anomaly Detection](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Videozelfstudie Anomaly Detection](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) 4:53
 
 Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens.
 

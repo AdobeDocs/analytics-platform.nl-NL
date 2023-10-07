@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Mappen maken
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +25,15 @@ Als u een nieuwe map wilt maken,
 
 1. Selecteer labels in het keuzemenu of voeg nieuwe tags toe.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
+   ![Maak een nieuw mappenvenster met de nieuwe mapnaam en de lijst met beschikbare tags.](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
 1. Klikken **Maken**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create.png)
+   ![Klik op Maken.](/help/analysis-workspace/build-workspace-project/assets/create.png)
 
    De nieuwe map wordt toegevoegd aan de hoofdlijst met projecten en mappen.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+   ![De het landende pagina van Projecten die de bijgewerkte lijst van project en omslagen tonen.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## Een submap maken {#create-subfolder}
 
@@ -43,20 +43,20 @@ Als u een submap wilt maken terwijl u een bestaande map hebt geopend,
 
 1. Klikken **Nieuwe map maken**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+   ![Klik op Een nieuwe map maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
 1. Voer een naam voor de submap in en voeg de benodigde tags toe.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+   ![Het veld Nieuwe naam en label maken in het venster Nieuwe map maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
 1. Klikken **Maken**.
 
    De nieuwe submap wordt toegevoegd aan de lijst met projecten en submappen.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+   ![Klik op Maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
 
    >[!NOTE]
    >
-   >U kunt tot 10 niveaus van subfolders in één enkele omslag tot stand brengen.
+   >U kunt maximaal 10 niveaus submappen maken in één map.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+   ![In de vervolgkeuzelijst met mappen worden alle submappen in de map weergegeven.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

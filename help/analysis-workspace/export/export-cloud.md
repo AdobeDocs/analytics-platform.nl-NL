@@ -1,12 +1,12 @@
 ---
-description: Exporteer een Analysis Workspace-project naar een locatie in de cloud.
+description: Leer hoe u een Analysis Workspace-project exporteert naar een locatie in de cloud.
 keywords: Analysis Workspace
 title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1970'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Gebruik het volgende proces bij het exporteren van volledige tabellen naar de cl
 
 1. [Toegang krijgen tot gegevens in de cloud](#view-exported-data-and-manifest-file) en [Exporten beheren in Adobe](/help/components/exports/manage-exports.md)
 
-![Volledig tabelexportproces](assets/export-full-table-process.png)
+![Het volledige tabelexportproces dat in de stappen 1 tot en met 4 wordt beschreven.](assets/export-full-table-process.png)
 
 ## Volledige tabellen exporteren vanuit Analysis Workspace
 
@@ -57,7 +57,7 @@ Volledige tabellen exporteren uit Analysis Workspace:
 
 1. Selecteren [!UICONTROL **Volledige tabel exporteren**].
 
-   ![volledige tabel exporteren](assets/export-full-table.png)
+   ![De vervolgkeuzemenu van de tabel Vrije vorm met de volledige tabel Exporteren gemarkeerd.](assets/export-full-table.png)
 
 1. In de [!UICONTROL **Nieuwe volledige tabelexport**] geeft u de volgende informatie op:
 

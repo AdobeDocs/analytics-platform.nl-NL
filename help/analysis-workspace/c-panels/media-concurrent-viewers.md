@@ -4,9 +4,9 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1035'
 ht-degree: 1%
 
 ---
@@ -36,12 +36,12 @@ U kunt het deelvenster Mediagelijktijdige viewers configureren met de volgende i
 
 ### Standaardweergave
 
-![Standaardweergave](assets/concurrent-viewers-default.png)
+![De standaardweergave Mediagelijktijdige viewers.](assets/concurrent-viewers-default.png)
 
 
 ### Uitsplitsingsweergave van reeksen
 
-![weergave van reeksindeling](assets/concurrent-viewers-series-breakdown.png)
+![De Media Gelijktijdige Viewers de mening van de de opsplitsing van de Reeks die 7 van 10 dimensies, segmenten of datumwaaiers toont.](assets/concurrent-viewers-series-breakdown.png)
 
 ## Deelvensteruitvoer {#Output}
 
@@ -51,7 +51,7 @@ U kunt het deelvenster op elk gewenst moment bewerken en opnieuw samenstellen do
 
 Als u reeksindeling hebt geselecteerd, worden een regel in het lijndiagram en een samenvattingsnummer voor elke regel weergegeven:
 
-![gelijktijdige viewer-uitvoer](assets/concurrent-viewers-output.png)
+![De uitvoer van Mediagelijktijdige viewers.](assets/concurrent-viewers-output.png)
 
 ### Gegevensbron
 
@@ -64,7 +64,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelij
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 
 
-![gelijktijdige viewer-uitvoer](assets/concurrent-viewers-download-csv.png)
+![De uitvoeropties voor gelijktijdige viewers met &quot;Gegevens downloaden als CSV&quot; gemarkeerd.](assets/concurrent-viewers-download-csv.png)
 
 ## Veelgestelde vragen {#FAQ}
 
@@ -72,7 +72,7 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 |---|---|
 | Waar is de tabel voor vrije vorm? Hoe kan ik de gegevensbron zien? | De tabel Freeform is niet beschikbaar in deze weergave.  U kunt de gegevensbron downloaden door met de rechtermuisknop op het lijndiagram te klikken en het CSV-bestand te downloaden. |
 | Waarom veranderde mijn granulariteit? | Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau).  Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken.<br><br>Wanneer u van een groter datumbereik overschakelt op een kleiner datumbereik, wordt de granulariteit bijgewerkt naar het laagste detailniveau dat is toegestaan nadat het datumbereik is gewijzigd. Als u een hogere granulariteit wilt weergeven, bewerkt u het deelvenster en maakt u het opnieuw. |
-| Hoe vergelijk ik namen van video&#39;s, filters, inhoudstypen, enzovoort? | Als u deze in één visualisatie wilt vergelijken, sleept u filters, dimensies of specifieke dimensiepunten in het filter voor de reeksafbraak.<br><br>De weergave is beperkt tot 10 uitsplitsingen.  Als u meer dan 10 wilt weergeven, moet u meerdere deelvensters gebruiken. |
+| Hoe vergelijk ik namen van video&#39;s, filters, inhoudstypen, enzovoort? | Als u deze in één visualisatie wilt vergelijken, sleept u filters, dimensies of specifieke dimensiepunten in het filter voor de reeksafbraak.<br><br>De weergave is beperkt tot tien uitsplitsingen.  Als u meer dan 10 wilt weergeven, moet u meerdere deelvensters gebruiken. |
 | Hoe vergelijk ik datumbereiken? | Om datumwaaiers in één enkele visualisatie te vergelijken, gebruik de reeksonderverdelingen door 2 of meer datumwaaiers te slepen.  Deze datumbereiken overschrijven het datumbereik van het deelvenster. |
 | Hoe kan ik het visualisatietype wijzigen? | In dit deelvenster kunt u alleen de lijnen voor de tijdreeks visualiseren. |
 | Kan ik anomaliedetectie uitvoeren? | Nee.  Anomaly-detectie is niet beschikbaar voor dit deelvenster. |

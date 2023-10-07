@@ -3,9 +3,9 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1266'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICON
 | [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
 | [Deelvenster Tijdlijn media afspelen](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer de afspeeltijd die u hebt doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering heeft plaatsgevonden of waar een drop-down heeft plaatsgevonden. |
 
-![](assets/panel-overview.png)
+![Het deelvenster Customer Journey Analytics met de beschikbare deelvenstertypen.](assets/panel-overview.png)
 
 [!UICONTROL Quick Insights], [!UICONTROL Blank] en [!UICONTROL Freeform] deelvensters zijn ideale plaatsen om uw analyse te starten, terwijl [!UICONTROL Attribution IQ] leent zich voor geavanceerdere analyses. A `"+"` Deze knop is beschikbaar in projecten, zodat u op elk gewenst moment lege deelvensters kunt toevoegen.
 
@@ -39,7 +39,7 @@ De paneelkalender bepaalt het rapporteringswaaier voor lijsten en visualisaties 
 
 Opmerking: als een (paarse) datumbereikcomponent wordt gebruikt in een tabel, visualisatie of dropzone van een deelvenster, wordt de deelvensterkalender hierdoor overschreven.
 
-![](assets/panel-calendar.png)
+![Het kalendervenster dat het geselecteerde datumbereik weergeeft.](assets/panel-calendar.png)
 
 U kunt een datumbereik op minaniveau toepassen onder de geavanceerde instellingen van uw deelvensterkalender. Als u op een datumwaaier rapporteert die vele dagen overspant, is de begintijd van toepassing op de eerste dag en de eindtijd op de laatste dag in uw waaier.
 
@@ -51,7 +51,7 @@ Met de dropzone van het deelvenster kunt u filters en vervolgkeuzefilters toepas
 
 Sleep alle filters van de linkertrack naar de neerzetzone van het deelvenster om het deelvenster te filteren.
 
-![](assets/segment-filter.png)
+![De linkerspoorstaaf toont beschikbare Metriek en de Mobiele metrische Klant sleepte aan de paneeldalingsstreek.](assets/segment-filter.png)
 
 ### Ad-hocfilters
 
@@ -61,7 +61,7 @@ Ad hoc filters zijn een type snel filter, en zijn plaatselijk aan het project. Z
 
 Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters.md).
 
-![](assets/adhoc-segment-filter.png)
+![Ad hoc filters die openbaar worden gemaakt en in de dalingsstreek worden gelaten vallen.](assets/adhoc-segment-filter.png)
 
 ### Statische vervolgkeuzefilters
 
@@ -69,7 +69,7 @@ Met vervolgkeuzefilters kunt u op een gecontroleerde manier met de gegevens werk
 
 Vervolgkeuzefilters kunnen worden gebruikt om ook vele projecten in één te consolideren. Als er bijvoorbeeld veel versies van hetzelfde project met verschillende landfilters zijn toegepast, kunt u alle versies samenvoegen tot één project en een vervolgkeuzelijst Land toevoegen.
 
-![](assets/dropdown-filter-intro.png)
+![Statische vervolgkeuzefilters die het gemarkeerde filter &quot;Direct&quot; van het Kanaal van de Markt tonen. ](assets/dropdown-filter-intro.png)
 
 Een statisch vervolgkeuzemenu maken:
 
@@ -79,7 +79,7 @@ Een statisch vervolgkeuzemenu maken:
 
 Selecteer een van de opties in de vervolgkeuzelijst om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen filters in de deelvenstergegevens in te voeren door **[!UICONTROL No filter]**.
 
-![](assets/create-dropdown.png)
+![Het venster van het Comité met het Mobiele de segmentgebied van de Klant beschikbaar om een statische drop-down filter te laten vallen. ](assets/create-dropdown.png)
 
 Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volgende opties kiezen:
 
@@ -109,7 +109,7 @@ Als u met de rechtermuisknop op een dynamisch vervolgkeuzefilter klikt, hebt u d
 
 Aanvullende functionaliteit voor een deelvenster is beschikbaar door met de rechtermuisknop op de koptekst van het deelvenster te klikken.
 
-![](assets/right-click-menu.png)
+![Klik met de rechtermuisknop op opties voor een koptekst in een deelvenster.](assets/right-click-menu.png)
 
 De volgende instellingen zijn beschikbaar:
 

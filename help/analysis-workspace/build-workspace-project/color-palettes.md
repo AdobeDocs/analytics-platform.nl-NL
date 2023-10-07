@@ -3,9 +3,9 @@ description: Hoe u het palet met visualisatiekleuren wijzigt of uw eigen aangepa
 title: Kleurenpalet Visualisatie
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '212'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzi
 >
 >Ondersteuning van kleurenpaletten is niet ingeschakeld voor Internet Explorer 11.
 
-![](assets/color_palettes.png)
+![Het venster Projectinfo en -instellingen.](assets/color_palettes.png)
 
 Houd rekening met het volgende:
 
@@ -30,7 +30,7 @@ Houd rekening met het volgende:
 1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
 1. Van de **[!UICONTROL Project Color Palette]** in de vervolgkeuzelijst kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
 
-   ![](assets/custom_palette.png)
+   ![De vijf vooraf ingestelde kleurenschema&#39;s.](assets/custom_palette.png)
 
 1. Als u uw eigen palet wilt opgeven, selecteert u **[!UICONTROL Custom Palette]** onder de vooraf ingestelde opties.
 1. Geef maximaal 16 hexadecimale waarden met komma&#39;s als scheidingsteken op (bijvoorbeeld #00a4e4) voor de kleuren die u wilt gebruiken. Als u bijvoorbeeld slechts vier waarden wilt gebruiken, worden deze kleuren automatisch herhaald in visualisaties die meer kleuren bevatten.

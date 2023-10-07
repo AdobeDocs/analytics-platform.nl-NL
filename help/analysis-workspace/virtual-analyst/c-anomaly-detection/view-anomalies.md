@@ -1,12 +1,12 @@
 ---
-description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
-title: Anomalieën weergeven in Analysis Workspace
+description: Leer hoe u anomalieën in een tabel of in een lijndiagram bekijkt.
+title: Informatie over het weergeven van anomalieën in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 
 U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
-1. Selecteer het pictogram voor kolominstellingen in de kolomkop en zorg ervoor dat de [!UICONTROL **Anomalies**] wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Kolominstellingen](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Selecteer het pictogram voor kolominstellingen in de kolomkop en zorg ervoor dat de knop [!UICONTROL **Anomalies**] wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Kolominstellingen](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Klik buiten het instellingenmenu om de bijgewerkte tabel weer te geven.
 
-   ![](assets/anomaly_detected.png)
+   ![Een anomaliedetectiedetectie die 15% lager ligt dan verwacht.](assets/anomaly_detected.png)
 
 1. In de tabel worden als volgt anomen weergegeven:
 
@@ -46,7 +46,7 @@ Om anomalieën in een lijngrafiek te bekijken:
 
 1. Klik buiten het instellingenmenu om het bijgewerkte lijndiagram weer te geven.
 
-   ![](assets/anomaly_linechart.png)
+   ![Een lijngrafiek met een anomalie ontdekt bericht die op 15% hierboven verwacht wijst.](assets/anomaly_linechart.png)
 
    Anomalies worden als volgt in het lijndiagram weergegeven:
 

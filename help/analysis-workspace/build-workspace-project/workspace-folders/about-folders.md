@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Mappen in Analytics is een systeem voor mapbeheer dat wordt weergegeven op de Adobe Analytics-landingspagina en wanneer **Werkruimte** > **Projecten** is geselecteerd.
 
-De omslagen in Werkruimte helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Bovendien staat een gedeelde omslag van het Bedrijf beheerders toe om inhoud met alle gebruikers van de Werkruimte gemakkelijk tot stand te brengen en te delen.
+De omslagen in Werkruimte helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast kunnen beheerders met een gedeelde map in het bedrijf eenvoudig inhoud maken en delen met alle Workspace-gebruikers.
 
 Wanneer u een lange lijst van projecten hebt, heeft het navigeren aan een specifiek project zijn uitdagingen. Met de omslageigenschap, kunt u omslagen en subfolders tot stand brengen om uw projecten te beheren, die het gemakkelijker maken om projecten te vinden wanneer u hen nodig hebt.
 
-Workspace bevat twee typen mappen: de map van het bedrijf en persoonlijke mappen.
+Workspace bevat twee soorten mappen: de map Company en persoonlijke mappen.
 
 Wanneer u login aan Werkruimte, toont de homepage van Projecten een lijst van uw projecten samen met de omslag van het Bedrijf en om het even welke persoonlijke omslagen die u creeerde.
 
-![](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![De homepage van het project die van uw projecten en de omslag van het Bedrijf een lijst maakt.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## Informatie over de map Company {#company-folder}
 
@@ -36,13 +36,13 @@ Wanneer een gebruiker zich bij Workspace aanmeldt, wordt de map Company automati
 
 ### Beheeropties {#admin-options}
 
-Beheerders hebben speciale rechten toegewezen aan de map Company. Bijvoorbeeld, slechts kunnen Admins omslagen of projecten in de omslag van het Bedrijf toevoegen of verwijderen. De gebruikers zonder Admin-toegang kunnen de inhoud van de omslag van het Bedrijf bekijken.
+Beheerders hebben speciale rechten toegewezen aan de map Company. Bijvoorbeeld, slechts kunnen Admins omslagen of projecten in de omslag van het Bedrijf toevoegen of verwijderen. Gebruikers zonder beheerdersrechten kunnen de inhoud van de map Company weergeven.
 
-![](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![De pagina Projecten met de beheeropties.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 Niet-beheerders hebben beperkte opties.
 
-![](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![De pagina van Projecten die de niet-adminopties voor omslagen toont.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### Richtlijnen voor bedrijfsmappen {#company-folder-guidelines}
 
@@ -50,7 +50,7 @@ Niet-beheerders hebben beperkte opties.
 
 - Beheerders kunnen submappen maken in de map Company.
 
-- Beheerders kunnen een map in de map Company verwijderen die een andere beheerder heeft gemaakt. Beheerders moeten mogelijk coördineren met andere beheerders om de map en de toegang tot projecten consistent te houden.
+- Beheerders kunnen een map in de map Company verwijderen die een andere beheerder heeft gemaakt. Beheerders moeten mogelijk coördineren met andere beheerders om de map en de toegang tot het project consistent te houden.
 
 - Wanneer Admin een project naar de omslag van het Bedrijf verplaatst, wordt het project gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt.
 

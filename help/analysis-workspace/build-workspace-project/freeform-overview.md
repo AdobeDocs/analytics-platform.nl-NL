@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 3%
+source-wordcount: '1364'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ Met werkruimteprojecten kunt u gegevenscomponenten, tabellen en visualisaties co
 
 ## Projectlijst {#project-list}
 
-Wanneer je voor het eerst **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, bevat de pagina alle projecten die u hebt of hebt gedeeld. Dit is ook de landingspagina voor Adobe Analytics, tenzij u eerder een aangepaste bestemmingspagina hebt ingesteld.
+Wanneer je voor het eerst **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, bevat de pagina alle projecten die u hebt of die u hebt gedeeld. Dit is ook de landingspagina voor Adobe Analytics, tenzij u eerder een aangepaste bestemmingspagina hebt ingesteld.
 
-![](assets/sample-project.png)
+![De bestemmingspagina van het project die de projectlijst toont.](assets/sample-project.png)
 
 De pagina Projecten bevat de volgende informatie:
 
@@ -55,7 +55,7 @@ De pagina Projecten bevat de volgende informatie:
 
 Binnen een project, verstrekt het menu opties om uw project te beheren, componenten toe te voegen, hulp, en meer vinden. Elke menuoptie is ook toegankelijk via het toetsenbord [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
-![](assets/menu.png)
+![Nieuwe projectopties, zoals de opties Project, Bewerken, Invoegen, Componenten, Delen en Help.](assets/menu.png)
 
 | Menu-item | Beschrijving |
 |---|---|
@@ -71,7 +71,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** verstrekt project-vlakke informatie over het momenteel actieve project.
 
-![](assets/projectinfo.png)
+![Het venster Projectinfo en -instellingen.](assets/projectinfo.png)
 
 Voorbeelden van instellingen:
 
@@ -94,7 +94,7 @@ U hebt ook toegang tot visualisaties en deelvensters via de [Leeg deelvenster](/
 
 Componenten (Dimensionen, Metriek, Filters, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
 
-![](assets/left-rail.png)
+![De componenten met betrekking tot de actieve mening van paneelgegevens voor de mening van de Gegevens van de Onderbreking van de Industrie.](assets/left-rail.png)
 
 ## Projectcanvas {#canvas}
 
@@ -104,15 +104,15 @@ Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsp
 
 Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een van de volgende [vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of [leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) op het canvas om mee te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u weergegeven. [Meer informatie](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) over de verschillende opties voor het samenstellen van een tabel of het benutten van onze [trainingszelfstudie](/help/analysis-workspace/home.md) voor meer hulp bij het bouwen van uw eerste project.
 
-![](assets/canvas.png)
+![Een tabel met vrije vorm voor het project.](assets/canvas.png)
 
 ## Projectmanager {#manager}
 
-Analysis Workspace-projecten kunnen in het kader van **Analyse > Componenten > Projecten**. De projectmanager toont de punten die een specifieke gebruiker heeft gecreeerd. De eigendom van het project kan naar een nieuwe gebruiker worden overgedragen via Beheer > Gebruikers en middelen voor analyse > Middelen voor overdracht.
+Analysis Workspace-projecten kunnen in het kader van **Analyse > Componenten > Projecten**. De projectmanager toont de punten die een specifieke gebruiker creeerde. U kunt de eigendom van een project overdragen aan een nieuwe gebruiker via Beheer > Gebruikers en middelen voor analyse > Middelen overdragen.
 
 In Projectbeheer kunt u onder andere toevoegen, labelen, delen, dupliceren/kopiëren. Zoek naar een project in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, eigenaars, projecttype en meer.
 
-![](assets/project-manager.png)
+![Het de onderzoeksgebied van de Markeringen van het Projectbeheer en het het onderzoeksgebied van de Titel.](assets/project-manager.png)
 
 De volgende acties zijn algemene acties in de Projectmanager en kunnen worden uitgevoerd op een of meerdere projecten tegelijk:
 

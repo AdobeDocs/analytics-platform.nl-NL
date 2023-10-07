@@ -4,9 +4,9 @@ keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U kunt een read-only verbinding met de projecten van Analysis Workspace met mens
 
 Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md).
 
-## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
+## Een deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
 U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoals een deelvenster of een afzonderlijke visualisatie. Dit wordt soms ook wel intra-linking genoemd. Dit kan nuttig zijn om de aandacht van uw gebruikers op zeer belangrijke inzichten binnen het project te vestigen.
 
@@ -36,7 +36,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
 
-![](assets/get-viz-link.png)
+![Het vervolgkeuzemenu nadat u met de rechtermuisknop op de koptekst hebt geklikt met de koppeling Get visualization gemarkeerd.](assets/get-viz-link.png)
 
 ## Koppelingen in een inhoudsopgave gebruiken {#TOC}
 
@@ -44,4 +44,4 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) op hoe te om een inhoudstafel te construeren gebruikend verbindingen en de rijke tekstredacteur van de Werkruimte.
 
-![](assets/toc.png)
+![Een inhoudsopgave van een project.](assets/toc.png)

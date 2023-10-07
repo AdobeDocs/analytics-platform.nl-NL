@@ -4,9 +4,9 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende
 
 ## Standaardweergave
 
-![Standaardweergave](assets/mpts_default_view.png)
+![De tijd van het afspeelboek van Media besteedde standaardmening.](assets/mpts_default_view.png)
 
 ## Deelvensteruitvoer {#Output}
 
@@ -65,7 +65,7 @@ U kunt het deelvenster op elk gewenst moment bewerken en opnieuw samenstellen do
 
 Als u reeksindeling hebt geselecteerd, worden een regel in het lijndiagram en een samenvattingsnummer voor elke regel weergegeven:
 
-![media playback tijd bestede output](assets/mpts_outputs1.png)
+![De media playbacktijd bestede output die een lijngrafiek en een samenvatting toont.](assets/mpts_outputs1.png)
 
 ### Gegevensbron
 

@@ -3,10 +3,10 @@ description: Leer hoe u een project maakt in Analysis Workspace
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
+exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Voor algemene informatie over hoe u met Analysis Workspace aan de slag kunt gaan
 
 In de volgende secties wordt beschreven hoe u een project maakt en de belangrijkste bouwstenen toevoegt voor elk Analysis Workspace-project: deelvensters, visualisaties en componenten.
 
-## Beginnen met het maken van een project
+## Beginnen met maken van project
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Werkruimte**].
 
@@ -42,9 +42,9 @@ Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren ee
 
 Een deelvenster toevoegen:
 
-1. Selecteer [!UICONTROL **Deelvensters**] in de linkerspoorstaaf.
+1. Selecteer de [!UICONTROL **Deelvensters**] in de linkerspoorstaaf.
 
-   ![](assets/build-panels.png)
+   ![Het pictogram Deelvensters selecteren en de lijst met beschikbare deelvensters.](assets/build-panels.png)
 
 1. Zoek naar het paneel u wilt toevoegen. Wanneer het in het linkerspoor verschijnt, sleep het in uw project.
 
@@ -58,13 +58,13 @@ Een deelvenster toevoegen:
 
 >[!TIP]
 >
->De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de basis voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de basis voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 Een visualisatie toevoegen:
 
-1. Selecteer **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
+1. Selecteer de **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
 
-   ![](assets/build-visualizations.png)
+   ![Het geselecteerde pictogram Visualisaties en de lijst met beschikbare visualisaties.](assets/build-visualizations.png)
 
 1. Zoek naar de visualisatie u wilt toevoegen. Wanneer het in het linkerspoor verschijnt, sleep het aan een paneel binnen uw project.
 
@@ -80,9 +80,9 @@ Een visualisatie toevoegen:
 
 Een component toevoegen:
 
-1. Selecteer **[!UICONTROL Components]** in de linkerspoorstaaf.
+1. Selecteer de **[!UICONTROL Components]** in de linkerspoorstaaf.
 
-   ![](assets/build-components.png)
+   ![Het pictogram Geselecteerde componenten en de lijst met beschikbare afmetingen.](assets/build-components.png)
 
 1. Zoek naar de component u wilt toevoegen. Wanneer het in de linkerspoorstaaf verschijnt, sleep het aan een paneel of visualisatie binnen uw project.
 

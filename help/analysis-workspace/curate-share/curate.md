@@ -4,9 +4,9 @@ keywords: Analysis Workspace curation
 title: Cursieve projecten
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,13 @@ De componenten die in het project worden gebruikt zullen automatisch worden toeg
 
 De kromming kan ook vanaf worden toegepast [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
 
-![](assets/curation-field.png)
+![Het venster van Componenten van de Kromme die de componenten tonen in gebruik in het project.](assets/curation-field.png)
 
 ## Samengevoegde projectweergave
 
 Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen reeks componenten zien u hebt bepaald:
 
-![](assets/curate-project.png)
+![Een gedeeld beheerd project dat de componenten toont u bepaalde.](assets/curate-project.png)
 
 ## Projectcursus verwijderen
 
@@ -47,7 +47,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 In een beheerd project krijgt de ontvanger de mogelijkheid om **[!UICONTROL Show All]** in de linkerspoorstaaf. [!UICONTROL Show All] onthult verschillende reeksen componenten, afhankelijk van:
 
-* Het machtigingsniveau van de gebruiker (admin of non-admin)
+* Het machtigingsniveau van de gebruiker (beheerder of niet-beheerder)
 * Projectrol (eigenaar/editor of niet)
 * Type toegepaste kromming (op projectniveau)
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Projecten uit mappen verwijderen
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
@@ -25,19 +25,19 @@ U kunt projecten van één omslag naar een andere omslag verplaatsen die u creee
 
 1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![De opties voor ovaal.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Selecteren **Verplaatsen naar** en selecteer vervolgens een map waarnaar u het project wilt verplaatsen.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![Het venster Locatie selecteren.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. Klikken **Verplaatsen**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![Klik op Verplaatsen.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    Een toast bevestigt dat het project werd verplaatst.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![De bewegingsbevestiging. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## Een project verwijderen uit een projectmap {#delete-project-in-folder}
 
@@ -45,7 +45,7 @@ Wanneer u een project uit een omslag schrapt, wordt het project volledig geschra
 
 1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![De opties voor ovaal.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Selecteren **Verwijderen**.
 

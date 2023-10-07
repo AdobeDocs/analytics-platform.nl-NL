@@ -5,9 +5,9 @@ title: Gegevens van Customer Journey Analytics naar anderen verzenden per e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ Een bestand direct per e-mail naar ontvangers verzenden:
 1. (Optioneel) Voeg een beschrijving toe die u in de e-mail wilt opnemen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
 1. (Alleen voor klanten van het gezondheidsschild) Geef een wachtwoord op. Zie de sectie Wachtwoord-beschermt een gepland rapport.
-1. Klik op **[!UICONTROL Send Now]**.
 1. (Optioneel) Klik op **[!UICONTROL Show scheduling options]** om een leveringsschema op te geven.
+1. Klik op **[!UICONTROL Send Now]**.
 
-![Bestand nu verzenden](assets/send-file-no-scheduling-options.JPG)
+![Het venster Bestand verzenden en de knop Nu verzenden.](assets/send-file-no-scheduling-options.JPG)
 
 ## Bestand verzenden volgens schema {#schedule}
 
@@ -49,7 +49,7 @@ Een bestand volgens een terugkerend schema per e-mail naar ontvangers verzenden:
 1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
 1. Klik op **[!UICONTROL Send on schedule]**.
 
-![](assets/send-file.JPG)
+![Het venster Bestand verzenden en de planningsopties worden weergegeven om de instellingen voor Starten, Einden op datums en dagelijkse frequentie weer te geven.](assets/send-file.JPG)
 
 ## Geplande projectmanager {#manager}
 
@@ -98,7 +98,7 @@ Nadat uw bedrijf SKU van het Schild van de Gezondheidszorg heeft gekocht en voor
 
 * Wanneer een bestaand gepland project op het punt staat te worden verzonden. Het momenteel geplande project is uitgeschakeld totdat wachtwoordbeveiliging is ingesteld. De eigenaar van het geplande project ontvangt een e-mail met informatie over deze vereiste.
 
-![wachtwoordbeveiliging](assets/password.png)
+![Het bericht voor geplande projectvensters bewerken en wachtwoordversleuteling die aangeeft dat uw organisatie wachtwoordversleuteling nodig heeft.](assets/password.png)
 
 ### Wachtwoordvereisten
 
@@ -113,7 +113,7 @@ De wachtwoordvereisten voldoen aan de normen voor Adobe, waarbij minimaal 8 teke
 
 Voordat een project wordt gepland, ontvangt de eigenaar van het project een e-mail die hierop lijkt:
 
-![email](assets/email-password.png)
+![De e-mailmelding van de Customer Journey Analytics waarin wachtwoordversleuteling wordt aangegeven, is vereist voor uw organisatie.](assets/email-password.png)
 
 1. Meld u aan bij de Customer Journey Analytics.
 1. Selecteren **[!UICONTROL View Scheduled Project]**.

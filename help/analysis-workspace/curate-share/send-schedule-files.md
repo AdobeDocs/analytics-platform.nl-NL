@@ -1,18 +1,18 @@
 ---
-description: U kunt PDF/CSV-projecten aan ontvangers in uw organisatie beheren, delen en plannen.
+description: Meer informatie over de opties in het menu Werkruimte delen.
 title: Menu Delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: b36ba438a14f9fd257f2b6a38be7eb39baaa7d92
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '146'
 ht-degree: 7%
 
 ---
 
 # Menu Delen
 
-U kunt PDF/CSV-projecten aan ontvangers in uw organisatie binnen de werkruimte beheren, delen en plannen **Menu Delen**.
+U kunt PDF en CSV projecten aan ontvangers in uw organisatie binnen de Werkruimte leiden, delen en plannen **Menu Delen**.
 
 | Menuoptie | Beschrijving |
 |---|---|

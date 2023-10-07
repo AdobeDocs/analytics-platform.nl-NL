@@ -1,18 +1,18 @@
 ---
 title: Virtual Analyst
-description: Leer welke functies in Customer Journey Analytics bestaan uit Virtual Analyst.
+description: Meer informatie over de Virtual Analyst-functies in Customer Journey Analytics.
 feature: Anomaly Detection
 exl-id: 5fb6ac39-d09d-49f0-ae1f-13f223e20800
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
-# Virtuele analyse
+# Virtual Analyst
 
-Virtuele analist, een reeks functies die onderdeel zijn van Customer Journey Analytics, gebruikt voorspellende algoritmen en machinaal leren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
+Virtuele analist, een reeks functies die onderdeel zijn van de Customer Journey Analytics, gebruikt voorspellende algoritmen en machinaal leren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
 
 ## Functies {#features}
 

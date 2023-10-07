@@ -1,12 +1,12 @@
 ---
 title: Deelvenster Gemiddelde media - geluid
-description: Het deelvenster Mediagemiddelde - Minuut publiek in Analysis Workspace gebruiken en interpreteren.
+description: Het deelvenster Mediagemiddelde minuut in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1331'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ U kunt het deelvenster Medium Gemiddelde miniatuur publiek configureren met behu
 |---------|------------|
 | Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag. U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven. <br></br> Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Sleep een filter hier (of een andere component) | Net als andere deelvensters worden met deze instelling de selecties gefilterd op basis van filters die u hebt gemaakt. Dit is een goede manier om naar specifieke platforms, levende stromen, of andere gemeenschappelijke media segmenten te kijken. |
-| Metrisch berekenen voor | Met deze instelling kunt u kiezen of u het gemiddelde aantal minuten voor een bepaald gedeelte van de inhoud wilt weergeven door *specifieke inhoud* of als u het gemiddelde aantal minuten voor een bepaalde periode wilt zien, selecteert u *aangepaste tijdsperiode*. <br></br>Specifieke inhoud werkt alleen als de duur is bijgewerkt met behulp van classificaties. Als de duur niet beschikbaar is, of als u het gemiddelde minipubliek voor een tijdreeks met veelvoudige stukken van inhoud of inhoud zonder een specifieke toegewezen duur (zoals tijdens een levende stroom of een gebeurtenis) wilt bekijken, dan zou u de periode van de douanetijd moeten selecteren. Met deze instelling wijzigt u de workflow en de rapportuitvoer. |
+| Metrisch berekenen voor | Met deze instelling kunt u kiezen of u het gemiddelde aantal minuten voor een bepaald gedeelte van de inhoud wilt weergeven door *specifieke inhoud* of als u het gemiddelde aantal minuten voor een bepaalde periode wilt zien door *aangepaste tijdsperiode*. <br></br>Specifieke inhoud werkt alleen als de duur is bijgewerkt met behulp van classificaties. Als de duur niet beschikbaar is, of als u het gemiddelde minipubliek voor een tijdreeks met veelvoudige stukken van inhoud of inhoud zonder een specifieke toegewezen duur (zoals tijdens een levende stroom of een gebeurtenis) wilt bekijken, dan zou u de periode van de douanetijd moeten selecteren. Met deze instelling wijzigt u de workflow en de rapportuitvoer. |
 
 ### Specifieke inhoud
 
@@ -61,9 +61,9 @@ U kunt het deelvenster Medium Gemiddelde miniatuur publiek configureren met behu
 |---------|------------|
 | Granulariteit | De standaardgranulariteit is 5 minuten, maar u kunt elk van de granulariteiten kiezen die worden gebruikt als noemer voor de tijdreeks binnen de totale tijdsperiode die is geselecteerd in de kalenderselectie. Als u bijvoorbeeld 12:00 tot 12:30 pm met een granulariteit van 5 minuten selecteert, wordt het gemiddelde aantal minuten voor het hele half uur en zes rijen met het gemiddelde aantal minuten voor elke periode van 5 minuten geretourneerd. Deze rijen worden gebruikt als datapoints voor de grafiek van de tijdreeks. |
 | Inhoud filteren op (optioneel) | U kunt de specifieke inhoud filteren op basis van de gewenste weergave of de structuur van de gegevens. |
-| Tonen, seizoen, aflevering | Selecteren *Tonen, seizoen, aflevering* geeft de beschikbare weergaven weer in de vervolgkeuzelijst, die u kunt filteren via een zoekopdracht (of door de weergavenaam vanuit de linkerkolom te slepen en neer te zetten). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
+| Tonen, seizoen, aflevering | Selecteren *Tonen, seizoen, aflevering* geeft de beschikbare weergaven weer in de vervolgkeuzelijst, die u kunt filteren via een zoekopdracht (of door de naam van de show uit de linkerkolom te slepen). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer. |
 | Aangepaste dimensie | Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in de afmeting (facultatieve) daling te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering. |
-| Geen | U kunt *Geen* om alle videonamen over de gekozen tijdsperiode te tonen. |
+| Geen | U kunt *Geen* om alle videonamen te tonen over de tijdspanne u hebt gekozen. |
 
 ### Geavanceerde instellingen voor aangepaste tijdsperiode
 
@@ -82,7 +82,7 @@ Het deelvenster Mediagemiddelde Minuut publiek retourneert het volgende:
 
 Als u het deelvenster op elk gewenst moment wilt bewerken en opnieuw wilt samenstellen, klikt u op het potlood aan de rechterbovenzijde.
 
-![Standaardweergave](assets/specific-content-panel-output.png)
+![De standaardweergave van het deelvenster Gemiddeld aantal minuten.](assets/specific-content-panel-output.png)
 
 
 ### Specifieke inhoudsgegevensbron
@@ -99,7 +99,7 @@ Het deelvenster Mediagemiddelde Minuut publiek retourneert het totale gemiddelde
 
 Als u het deelvenster op elk gewenst moment wilt bewerken en opnieuw wilt samenstellen, klikt u op het potlood aan de rechterbovenzijde.
 
-![gelijktijdige viewer-uitvoer](assets/custom-time-period-panel-output.png)
+![In het deelvenster Gemiddeld aantal minuten publiek worden de gegevens voor de volledige selectie weergegeven.](assets/custom-time-period-panel-output.png)
 
 ### Gegevensbron aangepaste tijdsperiode
 

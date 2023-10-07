@@ -3,23 +3,23 @@ description: Leer hoe u de weergavedichtheid in Analysis Workspace kunt aanpasse
 title: Dichtheid weergeven
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '105'
+ht-degree: 3%
 
 ---
 
 # Dichtheid weergeven
 
-Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen.
+Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen.
 U hebt drie opties wanneer u de weergavedoniteit via keuzerondjes in- of uitschakelt:
 
 - **[!UICONTROL Compact]**: Dit is de versie met de meest versmalde weergave.
-- **[!UICONTROL Comfortable]**: Hierdoor blijft er iets meer opvulling over dan bij de compacte versie.
-- **[!UICONTROL Expanded]** (standaard): Dit is de weergave die u gebruikt in Workspace.
+- **[!UICONTROL Comfortable]**: Hierdoor blijft de opvulling iets hoger dan bij de compacte versie.
+- **[!UICONTROL Expanded]** (standaardwaarde): dit is de weergave die u gebruikt in Workspace.
 
-![](assets/view-density.png)
+![De compacte, compatibele en uitgebreide weergavedichtheid.](assets/view-density.png)
 
 De weergavedichtheid instellen:
 

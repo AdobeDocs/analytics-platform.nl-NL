@@ -1,12 +1,12 @@
 ---
-description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in Analysis Workspace.
+description: Meer informatie over de interactie met het toetsenbord, de sneltoetsen en de werking van de wijs-en-klik in Analysis Workspace.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Hotkeys (sneltoetsen)
+title: Werkruimtetoetsen gebruiken
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 378098861bde949a2224a9b8c6376aa7b5e8ec27
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '293'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse en democratisering.
 
-Opmerking: `CTRL` = Windows en `command` = Mac
+Opmerking: `CTRL` = Windows en `command` = MAC
 
 ## Navigatiehandelingen
 
@@ -24,7 +24,7 @@ Opmerking: `CTRL` = Windows en `command` = Mac
 | Nieuw project maken | ctrl (of cmd) + shift + p |
 | Bestaand project openen | ctrl (of cmd) + o |
 | Naar deelvenster Deelvensters | alt + shift + 1 |
-| Naar het deelvenster Visualisatie | alt + shift + 2 |
+| Ga naar het deelvenster Visualisatie | alt + shift + 2 |
 | Naar deelvenster Componenten | alt + shift + 3 |
 | Alle deelvensters samenvouwen/uitvouwen | alt + m |
 | Actief deelvenster samenvouwen/uitvouwen | alt + ctrl + m |
