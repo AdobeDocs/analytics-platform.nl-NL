@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2642'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Oktober 2023** | |
+| Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) functie. |
 | **September 2023** | |
 | Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |
 | Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) en [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) en voor de extra CSV-mogelijkheden die aan de [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) functie. |

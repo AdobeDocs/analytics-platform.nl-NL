@@ -3,14 +3,13 @@ title: Afgeleide velden
 description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schemagebieden en/of standaardcomponenten door een reeks beschikbare functies en functiesjablonen.
 solution: Customer Journey Analytics
 feature: Derived Fields
-exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f1935947fe0273e5cdd5752ab7a9c871b02c990d
+exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
+source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
 workflow-type: tm+mt
-source-wordcount: '4836'
+source-wordcount: '5185'
 ht-degree: 4%
 
 ---
-
 
 # Afgeleide velden
 
@@ -62,7 +61,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 | A | **Naam van regel** | Standaard is de regelnaam **Regel X** (X verwijst naar een volgnummer). Als u de naam van een regel wilt bewerken, selecteert u de naam en typt u de nieuwe naam, bijvoorbeeld `Query Parameter`. |
 | B | **Functienaam** | De geselecteerde functienaam voor de regel, bijvoorbeeld [!UICONTROL URL PARSE]. Wanneer de functie de laatste in de reeks functies is en de uiteindelijke uitvoerwaarden bepaalt, wordt de functienaam gevolgd door [!UICONTROL - FINAL OUTPUT]bijvoorbeeld [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>Als u een pop-up met meer informatie over de functie wilt weergeven, selecteert u ![Help-pictogram](assets/Smock_HelpOutline_18_N.svg). |
 | C | **Beschrijving van regel** | U kunt desgewenst een beschrijving aan een regel toevoegen.<br/>Selecteren ![Meer pictogram](assets/More.svg)selecteert u vervolgens **[!UICONTROL ** Beschrijving toevoegen **]** een beschrijving toevoegen of **[!UICONTROL ** Beschrijving bewerken **]** om een bestaande beschrijving te bewerken.<br/>Gebruik de editor om een beschrijving in te voeren. U kunt de werkbalk gebruiken om de tekst op te maken (met de stijlkiezer, vet, cursief, onderstrepen, rechts, links, gecentreerd, kleur, nummerlijst, opsommingslijst) en om koppelingen toe te voegen aan externe informatie. <br/>Klik buiten de editor om het bewerken van de beschrijving te voltooien. |
-| D | **Functiegebied** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. De vervolgkeuzelijst voor [!UICONTROL Field] of [!UICONTROL Value] geeft alle categorieën velden weer (regels, standaardvelden, velden) die beschikbaar zijn, op basis van het type invoer dat de functie verwacht. <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
+| D | **Functiegebied** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. De vervolgkeuzelijst voor [!UICONTROL Field] of [!UICONTROL Value] geeft alle categorieën velden weer (regels, standaardvelden, velden) die beschikbaar zijn, op basis van het type invoer dat de functie verwacht. U kunt ook een veld van de kiezer voor schema- en standaardvelden naar een veld of waarde slepen. Wanneer dat gesleepte gebied van een dataset van de Opzoekmachine voortkomt, wordt een functie van de Opzoeken automatisch opgenomen vóór de functie u bepaalt. <br/>Zie [Functieverwijzing](#function-reference) voor gedetailleerde informatie over elk van de ondersteunde functies. |
 
 {style="table-layout:auto"}
 
@@ -482,7 +481,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar wil een [!DNL Hotel Name] van 
 
 U definieert een `Hotel Name` afgeleid veld. U gebruikt de [!UICONTROL CLASSIFY] functie om een regel te definiëren waarin u waarden van de [!UICONTROL Hotel ID] veld en vervangen door nieuwe waarden.
 
-Als u oorspronkelijke waarden wilt opnemen die u niet hebt gedefinieerd als onderdeel van de waarden die u wilt classificeren (bijvoorbeeld Hotel ID AMS789), selecteert u **[!UICONTROL Show original values]**. Dit zorgt ervoor dat AMS789 deel zal uitmaken van de output voor het afgeleide gebied, ondanks dat die waarde niet wordt geclassificeerd.
+Als u oorspronkelijke waarden wilt opnemen die u niet hebt gedefinieerd als onderdeel van de waarden die u wilt classificeren (bijvoorbeeld Hotel ID AMS789), selecteert u **[!UICONTROL Show original values]**. Dit zorgt ervoor dat AMS789 deel uitmaakt van de uitvoer voor het afgeleide veld, ondanks dat die waarde niet wordt geclassificeerd.
 
 ![Screenshot van regel 1 van classificeren](assets/classify-1.png)
 
@@ -694,55 +693,54 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de [!UICO
 +++
 
 
-<!-- LOOKUP
+<!-- LOOKUP -->
 
-### Lookup
+### Opzoeken
 
-Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+De waarden van de opzoekopdracht die een gebied van een raadplegingsdataset gebruiken en keert een waarde op een nieuw afgeleid gebied of voor verdere regelverwerking terug.
 
 +++ Details
 
-## Specification {#lookup-io}
+## Specificatie {#lookup-io}
 
-| Input Data Type | Input | Included Operators | Limit | Output |
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Gegevensset</li></ul><li>[!UICONTROL Matching key]<ul><li>Regels</li><li>Velden</li></ul></li><li>Te retourneren waarden<ul><li>Regels</li><li>Velden</li></ul></li></ul> | <p>N.v.t.</p> | <p>3 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld of nieuwe waarde voor verdere verwerking in volgende regel</p> |
 
 {style="table-layout:auto"}
 
-## Use case {#lookup-uc}
+## Hoofdletters gebruiken {#lookup-uc}
 
-You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+U wilt de naam van de activiteit opzoeken met de activiteit-id die wordt verzameld wanneer uw klanten op een gepersonaliseerde banner klikken die via Adobe Target wordt weergegeven. U wilt een raadplegingsdataset met Analytics voor de activiteiten van het Doel (A4T) gebruiken die activiteitenids en activiteitennamen bevatten.
 
-### A4T lookup dataset {#lookup-uc-lookup}
+### Gegevensset voor opzoeken van A4T {#lookup-uc-lookup}
 
-| Activity Id | Activity Name |
+| Activiteits-id | Naam activiteit |
 |---|---|
-| 415851 | MVT Test Category Pages |
-| 415852 | Luma - Campaign Max 2022 |
-| 402922 | Home Page Banners |
+| 415851 | MVT-testcategoriepagina&#39;s |
+| 415852 | Luma - Campagne Max. 2022 |
+| 402922 | Banners startpagina |
 
 {style="table-layout:auto"}
 
-### Derived field {#lookup-uc-derivedfield}
+### Afgeleid veld {#lookup-uc-derivedfield}
 
-You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+U definieert een `Activity Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP] functie om een regel te definiëren voor het opzoeken van de waarde van de verzamelde gegevens, opgegeven in het dialoogvenster [!UICONTROL Field to apply lookup] field (bijvoorbeeld **[!DNL ActivityIdentifier]**). U selecteert de opzoekgegevensset in het menu [!UICONTROL Lookup dataset] list (bijvoorbeeld **[!DNL New CJA4T Activities]**). Vervolgens selecteert u het id-veld (bijvoorbeeld **[!DNL ActivityIdentifier]**) van de [!UICONTROL Matching key] en het veld dat moet worden geretourneerd uit de [!UICONTROL Values to return] list (bijvoorbeeld **[!DNL ActivityName]**).
 
-![Screenshot of the Lowercase rule](assets/lookup.png)
+![Schermafbeelding van de regel Kleine letters](assets/lookup.png)
 
-## More info
+## Meer informatie
 
-You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer, die reeds één of meerdere andere functies bevat.
 
-  1. Select **[!UICONTROL Schema fields]** from selector.
-  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
-  1. Select your lookup dataset and find the field you want to use for lookup.
-  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
-     ![Lookup drag](assets/lookup-drag.png) 
+1. Selecteren **[!UICONTROL Schema fields]** van kiezer.
+1. Selecteren ![Pictogram Schema-veld](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+1. Selecteer uw raadplegingsdataset en vind het gebied u voor raadpleging wilt gebruiken.
+1. Sleep het opzoekveld naar een van de beschikbare invoervelden voor een functie (bijvoorbeeld Als). Indien geldig, een blauw vakje, geëtiketteerd **[!UICONTROL + Add]**kunt u het veld neerzetten en automatisch een opzoekfunctie invoegen vóór de functie waarop u het opzoekveld hebt neergezet. De ingevoegde opzoekfunctie wordt automatisch gevuld met relevante waarden voor alle velden.
+   ![Opzoeken en slepen](assets/lookup-drag.png)
 
 +++
 
--->
 
 <!-- LOWERCASE -->
 
@@ -1069,7 +1067,7 @@ Hiermee wordt witruimte, speciale tekens of het aantal tekens vanaf het begin of
 
 ## Hoofdlettergebruik 1 {#trim-uc1}
 
-U verzamelt productgegevens, maar die bevatten verborgen spatietekens die worden gerapporteerd door fragmenten. U wilt alle overtollige witruimte gemakkelijk bijsnijden
+U verzamelt productgegevens, maar de gegevens bevatten verborgen spatietekens die fragmentrapporten bevatten. U wilt alle overtollige witruimte gemakkelijk bijsnijden
 
 ### Gegevens voor {#trim-uc1-databefore}
 
@@ -1259,4 +1257,3 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 - [Maken van het grootste deel van Uw Gegevens: Een kader voor het Gebruiken van Afgeleide Gebieden in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
 - [Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
-
