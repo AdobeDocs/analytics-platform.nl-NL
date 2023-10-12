@@ -3,9 +3,9 @@ title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
+source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Data preview] venster | Het datumbereik voor het publiek. |
    | [!UICONTROL Total people] | Een samenvattingsnummer van het totale aantal personen in dit publiek. Het kan maar liefst 20 miljoen mensen gaan. Als uw publiek meer dan 20 miljoen mensen telt, moet u de omvang van het publiek reduceren voordat u het publiek kunt publiceren. |
    | [!UICONTROL Audience size limit] | Toont hoe ver van de 20 miljoen grens dit publiek is. |
-   | [!UICONTROL Estimated audience return] | Deze instelling is handig als u klanten in dit publiek die terugkeren naar uw site opnieuw wilt richten. (Met andere woorden, die opnieuw in deze dataset worden gezien.) <p>Hier kunt u het tijdkader (volgende 7 dagen, volgende 2 weken, volgende maand) selecteren voor het geschatte aantal klanten dat kan terugkeren. |
+   | [!UICONTROL Estimated audience return] | Deze instelling is handig voor het opnieuw toewijzen van klanten in dit publiek die terugkeren naar uw site, mobiele app of ander kanaal (met andere woorden, die weer in deze dataset worden weergegeven). <p>Hier kunt u het tijdkader (volgende 7 dagen, volgende 2 weken, volgende maand) selecteren voor het geschatte aantal klanten dat kan terugkeren. |
    | [!UICONTROL Estimated to return] | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u van de drop-down lijst selecteerde. We kijken naar de historische waarde van de kroon voor dit publiek om dit getal te voorspellen. |
    | [!UICONTROL Preview metrics] | Met deze instelling kunt u naar specifieke maateenheden kijken om te zien of dit publiek een onevenredig grote bijdrage levert aan deze metrische waarde, zoals &#39;[!UICONTROL Revenue]&#39; of &#39;[!UICONTROL Average time on site]&quot;. Het geeft u het totale aantal metrisch, evenals het percentage van het totaal het vertegenwoordigt. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
    | [!UICONTROL Namespaces included] | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
