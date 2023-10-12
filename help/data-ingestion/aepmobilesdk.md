@@ -3,9 +3,10 @@ title: Gegevens verzamelen via de Adobe Experience Platform Mobile SDK
 description: Uitleggen hoe u gegevens in Customer Journey Analytics kunt opnemen via de Adobe Experience Platform Mobile SDK en het Edge Network
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 662e9645cdb4b67f364525167e5191a52c474864
+exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '3124'
+source-wordcount: '3138'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,11 @@ Hiervoor moet u:
 
 - **Implementeren en valideren**. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen en publiceer deze live in uw productieomgeving als alles is gevalideerd.
 
-- **Een verbinding instellen** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
+- **Een verbinding instellen** in de Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
 
-- **Een gegevensweergave instellen** in Customer Journey Analytics om de metriek en de afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
+- **Een gegevensweergave instellen** in Customer Journey Analytics om metriek en afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
 
-- **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties samen te stellen.
+- **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties te bouwen.
 
 >[!NOTE]
 >
@@ -52,28 +53,35 @@ Uw schema instellen:
 
 1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Schemas]** binnen [!UICONTROL DATA MANAGEMENT].
 
-2. Selecteren **[!UICONTROL Create schema]**. Selecteren **[!UICONTROL XDM ExperienceEvent]** in de lijst met opties.
+1. Selecteren **[!UICONTROL Create schema]**. .
+1. Selecteer in de stap Een klasse selecteren van de wizard Schema maken de optie **[!UICONTROL Experience Event]**.
 
-   ![Een schema maken](./assets/create-ee-schema.png)
+   ![Een schema maken](./assets/create-ee-schema-wizard-step-1.png)
 
    >[!INFO]
    >
    >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
 
+   Selecteren **[!UICONTROL Next]**.
 
-3. In de [!UICONTROL Untitled schema] scherm:
 
-   1. Voer een weergavenaam voor het schema in en (optioneel) een beschrijving.
+1. In de [!UICONTROL Name and review step] van de [!UICONTROL Create schema] wizard:
 
-      ![Geef uw schema een naam](./assets/name-schema.png)
+   1. Voer een **[!UICONTROL Schema display name]** voor uw schema en (optioneel) a **[!UICONTROL Description]**.
 
-   2. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
+      ![Geef uw schema een naam](./assets/create-ee-schema-wizard-step-2.png)
+
+   1. Selecteren **[!UICONTROL Finish]**.
+
+1. Op het tabblad Structuur van het voorbeeldschema:
+
+   1. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
 
       ![Veldgroep toevoegen](./assets/add-field-group-button.png)
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
-   3. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL AEP Mobile SDK ExperienceEvent]** veldgroep in de lijst.
+   1. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL AEP Mobile SDK ExperienceEvent]** veldgroep in de lijst.
 
       ![AEP Mobile Lifecycle Details fieldgroep](./assets/select-aepmobilesdk-experienceevent.png)
 
@@ -83,29 +91,29 @@ Uw schema instellen:
 
       Selecteren **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
-   4. Selecteren **[!UICONTROL Add field groups]**.
+   1. Selecteren **[!UICONTROL Add field groups]**.
 
-4. Selecteren **[!UICONTROL +]** naast de naam van het schema in het dialoogvenster [!UICONTROL Structure] deelvenster.
+1. Selecteren **[!UICONTROL +]** naast de naam van het schema in het dialoogvenster [!UICONTROL Structure] deelvenster.
 
    ![Voorbeeld: Veld toevoegen, knop](./assets/example-mobileschema-plus.png)
 
-5. In de [!UICONTROL Field Properties] paneel, enter `identification` als de [!UICONTROL Field name], **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group].
+1. In de [!UICONTROL Field Properties] paneel, enter `identification` als de [!UICONTROL Field name], **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group].
 
    ![Identificatieobject](./assets/identification-field-mobile.png)
 
-   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren met uw mobiele app aan de hand van de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
+   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren aan de hand van uw mobiele app met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
-6. Selecteer de **[!UICONTROL ecid]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** van de [!UICONTROL Identity namespace] in het rechterdeelvenster.
+1. Selecteer de **[!UICONTROL ecid]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** van de [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
    ![ECID opgeven als identiteit](./assets/specify-identity-mobile.png)
 
-   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aan elkaar koppelen).
+   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (aan te sluiten) met dezelfde ECID.
 
    Selecteren **[!UICONTROL Apply]**. U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
-7. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de lijst [!UICONTROL Field Properties] deelvenster.
+1. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de lijst [!UICONTROL Field Properties] deelvenster.
 
    ![E-mail opgeven als identiteit](./assets/specify-email-identity-mobile.png)
 
@@ -115,7 +123,7 @@ Uw schema instellen:
 
    Selecteren **[!UICONTROL Save]**.
 
-8. Selecteer het basiselement van uw schema dat de naam van het schema toont, dan selecteer **[!UICONTROL Profile]** switch.
+1. Selecteer het basiselement van uw schema dat de naam van het schema toont, dan selecteer **[!UICONTROL Profile]** switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
@@ -127,9 +135,9 @@ Uw schema instellen:
 
    ![Schema voor profiel inschakelen](./assets/enable-for-profile.png)
 
-9. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
+1. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
 
-U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw mobiele toepassing kunt vangen. In het schema kunnen profielen worden geïdentificeerd met de Experience Cloud-identiteit en het e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die zijn vastgelegd vanuit uw mobiele toepassing, worden toegevoegd aan het realtime-klantprofiel.
+U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw mobiele toepassing kunt vangen. Met het schema kunnen profielen worden geïdentificeerd aan de hand van de identiteit en het e-mailadres van het Experience Cloud. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die zijn vastgelegd vanuit uw mobiele toepassing, worden toegevoegd aan het realtime-klantprofiel.
 
 Naast gedragsgegevens kunt u ook profielkenmerkgegevens vastleggen vanuit uw mobiele toepassing (bijvoorbeeld gegevens over profielen die zijn geabonneerd op een nieuwsbrief).
 
@@ -244,7 +252,7 @@ Als u de nieuwe tag wilt configureren, selecteert u deze in de lijst met [!UICON
 
 #### **Extensies**
 
-Voeg de Adobe Platform Edge Network-extensie toe aan de tag om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom).
+Voeg de Adobe Platform Edge Network-extensie toe aan uw tag om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom).
 
 U kunt als volgt de extensie Adobe Experience Platform Mobile SDK maken en configureren:
 
@@ -421,7 +429,7 @@ Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren 
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new connection]**.
 
@@ -463,11 +471,11 @@ Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informati
 
 ## Een gegevensweergave instellen
 
-Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 Uw gegevensweergave maken:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new data view]**.
 
@@ -504,7 +512,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Projects]** in de linkernavigatie.
 
@@ -528,4 +536,4 @@ Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer info
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Edge Network en andere), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw mobiele app en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw gegevens voor pushmeldingen voor mobiele apps en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken. Ten slotte hebt u uw eerste project gemaakt waarmee u uw gegevens van uw mobiele app kunt visualiseren en analyseren.
+>U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Edge Network en andere), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw mobiele app en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om gegevens voor het bijhouden van pushmeldingen voor uw mobiele app en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken. Ten slotte hebt u uw eerste project gemaakt waarmee u uw gegevens van uw mobiele app kunt visualiseren en analyseren.

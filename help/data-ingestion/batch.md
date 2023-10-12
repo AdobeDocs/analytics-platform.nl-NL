@@ -1,12 +1,12 @@
 ---
 title: Batchgegevens invoegen en gebruiken
-description: Uitleggen hoe u batchgegevens in Customer Journey Analytics kunt opnemen en gebruiken
+description: Uitleggen hoe u batchgegevens in Customer Journey Analytics kunt innemen en gebruiken
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ Hiervoor moet u:
 
 - **Workflows gebruiken** om uw partijgegevens aan de dataset gemakkelijk te uploaden die in Adobe Experience Platform wordt gevormd.
 
-- **Een verbinding instellen** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
+- **Een verbinding instellen** in de Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
 
-- **Een gegevensweergave instellen** in Customer Journey Analytics om de metriek en de afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
+- **Een gegevensweergave instellen** in Customer Journey Analytics om metriek en afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
 
-- **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties samen te stellen.
+- **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties te bouwen.
 
 >[!NOTE]
 >
@@ -48,28 +48,35 @@ Uw schema instellen:
 
 1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Schemas]** binnen [!UICONTROL DATA MANAGEMENT].
 
-2. Selecteren **[!UICONTROL Create schema]**. Selecteren **[!UICONTROL XDM Individual Profile]** in de lijst met opties.
+1. Selecteren **[!UICONTROL Create schema]**. .
+1. Selecteer in de stap Een klasse selecteren van de wizard Schema maken de optie **[!UICONTROL Individual Profile]**.
 
-   ![Een schema maken](./assets/create-schema.png)
+   ![Een schema maken](./assets/create-pr-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals e-mail, status van loyaliteit, loyaliteitspunten). Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals paginaweergave, toevoegen aan winkelwagentje).
+   >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
+
+   Selecteren **[!UICONTROL Next]**.
 
 
-3. In de [!UICONTROL Untitled schema] scherm:
+1. In de [!UICONTROL Name and review step] van de [!UICONTROL Create schema] wizard:
 
-   1. Voer een weergavenaam voor het schema in en (optioneel) een beschrijving.
+   1. Voer een **[!UICONTROL Schema display name]** voor uw schema en (optioneel) a **[!UICONTROL Description]**.
 
-      ![Geef uw schema een naam](./assets/name-loyalty-schema.png)
+      ![Geef uw schema een naam](./assets/create-pr-schema-wizard-step-2.png)
 
-   2. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
+   1. Selecteren **[!UICONTROL Finish]**.
+
+1. Op het tabblad Structuur van het voorbeeldschema:
+
+   1. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
 
       ![Veldgroep toevoegen](./assets/add-field-group-button.png)
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
-   3. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL Loyalty Details]** veldgroep in de lijst.
+   1. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL Loyalty Details]** veldgroep in de lijst.
 
       ![AEP Web SDK ExperienceEvent-veldgroep](./assets/loyalty-fieldgroup.png)
 
@@ -79,13 +86,13 @@ Uw schema instellen:
 
       Selecteren **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
-   4. Selecteren **[!UICONTROL Add field groups]**.
+   1. Selecteren **[!UICONTROL Add field groups]**.
 
-4. Selecteren **[!UICONTROL +]** naast de naam van het schema in het dialoogvenster [!UICONTROL Structure] deelvenster.
+1. Selecteren **[!UICONTROL +]** naast de naam van het schema in het dialoogvenster [!UICONTROL Structure] deelvenster.
 
    ![Voorbeeld: Veld toevoegen, knop](./assets/example-loalty-schema-plus.png)
 
-5. In de [!UICONTROL Field Properties] paneel, enter `Identification` als naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL Profile Core v2]** als de [!UICONTROL Field Group].
+1. In de [!UICONTROL Field Properties] paneel, enter `Identification` als naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL Profile Core v2]** als de [!UICONTROL Field Group].
 
    ![Identificatieobject](./assets/identifcation-loyalty-field.png)
 
@@ -93,7 +100,7 @@ Uw schema instellen:
 
    Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
-6. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de [!UICONTROL Field Properties] deelvenster.
+1. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de [!UICONTROL Field Properties] deelvenster.
 
    ![E-mail opgeven als identiteit](./assets/specify-email-loyalty-id.png)
 
@@ -103,7 +110,7 @@ Uw schema instellen:
 
    Selecteren **[!UICONTROL Save]**.
 
-7. Selecteer het basisniveau van het schema (met de schemanaam), dan selecteer **[!UICONTROL Profile]** switch.
+1. Selecteer het basisniveau van het schema (met de schemanaam), dan selecteer **[!UICONTROL Profile]** switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
@@ -115,7 +122,7 @@ Uw schema instellen:
 
    ![Schema voor profiel inschakelen](./assets/enable-for-profile.png)
 
-8. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
+1. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
 
 U hebt een minimaal schema gemaakt dat de loyaliteitsgegevens modelleert die u in Adobe Experience Platform kunt invoeren. Met het schema kunnen profielen worden geïdentificeerd aan de hand van het e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat de gegevens van uw batchbestand worden toegevoegd aan het Real-Time Klantprofiel.
 
@@ -174,7 +181,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 Workflows gebruiken:
 
-1. Selecteer in de gebruikersinterface van het Platform de optie **[!UICONTROL Workflows]** in het linkerspoor.
+1. Selecteer in de interface Platform de optie **[!UICONTROL Workflows]** in het linkerspoor.
 
 2. Selecteren **[!UICONTROL Map CSV to XDM schema]**. Selecteren **[!UICONTROL Launch]**.
 
@@ -224,7 +231,7 @@ Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren 
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new connection]**.
 
@@ -266,11 +273,11 @@ Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informati
 
 ## Een gegevensweergave instellen
 
-Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 Uw gegevensweergave maken:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Create new data view]**.
 
@@ -307,7 +314,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer in de interface Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
+1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
 
 2. Selecteren **[!UICONTROL Projects]** in de linkernavigatie.
 
