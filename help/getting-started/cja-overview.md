@@ -4,7 +4,7 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace kunt g
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 0b8fb4007ecb71be2186b8a83f2026b2e296e8a7
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 4%
@@ -66,7 +66,7 @@ Zie de [Toegangsbeheer](/help/admin/cja-access-control.md) onderwerp.
 Verschillende functies in de Customer Journey Analytics hebben in vergelijking met de traditionele Adobe Analytics een andere naam gekregen om zich aan te passen aan de industrienormen. Enkele bijgewerkte terminologie:
 
 * Segmenten worden nu &#39;filters&#39; genoemd.
-* Virtuele rapportsets worden nu &#39;gegevensweergaven&#39; genoemd.
+* Virtuele rapportsuites worden nu &#39;gegevensweergaven&#39; genoemd.
 * Classificaties worden nu &#39;Gegevensbestanden opzoeken&#39; genoemd.
 * Klantkenmerken worden nu &#39;profielgegevenssets&#39; genoemd.
 * De containers van de greep zijn nu genoemd geworden &quot;Event&quot;containers.

@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 1%
@@ -44,6 +44,6 @@ Customer Journey Analytics en Adobe Analytics hebben een aantal gelijkenissen. Z
 * [Ondersteuning van Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md)
 * [Vergelijk terminologie voor de gegevens van de Analyse die door de bron van de Analyse schakelaar worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md)
 * [Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics rapportagefuncties](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)
-* [Virtuele rapportsuite, gegevensweergaven, Adobe Experience Platform-sandboxen en de bronconnector van Analytics](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
+* [Virtuele rapportsuites, gegevensweergaven, Adobe Experience Platform-sandboxen en de gegevensbronconnector van Analytics](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
 * [Verwerkingsregels, VISTA en classificaties versus Data Prep](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)
 * [STEUN, ECID, AACUSTOMID en de bronaansluiting voor Analytics](/help/getting-started/aa-vs-cja/aaid-ecid-adc.md)

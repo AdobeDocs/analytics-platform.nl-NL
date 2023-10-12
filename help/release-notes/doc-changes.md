@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bf1e14fc0ecfdab3ff7032133d05ab0f40f123d6
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 4%
@@ -20,7 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2023** | |
-| Vergelijking met Adobe Analytics | Een overzichtspagina toegevoegd als inleiding bij het vergelijken en begrijpen van de verschillen tussen Customer Journey Analytics en Adobe Analytics. |
+| Vergelijking met Adobe Analytics | Toegevoegde [overzichtspagina](../getting-started/aa-vs-cja/overview.md) als inleiding bij het vergelijken en begrijpen van de verschillen tussen Customer Journey Analytics en Adobe Analytics. |
 | Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) functie. |
 | **September 2023** | |
 | Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |

@@ -3,7 +3,7 @@ title: Vergelijking met Adobe Analytics
 description: Overzicht van hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Zie [Vergelijk terminologie voor de gegevens van de Analyse die door de bron van
 
 ## Virtuele rapportage-omgevingen en sandboxen
 
-Adobe Analytics heeft het concept Virtuele Reeksen van het Rapport, die u toestaat om uw verzamelde gegevens te segmenteren en toegang tot die gesegmenteerde gegevens te controleren.
+Adobe Analytics heeft het concept Virtuele rapportsuites, die u toestaat om uw verzamelde gegevens te segmenteren en toegang tot die gesegmenteerde gegevens te controleren.
 
 Customer Journey Analytics heeft een gelijkaardig concept, genoemd de meningen van Gegevens. Gegevensweergaven zijn containers waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Het biedt ultieme flexibiliteit om dimensies en metriek te specificeren en te vormen in voorbereiding op uw rapportering en analyse.
 
