@@ -4,7 +4,7 @@ description: Verklaar hoe te om gegevens in Customer Journey Analytics via het W
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '3283'
 ht-degree: 0%
@@ -54,15 +54,17 @@ Uw schema instellen:
 1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Schemas]** binnen [!UICONTROL DATA MANAGEMENT].
 
 1. Selecteren **[!UICONTROL Create schema]**. .
-1. Selecteer in de stap Een klasse selecteren van de wizard Schema maken de optie **[!UICONTROL Experience Event]**.
+1. In Uitgezocht een klassenstap van de Create schematovenaar:
 
-   ![Een schema maken](./assets/create-ee-schema-wizard-step-1.png)
+   1. Selecteren **[!UICONTROL Experience Event]**.
 
-   >[!INFO]
-   >
-   >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
+      ![Een schema maken](./assets/create-ee-schema-wizard-step-1.png)
 
-   Selecteren **[!UICONTROL Next]**.
+      >[!INFO]
+      >
+      >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
+
+   1. Selecteren **[!UICONTROL Next]**.
 
 
 1. In de [!UICONTROL Name and review step] van de [!UICONTROL Create schema] wizard:
