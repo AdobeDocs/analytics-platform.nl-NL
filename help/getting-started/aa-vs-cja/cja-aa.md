@@ -4,7 +4,7 @@ description: Customer Journey Analytics in vergelijking met Adobe Analytics-func
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 2%
@@ -42,8 +42,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | API-toegang rapporteren | Volledige ondersteuning; beschikbaar via de [Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
 | Segmenten | Volledige ondersteuning. Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet naar Customer Journey Analytics worden overgebracht. |
-| Virtuele rapportsuites | Volledige ondersteuning. Wordt nu aangeroepen [Gegevens weergeven](/help/data-views/create-dataview.md). |
-| Samengestelde cursus virtuele rapportsuite | Volledige ondersteuning. Deel nu van Gegevens. |
+| Virtuele rapportsuites | Volledige ondersteuning. Wordt nu aangeroepen [Gegevensweergaven](/help/data-views/create-dataview.md). |
+| Samengestelde cursus virtuele rapportsuite | Volledige ondersteuning. Nu onderdeel van gegevensweergaven. |
 | Streaming media-analyse | De mediagegevens zijn beschikbaar via de bronaansluiting Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
 
 {style="table-layout:auto"}
@@ -65,13 +65,13 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Geoosegmenteringsafmetingen | Alle GeoSegmentation/geography die in Adobe Analytics wordt verzameld stroomt in Customer Journey Analytics door [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Implementaties die de bronschakelaar van Analytics niet gebruiken, maar zich op het Web SDK van het Experience Platform voor digitale gegevensinzameling baseren, kunnen gebruiken [Experience Edge Geo Lookup Service](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html). |
 | IP obfuscatie | Voor klanten die van de Customer Journey Analytics de bronschakelaar van de Analyse gebruiken om gegevens van Adobe Analytics in Customer Journey Analytics te bevolken: IP de montages van de verwarring die in Adobe Analytics worden toegepast stromen door aan uw gegevens van de Customer Journey Analytics. U kunt deze instellingen desgewenst in Adobe Analytics beheren.<p>Voor klanten die van de Customer Journey Analytics SDK gebruiken van het Web van het Experience Platform om gegevens in Platform en Customer Journey Analytics direct te bevolken. U kunt Prep van Gegevens voor de Inzameling van Gegevens in Platform gebruiken om regels te vormen die het IP adres verduisteren dat op de vereisten van uw bedrijf wordt gebaseerd. |
 | Marketingkanalen | Wanneer het gebruiken van de bron van Analytics schakelaar, stromen de gegevens van Kanalen van de marketing in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Zie [Marketingkanalen voor Customers Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html) voor meer informatie . <br/>Voor implementaties WebSDK, rapport-tijd de verwerkingsregels van het marketingkanaal worden gesteund door [Afgeleide velden](../../data-views/derived-fields/derived-fields.md). |
-| Metrische deduplicatie | Nu gevormd op metriek binnen de Mening van Gegevens. De metrische deduplicatie gebeurt op het persoon of zittingsniveau eerder dan de Dataset, de Mening van Gegevens, of het niveau van de Verbinding. |
+| Metrische deduplicatie | Nu gevormd op metriek binnen de Mening van Gegevens. De metrische deduplicatie gebeurt op het persoon of zittingsniveau eerder dan de Dataset, de mening van Gegevens, of het niveau van de Verbinding. |
 | Nieuwe versus herhaalde sessierapportage | Vroeger verwezenlijkt gebruikend de dimensie van het Aantal van het Bezoek. Nieuwe sessies vs. herhalingssessies worden ondersteund [met een terugzoekvenster van 13 maanden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=en). |
 | Verwerkingsregels, VISTA-regels, regels voor verwerking van marketingkanalen | Ondersteund met Adobe Experience Platform Data Prep-functionaliteit voor zowel WebSDK-gegevenssets als gegevens van de gegevensbronconnector van Analytics. |
 | Variabele voor producten | Binnen het Experience Platform, kunnen de gebruikers een serie van voorwerpen binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen Customer Journey Analytics, kunnen de klanten om het even welk aantal productvariabelen gebruiken en zijn niet beperkt tot één enkele variabele zoals in Adobe Analytics. |
 | Projectdeling | Delen van projecten wordt alleen ondersteund door gebruikers van Customer Journey Analytics - er wordt geen project gedeeld tussen Customer Journey Analytics en de traditionele Analysis Workspace. |
 | Report Builder | Ondersteund met een nieuwe Office 365-insteekmodule voor Excel. |
-| Gebruikersmachtigingen/besturingselementen voor gegevenstoegang | Customer Journey Analytics maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, productprofielbeheerders en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave van gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filters of annotaties. |
+| Gebruikersmachtigingen/besturingselementen voor gegevenstoegang | Customer Journey Analytics maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, productprofielbeheerders en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filters of annotaties. |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
 
 {style="table-layout:auto"}
