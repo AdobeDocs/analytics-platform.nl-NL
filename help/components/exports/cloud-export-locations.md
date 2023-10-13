@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 3c1e256bb2197ed844d699e4a28076b014566b99
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1494'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,21 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 1. Selecteren [!UICONTROL **Opslaan**].
 
 1. U kunt nu gegevens van Analysis Workspace exporteren naar de account en locatie die u hebt geconfigureerd. Ga voor informatie over het exporteren van gegevens naar de cloud naar [Projectgegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
+
+1. De eenvoudigste manier om toegang te krijgen tot uw gegevens in de AEP Data Landing Zone is om de Microsoft Azure Storage Explorer te gebruiken. Dit is het zelfde hulpmiddel dat in de instructies wordt gebruikt om te vormen [AEP-rekening gegevenslandingszone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
+
+   1. Open de [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. Ga naar [!UICONTROL **Opslagaccounts**] > [!UICONTROL **(Bijgevoegde containers)**] > [!UICONTROL **Kloddercontainers**] > **[!UICONTROL cjaexport-_getal_]** > ***your_container_name***.
+
+      >[!NOTE]
+      >
+      >De mapnaam **[!UICONTROL cjaexport-_getal_]** Dit is de standaardnaam die wordt verschaft door Azure Storage Explorer. Als u slechts één verbinding verbonden met uw SAS URI (wat normaal is) hebt, dan zal de naam van deze omslag zijn **[!UICONTROL cjaexport-1]**.
+
+
+      ![Bestanden openen in Azure Storage Explorer](assets/azure-storage-explorer-access.png)
+
+   1. Selecteer de exportbewerking die u wilt downloaden en selecteer vervolgens [!UICONTROL **Downloaden**] om te downloaden.
 
 ### Amazon S3 Role ARN
 
