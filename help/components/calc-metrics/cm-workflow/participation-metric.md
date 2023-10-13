@@ -3,9 +3,9 @@ description: Met de Berekende Metrische bouwer, kan iedereen een participatie me
 title: Deelnemings-metrisch
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 6a9cae93011447fff0f74ca4ae15178e0a1f36aa
+source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ Dit type informatie kan handig zijn voor elke eigenaar van de inhoud.
 
 >[!NOTE]
 >
->De metriek met andere attributiemodellen, zoals Deelname, kan ook door beheerders als deel van a worden gecreeerd [gegevensweergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). In het onderstaande voorbeeld ziet u hoe gebruikers met toegang tot de berekende metrische builder in Workspace deze kunnen maken.
+>De metriek met andere attributiemodellen, zoals Deelname, kan ook door beheerders als deel van a worden gecreeerd [gegevensweergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). Zie [Instellingen van component Attributie](../../../data-views/component-settings/attribution.md) voor meer informatie .<br/>In het onderstaande voorbeeld ziet u hoe een metrische deelname kan worden gemaakt door elke gebruiker met toegang tot de berekende metrische builder in Workspace.
 
 
 1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-1. Geef in de builder Berekende metriek een naam voor de metrische ‘Deelname’ of iets dergelijks.
-1. Sleep metrisch die een succesgebeurtenis, bijvoorbeeld &quot;Orders&quot;bevatten, in het canvas van de Definitie.
+1. In de Berekende bouwer van metriek, noem metrisch `Participation` of iets dergelijks.
+1. Sleep metrisch die een succesgebeurtenis bevatten, bijvoorbeeld [!DNL Orders], in de [!UICONTROL Definition] canvas.
 1. Selecteren ![Tandwiel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor de metrische waarde.
 1. Selecteer in de pop-up die wordt weergegeven **[!UICONTROL Use a non-default attribution model]** om de [toewijzingsmodel](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) van die gebeurtenis **[!UICONTROL Participation]** en selecteert u **[!UICONTROL Session]** voor de [!UICONTROL Lookback window]. Selecteren **[!UICONTROL Apply]** ter bevestiging.
 
