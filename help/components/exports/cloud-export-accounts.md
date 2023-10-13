@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    ![Dialoogvenster AEP-gegevenslandingszone voor exportaccount](assets/export-account-aep.png)
 
-1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS-URI**] aan uw klembord.
+1. Kopieer de inhoud van het dialoogvenster [!UICONTROL **SAS-URI**] aan uw klembord. U gebruikt deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Data Landing Zone.
 
-   U gebruikt deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Data Landing Zone.
+   Als dit veld leeg is, moet u toestemming krijgen om toegang te krijgen tot Adobe Experience Platform.
 
 1. In Adobe Experience Platform configureert u de gegevenslandingszone-container zodanig dat de door u gekopieerde SAS-URI wordt gebruikt.
 
@@ -82,6 +82,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
       U kunt de in de secties beschreven taken overslaan [Haal de geloofsbrieven voor uw Gebied van Gegevens terug Landing](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) en [Referenties van gegevenslandingszone bijwerken](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials), omdat de URI die u hebt gekopieerd deze referenties bevat.
 
    1. Wanneer u de Adobe Experience Platform-documentatie volgt en naar de [!UICONTROL **SAS-URL blokcontainer**] plakken, plakt de SAS URI die u in Stap 3 kopieerde.
+
+      >[!NOTE]
+      >
+      >U moet deze actie om de 7 dagen uitvoeren, omdat de SAS URI 7 dagen na het creëren vervalt. U kunt een script maken om dit proces te automatiseren.
+
 
       ![SAS URL-veld](assets/blob-container-sas-uri.png)
 
