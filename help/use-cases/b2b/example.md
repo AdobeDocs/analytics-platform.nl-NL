@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
+source-git-commit: 7b90ce212b6964fde6bdf2d47b2c751330e4f399
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 2%
@@ -302,7 +302,7 @@ Met uw behoorlijk bepaalde componenten, kunt u specifieke B2B visualisaties in u
 
 Hieronder ziet u een voorbeeld van een Workspace-project dat is gebaseerd op de hierboven beschreven verbinding en gegevensweergave. Zie de beschrijvingen voor elke visualisatie voor meer informatie.
 
-+++ Details
++++ Project
 
 ![Visualisaties](assets/visualizations.png)
 
