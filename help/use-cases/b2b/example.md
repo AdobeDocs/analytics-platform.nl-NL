@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1492'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Zie [Gegevenssets toevoegen en configureren](../../connections/create-connection
 
 Om toegang tot relevante B2B afmetingen en metriek te hebben wanneer het bouwen van uw project van de Werkruimte, moet u uw gegevensmening dienovereenkomstig bepalen.
 
-In deze sectie worden aanbevelingen en suggesties gegeven over de dimensies en metriek die moeten worden meegenomen bij het definiëren van de [componenten](../../data-views/create-dataview.md#components) van uw gegevensweergave.
+In deze sectie worden aanbevelingen en suggesties gegeven over de dimensies en metriek die moeten worden meegenomen bij het definiëren van de [componenten](../../data-views/create-dataview.md#components) voor B2B-gegevenssets in uw gegevensweergave.
 
 Voor elke component, worden de naam, het schematype, het schemapad, en (indien van toepassing) details over de configuratie verstrekt.
 
