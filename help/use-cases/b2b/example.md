@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 7b90ce212b6964fde6bdf2d47b2c751330e4f399
+source-git-commit: ec2778396f5090fb2ce71a991aa7a7bcaa913762
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 2%
@@ -64,7 +64,7 @@ In de tabel *_organisationID*`.interaction.*`, verwijst naar de aangepaste veldg
 Zie [Gegevenssets toevoegen en configureren](../../connections/create-connection.md) voor meer informatie over hoe te om montages voor een dataset te vormen.
 
 
-## Gegevensweergaven
+## Gegevens, weergave
 
 Om toegang tot relevante B2B afmetingen en metriek te hebben wanneer het bouwen van uw project van de Werkruimte, moet u uw gegevensmening dienovereenkomstig bepalen.
 
@@ -300,9 +300,9 @@ The B2B Marketing List Member dataset contains member of marketing lists.
 
 Met uw behoorlijk bepaalde componenten, kunt u specifieke B2B visualisaties in uw project van de Werkruimte nu bouwen.
 
-Hieronder ziet u een voorbeeld van een Workspace-project dat is gebaseerd op de hierboven beschreven verbinding en gegevensweergave. Zie de beschrijvingen voor elke visualisatie voor meer informatie.
+Hieronder ziet u een voorbeeldproject dat afhankelijk is van de hierboven beschreven verbinding en gegevensweergave. Zie de beschrijvingen voor elke visualisatie voor meer informatie.
 
-+++ Project
++++ Voorbeeld van project
 
 ![Visualisaties](assets/visualizations.png)
 
