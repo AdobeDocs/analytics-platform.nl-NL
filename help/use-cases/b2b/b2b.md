@@ -1,17 +1,17 @@
 ---
-title: (B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset
+title: Gegevens op accountniveau toevoegen als een opzoekgegevensset
 description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdataset aan Customer Journey Analytics toe te voegen
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# (B2B) Gegevens op accountniveau toevoegen als een opzoekgegevensset
+# Gegevens op accountniveau toevoegen als een opzoekgegevensset
 
 In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven in plaats van op persoonlijke niveau voor analyse. Analyse op accountniveau kan vragen zoals
 
@@ -37,7 +37,7 @@ Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de li
 
 ## 2. Opzoekgegevensset maken (Experience Platform)
 
-Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in Experience Platform tot stand brengen. Deze raadplegingsdataset bevat account-vlakke marketing informatie, zoals: bedrijfsnaam, totaal aantal werknemers, domeinnaam, welke industrie zij tot behoren, jaarlijkse opbrengst, of zij huidige klanten van de Experience Platform zijn of niet, welke verkoopstadium zij binnen zijn, welk team binnen de rekening Customer Journey Analytics gebruikt, enz.
+Zodra het schema is gecreeerd, moet u een raadplegingsdataset van dat schema, in Experience Platform tot stand brengen. Deze raadplegingsdataset bevat account-vlakke marketing informatie, zoals: bedrijfsnaam, totaal aantal werknemers, domeinnaam, welke industrie zij tot behoren, jaarlijkse opbrengst, of zij huidige klanten van de Experience Platform of niet zijn, welke verkoopstadium zij binnen zijn, welk team binnen de rekening Customer Journey Analytics, enz. gebruikt.
 
 1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Management > Datasets]**.
 1. Klik op **[!UICONTROL + Create dataset]**.
@@ -55,13 +55,13 @@ Instructies over hoe [Een CSV-bestand toewijzen aan een XDM-schema](https://expe
 
 Het aan boord nemen van de gegevens en het bepalen van de raadpleging duurt ongeveer 2 tot 4 uur, afhankelijk van de grootte van de raadplegingstabel.
 
-## 4. Gegevensreeksen combineren in een verbinding (Customer Journey Analytics)
+## 4. Gegevensreeksen in een verbinding combineren (Customer Journey Analytics)
 
-Voor dit voorbeeld, combineren wij 3 datasets in één verbinding van Customer Journey Analytics:
+Voor dit voorbeeld, combineren wij 3 datasets in één verbinding van de Customer Journey Analytics:
 
 | Naam gegevensset | Beschrijving | Adobe Experience Platform Schema, klasse | Gegevens over gegevensset |
 | --- | --- | --- | --- |
-| B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | De `emailID` wordt gebruikt als primaire identiteit en toegewezen aan `Customer ID` naamruimte. Als gevolg hiervan wordt deze standaard weergegeven **[!UICONTROL Person ID]** in Customer Journey Analytics. ![Impressies](../assets/impressions-mixins.png) |
+| B2B-impressie | Bevat klikstroom, gebeurtenis-vlakke gegevens op het rekeningsniveau. Het bevat bijvoorbeeld de e-mail-id en de bijbehorende account-id en de marketingnaam voor marketingadvertenties. Het omvat ook de indrukkingen voor die advertenties, per gebruiker. | Gebaseerd op de XDM ExperienceEvent-schemaklasse | De `emailID` wordt gebruikt als primaire identiteit en toegewezen aan `Customer ID` naamruimte. Als gevolg hiervan wordt deze standaard weergegeven **[!UICONTROL Person ID]** in de Customer Journey Analytics. ![Impressies](../assets/impressions-mixins.png) |
 | B2B-profiel | Deze profieldataset vertelt u meer over de gebruikers in een rekening, zoals hun baantitel, tot welke rekening zij behoren, hun profiel van LinkedIn, etc. | Gebaseerd op de XDM-klasse Individueel profielschema | Selecteren `emailID` als primaire id in dit schema. |
 | B2B-info | Zie &quot;Opzoekgegevensset maken&quot; hierboven. | B2BAccount (aangepaste opzoekschema-klasse) | De relatie tussen `accountID` en de B2B dataset van de Indrukking is automatisch gecreeerd door de B2B dataset van Info met de B2B dataset van de Indrukking in Customer Journey Analytics te verbinden, zoals die in de hieronder stappen wordt beschreven. ![Opzoeken](../assets/lookup-mixins.png) |
 

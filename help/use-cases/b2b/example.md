@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ In de onderstaande tabel vindt u een voorbeeld van het [!UICONTROL Person ID], [
 
 In de tabel *_organisationID*`.interaction.*`, verwijst naar de aangepaste veldgroep die u aan het B2B-activiteitenschema hebt toegevoegd om de relatie met het B2B-account en het B2B-opportuniteitsschema te definiëren. De `listOperations.listKey.sourceKey` Verwijst naar Add aan de gebiedsgroep van de Lijst die aan het B2B schema van de Activiteit wordt toegevoegd om te volgen wanneer een persoon aan een specifieke lijst wordt toegevoegd.
 
-Zie [Gegevenssets toevoegen en configureren](../../connections/create-connection.md) voor meer informatie over hoe te om montages voor een datset te vormen.
+Zie [Gegevenssets toevoegen en configureren](../../connections/create-connection.md) voor meer informatie over hoe te om montages voor een dataset te vormen.
 
 
 ## Gegevensweergaven
@@ -70,16 +70,11 @@ Om toegang tot relevante B2B afmetingen en metriek te hebben wanneer het bouwen 
 
 In deze sectie worden aanbevelingen en suggesties gegeven over de dimensies en metriek die moeten worden meegenomen bij het definiëren van de [componenten](../../data-views/create-dataview.md#components) van uw gegevensweergave.
 
-Voor elke component, worden de naam, het schemapad, en (indien van toepassing) details over de configuratie verstrekt.
+Voor elke component, worden de naam, het schematype, het schemapad, en (indien van toepassing) details over de configuratie verstrekt.
 
++++ B2B-activiteitengegevensset
 
-### B2B-activiteitengegevensset
-
-Het B2B-activiteitengegevensbestand bevat de relevante ervaringsgebeurtenissen en is vereist als onderdeel van een verbinding.
-
-+++ Details
-
-#### Metrics
+### Metrics
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -111,7 +106,7 @@ Het B2B-activiteitengegevensbestand bevat de relevante ervaringsgebeurtenissen e
 {style="table-layout:auto"}
 
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -139,19 +134,15 @@ Het B2B-activiteitengegevensbestand bevat de relevante ervaringsgebeurtenissen e
 +++
 
 
-### B2B Gegevensset personen
-
-Het B2B-persoonlijke gegevensbestand bevat de relevante profielen.
-
-+++ Details
++++ B2B Gegevensset personen
 
 
-#### Metrics
+### Metrics
 
 Geen metrische componenten worden bepaald als deel van deze dataset.
 
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -160,15 +151,12 @@ Geen metrische componenten worden bepaald als deel van deze dataset.
 
 {style="table-layout:auto"}
 
-+++ Details
++++
 
-### B2B-opportuniteitsgegevensset
 
-De B2B-opportuniteitsdataset bevat de relevante mogelijkheden.
++++  B2B-opportuniteitsgegevensset
 
-+++ Details
-
-#### Metrics
+### Metrics
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -182,7 +170,7 @@ De B2B-opportuniteitsdataset bevat de relevante mogelijkheden.
 {style="table-layout:auto"}
 
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -199,13 +187,10 @@ De B2B-opportuniteitsdataset bevat de relevante mogelijkheden.
 
 +++
 
-### B2B-gegevensset campagne
 
-De B2B dataset van de Campagne bevat campagnegegevens.
++++ B2B-gegevensset campagne
 
-+++ Details
-
-#### Metrics
+### Metrics
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -214,7 +199,7 @@ De B2B dataset van de Campagne bevat campagnegegevens.
 {style="table-layout:auto"}
 
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -229,13 +214,10 @@ De B2B dataset van de Campagne bevat campagnegegevens.
 +++
 
 
-### B2B-rekeninggegevensset
 
-De gegevensset B2B-account bevat de accountgegevens.
++++ B2B-rekeninggegevensset
 
-+++ Details
-
-#### Metrics
+### Metrics
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -245,7 +227,7 @@ De gegevensset B2B-account bevat de accountgegevens.
 {style="table-layout:auto"}
 
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -265,13 +247,9 @@ De gegevensset B2B-account bevat de accountgegevens.
 +++
 
 
-### B2B Gegevensset Campagne-lid
++++ B2B Gegevensset Campagne-lid
 
-De gegevensset van het B2B-campagnerelid bevat de interacties van leden van campagnes.
-
-+++ Details
-
-#### Metrics
+### Metrics
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
@@ -284,7 +262,7 @@ De gegevensset van het B2B-campagnerelid bevat de interacties van leden van camp
 
 {style="table-layout:auto"}
 
-#### Dimensies
+### Dimensies
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
