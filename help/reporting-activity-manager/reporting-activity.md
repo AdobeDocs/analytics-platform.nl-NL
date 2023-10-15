@@ -3,9 +3,9 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: dba42bedd14c4c6d958feab9a1ebdc137d489f32
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,26 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    | UI-element | Beschrijving |
    | --- | --- |
-   | **[!UICONTROL connection]** | De verbinding waarvan het melden activiteit u controleert. |
-   | **[!UICONTROL Virtual report suites]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd in de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 virtuele rapportreeksen komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
-   | **[!UICONTROL Capacity utilization]** | Het percentage van de rapporteringscapaciteit van de rapportreeks die, in echt - tijd wordt gebruikt. <p>**Opmerking** Een gebruikscapaciteit die 100% is, suggereert niet noodzakelijk dat u onmiddellijk begint rapporteringsverzoeken te annuleren. De gebruikscapaciteit van 100% kan gezond zijn als de gemiddelde wachttijd redelijk is. Anderzijds zou 100% van de gebruikscapaciteit een probleem kunnen suggereren als het aantal verzoeken in de wachtrij ook toeneemt.</p> |
+   | **[!UICONTROL Connection]** | De verbinding waarvan het melden activiteit u controleert. |
+   | **[!UICONTROL Data Views]** | Hiermee worden alle gegevensweergaven weergegeven die in de verbinding worden ingevoerd. De meningen van gegevens voegen ingewikkeldheid aan het melden van verzoeken toe te schrijven aan extra niveaus van toegepast filtreren en segmentatie toe. Alle verzoeken die uit de gegevensmening komen worden gecombineerd in de verbinding.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 gegevensmeningen komen, is dat 50 verzoeken bij de verbinding. Op deze manier kun je snel de capaciteit raken. |
+   | **[!UICONTROL Capacity utilization]** | Het percentage van de rapporteringscapaciteit van de verbinding die, in real time wordt gebruikt. <p>**Opmerking** Een gebruikscapaciteit die 100% is, suggereert niet noodzakelijk dat u onmiddellijk begint rapporteringsverzoeken te annuleren. De gebruikscapaciteit van 100% kan gezond zijn als de gemiddelde wachttijd redelijk is. Anderzijds zou 100% van de gebruikscapaciteit een probleem kunnen suggereren als het aantal verzoeken in de wachtrij ook toeneemt.</p> |
    | **[!UICONTROL Queued requests]** | Het aantal verzoeken dat moet worden verwerkt. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | De gemiddelde wachttijd alvorens de verzoeken beginnen te verwerken. <!-- ???? --> |
-   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): de rapporten zijn in werking gesteld op de rapportreeks en het wordt gecontroleerd op activiteit.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn nooit rapporten uitgevoerd over de rapportsuite. Deze status wordt alleen weergegeven wanneer de rapportsuites voor het eerst worden gemaakt.</li></ul> |
+   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): Rapporten zijn uitgevoerd op de verbinding en worden gecontroleerd op activiteit.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn nooit rapporten uitgevoerd over de verbinding. Deze status wordt alleen weergegeven wanneer verbindingen voor het eerst worden gemaakt.</li></ul> |
 
    {style="table-layout:auto"}
 
-## Rapportactiviteiten weergeven voor één rapportsuite
+## Rapportactiviteiten voor één verbinding weergeven
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Gereedschappen**] > [!UICONTROL **Activity Manager rapporteren**].
 
-1. Selecteer de gekoppelde titel van de rapportsuite waarvan u de details wilt weergeven.
+1. Selecteer de gekoppelde titel van de verbinding waarvoor u details wilt weergeven.
 
-   De gegevens van de rapportactiviteit worden getoond voor de rapportreeks die u selecteerde.
+   Gegevens over de rapportactiviteit worden weergegeven voor de verbinding die u hebt geselecteerd.
 
-   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+   <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
-1. Gebruik de beschikbare grafieken en de lijst om rapporteringsactiviteit in de rapportreeks te begrijpen.
+1. Gebruik de beschikbare grafieken en de lijst om rapportactiviteit in de verbinding te begrijpen.
 
    * [Grafieken weergeven](#view-graphs)
 
@@ -69,13 +69,13 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
 ### Grafieken weergeven
 
-De volgende grafieken zijn beschikbaar om u te helpen de activiteit begrijpen die in de rapportreeks gebeurt.
+De volgende grafieken zijn beschikbaar om u te helpen de activiteit begrijpen die in de verbinding gebeurt.
 
 Als grafieken niet zichtbaar zijn, selecteert u de optie [!UICONTROL **Grafieken tonen**] knop.
 
 #### Gebruiksgrafiek {#utilization}
 
-De grafiek van het Gebruik toont rapporteringsgebruik voor de geselecteerde rapportreeks over de laatste 2 uren.
+De grafiek van het Gebruik toont rapporterend gebruik voor de geselecteerde verbinding in de laatste 2 uren.
 
 Houd de cursor boven het diagram om punten in de tijd te bekijken waar het percentage van de gebruikscapaciteit het hoogst was gedurende die minuut.
 
@@ -86,7 +86,7 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het perce
 
 #### Afzonderlijke gebruikersgrafiek
 
-In de grafiek Afzonderlijke gebruikers wordt de rapportactiviteit voor de geselecteerde rapportsuite gedurende de laatste twee uur weergegeven.
+In de grafiek Afzonderlijke gebruikers wordt de rapportactiviteit voor de geselecteerde verbinding gedurende de laatste twee uur weergegeven.
 
 Houd de cursor boven het diagram om punten in de tijd te bekijken waar het maximumaantal gebruikers het hoogst was gedurende die minuut.
 
@@ -97,7 +97,7 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het maxim
 
 #### Verzoeken om grafiek
 
-De grafiek van Verzoeken toont het aantal verwerkte en voltooide verzoeken voor de geselecteerde rapportreeks over de laatste twee uren.
+De grafiek van Verzoeken toont het aantal verwerkte en voltooide verzoeken voor de geselecteerde verbinding over de laatste twee uren.
 
 Houd de cursor boven het diagram om punten in de tijd weer te geven waar het maximale aantal aanvragen het hoogst was voor die minuut.
 
@@ -108,7 +108,7 @@ Houd de cursor boven het diagram om punten in de tijd weer te geven waar het max
 
 #### Grafiek in wachtrij
 
-De het Een rij vormen grafiek toont de gemiddelde rij wachttijd (in seconden) voor het melden van verzoeken voor de geselecteerde rapportreeks over de laatste 2 uren.
+De rij die grafiek toont de gemiddelde rij wacht tijd (in seconden) voor het melden van verzoeken om de geselecteerde verbinding over de laatste 2 uren.
 
 Houd de cursor boven het diagram om punten in de tijd te bekijken waar de maximale gemiddelde wachttijd het hoogst was voor die minuut.
 
@@ -158,7 +158,7 @@ Wanneer u [!UICONTROL **Gebruiker**] de volgende kolommen zijn beschikbaar in de
 | [!UICONTROL **Aantal verzoeken**] | Het aantal aanvragen dat door de gebruiker wordt geïnitieerd. |
 | [!UICONTROL **Aantal projecten**] | Het aantal projecten verbonden aan de gebruiker. <!-- ??? --> |
 | [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
-| [!UICONTROL **Gemiddelde complexiteit**] | De gemiddelde ingewikkeldheid van verzoeken die door de gebruiker in werking worden gesteld. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
+| [!UICONTROL **Gem-complexiteit**] | De gemiddelde ingewikkeldheid van verzoeken die door de gebruiker in werking worden gesteld. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
 | [!UICONTROL **Gem. maandgrenzen**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Gem. kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |
 | [!UICONTROL **Gem-segmenten**] | Het gemiddelde aantal segmenten dat wordt toegepast op de opgenomen aanvragen. Meer segmenten maken de aanvraag complexer. |
@@ -175,7 +175,7 @@ Wanneer u [!UICONTROL **Project**] de volgende kolommen zijn beschikbaar in de t
 | [!UICONTROL **Aantal verzoeken**] | Het aantal verzoeken verbonden aan het project. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan het project is gekoppeld. <!-- ??? --> |
 | [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
-| [!UICONTROL **Gemiddelde complexiteit**] | De gemiddelde complexiteit van aanvragen die in het project zijn opgenomen. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
+| [!UICONTROL **Gem-complexiteit**] | De gemiddelde complexiteit van aanvragen die in het project zijn opgenomen. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
 | [!UICONTROL **Gem. maandgrenzen**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Gem. kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |
 | [!UICONTROL **Gem-segmenten**] | Het gemiddelde aantal segmenten dat wordt toegepast op de opgenomen aanvragen. Meer segmenten maken de aanvraag complexer. |
@@ -192,7 +192,7 @@ Wanneer u [!UICONTROL **Toepassing**] de volgende kolommen zijn beschikbaar in d
 | [!UICONTROL **Aantal verzoeken**] | Het aantal aanvragen dat aan de toepassing is gekoppeld. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan de toepassing is gekoppeld. <!--???--> |
 | [!UICONTROL **Aantal projecten**] | Het aantal projecten verbonden aan de toepassing. <!--???--> |
-| [!UICONTROL **Gemiddelde complexiteit**] | De gemiddelde ingewikkeldheid van verzoeken verbonden aan de toepassing. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:<ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
+| [!UICONTROL **Gem-complexiteit**] | De gemiddelde ingewikkeldheid van verzoeken verbonden aan de toepassing. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:<ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
 | [!UICONTROL **Gem. maandgrenzen**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Gem. kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |
 | [!UICONTROL **Gem-segmenten**] | Het gemiddelde aantal segmenten dat wordt toegepast op de opgenomen aanvragen. Meer segmenten maken de aanvraag complexer. |
@@ -215,11 +215,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
 | [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL **Queries**] | The number of queries currently running. |
 | [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
 
 {style="table-layout:auto"}
 

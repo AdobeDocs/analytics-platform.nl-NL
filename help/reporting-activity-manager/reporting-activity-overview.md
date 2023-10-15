@@ -3,7 +3,7 @@ title: Overzicht van Activity Manager rapporteren
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 2%
@@ -29,6 +29,8 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 * Hiermee kunt u toekomstige aanvragen voor een bepaalde periode beperken. U kunt specifieke verzoeken beperken, of u kunt alle verzoeken van een specifieke gebruiker of verzoeken beperken die met een specifiek project worden geassocieerd.
 
 ## Toestemmingen
+
+<!-- update for CJA -->
 
 Voor het beheren van rapportageactiviteiten hebt u de toestemming van de productbeheerder voor Analytics in Adobe Admin Console nodig.
 

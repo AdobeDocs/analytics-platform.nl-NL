@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (oktober 2023)
 
-**Laatste update**: 4 oktober 2023
+**Laatste update**: 13 oktober 2023
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 4 oktober 2023 tot en met 24 oktober 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 

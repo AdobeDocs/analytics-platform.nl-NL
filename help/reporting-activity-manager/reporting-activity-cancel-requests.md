@@ -3,7 +3,7 @@ title: Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapp
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -132,6 +132,8 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
    In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Ga voor meer informatie over hoe dit in Analysis Workspace wordt weergegeven naar [Ervaring wanneer de gebruikers tot een geannuleerd rapport toegang hebben](#experience-when-users-access-a-cancelled-report).
 
 ## Ervaring wanneer de gebruikers tot een geannuleerd rapport toegang hebben
+
+<!-- Update for CJA and AA -->
 
 In Analysis Workspace, zien de gebruikers het volgende bericht wanneer zij proberen om tot een rapport toegang te hebben dat door een beheerder werd geannuleerd:
 

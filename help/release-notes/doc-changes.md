@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2874'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,9 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2023** | |
+| Volledige tabellen exporteren naar de cloud | Toegevoegde documentatie over het exporteren van volledige tabellen met miljoenen rijen in Workspace naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Werkruimte met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 oktober 2023 |
+| Activity Manager rapporteren | Toegevoegde documentatie voor de Manager van de Activiteit van de Rapportering. <p>De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke verbinding in uw organisatie zien. Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen.</p> <p>De volgende nieuwe artikelen zijn toegevoegd:<ul><li>[Overzicht van Activity Manager rapporteren](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[Rapportactiviteiten weergeven in de rapportagManager](/help/reporting-activity-manager/reporting-activity.md)</li><li>[Verzoeken annuleren in de Manager van de Activiteit van de Rapportering](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
+| Nieuwe kolommen op beheerpagina&#39;s | Gedocumenteerde nieuwe kolommen die nu beschikbaar zijn in de [Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) en de [Filterbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Vergelijking met Adobe Analytics | Toegevoegde [overzichtspagina](../getting-started/aa-vs-cja/overview.md) als inleiding bij het vergelijken en begrijpen van de verschillen tussen Customer Journey Analytics en Adobe Analytics. |
 | Functie voor aanvullende afgeleide velden | Bijgewerkte documentatie voor de nieuwe [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) functie. |
 | **September 2023** | |
