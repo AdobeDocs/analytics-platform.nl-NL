@@ -3,7 +3,7 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -171,7 +171,7 @@ Wanneer u [!UICONTROL **Project**] de volgende kolommen zijn beschikbaar in de t
 
 | Kolom | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Project**] | Het project waar de vragen werden geïnitieerd. |
+| [!UICONTROL **Project**] | Het project waar de verzoeken werden ingediend. |
 | [!UICONTROL **Aantal verzoeken**] | Het aantal verzoeken verbonden aan het project. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan het project is gekoppeld. <!-- ??? --> |
 | [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
@@ -188,7 +188,7 @@ Wanneer u [!UICONTROL **Toepassing**] de volgende kolommen zijn beschikbaar in d
 
 | Kolom | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Toepassing**] | De toepassing waar de query&#39;s zijn gestart. |
+| [!UICONTROL **Toepassing**] | De aanvraag waar de verzoeken zijn ingediend. |
 | [!UICONTROL **Aantal verzoeken**] | Het aantal aanvragen dat aan de toepassing is gekoppeld. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan de toepassing is gekoppeld. <!--???--> |
 | [!UICONTROL **Aantal projecten**] | Het aantal projecten verbonden aan de toepassing. <!--???--> |
@@ -198,29 +198,3 @@ Wanneer u [!UICONTROL **Toepassing**] de volgende kolommen zijn beschikbaar in d
 | [!UICONTROL **Gem-segmenten**] | Het gemiddelde aantal segmenten dat wordt toegepast op de opgenomen aanvragen. Meer segmenten maken de aanvraag complexer. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
-
-{style="table-layout:auto"}
-
--->
