@@ -1,9 +1,9 @@
 ---
 title: Adobe-oplossingen integreren met Customer Journey Analytics
-description: Leer hoe u gegevens van andere Adobe-oplossingen en -services kunt integreren.
+description: Leer hoe u gegevens van andere oplossingen en services voor Adobe kunt integreren.
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe-oplossingen integreren met Customer Journey Analytics
 
-Adobe biedt veel producten en oplossingen die gebruikmaken van gegevens die worden gehost op Adobe Experience Platform. U kunt deze handleidingen gebruiken om meer te weten te komen over de overkoepelende workflows om die gegevens in Analysis Workspace te krijgen en geavanceerde rapporten uit te voeren.
+Adobe biedt veel producten en oplossingen die gebruikmaken van gegevens die op Adobe Experience Platform worden gehost. U kunt deze handleidingen gebruiken om meer te weten te komen over de overkoepelende workflows om die gegevens in Analysis Workspace te krijgen en geavanceerde rapporten uit te voeren.
 
 De meeste workflows omvatten de volgende stappen:
 

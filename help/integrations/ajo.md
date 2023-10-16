@@ -1,9 +1,9 @@
 ---
-title: Adobe Journey Optimizer met Customer Journey Analytics integreren
-description: Neem gegevens in die door Adobe Journey Optimizer worden gegenereerd en analyseer deze met Analysis Workspace in Customer Journey Analytics.
+title: Adobe Journey Optimizer integreren met Customer Journey Analytics
+description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, in Customer Journey Analytics en analyseer deze met Analysis Workspace.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 1%
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # Adobe Journey Optimizer integreren met Adobe Customer Journey Analytics
 
-[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl) helpt u verbonden, contextafhankelijke en persoonlijke ervaringen te bieden. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
+[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl) helpt u verbonden, contextafhankelijke en gepersonaliseerde ervaringen te bieden. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
 
-U kunt gegevens die door Journey Optimizer zijn gegenereerd, importeren om een geavanceerde analyse uit te voeren in Customer Journey Analytics door de volgende stappen uit te voeren:
+U kunt door Journey Optimizer gegenereerde gegevens importeren om geavanceerde analyses in de Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
 
 ## Gegevens verzenden van Journey Optimizer naar Adobe Experience Platform
 
@@ -39,7 +39,7 @@ Selecteer en vorm de volgende datasets:
 
 ## De gegevensweergave configureren om de afmetingen en afmetingen van Journey Optimizer aan te passen
 
-Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](/help/data-views/create-dataview.md) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
+Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](/help/data-views/create-dataview.md) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
 >[!NOTE]
 >
@@ -61,10 +61,10 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 | Titel duwen | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.push.title` | Componenttype: Dimension |
 | E-mailonderwerp | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.email.subject` | Componenttype: Dimension |
 | Koppelingslabel | `_experience.customerJourneyManagement.`<br>`messageInteraction.label` | Componenttype: Dimension |
-| Naam experiment | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | Componenttype: Dimension<br>Contextlabels: Experimentatieexperiment |
-| Naam behandeling | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Componenttype: Dimension<br>Contextlabels: Experimentvariant |
+| Naam experiment | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | Componenttype: Dimension<br>Contextlabels: experimenteerprogramma |
+| Naam behandeling | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Componenttype: Dimension<br>Contextlabels: experimentele variabele |
 | Reden voor mislukte e-maillevering | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Componenttype: Dimension |
-| Reden voor uitsluiting van e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Componenttype: Dimension |
+| Reden voor uitsluiting van e-maillevering | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Componenttype: Dimension |
 | Elementlabel | `_experience.decisioning.propositionAction.label` | Componenttype: Dimension |
 
 {style="table-layout:auto"}
@@ -75,15 +75,15 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 
 | Metrisch | Beschrijving | Schema-element | Componentinstellingen |
 | --- | --- | --- | --- |
-| Bounces | Het aantal berichten dat is teruggedraaid, inclusief zowel directe stuitingen als stuitingen na levering. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Als aan bepaalde criteria is voldaan<br>Gelijk aan: `bounce`, is gelijk aan: `denylist` |
-| Stortingen na levering | Sommige e-mailservices melden de geleverde e-mailberichten en sturen deze later weer op. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `async` |
-| E-mailklikken | De telling van kliks binnen berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `click` |
-| E-mailopenen | Het aantal geopende berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `open` |
-| Fouten | Het aantal berichten dat uittrok. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `error` |
-| Exclusief | Het aantal uitgesloten berichten. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `exclude` |
-| Verzenden | Het aantal berichten dat e-mailproviders hebben geaccepteerd. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `sent` |
-| Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `spam_complaint` |
-| Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Waarden voor uitsluiten opnemen: Gelijk `unsubscribe` |
+| Bounces | Het aantal berichten dat is teruggedraaid, inclusief zowel directe stuitingen als stuitingen na levering. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Inclusief waarden voor uitsluiten: als aan een van de criteria wordt voldaan<br>Gelijk aan: `bounce`, is gelijk aan: `denylist` |
+| Stortingen na aflevering | Sommige e-mailservices melden de geleverde e-mailberichten en sturen deze later weer op. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `async` |
+| E-mailklikken | De telling van kliks binnen berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `click` |
+| E-mailopenen | Het aantal geopende berichten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `open` |
+| Fouten | Het aantal berichten dat uittrok. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `error` |
+| Exclusief | Het aantal uitgesloten berichten. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `exclude` |
+| Verzenden | Het aantal berichten dat e-mailproviders hebben geaccepteerd. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `sent` |
+| Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `spam_complaint` |
+| Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `unsubscribe` |
 | Rand verzendt | Het aantal tijden het randnetwerk verzendt een bericht naar of het Web of Mobiele SDK | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.send` |
 | Binnenkomende beeldschermen | Het aantal keer dat een Web- of InApp-bericht aan de gebruiker wordt getoond | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.display` |
 | Binnenkomende klikken | De telling van Web of InApp bericht klikt | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.interact` |

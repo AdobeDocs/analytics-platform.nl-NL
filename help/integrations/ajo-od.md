@@ -1,9 +1,9 @@
 ---
 title: Adobe Journey Optimizer-Beslissingsbeheer integreren met Adobe Customer Journey Analytics
-description: Neem gegevens die door Adobe Journey Optimizer Decision Management zijn gegenereerd, in Customer Journey Analytics op en analyseer deze met Analysis Workspace.
+description: Neem gegevens die door Adobe Journey Optimizer Decision Management zijn gegenereerd, in Customer Journey Analytics in en analyseer deze met Analysis Workspace.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Adobe Journey Optimizer [Beslissingsbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=en) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
-Beslissingsbeheer maakt deel uit van en is geïntegreerd met Adobe Journey Optimizer. Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in Adobe Journey Optimizer zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) ondersteuning.
+Beslissingsbeheer is onderdeel van en geïntegreerd met Adobe Journey Optimizer. Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in Adobe Journey Optimizer zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) ondersteuning.
 
-U kunt gegevens die door Beslissingsbeheer worden gegenereerd, importeren om een geavanceerde analyse in Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
+U kunt gegevens invoeren die door Beslissingsbeheer worden geproduceerd om geavanceerde analyse in Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
 
 ## Gegevens van Beslissingsbeheer naar Adobe Experience Platform verzenden
 
-Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen Besluitbeheer en Customer Journey Analytics. Gegevens van het besluitvormingsbeheer worden in Experience Platform verzameld **automatisch** of als onderdeel van **expliciet verzonden ervaringsgebeurtenissen** (bijvoorbeeld afbeeldingen of klikken). Zie [Aan de slag met gegevensverzameling](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) voor meer informatie .
+Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen besluitvormingsbeheer en Customer Journey Analytics. Gegevens van het besluitvormingsbeheer worden in Experience Platform verzameld **automatisch** of als onderdeel van **expliciet verzonden ervaringsgebeurtenissen** (bijvoorbeeld afbeeldingen of klikken). Zie [Aan de slag met gegevensverzameling](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) voor meer informatie .
 
 ## Verbinding maken
 
@@ -41,7 +41,7 @@ Selecteer en vorm de volgende datasets:
 
 ## Een gegevensweergave maken
 
-Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
+Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
 >[!NOTE]
 >
