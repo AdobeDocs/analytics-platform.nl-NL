@@ -4,9 +4,9 @@ description: Hiermee kunt u de standaardattributie voor een metrische waarde ins
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -28,21 +28,17 @@ In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeke
 
 U kunt een standaardattributiemodel voor bepaalde metrisch plaatsen door metrisch het plaatsen in de gegevensmening bij te werken. Als u dit doet, overschrijft u het attributiemodel van de maateenheid op elk moment dat het in Analysis Workspace wordt gebruikt.
 
-<!-- 
-
 >[!NOTE]
 >
->Consider the following when enabling attribution on a metric:
+>Houd rekening met het volgende wanneer u attributie op een metrische waarde inschakelt:
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **Wanneer het gebruiken van de component in een rapport met *één dimensie*:** De toewijzing van de component negeert het toewijzingsmodel wanneer een niet-standaard toewijzingsmodel wordt gebruikt.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **Wanneer het gebruiken van de component in een rapport met *meerdere dimensies*:** De toewijzing van de component behoudt het toewijzingsmodel wanneer een niet-standaard toewijzingsmodel wordt gebruikt.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Meerdere afmetingen zijn alleen beschikbaar als [gegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> Zie voor meer informatie over toewijzing [Instellingen voor persistentiecomponenten](/help/data-views/component-settings/persistence.md).
 
 Het standaardtoewijzingsmodel van een component bijwerken:
 

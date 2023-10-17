@@ -3,10 +3,10 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 18%
+source-wordcount: '754'
+ht-degree: 16%
 
 ---
 
@@ -56,21 +56,17 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 Hiermee kunt u de standaardkenmerkset overschrijven in [Gegevensweergaven](/help/data-views/component-settings/attribution.md).
 
-<!--
-
 >[!NOTE]
 >
->Consider the following when updating a component's attribution to a non-default attribution model:
+>Houd rekening met het volgende wanneer u de toewijzing van een component bijwerkt naar een niet-standaard toewijzingsmodel:
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **Wanneer het gebruiken van de component in een rapport met *één dimensie*:** De toewijzing van de component negeert het toewijzingsmodel wanneer een niet-standaard toewijzingsmodel wordt gebruikt.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **Wanneer het gebruiken van de component in een rapport met *meerdere dimensies*:** De toewijzing van de component behoudt het toewijzingsmodel wanneer een niet-standaard toewijzingsmodel wordt gebruikt.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Meerdere afmetingen zijn alleen beschikbaar als [gegevens exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> Zie voor meer informatie over toewijzing [Instellingen voor persistentiecomponenten](/help/data-views/component-settings/persistence.md).
 
 Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in een Analysis Workspace:
 

@@ -4,7 +4,7 @@ description: Customer Journey Analytics in vergelijking met Adobe Analytics-func
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 2%
@@ -60,6 +60,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Handelswijzigingsvariabele persistentie | Volledige ondersteuning via [afmetingen binden en metriek binden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | Klantkenmerken | Deze worden nu &quot;profielgegevenssets&quot; genoemd en worden niet automatisch geïmporteerd uit het Experience Cloud, maar moeten naar het Experience Platform worden geüpload voordat ze beschikbaar zijn in de Customer Journey Analytics. |
 | Gegevensfeeds | De uitvoer van gegevens van de eerste generatie van datasets is beschikbaar door [API voor gegevenstoegang van Experience Platforms](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) en via [Experience Platform Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Deze opties verstrekken gebeurtenis/rijniveau de uitvoer van alle gegevens die in het meer van Gegevens van het Experience Platform worden verzameld of worden opgenomen. Kolommen met gegevens na het proces zijn niet beschikbaar omdat postkolommen bij de query worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
+| Rapportage van Data Warehouse | [Customer Journey Analytics - volledige tabel exporteren](/help/analysis-workspace/export/export-cloud.md) is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet vandaag in Data Warehouse beschikbaar zijn. |
 | De ingangen, de Uitgangen, en de tijd bestede dimensies en metriek | Ondersteund (Ingangen en Uitgangen worden nu Sessiebegin en Sessieeinde genoemd) en worden op een iets andere manier berekend. |
 | Instellingen voor eVar-persistentie | eVars maken geen deel meer uit van de Customer Journey Analytics. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimensionen in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
 | Geoosegmenteringsafmetingen | Alle GeoSegmentation/geography die in Adobe Analytics wordt verzameld stroomt in Customer Journey Analytics door [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Implementaties die de bronschakelaar van Analytics niet gebruiken, maar zich op het Web SDK van het Experience Platform voor digitale gegevensinzameling baseren, kunnen gebruiken [Experience Edge Geo Lookup Service](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html). |
@@ -95,7 +96,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
 | Bijdrage-analyse | Er is steun gepland. |
-| Rapportage van Data Warehouse | Ondersteuning is gepland via de Analysis Workspace-interface. Adobe Experience Platform [[!UICONTROL Query Service]](<https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl>) verstrekt ook een interface voor deze gebruiksgevallen in Customer Journey Analytics. |
 | ID-stitatie met apparaatgrafiek | Er is steun gepland. |
 | Projectsjablonen | Er is steun gepland. |
 | Realtimerapportage | Er is steun gepland. |

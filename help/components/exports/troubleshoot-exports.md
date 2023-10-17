@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Problemen met mislukte exportbewerkingen oplossen
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Problemen met mislukte exportbewerkingen oplossen
-
-{{release-limited-testing}}
 
 Wanneer u [volledige tabellen exporteren van Analysis Workspace naar cloudinstellingen](/help/analysis-workspace/export/export-cloud.md)kunt u de status van deze exportbewerkingen bekijken vanuit de [Exporteren, tabblad](/help/components/exports/manage-exports.md) en van de [Tabblad Logs](/help/components/exports/manage-export-logs.md). Uit mislukte exportbewerkingen blijkt de status van [!UICONTROL **Mislukt**].
 

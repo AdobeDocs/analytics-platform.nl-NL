@@ -4,10 +4,10 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 7%
+source-wordcount: '816'
+ht-degree: 6%
 
 ---
 
@@ -20,15 +20,11 @@ ht-degree: 7%
 
 * **Toewijzing** Hiermee kunt u bepalen welke waarde wordt behouden wanneer meer dan één dimensie-item tegelijk in één kolom kan blijven bestaan.
 
-<!--
-
   >[!NOTE]
   >
-  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >Als u een [niet-standaard toewijzingsmodel](/help/data-views/component-settings/attribution.md) de reeks op metrisch in een rapport, het attributiemodel negeert de toewijzing u op de afmeting voor het zelfde rapport plaatst.
   >
-  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
-
--->
+  >Als u echter een [volledige tabelexport](/help/analysis-workspace/export/export-cloud.md) waarbij meerdere dimensies zijn inbegrepen, blijven de toewijzingsmodellen die op elke dimensie worden toegepast, behouden.
 
 * **Verlopen** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
 

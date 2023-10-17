@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Locaties en accounts voor cloudexport beheren
-
-{{release-limited-testing}}
 
 U kunt de exportlocaties van de cloud weergeven, bewerken en verwijderen.
 
