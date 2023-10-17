@@ -3,10 +3,10 @@ title: Overzicht van Activity Manager rapporteren
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,7 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 
 <!-- update for CJA -->
 
-Voor het beheren van rapportageactiviteiten hebt u de toestemming van de productbeheerder voor Analytics in Adobe Admin Console nodig.
-
-![machtiging](assets/rep-mgr-permission.png)
+Voor het beheer van de rapportactiviteiten hebt u de rol Productbeheerder nodig. Zie voor meer informatie [De rol Productbeheerder](/help/admin/cja-access-control.md#product-admin-role) in [Toegangsbeheer Customer Journey Analytics](/help/admin/cja-access-control.md).
 
 ## Rapportactiviteiten weergeven
 
@@ -43,11 +41,3 @@ Voor informatie over het bekijken van rapportactiviteit in de Manager van de Act
 ## Rapportageverzoeken annuleren
 
 Voor informatie over het annuleren van rapporteringsverzoeken in de Manager van de Activiteit van de Rapportering, zie [Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
-
-## Veelgestelde vragen {#faq}
-
-| Vraag | Antwoord |
-| --- | --- |
-| Kan ik extra rapporteringscapaciteit kopen? | Deze mogelijkheid zal in de nabije toekomst beschikbaar zijn. |
-
-{style="table-layout:auto"}

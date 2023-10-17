@@ -1,11 +1,11 @@
 ---
 title: Controlelogboeken
-description: Leer hoe u Customer Journey Analytics-auditlogs kunt weergeven en beheren.
+description: Leer hoe te om de controlelogboeken van de Customer Journey Analytics te bekijken en te beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inb
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over de **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Als u wilt weten hoe u individuele machtigingen voor functies van Customer Journey Analytics beheert, raadpleegt u de [toegangsbeheerdocumentatie](../admin/cja-access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor functies van Customers Journey Analytics de [toegangsbeheerdocumentatie](../admin/cja-access-control.md).
 
 ## Bekijk het controlelogboek in UI
 
@@ -48,7 +48,8 @@ De volgende items worden weergegeven:
    * MAKEN
    * DELETE
    * BEWERKEN
-   * EXPORTEREN
+   * EMBARGO
+   * EXPORT
    * ORG_CHANGE
    * VERNIEUWEN
    * DELEN
@@ -78,7 +79,7 @@ De volgende items worden weergegeven:
    * SCHEDULED_PROJECT
    * GEBRUIKER
    * USER_GROUP
-* **[!UICONTROL Component ID]**: De id van de component waarop de gebruiker actie heeft ondernomen.
+* **[!UICONTROL Component ID]**: De id van de component waarop de gebruiker actie heeft uitgevoerd.
 * **[!UICONTROL IMS Org ID]**: De IMS-id van de organisatie, in de vorm van `ABC123@AdobeOrg`.
 * **[!UICONTROL Log ID]**: Een unieke id die deze logbestandvermelding identificeert.
 * **[!UICONTROL User ID]**: De unieke id die de gebruiker identificeert die de handeling heeft uitgevoerd.
@@ -131,10 +132,10 @@ In de volgende tabel wordt aangegeven op welke handelingen componenttypen worden
 
 U kunt controlelogboeken in CSV of formaten downloaden JSON. Alle toegepaste filters of geselecteerde kolommen worden weergegeven in de gedownloade bestanden.
 
-1. Klikken **[!UICONTROL Download]** aan de rechterbovenhoek van het scherm.
+1. Klikken **[!UICONTROL Download]** rechtsboven in het scherm.
 1. Geef de indeling op.
 1. Klikken **[!UICONTROL Download]** opnieuw.
 
 ## De controlelogboeken beheren in de API
 
-Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie de [Customer Journey Analytics API-referentiedocument](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie .
+Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie de [Referentiedocument voor Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie .

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: d5a46c4ffbacb0e05a637ee9e19875572a2aebf4
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Productbeheerders hebben machtigingen om alle taken uit te voeren die nodig zijn
 * Verbindingen of gegevensweergaven maken/bijwerken/verwijderen
 * Werk/schrap projecten, filters, berekende metriek, publiek, annotaties of filters bij die door andere gebruikers worden gecreeerd
 * Werkruimteprojecten delen met alle gebruikers
+* Rapportactiviteiten beheren in het dialoogvenster [Activity Manager rapporteren](/help/reporting-activity-manager/reporting-activity-overview.md)
 
 Het alleen in de Customer Journey Analytics beheren van een product is niet voldoende om een [verbinding](/help/connections/overview.md). Om een verbinding aan een dataset van de Experience Platform tot stand te brengen, hebt u ook de toestemmingen van het Experience Platform nodig. U moet specifiek deel uitmaken van een **Productprofiel Experience Platform** dat u de volgende toestemmingen geeft:
 
