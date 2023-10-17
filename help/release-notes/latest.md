@@ -3,16 +3,16 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: 1482cc7b9da01b60e15d2e48b1156b603e20c6e3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '793'
 ht-degree: 4%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (oktober 2023)
 
-**Laatste update**: 13 oktober 2023
+**Laatste update**: 17 oktober 2023
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 4 oktober 2023 tot en met 24 oktober 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,6 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 4 oktober 2023 tot e
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **De tellingsmetriek van de rij voor raadpleging en profieldatasets** | Deze metriek was eerder beschikbaar slechts voor gebeurtenisdatasets. | 16 oktober 2023 |
 | **Volledige tabellen exporteren naar de cloud** | Met de Customer Journey Analytics Full Table Export kunt u miljoenen rijen in de werkruimte exporteren naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Werkruimte met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p> Exportopties voor cloud omvatten:</p><ul><li>Adobe Experience Platform Data Landing Zone</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 oktober 2023 | 19 oktober 2023 |
 | **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar in de [Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) en de [Filterbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) bij het beheren van componenten:<ul><li>Gebruikt in</li><li>Laatst gebruikt</li></ul>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt. | 23 september 2023 | 4 oktober 2023 |
 | **Adobe Analytics-projecten en alle inbegrepen onderdelen migreren naar Customer Journey Analytics** | U kunt nu uw Adobe Analytics-projecten migreren naar Customer Journey Analytics. Dit proces vereenvoudigt de overgang van Adobe Analytics naar Customer Journey Analytics. <p>Wanneer u projecten naar Customer Journey Analytics migreert, worden de activa in kaart gebracht van een het rapportreeks van Adobe Analytics aan een de gegevensmening van de Customer Journey Analytics.</p> <p>U migreert projecten aan Customer Journey Analytics van de interface van Adobe Analytics. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | N.v.t. | 9 oktober 2023 |
