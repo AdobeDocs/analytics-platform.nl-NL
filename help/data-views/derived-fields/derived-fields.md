@@ -4,9 +4,9 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
 workflow-type: tm+mt
-source-wordcount: '5185'
+source-wordcount: '5382'
 ht-degree: 4%
 
 ---
@@ -100,6 +100,22 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
    - Selecteren **[!UICONTROL ** Opslaan als **]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld met `(copy)` toegevoegd.
 
+U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek in de gegevensweergave:
+
+1. Selecteer de component. De component kan een andere naam hebben dan het afgeleide veld.
+
+1. Selecteer in het deelvenster Component de optie ![Pictogram Bewerken](assets/Smock_Edit_18_N.svg) naast het afgeleide veld, onder de veldnaam Schema.
+
+1. Als u het afgeleide veld wilt bewerken, gebruikt u de opdracht [!UICONTROL Edit derived field] interface. Zie [Afgeleide veldinterface](#derived-field-interface).
+
+   - Selecteren **[!UICONTROL ** Opslaan **]** om het bijgewerkte afgeleide veld op te slaan.
+
+   - Selecteren **[!UICONTROL ** Annuleren **]** om wijzigingen die u hebt aangebracht in het afgeleide veld te annuleren.
+
+   - Selecteren **[!UICONTROL ** Opslaan als **]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld met `(copy)` toegevoegd.
+
+
+
 ## Een afgeleid veld verwijderen
 
 1. Selecteer een bestaande gegevensweergave. Zie [Gegevensweergaven](../data-views.md) voor meer informatie .
@@ -112,7 +128,19 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
 5. Houd de cursor boven het afgeleide veld dat u wilt verwijderen en selecteer ![Pictogram Bewerken](assets/Smock_Edit_18_N.svg).
 
-6. In het gebruik **[!UICONTROL ** Afgeleid veld bewerken **]** -interface selecteert u Verwijderen.
+6. In de [!UICONTROL Edit derived field] interface, selecteren **[!UICONTROL Delete]**.
+
+   A [!UICONTROL Delete component] wordt u gevraagd de verwijdering te bevestigen. Overweeg om het even welke externe verwijzingen er aan het afgeleide gebied buiten de mening van Gegevens zouden kunnen bestaan.
+
+   - Selecteren **[!UICONTROL ** Doorgaan **]** om het afgeleide veld te verwijderen.
+
+U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek in de gegevensweergave:
+
+1. Selecteer de component. De component kan een andere naam hebben dan het afgeleide veld.
+
+1. Selecteer in het deelvenster Component de optie ![Pictogram Bewerken](assets/Smock_Edit_18_N.svg) naast het afgeleide veld, onder de veldnaam Schema.
+
+1. In de [!UICONTROL Edit derived field] interface, selecteren **[!UICONTROL Delete]**.
 
    A [!UICONTROL Delete component] wordt u gevraagd de verwijdering te bevestigen. Overweeg om het even welke externe verwijzingen er aan het afgeleide gebied buiten de mening van Gegevens zouden kunnen bestaan.
 
