@@ -3,7 +3,7 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 3c4f7bc66c21987cbbf0c00a5aec6c9df97b165a
+source-git-commit: 7760f2d5af131549b1ff2a6ad13b01bae81636f7
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 1%
