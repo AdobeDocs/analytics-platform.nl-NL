@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
+source-git-commit: f6c874a96278cf593174f5ee79557b3a711a23e3
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 24%
 
 ---
@@ -190,18 +190,20 @@ ht-degree: 24%
 
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
-   + Gevolgen {#impact}
-      + [Weergave opheffen](../guided-analysis/types/release.md)
-      + [Weergave voor eerste gebruik](../guided-analysis/types/first-use.md)
-   + Trechter {#funnel}
-      + [Wrijvingsweergave](../guided-analysis/types/friction.md)
-      + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
    + Groei van gebruikers {#user-growth}
       + [Actieve weergave](../guided-analysis/types/active.md)
       + [Netto-groeiweergave](../guided-analysis/types/net-growth.md)
    + Trends {#trends}
       + [Gebruiksweergave](../guided-analysis/types/usage.md)
       + [Frequentieweergave](../guided-analysis/types/frequency.md)
+   + Trechter {#funnel}
+      + [Wrijvingsweergave](../guided-analysis/types/friction.md)
+      + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
+   + Gevolgen {#impact}
+      + [Weergave opheffen](../guided-analysis/types/release.md)
+      + [Weergave voor eerste gebruik](../guided-analysis/types/first-use.md)
+   + Bewaren {#retention}
+      + [Bewaarpercentages](../guided-analysis/types/retention-rates.md)
    + [Industriële gebruiksgevallen](../guided-analysis/industry-use-cases.md)
    + [Veelgestelde vragen](../guided-analysis/faq.md)
 
