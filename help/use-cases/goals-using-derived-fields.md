@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 53cf026531ac5690a3e5a31acaa5654a52747b69
+source-git-commit: 69317871bae9ad2a0fecad6b1df1cc357094b05c
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ U wilt een maandelijks inkomstendoel voor elk van uw marketing kanalen plaatsen.
 
 ## Doelen gebruiken
 
-Om doelstellingen in uw project van de Werkruimte te gebruiken, gebruik de berekende metrische functionaliteit om het afgeleide gebied terug naar zijn originele statische waarde &quot;te normaliseren.
+Om doelstellingen in uw project van de Werkruimte te gebruiken, gebruikt u de berekende metrische functionaliteit om het afgeleide gebied terug naar zijn originele statische waarde &quot;te normaliseren. Deze normalisatie wordt vereist aangezien de statische waarden u voor de afgeleide gebieden die doelstellingen bepalen, met elke gebeurtenis worden verhoogd.
 
 ### Doelstellingen voor maandelijkse Cadeaubonnen
 
