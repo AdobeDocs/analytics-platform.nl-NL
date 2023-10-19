@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 1. Ga door met de onderstaande sectie die overeenkomt met de [!UICONTROL **Accounttype**] geselecteerd.
 
-   * [AEP gegevenslandingszone](#adobe-experience-platform)
+   * [AEP gegevenslandingszone](#aep-data-landing-zone)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 ## Locaties verwijderen
 
-Als u een locatie verwijdert, worden exportbewerkingen die gebruikmaken van de locatie ook verwijderd.
-
-Voordat u een locatie verwijdert, moet u eerst controleren of deze wordt gebruikt door exportbewerkingen. Daartoe selecteert u het informatiepictogram naast de naam van de locatie.
-
-![verbonden exporten](assets/location-connected-exports.png)
+Als u een locatie verwijdert, worden exportbewerkingen die gebruikmaken van de locatie ook verwijderd. Controleer het bevestigingsvenster bij het verwijderen om te controleren of er geen exportbewerkingen aan de locatie zijn gekoppeld.
 
 Een locatie verwijderen:
 
@@ -77,7 +73,15 @@ Een locatie verwijderen:
 
    ![Locaties bewerken](assets/locations-edit.png)
 
-1. Selecteren [!UICONTROL **Verwijderen**] selecteert u vervolgens [!UICONTROL **Verwijderen**] nogmaals in het bevestigingsvenster.
+1. Selecteren [!UICONTROL **Verwijderen**].
+
+   Het dialoogvenster Locatie verwijderen wordt weergegeven.
+
+1. Controleer in het dialoogvenster Locatie verwijderen of de locatie niet is gekoppeld aan een exportbewerking voordat u het verwijderen bevestigt.
+
+   ![Dialoogvenster Locatie bevestigen verwijderen](assets/delete-location-confirmation-dialog.png)
+
+1. Selecteren [!UICONTROL **Verwijderen**] nogmaals ter bevestiging.
 
 ## Accounts bewerken
 
@@ -85,7 +89,7 @@ Een locatie verwijderen:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-page.png)
+   ![Accounts-pagina](assets/account-add.png)
 
 1. Selecteren [!UICONTROL **Details weergeven**] op de account die u wilt bewerken.
 
@@ -101,7 +105,7 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-page.png)
+   ![Accounts-pagina](assets/account-add.png)
 
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Accountsleutels**].
 
@@ -111,7 +115,7 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-page.png)
+   ![Accounts-pagina](assets/account-add.png)
 
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Account verwijderen**].
 

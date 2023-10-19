@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Exportlogboeken beheren
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,26 @@ ht-degree: 0%
 In exportlogboeken vindt u details over elke exportbewerking. Deze logbestanden worden gegenereerd wanneer Analysis Workspace-gegevens naar de cloud worden geëxporteerd. (Voor informatie over hoe gegevens naar de cloud kunnen worden geëxporteerd, raadpleegt u [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md).)
 
 Voor geplande exportbewerkingen weerspiegelen logboeken de exportinstellingen zoals deze waren toen het logboek werd verzonden. Logbestanden kunnen niet worden verwijderd.
+
+## Exportlogboeken weergeven
+
+1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
+
+1. Selecteer de [!UICONTROL **Logboeken**] tab.
+
+   ![Tabblad Logboeken exporteren](assets/export-logs-tab.png)
+
+   De details voor elk logboek worden getoond in de beschikbare kolommen.
+
+1. Voer een van de volgende handelingen uit:
+
+   * [De kolommen aanpassen](#configure-columns) die worden weergegeven.
+
+   * Selecteer de **Informatiepictogram** ![Informatiepictogram](assets/information-icon.png) naast de logboeknaam om de uitvoer te bekijken die met het logboek wordt geassocieerd.
+
+   * Selecteer de **Exportpictogram bewerken** ![Informatiepictogram](assets/edit-export-icon.png) naast de logboeknaam om de uitvoer uit te geven die met het logboek wordt geassocieerd.
+
+     Voor meer informatie over het bewerken van een exportbewerking raadpleegt u [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md).
 
 ## Filteren en zoeken naar logbestanden
 
