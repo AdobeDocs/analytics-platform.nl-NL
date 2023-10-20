@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 hide: true
 hidefromtoc: true
-source-git-commit: ec0d57d0573b21767ed1703c9ddb1172e442e10a
+source-git-commit: 1cadf9d863c18f590a99e22d7b0e79b1074bf29f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ De volgende tijdsemmers tellen het aantal gebruikers die op of na die duur terug
 * Als een gebruiker slechts eenmaal in het gewenste datumbereik (de initiële service) aan de gebeurtenis deelneemt, worden deze alleen weergegeven in het duursegment &quot;Dag 0&quot;.
 * Als een gebruiker meerdere dagen na de eerste keer in aanmerking komt voor opname in de analyse, worden deze dagen weergegeven in het meest recente kwalificatieduur en in alle tijdssegmenten vóór de gebeurtenis. Dit type berekening wordt soms &quot;niet-begrensde retentie&quot; genoemd.
 * Als een gebruiker gedurende het geconfigureerde datumbereik meerdere keren met de gebeurtenis werkt, worden alleen de eerste en laatste gebeurtenissen in de analyse opgenomen.
+
+![Schermafbeelding met retentiesnelheden](../assets/retention-rates.png)
 
 ## Gebruik hoofdletters
 
