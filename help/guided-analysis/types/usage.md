@@ -1,12 +1,12 @@
 ---
 title: Gebruiksweergave
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
-exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
+source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Afhankelijk van het diagramtype wordt elke geselecteerde gebeurtenis weergegeven als een gekleurde lijn of een set balken. Aan de tabel wordt een rij toegevoegd die de trended-gebeurtenis vertegenwoordigt. U kunt maximaal vijf gebeurtenissen opnemen.
 * **[!UICONTROL People]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal lijnen in de grafiek en rijen in de lijst. U kunt maximaal vijf segmenten opnemen.
+* **[!UICONTROL Breakdown]**: Maak een aparte trendlijn per dimensie-item. Er wordt één afbraakdimensie ondersteund.
 
 ## Diagraminstellingen
 

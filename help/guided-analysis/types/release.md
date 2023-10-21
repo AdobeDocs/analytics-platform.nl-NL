@@ -3,9 +3,10 @@ title: Weergave opheffen
 description: Vergelijk de prestaties in gelijke perioden vóór en na de release.
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
+source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ De **[!UICONTROL Release]** de weergave toont een vergelijking van de manier waa
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Algemene prestatiebeoordeling:** Het vergelijken van algemene zeer belangrijke indicatoren, zoals betrokkenheidsmaatregelen, kan u helpen bepalen als een bepaalde versie over het geheel genomen succesvol was.
-* **Toezicht**: Als er bepaalde maatregelen zijn waarvan u verwacht dat ze vlak blijven wanneer er wijzigingen worden aangebracht, zoals webvitalen zoals laadtijd of logins, vergelijkt u deze voor en na de wijzigingen om ervoor te zorgen dat de release geen onbedoelde gevolgen heeft.
+* **Toezicht**: Zorg voor levensbelangrijke metriek die vlak moet blijven wanneer er wijzigingen worden aangebracht, zoals laadtijd of aantal logins. Gebruik dit analysetype om hen vóór en na een versie te vergelijken om ervoor te zorgen dat het geen onbedoelde gevolgen had.
 * **Aanpassing van functies**: Als een productupdate gericht is op het verbeteren van een bepaalde eigenschap, kunt u deze mening gebruiken om het gebruik van die eigenschap voor en na de productupdate direct te vergelijken.
 * **Bugdetectie**: Het volgen van het aantal fouten vóór en na een versie kan een vroege indicator van klantenkwesties verstrekken. Als u onmiddellijk na een release een toename van fouten opmerkt, kunt u samenwerken met ontwikkelingsteams of ontwikkelingsteams om het probleem te identificeren en te verhelpen, zodat de klant niet meer te lijden krijgt.
 
@@ -38,7 +39,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 De weergave Vrijgeven biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
 * **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], en [!UICONTROL Users].
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. U kunt onder andere Lijn kiezen.
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Line] en [!UICONTROL Bar].
 
 ## Datumbereik
 
