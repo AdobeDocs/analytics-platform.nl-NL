@@ -1,12 +1,12 @@
 ---
-description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
-title: Een stroomvisualisatie configureren
+description: Leer hoe u de stroomvisualisatie in een Workspace-project gebruikt.
+title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Stroomvisualisaties helpen u de reis te begrijpen die voortvloeit uit of leidt t
 
 Met stroomvisualisaties kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
 
-![Nieuwe Flow-interface](assets/new-flow.png)
+![Het de configuratiescherm van de Stroom die Begint met toont, bevat, en eindigt met gebieden.](assets/new-flow.png)
 
 ## Stroomvisualisatie maken {#configure}
 
@@ -45,11 +45,11 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
 
 1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL **Paden, Dimension**] om te gebruiken als het pad dat naar of van de geselecteerde component leidt, zoals u hier ziet. De standaardwaarde is [!UICONTROL **Pagina**].
 
-   ![schilderdimensie](assets/pathing-dim.png)
+   ![De dimensie Pathing.](assets/pathing-dim.png)
 
 1. (Optioneel) Selecteer **[!UICONTROL Show advanced settings]** om een van de volgende opties te configureren:
 
-   ![geavanceerde instellingen](assets/adv-settings.png)
+   ![Geavanceerde instellingen met weergaveopties, Aantal kolommen en Flow-container.](assets/adv-settings.png)
 
    | Instelling | Beschrijving |
    | --- | --- |
@@ -80,7 +80,7 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
 
 ## De stroomuitvoer weergeven en wijzigen {#output}
 
-![stroomuitvoer](assets/flow-output.png)
+![Voorbeeld van stroomuitvoer met Einden met bezoeken, Afmeting tekenen: Pagina- en Stroomcontainer: Vistors.](assets/flow-output.png)
 
 Een samenvatting van de configuratie van de Stroom verschijnt bij de bovenkant van het diagram. De paden in het diagram zijn proportioneel. Paden met meer activiteit lijken dikker.
 
@@ -90,7 +90,7 @@ Als u verder naar de gegevens wilt gaan, hebt u verschillende opties:
 
 * Wanneer u op een knoop in het diagram klikt, verschijnen de details voor die knoop. Klik nogmaals op het knooppunt om het samen te vouwen.
 
-  ![knooppuntdetails](assets/node-details.png)
+  ![Voorbeeld van een interactief stroomdiagram dat knooppuntdetails weergeeft.](assets/node-details.png)
 
 * U kunt een kolom filteren om alleen bepaalde resultaten weer te geven, zoals inclusief en exclusief, het opgeven van criteria enzovoort.
 
@@ -119,7 +119,7 @@ Boven elke kolom wordt een filter weergegeven wanneer u de muisaanwijzer op de k
 | [!UICONTROL Focus on this node] | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | [!UICONTROL Start over] | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
 | [!UICONTROL Create filter for this path] | Maak een filter. Dit neemt u in de Bouwer van de Filter, waar u de nieuwe filter kunt vormen. |
-| [!UICONTROL Breakdown] | Verdeel de knoop neer door beschikbare Dimension, Metriek, of Tijd. |
+| [!UICONTROL Breakdown] | Verdeel de knoop neer door beschikbare Dimensionen, Metriek, of Tijd. |
 | [!UICONTROL Filter column] | Dezelfde filteropties worden weergegeven als beschikbaar zijn in de tabel Vrije vorm. Zie voor meer informatie over de beschikbare opties de sectie &quot;Een eenvoudig of geavanceerd filter toepassen op een tabel&quot; in [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | [!UICONTROL Exclude item]/[!UICONTROL Restore excluded items] | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Als u het uitgesloten item wilt herstellen, klikt u nogmaals met de rechtermuisknop en selecteert u **[!UICONTROL Restore Excluded Item]**. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | [!UICONTROL Trend] | Creeer een trended diagram voor de knoop. |

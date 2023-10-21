@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Een rapport voor cohortanalyse configureren
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Een cohort maken en een [!UICONTROL Cohort Analysis] melden in Analysis Workspac
 
 1. Klik in Analysis Workspace op de knop **[!UICONTROL Visualizations]** pictogram in linkerspoor en sleep een **[!UICONTROL Cohort Table]** naar het canvas.
 
-   ![](assets/cohort-table.png)
+   ![Een voorbeeld van een cohortabel met daarin de criteria voor insluiting en retourcriteria.](assets/cohort-table.png)
 
 1. Definieer de **[!UICONTROL Inclusion Criteria]**, **[!UICONTROL Return Criteria]**, **[!UICONTROL Cohort Type]**, en **[!UICONTROL Settings]** zoals gedefinieerd in de onderstaande tabel.
 
@@ -37,7 +37,7 @@ Een cohort maken en een [!UICONTROL Cohort Analysis] melden in Analysis Workspac
 
 1. Klik op **[!UICONTROL Build]**.
 
-   ![Stap Resultaat](assets/cohort-report.png)
+   ![De mening van de Lijst van het cohort die geselecteerde Criteria van de Insluiting en Keurencriteria toont. Klik op Samenstellen.](assets/cohort-report.png)
 
    In het verslag worden personen vermeld die een bestelling hebben geplaatst ( *`Included`* en die bij volgende bezoeken naar uw site zijn teruggekeerd. De vermindering van bezoeken in tijd laat u toe om problemen te ontdekken en actie te ondernemen.
 1. (Optioneel) Maak een filter van een selectie.

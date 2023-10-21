@@ -4,9 +4,9 @@ keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fal
 title: Filters toepassen in falloutanalyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 >
 >Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een persoonlijk-context Fallout, moeten de filters die als controlepunten worden gebruikt bezoek of op gebeurtenis-gebaseerde filters zijn. Bij een &#39;visit-context&#39;-uitval moeten filters die als controlepunt worden gebruikt op gebeurtenissen gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er is een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
 
-* Een op personen gebaseerd filter gebruiken als aanraakpunt binnen een persoonlijk-context-uitvalvisualisatie
+* Een persoonlijk filter gebruiken als aanraakpunt binnen een persoonlijk-context-uitvalvisualisatie
 * Een persoonlijk filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie
 * Een op bezoek gebaseerd filter gebruiken als aanraakpunt binnen een visualisatie van de &quot;visit-context&quot;
 
@@ -27,11 +27,11 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 
 1. Maak een filter vanuit een specifiek aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create filter from touchpoint]**.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![Het vervolgkeuzemenu Aanraakpunt met Segment maken van aanraakpunt gemarkeerd.](assets/segment-from-touchpoint.png)
 
    De Filterbouwer wordt geopend en wordt vooraf gevuld met het vooraf gebouwde opeenvolgende filter dat overeenkomt met het geselecteerde aanraakpunt:
 
-   ![](assets/segment-builder.png)
+   ![De Bouwer van de Filter toont de pre-bevolkte en pre-gebouwde opeenvolgende filter.](assets/segment-builder.png)
 
 1. Geef het filter een titel en een beschrijving en sla het op.
 
@@ -41,7 +41,7 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 
 Als u bijvoorbeeld wilt zien hoe uw gebruikers in de VS zich ontwikkelen en de neerslag beïnvloeden, sleept u de gebruikers in de VS naar de uitval:
 
-![](assets/segment-touchpoint.png)
+![Het filter Gebruikers in de VS is geselecteerd en gemarkeerd en wordt naar de uitval gesleept.](assets/segment-touchpoint.png)
 
 U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikersfilter naar een ander controlepunt te slepen.
 
@@ -49,13 +49,13 @@ U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikersfilter naar 
 
 U kunt een onbeperkt aantal filters vergelijken in de Fallout-visualisatie.
 
-1. Selecteer de filters die u wilt vergelijken in het dialoogvenster [!UICONTROL Filter] spoorstaaf links. In ons voorbeeld hebben we twee filters geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de filters die u wilt vergelijken in het dialoogvenster [!UICONTROL Filter] spoorstaaf links. In ons voorbeeld hebben we twee filters geselecteerd: US Users en Non-US Users.
 1. Sleep ze naar de neerzetzone van het filter bovenaan.
 
-   ![](assets/segment-drop.png)
+   ![De uitvalweergave met geselecteerde filters en de rode pijl die naar de neerzetzone van het filter wijst.](assets/segment-drop.png)
 
-1. Optioneel: U kunt &quot;Alle Bezoekopdrachten&quot; als de standaardcontainer behouden of verwijderen.
+1. Optioneel: u kunt &quot;Alle bezoeken&quot; behouden als de standaardcontainer of deze verwijderen.
 
-   ![](assets/seg-compare.png)
+   ![De uitvalfunctie die alle bezoeken toont, samen met de twee filters die in de vorige stap zijn gesleept.](assets/seg-compare.png)
 
 1. U kunt nu de fallout vergelijken over de twee filters, zoals waar het ene filter het andere overtreft, of andere inzichten.

@@ -1,12 +1,12 @@
 ---
-description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
+description: Leer hoe u kolominstellingen kunt bewerken om kolomopmaak te configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 16%
+source-wordcount: '792'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Bekijk hier een video over rij- en kolominstellingen:
 
 Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het tandwielpictogram in de kolomkop.
 
-![](assets/column_settings.png)
+![De kolominstellingen tonen Totaal aantal cellen, Tabelcellen en Tabelcelvoorvertoning.](assets/column_settings.png)
 
 U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
 
@@ -42,7 +42,7 @@ U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel ee
 
 Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (kleuren, enz.) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
 
-![](assets/conditional-formatting.png)
+![De voorwaardelijke opmaakopties met Aangepast geselecteerd.](assets/conditional-formatting.png)
 
 | Element | Beschrijving |
 | --- | --- |
@@ -72,11 +72,11 @@ Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in een An
 
 1. Klik op het pictogram Instellingen (versnelling) op een metrische waarde in een kolom Tabel voor vrije vorm.
 
-   ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
+   ![De opties voor kolominstelling waarmee de optie Gegevensinstellingen wordt gemarkeerd: de niet-standaard toewijzingsmodus gebruiken.](assets/attribution-checkbox.png)
 
 2. Onder **[!UICONTROL Data Settings]**, controle **[!UICONTROL Use non-default attribution model]**. Zie voor meer informatie over verschillende toewijzingsmodellen [Attributiemodellen](/help/data-views/component-settings/attribution.md).
 
-   ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
+   ![De opties van het Model van de Attributie van de Kolom tonen Lineair geselecteerd.](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

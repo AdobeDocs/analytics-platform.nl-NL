@@ -1,12 +1,12 @@
 ---
-description: Met de functie Flow kunt u zien wat de klantenpaden zijn via uw websites en apps.
+description: In deze video ziet u hoe de functie Stroom de paden van klanten weergeeft via uw websites en apps.
 title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 4%
+source-wordcount: '202'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Hiermee kunt u:
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Filters maken door een specifiek punt in een gekozen pad aan te wijzen
 
-[Videozelfstudie voor stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[Videozelfstudie voor stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)4:56
 
 ## Inter-dimensionale stromen {#in}
 

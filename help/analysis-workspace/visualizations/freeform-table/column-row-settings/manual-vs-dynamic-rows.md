@@ -1,11 +1,11 @@
 ---
 title: Dynamische versus statische dimensie-items in vrije-vormtabellen
-description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan
+description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking staan
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Als u bijvoorbeeld de afmetingen Browsertype naar de tabel sleept, worden de bov
 Items voor dynamische afmetingen hebben de optie Rijfilter en de X-pictogrammen en doen dit **niet** hebben vergrendelingspictogram aanwezig. <!--do they have the lock icon? --> Wanneer u op de x naast een element met een dynamische dimensie klikt, wordt automatisch een filter toegepast. Zie voor meer informatie over het toepassen van filters op tabellen [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![](assets/dynamic-items.png)
+![Een vrije-vormlijst die het filterpictogram benadrukt.](assets/dynamic-items.png)
 
 ## Statische dimensie-items
 
-Statische dimensie-items veranderen niet met de tijd; het zijn vaste componenten die altijd worden geretourneerd in een vrije-vormtabel. De statische afmetingspunten worden geprefereerd wanneer u altijd het zelfde punt wilt analyseren, of het specifieke campagnes of specifieke dagen in de week zijn.
+De statische afmetingspunten veranderen niet met tijd; zij zijn vaste componenten die altijd in een vrije vormlijst zijn teruggekeerd. De statische afmetingspunten worden geprefereerd wanneer u altijd het zelfde punt wilt analyseren, of het specifieke campagnes of specifieke dagen in de week zijn.
 
 Wanneer u handmatig bepaalde componentwaarden (afmetingen, metrisch, filter, datumbereik) in een tabel selecteert en neerzet, bestaat het resultaat uit een statische lijst met rijen of kolommen. De statische afmetingspunten kunnen ook worden gecreeerd als u verkiest:
 
@@ -40,13 +40,13 @@ Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft
 
 Statische dimensie-items doen dit **niet** hebben de optie Rijfilter. In plaats daarvan worden op elk item de pictogrammen Vergrendelen en X weergegeven. Klik op het X-pictogram om dat dimensie-item uit de tabel te verwijderen.
 
-![](assets/static-items.png)
+![Een tabel met vrije vorm waarin het browsertype en de Microsoft-rij worden aangeduid met een slotpictogramopmerking: dit dimensielement is statisch en verandert niet met de tijd.](assets/static-items.png)
 
 ## Items met gemengde dimensies
 
-Items van het type Dimension van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat in de rijkop &quot;Gemengd Dimension&quot;. Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser dimensie van het Type en andere afmetingspunten van de Browser afmeting.
+Items van verschillende Dimensionen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat in de rijkop &quot;Gemengd Dimension&quot;. Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser dimensie van het Type en andere afmetingspunten van de Browser afmeting.
 
-![](assets/mixed-dimensions.png)
+![Een tabel voor vrije vorm die de kolom Gemengde Dimensionen markeert.](assets/mixed-dimensions.png)
 
 ## Totaal aantal rijen vrije vorm
 
