@@ -3,7 +3,7 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7760f2d5af131549b1ff2a6ad13b01bae81636f7
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 1%
@@ -11,8 +11,6 @@ ht-degree: 1%
 ---
 
 # Rapportactiviteiten weergeven in de rapportagManager
-
-{{release-limited-testing}}
 
 De [!UICONTROL Reporting Activity Manager] stelt beheerders in staat om problemen met de rapportcapaciteit tijdens piekrapportagetijden snel te diagnosticeren en op te lossen.
 

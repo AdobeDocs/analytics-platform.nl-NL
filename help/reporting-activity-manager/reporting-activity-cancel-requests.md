@@ -3,7 +3,7 @@ title: Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapp
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 1680e6115a75a0dd78f07aa0bb409b19b3585a78
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering
-
-{{release-limited-testing}}
 
 De [!UICONTROL Reporting Activity Manager] kunnen beheerders rapportageaanvragen snel diagnosticeren en annuleren om problemen met de rapportagecapaciteit tijdens piekrapportagetijden op te lossen.
 

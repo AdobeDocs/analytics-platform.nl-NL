@@ -3,7 +3,7 @@ title: Overzicht van Activity Manager rapporteren
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van Activity Manager rapporteren
-
-{{release-limited-testing}}
 
 De [!UICONTROL Reporting Activity Manager] is beschikbaar voor beheerders.
 
