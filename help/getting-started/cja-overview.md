@@ -4,9 +4,9 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace kunt g
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
+source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '937'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,7 @@ Van de Ingestie van Gegevens aan directe SQL toegang, zijn verscheidene componen
 
 * [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaard SQL om gegevens van Adobe Experience Platform op te halen, zoals de gegevens van de oplossing van de Adobe, klant 1st-party gegevens, of een andere gegevens van het Platform. Het is een server-zonder hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in rapportering, de Werkruimte van de Wetenschap van Gegevens, of voor opname in de Dienst van het Profiel te vangen. U kunt de Dienst van de Vraag van het Experience Platform gebruiken om gegevensanalysecosystemen te bouwen, die tot een beeld van consumenten over hun diverse interactiekanalen leiden. Deze kanalen zouden de systemen van het Punt-van-Verkoop, Web, Mobiel, systemen van CRM, etc. kunnen omvatten.
 * [Klantprofiel in real time](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
-* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl):
-* [Werkruimte voor gegevenswetenschap](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html) in &quot;developer&quot; (optie voor ontwikkelaars): u kunt in Adobe Experience Platform gebruik maken van vooraf gebouwde artificiële intelligentie (AI) en computerleermodellen om verschillende punten van de reis van de klant te beïnvloeden. Door verborgen inzichten te negeren, kunt u betere voorspellingen over de klantenreis maken, geadviseerde beste volgende stappen voorstellen, of lastige processen automatiseren.
+* [Identiteitsservice](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl)
 
 ## Video&#39;s
 
