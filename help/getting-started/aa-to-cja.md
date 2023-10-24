@@ -5,27 +5,27 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
+source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
 # Evolutie uit Adobe Analytics
 
-Naarmate uw organisatie evolueert naar het gebruik van Customer Journey Analytics, verkent u deze stappen om uw gegevens voor te bereiden en om bewust te worden van de kritieke verschillen tussen de twee technologieën. Dit artikel is gericht op een beheerdersgroep.
+Naarmate uw organisatie evolueert naar het gebruik van Customer Journey Analytics, verkent u deze stappen om uw gegevens voor te bereiden en bewust te worden van de kritieke verschillen tussen de twee technologieën. Dit artikel is gericht op een beheerdersgroep.
 
 ## Uw gegevens voorbereiden
 
-Het voorbereiden van uw Adobe Analytics-gegevens voor een naadloze overgang naar Customer Journey Analytics is van essentieel belang voor de gegevensintegriteit en de consistentie van rapporten.
+Het voorbereiden van uw Adobe Analytics-gegevens voor een naadloze overgang naar de Customer Journey Analytics is van essentieel belang voor de gegevensintegriteit en de consistentie van de rapportage.
 
 ### 1. Identiteiten verzamelen {#identities}
 
 Misschien de meest kritieke component van het begrip van een klantenreis is het weten van wie de klant bij elke stap is. Voor Customer Journey Analytics, staat het hebben van een herkenningsteken dat over al uw kanalen en de overeenkomstige gegevens bestaat voor het verbinden van veelvoudige bronnen samen binnen Customer Journey Analytics toe.
 Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn. Ongeacht de identiteit (en er kunnen meerdere zijn), moet u rekening houden met het volgende voor elke id:
 
-* Id bestaat of kan worden toegevoegd aan alle gegevensbronnen die u in Customer Journey Analytics wilt brengen
+* ID bestaat of kan aan alle gegevensbronnen worden toegevoegd u in Customer Journey Analytics wilt brengen
 * ID is gevuld op elke rij gegevens
 * ID bevat geen PII. Pas hashing op om het even wat toe die gevoelig zou kunnen zijn.
 * ID gebruikt dezelfde indeling voor alle bronnen (dezelfde lengte, dezelfde hash-methode, enz.)
@@ -36,9 +36,9 @@ In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegev
 
 De eenvoudigste manier om Adobe Analytics-gegevens om te zetten in Customer Journey Analytics-gegevens is om een [algemene rapportsuite](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html) in Experience Platform met de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een schema XDM en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
 
-Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u veelvoudige rapportreeksen in Customer Journey Analytics wilt brengen, hebt u twee opties:
+Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u van plan bent om veelvoudige rapportsuites in Customer Journey Analytics te brengen, hebt u twee opties:
 
-* Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. EVar 1 in rapportsuite 1 verwijst bijvoorbeeld naar [!UICONTROL Page]. In rapportsuite 2 kan eVar1 verwijzen naar [!UICONTROL Internal Campaign]. Wanneer deze variabelen in Customer Journey Analytics worden opgenomen, zullen ze zich in één enkele eVar1-dimensie mengen, wat kan leiden tot verwarrende en onjuiste rapportage.
+* Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. EVar1 in rapportsuite 1 verwijst bijvoorbeeld naar [!UICONTROL Page]. In rapportsuite 2 kan eVar1 verwijzen naar [!UICONTROL Internal Campaign]. Wanneer deze variabelen in de Customer Journey Analytics worden gebracht, zullen ze zich in één enkele dimensie eVar1 mengen, wat tot potentieel verwarrende en onnauwkeurige rapportering zal leiden.
 
 * Gebruik de [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) functie voor het toewijzen van variabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u het nieuwe Experience Platform gebruikt [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) gebruiken. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
 
@@ -48,19 +48,19 @@ Hier is een gebruiksgeval ingeschakeld [het combineren van rapportsuites met ver
 
 ### 3. (Opnieuw)Uw marketingkanalen configureren {#marketing-channels}
 
-De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetzelfde uit in Customer Journey Analytics. Dit is om twee redenen:
+De traditionele Adobe Analytics Marketing Channel-instellingen voeren niet hetzelfde uit in de Customer Journey Analytics. Dit is om twee redenen:
 
 * het verwerkingsniveau op de Adobe Analytics-gegevens die in Adobe Experience Platform worden ingevoerd, en
 
-* De rapporttijd van Customer Journey Analytics
+* De aard van de Customer Journey Analytics tijdens de verslagperiode
 
-Adobe heeft gepubliceerd [bijgewerkte best practices voor implementatie van marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html). Met deze bijgewerkte aanbevelingen kunt u optimaal gebruikmaken van de mogelijkheden die Adobe Analytics al met Attribution IQ heeft. Ze zullen u ook instellen voor succes bij het overschakelen naar Customer Journey Analytics.
+Adobe is gepubliceerd [bijgewerkte best practices voor implementatie van marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html). Met deze bijgewerkte aanbevelingen kunt u optimaal gebruikmaken van de mogelijkheden die Adobe Analytics al met Attribution IQ heeft. Zij zullen u ook voor succes bij overgang aan Customer Journey Analytics oprichten.
 
-Met de invoering van [Afgeleide velden](../data-views/derived-fields/derived-fields.md) als onderdeel van de weergave Customer Journey Analytics-gegevens worden marketingkanalen ook op niet-destructieve en retro-actieve wijze ondersteund met de [Sjabloon voor marketingkanaalfunctie](../data-views/derived-fields/derived-fields.md#function-templates).
+Met de invoering van [Afgeleide velden](../data-views/derived-fields/derived-fields.md) als deel van de meningen van de Gegevens van de Customer Journey Analytics, worden de Kanalen van de Marketing ook gesteund op een niet-destructieve en retro-actieve manier gebruikend [Sjabloon voor marketingkanaalfunctie](../data-views/derived-fields/derived-fields.md#function-templates).
 
 ### 4. Beslissen over het gebruik van de bronconnector van Analytics versus SDK&#39;s van Experience Platforms {#connector-vs-sdk}
 
-Adobe Analytics-klanten kunnen hun rapportsuite eenvoudig gebruiken in de Adobe Experience Platform en Customer Journey Analytics via de bronconnector van Analytics. Voor informatie bij het gebruiken van de de bronschakelaar van de Analyse, zie de snelle startgids over hoe te [Gegevens van Adobe Analytics innemen en gebruiken in Customer Journey Analytics](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
+Adobe Analytics-klanten kunnen hun rapportsuites eenvoudig benutten in de Adobe Experience Platform en de Customer Journey Analytics met behulp van de Analytics-bronconnector. Voor informatie bij het gebruiken van de de bronschakelaar van de Analyse, zie de snelle startgids over hoe te [Gegevens uit Adobe Analytics innemen en gebruiken in Customer Journey Analytics](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
 
 Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
 
@@ -79,7 +79,6 @@ Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk ui
 De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
 * Bot filteren
-* Geo, Domain, Device Lookups
 * Metingen voor streamingmedia
 * Livestream- of Livestream-triggers
 
@@ -107,15 +106,15 @@ Als u de overgang zo soepel mogelijk wilt laten verlopen voor gebruikers die een
 
 Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 
-* [Adobe Analytics-segmenten verplaatsen naar Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [Adobe Analytics-segmenten naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
 * [Je berekende cijfers van Adobe Analytics naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
 
 ### Andere overwegingen
 
-* Gebruikend de macht van de gegevensmeningen van Customer Journey Analytics, hebt u veel meer flexibiliteit in de definitie van metriek en dimensies binnen Customer Journey Analytics. U kunt bijvoorbeeld de waarde van een dimensie gebruiken om een metrische definitie te worden. [Meer informatie](/help/use-cases/data-views/data-views-usecases.md)
+* Gebruikend de macht van de gegevensmeningen van de Customer Journey Analytics, hebt u veel meer flexibiliteit in de definitie van metriek en dimensies binnen Customer Journey Analytics. U kunt bijvoorbeeld de waarde van een dimensie gebruiken om een metrische definitie te worden. [Meer informatie](/help/use-cases/data-views/data-views-usecases.md)
 
-* Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u een vergelijkbare kalender [aangepaste kalendermogelijkheden](/help/components/date-ranges/custom-date-ranges.md) binnen Customer Journey Analytics. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
+* Als u een aangepaste kalender hebt gedefinieerd in Adobe Analytics, hebt u een vergelijkbare kalender [aangepaste kalendermogelijkheden](/help/components/date-ranges/custom-date-ranges.md) binnen de Customer Journey Analytics. U moet ervoor zorgen dat uw kalender correct wordt bepaald.
 
 * In Customer Journey Analytics, kunt u een douanebezoek/zittingsonderbreking bepalen evenals metrisch bepalen die een nieuwe zitting zal beginnen. U kunt gegevensweergaven maken met verschillende sessiedefinities om meer inzicht te krijgen dan in Adobe Analytics mogelijk was. Dit vermogen kan bijzonder gunstig zijn voor mobiele datasets.
 
@@ -123,4 +122,4 @@ Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 
 ## Volgende stappen
 
-Na de overgang naar Customer Journey Analytics kunt u, als u gegevensdiscrepanties opmerkt, uw oorspronkelijke Adobe Analytics-gegevens vergelijken met de Adobe Analytics-gegevens die nu in Customer Journey Analytics staan. [Meer informatie](/help/troubleshooting/compare.md)
+Als u na de overgang naar de Customer Journey Analytics enige gegevensdiscrepantie opmerkt, kunt u de oorspronkelijke Adobe Analytics-gegevens vergelijken met de Adobe Analytics-gegevens die nu in Customer Journey Analytics zijn. [Meer informatie](/help/troubleshooting/compare.md)
