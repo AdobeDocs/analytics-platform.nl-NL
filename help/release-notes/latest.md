@@ -3,36 +3,35 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 328b95efb7ed9ff597b95979ecdeceaa8db92bb4
+source-git-commit: 8cbd71bf886ea73b7d04875e960c6a1d7a3be484
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 4%
+source-wordcount: '493'
+ht-degree: 5%
 
 ---
 
-# Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (oktober 2023)
+# Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (oktober/november 2023)
 
-**Laatste update**: 19 oktober 2023
 
-Deze opmerkingen hebben betrekking op de releaseperiode van 4 oktober 2023 tot en met 24 oktober 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+**Laatste update**: 25 oktober 2023
+
+Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 2023 tot eind november 2023. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of bijgewerkte functies
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **De tellingsmetriek van de rij voor raadpleging en profieldatasets** | Deze metriek was eerder beschikbaar slechts voor gebeurtenisdatasets. | 16 oktober 2023 |
+| **Nieuwe mogelijkheden in [!UICONTROL Usage] weergave in Adobe Product Analytics** | De volgende functies zijn toegevoegd aan de [Gebruiksweergave](/help/guided-analysis/types/usage.md):<ul><li>**Trend lines**: Trend lines wordt nu ondersteund. Klikken [!UICONTROL Overlays] boven het diagram om ze mogelijk te maken.</li><li>**Uitsplitsingen query**: U kunt nu onderverdelingen toepassen op dit weergavetype. Ze zijn beschikbaar als optie in de queryrail.</li></ul> | N.v.t. | 25 oktober 2023 |
+| **Documentatie voor API voor CJA-gegevensweergaven** | Zie de [API voor gegevensweergaven](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/) leren hoe u gegevensweergaven programmatisch kunt maken, wijzigen of verwijderen. | N.v.t. | 16 oktober 2023 |
+| **De tellingsmetriek van de rij voor raadpleging en profieldatasets** | Deze metriek was eerder beschikbaar slechts voor gebeurtenisdatasets. | N.v.t. | 16 oktober 2023 |
 | **Volledige tabellen exporteren naar de cloud** | Met de Customer Journey Analytics Full Table Export kunt u miljoenen rijen in de werkruimte exporteren naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Werkruimte met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p> Exportopties voor cloud omvatten:</p><ul><li>Adobe Experience Platform Data Landing Zone</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 oktober 2023 | 19 oktober 2023 |
-| **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar in de [Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) en de [Filterbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) bij het beheren van componenten:<ul><li>Gebruikt in</li><li>Laatst gebruikt</li></ul>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt. | 23 september 2023 | 4 oktober 2023 |
-| **Adobe Analytics-projecten en alle inbegrepen onderdelen migreren naar Customer Journey Analytics** | U kunt nu uw Adobe Analytics-projecten migreren naar Customer Journey Analytics. Dit proces vereenvoudigt de overgang van Adobe Analytics naar Customer Journey Analytics. <p>Wanneer u projecten naar Customer Journey Analytics migreert, worden de activa in kaart gebracht van een het rapportreeks van Adobe Analytics aan een de gegevensmening van de Customer Journey Analytics.</p> <p>U migreert projecten aan Customer Journey Analytics van de interface van Adobe Analytics. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | N.v.t. | 9 oktober 2023 |
-| **Adobe Product Analytics: Reeks tonen/verbergen** | Klik op de diagramlegenda of tabelrijen om de zichtbaarheid van reeksen in uw visualisaties te bepalen.  [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=en) | N.v.t. | 4 oktober 2023 |
-| **Annotaties in Adobe Product Analytics** | De analyse met instructies ondersteunt nu de mogelijkheid om annotaties die in de Customer Journey Analytics zijn gemaakt, weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en) | N.v.t. | 4 oktober 2023 |
 | **Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke verbinding in uw organisatie zien. Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen. De belangrijkste kenmerken van de manager van de activiteit van de Rapportering omvatten:<ul><li>Huidige rapportageverzoeken annuleren (inclusief verzoeken van geleide analyses en volledige tabelexport)</li><li>Verdere verzoeken voor een bepaalde periode beperken</li></ul>Naast het annuleren van huidige verzoeken, kunnen de beheerders verzoeken voor een bepaalde tijdspanne nu beperken. De beheerders kunnen verzoeken door verzoek, project, of gebruiker beperken.  [Meer informatie](/help/reporting-activity-manager/reporting-activity-overview.md) | 17 oktober 2023 | 24 oktober 2023 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Customer Journey Analytics
 
-AN-325940; AN-326468; AN-328301; AN-328640; AN-329370
+AN-327661; AN-329282; AN-329383; AN-329808; AN-331030; AN-331087; AN-331105
 
 ## Belangrijke kennisgevingen voor beheerders van Customers Journey Analytics
 
@@ -41,15 +40,6 @@ AN-325940; AN-326468; AN-328301; AN-328640; AN-329370
 | N.v.t. | N.v.t. | N.v.t. |
 
 {style="table-layout:auto"}
-
-## Aankondigingen van einde levensduur (EOL)
-
-| EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
-| --- | --- | --- |
-| **Migratie naar Adobe I/O OAuth Server-aan-Server geloofsbrieven** | 11 mei 2023 | Adobe Analytics API, Customer Journey Analytics API, en LiveStream klanten die de geloofsbrieven van JWT van Adobe I/O gebruiken moeten aan de geloofsbrieven van Adobe I/O OAuth Server-aan-Server door migreren **1 januari 2025**. Adobe I/O staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[Migreren van JWT-gebruikersgegevens (Service Account)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[De nieuwe OAuth Server-to-Server-referenties gebruiken](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Veelgestelde vragen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
-
-{style="table-layout:auto"}
-
 
 ## Gerelateerde bronnen
 
