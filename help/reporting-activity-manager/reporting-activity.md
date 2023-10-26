@@ -3,7 +3,7 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 1%
@@ -139,7 +139,7 @@ Wanneer u [!UICONTROL **Verzoek**] de volgende kolommen zijn beschikbaar in de t
 
 | Kolom | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Aanvraag-id**] | Een unieke id die kan worden gebruikt voor probleemoplossingsdoeleinden. Als u de id wilt kopiëren, selecteert u de aanvraag en selecteert u de optie. [!UICONTROL **Aanvraag-id kopiëren**]. |
+| [!UICONTROL **Aanvraag-id**] | Een unieke id die kan worden gebruikt voor probleemoplossingsdoeleinden. Als u de id wilt kopiëren, selecteert u de aanvraag en selecteert u de optie. [!UICONTROL **Aanvraag-id&#39;s kopiëren**]. |
 | [!UICONTROL **Tijdsduur**] | Hoe lang de aanvraag is uitgevoerd. |
 | [!UICONTROL **Begintijd**] | Wanneer de aanvraag is begonnen met de verwerking (op basis van de lokale tijd van de beheerder). |
 | [!UICONTROL **Wacht op tijd**] | Hoe lang het verzoek heeft gewacht alvorens wordt verwerkt. Deze waarde staat doorgaans op &quot;0&quot; wanneer er voldoende capaciteit is. |
