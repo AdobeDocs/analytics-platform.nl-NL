@@ -5,9 +5,9 @@ title: Gegevens van Customer Journey Analytics naar anderen verzenden per e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Zie voor meer informatie [Geplande projecten](/help/components/scheduled-project
 
 >[!NOTE]
 >
->De optie om een gepland project met een wachtwoord te beveiligen wordt alleen weergegeven voor klanten van Customers Journey Analytics die de [Gezondheidsschild](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) add-on product.
+>De optie om een gepland project met een wachtwoord te beveiligen wordt alleen weergegeven voor klanten van Customers Journey Analytics die de [Gezondheidsschild](https://business.adobe.com/solutions/industries/healthcare.html) add-on product.
 
 De Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
