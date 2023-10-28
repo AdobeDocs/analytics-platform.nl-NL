@@ -4,9 +4,9 @@ description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
+source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,10 @@ De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kun
 Voeg aanvullende gegevens toe aan het diagram.
 
 * **[!UICONTROL Show anomalies]**: Runs [anomaliedetectie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
+* **[!UICONTROL Trendline overlay]**: Voegt een trendline toe aan de grafiek, die u toestaat om de algemene richting te zien uw gegevens binnen de gespecificeerde tijdspanne neemt.
+   * [!UICONTROL Linear]: Een lineair regressiemodel. Aanbevolen voor gegevens die met een constante snelheid stijgen of dalen.
+   * [!UICONTROL Logarithmic]: Een gebogen lijnregressiemodel. Aanbevolen voor gegevens die na verloop van tijd uitvallen.
+   * [!UICONTROL Moving average]: Een vloeiende lijn die het gemiddelde neemt van de vorige periode vanaf elk punt. Aanbevolen voor gegevens met regelmatige cycli. Beschikbare gemiddelde tijdvakken zijn afhankelijk van het geselecteerde datumbereik.
 
 ## Tijdvergelijking toepassen
 
