@@ -3,10 +3,11 @@ title: Rapportactiviteiten weergeven in de rapportagManager
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
+exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
+source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 1%
+source-wordcount: '1913'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +35,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Gebruik informatie over elke verbinding weergeven. U kunt een kolomkop selecteren om de tabel op die kolom te sorteren.
+1. Gebruik informatie over elke verbinding weergeven. De gegevens die in de tabel worden weergegeven, vertegenwoordigen de rapportactiviteit voor de verbinding op het moment dat de pagina voor het laatst werd geladen.
 
    De volgende kolommen zijn beschikbaar:
 
@@ -45,7 +46,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
    | **[!UICONTROL Capacity utilization]** | Het percentage van de rapporteringscapaciteit van de verbinding die, in real time wordt gebruikt. <p>**Opmerking** Een gebruikscapaciteit die 100% is, suggereert niet noodzakelijk dat u onmiddellijk begint rapporteringsverzoeken te annuleren. De gebruikscapaciteit van 100% kan gezond zijn als de gemiddelde wachttijd redelijk is. Anderzijds zou 100% van de gebruikscapaciteit een probleem kunnen suggereren als het aantal verzoeken in de wachtrij ook toeneemt.</p> |
    | **[!UICONTROL Queued requests]** | Het aantal verzoeken dat moet worden verwerkt. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | De gemiddelde wachttijd alvorens de verzoeken beginnen te verwerken. <!-- ???? --> |
-   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): Rapporten zijn uitgevoerd op de verbinding en worden gecontroleerd op activiteit.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn nooit rapporten uitgevoerd over de verbinding. Deze status wordt alleen weergegeven wanneer verbindingen voor het eerst worden gemaakt.</li></ul> |
+   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): in de afgelopen twee uur zijn rapporten uitgevoerd op de verbinding. De gegevens in de tabel geven de rapportcapaciteit aan voor de verbinding op het moment dat de pagina voor het laatst werd geladen.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn de afgelopen 2 uur geen rapporten over de verbinding uitgevoerd, zodat er geen gegevens voor de verbinding worden weergegeven.</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -143,9 +144,9 @@ Wanneer u [!UICONTROL **Verzoek**] de volgende kolommen zijn beschikbaar in de t
 | [!UICONTROL **Tijdsduur**] | Hoe lang de aanvraag is uitgevoerd. |
 | [!UICONTROL **Begintijd**] | Wanneer de aanvraag is begonnen met de verwerking (op basis van de lokale tijd van de beheerder). |
 | [!UICONTROL **Wacht op tijd**] | Hoe lang het verzoek heeft gewacht alvorens wordt verwerkt. Deze waarde staat doorgaans op &quot;0&quot; wanneer er voldoende capaciteit is. |
-| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul><p>**Opmerking:** Als de waarde van deze kolom [!UICONTROL **Onbekend**], betekent dit dat de aanvraagmetagegevens niet beschikbaar zijn voor de gebruiker.</p> |
+| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende metriek, Annotaties, Soorten publiek enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul><p>**Opmerking:** Als de waarde van deze kolom [!UICONTROL **Onbekend**], betekent dit dat de aanvraagmetagegevens niet beschikbaar zijn voor de gebruiker.</p> |
 | [!UICONTROL **Gebruiker**] | De gebruiker die de aanvraag heeft gestart. <p>**Opmerking:** Als de waarde van deze kolom [!UICONTROL **Onbekend**], betekent dit dat de aanvraagmetagegevens niet beschikbaar zijn voor de gebruiker.</p> |
-| [!UICONTROL **Project**] | Opgeslagen projectnamen voor Workspace, API-rapport-id&#39;s, enz. (Metagegevens kunnen per toepassing verschillen.)<p>**Opmerking:** Als de waarde van deze kolom [!UICONTROL **Onbekend**], betekent dit dat het project niet is opgeslagen of dat de aanvraagmetagegevens niet beschikbaar zijn voor de gebruiker.</p> |
+| [!UICONTROL **Project**] | Opgeslagen projectnamen voor Workspace, API-rapport-id&#39;s enzovoort. (Metagegevens kunnen per toepassing verschillen.)<p>**Opmerking:** Als de waarde van deze kolom [!UICONTROL **Onbekend**], betekent dit dat het project niet is opgeslagen of dat de aanvraagmetagegevens niet beschikbaar zijn voor de gebruiker.</p> |
 | [!UICONTROL **Status**] | Statusindicatoren: <ul><li>**Wordt uitgevoerd**: Verzoek wordt momenteel verwerkt.</li><li>**In behandeling**: De aanvraag is in afwachting van verwerking.</li></ul> |
 | [!UICONTROL **Complexiteit**] | Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken. <p>Mogelijke waarden zijn:</p> <ul><li>[!UICONTROL **Laag**]</li><li>[!UICONTROL **Normaal**]</li><li>[!UICONTROL **Hoog**]</li></ul>Deze waarde wordt beïnvloed door de waarden in de volgende kolommen:<ul><li>[!UICONTROL **Maandgrenzen**]</li><li>[!UICONTROL **Kolommen**]</li><li>[!UICONTROL **Segmenten**]</li></ul> |
 | [!UICONTROL **Maandgrenzen**] | Het aantal maanden dat in een verzoek is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
@@ -163,7 +164,7 @@ Wanneer u [!UICONTROL **Gebruiker**] de volgende kolommen zijn beschikbaar in de
 | [!UICONTROL **Gebruiker**] | De gebruiker die de aanvraag heeft gestart. Als de waarde van deze kolom [!UICONTROL **Niet herkend**], betekent dit dat de gebruiker zich in een login bedrijf bevindt waar u geen administratieve toestemmingen hebt. |
 | [!UICONTROL **Aantal verzoeken**] | Het aantal aanvragen dat door de gebruiker wordt geïnitieerd. |
 | [!UICONTROL **Aantal projecten**] | Het aantal projecten verbonden aan de gebruiker. <!-- ??? --> |
-| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
+| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende metriek, Annotaties, Soorten publiek enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
 | [!UICONTROL **Gem-complexiteit**] | De gemiddelde ingewikkeldheid van verzoeken die door de gebruiker in werking worden gesteld. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
 | [!UICONTROL **Gem. maandgrenzen**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Gem. kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |
@@ -180,7 +181,7 @@ Wanneer u [!UICONTROL **Project**] de volgende kolommen zijn beschikbaar in de t
 | [!UICONTROL **Project**] | Het project waar de verzoeken werden ingediend. |
 | [!UICONTROL **Aantal verzoeken**] | Het aantal verzoeken verbonden aan het project. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan het project is gekoppeld. <!-- ??? --> |
-| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende afmetingen, Annotaties, Soorten publiek, enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
+| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende metriek, Annotaties, Soorten publiek enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Intelligente waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
 | [!UICONTROL **Gem-complexiteit**] | De gemiddelde complexiteit van aanvragen die in het project zijn opgenomen. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem. maandgrenzen**]</li><li>[!UICONTROL **Gem. kolommen**]</li><li>[!UICONTROL **Gem-segmenten**]</li></ul> |
 | [!UICONTROL **Gem. maandgrenzen**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Gem. kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |
