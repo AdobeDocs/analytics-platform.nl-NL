@@ -4,7 +4,7 @@ description: Vorm hoe metrisch wordt geformatteerd.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6945026bd452e1dabe90812f8d056f19aac71490
+source-git-commit: 387c787dba4caa9db82d46071e23a2131043c8c6
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Op rapporttijd, wordt de waarde van de metrische en originele muntcode omgezet i
 
 +++ Hoe ver zijn de dagelijkse omrekeningskoersen achtergebleven?
 
-De dagelijkse omrekeningskoersen worden gedurende de laatste vier jaar gehandhaafd?
+De dagelijkse omrekeningskoersen worden gedurende de laatste vier jaar gehandhaafd.
 
 +++
 
