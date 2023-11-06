@@ -5,7 +5,7 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
+source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -55,30 +55,29 @@ De Kanaalanalyse is een baanbrekende en robuuste eigenschap, maar heeft beperkin
 * Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
 * De persoonlijke grafiek voor meerdere apparaten wordt niet ondersteund.
 * Met Kanaaloverschrijdende analyse wordt het veld dat wordt gebruikt voor stitching op geen enkele manier getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld zoals deze bestaat in de ongeordende dataset in het gegevensmeer. Het hechten proces is hoofdlettergevoelig. Als bijvoorbeeld soms het woord &#39;Bob&#39; in het veld wordt weergegeven en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze als twee aparte personen behandeld.
-* Op basis van velden kan stitching hoofdlettergevoelig zijn voor gegevenssets van Analytics die via de bronconnector van Analytics zijn gegenereerd. Adobe raadt aan om alle VISTA-regels of verwerkingsregels te herzien die van toepassing zijn op het veld transient ID om ervoor te zorgen dat geen van deze regels nieuwe vormen van dezelfde id introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde invoeren in het veld met de tijdelijke id voor slechts een gedeelte van de gebeurtenissen.
+* Op basis van veldgebaseerde stitching is hoofdlettergevoelig voor gegevenssets van Analytics die via de bronconnector van Analytics zijn gegenereerd. Adobe raadt aan om de VISTA-regels of verwerkingsregels die van toepassing zijn op het overgangsveld Id te herzien om ervoor te zorgen dat geen van deze regels nieuwe vormen van dezelfde id introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde invoeren in het veld met de tijdelijke id voor slechts een gedeelte van de gebeurtenissen.
 * Veldgebaseerde stitching combineert of schakelt geen velden samen.
 * Het veld Tijdelijke id moet één type id bevatten (d.w.z. id&#39;s uit één naamruimte). Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 * Als er meerdere gebeurtenissen voorkomen met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het overgangsveld voor de id, wordt voor veldoverstikking gekozen op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere id Ann opgeeft, kiest u Ann in het veld.
 * Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt CCA ophoudt stitching gegevens voor dat apparaat.
-
 
 ## Kanaaloverschrijdende analyse inschakelen
 
 Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, kunt u deze stappen volgen beginnen het in Customer Journey Analytics te gebruiken.
 
 1. Importeer de gewenste gegevens naar Adobe Experience Platform. Zie voor Adobe Analytics-gegevens [Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Zie voor andere typen gegevens [Een schema maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [Samenvattingsgegevens](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform.
-1. Neem contact op met de klantenondersteuning van Adobe via de volgende informatie:
+1. Neem contact op met de Klantenondersteuning van de Adobe met de volgende informatie:
    * Een verzoek om Kanaalanalyse in te schakelen
    * De dataset-id voor de gegevensset die u opnieuw wilt gebruiken
    * De kolomnaam van blijvende identiteitskaart voor de gewenste dataset (Herkenningsteken die op elke rij verschijnt)
    * De kolomnaam van transient identiteitskaart voor gewenste dataset (de verbinding van persoonsidentificatie tussen datasets)
    * Je voorkeur van [replay](replay.md) frequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster
    * Naam van sandbox.
-1. De Klantenondersteuning van Adobe werkt samen met Adobe-engineering om Kanaalanalyse mogelijk te maken wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. Adobe Klantenondersteuning kan de nieuwe gegevensset-id en de kolomnaam van de persoon-id opgeven.
-1. Als Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens met een stitched-functie gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
-1. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
+1. De Klantenondersteuning van de Adobe werkt samen met Adobe-engineering om Kanaalanalyse mogelijk te maken wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. De Steun van de Klant van de Adobe kan nieuwe dataset identiteitskaart en de kolomnaam van identiteitskaart van de persoon verstrekken.
+1. Als de Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens gemaakt die teruggaan tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
+1. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en om het even welke andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op basis van de verbinding.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Zodra de gegevensmening opstelling is, is de analyse in Customer Journey Analytics enkel als een andere analyse in Customer Journey Analytics, behalve nu werkt de gegevens over kanalen en apparaten.
+Zodra de gegevensmening opstelling is, is de analyse in Customer Journey Analytics enkel als een andere analyse in Customer Journey Analytics, behalve nu werkt het gegeven over kanalen en apparaten.
