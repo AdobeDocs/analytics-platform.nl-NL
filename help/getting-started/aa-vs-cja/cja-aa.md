@@ -4,9 +4,9 @@ description: Customer Journey Analytics in vergelijking met Adobe Analytics-func
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: 15fbbf26b58b474f65e6585ac72bdf247fb1678d
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2128'
 ht-degree: 2%
 
 ---
@@ -44,6 +44,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Segmenten | Volledige ondersteuning. Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet naar Customer Journey Analytics worden overgebracht. |
 | Virtuele rapportsuites | Volledige ondersteuning. Wordt nu aangeroepen [Gegevensweergaven](/help/data-views/create-dataview.md). |
 | Samengestelde cursus virtuele rapportsuite | Volledige ondersteuning. Nu onderdeel van gegevensweergaven. |
+| Apparaat, Browser, Referrer, de dimensies van de Technologie | Ondersteund voor beide [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)- gebaseerde datasets en voor datasets die door WebSDK worden geproduceerd. Zie [documentatie over de door ADC ondersteunde analytische variabelen](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en).Als u de gegevensinzameling van SDK van het Web van het Experience Platform gebruikt, worden het Apparaat en de dimensies die op de raadpleging van het Apparaat worden gebaseerd momenteel niet gesteund. Toekomstige steun is gepland. Voor het toevoegen van apparaat en browser raadplegingen aan uw de gegevensstroom van SDK van het Web, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | Streaming media-analyse | De mediagegevens zijn beschikbaar via de bronaansluiting Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
 
 {style="table-layout:auto"}
@@ -68,12 +69,13 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Marketingkanalen | Wanneer het gebruiken van de bron van Analytics schakelaar, stromen de gegevens van Kanalen van de marketing in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Zie [Marketingkanalen voor Customers Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html) voor meer informatie . <br/>Voor implementaties WebSDK, rapport-tijd de verwerkingsregels van het marketingkanaal worden gesteund door [Afgeleide velden](../../data-views/derived-fields/derived-fields.md). |
 | Metrische deduplicatie | Nu gevormd op metriek binnen de Mening van Gegevens. De metrische deduplicatie gebeurt op het persoon of zittingsniveau eerder dan de Dataset, de mening van Gegevens, of het niveau van de Verbinding. |
 | Nieuwe versus herhaalde sessierapportage | Vroeger verwezenlijkt gebruikend de dimensie van het Aantal van het Bezoek. Nieuwe sessies vs. herhalingssessies worden ondersteund [met een terugzoekvenster van 13 maanden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=en). |
-| Verwerkingsregels, VISTA-regels, regels voor verwerking van marketingkanalen | Ondersteund met Adobe Experience Platform Data Prep-functionaliteit voor zowel WebSDK-gegevenssets als gegevens van de gegevensbronconnector van Analytics. |
+| Verwerkingsregels, VISTA-regels, regels voor verwerking van marketingkanalen | Ondersteund met zowel de Adobe Experience Platform Data Prep-functionaliteit als [afgeleide velden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html) voor zowel WebSDK gebaseerde datasets als gegevens van de de bronschakelaar van de Analyse. |
 | Variabele voor producten | Binnen het Experience Platform, kunnen de gebruikers een serie van voorwerpen binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. Binnen Customer Journey Analytics, kunnen de klanten om het even welk aantal productvariabelen gebruiken en zijn niet beperkt tot één enkele variabele zoals in Adobe Analytics. |
 | Projectdeling | Delen van projecten wordt alleen ondersteund door gebruikers van Customer Journey Analytics - er wordt geen project gedeeld tussen Customer Journey Analytics en de traditionele Analysis Workspace. |
 | Report Builder | Ondersteund met een nieuwe Office 365-insteekmodule voor Excel. |
 | Gebruikersmachtigingen/besturingselementen voor gegevenstoegang | Customer Journey Analytics maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, productprofielbeheerders en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filters of annotaties. |
 | Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
+| Draaien tussen apparaten en kanalen | Ondersteund voor gegevenssets die rechtstreeks identiteitsgegevens bevatten (ook wel &quot;op het veld gebaseerde&quot; stitching genoemd). Op afbeeldingen gebaseerde stitching wordt nog niet ondersteund, maar is wel gepland. Zie [Stiksel](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
 
@@ -81,11 +83,8 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| Draaien tussen apparaten en kanalen | Ondersteund voor gegevenssets die rechtstreeks identiteitsgegevens bevatten (ook wel &quot;op het veld gebaseerde&quot; stitching genoemd). Op afbeeldingen gebaseerde stitching wordt nog niet ondersteund, maar is wel gepland. Zie [Stiksel](../../stitching/overview.md). |
 | Bot filteren | Voor [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Op gegevenssets gebaseerde gegevenssets worden beide gefilterd. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of Customer Journey Analytics. |
-| Apparaat, Browser, Referrer, de dimensies van de Technologie | Ondersteund voor [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)- gebaseerde datasets. Zie [documentatie over de door ADC ondersteunde analytische variabelen](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en).<p>Als u de gegevensinzameling van SDK van het Web van het Experience Platform gebruikt, worden het Apparaat en de dimensies die op de raadpleging van het Apparaat worden gebaseerd momenteel niet gesteund. Toekomstige steun is gepland. |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segmentvergelijking en Analyse voor Doel (A4T) worden niet ondersteund. |
-| Verwerkingsregels | Voor de bron van Analytics op schakelaar-gebaseerde datasets, worden de verwerkingsregels nog toegepast. [Mogelijkheden voor gegevensuitwisseling in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) kan ook worden gebruikt als vervanging voor verwerkingsregels voor gegevens die rechtstreeks naar het Platform gaan. |
 | Analyses voor doel (A4T) | De gedeeltelijke steun wordt verleend door gebieden in [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
 
 {style="table-layout:auto"}
@@ -137,6 +136,6 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Uitgebreide opties voor beveiliging en privacy - HIPAA-gereedheid | De Customer Journey Analytics is klaar HIPAA en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 | Mogelijkheid om gegevenssets te combineren (zoals Adobe Analytics-rapportenreeksen) | Met Customer Journey Analytics kunt u gegevens uit meerdere rapportensuites combineren alsof het één rapportsuite in Adobe Analytics betreft. |
-| Afgeleide velden | De afgeleide gebieden staan voor rapport-tijd transformaties aan uw gegevens toe. Gegevens kunnen tijdens de vlucht worden gecombineerd, gecorrigeerd of gemaakt en met terugwerkende kracht op alle rapporten worden toegepast. |
+| Afgeleide velden | De afgeleide gebieden staan voor rapport-tijd transformaties aan uw gegevens toe. Gegevens kunnen tijdens de vlucht worden gecombineerd, gecorrigeerd of gemaakt en worden met terugwerkende kracht toegepast op alle rapporten. |
 
 {style="table-layout:auto"}
