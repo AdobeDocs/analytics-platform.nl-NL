@@ -4,9 +4,9 @@ description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
+source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Afhankelijk van het diagramtype wordt elke geselecteerde gebeurtenis weergegeven als een gekleurde lijn of een set balken. Aan de tabel wordt een rij toegevoegd die de trended-gebeurtenis vertegenwoordigt. U kunt maximaal vijf gebeurtenissen opnemen.
-* **[!UICONTROL People]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal lijnen in de grafiek en rijen in de lijst. U kunt maximaal vijf segmenten opnemen.
-* **[!UICONTROL Breakdown]**: Maak een aparte trendlijn per dimensie-item. Er wordt één afbraakdimensie ondersteund.
+* **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt vertegenwoordigd als diagramreeks en tabelrij. U kunt maximaal vijf gebeurtenissen opnemen.
+* **[!UICONTROL People]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal grafiekreeksen en lijstrijen. U kunt maximaal vijf segmenten opnemen.
+* **[!UICONTROL Breakdown property]**: Verdeelt de diagramreeksen en tabelrijen door de waarden van de geselecteerde eigenschap. Eén enkele eigenschap voor de indeling wordt ondersteund. De bovenste 20 waarden worden weergegeven in de tabel en er kunnen maximaal tien waarden worden weergegeven in het diagram. U kunt een rij in het diagram verbergen of zichtbaar maken door de ![Pictogram voor verbergen tonen](../assets/hide-in-chart.png) pictogram.
 
 ## Diagraminstellingen
 
@@ -43,13 +43,13 @@ De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kun
 
 ## Bedekkingen
 
-Voeg aanvullende gegevens toe aan het diagram.
+Voeg aanvullende gegevens toe aan het diagram. Als er meer dan één reeks zichtbaar is op het diagram, worden alleen bedekkingen weergegeven op de muisaanwijzer.
 
-* **[!UICONTROL Show anomalies]**: Runs [anomaliedetectie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
-* **[!UICONTROL Trendline overlay]**: Voegt een trendline toe aan de grafiek, die u toestaat om de algemene richting te zien uw gegevens binnen de gespecificeerde tijdspanne neemt.
-   * [!UICONTROL Linear]: Een lineair regressiemodel. Aanbevolen voor gegevens die met een constante snelheid stijgen of dalen.
-   * [!UICONTROL Logarithmic]: Een gebogen lijnregressiemodel. Aanbevolen voor gegevens die na verloop van tijd uitvallen.
-   * [!UICONTROL Moving average]: Een vloeiende lijn die het gemiddelde neemt van de vorige periode vanaf elk punt. Aanbevolen voor gegevens met regelmatige cycli. Beschikbare gemiddelde tijdvakken zijn afhankelijk van het geselecteerde datumbereik.
+* **[!UICONTROL Anomaly detection]**: Runs [anomaliedetectie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
+* **[!UICONTROL Trendline overlay]**: Voegt een trendline toe aan het diagram waarmee u een duidelijker patroon in de gegevens kunt weergeven.
+   * [!UICONTROL Linear]: maakt een rechte regressieregel. Dit is het meest geschikt voor eenvoudige lineaire gegevens die met een constante snelheid toenemen of afnemen. Vergelijking `y = a + b * x`
+   * [!UICONTROL Logarithmic]: hiermee maakt u een kromme regressielijn. Het beste voor gegevens die snel stijgen of dalen, dan wordt meer niveau. Vergelijking `y = a + b * log(x)`
+   * [!UICONTROL Moving average]: Hiermee maakt u een vloeiende trendline op basis van een set gemiddelden. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal vorige gegevenspunten (die door uw selectie worden bepaald), gemiddelden, en gebruikt het gemiddelde als punt in de lijn. Voorbeelden zijn het voortschrijdende gemiddelde over zeven dagen of het voortschrijdende gemiddelde over vier weken. De beschikbare opties voor gemiddelde verplaatsing zijn afhankelijk van het geselecteerde interval en datumbereik.
 
 ## Tijdvergelijking toepassen
 
