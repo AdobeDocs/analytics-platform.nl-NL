@@ -4,9 +4,9 @@ description: Overzicht van stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: 058b8d997c7cb2e4e73d3c2026a4b9bf29db26bd
+source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voordat u stitching gebruikt, moet u ervoor zorgen dat uw organisatie is voorber
    * A **blijvende id**, een id aanwezig op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Cloud.
    * A **transient ID**, een id die alleen op bepaalde rijen voorkomt. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Bij het plaatsen wordt in dit veld rekening gehouden met de werkelijke gegevens van de persoon-id. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van de Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
-  Beide kolommen (blijvende identiteitskaart en voorbijgaande identiteitskaart) moeten als identiteitsgebied met een identiteitsnamespace in het schema worden bepaald onderliggende de dataset u wilt vastmaken. Als u identiteitsstitching gebruikt in Real-time Customer Data Platform met de opdracht [identityMap, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity), moet u nog identiteitsgebieden met een identiteitsnaamruimte toevoegen, aangezien het opnieuw spelen stitching die in deze sectie wordt besproken niet de identityMap gebiedsgroep steunt. Als u een identiteitsveld toevoegt terwijl u identiteitsstitching gebruikt in Real-time Customer Data Platform op basis van de identityMap-veldgroep, doet u het volgende *niet* Stel het extra identiteitsveld in als een primaire identiteit, omdat dit de op identityMap gebaseerde identiteitsstitching in Real-time Customer Data Platform beïnvloedt.
+  Beide kolommen (blijvende identiteitskaart en voorbijgaande identiteitskaart) moeten als identiteitsgebied met een identiteitsnamespace in het schema worden bepaald onderliggende de dataset u wilt vastmaken. Als u identiteitsstitching gebruikt in Real-time Customer Data Platform met de opdracht [identityMap, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity), moet u nog identiteitsgebieden met een identiteitsnamespace toevoegen, aangezien het stitching van de Customer Journey Analytics in deze sectie wordt besproken niet de identityMap gebiedsgroep steunt. Wanneer het toevoegen van een identiteitsgebied in het schema terwijl ook het gebruiken van de identityMap gebiedsgroep, plaats niet het extra identiteitsgebied als primaire identiteit, aangezien dit zal interfereren met de identityMap gebiedsgroep die voor Real-time Customer Data Platform wordt gebruikt.
 
 * Onder andere het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens wordt opgenomen. Zorg ervoor dat u aan de toepasselijke wetten en verordeningen, met inbegrip van het verkrijgen van noodzakelijke eindgebruikertoestemmingen voldoet, alvorens het stitching op een gebeurtenisdataset te activeren. Zie [Identiteitsvelden definiëren in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) voor meer informatie .
 
