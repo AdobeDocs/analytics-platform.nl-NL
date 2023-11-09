@@ -4,9 +4,9 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 ## Onderdelen
 
 Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit betekent dat u metriek en afmetingen kunt maken op basis van schema-elementen. U kunt ook standaardcomponenten gebruiken.
+
+>[!IMPORTANT]
+>
+>Tot 5.000 metriek en 5.000 dimensies kunnen aan één enkele gegevensmening worden toegevoegd.
 
 1. Selecteer de **[!UICONTROL Components]** tab.
 
