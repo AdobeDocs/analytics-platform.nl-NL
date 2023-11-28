@@ -4,9 +4,9 @@ description: Begrijp hoe u Voortgekomen gebieden kunt gebruiken om over doelstel
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ U wilt uitdrukkelijk doelstellingen voor uw bevelen van het giftecertificaat voo
 
 1. Statische waarden instellen met een CASE WHERE-REGEL voor elke maand door een **[!UICONTROL Custom numeric value]**. Zie de regel Maandelijkse Productdoelen hieronder.
 
-   ![Productdoelstellingen](assets/goals-derived-field-product-goals-1.png)
+   ![Maandelijkse productdoelstellingen](assets/goals-derived-field-product-goals-1.png)
 
 
 ### Doelstellingen van inkomsten uit marketingkanalen

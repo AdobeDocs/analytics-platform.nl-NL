@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzicht
 
 Bijvoorbeeld, laten wij zeggen u projecten met uw organisatie deelt. Als u een sterke toename in verkeer door een marketing campagne had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige gegevensmening. Wanneer uw gebruikers om het even welke datasets bekijken die die datum omvatten, zien zij de aantekening binnen hun projecten, naast hun gegevens.
 
-![](assets/multi-day.png)
+![Lijndiagram met gemarkeerde aantekening.](assets/multi-day.png)
 
 Houd dit in gedachten:
 
@@ -46,6 +46,6 @@ Annotaties kunnen op verschillende niveaus worden in- of uitgeschakeld:
 
 * Op gebruikersniveau: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
 
-![](assets/show-ann.png)
+![Dialoogvenster met instellingen voor visualisatie met gemarkeerde notities tonen](assets/show-ann.png)
 
-![](assets/show-ann2.png)
+![Markering voor gebruikersvoorkeuren - Annotaties tonen.](assets/show-ann2.png)

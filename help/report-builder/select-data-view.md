@@ -5,10 +5,10 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-exl-id: 802a8f0b-10c2-4adc-a4ec-25f3d28f3002
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Zie voor informatie over het maken van een gegevensblok [Een gegevensblok maken]
 
 1. Klik op de knop *celpictogram* in de *Gegevensweergaven* sectie.
 
-   ![Klik op het celpictogram.](/help/report-builder/assets/cell-icon.png)
+   ![Maak een nieuw gegevensblokvenster met het celpictogram gemarkeerd.](/help/report-builder/assets/cell-icon.png)
 
 1. Selecteer een cellocatie om de gegevensweergaven aan de geselecteerde cel toe te voegen.
 
@@ -38,7 +38,7 @@ Zie voor informatie over het maken van een gegevensblok [Een gegevensblok maken]
 
 1. Selecteer de gegevensweergaven die u aan de cel wilt toewijzen.
 
-   ![Selecteer gegevensweergaven.](/help/report-builder/assets/select-data-view.png)
+   ![Het deelvenster Snel bewerken van Report Builder met de weergave Gegevens selecteren.](/help/report-builder/assets/select-data-view.png)
 
 1. Klikken **Toepassen**.
 

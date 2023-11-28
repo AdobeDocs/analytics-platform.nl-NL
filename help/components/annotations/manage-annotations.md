@@ -4,9 +4,9 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ De [!UICONTROL Annotations] de manager toont u alle annotaties u bezit die aan a
 
 ## Gebruikersinterface van Annotatiebeheer
 
-![](assets/annotation-mgr.png)
+![Annotatieopties zoals delen, labelen of kopiëren, worden beschreven in de volgende sectie.](assets/annotation-mgr.png)
 
 | UI-element | Beschrijving |
 | --- | --- | 
@@ -50,7 +50,7 @@ Beide opties laten u terug in de Bouwer van Annotaties. In dat geval kunt u de b
 
 Houd rekening met het volgende wanneer u annotaties deelt of met annotaties werkt die met u zijn gedeeld:
 
-* Laten we zeggen dat u een project maakt met alleen-projecten annotaties en dat u het project vervolgens deelt met een andere gebruiker. Deze annotaties worden weergegeven, maar kunnen niet worden bewerkt of verwijderd door iemand waarmee u het project deelt.
+* Laten we zeggen dat u een project maakt met alleen-projecten annotaties en het project vervolgens deelt met een andere gebruiker. Deze annotaties worden weergegeven, maar kunnen niet worden bewerkt of verwijderd door iemand waarmee u het project deelt.
 
 * Als u een annotatie opslaat en deze rechtstreeks deelt met een gebruiker, kunnen deze de annotatie alleen bewerken/verwijderen als deze beheerdersrechten heeft.
 
@@ -71,7 +71,7 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 | Taak | Beschrijving |
 | --- | --- |
 | Toevoegen | Hiermee gaat u naar de builder van Annotaties waar u nieuwe annotaties kunt maken. |
-| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen tags zien voor de filters die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
+| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen tags zien voor de filters die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: heren; geografie</li><li>Workflowlabels: geCurveerd voor (een specifieke bedrijfseenheid); goedgekeurd</li></ul> |
 | Verwijderen | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
 | Naam wijzigen | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
 | Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |

@@ -1,9 +1,9 @@
 ---
-description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bijbehorende onderdelen
+description: Meer informatie over bekende beperkingen in Adobe Analysis Workspace en de bijbehorende onderdelen
 title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Tabellen
 
 * Datumvergelijkingskolommen kunnen niet worden toegevoegd wanneer datumbereiken of metriek worden gebruikt als rijen van een tabel.
-* De optie Metrisch maken van selectie is uitgeschakeld wanneer filters worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
+* De optie Metrisch maken op basis van selectie is uitgeschakeld wanneer filters worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
 * Voorwaardelijke opmaak voor splitsingsrijen kan geen aangepaste bereiken gebruiken.
 * De totale rijen van de lijst kunnen niet worden getrand wanneer Berekende totalen door de rijwaarden op te tellen wordt toegepast die (typisch wordt gebruikt met Statische rijpunten) plaatsen.
 * [!UICONTROL Contribution Analysis] kan worden uitgevoerd op [!UICONTROL daily] granulariteit _alleen_. Het kan niet worden bestreden [!UICONTROL hourly], [!UICONTROL weekly], enz., gegevens.

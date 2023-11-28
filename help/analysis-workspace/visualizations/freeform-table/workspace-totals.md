@@ -1,11 +1,11 @@
 ---
-description: Hoe de totalen van de werkruimte worden berekend.
+description: Leer hoe de totalen van de werkruimte worden berekend.
 title: Totalen werkruimte
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven met twee totalen:
 
 * **[!UICONTROL Grand Total]** (grijs &#39;van&#39; getal) - dit totaal vertegenwoordigt alle gebeurtenissen die zijn verzameld. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle gebeurtenissen te wijzen die aan de filtercriteria voldoen.
-* **[!UICONTROL Table Total]** (zwart getal) - dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total]. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de [!UICONTROL Include None] optie.
+* **[!UICONTROL Table Total]** (zwart getal) - dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total]. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de [!UICONTROL Include None] -optie.
 
-![](assets/total-row.png)
+![De Lijst van de vrije vorm die het grote totaal en het lijsttotaal benadrukt.](assets/total-row.png)
 
 ## Totale instelling weergeven
 
 Onder **[!UICONTROL Column Settings]**, er zijn mogelijkheden om **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]**. Als deze instellingen zijn uitgeschakeld, worden de totalen uit de tabel verwijderd. Dit kan gewenst zijn in gevallen waarin totalen bijvoorbeeld in bepaalde gevallen onzinnig zijn [Berekende metrische scenario&#39;s](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html).
 
-![](assets/column-settings-total.png)
+![Kolominstellingen tonen vinkjes voor totalen tonen en Totaal subsidie tonen.](assets/column-settings-total.png)
 
 ## Statische rijtotaal, instellingen
 
@@ -32,7 +32,7 @@ Onder **[!UICONTROL Column Settings]**, er zijn mogelijkheden om **[!UICONTROL S
 * **[!UICONTROL Show sum of current rows as the total]** - dit toont een cliënt-zijsom van de rijen in de lijst die betekent het totale zal **niet** deduplicatie van metingen zoals bezoeken of personen.
 * **[!UICONTROL Show Grand Total]** - dit toont een bedrag aan serverzijde, wat betekent het totaal metriek zoals bezoeken of personen zal dedupliceren.
 
-![](assets/static-rows.png)
+![Rijinstellingen tonen Eindtotaal geselecteerd.](assets/static-rows.png)
 
 ## Veelgestelde vragen
 

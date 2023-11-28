@@ -4,9 +4,9 @@ title: Het gegevenswoordenboek weergeven
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. Ga naar het Analysis Workspace-project dat de component bevat die u wilt bekijken.
 
-1. Selecteer [!UICONTROL **Gegevenswoordenboek**] in de linkerspoorstaaf van Analysis Workspace. (Alternatieve manieren om toegang te krijgen tot het gegevenswoordenboek worden beschreven in &quot;Toegang tot het gegevenswoordenboek&quot; in [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).)
+1. Selecteer de [!UICONTROL **Gegevenswoordenboek**] in de linkerspoorlijn van Analysis Workspace. (Alternatieve manieren om toegang te krijgen tot het gegevenswoordenboek worden beschreven in &quot;Toegang tot het gegevenswoordenboek&quot; in [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).)
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![data-dictionary.png](assets/data-dictionary.png)
+   ![Het venster Gegevenswoordenboek met de snelle filters voor Dimensionen, Metriek, Segmenten en Datumbereiken](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -31,7 +31,7 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimensionen** ![Pictogram Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe, pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
 

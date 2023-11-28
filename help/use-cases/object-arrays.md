@@ -1,10 +1,10 @@
 ---
 title: Arrays van objecten gebruiken
-description: Begrijp hoe Customer Journey Analytics over gegevenshiërarchieën rapporteert.
+description: Leer hoe de Customer Journey Analytics over gegevenshiërarchieën rapporteert.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -67,19 +67,19 @@ Bij het maken van een gegevensweergave zijn de volgende afmetingen en metrische 
 
 * **Dimensies:**
    * ID
-   * product: SKU
-   * product: name
-   * product: order_id
-   * product: garantie: dekking
-   * product: garantie: length
-   * product: garantie: name
-   * product: garantie: type
+   * product : SKU
+   * product : name
+   * product : order_id
+   * product : garantie : dekking
+   * product : warranty : length
+   * product : warranty : name
+   * product : warranty : type
 * **Cijfers:**
-   * product: orders
-   * product: eenheden
-   * product: inkomsten
-   * product: garantie
-   * product: garantie: inkomsten
+   * product : bestellingen
+   * product : eenheden
+   * product : inkomsten
+   * product : garantie
+   * product : warrant : opbrengst
 
 ### Zelfde gebeurtenisvoorbeelden (rapportagegedrag)
 
@@ -91,7 +91,7 @@ Gebruikend enkel de bovengenoemde gebeurtenis, tonen de volgende lijsten de rapp
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-Customer Journey Analytics kijkt selectief naar de afmetingen en metriek van het voorwerp dat op de lijst wordt gebaseerd.
+Customer Journey Analytics kijkt selectief naar de dimensie en metriek van het voorwerp dat op de lijst wordt gebaseerd.
 
 ```diff
 {
@@ -197,7 +197,7 @@ Aangezien u om het even welke afmeting met om het even welke metrisch kunt combi
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat het item Dimensie aan &#39;Niet opgegeven&#39; toewijst. Dezelfde situatie geldt ook voor de productgarantiebestelling:
+Er bestaat een productorder waaraan geen garantienaam is gekoppeld, zodat het item Dimensie aan &#39;Niet opgegeven&#39; toeschrijft. Dezelfde situatie geldt ook voor de productgarantiebestelling:
 
 ```diff
 {
@@ -245,7 +245,7 @@ Let op de bestellingen waaraan geen naam is gekoppeld. Dit zijn de orders die wo
 
 ### Metrische gegevens combineren
 
-Customer Journey Analytics combineert native metriek met dezelfde naam niet als deze op verschillende objectniveaus staan.
+In Customer Journey Analytics worden metriek met dezelfde naam niet gecombineerd als deze op verschillende objectniveaus staan.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

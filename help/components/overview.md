@@ -1,19 +1,19 @@
 ---
 title: Wat zijn componenten in Customer Journey Analytics?
-description: Leer welke componenten Customer Journey Analytics aanbiedt en hoe u deze kunt gebruiken in rapporten.
+description: Leer welke componenten Customer Journey Analytics aanbiedt, en hoe u hen in rapportering kunt gebruiken.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1110'
 ht-degree: 5%
 
 ---
 
 # Overzicht van onderdelen
 
-Componenten zijn functies in Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
+Componenten zijn functies in de Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
 
 1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) je Adobe ID-gebruikersgegevens gebruiken.
 2. Navigeren naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
@@ -21,12 +21,12 @@ Componenten zijn functies in Customer Journey Analytics die kunnen worden gebrui
 U kunt de volgende componenten beheren:
 
 * [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
-* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Ontdekking publiek maken en publiceren in Customer Journey Analytics tot [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
-* [**Filters**](filters/filters-overview.md): Creëer, beheer, deel, en pas krachtige, gerichte publieksfilters op uw rapporten toe. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
+* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Maak en publiceer publiek dat wordt ontdekt in Customer Journey Analytics aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+* [**Filters**](filters/filters-overview.md): Ontwerp, beheer, deel en pas krachtige, doelgerichte publieksfilters toe op uw rapporten. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
 * [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
 * [**Gegevenswoordenboek**](/help/components/data-dictionary/data-dictionary-overview.md): Hiermee kunnen gebruikers en beheerders de componenten in hun analyseomgeving bijhouden en beter begrijpen.
 * [**Datumbereiken**](date-ranges/create.md): Pas de datumbereiken aan die Analysis Workspace aanbiedt en verfijn deze.
-* [**Dimension**](/help/components/dimensions/view-dimensions.md): Dimension zijn variabelen die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn onder andere het domein Pagina en Verwijzen.
+* [**Dimensionen**](/help/components/dimensions/view-dimensions.md): Dimensionen zijn variabelen die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn onder andere het domein Pagina en Verwijzen.
 * [**Metrisch**](/help/components/apply-create-metrics.md): Hiermee kunt u gegevenspunten kwantificeren in Analysis Workspace.
 * [**Projecten**](/help/analysis-workspace/home.md): Organiseer en onderhoud uw projecten in Analysis Workspace.
 
@@ -36,7 +36,7 @@ Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en ti
 
 Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
-![](assets/components.png)
+![Pictogram Componenten](assets/components.png)
 
 Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project.
 
@@ -75,7 +75,7 @@ U kunt componenten rechtstreeks in de linkerspoorstaaf beheren.
    >   U kunt meerdere componenten selecteren door Shift ingedrukt te houden of door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
 
 
-   ![](assets/component-actions.png)
+   ![Lijst met componenthandelingen](assets/component-actions.png)
 
    | Component, actie | Beschrijving |
    |--- |--- |
@@ -85,7 +85,7 @@ U kunt componenten rechtstreeks in de linkerspoorstaaf beheren.
    | [!UICONTROL **Delen**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
    | [!UICONTROL **Verwijderen**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
 
-De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. De [Filters beheren](/help/components/filters/manage-filters.md).
+De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld de [Filters beheren](/help/components/filters/manage-filters.md).
 
 ## De componentenlijst zoeken, filteren en sorteren
 
@@ -93,19 +93,19 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 ### De componentenlijst doorzoeken
 
-1. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+1. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimensionen** ![Pictogram Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe, pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 3. Selecteer de component wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
 ### De componentlijst filteren
 
-1. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+1. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
-2. Selecteer **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
+2. Selecteer de **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
 
    of
 
@@ -117,7 +117,7 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
    |---------|----------|
    | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
    | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Componenten beheren](#manage-components). |
-   | [!UICONTROL **Dimensies**] | Alleen componenten weergeven die Dimension zijn. |
+   | [!UICONTROL **Dimensies**] | Alleen componenten weergeven die Dimensionen zijn. |
    | [!UICONTROL **Cijfers**] | Alleen componenten weergeven die Metrisch zijn. |
    | [!UICONTROL **Filters**] | Alleen componenten weergeven die filters zijn. |
    | [!UICONTROL **Datumbereiken**] | Alleen componenten tonen die Datumbereik hebben. |
@@ -132,9 +132,9 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
 
-2. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+2. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
-3. Selecteer **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+3. Selecteer de **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
 
    {{components-sort-options}}
 

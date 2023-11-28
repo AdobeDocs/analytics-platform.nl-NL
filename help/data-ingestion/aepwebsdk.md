@@ -4,9 +4,9 @@ description: Verklaar hoe te om gegevens in Customer Journey Analytics via het W
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Uw schema instellen:
 
    1. Selecteren **[!UICONTROL Experience Event]**.
 
-      ![Een schema maken](./assets/create-ee-schema-wizard-step-1.png)
+      ![Een schema maken voor markeringsgebeurtenissen](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -71,7 +71,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** voor uw schema en (optioneel) a **[!UICONTROL Description]**.
 
-      ![Geef uw schema een naam](./assets/create-ee-schema-wizard-step-2.png)
+      ![Schema-venster maken met de naam van de schemavelden](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Selecteren **[!UICONTROL Finish]**.
 

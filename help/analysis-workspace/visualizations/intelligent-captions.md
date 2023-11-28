@@ -3,10 +3,10 @@ description: Gebruik intelligente bijschriften om inzichten in de natuurlijke ta
 title: Intelligente bijschriften
 feature: Visualizations
 role: User, Admin
-exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Intelligente bijschriften zijn gericht op:
 * Analysten die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
 * Zakelijke gebruikers die snel op hoog niveau willen zoeken.
 
-Bijschriften zijn beschikbaar voor alle Customer Journey Analytics-gebruikers en vereisen geen speciale machtigingen.
+Bijschriften zijn beschikbaar voor alle gebruikers van de Customer Journey Analytics en vereisen geen speciale machtigingen.
 
 ## Intelligente bijschriften starten {#launch}
 
 Als u automatisch gegenereerde bijschriften voor een lijnvisualisatie wilt starten, klikt u op de knop **[!UICONTROL Intelligent captions]** aan de rechterbovenhoek van de visualisatie.
 
-![intelligente bijschriften starten](assets/intell-caps-1.png)
+![Het venster van de Analyse van de lancering die de Intelligente titels voor de Trend van de Kijken van het Product toont. ](assets/intell-caps-1.png)
 
 Inzichten in natuurlijke talen worden nu gegenereerd.
 
@@ -40,7 +40,7 @@ Inzichten in natuurlijke talen worden nu gegenereerd.
 
 Hier volgt een voorbeeld van hoe de bijschriften eruit zouden kunnen zien:
 
-![Bijschriften](assets/captions.png)
+![Intelligente bijschriften voor lijnvisualisatie, waaronder Seizoensonaliteit, Min, Max, Spike en Afwijzen.](assets/captions.png)
 
 ## Kopiëren naar klembord {#copy}
 
@@ -62,8 +62,8 @@ U kunt de ondertiteling op dezelfde manier weer zichtbaar maken.
 
 U kunt **bijschriften exporteren via PDF**, zolang het project wordt opgeslagen met de gegenereerde bijschriften.
 
-## Bijschriften uitschakelen {#toggle}
+## Bijschriften in-/uitschakelen {#toggle}
 
 Als u liever geen intelligente bijschriften wilt genereren, kunt u deze functie uitschakelen door naar de voorkeuren voor Visualisatie te gaan en de optie uit te schakelen **[!UICONTROL Show intelligent captions]**.
 
-![bijschriftinstellingen](assets/toggle-captions.png)
+![Opties voor lijnvisualisatie waarmee u de optie voor het uitschakelen van de optie Intelligente bijschriften tonen kunt uitschakelen.](assets/toggle-captions.png)

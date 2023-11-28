@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1312'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    * Selecteer in het linkerspoor de optie **Visualisaties** pictogram <!-- add icon -->Sleep vervolgens een visualisatie naar het deelvenster waaraan u de afbeelding wilt toevoegen.
 
-     ![](assets/viz-rail.png)
+     ![Deelvenster Visualisaties](assets/viz-rail.png)
 
    * Selecteer in het deelvenster waar u de visualisatie wilt toevoegen de optie **Plus** en kiest u vervolgens het pictogram dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam ervan te zien.
 
@@ -81,14 +81,14 @@ U kunt instellingen aanpassen voor alle visualisaties die u maakt. Zie voor meer
 
 Elke visualisatie heeft eigen instellingen die u kunt beheren. Toegang tot [!UICONTROL Visualization Settings]klikt u op de knop [!UICONTROL Visualization Settings] tandwielpictogram.
 
-![Instellingen](assets/settings.png)
+![De montages die van visualisatie de plaatsingsopties tonen in de volgende sectie worden beschreven.](assets/settings.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
 | Visualisatietype | Wijzig het type visueel waarmee de gegevens worden weergegeven. |
 | Granulariteit | Voor getreneerde visualisaties kunt u de tijdsgranulariteit (dag, week, maand, enz.) wijzigen in deze vervolgkeuzelijst. Deze wijziging geldt ook voor de gegevensbrontabel. |
 | Percentage | Hiermee geeft u waarden weer in percentages. |
-| 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. Voorbeeld: ![Gestapeld 100%](assets/stacked_100_percent.png) |
+| 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. Voorbeeld: ![Een staafdiagram dat de gestapelde 100% optieweergave toont.](assets/stacked_100_percent.png) |
 | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor de visualisatie Samenvattingsnummer/Samenvattingswijziging verbergen. |
 | Max. items beperken | Hiermee kunt u het aantal items beperken dat in een visualisatie wordt weergegeven. |
 | Y-as verankeren op nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
@@ -107,7 +107,7 @@ Een label voor een legenda bewerken:
 1. Klik met de rechtermuisknop op een van de legenda-labels.
 1. Klik op **[!UICONTROL Edit Label]**.
 
-   ![Label bewerken](assets/edit-label.png)
+   ![Een legenda-label en de optie Label bewerken.](assets/edit-label.png)
 
 1. Voer de nieuwe labeltekst in.
 1. Druk **[!UICONTROL Enter]** opslaan.
@@ -116,7 +116,7 @@ Een label voor een legenda bewerken:
 
 Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rechtermuisknop op de visualisatiekop te klikken. De instellingen variëren per visualisatie. Enkele beschikbare instellingen zijn:
 
-![Klikken met rechtermuisknop](assets/right-click.png)
+![Aanvullende visualisatie-instellingen met de rechtermuisknop weergegeven opties. De opties worden beschreven in de volgende sectie.](assets/right-click.png)
 
 | Instelling | Beschrijving |
 | --- | --- |

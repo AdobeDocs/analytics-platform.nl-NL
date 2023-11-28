@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Report Builder-instellingen wijzigen
 
 1. Klikken **Toepassen**.
 
-   ![Klik op Toepassen.](./assets/image38.png)
+   ![Het venster Datumbereik Reporten Builder met de knoppen Annuleren en Toepassen.](./assets/image38.png)
 
 ## Offlinemodus
 
@@ -51,7 +51,7 @@ De taal selecteren die wordt gebruikt in de gebruikersinterface van de Report Bu
 
 1. Selecteer een taal in het menu **Taal** vervolgkeuzelijst.
 
-   ![Selecteer de taallijst.](./assets/image39.png)
+   ![Het venster Datumbereik van de Report Builder waarin de lijst Taal wordt weergegeven, waarbij Engels is geselecteerd.](./assets/image39.png)
 
 1. Klikken **Toepassen.**
 

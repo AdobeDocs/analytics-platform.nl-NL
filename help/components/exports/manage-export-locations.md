@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens de locatie die u wilt bewerken.
 
-   ![Locaties bewerken](assets/locations-edit.png)
+   ![Exporteert het venster met het tabblad Locaties en de lijst met locaties.](assets/locations-edit.png)
 
 1. Selecteren [!UICONTROL **Bewerken**].
 
@@ -71,7 +71,7 @@ Een locatie verwijderen:
 
 1. Selecteer de [!UICONTROL **Locaties**] selecteert u vervolgens een of meer locaties die u wilt verwijderen.
 
-   ![Locaties bewerken](assets/locations-edit.png)
+   ![Exporteert een venster met het tabblad Locaties en een lijst met locaties](assets/locations-edit.png)
 
 1. Selecteren [!UICONTROL **Verwijderen**].
 
@@ -89,7 +89,7 @@ Een locatie verwijderen:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-add.png)
+   ![Exporteert venster met het tabblad Locatierekeningen](assets/account-add.png)
 
 1. Selecteren [!UICONTROL **Details weergeven**] op de account die u wilt bewerken.
 
@@ -105,7 +105,7 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-add.png)
+   ![Exporteert venster met het tabblad Locatierekeningen](assets/account-add.png)
 
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Accountsleutels**].
 
@@ -115,7 +115,7 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **Locatieaccounts**] tab.
 
-   ![Accounts-pagina](assets/account-add.png)
+   ![Exporteert venster met het tabblad Locatierekeningen](assets/account-add.png)
 
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Account verwijderen**].
 

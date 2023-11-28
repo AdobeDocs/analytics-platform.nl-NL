@@ -2,9 +2,10 @@
 description: U kunt een workflow instellen die het goedkeuren van filters voor verschillende toepassingsniveaus, voor specifieke afdelingen of groepen en consistent met het rapportagebeleid omvat.
 title: Filters goedkeuren
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,6 @@ Hieronder wordt beschreven hoe u een filter kunt markeren zoals het is goedgekeu
 
    Let op het goedkeuringspictogram naast het filter in de lijst:
 
-   ![](assets/seg_approved.png)
+   ![Filterbeheer dat aangeeft dat bestellingen groter dan 100 zijn goedgekeurd voor delen.](assets/seg_approved.png)
 
 1. U kunt een goedgekeurd filter ook niet goedkeuren door op **[!UICONTROL Unapprove]**.

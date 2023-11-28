@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Als uw organisatie Adobe Customer Journey Analytics in dienst begint te nemen, kunt u enige gelijkenissen en verschillen tussen Adobe Analytics en Customer Journey Analytics opmerken. Deze pagina is bedoeld om deze verschillen toe te lichten, zodat uw organisatie sneller kan deelnemen aan de nieuwe implementatie- en rapportageworkflow. Deze pagina biedt ook extra bronnen over nieuwe concepten en verdere stappen om uw reis als analist gemakkelijker en succesvoller te maken.
 
-Verschillende functies in Customer Journey Analytics krijgen een nieuwe naam en worden opnieuw ontworpen om aan de industriestandaarden te voldoen. Sommige bijgewerkte terminologie omvat segmenten, virtuele rapportsuites, classificaties, klantenattributen, en containernamen. De beperkingen van eVars en props bestaan niet meer, ten gunste van flexibele aangepaste afmetingen en maatstaven.
+Verschillende functies in de Customer Journey Analytics krijgen een nieuwe naam en worden opnieuw ontworpen om aan de industriestandaarden te voldoen. Sommige bijgewerkte terminologie omvat segmenten, virtuele rapportsuites, classificaties, klantenattributen, en containernamen. De beperkingen van eVars en props bestaan niet meer, ten gunste van flexibele aangepaste afmetingen en maatstaven.
 
 ## Wat niet is gewijzigd
 
@@ -24,13 +24,13 @@ Veel van wat u op de verslaggevende kant kent is niet veranderd.
 
 * U kunt de kracht van [Analysis Workspace](/help/analysis-workspace/home.md) om uw gegevens te analyseren. Workspace werkt op dezelfde manier als in traditionele Adobe Analytics.
 * Dezelfde versie van [Adobe Analytics-dashboards](/help/mobile-app/home.md) is beschikbaar en werkt op vergelijkbare wijze tussen Customer Journey Analytics en Adobe Analytics.
-* [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt op MS Windows, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kunt u deze alleen gebruiken in Mac als u deze versie op VMware hebt uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
+* [Report Builder](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt op MS Windows, MacOS, en de Webversie van Excel. (Vóór deze versie van de Report Builder kon u niet in Mac gebruiken tenzij u het op VMware in werking stelde.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
 
 ## Wijzigingen in de rapportage
 
 U hebt veel meer toegang tot kanaalgegevens om te analyseren. Bijvoorbeeld, kunt u een werkruimteproject tot stand brengen dat prestaties van veelvoudige kanalen analyseert, op voorwaarde dat deze datasets door uw organisatie worden opgenomen en in gegevensmeningen inbegrepen die door Customer Journey Analytics worden gebruikt (zie &quot;Veranderingen in gegevensarchitectuur&quot;hieronder).
 
-![meerkanaalse visualisaties](assets/cross-channel.png)
+![De mening van Gegevensbronnen die multi-kanaal-visualisaties tonen](assets/cross-channel.png)
 
 ## Wijzigingen in gegevensarchitectuur {#architecture}
 
@@ -40,11 +40,11 @@ De gegevens van de klant in het Experience Platform worden opgeslagen als datase
 
 Uw Customer Journey Analytics Admin vestigt [verbindingen](/help/connections/create-connection.md) op gegevensreeksen in Experience Platform. Vervolgens bouwen ze [gegevensweergaven](/help/data-views/data-views.md) die verbindingen gebruiken. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in Customer Journey Analytics. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
 
-Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience Platform integreren in Customer Journey Analytics, die in de volgende video zijn opgenomen:
+Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience Platform integreren in Customer Journey Analytics, die in de volgende video is opgenomen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe biedt veelvoudige manieren aan om gegevens in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de de bronschakelaar van de Analyse of SDK van het Web te brengen. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
+De Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de de bronschakelaar van de Analyse of SDK van het Web. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 
@@ -58,15 +58,15 @@ Zie [Gebruik hoofdletters en kleine letters in gegevensweergaven](/help/use-case
 
 ## Wijzigingen in het concept van eVars en props
 
-De begrippen [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in het traditionele Adobe Analytics bestaat niet meer in [!UICONTROL Customer Journey Analytics]. In Adobe Analytics worden in eVars en props beschrijvingen van inhoud, klanten, campagnes, enzovoort opgeslagen. en gebeurtenissen tellen dingen zoals opbrengst, abonnementen, of geproduceerde lood. Customer Journey Analytics behoudt beide typen gegevens en u kunt ze op dezelfde manier benaderen - vanaf de linkerspoorstaaf in Analysis Workspace, onder Dimension of Metrics.
+De begrippen [!UICONTROL eVars], [!UICONTROL props], en [!UICONTROL events] in het traditionele Adobe Analytics bestaat niet meer in [!UICONTROL Customer Journey Analytics]. In Adobe Analytics worden in eVars en props beschrijvingen van inhoud, klanten, campagnes, enzovoort opgeslagen. en gebeurtenissen tellen dingen zoals opbrengst, abonnementen, of geproduceerde lood. Customer Journey Analytics bewaart beide soorten gegevens, en u kunt tot hen de zelfde manier - van de linkerspoorstaaf in Analysis Workspace, onder Dimensionen of Metrics, respectievelijk toegang hebben.
 
-In Customer Journey Analytics zijn onbeperkte schema-elementen beschikbaar, zoals afmetingen, metriek en lijstvelden. Deze worden toegewezen aan onbeperkte schemaelementen met inbegrip van afmetingen, metriek en lijstgebieden in Experience Platform. Alle instellingen voor bezoeken en toeschrijvingen die zijn toegepast na de verwerkingsregels in Adobe Analytics, zijn nu van toepassing op het querytijdstip in Customer Journey Analytics.
+In Customer Journey Analytics, zijn de onbeperkte schemaelementen beschikbaar, met inbegrip van dimensies, metriek, en lijstgebieden. Deze worden toegewezen aan onbeperkte schemaelementen met inbegrip van afmetingen, metriek en lijstgebieden in Experience Platform. Alle instellingen voor bezoeken en toeschrijvingen die zijn toegepast na de verwerkingsregels in Adobe Analytics, zijn nu van toepassing op het querytijdstip in de Customer Journey Analytics.
 
 Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebied als zowel dimensies als metrisch kan worden gebruikt om verschillende het volgen behoeften te steunen.
 
 ## Wijzigingen van het begrip &quot;segmenten&quot;
 
-Adobe heeft de naam van de component &quot;segmenten&quot; gewijzigd in &quot;filters&quot; om deze beter af te stemmen op de industriestandaarden en een beter onderscheid te maken met segmenten in Adobe Experience Platform.
+Adobe heeft de naam van de &quot;segmenten&quot; gewijzigd in &quot;filters&quot; om deze beter af te stemmen op de industriestandaarden en om segmenten in Adobe Experience Platform beter te kunnen onderscheiden.
 
 [!UICONTROL Customer Journey Analytics] gebruikt niet meer eVars, props, of gebeurtenissen en gebruikt in plaats daarvan de het schemagebiedsnaam van het Experience Platform waaraan zij in kaart zijn gebracht. Deze wijziging betekent dat geen van de bestaande segmenten in Adobe Analytics compatibel is met [!UICONTROL Customer Journey Analytics]. Zie de volgende video als u bestaande Adobe Analytics-segmenten naar Customer Journey Analytics wilt verplaatsen:
 
@@ -102,12 +102,12 @@ U kunt ook meerdere gegevensweergaven hebben op basis van dezelfde verbinding. U
 
 De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets van het Profiel&quot;. De datasets van het profiel bevatten gegevens die op uw personen, gebruikers, of klanten in worden toegepast [!UICONTROL Event] gegevens. Bijvoorbeeld, staat het u toe om de gegevens van CRM over uw klanten te uploaden. U kunt kiezen welke persoon-id u wilt opnemen. Elke gegevensset gedefinieerd in [!DNL Experience Platform] heeft een eigen set van een of meer personen-id&#39;s gedefinieerd.
 
-## Wijzigingen in de manier waarop Adobe bezoekers identificeert
+## Wijzigingen in de manier waarop bezoekers door de Adobe worden geïdentificeerd
 
-Customer Journey Analytics breidt de begrippen van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Gebruikend gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken [Stiksel](../stitching/overview.md) de hulp verbindt mensen over verschillende datasets samen. Om het even welke gebruiker die opstelling een project van de Werkruimte in Customer Journey Analytics moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt:
+Customer Journey Analytics breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Gebruikend gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken [Stiksel](../stitching/overview.md) de hulp verbindt mensen over verschillende datasets samen. Om het even welke gebruiker die opstelling een project van de Werkruimte in Customer Journey Analytics moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 
-In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensieitems rapporteren. Zie [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md) voor meer informatie over hoe Customer Journey Analytics het rapporteren van dimensies met vele unieke waarden optimaliseert.
+In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder te knippen [!UICONTROL Low-Traffic]. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensieitems rapporteren. Zie [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md) voor meer informatie over hoe Customer Journey Analytics rapportage optimaliseert voor dimensies met veel unieke waarden.

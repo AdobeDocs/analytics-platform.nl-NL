@@ -3,9 +3,9 @@ description: Een histogram lijkt op een staafdiagram, maar het groepeert getalle
 title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Een histogram maken:
 
 1. Klikken **[!UICONTROL Visualizations]** in het linkerspoor.
 1. Slepen **[!UICONTROL Histogram]** in het deelvenster.
-1. Kies een metrisch teken om naar de histogramvisualisatie te slepen en klik op **[!UICONTROL Build]**.
+1. Kies een metrisch teken dat u naar de histogram wilt slepen en klik op **[!UICONTROL Build]**.
 
-![](assets/histogram.png)
+![Leeg histogram, deelvenster met een metrisch veld onder Daling.](assets/histogram.png)
 
 >[!NOTE]
 >
@@ -47,18 +47,18 @@ Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instell
 
 **Voorbeelden**:
 
-* Emmertje starten: 1; Metrische emmers: 5; Grootte metrische Emmertje: 2 resulteert in dit histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Emmertje starten: 0; Metrische emmers: 3. Grootte metrische Emmertje: 5 resulteert in dit histogram: 0-4, 5-9, 10-14
+* Startemmertje: 1; Metrische emmers: 5; Metrische Emmergrootte: 2 resulteert in dit histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
+* Startemmertje: 0; Metrische emmers: 3; Metrische Emmergrootte: 5 resulteert in dit histogram: 0-4, 5-9, 10-14
 
 ## Histogramgegevens weergeven en bewerken {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
 Als u de gegevensbron voor het histogramdiagram wilt weergeven of wijzigen, klikt u op de punt naast de kop van het histogram om naar **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
 
-![](assets/manage-data-source.png)
+![Instellingen gegevensbron met Selectie weergeven en Selectie vergrendelen geselecteerd.](assets/manage-data-source.png)
 
 Vooraf samengestelde filters die in de tabel worden weergegeven, zijn interne filters die niet worden weergegeven in de filterkiezer. Klik op het pictogram &quot;i&quot; naast de filternaam en klik vervolgens op **[!UICONTROL Make public]** om het filter openbaar te maken.
 
-![](assets/prebuilt_segments.png)
+![Segmenten die het bewerkvenster en de koppeling Openbaar maken weergeven.](assets/prebuilt_segments.png)
 
 Ga voor meer manieren om gegevenstabellen en andere visualisaties in Freeform te beheren, zoals het uitvoeren van gegevensonderverdelingen, naar [hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
 

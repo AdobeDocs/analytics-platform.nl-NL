@@ -4,9 +4,9 @@ description: Leer hoe te om op rekening-gebaseerde gegevens als raadplegingsdata
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U creeert eerst een raadplegingsschema in Adobe Experience Platform, dan creeer 
 
 Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de lijst zorgt ervoor dat de gebruikte dataset in Customer Journey Analytics met de correcte opstelling (verslagtype) beschikbaar zal zijn. De beste praktijken zijn [een aangepaste schema-klasse maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) genoemd &quot;Opzoeken&quot;, leeg van om het even welk element, dat voor alle raadplegingslijsten kan worden opnieuw gebruikt.
 
-![](../assets/create-new-class.png)
+![Het dialoogvenster Nieuwe klasse maken.](../assets/create-new-class.png)
 
 ## 2. Opzoekgegevensset maken (Experience Platform)
 

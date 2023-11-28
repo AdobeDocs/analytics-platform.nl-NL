@@ -3,9 +3,9 @@ description: De filterontwikkelaar biedt een canvas voor het slepen en neerzette
 title: Filters maken
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1169'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ U kunt tot de Bouwer van de Filter op om het even welke volgende manieren toegan
 
 U kunt regeldefinities en containers toevoegen om uw filters te definiëren. (Voor informatie over de toegang tot van de Bouwer van de Filter, zie [Toegang krijgen tot de constructor Filter](#access-the-filter-builder).)
 
-![](assets/segment_builder_ui_2.png)
+![Filterbouwer die de nieuwe filteropties weergeeft die in deze sectie worden beschreven.](assets/segment_builder_ui_2.png)
 
 | UI-element | Beschrijving |
 | --- | --- |

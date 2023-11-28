@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: queryservice;Query-service;sql-syntaxis
-source-git-commit: 5caae6c8dd38eb5c6ef9cf02cdff965add75b312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Aangezien uw organisatie Customer Journey Analytics goedkeurt, kunt u sommige ve
 
 Laten we aannemen dat je Adobe Analytics-gegevens via de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)en maakte vervolgens een verbinding met de Customer Journey Analytics met deze dataset.
 
-![gegevensstroom](assets/compare.png)
+![De gegevensstroom van Adobe Analytics door de gegevensschakelaar aan Adobe Experience Platform en aan de Analyse van de Reis van de klant gebruikend verbindingen CJA.](assets/compare.png)
 
 Vervolgens hebt u een gegevensweergave gemaakt en tijdens de rapportage van deze gegevens over de Customer Journey Analytics hebt u afwijkingen gezien van de rapportresultaten in Adobe Analytics.
 

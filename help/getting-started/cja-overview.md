@@ -4,9 +4,9 @@ description: Leer hoe u met Customer Journey Analytics Analysis Workspace kunt g
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Customer Journey Analytics is de volgende generatie Analytics-oplossing van de A
 
 De architectuur van de Customer Journey Analytics op hoog niveau wordt hier getoond:
 
-![architectuur](assets/cja-architecture.png)
+![De architectuur van de Customer Journey Analytics die in deze sectie wordt verklaard](assets/cja-architecture.png)
 
 Hier volgt een video-overzicht van de Customer Journey Analytics:
 

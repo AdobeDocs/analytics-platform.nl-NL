@@ -3,9 +3,9 @@ description: Documentatie waarin wordt beschreven hoe tabellen in Analysis Works
 title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Gegevens filteren in Freeform-tabellen:
 
 1. Selecteer de **Filter** wanneer deze wordt weergegeven.
 
-   ![Filterpictogram in een tabel](assets/table-filter-icon.png)
+   ![De lijst van de vrije vorm die het pictogram van de Filter benadrukt.](assets/table-filter-icon.png)
 
    De volgende opties zijn beschikbaar:
 
@@ -108,6 +108,6 @@ Pijl-omlaag ![Pijl-omlaag - pictogram gesorteerde tabelkolom](https://spectrum.a
    - De pijl-omlaag sorteert in aflopende volgorde en de pijl-omhoog (standaard) in oplopende volgorde.
    - U kunt Dimensionen alfabetisch of numeriek sorteren. U hebt bijvoorbeeld genummerde stappen in een werkstroom en wilt mogelijk sorteren op het stapnummer. U kunt een aan een datum gerelateerde dimensie op datum sorteren. U kunt gegevensbronnen ook alfabetisch sorteren, zoals in de volgende afbeelding.
 
-   ![](assets/sort-dimensions.png)
+   ![De gegevensbronweergave markeert het sorteerpictogram.](assets/sort-dimensions.png)
 
 

@@ -3,9 +3,9 @@ description: De Berekende Metrische Manager biedt vele manieren om metriek, zoal
 title: Berekende standaard-beheer
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '702'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ De berekende metrische pagina biedt vele manieren aan om metriek, zoals het dele
 
 De Berekende metrische manager toont u alle filters u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle aangepaste maatstaven in de organisatie zien. Dit overzicht geeft de gebruikersinterface en de mogelijkheden van de Berekende metrische manager.
 
-![](assets/calc-metric-manager.png)
+![Het venster Berekende meetgegevens toont de beschikbare filters.](assets/calc-metric-manager.png)
 
 ## Toegang tot het Berekende manager van metriek
 

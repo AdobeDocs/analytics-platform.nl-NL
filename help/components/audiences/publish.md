@@ -3,9 +3,9 @@ title: Een publiek maken en publiceren naar het realtime profiel van de klant
 description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
    Configureer deze instellingen voordat u het publiek kunt publiceren.
 
-   ![Screenshot van hoe u een publiek kunt maken](assets/create-audience.png)
+   ![Schermafbeelding van de instellingen voor het schetsen van het publiek die in de volgende sectie worden beschreven.](assets/create-audience.png)
 
    | Instelling | Beschrijving |
    | --- | --- |
@@ -52,7 +52,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
    De voorvertoning voor het publiek wordt weergegeven in de rechtertrack. Hiermee kunt u een samengevatte analyse maken van het publiek dat u hebt gemaakt.
 
-   ![Schermafbeelding van de gegevensvoorvertoning](assets/data-preview.png)
+   ![Screenshot van de gegevensvoorvertoning met een samengevatte analyse van het publiek.](assets/data-preview.png)
 
    | Voorvertoning instellen | Beschrijving |
    | --- | --- |
@@ -108,7 +108,7 @@ U kunt het publiek van de Customer Journey Analytics in Platform bekijken door n
 
 U kunt het publiek van de Customer Journey Analytics in de segmentdefinitie voor de segmenten van Adobe Experience Platform slepen.
 
-![](assets/audiences-aep.png)
+![UI van het Platform van de Adobe Expericen benadrukt Segmenten in de linkerruit en publiek CJA in het belangrijkste paneel.](assets/audiences-aep.png)
 
 ## Veelgestelde vragen {#faq}
 

@@ -1,12 +1,12 @@
 ---
 title: Veelgestelde vragen over analyse met instructies
 description: Veelgestelde vragen over de analyse met instructies.
-exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ while [Analysis Workspace](../analysis-workspace/home.md) en de analyse Met inst
 
 * **De geleide analyse is een gebeurtenis-gecentreerde ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en filters kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
 
-![Structuur](assets/structure.png)
+![Analysis Workspace- en Guided-analyseweergaven](assets/structure.png)
 
 Kijk in het volgende voorbeeld naar de gegevens op de homepage van uw website. Teams stellen gelijkaardige vragen, maar de analyse benadering kan verschillend zijn.
 

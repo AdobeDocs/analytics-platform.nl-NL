@@ -4,9 +4,9 @@ description: Beschrijft hoe te om een verbinding aan een dataset van het Platfor
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2667'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ U moet beschikken over **Selecteren** pakket om onbeperkte aantallen datasets aa
 1. Klik in Customer Journey Analytics op de knop **[!UICONTROL Connections]** tab.
 1. Klik op **[!UICONTROL Create new connection]**.
 
-   ![Verbindingsinstellingen](assets/create-conn1.png)
+   ![Naamloze verbindingsinstellingen](assets/create-conn1.png)
 
 1. Configureer de verbindingsinstellingen.
 

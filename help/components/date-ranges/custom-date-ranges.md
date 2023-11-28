@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Aangepaste datumbereiken maken
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 4%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
@@ -23,15 +23,15 @@ Er wordt een datumbereik toegepast op paneelniveau. Als u een datumbereik aan uw
 
 De volgende waaier van de douanedatum toont een datumwaaier voor &quot;twee maanden geleden,&quot;met een Summiere visualisatie van de Verandering die richtingsverandering toont.
 
-![](assets/date-range-two-months-ago.png)
+![De Bouwer van de Waaier van de Waaier die van het Gebruik twee maand geleden toont](assets/date-range-two-months-ago.png)
 
 Het aangepaste datumbereik wordt boven aan het dialoogvenster [!UICONTROL Date Range] deelvenster in uw project:
 
-![](assets/date-range-panel-two-months-ago.png)
+![Deelvenster Datumbereik met pijl die wijst naar Twee maanden geleden.](assets/date-range-panel-two-months-ago.png)
 
 U kunt dit aangepaste datumbereik naar een kolom slepen naast een aangepast maandelijks roldatumbereik met de voorinstelling Laatste maand voor een vergelijking. Voeg een Summiere visualisatie van de Verandering toe en selecteer de totalen van elke kolom om richtingsverandering te tonen:
 
-![](assets/date-range-two-months-table.png)
+![Samenvattingsverandering met een toename van 14,45%.](assets/date-range-two-months-table.png)
 
 ## Een 7-daags roldatumbereik gebruiken
 
@@ -41,7 +41,7 @@ In de Bouwer van de Waaier van de Waaier van de Datum, kunt u een waaier van de 
 
 U kunt bijvoorbeeld een datumbereik maken dat een rolvenster van 7 dagen opgeeft dat een week geleden eindigt:
 
-![](assets/create_date_range.png)
+![De Bouwer van de Waaier van de Waaier van de datum die een datumwaaier toont die 7 dagen het rollen venster specificeert.](assets/create_date_range.png)
 
 Gebruiken *`rolling daily`*.
 

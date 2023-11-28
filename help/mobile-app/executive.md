@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -37,33 +37,33 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 >[!NOTE]
 >
->Hoewel de mobiele app in de App Store de naam Adobe Analytics-dashboard heeft, kan de app ook worden gebruikt met mobiele Customer Journey Analytics-scorecards.
+>Hoewel de mobiele app in de App Store de naam Adobe Analytics-dashboard heeft, kan de app ook worden gebruikt bij mobiele scorecards voor Customers Journey Analytics.
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in de Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 [iOS-koppeling](https://apple.co/2zXq0aN)
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in de Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 [Android-koppeling](https://bit.ly/2LM38Oo)
 
-Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Customer Journey Analytics-referenties.
+Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Customer Journey Analytics.
 
-![Welkomstscherm van app](assets/welcome.png)
+![Welkomstscherm van Customer Journey Analytics-app](assets/welcome.png)
 
 ## Dashboards gebruiken {#use-dashboards}
 
-Dashboards gebruiken:
+U kunt als volgt dashboards gebruiken:
 
-1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen met behulp van uw bestaande Customer Journey Analytics-referenties. Wij ondersteunen zowel Adobe- als Enterprise-/federatieve id&#39;s.
+1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen op basis van de bestaande referenties van de Customer Journey Analytics. Wij ondersteunen zowel Adobe als Enterprise/Federated ID&#39;s.
 
    ![Volgorde aanmelden](assets/signseq.png)
 
-1. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, worden **[!UICONTROL Choose a company]** wordt weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan de scorecard die met u wordt gedeeld.
+1. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, worden de **[!UICONTROL Choose a company]** wordt weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan de scorecard die met u wordt gedeeld.
 
    De scorecard lijst toont alle scorecards die met u worden gedeeld.
 
@@ -82,7 +82,7 @@ Dashboards gebruiken:
 
    ![Niets gedeeld](assets/nothing.png)
 
-1. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie ) .
+1. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze; zie **[!UICONTROL Preferences]** hieronder voor meer informatie ) .
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
@@ -113,18 +113,18 @@ Dashboards gebruiken:
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumbereiken—ofwel de huidige tijdsperiode of de reeks die er direct aan voorafgaat. Tik op een van deze twee opties om het eerste bereik te selecteren. Onder de **[!UICONTROL COMPARE TO]** tikt u op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tikken **[!UICONTROL Done]** in de rechterbovenhoek van het scherm. De **[!UICONTROL Date Ranges]** worden de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd, bijgewerkt met de scorebordtegels.
+   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumbereiken—ofwel de huidige tijdsperiode of de reeks die er direct aan voorafgaat. Tik op een van deze twee opties om het eerste bereik te selecteren. Onder de **[!UICONTROL COMPARE TO]** tikt u op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tikken **[!UICONTROL Done]** rechtsboven in het scherm. De **[!UICONTROL Date Ranges]** worden de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd, bijgewerkt met de scorebordtegels.
 
 1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in Workspace.
 
    ![Segment, filter](assets/segment_filter.png)
 
-1. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Customer Journey Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
+1. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderverdelingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van de Customer Journey Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
 1. Feedback geven op deze app:
 
    1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
-   2. Op de **[!UICONTROL Settings]** scherm tikken, tikken op **[!UICONTROL Feedback]** optie.
+   2. Op de **[!UICONTROL Settings]** scherm tikken, tikken op **[!UICONTROL Feedback]** -optie.
    3. Tik om de opties voor het geven van feedback weer te geven.
 
       ![Instellingenscherm](assets/settings.png)
@@ -140,7 +140,7 @@ Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor 
 
 ![Fout rapporteren](assets/newbug.png)
 
-**Een verbetering voorstellen**:
+**Om een verbetering voor te stellen**:
 
 Tik op de optie en kies een subcategorie voor de suggestie. Geef in het aanvraagformulier uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermafbeelding van uw accountgegevens aan het bericht toegevoegd, maar u kunt dit desgewenst verwijderen door op de knop **X** in de bijlage. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de suggestie te verzenden.
 
@@ -152,8 +152,8 @@ Tik op de optie en geef uw e-mailadres op in het bovenste veld en uw vraag in he
 
 | Term | Definitie |
 |--- |--- |
-| Consumenten | Executive-medewerkers die belangrijke metriek en inzichten van Customer Journey Analytics op een mobiel apparaat bekijken |
-| Curator | De gegevens schrijven mensen voor die inzichten van Customer Journey Analytics vinden en verspreiden en de Scorecards vormen die door de consument moeten worden bekeken |
+| Consumenten | Executive-gebruiker die belangrijke metriek en inzichten van Customer Journey Analytics op een mobiel apparaat bekijkt |
+| Curator | De gegevens schrijven mensen voor die inzicht van Customer Journey Analytics vinden en verspreiden en de Scorecards vormen die door de consument moeten worden bekeken |
 | Curation | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
 | Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |

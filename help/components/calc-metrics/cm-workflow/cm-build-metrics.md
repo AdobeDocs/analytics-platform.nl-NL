@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen
 title: Cijfers samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ U kunt op de volgende manieren beginnen met het maken van een berekende metrisch
 
 In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van de builder van berekende metriek uitgelegd.
 
-![](assets/cm_builder_ui.png)
+![Nieuw berekend metriekvenster dat de belangrijkste gebieden en eigenschappen toont die in deze sectie worden beschreven.](assets/cm_builder_ui.png)
 
 | Veld | Beschrijving |
 | --- | --- |

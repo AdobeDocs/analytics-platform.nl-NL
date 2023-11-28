@@ -1,12 +1,12 @@
 ---
 title: Afmetingen van hoge kardinaliteit
-description: Verklaart hoe Customer Journey Analytics dimensies met vele unieke waarden behandelt
+description: Verklaart hoe de Customer Journey Analytics dimensies met vele unieke waarden behandelt
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Wanneer het gebruiken van een afmeting die vele unieke waarden bevat, kan het re
 
 Wanneer u om een rapport met teveel unieke waarden verzoekt, toont Analysis Workspace een indicator in de afmetingskopbal die verklaart dat niet alle afmetingspunten inbegrepen zijn. Bijvoorbeeld &quot;Rijen: 1-50 van meer dan 22.343.156&quot;. Het &quot;meer dan&quot;sleutelwoord wijst erop dat één of andere optimalisering werd toegepast op het rapport om de belangrijkste afmetingspunten terug te keren.
 
-![Werkruimte voorvertonen](assets/high-cardinality.png)
+![Vrije-vormtabel in Workspace met het trefwoord &quot;Meer dan&quot; om 1-50 van meer dan 22.343.156 weer te geven](assets/high-cardinality.png)
 
 ## Bepalen welke dimensie-items moeten worden weergegeven
 
-Customer Journey Analytics verwerkt rapporten in de tijd dat zij in werking worden gesteld, die de gecombineerde dataset aan verscheidene servers verdelen. Gegevens per verwerkingsserver worden gegroepeerd op persoon-id, wat betekent dat één verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra een server klaar is met de verwerking, stuurt deze de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
+De processen van de Customer Journey Analytics rapporten in de tijd dat zij in werking worden gesteld, die de gecombineerde dataset aan verscheidene servers verdelen. Gegevens per verwerkingsserver worden gegroepeerd op persoon-id, wat betekent dat één verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra een server klaar is met de verwerking, stuurt deze de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
 
 Als om het even welke individuele server gegevens verwerkt die een unieke drempel overschrijden, beknotten het de resultaten alvorens de verwerkte ondergroep van gegevens terug te keren. Afgeknot dimensieitems worden bepaald op basis van de metrische waarde die wordt gebruikt voor sorteren.
 
@@ -34,7 +34,7 @@ Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zoude
 De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
 * Een [Filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
-* Gebruik een zoekopdracht. Dimension items die zijn uitgesloten van de zoekterm, worden verwijderd uit de rapportresultaten, waardoor het waarschijnlijker wordt dat u de gewenste dimensie-items ziet.
+* Gebruik een zoekopdracht. De punten van het Dimension die van de onderzoekstermijn worden uitgesloten worden verwijderd uit de rapportresultaten, die het waarschijnlijker maken dat u de gewenste afmetingspunten ziet.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 * Gebruik de [Opnemen/uitsluiten](/help/data-views/component-settings/include-exclude-values.md) in het gegevensweergavebeheer.
 * Verkort het datumbereik van de aanvraag. Als er zich na verloop van tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.

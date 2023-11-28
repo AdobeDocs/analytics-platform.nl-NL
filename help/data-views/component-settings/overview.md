@@ -4,9 +4,9 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 De montages van de kern die een component van de gegevensmening gebruikt.
 
-![Componentinstellingen](../assets/component-settings.png)
+![Componentinstellingen die in deze sectie worden beschreven](../assets/component-settings.png)
 
 | Instelling | Beschrijving/Gebruik hoofdletters/kleine letters |
 | --- | --- |

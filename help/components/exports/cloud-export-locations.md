@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1499'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    Selecteer de [!UICONTROL **Locatieaccounts**] selecteert u het pictogram met drie punten op een bestaande account waaraan u een locatie wilt toevoegen en selecteert u vervolgens [!UICONTROL **Locatie toevoegen**].
 
-   ![Locatie toevoegen aan bestaande account](assets/add-location-existing-account.png)
+   ![GCP-account en keuzemenu voor elipsis met de optie Locatie toevoegen geselecteerd](assets/add-location-existing-account.png)
 
    Het dialoogvenster Locatie wordt weergegeven.
 

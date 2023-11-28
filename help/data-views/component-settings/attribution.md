@@ -4,9 +4,9 @@ description: Hiermee kunt u de standaardattributie voor een metrische waarde ins
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De attributie geeft u de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen.
 
-![](../assets/attribution-settings.png)
+![Het venster Gegevens markeert de optie Toekenning instellen](../assets/attribution-settings.png)
 
 Bijvoorbeeld:
 
@@ -46,7 +46,7 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 
 1. Selecteer de component en vouw vervolgens de sectie Kenmerk aan de rechterkant van het scherm uit.
 
-   ![](../assets/attribution-settings.png)
+   ![Het venster Gegevens markeert de optie Toekenning instellen](../assets/attribution-settings.png)
 
 1. Selecteren [!UICONTROL **Kenmerk instellen**] selecteert u vervolgens het toewijzingsmodel in het dialoogvenster [!UICONTROL **Attributiemodel**] vervolgkeuzelijst.
 

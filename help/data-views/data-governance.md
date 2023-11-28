@@ -3,9 +3,9 @@ title: Labels en beleid
 description: Leer hoe de gegevensetiketten en het beleid in Adobe Experience Platform worden bepaald gegevensmeningen en rapportering in Customer Journey Analytics beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ U kunt controleren om te zien of wordt een beleid aangezet dat het gebruik van b
 
 Klik nogmaals op de knop [!UICONTROL filter] pictogram in de linkerspoorstaaf en onder **[!UICONTROL Data Governance]**, klikt u op **[!UICONTROL Policies]**:
 
-![](assets/filter-policies.png)
+![Filter bevat componenten op lijst met geselecteerde opties voor Analyse afdwingen](assets/filter-policies.png)
 
 Klikken **[!UICONTROL Apply]** om te zien welk beleid wordt toegelaten.
 
@@ -67,7 +67,7 @@ Als de **[!UICONTROL Enforce Analytics]** of **[!UICONTROL Enforce Download]** h
 
 Deze onderdelen worden grijs weergegeven in de linkerrails [!UICONTROL Schema fields] lijst:
 
-![](assets/component-greyed.png)
+![Grijsvervormde componenten en het beleidsbericht dat beleid aangeeft zijn toegepast op dit veld waardoor het gebruik van de gegevens wordt beperkt](assets/component-greyed.png)
 
 U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 

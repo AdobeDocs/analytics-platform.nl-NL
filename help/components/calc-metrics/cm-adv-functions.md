@@ -3,16 +3,16 @@ title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3119'
 ht-degree: 1%
 
 ---
 
 # Referentie - geavanceerde functies
 
-Toegang tot deze functies door **[!UICONTROL Show Advanced]** in de **[!UICONTROL Functions]** vervolgkeuzelijst.
+Toegang tot deze functies door te controleren **[!UICONTROL Show Advanced]** in de **[!UICONTROL Functions]** vervolgkeuzelijst.
 
 ## Tabelfuncties versus rijfuncties
 
@@ -61,11 +61,11 @@ Het geschatte Verschil van de Telling (de eVar van identiteitskaart van de klant
 
 Definitie voor een nieuwe berekende metrische waarde &quot;Benaderende Klanten&quot;:
 
-![](assets/approx-count-distinct.png)
+![Benaderende graafspecifieke nieuwe dimensie-definitie die Klantidentiteitskaart (eVar1) toont](assets/approx-count-distinct.png)
 
 Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in het melden van:
 
-![](assets/approx-customers.png)
+![Vrije-vormentabel met unieke bezoekers en geschatte klanten ](assets/approx-customers.png)
 
 ## Uniques Exceeded
 
@@ -79,7 +79,7 @@ Deze functie zal marginaal minder nauwkeurig zijn dan Count() en RowCount() omda
 
 ## Boogcosinus (rij)
 
-Retourneert de arccosinus, of omgekeerd van de cosinus, van een metrische waarde. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik 0 (nul) tot pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI( ).
+Retourneert de arccosinus, of omgekeerd van de cosinus, van een metrische waarde. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI( ).
 
 ```
 ACOS(metric)
@@ -87,7 +87,7 @@ ACOS(metric)
 
 | Argument |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot en met 1. |
+| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
 
 ## Boogsinus (rij)
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | Argument |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot en met 1. |
+| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
 
 ## Booghoek (rij)
 
@@ -111,9 +111,9 @@ ATAN(metric)
 
 | Argument |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot en met 1. |
+| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
 
-## Exponentiële regressie: Voorspeld Y (rij)
+## Exponentiële regressie: voorspelde Y (rij)
 
 Berekent de voorspelde y-waarden (metrisch_Y), gezien de bekende x-waarden (metrisch_X) gebruikend de &quot;minste vierkanten&quot;methode om de lijn van best te berekenen past gebaseerd op.
 
@@ -174,7 +174,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | --- | --- |
 | Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
 | Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
-| Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| Besturing | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
 | Significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
 
 {style="table-layout:auto"}
@@ -225,7 +225,7 @@ Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wor
 
 >[!NOTE]
 >
->Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/persoon: het gemiddelde van de percentages in plaats van de inkomsten over de laatste N op te tellen en personen over de laatste N op te tellen en vervolgens te verdelen. Gebruik in plaats daarvan
+>Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/persoon: het gemiddelde van de tarieven in plaats van het optellen van opbrengst over laatste N en het optellen van personen over laatste N en dan het verdelen van hen. Gebruik in plaats daarvan
 
 ```
 cumul(revenue)/cumul(person)
@@ -261,7 +261,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Exponentiële regressie: Helling (tabel)
+## Exponentiële regressie: helling (tabel)
 
 Geeft de helling terug, *a*, tussen twee metrische kolommen ( *metrisch_X* en *metrisch_Y*) voor .
 
@@ -364,13 +364,13 @@ fx Lift (normalizing-container, success-metric, control)
 | --- | --- |
 | Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
 | Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
-| Control | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| Besturing | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
 
 {style="table-layout:auto"}
 
 ## Lineaire regressie_ Correlatiecoëfficiënt
 
-Y = a X + b. Hiermee wordt de correlatiecoëfficiënt geretourneerd
+Y = a X + b. Retourneert de correlatiecoëfficiënt
 
 ## Lineaire regressie_ Intercept
 
@@ -409,7 +409,7 @@ CORREL.LOG(metric_X,metric_Y)
 | *metrisch_X* | Een metrisch waarmet u zou willen correleren *metrisch_Y*. |
 | *metrisch_Y* | Een metrisch waarmet u zou willen correleren *metrisch_X*. |
 
-## Logregressie: Intercept (tabel)
+## Logregressie: Onderscheppen (tabel)
 
 Retourneert de onderschepping *b* als de kleinste kwadraatregressie tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de INTERCEPT-vergelijking.
 
@@ -422,7 +422,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Logboekregressie: Voorspeld Y (rij)
+## Logregressie: voorspelde Y (rij)
 
 Berekent de voorspelde waarde [!DNL y] waarden (metrisch_Y), gegeven het bekende [!DNL x] waarden (metrisch_X) die de &quot;minste vierkantjes&quot;methode gebruiken om de lijn van best te berekenen past gebaseerd op [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de ESTIMATE-vergelijking.
 
@@ -437,7 +437,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Logregressie: Helling (tabel)
+## Logregressie: helling (tabel)
 
 Geeft de helling terug, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Het wordt berekend gebruikend de vergelijking van de REEKS.
 
@@ -533,7 +533,7 @@ Retourneert de onderschepping. *b*, tussen twee metrische kolommen (*metrisch_X*
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Stroomregressie: Voorspeld Y (rij)
+## Stroomregressie: voorspeld Y (rij)
 
 Berekent de voorspelde waarde [!DNL y] waarden ( [!DNL metric_Y]), gezien de [!DNL x] waarden ( [!DNL metric_X]) met behulp van de methode &quot;kleinste vierkantjes&quot; voor het berekenen van de regel die het best geschikt is voor [!DNL Y = b*X].
 
@@ -546,7 +546,7 @@ Berekent de voorspelde waarde [!DNL y] waarden ( [!DNL metric_Y]), gezien de [!D
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Stroomregressie: Helling (tabel)
+## Stroomregressie: helling (tabel)
 
 Geeft de helling terug, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X].
 
@@ -559,7 +559,7 @@ SLOPE.POWER(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Quadratische regressie: Correlatiecoëfficiënt (tabel)
+## Kwartaalregressie: Correlatiecoëfficiënt (tabel)
 
 Retourneert de correlatiecoëfficiënt; *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y=(a*X+b)]****.
 
@@ -585,7 +585,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Quadratische regressie: Voorspeld Y (rij)
+## Quadratische regressie: voorspelde Y (rij)
 
 Berekent de voorspelde waarde [!DNL y] waarden (metrisch_Y), gegeven het bekende [!DNL x] waarden (metrisch_X) die de minste vierkantsmethode gebruiken om de lijn van best te berekenen past gebruikend [!DNL Y=(a*X+b)]**** .
 
@@ -598,7 +598,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 | *metrisch_A* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_B* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 
-## Quadratische regressie: Helling (tabel)
+## Kwadratische regressie: helling (tabel)
 
 Geeft de helling terug, *a*, tussen twee metrische kolommen (*metrisch_X* en metrisch_Y) voor [!DNL Y=(a*X+b)]****.
 
@@ -637,7 +637,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Wederkerige regressie: Voorspeld Y (rij)
+## Wederkerige regressie: voorspelde Y (rij)
 
 Berekent de voorspelde waarde [!DNL y] waarden (metrisch_Y), gegeven het bekende [!DNL x] waarden (metrisch_X) die de minste vierkantsmethode gebruiken om de lijn van best te berekenen past gebruikend [!DNL Y = a/X+b].
 
@@ -650,7 +650,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 | *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
 | *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
 
-## Wederkerige regressie: Helling (tabel)
+## Wederkerige regressie: helling (tabel)
 
 Geeft de helling terug, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = a/X+b].
 

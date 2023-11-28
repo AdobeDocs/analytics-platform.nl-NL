@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3204'
+source-wordcount: '3214'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt instellingen voor Analysis Workspace en de bijbehorende componenten voor 
 
 1. Ga in de Customer Journey Analytics naar de [!UICONTROL **Projecten**] openingspagina, en selecteer vervolgens [!UICONTROL **Voorkeuren bewerken**].
 
-   ![Gebruikersvoorkeuren](assets/user-preferences.png)
+   ![De weergave Werkruimteprojecten markeert de voorkeursopties voor Bewerken die op deze pagina worden beschreven.](assets/user-preferences.png)
 
    of
 

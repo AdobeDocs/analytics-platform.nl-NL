@@ -1,12 +1,12 @@
 ---
 title: Standaardraadplegingen toevoegen aan uw datasets
-description: Gebruik standaardraadplegingen om de rapportage te vergroten met nuttige dimensies in Customer Journey Analytics.
+description: Gebruik standaardraadplegingen om rapportage met nuttige dimensies in Customer Journey Analytics te vergroten.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 >[!IMPORTANT]
 >De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de bron van de Analyse schakelaar in Customer Journey Analytics. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
 
-De standaardraadplegingen (die ook als Adobe-Geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. De standaardraadplegingen zijn toepasselijk over organisaties van Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die Adobe classificeert.
+De standaardraadplegingen (die ook als Adobe-geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. De standaardraadplegingen zijn van toepassing op organisaties van het Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die de Adobe classificeert.
 
-In traditionele Adobe Analytics worden deze dimensies op zichzelf weergegeven, terwijl u in Customer Journey Analytics deze dimensies actief moet opnemen wanneer u gegevensweergaven maakt. In het werkschema van Verbindingen, selecteert u een dataset die als met een sleutel voor standaardraadpleging wordt gemarkeerd. De interface voor gegevensweergaven weet automatisch dat alle standaardopzoekafmetingen moeten worden opgenomen, zoals beschikbaar is voor rapportage. De opzoekbestanden worden automatisch bijgewerkt en beschikbaar gehouden in alle regio&#39;s en voor alle accounts. Zij worden opgeslagen in regio-specifieke organisaties verbonden aan de klant.
+In traditionele Adobe Analytics worden deze dimensies op zichzelf weergegeven, terwijl u deze dimensies in de Customer Journey Analytics actief moet opnemen wanneer u gegevensweergaven maakt. In het werkschema van Verbindingen, selecteert u een dataset die als met een sleutel voor standaardraadpleging wordt gemarkeerd. De interface voor gegevensweergaven weet automatisch dat alle standaardopzoekafmetingen moeten worden opgenomen, zoals beschikbaar is voor rapportage. De opzoekbestanden worden automatisch bijgewerkt en beschikbaar gehouden in alle regio&#39;s en voor alle accounts. Zij worden opgeslagen in regio-specifieke organisaties verbonden aan de klant.
 
 ## Standaardraadplegingen gebruiken met de gegevenssets van de bronconnector van Analytics
 
-De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de de bronschakelaar van de Analyse gebruikt en u in een afmeting brengt waarvoor Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
+De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de de bronschakelaar van de Analyse gebruikt en u in een afmeting brengt waarvoor de Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
 
 <!--
 ### Specific IDs that need to be populated
@@ -72,10 +72,10 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 ## Rapport over standaardopzoekafmetingen
 
-Als u de standaardopzoekafmetingen wilt rapporteren, moet u deze toevoegen wanneer u een gegevensweergave maakt in Customer Journey Analytics:
+Om over de standaardraadplegingsdimensies te rapporteren, moet u hen toevoegen wanneer u een gegevensmening in Customer Journey Analytics creeert:
 
-![](assets/global-lookup.png)
+![Een gegevensweergave maken met de lijst Componenten toevoegen](assets/global-lookup.png)
 
 U kunt de opgezochte gegevens in Werkruimte dan zien:
 
-![](assets/gl-reporting.png)
+![Vrije-vormtabel met de gegevens](assets/gl-reporting.png)

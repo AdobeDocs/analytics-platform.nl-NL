@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Met de optie Van cel kunt u verwijzen naar datums die zijn ingevoerd in werkblad
 
 U kunt vandaag uitsluiten voor elk geselecteerd datumbereik.
 
-![Selecteer vandaag uitsluiten.](./assets/image17.png)
+![Het deelvenster Snel bewerken Reporten Builder met de kalender geselecteerd en vandaag de dag Uitsluiten geselecteerd.](./assets/image17.png)
 
 ## De kalender gebruiken
 
@@ -62,7 +62,7 @@ Datums selecteren met de kalender
 
 Als u een datumbereik in omgekeerde volgorde wilt instellen, klikt u eerst op de einddatum en vervolgens op de begindatum.
 
-![Klik op de einddatum en vervolgens op de begindatum.](./assets/image18.png)
+![Het venster met het datumbereik van de Report Builder waarin de kalender, de einddatum en de geselecteerde begindatum worden weergegeven.](./assets/image18.png)
 
 ### Vervolgkeuzelijst Voorinstelling
 
@@ -76,7 +76,7 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Selecteer een roluitdrukking voor uw begin en of einddatum.
 
-   ![Selecteer Roldatums gebruiken en vervolgens de rolexpressie.](./assets/image19.png)
+   ![Het venster Datumbereik van de Report Builder waarin het gebruik van roldatums is geselecteerd en de rolexpressie wordt weergegeven.](./assets/image19.png)
 
    **Begin van** — Hiermee kunt u het begin van een dag, week, maand, kwartaal of jaar selecteren.
 
@@ -86,11 +86,11 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Kies dag, week, maand, kwartaal of jaar als de rolperiode.
 
-   ![Kies huidige dag.](./assets/image20.png)
+   ![Het venster Datumbereik van de Report Builder waarin de geselecteerde dag wordt weergegeven.](./assets/image20.png)
 
 1. Voeg dagen, weken, maanden, kwartalen of jaren toe of trek deze af vanaf de roldatum.
 
-   ![Selecteer huidige dag plus 14 dagen.](./assets/image21.png)
+   ![Datumbereik van de Report Builder met daarin de huidige dag plus de geselecteerde 14 dagen.](./assets/image21.png)
 
 1. Klik op Volgende om het gegevensbereik te definiëren.
 

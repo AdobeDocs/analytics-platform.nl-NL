@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 1. Op de [!UICONTROL Exports] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
 1. Selecteren [!UICONTROL **Account toevoegen**].
 
-   ![Account toevoegen](assets/account-add.png)
+   ![Hiermee exporteert u paginaopties waarmee een ander account wordt weergegeven](assets/account-add.png)
 
    Het dialoogvenster Account toevoegen wordt weergegeven.
 
@@ -86,7 +86,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
       >U moet deze actie om de 7 dagen uitvoeren, omdat de SAS URI 7 dagen na het creëren vervalt. U kunt een script maken om dit proces te automatiseren.
 
 
-      ![SAS URL-veld](assets/blob-container-sas-uri.png)
+      ![Het venster Verbindingsinfo openen met het veld SAS URL](assets/blob-container-sas-uri.png)
 
    1. Selecteren [!UICONTROL **Volgende**] > [!UICONTROL **Verbinden**].
 

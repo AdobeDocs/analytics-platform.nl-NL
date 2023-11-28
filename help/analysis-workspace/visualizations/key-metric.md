@@ -4,9 +4,9 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: 22cb88aa98576b70b8b089eda4a46f1e8963767a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een filter (indien gewenst) te selecteren:
 
-   ![metrische sleutelconfiguratie](assets/key-metric-config.png)
+   ![Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metric-config.png)
 
    | Configuratie-instelling | Definitie |
    | --- | --- |
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## De uitvoer weergeven
 
-![](assets/key-metric-output.png)
+![De belangrijkste metrische output die de metische, summiere verandering, samenvattingsaantal, en lijngrafieken toont.](assets/key-metric-output.png)
 
 Opmerking:
 
@@ -89,13 +89,13 @@ Opmerking:
 
 * Vanaf hier kunt u de cursor boven de lijngrafieken houden om de statistieken voor afzonderlijke dagen weer te geven:
 
-![statistieken](assets/key-metric-output2.png)
+![Bezoekersstatistieken](assets/key-metric-output2.png)
 
 ## Visualisatie-instellingen
 
 De Belangrijkste metrische samenvatting biedt veelvoudige flexibele montages aan om betere rapportering en communicatie van belangrijke metriek toe te laten. Instellingen zijn toegankelijk via het tandwielpictogram in de rechterbovenhoek van de visualisatie.
 
-![](assets/key-metric-settings.png)
+![Belangrijke metrische samenvattingsinstellingen met het weergavetype Samenvatting, Algemeen en weergaveopties.](assets/key-metric-settings.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -116,7 +116,7 @@ Na het bouwen van visualisatie, kunt u de originele configuratie nog uitgeven.
 
 1. Klik op het potloodpictogram in de rechterbovenhoek van de visualisatie (naast het tandwielpictogram voor instellingen).
 
-   ![bewerken](assets/edit-icon.png)
+   ![Bewerkingspictogram.s voor visualisatie](assets/edit-icon.png)
 
    U wordt nu teruggezet naar de originele configuratiemening.
 

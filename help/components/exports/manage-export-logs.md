@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Exportlogboeken beheren
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor geplande exportbewerkingen weerspiegelen logboeken de exportinstellingen zo
 
 1. Selecteer de [!UICONTROL **Logboeken**] tab.
 
-   ![Tabblad Logboeken exporteren](assets/export-logs-tab.png)
+   ![Het venster Exporteren waarin het tabblad Logs wordt weergegeven](assets/export-logs-tab.png)
 
    De details voor elk logboek worden getoond in de beschikbare kolommen.
 
@@ -49,7 +49,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
 1. Selecteer de **Filter** pictogram.
 
-   ![Filterinformatie](assets/export-log-filters.png)
+   ![Exporteert het venster waarin de filterlijst per accounttype wordt weergegeven](assets/export-log-filters.png)
 
    U kunt filteren op de volgende criteria:
 

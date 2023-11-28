@@ -3,10 +3,10 @@ title: Spreidingsdiagram
 description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
@@ -20,4 +20,4 @@ De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie
 * De derde kolom bepaalt de straal van de stip.
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![Spreidingsdiagram](assets/scatter.png)
+![Voorbeeld van een stootkussen met meerdere dimensie-items ](assets/scatter.png)

@@ -3,9 +3,10 @@ title: Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapp
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringsca
 
    1. Schakel de optie in om [!UICONTROL **Verdere verzoeken beperken**].
 
-      ![Verdere verzoeken beperken](assets/restrict-subsequent-requests.png)
+      ![Annuleer 1 verzoek dat de Beperking van verdere geselecteerde verzoeken en het Bericht van de Annulering toont.](assets/restrict-subsequent-requests.png)
 
    1. Kies een van de volgende opties:
 
@@ -91,7 +92,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld. W
 
    1. Schakel de optie in om [!UICONTROL **Verdere verzoeken beperken**]
 
-      ![Verdere verzoeken van gebruikers beperken](assets/restrict-subsequent-requests-user.png)
+      ![Annuleer 1 verzoek die de Restricten verdere verzoeken door geselecteerde gebruiker toont.](assets/restrict-subsequent-requests-user.png)
 
    1. Kies een van de volgende opties:
 
@@ -132,7 +133,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
    1. Schakel de optie in om [!UICONTROL **Verdere verzoeken beperken**].
 
-      ![Verdere verzoeken beperken per project](assets/restrict-subsequent-requests-project.png)
+      ![Annuleer 1 verzoek dat de Beperk verdere verzoeken door project toont](assets/restrict-subsequent-requests-project.png)
 
    1. Kies een van de volgende opties:
 
@@ -188,7 +189,7 @@ Aanvragen door toepassing annuleren:
 
    1. Schakel de optie in om [!UICONTROL **Verdere verzoeken beperken**]
 
-      ![Verdere aanvragen beperken door toepassing](assets/restrict-subsequent-requests-application.png)
+      ![Annuleer 1 verzoek dat de Beperking van verdere verzoeken door geselecteerde toepassing toont.](assets/restrict-subsequent-requests-application.png)
 
    1. Kies een van de volgende opties:
 

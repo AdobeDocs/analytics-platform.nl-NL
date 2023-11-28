@@ -5,10 +5,10 @@ title: Uitsplitsingsdimensies
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
+source-wordcount: '356'
+ht-degree: 1%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 2%
 
 Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
-U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoeften; bouwen vragen gebruikend relevante metriek, dimensies, filters, tijdlijnen, en andere waarden van de analyseonderbreking.
+Verdeel uw gegevens op onbeperkte manieren voor uw specifieke behoeften; bouwt vragen gebruikend relevante metriek, dimensies, filters, tijdlijnen, en andere waarden van de analyseonderbreking.
 
 1. [Een project maken](/help/analysis-workspace/home.md) met een datatabel.
 1. Klik in de gegevenstabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Stap Resultaat](assets/fa_data_table_actions.png)
+   ![Stap resultaat met de waarschuwing Maken van geselecteerde selectie.](assets/fa_data_table_actions.png)
 
    U kunt metriek onderverdelen door afmetingspunten of publieksfilters over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
 
@@ -29,11 +29,11 @@ U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoefte
    >
    >Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor uitsplitsingen exporteren.
 
-**Video: Dimension in Analysis Workspace**
+**Video: Dimensionen in Analysis Workspace**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
-**Video: Dimension-uitsplitsingen**
+**Video: Dimension-indelingen**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23969)
 
@@ -41,7 +41,7 @@ U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoefte
 
 Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat op een indeling is toegepast, plaatst u de muisaanwijzer boven het indelingsmodel en klikt u op **[!UICONTROL Edit]**:
 
-![Onderbrekingsinstellingen](assets/breakdown_settings.png)
+![Vergelijking van ordekenmerken met de instellingen van de indeling](assets/breakdown_settings.png)
 
 Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onderverdelingen of het uitgeven van hen:
 
@@ -61,6 +61,6 @@ Werken met afmetingen in een tabel voor vrije vorm:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179)
 
-Uitsplitsingen naar positie Dimension:
+Uitsplitsingen naar positie van Dimension:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033)

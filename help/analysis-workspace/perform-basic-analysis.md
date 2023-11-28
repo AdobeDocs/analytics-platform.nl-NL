@@ -4,9 +4,9 @@ description: Beschrijft hoe te om basisvisualisaties te gebruiken om gegevens in
 feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Hier volgt een voorbeeld van basisvisualisaties in Workspace. U kunt bijvoorbeel
 
 * Creeer een trended rapport van online versus in-store opbrengst die de twee gegevensbronnen in tijd vergelijkt.
 
-* Wijs publieksgrootte door gegevensbronnen, zoals de gegevens van de advertentie, Customer Journey Analytics gegevens, e-mailgegevens, POS gegevens, de gegevens van het vraagcentrum, en onderzoeksgegevens af.
+* Wijs publieksgrootte door gegevensbronnen, zoals gegevens van de advertentie, gegevens van de Customer Journey Analytics, e-mailgegevens, POS gegevens, gegevens van het vraagcentrum, en onderzoeksgegevens af.
 
-![](assets/cja-basic-analysis.png)
+![Voorbeelden van visualisaties van basisanalytische diagrammen. ](assets/cja-basic-analysis.png)
 
-![](assets/cja-basic-analysis2.png)
+![Meer voorbeelden van visualisaties van elementaire analytische grafieken](assets/cja-basic-analysis2.png)

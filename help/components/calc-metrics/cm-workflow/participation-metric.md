@@ -3,9 +3,9 @@ description: Met de Berekende Metrische bouwer, kan iedereen een participatie me
 title: Deelnemings-metrisch
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Dit type informatie kan handig zijn voor elke eigenaar van de inhoud.
 
    In het vak Definitie wordt de geselecteerde metrische waarde bijgewerkt door toevoegen  **(Partipatie|Sessie)** op naam.
 
-   ![](assets/participation-setup.png)
+   ![popup met kolomkenmerkmodel waarin Deelname is geselecteerd als het model en de sessie die zijn geselecteerd voor het venster Opzoeken.](assets/participation-setup.png)
 
 
 
 1. Selecteren [!UICONTROL **Opslaan**] om metrisch te bewaren.
 1. Gebruik berekende metrisch in uw rapport. Gebruik bijvoorbeeld de berekende [!DNL Orders (Session Participation)] metrisch (zoals bepaald in stap 5) in een rapport om te tonen welk Klantniveau aan (of aan) zittingen heeft bijgedragen die een orde bevatten.
 
-   ![](assets/participation-pages-customer-tier.png)
+   ![Vrije-vormentabel met vermelding van Klantniveau en Orders.](assets/participation-pages-customer-tier.png)
 
 1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

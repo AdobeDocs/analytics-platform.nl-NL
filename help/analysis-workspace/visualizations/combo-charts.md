@@ -4,10 +4,10 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 0%
 
 ---
 
@@ -33,17 +33,17 @@ Houd dit in gedachten:
 
 1. Sleep vanuit de vervolgkeuzelijst Visualisaties in de linkertrack de [!UICONTROL Combo chart] visualisatie in een leeg paneel.
 
-   ![Opbouwen](assets/combo-chart-build.png)
+   ![Combografiek met de X- en Y-as en het optieveld](assets/combo-chart-build.png)
 
 1. Selecteer in de vervolgkeuzelijsten een afmeting voor de X-as en een afmeting voor de Y-as.
 
 1. Selecteer het type van [!UICONTROL Line comparison] wilt gebruiken.
 
-   | Vergelijkingstype lijn | Definitie |
+   | Het vergelijkingstype Lijn | Definitie |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison]kiest u een tweede tijdsperiode die u wilt vergelijken.<p>![Tijdsperiode](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![Functies](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![Twee metriek](assets/combo-2metrics.png) |
+   | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison]kiest u een tweede tijdsperiode die u wilt vergelijken.<p>![LIeen vergelijking met geselecteerde tijdsperiode en het secundaire selectieveld voor tijdsperiode.](assets/combo-time-period.png) |
+   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![LIéén vergelijkingsdrop-down menu dat Functies selecteerde en een lijst van beschikbare gesteunde functies toont.](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![Een combinatieschema waarin twee cijfers worden vergeleken.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
@@ -51,13 +51,13 @@ Houd dit in gedachten:
 
    De uitvoer ziet er ongeveer als volgt uit:
 
-   ![Uitvoer](assets/combo-output.png)
+   ![Een Combo-grafiek die de huidige periode in een staafdiagram en een vergelijkingsperiode in het lijndiagram weergeeft ](assets/combo-output.png)
 
    De huidige periode wordt getoond in de grafiek van de bar, en de vergelijkingsperiode wordt vertegenwoordigd door de lijngrafiek. De punten op het lijndiagram worden ook wel &quot;balken&quot; genoemd.
 
 ## Ondersteunde functies
 
-Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt een functie geretourneerd van de maateenheid die u hebt gekozen.
+Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt een functie geretourneerd van de metrische waarde die u hebt gekozen.
 
 | -functie | Definitie |
 | --- | --- |
@@ -73,17 +73,17 @@ Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt 
 
 Hier is een voorbeeld van het cumulatieve gemiddelde van de metrische inkomsten:
 
-![Cumulatief gemiddelde](assets/combo-cumul-avg.png)
+![Een Combo-kaart met het cumulatieve gemiddelde](assets/combo-cumul-avg.png)
 
 Hier is een voorbeeld van een combo grafiek met zowel Cumulatieve gemiddelde als Gemiddelde functies:
 
-![Twee functies](assets/combo-two-functions.png)
+![Een combinatieschema met zowel cumulatief gemiddelde als gemiddelde functies.](assets/combo-two-functions.png)
 
-## Combo Chart-instellingen
+## Combo-diagraminstellingen
 
 Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de instellingen ervan te wijzigen.
 
-![Instellingen](assets/combo-settings.png)
+![De weergave Combo Chart Settings met de hieronder beschreven opties.](assets/combo-settings.png)
 
 | Instelling | Definitie |
 | --- | --- |
@@ -94,7 +94,7 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 | **[!UICONTROL Legend visible]** | Hiermee kunt u de gedetailleerde legendetekst voor de visualisatie van Combo-diagrammen verbergen. |
 | **[!UICONTROL Limit max items]** | Hiermee verkleint u het aantal items op de X-as. Als u een grote dataset hebt, kunt u de eerste 10 punten (of om het even welke waarde slechts tonen u kiest). |
 | **[!UICONTROL Overlays]** | Streepjes weergeven of verbergen op lijnen. |
-| **[!UICONTROL Axis]** |  |
+| **[!UICONTROL Axis]** | |
 | **[!UICONTROL Display dual axis]** | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. De kleur van de twee assen komt overeen met de kleur van de tabel, tenzij er meerdere vergelijkingen zijn. In dat geval is de kleur voor alle vergelijkingen grijs. |
 | **[!UICONTROL Normalization]** | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | **[!UICONTROL Show x-axis]** | Geef de x-as weer of verberg deze. |

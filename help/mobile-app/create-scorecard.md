@@ -5,47 +5,47 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2600'
 ht-degree: 0%
 
 ---
 
 # Een mobiele scorecard maken
 
-De volgende informatie instrueert curatoren van Customer Journey Analytics-gegevens over het configureren en presenteren van dashboards voor uitvoerende gebruikers. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
+De volgende informatie instrueert curatoren van Customer Journey Analytics gegevens over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
 >
->Er zijn beeldschermafbeeldingen van analysescorecard voor deze pagina gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit Customer Journey Analytics. De gebruikersinterface is bijna identiek.
+>Er zijn beeldschermafbeeldingen van analysescorecard voor deze pagina gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit de Customer Journey Analytics. De gebruikersinterface is bijna identiek.
 
 Een scorecard van Analytics toont zeer belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een tegellay-out, zoals hieronder getoond:
 
-![Voorbeeldscorecard](assets/intro_scorecard.png)
+![Analytics scorecard-voorbeeld met de Mobile Scorecard-demo](assets/intro_scorecard.png)
 
 Als curator van dit scorecard, kunt u de scorecard bouwer gebruiken om te vormen welke tegels op scorecard voor uw uitvoerende consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de onderverdelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De scorecard bouwerinterface wordt hieronder getoond:
 
-![Scorecard Builder](assets/scorecard_builder.png)
+![Scorecard Builder die het nieuwe mobiele scorecardvenster toont. ](assets/scorecard_builder.png)
 
 Om scorecard tot stand te brengen, moet u het volgende doen:
 
-1. Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] sjabloon.
+1. Toegang krijgen tot de [!UICONTROL Blank Mobile Scorecard] sjabloon.
 2. Vorm scorecard met gegevens en bewaar het.
 
-## Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] template {#template}
+## Toegang krijgen tot de [!UICONTROL Blank Mobile Scorecard] template {#template}
 
-U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een nieuw project, of van het menu van Hulpmiddelen te creëren.
+U hebt toegang tot [!UICONTROL Blank Mobile Scorecard] malplaatje of door een nieuw project, of van het menu van Hulpmiddelen te creëren.
 
 ### Een nieuw project maken {#create}
 
-1. Open Customer Journey Analytics en klik op de knop **[!UICONTROL Workspace]** tab.
+1. Open Customer Journey Analytics en klik op **[!UICONTROL Workspace]** tab.
 1. Klikken **[!UICONTROL Create project]** en selecteert u de **[!UICONTROL Blank mobile scorecard]** projectsjabloon.
 1. Klik op **[!UICONTROL Create]**.
 
-![Scorecard-sjabloon](assets/new_template.png)
+![Het venster Alle sjablonen met het lege MObile-scorebord geselecteerd.](assets/new_template.png)
 
 ### Menu Gereedschappen
 
@@ -58,11 +58,11 @@ Om het scorecardmalplaatje uit te voeren:
 
 1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project data view]** waarvan u gegevens wilt gebruiken.
 
-   ![selectie in gegevensweergave](assets/properties_save.png)
+   ![Nieuw mobiel scorecardvenster waarin de selectie van de gegevensweergave wordt gemarkeerd](assets/properties_save.png)
 
 1. Als u een nieuwe tegel aan uw scorecard wilt toevoegen, sleept u een metrische waarde vanuit het linkerdeelvenster naar het **[!UICONTROL Drag and Drop Metrics Here]** zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
-   ![Tegels toevoegen](assets/build_list.png)
+   ![Het nieuwe mobiele scorecardvenster met een pijl die aan metrisch (Nieuwe KPI) richt die in scorecard wordt gelaten vallen. ](assets/build_list.png)
 
 
 1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
@@ -71,39 +71,39 @@ Om het scorecardmalplaatje uit te voeren:
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
-U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Channel]**, in dit voorbeeld) aan de **[!UICONTROL Unique Visitors]** metrisch door het te slepen en neer te zetten op de tegel. Uitsplitsingen naar Dimension worden weergegeven onder de [!UICONTROL Drill Ins] (uitsplitsing) afdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Channel]**, in dit voorbeeld) aan de **[!UICONTROL Unique Visitors]** metrisch door het te slepen en neer te zetten op de tegel. Uitsplitsingen naar Dimensionen worden weergegeven onder de [!UICONTROL Drill Ins] (uitsplitsing) afdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
-![Afmetingen toevoegen](assets/layer_dimensions.png)
+![Nieuw mobiel scorecardvenster met een pijl die van de dimensielijst aan de scorecardruit richt.](assets/layer_dimensions.png)
 
 ## Filters toepassen {#filters}
 
 Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in Customer Journey Analytics) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
 
-Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier als in Customer Journey Analytics Workspace.
+Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) zoals u in de Werkruimte van de Customer Journey Analytics zou doen.
 
-![Filters maken](assets/segment_ui.png)
+![Filter dropdown selector die de bouwstijlfilters benadrukt](assets/segment_ui.png)
 
 ## Datumbereiken toevoegen {#dates}
 
 U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
-![Nieuwe scorekaart](assets/new_score_card.png)
+![Nieuwe mobiele scorecard die gisteren tegenover Zelfde dag vorige week benadrukte](assets/new_score_card.png)
 
 Elke nieuwe scorecard begint met 6 datumwaaiercombinaties die zich op de gegevens van vandaag en gisteren concentreren. U kunt overbodige datumbereiken verwijderen door op de x te klikken of u kunt elke datumbereikcombinatie bewerken door op het potlood te klikken.
 
-![Nieuwe scorekaart2](assets/new_score_card2.png)
+![Nieuwe mobiele scorecard die het potloodpictogram markeert](assets/new_score_card2.png)
 
 Als u een primaire datum wilt maken of wijzigen, gebruikt u de vervolgkeuzelijst om een van de beschikbare datumbereiken te selecteren of sleept u een datumcomponent van de rechterrail naar de neerzetzone.
 
-![Nieuwe scorekaart3](assets/new_score_card3.png)
+![Nieuwe mobiele scorecard die de datumbereiken benadrukt met Primaire datum/Gisteren geselecteerd](assets/new_score_card3.png)
 
 Als u een vergelijkingsdatum wilt maken, kunt u een keuze maken uit handige voorinstellingen voor algemene tijdvergelijkingen in het keuzemenu. U kunt ook een datumcomponent slepen en neerzetten vanaf de rechterrail.
 
-![Nieuwe scorekaart4](assets/new_score_card4.png)
+![Nieuwe mobiele scorecard die de waaiers van de Datum benadrukt met de datum die van de Vergelijking aan Zelfde dag vorige week wordt geplaatst selecteerde](assets/new_score_card4.png)
 
 Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik maken door op het kalenderpictogram te klikken.
 
-![Nieuwe scorekaart5](assets/new_score_card5.png)
+![Kalenderpictogram](assets/new_score_card5.png)
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
@@ -111,11 +111,11 @@ Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component v
 
 Als u datumbereiken met elkaar wilt vergelijken, schakelt u het **Inclusief vergelijkingsdatums** instellen.
 
-![Inclusief vergelijkingsdatums](assets/include-comparison-dates.png)
+![Nieuwe mobiele scorecard markeert gisteren vs vorige dag en omvat vergelijkingsdata](assets/include-comparison-dates.png)
 
 De instelling is *op* standaard. Omschakelen naar *uit* als u geen vergelijkingsdata wilt bekijken.
 
-![Niet-geselecteerde vergelijkingsdatuminstelling](assets/no-comparison-dates.png)
+![Nieuwe mobiele scorecard die gisteren benadrukt en omvat vergelijkingsdata](assets/no-comparison-dates.png)
 
 ## Visualisaties toepassen {#viz}
 
@@ -131,25 +131,25 @@ Of klik op de knop [!UICONTROL Visualizations] pictogram in de linkerspoorstaaf 
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
 
-![Samenvattingsnummer](assets/summary-number.png)
+![Nieuwe mobiele scorecard met overzicht van nummervisualisatie die 13,3 kbps bezoeken](assets/summary-number.png)
 
 ### [!UICONTROL Donut]
 
 Net als bij een cirkeldiagram toont deze visualisatie gegevens als delen van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel dat u wilt zien welke advertentie-platform heeft bijgedragen aan het totale aantal unieke personen:
 
-![Donut visualisatie](assets/donut-viz.png)
+![Nieuwe filmscorecard met Donut-visualisatie](assets/donut-viz.png)
 
 ### [!UICONTROL Line]
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
-![Lijnvisualisatie](assets/line.png)
+![Nieuwe filmscorecard die een Lijnvisualisatie toont](assets/line.png)
 
 ### [!UICONTROL Horizontal Bar]
 
 Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor uw voorkeursvisualisatie.
 
-![horizontale balk](assets/horizontal.png)
+![Nieuwe filmscorecard met een horizontale balk](assets/horizontal.png)
 
 ### Verwijderen [!UICONTROL Unspecified] dimensie-item
 
@@ -158,13 +158,13 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 1. Selecteer de juiste tegel.
 1. In de rechterspoorweg, onder **[!UICONTROL Drill ins]**, selecteert u de pijl-rechts naast het dimensie-item waarvan **[!UICONTROL Unspecified]** items die u wilt verwijderen.
 
-   ![ongespecificeerd](assets/unspecified.png)
+   ![Eigenschappen waarbij de pijl naar de pijl naar rechts wijst naast de afmetingsnaam.](assets/unspecified.png)
 
 1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterspoorstaaf de eigenschappen en kenmerken weer die aan die tegel en zijn detaildia zijn gekoppeld. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door filters toe te passen. Segmenten zijn filters in Customer Journey Analytics.
+Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door filters toe te passen. Segmenten zijn filters in Customer Journey Analytics.
 
 ![Eigenschappen, tegel](assets/properties-tile-new.png)
 
@@ -174,7 +174,7 @@ Wanneer u op tegels klikt, wordt in een dynamisch pop-upvenster weergegeven hoe 
 
 De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals het volgende te verdelen:
 
-* Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
+* Unieke metrische bezoekers, uitgesplitst naar advertentieplatform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
 * Totaal ontvangsten uitgesplitst naar productnaam
 
@@ -281,19 +281,19 @@ U kunt ook heen en weer navigeren met de pijlen op het toetsenbord of door een c
 
 U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gepubliceerd in de Adobe Analytics-app voor dashboards.
 
-1. Klikken **[!UICONTROL Preview]** in de rechterbovenhoek van het scherm.
+1. Klikken **[!UICONTROL Preview]** in de rechterbovenhoek van het scherm
 
    ![Preview_scorecards](assets/preview.png)
 
-1. Als u wilt zien hoe de scorecard er op verschillende apparaten uitziet, selecteert u een apparaat in het menu [!UICONTROL Device preview] vervolgkeuzemenu.
+1. Als u wilt zien hoe de scorecard er op verschillende apparaten uitziet, selecteert u een apparaat in het menu [!UICONTROL Device preview] vervolgkeuzelijst.
 
-   ![Apparaat_voorvertoning](assets/device-preview.png)
+   ![Apparaat_voorbeeld](assets/device-preview.png)
 
 1. Als u met de voorvertoning wilt werken, kunt u:
 
    * Klik met de linkermuisknop om tikken op het telefoonscherm te simuleren.
 
-   * Gebruik de schuiffunctie van uw computer om het schuiven door het telefoonscherm met uw vinger te simuleren.
+   * Gebruik de schuiffunctie van uw computer om met uw vinger naar het telefoonscherm te schuiven.
 
    * Klik en houd vast om het drukken en het houden van uw vinger op het telefoonscherm te simuleren. Dit is handig voor interactie met de visualisaties in de gedetailleerde weergave.
 

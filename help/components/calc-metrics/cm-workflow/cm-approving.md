@@ -3,10 +3,10 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende standaard goedkeuren
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
@@ -34,6 +34,6 @@ Berekende waarden als goedgekeurd markeren:
 
 1. Klik op **[!UICONTROL OK]**.
 
-   Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+   Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![Markeerteken voor goedkeuringspictogram in een cirkel.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. (Optioneel) Selecteer de optie **Filter** pictogram, uitbreiden **[!UICONTROL Other filters]** selecteert u vervolgens **[!UICONTROL Approved]**.

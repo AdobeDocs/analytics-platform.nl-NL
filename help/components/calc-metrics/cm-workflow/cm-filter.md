@@ -2,10 +2,11 @@
 description: Filteren op tags, gegevensweergave, eigenaars en andere filters (Alles weergeven, Mijns inziens, Gedeeld met mij, Favorieten en Goedgekeurd.)
 title: Berekende maateenheden filteren
 feature: Calculated Metrics
-source-git-commit: 59b120022fcb149e6bfcab0039efc5a802995b92
+exl-id: 902da464-14de-45b9-bd92-d2db064cb095
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +20,7 @@ Door te filteren kunt u gemakkelijker zoeken naar berekende metriek in de segmen
 
 1. Klik in het beheer van berekende metriek op de knop **[!UICONTROL Filters]** pictogram:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![Het berekende metrische beheer toont het pictogram Filters en de beschikbare filters zoals Markeringen, de Reeks van het Rapport, en Eigenaars.](assets/filtering.png)
 
 1. De volgende filters zijn beschikbaar:
 

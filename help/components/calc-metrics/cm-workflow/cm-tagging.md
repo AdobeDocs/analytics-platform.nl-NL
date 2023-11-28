@@ -3,9 +3,9 @@ description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe
 title: Berekende standaard een label geven
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 
 1. Schakel in het venster Berekende metriek het selectievakje in naast de metriek die u wilt labelen.
 
-   ![](assets/cm_add_tags.png)
+   ![Label Berekende lijst met metrische gegevens waarbij Mobiele marketing is geselecteerd.](assets/cm_add_tags.png)
 
 1. In de [!UICONTROL **Berekende metrische code**] dialoogvenster:
 

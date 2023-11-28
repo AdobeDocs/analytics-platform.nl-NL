@@ -5,9 +5,9 @@ description: Overzicht van Analysis Workspace-mogelijkheden
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: 2647acd9dbf0732b02d69528fe1d07e381123aef
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ De volgende video biedt een kort overzicht van wat mogelijk is.
 
 In de volgende afbeelding en de bijbehorende tabel worden enkele van de belangrijkste gebieden in Analysis Workspace toegelicht:
 
-![Overzicht van Analysis Workspace](assets/analysis-workspace-overvew.png)
+![Analysis Workspace-venster markeert de pijl helemaal links en die links, het canvas en het vervolgkeuzemenu voor de gegevensweergave.](assets/analysis-workspace-overvew.png)
 
 | Locatie in afbeelding | Naam en functie |
 |---------|----------|
@@ -47,7 +47,7 @@ Zie voor meer informatie over deelvensters [Overzicht van deelvensters](/help/an
 
 ### Visualisaties
 
-**Visualisaties**, zoals een staaf of lijndiagram, kan worden gebruikt om gegevens visueel tot leven te brengen. Selecteer het middelste spoor helemaal links **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven.
+**Visualisaties**, zoals een staafdiagram of een lijndiagram, kan worden gebruikt om gegevens visueel tot leven te brengen. Selecteer het middelste spoor helemaal links **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven.
 
 Ga voor meer informatie over visualisatie naar [Overzicht van visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
@@ -65,7 +65,7 @@ Componenten in Analysis Workspace bestaan uit:
 
 * Datumbereiken
 
-Voor meer informatie over elk van deze componenttypen raadpleegt u [Overzicht van componenten](/help/components/overview.md).
+Meer over elk van deze componenttypes leren, zie [Overzicht van componenten](/help/components/overview.md).
 
 Elk van deze componenttypen kan worden toegevoegd aan een visualisatie (zoals een Freeform-tabel) om uw zakelijke vragen te beantwoorden.
 

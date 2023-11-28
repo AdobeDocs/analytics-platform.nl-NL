@@ -1,12 +1,12 @@
 ---
 title: Gebruikershandleiding voor labels
-description: Voorvertoning maken van prototypeprojecten voor Customer Journey Analytics
+description: Voorproef prototypeprojecten voor Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 Als u dit nog niet hebt gedaan, leest u de toepasselijke formulieren voor de geheimhoudingsovereenkomst en de Algemene voorwaarden en bepalingen.
 
-## Toegang krijgen tot [!UICONTROL Labs] Portal
+## Toegang krijgen tot de [!UICONTROL Labs] Portal
 
 Toegang tot [!UICONTROL Labs]:
 
-1. Als u nog geen toegang hebt tot [!UICONTROL Workspace] en [!UICONTROL Labs], vraag uw beheerder om toestemmingen.
+1. Als u nog geen toegang hebt tot [!UICONTROL Workspace] en [!UICONTROL Labs]Vraag de beheerder om machtigingen.
 
 1. Klik in Customer Journey Analytics op de knop **[!UICONTROL Labs]** tab.
 
@@ -37,7 +37,7 @@ Een prototype starten en evalueren:
 
    screenshot hier toevoegen
 
-1. Bekijk een video die het prototype markeert door op **[!UICONTROL Watch Video]** in de rechterbovenhoek van het scherm. Klikken **[!UICONTROL Close]** wanneer de video is voltooid.
+1. Bekijk een video die het prototype markeert door op **[!UICONTROL Watch Video]** rechtsboven in het scherm. Klikken **[!UICONTROL Close]** wanneer de video is voltooid.
 
    screenshot hier toevoegen
 
@@ -55,17 +55,17 @@ Een prototype starten en evalueren:
 
 1. Klikken **[!UICONTROL Give Feedback]** om feedback te geven in het berichtvenster wanneer u met het prototype werkt.
 
-   ![feedback_box](assets/give_feedback.png)
+   ![Feedbackvenster](assets/give_feedback.png)
 
-1. Klikken **[!UICONTROL Submit]** om feedback te verzenden.
+1. Klikken **[!UICONTROL Submit]** om je feedback te sturen.
 
 1. Als u een ander prototype wilt proberen of de prototypeomgeving wilt afsluiten, klikt u op **[!UICONTROL Leave Prototype]** in de rechterbovenhoek van het scherm en voltooi de korte enquête naar het prototype. Eventuele wijzigingen die in een prototypeproject worden aangebracht, gaan verloren wanneer de prototypeomgeving wordt verlaten.
 
-   ![nieuw feedbackvak](assets/short-survey.png)
+   ![Feedbackvenster voor intelligent plakken](assets/short-survey.png)
 
 1. Klikken **[!UICONTROL Submit]** om terug te keren naar de hoofdportal Voorvertoningen.
 
 ## Aanvullende informatie
 
-* Sommige prototypen binnen [!UICONTROL Labs] worden Customer Journey Analytics-functies, andere niet. Je feedback geeft de beslissing, dus bekijk de prototypen en laat Adobe weten hoe waardevol je ze vindt.
+* Sommige prototypen binnen [!UICONTROL Labs] worden Customers Journey Analytics, andere niet. Je feedback geeft de beslissing, dus bekijk de prototypen en laat de Adobe weten hoe waardevol ze zijn.
 * Labs is beschikbaar voor alle SKU-rechten.

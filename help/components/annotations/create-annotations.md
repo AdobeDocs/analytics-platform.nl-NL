@@ -4,9 +4,9 @@ description: In Workspace kunt u notities maken.
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemmin
 
 1. Vul de [!UICONTROL Annotation builder] elementen.
 
-   ![](assets/ann-builder.png)
+   ![Venster met details over annotaties waarin de velden en opties worden weergegeven die in de volgende sectie worden beschreven.](assets/ann-builder.png)
 
    | Element | Beschrijving |
    | --- | --- |

@@ -3,10 +3,10 @@ description: Bij Donut-visualisatie worden gegevens als delen of filters van een
 title: Cirkeldiagram
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 4%
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
 
@@ -14,4 +14,4 @@ ht-degree: 4%
 
 Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of filters van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal, typisch met een klein aantal punten.
 
-![](assets/donut.png)
+![Een Donut-grafiek die gegevens als delen of filters van een geheel toont.](assets/donut.png)

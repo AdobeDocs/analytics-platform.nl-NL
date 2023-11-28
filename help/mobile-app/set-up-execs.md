@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 
 ## Zorg ervoor dat gebruikers van apps toegang hebben tot Adobe Analytics
 
-1. Nieuwe gebruikers instellen in het dialoogvenster [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
+1. Nieuwe gebruikers instellen in het dialoogvenster [Admin Console Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
 
 1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de gegevensmeningen toegang te hebben die scorecards, evenals filters, metriek en dimensies gebaseerd zijn.
 
@@ -27,7 +27,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 Om ervoor te zorgen dat de uitvoerende gebruikers toegang tot uw scorecards op app hebben, zorg ervoor dat:
 
 * De minimale mobiele besturingssysteemvereisten op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
-* Ze hebben een geldige aanmelding bij Customer Journey Analytics.
+* Zij hebben een geldige login in Customer Journey Analytics.
 * U hebt op de juiste wijze mobiele scorecards voor hen gemaakt en deze scorecards met hen gedeeld.
 * Zij hebben toegang tot de Componenten die scorecard omvat. Let op: u kunt een optie selecteren wanneer u uw scorecards deelt naar **[!UICONTROL Share embedded components]**.
 
@@ -35,23 +35,23 @@ Om ervoor te zorgen dat de uitvoerende gebruikers toegang tot uw scorecards op a
 
 >[!NOTE]
 >
->Hoewel de mobiele app in de App Store de naam Adobe Analytics-dashboard heeft, kan de app ook worden gebruikt met mobiele Customer Journey Analytics-scorecards.
+>Hoewel de mobiele app in de App Store de naam Adobe Analytics-dashboard heeft, kan de app ook worden gebruikt bij mobiele scorecards voor Customers Journey Analytics.
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in de Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in de Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app ondertekenen gebruikend hun bestaande geloofsbrieven van de Customer Journey Analytics; wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
+Nadat gebruikers met het oog op de Customer Journey Analytics hebben gedownload en geïnstalleerd, kunnen ze zich aanmelden bij de app met hun bestaande aanmeldgegevens. Wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
 
-![Welkomstscherm van app](assets/welcome.png)
+![Adobe Analytics-dashboards, welkomstscherm](assets/welcome.png)
 
 ## Help managers toegang te krijgen tot uw scorecard
 
@@ -74,7 +74,7 @@ Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app
 
 Verklaar aan de uitvoerende gebruiker hoe de tegels in de scorecards verschijnen u deelt.
 
-![Stijlen verklaren](assets/newexplain.png)
+![Verklaar tegels met inbegrip van de geselecteerde datumwaaier, segmentfilter, en metriek en afmetingen](assets/newexplain.png)
 
 ![Voorbeeld van scorebord](assets/intro_scorecard.png)
 
@@ -90,7 +90,7 @@ Aanvullende informatie over tegels:
 
 1. Tik op een tegel om te tonen hoe een gedetailleerde uitsplitsing voor de tegel werkt.
 
-   ![Onderscheidingsweergave](assets/sparkline.png)
+   ![Afsplitsingsweergave](assets/sparkline.png)
 
    * Tik op een willekeurig punt op een dunne lijn om de gegevens weer te geven die aan dat punt op de lijn zijn gekoppeld.
 
@@ -115,4 +115,4 @@ Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt geme
 * De uitvoerende gebruiker kan de verkeerde zandbak van de Customer Journey Analytics hebben geselecteerd, of
 * De scorecard is mogelijk niet gedeeld met de uitvoerende gebruiker.
 
-Controleer of de uitvoerende gebruiker zich kan aanmelden bij de juiste Customer Journey Analytics-sandbox en of de scorecard is gedeeld.
+Verifieer dat de uitvoerende gebruiker zich in de juiste zandbak van de Customer Journey Analytics kan aanmelden en dat de scorecard is gedeeld.

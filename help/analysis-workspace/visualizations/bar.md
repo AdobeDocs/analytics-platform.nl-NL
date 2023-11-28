@@ -3,10 +3,10 @@ description: In de verticale balkvisualisatie worden verticale balken weergegeve
 title: Balkgrafiek en gestapelde-balkgrafiek
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '117'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Bij deze visualisatie worden verticale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
 
-![](assets/bar.png)
+![Virtuele staafvisualisatie waarbij meerdere meetgegevens worden weergegeven, waaronder Paginaweergaven, Bezoekingen, Items en Afsluiten.](assets/bar.png)
 
 Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
 
@@ -24,8 +24,8 @@ Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een 
 
 Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
 
-![](assets/bar-stacked.png)
+![Gestapelde staafkaart met meerdere meetwaarden.](assets/bar-stacked.png)
 
 Met een nieuwe visualisatie-instelling op staafgestapelde visualisaties verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie:
 
-![](assets/stacked_100_percent.png)
+![Een 100% gestapeld staafdiagram.](assets/stacked_100_percent.png)

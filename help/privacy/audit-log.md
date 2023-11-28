@@ -3,9 +3,9 @@ title: Controlelogboeken
 description: Leer hoe te om de controlelogboeken van de Customer Journey Analytics te bekijken en te beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTR
 
 Het controlelogboek voor vandaag en gisteren wordt getoond door gebrek.
 
-![auditlogboek](assets/audit_ui.png)
+![Auditlogbestand dat vandaag (14 oktober 2022) en gisteren (13 oktober 2022) wordt benadrukt. ](assets/audit_ui.png)
 
 U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsboven te gaan.
 
@@ -38,7 +38,7 @@ U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsb
 
 Dubbelklik op de knop Info (i) naast een beschrijving.
 
-![auditlogboek](assets/info-button-audit.png)
+![Controlelogboek dat de infoknoop benadrukt. ](assets/info-button-audit.png)
 
 De volgende items worden weergegeven:
 
@@ -91,7 +91,7 @@ De volgende items worden weergegeven:
 
 Selecteer het trechter-pictogram (![filter](assets/filter-icon.png)) om een lijst met filterbesturingselementen weer te geven om de resultaten te beperken. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
 
-![filters](assets/filters.png)
+![Controlelogboek dat de filters toont die voor de Waaier van Gegevens worden getoond.](assets/filters.png)
 
 De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 

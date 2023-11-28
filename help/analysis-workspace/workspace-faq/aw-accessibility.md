@@ -3,16 +3,16 @@ description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
 
 # Toegankelijkheid in Analysis Workspace
 
-Meer informatie over toegankelijkheidsondersteuning in [!UICONTROL Analysis Workspace], het belangrijkste analyseprogramma voor Customer Journey Analytics.
+Meer informatie over toegankelijkheidsondersteuning in [!UICONTROL Analysis Workspace], het belangrijkste analysehulpmiddel voor Customer Journey Analytics.
 
 Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
@@ -27,7 +27,7 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 * De `F6` navigeert naar het eerste deelvenster in het project en beweegt zich tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
 
-   ![Focusindicator](assets/focus-indicator.png)
+  ![Tabel met vrije vorm met een focusindicator voor een blauwe rand rond de tabel met vrije vorm.](assets/focus-indicator.png)
 
 ### Toetsenbordnavigatie voor de menubalk
 
@@ -41,10 +41,10 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 
 [!UICONTROL Analysis Workspace] is een gebruikersinterface voor slepen en neerzetten. Gebruikers kunnen echter wel componenten toevoegen met het toetsenbord:
 
-1. Tab naar een component in de linkerspoorstaaf.
-1. Druk `Enter` om te selecteren.
+1. Tab naar een component in de linkerrails.
+1. Druk `Enter` selecteert.
 1. Met de pijltoetsen navigeert u naar het gebied waar u de component wilt neerzetten.
-1. Druk `Enter` om de component te plaatsen.
+1. Druk `Enter` de component plaatsen.
 
 ### Sneltoetsen (sneltoetsen)
 
@@ -98,7 +98,7 @@ Wanneer u een component maakt, worden de vereiste velden gevalideerd tijdens het
 
 Als een component volledig is gevalideerd, drukt u op `Save` Sluit de builder.
 
-![Foutvalidatie](assets/error-validation.png)
+![De Bouwer van het segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 

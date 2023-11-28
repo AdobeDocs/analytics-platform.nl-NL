@@ -4,9 +4,9 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    Er wordt een lijst met uw ingeschakelde basisverbindingen weergegeven.
 
-   ![rapportwachtrij](assets/reporting-activity1.png)
+   ![Rapportactiviteit met de wachtrij met rapporten](assets/reporting-activity1.png)
 
 1. (Optioneel) U kunt de lijst met verbindingen opzoeken of filteren:
 

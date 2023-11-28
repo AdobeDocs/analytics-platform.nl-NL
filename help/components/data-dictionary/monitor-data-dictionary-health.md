@@ -4,16 +4,16 @@ title: Gezondheid gegevenswoordenboek controleren
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # Gezondheid gegevenswoordenboek controleren
 
-Customer Journey Analytics-beheerders zijn verantwoordelijk voor het onderhoud van een gezond gegevenswoordenboek.
+De beheerders van de Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens.
 
 ## Kenmerken van een gezond gegevenswoordenboek
 
@@ -23,7 +23,7 @@ Een gezond gegevenswoordenboek is een woordenboek waarin alle componenten zich b
 
 * Bevat handige beschrijvingen, zodat gebruikers weten hoe ze deze het beste kunnen gebruiken
 
-* zijn vrij van onnodige duplicaten
+* Geen onnodige duplicaten
 
 * Wordt goedgekeurd door de beheerder
 
@@ -37,7 +37,7 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![Admin-weergave gegevenswoordenboek](assets/data-dictionary-admin.png)
+   ![De weergave van de beheerder van het gegevenswoordenboek waarin de status van het woordenboek wordt weergegeven](assets/data-dictionary-admin.png)
 
 1. Controleer of de juiste gegevensweergave is geselecteerd in het keuzemenu.
 
@@ -51,4 +51,4 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
    Afhankelijk van wat u selecteert, wordt het juiste filter toegepast op het gegevenswoordenboek en worden alleen de relevante componenten weergegeven.
 
-1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over het bewerken van een component in het gegevenswoordenboek raadpleegt u [Onderdeelitems in gegevenswoordenboek bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over het bewerken van een component in het gegevenswoordenboek raadpleegt u [Onderdeelitems bewerken in het gegevenswoordenboek](/help/components/data-dictionary/edit-entries-data-dictionary.md).

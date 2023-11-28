@@ -4,9 +4,9 @@ description: Verklaar hoe te om gegevens in te voeren en te gebruiken gebruikend
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Uw schema instellen:
 
    1. Selecteren **[!UICONTROL Individual Profile]**.
 
-      ![Een schema maken](./assets/create-pr-schema-wizard-step-1.png)
+      ![Een schemavenster maken waarin Individueel profiel is geselecteerd](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -69,7 +69,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** voor uw schema en (optioneel) a **[!UICONTROL Description]**.
 
-      ![Geef uw schema een naam](./assets/create-pr-schema-wizard-step-2.png)
+      ![Schema-venster maken waarin de velden worden weergegeven voor de naam van het schema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Selecteren **[!UICONTROL Finish]**.
 
@@ -77,7 +77,7 @@ Uw schema instellen:
 
    1. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
 
-      ![Veldgroep toevoegen](./assets/add-field-group-button.png)
+      ![Schema-venster maken met de veldgroep Toevoegen](./assets/add-field-group-button.png)
 
       Veldgroepen zijn herbruikbare verzameling objecten en kenmerken waarmee u uw schema&#39;s eenvoudig kunt uitbreiden.
 
