@@ -4,7 +4,7 @@ description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -45,7 +45,7 @@ De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kun
 
 Voeg aanvullende gegevens toe aan het diagram. Als er meer dan één reeks zichtbaar is op het diagram, worden alleen bedekkingen weergegeven op de muisaanwijzer.
 
-* **[!UICONTROL Anomaly detection]**: Runs [anomaliedetectie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
+* **[!UICONTROL Anomaly detection]**: Runs [anomaliedetectie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) over de trendanalyse. De uiteinden verschijnen als punten die u over voor meer informatie kunt bewegen.
 * **[!UICONTROL Trendline overlay]**: Voegt een trendline toe aan het diagram waarmee u een duidelijker patroon in de gegevens kunt weergeven.
    * [!UICONTROL Linear]: maakt een rechte regressieregel. Dit is het meest geschikt voor eenvoudige lineaire gegevens die met een constante snelheid toenemen of afnemen. Vergelijking `y = a + b * x`
    * [!UICONTROL Logarithmic]: hiermee maakt u een kromme regressielijn. Het beste voor gegevens die snel stijgen of dalen, dan wordt meer niveau. Vergelijking `y = a + b * log(x)`

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 648acd49d6cc38531f50df0a7d78ec6dce533d01
+source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1046'
 ht-degree: 24%
 
 ---
@@ -167,12 +167,10 @@ ht-degree: 24%
       + [Download](../analysis-workspace/export/download-send.md)
       + [Verzenden naar anderen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
-   + Virtual Analyst {#virtual-analyst}
-      + [Overzicht van Virtual Analyst](../analysis-workspace/virtual-analyst/overview.md)
-      + Anomaliedetectie {#anomaly-detection}
-         + [Overzicht van anomaliedetectie](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Anomalieën weergeven in Analysis Workspace](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Statistische technieken voor anomaliedetectie](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + Anomaliedetectie {#anomaly-detection}
+      + [Overzicht van anomaliedetectie](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Anomalieën weergeven in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Statistische technieken voor anomaliedetectie](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
