@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 1%
+source-wordcount: '1507'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 1. Selecteer de [!UICONTROL **Locaties**] tab, dan selecteren [!UICONTROL **Locatie toevoegen**].
 
-   ![knop Locatie toevoegen](assets/location-add.png)
+   ![Exporteert het venster met het geselecteerde tabblad Locatie en markeert de knop Locatie toevoegen](assets/location-add.png)
 
    of
 

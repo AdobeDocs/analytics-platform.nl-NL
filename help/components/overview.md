@@ -4,9 +4,9 @@ description: Leer welke componenten Customer Journey Analytics aanbiedt, en hoe 
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1124'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en ti
 
 Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
-![Pictogram Componenten](assets/components.png)
+![Deelvenster Werkruimte met markering van het pictogram Componenten in het linkerspoor](assets/components.png)
 
 Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project.
 
@@ -75,7 +75,7 @@ U kunt componenten rechtstreeks in de linkerspoorstaaf beheren.
    >   U kunt meerdere componenten selecteren door Shift ingedrukt te houden of door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
 
 
-   ![Lijst met componenthandelingen](assets/component-actions.png)
+   ![Lijst met componenthandelingen met daarin de tags Favoriet, Favoriet, Goedkeuren, Delen en Verwijderen.](assets/component-actions.png)
 
    | Component, actie | Beschrijving |
    |--- |--- |

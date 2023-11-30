@@ -3,7 +3,7 @@ title: Vrije-vormentabel
 description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -20,7 +20,7 @@ In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensa
 
 De snelste manier om een lijst te bouwen is componenten in een leeg project, een paneel of een vrije vormlijst direct te laten vallen. Een vrije-vormlijst zal automatisch voor u in een geadviseerde formaat worden gebouwd. [De zelfstudie bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
 
-![Een nieuw Comité met de bezoekencomponent die op de het werk ruimte werd gelaten vallen.](assets/automated-table.png)
+![Een nieuw Comité met de bezoekencomponent die op de het werkruimte wordt gelaten vallen.](assets/automated-table.png)
 
 ## Opbouwfunctie voor tabellen met vrije vorm
 

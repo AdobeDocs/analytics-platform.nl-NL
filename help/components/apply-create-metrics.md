@@ -3,9 +3,9 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -16,16 +16,16 @@ Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze word
 
 ## Soorten metingen
 
-Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
+De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace aan:
 
-* **Standaardwaarden**: Voorbeeld van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen.
+* **Standaardwaarden**: Voorbeeld van standaardmetriek zijn Mensen, Sessies, Gebeurtenissen.
 
-* **Berekende cijfers** ![Pictogram Berekende metrische waarde](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg): Door de gebruiker gedefinieerde meetwaarden die zijn gebaseerd op standaardmeetwaarden, statische getallen of algoritmische functies.
+* **Berekende cijfers** ![Pictogram Berekende metrische waarde](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg): Door de gebruiker gedefinieerde meetgegevens die zijn gebaseerd op standaardmeetwaarden, statische getallen of algoritmische functies.
 
-* **Berekende metrische sjablonen**  <img src="./assets/adobe-logo.svg" width="18"> : Adobe-bepaalde metriek die zich gelijkaardig aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen.
+* **Berekende metrische sjablonen**  <img src="./assets/adobe-logo.svg" width="18"> : Adobe-bepaalde metriek die zich zo als berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen.
 
 
-![Metrische gegevens in de gebruikersinterface](assets/cja-metrics.png)
+![Deelvenster Werkruimte waarin u Metriek markeert in het linkerdeelvenster.](assets/cja-metrics.png)
 
 U kunt zien of metrisch is goedgekeurd ![Goedgekeurd pictogram](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  of niet. Als u meer details op metrisch wilt, beweegt zich over metrisch, en selecteert ![Info, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
@@ -40,14 +40,14 @@ U kunt **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**. Hierme
 
 Om het gemakkelijker te maken om snel berekende metriek tot stand te brengen, **[!UICONTROL Create metric from selection]** is toegevoegd aan het met de rechtermuisknop aanklikken van de kolom in de Lijsten van de Vrije Vorm. Deze optie wordt weergegeven wanneer een of meer cellen met kopteksten zijn geselecteerd.
 
-![Maken van selectie](assets/create-metric-from-selection.png)
+![Deelvenster Werkruimte markeren Maken op basis van selectie](assets/create-metric-from-selection.png)
 
-[Berekende waarden: Metriek zonder implementatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Berekende waarden: geen implementatiegegevens](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) 3:42
 
-## Metriek vergelijken met verschillende attributiemodellen
+## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
 Als u één attributiemodel aan een andere snel en gemakkelijk wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Compare Attribution Models]**:
 
-![Kenmerk vergelijken](assets/compare-attribution.png)
+![Deelvenster Werkruimte markeren Kenmerkmodellen vergelijken](assets/compare-attribution.png)
 
 Met deze sneltoets kunt u snel en eenvoudig een attributiemodel vergelijken met een ander attribuut zonder dat u dit model in een metrische modus hoeft te slepen en tweemaal hoeft te configureren.
