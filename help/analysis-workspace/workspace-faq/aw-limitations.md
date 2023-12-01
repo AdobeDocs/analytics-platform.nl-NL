@@ -3,9 +3,9 @@ description: Meer informatie over bekende beperkingen in Adobe Analysis Workspac
 title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,6 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 * De optie Metrisch maken op basis van selectie is uitgeschakeld wanneer filters worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
 * Voorwaardelijke opmaak voor splitsingsrijen kan geen aangepaste bereiken gebruiken.
 * De totale rijen van de lijst kunnen niet worden getrand wanneer Berekende totalen door de rijwaarden op te tellen wordt toegepast die (typisch wordt gebruikt met Statische rijpunten) plaatsen.
-* [!UICONTROL Contribution Analysis] kan worden uitgevoerd op [!UICONTROL daily] granulariteit _alleen_. Het kan niet worden bestreden [!UICONTROL hourly], [!UICONTROL weekly], enz., gegevens.
 
 ## Visualisaties
 

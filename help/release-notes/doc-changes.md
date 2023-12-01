@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2946'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **december 2023** | |
+| Updates van de documentatie over Anomaly Detection | De documentatie voor Anomaly Detection was eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [Anomaly Detection](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) is direct onder de sectie Analysis Workspace geplaatst.</li></ul> |
 | **Oktober 2023** | |
 | Het gebruik van afgeleid gebied voor het plaatsen van doelstellingen/doelstellingen | Toegevoegd [use case](../use-cases/goals-using-derived-fields.md) artikel dat illustreert hoe u afgeleide velden kunt gebruiken voor het vaststellen van doelen / doelen en het rapporteren hierover . |
 | Volledige tabellen exporteren naar de cloud | Toegevoegde documentatie over het exporteren van volledige tabellen met miljoenen rijen in Workspace naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Werkruimte met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 oktober 2023 |
