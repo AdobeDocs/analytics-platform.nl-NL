@@ -4,10 +4,10 @@ description: Customer Journey Analytics in vergelijking met Adobe Analytics-func
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 15fbbf26b58b474f65e6585ac72bdf247fb1678d
+source-git-commit: 3482083fd5f99f133db79f682d3231cc75c969ff
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 2%
+source-wordcount: '2037'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Anomalische detectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
-| Berekende standaarden | Volledige ondersteuning. Eventuele bestaande berekende metrische waarden in de traditionele Analysis Workspace worden niet naar de Customer Journey Analytics overgebracht. |
+| Berekende cijfers | Volledige ondersteuning. Eventuele bestaande berekende metrische waarden in de traditionele Analysis Workspace worden niet naar de Customer Journey Analytics overgebracht. |
 | Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
 | CSV-download | Volledige ondersteuning |
 | Aangepaste kalenders | Volledige ondersteuning |
@@ -38,7 +38,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | PDF exporteren | Volledige ondersteuning |
 | Projectcursus | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
-| Verwerking rapportduur | Volledige steun; Customer Journey Analytics baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
+| Tijdverwerking rapporteren | Volledige steun; Customer Journey Analytics baseert zich uitsluitend op de Verwerking van de Tijd van het Rapport. |
 | API-toegang rapporteren | Volledige ondersteuning; beschikbaar via de [Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
 | Segmenten | Volledige ondersteuning. Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet naar Customer Journey Analytics worden overgebracht. |
@@ -97,7 +97,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Bijdrage-analyse | Er is steun gepland. |
 | ID-stitatie met apparaatgrafiek | Er is steun gepland. |
 | Projectsjablonen | Er is steun gepland. |
-| Realtimerapportage | Er is steun gepland. |
+| Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Gegevensbronnen van transactie-id | Er is steun gepland. |
 | Projecten, filters, en berekende metriek van Adobe Analytics aan Customer Journey Analytics migreren | Er is steun gepland. |
@@ -132,10 +132,11 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd. Adobe Analytics is beperkt tot 500.000 unieke waarden. De onbeperkte unieke waarden of dimensies verwijderen de rapportage- en analysebeperkingen die momenteel bestaan met grootschalige analytische implementatie. |
 | Transformaties in de rapporttijd | Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | Experimentatieanalyse | Customer Journey Analytics kan de lift en het vertrouwen van elk experiment beoordelen vanuit elke gegevensbron die is gedefinieerd als onderdeel van een verbinding. Deze evaluatie staat u toe om oorzaak-en-effect verhoudingen tussen klanteninteractie te begrijpen die om het even welk kanaal overspannen. Analyse is beperkt tot experimentatieanalyse via A4T. |
-| Cross-device Analytics | Customer Journey Analytics steunt de naadloze combinatie apparaat-specifieke datasets van unauthenticated en voor authentiek verklaarde zittingen. De Customer Journey Analytics biedt aan om historische gegevens aan bekende apparaten terug te vullen. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
+| Apparaatanalyse | Customer Journey Analytics steunt de naadloze combinatie apparaat-specifieke datasets van unauthenticated en voor authentiek verklaarde zittingen. De Customer Journey Analytics biedt aan om historische gegevens aan bekende apparaten terug te vullen. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Uitgebreide opties voor beveiliging en privacy - HIPAA-gereedheid | De Customer Journey Analytics is klaar HIPAA en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 | Mogelijkheid om gegevenssets te combineren (zoals Adobe Analytics-rapportenreeksen) | Met Customer Journey Analytics kunt u gegevens uit meerdere rapportensuites combineren alsof het één rapportsuite in Adobe Analytics betreft. |
 | Afgeleide velden | De afgeleide gebieden staan voor rapport-tijd transformaties aan uw gegevens toe. Gegevens kunnen tijdens de vlucht worden gecombineerd, gecorrigeerd of gemaakt en worden met terugwerkende kracht toegepast op alle rapporten. |
+| Analyse met instructies | De geleide analyse is een rapporteringsformaat dat gebruikers toestaat om hun gegevensbehoeften snel zelf te dienen zodat zij high-quality inzicht snel kunnen krijgen en meer gegeven-gedreven besluiten kunnen nemen. De geleide analyse maakt deel uit van Adobe Product Analytics, een toevoeging aan Customer Journey Analytics. |
 
 {style="table-layout:auto"}
