@@ -4,20 +4,20 @@ description: Specificeer hoe een afmeting of metrisch gedrag in het melden.
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
 
 # Instellingen van gedragcomponent
 
-Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De beschikbare instellingen zijn afhankelijk van het gegevenstype van de component en het schema.
+Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De beschikbaarheid van instellingen is afhankelijk van het gegevenstype van de component en het schema.
 
 ![Gedragsinstellingen](../assets/behavior-settings.png)
 
-## Instellingen voor Dimension-gedrag
+## Instellingen voor gedrag van Dimensionen
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -25,15 +25,15 @@ Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De b
 
 {style="table-layout:auto"}
 
-![Hoofdlettergevoelige dimensie](../assets/case-sens-workspace.png)
-
 >[!NOTE]
 >
->Als u [!UICONTROL Lower case] op een dimensie van de raadplegingsdataset, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict optreedt, gebruikt Customer Journey Analytics de eerste ASCII-gesorteerde waarde (hoofdletters staan voor waarden in kleine letters). Adobe adviseert tegen het gebruiken van raadplegingsdatasets die de zelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
+>Als u [!UICONTROL Lower case] op een dimensie van de raadplegingsdataset, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict gebeurt, gebruikt de Customer Journey Analytics de eerste gesorteerde ASCII-waarde (de waarden in hoofdletters staan voor de waarden in kleine letters). De Adobe adviseert tegen het gebruiken van raadplegingsdatasets die de zelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
+
+![Hoofdlettergevoelige dimensie](../assets/case-sens-workspace.png)
 
 ## Instellingen voor metrisch gedrag
 
-| Instelling | Beschrijving/Hoofdletters gebruiken |
+| Instelling | Omschrijving/gebruik |
 | --- | --- |
 | [!UICONTROL Count values] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog metrisch met de gespecificeerde hoeveelheid. Vergroot bijvoorbeeld de waarde van de kolom met 50 als de waarde van de kolom gelijk is `50`. |
 | [!UICONTROL Count instances] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog de metrische waarde met één, ongeacht de waarde. De aanwezigheid van om het even welke waarde verhoogt metrisch. Hiermee wordt bijvoorbeeld de waarde van een kolom met 1 verhoogd `50`. |

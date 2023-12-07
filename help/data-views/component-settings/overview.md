@@ -4,20 +4,20 @@ description: De kernmontages van de mening voor een component van de gegevensmen
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '462'
+ht-degree: 0%
 
 ---
 
 # Componentinstellingen
 
-De montages van de kern die een component van de gegevensmening gebruikt.
+De volgende informatie beschrijft c montages die een component van de gegevensmening gebruikt.
 
 ![Componentinstellingen die in deze sectie worden beschreven](../assets/component-settings.png)
 
-| Instelling | Beschrijving/Gebruik hoofdletters/kleine letters |
+| Instelling | Omschrijving/gebruik |
 | --- | --- |
 | [!UICONTROL Component type] | Vereist. Hiermee kunt u een component wijzigen van Metrisch in Dimension of omgekeerd. Als u deze vervolgkeuzelijst wijzigt, wordt de component verplaatst naar het bijbehorende opgenomen componentgebied. |
 | [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |

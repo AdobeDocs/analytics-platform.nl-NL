@@ -4,16 +4,16 @@ description: Hiermee kunt u de standaardattributie voor een metrische waarde ins
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
 
 # Instellingen van component Attributie
 
-De attributie geeft u de capaciteit om aan te passen hoe de afmetingspunten krediet voor succesgebeurtenissen krijgen.
+Met Attributie kunt u aanpassen hoe dimensie-items krediet krijgen voor succesgebeurtenissen.
 
 ![Het venster Gegevens markeert de optie Toekenning instellen](../assets/attribution-settings.png)
 
