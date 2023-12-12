@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d6e10a00bf9afb2788f99800e09a7e80fd31e489
+source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 0%
@@ -396,9 +396,4 @@ Kortom, het emuleren van de functionaliteit Adobe Analytics Data Feed impliceert
 >[!IMPORTANT]
 >
 >Twee planners zijn betrokken in dit gebruiksgeval. Om een behoorlijk werk van de geëmuleerde functionaliteit van de gegevensvoer te waarborgen, zorg ervoor dat de programma&#39;s die in de Dienst van de Vraag en de uitvoer van Gegevens worden gevormd zich niet mengen.
-
-
-
-
-
 

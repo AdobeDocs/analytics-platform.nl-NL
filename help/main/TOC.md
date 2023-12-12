@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+source-git-commit: 3d53fbcfea341f0cf9c1cf7da5296565eafff0f9
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 24%
+source-wordcount: '1045'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 + [Adobe Customer Journey Analytics Guide](../getting-started/cja-landing.md)
 
-+ Release-opmerkingen {#releases}
++ Opmerkingen bij de release {#releases}
    + [Meest recente release](../release-notes/latest.md)
    + [2023 releases](../release-notes/2023.md)
    + [2022 introducties](../release-notes/2022.md)
@@ -50,7 +50,7 @@ ht-degree: 24%
       + [Verwerkingsregels, VISTA en classificaties versus Data Prep](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [STEUN, ECID, AACUSTOMID en de bronaansluiting voor Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
-+ Gegevensopname {#cja-data-ingestion}
++ Gegevensinname {#cja-data-ingestion}
    + [Overzicht van gegevensinscriptie](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
@@ -77,7 +77,7 @@ ht-degree: 24%
    + Componentinstellingen {#component-settings}
       + [Overzicht van componentinstellingen](../data-views/component-settings/overview.md)
       + [Attributie](../data-views/component-settings/attribution.md)
-      + [Gedraging](../data-views/component-settings/behavior.md)
+      + [Gedrag](../data-views/component-settings/behavior.md)
       + [Indeling](../data-views/component-settings/format.md)
       + [Waarden uitsluiten opnemen](../data-views/component-settings/include-exclude-values.md)
       + [Metrische deduplicatie](../data-views/component-settings/metric-deduplication.md)
@@ -106,77 +106,77 @@ ht-degree: 24%
          + [Een project verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Een nieuw project opslaan](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Hotkeys (sneltoetsen)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Kleurpaletten](../analysis-workspace/build-workspace-project/color-palettes.md)
+      + [Kleurenpaletten](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](../analysis-workspace/build-workspace-project/view-density.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Databronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
-      + Vrije-vormentabel {#freeform-table}
-         + [Vrije-vormentabel](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+      + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
+      + Vrije-vormtabel {#freeform-table}
+         + [Vrije-vormtabel](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
-            + [Rij-instellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace-totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totalen werkruimte](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport voor cohortanalyse configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Gebruiksgevallen van cohortanalyse](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Uitval {#fallout}
          + [Overzicht van uitval](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Een uitvalvisualisatie configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Een fallout-visualisatie configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Interdimensionale uitval](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Filters toepassen in falloutanalyse](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
          + [Overzicht van stroom](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Een stroomvisualisatie configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Gebied en gestapeld gebied](../analysis-workspace/visualizations/area.md)
-      + [Balkgrafiek en gestapelde-balkgrafiek](../analysis-workspace/visualizations/bar.md)
-      + [Staafdiagram](../analysis-workspace/visualizations/bullet-graph.md)
+      + [Gebied en gebied gestapeld](../analysis-workspace/visualizations/area.md)
+      + [Stapel en balk gestapeld](../analysis-workspace/visualizations/bar.md)
+      + [Bullet](../analysis-workspace/visualizations/bullet-graph.md)
       + [Combodiagram](../analysis-workspace/visualizations/combo-charts.md)
-      + [Cirkeldiagram](../analysis-workspace/visualizations/donut.md)
+      + [Donut](../analysis-workspace/visualizations/donut.md)
       + [Histogram](../analysis-workspace/visualizations/histogram.md)
-      + [Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [Horizontale balk en horizontale balk gestapeld](../analysis-workspace/visualizations/horizontal-bar.md)
       + [Intelligente bijschriften](../analysis-workspace/visualizations/intelligent-captions.md)
       + [Samenvatting van metrische sleutel](../analysis-workspace/visualizations/key-metric.md)
       + [Lijn](../analysis-workspace/visualizations/line.md)
-      + [Spreidingsdiagram](../analysis-workspace/visualizations/scatterplot.md)
-      + [Cijferoverzicht en Wijzigingsoverzicht](../analysis-workspace/visualizations/summary-number-change.md)
+      + [Scatterplot](../analysis-workspace/visualizations/scatterplot.md)
+      + [Samenvattingsnummer en Samenvattingswijziging](../analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](../analysis-workspace/visualizations/text.md)
       + [Boomstructuur](../analysis-workspace/visualizations/treemap.md)
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](../analysis-workspace/c-panels/panels.md)
-      + [Deelvenster voor attributie](../analysis-workspace/c-panels/attribution.md)
+      + [Kenmerk, deelvenster](../analysis-workspace/c-panels/attribution.md)
       + [Leeg deelvenster](../analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Experimentatie](../analysis-workspace/c-panels/experimentation.md)
       + [Deelvenster Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
-      + [Deelvenster voor gelijktijdige mediaviewers](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Deelvenster Mediagelijktijdige viewers](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Media afspelen tijd besteed, deelvenster](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + Projecten cureren, delen en plannen {#curate-share}
       + [Menu Delen](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](../analysis-workspace/curate-share/curate.md)
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
-      + [Alleen-weergeven -projecten](../analysis-workspace/curate-share/view-only-projects.md)
+      + [Alleen-weergeven projecten](../analysis-workspace/curate-share/view-only-projects.md)
    + Exporteren {#export}
       + [Overzicht van exporteren](../analysis-workspace/export/export-project-overview.md)
-      + [Download](../analysis-workspace/export/download-send.md)
+      + [Downloaden](../analysis-workspace/export/download-send.md)
       + [Verzenden naar anderen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Anomaliedetectie {#anomaly-detection}
-      + [Overzicht van anomaliedetectie](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Anomalieën weergeven in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Statistische technieken voor anomaliedetectie](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [Overzicht van anomalische detectie](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [anomalieën weergeven in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Statistische technieken voor de opsporing van anomalieën](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
       + [Foutberichten](../analysis-workspace/workspace-faq/error-messages.md)
-      + [Beperkingen van Analysis Workspace](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Beheervereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Analysis Workspace-beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analysedashboards {#cja-dashboards}
@@ -184,7 +184,7 @@ ht-degree: 24%
    + [Curatortaken](../mobile-app/curator.md)
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
-   + [Snelle handleiding voor executive gebruikers](../mobile-app/executive.md)
+   + [Snelle handleiding voor gebruikers](../mobile-app/executive.md)
 
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
@@ -206,7 +206,7 @@ ht-degree: 24%
    + [Veelgestelde vragen](../guided-analysis/faq.md)
 
 + Onderdelen {#cja-components}
-   + [Overzicht van onderdelen](../components/overview.md)
+   + [Overzicht van componenten](../components/overview.md)
    + [Componentbeschrijvingen toevoegen](../components/add-component-descriptions.md)
    + Annotaties {#annotations}
       + [Overzicht van annotaties](../components/annotations/overview.md)
@@ -220,9 +220,9 @@ ht-degree: 24%
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
       + [Soorten publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
-      + [Voorvertoningsdimensies](../components/dimensions/view-dimensions.md)
-      + [Uitsplitsingsdimensies](../components/dimensions/t-breakdown-fa.md)
-      + [Tijduitsplitsende dimensies](../components/dimensions/time-parting-dimensions.md)
+      + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
+      + [Afmetingen onderverdelingen](../components/dimensions/t-breakdown-fa.md)
+      + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
       + [Dimensionen met zeer hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
    + Filters {#cja-filters}
@@ -238,11 +238,11 @@ ht-degree: 24%
       + [Filter builder](../components/filters/filter-builder.md)
       + [Filters beheren](../components/filters/manage-filters.md)
       + [Operatoren](../components/filters/operators.md)
-   + Berekende standaarden {#cja-calcmetrics}
+   + Berekende cijfers {#cja-calcmetrics}
       + [Overzicht van berekende metriek](../components/calc-metrics/calc-metr-overview.md)
-      + Workflow voor berekende standaard {#cm-workflow}
-         + [Workflow voor berekende standaard](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [Cijfers zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
+      + Workflow voor berekende metriek {#cm-workflow}
+         + [Workflow voor berekende metriek](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [Metrische gegevens zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Metrische gegevens samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Type en attributie metrisch](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [Een metrische deelname maken](../components/calc-metrics/cm-workflow/participation-metric.md)
@@ -253,9 +253,9 @@ ht-degree: 24%
          + [Berekende metriek markeren als favorieten](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Berekende cijfers kopiëren](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Functies gebruiken](../components/calc-metrics/cm-workflow/cm-using-functions.md)
-         + [Berekende standaard een label geven](../components/calc-metrics/cm-workflow/cm-tagging.md)
-         + [Berekende standaard goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)
-         + [Berekende standaard delen](../components/calc-metrics/cm-workflow/cm-sharing.md)
+         + [Berekende maatstaven voor tags](../components/calc-metrics/cm-workflow/cm-tagging.md)
+         + [Berekende waarden goedkeuren](../components/calc-metrics/cm-workflow/cm-approving.md)
+         + [Berekende maatstaven delen](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [Berekende metrische manager](../components/calc-metrics/cm-workflow/cm-manager.md)
       + [Berekende standaardwaarden](../components/calc-metrics/default-calcmetrics.md)
       + [Basisfuncties](../components/calc-metrics/cm-functions.md)
@@ -317,7 +317,7 @@ ht-degree: 24%
    + [AI van klant integreren met Customer Journey Analytics](/help/integrations/customer-ai.md)
 
 + Data Governance {#cja-privacy}
-   + [Data Governance](../privacy/privacy-overview.md)
+   + [Gegevensbeheer](../privacy/privacy-overview.md)
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
@@ -343,13 +343,14 @@ ht-degree: 24%
    + Adobe Analytics-gegevens {#aa-data}
       + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
       + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
+      + [Gegevensfeeds emuleren](../use-cases/emulating-data-feeds.md)
    + Complexe gegevens {#complex-data}
       + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
    + Afgeleide velden {#derived-fields}
       + [Gebruik afgeleide gebieden om over doelstellingen te rapporteren](../use-cases/goals-using-derived-fields.md)
 
 
-+ Beheer {#cja-admin}
++ Administratie {#cja-admin}
    + [Toegangsbeheer](../admin/cja-access-control.md)
    + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
    + [Gevolgen van verwijdering](../admin/cja-deletion.md)
