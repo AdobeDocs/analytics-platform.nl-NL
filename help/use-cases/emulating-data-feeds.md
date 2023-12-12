@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
+source-git-commit: d5719dddfb4cefda761370951973d55b3904032f
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Analytics-gegevensfeeds zijn een krachtige manier om onbewerkte gegevens u
 
 Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u de functionaliteit gebruikt die in dit gebruiksgeval wordt beschreven:
 
-* Een werkende implementatie die online en off-line gegevens naar het gegevensmeer van het Experience Platform verzendt.
+* Een werkende implementatie die online en off-line gegevens naar het meer van de Gegevens van het Experience Platform verzendt.
 * Toegang tot de Dienst van de Vraag, die als deel van op vorm-gebaseerde toepassingen of de gegevens Distiller toe:voegen-op wordt verpakt. Zie [Query Service verpakken](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) voor meer informatie .
 * Toegang tot de functionaliteit voor het exporteren van gegevenssets, beschikbaar voor klanten die het Real-Time CDP-pakket Premier of Ultimate, Adobe Journey Optimizer of Customer Journey Analytics hebben aangeschaft. Zie [Gegevenssets exporteren naar cloudopslagbestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en) voor meer informatie .
 * Een of meer doelen (bijvoorbeeld: Amazon S3, Google Cloud Storage) geconfigureerd voor het exporteren van de onbewerkte gegevens van uw gegevensfeed.
@@ -46,7 +46,7 @@ U gebruikt de Dienst van de Vraag [gebruikersinterface](https://experienceleague
 
 U kunt alle functionaliteit van standaardANSI SQL voor UITGEZOCHTE verklaringen en andere beperkte bevelen gebruiken om de vragen tot stand te brengen en uit te voeren die de gegevens voor uw gegevensvoer produceren. Zie [SQL-syntaxis](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) voor meer informatie . Buiten deze SQL-syntaxis ondersteunt Adobe:
 
-* voorgebouwd [Adobe-bepaalde functies (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) die helpen gemeenschappelijke zaken-gerelateerde taken op gebeurtenisgegevens uitvoeren die in de gegevens van het Experience Platform meer worden opgeslagen, met inbegrip van functies voor [Sessionering](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=en) en [Attributie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en),
+* voorgebouwd [Adobe-bepaalde functies (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) die helpen gemeenschappelijke zaken-gerelateerde taken op gebeurtenisgegevens uitvoeren die in het Meer van Gegevens van het Experience Platform worden opgeslagen, met inbegrip van functies voor [Sessionering](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=en) en [Attributie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en),
 * meerdere ingebouwde [SQL-functies in Spark](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en),
 * [Metagegevens, PostgreSQL-opdrachten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en),
 * [voorbereide instructies](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
@@ -292,7 +292,7 @@ select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 U kunt ook naar afzonderlijke elementen verwijzen met puntnotatie. Bijvoorbeeld:
 
 ```sql
-select identityMap,ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
+select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 ```
 
 Zie [Werken met geneste gegevensstructuren in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en) voor meer informatie .
