@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: e49ea37f36d105e428bc6d04a6ed42a47e2d75fc
+source-git-commit: b41adb3f3fa4abbfa7be491e5a1fbf81e1623598
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 | cust_visid | identityMap | object | De I.D. van de klantenbezoeker |
 | cust_visid | endUserIDs._experience.aaccustomid.id | object | De bezoeker-id van de klant. |
 | cust_visid | endUserIDs._experience.aaccustomid.primary | boolean | De naamruimtecode van de bezoeker-id van de klant. |
-| cust_visid | endUserIDs._experience.accustomid.namespace.code | Wordt gebruikt in combinatie met visid_low om de id van de bezoeker van de klant uniek te identificeren. |
+| cust_visid | endUserIDs._experience.accustomid.namespace.code | string | Wordt gebruikt in combinatie met visid_low om de id van de bezoeker van de klant uniek te identificeren. |
 | geo\_* | placeContext.geo.* | tekenreeks, getal | Geolocatiegegevens, zoals land, regio, stad en andere |
 | visit_page_num | _experience.analytics.session.depth | getal | Een variabele die wordt gebruikt in de dimensie van de Diepte van het Actief. Deze waarde neemt toe met 1 voor elke hit die de gebruiker genereert en herstelt na elk bezoek. |
 | event_list | commerce.purchase, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | string | Standaard handel en douanegebeurtenissen teweeggebracht op de slag. |
