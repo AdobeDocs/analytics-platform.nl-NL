@@ -1,32 +1,33 @@
 ---
-title: Hoe stikken werkt
+title: Hoe stitching werkt
 description: Begrijp het concept stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+exl-id: 506838a0-0fe3-4b5b-bb9e-2ff20feea8bc
+source-git-commit: 8ca11b37ebda952d95ae38473a9c0d62be007e79
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 10%
+source-wordcount: '1081'
+ht-degree: 7%
 
 ---
 
-# Hoe stikken werkt
+# Hoe stitching werkt
 
 Met Stitching worden minimaal twee gegevenscontroles in een bepaalde gegevensset uitgevoerd:
 
-* **Actief stiteren**: pogingen om elke hit (gebeurtenis) te verstevigen terwijl deze binnenkomt. Hits van apparaten die &quot;nieuw&quot;aan de dataset (nooit voor authentiek verklaard) zijn worden typisch niet vastgemaakt op dit niveau. Hits van reeds herkende apparaten worden onmiddellijk vastgezet.
+* **Actief stiteren**: pogingen om elke hit (gebeurtenis) aan te hechten zodra deze wordt weergegeven. Hits van apparaten die &quot;nieuw&quot;aan de dataset (nooit voor authentiek verklaard) zijn worden typisch niet vastgemaakt op dit niveau. Hits van reeds herkende apparaten worden onmiddellijk vastgezet.
 
-* **Replay stitching**: Hiermee worden gegevens opnieuw afgespeeld op basis van unieke id&#39;s (transient ID&#39;s) die het heeft geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Adobe biedt twee herhalingsintervallen:
+* **Replay stitching**: De gegevens worden opnieuw afgespeeld op basis van unieke id&#39;s (transient ID&#39;s) die door de id zijn geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Adobe biedt twee herhalingsintervallen:
    * **Dagelijks**: Gegevens worden elke dag opnieuw afgespeeld met een terugzoekvenster van 24 uur. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
-   * **Wekelijks**: De gegevens worden eenmaal per week opnieuw afgespeeld met een terugkijkvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens weer wekelijks worden afgespeeld.
+   * **Wekelijks**: Gegevens worden eenmaal per week opnieuw afgespeeld met een terugzoekvenster van 7 dagen. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
 
 * **Privacy (optioneel)**: Wanneer verzoeken met betrekking tot privacy worden ontvangen, moet, naast het verwijderen van de gevraagde identiteit, elke koppeling van die identiteit tussen niet-geverifieerde gebeurtenissen ongedaan worden gemaakt.
 
 Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een bezoeker moet binnen een bepaald terugkijkvenster voor een ongeautoriseerd bezoek en voor authentiek verklaard bezoek voor authentiek verklaren om samen worden geïdentificeerd. Als een apparaat eenmaal is herkend, wordt het vanaf dat punt live vastgezet.
 
-## Stap 1: Actief stiteren
+## Stap 1: Actief stitching
 
-Live stilzetten probeert elke gebeurtenis na verzameling aan te sluiten op bekende apparaten en kanalen. Overweeg het volgende voorbeeld, waar het Loodje verschillende gebeurtenissen als deel van een gebeurtenisdataset registreert.
+Live stilzetten probeert elke gebeurtenis bij de verzameling aan te sluiten op bekende apparaten en kanalen. Overweeg het volgende voorbeeld, waar het Loodje verschillende gebeurtenissen als deel van een gebeurtenisdataset registreert.
 
 *Gegevens zoals deze worden weergegeven op de dag waarop ze worden verzameld:*
 
@@ -46,25 +47,35 @@ Live stilzetten probeert elke gebeurtenis na verzameling aan te sluiten op beken
 | 12 | 2023-05-12 12:12 | 81911 | - | **Bob** |
 | | | **3 apparaten** | | **4 personen**:<br/>246, Bob, 3579, 81911 |
 
-{style="table-layout:auto"}
-
-<!--
-| Timestamp | Web dataset Persistent ID | Web dataset Transient ID | Stitched ID after live stitch | Call enter Person ID | Explanation of hit | People metric (cumulative) |
-| --- | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | - | `246` | Bob visits your site on a desktop, unauthenticated | `1` (246) |
-| `2` | `246` | `Bob` | - | `Bob` | Bob logs in on desktop | `2` (246 and Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob calls customer service | `2` (246 and Bob) |
-| `4` | `3579` | - | - | `3579` | Bob accesses your site on a mobile device, unauthenticated | `3` (246, Bob, and 3579) |
-| `5` | `3579` | `Bob` | - | `Bob` | Bob logs in via mobile | `3` (246, Bob, and 3579) |
-| `6` | - | - | `Bob` | `Bob` | Bob calls customer service again | `3` (246, Bob, and 3579) |
-| `7` | `246` | - | - | `Bob` | Bob visits your site on a desktop again, unauthenticated | `3` (246, Bob, and 3579) |
--->
-
 Zowel niet-geverifieerde als geverifieerde gebeurtenissen op nieuwe apparaten worden als afzonderlijke personen geteld (tijdelijk). Niet-geverifieerde gebeurtenissen op herkende apparaten worden live stilgezet.
 
 Attributie werkt wanneer de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle gebeurtenissen behalve de gebeurtenissen 1, 8, 9 en 10 live vernaakt (ze gebruiken allemaal de `Bob` id). Als u de stitching live uitvoert, wordt de geroteerde id voor gebeurtenis 4, 6 en 12 opgelost.
 
-## Stap 2: Replay stitching
+
+<!--
+
+### Delayed data
+
+When incoming data for 'Live' stitching is delayed and over 24 hours old, and when no identities in that delayed data can be matched against identities already considered for 'Live' stitching, that delayed data is not added to the data considered for 'Live' stitching.
+
+In the example below, the data in event 2 is delayed but will be part of 'Live' stitching.
+
+| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
+| 2 | 2023-05-14 12:02 | 246 | Bob ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | Bob |
+
+In the example below, the data in event 2 is delayed and will NOT become part of 'Live' stitching.
+
+| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
+| ~~2~~ | ~~2023-05-14 12:02~~ | ~~891~~ |  | (not considered for 'Live' stitching) |
+
+-->
+
+
+## Stap 2: Spatiëring opnieuw afspelen
 
 Met regelmatige intervallen (eenmaal per week of eenmaal per dag, afhankelijk van het gekozen terugkijkvenster) worden historische gegevens opnieuw berekend op basis van de apparaten die het nu herkent. Als een apparaat aanvankelijk gegevens verzendt terwijl niet voor authentiek verklaard en dan login, replay stitching bindt die niet voor authentiek verklaarde gebeurtenissen aan de correcte persoon. In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar worden verschillende getallen weergegeven op basis van het opnieuw afspelen van de gegevens.
 
@@ -127,7 +138,7 @@ Wanneer u een privacyverzoek ontvangt, wordt de rij met de originele gebruikersi
 
 ## Samenvatting
 
-* Bij het plaatsen worden gebeurtenissen van bekende apparaten meteen vastgezet, maar worden gebeurtenissen niet onmiddellijk vastgezet door nieuwe of niet-herkende apparaten.
+* Bij het plaatsen worden gebeurtenissen van bekende apparaten meteen vastgezet, maar worden gebeurtenissen niet direct vastgezet door nieuwe of niet-herkende apparaten.
 * De gegevens worden met regelmatige intervallen opnieuw afgespeeld, en verandert historische gegevens in de verbinding die op apparaten wordt gebaseerd het heeft geleerd om zich te identificeren.
 * Op één gegevensset worden actieve stitching en replay stitching uitgevoerd. Het resultaat is een nieuwe opgeheven dataset die geschikter is om te worden gebruikt wanneer gecombineerd met andere datasets (bijvoorbeeld, vraag-centrum gegevens) om kanaalanalyse uit te voeren.
 * De verzoeken van de privacy verwijderen identiteiten die aan unauthenticated rijen werden verspreid.

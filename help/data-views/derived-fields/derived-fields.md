@@ -4,10 +4,10 @@ description: Een afgeleid gebied specificeert rapport-tijd manipulatie van schem
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
+source-git-commit: db61abfda71a26e4fae7134dfbb2f637b77e1e8c
 workflow-type: tm+mt
-source-wordcount: '5382'
-ht-degree: 4%
+source-wordcount: '5524'
+ht-degree: 3%
 
 ---
 
@@ -1281,6 +1281,12 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 - U kunt maximaal 100 afgeleide velden per verbinding van de Customer Journey Analytics hebben.
 
 ## Meer informatie
+
+[`Trim`](#trim) en [`Lowercase`](#lowercase) zijn functies die al beschikbaar zijn in de componentinstellingen in [Gegevensweergaven](../component-settings/overview.md). Door Afgeleide velden te gebruiken, kunt u deze functies combineren om complexe gegevenstransformatie rechtstreeks in Customer Journey Analytics uit te voeren. U kunt bijvoorbeeld `Lowercase` om hoofdlettergevoeligheid in een gebeurtenisveld te verwijderen en vervolgens te gebruiken [`Lookup`](#lookup) om het nieuwe in kleine letters gebied aan een raadplegingsdataset aan te passen die slechts raadplegingssleutels in kleine letters heeft. Of u kunt `Trim` om tekens te verwijderen voordat u deze instelt `Lookup` op het nieuwe veld.
+
+De steun voor raadpleging en profielgebieden in Voortgekomen Gebieden laat u toe om gegevens om te zetten die op gebeurtenisraadplegingen en profielattributen worden gebaseerd. Dit kan vooral nuttig in scenario&#39;s B2B met rekening-vlakke gegevens in raadpleging of profieldatasets zijn. Daarnaast is deze ondersteuning handig voor het manipuleren van gegevens in veelvoorkomende velden van opzoekgegevens (zoals campagne-info en aanbiedingstype) of van profielgegevens (zoals ledenlijst en accounttype).
+
+Zie voor meer achtergrondinformatie over Afgeleide Gebieden:
 
 - [Maken van het grootste deel van Uw Gegevens: Een kader voor het Gebruiken van Afgeleide Gebieden in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 

@@ -3,10 +3,11 @@ title: Veelgestelde vragen over tekst
 description: Veelgestelde vragen over Stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
+source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 2%
+source-wordcount: '1269'
+ht-degree: 1%
 
 ---
 
@@ -63,9 +64,9 @@ Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journ
 
 +++
 
-+++**Hoe behandelt Stitching GDPR en CCPA verzoeken?**
++++**Hoe behandelt Stitching privacyverzoeken?**
 
-De Adobe behandelt verzoeken van de GDPR en de CCPA in overeenstemming met de lokale en internationale wetgeving. Adobe biedt de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) verzoeken om toegang tot en verwijdering van gegevens in te dienen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
+Adobe behandelt verzoeken om privacy in overeenstemming met de lokale en internationale wetgeving. Adobe biedt de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) verzoeken om toegang tot en verwijdering van gegevens in te dienen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 +++
 
