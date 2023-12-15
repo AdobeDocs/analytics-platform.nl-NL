@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9b51a28ca2d387aabd3ffde651eed6c37d28baa0
+source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2725'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **december 2023** | |
+| Guardrails | Customer Journey Analytics voor toegevoegde artikelaanbieding [guardrails](../admin/guardrails.md). |
 | Updates van valutaomrekening | Verduidelijkte documentatie over hoe te [valutaconversie configureren](/help/data-views/component-settings/format.md). |
 | Updates van de documentatie over Anomaly Detection | De documentatie voor Anomaly Detection was eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [Anomaly Detection](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) is direct onder de sectie Analysis Workspace geplaatst.</li></ul> |
 | **Oktober 2023** | |

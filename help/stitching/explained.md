@@ -4,9 +4,9 @@ description: Begrijp het concept stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 506838a0-0fe3-4b5b-bb9e-2ff20feea8bc
-source-git-commit: 8ca11b37ebda952d95ae38473a9c0d62be007e79
+source-git-commit: 2c650cf688112be1e6bf16c0863e743d61f9c35c
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1109'
 ht-degree: 7%
 
 ---
@@ -51,29 +51,7 @@ Zowel niet-geverifieerde als geverifieerde gebeurtenissen op nieuwe apparaten wo
 
 Attributie werkt wanneer de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle gebeurtenissen behalve de gebeurtenissen 1, 8, 9 en 10 live vernaakt (ze gebruiken allemaal de `Bob` id). Als u de stitching live uitvoert, wordt de geroteerde id voor gebeurtenis 4, 6 en 12 opgelost.
 
-
-<!--
-
-### Delayed data
-
-When incoming data for 'Live' stitching is delayed and over 24 hours old, and when no identities in that delayed data can be matched against identities already considered for 'Live' stitching, that delayed data is not added to the data considered for 'Live' stitching.
-
-In the example below, the data in event 2 is delayed but will be part of 'Live' stitching.
-
-| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
-|---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
-| 2 | 2023-05-14 12:02 | 246 | Bob ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | Bob |
-
-In the example below, the data in event 2 is delayed and will NOT become part of 'Live' stitching.
-
-| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
-|---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
-| ~~2~~ | ~~2023-05-14 12:02~~ | ~~891~~ |  | (not considered for 'Live' stitching) |
-
--->
-
+Vertraagde gegevens (gegevens met een tijdstempel van meer dan 24 uur oud) worden op de best mogelijke manier verwerkt, terwijl de koppeling van de huidige gegevens voor de hoogste kwaliteit wordt geprezen.
 
 ## Stap 2: Spatiëring opnieuw afspelen
 

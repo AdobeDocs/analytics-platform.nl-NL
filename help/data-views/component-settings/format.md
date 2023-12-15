@@ -4,9 +4,9 @@ description: Vorm hoe metrisch wordt geformatteerd.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 045037867063f6bb5a6be60132f8d7b1bb54917e
+source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,6 @@ U kunt bepalen hoe een bepaalde metrische waarde wordt getoond door zijn formaat
 1. Selecteer de gegevensmening die de component bevat waarvan formaat dat u wilt vormen plaatst.
 
 1. Selecteer de [!UICONTROL **Componenten**] tab.
-
-   ![Tabblad Componenten](../assets/format-settings-component-tab.png)
 
 1. Selecteer de component die u wilt vormen, dan breid uit [!UICONTROL **Indeling**] aan de rechterkant van de pagina.
 
