@@ -3,9 +3,9 @@ title: Controlelogboeken
 description: Leer hoe te om de controlelogboeken van de Customer Journey Analytics te bekijken en te beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTR
 
 Het controlelogboek voor vandaag en gisteren wordt getoond door gebrek.
 
-![Auditlogbestand dat vandaag (14 oktober 2022) en gisteren (13 oktober 2022) wordt benadrukt. ](assets/audit_ui.png)
+![Auditlogbestand markeert vandaag en gisteren. ](assets/audit_ui.png)
 
 U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsboven te gaan.
 
