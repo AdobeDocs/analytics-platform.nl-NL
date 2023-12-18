@@ -3,9 +3,9 @@ title: Bindingsafmetingen en metriek gebruiken in Customer Journey Analytics
 description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarrays.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 15660e1560ef8b1be510c0103e0f4818f1019c3e
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden voorbij de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe aanbiedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
 
-Hoewel u bindingsdimensies kunt gebruiken met gebeurtenisgegevens op hoofdniveau, kunt u dit concept het beste gebruiken wanneer u werkt met [Objectarrays](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder het op alle attributen in een bepaalde gebeurtenis toe te passen toeschrijven. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
+Hoewel u bindingsdimensies kunt gebruiken met gebeurtenisgegevens op hoofdniveau, kunt u dit concept het beste gebruiken wanneer u werkt met [Arrays van objecten](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder het op alle attributen in een bepaalde gebeurtenis toe te passen toeschrijven. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
 
-## Voorbeeld 1: Bindingsdimensies gebruiken om aanvullende productkenmerken aan een aankoop toe te wijzen
+## Voorbeeld 1: Gebruik bindingsdimensies om aanvullende productkenmerken aan een aankoop toe te wijzen
 
-U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert Customer Journey Analytics de gebonden afmeting en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
+U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert de Customer Journey Analytics de gebonden afmeting en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
 
 1. Een bezoeker bekijkt een productpagina op een wasmachine.
 
@@ -52,7 +52,7 @@ U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wan
    }
    ```
 
-1. Uiteindelijk kopen ze. De kleur van elk product is niet opgenomen in de aankoopgebeurtenis.
+1. Uiteindelijk doen ze een aankoop. De kleur van elk product is niet opgenomen in de aankoopgebeurtenis.
 
    ```json
    {
@@ -78,18 +78,18 @@ Als u omzet door kleur zonder een bindende dimensie wilt bekijken, de dimensie `
 | --- | --- |
 | neonoranje | 2099 |
 
-U kunt naar het gegevensweergavebeheer gaan en de productkleur aan de productnaam binden:
+Ga naar **[!UICONTROL Data views]** en binden [!DNL Product Color] dimensie aan [!DNL Product Name]:
 
 ![Dimensie binding](../assets/binding-dimension.png)
 
-Wanneer u dit persistentiemodel instelt, neemt Customer Journey Analytics de productnaam in wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er als volgt uit:
+Wanneer u dit persistentiemodel instelt, neemt de Customer Journey Analytics de productnaam in wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er ongeveer als volgt uit:
 
 | product.color | omzet |
 | --- | --- |
 | wit | 1600 |
 | neonoranje | 499 |
 
-## Voorbeeld 2: Gebruik bindingsmetriek om zoekterm aan een productaankoop te koppelen
+## Voorbeeld 2: Gebruik bindingsmetriek om de zoekterm aan een productaankoop te koppelen
 
 Een van de meest gebruikte handelsmethoden in Adobe Analytics is het binden van een zoekterm aan een product, zodat elke zoekterm krediet krijgt voor het juiste product. Overweeg de volgende klantenreis:
 
@@ -170,7 +170,7 @@ Een van de meest gebruikte handelsmethoden in Adobe Analytics is het binden van 
    }
    ```
 
-5. De bezoeker zoekt een derde keer naar &quot;schoenen&quot;. De metrische toename van zoekopdrachten wordt met één verhoogd en de bovenste drie zoekresultaten worden weergegeven.
+5. De bezoeker zoekt een derde keer naar &#39;schoenen&#39;. De metrische toename van zoekopdrachten wordt met één verhoogd en de bovenste drie zoekresultaten worden weergegeven.
 
    ```json
    {
@@ -241,17 +241,17 @@ Als u een toewijzingsmodel gebruikt dat geen bindende dimensie met onderzoekster
 
 | search_term | omzet |
 | --- | --- |
-| bokshandschoenen | $204.97 |
+| bokshandschoenen | $ 204,97 |
 
 Als u [!UICONTROL Most Recent] allocatie met de zoekterm dimensie, waarbij alle drie de producten nog steeds inkomsten toekennen aan één zoekterm:
 
 | search_term | omzet |
 | --- | --- |
-| schoenen | $204.97 |
+| schoenen | $ 204,97 |
 
 Hoewel dit voorbeeld slechts één persoon omvat, kunnen veel personen die naar verschillende dingen zoeken, zoektermen verkeerd aan verschillende producten toewijzen, waardoor het moeilijk wordt te bepalen wat de beste zoekresultaten eigenlijk zijn.
 
-U kunt onderzoekstermen aan productnaam binden wanneer metrisch van Zoekopdrachten aanwezig is om correct onderzoeksterm aan opbrengst te Attribueren.
+U kunt nu binden [!DNL Search Term] tot [!DNL Product Name] telkens wanneer [!DNL Searches] Metrisch is aanwezig om onderzoekstermijn aan opbrengst correct toe te schrijven.
 
 ![Metrische binding](../assets/binding-metric.png)
 
@@ -259,9 +259,9 @@ In Analysis Workspace zou het resulterende verslag er als volgt uitzien:
 
 | search_term | omzet |
 | --- | --- |
-| bokshandschoenen | $89.99 |
-| tennisracket | $34.99 |
-| schoenen | $79.99 |
+| bokshandschoenen | $ 89,99 |
+| tennisracket | $ 34,99 |
+| schoenen | $ 79,99 |
 
 Customer Journey Analytics detecteert automatisch de relatie tussen de geselecteerde dimensie en de bindingsdimensie. Wanneer de bindingsdimensie zich in een objectenarray bevindt terwijl de geselecteerde dimensie zich op een hoger niveau bevindt, is een bindingsmetrische waarde vereist. Een bindende metrische handelingen als trekker voor een bindende afmeting, zodat bindt het zich slechts aan gebeurtenissen waar metrisch binden aanwezig is. In het bovenstaande voorbeeld bevat de pagina met zoekresultaten altijd een zoekterm en een metrische zoekopdracht.
 
@@ -274,11 +274,11 @@ Als u de zoekterm instelt op dit persistentiemodel, wordt de volgende logica uit
 * Als metrische zoekopdrachten daar zijn, bindt u de zoekterm aan alle productnamen in die gebeurtenis. Het kopieert zich tot het zelfde niveau zoals productnaam voor die gebeurtenis. In dit voorbeeld wordt het behandeld als product.search_term.
 * Als dezelfde productnaam in een volgende gebeurtenis wordt weergegeven, wordt de gebonden zoekterm ook naar die gebeurtenis overgedragen.
 
-## Voorbeeld 3: Zoekterm voor video binden aan gebruikersprofiel
+## Voorbeeld 3: Videozoekterm binden aan gebruikersprofiel
 
 U kunt een zoekterm aan een gebruikersprofiel binden, zodat de persistentie tussen de profielen volledig gescheiden blijft. Uw organisatie voert bijvoorbeeld een streamingservice uit waarbij een overkoepelende account meerdere profielen kan hebben. De bezoeker heeft een onderliggend profiel en een profiel voor volwassenen.
 
-1. De account meldt zich aan onder het onderliggende profiel en zoekt naar de tv-show van een kind. De `"ProfileID"` is `2` om het onderliggende profiel te vertegenwoordigen.
+1. De account meldt zich aan onder het onderliggende profiel en zoekt naar de tv-show van een kind. Let erop dat de `"ProfileID"` is `2` om het onderliggende profiel te vertegenwoordigen.
 
    ```json
    {
@@ -300,7 +300,7 @@ U kunt een zoekterm aan een gebruikersprofiel binden, zodat de persistentie tuss
    }
    ```
 
-1. Later die avond schakelt de bovenliggende toepassing over naar het profiel en zoekt deze naar inhoud voor volwassenen. De `"ProfileID"` is `1` om het profiel voor volwassenen te vertegenwoordigen. Beide profielen maken deel uit van dezelfde account, voorgesteld door hetzelfde `"PersonID"`.
+1. Later die avond schakelt de bovenliggende toepassing over naar het profiel en zoekt deze naar inhoud voor volwassenen. Let erop dat de `"ProfileID"` is `1` om het profiel voor volwassenen weer te geven. Beide profielen maken deel uit van dezelfde account, voorgesteld door hetzelfde `"PersonID"`.
 
    ```json
    {
@@ -342,7 +342,7 @@ Als u Recentste toewijzing gebruikt bij Person-vervaldatum, kunt u de optie `"gr
 
 Als u echter gebonden bent `search_term` tot `ProfileID`, worden de zoekopdrachten van elk profiel geïsoleerd naar hun eigen profiel, omdat de juiste zoekopdrachten naar dit profiel worden verwezen.
 
-![Bezoekersbinding](../assets/binding-visitor.png)
+![Bezoekersbinding](../assets/binding-profileid.png)
 
 Analysis Workspace zou de tweede aflevering van Orangey correct aan de zoekterm toewijzen `"kids show"` zonder rekening te houden met zoekopdrachten uit andere profielen.
 
@@ -351,11 +351,11 @@ Analysis Workspace zou de tweede aflevering van Orangey correct aan de zoekterm 
 | kindershow | 2 |
 | gegroeide film | 1 |
 
-## Voorbeeld 4: Evalueer browse vs. onderzoeksgedrag in een detailhandelplaatsen
+## Voorbeeld 4: browse versus search behavior in een retail setting evalueren
 
-U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele met een bindende afmeting plaatst, houdt Customer Journey Analytics rekening met de persisted waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Neem het volgende voorbeeld waar `product_finding_method` wordt ingesteld op een gebeurtenis en vervolgens gebonden aan de gebeurtenis &#39;Winkelwagentjes toevoegen&#39; op de volgende gebeurtenis.
+U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele met een bindende afmeting plaatst, houdt de Customer Journey Analytics rekening met de persisted waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Neem het volgende voorbeeld waar `product_finding_method` wordt ingesteld op een gebeurtenis en vervolgens gebonden aan de gebeurtenis &#39;Winkelwagentjes toevoegen&#39; op de volgende gebeurtenis.
 
-1. Een bezoeker voert een zoekopdracht uit naar `"camera"`. Er zijn geen producten ingesteld op deze pagina.
+1. Een bezoeker zoekt naar `"camera"`. Er zijn geen producten ingesteld op deze pagina.
 
    ```json
    {
@@ -386,7 +386,7 @@ U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen
    }
    ```
 
-1. Ze klikken op een gordel die ze leuk vinden en voegen het toe aan hun wagen.
+1. Ze klikken op een gordel die ze leuk vinden en voegen het toe aan hun winkelwagen.
 
    ```json
    {
@@ -419,19 +419,24 @@ U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen
 
 Als de persistentie wordt ingesteld op de meest recente toewijzing zonder een bindende dimensie, wordt alle $419,98 aan inkomsten toegewezen aan de `browse` zoekmethode.
 
-| Productzoekmethode | Omzet |
+| Productzoekmethode | Ontvangsten |
 | --- | --- |
-| doorbladeren | 419.98 |
+| doorbladeren | 419,98 |
 
 Als persistentie wordt ingesteld met behulp van de oorspronkelijke toewijzing zonder een bindende dimensie, wordt alle $419,98 aan inkomsten toegewezen aan de `search` zoekmethode.
 
-| Productzoekmethode | Omzet |
+| Productzoekmethode | Ontvangsten |
 | --- | --- |
-| zoeken | 419.98 |
+| zoeken | 419,98 |
 
 Als u echter bindt `product_finding_method` Aan de Kaart voegt metrisch toe, kenmerkt het resulterende rapport elk product aan de correcte het vinden methode.
 
-| Productzoekmethode | Omzet |
+| Productzoekmethode | Ontvangsten |
 | --- | --- |
-| zoeken | 399.99 |
-| doorbladeren | 19.99 |
+| zoeken | 399,99 |
+| doorbladeren | 19,99 |
+
+
+>[!MORELIKETHIS]
+>
+>[Dimensionen binden in gegevensweergaven](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=en) zelfstudie.
