@@ -4,7 +4,7 @@ description: Meer informatie over de hulplijnen voor Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
+source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 5%
@@ -191,7 +191,7 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Rijen per rapport | 3 miljoen - 150 miljoen | Door het systeem afgedwongen geleiding | Maximum aantal rapportrijen per rapport; waarde die op het vergunning gegeven pakket wordt gebaseerd. |
+| Rijen per rapport | 3 miljoen - 300 miljoen | Door het systeem afgedwongen geleiding | Maximum aantal rapportrijen per rapport; waarde die op het vergunning gegeven pakket wordt gebaseerd. |
 | Uitsplitsingen per tabel | 5 | Door het systeem afgedwongen geleiding | Maximumaantal uitsplitsingen per tabel. |
 | Metriek per tabel | 5 | Door het systeem afgedwongen geleiding | Maximum aantal metriek per lijst. |
 | Planningsfrequentie | 1 | Door het systeem afgedwongen geleiding | De uitvoer kan één keer (1) per dag of op een langer programma (bijvoorbeeld: eens om de 2 dagen, of wekelijks) worden gepland. |
