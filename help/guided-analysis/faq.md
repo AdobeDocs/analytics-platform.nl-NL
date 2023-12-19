@@ -4,9 +4,9 @@ description: Veelgestelde vragen over de analyse met instructies.
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: productanalyse
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 2fe26bb906600a1987d9f4a07c5863030d52173a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Veelgestelde vragen over de analyse met instructies.
 
 +++**Hoe kan mijn organisatie worden voorzien voor Geleide analyse?**
 
-Analyse met instructies is een betaalde aanvulling op de Customer Journey Analytics. Neem contact op met het accountteam van de Adobe als u deze invoegtoepassing wilt gaan gebruiken.
+Analyse met instructies maakt deel uit van Adobe Product Analytics, een betaalde aanvulling op de Customer Journey Analytics. Neem contact op met het accountteam van de Adobe als u deze invoegtoepassing wilt gaan gebruiken.
 
 +++
 
@@ -59,7 +59,7 @@ while [Analysis Workspace](../analysis-workspace/home.md) en de analyse Met inst
 
 * **Analysis Workspace is een op dimensies gerichte ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen doorgaans metriek zijn. Filters kunnen zowel in rijen als in kolommen worden toegepast om de gewenste gegevens te verkrijgen.
 
-* **De geleide analyse is een gebeurtenis-gecentreerde ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en filters kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
+* **Analyse met instructies is een gebeurtenis en gebruikergerichte ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en filters kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
 
 ![Analysis Workspace- en Guided-analyseweergaven](assets/structure.png)
 
@@ -69,7 +69,7 @@ Kijk in het volgende voorbeeld naar de gegevens op de homepage van uw website. T
 
   ![Dimension gecentreerd](assets/dimension-centered.png)
 
-* Een typisch gebeurtenis-gecentreerde Geleide analyse benadering zou zijn, &quot;hoeveel gebruikers de homepage hebben bekeken?&quot;
+* Een typische gebeurtenis en gebruiker-gecentreerde Geleide analyse zou benadering zijn: &quot;Hoeveel gebruikers hebben onze homepage bezocht?&quot;
 
   ![Gebeurtenis gecentreerd](assets/event-centered.png)
 
