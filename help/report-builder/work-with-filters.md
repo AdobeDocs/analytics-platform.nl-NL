@@ -1,12 +1,12 @@
 ---
 title: Filters gebruiken in Report Builder in Customer Journey Analytics
 description: Beschrijft hoe te filters in Report Builder voor Customer Journey Analytics gebruiken
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -132,4 +132,3 @@ Filters toepassen uit een cel
    ![Vervolgkeuzemenu Filter](./assets/filter-drop-down.png)
 
 1. Klikken **Toepassen**.
-

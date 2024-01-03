@@ -1,12 +1,12 @@
 ---
 title: Hoe te om een gegevenswaaier in Report Builder in Customer Journey Analytics te selecteren
 description: Beschrijft hoe te om de kalender, het rollen data, en douaneuitdrukkingen in Report Builder voor Customer Journey Analytics te gebruiken
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 0%

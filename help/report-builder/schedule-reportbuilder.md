@@ -1,14 +1,14 @@
 ---
 title: Hoe te om werkboeken te plannen gebruikend Report Builder in Customer Journey Analytics
 description: Leer hoe u de planningsfunctie in Report Builder gebruikt
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De eigenschap van het Programma staat u ook aan de bescherming van het opstellin
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on)
 
-## Een werkmap plannen
+## Een werkboek plannen
 
 Gebruik de de taakknoop van het Programma in de hub van de Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
 
