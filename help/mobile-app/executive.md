@@ -2,17 +2,17 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Uitvoeringshandleiding voor analytische dashboards
 feature: Analytics Dashboards
-role: User, Admin
+role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
 
-# Snelle handleiding voor executive gebruikers
+# Snelle handleiding voor gebruikers
 
 De volgende informatie verstrekt uitvoerende gebruikers van informatie over beste praktijken voor het gebruiken van en het bekijken van de dashboards van Analytics. Hier volgt een video waarin deze informatie wordt getoond:
 

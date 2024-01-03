@@ -2,11 +2,11 @@
 description: Hiermee kunt u eenvoudig vergelijkingsgegevens visualiseren in Analysis Workspace, zoals bouwvergelijkingen met vorige maand, vorig jaar enzovoort.
 title: Visualisatie van combinatiekaarten
 feature: Visualizations
-role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Houd dit in gedachten:
 
 Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt een functie geretourneerd van de metrische waarde die u hebt gekozen.
 
-| -functie | Definitie |
+| Functie | Definitie |
 | --- | --- |
 | **[!UICONTROL Column Sum]** | Hiermee worden alle numerieke waarden toegevoegd voor een metrische waarde in een kolom (over de elementen van een dimensie) |
 | **[!UICONTROL Cumulative Average]** | Retourneert het gemiddelde van de laatste N-rijen. |

@@ -1,16 +1,17 @@
 ---
-title: Vrije-vormentabel
+title: Vrije-vormtabel
 description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Vrije-vormentabel
+# Vrije-vormtabel
 
 In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie van [componenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen om een aangepaste tabel voor uw analyse te maken. Aangezien elke component wordt gelaten vallen, zal de lijst onmiddellijk bijwerken zodat kunt u snel analyseren en dieper graven.
 

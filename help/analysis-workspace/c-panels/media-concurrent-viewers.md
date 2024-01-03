@@ -1,17 +1,17 @@
 ---
-title: Deelvenster voor gelijktijdige mediaviewers
+title: Deelvenster Mediagelijktijdige viewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
-role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 1%
+source-wordcount: '1048'
+ht-degree: 0%
 
 ---
 
-# Deelvenster voor gelijktijdige mediaviewers
+# Deelvenster Mediagelijktijdige viewers
 
 U kunt gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige uitvoering plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de kijker veroorzaakten, en om te helpen bij het oplossen van problemen of het plannen voor volume of schaal.
 

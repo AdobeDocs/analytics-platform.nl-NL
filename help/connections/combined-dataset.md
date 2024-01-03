@@ -1,12 +1,13 @@
 ---
 title: Gecombineerde gegevenssets voor gebeurtenissen
-description: Leer hoe Customer Journey Analytics tot een verbinding door datasets te combineren leidt.
+description: Leer hoe de Customer Journey Analytics tot een verbinding leidt door datasets te combineren.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # Gecombineerde gegevenssets voor gebeurtenissen
 
-Wanneer u een verbinding creeert, combineert Customer Journey Analytics alle schema&#39;s en datasets in één enkele dataset. Deze &#39;gecombineerde gebeurtenissendataset&#39; is wat Customer Journey Analytics gebruikt voor rapportage. Wanneer u veelvoudige schema&#39;s of datasets in een verbinding omvat:
+Wanneer u een verbinding creeert, combineert de Customer Journey Analytics alle schema&#39;s en datasets in één enkele dataset. Deze &#39;gecombineerde gebeurtenissendataset&#39; is wat de Customer Journey Analytics gebruikt voor rapportage. Wanneer u veelvoudige schema&#39;s of datasets in een verbinding omvat:
 
 * Schema&#39;s worden gecombineerd. Dubbele schemavelden worden samengevoegd.
 * De kolom &#39;Person ID&#39; van elke dataset wordt samengevoegd in één kolom, ongeacht de naam ervan. Deze kolom vormt de basis voor het identificeren van unieke personen in Customer Journey Analytics.
@@ -23,7 +24,7 @@ Wanneer u een verbinding creeert, combineert Customer Journey Analytics alle sch
 
 ## Voorbeeld
 
-Neem het volgende voorbeeld. U hebt twee gebeurtenisdatasets, elk met verschillende gebieden die verschillende gegevens bevatten.
+Kijk eens naar het volgende voorbeeld. U hebt twee gebeurtenisdatasets, elk met verschillende gebieden die verschillende gegevens bevatten.
 
 >[!NOTE]
 >
@@ -58,9 +59,9 @@ Wanneer u een verbinding gebruikend deze twee gebeurtenisdatasets creeert, wordt
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke gegevensset een rij afkomstig is; Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie.
+Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is; de Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie.
 
-Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke gegevensset een rij afkomstig is; attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
+Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke dataset een rij afkomstig is; de attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
 
 Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend een rapport gebruikend `string_color` dimensie en `metric_a` Metrisch met laatste aanraakkenmerk geeft het volgende weer:
 
@@ -99,6 +100,6 @@ Raadpleeg het specifieke geval van gebruik voor meer informatie over kanaalanaly
 Ga voor een diepgaandere discussie over stitching-functionaliteit naar:
 
 * [Overzicht van tekenreeksen](/help/stitching/overview.md)
-* [Hoe stikken werkt](../stitching/explained.md)
+* [Hoe stitching werkt](../stitching/explained.md)
 * [Veelgestelde vragen](/help/stitching/faq.md)
 

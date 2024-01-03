@@ -3,9 +3,11 @@ title: Vergelijking met Adobe Analytics
 description: Overzicht van hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 4cbf01d397e7f89e67ae20702790129478d45cce
+exl-id: bde36283-86af-4b1a-9cbe-e251676b2951
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -66,8 +68,3 @@ Adobe Analytics gebruikt een meer definitieve reeks identiteitsvelden, zoals de 
 ## Ondersteunde functies
 
 Een overzicht van Adobe Analytics-functies en hoe deze functies door Customer Journey Analytics worden ondersteund, kunt u vinden op [Ondersteuning van Customer Journey Analytics-functies](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/cja-aa.html?lang=en).
-
-
-
-
-

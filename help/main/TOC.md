@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
+source-git-commit: fbd801dbbdd8240eef4c60d0877bbb01f06dd768
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1040'
 ht-degree: 7%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 7%
    + [Verbindingen beheren](../connections/manage-connections.md)
    + [Gecombineerde gegevenssets voor gebeurtenissen](../connections/combined-dataset.md)
    + [Standaardzoekopdrachten](../connections/standard-lookups.md)
-   + [Kanaaloverschrijdende analyse](../connections/cca.md)
 
 + Gegevens weergeven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
@@ -303,11 +302,6 @@ ht-degree: 7%
    + [Hoe stitching werkt](../stitching/explained.md)
    + [Verstikte gegevenssets maken en beheren](../stitching/stitching-ui.md)
    + [Veelgestelde vragen](../stitching/faq.md)
-
-+ Kanaaloverschrijdende analyse {#cca}
-   + [Overzicht van kanaalanalyse](../cca/overview.md)
-   + [Hoe herspeelt u?](../cca/replay.md)
-   + [Veelgestelde vragen over kanaalanalyse](../cca/faq.md)
 
 + Adobe-integratie {#integrations}
    + [Adobe-oplossingen integreren met overzicht van Customer Journey Analytics](/help/integrations/overview.md)

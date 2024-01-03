@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 2%
+source-wordcount: '1974'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +60,7 @@ Volledige tabellen exporteren uit Analysis Workspace:
 
 1. In de [!UICONTROL **Nieuwe volledige tabelexport**] geeft u de volgende informatie op:
 
-   | Veldnaam | -functie |
+   | Veldnaam | Functie |
    |---------|----------|
    | Naam | Geef een naam op voor het exporteren. Deze naam wordt weergegeven in de lijst Exporteren. |
    | Tags | U kunt een bestaande tag toepassen op de exportbewerking of u kunt een nieuwe tag maken en deze toepassen. <p>Als u een bestaande tag op het exporteren wilt toepassen, selecteert u de gewenste tags in het keuzemenu. Alle tags in uw bedrijf kunnen worden toegepast<!-- double-check this -->.</p> <p>Als u een nieuwe tag wilt maken, typt u de naam van de nieuwe tag en drukt u op Enter.</p><p>Houd rekening met het volgende wanneer u labels toepast op een exportbewerking: <ul><li>Tags die u toepast, kunnen in de exporttabel worden gefilterd of doorzocht.</li> <li>De markeringen die op een project worden toegepast worden niet automatisch toegepast wanneer het uitvoeren van een volledige lijst, zoals die in &quot;worden beschreven vormen kolommen op de de uitvoerpagina&quot;in [Exporteren beheren](/help/components/exports/manage-exports.md). (Alternatief, wanneer [een volledig project voor exporteren plannen](/help/analysis-workspace/export/t-schedule-report.md), worden alle tags die op het project zijn toegepast, automatisch toegepast op het exporteren.)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
@@ -177,7 +178,7 @@ De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u d
    * Datumbereiken
    * Dimensies
 * In tabelrijen:
-   * Berekende standaarden
+   * Berekende cijfers
    * Metrics
    * Datumbereiken
    * Filters
@@ -208,7 +209,7 @@ Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporte
 | Functie | Volledige tabelexport in Customer Journey Analytics | Data Warehouse in Adobe Analytics |
 |---------|----------|---------|
 | Een aangepast rapport maken | Ja | Ja |
-| Berekende standaarden | Ja | Nee |
+| Berekende cijfers | Ja | Nee |
 | Segmenten | Ja | Beperkt |
 | Dimensies | Limiet van 5 | Onbeperkt |
 | Metrics | Limiet van 5 | Onbeperkt |

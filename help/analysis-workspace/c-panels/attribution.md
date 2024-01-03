@@ -1,16 +1,17 @@
 ---
-title: Deelvenster voor attributie
+title: Kenmerk, deelvenster
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
-# Deelvenster voor attributie
+# Kenmerk, deelvenster
 
 De [!UICONTROL Attribution] is een gemakkelijke manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie die u een specifieke werkruimte biedt voor het gebruik en vergelijken van attributiemodellen.
 

@@ -4,9 +4,10 @@ description: Uitleggen hoe gegevens uit traditionele Adobe Analytics kunnen word
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ In deze handleiding voor snel starten wordt uitgelegd hoe u de gegevens die door
 >
 >- [Analyse implementeren met Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)
 >
->- [Analytics implementeren met JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
+>- [Analyses implementeren met JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
 
 Hiervoor moet u:
 

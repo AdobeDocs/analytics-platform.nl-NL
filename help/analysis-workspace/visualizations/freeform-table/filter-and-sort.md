@@ -3,9 +3,10 @@ description: Documentatie waarin wordt beschreven hoe tabellen in Analysis Works
 title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te f
 - Klik op de X in de rij
 - Klik met de rechtermuisknop > Geselecteerde rijen verwijderen
 - Tabelfilters
-- Segmentatie
+- Segmentering
 
 Zorg ervoor dat u leest wat de invloed van elke methode is [Tabeltotalen voor vrije vorm](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -71,7 +72,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende opties zijn beschikbaar:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Woord of woordgroep zoeken**] | Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven. |
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
@@ -80,7 +81,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende geavanceerde filteropties zijn beschikbaar:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
    | [!UICONTROL **Overeenkomst**] | <p>Kies [!UICONTROL **Als aan alle criteria is voldaan**] om alleen gegevens weer te geven die voldoen aan alle criteria die u opgeeft. Deze optie resulteert doorgaans in meer verfijnde gegevens.</p> <p>Kies [!UICONTROL **Als aan bepaalde criteria is voldaan**] om gegevens weer te geven die voldoen aan een van de filtercriteria die u opgeeft. Deze optie resulteert doorgaans in minder verfijnde gegevens.</p> |

@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9f48c2870cff0aac392de9b50c6acea9763553d7
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '2736'
 ht-degree: 8%
@@ -198,7 +198,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Datum | Beschrijving bijwerken |
 | --- | --- |
-| zaterdag 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/cca/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
+| zaterdag 13 november 2020 | Nieuwe onderwerpen over [Kanaaloverschrijdende analyse](/help/stitching/overview.md), waardoor u de persoon-id van een gegevensset opnieuw kunt instellen en een naadloze combinatie van meerdere gegevenssets mogelijk maakt. |
 | zaterdag 13 november 2020 | Een nieuwe gebruikscase op [callcenter en webgegevens importeren](/help/use-cases/cross-channel/call-center.md) is toegevoegd. |
 | woensdag 10 november 2020 | Een sectie toegevoegd over de gevolgen van het verwijderen van gegevenscomponenten voor de [Veelgestelde vragen](/help/getting-started/cja-faq.md). |
 | dinsdag 2 november 2020 | Updates van de [Ondersteuning van Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) pagina. |

@@ -5,9 +5,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: ec2778396f5090fb2ce71a991aa7a7bcaa913762
+exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1425'
 ht-degree: 2%
 
 ---
@@ -160,8 +162,8 @@ Geen metrische componenten worden bepaald als deel van deze dataset.
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
-| Verwachte inkomsten | Dubbel | `expectedRevenue.amount` | Gedraging: **[!UICONTROL Count values]** |
-| Aantal kansen | Dubbel | `opportunityAmount.amount` | Gedraging: **[!UICONTROL Count values]** |
+| Verwachte inkomsten | Dubbel | `expectedRevenue.amount` | Gedrag: **[!UICONTROL Count values]** |
+| Aantal kansen | Dubbel | `opportunityAmount.amount` | Gedrag: **[!UICONTROL Count values]** |
 | Opportunity Stage - Gesloten boek | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Overeenkomst:**[!UICONTROL If all criteria are met]**<br/> Criteria: **[!UICONTROL Equals]** `Closed - Booked` |
 | Opportunity Stage - Perspectief | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Overeenkomst:**[!UICONTROL If all criteria are met]**<br/> Criteria: **[!UICONTROL Equals]** `Prospect` |
 | Opportunity Stage - Kwalificatie | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Overeenkomst:**[!UICONTROL If all criteria are met]**<br/> Criteria: **[!UICONTROL Equals]** `Opportunity Qualification` |
@@ -253,12 +255,12 @@ Geen metrische componenten worden bepaald als deel van deze dataset.
 
 | Componentnaam | Schema, gegevenstype | Schemapad | Configuratie |
 |---|---|---|---|
-| Afgekeerd | Lang | *_organisationID*`.campaignBounced` | Gedraging: **[!UICONTROL Count values]** |
-| Geklikt | Lang | *_organisationID*`.campaignClicked` | Gedraging: **[!UICONTROL Count values]** |
-| Geopend | Lang | *_organisationID*`.CampaignOpened` | Gedraging: **[!UICONTROL Count values]** |
-| Verzonden | Lang | *_organisationID*`.campaignSent` | Gedraging: **[!UICONTROL Count values]** |
-| Geabonneerd | Lang | *_organisationID*`.campaignSubscribed` | Gedraging: **[!UICONTROL Count values]** |
-| Webinar-registratie | Lang | *_organisationID*`.Registrations` | Gedraging: **[!UICONTROL Count values]** |
+| Afgekeerd | Lang | *_organisationID*`.campaignBounced` | Gedrag: **[!UICONTROL Count values]** |
+| Geklikt | Lang | *_organisationID*`.campaignClicked` | Gedrag: **[!UICONTROL Count values]** |
+| Geopend | Lang | *_organisationID*`.CampaignOpened` | Gedrag: **[!UICONTROL Count values]** |
+| Verzonden | Lang | *_organisationID*`.campaignSent` | Gedrag: **[!UICONTROL Count values]** |
+| Geabonneerd | Lang | *_organisationID*`.campaignSubscribed` | Gedrag: **[!UICONTROL Count values]** |
+| Webinar-registratie | Lang | *_organisationID*`.Registrations` | Gedrag: **[!UICONTROL Count values]** |
 
 {style="table-layout:auto"}
 
@@ -307,4 +309,3 @@ Hieronder ziet u een voorbeeldproject dat afhankelijk is van de hierboven beschr
 ![Visualisaties](assets/visualizations.png)
 
 +++
-

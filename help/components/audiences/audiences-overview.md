@@ -3,10 +3,11 @@ title: Meer informatie over het publicatieoverzicht van het publiek Customer Jou
 description: Leer over het concept publiek publiceren in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '489'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +33,7 @@ Het publiek u in Customer Journey Analytics creeert moet niet op datasets worden
 
 **Filters** versus **Segmenten**: Customer Journey Analytics gebruikt niet het begrip &quot;segmenten&quot;, maar gebruikt &quot;filters&quot;. Hoewel beide een reeks regels zijn die gelijkaardige logica kunnen bevatten, produceren zij verschillende output. Een filter wordt gebruikt om een dataset voor analysedoeleinden te versmallen. Een segment wordt gebruikt om een lijst met identiteiten te produceren die voor activering kunnen worden gebruikt. De segmenten produceren publiek in het Profiel van de Klant in real time, terwijl de filters (alleen) niet. Het Publiceren van het Publiek van de Customer Journey Analytics is het proces waardoor wij een filter van de Customer Journey Analytics gebruiken om een publiek tot stand te brengen dat door het Profiel van de Klant in real time kan worden verbruikt.
 
-## Toestemmingen
+## Machtigingen
 
 * Beheerders krijgen automatisch de opdracht **[!UICONTROL Audience Publishing]** toestemming in Adobe Admin Console.
 

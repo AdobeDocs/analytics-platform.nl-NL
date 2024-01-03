@@ -3,9 +3,10 @@ title: STEUN, ECID, AACUSTOMID en de bronaansluiting voor Analytics
 description: Leer hoe de Analytics-bronconnector werkt met Adobe Analytics-identiteitsvelden.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -14,17 +15,17 @@ ht-degree: 0%
 
 Adobe Analytics-gegevens bevatten meerdere identiteitsvelden. Drie belangrijke identiteitsvelden worden door de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en): STEUN, ECID, AACUSTOMID.
 
-## AAID
+## STEUN
 
 Adobe Analytics ID (AID) is de primaire apparaat-id in Adobe Analytics en is gegarandeerd aanwezig op elke gebeurtenis die via de Analytics-bronconnector wordt doorgegeven. AID wordt ook wel &quot;verouderde analysetoewijzing-id&quot; genoemd of `s_vi` cookie-id. Er wordt echter wel een STEUN ingesteld, zelfs als de `s_vi` cookie is niet aanwezig. STEUN wordt vertegenwoordigd door de `post_visid_high/post_visid_low` kolommen in [Adobe Analytics-gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types).
 
-In de bronconnector Analytics wordt AID omgezet in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke gebeurtenis wordt aangegeven in het dialoogvenster `post_visid_type` kolom in Analytics-gegevensfeeds.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en).
+In de bronconnector Analytics wordt AID omgezet in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke gebeurtenis wordt aangegeven in het dialoogvenster `post_visid_type` kolom in Gegevensdoorvoer Analytics.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en).
 
 ## ECID
 
-ECID (Experience Cloud ID), ook wel MCID (Marketing Cloud ID) genoemd, is een apart veld voor de apparaat-id dat in Adobe Analytics wordt ingevuld wanneer Analytics wordt geïmplementeerd met behulp van de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en). ECID wordt vertegenwoordigd door de `mcvisid` kolom in Adobe Analytics-gegevensfeeds.
+ECID (Experience Cloud-id), ook wel MCID (Marketing Cloud-id) genoemd, is een apart veld voor de apparaat-id dat in Adobe Analytics wordt ingevuld wanneer Analytics wordt geïmplementeerd met behulp van de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en). ECID wordt vertegenwoordigd door de `mcvisid` kolom in Adobe Analytics-gegevensfeeds.
 
-Als er een ECID bestaat voor een gebeurtenis, kan de STEUN gebaseerd zijn op ECID, afhankelijk van of de Analytics [respijtperiode](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=en) is geconfigureerd. Zie ook: [Analyses en Experience Cloud-id-verzoeken](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=en).
+Als er een ECID bestaat voor een gebeurtenis, kan de STEUN gebaseerd zijn op ECID, afhankelijk van of de Analytics [respijtperiode](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=en) is geconfigureerd. Zie ook: [Verzoeken voor analyse en Experience Cloud-id](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=en).
 
 ## AACUSTOMID
 
@@ -52,6 +53,6 @@ Binnen identityMap:
 Anders wordt STEUN gemarkeerd als de primaire identiteit voor de gebeurtenis.
 * AACUSTOMID is nooit gemarkeerd als primaire id voor de gebeurtenis. Als AACUSTOMID echter aanwezig is, is STEUN gebaseerd op AACUSTOMID zoals in de bovenstaande beschrijving wordt beschreven.
 
-## Customer Journey Analytics- en primaire id
+## Customer Journey Analytics en primaire id
 
-Wat Customer Journey Analytics betreft, is de definitie van primaire id alleen belangrijk als u besluit de primaire id te gebruiken als de persoon-id. Dat is echter niet verplicht. U kunt een andere identiteitskolom kiezen als Persoon-id.
+Wat de Customer Journey Analytics betreft, is de definitie van primaire id alleen belangrijk als u besluit de primaire id te gebruiken als de persoon-id. Dat is echter niet verplicht. U kunt een andere identiteitskolom kiezen als Persoon-id.

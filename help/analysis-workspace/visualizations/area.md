@@ -1,16 +1,17 @@
 ---
 description: De visualisatie van het Gebied is als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
-title: Gebied en gestapeld gebied
+title: Gebied en gebied gestapeld
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 6%
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
-# Gebied en gestapeld gebied
+# Gebied en gebied gestapeld
 
 ## Gebied {#Area}
 

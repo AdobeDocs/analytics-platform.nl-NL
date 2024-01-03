@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Werkruimtetoetsen gebruiken
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
-source-git-commit: 378098861bde949a2224a9b8c6376aa7b5e8ec27
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 5%
+source-wordcount: '299'
+ht-degree: 0%
 
 ---
 
@@ -28,14 +29,14 @@ Opmerking: `CTRL` = Windows en `command` = MAC
 | Naar deelvenster Componenten | alt + shift + 3 |
 | Alle deelvensters samenvouwen/uitvouwen | alt + m |
 | Actief deelvenster samenvouwen/uitvouwen | alt + ctrl + m |
-| Naar volgend deelvenster gaan | alt + toets rechts |
-| Naar vorig deelvenster gaan | alt + linkertoets |
+| Naar volgend deelvenster | alt + toets rechts |
+| Naar vorig deelvenster | alt + linkertoets |
 
 ## Analyse-acties
 
 | Handeling | Sneltoets |
 |---|---|
-| Zoeken in linkerrail | ctrl + / |
+| Naar linkerspoor zoeken | ctrl + / |
 | Een waarschuwing maken | ctrl (of cmd) + shift + a |
 | Berekende metrisch maken | ctrl (of cmd) + shift + c |
 | Een datumbereik maken | ctrl (of cmd) + shift + d |

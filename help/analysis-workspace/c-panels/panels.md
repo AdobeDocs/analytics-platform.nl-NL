@@ -3,10 +3,11 @@ description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 1%
+source-wordcount: '1259'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +23,7 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICON
 | --- | --- |
 | [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) | Kies uit de beschikbare deelvensters en visualisaties om uw analyse te starten. |
 | [Deelvenster Snelle inzichten](quickinsight.md) | Snel een vrije-vormlijst en een bijbehorende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
-| [Deelvenster voor attributie](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
+| [Kenmerk, deelvenster](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
 | [Deelvenster Vrije vorm](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
 | [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
 | [Deelvenster Tijdlijn media afspelen](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer de afspeeltijd die u hebt doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering heeft plaatsgevonden of waar een drop-down heeft plaatsgevonden. |

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 3%
+source-wordcount: '1314'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +37,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | [Samenvattingsnummer](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Pictogram Samenvattingsnummer](assets/summary-number-icon.png)</p> | De geselecteerde cel wordt als 1 groot getal weergegeven. |
 | [Samenvattingswijziging](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Pictogram Samenvattingswijziging](assets/summary-change-icon.png)</p> | Hiermee geeft u de wijziging tussen de geselecteerde cellen als 1 groot getal/percentage weer. |
 | [Tekst](/help/analysis-workspace/visualizations/text.md)<p>![Verstrooiingspictogram](assets/Smock_Text_18_N.svg)</p> | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
-| [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p>![Treemap-pictogram](assets/Smock_GraphTree_18_N.svg)</p> | Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken. |
+| [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p>![Treemap-pictogram](assets/Smock_GraphTree_18_N.svg)</p> | Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Pictogram Venn](assets/venn-icon.png)</p> | Hiermee gebruikt u cirkels om de metrische overlapping van maximaal drie filters weer te geven. |
 
 ## Visualisaties toevoegen aan een deelvenster

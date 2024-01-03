@@ -1,12 +1,13 @@
 ---
 description: Bij tijdpartering wordt de tijdstempel van verzamelde gebeurtenissen gebruikt en wordt deze in meer betekenisvolle dimensies gesplitst, zoals "Uur van dag" of "Dag van week".
-title: Tijduitsplitsende dimensies
+title: Afmetingen van tijd tot tijd
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +24,7 @@ De tijd-ontledende afmetingen zijn gebaseerd op de tijdzone van de gegevensmenin
 
 | Dimension | Voorbeeldwaarden |
 |--- |--- |
-| Uur van dag | 0-23 |
+| Uur van de dag | 0-23 |
 | AM/PM | AM, PM |
 | Weekdag | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
 | Weekend/Weekdag | Weekend, weekdag |

@@ -3,9 +3,10 @@ title: Labels en beleid
 description: Leer hoe de gegevensetiketten en het beleid in Adobe Experience Platform worden bepaald gegevensmeningen en rapportering in Customer Journey Analytics beïnvloeden.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---

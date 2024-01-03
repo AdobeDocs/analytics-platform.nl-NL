@@ -1,23 +1,24 @@
 ---
-title: Rapport over gegevens over Google Analytics in Customer Journey Analytics
-description: Hiermee worden nuttige rapporten over de gegevens van Google Analytics in Customer Journey Analytics weergegeven
+title: Rapport over gegevens over Googles Analytics in Customer Journey Analytics
+description: Hiermee worden nuttige rapporten over de gegevens van Googles Analytics in de Customer Journey Analytics weergegeven
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
-# Rapport over gegevens over Google Analytics in Customer Journey Analytics
+# Rapport over gegevens over Googles Analytics in Customer Journey Analytics
 
 Zodra u gegevens beschikbaar in Customer Journey Analytics hebt, verstrekken de volgende voorbeelden nuttige scenario&#39;s voor het melden van die gegevens.
 
 ## Webgegevens en toepassingsgegevens visualiseren als gecombineerde gegevenssets
 
-Dit diagram van Venn toont de overlapping van gebruikers op uw website (van uw gegevens van Google Analytics) en op uw mobiele app (van uw gegevens van de Vuurbasis) en van uw callcenter. U kunt ook de best presterende producten zien, niet alleen op het web, maar ook in de mobiele app. U kunt zelfs de totale opbrengst van allebei krijgen door berekende metrisch te gebruiken. De belangrijkste producten vertellen een ander verhaal als je kijkt naar de gecombineerde inkomsten. Zonder de gecombineerde datasets zou je nooit hebben geweten dat de &#39;Twill cap&#39; zo&#39;n sterke presteerder was.
+Dit diagram van Venn toont de overlapping van gebruikers op uw website (van uw gegevens van Googles Analytics) en op uw mobiele app (van uw gegevens van de Vuurstand) en van uw callcenter. U kunt ook de best presterende producten zien, niet alleen op het web, maar ook in de mobiele app. U kunt zelfs de totale opbrengst van allebei krijgen door berekende metrisch te gebruiken. De belangrijkste producten vertellen een ander verhaal als je kijkt naar de gecombineerde inkomsten. Zonder de gecombineerde datasets zou je nooit hebben geweten dat de &#39;Twill cap&#39; zo&#39;n sterke performer was.
 
 ![Gecombineerde gegevenssets](../assets/combined-datasets.png)
 
@@ -47,7 +48,7 @@ De cohortlijst staat u toe om te zien hoe lang het typisch voor gebruikers duurt
 
 ## Geavanceerde marketingtoewijzing gebruiken
 
-Met Customer Journey Analytics kunt u geavanceerde attributiemodellen gebruiken voor gegevens over meerdere kanalen. In het volgende voorbeeld ziet u een vergelijking van het toepassen van Laatste aanraking, eerste aanraking, u-vormig, en algoritmische attributie van opbrengst aan de dimensie van de Groepering van het Kanaal van Google Analytics.
+Met Customer Journey Analytics kunt u geavanceerde attributiemodellen gebruiken voor gegevens over meerdere kanalen. In het volgende voorbeeld ziet u een vergelijking van het toepassen van Laatste aanraking, eerste aanraking, u-vormig, en algoritmische attributie van opbrengst aan de dimensie van de Groepering van het Kanaal van Googles Analytics.
 
 ![Toekenning van marketing](../assets/mktg-attribution.png)
 

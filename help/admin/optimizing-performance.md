@@ -3,9 +3,10 @@ description: Factoren die van invloed zijn op Customer Journey Analytics- en wer
 title: Customer Journey Analytics- en Analysis Workspace-prestaties optimaliseren
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1968'
 ht-degree: 0%
 
 ---

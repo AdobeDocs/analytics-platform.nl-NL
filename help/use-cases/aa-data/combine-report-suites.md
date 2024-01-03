@@ -3,10 +3,11 @@ title: Rapportsuites combineren met verschillende schema's
 description: Leer hoe te om Prep van Gegevens te gebruiken om rapportreeksen met verschillende schema's te combineren
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 1%
+source-wordcount: '1322'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 1%
 
 De [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) brengt rapportsuite-gegevens van Adobe Analytics naar de Adobe Experience Platform voor gebruik door Adobe Experience Platform-toepassingen, zoals Real-time Customer Data Platform en Customer Journey Analytics (Customer Journey Analytics). Elke rapportreeks die in Adobe Experience Platform wordt gebracht wordt gevormd als individuele gegevensstroom van de bronverbinding, en elk dataflow land als dataset binnen het de gegevensmeer van Adobe Experience Platform. De bronschakelaar van de Analyse leidt tot één dataset per rapportreeks.
 
-Customer Journey Analytics-klanten gebruiken [verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en) gegevenssets van het Adobe Experience Platform data Lake integreren in Customer Journey Analytics Analysis Workspace. Als u echter rapportsuites combineert binnen een verbinding, moeten schemaverschillen tussen rapportsuites worden opgelost met Adobe Experience Platform [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) functionaliteit. Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in Customer Journey Analytics.
+Customer Journey Analytics die klanten gebruiken [verbindingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en) om gegevenssets van het Adobe Experience Platform data Lake te integreren in Customer Journey Analytics Analysis Workspace. Als u echter rapportsuites combineert binnen een verbinding, moeten schemaverschillen tussen rapportsuites worden opgelost met Adobe Experience Platform [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) functionaliteit. Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in de Customer Journey Analytics.
 
 ## Schemaverschillen tussen rapportsuites zijn problematisch
 
-Stel dat uw bedrijf gegevens van twee verschillende rapportsuites naar Adobe Experience Platform wil brengen voor gebruik door Customer Journey Analytics, en veronderstelt de schema&#39;s voor de twee rapportsuites verschillen:
+Veronderstel uw bedrijf gegevens van twee verschillende rapportreeksen in Adobe Experience Platform voor gebruik door Customer Journey Analytics wil brengen, en veronderstelt de schema&#39;s voor de twee rapportreeksen verschillen hebben:
 
 | Reeks A rapporteren | Reeks B rapporteren |
 | --- | --- |
@@ -31,8 +32,8 @@ Stel dat u de volgende handelingen uitvoert:
 
 - Een verbinding met een bron voor Analytics maken (zonder gegevensprep) die wordt toegevoegd **Reeks A rapporteren** in Adobe Experience Platform data Lake als **Gegevensset A**.
 - Een verbinding met een bron voor Analytics maken (zonder gegevensprep) die wordt toegevoegd **Reeks B rapporteren** in Adobe Experience Platform data Lake als **Gegevensset B**.
-- Een [Customer Journey Analytics-verbinding](/help/connections/create-connection.md) gebeld **Alle rapportsets** die Dataset A en Dataset B combineert.
-- Een [Customer Journey Analytics, gegevensweergave](/help/data-views/create-dataview.md) gebeld **Globale weergave** dat is gebaseerd op de Al verbinding van de Reeksen van het Rapport.
+- Een [Verbinding met Customer Journey Analytics](/help/connections/create-connection.md) gebeld **Alle rapportsets** die Dataset A en Dataset B combineert.
+- Een [Gegevens Customer Journey Analytics, weergave](/help/data-views/create-dataview.md) gebeld **Globale weergave** dat is gebaseerd op de Al verbinding van de Reeksen van het Rapport.
 
 Zonder het gebruik van Prep van Gegevens om de schemaverschillen tussen Dataset A en Dataset B op te lossen, zullen eVars in de Globale mening gegevensmening een mengeling van waarden bevatten:
 
@@ -41,10 +42,10 @@ Zonder het gebruik van Prep van Gegevens om de schemaverschillen tussen Dataset 
 | eVar1 => een combinatie van zoektermen en bedrijfseenheden |
 | eVar2 => een combinatie van klantcategorieën en zoektermen |
 
-Deze situatie leidt tot betekenisloze verslagen voor eVar1 en eVar2:
+Deze situatie leidt tot betekenisloze rapporten voor eVar1 en eVar2:
 
 - De velden eVar bevatten een mengeling van waarden met verschillende semantische betekenissen.
-- Zoektermen worden verdeeld tussen eVar1 en eVar2.
+- De termijnen van het onderzoek worden verdeeld tussen eVar1 en eVar2.
 - Het is niet mogelijk verschillende toewijzingsmodellen te gebruiken voor elk van zoektermen, bedrijfseenheden en klantcategorieën.
 
 ## Adobe Experience Platform Data Prep gebruiken om schemaverschillen tussen rapportsuites op te lossen
@@ -84,9 +85,9 @@ De functionaliteit van de Prep van Gegevens van het Experience Platform is geïn
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.search_term |
 
-1. Maak nu een **Alle rapportsets** verbinding voor Customer Journey Analytics, het combineren van Dataset A en Dataset B.
+1. Maak nu een **Alle rapportsets** verbinding voor Customer Journey Analytics, die Dataset A en Dataset B combineren.
 
-1. Een **Globale weergave** gegevensweergave in Customer Journey Analytics. Negeer de oorspronkelijke velden eVar en neem alleen de velden van de veldgroep Verenigde velden op.
+1. Een **Globale weergave** gegevensweergave in Customer Journey Analytics. Negeer de originele eVar gebieden en omvat slechts de gebieden van de Verenigde de gebiedsgroep van Gebieden.
 
    **Globale weergave** gegevensweergave in Customer Journey Analytics:
 
@@ -106,7 +107,7 @@ U hebt nu eVar1 en eVar2 van de bronrapportreeksen aan drie nieuwe gebieden in k
 
 ## Meer dan alleen rapportsuites
 
-De mogelijkheden van Prep van Gegevens om datasets met verschillende schema&#39;s te combineren gaat voorbij Analytics rapportreeksen. Stel dat u twee datasets hebt die de volgende gegevens bevatten:
+De mogelijkheden van de Prep van Gegevens om datasets met verschillende schema&#39;s te combineren gaat voorbij Analytics rapportreeksen. Stel dat u twee datasets hebt die de volgende gegevens bevatten:
 
 | Dataset A = Analytics report suite via de bronconnector van Analytics |
 | --- |
@@ -145,7 +146,7 @@ Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in d
 
 1. Creeer een verbinding van de Customer Journey Analytics die Dataset A en Dataset B combineert.
 
-1. Maak een gegevensweergave in Customer Journey Analytics met de Customer Journey Analytics-verbinding die u zojuist hebt gemaakt. Negeer de oorspronkelijke velden van de eVar en neem alleen de velden op van de veldgroep Klantgegevens.
+1. Maak een gegevensweergave in Customer Journey Analytics met de Customer Journey Analytics die u zojuist hebt gemaakt. Negeer de originele eVar gebieden en omvat slechts de gebieden van de het gebiedsgroep van Info van de Klant.
 
    Gegevens, weergave in Customer Journey Analytics:
 
@@ -157,6 +158,6 @@ Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in d
 
 ## Data Prep vs. Component ID
 
-Zoals hierboven is beschreven, kunt u met Data Prep verschillende velden aan elkaar toewijzen in meerdere Adobe Analytics-rapportsets. Dit is nuttig in Customer Journey Analytics wanneer u gegevens van veelvoudige datasets in één enkele verbinding van Customer Journey Analytics wilt combineren. Nochtans, als u van plan bent om de rapportreeksen in afzonderlijke verbindingen van de Customer Journey Analytics te houden maar u één reeks rapporten over die verbindingen en gegevensmeningen wilt gebruiken, verstrekt het veranderen van onderliggende identiteitskaart van de Component in Customer Journey Analytics een manier om rapporten compatibel te maken zelfs als de schema&#39;s verschillend zijn. Zie [Componentinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) voor meer informatie .
+Zoals hierboven is beschreven, kunt u met Data Prep verschillende velden aan elkaar toewijzen in meerdere Adobe Analytics-rapportensuites. Dit is nuttig in Customer Journey Analytics wanneer u gegevens van veelvoudige datasets in één enkele verbinding van de Customer Journey Analytics wilt combineren. Nochtans, als u van plan bent om de rapportreeksen in afzonderlijke verbindingen van de Customer Journey Analytics te houden maar u één reeks rapporten over die verbindingen en gegevensmeningen wilt gebruiken, verstrekt het veranderen van onderliggende identiteitskaart van de Component in Customer Journey Analytics een manier om rapporten compatibel te maken zelfs als de schema&#39;s verschillend zijn. Zie [Componentinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) voor meer informatie .
 
-Het wijzigen van de component-id is een Customer Journey Analytics-enige functie en heeft geen invloed op gegevens van de bronconnector van Analytics die naar Real-time klantprofiel en RTCDP wordt verzonden.
+Het wijzigen van de Component ID is een functie met alleen Customer Journey Analytics en heeft geen invloed op de gegevens van de bronconnector van Analytics die naar Real-time klantprofiel en RTCDP wordt verzonden.

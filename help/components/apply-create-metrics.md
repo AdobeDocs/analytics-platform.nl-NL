@@ -3,10 +3,11 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 4%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ U kunt zien of metrisch is goedgekeurd ![Goedgekeurd pictogram](https://spectrum
 
 Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
 
-## Berekende standaarden
+## Berekende cijfers
 
 Met berekende meetwaarden kunt u gemakkelijk zien hoe de meetgegevens op elkaar betrekking hebben met behulp van eenvoudige operatoren of statistische functies. U kunt op verschillende manieren berekende metriek maken:
 

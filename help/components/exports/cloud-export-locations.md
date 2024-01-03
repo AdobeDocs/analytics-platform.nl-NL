@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User, Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    Het dialoogvenster Locatie wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de rekening om deze te kunnen onderscheiden van andere rekeningen van hetzelfde type. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
@@ -55,9 +56,9 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    <!-- still need to update; can't create AEP account -->
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -88,7 +89,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    <!-- still need to update; can't create S3 role ARN account -->
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
    | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Map_name/ |
@@ -107,7 +108,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    <!-- still need to update; can't create GCP account -->
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Emmertje**] | Het emmertje binnen uw rekening GCP waar u de gegevens van de Customer Journey Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. (De Opdrachtgever wordt verstrekt wanneer [configureren van Google Cloud Platform-account](/help/components/exports/cloud-export-accounts.md).) Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie. |
    | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Map_name/ |
@@ -124,10 +125,10 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure SAS-locatie te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Containernaam**] | De container binnen de account die u hebt opgegeven, waarin u de gegevens van de Customer Journey Analytics wilt verzenden. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -141,10 +142,10 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure RBAC-locatie te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/` |
    | [!UICONTROL **Account**] | De Azure-opslagaccount. |
 
    {style="table-layout:auto"}
@@ -159,7 +160,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om de locatie van een Snowflake te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **DB**] | De opgegeven database moet een bestaande database zijn. De rol u creeerde moet voorrechten hebben om tot dit gegevensbestand toegang te hebben.<p>Dit is de database die is gekoppeld aan de naam van het werkgebied.</p><p>U kunt deze rolvoorrechten aan het gegevensbestand in Snowflake verlenen gebruikend het volgende bevel: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
    | [!UICONTROL **Schema**] | Het opgegeven schema moet een bestaand schema zijn. De rol u creeerde moet voorrechten hebben om tot dit schema toegang te hebben.<p>Dit is het schema dat aan de naam van het werkgebied is gekoppeld.<p>U kunt de rol verlenen die u voorrechten aan het schema in Snowflake gebruikend het volgende bevel creeerde: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Zie de klasse [Database-, Schema- en Share Commands-pagina in de documentatie van de Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |

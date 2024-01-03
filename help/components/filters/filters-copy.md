@@ -2,7 +2,9 @@
 description: Beschrijft hoe te om een filter in de manager van de Filter te kopiëren
 title: Filters kopiëren
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: a64737bd-5d5b-4e85-95ff-eb1d90b95e18
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

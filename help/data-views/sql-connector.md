@@ -5,10 +5,11 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 hide: true
 hidefromtoc: true
-exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
+exl-id: 1827a637-6c0f-43f2-862a-928089340d30
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -106,7 +107,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
    1. Selecteer in het hoofdvenster **[!UICONTROL ** Gegevens ophalen **]** in de bovenste werkbalk.
 
-   2. Selecteren **[!UICONTROL ** Meer...**]** in het linkerspoor.
+   2. Selecteer **[!UICONTROL ** Meer...**]** aan de linkerkant.
 
    3. In de **Gegevens ophalen** scherm, zoeken naar `PostgresSQL` en selecteert u de **[!UICONTROL ** PostgresSQL-database **]** in de lijst.
 
@@ -158,13 +159,13 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
       3. Plak **[!UICONTROL ** de databaseparameter **]** van Experience-platformquery&#39;s [!UICONTROL Credentials] in **[!UICONTROL ** het tekstveld Database **]** .
 
-         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:cja%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren afvlakken voor gebruik met BI-tools van](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) derden voor meer informatie.
+         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:cja%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
 
-      4. Selecteer **[!UICONTROL ** Gebruikersnaam en wachtwoord in **[!UICONTROL ****]** de lijst Verificatie **]**.
+      4. Selecteren **[!UICONTROL ** Gebruikersnaam en wachtwoord **]** van **[!UICONTROL ** Verificatie **]** lijst.
 
       5. Plakken **[!UICONTROL ** Gebruikersnaam **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstveld.
 
-      6. Plakken **[!UICONTROL ** Wachtwoord **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Wachtwoord **]** tekstveld.
+      6. Plak **[!UICONTROL ** de wachtwoordparameter **]** van Experience-platformquery&#39;s [!UICONTROL Credentials] in **[!UICONTROL ** het tekstveld Wachtwoord **]** .
 
       7. Selecteer **[!UICONTROL ** Aanmelden **]**.
 
@@ -231,7 +232,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 | Patroon | Voorbeeld |
 |---|---|
 | Schema-detectie | <pre>SELECTEREN * VANUIT dv1 WAAR 1=0</pre> |
-| Uitsplitsing | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  filterId = &#39;12345&#39;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  EN (dim2 = &#39;A&#39; OF dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;)<br/>GROEP OP DIm1</pre> |
+| Uitsplitsing | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \&#39;timestamp\&#39; BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;GROUP BY<br/> dim1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  EN (dim2 = &#39;A&#39; OF dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;)<br/>GROEP OP DIm1</pre> |
 | HAVENS | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>VAN > 100</pre> |
 | Onderscheiden, boven <br/>dimensiewaarden | <pre>DIM1 VERSCHUIVEN VANUIT dv1 SELECTEREN</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WHERE \&quot;timestamp\&quot; >= &quot;2022-01-01&quot; AND \&quot;timestamp\&quot; &lt; &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>ORDER BY SUM(metrisch1)<br/>LIMIET 15</pre> |
 | Metrische totalen | <pre>SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</pre> |
@@ -240,7 +241,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 | Subselectie maken:<br/>Samenvoegen met<br/>dataset niet in<br/>Customer Journey Analytics | <pre>SELECT b.key, a.dim1, a.m1<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/>a)<br/>LEFT JOIN lookups b OP a.dim1 = b.key</pre> |
 | Subselectie maken:<br/>Doorheen zoeken<br/>gegevensweergaven | <pre>SELECT-toets, SUM(m1) AS totaal<br/>VAN (<br/>  DIm1 AS-toets SELECTEREN, SUM(metrisch1) AS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/><br/>  UNIE<br/><br/>  DIm2 AS-toets SELECTEREN, SUM(m1) AS m1<br/>  FROM dv2<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP MET DIm2<br/>GROEP OP toets<br/>VOLGORDE PER totaal</pre> |
 | Subselectie maken: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    SELECTEER \* UIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET RIJEN ALS (<br/>  MET \_ AS (<br/>    SELECT * FROM data_ares<br/>    WHERE \&#39;TIMESTAMP\&#39; TUSSEN &#39;01-2021-01&#39; EN &#39;2021-02-01&#39;<br/>  )<br/>  SELECTEER _.item, _.eenheden VAN _<br/>  WAAR _.item NIET NULL<br/> IS)<br/>SELECTEER rijen.item, SOM (rijen.eenheden) ALS eenheden<br/>UIT rijen WAARBIJ rijen.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/> GROEP BY rows.item</pre> |
-| Hiermee selecteert u waar de<br/>metrische gegevens voor komen<br/> of worden gecombineerd met<br/>de afmetingen | <pre>SELECTEER SOM (metric1) ALS m1, dim1<br/>VAN dv1<br/>WAARBIJ \&#39;TIJDSTEMPEL\&#39; TUSSEN &#39;2022-01-01&#39; EN &#39;2022-01-02&#39;GROEPEREN<br/> DOOR 2</pre> |
+| Hiermee selecteert u waar de<br/>metriek komt voor<br/> of worden gemengd met<br/>de afmetingen | <pre>SUM(metrisch1) SELECTEREN AS m1, dim1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 2</pre> |
 
 {style="table-layout:auto"}
 
@@ -248,7 +249,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 
 ### Dimensies
 
-U kunt alle standaard beschikbare afmetingen selecteren of in de gegevensweergave definiëren. U selecteert een dimensie op basis van de id.
+U kunt alle standaard beschikbare afmetingen selecteren of in de gegevensweergave definiëren. U kunt een dimensie selecteren aan de hand van zijn id.
 
 ### Metrics
 
@@ -353,9 +354,9 @@ ORDER BY metric1 ASC
 ORDER BY -metric1 DESC
 ```
 
-### Algemene ondersteuning voor functies
+### Algemene functieondersteuning
 
-| -functie | Voorbeeld | Details |
+| Functie | Voorbeeld | Details |
 |---|---|---|
 | [CAST(kolom ALS type)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` Of <br/> `` `timestamp`::string `` | Typecasting wordt momenteel niet ondersteund, maar er wordt geen fout gegenereerd. De `CAST` functie wordt genegeerd. |
 | [TIJDSTEMPEL (tijdstring)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Een tijdtekenreeks parseren als een tijdstempel voor gebruik in een `WHERE` clausule. |
@@ -371,7 +372,7 @@ Deze functies kunnen worden gebruikt voor dimensies in de `SELECT`, `WHERE` clau
 
 **Reeksfuncties**
 
-| -functie | Voorbeeld | Details |
+| Functie | Voorbeeld | Details |
 |---|---|---|
 | [LOWER(stringDimension)](https://spark.apache.org/docs/latest/api/sql/index.html#lower) | ``SELECT LOWER(name) AS lower_name`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
 
@@ -379,7 +380,7 @@ Deze functies kunnen worden gebruikt voor dimensies in de `SELECT`, `WHERE` clau
 
 **Datum- en tijdfuncties**
 
-| -functie | Voorbeeld | Details |
+| Functie | Voorbeeld | Details |
 |---|---|---|
 | [JAAR (datum of datum-tijd)](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
 | [MONTH(date of date-time)](https://spark.apache.org/docs/latest/api/sql/index.html#month) | ``SELECT MONTH(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |

@@ -5,9 +5,10 @@ title: Gegevens van Customer Journey Analytics naar anderen verzenden per e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Er zijn ook andere methoden beschikbaar voor het exporteren van gegevens van Cus
 
 Een bestand direct per e-mail naar ontvangers verzenden:
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Export file]**.
+1. Klikken **[!UICONTROL Share]>[!UICONTROL Export file]**.
 1. Geef het bestandstype op:
    * [!UICONTROL **CSV**]: Kies deze optie als u gegevens in onbewerkte tekst wilt.
    * [!UICONTROL **PDF**]: Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
@@ -40,7 +41,7 @@ Een bestand direct per e-mail naar ontvangers verzenden:
 
 Een bestand volgens een terugkerend schema per e-mail naar ontvangers verzenden:
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
+1. Klikken **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
 1. Geef het bestandstype op (CSV of PDF).
 1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.

@@ -3,9 +3,10 @@ title: Referentie - basisfuncties
 description: Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -220,7 +221,7 @@ ROUND(metric)
 |---|---|
 | *getal* | De metrische waarde die u wilt afronden. |
 
-Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s links van decimaal terug.
+Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s aan de linkerzijde van decimaal terug.
 
 ```
 round( 314.15, 0) = 314 
@@ -259,13 +260,13 @@ SQRT(metric)
 
 ## Standaardafwijking (tabel)
 
-Retourneert de standaardafwijking of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
+Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-waarbij x het gemiddelde van het monster is (*metrisch*) en *n* is de steekproefgrootte.
+waarbij x = gemiddelde monsterhoeveelheid (*metrisch*) en *n* is de steekproefgrootte.
 
 ```
 STDEV(metric)
@@ -292,7 +293,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waarbij x het gemiddelde van het monster is, MEAN(*metrisch*), en *n* is de steekproefgrootte.
+waarbij x het monstergemiddelde is, MEAN(*metrisch*), en *n* is de steekproefgrootte.
 
 ```
 VARIANCE(metric)
@@ -320,4 +321,4 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is (1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

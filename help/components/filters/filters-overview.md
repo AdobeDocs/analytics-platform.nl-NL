@@ -3,9 +3,10 @@ title: Overzicht van filters
 description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig filter maakt.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -97,7 +98,7 @@ Sessiecontainers bevatten waarden die zijn gebaseerd op de aanwezigheid per sess
 
 - Sessietype
 - Itempagina
-- Retourfrequentie
+- Geretourneerde frequentie
 - Deelnamemetriek
 - Lineaire toegewezen metriek
 

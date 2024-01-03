@@ -3,9 +3,10 @@ title: Referentie - geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '3119'
+source-wordcount: '3058'
 ht-degree: 1%
 
 ---
@@ -382,7 +383,7 @@ Y = a X + b. Retourneert Y.
 
 ## Lineaire regressie_ Helling
 
-Y = a X + b. Retourneert een.
+Y = a X + b. Retourneert a.
 
 ## Logbasis 10 (rij)
 

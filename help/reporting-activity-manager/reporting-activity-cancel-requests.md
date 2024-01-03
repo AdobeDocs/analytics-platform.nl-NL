@@ -4,9 +4,10 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -55,7 +56,7 @@ U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringsca
 
    1. Kies een van de volgende opties:
 
-      | Optie | -functie |
+      | Optie | Functie |
       |---------|----------|
       | [!UICONTROL **Gebruiker en project**] | De gebruikers verbonden aan de geselecteerde verzoeken zullen tijdelijk worden beperkt van het runnen van rapporteringsverzoeken voor de bijbehorende projecten. |
       | [!UICONTROL **Gebruiker**] | De gebruikers verbonden aan de geselecteerde verzoeken zullen tijdelijk worden beperkt van het maken van om het even welke rapporteringsverzoeken. |
@@ -96,7 +97,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld. W
 
    1. Kies een van de volgende opties:
 
-      | Optie | -functie |
+      | Optie | Functie |
       |---------|----------|
       | [!UICONTROL **Gebruiker en project**] | Geselecteerde gebruikers kunnen tijdelijk geen rapportageaanvragen voor de bijbehorende projecten indienen. <p>Dit is de minst beperkende optie.</p> |
       | [!UICONTROL **Gebruiker**] | Geselecteerde gebruikers kunnen tijdelijk geen rapportageaanvragen indienen. |
@@ -137,7 +138,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
    1. Kies een van de volgende opties:
 
-      | Optie | -functie |
+      | Optie | Functie |
       |---------|----------|
       | [!UICONTROL **Gebruiker en project**] | Geselecteerde projecten worden tijdelijk beperkt van alle rapportageaanvragen die door de betrokken gebruikers worden ingediend.<p>Dit is de minst beperkende optie.</p> |
       | [!UICONTROL **Gebruiker**] | De gebruikers verbonden aan de geselecteerde projecten zullen worden beperkt van het indienen van om het even welke rapporteringsverzoeken. |
@@ -193,7 +194,7 @@ Aanvragen door toepassing annuleren:
 
    1. Kies een van de volgende opties:
 
-      | Optie | -functie |
+      | Optie | Functie |
       |---------|----------|
       | [!UICONTROL **Gebruiker en project**] | De geselecteerde toepassingen zullen tijdelijk van om het even welke rapporteringsverzoeken worden beperkt die door de bijbehorende gebruikers en de projecten worden gemaakt.<p>Dit is de minst beperkende optie.</p> |
       | [!UICONTROL **Gebruiker**] | Gebruikers die bij de geselecteerde toepassingen horen, kunnen geen rapportageaanvragen indienen. |

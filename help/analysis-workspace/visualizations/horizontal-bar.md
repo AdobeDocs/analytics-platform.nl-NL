@@ -1,16 +1,17 @@
 ---
 description: Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
-title: Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld
+title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 11%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
-# Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld
+# Horizontale balk en horizontale balk gestapeld
 
 ## Horizontale balk {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
 

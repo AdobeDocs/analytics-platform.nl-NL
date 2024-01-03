@@ -2,11 +2,11 @@
 description: Leer hoe u de stroomvisualisatie in een Workspace-project gebruikt.
 title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
-role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---

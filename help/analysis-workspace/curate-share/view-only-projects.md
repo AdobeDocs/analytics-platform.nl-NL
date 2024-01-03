@@ -1,17 +1,18 @@
 ---
 description: Alleen-weergeven projecten in Workspace
-keywords: Alleen-weergeven -projecten
-title: Alleen-weergeven -projecten
+keywords: Alleen-weergeven projecten
+title: Alleen-weergeven projecten
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 3%
+source-wordcount: '242'
+ht-degree: 0%
 
 ---
 
-# Alleen-weergeven -projecten
+# Alleen-weergeven projecten
 
 U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door delen [Workflow voor delen van projecten](/help/analysis-workspace/curate-share/share-projects.md). Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 

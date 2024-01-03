@@ -2,9 +2,9 @@
 description: Leer hoe u een project maakt in Analysis Workspace
 title: Projecten maken
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -30,7 +30,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
    * **Leeg project** als u van plan bent om uw analyse van browser te delen
    * [**Lege mobiele scorecard**](/help/mobile-app/curator.md) als u uw analyse wilt delen via de mobiele app voor Adobe Analytics-dashboards.
 
-1. Selecteer [!UICONTROL **Maken**].
+1. Selecteren [!UICONTROL **Maken**].
 
 1. Daarna, moet u panelen, visualisaties, en componenten aan uw project toevoegen. Voeg eerst deelvensters toe aan uw project in Analysis Workspace, zoals beschreven in [Deelvensters toevoegen aan het project](#add-panels-to-the-project). Vervolgens kunt u visualisaties toevoegen aan alle deelvensters. Tot slot kunt u componenten aan om het even welke panelen of visualisaties toevoegen.
 

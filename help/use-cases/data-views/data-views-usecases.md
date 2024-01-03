@@ -4,9 +4,10 @@ description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegeve
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionali
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in gegevensweergaven om alleen de nadruk te leggen op producten die een omzet van meer dan 50 dollar hebben gegenereerd. Dus als u een bestelling hebt die een product van 50 dollar en een product van 25 dollar bevat, verwijderen we alleen de aankoop van het product van 25 dollar, niet de volledige bestelling.
 
 1. In de gegevensweergaven [Componenten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) tabblad, sleept u de [!UICONTROL Revenue] schemaveld in [!UICONTROL Metrics] areaal [!UICONTROL Included components].
-1. Selecteer metrisch en vorm het volgende op de rechterkant: a. Onder [!UICONTROL Format], selecteert u [!UICONTROL Currency].
+1. Selecteer metrisch en vorm het volgende op de rechterkant: a. onder [!UICONTROL Format], selecteert u [!UICONTROL Currency].
 b. onder [!UICONTROL Currency]selecteert u USD.
 c. onder [!UICONTROL Include/Exclude Values]schakelt u het selectievakje naast [!UICONTROL Set include/exclude values].
 d. Onder [!UICONTROL Match], selecteert u [!UICONTROL If all criteria are met].

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 2%
+source-wordcount: '1329'
+ht-degree: 1%
 
 ---
 

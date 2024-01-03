@@ -4,9 +4,10 @@ description: Alle instellingen die u kunt aanpassen om een gegevensweergave te m
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---

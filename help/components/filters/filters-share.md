@@ -2,9 +2,11 @@
 description: Afhankelijk van uw machtigingen kunt u filters delen met uw hele organisatie, groepen of individuele gebruikers.
 title: Filters delen
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Overzicht van annotaties
 description: Annotaties gebruiken in Workspace.
-role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Houd dit in gedachten:
 
 * Ze kunnen worden toegepast op de gegevensweergave waarin ze zijn gemaakt (standaard) of op alle gegevensweergaven.
 
-## Toestemmingen
+## Machtigingen
 
 Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere onderdelen van Analytics (zoals filters, berekende metriek, enz.).
 

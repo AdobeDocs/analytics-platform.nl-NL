@@ -4,7 +4,8 @@ description: Een methode om gegevens in Customer Journey Analytics te analyseren
 keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
-source-git-commit: f99d1ce1881cd1ed3262fa3d2b2a9e16f84aa288
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%

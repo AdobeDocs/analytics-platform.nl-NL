@@ -3,7 +3,9 @@ title: Overzicht van Activity Manager rapporteren
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 * Hiermee kunt u de rapportwachtrij optimaliseren door een aantal prioriteiten toe te wijzen en andere rapportageaanvragen te annuleren om capaciteit vrij te maken. Het beantwoordt vragen als: is dit verslag op dit moment nodig of kan ik het intrekken ten gunste van meer urgente verslagen?
 * Hiermee kunt u toekomstige aanvragen voor een bepaalde periode beperken. U kunt specifieke verzoeken beperken, of u kunt alle verzoeken van een specifieke gebruiker of verzoeken beperken die met een specifiek project worden geassocieerd.
 
-## Toestemmingen
+## Machtigingen
 
 <!-- update for CJA -->
 

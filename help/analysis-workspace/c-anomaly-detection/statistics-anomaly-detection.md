@@ -1,16 +1,17 @@
 ---
 description: Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
-title: Statistische technieken voor anomaliedetectie
+title: Statistische technieken voor de opsporing van anomalieën
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 1%
+source-wordcount: '816'
+ht-degree: 0%
 
 ---
 
-# Statistische technieken voor anomaliedetectie
+# Statistische technieken voor de opsporing van anomalieën
 
 Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 
@@ -20,7 +21,7 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele filtering genoemd).
 
-De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven in [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven in [Hyndman et al. 2008](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)

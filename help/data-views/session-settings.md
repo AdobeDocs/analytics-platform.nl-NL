@@ -3,13 +3,14 @@ title: Sessieinstellingen
 description: Instellingen in een gegevensweergave die u kunt gebruiken om de duur van een sessie te definiëren en de trigger voor het starten van een nieuwe sessie
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
+exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
-
 
 # Sessieinstellingen
 
@@ -45,4 +46,3 @@ De context van een sessie voor een gegevensweergave definiëren:
 
 
 4. Selecteren **[!UICONTROL Save]** of **[!UICONTROL Save and finish]** om de definitie van de zittingsmontages te bewaren.
-

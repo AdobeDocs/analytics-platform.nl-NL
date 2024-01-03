@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Een rapport voor cohortanalyse configureren
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 1%
+source-wordcount: '939'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +32,7 @@ Een cohort maken en een [!UICONTROL Cohort Analysis] melden in Analysis Workspac
 
 1. Pas de **[!UICONTROL Cohort Table Settings]** door op het tandwielpictogram te klikken.
 
-   | Instelling | Beschrijving | | Alleen percentage weergeven | Hiermee verwijdert u de getalwaarde en geeft u alleen het percentage weer. | | Percentage afgerond op het dichtstbijzijnde gehele getal | Rondt de percentagewaarde aan het meest dichtbijgelegen geheel in plaats van het tonen van de decimale waarde. | | Gemiddelde procentuele rij tonen | Hiermee voegt u een nieuwe rij boven aan de tabel in en voegt u vervolgens het gemiddelde voor de waarden binnen elke kolom toe. |
+   | Instelling | Beschrijving | | Alleen percentage weergeven | Hiermee verwijdert u de getalwaarde en geeft u alleen het percentage weer. | | Percentage afronden naar dichtstbijzijnde gehele getal | Rondt de percentagewaarde aan het meest dichtbijgelegen geheel in plaats van het tonen van de decimale waarde. | | Gemiddelde procentuele rij tonen | Hiermee voegt u een nieuwe rij boven aan de tabel in en voegt u vervolgens het gemiddelde voor de waarden binnen elke kolom toe. |
 
 ## De [!UICONTROL Cohort Analysis] verslag
 

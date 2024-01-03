@@ -4,10 +4,11 @@ description: Bepaal hoe of of de waarden van de afmeting van één gebeurtenis a
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 6%
+source-wordcount: '841'
+ht-degree: 5%
 
 ---
 
@@ -61,7 +62,7 @@ Details over de beschikbare toewijzingsinstellingen.
   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
   | --- | --- | --- | --- | --- | --- |
   | Waarden voor gegevensset | A | B | C |  | A |
-  | Alle toewijzingen | A | A,B | A, B, C | A, B, C | A, B, C |
+  | Alle toewijzingen | A | A,B | A,B,C | A,B,C | A,B,C |
 
 * **[!UICONTROL First Known]** en **[!UICONTROL Last Known]**: (19 januari 2022) Deze twee toewijzingsmodellen voldoen aan de &quot;entry&quot; - en &quot;exit&quot; - criteria. Zij nemen de eerste of laatste waargenomen waarde voor een afmeting binnen een gespecificeerd persistentieschema (zitting, persoon, of douanetijdspanne met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
 

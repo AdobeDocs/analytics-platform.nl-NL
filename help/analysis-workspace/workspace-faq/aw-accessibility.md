@@ -3,10 +3,11 @@ description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +59,7 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 | `[Alt + Left / Right]` | Navigeren tussen deelvensters |
 | `[Alt + M]` | Alle deelvensters samenvouwen/uitvouwen |
 | `[Alt + Ctrl + M]` | Actief deelvenster samenvouwen/uitvouwen |
-| `[Ctrl + /]` | Zoeken in linkerrail |
+| `[Ctrl + /]` | Naar linkerspoor zoeken |
 
 #### Analyse maken
 

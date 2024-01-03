@@ -4,10 +4,11 @@ keywords: Analysis Workspace curation
 title: Cursieve projecten
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: f2f85db4b670f1c4b1f6bc0954a5549c793edf5a
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 1%
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +21,7 @@ Met Curatie kunt u de componenten (afmetingen, meetwaarden, filters, datumbereik
 
 ## Projectcursus toepassen
 
-1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Klikken **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 De componenten die in het project worden gebruikt zullen automatisch worden toegevoegd.
 1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u de componenten die u wilt delen van de linkerspoorstaaf naar de [!UICONTROL Curate Components] veld.
 1. Klik op **[!UICONTROL Done]**.
@@ -39,7 +40,7 @@ Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen r
 
 U kunt als volgt de projectcuratie verwijderen en de volledige set componenten in de linkerspoorstaaf herstellen:
 
-1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Klikken **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Klik op **[!UICONTROL Remove Curation]**.
 1. Klik op **[!UICONTROL Done]**.
 

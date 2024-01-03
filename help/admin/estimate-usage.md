@@ -4,9 +4,9 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 0%
 
 U kunt op verschillende manieren het gebruik van uw Customer Journey Analytics weergeven:
 
-* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. Zie [De verbindingsgrootte schatten](#estimsize) hieronder. Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
+* Voeg de rijen met gebeurtenisgegevens toe voor elke verbinding. Zie [De verbindingsgrootte schatten](#estimate-connection-size) hieronder. Dit is een gemakkelijke manier om uw gegevens van de gebeurtenisrij, per verbinding, voor een specifieke timestamp te zien.
+
 * Bekijk uw gebruik op drie manieren, elk die hieronder meer gedetailleerd wordt beschreven:
    * Gebruik Analysis Workspace om de gebeurtenissen van vorige maand te melden.
    * Gebruik Report Builder om de gebeurtenissen van vorige maand te rapporteren.

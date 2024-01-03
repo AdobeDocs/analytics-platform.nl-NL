@@ -4,9 +4,10 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3177'
 ht-degree: 0%
 
 ---
@@ -77,7 +78,7 @@ Klik op de gekoppelde voorkeurstitels voor meer informatie en context over elke 
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Herhalingsinstanties tellen | Geeft aan of herhalingsinstanties worden geteld in rapporten. Met deze instelling (indien geactiveerd) worden bijvoorbeeld meerdere weergaven van opeenvolgende pagina&#39;s op dezelfde pagina behandeld als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, tellen ze als een weergave van één pagina. <p>**Opmerking:** Deze instelling heeft alleen invloed op bepaalde metriek (zoals Bezoekingen voor één pagina) en is niet van toepassing op de stroomweergave of op de uitvalweergave.</p> |
-|  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1.000,00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
 |  | Annotaties tonen | Kies of annotaties zichtbaar zijn in uw projecten. Zie voor meer informatie over annotaties [Overzicht van annotaties](/help/components/annotations/overview.md). |
 

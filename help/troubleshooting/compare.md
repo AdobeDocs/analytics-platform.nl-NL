@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: queryservice;Query-service;sql-syntaxis
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
 
 >[!NOTE]
 >
->Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Kanaaloverschrijdende analyse](/help/cca/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in de Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd gemakkelijk om in Adobe Analytics te repliceren, vooral als Stitching is ingeschakeld.
+>Dit werkt alleen voor gewone middelste gegevenssets, niet voor gebonden gegevenssets (via [Stiksel](/help/stitching/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in de Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd gemakkelijk om in Adobe Analytics te repliceren, vooral als Stitching is ingeschakeld.
 
 1. In Adobe Experience Platform [Query-services](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)voert u het volgende uit [!UICONTROL Total Records by timestamps] query:
 
@@ -77,7 +77,7 @@ De totale Verslagen door timestamps zouden met Voorkomen moeten aanpassen, op vo
    | Exclusief_hit | Niet 0 |
    | Bot_id | Niet 0 |
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
-   | Page_event | 53, 63 |
+   | Page_event | 53 63 |
 
    Zie voor meer informatie over hit\_source: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en). Zie voor meer informatie over page\_event: [Pagina-gebeurtenis opzoeken](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en).
 

@@ -4,14 +4,15 @@ description: Leer welke componenten Customer Journey Analytics aanbiedt, en hoe 
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1046'
 ht-degree: 5%
 
 ---
 
-# Overzicht van onderdelen
+# Overzicht van componenten
 
 Componenten zijn functies in de Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
 
@@ -80,7 +81,7 @@ U kunt componenten rechtstreeks in de linkerspoorstaaf beheren.
    | Component, actie | Beschrijving |
    |--- |--- |
    | [!UICONTROL **Tag**] | U kunt componenten ordenen of beheren door er tags op toe te passen. U kunt vervolgens zoeken op tag in de linkertrack door op het filter te klikken of # te typen. Tags fungeren ook als filters in de componentmanagers. |
-   | [!UICONTROL **Favorieten**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerspoor en deze filteren in de componentmanagers. |
+   | [!UICONTROL **Favoriet**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerspoor en deze filteren in de componentmanagers. |
    | [!UICONTROL **Goedkeuren**] | Markeer componenten zoals Goedgekeurd om aan uw gebruikers te laten weten dat de component door de organisatie is goedgekeurd. Net als tags kunt u zoeken op Goedgekeurd in de linkertrack en door hen filteren in de componentmanagers. |
    | [!UICONTROL **Delen**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
    | [!UICONTROL **Verwijderen**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
@@ -113,7 +114,7 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
    | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Componenten beheren](#manage-components). |

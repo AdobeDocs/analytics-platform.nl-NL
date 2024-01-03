@@ -3,9 +3,10 @@ title: De Regels van de verwerking, VISTA, en classificaties vs. de Prep van Geg
 description: Meer informatie over gegevenstransformatie met verwerkingsregels en VISTA versus Data Prep
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---

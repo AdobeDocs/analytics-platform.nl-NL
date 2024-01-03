@@ -4,10 +4,11 @@ description: Gebruik een subset van een tekenreeks als dimensie-items.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 708dc7c69480534b118c8454d65a907946cfcce7
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 1%
+source-wordcount: '842'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +27,7 @@ Neem een deel van een tekenreeks op basis van zijn positie naar het begin of ein
 * **[!UICONTROL String Start]**: Het begin van de tekenreeks.
 * **[!UICONTROL String End]**: Het einde van de tekenreeks.
 * **[!UICONTROL Position]**: Een statisch aantal tekens van links of rechts, afhankelijk van de methode.
-* **[!UICONTROL String]**: Pas een teken of reeks tekens aan om het begin of einde van een tekenreeks aan te geven. Deze vervolgkeuzelijst toont ook extra opties:
+* **[!UICONTROL String]**: Komt overeen met een teken of reeks tekens om het begin of einde van een tekenreeks aan te geven. In deze vervolgkeuzelijst worden ook extra opties weergegeven:
    * **[!UICONTROL Match]**: De tekenreeks die moet overeenkomen. Als de invoer niet overeenkomt met dit veld, [Geen waardeopties](no-value-options.md) van toepassing.
    * **[!UICONTROL Index]**: De **[!UICONTROL Match]** criteria kunnen meerdere keren voorkomen in een tekenreeks. Dit geheel getal bepaalt welke overeenkomst wordt gebruikt om de uitvoer te starten of te beëindigen, afhankelijk van de methode. Bijvoorbeeld een index van `1` vertegenwoordigt de eerste gelijke. Als de index hoger is dan het aantal beschikbare overeenkomsten, [Geen waardeopties](no-value-options.md) van toepassing.
    * **[!UICONTROL Include String]**: Een selectievakje dat het **[!UICONTROL Match]** tekenreeks in de uitvoer indien ingeschakeld.
@@ -36,8 +37,8 @@ Neem een deel van een tekenreeks op basis van zijn positie naar het begin of ein
 
 Gebruik deze methode voor velden die een scheidingsteken gebruiken om meerdere tekenreekswaarden van elkaar te scheiden. U kunt een afzonderlijk element extraheren om als uitvoer te gebruiken of de tekenreeks omzetten in een element in een arrayschema van een object.
 
-* **[!UICONTROL Criterion]**: Hoe u de lijst met gescheiden waarden wilt behandelen.
-   * **[!UICONTROL From the Left]**: Begin bij het begin van de lijst met scheidingstekens en tel vooruit.
+* **[!UICONTROL Criterion]**: Hoe wilt u de lijst met gescheiden waarden behandelen?
+   * **[!UICONTROL From the Left]**: Begin vanaf het begin van de lijst met scheidingstekens en tel voorwaarts.
    * **[!UICONTROL From the Right]**: Begin vanaf het einde van de lijst met scheidingstekens en tel terug.
    * **[!UICONTROL Convert to array]**: Behandel deze dimensie alsof het een schemaelement van de objecten serie is.
 * **[!UICONTROL Delimiter]**: Het scheidingsteken dat in het veld wordt gebruikt.
@@ -47,11 +48,11 @@ Gebruik deze methode voor velden die een scheidingsteken gebruiken om meerdere t
 
 Voor gebruik met velden die URL&#39;s bevatten. De voorbeeld-URL gebruiken `https://example.com/store/index.html?cid=campaign#cart`zijn de volgende opties beschikbaar:
 
-* **[!UICONTROL Get protocol]**: Haal het URL-protocol op. Bijvoorbeeld, `"https://"`.
-* **[!UICONTROL Get host]**: Haal de host van de URL op. Bijvoorbeeld, `"example.com"`.
-* **[!UICONTROL Get path]**: Haal het pad van de URL op. Bijvoorbeeld, `"store/index.html"`.
+* **[!UICONTROL Get protocol]**: Haal het URL-protocol op. Bijvoorbeeld: `"https://"`.
+* **[!UICONTROL Get host]**: Haal de host van de URL op. Bijvoorbeeld: `"example.com"`.
+* **[!UICONTROL Get path]**: Haal het pad van de URL op. Bijvoorbeeld: `"store/index.html"`.
 * **[!UICONTROL Get query string value]**: Haal de waarde op uit één querytekenreeks. Plaats de gewenste parameter voor de queryreeks in het dialoogvenster **[!UICONTROL Query key]** veld. Als de bovenstaande URL wordt gebruikt met de `"cid"` querysleutel, de uitvoer is `"campaign"`.
-* **[!UICONTROL Get hash value]**: Hiermee wordt de hashwaarde van de URL opgehaald. Bijvoorbeeld, `"cart"`.
+* **[!UICONTROL Get hash value]**: Hiermee wordt de hashwaarde van de URL opgehaald. Bijvoorbeeld: `"cart"`.
 
 Als de invoer geen geldige URL is of als de gewenste URL-component niet aanwezig is, [Geen waardeopties](no-value-options.md) van toepassing.
 
@@ -59,7 +60,7 @@ Als de invoer geen geldige URL is of als de gewenste URL-component niet aanwezig
 
 Witruimte of speciale tekens uit de tekenreeks bijsnijden.
 
-* **[!UICONTROL Trim whitespaces]**: Een selectievakje waarmee alle witruimte aan het begin en einde van de tekenreeks wordt verwijderd, indien ingeschakeld.
+* **[!UICONTROL Trim whitespaces]**: Een selectievakje dat alle witruimte aan het begin en einde van de tekenreeks verwijdert, indien ingeschakeld.
 * **[!UICONTROL Trim special characters]**: Een selectievakje dat een **[!UICONTROL Special characters]** invoerveld indien ingeschakeld. Alle tekens in dit veld worden uit de uitvoer verwijderd. Multi-bytetekens worden niet ondersteund.
 
 ## Regex
@@ -70,7 +71,7 @@ Pas reguliere expressies toe op een dimensie om de gewenste waarde op te halen.
 * **[!UICONTROL Output format]**: Een optioneel veld waarmee u tekst kunt toevoegen of de volgorde van de uitvoer van de regex-subgroep kunt wijzigen. Als dit veld leeg is, is de tekenreeksuitvoer de geëvalueerde regex-expressie.
 * **[!UICONTROL Case sensitive]**: Een selectievakje waarmee de reguliere expressie, indien ingeschakeld, hoofdlettergevoelig wordt gemaakt.
 
-Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. Als de invoer niet overeenkomt met de reguliere expressie en de **[!UICONTROL Output format]** leeg is, [Geen waardeopties](no-value-options.md) van toepassing. De volgende expressies worden ondersteund:
+Customer Journey Analytics gebruikt een subset van de Perl regex syntaxis. Als de invoer niet overeenkomt met de reguliere expressie en de **[!UICONTROL Output format]** leeg is, [Geen waardeopties](no-value-options.md) van toepassing. De volgende expressies worden ondersteund:
 
 | Uitdrukking | Beschrijving |
 | --- | --- |

@@ -3,10 +3,11 @@ description: Meer informatie over bekende beperkingen in Adobe Analysis Workspac
 title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +37,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 
 * Berekende meetgegevens kunnen niet worden gebruikt in bepaalde visualisaties. Zie &#39;Visualisaties&#39; hierboven.
 * Berekende metriek kan niet worden gebruikt in de [!UICONTROL Attribution] , aangezien berekende metriek zelf afzonderlijke attributiemodellen kunnen bevatten.
-* Bepaalde componenten en operatoren zijn niet beschikbaar als een berekende metrische waarde wordt gemaakt in Workspace (in tegenstelling tot het resultaat [!UICONTROL Components > filters]). Bijvoorbeeld, [!UICONTROL IP Address].
+* Bepaalde componenten en operatoren zijn niet beschikbaar als een berekende metrische waarde wordt gemaakt in Workspace (in tegenstelling tot het resultaat [!UICONTROL Components > filters]). Bijvoorbeeld: [!UICONTROL IP Address].
 
 ## Componenten > Datumbereik
 
