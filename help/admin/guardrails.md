@@ -4,9 +4,9 @@ description: Meer informatie over de hulplijnen voor Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
+source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1478'
 ht-degree: 5%
 
 ---
@@ -210,8 +210,9 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 | Adobe Analytics-bronaansluiting op realtime klantprofiel (A4T niet ingeschakeld) | &lt; 2 minuten |
 | Adobe Analytics-bronaansluiting op realtime klantprofiel (A4T ingeschakeld) | &lt; 30 minuten |
 | Gegevens-opname in Data Lake van Edge Network of streaming opname | &lt; 60 minuten |
-| Gegevensopname in Data Lake vanaf Adobe Analytics-bronaansluiting | &lt; 90 minuten |
+| Gegevensopname in Data Lake vanaf Adobe Analytics-bronaansluiting | &lt; 2,25 uur |
 | Gegevensopname in de Customer Journey Analytics van Data Lake | &lt; 90 minuten |
+| Plaatsen (optionele functie; zie [Overzicht van tekenreeksen](../stitching/overview.md) voor meer informatie ) | &lt; 3,25 uur |
 | Adobe Analytics-bronconnectorbackfill van minder dan 10 miljard gebeurtenissen (maximaal 13 maanden historische gegevens) | &lt; 4 weken |
 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | staan voor 60 minuten |
 | Frequentie vernieuwen voor publiek | Eenmalige vernieuwing: latentie van minder dan 5 minuten.<br/>Vernieuw elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie). |
