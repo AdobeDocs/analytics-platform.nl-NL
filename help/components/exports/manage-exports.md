@@ -5,7 +5,7 @@ title: Exporteren beheren
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -137,7 +137,7 @@ Selecteer een kolomkop om het exporteren op die kolom te sorteren. Standaard wor
    | Naam | De naam van de exportbewerking. De gebruikers geven de uitvoer een naam wanneer zij tot hen leiden, zoals die in worden beschreven [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
    | ID | De id wordt automatisch toegewezen aan de exportbewerking wanneer deze wordt gemaakt. <!-- True? --> |
    | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. Gebruikers kunnen de gegevensweergave selecteren wanneer ze de exportbewerking maken, zoals wordt beschreven in [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](/help/analysis-workspace/export/export-cloud.md). |
-   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Active], [!UICONTROL Complete], en [!UICONTROL Failed].<p> **Opmerking:** Voor informatie over het oplossen van problemen ontbrak de uitvoer, zie [Problemen met mislukte exportbewerkingen oplossen](/help/components/exports/troubleshoot-exports.md).</p> |
+   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Active], [!UICONTROL Completed], en [!UICONTROL Failed].<p> **Opmerking:** Voor informatie over het oplossen van problemen ontbrak de uitvoer, zie [Problemen met mislukte exportbewerkingen oplossen](/help/components/exports/troubleshoot-exports.md).</p> |
    | Tags | Hiermee geeft u alle tags weer die op het exporteren zijn toegepast. Voor informatie over het toepassen van labels op een exportbewerking raadpleegt u [Een exportlabel geven](#tag-an-export). |
    | Tabelgrootte (laatste verzending) | De grootte van de export wanneer deze voor het laatst is verzonden. |
    | Gemaakt door | De gebruiker die de exportbewerking heeft gemaakt. |
