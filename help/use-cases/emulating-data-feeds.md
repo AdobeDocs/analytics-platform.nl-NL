@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2554'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U kunt ook `identityMap` om naar identiteiten te zoeken. Dit object is van het t
 
 De XDM gebieden u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets gebaseerd zijn. Zorg ervoor u het schema onderaan de dataset begrijpt.
 
-Als u de toewijzing tussen de kolommen Gegevensfeed en de XDM-velden wilt vereenvoudigen, moet u overwegen om de [Adobe Analytics ExperienceEvent-sjabloon](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) veldgroep in uw ervaringsgebeurtenisschema. Zie [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) en meer specifiek [Toepassingsschema-veldgroepen Adoben](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Om de afbeelding tussen de kolommen van de Invoer van Gegevens en de gebieden te bepalen XDM, zou u moeten overwegen om sommige aspecten van te inspecteren en potentieel (opnieuw) te gebruiken [Adobe Analytics ExperienceEvent-sjabloon](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) veldgroep. Zie [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) en meer specifiek [Toepassingsschema-veldgroepen Adoben](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 Als u bijvoorbeeld *paginanaam* als onderdeel van de gegevensinvoer:
 
