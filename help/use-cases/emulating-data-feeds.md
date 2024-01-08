@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
+source-git-commit: a402c4b03c9d30235f2697e1b6ad5b1b22024c66
 workflow-type: tm+mt
-source-wordcount: '2554'
+source-wordcount: '2533'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Het emuleren van een Adobe Analytics-gegevensfeed omvat:
 Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u de functionaliteit gebruikt die in dit gebruiksgeval wordt beschreven:
 
 * Een werkende implementatie die gegevens verzamelt in het gegevensmeer van het Experience Platform.
-* Toegang tot de gegevensinvoegtoepassing Distiller om te controleren of u batch-query&#39;s kunt uitvoeren. Zie [Query Service verpakken](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) voor meer informatie .
+* Toegang tot de gegevensinvoegtoepassing Distiller om te controleren of u batch-query&#39;s mag uitvoeren. Zie [Query Service verpakken](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) voor meer informatie .
 * Toegang tot de functionaliteit voor het exporteren van gegevenssets die beschikbaar is wanneer u het Real-Time CDP-pakket Premier of Ultimate, Adobe Journey Optimizer of Customer Journey Analytics hebt aangeschaft. Zie [Gegevenssets exporteren naar cloudopslagbestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en) voor meer informatie .
 * Een of meer doelen (bijvoorbeeld: Amazon S3, Google Cloud Storage) geconfigureerd voor het exporteren van de onbewerkte gegevens van uw gegevensfeed.
 
@@ -57,23 +57,23 @@ U kunt alle functionaliteit van standaardANSI SQL voor UITGEZOCHTE verklaringen 
 
 In Experience Platform zijn verschillende identiteiten beschikbaar. Zorg er bij het maken van query&#39;s voor dat u de id&#39;s correct opvraagt.
 
-Vaak vindt u identiteiten in een afzonderlijke veldgroep. In een implementatie ECID (`ecid`) kan worden gedefinieerd als onderdeel van een veldgroep met een `core` object, dat zelf deel uitmaakt van een `identification` object. (bijvoorbeeld: `_sampleorg.identification.core.ecid`). De ECIDs zou verschillend in uw schema&#39;s kunnen worden georganiseerd.
+Vaak vindt u identiteiten in een afzonderlijke veldgroep. In een implementatie ECID (`ecid`) kan worden gedefinieerd als onderdeel van een veldgroep met een `core` object, dat zelf deel uitmaakt van een `identification` object (bijvoorbeeld: `_sampleorg.identification.core.ecid`). De ECIDs zou verschillend in uw schema&#39;s kunnen worden georganiseerd.
 
 U kunt ook `identityMap` om naar identiteiten te zoeken. Dit object is van het type `Map` en gebruikt een [geneste gegevensstructuur](#nested-data-structure).
 
 
 #### Gegevensvoederkolommen
 
-De XDM gebieden u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets gebaseerd zijn. Zorg ervoor u het schema onderaan de dataset begrijpt.
+De XDM gebieden die u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets worden gebaseerd. Zorg ervoor u het schema onderaan de dataset begrijpt.
 
-Om de afbeelding tussen de kolommen van de Invoer van Gegevens en de gebieden te bepalen XDM, zou u moeten overwegen om sommige aspecten van te inspecteren en potentieel (opnieuw) te gebruiken [Adobe Analytics ExperienceEvent-sjabloon](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) veldgroep. Zie [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) en meer specifiek [Toepassingsschema-veldgroepen Adoben](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Om de afbeelding tussen de kolommen van de Invoer van Gegevens en de gebieden te bepalen XDM, zou u moeten overwegen om sommige aspecten van te inspecteren en (re-) potentieel te gebruiken [Adobe Analytics ExperienceEvent-sjabloon](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) veldgroep. Zie [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) en meer specifiek [Toepassingsschema-veldgroepen Adoben](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 Als u bijvoorbeeld *paginanaam* als onderdeel van de gegevensinvoer:
 
 * In de gebruikersinterface van Adobe Analytics Data Feed selecteert u **[!UICONTROL pagename]** als de kolom die moet worden toegevoegd aan de definitie van de gegevensinvoer.
 * In de Dienst van de Vraag, omvat u `web.webPageDetails.name` van de `sample_event_dataset_for_website_global_v1_1` dataset (gebaseerd op de **Voorbeeld van gebeurtenisschema voor website (Global v1.1)** ervaringsgebeurtenisschema) in uw query. Zie de [Web Details schema-veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) voor meer informatie .
 
-Om de afbeelding tussen de vroegere de gegevensvoederkolommen van Adobe Analytics en gebieden XDM in uw dataset van de ervaringsgebeurtenis en het onderliggende schema te begrijpen, zie [Toewijzing van analytische velden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) en de [Adobe Analytics ExperienceEvent Volledige extensieschema, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) voor meer informatie .
+Om de afbeelding tussen de kolommen van de de gegevensvoer van Adobe Analytics en de gebieden XDM in uw dataset van de ervaringsgebeurtenis en het onderliggende schema te begrijpen, zie [Toewijzing van analytische velden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) en [Adobe Analytics ExperienceEvent Volledige extensieschema, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) voor meer informatie .
 
 Bovendien [automatisch verzamelde informatie door het Web SDK van het Experience Platform (uit de doos)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) zou relevant kunnen zijn om kolommen voor uw vraag te identificeren.
 
@@ -84,20 +84,20 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 | Kolom Gegevensfeed | XDM-veld | Type | Beschrijving |
 |---|---|---|---|
 | hitid_high + hitid_low | _id | string | Een unieke id om een treffer te identificeren. |
-| hitid_low | _id | string | Wordt gebruikt in combinatie met hitid_high om een treffer op unieke wijze te identificeren. |
-| hitid_high | _id | string | Wordt gebruikt in combinatie met hitid_high om een treffer op unieke wijze te identificeren. |
-| hit_time_gmt | receiveTimestamp | string | De tijdstempel van de hit, uitgedrukt in Unix-tijd. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | string | Tijdstempel van de allereerste hit van de bezoeker in Unix-tijd. |
-| cust_hit_time_gmt | tijdstempel | string | Dit wordt slechts gebruikt in timestamp-Toegelaten datasets. Dit is de tijdstempel die samen met het bestand wordt verzonden, op basis van Unix-tijd. |
+| hitid_low | _id | string | Wordt gebruikt met hitid_high om een treffer op unieke wijze te identificeren. |
+| hitid_high | _id | string | Wordt gebruikt met hitid_high om een treffer op unieke wijze te identificeren. |
+| hit_time_gmt | receiveTimestamp | string | De tijdstempel van de hit, gebaseerd op UNIX®-tijd. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | string | Tijdstempel van de eerste hit van de bezoeker in UNIX®-tijd. |
+| cust_hit_time_gmt | tijdstempel | string | Dit wordt slechts gebruikt in timestamp-Toegelaten datasets. Dit is de tijdstempel die met de hit wordt verzonden, op basis van UNIX®-tijd. |
 | visid_high + visid_low | identityMap | object | Een unieke id voor een bezoek. |
 | visid_high + visid_low | endUserIDs._experience.id | string | Een unieke id voor een bezoek. |
-| visid_high | endUserIDs._experience.aaid.primary | boolean | Wordt gebruikt in combinatie met visid_low om een bezoek op unieke wijze te identificeren. |
-| visid_high | endUserIDs._experience.id.namespace.code | string | Wordt gebruikt in combinatie met visid_low om een bezoek op unieke wijze te identificeren. |
-| visid_low | identityMap | object | Wordt gebruikt in combinatie met visid_high om een bezoek op unieke wijze te identificeren. |
+| visid_high | endUserIDs._experience.aaid.primary | boolean | Wordt gebruikt met visid_low om een bezoek op unieke wijze te identificeren. |
+| visid_high | endUserIDs._experience.id.namespace.code | string | Wordt gebruikt met visid_low om een bezoek op unieke wijze te identificeren. |
+| visid_low | identityMap | object | Gebruikt met visid_high om een bezoek uniek te identificeren. |
 | cust_visid | identityMap | object | De I.D. van de klantenbezoeker |
 | cust_visid | endUserIDs._experience.aaccustomid.id | object | De bezoeker-id van de klant. |
 | cust_visid | endUserIDs._experience.aaccustomid.primary | boolean | De naamruimtecode van de bezoeker-id van de klant. |
-| cust_visid | endUserIDs._experience.accustomid.namespace.code | string | Wordt gebruikt in combinatie met visid_low om de id van de bezoeker van de klant uniek te identificeren. |
+| cust_visid | endUserIDs._experience.accustomid.namespace.code | string | Wordt gebruikt met visid_low om de id van de bezoeker van de klant uniek te identificeren. |
 | geo\_* | placeContext.geo.* | tekenreeks, getal | Geolocatiegegevens, zoals land, regio, stad en andere |
 | visit_page_num | _experience.analytics.session.depth | getal | Een variabele die wordt gebruikt in de dimensie van de Diepte van het Actief. Deze waarde neemt toe met 1 voor elke hit die de gebruiker genereert en herstelt na elk bezoek. |
 | event_list | commerce.purchase, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | string | Standaard handel en douanegebeurtenissen teweeggebracht op de slag. |
@@ -105,8 +105,8 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 | page_event | web.webInteraction.linkClicks.value | getal | Het type hit dat wordt verzonden in de afbeeldingsaanvraag (klik op Standaard, Koppeling downloaden, Koppeling afsluiten of Aangepaste koppeling). |
 | page_event_var_1 | web.webInteraction.URL | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Deze variabele bevat de URL van de downloadkoppeling, de afsluitkoppeling of de aangepaste koppeling waarop is geklikt. |
 | page_event_var_2 | web.webInteraction.name | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Hier wordt de aangepaste naam van de koppeling weergegeven, als deze is opgegeven. |
-| first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | string | De numerieke id die het referentietype van de allereerste referentie van de bezoeker vertegenwoordigt. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | integer | Tijdstempel van de allereerste hit van de bezoeker in Unix-tijd. |
+| first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | string | De numerieke id die het referentietype van de eerste referentie van de bezoeker vertegenwoordigt. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | integer | Tijdstempel van de eerste hit van de bezoeker in UNIX®-tijd. |
 | pay_search | search.isPaid | boolean | Een vlag die wordt geplaatst als de treffer betaalde onderzoeksopsporing aanpast. |
 | ref_type | web.webReferrertype | string | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt. |
 
@@ -114,7 +114,7 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 
 Adobe Analytics Data Feeds gebruikt het concept kolommen met een `post_` prefix, die kolommen zijn die gegevens bevatten na verwerking. Zie [Veelgestelde vragen over gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post) voor meer informatie .
 
-De gegevens die in datasets door het Netwerk van de Rand van het Experience Platform worden verzameld (Web SDK, Mobiele SDK, Server API) hebben geen concept `post_` velden, die verklaren waarom `post_` vooraf en *non* `post_` vooraf ingestelde kolommen voor gegevensinvoer in het veld Analytics toewijzen aan dezelfde XDM-velden. Bijvoorbeeld beide `page_url` en `post_page_url` gegevensvoederkolommen worden toegewezen aan hetzelfde `web.webPageDetails.URL` XDM-veld.
+De gegevens die in datasets door het Netwerk van de Rand van het Experience Platform worden verzameld (Web SDK, Mobiele SDK, Server API) hebben geen concept `post_` velden. Dientengevolge, `post_` vooraf en *non*-`post_` vooraf ingestelde kolommen voor gegevensinvoer worden toegewezen aan dezelfde XDM-velden. Bijvoorbeeld beide `page_url` en `post_page_url` gegevensvoederkolommen worden toegewezen aan hetzelfde `web.webPageDetails.URL` XDM-veld.
 
 Zie [Gegevensverwerking in Adobe Analytics en Customer Journey Analytics vergelijken](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en) voor een overzicht van het verschil in gegevensverwerking.
 
@@ -126,7 +126,7 @@ Om gegevens van andere datasets op te zoeken, gebruikt u standaard SQL functiona
 
 #### Berekeningen
 
-Gebruik de standaard SQL-functies (bijvoorbeeld `COUNT(*)` of de [wiskunde en statistische diensten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) onderdeel van Spark SQL. Daarnaast [vensterfuncties](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) bieden ondersteuning voor het bijwerken van aggregaties en het retourneren van afzonderlijke items voor elke rij in een geordende subset. Zie [Voorbeelden](#examples) over het gebruik van deze functies.
+Gebruik de standaard SQL-functies (bijvoorbeeld `COUNT(*)` of de [wiskunde en statistische diensten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) onderdeel van Spark SQL. Ook, [vensterfuncties](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) bieden ondersteuning voor het bijwerken van aggregaties en het retourneren van afzonderlijke items voor elke rij in een geordende subset. Zie [Voorbeelden](#examples) over het gebruik van deze functies.
 
 #### Geneste gegevensstructuur
 
@@ -168,11 +168,11 @@ Zie [Werken met geneste gegevensstructuren in Query Service](https://experiencel
 
 #### Voorbeelden
 
-Bijvoorbeeld vragen die gegevens van datasets in het de gegevensmeer van het Experience Platform gebruiken, op de extra mogelijkheden van Adobe bepaalde Functies en/of SQL van de Vonk tikken, en die gelijkaardige resultaten aan een gelijkwaardige gegevensuitvoer van Adobe Analytics zouden leveren, zie
+Voor vragen die gegevens van datasets in het de gegevensmeer van het Experience Platform gebruiken, op de extra mogelijkheden van Adobe bepaalde Functies en/of SQL van de Vonk tikken, en die gelijkaardige resultaten aan een gelijkwaardige gegevenstoevoer van Adobe Analytics zouden leveren, zie
 
-* [verlaten browsers](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en),
-* [toewijzingsanalyse](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en),
-* [bot filteren](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en),
+* [verlaten browsers](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
+* [toewijzingsanalyse](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
+* [bot filteren](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
 * en andere voorbeelden gebruiken gevallen in de gids van de Dienst van de Vraag.
 
 
@@ -238,7 +238,7 @@ Alternatief, kunt u de uitvoer van outputdatasets uitvoeren en plannen gebruiken
 
 #### Aan de slag
 
-Zorg ervoor dat u beschikt over [vereiste machtigingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions) om datasets uit te voeren en dat de bestemming waarnaar u uw outputdataset wilt verzenden het uitvoeren van datasets steunt. U moet [verzamel de waarden voor vereiste en optionele kopteksten](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) u gebruikt in de API-aanroepen, en [identificeer de verbindingsspecificaties en stroom specificeer IDs van de bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) u bent van plan datasets naar uit te voeren.
+Om datasets uit te voeren, zorg ervoor u hebt [vereiste machtigingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions). Verifieer ook dat de bestemming waarnaar u uw outputdataset wilt verzenden het uitvoeren van datasets steunt. U moet [verzamel de waarden voor vereiste en optionele kopteksten](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) die u gebruikt in de API-aanroepen. U moet ook [identificeer de verbindingsspecificaties en stroom specificeer IDs van de bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) u bent van plan datasets naar uit te voeren.
 
 #### In aanmerking komende gegevenssets ophalen
 
