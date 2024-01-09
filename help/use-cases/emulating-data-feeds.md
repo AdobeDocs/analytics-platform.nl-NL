@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: a402c4b03c9d30235f2697e1b6ad5b1b22024c66
+source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
@@ -52,30 +52,36 @@ U kunt alle functionaliteit van standaardANSI SQL voor UITGEZOCHTE verklaringen 
 * [Metagegevens, PostgreSQL-opdrachten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en),
 * [voorbereide instructies](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
 
-
-#### Identiteiten
-
-In Experience Platform zijn verschillende identiteiten beschikbaar. Zorg er bij het maken van query&#39;s voor dat u de id&#39;s correct opvraagt.
-
-Vaak vindt u identiteiten in een afzonderlijke veldgroep. In een implementatie ECID (`ecid`) kan worden gedefinieerd als onderdeel van een veldgroep met een `core` object, dat zelf deel uitmaakt van een `identification` object (bijvoorbeeld: `_sampleorg.identification.core.ecid`). De ECIDs zou verschillend in uw schema&#39;s kunnen worden georganiseerd.
-
-U kunt ook `identityMap` om naar identiteiten te zoeken. Dit object is van het type `Map` en gebruikt een [geneste gegevensstructuur](#nested-data-structure).
-
-
 #### Gegevensvoederkolommen
 
-De XDM gebieden die u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets worden gebaseerd. Zorg ervoor u het schema onderaan de dataset begrijpt.
+De XDM gebieden die u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets worden gebaseerd. Zorg ervoor u het schema onderaan de dataset begrijpt. Zie de [UI-gids voor gegevensbestanden](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) voor meer informatie .
 
-Om de afbeelding tussen de kolommen van de Invoer van Gegevens en de gebieden te bepalen XDM, zou u moeten overwegen om sommige aspecten van te inspecteren en (re-) potentieel te gebruiken [Adobe Analytics ExperienceEvent-sjabloon](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) veldgroep. Zie [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) en meer specifiek [Toepassingsschema-veldgroepen Adoben](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Om u te helpen om de afbeelding tussen de kolommen van de Invoer van Gegevens en de gebieden te bepalen XDM, zie [Toewijzing van het veld Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en). Zie ook de [Overzicht van de interface Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en#defining-xdm-fields) voor meer informatie hoe te om middelen XDM, met inbegrip van schema&#39;s, klassen, gebiedsgroepen, en gegevenstypes te beheren.
 
 Als u bijvoorbeeld *paginanaam* als onderdeel van de gegevensinvoer:
 
 * In de gebruikersinterface van Adobe Analytics Data Feed selecteert u **[!UICONTROL pagename]** als de kolom die moet worden toegevoegd aan de definitie van de gegevensinvoer.
 * In de Dienst van de Vraag, omvat u `web.webPageDetails.name` van de `sample_event_dataset_for_website_global_v1_1` dataset (gebaseerd op de **Voorbeeld van gebeurtenisschema voor website (Global v1.1)** ervaringsgebeurtenisschema) in uw query. Zie de [Web Details schema-veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) voor meer informatie .
 
-Om de afbeelding tussen de kolommen van de de gegevensvoer van Adobe Analytics en de gebieden XDM in uw dataset van de ervaringsgebeurtenis en het onderliggende schema te begrijpen, zie [Toewijzing van analytische velden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) en [Adobe Analytics ExperienceEvent Volledige extensieschema, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) voor meer informatie .
+<!--
+To understand the mapping between Adobe Analytics data feed columns and XDM fields in your experience event dataset and underlying schema, see [Analytics fields mapping](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) and [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) for more information.
 
-Bovendien [automatisch verzamelde informatie door het Web SDK van het Experience Platform (uit de doos)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) zou relevant kunnen zijn om kolommen voor uw vraag te identificeren.
+Furthermore, the [automatically collected information by the Experience Platform Web SDK (out of the box)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) might be relevant to identify columns for your query.
+-->
+
+#### Identiteiten
+
+In Experience Platform zijn verschillende identiteiten beschikbaar. Zorg er bij het maken van query&#39;s voor dat u de id&#39;s correct opvraagt.
+
+
+Vaak vindt u identiteiten in een afzonderlijke veldgroep. In een implementatie ECID (`ecid`) kan worden gedefinieerd als onderdeel van een veldgroep met een `core` object, dat zelf deel uitmaakt van een `identification` object (bijvoorbeeld: `_sampleorg.identification.core.ecid`). De ECIDs zou verschillend in uw schema&#39;s kunnen worden georganiseerd.
+
+U kunt ook `identityMap` om naar identiteiten te zoeken. Dit object is van het type `Map` en gebruikt een [geneste gegevensstructuur](#nested-data-structure).
+
+Zie [Identiteitsvelden definiëren in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en) voor meer informatie over het definiëren van identiteitsvelden in Experience Platform.
+
+Zie [Primaire id-id&#39;s in analysegegevens](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#primary-identifiers-in-analytics-data) voor meer informatie over de manier waarop Adobe Analytics-identiteiten worden toegewezen aan Experience Platform-id&#39;s wanneer de bronconnector Analytics wordt gebruikt. Dit kan als richtlijn dienen die uw identiteiten plaatst, zelfs wanneer het gebruiken van niet de analytische bronschakelaar.
+
 
 #### Gegevens en identificatie op bedrijfsniveau
 
@@ -83,32 +89,28 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 
 | Kolom Gegevensfeed | XDM-veld | Type | Beschrijving |
 |---|---|---|---|
-| hitid_high + hitid_low | _id | string | Een unieke id om een treffer te identificeren. |
-| hitid_low | _id | string | Wordt gebruikt met hitid_high om een treffer op unieke wijze te identificeren. |
-| hitid_high | _id | string | Wordt gebruikt met hitid_high om een treffer op unieke wijze te identificeren. |
-| hit_time_gmt | receiveTimestamp | string | De tijdstempel van de hit, gebaseerd op UNIX®-tijd. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | string | Tijdstempel van de eerste hit van de bezoeker in UNIX®-tijd. |
-| cust_hit_time_gmt | tijdstempel | string | Dit wordt slechts gebruikt in timestamp-Toegelaten datasets. Dit is de tijdstempel die met de hit wordt verzonden, op basis van UNIX®-tijd. |
-| visid_high + visid_low | identityMap | object | Een unieke id voor een bezoek. |
-| visid_high + visid_low | endUserIDs._experience.id | string | Een unieke id voor een bezoek. |
-| visid_high | endUserIDs._experience.aaid.primary | boolean | Wordt gebruikt met visid_low om een bezoek op unieke wijze te identificeren. |
-| visid_high | endUserIDs._experience.id.namespace.code | string | Wordt gebruikt met visid_low om een bezoek op unieke wijze te identificeren. |
-| visid_low | identityMap | object | Gebruikt met visid_high om een bezoek uniek te identificeren. |
-| cust_visid | identityMap | object | De I.D. van de klantenbezoeker |
-| cust_visid | endUserIDs._experience.aaccustomid.id | object | De bezoeker-id van de klant. |
-| cust_visid | endUserIDs._experience.aaccustomid.primary | boolean | De naamruimtecode van de bezoeker-id van de klant. |
-| cust_visid | endUserIDs._experience.accustomid.namespace.code | string | Wordt gebruikt met visid_low om de id van de bezoeker van de klant uniek te identificeren. |
-| geo\_* | placeContext.geo.* | tekenreeks, getal | Geolocatiegegevens, zoals land, regio, stad en andere |
-| visit_page_num | _experience.analytics.session.depth | getal | Een variabele die wordt gebruikt in de dimensie van de Diepte van het Actief. Deze waarde neemt toe met 1 voor elke hit die de gebruiker genereert en herstelt na elk bezoek. |
-| event_list | commerce.purchase, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | string | Standaard handel en douanegebeurtenissen teweeggebracht op de slag. |
-| page_event | web.webInteraction.type | string | Het type hit dat wordt verzonden in de afbeeldingsaanvraag (klik op Standaard, Koppeling downloaden, Koppeling afsluiten of Aangepaste koppeling). |
-| page_event | web.webInteraction.linkClicks.value | getal | Het type hit dat wordt verzonden in de afbeeldingsaanvraag (klik op Standaard, Koppeling downloaden, Koppeling afsluiten of Aangepaste koppeling). |
-| page_event_var_1 | web.webInteraction.URL | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Deze variabele bevat de URL van de downloadkoppeling, de afsluitkoppeling of de aangepaste koppeling waarop is geklikt. |
-| page_event_var_2 | web.webInteraction.name | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Hier wordt de aangepaste naam van de koppeling weergegeven, als deze is opgegeven. |
-| first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | string | De numerieke id die het referentietype van de eerste referentie van de bezoeker vertegenwoordigt. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | integer | Tijdstempel van de eerste hit van de bezoeker in UNIX®-tijd. |
-| pay_search | search.isPaid | boolean | Een vlag die wordt geplaatst als de treffer betaalde onderzoeksopsporing aanpast. |
-| ref_type | web.webReferrertype | string | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt. |
+| `hitid_high` + `hitid_low` | `_id` | string | Een unieke id om een treffer te identificeren. |
+| `hitid_low` | `_id` | string | Gebruikt met `hitid_high` om een treffer op unieke wijze te identificeren. |
+| `hitid_high` | `_id` | string | Gebruikt met `hitid_high` om een treffer op unieke wijze te identificeren. |
+| `hit_time_gmt` | `receivedTimestamp` | string | De tijdstempel van de hit, gebaseerd op UNIX®-tijd. |
+| `cust_hit_time_gmt` | `timestamp` | string | Dit wordt slechts gebruikt in timestamp-Toegelaten datasets. Dit is de tijdstempel die met de hit wordt verzonden, op basis van UNIX®-tijd. |
+| `visid_high` + `visid_low` | `identityMap` | object | Een unieke id voor een bezoek. |
+| `visid_high` + `visid_low` | `endUserIDs._experience.aaid.id` | string | Een unieke id voor een bezoek. |
+| `visid_high` | `endUserIDs._experience.aaid.primary` | boolean | Gebruikt met `visid_low` om een bezoek op unieke wijze te identificeren. |
+| `visid_high` | `endUserIDs._experience.aaid.namespace.code` | string | Gebruikt met `visid_low` om een bezoek op unieke wijze te identificeren. |
+| `visid_low` | `identityMap` | object | Gebruikt met `visid_high` om een bezoek op unieke wijze te identificeren. |
+| `cust_visid` | `identityMap` | object | De bezoeker-id van de klant. |
+| `cust_visid` | `endUserIDs._experience.aacustomid.id` | object | De bezoeker-id van de klant. |
+| `cust_visid` | `endUserIDs._experience.aacustomid.primary` | boolean | De naamruimtecode van de bezoeker-id van de klant. |
+| `cust_visid` | `endUserIDs._experience.aacustomid.namespace.code` | string | Gebruikt met `visid_low` om de id van de bezoeker van de klant op unieke wijze te identificeren. |
+| `geo\_*` | `placeContext.geo.* ` | tekenreeks, getal | Geolocatiegegevens, zoals land, regio, stad en andere |
+| `event_list` | `commerce.purchases`, `commerce.productViews`, `commerce.productListOpens`, `commerce.checkouts`, `commerce.productListAdds`, `commerce.productListRemovals`, `commerce.productListViews`, `_experience.analytics.event101to200.*`, ... `_experience.analytics.event901_1000.*` | string | Standaard handel en douanegebeurtenissen teweeggebracht op de slag. |
+| `page_event` | `web.webInteraction.type` | string | Het type hit dat wordt verzonden in de afbeeldingsaanvraag (klik op Standaard, Koppeling downloaden, Koppeling afsluiten of Aangepaste koppeling). |
+| `page_event` | `web.webInteraction.linkClicks.value` | getal | Het type hit dat wordt verzonden in de afbeeldingsaanvraag (klik op Standaard, Koppeling downloaden, Koppeling afsluiten of Aangepaste koppeling). |
+| `page_event_var_1` | `web.webInteraction.URL` | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Deze variabele bevat de URL van de downloadkoppeling, de afsluitkoppeling of de aangepaste koppeling waarop is geklikt. |
+| `page_event_var_2` | `web.webInteraction.name` | string | Een variabele die alleen wordt gebruikt in aanvragen voor het bijhouden van koppelingen. Hier wordt de aangepaste naam van de koppeling weergegeven, als deze is opgegeven. |
+| `paid_search` | `search.isPaid` | boolean | Een vlag die wordt geplaatst als de treffer betaalde onderzoeksopsporing aanpast. |
+| `ref_type` | `web.webReferrertype` | string | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt. |
 
 #### Kolommen na
 
