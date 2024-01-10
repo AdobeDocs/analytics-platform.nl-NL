@@ -4,9 +4,9 @@ description: Meer informatie over de hulplijnen voor Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
+source-git-commit: 85aea47146d4079606ccdeb1bcc29d41bbf49837
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1480'
 ht-degree: 5%
 
 ---
@@ -76,7 +76,7 @@ Sommige functies en de bijbehorende waarde voor de limiet zijn afhankelijk van h
 | Vernieuwingsfrequentie publiek | 4 | Door het systeem afgedwongen geleiding | Maximale frequentie in uren en [publiek](../components/audiences/audiences-overview.md) kan worden vernieuwd. | |
 | Het publiek vernieuwt het terugkijkvenster | 90 | Door het systeem afgedwongen geleiding | Maximumaantal dagen voor vernieuwen terugzoekvenster. |
 | Vernieuwende vervaldatum van publiek | 13 | Door het systeem afgedwongen geleiding | Het maximumaantal maanden dat het publiek vanaf de aanmaakdatum mag vernieuwen. Klanten kunnen dit met nog eens 13 maanden verlengen. |
-| Aantal verfrissende soorten publiek | 75 100 150 | Door het systeem afgedwongen geleiding | Het maximale aantal publiek dat wordt vernieuwd, de waarde is afhankelijk van het pakket. |
+| Aantal verfrissende soorten publiek | 75 100 | Door het systeem afgedwongen geleiding | Het maximale aantal verfrissende soorten publiek. De waarde hangt af van het pakket (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
