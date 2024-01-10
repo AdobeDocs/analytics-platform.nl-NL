@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
 workflow-type: tm+mt
-source-wordcount: '5524'
+source-wordcount: '5674'
 ht-degree: 3%
 
 ---
@@ -1280,6 +1280,34 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 - U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
    - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
 - U kunt maximaal 100 afgeleide velden per verbinding van de Customer Journey Analytics hebben.
+
+
+### Overzicht van functiegrenzen
+
+| Functie | Limieten |
+|---|---|
+| <p>Hoofdletter als</p> | <ul><li>5 Geval wanneer functies per afgeleid gebied</li><li>200 operatoren per afgeleid veld</li></ul> |
+| <p>Classificeren</p> | <ul><li>5 Classificeer functies per afgeleid gebied</li><li>100 rijen per functie</li></ul> |
+| <p>Samenvoegen</p> | <ul><li>2 Samengevoegde functies per afgeleid veld</li></ul> |
+| <p>Zoeken en vervangen</p> | <ul><li>2 Functies zoeken en vervangen per afgeleid veld</li></ul> |
+| <p>Opzoeken</p> | <ul><li>5 Opzoekfuncties per afgeleid veld</li></ul> |
+| <p>Kleine letters</p> | <ul><li>2 Kleine letters voor functies per afgeleid veld</li></ul> |
+| <p>Velden samenvoegen</p> | <ul><li>2 Veldfuncties samenvoegen per afgeleid veld</li></ul> |
+| <p>Regex Replace</p> | <ul><li>1 Regex-functie vervangen per afgeleid veld</li></ul> |
+| <p>Splitsen</p> | <ul><li>5 Gesplitste functies per afgeleid veld</li></ul> |
+| <p>Verkleinen</p> | <ul><li>1 Bijsnijdfunctie per afgeleid veld</li></ul> |
+| <p>URL-parsering</p> | <ul><li>5 URL-parseerfuncties per afgeleid veld</li></ul> |
+
+{style="table-layout:auto"}
+
+### Operatoren
+
+Een operator in een If of else If construct binnen een Case When functie is de te combineren functie van een criterium met **één** waarde. Elke extra waarde voor het criterium verhoogt het aantal operatoren.
+
+De onderstaande voorwaarde gebruikt bijvoorbeeld 13 operatoren.
+
+![Voorbeeldoperatoren](assets/operators-sample.png)
+
 
 ## Meer informatie
 
