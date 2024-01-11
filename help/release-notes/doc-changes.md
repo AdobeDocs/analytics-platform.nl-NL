@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2761'
 ht-degree: 8%
 
 ---
@@ -14,6 +14,16 @@ ht-degree: 8%
 # Customer Journey Analytics - documentatie-updates
 
 De volgende updates zijn aangebracht aan de documentatie van de Customer Journey Analytics sinds zijn aanvang.
+
+## 2024
+
+| Functie | Beschrijving |
+| --- | --- |
+| **Januari 2024** | |
+| Afgeleide velden | Overzicht van functie toegevoegd [beperkingen](/help/data-views/derived-fields/derived-fields.md#limitations) en uitleg over de manier waarop het aantal [operatoren](/help/data-views/derived-fields/derived-fields.md#operators) gebruikt in een functie. |
+
+{style="table-layout:auto"}
+
 
 ## 2023
 
@@ -94,6 +104,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Openingspagina | Nieuwe updates van bestemmingspagina [landingspagina](/help/getting-started/landing.md). |
 | Workbooks plannen | Speciale pagina om te beschrijven hoe [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 | Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets | Bijgewerkt [Arrays van objecten gebruiken](/help/use-cases/object-arrays.md) en [Ingest Adobe Experience Platform-publiek](/help/use-cases/data-ingestion/ingest-aep-segments.md) om de steun van de objecten serie voor profiel en raadplegingsdatasets te weerspiegelen. |
+
+{style="table-layout:auto"}
 
 ## 2022
 

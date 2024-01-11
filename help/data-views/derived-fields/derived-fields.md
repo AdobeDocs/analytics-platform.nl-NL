@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
+source-git-commit: cdc82ee0b6562879afa2b955aa05f330e5cd225c
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 3%
 
 ---
@@ -217,7 +217,7 @@ Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of mee
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] container:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Criterion] (zie opgenomen operatoren, gebaseerd op geselecteerde waardetype)</li></ul></li><li>[!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul></li></ul> | <p>Tekenreeksen</p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan elke term</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Numeriek</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Datums</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <ul><li>5 functies per afgeleid veld</li><li>200 operatoren per afgeleid veld. Een voorbeeld van één enkele operator is &#39;Refering Domain contains google&#39;. </li></ul> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] container:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Criterion] (zie opgenomen operatoren, gebaseerd op geselecteerde waardetype)</li></ul></li><li>[!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></ul></li></ul> | <p>Tekenreeksen</p><ul><li>Equals (Is gelijk aan)</li><li>Gelijk aan elke term</li><li>Contains the phrase (Bevat de woordgroep)</li><li>Contains any term (Bevat een term)</li><li>Contains all terms (Bevat alle termen)</li><li>Starts with (Begint met)</li><li>Begint met elke term</li><li>Ends with (Eindigt met)</li><li>Eindigt met om het even welke termijn</li><li>Does not equal (Is niet gelijk aan)</li><li>Is niet gelijk aan een term</li><li>Does not contain the phrase (Bevat niet de woordgroep)</li><li>Does not contain any term (Bevat geen enkele term)</li><li>Bevat niet alle termen</li><li>Begint niet met</li><li>Begint niet met enige termijn</li><li>Eindigt niet met</li><li>Beëindigt geen term</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Numeriek</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is groter dan</li><li>Is groter dan of gelijk aan</li><li>Is kleiner dan</li><li>Is kleiner dan of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul><p>Datums</p><ul><li>Equals (Is gelijk aan)</li><li>Does not equal (Is niet gelijk aan)</li><li>Is later dan</li><li>Is hoger dan of gelijk aan</li><li>Is voor</li><li>Is voor of gelijk aan</li><li>Is ingesteld</li><li>Is niet ingesteld</li></ul> | <ul><li>5 functies per afgeleid veld</li><li>200 [operatoren](#operators) per afgeleid veld. Een voorbeeld van één enkele operator is &#39;Refering Domain contains google&#39;. </li></ul> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -1282,11 +1282,11 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 - U kunt maximaal 100 afgeleide velden per verbinding van de Customer Journey Analytics hebben.
 
 
-### Overzicht van functiegrenzen
+### Overzicht van functiebeperkingen
 
-| Functie | Limieten |
+| Functie | Beperkingen |
 |---|---|
-| <p>Hoofdletter als</p> | <ul><li>5 Geval wanneer functies per afgeleid gebied</li><li>200 operatoren per afgeleid veld</li></ul> |
+| <p>Hoofdletter als</p> | <ul><li>5 Geval wanneer functies per afgeleid gebied</li><li>200 [operatoren](#operators) per afgeleid veld</li></ul> |
 | <p>Classificeren</p> | <ul><li>5 Classificeer functies per afgeleid gebied</li><li>100 rijen per functie</li></ul> |
 | <p>Samenvoegen</p> | <ul><li>2 Samengevoegde functies per afgeleid veld</li></ul> |
 | <p>Zoeken en vervangen</p> | <ul><li>2 Functies zoeken en vervangen per afgeleid veld</li></ul> |
@@ -1302,7 +1302,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 
 ### Operatoren
 
-Een operator in een If of else If construct binnen een Case When functie is de te combineren functie van een criterium met **één** waarde. Elke extra waarde voor het criterium verhoogt het aantal operatoren.
+Een operator in een If of else If construct binnen een Case When functie is de combinatie van een criterium met **één** waarde. Elke extra waarde voor het criterium verhoogt het aantal operatoren.
 
 De onderstaande voorwaarde gebruikt bijvoorbeeld 13 operatoren.
 
