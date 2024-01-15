@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
+source-git-commit: 9beeb2013eb3b94dc55fb721233096f1813e2bf3
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2772'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2024** | |
+| Verbindingen beheren | De [Verbindingen beheren](../connections/manage-connections.md) artikel, op basis van feedback van klanten. |
 | Afgeleide velden | Overzicht van functie toegevoegd [beperkingen](/help/data-views/derived-fields/derived-fields.md#limitations) en uitleg over de manier waarop het aantal [operatoren](/help/data-views/derived-fields/derived-fields.md#operators) gebruikt in een functie. |
 
 {style="table-layout:auto"}
