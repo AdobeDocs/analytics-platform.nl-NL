@@ -1,18 +1,18 @@
 ---
-title: Verbinding maken
-description: Beschrijft hoe te om een verbinding aan een dataset van het Platform in Customer Journey Analytics tot stand te brengen.
+title: Verbinding maken of bewerken
+description: Beschrijft om een verbinding aan een dataset van de Experience Platform in Customer Journey Analytics tot stand te brengen of uit te geven.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2617'
 ht-degree: 1%
 
 ---
 
-# Verbinding maken
+# Verbinding maken of bewerken
 
 De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met hulpwerkschema uit. Het verstrekt gedetailleerde datasetselectie, configuratie, en overzichtservaring met kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Persoon IDs, en veel meer om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de mogelijkheden:
 

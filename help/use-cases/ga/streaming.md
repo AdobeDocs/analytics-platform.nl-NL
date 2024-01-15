@@ -4,7 +4,7 @@ description: Leer hoe u uw implementatie instelt voor het verzenden van een Goog
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -21,4 +21,4 @@ Het vormen van gegevensinzameling impliceert de volgende stappen:
 1. Installeer de [Google Data Layer-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html). Deze extensie fungeert als alternatief voor het installeren van de Web SDK-extensie, die specifiek is gericht op een Google-gegevenslaag.
 1. [Een DataStream maken](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) in Adobe Experience Platform Data Collection. Configureer de DataStream om gegevens naar Adobe Experience Platform te verzenden. U moet momenteel elk Google-gegevenslaagobject hier toewijzen aan een toepasselijk XDM-veld. De Adobe is van plan deze toewijzingsworkflow in de toekomst te vereenvoudigen.
 
-Nadat u de gewenste tags op uw site hebt geïmplementeerd en gepubliceerd, kunt u doorgaan naar [Verbinding maken](/help/connections/create-connection.md)vervolgens [Een gegevensweergave maken](/help/data-views/create-dataview.md).
+Nadat u de gewenste tags op uw site hebt geïmplementeerd en gepubliceerd, kunt u doorgaan naar [een verbinding maken](/help/connections/create-connection.md)vervolgens [een gegevensweergave maken](/help/data-views/create-dataview.md).

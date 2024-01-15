@@ -5,9 +5,9 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Zodra uw organisatie aan alle voorwaarden voldoet en zijn beperkingen begrijpt, 
    * Naam van sandbox.
 1. De Klantenondersteuning van de Adobe werkt samen met Adobe-engineering om Kanaalanalyse mogelijk te maken wanneer u uw verzoek ontvangt. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een nieuwe gegevensset met een nieuwe kolom met personen-id weergegeven. De Steun van de Klant van de Adobe kan nieuwe dataset identiteitskaart en de kolomnaam van identiteitskaart van de persoon verstrekken.
 1. Als de Adobe voor het eerst wordt ingeschakeld, wordt een back-up van de gegevens gemaakt die teruggaan tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id zo lang in de niet-opgeslagen gegevens aanwezig zijn.
-1. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en om het even welke andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
+1. [Verbinding maken of bewerken](/help/connections/create-connection.md) in Customer Journey Analytics die de onlangs geproduceerde dataset en om het even welke andere datasets gebruiken die u wilt omvatten. Kies correcte persoon identiteitskaart voor elke dataset.
 1. [Een gegevensweergave maken](/help/data-views/create-dataview.md) op basis van de verbinding.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
