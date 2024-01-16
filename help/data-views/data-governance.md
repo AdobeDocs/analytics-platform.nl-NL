@@ -4,9 +4,9 @@ description: Leer hoe de gegevensetiketten en het beleid in Adobe Experience Pla
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Klikken **[!UICONTROL Apply]** om te zien welk beleid wordt toegelaten.
 
 ## Hoe ingeschakeld beleid invloed heeft op gegevensweergaven
 
-Als de **[!UICONTROL Enforce Analytics]** of **[!UICONTROL Enforce Download]** het beleid wordt aangezet, die schemacomponenten die bepaalde gegevensetiketten (zoals C8 of C12) verbonden aan hen hebben kunnen niet aan gegevensmeningen worden toegevoegd.
+Als de **[!UICONTROL Enforce Analytics]** Het beleid wordt aangezet, die schemacomponenten die bepaalde gegevensetiketten (zoals C8) verbonden aan hen hebben kunnen niet aan gegevensmeningen worden toegevoegd.
 
 Deze onderdelen worden grijs weergegeven in de linkerrails [!UICONTROL Schema fields] lijst:
 
