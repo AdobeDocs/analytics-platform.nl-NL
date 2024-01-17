@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 214616922aa157c390265f76138f8836c80b72d5
+source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -23,13 +23,13 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 
 >[!TAB Werkruimte: prognose tijdreeks]
 
-Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar).
+Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
 
 [![image](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
 
 >[!TAB verbindingen: overgeslagen records]
 
-U kunt nu controleren waarom records worden overgeslagen als onderdeel van het definiëren van een verbinding. Zie Verbindingen beheren voor meer informatie.
+U kunt nu controleren waarom de verslagen van gebeurtenisdatasets wanneer het bepalen van een verbinding worden overgeslagen. U kunt meer informatie krijgen over de redenen waarom records worden overgeslagen, zoals lege bezoeker-id&#39;s, gegevensretenties en andere.
 
 [![image](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
 
