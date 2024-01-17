@@ -5,7 +5,7 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 20f48259881bade1978909610055d6b20b894092
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -36,6 +36,9 @@ Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevens
 | [!UICONTROL Month] | Dimension | De maand waarin een bepaalde gebeurtenis heeft plaatsgevonden. Het eerste afmetingspunt is de eerste maand in de datumwaaier, en het laatste afmetingspunt is de laatste maand in de datumwaaier. |
 | [!UICONTROL Quarter] | Dimension | Het kwart dat een bepaalde gebeurtenis heeft plaatsgevonden. De post van de eerste dimensie is het eerste kwartaal in het datumbereik, en de laatste dimensie is het laatste kwartaal in het datumbereik. |
 | [!UICONTROL Year] | Dimension | Het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-post is het eerste jaar in het datumbereik, en de laatste dimensie-post is het meest recente jaar in het datumbereik. |
+| [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Wanneer gebruikt in een filterdefinitie (bijvoorbeeld &#39;[!UICONTROL Session Starts] bestaat&#39;), filtert het tot enkel de eerste gebeurtenis van elke zitting.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekend metrisch](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Beginsnelheid van sessie</li></p> |
+| [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Vergelijkbaar met [!UICONTROL Session Starts], kan het ook in een filterdefinitie worden gebruikt om dingen tot de laatste gebeurtenis van elke zitting te filtreren.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekend metrisch](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Eindfrequentie sessie</li></p> |
+| [!UICONTROL Time Spent (seconds)] | Metrisch | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekende meetwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Tijd besteed per persoon</li><li>Tijd besteed per sessie</li></p> |
 
 {style="table-layout:auto"}
 
@@ -59,10 +62,7 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Person ID namespace] | Dimension | Welk type van identiteitskaart [!UICONTROL Person ID] bestaat uit: Voorbeelden zijn: `email address`, `cookie ID`, `Analytics ID` |
 | [!UICONTROL Quarter of Year] | Afmeting van tijd-paring | Q1, Q2, Q3, Q4 |
 | [!UICONTROL Repeat session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
-| [!UICONTROL Session Starts] | Metrisch | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Wanneer gebruikt in een filterdefinitie (bijvoorbeeld &#39;[!UICONTROL Session Starts] bestaat&#39;), filtert het tot enkel de eerste gebeurtenis van elke zitting.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekend metrisch](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Beginsnelheid van sessie</li></p> |
-| [!UICONTROL Session Ends] | Metrisch | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Vergelijkbaar met [!UICONTROL Session Starts], kan het ook in een filterdefinitie worden gebruikt om dingen tot de laatste gebeurtenis van elke zitting te filtreren.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekend metrisch](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Eindfrequentie sessie</li></p> |
 | [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijnpunt omvat al gedrag (metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
-| [!UICONTROL Time Spent (seconds)] | Metrisch | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat.<p>Deze component moet in de gegevensweergave worden opgenomen voor het volgende: [berekende meetwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Workspace: <ul><li>Tijd besteed per persoon</li><li>Tijd besteed per sessie</li></p> |
 | [!UICONTROL Time Spent per Event] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
 | [!UICONTROL Time Spent per Session] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |
 | [!UICONTROL Time Spent per Person] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Person] emmers. |
