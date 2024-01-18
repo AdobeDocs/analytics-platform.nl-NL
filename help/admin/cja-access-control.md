@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
+source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,17 @@ Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey
 
      Zie voor meer informatie over machtigingen voor Experience Platforms [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
 
-* Gegevenssets exporteren van AEP-doelen
+* Gegevenssets exporteren naar cloud [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en)
+
+  >[!AVAILABILITY]
+  >
+  >De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).
 
   Om deze taak uit te voeren, hebben de gebruikers ook de volgende toestemmingen van het Experience Platform nodig:
    * Doelen beheren
    * Doelen activeren
 
-     Voor meer informatie over de toestemmingen van de Doelen van het Experience Platform, zie [Overzicht van doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
+     Voor meer informatie over de toestemmingen van de Doelen van het Experience Platform, zie [Overzicht van doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
 
 ## Beheerdersrol productprofiel
 
