@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ## Beginnen met het maken van een cloud-exportaccount
 
+1. Zorg ervoor dat u voldoet aan de [minimumvereisten](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) voor het exporteren van rapporten naar de cloud.
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 1. Op de [!UICONTROL Exports] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
 1. Selecteren [!UICONTROL **Account toevoegen**].
