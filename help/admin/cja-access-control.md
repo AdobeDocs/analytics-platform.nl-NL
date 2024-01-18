@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
+source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,9 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | **[!UICONTROL Data Views]** | Als u schakelt **[!UICONTROL Auto-Include]** tot **[!UICONTROL On]** Gebruikers die deel uitmaken van dit productprofiel, kunnen alle bestaande en nieuwe gegevensweergaven bekijken. Als deze instelling is ingesteld op **[!UICONTROL Off]**, kunt u specifieke gegevensweergaven selecteren waartoe gebruikers toegang hebben. |
 | **[!UICONTROL Reporting Tools]**: |   |
 | **[!UICONTROL Audit Logs Access]** | Deze toestemming dwingt de toestemmingscontrole op [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) en de gebruikersinterface voor auditlogbestanden. |
+| **[!UICONTROL Analysis Workspace Access]** | Gebruikers krijgen toegang tot Analysis Workspace in Customer Journey Analytics. |
+| [!UICONTROL **Toegang tot geleide analyse**] | Gebruikers kunnen [Projecten met geleide analyse](/help/guided-analysis/overview.md). |
+| [!UICONTROL **Voorspelling**] | Hiermee hebben gebruikers toegang tot de functie voor prognoses in Analysis Workspace |
 | **[!UICONTROL Reporting Usage Admin]** | Laat gebruikers om het even welk rapport bekijken en schrappen dat in hun bedrijf loopt. |
 | **[!UICONTROL Reporting Usage View]** | Hiermee kunnen gebruikers alle gelijktijdige rapportageaanvragen bekijken. |
 | [!UICONTROL **Volledige tabelexport**] | Gebruikers toestaan [volledige tabellen exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
@@ -131,5 +134,9 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | **[!UICONTROL Annotation Creation]** | Gebruikers kunnen [annotaties](/help/components/annotations/overview.md). |
 | **[!UICONTROL Audience Creation]** | Gebruikers kunnen [publiek](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Hiermee kunnen gebruikers de weergave [publiek](/help/components/audiences/audiences-overview.md). |
+| [!UICONTROL **Projectkoppelingen delen met iedereen**] | Gebruikers toestaan [delen projecten met iedereen.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=en#share-public-link) |
+| **[!UICONTROL Data View Tools]**: |   |
+| [!UICONTROL **Volledige tabelexport**] | Gebruikers toestaan [volledige tabellen exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **Toegang tot SQL Query Service**] | Gebruikers kunnen toegang krijgen [Query-service in AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl). |
 
 {style="table-layout:auto"}
