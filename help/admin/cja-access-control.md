@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
+source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey
 
   >[!AVAILABILITY]
   >
-  >De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).
+  >De mogelijkheid om gegevenssets naar de cloud te exporteren bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).
 
   Om deze taak uit te voeren, hebben de gebruikers ook de volgende toestemmingen van het Experience Platform nodig:
    * Doelen beheren
