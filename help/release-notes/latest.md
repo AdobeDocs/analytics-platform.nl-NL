@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: efae6138159820414004a21de7c05b4373257876
+source-git-commit: 767170d382931423ff0ee60c037021bc87000150
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van eind oktober 
 | **Analyse met instructies - Bewaarpercentages** | Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren. [Meer informatie](../guided-analysis/types/retention-rates.md) | N.v.t. | dinsdag 8 januari 2024 |
 | **Prognoses tijdreeksen** | Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). | N.v.t. | donderdag 31 januari 2024 |
 | **Analyse met instructies - Trendlines** | Trendline-overlays zijn nu beschikbaar in het dialoogvenster [Gebruik](/help/guided-analysis/types/usage.md) weergegeven, zodat u een duidelijker patroon in de gegevens kunt zien. | N.v.t. | donderdag 17 januari 2024 |
-| **Detailpagina voor verbindingen - Overgeslagen records** | U kunt nu controleren waarom records worden overgeslagen als onderdeel van het definiëren van een verbinding. [Meer informatie](../connections/manage-connections.md) | N.v.t. | donderdag 31 januari 2024 |
+| **Detailpagina voor verbindingen - Overgeslagen records** | U kunt nu controleren waarom records worden overgeslagen als onderdeel van het definiëren van een verbinding. | N.v.t. | donderdag 31 januari 2024 |
 | **Updates voor de visualisatie van het overzicht van belangrijke gegevens** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
 | **Analyse met instructies - Streams** | Een nieuw weergavetype waarmee u afzonderlijke gebruikersgebeurtenisstromen kunt verkennen. Met deze analyse kunt u ervaringspatronen vinden en betere gebruikersverhalen vertellen. | N.v.t. | donderdag 31 januari 2024 |
 | **Analyse met instructies - de spoorverbeteringen van de Vraag** | Sommige componentenmontages zijn nu inbegrepen in vraagspoor, die verbeteringen aan bruikbaarheid verstrekken. | N.v.t. | donderdag 31 januari 2024 |
