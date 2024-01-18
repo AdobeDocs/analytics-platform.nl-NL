@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b41cc80310c49bd1b0c73f1323f86c8b280e15f
+source-git-commit: 852dbce716e151d5feee52e813c9db9d76d9ccea
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2322'
 ht-degree: 0%
 
 ---
@@ -118,17 +118,11 @@ Als u naar de gegevens voor een verbinding wilt gaan, selecteert u een verbindin
 
 ![Alle datasetvenster die widgets en montages tonen](assets/conn-details.png)
 
-Het scherm Verbindingen geeft een gedetailleerde weergave van de status van een verbinding. U kunt:
+De interface van de Details van Verbindingen verstrekt een gedetailleerde mening van de status van een verbinding. U kunt:
 
 * Controleer de status van de datasets van uw verbinding en van het innameproces.
 * Identificeer configuratieproblemen die overgeslagen of geschrapte verslagen kunnen veroorzaken.
 * Zie wanneer de gegevens beschikbaar zijn voor rapportage.
-
->[!IMPORTANT]
->
->Gegevens die vóór 13 augustus 2021 zijn ingevoerd, worden niet in dit [!UICONTROL Connections] in.
-
-### Verbindingsgegevens
 
 | Gebruikersinterface | Beschrijving |
 | --- | --- |
@@ -154,6 +148,10 @@ Het scherm Verbindingen geeft een gedetailleerde weergave van de status van een 
 | Schema | Het schema van het Experience Platform waarop de dataset is gebaseerd. |
 | [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor de dataset: <p><span style="color:green">●</span>   **[!UICONTROL _x _Aan]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p><span style="color:gray">●</span>   **[!UICONTROL _x uit_]** als de dataset wordt gevormd om nieuwe gegevensimport niet in te voeren. |
 | [!UICONTROL Backfill data] | Toont het statuut van backfill gegevens voor de dataset.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills,<p><span style="color:orange">●</span>   **[!UICONTROL _x _backfills-verwerking]**voor het aantal backfills-verwerkingen,<p><span style="color:green">●</span>   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide backfills, en<p><span style="color:grey">●</span>   **[!UICONTROL _Uit_]** als er geen backfills zijn geconfigureerd. |
+
+>[!IMPORTANT]
+>
+>Gegevens die vóór 13 augustus 2021 zijn ingevoerd, worden niet weergegeven in de [!UICONTROL Connections] interface.
 
 ### Deelvenster Verbinding
 
