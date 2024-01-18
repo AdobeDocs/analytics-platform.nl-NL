@@ -5,15 +5,18 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
+source-git-commit: ef46598db68372b8b3b58dc06aa7d5faacca6cc2
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
 
 # Handleiding voor Customer Journey Analytics
 
+Deze handleiding voor technische documentatie biedt zelfhulp voor Customer Journey Analytics. Met Customer Journey Analytics kunt u uw klantgegevens vanuit elk kanaal dat u kiest (zowel online als offline) naar Adobe Experience Platform overbrengen. Vervolgens kunt u deze gegevens analyseren op dezelfde manier als uw bestaande digitale gegevens vandaag nog met Analysis Workspace.
+
+Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace aansluit op een gemeenschappelijke klant-id. U kunt dan eindelijk toewijzingen, filters, stroom, fallout enzovoort uitvoeren. van uw klantgegevens.
 
 ## Wat is nieuw?
 
@@ -21,23 +24,23 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 
 >[!BEGINTABS]
 
->[!TAB Werkruimte: prognose tijdreeks]
+>[!TAB Analyse met instructies - Bewaarpercentages]
 
-Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
+Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren
 
-[![image](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
+[![image](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
 
->[!TAB verbindingen: overgeslagen records]
+>[!TAB Analyse met instructies - Trendlines]
 
-U kunt nu controleren waarom de verslagen van gebeurtenisdatasets wanneer het bepalen van een verbinding worden overgeslagen. U kunt meer informatie krijgen over de redenen waarom records worden overgeslagen, zoals lege bezoeker-id&#39;s, gegevensretenties en andere.
-
-[![image](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
-
->[!TAB Product Analytics: Trendlines]
-
-Trendline-overlays zijn nu beschikbaar in de weergave Gebruik met instructies-analyse, waarmee u een duidelijker patroon in de gegevens kunt weergeven.
+Trendline-overlays zijn nu beschikbaar in de weergave Gebruik, zodat een duidelijker patroon in de gegevens kan worden weergegeven.
 
 [![image](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
+
+>[!TAB Belangrijkste statistieken - overzicht - visualisatie]
+
+Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is.
+
+[![image](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
 
 >[!ENDTABS]
 
