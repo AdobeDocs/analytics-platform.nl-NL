@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
+source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,48 @@ Bovendien bespreken wij meer korrelige manieren om toegang, zoals de kromming va
 
 ## De rol Productbeheerder
 
-Productbeheerders hebben machtigingen om alle taken uit te voeren die nodig zijn binnen de Customer Journey Analytics. U moet als productbeheerder aan de **Productprofiel Customer Journey Analytics** in de [Admin Console](https://adminconsole.adobe.com/enterprise/) krachtens [!UICONTROL Customer Journey Analytics] > [!UICONTROL Admins] tab > [!UICONTROL Add Admin]. Aan productbeheerders worden de volgende machtigingen verleend:
+De gebruikers die de rol van Admin van het Product worden toegewezen worden gegeven de noodzakelijke toestemmingen om de meeste taken binnen Customer Journey Analytics door gebrek uit te voeren. Voor sommige taken zijn echter aanvullende machtigingen vereist.
 
-* Verbindingen of gegevensweergaven maken/bijwerken/verwijderen
-* Werk/schrap projecten, filters, berekende metriek, publiek, annotaties of filters bij die door andere gebruikers worden gecreeerd
+Een gebruiker toevoegen als productbeheerder:
+
+1. Ga naar de [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+1. Selecteren [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Admins**] tab > [!UICONTROL **Admin toevoegen**].
+
+   De gebruikers die u hebt toegevoegd, krijgen de [Standaardmachtigingen voor productbeheer](#product-admin-default-permissions). U kunt ze ook verlenen [aanvullende machtigingen](#product-admin-additional-permissions) indien nodig.
+
+### Standaardmachtigingen voor productbeheer
+
+Productbeheerders hebben machtigingen om de meeste taken binnen de Customer Journey Analytics uit te voeren.
+
+Productbeheerders krijgen standaard de benodigde machtigingen om de volgende taken uit te voeren:
+
+* Gegevensweergaven maken, bijwerken en verwijderen
+* Werk en schrap projecten, filters, berekende metriek, publiek, annotaties, of filters bij die door andere gebruikers worden gecreeerd
 * Werkruimteprojecten delen met alle gebruikers
 * Rapportactiviteiten beheren in het dialoogvenster [Activity Manager rapporteren](/help/reporting-activity-manager/reporting-activity-overview.md)
 
-Het alleen in de Customer Journey Analytics beheren van een product is niet voldoende om een [verbinding](/help/connections/overview.md). Om een verbinding aan een dataset van de Experience Platform tot stand te brengen, hebt u ook de toestemmingen van het Experience Platform nodig. U moet specifiek deel uitmaken van een **Productprofiel Experience Platform** dat u de volgende toestemmingen geeft:
+### Aanvullende machtigingen voor productbeheer
 
-* Gegevensmodellering: Schema&#39;s weergeven, Schema&#39;s beheren
-* gegevensbeheer: gegevenssets weergeven, gegevenssets beheren
-* Gegevensinname: Bronnen beheren
-* Identiteitsnaamruimten weergeven
+Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey Analytics** in de [Admin Console](https://adminconsole.adobe.com/enterprise/), is extra toestemming vereist om de volgende taken binnen Customer Journey Analytics te voltooien:
 
-Zie voor meer informatie over machtigingen voor Experience Platforms [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+* Gegevens maken, bijwerken en verwijderen [Verbindingen](/help/connections/overview.md)
+
+  Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Productprofiel Experience Platform** die de volgende machtigingen biedt:
+   * Gegevensmodellering: Schema&#39;s weergeven, Schema&#39;s beheren
+   * gegevensbeheer: gegevenssets weergeven, gegevenssets beheren
+   * Gegevensinname: Bronnen beheren
+   * Identiteitsnaamruimten weergeven
+
+     Zie voor meer informatie over machtigingen voor Experience Platforms [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+
+* Gegevenssets exporteren van AEP-doelen
+
+  Om deze taak uit te voeren, hebben de gebruikers ook de volgende toestemmingen van het Experience Platform nodig:
+   * Doelen beheren
+   * Doelen activeren
+
+     Voor meer informatie over de toestemmingen van de Doelen van het Experience Platform, zie [Overzicht van doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
 
 ## Beheerdersrol productprofiel
 
