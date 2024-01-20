@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voeg aanvullende gegevens toe aan het diagram. Als er meer dan één reeks zicht
    * [!UICONTROL Logarithmic]: hiermee maakt u een kromme regressielijn. Het beste voor gegevens die snel stijgen of dalen, dan wordt meer niveau. Vergelijking `y = a + b * log(x)`
    * [!UICONTROL Moving average]: Hiermee maakt u een vloeiende trendline op basis van een set gemiddelden. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal vorige gegevenspunten (die door uw selectie worden bepaald), gemiddelden, en gebruikt het gemiddelde als punt in de lijn. Voorbeelden zijn het voortschrijdende gemiddelde over zeven dagen of het voortschrijdende gemiddelde over vier weken. De beschikbare opties voor gemiddelde verplaatsing zijn afhankelijk van het geselecteerde interval en datumbereik.
 
-## Tijdvergelijking toepassen
+## Tijdvergelijking
 
 {{apply-time-comparison}}
 

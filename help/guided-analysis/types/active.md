@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -30,24 +30,25 @@ Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Bewaren en onderdrukken van gebruikers:** Biedt een duidelijke visualisatie rond periodes van hoog of laag vasthouden van de gebruiker. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
-* **Campagnebeoordeling**: Door een specifieke campagne te bekijken, kunt u niet alleen begrijpen hoeveel verkeer het heeft gegenereerd, maar ook hoe goed de campagne gebruikers heeft geholpen betrokken te blijven.
+* **Campagnebeoordeling**: Het bekijken van een specifieke campagne kan u helpen begrijpen hoeveel verkeer het produceerde, en hoe goed het gebruikers hielp betrokken blijven.
 * **Levenscyclusanalyse van gebruikers**: Door de actieve groei van gebruikers gedurende de hele levenscyclus van de gebruiker te analyseren, kunt u specifieke fasen identificeren waarin de betrokkenheid van de gebruiker afneemt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor personen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere begeleiding in het product.
 
 ## Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
+* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Netto groei](net-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien dit weergavetype op gebruiker is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL People]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.
+* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
+* **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt filteren. U kunt één segment in een vraag omvatten.
 
 ## Diagraminstellingen
 
 De [!UICONTROL Active] de weergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. U kunt onder andere het aantal gebruikers en het percentage gebruikers kiezen.
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. U kunt onder andere de opties Gestapelde balk en Gestapeld gebied kiezen.
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Stacked bar] en [!UICONTROL Stacked area].
 
-## Tijdvergelijking toepassen
+## Tijdvergelijking
 
 {{apply-time-comparison}}
 

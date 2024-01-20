@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,15 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
+* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Gebruik](usage.md).
 * **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt weergegeven als een afzonderlijke grafiek. Er wordt een rij die de trended-gebeurtenis vertegenwoordigt, aan de tabel toegevoegd. U kunt maximaal vijf gebeurtenissen opnemen.
-* **[!UICONTROL People]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal balken in het diagram en de rijen in de tabel. U kunt maximaal vijf segmenten opnemen.
+* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] en  [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
+* **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal balken in het diagram en de rijen in de tabel. U kunt maximaal vijf segmenten opnemen.
 
 ## Diagraminstellingen
 
 De [!UICONTROL Frequency] de weergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] en  [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Horizontal bar] en [!UICONTROL Stacked bar].
 
 ## Emmerinstellingen
@@ -51,7 +52,7 @@ Bepaalt hoe de gebeurtenis in groepen wordt gecategoriseerd.
    * [!UICONTROL To]: De frequentie die groter is dan deze waarde, wordt gegroepeerd in het laatste emmertje.
    * [!UICONTROL Size]: Het emmerinterval.
 
-## Tijdvergelijking toepassen
+## Tijdvergelijking
 
 {{apply-time-comparison}}
 

@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -31,18 +31,21 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
+* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Conversietrends](conversion-trends.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-* **[!UICONTROL People]**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL Counted as]**: Het bereik dat u op de trechter wilt toepassen. Opties omvatten [!UICONTROL Sessions] en [!UICONTROL Users].
+   * [!UICONTROL Sessions]: Alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
+   * [!UICONTROL Users]: Alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
+* **[!UICONTROL Segments]**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
 De wrijvingsweergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Metric]**: Het bereik dat u op de trechter wilt toepassen. U kunt onder andere sessies en gebruikers kiezen. Door sessies te selecteren, moeten alle stappen binnen dezelfde sessie plaatsvinden om te worden geteld. Door gebruikers te selecteren, moeten alle stappen binnen het rapporteringsvenster gebeuren dat wordt geselecteerd om worden geteld.
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. U kunt kiezen uit Stappen.
-* **[!UICONTROL Conversion from]**: Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie uit de eerste of vorige stap berekenen.
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Steps].
+* **[!UICONTROL Conversion from]**: Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step].
 
-## Tijdvergelijking toepassen
+## Tijdvergelijking
 
 {{apply-time-comparison}}
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 # Fragmenten
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 1. (Optioneel) Selecteer de optie **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te filteren:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
    | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Overzicht van componenten](/help/components/overview.md). |
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ## Componenten gegevenswoordenboek {#dd-component-information}
 
-| Optie | -functie |
+| Optie | Functie |
 |---------|----------|
 | [!UICONTROL **Goedgekeurd**] | <p>Geeft aan dat de component is gecontroleerd en goedgekeurd door de beheerder.</p><p>Beheerders zien een optie voor [!UICONTROL **Niet goedkeuren**]. Als u deze optie selecteert, wordt de component gemarkeerd als &quot;Niet goedgekeurd&quot; voor gebruikers.</p> |
 | [!UICONTROL **Niet goedgekeurd**] | <p>Geeft aan dat de component nog niet is gereviseerd en goedgekeurd door de beheerder.</p><p>Beheerders zien een optie voor [!UICONTROL **Goedkeuren**]. Als u deze optie selecteert, wordt de component gemarkeerd als &quot;Goedgekeurd&quot; voor gebruikers.</p> |
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## Sorteeropties voor componenten {#components-sort-options}
 
-| Optie | -functie |
+| Optie | Functie |
 |---------|----------|
 | [!UICONTROL **Aanbevolen**] | Hiermee sorteert u componenten met de componenten die boven aan de lijst worden aanbevolen. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in de lijst. |
 | [!UICONTROL **Alfabetisch**] | Hiermee worden componenten alfabetisch gesorteerd. |
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## Tijdvergelijking toepassen {#apply-time-comparison}
+## Tijdvergelijking {#apply-time-comparison}
 
 U kunt de huidige tijdsperiode vergelijken met een vorige tijdsperiode. Als u een optie in dit menu selecteert, ontvangt elk gegevenspunt een met punten gelijkende kleur. Deze tegenhanger vertegenwoordigt die zelfde metrisch in de geselecteerde vorige datumwaaier. Als u deze optie instelt, verdubbelt u het aantal items in het diagram en de rijen in de tabel.
 
