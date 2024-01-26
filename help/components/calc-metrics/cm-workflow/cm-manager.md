@@ -1,12 +1,12 @@
 ---
 description: De Berekende Metrische Manager biedt vele manieren om metriek, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
-title: Berekende standaard-beheer
+title: Berekend metrisch beheer
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 2%
+source-wordcount: '724'
+ht-degree: 0%
 
 ---
 
@@ -30,11 +30,11 @@ In het Berekende manager van metriek, kunt u:
 
 * [Berekende metriek markeren als favorieten](/help/components/calc-metrics/cm-workflow/cm-favorite.md)
 
-* [Berekende standaard goedkeuren](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+* [Berekende waarden goedkeuren](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 
-* [Berekende standaard een label geven](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
+* [Berekende maatstaven voor tags](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
 
-* [Berekende standaard delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md)
+* [Berekende maatstaven delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md)
 
 * Exporteer een berekende metrische waarde naar een CSV-bestand.
 
@@ -63,7 +63,7 @@ Om de zichtbare kolommen in het Berekende manager van metriek te vormen:
    | Tags | Toont markeringen die op metrisch, of door u of door mensen werden toegepast die berekende metrisch met u deelden. |
    | Gedeeld met | Hiermee geeft u personen of groepen (alleen beheerder) of Alles (alleen beheerder) weer waarmee u de berekende metrische waarde hebt gedeeld. <p>Wanneer berekende metrisch wordt gedeeld, toont een aandeelpictogram naast de berekende metrische naam.</p> |
    | Datum gewijzigd | Geeft de datum aan waarop de aangepaste metrische waarde voor het laatst is gewijzigd. |
-   | Gebruikt in | Toont hoeveel componenten berekende metrisch momenteel binnen wordt gebruikt. <p>Bijvoorbeeld, als berekende metrisch in 40 projecten en 2 alarm wordt gebruikt, dan toont de waarde van deze kolom zoals [!UICONTROL **42 componenten**].</p> <p>Selecteer de waarde in deze kolom om de uitsplitsing te zien van waar de berekende metrische waarde wordt gebruikt (bijvoorbeeld [!UICONTROL **Projecten (40)**], [!UICONTROL **Waarschuwingen (2)**]).</p><p>Berekende metriek kunnen in om het even welke volgende componenttypes worden gebruikt:</p> <ul><li>Projecten</li><li>Geplande projecten</li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>De [!UICONTROL **Gebruikt in**] wordt niet standaard weergegeven. [Kolommen configureren](#configure-columns) om het weer te geven.</li><li>Als deze kolom geen gegevens bevat voor een bepaalde component, maar deze een [!UICONTROL **Laatst gebruikt**] datum, kan de component in een analyse zijn gebruikt zonder worden bewaard.</li></ul><p>U kunt de [Gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt.</p> |
-   | Laatst gebruikt | Toont de datum toen berekende metrisch het laatst in om het even welke volgende componententypes werd gebruikt: <ul><li>Berekende standaarden</li><li>Projecten</li><li>Geplande projecten</li></ul> <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, of of het zou moeten worden geschrapt.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>Voor sommige componenten bevat deze kolom mogelijk geen gegevens als de component voor het laatst is gebruikt vóór september 2023.</li></ul><p>U kunt de [Gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt. |
+   | Gebruikt in | Toont hoeveel componenten berekende metrisch momenteel binnen wordt gebruikt. <p>Bijvoorbeeld, als berekende metrisch in 40 projecten en 2 alarm wordt gebruikt, dan toont de waarde van deze kolom zoals [!UICONTROL **42 componenten**].</p> <p>Selecteer de waarde in deze kolom om de uitsplitsing te zien van waar de berekende metrische waarde wordt gebruikt (bijvoorbeeld [!UICONTROL **Projecten (40)**], [!UICONTROL **Waarschuwingen (2)**]).</p><p>Berekende metriek kunnen in om het even welke volgende componenttypes worden gebruikt:</p> <ul><li>Projecten</li><li>Geplande projecten</li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>De [!UICONTROL **Gebruikt in**] wordt niet standaard weergegeven. [Kolommen configureren](#configure-columns) om het weer te geven.</li><li>Als deze kolom geen gegevens bevat voor een bepaalde component, maar deze een [!UICONTROL **Laatst gebruikt**] datum, kan de component in een analyse zijn gebruikt zonder worden bewaard.</li><li>Deze informatie is alleen beschikbaar voor systeembeheerders.</li></ul><p>U kunt de [Gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt.</p> |
+   | Laatst gebruikt | Toont de datum toen berekende metrisch het laatst in om het even welke volgende componententypes werd gebruikt: <ul><li>Berekende cijfers</li><li>Projecten</li><li>Geplande projecten</li></ul> <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, of of het zou moeten worden geschrapt.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>Voor sommige componenten bevat deze kolom mogelijk geen gegevens als de component voor het laatst is gebruikt vóór september 2023.</li><li>Deze informatie is alleen beschikbaar voor systeembeheerders.</li></ul><p>U kunt de [Gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt. |
 
    {style="table-layout:auto"}

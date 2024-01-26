@@ -4,10 +4,10 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
+source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 8%
+source-wordcount: '2859'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2024** | |
+| Informatie over nieuwe componentmigratie bij migreren uit Adobe Analytics | Informatie toegevoegd aan [Evolutie uit Adobe Analytics](/help/getting-started/aa-to-cja.md) die verwijst naar de nieuwe [componentmigratie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Mogelijkheden die worden beschreven in de Adobe Analytics Admin Guide. |
+| Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/calc-metrics/cm-workflow/cm-manager.md) en de [Filterbeheer](/help/components/filters/manage-filters.md) zijn alleen beschikbaar voor systeembeheerders. |
 | Machtigingen vereist voor het exporteren van gegevenssets | Toegevoegde informatie over de [rechten vereist](/help/admin/cja-access-control.md) om datasets naar wolkenbestemmingen uit te voeren. |
 | Verbindingen beheren | De [Verbindingen beheren](../connections/manage-connections.md) artikel, op basis van feedback van klanten. |
 | Afgeleide velden | Overzicht van functie toegevoegd [beperkingen](/help/data-views/derived-fields/derived-fields.md#limitations) en uitleg over de manier waarop het aantal [operatoren](/help/data-views/derived-fields/derived-fields.md#operators) gebruikt in een functie. |
