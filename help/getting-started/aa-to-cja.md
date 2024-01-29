@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,17 @@ De volgende Adobe Analytics-functies of -componenten worden niet ondersteund:
 
 ### 5. Kaart projecten en onderdelen van Adobe Analytics aan Customer Journey Analytics
 
-Migreer uw projecten en de bijbehorende onderdelen van Adobe Analytics naar Customer Journey Analytics.
+Adobe Analytics-beheerders kunnen Adobe Analytics-projecten en de bijbehorende onderdelen migreren naar Customer Journey Analytics.
 
-Voordat iemand in uw organisatie begint met het migreren van projecten, begint u met de migratieprojecten zoals beschreven in [Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html), eerste [Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)
+Het migratieproces omvat:
+
+* Adobe Analytics-projecten opnieuw maken in Customer Journey Analytics.
+
+* De dimensies en metriek van de afbeelding van Adobe Analytics melden reeksen aan dimensies en metriek in de mening van de gegevens van de Customer Journey Analytics.
+
+Voordat u met de migratie begint, moet u eerst [Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
+
+Nadat u alle benodigde voorbereidingen hebt getroffen, kunt u [Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html).
 
 ## Voorbereiden op kritieke verschillen
 
