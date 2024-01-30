@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 24b7e428b6652d3656d641ad030957b807d387d5
+source-git-commit: 90d91f07296f8c961d1b60ddbdc3d6b086958141
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 # Huidige Adobe Customer Journey Analytics-releaseopmerkingen (januari 2024)
 
-**Laatste update**: 26 januari 2024
+**Laatste update**: 30 januari 2024
 
-Deze releaseopmerkingen hebben betrekking op de releaseperiode van eind oktober 2023 tot januari 2024. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze releaseopmerkingen betreffen de releaseperiode van 8 januari 2024 tot en met 13 februari 2024. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of bijgewerkte functies
 
@@ -23,7 +23,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van eind oktober 
 | **Adobe Product Analytics - Retentiesnelheden** | Bewaarpercentages zijn een nieuwe analyse met instructies die het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren. [Meer informatie](../guided-analysis/types/retention-rates.md) | N.v.t. | dinsdag 8 januari 2024 |
 | **Adobe Product Analytics - rendlines** | Trendlines is een nieuwe geleide analyse beschikbaar in [Gebruik](/help/guided-analysis/types/usage.md) weergegeven, zodat u een duidelijker patroon in de gegevens kunt zien. | N.v.t. | donderdag 17 januari 2024 |
 | **Updates voor de visualisatie van het overzicht van belangrijke gegevens** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
-| **Adobe Product Analytics - Streams** | Stream is een nieuwe geleide analyse die u toestaat om individuele gebruikersgebeurtenisstromen te onderzoeken. Met deze analyse kunt u ervaringspatronen vinden en betere gebruikersverhalen vertellen. | N.v.t. | donderdag 31 januari 2024 |
+| **Adobe Product Analytics - Gebruikersstromen** | Gebruikersstromen is een nieuwe geleide analyse die u toestaat om individuele gebruikersgebeurtenisstromen te onderzoeken. Met deze analyse kunt u ervaringspatronen vinden en betere gebruikersverhalen vertellen. | N.v.t. | donderdag 7 februari 2024 |
 | **Adobe Product Analytics - Verbeteringen aan het vraagspoor** | In geleide analyse, zijn sommige componentenmontages nu inbegrepen in vraagspoor, die verbeteringen aan bruikbaarheid verstrekken. | N.v.t. | donderdag 31 januari 2024 |
 | **Prognoses tijdreeksen** | Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
 
