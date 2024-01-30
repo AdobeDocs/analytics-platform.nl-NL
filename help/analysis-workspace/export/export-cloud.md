@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2182'
 ht-degree: 1%
 
 ---
@@ -73,8 +73,8 @@ Volledige tabellen exporteren uit Analysis Workspace:
    | Starten bij | De dag en tijd waarop de geplande export moet beginnen. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Einde op | De dag en tijd waarop de geplande export verloopt. De geplande export wordt niet meer uitgevoerd na de datum en tijd die u instelt. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Bestandsindeling | Geef op of de geëxporteerde gegevens de indeling .csv of .json moeten hebben. |
-   | Account | Selecteer de exportaccount voor de cloud waarin u de gegevens wilt verzenden. <p>Zie voor meer informatie [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md).</p> |
-   | Locatienaam | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden. <p>Zie voor meer informatie [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md).</p><p>U kunt de [!UICONTROL **Nieuwe locatie toevoegen**] om een nieuwe locatie voor een bestaande exportaccount te maken. |
+   | Account | Selecteer de exportaccount voor de cloud waarin u de gegevens wilt verzenden. <p>Of als u nog geen cloudaccount hebt geconfigureerd die u wilt gebruiken, kunt u een nieuwe account configureren:<ol><li>Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:<ul><li>[!UICONTROL **Naam van locatieaccount**]: Geef een naam op voor het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt </li><li>[!UICONTROL **Beschrijving van locatieaccount**]: Geef een korte beschrijving van de account zodat deze kan worden onderscheiden van andere accounts van hetzelfde type account.</li><li>[!UICONTROL **Accounttype**]: Selecteer het type cloudaccount waarnaar u exporteert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en AEP Data Landing Zone.</li></ul><li>Als u uw account wilt configureren, gaat u verder met de koppeling hieronder die overeenkomt met de [!UICONTROL **Accounttype**] u hebt geselecteerd:<ul><li>[AEP gegevenslandingszone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | Locatienaam | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden.<p>Of, als u niet reeds de plaats hebt gevormd die u op de rekening wilt gebruiken die u selecteerde, kunt u een nieuwe plaats vormen:<ol><li>Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op: <ul><li>[!UICONTROL **Naam**]: De naam van de locatie.</li><li>[!UICONTROL **Beschrijving**]: Geef een korte beschrijving van de locatie zodat u deze kunt onderscheiden van andere locaties op de account.</li><li>[!UICONTROL **Locatieaccount**]: Selecteer de account waar u de locatie wilt maken.</li></ul><li>Als u de configuratie van uw locatie wilt voltooien, gaat u verder met de koppeling hieronder die overeenkomt met het accounttype dat u in het dialoogvenster [!UICONTROL **Locatieaccount**] veld:<ul><li>[AEP gegevenslandingszone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 

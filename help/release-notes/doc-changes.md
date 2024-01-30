@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
+source-git-commit: 1587f98d0650d07a2f496c239d7b6bf69611535e
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2931'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2024** | |
+| De documentatie voor het toevoegen van accounts en locaties tijdens het exporteren van volledige tabellen is bijgewerkt | Bijgewerkt de documentatie om op minder belangrijke interfaceupdates te wijzen wanneer het vormen van een nieuwe rekening of een plaats wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Een nieuwe [!UICONTROL **Account toevoegen**] Deze optie is nu beschikbaar in het dialoogvenster [!UICONTROL **Account**] vervolgkeuzelijst. De [!UICONTROL **Locatie toevoegen**] die eerder als een knop naast de knop [!UICONTROL **Locatienaam**] keuzelijst is nu beschikbaar in het menu zelf. |
 | Informatie over nieuwe componentmigratie bij migreren uit Adobe Analytics | Informatie toegevoegd aan [Evolutie uit Adobe Analytics](/help/getting-started/aa-to-cja.md) die verwijst naar de nieuwe [componentmigratie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Mogelijkheden die worden beschreven in de Adobe Analytics Admin Guide. |
 | Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/calc-metrics/cm-workflow/cm-manager.md) en de [Filterbeheer](/help/components/filters/manage-filters.md) zijn alleen beschikbaar voor systeembeheerders. |
 | Machtigingen vereist voor het exporteren van gegevenssets | Toegevoegde informatie over de [rechten vereist](/help/admin/cja-access-control.md) om datasets naar wolkenbestemmingen uit te voeren. |

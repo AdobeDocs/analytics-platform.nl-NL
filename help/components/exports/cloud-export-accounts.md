@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1876'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 >
 >Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. Selecteren [!UICONTROL **Opslaan**].
 
@@ -100,7 +104,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ### Amazon S3 Role ARN
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] geeft u de volgende informatie op:
 
@@ -124,7 +132,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ### Google Cloud Platform
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] geeft u de volgende informatie op:
 
@@ -148,7 +160,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ### Azure SAS
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] geeft u de volgende informatie op:
 
@@ -176,7 +192,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ### Azure RBAC
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] geeft u de volgende informatie op:
 
@@ -202,7 +222,11 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
 ### Snowflake
 
-1. [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een cloud-exportaccount](#begin-creating-a-cloud-export-account)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Accounteigenschappen**] van de [!UICONTROL **Account toevoegen**] geeft u de volgende informatie op:
 

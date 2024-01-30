@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    Het dialoogvenster Locatie wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
    Doorgaan met de sectie hieronder die overeenkomt met het accounttype dat u hebt geselecteerd in het dialoogvenster [!UICONTROL **Locatieaccount**] veld.
+
+   * [AEP gegevenslandingszone](#aep-data-landing-zone)
+   * [Amazon S3 Role ARN](#amazon-s3-role-arn)
+   * [Google Cloud Platform](#google-cloud-platform)
+   * [Azure SAS](#azure-sas)
+   * [Azure RBAC](#azure-rbac)
+   * [Snowflake](#snowflake)
 
 ### AEP gegevenslandingszone
 
@@ -50,7 +57,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 >
 >Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een locatie in een Adobe Experience Platform Data Landing Zone te configureren:
 
@@ -83,7 +94,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 ### Amazon S3 Role ARN
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configureren:
 
@@ -102,7 +117,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 ### Google Cloud Platform
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
 
@@ -121,7 +140,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 ### Azure SAS
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure SAS-locatie te configureren:
 
@@ -138,7 +161,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 ### Azure RBAC
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een Azure RBAC-locatie te configureren:
 
@@ -156,7 +183,11 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 ### Snowflake
 
-1. [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location), zoals hierboven beschreven.
+1. Ga op een van de volgende manieren te werk om een exportlocatie voor de cloud te maken:
+
+   * Vanaf de pagina Exporteren, zoals hierboven beschreven, in [Beginnen met het maken van een exportlocatie voor de cloud](#begin-creating-a-cloud-export-location)
+
+   * Wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om de locatie van een Snowflake te configureren:
 
