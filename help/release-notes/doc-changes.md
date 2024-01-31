@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
 workflow-type: tm+mt
 source-wordcount: '2964'
 ht-degree: 7%
@@ -20,7 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2024** | |
-| Voorspelling | Extra documentatie op [voorspelling](../analysis-workspace/c-forecast/forecasting.md), de nieuwe Analysis Workspace-functie om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar) voor vrije-vormtabellen en linecarieven. |
+| Voorspelling | Extra documentatie op [voorspelling](../analysis-workspace/c-forecast/forecasting.md), de nieuwe Analysis Workspace-functie om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. |
 | De documentatie voor het toevoegen van accounts en locaties tijdens het exporteren van volledige tabellen is bijgewerkt | Bijgewerkt de documentatie om op minder belangrijke interfaceupdates te wijzen wanneer het vormen van een nieuwe rekening of een plaats wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Een nieuwe [!UICONTROL **Account toevoegen**] Deze optie is nu beschikbaar in het dialoogvenster [!UICONTROL **Account**] vervolgkeuzelijst. De [!UICONTROL **Locatie toevoegen**] die eerder als een knop naast de knop [!UICONTROL **Locatienaam**] keuzelijst is nu beschikbaar in het menu zelf. |
 | Informatie over nieuwe componentmigratie bij migreren uit Adobe Analytics | Informatie toegevoegd aan [Evolutie uit Adobe Analytics](/help/getting-started/aa-to-cja.md) die verwijst naar de nieuwe [componentmigratie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Mogelijkheden die worden beschreven in de Adobe Analytics Admin Guide. |
 | Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/calc-metrics/cm-workflow/cm-manager.md) en de [Filterbeheer](/help/components/filters/manage-filters.md) zijn alleen beschikbaar voor systeembeheerders. |
