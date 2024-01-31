@@ -4,10 +4,10 @@ title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 49b165c4dfec99ff1c65d4aacf4a5ffbe65d4004
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 14%
+source-wordcount: '814'
+ht-degree: 13%
 
 ---
 
@@ -21,9 +21,9 @@ Bekijk hier een video over rij- en kolominstellingen:
 
 ## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
 
-Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het tandwielpictogram in de kolomkop.
+Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het instellingenpictogram ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) in de kolomkop.
 
-![De kolominstellingen tonen Totaal aantal cellen, Tabelcellen en Tabelcelvoorvertoning.](assets/column_settings.png)
+<img src="./assets/column-settings.png" alt="De kolominstellingen tonen Totaal aantal cellen, Tabelcellen en Tabelcelvoorvertoning." width="50%" />
 
 U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
 
@@ -31,7 +31,8 @@ U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel ee
 | --- | --- |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 | Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: we kunnen percentages van meer dan 100% weergeven, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
-| Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
+| anomalieën tonen | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
+| Voorvertoning weergeven | Hiermee wordt bepaald of de voorspelde waarden in deze kolom worden weergegeven. |
 | Tekst koptekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
 | nul interpreteren als geen waarde | Voor cellen met een waarde 0 bepaalt u of een cel van 0 of een lege cel moet worden weergegeven. Dit is handig wanneer u gegevens bekijkt voor elke dag van een maand, en sommige dagen zijn nog niet gebeurd.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, kunnen lege cellen worden weergegeven. Grafieken voldoen ook aan deze instelling (ze geven dus geen lijn of balk weer met 0 waarden als deze instelling is ingeschakeld). |
 | Achtergrond | Hiermee bepaalt u of alle celopmaak, inclusief de staafgrafiek en voorwaardelijke opmaak, in een cel wordt weergegeven of verborgen. |
@@ -43,7 +44,7 @@ U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel ee
 
 Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (kleuren, enz.) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
 
-![De voorwaardelijke opmaakopties met Aangepast geselecteerd.](assets/conditional-formatting.png)
+<img src="./assets/conditional-formatting.png" alt="De voorwaardelijke opmaakopties met Aangepast geselecteerd" width="50%" />
 
 | Element | Beschrijving |
 | --- | --- |

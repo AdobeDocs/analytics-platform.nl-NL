@@ -4,9 +4,9 @@ title: Lijn
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,14 @@ De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te t
 
 ![Lijnvisualisatie](assets/line-viz.png)
 
-Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang [**Visualisatie-instellingen**](freeform-analysis-visualizations.md) beschikbaar. De instellingen worden gecategoriseerd in:
+Het pictogram Instellingen selecteren ![Instellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) in de hoogste bar van de visualisatie van de Lijn aan toegang [Visualisatie-instellingen](freeform-analysis-visualizations.md) beschikbaar. De instellingen worden gecategoriseerd in:
+
+<img src="./assets/viz-settings-line.png" alt="Visualisatie-instellingen" width="50%" />
 
 * **Algemeen**: Instellingen die veel voorkomen in verschillende visualisatietypen
 * **As**: Instellingen die de x- of y-as van de lijnvisualisatie beïnvloeden
 * **Bedekkingen**: Opties voor het toevoegen van extra context aan de reeks die in uw lijnvisualisatie wordt getoond.
 
-![Visualisatie-instellingen](assets/viz-settings-modal.png)
 
 ## Korreligheid wijzigen
 

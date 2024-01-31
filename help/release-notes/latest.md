@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1e024f7f84f96be446a2a922bd026bc70a6edf7e
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -20,7 +20,7 @@ Deze releaseopmerkingen betreffen de releaseperiode van 8 januari 2024 tot en me
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Prognoses tijdreeksen** | Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
+| **Prognoses tijdreeksen** | [Voorspelling](../analysis-workspace/c-forecast/forecasting.md) is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdkorreligheid (uur, dag, week, maand en jaar). | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
 | **Updates voor de visualisatie van het overzicht van belangrijke gegevens** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
 | **Adobe Product Analytics - Bewaarpercentages** | Bewaarpercentages zijn een nieuwe geleide analyse waarmee u de doorlopende retourgewoonten van uw gebruikers kunt meten. [Meer informatie](../guided-analysis/types/retention-rates.md) | N.v.t. | dinsdag 8 januari 2024 |
 | **Adobe Product Analytics - Trendline-bedekking** | Trendlines is een nieuwe bedekkingsinstelling die beschikbaar is in het dialoogvenster [Gebruikstendensen](/help/guided-analysis/types/usage.md) bekijk en help een duidelijker patroon in gegevens weer te geven. | N.v.t. | donderdag 17 januari 2024 |

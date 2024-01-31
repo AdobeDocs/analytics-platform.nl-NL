@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1319'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
 | Visualisatienaam | Beschrijving |
 | --- | --- | 
-| [Gebied](/help/analysis-workspace/visualizations/area.md)<p>![Vlakpictogram](assets/Smock_GraphArea_18_N.svg)</p> | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. | Beantwoord vragen als: <ul><li> |
+| [Gebied](/help/analysis-workspace/visualizations/area.md)<p>![Vlakpictogram](assets/Smock_GraphArea_18_N.svg)</p> | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
 | [Balk](/help/analysis-workspace/visualizations/bar.md) <p>![Staafpictogram](assets/Smock_GraphBarVertical_18_N.svg)</p> | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
 | [Staafdiagram](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Pictogram voor opsommingstekens](assets/Smock_GraphBullet_18_N.svg)</p> | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
 | [Cohortingtabel](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Pictogram voor kleurentabel](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een bepaalde periode. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
@@ -80,9 +80,9 @@ U kunt instellingen aanpassen voor alle visualisaties die u maakt. Zie voor meer
 
 ## Instellingen {#settings}
 
-Elke visualisatie heeft eigen instellingen die u kunt beheren. Toegang tot [!UICONTROL Visualization Settings]klikt u op de knop [!UICONTROL Visualization Settings] tandwielpictogram.
+Elke visualisatie heeft eigen instellingen die u kunt beheren. Als u de visualisatie-instellingen wilt openen, selecteert u het pictogram Instellingen ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg).
 
-![De montages die van visualisatie de plaatsingsopties tonen in de volgende sectie worden beschreven.](assets/settings.png)
+<img src="./assets/viz-settings-line.png" alt="Visualisatie-instellingen" width="50%" />
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -95,7 +95,8 @@ Elke visualisatie heeft eigen instellingen die u kunt beheren. Toegang tot [!UIC
 | Y-as verankeren op nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 | Normalisatie | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | Dual Axis weergeven | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
-| Anomalies tonen | Verbetert lijngrafieken en vrije-vormlijsten door anomalieopsporing te tonen. Anomaliedetectie in lijnvisualisatie omvat een verwachte waarde (onderbroken lijn) en een verwacht bereik (gearceerde band). |
+| anomalieën tonen | Verbetert lijngrafieken en vrije-vormlijsten door anomalieopsporing te tonen. Anomaliedetectie in lijnvisualisatie omvat een verwachte waarde (onderbroken lijn) en een verwacht bereik (gearceerde band). |
+| Voorvertoning weergeven | Verbetert lijngrafieken en vrije-vormlijsten door voorspelde waarden te tonen. |
 
 ## Legenda {#legend}
 
