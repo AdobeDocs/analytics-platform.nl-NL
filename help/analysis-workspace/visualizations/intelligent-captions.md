@@ -4,10 +4,10 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,10 @@ Als u automatisch gegenereerde bijschriften voor een lijnvisualisatie wilt start
 ![Het venster van de Analyse van de lancering die de Intelligente titels voor de Trend van de Kijken van het Product toont. ](assets/intell-caps-1.png)
 
 Inzichten in natuurlijke talen worden nu gegenereerd.
+
+Houd rekening met het volgende:
+
+* U hebt minimaal drie gegevenspunten nodig om bijschriften te kunnen genereren. Anders krijgt u mogelijk een fout met de tekst &quot;Onvoldoende gegevens om te analyseren.&quot;
 
 * Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens in de tabel veranderen waardoor de visualisatie wordt ingeschakeld.
 
