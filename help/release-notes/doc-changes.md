@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
+source-git-commit: 85a921cf97efd33cc6264ce97c871f965f376a5a
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2985'
 ht-degree: 7%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Februari 2024** | |
+| Gegevens van overgeslagen record | Toegevoegde documentatie over de functionaliteit voor overgeslagen details in Verbindingen. Zie [Verbindingsgegevens](../connections/manage-connections.md#connection-details) voor meer informatie . |
 | **Januari 2024** | |
 | Voorspelling | Extra documentatie op [voorspelling](../analysis-workspace/c-forecast/forecasting.md), de nieuwe Analysis Workspace-functie om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. |
 | De documentatie voor het toevoegen van accounts en locaties tijdens het exporteren van volledige tabellen is bijgewerkt | Bijgewerkt de documentatie om op minder belangrijke interfaceupdates te wijzen wanneer het vormen van een nieuwe rekening of een plaats wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Een nieuwe [!UICONTROL **Account toevoegen**] Deze optie is nu beschikbaar in het dialoogvenster [!UICONTROL **Account**] vervolgkeuzelijst. De [!UICONTROL **Locatie toevoegen**] die eerder als een knop naast de knop [!UICONTROL **Locatienaam**] keuzelijst is nu beschikbaar in het menu zelf. |

@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 9f60d83673591aebeffeb6442bf9f8b897ab2f20
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '470'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,7 @@ Deze releaseopmerkingen betreffen de releaseperiode van 8 januari 2024 tot en me
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Gegevens van overgeslagen records** | U kunt details ophalen waarom records worden overgeslagen bij het instellen van een verbinding. Zie [Verbindingsgegevens](../connections/manage-connections.md#connection-details) voor meer informatie . | dinsdag 5 februari 2024 | dinsdag 5 februari 2024 |
 | **Prognoses tijdreeksen** | [Voorspelling](../analysis-workspace/c-forecast/forecasting.md) is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdkorreligheid (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
 | **Updates voor de visualisatie van het overzicht van belangrijke gegevens** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
 | **Adobe Product Analytics - Bewaarpercentages** | Bewaarpercentages zijn een nieuwe geleide analyse waarmee u de doorlopende retourgewoonten van uw gebruikers kunt meten. [Meer informatie](../guided-analysis/types/retention-rates.md) | N.v.t. | dinsdag 8 januari 2024 |
