@@ -5,9 +5,9 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a5c2003a593917bce67346279a033a6041aff959
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ De geleide analyse categoriseert meningstypes in **Analysetypen**. De volgende a
 | [!UICONTROL Trends] | [Frequentie](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
 | [!UICONTROL User growth] | [Actief](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
 | [!UICONTROL User growth] | [Netto groei](types/net-growth.md) | Wint of verliest u gebruikers? |
+| [!UICONTROL User stream] | [Tijdlijn](types/timeline.md) | Verken patronen in sessieactiviteiten. |
 
 {style="table-layout:auto"}
 
