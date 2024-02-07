@@ -4,16 +4,16 @@ description: Verken patronen in sessieactiviteiten.
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 5cd54973b08285badbedce273ac28371158f194c
+source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Timeline] weergave
 
-De **[!UICONTROL Timeline]** in de weergave kunt u afzonderlijke sessies analyseren om te bepalen in welke patronen het gedrag voorkomt. Met de juiste rails kunt u een persoon-id selecteren voor analyse. In het middelste gebied worden de tijd, de waarde van de eigenschap en de duur voor die persoon weergegeven.
+De **[!UICONTROL Timeline]** in de weergave kunt u afzonderlijke sessies analyseren om te bepalen in welke patronen het gedrag voorkomt. Met de rechterrails kunt u de persoon-id selecteren die u wilt analyseren. In het middelste gebied worden de tijd, de waarde van de geselecteerde eigenschap en de duur voor elke gebeurtenis van die persoon weergegeven.
 
 Voor deze analyse moet u de opdracht **[!UICONTROL Person ID]** standaardonderdeel voor [gegevensweergave](/help/data-views/component-reference.md#optional). Als u geen [!UICONTROL Person ID] aan de gegevensweergave wordt toegevoegd, wordt het volgende bericht weergegeven:
 
@@ -47,5 +47,5 @@ De [!UICONTROL Timeline] de weergave biedt de volgende diagraminstellingen, die 
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 
-* **[!UICONTROL Interval]**: De granulariteit van de datum waarop u trendgegevens wilt bekijken. Deze instelling heeft geen invloed op niet-trendweergaven, zoals Frequentie.
+* **[!UICONTROL Interval]**: De granulariteit van de datum waarop u trendgegevens wilt bekijken. Deze instelling heeft geen invloed op niet-trendweergaven, zoals de tijdlijn.
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
