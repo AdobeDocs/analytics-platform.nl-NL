@@ -4,9 +4,9 @@ description: Maak kennis met ervaringspatronen en vertel betere gebruikersverhal
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
+source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,11 @@ De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebru
 
 >[!NOTE]
 >
->De tijdlijnweergave vereist dat de **[!UICONTROL Person ID]** standaardonderdeel beschikbaar in de [gegevensweergave](/help/data-views/component-reference.md#optional). De opname van Person-id in een gegevensweergave wordt beheerd door uw Adobe Analytics-gegevensbeheerder, waardoor organisaties volledig controle hebben over de privacy van de organisatie over wie toegang heeft tot deze gegevens. Als een gegevensweergave niet de [!UICONTROL Person ID] toegevoegd, wordt het volgende bericht weergegeven:
+>De tijdlijnweergave vereist dat de **[!UICONTROL Person ID]** standaardonderdeel beschikbaar in de [gegevensweergave](/help/data-views/component-reference.md#optional). De opname van Person-id in een gegevensweergave wordt beheerd door uw Adobe Analytics-gegevensbeheerder, waardoor organisaties volledig controle hebben over de privacy van de organisatie over wie toegang heeft tot deze gegevens.
 
-* **Admins**: De eigenschap PersonID is vereist voor deze analyse. Voeg PersonID toe aan de gegevensweergave.
-* **Niet-beheerders**: De eigenschap PersonID is vereist voor deze analyse. Neem contact op met uw Adobe Analytics-beheerder.
+Als een gegevensweergave niet de [!UICONTROL Person ID] toegevoegd, wordt het volgende bericht weergegeven:
+* **Admins**: De eigenschap PersonID is vereist voor deze analyse. Voeg een persoon-id toe aan de gegevensweergave.
+* **Niet-beheerders**: De eigenschap PersonID is vereist voor deze analyse. Werk samen met de beheerder van de Customer Journey Analytics om persoon-id toe te voegen aan de gegevensweergave.
 
 ## Gebruik hoofdletters
 
