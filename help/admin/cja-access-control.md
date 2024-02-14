@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Productbeheerders krijgen standaard de benodigde machtigingen om de volgende tak
 * Werk en schrap projecten, filters, berekende metriek, publiek, annotaties, of filters bij die door andere gebruikers worden gecreeerd
 * Werkruimteprojecten delen met alle gebruikers
 * Rapportactiviteiten beheren in het dialoogvenster [Activity Manager rapporteren](/help/reporting-activity-manager/reporting-activity-overview.md)
+* [Volledige tabellen exporteren](/help/analysis-workspace/export/export-cloud.md) uit Analysis Workspace
 
 ### Aanvullende machtigingen voor productbeheer
 

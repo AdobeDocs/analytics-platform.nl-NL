@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2210'
 ht-degree: 1%
 
 ---
@@ -147,6 +147,11 @@ Zorg ervoor dat uw lijsten, uw milieu, en uw toestemmingen aan de volgende verei
 * **Omgeving:** De beheerders zouden ervoor moeten zorgen dat de IP adressen in [IP adressen die door Customer Journey Analytics worden gebruikt](/help/admin/ip-addresses.md) zijn inbegrepen in de firewall lijst van gewenste personen.
 
 * **Rechten:** In de Adobe Admin Console moet aan gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige tabelexport**] toestemming die aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een bevoegdheid aan een productprofiel in de Admin Console, zie [Toestemming Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Toegangsbeheer Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+
+  >[!NOTE]
+  >
+  >  Gebruikers aan wie de [De rol Productbeheerder](/help/admin/cja-access-control.md#product-admin-role) altijd toegang hebben tot volledige tabellen exporteren; aan deze gebruikers hoeft niet de opdracht [!UICONTROL **Volledige tabelexport**] toestemming.
+
 
 ### Niet-ondersteunde functies
 

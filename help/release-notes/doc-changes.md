@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 85a921cf97efd33cc6264ce97c871f965f376a5a
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '2985'
+source-wordcount: '3045'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Februari 2024** | |
+| Verduidelijkt dat de Admins van het Product altijd toegang hebben om volledige lijsten uit te voeren | Breng de volgende wijzigingen aan om te verduidelijken dat gebruikers aan wie de rol Productbeheerder is toegewezen, standaard toegang hebben tot het exporteren van volledige tabellen vanuit Analysis Workspace: <ul><li>Een nieuw opsommingsteken toegevoegd aan [Standaardmachtigingen voor productbeheer](/help/admin/cja-access-control.md#product-admin-default-permissions). <p>Een notitie toegevoegd onder de [minimumeisen voor het exporteren van volledige tabellen naar de cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</p> |
 | Gegevens van overgeslagen record | Toegevoegde documentatie over de functionaliteit voor overgeslagen details in Verbindingen. Zie [Verbindingsgegevens](../connections/manage-connections.md#connection-details) voor meer informatie . |
 | **Januari 2024** | |
 | Voorspelling | Extra documentatie op [voorspelling](../analysis-workspace/c-forecast/forecasting.md), de nieuwe Analysis Workspace-functie om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. |
