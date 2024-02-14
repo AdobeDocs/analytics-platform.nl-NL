@@ -4,7 +4,7 @@ description: Neem sessiegebeurtenissen op gebruikersniveau in de loop der tijd w
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
+source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebruikersniveau in de loop der tijd observeren om ervaringspatronen te zoeken en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 
+![Tijdlijnscreenshot](../assets/timeline.png)
+
 >[!NOTE]
 >
 >De tijdlijnweergave vereist dat de **[!UICONTROL Person ID]** standaardonderdeel beschikbaar in de [gegevensweergave](/help/data-views/component-reference.md#optional). De opneming van identiteitskaart van de Persoon in een gegevensmening wordt beheerd door uw beheerder van de Customer Journey Analytics, die uw organisatie volledige privacycontrole over geeft wie tot deze gegevens kan toegang hebben.
@@ -23,8 +25,6 @@ Als een gegevensweergave niet de [!UICONTROL Person ID] toegevoegd, wordt het vo
 
 * **Admins**: *De eigenschap PersonID is vereist voor deze analyse. Voeg een persoon-id toe aan de gegevensweergave.*
 * **Niet-beheerders**: *De eigenschap PersonID is vereist voor deze analyse. Werk samen met de beheerder van de Customer Journey Analytics om persoon-id toe te voegen aan de gegevensweergave.*
-
-![Tijdlijnscreenshot](../assets/timeline.png)
 
 ## Gebruik hoofdletters
 
