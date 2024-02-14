@@ -1,23 +1,23 @@
 ---
 title: Tijdlijnweergave
-description: Maak kennis met ervaringspatronen en vertel betere gebruikersverhalen.
+description: Neem sessiegebeurtenissen op gebruikersniveau in de loop der tijd waar om ervaringspatronen te zoeken.
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
+source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Timeline] weergave
 
-De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebruikersniveau in de loop der tijd observeren om ervaringspatronen te zoeken en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u filteren op eigenschapswaarden die u wilt streamen. Met de rechterrails kunt u de persoon-id selecteren die u wilt analyseren. In het middelste gebied wordt de stream per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
+De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebruikersniveau in de loop der tijd observeren om ervaringspatronen te zoeken en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 
 >[!NOTE]
 >
->De tijdlijnweergave vereist dat de **[!UICONTROL Person ID]** standaardonderdeel beschikbaar in de [gegevensweergave](/help/data-views/component-reference.md#optional). De opname van Person-id in een gegevensweergave wordt beheerd door uw Adobe Analytics-gegevensbeheerder, waardoor organisaties volledig controle hebben over de privacy van de organisatie over wie toegang heeft tot deze gegevens.
+>De tijdlijnweergave vereist dat de **[!UICONTROL Person ID]** standaardonderdeel beschikbaar in de [gegevensweergave](/help/data-views/component-reference.md#optional). De opneming van identiteitskaart van de Persoon in een gegevensmening wordt beheerd door uw beheerder van de Customer Journey Analytics, die uw organisatie volledige privacycontrole over geeft wie tot deze gegevens kan toegang hebben.
 
 Als een gegevensweergave niet de [!UICONTROL Person ID] toegevoegd, wordt het volgende bericht weergegeven:
 
