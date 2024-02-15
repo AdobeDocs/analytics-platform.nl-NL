@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: 1d6a241766455a5da978b7e8401f1d7c0ba688d6
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt vertegenwoordigd als diagramreeks en tabelrij. U kunt maximaal vijf gebeurtenissen opnemen.
-* **[!UICONTROL People]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal grafiekreeksen en lijstrijen. U kunt maximaal vijf segmenten opnemen.
+* **[!UICONTROL Events & Metrics]**: De gebeurtenissen of metriek die u wilt meten. Elke selectie wordt weergegeven als een diagramreeks en tabelrij. Gebeurtenissen en metriek kunnen niet in de vraag worden gecombineerd; zodra u uw eerste selectie hebt gemaakt, moeten de resterende vraagselecties van het zelfde type zijn. U kunt maximaal vijf selecties opnemen.
+* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. U kunt onder andere gebeurtenissen, sessies, gebruikers, percentage gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen. Geladen als opties zijn alleen van toepassing op gebeurtenisquery&#39;s en worden verwijderd voor metrische query&#39;s.
+* **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal grafiekreeksen en lijstrijen. U kunt maximaal vijf segmenten opnemen.
 * **[!UICONTROL Breakdown property]**: Verdeelt de diagramreeksen en tabelrijen door de waarden van de geselecteerde eigenschap. Eén enkele eigenschap voor de indeling wordt ondersteund. De bovenste 20 waarden worden weergegeven in de tabel en er kunnen maximaal tien waarden worden weergegeven in het diagram. U kunt een rij in het diagram verbergen of zichtbaar maken door de ![Pictogram voor verbergen tonen](../assets/hide-in-chart.png) pictogram.
 
 ## Diagraminstellingen
 
 De [!UICONTROL Usage] de weergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Metric]**: De metrische waarde die u wilt meten. U kunt onder andere gebeurtenissen, sessies, gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen.
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Dit menu bevat de opties Lijn, Staaf, Gestapelde balk en Gestapeld gebied.
 
 ## Bedekkingen
