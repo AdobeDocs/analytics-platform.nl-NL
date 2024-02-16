@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 29c124da55842bcb9085059a9008f7a7d6baf44e
+source-git-commit: 22b87a6f64c296e3eb05ec3b7076bf6dfa2935f9
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van eind februari
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Prognoses tijdreeksen** | [Voorspelling](../analysis-workspace/c-forecast/forecasting.md) is een nieuwe Analysis Workspace-functie die wordt gebruikt om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdkorreligheid (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
-| **Rapportage van media-analyse - Gemiddeld aantal minuten publiek (AMA)** | Het deelvenster Gemiddelde minuten publiek is nu beschikbaar in CJA. Klanten van Media Analytics kunnen het deelvenster Gemiddelde miniatuur gebruiken om een beter inzicht te krijgen in het gemiddelde verbruik van hun inhoud. Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV. Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt. |  | zaterdag 16 februari 2024 |
+| **Rapportage van media-analyse - Gemiddeld aantal minuten publiek (AMA)** | Het deelvenster Gemiddelde minuten publiek is nu beschikbaar in CJA. Klanten van Media Analytics kunnen het deelvenster Gemiddelde miniatuur gebruiken om een beter inzicht te krijgen in het gemiddelde verbruik van hun inhoud. Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV. Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt. |  | Februari 2024 |
 | **Rijtellingen voor raadpleging en profielgegevens** | De metriek van de telling van de rij voor datasets, die als deel van een verbinding worden gevormd, omvat nu toegevoegde, overgeslagen, of geschrapt van profiel en raadplegingsdatasets. |  | donderdag 14 februari 2024 |
 | **Ervaar de detectie van de rand** | [Bodemdetectie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) staat u toe om gebeurtenissen te identificeren die door Web SDK, Mobiele SDK en Server API worden geproduceerd zoals die door bekende spinnen en bots worden geproduceerd. | | donderdag 21 februari 2024 |
 | **Gebruiksmetriek** | De interface van gebruiksmetriek toont het gebruik van opgenomen en te melden rijen over alle verbindingen. Met deze interface kunt u bepalen of het gebruik van uw Customer Journey Analytics in overeenstemming is met wat contractueel is overeengekomen. | woensdag 20 februari 2024 | Begin maart 2024 |
