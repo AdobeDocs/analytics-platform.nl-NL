@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Actief](active.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien dit weergavetype op gebruiker is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
 * **[!UICONTROL Segments]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.
 
 ## Tijdvergelijking

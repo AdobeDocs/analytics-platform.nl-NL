@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL Start & return event]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in uw analyse. Eén gebeurtenis wordt ondersteund, maar u kunt eigenschapfilters opnemen.
-* **[!UICONTROL Counted as]**: Hoe wilt u meten welke gebruikers behouden zijn? Opties omvatten [!UICONTROL Users retained] en [!UICONTROL Percentage of users retained].
+* **[!UICONTROL Counted as]**: De telmethode die u wilt toepassen op bewaarde gebruikers. Opties omvatten [!UICONTROL Users retained] en [!UICONTROL Percentage of users retained].
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment voegt een rij toe aan de cohortingtabel. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen

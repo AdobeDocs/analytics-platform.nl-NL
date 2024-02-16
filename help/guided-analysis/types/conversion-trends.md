@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Wrijving](friction.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Users] en [!UICONTROL Sessions].
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Users] en [!UICONTROL Sessions].
 * **[!UICONTROL Segments]**: De segmenten waar u de trechter doorheen wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen

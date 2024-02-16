@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Netto groei](net-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien dit weergavetype op gebruiker is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
 * **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt filteren. U kunt één segment in een vraag omvatten.
 
 ## Diagraminstellingen

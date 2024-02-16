@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Gebruik](usage.md).
 * **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt weergegeven als een afzonderlijke grafiek. Er wordt een rij die de trended-gebeurtenis vertegenwoordigt, aan de tabel toegevoegd. U kunt maximaal vijf gebeurtenissen opnemen.
-* **[!UICONTROL Counted as]**: De metrische waarde die u wilt meten. Opties omvatten [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] en  [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] en  [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal balken in het diagram en de rijen in de tabel. U kunt maximaal vijf segmenten opnemen.
 
 ## Diagraminstellingen
