@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: b091606cefa79d5c6d46e2a4a70a77a4cb015c6e
+source-git-commit: 39486d83a446c8bcfe93824c06bee3c681922ff4
 workflow-type: tm+mt
 source-wordcount: '3245'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Klik op de gekoppelde voorkeurstitels voor meer informatie en context over elke 
 | --- | --- | --- |
 | **Weergave** | | |
 |  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-| | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de paletten voor visualisatiekleuren die worden gebruikt in Analysis Workspace en de analyse Met instructies. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en analyse met instructies. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
+| | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt en de geleide analyse. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en op geleide analyses. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
 | **Gegevens** | | |
 |  | [Gegevens, weergave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies uit waar tabellen en visualisaties de gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke gegevensweergave die is geselecteerd in een lijst</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |
