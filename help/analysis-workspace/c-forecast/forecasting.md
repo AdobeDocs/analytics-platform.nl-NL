@@ -3,20 +3,20 @@ description: Meer weten over voorspellingen in Analysis Workspace?
 title: Overzicht van de prognoses
 feature: Visualizations
 role: User
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de prognoses
 
-{{release-limited-testing}}
+
 
 {{select-package}}
 
-Prognosering is een nieuwe Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
+Prognosering is een Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
 
 U kunt prognoses gebruiken voor:
 

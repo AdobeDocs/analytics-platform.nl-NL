@@ -4,10 +4,10 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 1%
 
 ---
 
@@ -23,15 +23,20 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 
 >[!BEGINTABS]
 
+>[!TAB Voorspelling]
+
+Prognosering is een Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
+
+[![image](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
+
+
 >[!TAB Analyse met instructies* - Bewaarpercentages]
 
 Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren. De horizontale as geeft het aantal dagen weer sinds de eerste betrokkenheid van een gebruiker. De verticale as geeft het percentage weer van de gebruikers die zich opnieuw engageren.
 
-[![image](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is._</span>
-
-
 
 
 >[!TAB Analyse met instructies* - Trendlines]
