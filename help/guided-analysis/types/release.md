@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
+* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Eerste gebruik](first-use.md).
 * **[!UICONTROL Key indicators]**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], en [!UICONTROL Users].
 * **[!UICONTROL Factors]**: De datum die u voor en na wilt vergelijken.

@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
+* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Frequentie](frequency.md).
 * **[!UICONTROL Events & Metrics]**: De gebeurtenissen of metriek die u wilt meten. Elke selectie wordt weergegeven als een diagramreeks en tabelrij. Gebeurtenissen en metriek kunnen niet in de vraag worden gecombineerd; zodra u uw eerste selectie hebt gemaakt, moeten de resterende vraagselecties van het zelfde type zijn. U kunt maximaal vijf selecties opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. U kunt onder andere gebeurtenissen, sessies, gebruikers, percentage gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen. Geladen als opties zijn alleen van toepassing op gebeurtenisquery&#39;s en worden verwijderd voor metrische query&#39;s.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal grafiekreeksen en lijstrijen. U kunt maximaal vijf segmenten opnemen.
