@@ -4,7 +4,7 @@ description: Neem sessiegebeurtenissen op gebruikersniveau in de loop der tijd w
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebruikersniveau in de loop der tijd observeren om ervaringspatronen te zoeken en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 
-![Tijdlijnscreenshot](../assets/timeline.png)
+![Tijdlijnscreenshot](../assets/timeline.png){style="border:1px solid gray"}
 
 >[!NOTE]
 >

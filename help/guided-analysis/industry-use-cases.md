@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 
 {style="table-layout:auto"}
 
-![Wrijvingsweergave voor de detailhandel](assets/retail-funnel-friction.png)
+![Wrijvingsweergave voor de detailhandel](assets/retail-funnel-friction.png){style="border:1px solid gray"}
 
-![Gebruiksweergave voor detailhandel](assets/retail-trends-usage.png)
+![Gebruiksweergave voor detailhandel](assets/retail-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -44,11 +44,11 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 
 {style="table-layout:auto"}
 
-![Wrijvingsweergave voor financiële diensten](assets/fsi-funnel-friction.png)
+![Wrijvingsweergave voor financiële diensten](assets/fsi-funnel-friction.png){style="border:1px solid gray"}
 
-![Weergave voor gebruik van financiële services](assets/fsi-trends-usage.png)
+![Weergave voor gebruik van financiële services](assets/fsi-trends-usage.png){style="border:1px solid gray"}
 
-![Actieve weergave van financiële diensten](assets/fsi-user-growth-active.png)
+![Actieve weergave van financiële diensten](assets/fsi-user-growth-active.png){style="border:1px solid gray"}
 
 +++
 
@@ -56,18 +56,18 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 
 | Hoofdletters gebruiken | Voorbeeld | Gevolgen | Analyse |
 | --- | --- | --- | --- |
-| **Het effect van nieuwe functies voor boekingsstroom kwantificeren** | Een organisatie gebruikt Analyse met instructies om snel het effect van een nieuwe functie voor boekingsstappen op omrekeningskoersen te bekijken. Ze identificeren het deel van de ervaring met de grootste winst. | **Verhoog de reserveringspercentages.** Meet de invloed van uw bedrijf in plaats van alleen het gebruik van functies. | [Weergave-effect](types/release.md)<br>[Wrijvingsweergave](types/friction.md) |
+| **Het effect van nieuwe functies voor boekingsstroom kwantificeren** | Een organisatie gebruikt geleide analyse om snel het effect van een nieuwe eigenschap van de boekingsstap op omzettingspercentages te bekijken. Ze identificeren het deel van de ervaring met de grootste winst. | **Verhoog de reserveringspercentages.** Meet de invloed van uw bedrijf in plaats van alleen het gebruik van functies. | [Weergave-effect](types/release.md)<br>[Wrijvingsweergave](types/friction.md) |
 | **Mobiele app-ervaring optimaliseren** | Een organisatie begrijpt maandelijks actieve gebruikers van apps snel en gemakkelijk in de loop van de tijd en identificeert positieve gevolgen door versie. | **Verhoog de MAU&#39;s.** Bepaal en verhoog het gebruik van de app, wat overeenkomt met het geluk van de klant. | [Groeiweergave van actieve gebruikers](types/active.md)<br>[Netto-groeiweergave](types/net-growth.md) |
 | **Wrijving zoeken in mobiele check-inflow** | Door te zien waar mensen succesvol zijn of wegvallen van het verwachte mobiele incheckproces kan een organisatie eenvoudig gebieden identificeren voor optimalisatie van de ervaring. | **Verhoog CSAT en verminder IROPs.** Het verwijderen van wrijving leidt tot een naadloze &quot;dag van reis&quot;ervaring. | [Wrijvingsweergave](types/friction.md)<br>[Conversietrends, weergave](types/conversion-trends.md) |
 | **De vraag van het vraagcentrum richten** | Het zien van gebruikerservaring in een trechtermening toont een gebruiker waar de bezoekers wrijving raken, die tot het dure volume van het vraagcentrum leidt. De volgende stappen waarop u zich wilt concentreren, zijn duidelijk. | **Verminder vraag-centrum gebruik.** Krijg meer &quot;gelukkige weg&quot;gebruikerservaring en vermindert dure vraag. | [Wrijvingsweergave](types/friction.md)<br>[Conversietrends, weergave](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
-![Wrijvingsweergave voor reizen en gastvrijheid](assets/th-funnel-friction.png)
+![Wrijvingsweergave voor reizen en gastvrijheid](assets/th-funnel-friction.png){style="border:1px solid gray"}
 
-![De mening van het gebruik voor reis en gastvrijheid](assets/th-trends-usage.png)
+![De mening van het gebruik voor reis en gastvrijheid](assets/th-trends-usage.png){style="border:1px solid gray"}
 
-![Conversietrends voor reizen en gastvrijheid](assets/th-funnel-conversion-trends.png)
+![Conversietrends voor reizen en gastvrijheid](assets/th-funnel-conversion-trends.png){style="border:1px solid gray"}
 
 +++
 
@@ -79,15 +79,15 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 | **Omgevingsrisico identificeren** | Een organisatie ziet een hoge omzet van klanten die zich aanmelden voor hun platform om een seizoensgebeurtenis te bekijken en onmiddellijk na afloop van de gebeurtenis te annuleren. Door deze gebruikers snel te identificeren, kunnen ze aanbevelingen weergeven die klanten de mogelijkheid geven betrokken te blijven bij het platform. | **Houd gelukkige abonnees.** Inhoud zoeken die een groeisegment activeert om met aanbevelingen in te grijpen. | [Groeiweergave van actieve gebruikers](types/active.md)<br>[Netto-groeiweergave](types/net-growth.md) |
 | **Mogelijkheden voor upsell zoeken** | Een essentieel onderdeel van de inkomstengroei van een organisatie is het begrijpen van wat in-app aanbiedingen het meest aantrekkelijk zijn voor fans terwijl ze zich in het stadion bevinden. Met een analyse met instructies kunnen ze precies zien welke aanbiedingen het meest effectief zijn. | **Aanvullende inkomsten verhogen.** Begrijp de invloed van aanbiedingen in de app op het aansturen van aankoopgedrag. | [Weergave voor eerste gebruik](types/first-use.md)<br>[Wrijvingsweergave](types/friction.md) |
 | **Apparaatervaring optimaliseren** | Een organisatie wil analyseren hoe de abonnees met veelvoudige apparaten/apps interactie aangaan. Dankzij deze kennis kunnen ze de consumptiepatronen van content begrijpen en bepalen waar ze zich het best op kunnen richten. | **Pas de ervaring aan.** Begrijp welke inhoud het beste met abonnees op elk apparaat resoneert. | [Weergave trends gebruiken](types/usage.md) |
-| **De vraag van het vraagcentrum richten** | Een organisatie gebruikt Met instructies analyse om een probleem te identificeren waarbij de automatische incasso niet werkte. Hierdoor hebben gefrustreerde klanten hun ondersteuningscentrum opgeroepen om hun abonnement te annuleren. | **Verminder steunvraag.** Creëer een betere klantenervaring en verminder vraag aan de klantendienst. | [Wrijvingsweergave](types/friction.md)<br>[Conversietrends, weergave](types/conversion-trends.md) |
+| **De vraag van het vraagcentrum richten** | Een organisatie gebruikt geleide analyse om een kwestie te identificeren met de automatische afhandeling werkt niet, die gefrustreerde klanten ertoe bracht om hun steuncentrum te roepen om hun plan te annuleren. | **Verminder steunvraag.** Creëer een betere klantenervaring en verminder vraag aan de klantendienst. | [Wrijvingsweergave](types/friction.md)<br>[Conversietrends, weergave](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
-![Wrijvingsweergave voor media en entertainment](assets/me-funnel-friction.png)
+![Wrijvingsweergave voor media en entertainment](assets/me-funnel-friction.png){style="border:1px solid gray"}
 
-![Actieve weergave voor media en entertainment](assets/me-user-growth-active.png)
+![Actieve weergave voor media en entertainment](assets/me-user-growth-active.png){style="border:1px solid gray"}
 
-![](assets/me-trends-usage.png)
+![Weergave voor gebruik van media en entertainment](assets/me-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -95,14 +95,14 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 
 | Hoofdletters gebruiken | Voorbeeld | Gevolgen | Analyse |
 | --- | --- | --- | --- |
-| **De gezondheidsresultaten van de patiënt verbeteren** | Een organisatie beschikt over de gegevens om haar inspanningen op groei te richten. Voordat ze de analyse met instructies gebruikten, hadden ze geen duidelijk inzicht in hoeveel leden van het wellntieplan per week er gewoon mee gestopt waren. | **Verminder uw bezoek aan de arts.** Snel gesignaleerde slapende gebruikers voor een nieuwe betrokkenheid. | [Weergaven voor actieve gebruikersgroei](types/active.md) |
+| **De gezondheidsresultaten van de patiënt verbeteren** | Een organisatie beschikt over de gegevens om haar inspanningen op groei te richten. Voordat ze een geleide analyse gebruikten, hadden ze geen duidelijk inzicht in hoeveel leden van het wellntieplan per week er gewoon mee ophouden het te gebruiken. | **Verminder uw bezoek aan de arts.** Snel gesignaleerde slapende gebruikers voor een nieuwe betrokkenheid. | [Weergaven voor actieve gebruikersgroei](types/active.md) |
 | **Ervaar de patiënt beter** | De zichtbaarheid van het aantal patiënten dat contact opneemt met callcenters voor een eenvoudig wachtwoord heeft de passie van een analist voor laserfocus vernieuwd om zijn patiëntervaring te verbeteren. | **Verminder de totale kosten om te dienen.** Maak een betere patiëntenervaring en verlaag de vraag naar patiëntenservices. | [Weergave trends gebruiken](types/usage.md)<br>[Wrijvingsweergave](types/friction.md) |
-| **Herhaal kanaaloverschrijdende acties per segment** | Een organisatie wil begrijpen hoe de actieve in aanmerking komende leden van Medicare met hun plangebruik zijn om specifieke overseinen aan hen in hun digitale producten te verstrekken. Inzichten die zijn opgedaan met behulp van Guided analysis helpen marketing effectiever te maken. | **De inschrijvingsopties voor geneesmiddelen aanpassen.** Vergelijk gemeenschappelijke opeenvolgende acties door mijn actiefste planleden. | [Wrijvingsweergave](types/friction.md)<br>[Groeiweergave van actieve gebruikers](types/active.md) |
+| **Herhaal kanaaloverschrijdende acties per segment** | Een organisatie wil begrijpen hoe de actieve in aanmerking komende leden van Medicare met hun plangebruik zijn om specifieke overseinen aan hen in hun digitale producten te verstrekken. De inzichten die zijn opgedaan met behulp van geleide analyses helpen de marketing effectiever te maken. | **De inschrijvingsopties voor geneesmiddelen aanpassen.** Vergelijk gemeenschappelijke opeenvolgende acties door mijn actiefste planleden. | [Wrijvingsweergave](types/friction.md)<br>[Groeiweergave van actieve gebruikers](types/active.md) |
 | **De beste experts in de branche behouden** | De analysebronnen voor een organisatie worden op tijd vastgezet. De geleide analyse staat de organisatie toe om de gegevens van het productgebruik snel te krijgen nodig voor leiderschapsupdate vraag. | **De werklast van de analist verminderen.** Krijg sneller antwoorden. Een aanvaardbare rapportage wanneer dit het meest cruciaal is. | [Analyse met instructies](overview.md) |
 
 {style="table-layout:auto"}
 
-![Wrijvingsweergave voor gezondheidszorg](assets/healthcare-funnel-friction.png)
+![Wrijvingsweergave voor gezondheidszorg](assets/healthcare-funnel-friction.png){style="border:1px solid gray"}
 
 +++
 
@@ -117,6 +117,6 @@ De gevallen waarin u een geleide analyse kunt gebruiken, verschillen per branche
 
 {style="table-layout:auto"}
 
-![Gebruiksweergave voor B2B](assets/b2b-trends-usage.png)
+![Gebruiksweergave voor B2B](assets/b2b-trends-usage.png){style="border:1px solid gray"}
 
 +++

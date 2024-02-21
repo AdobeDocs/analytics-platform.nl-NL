@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Frequency]** Hiermee groepeert u gebeurtenisgegevens op basis van hoe vaak gebeurtenissen in uw product voorkomen. De verticale as van deze weergave bevat emmers die de frequentie van de gebeurtenis aangeven. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 
-![Frequentieschermopname](../assets/frequency-stacked.png)
+![Frequentieschermopname](../assets/frequency-stacked.png){style="border:1px solid gray"}
 
 ## Gebruik hoofdletters
 

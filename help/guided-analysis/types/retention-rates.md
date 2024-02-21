@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -29,7 +29,7 @@ De volgende tijdsemmers tellen het aantal gebruikers die op of na die duur terug
 * Als een gebruiker meerdere dagen na de eerste keer in aanmerking komt voor opname in de analyse, worden deze dagen weergegeven in het meest recente kwalificatieduur en in alle tijdssegmenten vóór de gebeurtenis. Dit type berekening wordt soms &quot;niet-begrensde retentie&quot; genoemd.
 * Als een gebruiker gedurende het geconfigureerde datumbereik meerdere keren met de gebeurtenis werkt, worden alleen de eerste en laatste gebeurtenissen in de analyse opgenomen.
 
-![Schermafbeelding met retentiesnelheden](../assets/retention-rates.png)
+![Schermafbeelding met retentiesnelheden](../assets/retention-rates.png){style="border:1px solid gray"}
 
 ## Gebruik hoofdletters
 
