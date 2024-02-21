@@ -5,9 +5,9 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 20f48259881bade1978909610055d6b20b894092
+source-git-commit: 949f0870c8607879d4f685f4fbeb838ddb68f80a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Deze vereiste standaardcomponenten worden standaard toegevoegd aan elke gegevens
 | [!UICONTROL People] | Metrisch | Gebaseerd op de persoon-id die is opgegeven in een [!UICONTROL Connection]. |
 | [!UICONTROL Sessions] | Metrisch | Gebaseerd op de de zittingsmontages van de gegevensmening. |
 | [!UICONTROL Events] | Metrisch | Het aantal rijen van alle gebeurtenisdatasets in a [!UICONTROL Connection]. |
+| [!UICONTROL Seconds] | Dimension | Het tweede dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste dimensie-item is de eerste seconde in het datumbereik en het laatste dimensie-item is de laatste seconde in het datumbereik. |
 | [!UICONTROL Minute] | Dimension | De minuut dat een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut in de datumwaaier, en het laatste afmetingspunt is de laatste minuut in de datumwaaier. |
 | [!UICONTROL Hour] | Dimension | Het uur dat een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is het eerste uur in de datumwaaier, en het laatste afmetingspunt is het laatste uur in de datumwaaier. |
 | [!UICONTROL Day] | Dimension | De dag waarop een bepaalde gebeurtenis plaatsvond. Het eerste afmetingspunt is de eerste dag in de datumwaaier, en het laatste afmetingspunt is de laatste dag in de datumwaaier. |

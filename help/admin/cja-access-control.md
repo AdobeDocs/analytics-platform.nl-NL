@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,18 @@ Een productprofiel is een set machtigingen. Beheerders van productprofielen kunn
 
 ## Toegang op gebruikersniveau
 
-Gebruikers in Customer Journey Analytics kunnen geen gegevensweergaven of verbindingen maken, bewerken of weergeven. De gebruikers kunnen filters, projecten, publiek, en berekende metriek met speciale toestemmingen in de Admin Console tot stand brengen.
+In de onderstaande matrix worden de belangrijkste toegangsmachtigingen voor verschillende Customer Journey Analytics-mogelijkheden voor niet-productbeheerders en CJA-productbeheerders beschreven. Als u deze machtigingen begrijpt, kunnen gebruikers beter door CJA navigeren en CJA gebruiken op basis van hun rol en verantwoordelijkheden binnen de organisatie.
+
+| CJA-productfunctionaliteit | Niet-productbeheerders (gebruikers) | Productbeheerders |
+| --- | --- | --- |
+| **Gegevensweergaven** | Kan niet weergeven/bijwerken/maken/verwijderen | Kan maken/bijwerken/verwijderen |
+| **Verbindingen** | Kan niet weergeven/bijwerken/maken/verwijderen | Kan maken/bijwerken/verwijderen |
+| **Filters** | Kan maken | Kan maken |
+| **Projecten** | Kan maken | Kan maken/bijwerken/verwijderen |
+| **Soorten publiek** | Kan maken met speciale machtigingen in Admin Console | Kan maken |
+| **Berekende standaarden** | Kan maken met speciale machtigingen in Admin Console | Kan maken |
+
+{style="table-layout:auto"}
 
 ## Workspace-projectcursus
 
