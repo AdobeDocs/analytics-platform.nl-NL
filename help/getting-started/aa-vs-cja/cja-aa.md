@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2027'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Anomalische detectie | Volledige ondersteuning |
 | Attribution IQ | Volledige ondersteuning |
+| Bodemdetectie | *Binnenkort verkrijgbaar!* Voor [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Op gegevenssets gebaseerde gegevenssets worden beide gefilterd. Algemene bindingslogica voor andere gegevenssets wordt uitgevoerd door [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
 | Berekende cijfers | Volledige ondersteuning. Eventuele bestaande berekende metrische waarden in de traditionele Analysis Workspace worden niet naar de Customer Journey Analytics overgebracht. |
 | Kalendergebeurtenissen | Volledige ondersteuning. Kalendergebeurtenissen zijn geïmplementeerd als [Annotaties](/help/components/annotations/overview.md) in Workspace. |
 | CSV-download | Volledige ondersteuning |
@@ -29,11 +30,12 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Datumvergelijkingen | Volledige ondersteuning |
 | Datumbereiken | Alle functionaliteit voor datumbereik wordt ondersteund. |
 | Dimensies | Volledige ondersteuning. Customer Journey Analytics gebruikt XDM en ondersteunt onbeperkte afmetingen. Customer Journey Analytics is niet gekoppeld aan de aangepaste eVars of props van traditionele Adobe Analytics. |
-| GDPR-verwijdering | Volledige ondersteuning; merk op dat GDPR nu wordt afgehandeld in coördinatie met [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
+| GDPR-verwijdering | Volledige ondersteuning; merk op dat GDPR nu wordt behandeld in coördinatie met [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics neemt alle gegevenswijzigingen over [!UICONTROL Experience Platform] maakt aan onderliggende datasets. |
 | Rapportage van optillen en betrouwbaarheid | Volledige ondersteuning via [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) |
 | Variabelen/List-eigenschappen | Volledige ondersteuning. Customer Journey Analytics gebruikt XDM en ondersteunt onbeperkte tekenreeksarrays die op dezelfde manier kunnen worden gebruikt als listVars. |
 | Merchandising-eVars | Volledige ondersteuning via [afmetingen binden en metriek binden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | Metrics | Volledige steun; de Customer Journey Analytics gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van Adobe Analytics. Sommige standaardmetriek zijn anders genoemd van Adobe Analytics: Bezoekers = Mensen, Bezoekingen = Sessies, Hits = Gebeurtenissen. |
+| Projecten, filters, en berekende metriek van Adobe Analytics aan Customer Journey Analytics migreren | Volledige ondersteuning. |
 | Mobiele scorecard/dashboards | Volledige ondersteuning |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. |
 | PDF exporteren | Volledige ondersteuning |
@@ -75,7 +77,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Projectdeling | Delen van projecten wordt alleen ondersteund door gebruikers van Customer Journey Analytics - er wordt geen project gedeeld tussen Customer Journey Analytics en de traditionele Analysis Workspace. |
 | Report Builder | Ondersteund met een nieuwe Office 365-insteekmodule voor Excel. |
 | Gebruikersmachtigingen/besturingselementen voor gegevenstoegang | Customer Journey Analytics maakt onderscheid tussen [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, productprofielbeheerders en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filters of annotaties. |
-| Visualisaties | Alle visualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
+| Visualisaties | Alle werkruimtevisualisaties worden ondersteund, behalve voor de visualisatie Kaart. |
 | Draaien tussen apparaten en kanalen | Ondersteund voor gegevenssets die rechtstreeks identiteitsgegevens bevatten (ook wel &quot;op het veld gebaseerde&quot; stitching genoemd). Op afbeeldingen gebaseerde stitching wordt nog niet ondersteund, maar is wel gepland. Zie [Stiksel](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
@@ -84,7 +86,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| Bot filteren | Voor [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)Op gegevenssets gebaseerde gegevenssets worden beide gefilterd. De algemene bot filtering logica voor andere datasets wordt niet uitgevoerd door de [!UICONTROL Experience Platform] of Customer Journey Analytics. |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segmentvergelijking en Analyse voor Doel (A4T) worden niet ondersteund. |
 | Analyses voor doel (A4T) | De gedeeltelijke steun wordt verleend door gebieden in [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
 
@@ -101,7 +102,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Gegevensbronnen van transactie-id | Er is steun gepland. |
-| Projecten, filters, en berekende metriek van Adobe Analytics aan Customer Journey Analytics migreren | Er is steun gepland. |
 | Gegevensbronnen op overzichtsniveau | Er is steun gepland. |
 
 {style="table-layout:auto"}
@@ -118,9 +118,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 ## Nooit ondersteund {#never}
 
 * Metrische personen met behulp van Cross-Device Coop
-* Dashboards voor rapporten en analyses
-* Bladwijzers voor rapporten en analyses
-* Doelstellingen voor rapporten en analyses
 
 ## Adobe Customer Journey Analytics-functies niet beschikbaar in Adobe Analytics {#cja-not-aa}
 
