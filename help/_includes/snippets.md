@@ -1,7 +1,7 @@
 ---
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U moet beschikken over **Selecteren** gebruiken om de in deze sectie beschreven functionaliteit te gebruiken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+>U moet beschikken over **Selecteren** -pakket of hoger gebruiken om de in deze sectie beschreven functionaliteit te gebruiken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+
+## Primair pakket {#prime-package}
+
+>[!NOTE]
+>
+>U moet beschikken over **Eerste** -pakket of hoger gebruiken om de in deze sectie beschreven functionaliteit te gebruiken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+
+## Ultieme verpakking {#ultimate-package}
+
+>[!NOTE]
+>
+>U moet beschikken over **Ultieme** gebruiken om de in deze sectie beschreven functionaliteit te gebruiken. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
 
 
 ## Criteria van het filter Gegevenswoordenboek {#dd-filter-criteria}
