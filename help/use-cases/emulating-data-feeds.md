@@ -6,7 +6,8 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
+exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
+source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -128,7 +129,7 @@ Om gegevens van andere datasets op te zoeken, gebruikt u standaard SQL functiona
 
 #### Berekeningen
 
-Gebruik de standaard SQL-functies (bijvoorbeeld `COUNT(*)` of de [wiskunde en statistische diensten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) onderdeel van Spark SQL. Ook, [vensterfuncties](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) bieden ondersteuning voor het bijwerken van aggregaties en het retourneren van afzonderlijke items voor elke rij in een geordende subset. Zie [Voorbeelden](#examples) over het gebruik van deze functies.
+Gebruik de standaard SQL-functies (bijvoorbeeld `COUNT(*)`) of de [wiskunde en statistische diensten](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) onderdeel van Spark SQL. Ook, [vensterfuncties](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) bieden ondersteuning voor het bijwerken van aggregaties en het retourneren van afzonderlijke items voor elke rij in een geordende subset. Zie [Voorbeelden](#examples) over het gebruik van deze functies.
 
 #### Geneste gegevensstructuur
 
@@ -277,4 +278,3 @@ Kortom, het emuleren van de functionaliteit Adobe Analytics Data Feed impliceert
 >[!IMPORTANT]
 >
 >Twee planners zijn betrokken in dit gebruiksgeval. Om een behoorlijk werk van de geëmuleerde functionaliteit van de gegevensvoer te waarborgen, zorg ervoor dat de programma&#39;s die in de Dienst van de Vraag en de uitvoer van Gegevens worden gevormd zich niet mengen.
-
