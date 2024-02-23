@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
+source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Containernaam**] | De container binnen de account die u hebt opgegeven, waarin u de gegevens van de Customer Journey Analytics wilt verzenden. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat het SAS-tokenarchief dat u in het geheime naamveld Key Vault hebt opgegeven bij de configuratie van de Azure SAS-account, de `Write` toestemming. Hierdoor kan de SAS-token bestanden in uw Azure-container maken. <p>Als u wilt dat het SAS-token ook bestanden kan overschrijven, zorgt u ervoor dat de SAS-tokenwinkel de `Delete` toestemming.</p><p>Zie voor meer informatie [Bronnen voor blokopslag](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in de Azure Blob Storage-documentatie.</p> |
 
    {style="table-layout:auto"}
 
@@ -172,7 +172,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
    | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/` |
+   | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat de toepassings-id die u hebt opgegeven bij het configureren van de Azure RBAC-account, is toegewezen aan de `Storage Blob Data Contributor` rol om tot de container (omslag) toegang te hebben.</p> <p>Zie voor meer informatie [Azure ingebouwde rollen](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **Account**] | De Azure-opslagaccount. |
 
    {style="table-layout:auto"}

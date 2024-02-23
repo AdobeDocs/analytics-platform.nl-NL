@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,7 @@ Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebie
 
 ## Wijzigingen van het begrip &quot;segmenten&quot;
 
-Adobe heeft de naam van de &quot;segmenten&quot; gewijzigd in &quot;filters&quot; om deze beter af te stemmen op de industriestandaarden en om segmenten in Adobe Experience Platform beter te kunnen onderscheiden.
-
-[!UICONTROL Customer Journey Analytics] gebruikt niet meer eVars, props, of gebeurtenissen en gebruikt in plaats daarvan de het schemagebiedsnaam van het Experience Platform waaraan zij in kaart zijn gebracht. Deze wijziging betekent dat geen van de bestaande segmenten in Adobe Analytics compatibel is met [!UICONTROL Customer Journey Analytics]. Zie de volgende video als u bestaande Adobe Analytics-segmenten naar Customer Journey Analytics wilt verplaatsen:
-
->[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
+Hoewel segmenten technisch niet van Adobe Analytics naar Customer Journey Analytics worden gemigreerd, kunt u het hulpmiddel van de componentenmigratie gebruiken om uw segmenten van Adobe Analytics in Customer Journey Analytics opnieuw tot stand te brengen. De segmenten worden opnieuw gecreeerd in Customer Journey Analytics die op de afmetingen en metriek wordt gebaseerd die in kaart worden gebracht. Zie voor meer informatie [Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
 
 Hoewel u nog niet kunt delen of publiceren [!UICONTROL filters] ([!UICONTROL segments]) van [!DNL Customer Journey Analytics] aan Experience Platform verenigd Profiel, is deze functionaliteit in ontwikkeling.
 
