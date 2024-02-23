@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d9a54eca27b41a7d52e61a75e18850608fc97e5e
+source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
 workflow-type: tm+mt
-source-wordcount: '3168'
+source-wordcount: '3194'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Februari 2024** | |
+| Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [met u gedeelde projecten weergeven](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Azure SAS en Azure RBAC bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Azure SAS en Azure RBAC wanneer [cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Amazon S3 Role ARN en GCP buckets bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Amazon S3 Role ARN en Google Cloud Platform buckets wanneer [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
 | Verduidelijkt dat de Admins van het Product altijd toegang hebben om volledige lijsten uit te voeren | Breng de volgende wijzigingen aan om te verduidelijken dat gebruikers aan wie de rol Productbeheerder is toegewezen, standaard toegang hebben tot het exporteren van volledige tabellen vanuit Analysis Workspace: <ul><li>Een nieuw opsommingsteken toegevoegd aan [Standaardmachtigingen voor productbeheer](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Een notitie toegevoegd onder de [minimumeisen voor het exporteren van volledige tabellen naar de cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
