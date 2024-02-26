@@ -5,9 +5,9 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c1e6279d8e2f0b31a82c2588fce8b3c2e614e440
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ De meningen van gegevens laten u spontaan de montages van het schemaelement vera
 
 * Voordat u gegevensweergaven kunt maken, moet u [opstelling één of meerdere verbindingen met de datasets van de Experience Platform](/help/connections/create-connection.md).
 * Als u een gegevensweergave wilt maken of beheren, hebt u een [set machtigingen in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions).
+* Als u het [Adobe Analytics-bronaansluiting](/help/data-ingestion/analytics.md) Of u hebt wel Adobe Analytics-achtergrondkennis, u wilt wellicht begrijpen hoe velden in uw schema&#39;s en gegevenssets, onderdeel van de verbinding, betrekking hebben op hun Adobe Analytics-tegenhangers. Zie [Toewijzingen van analytische velden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) voor meer informatie .
 
 ## De weergave-instellingen die u kunt overschrijven in de werkruimte {#settings-override}
 
