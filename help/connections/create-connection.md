@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
+source-git-commit: 449aa54d1a1dd1ff2ce9e7408926f61533fc3c02
 workflow-type: tm+mt
-source-wordcount: '2618'
+source-wordcount: '2634'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,16 @@ De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle datas
 
 ## Vereisten
 
-U moet beschikken over **Selecteren** pakket om een onbeperkt aantal gebeurtenisdatasets aan een verbinding toe te voegen. De **Stichting** pakket is beperkt tot één gebeurtenisdataset. U kunt onbeperkte aantallen profiel of raadplegingsdatasets aan een verbinding toevoegen. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
+Het aantal datasets u aan een verbinding kunt toevoegen wordt beperkt tot 100. De mix is afhankelijk van het Customer Journey Analytics dat uw bedrijf heeft aangeschaft.
+
+| **Selecteren** package | **Stichting** package |
+| --- | --- |
+| Om het even welke combinatie gebeurtenis/profiel/raadplegingsdatasets, die tot 100 optellen | Eén gebeurtenisgegevensset per verbinding |
+|  | Maximaal 99 profiel- of opzoekgegevenssets per verbinding |
+
+{style="table-layout:auto"}
+
+Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
 
 ## Verbinding maken en configureren {#create-connection}
 
