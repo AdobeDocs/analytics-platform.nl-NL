@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2be283e0abd32229be1921b106d166f47fb410a8
+source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2618'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ U moet beschikken over **Selecteren** pakket om een onbeperkt aantal gebeurtenis
    | **[!UICONTROL Key]** | Alleen voor opzoekgegevenssets (zoals _id). |
    | **[!UICONTROL Matching Key]** | Alleen voor opzoekgegevenssets (zoals _id). |
    | **[!UICONTROL Import new data]** | Instellen op Aan of Uit. |
-   | **[!UICONTROL Backfill data]** | U kunt verzoeken om back-up te maken van de gegevens in een gegevensset op basis van tijdstempels van gebeurtenissen. Bijvoorbeeld, kunt u verzoeken om de laatste 7 dagen van gegevens terug te vullen, juiste identiteitskaart van de Persoon te vormen en uw verbinding voor correcte configuratie te testen. Als alles er goed uitziet, kunt u eenvoudig back-ups maken van alle resterende gegevens.<p>Bovendien kunt u de invoer van nieuwe gegevens door dataset toelaten. U kunt bijvoorbeeld het importeren van nieuwe gegevens alleen inschakelen voor opzoekgegevens. |
+   | **[!UICONTROL Backfill data]** | U kunt verzoeken om back-up te maken van de gegevens in een gegevensset op basis van tijdstempels van gebeurtenissen. Bijvoorbeeld, kunt u verzoeken om de laatste 7 dagen van gegevens terug te vullen, juiste identiteitskaart van de Persoon te vormen en uw verbinding voor correcte configuratie te testen. Als alles er goed uitziet, kunt u eenvoudig back-ups maken van alle resterende gegevens.<p>Bovendien kunt u de invoer van nieuwe gegevens door dataset toelaten. |
    | **[!UICONTROL Backfill status]** | Geeft aan of er backfill-gegevens worden verwerkt. |
 
    {style="table-layout:auto"}
