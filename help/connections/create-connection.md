@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 449aa54d1a1dd1ff2ce9e7408926f61533fc3c02
+source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2635'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle datas
 
 ## Vereisten
 
-Het aantal datasets u aan een verbinding kunt toevoegen wordt beperkt tot 100. De mix is afhankelijk van het Customer Journey Analytics dat uw bedrijf heeft aangeschaft.
+Het maximumaantal datasets u aan een verbinding kunt toevoegen wordt beperkt tot 100. De mix is afhankelijk van het Customer Journey Analytics dat uw bedrijf heeft aangeschaft.
 
 | **Selecteren** package | **Stichting** package |
 | --- | --- |
