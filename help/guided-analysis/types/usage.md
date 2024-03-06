@@ -2,10 +2,10 @@
 title: Gebruiksweergave
 description: Meet de betrokkenheid van de gebruiker in de loop van de tijd.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
-feature: Guided Analysis
+feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
