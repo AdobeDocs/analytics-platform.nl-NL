@@ -7,7 +7,7 @@ feature: Basics
 role: User, Admin, Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 4%
@@ -26,11 +26,11 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Nieuwe of aanbevolen objecten</b> </p> <p> 
      <ul>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/stitching/overview.html"> Kanaaloverschrijdende analyse (stitching-id's in Customer Journey Analytics) </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en">Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> Rapportsets combineren met verschillende schema's </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=en"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics rapportagefuncties </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=en"> Virtuele rapportsuites, gegevensweergaven, Adobe Experience Platform-sandboxen en de gegevensbronconnector van Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html">Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html"> Rapportsets combineren met verschillende schema's </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html"> Verwerkingsregels, VISTA en classificaties versus Data Prep </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html"> Vergelijk gegevensverwerking in Adobe Analytics en Customer Journey Analytics rapportagefuncties </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html"> Virtuele rapportsuites, gegevensweergaven, Adobe Experience Platform-sandboxen en de gegevensbronconnector van Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html"> Adobe Analytics naar Customer Journey Analytics evolutie </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html"> Gebruikershandleiding voor Customers Journey Analytics voor Adobe Analytics-gebruikers </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> De verbeterde mogelijkheden voor verbindingsbeheer gebruiken </a> </li>

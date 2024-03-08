@@ -5,7 +5,7 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 0%
@@ -81,9 +81,9 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 
    1. Download de [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Voer in de Adobe Experience Platform-documentatie de stappen uit die worden beschreven in [Sluit uw container voor landingszones voor gegevens aan op Azure Storage Explorer](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+   1. Voer in de Adobe Experience Platform-documentatie de stappen uit die worden beschreven in [Sluit uw container voor landingszones voor gegevens aan op Azure Storage Explorer](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-      U kunt de in de secties beschreven taken overslaan [Haal de geloofsbrieven voor uw Gebied van Gegevens terug Landing](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) en [Referenties van gegevenslandingszone bijwerken](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials), omdat de URI die u hebt gekopieerd deze referenties bevat.
+      U kunt de in de secties beschreven taken overslaan [Haal de geloofsbrieven voor uw Gebied van Gegevens terug Landing](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) en [Referenties van gegevenslandingszone bijwerken](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), omdat de URI die u hebt gekopieerd deze referenties bevat.
 
    1. Wanneer u de Adobe Experience Platform-documentatie volgt en naar de [!UICONTROL **SAS-URL blokcontainer**] plakken, plakt de SAS URI die u in Stap 3 kopieerde.
 

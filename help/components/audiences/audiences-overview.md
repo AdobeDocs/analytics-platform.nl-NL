@@ -4,23 +4,23 @@ description: Leer over het concept publiek publiceren in Customer Journey Analyt
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Publicatieoverzicht Customer Journey Analytics Publiek
 
-U kunt nu publiek maken dat is ontdekt in Customer Journey Analytics naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+U kunt nu publiek maken dat is ontdekt in Customer Journey Analytics naar [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
 Het publiceren van publiek biedt een duidelijke manier om inzichten binnen Customer Journey Analytics te activeren en actie te ondernemen. Deze acties kunnen het volgende omvatten:
 
 * Het publiek gebruiken voor een reis in Adobe Journey Optimizer.
 * Het publiek naar een derde via een bestemming van een Experience Platform exporteren.
 * Het verrijken van het Real-Time klantenprofiel met nuttige attributen die uit op gebeurtenis-gebaseerde gegevens in Customer Journey Analytics worden afgeleid.
-* Dit alles doen met minimale vertraging na publicatie van het publiek. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
+* Dit alles doen met minimale vertraging na publicatie van het publiek. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
 * Eenmalig publiek publiceren of terugkerend publiek.
 
 Het publiek u in Customer Journey Analytics creeert moet niet op datasets worden gebaseerd die voor profiel worden toegelaten. U kunt historische gegevens in Experience Platform opnemen zonder bijbehorende datasets en schema&#39;s voor profiel toe te laten. Gebruik deze datasets vervolgens om relevante doelgroepen in de Customer Journey Analytics te ontdekken en deze doelgroepen voor activeringsdoeleinden te publiceren naar Real-time Customer Profile in Experience Platform.
@@ -43,7 +43,7 @@ Het publiek u in Customer Journey Analytics creeert moet niet op datasets worden
 
 ## Beheer en instemming van gegevens
 
-Wanneer u een publiek in Customer Journey Analytics publiceert, worden de etiketten en het beleid van het Beleid van Gegevens verbonden aan de gebieden die in het publiek worden gebruikt geregistreerd.  Wanneer het publiek in om het even welke app van de Ervaring van de Adobe wordt geactiveerd, zijn alle bijbehorende etiketten en het beleid van het Beleid van Gegevens beschikbaar voor dat publiek en de aangewezen handhaving kan worden toegepast. [Meer informatie over toestemming](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Wanneer u een publiek in Customer Journey Analytics publiceert, worden de etiketten en het beleid van het Beleid van Gegevens verbonden aan de gebieden die in het publiek worden gebruikt geregistreerd.  Wanneer het publiek in om het even welke app van de Ervaring van de Adobe wordt geactiveerd, zijn alle bijbehorende etiketten en het beleid van het Beleid van Gegevens beschikbaar voor dat publiek en de aangewezen handhaving kan worden toegepast. [Meer informatie over toestemming](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
 ## Volgende stappen
 

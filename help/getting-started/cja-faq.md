@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2329'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Adobe heeft onlangs gewijzigd hoe gegevens in de Customer Journey Analytics word
 
 ## 5. Rolvenster instellen voor [!UICONTROL Connection] gegevensbewaring {#data-retention}
 
-De [**[!UICONTROL Enable rolling data window]**instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection) Hiermee kunt u de gegevensbewaring van Customers Journey Analytics definiëren als een schuifvenster in maanden (drie maanden, zes maanden enzovoort). Deze is ingesteld op een [!UICONTROL connection] niveau, niet op [!UICONTROL dataset] niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
+De [**[!UICONTROL Enable rolling data window]**instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection) Hiermee kunt u de gegevensbewaring van Customers Journey Analytics definiëren als een schuifvenster in maanden (drie maanden, zes maanden enzovoort). Deze is ingesteld op een [!UICONTROL connection] niveau, niet op [!UICONTROL dataset] niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
@@ -237,7 +237,7 @@ Meer informatie over de [implicaties van gegevensset en het schrappen van verbin
 
 De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interacties tussen uw bezoekers en Adobe- en niet-Adobe-oplossingen zo dicht mogelijk bij uw bezoekers kunnen plaatsvinden. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC, ook gekend als plaats van de Rand, deel van het Netwerk van de Rand van het Platform) worden verzameld, door:sturen het over een veilige verbinding aan de relevante oplossingen die op de configuratie van uw gegevensstroom en/of gebeurtenis het door:sturen worden gebaseerd.
 
-![Gegevensstroom met Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=en)
+![Gegevensstroom met Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 Bij het regionale gegevensverzamelingsproces worden de volgende stappen uitgevoerd:
 
@@ -267,5 +267,4 @@ Wanneer de gegevens het regionale gegevenscentrum raken, bepaalt de configuratie
 Customer Journey Analytics vereist datasets van Adobe Experience Platform, zodat vereist uw datastream/gebeurtenis die configuratie door:sturen de dienst van Adobe Experience Platform om de gegevens van het regionale gegevenscentrum aan het gegevenscentrum te leiden waar uw instantie van Adobe Experience Platform wordt gevestigd. Customer Journey Analytics en zijn ondersteunende diensten en infrastructuur worden op hetzelfde Adobe Experience Platform-exemplaar ingezet.
 
 
-Zie [Overzicht van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=en) voor meer informatie over het proces van gegevensinzameling voorbij het netwerk van de Rand van de Ervaring en zijn regionale gegevenscentra.
-
+Zie [Overzicht van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) voor meer informatie over het proces van gegevensverzameling buiten het Adobe Experience Platform Edge Network en zijn regionale datacenters.

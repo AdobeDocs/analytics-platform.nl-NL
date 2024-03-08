@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van eind februari
 | ----------- | ---------- | ------- | ---- |
 | **Prognoses tijdreeksen** | [Voorspelling](../analysis-workspace/c-forecast/forecasting.md) is een nieuwe Analysis Workspace-functie die wordt gebruikt om een standaard of berekende metrische waarde te voorspellen met een ondersteunde tijdkorreligheid (uur, dag, week, maand en jaar) voor vrije-vormtabellen en lijngrafieken. | donderdag 31 januari 2024 | donderdag 21 februari 2024 |
 | **Rijtellingen voor raadpleging en profielgegevens** | De metriek van de telling van de rij voor datasets, die als deel van een verbinding worden gevormd, omvat nu toegevoegde, overgeslagen, of geschrapt van profiel en raadplegingsdatasets. |  | donderdag 14 februari 2024 |
-| **Ervaar de detectie van Edge-bot** | [Bodemdetectie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) staat u toe om gebeurtenissen te identificeren die door Web SDK, Mobiele SDK en Server API worden geproduceerd zoals die door bekende spinnen en bots worden geproduceerd. | | dinsdag 29 april 2024 |
+| **Edge Network bot detection** | [Bodemdetectie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) staat u toe om gebeurtenissen te identificeren die door het Web SDK, Mobiele SDK en Server API worden geproduceerd zoals die door bekende spinnen en bots worden geproduceerd. | | dinsdag 29 april 2024 |
 | **Gebruiksmetriek** | De interface van gebruiksmetriek toont het gebruik van opgenomen en te melden rijen over alle verbindingen. Met deze interface kunt u bepalen of het gebruik van uw Customer Journey Analytics in overeenstemming is met wat contractueel is overeengekomen. | woensdag 20 februari 2024 | donderdag 13 maart 2024 |
 | **Adobe Product Analytics: Delen met iedereen** | Laat u een read-only verbinding met de projecten van het Adobe Product Analytics met mensen delen die geen toegang tot Product Analytics hebben. |  | Eind maart 2024 |
 | **Adobe Product Analytics: berekende metriek toepassen** | U kunt berekende metriek nu tot stand brengen die in Analysis Workspace of Berekende Metrische bouwer in de Trends wordt gecreeerd: de mening van het Gebruik, toelatend u om metriek in tijd te trenderen en te vergelijken. |  | zaterdag 16 februari 2024 |
@@ -46,7 +46,7 @@ AN-333172; AN-336887; AN-337402; AN-337593; AN-338482; AN-338684; AN-33983; AN 3
 ## Gerelateerde bronnen
 
 * [Opmerkingen bij de vorige release van Customer Journey Analytics voor 2023](/help/release-notes/2023.md)
-* [Opmerkingen bij de release van Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=en)
+* [Opmerkingen bij de release van Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 * [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Documentatieupdates Customer Journey Analytics](/help/release-notes/doc-changes.md)

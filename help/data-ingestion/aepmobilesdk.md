@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '3088'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Uw schema instellen:
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. of [een nieuwe veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) en [nieuwe identiteitsvelden toevoegen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (zoals `ecid`, `crmId`, en andere die u nodig hebt) naar de veldgroep en selecteer die nieuwe veldgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. of [een nieuwe veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) en [nieuwe identiteitsvelden toevoegen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (zoals `ecid`, `crmId`, en andere die u nodig hebt) naar de veldgroep en selecteer die nieuwe veldgroep.
 
    ![Identificatieobject](./assets/identification-field-mobile.png)
 
@@ -134,7 +134,7 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) voor meer informatie .
+   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie .
 
    >[!IMPORTANT]
    >
@@ -232,7 +232,7 @@ Uw gegevensstroom instellen:
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die zijn verzameld in uw mobiele app door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 
 
@@ -285,7 +285,7 @@ U wilt ook de volgende extra extensies instellen vanuit de catalogus:
 - AEP-betrouwbaarheid.
 - Toestemming.
 
-Zie [Een eigenschap voor een tag configureren](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=en) in de Mobile App Tutorial for Experience-platform voor veel meer informatie over extensies en hun configuratie.
+Zie [Een eigenschap voor een tag configureren](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html) in de Mobile App Tutorial for Experience-platform voor veel meer informatie over extensies en hun configuratie.
 
 #### **Gegevenselementen**
 

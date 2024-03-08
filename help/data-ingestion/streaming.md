@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) voor meer informatie .
+   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie .
 
    >[!IMPORTANT]
    >
@@ -237,7 +237,7 @@ Een HTTP API-bronconnector maken:
 
 U kunt het stromen eindpunt URL kopiëren en het gebruiken om uw loyaliteitstoepassing te vormen om gegevens in de de loyaliteitdataset van Adobe Experience Platform te stromen.
 
-Zie [Een HTTP API-streamingverbinding maken met de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en) voor een veel uitgebreidere zelfstudie waarin wordt uitgelegd :
+Zie [Een HTTP API-streamingverbinding maken met de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) voor een veel uitgebreidere zelfstudie waarin wordt uitgelegd :
 
 - hoe verificatie moet worden gebruikt;
 - hoe te om gegevens in kaart te brengen wanneer uw inkomende gegevens niet compatibel met uw schema XDM zijn, en

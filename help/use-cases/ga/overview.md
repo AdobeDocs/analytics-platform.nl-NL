@@ -4,9 +4,9 @@ description: Leer de overkoepelende workflow voor het verplaatsen van gegevens v
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Als u met succes historische gegevens naar Platform brengt, kunt u of [Huidige g
 
 ## Een bestaande implementatie van Googles Analytics voor Adobe Experience Platform configureren {#configure}
 
-Bij het verzamelen van huidige (streaming) gegevens moeten gegevens naar Adobe Experience Edge worden verzonden, die deze gegevens vervolgens doorstuurt naar Adobe Experience Platform. Zie [Gegevens voor streaming Googles Analytics instellen in Adobe Experience Platform](streaming.md).
+Bij het verzamelen van huidige (streaming) gegevens moeten gegevens naar het Adobe Experience Platform Edge Network worden verzonden, dat die gegevens vervolgens doorstuurt naar Adobe Experience Platform. Zie [Gegevens voor streaming Googles Analytics instellen in Adobe Experience Platform](streaming.md).
 
 ## Een verbinding en gegevensweergave configureren in Customer Journey Analytics
 

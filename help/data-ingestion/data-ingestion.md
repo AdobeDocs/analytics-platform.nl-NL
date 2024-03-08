@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Er zijn verschillende opties voor het opnemen van gegevens in de Customer Journe
 >In alle scenario&#39;s, de gegevens u wilt _gebruiken_ in de Customer Journey Analytics _ingesloten_ in Adobe Experience Platform.
 
 
-Zie de architectuur van de Customer Journey Analytics op hoog niveau die vroeger in wordt getoond [Overzicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en):
+Zie de architectuur van de Customer Journey Analytics op hoog niveau die vroeger in wordt getoond [Overzicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html):
 
 ![Customer Journey Analytics architectuur beschreven in deze sectie](./assets/cja-architecture.png)
 
@@ -84,6 +84,6 @@ Zie [Streaming gegevens invoegen en gebruiken](./streaming.md) voor meer informa
 
 ## Gegevens verzamelen en gebruiken met behulp van bronconnectors
 
-U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. De bronschakelaars zijn configureerbare configuraties die u toestaan om gegevens van Adobe, eerste-partijtoepassing en derdetoepassing in Adobe Experience Platform in te voeren. Zie [Overzicht van bronconnectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
+U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. De bronschakelaars zijn configureerbare configuraties die u toestaan om gegevens van Adobe, eerste-partijtoepassing en derdetoepassing in Adobe Experience Platform in te voeren. Zie [Overzicht van bronconnectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken met behulp van bronconnectors](./sources.md) voor meer informatie .

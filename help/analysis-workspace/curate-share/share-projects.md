@@ -5,7 +5,7 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Een Analysis Workspace-project met iedereen delen:
 
    Als u deze optie selecteert, wordt een koppeling naar het project gemaakt die met iedereen kan worden gedeeld. U kunt toegang tot het project op elk ogenblik onbruikbaar maken door deze optie onbruikbaar te maken.
 
-   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de koppeling kan alleen naar een andere gebruiker worden overgedragen wanneer de projecteigendom wordt overgedragen, zoals in [Gebruikerselementen overdragen of verlopen van account instellen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) in de handleiding Analytics Admin.
+   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de koppeling kan alleen naar een andere gebruiker worden overgedragen wanneer de projecteigendom wordt overgedragen, zoals in [Gebruikerselementen overdragen of verlopen van account instellen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) in de handleiding Analytics Admin.
 
 1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van de Customer Journey Analytics):
 

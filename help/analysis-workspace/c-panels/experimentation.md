@@ -4,7 +4,7 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 0%
@@ -17,7 +17,7 @@ De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschil
 
 >[!IMPORTANT]
 >
->Op dit punt [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) (A4T) gegevens *kan* worden geanalyseerd in het deelvenster Experimentatie.
+>Op dit punt [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) gegevens *kan* worden geanalyseerd in het deelvenster Experimentatie.
 
 ## Toegangsbeheer {#access}
 
@@ -29,7 +29,7 @@ Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UIC
 
 ## Stap 1: Verbinding maken om gegevensset(s) te experimenteren {#connection}
 
-Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in een **enkel** objectarray. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
+Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Objectarray](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html) die de experimentele gegevens en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in een **enkel** objectarray. Als u uw experimentele gegevens in één dimensie met experimentele en variantgegevens in een afgebakende tekenreeks hebt, kunt u de [substring](/help/data-views/component-settings/substring.md) het plaatsen in gegevensmeningen om hen in twee voor gebruik in het paneel te verdelen.
 
 Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in Customer Journey Analytics](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 

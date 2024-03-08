@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Soorten publiek maken en publiceren
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan wordt geïdentificeerd [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan wordt geïdentificeerd [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 
 Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis te nemen van het begrip publiek van de Customer Journey Analytics.
 
@@ -64,7 +64,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
    | [!UICONTROL Estimated to return] | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u van de drop-down lijst selecteerde. We kijken naar de historische waarde van de kroon voor dit publiek om dit getal te voorspellen. |
    | [!UICONTROL Preview metrics] | Met deze instelling kunt u naar specifieke maateenheden kijken om te zien of dit publiek een onevenredig grote bijdrage levert aan deze metrische waarde, zoals &#39;[!UICONTROL Revenue]&#39; of &#39;[!UICONTROL Average time on site]&quot;. Het geeft u het totale aantal metrisch, evenals het percentage van het totaal het vertegenwoordigt. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
    | [!UICONTROL Namespaces included] | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-   | [!UICONTROL Sandbox] | De [Experience Platform sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) waarin dit publiek woont. Wanneer u dit publiek publiceert naar Platform, kunt u er alleen mee werken binnen de grenzen van deze sandbox. |
+   | [!UICONTROL Sandbox] | De [Experience Platform sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) waarin dit publiek woont. Wanneer u dit publiek publiceert naar Platform, kunt u er alleen mee werken binnen de grenzen van deze sandbox. |
 
    {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ Lees deze [overzicht](/help/components/audiences/audiences-overview.md) kennis t
 
    Als alles goed ging, ontvangt u een bevestigingsbericht dat het publiek werd gepubliceerd. Het duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt. (Zelfs voor het publiek met miljoenen leden moet het minder dan 5 minuten duren.)
 
-1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Zie hieronder voor meer informatie.
+1. Klikken **[!UICONTROL View audience in AEP]** in hetzelfde bericht en u gaat naar de [Gebruikersinterface segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## Wat gebeurt er nadat een publiek is gemaakt? {#after-audience-created}
 
@@ -141,7 +141,7 @@ De Customer Journey Analytics stroomt de gegevens in RTCP via pijpleiding, en de
 
 +++**Welke identiteiten stuurt Customer Journey Analytics over?**
 
-Welke identiteit/naamruimteparen zijn opgegeven in het dialoogvenster [Verbinding instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection). Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;identiteitskaart van de Persoon&quot;willen gebruiken.
+Welke identiteit/naamruimteparen zijn opgegeven in het dialoogvenster [Verbinding instellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als hun &quot;identiteitskaart van de Persoon&quot;willen gebruiken.
 
 +++
 

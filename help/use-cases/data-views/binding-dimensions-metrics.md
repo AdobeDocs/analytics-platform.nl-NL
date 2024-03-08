@@ -4,7 +4,7 @@ description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarra
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -440,4 +440,4 @@ Als u echter bindt `product_finding_method` Aan de Kaart voegt metrisch toe, ken
 
 >[!MORELIKETHIS]
 >
->[Dimensionen binden in gegevensweergaven](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=en) zelfstudie.
+>[Dimensionen binden in gegevensweergaven](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) zelfstudie.

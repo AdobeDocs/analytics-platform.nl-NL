@@ -4,7 +4,7 @@ description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics wer
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Over het algemeen worden instellingen met betrekking tot gegevensbeheer in Custo
 
 ## Gegevensbeheer
 
-De integratie tussen Adobe Customer Journey Analytics en [Adobe Experience Platform Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=en) maakt etikettering van gevoelige gegevens van Customers Journey Analytics en handhaving van het privacybeleid mogelijk.
+De integratie tussen Adobe Customer Journey Analytics en [Adobe Experience Platform Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) maakt etikettering van gevoelige gegevens van Customers Journey Analytics en handhaving van het privacybeleid mogelijk.
 
 De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van de Customer Journey Analytics worden bezocht. Deze labels stoppen of waarschuwen gebruikers die metriek en/of afmetingen van gevoelige velden maken.
 

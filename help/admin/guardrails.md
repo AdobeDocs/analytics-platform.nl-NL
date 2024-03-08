@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 5%
@@ -81,7 +81,7 @@ Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pa
 
 {style="table-layout:auto"}
 
-Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
+Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
 
 
 ## Vervaldatum automatische gegevensset
@@ -101,7 +101,7 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 | Projecten | 2.000 | Door het systeem afgedwongen Guardrail | Maximumaantal projecten voor een organisatie. |
 | Gegevens weergeven | 2.000 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevensweergaven](../data-views/data-views.md) voor een organisatie. |
 | Gegevens weergeven | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal gegevensweergaven voor een verbinding |
-| Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=en) per verbinding. |
+| Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) per verbinding. |
 | Verbindingen | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [verbindingen](../connections/overview.md) voor een organisatie. |
 | Verbindingstitel | 500 | Door het systeem afgedwongen Guardrail | Maximum aantal tekens voor een verbindingstitel. |
 | Metrics | 5.000 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek in een gegevensmening. |
@@ -126,7 +126,7 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 
 {style="table-layout:auto"}
 
-Zie ook Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
+Zie ook Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Gegevenslandingszone
@@ -181,7 +181,7 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Bestandsgrootte werkboek | 5 | Door het systeem afgedwongen Guardrail | Maximale bestandsgrootte in MB van een gepland werkboek. |
-| Gegevensblokken | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevensblokken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=en) per werkboek. |
+| Gegevensblokken | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevensblokken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) per werkboek. |
 | Metrics | 20 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per gegevensblok. |
 | Datumbereik | 13 | Door het systeem afgedwongen Guardrail | Het maximum aantal maanden dat een datumbereik kan beslaan per gegevensblok. |
 | Rijen | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal rijen per gegevensblok. |
@@ -204,7 +204,7 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 
 >[!NOTE]
 >
->De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Verwijs naar uw contract van de Customer Journey Analytics voor uw specifieke contractvoorwaarden en SLAs. Zie Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en) voor meer informatie .
+>De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Verwijs naar uw contract van de Customer Journey Analytics voor uw specifieke contractvoorwaarden en SLAs. Zie Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) voor meer informatie .
 
 | Gegevensstroom | Verwachte vertraging |
 |---|---|

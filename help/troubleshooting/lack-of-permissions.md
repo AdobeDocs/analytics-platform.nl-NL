@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Als voorbeeld kunt u een [Verbinding](../connections/overview.md) en [Gegevens, 
 
 1. Zorg ervoor dat u het juiste toegangsbeheer hebt:
 
-   * U moet systeem of productbeheerdervoorrechten voor een organisatie hebben die een product van de Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) voor meer informatie .
+   * U moet systeem of productbeheerdervoorrechten voor een organisatie hebben die een product van de Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions) voor meer informatie .
 
-   * U moet een gebruiker in het AEP-Standaard-Alle-Gebruikers productprofiel zijn. Vraag uw beheerder als u niet de toestemmingen hebt om zich aan dit profiel toe te voegen. Zie [Toegangsbeheerhiërarchie en -workflow](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#access-control-hierarchy-and-workflow) voor meer informatie .
+   * U moet een gebruiker in het AEP-Standaard-Alle-Gebruikers productprofiel zijn. Vraag uw beheerder als u niet de toestemmingen hebt om zich aan dit profiel toe te voegen. Zie [Toegangsbeheerhiërarchie en -workflow](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow) voor meer informatie .
 
 
 1. Navigeer naar de gebruikersinterface van het Adobe Experience Platform.

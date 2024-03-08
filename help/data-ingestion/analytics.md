@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -20,11 +20,11 @@ In deze handleiding voor snel starten wordt uitgelegd hoe u de gegevens die door
 >
 >U hebt een Adobe Analytics-licentie en -implementatie op een of meer van uw websites, waarbij u een van de gedocumenteerde implementatiemethoden gebruikt:
 >
->- [Analyses implementeren met gebruik van Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=en)
+>- [Analyses implementeren met gebruik van Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [Analyse implementeren met Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)
+>- [Analyse implementeren met Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
->- [Analyses implementeren met JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
+>- [Analyses implementeren met JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
 Hiervoor moet u:
 
@@ -83,7 +83,7 @@ Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om 
 
 Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door de Customer Journey Analytics te worden gebruikt.
 
-Zie [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor een veel uitgebreidere zelfstudie.
+Zie [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor een veel uitgebreidere zelfstudie.
 
 
 ## Een verbinding instellen

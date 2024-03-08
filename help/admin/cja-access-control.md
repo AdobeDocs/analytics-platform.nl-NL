@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey
 
      Zie voor meer informatie over machtigingen voor Experience Platforms [Toegangsbeheer in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
 
-* Gegevenssets exporteren naar cloud [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en)
+* Gegevenssets exporteren naar cloud [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
   >[!AVAILABILITY]
   >
@@ -67,7 +67,7 @@ Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey
    * Doelen beheren
    * Doelen activeren
 
-     Voor meer informatie over de toestemmingen van de Doelen van het Experience Platform, zie [Overzicht van doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
+     Voor meer informatie over de toestemmingen van de Doelen van het Experience Platform, zie [Overzicht van doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html#access-controls).
 
 ## Beheerdersrol productprofiel
 
@@ -146,7 +146,7 @@ De **[!UICONTROL Permissions]** is onderdeel van elk productprofiel in [Admin Co
 | **[!UICONTROL Annotation Creation]** | Gebruikers kunnen [annotaties](/help/components/annotations/overview.md). |
 | **[!UICONTROL Audience Creation]** | Gebruikers kunnen [publiek](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Hiermee kunnen gebruikers de weergave [publiek](/help/components/audiences/audiences-overview.md). |
-| [!UICONTROL **Projectkoppelingen delen met iedereen**] | Gebruikers toestaan [delen projecten met iedereen.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=en#share-public-link) |
+| [!UICONTROL **Projectkoppelingen delen met iedereen**] | Gebruikers toestaan [delen projecten met iedereen.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html#share-public-link) |
 | **[!UICONTROL Data View Tools]**: |   |
 | [!UICONTROL **Volledige tabelexport**] | Gebruikers toestaan [volledige tabellen exporteren naar de cloud](/help/analysis-workspace/export/export-cloud.md). |
 | [!UICONTROL **Toegang tot SQL Query Service**] | Gebruikers kunnen toegang krijgen [Query-service in AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl). |

@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -60,19 +60,17 @@ Met de invoering van [Afgeleide velden](../data-views/derived-fields/derived-fie
 
 ### 4. Beslissen over het gebruik van de bronconnector van Analytics versus SDK&#39;s van Experience Platforms {#connector-vs-sdk}
 
-Adobe Analytics-klanten kunnen hun rapportsuites eenvoudig benutten in de Adobe Experience Platform en de Customer Journey Analytics met behulp van de Analytics-bronconnector. Voor informatie bij het gebruiken van de de bronschakelaar van de Analyse, zie de snelle startgids over hoe te [Gegevens uit Adobe Analytics innemen en gebruiken in Customer Journey Analytics](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) voor meer informatie .
+Adobe Analytics-klanten kunnen hun rapportsuites eenvoudig benutten in de Adobe Experience Platform en de Customer Journey Analytics met behulp van de Analytics-bronconnector. Voor informatie bij het gebruiken van de de bronschakelaar van de Analyse, zie de snelle startgids over hoe te [Gegevens uit Adobe Analytics innemen en gebruiken in Customer Journey Analytics](../data-ingestion/analytics.md). Zie ook [Een Adobe Analytics-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor meer informatie .
 
-Als [Beleef de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) de gegevensinzameling evolueert, zult u waarschijnlijk aan of migreren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) met het Adobe Experience Platform Edge Network. Terwijl een typische implementatie van SDKs gegevens naar Adobe Analytics zal verzenden, biedt een nieuwe kans voor het verzenden van gegevens rechtstreeks naar Adobe Experience Platform. Het kan dan in Customer Journey Analytics worden opgenomen, terwijl ook het handhaven van gegevens die naar Adobe Analytics worden verzonden.
-
-Met deze methode worden de mogelijkheden voor gegevensverzameling aanzienlijk uitgebreid: er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend Customer Journey Analytics [Gegevens weergeven](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
+Adobe biedt ook de mogelijkheid om gegevensverzameling te implementeren met behulp van de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) of [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html). Met deze methoden worden de mogelijkheden voor gegevensverzameling aanzienlijk vergroot. Er geldt niet langer een beperking op het aantal velden of de noodzaak om gegevenselementen toe te wijzen aan props, eVars en gebeurtenissen zoals in Analytics. U kunt onbeperkte schemaelementen van verschillende types gebruiken en hen vertegenwoordigen op veelvoudige manieren gebruikend Customer Journey Analytics [Gegevens weergeven](/help/data-views/data-views.md). De beschikbaarheid van gegevens neemt toe wanneer deze rechtstreeks naar Adobe Experience Platform worden verzonden, omdat de tijd voor gegevensverwerking via Adobe Analytics wordt verwijderd.
 
 **Voordelen van het gebruik van Experience Platform-SDK&#39;s:**
 
 * Flexibel schema voor het definiëren van velden die u nodig hebt
 * Niet afhankelijk van Adobe Analytics-nomenclatuur (profiel, eVar, gebeurtenis, enz.)
 * Geen tekenlimiet (100 tekens voor props)
-* Snellere beschikbaarheid van gegevens in Adobe Experience Platform [Gebruiksgevallen voor realtime personalisatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=en)
-* [Apparaat-id&#39;s van eerste partij](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en) voor een grotere nauwkeurigheid van de identificatie van de bezoeker
+* Snellere beschikbaarheid van gegevens in Adobe Experience Platform [Gebruiksgevallen voor realtime personalisatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)
+* [Apparaat-id&#39;s van eerste partij](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) voor een grotere nauwkeurigheid van de identificatie van de bezoeker
 
 **Drawbacks aan het gebruiken van Experience Platform SDKs**
 
@@ -122,7 +120,7 @@ Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 
 * [Adobe Analytics-segmenten naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [Je berekende cijfers van Adobe Analytics naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+* [Je berekende cijfers van Adobe Analytics naar Customer Journey Analytics verplaatsen](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
 
 ### Andere overwegingen
 

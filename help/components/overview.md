@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 5%
@@ -22,7 +22,7 @@ Componenten zijn functies in de Customer Journey Analytics die kunnen worden geb
 U kunt de volgende componenten beheren:
 
 * [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
-* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Maak en publiceer publiek dat wordt ontdekt in Customer Journey Analytics aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
+* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Maak en publiceer publiek dat wordt ontdekt in Customer Journey Analytics aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
 * [**Filters**](filters/filters-overview.md): Ontwerp, beheer, deel en pas krachtige, doelgerichte publieksfilters toe op uw rapporten. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
 * [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
 * [**Gegevenswoordenboek**](/help/components/data-dictionary/data-dictionary-overview.md): Hiermee kunnen gebruikers en beheerders de componenten in hun analyseomgeving bijhouden en beter begrijpen.

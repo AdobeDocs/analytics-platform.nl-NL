@@ -4,7 +4,7 @@ description: Leer hoe u door de klant beheerde sleutels voor Customer Journey An
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics biedt de optie voor [Gezondheidsschild](https:/
 
 >[!NOTE]
 >
->Door de klant beheerde toetsen zijn momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en) invoegtoepassing.
+>Door de klant beheerde toetsen zijn momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html) invoegtoepassing.
 
 ## CMK instellen voor Customer Journey Analytics
 
@@ -33,4 +33,4 @@ Ga als volgt te werk om CMK voor Customer Journey Analytics in te stellen:
 
 1. De klantenservice van de Adobe zal bevestigen dat de CMK-toepassing op de gegevens van uw Customer Journey Analytics is voltooid.
 
-Alle gegevens die door Platform worden gebruikt, worden in doorvoer en in rust gecodeerd om uw gegevens veilig te houden, met of zonder CMK. Voor informatie over Adobe Experience Platform-codering, [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
+Alle gegevens die door Platform worden gebruikt, worden in doorvoer en in rust gecodeerd om uw gegevens veilig te houden, met of zonder CMK. Voor informatie over Adobe Experience Platform-codering, [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html).

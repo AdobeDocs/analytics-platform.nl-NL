@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 0%
@@ -26,25 +26,25 @@ Deze gebruikszaak verkent een tijdelijke, handmatige manier om het Adobe Experie
 
 ## Stap 1: Kies een of meer publiek(s) in het realtime profiel van de klant {#audience}
 
-Adobe Experience Platform [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP) laat u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren.
+Adobe Experience Platform [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) (RTCP) laat u een holistische mening van elke individuele klant zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren.
 
 U hebt waarschijnlijk al een publiek in RTCP dat uit diverse bronnen kan zijn gekomen. Kies een of meer soorten publiek om in de Customer Journey Analytics in te nemen.
 
 ## Stap 2: Maak een profielgegevensset voor Unie voor het exporteren
 
-Om het publiek naar een dataset uit te voeren die uiteindelijk aan een verbinding in Customer Journey Analytics kan worden toegevoegd, moet u een dataset creëren het waarvan schema een Profiel is [Unieschema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+Om het publiek naar een dataset uit te voeren die uiteindelijk aan een verbinding in Customer Journey Analytics kan worden toegevoegd, moet u een dataset creëren het waarvan schema een Profiel is [Unieschema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 De schema&#39;s van de unie zijn samengesteld uit veelvoudige schema&#39;s die de zelfde klasse delen en voor Profiel toegelaten. Met het samenvoegingsschema kunt u een samenvoeging zien van alle velden in schema&#39;s die dezelfde klasse delen. Het Profiel van de Klant in real time gebruikt het verenigingsschema om een holistische mening van elke individuele klant tot stand te brengen.
 
 ## Stap 3: Exporteer een publiek naar de profielenset Unie via API-aanroep {#export}
 
-Alvorens u een publiek in Customer Journey Analytics kunt brengen, moet u het naar een dataset van Adobe Experience Platform uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+Alvorens u een publiek in Customer Journey Analytics kunt brengen, moet u het naar een dataset van Adobe Experience Platform uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html).
 
 U kunt een uitvoerbaan tot stand brengen gebruikend publiekidentiteitskaart van uw keus, en de resultaten in de dataset van de Vereniging van het Profiel plaatsen Adobe Experience Platform u in Stap 2 creeerde. Hoewel u verschillende kenmerken/gebeurtenissen voor het publiek kunt exporteren, hoeft u alleen het veld voor de specifieke profiel-id te exporteren dat overeenkomt met het veld voor de persoon-id dat wordt gebruikt in de Customer Journey Analytics-verbinding die u wilt gebruiken (zie onder in Stap 5).
 
 ## Stap 4: de exportuitvoer bewerken
 
-De resultaten van de uitvoerbaan moeten in een afzonderlijke dataset van het Profiel worden omgezet om in Customer Journey Analytics worden opgenomen.  Deze transformatie kan worden uitgevoerd met [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)of een ander transformatiegereedschap van uw keuze. We hebben alleen de profiel-id (die overeenkomt met de persoon-id in de Customer Journey Analytics) en een of meer gebruikers-id(&#39;s) nodig voor de rapportage in de Customer Journey Analytics.
+De resultaten van de uitvoerbaan moeten in een afzonderlijke dataset van het Profiel worden omgezet om in Customer Journey Analytics worden opgenomen.  Deze transformatie kan worden uitgevoerd met [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl)of een ander transformatiegereedschap van uw keuze. We hebben alleen de profiel-id (die overeenkomt met de persoon-id in de Customer Journey Analytics) en een of meer gebruikers-id(&#39;s) nodig voor de rapportage in de Customer Journey Analytics.
 
 De standaard exporttaak bevat echter meer gegevens en daarom moeten we deze uitvoer bewerken om irrelevante gegevens te verwijderen en enkele zaken te verplaatsen.  Ook, moet u een schema/dataset eerst tot stand brengen alvorens u de getransformeerde gegevens aan het toevoegt.
 

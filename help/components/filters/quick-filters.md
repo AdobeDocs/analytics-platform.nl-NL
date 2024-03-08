@@ -4,7 +4,7 @@ title: Snelle filters
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Een snelfilter maken:
    | plusteken (+) | Een andere regel toevoegen |
    | EN/OF kwalificatietekens | U kunt de aanduidingen AND of OR toevoegen aan de regels, maar u kunt AND en OR niet combineren in één filterdefinitie. |
    | [!UICONTROL Apply] | Pas dit filter toe op het deelvenster. Als het filter geen gegevens bevat, wordt u gevraagd of u wilt doorgaan. |
-   | [!UICONTROL Open builder] | Opent de Filter Builder. Nadat u het filter in de Bouwer van de Filter opslaat of toepast, wordt het niet meer beschouwd als een &quot;Snelle Filter&quot;. Het wordt onderdeel van de filterbibliotheek van de component-lijst. <p>Als u de component beschikbaar wilt maken voor al uw projecten en in het linkerspoor, selecteert u de optie [!UICONTROL **Maak dit filter beschikbaar aan al uw projecten en voeg het aan uw componentenlijst toe**].</p><p>Zie de sectie voor meer informatie [Een snel filter opslaan als een filter voor een lijst met componenten](#save-a-quick-filter-as-a-component-list-filter) in dit artikel.</p><p>**Opmerking:** Alleen gebruikers met de machtiging Segment maken in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en) kan de Filterbouwer openen.</p> |
+   | [!UICONTROL Open builder] | Opent de Filter Builder. Nadat u het filter in de Bouwer van de Filter opslaat of toepast, wordt het niet meer beschouwd als een &quot;Snelle Filter&quot;. Het wordt onderdeel van de filterbibliotheek van de component-lijst. <p>Als u de component beschikbaar wilt maken voor al uw projecten en in het linkerspoor, selecteert u de optie [!UICONTROL **Maak dit filter beschikbaar aan al uw projecten en voeg het aan uw componentenlijst toe**].</p><p>Zie de sectie voor meer informatie [Een snel filter opslaan als een filter voor een lijst met componenten](#save-a-quick-filter-as-a-component-list-filter) in dit artikel.</p><p>**Opmerking:** Alleen gebruikers met de machtiging Segment maken in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) kan de Filterbouwer openen.</p> |
    | [!UICONTROL Cancel] | Annuleer dit snelle filter (pas het niet toe). |
    | [!UICONTROL Date range] | De validator gebruikt het datumbereik van het deelvenster voor het opzoeken van de gegevens. Maar elk datumbereik dat u in een snel filter toepast, overschrijft het datumbereik van het deelvenster boven in het deelvenster. |
    | Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig filter hebt en hoe breed het filter is. Vertegenwoordigt de verdeling van de dataset u kunt verwachten om te zien wanneer u dit filter toepast. Er kan een melding verschijnen dat aangeeft dat dit filter geen gegevens heeft. In dit geval kunt u doorgaan of de filterdefinitie wijzigen. |
@@ -83,7 +83,7 @@ Een snelfilter maken:
 >
 > Houd rekening met het volgende wanneer u een snel filter opslaat:
 > 
-> * Als u een snel filter wilt opslaan, hebt u de machtiging Segment maken nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
+> * Als u een snel filter wilt opslaan, hebt u de machtiging Segment maken nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 > 
 > * Nadat u het filter hebt opgeslagen of toegepast, kan het niet meer worden bewerkt in de snelle filterbuilder. In plaats daarvan moet u de gewone Filter Builder gebruiken.
 

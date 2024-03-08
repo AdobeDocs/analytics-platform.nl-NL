@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3188'
 ht-degree: 7%
 
 ---
@@ -70,8 +70,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Adobe Product Analytics | Adobe Product Analytics is een nieuwe manier om te communiceren met kanaalgegevens en inzichten in de Customer Journey Analytics. Dankzij deze nieuwe mogelijkheden kunnen productteams gegevens en inzichten over hun productervaring zelf bedienen via [geleide analyse](/help/guided-analysis/overview.md) werkstromen &#x200B;. |
 | Afgeleide velden | A [afgeleid veld](/help/data-views/derived-fields/derived-fields.md) staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. |
 | Uitgebreide opzoekondersteuning voor profiel- en opzoekgegevens | Verstrekt de capaciteit om datasets als raadplegingen van gebieden binnen de datasets van het Profiel of van de Opzoekopdracht toe te voegen. Eerder werden alleen gegevenssets voor gebeurtenissen ondersteund. [Meer informatie](/help/connections/create-connection.md) |
-| Verbeterde Report Builder | <ul><li>[Filteren uit cel voor meerdere gegevensblokken](/help/report-builder/select-data-view.md)</li><li>[Rij- en kolomkoppen tonen en verbergen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=en#build-the-data-block)</li></ul> |
-| Ervaar Edge-geo-zoekopdrachten | [Adobe beleving rand](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) voegt een geo raadplegingsdienst toe die verenigde geografische gegevens aan alle gebruikers van de Rand van de Ervaring verstrekt. |
+| Verbeterde Report Builder | <ul><li>[Filteren uit cel voor meerdere gegevensblokken](/help/report-builder/select-data-view.md)</li><li>[Rij- en kolomkoppen tonen en verbergen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
+| Edge Network geo lookups | [DataStream-instellingen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html) hoe heeft een geo raadplegingsdienst die verenigde geografische gegevens verstrekt. |
 | **Juni 2023** | |
 | Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als de Customer Journey Analytics in staat en gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
 | PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics | De Customer Journey Analytics SQL Schakelaar laat SQL toegang tot gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](/help/data-views/sql-connector.md) |
@@ -93,7 +93,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | **April 2023** |  |
 | Video over het gebruik van filters als afmetingen | De video over het gebruik van filters als afmetingen is bijgewerkt. <p>Deze video is gekoppeld vanuit de [Filters maken](/help/components/filters/create-filters.md) pagina.</p> <p>Hier volgt een directe koppeling naar de video: [Filters gebruiken als afmetingen in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | Filterdocumentatie | Artikel toegevoegd over het gebruik van de [Filter builder](/help/components/filters/filter-builder.md). <p>Gestroomlijnde documentatie in [Filters maken](/help/components/filters/create-filters.md) en [Overzicht van filters](/help/components/filters/filters-overview.md).</p> |
-| Bijwerken naar documentatie in het deelvenster Experimentatie | Sectie toegevoegd op [niet-gerandomiseerde afmetingen interpreteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| Bijwerken naar documentatie in het deelvenster Experimentatie | Sectie toegevoegd op [niet-gerandomiseerde afmetingen interpreteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html#non-randomized). |
 | Projectfilters (ad-hocfilters en snelle filters) | Gestroomlijnde documentatie over projectfilters en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocfilters worden nu gecombineerd met de stappen voor [snelle filters maken](/help/components/filters/quick-filters.md). |
 | **maart 2023** | |
 | Beslissingsbeheergegevens integreren | Toegevoegde inhoud waarin wordt uitgelegd hoe u [Adobe Journey Optimizer-gegevens voor beslissingsbeheer in Customer Journey Analytics integreren](/help/integrations/ajo-od.md). |
@@ -104,7 +104,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Het delen van verbindingen voor projecten (geen vereiste login) | <p>Bijgewerkte bestaande documentatie om uit te leggen hoe u een read-only verbinding van een project kunt delen met mensen die geen toegang tot Analysis Workspace hebben.</p> <p>De bijgewerkte gebruikersdocumentatie bevat [Projecten delen](/help/analysis-workspace/curate-share/share-projects.md) en [Deelbare koppelingen maken](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Er zijn opties voor beheerders toegevoegd aan [Voorkeuren](/help/analysis-workspace/user-preferences.md).</p> |
 | **Februari 2023** | |
 | Vergelijk Customer Journey Analytics met de oplossingen van BI | Nieuw document op een [vergelijking](../getting-started/cja-vs-bi.md) van Customer Journey Analytics naar typische BI-oplossingen. |
-| Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
+| Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency). |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gemaakt, maakt de Adobe een Experience Platform [streaming segment voor elk nieuw publiek van de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/mobile-app/create-scorecard.md#show-comparison-dates) in de Customer Journey Analytics. |
@@ -130,9 +130,9 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Oktober 2022 | Nieuw onderwerp over [wachtwoordbeveiliging voor geplande projecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Oktober 2022 | Nieuw onderwerp over [Door de klant beheerde toetsen](/help/privacy/cmk.md). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Oktober 2022 | Nieuw onderwerp over [Controlelogboek Customer Journey Analytics](/help/privacy/audit-log.md). |
-| Oktober 2022 | Nieuw onderwerp over [Samenvatting van metrische sleutel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) visualisatie. |
-| Oktober 2022 | Nieuwe sectie over [datum- en datumfunctionaliteit in gegevensweergaven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#date) |
-| Oktober 2022 | Mobiele app: nieuw onderwerp op [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
+| Oktober 2022 | Nieuw onderwerp over [Samenvatting van metrische sleutel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) visualisatie. |
+| Oktober 2022 | Nieuwe sectie over [datum- en datumfunctionaliteit in gegevensweergaven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#date) |
+| Oktober 2022 | Mobiele app: nieuw onderwerp op [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides). |
 | Oktober 2022 | Updates van de [Ondersteuning van Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md) onderwerp. |
 | **September 2022** | |
 | September 2022 | Nieuwe gebruikscase op [Gegevens van Googles Analytics migreren naar Customer Journey Analytics](/help/use-cases/ga/overview.md). |
@@ -147,7 +147,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | **juli 2022** | |
 | Juli 2022 | [Media afspelen tijd besteed, deelvenster](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) documentatie. |
 | Juli 2022 | [Deelvenster Mediagelijktijdige viewer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentatie. |
-| Juli 2022 | [Eerste sessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) rapportagedocumentatie. |
+| Juli 2022 | [Eerste sessie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) rapportagedocumentatie. |
 | **Juni 2022** | |
 | Juni 2022 | Nieuw artikel over [STEUN, ECID, AACUSTOMID en de bronaansluiting voor Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) |
 | Juni 2022 | Nieuw artikel over [Adobe Analytics-verwerkingsregels, VISTA en classificaties versus Data Prep voor de gegevensbronconnector](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
@@ -170,7 +170,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Maart 2022 | Nieuwe documentatie over [Annotaties in werkruimte](/help/components/annotations/overview.md). |
 | Maart 2022 | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](/help/getting-started/cja-faq.md). |
 | **Februari 2022** | |
-| Februari 2022 | Een nieuwe handleiding voor beheerders die van Adobe Analytics naar Customer Journey Analytics gaan: [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
+| Februari 2022 | Een nieuwe handleiding voor beheerders die van Adobe Analytics naar Customer Journey Analytics gaan: [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) |
 | **Januari 2022** | |
 | Januari 2022 | Nieuwe gebruiksaanwijzing voor [De bindingsafmetingen en metriek gebruiken in Customer Journey Analytics](/help/use-cases/data-views/binding-dimensions-metrics.md) |
 | Januari 2022 | Extra documentatie over nieuwe functies op [bindingsafmetingen en -cijfers](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) en nieuwe [[!UICONTROL First Known] en [!UICONTROL Last Known] toewijzingsinstellingen](/help/data-views/component-settings/persistence.md#allocation-settings) |

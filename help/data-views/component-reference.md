@@ -5,7 +5,7 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 949f0870c8607879d4f685f4fbeb838ddb68f80a
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -57,13 +57,13 @@ Optionele standaardonderdelen zijn beschikbaar onder **[!UICONTROL Data views]**
 | [!UICONTROL Day of Year] | Afmeting van tijd-paring | 1-366 |
 | [!UICONTROL Hour of Day] | Afmeting van tijd-paring | 0-23 |
 | [!UICONTROL  Month of Year] | Afmeting van tijd-paring | Januari - december |
-| [!UICONTROL First-time Sessions] | Metrisch | De eerste sessie van een persoon is gedefinieerd in het rapportagevenster. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
-| [!UICONTROL Return Sessions] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
+| [!UICONTROL First-time Sessions] | Metrisch | De eerste sessie van een persoon is gedefinieerd in het rapportagevenster. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
+| [!UICONTROL Return Sessions] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL Person ID] | Dimension | Voor elk gegevenssetschema dat in het Experience Platform is gedefinieerd, kan een eigen set met een of meer identiteiten zijn gedefinieerd en gekoppeld aan een naamruimte Identiteit. Elk van deze identiteiten kan worden gebruikt als de persoon-id. Voorbeelden zijn Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode enzovoort. De [!UICONTROL Person ID] dimensie is de basis voor het combineren van gegevensreeksen en het identificeren van unieke personen in Customer Journey Analytics .<p>Mogelijke gebruiksgevallen zijn:<ul><li>Het creëren van een filter op een specifieke waarde van persoonidentiteitskaart om alles tot het gedrag van die gebruiker te filtreren.</li><li>Foutopsporing: zorg dat de gegevens voor een specifieke cookie-id (of een specifieke klant-id) aanwezig zijn.</li><li>Het identificeren van de gebruikers die binnen aan een vraagcentrum riepen.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimension | Welk type van identiteitskaart [!UICONTROL Person ID] bestaat uit: Voorbeelden zijn: `email address`, `cookie ID`, `Analytics ID` |
 | [!UICONTROL Quarter of Year] | Afmeting van tijd-paring | Q1, Q2, Q3, Q4 |
-| [!UICONTROL Repeat session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
-| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijnpunt omvat al gedrag (metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
+| [!UICONTROL Repeat session] | Metrisch | Het aantal sessies dat niet de eerste sessie van een persoon was. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
+| [!UICONTROL Session Type] | Dimension | Deze dimensie heeft twee waarden: 1) [!UICONTROL First-Time] en 2) Terugsturen. De [!UICONTROL First-time] Het lijnpunt omvat al gedrag (metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen zijn opgenomen in de [!UICONTROL Returning] lijstitem (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL Time Spent per Event] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Event] emmers. |
 | [!UICONTROL Time Spent per Session] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Session] emmers. |
 | [!UICONTROL Time Spent per Person] | Dimension | Emmert de [!UICONTROL Time Spent] metrisch in [!UICONTROL Person] emmers. |

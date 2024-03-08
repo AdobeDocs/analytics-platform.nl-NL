@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2769'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 De [!DNL Customer Journey Analytics SQL Connector] biedt SQL toegang tot de [gegevensweergaven](./data-views.md) die u in Customer Journey Analytics hebt gedefinieerd. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die gebruikers van Customers Journey Analytics gebruiken bij het maken van hun Analysis Workspace-projecten.
 
-Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL Customer Journey Analytics SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om de gegevensweergaven van uw Customer Journey Analytics weer te geven als tabellen of weergaven in een [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiehulpmiddelen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
+Adobe Experience Platform [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) is de SQL interface aan gegevens beschikbaar in het gegevens meer van Experience Platform. Met de [!DNL Customer Journey Analytics SQL Connector] enabled, de functionaliteit van [!DNL Query Service] is uitgebreid om de gegevensweergaven van uw Customer Journey Analytics weer te geven als tabellen of weergaven in een [!DNL Query Service] sessie. Dientengevolge, bedrijfsintelligentiehulpmiddelen die gebruiken [!DNL Query Service] als hun interface PostgresSQL naadloos van deze uitgebreide functionaliteit profiteert.
 
 De belangrijkste voordelen zijn:
 
@@ -44,7 +44,7 @@ Gebruikers moeten toegang hebben tot:
    - Customer Journey Analytics Workspace projecten, en
    - De meningen van Gegevens van de Customer Journey Analytics zij willen gebruiken.
 
-- Gebruik die op niet-vervallende geloofsbrieven verlopen om de hulpmiddelen van BI met de Customer Journey Analytics te verbinden SQL Schakelaar. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
+- Gebruik die op niet-vervallende geloofsbrieven verlopen om de hulpmiddelen van BI met de Customer Journey Analytics te verbinden SQL Schakelaar. Thr [Referentiegids](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
 
 Zie [Toegangsbeheer](../admin/cja-access-control.md) in de sectie Beheer Customer Journey Analytics voor aanvullende informatie.
 
@@ -86,7 +86,7 @@ In de interface van het Experience Platform:
 
 +++
 
-Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=en) voor meer informatie .
+Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html) voor meer informatie .
 
 
 ### BI Tools
@@ -117,7 +117,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
       2. Plakken **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
 
-         Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:cja?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+         Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:cja?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) voor meer informatie .
 
       3. Wanneer wordt gevraagd om **[!UICONTROL ** Gegevensconnectiviteit **]** modus, selecteren **[!UICONTROL ** DirectQuery **]** om ervoor te zorgen dat de gegevensstructuren correct worden afgevlakt.
 
@@ -131,7 +131,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
    Alle dimensies en metriek die aan een of meer geselecteerde tabellen zijn gekoppeld, worden in het rechterdeelvenster weergegeven en kunnen in uw visualisaties worden gebruikt.
 
-   Zie [Verbinding maken met Power BI-zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html?lang=en) voor meer informatie .
+   Zie [Verbinding maken met Power BI-zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html) voor meer informatie .
 
 +++
 
@@ -159,7 +159,7 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
       3. Plak **[!UICONTROL ** de databaseparameter **]** van Experience-platformquery&#39;s [!UICONTROL Credentials] in **[!UICONTROL ** het tekstveld Database **]** .
 
-         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:cja%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+         Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** databaseparameter **]** , zodat deze bijvoorbeeld als volgt `prod:cja%3FFLATTEN` wordt gelezen. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) voor meer informatie .
 
       4. Selecteren **[!UICONTROL ** Gebruikersnaam en wachtwoord **]** van **[!UICONTROL ** Verificatie **]** lijst.
 
@@ -175,11 +175,11 @@ De Customer Journey Analytics SQL Connector wordt momenteel alleen ondersteund e
 
    U kunt nu met de gegevens uit de gegevensweergavetabellen werken om uw rapporten en visualisaties te maken.
 
-   Zie [Connect Tableau naar Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) voor meer informatie .
+   Zie [Connect Tableau naar Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html) voor meer informatie .
 
 +++
 
-Zie [Client verbinden met Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en) voor een overzicht van en meer informatie over de verschillende beschikbare instrumenten.
+Zie [Client verbinden met Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) voor een overzicht van en meer informatie over de verschillende beschikbare instrumenten.
 
 ## Functionaliteit
 
@@ -219,11 +219,11 @@ prod:all=> \dv
 
 ### Geneste in plaats van samengevoegd
 
-Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de `FLATTEN` -optie. Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [Werken met geneste gegevensstructuren in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) voor meer informatie .
+Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de `FLATTEN` -optie. Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [Werken met geneste gegevensstructuren in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) voor meer informatie .
 
 ### Ondersteunde SQL
 
-Zie [SQL-naslagservice](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) voor de volledige verwijzing naar welk type SQL wordt ondersteund.
+Zie [SQL-naslagservice](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html) voor de volledige verwijzing naar welk type SQL wordt ondersteund.
 
 Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 

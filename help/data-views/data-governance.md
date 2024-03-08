@@ -4,7 +4,7 @@ description: Leer hoe de gegevensetiketten en het beleid in Adobe Experience Pla
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Labels en beleid
 
-Wanneer u een dataset in Experience Platform creeert, kunt u creëren [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in de Customer Journey Analytics.
+Wanneer u een dataset in Experience Platform creeert, kunt u creëren [gegevensgebruikslabels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in de Customer Journey Analytics.
 
 De volgende labels zijn van bijzonder belang voor de Customer Journey Analytics:
 
@@ -25,7 +25,7 @@ De volgende labels zijn van bijzonder belang voor de Customer Journey Analytics:
 >
 >De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan stitched datasets. Deze kunnen echter handmatig worden toegevoegd.
 
-De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U maakt uw beleid met de [UI EXPERIENCE PLATFORM](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en) of via de [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) in Experience Platform.
+De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U maakt uw beleid met de [UI EXPERIENCE PLATFORM](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html) of via de [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html) in Experience Platform.
 
 Er worden twee door de Adobe gedefinieerde beleidsregels weergegeven in de Customer Journey Analytics en deze zijn van invloed op rapportage en downloaden/delen:
 
@@ -76,6 +76,6 @@ U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 >[Gevoelige gegevens downloaden](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[Wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+>[Wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html)
 
 

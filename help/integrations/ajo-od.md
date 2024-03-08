@@ -4,7 +4,7 @@ description: Neem gegevens die door Adobe Journey Optimizer Decision Management 
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -14,19 +14,19 @@ ht-degree: 0%
 # Beslissingsbeheer integreren met Adobe Customer Journey Analytics
 
 
-Adobe Journey Optimizer [Beslissingsbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=en) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
+Adobe Journey Optimizer [Beslissingsbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
-Beslissingsbeheer is onderdeel van en geïntegreerd met Adobe Journey Optimizer. Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in Adobe Journey Optimizer zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) ondersteuning.
+Beslissingsbeheer is onderdeel van en geïntegreerd met Adobe Journey Optimizer. Het kan ook worden gebruikt onafhankelijk van reizen en campagnes die in Adobe Journey Optimizer zijn gedefinieerd, met behulp van zijn rijke [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) ondersteuning.
 
 U kunt gegevens invoeren die door Beslissingsbeheer worden geproduceerd om geavanceerde analyse in Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
 
 ## Gegevens van Beslissingsbeheer naar Adobe Experience Platform verzenden
 
-Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen besluitvormingsbeheer en Customer Journey Analytics. Gegevens van het besluitvormingsbeheer worden in Experience Platform verzameld **automatisch** of als onderdeel van **expliciet verzonden ervaringsgebeurtenissen** (bijvoorbeeld afbeeldingen of klikken). Zie [Aan de slag met gegevensverzameling](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) voor meer informatie .
+Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen besluitvormingsbeheer en Customer Journey Analytics. Gegevens van het besluitvormingsbeheer worden in Experience Platform verzameld **automatisch** of als onderdeel van **expliciet verzonden ervaringsgebeurtenissen** (bijvoorbeeld afbeeldingen of klikken). Zie [Aan de slag met gegevensverzameling](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html) voor meer informatie .
 
 ## Verbinding maken
 
-Zodra de gegevens van het Beslissingsbeheer in Adobe Experience Platform zijn, kunt u tot een [Verbinding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en) op basis van uw gegevensbestanden voor Beslissingsbeheer. Of u kunt gegevenssets voor Beslissingsbeheer toevoegen aan een bestaande verbinding.
+Zodra de gegevens van het Beslissingsbeheer in Adobe Experience Platform zijn, kunt u tot een [Verbinding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) op basis van uw gegevensbestanden voor Beslissingsbeheer. Of u kunt gegevenssets voor Beslissingsbeheer toevoegen aan een bestaande verbinding.
 
 Selecteer en vorm de volgende datasets:
 
@@ -42,7 +42,7 @@ Selecteer en vorm de volgende datasets:
 
 ## Een gegevensweergave maken
 
-Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
+Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
 >[!NOTE]
 >

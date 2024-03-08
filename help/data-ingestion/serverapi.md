@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2179'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Uw schema instellen:
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. of [een nieuwe veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) en [nieuwe identiteitsvelden toevoegen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (zoals `ecid`, `crmId`, en andere die u nodig hebt) naar de veldgroep en selecteer die nieuwe veldgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. of [een nieuwe veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) en [nieuwe identiteitsvelden toevoegen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (zoals `ecid`, `crmId`, en andere die u nodig hebt) naar de veldgroep en selecteer die nieuwe veldgroep.
 
    ![Identificatieobject](./assets/identification-field-gaming.png)
 
@@ -134,7 +134,7 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) voor meer informatie .
+   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie .
 
    >[!IMPORTANT]
    >
@@ -232,7 +232,7 @@ Uw gegevensstroom instellen:
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw game zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 ## Edge Network Server-API gebruiken
 
@@ -271,7 +271,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 In het verzoek van de POST van het voorbeeld, `{DATASTREAM_ID}` verwijst naar de id van de voorbeeldgegevensstroom die u eerder hebt geconfigureerd. `{sandbox}` Dit is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
 
-Zie [Interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) en [Niet-interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en) voor meer informatie over het gebruik van de Edge Network Server-API.
+Zie [Interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) en [Niet-interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) voor meer informatie over het gebruik van de Edge Network Server-API.
 
 ## Een verbinding instellen
 
