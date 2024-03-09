@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 5%
@@ -98,7 +98,7 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Projecten | 2.000 | Door het systeem afgedwongen Guardrail | Maximumaantal projecten voor een organisatie. |
+| Projecten | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal projecten voor een organisatie. |
 | Gegevens weergeven | 2.000 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevensweergaven](../data-views/data-views.md) voor een organisatie. |
 | Gegevens weergeven | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal gegevensweergaven voor een verbinding |
 | Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) per verbinding. |
