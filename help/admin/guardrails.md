@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
+source-git-commit: 56b909a542915cd64251fb8849e55df920668025
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 5%
@@ -204,7 +204,7 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 
 >[!NOTE]
 >
->De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Verwijs naar uw contract van de Customer Journey Analytics voor uw specifieke contractvoorwaarden en SLAs. Zie Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) voor meer informatie .
+>De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Verwijs naar uw contract van de Customer Journey Analytics voor uw specifieke contractvoorwaarden en SLAs. Zie Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) voor meer informatie .
 
 | Gegevensstroom | Verwachte vertraging |
 |---|---|
