@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17956f66d0bed46b876ba83aba8782c664fe2530
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,16 @@ Als u eenmaal [een of meer verbindingen hebben gemaakt of bewerkt](/help/connect
 * Alle gegevenssets weergeven in een verbinding.
 * Controleer de status van de datasets van uw verbinding en de status van het innameproces. Wanneer zijn bijvoorbeeld uw gegevens beschikbaar, zodat u in Analysis Workspace kunt beginnen met rapporteren en analyseren.
 * Identificeer om het even welke gegevensdiscrepanties toe te schrijven aan misconfiguration. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd gevormd en ontbrekende gegevens in Customer Journey Analytics veroorzaakt?
+* Krijg inzicht in gebruik van ingeklapte en te melden rijen over al uw verbindingen.
+
+[!UICONTROL Connections] heeft twee interfaces: [[!UICONTROL List]](#list) en [[!UICONTROL Usage]](#usage).
 
 
-In een tabel worden alle beschikbare verbindingen weergegeven. U kunt snel naar een verbinding zoeken met de zoekfunctie ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) doos.
+## Lijst
+
+De [!UICONTROL List] interface is de standaardinterface voor Verbindingen. Als deze optie niet is geselecteerd, selecteert u **[!UICONTROL List]** om de interface te openen.
+
+De [!UICONTROL List] de interface toont een lijst van alle beschikbare verbindingen. U kunt snel naar een verbinding zoeken met de zoekfunctie ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) doos.
 
 De volgende kolommen/pictogrammen zijn beschikbaar in de tabel.
 
@@ -46,7 +53,7 @@ De volgende kolommen/pictogrammen zijn beschikbaar in de tabel.
 
 U kunt configureren welke kolommen u wilt weergeven ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). Dit toont de **Tabel aanpassen** waarmee u kolommen in de tabel kunt in- of uitschakelen.
 
-## Een verbinding bewerken
+### Een verbinding bewerken
 
 Hiermee kunnen beheerders de verbinding bewerken.
 
@@ -69,7 +76,7 @@ Wanneer u een verbinding bewerkt, kunt u:
 Zie [Verbinding maken of bewerken](create-connection.md) voor meer informatie .
 
 
-## Een verbinding verwijderen {#connections-delete}
+### Een verbinding verwijderen {#connections-delete}
 
 Hiermee kunnen beheerders de verbinding verwijderen.
 
@@ -91,7 +98,7 @@ Selecteren **[!UICONTROL Continue]** om de verbinding te verwijderen.
 Zie [Gevolgen verwijderen](/help/admin/cja-deletion.md) voor meer informatie over de gevolgen van het verwijderen van een verbinding.
 
 
-## Een gegevensweergave maken
+### Een gegevensweergave maken
 
 Hiermee kunnen beheerders een gegevensweergave voor de verbinding maken.
 
@@ -112,7 +119,7 @@ U kunt ook:
 
 Zie [Een gegevensweergave maken of bewerken](/help/data-views/create-dataview.md) voor meer informatie .
 
-## Verbindingsgegevens {#connection-detail}
+### Verbindingsgegevens {#connection-detail}
 
 Als u naar de gegevens voor een verbinding wilt gaan, selecteert u een verbindingsnaam in de tabel met verbindingen.
 
@@ -153,7 +160,7 @@ De interface van de Details van Verbindingen verstrekt een gedetailleerde mening
 >
 >Gegevens die vóór 13 augustus 2021 zijn ingevoerd, worden niet weergegeven in de [!UICONTROL Connections] interface.
 
-### Deelvenster Verbinding
+#### Deelvenster Verbinding
 
 Wanneer geen dataset in de datasetlijst wordt geselecteerd, toont een paneel op de rechterkant van de interface van Verbindingen verbindingsopties en details.
 
@@ -173,7 +180,7 @@ Wanneer geen dataset in de datasetlijst wordt geselecteerd, toont een paneel op 
 | [!UICONTROL Last modified] | Hier wordt het tijdstempel van de laatste wijziging in de verbinding weergegeven. |
 | [!UICONTROL Last modified by] | Toont de persoon die de verbinding het laatst heeft gewijzigd. |
 
-### Deelvenster Gegevensset
+#### Deelvenster Gegevensset
 
 Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op de rechterkant van de interface van Verbindingen details voor de geselecteerde dataset.
 
@@ -195,6 +202,31 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 | [!UICONTROL Dataset type] | Willekeurig [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL Schema] | Toont het schema van het Experience Platform dat deze dataset op gebaseerd is. |
 | [!UICONTROL Dataset ID] | Deze dataset-id wordt gegenereerd in Experience Platform. |
+
+
+## Gebruik
+
+De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface steunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen.
+
+Selecteer de **[!UICONTROL Usage]** om de interface te openen.
+
+Over het gebruik rapporteren:
+
+1. Selecteer een **[!UICONTROL Time range]**. U kunt kiezen tussen **[!UICONTROL Last 6 months]**, **[!UICONTROL Year to date]**, of **[!UICONTROL Last 2 Years]**.
+1. Selecteer een **[!UICONTROL Interval]**. U kunt kiezen tussen **[!UICONTROL Monthly]** of **[!UICONTROL Quarterly]**.
+
+Voor [!UICONTROL Ingested rows]:
+
+* een vakje toont [!UICONTROL Total] Aantal opgenomen rijen.
+* een vakje toont het aantal ingeklapte rijen voor [!UICONTROL Last month] en de wijziging in % (aangegeven met <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
+* een lijngrafiek toont  <span style="color:53b2ad">◼︎</span> Cumulatieve ingeslikte rijen en <span style="color:4046c3">◼︎</span> Maandelijkse gegeneerde rijen.<br/>U kunt de muisaanwijzer boven elk gegevenspunt voor elke regel in de lijngrafiek plaatsen om een pop-up met datum en het aantal rijen voor het geselecteerde gegevenspunt weer te geven.
+
+
+Voor [!UICONTROL Reportable rows]:
+
+* een vak verschijnt [!UICONTROL Total] aantal te rapporteren rijen.
+* een vak bevat het aantal te rapporteren rijen voor de [!UICONTROL Last month] en de wijziging in % (aangegeven met <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
+* een lijngrafiek toont  <span style="color:53b2ad">◼︎</span> Gecumuleerde te rapporteren rijen en <span style="color:4046c3">◼︎</span> Maandelijkse te rapporteren rijen.<br/>U kunt de muisaanwijzer boven elk gegevenspunt voor elke regel in de lijngrafiek plaatsen om een pop-up met datum en het aantal rijen voor het geselecteerde gegevenspunt weer te geven.
 
 
 >[!MORELIKETHIS]
