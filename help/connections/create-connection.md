@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2757'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Het maximumaantal datasets u aan een verbinding kunt toevoegen wordt beperkt tot
 
 {style="table-layout:auto"}
 
-Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt. &#x200B;
+Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
 
 ## Verbinding maken en configureren {#create-connection}
 
@@ -185,3 +185,12 @@ Deze berekening wordt gedaan voor elke dataset in de verbinding.
    In dit voorbeeld is &quot;analytics_demo_data&quot; de naam van de dataset.
 
 2. Om alle datasets te tonen die in Adobe Experience Platform bestaan, voer uit `Show Tables` query.
+
+
+## Algorithmic pruning of large lookup datasets
+
+Wanneer het creëren van een verbinding, kunt u grote datasets voor raadplegingsdoeleinden toevoegen. Bijvoorbeeld, kan een dataset die een productcatalogus zo beschrijvende productinformatie vertegenwoordigt worden opgezocht wanneer het bouwen van rapporten en visualisaties. Zulk een grote raadplegingsdataset kan het maximum van 10 miljoen unieke raadplegingen overschrijden die momenteel als guardrail worden uitgevoerd, resulterend in extra gegevens die worden overgeslagen.
+
+U kunt verzoeken om algoritmische snoeien van zulk een grote raadplegingsdataset. Dit het snoeien zal slechts gegevens in de raadplegingsdataset laden waarvoor de sleutels in het gedeelte van de gebeurtenisdataset van uw verbinding beschikbaar zijn. De referentietelling die in het algoritme wordt gebruikt, gaat terug naar 90 dagen en vernieuwt eenmaal per week.
+
+Neem voor meer informatie contact op met uw Adobe.

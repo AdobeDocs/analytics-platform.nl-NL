@@ -3,16 +3,16 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1b39449fa58157fb61d619de82235cba326ffe2c
+source-git-commit: 7f0a348738d2f3a53ec57558d321a3501afe8d00
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '837'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (maart 2024)
 
-**Laatste update**: 8 maart 2024
+**Laatste update**: 13 maart 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 13 maart 2024 tot en met april 2024. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,9 +20,9 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 13 maart 2024 tot en
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nieuwe kolom beschikbaar op de het landende pagina van Projecten** | De **[!UICONTROL Last used]** de kolom is nu beschikbaar wanneer het bekijken van het lusje van Projecten op [Customer Journey Analytics landingspagina](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). Deze informatie kan u helpen bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen toen het project het laatst werd geopend. Eerder **[!UICONTROL Last used]** de kolom was beschikbaar slechts in het Berekende manager van metriek, de manager van Segmenten, en de manager van Alarm. |  | donderdag 13 maart 2024 |
-| **Gebruiksmetriek** | De interface van gebruiksmetriek toont het gebruik van opgenomen en te melden rijen over alle verbindingen. Met deze interface kunt u bepalen of het gebruik van uw Customer Journey Analytics in overeenstemming is met wat contractueel is overeengekomen. |  | donderdag 13 maart 2024 |
-| **Rapportage van media-analyse - Gemiddeld aantal minuten publiek (AMA)** | Het deelvenster Gemiddelde minuten publiek is nu beschikbaar in CJA. Klanten van Media Analytics kunnen het deelvenster Gemiddelde miniatuur gebruiken om een beter inzicht te krijgen in het gemiddelde verbruik van hun inhoud. Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV. Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt. |  | woensdag 12 maart 2024 |
+| **Nieuwe kolom beschikbaar op de het landende pagina van Projecten** | De **[!UICONTROL Last used]** de kolom is nu beschikbaar wanneer het bekijken van het lusje van Projecten op [Customer Journey Analytics landingspagina](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>Deze informatie kan u helpen bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen toen het project het laatst werd geopend. Eerder **[!UICONTROL Last used]** de kolom was beschikbaar slechts in het Berekende manager van metriek, de manager van Segmenten, en de manager van Alarm.</p> |  | donderdag 13 maart 2024 |
+| **Gebruiksmetriek** | De [interface gebruiksmetriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html) toont het gebruik van opgenomen en te melden rijen over alle verbindingen. Met deze interface kunt u bepalen of het gebruik van uw Customer Journey Analytics in overeenstemming is met wat contractueel is overeengekomen. |  | donderdag 13 maart 2024 |
+| **Rapportage van media-analyse - Gemiddeld aantal minuten publiek (AMA)** | Het deelvenster Gemiddelde minuten publiek is nu beschikbaar in CJA. Klanten van Media Analytics kunnen het deelvenster Gemiddelde miniatuur gebruiken om een beter inzicht te krijgen in het gemiddelde verbruik van hun inhoud. <p>Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV.</p><p> Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt.</p><p>Zie voor meer informatie [Deelvenster Gemiddelde media - geluid](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | woensdag 12 maart 2024 |
 | **B2B-schematransformatie voor rekening van persoon** | Laat u datasets omzetten om op persoon-gebaseerde raadplegingen in Customer Journey Analytics B2B beter te steunen rapporteringsscenario&#39;s. Dit vermogen is beschikbaar voor datasets voor B2B- schema&#39;s die op de volgende klassen worden gebaseerd:<ul><li>XDM Zakelijke account Person Relatie</li><li>XDM Business Opportunity Person Relatie</li><li>Leden van XDM Business Marketing List</li><li>XDM Business Campaign-leden</li></ul> | | woensdag 26 maart 2024 |
 | **Adobe Product Analytics: vergelijk gebeurtenissen binnen één enkele stap van de Trechter** | In de Trechter: De mening van de Wrijving, kunt u gebeurtenissen binnen één enkele trede van de trechter nu vergelijken. Dit is met name handig wanneer uw reis stapopties heeft of een stap waarbij een A/B-experiment wordt uitgevoerd. | zaterdag 29 maart 2024 | zaterdag 12 april 2024 |
 | **Beheerders kunnen alle locaties in hun organisatie beheren** | Met een nieuwe optie op de pagina Locaties kunnen beheerders alle locaties in de organisatie weergeven en beheren. Eerder konden beheerders alleen de door hen gemaakte locaties weergeven en beheren. | | April 2024 |

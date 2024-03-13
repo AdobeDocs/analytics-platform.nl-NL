@@ -5,7 +5,7 @@ exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5807700b9fe10769bf86f5c4020dd7c23df6e616
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 # Standaardraadplegingen toevoegen aan uw datasets
 
 >[!IMPORTANT]
+>
 >De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de bron van de Analyse schakelaar in Customer Journey Analytics. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
+>
 
 De standaardraadplegingen (die ook als Adobe-geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. De standaardraadplegingen zijn van toepassing op organisaties van het Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die de Adobe classificeert.
 

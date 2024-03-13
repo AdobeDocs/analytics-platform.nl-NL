@@ -3,9 +3,10 @@ description: Leer hoe u prognoses in een tabel of in een lijndiagram bekijkt.
 title: De prognoses in Analysis Workspace bekijken
 feature: Visualizations
 role: User
-source-git-commit: e52cee369be75785a99798d5acfa9cfc5aba2986
+exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ U kunt prognoses in een vrije-vormlijst of in een lijngrafiek bekijken.
 
 ## Prognoses weergeven in een tabel
 
-U kunt prognoses in een tijdreeksvrije lijst bekijken. Als Voorspelling tonen is ingeschakeld voor tabel Freeform in [gebruikersvoorkeuren](../user-preferences.md), wordt het voorspellen automatisch getoond voor de eerste metrische kolom die aan de lijst wordt toegevoegd. Voor elke andere kolom:
+U kunt prognoses in een tijdreeksvrije lijst bekijken. Wanneer [!UICONTROL Show forecast] is ingeschakeld voor de tabel Freeform in [gebruikersvoorkeuren](../user-preferences.md), wordt het voorspellen automatisch getoond voor de eerste metrische kolom die aan de lijst wordt toegevoegd. Voor elke andere kolom:
 
 1. Het pictogram voor kolominstellingen selecteren ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) in de kolomkop zorgt u ervoor dat **[!UICONTROL Show forecast]** wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Kolominstellingen](../visualizations/freeform-table/column-row-settings/column-settings.md).
 
@@ -50,5 +51,4 @@ De prognoses worden als volgt weergegeven in het lijndiagram:
    * voorspelde waarde voor de metrische waarde
    * bovengrens van voorspelde waarde voor de metrische waarde
    * ondergrens van voorspelde waarde voor de metrische waarde
-* de schaduw geeft de betrouwbaarheidsmarge van de voorspelling weer .
-
+* Het schaduwgebied toont de betrouwbaarheidsmarge van de voorspelling.
