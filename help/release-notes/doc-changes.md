@@ -4,10 +4,10 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '3188'
-ht-degree: 7%
+source-wordcount: '3226'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **maart 2024** | |
+| Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt die gebruiksinformatie betreffende **Gebruikt in** kolom op de [bestemmingspagina](/help/getting-started/landing.md) gaat slechts terug tot september 2023. |
 | **Februari 2024** | |
 | Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [met u gedeelde projecten weergeven](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Azure SAS en Azure RBAC bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Azure SAS en Azure RBAC wanneer [cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
