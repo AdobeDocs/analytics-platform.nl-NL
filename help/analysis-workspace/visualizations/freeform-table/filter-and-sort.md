@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,15 @@ Om specifieke rijen van een lijst van de Vrije vorm snel uit te sluiten:
 
    Houd Shift ingedrukt om een reeks rijen te selecteren of houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere rijen te selecteren.
 
-### Klik met de rechtermuisknop > Geselecteerde rijen verwijderen
+<!--### Right-click > Delete selected rows
 
-1. Selecteer 1 of meer rijen.
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Delete Selected Rows]**.
+Note: this option does not seem to work. AN-338422
 
-   Met deze actie verwijdert u de rijen uit de tabel en past u een tabelfilter toe.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
+
 
 ### Een eenvoudig of geavanceerd filter toepassen op een tabel
 
