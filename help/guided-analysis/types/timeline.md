@@ -4,9 +4,10 @@ description: Neem sessiegebeurtenissen op gebruikersniveau in de loop der tijd w
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
+source-git-commit: e9721eaf993175dd46e9d8edf9176d7c00308e8c
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Timeline]** in de weergave kunt u sessiegebeurtenissen op gebruikersniveau in de loop der tijd observeren om ervaringspatronen te zoeken en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 
-![Tijdlijnscreenshot](../assets/timeline.png){style="border:1px solid gray"}
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
 >[!NOTE]
 >
