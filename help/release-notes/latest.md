@@ -3,16 +3,16 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: adb62f1a4c48955f890909d4f4b090786c3968d3
+source-git-commit: 20e99275a42312ed974ac4c1af28ede73180e748
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (maart 2024)
 
-**Laatste update**: 13 maart 2024
+**Laatste update**: 20 maart 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 13 maart 2024 tot en met april 2024. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,7 +26,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 13 maart 2024 tot en
 | **B2B-schematransformatie voor rekening van persoon** | Laat u datasets omzetten om op persoon-gebaseerde raadplegingen in Customer Journey Analytics B2B beter te steunen rapporteringsscenario&#39;s. Dit vermogen is beschikbaar voor datasets voor B2B- schema&#39;s die op de volgende klassen worden gebaseerd:<ul><li>XDM Zakelijke account Person Relatie</li><li>XDM Business Opportunity Person Relatie</li><li>Leden van XDM Business Marketing List</li><li>XDM Business Campaign-leden</li></ul> | | woensdag 26 maart 2024 |
 | **Het gebruik van de Report Builder inbegrepen in de &quot;Gebruikte in&quot;kolom in het Berekende manager van metriek en de Manager van Filters** | Wanneer u de **Gebruikt in** in het Beheer Berekende metriek of Filters, zijn de gebruiksgegevens nu beschikbaar voor de Report Builder.<p>Eerder, waren de gebruiksgegevens in de manager van Filters beschikbaar slechts voor Alarm, Projecten, Geplande Projecten en Berekende metriek; terwijl de gebruiksgegevens in de Berekende manager van metriek beschikbaar slechts voor Alarm, Projecten, en Geplande Projecten waren.</p> |  | Late maart of begin april |
 | **Adobe Product Analytics: vergelijk gebeurtenissen binnen één enkele stap van de Trechter** | In de Trechter: De mening van de Wrijving, kunt u gebeurtenissen binnen één enkele trede van de trechter nu vergelijken. Dit is met name handig wanneer uw reis stapopties heeft of een stap waarbij een A/B-experiment wordt uitgevoerd. | zaterdag 29 maart 2024 | zaterdag 12 april 2024 |
-| **Beheerders kunnen alle locaties in hun organisatie beheren** | Met een nieuwe optie op de pagina Locaties kunnen beheerders alle locaties in de organisatie weergeven en beheren. Eerder konden beheerders alleen de door hen gemaakte locaties weergeven en beheren. | | April 2024 |
+| **Beheerders kunnen alle locaties en accounts in hun organisatie beheren** | Met een nieuwe optie op het tabblad Locaties (op de pagina Componenten > Exporteren) kunnen beheerders alle locaties in de organisatie weergeven en beheren. <p>Met een nieuwe optie op het tabblad Locatieaccounts (op de pagina Componenten > Exporteren) kunnen beheerders alle accounts in de organisatie weergeven en beheren.</p><p>Eerder konden beheerders alleen de locaties en accounts weergeven en beheren die ze hadden gemaakt.</p> | | April 2024 |
 | **Soorten publiek wordt gepubliceerd naar een nieuwe sectie &quot;Soorten publiek&quot; in Experience Platform** | Soorten publiek die vanuit de Customer Journey Analytics worden gepubliceerd, zijn nu beschikbaar in de nieuwe sectie &quot;Soorten publiek&quot; in het Experience Platform. Eerder waren publiek dat van Customer Journey Analytics werd gepubliceerd, beschikbaar in Platform onder de sectie &quot;Segments&quot;. Deze verbetering biedt de volgende voordelen:<ul><li>Het publiek heeft niet langer een vertraging van 1 uur voordat het in Platform wordt weergegeven; het zijn seconden beschikbaar nadat het is gepubliceerd.</li><li>Het publiek kan in Platform worden gesorteerd door de kolom &quot;Oorsprong&quot;te gebruiken, die de toepassing toont waarvan het publiek oorspronkelijk werd gepubliceerd.</li><li>Met de opties voor filteren en sorteren in Platform kunt u sneller het relevante publiek vinden.</li></ul>Zie de sectie voor meer informatie [Customer Journey Analytics publiek in Experience Platform gebruiken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#audiences-aep). |  | April 2024 |
 | **Ervaar de detectie van Edge-bot** | [Bodemdetectie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) staat u toe om gebeurtenissen te identificeren die door Web SDK, Mobiele SDK en Server API worden geproduceerd zoals die door bekende spinnen en bots worden geproduceerd. | | dinsdag 29 april 2024 |
 
