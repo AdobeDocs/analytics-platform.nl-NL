@@ -4,9 +4,9 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3020'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,6 @@ Definitie voor een nieuwe berekende metrische waarde &quot;Benaderende Klanten&q
 Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in het melden van:
 
 ![Vrije-vormentabel met unieke bezoekers en geschatte klanten ](assets/approx-customers.png)
-
-## Uniques Exceeded
-
-Net als Count() en RowCount(), is Approximate Count Distinct() onderworpen aan [Grenswaarden voor &quot;overschrijding uniques&quot;](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
 ## Telfuncties vergelijken
 
