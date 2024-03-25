@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
+source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2779'
 ht-degree: 1%
 
 ---
@@ -191,6 +191,6 @@ Deze berekening wordt gedaan voor elke dataset in de verbinding.
 
 Wanneer het creëren van een verbinding, kunt u grote datasets voor raadplegingsdoeleinden toevoegen. Bijvoorbeeld, kan een dataset die een productcatalogus zo beschrijvende productinformatie vertegenwoordigt worden opgezocht wanneer het bouwen van rapporten en visualisaties. Zulk een grote raadplegingsdataset kan het maximum van 10 miljoen unieke raadplegingen overschrijden die momenteel als guardrail worden uitgevoerd, resulterend in extra gegevens die worden overgeslagen.
 
-U kunt verzoeken om algoritmische snoeien van zulk een grote raadplegingsdataset. Dit het snoeien zal slechts gegevens in de raadplegingsdataset laden waarvoor de sleutels in het gedeelte van de gebeurtenisdataset van uw verbinding beschikbaar zijn. De referentietelling die in het algoritme wordt gebruikt, gaat terug naar 90 dagen en vernieuwt eenmaal per week.
+U kunt verzoeken om een algoritmische snoeiing van een grote raadplegingsdataset. Deze algoritmische het snoeien houdt slechts gegevens in de raadplegingsdataset die de sleutels in uw gebeurtenisdataset aanpast. Op deze manier hoeft u niet de gehele onafgebroken opzoekgegevensset te laden. Oude of minder vaak gebruikte items worden verwijderd, wat een lichte invloed kan hebben op rapporten, maar aanzienlijke voordelen met zich meebrengt. Het algoritme kijkt terug 90 dagen en werkt wekelijks bij.
 
-Neem voor meer informatie contact op met uw Adobe.
+Neem contact op met het ondersteuningsteam voor Adoben voor meer informatie en om deze functie in te schakelen.
