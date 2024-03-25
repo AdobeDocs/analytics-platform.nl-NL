@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 9489868fdf8de416c061239de1c0719f263288d1
+source-git-commit: a932d0d364761d949831ee261907b923a79a1f56
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ In Adobe Experience Platform:
 
 1. Selecteren ![Query maken](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Query maken **]**.
 
-1. Selecteer de `"cja"` **[!UICONTROL ** Database **]**.
+1. Selecteer de `cja` **[!UICONTROL ** Database **]**.
 
 1. Als u de query wilt uitvoeren, typt u de SQL-instructie en selecteert u de ![Afspelen](assets/Smock_Play_18_N.svg) knop (of druk op `[SHIFT]` + `[ENTER]`).
 
@@ -78,7 +78,7 @@ In Adobe Experience Platform:
 
    1. Selecteren **[!UICONTROL ** Credentials **]** in de bovenste balk.
 
-   1. Selecteer de `"cja"` **[!UICONTROL ** Database **]**.
+   1. Selecteer de `cja` **[!UICONTROL ** Database **]**.
 
    1. Om het bevelkoord te kopiëren, gebruik ![Kopiëren](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL ** PSQL, opdracht **]** sectie.
 
@@ -103,7 +103,7 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
 
    1. Selecteren **[!UICONTROL ** Credentials **]** in de bovenste balk.
 
-   1. Selecteer de `"cja"` **[!UICONTROL ** Database **]**.
+   1. Selecteer de `cja` **[!UICONTROL ** Database **]**.
 
    1. Gebruiken ![Kopiëren](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven te kopiëren Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en andere) indien nodig in de Power BI.
 
@@ -146,7 +146,7 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
 
    1. Selecteren **[!UICONTROL ** Credentials **]** in de bovenste balk.
 
-   1. Selecteer de &quot;cja&quot; **[!UICONTROL ** Database **]**.
+   1. Selecteer de ` cja` **[!UICONTROL ** Database **]**.
 
    1. Gebruiken ![Kopiëren](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven te kopiëren Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en andere) indien nodig in Tableau.
 
@@ -233,7 +233,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 | Meerdere dimensies<br/>uitsplitsingen<br/>en toponderscheidingen | <pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET DIM1, dim2</pre><pre>SELECTEER dim1, dim2, SUM(metrisch1) AS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 1, 2<br/>VOLGORDE MET 1, 2</pre><pre>DIM1 VERSCHUIVEN, dim2 SELECTEREN<br/>VAN dv1</pre> |
 | Subselectie maken:<br/>Aanvullende filters<br/>resultaten | <pre>DIM1, m1 SELECTEREN<br/>VAN (<br/>  DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</br>  GROEP OP DIm1<br/>)<br/>WAAR grijs 1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
 | Subselectie maken:<br/>Doorheen zoeken<br/>gegevensweergaven | <pre>SELECT-toets, SUM(m1) AS totaal<br/>VAN (<br/>  DIm1 AS-toets SELECTEREN, SUM(metrisch1) AS m1<br/>  VAN dv1<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP OP DIm1<br/><br/>  UNIE<br/><br/>  DIm2 AS-toets SELECTEREN, SUM(m1) AS m1<br/>  FROM dv2<br/>  WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  GROEP MET DIm2<br/>GROEP OP toets<br/>VOLGORDE PER totaal</pre> |
-| Subselectie maken: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    SELECTEER \* UIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET rijen AS (<br/>  MET \_ AS (<br/>    SELECTEREN * UIT data_ares<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2021-01-01&quot; EN &quot;2021-02-01&quot;<br/>  )<br/>  SELECTEER _.item, _.units VAN _<br/>  WAAR _.item NIET NULL IS<br/>)<br/>SELECT rows.item, SUM(rows.units) AS-eenheden<br/>UIT rijen WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROEP OP rijen.item</pre> |
+| Subselectie maken: <br/>Gelaagde bron, <br/>filteren, <br/>en aggregatie | Gelaagd met subselecties:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>VAN (<br/>  \_.dim1,\_.m1 SELECTEREN<br/>  VAN (<br/>    SELECTEER \* UIT dv1<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rijen<br/>GROEP MET 1<br/>VOLGORDE PER totaal</pre><br/>Lagen met CTE:<br/><pre>MET rijen AS (<br/>  MET \_ AS (<br/>    SELECTEREN * UIT data_ares<br/>    WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2021-01-01&quot; EN &quot;2021-02-01&quot;<br/>  )<br/>  SELECTEER \_.item, \_.units UIT \_<br/>  WAAR \_.item NIET NULL IS<br/>)<br/>SELECT rows.item, SUM(rows.units) AS-eenheden<br/>UIT rijen WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROEP OP rijen.item</pre> |
 | Hiermee selecteert u waar de<br/>metriek komt voor<br/> of worden gemengd met<br/>de afmetingen | <pre>SUM(metrisch1) SELECTEREN AS m1, dim1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP MET 2</pre> |
 
 {style="table-layout:auto"}
