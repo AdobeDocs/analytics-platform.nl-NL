@@ -9,7 +9,7 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 05a2887d85dd523b09701242178fb6a0fd18ba69
+source-git-commit: e8d55cfbb0bb50269e436bc3c38a88bc4830bed0
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 7%
@@ -87,7 +87,7 @@ ht-degree: 7%
       + [Subtekenreeks](../data-views/component-settings/substring.md)
       + [Waardebeperking](../data-views/component-settings/value-bucketing.md)
    + [Standaardcomponentverwijzing](../data-views/component-reference.md)
-   + [CJA BI-extensie](../data-views/sql-connector.md)
+   + [CJA BI-extensie](../data-views/bi-extension.md)
    + [Afgeleide velden](../data-views/derived-fields/derived-fields.md)
    + [Labels en beleid](../data-views/data-governance.md)
 

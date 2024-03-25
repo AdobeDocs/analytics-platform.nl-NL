@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
+source-git-commit: 12007130027d152038b1210070f6ebd5de15c762
 workflow-type: tm+mt
 source-wordcount: '3226'
 ht-degree: 6%
@@ -76,7 +76,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Edge Network geo lookups | [DataStream-instellingen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html) hoe heeft een geo raadplegingsdienst die verenigde geografische gegevens verstrekt. |
 | **Juni 2023** | |
 | Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als de Customer Journey Analytics in staat en gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
-| PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics | De Customer Journey Analytics SQL Schakelaar laat SQL toegang tot gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](/help/data-views/sql-connector.md) |
+| PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics | De Customer Journey Analytics BI uitbreiding laat SQL toegang tot gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](/help/data-views/bi-extension.md) |
 | Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics Admins heeft toegang tot sommige extra gegevensmeningen in Customer Journey Analytics, getiteld &quot;AJO de mening van Gegevens (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
 | Berekende metrische updates | De volgende updates zijn aangebracht in de berekende metriekdocumentatie om deze uit te lijnen met de huidige functionaliteit van de Customer Journey Analytics: <ul><li>De lijst met [berekende standaardwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Customer Journey Analytics</li><li>Bijgewerkte schermafbeeldingen en procedures in diverse berekende metrieartikelen </li></ul> |
