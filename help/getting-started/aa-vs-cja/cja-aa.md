@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1964'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segmentvergelijking en Analyse voor Doel (A4T) worden niet ondersteund. |
-| Analyses voor doel (A4T) | De gedeeltelijke steun wordt verleend door gebieden in [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
+| Analyses voor doel (A4T) | Momenteel in bèta. De gedeeltelijke steun wordt verleend door gebieden in [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 {style="table-layout:auto"}
 
-## Nooit ondersteund {#never}
+## Wordt nooit ondersteund {#never}
 
 * Metrische personen met behulp van Cross-Device Coop
 
