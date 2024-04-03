@@ -5,9 +5,9 @@ title: Projecten uit mappen verwijderen
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: caf16a6971c4474516e116f8cb62e37f0bf6a06b
+source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ U kunt projecten van één omslag naar een andere omslag verplaatsen die u creee
 
 ## Een project verwijderen uit een projectmap {#delete-project-in-folder}
 
-Wanneer u een project uit een map verwijdert, wordt het na 180 dagen uit het systeem gewist. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een project via de interface van het Web nog toegang hebben als zij directe URL aan het project hebben.
+Wanneer u een project uit een map verwijdert, wordt het na 180 dagen uit het systeem gewist. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij directe URL aan het project hebben.
 
 1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
 

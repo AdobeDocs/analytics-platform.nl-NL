@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 880bec05dbc14093f711ef54ee06ad2c8b178a7d
+source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 13 maart 2024 tot en
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Wijzigen in verwijderingsprotocol voor Workspace-projecten** | Eerder werden verwijderde projecten nooit uit het systeem verwijderd. Na 180 dagen beginnen we verwijderde projecten te verwijderen. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een project via de interface van het Web nog toegang hebben als zij een URL aan het directe project hebben. | | vrijdag 14 maart 2024 |
+| **Wijzigen in verwijderingsprotocol voor Workspace-projecten** | Eerder zijn verwijderde Workspace-projecten nooit uit het systeem verwijderd. Na 180 dagen beginnen we verwijderde projecten te verwijderen. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij een URL aan het directe project hebben. | | vrijdag 14 maart 2024 |
 | **Nieuwe kolom beschikbaar op de het landende pagina van Projecten** | De **[!UICONTROL Last used]** de kolom is nu beschikbaar wanneer het bekijken van het lusje van Projecten op [Customer Journey Analytics landingspagina](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>Deze informatie kan u helpen bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen toen het project het laatst werd geopend. Eerder **[!UICONTROL Last used]** de kolom was beschikbaar slechts in het Berekende manager van metriek, de manager van Segmenten, en de manager van Alarm.</p> |  | donderdag 13 maart 2024 |
 | **Gebruiksmetriek** | De [interface gebruiksmetriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html) toont het gebruik van opgenomen en te melden rijen over alle verbindingen. Met deze interface kunt u bepalen of het gebruik van uw Customer Journey Analytics in overeenstemming is met wat contractueel is overeengekomen. |  | donderdag 13 maart 2024 |
 | **Rapportage van media-analyse - Gemiddeld aantal minuten publiek (AMA)** | Het deelvenster Gemiddelde minuten publiek is nu beschikbaar in CJA. Klanten van Media Analytics kunnen het deelvenster Gemiddelde miniatuur gebruiken om een beter inzicht te krijgen in het gemiddelde verbruik van hun inhoud. <p>Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV.</p><p> Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt.</p><p>Zie voor meer informatie [Deelvenster Gemiddelde media - geluid](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | woensdag 12 maart 2024 |
