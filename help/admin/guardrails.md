@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 56b909a542915cd64251fb8849e55df920668025
+source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1523'
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 |---|--:|---|---|
 | Velden | 10.000 | Door het systeem afgedwongen Guardrail | Maximumaantal eigenschappen of velden per rij in een gegevensset. |
 | Unieke tekenreeksen | 10 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal unieke sleutels per raadplegingsdataset. |
-| Rijen | 1 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal rijen per unieke persoon-id binnen een verbinding. |
+| Rijen | 1 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal rijen per unieke persoon-id in een bepaalde maand binnen een verbinding. |
 | Rijgrootte | 2 | Prestatiehandleiding / door het systeem afgedwongen geleider | Gemiddelde grootte in kilobytes per rij gegevens die in Customer Journey Analytics worden opgenomen (zachte limiet). Een statische limiet voor de rijgrootte wordt bepaald door de instructies voor het opnemen van gegevens in het Experience Platform. |
 
 {style="table-layout:auto"}
