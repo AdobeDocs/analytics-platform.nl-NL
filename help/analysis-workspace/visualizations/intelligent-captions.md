@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
@@ -71,3 +71,7 @@ U kunt **bijschriften exporteren via PDF**, zolang het project wordt opgeslagen 
 Als u liever geen intelligente bijschriften wilt genereren, kunt u deze functie uitschakelen door naar de voorkeuren voor Visualisatie te gaan en de optie uit te schakelen **[!UICONTROL Show intelligent captions]**.
 
 ![Opties voor lijnvisualisatie waarmee u de optie voor het uitschakelen van de optie Intelligente bijschriften tonen kunt uitschakelen.](assets/toggle-captions.png)
+
+## Intelligente bijschriften in mobiele scoreborden
+
+Zie voor meer informatie [scorecards beheren](/help/mobile-app/manage-scorecard.md)

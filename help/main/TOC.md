@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: e8d55cfbb0bb50269e436bc3c38a88bc4830bed0
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1067'
 ht-degree: 7%
 
 ---
@@ -188,6 +188,7 @@ ht-degree: 7%
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
+   + [Mobiele scorecards beheren](../mobile-app/manage-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor gebruikers](../mobile-app/executive.md)
 
