@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
+source-git-commit: 8af2c48c4895e6015c16e3973b6cd213aff38441
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1606'
 ht-degree: 5%
 
 ---
@@ -127,6 +127,18 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 {style="table-layout:auto"}
 
 Zie ook Experience Platform [Guardrails voor gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+
+
+## Doelgegevens exporteren
+
+| Naam | Waarde | Limiettype | Beschrijving |
+|---|--:|---|---|
+| Gegevens exporteren | Totaal toegestane gegevensmeeropslag | Prestatiehandleiding | De klant kan de Uitvoer van de Dataset van de Bestemming gebruiken om de Gegevens van de Klant in het meer van Gegevens tot de Totale Erkende Opslag van Gegevens uit te voeren. |
+| Beschikbare gegevensbestanden | Profiel en gebeurtenis | Systeem geforceerde geleider | De datasets van de Gebeurtenis van het profiel en van de Ervaring die in de Experience Platform UI na het opnemen van of het verzamelen van gegevens door Bronnen, Web SDK, Mobiele SDK, de Schakelaar van Gegevens van de Analyse, en Audience Manager worden gecreeerd. |
+
+{style="table-layout:auto"}
+
+Zie ook Experience Platform [Gegevensset exporthulplijnen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Gegevenslandingszone
