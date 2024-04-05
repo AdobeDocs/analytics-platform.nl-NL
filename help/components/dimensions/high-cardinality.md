@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,4 @@ De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afme
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 * Gebruik de [Opnemen/uitsluiten](/help/data-views/component-settings/include-exclude-values.md) in het gegevensweergavebeheer.
 * Verkort het datumbereik van de aanvraag. Als er zich na verloop van tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.
+* Gebruik [Volledige tabelexport](/help/analysis-workspace/export/export-cloud.md) om alle rijen van de tabel te retourneren.
