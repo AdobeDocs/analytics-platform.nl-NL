@@ -4,13 +4,13 @@ title: scorecards beheren
 feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
+source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
-
 
 # scorecards beheren
 
@@ -202,12 +202,30 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
 
-## Intelligente bijschriften weergeven in scorecards
+## Intelligente bijschriften weergeven in scorecards {#captions}
 
 Intelligente bijschriften kunnen niet-analisten helpen hun gegevens beter te begrijpen zonder de hulp van analisten. Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten voor visualisaties te bieden.
 
-Intelligente bijschriften weergeven:
+In deze bijschriften worden de belangrijkste statistische inzichten in de gegevens opgepakt en in de natuurlijke taal uitgedrukt, zodat de niet-analist zijn gegevens kan lezen.
 
-1. Klik in een tegel.
+Het intelligente bijschrift is beschikbaar voor alle visualisaties in de mobiele app, inclusief Lijn, Donut, Staafdiagram en Samenvattingsnummer.
 
-1. meer
+Om intelligente titels in een mobiele scorecard te bekijken:
+
+1. Klik in een scorecard in een tegel. Klik in dit scorecard bijvoorbeeld in de lijngrafiek onderaan.
+
+   ![Scorecard met lijnvisualisatie](assets/caption1.png)
+
+1. Tik op het blauwe pictogram rechtsboven om de bijschriften te genereren. De bijschriften worden onder de lijngrafiek weergegeven.
+
+   ![Intelligent bijschrift in lijnvisualisatie](assets/caption2.png)
+
+1. Veeg naar rechts om alle intelligente bijschriften weer te geven.
+
+   Intelligente bijschriften kunnen verwijzen naar spikes, anomalieën, trends, terugval, correlaties en andere verschijnselen.
+
+1. Tik op de zwarte vlag in een bijschrift om een probleem, zoals schadelijke of illegale inhoud, te melden.
+
+   ![Probleem met bijschrift rapporteren](assets/caption-report.png)
+
+1. Klik op de X om de **[!UICONTROL Report results]** in.
