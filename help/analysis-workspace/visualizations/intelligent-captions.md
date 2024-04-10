@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -74,4 +74,4 @@ Als u liever geen intelligente bijschriften wilt genereren, kunt u deze functie 
 
 ## Intelligente bijschriften in mobiele scoreborden
 
-Zie voor meer informatie [scorecards beheren](/help/mobile-app/manage-scorecard.md)
+Intelligente bijschriften zijn ook beschikbaar in de Customer Journey Analytics [mobiele scorecards](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
