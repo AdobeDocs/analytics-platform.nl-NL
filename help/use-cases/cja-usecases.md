@@ -5,7 +5,7 @@ exl-id: 90746eb0-99df-463a-8f01-330fd460a4a8
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -21,4 +21,4 @@ Customer Journey Analytics laat de volgende belangrijkste gebruiksgevallen toe:
 * **Maak gebruik van de kracht van gegevenswetenschap voor uw analisten**: Customer Journey Analytics laat normale mensen gegevenswetenschap gebruiken om diepgaande inzichten en analyse te ontsluiten.
 * **Visualiseer en interactie met uw datasets gebruikend ad hoc rapportering**: De werkruimte kan om het even welke dataset van Adobe Experience Platform gebruiken die aan sommige basisregels in overeenstemming is.
 * **Niet-webgegevens weergeven**: De werkruimte is niet langer beperkt tot een starre definitie van een &#39;hit&#39; of &#39;event&#39;. De schema&#39;s van de douane staan volledige controle over gegevens en definities toe.
-* **Meer controle over het manipuleren van gegevens**: Wijzig de gegevens die u hebt geüpload, maak nieuwe gegevenssets en importeer deze naar Workspace. Adobe Experience Platform verstrekt het vragen, het halen, het transformeren, en het laden hulpmiddelen door de Dienst van de Vraag van het Experience Cloud.
+* **Meer controle over het manipuleren van gegevens**: Wijzig de gegevens die u hebt geüpload, maak nieuwe gegevenssets en importeer deze naar Workspace. Adobe Experience Platform verstrekt het vragen, het halen, het transformeren, en het laden hulpmiddelen door de Dienst van de Vraag van het Experience Platform.
