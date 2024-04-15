@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: d6f2d7129b472b32edc30dadfeb2303a92d790de
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
    Er wordt een lijst met uw ingeschakelde basisverbindingen weergegeven.
 
    ![Rapportactiviteit met de wachtrij met rapporten](assets/reporting-activity1.png)
+
+1. Om het totale aantal rapportverzoeken voor alle verbindingen in uw organisatie te bekijken, breid uit [!UICONTROL **Meer weergeven**] om de [!UICONTROL **Maandelijkse verzoeken om rapporten**] grafiek.
+
+   U kunt het aantal rapportverzoeken binnen uw organisatie voor de huidige maand en de vorige maand bekijken.
 
 1. (Optioneel) U kunt de lijst met verbindingen opzoeken of filteren:
 
