@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2217'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,7 @@ De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u d
 * Berekende metriek die fundamentele of geavanceerde functies in metrische definitie gebruiken (zie [Basisfuncties](/help/components/calc-metrics/cm-functions.md) en [Geavanceerde functies](/help/components/calc-metrics/cm-adv-functions.md) voor meer informatie )
 * Componenten die door een beheerder zijn beperkt van export (zie de *Filter op beleid voor gegevensbeheer in gegevensweergaven* sectie in [Labels en beleid](/help/data-views/data-governance.md) voor meer informatie )
 * Elke dimensie die aan alle volgende criteria voldoet:
-   * Is gemaakt van een veld dat deel uitmaakt van een [array van objecten](/help/use-cases/object-arrays.md)
+   * Is gemaakt van een veld dat deel uitmaakt van een [array van objecten](/help/use-cases/object-arrays.md) (vergelijkbaar met meerwaardevariabelen in Adobe Analytics)
    * Heeft [persistentie ingeschakeld](/help/data-views/component-settings/persistence.md)
    * Gebruikt geen [bindingsdimensie](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * Meer dan 5 dimensies en 5 metriek per rapport (maximaal 5 dimensies en 5 metriek worden gesteund)
