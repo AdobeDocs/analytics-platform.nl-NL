@@ -5,17 +5,18 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
 
 # Overzicht van verbindingen
 
-De verbindingen staan de beheerders van het het productproduct van de Customer Journey Analytics toe om verbindingen met verschillende AEP gegevensbronnen, zoals gebeurtenis, raadpleging, en profieldatasets te vestigen. Deze verbindingen laten de integratie van gegevens van een Verbinding aan een afgeleide Mening van Gegevens toe. We raden u aan de toegang tot het Connections-beheer te beperken tot een kernbeheergroep. Configuraties op het niveau van de Verbinding hebben contractuele implicaties met betrekking tot volumetoewijzing voor gegevens die in Customer Journey Analytics worden gebracht.
-De verbindingen zijn de stichting van CJA en worden gecreeerd van AEP brondatasets. De toegang tot Verbindingen verstrekt ook de capaciteit om de manager van Verbindingen te bekijken, die u de onderliggende datasets laat bekijken die omhoog de verbinding maken, evenals kritieke het uitgeven en configuratieselecties maken.
+Via verbindingen kunnen productbeheerders van Customers Journey Analytics verbindingen tot stand brengen met verschillende [!DNL Adobe Experience Platform] gegevensbronnen, zoals gebeurtenis, raadpleging, en profieldatasets. Deze verbindingen laten de integratie van gegevens van een Verbinding aan een afgeleide Mening van Gegevens toe. Verbindingen vormen de basis van CJA en worden gemaakt van [!DNL Experience Platform] brongegevenssets. De toegang tot Verbindingen laat u ook de manager van Verbindingen bekijken, waar u de onderliggende datasets kunt bekijken die omhoog de verbinding maken, evenals kritieke het uitgeven en configuratieselecties maken.
+
+We raden u aan de toegang tot het Connections-beheer te beperken tot een kernbeheergroep. Configuraties op het niveau van de Verbinding hebben contractuele implicaties met betrekking tot volumetoewijzing voor gegevens die in Customer Journey Analytics worden gebracht.
 
 Hier volgt een video-overzicht:
 

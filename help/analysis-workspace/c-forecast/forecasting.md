@@ -4,9 +4,9 @@ title: Overzicht van de prognoses
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 {{select-package}}
 
-Prognosering is een Analysis Workspace-functie die helpt een standaard of berekende metrische waarde te voorspellen met elke ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
+Voorspelling omvat een statistische voorspelling voor aan tijdreeksen gerelateerde gegevens op basis van de historische gegevens die reeds in Customer Journey Analytics bestaan. Prognoses kunnen in vrije-vormlijsten en lijngrafiekvisualisaties verschijnen. Gebruikers kunnen bepalen of voorspelling automatisch wordt opgenomen via hun gebruikersvoorkeuren in de gebruikersinterface van de Customer Journey Analytics. Ze kunnen ze ook in- en uitschakelen per kolom binnen de kolominstellingen. Alleen de eerste kolom die aan een tabel is toegevoegd, heeft voorspelling ingeschakeld.
+
+Voorspelling is beschikbaar in &quot;Selecteren&quot; en hogere licentieniveaus voor Customers Journey Analytics.
 
 U kunt prognoses gebruiken voor:
 
