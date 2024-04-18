@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
+source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 10 april 2024 tot en
 | **B2B-schematransformatie voor rekening van persoon** | Laat u datasets omzetten om op persoon-gebaseerde raadplegingen in Customer Journey Analytics B2B beter te steunen rapporteringsscenario&#39;s. Dit vermogen is beschikbaar voor datasets voor B2B- schema&#39;s die op de volgende klassen worden gebaseerd:<ul><li>XDM Zakelijke account Person Relatie</li><li>XDM Business Opportunity Person Relatie</li><li>Leden van XDM Business Marketing List</li><li>XDM Business Campaign-leden</li></ul> | | donderdag 1 mei 2024 |
 | **Ervaar de detectie van Edge-bot** | [Bodemdetectie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) staat u toe om gebeurtenissen te identificeren die door Web SDK, Mobiele SDK en Server API worden geproduceerd zoals die door bekende spinnen en bots worden geproduceerd. | | donderdag 1 mei 2024 |
 | **Afgeleide velden: functie Volgende of Vorige** | Met deze nieuwe functies kunt u een veld als invoer gebruiken en vervolgens de waarde n-previous of n-next identificeren om een beter beeld te krijgen van de reis van de gebruiker. Deze functionaliteit kan ook worden gecombineerd met andere functies in [!UICONTROL Derived Fields], zoals [!UICONTROL Concatenate]om nieuwe afmetingen te maken. |  | donderdag 1 mei 2024 |
+| **Soorten publiek wordt gepubliceerd naar een nieuwe sectie &quot;Soorten publiek&quot; in Experience Platform** | Soorten publiek die vanuit de Customer Journey Analytics worden gepubliceerd, zijn nu beschikbaar in de nieuwe sectie &quot;Soorten publiek&quot; in Adobe Experience Platform.<p>Eerder waren publiek dat vanuit Customer Journey Analytics werd gepubliceerd, beschikbaar in Experience Platform onder de sectie &quot;Segmenten&quot;.</p><p>Deze verbetering biedt de volgende voordelen:</p><ul><li>Het publiek heeft niet langer een vertraging van 1 uur voordat het in het Experience Platform wordt weergegeven; het zijn pas seconden nadat het is gepubliceerd.</li><li>De soorten publiek kunnen in Experience Platform worden gesorteerd door de kolom &quot;Oorsprong&quot;te gebruiken, die de toepassing toont waarvan het publiek oorspronkelijk werd gepubliceerd.</li><li>Met de filter- en sorteeropties in het Experience Platform kunt u sneller het desbetreffende publiek vinden.</li></ul> |  | Mei 2024 |
 
 {style="table-layout:auto"}
 
