@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 68289e274c8ea985b6d07bca228f5e6654e05aa4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Experimentation]** in dit deelvenster kunnen analisten verschillende gebruikerservaringen, marketing of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren - online, off-line, van de oplossingen van de Adobe, Adobe Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
 
->[!IMPORTANT]
->
->Op dit punt [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) gegevens *kan* worden geanalyseerd in het deelvenster Experimentatie.
+Meer informatie over de [integratie tussen Adobe Customer Journey Analytics en Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja4t/cja4t).
 
 ## Toegangsbeheer {#access}
 
@@ -33,7 +31,7 @@ Het aanbevolen gegevensschema is dat de experimentele gegevens zich in een [Obje
 
 Nadat uw experimentele gegevens zijn [ingesloten](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) naar Adobe Experience Platform, [een verbinding maken in Customer Journey Analytics](/help/connections/create-connection.md) naar een of meer experimentele gegevenssets.
 
-## Stap 2: Contextlabels toevoegen in gegevensweergaven {#contect-labels}
+## Stap 2: Contextlabels toevoegen in gegevensweergaven {#context-labels}
 
 In de weergave-instellingen van gegevensweergaven van Customers Journey Analytics kunnen beheerders toevoegen [contextlabels](/help/data-views/component-settings/overview.md) aan een afmeting of metrische en Customer Journey Analytics diensten zoals [!UICONTROL Experimentation] kunnen deze labels voor hun doeleinden gebruiken. Er worden twee vooraf gedefinieerde labels gebruikt voor het deelvenster Experimentatie:
 
