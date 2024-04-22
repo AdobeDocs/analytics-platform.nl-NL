@@ -4,9 +4,9 @@ title: Gegevens Customer Journey Analytics downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a3fc89ed08102d57ce3cfaadde96ade843cd8f8b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 ## Gevoelige gegevens downloaden {#sensitive}
 
 Als de **[!UICONTROL Enforce Download]** [beleid inzake gegevensbeheer](/help/data-views/data-governance.md) wordt aangezet in de gegevensmening u rapporteert, om het even welke download (zoals het e-mailen of het delen van PDF dossiers) van de projecten van de Werkruimte zal de gegevensgebieden hakken die als gevoelig worden geëtiketteerd. U kunt deze velden nog steeds analyseren in Workspace, maar als u een project probeert te e-mailen of anderszins te delen, worden de geblokkeerde velden als leeg weergegeven in het .pdf- of .csv-bestand.
+
+Als om het even welke gegevensgebieden die als gevoelig worden geëtiketteerd in worden omvat [!UICONTROL Data View], is de optie om gegevens van het scherm te selecteren en te kopiëren beperkt voor alle gegevens in het [!UICONTROL Data View].
 
 ## Veelgestelde vragen {#faq}
 
