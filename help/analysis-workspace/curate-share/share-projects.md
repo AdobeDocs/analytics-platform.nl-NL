@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ U kunt [alleen-lezen toegang](/help/analysis-workspace/curate-share/view-only-pr
 >
 >* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 >
->* Als uw organisatie een vergunning geeft voor het Gezondheidsschild, kunt u projecten alleen delen met gebruikers die door Single Sign On (SSO) of Adobe ID zijn geverifieerd. U kunt geen projecten delen met niet-geverifieerde gebruikers. Het is uw verantwoordelijkheid om deze eigenschap in overeenstemming met het interne beleid van het gegevensbeheer van uw bedrijf te gebruiken en slechts projectverbindingen te delen die Persoonlijke Gezondheidsinformatie (PHI) bevatten met gebruikers die de aangewezen toestemmingen hebben.
+>* De [!UICONTROL Share with anyone] -functie is geblokkeerd voor zowel de licenties voor het Healthcare Shield als de &#39;Privacy &amp; Security Shield&#39;-licenties.
 
 In de volgende videodemonstratie en de bijbehorende documentatie worden de opties beschreven voor het delen van een koppeling met iedereen:
 
