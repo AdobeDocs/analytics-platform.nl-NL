@@ -6,9 +6,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 21d77f06595993172460b724dc7991cb9a5a02a8
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,9 @@ Het proces voor het verzenden van gegevens naar Experience Platform voor elke mi
 
 | Migratiemethode | Proces voor het verzenden van gegevens naar platform |
 |---------|----------|
-| Nieuwe implementatie van de Web SDK | [Gegevens invoeren via de Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md) |
-| Uw Adobe Analytics-implementatie migreren voor gebruik van de Web SDK | Als u de tagextensie Analytics gebruikt: [Migreren van de Adobe Analytics-tagextensie naar de Web SDK-tagextensie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)<p>of</p><p>Als u AppMeasurement gebruikt: [Migreren van AppMeasurement naar de Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
-| Configureer uw bestaande Adobe Analytics Web SDK-implementatie om gegevens naar de Customer Journey Analytics te verzenden | [Een gegevensstroom instellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream) in [Gegevens invoeren via de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) |
+| Nieuwe implementatie van de Web SDK | Omdat dit een nieuwe implementatie van het Web SDK is, moet u alle stappen volgen die in worden beschreven [Gegevens invoeren via de Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md). |
+| Uw Adobe Analytics-implementatie migreren voor gebruik van de Web SDK | De stappen voor het migreren naar de Adobe Analytics Web SDK verschillen afhankelijk van het feit of uw huidige implementatie de extensie Analytics of het AppMeasurement is. <p>Als u de tagextensie Analytics gebruikt: [Migreren van de Adobe Analytics-tagextensie naar de Web SDK-tagextensie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)</p><p>of</p><p>Als u AppMeasurement gebruikt: [Migreren van AppMeasurement naar de Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
+| Configureer uw bestaande Adobe Analytics Web SDK-implementatie om gegevens naar de Customer Journey Analytics te verzenden | Omdat uw Adobe Analytics-implementatie al gebruikmaakt van de Web SDK, hoeft u alleen [een gegevensstroom instellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream). U kunt de andere sectie in [Gegevens invoeren via de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk). |
 | Bronverbinding voor analyse | [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](/help/data-ingestion/analytics.md) |
 
 ## Daarna, kaartgegevens aan het XDM schema
