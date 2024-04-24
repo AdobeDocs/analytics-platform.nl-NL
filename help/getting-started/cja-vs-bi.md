@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Customer Journey Analytics gebruikt een krachtige bedrijfseigen architectuur die
 
 * **Snelle toepassing van complexe paden en filters**: De rapportengine werkt op gedeeltelijk geordende, hiërarchische gegevenssets (bijvoorbeeld persoonlijk -> sessies -> gebeurtenissen). Alle gegevens voor een object op hoofdniveau (afzonderlijke profielen) bevinden zich op één verwerkingsknooppunt voor nauwkeurige resultaten. Dankzij deze partitionering kunnen complexe paden en filters snel worden toegepast. Complexe bewerkingen zoals sessionisatie, attributie, stateful persistentie van gegevenskenmerken en complexe opties voor gegevensmanipulatie worden op schaal met een snelle rapportagetijd uitgevoerd. In de wereld van BI, vereisen die soorten verrichtingen typisch nieuwe kubussen OLAP om voor elk gebruiksgeval worden gecreeerd. De Customer Journey Analytics die motor meldt staat onbelemmerde toegang tot de volledige dataset op elke vraag toe, resulterend in volledig gecorreleerde gegevens zonder het vereisen van om het even welk coderen van tevoren.
 
-* **Efficiënte query op complexe gegevensstromen**: Een van de grootste verschillen tussen de meldende engine en traditionele SQL- en NoSQL-databases is dat deze in staat is om voorspellingen te bepalen op basis van volgorde-georiënteerde relaties op een fundamenteel niveau. Deze fundamentele zoekbewerkingen kunnen de recordstream bekijken, die bestaat uit vele interleaved (en zelfs geneste) reeksen. Zij voeren een vraag tegen elk van deze onderling verweven stromen van gegevens met de efficiency van één enkele, aangrenzende opeenvolgingsverrichting uit.
+* **Efficiënte query op complexe gegevensstreams**: Een van de grootste verschillen tussen de meldende engine en traditionele SQL- en NoSQL-databases is dat deze in staat is om voorspellingen te bepalen op basis van volgorde-georiënteerde relaties op een fundamenteel niveau. Deze fundamentele zoekbewerkingen kunnen de recordstream bekijken, die bestaat uit vele interleaved (en zelfs geneste) reeksen. Zij voeren een vraag tegen elk van deze onderling verweven stromen van gegevens met de efficiency van één enkele, aangrenzende opeenvolgingsverrichting uit.
 
 * **Ontworpen om grote vragen snel te beantwoorden**: De rapportageengine is niet zo algemeen bedoeld als traditionele grote gegevenssystemen. Nochtans, wordt het specifiek ontworpen om vragen te beantwoorden die miljoenen of zelfs miljarden verslagen (gebeurtenisgegevens/ervaringsgebeurtenissen), over het algemeen in onder een seconde overspannen. In tegenstelling tot andere grote gegevenssystemen, doet het dit niet door de gegevens te bemonsteren of de antwoorden op alle vragen vooraf te berekenen die u zou kunnen stellen. In plaats daarvan kan het de antwoorden snel genoeg berekenen om interactieve vragen van gebruiksgevallen te steunen. Dit specifieke ontwerp van de Customer Journey Analytics die motor meldt vergemakkelijkt het gemakkelijk en aan hoge snelheid beschikbaar zijn voor aan de gang zijnde analyse en exploratie, zodat u geleidelijk inzicht en inzicht in klantenreizen kunt verwerven.
 
