@@ -5,16 +5,16 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 01188253d4a8d794e9cd9bbea9c0fef02180c940
+source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
 
 # Evolutie uit Adobe Analytics
 
-## Stap 3: de bestaande gegevens voorbereiden
+## Bestaande gegevens voorbereiden
 
 Het voorbereiden van uw Adobe Analytics-gegevens voor een naadloze overgang naar de Customer Journey Analytics is van essentieel belang voor de gegevensintegriteit en de consistentie van de rapportage.
 
