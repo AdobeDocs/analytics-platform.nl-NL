@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
+source-git-commit: 6d4fdb464775967074547f8401de679f181d29d7
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '1965'
 ht-degree: 0%
 
 ---
@@ -137,16 +137,6 @@ Het volgende migratiepad is beschikbaar voor organisaties die Adobe Analytics me
 
 +++
 
-## Daarna, kaartgegevens aan het XDM schema
+## Vervolgens verzendt u gegevens naar Adobe Experience Platform
 
-Nadat u gegevens naar het Experience Platform hebt verzonden door de koppelingen in de bovenstaande tabel te volgen, moet u mogelijk [kaartgegevens naar het XDM-schema](/help/getting-started/cja-migration/cja-migration-xdm.md), afhankelijk van de implementatiemethode die u hebt gekozen.
-
-De volgende implementatiemethoden vereisen dat u gegevens toewijst aan het XDM-schema:
-
-* Migreren van de Adobe Analytics-tagextensie naar de Web SDK-tagextensie
-
-* Configureer uw bestaande Adobe Analytics Web SDK-implementatie om gegevens naar de Customer Journey Analytics te verzenden
-
-Alternatief, als u verkoos om een nieuwe implementatie van het Web SDK van het Experience Platform te doen, wordt een afbeelding niet vereist omdat u reeds [een nieuw XDM-schema instellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema) als onderdeel van de nieuwe uitvoering.
-
-Als u ervoor kiest om de Analytics Source Connector voor uw migratie te gebruiken, is geen toewijzing vereist omdat de Analytics Source Connector uw bestaande Adobe Analytics-schema gebruikt in plaats van het XDM-schema.
+Nadat u de bovenstaande informatie hebt gebruikt om een migratiepad te kiezen, leert u hoe u [gegevens verzenden naar Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md) afhankelijk van het migratiepad dat u hebt gekozen.

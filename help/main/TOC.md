@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1091'
 ht-degree: 7%
 
 ---
@@ -46,12 +46,7 @@ ht-degree: 7%
       + [Aan de slag](/help/getting-started/cja-migration/cja-migration-getstarted.md)
       + [Kies een migratiepad](/help/getting-started/cja-migration/cja-migration-path.md)
       + [Gegevens verzenden naar platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
-      + [Gegevens toewijzen aan XDM](/help/getting-started/cja-migration/cja-migration-xdm.md)
       + [Historische gegevens behouden](/help/getting-started/cja-migration/cja-migration-historical-data.md)
-      + [Gebruiker aan boord plannen](/help/getting-started/cja-migration/cja-migration-onboarding.md)
-      + [Gebruik van poort-API](/help/getting-started/cja-migration/cja-migration-api.md)
-      + [Gegevensfeeds en -Data Warehouse vervangen](/help/getting-started/cja-migration/cja-migration-export-options.md)
-      + [Projecten en onderdelen migreren](/help/getting-started/cja-migration/cja-migration-projects.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics-gegevens gebruiken in Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
