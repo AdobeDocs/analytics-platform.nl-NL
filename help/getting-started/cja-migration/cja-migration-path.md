@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 2d35e49ca9afe37ed53d7c5da5aafd31dd2da632
+source-git-commit: 7d17ef31053bbf0d480bfa923fc961aeba4fc15e
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 0%
@@ -109,13 +109,21 @@ Hieronder vindt u de migratiepaden die beschikbaar zijn voor organisaties die Ad
 
 +++
 
-+++ Adobe Analytics migreren naar de SDK van het Web | Voordelen | Nadelen | |—|—| | <ul><li>Hiermee kunt u naar de SDK van het web gaan zonder dat dit van invloed is op uw bestaande Adobe Analytics-rapportage.</li><li>Behoudt regels en gegevenselementen die al in uw Adobe Analytics-implementatie zijn geconfigureerd (voor organisaties die de extensie Analytics gebruiken).</li><li>Verstrekt flexibiliteit om een schema XDM voor uw organisatie in een recentere tijd tot stand te brengen: een flexibel schema om het even welke gebieden te bepalen u, en slechts die gebieden nodig hebt die relevant zijn.</br>Hiervoor is de Adobe Analytics Experience Event-veldgroep in Adobe Experience Platform niet vereist. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Niet afhankelijk van de Adobe Analytics-nomenclatuur (voor prop, eVar, gebeurtenis, enzovoort)</li><li>Geen tekenlimiet (100 tekens voor props)</li><li>Zeer krachtige rapportage en beschikbaarheid van gegevens, omdat Adobe Experience Platform is gebouwd op voeding [Gebruiksgevallen voor realtime personalisatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Toekomstbestendig (u krijgt alle nieuwste functies en functies)</li><li>Tags consolideren voor het verzamelen van Adobe Experience Cloud-gegevens tussen andere Experiencen Cloud (AJO, RTCDP enzovoort)</li><li>[Apparaat-id&#39;s van eerste partij](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) voor een grotere nauwkeurigheid van de identificatie van de bezoeker</li></ul> | <ul><li>Moet op een gegeven moment in de toekomst voldoen aan een XDM-schema, waarbij gebruik wordt gemaakt van gegevenstoewijzing.</li><li>Neemt enige technische schuld op. Verouderde AppMeasurement- of analyseextensiecode kan bijvoorbeeld blijven bestaan. </li></ul> |
++++ Adobe Analytics migreren naar de SDK van het Web
+
+| Voordelen | Nadelen |
+|----------|---------|
+| <ul><li>Hiermee kunt u naar de SDK van het web gaan zonder dat dit van invloed is op uw bestaande Adobe Analytics-rapportage.</li><li>Behoudt regels en gegevenselementen die al in uw Adobe Analytics-implementatie zijn geconfigureerd (voor organisaties die de extensie Analytics gebruiken).</li><li>Verstrekt flexibiliteit om een schema XDM voor uw organisatie in een recentere tijd tot stand te brengen: een flexibel schema om het even welke gebieden te bepalen u, en slechts die gebieden nodig hebt die relevant zijn.</br>Hiervoor is de Adobe Analytics Experience Event-veldgroep in Adobe Experience Platform niet vereist. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Niet afhankelijk van de Adobe Analytics-nomenclatuur (voor prop, eVar, gebeurtenis, enzovoort)</li><li>Geen tekenlimiet (100 tekens voor props)</li><li>Zeer krachtige rapportage en beschikbaarheid van gegevens, omdat Adobe Experience Platform is gebouwd op voeding [Gebruiksgevallen voor realtime personalisatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Toekomstbestendig (u krijgt alle nieuwste functies en functies)</li><li>Tags consolideren voor het verzamelen van Adobe Experience Cloud-gegevens tussen andere Experiencen Cloud (AJO, RTCDP enzovoort)</li><li>[Apparaat-id&#39;s van eerste partij](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) voor een grotere nauwkeurigheid van de identificatie van de bezoeker</li></ul> | <ul><li>Moet op een gegeven moment in de toekomst voldoen aan een XDM-schema, waarbij gebruik wordt gemaakt van gegevenstoewijzing.</li><li>Neemt enige technische schuld op. Verouderde AppMeasurement- of analyseextensiecode kan bijvoorbeeld blijven bestaan. </li></ul> |
 
 {style="table-layout:auto"}
 
 +++
 
-+++Gebruik de Bronverbinding Analytics | Voordelen | Nadelen | |—|—| | <ul><li>Minder tijdrovende en veeleisende migratieweg. <p>Gegevens worden snel naar Customer Journey Analytics gemigreerd met minimale investeringen</p></li></ul> | <ul><li>De gegevens worden niet verzonden naar de Edge Network en kunnen niet met andere toepassingen van Adobe Experience Platform worden gedeeld; het wordt beperkt tot Customer Journey Analytics slechts<li>Moeilijk om naar SDK van het Web in de toekomst te bewegen</li><li>Gebruikt de het gebiedsgroep van de Gebeurtenis van de Ervaring van Analytics in uw schema.</br>Deze veldgroep voegt veel Adobe Analytics-gebeurtenissen toe die niet nodig zijn in uw Customer Journey Analytics-schema.  Dit kan leiden tot een overzichtelijker, complex schema dan wat anders voor Customer Journey Analytics nodig is.</li><li>Hoogste niveau van [latentie](/help/admin/guardrails.md#latencies) alle implementatiemethoden</li></ul> |
++++Gebruik de Bronverbinding Analytics
+
+| Voordelen | Nadelen |
+|----------|---------|
+| <ul><li>Minder tijdrovende en veeleisende migratieweg. <p>Gegevens worden snel naar Customer Journey Analytics gemigreerd met minimale investeringen</p></li></ul> | <ul><li>De gegevens worden niet verzonden naar de Edge Network en kunnen niet met andere toepassingen van Adobe Experience Platform worden gedeeld; het wordt beperkt tot Customer Journey Analytics slechts<li>Moeilijk om naar SDK van het Web in de toekomst te bewegen</li><li>Gebruikt de het gebiedsgroep van de Gebeurtenis van de Ervaring van Analytics in uw schema.</br>Deze veldgroep voegt veel Adobe Analytics-gebeurtenissen toe die niet nodig zijn in uw Customer Journey Analytics-schema.  Dit kan leiden tot een overzichtelijker, complex schema dan wat anders voor Customer Journey Analytics nodig is.</li><li>Hoogste niveau van [latentie](/help/admin/guardrails.md#latencies) alle implementatiemethoden</li></ul> |
 
 {style="table-layout:auto"}
 
