@@ -4,9 +4,9 @@ title: Snelle filters
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Houd rekening met het volgende wanneer u snelle filters maakt:
 * Snelle filters zijn alleen van toepassing op het project waar ze zijn gemaakt. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers.
 * Er zijn maximaal drie regels toegestaan.
 * Geneste containers of opeenvolgende regels worden niet ondersteund.
+* Als u een project met andere gebruikers deelt, kunnen die gebruikers snelle filters en andere project-slechts componenten uitgeven die in het gedeelde project worden ingebed.
 
 In de volgende video ziet u hoe u snelle filters kunt gebruiken. (Opmerking: in deze video wordt de term &#39;snelle segmenten&#39; gebruikt in plaats van &#39;snelle filters&#39;. De functionaliteit is echter hetzelfde.)
 
