@@ -4,7 +4,7 @@ description: Leer hoe te om de controlelogboeken van de Customer Journey Analyti
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inb
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor functies van Customers Journey Analytics de [toegangsbeheerdocumentatie](../admin/cja-access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor functies van Customers Journey Analytics de [toegangsbeheerdocumentatie](../technotes/access-control.md).
 
 ## Bekijk het controlelogboek in UI
 

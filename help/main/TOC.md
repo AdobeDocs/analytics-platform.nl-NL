@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 7%
+source-wordcount: '1081'
+ht-degree: 8%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 7%
    + [2022 introducties](../release-notes/2022.md)
    + [Release 2021](../release-notes/2021.md)
    + [2020 introducties](../release-notes/2020.md)
-   + [Customer Journey Analytics-releases](../release-notes/releases.md)
-   + [Documentatieupdates Customer Journey Analytics](../release-notes/doc-changes.md)
+   + [Strategie voor release van functies](../release-notes/releases.md)
+   + [Documentatie-updates](../release-notes/doc-changes.md)
 
 + Aan de slag {#cja-overview}
    + [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
@@ -358,15 +358,6 @@ ht-degree: 7%
    + Afgeleide velden {#derived-fields}
       + [Gebruik afgeleide gebieden om over doelstellingen te rapporteren](../use-cases/goals-using-derived-fields.md)
 
-
-+ Administratie {#cja-admin}
-   + [Guardrails](../admin/guardrails.md)
-   + [Toegangsbeheer](../admin/cja-access-control.md)
-   + [Gebruik weergeven en beheren](../admin/estimate-usage.md)
-   + [Gevolgen van verwijdering](../admin/cja-deletion.md)
-   + [Prestaties van Customers Journey Analytics optimaliseren](../admin/optimizing-performance.md)
-   + [IP-adressen](../admin/ip-addresses.md)
-
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 
@@ -376,8 +367,14 @@ ht-degree: 7%
    + [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md)
 
 + Technische notities {#technotes}
-   + [Customer Journey Analytics datacenters](../technotes/cja-datacenters.md)
-
-+ [Verklarende woordenlijst Customers Journey Analytics](../getting-started/cja-glossary.md)
+   + [Toegangsbeheer](../technotes/access-control.md)
+   + [Gegevenscentra](../technotes/data-centers.md)
+   + [Gevolgen van verwijdering](../technotes/deletion.md)
+   + [Domeinen](../technotes/domains.md)
+   + [Woordenlijst](../technotes/glossary.md)
+   + [Guardrails](../technotes/guardrails.md)
+   + [IP-adressen](../technotes/ip-addresses.md)
+   + [Prestaties van Customers Journey Analytics optimaliseren](../technotes/optimizing-performance.md)
+   + [Gebruik weergeven en beheren](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/)

@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Wanneer u een verbinding verwijdert, wordt een **[!UICONTROL Delete connection]*
 
 Selecteren **[!UICONTROL Continue]** om de verbinding te verwijderen.
 
-Zie [Gevolgen verwijderen](/help/admin/cja-deletion.md) voor meer informatie over de gevolgen van het verwijderen van een verbinding.
+Zie [Gevolgen van verwijdering](/help/technotes/deletion.md) voor meer informatie over het verwijderen van een verbinding.
 
 
 ### Een gegevensweergave maken

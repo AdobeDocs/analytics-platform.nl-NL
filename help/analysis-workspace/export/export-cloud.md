@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2205'
 ht-degree: 1%
 
 ---
@@ -144,13 +144,13 @@ Zorg ervoor dat uw lijsten, uw milieu, en uw toestemmingen aan de volgende verei
 
 * **Tabellen** Alle lijsten moeten minstens één afmeting in de rij en één metrisch in elke kolom omvatten om met een volledig-lijstuitvoer te worden gesteund.
 
-* **Omgeving:** De beheerders zouden ervoor moeten zorgen dat de IP adressen in [IP adressen die door Customer Journey Analytics worden gebruikt](/help/admin/ip-addresses.md) zijn inbegrepen in de firewall lijst van gewenste personen.
+* **Omgeving:** Zorg ervoor dat de [IP-adressen](/help/technotes/ip-addresses.md) en [Domeinen](/help/technotes/domains.md) die door Customer Journey Analytics worden gebruikt worden toegestaan door de firewall van hun organisatie.
 
-* **Rechten:** In de Adobe Admin Console moet aan gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige tabelexport**] toestemming die aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een bevoegdheid aan een productprofiel in de Admin Console, zie [Toestemming Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Toegangsbeheer Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+* **Rechten:** In de Adobe Admin Console moet aan gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige tabelexport**] toestemming die aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een bevoegdheid aan een productprofiel in de Admin Console, zie [Toestemming Customer Journey Analytics in Admin Console](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
-  >  Gebruikers aan wie de [De rol Productbeheerder](/help/admin/cja-access-control.md#product-admin-role) altijd toegang hebben tot volledige tabellen exporteren; aan deze gebruikers hoeft niet de opdracht [!UICONTROL **Volledige tabelexport**] toestemming.
+  >  Gebruikers aan wie de [De rol Productbeheerder](/help/technotes/access-control.md#product-admin-role) altijd toegang hebben tot volledige tabellen exporteren; aan deze gebruikers hoeft niet de opdracht [!UICONTROL **Volledige tabelexport**] toestemming.
 
 
 ### Niet-ondersteunde functies

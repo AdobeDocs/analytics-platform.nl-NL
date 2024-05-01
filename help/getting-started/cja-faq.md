@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2328'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Het hangt van uw gebruiksgeval af, dus werk met uw team van de Rekening van de A
 
 ## 9. De verbindingsgrootte schatten {#estimate-size}
 
-Zie [Gebruik schatten en beheren](/help/admin/estimate-usage.md).
+Zie [Gebruik schatten en beheren](/help/technotes/estimate-usage.md).
 
 ## 10. Over gebruiksoverschrijdingen {#overage}
 
@@ -235,9 +235,9 @@ Meer informatie over de [implicaties van gegevensset en het schrappen van verbin
 
 ## 12. Regionale gegevensverzameling
 
-De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interacties tussen uw bezoekers en Adobe- en niet-Adobe-oplossingen zo dicht mogelijk bij uw bezoekers kunnen plaatsvinden. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC, ook gekend als plaats van de Rand, deel van het Netwerk van de Rand van het Platform) worden verzameld, door:sturen het over een veilige verbinding aan de relevante oplossingen die op de configuratie van uw gegevensstroom en/of gebeurtenis het door:sturen worden gebaseerd.
+De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interacties tussen uw bezoekers en Adobe- en niet-Adobe-oplossingen zo dicht mogelijk bij uw bezoekers kunnen plaatsvinden. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC, ook gekend als plaats van de Rand, deel van de Edge Network van het Platform) worden verzameld, door:sturen het over een veilige verbinding aan de relevante oplossingen die op de configuratie van uw gegevensstroom en/of gebeurtenis het door:sturen worden gebaseerd.
 
-![Gegevensstroom met Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+![Gegevensstroom met behulp van Edge Network](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 Bij het regionale gegevensverzamelingsproces worden de volgende stappen uitgevoerd:
 
@@ -267,4 +267,4 @@ Wanneer de gegevens het regionale gegevenscentrum raken, bepaalt de configuratie
 Customer Journey Analytics vereist datasets van Adobe Experience Platform, zodat vereist uw datastream/gebeurtenis die configuratie door:sturen de dienst van Adobe Experience Platform om de gegevens van het regionale gegevenscentrum aan het gegevenscentrum te leiden waar uw instantie van Adobe Experience Platform wordt gevestigd. Customer Journey Analytics en zijn ondersteunende diensten en infrastructuur worden op hetzelfde Adobe Experience Platform-exemplaar ingezet.
 
 
-Zie [Overzicht van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) voor meer informatie over het proces van gegevensverzameling buiten het Adobe Experience Platform Edge Network en zijn regionale datacenters.
+Zie [Overzicht van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) voor meer informatie over het proces van gegevensverzameling buiten de Adobe Experience Platform Edge Network en haar regionale datacentra.

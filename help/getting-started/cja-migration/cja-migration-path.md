@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 1c789264a9867279f58a3ad139207fec8db29c1b
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Hieronder vindt u de migratiepaden die beschikbaar zijn voor organisaties die Ad
 
 | Voordelen | Nadelen |
 |----------|---------|
-| <ul><li>Minder tijdrovende en veeleisende migratieweg. <p>Gegevens worden snel naar Customer Journey Analytics gemigreerd met minimale investeringen</p></li></ul> | <ul><li>**Gegevens worden niet naar de Edge Network verzonden**: <p>Dit leidt tot de volgende nadelen:</p><ul><li>Hoogste niveau van [latentie](/help/admin/guardrails.md#latencies) in rapportage over alle migratiepaden; niet geoptimaliseerd voor realtime gebruik van personalisatie.</li><li>Gegevens kunnen niet worden gedeeld met andere Adobe Experience Platform-toepassingen; ze zijn beperkt tot alleen Customers Journey Analytics</li><li>Reliant op de nomenclatuur van Adobe Analytics (prop, eVar, gebeurtenis, enzovoort)</li></ul><li>**Moeilijk om naar SDK van het Web in de toekomst te bewegen**: </li><li>**Gebruikt de het gebiedsgroep van de Gebeurtenis van de Ervaring van Analytics in uw schema**: Deze veldgroep voegt veel Adobe Analytics-gebeurtenissen toe die niet nodig zijn in uw Customer Journey Analytics-schema.  Dit kan leiden tot een overzichtelijker, complex schema dan wat anders voor Customer Journey Analytics nodig is.</li></ul> |
+| <ul><li>Minder tijdrovende en veeleisende migratieweg. <p>Gegevens worden snel naar Customer Journey Analytics gemigreerd met minimale investeringen</p></li></ul> | <ul><li>**Gegevens worden niet naar de Edge Network verzonden**: <p>Dit leidt tot de volgende nadelen:</p><ul><li>Hoogste niveau van [latentie](/help/technotes/guardrails.md#latencies) in rapportage over alle migratiepaden; niet geoptimaliseerd voor realtime gebruik van personalisatie.</li><li>Gegevens kunnen niet worden gedeeld met andere Adobe Experience Platform-toepassingen; ze zijn beperkt tot alleen Customers Journey Analytics</li><li>Reliant op de nomenclatuur van Adobe Analytics (prop, eVar, gebeurtenis, enzovoort)</li></ul><li>**Moeilijk om naar SDK van het Web in de toekomst te bewegen**: </li><li>**Gebruikt de het gebiedsgroep van de Gebeurtenis van de Ervaring van Analytics in uw schema**: Deze veldgroep voegt veel Adobe Analytics-gebeurtenissen toe die niet nodig zijn in uw Customer Journey Analytics-schema.  Dit kan leiden tot een overzichtelijker, complex schema dan wat anders voor Customer Journey Analytics nodig is.</li></ul> |
 
 {style="table-layout:auto"}
 

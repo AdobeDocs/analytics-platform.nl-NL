@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b4c77c3ef4d57aac6e914a2373b6a9169f4872df
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In deze B2B-gebruikscase ziet u hoe u uw gegevens op accountniveau kunt opgeven 
 * Hoe presteert deze rekening als geheel met betrekking tot een specifieke marketingcampagne, in vergelijking met een andere rekening?
 * Werken bepaalde rollen (zoals IT Manager) bij één account anders dan dezelfde rol bij een andere account?
 
-U bereikt dit alles door de gegevens op accountniveau als een [opzoeken](/help/getting-started/cja-glossary.md) dataset.
+U bereikt dit alles door de gegevens op accountniveau als een [opzoeken](/help/technotes/glossary.md) dataset.
 
 U creeert eerst een raadplegingsschema in Adobe Experience Platform, dan creeer een dataset van de raadplegingstafel door op .csv-Gebaseerde rekening-vlakke gegevens in te voeren. Dan gaat u te werk om een verbinding in Customer Journey Analytics (Customer Journey Analytics) tot stand te brengen die verschillende datasets, met inbegrip van de raadpleging combineert u creeerde. Vervolgens maakt u een gegevensweergave en ten slotte kunt u al deze gegevens gebruiken in Workspace.
 
@@ -32,7 +32,7 @@ U creeert eerst een raadplegingsschema in Adobe Experience Platform, dan creeer 
 
 ## 1. Opzoekschema maken (Experience Platform)
 
-Uw eigen schema voor het [opzoeken](/help/getting-started/cja-glossary.md) de lijst zorgt ervoor dat de gebruikte dataset in Customer Journey Analytics met de correcte opstelling (verslagtype) beschikbaar zal zijn. De beste praktijken zijn [een aangepaste schema-klasse maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) genoemd &quot;Opzoeken&quot;, leeg van om het even welk element, dat voor alle raadplegingslijsten kan worden opnieuw gebruikt.
+Uw eigen schema voor het [opzoeken](/help/technotes/glossary.md) de lijst zorgt ervoor dat de gebruikte dataset in Customer Journey Analytics met de correcte opstelling (verslagtype) beschikbaar zal zijn. De beste praktijken zijn [een aangepaste schema-klasse maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) genoemd &quot;Opzoeken&quot;, leeg van om het even welk element, dat voor alle raadplegingslijsten kan worden opnieuw gebruikt.
 
 ![Het dialoogvenster Nieuwe klasse maken.](../assets/create-new-class.png)
 

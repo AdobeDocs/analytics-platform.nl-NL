@@ -5,7 +5,7 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](/help/components/overview.md) | Creeer nieuwe filters, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
 | [Delen](/help/analysis-workspace/curate-share/send-schedule-files.md) | De curate, deelt en plant PDF/CSV projecten aan ontvangers in uw organisatie. |
-| Help | Toegang tot Help-documentatie, video&#39;s en Analytics [Experience League gemeenschap](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de [foutopsporing](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Meer informatie over de werkruimte en factoren die van invloed zijn op het project [prestaties](/help/admin/optimizing-performance.md). |
+| Help | Toegang tot Help-documentatie, video&#39;s en Analytics [Experience League gemeenschap](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de [foutopsporing](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Meer informatie over de werkruimte en factoren die van invloed zijn op het project [prestaties](/help/technotes/optimizing-performance.md). |
 | Knop Delen of Eigenaar | Als u in een Eigen bent of voor het project uitgeeft, geeft de knoop van het Aandeel in top-right u met één klik toegang om uw projectontvangers te beheren. Als u in een Duplicaat of rol van de Mening voor het project bent, zult u de naam van de projecteigenaar zien. |
 
 ### Projectinfo en -instellingen {#info-settings}

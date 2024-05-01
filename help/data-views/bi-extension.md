@@ -6,7 +6,8 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 98d99dd3a25b8e6f9d9366dd2f4ff44ca132ee9e
+exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2703'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Als u deze functionaliteit wilt gebruiken, moet u:
 
 * Het verlopen van het gebruik op niet-vervallende geloofsbrieven om de hulpmiddelen van BI aan te sluiten [!DNL Customer Journey Analytics BI extension]. De [Referentiegids](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
 
-Zie [Toegangsbeheer](../admin/cja-access-control.md) in de sectie Beheer Customer Journey Analytics voor aanvullende informatie.
+Zie [Toegangsbeheer](../technotes/access-control.md) in de sectie Beheer Customer Journey Analytics voor aanvullende informatie.
 
 
 ## Gebruik

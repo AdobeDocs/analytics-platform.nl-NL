@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c55daff7e2d96c96b985b0ec9609eb4db0370a45
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '3355'
 ht-degree: 6%
@@ -31,7 +31,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [met u gedeelde projecten weergeven](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Azure SAS en Azure RBAC bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Azure SAS en Azure RBAC wanneer [cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Amazon S3 Role ARN en GCP buckets bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Amazon S3 Role ARN en Google Cloud Platform buckets wanneer [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
-| Verduidelijkt dat de Admins van het Product altijd toegang hebben om volledige lijsten uit te voeren | Breng de volgende wijzigingen aan om te verduidelijken dat gebruikers aan wie de rol Productbeheerder is toegewezen, standaard toegang hebben tot het exporteren van volledige tabellen vanuit Analysis Workspace: <ul><li>Een nieuw opsommingsteken toegevoegd aan [Standaardmachtigingen voor productbeheer](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Een notitie toegevoegd onder de [minimumeisen voor het exporteren van volledige tabellen naar de cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
+| Verduidelijkt dat de Admins van het Product altijd toegang hebben om volledige lijsten uit te voeren | Breng de volgende wijzigingen aan om te verduidelijken dat gebruikers aan wie de rol Productbeheerder is toegewezen, standaard toegang hebben tot het exporteren van volledige tabellen vanuit Analysis Workspace: <ul><li>Een nieuw opsommingsteken toegevoegd aan [Standaardmachtigingen voor productbeheer](/help/technotes/access-control.md#product-admin-default-permissions).</li><li>Een notitie toegevoegd onder de [minimumeisen voor het exporteren van volledige tabellen naar de cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | Verduidelijkt dat de segmenten tijdens componentenmigratie van Adobe Analytics opnieuw worden gecreeerd | In de [Gebruikershandleiding voor Adobe Analytics-gebruikers](/help/getting-started/aa-to-cja-user.md), verduidelijkt dat segmenten automatisch opnieuw worden gemaakt in Adobe Analytics als onderdeel van het migratie van componenten en niet handmatig opnieuw hoeven te worden gemaakt. |
 | Gegevens van overgeslagen record | Toegevoegde documentatie over de functionaliteit voor overgeslagen details in Verbindingen. Zie [Verbindingsgegevens](../connections/manage-connections.md#connection-details) voor meer informatie . |
 | **Januari 2024** | |
@@ -39,7 +39,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | De documentatie voor het toevoegen van accounts en locaties tijdens het exporteren van volledige tabellen is bijgewerkt | Bijgewerkt de documentatie om op minder belangrijke interfaceupdates te wijzen wanneer het vormen van een nieuwe rekening of een plaats wanneer [volledige tabellen exporteren vanuit Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Een nieuwe [!UICONTROL **Account toevoegen**] Deze optie is nu beschikbaar in het dialoogvenster [!UICONTROL **Account**] vervolgkeuzelijst. De [!UICONTROL **Locatie toevoegen**] die eerder als een knop naast de knop [!UICONTROL **Locatienaam**] keuzelijst is nu beschikbaar in het menu zelf. |
 | Informatie over nieuwe componentmigratie bij migreren uit Adobe Analytics | Informatie toegevoegd aan [Evolutie uit Adobe Analytics](/help/getting-started/aa-to-cja.md) die verwijst naar de nieuwe [componentmigratie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Mogelijkheden die worden beschreven in de Adobe Analytics Admin Guide. |
 | Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/calc-metrics/cm-workflow/cm-manager.md) en de [Filterbeheer](/help/components/filters/manage-filters.md) zijn alleen beschikbaar voor systeembeheerders. |
-| Machtigingen vereist voor het exporteren van gegevenssets | Toegevoegde informatie over de [rechten vereist](/help/admin/cja-access-control.md) om datasets naar wolkenbestemmingen uit te voeren. |
+| Machtigingen vereist voor het exporteren van gegevenssets | Toegevoegde informatie over de [rechten vereist](/help/technotes/access-control.md) om datasets naar wolkenbestemmingen uit te voeren. |
 | Verbindingen beheren | De [Verbindingen beheren](../connections/manage-connections.md) artikel, op basis van feedback van klanten. |
 | Afgeleide velden | Overzicht van functie toegevoegd [beperkingen](/help/data-views/derived-fields/derived-fields.md#limitations) en uitleg over de manier waarop het aantal [operatoren](/help/data-views/derived-fields/derived-fields.md#operators) gebruikt in een functie. |
 
@@ -51,8 +51,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **december 2023** | |
-| Gegevenscentra | Een artikel toegevoegd op Customer Journey Analytics [hostlocaties](../technotes/cja-datacenters.md). |
-| Guardrails | Customer Journey Analytics voor toegevoegde artikelaanbieding [guardrails](../admin/guardrails.md). |
+| Gegevenscentra | Een artikel toegevoegd op Customer Journey Analytics [hostlocaties](../technotes/data-centers.md). |
+| Guardrails | Customer Journey Analytics voor toegevoegde artikelaanbieding [guardrails](../technotes/guardrails.md). |
 | Updates van valutaomrekening | Verduidelijkte documentatie over hoe te [valutaconversie configureren](/help/data-views/component-settings/format.md). |
 | Updates van de documentatie over Anomaly Detection | De documentatie voor Anomaly Detection was eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [Anomaly Detection](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) is direct onder de sectie Analysis Workspace geplaatst.</li></ul> |
 | **Oktober 2023** | |
@@ -90,7 +90,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Doc over &quot;Gegevens uit cel selecteren&quot; in Report Builder | Met deze functie kunnen gebruikers de gegevensweergave selecteren voor een gegevensblok in een cel. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
 | Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
-| Optimalisatie-update | Bijgewerkt artikel op [Prestaties van Customers Journey Analytics optimaliseren](/help/admin/optimizing-performance.md) |
+| Optimalisatie-update | Bijgewerkt artikel op [Prestaties van Customers Journey Analytics optimaliseren](/help/technotes/optimizing-performance.md) |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | Componenten sorteren in linkerraster | Informatie toegevoegd over het sorteren van de lijst met componenten in de linkertrack. Zie de sectie Zoeken, filteren en sorteren in de lijst met componenten in [Overzicht van componenten](/help/components/overview.md). |
@@ -133,7 +133,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Datum | Beschrijving bijwerken |
 | --- | --- |
 | **december 2022** |  |
-| 16 december 2022 | Nieuw onderwerp over [het meten en beheren van het gegevensgebruik van uw Customer Journey Analytics](/help/admin/estimate-usage.md). |
+| 16 december 2022 | Nieuw onderwerp over [het meten en beheren van het gegevensgebruik van uw Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Oktober 2022** | |
 | Oktober 2022 | Nieuw onderwerp over [wachtwoordbeveiliging voor geplande projecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Oktober 2022 | Nieuw onderwerp over [Door de klant beheerde toetsen](/help/privacy/cmk.md). Deze functie wordt ondersteund door [Gereedheid van HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
@@ -148,7 +148,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | September 2022 | Nieuw onderwerp over [Deelvenster Experimentatie](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | **augustus 2022** | |
 | Augustus 2022 | Adobe Experience Platform-artikel op [Ondersteuning voor verschillende regio&#39;s voor de bronconnector van Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). |
-| Augustus 2022 | Significant bijgewerkt artikel op [Toegangsbeheer Customer Journey Analytics](/help/admin/cja-access-control.md). |
+| Augustus 2022 | Significant bijgewerkt artikel op [Toegangsbeheer Customer Journey Analytics](/help/technotes/access-control.md). |
 | Augustus 2022 | Nieuw artikel over [Ondersteuning van Customers Journey Analytics voor labels en beleid voor gegevensbeheer](/help/data-views/data-governance.md). |
 | Augustus 2022 | Nieuw artikel over [Het vergelijken van terminologie voor de gegevens van de Analyse die door de bron van de Analyse schakelaar worden overgegaan](/help/getting-started/aa-vs-cja/terminology.md). |
 | Augustus 2022 | Nieuwe documentatie over [Publiceren van het publiek aan het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html). |

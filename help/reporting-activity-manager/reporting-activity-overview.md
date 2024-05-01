@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 
 <!-- update for CJA -->
 
-Voor het beheer van de rapportactiviteiten hebt u de rol Productbeheerder nodig. Zie voor meer informatie [De rol Productbeheerder](/help/admin/cja-access-control.md#product-admin-role) in [Toegangsbeheer Customer Journey Analytics](/help/admin/cja-access-control.md).
+Voor het beheer van de rapportactiviteiten hebt u de rol Productbeheerder nodig. Zie voor meer informatie [Toegangsbeheer Customer Journey Analytics](/help/technotes/access-control.md).
 
 ## Rapportactiviteiten weergeven
 

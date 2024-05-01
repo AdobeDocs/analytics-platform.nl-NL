@@ -4,9 +4,9 @@ description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics wer
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevenss
 
 ## GDPR
 
-Customer Journey Analytics zal zich niet rechtstreeks op de centrale dienst van de algemene gegevensbeschermingsverordening (GDPR) abonneren en in plaats daarvan alle wijzigingen in de gegevensset in Experience Platform erven. We zijn afhankelijk van Platform Data Lake om aanvragen voor verwijdering van GDPR af te dwingen en stellen ons op de hoogte wanneer ze zijn voltooid op Pipeline. Wij luisteren aan Pijpleiding en synchroniseren alle veranderingen in beïnvloede partijen in Customer Journey Analytics voor gebeurtenisdatasets. De datasets van het profiel en van de raadpleging die door GDPR schrappingsverzoeken worden beïnvloed zullen volledig na elke schrappingsverzoek opnieuw worden opgenomen. We kunnen garanderen dat verzoeken om verwijdering binnen 7 dagen na een verwijderingsgebeurtenis in het Data Lake worden uitgevoerd.
+Customer Journey Analytics zal zich niet rechtstreeks op de centrale dienst van de algemene gegevensbeschermingsverordening (GDPR) abonneren en in plaats daarvan alle wijzigingen in de gegevensset in Experience Platform erven. De Customer Journey Analytics hangt van het meer van Gegevens van het Platform af om GDPR schrapingsverzoeken af te dwingen en Customer Journey Analytics te melden wanneer de verzoeken volledig zijn. Alle veranderingen in beïnvloede partijen in Customer Journey Analytics voor gebeurtenisdatasets worden gesynchroniseerd met de gegevens van het Platform. De datasets van het profiel en van de raadpleging die door GDPR schrappingsverzoeken worden beïnvloed worden volledig opnieuw opgenomen na elk schrappingsverzoek. Verwijderingsverzoeken worden doorgaans binnen 7 dagen na een verwijderingsgebeurtenis in het Data Lake voltooid.
 
 ## CCPA
 
