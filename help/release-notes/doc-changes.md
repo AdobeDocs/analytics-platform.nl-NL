@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 355052289c5e613212030b7748b6116a12455953
 workflow-type: tm+mt
 source-wordcount: '3355'
 ht-degree: 6%
@@ -23,7 +23,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Prognose van statistische technieken | Toegevoegd artikel waarin de [statistische technieken die worden gebruikt in de prognose](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Toegevoegde informatie met de aanbeveling Volledige uitvoer van tabellen voor afmetingen met hoge kardinaliteit | Opsommingsteken toegevoegd in [Aanbevolen werkwijzen voor afmetingen met een hoge cardinaliteit](/help/components/dimensions/high-cardinality.md) om aan te bevelen het Volledige Uitvoer van de Lijst voor hoge kardinaalafmetingen te gebruiken. |
 | Toegevoegde documentatie over intelligente bijschriften in mobiele scorecards | [Intelligente bijschriften](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) kunnen niet-analisten helpen hun gegevens beter te begrijpen zonder de hulp van analisten. |
-| Documentatie voor nieuwe functies voor Adobe Producten Analytics | <ul><li>[Eigenschappenmatrix](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Verbeterd [aanhoudingspercentages](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[Verbeterde inzichten in scheitrechter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Vergelijk gebeurtenissen binnen één enkele stap van het Kanaal</li></ul> |
+| Nieuwe documentatie voor functies van Adobe Producten Analytics | <ul><li>[Eigenschappenmatrix](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Verbeterd [aanhoudingspercentages](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[Verbeterde inzichten in scheitrechter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Vergelijk gebeurtenissen binnen één enkele stap van het Kanaal</li></ul> |
 | **maart 2024** | |
 | Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt die gebruiksinformatie betreffende **Gebruikt in** kolom op de [bestemmingspagina](/help/getting-started/landing.md) gaat slechts terug tot september 2023. |
 | Toegevoegde documentatie over toestemmingenverhoging voor project-slechts componenten van de Werkruimte | Als u een project met andere gebruikers deelt, kunnen die gebruikers uitgeven [snelle filters](/help/components/filters/quick-filters.md) en andere projectgebonden componenten die in het gedeelde project zijn ingesloten. |
