@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 355052289c5e613212030b7748b6116a12455953
+source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3461'
 ht-degree: 6%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Mei 2024** | |
+| Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | **April 2024** | |
 | Prognose van statistische technieken | Toegevoegd artikel waarin de [statistische technieken die worden gebruikt in de prognose](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Toegevoegde informatie met de aanbeveling Volledige uitvoer van tabellen voor afmetingen met hoge kardinaliteit | Opsommingsteken toegevoegd in [Aanbevolen werkwijzen voor afmetingen met een hoge cardinaliteit](/help/components/dimensions/high-cardinality.md) om aan te bevelen het Volledige Uitvoer van de Lijst voor hoge kardinaalafmetingen te gebruiken. |
