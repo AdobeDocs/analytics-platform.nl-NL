@@ -4,7 +4,7 @@ description: Neem gegevens die door Adobe Journey Optimizer Decision Management 
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -73,12 +73,12 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om benaderend
 | Gebeurtenistype (naam wijzigen om naar een specifieke gebeurtenis te verwijzen, bijvoorbeeld `Feedback` for `message.feedback`) [1] | Hoeveelheid van een specifiek type gebeurtenis | `eventType` | Componenttype: Metrisch <br/>**[!UICONTROL Set Include Exclude Values]**: Aan<br/>**[!UICONTROL Match]**: [!UICONTROL If all criteria are met]<br/>**[!UICONTROL Criteria]**:**[!UICONTROL Equals]**`message.feedback` |
 | Beslissingsoptiescore | Berekende waarde voor een beslissingsoptie in de context van één bereik. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Componenttype: Metrisch |
 | Reservekopiescore voor alternatieven | Berekende waarde voor een back-upbeslissingsoptie in de context van één bereik. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Componenttype: Metrisch |
-| Voorstel afgewezen | Het aantal aanbiedingen dat zonder enige andere directe interactie wordt afgewezen of afgewezen. | `_experience.decisioning.`<br/>`propositionEventType.display` | Componenttype: Metrisch |
+| Voorstel afgewezen | Het aantal aanbiedingen dat zonder enige andere directe interactie wordt afgewezen of afgewezen. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Componenttype: Metrisch |
 | Weergave aanbiedingen | Het aantal aanbiedingen dat aan het profiel wordt getoond. | `_experience.decisioning.`<br/>`propositionEventType.display` | Componenttype: Metrisch |
 | Interactie van aanbiedingen | Het aantal aanbiedingen dat aan het profiel wordt getoond. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Componenttype: Metrisch |
 | Verzendvoorstellen | Het aantal voorstellen dat naar het profiel is verzonden. | `_experience.decisioning.`<br/>`propositionEventType.send` | Componenttype: Metrisch |
 | Trigger voor aanbiedingen | Het aantal aanbiedingen dat is gekozen om door de client-SDK te worden weergegeven. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Componenttype: Metrisch |
-| Abonnement op voorstellen opgezegd | Het aantal aanbiedingen dat wordt aangevraagd door profiel, hoeft in de toekomst niet te worden weergegeven. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Componenttype: Metrisch |
+| Abonnement op voorstellen opgezegd | Het aantal aanbiedingen dat wordt aangevraagd door profiel, hoeft in de toekomst niet te worden weergegeven. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Componenttype: Metrisch |
 
 {style="table-layout:auto"}
 
