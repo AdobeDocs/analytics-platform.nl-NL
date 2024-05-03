@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: c8796834de6b566783d53ba1602e44a8c91127bf
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2129'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Metrics | Volledige steun; de Customer Journey Analytics gebruikt het Model van de Gegevens van de Ervaring (XDM) en steunt onbeperkte metriek en is niet verbonden aan de gebeurtenissen van het douanesucces van Adobe Analytics. Sommige standaardmetriek zijn anders genoemd van Adobe Analytics: Bezoekers = Mensen, Bezoekingen = Sessies, Hits = Gebeurtenissen. |
 | Projecten, filters, en berekende metriek van Adobe Analytics aan Customer Journey Analytics migreren | Volledige ondersteuning. |
 | Mobiele scorecard/dashboards | Volledige ondersteuning |
-| Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. |
+| Deelvensters | Volledige ondersteuning voor de volgende deelvensters: Leeg deelvenster, Kenmerken, Vrije vorm, Snelle inzichten en Volgende of vorige item. |
 | PDF exporteren | Volledige ondersteuning |
 | Projectcursus | Volledige ondersteuning |
 | Projectkoppeling | Volledige ondersteuning |
@@ -128,6 +128,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Mogelijkheid om gegevenssets te combineren (zoals Adobe Analytics-rapportenreeksen) | Met Customer Journey Analytics kunt u gegevens uit meerdere rapportensuites combineren alsof het één rapportsuite in Adobe Analytics betreft. |
 | Opslag voor alle soorten gegevens | Customer Journey Analytics wordt gecombineerd met de capaciteit van het Experience Platform om allerlei gegevensschema&#39;s en types te houden. Gebruiken [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl)Gegevens kunnen op uniforme wijze worden weergegeven en geordend, klaar voor combinatie en onderzoek. Adobe Analytics is vooral gericht op analytische gegevens voor het web en mobiele apparaten en beschikt over enkele mogelijkheden om [importgegevens](https://experienceleague.adobe.com/docs/analytics/import/home.html). |
 | Apparaatanalyse | Customer Journey Analytics steunt de naadloze combinatie apparaat-specifieke datasets van unauthenticated en voor authentiek verklaarde zittingen. De Customer Journey Analytics biedt aan om historische gegevens aan bekende apparaten terug te vullen. In Analytics, is dit vermogen beperkt tot één enkele rapportreeks en het gebruik van een apparatengrafiek. |
+| Verbeteringen voor Dimension | Customer Journey Analytics biedt meer flexibiliteit bij het gebruik van dimensies: <ul><li>**Aangepaste numerieke afmetingen**: [Uw eigen op numerieke waarden gebaseerde afmetingen maken in een gegevensweergave](/help/data-views/create-dataview.md#components).</li><li>**Tekenreeksgebaseerde afmetingen sorteren**: [Sorteer op tekenreeks gebaseerde afmetingen alfabetisch in een vrije-vormtabel.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>In Adobe Analytics waren slechts enkele ingebouwde numerieke afmetingen beschikbaar en sorteren op tekenreeksgebaseerde afmetingen was niet mogelijk.</p> |
 | Afgeleide velden | De afgeleide gebieden staan voor rapport-tijd transformaties aan uw gegevens toe. Gegevens kunnen tijdens de vlucht worden gecombineerd, gecorrigeerd of gemaakt en worden met terugwerkende kracht toegepast op alle rapporten. |
 | Uitgebreide opties voor beveiliging en privacy - HIPAA-gereedheid | De Customer Journey Analytics is klaar HIPAA en biedt extra veiligheidsopties voor regelnaleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 | Experimentatieanalyse | Customer Journey Analytics kan de lift en het vertrouwen van elk experiment beoordelen vanuit elke gegevensbron die is gedefinieerd als onderdeel van een verbinding. Deze evaluatie staat u toe om oorzaak-en-effect verhoudingen tussen klanteninteractie te begrijpen die om het even welk kanaal overspannen. Analyse is beperkt tot experimentatieanalyse via A4T. |
@@ -137,6 +138,6 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Transformaties in de rapporttijd | Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. Analytics ondersteunt maximaal 75 props en 250 eVars. |
-| Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd. Adobe Analytics is beperkt tot 500.000 unieke waarden. De onbeperkte unieke waarden of dimensies verwijderen de rapportage- en analysebeperkingen die momenteel bestaan met grootschalige analytische implementatie. |
+| Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [kardinaliteitsbeperkingen voor een dimensie](/help/components/dimensions/high-cardinality.md), zodat unieke waarden kunnen worden weergegeven en geteld.</p><p>Met deze aanpak worden de rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, opgeheven, wat resulteert in [!UICONTROL Low Traffic] labels.</p><p>In de Customer Journey Analytics is het mogelijk een [!UICONTROL Uniques Exceeded] label, maar deze komen veel minder vaak voor en kunnen worden verlicht door een filter of een segment op de gegevens toe te passen.</p> |
 
 {style="table-layout:auto"}
