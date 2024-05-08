@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2790'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Als u eenmaal [een of meer verbindingen hebben gemaakt of bewerkt](/help/connect
 * Alle gegevenssets weergeven in een verbinding.
 * Controleer de status van de datasets van uw verbinding en de status van het innameproces. Wanneer zijn bijvoorbeeld uw gegevens beschikbaar, zodat u in Analysis Workspace kunt beginnen met rapporteren en analyseren.
 * Identificeer om het even welke gegevensdiscrepanties toe te schrijven aan misconfiguration. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd gevormd en ontbrekende gegevens in Customer Journey Analytics veroorzaakt?
-* Krijg inzicht in gebruik van ingeklapte en te melden rijen over al uw verbindingen.
+* Krijg inzicht in het gebruik van ingeklapte en te melden rijen over al uw verbindingen.
 
 [!UICONTROL Connections] heeft twee interfaces: [[!UICONTROL List]](#list) en [[!UICONTROL Usage]](#usage).
 
@@ -35,14 +35,14 @@ De [!UICONTROL List] interface is de standaardinterface voor Verbindingen. Als d
 
 De [!UICONTROL List] de interface toont een lijst van alle beschikbare verbindingen. U kunt snel naar een verbinding zoeken met de zoekfunctie ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) doos.
 
-De volgende kolommen/pictogrammen zijn beschikbaar in de tabel.
+De volgende kolommen of pictogrammen zijn beschikbaar in de tabel.
 
-| Kolom/pictogram | Beschrijving |
+| Kolom of pictogram | Beschrijving |
 | --- | --- |
 | [!UICONTROL Name] | De vriendelijke naam van de verbinding. Als u de details van de verbinding wilt zien, selecteert u de naam van de hyperlink. Zie [Verbindingsgegevens](#connection-details). |
 | ![Informatie](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Informatie weergeven over [!UICONTROL Datasets included], [!UICONTROL Sandbox], [!UICONTROL Owner]en meer selecteert u ![Informatie](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) naast de verbindingsnaam.<p>Een popup venster toont details. <p><img src="./assets/conn-info.png" alt="Verbindingsgegevens weergeven" width="400"/> |
-| ![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Naar [een gegevensweergave maken](#create-a-data-view) voor de verbinding selecteert u ![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) . Dit pictogram wordt alleen weergegeven wanneer er al geen gegevensweergave is gekoppeld aan de verbinding. |
-| ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Selecteren ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) tot: <p>![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [Bewerken](#edit-a-connection) een verbinding.<p>![Verwijderen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [Verwijderen](#delete-a-connection) een verbinding.<p>![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [Nieuwe gegevensweergave maken](#create-a-data-view). Gebruik dit om extra gegevensmeningen voor de verbinding tot stand te brengen. |
+| ![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Naar [een gegevensweergave maken](#create-a-data-view) voor de verbinding selecteert u ![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Dit pictogram wordt alleen weergegeven wanneer er al geen gegevensweergave is gekoppeld aan de verbinding. |
+| ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Selecteren ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) tot: <p>![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [Bewerken](#edit-a-connection) een verbinding.<p>![Verwijderen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [Verwijderen](#delete-a-connection) een verbinding.<p>![Gegevens, weergave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [Nieuwe gegevensweergave maken](#create-a-data-view). Aanvullende gegevensweergaven maken voor de verbinding. |
 | [!UICONTROL Datasets] | Toont één of meerdere verbindingen aan de datasets die deel van de verbinding uitmaken. U kunt de datasethyperlink selecteren om de dataset in de verbinding te bekijken. Als meer datasets deel van de geselecteerde verbinding uitmaken, selecteer **[!UICONTROL +*x *meer]**om een **[!UICONTROL Datasets included]**deelvenster. Dit paneel toont verbindingen aan alle datasets en een optie om naar een specifieke dataset te zoeken die deel van de verbinding uitmaakt.<p><img src="./assets/datasets-included.png" alt="Bijbehorende gegevenselementen" width="400"/><p>Het selecteren van een datasetnaam opent de dataset in Experience Platform UI in een nieuw lusje. |
 | [!UICONTROL Sandbox] | Hiermee wordt het dialoogvenster [Experience Platform sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) waarvan deze verbinding zijn datasets trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
 | [!UICONTROL Owner] | De persoon die de verbinding heeft gemaakt. |
@@ -51,11 +51,9 @@ De volgende kolommen/pictogrammen zijn beschikbaar in de tabel.
 | [!UICONTROL Last modified] | De tijdstempel wanneer de verbinding voor het laatst is bijgewerkt. |
 | [!UICONTROL Backfill data] | Toont de status voor backfill gegevens over datasets.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills in verschillende gegevensreeksen,<p><span style="color:orange">●</span>   **[!UICONTROL _x _backfills-verwerking]**voor het aantal verwerkingsbackfills over gegevensreeksen,<p><span style="color:green">●</span>   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide terugvullingen voor datasets, en<p><span style="color:grey">●</span>   **[!UICONTROL _Uit_]** als er geen backfills zijn gedefinieerd voor de gegevenssets in de verbinding. |
 
-U kunt configureren welke kolommen u wilt weergeven ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). Dit toont de **Tabel aanpassen** waarmee u kolommen in de tabel kunt in- of uitschakelen.
+Om te vormen welke kolommen om te tonen selecteren ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), die de **Tabel aanpassen** kunt u kolommen in de tabel in- of uitschakelen.
 
 ### Een verbinding bewerken
-
-Hiermee kunnen beheerders de verbinding bewerken.
 
 1. Selecteren ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) naast de verbindingsnaam
 1. Selecteren ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** in het contextmenu.
@@ -78,8 +76,6 @@ Zie [Verbinding maken of bewerken](create-connection.md) voor meer informatie .
 
 ### Een verbinding verwijderen {#connections-delete}
 
-Hiermee kunnen beheerders de verbinding verwijderen.
-
 1. Selecteren ![Meer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) naast de verbindingsnaam.
 1. Selecteren ![Verwijderen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete]**.
 
@@ -98,9 +94,7 @@ Selecteren **[!UICONTROL Continue]** om de verbinding te verwijderen.
 Zie [Gevolgen van verwijdering](/help/technotes/deletion.md) voor meer informatie over het verwijderen van een verbinding.
 
 
-### Een gegevensweergave maken
-
-Hiermee kunnen beheerders een gegevensweergave voor de verbinding maken.
+### Een gegevensweergave voor een verbinding maken
 
 * Als er geen gegevensweergave is gekoppeld aan de verbinding:
 
@@ -133,27 +127,27 @@ De interface van de Details van Verbindingen verstrekt een gedetailleerde mening
 
 | Gebruikersinterface | Beschrijving |
 | --- | --- |
-| ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL Edit Connection] | Als u de gegevens van een verbinding wilt bewerken, selecteert u ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit Connection]** . Zie [Verbinding maken of bewerken](create-connection.md) voor meer informatie . |
+| ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL Edit Connection] | Als u de gegevens van een verbinding wilt bewerken, selecteert u ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit Connection]**. Zie [Verbinding maken of bewerken](create-connection.md) voor meer informatie . |
 | Gegevensset selecteren | Hiermee kunt u een of alle gegevenssets in de verbinding kiezen. U kunt geen datasets selecteren. Standaardwaarden: [!UICONTROL All datasets]. |
-| Selector datumbereik | Begin- en/of einddatum bewerken of ![Kalender](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) om de gegevensbereikkiezer te openen. Selecteer in de datumbereikkiezer een datumbereik met een van de vooraf gedefinieerde punten (bijvoorbeeld **[!UICONTROL Last 6 months]**) of gebruik de kalender om de begin- en einddatum te selecteren. Selecteren **[!UICONTROL Apply]** om het nieuwe gegevensbereik toe te passen. |
-| [!UICONTROL Records of event data available] | Vertegenwoordigt het totale aantal rijen van de gebeurtenisdataset beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. De telling verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. Als er gegevens zijn toegevoegd, is er een vertraging van 1-2 uur om de gegevens in de rapportage weer te geven. |
-| [!UICONTROL Metrics] | Hiermee geeft u een overzicht van de records met de gebeurtenis-/opzoekgegevens-/profielgegevensset die zijn toegevoegd/overgeslagen/verwijderd, en van het aantal toegevoegde batches, **voor de dataset en de datumwaaier u hebt geselecteerd**.<p>Selecteren **[!UICONTROL Check detail]** om de **[!UICONTROL Check skipped detail]** popup, een lijst van alle gebeurtenisdatasets of geselecteerde dataset het aantal overgeslagen verslagen en de reden.<p><img src="./assets/skipped-records.png" width="500"/><p>Selecteren ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) popup met meer informatie. Om sommige overgeslagen redenen, zoals [!UICONTROL Empty visitor ID], toont popup Steekproef PSQL voor EQS (Experience Platform voor de Dienst van de Vraag) u kunt gebruiken binnen [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) om voor de overgeslagen verslagen in de dataset te vragen. Selecteren ![Kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** om de SQL te kopiëren. |
+| Selector datumbereik | Begindatum, einddatum bewerken of ![Kalender](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) om de gegevensbereikkiezer te openen. Selecteer in de datumbereikkiezer een datumbereik met een van de vooraf gedefinieerde punten (bijvoorbeeld **[!UICONTROL Last 6 months]**) of gebruik de kalender om de begin- en einddatum te selecteren. Selecteren **[!UICONTROL Apply]** om het nieuwe gegevensbereik toe te passen. |
+| [!UICONTROL Records of event data available] | Het totale aantal rijen van de gebeurtenisdataset beschikbaar voor rapportering, **voor de volledige verbinding**. Deze telling is onafhankelijk van enige kalendermontages. De telling verandert als u een dataset van de datasetselecteur selecteert of door een dataset in de lijst te selecteren. Als er gegevens zijn toegevoegd, is er een vertraging van 1-2 uur om de gegevens in de rapportage weer te geven. |
+| [!UICONTROL Metrics] | Vat de gebeurtenis, raadpleging en de verslagen van de profieldataset samen die worden toegevoegd, overgeslagen, en geschrapt, en het aantal toegevoegde partijen, **voor de dataset en de datumwaaier u hebt geselecteerd**.<p>Selecteren **[!UICONTROL Check detail]** om de **[!UICONTROL Check skipped detail]** popup. popup maakt een lijst van het aantal overgeslagen verslagen en de reden voor alle gebeurtenisdatasets of geselecteerde dataset.<p><img src="./assets/skipped-records.png" width="500"/><p>Selecteren ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) popup met meer informatie. Om sommige overgeslagen redenen, zoals [!UICONTROL Empty visitor ID], toont popup Steekproef PSQL voor EQS (Experience Platform voor de Dienst van de Vraag) u kunt gebruiken binnen [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) om voor de overgeslagen verslagen in de dataset te vragen. Selecteren ![Kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** om de SQL te kopiëren. |
 | [!UICONTROL Records added] | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Om de 10 minuten bijgewerkt. |
-| [!UICONTROL Records skipped] | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn onder andere: ontbrekende tijdstempels, ontbrekende of ongeldige personen-id enzovoort. Om de 10 minuten bijgewerkt. <p>Ongeldige personen-id&#39;s (zoals &quot;undefined&quot; of &quot;00000000&quot; of een willekeurige combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) kan niet aan een specifieke gebruiker of persoon worden toegeschreven. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportage. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Stiksel](/help/stitching/overview.md) om de ongedefinieerde of helemaal geen gebruikers-id te vullen met geldige gebruikers-id&#39;s.</li><li>Blanco de gebruikersnaam. Deze wordt overgeslagen tijdens inname (voorkeur boven ongeldige of geen gebruikersnaam).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
-| [!UICONTROL Records] verwijderd | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Iemand heeft mogelijk een gegevensset verwijderd in [!DNL Experience Platform], bijvoorbeeld. Om de 10 minuten bijgewerkt.<p>In sommige scenario&#39;s, kan deze waarde ook verslagen omvatten die, zoals met het stitching of sommige updates van de raadplegingsdataset worden vervangen. Bekijk dit voorbeeld:</p><ul><li>U uploadt één verslag aan een individuele dataset van het Profiel XDM, die CJA wordt gevormd om als gegevens van de profielraadpleging in te voeren. In de verbindingsdetails, zou deze dataset 1 toegevoegde verslag tonen.</li><li>U uploadt een duplicaat van de oorspronkelijke record naar dezelfde AEP-gegevensset, die nu twee records bevat. CJA neemt het extra verslag van de dataset van de profielraadpleging op. Aangezien CJA al een profielrecord heeft opgenomen in de verbinding voor die persoon-id, verwijdert CJA zijn eerdere versie en voegt CJA de nieuwe profielgegevens toe. In de verbindingsdetails, zou dit 1 toegevoegde verslag en 1 schrapte verslag vertegenwoordigen, omdat CJA slechts de meest recente gegevens van de profielraadpleging voor om het even welke opgenomen persoonsidentiteitskaart behoudt.</li><li>In totaal bevat de AEP-gegevensset twee records die identiek zijn. Afzonderlijk, zullen de CJA verbindingsdetails de status van zijn opgenomen gegevens tonen: 2 verslagen toegevoegd en 1 verslag geschrapt voor deze profieldataset. </li></ul> |
+| [!UICONTROL Records skipped] | Geeft aan hoeveel rijen zijn overgeslagen in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Redenen voor het overslaan van records zijn onder andere: ontbrekende tijdstempels, ontbrekende of ongeldige personen-id enzovoort. Om de 10 minuten bijgewerkt. <p>Ongeldige personen-id&#39;s (zoals `undefined`, of `00000000`of een combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) zijn id&#39;s die niet aan een specifieke gebruiker of persoon kunnen worden toegewezen. Deze rijen kunnen niet in het systeem worden opgenomen en in fout-prone opname en rapportering resulteren. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Stiksel](/help/stitching/overview.md) om de ongedefinieerde of helemaal geen gebruikers-id te vullen met geldige gebruikers-id&#39;s.</li><li>Maak de gebruikersnaam leeg. Deze wordt overgeslagen tijdens het invoeren (voorkeur aan ongeldige of geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
+| [!UICONTROL Records] verwijderd | Geeft aan hoeveel rijen zijn verwijderd in de geselecteerde tijdsperiode. **voor de dataset en de datumwaaier u hebt geselecteerd**. Iemand heeft mogelijk een gegevensset verwijderd in [!DNL Experience Platform], bijvoorbeeld. Om de 10 minuten bijgewerkt.<p>In sommige scenario&#39;s, kan deze waarde ook verslagen omvatten die, zoals met het stitching of sommige updates van de raadplegingsdataset worden vervangen. Bekijk dit voorbeeld:</p><ul><li>U uploadt één verslag aan een individuele dataset van het Profiel XDM, die CJA wordt gevormd om als gegevens van de profielraadpleging in te voeren. In de verbindingsdetails, zou deze dataset 1 toegevoegde verslag tonen.</li><li>U uploadt een duplicaat van de oorspronkelijke record naar dezelfde AEP-gegevensset, die nu twee records bevat. CJA neemt het extra verslag van de dataset van de profielraadpleging op. Aangezien CJA al een profielrecord heeft opgenomen in de verbinding voor die persoon-id, verwijdert CJA zijn eerdere versie en voegt CJA de nieuwe profielgegevens toe. In de verbindingsdetails, zou deze actie 1 toegevoegde verslag en 1 schrapte verslag vertegenwoordigen, omdat CJA slechts de meest recente gegevens van de profielraadpleging voor om het even welke opgenomen persoonsidentiteitskaart behoudt.</li><li>In totaal bevat de AEP-gegevensset twee records die identiek zijn. De CJA-verbindingsdetails geven afzonderlijk de status van de opgenomen gegevens weer: 2 records toegevoegd en 1 record verwijderd voor deze profielgegevensset. </li></ul> |
 | ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _Naam of id van gegevensset zoeken_ | Veld voor het zoeken naar gegevenssets. U kunt de datasetlijst door datasetnaam zoeken of [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets table] | Toont de datasets die deel van de verbinding uitmaken. |
 | [!UICONTROL Datasets] | Toont de naam van de dataset die deel van de verbinding uitmaakt. U kunt de hyperlink selecteren om de dataset in Experience Platform UI op een nieuw lusje te openen. U kunt de rij of checkbox selecteren om details voor de geselecteerde dataset slechts te tonen. |
 | [!UICONTROL Dataset ID] | Automatisch gegenereerd door Experience Platform. |
-| [!UICONTROL Records added] | Het aantal datasetverslagen/rijen die aan een verbinding tijdens het geselecteerde tijdinterval worden toegevoegd. |
-| [!UICONTROL Records skipped] | Het aantal datasetverslagen/rijen die tijdens gegevensoverdracht voor een verbinding tijdens het geselecteerde tijdinterval worden overgeslagen. |
-| [!UICONTROL Records deleted] | Het aantal datasetverslagen/rijen die uit een verbinding tijdens het geselecteerde tijdinterval worden verwijderd. |
-| [!UICONTROL Batches added] | Het aantal gegevenssetbatches is toegevoegd aan een verbinding. |
-| [!UICONTROL Last added] | De tijdstempel van de laatste batch uit de gegevensset die is toegevoegd aan een verbinding. |
+| [!UICONTROL Records added] | Het aantal datasetverslagen (rijen) die aan een verbinding tijdens het geselecteerde tijdinterval worden toegevoegd. |
+| [!UICONTROL Records skipped] | Het aantal datasetverslagen (rijen) die tijdens gegevensoverdracht voor een verbinding tijdens het geselecteerde tijdinterval worden overgeslagen. |
+| [!UICONTROL Records deleted] | Het aantal datasetverslagen (rijen) die uit een verbinding tijdens het geselecteerde tijdinterval worden verwijderd. |
+| [!UICONTROL Batches added] | Het aantal gegevenssetpartijen is toegevoegd aan een verbinding. |
+| [!UICONTROL Last added] | De tijdstempel van de laatste batch uit de dataset die is toegevoegd aan een verbinding. |
 | [!UICONTROL Data source type] | Het brontype van de dataset. U definieert het brontype wanneer u een verbinding maakt. |
 | [!UICONTROL Dataset type] | Het gegevenstype van de dataset voor deze dataset. Type kan [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | Schema | Het schema van het Experience Platform waarop de dataset is gebaseerd. |
-| [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor de dataset: <p><span style="color:green">●</span>   **[!UICONTROL _x _Aan]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p><span style="color:gray">●</span>   **[!UICONTROL _x uit_]** als de dataset wordt gevormd om nieuwe gegevensimport niet in te voeren. |
+| [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor de dataset: <p><span style="color:green">●</span>   **[!UICONTROL _x _Aan]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p><span style="color:gray">●</span>   **[!UICONTROL _x uit_]** als de dataset wordt gevormd om nieuwe gegevens niet in te voeren. |
 | [!UICONTROL Backfill data] | Toont het statuut van backfill gegevens voor de dataset.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills,<p><span style="color:orange">●</span>   **[!UICONTROL _x _backfills-verwerking]**voor het aantal backfills-verwerkingen,<p><span style="color:green">●</span>   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide backfills, en<p><span style="color:grey">●</span>   **[!UICONTROL _Uit_]** als er geen backfills zijn geconfigureerd. |
 
 >[!IMPORTANT]
@@ -186,19 +180,19 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 | Details | Beschrijving |
 | --- | --- |
-| [!UICONTROL Person ID] | Toont een identiteit die in het datasetschema in het Experience Platform werd bepaald. Dit is de persoon-id die u hebt geselecteerd tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, weerspiegelt het melden dat. Om datasets samen te voegen, moet u zelfde Persoon identiteitskaart over datasets gebruiken. |
+| [!UICONTROL Person ID] | Toont een identiteit die in het datasetschema in het Experience Platform werd bepaald. Dit is de persoon-id die u hebt geselecteerd tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, weerspiegelt het melden dat. Om datasets samen te voegen, moet u zelfde identiteitskaart van de Persoon over datasets gebruiken. |
 | [!UICONTROL Key] | Toont de sleutel die u voor een raadplegingsdataset hebt gespecificeerd. |
 | [!UICONTROL Matching Key] | Toont de passende sleutel die u voor een raadplegingsdataset hebt gespecificeerd. |
-| [!UICONTROL Timestamp] | Toon timestamp voor een gebeurtenisdataset wordt bepaald die. |
-| [!UICONTROL Records available] | Vertegenwoordigt het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. Wanneer u echter een gloednieuwe verbinding maakt, worden [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-trip-analytics). |
-| [!UICONTROL Records added] | Geeft aan hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. |
-| [!UICONTROL Records deleted] | Hiermee wordt aangegeven hoeveel records tijdens de geselecteerde tijdsperiode zijn verwijderd. |
-| [!UICONTROL Batches added] | Geeft aan hoeveel gegevensbatches zijn toegevoegd aan deze gegevensset. |
-| [!UICONTROL Records skipped] | Hiermee geeft u aan hoeveel rijen zijn overgeslagen tijdens het invoeren in de geselecteerde tijdsperiode.<p>Redenen voor het overslaan van records zijn onder andere: ontbrekende tijdstempels, ontbrekende of ongeldige personen-id enzovoort. Om de 10 minuten bijgewerkt.<p>Ongeldige personen-id&#39;s (zoals &quot;undefined&quot; of &quot;00000000&quot; of een willekeurige combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) kan niet aan een specifieke gebruiker of persoon worden toegeschreven. Ze kunnen niet in het systeem worden opgenomen en leiden tot foutgevoelige inname en rapportage. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Stiksel](/help/stitching/overview.md) om de ongedefinieerde of helemaal geen gebruikers-id te vullen met geldige gebruikers-id&#39;s.</li><li>Maak de gebruikersnaam leeg, die vervolgens tijdens de inname wordt overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
-| [!UICONTROL Last added] | Geeft aan wanneer de laatste batch is toegevoegd. |
-| [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor de dataset: <p><span style="color:green">●</span>   **[!UICONTROL _x _Aan]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p><span style="color:gray">●</span>   **[!UICONTROL _x uit_]** als de dataset wordt gevormd om nieuwe gegevensimport niet in te voeren. |
+| [!UICONTROL Timestamp] | Toont timestamp die voor een gebeurtenisdataset wordt bepaald. |
+| [!UICONTROL Records available] | Toont het totale aantal rijen die voor deze dataset, voor de bepaalde tijdspanne worden opgenomen die door de kalender wordt geselecteerd. Er is geen latentie in termen van het krijgen van de gegevens om in rapportering te verschijnen, zodra het wordt toegevoegd. Wanneer u echter een gloednieuwe verbinding maakt, is er [latentie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-trip-analytics). |
+| [!UICONTROL Records added] | Hiermee kunt u zien hoeveel rijen zijn toegevoegd in de geselecteerde tijdsperiode. |
+| [!UICONTROL Records deleted] | Toont hoeveel verslagen tijdens de geselecteerde tijdspanne werden geschrapt. |
+| [!UICONTROL Batches added] | Toont hoeveel gegevensbatches in deze dataset werden toegevoegd. |
+| [!UICONTROL Records skipped] | Hiermee kunt u zien hoeveel rijen tijdens de opname zijn overgeslagen in de geselecteerde tijdsperiode.<p>Redenen voor het overslaan van records zijn onder andere: ontbrekende tijdstempels, ontbrekende of ongeldige personen-id enzovoort. Om de 10 minuten bijgewerkt.<p>Ongeldige personen-id&#39;s (zoals `undefined`, of `00000000`of een combinatie van cijfers en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomt) zijn id&#39;s die niet aan een specifieke gebruiker of persoon kunnen worden toegewezen. Deze rijen kunnen niet in het systeem worden opgenomen en in fout-prone opname en rapportering resulteren. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Gebruiken [Stiksel](/help/stitching/overview.md) om de ongedefinieerde of helemaal geen gebruikers-id te vullen met geldige gebruikers-id&#39;s.</li><li>Maak de gebruikersnaam leeg, die vervolgens tijdens de inname wordt overgeslagen (bij voorkeur aan ongeldige of helemaal geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
+| [!UICONTROL Last added] | Toont wanneer de laatste partij werd toegevoegd. |
+| [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor de dataset: <p><span style="color:green">●</span>   **[!UICONTROL _x _Aan]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p><span style="color:gray">●</span>   **[!UICONTROL _x uit_]** als de dataset wordt gevormd om nieuwe gegevens niet in te voeren. |
 | [!UICONTROL Backfill data] | Toont het statuut van backfill gegevens voor de dataset.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills,<p><span style="color:orange">●</span>   **[!UICONTROL _x _backfills-verwerking]**voor het aantal backfills-verwerkingen,<p><span style="color:green">●</span>   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide backfills, en<p><span style="color:grey">●</span>   **[!UICONTROL _Uit_]** als er geen backfills zijn geconfigureerd.<p>Om een dialoog met een overzicht van de vroegere backfills voor de dataset te tonen, selecteer <img src="./assets/pastbackfill.svg" alt="Achtervullingen verleden" width="15"/> **[!UICONTROL Past backfills]**. |
-| [!UICONTROL Data source type] | Het type van gegevensbron zoals bepaald toen het toevoegen van dataset aan de verbinding. |
+| [!UICONTROL Data source type] | Het type van gegevensbron zoals bepaald toen het toevoegen van de dataset aan de verbinding. |
 | [!UICONTROL Dataset type] | Willekeurig [!UICONTROL Event], [!UICONTROL Lookup], of [!UICONTROL Profile]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL Schema] | Toont het schema van het Experience Platform dat deze dataset op gebaseerd is. |
 | [!UICONTROL Dataset ID] | Deze dataset-id wordt gegenereerd in Experience Platform. |
@@ -206,7 +200,7 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 ## Gebruik
 
-De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface steunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen.
+De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen.
 
 Selecteer de **[!UICONTROL Usage]** om de interface te openen.
 
@@ -217,16 +211,18 @@ Over het gebruik rapporteren:
 
 Voor [!UICONTROL Ingested rows]:
 
-* een vakje toont [!UICONTROL Total] Aantal opgenomen rijen.
-* een vakje toont het aantal ingeklapte rijen voor [!UICONTROL Last month] en de wijziging in % (aangegeven met <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
-* een lijngrafiek toont  <span style="color:53b2ad">◼︎</span> Cumulatieve ingeslikte rijen en <span style="color:4046c3">◼︎</span> Maandelijkse gegeneerde rijen.<br/>U kunt de muisaanwijzer boven elk gegevenspunt voor elke regel in de lijngrafiek plaatsen om een pop-up met datum en het aantal rijen voor het geselecteerde gegevenspunt weer te geven.
+* in een deelvenster worden de totaal opgenomen rijen weergegeven die alle gebeurtenisgegevens bevatten voor alle verbindingen die op elke 2de dag van een maand worden bijgewerkt. In het deelvenster:
+   * een vakje toont het aantal ingeklapte rijen voor de laatste maand en de verandering in % (die door wordt aangegeven <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
+   * een lijngrafiek toont <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly ingested rows].<br/>Als u een pop-up wilt zien die het aantal per maand ingenomen rijen voor een maand weergeeft, plaatst u de muisaanwijzer boven een willekeurig gegevenspunt in de lijngrafiek.
 
 
 Voor [!UICONTROL Reportable rows]:
 
-* een vak verschijnt [!UICONTROL Total] aantal te rapporteren rijen.
-* een vak bevat het aantal te rapporteren rijen voor de [!UICONTROL Last month] en de wijziging in % (aangegeven met <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
-* een lijngrafiek toont  <span style="color:53b2ad">◼︎</span> Gecumuleerde te rapporteren rijen en <span style="color:4046c3">◼︎</span> Maandelijkse te rapporteren rijen.<br/>U kunt de muisaanwijzer boven elk gegevenspunt voor elke regel in de lijngrafiek plaatsen om een pop-up met datum en het aantal rijen voor het geselecteerde gegevenspunt weer te geven.
+* een paneel toont totaal te rapporteren rijen die alle gebeurtenisgegevens over alle verbindingen omvatten die op elke 2de dag van een maand worden bijgewerkt. In het deelvenster:
+   * in een vak wordt het cumulatieve totale aantal te rapporteren rijen weergegeven.
+   * een vak bevat het totale aantal te rapporteren rijen voor de laatste maand en de wijziging in % (aangegeven door <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
+   * een lijngrafiek toont <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly reportable rows].<br/>Als u een pop-up wilt weergeven die het aantal cumulatieve te rapporteren rijen voor een bepaalde maand weergeeft, plaatst u de muisaanwijzer boven een willekeurig gegevenspunt in de lijngrafiek.
+   * een lijngrafiek toont <span style="color:53b2ad">◼︎</span> [!UICONTROL Cumulative reportable rows].<br/>Als u een pop-up wilt weergeven die het aantal maandelijkse te rapporteren rijen voor een maand weergeeft, plaatst u de muisaanwijzer boven een willekeurig gegevenspunt in de lijngrafiek.
 
 
 >[!MORELIKETHIS]
