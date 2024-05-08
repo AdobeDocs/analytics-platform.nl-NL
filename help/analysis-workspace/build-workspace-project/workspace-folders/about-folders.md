@@ -5,9 +5,9 @@ title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Workspace bevat twee soorten mappen: de map Company en persoonlijke mappen.
 
 Wanneer u login aan Werkruimte, toont de homepage van Projecten een lijst van uw projecten samen met de omslag van het Bedrijf en om het even welke persoonlijke omslagen die u creeerde.
 
-![De homepage van het project die van uw projecten en de omslag van het Bedrijf een lijst maakt.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![Homepage van projecten](../assets/landing-page2.png)
 
 ## Informatie over de map Company {#company-folder}
 
@@ -34,7 +34,6 @@ Als Admin, kunt u projecten met alle gebruikers en groepsprojecten in subfolders
 
 Wanneer een gebruiker zich bij Workspace aanmeldt, wordt de map Company automatisch toegevoegd aan de lijst met projecten en mappen. Er zijn geen specifieke toestemmingen voor projecten bevat binnen de omslag van het Bedrijf.
 
-
 ### Beheeropties {#admin-options}
 
 Beheerders hebben speciale rechten toegewezen aan de map Company. Bijvoorbeeld, slechts kunnen Admins omslagen of projecten in de omslag van het Bedrijf toevoegen of verwijderen. Gebruikers zonder beheerdersrechten kunnen de inhoud van de map Company weergeven.
@@ -43,7 +42,7 @@ Beheerders hebben speciale rechten toegewezen aan de map Company. Bijvoorbeeld, 
 
 Niet-beheerders hebben beperkte opties.
 
-![De pagina van Projecten die de niet-adminopties voor omslagen toont.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![De pagina van Projecten die de niet-adminopties voor omslagen toont.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### Richtlijnen voor bedrijfsmappen {#company-folder-guidelines}
 
@@ -53,6 +52,6 @@ Niet-beheerders hebben beperkte opties.
 
 - Beheerders kunnen een map in de map Company verwijderen die een andere beheerder heeft gemaakt. Beheerders moeten mogelijk coördineren met andere beheerders om de map en de toegang tot het project consistent te houden.
 
-- Wanneer Admin een project naar de omslag van het Bedrijf verplaatst, wordt het project gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt.
+- Wanneer Admin een project naar de omslag van het Bedrijf beweegt, wordt het project gedeeld met iedereen met **Kopie bewerken** rol, zelfs als de oorspronkelijke gedeelde voorrechten werden beperkt.
 
 - Wanneer Admin een project uit de omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.

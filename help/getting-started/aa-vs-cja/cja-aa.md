@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c8796834de6b566783d53ba1602e44a8c91127bf
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2132'
 ht-degree: 1%
 
 ---
@@ -137,7 +137,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Intelligente bijschriften | Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten te bieden voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](/help/analysis-workspace/visualizations/line.md) visualisatie. |
 | Transformaties in de rapporttijd | Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
-| Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. Analytics ondersteunt maximaal 75 props en 250 eVars. |
+| Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. <p>Adobe Analytics ondersteunt daarentegen maximaal 75 props en 250 eVars.</p> |
 | Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [kardinaliteitsbeperkingen voor een dimensie](/help/components/dimensions/high-cardinality.md), zodat unieke waarden kunnen worden weergegeven en geteld.</p><p>Met deze aanpak worden de rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, opgeheven, wat resulteert in [!UICONTROL Low Traffic] labels.</p><p>In de Customer Journey Analytics is het mogelijk een [!UICONTROL Uniques Exceeded] label, maar deze komen veel minder vaak voor en kunnen worden verlicht door een filter of een segment op de gegevens toe te passen.</p> |
 
 {style="table-layout:auto"}

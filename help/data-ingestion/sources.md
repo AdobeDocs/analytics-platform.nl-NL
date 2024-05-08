@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
-# Samenstellen en gegevens gebruiken met behulp van bronconnectors.
+# Gegevens verzamelen en gebruiken met behulp van bronconnectors
 
 Deze snelle begingids verklaart hoe u gegevens in Adobe Experience Platform kunt opnemen gebruikend een bronschakelaar aan een gegevensleverancier en dan die gegevens in Customer Journey Analytics gebruiken.
 
@@ -218,43 +218,43 @@ Om uw verbinding tot stand te brengen:
 
 1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
 
-2. Selecteren **[!UICONTROL Create new connection]**.
+1. Selecteren **[!UICONTROL Create new connection]**.
 
-3. In de [!UICONTROL Untitled connection] scherm:
+1. In de **[!UICONTROL Untitled connection]** scherm:
 
-   Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings].
+   1. Geef een naam en beschrijf de verbinding in **[!UICONTROL Connection Settings]**.
 
-   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het menu [!UICONTROL Average number of daily events] lijst.
+   1. Selecteer de juiste sandbox in het menu **[!UICONTROL Sandbox]** lijst in **[!UICONTROL Data settings]** en selecteert u het aantal dagelijkse gebeurtenissen in het menu **[!UICONTROL Average number of daily events]** lijst.
 
-   ![Verbindingsinstellingen](./assets/cja-connections-1.png)
+      ![Verbindingsinstellingen](./assets/cja-connections-1.png)
 
-   Selecteren **[!UICONTROL Add datasets]**.
+   1. Selecteren **[!UICONTROL Add datasets]**.
 
-   In de [!UICONTROL Select datasets] stap in [!UICONTROL Add datasets]:
+1. In de **[!UICONTROL Select datasets]** stap in **[!UICONTROL Add datasets]**:
 
-   - Selecteer de gegevensset die u eerder hebt gemaakt (`Example Loyalty Dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
+   1. Selecteer de gegevensset die u eerder hebt gemaakt (`Example Loyalty Dataset`) en een andere gegevensset die u wilt opnemen in de verbinding.
 
-     ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
+      ![Gegevenssets toevoegen](./assets/cja-connections-2.png)
 
-   - Selecteren **[!UICONTROL Next]**.
+   1. Selecteren **[!UICONTROL Next]**.
 
-   In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
+1. In de **[!UICONTROL Datasets settings]** stap in **[!UICONTROL Add datasets]**:
 
-   - Voor elke gegevensset:
+   Voor elke gegevensset:
 
-      - Selecteer een [!UICONTROL Person ID] uit de beschikbare identiteiten die zijn gedefinieerd in de gegevenssetschema&#39;s in Adobe Experience Platform.
+   1. Selecteer een [!UICONTROL Person ID] uit de beschikbare identiteiten die zijn gedefinieerd in de gegevenssetschema&#39;s in Adobe Experience Platform.
 
-      - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
+   1. Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
 
-      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
+   1. Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
 
-     ![Gegevenssets configureren](./assets/cja-connections-3.png)
+      ![Gegevenssets configureren](./assets/cja-connections-3.png)
 
-   - Selecteren **[!UICONTROL Add datasets]**.
+   1. Selecteren **[!UICONTROL Add datasets]**.
 
-   Selecteren **[!UICONTROL Save]**.
+   1. Selecteren **[!UICONTROL Save]**.
 
-Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Nadat u een [verbinding](/help/connections/overview.md)kunt u verschillende beheertaken uitvoeren, zoals [selecteren en combineren van gegevenssets](/help/connections/combined-dataset.md), [het controleren van de status van de datasets van een verbinding en de status van gegevensopname](/help/connections/manage-connections.md)en meer.
 
 ## Een gegevensweergave instellen
 
