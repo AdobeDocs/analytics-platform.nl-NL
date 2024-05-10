@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
+source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # Gebruiksscenario&#39;s bij exporteren van gegevens
 
-Deze sectie bevat gebruiksgevallen voor gegevensexport. Elk geval van gebruik wordt beschreven in zijn eigen artikel. Voor sommige van de gebruiksgevallen wordt meer dan één oplossing geleverd.
+In deze sectie worden gebruiksgevallen voor gegevensuitvoer beschreven en wordt uitgelegd hoe u deze gebruiksgevallen kunt implementeren met een of meer functies van Customer Journey Analytics of Experience Platform. Elke functionaliteit wordt nader beschreven in een afzonderlijk artikel.
 
 ## Inleiding
 
@@ -67,7 +67,7 @@ Voor metrische consistentie, is het gebruik van de nieuwe eigenschappen in Custo
    * waarschuwingsberichten instellen voor leveringsproblemen en limieten voor geplande leveringstermijnen.
 
 
-## Gebruik hoofdletters en oplossingen
+## Gebruik gevallen en functies
 
 Over het algemeen worden bij het exporteren van gegevens een aantal gebruiksgevallen ondersteund. Elk geval van gebruik is verschillend in termen van de gegevens die worden vereist en hoe te om tot die gegevens toegang te hebben en uit te voeren. Experience Platform en Customer Journey Analytics bieden een aantal functies die onafhankelijk of gecombineerd de verschillende gebruiksgevallen kunnen oplossen. De onderstaande tabel geeft een overzicht van geïdentificeerde gevallen waarin gegevens worden geëxporteerd en de functies voor Experience Platform en Customer Journey Analytics om deze gebruiksgevallen te implementeren.
 
