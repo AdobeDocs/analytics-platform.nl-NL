@@ -3,13 +3,13 @@ description: Vragen stellen over de documentatie van Customers Journey Analytics
 title: AI Assistant voor Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 4ffdb6f963386079ce2f09a8538d2bdf5c394588
+exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
+source-git-commit: 02a0ad53d8c3ef0c10e2b9c2b11bb75a6a962cf0
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
-
 
 # AI Assistant voor Adobe Customer Journey Analytics
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >AI Assistant voor Customer Journey Analytics bevindt zich momenteel in bètaversie. De functie en de bijbehorende documentatie kunnen worden gewijzigd.
 
-AI Assistant is een interface-functie waarmee u door Adobe Customer Journey Analytics-concepten en -terminologie kunt navigeren en deze kunt begrijpen. De Medewerker van AI antwoordt op uw voorgelegde vragen door een gegevensbestand te vragen en dan gegevens van het gegevensbestand in een leesbaar antwoord te vertalen.
+AI Assistant is een interface-functie waarmee u door Adobe Customer Journey Analytics-concepten en -terminologie kunt navigeren en deze kunt begrijpen. De AI Assistant in Customer Journey Analytics is getraind op basis van de Adobe Experience League-documentatie. Als een vraag wordt gesteld, antwoordt AI Assistant met een handig antwoord waarmee u snel kunt leren.
 
 Als beginnende gebruiker, kunt u de Medewerker van AI gebruiken om de concepten van de Customer Journey Analytics te leren en aan boord te hebben aan producten en eigenschappen die u met onbekend bent. Als ervaren gebruiker, kunt u de Medewerker van AI gebruiken om geavanceerdere gebruiksgevallen of uiteinden en trucs voor te stellen.
 
@@ -27,15 +27,13 @@ Voorbeelden van vragen over concepten zijn:
 * Wanneer wordt Customer Journey Analytics het beste voorgeschreven?
 * Hoe stel ik een gegevensweergave in?
 
-De documentatieindex behandelt momenteel de documentatie van Adobe Experience League over Customer Journey Analytics. De index wordt periodiek bijgewerkt.
-
 Het documentherwinningsmodel wordt getraind op Customer Journey Analytics. Vragen die buiten het toepassingsgebied van de Customer Journey Analytics vallen, zoals vragen over andere producten van de Adobe zoals Adobe Target en de Adobe Creative Cloud Suite, kunnen niet worden beantwoord.
 
 AI Assistant voor Customer Journey Analytics is beschikbaar voor alle productlagen.
 
 >[!IMPORTANT]
 >
->Op dit punt beantwoordt AI Assistant in Customer Journey Analytics geen gebruiksvragen over gegevensobjecten binnen uw organisatie.
+>Op dit punt beantwoordt AI Assistant voor Customer Journey Analytics geen gebruiksvragen over gegevensobjecten binnen uw organisatie.
 
 ## De Hulp van AI van de toegang in de UI van de Customer Journey Analytics
 
