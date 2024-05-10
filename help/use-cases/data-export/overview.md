@@ -1,16 +1,16 @@
 ---
-title: Gebruiksscenario's voor gegevensinvoer
+title: Gebruiksscenario's bij exporteren van gegevens
 description: Verschillende gevallen van gegevensexport voor Customer Journey Analytics begrijpen
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 19018e31bb2a46e88a27643fe10c388b40de243e
+exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
+source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
 
 ---
-
 
 # Gebruiksscenario&#39;s bij exporteren van gegevens
 
@@ -77,4 +77,3 @@ Over het algemeen worden bij het exporteren van gegevens een aantal gebruiksgeva
 | **Gegevensvalidatie**<br/> Evalueer klikstroomgegevens voor de nauwkeurigheid van de gegevensinzameling. | **Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br/> Interactieve PostSQL-interface om ad-hoc SQL-query&#39;s uit te voeren met uw favoriete SQL-gereedschap om de gegevens in uw datasets te valideren.<br/><br/>**Customer Journey Analytics**: [**Volledige tabel exporteren**](export-full-table.md)<br/> Valideer verwerkte gegevens van CJA met toegepaste attributie en sessionisatie. |
 | **Data Lake-, Data Warehouse- of BI-gereedschappen**<br/> Breng digitale gegevens in uw eigen hulpmiddelen BI of het Meer van Gegevens voor gebruik met extra datasets. | **Customer Journey Analytics**: [**BI Extension**](bi-extension.md)<br/> Voeg Customer Journey Analytics verwerkte metriek aan de hulpmiddelen van de gegevensvisualisatie zoals Power BI toe en combineer met extra gegevens voor douanerapporten <br/><br/>**Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br> Genereer aangepaste klikstreamgegevens met behulp van SQL die naar wolkendoelen moeten worden geleverd. |
 | **Gereedheid voor AI/ML**<br/> Verbeter de modellen en taken voor kunstmatige intelligentie/machinaal leren met gegevens over Customers Journey Analytics. | **Customer Journey Analytics**: [**Volledige tabel exporteren**](export-full-table.md)<br/> De verwerkte afmetingen en metriek van de Customer Journey Analytics van de uitvoer naar wolkenbestemmingen eenmalig of terugkerend, met inbegrip van berekende metriek en segmentatie.<br/><br/>**Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br/> Genereer aangepaste klikstreamgegevens met behulp van SQL om AI / ML-modellen te verrijken. |
-
