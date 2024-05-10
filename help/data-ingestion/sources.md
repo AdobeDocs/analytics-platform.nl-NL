@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -173,37 +173,45 @@ Zie [UI-gids voor gegevensbestanden](https://experienceleague.adobe.com/docs/exp
 
 Afhankelijk van waar u de loyaliteitsgegevens van ontvangt, kiest u de relevante bronschakelaar beschikbaar binnen Adobe Experience Platform.
 
+U kunt gegevens uit verschillende bronnen invoeren. Hieronder vindt u slechts een aantal van de vele beschikbare bronnen:
+
+- De toepassingen van de Adobe (bronschakelaars omvatten [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), en meer)
+
+- Cloudopslag (bronconnectors omvatten [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob), en meer)
+
+- Databases (bronconnectors omvatten [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server), en meer)
+
 Een bronaansluiting instellen:
 
-1. Selecteer in de gebruikersinterface van Adobe Experience Platform **[!UICONTROL Sources]** van [!UICONTROL CONNECTIONS] in het linkerspoor.
+1. Selecteer in Adobe Experience Platform **[!UICONTROL Sources]** van [!UICONTROL CONNECTIONS] in het linkerspoor.
 
-2. Selecteer uw bronschakelaar van de lijst van beschikbare bronschakelaars. Elke connector volgt een vergelijkbare workflow:
+1. Selecteer uw bronschakelaar van de lijst van beschikbare bronschakelaars.
 
-   - **[!UICONTROL Authentication]**. U verstrekt authentificatiedetails om tot de bron van gegevens toegang te hebben.
+   Elke connector volgt een vergelijkbare workflow:
 
-   - **[!UICONTROL Select data]**: U selecteert de brongegevens die u wilt invoeren.
+   1. **[!UICONTROL Authentication]**. U verstrekt authentificatiedetails om tot de bron van gegevens toegang te hebben.
 
-   - **[!UICONTROL Dataflow detail]**: U verstrekt extra details op dataflow, bijvoorbeeld naam en welke dataset aan gebruik.
+   1. **[!UICONTROL Select data]**: U selecteert de brongegevens die u wilt invoeren.
 
-   - **[!UICONTROL Mapping]**: U wijst de inkomende brongegevensgebieden aan attributen in het schema toe verbonden aan de dataset die u selecteerde.
+   1. **[!UICONTROL Dataflow detail]**: U verstrekt extra details op dataflow, bijvoorbeeld naam en welke dataset aan gebruik.
 
-   - **[!UICONTROL Scheduling]**: Indien beschikbaar, kunt u de opname van gegevens plannen.
+   1. **[!UICONTROL Mapping]**: U wijst de inkomende brongegevensgebieden aan attributen in het schema toe verbonden aan de dataset die u selecteerde.
 
-   - **[!UICONTROL Review]**: U ziet een overzicht van de definitie van de bronschakelaar.
+   1. **[!UICONTROL Scheduling]**: Indien beschikbaar, kunt u de opname van gegevens plannen.
 
-   Elke schakelaar verstrekt gedetailleerde documentatie.
+   1. **[!UICONTROL Review]**: U ziet een overzicht van de definitie van de bronschakelaar.
 
-   Voor toegang tot deze documentatie:
+1. Elke schakelaar verstrekt gedetailleerde documentatie. Voor toegang tot deze documentatie:
 
-   - Selecteer op de connectortegel de optie **[!UICONTROL ...]** naast [!UICONTROL Set up] of [!UICONTROL Add data].
+   1. Selecteer op de connectortegel de optie **[!UICONTROL ...]** naast [!UICONTROL Set up] of [!UICONTROL Add data].
 
-     ![Documentatie weergeven](./assets/sourceconnector-documentation.png)
+      ![Documentatie weergeven](./assets/sourceconnector-documentation.png)
 
-   - Selecteren **[!UICONTROL View documentation]**.
+   1. Selecteren **[!UICONTROL View documentation]**.
 
-Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analytics.md) hoe u de Adobe Analytics-bronconnector kunt gebruiken.
+Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analytics.md) voor informatie over het gebruik van de Adobe Analytics-bronconnector.
 
-Zie [Streaming gegevens invoegen en gebruiken](./streaming.md) hoe u de HTTP API-bronconnector kunt gebruiken.
+Zie [Streaming gegevens invoegen en gebruiken](./streaming.md) voor informatie over het gebruik van de HTTP API-bronconnector.
 
 Zie [Overzicht van Source Connectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) voor een overzicht van bronschakelaars met inbegrip van verbindingen aan meer informatie voor elke schakelaar.
 

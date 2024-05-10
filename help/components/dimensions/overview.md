@@ -2,9 +2,10 @@
 title: Overzicht van Dimensionen
 description: Leer welke afmetingen zijn en hoe ze in de Customer Journey Analytics worden gebruikt
 feature: Dimensions
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één
 
 ## Afmetingen maken
 
-Beheerders van Customers Journey Analytics kunnen [numerieke afmetingen maken in een gegevensweergave](/help/data-views/create-dataview.md#components).
+Beheerders van Customers Journey Analytics kunnen [dimensies maken in een gegevensweergave](/help/data-views/create-dataview.md#components).
 
 ## Dimensiebeschrijvingen toevoegen
 
