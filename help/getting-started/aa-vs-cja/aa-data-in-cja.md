@@ -1,18 +1,18 @@
 ---
-title: Adobe Analytics-rapportsuite voor gegevens in Customer Journey Analytics gebruiken
+title: Gegevens uit Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics
 description: Hoe te om Adobe Analytics rapportsuites voor opname in Adobe Experience Platform en Customer Journey Analytics te vormen
 role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics-rapportsuite voor gegevens in Customer Journey Analytics gebruiken
+# Gegevens uit Adobe Analytics-rapportsuite gebruiken in Customer Journey Analytics
 
 Adobe Analytics-klanten kunnen hun rapportsuites in de Adobe Experience Platform en de Customer Journey Analytics eenvoudig benutten met behulp van de [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Hieronder wordt uitgelegd hoe u dit doet.
 

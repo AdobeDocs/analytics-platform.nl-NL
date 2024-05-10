@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 * **Conversieanalyse**: U kunt omzettingen in elke fase van de trechter analyseren. Door het aantal gebruikers te volgen die van één stap aan volgende overgaan, kunt u knelpunten identificeren die ongebruikelijke of ongewenste omrekeningskoersen hebben. Deze informatie is nuttig om te begrijpen waar u uw product voor directe resultaten kunt verbeteren.
 * **Optimalisatie aan boord**: Optimaliseer het instapproces van uw product door het gebruikersgedrag rond belangrijke gebeurtenissen te bekijken. U kunt aangeven met welke stappen gebruikers worstelen of niet.
-* **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers door eigenschap-verwante stappen te analyseren, kunt u de tarieven van de eigenschapadoptie beoordelen en gebieden identificeren waar de gebruikers bepaalde eigenschappen zouden kunnen verlaten of ondergebruiken. U kunt deze informatie dan gebruiken om zich op eigenschapverbeteringen te concentreren om adoptiecijfers te verhogen.
+* **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers te analyseren via aan functies gerelateerde stappen, kunt u de adoptiefrequenties zien en gebieden identificeren waar gebruikers bepaalde functies wellicht niet gebruiken. U kunt deze informatie dan gebruiken om zich op eigenschapverbeteringen te concentreren om adoptiecijfers te verhogen.
 * **Campagneevaluatie**: De doeltreffendheid van marketingcampagnes meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun omzettingsproces vergelijken met andere campagnes of binnen uw product in het algemeen.
 
 ## Query-rail
@@ -33,10 +33,11 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Conversietrends](conversion-trends.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
+   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één treinstel, waardoor een &quot;forked trechter&quot; ontstaat. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken.
 * **[!UICONTROL Counted as]**: Het bereik dat u op de trechter wilt toepassen. Opties omvatten [!UICONTROL Sessions] en [!UICONTROL Users].
    * [!UICONTROL Sessions]: Alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
    * [!UICONTROL Users]: Alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
-* **[!UICONTROL Segments]**: De segmenten die u wilt vergelijken de trechter over. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL Segments]**: De segmenten waar u de trechter doorheen wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 

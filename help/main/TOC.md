@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
+source-git-commit: 300868a88cf8ea3c345c5a211076f632dd9d0bbc
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 7%
+source-wordcount: '1105'
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 7%
       + [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
-      + [Adobe Analytics-gegevens gebruiken in Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [Adobe Analytics-gegevens in Customer Journey Analytics gebruiken](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Ondersteuning van Customer Journey Analytics-functies](../getting-started/aa-vs-cja/cja-aa.md)
       + [Vergelijk terminologie voor de gegevens van de Analyse die door de bron van de Analyse schakelaar worden overgegaan](../getting-started/aa-vs-cja/terminology.md)
       + [Gegevensverwerking in Adobe Analytics en Customer Journey Analytics vergelijken](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -200,6 +200,8 @@ ht-degree: 7%
 
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
+   + Eigenschappenmatrix {#feature-matrix}
+      + [Betrokkenheid](../guided-analysis/types/engagement.md)
    + Trechter {#funnel}
       + [Wrijvingsweergave](../guided-analysis/types/friction.md)
       + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
