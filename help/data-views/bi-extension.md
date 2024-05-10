@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2721'
 ht-degree: 0%
 
 ---
@@ -312,6 +312,11 @@ De `daterange` speciale kolommen, vergelijkbaar met  `timestamp`Het filteren is 
 De `daterange` veld kan ook worden gebruikt in datum-/tijdfuncties om de gebeurtenisdatum te parseren of af te kappen.
 
 De `daterangeName` de speciale kolom kan worden gebruikt om uw vraag te filtreren gebruikend een genoemde datumwaaier als `Last Quarter`.
+
+>[!NOTE]
+>
+>PowerBI biedt geen ondersteuning voor `daterange` metriek die minder dan een dag zijn (uur, 30 minuten, 5 minuten, enz.).
+
 
 #### Filter-id
 
