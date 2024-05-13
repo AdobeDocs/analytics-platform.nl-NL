@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 6cceeaa3b57808a82012b124435aa1b7dbf1b3f2
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Gebruik de informatie op deze pagina om te bepalen welke de verbeteringspad van 
 
 Om het optimale verbeteringspad voor uw organisatie te bepalen, zouden de volgende secties opeenvolgend moeten worden gelezen:
 
-1. Eerste, [begrijpen welke upgradepaden beschikbaar zijn](#understand-migration-methods).
+1. Eerste, [begrijpen welke upgradepaden beschikbaar zijn](#understand-upgrade-paths).
 
-1. Dan, [beoordelen welke upgradepaden voor u beschikbaar zijn](#assess-the-migration-methods-available-to-you-based-on-your-current-adobe-analytics-implementation).
+1. Dan, [beoordelen welke upgradepaden voor u beschikbaar zijn](#assess-the-upgrade-paths-available-to-you-based-on-your-current-adobe-analytics-implementation).
 
-1. En ten slotte, [wegen de voor en de nadelen van elk verbeteringspad](#weigh-the-advantages-and-disadvantages-of-the-migration-methods-available-to-you).
+1. En ten slotte, [wegen de voor en de nadelen van elk verbeteringspad](#weigh-the-advantages-and-disadvantages-of-the-upgrade-paths-available-to-you).
 
 ## Upgrade-paden begrijpen
 
@@ -62,7 +62,7 @@ De volgende lijst maakt een lijst van elk verbeteringsweg, zijn niveau van inspa
 |---------|----------|---------|
 | **Nieuwe implementatie van het Web SDK van het Experience Platform**</br> U kunt beginnen gebruikend Customer Journey Analytics door een nieuwe implementatie van het Web SDK van het Experience Platform te doen. Hierdoor kunt u gegevens naar Adobe Experience Platform Edge Network en Customer Journey Analytics verzenden. <p>Voor organisaties nog niet op het Web SDK, is dit verbeteringspad misschien het meest ongecompliceerd in het krijgen van gegevens aan Edge Network omdat het het minste aantal stappen vereist; nochtans, omdat al het werk omhoog (zoals het creëren van het schema XDM) wordt gedaan, vereist het een grotere aanvankelijke inspanning.</p><p>De basisstappen zijn:</p><ol><li>Maak een XDM-schema voor uw organisatie.</li><li>Voer SDK van het Web uit.</li><li>Gegevens verzenden naar platform.</li></ol> | Hoog | Hoog |
 | **Uw Adobe Analytics-implementatie migreren voor gebruik van de Web SDK**</br> Als uw implementatie van Adobe Analytics AppMeasurement of de uitbreiding van Analytics is, kunt u het migreren om het te gebruiken Adobe Experience Platform Web SDK beginnen gegevens naar Edge Network en Adobe Analytics te verzenden, alvorens het naar Customer Journey Analytics te verzenden.<p>Voor organisaties nog niet op het Web SDK, is dit de gemakkelijkste en gemakkelijkste manier om gegevens aan Edge Network te krijgen; het vereist meer stappen, maar biedt een meer methodische overgang van Adobe Analytics aan Customer Journey Analytics, met tastbaardere mijlpalen.</p><p>De basisstappen zijn:</p><ol><li>Verplaats uw bestaande Adobe Analytics-implementatie naar de Web SDK en controleer of alles werkt in Adobe Analytics.</li><li>Creeer een schema XDM voor uw organisatie aangezien u tijd hebt.</li><li>Gebruik Datstroomtoewijzing om alle velden in het gegevensobject toe te wijzen aan uw XDM-schema.</li><li>Gegevens verzenden naar platform.</li></ol> | Gemiddeld | Hoog |
-| **De bestaande Adobe Analytics Web SDK-implementatie configureren**</br> Als uw Adobe Analytics-implementatie al gebruikmaakt van de Adobe Experience Platform Web SDK, kunt u zo weinig mogelijk gegevens naar de Customer Journey Analytics verzenden.<p>Voordat u gegevens naar de Customer Journey Analytics verzendt, kunt u overwegen het Adobe Analytics-schema bij te werken voor de specifieke behoeften van uw organisatie en andere platformtoepassingen die u gebruikt.</p><p>De basisstappen zijn:</p><ol><li>Gegevens verzenden naar Customer Journey Analytics.<!-- What's involved here? Just point it at CJA? --></li><li>(Optioneel) Maak een XDM-schema voor uw organisatie terwijl u tijd hebt.</li><li>(Voorwaardelijk) als u een XDM-schema hebt gemaakt, gebruikt u gegevenstoewijzing om alle velden in het gegevensobject toe te wijzen aan uw XDM-schema.</li></ol> | Laag | Hoog |
+| **De bestaande Adobe Analytics Web SDK-implementatie configureren**</br> Als uw Adobe Analytics-implementatie al gebruikmaakt van de Adobe Experience Platform Web SDK, kunt u beginnen met het verzenden van gegevens naar Platform door een gegevensstroom in te stellen. Of, als u reeds gegevens naar Platform verzendt, moet u eenvoudig een verbinding tussen de datasets van het Platform en Customer Journey Analytics tot stand brengen.<p>Voordat u gegevens naar Platform verzendt voor gebruik in Customer Journey Analytics, kunt u overwegen het Adobe Analytics-schema bij te werken voor de specifieke behoeften van uw organisatie en andere platformtoepassingen die u gebruikt.</p><p>De basisstappen zijn:</p><ol><li>Gegevens verzenden naar platform.<p>Als u al gegevens naar Platform verzendt met uw Adobe Analytics-implementatie, is deze stap niet vereist. U moet eenvoudig een verbinding tussen de datasets van het Platform en Customer Journey Analytics tot stand brengen, zoals later in dit proces wordt beschreven.</p></li><li>(Optioneel) Maak een XDM-schema voor uw organisatie terwijl u tijd hebt.</li><li>(Voorwaardelijk) als u een XDM-schema hebt gemaakt, gebruikt u gegevenstoewijzing om alle velden in het gegevensobject toe te wijzen aan uw XDM-schema.</li></ol> | Laag | Hoog |
 | **De Bronverbinding Analytics gebruiken**</br> Als uw Adobe Analytics-implementatie AppMeasurement of de extensie Analytics is, kunt u beginnen met het verzenden van gegevens naar een gegevensweergave in Customer Journey Analytics.<p>Dit is de eenvoudigste manier om gegevens naar de Customer Journey Analytics te krijgen, maar op de lange termijn is dit de minst haalbare methode.</p> | Laag | Laag |
 
 {style="table-layout:auto"}
