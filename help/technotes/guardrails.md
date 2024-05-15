@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: c3293e2ce93113dd22157bb6470a780b20813d80
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -73,11 +73,11 @@ Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pa
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Auditiefilters | 20 | Door het systeem afgedwongen Guardrail | Maximum aantal [filters](../components/filters/filters-overview.md) per publiek. |
-| Aantal publieksidentiteiten | 20 miljoen | Door het systeem afgedwongen Guardrail | Maximumaantal identiteiten per publiek. |
+| Aantal identiteiten publiek | 20 miljoen | Door het systeem afgedwongen Guardrail | Maximumaantal identiteiten per publiek. |
 | Frequentie van publiek vernieuwen | 4 | Door het systeem afgedwongen Guardrail | Maximale frequentie in uren en [publiek](../components/audiences/audiences-overview.md) kan worden vernieuwd. |
-| Het publiek vernieuwt het terugkijkvenster | 90 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen voor vernieuwen terugzoekvenster. |
+| Venster Opzoeken vernieuwen | 90 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen voor vernieuwen terugzoekvenster. |
 | Vernieuwende vervaldatum van het publiek | 13 | Door het systeem afgedwongen Guardrail | Het maximumaantal maanden dat het publiek vanaf de aanmaakdatum mag vernieuwen. Klanten kunnen dit met nog eens 13 maanden verlengen. |
-| Aantal verfrissende soorten publiek | 75 100 | Door het systeem afgedwongen Guardrail | Het maximale aantal verfrissende soorten publiek. De waarde hangt af van het pakket (zie Productbeschrijving). |
+| Aantal verfrissende soorten publiek | 75 150 | Door het systeem afgedwongen Guardrail | Het maximale aantal verfrissende soorten publiek. De waarde hangt af van het pakket Customer Journey Analytics (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ Zie ook Experience Platform [Real-time Customer Data Platform Guardrails](https:
 | Beschrijving van aantekening | 250 | Door het systeem afgedwongen Guardrail | Maximumaantal tekens voor een beschrijving van een aantekening. |
 | Schema-velden | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal schemavelden (exclusief standaardvelden) bij het definiëren van regels voor een [afgeleid veld](../data-views/derived-fields/derived-fields.md). |
 | Opzoeken/profielvelden | 3 | Door het systeem afgedwongen Guardrail | Maximumaantal velden voor opzoekopdrachten of profielschema&#39;s binnen het maximumaantal schemavelden (exclusief standaardvelden) bij het definiëren van regels voor een afgeleid veld. |
-| Afgeleide velden | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal afgeleide velden per verbinding. |
+| Afgeleide velden | 100 - 500 | Door het systeem afgedwongen Guardrail | Maximumaantal afgeleide velden per verbinding; de waarde hangt af van het pakket Customer Journey Analytics (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Zie ook Experience Platform [Guardrails voor gegevensinname](https://experiencel
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Gegevens exporteren | Totaal toegestane gegevensmeeropslag | Prestatiehandleiding | De klant kan de Uitvoer van de Dataset van de Bestemming gebruiken om de Gegevens van de Klant in het meer van Gegevens tot de Totale Erkende Opslag van Gegevens uit te voeren. |
-| Beschikbare gegevensbestanden | Profiel en gebeurtenis | Systeem geforceerde geleider | De datasets van de Gebeurtenis van het profiel en van de Ervaring die in de Experience Platform UI na het opnemen van of het verzamelen van gegevens door Bronnen, Web SDK, Mobiele SDK, de Schakelaar van Gegevens van de Analyse, en Audience Manager worden gecreeerd. |
+| Beschikbare gegevensbestanden | Profiel en gebeurtenis | Systeem geforceerde geleider | De datasets van de gebeurtenis, van het Profiel of van de Opzoeken die in de UI van het Experience Platform na het opnemen van of het verzamelen van gegevens door Bronnen, Web SDK, Mobiele SDK, de Verbinding van Gegevens van de Analyse, en Audience Manager worden gecreeerd. |
 
 {style="table-layout:auto"}
 
@@ -155,8 +155,8 @@ Zie ook Experience Platform [Gegevensset exporthulplijnen](https://experiencelea
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Datasets met titels | 10 | Door het systeem afgedwongen Guardrail | Het maximum aantal gebonden gegevenssets per klant. De waarde hangt af van het toepasselijke pakket Customers Journey Analytics (zie de toepasselijke productbeschrijving). |
-| Backfill-gegevens | 60 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen met back-upgegevens. |
+| Datasets met titels | 5 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant; de waarde varieert afhankelijk van het pakket van de Customer Journey Analytics (zie de Beschrijving van het Product). |
+| Backfill-gegevens | 60 - 395 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen met back-upgegevens; de waarde hangt af van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Zie ook Experience Platform [Gegevensset exporthulplijnen](https://experiencelea
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Rijen per rapport | 3 miljoen - 300 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal rapportrijen per rapport; de waarde varieert afhankelijk van het toepasselijke pakket van de Customer Journey Analytics (zie toepasselijke productbeschrijving). |
+| Rijen per rapport | 3 miljoen - 300 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal rapportrijen per rapport; de waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
 | Uitsplitsingen per tabel | 5 | Door het systeem afgedwongen Guardrail | Maximumaantal uitsplitsingen per tabel. |
 | Metrisch per tabel | 5 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per lijst. |
 | Planningsfrequentie | 1 | Door het systeem afgedwongen Guardrail | De uitvoer kan één keer (1) per dag of op een langer programma (bijvoorbeeld: eens om de 2 dagen, of wekelijks) worden gepland. |
