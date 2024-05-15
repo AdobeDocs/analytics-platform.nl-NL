@@ -4,37 +4,61 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '686'
+ht-degree: 2%
 
 ---
 
 # Handleiding voor Customer Journey Analytics
 
-Deze handleiding voor technische documentatie biedt zelfhulp voor Customer Journey Analytics. Met Customer Journey Analytics kunt u uw klantgegevens vanuit elk kanaal dat u kiest (zowel online als offline) naar Adobe Experience Platform overbrengen. Vervolgens kunt u deze gegevens analyseren op dezelfde manier als uw bestaande digitale gegevens vandaag nog met Analysis Workspace.
+Deze handleiding voor technische documentatie biedt zelfhulp voor Customer Journey Analytics. Met Customer Journey Analytics kunt u uw klantgegevens vanuit elk kanaal dat u kiest (zowel online als offline) naar Adobe Experience Platform overbrengen. Analyseer deze gegevens op dezelfde manier als je bestaande digitale gegevens met Analysis Workspace vandaag.
 
-Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace aansluit op een gemeenschappelijke klant-id. U kunt dan eindelijk toewijzingen, filters, stroom, fallout enzovoort uitvoeren. van uw klantgegevens.
+Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens in Analysis Workspace verbindt met een gemeenschappelijke klant-id, zodat u kenmerken, filters, stroom, fallout enz. kunt uitvoeren. van uw klantgegevens.
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie van de Customer Journey Analytics! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](../release-notes/latest.md). Blijf up-to-date met de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](../release-notes/doc-changes.md).
+Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie van de Customer Journey Analytics! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](../release-notes/latest.md). Ga naar [pagina met documentupdates](../release-notes/doc-changes.md) om up-to-date te blijven met de meest recente wijzigingen.
 
 >[!BEGINTABS]
+
+>[!TAB BI-extensie*]
+
+De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. U kunt uw favoriete hulpmiddel van BI nu gebruiken om rapportering en dashboards tot stand te brengen die op de zelfde gegevensmeningen die de gebruikers van de Customer Journey Analytics met hun projecten van Analysis Workspace gebruiken.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
+
+<span style="color:gray">*_U moet het Select-pakket of hoger hebben om de BI-extensie te kunnen gebruiken._</span>
+
+
+<!--
+>[!TAB Improved Audience Publising] 
+
+Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
+
+[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
+
+-->
+
+
+>[!TAB Nieuwe documentatie]
+
+Nieuwe documentatie is nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteren **[!UICONTROL Learn more]** voor deze en andere documentatieupdates.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!TAB Voorspelling]
 
 Prognosering is een Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
 
-[![image](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
+[![afbeelding](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
 
 >[!TAB Analyse met instructies* - Bewaarpercentages]
 
 Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren. De horizontale as geeft het aantal dagen weer sinds de eerste betrokkenheid van een gebruiker. De verticale as geeft het percentage weer van de gebruikers die zich opnieuw engageren.
 
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
+[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is._</span>
 
@@ -43,16 +67,9 @@ Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun ee
 
 Trendline-overlays zijn nu beschikbaar in de weergave Gebruik, zodat een duidelijker patroon in de gegevens kan worden weergegeven. De beschikbare typen trendlines zijn lineair, logaritmisch en bewegend gemiddelde.
 
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
+[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
 
 <span style="color:gray">*_Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is._</span>
-
-
->[!TAB Belangrijkste statistieken - overzicht - visualisatie]
-
-Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is.
-
-[![image](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
 
 >[!ENDTABS]
 
@@ -68,7 +85,7 @@ Begin met het lezen van het materiaal in de koppelingen hieronder om uzelf vertr
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>Gegevens opnemen en gebruiken</strong><br/>Leer over de opties u gegevens in Experience Platform moet opnemen en het voor analyse en rapportering in Customer Journey Analytics gebruiken.</div>
+    <div><strong>Gegevens opnemen en gebruiken</strong><br/>Leer over de opties die u gegevens in Experience Platform moet opnemen en het voor analyse en rapportering in Customer Journey Analytics moet gebruiken.</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
@@ -90,7 +107,7 @@ Begin met het lezen van het materiaal in de koppelingen hieronder om uzelf vertr
 
 ## Documentatie verkennen
 
-Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt en hoe te om uw gegevens in de oplossing te krijgen en dan, die gegevens en resulterende analyse en rapporten voor te bereiden, te bekijken, te analyseren en te democratiseren.
+Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe u uw gegevens in de oplossing kunt krijgen en deze gegevens en de daaruit voortvloeiende analyse en rapporten kunt voorbereiden, bekijken, analyseren en democratiseren.
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -104,14 +121,14 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt en hoe 
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong>Gegevens</strong><br/><a href="/help/data-views/data-views.md">Overzicht</a> - <a href="/help/data-views/create-dataview.md">Maken of bewerken</a> - <a href="/help/data-views/session-settings.md">Sessieinstellingen</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Afgeleide velden</a> - <a href="/help/data-views/component-reference.md">Componentverwijzing</a>
+      <strong>Gegevensweergaven</strong><br/><a href="/help/data-views/data-views.md">Overzicht</a> - <a href="/help/data-views/create-dataview.md">Maken of bewerken</a> - <a href="/help/data-views/session-settings.md">Sessieinstellingen</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Afgeleide velden</a> - <a href="/help/data-views/component-reference.md">Componentverwijzing</a>
     </td>
 
 </tr>
   <tr style="border: 0;">
     <td>
       <img src="./assets/workspace.svg" width="35px"><br/>
-      <strong>Werkruimteprojecten</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Basis </a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md">Geavanceerde analyse</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Projecten</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualisaties</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Deelvensters</a>
+      <strong>Werkruimteprojecten</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Basis</a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md">Geavanceerde analyse</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Projecten</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualisaties</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Deelvensters</a>
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
@@ -128,7 +145,7 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt en hoe 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Productbeschrijving Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics add-on) productbeschrijving</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics-API's</a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Productbeschrijving Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics add-on) productbeschrijving</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics-API's</a>
 </td>
 <td><strong>Gegevensinname</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Overzicht</a> - <a href="/help/data-ingestion/analytics.md">Analyse</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Bronnen</a> - <a href="/help/data-ingestion/serverapi.md">Server-API</a>
 </td>
@@ -136,4 +153,4 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt en hoe 
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Blijf op de hoogte, draag bij aan de gemeenschap en verhoog uw Customer Journey Analytics ervaring!</b><br>Bezoek de Adobe Analytics-gemeenschap om functionaliteit met collega's te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Word vandaag lid van de gemeenschap!</a></td></tr></tbody></table>
+<b>Blijf op de hoogte, draag bij aan de gemeenschap en verhoog uw Customer Journey Analytics ervaring!</b><br>Bezoek de Adobe Analytics-gemeenschap om de functionaliteit met collega's te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Word vandaag lid van de gemeenschap!</a></td></tr></tbody></table>
