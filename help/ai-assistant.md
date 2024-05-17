@@ -4,9 +4,9 @@ title: AI Assistant voor Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 02a0ad53d8c3ef0c10e2b9c2b11bb75a6a962cf0
+source-git-commit: 49f2c393bbd0bff28dd8bc166b3c60bc49d4df37
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,16 @@ AI Assistant voor Customer Journey Analytics is beschikbaar voor alle productlag
 >[!IMPORTANT]
 >
 >Op dit punt beantwoordt AI Assistant voor Customer Journey Analytics geen gebruiksvragen over gegevensobjecten binnen uw organisatie.
+
+## Toegang tot functies
+
+In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door de volgende parameters:
+
+* **Toegang tot oplossing**: De AI-assistent is beschikbaar in Customer Journey Analytics, maar niet in Adobe Analytics. Het is ook beschikbaar in Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP en aanvullende Experience Platform-apps.
+
+* **Contractuele toegang**: Uw verkoopcontract van de Adobe moet een clausule omvatten die Adobe toestaat om uw gegevens in de modelontwikkeling van AI/ML (clausule 6.2) te gebruiken.
+
+* **Machtigingen**: De [!UICONTROL Adobe Admin Console] [!UICONTROL Reporting Tools] De toestemming van de &quot;AI HulpDocumentatie&quot;bepaalt toegang tot dit hulpmiddel. Deze toestemming zal medio Mei aan de sectie van Hulpmiddelen van de Rapportering worden toegevoegd. U moet ervoor zorgen dat u een [productprofiel](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in Admin Console met deze machtiging en gebruikers handmatig aan dit profiel toevoegen.
 
 ## De Hulp van AI van de toegang in de UI van de Customer Journey Analytics
 
