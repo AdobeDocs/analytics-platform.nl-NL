@@ -4,9 +4,9 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -78,13 +78,21 @@ Een visualisatie toevoegen:
 >
 >Voor informatie over elke component, selecteer het pictogram van Info naast de naam van een component in de linkerspoorstaaf, of zie [Overzicht van componenten](/help/components/overview.md).
 
-Een component toevoegen:
+Hier volgt basisinformatie over het toevoegen van een component aan een project in Analysis Workspace. Voor meer gedetailleerde informatie over het toevoegen van de diverse soorten componenten (afmetingen, metriek, filters, en datumwaaiers), zie [Componenten in Analysis Workspace gebruiken](/help/components/use-components-in-workspace.md).
+
+Een component toevoegen aan een project in Analysis Workspace:
 
 1. Selecteer de **[!UICONTROL Components]** in de linkerspoorstaaf.
 
    ![Het pictogram Geselecteerde componenten en de lijst met beschikbare afmetingen.](assets/build-components.png)
 
-1. Zoek naar de component u wilt toevoegen. Wanneer het in de linkerspoorstaaf verschijnt, sleep het aan een paneel of visualisatie binnen uw project.
+1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
+
+   U kunt bijvoorbeeld een filter naar de neerzetzone van het filter in een deelvensterkop slepen.
+
+   ![een filter neerzetten in de neerzetzone](assets/filter-dropzone.png)
+
+   Voor meer informatie over het toevoegen van componenten aan projecten, zie [Componenten in Analysis Workspace gebruiken](/help/components/use-components-in-workspace.md).
 
 1. (Optioneel) Deel het project zoals beschreven in [Het project opslaan en delen](#save-and-share-the-project).
 

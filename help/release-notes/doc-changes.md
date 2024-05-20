@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0014515b29885bf3eb44e8e49fc605fc76e4b439
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '3547'
+source-wordcount: '3570'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2024** | |
+| Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Gebruiksscenario&#39;s bij exporteren van gegevens | Set nieuwe artikelen met beschrijving [Gebruiksscenario&#39;s voor exporteren van gegevens](/help/use-cases/data-export/overview.md) en hoe Experience Platform- en Customer Journey Analytics-functies worden gebruikt om deze gebruiksgevallen te implementeren |
 | Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures in verband met [aangepaste datumbereiken maken](/help/components/date-ranges/custom-date-ranges.md) in overeenstemming met de huidige productkenmerken en het huidige ontwerp. |

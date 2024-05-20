@@ -4,9 +4,9 @@ title: Snelle filters
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,11 @@ Een snelfilter maken:
 
 1. Kies een van de volgende methoden om het snelfilter te maken:
 
-   * **Ad hoc (slepen en neerzetten):** Sleep een component van de linkerspoorstaaf naar de neerzetzone naast de **Filter** in de koptekst van het deelvenster en selecteert u vervolgens het pictogram **Bewerken** pictogram om het filter aan te passen.
+   * **Ad hoc (slepen en neerzetten):** Sleep een component vanuit de linkerrails naar de neerzetzone van het filter in de koptekst van het deelvenster.
 
-     ![Ad-hocfilter bewerken](assets/filter-adhoc-edit.png)
+     ![een segment neerzetten in de neerzetzone](assets/filter-dropzone.png)
+
+     U kunt het snelle filter bewerken zoals wordt beschreven in [Een snelfilter bewerken](#edit-a-quick-filter).
 
      >[!NOTE]
      >
