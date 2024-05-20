@@ -4,9 +4,9 @@ title: Algemene foutberichten in Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 51a20b0a1f003d2e6ce8baf4d7cec16bfa2fe5b3
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ Er kunnen fouten optreden bij de interactie met Analysis Workspace die ook van i
 
 | Foutbericht | Waarom gebeurt dit? | Optimalisatie |
 | --- | --- | --- |
+| [!UICONTROL The data view is currently exceeding its reporting capacity. Please simplify the request or try again later.] | Uw rapportageaanvraag is te complex en moet worden vereenvoudigd. | Verfijn uw rapportcriteria en probeer het verzoek opnieuw. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under **[!UICONTROL Help > Submit Support Ticket]** and include your error code.] | Adobe heeft te maken met een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
 | [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [firewallinstellingen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html), een factor die aan deze fout bijdraagt. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
 | [!UICONTROL One of the filters or the search in this visualization contains a text search that returned too many results.] | De filtercriteria of het rapportfilter zijn te breed. | Verfijn uw zoektekstcriteria en probeer het verzoek opnieuw. |
