@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Frequency]** Hiermee groepeert u gebeurtenisgegevens op basis van hoe vaak gebeurtenissen in uw product voorkomen. De verticale as van deze weergave bevat emmers die de frequentie van de gebeurtenis aangeven. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 
-![Frequentieschermopname](../assets/frequency-stacked.png){style="border:1px solid gray"}
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
 
 ## Gebruik hoofdletters
 
@@ -33,7 +33,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Gebruik](usage.md).
 * **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt weergegeven als een afzonderlijke grafiek. Er wordt een rij die de trended-gebeurtenis vertegenwoordigt, aan de tabel toegevoegd. U kunt maximaal vijf gebeurtenissen opnemen.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] en  [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Users], [!UICONTROL Sessions], [!UICONTROL Percentage of users] en [!UICONTROL Percentage of sessions]. De noemer voor op percentage-gebaseerde metriek in deze mening is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal balken in het diagram en de rijen in de tabel. U kunt maximaal vijf segmenten opnemen.
 
 ## Diagraminstellingen
