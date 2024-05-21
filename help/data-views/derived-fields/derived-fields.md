@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
 workflow-type: tm+mt
-source-wordcount: '5673'
+source-wordcount: '5707'
 ht-degree: 3%
 
 ---
@@ -255,7 +255,7 @@ Als uw site de volgende voorbeeldgebeurtenissen ontvangt, bevat [!UICONTROL Refe
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -445,13 +445,13 @@ Definieert een set waarden die worden vervangen door corresponderende waarden in
 
 >[!NOTE]
 >
->Deze functie heet oorspronkelijk Opzoeken, maar is hernoemd naar Classificeren om ruimte te maken voor een toekomstige opzoekfunctie met andere functionaliteit.
+>Deze functie heette oorspronkelijk Opzoeken, maar is hernoemd naar Classificeren om plaats te maken voor de opzoekfunctie met andere functionaliteit.
 
 ## Specificaties {#classify-io}
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul><li>Oorspronkelijke waarden tonen<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld<br/>100 rijen per functie</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>[!UICONTROL When value equals] en [!UICONTROL Replace values with]:</p><ul><li>String</li></ul><li>Oorspronkelijke waarden tonen<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <ul><li>5 functies per afgeleid veld</li><li>200 [operatoren](#operators) per afgeleid veld. Elke vermelding voor [!UICONTROL When value equals original value] [!UICONTROL Replace value with New value] wordt beschouwd als een verrichting.</li></ul> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -1307,6 +1307,12 @@ Een operator in een If of else If construct binnen een Case When functie is de c
 De onderstaande voorwaarde gebruikt bijvoorbeeld 13 operatoren.
 
 ![Voorbeeldoperatoren](assets/operators-sample.png)
+
+Een operator in de functie Classificeren is één item voor [!UICONTROL When value equal Original value] [!UICONTROL Replace value with New value].
+
+De onderstaande regel voor classificeren gebruikt bijvoorbeeld 3 operatoren.
+
+![Screenshot van regel 1 van classificeren](assets/classify-1.png)
 
 
 ## Meer informatie
