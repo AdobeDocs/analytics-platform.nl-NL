@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: d1fc7c0ab95e43a20cdfba8d0948c188fda8bec8
+source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -125,11 +125,9 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] van de [!UICONTROL **Locatie toevoegen**] geeft u de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
 
-   <!-- still need to update; can't create GCP account -->
-
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Emmertje**] | Het emmertje binnen uw rekening GCP waar u de gegevens van de Customer Journey Analytics wilt worden verzonden. <p>Zorg ervoor dat u de `roles/storage.objectCreator` toestemming aan de Opdrachtgever verleend door Adobe. (De Opdrachtgever wordt verstrekt wanneer [configureren van Google Cloud Platform-account](/help/components/exports/cloud-export-accounts.md).) <p>Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie.</p> |
+   | [!UICONTROL **Emmertje**] | Het emmertje binnen uw rekening GCP waar u de gegevens van de Customer Journey Analytics wilt worden verzonden. <p>Zorg ervoor dat u de `roles/storage.objectCreator` toestemming aan de Opdrachtgever verleend door Adobe. (De Opdrachtgever wordt verstrekt wanneer [configureren van Google Cloud Platform-account](/help/components/exports/cloud-export-accounts.md).) <p>Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie.</p><p>Als uw organisatie [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) Als u alleen de Google Cloud Platform-account in uw lijst van gewenste personen wilt toestaan, hebt u de volgende Google Cloud Platform-organisatie-id nodig die eigendom is van de Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
