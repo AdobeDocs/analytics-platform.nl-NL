@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 87661e0000d050652d9510bb4830ca6f30bfeae9
+source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Zie [Client verbinden met Query-service](https://experienceleague.adobe.com/en/d
 
 ## Functionaliteit
 
-Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd op basis van hun vriendelijke naam. De gegevensweergave met de naam [!UICONTROL My Web Data View] heeft de weergavenaam `my_web_data_view`.
+Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd op basis van hun vriendelijke naam. De gegevensweergave met de naam [!UICONTROL My Web Data View] heeft de weergavenaam `my_web_data_view`. U kunt een voorkeursnaam definiëren voor gebruik in uw BI-gereedschap voor de gegevensweergave. Zie [Instellingen voor gegevensweergave](create-dataview.md#settings) voor meer informatie .
 
 Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u de optionele `CJA_USE_IDS` instellen op de databasenaam wanneer verbinding wordt gemaakt. Bijvoorbeeld: `prod:cja?CJA_USE_IDS` geeft uw gegevensweergaven weer met namen als `dv_ABC123`.
 
