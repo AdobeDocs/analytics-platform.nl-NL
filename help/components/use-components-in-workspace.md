@@ -3,7 +3,7 @@ description: Leer hoe u componenten aan een project kunt toevoegen in Analysis W
 title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
-source-git-commit: d3f90414494b52aba9736fef83423e4a1b2508b5
+source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Componenten in Analysis Workspace gebruiken
 
-Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, segmenten en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
+Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, filters en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
 
 Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [Overzicht van componenten](/help/components/overview.md).
 
@@ -34,9 +34,9 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
 1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
 
-   U kunt bijvoorbeeld een segment naar de neerzetzone van het segment in een deelvensterkop slepen.
+   U kunt bijvoorbeeld een filter naar de neerzetzone van het filter in een deelvensterkop slepen.
 
-   ![een segment neerzetten in de neerzetzone](assets/filter-dropzone.png)
+   ![een filter neerzetten in de neerzetzone](assets/filter-dropzone.png)
 
 1. Voor meer gedetailleerde informatie gaat u verder met een van de volgende secties, afhankelijk van het componenttype dat u toevoegt:
 
@@ -44,7 +44,7 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
    * [Metriek toevoegen aan een project](#add-metrics-to-a-project)
 
-   * [Segmenten toevoegen aan een project](#add-segments-to-a-project)
+   * [Filter toevoegen aan een project](#add-filters-to-a-project)
 
    * [Datumbereiken toevoegen aan een project](#add-date-ranges-to-a-project)
 
@@ -60,7 +60,7 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
      ![Afmetingen toevoegen aan een project](assets/add-dimensions.png)
 
-   * Sleep een of meer afmetingen van de linkerspoorstaaf naar de neerzetzone van het segment om een ad-hocsegment te maken, zoals beschreven in [Segmenten toevoegen aan een project](#add-segments-to-a-project).
+   * Sleep een of meer afmetingen van de linkerspoorstaaf naar de filterneerzetzone om een ad-hocfilter te maken, zoals beschreven in [Filters toevoegen aan een project](#add-filters-to-a-project).
 
 Ga voor meer informatie over het gebruik van dimensies in Analysis Workspace naar [Voorvertoningsafmetingen](/help/components/dimensions/view-dimensions.md), [Afmetingen onderverdelingen](/help/components/dimensions/t-breakdown-fa.md), en [Afmetingen van tijd tot tijd](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -96,11 +96,11 @@ Een filter toevoegen aan een project in Analysis Workspace:
 
 1. Kies een van de volgende methoden om het deelvenster te filteren:
 
-   * Sleep een individueel filter van de linkerspoorstaaf op de gebied van de segmentdaling.
+   * Sleep een afzonderlijk filter van de linkerspoorstaaf naar de filterneerzetzone.
 
      ![een filter neerzetten in de neerzetzone](assets/filter-dropzone.png)
 
-   * Houd Shift of Ctrl ingedrukt als u meerdere segmenten in de linkertrack wilt selecteren en houd Shift ingedrukt terwijl u ze op de neerzetzone van het segment neerzet.
+   * Houd Shift of Ctrl ingedrukt als u meerdere filters in de linkertrack wilt selecteren en houd Shift ingedrukt als u deze naar de dropzone van het filter verplaatst.
 
      ![meerdere filters neerzetten in de neerzetzone](assets/filter-dropzone-multiple.png)
 
@@ -108,13 +108,13 @@ Een filter toevoegen aan een project in Analysis Workspace:
 
      U kunt de (x) selecteren om het even welke optie uit het drop-down menu te verwijderen. Als u de [!UICONTROL **Geen filter**] en is een filter vereist.
 
-   * Maak ad-hocsegmenten door niet-segmentcomponenten naar de neerzetzone te slepen. Dit kan u de tijd en moeite besparen om naar de Bouwer van het Segment te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
+   * Maak ad-hocfilters door niet-filtercomponenten naar de neerzetzone te slepen. Dit kan u de tijd en moeite besparen om naar de Bouwer van de Filter te gaan. Filters die op deze manier worden gemaakt, worden automatisch gedefinieerd als filters op raakniveau. Deze definitie kan worden gewijzigd door te klikken op het informatiepictogram (i) naast het filter, vervolgens op het pictogram voor het bewerken van de vorm van een potlood en dit te bewerken in de Filter Builder.
 
-     Ad hoc segmenten zijn een type van snel segment, en zijn lokaal aan het project. Ze komen niet in de linkerspoorstaaf voor als je ze niet openbaar maakt.
+     Ad hoc filters zijn een type snel filter, en zijn plaatselijk aan het project. Ze komen niet in de linkerspoorstaaf voor als je ze niet openbaar maakt.
 
      Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters.md).
 
-Voor meer informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analysis-workspace/c-panels/panels.md).
+Ga voor meer informatie over hoe u de neerzetzone van het filter op een deelvenster kunt gebruiken om uw deelvenster te filteren naar [Valzone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analysis-workspace/c-panels/panels.md).
 
 ## Datumbereiken toevoegen aan een project
 
