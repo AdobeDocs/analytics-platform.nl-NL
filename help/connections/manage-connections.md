@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
+source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Als u eenmaal [een of meer verbindingen hebben gemaakt of bewerkt](/help/connect
 ## Lijst
 
 De [!UICONTROL List] interface is de standaardinterface voor Verbindingen. Als deze optie niet is geselecteerd, selecteert u **[!UICONTROL List]** om de interface te openen.
+
+![lijstweergave](assets/list-view.png)
 
 De [!UICONTROL List] de interface toont een lijst van alle beschikbare verbindingen. U kunt snel naar een verbinding zoeken met de zoekfunctie ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) doos.
 
@@ -202,6 +204,8 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen.
 
+![gebruiksweergave](assets/usage-view.png)
+
 Selecteer de **[!UICONTROL Usage]** om de interface te openen.
 
 Over het gebruik rapporteren:
@@ -211,14 +215,14 @@ Over het gebruik rapporteren:
 
 Voor [!UICONTROL Ingested rows]:
 
-* in een deelvenster worden de totaal opgenomen rijen weergegeven die alle gebeurtenisgegevens bevatten voor alle verbindingen die op elke 2de dag van een maand worden bijgewerkt. In het deelvenster:
+* In een deelvenster worden de totaal opgenomen rijen weergegeven die alle gebeurtenisgegevens bevatten voor alle verbindingen die op elke 2de dag van een maand worden bijgewerkt. In het deelvenster:
    * een vakje toont het aantal ingeklapte rijen voor de laatste maand en de verandering in % (die door wordt aangegeven <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
    * een lijngrafiek toont <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly ingested rows].<br/>Als u een pop-up wilt zien die het aantal per maand ingenomen rijen voor een maand weergeeft, plaatst u de muisaanwijzer boven een willekeurig gegevenspunt in de lijngrafiek.
 
 
 Voor [!UICONTROL Reportable rows]:
 
-* een paneel toont totaal te rapporteren rijen die alle gebeurtenisgegevens over alle verbindingen omvatten die op elke 2de dag van een maand worden bijgewerkt. In het deelvenster:
+* In een deelvenster worden de totale aantal te rapporteren rijen weergegeven, die alle gebeurtenisgegevens bevatten voor alle verbindingen die op elke tweede dag van een maand worden bijgewerkt. In het deelvenster:
    * in een vak wordt het cumulatieve totale aantal te rapporteren rijen weergegeven.
    * een vak bevat het totale aantal te rapporteren rijen voor de laatste maand en de wijziging in % (aangegeven door <span style="color:green">tij</span> of <span style="color:c64545">▼ ▼ M</span>) van de vorige maand.
    * een lijngrafiek toont <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly reportable rows].<br/>Als u een pop-up wilt weergeven die het aantal cumulatieve te rapporteren rijen voor een bepaalde maand weergeeft, plaatst u de muisaanwijzer boven een willekeurig gegevenspunt in de lijngrafiek.
