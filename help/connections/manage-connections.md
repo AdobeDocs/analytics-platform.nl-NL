@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
+source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2792'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden
 
 Selecteer de **[!UICONTROL Usage]** om de interface te openen.
 
-Over het gebruik rapporteren:
+### Rapport over gebruik
 
 1. Selecteer een **[!UICONTROL Time range]**. U kunt kiezen tussen **[!UICONTROL Last 6 months]**, **[!UICONTROL Year to date]**, of **[!UICONTROL Last 2 Years]**.
 1. Selecteer een **[!UICONTROL Interval]**. U kunt kiezen tussen **[!UICONTROL Monthly]** of **[!UICONTROL Quarterly]**.
