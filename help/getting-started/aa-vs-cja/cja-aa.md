@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: e767639d1e6276e4f9a52ce3f1bdb53b7c42ac04
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2126'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
+| Analyses voor doel (A4T) | De [integratie tussen Adobe Customer Journey Analytics en Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) biedt krachtige hulpmiddelen voor analyse en tijdbesparend maken voor uw optimalisatieprogramma. |
 | Publicatie door het publiek | Wordt ondersteund als de Adobe een licentie heeft voor Customer Data Platform of Journey Optimizer-producten. [Publiek publiceren](/help/components/audiences/audiences-overview.md) verzendt publiek naar het Profiel van de Klant in real time in Experience Platform. |
 | Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die in Analytics worden gebruikt, kunnen naar het Experience Platform en de Customer Journey Analytics worden geïmporteerd met behulp van de Bronconnector voor analytische classificaties. De datasets van de opzoekopdracht kunnen ook direct aan Experience Platform worden geupload en beschikbaar in Customer Journey Analytics. |
 | Bouwer van classificatieregel | Ondersteund met [subtekenreeksen](/help/data-views/component-settings/substring.md) in de Customer Journey Analytics. Gebruikt tekenreeksmanipulaties in rapporttijd eerder dan raadplegingsdatasets. |
@@ -87,7 +88,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Functie | Notities |
 | --- | --- |
 | Deelvensters | Het deelvenster Lege deelvensters, het deelvenster Kenmerken, het deelvenster Vrije vorm en Snelle inzichten worden volledig ondersteund. De deelvensters Segmentvergelijking en Analyse voor Doel (A4T) worden niet ondersteund. |
-| Analyses voor doel (A4T) | Momenteel in bèta. De gedeeltelijke steun wordt verleend door gebieden in [Bronconnector voor analyse](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Ondersteuning voor A4T-vriendelijke namen op doelactiviteiten en -ervaringen is gepland. |
 
 {style="table-layout:auto"}
 
