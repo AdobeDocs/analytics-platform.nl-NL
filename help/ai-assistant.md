@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: b21dba5b7bef0d9add116f1e9bca0403e9a8c1d5
+source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 0%
 >
 >AI Assistant voor Customer Journey Analytics bevindt zich momenteel in bètaversie. De functie en de bijbehorende documentatie kunnen worden gewijzigd.
 
-AI Assistant is een interface-functie waarmee u door Adobe Customer Journey Analytics-concepten en -terminologie kunt navigeren en deze kunt begrijpen. De AI Assistant in Customer Journey Analytics is getraind op basis van de Adobe Experience League-documentatie. Als een vraag wordt gesteld, antwoordt AI Assistant met een handig antwoord waarmee u snel kunt leren.
+De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
+
+De AI Assistant in Customer Journey Analytics is getraind op basis van de Adobe Experience League-documentatie. Als een vraag wordt gesteld, antwoordt AI Assistant met een handig antwoord waarmee u snel kunt leren.
 
 Als beginnende gebruiker, kunt u de Medewerker van AI gebruiken om de concepten van de Customer Journey Analytics te leren en aan boord te hebben aan producten en eigenschappen die u met onbekend bent. Als ervaren gebruiker, kunt u de Medewerker van AI gebruiken om geavanceerdere gebruiksgevallen of uiteinden en trucs voor te stellen.
 
@@ -58,6 +60,6 @@ In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door 
 
    ![Vraagvak](assets/ai-asst2.png)
 
-1. (Optioneel) Als u bronnen wilt weergeven, klikt u op **[!UICONTROL Show Sources]** en de documentatiebron(nen) die het antwoord heeft meegedeeld, worden weergegeven.
+1. (Optioneel) Als u bronnen wilt weergeven, klikt u op **[!UICONTROL Show Sources]** en worden de documentatiebron(nen) weergegeven die het antwoord heeft meegedeeld.
 
 1. (Optioneel) U kunt ook een duimbreed- of duimbreed-stem uitbrengen over de wenselijkheid van een bepaald antwoord.
