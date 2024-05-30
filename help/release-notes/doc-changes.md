@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
+source-git-commit: dcce03959018a34362d8f6cc1d3f44d4ffde916b
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '3647'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2024** | |
+| Doelintegratie | Toegevoegd [artikel naar Adobe integratie sectie](/help/integrations/cja4t.md) op hoe te om Doel met Customer Journey Analytics te integreren. |
 | Vereiste informatie bij het exporteren van Customer Journey Analytics-rapporten naar het Google Cloud Platform terwijl er beperkingen van het organisatiebeleid gelden | De Adobe Cloud Platform-organisatie-id is toegevoegd aan de [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md) documentatie voor het exporteren van rapporten van Customers Journey Analytics naar Google Cloud Platform. <p>Deze informatie is alleen vereist voor organisaties die [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |
 | Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Gebruiksscenario&#39;s bij exporteren van gegevens | Set nieuwe artikelen met beschrijving [Gebruiksscenario&#39;s voor exporteren van gegevens](/help/use-cases/data-export/overview.md) en hoe Experience Platform- en Customer Journey Analytics-functies worden gebruikt om deze gebruiksgevallen te implementeren |
