@@ -5,7 +5,7 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De volgende geleide analysemeningen zijn beschikbaar:
 
 | Type analyse | Type weergave | Beschrijving |
 | --- | --- | --- |
-| [!UICONTROL Feature matrix] | [Engagement](types/engagement.md) | Begrijp de breedte en breedte van de betrokkenheid van functies. |
+| [!UICONTROL Feature matrix] | [Engagement](types/engagement.md) | Begrijp de breedte en diepte van eigenschapbetrokkenheid. |
 | [!UICONTROL Funnel] | [Wrijving](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
 | [!UICONTROL Funnel] | [Conversietrends](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
 | [!UICONTROL Impact] | [Geen](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
