@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8e6f16acc475fb89c9b9ba50ccef174d3c7b10ea
+source-git-commit: 5db0a92a94d9683a414813ac302b49f908c3e324
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2192'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Analyse met instructies | De geleide analyse is een rapporteringsformaat dat gebruikers toestaat om hun gegevensbehoeften snel zelf te dienen zodat zij high-quality inzicht snel kunnen krijgen en meer gegeven-gedreven besluiten kunnen nemen. De geleide analyse maakt deel uit van Adobe Product Analytics, een toevoeging aan Customer Journey Analytics. |
 | Intelligente bijschriften | Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten te bieden voor Workspace-visualisaties. De eerste release biedt automatisch gegenereerde inzichten voor de [Lijn](/help/analysis-workspace/visualizations/line.md) visualisatie. |
 | Transformaties in de rapporttijd | Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
-| BI Extension | Met de extensie BI kunt u CJA rechtstreeks verbinden met populaire BI-visualisatiefuncties, zoals PowerBI of Tableau, zodat uw BI-rapporten exact overeenkomen met wat u ziet in Analysis Workspace en andere CJA-rapportageinterfaces. Dit is een veel gemakkelijkere manier om BI rapportering voor CJA zonder de behoefte te krijgen om rapporten/metriek van ruwe gegevens opnieuw te maken. |
+| BI Extension | De [BI Extension](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) Hiermee kunt u CJA rechtstreeks verbinden met populaire BI-visualisatieprogramma&#39;s zoals PowerBI of Tableau. Door deze extensie te gebruiken, kunt u uw BI-rapporten precies laten overeenkomen met wat u ziet in Analysis Workspace en andere CJA-rapportageinterfaces. Dit is een veel gemakkelijkere manier om BI rapportering voor CJA zonder de behoefte te krijgen om rapporten/metriek van ruwe gegevens opnieuw te maken. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. <p>Adobe Analytics ondersteunt daarentegen maximaal 75 props en 250 eVars.</p> |
 | Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [kardinaliteitsbeperkingen voor een dimensie](/help/components/dimensions/high-cardinality.md), zodat unieke waarden kunnen worden weergegeven en geteld.</p><p>Met deze aanpak worden de rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, opgeheven, wat resulteert in [!UICONTROL Low Traffic] labels.</p><p>In de Customer Journey Analytics is het mogelijk een [!UICONTROL Uniques Exceeded] label, maar deze komen veel minder vaak voor en kunnen worden verlicht door een filter of een segment op de gegevens toe te passen.</p> |
