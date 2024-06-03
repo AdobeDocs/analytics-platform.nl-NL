@@ -5,30 +5,21 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: f4a235d90ad44dbb192b74a03accc7ad4a39e986
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
 
 # Bewaarpercentages
 
-De **[!UICONTROL Retention rates]** in deze weergave kunnen gebruikers het gebruik van uw product in de loop der tijd herhalen, zodat u beter kunt begrijpen wat de geschiktheid van de productmarkt is. In deze weergave geeft de horizontale as het aantal dagen weer dat is verstreken sinds de eerste betrokkenheid van een gebruiker en geeft de verticale as het percentage weer van de gebruikers die zich opnieuw engageren.
+De **[!UICONTROL Retention rates]** Bekijk hoe gebruikers uw product in de loop van de tijd blijven gebruiken, zodat u beter kunt begrijpen welke producten op de markt zijn. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
-Deze analyse telt gebruikers op twee belangrijke gebeurtenissen worden gebaseerd die:
+* De gebeurtenis van het begin: De eerste keer een gebruiker die met de begingebeurtenis binnen de datumwaaier wordt geëngageerd
+* Geretourneerde gebeurtenis: de meest recente tijd dat een gebruiker zich met de terugkeergebeurtenis binnen het geanalyseerde datumbereik bediende
 
-* De gebeurtenis van het begin: De eerste keer een gebruiker die met de gebeurtenis binnen de datumwaaier in dienst neemt
-* Retourgebeurtenis: de meest recente keer dat een gebruiker zich met de gebeurtenis heeft beziggehouden binnen het geanalyseerde datumbereik
-
-Het emmertje voor de duur &quot;Dag 0&quot; vertegenwoordigt de eerste tijd dat een gebruiker zich met de gebeurtenis heeft beziggehouden en is altijd precies gelijk aan 100%. Dit emmertje is de noemer die wordt gebruikt om het percentage van behouden gebruikers te berekenen.
-
-De volgende tijdsemmers tellen het aantal gebruikers die op of na die duur terugkwamen. Dit aantal is de teller die wordt gebruikt om het percentage van behouden gebruikers te berekenen.
-
-* Als een gebruiker slechts eenmaal in het gewenste datumbereik (de initiële service) aan de gebeurtenis deelneemt, worden deze alleen weergegeven in het duursegment &quot;Dag 0&quot;.
-* Als een gebruiker meerdere dagen na de eerste keer in aanmerking komt voor opname in de analyse, worden deze dagen weergegeven in het meest recente kwalificatieduur en in alle tijdssegmenten vóór de gebeurtenis. Dit type berekening wordt soms &quot;niet-begrensde retentie&quot; genoemd. U kunt deze berekening-instelling wijzigen in de querytrack.
-
-Gebruikers die in aanmerking komen voor tijdsemmers, zijn gebaseerd op verstreken tijd, niet op kalenderdag. Bijvoorbeeld, als een gebruiker voor een gebeurtenis om 11:55 PM op 6 September kwalificeert, dan voor een terugkeergebeurtenis om 12:05 AM op 7 September in aanmerking komt, zouden zij niet in het 1 dagduuremmertje verschijnen. Er moet een volledige periode van 24 uur verstrijken voordat de gebruiker in aanmerking komt voor het tijdsinterval van 1 dag.
+In deze weergave vertegenwoordigt de x-as van de grafiek de tijd sinds de begingebeurtenis van een gebruiker en vertegenwoordigt de y-as het percentage gebruikers dat met de geretourneerde gebeurtenis(sen) werkt. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
 ![Schermafbeelding met retentiesnelheden](../assets/retention-rates.png){style="border:1px solid gray"}
 
@@ -45,20 +36,26 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL Start event]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in uw analyse. Gebruikers die de gebeurtenis start starten, worden opgenomen in het eerste segment met gebruikers dat in totaal 100% bedraagt. Eén gebeurtenis wordt ondersteund, maar u kunt eigenschapfilters opnemen. U kunt de start- en retourgebeurtenissen aan elkaar koppelen met het menu met drie punten. Door de start- en retourgebeurtenissen aan elkaar te koppelen, zijn de criteria voor het eerste tijdsinterval en de daaropvolgende tijdsduur van de emmers hetzelfde.
-* **[!UICONTROL Return events]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in volgende tijdssegmenten. U kunt maximaal drie retourgebeurtenissen selecteren. Elke terugkeergebeurtenis produceert een zij-aan-zij analyse met andere inbegrepen terugkeergebeurtenissen.
+* **[!UICONTROL Start event]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in uw analyse. Gebruikers die met de startgebeurtenis werken, worden meegeteld in de kolom &quot;Gebruikers&quot; van de tabel. Dit is de noemer voor de getoonde aanhoudingspercentages. Eén gebeurtenis wordt ondersteund en eigenschapfilters kunnen zo nodig worden toegepast. Standaard zijn de start- en retourgebeurtenis gekoppeld. Dit houdt in dat een gebruiker de geselecteerde gebeurtenis één keer moet uitvoeren om in het cohort te worden opgenomen en vervolgens opnieuw moet worden geteld als een terugkerende gebruiker. In het menu Meer kunt u de start- en retourgebeurtenissen ontkoppelen als u wilt dat de actie die wordt geretourneerd verschilt van de handeling die wordt opgenomen.
+* **[!UICONTROL Return events]**: De gebeurteniscriteria waarmee een gebruiker moet werken om te tellen als terugkerende gebruikers in de periodeemmers. U kunt maximaal drie retourgebeurtenissen selecteren om de retentie te vergelijken.
 * **[!UICONTROL Counted as]**: De telmethode die u wilt toepassen op bewaarde gebruikers. U kunt onder andere de volgende opties kiezen:
-   * **[!UICONTROL Metric]**: Tel het aantal van [!UICONTROL Users retained] of de [!UICONTROL Percentage of users retained].
-   * **[!UICONTROL Returning]**: Standaard bevat deze analyse gebruikers in het emmertje dat ze hebben geretourneerd en alle voorafgaande emmers. Deze instelling wijzigen in **[!UICONTROL On exactly]** om gebruikers alleen op te nemen in het exacte emmer waarvoor zij in aanmerking komen.
-   * **[!UICONTROL Each]**: De tijdsperiode die u wilt gebruiken voor elk tijdssegment. Deze instelling is identiek aan de instelling **[!UICONTROL Interval]** instellen wanneer u het datumbereik selecteert.
-   * **[!UICONTROL Duration settings]**: Hiermee kunt u bepalen hoe gebruikers in de analyse worden weergegeven op basis van het aantal verstreken dagen. De beschikbare tijdsemmers zijn afhankelijk van het datumbereik dat u instelt. **[!UICONTROL Auto durations]** stelt automatisch tijdsemmers in op basis van de lengte van het datumbereik en de nabijheid van de huidige dag waarop het datumbereik zich bevindt. **[!UICONTROL Custom durations]** kunt u vier tijdsemmers met de gewenste intervallen handmatig instellen.
+   * **[!UICONTROL Metric]**: Toon het aantal van [!UICONTROL Users] of de [!UICONTROL Percentage of users] behouden. De noemer voor het percentage gebruikers dat wordt behouden, is de inbegrepen gebruikers voor het cohort en is voor alle periodeemmers gelijk.
+   * **[!UICONTROL Returning]**: Hiermee kunt u bepalen hoe terugkerende gebruikers worden geteld. U kunt onder andere de volgende opties kiezen:
+      * **[!UICONTROL On or after]**: Wordt vaak &#39;onbegrensd&#39; vasthouden genoemd, dan telt deze optie een gebruiker wanneer deze op of na de opgegeven duur terugkeert. Bijvoorbeeld op dag 7 of op een willekeurig tijdstip na dag 7. Deze optie is handig voor het weergeven van de manier waarop gebruikers blijven werken en genereert als gevolg hiervan een vloeiendere retentiecurve.
+      * **[!UICONTROL On exactly]**: Wordt vaak &#39;gebonden&#39; retentie genoemd, deze optie telt een gebruiker als deze exact op de opgegeven duur terugkeert. Bijvoorbeeld, precies op dag 7. Deze optie is handig om aan te geven hoe gebruikers binnen bepaalde tijdframes terugkeren en genereert een retentiecurve met meer golving als gevolg. Opmerking: De cohortanalyse in Analysis Workspace gebruikt &quot;op exact&quot; tellen als basis voor haar analyse.
+   * **[!UICONTROL Each]**: De tijdsperiode die u wilt gebruiken voor elk tijdssegment. U kunt onder andere de volgende opties kiezen:
+      * **[!UICONTROL Day/Week/Month]**: De beschikbare opties zijn afhankelijk van het geselecteerde datumbereik. Deze opties zijn identiek aan de **[!UICONTROL Interval]** als u het datumbereik selecteert, wordt die instelling automatisch bijgewerkt.
+      * **[!UICONTROL Custom brackets]**: Deze optie is alleen beschikbaar voor de instelling Bij elke. Hiermee kunt u gebruikers tellen over een groter tijdsbestek, bijvoorbeeld dag 7-10 in plaats van alleen dag 7.
+   * **[!UICONTROL Duration settings]**: Staat u toe om de tijdsemmers te controleren die op de grafiek en de lijst worden getoond. Een tijdsduur is de periode na de startgebeurtenis dat de retourgebeurtenis heeft plaatsgevonden. Opmerking: gebruikers die in aanmerking komen voor tijdsemmers zijn gebaseerd op verstreken tijd, niet op kalenderdagen. Bijvoorbeeld, als een gebruiker voor een gebeurtenis om 11:55 PM op 6 September kwalificeert, dan voor een terugkeergebeurtenis om 12:05 AM op 7 September in aanmerking komt, zouden zij niet in het 1 dagduuremmertje verschijnen. Er moet een volledige periode van 24 uur verstrijken voordat de gebruiker in aanmerking komt voor het tijdsinterval van 1 dag. De beschikbare tijdsemmers zijn afhankelijk van het datumbereik dat u instelt.
+      * **[!UICONTROL Auto durations]** Hiermee worden automatisch de tijdsemmers gedefinieerd op basis van de lengte van het datumbereik en de nabijheid van de huidige dag waarop het datumbereik zich bevindt.
+      * **[!UICONTROL Custom durations]** staat u toe om de vier die duuremmers aan te passen op de grafiek en de lijst worden getoond.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment voegt een rij toe aan de cohortingtabel. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
 De [!UICONTROL Retention rates] de weergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Bar] en [!UICONTROL Line]. De lijnvisualisatie toont visueel Dag 0 in de grafiek.
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Bar] en [!UICONTROL Line].
 
 ## Datumbereik
 
@@ -71,7 +68,3 @@ Als u een datumbereik selecteert dat dicht bij de huidige dag ligt, worden gebru
 
 * **[!UICONTROL Analyzing users who did the start event in [Date interval]]**: Als een gebruiker binnen dit datumbereik met de gebeurtenis werkt, worden deze opgenomen in de analyse. Dit datumbereik garandeert alle gebruikers voldoende tijd om in aanmerking te komen voor alle tijdssegmenten. Dit datumbereik kan anders zijn dan de datum die u hebt geselecteerd als deze dicht bij de huidige dag ligt.
 * **[!UICONTROL Data from [Date interval] is reserved to complete the analysis]**: Als een gebruiker zich voor de eerste keer binnen deze periode aansluit, worden de volgende **niet** opgenomen in de analyse. Voor recente datumbereiken zouden deze gebruikers niet in de gelegenheid zijn om voor alle tijdssegmenten in aanmerking te komen. Voor datumbereiken in het verleden waren deze gebruikers actief buiten het geselecteerde datumbereik.
-
-## Cohortingtabel
-
-De tabel onder het diagram biedt een geaggregeerde weergave (vergelijkbaar met diagramgegevens) en een volledige cohortingtabel. De volledige cohortingtabel bevat gegevens over elk datuminterval en het tijdstip waarop gebruikers betrokken zijn.
