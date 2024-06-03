@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
+source-git-commit: 70c274819eaef46627bf66d05ef8f790f61906a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ De [!UICONTROL Frequency] de weergave biedt de volgende diagraminstellingen, die
 
 ## Emmerinstellingen
 
-Bepaalt hoe de gebeurtenis in groepen wordt gecategoriseerd.
+Bepaalt hoe de gebeurtenis in groepen (emmers) wordt gecategoriseerd. In de trended lijstmening, worden de gebruikers gespikkeld gebaseerd op frequentie van gebruik in totaal en in elk interval, betekenend 1 kan de gebruiker naar verschillende emmers in verschillende intervallen tellen.
 
 * **[!UICONTROL Auto buckets]**: Identificeer automatisch de optimale bucket-grootte op basis van de gegevensdistributie.
 * **[!UICONTROL Customized buckets]**: Pas aan hoe de gegevens in emmers zijn gegroepeerd.
@@ -60,5 +60,5 @@ Bepaalt hoe de gebeurtenis in groepen wordt gecategoriseerd.
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 
-* **[!UICONTROL Interval]**: De granulariteit van de datum waarop u trendgegevens wilt bekijken. Deze instelling heeft geen invloed op niet-trendweergaven, zoals Frequentie.
+* **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. In het diagram en de tabel worden standaard samengevoegde gegevens weergegeven, met de optie om de tabel uit te vouwen tot een trendweergave. In de trended-weergave worden gebruikers ingesloten op basis van de gebruikte frequentie in totaal en in elk interval. Dit betekent dat één gebruiker in verschillende intervallen naar verschillende emmers kan tellen.
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
