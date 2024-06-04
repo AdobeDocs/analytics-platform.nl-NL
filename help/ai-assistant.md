@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
+source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -32,6 +32,10 @@ Voorbeelden van vragen over concepten zijn:
 * Wanneer wordt Customer Journey Analytics het beste voorgeschreven?
 * Hoe stel ik een gegevensweergave in?
 
+Vragen die buiten het toepassingsgebied van de Customer Journey Analytics vallen, zoals vragen over andere producten van de Adobe zoals Adobe Target en de Adobe Creative Cloud Suite, kunnen niet worden beantwoord.
+
+AI Assistant voor Customer Journey Analytics is beschikbaar voor alle productlagen.
+
 ## Productkennis {#knowledge}
 
 Het model voor het opvragen van productkennis is opgeleid voor Customer Journey Analytics. Andere mogelijkheden, zoals gegevensanalyse, zullen op een recentere datum worden uitgevoerd.
@@ -41,10 +45,6 @@ Het model voor het opvragen van productkennis is opgeleid voor Customer Journey 
 | Aanbevolen lessen | <ul><li>Wat is het verschil tussen Adobe Analytics en Customer Journey Analytics?</li><li>Hoe bouwt ik een berekende metrisch?</li></ul> |
 | Openbare detectie | <ul><li>Hoe kan ik een project van de Werkruimte uitvoeren?</li><li>Hoe kan ik dubbele werkruimtecomponenten vinden?</li></ul> |
 | Problemen oplossen | <ul><li>Hoe lang duurt het voordat gegevens in CJA komen?</li><li>Hoeveel afgeleide gebieden kan ik in een Customer Journey Analytics verbinding hebben?</li></ul> |
-
-Vragen die buiten het toepassingsgebied van de Customer Journey Analytics vallen, zoals vragen over andere producten van de Adobe zoals Adobe Target en de Adobe Creative Cloud Suite, kunnen niet worden beantwoord.
-
-AI Assistant voor Customer Journey Analytics is beschikbaar voor alle productlagen.
 
 ## Toegang tot functies
 
