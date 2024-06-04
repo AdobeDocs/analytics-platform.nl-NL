@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
+source-git-commit: f73e7e9be8593c3bbcad02925ab8b525694a4a15
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door 
 A [productprofielbeheer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in Admin Console volgen:
    1. Navigeren naar [!UICONTROL Admin Console] > [!UICONTROL Products and services] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] > [!UICONTROL Edit Reporting Tools].
    1. Voeg &quot;AI Assistant: Product Knowledge&quot; toe.
+      ![Toestemming toevoegen](assets/image.png)
 
 ## De Hulp van AI van de toegang in de UI van de Customer Journey Analytics
 
