@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: dcd7484a98363a6a818b59e9e183f699eecc1ed4
+source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Huidige Adobe Customer Journey Analytics-releaseopmerkingen (mei 2024)
 
-**Laatste update**: 21 mei 2024
+**Laatste update**: 4 juni 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 15 mei 2024 tot en met juni 2024. Adobe Customer Journey Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -22,7 +22,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 15 mei 2024 tot en m
 | ----------- | ---------- | ------- | ---- |
 | **BI Extension** | De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension) | | donderdag 15 mei 2024 |
 | **Soorten publiek wordt gepubliceerd naar een nieuwe sectie &quot;Soorten publiek&quot; in Experience Platform** | Soorten publiek die vanuit de Customer Journey Analytics worden gepubliceerd, zijn nu beschikbaar in de nieuwe sectie &quot;Soorten publiek&quot; in Adobe Experience Platform.<p>Eerder waren publiek dat vanuit Customer Journey Analytics werd gepubliceerd, beschikbaar in Experience Platform onder de sectie &quot;Segmenten&quot;.</p><p>Deze verbetering biedt de volgende voordelen:</p><ul><li>Het publiek heeft niet langer een vertraging van 1 uur voordat het in het Experience Platform wordt weergegeven; het zijn pas seconden nadat het is gepubliceerd.</li><li>De soorten publiek kunnen in Experience Platform worden gesorteerd door de kolom &quot;Oorsprong&quot;te gebruiken, die de toepassing toont waarvan het publiek oorspronkelijk werd gepubliceerd.</li><li>Met de filter- en sorteeropties in het Experience Platform kunt u sneller het desbetreffende publiek vinden.</li></ul> <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> |  | Eind mei tot begin juni 2024 |
-| **AI Assistant voor Customer Journey Analytics** | Staat u toe om natuurlijk-taalvragen in de UI van de Customer Journey Analytics te stellen en antwoorden te krijgen die op de documentatie van de Customer Journey Analytics worden gebaseerd. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | | vrijdag 30 mei 2024 |
+| **AI Assistant voor Customer Journey Analytics** | Staat u toe om natuurlijk-taalvragen in de UI van de Customer Journey Analytics te stellen en antwoorden te krijgen die op de documentatie van de Customer Journey Analytics worden gebaseerd. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | | vrijdag 6 juni 2024 |
 | **Streaming media: Webgegevens naar Adobe Experience Platform Edge Network verzenden met de Web SDK** | U kunt de SDK van het Web van Adobe Experience Platform nu gebruiken om het stromen de Webgegevens van Media naar de Edge Network van Adobe Experience Platform te verzenden, die u toestaat om meer gepersonaliseerde campagnes te bouwen en meer gepersonaliseerde inhoud te verstrekken, resulterend in meer het volgen gegevens om over te melden.<p>Deze verbetering verstrekt een verenigde inzamelingsmethode voor Webimplementaties over alle oplossingen van het Platform, zoals Customer Journey Analytics, rt-CDP, AJO, en Gebeurtenis door:sturen. Eerder was de enige manier om webgegevens van Streaming media naar Edge Network te verzenden met de Media Edge API. <p>[Meer informatie](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | donderdag 29 mei 2024 |
 | **Afgeleide velden - wiskundige functie** | Hiermee kunt u eenvoudige wiskundige operatoren uitvoeren in gegevensweergaven om vragen over uw gebruikers te beantwoorden. U kunt bijvoorbeeld producten, garanties en verzendkosten combineren. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | | donderdag 5 juni 2024 |
 | **Accounts en locaties delen die worden gebruikt voor exporteren en importeren** | Gebruikers kunnen de accounts en locaties die ze maken nu beschikbaar maken voor alle gebruikers in hun organisatie. Alleen account- en locatie-eigenaars en systeembeheerders kunnen accounts en locaties bewerken en verwijderen.<p>Eerder konden accounts en locaties alleen worden gebruikt door de gebruiker die ze heeft gemaakt.</p><p>Deze instellingen zijn beschikbaar wanneer gebruikers cloudexportaccounts configureren en exportlocaties voor de cloud configureren.</p> <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | donderdag 12 juni 2024 | maandag 30 juni 2024 |

@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
+source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,15 @@ Voorbeelden van vragen over concepten zijn:
 * Wanneer wordt Customer Journey Analytics het beste voorgeschreven?
 * Hoe stel ik een gegevensweergave in?
 
+## Productkennis {#knowledge}
+
 Het model voor het opvragen van productkennis is opgeleid voor Customer Journey Analytics. Andere mogelijkheden, zoals gegevensanalyse, zullen op een recentere datum worden uitgevoerd.
+
+| Productkennis | Voorbeelden |
+| --- | --- |
+| Aanbevolen lessen | <ul><li>Wat is het verschil tussen Adobe Analytics en Customer Journey Analytics?</li><li>Hoe bouwt ik een berekende metrisch?</li></ul> |
+| Openbare detectie | <ul><li>Hoe kan ik een project van de Werkruimte uitvoeren?</li><li>Hoe kan ik dubbele werkruimtecomponenten vinden?</li></ul> |
+| Problemen oplossen | <ul><li>Hoe lang duurt het voordat gegevens in CJA komen?</li><li>Hoeveel afgeleide gebieden kan ik in een Customer Journey Analytics verbinding hebben?</li></ul> |
 
 Vragen die buiten het toepassingsgebied van de Customer Journey Analytics vallen, zoals vragen over andere producten van de Adobe zoals Adobe Target en de Adobe Creative Cloud Suite, kunnen niet worden beantwoord.
 
@@ -46,7 +54,10 @@ In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door 
 
 * **Contractuele toegang**: Als u geen AI Assistant kunt gebruiken, neemt u contact op met de beheerder of de Adobe-accountvertegenwoordiger van uw organisatie. Voordat AI Assistant door uw organisatie kan worden gebruikt, moet uw bedrijf akkoord gaan met bepaalde wettelijke voorwaarden die betrekking hebben op GenAI.
 
-* **Machtigingen**: De [!UICONTROL Adobe Admin Console] [!UICONTROL Reporting Tools] De toestemming van &quot;AI Medewerker: van de Kennis van het Product&quot;bepaalt toegang tot dit hulpmiddel. Deze toestemming zal medio Mei aan de sectie van Hulpmiddelen van de Rapportering worden toegevoegd. Een productprofielbeheerder moet een [productprofiel](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in Admin Console met deze machtiging en gebruikers handmatig aan dit profiel toevoegen.
+* **Machtigingen**: In [!UICONTROL Adobe Admin Console]de [!UICONTROL Reporting Tools] De toestemming van &quot;AI Medewerker: van de Kennis van het Product&quot;bepaalt toegang tot dit hulpmiddel.
+A [productprofielbeheer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in Admin Console volgen:
+   1. Navigeren naar [!UICONTROL Admin Console] > [!UICONTROL Products and services] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] > [!UICONTROL Edit Reporting Tools].
+   1. Voeg &quot;AI Assistant: Product Knowledge&quot; toe.
 
 ## De Hulp van AI van de toegang in de UI van de Customer Journey Analytics
 
