@@ -4,9 +4,10 @@ description: Beschrijft hoe te om gegevens in datasets van specifieke B2B raadpl
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ffa57c19174bf1618957efe7191c8486c8e3a900
+exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
+source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -17,10 +18,10 @@ Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekenin
 
 Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B raadplegingsschema&#39;s, die op de volgende klassen worden gebaseerd:
 
-* XDM Zakelijke account Person Relatie
-* XDM Business Opportunity Person Relatie
-* Leden van XDM Business Marketing List
-* XDM Business Campaign-leden
+* [XDM Zakelijke account Person Relatie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM Business Opportunity Person Relatie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Leden van XDM Business Marketing List](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM Business Campaign-leden](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 Om transformatie voor zulk een dataset toe te laten:
 
