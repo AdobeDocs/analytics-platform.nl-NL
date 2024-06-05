@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '5708'
+source-wordcount: '6438'
 ht-degree: 3%
 
 ---
@@ -160,13 +160,193 @@ Om snel een afgeleid gebied voor specifieke gebruiksgevallen tot stand te brenge
 
 ### Marketingkanalen
 
-Dit malplaatje wordt gevormd om te gebruiken [URL-parse](#dnl-url-parse) en [Hoofdletter als](#dnl-case-when) werkt meerdere keren om de juiste waarden van een URL op te halen. De logica wordt dan toegepast op deze waarden om URL aan een specifiek marketing kanaal te associëren.
+Deze functiesjabloon gebruikt een verzameling regels om marketingkanalen te maken.
 
 +++ Details
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
 
-![Screenshot van de de regelbouwer van het het kanaalmalplaatje van de Marketing](assets/marketing-channel-template.png)
+![Screenshot van de de regelbouwer van het het kanaalmalplaatje van de Marketing](assets/function-template-marketing-channel-template.png)
+
++++
+
+### Bounces
+
+Deze functiemalplaatje gebruikt een inzameling van regels om plaatsgrenzen te identificeren.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Bounces-bouwer](assets/function-template-bounces.png)
+
++++
+
+### Combineren met meerdere Dimensionen
+
+Deze functiesjabloon combineert twee waarden in één.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Schermafbeelding van de bouwer voor meerdere Dimensionen combineren](assets/function-template-multi-dimension-combine.png)
+
++++
+
+### Vriendelijke naam gegevensset
+
+Deze functiesjabloon bevat een leesbare naam voor de gegevensset.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Friendly de regelbuilder van de Naam Dataset](assets/function-template-friendly-dataset-name.png)
+
++++
+
+### Paginanaam van URL
+
+Deze functiesjabloon maakt een eenvoudige paginanaam.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Page Name van URL rule builder](assets/function-template-page-name-from-url.png)
+
++++
+
+### Seizoen vakantie
+
+Deze functiesjabloon classificeert belangrijke tijden van het jaar.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Schermafbeelding van de bouwer van de regel voor vakantiegraad](assets/function-template-holiday-season.png)
+
++++
+
+### Maandelijkse doelstellingen
+
+Deze functiesjabloon stelt aangepaste maandelijkse doelen in.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Schermafbeelding van de bouwer van de regel Maandelijkse doelen](assets/function-template-monthly-goals.png)
+
++++
+
+### Alle waarden ophalen in de lijst met gescheiden waarden
+
+Deze functiesjabloon zet een beperkte lijst om in een array.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Get All Values in Gescheiden de bouwer van de lijstregel](assets/function-template-get-all-values-in-delimited-list.png)
+
++++
+
+### Eerste waarde ophalen in lijst met scheidingstekens
+
+Deze functiesjabloon haalt de eerste waarde op in een lijst met scheidingstekens.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Get First Value in Delimited List rule builder](assets/function-template-get-first-value-in-delimited-list.png)
+
++++
+
+### Laatste waarde ophalen in lijst met scheidingstekens
+
+Deze functiesjabloon haalt de laatste waarde in een lijst met scheidingstekens op.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Get Last Value in Delimited List rule builder](assets/function-template-get-last-value-in-delimited-list.png)
+
++++
+
+### Domeinnaam
+
+Deze functiesjabloon extraheert de domeinnaam met behulp van een reguliere expressie.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Schermafbeelding van de domeinnaamregelbuilder](assets/function-template-domain-name.png)
+
++++
+
+### Parameter querytekenreeks ophalen
+
+Deze functiesjabloon extraheert querytekenreekswaarden.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Get de regelbouwer van de Parameter van het Koord van de Vraag](assets/function-template-get-query-string-parameter.png)
+
++++
+
+### Overgangsveld
+
+Deze functiesjabloon gaat van het ene veld naar het andere.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de opbouwfunctie voor de regels voor overgangen](assets/function-template-transition-field.png)
+
++++
+
+### Eenvoudige botdetectie
+
+Deze functiesjabloon implementeert de identificatie van lichtbot.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Simple Bot Detection rule builder](assets/function-template-simple-bot-detection.png)
+
++++
+
+### Koppeling afsluiten
+
+Deze functiesjabloon identificeert de laatste koppeling waarop in een sessie is geklikt.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Exit Link Rule builder](assets/function-template-exit-link.png)
+
++++
+
+### Koppeling downloaden
+
+Deze functiesjabloon markeert algemene downloadkoppelingen.
+
++++ Details
+
+Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [Functieverwijzing](#function-reference) voor meer informatie .
+
+![Screenshot van de Download Link Rule builder](assets/function-template-download-link.png)
 
 +++
 
