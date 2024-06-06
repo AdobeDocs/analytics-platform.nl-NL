@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
+source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
 workflow-type: tm+mt
-source-wordcount: '6837'
+source-wordcount: '7224'
 ht-degree: 2%
 
 ---
@@ -435,7 +435,7 @@ Als uw site de volgende voorbeeldgebeurtenissen ontvangt, bevat [!UICONTROL Refe
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |  |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -1002,6 +1002,85 @@ U definieert een `Product Names` afgeleid veld. U gebruikt de [!UICONTROL LOWERC
 
 +++
 
+<!-- MATH -->
+
+### Math
+
+Gebruik wiskundige basisoperatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen en verhogen tot een macht) op numerieke velden.
+
++++ Details
+
+## Specificatie {#math-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>Numeriek</li></ul> | <ul><li>Een of meerdere numerieke velden</li><li>Een of meer operatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen, verhogen tot een macht)</li><li>Invoerwaarde gebruiker</li></ul> | <ul><li>`+` (toevoegen)</li><li>`-` (verwijderen)</li><li>`*` (vermenigvuldigen)</li><li>`/` (delen)</li><li>`^` (aan macht brengen)</li></ul> | <ul><li>25 bewerkingen per afgeleid veld</li><li>5 Math-functies per afgeleid veld</li></ul> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#math-uc}
+
+Door de inflatie wilt u de inkomstenaantallen van ingeslikte CRM-gegevens corrigeren met een inflatie van 5%.
+
+### Gegevens voor {#math-uc-databefore}
+
+| CRM-id | Jaarlijkse inkomsten |
+|---|---:|
+| 1234 | 35.070.000 |
+| 4133 | 7.500.000 |
+| 8110 | 10.980 |
+| 2201 | 42.620 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#math-uc-derivedfield}
+
+U definieert een `Corrected Annual Revenue` afgeleid veld. U gebruikt de [!UICONTROL MATH] functie om een regel te definiëren die het oorspronkelijke jaarlijkse inkomstenaantal vermenigvuldigt met 1,05.
+
+![Schermafbeelding van de regel Math](assets/math.png)
+
+
+### Gegevens na {#math-uc-dataafter}
+
+| CRM-id | Gecorrigeerde jaarinkomsten |
+|---|---:|
+| 1234 | 36.823.500 |
+| 4133 | 7.875.000 |
+| 8110 | 11 529 00 |
+| 2201 | 44.751 |
+
+{style="table-layout:auto"}
+
+## Meer informatie {#math-more-info}
+
+Een formule maken:
+
+1. U begint gewoon te typen in het veld Formule en in numerieke velden die overeenkomen met wat u typt, worden weergegeven in een pop-upmenu. U kunt ook een numeriek veld slepen en neerzetten vanuit de beschikbare velden in het linkerdeelvenster.
+   ![Mathemagegevens 1](assets/math-more-info-1.png)
+
+1. De operand toevoegen (bijvoorbeeld `*` om te vermenigvuldigen) gevolgd door een ander veld of een statische waarde. U kunt haakjes gebruiken om complexere formules te definiëren.
+
+1. Een statische waarde invoegen (bijvoorbeeld `1.05`), typt u de waarde en selecteert u **[!UICONTROL Add *x *als een statische waarde]**of **[!UICONTROL Add -*x* als een negatieve statische waarde]** in het pop-upmenu.
+   ![Mathemagegevens 2](assets/math-more-info-2.png)
+
+1. Een groen vinkje ![Vinkje](./assets/checkmark.svg)</span> geeft aan of je wiskundige formule geldig is, anders wordt er een waarschuwing weergegeven <span style="color:red">![Waarschuwing](./assets/alert.svg)</span> en het bericht <span style="color:#ea3829">[!UICONTROL Invalid formula expression].</span>
+   ![Math Meer informatie 3](assets/math-more-info-3.png)
+
+Er zijn enkele belangrijke overwegingen wanneer u werkt met statische getallen in het dialoogvenster [!UICONTROL MATH] functie:
+
+- Statische waarden moeten aan een veld worden gekoppeld. Als u bijvoorbeeld de [!UICONTROL MATH] functie met alleen statische velden wordt niet ondersteund.
+- U kunt de operator voor verhogen tot maximaal energieverbruik (`ˆ`) op een statische waarde.
+- Als u meerdere statische waarden gebruikt in een formule, moeten deze statische waarden met haakjes worden gegroepeerd, anders is de formule niet geldig. Bijvoorbeeld:
+
+   - Deze formule retourneert een fout.
+     ![Mathemagegevens 4](assets/math-more-info-4.png)
+
+   - Deze formule is geldig.
+     ![Info over wiskunde 5](assets/math-more-info-5.png)
+
++++
+
+
 <!-- MERGE FIELDS -->
 
 ### Velden samenvoegen
@@ -1544,7 +1623,9 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 | <p>Zoeken en vervangen</p> | <ul><li>2 Functies zoeken en vervangen per afgeleid veld</li></ul> |
 | <p>Opzoeken</p> | <ul><li>5 Opzoekfuncties per afgeleid veld</li></ul> |
 | <p>Kleine letters</p> | <ul><li>2 Kleine letters voor functies per afgeleid veld</li></ul> |
+| <p>Math</p> | <ul><li>25 bewerkingen per afgeleid veld</li><li>5 Math-functies per afgeleid veld</li></ul> |
 | <p>Velden samenvoegen</p> | <ul><li>2 Veldfuncties samenvoegen per afgeleid veld</li></ul> |
+| <p>Volgende of Vorige</p> | <ul><li>3 Volgende of Vorige functies per afgeleid veld</li></ul> |
 | <p>Regex Replace</p> | <ul><li>1 Regex-functie vervangen per afgeleid veld</li></ul> |
 | <p>Splitsen</p> | <ul><li>5 Gesplitste functies per afgeleid veld</li></ul> |
 | <p>Verkleinen</p> | <ul><li>1 Bijsnijdfunctie per afgeleid veld</li></ul> |
