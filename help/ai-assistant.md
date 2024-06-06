@@ -4,11 +4,9 @@ title: AI Assistant voor Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-hide: true
-hidefromtoc: true
-source-git-commit: f73e7e9be8593c3bbcad02925ab8b525694a4a15
+source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -16,11 +14,7 @@ ht-degree: 0%
 
 # AI Assistant voor Adobe Customer Journey Analytics
 
->[!NOTE]
->
->AI Assistant voor Customer Journey Analytics bevindt zich momenteel in bètaversie. De functie en de bijbehorende documentatie kunnen worden gewijzigd.
-
-De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
+De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of het begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie is. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
 
 De AI Assistant in Customer Journey Analytics is getraind op basis van de Adobe Experience League-documentatie. Als een vraag wordt gesteld, antwoordt AI Assistant met een handig antwoord waarmee u snel kunt leren.
 
@@ -54,8 +48,7 @@ In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door 
 
 * **Contractuele toegang**: Als u geen AI Assistant kunt gebruiken, neemt u contact op met de beheerder of de Adobe-accountvertegenwoordiger van uw organisatie. Voordat AI Assistant door uw organisatie kan worden gebruikt, moet uw bedrijf akkoord gaan met bepaalde wettelijke voorwaarden die betrekking hebben op GenAI.
 
-* **Machtigingen**: In [!UICONTROL Adobe Admin Console]de [!UICONTROL Reporting Tools] De toestemming van &quot;AI Medewerker: van de Kennis van het Product&quot;bepaalt toegang tot dit hulpmiddel.
-A [productprofielbeheer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in Admin Console volgen:
+* **Machtigingen**: In [!UICONTROL Adobe Admin Console]de [!UICONTROL Reporting Tools] De toestemming van &quot;AI Medewerker: van de Kennis van het Product&quot;bepaalt toegang tot dit hulpmiddel. A [productprofielbeheer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in Admin Console volgen:
    1. Navigeren naar [!UICONTROL Admin Console] > [!UICONTROL Products and services] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] > [!UICONTROL Edit Reporting Tools].
    1. Voeg &quot;AI Assistant: Product Knowledge&quot; toe.
       ![Toestemming toevoegen](assets/image.png)
