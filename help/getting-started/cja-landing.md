@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
+source-git-commit: 344dfb2e4e5191fb30ff4dd4ed35e45fb7b6cfd1
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,24 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie van de Customer Journey Analytics! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](../release-notes/latest.md). Ga naar [pagina met documentupdates](../release-notes/doc-changes.md) om up-to-date te blijven met de meest recente wijzigingen.
 
 >[!BEGINTABS]
+
+>[!TAB AI-assistent]
+
+De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB B2B-zoekopdrachten]
+
+Als deel van het vormen van een verbinding, kunt u datasets voor specifieke B2B raadplegingsschema&#39;s omzetten om op persoon-gebaseerde raadplegingen op B2B- gegevens beter te steunen.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
+
+>[!TAB Afgeleide velden]
+
+Er zijn nieuwe afgeleide veldfuncties (Math, Next of Previous) en aanvullende functiesjablonen (bijvoorbeeld Stuiterwaarden, Maandelijkse doelen, Eenvoudige botdetectie en andere) beschikbaar.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB BI-extensie*]
 
@@ -41,35 +59,17 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 -->
 
-
->[!TAB Nieuwe documentatie]
-
-Nieuwe documentatie is nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteren **[!UICONTROL Learn more]** voor deze en andere documentatieupdates.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
-
 >[!TAB Voorspelling]
 
 Prognosering is een Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
 
->[!TAB Analyse met instructies* - Bewaarpercentages]
+>[!TAB Nieuwe documentatie]
 
-Een nieuw weergavetype dat het percentage weergeeft van gebruikers die na hun eerste betrokkenheid binnen het gewenste datumbereik terugkeren. De horizontale as geeft het aantal dagen weer sinds de eerste betrokkenheid van een gebruiker. De verticale as geeft het percentage weer van de gebruikers die zich opnieuw engageren.
+Nieuwe documentatie is nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteren **[!UICONTROL Learn more]** voor deze en andere documentatieupdates.
 
-[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
-
-<span style="color:gray">*_Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is._</span>
-
-
->[!TAB Analyse met instructies* - Trendlines]
-
-Trendline-overlays zijn nu beschikbaar in de weergave Gebruik, zodat een duidelijker patroon in de gegevens kan worden weergegeven. De beschikbare typen trendlines zijn lineair, logaritmisch en bewegend gemiddelde.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
-
-<span style="color:gray">*_Analyse met instructies maakt deel uit van het Adobe Product Analytics, dat een betaalde aanvulling op de Customer Journey Analytics is._</span>
+[![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!ENDTABS]
 
