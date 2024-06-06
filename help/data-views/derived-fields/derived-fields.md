@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
 workflow-type: tm+mt
-source-wordcount: '6438'
-ht-degree: 3%
+source-wordcount: '6837'
+ht-degree: 2%
 
 ---
 
@@ -435,7 +435,7 @@ Als uw site de volgende voorbeeldgebeurtenissen ontvangt, bevat [!UICONTROL Refe
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` | |
+| `https://google.com` |  |
 
 {style="table-layout:auto"}
 
@@ -1067,6 +1067,78 @@ U moet hetzelfde type velden selecteren in een regel voor het samenvoegen van ve
 
 +++
 
+
+<!-- NEXT OR PREVIOUS -->
+
+### Volgende of Vorige
+
+Neemt een gebied als input en lost de volgende of vorige waarde voor dat gebied binnen het werkingsgebied van de zitting of het gebruik op. Dit geldt alleen voor de velden Bezoek en Gebeurtenis.
+
++++ Details
+
+## Specificatie {#prevornext-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Method]:<ul><li>Vorige waarde</li><li>Volgende waarde</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Persoon</li><li>Sessie</li></ul></li><li>[!UICONTROL Index]:<ul><li>Numeriek</li></ul><li>[!UICONTROL Include repeats]:<ul><li>Boolean</li></ul></li><li>[!UICONTROL Include 'No Values']:<ul><li>Boolean</li></ul></li></ul> | <p>N.v.t.</p> | <p>3 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#prevornext-uc1}
+
+U wilt begrijpen wat de **next** of **vorige** De waarde is van de gegevens die u ontvangt, rekening houdend met herhaalde waarden.
+
+### Gegevens {#prevornext-uc1-databefore}
+
+**Voorbeeld 1 - Afhandeling omvat herhalingen**
+
+| Ontvangen gegevens | Volgende waarde<br/>Sessie<br/>Index = 1<br/>Inclusief herhalingen | Volgende waarde<br/>Sessie<br/>Index = 1<br/>Geen herhalingen opnemen | Vorige waarde<br/>Sessie<br/>Index = 1<br/>Inclusief herhalingen | Vorige waarde<br/>Sessie<br/>Index = 1<br/>Geen herhalingen opnemen |
+|---|---|---|---|---|
+| thuis | thuis | zoeken | *Geen waarde* | *Geen waarde* |
+| thuis | zoeken | zoeken | thuis | *Geen waarde* |
+| zoeken | zoeken | productdetails | thuis | thuis |
+| zoeken | productdetails | productdetails | zoeken | thuis |
+| productdetails | zoeken | zoeken | zoeken | zoeken |
+| zoeken | productdetails | productdetails | productdetails | productdetails |
+| productdetails | zoeken | zoeken | zoeken | zoeken |
+| zoeken | zoeken | *Geen waarde* | productdetails | productdetails |
+| zoeken | *Geen waarde* | *Geen waarde* | zoeken | productdetails |
+
+{style="table-layout:auto"}
+
+**Voorbeeld 2 - De behandeling omvat herhalingen met lege waarden in ontvangen gegevens**
+
+| Ontvangen gegevens | Volgende waarde<br/>Sessie<br/>Index = 1<br/>Inclusief herhalingen | Volgende waarde<br/>Sessie<br/>Index = 1<br/>Geen herhalingen opnemen | Vorige waarde<br/>Sessie<br/>Index = 1<br/>Inclusief herhalingen | Vorige waarde<br/>Sessie<br/>Index = 1<br/>Geen herhalingen opnemen |
+|---|---|---|---|---|
+| thuis | thuis | zoeken | *Geen waarde* | *Geen waarde* |
+| thuis | thuis | zoeken | thuis | *Geen waarde* |
+| thuis | zoeken | zoeken | thuis | *Geen waarde* |
+| zoeken | zoeken | productdetails | thuis | thuis |
+|   |   |   |   |   |
+| zoeken | zoeken | productdetails | zoeken | thuis |
+| zoeken | productdetails | productdetails | zoeken | thuis |
+| productdetails | *Geen waarde* | *Geen waarde* | zoeken | zoeken |
+|   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#prevnext-uc1-derivedfield}
+
+U definieert een `Next Value` of `Previous value` afgeleid veld. U gebruikt de [!UICONTROL NEXT OR PREVIOUS] functie om een regel te definiëren die de [!UICONTROL Data received] veld, selecteren [!UICONTROL Next value] of [!UICONTROL Previous value] als [!UICONTROL Method], [!UICONTROL Session] als Bereik en stel de waarde van [!UICONTROL Index] tot `1`.
+
+![Schermafbeelding van de regel Velden samenvoegen](assets/prevnext-next.png)
+
+## Meer informatie {#prevnext-moreinfo}
+
+U kunt alleen velden selecteren die behoren tot de tabel Visit of Event.
+
+[!UICONTROL Include repeats] bepaalt hoe herhalende waarden voor de [!UICONTROL NEXT OR PREVIOUS] functie.
+
+- Neem herhalingen van het uiterlijk en de volgende of vorige waarden op. Indien [!UICONTROL Include Repeats] wordt geselecteerd, zal het om het even welke opeenvolgende herhalingen van volgende of vorige waarden van de huidige slag negeren.
+
+- Rijen zonder (lege) waarden voor een geselecteerd veld hebben geen volgende of vorige waarden die zijn geretourneerd als onderdeel van het dialoogvenster [!UICONTROL NEXT OR PREVIOUS] functie-uitvoer.
+
++++
 
 <!-- REGEX REPLACE -->
 
