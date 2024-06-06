@@ -4,9 +4,9 @@ title: AI Assistant voor Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
+source-git-commit: 3ed6eabae8607a10920c8917a818f0497b337893
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ In deze eerste versie wordt de toegang tot de functie AI Assistant bepaald door 
 1. (Optioneel) Als u bronnen wilt weergeven, klikt u op **[!UICONTROL Show Sources]** en worden de documentatiebron(nen) weergegeven die het antwoord heeft meegedeeld.
 
 1. (Optioneel) U kunt ook een duimbreed- of duimbreed-stem uitbrengen over de wenselijkheid van een bepaald antwoord.
+
+1. (Optioneel) U kunt het antwoord op onjuiste of schadelijke inhoud markeren.
