@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 83696cb3289ab564ebc08ee3d16e82d9fb92ebda
+source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
 workflow-type: tm+mt
-source-wordcount: '3698'
+source-wordcount: '3712'
 ht-degree: 6%
 
 ---
@@ -20,8 +20,9 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2024** | |
-| Gegevenssets transformeren voor B2B-zoekopdrachten | Documentatie over hoe u ondersteuning kunt bieden [persoonlijke raadplegingen op B2B-gegevens](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes), is de transformatie van B2B raadplegingsdatasets vereist. |
-| Afgeleide veldfuncties en functiesjablonen | Documentatie over de aanvullende afgeleide veldfuncties ([Math](/help/data-views/derived-fields/derived-fields.md#math), [Volgende of Vorige](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) en [functiesjablonen](/help/data-views/derived-fields/derived-fields.md#function-templates). |
+| AI-assistent | Toegevoegd [documentatie](../ai-assistant.md) in de AI Assistant voor Customer Journey Analytics. |
+| Gegevenssets transformeren voor B2B-zoekopdrachten | Extra documentatie over hoe te om te steunen [persoonlijke raadplegingen op B2B-gegevens](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes), is de transformatie van B2B raadplegingsdatasets vereist. |
+| Afgeleide veldfuncties en functiesjablonen | Toegevoegde documentatie over de aanvullende afgeleide veldfuncties ([Math](/help/data-views/derived-fields/derived-fields.md#math), [Volgende of Vorige](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) en [functiesjablonen](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Mei 2024** | |
 | Doelintegratie | Toegevoegd [artikel naar Adobe integratie sectie](/help/integrations/cja4t.md) op hoe te om Doel met Customer Journey Analytics te integreren. |
 | Vereiste informatie bij het exporteren van Customer Journey Analytics-rapporten naar het Google Cloud Platform terwijl er beperkingen van het organisatiebeleid gelden | De Adobe Cloud Platform-organisatie-id is toegevoegd aan de [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md) documentatie voor het exporteren van rapporten van Customers Journey Analytics naar Google Cloud Platform. <p>Deze informatie is alleen vereist voor organisaties die [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |

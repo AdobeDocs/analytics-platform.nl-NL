@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 344dfb2e4e5191fb30ff4dd4ed35e45fb7b6cfd1
+source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Als deel van het vormen van een verbinding, kunt u datasets voor specifieke B2B 
 
 >[!TAB Afgeleide velden]
 
-Er zijn nieuwe afgeleide veldfuncties (Math, Next of Previous) en aanvullende functiesjablonen (bijvoorbeeld Stuiterwaarden, Maandelijkse doelen, Eenvoudige botdetectie en andere) beschikbaar.
+Nieuwe afgeleide veldfuncties (Math, Next of Previous) en extra functiesjablonen (zoals Stuiterwaarden, Naam van vriendelijke gegevensset, Seizoen voor vakantie, Maandelijkse doelen, Eenvoudige botdetectie en andere) zijn nu beschikbaar.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -67,7 +67,7 @@ Prognosering is een Analysis Workspace-functie voor het voorspellen van een stan
 
 >[!TAB Nieuwe documentatie]
 
-Nieuwe documentatie is nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteren **[!UICONTROL Learn more]** voor deze en andere documentatieupdates.
+De nieuwe documentatiesecties zijn nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteren **[!UICONTROL Learn more]** voor deze en andere documentatieupdates.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -105,11 +105,12 @@ Begin met het lezen van het materiaal in de koppelingen hieronder om uzelf vertr
     </tr>
 </table>
 
+
 ## Documentatie verkennen
 
 Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe u uw gegevens in de oplossing kunt krijgen en deze gegevens en de daaruit voortvloeiende analyse en rapporten kunt voorbereiden, bekijken, analyseren en democratiseren.
 
-<table style="table-layout:auto">
+<table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
@@ -145,11 +146,12 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Productbeschrijving Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics add-on) productbeschrijving</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics-API's</a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Productbeschrijving Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics add-on) productbeschrijving</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics-API's</a> - <a href="/help/ai-assistant.md">AI-assistent</a>
 </td>
 <td><strong>Gegevensinname</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Overzicht</a> - <a href="/help/data-ingestion/analytics.md">Analyse</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Bronnen</a> - <a href="/help/data-ingestion/serverapi.md">Server-API</a>
 </td>
-</tr></table>
+</tr>
+</table>
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
