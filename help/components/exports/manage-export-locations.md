@@ -5,9 +5,9 @@ title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: cdf99e31790f089950de8063445b6264158131dd
+source-git-commit: 6e36885cfba60c808b9f069159670db6834fe41f
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
 ## Locaties bewerken
 
+Een locatie kan alleen worden bewerkt door de gebruiker die de locatie heeft gemaakt of door een systeembeheerder.
+
+Een locatie bewerken:
+
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 
 1. Selecteer de [!UICONTROL **Locaties**] tab.
@@ -95,6 +99,10 @@ Een locatie verwijderen:
 1. Selecteren [!UICONTROL **Verwijderen**] nogmaals ter bevestiging.
 
 ## Accounts bewerken
+
+Een account kan alleen worden bewerkt door de gebruiker die het heeft gemaakt of door een systeembeheerder.
+
+Een account bewerken:
 
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 

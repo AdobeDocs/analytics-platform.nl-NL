@@ -5,9 +5,9 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
+source-git-commit: 1bf36f60b0b3aec04bb1452e5f63f97051d9bb50
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1928'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven,
 
    Het dialoogvenster Locatie wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account. | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account. | | [!UICONTROL **Locatie beschikbaar maken voor alle gebruikers in uw organisatie**] | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md). <p>Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de locatie kunnen gebruiken.</p> <p>Houd rekening met het volgende wanneer u locaties deelt:</p><ul><li>Locaties die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde locaties kunnen alleen door de eigenaar van de locatie worden bewerkt.</li><li>Locaties kunnen alleen worden gedeeld als de account waaraan de locatie is gekoppeld, ook wordt gedeeld.</li></ul> | | [!UICONTROL **Locatieaccount**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md). |
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 

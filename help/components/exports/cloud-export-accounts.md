@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 9a0e6ed66a20eac1fa5f94efd378842a579826c0
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,28 @@ Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven,
 1. Zorg ervoor dat u voldoet aan de [minimumvereisten](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) voor het exporteren van rapporten naar de cloud.
 1. Selecteer in Customer Journey Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Uitvoer**].
 1. Op de [!UICONTROL Exports] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
-1. Selecteren [!UICONTROL **Account toevoegen**].
 
    ![Hiermee exporteert u paginaopties waarmee een ander account wordt weergegeven](assets/account-add.png)
+
+1. Selecteren [!UICONTROL **Account toevoegen**].
 
    Het dialoogvenster Account toevoegen wordt weergegeven.
 
 1. In de [!UICONTROL **Naam van locatieaccount**] veld, geeft u een naam voor het locatieaccount op. Deze naam wordt weergegeven wanneer u een locatie maakt.
 
 1. In de [!UICONTROL **Beschrijving van locatieaccount**] in het veld een korte beschrijving van de account geven om deze te kunnen onderscheiden van andere accounts van hetzelfde type account.
+
+1. Schakel de optie in om [!UICONTROL **Account ter beschikking stellen van alle gebruikers in uw organisatie**] als u andere gebruikers in uw organisatie wilt toestaan om de account te gebruiken.
+
+   Houd rekening met het volgende wanneer u accounts deelt:
+
+   * Accounts die u deelt, kunnen niet worden verwijderd.
+
+   * Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.
+
+   * Iedereen kan een locatie voor de gedeelde account maken.
+
+   **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).
 
 1. In de [!UICONTROL **Accounttype**] selecteert u het type cloudaccount waarnaar u exporteert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en AEP Data Landing Zone.
 
