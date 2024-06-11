@@ -1,28 +1,28 @@
 ---
 title: Gegevens invoeren via de Adobe Experience Platform Web SDK
-description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en het Netwerk van de Rand in te voeren
+description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en de Edge Network in te voeren
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
 workflow-type: tm+mt
-source-wordcount: '3279'
+source-wordcount: '3221'
 ht-degree: 0%
 
 ---
 
 # Gegevens invoeren via de Adobe Experience Platform Web SDK
 
-In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van websites rechtstreeks in Adobe Experience Platform kunt invoeren met de Adobe Experience Platform Web SDK en Edge Network en deze gegevens vervolgens in de Customer Journey Analytics kunt gebruiken.
+In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van websites rechtstreeks in Adobe Experience Platform kunt invoeren met de Adobe Experience Platform Web SDK en Edge Network en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
 
 Hiervoor moet u:
 
 - **Een schema en gegevensset instellen** in Adobe Experience Platform om het model (schema) te bepalen van de gegevens die u wilt verzamelen en waar te om de gegevens (dataset) daadwerkelijk te verzamelen.
 
-- **Een gegevensstroom instellen** om het Adobe Experience Platform Edge Network te configureren om de verzamelde gegevens te routeren naar de gegevensset die u in Adobe Experience Platform hebt geconfigureerd.
+- **Een gegevensstroom instellen** om de Edge Network van Adobe Experience Platform te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
 
-- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw gegevenslaag op uw website. Vervolgens zorgt u ervoor dat de gegevens worden verzonden naar de gegevensstroom die op het Adobe Experience Platform Edge-netwerk is geconfigureerd.
+- **Tags gebruiken** om regels en gegevenselementen eenvoudig te configureren op basis van de gegevens in uw gegevenslaag op uw website. Dan zorg ervoor dat het gegeven wordt verzonden naar de datastream die op de Edge Network van Adobe Experience Platform wordt gevormd.
 
 - **Implementeren en valideren**. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen en publiceer deze live in uw productieomgeving als alles is gevalideerd.
 
@@ -200,7 +200,7 @@ Zie [UI-gids voor gegevensbestanden](https://experienceleague.adobe.com/docs/exp
 
 ## Een gegevensstroom instellen
 
-Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens verzonden naar het Adobe Experience Platform Edge Network. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
+Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens naar de Adobe Experience Platform-Edge Network verzonden. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
 
 In uw opstelling, wilt u de gegevens die u van de website verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
 
@@ -279,21 +279,7 @@ U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configur
 
 Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) voor meer informatie .
 
-U wilt ook opstelling de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud zodat kunt u Experience Cloud ID gemakkelijk gebruiken. De Experience Cloud ID Service identificeert personen in alle Adobe Experience Cloud-oplossingen.
-
-Om de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud te creëren en te vormen:
-
-1. Selecteren **[!UICONTROL Extensions]** in het linkerspoor.
-
-2. Selecteren **[!UICONTROL Catalog]** in de bovenste balk.
-
-3. Zoek naar of rol aan de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud **[!UICONTROL Install]** om het te installeren.
-
-   <img src="./assets/ecid-extension.png" width="35%"/>
-
-4. Laat alle configuraties standaard staan.
-
-5. Selecteren **[!UICONTROL Save]**.
+De SDK van het Web bevat de [!UICONTROL Adobe Experience Cloud ID Service] U hoeft ook de id-service-extensie niet aan de tag toe te voegen.
 
 #### **Gegevenselementen**
 
@@ -613,4 +599,4 @@ Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer info
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Eerst definieert u welke gegevens u wilt verzamelen (schema) en waar u deze wilt opslaan (dataset) in Adobe Experience Platform. Vervolgens hebt u een gegevensstroom geconfigureerd in het Edge Network om ervoor te zorgen dat gegevens naar die gegevensset kunnen worden doorgestuurd. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw website en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw website-volggegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
+>U hebt alle stappen uitgevoerd. Eerst definieert u welke gegevens u wilt verzamelen (schema) en waar u deze wilt opslaan (dataset) in Adobe Experience Platform. Vervolgens hebt u een gegevensstroom geconfigureerd op de Edge Network om ervoor te zorgen dat gegevens naar die gegevensset kunnen worden doorgestuurd. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw website en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw website-volggegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
