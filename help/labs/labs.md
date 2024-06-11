@@ -4,9 +4,9 @@ description: Voorproef prototypeprojecten voor Customer Journey Analytics
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
 role: User
-source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
+source-git-commit: fd033854a3b871c802c38c098d0907062a1c9c07
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # [!UICONTROL Labs] Handboek
 
 [!UICONTROL Labs] maakt het mogelijk sneller prototypen te maken van ideeën in een vroeg stadium. Het is een combinatie hulpmiddelen en processen die ontwikkeling doorzichtig, met een klantennadruk versnelt. Het staat gebruikers toe om met opkomende technologieën in wisselwerking te staan, waardevolle inzichten te ontdekken, en toekomstige eigenschapontwikkeling en prioriteiten te beïnvloeden. U kunt Labs gebruiken om vroege toegang tot de innovaties van Adobe Customer Journey Analytics te krijgen en om komende eigenschappen binnen de context van uw eigen zaken en gegevens te evalueren.
+
+>[!IMPORTANT]
+>
+>De Laboratoria van de Customer Journey Analytics is geen HIPAA-Klaar Dienst en kan niet worden gebruikt om het even welke Gevoelige Persoonlijke Gegevens, met inbegrip van Toegelaten Gegevens van de Gezondheid (zoals persoonlijke gezondheidsinformatie of PHI) te verwerken die uw organisatie anders in Customer Journey Analytics zou kunnen worden toegelaten.
 
 ## Vereisten
 
