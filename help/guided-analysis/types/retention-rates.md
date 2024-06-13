@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: f4a235d90ad44dbb192b74a03accc7ad4a39e986
+source-git-commit: 6b8d9abf7d807a1e19aa86386eb2dae9bb18f472
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 De **[!UICONTROL Retention rates]** Bekijk hoe gebruikers uw product in de loop van de tijd blijven gebruiken, zodat u beter kunt begrijpen welke producten op de markt zijn. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
-* De gebeurtenis van het begin: De eerste keer een gebruiker die met de begingebeurtenis binnen de datumwaaier wordt geëngageerd
-* Geretourneerde gebeurtenis: de meest recente tijd dat een gebruiker zich met de terugkeergebeurtenis binnen het geanalyseerde datumbereik bediende
+* Startgebeurtenis: de gebeurtenis die wordt gebruikt om gebruikers in aanmerking te laten komen voor opname in uw analyse.
+* Geretourneerde gebeurtenis: de gebeurtenis(sen) waarmee een gebruiker moet werken om te worden beschouwd als een terugkerende gebruiker in de analyse.
 
 In deze weergave vertegenwoordigt de x-as van de grafiek de tijd sinds de begingebeurtenis van een gebruiker en vertegenwoordigt de y-as het percentage gebruikers dat met de geretourneerde gebeurtenis(sen) werkt. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
