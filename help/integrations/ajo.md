@@ -4,7 +4,7 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -55,7 +55,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 | --- | --- | --- |
 | Reisnaam | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Componenttype: Dimension |
 | Naam en versie van reis | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | Componenttype: Dimension |
-| Naam van knooppunt | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Componenttype: Dimension |
+| Naam van knooppunt | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | Componenttype: Dimension |
 | Type knooppunt | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | Componenttype: Dimension |
 | Campagneraam | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | Componenttype: Dimension |
 | Kanaal | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | Componenttype: Dimension |
@@ -85,11 +85,11 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Verzenden | Het aantal berichten dat e-mailproviders hebben geaccepteerd. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `sent` |
 | Spam-klachten | Het aantal spamklachten. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `spam_complaint` |
 | Abonnementen opzeggen | The count of unsubscribes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Componenttype: Metrisch<br>Inclusief exclusief waarden: Gelijk `unsubscribe` |
-| Rand verzendt | Het aantal tijden het randnetwerk verzendt een bericht naar of het Web of Mobiele SDK | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.send` |
-| Binnenkomende beeldschermen | Het aantal keer dat een Web- of InApp-bericht aan de gebruiker wordt getoond | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.display` |
-| Binnenkomende klikken | De telling van Web of InApp bericht klikt | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.interact` |
-| InApp-triggers | Het aantal keren dat de beslissingsengine het bericht heeft voorgesteld, moet worden weergegeven. De mobiele SDK kan de beslissing om het aantal daadwerkelijke weergaven te verminderen, negeren. | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.trigger` |
-| InApp-ontslagen | Het aantal keren dat een InApp-bericht door de SDK uit de gebruikersinterface wordt verwijderd | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.dismiss` |
+| Rand verzendt | Het aantal tijden het randnetwerk verzendt een bericht naar of het Web of Mobiele SDK | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.send` | |
+| Binnenkomende beeldschermen | Het aantal keer dat een Web- of InApp-bericht aan de gebruiker wordt getoond | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.display` | |
+| Binnenkomende klikken | De telling van Web of InApp bericht klikt | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.interact` | |
+| InApp-triggers | Het aantal keren dat de beslissingsengine het bericht heeft voorgesteld, moet worden weergegeven. De mobiele SDK kan de beslissing om het aantal daadwerkelijke weergaven te verminderen, negeren. | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.trigger` | |
+| InApp-ontslagen | Het aantal keren dat een InApp-bericht door de SDK uit de gebruikersinterface wordt verwijderd | Het element SchemaString gebruiken `_experience.decisioning.propositionEventType.dismiss` | |
 
 {style="table-layout:auto"}
 
