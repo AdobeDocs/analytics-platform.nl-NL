@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
 workflow-type: tm+mt
-source-wordcount: '7224'
-ht-degree: 2%
+source-wordcount: '7494'
+ht-degree: 3%
 
 ---
 
@@ -441,7 +441,7 @@ Als uw site de volgende voorbeeldgebeurtenissen ontvangt, bevat [!UICONTROL Refe
 
 ### Afgeleid veld {#casewhen-uc1-derivedfield}
 
-U definieert een nieuwe `Marketing Channel` afgeleid veld. U gebruikt de [!UICONTROL CASE WHEN] functies voor het definiëren van regels die waarden maken voor het object op basis van bestaande waarden voor beide `Page URL` en `Referring URL` veld.
+U definieert een `Marketing Channel` afgeleid veld. U gebruikt de [!UICONTROL CASE WHEN] functies voor het definiëren van regels die waarden maken voor het object op basis van bestaande waarden voor beide `Page URL` en `Referring URL` veld.
 
 Let op het gebruik van de functie [!UICONTROL URL PARSE] regels definiëren om de waarden op te halen voor `Page Url` en `Referring Url` vóór de [!UICONTROL CASE WHEN] worden toegepast.
 
@@ -814,7 +814,7 @@ Het gewenste verslag moet er als volgt uitzien:
 
 ### Afgeleid veld {#concatenate-derivedfield}
 
-U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
+U definieert een `Origin - Destination` afgeleid veld. U gebruikt de [!UICONTROL CONCATENATE] functie om een regel te definiëren die de [!UICONTROL Original] en [!UICONTROL Destination] velden die de `-` [!UICONTROL Delimiter].
 
 ![Schermafbeelding van de regel Samenvoegen](assets/concatenate.png)
 
@@ -827,6 +827,90 @@ U definieert een nieuwe [!UICONTROL Origin - Destination] afgeleid veld. U gebru
 | SLC-SEA |
 | SLC-SJO |
 | SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- DEDUPLICATE -->
+
+### Dedupliceren
+
+Hiermee wordt voorkomen dat een waarde meerdere keren wordt geteld.
+
++++ Details
+
+## Specificaties {#deduplicate-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li><li>String</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Persoon</li><li>Sessie</li></ul></li><li>[!UICONTROL Deduplication ID]:<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li><li>String</li></ul><li>[!UICONTROL Value to keep]:<ul><li>Eerste instantie behouden</li><li>Laatste instantie behouden</li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+
+{style="table-layout:auto"}
+
+
+## Hoofdlettergebruik 1 {#deduplicate-uc1}
+
+U wilt voorkomen dat dubbele inkomsten worden geteld wanneer een gebruiker de bevestigingspagina voor het boeken opnieuw laadt. U gebruikt de reserveringsbevestigings-id bij de id om de inkomsten niet meer te tellen wanneer u deze op dezelfde gebeurtenis ontvangt.
+
+### Gegevens voor {#deduplicate-uc1-databefore}
+
+| Bevestigings-id voor boek | Ontvangsten |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#deduplicate-uc1-derivedfield}
+
+U definieert een `Booking Confirmation` afgeleid veld. U gebruikt de [!UICONTROL DEDUPLICATE] functie voor het definiëren van een regel voor het dedupliceren van de [!UICONTROL Value] [!DNL Booking] for [!UICONTROL Scope] [!DNL Person] gebruiken [!UICONTROL Deduplication ID] [!UICONTROL Booking Confirmation ID]. U selecteert [!UICONTROL Keep first instance] als [!UICONTROL Value to keep].
+
+![Schermafbeelding van de regel Samenvoegen](assets/deduplicate-1.png)
+
+### Gegevens na {#deduplicate-uc1-dataafter}
+
+| Bevestigings-id voor boek | Ontvangsten |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 0 |
+| ABC123456789 | 0 |
+
+{style="table-layout:auto"}
+
+## Hoofdlettergebruik 2 {#deduplicate-uc2}
+
+U gebruikt gebeurtenissen als een proxy voor doorklikacties voor campagnes met externe marketingcampagnes. Bij opnieuw laden en omleiden wordt de metrische waarde van de gebeurtenis opgepompt. U wilt de dimensie van de trackingcode dedupliceren, zodat alleen de eerste code wordt verzameld en de overtelling van de gebeurtenis tot een minimum wordt beperkt.
+
+### Gegevens voor {#deduplicate-uc2-databefore}
+
+| Bezoekers-id | Marketingkanaal | Gebeurtenissen |
+|----|---|---:|
+| ABC123 | betaalde zoekopdracht | 1 |
+| ABC123 | betaalde zoekopdracht | 1 |
+| ABC123 | betaalde zoekopdracht | 1 |
+| DEF123 | email | 1 |
+| DEF123 | email | 1 |
+| JKL123 | natuurlijk zoeken | 1 |
+| JKL123 | natuurlijk zoeken | 1 |
+
+{style="table-layout:auto"}
+
+### Afgeleid veld {#deduplicate-uc2-derivedfield}
+
+U definieert een nieuwe `Tracking Code (deduplicated)` afgeleid veld. U gebruikt de [!UICONTROL DEDUPLICATE] functie voor het definiëren van een regel voor het dedupliceren van de [!UICONTROL Tracking Code] met een [!UICONTROL Deduplication scope] van [!UICONTROL Session] en [!UICONTROL Keep first instance] als de [!UICONTROL Value to keep].
+
+![Schermafbeelding van de regel Samenvoegen](assets/deduplicate-2.png)
+
+### Gegevens na {#deduplicate-uc2-dataafter}
+
+| Bezoekers-id | Marketingkanaal | Gebeurtenissen |
+|----|---|---:|
+| ABC123 | betaalde zoekopdracht | 1 |
+| DEF123 | email | 1 |
+| JKL123 | natuurlijk zoeken | 1 |
 
 {style="table-layout:auto"}
 
@@ -1620,6 +1704,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 | <p>Hoofdletter als</p> | <ul><li>5 Geval wanneer functies per afgeleid gebied</li><li>200 [operatoren](#operators) per afgeleid veld</li></ul> |
 | <p>Classificeren</p> | <ul><li>5 Classificeer functies per afgeleid gebied</li><li>200 [operatoren](#operators) per afgeleid veld</li></ul> |
 | <p>Samenvoegen</p> | <ul><li>2 Samengevoegde functies per afgeleid veld</li></ul> |
+| <p>Dedupliceren</p> | <ul><li>5 Deduplicatiefuncties per afgeleid veld</li></ul> |
 | <p>Zoeken en vervangen</p> | <ul><li>2 Functies zoeken en vervangen per afgeleid veld</li></ul> |
 | <p>Opzoeken</p> | <ul><li>5 Opzoekfuncties per afgeleid veld</li></ul> |
 | <p>Kleine letters</p> | <ul><li>2 Kleine letters voor functies per afgeleid veld</li></ul> |
