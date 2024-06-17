@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
+source-git-commit: 6f99a732688f59e3950fc9b4336ad5b0434f24a7
 workflow-type: tm+mt
-source-wordcount: '7494'
+source-wordcount: '8019'
 ht-degree: 3%
 
 ---
@@ -593,7 +593,7 @@ U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [
 | [!DNL long trip] |
 
 
-## Meer informatie
+## Meer informatie {#casewhen-more-info}
 
 Customer Journey Analytics gebruikt een geneste containerstructuur, gemodelleerd na Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (Experience Data Model). Zie [Containers](../create-dataview.md#containers) en [Filtercontainers](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
 
@@ -841,6 +841,8 @@ Hiermee wordt voorkomen dat een waarde meerdere keren wordt geteld.
 
 +++ Details
 
+{{release-limited-testing}}
+
 ## Specificaties {#deduplicate-io}
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Beperkingen | Uitvoer |
@@ -1022,7 +1024,7 @@ U definieert een `Activity Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP
 
 ![Schermafbeelding van de regel Kleine letters](assets/lookup.png)
 
-## Meer informatie
+## Meer informatie {#lookup-more-info}
 
 U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer, die reeds één of meerdere andere functies bevat.
 
@@ -1161,6 +1163,8 @@ Er zijn enkele belangrijke overwegingen wanneer u werkt met statische getallen i
 
    - Deze formule is geldig.
      ![Info over wiskunde 5](assets/math-more-info-5.png)
+
+Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [Samenvatten](#summarize) functie voor op gebeurtenissen, sessies of personen gebaseerde berekeningen.
 
 +++
 
@@ -1350,7 +1354,7 @@ U maakt een `Page Identifier` afgeleid veld. U gebruikt de [!UICONTROL REGEX REP
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## Meer informatie
+## Meer informatie {#regex-replace-more-info}
 
 Customer Journey Analytics gebruikt een subset van de Perl regex syntaxis. De volgende expressies worden ondersteund:
 
@@ -1492,6 +1496,75 @@ U maakt een `Second Response` afgeleid veld om de laatste waarde te nemen van he
 
 +++
 
+<!-- SUMMARIZE -->
+
+### Samenvatten
+
+Hiermee past u functies van het aggregatietype toe op metriek of dimensies op gebeurtenis-, sessie- en gebruikersniveau.
+
++++ Details
+
+{{release-limited-testing}}
+
+## Specificatie {#summarize-io}
+
+| Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeriek</li><li>Datum</li></ul> | <ul><li>Waarde<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>Methoden samenvatten</li><li>Toepassingsgebied<ul><li>Gebeurtenis</li><li>Sessie</li><li>Persoon</li></ul></li></ul> | <ul><li>Numeriek<ul><li>MAX - retourneer de hoogste waarde van een reeks waarden</li><li>MIN - retourneert de laagste waarde van een reeks waarden</li><li>MEDIAN - retourneert mediaan voor een reeks waarden</li><li>MEAN - Geeft het gemiddelde voor een reeks waarden</li><li>SUM - retourneert de som voor een reeks waarden</li><li>COUNT - retourneert het aantal ontvangen waarden</li><li>DISTINCT - retourneert een set verschillende waarden</li></ul></li><li>Tekenreeksen<ul><li>DISTINCT - retourneert een set verschillende waarden</li><li>AFSTAND VAN TELLING - retourneert het aantal verschillende waarden</li><li>MEST COMMON - retourneert de tekenreekswaarde die het vaakst wordt ontvangen</li><li>LEAST COMMON - retourneert de tekenreekswaarde die het minst vaak wordt ontvangen</li><li>EERSTE - De eerste ontvangen waarde; alleen van toepassing op de sessie- en gebeurtenistabellen</li><li>LAST - De laatste ontvangen waarde; slechts van toepassing voor de zitting &amp; gebeurtenissenlijsten</li></ul></li><li>Datums<ul><li>DISTINCT - retourneert een set verschillende waarden</li><li>AFSTAND VAN TELLING - retourneert het aantal verschillende waarden</li><li>MEST COMMON - retourneert de tekenreekswaarde die het vaakst wordt ontvangen</li><li>LEAST COMMON - retourneert de tekenreekswaarde die het minst vaak wordt ontvangen</li><li>EERSTE - De eerste ontvangen waarde; alleen van toepassing op de sessie- en gebeurtenistabellen</li><li>LAST - De laatste ontvangen waarde; slechts van toepassing voor de zitting &amp; gebeurtenissenlijsten</li><li>EARLIEST - De vroegste ontvangen waarde (bepaald door tijd); slechts van toepassing voor de zitting &amp; gebeurtenistabellen</li><li>LATEST - De laatste ontvangen waarde (bepaald op tijd); alleen van toepassing op de sessie- en gebeurtenistabellen</li></ul></li></ul> | 3 functie per afgeleid veld | Nieuw afgeleid veld |
+
+{style="table-layout:auto"}
+
+## Hoofdletters gebruiken {#summarize-uc}
+
+U wilt Toevoegen aan winkelwagentje indelen in drie verschillende categorieën: Klein, Normaal en Groot. Dit staat u toe om de kenmerken van high-value klanten te analyseren en te identificeren.
+
+### Gegevens voor {#summarize-uc-databefore}
+
+Veronderstellingen:
+
+- Toevoegen aan winkelwagentje wordt verzameld als een numeriek veld.
+
+Scenario&#39;s:
+
+- CustomerABC123 voegt $35 toe aan hun winkelwagentje voor ProductABC en voegt vervolgens ProductDEF voor $75 apart toe aan hun winkelwagentje.
+- CustomerDEF456 voegt $50 toe aan hun winkelwagentje voor ProductGHI en voegt vervolgens ProductJKL voor $275 apart toe aan hun winkelwagentje.
+- CustomerGHI789 voegt 500 dollar toe aan hun winkelwagentje voor ProductMNO.
+
+Logica:
+
+- Als Totaal toevoegen aan winkelwagentje voor een bezoeker minder dan $150 is, ingesteld op Klein.
+- Als Totaal toevoegen aan winkelwagentje voor een bezoeker groter is dan $150, maar kleiner dan $500, ingesteld op Normaal.
+- Als Totaal toevoegen aan winkelwagentje voor een bezoeker groter is dan of gelijk is aan $500, ingesteld op Groot.
+
+Resultaten:
+
+- Totale toevoeging aan winkelwagentje voor $110 voor CustomerABC123.
+- Totale toevoeging aan winkelwagentje voor $ 325 voor CustomerDEF456.
+- Totaal extra kosten voor 500 dollar voor CustomerGHI789.
+
+### Afgeleid veld {#summarize-uc-derivedfield}
+
+U maakt een `Add To Cart Revenue Size` afgeleid veld. U gebruikt de [!UICONTROL SUMMARIZE] en de [!UICONTROL Sum] [!UICONTROL Summarize method] with [!UICONTROL Scope] instellen op [!UICONTROL Person] om de waarden van de [!UICONTROL cart_add] veld. Vervolgens gebruikt u een tweede [!UICONTROL CASE WHEN] om het resultaat in de formaten van de boomcategorie te splitsen.
+
+![Screenshot van regel 1 van overzicht](assets/summarize.png)
+
+
+
+### Gegevens na {#summarize-uc-dataafter}
+
+| Toevoegen aan grootte van winkelwagentje | Bezoekers |
+|---|--:|
+| Klein | 1 |
+| Normaal | 1 |
+| Groot | 1 |
+
+{style="table-layout:auto"}
+
+## Meer informatie {#summarize-more-info}
+
+Gebruik de functie Samenvatten voor op gebeurtenissen, sessies of personebereik gebaseerde berekeningen. Gebruik de [Math](#math) functie voor op raakniveau gebaseerde berekeningen.
+
++++
 
 <!-- TRIM -->
 
@@ -1507,7 +1580,6 @@ Hiermee wordt witruimte, speciale tekens of het aantal tekens vanaf het begin of
 |---|---|---|---|---|
 | <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>Witruimte bijsnijden</li><li>Speciale tekens bijsnijden<ul><li>Invoer van speciale tekens</li></ul></li><li>Verkleinen vanaf links<ul><li>Van <ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li><li>Bijsnijden vanaf rechts<ul><li>Van <ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>1 functie per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
-{style="table-layout:auto"}
 
 ## Hoofdlettergebruik 1 {#trim-uc1}
 
@@ -1713,6 +1785,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 | <p>Volgende of Vorige</p> | <ul><li>3 Volgende of Vorige functies per afgeleid veld</li></ul> |
 | <p>Regex Replace</p> | <ul><li>1 Regex-functie vervangen per afgeleid veld</li></ul> |
 | <p>Splitsen</p> | <ul><li>5 Gesplitste functies per afgeleid veld</li></ul> |
+| <p>Samenvatten</p> | <ul><li>3 Geef een overzicht van de functies per afgeleid veld</li></ul> |
 | <p>Verkleinen</p> | <ul><li>1 Bijsnijdfunctie per afgeleid veld</li></ul> |
 | <p>URL-parsering</p> | <ul><li>5 URL-parseerfuncties per afgeleid veld</li></ul> |
 
@@ -1733,7 +1806,7 @@ De onderstaande regel voor classificeren gebruikt bijvoorbeeld 3 operatoren.
 ![Screenshot van regel 1 van classificeren](assets/classify-1.png)
 
 
-## Meer informatie
+## Meer informatie {#trim-more-info}
 
 [`Trim`](#trim) en [`Lowercase`](#lowercase) zijn functies die al beschikbaar zijn in de componentinstellingen in [Gegevensweergaven](../component-settings/overview.md). Door Afgeleide velden te gebruiken, kunt u deze functies combineren om complexe gegevenstransformatie rechtstreeks in Customer Journey Analytics uit te voeren. U kunt bijvoorbeeld `Lowercase` om hoofdlettergevoeligheid in een gebeurtenisveld te verwijderen en vervolgens te gebruiken [`Lookup`](#lookup) om het nieuwe in kleine letters gebied aan een raadplegingsdataset aan te passen die slechts raadplegingssleutels in kleine letters heeft. Of u kunt `Trim` om tekens te verwijderen voordat u deze instelt `Lookup` op het nieuwe veld.
 
