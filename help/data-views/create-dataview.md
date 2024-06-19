@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
+source-git-commit: 8ff130a20c719a594207f854ff3b85619f38b512
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,20 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Connection] | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die één of meerdere datasets van Adobe Experience Platform bevat. |
-| [!UICONTROL Name] | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in de vervolgkeuzelijst rechtsboven in Analysis Workspace. |
-| [!UICONTROL External ID] | Vereist. De naam van gegevensmening u in externe bronnen, zoals bedrijfsintelligentiegereedschappen kunt gebruiken. Standaard is `unspecified`. Als u geen externe id opgeeft, wordt de naam gegenereerd op basis van de naam van de gegevensweergave en worden spaties vervangen door onderstrepingstekens. |
-| [!UICONTROL Description] | Optioneel. De Adobe beveelt een gedetailleerde beschrijving aan zodat de gebruikers begrijpen waarom de gegevensmening bestaat en wie het voor wordt ontworpen. |
+| [!UICONTROL **Verbinding**] | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die één of meerdere datasets van Adobe Experience Platform bevat. |
+| [!UICONTROL **Naam**] | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in de vervolgkeuzelijst rechtsboven in Analysis Workspace. |
+| [!UICONTROL **Externe id**] | Vereist. De naam van gegevensmening u in externe bronnen, zoals bedrijfsintelligentiegereedschappen kunt gebruiken. Standaard is `unspecified`. Als u geen externe id opgeeft, wordt de naam gegenereerd op basis van de naam van de gegevensweergave en worden spaties vervangen door onderstrepingstekens. |
+| [!UICONTROL **Beschrijving**] | Optioneel. De Adobe beveelt een gedetailleerde beschrijving aan zodat de gebruikers begrijpen waarom de gegevensmening bestaat en wie het voor wordt ontworpen. |
+
+{style="table-layout:auto"}
+
+### Compatibiliteit
+
+Verstrekt montages die van toepassing zijn wanneer het gebruiken van Adobe Journey Optimizer naast Customer Journey Analytics.
+
+| Instelling | Beschrijving |
+| --- | --- |
+| [!UICONTROL **Instellen als standaardgegevensweergave in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage voor Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Hiermee kunt u ook een geavanceerde analyse van uw Adobe Journey Optimizer-gegevens in de Customer Journey Analytics uitvoeren (door [!UICONTROL **Analyseren in CJA**] in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een gegevensweergave voor Customers Journey Analytics om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.<p>**Opmerking:** Indien nodig, kunt u extra, handaanpassingen aan de datasets, dimensies, of metriek maken die in uw gegevensmeningen beschikbaar zijn die u voor zowel Journey Optimizer als Customer Journey Analytics, zoals die in wordt beschreven [Adobe Journey Optimizer integreren met Adobe Customer Journey Analytics](/help/integrations/ajo.md). </p></li></ul><p>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</p> |
 
 {style="table-layout:auto"}
 
@@ -56,9 +66,9 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. Containerna
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Person container name] | [!UICONTROL Person] (standaard). De [!UICONTROL Person] container omvat elke zitting en gebeurtenis voor personen binnen het gespecificeerde tijdkader. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
-| [!UICONTROL Session container name] | [!UICONTROL Session] (standaard). De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
-| [!UICONTROL Event container name] | [!UICONTROL Event] (standaard). De [!UICONTROL Event] de container bepaalt individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
+| [!UICONTROL **Persoonsnaam**] | [!UICONTROL Person] (standaard). De [!UICONTROL Person] container omvat elke zitting en gebeurtenis voor personen binnen het gespecificeerde tijdkader. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
+| [!UICONTROL **Naam van sessiecontainer**] | [!UICONTROL Session] (standaard). De [!UICONTROL Session] Met container kunt u paginainteracties, campagnes of conversies voor een specifieke sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
+| [!UICONTROL **Naam van gebeurteniscontainer**] | [!UICONTROL Event] (standaard). De [!UICONTROL Event] de container bepaalt individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -68,11 +78,11 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Time zone] | Kies in welke tijdzone de gegevens moeten worden weergegeven. Als u een tijdzone kiest die op de Tijd van de Besparing van het Daglicht werkt, worden de gegevens automatisch aangepast om dat te weerspiegelen. In de lente wanneer de klokken één uur vooruit aanpassen, is een gat van één uur aanwezig. In de val wanneer de klokken één uur achter aanpassen, wordt één uur herhaald tijdens de verschuiving van DST. |
-| [!UICONTROL Calendar Type] | Bepaal hoe weken van de maand worden gegroepeerd.<br>**Gregoriaans:** Standaardkalenderindeling. Kwarten worden gegroepeerd op maand.<br>**4-5-4 Detailhandel:** Een gestandaardiseerde 4-5-4 retailkalender. De eerste en laatste maanden van het kwartaal bevatten vier weken, terwijl de tweede maand van het kwartaal uit vijf weken bestaat.<br>**Aangepast (4-5-4):** Gelijkaardig aan 4-5-4 kalender behalve kunt u kiezen de eerste dag van het jaar en welk jaar dat de &quot;extra&quot;week voorkomt.<br>**Aangepast (4-4-5):** De eerste en tweede maand van elk kwartaal bevatten vier weken, terwijl de laatste week van elk kwartaal vijf weken omvat.<br>**Aangepast (5-4-4):** De eerste maand van elk kwartaal bestaat uit vijf weken, terwijl de tweede en derde maand van elk kwartaal uit vier weken bestaan. |
-| [!UICONTROL First month of the year] en [!UICONTROL First day of week] | Zichtbaar voor het Gregoriaanse kalendertype. Geef op op welke maand het kalenderjaar moet beginnen en op welke dag elke week moet beginnen. |
-| [!UICONTROL First day of current year] | Zichtbaar voor aangepaste kalendertypen. Geef op welke dag van het jaar het huidige jaar moet beginnen. Op basis van deze waarde wordt de eerste dag van elke week automatisch opgemaakt in de kalender. |
-| [!UICONTROL Year in which the "extra" week occurs] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij aan een extra week toevoegen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
+| [!UICONTROL **Tijdzone**] | Kies in welke tijdzone de gegevens moeten worden weergegeven. Als u een tijdzone kiest die op de Tijd van de Besparing van het Daglicht werkt, worden de gegevens automatisch aangepast om dat te weerspiegelen. In de lente wanneer de klokken één uur vooruit aanpassen, is een gat van één uur aanwezig. In de val wanneer de klokken één uur achter aanpassen, wordt één uur herhaald tijdens de verschuiving van DST. |
+| [!UICONTROL **Type agenda**] | Bepaal hoe weken van de maand worden gegroepeerd.<br>**Gregoriaans:** Standaardkalenderindeling. Kwarten worden gegroepeerd op maand.<br>**4-5-4 Detailhandel:** Een gestandaardiseerde 4-5-4 retailkalender. De eerste en laatste maanden van het kwartaal bevatten vier weken, terwijl de tweede maand van het kwartaal uit vijf weken bestaat.<br>**Aangepast (4-5-4):** Gelijkaardig aan 4-5-4 kalender behalve kunt u kiezen de eerste dag van het jaar en welk jaar dat de &quot;extra&quot;week voorkomt.<br>**Aangepast (4-4-5):** De eerste en tweede maand van elk kwartaal bevatten vier weken, terwijl de laatste week van elk kwartaal vijf weken omvat.<br>**Aangepast (5-4-4):** De eerste maand van elk kwartaal bestaat uit vijf weken, terwijl de tweede en derde maand van elk kwartaal uit vier weken bestaan. |
+| [!UICONTROL **Eerste maand van het jaar**] en [!UICONTROL **Eerste weekdag**] | Zichtbaar voor het Gregoriaanse kalendertype. Geef op op welke maand het kalenderjaar moet beginnen en op welke dag elke week moet beginnen. |
+| [!UICONTROL **Eerste dag van het lopende jaar**] | Zichtbaar voor aangepaste kalendertypen. Geef op welke dag van het jaar het huidige jaar moet beginnen. Op basis van deze waarde wordt de eerste dag van elke week automatisch opgemaakt in de kalender. |
+| [!UICONTROL **Jaar waarin de &quot;extra&quot; week plaatsvindt**] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij aan een extra week toevoegen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
 
 {style="table-layout:auto"}
 
