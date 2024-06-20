@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: cf399df3a8043f5ec9fe723a531bf2f8af68799a
+source-git-commit: cef43e45a647674c6f2472e9402224b5cbc617da
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1105'
 ht-degree: 8%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 8%
       + [Overzicht van projecten](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [Inhoudsopgave van project](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -120,6 +121,7 @@ ht-degree: 8%
       + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
       + Vrije-vormtabel {#freeform-table}
          + [Vrije-vormtabel](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

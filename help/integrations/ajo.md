@@ -4,9 +4,9 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+source-git-commit: 6e1db2351aa9fcc4682b892334430c1896cee914
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,21 @@ ht-degree: 0%
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl) helpt u verbonden, contextafhankelijke en gepersonaliseerde ervaringen te bieden. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
 
-U kunt door Journey Optimizer gegenereerde gegevens importeren om geavanceerde analyses in de Customer Journey Analytics uit te voeren door de volgende stappen uit te voeren:
+U kunt door Journey Optimizer gegenereerde gegevens importeren om geavanceerde analyses in de Customer Journey Analytics uit te voeren. U kunt dit automatisch doen. Indien nodig, kunt u extra, handaanpassingen aan de datasets, afmetingen, of metriek maken die in uw gegevensmeningen beschikbaar zijn die u voor zowel Adobe Journey Optimizer als Customer Journey Analytics gebruikt.
 
-## Gegevens verzenden van Journey Optimizer naar Adobe Experience Platform
+## Automatisch een gegevensweergave voor Customers Journey Analytics configureren voor gebruik met Journey Optimizer
+
+Een configuratieoptie in Customer Journey Analytics staat u toe om een de gegevensmening van de Customer Journey Analytics aan gebruik met Journey Optimizer, zonder de behoefte aan handconfiguratie aan te wijzen. <p>Voor informatie over hoe te om deze configuratieoptie toe te laten, zie [Compatibiliteit](/help/data-views/create-dataview.md#compatibility) sectie in [Een gegevensweergave maken of bewerken](/help/data-views/create-dataview.md).
+
+## Een gegevensweergave voor Customers Journey Analytics handmatig configureren voor gebruik met Journey Optimizer
+
+In de volgende secties wordt beschreven hoe u gegevens die door Journey Optimizer zijn gegenereerd, handmatig kunt importeren om geavanceerde analyses in de Customer Journey Analytics uit te voeren. Dit is alleen nodig als de [automatische configuratie, optie](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) is onvoldoende voor uw behoeften.
+
+### Gegevens verzenden van Journey Optimizer naar Adobe Experience Platform
 
 Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [Aan de slag met gegevenssets](https://experienceleague.adobe.com/docs/journey-optimizer/using/data-management/datasets/get-started-datasets.html) in de Journey Optimizer-gebruikershandleiding voor informatie over het verzenden van Journey Optimizer-gegevens naar Platform als een gegevensset.
 
-## Verbinding maken in Customer Journey Analytics
+### Verbinding maken in Customer Journey Analytics
 
 Zodra Journey Optimizer-gegevens in Adobe Experience Platform zijn opgeslagen, kunt u [Verbinding maken](/help/connections/create-connection.md) op basis van uw Journey Optimizer-gegevenssets. U kunt ook Journey Optimizer-gegevenssets toevoegen aan een bestaande verbinding.
 
@@ -38,7 +46,7 @@ Selecteer en vorm de volgende datasets:
 {style="table-layout:auto"}
 
 
-## De gegevensweergave configureren om de afmetingen en afmetingen van Journey Optimizer aan te passen
+### De gegevensweergave configureren om de afmetingen en afmetingen van Journey Optimizer aan te passen
 
 Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](/help/data-views/create-dataview.md) om de gewenste afmetingen en metriek te vormen beschikbaar in Customer Journey Analytics.
 
@@ -47,7 +55,7 @@ Nadat u een verbinding hebt gemaakt, kunt u een of meer [Gegevens weergeven](/he
 >De verschillen tussen gegevens tussen Adobe Journey Optimizer en Customer Journey Analytics zijn doorgaans kleiner dan 1-2%. Grotere verschillen zijn mogelijk voor gegevens die in de laatste twee uur zijn verzameld. Gebruik datumbereiken met uitzondering van vandaag om verschillen in verwerkingstijd te verkleinen.
 
 
-### Dimensies configureren in de gegevensweergave
+#### Dimensies configureren in de gegevensweergave
 
 In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pariteit met vergelijkbare afmetingen te bereiken. Zie [Componentinstellingen](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond afmetingsaanpassingsopties.
 
@@ -70,7 +78,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 
 {style="table-layout:auto"}
 
-### Metriek configureren in de gegevensweergave
+#### Metriek configureren in de gegevensweergave
 
 U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [Componentinstellingen](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond metriek aanpassingsopties.
 
@@ -93,7 +101,7 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 
 {style="table-layout:auto"}
 
-### Berekende waarden configureren in Analysis Workspace
+#### Berekende waarden configureren in Analysis Workspace
 
 Zodra u de gewenste afmetingen en metriek voor de dataset van Journey Optimizer hebt gevormd, kunt u ook vormen [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md) voor meer inzichten over die gegevens. Deze berekende metriek zijn gebaseerd op de bovengenoemde metriek die in de Manager van de Mening van Gegevens wordt gecreeerd.
 

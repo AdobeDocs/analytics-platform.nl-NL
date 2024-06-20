@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 10751991e3c40cfefac7d32cea0b5cc557133232
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 ### Projectinfo en -instellingen {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** verstrekt project-vlakke informatie over het momenteel actieve project.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** verstrekt project-vlakke informatie over het momenteel actieve project.
 
 ![Het venster Projectinfo en -instellingen.](assets/projectinfo.png)
 
@@ -89,11 +89,19 @@ Voorbeelden van instellingen:
 
 ## Linkerspoor {#left-rail}
 
-Binnen een project [deelvensters](/help/analysis-workspace/c-panels/panels.md), tabellen, [visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), en [componenten] toegankelijk zijn vanaf de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
+Binnen een project zijn verschillende pictogrammen beschikbaar in de linkerspoorstaaf, en elk vertegenwoordigt belangrijke delen van een project:
 
-U hebt ook toegang tot visualisaties en deelvensters via de [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) ook.
+* [Deelvensters](/help/analysis-workspace/c-panels/panels.md) ![deelvensterpictogram](assets/panels-icon.png)
 
-Componenten (Dimensionen, Metriek, Filters, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve deelvenster heeft een blauwe rand en de actieve gegevensweergave wordt boven aan de componentrail weergegeven.
+* [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![visualisatiepictogram](assets/visualizations-icon.png)
+
+* [Componenten](/help/components/overview.md)![componentpictogram](assets/components-icon.png)
+
+* [Gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md)![pictogram gegevenswoordenboek](assets/data-dictionary-icon.png)
+
+* [Inhoudsopgave](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![toc-pictogram](assets/toc-icon.png)
+
+Componenten (Dimensionen, Metriek, Filters, Datumbereik) in de linkerrails hebben betrekking op de gegevensweergave van het actieve deelvenster. Het actieve paneel wordt geïdentificeerd door de blauwe grens die het omringt, en de actieve gegevensmening is vermeld bij de bovenkant van de componentenspoorstaaf.
 
 ![De componenten met betrekking tot de actieve mening van paneelgegevens voor de mening van de Gegevens van de Onderbreking van de Industrie.](assets/left-rail.png)
 

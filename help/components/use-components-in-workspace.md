@@ -3,9 +3,10 @@ description: Leer hoe u componenten aan een project kunt toevoegen in Analysis W
 title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
-source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
+exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
+source-git-commit: 697503bba56f44159df7a2f6a0e60a0a4178266d
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,11 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
 1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
 
-   U kunt bijvoorbeeld een filter naar de neerzetzone van het filter in een deelvensterkop slepen.
+1. (Optioneel) Sleep een component naar de neerzetzone van het filter in een deelvensterkop.
+
+   Filters worden toegepast op alle inhoud in het deelvenster.
+
+   Ga voor informatie over hoe u de neerzetzone van het filter op een deelvenster kunt gebruiken om uw deelvenster te filteren naar [Valzone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analysis-workspace/c-panels/panels.md).
 
    ![een filter neerzetten in de neerzetzone](assets/filter-dropzone.png)
 
@@ -44,7 +49,7 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
    * [Metriek toevoegen aan een project](#add-metrics-to-a-project)
 
-   * [Filter toevoegen aan een project](#add-filters-to-a-project)
+   * [Filters toevoegen aan een project](#add-filters-to-a-project)
 
    * [Datumbereiken toevoegen aan een project](#add-date-ranges-to-a-project)
 
@@ -61,6 +66,10 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
      ![Afmetingen toevoegen aan een project](assets/add-dimensions.png)
 
    * Sleep een of meer afmetingen van de linkerspoorstaaf naar de filterneerzetzone om een ad-hocfilter te maken, zoals beschreven in [Filters toevoegen aan een project](#add-filters-to-a-project).
+
+1. (Optioneel) U kunt dimensies en dimensies in Analysis Workspace opsplitsen met andere componenten.
+
+   Zie voor meer informatie [Afmetingen onderverdelen in werkruimte](/help/components/dimensions/t-breakdown-fa.md).
 
 Ga voor meer informatie over het gebruik van dimensies in Analysis Workspace naar [Voorvertoningsafmetingen](/help/components/dimensions/view-dimensions.md), [Afmetingen onderverdelingen](/help/components/dimensions/t-breakdown-fa.md), en [Afmetingen van tijd tot tijd](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -90,31 +99,23 @@ Voor meer informatie over metriek, zie [Overzicht van berekende metriek](/help/c
 
 [Filters](/help/components/filters/filters-overview.md) kunt u subsets van bezoekers identificeren op basis van kenmerken of specifieke interacties.
 
-Een filter toevoegen aan een project in Analysis Workspace:
+U kunt filters in Analysis Workspace op de volgende manieren gebruiken:
 
-1. Een filter toevoegen aan uw project in Analysis Workspace, zoals wordt beschreven in [Beginnen met het toevoegen van componenten aan een project](#begin-adding-components-to-a-project).
+### Filters toevoegen aan een deelvenster
 
-1. Kies een van de volgende methoden om het deelvenster te filteren:
+Wanneer u filters toevoegt aan een deelvenster, worden de filters toegepast op alle inhoud in het deelvenster.
 
-   * Sleep een afzonderlijk filter van de linkerspoorstaaf naar de filterneerzetzone.
+Ga voor informatie over hoe u de neerzetzone van het filter op een deelvenster kunt gebruiken om uw deelvenster te filteren naar [Valzone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analysis-workspace/c-panels/panels.md).
 
-     ![een filter neerzetten in de neerzetzone](assets/filter-dropzone.png)
+### Filters toevoegen aan een kolom in een vrije-vormtabel
 
-   * Houd Shift of Ctrl ingedrukt als u meerdere filters in de linkertrack wilt selecteren en houd Shift ingedrukt als u deze naar de dropzone van het filter verplaatst.
+Wanneer u filters toevoegt aan een kolom in een vrije-vormlijst, zijn de filters van toepassing op alle inhoud binnen de lijstkolom.
 
-     ![meerdere filters neerzetten in de neerzetzone](assets/filter-dropzone-multiple.png)
+### Filters gebruiken bij het maken van berekende metriek
 
-     Hiermee maakt u een vervolgkeuzemenu waarin gebruikers van het deelvenster het filter kunnen kiezen dat zij willen toepassen. Het vervolgkeuzemenu bevat een [!UICONTROL **Geen filter**] die gebruikers kunnen selecteren, zodat het deelvenster ongefilterd blijft.
+In de Berekende metrische bouwer, kunt u filters binnen uw metrische definitie toepassen.
 
-     U kunt de (x) selecteren om het even welke optie uit het drop-down menu te verwijderen. Als u de [!UICONTROL **Geen filter**] en is een filter vereist.
-
-   * Maak ad-hocfilters door niet-filtercomponenten naar de neerzetzone te slepen. Dit kan u de tijd en moeite besparen om naar de Bouwer van de Filter te gaan. Filters die op deze manier worden gemaakt, worden automatisch gedefinieerd als filters op raakniveau. Deze definitie kan worden gewijzigd door te klikken op het informatiepictogram (i) naast het filter, vervolgens op het pictogram voor het bewerken van de vorm van een potlood en dit te bewerken in de Filter Builder.
-
-     Ad hoc filters zijn een type snel filter, en zijn plaatselijk aan het project. Ze komen niet in de linkerspoorstaaf voor als je ze niet openbaar maakt.
-
-     Zie voor meer informatie [Snelle filters](/help/components/filters/quick-filters.md).
-
-Ga voor meer informatie over hoe u de neerzetzone van het filter op een deelvenster kunt gebruiken om uw deelvenster te filteren naar [Valzone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analysis-workspace/c-panels/panels.md).
+Zie voor meer informatie [Gefilterde metriek](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
 
 ## Datumbereiken toevoegen aan een project
 
