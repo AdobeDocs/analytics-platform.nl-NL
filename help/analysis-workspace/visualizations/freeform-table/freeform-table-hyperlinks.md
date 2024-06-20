@@ -3,9 +3,10 @@ title: Hyperlinks maken in een vrije-vormtabel in Analysis Workspace
 description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormtabel in Analysis Workspace
 feature: Visualizations
 role: User
-source-git-commit: 433aabe6785527642db6b03ca54bd050323f2b70
+exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
+source-git-commit: 0c83d64a2ab3d23f92bc804092fc507479418052
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ Houd rekening met het volgende wanneer u hyperlinks maakt voor dimensie-items:
   Als u een hyperlink maakt die een ongeldige URL heeft, of als u een hyperlink maakt die verwijst naar een dimensie-item dat geen URL-waarde heeft (door rechtstreeks naar het dimensie-item te verwijzen of door het `$value` of `$breakdown` (variabelen), wordt een foutbericht weergegeven voor gebruikers die op de hyperlink klikken.
 
 * Hyperlinks die voor één enkel afmetingspunt worden gecreeerd treden hyperlinks met voeten die op de afmeting worden gecreeerd.
+
+* Hyperlinks zijn niet functioneel in [gedownloade PDF-bestanden](/help/analysis-workspace/export/download-send.md).
 
 U kunt als volgt hyperlinks maken voor een of meer dimensies:
 
@@ -130,4 +133,3 @@ Hyperlinks verwijderen uit dimensieitems:
    De hyperlink wordt verwijderd uit het item met één dimensie (als u één dimensie-item hebt geselecteerd) of uit alle dimensie-items (als u de naam van de dimensie hebt geselecteerd in de kolomkop met dimensie).
 
 1. [Het project opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw wijzigingen op te slaan.
-

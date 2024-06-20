@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 7280bd21882e2baa31e76dbb6f983ccaf1af8633
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,7 @@ Naast het toevoegen als productbeheerder in de **Productprofiel Customer Journey
 
 * Gegevenssets exporteren naar cloud [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
-  >[!AVAILABILITY]
-  >
-  >De mogelijkheid om gegevenssets naar de cloud te exporteren bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).
-
-  Om deze taak uit te voeren, hebben de gebruikers ook de volgende toestemmingen van het Experience Platform nodig:
+  Om deze taak uit te voeren, hebben de gebruikers de volgende toestemmingen van het Experience Platform nodig:
    * Doelen beheren
    * Doelen activeren
 

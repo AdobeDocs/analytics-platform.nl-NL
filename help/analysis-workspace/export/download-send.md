@@ -4,9 +4,9 @@ title: Gegevens Customer Journey Analytics downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: a3fc89ed08102d57ce3cfaadde96ade843cd8f8b
+source-git-commit: cd4722cc2eb95d7d5e4000361c8f96a30a3589e9
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ U kunt gegevens van de Customer Journey Analytics downloaden naar uw persoonlijk
 Er zijn ook andere methoden beschikbaar voor het exporteren van gegevens van Customers Journey Analytics, zoals beschreven in [Overzicht van exporteren](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Downloaden als CSV of PDF {#download-project}
+
+Houd rekening met het volgende wanneer u projecten downloadt:
+
+* Wanneer het downloaden van projecten als CSV of PDF, kan het project worden bewaard of unsaved wanneer u om een projectdownload verzoekt. Alleen opgeslagen projecten kunnen echter worden [gepland](/help/analysis-workspace/export/t-schedule-report.md).
+
+* Bij het downloaden van projecten als een PDF:
+   * Het exporteren van downloads kan enkele minuten in beslag nemen, omdat het project opnieuw wordt uitgevoerd op Adobe-servers voordat het wordt gerenderd in PDF-indeling. We raden u aan het project pas te laten nadat de PDF in uw browser is gedownload. U kunt echter wijzigingen in het project blijven aanbrengen terwijl u wacht. Als een PDF langer dan 5 minuten duurt om te renderen, wordt u gevraagd om het te e-mailen.
+   * Downloads worden weergegeven als één pagina zonder paginering.
+   * PDF-weergaven bevatten wat er op de pagina in Workspace staat. Als een project visualisaties en deelvensters van aangepaste grootte heeft, moet u deze wijzigen om automatisch van grootte te zijn (knop in de rechterbovenhoek), zodat er geen afgekapte inhoud is.
+   * Alle [hyperlinks](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) die in vrije-vormlijsten bestaan zijn niet functioneel in de gedownloade PDF.
+
+Een project downloaden als een CSV- of PDF-bestand:
 
 1. Voer een van de volgende handelingen uit, afhankelijk van de indeling waarin u de download wilt plaatsen:
 
@@ -32,13 +44,6 @@ Er zijn ook andere methoden beschikbaar voor het exporteren van gegevens van Cus
    ![De vervolgkeuzelijst Project met de opties CSV downloaden en PDF downloaden gemarkeerd.](assets/download-project.png)
 
 1. (Voorwaardelijk) als u verkoos om een PDF te downloaden, wordt een bericht getoond nadat het project klaar is om te worden gedownload. Selecteren [!UICONTROL **Downloaden**].
-
-Houd bij het downloaden van projecten rekening met:
-
-* Het project kan worden opgeslagen of niet opgeslagen wanneer u een projectdownload aanvraagt. Alleen opgeslagen projecten kunnen echter worden [gepland](/help/analysis-workspace/export/t-schedule-report.md).
-* PDF die in de browser worden gedownload, kunnen enkele minuten in beslag nemen om te worden geëxporteerd, omdat het project opnieuw wordt uitgevoerd op Adobe-servers voordat het wordt gerenderd in PDF-indeling. We raden u aan het project pas te laten nadat de PDF in uw browser is gedownload. U kunt echter wijzigingen in het project blijven aanbrengen terwijl u wacht. Als een PDF langer dan 5 minuten duurt om te renderen, wordt u gevraagd om het te e-mailen.
-* PDF-downloads worden weergegeven als één pagina zonder paginering.
-* Wanneer een project aan PDF wordt teruggegeven, geven wij terug wat op de pagina is. Als een project visualisaties en deelvensters van aangepaste grootte heeft, moet u deze wijzigen om automatisch van grootte te zijn (knop in de rechterbovenhoek), zodat er geen afgekapte inhoud is.
 
 ## Kopiëren naar klembord (sneltoets: Ctrl+C) {#copy-data}
 
