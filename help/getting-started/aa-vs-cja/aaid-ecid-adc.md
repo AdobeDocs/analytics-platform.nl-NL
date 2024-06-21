@@ -4,9 +4,9 @@ description: Leer hoe de Analytics-bronconnector werkt met Adobe Analytics-ident
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0dc99750126ed5b88b1d1f2d4afc28acad0fe84e
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,12 @@ Binnen identityMap:
 * Als ECID aanwezig is, wordt deze gemarkeerd als de primaire identiteit voor de gebeurtenis. In dit geval kan steun gebaseerd zijn op ECID volgens de bovenstaande beschrijving.
 Anders wordt STEUN gemarkeerd als de primaire identiteit voor de gebeurtenis.
 * AACUSTOMID is nooit gemarkeerd als primaire id voor de gebeurtenis. Als AACUSTOMID echter aanwezig is, is STEUN gebaseerd op AACUSTOMID zoals in de bovenstaande beschrijving wordt beschreven.
+
+Wanneer de identiteit of identiteiten worden gekopieerd naar `identityMap`, `endUserIDs._experience.mcid.namespace.code` wordt ook ingesteld op dezelfde gebeurtenis:
+
+* Indien er sprake is van steun, `endUserIDs._experience.aaid.namespace.code` is ingesteld op &quot;AID&quot;.
+* Indien ECID aanwezig is, `endUserIDs._experience.mcid.namespace.code` is ingesteld op &quot;ECID&quot;.
+* Indien AACUSTOMID aanwezig is, `endUserIDs._experience.aacustomid.namespace.code` is ingesteld op &quot;AACUSTOMID&quot;.
 
 ## Customer Journey Analytics en primaire id
 
