@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics BI-extensie
-description: Leer hoe u de Dienst van de Vraag, Power BI, Tableau, of andere hulpmiddelen kunt gebruiken BI en SQL om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
+description: Leer hoe u Power BI of Tableau kunt gebruiken om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
+source-git-commit: 483f74408cfb81f2cbbbb25df9402aa829be09b1
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,17 @@ De belangrijkste voordelen zijn:
 
 ## Vereisten
 
-Als u deze functionaliteit wilt gebruiken, moet u:
+U moet beschikken over:
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
-* De functionaliteit configureren voor de relevante productprofielen, gebruikersgroepen en/of individuele gebruikers. De toegangsvereisten omvatten:
-   * Adobe Experience Platform Query Service
-   * Werkruimteprojecten in Customer Journey Analytics
-   * Gewenste CJA-gegevensweergaven voor gebruik
-   * Toegang tot de extensie BI in de gereedschappen voor gegevensweergave
-
+* Verleende toegang tot Experience Platform en Customer Journey Analytics.
+* Beheerders van beperkte producten hebben toegang tot Customer Journey Analytics, zodat u verbindingen en gegevensweergaven kunt weergeven, bewerken, bijwerken of verwijderen.
+* Toegang verleend tot de gegevensweergaven die u wilt openen.
+* Toegang verleend tot de CJA BI-extensie.
 * Het verlopen van het gebruik op niet-vervallende geloofsbrieven om de hulpmiddelen van BI aan te sluiten [!DNL Customer Journey Analytics BI extension]. De [Referentiegids](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-vervallende geloofsbrieven.
 
-Zie [Toegangsbeheer](../technotes/access-control.md) in de sectie Beheer Customer Journey Analytics voor aanvullende informatie.
+Zie [Toegangsbeheer voor reizen van klanten](../technotes/access-control.md) voor meer informatie , met name de [Aanvullende machtigingen voor productbeheer](../technotes/access-control.md#product-admin-additional-permissions) en [Machtigingen Customer Journey Analytics in de Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Gebruik
@@ -84,7 +82,7 @@ In Adobe Experience Platform:
 
 +++
 
-Zie [Handleiding voor de Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) voor meer informatie .
+Zie de [Handleiding voor de Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) voor meer informatie .
 
 
 ### BI-gereedschappen
@@ -113,9 +111,9 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
 
    1. In de **[!UICONTROL ** PostgressSQL-database **]** dialoogvenster:
 
-      1. Plakken **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in de  **[!UICONTROL ** Server **]** tekstveld.
 
-      1. Plakken **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in de **[!UICONTROL ** Database **]** tekstveld.
 
          Toevoegen `?FLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:cja?FLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie .
 
@@ -124,7 +122,7 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
       1. U wordt gevraagd **[!UICONTROL Username]** en **[!UICONTROL Password]**. De equivalente parameters van Experience Platforms gebruiken [!UICONTROL Credentials].
 
 
-   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van de Customer Journey Analytics in Power BI **[!UICONTROL ** Navigator **]**.
+   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van de Customer Journey Analytics in Macht BI **[!UICONTROL ** Navigator **]**.
 
    1. Selecteer de tabellen in de gegevensweergave die u wilt gebruiken en selecteer **[!UICONTROL ** Laden **]**.
 
@@ -154,11 +152,11 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
 
    1. In de [!UICONTROL PostgresSQL] dialoogvenster:
 
-      1. Plakken **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Host **]** parameter van Experience Platforms [!UICONTROL Credentials] in de **[!UICONTROL ** Server **]** tekstveld.
 
-      1. Plakken **[!UICONTROL ** Poort **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Poort **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Poort **]** parameter van Experience Platforms [!UICONTROL Credentials] in de **[!UICONTROL ** Poort **]** tekstveld.
 
-      1. Plakken **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Database **]** parameter van Experience Platforms [!UICONTROL Credentials] in de **[!UICONTROL ** Database **]** tekstveld.
 
          Toevoegen `%3FFLATTEN` aan de **[!UICONTROL ** Database **]** parameter, zodat het als leest `prod:cja%3FFLATTEN` bijvoorbeeld. Zie [Geneste gegevensstructuren samenvoegen voor gebruik met BI-gereedschappen van derden](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie .
 
@@ -166,9 +164,9 @@ Op dit moment wordt [!DNL Customer Journey Analytics BI extension] wordt alleen 
 
       1. Plakken **[!UICONTROL ** Gebruikersnaam **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstveld.
 
-      1. Plakken **[!UICONTROL ** Wachtwoord **]** parameter van Experience Platforms [!UICONTROL Credentials] in **[!UICONTROL ** Wachtwoord **]** tekstveld.
+      1. Plak de **[!UICONTROL ** Wachtwoord **]** parameter van Experience Platforms [!UICONTROL Credentials] in de **[!UICONTROL ** Wachtwoord **]** tekstveld.
 
-      1. Selecteren **[!UICONTROL ** Aanmelden **]**.
+      1. Selecteer de **[!UICONTROL ** Aanmelden **]**.
 
    1. De gegevensweergaven van de Customer Journey Analytics worden weergegeven als tabellen in het dialoogvenster **[!UICONTROL ** Tabel **]** lijst.
 
@@ -222,7 +220,7 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 | Patroon | Voorbeeld |
 |---|---|
 | Schema-detectie | <pre>SELECTEREN * VANUIT dv1 WAAR 1=0</pre> |
-| Uitsplitsing | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  filterId = &#39;12345&#39;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  EN (dim2 = &#39;A&#39; OF dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;)<br/>GROEP OP DIm1</pre> |
+| Geschikt of uitgesplitst | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  filterId = &#39;12345&#39;<br/>GROEP OP DIm1</pre><pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot; EN<br/>  EN (dim2 = &#39;A&#39; OF dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;)<br/>GROEP OP DIm1</pre> |
 | `HAVING` clausule | <pre>DIm1, SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>VAN > 100</pre> |
 | Onderscheiden, boven <br/>dimensiewaarden | <pre>DIM1 VERSCHUIVEN VANUIT dv1 SELECTEREN</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;<br/>GROEP OP DIm1</pre><pre>DIM1 SELECTEREN ALS dv1<br/>VAN dv1<br/>WHERE \&quot;timestamp\&quot; >= &quot;2022-01-01&quot; AND \&quot;timestamp\&quot; &lt; &quot;2022-01-02&quot;<br/>GROEP OP DIm1<br/>ORDER BY SUM(metrisch1)<br/>LIMIET 15</pre> |
 | Metrische totalen | <pre>SUM(metrisch1) SELECTEREN ALS m1<br/>VAN dv1<br/>WAAR \&quot;tijdstempel\&quot; TUSSEN &quot;2022-01-01&quot; EN &quot;2022-01-02&quot;</pre> |
@@ -258,7 +256,7 @@ U kunt het volgende gebruiken:
 
 #### Afzonderlijke waarden tellen
 
-Door de onderliggende aard van hoe Customer Journey Analytics werkt, is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de maatstaf voor standaardpersonen, die het aantal verschillende personen is. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
+Door de onderliggende aard van hoe Customer Journey Analytics werkt, is de enige dimensie waarvoor u een exacte telling kunt krijgen, de `adobe_personid` dimensie. De volgende SQL-instructies `SELECT COUNT(DISTINCT adobe_personid)` of `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` Retourneer de waarde van de metrische standaardpersonen, dat wil zeggen het aantal verschillende personen. Voor andere dimensies, wordt een ongeveer verschillende telling teruggekeerd.
 
 #### Voorwaardelijke metriek
 
@@ -276,7 +274,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### Inline-berekeningen
 
-U kunt extra wiskunde op metrische uitdrukkingen toepassen in uw `SELECT` in plaats van dat de wiskunde in berekende metrisch wordt bepaald. In de volgende tabel wordt aangegeven welke typen expressies worden ondersteund.
+U kunt extra wiskunde op metrische uitdrukkingen toepassen in uw `SELECT`. Deze wiskunde kan in plaats van het bepalen van de wiskunde in berekende metrisch worden gebruikt. In de volgende tabel wordt aangegeven welke typen expressies worden ondersteund.
 
 | Operator of functie | Details |
 |---|---|
@@ -304,19 +302,19 @@ Het tijdstempelveld kan ook worden gebruikt in datum-/tijdfuncties om de tijdste
 
 #### Datumbereik
 
-De `daterange` speciale kolommen, vergelijkbaar met  `timestamp`Het filteren is echter beperkt tot volledige dagen. De `daterange` is ook optioneel en heeft dezelfde standaardwaarden als `timestamp`.
+De `daterange` speciale kolommen, vergelijkbaar met `timestamp`; het filteren is echter beperkt tot volledige dagen. De `daterange` is ook optioneel en heeft dezelfde standaardwaarden als `timestamp`.
 De `daterange` veld kan ook worden gebruikt in datum-/tijdfuncties om de gebeurtenisdatum te parseren of af te kappen.
 
 De `daterangeName` de speciale kolom kan worden gebruikt om uw vraag te filtreren gebruikend een genoemde datumwaaier als `Last Quarter`.
 
 >[!NOTE]
 >
->PowerBI biedt geen ondersteuning `daterange` metriek die minder dan een dag zijn (uur, 30 minuten, 5 minuten, enz.).
+>Power BI ondersteunt niet `daterange` metriek die minder dan een dag zijn (uur, 30 minuten, 5 minuten, enz.).
 
 
 #### Filter-id
 
-De `filterId` speciale kolom is optioneel en wordt gebruikt om een extern gedefinieerd filter toe te passen op de query. Het toepassen van een extern gedefinieerd filter op een query lijkt op het slepen van een filter in een deelvenster in Workspace. Er kunnen meerdere filter-id&#39;s worden opgegeven door `AND`-ing hen.
+De `filterId` speciale kolom is optioneel en wordt gebruikt om een extern gedefinieerd filter toe te passen op de query. Het toepassen van een extern gedefinieerd filter op een query lijkt op het slepen van een filter in een deelvenster in Workspace. Meerdere filter-id&#39;s kunnen worden gebruikt door `AND`-ing hen.
 
 Samen met `filterId`kunt u `filterName` als u de naam van een filter wilt gebruiken in plaats van de id.
 
