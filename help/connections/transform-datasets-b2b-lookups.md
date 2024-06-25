@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
+source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B ra
 * [XDM Business Opportunity Person Relatie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
 * [Leden van XDM Business Marketing List](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [XDM Business Campaign-leden](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+
+>[!NOTE]
+>
+>Er geldt een limiet van maximaal 10.000 items voor elke id. Deze beperking houdt in dat voor elke id van een persoon u slechts 10.000 rekeningen, of 10.000 kansen, of 10.000 marketing lijsten, of 10.000 campagnes kunt hebben.
+
 
 Om transformatie voor zulk een dataset toe te laten:
 
@@ -44,7 +49,7 @@ Om transformatie voor één of meerdere datasets toe te laten die reeds deel van
 
 1. Verwijder de datasets uit de verbinding.
 1. Sla de verbinding op.
-1. Voeg de datasets aan de verbinding toe terwijl het aanzetten van transformatie voor de datasets
+1. Voeg de datasets aan de verbinding toe terwijl het aanzetten van transformatie voor de datasets.
 
 ## Achtergrondinformatie
 
