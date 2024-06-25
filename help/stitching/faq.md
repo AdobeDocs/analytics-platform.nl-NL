@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1428'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Als u de de afmetingspunten van identiteitskaart van de dataset zou willen ander
 
 +++**Hoe ver is het stitching replay bezoekers?**
 
-Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevens af [replay](explained.md). Als u bijvoorbeeld stitching instelt om gegevens eenmaal per week opnieuw af te spelen, is het terugzoekvenster voor het opnieuw afspelen zeven dagen. Als u stitching opstelling om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
+Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevensreplay af. Als u bijvoorbeeld stitching instelt om gegevens eenmaal per week opnieuw af te spelen, is het terugzoekvenster voor het opnieuw afspelen zeven dagen. Als u stitching opstelling om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
 
 +++
 
@@ -47,7 +47,9 @@ De tijdelijke id negeert de blijvende id, zodat gedeelde apparaten als afzonderl
 
 In sommige situaties kan een individuele gebruiker veel permanente id&#39;s koppelen. Een voorbeeld hiervan is dat een gebruiker vaak de cookies van de browser wist of de persoonlijke/incognitomodus van de browser gebruikt.
 
-Het aantal permanente id&#39;s is irrelevant ten gunste van de tijdelijke id. Eén gebruiker kan tot een willekeurig aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van de Customer Journey Analytics om aan de andere apparaten te hechten.
+Voor stitching in het veld is het aantal permanente id&#39;s niet relevant ten gunste van de tijdelijke id. Eén gebruiker kan tot een willekeurig aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van de Customer Journey Analytics om aan de andere apparaten te hechten.
+
+Voor op een grafiek gebaseerde stitching, kan één enkele persoon vele blijvende identiteitskaart in de identiteitsgrafiek hebben. Op grafiek gebaseerde stitching gebruikt blijvende identiteitskaart die op gespecificeerde namespace wordt gebaseerd. Als er een meer permanente id voor dezelfde naamruimte is, wordt de lexicografische eerste permanente id gebruikt.
 
 +++
 
@@ -120,3 +122,21 @@ Andere meetgegevens zijn vergelijkbaar in Customer Journey Analytics en Adobe An
 Nee, Customer Journey Analytics kan de identiteitskaartvelden momenteel niet gebruiken voor stitching.
 
 +++
+
++++**Moeten de gegevens opnieuw worden ingevoerd om van op het veld gebaseerde stitching naar op grafiek gebaseerde stitching over te schakelen?**
+De gegevens moeten niet in Experience Platform opnieuw worden opgenomen, nochtans zal het in Customer Journey Analytics moeten worden opnieuw gevormd. Voer de volgende stappen uit:
+
+1. Opstelling de nieuwe grafiek-gebaseerde gestikte dataset.
+1. Vorm de nieuwe dataset als deel van een nieuwe verbinding in Customer Journey Analytics.
+1. Schakel de bestaande gegevensweergave om de nieuwe verbinding te gebruiken (en als zodanig de nieuwe op grafiek gebaseerde, aan elkaar gekoppelde dataset)
+1. Verwijder de oude verbinding die de op gebied-gebaseerde verbonden dataset gebruikte.
+
++++
+
++++**Zou er een verstoring zijn van bestaande rapporten?**
+
+Niet als u de hierboven beschreven stappen uitvoert. Als dat niet het geval is, vraagt u de Adobe Consulting om aanvullende ondersteuning.
+
++++
+
+

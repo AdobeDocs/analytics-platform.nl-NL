@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
+source-git-commit: bad5e71a51d9bf5f2155ea5c711763fafebc1bcf
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3722'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2024** | |
+| Op grafiek gebaseerde stitching | Bijgewerkte documentatie over stitching met de introductie van op grafiek-gebaseerde stitching. |
 | AI-assistent | Toegevoegd [documentatie](../ai-assistant.md) in de AI Assistant voor Customer Journey Analytics. |
 | Gegevenssets transformeren voor B2B-zoekopdrachten | Extra documentatie over hoe te om te steunen [persoonlijke raadplegingen op B2B-gegevens](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) gebruikend omzetting van B2B raadplegingsdatasets. |
 | Afgeleide veldfuncties en functiesjablonen | Toegevoegde documentatie over de aanvullende afgeleide veldfuncties ([Math](/help/data-views/derived-fields/derived-fields.md#math), [Volgende of Vorige](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) en [functiesjablonen](/help/data-views/derived-fields/derived-fields.md#function-templates). |

@@ -5,9 +5,9 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -100,6 +100,5 @@ Raadpleeg het specifieke geval van gebruik voor meer informatie over kanaalanaly
 Ga voor een diepgaandere discussie over stitching-functionaliteit naar:
 
 * [Overzicht van tekenreeksen](/help/stitching/overview.md)
-* [Hoe stitching werkt](../stitching/explained.md)
 * [Veelgestelde vragen](/help/stitching/faq.md)
 

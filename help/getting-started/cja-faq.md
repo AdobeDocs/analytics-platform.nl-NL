@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 0%
@@ -58,14 +58,14 @@ Ja. [Stiksel](../stitching/overview.md) kijkt naar gebruikersgegevens van zowel 
 
 +++**Hoe werkt &#39;replay&#39; in stitching?**
 
-Gegevens worden opnieuw afgespeeld op basis van unieke id&#39;s die het heeft geleerd. Replay is bedoeld om aanvankelijk niet-geverifieerde gebeurtenissen te koppelen aan apparaten die in de tussentijd zijn geïdentificeerd. [Meer informatie](../stitching/explained.md)
+Gegevens worden opnieuw afgespeeld op basis van unieke id&#39;s die het heeft geleerd. Replay is bedoeld om aanvankelijk niet-geverifieerde gebeurtenissen te koppelen aan apparaten die in de tussentijd zijn geïdentificeerd. [Meer informatie](../stitching/overview.md)
 
 +++
 
 
 +++**Hoe werkt het stitching van historische gegevens (backfill)?**
 
-Als deze optie voor het eerst is ingeschakeld, wordt een back-up van opgeslagen gegevens gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](../stitching/explained.md)
+Als deze optie voor het eerst is ingeschakeld, wordt een back-up van opgeslagen gegevens gemaakt die teruggaat tot het begin van de vorige maand (tot 60 dagen). Om deze backfill te kunnen uitvoeren, moet de tijdelijke id bestaan in de niet-opgeslagen gegevens die veel terug in de tijd zijn. [Meer informatie](../stitching/overview.md)
 
 +++
 
