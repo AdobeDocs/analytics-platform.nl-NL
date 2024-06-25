@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 6b8d9abf7d807a1e19aa86386eb2dae9bb18f472
+source-git-commit: b0fd55a289145aa7946ec6c4f60da5921125319c
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 De **[!UICONTROL Retention rates]** Bekijk hoe gebruikers uw product in de loop van de tijd blijven gebruiken, zodat u beter kunt begrijpen welke producten op de markt zijn. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
 * Startgebeurtenis: de gebeurtenis die wordt gebruikt om gebruikers in aanmerking te laten komen voor opname in uw analyse.
-* Geretourneerde gebeurtenis: de gebeurtenis(sen) waarmee een gebruiker moet werken om te worden beschouwd als een terugkerende gebruiker in de analyse.
+* Geretourneerde gebeurtenis: een of meer gebeurtenissen waarmee een gebruiker moet werken om als terugkerende gebruiker in uw analyse te tellen.
 
-In deze weergave vertegenwoordigt de x-as van de grafiek de tijd sinds de begingebeurtenis van een gebruiker en vertegenwoordigt de y-as het percentage gebruikers dat met de geretourneerde gebeurtenis(sen) werkt. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
+In deze mening, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
-![Schermafbeelding met retentiesnelheden](../assets/retention-rates.png){style="border:1px solid gray"}
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
 ## Gebruik hoofdletters
 
@@ -36,15 +36,15 @@ U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL Start event]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in uw analyse. Gebruikers die met de startgebeurtenis werken, worden meegeteld in de kolom &quot;Gebruikers&quot; van de tabel. Dit is de noemer voor de getoonde aanhoudingspercentages. Eén gebeurtenis wordt ondersteund en eigenschapfilters kunnen zo nodig worden toegepast. Standaard zijn de start- en retourgebeurtenis gekoppeld. Dit houdt in dat een gebruiker de geselecteerde gebeurtenis één keer moet uitvoeren om in het cohort te worden opgenomen en vervolgens opnieuw moet worden geteld als een terugkerende gebruiker. In het menu Meer kunt u de start- en retourgebeurtenissen ontkoppelen als u wilt dat de actie die wordt geretourneerd verschilt van de handeling die wordt opgenomen.
+* **[!UICONTROL Start event]**: De gebeurteniscriteria waarmee een gebruiker moet werken om in aanmerking te komen voor opname in uw analyse. Gebruikers die met de startgebeurtenis werken, worden meegeteld in de kolom &quot;Gebruikers&quot; van de tabel. Deze gebeurtenis fungeert als de noemer voor de getoonde bewaarpercentages. Eén gebeurtenis wordt ondersteund en eigenschapfilters kunnen zo nodig worden toegepast. Standaard zijn de start- en retourgebeurtenis gekoppeld. Dit houdt in dat een gebruiker de geselecteerde gebeurtenis één keer moet uitvoeren om in het cohort te worden opgenomen en vervolgens opnieuw moet worden geteld als een terugkerende gebruiker. In het menu Meer kunt u de start- en retourgebeurtenissen ontkoppelen als u wilt dat de actie die wordt geretourneerd verschilt van de handeling die wordt opgenomen.
 * **[!UICONTROL Return events]**: De gebeurteniscriteria waarmee een gebruiker moet werken om te tellen als terugkerende gebruikers in de periodeemmers. U kunt maximaal drie retourgebeurtenissen selecteren om de retentie te vergelijken.
 * **[!UICONTROL Counted as]**: De telmethode die u wilt toepassen op bewaarde gebruikers. U kunt onder andere de volgende opties kiezen:
-   * **[!UICONTROL Metric]**: Toon het aantal van [!UICONTROL Users] of de [!UICONTROL Percentage of users] behouden. De noemer voor het percentage gebruikers dat wordt behouden, is de inbegrepen gebruikers voor het cohort en is voor alle periodeemmers gelijk.
+   * **[!UICONTROL Metric]**: Toon het aantal van [!UICONTROL Users] of de [!UICONTROL Percentage of users] behouden. De noemer voor het percentage gebruikers dat wordt behouden is de inbegrepen gebruikers voor de cohort en is het zelfde over alle duuremmers.
    * **[!UICONTROL Returning]**: Hiermee kunt u bepalen hoe terugkerende gebruikers worden geteld. U kunt onder andere de volgende opties kiezen:
-      * **[!UICONTROL On or after]**: Wordt vaak &#39;onbegrensd&#39; vasthouden genoemd, dan telt deze optie een gebruiker wanneer deze op of na de opgegeven duur terugkeert. Bijvoorbeeld op dag 7 of op een willekeurig tijdstip na dag 7. Deze optie is handig voor het weergeven van de manier waarop gebruikers blijven werken en genereert als gevolg hiervan een vloeiendere retentiecurve.
+      * **[!UICONTROL On or after]**: Wordt vaak &#39;onbegrensd&#39; vasthouden genoemd, dan telt deze optie een gebruiker wanneer deze op of na de opgegeven duur terugkeert. Bijvoorbeeld op dag 7 of op een willekeurig tijdstip na dag 7. Deze optie is handig om te laten zien hoe gebruikers doorgaan met het activeren en genereert als gevolg een vloeiendere retentiecurve.
       * **[!UICONTROL On exactly]**: Wordt vaak &#39;gebonden&#39; retentie genoemd, deze optie telt een gebruiker als deze exact op de opgegeven duur terugkeert. Bijvoorbeeld, precies op dag 7. Deze optie is handig om aan te geven hoe gebruikers binnen bepaalde tijdframes terugkeren en genereert een retentiecurve met meer golving als gevolg. Opmerking: De cohortanalyse in Analysis Workspace gebruikt &quot;op exact&quot; tellen als basis voor haar analyse.
    * **[!UICONTROL Each]**: De tijdsperiode die u wilt gebruiken voor elk tijdssegment. U kunt onder andere de volgende opties kiezen:
-      * **[!UICONTROL Day/Week/Month]**: De beschikbare opties zijn afhankelijk van het geselecteerde datumbereik. Deze opties zijn identiek aan de **[!UICONTROL Interval]** als u het datumbereik selecteert, wordt die instelling automatisch bijgewerkt.
+      * **[!UICONTROL Day/Week/Month]**: De beschikbare opties zijn afhankelijk van het geselecteerde datumbereik. Deze opties zijn identiek aan de **[!UICONTROL Interval]** instellen wanneer u het datumbereik selecteert en automatisch wordt bijgewerkt.
       * **[!UICONTROL Custom brackets]**: Deze optie is alleen beschikbaar voor de instelling Bij elke. Hiermee kunt u gebruikers tellen over een groter tijdsbestek, bijvoorbeeld dag 7-10 in plaats van alleen dag 7.
    * **[!UICONTROL Duration settings]**: Staat u toe om de tijdsemmers te controleren die op de grafiek en de lijst worden getoond. Een tijdsduur is de periode na de startgebeurtenis dat de retourgebeurtenis heeft plaatsgevonden. Opmerking: gebruikers die in aanmerking komen voor tijdsemmers zijn gebaseerd op verstreken tijd, niet op kalenderdagen. Bijvoorbeeld, als een gebruiker voor een gebeurtenis om 11:55 PM op 6 September kwalificeert, dan voor een terugkeergebeurtenis om 12:05 AM op 7 September in aanmerking komt, zouden zij niet in het 1 dagduuremmertje verschijnen. Er moet een volledige periode van 24 uur verstrijken voordat de gebruiker in aanmerking komt voor het tijdsinterval van 1 dag. De beschikbare tijdsemmers zijn afhankelijk van het datumbereik dat u instelt.
       * **[!UICONTROL Auto durations]** Hiermee worden automatisch de tijdsemmers gedefinieerd op basis van de lengte van het datumbereik en de nabijheid van de huidige dag waarop het datumbereik zich bevindt.
