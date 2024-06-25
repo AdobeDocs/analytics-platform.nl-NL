@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cfdbbacc1c6f280e8959513d8073cd17c8699962
+source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 6%
@@ -24,7 +24,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Gegevenssets transformeren voor B2B-zoekopdrachten | Extra documentatie over hoe te om te steunen [persoonlijke raadplegingen op B2B-gegevens](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) gebruikend omzetting van B2B raadplegingsdatasets. |
 | Afgeleide veldfuncties en functiesjablonen | Toegevoegde documentatie over de aanvullende afgeleide veldfuncties ([Math](/help/data-views/derived-fields/derived-fields.md#math), [Volgende of Vorige](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) en [functiesjablonen](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Mei 2024** | |
-| Doelintegratie | Toegevoegd [artikel naar Adobe integratie sectie](/help/integrations/cja4t.md) op hoe te om Doel met Customer Journey Analytics te integreren. |
+| Doelintegratie | Toegevoegd [artikel naar Adobe integratie sectie](/help/integrations/at.md) op hoe te om Doel met Customer Journey Analytics te integreren. |
 | Vereiste informatie bij het exporteren van Customer Journey Analytics-rapporten naar het Google Cloud Platform terwijl er beperkingen van het organisatiebeleid gelden | De Adobe Cloud Platform-organisatie-id is toegevoegd aan de [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md) documentatie voor het exporteren van rapporten van Customers Journey Analytics naar Google Cloud Platform. <p>Deze informatie is alleen vereist voor organisaties die [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |
 | Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Gebruiksscenario&#39;s bij exporteren van gegevens | Set nieuwe artikelen met beschrijving [Gebruiksscenario&#39;s voor exporteren van gegevens](/help/use-cases/data-export/overview.md) en hoe Experience Platform- en Customer Journey Analytics-functies worden gebruikt om deze gebruiksgevallen te implementeren |
