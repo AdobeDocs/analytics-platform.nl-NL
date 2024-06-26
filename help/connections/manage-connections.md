@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
 workflow-type: tm+mt
 source-wordcount: '2976'
 ht-degree: 0%
@@ -51,7 +51,7 @@ De volgende kolommen of pictogrammen zijn beschikbaar in de tabel.
 | [!UICONTROL Import new data] | Toont het statuut van het invoeren van nieuwe gegevens voor datasets: <p>![Status groen](assets/status-green.svg))    **[!UICONTROL _x _Aan]**voor datasets die worden gevormd om nieuwe gegevens in te voeren, en<p>![Status grijs](assets/status-gray.svg)   **[!UICONTROL _x uit_]** voor datasets niet gevormd om nieuwe gegevens in te voeren. |
 | [!UICONTROL Date created] | De tijdstempel op het moment dat de verbinding werd gemaakt. |
 | [!UICONTROL Last modified] | De tijdstempel wanneer de verbinding voor het laatst is bijgewerkt. |
-| [!UICONTROL Backfill data] | Toont de status voor backfill gegevens over datasets.<p>![Status rood](assets/status-red.svg)   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills in verschillende gegevensreeksen,<p>![Status oranje](assets/status-orange.svg)   **[!UICONTROL _x _backfills-verwerking]**voor het aantal verwerkingsbackfills over gegevensreeksen,<p>![Status groen](assets/status-green.svg))   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide terugvullingen voor datasets, en<p>![Status grijs](assets/status-gray.svg)   **[!UICONTROL _Uit_]** als er geen backfills zijn gedefinieerd voor de gegevenssets in de verbinding. |
+| [!UICONTROL Backfill data] | Toont de status voor backfill gegevens over datasets.<p>![Status rood](assets/status-red.svg)   **[!UICONTROL _x _backfills mislukt]**voor het aantal mislukte backfills in verschillende gegevensreeksen,<p>![Status oranje](assets/status-orange.svg)   **[!UICONTROL _x _backfills-verwerking]**voor het aantal verwerkingsbackfills over gegevensreeksen,<p>![Status groen](assets/status-green.svg)   **[!UICONTROL _x _terugvullingen voltooid]**voor het aantal voltooide terugvullingen voor datasets, en<p>![Status grijs](assets/status-gray.svg)   **[!UICONTROL _Uit_]** als er geen backfills zijn gedefinieerd voor de gegevenssets in de verbinding. |
 
 Om te vormen welke kolommen om te tonen selecteren ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), die de **Tabel aanpassen** kunt u kolommen in de tabel in- of uitschakelen.
 
@@ -89,7 +89,7 @@ U kunt ook:
 
 Wanneer u een verbinding verwijdert, wordt een **[!UICONTROL Delete connection]** geeft aan welke gegevensweergaven worden verwijderd en welke werkruimteprojecten worden beïnvloed.
 
-<img src="./assets/delete-connection.png" alt="Verbinding verwijderen" width="400"/>
+![Verbinding verwijderen](assets/delete-connection.png)
 
 Selecteren **[!UICONTROL Continue]** om de verbinding te verwijderen.
 
