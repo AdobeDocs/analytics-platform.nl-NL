@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '7753'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Afgeleide velden
 
-Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Werkruimte](../../analysis-workspace/home.md) of zelfs het afgeleide veld nader te definiëren als een component in [Gegevens, weergave](../data-views.md).
+Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld als een component (metrisch of dimensionaal) gebruiken in [Workspace](../../analysis-workspace/home.md) of zelfs het afgeleide veld nader te definiëren als een component in [Gegevens, weergave](../data-views.md).
 
 Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten de Customer Journey Analytics. zoals [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)of binnen uw eigen ETL-processen (Extract Transform Load) / Extract Load Transform (ELT-processen).
 
@@ -607,9 +607,9 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 
 |  | Restricties |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Waarden *selecteren* binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Schermafbeelding van afhankelijkheid A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Alle waarden die u *set* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Schermafbeelding van afhankelijkheid B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | De waarden die u *selecteren* dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do *niet* moeten afkomstig zijn uit dezelfde container en moet *niet* moeten van hetzelfde type zijn. <br/> ![Screenshot van Dependency C](assets/dependency-c.png) |
+| **A** | Waarden *selecteren* binnen dezelfde [!UICONTROL If], [!UICONTROL Else If] construct (gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet afkomstig zijn van dezelfde container en kan van elk type zijn (tekenreeks ![String](assets/Smock_ABC_18_N.svg), numeriek ![Numeriek](assets/Smock_123_18_N.svg), enzovoort). <br/>![Schermafbeelding van afhankelijkheid A](assets/dependency-a.png) |
+| **B** | Alle waarden die u *set* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![Schermafbeelding van afhankelijkheid B](assets/dependency-b.png) |
+| **C** | De waarden die u *selecteren* dwars [!UICONTROL If], [!UICONTROL Else If] constructies in de regel do *niet* moeten afkomstig zijn uit dezelfde container en moet *niet* moeten van hetzelfde type zijn. <br/> ![Screenshot van Dependency C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -1151,7 +1151,7 @@ Een formule maken:
 1. Een statische waarde invoegen (bijvoorbeeld `1.05`), typt u de waarde en selecteert u **[!UICONTROL Add *x *als een statische waarde]**of **[!UICONTROL Add -*x* als een negatieve statische waarde]** in het pop-upmenu.
    ![Mathemagegevens 2](assets/math-more-info-2.png)
 
-1. Een groen vinkje ![Vinkje](./assets/checkmark.svg)</span> geeft aan of je wiskundige formule geldig is, anders wordt er een waarschuwing weergegeven <span style="color:red">![Waarschuwing](./assets/alert.svg)</span> en het bericht <span style="color:#ea3829">[!UICONTROL Invalid formula expression].</span>
+1. Een groen vinkje ![Vinkje](./assets/checkmark.svg)</span> geeft aan of je wiskundige formule geldig is, anders wordt er een waarschuwing weergegeven ![Waarschuwing](./assets/alert.svg) en het bericht [!UICONTROL Invalid formula expression].
    ![Math Meer informatie 3](assets/math-more-info-3.png)
 
 Er zijn enkele belangrijke overwegingen wanneer u werkt met statische getallen in het dialoogvenster [!UICONTROL MATH] functie:
@@ -1516,7 +1516,7 @@ Hiermee past u functies van het aggregatietype toe op metriek of dimensies op ge
 
 ## Hoofdletters gebruiken {#summarize-uc}
 
-U wilt Toevoegen aan winkelwagentje indelen in drie verschillende categorieën: Klein, Normaal en Groot. Dit staat u toe om de kenmerken van high-value klanten te analyseren en te identificeren.
+U wilt Toevoegen aan winkelwagentje categoriseren in drie verschillende categorieën: Klein, Medium en Groot. Dit staat u toe om de kenmerken van high-value klanten te analyseren en te identificeren.
 
 ### Gegevens voor {#summarize-uc-databefore}
 
@@ -1533,7 +1533,7 @@ Scenario&#39;s:
 Logica:
 
 - Als Totaal toevoegen aan winkelwagentje voor een bezoeker minder dan $150 is, ingesteld op Klein.
-- Als Totaal toevoegen aan winkelwagentje voor een bezoeker groter is dan $150, maar kleiner dan $500, ingesteld op Normaal.
+- Als Totaal toevoegen aan winkelwagentje voor een bezoeker groter is dan $150, maar kleiner dan $500, is ingesteld op Medium.
 - Als Totaal toevoegen aan winkelwagentje voor een bezoeker groter is dan of gelijk is aan $500, ingesteld op Groot.
 
 Resultaten:
@@ -1555,7 +1555,7 @@ U maakt een `Add To Cart Revenue Size` afgeleid veld. U gebruikt de [!UICONTROL 
 | Toevoegen aan grootte van winkelwagentje | Bezoekers |
 |---|--:|
 | Klein | 1 |
-| Normaal | 1 |
+| Medium | 1 |
 | Groot | 1 |
 
 {style="table-layout:auto"}

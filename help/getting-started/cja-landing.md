@@ -4,7 +4,7 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 2%
@@ -53,7 +53,7 @@ De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Cust
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-<span style="color:gray">*_U moet het Select-pakket of hoger hebben om de BI-extensie te kunnen gebruiken._</span>
+*_U moet het Select-pakket of hoger hebben om de BI-extensie te kunnen gebruiken._*
 
 
 <!--
@@ -135,7 +135,7 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe
   <tr style="border: 0;">
     <td>
       <img src="./assets/workspace.svg" width="35px"><br/>
-      <strong>Werkruimteprojecten</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Basis</a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md">Geavanceerde analyse</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Projecten</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualisaties</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Deelvensters</a>
+      <strong>Workspace-projecten</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Basis</a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md">Geavanceerde analyse</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Projecten</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualisaties</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Deelvensters</a>
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
