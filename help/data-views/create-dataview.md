@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 8ff130a20c719a594207f854ff3b85619f38b512
+source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1679'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,15 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 
 ### Compatibiliteit
 
+{{release-limited-testing-section}}
+
 Verstrekt montages die van toepassing zijn wanneer het gebruiken van Adobe Journey Optimizer naast Customer Journey Analytics.
+
+Deze sectie is alleen zichtbaar voor beheerders die zijn ingericht met Journey Optimizer.
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Instellen als standaardgegevensweergave in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage voor Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Hiermee kunt u ook een geavanceerde analyse van uw Adobe Journey Optimizer-gegevens in de Customer Journey Analytics uitvoeren (door [!UICONTROL **Analyseren in CJA**] in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een gegevensweergave voor Customers Journey Analytics om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.<p>**Opmerking:** Indien nodig, kunt u extra, handaanpassingen aan de datasets, dimensies, of metriek maken die in uw gegevensmeningen beschikbaar zijn die u voor zowel Journey Optimizer als Customer Journey Analytics, zoals die in wordt beschreven [Adobe Journey Optimizer integreren met Adobe Customer Journey Analytics](/help/integrations/ajo.md). </p></li></ul><p>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</p> |
+| [!UICONTROL **Instellen als standaardgegevensweergave in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage voor Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Hiermee kunt u ook een geavanceerde analyse van uw Adobe Journey Optimizer-gegevens in de Customer Journey Analytics uitvoeren (door ![Openen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **Analyseren in CJA**] in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een gegevensweergave voor Customers Journey Analytics om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van de Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li></ul>Zie [Adobe Journey Optimizer integreren met Adobe Customer Journey Analytics](/help/integrations/ajo.md) voor meer informatie . |
 
 {style="table-layout:auto"}
 
@@ -148,7 +152,7 @@ U kunt ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Sm
 
 ### Instellingen (filters)
 
-U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u uitvoert in Workspace. Sleep een filter van de lijst in de linkerspoorstaaf aan [!UICONTROL Add filters] veld.
+U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert. Sleep een filter van de lijst in de linkerspoorstaaf aan [!UICONTROL Add filters] veld.
 
 ### Sessieinstellingen
 
