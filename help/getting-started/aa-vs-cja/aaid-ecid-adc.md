@@ -4,7 +4,7 @@ description: Leer hoe de Analytics-bronconnector werkt met Adobe Analytics-ident
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
-source-git-commit: 0dc99750126ed5b88b1d1f2d4afc28acad0fe84e
+source-git-commit: 5c5f276711f39abb1b3f3b955ad99e17cb0ac09c
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Analytics-gegevens bevatten meerdere identiteitsvelden. Drie belangrijke i
 
 Adobe Analytics ID (AID) is de primaire apparaat-id in Adobe Analytics en is gegarandeerd aanwezig op elke gebeurtenis die via de Analytics-bronconnector wordt doorgegeven. AID wordt ook wel &quot;verouderde analysetoewijzing-id&quot; genoemd of `s_vi` cookie-id. Er wordt echter wel een STEUN ingesteld, zelfs als de `s_vi` cookie is niet aanwezig. STEUN wordt vertegenwoordigd door de `post_visid_high/post_visid_low` kolommen in [Adobe Analytics-gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html#columns%2C-descriptions%2C-and-data-types).
 
-In de bronconnector Analytics wordt AID omgezet in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html%5B%5D). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke gebeurtenis wordt aangegeven in het dialoogvenster `post_visid_type` kolom in Gegevensdoorvoer Analytics.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html).
+In de bronconnector Analytics wordt AID omgezet in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Het veld STEUN voor een bepaalde gebeurtenis bevat één identiteit die een van de verschillende typen kan zijn, zoals beschreven in [Bewerkingsvolgorde voor analytische id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html). (Binnen een volledige rapportreeks, kan AID een mengeling van types over gebeurtenissen bevatten. Het type voor elke gebeurtenis wordt aangegeven in het dialoogvenster `post_visid_type` kolom in Gegevensdoorvoer Analytics.) Zie ook: [Referentie gegevenskolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html).
 
 ## ECID
 
