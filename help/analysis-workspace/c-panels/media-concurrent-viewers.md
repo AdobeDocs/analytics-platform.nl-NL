@@ -4,9 +4,9 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ U kunt gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdig
 
 In Analysis Workspace is Gelijktijdige viewers het aantal unieke personen dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 
-Met het deelvenster Mediagelijktijdige viewers kunt u in de loop van de tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.  Navigeer naar een gegevensweergave als u het deelvenster Mediagelijktijdige viewers wilt openen en de componenten Media Analytics wilt inschakelen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+Met het deelvenster Mediagelijktijdige viewers kunt u in de loop van de tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.  Als u het deelvenster Mediagelijktijdige viewers wilt openen, navigeert u naar een gegevensweergave met componenten die zijn ingeschakeld via de invoegtoepassing voor het streamen van media-verzamelingen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
 
 Hier volgt een video-overzicht van dit deelvenster:
 
@@ -53,7 +53,7 @@ Als u reeksindeling hebt geselecteerd, worden een regel in het lijndiagram en ee
 
 ![De uitvoer van Mediagelijktijdige viewers.](assets/concurrent-viewers-output.png)
 
-### Gegevensbron
+### Data Source
 
 De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelijktijdige viewers:
 

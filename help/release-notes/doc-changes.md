@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '3726'
+source-wordcount: '3790'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Juni 2024** | |
+| Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn zowel beschikbaar in de documentatie van de Customer Journey Analytics als in de [Invoegdocumentatie voor streaming media Collection](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Op grafiek gebaseerde stitching | Bijgewerkt en geherstructureerd [documentatie over stitching](/help/stitching/overview.md) met de invoering van op grafiek gebaseerde stitching. |
 | AI-assistent | Toegevoegd [documentatie](../ai-assistant.md) in de AI Assistant voor Customer Journey Analytics. |
 | Gegevenssets transformeren voor B2B-zoekopdrachten | Extra documentatie over hoe te om te steunen [persoonlijke raadplegingen op B2B-gegevens](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) gebruikend omzetting van B2B raadplegingsdatasets. |
@@ -40,7 +41,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Nieuwe documentatie voor functies van Adobe Producten Analytics | <ul><li>[Eigenschappenmatrix](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Verbeterd [aanhoudingspercentages](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[Verbeterde inzichten in scheitrechter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Vergelijk gebeurtenissen binnen één enkele stap van het Kanaal</li></ul> |
 | **maart 2024** | |
 | Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt die gebruiksinformatie betreffende **Gebruikt in** kolom op de [bestemmingspagina](/help/getting-started/landing.md) gaat slechts terug tot september 2023. |
-| Toegevoegde documentatie over toestemmingenverhoging voor project-slechts componenten van de Werkruimte | Als u een project met andere gebruikers deelt, kunnen die gebruikers uitgeven [snelle filters](/help/components/filters/quick-filters.md) en andere projectgebonden componenten die in het gedeelde project zijn ingesloten. |
+| Toegevoegde documentatie over machtigingenverbetering voor Workspace-componenten die alleen voor een project bestemd zijn | Als u een project met andere gebruikers deelt, kunnen die gebruikers uitgeven [snelle filters](/help/components/filters/quick-filters.md) en andere projectgebonden componenten die in het gedeelde project zijn ingesloten. |
 | **Februari 2024** | |
 | Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [met u gedeelde projecten weergeven](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Azure SAS en Azure RBAC bij het configureren van exportlocaties voor cloud | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Azure SAS en Azure RBAC wanneer [cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md) en [cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md). |
@@ -71,7 +72,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Updates van de documentatie over Anomaly Detection | De documentatie voor Anomaly Detection was eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [Anomaly Detection](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) is direct onder de sectie Analysis Workspace geplaatst.</li></ul> |
 | **Oktober 2023** | |
 | Het gebruik van afgeleid gebied voor het plaatsen van doelstellingen/doelstellingen | Toegevoegd [use case](../use-cases/goals-using-derived-fields.md) artikel dat illustreert hoe u afgeleide velden kunt gebruiken voor het vaststellen van doelen / doelen en het rapporteren hierover . |
-| Volledige tabellen exporteren naar de cloud | Toegevoegde documentatie over het exporteren van volledige tabellen met miljoenen rijen in Workspace naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Werkruimte met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). |
+| Volledige tabellen exporteren naar de cloud | Er is documentatie toegevoegd over het exporteren van volledige tabellen met miljoenen Workspace-rijen naar cloudinstellingen. <p>Het uitvoeren van volledige lijsten biedt eenmalige of geplande levering van gegevenslijsten die binnen Workspace met steun voor maximaal vijf onderbrekingen, vijf metriek, filters, en berekende metriek, allen in een samengevoegde lijst worden ontworpen. Het is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak gevraagde eigenschappen die niet beschikbaar in de Data Warehouse vandaag zijn.</p><p>Zie voor meer informatie [Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). |
 | Activity Manager rapporteren | Toegevoegde documentatie voor de Manager van de Activiteit van de Rapportering. <p>De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke verbinding in uw organisatie zien. Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen.</p> <p>De volgende nieuwe artikelen zijn toegevoegd:<ul><li>[Overzicht van Activity Manager rapporteren](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[Rapportactiviteiten weergeven in de rapportagManager](/help/reporting-activity-manager/reporting-activity.md)</li><li>[Verzoeken annuleren in de Manager van de Activiteit van de Rapportering](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | Nieuwe kolommen op beheerpagina&#39;s | Gedocumenteerde nieuwe kolommen die nu beschikbaar zijn in de [Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) en de [Filterbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Vergelijking met Adobe Analytics | Toegevoegde [overzichtspagina](../getting-started/aa-vs-cja/overview.md) als inleiding bij het vergelijken en begrijpen van de verschillen tussen Customer Journey Analytics en Adobe Analytics. |
@@ -97,7 +98,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | **Juni 2023** | |
 | Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als de Customer Journey Analytics in staat en gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
 | PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics | De Customer Journey Analytics BI uitbreiding laat SQL toegang tot gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics Admins heeft toegang tot sommige extra gegevensmeningen in Customer Journey Analytics, getiteld &quot;AJO de mening van Gegevens (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
+| Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics Admins heeft toegang tot sommige extra gegevensmeningen in Customer Journey Analytics, getiteld &quot;de mening van Gegevens van AJO (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
 | Berekende metrische updates | De volgende updates zijn aangebracht in de berekende metriekdocumentatie om deze uit te lijnen met de huidige functionaliteit van de Customer Journey Analytics: <ul><li>De lijst met [berekende standaardwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Customer Journey Analytics</li><li>Bijgewerkte schermafbeeldingen en procedures in diverse berekende metrieartikelen </li></ul> |
 | **Mei 2023** | |
@@ -128,14 +129,14 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Vergelijk Customer Journey Analytics met de oplossingen van BI | Nieuw document op een [vergelijking](../getting-started/cja-vs-bi.md) van Customer Journey Analytics naar typische BI-oplossingen. |
 | Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie over [latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency). |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gemaakt, maakt de Adobe een Experience Platform [streaming segment voor elk nieuw publiek van de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
-| Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| Workspace-kalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/mobile-app/create-scorecard.md#show-comparison-dates) in de Customer Journey Analytics. |
 | **Januari 2023** | |
 | Tabellen filteren en sorteren | Bijgewerkte inhoud (inclusief het toevoegen van procedures en het uitleggen van beschikbare opties) in de [Tabellen filteren en sorteren](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artikel. De naam van dit artikel is gewijzigd in &quot;Paginering, filteren en sorteren van tabellen&quot;. |
 | Snelstarthulplijnen voor het invoeren van gegevens | Nieuwe documentatiesectie over hoe te [opnemen en gegevens gebruiken](/help/data-ingestion/data-ingestion.md) in de Customer Journey Analytics. |
-| Werkruimtemappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Gebruikersvoorkeuren voor werkruimte | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
-| Automatisch opslaan voor werkruimteprojecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| Workspace-mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Workspace-gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analysis-workspace/user-preferences.md). |
+| Automatisch opslaan voor Workspace-projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Openingspagina | Nieuwe updates van bestemmingspagina [landingspagina](/help/getting-started/landing.md). |
 | Workbooks plannen | Speciale pagina om te beschrijven hoe [Workbooks plannen](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 | Ondersteuning van objectarrays voor profiel- en opzoekgegevenssets | Bijgewerkt [Arrays van objecten gebruiken](/help/use-cases/object-arrays.md) en [Ingest Adobe Experience Platform-publiek](/help/use-cases/data-ingestion/ingest-aep-segments.md) om de steun van de objecten serie voor profiel en raadplegingsdatasets te weerspiegelen. |
@@ -189,7 +190,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | April 2022 | Nieuw [Gebruikershandleiding voor Customers Journey Analytics voor Adobe Analytics-gebruikers](/help/getting-started/aa-to-cja-user.md). |
 | **maart 2022** | |
 | Maart 2022 | Nieuw [Documentatie Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
-| Maart 2022 | Nieuwe documentatie over [Annotaties in werkruimte](/help/components/annotations/overview.md). |
+| Maart 2022 | Nieuwe documentatie over [Annotaties in Workspace](/help/components/annotations/overview.md). |
 | Maart 2022 | Significant bijgewerkte inhoud op [inschatten van verbindingsgrootte](/help/getting-started/cja-faq.md). |
 | **Februari 2022** | |
 | Februari 2022 | Een nieuwe handleiding voor beheerders die van Adobe Analytics naar Customer Journey Analytics gaan: [Adobe Analytics naar Customer Journey Analytics evolutie](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) |
@@ -225,7 +226,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Juni 2021 | Nieuwe documentatie over [vorige projectversies](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html#previous-version) in Workspace. |
 | **April 2021** | |
 | April 2021 | Nieuw onderwerp over [volharding](/help/data-views/component-settings/persistence.md). |
-| April 2021 | Nieuwe documentatie over steun voor geplande projecten in Werkruimte. |
+| April 2021 | Nieuwe documentatie over steun voor geplande projecten in Workspace. |
 | April 2021 | Nieuwe onderwerpen over de [Verbeterde weergave van gegevens](/help/data-views/data-views.md). |
 | April 2021 | Nieuwe onderwerpen over [gegevens van Googles Analytics opnemen](/help/use-cases/ga/overview.md) en [die gegevens analyseren](/help/use-cases/ga/report.md). |
 | April 2021 | Toegevoegd onderwerp op [geplande rapporten](/help/analysis-workspace/export/t-schedule-report.md) in Workspace. |

@@ -3,9 +3,10 @@ title: Deelvenster Gemiddelde media - geluid
 description: Het deelvenster Mediagemiddelde minuut in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 role: User, Admin
-source-git-commit: 907a627720910794d77f016d797f1b95d2d3ce13
+exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Het deelvenster Mediapubliek is een minieme keuze en is alleen beschikbaar voor klanten die de Media Analytics-invoegtoepassing voor Customer Journey Analytics hebben aangeschaft.
+>Het deelvenster Mediapubliek met een gemiddelde minuut is alleen beschikbaar voor klanten die de invoegtoepassing voor het streamen van media-verzamelingen voor Customer Journey Analytics hebben aangeschaft.
 >
->Neem contact op met uw Adobe-verkoper of accountteam van de Adobe om Media Analytics te kopen.
+>Neem contact op met uw Adobe-verkoper of accountteam van de Adobe om de invoegtoepassing voor de verzameling van streaming media aan te schaffen.
 
 In Analysis Workspace is het gemiddelde aantal minuten voor het publiek de tijd die nodig is om de mediastream weer te geven gedeeld door de duur van de inhoud of de totale selectie van de periode en de geselecteerde granulariteit.
 
@@ -34,7 +35,7 @@ Het gemiddelde minieme deelvenster van het publiek van Media biedt de volgende v
 
 ## Het deelvenster Gemiddelde minuten voor publiek in Media openen
 
-1. Ga in Analysis Workspace naar een rapportsuite met Media Analytics-componenten ingeschakeld.
+1. Ga in Analysis Workspace naar een rapportsuite met componenten die zijn ingeschakeld via de invoegtoepassing voor het streamen van media-verzamelingen.
 
 1. Selecteer in de linkernavigatiebalk de optie **Deelvensters** pictogram.
 
