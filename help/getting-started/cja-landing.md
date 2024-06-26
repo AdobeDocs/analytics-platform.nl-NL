@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,12 @@ De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in
 
 [![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
+>[!TAB Op grafiek gebaseerde stitching]
+
+Door op grafiek-gebaseerde het stitching, kunt u de identiteitsgrafiek van de Dienst van de Identiteit van het Experience Platform gebruiken om een betere mening van de klantenreis te krijgen door: <ul><li>Gegevenssets samenvoegen met verschillende id&#39;s zonder dat er aanvullende gegevens moeten worden opgehaald, getransformeerd en geladen om één id te weerspiegelen.</li> <li>Verbetering van de dekking van de preferente of gouden identiteit voor één gegevensset door identiteiten over gegevensreeksen te delen;</li><li>Profielen die in Real-time Customer Data Platform en Journey Optimizer zijn gemaakt, worden uitgelijnd op personen in Customer Journey Analytics.</li></ul>
+
+[![afbeelding](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
 >[!TAB B2B-zoekopdrachten]
 
 Als deel van het vormen van een verbinding, kunt u datasets voor specifieke B2B raadplegingsschema&#39;s omzetten om op persoon-gebaseerde raadplegingen op B2B- gegevens beter te steunen.
@@ -37,7 +43,7 @@ Als deel van het vormen van een verbinding, kunt u datasets voor specifieke B2B 
 
 >[!TAB Afgeleide velden]
 
-Nieuwe afgeleide veldfuncties (Math, Next of Previous) en extra functiesjablonen (zoals Stuiterwaarden, Naam van vriendelijke gegevensset, Seizoen voor vakantie, Maandelijkse doelen, Eenvoudige botdetectie en andere) zijn nu beschikbaar.
+Nieuwe afgeleide veldfuncties (Math, Volgende of Vorige, Samenvatten) en extra functiesjablonen (zoals Bounces, Friendly Dataset Name, Holiday Season, Monthly Goals, Simple Bot Detection, enzovoort) zijn nu beschikbaar.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
