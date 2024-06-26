@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: dca1cc33058ba57815c3534ab21da86d5247531a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ Er zijn verschillende opties voor het opnemen van gegevens in de Customer Journe
 >[!IMPORTANT]
 >
 >In alle scenario&#39;s, de gegevens u wilt _gebruiken_ in de Customer Journey Analytics _ingesloten_ in Adobe Experience Platform.
-
 
 Zie de architectuur van de Customer Journey Analytics op hoog niveau die vroeger in wordt getoond [Overzicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html):
 
@@ -43,6 +42,18 @@ Je kan veel van deze datasets hebben.
 
 In dit gedeelte van de documentatie vindt u snel handleidingen voor verschillende scenario&#39;s.
 
+## Ingestieprioriteit en latentie
+
+U kunt uw gebeurtenisgegevens binnen 90 minuten in de Customer Journey Analytics opnemen, ongeacht of de gegevens 24 uur, 48 uur of 7 dagen oud zijn.
+
+Merk op dat dit vermogen op het SKU-pakket verschilt uw bedrijf kocht:
+
+- Prioritaire Ingestie Basic: gegevens van 24 uur oud binnen 90 minuten SLT-verwerking (beschikbaar voor **CJA Foundation** en **CJA selecteren**)
+
+- Prioritaire Ingestietussenpersoon: gegevens van 72 uur oud binnen 90 minuten SLT-verwerking (beschikbaar voor **CJA Prime**)
+
+- Geavanceerde prioriteitsinname: 1 week oude gegevens binnen 90 minuten SLT-verwerking (beschikbaar voor **CJA Ultimate**)
+
 ## Gegevens van traditionele Adobe Analytics verzamelen en gebruiken
 
 Adobe Analytics is al geïmplementeerd en u wilt deze gegevens in Adobe Experience Platform opnemen en gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
@@ -50,23 +61,23 @@ Adobe Analytics is al geïmplementeerd en u wilt deze gegevens in Adobe Experien
 Zie [Gegevens van traditionele Adobe Analytics verzamelen en gebruiken](./analytics.md) voor meer informatie .
 
 
-## Gegevens verzamelen en gebruiken via Edge Network
+## Gegevens via de Edge Network invoegen en gebruiken
 
 ### De SDK van Adobe Experience Platform Web gebruiken
 
-U wilt uw website analyseren met de technologie van de Adobe, potentieel migrerend van een andere oplossing of begin het gedrag van uw persoon te volgen. U wilt de best practices van de Adobe voor de implementatie volgen. Hierbij worden de SDK&#39;s van Adobe Experience Platform en Edge Network gebruikt om de gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
+U wilt uw website analyseren met de technologie van de Adobe, potentieel migrerend van een andere oplossing of begin het gedrag van uw persoon te volgen. U wilt de best practices van de Adobe voor de implementatie volgen. Hierbij worden de SDK&#39;s en Edge Network van Adobe Experience Platform gebruikt om de gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Web SDK](./aepwebsdk.md) voor meer informatie .
 
 ### De Adobe Experience Platform Mobile SDK gebruiken
 
-U wilt uw mobiele app analyseren met behulp van Adobe-technologie, waarbij u mogelijk van een andere oplossing migreert of het gedrag van een persoon in de app vanaf het begin kunt volgen. U wilt de best practices van de Adobe voor de implementatie volgen. Hierbij worden de SDK&#39;s van Adobe Experience Platform en Edge Network gebruikt om de gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
+U wilt uw mobiele app analyseren met behulp van Adobe-technologie, waarbij u mogelijk van een andere oplossing migreert of het gedrag van een persoon in de app vanaf het begin kunt volgen. U wilt de best practices van de Adobe voor de implementatie volgen. Hierbij worden de SDK&#39;s en Edge Network van Adobe Experience Platform gebruikt om de gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Mobile SDK](./aepmobilesdk.md) voor meer informatie .
 
 ### De Adobe Experience Platform Edge Network Server-API gebruiken
 
-U wilt uw desktoptoepassing analyseren, zoals deze wordt afgespeeld op een spelconsole, het gebruik van een videostreamingtoepassing op een set-top box of uw IoT-apparaat met Adobe-technologie. Mogelijk migreert u van een andere oplossing of volgt u het gedrag van een persoon op deze apparaten vanaf het begin. U wilt de best practices van de Adobe voor de implementatie volgen. Hierbij worden de Adobe Experience Platform Edge Network Server-API&#39;s en Edge Network gebruikt om gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
+U wilt uw desktoptoepassing analyseren, zoals deze wordt afgespeeld op een spelconsole, het gebruik van een videostreamingtoepassing op een set-top box of uw IoT-apparaat met Adobe-technologie. Mogelijk migreert u van een andere oplossing of volgt u het gedrag van een persoon op deze apparaten vanaf het begin. U wilt de beste praktijken van de Adobe voor implementatie volgen, die de Server APIs en de Edge Network van de Edge Network van Adobe Experience Platform gebruikt, om de gegevens in te voeren. Vervolgens kunt u de opgenomen gegevens gebruiken, combineren en analyseren met gegevens uit andere kanalen en gegevensbronnen in de Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken via de Adobe Experience Platform Edge Network Server-API](./serverapi.md) voor meer informatie .
 
@@ -84,6 +95,6 @@ Zie [Streaming gegevens invoegen en gebruiken](./streaming.md) voor meer informa
 
 ## Gegevens verzamelen en gebruiken met behulp van bronconnectors
 
-U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. De bronschakelaars zijn configureerbare configuraties die u toestaan om gegevens van Adobe, eerste-partijtoepassing en derdetoepassing in Adobe Experience Platform in te voeren. Zie [Overzicht van bronconnectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
+U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. Source-connectors zijn configureerbare configuraties waarmee u gegevens van de Adobe, de toepassing van de eerste partij en van derden in Adobe Experience Platform kunt invoeren. Zie [Overzicht van Source-connectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [Gegevens verzamelen en gebruiken met behulp van bronconnectors](./sources.md) voor meer informatie .
