@@ -4,7 +4,7 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
+source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -90,7 +90,7 @@ De gegevensweergave heeft de naam **AJO Enable Data View (*naam sandbox*)**.
    - Alle metriek en dimensies die [!UICONTROL (AJO)] toegevoegd aan hun naam worden automatisch toegevoegd als deel van deze automatische configuratie.
    - Sommige metriek of afmetingen, die automatisch zijn toegevoegd, zijn gebaseerd op afgeleide gebieden. Deze afgeleide gebieden worden specifiek gecreeerd voor deze integratie. De metrische [!UICONTROL Landing Page Clicks (AJO)] is gebaseerd op de [!UICONTROL Landing Page Clicks] afgeleid veld.
    - Sommige metriek of dimensies hebben extra configuratie. Bijvoorbeeld: [!UICONTROL Spam Complaint (AJO)] heeft [!UICONTROL Format] en [!UICONTROL Include Exclude Values] toegepaste instellingen.
-   - Alle automatisch toegevoegde metriek en afmetingen hebben een contextetiket genoemd `:`*`name_of_metric_or_dimension`*. Bijvoorbeeld de [!UICONTROL Landing Page Clicks (AJO)] metrisch heeft het contextetiket `: Landing page clicks (AJO)`.
+   - Alle automatisch toegevoegde metriek en afmetingen hebben een contextetiket genoemd `:`*`name_of_metric_or_dimension`*. Bijvoorbeeld de [!UICONTROL Landing Page Clicks (AJO)] metrisch heeft het contextetiket `:Landing page clicks (AJO)`.
 
 - In de **[!UICONTROL Settings]** tab, er worden geen specifieke configuratiewaarden toegepast
 
