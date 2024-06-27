@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
+source-git-commit: 466bcd2d790dae9eccb5d9114a375c5b9666c435
 workflow-type: tm+mt
 source-wordcount: '3790'
 ht-degree: 6%
@@ -98,7 +98,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | **Juni 2023** | |
 | Kanaaloverschrijdende analyse en stitching | In afwachting van de aanstaande veranderingen om stitching toe te laten en verder te verduidelijken hoe de kanaalanalyse kan worden verhoogd gebruikend stitching, wordt de documentatie met betrekking tot de functionaliteit van de Analyse van het Kanaal uitgegeven om te verwijzen naar [kanaalanalyse](../use-cases/cross-channel/cross-channel.md) als de Customer Journey Analytics in staat en gebruikscase, en [Stiksel](../stitching/overview.md) als een belangrijke functie om dit te bereiken. |
 | PowerBI en Tableau toegang tot gegevensweergaven van Customers Journey Analytics | De Customer Journey Analytics BI uitbreiding laat SQL toegang tot gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. [Meer informatie](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics Admins heeft toegang tot sommige extra gegevensmeningen in Customer Journey Analytics, getiteld &quot;de mening van Gegevens van AJO (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |
+| Adobe Journey Optimizer-gegevensweergaven | Customer Journey Analytics Admins heeft toegang tot sommige extra gegevensmeningen in Customer Journey Analytics, getiteld &quot;de mening van Gegevens van AJO (zandbak-naam)&quot;. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration). |
 | Omrekening in valuta | Bijgewerkte documentatie voor [valutaomrekening](../data-views/component-settings/format.md#currency) ondersteuning. |
 | Berekende metrische updates | De volgende updates zijn aangebracht in de berekende metriekdocumentatie om deze uit te lijnen met de huidige functionaliteit van de Customer Journey Analytics: <ul><li>De lijst met [berekende standaardwaarden](/help/components/calc-metrics/default-calcmetrics.md) beschikbaar in Customer Journey Analytics</li><li>Bijgewerkte schermafbeeldingen en procedures in diverse berekende metrieartikelen </li></ul> |
 | **Mei 2023** | |
