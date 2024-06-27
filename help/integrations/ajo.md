@@ -4,9 +4,9 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 529dd2ed2af60f8b417a5bf7d728a201dad70218
+source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De verbinding heeft de naam **[!UICONTROL AJO Enabled Connection (*naam sandbox 
 
 | Naam gegevensset | Schema | Het type DataSet | Type gegevensbron | Persoon-id | Sleutel | Overeenkomende sleutel | Nieuwe gegevens importeren | Backfill-gegevens |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience.decisioning.`<br/>`propositions.scopeDetails.`<br/>`correlationID` | ![Status groen](assets/../../connections/assets/status-green.svg) Aan | ![Status grijs](assets/../../connections/assets/status-gray.svg) Uit |
+| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Status groen](assets/../../connections/assets/status-green.svg) Aan | ![Status grijs](assets/../../connections/assets/status-gray.svg) Uit |
 | [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![Status groen](assets/../../connections/assets/status-green.svg) Aan | ![Status grijs](assets/../../connections/assets/status-gray.svg) Uit |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Status groen](assets/../../connections/assets/status-green.svg) Aan | ![Status grijs](assets/../../connections/assets/status-gray.svg) Uit |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Status groen](assets/../../connections/assets/status-green.svg) Aan | ![Status grijs](assets/../../connections/assets/status-gray.svg) Uit |
@@ -87,10 +87,10 @@ De gegevensweergave heeft de naam **AJO Enable Data View (*naam sandbox*)**.
 
 
 - In de **Componenten** tab:
-   - Alle metriek en dimensies die **[!UICONTROL (AJO)]** toegevoegd aan hun naam worden automatisch toegevoegd als deel van deze automatische configuratie.
-   - Sommige metriek of afmetingen die automatisch zijn toegevoegd zijn gebaseerd op afgeleide gebieden. Deze afgeleide gebieden worden specifiek gecreeerd voor deze integratie. De maateenheid voor klikken op bestemmingspagina (AJO) is bijvoorbeeld gebaseerd op het afgeleide veld voor klikken op bestemmingspagina.
-   - Sommige metriek of dimensies hebben extra configuratie. Zo zijn er bijvoorbeeld instellingen voor Indeling en Inclusief waarden niet van toepassing op Spam Complaint (AJO).
-   - Alle automatisch toegevoegde metriek en afmetingen hebben een contextetiket genoemd **[!UICONTROL :*naam_van_metrisch_of_dimensie *]**. Bijvoorbeeld de[!UICONTROL Landing Page Clicks (AJO)] metrisch heeft het contextetiket [!UICONTROL :Landing page clicks (AJO)].
+   - Alle metriek en dimensies die [!UICONTROL (AJO)] toegevoegd aan hun naam worden automatisch toegevoegd als deel van deze automatische configuratie.
+   - Sommige metriek of afmetingen, die automatisch zijn toegevoegd, zijn gebaseerd op afgeleide gebieden. Deze afgeleide gebieden worden specifiek gecreeerd voor deze integratie. De metrische [!UICONTROL Landing Page Clicks (AJO)] is gebaseerd op de [!UICONTROL Landing Page Clicks] afgeleid veld.
+   - Sommige metriek of dimensies hebben extra configuratie. Bijvoorbeeld: [!UICONTROL Spam Complaint (AJO)] heeft [!UICONTROL Format] en [!UICONTROL Include Exclude Values] toegepaste instellingen.
+   - Alle automatisch toegevoegde metriek en afmetingen hebben een contextetiket genoemd `:`*`name_of_metric_or_dimension`*. Bijvoorbeeld de [!UICONTROL Landing Page Clicks (AJO)] metrisch heeft het contextetiket `: Landing page clicks (AJO)`.
 
 - In de **[!UICONTROL Settings]** tab, er worden geen specifieke configuratiewaarden toegepast
 
