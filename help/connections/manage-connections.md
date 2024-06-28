@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
+source-git-commit: c0599526e6a6a9ac9788a4ce29bcf44256b6c4df
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,12 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 ## Gebruik
 
-De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen.
+De [!UICONTROL Usage] de interface toont het gebruik van ingeklapte en te melden rijen over alle verbindingen. Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen. Naast controledoeleinden, kunt u UI van het Gebruik gebruiken om uw de vergunningsvernieuwing van de Customer Journey Analytics beter te plannen.
+
+U kunt een tijdbereik (tussen de laatste 6 maanden, het jaar tot op heden of de laatste 2 jaar) en een interval (tussen maandelijks of driemaandelijks) selecteren om het gebruik van de Customer Journey Analytics te controleren. De interface is verdeeld in twee secties:
+
+* Ingested rijen: totaal aantal rijen die worden ingevoerd/verzonden uit gebeurtenisdatasets over alle CJA Verbindingen, met inbegrip van verslagen die tijdens opname worden overgeslagen
+* Te rapporteren rijen: totaal aantal te rapporteren rijen die alle gebeurtenisgegevens over alle CJA-verbindingen bevatten
 
 ![gebruiksweergave](assets/usage-view.png)
 

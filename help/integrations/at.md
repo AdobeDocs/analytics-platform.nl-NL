@@ -1,25 +1,37 @@
 ---
-title: Doel integreren met Customer Journey Analytics
-description: Doel integreren met Customer Journey Analytics
+title: Doelrapportage in Adobe Customer Journey Analytics
+description: Adobe Target integreren met Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: 9691e60e0ecb4cb6b48355c653fa66d824560f80
+source-git-commit: b189776de8cadae3a93c717b6814f2130ab1be43
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
-# Doel integreren met Customer Journey Analytics
+# Doelrapportage in Adobe Customer Journey Analytics
 
-Adobe Target-klanten kunnen Customer Journey Analytics configureren als rapportagebron.
+Het doel Meldend in Customer Journey Analytics laat u toe om over de activiteiten van Adobe Target direct in Customer Journey Analytics te meten en te melden. Deze functionaliteit is vergelijkbaar met wat in Adobe Analytics (AA) via Analytics for Target (A4T) wordt uitgevoerd, maar met de connectiviteit aan Adobe Experience Platform (AEP).
 
-De belangrijkste voordelen zijn:
+Door de de opzoekdataset van de Indeling van de Doelclassificatie (die door gebrek in Experience Platform) in een Verbinding van de Customer Journey Analytics beschikbaar is toe te voegen, hebben de gebruikers nu juiste blootstelling aan de rapporteringshulpmiddelen van het Doel, de ordeattributie van het Doel, en andere eigenschappen. Met slechts enkele kleine voorbereidingen en aanpassingen in de gegevensweergave van de Customer Journey Analytics kunnen deze activiteiten onmiddellijk beschikbaar worden gesteld voor iedere gebruiker die de gegevens van Target rechtstreeks naar CJA wil verzenden.
+
+## Primaire voordelen
 
 * Marketers kunnen op elk gewenst moment dynamisch Customer Journey Analytics succeswaarden toepassen op activiteitenrapporten van het Doel. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Marketers kunnen gebruikmaken van functies voor Customers Journey Analytics, zoals het deelvenster Experimentatie, om de personalisatie van hun website verder te analyseren.
 * Marktdeelnemers kunnen één bron voor rapportage voor Adobe Journey Optimizer en Target hebben. Beide verpersoonlijkingsproducten kunnen met Customer Journey Analytics voor een holistische mening van uw Webverpersoonlijking worden verbonden.
+
+## Notities en overwegingen
+
+Zodra de Dataset van de Gebeurtenis van de Classificatie van het Doel aan een Verbinding CJA is toegevoegd, zijn er een paar kleine aanpassingen die binnen de Mening van Gegevens CJA moeten worden aangebracht zodra deze componenten als afmetingen zijn toegevoegd, die omvatten:
+
+* Vaststelling van persistentie om vergelijkbaar te zijn met hoe het in Doel wordt gevolgd (vraag een consultant van Target of de klant om de juiste instellingen te controleren).
+
+* Vaststelling van persistentie aan ALLE, waardoor meerdere doelactiviteiten gelijktijdig kunnen worden bijgehouden en niet door toekomstige of vorige activiteiten kunnen worden overschreven.
+
+## Meer gedetailleerde informatie
 
 Zie [Doelrapportage in Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) in de documentatie van het Doel voor meer informatie.
 
