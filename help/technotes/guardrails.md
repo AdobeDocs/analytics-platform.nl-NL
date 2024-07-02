@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: ffa7899b8ece8c39079ed64401ec6cad111e9a84
+source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1747'
 ht-degree: 5%
 
 ---
@@ -58,8 +58,6 @@ Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pa
 
 <!--
 ## Attribution AI
-
-
 
 | Name |  Value | Description | PD? |
 |---|--:|---|:---:|
@@ -158,9 +156,19 @@ Zie ook Experience Platform [Gegevensset exporthulplijnen](https://experiencelea
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Datasets met titels | 5 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant; de waarde varieert afhankelijk van het pakket van de Customer Journey Analytics (zie de Beschrijving van het Product). |
-| Backfill-gegevens | 60 - 395 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen met back-upgegevens; de waarde hangt af van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
+| Lengte achtergrondvulling | 6 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden backfill-gegevens; de waarde hangt af van het pakket Customer Journey Analytics (zie Productbeschrijving). |
+| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie; de waarde varieert afhankelijk van het pakket van de Customer Journey Analytics (zie de Beschrijving van het Product). |
 
 {style="table-layout:auto"}
+
+
+## Op grafiek gebaseerde stitching
+
+| Naam | Waarde | Limiettype | Beschrijving |
+|---|--:|---|---|
+| Datasets met titels | 10 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant; de waarde varieert afhankelijk van het pakket van de Customer Journey Analytics (zie de Beschrijving van het Product). |
+| Lengte achtergrondvulling | 13 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden backfill-gegevens; de waarde hangt af van het pakket Customer Journey Analytics (zie Productbeschrijving). |
+| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie; de waarde varieert afhankelijk van het pakket van de Customer Journey Analytics (zie de Beschrijving van het Product). |
 
 
 ## Filters en berekende metriek
@@ -223,10 +231,10 @@ Zie ook Experience Platform [Gegevensset exporthulplijnen](https://experiencelea
 | Gegevensstroom | Verwachte vertraging |
 |---|---|
 | Adobe Analytics naar Adobe Analytics Source Connector (A4T ingeschakeld) | &lt; 30 minuten |
-| Adobe Analytics Source Connector to Real-time Customer Profile (A4T niet ingeschakeld) | &lt; 2 minuten |
-| Adobe Analytics Source Connector voor Real-time klantprofiel (A4T ingeschakeld) | &lt; 30 minuten |
+| Adobe Analytics Source Connector voor realtime klantprofiel (A4T niet ingeschakeld) | &lt; 2 minuten |
+| Adobe Analytics Source Connector voor realtime klantprofiel (A4T ingeschakeld) | &lt; 30 minuten |
 | Gegevensinsluiting in Data Lake van Edge Network- of streaming inscriptie | &lt; 60 minuten |
-| Gegevensinname in Data Lake van Adobe Analytics Source Connector | &lt; 2,25 uur |
+| Gegevensinname in Data Lake vanaf Adobe Analytics Source Connector | &lt; 2,25 uur |
 | Gegevensinname in Customer Journey Analytics van Data Lake | &lt; 90 minuten |
 | Plaatsen (optionele functie; zie [Overzicht van tekenreeksen](../stitching/overview.md) voor meer informatie ) | &lt; 3,25 uur |
 | Adobe Analytics Source Connector Backfill van minder dan 10 miljard gebeurtenissen (maximaal 13 maanden historische gegevens) | &lt; 4 weken |

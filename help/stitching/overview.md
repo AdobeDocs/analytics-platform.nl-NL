@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
+source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3723'
 ht-degree: 1%
 
 ---
@@ -345,13 +345,13 @@ Zodra uw organisatie aan allen voldoet [voorwaarden](#prerequisites) en begrijpt
 
 ### Opties
 
-Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics bepaalt beschikbare opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets die voor het stitching worden toegestaan.
+Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics bepaalt beschikbare opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets die voor het stitching worden toegestaan. Zie de [Productbeschrijving Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer informatie .
 
 | | Customer Journey Analytics<br/>Selecteren | Customer Journey Analytics<br/>Eerste | Customer Journey Analytics<br/>Ultieme |
 |---|---|---|---|
 | Eenmalige duur van de backfill-functie | 13 maanden | 13 maanden | 25 maanden |
 | Zoekvenster en herhalingsfrequentie | <li>1 dag, elke dag</li><li>tot 7 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 14 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 30 dagen, wekelijks</li> |
-| Maximumaantal gegevenssets dat is toegestaan voor stitching | 5 | 10 | 15 |
+| Maximumaantal gegevenssets dat is toegestaan voor stitching | 5 | 10 | 50 |
 
 ### Ondersteuning aanvragen
 
