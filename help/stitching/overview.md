@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
+source-git-commit: 805eb9dc9ab287934dd15eb56d3ac35187c979d7
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3752'
 ht-degree: 1%
 
 ---
@@ -323,6 +323,11 @@ De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde s
 
 - De gebeurtenisdataset in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet één kolom hebben die een bezoeker op elke rij, identificeert **blijvende id**. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Cloud.
 - De identiteitsgrafiek van de Dienst van de Identiteit van het Experience Cloud moet een namespace (bijvoorbeeld `Email`, of `Phone`) die u tijdens het stikken wilt gebruiken om het **transient ID**. Zie [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer informatie .
+
+>[!NOTE]
+>
+>U doet dat **niet** een Real-time Customer Data Platform-licentie vereisen voor op grafiek gebaseerde stitching. De **Selecteren** of hoger pakket Customer Journey Analytics bevat de vereiste rechten voor de gebruikersidentiteitsservice.
+
 
 
 ### Beperkingen
