@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: ea5209d8729a024126e9b9de32e737e87b08a0ef
+source-git-commit: 24ae90545664c318c6d86a3553fd1077993af4b0
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 2%
+source-wordcount: '745'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >id="cja_workspace_fundamentals"
 >title="Analysis Workspace Grondbeginselen"
 >abstract="Volg de rondleiding hieronder om een aantal grondbeginselen van Analysis Workspace te leren, zoals het bouwen van een tabel, het toevoegen van een visualisatie, het wijzigen van uw datumbereik en meer."
->additional-url="https://experience.adobe.com/#/@demosystem4/platform/analytics/?AnalyticsUI-core_version=prod20240625165945" text="Rondleiding"
+>additional-url="https://images-tv.adobe.com/mpcv3/7381/7a0633f8-972f-4367-a2ed-b169981efa7b_1681135724.854x480at800_h264.mp4" text="Overzicht van Analysis Workspace"
 
 Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en projecten met iedereen te delen en te plannen u kiest.
 
