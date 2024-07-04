@@ -5,16 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
+source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
 workflow-type: tm+mt
-source-wordcount: '3752'
+source-wordcount: '3793'
 ht-degree: 1%
 
 ---
 
 # Stiksel
 
-{{select-package}}
+>[!NOTE]
+>
+>U moet beschikken over **Selecteren** verpakking of hoger (voor veldomstandigheden) of **Eerste** pakket of hoger (voor op een grafiek gebaseerde stitching) om de functionaliteit te gebruiken die in deze sectie wordt beschreven. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+
 
 Identiteitsstitching (of eenvoudig, stitching) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse verhoogt. De analyse van het dwars-kanaal is een belangrijkste gebruiksgeval dat de Customer Journey Analytics kan behandelen, toestaand u om rapporten naadloos op veelvoudige datasets van verschillende kanalen te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoonID) wordt gebaseerd.
 
@@ -189,7 +192,7 @@ De volgende voorwaarden zijn specifiek van toepassing op veldomstandigheden:
 
 - De dataset van de gebeurtenis in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet twee kolommen hebben die bezoekers helpen identificeren:
 
-   - A **blijvende id**, een id die beschikbaar is op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Cloud.
+   - A **blijvende id**, een id die beschikbaar is op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Platform.
    - A **transient ID**, een id die alleen op bepaalde rijen beschikbaar is. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Stitching beschouwt dit gebied om de daadwerkelijke informatie van persoonidentiteitskaart te houden. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van de Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
 - Beide kolommen (blijvende identiteitskaart en voorbijgaande identiteitskaart) moeten als identiteitsgebied met een identiteitsnaamruimte in het schema voor de dataset worden bepaald u wilt heksen. Als u identiteitsstitching gebruikt in Real-time Customer Data Platform, kunt u de opdracht [`identityMap` veldgroep](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), moet u nog identiteitsgebieden met een identiteitsnaamruimte toevoegen. Deze identificatie van identiteitsvelden is vereist omdat het stitching van de Customer Journey Analytics geen ondersteuning biedt voor de `identityMap` veldgroep. Wanneer u een identiteitsveld toevoegt in het schema en ook de opdracht `identityMap` veldgroep, stel het extra identiteitsveld niet in als primaire identiteit. Als u een extra identiteitsveld instelt als primaire identiteit, wordt `identityMap` veldgroep gebruikt voor Real-time Customer Data Platform.
@@ -321,13 +324,12 @@ In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar zi
 
 De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde stitching:
 
-- De gebeurtenisdataset in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet één kolom hebben die een bezoeker op elke rij, identificeert **blijvende id**. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Cloud.
-- De identiteitsgrafiek van de Dienst van de Identiteit van het Experience Cloud moet een namespace hebben (bijvoorbeeld `Email`, of `Phone`) die u tijdens het stikken wilt gebruiken om het **transient ID**. Zie [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer informatie .
+- De gebeurtenisdataset in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet één kolom hebben die een bezoeker op elke rij, identificeert **blijvende id**. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Platform.
+- De identiteitsgrafiek van de Dienst van de Identiteit van het Experience Platform moet een namespace hebben (bijvoorbeeld `Email`, of `Phone`) die u tijdens het stikken wilt gebruiken om het **transient ID**. Zie [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer informatie .
 
 >[!NOTE]
 >
->U doet dat **niet** een Real-time Customer Data Platform-licentie vereisen voor op grafiek gebaseerde stitching. De **Selecteren** of hogere pakketten Customer Journey Analytics bevatten de vereiste rechten voor de gebruikersidentiteitsservice.
-
+>U doet dat **niet** een Real-time Customer Data Platform-licentie vereisen voor op grafiek gebaseerde stitching. De **Eerste** het pakket of hoger van de Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van het Experience Platform.
 
 
 ### Beperkingen
