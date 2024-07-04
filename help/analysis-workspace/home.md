@@ -6,14 +6,20 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ea5209d8729a024126e9b9de32e737e87b08a0ef
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 3%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
-# Overzicht van Analysis Workspace
+# Overzicht van Analysis Workspace {#analysis-workspace-overview}
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_fundamentals"
+>title="Analysis Workspace Grondbeginselen"
+>abstract="Volg de rondleiding hieronder om een aantal grondbeginselen van Analysis Workspace te leren, zoals het bouwen van een tabel, het toevoegen van een visualisatie, het wijzigen van uw datumbereik en meer."
+>additional-url="https://experience.adobe.com/#/@demosystem4/platform/analytics/?AnalyticsUI-core_version=prod20240625165945" text="Rondleiding"
 
 Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en projecten met iedereen te delen en te plannen u kiest.
 
@@ -108,7 +114,7 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 
 * Adobe biedt honderden [Zelfstudies voor videotraining voor analyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
 * Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) voor updates over nieuwe functies.
-* Een geweldige manier om kennis te maken met Analysis Workspace is via het model voor zelfstudie over Analysis Workspace Training. Dit malplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. De zelfstudie starten:
-   1. Op de [!UICONTROL **Werkruimte**] in Adobe Analytics selecteert u **[!UICONTROL Learning]** links.
+* Een geweldige manier om kennis te maken met Analysis Workspace is via het model voor zelfstudie over Analysis Workspace Training. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace. De zelfstudie starten:
+   1. Op de [!UICONTROL **Workspace**] in Adobe Analytics selecteert u **[!UICONTROL Learning]** links.
    1. Selecteren **[!UICONTROL Open Tutorial]**.
       ![](assets/training-tutorial.png)
