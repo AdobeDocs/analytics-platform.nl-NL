@@ -4,19 +4,25 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 4ed05334a3866ec784901d273fcb13bd24b2d449
+source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 14%
 
 ---
 
 # Kenmerk, deelvenster {#attribution-panel}
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution"
+>id="cja_workspace_attribution_button"
 >title="Attributie"
 >abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Deelvenster Attribution IQ"
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_attribution_panel"
+>title="Kenmerk, deelvenster"
+>abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters **<br/>**Kanaal**<br/> De dimensie aan attribuut tegen. Dit kunnen marketingkanalen, campagnes of andere dimensies zijn.<br/>**Modellen**<br/> Het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**Venster Opzoeken**<br/> Deze instelling bepaalt het venster met gegevenstoewijzing waarop elke conversie wordt toegepast."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Deelvenster Attribution IQ"
 
 
