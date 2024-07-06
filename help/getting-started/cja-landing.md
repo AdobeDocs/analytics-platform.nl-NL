@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,13 @@ De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in
 
 [![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB Op grafiek gebaseerde stitching]
+>[!TAB Op grafiek gebaseerde stitching*]
 
 Door op grafiek-gebaseerde het stitching, kunt u de identiteitsgrafiek van de Dienst van de Identiteit van het Experience Platform gebruiken om een betere mening van de klantenreis te krijgen door: <ul><li>Gegevenssets samenvoegen met verschillende id&#39;s zonder dat er aanvullende gegevens moeten worden opgehaald, getransformeerd en geladen om één id te weerspiegelen.</li> <li>Verbetering van de dekking van de preferente of gouden identiteit voor één gegevensset door identiteiten over gegevensreeksen te delen;</li><li>Profielen die in Real-time Customer Data Platform en Journey Optimizer zijn gemaakt, worden uitgelijnd op personen in Customer Journey Analytics.</li></ul>
 
 [![afbeelding](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
+*_U moet beschikken over het eerste pakket voor op een grafiek gebaseerde stitching._*
 
 >[!TAB B2B-zoekopdrachten]
 
