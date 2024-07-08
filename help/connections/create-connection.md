@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
+source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '3031'
 ht-degree: 1%
 
 ---
@@ -72,15 +72,33 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
 
 1. Selecteer in het dialoogvenster Verbindingsinstellingen **[!UICONTROL Add datasets]**.
 
-2. In de [!UICONTROL Select datasets] stap, selecteer één of meerdere datasets en selecteer **[!UICONTROL Next]**. Minstens één gebeurtenisdataset moet deel van de verbinding uitmaken.
+1. In de [!UICONTROL Select datasets] stap, ziet u een lijst van de datasets van het Experience Platform.
+
+   ![Gegevenssets selecteren](assets/select-datasets.png)
+
+   Voor elke dataset, toont de lijst:
+
+   | Kolom | Beschrijving |
+   |---|---|
+   | Gegevensset | Naam van de gegevensset. Selecteer de naam om u naar de dataset in Experience Platform te leiden. Selecteren ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) om popup met meer details voor de dataset te tonen. In de pop-up kunt u selecteren **[!UICONTROL Edit in Platform]** om de dataset direct in Experience Platform uit te geven. |
+   | Het type DataSet | Het type gegevensset: Gebeurtenis, Profiel of Opzoeken. |
+   | Aantal records | Het aantal verslagen beschikbaar in de laatste partij van de dataset in Experience Platform. |
+   | Schema | Het schema waarop de dataset is gebaseerd. Selecteer de naam om u naar het schema in Experience Platform te leiden. |
+   | Laatste batch | De status van de laatste batch die in het Experience Platform is opgenomen. Zie [Batchstaten](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) meer informatie . |
+   | Dataset-id | De id van de gegevensset. |
+   | Laatst bijgewerkt | De laatst bijgewerkte tijdstempel van de gegevensset. |
+
+
+1. Selecteer een of meer datasets en selecteer **[!UICONTROL Next]**. Minstens één gebeurtenisdataset moet deel van de verbinding uitmaken.
    * Als u de kolommen wilt wijzigen die worden weergegeven voor de lijst met gegevenssets, selecteert u ![Kolominstellingen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) en selecteer de kolommen die moeten worden weergegeven in het dialoogvenster [!UICONTROL Customize table] in.
    * Om naar een specifieke dataset te zoeken, gebruik ![Zoeken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) zoekveld.
    * Selecteer ![Selecteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Hide selected]** of **[!UICONTROL Show selected]**.
    * Om een dataset uit de lijst van geselecteerde datasets te verwijderen, gebruik ![Sluiten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Als u alle geselecteerde gegevenssets wilt verwijderen, selecteert u **[!UICONTROL Clear all]**.
 
-   ![Gegevenssets selecteren](assets/select-datasets.png)
 
-3. Nu, vorm de datasets één voor één.
+
+
+1. Nu, vorm de datasets één voor één.
 
    ![Gegevenssets configureren](assets/add-dataset.png)
 
@@ -91,7 +109,7 @@ Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoege
    | **[!UICONTROL Key]** | Alleen beschikbaar voor opzoekgegevenssets. De sleutel aan gebruik voor een dataset van de Opzoeken. |
    | **[!UICONTROL Matching key]** | Alleen beschikbaar voor opzoekgegevenssets. De passende sleutel om zich aan te sluiten in één van de gebeurtenisdatasets. Als deze lijst leeg is, hebt u waarschijnlijk geen gebeurtenisdataset toegevoegd of gevormd. |
    | **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/>De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-   | **[!UICONTROL Import new data]** | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in Werkruimte stromen. Kan worden ingesteld op [!UICONTROL On] of [!UICONTROL Off]. |
+   | **[!UICONTROL Import new data]** | Selecteer deze optie als u een aan de gang zijnde verbinding wilt vestigen, zodat om het even welke nieuwe gegevensbatches die aan de datasets in deze verbinding worden toegevoegd automatisch in Workspace stromen. Kan worden ingesteld op [!UICONTROL On] of [!UICONTROL Off]. |
    | **[!UICONTROL Dataset backfill]** | Inschakelen **[!UICONTROL Backfill all existing data]** om ervoor te zorgen dat er een back-up wordt gemaakt van alle bestaande gegevens.<br/><br/>Selecteren **[!UICONTROL Request backfill]** historische gegevens voor een bepaalde periode te herstellen. U kunt tot 10 periodes van de datasetbackfill bepalen.<ol><li>De periode definiëren door begin- en eindgegevens in te voeren of datums te selecteren ![Kalender](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Selecteren **[!UICONTROL Queue backfill]** om de backfill aan de lijst toe te voegen, of **[!UICONTROL Cancel]** om te annuleren.</li></ol>Selecteer voor elk item ![Bewerken](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) om de punt te bewerken of selecteer ![Verwijderen](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) om de vermelding te verwijderen.<br/><br/>Op terugvullingen:<ul><li>U kunt elke dataset afzonderlijk terugvullen.</li><li>U geeft voorrang aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat heeft dit nieuwe gegeven de laagste latentie.</li><li>Alle backfill (historische) gegevens worden langzamer geïmporteerd. De latentie wordt beïnvloed door hoeveel historische gegevens u hebt.</li><li>De bronschakelaar van de Analyse voert tot 13 maanden van gegevens (ongeacht grootte) voor productiesandboxen in. De back-up van niet-productiesandboxen is beperkt tot 3 maanden.</li></ul> |
    | **[!UICONTROL Transform dataset]** | Voor specifieke B2B raadplegingsdatasets kunt u de transformatie van een dataset voor juiste B2B op persoon-gebaseerde rapporteringsscenario&#39;s toelaten. Zie [Gegevenssets transformeren voor B2B-zoekopdrachten](transform-datasets-b2b-lookups.md) voor meer informatie . |
    | **[!UICONTROL Backfill status]** | Mogelijke statusindicatoren zijn:<ul><li>Succes</li><li>X backfill(s) verwerken</li><li>Uit</li></ul> |
