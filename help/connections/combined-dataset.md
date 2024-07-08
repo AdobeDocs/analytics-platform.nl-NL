@@ -5,9 +5,9 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
+source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Gecombineerde gegevenssets voor gebeurtenissen
 
-Wanneer u een verbinding creeert, combineert de Customer Journey Analytics alle gebeurtenisdatasets in één enkele dataset. Deze gecombineerde gebeurtenisdataset is wat de Customer Journey Analytics voor het melden (samen met profiel en raadplegingsdatasets) gebruikt. Wanneer u veelvoudige gebeurtenisdatasets in een verbinding omvat:
+Wanneer u een verbinding creeert, combineert de Customer Journey Analytics alle gebeurtenisdatasets in één enkele dataset. Deze gecombineerde gebeurtenisdataset is wat de Customer Journey Analytics voor het melden (samen met profiel en raadplegingsdatasets) gebruikt. Wanneer u meerdere gebeurtenisgegevenssets in een verbinding opneemt:
 
 * De gegevens voor velden in gegevensreeksen op basis van de **hetzelfde schema-pad** worden samengevoegd tot één kolom in de gecombineerde gegevensset.
 * De kolom Person ID, die voor elke dataset wordt gespecificeerd, wordt samengevoegd in één kolom in de gecombineerde dataset, **ongeacht hun naam**. Deze kolom vormt de basis voor het identificeren van unieke personen in Customer Journey Analytics.
@@ -48,9 +48,9 @@ Kijk eens naar het volgende voorbeeld. U hebt twee gebeurtenisdatasets, elk met 
 Wanneer u een verbinding gebruikend deze twee gebeurtenisdatasets creeert en hebt geïdentificeerd
 
 * `example_id` als Persoon-id voor de eerste gegevensset, en
-* `different_id` als Persoon-id voor de tweede gegevensset,
+* `different_id` persoons-id voor de tweede gegevensset;
 
-de volgende gecombineerde gegevensset wordt gebruikt voor de rapportage.
+de volgende gecombineerde gegevensset wordt gebruikt voor rapportage.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -64,13 +64,13 @@ de volgende gecombineerde gegevensset wordt gebruikt voor de rapportage.
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Om het belang van schemawegen te illustreren, overweeg dit scenario. In de eerste gegevensset `string_color` is gebaseerd op een schemapad `_experience.whatever.string_color` en in de tweede dataset op schemaweg  `_experience.somethingelse.string_color`. In dit scenario zijn de gegevens **niet** samengevoegd tot één kolom in de resulterende gecombineerde dataset. In plaats daarvan is het resultaat twee `string_color` kolommen in de gecombineerde gegevensset.
+Bekijk dit scenario ter illustratie van het belang van schemapaden. In de eerste gegevensset `string_color` is dit gebaseerd op het schemapad `_experience.whatever.string_color` en in de tweede gegevensset op schemapad  `_experience.somethingelse.string_color`. In dit scenario worden **de gegevens niet** samengevoegd in één kolom van de resulterende gecombineerde gegevensset. In plaats daarvan bestaat het resultaat uit twee `string_color` kolommen in de gecombineerde gegevensset.
 
-Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is. Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie.
+Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij komt. Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie. Velden met identieke schemapaden worden samengevoegd.
 
-Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke dataset een rij afkomstig is; de attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
+Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke dataset een rij komt; attributie werkt precies alsof alle gebeurtenissen afkomstig zijn uit één gegevensset. Met de bovenstaande tabellen als voorbeeld:
 
-Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend een rapport gebruikend `string_color` dimensie en `metric_a` Metrisch met laatste aanraakkenmerk geeft het volgende weer:
+Als uw verbinding alleen de eerste tabel bevatte en niet de tweede, toont u het volgende als u een rapport ophaalt met de afmetingen en `metric_a` de `string_color` metriek via de laatste aanraking:
 
 | string_color | metrisch_a |
 | --- | --- |
@@ -86,21 +86,25 @@ Als u echter beide tabellen hebt opgenomen in uw verbinding, verandert de toewij
 | Blauw | 3 |
 | Rood | 2 |
 
-## Kanaaloverschrijdende analyse
+>[!NOTE]
+>
+>Als een samengevoegd gebied een raadplegingssleutel voor één gebeurtenisdataset in de verbinding is, zal de bijbehorende raadplegingsdataset verrijken *alles* waarden van dat veld. Het maakt niet uit van welke gebeurtenisset een rij komt, omdat de zoekrelatie is gekoppeld aan het pad van het gedeelde schema.
 
-Het volgende niveau van het combineren van datasets is kanaalanalyse, waar datasets van verschillende kanalen worden gecombineerd, die op een gemeenschappelijke herkenningsteken (identiteitskaart van de Persoon) wordt gebaseerd. De analyse over kanalen kan van het stitching functionaliteit profiteren, die u toestaat om identiteitskaart van de Persoon van een dataset opnieuw te bepalen zodat wordt de dataset behoorlijk bijgewerkt om een naadloze combinatie veelvoudige datasets toe te laten. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt een aangesloten id gegenereerd.
+## Cross-channel analyse
+
+Het volgende niveau bij het combineren van gegevenssets is cross-channel analyse, waarbij gegevenssets van verschillende kanalen worden gecombineerd op basis van een gemeenschappelijke id (Persoon-ID). Cross-channel-analyse kan profiteren van stitching-functionaliteit, waardoor u de Persoonlijke ID van een gegevensset opnieuw kunt toetsen, zodat de gegevensset correct wordt bijgewerkt voor een naadloze combinatie van meerdere gegevenssets. Stitching kijkt naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies om een samengevoegde id te genereren.
 
 Met de kanaalanalyse kunt u vragen beantwoorden zoals:
 
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
 * Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt de campagne klikdoorhalingen die op één apparaat landen tot omschakeling elders?
-* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik apparatuurreizen bekijk? Hoe verandert mijn trechter-analyse?
-* Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
-* Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
+* Hoe verandert mijn begrip van de effectiviteit van een campagne als ik reizen met verschillende apparaten overweeg? Hoe verandert mijn trechteranalyse?
+* Wat zijn de meest gangbare paden die gebruikers van het ene apparaat naar het andere nemen? Waar vallen ze af? Waar slagen ze in?
+* Waarin verschilt het gedrag van gebruikers met meerdere apparaten van die van gebruikers met één apparaat?
 
 
-Raadpleeg het specifieke geval van gebruik voor meer informatie over kanaalanalyse:
+Raadpleeg de specifieke situatie voor meer informatie over cross-channel-analyse:
 
 * [Kanaaloverschrijdende analyse](../use-cases/cross-channel/cross-channel.md)
 
