@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
 workflow-type: tm+mt
-source-wordcount: '7753'
+source-wordcount: '7746'
 ht-degree: 2%
 
 ---
@@ -381,9 +381,6 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
 - beperkingen (indien van toepassing).
 
->[!NOTE]
->
->De naam van de opzoekfunctie is gewijzigd in [Classificeren](#classify). Zie de [Classificeren](#classify) voor meer informatie.
 
 <!-- CASE WHEN -->
 
@@ -622,10 +619,6 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 Definieert een set waarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
 
 +++ Details
-
->[!NOTE]
->
->Deze functie heette oorspronkelijk Opzoeken, maar is hernoemd naar Classificeren om plaats te maken voor de opzoekfunctie met andere functionaliteit.
 
 ## Specificaties {#classify-io}
 
@@ -1027,6 +1020,8 @@ U definieert een `Activity Name` afgeleid veld. U gebruikt de [!UICONTROL LOOKUP
 ![Schermafbeelding van de regel Kleine letters](assets/lookup.png)
 
 ## Meer informatie {#lookup-more-info}
+
+De functie van de Opzoekopdracht wordt toegepast in rapporttijd aan de gegevens die door Customer Journey Analytics van de raadplegingsdataset worden teruggewonnen u als deel van uw verbinding hebt gevormd.
 
 U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer, die reeds één of meerdere andere functies bevat.
 
