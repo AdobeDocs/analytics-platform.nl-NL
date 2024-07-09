@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
+source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
 workflow-type: tm+mt
-source-wordcount: '3809'
+source-wordcount: '3817'
 ht-degree: 1%
 
 ---
@@ -350,9 +350,9 @@ De volgende beperkingen zijn specifiek van toepassing op op grafiek gebaseerde s
 
 Zodra uw organisatie aan allen voldoet [voorwaarden](#prerequisites) en begrijpt gemeenschappelijk [beperkingen](#limitations) specifieke methode voor stitching ([op het veld gebaseerd](#limitations-1) en [op basis van grafiek](#limitations-2)), kunt u deze stappen volgen om te beginnen met het gebruik van stitching in de Customer Journey Analytics.
 
-### Opties
+### Opties selecteren
 
-Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics bepaalt de beschikbare het stitching methodes, opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets die voor het stitching worden toegestaan. Zie de [Productbeschrijving Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer informatie .
+Het pakket van de Customer Journey Analytics u gerechtigd bent om de beschikbare het stitching methodes, opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets te bepalen die voor het stitching worden toegestaan. Zie de [Productbeschrijving Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer informatie . Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
 
 | | Customer Journey Analytics<br/>Selecteren | Customer Journey Analytics<br/>Eerste | Customer Journey Analytics<br/>Ultieme |
 |---|---|---|---|
@@ -361,7 +361,7 @@ Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics
 | Zoekvenster en herhalingsfrequentie | <li>1 dag, elke dag</li><li>tot 7 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 14 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 30 dagen, wekelijks</li> |
 | Maximumaantal gegevenssets dat is toegestaan voor stitching | 5 | 10 | 50 |
 
-### Ondersteuning aanvragen
+### Verzoek om ondersteuning
 
 1. Neem contact op met de Klantenondersteuning van de Adobe met de volgende informatie:
 
