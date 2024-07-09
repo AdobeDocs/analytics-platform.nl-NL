@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
+source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3809'
 ht-degree: 1%
 
 ---
@@ -352,10 +352,11 @@ Zodra uw organisatie aan allen voldoet [voorwaarden](#prerequisites) en begrijpt
 
 ### Opties
 
-Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics bepaalt beschikbare opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets die voor het stitching worden toegestaan. Zie de [Productbeschrijving Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer informatie .
+Selecteer de opties voor stitching. Het pakket van de Customer Journey Analytics bepaalt de beschikbare het stitching methodes, opties voor de aanvankelijke backfill duur, raadplegingsvenster, replay frequentie, en maximumaantal datasets die voor het stitching worden toegestaan. Zie de [Productbeschrijving Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer informatie .
 
 | | Customer Journey Analytics<br/>Selecteren | Customer Journey Analytics<br/>Eerste | Customer Journey Analytics<br/>Ultieme |
 |---|---|---|---|
+| Beschikbare stitmethoden | <li>Veldgebaseerde stitching</li> | <li>Veldgebaseerde stitching</li><li>Op grafiek gebaseerde stitching</li> | <li>Veldgebaseerde stitching</li><li>Op grafiek gebaseerde stitching</li> |
 | Eenmalige duur van de backfill-functie | 13 maanden | 13 maanden | 25 maanden |
 | Zoekvenster en herhalingsfrequentie | <li>1 dag, elke dag</li><li>tot 7 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 14 dagen, wekelijks</li> | <li>1 dag, elke dag</li><li>tot 30 dagen, wekelijks</li> |
 | Maximumaantal gegevenssets dat is toegestaan voor stitching | 5 | 10 | 50 |
