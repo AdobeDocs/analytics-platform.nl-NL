@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 466bcd2d790dae9eccb5d9114a375c5b9666c435
+source-git-commit: f0ff4abcfdb7361aed62bd35b50c4b014b223ec9
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3804'
 ht-degree: 6%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **juli 2024** | |
+| Algemene foutberichten zijn bijgewerkt | Kleine wijzigingen aangebracht in de [algemene foutberichten](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
 | Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn zowel beschikbaar in de documentatie van de Customer Journey Analytics als in de [Invoegdocumentatie voor streaming media Collection](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Op grafiek gebaseerde stitching | Bijgewerkt en geherstructureerd [documentatie over stitching](/help/stitching/overview.md) met de invoering van op grafiek gebaseerde stitching. |
