@@ -5,16 +5,16 @@ feature: Guided Analysis
 keywords: productanalyse
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 2b503ba784762d60efe8581c9ee06587aed416eb
+source-git-commit: 5752d3952987f8447cd12f953a57921044fa3c65
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
 
 # Industriële gebruiksgevallen
 
-Deze pagina bevat enkele illustratieve voorbeelden van productteams in verschillende bedrijfstakken die met behulp van geleide analyses kunnen werken.
+Deze pagina bevat enkele illustratieve voorbeelden uit de branche van wat teams van klanten, van analisten tot productteams tot marketers, kunnen bereiken met geleide analyse.
 
 +++**Detailhandel**
 
