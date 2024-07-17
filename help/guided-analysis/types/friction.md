@@ -5,16 +5,16 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 63dd68d31a9f2b907419fa660904f1dfdacaa0b8
+source-git-commit: 216783872bf4dd26fe2137dffe8994d03193b604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Friction] weergave
 
-De **[!UICONTROL Friction]** de mening verstrekt een visuele vertegenwoordiging van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
+De weergave **[!UICONTROL Friction]** biedt een visuele weergave van een kritieke gebruikersreis in uw product. De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 
@@ -22,36 +22,36 @@ De **[!UICONTROL Friction]** de mening verstrekt een visuele vertegenwoordiging 
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **Conversieanalyse**: U kunt omzettingen in elke fase van de trechter analyseren, bijvoorbeeld een uitchecking in de detailhandel, accountaanmelding, abonnementsstroom of een andere belangrijke reis binnen uw productervaring. Door het aantal gebruikers te volgen die van één stap aan volgende overgaan, kunt u knelpunten identificeren die ongebruikelijke of ongewenste omrekeningskoersen hebben. Deze informatie is nuttig om te begrijpen waar u uw productreis voor directe resultaten kunt verbeteren.
-* **Experimentatieanalyse**: U kunt de conversiesnelheden vergelijken in een trechter met optionele stappen of stappen waarin een A/B-experiment wordt uitgevoerd. Deze informatie kan u helpen bepalen welke variatie van de trechter tot de hoogste omzettingspercentage leidt zodat u meer gebruikers langs die weg kunt aanmoedigen.
-* **Optimalisatie aan boord**: Optimaliseer het instapproces van uw product door het gebruikersgedrag rond belangrijke gebeurtenissen te bekijken. U kunt aangeven met welke stappen gebruikers worstelen of niet.
-* **Aanpassing en betrokkenheid van functies**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers te analyseren via aan functies gerelateerde stappen, kunt u de adoptiefrequenties zien en gebieden identificeren waar gebruikers bepaalde functies wellicht niet gebruiken. U kunt deze informatie dan gebruiken om zich op eigenschapverbeteringen te concentreren om adoptiecijfers te verhogen.
-* **Efficiëntie van marketingkanalen**: De doeltreffendheid van de afzetkanalen meten. U kunt een segment creëren dat zich op gebruikers concentreert die met verschillende marketing kanalen (b.v. betaalde onderzoek, vertoning, natuurlijk onderzoek, of direct) interactie hadden, en dan hun reizen vergelijken om te zien welk kanaal tot de beste productresultaten leidt.
+* **analyse van de Omzetting**: U kunt omzettingen in elk stadium van de trechter, zoals een detailhandelcontrole, rekeningsonderbreking, abonnementsstroom, of één of andere andere andere kritieke reis binnen uw productervaring analyseren. Door het aantal gebruikers te volgen die van één stap aan volgende overgaan, kunt u knelpunten identificeren die ongebruikelijke of ongewenste omrekeningskoersen hebben. Deze informatie is nuttig om te begrijpen waar u uw productreis voor directe resultaten kunt verbeteren.
+* **de analyse van de Experimentatie**: U kunt omzettingspercentages over een trechter vergelijken die facultatieve stappen of stappen heeft waar een experiment A/B in werking wordt gesteld. Deze informatie kan u helpen bepalen welke variatie van de trechter tot de hoogste omzettingspercentage leidt zodat u meer gebruikers langs die weg kunt aanmoedigen.
+* **het In kaart brengen optimalisering**: Optimaliseer het aan boord gaan van uw product proces door gebruikersgedrag rond zeer belangrijke gebeurtenissen te onderzoeken. U kunt aangeven met welke stappen gebruikers worstelen of niet.
+* **de goedkeuring en de overeenkomst van de Eigenschap**: Begrijp hoe de gebruikers met specifieke eigenschappen in uw product in wisselwerking staan. Door de progressie van gebruikers te analyseren via aan functies gerelateerde stappen, kunt u de adoptiefrequenties zien en gebieden identificeren waar gebruikers bepaalde functies wellicht niet gebruiken. U kunt deze informatie dan gebruiken om zich op eigenschapverbeteringen te concentreren om adoptiecijfers te verhogen.
+* **de kanaaldoeltreffendheid van de Marketing**: Meet de doeltreffendheid van marketing kanalen. U kunt een segment maken dat zich richt op gebruikers die met verschillende marketingkanalen hebben gewerkt, zoals betaalde zoekopdrachten, weergave, natuurlijke zoekopdrachten of Direct zoeken. Vervolgens kunt u hun reizen vergelijken om te zien welk kanaal leidt tot de beste productresultaten.
 
 ## Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Conversietrends](conversion-trends.md).
+* **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ tendensen van de Omzetting ](conversion-trends.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één treinstel, waardoor een &quot;forked trechter&quot; ontstaat. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Het is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de trechter.
-* **[!UICONTROL Counted as]**: Het bereik dat u op de trechter wilt toepassen. Opties omvatten [!UICONTROL Sessions] en [!UICONTROL Users].
-   * [!UICONTROL Sessions]: Alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
-   * [!UICONTROL Users]: Alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
-* **[!UICONTROL Segments]**: De segmenten waar u de trechter doorheen wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één treinstel, waardoor een &quot;forked trechter&quot; ontstaat. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Het is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de trechter. Zie [ de analyse van de frictie van de Trechter ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel/funnel-friction-analysis) in Customer Journey Analytics leerprogramma&#39;s voor een video die verklaart hoe te om trechters te vergelijken.
+* **[!UICONTROL Counted as]**: Het bereik dat u op de trechter wilt toepassen. De opties zijn [!UICONTROL Sessions] en [!UICONTROL Users] .
+   * [!UICONTROL Sessions]: alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
+   * [!UICONTROL Users]: alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
+* **[!UICONTROL Segments]**: De segmenten waarin u de trechter wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
 De wrijvingsweergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Steps].
-* **[!UICONTROL Conversion from]**: Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step].
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties zijn [!UICONTROL Steps] .
+* **[!UICONTROL Conversion from]** - Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step] berekenen.
 
 ## Tijdvergelijking
 
 {{apply-time-comparison}}
 
-![Vergelijking van wrijvingstijd](../assets/friction-compare.png){style="border:1px solid gray"}
+![ de tijdvergelijking van de Wrijving ](../assets/friction-compare.png){style="border:1px solid gray"}
 
 ## Datumbereik
 
