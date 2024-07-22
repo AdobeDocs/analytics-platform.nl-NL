@@ -5,7 +5,7 @@ title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 9f3182ed33fc5ad537b05e9effbdd25caf4e87d7
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 0%
@@ -147,8 +147,6 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 1. Selecteer [!UICONTROL **Schrapping**] opnieuw op de bevestigingsdialoog.
 
 ## Bedrijfsbrede instellingen configureren (alleen beheerders)
-
-{{release-limited-testing-section}}
 
 Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locaties, of ze kunnen de typen accounts beperken die gebruikers kunnen maken en gebruiken.
 
