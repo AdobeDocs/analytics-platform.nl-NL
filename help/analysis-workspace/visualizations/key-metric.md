@@ -4,22 +4,22 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 24c2ab4a49b87b11046317a40882dde72a2a49c1
+source-git-commit: b196b8c05ba05a3f46d71c10fdcaa2ad8ef0dcd6
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Samenvatting van metrische sleutel
 
-De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdsbestek trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
+Met de [!UICONTROL Key metric summary] -visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdlijn trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 
-* **[!UICONTROL Line]** visualisaties die tonen hoe metrisch voor de primaire en vergelijkingsdatumwaaiers trendt
+* **[!UICONTROL Line]** visualisaties die tonen hoe metrisch voor de primaire en vergelijkingsdatumwaaiers trending is
 
-* **[!UICONTROL Summary percent change]** die de metrische verhoging of daling tussen primaire en vergelijkingsdatumwaaiers toont
+* **[!UICONTROL Summary percent change]** die de metrische toename of daling tussen de primaire en vergelijkingsdatumwaaiers toont
 
-* Huidige totale waarde ([!UICONTROL **overzichtsnummer**]) voor de metrische
+* Huidige totale waarde ([!UICONTROL **summiere aantal**]) voor metrisch
 
 ## Gebruik hoofdletters
 
@@ -33,11 +33,11 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 ## Vorm de Belangrijkste metrische samenvatting
 
-1. Sleep de **[!UICONTROL Key metric summary]** visualisatie van de **[!UICONTROL Visualizations]** in de linkerspoorstaaf in een paneel.
+1. Sleep de **[!UICONTROL Key metric summary]** visualisatie van het **[!UICONTROL Visualizations]** menu in de linkerspoorstaaf in een paneel.
 
 1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een filter (indien gewenst) te selecteren:
 
-   ![Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metric-config.png)
+   ![ Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metric-config.png)
 
    | Configuratie-instelling | Definitie |
    | --- | --- |
@@ -79,7 +79,9 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## De uitvoer weergeven
 
-![De belangrijkste metrische output die de metische, summiere verandering, samenvattingsaantal, en lijngrafieken toont.](assets/key-metric-output.png)
+De uitvoer moet er ongeveer als volgt uitzien:
+
+![ Zeer belangrijke metrische output die de metische, summiere verandering, samenvattingsaantal, en lijngrafieken tonen.](assets/key-metric-output.png)
 
 Opmerking:
 
@@ -89,13 +91,13 @@ Opmerking:
 
 * Vanaf hier kunt u de cursor boven de lijngrafieken houden om de statistieken voor afzonderlijke dagen weer te geven:
 
-![Bezoekersstatistieken](assets/key-metric-output2.png)
+![ statistieken van het Bezoek ](assets/key-metric-output2.png)
 
 ## Visualisatie-instellingen
 
 De Belangrijkste metrische samenvatting biedt veelvoudige flexibele montages aan om betere rapportering en communicatie van belangrijke metriek toe te laten. Instellingen zijn toegankelijk via het tandwielpictogram in de rechterbovenhoek van de visualisatie.
 
-![Belangrijke metrische samenvattingsinstellingen met het weergavetype Samenvatting, Algemeen en weergaveopties.](assets/key-metric-settings.png)
+![ Zeer belangrijke metrische summiere montages die Summiere vertoningstype, algemeen, en vertoningsopties tonen.](assets/key-metric-settings.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -116,7 +118,7 @@ Na het bouwen van visualisatie, kunt u de originele configuratie nog uitgeven.
 
 1. Klik op het potloodpictogram in de rechterbovenhoek van de visualisatie (naast het tandwielpictogram voor instellingen).
 
-   ![Bewerkingspictogram.s voor visualisatie](assets/edit-icon.png)
+   ![ visualisatie geeft icon.s uit ](assets/edit-icon.png)
 
    U wordt nu teruggezet naar de originele configuratiemening.
 
