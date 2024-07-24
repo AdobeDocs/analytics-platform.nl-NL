@@ -4,10 +4,10 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '3816'
-ht-degree: 6%
+source-wordcount: '3920'
+ht-degree: 5%
 
 ---
 
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Juli 2024** | |
+| Toegevoegde informatie over snel berekende metriek | Bijgewerkte informatie in [ Metriek ](/help/components/apply-create-metrics.md) om het verschil tussen [ berekende metriek te verduidelijken die in de berekende metriebouwer ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) en [ worden gecreeerd die als snelle berekende metriek binnen één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) worden gecreeerd. Meer informatie over slangen is toegevoegd om snel berekende metriek te maken.<p>De berekende metriek die in de berekende metriebouwer worden gecreeerd zijn beschikbaar in de componentenlijst en kunnen op projecten door de organisatie worden toegepast, terwijl de berekende metriek die als snelle berekende metriek worden gecreeerd beschikbaar slechts binnen het project zijn waar zij werden gecreeerd.</p><p>Ook bijgewerkte informatie in [ bouwt metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) om gelijkaardige verduidelijkingen te maken.</p> |
 | Afgeleide veld dedupliceert functie | Toegevoegde documentatie op het afgeleide gebied [ dedupliceert ](/help/data-views/derived-fields/derived-fields.md#deduplicate) functie. |
 | Algemene foutberichten zijn bijgewerkt | Gemaakte minder belangrijke updates aan de [ gemeenschappelijke foutenmeldingen ](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
