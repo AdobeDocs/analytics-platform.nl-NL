@@ -5,9 +5,9 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: df00d954de5db89f0ccc40f7eb2474523d9e774e
+source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,17 @@ Om uw eind toe te laten - gebruikers om met geleide analyse het meest succesvol 
 
 +++**hoe vergelijkt de terminologie tussen geleide analyse en Analysis Workspace?**
 
-De geleide analyse gebruikt termijnen die vaker onder productteams worden gebruikt. U kunt deze lijst van verwijzingen voorzien wanneer het schakelen tussen geleide analyse en [ Analysis Workspace ](../analysis-workspace/home.md).
+De geleide analyse en [ Analysis Workspace ](../analysis-workspace/home.md) richten zich op de meeste zeer belangrijke terminologie, met een paar kleine verschillen.
 
 | Geleide analyseperiode | Analysis Workspace term |
 | --- | --- |
-| Gebeurtenis | Metrisch |
+| Gebeurtenis (binair 1/0 metrisch) | Metrisch |
 | Gebruikers | Mensen |
-| Eigenschap | Dimension |
-| Waarde | Dimension-item |
+| Dimension | Dimension |
+| Dimension-item | Dimension-item |
 | Segment | Filter |
+| Filter | Rapportfilter |
+| Berekende metrisch, Metrisch | Berekende metrische waarde |
 
 {style="table-layout:auto"}
 
