@@ -5,7 +5,7 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: ec8f6c3c8cc1c0b12821e3b61fbef9f5fe875258
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 0%
@@ -39,12 +39,13 @@ Voor informatie over hoe te om bestaande plaatsen, met inbegrip van het bekijken
    Het dialoogvenster Locatie wordt weergegeven.
 
 1. Geef de volgende informatie op:
-|Veld | Functie |
-|—|—|
-| [!UICONTROL **Naam**] | De naam van de locatie.  |
-| [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account. |
-| [!UICONTROL **plaats van het Merk beschikbaar aan alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de locatie kunnen gebruiken. <p>Houd rekening met het volgende wanneer u locaties deelt:</p><ul><li>Locaties die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde locaties kunnen alleen door de eigenaar van de locatie worden bewerkt.</li><li>Locaties kunnen alleen worden gedeeld als de account waaraan de locatie is gekoppeld, ook wordt gedeeld.</li></ul> |
-| [!UICONTROL **de rekening van de Plaats**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over hoe te om een rekening tot stand te brengen, zie [ de rekeningen van de wolkenuitvoer ](/help/components/exports/cloud-export-accounts.md) vormen. |
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Naam**] | De naam van de locatie. |
+   | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account. |
+   | [!UICONTROL **plaats van het Merk beschikbaar aan alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de locatie kunnen gebruiken. <p>Houd rekening met het volgende wanneer u locaties deelt:</p><ul><li>Locaties die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde locaties kunnen alleen door de eigenaar van de locatie worden bewerkt.</li><li>Locaties kunnen alleen worden gedeeld als de account waaraan de locatie is gekoppeld, ook wordt gedeeld.</li></ul> |
+   | [!UICONTROL **de rekening van de Plaats**] | Selecteer de account waar u de locatie wilt maken. Voor informatie over hoe te om een rekening tot stand te brengen, zie [ de rekeningen van de wolkenuitvoer ](/help/components/exports/cloud-export-accounts.md) vormen. |
 
 1. In de [!UICONTROL **eigenschappen van de Plaats**] sectie, specificeer informatie specifiek voor het accounttype van uw plaatsrekening.
 
