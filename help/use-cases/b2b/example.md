@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 9c60c00818e82a6ca891ab9d90260922437c6cca
+source-git-commit: c3d97fe2353011f4747d0c1742e49189cc91b85c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -20,7 +20,7 @@ In dit artikel wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in
 
 ## Verbinding
 
-Bepaal uw verbinding om alle relevante B2B datasets van Experience Platform te omvatten. Zorg ervoor dat u alle relevante opzoekgegevenssets opneemt en transformeert die zijn vereist voor een standaard B2B-rapporteringsscenario voor personen. Zie [B2B-opzoekgegevenssets transformeren](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie .
+Bepaal uw verbinding om alle relevante B2B datasets van Experience Platform te omvatten. Zorg ervoor dat u alle relevante opzoekgegevenssets opneemt en transformeert die zijn vereist voor een standaard B2B-rapporteringsscenario voor personen. Zie [ B2B raadplegingsdatasets van de Transformatie ](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie.
 
 Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 
@@ -32,6 +32,7 @@ Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 | B2B Dataset van de Betrekking van de Kans van de Persoon | B2B Opportunity Person Relatie Schema | Opzoeken | XDM Business Opportunity Person Relatie | De Relatie van de Persoon van de Kans van de Onderneming XDM is een standaardKlasse van de Gegevens van de Ervaring Model (XDM) die de minimum vereiste eigenschappen van een persoon vangt die met een bedrijfskans wordt geassocieerd. |
 | Gegevensset voor B2B-marketinglijsten | B2B-schema Leden op marketinglijst | Opzoeken | Leden van XDM-marketinglijst | De Leden van de Lijst van de Bedrijfs XDM is een standaardGegevensmodel van de Ervaring (XDM) klasse die leden, personen, of contacten verbonden aan een marketing lijst beschrijft. |
 | Gegevensset voor B2B-campagnegelid | B2B Campagne Member Schema | Opzoeken | XDM Business Campaign-leden | XDM Business Campaign-leden zijn een standaard XDM-klasse (Experience Data Model) waarmee een contactpersoon of lead wordt beschreven die aan een zakelijke campagne is gekoppeld. |
+
 <!--
 | B2B Account Dataset | B2B Account Schema | Lookup | XDM Business Account | XDM Business Account is a standard Experience Data Model (XDM) class that captures the minimum required properties of a business account.  |
 | B2B Opportunity Dataset | B2B Opportunity Schema | Lookup | XDM Business Opportunity | XDM Business Opportunity is a standard Experience Data Model (XDM) class that captures the minimum required properties of a business opportunity.  |
@@ -40,13 +41,13 @@ Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 -->
 
 
-De verhouding tussen de raadplegingsschema&#39;s, het profielschema, en gebeurtenisschema wordt bepaald in B2B opstelling binnen Experience Platform. Zie schema&#39;s in [Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) en [Een veel-op-een relatie definiëren tussen twee schema&#39;s in Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) voor meer informatie .
+De verhouding tussen de raadplegingsschema&#39;s, het profielschema, en gebeurtenisschema wordt bepaald in B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-time Customer Data Platform B2B Uitgave ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in de Uitgave van Real-time Customer Data Platform B2B ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) voor meer details.
 
-![Relatie tussen B2B-schema&#39;s](assets/classes.png)
+![ Verhouding tussen B2B- schema&#39;s ](assets/classes.png)
 
-Voor elke raadplegingsdataset die u aan uw verbinding toevoegt, moet u de verhouding aan een gebeurtenisdataset uitdrukkelijk bepalen gebruikend **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in de **[!UICONTROL Edit dataset]** in. Bijvoorbeeld:
+Voor elke opzoekgegevensset die u toevoegt aan uw verbinding, moet u de relatie met een gebeurtenisdataset expliciet definiëren met **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in het dialoogvenster **[!UICONTROL Edit dataset]** . Bijvoorbeeld:
 
-![Sleutel - Overeenkomende sleutel](assets/key-matchingkey.png)
+![ Sleutel - het Aanpassen sleutel ](assets/key-matchingkey.png)
 
 Vier schema&#39;s worden uitdrukkelijk gebruikt om het schema van de Persoon aan andere relevante schema&#39;s te verbinden: Rekening, Kans, Campagne en de Lijst van de Marketing. Deze schema&#39;s zijn gebaseerd op de volgende schemaklassen:
 
@@ -55,9 +56,9 @@ Vier schema&#39;s worden uitdrukkelijk gebruikt om het schema van de Persoon aan
 * Leden van XDM Business Marketing List
 * XDM Business Campaign-leden
 
-Voor elke raadplegingsdataset, voor een schema dat op zulk een schemaklasse wordt gebaseerd, laat u ook toe **[!UICONTROL Transform dataset]** om ervoor te zorgen dat de gegevens worden getransformeerd voor op personen gebaseerde zoekopdrachten. Zie [Gegevenssets transformeren voor B2B-zoekopdrachten](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie .
+Voor elke raadplegingsdataset, voor een schema dat op zulk een schemaklasse wordt gebaseerd, laat u **[!UICONTROL Transform dataset]** ook toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden getransformeerd. Zie [ datasets van de Transformatie voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie.
 
-In de onderstaande tabel vindt u een voorbeeld van het [!UICONTROL Person ID], [!UICONTROL Key], en [!UICONTROL Matching key] waarden voor elk van de gegevenssets.
+In de onderstaande tabel vindt u een voorbeeld van de waarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
 
 
 | Gegevensset | Persoon-id | Sleutel | Overeenkomende sleutel (in gegevensset voor gebeurtenissen) |
@@ -71,12 +72,12 @@ In de onderstaande tabel vindt u een voorbeeld van het [!UICONTROL Person ID], [
 
 {style="table-layout:auto"}
 
-Zie [Gegevenssets toevoegen en configureren](../../connections/create-connection.md) voor meer informatie over hoe te om montages voor een dataset te vormen.
+Zie [ datasets ](../../connections/create-connection.md) voor meer informatie toevoegen en vormen over hoe te om montages voor een dataset te vormen.
 
 
 ## Gegevens, weergave
 
-Om toegang tot relevante B2B afmetingen en metriek te hebben wanneer het bouwen van uw project van de Werkruimte, moet u uw gegevensmening dienovereenkomstig bepalen.
+Als u toegang wilt hebben tot relevante B2B-afmetingen en -gegevens wanneer u uw Workspace-project maakt, moet u de gegevensweergave dienovereenkomstig definiëren.
 
 U kunt de volgende componenten als afmetingen aan uw gegevensmening toevoegen om ervoor te zorgen u op persoon-gebaseerd niveau op uw B2B gegevens kunt melden. De componentnamen worden voor de duidelijkheid gewijzigd.
 
@@ -296,13 +297,13 @@ No metric components are defined as part of this dataset.
 
 -->
 
-## Werkruimte
+## Workspace
 
-Met uw componenten die correct in de gegevensmening worden bepaald, kunt u specifieke B2B- rapporten en visualisaties in uw project van de Werkruimte nu bouwen.
+Met uw componenten die correct in de gegevensmening worden bepaald, kunt u specifieke B2B- rapporten en visualisaties in uw project van Workspace nu bouwen.
 
 Hieronder ziet u een voorbeeldproject dat afhankelijk is van de hierboven beschreven verbinding en gegevensweergave.
 
-![Voorbeeldproject](assets/sample-project.png)
+![ project van de Steekproef ](assets/sample-project.png)
 
 <!-- See the descriptions for each visualization for more details.
 
