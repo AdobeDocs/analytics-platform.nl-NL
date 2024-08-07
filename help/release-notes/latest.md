@@ -3,16 +3,16 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4f228dbe58a9efbe988f274c071c61ec5e36d321
+source-git-commit: 466b4e22ba39197208a191a7298bf37a0b3e36c8
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (juli 2024)
 
-**Laatste update**: 29 juli 2024
+**Laatste update**: 7 augustus 2024
 
 Deze releaseopmerkingen hebben betrekking op de periode van 17 juli 2024 tot en met augustus 2024. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,7 +26,7 @@ Deze releaseopmerkingen hebben betrekking op de periode van 17 juli 2024 tot en 
 | **Voortgekomen Gebieden - Deduplicate functie** | De [ functie Deduplicate ](/help/data-views/derived-fields/derived-fields.md#deduplicate) in Afgeleide Gebieden helpt u om het tellen van een waarde veelvoudige tijden te verhinderen. |  | donderdag 17 juli 2024 |
 | **Geleide Levering van de Analyse voor klanten CJA** | Met een geleide analyse kunnen gebruikers zelf hoogwaardige gegevens en inzichten bedienen over de reis van de klant via geleide workflows, op basis van de kanaalgegevens van de Customer Journey Analytics. <p>De interfunctionele teams, van marketing aan product, kunnen in echt - tijd verbinden om deze rapporten te gebruiken en te begrijpen.</p><p>Er zijn nu maximaal 11 geleide analyseweergaven beschikbaar in CJA-pakketten. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)</p> |  | donderdag 17 juli 2024 |
 | **de rekeningen en de plaatsen van het Aandeel die voor de uitvoer en de invoer** worden gebruikt | Gebruikers kunnen de accounts en locaties die ze maken nu beschikbaar maken voor alle gebruikers in hun organisatie. Alleen account- en locatie-eigenaars en systeembeheerders kunnen accounts en locaties bewerken en verwijderen. Eerder konden accounts en locaties alleen worden gebruikt door de gebruiker die ze heeft gemaakt. Deze montages zijn beschikbaar wanneer de gebruikers [ de rekeningen van de wolkenuitvoer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts) vormen en [ de plaatsen van de wolkenuitvoer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations) vormen. | donderdag 12 juni 2024 | zaterdag 19 juli 2024 |
-| **de Soorten van het publiek worden gepubliceerd aan een nieuwe &quot;sectie van het publiek&quot;in Experience Platform** | Soorten publiek die vanuit de Customer Journey Analytics worden gepubliceerd, zijn nu beschikbaar in de nieuwe sectie &quot;Soorten publiek&quot; in Adobe Experience Platform.<p>Eerder waren publiek dat vanuit Customer Journey Analytics werd gepubliceerd, beschikbaar in Experience Platform onder de sectie &quot;Segmenten&quot;.</p><p>Deze verbetering biedt de volgende voordelen:</p><ul><li>Het publiek heeft niet langer een vertraging van 1 uur voordat het in het Experience Platform wordt weergegeven; het zijn pas seconden nadat het is gepubliceerd.</li><li>De soorten publiek kunnen in Experience Platform worden gesorteerd door de kolom &quot;Oorsprong&quot;te gebruiken, die de toepassing toont waarvan het publiek oorspronkelijk werd gepubliceerd.</li><li>Met de filter- en sorteeropties in het Experience Platform kunt u sneller het desbetreffende publiek vinden.</li></ul> <p>(Koppeling naar documentatie)</p> |  | TBD |
+| **de Soorten van het publiek worden gepubliceerd aan een nieuwe &quot;sectie van het publiek&quot;in Experience Platform** | Soorten publiek die vanuit de Customer Journey Analytics worden gepubliceerd, zijn nu beschikbaar in de nieuwe sectie &quot;Soorten publiek&quot; in Adobe Experience Platform.<p>Eerder waren publiek dat vanuit Customer Journey Analytics werd gepubliceerd, beschikbaar in Experience Platform onder de sectie &quot;Segmenten&quot;.</p><p>Deze verbetering biedt de volgende voordelen:</p><ul><li>Het publiek heeft niet langer een vertraging van 1 uur voordat het in het Experience Platform wordt weergegeven; het zijn pas seconden nadat het is gepubliceerd.</li><li>De soorten publiek kunnen in Experience Platform worden gesorteerd door de kolom &quot;Oorsprong&quot;te gebruiken, die de toepassing toont waarvan het publiek oorspronkelijk werd gepubliceerd.</li><li>Met de filter- en sorteeropties in het Experience Platform kunt u sneller het desbetreffende publiek vinden.</li></ul> <p>(Koppeling naar documentatie)</p> | donderdag 14 augustus 2024 | vrijdag 22 augustus 2024 |
 
 {style="table-layout:auto"}
 
