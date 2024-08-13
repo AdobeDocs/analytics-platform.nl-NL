@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 6d4dd1cd0e2c9b89ed37ca713ecc6d5db7d9e745
+source-git-commit: 9c022dba63fd837aee28393aceb4eac851a993ec
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1099'
 ht-degree: 8%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 8%
 
 + Gegevensinname {#cja-data-ingestion}
    + [Overzicht van gegevensinscriptie](../data-ingestion/data-ingestion.md)
-   + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
+   + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Adobe Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
@@ -67,7 +67,7 @@ ht-degree: 8%
          + [Server-API](../data-ingestion/serverapi.md)
       + [Batchgegevens](../data-ingestion/batch.md)
       + [Streaming gegevens](../data-ingestion/streaming.md)
-      + [Bronaansluitingen](../data-ingestion/sources.md)
+      + [Source-connectors](../data-ingestion/sources.md)
 
 + Verbindingen {#cja-connections}
    + [Overzicht van verbindingen](../connections/overview.md)
@@ -91,13 +91,15 @@ ht-degree: 8%
       + [Geen waardeopties](../data-views/component-settings/no-value-options.md)
       + [Persistentie](../data-views/component-settings/persistence.md)
       + [Subtekenreeks](../data-views/component-settings/substring.md)
+      + [Samenvattingsgegevensgroep](../data-views/component-settings/summary-data-group.md)
       + [Waardebeperking](../data-views/component-settings/value-bucketing.md)
    + [Standaardcomponentverwijzing](../data-views/component-reference.md)
    + [BI-extensie](../data-views/bi-extension.md)
    + [Afgeleide velden](../data-views/derived-fields/derived-fields.md)
+   + [Samenvattingsgegevens](../data-views/summary-data.md)
    + [Labels en beleid](../data-views/data-governance.md)
 
-+ Werkruimteprojecten {#cja-workspace}
++ Workspace-projecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](../analysis-workspace/home.md)
    + [Basisanalyse uitvoeren](../analysis-workspace/perform-basic-analysis.md)
    + [Geavanceerde analyse uitvoeren](../analysis-workspace/perform-adv-analysis.md)
@@ -106,8 +108,8 @@ ht-degree: 8%
       + [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
       + [Inhoudsopgave van project](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Mappen in werkruimte {#workspace-folders}
-         + [Mappen in werkruimte](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Mappen in Workspace {#workspace-folders}
+         + [Over mappen in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen verwijderen](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Projecten toevoegen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -119,7 +121,7 @@ ht-degree: 8%
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
-      + Vrije-vormtabel {#freeform-table}
+      + Vrije-vormentabel {#freeform-table}
          + [Vrije-vormtabel](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
@@ -127,7 +129,7 @@ ht-degree: 8%
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totalen werkruimte](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace Totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport voor cohortanalyse configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -193,7 +195,7 @@ ht-degree: 8%
       + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ Analysedashboards {#cja-dashboards}
++ Analytische dashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
    + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
@@ -203,12 +205,12 @@ ht-degree: 8%
 
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
-   + Eigenschappenmatrix {#feature-matrix}
+   + Matrix met functies {#feature-matrix}
       + [Betrokkenheid](../guided-analysis/types/engagement.md)
    + Trechter {#funnel}
       + [Wrijvingsweergave](../guided-analysis/types/friction.md)
       + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
-   + Gevolgen {#impact}
+   + Effect {#impact}
       + [Weergave opheffen](../guided-analysis/types/release.md)
       + [Weergave voor eerste gebruik](../guided-analysis/types/first-use.md)
    + Bewaren {#retention}
@@ -288,7 +290,7 @@ ht-degree: 8%
       + [Datumbereiken beheren](../components/date-ranges/manage.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
-   + Uitvoer {#exports}
+   + Exporteren {#exports}
       + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
       + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)
       + [Cloud-exportlocaties beheren](/help/components/exports/manage-export-locations.md)
@@ -320,12 +322,12 @@ ht-degree: 8%
    + [Rapportactiviteiten weergeven](../reporting-activity-manager/reporting-activity.md)
    + [Rapportageverzoeken annuleren](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
-+ Stiksel {#stitching}
++ Stikken {#stitching}
    + [Overzicht](../stitching/overview.md)
    + [Verstikte gegevenssets maken en beheren](../stitching/stitching-ui.md)
    + [Veelgestelde vragen](../stitching/faq.md)
 
-+ Adobe-integratie {#integrations}
++ Integraties van Adoben {#integrations}
    + [Overzicht](/help/integrations/overview.md)
    + [Adobe Analytics integreren](/help/integrations/aa.md)
    + [Doel integreren](/help/integrations/at.md)
@@ -338,19 +340,20 @@ ht-degree: 8%
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
-+ Gebruik hoofdletters {#cja-usecases}
++ Gebruik hoofdletters en kleine letters {#cja-usecases}
    + [Gebruiksgevallen Customer Journey Analytics](../use-cases/cja-usecases.md)
-   + Gegevens Googles Analytics {#ga}
+   + Gegevens van Googles Analytics {#ga}
       + [Overzicht van migreren van Googles Analytics naar Customer Journey Analytics](../use-cases/ga/overview.md)
       + [Historische gegevens van Googles Analytics opnemen in platform](../use-cases/ga/backfill.md)
       + [Gegevens voor streaming Googles Analytics configureren in Platform](../use-cases/ga/streaming.md)
       + [Rapport over gegevens over Googles Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
-      + [Gegevens van Marketo Engage in Adobe Experience Platform opnemen en in Customer Journey Analytics rapporteren](../use-cases/data-ingestion/marketo.md)
-      + [Adobe Experience Platform-publiek vertalen in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Gegevens van Marketo&#39;s Engage opnemen en gebruiken](../use-cases/data-ingestion/marketo.md)
+      + [Experience Platforms publiek opnemen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}
       + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
+      + [Samenvattingsgegevens gebruiken](../use-cases/data-views/summary-data.md)
    + Gegevens exporteren {#data-export}
       + [Overzicht](../use-cases/data-export/overview.md)
       + [BI-extensie](../use-cases/data-export/bi-extension.md)
@@ -390,4 +393,4 @@ ht-degree: 8%
    + [Prestaties van Customers Journey Analytics optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik weergeven en beheren](../technotes/estimate-usage.md)
 
-+ [Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
