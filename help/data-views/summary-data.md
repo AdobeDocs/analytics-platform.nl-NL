@@ -4,7 +4,7 @@ description: Details en informatie over het gebruiken en vormen van summiere geg
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+source-git-commit: 9517d698acf41a25fa972ced32faa75de540a080
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 
 
 # Samenvattingsgegevens
+
+{{release-limited-testing}}
 
 Samenvattingsgegevens zijn tijdreeksgegevens die niet aan een individuele persoon-id zijn gekoppeld. De summiere gegevens vertegenwoordigen samengevoegde gegevens op een verschillend niveau van samenvoeging, bijvoorbeeld campagnes. U kunt deze gegevens in Customer Journey Analytics gebruiken om verschillende gebruiksgevallen te ondersteunen. Bijvoorbeeld gegevens die een datum en een enkele metrische waarde bevatten, of gegevens die meerdere afmetingen en metriek bevatten.
 
