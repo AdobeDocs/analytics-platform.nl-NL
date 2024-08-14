@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
+source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,6 +45,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | API-toegang rapporteren | Volledige Steun; Beschikbaar door [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/). |
 | Geplande rapporten/projecten | Volledige ondersteuning |
 | Segmenten | Volledige ondersteuning. Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet naar Customer Journey Analytics worden overgebracht. |
+| Gegevensbronnen op overzichtsniveau | Volledige ondersteuning |
 | Virtuele rapportsuites | Volledige ondersteuning. Nu geroepen [ meningen van Gegevens ](/help/data-views/create-dataview.md). |
 | Samengestelde cursus virtuele rapportsuite | Volledige ondersteuning. Nu onderdeel van gegevensweergaven. |
 | Apparaat, Browser, Referrer, de dimensies van de Technologie | Ondersteund voor zowel ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) - gebaseerde datasets van de bron 0} Analytics {en voor datasets die door WebSDK worden geproduceerd. [ Verwijs naar [ documentatie waarop de variabelen van Analytics via ADC ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html) worden gesteund.Als u de gegevensinzameling van SDK van het Web van het Experience Platform gebruikt, worden het Apparaat en de dimensies die op de raadpleging van het Apparaat worden gebaseerd momenteel niet gesteund. Toekomstige steun is gepland. Voor het toevoegen van apparaat en browser raadplegingen aan uw gegevensbestand van SDK van het Web, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
@@ -103,7 +104,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
 | Gegevensbronnen van transactie-id | Er is steun gepland. |
-| Gegevensbronnen op overzichtsniveau | Er is steun gepland. |
 
 {style="table-layout:auto"}
 
