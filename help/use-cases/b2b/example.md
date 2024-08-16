@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: 3f83b4c141324a7b255ac5af039fa1d7607f3b15
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebas
 
    | Gegevensset | Persoon-id | Sleutel | Overeenkomende sleutel <br/> (in gebeurtenisdataset) |
    |---|---|---|---| 
-   | B2B-activiteitengegevens | `personKey.sourceKey` | | |
-   | B2B-persoonsgegevensset | `b2b.personKey.sourceKey` | | |
-   | B2B-accountgegevens | | `accountKey.sourceKey` ❶ <br/> Sleutel van Source | `b2b.accountKey.sourceKey` ❶ <br/> (B2B Dataset van de Persoon) |
-   | B2B-opportuniteitsgegevensset | | `opportunityKey.sourceKey` ❷ <br/> Sleutel van Source | `opportunityKey.sourceKey` ❷ <br/> (B2B Dataset van de Verhouding van de Kans) |
-   | Gegevensset voor B2B-campagne | | `campaignKey.sourceKey` ❸ <br/> Sleutel van Source | `campaignKey.sourceKey` ❸ <br/> (B2B Dataset van het Lid van de Campagne) |
-   | Gegevensset voor B2B-marketinglijst | | `marketingListKey.sourceKey` ❹ <br/> Sleutel van Source | `marketingListKey.sourceKey` ❹ <br/> (B2B de Dataset van het Lid van de Lijst van de Marketing) |
-   | B2B-gegevensset betreffende de relatie van rekeningpersonen | | `personKey.sourceKey` ❺ <br/> Sleutel van Source | `personKey.sourceKey` ❺ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
-   | B2B Dataset van de Betrekking van de Kans van de Persoon | | `personKey.sourceKey` ❻ <br/> Sleutel van Source | `personKey.sourceKey` ❻ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
-   | Gegevensset voor B2B-campagnegelid | | `personKey.sourceKey` ❼ <br/> Sleutel van Source | `personKey.sourceKey` ❼ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
-   | B2B Marketing List Member Data | | `personKey.sourceKey` ❽ <br/> Sleutel van Source | `personKey.sourceKey` ❽ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
+   | B2B-activiteitengegevens | SourceKey <br/>**personKey.sourceKey** | | |
+   | B2B-persoonsgegevensset | SourceKey <br/>**b2b.personKey.sourceKey** | | |
+   | B2B-accountgegevens | | SourceKey <br/>**accountKey.sourceKey** ❶ | SourceKey <br> (B2B Dataset van de Persoon) <br/>**b2b.accountKey.sourceKey** ❶ |
+   | B2B-opportuniteitsgegevensset | | Source Key <br/>**opportunityKey.sourceKey** ❷ | SourceKey <br/> (B2B Dataset van de Verhouding van de Kans) <br/>**opportunityKey.sourceKey** ❷ |
+   | Gegevensset voor B2B-campagne | | SourceKey **❸<br/>** | SourceKey <br/> (B2B Dataset van het Lid van de Campagne) <br/> c **ampaignKey.sourceKey** ❸ <br/> |
+   | Gegevensset voor B2B-marketinglijst | | SourceKey <br/>**marketingListKey.sourceKey** ❹ | SourceKey <br/> (B2B de Dataset van het Lid van de Lijst van de Marketing) <br/>**marketingListKey.sourceKey** ❹ |
+   | B2B-gegevensset betreffende de relatie van rekeningpersonen | | SourceKey <br/>**personKey.sourceKey** ❺ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey** ❺ |
+   | B2B Dataset van de Betrekking van de Kans van de Persoon | | SourceKey <br/>**personKey.sourceKe** ❻ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey** ❻ |
+   | Gegevensset voor B2B-campagnegelid | | SourceKey <br/>**personKey.sourceKey** ❼ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey** ❼ |
+   | B2B Marketing List Member Data | | SourceKey <br/>**personKey.sourceKey** ❽ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey** ❽ |
 
 {style="table-layout:auto"}
 
