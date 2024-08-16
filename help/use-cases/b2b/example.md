@@ -3,13 +3,11 @@ title: Een B2B-voorbeeldproject
 description: Leer hoe te opstelling, vorm en rapport over B2B- gegevens
 solution: Customer Journey Analytics
 feature: Use Cases
-hide: true
-hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: c3d97fe2353011f4747d0c1742e49189cc91b85c
+source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -20,17 +18,19 @@ In dit artikel wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in
 
 ## Verbinding
 
-Bepaal uw verbinding om alle relevante B2B datasets van Experience Platform te omvatten. Zorg ervoor dat u alle relevante opzoekgegevenssets opneemt en transformeert die zijn vereist voor een standaard B2B-rapporteringsscenario voor personen. Zie [ B2B raadplegingsdatasets van de Transformatie ](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie.
-
-Gegevensbestanden die u kunt toevoegen aan uw verbinding:
+Bepaal uw verbinding om alle relevante B2B datasets van Experience Platform te omvatten. Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 
 | Gegevensset | Schema | Type schema | Basisklasse | Beschrijving |
 |---|---|---|---|---|
-| B2B-activiteitengegevens | B2B Activiteitsschema | Gebeurtenis | XDM ExperienceEvent | Een ExperienceEvent is een feitenverslag van wat voorkwam, met inbegrip van het tijdstip en de identiteit van het betrokken individu. ExperienceEvents kunnen expliciete (direct waarneembare menselijke acties) of impliciete (opgewekte zonder directe menselijke actie) zijn en worden geregistreerd zonder aggregatie of interpretatie. Zij zijn kritiek voor tijd-domein analyses aangezien zij voor waarneming en analyse van veranderingen toestaan die in een bepaald venster van tijd en de vergelijking tussen veelvoudige vensters van tijd voorkomen om tendensen te volgen. |
+| B2B-activiteitengegevens | B2B Activiteitsschema | Gebeurtenis | XDM ExperienceEvent | Een ExperienceEvent is een feitenverslag van wat voorkwam, met inbegrip van het tijdstip en de identiteit van het betrokken individu. ExperienceEvents kunnen expliciete (direct waarneembare menselijke acties) of impliciete (opgewekte zonder directe menselijke actie) zijn en worden geregistreerd zonder aggregatie of interpretatie. De gebeurtenissen van de ervaring zijn kritiek voor tijd-domeinanalyse aangezien zij voor waarneming en analyse van veranderingen toestaan die in een bepaald venster van tijd en de vergelijking tussen veelvoudige vensters van tijd voorkomen om tendensen te volgen. |
 | B2B-persoonsgegevensset | B2B Personenschema | Profiel | Afzonderlijk XDM-profiel | Een XDM Individueel Profiel vormt een enkelvoudige vertegenwoordiging van de attributen en de belangen van zowel geïdentificeerde als gedeeltelijk geïdentificeerde individuen. Minder geïdentificeerde profielen kunnen alleen anonieme gedragssignalen bevatten, zoals browsercookies, terwijl sterk geïdentificeerde profielen gedetailleerde persoonlijke gegevens kunnen bevatten zoals naam, geboortedatum, locatie en e-mailadres. Naarmate een profiel groeit, wordt het een robuuste opslagplaats voor persoonlijke gegevens, identificatiegegevens, contactgegevens en communicatievoorkeuren voor een individu. |
+| B2B-accountgegevens | B2B-accountschema | Opzoeken | XDM Business Account | Een XDM Business Account is een standaard XDM-klasse (Experience Data Model) waarmee de minimaal vereiste eigenschappen van een zakelijke account worden vastgelegd. Deze XDM-klasse kan alleen worden opgenomen in het profiel voor klanten met de B2B- of B2P-editie. |
+| B2B-opportuniteitsgegevensset | B2B-opportuniteitsschema | Opzoeken | XDM Business Opportunity | XDM Business Opportunity is een standaard XDM-klasse (Experience Data Model) waarmee de minimaal vereiste eigenschappen van een zakelijke opportuniteit worden vastgelegd. Deze XDM-klasse kan alleen worden opgenomen in het profiel voor klanten met de B2B- of B2P-editie. |
+| Gegevensset voor B2B-campagne | B2B-campagnereschema | Opzoeken | XDM Business Campaign | XDM Business Campaign is een standaard XDM-klasse (Experience Data Model) waarmee de minimaal vereiste eigenschappen van een zakelijke campagne worden vastgelegd. Deze XDM-klasse kan alleen worden opgenomen in het profiel voor klanten met de B2B- of B2P-editie. |
+| Gegevensset voor B2B-marketinglijst | B2B-schema voor marketinglijsten | Opzoeken | XDM Business Marketing List | XDM Business Marketing List is een standaard XDM-klasse (Experience Data Model) waarmee de minimaal vereiste eigenschappen van een marketinglijst worden vastgelegd. Op de markt brengende lijsten staan u toe om aan potentiële cliënten voorrang te geven die zeer waarschijnlijk uw product zullen kopen. Deze XDM-klasse kan alleen worden opgenomen in het profiel voor klanten met de B2B- of B2P-editie. |
 | B2B-gegevensset betreffende de relatie van rekeningpersonen | B2B-relatieschema van rekeningpersonen | Opzoeken | XDM Zakelijke account Person Relatie | De Verhouding van de Persoon van de Rekening van XDM van de BedrijfsRekening is een standaardklasse van de Gegevens van de Ervaring (XDM) die de minimum vereiste eigenschappen van een persoon vangt die met een bedrijfsrekening wordt geassocieerd. |
 | B2B Dataset van de Betrekking van de Kans van de Persoon | B2B Opportunity Person Relatie Schema | Opzoeken | XDM Business Opportunity Person Relatie | De Relatie van de Persoon van de Kans van de Onderneming XDM is een standaardKlasse van de Gegevens van de Ervaring Model (XDM) die de minimum vereiste eigenschappen van een persoon vangt die met een bedrijfskans wordt geassocieerd. |
-| Gegevensset voor B2B-marketinglijsten | B2B-schema Leden op marketinglijst | Opzoeken | Leden van XDM-marketinglijst | De Leden van de Lijst van de Bedrijfs XDM is een standaardGegevensmodel van de Ervaring (XDM) klasse die leden, personen, of contacten verbonden aan een marketing lijst beschrijft. |
+| B2B Marketing List Member Data | B2B Marketing List Member Schema | Opzoeken | Leden van XDM-marketinglijst | De Leden van de Lijst van de Bedrijfs XDM is een standaardGegevensmodel van de Ervaring (XDM) klasse die leden, personen, of contacten verbonden aan een marketing lijst beschrijft. |
 | Gegevensset voor B2B-campagnegelid | B2B Campagne Member Schema | Opzoeken | XDM Business Campaign-leden | XDM Business Campaign-leden zijn een standaard XDM-klasse (Experience Data Model) waarmee een contactpersoon of lead wordt beschreven die aan een zakelijke campagne is gekoppeld. |
 
 <!--
@@ -41,34 +41,33 @@ Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 -->
 
 
-De verhouding tussen de raadplegingsschema&#39;s, het profielschema, en gebeurtenisschema wordt bepaald in B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-time Customer Data Platform B2B Uitgave ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in de Uitgave van Real-time Customer Data Platform B2B ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) voor meer details.
-
-![ Verhouding tussen B2B- schema&#39;s ](assets/classes.png)
-
-Voor elke opzoekgegevensset die u toevoegt aan uw verbinding, moet u de relatie met een gebeurtenisdataset expliciet definiëren met **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in het dialoogvenster **[!UICONTROL Edit dataset]** . Bijvoorbeeld:
-
-![ Sleutel - het Aanpassen sleutel ](assets/key-matchingkey.png)
-
-Vier schema&#39;s worden uitdrukkelijk gebruikt om het schema van de Persoon aan andere relevante schema&#39;s te verbinden: Rekening, Kans, Campagne en de Lijst van de Marketing. Deze schema&#39;s zijn gebaseerd op de volgende schemaklassen:
-
-* XDM Zakelijke account Person Relatie
-* XDM Business Opportunity Person Relatie
-* Leden van XDM Business Marketing List
-* XDM Business Campaign-leden
-
-Voor elke raadplegingsdataset, voor een schema dat op zulk een schemaklasse wordt gebaseerd, laat u **[!UICONTROL Transform dataset]** ook toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden getransformeerd. Zie [ datasets van de Transformatie voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) voor meer informatie.
-
-In de onderstaande tabel vindt u een voorbeeld van de waarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
+De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-time Customer Data Platform B2B Uitgave ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in de Uitgave van Real-time Customer Data Platform B2B ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
-| Gegevensset | Persoon-id | Sleutel | Overeenkomende sleutel (in gegevensset voor gebeurtenissen) |
-|---|---|---|---|
-| B2B-activiteitengegevens | `personKey.sourceKey` | | |
-| B2B-persoonsgegevensset | `b2b.personKey.sourceKey` | | |
-| Gegevensset over B2B-accountpersoon | | `personKey.sourceKey` | `personKey.sourceKey` |
-| B2B-opportuniteitsgegevensset | | `personKey.sourceKey` | `personKey.sourceKey` |
-| Gegevensset voor B2B-campagneleden | | `personKey.sourceKey` | `personKey.sourceKey` |
-| Gegevensset voor B2B-marketinglijst | | `personKey.sourceKey` | `personKey.sourceKey` |
+Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebaseerde raadplegingen van uw B2B gegevens steunt, gebruik de volgende illustratie voor een overzicht en volg deze stappen:
+
+![ B2B- schema&#39;s geannoteerde ](assets/b2b-schemas-annotated.svg)
+
+1. Voeg datasets van de lijst hierboven aan uw verbinding toe.
+1. Voor elke opzoekgegevensset die u toevoegt aan uw verbinding, moet u de relatie met een gebeurtenisdataset expliciet definiëren met de dialoogvensters **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in **[!UICONTROL Edit dataset]** .
+1. Voor elke raadplegingsdataset die u voor op persoon-gebaseerde B2B raadplegingen wilt omzetten, laat **[!UICONTROL Transform dataset]** toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden omgezet. Zie [ datasets van de Transformatie voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) voor extra informatie.
+
+   ![ Sleutel - het Aanpassen sleutel ](assets/key-matchingkey.png)
+
+   In de onderstaande tabel vindt u een voorbeeld van de waarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
+
+   | Gegevensset | Persoon-id | Sleutel | Overeenkomende sleutel <br/> (in gebeurtenisdataset) |
+   |---|---|---|---| 
+   | B2B-activiteitengegevens | `personKey.sourceKey` | | |
+   | B2B-persoonsgegevensset | `b2b.personKey.sourceKey` | | |
+   | B2B-accountgegevens | | `accountKey.sourceKey` ❶ <br/> Sleutel van Source | `b2b.accountKey.sourceKey` ❶ <br/> (B2B Dataset van de Persoon) |
+   | B2B-opportuniteitsgegevensset | | `opportunityKey.sourceKey` ❷ <br/> Sleutel van Source | `opportunityKey.sourceKey` ❷ <br/> (B2B Dataset van de Verhouding van de Kans) |
+   | Gegevensset voor B2B-campagne | | `campaignKey.sourceKey` ❸ <br/> Sleutel van Source | `campaignKey.sourceKey` ❸ <br/> (B2B Dataset van het Lid van de Campagne) |
+   | Gegevensset voor B2B-marketinglijst | | `marketingListKey.sourceKey` ❹ <br/> Sleutel van Source | `marketingListKey.sourceKey` ❹ <br/> (B2B de Dataset van het Lid van de Lijst van de Marketing) |
+   | B2B-gegevensset betreffende de relatie van rekeningpersonen | | `personKey.sourceKey` ❺ <br/> Sleutel van Source | `personKey.sourceKey` ❺ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
+   | B2B Dataset van de Betrekking van de Kans van de Persoon | | `personKey.sourceKey` ❻ <br/> Sleutel van Source | `personKey.sourceKey` ❻ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
+   | Gegevensset voor B2B-campagnegelid | | `personKey.sourceKey` ❼ <br/> Sleutel van Source | `personKey.sourceKey` ❼ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
+   | B2B Marketing List Member Data | | `personKey.sourceKey` ❽ <br/> Sleutel van Source | `personKey.sourceKey` ❽ <br/> Sleutel van Source (de datasets van de Gebeurtenis) |
 
 {style="table-layout:auto"}
 
@@ -77,239 +76,48 @@ Zie [ datasets ](../../connections/create-connection.md) voor meer informatie to
 
 ## Gegevens, weergave
 
-Als u toegang wilt hebben tot relevante B2B-afmetingen en -gegevens wanneer u uw Workspace-project maakt, moet u de gegevensweergave dienovereenkomstig definiëren.
+Als u toegang wilt hebben tot relevante B2B-afmetingen en maateenheden wanneer u uw Workspace-project maakt, moet u de gegevensweergave op basis daarvan definiëren.
 
-U kunt de volgende componenten als afmetingen aan uw gegevensmening toevoegen om ervoor te zorgen u op persoon-gebaseerd niveau op uw B2B gegevens kunt melden. De componentnamen worden voor de duidelijkheid gewijzigd.
+U kunt bijvoorbeeld de volgende componenten aan de gegevensweergave toevoegen om ervoor te zorgen dat u op persoonlijk niveau op uw B2B-gegevens kunt rapporteren. De componentennamen worden soms gewijzigd voor duidelijkheid van hun originele schemanamen.
 
-| Componentnaam | Gegevensset | Schema, gegevenstype | Schemapad |
++++Metrisch
+
+| Componentnaam | Gegevensset | Gegevenstype | Schemapad |
 |---|---|---|---|
-| Persoon | B2B-activiteit | String | `personID` |
-| Account | B2B-rekeningpersoon | String | `accountKey.sourceID` |
-| Campaign | B2B Campagne-lid | String | `campaignKey.sourceKey` |
-| Naam van marketinglijst | B2B-marketinglijst | String | `marketingListID` |
-| Opportunity | B2B-opportuniteitspersoon | String | `opportunityKey.sourceID` |
-
-
-<!--
-This section provides recommendations and suggestions on what dimensions and metrics to include when defining the [components](../../data-views/create-dataview.md#components) for B2B datasets in your data view.
-
-For each component, the name, schema type, schema path, and (when applicable) details about the configuration are provided.
-
-
-+++ B2B Activity dataset
-
-### Metrics
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Add To Campaign | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `leadOperation.addToCampaign` |
-| Add To Opportunity | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `opportunityEvent.addToOpportunity` |
-| Application Closed | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `application.close` |
-| Application Launch | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `application.launch` |
-| Campaign Stream | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** ` leadOperation.changeCampaignStream` |
-| Checkout | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.checkouts` |
-| Convert Lead | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `leadOperation.convertLead` |
-| Email Clicked | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `directMarketing.emailClicked` |
-| Email Delivered | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `directMarketing.emailDelivered` |
-| Email Opened | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `directMarketing.emailOpened` |
-| Email Sent | String | eventType | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `directMarketing.emailSent` |
-| Email Unsubscribed | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `directMarketing.emailUnsubscribed` |
-| Form Filled Out | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `web.formFilledOut` |
-| Form Started | String | `web.fillOutForm.webFormName` | |
-| Leads | String | eventType | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `leadOperation.newLead` |
-| Opportunity Updated | String | `eventType` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `opportunityEvent.opportunityUpdated` |
-| Price | Double | *_organizationID*`.interactions.products.price` |  |
-| Priority | Integer | `leadOperation.changeScore.priority` |  |
-| Prod List Add | String | `eventType` |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.productListAdds.value` |
-| Prod List Open | String | `eventType` |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.productListOpens.value` |
-| Prod View | String | `eventType` |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.productViews.value` |
-| Purchases | String | `eventType` |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.purchases.value` |
-| Remove From Opportunity | String | `eventType` |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `opportunityEvent.removeFromOpportunity` |
-| Save for Laters | String | eventType |  **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `commerce.productViews.value` |
-
-{style="table-layout:auto"}
-
-
-### Dimensions
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Account Key (Source Key) | String | *_organizationID*`.Interactions.accountKey.sourceKey` | |
-| Converted Status | String | `leadOperation.convertLead.convertedStatus` | |
-| Event Type | String | `eventType` | |
-| Form Name | String | `leadOperation.newLead.formName` | |
-| Identifier | String | `_id` | |
-| Is Sent Notification | Boolean | `leadOperation.convertLead.isSentNotificationEmail` | |
-| Keywords | String | `search.keywords` | |
-| List ID | String | `listOperations.listID` | |
-| List Name | String | `leadOperation.newLead.listName` | |
-| Page Name | String | `web.webPageDetails.name` | |
-| Person Key (Source Key) | String | `personKey.sourceKey` | |
-| Produced By | String | producedBy | |
-| Product Name | String | *_organizationID*`.Interactions.products.name` | |
-| Role | String | `opportunityEvent.role` | | 
-| Timestamp | Date-time | `timestamp` | Date-Time format: **[!UICONTROL Day]** |
-| URL | String | `web.webPageDetails.URL` | |
-| Web Form Name | String | `web.fillOutForm.webFormName` | |
-| Product URL | String | *_organizationID*`.Interactions.products.url` | |
-
-{style="table-layout:auto"}
+| Jaarrekening | B2B-accountgegevens | Dubbel | accountOrganization.annualRevenue.amount |
+| Aantal werknemers | B2B-accountgegevens | Geheel | accountOrganization.numberOfEmployees |
+| Werkelijke campagnekosten | Gegevensset voor B2B-campagne | Dubbel | actualCost.amount |
+| Kosten van gerichte campagne | Gegevensset voor B2B-campagne | Dubbel | budgetedCost.amount |
+| Verwachte opportuniteitsontvangsten | B2B-opportuniteitsgegevensset | Dubbel | expectedRevenue.amount |
+| Verwachte campagneopbrengst | Gegevensset voor B2B-campagne | Dubbel | expectedRevenue.amount |
+| Aantal kansen | B2B-opportuniteitsgegevensset | Dubbel | opportunityAmount.amount |
 
 +++
 
++++Dimensionen
 
-+++ B2B Person dataset
-
-
-### Metrics
-
-No metric components are defined as part of this dataset.
-
-
-### Dimensions
-
-| Component Name | Schema data type | Schema path | Configuration |
+| Componentnaam | Gegevensset | Gegevenstype | Schemapad |
 |---|---|---|---|
-| Last Activity Date | Date-time | `extSourceSystemAudit.lastActivityDate` | Date-Time format: **[!UICONTROL Day]** |
-| Person ID | String | `personID` | |
-
-{style="table-layout:auto"}
+| Accountnaam | B2B-accountgegevens | String | accountName |
+| Campagnenaam | Gegevensset voor B2B-campagne | String | campagneName |
+| Kanaalnaam | Gegevensset voor B2B-campagne | String | channelName |
+| Land | B2B-accountgegevens | String | accountBillingAddress.country |
+| Naam van voorspelde categorie | B2B-opportuniteitsgegevensset | String | expectedCategoryName |
+| Industrie | B2B-accountgegevens | String | accountOrganization.industry |
+| Achternaam | B2B-persoonsgegevensset | String | person.name.lastName |
+| Naam van marketinglijst | Gegevensset voor B2B-marketinglijst | String | marketingListName |
+| Naam opportunity | B2B-opportuniteitsgegevensset | String | opportunityName |
+| Opportunity Stage | B2B-opportuniteitsgegevensset | String | opportunityStage |
+| Type opportunity | B2B-gegevensset voor opportuniteitstype | String | opportunityType |
+| Webinar Session Name | Gegevensset voor B2B-campagne | String | webinarSessionName |
 
 +++
-
-+++ B2B Account Person dataset
-
-### Metrics
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Annual Revenue | Double | `accountOrganization.annualRevenue.amount` | |
-| Number of employees | Integer | `accountOrganization.numberOfEmployees` | |
-
-{style="table-layout:auto"}
-
-
-### Dimensions
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Acount | String | `accountKey.sourceID` | 
-
-{style="table-layout:auto"}
-
-| Account Identifier | String | `accountID` | |
-| Account Type | String | `accountType` | |
-| City | String | `accountBillingAddress.city` | |
-| Country | String | `accountBillingAddress.country` | |
-| Industry | String | `accountOrganization.industry` | |
-| Region | String | `accountBillingAddress.region` | |
-| Source ID | String | `accountKey.sourceID` | |
-| Source Instance ID | String | `accountKey.sourceInstanceID` | |
-| Source Key | String | `accountKey.sourceKey` | |
-| Source Type | String | `accountKey.sourceType` | |
-
-
-+++
-
-+++  B2B Opportunity Person dataset
-
-### Metrics
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Expected Revenue | Double | `expectedRevenue.amount` | Behavior: **[!UICONTROL Count values]** |
-| Opportunity Amount | Double | `opportunityAmount.amount` | Behavior: **[!UICONTROL Count values]** |
-| Opportunity Stage - Closed Book | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `Closed - Booked` |
-| Opportunity Stage - Prospect | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `Prospect` |
-| Opportunity Stage - Qualification | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `Opportunity Qualification` |
-| Opportunity Stage - Solution Definition | String | `opportunityStage` | **[!UICONTROL Set include/exclude values]**<br/>**[!UICONTROL Case sensitive]**<br/>Match: **[!UICONTROL If all criteria are met]**<br/>Criteria: **[!UICONTROL Equals]** `Solution Definition and Validation` |
-
-{style="table-layout:auto"}
-
-
-### Dimensions
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Closed Flag | Boolean | `isClosed` | |
-| Company ID | String | `opportunityID` | |
-| Forecast Category | String | `forecastCategoryName` | |
-| Last Activity Date | Date-time | `lastActivityDate` | Date-time format: **[!UICONTROL Day]** |
-| Lead Source | String | `leadSource` | |
-| Opportunity Name | String | `opportunityName` | | 
-| Opportunity Status | String | `opportunityStage` | |
-| Won Flag | Boolean | `isWon` | |
-
-{style="table-layout:auto"}
-
-+++
-
-
-+++ B2B Campaign Member dataset
-
-### Metrics
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Bounced | Long | *_organizationID*`.campaignBounced` | Behavior: **[!UICONTROL Count values]** |
-| Clicked | Long | *_organizationID*`.campaignClicked` | Behavior: **[!UICONTROL Count values]** |
-| Opened | Long | *_organizationID*`.CampaignOpened` | Behavior: **[!UICONTROL Count values]** |
-| Sent | Long | *_organizationID*`.campaignSent` | Behavior: **[!UICONTROL Count values]** |
-| Subscribed | Long | *_organizationID*`.campaignSubscribed` | Behavior: **[!UICONTROL Count values]** |
-| Webinar Registrations | Long | *_organizationID*`.Registrations` | Behavior: **[!UICONTROL Count values]** |
-
-{style="table-layout:auto"}
-
-### Dimensions
-
-| Component Name | Schema data type | Schema path | Configuration |
-|---|---|---|---|
-| Campaign ID | String | `campaignID` | |
-| Campaign Member ID | String | `campaignMemberID` | |
-| Campaign Member Status | String | `memberStatus` | |
-| Campaign Member Status Reason | String | `memberStatusReason` | |
-| Created Date | Date-time | `extSourceSystemAudit.createdDate` | Date-time format: **[!UICONTROL Day]** |
-| First Responded Date | String | `firstRespondedDate` | Date-time format: **[!UICONTROL Day]** |
-| Has Reached Success | Boolean | `hasReachedSuccess` | |
-| Has Responded | Boolean | `hasResponded` | |
-| Last Status | String | `lastStatus` | |
-| Last Updated Date | Date-time | `extSourceSystemAudit.lastUpdatedDate` | Date-time format: **[!UICONTROL Day]** |
-| Membership Date | Date-time | `membershipDate` | Date-time format: **[!UICONTROL Day]** |
-| Nurture Cadence | String | `nurtureCadence` | |
-| Nurture Track Name | String | `nurtureTrackName` | |
-| Person ID | String | `personID` | |
-| Reached Success Date | Date-time | `reachedSuccessDate` | Date-time format: **[!UICONTROL Day]** |
-| Webinar Registration ID | String | `webinarRegistrationID` | |
-| Webinar Registration URL | String | `webinarConfirmationUrl` | |
-| isExhausted | Boolean | isExhausted | |
-
-{style="table-layout:auto"}
-
-+++
-
-+++ B2B Marketing List Member dataset
-
-### Metrics
-
-### Dimensions
-
-+++
-
--->
 
 ## Workspace
 
 Met uw componenten die correct in de gegevensmening worden bepaald, kunt u specifieke B2B- rapporten en visualisaties in uw project van Workspace nu bouwen.
 
-Hieronder ziet u een voorbeeldproject dat afhankelijk is van de hierboven beschreven verbinding en gegevensweergave.
+Hieronder ziet u een schermafbeelding van een voorbeeldproject dat gebruikmaakt van de hierboven beschreven verbinding en gegevensweergave. De visualisatiebeschrijvingen verklaren welke van de vrije lijstvisualisatie op de getransformeerde B2B raadplegingsgegevens baseert.
 
-![ project van de Steekproef ](assets/sample-project.png)
+![ project van de Steekproef ](assets/sample-workspace-project.png)
 
-<!-- See the descriptions for each visualization for more details.
-
-+++ Example project
-
-![Visualizations](assets/visualizations.png)
-
-+++
--->

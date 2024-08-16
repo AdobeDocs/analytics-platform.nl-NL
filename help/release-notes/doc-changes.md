@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '4006'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,10 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| Augustus 2024 | |
+| Een B2B-voorbeeldproject | Toegevoegd a [ gebruiksgeval ](/help/use-cases/b2b/example.md) documenterend hoe te opstelling, vorm en rapport op profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics, gebruikend de nieuwe [ transformatiedatasets voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) functionaliteit. |
+| Gebruiksscenario&#39;s voor het exporteren van gegevens | Toegevoegde meer gedetailleerde vraagvoorbeelden aan [ Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer ](/help/use-cases/data-export/queryservice-export-datasets.md) om te illustreren hoe te om attributie over zittingen behoorlijk toe te passen gebruikend een raadplegingsvenster. |
+| Samenvattingsgegevens | Toegevoegde documentatie over [ summiere gegevens ](/help/data-views/summary-data.md), [ samenvattingsde componentenmontages van de gegevensgroep ](/help/data-views/component-settings/summary-data-group.md) en het geval van het de summiere gegevensgebruik van a [ ](/help/use-cases/data-views/summary-data.md). |
 | **Juli 2024** | |
 | Toegevoegde informatie over snel berekende metriek | Bijgewerkte informatie in [ Metriek ](/help/components/apply-create-metrics.md) om het verschil tussen [ berekende metriek te verduidelijken die in de berekende metriebouwer ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) en [ worden gecreeerd die als snelle berekende metriek binnen één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) worden gecreeerd. Meer informatie over slangen is toegevoegd om snel berekende metriek te maken.<p>De berekende metriek die in de berekende metriebouwer worden gecreeerd zijn beschikbaar in de componentenlijst en kunnen op projecten door de organisatie worden toegepast, terwijl de berekende metriek die als snelle berekende metriek worden gecreeerd beschikbaar slechts binnen het project zijn waar zij werden gecreeerd.</p><p>Ook bijgewerkte informatie in [ bouwt metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) om gelijkaardige verduidelijkingen te maken.</p> |
 | Afgeleide veld dedupliceert functie | Toegevoegde documentatie op het afgeleide gebied [ dedupliceert ](/help/data-views/derived-fields/derived-fields.md#deduplicate) functie. |
