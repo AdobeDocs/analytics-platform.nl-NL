@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: 97fcb5f16962b85aa4f95bfbe2f16295d8bb3452
+source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '993'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Bij het instellen van tekenreeksen kunnen gedeelde apparaatgegevens worden toege
 
 #### Attributie laatste auth
 
-Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. Last-auth wordt gebruikt in Audience Manager, en is de aangewezen benadering voor het gebruiksgevallen van het Profiel van de Gegevens van de Klant in real time. De identiteitsdienst van het Experience Platform bouwt de grafiek op de last-auth attributie en als zodanig gebruikt in grafiek-gebaseerde stitching.
+Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. Last-auth wordt gebruikt in Audience Manager, en is de aangewezen benadering voor het gebruiksgevallen van het Profiel van de Gegevens van de Klant in real time. De identiteitsdienst van het Experience Platform bouwt de grafiek op de last-auth attributie en als zodanig gebruikt in grafiek-gebaseerde stitching. Zie [ grafiek die van de Identiteit regels verbindt overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) voor meer informatie.
 
 Als u de kenmerk last-auth gebruikt in stitching, worden de id&#39;s met titel omgezet, zoals in de onderstaande tabel wordt getoond.
 
@@ -65,7 +65,7 @@ Als u de kenmerk last-auth gebruikt in stitching, worden de id&#39;s met titel o
 
 #### Apparaatsplitsing
 
-Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de gebruiker in dichtste nabijheid van de anonieme activiteit. Apparaatsplitsing is de voorkeursbenadering voor analytische gebruikgevallen, aangezien apparaatsplitsing zowel de ongeautoriseerde als de geverifieerde activiteit aan de dichtstbijzijnde bekende persoon krediet geeft. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
+Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de gebruiker in dichtste nabijheid van de anonieme activiteit. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld. Apparaatsplitsing is de voorkeursbenadering voor analytische gebruikgevallen, aangezien apparaatsplitsing zowel de ongeautoriseerde als de geverifieerde activiteit aan de dichtstbijzijnde bekende persoon krediet geeft. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
 
 Als u een apparaat-gesplitste kenmerk gebruikt in stitching, worden Stitched ID&#39;s opgelost zoals in de onderstaande tabel wordt getoond.
 
