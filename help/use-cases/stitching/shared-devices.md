@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
+source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '930'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +26,11 @@ Wanneer twee personen hetzelfde apparaat gebruiken en beide een aankoop doen, ku
 
 | Tijdstempel | Paginanaam | Apparaat-id | E-mail |
 |---|---|---|---|
-| 2023-05-12 12:01 | Homepage | 1234 | |
-| 2023-05-12 12:02 | Productpagina | 1234 | |
-| 2023-05-12 12:03 | Volgorde succesvol | 1234 | <ryan@a.com> |
-| 2023-05-12 12:07 | Productpagina | 1234 | |
-| 2023-05-12 12:08 | Volgorde succesvol | 1234 | <cassidy@a.com> |
+| 2023-05-12 12:01 | Homepage | `1234` | |
+| 2023-05-12 12:02 | Productpagina | `1234` | |
+| 2023-05-12 12:03 | Volgorde succesvol | `1234` | `ryan@a.com` |
+| 2023-05-12 12:07 | Productpagina | `1234` | |
+| 2023-05-12 12:08 | Volgorde succesvol | `1234` | `cassidy@a.com` |
 
 De gebeurtenissen voor het slagen van de bestelling (aankoop) wijzen de gegevens correct toe aan de juiste e-mail. Hoe deze toewijzing van invloed is op uw analyse, hangt af van de manier waarop u de analyse uitvoert:
 
@@ -56,12 +56,12 @@ Als u de kenmerk last-auth gebruikt in stitching, worden de id&#39;s met titel o
 
 | Tijdstempel | Paginanaam | Apparaat-id | E-mail | Id met titel |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Homepage | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:02 | Productpagina | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:03 | Volgorde succesvol | 1234 | <ryan@a.com> | <cassidy@a.com> |
-| 2023-05-12 12:07 | Productpagina | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Volgorde succesvol | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:13 | Homepage | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Homepage | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:02 | Productpagina | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:03 | Volgorde succesvol | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 2023-05-12 12:07 | Productpagina | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Volgorde succesvol | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:13 | Homepage | `1234` | | `cassidy@a.com` |
 
 
 #### Apparaatsplitsing
@@ -72,12 +72,12 @@ Als u een apparaat-gesplitste kenmerk gebruikt in stitching, worden Stitched ID&
 
 | Tijdstempel | Paginanaam | Apparaat-id | E-mail | Id met titel |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Homepage | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Productpagina | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Volgorde succesvol | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Productpagina | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:08 | Volgorde succesvol | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:13 | Homepage | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Homepage | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Productpagina | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Volgorde succesvol | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Productpagina | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:08 | Volgorde succesvol | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:13 | Homepage | `1234` | | `cassidy@a.com` |
 
 
 ### ECID opnieuw instellen
@@ -89,12 +89,12 @@ Als u de ECID-instelling gebruikt, worden de geselecteerde id&#39;s omgezet zoal
 
 | Tijdstempel | Paginanaam | Apparaat-id | E-mail | Id met titel |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Homepage | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Productpagina | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Volgorde succesvol | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Productpagina | 5678 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Volgorde succesvol | 5678 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:13 | Homepage | 5678 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Homepage | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Productpagina | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Volgorde succesvol | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Productpagina | 5678 | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Volgorde succesvol | 5678 | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:13 | Homepage | 5678 | | `cassidy@a.com` |
 
 ## Gedeelde apparaatbelichting
 
