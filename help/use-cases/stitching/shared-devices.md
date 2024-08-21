@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
+source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,9 @@ Overweeg verschillende factoren om correct te begrijpen hoe wijdverspreide gedee
 
 Om de gedeelde apparatenblootstelling te begrijpen, kunt u over het uitvoeren van de volgende vragen denken.
 
-1. Begrijp het aantal apparaten dat wordt gedeeld. U kunt een query gebruiken die de apparaat-id&#39;s telt waaraan twee of meer persoon-id&#39;s zijn gekoppeld. Een voorbeeldquery zou er als volgt kunnen uitzien:
+1. **identificeer gedeelde apparaten**
+
+   Om het aantal apparaten te begrijpen die worden gedeeld, voer een vraag uit die Apparaat IDs met twee of meer Gekoppelde Persoon IDs telt. Dit helpt apparaten identificeren die door veelvoudige individuen worden gebruikt.
 
    ```sql
    SELECT COUNT(*)
@@ -116,7 +118,9 @@ Om de gedeelde apparatenblootstelling te begrijpen, kunt u over het uitvoeren va
    ```
 
 
-2. Voor de gedeelde apparaten, resulterend uit de eerste vraag, moet u begrijpen hoeveel gebeurtenissen van de totale gebeurtenissen aan deze gedeelde apparaten kunnen worden toegeschreven. Deze toewijzing geeft u een beter inzicht in de invloed van gedeelde apparaten op uw gegevens en in de impact wanneer u een analyse uitvoert. Een voorbeeldquery zou er als volgt kunnen uitzien:
+2. **Attributie van gebeurtenissen aan gedeelde apparaten**
+
+   Voor de gedeelde apparaten die worden geïdentificeerd, bepaal hoeveel gebeurtenissen van het totaal aan deze apparaten kunnen worden toegeschreven. Dit verstrekt inzicht in de invloed gedeelde apparaten op uw gegevens en de implicaties voor analyse hebben.
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -141,7 +145,9 @@ Om de gedeelde apparatenblootstelling te begrijpen, kunt u over het uitvoeren va
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-3. Voor de gebeurtenissen die aan gedeelde apparaten (het resultaat van de tweede vraag) worden toegewezen, moet u begrijpen hoeveel van deze gebeurtenissen GEEN identiteitskaart van de Persoon hebben. Anders vermeld, hoeveel van de gedeelde apparatengebeurtenissen anonieme gebeurtenissen zijn. Uiteindelijk heeft het algoritme (last-auth, device-split, ECID-reset) dat u selecteert om de gegevenskwaliteit te verbeteren, invloed op deze anonieme gedeelde apparaatgebeurtenissen. Een voorbeeldquery zou er als volgt kunnen uitzien:
+3. **identificeer anonieme gebeurtenissen op gedeelde apparaten**
+
+   Bij de gebeurtenissen die aan gedeelde apparaten worden toegeschreven, bepaalt u hoeveel personen een Person-id hebben die anonieme gebeurtenissen aangeeft. Het algoritme dat u kiest (bijvoorbeeld last-auth, apparaat-split, of ECID-reset) om de gegevenskwaliteit te verbeteren, heeft invloed op deze anonieme gebeurtenissen.
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -166,7 +172,9 @@ Om de gedeelde apparatenblootstelling te begrijpen, kunt u over het uitvoeren va
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-4. Tot slot wilt u de blootstelling begrijpen elke klant wegens gebeurtenismisclassificatie zou ervaren. Om deze blootstelling te krijgen, moet u, voor elk gedeeld apparaat, het percentage anonieme gebeurtenissen berekenen met betrekking tot het totale aantal gebeurtenissen. Een voorbeeldquery zou er als volgt kunnen uitzien:
+4. **berekent blootstelling van gebeurtenis misclassificatie**
+
+   Ten slotte moet de blootstelling worden beoordeeld waarmee elke klant mogelijk wordt geconfronteerd als gevolg van een onjuiste classificatie van gebeurtenissen. Bereken het percentage anonieme gebeurtenissen over het totale aantal gebeurtenissen voor elk gedeeld apparaat. Dit helpt de potentiële invloed op de nauwkeurigheid van klantgegevens te begrijpen.
 
    ```sql
    SELECT COUNT(*) AS total_events,
