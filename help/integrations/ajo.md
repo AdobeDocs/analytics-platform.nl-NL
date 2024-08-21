@@ -4,9 +4,9 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
+source-git-commit: 5434b8432608ba5ee49f7062070fa1624af1b46a
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2868'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ In de volgende secties wordt beschreven hoe u handmatig gegevens, gegenereerd do
 
 Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [ begonnen worden met Datasets ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) in de gebruikersgids van Journey Optimizer voor stappen op hoe te om de gegevens van Journey Optimizer naar Experience Platform als dataset te verzenden.
 
-### Verbinding maken in Customer Journey Analytics
+### Verbinding maken
 
 Zodra het gegeven van Journey Optimizer in Adobe Experience Platform is, kunt u [ een verbinding ](/help/connections/create-connection.md) creëren die op uw datasets van Journey Optimizer wordt gebaseerd. U kunt ook Journey Optimizer-gegevenssets toevoegen aan een bestaande verbinding.
 
@@ -174,7 +174,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 
 {style="table-layout:auto"}
 
-#### Metriek configureren in de gegevensweergave
+#### Metrische gegevens configureren
 
 U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [ montages van de Component ](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond metrieke aanpassingsopties.
 
