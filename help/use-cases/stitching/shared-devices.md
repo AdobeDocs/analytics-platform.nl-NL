@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
+source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ De gebeurtenissen voor het slagen van de bestelling (aankoop) wijzen de gegevens
 
 ## Centrische analyse van personen verbeteren
 
-Voor een betere persoonlijke centrische analyse van gedeelde apparaten hebt u twee opties: u kunt stitching gebruiken of u kunt ECID-resetfunctionaliteit implementeren. Beide benaderingen worden in de onderstaande secties nader besproken.
+De voorbeeldgegevens zijn een combinatie van zowel geverifieerde als niet-geverifieerde activiteit voor hetzelfde apparaat. De uitdaging is een persoon aan het niet voor authentiek verklaarde verkeer toe te wijzen, zodat kunt u een persoon-centric analyse uitvoeren en de Analyses van de Reis van de Klant verhinderen om de activiteiten te laten vallen die geen persoon identiteitskaart waarde hebben. U kunt deze uitdaging op twee manieren oplossen: u kunt het stitching gebruiken of u kunt de functie voor het opnieuw instellen van ECID&#39;s implementeren. Beide opties worden in de onderstaande secties besproken.
 
 ### Stiksel
 
