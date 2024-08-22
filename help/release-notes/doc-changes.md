@@ -4,7 +4,7 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '4006'
 ht-degree: 5%
@@ -19,7 +19,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
-| Augustus 2024 | |
+| **Augustus 2024** | |
 | Een B2B-voorbeeldproject | Toegevoegd a [ gebruiksgeval ](/help/use-cases/b2b/example.md) documenterend hoe te opstelling, vorm en rapport op profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics, gebruikend de nieuwe [ transformatiedatasets voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) functionaliteit. |
 | Gebruiksscenario&#39;s voor het exporteren van gegevens | Toegevoegde meer gedetailleerde vraagvoorbeelden aan [ Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer ](/help/use-cases/data-export/queryservice-export-datasets.md) om te illustreren hoe te om attributie over zittingen behoorlijk toe te passen gebruikend een raadplegingsvenster. |
 | Samenvattingsgegevens | Toegevoegde documentatie over [ summiere gegevens ](/help/data-views/summary-data.md), [ samenvattingsde componentenmontages van de gegevensgroep ](/help/data-views/component-settings/summary-data-group.md) en het geval van het de summiere gegevensgebruik van a [ ](/help/use-cases/data-views/summary-data.md). |

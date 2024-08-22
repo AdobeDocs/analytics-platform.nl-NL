@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '841'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,15 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB  Summiere gegevens ]
+
+Staat u toe om tijdreeksgegevens in te brengen die geen persoon identiteitskaart hebben Deze tijdreeksgegevens kunnen worden gebruikt om verschillende gebruiksgevallen te ondersteunen, zoals
+
+- Prestatie-indicatoren op hoog niveau presenteren als onderdeel van of naast gegevens op gebeurtenisniveau.
+- Uploaden van doelen of doelen op een uur- of dagbasis, en vervolgens positioneren van deze doelen of doelen op basis van metriek op gebeurtenisniveau.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
 >[!TAB  Grafiek-based stitching* ]
 
@@ -75,7 +84,7 @@ Prognosering is een Analysis Workspace-functie voor het voorspellen van een stan
 
 >[!TAB  Nieuwe documentatie ]
 
-De nieuwe documentatiesecties zijn nu beschikbaar op:<ul><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteer **[!UICONTROL Learn more]** voor deze en andere documentatie-updates.
+De nieuwe documentatiesecties zijn nu beschikbaar op:<ul><li>Samenvattingscase voor gegevensgebruik en B2B-voorbeeldgebruik.</li><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteer **[!UICONTROL Learn more]** voor deze en andere documentatie-updates.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -130,7 +139,7 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong> de meningen van Gegevens </strong><br/> <a href="/help/data-views/data-views.md"> Overzicht </a> - <a href="/help/data-views/create-dataview.md"> creeer of geef uit </a> - <a href="/help/data-views/session-settings.md"> montages van de Zitting </a> - <a href="/help/data-views/derived-fields/derived-fields.md"> Voortgekomen gebieden </a> - <a href="/help/data-views/component-reference.md"> Verwijzing van de Component </a>
+      <strong> de meningen van Gegevens </strong><br/> <a href="/help/data-views/data-views.md"> Overzicht </a> - <a href="/help/data-views/create-dataview.md"> creeer of geef uit </a> - <a href="/help/data-views/session-settings.md"> montages van de Zitting </a> - <a href="/help/data-views/derived-fields/derived-fields.md"> Voortgekomen gebieden </a> - <a href="/help/data-views/summary-data.md"> Summiere gegevens </a> - <a href="/help/data-views/component-reference.md"> Verwijzing van de Component </a>
     </td>
 
 </tr>
@@ -145,7 +154,7 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong> Aandeel, de uitvoer, integreert </strong><br/> <a href="/help/analysis-workspace/curate-share/share-projects.md"> Projecten </a> - <a href="/help/mobile-app/home.md"> de Dashboards van Analytics </a> - <a href="/help/report-builder/report-buider-overview.md"> Report Builder </a> - <a href="/help/integrations/overview.md"> Integraties </a>
+      <strong> Aandeel, de uitvoer, integreert </strong><br/> <a href="/help/analysis-workspace/curate-share/share-projects.md"> Projecten </a> - <a href="/help/mobile-app/home.md"> de Dashboards van Analytics </a> - <a href="/help/report-builder/report-buider-overview.md"> Report Builder </a> - <a href="/help/components/exports/manage-exports.md"> de uitvoer van de Wolk </a> - <a href="/help/integrations/overview.md"> Integraties </a>
     </td>
   </tr>
 </table>
