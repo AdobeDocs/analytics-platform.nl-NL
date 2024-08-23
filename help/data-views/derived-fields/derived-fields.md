@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 0a046a89e1742d3470a78ebad4f93cb3b4ea7f4c
+source-git-commit: 1fddf0e8421b35021a1f1641a684cacbc0ec1f0d
 workflow-type: tm+mt
 source-wordcount: '8011'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Voorbeelden van gebruiksgevallen zijn:
 
 - Definieer een afgeleid veld Marketing Channel dat het juiste marketingkanaal bepaalt op basis van een of meer voorwaarden (bijvoorbeeld URL-parameter, pagina-URL, paginanaam).
 
-## Afgeleide veldinterface
+## Afgeleide veldinterface {#interface}
 
 Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterface.
 
@@ -42,7 +42,7 @@ Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterf
 
 {style="table-layout:auto"}
 
-## Veldsjabloonwizard
+## Veldsjabloonwizard {#wizard}
 
 Wanneer u voor het eerst toegang krijgt tot de afgeleide veldinterface, wordt de wizard [!UICONTROL Start with a field template] weergegeven.
 
@@ -51,7 +51,7 @@ Wanneer u voor het eerst toegang krijgt tot de afgeleide veldinterface, wordt de
 
 Het dialoogvenster met afgeleide velden wordt gevuld met regels (en functies) die vereist of handig zijn voor het type veld dat u hebt geselecteerd. Zie {de malplaatjes van de Functie 0} ](#function-templates) voor meer informatie over de beschikbare malplaatjes.[
 
-## Regelinterface
+## Regelinterface {#rules}
 
 Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
@@ -66,7 +66,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
 {style="table-layout:auto"}
 
-## Een afgeleid veld maken
+## Een afgeleid veld maken {#create}
 
 1. Selecteer een bestaande gegevensweergave of maak een gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
@@ -81,7 +81,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 5. Uw nieuw afgeleid gebied wordt toegevoegd aan de [!UICONTROL Derived fields >] container, als deel van **[!UICONTROL ** de gebieden van het Schema **]** in de linkerspoor van uw mening van Gegevens.
 
 
-## Een afgeleid veld bewerken
+## Een afgeleid veld bewerken {#edit}
 
 1. Selecteer een bestaande gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
@@ -117,7 +117,7 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 
 
-## Een afgeleid veld verwijderen
+## Een afgeleid veld verwijderen {#delete}
 
 1. Selecteer een bestaande gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
@@ -153,12 +153,12 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 
 
-## Functiesjablonen
+## Functiesjablonen {#templates}
 
 Om snel een afgeleid gebied voor specifieke gebruiksgevallen tot stand te brengen, zijn de functiesjablonen beschikbaar. Deze functiesjablonen zijn toegankelijk vanuit het selectiegebied in de afgeleide veldinterface of worden voor het eerst weergegeven in de wizard [!UICONTROL Start with a field template] .
 
 
-### Marketingkanalen
+### Marketingkanalen {#mchannel}
 
 Deze functiesjabloon gebruikt een verzameling regels om marketingkanalen te maken.
 
@@ -170,7 +170,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Bounces
+### Bounces {#bounces}
 
 Deze functiemalplaatje gebruikt een inzameling van regels om plaatsgrenzen te identificeren.
 
@@ -182,7 +182,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Combineren met meerdere Dimensionen
+### Combineren met meerdere Dimensionen {#multi-dim}
 
 Deze functiesjabloon combineert twee waarden in één.
 
@@ -194,7 +194,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Vriendelijke naam gegevensset
+### Vriendelijke naam gegevensset {#friendlyname}
 
 Deze functiesjabloon bevat een leesbare naam voor de gegevensset.
 
@@ -206,7 +206,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Paginanaam van URL
+### Paginanaam van URL {#pagename}
 
 Deze functiesjabloon maakt een eenvoudige paginanaam.
 
@@ -218,7 +218,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Seizoen vakantie
+### Seizoen vakantie {#holiday}
 
 Deze functiesjabloon classificeert belangrijke tijden van het jaar.
 
@@ -230,7 +230,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Maandelijkse doelstellingen
+### Maandelijkse doelstellingen {#goals}
 
 Deze functiesjabloon stelt aangepaste maandelijkse doelen in.
 
@@ -242,7 +242,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Alle waarden ophalen in de lijst met gescheiden waarden
+### Alle waarden ophalen in de lijst met gescheiden waarden {#allvalues}
 
 Deze functiesjabloon zet een beperkte lijst om in een array.
 
@@ -254,7 +254,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Eerste waarde ophalen in lijst met scheidingstekens
+### Eerste waarde ophalen in lijst met scheidingstekens {#firstvalue}
 
 Deze functiesjabloon haalt de eerste waarde op in een lijst met scheidingstekens.
 
@@ -266,7 +266,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Laatste waarde ophalen in lijst met scheidingstekens
+### Laatste waarde ophalen in lijst met scheidingstekens {#lastvalue}
 
 Deze functiesjabloon haalt de laatste waarde in een lijst met scheidingstekens op.
 
@@ -278,7 +278,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Domeinnaam
+### Domeinnaam {#domain}
 
 Deze functiesjabloon extraheert de domeinnaam met behulp van een reguliere expressie.
 
@@ -290,7 +290,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Parameter querytekenreeks ophalen
+### Parameter querytekenreeks ophalen {#querystring}
 
 Deze functiesjabloon extraheert querytekenreekswaarden.
 
@@ -302,7 +302,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Overgangsveld
+### Overgangsveld {#transition}
 
 Deze functiesjabloon gaat van het ene veld naar het andere.
 
@@ -314,7 +314,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Eenvoudige botdetectie
+### Eenvoudige botdetectie {#botdetection}
 
 Deze functiesjabloon implementeert de identificatie van lichtbot.
 
@@ -326,7 +326,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Koppeling afsluiten
+### Koppeling afsluiten {#exit}
 
 Deze functiesjabloon identificeert de laatste koppeling waarop in een sessie is geklikt.
 
@@ -338,7 +338,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Koppeling downloaden
+### Koppeling downloaden {#download}
 
 Deze functiesjabloon markeert algemene downloadkoppelingen.
 
@@ -361,7 +361,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 -->
 
-## Functieverwijzing
+## Functieverwijzing {#functionref}
 
 {{select-package}}
 
@@ -384,7 +384,7 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
 <!-- CASE WHEN -->
 
-### Hoofdletter als
+### Hoofdletter als {#casewhen}
 
 Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of meer velden. Deze criteria worden vervolgens gebruikt om de waarden in een nieuw afgeleid veld te definiëren op basis van de volgorde van de voorwaarden.
 
@@ -614,7 +614,7 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 
 <!-- CLASSIFY -->
 
-### Classificeren
+### Classificeren {#classify}
 
 Definieert een set waarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
 
@@ -749,7 +749,7 @@ De volgende aanvullende functionaliteit is beschikbaar in de interface van de re
 
 <!-- CONCATENATE -->
 
-### Samenvoegen
+### Samenvoegen {#concatenate}
 
 Hiermee voegt u veldwaarden samen tot één nieuw afgeleid veld met gedefinieerde scheidingstekens.
 
@@ -826,7 +826,7 @@ U definieert een `Origin - Destination` afgeleid veld. U gebruikt de functie [!U
 +++
 
 
-### Dedupliceren
+### Dedupliceren {#dedup}
 
 Hiermee wordt voorkomen dat een waarde meerdere keren wordt geteld.
 
@@ -911,7 +911,7 @@ U definieert een nieuw `Tracking Code (deduplicated)` afgeleid veld. U gebruikt 
 
 <!-- FIND AND REPLACE -->
 
-### Zoeken en vervangen
+### Zoeken en vervangen {#find-replace}
 
 Hiermee zoekt u alle waarden in een geselecteerd veld en vervangt u deze waarden door een andere waarde in een nieuw afgeleid veld.
 
@@ -981,7 +981,7 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de functi
 
 <!-- LOOKUP -->
 
-### Opzoeken
+### Opzoeken {#lookup}
 
 De waarden van de opzoekopdracht die een gebied van een raadplegingsdataset gebruiken en keert een waarde op een nieuw afgeleid gebied of voor verdere regelverwerking terug.
 
@@ -1032,7 +1032,7 @@ U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer opnemen, die reeds
 
 <!-- LOWERCASE -->
 
-### Kleine letters
+### Kleine letters {#lowercase}
 
 Hiermee zet u waarden van een veld om in kleine letters en slaat u deze op in een nieuw afgeleid veld.
 
@@ -1083,7 +1083,7 @@ U definieert een `Product Names` afgeleid veld. U gebruikt de functie [!UICONTRO
 
 <!-- MATH -->
 
-### Math
+### Math {#math}
 
 Gebruik wiskundige basisoperatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen en verhogen tot een macht) op numerieke velden.
 
@@ -1164,7 +1164,7 @@ Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [
 
 <!-- MERGE FIELDS -->
 
-### Velden samenvoegen
+### Velden samenvoegen {#merge}
 
 Hiermee voegt u waarden uit twee verschillende velden samen tot een nieuw afgeleid veld.
 
@@ -1230,7 +1230,7 @@ U moet hetzelfde type velden selecteren in een regel voor het samenvoegen van ve
 
 <!-- NEXT OR PREVIOUS -->
 
-### Volgende of Vorige
+### Volgende of Vorige {#next-previous}
 
 Neemt een gebied als input en lost de volgende of vorige waarde voor dat gebied binnen het werkingsgebied van de zitting of het gebruik op. Dit geldt alleen voor de velden Bezoek en Gebeurtenis.
 
@@ -1302,7 +1302,7 @@ U kunt alleen velden selecteren die behoren tot de tabel Visit of Event.
 
 <!-- REGEX REPLACE -->
 
-### Regex Replace
+### Regex Replace {#regex-replace}
 
 Hiermee vervangt u een waarde uit een veld met een reguliere expressie in een nieuw afgeleid veld.
 
@@ -1399,7 +1399,7 @@ U kunt deze reeksen gebruiken in [!UICONTROL Output format] om het even welk aan
 
 <!-- SPLIT -->
 
-### Splitsen
+### Splitsen {#split}
 
 Splitst een waarde van een veld in een nieuw afgeleid veld.
 
@@ -1491,7 +1491,7 @@ U maakt een `Second Response` afgeleid veld om de laatste waarde uit het veld [!
 
 <!-- SUMMARIZE -->
 
-### Samenvatten
+### Samenvatten {#summarize}
 
 Hiermee past u functies van het aggregatietype toe op metriek of dimensies op gebeurtenis-, sessie- en gebruikersniveau.
 
