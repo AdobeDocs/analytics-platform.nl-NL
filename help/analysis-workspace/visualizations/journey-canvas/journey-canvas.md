@@ -5,10 +5,10 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: fb2a24d6f7a93e941a76db0d10c515381c476c31
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 1%
+source-wordcount: '1193'
+ht-degree: 0%
 
 ---
 
@@ -94,16 +94,25 @@ Reiscanvas biedt een diepgaande, diepgaande analyse die niet mogelijk is in Jour
 
 Het gebruik van het canvas Journey voor het analyseren van reizen die in Journey Optimizer zijn gemaakt, biedt verschillende voordelen:
 
-| Functie | Voordeel |
-|---------|----------|
-| **Gebeurtenissen maken** | Maak eenvoudig gebeurtenissen met behulp van Customers Journey Analytics, maateenheden of filters. <p>In Journey Optimizer moet een technische gebruiker een gebeurtenis maken voordat deze aan een reis kan worden toegevoegd.</p> |
-| **creeer publiek van douaneknopen** | Maak een publiek op basis van een aangepast knooppunt dat u maakt op de reis binnen de visualisatie van het canvas Journey. (Start de Customer Journey Analytics publieksbuilder.) <p>In Journey Optimizer kunt u alleen een publiek maken voor vooraf gedefinieerde activiteiten.</p> |
-| **Vallthrough en reserve** | B3 |
-| **Break onderaan gebeurtenissen** | B3 |
-| **noem gebeurtenissen** anders | B3 |
-| **de gebeurtenissen van de Schrapping** | B3 |
-| **combineer gebeurtenissen** | B3 |
-| **verbind gebeurtenissen** | B3 |
+* Maak gebeurtenissen met behulp van Customers Journey Analytics, maateenheden, filters of datumbereiken.
+
+  In Journey Optimizer moet een technische gebruiker een gebeurtenis maken voordat deze aan een reis kan worden toegevoegd.
+
+* Creeer publiek dat op een douaneknoop wordt gebaseerd die u creeert (lanceert de het publieksbouwer van de Customer Journey Analytics).
+
+  In Journey Optimizer kunt u alleen een publiek maken voor vooraf gedefinieerde activiteiten.
+
+* Analyseren van fallthrough en fallout
+
+* Gebeurtenissen indelen met elke dimensie
+
+* Gebeurtenissen combineren
+
+* Connect-gebeurtenissen
+
+* Gebeurtenissen hernoemen en verwijderen
+
+* Veel meer
 
 ### Synchronisatie tussen Journey Optimizer en Reiscanvas
 
@@ -144,8 +153,6 @@ Bepaalde termen die één ding betekenen in Journey Optimizer, betekenen iets an
 | Term | Reiscanvas | Journey Optimizer |
 |---------|----------|---------|
 | **Gebeurtenis** | Één van verscheidene standaardmetriek die in Customer Journey Analytics beschikbaar is. Deze metrische tellingen dingen zoals opbrengst, abonnementen, of geproduceerde lood. | De categorie van activiteit die een gepersonaliseerde reis, zoals een online aankoop teweegbrengt. |
-| A2 | B2 | C2 |
-| A3 | B3 | C3 |
 
 ### Een Journey Optimizer-reis analyseren in het canvas Journey
 

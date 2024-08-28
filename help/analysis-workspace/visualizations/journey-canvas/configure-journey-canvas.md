@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: e06793a0ce73fa8d6aa9b798209bfc044e696931
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4138'
 ht-degree: 0%
 
 ---
@@ -220,6 +220,12 @@ De logica die op knopen wordt toegepast wanneer zij worden gecombineerd verschil
 ### Verbindingsknooppunten
 
 U kunt knooppunten verbinden die zich al op het canvas bevinden, of u kunt een knooppunt verbinden wanneer u het aan het canvas toevoegt.
+
+#### Logica wanneer knooppunten worden aangesloten
+
+Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend filtreren ](/help/components/filters/seg-sequential-build.md).
+
+U kunt de logica van verbonden knopen bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer filter van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
 
 #### Bestaande knooppunten verbinden
 
