@@ -22,11 +22,11 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="Kenmerk, deelvenster"
->abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters **<br/>**Kanaal**<br/> De dimensie aan attribuut tegen. Dit kunnen marketingkanalen, campagnes of andere dimensies zijn.<br/>**Modellen**<br/> Het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**Venster Opzoeken**<br/> Deze instelling bepaalt het venster met gegevenstoewijzing waarop elke conversie wordt toegepast."
+>abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters **<br/>**Kanaal**<br/> de afmeting tegen attributen. Dit kunnen marketingkanalen, campagnes of andere dimensies zijn.<br/>**Modellen**<br/> het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**venster van de Lookback**<br/> Dit het plaatsen bepaalt het venster van gegevensattributie dat op voor elke omzetting zal worden toegepast."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Deelvenster Attribution IQ"
 
 
-De [!UICONTROL Attribution] is een gemakkelijke manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie die u een specifieke werkruimte biedt voor het gebruik en vergelijken van attributiemodellen.
+Het deelvenster [!UICONTROL Attribution] is een eenvoudige manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie die u een specifieke werkruimte biedt voor het gebruik en vergelijken van attributiemodellen.
 
 Customer Journey Analytics verbetert de attributie door u te laten:
 
@@ -42,26 +42,26 @@ Customer Journey Analytics verbetert de attributie door u te laten:
 ## Een deelvenster met kenmerken maken
 
 1. Klik op het deelvensterpictogram aan de linkerkant.
-1. Sleep de [!UICONTROL Attribution] in uw Analysis Workspace-project.
+1. Sleep het deelvenster [!UICONTROL Attribution] naar uw Analysis Workspace-project.
 
-   ![Het venster Nieuw project markeert het deelvenster Kenmerken.](assets/Attribution_Panel_1.png)
+   ![ het Nieuwe venster van het Project dat het paneel van de Attributie benadrukt.](assets/Attribution_Panel_1.png)
 
 1. Voeg metrisch toe dat u om het even welke afmeting aan attributen wilt kenmerken en toevoegen tegen. Voorbeelden zijn Marketingkanalen of aangepaste afmetingen, zoals interne promoties.
 
-   ![Het venster van het deelvenster Kenmerken dat verschillende geselecteerde afmetingen en metriek toont.](assets/attribution_panel2.png)
+   ![ het het paneelvenster van de Attributie dat verscheidene geselecteerde afmetingen en metriek toont.](assets/attribution_panel2.png)
 
 1. Selecteer de kenmerken en het terugzoekvenster die u wilt vergelijken.
 
 1. Het deelvenster Kenmerken retourneert een uitgebreide set gegevens en visualisaties die de kenmerk voor de geselecteerde dimensie en metrisch vergelijken.
 
-   ![De visualisaties in het deelvenster Kenmerken die geselecteerde metriek en dimensies vergelijken.](assets/attr_panel_vizs.png)
+   ![ het paneel van de Attributie visualisaties die geselecteerde metriek en dimensies vergelijken.](assets/attr_panel_vizs.png)
 
 ## Attributievisualisaties
 
-* **Totaal metrisch**: Het totale aantal conversies dat zich tijdens het rapportagetijdvenster heeft voorgedaan. Dit zijn de omzettingen die over de afmeting worden toegeschreven u selecteerde.
-* **Vergelijkingsbalk voor kenmerken**: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
-* **Vergelijkingstabel voor kenmerken**: Hiermee geeft u dezelfde gegevens weer als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze tabel werkt op dezelfde manier als elke andere Freeform-tabel in Workspace, zodat u componenten kunt toevoegen, zoals metriek, filters of indelingen.
-* **Diagram overlappen**: Een tekening van Venn die de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. Bijvoorbeeld, wijst de grootte van de bel overlapping erop hoe vaak omzettingen voorkwamen wanneer een persoon aan beide afmetingspunten werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
-* **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkmodellen visueel vergelijken met een spreidingsperceel.
-* **Trende prestaties**: Geeft de trend weer van toegewezen omzettingen voor het bovenste dimensie-item. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
-* **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde op de reis van een persoon.
+* **Totaal metrisch**: Het totale aantal omzettingen die over het rapporteringstijdvenster voorkwamen. Dit zijn de omzettingen die over de afmeting worden toegeschreven u selecteerde.
+* **de Vergelijkingsbar van de Attributie**: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
+* **Lijst van de Vergelijking van de Attributie**: Toont de zelfde gegevens zoals het staafdiagram, dat als lijst wordt vertegenwoordigd. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze tabel werkt op dezelfde manier als elke andere Freeform-tabel in Workspace, zodat u componenten kunt toevoegen, zoals metriek, filters of indelingen.
+* **Overlap Diagram**: Een Diagram van de Plaats die de hoogste drie afmetingspunten tonen en hoe vaak zij gezamenlijk aan een omzetting deelnemen. Bijvoorbeeld, wijst de grootte van de bel overlapping erop hoe vaak omzettingen voorkwamen wanneer een persoon aan beide afmetingspunten werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Detail van Prestaties**: Laat u tot drie attributiemodellen vergelijken visueel gebruikend een verstrooiingsperceel.
+* **Getweende Prestaties**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Stroom**: Laat u zien welke kanalen met het meest algemeen in wisselwerking staan, en in welke orde over de reis van een persoon.
