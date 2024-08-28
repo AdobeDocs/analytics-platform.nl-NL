@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen
 title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 7cdd81c9e38219d2d17decd5b9c3e987b814fc53
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,18 @@ Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metri
 
 ## Gebieden van de berekende metriebouwer
 
+<!-- 
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_viz_product_compatibility"
+>title="Product compatibility"
+>abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth."  
+>"Some calculated metrics cannot be used with experimentation. Calculated metrics that are not compatible with experimentation have the following value: "Everywhere in Customer Journey Analytics (excluding experimentation)" "
+>"Various factors affect whether a calculated metric is compatible with experimentation. Learn more (https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation) ."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation"
+
+-->
+
 In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van de builder van berekende metriek uitgelegd.
 
 ![ Nieuw berekend metriekvenster dat belangrijkste die gebieden en eigenschappen toont in deze sectie worden beschreven.](assets/cm_builder_ui.png)
@@ -47,7 +59,7 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | Definitie | Dit is waar u in metriek/berekende metriek, filters, en/of functies sleept om berekende metrisch te bouwen. <ul><li>Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. </li> <li>U kunt definities nesten met containers. In tegenstelling tot filtercontainers werken deze containers echter als een wiskundige expressie en bepalen ze de volgorde van bewerkingen. </li> </ul> |
 | Operator | Gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. |
 | Voorvertoning | Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
-| Productcompatibiliteit | Voor om het even welke berekende metriek die u in Customer Journey Analytics creeert, is deze waarde altijd vermeld als [!UICONTROL **volledig Verwerkte Gegevens**]. Berekende metriek kan slechts gegevens van gebeurtenisdatasets omvatten. |
+| Productcompatibiliteit | Geeft aan waar in de Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt. <p>De mogelijke waarden zijn:</p><ul><li>[!UICONTROL **overal in Customer Journey Analytics**]: Berekende metrisch kan door alle Customer Journey Analytics, met inbegrip van Analysis Workspace, Report Builder, etc. worden gebruikt.</li><li>[!UICONTROL **overal in Customer Journey Analytics (exclusief experimenteren)**]: Berekende metrisch kan door alle Customer Journey Analytics, behalve in het paneel van de Experimentatie worden gebruikt.</li> <p>Voor informatie over de criteria die bepalen of berekende metrisch met experimenteren kan worden gebruikt, zie [ Berekende metriek van het Gebruik in het paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) in [ het paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
 | Toevoegen | Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u filters en functies ook toevoegen.<ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Wanneer u een filter naar een container sleept, wordt alles in die container gefilterd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere filters in een container stapelen.</li></ul> |
 | Pictogram tandwiel (metrisch type, kenmerk) | Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en de kenmerkmodellen opgeven. <p>**Nota:** overweeg het volgende wanneer het bijwerken van de attributie van een component aan een niet-gebrek attributiemodel:</p><ul><li>**wanneer het gebruiken van de component in een rapport met *één enkele afmeting*:** de attributie van de component negeert het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.</li><li>**wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.</li><li>De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence ](/help/data-views/component-settings/persistence.md).[</p> |
 | Plus (+)-pictogram | Hiermee kunt u een nieuwe component maken, zoals een nieuw filter (waarmee u naar de Filterbouwer gaat). |

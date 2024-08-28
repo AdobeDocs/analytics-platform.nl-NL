@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 0%
@@ -24,10 +24,12 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | Aanmaakmethode | Details |
    | --- | --- |
    | Vanuit het hoofdmenu **[!UICONTROL Components]>[!UICONTROL Audiences]** | De pagina Soortbeheer wordt geopend. Klik op **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
-   | Vanuit een tabel voor vrije vorm | Klik met de rechtermuisknop op een item in een tabel met vrije vorm en selecteer **[!UICONTROL Create an audience from selection]** . Met deze methode wordt het filter vooraf gevuld met de dimensie of het dimensie-item dat u in de tabel hebt geselecteerd. |
+   | Vanuit een tabel voor vrije vorm | Klik met de rechtermuisknop op een item in een tabel met vrije vorm en selecteer **[!UICONTROL Create audience from selection]** . Met deze methode wordt het filter vooraf gevuld met de dimensie of het dimensie-item dat u in de tabel hebt geselecteerd. |
    | Via de interface voor het maken/bewerken van filters | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this filter]** in. Met deze methode wordt het filter vooraf gevuld. |
 
    {style="table-layout:auto"}
+
+   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. Het publiek opbouwen.
 
