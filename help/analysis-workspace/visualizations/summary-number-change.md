@@ -4,7 +4,7 @@ title: Samenvattingsnummer en Samenvattingswijziging
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 3a63c22c080b0d4d4848d707c6219902de687abd
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek om de Summiere montages van het Aantal te vormen:
+Klik de **montages van de Visualisatie** binnen binnen aan het hoogste recht om de Summiere montages van het Aantal te vormen:
 
 | Instelling | Definitie |
 |--- |--- |
@@ -35,7 +35,7 @@ Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek
 
 ## Visualisatie overzichtswijziging {#summary-change}
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door worden gecontroleerd [polariteit aangepaste gebeurtenis](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrieke waarde [Toon Opwaartse trend als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) -optie.
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [ polariteit van de douanegebeurtenis ](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) of de berekende metrische [ van de Show de Naar boven als ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
@@ -47,10 +47,10 @@ Deze visualisatie werkt op de volgende manieren:
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 
 
-![Samenvattingswijziging visualisatie met de delta tussen twee getallen](assets/summary-change.png)
+![ Summiere verandering visualisatie die de delta tussen twee numbers.s toont ](assets/summary-change.png)
 
 
-Klik op de knop **Visualisatie-instellingen** Wijs in het hoogste recht aan om de Summiere montages van de Verandering te vormen:
+Klik de **montages van de Visualisatie** binnen binnen binnen aan het hoogste recht om de Summiere montages van de Verandering te vormen:
 
 | Instelling | Definitie |
 |--- |--- |
