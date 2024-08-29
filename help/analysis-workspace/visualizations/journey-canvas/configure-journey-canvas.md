@@ -5,14 +5,17 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: 53984934-6fba-4f15-aeeb-d91039260553
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4276'
 ht-degree: 0%
 
 ---
 
 # De visualisatie van het canvas voor een reis configureren
+
+{{release-limited-testing}}
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt.
 
@@ -78,9 +81,9 @@ U moet [ beginnen bouwend een visualisatie van het canvas van de Reis ](#begin-b
    | Instelling | Functie |
    |---------|----------|
    | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in de gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in Reis Canvas hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
-   | [!UICONTROL **Procentuele waarde**] | Kies een van de volgende opties: <ul><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen inbegrepen in de beginknoop.<p>Deze optie is alleen beschikbaar als u één beginknooppunt hebt. Het is verborgen als u meerdere beginknooppunten hebt.</p></li></ul> |
+   | [!UICONTROL **Procentuele waarde**] | Kies een van de volgende opties: <ul><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel die ook aan de criteria van de beginnende knoop van de reis voldoen. (Deze optie is alleen beschikbaar voor reizen met één startknooppunt; deze optie is uitgeschakeld voor reizen met meerdere startknooppunten. Een beginknooppunt wordt gedefinieerd als elk knooppunt dat geen verbinding heeft die erin komt.)</li></ul> |
    | [!UICONTROL **montages van de Pijl**] | Kies een van de volgende opties:<ul><li>[!UICONTROL **niets**]: </li><li>[!UICONTROL **Voorwaarde**]: </li><li>[!UICONTROL **Alle etiketten**]: </li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **toon reserve**] | Geef de gegevens van de neerslag voor elke knoop van de vertoning, die het aantal en het percentage mensen toont die de reis bij een bepaalde knoop verlieten. |
+   | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis bij een bepaalde knoop verlieten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
 
 1. Ga met [ verder voeg een knoop ](#add-a-node) toe.
 
@@ -92,7 +95,7 @@ U voegt als volgt een knooppunt toe aan de visualisatie van een canvas op reis:
 
 1. In Analysis Workspace, open een bestaande visualisatie van het canvas van de Reis, of [ beginnen bouwend nieuwe ](#begin-building-a-journey-canvas-visualization).
 
-1. Sleep metriek, dimensies, afmetingsitems, filters of datumbereiken van de linkerspoorstaaf naar het canvas. Berekende meetgegevens worden niet ondersteund. Bovendien, worden om het even welke metriek of dimensies die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn niet gesteund.
+1. Sleep metriek, dimensies, afmetingsitems, filters of datumbereiken van de linkerspoorstaaf naar het canvas. De metriek die op a [ afgeleid gebied ](/help/data-views/derived-fields/derived-fields.md) gebaseerd zijn wordt gesteund. Nochtans, worden de berekende metriek, evenals om het even welke metriek of dimensies die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn niet gesteund.
 
    U kunt meerdere componenten in de linkertrack selecteren door Shift ingedrukt te houden of door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
 
@@ -221,15 +224,25 @@ De logica die op knopen wordt toegepast wanneer zij worden gecombineerd verschil
 
 U kunt knooppunten verbinden die zich al op het canvas bevinden, of u kunt een knooppunt verbinden wanneer u het aan het canvas toevoegt.
 
+#### Pijlen tussen knooppunten
+
+De knopen worden verbonden door een pijl. Zowel de richting van de pijl als de breedte hebben betekenis:
+
+* **Richting**: Wijst op de opeenvolging van gebeurtenissen van de reis
+
+* **Breedte**: Wijst op percentagevolume van één knoop aan een andere
+
 #### Logica wanneer knooppunten worden aangesloten
 
 Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend filtreren ](/help/components/filters/seg-sequential-build.md).
+
+Knooppunten worden verbonden als een &quot;uiteindelijk pad&quot;, wat betekent dat bezoekers worden geteld zolang ze uiteindelijk van de ene naar de andere node gaan, ongeacht gebeurtenissen die zich tussen de twee knooppunten voordoen.
 
 U kunt de logica van verbonden knopen bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer filter van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
 
 #### Bestaande knooppunten verbinden
 
-De pijl tussen knooppunten op het canvas Journey bepaalt de volgorde van gebeurtenissen op de reis.
+De reizen kunnen niet circulair zijn, die terug naar eerder verbonden knopen herhalen.
 
 Om knopen in het canvas van de Reis te verbinden:
 
@@ -239,7 +252,7 @@ Om knopen in het canvas van de Reis te verbinden:
 
 1. Sleep een van de vier blauwe stippen naar een van de vier zijden van het knooppunt waarmee u verbinding wilt maken.
 
-   Er verschijnt een pijl die de twee knooppunten verbindt. De pijl geeft de richting aan waarin mensen door de reis gaan.
+   Er verschijnt een pijl die de twee knooppunten verbindt. Zie [ Pijlen tussen knopen ](#arrows-between-nodes) voor meer informatie.
 
 #### Verbind knopen wanneer het toevoegen van een knoop
 
@@ -249,7 +262,7 @@ Voor meer informatie, zie [ een knoop ](#add-a-node) toevoegen.
 
 ### De kleur van een knooppunt of pijl wijzigen
 
-U kunt de kleur wijzigen van een knooppunt of pijl op het canvas.
+U kunt een reis visueel aanpassen door de kleur van om het even welke knoop of pijl op het canvas te veranderen. U kunt bijvoorbeeld een kleur aanpassen om een ongewenste gebeurtenis aan te geven.
 
 De optie om de kleur te wijzigen is beschikbaar voor de volgende objecten op het canvas:
 
@@ -339,7 +352,7 @@ Een publiek maken:
 
 ### Tendelgegevens weergeven
 
-U kunt de trendgegevens weergeven in een lijngrafiek voor objecten op het canvas Reis. &lt;!— met enkele vooraf samengestelde gegevens over anomaliedetectie (dit is de definitie in Fallout)>
+U kunt de trendgegevens weergeven in een lijngrafiek voor objecten op het canvas Reis. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 De optie voor trendmatige ontwikkeling is beschikbaar voor de volgende objecten op het canvas:
 
@@ -474,4 +487,3 @@ Als u pijlen wilt verwijderen tussen knooppunten in het canvas Reis:
 Open in Journey Optimizer de reis die u wilt analyseren in Journey canvas.
 
 1. Selecteer [!UICONTROL **Analyseren in CJA**]. <!-- ?? -->
-

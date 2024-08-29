@@ -5,7 +5,8 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -14,9 +15,11 @@ ht-degree: 0%
 
 # Overzicht van het reiscanvas
 
+{{release-limited-testing}}
+
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt. Het stelt je in staat om een reis helemaal vanaf het begin te definiëren of een reis vanuit Journey Optimizer te bekijken, dan te zien hoe mensen de reis hebben verlaten (verlaten) of doorgezet (doorheen).
 
-U kunt analyses van gebruikersreizen maken door elke combinatie van gebeurtenissen, dimensiepunten, filters en datumbereiken te gebruiken om knooppunten voor de rit te maken. Verbind de knopen om de stroom van de reis tot stand te brengen, en veelvoudige wegen en beslissingspunten te omvatten. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Gegevens worden realtime bijgewerkt terwijl u wijzigingen aanbrengt.
+U kunt [ analyses van gebruikersreizen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) bouwen door om het even welke combinatie gebeurtenissen, afmetingspunten, filters, en datumwaaiers te gebruiken om reisknopen tot stand te brengen. Verbind de knopen om de stroom van de reis tot stand te brengen, en veelvoudige wegen en beslissingspunten te omvatten. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Gegevens worden realtime bijgewerkt terwijl u wijzigingen aanbrengt.
 
 ## Belangrijkste kenmerken
 
@@ -161,5 +164,3 @@ Voor informatie over het analyseren van een reis van Journey Optimizer in het ca
 ## Analyses maken in Reis canvas
 
 U kunt analyses maken op het canvas Journey die zijn gebaseerd op alle afmetingen of maatstaven die beschikbaar zijn in Analysis Workspace. Of je kunt reizen analyseren die gemaakt zijn in Journey Optimizer. Voor meer informatie, zie [ een visualisatie van het canvas van de Reis vormen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
-
-
