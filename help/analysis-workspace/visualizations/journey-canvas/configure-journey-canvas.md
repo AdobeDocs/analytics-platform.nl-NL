@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
+source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4484'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Zie [ Overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizat
    |---------|----------|
    | [!UICONTROL **Primaire metrisch**] | De primaire metrische waarde beïnvloedt de volgende aspecten van de visualisatie van het canvas van de Reis:  <ul><li>Definieert hoe mensen door de reis bewegen.</li><li>Het totale aantal dat op elke knoop wordt getoond.<p>Bijvoorbeeld, als Mensen primaire metrisch is, toont elke knoop het aantal mensen die die knoop in de reis bereikten.</p></li><li>Het percentage dat op elk knooppunt wordt weergegeven. (Nadat de visualisatie is opgebouwd, kunt u kiezen of het percentage van het totaal of van het beginknooppunt wordt weergegeven.)</li><p>Bijvoorbeeld, als Mensen primaire metrisch is, toont elke knoop het percentage mensen die die knoop in de reis (of het percentage van het totaal of van de beginnende knoop) bereikten.</p></li><li>Wanneer een afmeting aan visualisatie wordt toegevoegd, worden de hoogste 3 knopen van visualisatie toegevoegd, die op primaire metrisch wordt gebaseerd.</li></ul> |
    | [!UICONTROL **Secundaire metrische**] | Secundaire metrisch is facultatief. Wanneer één wordt geselecteerd, wordt de volgende informatie getoond op elke knoop onder primaire metrisch: <ul><li>Het totale getal<p>Bijvoorbeeld, als Sessies secundaire metrisch is, toont elke knoop het aantal zittingen die die knoop in de reis bereikten.</p></li><li>Het percentage (nadat de visualisatie is opgebouwd, kunt u kiezen om het percentage van het totaal of van het beginknooppunt weer te geven.)</li><p>Bijvoorbeeld, als Sessies secundaire metrisch is, toont elke knoop het percentage zittingen die die knoop in de reis (of het percentage van het totaal of van de beginnende knoop) bereikten.</p></li></ul> |
-   | [!UICONTROL **reis van Journey Optimizer**]<!-- name? --> | Selecteer de reis van Journey Optimizer die u als basis voor uw analyse in het canvas van de Reis wilt gebruiken. (U kunt deze optie ook leeg laten als u een leeg canvas wilt maken waaruit u de analyse in Analysis Workspace wilt opbouwen.)</p> <p>Wanneer u een Journey Optimizer-reis analyseert op het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Voor meer informatie, zie [ reizen van Journey Optimizer ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [ overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) analyseren.</p><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **reis van Journey Optimizer**]<!-- name? --> | Selecteer de reis van Journey Optimizer die u als basis voor uw analyse in het canvas van de Reis wilt gebruiken. (U kunt deze optie ook leeg laten als u een leeg canvas wilt maken waaruit u de analyse in Analysis Workspace wilt opbouwen.)</p> <p>Wanneer u een Journey Optimizer-reis analyseert op het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Voor meer informatie, zie [ reizen van Journey Optimizer ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [ overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) analyseren.</p><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
 
 1. (Facultatief) selecteer [!UICONTROL **tonen geavanceerde montages**], dan specificeer de volgende informatie:
 
@@ -84,10 +84,11 @@ Instellingen configureren voor de visualisatie van het canvas Reis:
 
    | Instelling | Functie |
    |---------|----------|
-   | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in de gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in Reis Canvas hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in dezelfde gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in Reis Canvas hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Procentuele waarde**] | Kies een van de volgende opties: <ul><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel die ook aan de criteria van de beginnende knoop van de reis voldoen. (Deze optie is alleen beschikbaar voor reizen met één startknooppunt; deze optie is uitgeschakeld voor reizen met meerdere startknooppunten. Een beginknooppunt wordt gedefinieerd als elk knooppunt dat geen verbinding heeft die erin komt.)</li></ul> |
-   | [!UICONTROL **montages van de Pijl**] | Kies een van de volgende opties:<ul><li>[!UICONTROL **niets**]: </li><li>[!UICONTROL **Voorwaarde**]: </li><li>[!UICONTROL **Alle etiketten**]: </li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **montages van de Pijl**] | Kies een van de volgende opties:<ul><li>[!UICONTROL **niets**]: </li><li>[!UICONTROL **Voorwaarde**]: </li><li>[!UICONTROL **Alle etiketten**]: </li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis na een bepaald knooppunt hebben verlaten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
+   | **controles van het Gezoem** | De volgende zoomknoppen zijn beschikbaar in de rechterbovenhoek van het canvas:<ul><li>**Gezoem binnen** ![ zoom in pictogram ](assets/zoom-in-icon.png): Vergroot specifieke gebieden van visualisatie.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**Gezoem uit** ![ zoom uit pictogram ](assets/zoom-out-icon.png): Verkleint visualisatie om meer ruimte op het canvas toe te staan.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**het scherm van de Passendheid** ![ past het het schermpictogram ](assets/fill-screen-icon.png): Past huidige gezoem en pan montages aan om het scherm met volledige visualisatie te vullen.</li></ul><p>Als u wilt pannen over het canvas nadat u hebt in- of uitgezoomd, klikt u met de muis en sleept u naar de gewenste locatie.</p> |
 
 1. Ga met [ verder voeg knopen ](#add-nodes) toe.
 
@@ -208,7 +209,9 @@ Nadat knooppunten aan het canvas zijn toegevoegd, kunt u deze opnieuw rangschikk
 
 De reizen in het canvas van de Reis bestaan uit een flexibele grafiek van knopen en pijlen die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen.
 
-U kunt knooppunten naar het canvas slepen om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt.
+U kunt knooppunten naar het canvas slepen om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. U kunt meerdere knooppunten selecteren door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
+
+Terwijl u de volgorde van knooppunten in de rit wijzigt, worden de gegevens dienovereenkomstig bijgewerkt.
 
 ### Knooppunten combineren
 
@@ -282,7 +285,7 @@ Om knopen in het canvas van de Reis te verbinden:
 
 Wanneer u een knooppunt aan het canvas toevoegt, kunt u het tussen twee verbonden knooppunten plaatsen. De knoop wordt toegevoegd aan de stroom van de reis tussen de 2 bestaande knopen.
 
-Voor meer informatie, zie [ een knoop ](#add-a-node) toevoegen.
+Voor meer informatie, zie [ knopen ](#add-nodes) toevoegen.
 
 ### Tijdsbeperking toevoegen tussen knooppunten
 
@@ -369,7 +372,7 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
 
 U kunt een afmeting van de linkerspoorstaaf naar de knoop op het canvas slepen waar u de breuk wilt toepassen.
 
-Voor meer informatie, zie [ een knoop ](#add-a-node) toevoegen.
+Voor meer informatie, zie [ knopen ](#add-nodes) toevoegen.
 
 ### Een publiek maken
 
