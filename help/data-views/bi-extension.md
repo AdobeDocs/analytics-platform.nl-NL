@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79efab0baf9c44603a7aad7383f42a9d9c0b63cb
+source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2901'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ De etiketten en het beleid van de privacy die op datasets werden gecreeerd die d
 Om redenen van gegevensbeheer zijn de volgende aanvullende standaardwaarden en beperkingen van toepassing.
 
 * De extensie BI vereist een rijlimiet voor de resultaten van de query. De standaardwaarde is 50, maar u kunt dit overschrijven in SQL met behulp van `LIMIT n` , waarbij `n` 1 - 50000 is.
-* De extensie BI vereist een datumbereik om de rijen voor berekeningen te beperken. De standaardwaarde is de laatste 30 dagen, maar u kunt dit in uw SQL `WHERE` -component negeren met behulp van de speciale [`timestamp`](#timestamp) - of [`daterange`](#date-range) -kolommen (zie verdere documentatie).
+* De extensie BI vereist een datumbereik om de rijen voor berekeningen te beperken. De standaardwaarde is de laatste 30 dagen, maar u kunt dit in uw SQL `WHERE` -component overschrijven met behulp van de speciale [`timestamp`](#timestamp) - of [`daterange`](#date-range) -kolommen.
 * Voor de extensie BI zijn samengevoegde query&#39;s vereist. U kunt SQL niet gebruiken zoals `SELECT * FROM ...` om de ruwe, onderliggende rijen te krijgen. Op een hoog niveau, zouden uw gezamenlijke vragen moeten gebruiken:
    * Selecteer totalen met `SUM` en/of `COUNT` .<br/> Bijvoorbeeld `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Selecteer metriek uitgesplitst op een afmeting. <br/> Bijvoorbeeld, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
