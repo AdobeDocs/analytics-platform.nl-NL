@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
+source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 0%
@@ -192,19 +192,6 @@ De aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics wo
 
 De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van de Customer Journey Analytics worden bezocht. Daarom geven gegevens die met [!DNL Customer Journey Analytics BI extension] worden gevraagd, passende waarschuwingen of fouten weer wanneer ze niet voldoen aan de gedefinieerde privacylabels en beleidsregels.
 
-#### Standaardwaarden en beperkingen
-
-Om redenen van gegevensbeheer zijn de volgende aanvullende standaardwaarden en beperkingen van toepassing.
-
-* De extensie BI vereist een rijlimiet voor de resultaten van de query. De standaardwaarde is 50, maar u kunt dit overschrijven in SQL met behulp van `LIMIT n` , waarbij `n` 1 - 50000 is.
-* De extensie BI vereist een datumbereik om de rijen voor berekeningen te beperken. De standaardwaarde is de laatste 30 dagen, maar u kunt dit in uw SQL `WHERE` -component overschrijven met behulp van de speciale [`timestamp`](#timestamp) - of [`daterange`](#date-range) -kolommen.
-* Voor de extensie BI zijn samengevoegde query&#39;s vereist. U kunt SQL niet gebruiken zoals `SELECT * FROM ...` om de ruwe, onderliggende rijen te krijgen. Op een hoog niveau, zouden uw gezamenlijke vragen moeten gebruiken:
-   * Selecteer totalen met `SUM` en/of `COUNT` .<br/> Bijvoorbeeld `SELECT SUM(metric1), COUNT(*) FROM ...`
-   * Selecteer metriek uitgesplitst op een afmeting. <br/> Bijvoorbeeld, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * Selecteer duidelijke metrische waarden.<br/> Bijvoorbeeld, `SELECT DISTINCT dimension1 FROM ...`
-
-     Zie voor meer details [ Ondersteunde SQL ](#supported-sql).
-
 ### Weergaven van gegevens weergeven
 
 In de standaard PostSQL CLI kunt u uw weergaven weergeven met `\dv`
@@ -221,6 +208,21 @@ prod:all=> \dv
 ### Geneste in plaats van samengevoegd
 
 Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de optie `FLATTEN` . Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [ Werkend met genestelde gegevensstructuren in de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie.
+
+
+### Standaardwaarden en beperkingen
+
+De volgende extra standaardwaarden en beperkingen zijn van toepassing wanneer u de extensie BI gebruikt:
+
+* De extensie BI vereist een rijlimiet voor de resultaten van de query. De standaardwaarde is 50, maar u kunt dit overschrijven in SQL met behulp van `LIMIT n` , waarbij `n` 1 - 50000 is.
+* De extensie BI vereist een datumbereik om de rijen voor berekeningen te beperken. De standaardwaarde is de laatste 30 dagen, maar u kunt dit in uw SQL `WHERE` -component overschrijven met behulp van de speciale [`timestamp`](#timestamp) - of [`daterange`](#date-range) -kolommen.
+* Voor de extensie BI zijn samengevoegde query&#39;s vereist. U kunt SQL niet gebruiken zoals `SELECT * FROM ...` om de ruwe, onderliggende rijen te krijgen. Op een hoog niveau, zouden uw gezamenlijke vragen moeten gebruiken:
+   * Selecteer totalen met `SUM` en/of `COUNT` .<br/> Bijvoorbeeld `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Selecteer metriek uitgesplitst op een afmeting. <br/> Bijvoorbeeld, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * Selecteer duidelijke metrische waarden.<br/> Bijvoorbeeld, `SELECT DISTINCT dimension1 FROM ...`
+
+     Zie voor meer details [ Ondersteunde SQL ](#supported-sql).
+
 
 ### Ondersteunde SQL
 
