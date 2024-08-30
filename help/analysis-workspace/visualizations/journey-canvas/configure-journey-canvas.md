@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4359'
 ht-degree: 0%
 
 ---
@@ -65,16 +65,20 @@ Zie [ Overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizat
 
    <!-- add screen shot -->
 
-1. Of u een nieuwe analyse van een leeg canvas creeert of u een reis van Journey Optimizer analyseert, kunt u de reis vormen zoals die in [ wordt beschreven vormt een visualisatie van het canvas van de Reis ](#begin-building-a-journey-canvas-visualization).
+1. Of u een nieuwe analyse van een leeg canvas creeert of u een reis van Journey Optimizer analyseert, kunt u de reis vormen zoals die in [ wordt beschreven vormt visualiseringsmontages ](#configure-visualization-settings).
 
 
-## De visualisatie van het canvas voor een reis configureren
+## Visualisatie-instellingen configureren
 
-U moet [ beginnen bouwend een visualisatie van het canvas van de Reis ](#begin-building-a-journey-canvas-visualization) alvorens u het zoals die in de volgende secties wordt beschreven kunt vormen.
+Er zijn verschillende configuratieopties beschikbaar in de koptekst van het canvas Journey.
 
-### Instellingen configureren
+Instellingen configureren voor de visualisatie van het canvas Reis:
 
 1. In Analysis Workspace, open een bestaande visualisatie van het canvas van de Reis, of [ beginnen bouwend nieuwe ](#begin-building-a-journey-canvas-visualization).
+
+   De opties die u toestaan om de het canvasvisualisatie van de Reis te vormen zijn beschikbaar in de kopbal:
+
+   ![ de kopbalopties van het canvas van de Reis ](assets/journey-canvas-header.png)
 
 1. Vorm om het even welke volgende montages die over de bovenkant van visualisatie worden getoond:
 
@@ -83,15 +87,17 @@ U moet [ beginnen bouwend een visualisatie van het canvas van de Reis ](#begin-b
    | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in de gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in Reis Canvas hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Procentuele waarde**] | Kies een van de volgende opties: <ul><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel die ook aan de criteria van de beginnende knoop van de reis voldoen. (Deze optie is alleen beschikbaar voor reizen met één startknooppunt; deze optie is uitgeschakeld voor reizen met meerdere startknooppunten. Een beginknooppunt wordt gedefinieerd als elk knooppunt dat geen verbinding heeft die erin komt.)</li></ul> |
    | [!UICONTROL **montages van de Pijl**] | Kies een van de volgende opties:<ul><li>[!UICONTROL **niets**]: </li><li>[!UICONTROL **Voorwaarde**]: </li><li>[!UICONTROL **Alle etiketten**]: </li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis bij een bepaalde knoop verlieten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
+   | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis na een bepaald knooppunt hebben verlaten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
 
-1. Ga met [ verder voeg een knoop ](#add-a-node) toe.
+1. Ga met [ verder voeg knopen ](#add-nodes) toe.
 
-### Een knooppunt toevoegen
+## Knooppunten toevoegen
 
-De knopen in een het canvasvisualisatie van de Reis vertegenwoordigen de gebeurtenissen of de acties van een gebruikersreis. U maakt knooppunten door Workspace-componenten van de linkerrails naar het canvas te slepen.
+De knopen in een het canvasvisualisatie van de Reis vertegenwoordigen de gebeurtenissen of de acties van een gebruikersreis.
 
-U voegt als volgt een knooppunt toe aan de visualisatie van een canvas op reis:
+U maakt knooppunten door Workspace-componenten van de linkerrails naar het canvas te slepen, door Reader toe te staan de bovenste volgende of vorige knooppunten te kiezen op basis van bestaande knooppunten of door bestaande knooppunten te dupliceren.
+
+### Componenten slepen vanaf de linkerspoorstaaf
 
 1. In Analysis Workspace, open een bestaande visualisatie van het canvas van de Reis, of [ beginnen bouwend nieuwe ](#begin-building-a-journey-canvas-visualization).
 
@@ -180,6 +186,24 @@ U kunt de top 3 knopen toevoegen die tussen 2 bestaande knopen komen:
 
    De top 3 knopen worden toegevoegd tussen de 2 bestaande knopen, en elk worden verbonden als afzonderlijke tak.
 
+### Dubbele knooppunten
+
+De optie om te dupliceren is beschikbaar voor de volgende objecten op het canvas:
+
+* Meerdere knooppunten
+
+Om knooppunten te dupliceren:
+
+1. Selecteer meerdere knooppunten die u wilt dupliceren.
+
+1. Klik met de rechtermuisknop op een van de geselecteerde knooppunten en selecteer vervolgens [!UICONTROL **Dupliceren**] .
+
+## De reis ontwerpen
+
+De volgorde van knooppunten en de verbindingen tussen knooppunten zijn van invloed op de gegevens van het canvas Journey. De reizen zouden de opeenvolging van gebeurtenissen visueel en nauwkeurig moeten weerspiegelen die u wilt melden.
+
+Nadat knooppunten aan het canvas zijn toegevoegd, kunt u deze opnieuw rangschikken, combineren, verbinden en tijdbeperkingen toevoegen.
+
 ### Knoppen opnieuw rangschikken
 
 De reizen in het canvas van de Reis bestaan uit een flexibele grafiek van knopen en pijlen die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen.
@@ -260,9 +284,30 @@ Wanneer u een knooppunt aan het canvas toevoegt, kunt u het tussen twee verbonde
 
 Voor meer informatie, zie [ een knoop ](#add-a-node) toevoegen.
 
+### Tijdsbeperking toevoegen tussen knooppunten
+
+U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking geldt, wanneer een persoon de vastgestelde reis volgt maar langer duurt dan de toegewezen tijd om tussen de knooppunten te bewegen, worden zij geacht uit de reis te zijn gevallen.
+
+De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende objecten op het canvas:
+
+* De pijl tussen knooppunten
+
+Een tijdbeperking toevoegen:
+
+1. Klik de pijl tussen 2 knopen met de rechtermuisknop aan, dan selecteren [!UICONTROL **tijdbeperking**] toevoegen.
+
+<!-- 
+
+from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
+1. Choose from the following options: 
+
+-->
+
+## Knooppunten of pijlen beheren
+
 ### De kleur van een knooppunt of pijl wijzigen
 
-U kunt een reis visueel aanpassen door de kleur van om het even welke knoop of pijl op het canvas te veranderen. U kunt bijvoorbeeld een kleur aanpassen om een ongewenste gebeurtenis aan te geven.
+U kunt een reis visueel aanpassen door de kleur van om het even welke knoop of pijl op het canvas te veranderen. U kunt bijvoorbeeld de kleuren aanpassen om een ongewenste of ongewenste gebeurtenis aan te geven.
 
 De optie om de kleur te wijzigen is beschikbaar voor de volgende objecten op het canvas:
 
@@ -310,7 +355,7 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
 
 * Meerdere pijlen tussen knooppunten
 
-### Een uitsplitsing toepassen op een of meer knooppunten of pijlen
+#### Een uitsplitsing toepassen op een of meer knooppunten of pijlen
 
 1. Selecteer een of meer knooppunten waarop u een splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde knooppunten.
 
@@ -320,7 +365,7 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
 
 1. Selecteer [!UICONTROL **Uitsplitsing**].
 
-### Een uitsplitsing toepassen op een afzonderlijk knooppunt
+#### Een uitsplitsing toepassen op een afzonderlijk knooppunt
 
 U kunt een afmeting van de linkerspoorstaaf naar de knoop op het canvas slepen waar u de breuk wilt toepassen.
 
@@ -374,37 +419,6 @@ De trendgegevens bekijken:
 
 1. Selecteer [!UICONTROL **Trend**].
 
-### Dubbele knooppunten
-
-De optie om te dupliceren is beschikbaar voor de volgende objecten op het canvas:
-
-* Meerdere knooppunten
-
-Om knooppunten te dupliceren:
-
-1. Selecteer meerdere knooppunten die u wilt dupliceren.
-
-1. Klik met de rechtermuisknop op een van de geselecteerde knooppunten en selecteer vervolgens [!UICONTROL **Dupliceren**] .
-
-
-### Tijdsbeperking toevoegen tussen knooppunten
-
-U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking geldt, wanneer een persoon de vastgestelde reis volgt maar langer duurt dan de toegewezen tijd om tussen de knooppunten te bewegen, worden zij geacht uit de reis te zijn gevallen.
-
-De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende objecten op het canvas:
-
-* De pijl tussen knooppunten
-
-Een tijdbeperking toevoegen:
-
-1. Klik de pijl tussen 2 knopen met de rechtermuisknop aan, dan selecteren [!UICONTROL **tijdbeperking**] toevoegen.
-
-<!-- 
-
-from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
-1. Choose from the following options: 
-
--->
 
 ### Een filter maken op basis van een knooppunt of pijl
 
