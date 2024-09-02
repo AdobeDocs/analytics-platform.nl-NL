@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
+source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
       * toestemming voor toegang tot de relevante gegevensweergaven. Zie [!UICONTROL Data Views] in [ gebruiker-vlakke toegang ](#user-level-access).
       * toestemming om tot de uitbreiding van Customer Journey Analytics BI toegang te hebben. Zie [!UICONTROL Data View Tools] in [ gebruiker-vlakke toegang ](#user-level-access).
 
-## Beheerdersrol voor productprofiel
+### Beheerdersrol voor productprofiel
 
 Een productprofiel is een set machtigingen. Productbeheerders maken productprofielen en kunnen beheerders van productprofielen toewijzen om een of meer productprofielen te beheren. Een beheerder van het productprofiel kan dan:
 
@@ -100,7 +100,7 @@ Een productprofiel is een set machtigingen. Productbeheerders maken productprofi
 
 * In Customer Journey Analytics, geef gegevensmeningen uit die deel van een toegewezen productprofiel uitmaken. Beheerders van productprofielen kunnen geen nieuwe gegevensweergaven maken.
 
-## Toegang op gebruikersniveau
+### Toegang op gebruikersniveau
 
 In de onderstaande tabel worden de belangrijkste toegangsmachtigingen voor verschillende mogelijkheden van de Customer Journey Analytics beschreven die u voor de desbetreffende gebruikers kunt configureren. U kunt verschillende niveaus van gebruikerstoegang door productprofielen beheren. Een productprofiel combineert een aantal machtigingen die u vervolgens kunt toewijzen aan individuele gebruikers of gebruikersgroepen.
 
