@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: fb106077949cc5a1a2fbaf7702bd0c872152499f
+source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 
 | Categorie | Machtiging | Beschrijving |
 | --- | --- | ---|
-| [!UICONTROL Data Views] | *naam van een gegevensmening* | Als u **[!UICONTROL Auto-Include]** instelt op **[!UICONTROL On]** , kunnen gebruikers die deel uitmaken van dit productprofiel alle bestaande en nieuwe gegevensweergaven bekijken. Als deze instelling is ingesteld op **[!UICONTROL Off]** , kunt u specifieke gegevensweergaven selecteren waartoe gebruikers toegang hebben. |
+| [!UICONTROL Data Views] | *naam van de gegevensmening* | Als u **[!UICONTROL Auto-Include]** instelt op **[!UICONTROL On]** , kunnen gebruikers die deel uitmaken van dit productprofiel alle bestaande en nieuwe gegevensweergaven bekijken. Als deze instelling is ingesteld op **[!UICONTROL Off]** , kunt u specifieke gegevensweergaven selecteren waartoe gebruikers toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Analysis Workspace Access] | Laat gebruikers tot [ Analysis Workspace ](/help/analysis-workspace/home.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Guided Analysis Access] | Laat gebruikers tot [ Geleide Analyse ](/help/guided-analysis/overview.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Calculated Metrics Creation] | Laat gebruikers [ berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md) creëren. Gebruikers kunnen alleen de berekende metriek die zij maken of de met hen gedeelde berekeningsmethoden coderen, delen, verwijderen, hernoemen, goedkeuren of goedkeuren. |
