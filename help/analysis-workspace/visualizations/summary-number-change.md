@@ -4,9 +4,9 @@ title: Samenvattingsnummer en Samenvattingswijziging
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 3a63c22c080b0d4d4848d707c6219902de687abd
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,11 @@ Klik de **montages van de Visualisatie** binnen binnen aan het hoogste recht om 
 
 ## Visualisatie overzichtswijziging {#summary-change}
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [ polariteit van de douanegebeurtenis ](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) of de berekende metrische [ van de Show de Naar boven als ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie worden gecontroleerd.
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen.
+
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 Deze visualisatie werkt op de volgende manieren:
 

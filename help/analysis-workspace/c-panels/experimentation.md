@@ -4,7 +4,7 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 36718581c9a070bb5f5547f18be643ca91838bae
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 0%
@@ -148,6 +148,6 @@ Berekende meetgegevens met een van de volgende meetwaarden of constanten zijn ni
 
 De berekende metriek die niet compatibel met het paneel van de Experimentatie zijn hebben de waarde [!UICONTROL **overal in Customer Journey Analytics (exclusief experimenteren)**] op het [!UICONTROL **de verenigbaarheid van het Product**] gebied wanneer het creëren van berekende metrisch. Voor informatie over het creëren van berekende metrisch, zie [ metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) bouwen.
 
-## Afgeleide meetgegevens gebruiken in het deelvenster Experimentatie
+## Berekende meetwaarden gebruiken in het deelvenster Experimentatie
 
-Verwijs naar deze blogpost voor informatie over [ gebruikend afgeleide metriek in het paneel van de Experimentatie ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+Verwijs naar deze blogpost voor informatie over [ gebruikend berekende metriek in het paneel van de Experimentatie ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).

@@ -4,16 +4,16 @@ description: Leer over gefilterde metriek die bij rapportruntime worden afgeleid
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
 
 # Overzicht van berekende metriek
 
-Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen. Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw implementatie hoeft te wijzigen.
+Berekende en Geavanceerde berekende metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen. Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw implementatie hoeft te wijzigen.
 
 U kunt
 
@@ -25,15 +25,15 @@ U kunt
 
 Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavanceerde berekende meetwaarden:
 
-| Builder-opties | Berekende standaarden | Geavanceerde berekende (Afgeleide) Metriek |
+| Builder-opties | Berekende standaarden | Geavanceerde berekende cijfers |
 |---|---|---|
 | Formattypen (decimaal, tijd, percentage, valuta | Ja | Ja |
 | Wijzigingen in de kenmerken (standaard, lineair, deelname, enz.) | Ja | Ja |
 | Metrische typen (standaard, totaal | Ja | Ja |
 | Basisoperatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen) | Ja | Ja |
 | Filters toepassen | Nee | Ja |
-| [Basisfuncties (aantal, abs-waarde, gemiddelde, enz.)](/help/components/calc-metrics/cm-functions.md) | Nee | Ja |
-| [Geavanceerde functies (regressie, indien/toen, t-score, enz.)](/help/components/calc-metrics/cm-adv-functions.md) | Nee | Ja |
+| [ Basisfuncties (telling, abs waarde, gemiddelde, enz.) ](/help/components/calc-metrics/cm-functions.md) | Nee | Ja |
+| [ Geavanceerde functies (regressie, als/toen, t-score, enz.) ](/help/components/calc-metrics/cm-adv-functions.md) | Nee | Ja |
 
 ## Gereedschappen
 
