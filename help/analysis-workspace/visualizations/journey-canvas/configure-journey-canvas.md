@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
-source-wordcount: '4484'
+source-wordcount: '4526'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,10 @@ U maakt knooppunten door Workspace-componenten van de linkerrails naar het canva
 
 ### Bovenste knooppunten toevoegen op basis van bestaande knooppunten
 
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
+
 U kunt automatisch de bovenste knooppunten toevoegen op basis van de knooppunten die zich al op het canvas bevinden.
 
 Deze optie is beschikbaar voor de volgende objecten op het canvas:
@@ -188,6 +192,10 @@ U kunt de top 3 knopen toevoegen die tussen 2 bestaande knopen komen:
    De top 3 knopen worden toegevoegd tussen de 2 bestaande knopen, en elk worden verbonden als afzonderlijke tak.
 
 ### Dubbele knooppunten
+
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
 
 De optie om te dupliceren is beschikbaar voor de volgende objecten op het canvas:
 
@@ -289,6 +297,10 @@ Voor meer informatie, zie [ knopen ](#add-nodes) toevoegen.
 
 ### Tijdsbeperking toevoegen tussen knooppunten
 
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
+
 U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking geldt, wanneer een persoon de vastgestelde reis volgt maar langer duurt dan de toegewezen tijd om tussen de knooppunten te bewegen, worden zij geacht uit de reis te zijn gevallen.
 
 De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende objecten op het canvas:
@@ -310,6 +322,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### De kleur van een knooppunt of pijl wijzigen
 
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
+
 U kunt een reis visueel aanpassen door de kleur van om het even welke knoop of pijl op het canvas te veranderen. U kunt bijvoorbeeld de kleuren aanpassen om een ongewenste of ongewenste gebeurtenis aan te geven.
 
 De optie om de kleur te wijzigen is beschikbaar voor de volgende objecten op het canvas:
@@ -329,6 +345,10 @@ De kleur van een knooppunt of pijl wijzigen:
    De volgende kleuren zijn beschikbaar: <!--look into this interaction and color list-->
 
 ### De naam van een knooppunt of pijl wijzigen
+
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
 
 Wanneer u een component naar het canvas Journey sleept, wordt een knooppunt gemaakt met dezelfde naam als de componentnaam. U kunt de naam van het knooppunt wijzigen zodat deze beter overeenkomt met de stap van de rit die het knooppunt vertegenwoordigt.
 
@@ -359,6 +379,10 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
 * Meerdere pijlen tussen knooppunten
 
 #### Een uitsplitsing toepassen op een of meer knooppunten of pijlen
+
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
 
 1. Selecteer een of meer knooppunten waarop u een splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde knooppunten.
 
@@ -400,6 +424,10 @@ Een publiek maken:
 
 ### Tendelgegevens weergeven
 
+>[!AVAILABILITY]
+>
+>Deze functie is nog niet beschikbaar.
+
 U kunt de trendgegevens weergeven in een lijngrafiek voor objecten op het canvas Reis. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 De optie voor trendmatige ontwikkeling is beschikbaar voor de volgende objecten op het canvas:
@@ -421,7 +449,6 @@ De trendgegevens bekijken:
    Selecteer een of meer pijlen tussen twee knooppunten waarvoor u trendgegevens wilt weergeven en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
 1. Selecteer [!UICONTROL **Trend**].
-
 
 ### Een filter maken op basis van een knooppunt of pijl
 

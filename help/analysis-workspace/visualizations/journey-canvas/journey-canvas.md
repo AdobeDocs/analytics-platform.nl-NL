@@ -6,7 +6,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -133,13 +133,13 @@ Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, kunnen
 
 #### Verschillen in gegevensverwerking
 
-Nadat u een reis van Journey Optimizer in Reis Canvas wijzigt, zou u veranderingen in uw gegevens kunnen opmerken als uw reis metriek bevat die niet-standaard attributiemodellen hebben.
+Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, zou u veranderingen in uw gegevens kunnen opmerken als uw reis metriek bevat die niet-standaard attributiemodellen hebben.
 
 Dit komt omdat u, in tegenstelling tot Journey Optimizer, met het canvas Journey meerdere dimensies kunt toepassen binnen één reis. Dit vermogen betekent dat [ metrische attributie ](/help/data-views/component-settings/attribution.md) niet wordt gesteund.
 
 #### Verschillen in functies
 
-Nadat u een reis van Journey Optimizer in het Canvas van de Reis wijzigt, is het [!UICONTROL **type van Knoop**] drop-down gebied niet meer beschikbaar.
+Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, is het [!UICONTROL **type van Knoop**] drop-down gebied niet meer beschikbaar.
 
 Voor meer informatie over dit gebied, zie [ montages ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) vormen.
 
@@ -147,7 +147,7 @@ Voor meer informatie over dit gebied, zie [ montages ](/help/analysis-workspace/
 
 Wijzigingen die in Journey Optimizer tijdens een reis worden aangebracht, worden alleen doorgevoerd in het canvas Journey als de reis ongewijzigd blijft op het canvas Journey.
 
-Nadat u een reis van Journey Optimizer in Reis Canvas wijzigt, worden om het even welke veranderingen u aan de reis in Journey Optimizer aanbrengt niet weerspiegeld in het canvas van de Reis. Om de veranderingen te zien die in het canvas van de Reis worden weerspiegeld, kunt u de reis in het canvas van de Reis schrappen en [ opnieuw creëren ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Nadat u een Journey Optimizer-reis in het canvas Journey hebt aangepast, worden wijzigingen die u aanbrengt in de reis in Journey Optimizer niet meer doorgevoerd in het canvas Journey. Om de veranderingen te zien die in het canvas van de Reis worden weerspiegeld, kunt u de reis in het canvas van de Reis schrappen en [ opnieuw creëren ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Terminologische verschillen tussen Journey Optimizer en Customer Journey Analytics
 
