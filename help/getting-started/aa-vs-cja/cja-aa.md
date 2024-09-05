@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2251'
+ht-degree: 1%
 
 ---
 
@@ -99,7 +99,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 | --- | --- |
 | Waarschuwingen | Er is steun gepland. |
 | Bijdrage-analyse | Er is steun gepland. |
-| ID-stitatie met apparaatgrafiek | Er is steun gepland. |
 | Projectsjablonen | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
 | Segment-IQ | Er is steun gepland. |
@@ -139,8 +138,8 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Transformaties in de rapporttijd | [ de meningen van Gegevens ](/help/data-views/data-views.md) in Customer Journey Analytics staan u toe om gegevens van een verbinding verder te interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | BI Extension | De [ Uitbreiding van BI ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) laat u CJA direct met populaire BI visualiseringshulpmiddelen zoals PowerBI of Tableau verbinden. Door deze extensie te gebruiken, kunt u uw BI-rapporten precies laten overeenkomen met wat u ziet in Analysis Workspace en andere CJA-rapportageinterfaces. Dit is een veel gemakkelijkere manier om BI rapportering voor CJA zonder de behoefte te krijgen om rapporten/metriek van ruwe gegevens opnieuw te maken. |
 | SQL-toegang | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
-| Stiksel | [ Identiteit het stitching ](/help/stitching/overview.md) (of eenvoudig, het stitching) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse opheft. De analyse van het dwars-kanaal is een belangrijkste gebruiksgeval dat de Customer Journey Analytics kan behandelen, toestaand u om rapporten over veelvoudige datasets van verschillende kanalen naadloos te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoonidentiteitskaart) worden gebaseerd. |
-| Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. <p>Adobe Analytics ondersteunt daarentegen maximaal 75 props en 250 eVars.</p> |
+| Stiksel | [ Stitching ](/help/stitching/overview.md) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse opheft. De analyse van het dwars-kanaal is een belangrijkste gebruiksgeval dat de Customer Journey Analytics kan behandelen, toestaand u om rapporten over veelvoudige datasets van verschillende kanalen naadloos te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoonidentiteitskaart) worden gebaseerd. |
+| Onbeperkte klantdimensies en metriek | De afmetingen van de Customer Journey Analytics zijn onbeperkt. Waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensionen kunnen worden genest of hiërarchisch. <br/> door contrast, steunt Adobe Analytics tot een maximum van 75 steunen en 250 eVars. |
 | Onbeperkte unieke waarden | Customer Journey Analytics ondersteunt onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [ kardinaliteitsgrenzen op een dimensie ](/help/components/dimensions/high-cardinality.md), die voor om het even welke unieke waarde toestaat om te verschijnen en worden geteld.</p><p>Met deze methode worden rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, verwijderd. Dit leidt tot [!UICONTROL Low Traffic] -labels.</p><p>In Customer Journey Analytics, is het mogelijk om een [!UICONTROL Uniques Exceeded] etiket te zien, maar deze komen veel minder vaak voor en kunnen worden verlicht door een filter of een segment op de gegevens toe te passen.</p> |
 
 {style="table-layout:auto"}
