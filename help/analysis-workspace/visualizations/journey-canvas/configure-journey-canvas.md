@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: c94544baf4c934b16b2fc9ce837dd41e07a3dcac
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Zie [ Overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizat
 
    of
 
-   Voeg a de visualisatie van het canvas van de Reis op om het even welke die manieren toe in [ worden beschreven visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) sectie in [ overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
+   Voeg een visualisatie van het canvas van de Reis op om het even welke die manieren toe in [ worden beschreven visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) sectie in [ Overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
 
 1. Geef de volgende basisinformatie op:
 
@@ -84,9 +84,9 @@ Instellingen configureren voor de visualisatie van het canvas Reis:
 
    | Instelling | Functie |
    |---------|----------|
-   | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in dezelfde gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in Reis Canvas hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond. Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. <p>Afhankelijk van de inhoud van uw visualisatie, omvatten de mogelijke knooptypes:</p><ul><li>[!UICONTROL **Gelezen segment**]</li><li>[!UICONTROL **Eind**]</li><li>[!UICONTROL **Dimension**]</li><li>[!UICONTROL **Metrisch**]</li></ul><p>**Nota**: Overweeg het volgende wanneer het gebruiken van dit gebied:</p><ul><li>Deze optie wordt alleen weergegeven wanneer Journey Optimizer-gegevens worden gedetecteerd in dezelfde gegevensweergave die is geselecteerd in het Analysis Workspace-deelvenster waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</li><li>Nadat u een Journey Optimizer-reis in het canvas Reis hebt aangepast, is deze optie niet meer beschikbaar. Voor meer informatie, zie [ Visuele verschillen na het wijzigen van een reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li><li>Nodes worden niet verwijderd van de reis wanneer u ze verbergt. Voor informatie over hoe te om een knoop te schrappen, zie [ knopen van de Schrapping ](#delete-nodes).</li></ul></p> |
    | [!UICONTROL **Procentuele waarde**] | Kies een van de volgende opties: <ul><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel die ook aan de criteria van de beginnende knoop van de reis voldoen. (Deze optie is alleen beschikbaar voor reizen met één startknooppunt; deze optie is uitgeschakeld voor reizen met meerdere startknooppunten. Een beginknooppunt wordt gedefinieerd als elk knooppunt dat geen verbinding heeft die erin komt.)</li></ul> |
-   | [!UICONTROL **montages van de Pijl**] | Kies een van de volgende opties:<ul><li>[!UICONTROL **niets**]: </li><li>[!UICONTROL **Voorwaarde**]: </li><li>[!UICONTROL **Alle etiketten**]: </li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **montages van de Pijl**] | De pijlen tussen knooppunten op het canvas Journey kunnen aangepaste namen, Journey Optimizer-labels en Journey Optimizer-voorwaarden bevatten. Kies een van de volgende opties om te bepalen welke opties worden weergegeven:<ul><li>[!UICONTROL **niets**]: Geen douanenamen, de etiketten van Journey Optimizer, of de voorwaarden van Journey Optimizer worden getoond op pijlen in het canvas van de Reis. </li><li>[!UICONTROL **Voorwaarde**]: Om het even welke voorwaardelabels die in Journey Optimizer worden gevormd worden getoond op pijlen in het canvas van de Reis. Aangepaste namen of andere Journey Optimizer-labels worden niet weergegeven.</li><li>[!UICONTROL **Alle etiketten**]: Als een pijl een douanenaam, een etiket, of een voorwaarde bevat, wordt het getoond op de pijl in het canvas van de Reis. Per pijl wordt slechts één naam, label of voorwaarde weergegeven, in de volgende volgorde van voorkeur: <ol><li>Een douanenaam die van het canvas van de Reis wordt toegevoegd (zoals die in [ wordt beschreven noemt een knoop of pijl ](#rename-a-node-or-arrow))</li><li>Een Journey Optimizer-label</li><li>Een Journey Optimizer-voorwaarde</li></ol></li></ul><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis na een bepaald knooppunt hebben verlaten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
    | **controles van het Gezoem** | De volgende zoomknoppen zijn beschikbaar in de rechterbovenhoek van het canvas:<ul><li>**Gezoem binnen** ![ zoom in pictogram ](assets/zoom-in-icon.png): Vergroot specifieke gebieden van visualisatie.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**Gezoem uit** ![ zoom uit pictogram ](assets/zoom-out-icon.png): Verkleint visualisatie om meer ruimte op het canvas toe te staan.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**het scherm van de Passendheid** ![ past het het schermpictogram ](assets/fill-screen-icon.png): Past huidige gezoem en pan montages aan om het scherm met volledige visualisatie te vullen.</li></ul><p>Als u wilt pannen over het canvas nadat u hebt in- of uitgezoomd, klikt u met de muis en sleept u naar de gewenste locatie.</p> |
 
@@ -114,7 +114,7 @@ U maakt knooppunten door Workspace-componenten van de linkerrails naar het canva
    | Metrisch | Een bestaand knooppunt | De component wordt automatisch gecombineerd met het bestaande knooppunt. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
    | Metrisch | Een pijl tussen 2 bestaande knooppunten | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p> |
    | Dimension | Leeg gebied van canvas | Er worden 3 knooppunten gemaakt voor de bovenste 3 dimensieitems waar de component is neergezet, zonder verbinding met bestaande knooppunten. (**Nota:** als slechts 1 of 2 knopen tonen, betekent het dat het gegeven voor slechts 1 of 2 van de afmetingspunten beschikbaar is. Als er geen knooppunten worden weergegeven, betekent dit dat er geen gegevens beschikbaar zijn voor de dimensie-items. In dit geval, probeer toevoegend het aan een verschillend punt van de reis, pas de de datumwaaier van de visualisatie aan, of kies een verschillende afmeting.)<p>Houd Shift ingedrukt wanneer u de dimensie op het canvas neerzet om deze toe te voegen als één knooppunt met 3 dimensie-items.</p><p></p> |
-   | Dimension | Een bestaand knooppunt | Een mislukking wordt automatisch toegepast op de knoop met top 5 getoonde afmetingspunten.<!--what happens if you hold Shift?--> |
+   | Dimension | Een bestaand knooppunt | Een mislukking wordt automatisch toegepast op de knoop met top 5 getoonde afmetingspunten.<!--what happens if you hold Shift?--><p>Om de mislukking in een nieuwe vrije lijstvisualisatie te bekijken, selecteer [!UICONTROL **Open in een vrije vormlijst**] verbinding op de knoop.</p> |
    | Dimension | Een pijl die 2 bestaande knopen verbindt | Er worden 3 knooppunten gemaakt voor de bovenste 3 dimensiepunten die de eerste gebeurtenis na het eerste knooppunt volgen (van personen/sessies die uiteindelijk het tweede knooppunt bereiken). De knopen tonen tussen de twee bestaande knopen waar de component werd gelaten vallen en elke knoop wordt verbonden met beide bestaande knopen. (**Nota:** als slechts 1 of 2 knopen tonen, betekent het dat het gegeven voor slechts 1 of 2 van de afmetingspunten beschikbaar is. Als er geen knooppunten worden weergegeven, betekent dit dat er geen gegevens beschikbaar zijn voor de dimensie-items. In dit geval, probeer toevoegend het aan een verschillend punt van de reis, pas de de datumwaaier van de visualisatie aan, of kies een verschillende afmeting.)<p>Houd Shift ingedrukt wanneer u de dimensie op het canvas neerzet om deze toe te voegen als één knooppunt met 3 dimensie-items. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p> |
    | Dimension-item | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, los van om het even welke bestaande knopen. |
    | Dimension-item | Een bestaand knooppunt | De component wordt automatisch gecombineerd met het bestaande knooppunt. |
@@ -125,9 +125,9 @@ U maakt knooppunten door Workspace-componenten van de linkerrails naar het canva
    | Datumbereik | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, losgemaakt van een andere knopen.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, gefilterd door de datumwaaier u selecteerde.</p> <p>Als Personen bijvoorbeeld is geselecteerd als de primaire metrische waarde voor de rit, worden bij het toevoegen van een datumbereik van Deze maand aan een leeg gebied van het canvas alle personen weergegeven die een gebeurtenis hebben gehad tijdens de huidige maand.</p> |
    | Datumbereik | Een bestaand knooppunt | Past het datumbereik toe op het bestaande knooppunt. |
    | Datumbereik | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het datumbereik toe op het punt op het pad waar de component is neergezet.</p> |
-   | Meerdere componenten | Een leeg gebied van het canvas | **als geen van de componenten afmetingen zijn:**<p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. </p><p>**als om het even welke componenten u toevoegt dimensies zijn:**</p><p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Er kan slechts één dimensie tegelijk worden toegevoegd en er worden 3 knooppunten gemaakt voor de bovenste 3 dimensie-items waar de component is neergezet.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. De top 3 afmetingspunten worden gecombineerd met elke knoop. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
+   | Meerdere componenten | Een leeg gebied van het canvas | **als geen van de componenten afmetingen zijn:**<p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. </p><p>**als om het even welke componenten u toevoegt dimensies zijn:**</p><p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Er kan slechts één dimensie tegelijk worden toegevoegd. Wanneer de afmeting wordt toegevoegd, worden 3 knopen gecreeerd voor top 3 afmetingspunten waar de component werd gelaten vallen.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. De top 3 afmetingspunten worden gecombineerd met elke knoop. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
    | Meerdere componenten | Een bestaand knooppunt | Alle componenten worden gecombineerd met het bestaande knooppunt.<p>Als om het even welke componenten u toevoegt afmetingen zijn, dan worden de top 3 afmetingspunten gecombineerd met de knoop.</p> <p>Er kan slechts één dimensie tegelijk worden toegevoegd.</p> |
-   | Meerdere componenten | Een pijl die 2 bestaande knopen verbindt | **als geen van de componenten afmetingen zijn:**<p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet en elk knooppunt is verbonden met beide bestaande knooppunten. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. (Componenten moeten van hetzelfde type zijn om te worden gecombineerd in één knooppunt.) (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p><p>**als om het even welke componenten u toevoegt dimensies zijn:**</p><p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet en elk knooppunt is verbonden met beide bestaande knooppunten.</p><p>Er kan slechts één dimensie tegelijk worden toegevoegd en er worden 3 knooppunten gemaakt voor de bovenste 3 items van de dimensie die na de eerste gebeurtenis volgen (van personen/sessies die uiteindelijk het tweede knooppunt bereiken). Elk knooppunt is verbonden met beide bestaande knooppunten. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. De top 3 afmetingspunten worden gecombineerd met elke knoop, en elke knoop wordt verbonden met beide bestaande knopen. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
+   | Meerdere componenten | Een pijl die 2 bestaande knopen verbindt | **als geen van de componenten afmetingen zijn:**<p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet en elk knooppunt is verbonden met beide bestaande knooppunten. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. (Componenten moeten van hetzelfde type zijn om te worden gecombineerd in één knooppunt.) (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p><p>**als om het even welke componenten u toevoegt dimensies zijn:**</p><p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet en elk knooppunt is verbonden met beide bestaande knooppunten.</p><p>Er kan slechts één dimensie tegelijk worden toegevoegd. Wanneer de dimensie wordt toegevoegd, worden 3 knopen gecreeerd voor top 3 punten van de dimensie die de eerste gebeurtenis na de eerste knoop volgen (van mensen/zittingen die uiteindelijk de tweede knoop bereiken). Elk knooppunt is verbonden met beide bestaande knooppunten. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. De top 3 afmetingspunten worden gecombineerd met elke knoop, en elke knoop wordt verbonden met beide bestaande knopen. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
 
    De knopen tonen als rechthoekig vakje met de volgende informatie:
 
@@ -143,13 +143,13 @@ U maakt knooppunten door Workspace-componenten van de linkerrails naar het canva
 
 1. Blijf de reis aanpassen zoals beschreven in de onderstaande secties. U kunt knooppunten verbinden, knooppunten hernoemen, storingen toepassen, publiek maken, tijdbeperkingen toevoegen en nog veel meer.
 
-### Bovenste knooppunten toevoegen op basis van bestaande knooppunten
+### Bovenste knooppunten weergeven op basis van bestaande knooppunten
 
 >[!AVAILABILITY]
 >
 >Deze functie is nog niet beschikbaar.
 
-U kunt automatisch de bovenste knooppunten toevoegen op basis van de knooppunten die zich al op het canvas bevinden.
+U kunt de bovenste knooppunten automatisch weergeven op basis van de knooppunten die zich al op het canvas bevinden. U kunt de bovenste knooppunten toevoegen aan het canvas Journey of deze weergeven in een vrije-vormtabel.
 
 Deze optie is beschikbaar voor de volgende objecten op het canvas:
 
@@ -157,39 +157,63 @@ Deze optie is beschikbaar voor de volgende objecten op het canvas:
 
 * De pijl tussen knooppunten
 
-#### Bovenste knooppunten toevoegen na een bestaand knooppunt
+#### Bovenste knooppunten weergeven na een bestaand knooppunt
 
-U kunt een knooppunt selecteren en de bovenste 3 knooppunten toevoegen die erna tijdens de rit komen.
+U kunt een knoop selecteren en de hoogste afmetingspunten tonen die na het in de reis komen. U kunt de top 3 afmetingspunten aan het canvas van de Reis als afzonderlijke knopen toevoegen, of u kunt alle hoogste afmetingspunten in een vrije vormlijst bekijken.
 
-1. Klik met de rechtermuisknop op het knooppunt waar u de bovenste 3 knooppunten wilt toevoegen die erna tijdens de rit komen.
+1. Klik de knoop met de rechtermuisknop aan waar u de hoogste afmetingspunten wilt tonen die na het in de reis komen.
 
-   Deze knoop kan geen bestaande knopen hebben die uit het in de reis gaan.
+   De knoop kan geen bestaande knopen hebben die uit het in de reis gaan.
 
-1. Selecteer [!UICONTROL **toevoegt hoogste knopen na deze knoop**].
+1. Selecteer [!UICONTROL **tonen hoogste knopen na deze knoop**].
 
-   De top 3 knopen die na deze knoop in de reis komen worden toegevoegd, en elk worden verbonden met de knoop u als afzonderlijke tak selecteerde.
+1. Selecteer waar u de dimensie-items wilt weergeven:
 
-#### Bovenste knooppunten toevoegen vóór een bestaand knooppunt
+   * [!UICONTROL **in het canvas van de Reis**]: Voegt top 3 knopen aan het canvas toe die na deze knoop in de reis komen. Elk knooppunt wordt verbonden met het knooppunt dat u hebt geselecteerd als een afzonderlijke vertakking op het canvas.
 
-U kunt de top 3 knopen toevoegen die vóór een bestaand knooppunt in de reis komen.
+   * [!UICONTROL **in een lijst Freeform**]: Creeert een vrije lijstvisualisatie die alle hoogste afmetingspunten toont die na deze knoop in de reis komen.
 
-1. Klik met de rechtermuisknop op het knooppunt waar u de bovenste 3 knooppunten wilt toevoegen die voor het knooppunt in de rit komen.
+1. Selecteer de gewenste afmeting in de lijst met afmetingen.
+
+   Afhankelijk van wat u in de vorige stap koos, worden top 3 afmetingspunten toegevoegd aan het canvas als 3 afzonderlijke knopen, of alle hoogste afmetingspunten worden getoond in een vrije vormlijst.
+
+#### Bovenste knooppunten weergeven vóór een bestaand knooppunt
+
+U kunt een knoop selecteren en de hoogste afmetingspunten tonen die vóór het in de reis komen. U kunt de top 3 afmetingspunten aan het canvas van de Reis als afzonderlijke knopen toevoegen, of u kunt alle hoogste afmetingspunten in een vrije vormlijst bekijken.
+
+1. Klik de knoop met de rechtermuisknop aan waar u de hoogste afmetingspunten wilt tonen die vóór het in de reis komen.
 
    Deze knoop kan geen bestaande knopen hebben die in het in de reis komen.
 
-1. Selecteer [!UICONTROL **toevoegt hoogste knopen vóór deze knoop**].
+1. Selecteer [!UICONTROL **tonen hoogste knopen vóór deze knoop**].
 
-   De top 3 knopen die vóór deze knoop in de reis komen worden toegevoegd, en elk worden verbonden met de knoop u als afzonderlijke tak selecteerde.
+1. Selecteer waar u de dimensie-items wilt weergeven:
 
-#### Bovenste knooppunten toevoegen tussen bestaande knooppunten
+   * [!UICONTROL **in het canvas van de Reis**]: Voegt top 3 knopen aan het canvas toe die vóór deze knoop in de reis komen. Elk knooppunt wordt verbonden met het knooppunt dat u hebt geselecteerd als een afzonderlijke vertakking op het canvas.
 
-U kunt de top 3 knopen toevoegen die tussen 2 bestaande knopen komen:
+   * [!UICONTROL **in een lijst Freeform**]: Creeert een vrije lijstvisualisatie die alle hoogste afmetingspunten toont die vóór deze knoop in de reis komen.
 
-1. Klik met de rechtermuisknop op de pijl tussen de twee knooppunten waar u de bovenste drie knooppunten van de rit wilt toevoegen.
+1. Selecteer de gewenste afmeting in de lijst met afmetingen.
 
-1. Selecteer [!UICONTROL **toevoegt hoogste knopen**].<!-- I don't think this should have the word "next" in the UI option, because it's both next and previous. It's in between. Just "Get top nodes" sounds better to me.-->
+   Afhankelijk van wat u in de vorige stap koos, worden top 3 afmetingspunten toegevoegd aan het canvas als 3 afzonderlijke knopen, of alle hoogste afmetingspunten worden getoond in een vrije vormlijst.
 
-   De top 3 knopen worden toegevoegd tussen de 2 bestaande knopen, en elk worden verbonden als afzonderlijke tak.
+#### Bovenste knooppunten tussen bestaande knooppunten weergeven
+
+U kunt een pijl selecteren en de bovenste dimensie-items tonen die tussen twee bestaande knooppunten in de reis komen. U kunt de top 3 afmetingspunten aan het canvas van de Reis als afzonderlijke knopen toevoegen, of u kunt alle hoogste afmetingspunten in een vrije vormlijst bekijken.
+
+1. Klik met de rechtermuisknop op de pijl tussen de twee knooppunten waar u de bovenste dimensie-items wilt weergeven.
+
+1. Selecteer [!UICONTROL **tonen hoogste knopen tussen deze knopen**].
+
+1. Selecteer waar u de dimensie-items wilt weergeven:
+
+   * [!UICONTROL **in het canvas van de Reis**]: Voegt top 3 knopen aan het canvas toe die tussen de 2 bestaande knopen komen. Elk knooppunt wordt verbonden met de omringende knooppunten als een afzonderlijke vertakking op het canvas.
+
+   * [!UICONTROL **in een lijst Freeform**]: Creeert een vrije lijstvisualisatie die alle hoogste afmetingspunten toont die tussen de 2 bestaande knopen komen.
+
+1. Selecteer de gewenste afmeting in de lijst met afmetingen.
+
+   Afhankelijk van wat u in de vorige stap koos, worden top 3 afmetingspunten toegevoegd aan het canvas als 3 afzonderlijke knopen, of alle hoogste afmetingspunten worden getoond in een vrije vormlijst.
 
 ### Dubbele knooppunten
 
@@ -301,7 +325,7 @@ Voor meer informatie, zie [ knopen ](#add-nodes) toevoegen.
 >
 >Deze functie is nog niet beschikbaar.
 
-U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking geldt, wanneer een persoon de vastgestelde reis volgt maar langer duurt dan de toegewezen tijd om tussen de knooppunten te bewegen, worden zij geacht uit de reis te zijn gevallen.
+U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking is, worden mensen geacht uit de reis te zijn gevallen als ze de vastgestelde reis volgen maar langer duren dan de toegewezen tijdsperiode om tussen de knooppunten te bewegen.
 
 De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende objecten op het canvas:
 
@@ -378,6 +402,16 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
 
 * Meerdere pijlen tussen knooppunten
 
+Houd rekening met het volgende wanneer u een indeling toepast:
+
+* Uitsplitsingen worden toegepast op de primaire metrische waarde. De secundaire metrische waarde wordt niet beïnvloed.
+
+* Het toepassen van een uitsplitsing verandert de reis niet. In plaats daarvan toont het gewoon een uitsplitsing van de gegevens voor het knooppunt waar het wordt toegepast.
+
+* Als een knooppunt al een uitsplitsing heeft, wordt de bestaande uitsplitsing vervangen door een nieuwe uitsplitsing.
+
+* De uitsplitsingsgegevens worden bijgewerkt als wijzigingen op een eerder tijdstip in de reis worden aangebracht.
+
 #### Een uitsplitsing toepassen op een of meer knooppunten of pijlen
 
 >[!AVAILABILITY]
@@ -391,6 +425,14 @@ De optie om een indeling toe te passen op uw gegevens is beschikbaar voor de vol
    Selecteer een of meer pijlen tussen twee knooppunten waarop u de splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
 1. Selecteer [!UICONTROL **Uitsplitsing**].
+
+<!-- 1. Choose where you want to view the breakdown:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 #### Een uitsplitsing toepassen op een afzonderlijk knooppunt
 
@@ -410,6 +452,8 @@ De optie om een publiek te maken is beschikbaar voor de volgende objecten op het
 
 * Meerdere pijlen tussen knooppunten
 
+Wanneer u een publiek van veelvoudige knopen of pijlen creeert, worden zij aangesloten bij de exploitant OR.
+
 Een publiek maken:
 
 1. Selecteer een of meer knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde knooppunten.
@@ -419,6 +463,14 @@ Een publiek maken:
    Selecteer een of meer pijlen tussen twee knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
 1. Selecteer [!UICONTROL **tot publiek**] leiden.
+
+<!-- 1. Choose where you want to create the audience:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 1. Ga verder creërend en het publiceren van het publiek zoals die in [ wordt beschreven creëren en publiceer publiek ](/help/components/audiences/publish.md).
 
@@ -454,7 +506,7 @@ De trendgegevens bekijken:
 
 U kunt een nieuw filter creëren dat op een knoop of een pijl binnen een reis wordt gebaseerd. Nadat het filter is gemaakt, kunt u het overal in Analysis Workspace gebruiken.
 
-De filters die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend het filtreren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het filter de operator THEN gebruikt om de volgorde van gebeurtenissen (d.w.z. de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het filter.
+De filters die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend het filtreren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het filter de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die door mensen zijn verlopen, te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het filter.
 
 Als u een filter maakt op basis van een knooppunt met daarin meerdere paden, worden alle paden opgenomen in het filter. Afzonderlijke paden worden verbonden met de operator OR.
 
