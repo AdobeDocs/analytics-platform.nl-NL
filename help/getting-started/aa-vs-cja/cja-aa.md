@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
+source-git-commit: 789e461bf45f272e4c93ea5aa77e5bcaf4ee6a29
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2298'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
+| Waarschuwingen | Het proces van [ het gebruiken van Intelligente Alarm in Customer Journey Analytics ](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md) is bijna identiek aan het gebruiken van Intelligente Alarm in Adobe Analytics. <p>Wegens het tijdstip waarop de gegevens in de Customer Journey Analytics worden verzameld, zijn uurwaarschuwingen echter niet beschikbaar. In Customer Journey Analytics, kunnen de alarm voor dagelijks, wekelijks, of maandelijks worden gevormd.</p> |
 | Analyses voor doel (A4T) | De [ integratie tussen Adobe Customer Journey Analytics en Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma. |
 | Publicatie door het publiek | Wordt ondersteund als de Adobe een licentie heeft voor Customer Data Platform of Journey Optimizer-producten. [ Publiceren van het publiek ](/help/components/audiences/audiences-overview.md) verzendt publiek naar het Profiel van de Klant in real time in Experience Platform. |
 | Classificaties | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en de Customer Journey Analytics met behulp van de Analytics Classifications Source Connector. De datasets van de opzoekopdracht kunnen ook direct aan Experience Platform worden geupload en beschikbaar in Customer Journey Analytics. |
@@ -97,7 +98,6 @@ In de volgende tabellen wordt aangegeven welke functies in Adobe Analytics worde
 
 | Functie | Notities |
 | --- | --- |
-| Waarschuwingen | Er is steun gepland. |
 | Bijdrage-analyse | Er is steun gepland. |
 | Projectsjablonen | Er is steun gepland. |
 | Real-time rapportage | Er is steun gepland. |
