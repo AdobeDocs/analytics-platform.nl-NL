@@ -3,9 +3,9 @@ description: Krijg alarm wanneer de projectcomponenten bepaalde drempels bereike
 title: Waarschuwingen maken (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: 8f866d47ef0caccb91bd0e9cb9043bb1e16e0d89
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe Analytics Prime en Adobe Analytics Ultimate.
+>Intelligente waarschuwingen zijn beschikbaar voor alle klanten. Als u echter Anomaly Detection wilt gebruiken in Intelligent Alerts, moet u Customer Journey Analytics Select, Premiere of Ultimate hebben.
 
 Met intelligente waarschuwingen (of alleen &quot;waarschuwingen&quot;) in Customer Journey Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
 
