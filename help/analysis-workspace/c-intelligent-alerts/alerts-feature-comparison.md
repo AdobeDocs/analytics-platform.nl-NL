@@ -3,9 +3,9 @@ description: Leer hoe intelligente waarschuwingen verschillen in Customer Journe
 title: Customer Journey Analytics voor het vergelijken van intelligente waarschuwingen en Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: d6f800a6e3e79556026291387e984a35949b3c46
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Voor deze vertraging in de innametijd hebben waarschuwingen een standaardvertrag
 
 U kunt de standaardvertraging van 9 uur aanpassen aan een willekeurige locatie tussen 0 en 24 uur. Als u echter de vertraging tot minder dan 9 uur verkort, kan dit betekenen dat u onvolledige gegevens rapporteert, wat leidt tot onjuiste waarschuwingsinformatie.
 
-Zie <!--add link --> voor meer informatie over het aanpassen van de vertraging en de factoren die u daarbij in acht moet nemen.
+Voor meer informatie over hoe te om de vertraging aan te passen, en de factoren u zou moeten overwegen wanneer het doen dit, zie [ alarm ](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md) creëren.
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
