@@ -3,7 +3,7 @@ description: Gebruik gevallen voor intelligente waarschuwingen.
 title: Intelligente waarschuwingen - gebruiksgevallen
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 2dbd2dd614decb6b72c667297bba24f949197aa9
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Intelligente waarschuwingen - gebruiksgevallen
-
-{{release-limited-testing}}
 
 U kunt intelligente alarm tot stand brengen zoals die in [ wordt beschreven leidt tot alarm ](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
