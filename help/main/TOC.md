@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 8%
 
 ---
@@ -190,12 +190,6 @@ ht-degree: 8%
       + [Overzicht van de prognoses](../analysis-workspace/c-forecast/forecasting.md)
       + [Prognoses weergeven in Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Statistische technieken voor de prognose](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + Intelligente waarschuwingen {#alerts}
-      + [Overzicht van intelligente waarschuwingen](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-      + [Verschillen in Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Waarschuwingen maken](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
-      + [Waarschuwingen beheren](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
-      + [Gebruik hoofdletters](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
@@ -299,6 +293,12 @@ ht-degree: 8%
       + [Datumbereiken beheren](../components/date-ranges/manage.md)
       + [Aangepaste datumbereiken maken](../components/date-ranges/custom-date-ranges.md)
       + [Datumvergelijking](../components/date-ranges/time-comparison.md)
+   + Intelligente waarschuwingen {#alerts}
+      + [Overzicht](/help/components/c-intelligent-alerts/intellligent-alerts.md)
+      + [Verschillen in Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Maken](/help/components/c-intelligent-alerts/alert-builder.md)
+      + [Beheren](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [Gebruik hoofdletters](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Exporteren {#exports}
       + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
       + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)

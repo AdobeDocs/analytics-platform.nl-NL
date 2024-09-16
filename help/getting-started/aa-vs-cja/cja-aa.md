@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 33602a2c82d14463ebe4317704dbfa47b7b8ae35
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
 source-wordcount: '2312'
 ht-degree: 1%
@@ -78,7 +78,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 
 | Functie | Notities |
 | --- | --- |
-| **Waarschuwingen** | Het proces van [ het gebruiken van Intelligente Alarm in Customer Journey Analytics ](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md) is bijna identiek aan het gebruiken van Intelligente Alarm in Adobe Analytics. <p>Wegens het tijdstip waarop de gegevens in de Customer Journey Analytics worden verzameld, zijn uurwaarschuwingen echter niet beschikbaar. In Customer Journey Analytics, kunnen de alarm voor dagelijks, wekelijks, of maandelijks worden gevormd.</p> |
+| **Waarschuwingen** | Het proces van [ het gebruiken van Intelligente Alarm in Customer Journey Analytics ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) is bijna identiek aan het gebruiken van Intelligente Alarm in Adobe Analytics. <p>Wegens het tijdstip waarop de gegevens in de Customer Journey Analytics worden verzameld, zijn uurwaarschuwingen echter niet beschikbaar. In Customer Journey Analytics, kunnen de alarm voor dagelijks, wekelijks, of maandelijks worden gevormd.</p> |
 | **Analytics voor Doel (A4T)** | De [ integratie tussen Adobe Customer Journey Analytics en Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma. |
 | **Publiek publiceren** | Wordt ondersteund als de Adobe een licentie heeft voor Customer Data Platform of Journey Optimizer-producten. [ Publiceren van het publiek ](/help/components/audiences/audiences-overview.md) verzendt publiek naar het Profiel van de Klant in real time in Experience Platform. |
 | **Classificaties** | Nu genoemd &quot;de Datasets van de Raadpleging&quot;. Classificaties die worden gebruikt in Analytics kunnen worden geïmporteerd naar het Experience Platform en de Customer Journey Analytics met behulp van de Analytics Classifications Source Connector. De datasets van de opzoekopdracht kunnen ook direct aan Experience Platform worden geupload en beschikbaar in Customer Journey Analytics. |
