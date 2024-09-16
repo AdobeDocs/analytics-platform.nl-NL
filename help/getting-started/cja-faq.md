@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
+source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 
 Adobe heeft onlangs gewijzigd hoe gegevens in de Customer Journey Analytics worden verwerkt:
 
-<ul><li>Alle gebeurtenisgegevens met een tijdstempel van minder dan 24 uur oud worden gestreamd.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en krijgen een lagere prioriteit.</li></ul>
+<ul><li>Gebeurtenisgegevens voor de 'huidige' dag worden gestreamd als live-gegevens. Om het even welke gegevens met een gebeurtenistijd voorafgaand aan 11 :59: 59 (23 :59: 59) op de vorige dag wordt behandeld als backfill.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en krijgen een lagere prioriteit.</li></ul>
 
 ## 5. Stel het schuifvenster in voor [!UICONTROL Connection] gegevensbehoud {#data-retention}
 
