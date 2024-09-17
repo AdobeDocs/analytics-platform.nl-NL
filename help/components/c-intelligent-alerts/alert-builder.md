@@ -3,7 +3,7 @@ description: Krijg alarm wanneer de projectcomponenten bepaalde drempels bereike
 title: Waarschuwingen maken (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 4155f486c8398b75c2bed41d93562483d35c1477
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met intelligente waarschuwingen (of alleen &quot;waarschuwingen&quot;) in Customer Journey Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
 
-Voor meer gedetailleerde overzichtsinformatie over Intelligente Alarm, zie [ het Intelligente overzicht van Alarm ](/help/components/c-intelligent-alerts/intellligent-alerts.md).
+Voor meer gedetailleerde overzichtsinformatie over Intelligente Alarm, zie [ het Intelligente overzicht van Alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md).
 
 Een waarschuwing maken:
 

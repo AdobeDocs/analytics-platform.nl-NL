@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2311'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | **eVar persistentie montages** | eVars maken geen deel meer uit van de Customer Journey Analytics. De instellingen voor persistentie maken nu echter deel uit van de gegevensweergave en zijn beschikbaar voor alle dimensies. Onthoud dat persistentie is gebaseerd op de verwerking van de rapporttijd, niet op de verwerking van gegevensverzameling. Dimensionen in gegevensweergaven zijn beperkt tot een maximale persistentie van 90 dagen en ondersteunen geen onbeperkte persistentie. |
 | **de dimensies van Geosegmentation** | [ Volledige steun ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | **op grafiek-gebaseerde het stitching** | Door [ op grafiek-gebaseerde Stitching ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview#graph-based-stitching), kunt u de macht van de identiteitsgrafiek in [ de Dienst van de Identiteit van Adobe Experience Platform gebruiken ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) om datasets aan hun aangewezen identiteit op te heffen. |
-| **Intelligente waarschuwingen** | Het proces om [ Intelligente Alarm ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/intellligent-alerts) in Customer Journey Analytics te gebruiken is bijna identiek aan het gebruiken van Intelligente Alarm in Adobe Analytics. Nochtans, zijn er [ belangrijke verschillen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison). |
+| **Intelligente waarschuwingen** | Het proces om [ Intelligente Alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md) in Customer Journey Analytics te gebruiken is bijna identiek aan het gebruiken van Intelligente Alarm in Adobe Analytics. Nochtans, zijn er [ belangrijke verschillen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison). |
 | **IP verduistering** | Voor klanten die van de Customer Journey Analytics de bronschakelaar van de Analyse gebruiken om gegevens van Adobe Analytics in Customer Journey Analytics te bevolken: IP de montages van de verwarring die in Adobe Analytics worden toegepast stromen door aan uw gegevens van de Customer Journey Analytics. U kunt deze instellingen desgewenst in Adobe Analytics beheren.<p>Voor klanten die van de Customer Journey Analytics SDK gebruiken van het Web van het Experience Platform om gegevens in Platform en Customer Journey Analytics direct te bevolken. U kunt Prep van Gegevens voor de Inzameling van Gegevens in Platform gebruiken om regels te vormen die het IP adres verduisteren dat op de vereisten van uw bedrijf wordt gebaseerd. |
 | **de Kanalen van de Marketing** | Wanneer het gebruiken van de bron van Analytics schakelaar, stromen de gegevens van Kanalen van de marketing in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Zie [ Customer Journey Analytics die Kanalen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html) op de markt brengt voor meer informatie. <br/> voor implementaties WebSDK, rapport-tijd de verwerkingsregels van het marketingkanaal worden gesteund door [ Afgeleide gebieden ](../../data-views/derived-fields/derived-fields.md). |
 | **Merchandising veranderlijke persistentie** | Volledige Steun via [ bindende dimensies en bindende metriek ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
