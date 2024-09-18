@@ -3,7 +3,7 @@ description: Waarschuwingen maken, bewerken of verwijderen.
 title: Waarschuwingsbeheer (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt bestaande waarschuwingen beheren in het venster Waarschuwingen. U kunt verschillende beheertaken uitvoeren voor waarschuwingen, zoals labelen, hernoemen, verwijderen en meer.
 
-De manager van het Alarm is zeer gestructureerd zoals de [ manager van de Filter ](/help/components/filters/manage-filters.md) en [ Berekende Metrische Manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+De manager van het Alarm is zeer gestructureerd zoals de [ manager van de Filter ](/help/components/filters/manage-filters.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 ## Waarschuwingen maken
 

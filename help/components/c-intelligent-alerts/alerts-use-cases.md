@@ -1,18 +1,18 @@
 ---
-description: Gebruik gevallen voor intelligente waarschuwingen.
-title: Intelligente waarschuwingen - gebruiksgevallen
+description: Gebruik gevallen voor waarschuwingen.
+title: Waarschuwingen - gebruik
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
-# Intelligente waarschuwingen - gebruiksgevallen
+# Waarschuwingen - gebruik
 
-U kunt intelligente alarm tot stand brengen zoals die in [ wordt beschreven leidt tot alarm ](/help/components/c-intelligent-alerts/alert-builder.md).
+U kunt alarm tot stand brengen zoals die in [ wordt beschreven leidt alarm ](/help/components/c-intelligent-alerts/alert-builder.md) tot.
 
 In de volgende secties ziet u voorbeelden van gebruiksgevallen die u kunt overwegen wanneer u waarschuwingen maakt.
 

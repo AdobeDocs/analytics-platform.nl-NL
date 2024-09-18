@@ -1,41 +1,41 @@
 ---
-description: Het nieuwe systeem van de Intelligente Alarm staat voor meer korrelige controle over alarm toe en integreert anomalieopsporing met het waakzame systeem.
-title: Overzicht van intelligente waarschuwingen
+description: Alarm maakt korrelige controle over meldingen mogelijk, en integratie met anomaliedetectie.
+title: Overzicht van waarschuwingen
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
-# Overzicht van intelligente waarschuwingen
+# Overzicht van waarschuwingen
 
->[!NOTE]
->
->Intelligente waarschuwingen zijn beschikbaar voor alle klanten. Als u echter Anomaly Detection wilt gebruiken in Intelligent Alerts, moet u Customer Journey Analytics Select, Premiere of Ultimate hebben.
+Met waarschuwingen in Customer Journey Analytics kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld.
 
-Met intelligente waarschuwingen (of alleen &quot;waarschuwingen&quot;) in Customer Journey Analytics kunt u op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
+Afhankelijk van uw Customer Journey Analytics-pakket kunt u ook waarschuwingen gebruiken die op basis van afwijkende drempelwaarden moeten worden geactiveerd. Deze alarm (die ook als &quot;Intelligente Alarm&quot;wordt bekend), verstrekt korrelige controles die met [ Anomaly Detectie ](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integreren, die teweegbrengen wanneer u hen het meest nodig hebt.
 
-U kunt waarschuwingen instellen die moeten worden geactiveerd op basis van afwijkende drempelwaarden, gewijzigde percentages of specifieke gegevenspunten. Het alarm verstrekt korrelige controles die met [ Anomaly Detectie ](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integreren, die teweegbrengen wanneer u hen het meest nodig hebt.
+Met waarschuwingen kunt u:
 
-Met intelligente waarschuwingen kunt u:
-
-* Waarschuwingen opbouwen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempels; procentuele wijziging; boven/onder))
 * Voorbeeld van hoe vaak een waarschuwing wordt geactiveerd
 * Waarschuwingen verzenden via e-mail of SMS met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
+* Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder) (Alleen beschikbaar voor klanten van Customers Journey Analytics met een Select-, Premier- of Ultimate-pakket)
 
-Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Intelligente Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Begrijp hoe waarschuwingen verschillen in Customer Journey Analytics met Adobe Analytics
 
-Het gebruik van intelligente waarschuwingen in de Customer Journey Analytics is bijna hetzelfde als het gebruik van intelligente waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen.
+Het gebruik van waarschuwingen in Customer Journey Analytics is bijna hetzelfde als het gebruik van waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen.
 
-Voor meer informatie, zie [ Intelligente de eigenschapvergelijking van het Alarm: Customer Journey Analytics en Adobe Analytics ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
+Voor meer informatie, zie [ de eigenschapvergelijking van het Alarm: Customer Journey Analytics en Adobe Analytics ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
 
 ## Anomalische zoekopdracht voor waarschuwingen
+
+>[!NOTE]
+>
+>Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Uitgezochte Customer Journey Analytics, Primair, of Ultimate pakket.
 
 Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode op basis van de voor de waarschuwing geselecteerde granulariteit.
 
@@ -52,7 +52,7 @@ Voor informatie over hoe te om alarm in Customer Journey Analytics tot stand te 
 
 >[!IMPORTANT]
 >
->Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan om niet-tijdstempelgegevens te gebruiken voor intelligente waarschuwingen.
+>Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt aan om niet-tijdstempelgegevens te gebruiken voor waarschuwingen.
 
 ## Waarschuwingen beheren
 

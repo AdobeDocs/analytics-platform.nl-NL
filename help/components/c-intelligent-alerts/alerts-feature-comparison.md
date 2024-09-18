@@ -1,18 +1,18 @@
 ---
-description: Leer hoe intelligente waarschuwingen verschillen in Customer Journey Analytics met Adobe Analytics
-title: Customer Journey Analytics voor het vergelijken van intelligente waarschuwingen en Adobe Analytics
+description: Ervaar hoe waarschuwingen verschillen in Customer Journey Analytics met Adobe Analytics
+title: Customer Journey Analytics voor het vergelijken van waarschuwingen met Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
-# Vergelijking van de functie Intelligente waarschuwingen: Customer Journey Analytics en Adobe Analytics
+# Vergelijking van waarschuwingsfuncties: Customer Journey Analytics en Adobe Analytics
 
-Het gebruik van intelligente waarschuwingen in de Customer Journey Analytics is bijna hetzelfde als het gebruik van intelligente waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen.
+Het gebruik van waarschuwingen in Customer Journey Analytics is bijna hetzelfde als het gebruik van waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen.
 
 In de volgende secties worden de belangrijkste verschillen beschreven.
 
