@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 
 Adobe heeft onlangs gewijzigd hoe gegevens in de Customer Journey Analytics worden verwerkt:
 
-<ul><li>Gebeurtenisgegevens voor de 'huidige' dag worden gestreamd als live-gegevens. Om het even welke gegevens met een gebeurtenistijd voorafgaand aan 11 :59: 59 (23 :59: 59) op de vorige dag wordt behandeld als backfill.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en krijgen een lagere prioriteit.</li></ul>
+<ul><li>Gebeurtenisgegevens voor de 'huidige' dag worden gestreamd als live-gegevens. Om het even welke gegevens met een gebeurtenistijd voorafgaand aan 11 :59: 59 pm (23 :59: 59) op de vorige dag wordt behandeld als backfill.</li><li>Alle gebeurtenisgegevens met een tijdstempel van meer dan 24 uur oud (zelfs als deze zich in dezelfde batch bevinden als nieuwere gegevens) worden beschouwd als backfill en krijgen een lagere prioriteit.</li></ul>
 
 ## 5. Stel het schuifvenster in voor [!UICONTROL Connection] gegevensbehoud {#data-retention}
 
@@ -150,7 +150,7 @@ Voor gegevensschrapping, zou u over zes types van componenten moeten ongerust zi
 
 | Als u... | Dit gebeurt... |
 | --- | --- |
-| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom gestopt naar alle [!UICONTROL Customer Journey Analytics] -verbindingen met gegevenssets in die sandbox. Momenteel wordt [!UICONTROL Connections] in Customer Journey Analytics die is gekoppeld aan de verwijderde sandbox niet automatisch verwijderd. |
+| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom gestopt naar alle [!UICONTROL Customer Journey Analytics] -verbindingen met gegevenssets in die sandbox. Verbindingen, gegevensweergaven, metriek en afmetingen met betrekking tot deze verwijderde sandbox worden ook verwijderd. | |
 | Schrap een schema in [!UICONTROL Adobe Experience Platform], maar niet de dataset/s verbonden aan dit schema | [!UICONTROL Adobe Experience Platform] staat het verwijderen van [!UICONTROL schemas] waaraan een of meer [!UICONTROL datasets] is gekoppeld, niet toe. Nochtans, kan Admin met de aangewezen reeks rechten de datasets eerst schrappen en dan het schema schrappen. |
 | Een gegevensset verwijderen uit het gegevenspeer [!UICONTROL Adobe Experience Platform] | Het schrappen van een dataset in het gegevensmeer van Adobe Experience Platform houdt gegevensstroom van die dataset aan om het even welke Verbindingen van de Customer Journey Analytics die die dataset omvatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van de bijbehorende verbindingen van de Customer Journey Analytics. |
 | Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics] | Contacteer uw Team van de Rekening van de Adobe om in beweging het proces te plaatsen om een dataset binnen een verbinding te schrappen die is bewaard. |
