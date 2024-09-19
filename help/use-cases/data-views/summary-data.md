@@ -4,9 +4,10 @@ description: Uitleg van alle details over hoe u summiere gegevens in Customer Jo
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '4442'
+source-wordcount: '4609'
 ht-degree: 7%
 
 ---
@@ -277,7 +278,7 @@ De gegevens van de opzoekopdracht zijn beschikbaar in de Dataset van de Gegevens
 | 17 | def321 | def-adgroup | 321 Campagne |
 | 18 | ghi321 | ghi-adgroup | 321 Campagne |
 
-[![ DataDownload ](/help/assets/icons/DataDownload.svg) de steekproefopzoekgegevens van de Download ](./assets/lookup-data.csv)
+[![ DataDownload ](/help/assets/icons/DataDownload.svg) gegevens van de de steekproefraadpleging van de Download {](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -487,6 +488,26 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
             1. Selecteer de **[!UICONTROL Campaign Id]** -dimensie in de lijst **[!UICONTROL Dimensions]** .
             1. U ziet dat **[!UICONTROL Hide component in reporting]** in **[!UICONTROL Component settings]** nu automatisch is ingeschakeld.
 
+      1. Maak een nieuw afgeleid veld, bijvoorbeeld `Campaign Name (Lookup Derived Field)`, om ervoor te zorgen dat u in Workspace de dimensie Campagnenaam (Opzoeken) uit de gegevensset Gegevens opzoeken kunt gebruiken.
+
+         ![ Voortgekomen gebied voor campagnenaam ](../aa-data/../assets/summary-derived-field.png)
+
+         1. Selecteer **[!UICONTROL campaign_id]** voor **[!UICONTROL Value]** .
+         1. Selecteer **[!UICONTROL Example Lookup Data Dataset]** in het vervolgkeuzemenu **[!UICONTROL Lookup dataset]** .
+         1. Selecteer **[!UICONTROL tracking_code]** in het vervolgkeuzemenu **[!UICONTROL Matching Key]** .
+         1. Selecteer **[!UICONTROL campaign_name]** in het vervolgkeuzemenu **[!UICONTROL Values to return]** .
+         1. Selecteer **[!UICONTROL Save]** .
+
+      1. Voeg het nieuwe afgeleide veld **[!UICONTROL Campaign Name (Lookup Derived Field)]** toe aan de lijst met **[!UICONTROL Dimensions]** -componenten.
+
+      1. Selecteer de **[!UICONTROL Campaign Name (Lookup)]** -dimensie in de lijst **[!UICONTROL Dimensions]** . In het deelvenster Componenten:
+
+         ![ Afgeleide Groep van Gegevens van het Gebied Summiere ](../assets/derived-field-summary-data-group.png)
+
+         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
+         1. Schakel **[!UICONTROL Create grouping]** in.
+         1. Selecteer **[!UICONTROL Campaign Name (Lookup Derived Field)]** in de vervolgkeuzelijst **[!UICONTROL Dimension]** . Deze stap zorgt ervoor dat de Naam van de Campagne (Opzoeken) van de Dataset van de Gegevens van de Opzoeken van het Voorbeeld veilig in het melden (zie [ Workspace ](#workspace)) kan worden gebruikt.
+
       1. Selecteer de metrische waarde **[!UICONTROL Revenue]** in de lijst **[!UICONTROL Metrics]** . In het deelvenster Componenten:
 
          ![ de summiere gegevens van de Opbrengst ](../assets/revenue-summary-data.png)
@@ -566,6 +587,14 @@ Voeg uw berekende metriek aan uw rapport toe.
          1. Selecteer een voorkeur **[!UICONTROL Conditional formatting palette]** .
    1. Selecteer **[!UICONTROL Save]** om uw project op te slaan.
 
+Voer de volgende stappen uit als u de campagnenaam wilt rapporteren in plaats van de code te volgen (gebeurtenis):
+
+1. Dupliceer de visualisatie van de **[!UICONTROL Summary Data Report]** Freeform-tabel.
+1. Wijzig de naam van de gedupliceerde visualisatie in `Summary Data Report (using Campaign Name)` .
+1. Vervang ![ Schakelaar ](/help/assets/icons/Switch.svg) de **[!UICONTROL Tracking Code (Event)]** dimensie met de **[!UICONTROL Campaign Name (Lookup)]** dimensie.
+
+U kunt correct op de Naam van de Campagne (Opzoeken) wegens het afgeleide gebied melden u creeerde, en de samenvattingscomponentenconfiguratie van de gegevensgroep voor de Naam van de Campagne (Opzoeken). Zie [ mening van Gegevens ](#data-view).
+
 Uw uiteindelijke project moet er net zo uitzien als hieronder.
 
 ![ Project van het Voorbeeld dat Summiere Gegevens gebruikt, die Samenvattend Comité van Gegevens met Samenvattend Rapport van Gegevens tonen ](../assets/summary-workspace.png)
@@ -575,4 +604,3 @@ Uw uiteindelijke project moet er net zo uitzien als hieronder.
 >
 >[ Summiere gegevens ](/help/data-views/summary-data.md)
 >[Samenvattende de componentenmontages van de gegevensgroep ](/help/data-views/component-settings/summary-data-group.md)
-

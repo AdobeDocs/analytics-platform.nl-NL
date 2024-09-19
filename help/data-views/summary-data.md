@@ -4,13 +4,13 @@ description: Details en informatie over het gebruiken en vormen van summiere geg
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
-
 
 # Samenvattingsgegevens
 
@@ -75,6 +75,14 @@ Door de samengevatte gebeurtenisgegevens te combineren met on-site clickstream-g
 | def456 | 775 | $ 650 | 775 | USD 1.250 | 1,92 |
 | ghi789 | 500 | $ 500 | 500 | $ 750 | 1,50 |
 
+
+### Gegevens opzoeken
+
+Als u het gebruiken van een afmeting wilt melden die in een extra raadplegingsdataset (bijvoorbeeld, campagnenaam wordt bepaald), moet u deze extra stappen volgen:
+
+1. Creeer een nieuw afgeleid gebied dat de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Raadpleging gebruikt om de campagnenaam van de raadplegingsdataset te zoeken. In de definitie van de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Opzoeken gebruikt u de gelijke tussen campagnecode en het volgen code om de campagnenaam te zoeken.
+1. Voeg het nieuwe afgeleide gebied als afmetingscomponent aan uw gegevensmening toe.
+1. Vorm de de afmetingscomponent van de campagnenaam (van de raadplegingsdataset) om een summiere gegevens te hebben groeperen met het pas gecreëerde afgeleide gebied.
 
 Zie [ Samenvatten en rapport over summiere gegevens ](/help/use-cases/data-views/summary-data.md) gebruiksgeval voor een gedetailleerd artikel over hoe te om gebruik van te maken van, te rapporteren over, en samenvattingsgegevens in Customer Journey Analytics te analyseren.
 
