@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '4006'
+source-wordcount: '3996'
 ht-degree: 5%
 
 ---
@@ -262,7 +262,6 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | donderdag 7 oktober 2020 | Toegevoegd een onderwerp op [ gecombineerde gebeurtenisdatasets ](/help/connections/combined-dataset.md). |
 | woensdag 15 september 2020 | Toegevoegd een onderwerp op [ gegevensopname ](/help/data-ingestion/data-ingestion.md). |
 | donderdag 2 september 2020 | Bijgewerkte sectie op [ gebruikerstoestemmingen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). |
-| zaterdag 7 augustus 2020 | Nieuw onderwerp op [ B2B gebruiksgeval - toegevoegde raadplegingsdataset ](/help/use-cases/b2b/b2b.md). |
 | Juli 2020 | Toegevoegde informatie over [ optie van de Kaart van de Identiteit voor identiteitskaart van de Persoon ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html). |
 | Juli 2020 | Nieuw onderwerp op [ toegevoegde objecten series ](/help/use-cases/object-arrays.md) of &quot;gegevenshiërarchieën&quot;. |
 | woensdag 14 april 2020 | Updates aan recentste UI in [ creëren Verbindingen ](/help/connections/create-connection.md) onderwerp. |
