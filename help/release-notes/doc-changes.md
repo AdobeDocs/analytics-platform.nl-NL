@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
 workflow-type: tm+mt
-source-wordcount: '3996'
+source-wordcount: '4045'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,10 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **September 2024** | |
+| Update van samenvattingsgegevens | Bijgewerkte summiere gegevensartikelen met informatie over hoe te om [ raadplegingsgegevens ](/help/data-views/summary-data.md#lookup-data) behoorlijk te gebruiken wanneer het melden van summiere gegevens. |
+| Bijwerken van BI-extensie | Toegevoegde [ gebreken en beperkingssectie ](/help/data-views/bi-extension.md#defaults-and-limitations) aan de de uitbreidingsdocumentatie van BI. |
+| Waarschuwingen | Toegevoegde documentatie voor de [ 1} functionaliteit van Alarm {nu beschikbaar in Customer Journey Analytics.](/help/components/c-intelligent-alerts/intelligent-alerts.md) |
 | **Augustus 2024** | |
 | Een B2B-voorbeeldproject | Toegevoegd a [ gebruiksgeval ](/help/use-cases/b2b/example.md) documenterend hoe te opstelling, vorm en rapport op profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics, gebruikend de nieuwe [ transformatiedatasets voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) functionaliteit. |
 | Gebruiksscenario&#39;s voor het exporteren van gegevens | Toegevoegde meer gedetailleerde vraagvoorbeelden aan [ Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer ](/help/use-cases/data-export/queryservice-export-datasets.md) om te illustreren hoe te om attributie over zittingen behoorlijk toe te passen gebruikend een raadplegingsvenster. |

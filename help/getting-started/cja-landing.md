@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,12 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB Waarschuwingen]
+
+Met waarschuwingen kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld. U kunt bekijken hoe vaak een waarschuwing wordt geactiveerd, waarschuwingen verzenden via e-mail of SMS, gestapelde waarschuwingen maken en nog veel meer.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB  Summiere gegevens ]
 
