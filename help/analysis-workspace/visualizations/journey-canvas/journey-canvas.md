@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -127,6 +127,16 @@ Bovendien worden wijzigingen in een reis bij Journey Optimizer-synchronisatie al
 
 Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, kunnen de veranderingen in gegevensverwerking, beschikbare eigenschappen, en synchronisatiegedrag voorkomen.
 
+Als u een belangrijke wijziging aanbrengt in een Journey Optimizer-reis in het canvas Journey, kunnen wijzigingen optreden in gegevensverwerking, beschikbare functies en synchronisatiegedrag. Een belangrijke wijziging omvat een van de volgende elementen:
+
+* Een knooppunt toevoegen of verwijderen
+
+* Een pijl toevoegen of verwijderen tussen knooppunten
+
+* De componenten op een knooppunt wijzigen
+
+Als u andere wijzigingen aanbrengt aan een Journey Optimizer-reis in het canvas Reis, zoals het slepen van een knooppunt of het toevoegen van een afbraak, zijn de verschillen die in de volgende secties worden beschreven, niet van toepassing.
+
 >[!NOTE]
 >
 >Als u de oorspronkelijke staat van de reis wilt herstellen, drukt u op Ctrl+z nadat u de eerste wijziging in het canvas Reis hebt aangebracht. Of, kunt u schrappen en [ opnieuw creëren de reis in het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
@@ -139,9 +149,13 @@ Dit komt omdat u, in tegenstelling tot Journey Optimizer, met het canvas Journey
 
 #### Verschillen in functies
 
-Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, is het [!UICONTROL **type van Knoop**] drop-down gebied niet meer beschikbaar.
+Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, zou de functionaliteit voor de volgende eigenschappen, afhankelijk van uw wijzigingen kunnen veranderen:
 
-Voor meer informatie over dit gebied, zie [ montages ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) vormen.
+* De waarden die in de [!UICONTROL **het type van Knoop**] gebiedsverandering worden getoond.
+
+* De opties die in de [!UICONTROL **montages van de Pijl**] drop-down gebiedsverandering beschikbaar zijn.
+
+Voor meer informatie over deze gebieden, zie [ montages ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) vormen.
 
 #### Synchronisatieverschillen
 
