@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
+source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,29 @@ Inzichten in natuurlijke talen worden nu gegenereerd.
 
 Houd rekening met het volgende:
 
-* U hebt minimaal drie gegevenspunten nodig om bijschriften te kunnen genereren. Anders krijgt u mogelijk een fout met de tekst &quot;Onvoldoende gegevens om te analyseren.&quot;
+* U hebt minimaal drie gegevenspunten nodig om bijschriften te kunnen genereren. Anders krijgt u mogelijk een fout zoals **[!UICONTROL Not enough data to analyze]** .
 
-* Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens in de tabel veranderen waardoor de visualisatie wordt ingeschakeld.
+* Bijschriften worden telkens gegenereerd wanneer de onderliggende geselecteerde gegevens veranderen in de tabel die de visualisatie beïnvloedt.
 
 * Als de tabel meerdere metriek bevat, worden alleen bijschriften gegenereerd voor de eerste metrische waarde of voor de metrische waarde die momenteel door de gebruiker is geselecteerd.
 
-* Als u het project op dit punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit dit project worden geëxporteerd.
+* Als u het project op een specifiek punt opslaat en het later opnieuw laadt, worden de bijschriften automatisch bijgewerkt met nieuwe gegevens. Hetzelfde geldt voor geplande projecten en PDF-bestanden die uit een project worden geëxporteerd.
 
-## Bijschriften weergeven en interpreteren {#view}
-
-Hier volgt een voorbeeld van hoe de bijschriften eruit zouden kunnen zien:
+Hier is een voorbeeld van hoe intelligente bijschriften eruit zouden kunnen zien:
 
 ![ Intelligente titels voor de visualisatie van de Lijn met inbegrip van Seizoensonaliteit, Min, Max, Spiek, en Weigeren.](assets/captions.png)
 
-## Kopiëren naar klembord {#copy}
+## Handelingen
+
+U kunt de volgende handelingen uitvoeren op intelligente bijschriften:
+
+### Kopiëren naar klembord {#copy}
 
 U kunt de bijschriften naar een klembord kopiëren en ze in een PowerPoint of andere gereedschappen plakken. Selecteer ![ titels van het Exemplaar aan klembord ](/help/assets/icons/Copy.svg) bij het hoogste recht van de dialoog van titels.
 
-## Bijschriften bewerken {#edit}
+### Weergave bewerken {#edit}
 
-U kunt de bijschriften bewerken, zoals een bepaalde categorie inzichten verbergen of de verbergen. Als u bijvoorbeeld niet wilt weten wat de minimale volgorde is, kunt u dat inzicht verbergen en op Toepassen klikken. en niet meer.
+U kunt de weergave van bijschriften bewerken, zoals een bepaalde categorie inzichten verbergen of verbergen.
 
 1. Selecteer ![ uitgeven intelligente vertoning van titels ](/help/assets/icons/EditInLight.svg) in de Intelligente dialoog van titels.
 
@@ -63,7 +65,7 @@ U kunt de bijschriften bewerken, zoals een bepaalde categorie inzichten verberge
 1. Selecteer **[!UICONTROL Apply]** .
 
 
-## Feedback geven
+### Feedback geven
 
 U kunt feedback geven over de gegenereerde intelligente bijschriften.
 
@@ -73,13 +75,13 @@ U kunt feedback geven over de gegenereerde intelligente bijschriften.
 
 1. Geef in het dialoogvenster **[!UICONTROL Thank you for your feedback]** uw feedback op en selecteer **[!UICONTROL Submit]** om de feedback te verzenden.
 
-## Bijschriften exporteren {#export}
+### Exporteren {#export}
 
-U kunt **uitvoertitels via PDF**, zolang het project met de geproduceerde titels wordt bewaard.
+U kunt intelligente titels als deel van een PDF uitvoeren, zolang het project met de intelligente geproduceerde titels wordt bewaard.
 
-## Bijschriften in-/uitschakelen {#toggle}
+### Uitschakelen {#toggle}
 
-Als u liever geen intelligente bijschriften wilt weergeven, schakelt u deze functie uit.
+Als u liever geen intelligente bijschriften wilt weergeven, schakelt u de functie uit.
 
 1. Ga naar [ de voorkeur van Visualisaties ](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
 1. Schakel **[!UICONTROL Show intelligent captions]** uit.
@@ -87,9 +89,6 @@ Als u liever geen intelligente bijschriften wilt weergeven, schakelt u deze func
    ![ de visualisatieopties van de Lijn die de optie tonen om intelligente titels uit te schakelen.](assets/toggle-captions.png)
 
 1. Selecteer **[!UICONTROL Save]** om de voorkeur op te slaan.
-
-
-
 
 
 ## Intelligente bijschriften in mobiele scoreborden
