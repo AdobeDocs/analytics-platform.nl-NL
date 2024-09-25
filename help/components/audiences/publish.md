@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
+source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep 
 | Niet weergegeven | Adobe Analytics naar Analytics-bronconnector (A4T) | Tot 30 minuten |
 | 1 | Gegevensopname in het gegevensmeer (van de bronconnector van Analytics of andere bronnen) | Tot 90 minuten |
 | 2 | Gegevensopname van Experience Platform Data Lake naar Customer Journey Analytics | Tot 90 minuten |
-| 3 | Publiceren van het publiek naar het profiel van de Klant in real time, met inbegrip van de automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Enkele seconden |
+| 3 | Publiceren van het publiek aan het Profiel van de Klant in real time, met inbegrip van automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | Enkele seconden |
 | 4 | Frequentie vernieuwen voor publiek | <ul><li>Eenmalige vernieuwing (vertraging van minder dan 5 minuten)</li><li>Vernieuwen elke 4 uur, dagelijks, wekelijks, maandelijks (latentie gaat hand in hand met de vernieuwingsfrequentie) |
 | 5 | Doel maken in Adobe Experience Platform: het nieuwe segment activeren | 1-2 uur |
 
