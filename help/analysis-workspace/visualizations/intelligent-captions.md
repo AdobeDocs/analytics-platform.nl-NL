@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
+source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ Intelligente bijschriften zijn gericht op:
 
 * Analysten die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
 * Zakelijke gebruikers die snel op hoog niveau willen ontdekken.
-
-Bijschriften zijn beschikbaar voor alle gebruikers van de Customer Journey Analytics en vereisen geen speciale machtigingen.
 
 ## Intelligente bijschriften starten {#launch}
 
@@ -101,7 +99,7 @@ De volgende parameters regelen de toegang tot intelligente bijschriften:
 
 * **toegang van de Oplossing**: De Intelligente eigenschap van titels is beschikbaar in Customer Journey Analytics, maar niet in Adobe Analytics.
 
-* **Contractuele toegang**: Als u intelligente titels niet kunt gebruiken, gelieve te contacteren de beheerder of de Vertegenwoordiger van de Rekening van de Adobe van uw organisatie. Voordat u Intelligent kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
+* **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van de Adobe te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
 
 * **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]** .
