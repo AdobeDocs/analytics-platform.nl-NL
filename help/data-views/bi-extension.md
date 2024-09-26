@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
+source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
 workflow-type: tm+mt
-source-wordcount: '2901'
+source-wordcount: '3017'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd o
 
 Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u de optionele instelling `CJA_USE_IDS` toevoegen aan de databasenaam wanneer u verbinding maakt. `prod:cja?CJA_USE_IDS` geeft bijvoorbeeld uw gegevensweergaven weer met namen als `dv_ABC123` .
 
-### Gegevensbeheer
+### Datagovernance
 
 De aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics worden overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige gegevens van Customers Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
 
@@ -399,5 +399,15 @@ Deze functies kunnen worden gebruikt voor afmetingen in de component `SELECT` , 
 | [ trekken ](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> de gesteunde delen zijn:<br> - Trefwoorden: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/> - Tekenreeksen: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of 19}.`'MINUTE'` |
 | [ Datum (deel) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> Ondersteunde tekenreeksonderdelen zijn: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, of `'MINUTE'` . |
 | [ Datum (beknot) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven.<br/> Ondersteunde tekenreeksgranulariteit is: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of `'MINUTE'` . |
+
+{style="table-layout:auto"}
+
+### Gedeeltelijke ondersteuning
+
+Sommige SQL-functionaliteit wordt slechts gedeeltelijk ondersteund met de BI-extensie en retourneert niet dezelfde resultaten als bij andere databases.  Deze specifieke functionaliteit wordt gebruikt in SQL die door diverse hulpmiddelen van BI wordt geproduceerd, waarvoor de uitbreiding van BI geen nauwkeurige gelijke heeft. Dientengevolge, concentreert de uitbreiding van BI zich op een beperkte implementatie die het minimumgebruik van het hulpmiddel van BI zonder fouten te werpen behandelt. Zie de onderstaande tabel voor meer informatie.
+
+| Functie | Voorbeeld | Details |
+|---|---|---|
+| MIN() &amp; MAX() | ``MIN(daterange)`` of <br/> ``MAX(daterange)`` | `MIN()` on `timestamp` , `daterange` of een van de `daterangeX` like `daterangeday` retourneert twee jaar geleden. <br/><br/> `MAX()` on `timestamp` , `daterange` of een van de `daterangeX` like `daterangeday` retourneert de huidige datum/tijd.<br/><br/>`MIN()` of `MAX()` op een andere dimensie, metrische waarde of expressie retourneert 0. |
 
 {style="table-layout:auto"}
