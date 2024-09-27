@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: f1e29025292a71b0734210d57eef60cb1eaa6d50
+source-git-commit: 8310e67ea42c44e9cc6d9cfcbd27642b068ef1ed
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1124'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 8%
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Adobe Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
-         + [Mobiele SDK](../data-ingestion/aepmobilesdk.md)
+         + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [Server-API](../data-ingestion/serverapi.md)
       + [Batchgegevens](../data-ingestion/batch.md)
       + [Streaming gegevens](../data-ingestion/streaming.md)
@@ -98,6 +98,12 @@ ht-degree: 8%
    + [Afgeleide velden](../data-views/derived-fields/derived-fields.md)
    + [Samenvattingsgegevens](../data-views/summary-data.md)
    + [Labels en beleid](../data-views/data-governance.md)
+
++ Gereedschappen {#tools}
+   + Productgebruik {#product-usage}
+      + [Overzicht](../tools/product-usage/usage-overview.md)
+      + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
+      + [Instellingen voor Uitschakelen](../tools/product-usage/opt-out-settings.md)
 
 + Workspace-projecten {#cja-workspace}
    + [Overzicht van Analysis Workspace](../analysis-workspace/home.md)
@@ -345,7 +351,7 @@ ht-degree: 8%
    + [AI van klant integreren](/help/integrations/customer-ai.md)
 
 + Data Governance {#cja-privacy}
-   + [Gegevensbeheer](../privacy/privacy-overview.md)
+   + [Datagovernance](../privacy/privacy-overview.md)
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
