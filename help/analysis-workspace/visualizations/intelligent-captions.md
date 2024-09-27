@@ -4,7 +4,7 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
+source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -17,8 +17,8 @@ Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Gen
 
 Intelligente bijschriften zijn gericht op:
 
-* Analysten die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
-* Zakelijke gebruikers die snel op hoog niveau willen ontdekken.
+* Analysten, die verhalen nodig hebben om met andere gebruikers te delen. De analisten hebben deze inzichten nodig om context aan hun gebruikers te kunnen verstrekken.
+* Zakelijke gebruikers, die snel op hoog niveau willen ontdekken.
 
 ## Intelligente bijschriften starten {#launch}
 
