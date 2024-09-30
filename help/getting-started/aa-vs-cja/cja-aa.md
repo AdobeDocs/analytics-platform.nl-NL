@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2297'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | **Verbeterde veiligheid en privacyopties** - de gereedheid van HIPAA | Customer Journey Analytics is HIPAA klaar en biedt [ extra veiligheidsopties ](/help/privacy/cmk.md) voor regelgevende naleving aan. Adobe Analytics is niet klaar voor HIPAA. |
 | **de analyse van de Experimentatie** | De Customer Journey Analytics kan [ de lift en het vertrouwen van om het even welk experiment ](/help/analysis-workspace/c-panels/experimentation.md) van om het even welke gegevensbron evalueren die als deel van een verbinding wordt bepaald. Deze evaluatie staat u toe om oorzaak-en-effect verhoudingen tussen klanteninteractie te begrijpen die om het even welk kanaal overspannen. Analyse is beperkt tot experimentatieanalyse via A4T. |
 | **Voorspelling** | [ die ](/help/analysis-workspace/c-forecast/forecasting.md) voorspelt is een vermogen AI/ML dat een statistische voorspelling voor op tijd-reeksen betrekking hebbende gegevens omvat die op de historische gegevens worden gebaseerd die reeds in Customer Journey Analytics bestaan. Prognoses kunnen in vrije-vormlijsten en lijngrafiekvisualisaties verschijnen. |
-| **Geleide analyse** | [ Geleide analyse ](/help/guided-analysis/overview.md) is een rapporteringsformaat dat gebruikers toestaat om hun gegevensbehoeften snel zelf-te dienen zodat zij hoogstaande inzichten kunnen snel krijgen en meer gegeven-gedreven besluiten nemen. Analyse met instructies maakt deel uit van het Adobe Product Analytics. |
+| **Geleide analyse** | [ Geleide analyse ](/help/guided-analysis/overview.md) laat gebruikers toe om hoogkwalitatieve gegevens en inzichten over de klantenreis door geleide werkschema&#39;s te dienen, die op de gegevens over meerdere kanalen van Customer Journey Analytics worden voortgebouwd. |
 | **Intelligente Bijschriften** | Intelligente bijschriften maken gebruik van geavanceerde Machine Learning en Generative AI om waardevolle natuurlijke taalinzichten te bieden voor Workspace-visualisaties. De aanvankelijke versie verstrekt auto-geproduceerde inzichten voor de [ visualisatie van de Lijn ](/help/analysis-workspace/visualizations/line.md). |
 | **rapport-tijd transformaties** | [ de meningen van Gegevens ](/help/data-views/data-views.md) in Customer Journey Analytics staan u toe om gegevens van een verbinding verder te interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | **BI Uitbreiding** | De [ Uitbreiding van BI ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) laat u CJA direct met populaire BI visualiseringshulpmiddelen zoals PowerBI of Tableau verbinden. Door deze extensie te gebruiken, kunt u uw BI-rapporten precies laten overeenkomen met wat u ziet in Analysis Workspace en andere CJA-rapportageinterfaces. Dit is een veel gemakkelijkere manier om BI rapportering voor CJA zonder de behoefte te krijgen om rapporten/metriek van ruwe gegevens opnieuw te maken. |
