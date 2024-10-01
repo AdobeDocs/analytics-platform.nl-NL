@@ -3,12 +3,10 @@ description: De visualisatie van het canvas voor een reis configureren
 title: Reiscanvas
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 90180e1231ab8b50f1f6b8552e00d1c251d10a2f
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '5408'
+source-wordcount: '6504'
 ht-degree: 0%
 
 ---
@@ -41,19 +39,19 @@ Zie [ Overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizat
 
    Voeg een visualisatie van het canvas van de Reis op om het even welke die manieren toe in [ worden beschreven visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) sectie in [ Overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
 
-1. Geef de volgende basisinformatie op:
+1. Geef de volgende basisinformatie op om het canvas Reis te configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Primaire metrisch**] | De primaire metrische waarde beïnvloedt de volgende aspecten van de visualisatie van het canvas van de Reis:  <ul><li>Definieert hoe mensen door de reis bewegen.</li><li>Het totale aantal dat op elke knoop wordt getoond.<p>Bijvoorbeeld, als Mensen primaire metrisch is, toont elke knoop het aantal mensen die die knoop in de reis bereikten.</p></li><li>Het percentage dat op elk knooppunt wordt weergegeven. (Nadat de visualisatie is opgebouwd, kunt u kiezen of het percentage van het totaal of van het beginknooppunt wordt weergegeven.)</li><p>Bijvoorbeeld, als Mensen primaire metrisch is, toont elke knoop het percentage mensen die die knoop in de reis (of het percentage van het totaal of van de beginnende knoop) bereikten.</p></li><li>Wanneer een afmeting aan visualisatie wordt toegevoegd, worden de hoogste 3 knopen van visualisatie toegevoegd, die op primaire metrisch wordt gebaseerd.</li></ul> |
-   | [!UICONTROL **Secundaire metrische**] | Secundaire metrisch is facultatief. Wanneer één wordt geselecteerd, wordt de volgende informatie getoond op elke knoop onder primaire metrisch: <ul><li>Het totale getal<p>Bijvoorbeeld, als Sessies secundaire metrisch is, toont elke knoop het aantal zittingen die die knoop in de reis bereikten.</p></li><li>Het percentage (nadat de visualisatie is opgebouwd, kunt u kiezen om het percentage van het totaal of van het beginknooppunt weer te geven.)</li><p>Bijvoorbeeld, als Sessies secundaire metrisch is, toont elke knoop het percentage zittingen die die knoop in de reis (of het percentage van het totaal of van de beginnende knoop) bereikten.</p></li></ul> |
-   | [!UICONTROL **reis van Journey Optimizer**]<!-- name? --> | Selecteer de reis van Journey Optimizer die u als basis voor uw analyse in het canvas van de Reis wilt gebruiken. (U kunt deze optie ook leeg laten als u een leeg canvas wilt maken waaruit u de analyse in Analysis Workspace wilt opbouwen.)</p> <p>Wanneer u een Journey Optimizer-reis analyseert op het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Voor meer informatie, zie [ reizen van Journey Optimizer ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [ overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) analyseren.</p><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Primaire metrisch**] | Bepaalt metrisch die wordt gebruikt wanneer het berekenen van het percentage en aantalwaarden op elke knoop in de reis. <p>**Nota**: Het werkingsgebied van de gegevens inbegrepen in elk percentage en aantalwaarde wordt bepaald door metrisch die u op het **[!UICONTROL Journey canvas container]** gebied kiest. Als **[!UICONTROL Person]** bijvoorbeeld is ingesteld als container, hebben de statistieken die in de reis worden weergegeven betrekking op meerdere sessies voor een bepaalde persoon. Als **[!UICONTROL Session]** als container wordt geplaatst, dan worden de statistieken die in de reis worden getoond beperkt tot één bepaalde zitting voor een bepaalde persoon.</p><p>Neem de volgende voorbeelden:</p><ul><li>Als _Mensen_ primaire metrisch en _Persoon_ de container is, dan slechts die mensen die een gebeurtenis hebben die de criteria van elke opeenvolgende knoop in de reis zich door de reis aanpast. De val komt op een knoop voor wanneer een persoon nooit bij om het even welke directe volgende knopen in de reis aankwam. Ze hebben mogelijk andere acties uitgevoerd op de site, maar ze voldoen niet aan de criteria die zijn gedefinieerd door de knooppunten die onmiddellijk volgen.</li><li>Als _Mensen_ primaire metrische en _Zitting_ de container is, dan slechts die mensen die een gebeurtenis hebben die de criteria van elke knoop in de reis binnen één enkele zittingsbeweging door de reis aanpast. De val komt op een knoop voor wanneer een persoon nooit bij om het even welke directe volgende knopen in de reis binnen één enkele zitting aankwam. Ze hebben mogelijk andere acties uitgevoerd op de site binnen de sessie, maar ze voldoen niet aan de criteria die zijn gedefinieerd door de knooppunten die onmiddellijk volgen.</li></ul> <p>De primaire metrische waarde beïnvloedt de volgende aspecten van de visualisatie van het canvas van de Reis:</p><ul><li>Het totale aantal dat op elke knoop wordt getoond.  <p>Bijvoorbeeld, als de Gebeurtenissen primaire metrisch zijn, toont elke knoop het aantal mensen die een gebeurtenis hadden die de criteria van die knoop (en elke vorige knoop die tot het in de reis leidt) aanpast.</p></li><li>Het percentage dat op elk knooppunt wordt weergegeven. (Nadat de visualisatie is opgebouwd, kunt u het vervolgkeuzemenu **[!UICONTROL Percentage value]** gebruiken om het percentage van het totaal, het percentage van het vorige knooppunt of het percentage van het beginknooppunt weer te geven.)</li><p>Bijvoorbeeld, als de Gebeurtenissen primaire metrisch zijn, toont elke knoop het percentage mensen die een gebeurtenis hadden die de criteria van die knoop (en elke vorige knoop die tot het in de reis leiden) aanpast.</p></li><li>Wanneer een afmeting aan visualisatie wordt toegevoegd, worden de hoogste 3 knopen van visualisatie toegevoegd, die op primaire metrisch wordt gebaseerd.</li></ul> |
+   | [!UICONTROL **Secundaire metrische**] | Bepaalt secundaire metrisch die wordt gebruikt wanneer het berekenen van het percentage en aantalwaarden op elke knoop in de reis. Secundaire metrisch is facultatief. <p>**Nota**: Het werkingsgebied van de gegevens inbegrepen in elk percentage en aantalwaarde wordt bepaald door metrisch die u op het **[!UICONTROL Journey canvas container]** gebied kiest. Als **[!UICONTROL Person]** bijvoorbeeld is ingesteld als container, hebben de statistieken die in de reis worden weergegeven betrekking op meerdere sessies voor een bepaalde persoon. Als **[!UICONTROL Session]** als container wordt geplaatst, dan worden de statistieken die in de reis worden getoond beperkt tot één bepaalde zitting voor een bepaalde persoon.</p><p>Wanneer secundaire metrisch wordt geselecteerd, beïnvloedt het de volgende aspecten van de het canvasvisualisatie van de Reis:</p><ul><li>Het totale aantal dat op elke knoop onder primaire metrisch wordt getoond. <p>Bijvoorbeeld, als Accounts secundaire metrisch is, wordt het aantal rekeningen getoond op de knoop voor alle mensen die die knoop bereikten slechts die mensenElke knoop toont het aantal zittingen die die knoop in de reis bereikten.</p></li><li>Het percentage dat op elke knoop onder primaire metrisch wordt getoond. (Nadat de visualisatie is opgebouwd, kunt u kiezen of het percentage van het totaal of van het beginknooppunt wordt weergegeven.)</li><p>Bijvoorbeeld, als Sessies secundaire metrisch is, toont elke knoop het percentage zittingen die die knoop in de reis (of het percentage van het totaal of van de beginnende knoop) bereikten.</p></li></ul> |
+   | [!UICONTROL **reis van Journey Optimizer**]<!-- name? --> | Selecteer de reis van Journey Optimizer die u als basis voor uw analyse in het canvas van de Reis wilt gebruiken. Er zijn reizen met een van de volgende statussen beschikbaar: Live, Gestopt of Voltooid <p>U kunt deze optie ook leeg laten als u een leeg canvas wilt maken waaruit u de analyse in Analysis Workspace wilt opbouwen.</p> <p>Wanneer u een Journey Optimizer-reis analyseert op het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Voor meer informatie, zie [ reizen van Journey Optimizer ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [ overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) analyseren.</p><p>**Nota**: Deze optie toont slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).</p> |
 
 1. (Facultatief) selecteer [!UICONTROL **tonen geavanceerde montages**], dan specificeer de volgende informatie:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **de container van het canvas van de Reis**] | Kies de container waarop u zich gedurende de hele reis wilt concentreren. De container die u kiest bepaalt de statistieken die in de visualisatie worden getoond. (Als uw containernamen afwijken van de onderstaande standaardnamen, zijn deze aangepast in de gegevensweergave.)<ul><li>**Sessies:** Beperkt de statistieken van visualisatie om binnen één enkele bepaalde zitting voor een bepaalde persoon te vallen. Dit betekent dat de aantallen en de percentages die op elke knoop verschijnen (die op de primaire en secundaire metriek gebaseerd zijn) binnen één enkele zitting voor elke persoon moeten voorkomen.</li><li>**Mensen:** staat de statistieken van visualisatie toe om veelvoudige zittingen voor een bepaalde persoon te overspannen. Dit betekent dat de aantallen en de percentages die op elke knoop verschijnen (die op de primaire en secundaire metriek gebaseerd zijn) over om het even welk aantal zittingen kunnen voorkomen, zolang de zittingen aan de zelfde persoon behoren. Dit is de standaardinstelling.</li></ul> |
+   | [!UICONTROL **de container van het canvas van de Reis**] | Kies de container waarop u zich gedurende de hele reis wilt concentreren. De container die u kiest, bepaalt het bereik van de gegevens die tijdens de reis worden vastgelegd. Dit beïnvloedt de statistieken die in visualisatie worden getoond. (Als uw containernamen afwijken van de onderstaande standaardnamen, zijn deze aangepast in de gegevensweergave.)<ul><li>**Zitting:** beperkt de statistieken van visualisatie om binnen één enkele bepaalde zitting voor een bepaalde persoon te vallen. Dit betekent dat de aantallen en de percentages die op elke knoop verschijnen (die op de primaire en secundaire metriek gebaseerd zijn) binnen één enkele zitting voor elke persoon moeten voorkomen. Met andere woorden, één persoon kan meerdere keren op één reis vertegenwoordigd zijn.<p>Deze container gebruikt metrische sessies.</p></li><li>**Persoon:** (Gebrek) staat de statistieken van visualisatie toe om veelvoudige zittingen voor een bepaalde persoon te overspannen. Dit betekent dat de aantallen en de percentages die op elke knoop verschijnen (die op de primaire en secundaire metriek gebaseerd zijn) over om het even welk aantal zittingen kunnen voorkomen, zolang de zittingen aan de zelfde persoon behoren. Met andere woorden, één persoon kan slechts één keer op één reis vertegenwoordigd zijn.<p>Deze container gebruikt metrische Mensen.</p></li></ul> |
 
 1. Selecteer [!UICONTROL **Bouwstijl**].
 
@@ -61,7 +59,7 @@ Zie [ Overzicht van het canvas van de Reis ](/help/analysis-workspace/visualizat
 
    <!-- add screen shot -->
 
-   Als u geen Journey Optimizer hebt of als u geen Journey Optimizer-reis hebt geselecteerd, wordt een leeg canvas weergegeven waar u kunt beginnen met het vullen van de reis.
+   Als u geen Journey Optimizer hebt of als u geen reis van Journey Optimizer selecteerde, toont een leeg canvas waar u kunt beginnen knopen aan de reis toe te voegen.
 
    <!-- add screen shot -->
 
@@ -85,9 +83,9 @@ Instellingen configureren voor de visualisatie van het canvas Reis:
    | Instelling | Functie |
    |---------|----------|
    | [!UICONTROL **Type van Knoop**] | Staat u toe om te vormen welke knooptypes in visualisatie worden getoond.<p>Als u een knooppunttype wilt verbergen in de visualisatie, selecteert u de (x) naast het knooppunttype of heft u de selectie van dit type op in het keuzemenu. Als u een verborgen knooppunttype wilt weergeven, selecteert u dit in het keuzemenu. (Knooppunten worden niet van de reis geschrapt wanneer u hen verbergt. Voor informatie over hoe te om een knoop te schrappen, zie [ knopen ](#delete-nodes) schrappen.)</p><p>Dit gebied kan de knooptypes van Journey Optimizer ([!UICONTROL **Gelezen segment**], [!UICONTROL **Eind**], enzovoort) en componentenknooptypes ([!UICONTROL **Dimension**], [!UICONTROL **Metrisch**], [!UICONTROL **Filter**], en [!UICONTROL **waaier van de Datum**]) bevatten, als volgt: </p><ul><li>**slechts worden de knooptypes van Journey Optimizer getoond** als de reis een reis van Journey Optimizer is die niet in het canvas van de Reis met om het even welke volgende wijzigingen is gewijzigd:<ul><li>Toegevoegde of verwijderde knooppunten</li><li>Pijlen toevoegen of verwijderen</li><li>De componenten op een knooppunt gewijzigd</li></ul></li><li>**zowel Journey Optimizer knooptypes als componentenknooptypes worden getoond** als de reis een reis van Journey Optimizer is die in het canvas van de Reis met om het even welke volgende wijzigingen is gewijzigd:<ul><li>Toegevoegde of verwijderde knooppunten</li><li>Pijlen toevoegen of verwijderen</li><li>De componenten op een knooppunt gewijzigd</li></ul></li><li>**slechts de types van componentenknoop worden getoond** als de reis geen reis van Journey Optimizer is.</li></ul></p> |
-   | [!UICONTROL **Procentuele waarde**] | De percentagewaarde die op elke knoop in de reis wordt getoond. Dit percentage omvat alleen de personen die zijn opgenomen in de gegevensweergave binnen het datumbereik van het deelvenster. <p>Kies een van de volgende opties:</p> <ul><li>[!UICONTROL **Percentage van beginknoop**]: Het percentage van alle mensen die aan de criteria van een beginknoop in de reis voldoen. <p>A _beginknoop_ is een knoop die geen verbonden knopen heeft die het voorafgaan.</p><p>Een reis kan veelvoudige beginknopen bevatten. Nochtans, [!UICONTROL **Percentage van totaal**] wordt gebruikt als de reis 2 of meer beginknopen bevat die tot een gemeenschappelijke knoop leiden. Als u [!UICONTROL **Percentage van beginknoop**] wilt gebruiken, werk de reis bij zodat elke knoop in de reis terug naar één enkele beginknoop kan worden getraceerd.</p></li><li>[!UICONTROL **Percentage van vorige knoop**]: Het percentage van alle mensen van de vorige knoop.</li><li>[!UICONTROL **Percentage van totaal**]: Het percentage van alle mensen inbegrepen in de gegevensmening binnen de de datumwaaier van het paneel.</li></ul> |
-   | [!UICONTROL **montages van de Pijl**] | De pijlen die tussen knopen in het canvas van de Reis verschijnen kunnen worden gevormd om douanelabels en waarden te tonen. <p>_de Etiketten_ zijn douanenamen die op pijlen verschijnen. Op een bepaalde pijl wordt slechts één label weergegeven. De etiketten kunnen om het even welke volgend zijn, en worden getoond in deze orde van voorkeur:</p><ol><li>Een douanenaam die van het canvas van de Reis wordt toegevoegd (zoals die in [ wordt beschreven noemt een knoop of pijl ](#rename-a-node-or-arrow))</li><li>Een Journey Optimizer-label</li><li>Een Journey Optimizer-voorwaarde</li></ol><p>_Waarden_ zijn de aantallen en de percentages die op pijlen verschijnen, en zij wijzen op de mensen of de zittingen die van één knoop aan de volgende knoop in de reis bewogen. (Met andere woorden, degenen die niet in een bepaalde fase uit de reis zijn gevallen.) </p><p>De volgende opties zijn beschikbaar voor reizen die niet uit Journey Optimizer voortkwamen en voor reizen van Journey Optimizer die niet significant zijn gewijzigd in het canvas van de Reizen: (Belangrijke wijzigingen omvatten het toevoegen of verwijderen van knopen, het toevoegen of verwijderen van pijlen, of het veranderen van de componenten van een knoop.)</p><ul><li>[!UICONTROL **Geen etiketten**]: Geen etiketten worden getoond op pijlen in de reis. </br> Deze optie is alleen beschikbaar als de rit is gewijzigd in </li><li>[!UICONTROL **Etiketten slechts**]: De etiketten worden getoond op pijlen in de reis.</li></ul><p>De volgende opties zijn beschikbaar voor Journey Optimizer-reizen die aanzienlijk zijn gewijzigd in Reis canvas: (Belangrijke wijzigingen zijn het toevoegen of verwijderen van knooppunten, het toevoegen of verwijderen van pijlen of het wijzigen van de componenten van een knooppunt.)(**Nota**: Deze optiesvertoningen slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).)</p><ul><li>[!UICONTROL **Geen etiketten of waarden**]: Geen etiketten of waarden worden getoond op pijlen in de reis.</li><li>[!UICONTROL **Etiketten slechts**]: Slechts worden de etiketten getoond op pijlen in de reis. Waarden worden niet weergegeven.</li><li>[!UICONTROL **Waarden slechts**]: Slechts worden de waarden getoond op pijlen in de reis. Labels worden niet weergegeven.</li><li>[!UICONTROL **Waarden en etiketten**]: Zowel worden de etiketten als de waarden getoond op pijlen in de reis.</li></ul> |
-   | [!UICONTROL **toon reserve**] | Geef de opvalgegevens voor elk knooppunt weer. Dit toont het aantal en het percentage mensen die de reis na een bepaald knooppunt hebben verlaten. <p>Mensen die uit de reis vielen, hadden misschien andere acties op de locatie uitgevoerd, maar ze voldeden nooit aan de criteria die door het volgende knooppunt in de reis worden gedefinieerd.</p> |
+   | [!UICONTROL **Procentuele waarde**] | De percentagewaarde die op elke knoop in de reis wordt getoond. <p>Overweeg het volgende wanneer het vormen van de percentagewaarden die op knopen in de reis worden getoond:</p><ul><li>Een percentage wordt getoond op elke knoop voor primaire metrisch. Een percentage wordt ook getoond voor secundaire metrisch als men wordt gevormd. (Voor meer informatie over de primaire en secundaire metrische montages, zie [ beginnen met de bouw van een visualisatie van het canvas van de Reis ](#begin-building-a-journey-canvas-visualization).)</li><li>De percentages omvatten alle mensen of zittingen die in de gegevensmening binnen de de datumwaaier van het paneel inbegrepen zijn. Of _mensen_ of _zittingen_ wordt gebruikt hangt van container af het plaatsen. (Voor meer informatie over het plaatsen van de container, zie [ beginnen met de bouw van een visualisatie van het canvas van de Reis ](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Kies een van de volgende opties:</p> <ul><li>[!UICONTROL **Percentage van beginknoop**]: Berekent de percentages die op elke knoop met betrekking tot de beginknoop worden getoond. De percentages zijn gebaseerd op primaire en secundaire metrisch die u selecteerde. <p>A _beginknoop_ is een knoop die geen verbonden knopen heeft die het voorafgaan.</p><p>Een reis kan veelvoudige beginknopen bevatten. Nochtans, [!UICONTROL **Percentage van totaal**] wordt gebruikt als de reis 2 of meer beginknopen bevat die tot een gemeenschappelijke knoop leiden. Als u [!UICONTROL **Percentage van beginknoop**] wilt gebruiken, werk de reis bij zodat elke knoop in de reis terug naar één enkele beginknoop kan worden getraceerd.</p></li><li>[!UICONTROL **Percentage van vorige knoop**]: Berekent de percentages die op elke knoop met betrekking tot de vorige knoop worden getoond. De percentages zijn gebaseerd op primaire en secundaire metrisch die u selecteerde.</li><li>[!UICONTROL **Percentage van totaal**]: Berekent de percentages die op elke knoop met betrekking tot alle gegevens in de gegevensmening worden getoond. De percentages zijn gebaseerd op primaire en secundaire metrisch die u selecteerde.</li></ul> |
+   | [!UICONTROL **montages van de Pijl**] | De pijlen die tussen knopen in het canvas van de Reis verschijnen kunnen worden gevormd om douanelabels en waarden te tonen. <p>_de Etiketten_ zijn douanenamen die op pijlen verschijnen. Op een bepaalde pijl wordt slechts één label weergegeven. De etiketten kunnen om het even welke volgend zijn, en worden getoond in deze orde van voorkeur:</p><ol><li>Een douanenaam die van het canvas van de Reis wordt toegevoegd (zoals die in [ wordt beschreven voegt of werkt een etiket op een pijl ](#add-or-update-a-label-on-an-arrow) bij)</li><li>Een Journey Optimizer-label</li><li>Een Journey Optimizer-voorwaarde</li></ol><p>_Waarden_ zijn de aantallen en de percentages die op pijlen verschijnen, en zij wijzen op de mensen of de zittingen die van één knoop aan de volgende knoop in de reis bewogen. (Met andere woorden, degenen die niet in een bepaalde fase uit de reis zijn gevallen.) </p><p>De volgende opties zijn beschikbaar voor reizen die niet uit Journey Optimizer voortkwamen en voor reizen van Journey Optimizer die niet significant zijn gewijzigd in het canvas van de Reizen: (Belangrijke wijzigingen omvatten het toevoegen of verwijderen van knopen, het toevoegen of verwijderen van pijlen, of het veranderen van de componenten van een knoop.)</p><ul><li>[!UICONTROL **Geen etiketten**]: Geen etiketten worden getoond op pijlen in de reis. </br> Deze optie is alleen beschikbaar als de rit is gewijzigd in </li><li>[!UICONTROL **Etiketten slechts**]: De etiketten worden getoond op pijlen in de reis.</li></ul><p>De volgende opties zijn beschikbaar voor Journey Optimizer-reizen die aanzienlijk zijn gewijzigd in Reis canvas: (Belangrijke wijzigingen zijn het toevoegen of verwijderen van knooppunten, het toevoegen of verwijderen van pijlen of het wijzigen van de componenten van een knooppunt.)(**Nota**: Deze optiesvertoningen slechts wanneer het gegeven van Journey Optimizer in de zelfde gegevensmening wordt ontdekt die in het paneel van Analysis Workspace wordt geselecteerd waar u de visualisatie toevoegt. Voor informatie over het veranderen van de gegevensmening over een paneel in Analysis Workspace, zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md).)</p><ul><li>[!UICONTROL **Geen etiketten of waarden**]: Geen etiketten of waarden worden getoond op pijlen in de reis.</li><li>[!UICONTROL **Etiketten slechts**]: Slechts worden de etiketten getoond op pijlen in de reis. Waarden worden niet weergegeven.</li><li>[!UICONTROL **Waarden slechts**]: Slechts worden de waarden getoond op pijlen in de reis. Labels worden niet weergegeven.</li><li>[!UICONTROL **Waarden en etiketten**]: Zowel worden de etiketten als de waarden getoond op pijlen in de reis.</li></ul> |
+   | [!UICONTROL **toon reserve**] | De gegevens van de reserve tonen een percentage en aantal dat uit elke knoop van de reis valt. Falloutgegevens zijn gebaseerd op de metrische waarde die is gekoppeld aan de containerinstellingen van de reis; ze zijn niet gebaseerd op de primaire of secundaire metrische waarde.<p>Door gebrek, is de container _Persoon_, zodat metrisch die voor reservegegevens wordt gebruikt _Mensen_ is. Als de container in _Zitting_ wordt veranderd, metrisch gebruikt voor reservegegevens is _Zittingen_, etc.</p><p>Bijvoorbeeld, met _Persoon_ als container die, toont de reserve het percentage en het aantal mensen op elke knoop van de reis die nooit bij om het even welke directe volgende knopen aankwam. Ze hebben mogelijk andere acties uitgevoerd op de site, maar ze voldoen niet aan de criteria die zijn gedefinieerd door de knooppunten die onmiddellijk volgen.</p> <p>Voor meer informatie over het plaatsen van de container van het canvas van de Reis, zie [ beginnen bouwend een visualisatie van het canvas van de Reis ](#begin-building-a-journey-canvas-visualization). |
    | **controles van het Gezoem** | De volgende zoomknoppen zijn beschikbaar in de rechterbovenhoek van het canvas:<ul><li>**Gezoem binnen** ![ zoom in pictogram ](assets/zoom-in-icon.png): Vergroot specifieke gebieden van visualisatie.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**Gezoem uit** ![ zoom uit pictogram ](assets/zoom-out-icon.png): Verkleint visualisatie om meer ruimte op het canvas toe te staan.<p>U kunt ook muisbesturingselementen gebruiken, zoals vastzetten op een trackpad.</p></li><li>**het scherm van de Passendheid** ![ past het het schermpictogram ](assets/fill-screen-icon.png): Past huidige gezoem en pan montages aan om het scherm met volledige visualisatie te vullen.</li></ul><p>Als u wilt pannen over het canvas nadat u hebt in- of uitgezoomd, klikt u met de muis en sleept u naar de gewenste locatie.</p> |
 
 1. Ga met [ verder voeg knopen ](#add-nodes) toe.
@@ -96,7 +94,7 @@ Instellingen configureren voor de visualisatie van het canvas Reis:
 
 De knopen in een het canvasvisualisatie van de Reis vertegenwoordigen de gebeurtenissen of de acties van een gebruikersreis.
 
-U maakt knooppunten door Workspace-componenten van de linkerrails naar het canvas te slepen, door Reader toe te staan de bovenste volgende of vorige knooppunten te kiezen op basis van bestaande knooppunten of door bestaande knooppunten te dupliceren.
+U kunt op de volgende manieren knooppunten maken: door Workspace-componenten van de linkerspoorstaaf naar het canvas te slepen, door Reader toe te staan de bovenste volgende of vorige knooppunten te kiezen op basis van bestaande knooppunten, of door bestaande knooppunten te dupliceren.
 
 ### Componenten slepen vanaf de linkerspoorstaaf
 
@@ -138,6 +136,8 @@ U maakt knooppunten door Workspace-componenten van de linkerrails naar het canva
    * Primaire metrische statistieken (totaal en percentage)
 
    * Secundaire statistieken (totaal en percentage)
+
+   Een pulserend of gloeiend knooppunt geeft aan dat gegevens worden geladen voor dat knooppunt.
 
 1. Herhaal dit proces om door te gaan met het toevoegen van knooppunten om uw reis uit te bouwen.
 
@@ -241,7 +241,7 @@ Nadat knooppunten aan het canvas zijn toegevoegd, kunt u deze opnieuw rangschikk
 
 De reizen in het canvas van de Reis bestaan uit een flexibele grafiek van knopen en pijlen die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen.
 
-U kunt knooppunten naar het canvas slepen om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. U kunt meerdere knooppunten selecteren door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
+U kunt knooppunten naar het canvas slepen om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken.
 
 Terwijl u de volgorde van knooppunten in de rit wijzigt, worden de gegevens dienovereenkomstig bijgewerkt.
 
@@ -251,7 +251,7 @@ Een gecombineerd knooppunt in het canvas Journey is een enkel punt in de gebruik
 
 #### Gecombineerde knooppunten maken
 
-U kunt een van de volgende handelingen uitvoeren om een gecombineerde knooppunten te maken in het canvas Journey:
+U kunt een van de volgende handelingen uitvoeren om knooppunten te combineren in het canvas Reis:
 
 * Sleep vanaf de linkerrails één component naar een knooppunt op het canvas.
 
@@ -306,7 +306,7 @@ De reizen kunnen niet circulair zijn, die terug naar eerder verbonden knopen her
 
 Om knopen in het canvas van de Reis te verbinden:
 
-1. Houd de muisaanwijzer op het canvas boven het knooppunt dat als eerste voorkomt in de reisvolgorde dat u wilt verbinden met een ander knooppunt.
+1. In een reis canvasvisualisatie, beweegt over de knoop die eerst in de reisopeenvolging komt die u met een andere knoop wilt verbinden.
 
    Er worden 4 blauwe stippen weergegeven aan elke kant van het geselecteerde knooppunt.
 
@@ -334,7 +334,7 @@ De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende obje
 
 Een tijdbeperking toevoegen:
 
-1. Klik de pijl tussen 2 knopen met de rechtermuisknop aan, dan selecteren [!UICONTROL **tijdbeperking**] toevoegen.
+1. In een visualisatie van het canvas van de Reis, klik de pijl tussen 2 knopen met de rechtermuisknop aan, dan uitgezocht [!UICONTROL **tijdbeperking**] toevoegen.
 
 <!-- 
 
@@ -361,7 +361,7 @@ De optie om de kleur te wijzigen is beschikbaar voor de volgende objecten op het
 
 De kleur van een knooppunt of pijl wijzigen:
 
-1. Klik met de rechtermuisknop op het knooppunt of de pijl waarvan u de kleur wilt wijzigen.
+1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op het knooppunt of de pijl waarvan u de kleur wilt wijzigen.
 
 1. Selecteer [!UICONTROL **kleur van de Verandering**]. <!--make sure "color" isn't capitalized. It is in the req doc-->
 
@@ -369,7 +369,7 @@ De kleur van een knooppunt of pijl wijzigen:
 
    De volgende kleuren zijn beschikbaar: <!--look into this interaction and color list-->
 
-### De naam van een knooppunt of pijl wijzigen
+### Naam knooppunt wijzigen
 
 >[!AVAILABILITY]
 >
@@ -381,15 +381,45 @@ De optie om de naam te wijzigen is beschikbaar voor de volgende objecten op het 
 
 * Afzonderlijke knooppunten
 
-* De pijl tussen knooppunten
-
 Een knooppunt hernoemen:
 
-1. Klik met de rechtermuisknop op het knooppunt waarvan u de naam wilt wijzigen.
+1. In een reis canvasvisualisatie, klik de knoop met de rechtermuisknop aan die u wilt anders noemen.
 
 1. Selecteer [!UICONTROL **anders noemen**].
 
 1. Geef een nieuwe naam op en druk op Enter.<!--is that right?-->
+
+### Een label toevoegen of bijwerken op een pijl
+
+De pijlen die tussen knopen in het canvas van de Reis verschijnen kunnen worden gevormd om douanelabels en waarden te tonen.
+
+Labels zijn aangepaste namen die op pijlen worden weergegeven. Op een bepaalde pijl wordt slechts één label weergegeven.
+
+Voor meer informatie over de etiketten en de waarden die op pijlen verschijnen, zie de &quot;montages van de Pijl&quot;in [ visualisatie montages ](#configure-visualization-settings) vormen.
+
+De optie om een label toe te voegen of bij te werken is beschikbaar voor de volgende objecten op het canvas:
+
+* De pijl tussen knooppunten
+
+Een label toevoegen aan een pijl:
+
+1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op de plaats waar u een label wilt toevoegen.
+
+1. Selecteer **[!UICONTROL Add label]** .
+
+1. Geef een naam voor het label op en druk op Enter.
+
+   Als de pijlmontages momenteel worden gevormd om etiketten te verbergen, een berichtvertoningen, die u ertoe aanzetten om etiketten te tonen.
+
+Een bestaand label op een pijl bijwerken:
+
+1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op de plaats waar u een label wilt toevoegen.
+
+1. Selecteer **[!UICONTROL Update label]** .
+
+1. Geef een naam voor het label op en druk op Enter.
+
+   Als de pijlmontages momenteel worden gevormd om etiketten te verbergen, een berichtvertoningen, die u ertoe aanzetten om etiketten te tonen.
 
 ### Een uitsplitsing toepassen
 
@@ -419,21 +449,25 @@ Houd rekening met het volgende wanneer u een indeling toepast:
 >
 >Deze functie is nog niet beschikbaar.
 
-1. Selecteer een of meer knooppunten waarop u een splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde knooppunten.
+1. In een reis canvasvisualisatie, selecteer één of meerdere knopen waar u een verdeling wilt toepassen, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
 
    of
 
-   Selecteer een of meer pijlen tussen twee knooppunten waarop u de splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
+   Selecteer in een reiscanvasvisualisatie een of meer pijlen tussen twee knooppunten waarop u de splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
 1. Selecteer [!UICONTROL **Uitsplitsing**].
 
-<!-- 1. Choose where you want to view the breakdown:
+1. Kies waar u de indeling wilt weergeven:
 
-        * [!UICONTROL **In Journey canvas**]
+   * [!UICONTROL **in het canvas van de Reis**]
 
-        * [!UICONTROL **In a freeform table**]
+   * [!UICONTROL **in een vrije lijst van de Vorm**]
 
--->
+1. Selecteer de dimensie die u voor de onderverdeling wilt gebruiken.
+
+   Als u verkoos om de uitsplitsing in het canvas van de Reis te bekijken, worden de hoogste 5 afmetingspunten getoond op de knoop. Een optie is beschikbaar op de knoop om de mislukking in een vrije vormlijst te openen.
+
+   Als u ervoor kiest om de uitsplitsing in een vrije-vormtabel weer te geven, worden de bovenste dimensie-items weergegeven in een nieuwe vrije-vormtabel direct boven de visualisatie van het canvas Reis.
 
 #### Een uitsplitsing toepassen op een afzonderlijk knooppunt
 
@@ -457,21 +491,17 @@ Wanneer u een publiek van veelvoudige knopen of pijlen creeert, worden zij aange
 
 Een publiek maken:
 
-1. Selecteer een of meer knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde knooppunten.
+1. In een reis canvasvisualisatie, selecteer één of meerdere knopen waar u een publiek wilt tot stand brengen, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
 
    of
 
-   Selecteer een of meer pijlen tussen twee knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
+   Selecteer in een reiscanvasvisualisatie een of meer pijlen tussen twee knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
-1. Selecteer [!UICONTROL **tot publiek**] leiden.
+   >[!NOTE]
+   >
+   >Het publiek kan geen berekende metriek of om het even welke metriek omvatten die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn. Als u probeert om een publiek van om het even welk gebied van het canvas van de Reis tot stand te brengen dat berekende metrisch of metrisch bevat die op een summiere dataset gebaseerd is, zal berekende metrisch niet in de publieksdefinitie worden omvat.
 
-<!-- 1. Choose where you want to create the audience:
-
-        * [!UICONTROL **In Journey canvas**]
-
-        * [!UICONTROL **In a freeform table**]
-
--->
+1. Selecteer [!UICONTROL **tot publiek van knoop**] leiden of [!UICONTROL **tot publiek van pijl**].
 
 1. Ga verder creërend en het publiceren van het publiek zoals die in [ wordt beschreven creëren en publiceer publiek ](/help/components/audiences/publish.md).
 
@@ -495,11 +525,11 @@ De optie voor trendmatige ontwikkeling is beschikbaar voor de volgende objecten 
 
 De trendgegevens bekijken:
 
-1. Selecteer één of meerdere knopen waarvoor u trendgegevens wilt bekijken, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
+1. In een reis canvasvisualisatie, selecteer één of meerdere knopen waarvoor u trendgegevens wilt bekijken, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
 
    of
 
-   Selecteer een of meer pijlen tussen twee knooppunten waarvoor u trendgegevens wilt weergeven en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
+   In een reis canvasvisualisatie, selecteer één of meerdere pijlen tussen 2 knopen waarvoor u trendgegevens wilt bekijken, dan klik één van de geselecteerde pijlen met de rechtermuisknop aan.
 
 1. Selecteer [!UICONTROL **Trend**].
 
@@ -513,7 +543,7 @@ Als u een filter maakt op basis van een knooppunt met daarin meerdere paden, wor
 
 Een filter maken:
 
-1. Klik op het canvas met de rechtermuisknop op het knooppunt of de pijl die u wilt gebruiken om het filter te maken.
+1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op het knooppunt of de pijl dat u wilt gebruiken om het filter te maken.
 
 1. Selecteer [!UICONTROL **creeer filter van knoop**] of [!UICONTROL **creeer filter van pijl**].
 
@@ -529,7 +559,7 @@ U kunt een of meer knooppunten tegelijk binnen een reis verwijderen. Wanneer u e
 
 Om knopen in het canvas van de Reis te schrappen:
 
-1. Selecteer een of meer knooppunten die u wilt verwijderen en klik met de rechtermuisknop op een van de geselecteerde knooppunten.
+1. In een reis canvasvisualisatie, selecteer één of meerdere knopen die u wilt schrappen, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
 
 1. Selecteer [!UICONTROL **Schrapping**].
 
@@ -539,48 +569,14 @@ U kunt een of meer pijlen tegelijk binnen een rit verwijderen. Wanneer u een pij
 
 Als u pijlen wilt verwijderen tussen knooppunten in het canvas Reis:
 
-1. Selecteer een of meer pijlen tussen twee knooppunten die u wilt verwijderen en klik met de rechtermuisknop op een van de geselecteerde pijlen.
+1. Selecteer in een reiscanvasvisualisatie een of meer pijlen tussen twee knooppunten die u wilt verwijderen en klik met de rechtermuisknop op een van de geselecteerde pijlen.
 
 1. Selecteer [!UICONTROL **Schrapping**].
 
-
-<!-- Delete this after I decide I don't want to do it this way. Will probably use sections like I hav above.
-
-### Manage existing nodes
-
-1. In Analysis Workspace, open an existing Journey canvas visualization, or [begin building a new one](#begin-building-a-journey-canvas-visualization).
-
-1. Right-click an **individual node** on the canvas, then select any of the following options:
-   
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Create segment**] | B1 |
-   | [!UICONTROL **Publish audience**] | B2 |
-   | [!UICONTROL **Trend**] | B3 | 
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Get top next ...**] | B2 |
-   | [!UICONTROL **Change color**] | B2 |
-   | [!UICONTROL **Rename**] | B2 |
-   | [!UICONTROL **Delete**] | B2 |
-
-1. Select **multiple nodes** on the canvas, right-click one of the selected nodes, then select any of the following options:
-
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Combine**] | B1 |
-   | [!UICONTROL **Delete**] | B2 |
-   | [!UICONTROL **Duplicate**] | B3 | 
-   | [!UICONTROL **Trend**] | B2 |
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Create segment**] | B2 |
-   | [!UICONTROL **Publish audience**] | B2 |
-
-   -->
-
-
 ## Een reis openen vanuit Journey Optimizer
 
+Als u een reis weergeeft in Journey Optimizer, kunt u deze weergeven op het canvas Journey.
 
-Open in Journey Optimizer de reis die u wilt analyseren in Journey canvas.
+1. Open in Journey Optimizer de reis die u wilt analyseren in Journey canvas.
 
 1. Selecteer [!UICONTROL **Analyseren in CJA**]. <!-- ?? -->

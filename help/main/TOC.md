@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 0e627d536682f62b499f7f6d477c1d906de13f24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1054'
 ht-degree: 9%
 
 ---
@@ -148,6 +148,10 @@ ht-degree: 9%
          + [Overzicht van stroom](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Een stroom configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + Reiscanvas {#journey-canvas}
+         + [Overzicht van het reiscanvas](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [De visualisatie van het canvas voor een reis configureren](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [Problemen met reiscanvas oplossen](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Gebied (gestapeld)](../analysis-workspace/visualizations/area.md)
       + [Staaf (gestapeld)](../analysis-workspace/visualizations/bar.md)
       + [Opsommingsteken](../analysis-workspace/visualizations/bullet-graph.md)

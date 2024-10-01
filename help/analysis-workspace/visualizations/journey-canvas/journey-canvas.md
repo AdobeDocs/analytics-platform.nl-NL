@@ -3,12 +3,10 @@ description: Overzicht van het reiscanvas
 title: Reiscanvas
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ De belangrijkste kenmerken van de visualisatie van het canvas Journey zijn:
 
 ## Potentiële inzichten
 
-Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas kan helpen bieden. U kunt kiezen of deze inzichten van alle mensen in de gegevensweergave zijn gebaseerd of op alle mensen die de reis begonnen.
+Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas kan helpen bieden. U kunt kiezen of deze inzichten gebaseerd zijn op alle mensen in de gegevensweergave, op alle mensen die de reis begonnen, of op alle mensen uit het vorige knooppunt van de reis.
 
 **Fallthrough**
 
@@ -47,7 +45,7 @@ Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas ka
 
 **Uitval**
 
-* De punten (knooppunten) van de reis waar mensen meestal uit de reis zijn gevallen
+* De punten (knooppunten) van de reis waar mensen meestal uit de reis zijn gevallen (nooit bij een van de volgende knooppunten op het moment aangekomen)
 
 **Andere**
 
