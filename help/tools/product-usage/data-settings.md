@@ -3,7 +3,7 @@ title: Gegevensinstellingen voor productgebruik
 description: Instellingen voor productgebruik inschakelen, uitschakelen of configureren.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Gegevensinstellingen voor productgebruik {#product-usage-data-settings}
+
+{{release-limited-testing}}
 
 De _montages van Gegevens_ pagina behandelt uw configuratie van het productgebruik. U kunt deze pagina gebruiken om productgebruik voor uw organisatie in of uit te schakelen. U kunt ook configureren onder welke Adobe Experience Platform-sandbox de gegevensset wordt gemaakt en desgewenst het venster voor gegevensbehoud negeren. Het is alleen zichtbaar voor productbeheerders.
 

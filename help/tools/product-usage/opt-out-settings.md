@@ -3,16 +3,18 @@ title: Optie voor het gebruik van producten
 description: De instellingen voor Weigeren beheren voor individuele gebruikers binnen uw organisatie.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # Optie voor het gebruik van producten {#product-usage-opt-out-settings}
 
-De _Opt-uit montages_ pagina staat u toe om gebruikers binnen uw organisatie van het productgebruik uit te sluiten of opnieuw te omvatten volgen.
+{{release-limited-testing}}
+
+De _Opt-uit montages_ pagina staat u toe om gebruikers binnen uw organisatie van het productgebruik uit te sluiten of opnieuw te omvatten volgen. Het is alleen zichtbaar voor productbeheerders.
 
 **Customer Journey Analytics** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]** > **[!UICONTROL Opt-out settings]**
 

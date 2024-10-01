@@ -3,7 +3,7 @@ title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Overzicht van productgebruik
+
+{{release-limited-testing}}
 
 Het gebruik van producten biedt uw organisatie de mogelijkheid om analysegegevens te bekijken over hoe uw organisatie Customer Journey Analytics gebruikt. Het is beschikbaar voor alle organisaties die Customer Journey Analytics gebruiken. Als deze optie is ingeschakeld, worden de volgende Adobe Experience Platform-componenten automatisch gemaakt en geactiveerd:
 
