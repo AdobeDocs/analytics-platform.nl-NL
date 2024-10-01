@@ -1,110 +1,121 @@
 ---
 description: Waarschuwingen maken, bewerken of verwijderen.
-title: Waarschuwingsbeheer (Analysis Workspace)
+title: Aletten beheren
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Waarschuwingen beheren
 
-U kunt bestaande waarschuwingen beheren in het venster Waarschuwingen. U kunt verschillende beheertaken uitvoeren voor waarschuwingen, zoals labelen, hernoemen, verwijderen en meer.
+
+U kunt waarschuwingen filteren, labelen, verwijderen, hernoemen, kopiëren, inschakelen, vernieuwen uitschakelen en exporteren vanuit een centrale beheerinterface van [!UICONTROL Alerts] . Waarschuwingen beheren:
+
+* Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Alerts]** .
 
 De manager van het Alarm is zeer gestructureerd zoals de [ manager van de Filter ](/help/components/filters/manage-filters.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
-## Waarschuwingen maken
 
-Waarschuwingen maken via het Alarmbeheer:
+## Waarschuwingenbeheer
 
-1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Alerts]** om het Waarschuwingenbeheer in Customer Journey Analytics te openen.
+De manager van Alarm heeft de volgende interfaceelementen:
 
-   ![](assets/alert-manager.png)
+![ de interface van Filters ](assets/alerts-manager.png)
 
-1. Selecteer [!UICONTROL **toevoegen**] (of [!UICONTROL **creëren nieuw alarm**] als u geen bestaand alarm hebt).
+### Waarschuwingenlijst
 
-1. Ga met [ voort creeer alarm ](/help/components/c-intelligent-alerts/alert-builder.md) voor meer details over het creëren van alarm.
+In de lijst met waarschuwingen ➊ alle waarschuwingen worden weergegeven die u hebt, de waarschuwingen die binnen het bereik van al uw projecten vallen en de waarschuwingen die met u zijn gedeeld. De lijst heeft de volgende kolommen:
 
-## Bestaande waarschuwingen beheren
+| Kolom | Beschrijving |
+|---|---|
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een alarm te begunstigen. |
+| **[!UICONTROL Title and description]** | Om het alarm uit te geven, selecteer de titelverbinding, die de [ bouwer van Alarm ](alert-builder.md#alert-builder) opent. |
+| **[!UICONTROL Type]** | Toont of het alarm een alarm van het de vraaggebruik van de Customer Journey Analytics of een alarm van het de vraaggebruik van de Server is. |
+| **[!UICONTROL Enabled]** | Geeft aan of de waarschuwing is in- of uitgeschakeld. |
+| **[!UICONTROL Data view]** | De gegevensweergaven waarop deze waarschuwing van toepassing is. |
+| **[!UICONTROL Owner]** | De eigenaar van de waarschuwing. Als niet-beheerder, ziet u slechts alarm u bezit of die die met u worden gedeeld. |
+| **[!UICONTROL Tags]** | De tags voor deze waarschuwing. |
+| **[!UICONTROL Expiration Date]** | De datum en tijd waarop de waarschuwing is ingesteld op verlopen. |
+| **[!UICONTROL Date modified]** | De datum en het tijdstip waarop de waarschuwing voor het laatst is gewijzigd. |
 
-Bestaande waarschuwingen beheren in het Waarschuwingenbeheer:
+<!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
 
-1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Alerts]** om het Waarschuwingenbeheer in Customer Journey Analytics te openen.
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specificeren welke kolommen u wilt tonen.
 
-   ![](assets/alert-manager.png)
+### Actiebalk
 
-1. Selecteer een of meer waarschuwingen die u wilt beheren.
+U kunt actie ondernemen bij waarschuwingen met behulp van de ➋. De actiebalk bevat de volgende handelingen:
 
-   ![](assets/alert-manager-tasks.png)
+| Handeling | Beschrijving |
+|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een ander alarm toe, gebruikend de [ Waakzame bouwer ](alert-builder.md#alert-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen waarschuwing in de lijst is geselecteerd, zoekt u naar waarschuwingen met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde waarschuwingen. Selecteer in het dialoogvenster **[!UICONTROL Tag Alert]** de tags voor de geselecteerde waarschuwingen of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde waarschuwingen op te slaan. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde waarschuwingen. U wordt gevraagd om een bevestiging. |
+| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde waarschuwing. Als deze optie is geselecteerd, kunt u de naam van de waarschuwing inline wijzigen. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde waarschuwing. Nieuwe waarschuwingen worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Enable]** of **[!UICONTROL Disable]** | Schakel de geselecteerde waarschuwingen in of uit. |
+| ![ verfrissen zich ](/help/assets/icons/Refresh.svg) **[!UICONTROL Renew]** | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. De vervaldatum is 1 jaar vanaf de dag waarop u deze optie selecteert, ongeacht de oorspronkelijke vervaldatum. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Exporteer de waarschuwingen naar een `Alerts List.csv` -bestand. |
 
-1. Selecteer een van de volgende opties op de actiebalk:
 
-   | Handeling | Functie |
-   |---------|----------|
-   | [!UICONTROL **Markering**] | Pas een tag toe op een waarschuwing. Hierdoor kunt u waarschuwingen ordenen voor gebruiksgemak. |
-   | [!UICONTROL **Schrapping**] | Hiermee verwijdert u de waarschuwing. |
-   | [!UICONTROL **anders noemen**] | Wijzigt de naam van de waarschuwing. |
-   | [!UICONTROL **goedkeuren**] | Markeer de waarschuwing als Goedgekeurd. |
-   | [!UICONTROL **Exemplaar**] | Hiermee maakt u een kopie (kopie) van de waarschuwing. |
-   | [!UICONTROL **onbruikbaar maken**] | Hiermee wordt een waarschuwing uitgeschakeld die momenteel is ingeschakeld. |
-   | [!UICONTROL **laat toe**] | Hiermee wordt een waarschuwing ingeschakeld die momenteel is uitgeschakeld. |
-   | [!UICONTROL **Vernieuwen**] | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. Hiermee wordt de vervaldatum verlengd tot 1 jaar vanaf de dag waarop u deze optie hebt geselecteerd, ongeacht de oorspronkelijke vervaldatum. |
-   | [!UICONTROL **Uitvoer aan CSV**] | Exporteert de waarschuwing naar een CSV-bestand. |
+### Actieve filterbalk
 
-## Een waarschuwing bewerken
+De filterbalk ➌ de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met waarschuwingen (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
-Een bestaande waarschuwing bewerken:
 
-1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Alerts]** om Alerts Manager in Adobe Analytics te openen.
+### Deelvenster Filter
 
-   ![](assets/alert-manager.png)
+U kunt de lijst van alarm filtreren gebruikend de ![ linker paneel➍ van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
 
-1. Selecteer de waakzame naam in de [!UICONTROL **Titel en beschrijvings**] kolom.
+{{filterspanel}}
 
-1. Bewerk de waarschuwing naar wens.
 
-   Hier volgen enkele voorbeelden van wat u kunt doen wanneer u een waarschuwing bewerkt:
+#### Sectie Labels, filter
 
-   * Waarschuwingen toevoegen aan andere rapportsuites
-   * De eigenaar wijzigen
-   * Filters bijwerken
-   * De vervaldatum bijwerken
+{{tagfiltersection}}
 
-1. Bewerk het alarm, dan uitgezocht [!UICONTROL **sparen**].
 
-## Kolommen configureren
+#### Sectie Gegevensweergavefilter
 
-U kunt de informatie vormen die voor elke alarm in de manager van het Alarm wordt getoond door de kolommen te vormen die worden getoond.
+{{dataviewfiltersection}}
 
-De zichtbare kolommen configureren in het Alarmbeheer:
 
-1. Selecteer in Adobe Analytics de tab **[!UICONTROL Components]** en selecteer vervolgens **[!UICONTROL Alerts]** .
+#### Sectie eigenaarfilter
 
-1. In de Waakzame manager, selecteer **kolommen** pictogram ![ aanpassen kolommen pictogram ](assets/customize-columns-icon.png), dan selecteer de kolommen die u in de manager van het Alarm wilt worden getoond.
+{{ownerfiltersection}}
 
-   De volgende kolommen zijn beschikbaar:
 
-   | Kolomtitel | Beschrijving |
-   |---|---|
-   | Titel en beschrijving | Deze waarden worden opgegeven in de Alert Builder. Als u de titel en beschrijving wilt bewerken, selecteert u de titelkoppeling om de waarschuwingsconstructor te openen. |
-   | Favorieten | Hiermee geeft u sterpictogrammen weer naast elke waarschuwing, zodat u waarschuwingen als favorieten kunt markeren. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Type | Toont of het alarm een de gegevensalarm van de Analyse of een alarm van het de vraaggebruik van de Server is. |
-   | Ingeschakeld | Hiermee wordt getoond of de waarschuwing is ingeschakeld of uitgeschakeld. |
-   | Rapportsuite | Geeft aan in welke rapportsuite de waarschuwing het laatst is opgeslagen. |
-   | Eigenaar | Hiermee wordt aangegeven wie de eigenaar van de waarschuwing is. Als niet-beheerder, kunt u slechts alarm zien u bezit of die met u werden gedeeld. |
-   | Tags | Hier ziet u tags die zijn toegepast op de waarschuwing, door u of door personen die de waarschuwing met u hebben gedeeld. |
-   | Vervaldatum | Geeft de datum en tijd weer waarop de waarschuwing is ingesteld op verlopen. |
-   | Datum gewijzigd | Geeft de datum aan waarop de waarschuwing voor het laatst is gewijzigd. |
+#### Ingeschakelde sectie voor statusfilter
 
-   {style="table-layout:auto"}
+{{enabledstatusfiltersection}}
 
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+#### Sectie Type filter
+
+{{typefiltersection}}
+
+
+#### Sectie Overige filters
+
+{{otherfiltersfiltersection}}
+
+
+
+## Waarschuwingen bewerken
+
+U kunt een waarschuwing bewerken
+
+* Selecteer in de [[!UICONTROL Alert] lijst ](#alerts-list) de titel van de waarschuwing.
+
+U gebruikt de [ Waakzame bouwer ](alert-builder.md#alert-builder) om het alarm uit te geven.
 
 ## Een waarschuwing oplossen
 
-Wanneer u een probleem met een waarschuwing oplost, geeft u het JID-nummer (Job Instance ID) op aan de ondersteuning van Adoben. Het JID-nummer bevindt zich onder aan het e-mailbericht dat u hebt ontvangen.
+Wanneer u een probleem met een waarschuwing oplost, geeft u het JID-nummer (Job Instance ID) op aan de ondersteuning van Adoben. Het JID-nummer bevindt zich onder aan het e-mailbericht dat u ontvangt.
 
 ![ Alert e-mail ](assets/alerts-email.PNG)

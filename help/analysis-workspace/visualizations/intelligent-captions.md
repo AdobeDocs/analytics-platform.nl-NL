@@ -1,12 +1,12 @@
 ---
-description: Gebruik intelligente bijschriften om inzichten in de natuurlijke taal te genereren en trends snel binnen de visualisaties te laten overkomen.
+description: Gebruik intelligente bijschriften om inzichten in de natuurlijke taal te genereren voor oppervlaktetrends binnen visualisaties.
 title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
+source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Intelligente bijschriften zijn gericht op:
 
 ## Intelligente bijschriften starten {#launch}
 
-Als u automatisch gegenereerde bijschriften wilt starten voor lijnvisualisatie, klikt u op het pictogram **[!UICONTROL Intelligent captions]** rechtsboven in de visualisatie.
+Om auto-geproduceerde titels voor een lijnvisualisatie te lanceren, selecteer ![ AEMScreen ](/help/assets/icons/AI.svg) **[!UICONTROL Intelligent captions]** bij het hoogste recht van de visualisatie.
 
 ![ het venster van de Analyse van de Lancering die de Intelligente titels voor de Trend van de Kijken van het Product toont. ](assets/intell-caps-1.png)
 
 Inzichten in natuurlijke talen worden nu gegenereerd.
 
-Houd rekening met het volgende:
+Houd er rekening mee dat:
 
 * U hebt minimaal drie gegevenspunten nodig om bijschriften te kunnen genereren. Anders krijgt u mogelijk een fout zoals **[!UICONTROL Not enough data to analyze]** .
 

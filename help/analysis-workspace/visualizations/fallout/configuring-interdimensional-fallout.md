@@ -1,30 +1,30 @@
 ---
-description: Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
+description: Met de functie voor uitvallen in Analysis Workspace kunt u dimensies en metriek combineren en combineren als aanraakpunten in trechters en workflows. Met valouts hebt u meer flexibiliteit bij het definiëren van de gebruikersstappen die u wilt onderzoeken.
 title: Interdimensionale uitval
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 37158b4e614435724205c505f322c1d7a434c35d
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Interdimensionale uitval
 
-Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
+Met de functie voor uitvallen in Analysis Workspace kunt u dimensies en metriek combineren en combineren als aanraakpunten in trechters en workflows. Met valouts hebt u meer flexibiliteit bij het definiëren van de gebruikersstappen die u wilt onderzoeken.
 
-Naast een pagina-dimensie kunt u bijvoorbeeld op actie gebaseerde dimensie-items toevoegen aan een uitvalweergave. Zo kunt u visualiseren hoe pagina&#39;s en bepaalde acties op elkaar inwerken in de paden van klanten.
+Naast een pagina-dimensie kunt u bijvoorbeeld andere dimensie-items toevoegen (zoals een specifieke apparaatnaam van de dimensie Apparaatnaam) aan een uitvalweergave. Door dimensies te combineren kunt u visualiseren hoe pagina&#39;s en bepaalde handelingen elkaar beïnvloeden in de paden van klanten.
 
-![In de weergave Alle bezoeken worden meerdere afmetingen weergegeven als aanraakpunten.](assets/interdimensional-fallout1.png)
+![ Al mening die van Bebezoeken veelvoudige afmetingen als touchpoints toont.](assets/fallout-otherdimension.png)
 
 De fallout wordt dynamisch bijgewerkt en zorgt ervoor dat u fallout in meerdere dimensies ziet.
 
-U kunt metriek aan deze mengeling ook toevoegen. In dit voorbeeld hebben we de metrische &#39;Gedeelde foto&#39; toegevoegd om het pad te verfijnen dat klanten hebben gekozen:
+U kunt ook metriek toevoegen. Bijvoorbeeld, kunt u de metrische Vraag toevoegen om slechts wegen voor gebruikers te tonen waarvoor de vraag bestaat en het vraagcentrum gecontacteerd heeft:
 
-![In de weergave Alle bezoeken wordt de toegevoegde metrische waarde getoond: &quot;Gedeelde foto&quot;.](assets/interdimensional-fallout2.png)
+![ Al mening die van Bezoeken metrisch toont toegevoegd: &quot;Gedeelde Foto&quot;.](assets/fallout-metrics.png)
 
-Bovendien kunt u verschillende afmetingen en metriek in EN controlepunten combineren. Sleep gewoon een andere dimensie of metrische waarde boven op een bestaande dimensie:
+U kunt afmetingen en metriek combineren. Sleep een andere afmeting of metrisch over een bestaande afmeting. Bijvoorbeeld, om de reserve van mensen te begrijpen die een iPhone hebben en het callcenter hebben gecontacteerd.
 
-![De weergave Alle bezoeken met de toegevoegde naam van de handeling: Gedeelde en Gedeelde foto.](assets/interdimensional-fallout3.png)
+![ Al mening die van Bebezoeken de toegevoegde Naam van de Actie toont: Gedeelde EN Gedeelde metrische Foto.](assets/fallout-combined.png)

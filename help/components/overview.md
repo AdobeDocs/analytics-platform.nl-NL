@@ -5,140 +5,131 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 5%
+source-wordcount: '908'
+ht-degree: 2%
 
 ---
 
 # Overzicht van componenten
 
-Componenten zijn functies in de Customer Journey Analytics die kunnen worden gebruikt in rapporten of als aanvulling op rapportagefuncties. U kunt deze componenten als volgt beheren:
+Componenten zijn functies in de Customer Journey Analytics die kunnen worden gebruikt in visualisaties (zoals een tabel in Freeform) of als aanvulling op rapportagefuncties.
 
-1. Aanmelden bij [analytics.adobe.com](https://analytics.adobe.com) je Adobe ID-gebruikersgegevens gebruiken.
-2. Navigeren naar [!UICONTROL Components] > [!UICONTROL Components] in het koptekstmenu.
+Om componenten van de belangrijkste interface van de Customer Journey Analytics te beheren:
+
+1. Selecteer **[!UICONTROL Components]** in de bovenste balk.
+1. Selecteer **[!UICONTROL Components]** om een overzicht te zien van de componenten die u kunt beheren of selecteer rechtstreeks de component die u wilt beheren in het menu.
 
 U kunt de volgende componenten beheren:
 
-* [**Annotaties**](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
-* [**Soorten publiek**](/help/components/audiences/audiences-overview.md): Maak en publiceer publiek dat wordt ontdekt in Customer Journey Analytics aan [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) (RTCDP) in Adobe Experience Platform voor klantgerichtheid en personalisatie.
-* [**Filters**](filters/filters-overview.md): Ontwerp, beheer, deel en pas krachtige, doelgerichte publieksfilters toe op uw rapporten. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
-* [**Berekende cijfers**](calc-metrics/calc-metr-overview.md): Metriek en formules gebruiken als nieuwe componenten voor rapportage
-* [**Gegevenswoordenboek**](/help/components/data-dictionary/data-dictionary-overview.md): Hiermee kunnen gebruikers en beheerders de componenten in hun analyseomgeving bijhouden en beter begrijpen.
-* [**Datumbereiken**](date-ranges/create.md): Pas de datumbereiken aan die Analysis Workspace aanbiedt en verfijn deze.
-* [**Dimensionen**](/help/components/dimensions/view-dimensions.md): Dimensionen zijn variabelen die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn onder andere het domein Pagina en Verwijzen.
-* [**Metrisch**](/help/components/apply-create-metrics.md): Hiermee kunt u gegevenspunten kwantificeren in Analysis Workspace.
-* [**Projecten**](/help/analysis-workspace/home.md): Organiseer en onderhoud uw projecten in Analysis Workspace.
+* [ Filters ](filters/filters-overview.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publieksfilters op uw rapporten toe. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
+* [ Berekende metriek ](calc-metrics/calc-metr-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in het melden
+* [ waaiers van de Datum ](date-ranges/create.md): Pas en verfijn de aanbiedingen van de datumwaaiers Analysis Workspace aan.
+* [ Annotaties ](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
+* [ Intelligente alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
+* [ Geplande projecten ](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): Beheer uw geplande projecten.
+* [ Voorkeur ](/help/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
+* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
+* [ voert ](/help/components/exports/manage-export-locations.md) uit: beheer uw de uitvoerrekening en plaatsen.
+
 
 ## Analysis Workspace-componenten
 
-Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en tijdkorreligheid die u naar een project kunt slepen en neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals aangepaste datumbereiken.
+Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en datumbereiken die u kunt slepen en neerzetten op deelvensters en visualisaties in uw Workspace-project. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals een berekende metrische waarde of een aangepast datumbereik.
 
-Als u het deelvenster Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen deelvensters (leeg deelvenster, [Deelvenster Vrije vorm](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md), of [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) paneel), [Visualisaties](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en Componenten die de pictogrammen van de linkerspoorstaaf of het gebruik van [sneltoetsen](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Om tot het paneel van Componenten toegang te hebben, selecteer ![ Kromme ](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** in het knooppaneel.
 
-![Deelvenster Werkruimte met markering van het pictogram Componenten in het linkerspoor](assets/components.png)
+![ het paneel van Workspace die het pictogram van Componenten in linker-spoorstaaf benadrukt ](assets/components.png)
 
-Zie [Een project maken](/help/analysis-workspace/home.md) voor informatie over het gebruiken van Componenten in een project.
+Zie [ tot een project ](/help/analysis-workspace/home.md) voor informatie over hoe te om componenten in een project te gebruiken.
 
-## Componenthandelingen
 
-U kunt componenten (afzonderlijk of door meer dan één te selecteren) op verschillende manieren beheren. Klik met de rechtermuisknop op een component of klik op **[!UICONTROL Actions]** boven aan de lijst met componenten.
-
->[!NOTE]
->
->Deze handelingen zijn niet van toepassing op tijdcomponenten.
-
-| Component Handeling | Beschrijving |
-| --- | --- |
-| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters], of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Favorieten | Voeg de component toe aan de lijst met favorieten. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters], of [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
-| Goedkeuren | Keur de component goed om deze canonicaal te maken. Het verschijnt dan in de respectieve componentenmanager, zoals [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters], of  [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Delen | Alleen van toepassing op filters. |
-| Verwijderen | Alleen van toepassing op filters. |
-
-Bekijk de video over het maken van statistieken, filters en datums:
++++ Bekijk een video waarin de mogelijkheden van componenten worden getoond:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
 
++++
+
 ## Componenten beheren {#actions}
 
-U kunt componenten rechtstreeks in de linkerspoorstaaf beheren.
+U kunt snel een nieuwe component maken met het menu **[!UICONTROL Components]** in Analysis Workspace. Zie het [ menu van Analysis Workspace ](/help/analysis-workspace/home.md#menu) voor meer details.
 
-1. Klik met de rechtermuisknop op een component.
+U kunt componenten beheren (afzonderlijk of door meerdere componenten te selecteren).
 
-   of
+1. Selecteer een of meer componenten.
 
-   Selecteer een component en selecteer vervolgens de **Handeling** (3 punten) boven aan de lijst met componenten.
+1. Van het contextmenu, of van de ![ MeerVerticale ](/help/assets/icons/MoreVertical.svg) knoop van de Acties van de Component (bij de bovenkant van Componenten), selecteer één van de volgende acties.
+
 
    >[!TIP]
    >
-   >   U kunt meerdere componenten selecteren door Shift ingedrukt te houden of door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
+   >U kunt meerdere componenten selecteren door **[!UICONTROL Shift]** ingedrukt te houden of door **[!UICONTROL Command]** (in macOS) of **[!UICONTROL Ctrl]** (in Windows) ingedrukt te houden.
 
 
-   ![Lijst met componenthandelingen met daarin de tags Favoriet, Favoriet, Goedkeuren, Delen en Verwijderen.](assets/component-actions.png)
+   ![ lijst van de Acties van de Component die markering, Favoriet tonen, goedkeuren, Delen, en Schrapping.](assets/component-menu.gif){width=100%}
 
    | Component, actie | Beschrijving |
    |--- |--- |
-   | [!UICONTROL **Tag**] | U kunt componenten ordenen of beheren door er tags op toe te passen. U kunt vervolgens zoeken op tag in de linkertrack door op het filter te klikken of # te typen. Tags fungeren ook als filters in de componentmanagers. |
-   | [!UICONTROL **Favoriet**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerspoor en deze filteren in de componentmanagers. |
-   | [!UICONTROL **Goedkeuren**] | Markeer componenten zoals Goedgekeurd om aan uw gebruikers te laten weten dat de component door de organisatie is goedgekeurd. Net als tags kunt u zoeken op Goedgekeurd in de linkertrack en door hen filteren in de componentmanagers. |
-   | [!UICONTROL **Delen**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
-   | [!UICONTROL **Verwijderen**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
+   | ![ Etiket ](/help/assets/icons/Label.svg) [!UICONTROL **Markering**] | U kunt componenten ordenen of beheren door er tags op toe te passen. U kunt dan door markering in het linkerpaneel zoeken door de ![ filter van de Filter ](/help/assets/icons/Filter.svg) of het typen `#` te selecteren. Tags fungeren ook als filters in de componentmanagers. |
+   | ![ Ster ](/help/assets/icons/Star.svg) [!UICONTROL **Favoriet**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerdeelvenster en door hen filteren in de componentmanagers. |
+   | ![ StarOutline ](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Verwijder de component uit de lijst met favorieten. |
+   | ![ Vinkje ](/help/assets/icons/Checkmark.svg) [!UICONTROL **goedkeuren**] | Markeer componenten zoals Goedgekeurd om aan uw gebruikers te laten weten dat de component door de organisatie is goedgekeurd. Net als tags kunt u zoeken en filteren op Goedgekeurd in het linkerdeelvenster. A ![ Vinkje ](/help/assets/icons/Checkmark.svg) identificeert goedgekeurde componenten. |
+   | ![ Aandeel ](/help/assets/icons/Share.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
+   | ![ Schrapping ](/help/assets/icons/Delete.svg) [!UICONTROL **Schrapping**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
 
-De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld de [Filters beheren](/help/components/filters/manage-filters.md).
+De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ filters ](/help/components/filters/manage-filters.md) leiden.
 
-## De componentenlijst zoeken, filteren en sorteren
+## De componentenlijst beheren
 
-U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van Analysis Workspace om van een bepaalde component snel de plaats te bepalen.
+U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace zoeken, filteren en sorteren om een bepaalde component te zoeken.
 
-### De componentenlijst doorzoeken
+### Zoeken
 
-1. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+1. Selecteer **het pictogram van Componenten** ![ Componenten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimensionen** ![Pictogram Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe, pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Een kleur en pictogram geven het type component aan. **Dimensionen** ![ pictogram van het Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje, **het pictogram van de Filters** ![ van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw, **waaiers van de Datum** ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de 10} Datum is paars, en **Metriek** ![ metrisch pictogram 15} is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van de Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een filtermalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
-3. Selecteer de component wanneer deze in de vervolgkeuzelijst wordt weergegeven.
+3. Selecteer de component in de vervolgkeuzelijst.
 
-### De componentlijst filteren
+### Filter
 
-1. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer de **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
-
-   of
-
-   Typ het hekje (#) in het zoekveld.
+2. Selecteer **![ het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter**, of ga `#` op het onderzoeksgebied in.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
-   | Optie | Functie |
-   |---------|----------|
-   | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
-   | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Componenten beheren](#manage-components). |
-   | [!UICONTROL **Dimensies**] | Alleen componenten weergeven die Dimensionen zijn. |
-   | [!UICONTROL **Cijfers**] | Alleen componenten weergeven die Metrisch zijn. |
-   | [!UICONTROL **Filters**] | Alleen componenten weergeven die filters zijn. |
-   | [!UICONTROL **Datumbereiken**] | Alleen componenten tonen die Datumbereik hebben. |
-   | [!UICONTROL **Alles tonen**] | Alle componenten tonen. Deze optie is alleen beschikbaar voor beheerders. |
-   | [!UICONTROL **Niet goedgekeurd**] | Alleen componenten tonen die nog niet zijn gemarkeerd als goedgekeurd door een beheerder. Als beheerder, is dit nuttig wanneer het identificeren van componenten die uw overzicht en goedkeuring vereisen. Deze optie is alleen beschikbaar voor beheerders. |
+   | Pictogram | Filter, optie | Beschrijving |
+   |---------|---|----------|
+   | ![ Vinkje ](/help/assets/icons/Checkmark.svg) | **[!UICONTROL Approved]** | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
+   | ![ Ster ](/help/assets/icons/Star.svg) | **[!UICONTROL Favorites]** | Alleen componenten tonen die zich in de lijst Favorieten bevinden. <br/> voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [ componenten ](#manage-components) leiden. |
+   | ![Dimensies](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Alleen componenten weergeven die Dimensionen zijn. |
+   | ![ Gebeurtenis ](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Alleen componenten weergeven die Metrisch zijn. |
+   | ![Segmentering](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Filters]** | Alleen componenten weergeven die filters zijn. |
+   | ![ Kalender ](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Alleen componenten tonen die Datumbereiken zijn. |
+   | ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL *naam van de Markering *]** | Alleen componenten met de specifieke geselecteerde labels weergeven. Een specifieke markering is beschikbaar voor het Malplaatje van de Adobe die [ gebrek berekende metriek ](/help/components/calc-metrics/default-calcmetrics.md) van Adobe zijn. |
 
-4. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
+   Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) in een filter om de filter te verwijderen.
 
-### De componentlijst sorteren
+4. U kunt naar keuze de componentenlijst sorteren, zoals die in [ wordt beschreven Soort de componentenlijst ](#sort-the-component-list).
 
-{{release-limited-testing-section}}
+### Sorteren
 
-1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
+<!-- {{release-limited-testing-section}}-->
 
-2. Selecteer de **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
+1. (Facultatief) pas om het even welke filters op de componentenlijst toe, zoals die in [ wordt beschreven Filter de componentenlijst ](#filter-the-component-list).
 
-3. Selecteer de **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+2. Selecteer **het pictogram van Componenten** ![ Componenten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-   {{components-sort-options}}
+3. Selecteer **![ de componentenpictogram van de Soort van de Soort** ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
 
-## Machtigingen voor componenttoegang
+De volgende sorteeropties zijn beschikbaar:
 
-In Analysis Workspace kunnen beheerders [krullen](/help/analysis-workspace/curate-share/curate.md) welke componenten bij de rapportage aan gebruikers worden blootgesteld.
+{{components-sort-options}}
+
+## Toegangsmachtigingen
+
+In Analysis Workspace, kunnen de beheerders [ ](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.

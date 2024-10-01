@@ -1,53 +1,50 @@
 ---
-description: Leer hoe u projecten uit mappen kunt verwijderen
+description: Leer hoe u de naam van projecten in mappen wijzigt
 keywords: Analysis Workspace
 title: Projecten uit mappen verwijderen
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
-# Een project verwijderen uit een map
+# Projecten verwijderen
 
-Als u een project uit een map wilt verwijderen, kunt u het project naar een andere locatie verplaatsen of het project verwijderen.
+<!-- Is this article still needed -->
 
->[!NOTE]
->
->Wanneer Admin een project naar de Omslag van het Bedrijf verplaatst, wordt de omslag gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt. Wanneer Admin een project uit de Omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.
 
 ## Een project verplaatsen {#move-project-in-folder}
 
 U kunt projecten van één omslag naar een andere omslag verplaatsen die u creeerde.
 
-1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
+1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
 
-   ![De opties voor ovaal.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![ de ellipsieopties.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Selecteren **Verplaatsen naar** en selecteer vervolgens een map waarnaar u het project wilt verplaatsen.
+1. Selecteer **Beweging aan** en selecteer dan een omslag om het project te bewegen naar.
 
-   ![Het venster Locatie selecteren.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![ het Uitgezochte venster van de Plaats.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. Klikken **Verplaatsen**.
+1. Klik **Beweging**.
 
-   ![Klik op Verplaatsen.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![ klik Beweging.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    Een toast bevestigt dat het project werd verplaatst.
 
-   ![De bewegingsbevestiging. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![ de bewegingsbevestiging toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## Een project verwijderen uit een projectmap {#delete-project-in-folder}
 
 Wanneer u een project uit een map verwijdert, wordt het na 180 dagen uit het systeem gewist. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij directe URL aan het project hebben.
 
-1. Van binnen een projectomslag, selecteer **...** ellipse naast de projectnaam.
+1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
 
-   ![De opties voor ovaal.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![ de ellipsieopties.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Selecteren **Verwijderen**.
+1. Selecteer **Schrapping**.
 
 1. In een bevestigingsvenster wordt u gevraagd de verwijdering te bevestigen.

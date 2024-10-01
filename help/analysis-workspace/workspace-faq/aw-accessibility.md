@@ -4,103 +4,74 @@ title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 # Toegankelijkheid in Analysis Workspace
 
-Meer informatie over toegankelijkheidsondersteuning in [!UICONTROL Analysis Workspace], het belangrijkste analysehulpmiddel voor Customer Journey Analytics.
+Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace] , het belangrijkste analyseprogramma voor Customer Journey Analytics.
 
-Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
+Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn:
+
+* ondersteuning voor schermlezers,
+* tekstequivalenten voor afbeeldingen,
+* sneltoetsen,
+* verandering van de weergavekleuren in hoog contrast,
+* en meer.
 
 [!UICONTROL Analysis Workspace] bevat enkele gereedschappen die het programma toegankelijk maken voor gebruik, zoals:
 
-## Navigeren [!UICONTROL Workspace] met het toetsenbord
+## Toetsenbordnavigatie
 
-Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
+Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
-* De `Tab` Met de sleutel kunt u zoeken naar sneltoetsen voor landmarkeringen, waarbij u kunt schakelen tussen grotere secties in Workspace. In de linkerspoorstaaf: `Tab` Hiermee kunt u ook van de ene sleepbare optie naar de andere gaan.
-* De `left/right arrows` verplaatsen tussen afzonderlijke elementen na `Tab` heeft dit benadrukt.
-* De `F6` navigeert naar het eerste deelvenster in het project en beweegt zich tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
-* We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
+* Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
+* De ◀︎ en ▶︎ gaan tussen afzonderlijke elementen nadat de **[!UICONTROL Tab]** -toets een element heeft gemarkeerd.
+* Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
+* Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 
-  ![Tabel met vrije vorm met een focusindicator voor een blauwe rand rond de tabel met vrije vorm.](assets/focus-indicator.png)
+  ![ vrije lijst die een nadrukindicator van een blauwe grens rond de lijst Freeform toont.](assets/focus-indicator.png)
 
 ### Toetsenbordnavigatie voor de menubalk
 
 1. Tab totdat u de menubalk hebt bereikt.
-1. Gebruik de pijltoetsen naar links en rechts om naar het gewenste menu te navigeren.
-1. Druk `Enter` om het menu te selecteren en de opties ervan weer te geven.
-1. Gebruik de pijltoetsen omhoog en omlaag om naar de gewenste menuoptie te navigeren.
-1. Druk `Enter` om de optie te selecteren.
+1. Gebruik de pijltoetsen om te navigeren tussen menu&#39;s en menu-items.
+1. Druk op **[!UICONTROL Enter]** om een menu te openen of een menu-item te selecteren.
+1. Gebruik **[!UICONTROL Esc]** om een menu te sluiten.
 
 ### Toetsenbordnavigatie voor interactie Slepen en neerzetten
 
 [!UICONTROL Analysis Workspace] is een gebruikersinterface voor slepen en neerzetten. Gebruikers kunnen echter wel componenten toevoegen met het toetsenbord:
 
-1. Tab naar een component in de linkerrails.
-1. Druk `Enter` selecteert.
+1. Tab naar een component in het linkerdeelvenster.
+1. Druk op **[!UICONTROL Enter]** om te selecteren.
 1. Met de pijltoetsen navigeert u naar het gebied waar u de component wilt neerzetten.
-1. Druk `Enter` de component plaatsen.
+1. Druk op **[!UICONTROL Enter]** om de component te plaatsen.
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een uitgebreide reeks [sneltoetsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
-
-#### Navigatie
-
-| Sneltoets | Handeling |
-| --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | Naar verschillende rails springen: [!UICONTROL Panels], [!UICONTROL Visualizations], of [!UICONTROL Components] |
-| `[Alt + Left / Right]` | Navigeren tussen deelvensters |
-| `[Alt + M]` | Alle deelvensters samenvouwen/uitvouwen |
-| `[Alt + Ctrl + M]` | Actief deelvenster samenvouwen/uitvouwen |
-| `[Ctrl + /]` | Naar linkerspoor zoeken |
-
-#### Analyse maken
-
-| Sneltoets | Handeling |
-| --- | --- |
-| `[Alt + 1]` | Nieuwe vrije-vormlijst |
-| `[Ctrl + Shift + C]` | Nieuwe berekende metrisch |
-| `[Ctrl + Shift + D]` | Nieuw datumbereik |
-| `[Ctrl + Shift + E]` | Nieuw filter |
-| `[Ctrl + Z]` | Ongedaan maken |
-| `[Component drag + Shift]` | Een vervolgkeuzemenu maken |
-
-#### democratisering
-
-| Sneltoets | Handeling |
-| --- | --- |
-| `[Ctrl + S]` | Opslaan |
-| `[Ctrl + Shift + G]` | Curate |
-| `[Ctrl + G]` | Delen |
-| `[Alt + Shift + S]` | Schema |
-| `[Alt + L]` | Koppeling naar project ophalen |
-| `[Ctrl + Shift + B]` | PDF downloaden |
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
-Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
+Een schermlezer leest tekst die op het computerscherm wordt weergegeven. Deze leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing.
 
 ## Kleurenpaletten en contrast
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [ het kleurenpalet van het Project ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes).
 
-## Vereiste veldvalidatie in componentbuilders
+## Vereiste validatie
 
-Wanneer u een component maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. Er verschijnt een schriftelijke beschrijving van het probleem dat moet worden opgelost.
+Wanneer u een component, een visualisatie of een deelvenster maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. In een schriftelijke beschrijving wordt uitgelegd wat er moet worden opgelost.
 
-Als een component volledig is gevalideerd, drukt u op `Save` Sluit de builder.
-
-![De Bouwer van het segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
+![ de Bouwer van het Segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 
-Analysis Workspace biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties van MS Windows en macOS, zoals de modus voor hoog contrast, sticky keys en trage toetsen/filtertoetsen. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
+Analysis Workspace biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties voor Windows en macOS, zoals de modus voor hoog contrast, sticky keys en trage toetsen/filtertoetsen. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.

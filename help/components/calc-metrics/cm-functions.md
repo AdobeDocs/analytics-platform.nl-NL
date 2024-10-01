@@ -4,26 +4,30 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
 
 # Referentie - basisfuncties
 
-Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
+
+De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen.
 
 Hier volgt een alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Wanneer [!DNL metric] wordt geïdentificeerd als een argument in een functie, worden andere expressies van metriek ook toegestaan. Bijvoorbeeld: [!DNL MAXV(metrics)] staat ook [!DNL MAXV(PageViews + Visits).]
+>Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. [!DNL MAXV(metrics)] staat bijvoorbeeld ook [!DNL MAXV(PageViews + Visits).] toe
+
 
 ## Tabelfuncties versus rijfuncties
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
+
+
 
 ## Absolute waarde (rij)
 
@@ -87,7 +91,7 @@ COUNT(metric)
 
 ## Exponent (rij)
 
-Retourneert *e* verhoogd tot de macht van een bepaald getal. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
+Keert *e* op tot de macht van een bepaald aantal. De constante *e* evenaart 2.71828182845904, de basis van natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
 
 ```
 EXP(metric)
@@ -95,15 +99,15 @@ EXP(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | De exponent die op de basis wordt toegepast *e*. |
+| *metrisch* | De exponent die op de basis *wordt toegepast e*. |
 
 ## Uitstel
 
 Power Operator
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*.. (y keer)
-</pre>
+
+pow (x, y) = x <sup> y </sup> = x *x* x*.. (y tijden)
+
 
 ## Gemiddeld (tabel)
 
@@ -170,7 +174,7 @@ PERCENTILE(metric,k)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metrisch</i> </td> 
+   <td colname="col1"> <i> metrisch </i> </td> 
    <td colname="col2"> De metrische kolom die relatieve status definieert. </td> 
   </tr> 
   <tr> 
@@ -197,7 +201,7 @@ QUARTILE(metric,quart)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metrisch</i> </td> 
+   <td colname="col1"> <i> metrisch </i> </td> 
    <td colname="col2"> De metrische waarde waarvoor u de kwartielwaarde wilt. </td> 
   </tr> 
   <tr> 
@@ -207,11 +211,11 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-&#42;Indien *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
+&#42; als *kwart* = 0, KWALITEIT de minimumwaarde terugkeert. Als *kwart* = 1, KWALITEIT eerste kwartiel (25 percentiel) terugkeert. Als *kwart* = 2, KWALITEIT eerste kwartiel (percentiel 50) terugkeert. Als *kwart* = 3, KWALITEIT eerste kwartiel (75 percentiel) terugkeert. Als *kwart* = 4, KWALITEIT de maximumwaarde terugkeert.
 
 ## Rond
 
-Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor de omzet en een product $569,34 heeft, gebruikt u de formule Round( *Ontvangsten*) om de omzet naar de dichtstbijzijnde dollar te afronden, ofwel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
+Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Bijvoorbeeld, als u het melden van muntdecimalen voor opbrengst wilt vermijden en een product $569.34 heeft, gebruik de formule Rond ( *Opbrengst*) aan ronde opbrengst aan dichtstbijzijnde dollar, of $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
 
 ```
 ROUND(metric)
@@ -219,7 +223,7 @@ ROUND(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *getal* | De metrische waarde die u wilt afronden. |
+| *aantal* | De metrische waarde die u wilt afronden. |
 
 Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s aan de linkerzijde van decimaal terug.
 
@@ -256,7 +260,7 @@ SQRT(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *getal* | De metrische waarde waarvoor u de vierkantswortel wilt. |
+| *aantal* | De metrische waarde waarvoor u de vierkantswortel wilt. |
 
 ## Standaardafwijking (tabel)
 
@@ -266,7 +270,7 @@ De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-waarbij x = gemiddelde monsterhoeveelheid (*metrisch*) en *n* is de steekproefgrootte.
+waar x het steekproefgemiddelde (*metrisch*) is en *n* is de steekproefgrootte.
 
 ```
 STDEV(metric)
@@ -275,11 +279,11 @@ STDEV(metric)
 <table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
  <tbody> 
   <tr> 
-   <td> <b> Argument</b> </td> 
-   <td> <b> Beschrijving</b> </td> 
+   <td> <b> Argument </b> </td> 
+   <td> <b> Beschrijving </b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metrisch</i> </b> </td> 
+   <td> <b> <i> metrisch </i> </b> </td> 
    <td> <p> De metrische waarde waarvoor u standaardafwijking wilt. </p> </td> 
   </tr> 
  </tbody> 
@@ -293,7 +297,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waarbij x het monstergemiddelde is, MEAN(*metrisch*), en *n* is de steekproefgrootte.
+waar x het steekproefgemiddelde is, MEAN (*metrisch*), en *n* is de steekproefgrootte.
 
 ```
 VARIANCE(metric)
@@ -313,7 +317,7 @@ Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van d
 
 Als u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat totaal door het aantal items in de kolom. Dat getal is de variantie voor de kolom. Het is een enkel getal. Deze wordt echter weergegeven als een kolom met getallen.
 
-Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
+In het geval van een kolom van drie artikelen:
 
 1
 
@@ -321,4 +325,4 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is (1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom zal ((1 - 2) <sup> 2 </sup> + (2 - 2) zijn <sup> </sup> + (3 - 2) <sup> 2 </sup>/3 = 2/3.

@@ -3,68 +3,94 @@ description: Het filtreren op individuele metriek staat u toe om metrische verge
 title: Gefilterde metriek
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Gefilterde metriek
 
-In de Berekende metrische bouwer, kunt u filters binnen uw metrische definitie toepassen. Dit is nuttig als u nieuwe metriek aan gebruik in uw analyse wilt afleiden. Houd in mening, kunnen de filterdefinities door de Bouwer van de Filter worden bijgewerkt. Als er wijzigingen worden aangebracht, wordt het filter automatisch bijgewerkt op de locatie waar het wordt toegepast, ook als het deel uitmaakt van een berekende definitie van metrische waarde.
+In de [ Berekende metrische bouwer ](cm-build-metrics.md#definition-builder), kunt u filters binnen uw metrische definitie toepassen. Het toepassen van filters is nuttig als u metriek voor een ondergroep van uw gegevens in uw analyse wilt gebruiken.
 
-![Samenvatting en definitie van filters voor landen = Duitsland en unieke bezoekers](assets/german-visitors.png)
+>[!NOTE]
+>
+>De definities van de filter worden bijgewerkt door de [ bouwer van de Filter ](/help/components/filters/filter-builder.md). Als u een wijziging aanbrengt in een filter, wordt het filter automatisch bijgewerkt wanneer het filter wordt gebruikt, ook als het filter deel uitmaakt van een berekende metrische definitie.
+>
 
-## Een gefilterde metriek maken {#create}
+Je wilt meetgegevens vergelijken voor Duitse mensen die interageren met je merk versus mensen buiten Duitsland. U kunt dus vragen beantwoorden zoals:
 
-Stel dat u verschillende aspecten van een filter &quot;Duitse bezoekers&quot; wilt vergelijken met die van een filter &quot;Internationale Bezoekers&quot;. U kunt metriek tot stand brengen die u inzichten zoals zal geven:
+1. Hoeveel Duitse versus internationale mensen bezoeken uw meest [ populaire pagina&#39;s ](#popular-pages).
+1. Hoeveel Duitse versus internationale mensen in [ totaal ](#totals) online met uw merk deze maand hebben gecommuniceerd.
+1. Wat zijn de [ percentages ](#percentages) van Duitsers en internationale mensen die uw populaire pagina&#39;s hebben bezocht?
 
-* Hoe vergelijk het gedrag van bladeren door inhoud tussen de twee groepen? (Een ander voorbeeld zou zijn: Hoe vergelijk de omrekeningskoers tussen de twee filters?)
-* Als percentage van het totale aantal personen, hoeveel Duitse personen op bepaalde pagina&#39;s surfen, tegenover internationale personen?
-* Waar zijn de grootste verschillen in termen van welke inhoud door deze verschillende filters wordt betreden?
+Zie de volgende secties om te illustreren hoe gefilterde metriek u kan helpen deze vragen te beantwoorden. In voorkomend geval wordt verwezen naar meer gedetailleerde documentatie.
 
-Bouw en bewaar metrisch genoemd &quot;Duitse Bezoekers&quot;en metrisch genoemd &quot;Internationale Bezoekers&quot;:
+## Populaire pagina&#39;s
 
-1. Maak een ad-hocfilter in de berekende metrische builder met de naam &quot;Duitse bezoekers&quot;, waarbij &quot;Landen&quot; gelijk is aan &quot;Duitsland&quot;. Sleep de dimensie Landen naar het canvas Definitie en selecteer [!UICONTROL **Duitsland**] als waarde:
+1. [ creeer berekende metrisch ](cm-workflow.md) van een project van Workspace, genoemd `German people`.
+1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een filter ](/help/components/filters/filter-builder.md), getiteld `Germany`, die het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon van komt.
 
-   ![Ad-hocfilter dat Landen toont is gelijk aan Duitsland](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >U kunt dit ook doen in het dialoogvenster [Filter Builder](/help/components/filters/create-filters.md), maar we hebben de workflow vereenvoudigd door afmetingen beschikbaar te maken in de builder van het type Berekende metrische gegevens. &quot;Ad hoc&quot; betekent dat het filter niet zichtbaar is in de **[!UICONTROL Filters]** lijst in de linkerrail. U kunt het echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het pictogram te plaatsen en op **[!UICONTROL Make public]**.
+   >In de Berekende metrische bouwer, kunt u een filter direct tot stand brengen gebruikend het paneel van Componenten.
+   >   
 
-1. Sleep het filter Duitsland naar het canvas Definition en sleep de metrische waarde van de Unique Visitors erin:
+   Uw filter kan er zo uitzien.
 
-   ![Samenvatting en definitie van landen die gelijk zijn aan Duitsland en unieke bezoekers](assets/german-visitors.png)
+   ![ Filter Duitsland ](assets/filter-germany.png)
 
-1. Selecteren [!UICONTROL **Opslaan**] om berekende metrisch te bewaren.
+1. In de Berekende metrische bouwer, gebruik de filter terug om berekende metrisch bij te werken.
 
-1. Maak een ad-hocfilter in de builder van berekende metrische gegevens met de naam &quot;internationale bezoekers&quot;, waarbij &quot;Landen&quot; niet gelijk is aan &quot;Duitsland&quot;.
+   ![ Berekende metrisch Duitsland ](assets/calculated-metric-germany.png)
 
-   Sleep de dimensie Landen naar het canvas Definitie en selecteer [!UICONTROL **Duitsland**] als waarde selecteert u vervolgens [!UICONTROL **is niet gelijk aan**] als de operator.
+Herhaal bovenstaande stappen voor de internationale versie van de berekende metrische waarde.
 
-1. Sleep de metrische gegevens van de Unieke Bezoekers erin.
+1. Maak een berekende metrische waarde van het Workspace-project met de naam `International people` .
+1. Van binnen de Berekende metrische bouwer, creeer een filter, genoemd `Not Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon uit komt.
 
-1. Selecteren [!UICONTROL **Opslaan**] om berekende metrisch te bewaren.
+   Het filter moet er zo uitzien.
 
-1. Sleep in Analysis Workspace de **[!UICONTROL Page]** Dimension in een lijst van de Vrije Vorm en sleep de 2 nieuwe berekende metriek naast elkaar aan de bovenkant:
+   ![ Filter Duitsland ](assets/filter-not-germany.png)
 
-   ![Vrije-vormentabel met paginadimensie voor Duitse bezoekers en internationale bezoekers](assets/workspace-pages.png)
+1. In de Berekende metrische bouwer, gebruik de filter terug om berekende metrisch bij te werken.
 
-Hier volgt een video-overzicht:
+   ![ Berekende metrisch Duitsland ](assets/calculated-metric-notgermany.png)
+
+
+1. Maak een project in Analysis Workspace, waar je kijkt naar pagina&#39;s die door Duitse en internationale mensen worden bezocht.
+
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale mensen toont ](assets/workspace-german-vs-international.png)
+
+
+## Totalen
+
+1. Maak twee nieuwe filters op basis van Eindtotaal. Open elk van de eerder gemaakte filters, wijzig de naam van het filter, stel de **[!UICONTROL Metric type]** for **[!UICONTROL People]** in op **[!UICONTROL Grand Total]** en gebruik **[!UICONTROL Save As]** om het filter op te slaan met de nieuwe naam. Bijvoorbeeld:
+
+   ![ Totale metrisch voor Duitsland ](assets/calculated-metric-germany-total.png)
+
+1. Voeg een nieuwe tabelvisualisatie voor vrije vorm toe aan uw Workspace-project en geef het totaal aantal pagina&#39;s voor deze maand weer.
+
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale totale mensen toont ](assets/workspace-german-vs-international-totals.png)
+
+
+## Percentage
+
+1. Creeer twee nieuwe berekende metriek die een percentage van de berekende metriek berekenen u vroeger creeerde.
+
+   ![ de lijstvisualisatie van Workspace Freeform die Duits vs. Internationaal totaal personenpercentage ](assets/calculated-metric-germany-total-percentage.png) toont
+
+
+1. Werk uw Workspace-project bij.
+
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale totale mensen toont ](assets/workspace-german-vs-international-totals-percentage.png)
+
+
++++ Hier volgt een video die laat zien hoe u een gefilterde, berekende metrische waarde gebruikt als een implementatievrije metrische waarde.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
-## Percentage van totale metriek {#percent-total}
+{{videoaa}}
 
-U kunt het voorbeeld boven een stap verder zetten door uw filter te vergelijken met een totale populatie. Hiertoe maakt u twee nieuwe meeteenheden: &quot;% van de totale Duitse bezoekers&quot; en &quot;% van de totale internationale bezoekers&quot;:
-
-1. Zet het filter Duitse (of internationale) bezoekers neer op het canvas.
-1. Zet een ander Duits (of Internationaal) filter Bezoekers hieronder neer. Deze keer klikt u echter op het pictogram voor configuratie (versnelling) om het metrische type &quot;Totaal&quot; te selecteren. De notatie moet &#39;Percentage&#39; zijn. De exploitant zou &quot;gedeeld door&quot;moeten zijn. U eindigt omhoog met deze metrische definitie:
-
-   ![Landen staan gelijk aan Duitsland en totale unieke bezoekers](assets/cm_metric_total.png)
-
-1. Pas deze metrisch op uw project toe:
-
-   ![Vrije-vormtabel met pagina en % van het totaal aantal Duitse bezoekers](assets/cm_percent_total.png)
++++

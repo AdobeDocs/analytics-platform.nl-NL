@@ -1,70 +1,56 @@
 ---
-description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
+description: Voorbeeld van aangepaste datumbereiken in Analysis Workspace.
 keywords: Analysis Workspace
-title: Aangepaste datumbereiken maken
+title: Aangepaste datumbereiken
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
-# Aangepaste datumbereiken maken
+# Aangepaste datumbereiken
 
-U kunt aangepaste datumbereiken maken in Analysis Workspace en deze opslaan als tijdcomponenten.
+Dit artikel bevat meer voorbeelden van aangepaste datumbereiken
 
-Zie voor informatie over het toevoegen van bestaande datumbereiken aan een project [Overzicht van kalender- en datumbereiken](/help/components/date-ranges/calendar.md).
 
-Een aangepast datumbereik maken:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+## Vorige twee maanden geleden
 
-   ![datumbereikpagina](assets/date-ranges.png)
++++ Details
 
-1. Selecteren [!UICONTROL **Nieuw datumbereik maken**].
+U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gedefinieerd. U gebruikt een van de voorinstellingen.
 
-1. Geef de volgende informatie op in de constructor Datumbereik:
+![ Laatste 2 maanden geleden ](assets/date-range-example-simple.png)
 
-   | Optie | Beschrijving |
-   |---------|----------|
-   | [!UICONTROL **Titel**] | De titel van het datumbereik zoals deze wordt weergegeven wanneer gebruikers de titel selecteren in Analysis Workspace. |
-   | [!UICONTROL **Beschrijving**] | Een beschrijving voor het datumbereik. |
-   | [!UICONTROL **Tags**] | Alle tags die u wilt toepassen op het datumbereik. |
-   | [!UICONTROL **Datumbereik**] | Hiermee kunt u een aangepast datumbereik kiezen. Standaard zijn de laatste 30 dagen geselecteerd. |
-   | [!UICONTROL **Voorinstelling**] | Maak een keuze in een lijst met vooraf ingestelde datumbereiken, zoals [!UICONTROL **Gisteren**], [!UICONTROL **Laatste 7 dagen**], [!UICONTROL **Laatste 30 dagen**], enzovoort. |
-   | [!UICONTROL **Begintijd**] | De tijd van de dag waarop het datumbereik begint. |
-   | [!UICONTROL **Eindtijd**] | De tijd van de dag waarop het datumbereik eindigt. |
-   | [!UICONTROL **Roldatums gebruiken**] | Het rollen datums staan u toe om een dynamisch rapport te produceren dat vooruit of achteruit voor een bepaalde periode kijkt die op wordt gebaseerd wanneer u het rapport in werking stelde. Bijvoorbeeld, als u op alle geplaatste Orden &quot;Vorige Maand&quot;wilt rapporteren (die op het Gemaakt gebied van de Datum wordt gebaseerd) en dat rapport in December in werking stellen, zou u orden zien die in november worden geplaatst. Als je datzelfde rapport in januari zou uitvoeren, zou je orders zien geplaatst in december.<ul><li>**[!UICONTROL Date Preview]**: Geeft aan welke tijdsperiode de schuivende kalender omsluit.</li><li>**[!UICONTROL Start]**: U kunt kiezen uit de huidige dag, de huidige week, de huidige maand, het huidige kwartaal en het huidige jaar.</li><li>**[!UICONTROL End]**: U kunt kiezen uit de huidige dag, de huidige week, de huidige maand, het huidige kwartaal en het huidige jaar.</li></ul><br>Standaard geselecteerd. |
++++
 
-1. Selecteren [!UICONTROL **Opslaan**].
 
-## Voorbeeld: datumbereik voor &quot;twee maanden geleden&quot; {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Rollen tot het einde van vorige week
 
-De volgende waaier van de douanedatum toont een datumwaaier voor &quot;twee maanden geleden,&quot;met een Summiere visualisatie van de Verandering die richtingsverandering toont.
++++ Details
 
-![](assets/date-range-two-months-ago.png)
+U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024. september
 
-Het aangepaste datumbereik wordt boven aan het dialoogvenster [!UICONTROL Date Range] deelvenster in uw project:
+![ het waaiervoorbeeld van de Datum ](assets/date-range-example.png)
 
-![](assets/date-range-panel-two-months-ago.png)
++++
 
-U kunt dit aangepaste datumbereik naar een kolom slepen naast een aangepast maandelijks roldatumbereik met de voorinstelling Laatste maand voor een vergelijking. Voeg een Summiere visualisatie van de Verandering toe en selecteer de totalen van elke kolom om richtingsverandering te tonen:
+<!--
+## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-![](assets/date-range-two-months-table.png)
-
-## Voorbeeld: een 7-daags roldatumbereik gebruiken {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
-
-U kunt een datumbereik maken dat een 7-daags schuivend venster opgeeft dat een week geleden eindigt:
+You can create a date range that specifies a 7-day rolling window that ends one week ago:
 
 ![](assets/create_date_range.png)
 
-Gebruiken *`rolling daily`*.
+Use *`rolling daily`*.
 
-* De instellingen voor Start worden *`current day minus 6 days`*.
+* The Start settings would be *`current day minus 6 days`*.
 
-* De instellingen voor Einde worden *`current day minus 7 days`*.
+* The End settings would be *`current day minus 7 days`*.
 
-Dit datumbereik kan een component zijn die u naar elke vrije-vormtabel sleept.
+This date range can be a component that you drag onto any freeform table.
+-->

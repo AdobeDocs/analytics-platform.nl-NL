@@ -1,35 +1,64 @@
 ---
-description: Hier ziet u voorbeelden van gefilterde en gewogen cijfers.
-title: Gefilterde en gewogen cijfers
+description: Hier ziet u voorbeelden van berekende metriek.
+title: Voorbeelden van berekende metriek
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 4%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
-# Gefilterde en gewogen cijfers
+# Voorbeelden van berekende metriek
 
-Hier ziet u voorbeelden van gefilterde en gewogen cijfers.
+In dit artikel worden voorbeelden getoond van het definiëren van geavanceerdere berekende meetwaarden.
 
-## Gefilterde stuitsnelheid {#section_D42F2452E4464948934063EB6F2DAAB4}
+## Stuitpercentage
 
-Deze eenvoudige gefilterde metrische gegevens laten alleen de stuiterende frequentie zien voor die pagina&#39;s met meer dan 100 bezoeken:
+U wilt de stuiteringsfrequentie berekenen.
 
-![Samenvattingsvenster waarin de metriek wordt weergegeven die wordt toegepast op kolom 1 (Bezoeken) en kolom 2 (100), samen met de Stuitsnelheid. ](assets/cm_fbr.png)
++++ Details
 
-Onthoud dat deze formule afhankelijk is van een consistent tijdsbereik. Als u één enkele dag een rapport in werking stelt, is om het even welke pagina met meer dan 20 bezoeken de moeite waard het bekijken. Als u het een maand in werking stelt, kunt u het filter willen meer bezoeken omvatten.
+De definitie van een stuit is onderwerp voor een andere bespreking maar voor dit voorbeeld definieert u een Omgeslagen gebeurtenisfilter waarbij het Begin van de sessie gelijk is aan 1 en Sessie eindigt op 1. Met dit filter definieert u wel de frequentie van teruggestuurde sessies aan sessies.
 
-## Gefilterde stuitsnelheid met percentage {#section_4F3E6D33A1FD438A932FA662B3510552}
 
-Dit filter toont het Stuitpercentage voor de bovenste 30 procent van de pagina&#39;s, wanneer gesorteerd op bezoeken.
+### Filter
 
-![Als en filter dan het tonen van het Tarief van de Stuiters voor de hoogste 30% pagina&#39;s die door bezoeken worden gesorteerd.](assets/cm_wbr_2.png)
+![ Stuiterende gebeurtenissen ](assets/example-bounce-bouncedevents.png)
 
-## Gewogen metrisch {#section_F2D16B14569948289CF1310F9E6E3FC2}
+### Berekende metrische waarde
 
-Stel dat u wilt sorteren op stuitfrequentie in het algemeen, maar pagina&#39;s met hogere bezoeken moeten hoger in de lijst staan. U kunt een gewogen Bounce Rate maken die er als volgt uitziet:
+![ Stuitsnelheid ](assets/example-bounce-rate.png)
 
-![Overzicht met Definitie voor Bounce Rate times Visits.](assets/cm_wbr.png)
+
+### Afgeleide velden
+
+Alternatief, kunt u a [ stuittarief bepalen gebruikend afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md#bounces).
+
+Afgeleide gebieden maken deel uit van een mening van Gegevens die het voordeel heeft dat niet elke gebruiker de definitie van metrisch tarief met betrekking tot Stuiteren kan met voeten treden of wijzigen. Dat voordeel heeft ook een beperking ingevoerd. Gebruikers die geen toegang hebben tot een gegevensweergave, kunnen geen afgeleide velden gebruiken en moeten hun toevlucht nemen tot filters en berekende meetwaarden om een stuiteringsfrequentie te definiëren.
+
+Zie voor meer achtergrondinformatie over hoe te om grenzen en stuitend tarief in Customer Journey Analytics te berekenen, dit [ blogpost ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+
++++
+
+
+## Voorwaardelijke paginaweergaven
+
+U wilt een berekende maatstaf definiëren die alleen de paginaweergaven berekent voor de pagina&#39;s die in meer dan 100 sessies zijn bezocht.
+
++++ Details
+
+![ Voorwaardelijke paginameningen ](assets/conditional-page-views.png)
+
++++
+
+## Paginaweergaven voor de bovenste 30% sessies
+
+U wilt een berekende metrisch bepalen die slechts paginameningen voor de hoogste 30% zittingen berekent.
+
++++ Details
+
+![ Hoogste 30% paginameningen ](assets/top30-page-views.png)
+
++++

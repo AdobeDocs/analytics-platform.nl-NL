@@ -3,18 +3,16 @@ description: Ervaar hoe waarschuwingen verschillen in Customer Journey Analytics
 title: Customer Journey Analytics voor het vergelijken van waarschuwingen met Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
-# Vergelijking van waarschuwingsfuncties: Customer Journey Analytics en Adobe Analytics
+# Vergelijking van waarschuwingsfuncties
 
-Het gebruik van waarschuwingen in Customer Journey Analytics is bijna hetzelfde als het gebruik van waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen.
-
-In de volgende secties worden de belangrijkste verschillen beschreven.
+Het gebruik van waarschuwingen in Customer Journey Analytics is bijna hetzelfde als het gebruik van waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen. In de volgende secties worden de belangrijkste verschillen beschreven.
 
 ## Uurwaarschuwingen zijn niet beschikbaar in de Customer Journey Analytics
 

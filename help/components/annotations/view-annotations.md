@@ -1,13 +1,13 @@
 ---
 title: Annotaties weergeven
-description: Annotaties weergeven in Workspace.
+description: Annotaties bekijken in Workspace.
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -17,26 +17,16 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 
 ## Annotaties weergeven in lijngrafieken of tabellen
 
-| Datum | Weergave |
+| Visualisatie <br/> Type | Beschrijving |
 | --- | --- |
-| **Eén dag** | ![LInieuwe diagramvisualisatie met gemarkeerde annotatie](assets/single-day.png)<p>Wanneer u de aanwijzer boven de annotatie houdt, kunt u de details van de annotatie bekijken. U kunt deze bewerken door het penpictogram te selecteren of door de annotatie te verwijderen:<p> ![Details van annotaties met de optie om de annotatie te bewerken of te verwijderen.](assets/hover.png) |
-| **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![Annotatiepictogram voor datumbereik](assets/multi-day.png)<p>Wanneer u deze optie selecteert in het lijndiagram, worden de metagegevens van de annotatie weergegeven en kunt u deze bewerken of verwijderen:![](assets/multi-hover.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png) |
-| **Overlappende annotaties** | Op dagen waarop meerdere annotaties zijn gekoppeld, wordt het pictogram weergegeven in een grijze kleur.<p>![Details voor overlappende annotaties  ](assets/grey.png)<p>Wanneer u de cursor boven het grijze pictogram houdt, worden alle overlappende annotaties weergegeven:<p>![](assets/overlap.png) |
+| **Lijn **<br/>**Enige dag** | Wanneer u ![ ](/help/assets/icons/Annotate.svg) in een lijnvisualisatie selecteert annoteert, ziet u popup met de annotatiedetails.<br/>![ Annotatie enige dag ](assets/annotation-single-day.png)<br/> om de annotatie in de [ Bouwer van de Annotatie uit te geven ](create-annotations.md#annotation-builder) uitgezocht uitgeeft ![ ](/help/assets/icons/Edit.svg). Om de annotatie te schrappen, uitgezochte ![ Schrapping ](/help/assets/icons/Delete.svg). |
+| **waaier van de Lijn **<br/>**Datum** | Wanneer u ![ AnnotateRange ](/help/assets/icons/AnnotateRange.svg) selecteert ziet u popup met de annotatiedetails en een lijn bij de bodem die op de datumwaaier wijzen.<br/>![ waaier van de Annotatie ](assets/annotation-range.png) om de annotatie in de [ Bouwer van de Annotatie uit te geven ](create-annotations.md#annotation-builder) uitgezocht uitgeeft ![ ](/help/assets/icons/Edit.svg). Om de annotatie te schrappen, uitgezochte ![ Schrapping ](/help/assets/icons/Delete.svg). |
+| **Vrije-vormentabel** | In een tabel met vrije vorm hebt u toegang tot alle annotaties via de knop Annotaties rechtsboven in de visualisatie. Selecteer ![ annoteren ](/help/assets/icons/Annotate.svg) om a (het scrollen lijst) van alle annotaties te zien.<br/>![ de lijst van Annotaties ](assets/annotations-table.png)<br/> voor elke annotatie, kunt u ![ selecteren uitgeeft ](/help/assets/icons/Edit.svg) om de annotatie in de [ Bouwer van de Annotatie ](create-annotations.md#annotation-builder) uit te geven en ![ Schrapping ](/help/assets/icons/Delete.svg) om de annotatie te schrappen. |
 
 {style="table-layout:auto"}
 
-## Annotaties weergeven in een .pdf-bestand
+## Annotaties weergeven in een PDF
 
-Aangezien u de muisaanwijzer niet boven pictogrammen in een .pdf-bestand kunt plaatsen, bevat dit bestand (na het exporteren) onder in een deelvenster notities met uitleg. Hier volgt een voorbeeld:
+Wanneer u uw project als PDF downloadt, of uw project als PDF verzendt, worden de annotaties samengevat in PDF in de overzichtssectie van de Annotatie.
 
-![Gemarkeerde weergave van een PDF-bestand met uitleg over annotaties.](assets/ann-pdf.png)
-
-## Annotaties met niet-trendgegevens weergeven
-
-Soms wordt annotatie weergegeven met niet-trendgegevens, maar gekoppeld aan een specifieke dimensie. In dat geval worden ze alleen in een summiere annotatie in de rechterbenedenhoek weergegeven. Hier volgt een voorbeeld:
-
-![](assets/non-date.png)
-
-Het overzichtsdiagram wordt weergegeven in alle visualisatietypen in de hoek, niet alleen in niet-beheerde vrije-vormtabellen en samenvattingsnummers. Het wordt ook weergegeven in visualisaties zoals [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], enzovoort.
-
-![Samenvattingsgrafiek in visualisaties](assets/ann-summary.png)
+![ Gemarkeerde mening van een .pdf- dossier die verklaringen van annotaties tonen.](assets/annotations-pdf.png)

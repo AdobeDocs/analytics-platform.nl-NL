@@ -4,9 +4,9 @@ title: Het gegevenswoordenboek weergeven
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. Ga naar het Analysis Workspace-project dat de component bevat die u wilt bekijken.
 
-1. Selecteer de [!UICONTROL **Gegevenswoordenboek**] in de linkerspoorlijn van Analysis Workspace. (Alternatieve manieren om toegang te krijgen tot het gegevenswoordenboek worden beschreven in &quot;Toegang tot het gegevenswoordenboek&quot; in [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).)
+1. Selecteer het [!UICONTROL **pictogram van het Woordenboek van Gegevens**] in het linkerpaneel van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in &quot;toegang tot het Woordenboek van Gegevens&quot;in [ het Overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md).)
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![Het venster Gegevenswoordenboek met de snelle filters voor Dimensionen, Metriek, Segmenten en Datumbereiken](assets/data-dictionary.png)
+   {het venster van het Woordenboek van 0} Gegevens dat Snelle filters voor Dimensionen, Metriek, Segmenten, en de waaiers van de Datum toont ](assets/data-dictionary.png)![
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -31,11 +31,11 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimensionen** ![Pictogram Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) oranje zijn, **Filters** ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) paars zijn, en **Metrisch** ![Metrisch pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) zijn groen. Het pictogram Adobe ![Adobe, pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een filtersjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimensionen** ![ het pictogram van het Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje, **het pictogram van de Filters** ![ van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw, **waaiers van de Datum** ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van 10} Datum is paars, en **Metriek** ![ metrisch pictogram 15} is groen. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) Het pictogram van de Adobe ![ Adobe ](assets/default-calc-metric-icon.png) wijst op of een berekend metrisch malplaatje of een filtermalplaatje, en het pictogram van de calculatorpictogram ![ calculator ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) op berekende metrisch die door een beheerder van de Analyse in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
 
-1. (Optioneel) Selecteer de optie **Sorteren** pictogram ![Pictogram Componenten sorteren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+1. (Facultatief) selecteer het **pictogram van de Soort ![ de componenten van de Soort pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren:**
 
    {{components-sort-options}}
 

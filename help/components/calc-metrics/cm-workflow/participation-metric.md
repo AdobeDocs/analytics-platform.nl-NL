@@ -1,41 +1,38 @@
 ---
-description: Met de Berekende Metrische bouwer, kan iedereen een participatie metrisch tot stand brengen.
+description: Met de Berekende metrische bouwer, kan iedereen een participatie metrisch tot stand brengen.
 title: Deelnemings-metrisch
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# Een metrische deelname maken
+# Metrische gegevens voor deelname
 
-Dit artikel verklaart hoe te om een participatie metrisch tot stand te brengen. Een metrische participatie toont hoe de individuele waarden voor een afmeting (zoals de Weergaven van de Pagina, het Kanaal van de Marketing) tot zittingen bijdragen of aan zittingen deelnemen die specifieke metrisch bevatten (bijvoorbeeld Orders).
-
-Dit type informatie kan handig zijn voor elke eigenaar van de inhoud.
+De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individuele waarden voor een afmeting (zoals de Mening van de Pagina) tot bijdragen, of aan zittingen deelnemen die specifieke metrisch (zoals Orders) bevatten.
 
 >[!NOTE]
 >
->De metriek met andere attributiemodellen, zoals Deelname, kan ook door beheerders als deel van a worden gecreeerd [gegevensweergave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). Zie [Instellingen van component Attributie](../../../data-views/component-settings/attribution.md) voor meer informatie .<br/>In het onderstaande voorbeeld ziet u hoe een metrische deelname kan worden gemaakt door elke gebruiker met toegang tot de berekende metrische builder in Workspace.
+>De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie ](../../../data-views/component-settings/attribution.md) voor meer details.[
+
+De stappen tonen hieronder hoe om het even welke gebruiker met [ berekende metrische toestemming ](/help/technotes//access-control.md#user-level-access) kan tot een metrische participatie leiden.
+
+1. [ creeer een berekende metrische ](cm-workflow.md), en in [ Berekende metrieke bouwer ](cm-build-metrics.md), noem metrisch `Participation` of iets gelijkaardig.
+1. Sleep een metrische waarde met een succesgebeurtenis, bijvoorbeeld [!DNL Orders] , naar het [!UICONTROL **[!UICONTROL Definition]**] -gebied.
+1. Selecteer ![ Vistuig ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor metrisch.
+1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [ attributiemodel ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Session]** voor [!UICONTROL Lookback window] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
 
 
-1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-1. In de Berekende bouwer van metriek, noem metrisch `Participation` of iets dergelijks.
-1. Sleep metrisch die een succesgebeurtenis bevatten, bijvoorbeeld [!DNL Orders], in de [!UICONTROL Definition] canvas.
-1. Selecteren ![Tandwiel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor de metrische waarde.
-1. Selecteer in de pop-up die wordt weergegeven **[!UICONTROL Use a non-default attribution model]** om de [toewijzingsmodel](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) van die gebeurtenis **[!UICONTROL Participation]** en selecteert u **[!UICONTROL Session]** voor de [!UICONTROL Lookback window]. Selecteren **[!UICONTROL Apply]** ter bevestiging.
+   ![ popup die van de de attributie van de Kolom als model en Zitting wordt geselecteerd voor venster van de Lookback.](assets/participation-setup.png)
 
-   In het vak Definitie wordt de geselecteerde metrische waarde bijgewerkt door toevoegen  **(Partipatie|Sessie)** op naam.
-
-   ![popup met kolomkenmerkmodel waarin Deelname is geselecteerd als het model en de sessie die zijn geselecteerd voor het venster Opzoeken.](assets/participation-setup.png)
+   **(Verdeling|Sessie)** wordt toegevoegd aan de metrische componentnaam.
 
 
 
-1. Selecteren [!UICONTROL **Opslaan**] om metrisch te bewaren.
-1. Gebruik berekende metrisch in uw rapport. Gebruik bijvoorbeeld de berekende [!DNL Orders (Session Participation)] metrisch (zoals bepaald in stap 5) in een rapport om te tonen welk Klantniveau aan (of aan) zittingen heeft bijgedragen die een orde bevatten.
+1. Selecteer [!UICONTROL **sparen**] om metrisch te bewaren.
+1. Gebruik berekende metrisch in uw rapport. Gebruik bijvoorbeeld de berekende [!DNL Orders (Session Participation)] -metrische waarde in een rapport om te tonen welke Klantreeks heeft bijgedragen aan (of heeft deelgenomen aan) sessies die een bestelling bevatten.
 
-   ![Vrije-vormentabel met vermelding van Klantniveau en Orders.](assets/participation-pages-customer-tier.png)
-
-1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
+   ![ Vrije lijst die de Rij en de Orden van de Klant toont.](assets/participation-pages-customer-tier.png)

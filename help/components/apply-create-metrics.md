@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -19,66 +19,78 @@ Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze word
 
 De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace aan:
 
+
 * **Standaard metriek**: Voorbeeld van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen.
 
-* **Berekende metriek** ![ Berekend metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
+* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
 
-* **Berekende metrische malplaatjes**  <img src="./assets/adobe-logo.svg" width="18"> : Adobe-gedefinieerde metriek die zich op dezelfde manier gedraagt als berekende metriek. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen.
+* **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen.
 
-
-![ het paneel dat van Workspace Metriek in de linkerruit benadrukt.](assets/cja-metrics.png)
-
-U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
+U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [ Info van de Component ](use-components-in-workspace.md#component-info) voor meer informatie.
 
 
-Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
 
 ## Metriek gebruiken in Analysis Workspace
 
-Metriek kan op verschillende manieren in Analysis Workspace worden gebruikt. Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/components/use-components-in-workspace.md).
+Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
 
-## Berekende waarden maken
+Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/components/use-components-in-workspace.md).
 
-Met berekende meetwaarden kunt u gemakkelijk zien hoe de meetgegevens op elkaar betrekking hebben met behulp van eenvoudige operatoren of statistische functies.
+## Berekende cijfers
 
-Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest bepaalt of berekende metrisch van de componentenlijst over alle projecten, of slechts in het project beschikbaar is waar het werd gecreeerd.
+Met de berekende metriek kunt u eenvoudig configureren hoe de metriek met elkaar verwant is door eenvoudige operatoren of statistische functies te gebruiken. Zie [ Berekend metriek overzicht ](/help/components/calc-metrics/calc-metr-overview.md) voor meer informatie.
 
-### Berekende waarden maken voor alle projecten
+<!--
 
-U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt.
+There are several ways to create calculated metrics. See [Create calculated metrics]()
 
-Voor informatie over hoe te om tot de berekende metriebouwer toegang te hebben, zie [ metriek bouwen ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+### Create calculated metrics for all projects
 
-### Berekende waarden maken voor één project
+You can use the calculated metric builder to create calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. 
 
-U kunt snelle berekende metriek tot stand brengen die slechts voor het project beschikbaar zijn waar zij werden gecreeerd.
+For information about how to access the calculated metrics builder, see [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
-Om berekende metrisch voor één enkel project tot stand te brengen:
+### Create calculated metrics for a single project
 
-1. Open in Analysis Workspace het project waar u de berekende metrische waarde wilt maken.
+You can create quick calculated metrics that are available only for the project where they were created.
 
-1. Klik in een vrije-vormlijst met de rechtermuisknop op een of meer cellen in de koptekstkolom en selecteer vervolgens **[!UICONTROL Create metric from selection]**
+To create a calculated metric for a single project:
 
-   ![ het paneel dat van Workspace creeert van selectie ](assets/create-metric-from-selection.png) benadrukt
+1. In Analysis Workspace, open the project where you want to create the calculated metric.
 
-1. Als u alleen voor dit project een berekende metrische waarde wilt maken, kiest u een van de volgende opties:
+1. In a freeform table, select **[!UICONTROL Create metric from selection]** from the context menu in a column header.
 
-   * [!UICONTROL **Splitsen**]
+   ![Workspace panel highlighting Create from selection](assets/create-metric-from-selection.png)
 
-   * [!UICONTROL **trekt af**]
+1. To create a calculated metric for this project only, choose from the following options:
 
-   * [!UICONTROL **voeg toe**]
+   * [!UICONTROL **Divide**]
+   
+   * [!UICONTROL **Subtract**]
 
-   * [!UICONTROL **vermenigvuldigen**]
+   * [!UICONTROL **Add**]
 
-   Of, om de berekende metrische bouwer te openen en berekende metrisch voor alle projecten tot stand te brengen, selecteer [!UICONTROL **Open in Berekende Metrische Bouwer**], dan met [ bouwt metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) verder.
+   * [!UICONTROL **Multiply**]
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+   Or, to open the calculated metric builder and create the calculated metric for all projects, select [!UICONTROL **Open in Calculated Metric Builder**], then continue with [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+
+<!-- This video really shows an AA example using hits, etc.  Not suitable for CJA... >
++++ See the following video on how to create an implementation-less calculated metric from within Analysis Workspace.
+
+[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
++++
+
+-->
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
-Als u snel en gemakkelijk één attributiemodel aan een andere wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Compare Attribution Models]**:
+Als u één attributiemodel voor metrisch wilt snel en gemakkelijk vergelijken met een ander, uitgezochte **[!UICONTROL Compare attribution models]** van het contextmenu voor metrisch.
 
 ![ het paneel dat van Workspace het benadrukken vergelijkt attributiemodellen ](assets/compare-attribution.png)
 
-Met deze sneltoets kunt u snel en eenvoudig een attributiemodel vergelijken met een ander attribuut zonder dat u dit model in een metrische modus hoeft te slepen en tweemaal hoeft te configureren.
+Met deze sneltoets kunt u snel en eenvoudig attributiemodellen vergelijken.

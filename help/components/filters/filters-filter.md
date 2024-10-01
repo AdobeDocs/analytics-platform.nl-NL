@@ -4,33 +4,53 @@ title: De lijst met filters filteren
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
 # De lijst met filters filteren
 
-Filter de lijst met filters in Filterbeheer op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
+U kunt een filterlijst maken. Het gebruiken van een filter op filters maakt het gemakkelijker om de filters te vinden die aan u beschikbaar zijn, en filters van de [ manager van de Filter ](manage-filters.md) te beheren.
 
-Door te filteren kunt u gemakkelijker naar filters zoeken.
+>[!NOTE]
+>
+>De lijst van filters verwijst naar de [ filterlijst ](manage-filters.md#filters-list) als deel van de [ manager van de Filter ](manage-filters.md). U kunt die lijst filtreren gebruikend het ](/help/assets/icons/Filter.svg) [ paneel van de Filter ](manage-filters.md#filter-panel), deel van die zelfde [ manager van de Filter ](manage-filters.md).![
+>
 
-1. Klik in Filterbeheer op de knop **[!UICONTROL Filters]** pictogram:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![Filterbeheer geeft het pictogram Filters en de beschikbare filters weer.](assets/filtering.png)
+De lijst met filters filteren:
 
-2. De volgende filters zijn beschikbaar:
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer filters van om het even welke beschikbare [ filtersecties ](#filter-sections).
 
-   | Filternaam | Beschrijving |
-   |---|---|
-   | Tags | Hiermee kunt u de lijst met filters filteren op specifieke [tags](/help/components/filters/filters-tag.md). De kolom Codes wordt standaard weergegeven. |
-   | Eigenaars | Hiermee kunt u de lijst met filters filteren op eigenaar. |
-   | Gegevens, weergave | Hiermee kunt u filteren op gegevensweergave. |
-   | Overige filters > Alles tonen | **(Alleen beheerder)** Toont alle filters, hun eigenaar, en de laatste datum zij werden gewijzigd. |
-   | Overige filters > Mine | Hiermee worden alle filters weergegeven die u bezit. |
-   | Overige filters > Met mij gedeeld | Alle filters tonen die andere [gedeeld](/help/components/filters/filters-share.md) met u. |
-   | Overige filters > Favorieten | Hiermee worden alle filters weergegeven die u als [Favorieten](/help/components/filters/filters-favorite.md). |
-   | Overige filters > Goedgekeurd | Alle officieel tonen [goedgekeurd](/help/components/filters/filters-approve.md) segmenten. |
-   | Segmenten zoeken | Hiermee kunt u naar segmenten op naam zoeken. |
+   >[!INFO]
+   >
+   >*Punten* verwijzen naar de filterpunten die in de [ lijst van de Filter ](manage-filters.md#filters-list) worden getoond.
+   > 
+
+## Secties filteren
+
+De volgende filtersecties zijn beschikbaar:
+
+### Tags
+
+{{tagfiltersection}}
+
+### Gegevens, weergave
+
+{{dataviewfiltersection}}
+
+### Eigenaar
+
+{{ownerfiltersection}}
+
+
+### Overige filters
+
+{{otherfiltersfiltersection}}
+
+
+De [ lijst van de Filter ](manage-filters.md#filters-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [ Actieve filterbar ](manage-filters.md#active-filter-bar) zien.

@@ -3,35 +3,34 @@ description: Filteren op tags, gegevensweergave, eigenaars en andere filters (Al
 title: Berekende maateenheden filteren
 feature: Calculated Metrics
 exl-id: 902da464-14de-45b9-bd92-d2db064cb095
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Berekende maateenheden filteren
+# De lijst met berekende meetwaarden filteren
 
-Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
+U kunt de lijst met berekende metriek filteren. Het gebruiken van een filter op berekende metriek maakt het gemakkelijker om de berekende metriek te vinden die aan u beschikbaar zijn, en berekende metriek van de [ Berekende metriekmanager ](cm-manager.md) te beheren.
 
-Door te filteren kunt u gemakkelijker zoeken naar berekende metriek in de segmentrails.
 
-1. Selecteer in Customer Journey Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Calculated metrics]**.
+De lijst met berekende metriek filteren:
 
-1. Klik in het beheer van berekende metriek op de knop **[!UICONTROL Filters]** pictogram:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer filters van om het even welke beschikbare [ filtersecties ](#filter-sections).
 
-   ![Het berekende metrische beheer toont het pictogram Filters en de beschikbare filters zoals Markeringen, de Reeks van het Rapport, en Eigenaars.](assets/filtering.png)
+   >[!INFO]
+   >
+   >*Punten* verwijzen naar de filterpunten die in de [ Berekende metrieklijst ](cm-manager.md#filters-list) worden getoond.
+   > 
 
-1. De volgende filters zijn beschikbaar:
+## Secties filteren
 
-   | Filternaam | Beschrijving |
-   |---|---|
-   | Tags | Hiermee kunt u op berekende metriek filteren met specifieke [tags](/help/components/calc-metrics/cm-workflow/cm-tagging.md). De kolom Codes wordt standaard weergegeven. |
-   | Eigenaars | Hiermee kunt u berekende metriek filteren op eigenaar. |
-   | Gegevens, weergave | Hiermee kunt u berekende metriek filteren op gegevensweergave. |
-   | Overige filters > Alles tonen | **(Alleen beheerder)** Toont alle berekende metriek, hun eigenaar, en de laatste datum zij werden gewijzigd. |
-   | Overige filters > Mine | Toont alle berekende metriek die u bezit. |
-   | Overige filters > Met mij gedeeld | Alle berekende metriek tonen die anderen [gedeeld](/help/components/calc-metrics/cm-workflow/cm-sharing.md) met u. |
-   | Overige filters > Favorieten | Hiermee worden alle berekende metriek weergegeven die u hebt gemarkeerd als [Favorieten](/help/components/calc-metrics/cm-workflow/cm-favorite.md). |
-   | Overige filters > Goedgekeurd | Alle officieel tonen [goedgekeurd](/help/components/calc-metrics/cm-workflow/cm-approving.md) berekende meetwaarden. |
-   | Berekende maatstaven zoeken | Hiermee kunt u naar berekende metriek op naam zoeken. |
+{{tagfiltersection}}
+{{dataviewfiltersection}}
+{{ownerfiltersection}}
+{{otherfiltersfiltersection}}
+
+
+De [ Berekende metrieklijst ](cm-manager.md#filters-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [ Actieve filterbar ](cm-manager.md#active-filter-bar) zien.

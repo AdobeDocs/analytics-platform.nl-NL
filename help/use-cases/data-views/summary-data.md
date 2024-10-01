@@ -1,13 +1,13 @@
 ---
 title: Samenvattingsgegevens gebruiken in Customer Journey Analytics
-description: Uitleg van alle details over hoe u summiere gegevens in Customer Journey Analytics kunt brengen
+description: Het geval van het gebruik verklaren alle details over hoe te om summiere gegevens in Customer Journey Analytics te brengen
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4610'
 ht-degree: 7%
 
 ---
@@ -512,7 +512,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
          ![ de summiere gegevens van de Opbrengst ](../assets/revenue-summary-data.png)
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributionLastTouch ](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
+            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **Formaat**.
             1. Selecteer **[!UICONTROL Currency]** in de vervolgkeuzelijst **[!UICONTROL Format]** .
@@ -522,7 +522,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
          ![ orden summiere gegevens ](../assets/orders-summary-data.png)
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributionLastTouch ](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
+            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
             1. Selecteer **[!UICONTROL Decimal]** in de vervolgkeuzelijst **[!UICONTROL Format]** .

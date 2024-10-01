@@ -4,9 +4,9 @@ title: Afmetingen van tijd tot tijd
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ De tijd-ontledende afmetingen zijn gebaseerd op de tijdzone van de gegevensmenin
 * Hoe vergelijk mijn weekendverkopen met mijn weekdagverkopen?
 * Produceert een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?
 
-| Dimension | Voorbeeldwaarden |
+| Dimension | Voorwaarden |
 |--- |--- |
-| Uur van de dag | 0-23 |
-| AM/PM | AM, PM |
-| Weekdag | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
-| Weekdag/Weekend | Weekdag, Weekend |
-| Dag van Maand | 1-31 |
-| Maand van jaar | Januari-december |
-| Dag van het Jaar | 1-366 |
-| Kwartaal van jaar | Q1, Q2, Q3, Q4 |
+| **[!UICONTROL Hour of Day]** | 0-23 |
+| **[!UICONTROL AM/PM]** | AM, PM |
+| **[!UICONTROL Day of Week]** | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
+| **[!UICONTROL Weekday/Weekend]** | Weekdag, Weekend |
+| **[!UICONTROL Day of Month]** | 1-31 |
+| **[!UICONTROL Month of Year]** | Januari-december |
+| **[!UICONTROL Day of Year]** | 1-366 |
+| **[!UICONTROL Quarter of Year]** | Q1, Q2, Q3, Q4 |

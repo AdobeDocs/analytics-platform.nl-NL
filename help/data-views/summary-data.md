@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1129'
 ht-degree: 2%
 
 ---
@@ -153,4 +153,4 @@ Controleer of de componentinstellingen voor een overzichtsgegevensgroep gelijk z
 
 >[!MORELIKETHIS]
 >
->Zie [ Samenvatten en gebruik summiere gegevens ](/help/use-cases/data-views/summary-data.md) artikel voor een gedetailleerd gebruiksgevalvoorbeeld op hoe te en rapport over summiere gegevens te gebruiken.
+>Zie het [ samenvattingsgegeven van het Gebruik ](/help/use-cases/data-views/summary-data.md) artikel voor een gedetailleerd gebruiksgeval voorbeeld op hoe te en rapport over summiere gegevens te gebruiken.

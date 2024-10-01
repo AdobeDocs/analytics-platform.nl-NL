@@ -1,73 +1,57 @@
 ---
-description: Leer hoe u mappen toevoegt in Workspace
+description: Leer hoe u mappen toevoegt of verplaatst in Workspace
 keywords: Analysis Workspace
-title: Mappen toevoegen in werkruimte
+title: Mappen toevoegen of verplaatsen
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# Projecten toevoegen aan mappen
+# Projecten toevoegen aan of verplaatsen naar mappen
 
-U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevoegen.
+U kunt projecten aan een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) direct toevoegen of verplaatsen.
 
-## Vanuit de tabelweergave {#table-view}
+## Projecten naar een map verplaatsen
 
-Voeg projecten aan een omslag van de lijstmening op de homepage toe.
+>[!NOTE]
+>
+>Wanneer een beheerder een project naar de Omslag van het Bedrijf verplaatst, wordt de omslag gedeeld met iedereen zelfs als de bestaande gedeelde voorrechten beperkt zijn. Wanneer een beheerder een project uit de Omslag van het Bedrijf beweegt, worden de bestaande gedeelde voorrechten opnieuw toegepast.
+>
 
-1. Selecteer een of meer projecten die u aan een map wilt toevoegen.
+Om projecten naar een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) te bewegen:
 
-   ![De lijstmening van projecten die drie geselecteerde projecten tonen.](/help/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) één of meerdere projecten die u naar een omslag wilt bewegen.
 
-1. Selecteren **Verplaatsen naar**. Het dialoogvenster Map selecteren wordt weergegeven.
+1. Selecteer ![ FolderAddTo ](/help/assets/icons/FolderAddTo.svg) **Beweging aan** van de lijst van mogelijke [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions). Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
 
-1. Selecteer een mapnaam in het keuzemenu.
+1. Selecteer een mapnaam in het vervolgkeuzemenu **[!UICONTROL Folder]** . In het vervolgkeuzemenu kunt u de maphiërarchie doorlopen om een submap op elk niveau te selecteren.
 
-   ![De weergave Map selecteren met het vervolgkeuzemenu en de beschikbare submappen.](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+   ![ de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 
-1. Klikken **Toevoegen**.
+1. Selecteer **[!UICONTROL Move]** .
 
-   ![Klik toevoegen.](/help/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    De geselecteerde projecten worden toegevoegd aan de map.
 
-   ![De geselecteerde submap met de drie verplaatste projecten.](/help/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   De het landende pagina van de Werkruimte toont nu de omslag (3) projecten bevat.
+## Projecten toevoegen aan een map
 
-   ![De bijgewerkte de homepagina van Projecten lijst toont subfolder met drie projecten.](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+Om projecten aan een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) toe te voegen:
 
-## Vanuit een map {#inside-folder}
+1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) de omslag die u projecten aan wilt toevoegen.
 
-U kunt projecten van binnen een omslag ook toevoegen gebruikend de ellipsen verbinding.
+1. Selecteer ![ ProjectAdd ](/help/assets/icons/ProjectAdd.svg) **Projecten** van de lijst van mogelijke [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) toevoegen. Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
 
-1. Selecteer en open een omslag van de lijstmening.
+1. Selecteer één of meerdere projecten van [!UICONTROL *Uitgezochte projecten om aan omslag*] toe te voegen.
 
-   ![De submap die geen projecten bevat](/help/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![ de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects-folder.png)
 
-1. Klik op de knop **...** ovalepictogram rechtsboven.
-
-   ![De opties in het keuzemenu voor de ellips.](/help/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   Een vervolgkeuzemenu geeft de optie weer om projecten aan de map toe te voegen. Met extra opties kunt u de map een andere naam geven, verplaatsen of verwijderen en machtigingen voor mappen beheren.
-
-1. Selecteren **Projecten toevoegen** en selecteer het project dat u van de drop-down lijst wilt toevoegen.
-
-   ![De lijst Projecten toevoegen.](/help/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
-
-   U kunt meerdere projecten aan de map toevoegen.
-
-   ![Het venster Projecten toevoegen waarin drie projecten worden getoond, wordt toegevoegd](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
-
-1. Klikken **Toevoegen** om de projecten aan de omslag toe te voegen.
-
-   ![Klik toevoegen.](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
+1. Selecteer **[!UICONTROL Add]** .
 
 >[!NOTE]
 >

@@ -1,35 +1,43 @@
 ---
-description: Informatie over de inhoudstafel van het project die op projecten beschikbaar is
+description: Informatie over de functionaliteit van de inhoudsopgave in een Workspace-project
 keywords: Analysis Workspace
-title: Inhoudsopgave van project
+title: Inhoudsopgave
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 8941b6a8339294cf121a07ca0c14bac50342d04e
+source-git-commit: 9d32100f28e8806cc30aaf52e30216cbce1a38b0
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
-# Inhoudsopgave van project
+# Inhoudsopgave
 
-U kunt een inhoudstafel binnen elk project in Analysis Workspace bekijken, toestaand u om zich tussen om het even welke panelen en visualisaties snel te bewegen die in het project bestaan. Dit is vooral nuttig wanneer het bekijken van grotere projecten die vele panelen en visualisaties bevatten.
+U kunt een inhoudstafel voor een project in Analysis Workspace bekijken, die u toestaat om zich snel tussen om het even welke panelen en visualisaties te bewegen die in het project bestaan. De inhoudsopgave is vooral handig wanneer u grotere projecten bekijkt die veel deelvensters en visualisaties bevatten.
 
-+++ Bekijk een videodemonstratie van deze functie.
++++ Bekijk een videodemonstratie van deze functionaliteit.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
 
 +++
 
+>[!TIP]
+>
+>U kunt de koptekstvisualisatie van de Sectie gebruiken om een sectie binnen een panelen te identificeren en te articuleren die vele visualisaties bevat. Deze sectiekoppen worden ook weergegeven als vermeldingen in de inhoudsopgave.
+>
+
+
 De inhoudsopgave van een project weergeven:
 
 1. Ga in Analysis Workspace naar het project waar u de inhoudsopgave wilt weergeven.
 
-1. Selecteer in de linkernav het pictogram van de inhoudsopgave ![toc-pictogram](assets/toc-icon.png).
+1. In het knooppaneel, uitgezochte ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md) voor meer informatie.<br/>
 
-   De inhoudsopgave van het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
+   De **[!UICONTROL Table of contents]** voor het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
 
-   ![Inhoudsopgave van project uitgebreid](assets/project-toc-expanded.png)
+1. Selecteer een visualisatie in het **[!UICONTROL Table of contents]** -vak. <br/>
 
-1. In de inhoudstafel, selecteer een visualisatie om naar het binnen het project te gaan.
+   De geselecteerde visualisatie wordt automatisch naar de geselecteerde afbeelding geschoven en kort gemarkeerd.
+
+   ![ benadrukte TOC ](assets/toc-highlighted.png)

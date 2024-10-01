@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Wanneer het gebruiken van een afmeting die vele unieke waarden bevat, kan het resulterende rapport teveel unieke afmetingspunten bevatten om te tonen of te berekenen. Resultaten worden afgekapt door dimensiepunten te verwijderen die als minst belangrijk worden beschouwd. Deze optimalisaties worden uitgevoerd om de project- en productprestaties te behouden.
 
-Wanneer u om een rapport met teveel unieke waarden verzoekt, toont Analysis Workspace een indicator in de afmetingskopbal die verklaart dat niet alle afmetingspunten inbegrepen zijn. Bijvoorbeeld &quot;Rijen: 1-50 van meer dan 22.343.156&quot;. Het &quot;meer dan&quot;sleutelwoord wijst erop dat één of andere optimalisering werd toegepast op het rapport om de belangrijkste afmetingspunten terug te keren.
+Wanneer u om een rapport met teveel unieke waarden verzoekt, toont Analysis Workspace een indicator in de afmetingskopbal die verklaart dat niet alle afmetingspunten inbegrepen zijn. Bijvoorbeeld **[!UICONTROL Rows: 1-50 of more than 22,343,156]** . Het trefwoord **[!UICONTROL more than]** geeft aan dat er enige optimalisatie is toegepast op het rapport om de belangrijkste dimensie-items te retourneren.
 
-![Vrije-vormtabel in Workspace met het trefwoord &quot;Meer dan&quot; om 1-50 van meer dan 22.343.156 weer te geven](assets/high-cardinality.png)
+![ de lijst van de Vrije vorm in Workspace die het &quot;meer dan&quot;sleutelwoord toont om 1-50 van meer dan 22.343.156 ](assets/high-cardinality.png) te tonen
 
 ## Bepalen welke dimensie-items moeten worden weergegeven
 
@@ -34,9 +34,9 @@ Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zoude
 
 De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
-* Een [Filter](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
+* Gebruik a [ Filter ](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
 * Gebruik een zoekopdracht. De punten van het Dimension die van de onderzoekstermijn worden uitgesloten worden verwijderd uit de rapportresultaten, die het waarschijnlijker maken dat u de gewenste afmetingspunten ziet.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
-* Gebruik de [Opnemen/uitsluiten](/help/data-views/component-settings/include-exclude-values.md) in het gegevensweergavebeheer.
-* Verkort het datumbereik van de aanvraag. Als er zich na verloop van tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.
-* Gebruik [Volledige tabelexport](/help/analysis-workspace/export/export-cloud.md) om alle rijen van de tabel te retourneren.
+* Gebruik [ omvatten/uitsluiten ](/help/data-views/component-settings/include-exclude-values.md) component die in de manager van de gegevensmening plaatst.
+* Verkort het datumbereik van de aanvraag. Als er zich in de loop der tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.
+* Overweeg het gebruiken van [ Volledige Uitvoer van de Lijst ](/help/analysis-workspace/export/export-cloud.md) om alle rijen van de lijst terug te keren.

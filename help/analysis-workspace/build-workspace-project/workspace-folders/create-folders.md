@@ -5,59 +5,32 @@ title: Mappen maken
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
 # Mappen maken
 
-U kunt een nieuwe map of een submap toevoegen aan de lijst met projecten en mappen op de bestemmingspagina van de werkruimte.
+U kunt een nieuwe map of een submap toevoegen aan de lijst met projecten en mappen op de bestemmingspagina van Workspace.
 
-## Nieuwe map maken {#create-new-folder}
+## Nieuwe map maken
 
 Als u een nieuwe map wilt maken,
 
-1. Klikken **Nieuw maken**.
+1. Verzeker u [ Omslagen &amp; Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector) hebt geselecteerd tonen.
 
-1. Voer een naam in voor de nieuwe map.
+1. Verzeker het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) en de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) vertoning de omslag waar u een nieuwe omslag wilt tot stand brengen.
 
-1. Selecteer labels in het keuzemenu of voeg nieuwe tags toe.
+1. Klik **creeer omslag**.
 
-   ![Maak een nieuw mappenvenster met de nieuwe mapnaam en de lijst met beschikbare tags.](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
+1. Voer in het dialoogvenster **[!UICONTROL Create New Folder]** een naam in voor de nieuwe map. Bijvoorbeeld: `Second Week Reports` .
 
-1. Klikken **Maken**.
+1. Selecteer tags of voer nieuwe tags in in de vervolgkeuzelijst **[!UICONTROL Tags]** .
 
-   ![Klik op Maken.](/help/analysis-workspace/build-workspace-project/assets/create.png)
+   ![ creeer nieuwe omslag ](../assets/create-new-folder.png)
 
-   De nieuwe map wordt toegevoegd aan de hoofdlijst met projecten en mappen.
-
-   ![De het landende pagina van Projecten die de bijgewerkte lijst van project en omslagen tonen.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
-
-## Een submap maken {#create-subfolder}
-
-Met submappen kunt u aanvullende niveaus voor projectbeheer en -organisatie opgeven.
-
-Als u een submap wilt maken terwijl u een bestaande map hebt geopend,
-
-1. Klikken **Nieuwe map maken**.
-
-   ![Klik op Een nieuwe map maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
-
-1. Voer een naam voor de submap in en voeg de benodigde tags toe.
-
-   ![Het veld Nieuwe naam en label maken in het venster Nieuwe map maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
-
-1. Klikken **Maken**.
-
-   De nieuwe submap wordt toegevoegd aan de lijst met projecten en submappen.
-
-   ![Klik op Maken.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
-
-   >[!NOTE]
-   >
-   >U kunt maximaal 10 niveaus submappen maken in één map.
-
-   ![In de vervolgkeuzelijst met mappen worden alle submappen in de map weergegeven.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+1. Klik **creëren**.
+De nieuwe map wordt toegevoegd aan de huidige map.

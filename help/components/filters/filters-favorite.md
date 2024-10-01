@@ -4,17 +4,19 @@ title: Filters markeren als favorieten
 feature: Filters
 exl-id: b13457dd-06e5-4316-af7e-edcf4ee46408
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# Filters markeren als favorieten {#favorites}
+# Filters markeren als favoriet
 
-Filters markeren als favorieten is een andere manier om ze te ordenen voor gebruiksgemak.
+U kunt een filter markeren als favoriet. Als u filters als favoriet wilt markeren, kunt u de filters ordenen. Alle gebruikers kunnen de voorkeur geven aan filters.
 
-1. Selecteer in Filterbeheer de ster naast een filter dat u als favoriet wilt markeren. De ster wordt geel wanneer u deze selecteert.
+Om of een filter te begunstigen, in de [ manager van Filters ](/help/components/filters/manage-filters.md):
 
-1. (Optioneel) U kunt de lijst met filters sorteren op favorieten. Selecteer het pictogram Filter in de linkertrack en selecteer vervolgens [!UICONTROL **Overige filters**] > [!UICONTROL **Favorieten**].
+* Selecteer ![ StarOutline ](/help/assets/icons/StarOutline.svg) om, of uitgezochte ![ Ster ](/help/assets/icons/Star.svg) te verkiezen om een filter te ontmoedigen.
+
+U kunt de lijst met filters sorteren op favorieten. Selecteer **[!UICONTROL Other filters]** van het ![ paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** en selecteer **[!UICONTROL Favorites]**. Zie [ de lijst van filters ](/help/components/filters/filters-filter.md) voor meer informatie filtreren.

@@ -1,32 +1,36 @@
 ---
-description: Beheerders kunnen beschrijvingen voor componenten toevoegen met behulp van de gegevensweergave.
+description: Beheerders kunnen beschrijvingen voor componenten toevoegen met de gegevensweergave.
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a0e301130cf7f8c4b3be17dfe52648fde5ee4fe4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Componentbeschrijvingen toevoegen
 
-Met behulp van beschrijvingen kunnen gebruikers het beste de verschillende componenten gebruiken bij het maken van projecten in Analysis Workspace of bij het weergeven van rapporten.
+De beschrijvingen helpen gebruikers weten hoe te om de diverse componenten te gebruiken wanneer het bouwen van projecten in Analysis Workspace of wanneer het bekijken van rapporten.
 
-Customer Journey Analytics-beheerders kunnen beschrijvingen voor componenten (Dimension, Metriek, Filters en Datumbereiken) toevoegen in de gegevensweergave of met gebruik van het gegevenswoordenboek rechtstreeks in Analysis Workspace.
+Customer Journey Analytics beheerders kunnen beschrijvingen voor componenten (afmetingen, metriek, filters, en datumwaaiers) binnen een gegevensmening of het gebruiken van het Woordenboek van Gegevens toevoegen.
 
-## Beschrijvingen toevoegen aan componenten in een gegevensweergave
+## Beschrijvingen toevoegen in een gegevensweergave
 
-In de volgende video wordt beschreven hoe u afmetingen en metrische beschrijvingen in een gegevensweergave kunt toevoegen:
+U kunt een beschrijving toevoegen aan een component die u aan de gegevensweergave hebt toegevoegd. Zie [ montages van de Component ](/help/data-views/component-settings/overview.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+## Beschrijvingen toevoegen met behulp van het gegevenswoordenboek
 
-## Beschrijvingen toevoegen aan componenten in Analysis Workspace (met gebruik van het gegevenswoordenboek) {#add-descriptions}
+Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun Customer Journey Analytics-omgeving volgen en beter begrijpen. In het gegevenswoordenboek kunnen beheerders componentbeschrijvingen rechtstreeks in Analysis Workspace toevoegen.
 
-Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun Customer Journey Analytics-omgeving volgen en beter begrijpen. Dit omvat de mogelijkheid voor Customer Journey Analytics-beheerders om componentbeschrijvingen rechtstreeks in Analysis Workspace toe te voegen.
+Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
 
-Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [Onderdeelitems in gegevenswoordenboek bewerken](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Voor algemene informatie over het Woordenboek van Gegevens, zie het [ overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md).
 
-Voor algemene informatie over het gegevenswoordenboek raadpleegt u [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).
+>[!MORELIKETHIS]
+>
+>[ de montages van de meningscomponent van Gegevens ](/help/data-views/component-settings/overview.md)
+>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>

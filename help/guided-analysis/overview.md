@@ -5,9 +5,9 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
+source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De volgende geleide analysemeningen zijn beschikbaar:
 
 ## Toegang
 
-Als uw organisatie is voorzien voor geleide analyse, kunt u tot het van de homepage van de Customer Journey Analytics toegang hebben.
+U hebt toegang tot Analyse met instructies vanaf de startpagina van de Customer Journey Analytics.
 
 1. Klik **[!UICONTROL Guided analysis]** van de homepage, die u rechtstreeks aan de [ mening van de tendensen van het Gebruik ](types/usage.md) neemt.
 

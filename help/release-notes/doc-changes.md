@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+source-git-commit: d0dbdcb6fa1402bce73584d1dd9165c1b3f00b33
 workflow-type: tm+mt
-source-wordcount: '4045'
+source-wordcount: '4044'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Documentatie over het toevoegen van componenten aan projecten | Toegevoegde algemene informatie over hoe te [ om de diverse soorten componenten aan projecten in Analysis Workspace ](/help/components/use-components-in-workspace.md) toe te voegen. |
 | Gebruiksscenario&#39;s bij exporteren van gegevens | Reeks nieuwe artikelen beschrijvend [ de gebruiksgevallen van de gegevensuitvoer ](/help/use-cases/data-export/overview.md) en hoe te om Experience Platform en de functionaliteit van de Customer Journey Analytics te gebruiken om deze gebruiksgevallen uit te voeren |
 | Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[ wordt begonnen met de verbetering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
-| Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures met betrekking tot [ creërend de waaiers van de douanedatum ](/help/components/date-ranges/custom-date-ranges.md) om de huidige producteigenschappen en het ontwerp aan te passen. |
+| Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures met betrekking tot [ waaiers van de voorbeelddatum ](/help/components/date-ranges/custom-date-ranges.md) om de huidige producteigenschappen en het ontwerp aan te passen. |
 | Informatie over Dimensionen | Toegevoegde informatie over [ afmetingen ](/help/components/dimensions/overview.md). |
 | Voorbeelden van bronconnectors | Toegevoegde voorbeelden van bronschakelaars die wanneer het beschrijven van beschikbaar zijn hoe te [ een bronschakelaar ](/help/data-ingestion/sources.md#use-a-source-connector) gebruiken voor het opnemen van gegevens. |
 | **April 2024** | |
@@ -141,7 +141,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Vergelijk Customer Journey Analytics met de oplossingen van BI | Het nieuwe document op a [ vergelijking ](../getting-started/cja-vs-bi.md) van Customer Journey Analytics aan typische oplossingen van BI. |
 | Bijwerken naar documentatie voor soorten publiek | Nieuwe sectie op [ latentieoverwegingen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency). |
 | Bijwerken naar documentatie voor soorten publiek | Nadat u een publiek hebt gecreeerd, leidt de Adobe tot een Experience Platform [ het stromen segment voor elk nieuw publiek van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
-| Workspace-kalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [ Ongeveer relatieve waaiers van de paneeldatum ](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| Workspace-kalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [ Ongeveer relatieve waaiers van de paneeldatum ](/help/components/date-ranges/overview.md#custom-date-ranges). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [ de waaiers van de vergelijkingsdatum ](/help/mobile-app/create-scorecard.md#show-comparison-dates) in Customer Journey Analytics tonen. |
 | **Januari 2023** | |
 | Tabellen filteren en sorteren | Bijgewerkte inhoud (met inbegrip van het toevoegen van procedures en het verklaren van beschikbare opties) in het [ Filter en sorteerlijsten ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artikel. De naam van dit artikel is gewijzigd in &quot;Paginering, filteren en sorteren van tabellen&quot;. |

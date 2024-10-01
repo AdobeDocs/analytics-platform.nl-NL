@@ -4,38 +4,48 @@ title: Labelfilters
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Labelfilters {#tag}
+# Labelfilters
 
-In Filterbeheer kunt u de filters organiseren door ze te labelen. Alle gebruikers kunnen labels voor filters maken en een of meer tags op een filter toepassen. U kunt echter alleen tags zien voor de filters die u bezit of die met u zijn gedeeld.
+In de [ manager van de Filter ](manage-filters.md), kunt u markeringen gebruiken om filters te organiseren. Beheerders kunnen alle filters labelen. Niet-beheerders kunnen alleen labels toewijzen aan de filters die ze maken of met hen zijn gedeeld.
 
-Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:
+Een of meer filters labelen:
 
-* Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing.
+1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt etiketteren.
+1. Van de actiebar, uitgezochte ![ Etiketten ](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In het dialoogvenster **[!UICONTROL Tag Filters]** :
 
-* Projectlabels (analysetags), zoals analyse van de pagina Entry.
+   ![ de dialoog van de Filters van de Markering ](assets/tag-filter-dialog.png)
 
-* Categorielabels: heren; geografie.
+   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
 
-* Workflowlabels: goed te keuren; gecentreerd voor (een specifieke bedrijfseenheid)
+   2. Gebaseerd op de lijst met labels:
 
-Een filter labelen:
+      * een of meer bestaande tags in de lijst te selecteren, of
+      * Voer een nieuwe tag in en druk op **[!UICONTROL ENTER]** . Herhaal deze bewerking om meerdere nieuwe tags toe te voegen.
 
-1. Markeer in Filterbeheer het selectievakje naast het filter dat u wilt labelen. De werkbalk voor filterbeheer wordt weergegeven.
+1. Selecteer **[!UICONTROL Save]** om de labels voor het filter op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-1. Klikken **[!UICONTROL Tag]** en hetzij
+Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor de geselecteerde filters in de [ bouwer van de Filter ](filter-builder.md).
 
-   * uit bestaande tags selecteren, of
 
-   * Voer een nieuwe tagnaam in en druk op **[!UICONTROL Enter]**.
+## Suggesties
 
-1. Klikken **[!UICONTROL Tag]** nogmaals om het filter te labelen.
+Hieronder volgen enkele suggesties voor het organiseren van tags op basis van:
 
-Het label moet nu in de kolom Codes staan. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
-U kunt ook filteren op tags door naar **[!UICONTROL Filters > Tags]**.
+* **Team**: Bijvoorbeeld, Sociale Marketing, Mobiele Marketing.
+
+* **Project**: Bijvoorbeeld, ingang-pagina analyse.
+
+* **Categorie**:. Bijvoorbeeld Mannen, Vrouwen, Kinderen.
+
+* **Geografie**: Bijvoorbeeld: Verenigde Staten, Californië.
+
+* **Werkschema**: Bijvoorbeeld: Om te worden goedgekeurd, Gekrulde
+

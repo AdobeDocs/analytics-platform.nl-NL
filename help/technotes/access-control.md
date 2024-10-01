@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ U kunt het beleid van het Profiel van het Product toegang tot een teamlood van e
 
 ### Toegangsbeheer op rijniveau
 
-Stel dat u gebruikers slechts vanaf één dag toegang wilt geven tot gegevens. Hieronder wordt beschreven hoe u de toegang tot die specifieke rijen beperkt:
+U wilt gebruikers slechts vanaf één dag toegang geven tot gegevens. Hieronder wordt beschreven hoe u de toegang tot die specifieke rijen beperkt:
 
 1. Maak een filter in [!UICONTROL Settings] van een specifieke gegevensweergave, waarbij [!UICONTROL Day] gelijk is aan de datum waarop de gegevens toegankelijk moeten zijn. Zie [ gegevensmening ](/help/data-views/create-dataview.md#settings-filters) voor meer informatie creëren.
 1. Sparen de gegevensmening, die het filter op het gegevensdeel van de datasets in de onderliggende verbinding toepast. Rijen die niet in de filterdefinitie passen, worden automatisch uitgesloten van de gegevensweergave en zijn niet beschikbaar voor Analysis Workspace wanneer deze gegevensweergave wordt gebruikt.

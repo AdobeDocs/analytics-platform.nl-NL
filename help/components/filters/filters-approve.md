@@ -4,29 +4,26 @@ title: Filters goedkeuren
 feature: Filters
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Filters goedkeuren {#approve}
+# Filters goedkeuren
 
-Binnen de Manager van de Filter, kunt u opstelling een werkschema dat het goedkeuren van filter voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
+In de [ manager van de Filter ](manage-filters.md), kunt u filters goedkeuren en goedkeuren. Alleen beheerders kunnen filters goedkeuren.
 
-Hieronder wordt beschreven hoe u een filter kunt markeren zoals het is goedgekeurd:
+Filters goedkeuren:
 
-1. Schakel in Filterbeheer het selectievakje links van de titel Filter in.
+1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt goedkeuren.
+1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. De goedgekeurde filters worden vermeld met ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg)
 
-1. Klikken **[!UICONTROL Approve]** in de taakbalk voor filterbeheer.
+Filters niet goedkeuren:
 
-1. U kunt overwegen het goedgekeurde filter of de filters te delen met uw organisatie.
+1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt goedkeuren.
+1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
-1. Klik op **[!UICONTROL OK]**.
 
-   Let op het goedkeuringspictogram naast het filter in de lijst:
-
-   ![Filterbeheer dat aangeeft dat bestellingen groter dan 100 zijn goedgekeurd voor delen.](assets/seg_approved.png)
-
-1. U kunt een goedgekeurd filter ook niet goedkeuren door op **[!UICONTROL Unapprove]**.
+U kunt de lijst met filters filteren op goedgekeurde filters. Selecteer **[!UICONTROL Other filters]** van het ![ paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** en selecteer **[!UICONTROL Approved]**. Zie [ de lijst van filters ](/help/components/filters/filters-filter.md) voor meer informatie filtreren.

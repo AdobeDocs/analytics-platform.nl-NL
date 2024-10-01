@@ -2,23 +2,21 @@
 description: Beschrijft hoe te om berekende metrisch in Berekende metriekmanager te kopiëren
 title: Berekende cijfers kopiëren
 feature: Calculated Metrics
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+exl-id: b1cc1171-aebf-4b97-99db-9bbcef5ea9d7
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Berekende cijfers kopiëren
 
-Wanneer het creëren van nieuwe berekende metrisch, is het soms gemakkelijker om bestaande berekende metrisch te kopiëren die aan berekende metrisch dicht is die u wilt tot stand brengen, dan wijzigen de versie u kopieerde.
+Wanneer u een nieuwe berekende metrische waarde maakt, hoeft u niet helemaal opnieuw te beginnen. U kunt bestaande berekende metrisch kopiëren die reeds een juiste definitie om van te beginnen verstrekt, dan wijzigen de versie u kopieerde.
 
-Een berekende metriek kopiëren in het Berekende manager van metriek:
+Om een berekende metriek in de [ Berekende metriekmanager ](cm-manager.md) te kopiëren:
 
-1. Selecteer in Customer Journey Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Calculated metrics]**.
+1. In de [ Berekende metrische manager ](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt kopiëren.
+1. Van de actiebar, uitgezochte ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
 
-1. In het Berekende manager van metriek, selecteer berekende metrisch die u wilt kopiëren.
-
-   De berekende metrische het hulpmiddelbar van het Beheer verschijnt.
-
-1. Selecteren **[!UICONTROL Copy]**.
+De nieuwe berekende metriek worden gecreeerd met de zelfde naam en het achtervoegsel `(Copy)`.

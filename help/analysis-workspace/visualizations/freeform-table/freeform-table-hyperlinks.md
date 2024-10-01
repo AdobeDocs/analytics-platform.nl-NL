@@ -4,9 +4,9 @@ description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormta
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 8941b6a8339294cf121a07ca0c14bac50342d04e
+source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,17 @@ U kunt hyperlinks maken voor dimensie-items, zodat hierop kan worden geklikt in 
 
 Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volgende typen dimensies:
 
-* Items Dimensionen die URL-waarden hebben waarnaar u een koppeling wilt maken (bijvoorbeeld een pagina-URL-dimensie)
+* Dimension-items met URL-waarden (bijvoorbeeld een pagina-URL-dimensie)
 
-* Items van een Dimension die onderverdelingen bevatten met URL-waarden waarnaar u wilt koppelen (bijvoorbeeld een pagina-naamdimensie met een indeling van een pagina-URL-dimensie)
+* Dimension-items die onderverdelingen bevatten met URL-waarden (bijvoorbeeld een paginanummer met een indeling van een pagina-URL-dimensie)
 
-* Items of uitsplitsingen in Dimensionen met waarden die onderdeel zijn van een URL waarnaar u een koppeling wilt maken (bijvoorbeeld een paginanaam die deel uitmaakt van een URL)
+* Items of uitsplitsingen in Dimensionen met waarden die onderdeel zijn van een URL (bijvoorbeeld een dimensie Paginanaam die onderdeel is van een URL)
 
-+++ Bekijk een videodemonstratie van deze functie.
++++ Bekijk een videodemonstratie van deze functionaliteit.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
+{{videoaa}}
 
 +++
 
@@ -35,62 +37,69 @@ Houd rekening met het volgende wanneer u hyperlinks maakt voor dimensie-items:
 
 * De hyperlinks die u maakt, worden opgeslagen in de vrije-vormtabel in het Analysis Workspace-project. Hyperlinks blijven niet bestaan wanneer u dezelfde dimensie- of dimensie-items in een andere tabel of in een ander project gebruikt.
 
-* Als u de gegevensweergave van de vrije-vormlijst wijzigt, zijn alle hyperlinks die voor dimensies of dimensie-items in de tabel zijn gemaakt, nog steeds beschikbaar, op voorwaarde dat de dimensie in de gegevensweergave bestaat.
+* Als u de gegevensweergave van de vrije-vormtabel wijzigt, zijn alle hyperlinks die voor dimensies of dimensies-items in de tabel zijn gemaakt, nog steeds beschikbaar. Deze functionaliteit veronderstelt dat de dimensie nog in de gegevensmening bestaat.
 
-* URL&#39;s worden niet gecontroleerd op geldigheid wanneer u de hyperlink maakt.
+* URL&#39;s worden niet gecontroleerd op geldigheid wanneer u de hyperlink maakt. Als u
 
-  Als u een hyperlink maakt die een ongeldige URL heeft, of als u een hyperlink maakt die verwijst naar een dimensie-item dat geen URL-waarde heeft (door rechtstreeks naar het dimensie-item te verwijzen of door het `$value` of `$breakdown` (variabelen), wordt een foutbericht weergegeven voor gebruikers die op de hyperlink klikken.
+   * een hyperlink met een ongeldige URL maken, of
+   * een hyperlink maken die verwijst naar een dimensie-item dat geen URL-waarde heeft (door rechtstreeks naar het dimensie-item te verwijzen of door de variabelen `$value` of `$breakdown` te gebruiken);
+
+  gebruikers die op de hyperlink klikken, zien een foutbericht met de melding dat de URL ongeldig is.
 
 * Hyperlinks die voor één enkel afmetingspunt worden gecreeerd treden hyperlinks met voeten die op de afmeting worden gecreeerd.
 
-* Hyperlinks zijn niet functioneel in [gedownloade PDF-bestanden](/help/analysis-workspace/export/download-send.md).
+* De hyperlinks zijn niet functioneel in [ gedownloade dossiers van PDF ](/help/analysis-workspace/export/download-send.md).
 
 U kunt als volgt hyperlinks maken voor een of meer dimensies:
 
 1. Voer een van de volgende handelingen uit in een vrije-vormtabel in Analysis Workspace:
 
-   * **Een hyperlink maken voor één dimensie-item:** Klik met de rechtermuisknop op het dimensie-item in de tabel waarvoor u de hyperlink wilt maken en selecteer vervolgens [!UICONTROL **Hyperlink maken**].
+   * **creeer een hyperlink voor één enkel afmetingspunt:** klik het afmetingspunt binnen de lijst met de rechtermuisknop aan waarvoor u hyperlink wilt creëren, dan selecteren [!UICONTROL **hyperlink**] creëren.
 
-     ![Hyperlink maken voor één dimensie-item](assets/hyperlink-single-add.png)
+      1. Open het contextmenu voor het dimensie-item.
+      1. Selecteer [!UICONTROL **hyperlink**] van het contextmenu creëren.
 
-     De [!UICONTROL **Hyperlink maken**] wordt weergegeven. De naam van het dimensie-item waarvoor u een hyperlink maakt, wordt weergegeven in het dialoogvenster.
+         [!UICONTROL **creeer hyperlink**] dialoog wordt getoond. De naam van het dimensie-item waarvoor u een hyperlink maakt, wordt weergegeven in het dialoogvenster.
 
-     ![Hyperlink maken voor één itemdialoogvenster](assets/hyperlink-dialog-single.png)
+         ![ creeer hyperlink voor één enkel puntdialoog ](assets/hyperlink-dialog-single.png)
 
-   * **Maak hyperlinks voor alle afmetingsitems in een afmetingskolom:** Klik met de rechtermuisknop op de naam van de dimensie in de kolomkop Afmeting en selecteer [!UICONTROL **Hyperlinks maken voor alle dimensie-items**].
+   * **creeer hyperlinks voor alle afmetingspunten in een afmetingskolom:** klik de afmetingsnaam in de kopbal van de afmetingskolom met de rechtermuisknop aan, dan uitgezocht [!UICONTROL **creeer hyperlinks voor alle afmetingspunten**].
 
-     ![Hyperlink maken voor een dimensie](assets/hyperlink-multiple-add.png)
+      1. Open het contextmenu in de kolomkop Dimensie.
+      1. Selecteer [!UICONTROL **hyperlink voor alle afmetingspunten**] van het contextmenu creëren.
 
-     De [!UICONTROL **Hyperlinks maken voor alle dimensie-items**] wordt weergegeven. De naam van de dimensie waarvoor u hyperlinks maakt, wordt weergegeven in het dialoogvenster.
+         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-     ![Dialoogvenster Hyperlinks maken](assets/hyperlink-dialog-multiple.png)
+         [!UICONTROL **creeer hyperlinks voor alle afmetingspunten**] dialoog wordt getoond. De naam van de dimensie waarvoor u hyperlinks maakt, wordt weergegeven in het dialoogvenster.
+
+         ![ creeer hyperlinks dialoog ](assets/hyperlink-dialog-multiple.png)
 
 1. Kies een van de volgende opties:
 
-   * [!UICONTROL **De waarde van het dimensie-item gebruiken als de URL**]: Kies deze optie voor afmetingsitems met URL-waarden, zoals een pagina-URL-dimensie.
+   * [!UICONTROL **gebruik de waarde van het afmetingspunt als URL**]: Kies deze optie voor afmetingspunten die waarden URL, zoals een afmeting van Pagina URL hebben.
 
      Als u bijvoorbeeld een pagina-URL-dimensie gebruikt waarvan de waarde van elk dimensie-item een URL is, maakt u met deze optie een hyperlink naar de URL.
 
-   * [!UICONTROL **Een aangepaste URL maken**]: Geef een statische of dynamische aangepaste URL op. Kies deze optie om hyperlinks te maken voor dimensie-items die geen URL-waarden hebben.
+   * [!UICONTROL **creeer een douane URL**]: Specificeer of een statische of dynamische douane URL. Kies deze optie om hyperlinks te maken voor dimensie-items die geen URL-waarden hebben.
 
-     Als u bijvoorbeeld een dimensie Paginanaam gebruikt waarbij de waarde van elk dimensie-item de naam van een pagina is (en niet een volledige URL), kunt u met deze optie een hyperlink opgeven die u wilt gebruiken als de koppeling voor het dimensie-item.
+     Bijvoorbeeld: u gebruikt een dimensie van de Naam van de Pagina waar de waarde van elk afmetingspunt de naam van een pagina (en niet een volledige URL) is. Selecteer deze optie om een hyperlink op te geven die u wilt gebruiken als de koppeling voor het dimensie-item.
 
-     Als u dynamische URL&#39;s wilt maken voor meerdere dimensie-items, kunt u de opdracht `$value` en `$breakdown` variabelen in uw aangepaste URL. Zie de onderstaande tabel voor meer informatie.
+     Als u dynamische URL&#39;s wilt maken voor meerdere dimensie-items, kunt u de variabelen `$value` en `$breakdown` gebruiken in de aangepaste URL. Zie de onderstaande tabel voor meer informatie.
 
      Als u een aangepaste URL wilt maken, geeft u de volgende informatie op:
 
      | Veld | Beschrijving |
      |---------|----------|
-     | [!UICONTROL **Aangepaste URL**] | Geef een aangepaste URL op die u voor de hyperlink wilt gebruiken. URL&#39;s moeten als volledig gekwalificeerde URL&#39;s worden ingevoerd. Bijvoorbeeld: <https://www.example.com><p>De aangepaste URL die u maakt, kan statisch of dynamisch zijn:</p> <ul><li>**Statische URL&#39;s:** Als u een hyperlink maakt voor een afzonderlijk dimensie-item, is een statische URL mogelijk voldoende. <p>Neem het volgende voorbeeld: als u bijvoorbeeld een pagina-naamafmetingsitem hebt, kunt u een statische URL maken die gebruikers koppelt aan de specifieke webpagina die u aan de paginanaam wilt koppelen.</p><p>Veronderstel dat u hyperlinks voor een lijst van afmetingspunten wilt tot stand brengen, elk die met zijn respectieve definitie in de documentatie binnen een interne wiki- pagina verbinden.</p><p>U kunt dit bereiken door een statische URL te maken voor elk dimensie-item. Bijvoorbeeld:</p><p>https://wiki.internal.company_name/page_name#item_definition</p></li><li>**Dynamische URL&#39;s:** Als u een hyperlink voor veelvoudige afmeting punten of voor alle afmetingspunten in een afmetingskolom creeert, dan is dynamische URL waarschijnlijk praktischer. <p>Als u aangepaste URL&#39;s dynamisch wilt maken, neemt u variabelen in de URL op waarmee de URL dynamisch kan worden gewijzigd op basis van de waarde van de dimensie zelf of de waarde van de afbraakdimensie.</p><p>Wanneer u variabelen gebruikt, worden dimensieitems die tekens bevatten die niet geldig zijn in URL&#39;s (zoals spaties), URL-gecodeerd.</p><p>De volgende variabelen zijn beschikbaar: (**Opmerking**: Hoewel u deze variabelen in dezelfde URL kunt gebruiken, is het waarschijnlijker dat u ze afzonderlijk gebruikt.)</p> <ul><li>**`$value`:** Hiermee kunt u de waarde van het dimensie-item invoegen in de URL die u opgeeft. <p>Neem het volgende scenario als voorbeeld:</p><p>Stel dat u hyperlinks wilt maken voor alle pagina-naamatems in een vrije-vormtabel, waarbij de waarde van elk dimensie-item deel uitmaakt van de URL van een webpagina. In dit geval kunt u één aangepaste URL maken die dynamisch voor elk dimensie-item wordt aangepast. </p><p>U kunt dit bereiken door de `$value` aan het einde van de aangepaste URL die u opgeeft. Bijvoorbeeld:</p> <p>https://company-name.com/browse/product#\$value</p><p>Wanneer deze aangepaste URL wordt toegepast op de pagina-naamatems waarvan de waarden &quot;ProductY&quot; en &quot;ProductZ&quot; zijn, zien de gegenereerde hyperlinks er ongeveer als volgt uit: </p><p>https://company-name.com/browse/product#ProductY</p><p>en</p><p> https://company-name.com/browse/product#ProductZ </p><p>![waarden gebruiken in hyperlinks](assets/table-hyperlinks-vaule.png)</p><p>**Tip**: Als u alleen de opdracht `$value` variabele in het veld Aangepaste URL zou gelijk zijn aan het selecteren van de [!UICONTROL **De waarde van het dimensie-item gebruiken**] als u de URL maakt.</p></li><li>**`$breakdown`:** Hiermee kunt u de waarde van het item voor de splitsingsdimensie invoegen in de URL die u opgeeft. Dit staat u toe om een afmeting met een gebruikersvriendelijke naam in uw rapport (zoals een afmeting van de Naam van het Product) te gebruiken terwijl het creëren van hyperlink die op een afbraakafmeting wordt gebaseerd die minder gebruikersvriendelijk (zoals een identiteitskaart van het Product of de afmeting van URL van de Pagina) zou kunnen zijn.<p>Bij het verwijzen naar een uitsplitsingsdimensie is het het meest gebruikelijk dat er slechts één uitsplitsingspost voor een gegeven dimensie-item is. Indien er meerdere uitsplitsingsposten zijn voor een gegeven dimensie-item, wordt de waarde van de eerste uitsplitsingspost gebruikt in de URL. Als er geen uitsplitsingsitems worden weergegeven, is de URL ongeldig. Op de uitsplitsingsposten wordt dezelfde sorteervolgorde toegepast als op de tabel.</p><p>U geeft de afbraakdimensie op in het dialoogvenster [!UICONTROL **Dimensie uitsplitsing**] veld hieronder.</p> <p>Overweeg het voorbeeldscenario dat voor wordt beschreven [!UICONTROL **Dimensie uitsplitsing**] veld hieronder.</p></li></ul> |
-     | [!UICONTROL **Afmetingen onderverdelingen (optioneel)**] | Typ de naam van de afbraakdimensie die u wilt gebruiken en selecteer deze in de vervolgkeuzelijst. <p>Als u een afbrekingsdimensie in dit veld selecteert, moet u ernaar verwijzen met de opdracht `$breakdown` variabele in de URL die u in het dialoogvenster [!UICONTROL **Aangepaste URL**] veld.</p><p>Neem het volgende scenario als voorbeeld:</p><p>Veronderstel dat u hyperlinks voor alle de afmetingspunten van de Naam van het Product in een vrije lijst wilt tot stand brengen. Elk item van de productnaam bevat een uitsplitsing van een product-id-dimensie.</p></p>In dit geval, kunt u hyperlinks voor elke dimensie van de Naam van het Product tot stand brengen die gebruikers aan de productpagina door de waarde van de de verdelingsdimensie van identiteitskaart van het Product te gebruiken leidt. </p><p>U kunt dit bereiken door de `$breakdown` variabele tot het einde van de aangepaste URL die u in het dialoogvenster [!UICONTROL **Aangepaste URL**] veld. Bijvoorbeeld:</p><p>https://company-name.com/browse/product/$breakdown</p><p>Wanneer deze aangepaste URL wordt toegepast op de elementen van de productnaam met items voor de afbraakdimensie waarvan de waarden &quot;ProductY&quot; en &quot;ProductZ&quot; zijn, zien de gegenereerde hyperlinks er ongeveer als volgt uit:</p><p>https://company-name.com/browse/product/ProductY</p><p>en</p><p>https://company-name.com/browse/product/ProductZ</p><p>Vervolgens selecteert u de dimensie Product ID in het dialoogvenster [!UICONTROL **Dimensie uitsplitsing**] field </p><p>![gebruik onderverdelingen in hyperlinks](assets/table-hyperlinks-breakdown.png)</p> |
+     | [!UICONTROL **Aangepaste URL**] | Geef een aangepaste URL op die u voor de hyperlink wilt gebruiken. URL&#39;s moeten als volledig gekwalificeerde URL&#39;s worden ingevoerd. Bijvoorbeeld: <https://www.example.com><p>De aangepaste URL die u maakt, kan statisch of dynamisch zijn:</p> <ul><li>**Statische URLs:** u kunt statische URL voor één enkel afmetingspunt of voor alle afmetingspunten specificeren wanneer u de punten allen aan zelfde URL wilt verbinden. Bijvoorbeeld: `https://wiki.internal.company_name/page_name#item_definition`</p></li><li>**Dynamische URLs:** u kunt tot een dynamische URL leiden als u unieke hyperlinks voor veelvoudige afmetingspunten, of voor alle afmetingspunten in een afmetingskolom wilt tot stand brengen.<p>Als u aangepaste URL&#39;s dynamisch wilt maken, neemt u een variabele op in de URL om de URL te wijzigen op basis van de waarde van de dimensie of de waarde van de afbraakdimensie.</p><p>Wanneer u variabelen gebruikt, worden dimensieitems die tekens bevatten die niet geldig zijn in URL&#39;s (zoals spaties), URL-gecodeerd.</p><p>De volgende variabelen zijn beschikbaar: (**Nota**: Terwijl u deze variabelen in zelfde URL kunt gebruiken, is het gemeenschappelijker om hen afzonderlijk te gebruiken.)</p> <ul><li>**`$value`:** staat u toe om de waarde van het afmetingspunt in te voegen in URL die u specificeert. <p>Stel dat u hyperlinks wilt maken voor alle pagina-naamatems in een vrije-vormtabel, waarbij de waarde van elk dimensie-item deel uitmaakt van de URL van een webpagina. In dit geval kunt u één aangepaste URL maken die dynamisch voor elk dimensie-item wordt aangepast. <br/> Bijvoorbeeld: `https://company-name.com/browse/product#\$value`</p><p>Wanneer deze aangepaste URL wordt toegepast op de pagina-naamatems waarvan de waarden &quot;ProductY&quot; en &quot;ProductZ&quot; zijn, zien de gegenereerde hyperlinks er ongeveer als volgt uit: <br/>`https://company-name.com/browse/product#ProductY` en <br/>`https://company-name.com/browse/product#ProductZ` </p><p>![ gebruikswaarden in hyperlinks ](assets/table-hyperlinks-vaule.png)</p><p>**Uiteinde**: Toevoegend slechts de `$value` variabele in het gebied van Douane URL, is het zelfde als selecterend het [!UICONTROL **Gebruik de waarde van het afmetingspunt**] optie wanneer het creëren van URL.</p></li><li>**`$breakdown`:** staat u toe om de waarde van het punt van de verdelingsdimensie in URL op te nemen die u specificeert. Met `$breakdown`, kunt u een afmeting met een gebruikersvriendelijke naam in uw rapport (zoals een afmeting van de Naam van het Product) gebruiken. En genereer een hyperlink op basis van een afbraakdimensie die mogelijk minder gebruikersvriendelijk is (zoals een product-id of pagina-URL-dimensie).<p>Bij het verwijzen naar een uitsplitsingsdimensie is het het meest gebruikelijk dat er slechts één uitsplitsingspost voor een gegeven dimensie-item is. Indien er meerdere uitsplitsingsposten zijn voor een gegeven dimensie-item, wordt de waarde van de eerste uitsplitsingspost gebruikt in de URL. Als er geen uitsplitsingsitems worden weergegeven, is de URL ongeldig. Op de uitsplitsingsposten wordt dezelfde sorteervolgorde toegepast als op de tabel.</p><p>U specificeert de verdelingsafmeting op het [!UICONTROL **hieronder gebied van de Afmeting van de Onderverdeling**].</p> <p>Overweeg het voorbeeldscenario dat voor het [!UICONTROL **hieronder gebied van de Afmeting van de Onderverdeling**] wordt beschreven.</p></li></ul> |
+     | [!UICONTROL **dimensie van de Onderbreking (facultatief)**] | Typ de naam van de afbraakdimensie die u wilt gebruiken en selecteer deze in de vervolgkeuzelijst. <p>Als u een afbraakdimensie op dit gebied selecteert, moet u het van verwijzingen voorzien door de `$breakdown` variabele in URL te gebruiken die u op het [!UICONTROL **Douane URL**] gebied specificeert.</p><p>Veronderstel dat u hyperlinks voor alle de afmetingspunten van de Naam van het Product in een vrije lijst wilt tot stand brengen. Elk item van de productnaam bevat een uitsplitsing van een product-id-dimensie.</p></p>In dit geval, kunt u hyperlinks voor elke dimensie van de Naam van het Product tot stand brengen die gebruikers aan de productpagina door de waarde van de de verdelingsdimensie van identiteitskaart van het Product te gebruiken leidt. </p><p>Voeg de `$breakdown` variabele aan het eind van douane URL toe die u op het [!UICONTROL **gebied van de Douane URL**] specificeert. Bijvoorbeeld:</p><p>`https://company-name.com/browse/product/$breakdown`</p>Wanneer deze aangepaste URL wordt toegepast op uw items van de productnaam (die items van de afbraakdimensie hebben waarvan de waarden &quot;ProductY&quot; en &quot;ProductZ&quot; zijn), zien de gegenereerde hyperlinks er als volgt uit:<br/>`https://company-name.com/browse/product/ProductY` en <br/>`https://company-name.com/browse/product/ProductZ`</p><p>U zou dan de dimensie van identiteitskaart van het Product in het [!UICONTROL **Afmeting van de Onderbreking**] gebied selecteren </p><p>![ gebruiksuitbreidingen in hyperlinks ](assets/table-hyperlinks-breakdown.png)</p> |
 
-1. Selecteren [!UICONTROL **Maken**].
+1. Selecteer [!UICONTROL **creeer**].
 
    Gebruikers die de vrije-vormlijst bekijken zien de hyperlinked dimensiepunten. Wanneer gebruikers op een dimensie-item klikken, worden ze naar de pagina&#39;s met hyperlinks op een apart browsertabblad geleid.
 
    <!-- add screenshot of a table with hyperlinks.-->
 
-1. [Het project opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw wijzigingen op te slaan.
+1. [ sparen het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.
 
 ## Hyperlinks bewerken
 
@@ -98,21 +107,27 @@ U kunt hyperlinks bewerken die zijn gemaakt voor dimensies of dimensies-items in
 
 1. Voer een van de volgende handelingen uit in een vrije-vormtabel in Analysis Workspace:
 
-   * **Een hyperlink bewerken voor één dimensie-item:** Klik met de rechtermuisknop op het dimensie-item in de tabel waar u de hyperlink wilt bewerken.
+   * **geef een hyperlink voor één enkel afmetingspunt uit:**
 
-     ![Hyperlink bewerken voor één dimensie-item](assets/hyperlink-single-edit.png)
+      1. Open het contextmenu voor het dimensie-item.
+      1. Selecteer [!UICONTROL **hyperlink**] van het contextmenu uitgeven.
 
-   * **Bewerk hyperlinks voor alle dimensie-items in een dimensiekolom:** Klik met de rechtermuisknop op de naam van de dimensie in de kolomkop Afmeting.
+     <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
-     ![Hyperlink bewerken voor een dimensie](assets/hyperlink-dimension-edit.png)
+   * **geef hyperlinks voor alle afmetingspunten in een afmetingskolom uit:**
 
-1. Selecteren [!UICONTROL **Hyperlink bewerken**] in het snelmenu.
+      1. Open het contextmenu in de kolomkop Dimensie.
+      1. Selecteer **[!UICONTROL Edit hyperlink for all dimension items]** in het contextmenu.
 
-   De [!UICONTROL **Hyperlinks bewerken voor dimensie-items**] wordt weergegeven.
+     <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
-1. Voor informatie over de configuratieopties voor het bewerken van de hyperlink raadpleegt u Stap 3 in de [Hyperlinks maken voor een of meer afmetingsitems](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven, selecteer vervolgens [!UICONTROL **Toepassen**] als u klaar bent met uw updates.
+1. Selecteer [!UICONTROL **hyperlinks voor alle afmetingspunten**] van het met de rechtermuisknop aanklikken menu uitgeven.
 
-1. [Het project opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw wijzigingen op te slaan.
+   [!UICONTROL **geeft hyperlinks voor afmetingspunten**] dialoog uit wordt getoond.
+
+1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL ****] toepassen wanneer u met uw updates wordt gebeëindigd.
+
+1. [ sparen het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.
 
 ## Hyperlinks verwijderen
 
@@ -126,16 +141,21 @@ Hyperlinks verwijderen uit dimensieitems:
 
 1. Voer een van de volgende handelingen uit in een vrije-vormtabel in Analysis Workspace:
 
-   * **Een hyperlink verwijderen uit één dimensie-item:** Klik met de rechtermuisknop op het dimensie-item in de tabel waar u de hyperlink wilt verwijderen.
+   * **verwijder een hyperlink uit één enkel afmetingspunt:**
 
-     ![Hyperlink verwijderen uit één dimensie-item](assets/hyperlink-single-remove.png)
+      1. Open het contextmenu voor het dimensie-item.
+      1. Selecteer [!UICONTROL **verwijder hyperlink**] uit het contextmenu.
+         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
-   * **Verwijder hyperlinks uit alle afmetingsitems in een afmetingskolom:** Klik met de rechtermuisknop op de naam van de dimensie in de kolomkop Afmeting.
+   * **verwijder hyperlinks van alle afmetingspunten in een afmetingskolom:**
 
-     ![Hyperlink verwijderen uit een dimensie](assets/hyperlink-dimension-remove.png)
+      1. Open het contextmenu in de kolomkop Dimensie.
+      1. Selecteer **[!UICONTROL Remove hyperlink for all dimension items]** in het contextmenu.
 
-1. Selecteren [!UICONTROL **Hyperlink verwijderen**] in het snelmenu.
+     <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 
-   De hyperlink wordt verwijderd uit het item met één dimensie (als u één dimensie-item hebt geselecteerd) of uit alle dimensie-items (als u de naam van de dimensie hebt geselecteerd in de kolomkop met dimensie).
 
-1. [Het project opslaan](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw wijzigingen op te slaan.
+
+   De hyperlink wordt verwijderd uit het item met één dimensie als u één dimensie-item hebt geselecteerd. Of van alle afmetingspunten als u de afmetingsnaam in de kopbal van de afmetingskolom selecteerde.
+
+1. [ sparen het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.

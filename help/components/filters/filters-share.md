@@ -4,35 +4,40 @@ title: Filters delen
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# Filters delen {#share}
+# Filters delen
 
-Afhankelijk van uw machtigingen kunt u filters delen met uw hele organisatie, groepen of individuele gebruikers.
+In de [ manager van de Filter ](manage-filters.md), kunt u filters delen. Afhankelijk van uw machtigingen kunt u filters delen met uw hele organisatie, groepen of individuele gebruikers:
 
-| Beheerder | Niet-beheerder |
-|---|---|
-| Kan filters delen met Alles, met groepen en met gebruikers. Zie de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) voor meer informatie . | Filters kunnen alleen met individuele gebruikers worden gedeeld. |
+* **Beheerders**: De beheerders kunnen filters met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van de Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) voor meer informatie.
+* **niet-beheerders**: De niet-beheerders kunnen de filters slechts delen zij en slechts met individuele gebruikers hebben gecreeerd. |
 
-Wanneer zou u filters met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier volgen enkele aanbevolen procedures:
+Een of meer filters delen:
 
-* Als Admin, deel een filter met allen als het van nut voor het volledige bedrijf is en iedereen het comfortabel gebruikt. In dit geval moet u ook overwegen om er een goedgekeurd filter van te maken.
+1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt delen.
+1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/Share.svg) **[!UICONTROL Share]**.
+1. In het dialoogvenster **[!UICONTROL Share Filters]** :
 
-* Als Admin, deel een filter met een specifiek Profiel van het Product als de filter goede bedrijfswaarde voor dat team verstrekt. Dit type filter niet officieel goedkeuren.
+   ![ de dialoog van de Filters van het Aandeel ](assets/share-filter-dialog.png)
 
-* Als Admin of een individuele gebruiker, deel een filter met andere individuen om een filter te onderzoeken en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Dit type filter niet officieel goedkeuren.
+   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u de filter met wilt delen.
 
-Een filter delen:
+   1. Selecteer een of meer opties in de sectie **[!UICONTROL Organization]** of **[!UICONTROL Groups]** of zoek naar en selecteer een of meer personen. Welke opties beschikbaar zijn, is afhankelijk van uw rol.
 
-1. Markeer in Filterbeheer het selectievakje naast het filter dat u wilt delen.
+   1. Selecteer **[!UICONTROL Save]** om de filters te delen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-1. Klik in de werkbalk Filterbeheer op **[!UICONTROL Share]**.
+## Aanbevolen procedures
 
-1. Als u een beheerder bent, kunt u Alles selecteren of kiezen uit Groepen en Gebruikers in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het veld Zoeken om te zoeken naar groepen of gebruikers. Klik op **[!UICONTROL Share]**. Het pictogram Gedeeld wordt weergegeven naast het filter: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+Hieronder vindt u een aantal aanbevolen procedures voor het delen van filters en het delen van filters met wie u filters wilt delen.
 
-1. U kunt filteren op filters die met u worden gedeeld door naar Filters > Andere Filters > met mij worden gedeeld.
+* Als beheerder, deel slechts een filter met allen als u overtuigd bent iedereen in uw organisatie het gebruiken van de filters comfortabel is. U kunt ook overwegen deze filters te begunstigen. Zie [ Teken een filter als favoriet ](filters-favorite.md) voor meer informatie.
+
+* Als beheerder, deel een filter met een specifieke groep als die filter bedrijfswaarde voor het gebruikersdeel van die groep verstrekt
+
+* Als beheerder of individuele gebruiker, deel een filter met één of meerdere individuen om een filter te bevestigen. Als de filters niet nuttig blijken te zijn, kunt u het filter verwijderen.
