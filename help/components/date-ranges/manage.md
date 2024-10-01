@@ -4,9 +4,9 @@ description: U kunt datumbereiken delen, hernoemen of verwijderen in Analysis Wo
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ U kunt op datumbereiken actie ondernemen met de ➋ van de actiebalk. De actieba
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere datumwaaier toe, gebruikend de [ de waaierbouwer van de Datum ](create.md#date-range-builder). |
 | ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen datumbereik is geselecteerd in de lijst, zoekt u naar datumbereiken met dit zoekveld. |
 | ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde datumbereiken. Selecteer in het dialoogvenster **[!UICONTROL Tag Date range]** de tags voor de geselecteerde datumbereiken of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde datumbereiken op te slaan. |
-| ![ Aandeel ](/help/assets/icons/Share.svg) **[!UICONTROL Share]** | Deel de geselecteerde datumbereiken. In de **[!UICONTROL Share Date range]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om de deelgegevens voor de geselecteerde datumbereiken op te slaan. |
+| ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Deel de geselecteerde datumbereiken. In de **[!UICONTROL Share Date range]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om de deelgegevens voor de geselecteerde datumbereiken op te slaan. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde datumbereiken. U wordt gevraagd om een bevestiging. |
 | ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerd datumbereik. Als deze optie is geselecteerd, kunt u de naam van het datumbereik inline wijzigen. |
 | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Geef de geselecteerde datumbereiken goed. |
@@ -64,7 +64,7 @@ De filterbalk ➌ de actieve filters (indien aanwezig). U kunt een filter snel v
 
 ### Deelvenster Filter
 
-U kunt datumwaaiers filtreren gebruikend de ![ linker paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal datumbereiken weergegeven die aan het filter voldoen. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+U kunt datumbereiken filteren met de ➍ van het linkerdeelvenster van **[!UICONTROL Filter]** . In het filterdeelvenster worden het type filter en het aantal datumbereiken weergegeven die aan het filter voldoen. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
 
 De lijst met filters filteren:
 

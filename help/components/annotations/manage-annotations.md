@@ -4,9 +4,9 @@ description: Annotaties beheren in Workspace.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In de lijst met annotaties ➊ alle annotaties worden weergegeven die u hebt, de
 | Kolom | Beschrijving |
 | --- | --- | 
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een aantekening te begunstigen. |
-| **[!UICONTROL Title and description]** | Opgegeven in de Annotations Builder. Om de titel en de beschrijving uit te geven, selecteer de titelverbinding - opent de [ bouwer van Annotaties ](/help/components/annotations/create-annotations.md#annotation-builder). Een gedeelde annotatie wordt vermeld met ![ Aandeel ](/help/assets/icons/Share.svg). |
+| **[!UICONTROL Title and description]** | Opgegeven in de Annotations Builder. Om de titel en de beschrijving uit te geven, selecteer de titelverbinding - opent de [ bouwer van Annotaties ](/help/components/annotations/create-annotations.md#annotation-builder). Een gedeelde annotatie wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareLight.svg). |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop deze aantekening van toepassing is. |
 | **[!UICONTROL Owner]** | De eigenaar van de aantekening. Als gebruiker ziet u alleen de annotaties die u hebt of de annotaties die met u worden gedeeld. |
 | **[!UICONTROL Applied date range]** | De datum of het datumbereik waarop deze aantekening van toepassing is. |
@@ -57,7 +57,7 @@ U kunt actie ondernemen op annotaties met behulp van het ➋ op de actiebalk. De
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere annotatie toe, gebruikend de [ bouwer van de Annotatie ](create-annotations.md#annotation-builder). |
 | ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen annotatie is geselecteerd in de lijst, zoekt u naar annotaties met dit zoekveld. |
 | ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde annotaties. Selecteer in het dialoogvenster **[!UICONTROL Tag Component]** de tags voor de geselecteerde annotaties of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde annotaties op te slaan. |
-| ![ Aandeel ](/help/assets/icons/Share.svg) **[!UICONTROL Share]** | Deel de geselecteerde annotaties. In de **[!UICONTROL Share Component]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde annotaties op te slaan. Zie [ Annotaties van het Aandeel ](#share-annotations) voor meer details. |
+| ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Deel de geselecteerde annotaties. In de **[!UICONTROL Share Component]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde annotaties op te slaan. Zie [ Annotaties van het Aandeel ](#share-annotations) voor meer details. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde annotaties. U wordt gevraagd om een bevestiging. |
 | ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde annotatie. Als deze optie is geselecteerd, kunt u de naam van de annotatie inline wijzigen. |
 | ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde annotaties. Nieuwe annotaties worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
@@ -69,7 +69,7 @@ De filterbalk ➌ de actieve filters (indien aanwezig). U kunt een filter snel v
 
 ### Deelvenster Filter
 
-U kunt annotaties filtreren gebruikend de ![ Linker paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal annotaties weergegeven die het filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+U kunt annotaties filteren met de ➍ van het linkerdeelvenster van **[!UICONTROL Filter]** . In het filterdeelvenster worden het type filter en het aantal annotaties weergegeven die het filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
 
 De lijst met filters filteren:
 
