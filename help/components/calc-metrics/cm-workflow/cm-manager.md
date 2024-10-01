@@ -3,7 +3,7 @@ description: Met de functie Berekende metrische elementen kunt u bestanden delen
 title: Berekende metrische manager
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: a8d33db669259cef470b8514f244c29148f57561
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -34,7 +34,7 @@ In de lijst met filters ➊ worden alle berekende metriek weergegeven die u bezi
 | Kolom | Beschrijving |
 | --- | --- | 
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) te begunstigen berekende metrisch. Zie [ Metrisch berekend Teken als favoriet ](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Om berekende metrisch uit te geven, selecteer de titelverbinding, die [ Berekende metriek bouwer ](cm-build-metrics.md) opent. Een gedeelde berekende metrische waarde wordt vermeld met ![ Aandeel ](/help/assets/icons/Share.svg). |
+| **[!UICONTROL Title and description]** | Om berekende metrisch uit te geven, selecteer de titelverbinding, die [ Berekende metriek bouwer ](cm-build-metrics.md) opent. Een gedeelde berekende metrische waarde wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareLight.svg). |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop deze berekende metrische waarde van toepassing is. |
 | **[!UICONTROL Owner]** | Eigenaar van de berekende metrische waarde. Als gebruiker ziet u alleen de annotaties die u hebt of de annotaties die met u worden gedeeld. |
 | **[!UICONTROL Tags]** | Hier worden de codes voor deze berekende metrische waarde weergegeven. |
@@ -56,7 +56,7 @@ U kunt op filters actie ondernemen met de ➋ van de actiebalk. De actiebalk bev
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere berekende metriek toe, gebruikend [ Berekende metrische bouwer ](cm-build-metrics.md). |
 | ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen berekende metrisch is geselecteerd in de lijst, zoekt u naar filters met dit zoekveld. |
 | ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde berekende metriek. Selecteer in het dialoogvenster **[!UICONTROL Tag Calculated metric]** de labels voor de geselecteerde berekende metrische waarde of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde berekende metriek op te slaan. Zie [ Markering berekende metriek ](cm-tagging.md) voor meer informatie. |
-| ![ Aandeel ](/help/assets/icons/Share.svg) **[!UICONTROL Share]** | Deel de geselecteerde berekende metriek. In de **[!UICONTROL Share Calculated metrics]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde berekende metriek op te slaan. Zie [ Aandeel berekende metriek ](cm-sharing.md) voor meer informatie. |
+| ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Deel de geselecteerde berekende metriek. In de **[!UICONTROL Share Calculated metrics]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde berekende metriek op te slaan. Zie [ Aandeel berekende metriek ](cm-sharing.md) voor meer informatie. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde berekende metriek. U wordt gevraagd om een bevestiging. |
 | ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde berekende metrische waarde. Als deze optie is geselecteerd, kunt u de naam van de berekende metrische waarde inline wijzigen. |
 | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Goedkeuren van de geselecteerde berekende metriek. Zie [ berekende metriek goedkeuren ](cm-approving.md). |
