@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -20,26 +20,30 @@ Workspace biedt een aantal visualisaties waarmee u visuele weergaven van uw gege
 
 De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
-| Visualisatienaam <br/> Visualisatiepictogram | Beschrijving |
-| --- | --- | 
-| [ Gebied ](/help/analysis-workspace/visualizations/area.md)<p>![ GraphArea ](/help/assets/icons/GraphArea.svg)</p> | Een vlakgrafiekvisualisatie. Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
-| [ Bar ](/help/analysis-workspace/visualizations/bar.md) <p>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg)</p> | Een staafgrafiekvisualisatie met verticale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
-| [Staafdiagram](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | Een grafiekvisualisatie van opsommingstekens, die toont hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
-| [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![ TextNumbered ](/help/assets/icons/TextNumbered.svg)</p> | Een cohortvisualisatie is een groep mensen die gemeenschappelijke kenmerken gedurende een bepaalde periode delen. Een cohorttabel is handig voor analyse van retentie, churn of latentie. |
-| [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) <p>![ GraphDonut ](/help/assets/icons/GraphDonut.svg)</p> | Net als bij een cirkeldiagram worden gegevens in een donutvisualisatie weergegeven als delen of filters van een geheel. |
-| [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg)</p> | Een fallout-visualisatie laat zien waar personen een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorvallen). |
-| [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![ GraphPathing ](/help/assets/icons/GraphPathing.svg)</p> | Met een stroomvisualisatie kunt u via uw websites en apps precies zien wat de klanten precies doen. |
-| [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | Een vrije tabelvisualisatie is een interactieve visualisatie. De visualisatie van de vrije-vormlijst is de stichting voor gegevensanalyse in Workspace. |
-| [Histogram](/help/analysis-workspace/visualizations/histogram.md)<p>![ GraphHistogram ](/help/assets/icons/GraphHistogram.svg)</p> | Een histogram visualisatieemmers, bezoeken of gebeurtenissen in emmers op basis van een metrisch volume. |
-| [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg)</p> | Bij een horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
-| [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md)<p>![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | Een zeer belangrijke samenvatting van metriek visualisatie combineert lijn, summiere verandering, en summiere aantalvisualisaties. |
-| [Lijn](/help/analysis-workspace/visualizations/line.md)<p>![ GraphTrend ](/help/assets/icons/GraphTrend.svg)</p> | Een lijnvisualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijndiagram gebruikt tijd langs de x-as. |
-| [Spreidingsdiagram](/help/analysis-workspace/visualizations/scatterplot.md) <p>![ GraphScatter ](/help/assets/icons/GraphScatter.svg)</p> | Een scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. |
-| [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![ 123 ](/help/assets/icons/123.svg)</p> | Bij een overzichtsnummervisualisatie wordt de geselecteerde cel weergegeven als één groot getal. |
-| [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg)</p> | Een overzicht van de visualisatie van de verandering toont de verandering tussen de geselecteerde cellen als één groot aantal of percentage. |
-| [Tekst](/help/analysis-workspace/visualizations/text.md)<p>![Tekst](/help/assets/icons/Text.svg)</p> | Met een tekstvisualisatie kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
-| [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p>![ ModernGridView ](/help/assets/icons/ModernGridView.svg)</p> | Bij een treemapvisualisatie worden hiërarchische (gestructureerde) gegevens weergegeven als een set geneste rechthoeken. |
-| [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![ Type ](/help/assets/icons/TwoDots.svg)</p> | Bij een vlindervisualisatie worden cirkels gebruikt om de metrische overlapping van maximaal drie filters weer te geven. |
+| Pictogram | Naam | Beschrijving |
+| :---: | --- | ---| 
+| ![ GraphArea ](/help/assets/icons/GraphArea.svg) | [ Gebied ](/help/analysis-workspace/visualizations/area.md) | Een vlakgrafiekvisualisatie. Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) | Een staafgrafiekvisualisatie met verticale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVerticalStacked.svg) | [ Gestapelde Bar ](/help/analysis-workspace/visualizations/bar.md) | Een gestapelde staafgrafiekvisualisatie met verticale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) | Een grafiekvisualisatie van opsommingstekens, die toont hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
+| ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Een cohortvisualisatie is een groep mensen die gemeenschappelijke kenmerken gedurende een bepaalde periode delen. Een cohorttabel is handig voor analyse van retentie, churn of latentie. |
+| ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](combo-charts.md) | Met een combinatiekaart kunt u snel een vergelijkingsvisualisatie maken zonder eerst een tabel te hoeven maken. |
+| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden gegevens in een donutvisualisatie weergegeven als delen of filters van een geheel. |
+| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Een fallout-visualisatie laat zien waar personen een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorvallen). |
+| ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Met een stroomvisualisatie kunt u via uw websites en apps precies zien wat de klanten precies doen. |
+| ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een vrije tabelvisualisatie is een interactieve visualisatie. De visualisatie van de vrije-vormlijst is de stichting voor gegevensanalyse in Workspace. |
+| ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | Een histogram visualisatieemmers, bezoeken of gebeurtenissen in emmers op basis van een metrisch volume. |
+| ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | Bij een horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | Bij een gestapelde horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md) | Een zeer belangrijke samenvatting van metriek visualisatie combineert lijn, summiere verandering, en summiere aantalvisualisaties. |
+| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | Een lijnvisualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijndiagram gebruikt tijd langs de x-as. |
+| ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) | Een scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. |
+| ![ PageRule ](/help/assets/icons/PageRule.svg) | [ kopbal van de Sectie ](section-header.md) | Secties in een deelvenster identificeren en ordenen. |
+| ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) | Een overzicht van de visualisatie van de verandering toont de verandering tussen de geselecteerde cellen als één groot aantal of percentage. |
+| ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) | Bij een overzichtsnummervisualisatie wordt de geselecteerde cel weergegeven als één groot getal. |
+| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | Met een tekstvisualisatie kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
+| ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | Bij een treemapvisualisatie worden hiërarchische (gestructureerde) gegevens weergegeven als een set geneste rechthoeken. |
+| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | Bij een vlindervisualisatie worden cirkels gebruikt om de metrische overlapping van maximaal drie filters weer te geven. |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -141,7 +145,7 @@ Gebruik het contextmenu (beschikbaar via een alternatieve selectie, bijvoorbeeld
 | **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
 | **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
 | **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie naar uw lokale apparaat. |
-| **[!UICONTROL  Export full table...]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van de Customer Journey Analytics van Uitvoer aan de wolk ](../export/export-cloud.md) |
+| **[!UICONTROL Export full table]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van de Customer Journey Analytics van Uitvoer aan de wolk ](../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
 | **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](text.md). |
 | **[!UICONTROL Get visualization link]** | Kopieer en deel een koppeling rechtstreeks naar de visualisatie. De koppeling wordt weergegeven in een dialoogvenster voor het delen van een koppeling. Selecteer Kopiëren om de koppeling naar het klembord te kopiëren. |
