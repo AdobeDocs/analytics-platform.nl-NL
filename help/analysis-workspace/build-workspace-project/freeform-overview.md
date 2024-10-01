@@ -5,7 +5,7 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -52,7 +52,7 @@ In de projectlijst ➋ alle projecten worden weergegeven die u bezit en die met 
 | --- | --- | 
 | ![ SelectBox ](/help/assets/icons/SelectBox.svg) | Wanneer één of meerdere projecten worden geselecteerd, verschijnt een blauwe actiebar bij de bodem van de interface van het Project. Zie [ Acties ](#actions) voor meer details. |
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een project te begunstigen. |
-| **[!UICONTROL Title and description]** | Om het project uit te geven, selecteer de titelverbinding, die het [ project van Workspace ](/help/analysis-workspace/home.md) opent. De projecten die met u worden gedeeld worden vermeld met ![ Aandeel ](/help/assets/icons/ShareLight.svg). Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om een popup menu met meer details op het project te tonen. Selecteer ![ Meer ](/help/assets/icons/More.svg) om een contextmenu met acties te openen. Zie [ Acties ](#actions) voor meer details. |
+| **[!UICONTROL Title and description]** | Om het project uit te geven, selecteer de titelverbinding, die het [ project van Workspace ](/help/analysis-workspace/home.md) opent. De projecten die met u worden gedeeld worden vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om een popup menu met meer details op het project te tonen. Selecteer ![ Meer ](/help/assets/icons/More.svg) om een contextmenu met acties te openen. Zie [ Acties ](#actions) voor meer details. |
 | **[!UICONTROL Type]** | Een project van Workspace, a ![ FolderUser ](/help/assets/icons/FolderUser.svg) omslag, of a [ Mobiele Scorecard ](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
 | **[!UICONTROL Tags]** | De labels die op het project zijn toegepast. |
 | Gepland | Of een project gepland is om aan ontvangers te worden gemaild. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Zie [ projectgegevens naar anderen ](/help/analysis-workspace/export/t-schedule-report.md) verzenden. |
@@ -82,7 +82,7 @@ U kunt acties op één of meerdere projecten nemen gebruikend contextmenu ![ Mee
 |---|---|
 | ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *geselecteerd]** | Deselecteer de geselecteerde projecten en mappen en verwijder de blauwe actiebalk. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder een of meer projecten of mappen. U wordt gevraagd om een bevestiging. |
-| ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Een project delen. Zie [ een project ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie delen. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Een project delen. Zie [ een project ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie delen. |
 | ![ geeft ](/help/assets/icons/Edit.svg) anders noemt uit | Wijzig de naam van een project. Opent de dialoog van de a **[!UICONTROL Rename: *projectnaam *]**. Voer een nieuwe naam in en selecteer **[!UICONTROL Save]**. |
 | ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer een of meer projecten. Project krijgt niet dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
 | ![ PinOnff ](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** of **[!UICONTROL Unpin]** | Een of meer projecten of mappen vastzetten of de speld eraf. Vastgezette projecten en omslagen verschijnen bij de bovenkant van de lijst en negeren de sorteervolgorde u specificeert. |

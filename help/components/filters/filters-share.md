@@ -4,7 +4,7 @@ title: Filters delen
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -21,7 +21,7 @@ In de [ manager van de Filter ](manage-filters.md), kunt u filters delen. Afhank
 Een of meer filters delen:
 
 1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt delen.
-1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]**.
+1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
 1. In het dialoogvenster **[!UICONTROL Share Filters]** :
 
    ![ de dialoog van de Filters van het Aandeel ](assets/share-filter-dialog.png)

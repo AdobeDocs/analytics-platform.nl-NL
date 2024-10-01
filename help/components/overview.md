@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 2%
@@ -75,7 +75,7 @@ U kunt componenten beheren (afzonderlijk of door meerdere componenten te selecte
    | ![ Ster ](/help/assets/icons/Star.svg) [!UICONTROL **Favoriet**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerdeelvenster en door hen filteren in de componentmanagers. |
    | ![ StarOutline ](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Verwijder de component uit de lijst met favorieten. |
    | ![ Vinkje ](/help/assets/icons/Checkmark.svg) [!UICONTROL **goedkeuren**] | Markeer componenten zoals Goedgekeurd om aan uw gebruikers te laten weten dat de component door de organisatie is goedgekeurd. Net als tags kunt u zoeken en filteren op Goedgekeurd in het linkerdeelvenster. A ![ Vinkje ](/help/assets/icons/Checkmark.svg) identificeert goedgekeurde componenten. |
-   | ![ Aandeel ](/help/assets/icons/ShareLight.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
+   | ![ Aandeel ](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
    | ![ Schrapping ](/help/assets/icons/Delete.svg) [!UICONTROL **Schrapping**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
 
 De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ filters ](/help/components/filters/manage-filters.md) leiden.

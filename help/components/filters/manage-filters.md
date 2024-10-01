@@ -4,7 +4,7 @@ description: Leer hoe u filters beheert in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -37,7 +37,7 @@ In de lijst met filters ➊ worden alle filters weergegeven die u hebt, de filte
 | Kolom | Beschrijving |
 | --- | --- | 
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een filter te begunstigen. Zie [ filter van het Teken als favoriet ](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Om de filter uit te geven, selecteer de titelverbinding, die de [ bouwer van Filters ](filter-builder.md) opent. Een gedeeld filter wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Title and description]** | Om de filter uit te geven, selecteer de titelverbinding, die de [ bouwer van Filters ](filter-builder.md) opent. Een gedeeld filter wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop dit filter van toepassing is. |
 | **[!UICONTROL Owner]** | De eigenaar van het filter. Als gebruiker ziet u alleen de filters die u bezit of de annotaties die met u worden gedeeld. |
 | **[!UICONTROL Tags]** | De labels voor dit filter. |
@@ -59,7 +59,7 @@ U kunt op filters actie ondernemen met de ➋ van de actiebalk. De actiebalk bev
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere filter toe, gebruikend de [ bouwer van de Filter ](filter-builder.md). |
 | ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen filter in de lijst is geselecteerd, zoekt u naar filters met dit zoekveld. |
 | ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tags toewijzen aan de geselecteerde filters. Selecteer in het dialoogvenster **[!UICONTROL Tag Filter]** de tags voor de geselecteerde filters of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde filters op te slaan. Zie [ de filters van de Markering ](/help/components/filters/filters-tag.md) voor meer informatie. |
-| ![ Aandeel ](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Deel de geselecteerde filters. In de **[!UICONTROL Share Filter]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde filters op te slaan. Zie [ filters van het Aandeel ](filters-share.md) voor meer informatie. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde filters. In de **[!UICONTROL Share Filter]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde filters op te slaan. Zie [ filters van het Aandeel ](filters-share.md) voor meer informatie. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde filters. U wordt gevraagd om een bevestiging. |
 | ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerd filter. Als deze optie is geselecteerd, kunt u de naam van het filter inline wijzigen. |
 | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | De geselecteerde filters goedkeuren. Zie [ filters ](filters-approve.md) voor meer informatie goedkeuren. |
