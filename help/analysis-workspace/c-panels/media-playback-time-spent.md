@@ -4,14 +4,14 @@ description: Het deelvenster Media afspelen in Analysis Workspace gebruiken en i
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
-# Media afspelen tijd besteed, deelvenster {#media-playback-time-spent-panel}
+# Afspeeltijd van media in deelvenster {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
 

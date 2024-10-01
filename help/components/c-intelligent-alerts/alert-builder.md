@@ -3,14 +3,24 @@ description: Krijg alarm wanneer de projectcomponenten bepaalde drempels bereike
 title: Waarschuwingen maken (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
 
 # Waarschuwingen maken {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_alerts_timegranularity"
+>title="Tijdkorreligheid"
+>abstract="De tijdsgranulariteit heeft zowel betrekking op de frequentie waarmee de waarschuwing wordt gecontroleerd als op de frequentie waarmee de waarschuwing wordt opgenomen"
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ description: Meer informatie over metrische tekst en kenmerk
 title: Metrisch type en kenmerk
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -148,8 +148,8 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_custom"
->title="Tijdverlies"
->abstract="De waarden van het Dimension dichtst in tijd aan een omzetting krijgen het meeste krediet."
+>title="Aangepast"
+>abstract="Definieer uw eigen op positie gebaseerde toewijzingsweging."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -161,7 +161,6 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 >abstract="Krediet wordt dynamisch bepaald op basis van een statistisch algoritme."
 
 <!-- markdownlint-enable MD034 -->
-
 
 
 {{attribution-models-details}}

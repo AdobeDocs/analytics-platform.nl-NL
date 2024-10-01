@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '3357'
+source-wordcount: '3376'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,16 @@ ht-degree: 1%
 >abstract="Definieer de gegevensbewaring als een schuifvenster in maanden op verbindingsniveau."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_averagenumberofdailyuses"
+>title="Gemiddeld aantal dagelijkse toepassingen"
+>abstract="Selecteer een bereik voor het aantal verwachte dagelijkse gebeurtenissen voor de volledige verbinding."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met een hulpwerkschema uit. Het verstrekt gedetailleerde datasetselectie, configuratie, en overzichtservaring. En staat u toe om kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Persoon IDs, en veel meer te specificeren, om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de mogelijkheden:

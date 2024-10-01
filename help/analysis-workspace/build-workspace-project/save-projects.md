@@ -4,14 +4,24 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
-# Projecten opslaan
+# Projecten opslaan {#save-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_addnotes"
+>title="Notities toevoegen"
+>abstract="Voeg notities toe over de projectversie die wordt opgeslagen. Deze notities worden met de versie opgeslagen en kunnen worden geopend in het menu **[!UICONTROL Project]** > **[!UICONTROL Open previous version]** ."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslagen. U kunt projecten ook zelf opslaan, een project opslaan als een duplicaat of een project opslaan met versienotities.
 

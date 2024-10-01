@@ -4,14 +4,24 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# Projecten maken
+# Projecten maken {#create-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_countrepeatinstances"
+>title="Herhalingsinstanties tellen"
+>abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/><br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
+
+<!-- markdownlint-enable MD034 -->
+
 
 [ Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace staan u toe om zaken-kritieke analyses tot stand te brengen en te bekijken.  Deze analyses kunnen worden gedeeld met belanghebbenden binnen of buiten uw organisatie.
 

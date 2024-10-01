@@ -4,14 +4,24 @@ description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspac
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
-# Overzicht van de tabel voor vrije vorm
+# Overzicht van de tabel voor vrije vorm {#freeform-table-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_button"
+>title="Vrije-vormtabel"
+>abstract="Maak een lege visualisatie voor vrije tabellen die u kunt opbouwen met dimensies, segmenten, metriek en datumbereiken. U kunt de vrije-vormlijst als basis voor andere visualisaties gebruiken."
+
+<!-- markdownlint-enable MD034 -->
+
 
 In Analysis Workspace, is de visualisatie van de a ![ Lijst ](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** de stichting voor interactieve gegevensanalyse. U kunt een combinatie [ componenten ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij zodat kunt u snel analyseren en dieper graven.
 
