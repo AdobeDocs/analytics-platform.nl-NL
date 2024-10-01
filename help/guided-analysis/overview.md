@@ -5,9 +5,9 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ Gelijkaardig aan Analysis Workspace en Mobiele scorecards, gebruikt de geleide a
 
 De volgende geleide analysemeningen zijn beschikbaar:
 
-| Type analyse | Type weergave | Beschrijving |
-| --- | --- | --- |
-| [!UICONTROL Feature matrix] | [Engagement](types/engagement.md) | Begrijp de breedte en diepte van eigenschapbetrokkenheid. |
-| [!UICONTROL Funnel] | [ Wrijving ](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
-| [!UICONTROL Funnel] | [ trends van de Omzetting ](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
-| [!UICONTROL Impact] | [ Versie ](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
-| [!UICONTROL Impact] | [ Eerste gebruik ](types/first-use.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
-| [!UICONTROL Retention] | [ Bewaartarieven ](types/retention-rates.md) | Meet de doorlopende retourgewoonten van uw gebruikers. |
-| [!UICONTROL Trends] | [ Gebruik ](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
-| [!UICONTROL Trends] | [ Frequentie ](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
-| [!UICONTROL User growth] | [ Actief ](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
-| [!UICONTROL User growth] | [ Netto groei ](types/net-growth.md) | Wint of verliest u gebruikers? |
-| [!UICONTROL User stream] | [ Chronologie ](types/timeline.md) | Verken patronen in sessieactiviteiten. |
+| Type weergave | Beschrijving |
+| --- | --- |
+| [Engagement](types/engagement.md) | Begrijp de breedte en diepte van eigenschapbetrokkenheid. |
+| [ Wrijving ](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
+| [ trends van de Omzetting ](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
+| [ Versie ](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
+| [ Eerste gebruik ](types/first-use.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
+| [ Bewaartarieven ](types/retention-rates.md) | Meet de doorlopende retourgewoonten van uw gebruikers. |
+| [ Gebruik ](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
+| [ Frequentie ](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
+| [ Actief ](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
+| [ Netto groei ](types/net-growth.md) | Wint of verliest u gebruikers? |
+| [ Chronologie ](types/timeline.md) | Verken patronen in sessieactiviteiten. |
 
 {style="table-layout:auto"}
 
@@ -40,15 +40,27 @@ De volgende geleide analysemeningen zijn beschikbaar:
 
 U hebt toegang tot Analyse met instructies vanaf de startpagina van de Customer Journey Analytics.
 
-1. Klik **[!UICONTROL Guided analysis]** van de homepage, die u rechtstreeks aan de [ mening van de tendensen van het Gebruik ](types/usage.md) neemt.
+1. Selecteer **[!UICONTROL Guided analysis]** van de homepage, die u rechtstreeks aan de [ mening van de tendensen van het Gebruik ](types/usage.md) neemt.
 
    ![ het Bestaan paginatielijn ](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. Klik op **[!UICONTROL Create new]** om de verschillende weergaveopties weer te geven en een ander beginpunt voor de analyse te kiezen.
+1. Selecteer **[!UICONTROL Create new]** om de verschillende weergaveopties weer te geven en een ander beginpunt voor de analyse te kiezen.
 
    ![ creeer een nieuw modaal ](assets/create-new-modal.png){style="border:1px solid gray"}
 
-Neem contact op met het accountteam van de Adobe als uw organisatie nog niet beschikt over instructies voor een geleide analyse.
+U kunt tot Geleide Analyse van binnen een project van Analysis Workspace ook toegang hebben.
+
+1. Selecteer **[!UICONTROL Blank project]** op de startpagina om een leeg Workspace-project te maken.
+
+   ![ creeer leeg project ](assets/blank-project.png){style="border:1px solid gray"}
+
+1. Selecteer ![ Geleide analyse ](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL Guided Analysis]** in het linkerspoor.
+
+   ![ Workspace linkerspoor ](assets/workspace-left-rail.png){style="border:1px solid gray"}
+
+1. Sleep een willekeurig weergavetype naar het Workspace-canvas en selecteer vervolgens de knop **[!UICONTROL Create]** om de gewenste analyse te genereren. U kunt ook een bestaande analyse naar het Workspace-canvas slepen vanuit de sectie **[!UICONTROL Saved]** .
+
+   ![ creeer paneel ](assets/create-panel.png)
 
 ## Interface
 

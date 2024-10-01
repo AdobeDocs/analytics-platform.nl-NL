@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1358'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,6 @@ Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en 
 
 {{videoaa}}
 
-
 +++
 
 ## Interface
@@ -36,7 +35,7 @@ In de volgende afbeelding en de bijbehorende tabel worden de belangrijkste eleme
 | Locatie | Naam en functie |
 |:---------:|----------|
 | ?? | Bevat de naam van het project, een menustructuur aan toegangsfunctionaliteit, a knoop ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg) om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop om uw project van Workspace te delen. <br/> selecteer de naam van uw project (bijvoorbeeld: Project van het voorbeeld) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![ StarOutline ](/help/assets/icons/StarOutline.svg) om uw project als favoriete project ![ Ster ](/help/assets/icons/Star.svg) toe te voegen. |
-| ?? | **paneel van de Knoop:** bevat knopen voor de toegang tot van de belangrijkste [ eigenschappen ](#features) van Analysis Workspace: ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Panels]**, ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Visualizations]**, en ![ Kromme ](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** aan uw project in Analysis Workspace. Het paneel bevat ook a ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]** en ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) **[!UICONTROL Data Dictionary]** knoop om het woordenboek van Gegevens te openen. |
+| ?? | **paneel van de Knoop:** bevat knopen voor de toegang tot van de belangrijkste [ eigenschappen ](#features) van Analysis Workspace:<br/>![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Panels]**<br/>![Begeleide Analyse ](/help/assets/icons/GuidedAnalysis.svg)**[!UICONTROL Guided Analysis]**<br/>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Visualizations]**<br/>![Kromme ](/help/assets/icons/Curate.svg)**[!UICONTROL Components]**<br/>![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**<br/>![Bladwijzer **[!UICONTROL Data Dictionary]**](/help/assets/icons/Bookmark.svg) |
 | ?? | **Linkerpaneel:** Dit gebied bevat individuele panelen, visualisaties, componenten, of lijsten. De inhoud is afhankelijk van de knop die in het deelvenster met knoppen is geselecteerd. |
 | ?? | **Canvas:** het belangrijkste gebied waar u inhoud van het linkerpaneel sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters toevoegt, visualisaties toevoegt aan deelvensters en componenten toevoegt aan visualisaties. U kunt meerdere deelvensters maken en in elk deelvenster kunt u meerdere visualisaties maken.<br/> elk paneel is gebaseerd op een geselecteerde gegevensmening. De geselecteerde gegevensweergave bepaalt de beschikbare componenten, zoals metriek en afmetingen. Zie [ Panelen - de mening van Gegevens ](/help/analysis-workspace/c-panels/panels.md#data-view) voor meer informatie. |
 
@@ -46,11 +45,12 @@ De belangrijkste eigenschappen van Analysis Workspace zijn beschikbaar door het 
 
 | Pictogram | Functie | Beschrijving |
 |:---:|---|---|
-| ![ WebPage ](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | Deelvensters worden gebruikt om uw analyse in een project te ordenen en kunnen vele tabellen en visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Voor het knooppaneel, uitgezochte ![ WebPage ](/help/assets/icons/WebPage.svg) om een volledige lijst van beschikbare panelen te zien.<br/> om meer over panelen te leren, zie [ Overzicht van Panelen ](/help/analysis-workspace/c-panels/panels.md). |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | Visualisaties, zoals een staaf of een lijngrafiek, kunnen worden gebruikt om gegevens visueel tot leven te brengen. Selecteer in het linkerbenedenpaneel het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven. <br/> om meer over visualisaties te leren, zie [ Overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| ![ Kromme ](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | Componenten in Analysis Workspace bestaan uit:<ul><li>![ Dimensionen ](/help/assets/icons/Dimensions.svg) [ Dimensionen ](/help/components/dimensions/overview.md)</li><li>![ Gebeurtenis ](/help/assets/icons/Event.svg) [ Metriek ](/help/components/apply-create-metrics.md)</li><li>](/help/assets/icons/Segmentation.svg) [ Filters van de 1} Segmentatie ![ ](/help/components/filters/filters-overview.md)</li><li>![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) [ Datum ](/help/components/date-ranges/overview.md)</li></ul>Meer over elk van deze componenttypes leren, zie het [ overzicht van Componenten ](/help/components/overview.md). |
-| ![ ViewList ](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | De inhoudsopgave ordent alle deelvensters en visualisaties in een inklapbare lijst, zodat u snel toegang hebt tot een bepaald deelvenster of tot een bepaalde visualisatie. |
-| ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) | **Woordenboek van Gegevens** | Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen.<br/> om meer over het Woordenboek van Gegevens te leren, zie het [ overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md). |
+| ![ WebPage ](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | [ de Comités ](/help/analysis-workspace/c-panels/panels.md) worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Voor het knooppaneel, uitgezochte ![ WebPage ](/help/assets/icons/WebPage.svg) om een volledige lijst van beschikbare panelen te zien. |
+| ![ Geleide Analyse ](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Guided Analysis]** | [ Geleide analyse ](../guided-analysis/overview.md) staat u toe om hoogkwalitatieve gegevens en inzichten over de klantenreis door geleide werkschema&#39;s te dienen. U kunt een analyse maken voor opname in uw Workspace-project of een eerder opgeslagen bestaande analyse opnemen. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [ Visualizations ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), zoals een bar of lijngrafiek, kan worden gebruikt om gegevens aan het leven visueel te brengen. Selecteer in het linkerbenedenpaneel het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven. |
+| ![ Kromme ](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | [ Componenten ](/help/components/overview.md) omvatten de volgende elementen:<ul><li>![ Dimensionen ](/help/assets/icons/Dimensions.svg) [ Dimensionen ](/help/components/dimensions/overview.md)</li><li>![ Gebeurtenis ](/help/assets/icons/Event.svg) [ Metriek ](/help/components/apply-create-metrics.md)</li><li>](/help/assets/icons/Segmentation.svg) [ Filters van de 1} Segmentatie ![ ](/help/components/filters/filters-overview.md)</li><li>![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) [ Datum ](/help/components/date-ranges/overview.md)</li></ul> |
+| ![ ViewList ](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | De inhoudsopgave rangschikt alle deelvensters en visualisaties die deel uitmaken van het project in een inklapbare lijst, zodat u snel toegang hebt tot een specifiek deelvenster of een specifieke visualisatie. |
+| ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) | **Woordenboek van Gegevens** | Het [ woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md) helpt zowel gebruikers als beheerders spoor van houden en beter begrijpen de componenten in hun milieu van Analytics. |
 
 
 ## Menu
