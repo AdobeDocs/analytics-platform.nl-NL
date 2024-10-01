@@ -4,24 +4,42 @@ title: Informatie over uitvalrapporten en visualisaties
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b38e9052618f7326cd5ea22b6cda8b96624a3f84
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 1%
 
 ---
 
-# Overzicht van uitval
+# Overzicht van uitval {#fallout-overview}
 
-Uit de uitvalrapporten blijkt waar personen een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (weggevallen) en doorlopen (doorlopen).
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_fallout_button"
+>title="Fallout"
+>abstract="Hiermee maakt u een visualisatie om te zien hoe mensen met succes naar de gewenste controlepunten kunnen gaan."
+
+<!-- markdownlint-enable MD034 -->
+
+
+A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) [!UICONTROL Fallout] visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
+
++++ Bekijk een videodemonstratie van [!UICONTROL Fallout visualization].
+
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+
+{{videoaa}}
+
++++
 
 Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Met uitvalvisualisaties kunt u:
 
 * Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.
-* Trechterstappen (aanraakpunten) slepen, neerzetten en opnieuw rangschikken
-* Waarden van verschillende afmetingen en maateenheden mixen en afstemmen
-* Een multidimensionaal uitvalrapport maken
-* Identificeer waar de klanten onmiddellijk na het vallen gaan
+* Taalstappen (aanraakpunten) slepen en neerzetten (en opnieuw rangschikken).
+* Mengen en waarden uit verschillende afmetingen en maatstaven met elkaar in overeenstemming brengen.
+* Maak een multidimensionaal uitvalrapport.
+* Bepaal waar klanten onmiddellijk na het vallen naar buiten gaan.
 
 Bij Uitvallen worden de conversie- en uitvalsnelheden tussen elke stap of elk aanraakpunt in een reeks weergegeven.
 
@@ -30,8 +48,12 @@ U kunt bijvoorbeeld de uitvalpunten van een persoon bijhouden tijdens een aankoo
 Een fallout-visualisatie is handig voor het analyseren van:
 
 * Conversiepercentages via specifieke processen op uw site (zoals een aankoop- of registratieproces).
-* Algemene, bredere verkeersstromen: Van de mensen die de homepage zagen, toont deze stroom hoeveel er doorgingen om een onderzoek uit te voeren, en hoeveel van hen uiteindelijk naar een specifiek punt gingen kijken.
+* Algemene, bredere verkeersstromen: Van de mensen die de homepage bezochten, toont deze stroom hoeveel een onderzoek uitvoerden. En hoeveel van hen bekeken uiteindelijk een specifiek item.
 * Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
 
-[Videozelfstudie voor Fallout Visualization](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) 4:15
+>[!MORELIKETHIS]
+>
+>[Een uitvalvisualisatie configureren](configuring-fallout.md)
+
+
 

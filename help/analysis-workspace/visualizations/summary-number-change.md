@@ -1,41 +1,58 @@
 ---
-description: Gebruik het Summiere Aantal en de visualisaties van de Verandering om belangrijke gegevenspunten in een project te tonen.
+description: Gebruik het Summiere aantal en de Summiere veranderingsvisualisaties om belangrijke gegevenspunten in een project te tonen.
 title: Samenvattingsnummer en Samenvattingswijziging
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
 # Samenvattingsnummer en Samenvattingswijziging
 
-## Visualisatie van overzichtsnummers {#summary-number}
+## Samenvattingsnummer {#summary-number}
 
-Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_summarynumber_button"
+>title="Samenvattingsnummer"
+>abstract="Maak een visualisatie met totalen en subtotalen."
+
+<!-- markdownlint-enable MD034 -->
+
+Gebruik ![ vat ](/help/assets/icons/123.svg) samen **[!UICONTROL Summary number]** visualisatie om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie gedraagt zich op de volgende manieren, gebruikend de bijbehorende gegevensbron:
 
 * Hiermee selecteert u het totaal van de kolom als er geen cel is geselecteerd.
 * Als er één cel is geselecteerd, wordt het overzicht voor die cel weergegeven.
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-Klik de **montages van de Visualisatie** binnen binnen aan het hoogste recht om de Summiere montages van het Aantal te vormen:
+![ Summiere aantalvisualisatie ](asses/../assets/summary-number.png)
 
-| Instelling | Definitie |
+Als onderdeel van de visualisatie-instellingen zijn specifieke opties voor het overzichtsnummer beschikbaar.
+
+| Optie | Definitie |
 |--- |--- |
-| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
-| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
-| Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
-| Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+| **[!UICONTROL Abbreviate value]** | Selecteer **[!UICONTROL Abbreviate value]** om de getalwaarde op een intelligente manier te verkorten. Als deze optie is geselecteerd, voert u een getal in om de hoeveelheid afkorting te definiëren. Bijvoorbeeld:<br/><table><tr><td>**Oorspronkelijke waarde**</td><td>**Afkorting waarde**</td><td>**Resultaat**</td></tr><tr><td>$ 12.011.141,25</td><td>Niet geselecteerd</td><td  align="right">$ 12.011.141,25</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `0`</td><td align="right">$ 12 MB</td></tr><tr><td>$ 12.011.141,25</td><td> Geselecteerd, instellen op `1`</td><td  align="right">$ 12,0 MB</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `2`</td><td align="right">$ 12,01M</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `3`</td><td align="right">$ 12,011M</td></tr></table> |
+| **[!UICONTROL Summarize value by]** | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
 
-{style="table-layout:auto"}
+## Samenvattingswijziging {#summary-change}
 
-## Visualisatie overzichtswijziging {#summary-change}
+<!-- markdownlint-disable MD034 -->
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen.
+>[!CONTEXTUALHELP]
+>id="cja_workspace_summarychange_button"
+>title="Samenvattingswijziging"
+>abstract="Maak een virtualisatie die de delta (wijziging) tussen twee getallen laat zien"
+
+<!-- markdownlint-enable MD034 -->
+
+
+Gebruik ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualisatie om de delta (verandering) tussen twee aantallen te tonen. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
 <!--
 The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
@@ -54,11 +71,17 @@ Deze visualisatie werkt op de volgende manieren:
 ![ Summiere verandering visualisatie die de delta tussen twee numbers.s toont ](assets/summary-change.png)
 
 
-Klik de **montages van de Visualisatie** binnen binnen binnen aan het hoogste recht om de Summiere montages van de Verandering te vormen:
+Als onderdeel van de visualisatie-instellingen is specifieke **[!UICONTROL Summary change options]** beschikbaar.
 
-| Instelling | Definitie |
+| Optie | Definitie |
 |--- |--- |
-| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
-| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
-| Percentage wijziging tonen | Geeft de procentuele wijziging tussen de twee getallen weer. |
-| Onbewerkt verschil tonen | Geeft het onbewerkte verschil weer tussen de twee getallen. Met deze optie kunt u ook waarden afbreken en maximaal drie decimalen weergeven. |
+| **[!UICONTROL Show percent change]** | De procentuele wijziging tussen de twee getallen weergeven. |
+| **[!UICONTROL Show raw difference]** | Het onbewerkte verschil tussen de twee getallen tonen. Met deze optie kunt u ook waarden afbreken en maximaal drie decimalen weergeven. |
+| **[!UICONTROL Abbreviate value]** | Selecteer **[!UICONTROL Abbreviate value]** om de gewijzigde waarde op een intelligente manier af te korting. Als deze optie is geselecteerd, voert u een getal in om de hoeveelheid afkorting te definiëren. Bijvoorbeeld:<br/><table><tr><td>**Oorspronkelijke waarde**</td><td>**Afkorting waarde**</td><td>**Resultaat**</td></tr><tr><td>$ 12.011.141,25</td><td>Niet geselecteerd</td><td  align="right">$ 12.011.141,25</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `0`</td><td align="right">$ 12 MB</td></tr><tr><td>$ 12.011.141,25</td><td> Geselecteerd, instellen op `1`</td><td  align="right">$ 12,0 MB</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `2`</td><td align="right">$ 12,01M</td></tr><tr><td>$ 12.011.141,25</td><td>Geselecteerd, instellen op `3`</td><td align="right">$ 12,011M</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

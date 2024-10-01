@@ -4,18 +4,37 @@ description: Leer hoe te om de controlelogboeken van de Customer Journey Analyti
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
-# Controlelogboeken
+# Controlelogboeken {#audit-logs}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_userid"
+>title="Gebruikers-id"
+>abstract="De gebruiker - identiteitskaart kan worden gevonden door de infoknoop op een logboekingang te raken die de gewenste gebruiker bevat."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_componentid"
+>title="Component-id"
+>abstract="De component-id kunt u vinden door op de knop Info te drukken op een logbestandvermelding die de gewenste component bevat."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Om de transparantie en zichtbaarheid van de in het systeem uitgevoerde activiteiten te vergroten, kunt u in Adobe Customer Journey Analytics gebruikersactiviteiten voor verschillende services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA).
 
-In wezen vertelt een controlelogboek **wie** uitgevoerd **wat** actie, en **wanneer**. Elke actie die in een logboek wordt geregistreerd bevat meta-gegevens die op het actietype, datum en tijd, e-mailidentiteitskaart van de gebruiker die de actie, en extra attributen relevant voor het actietype uitvoerde.
+In een fundamentele betekenis, vertelt een controlelogboek **wie** **uitvoerde wat** actie, en **wanneer**. Elke actie die in een logboek wordt geregistreerd bevat meta-gegevens die op het actietype, datum en tijd, e-mailidentiteitskaart van de gebruiker die de actie, en extra attributen relevant voor het actietype uitvoerde.
 
 Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inbegrip van hoe te om hen in UI te bekijken en te beheren.
 
@@ -23,15 +42,15 @@ Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inb
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u beschikken over **[!UICONTROL Audit Logs Access]** toegangsbeheermachtigingen in Adobe Console. Raadpleeg voor meer informatie over het beheren van individuele machtigingen voor functies van Customers Journey Analytics de [toegangsbeheerdocumentatie](../technotes/access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u de toegangsbeheerbevoegdheid van **[!UICONTROL Audit Logs Access]** hebben gekregen in de console van de Adobe. Leren hoe te om individuele toestemmingen voor de eigenschappen van de Customer Journey Analytics te beheren, gelieve te verwijzen naar de [ documentatie van de toegangscontrole ](../technotes/access-control.md).
 
 ## Bekijk het controlelogboek in UI
 
-Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]**.
+Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]** .
 
 Het controlelogboek voor vandaag en gisteren wordt getoond door gebrek.
 
-![Auditlogbestand markeert vandaag en gisteren. ](assets/audit_ui.png)
+![ het logboek van de Controle vandaag en gisteren benadrukkend. ](assets/audit_ui.png)
 
 U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsboven te gaan.
 
@@ -39,11 +58,11 @@ U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsb
 
 Dubbelklik op de knop Info (i) naast een beschrijving.
 
-![Controlelogboek dat de infoknoop benadrukt. ](assets/info-button-audit.png)
+![ Logboek van de Controle die de infoknoop benadrukt. ](assets/info-button-audit.png)
 
 De volgende items worden weergegeven:
 
-* **[!UICONTROL Action Name]**: De ondernomen actie. Mogelijke waarden zijn:
+* **[!UICONTROL Action Name]**: De actie die is uitgevoerd. Mogelijke waarden zijn:
    * API_REQUEST
    * GOEDKEUREN
    * MAKEN
@@ -57,8 +76,8 @@ De volgende items worden weergegeven:
    * OVERDRACHT
    * ONGOEDKEUREN
    * ONDELEN
-* **[!UICONTROL Date Created]**: De datum en het tijdstip waarop de actie is uitgevoerd.
-* **[!UICONTROL Description]**: Een samenvatting van de handeling.
+* **[!UICONTROL Date Created]**: De datum en tijd waarop de actie is uitgevoerd.
+* **[!UICONTROL Description]**: Een overzicht van de handeling.
 * **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
@@ -81,8 +100,8 @@ De volgende items worden weergegeven:
    * GEBRUIKER
    * USER_GROUP
 * **[!UICONTROL Component ID]**: De id van de component waarop de gebruiker actie heeft uitgevoerd.
-* **[!UICONTROL IMS Org ID]**: De IMS-id van de organisatie, in de vorm van `ABC123@AdobeOrg`.
-* **[!UICONTROL Log ID]**: Een unieke id die deze logbestandvermelding identificeert.
+* **[!UICONTROL IMS Org ID]**: De IMS-id van de organisatie, in de notatie `ABC123@AdobeOrg` .
+* **[!UICONTROL Log ID]**: Een unieke id die dit logbestandvermelding identificeert.
 * **[!UICONTROL User ID]**: De unieke id die de gebruiker identificeert die de handeling heeft uitgevoerd.
 * **[!UICONTROL User Type]**: Het gebruikte verificatietype. Geldige waarden zijn:
    * IMS
@@ -90,9 +109,9 @@ De volgende items worden weergegeven:
 
 ### Controllerlogboeken filteren
 
-Selecteer het trechter-pictogram (![filter](assets/filter-icon.png)) om een lijst met filterbesturingselementen weer te geven om de resultaten te beperken. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
+Selecteer het kanaalpictogram (![ filter ](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
 
-![Controlelogboek dat de filters toont die voor de Waaier van Gegevens worden getoond.](assets/filters.png)
+![ Logboek van de Controle die de filters tonen voor de Waaier van Gegevens worden getoond.](assets/filters.png)
 
 De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 
@@ -133,10 +152,10 @@ In de volgende tabel wordt aangegeven op welke handelingen componenttypen worden
 
 U kunt controlelogboeken in CSV of formaten downloaden JSON. Alle toegepaste filters of geselecteerde kolommen worden weergegeven in de gedownloade bestanden.
 
-1. Klikken **[!UICONTROL Download]** rechtsboven in het scherm.
+1. Klik op **[!UICONTROL Download]** rechtsboven in het scherm.
 1. Geef de indeling op.
-1. Klikken **[!UICONTROL Download]** opnieuw.
+1. Klik nogmaals op **[!UICONTROL Download]** .
 
 ## De controlelogboeken beheren in de API
 
-Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie de [Referentiedocument voor Customer Journey Analytics-API](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie .
+Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie het [ Customer Journey Analytics API verwijzingsdocument ](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie.

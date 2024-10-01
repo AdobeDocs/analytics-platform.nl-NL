@@ -4,14 +4,32 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
 
-# Soorten publiek maken en publiceren
+# Soorten publiek maken en publiceren {#create-and-publish-audiences}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_refreshfrequency"
+>title="Frequentie vernieuwen"
+>abstract="Zie hoe vaak het lidmaatschap van een publiek opnieuw wordt beoordeeld.<br/> Één keer wordt het publiek geëvalueerd slechts eenmaal."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_audiencelimit"
+>title="Audioregimiet"
+>abstract="Het vernieuwen van het publiek is beperkt op basis van hoe vaak ze worden vernieuwd."
+
+<!-- markdownlint-enable MD034 -->
 
 Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan [ in real time het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) in Adobe Experience Platform voor klant wordt geïdentificeerd die en verpersoonlijking richt.
 
@@ -53,7 +71,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
 
 1. De gegevensvoorvertoning interpreteren.
 
-   De voorvertoning voor het publiek wordt weergegeven in de rechtertrack. Hiermee kunt u een samengevatte analyse maken van het publiek dat u hebt gemaakt.
+   De publieksvoorvertoning wordt weergegeven in het rechterdeelvenster. Hiermee kunt u een samengevatte analyse maken van het publiek dat u hebt gemaakt.
 
    ![ Schermafbeelding van de gegevensvoorproef die een samengevatte analyse van het publiek tonen.](assets/data-preview.png)
 
@@ -115,7 +133,7 @@ Customers Journey Analytics in platform weergeven:
 >
 >Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van de Customer Journey Analytics, zie {de eigenschapversies van de Customer Journey Analytics 0} ](/help/release-notes/releases.md).[
 
-1. Breid [!UICONTROL **Klant**] in het linkerspoor uit, dan selecteren [!UICONTROL **Soorten publiek**]. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Breid [!UICONTROL **Klant**] in het linkerpaneel uit, dan selecteren [!UICONTROL **Soorten publiek**]. <!-- is there a folder called "Customer Journey Analytics? -->
 
 1. Selecteer [!UICONTROL **doorbladeren**] tabel.
 

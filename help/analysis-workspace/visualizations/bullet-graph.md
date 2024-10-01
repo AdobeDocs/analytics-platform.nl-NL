@@ -1,20 +1,55 @@
 ---
-description: Laat u zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
+description: Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
 title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 6%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
-# Bullet
+# Opsommingsteken {#bullet}
 
-Laat u zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
+<!-- markdownlint-disable MD034 -->
 
-![Het venster van de Montages van de visualisatie die de het type van Grafiek optie, Opties van de Opsomming, en andere grafiekmontages tonen.](assets/bullet-image.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_bullet_goalvalue"
+>title="Waarde van doel"
+>abstract="**[!UICONTROL High goal]** is het belangrijkste doel dat u nastreeft. **[!UICONTROL Low goal]** en **[!UICONTROL Mid goal]** maken bereiken onder de [!UICONTROL High goal] . Opmerking: als de optie **[!UICONTROL Percentages]** is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is."
 
-De opsommingsgrafiek bevat één primaire maatstaf (bijvoorbeeld de huidige omzet van het jaar tot aan de datum) en stelt u in staat om kwalitatieve bereiken van prestatieswaaiers (bijvoorbeeld, in vergelijking met een doelopbrengst) in te gaan. U kunt hoge, gemiddelde en lage waarden opgeven. U kunt doelbereiken opgeven in [!UICONTROL Visualization Settings].
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_bullet_button"
+>title="Nullet"
+>abstract="Creeer een visualisatie van de kogelgrafiek om te tonen hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt."
+
+<!-- markdownlint-enable MD034 -->
+
+
+![ GraphBullet ](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** visualisatie toont hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt.
+
+![](assets/bullet.png)
+
+De opsommingsgrafiek bevat één primaire maatstaf (bijvoorbeeld de huidige omzet van het jaar tot aan de datum) en stelt u in staat om kwalitatieve bereiken van prestatieswaaiers (bijvoorbeeld, in vergelijking met een doelopbrengst) in te gaan. U kunt hoge, gemiddelde, en lage doelwaaiers specificeren. U kunt doelwaaiers in ![ plaatsen ](/help/assets/icons/Setting.svg) specificeren **[!UICONTROL Settings]**.
+
+## Instellingen
+
+U kunt specifieke instellingen definiëren voor een [!UICONTROL Bullet] visualisatie.
+
+| Instelling | Beschrijving |
+|---|---|
+| **[!UICONTROL Bullet options]** | Geef waarden op voor **[!UICONTROL High goal]** , **[!UICONTROL Mid goal]** en **[!UICONTROL Low goal]** in de [!UICONTROL Bullet] visualisatie. <br/>**[!UICONTROL High goal]**is het belangrijkste doel dat u nastreeft. Met **[!UICONTROL Low goal]**en **[!UICONTROL Mid goal]**maakt u bereiken onder het doel Hoog. Opmerking: als de optie **[!UICONTROL Percentages]**is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is. |
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

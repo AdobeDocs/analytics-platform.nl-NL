@@ -5,18 +5,28 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
-# [!UICONTROL Value Bucketing] componentinstellingen
+# [!UICONTROL Value Bucketing] componentinstellingen {#value-bucketing-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_valuebucketing"
+>title="Waardebeperking"
+>abstract="Emmerwaarden in specifieke bereiken. Deze waaiers verschijnen als afmetingspunten in rapporten."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Wanneer u een gegevensweergave maakt of bewerkt, kunt u numerieke waarden combineren op basis van een bereik. Het is alleen beschikbaar voor dimensies die de gegevenstypen Geheel getal of Dubbel schema gebruiken.
 
-![Waardebeperking](../assets/value-bucketing.png)
+![ het emmer van de Waarde ](../assets/value-bucketing.png)
 
 De waarde emmer is waardevol wanneer u reeksen samen wilt groeperen in plaats van elk uniek aantal als afzonderlijk afmetingspunt te behandelen. Een emmertje van &#39;Tussen 5 en maximaal 10&#39; wordt bijvoorbeeld in Analysis Workspace weergegeven als een regelitem &#39;5 tot 10&#39;.
 

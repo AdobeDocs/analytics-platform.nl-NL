@@ -1,50 +1,93 @@
 ---
 title: Annotaties maken
-description: In Workspace kunt u notities maken.
+description: Annotaties maken in Workspace.
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Annotaties maken
 
-Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere onderdelen van Analytics (zoals filters, berekende metriek, enz.).
+Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven, vergelijkbaar met de manier waarop gebruikers andere componenten (zoals filters, berekende metriek, enz.) weergeven.
 
-Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemming (Analytics Tools) aan gebruikers via [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
+Beheerders kunnen gebruikers echter de **[!UICONTROL Annotation Creation]** machtiging voor **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** geven via de Admin Console. Zie [ gebruiker-vlakke toegangsbeheer ](/help/technotes/access-control.md#user-level-access) voor meer informatie.
 
-1. U kunt op verschillende manieren annotaties maken:
+U kunt op de volgende manieren een aantekening maken:
 
-| Aanmaakmethode | Details |
-| --- | --- |
-| **Ga naar [!UICONTROL Components] > [!UICONTROL Annotation].** | De pagina Annotatiebeheer wordt geopend. Klikken [!UICONTROL Create New Annotation] en de [!UICONTROL Annotation builder] wordt geopend. |
-| **Klik met de rechtermuisknop op een punt in een tabel.** | [!UICONTROL The Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-table.png) |
-| **Klik met de rechtermuisknop op een punt in een [!UICONTROL Line] grafiek.** | De [!UICONTROL Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-line.png) |
-| **Ga in Workspace naar [!UICONTROL Components] > [!UICONTROL Create annotation].** | De [!UICONTROL Annotation builder] wordt geopend. |
-| **Deze hotkey gebruiken** om de aannemer van de Annotatie te openen: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Houd er rekening mee dat u met de sneltoets een annotatie maakt voor de huidige datum zonder dat er een bereik (afmetingen of metriek) is geselecteerd. |
-| **Gebruik de [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Met de API&#39;s voor annotaties voor Customers Journey Analytics kunt u via Adobe Developer annotaties programmatisch maken, bijwerken of ophalen. Deze API&#39;s gebruiken dezelfde gegevens en methoden die door de Adobe worden gebruikt in de interface van het product. |
+![ creeer een aantekening ](assets/create-annotation.png)
 
-{style="table-layout:auto"}
+* ?? Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Annotations]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Annotations] manager ](/help/components/annotations/manage-annotations.md).
+* ?? Selecteer **[!UICONTROL Create annotation from selection]** in een Workspace-project in het contextmenu in een visualisatie.
+* ?? Selecteer in een Workspace-project in het contextmenu in een lijngrafiek de optie **[!UICONTROL Annotate Selection]** .
+* ??In een Workspace-project selecteert u **[!UICONTROL Components]** in het menu en selecteert u **[!UICONTROL Create annotation]** .
+* ?? In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+o]** (Windows) of **[!UICONTROL shift+command+o]** (macOS)
 
-1. Vul de [!UICONTROL Annotation builder] elementen.
+Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annotation builder]](#annotation-builder) :
 
-   ![Venster met details over annotaties waarin de velden en opties worden weergegeven die in de volgende sectie worden beschreven.](assets/ann-builder.png)
+<!-- Should we really mention API here. If so, we can do it all over the place in the docs...
+| **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
+-->
+
+
+## Annotatiebuilder {#annotation-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_annotations_details"
+>title="Details van aantekening"
+>abstract="Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_annotations_scope"
+>title="Toepassingsgebied"
+>abstract="Met het bereik kunt u aanpassen welke gegevens worden geannoteerd. Berekende metriek en segmenten zullen automatisch geen annotaties erven die worden toegepast op componenten die in hun definities worden gebruikt. U kunt nieuwe berekende metriek aan de werkingsgebiedsectie van een bestaande aantekening toevoegen. Voor nieuwe segmenten is een nieuwe annotatie vereist."
+
+<!-- markdownlint-enable MD034 -->
+
+
+Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe annotaties te maken of bestaande annotaties te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New annotation]** of **[!UICONTROL Edit annotation]** voor annotaties die u maakt of beheert met de [[!UICONTROL Annotations] manager ](/help/components/annotations/manage-annotations.md) .
+
+
+>[!BEGINTABS]
+
+>[!TAB  Bouwer van de Annotatie ]
+
+![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png)
+
+>[!TAB  creeer/geef aantekening ] uit
+
+![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png)
+
+>[!ENDTABS]
+
+1. Specificeer de volgende details (![ Vereiste ](/help/assets/icons/Required.svg) wordt vereist):
 
    | Element | Beschrijving |
    | --- | --- |
-   | [!UICONTROL Title] | Geef de annotatie een naam, bijvoorbeeld &quot;Herdenkingsdag&quot; |
-   | [!UICONTROL Description] | (Optioneel) Geef een beschrijving van de annotatie, bijvoorbeeld &quot;Publieke feestdag in de VS&quot;. |
-   | [!UICONTROL Tags] | (Optioneel) Organiseer annotaties door een tag te maken of toe te passen. |
-   | [!UICONTROL Applied date] | Selecteer de datum of het datumbereik dat aanwezig moet zijn om de annotatie zichtbaar te maken. |
-   | [!UICONTROL Color] | Pas een kleur toe op de annotatie. De annotatie wordt in het project weergegeven met de geselecteerde kleur. De kleur kan worden gebruikt om annotaties te categoriseren, zoals feestdagen, externe gebeurtenissen, problemen bij het bijhouden van wijzigingen, enzovoort. |
-   | [!UICONTROL Scope] | (Optioneel) Sleep de metriek die de annotatie activeert en zet deze neer. Vervolgens sleept u alle afmetingen of filters die als filters fungeren (dat wil zeggen, waarmee de annotatie zichtbaar is). Als u geen bereik opgeeft, wordt de annotatie toegepast op al uw gegevens.<ul><li>**[!UICONTROL Any of these metrics are present]**: Sleep en zet tot 10 metriek neer die de annotatie zal teweegbrengen om te tonen.</li><li>**[!UICONTROL With all of these filters]**: Sleep en zet tot 10 dimensies of filters neer die zullen filteren wanneer de annotatie wordt weergegeven.</li></ul><p>Gebruiksscenario&#39;s: een eVar heeft gestopt met het verzamelen van gegevens voor een specifiek datumbereik. Sleep de eVar naar de **[!UICONTROL Any of these metrics are present]** in. Of uw [!UICONTROL Visits] metrisch rapporteert geen gegevens - volg het zelfde proces.<p>**Opmerking:** Elke annotatie die wordt toegepast op een component die vervolgens wordt gebruikt als onderdeel van een berekende metrische definitie of filterdefinitie, neemt de annotatie NIET automatisch over. De gewenste berekende metrisch moet ook aan de werkingsgebiedsectie worden toegevoegd om de aantekening te tonen. Er moet echter een nieuwe annotatie worden gemaakt voor elk filter dat u met dezelfde informatie wilt annoteren.<p>Voorbeeld: u past een annotatie toe op [!UICONTROL Orders] op een bepaalde dag. Vervolgens gebruikt u [!UICONTROL Orders] in een berekende metrische waarde voor hetzelfde datumbereik. De nieuwe berekende metrische waarde zal niet automatisch de aantekening voor orden tonen; berekende metrisch moet ook aan de werkingsgebiedsectie voor de te tonen aantekening worden toegevoegd. |
-   | [!UICONTROL Apply to all data views] | Standaard wordt de annotatie toegepast op de gegevensweergave die wordt gegenereerd. Als u dit selectievakje inschakelt, kunt u de annotatie toepassen op alle gegevensweergaven in het bedrijf. |
-   | [!UICONTROL Apply to all projects] | Standaard wordt de annotatie toegepast op het huidige project. Als u dit selectievakje inschakelt, kunt u de annotatie toepassen op alle projecten die u bezit. Dit selectievakje wordt alleen weergegeven wanneer u de Annotatiebuilder start vanuit de Annotatiebuilder? |
+   | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor de annotatie selecteren. De annotatie die u definieert, is beschikbaar als een annotatie in de Workspace-projecten op basis van de geselecteerde gegevensweergave. Deze selectie wordt genegeerd wanneer u [!UICONTROL Apply to all data views] hebt ingeschakeld. |
+   | **[!UICONTROL Project-only Annotation]** | Een informatievak om uit te leggen dat de annotatie die u maakt, alleen zichtbaar is in het Workspace-project waaraan u werkt. Schakel **[!UICONTROL Make this Annotation available to all your projects]** in om de annotatie zichtbaar te maken voor al uw projecten. Dit informatievak is alleen zichtbaar wanneer u een annotatie maakt vanuit een Workspace-project. |
+   | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef de annotatie bijvoorbeeld de naam `Needs further investigation` . |
+   | **[!UICONTROL Description]** | Geef een beschrijving voor de annotatie, bijvoorbeeld `We never expected such a fluctuation in numbers.` . |
+   | **[!UICONTROL Tags]** | U ordent de annotatie door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL Enter]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+   | **[!UICONTROL Applied date]** ![ Vereiste ](/help/assets/icons/Required.svg) | Selecteer de datum of het datumbereik dat aanwezig moet zijn om de annotatie zichtbaar te maken. Wanneer u een annotatie maakt met de sneltoets, wordt de annotatie standaard ingesteld op een gegevensbereik voor alleen de dag. Wanneer u een annotatie maakt met behulp van een selectie in een visualisatie, wordt de annotatie standaard ingesteld op het gegevensbereik op basis van het datumbereik van het deelvenster waartoe de visualisatie behoort. |
+   | **[!UICONTROL Color]** | Pas een kleur toe op de annotatie. De annotatie wordt in het project weergegeven met de geselecteerde kleur. De kleur kan worden gebruikt om annotaties te categoriseren, zoals feestdagen, externe gebeurtenissen, problemen bij het bijhouden van wijzigingen, enzovoort. |
+   | **[!UICONTROL Scope]** | Sleep metriek van het componentenpaneel dat de annotatie teweegbrengt. Bijvoorbeeld Personen, Sessies en Gebeurtenissen. Sleep vervolgens de afmetingen of filters uit het deelvenster met componenten die fungeren als filters om te bepalen of de annotatie moet worden weergegeven of niet. Als u geen bereik opgeeft, wordt de annotatie toegepast op al uw gegevens. <br/> u hebt twee opties:<ul><li>**[!UICONTROL Any of these metrics are present]**: sleep en zet tot 10 metriek neer die de annotatie teweegbrengen om te tonen.<br/> Bijvoorbeeld, metrische Inkomsten zijn ophouden inzamelend gegevens voor een specifieke datumwaaier. Sleep metrisch van de Opbrengst in dit vakje.</li><li>**[!UICONTROL With all of these filters]**: Sleep en zet tot 10 afmetingen of filters neer die filteren of de annotatie wordt weergegeven.</li></ul><p><p>**Nota:** Om het even welke die annotatie op een component wordt toegepast die dan als deel van een berekende metrische of filterdefinitie wordt gebruikt erft automatisch niet de annotatie. De gewenste berekende metrisch moet ook aan de werkingsgebiedsectie worden toegevoegd om de aantekening te tonen. Er moet echter een nieuwe annotatie worden gemaakt voor elk filter dat u met dezelfde informatie wilt annoteren. U past bijvoorbeeld een aantekening toe op [!UICONTROL Orders] op een bepaalde dag. Vervolgens gebruikt u [!UICONTROL Orders] in een berekende metrische waarde voor hetzelfde datumbereik. De nieuwe berekende metrische waarde geeft niet automatisch de annotatie voor bestellingen weer. Voeg ook de berekende metrische waarde toe aan de bereiksectie voor de annotatie die moet worden weergegeven. |
+   | **[!UICONTROL Apply to all data views]** | Standaard wordt de annotatie toegepast op de gegevensweergave die wordt gegenereerd. Als u dit selectievakje inschakelt, kunt u de annotatie toepassen op alle gegevensweergaven in het bedrijf. |
 
    {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Selecteren
+   * **[!UICONTROL Save]** om de aantekening op te slaan.
+   * **[!UICONTROL Save As]** om een kopie van de annotatie op te slaan.
+   * **[!UICONTROL Delete]** om een aantekening te verwijderen.
+   * **[!UICONTROL Cancel]** om eventuele wijzigingen in een annotatie te annuleren of om het maken van een nieuwe annotatie te annuleren.

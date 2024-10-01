@@ -1,71 +1,206 @@
 ---
 description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
-title: Metrische gegevens samenstellen
+title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 7cdd81c9e38219d2d17decd5b9c3e987b814fc53
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
 
-# Metrische gegevens samenstellen
+# Berekende maatstaven samenstellen {#build-metrics}
 
-Customer Journey Analytics biedt een canvas voor het slepen en neerzetten van dimensies, metriek, filters en functies om aangepaste metrische gegevens te maken op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
-
-## Beginnen met het bouwen van een berekende metrische waarde
-
-U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt. Alternatief, kunt u snel berekende metrisch tot stand brengen, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [ Metriek ](/help/components/apply-create-metrics.md).
-
-Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metrisch die in de componentenlijst beschikbaar is.
-
-1. Heb toegang tot de berekende metrische bouwer op om het even welke volgende manieren:
-
-   * Open in Analysis Workspace een project en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create metric]** .
-   * In Analysis Workspace, open een project, dan selecteer **plus** pictogram naast de [!UICONTROL **sectie van Metriek**] in de linkerspoorlijn.
-   * Ga in [!DNL Customer Journey Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** en selecteer vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende meetgegevens.
-
-1. Ga met [ Gebieden van de berekende metrische bouwer ](#areas-of-the-calculated-metrics-builder) verder.
-
-## Gebieden van de berekende metriebouwer
-
-<!-- 
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_viz_product_compatibility"
->title="Product compatibility"
->abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth."  
->"Some calculated metrics cannot be used with experimentation. Calculated metrics that are not compatible with experimentation have the following value: "Everywhere in Customer Journey Analytics (excluding experimentation)" "
->"Various factors affect whether a calculated metric is compatible with experimentation. Learn more (https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation) ."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation"
+>id="cja_components_calculatedmetrics_productcompatibility"
+>title="Productcompatibiliteit"
+>abstract="Geeft aan waar in de Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
--->
+<!-- markdownlint-enable MD034 -->
 
-In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van de builder van berekende metriek uitgelegd.
+<!-- markdownlint-disable MD034 -->
 
-![ Nieuw berekend metriekvenster dat belangrijkste die gebieden en eigenschappen toont in deze sectie worden beschreven.](assets/cm_builder_ui.png)
+>[!CONTEXTUALHELP]
+>id="cja_components_calculatedmetrics_externalid"
+>title="Externe id"
+>abstract="Het veranderen van Externe identiteitskaart zou kunnen beïnvloeden hoe berekende metrisch in externe bronnen zoals bedrijfsintelligentiegereedschappen verschijnt"
 
-| Veld | Beschrijving |
-| --- | --- |
-| Titel | De naam van de metrische waarde is verplicht. U kunt metrisch opslaan tenzij het wordt genoemd. |
-| Beschrijving | Geef het een gebruikersvriendelijke beschrijving om te tonen waarvoor het wordt gebruikt en het van gelijkaardige degenen te onderscheiden. <p>De beschrijving wordt ook weergegeven in een rapport. Het is beter NIET om de formule in de beschrijving te zetten - in plaats daarvan, beschrijf wat deze metrisch zou moeten en niet zouden moeten worden gebruikt. (De formule wordt geproduceerd aangezien u metrisch bouwt, onder de Summiere rubriek. Dientengevolge, is het niet nodig om de formule aan de beschrijving toe te voegen.) </p> |
-| Indeling | U kunt kiezen uit Decimaal, Tijd, Percentage en Valuta. |
-| Decimalen | Toont hoeveel decimalen in het rapport zullen worden getoond. Het maximumaantal decimalen dat u kunt opgeven is 10. |
-| Naar boven trends tonen als... | Deze metrische polariteit die toont of de Analyse een stijgende trend in metrisch als goed (groen) of slecht (rood) zou moeten beschouwen. Als gevolg hiervan zal de grafiek van het rapport als groen of rood worden weergegeven wanneer het omhoog gaat. |
-| Valuta | De basisvaluta voor deze gegevensweergave. |
-| Tags | Tags zijn een goede manier om metriek in te delen. Alle gebruikers kunnen tags maken en een of meer tags toepassen op een metrische waarde. U kunt echter alleen tags zien voor de filters die u bezit of die met u zijn gedeeld. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>{de namen van 0} Team **, zoals Sociale Marketing, Mobiele Marketing.**</li><li>**Projecten** (analysetags), zoals ingang-pagina analyse.</li><li>**Categorieën**, zoals Vrouwen; Geografie.</li><li>**Werkschema&#39;s**, zoals om worden goedgekeurd; Gekruld voor (een specifieke bedrijfseenheid)</li></ul> |
-| Samenvatting | <p>De Summiere formule werkt op elk ogenblik bij u een verandering in de metrische definitie aanbrengt. Deze formule wordt ook weergegeven in de metrische rail links als u de muisaanwijzer boven een metrische waarde houdt en op de knop <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> pictogram. </p> |
-| Definitie | Dit is waar u in metriek/berekende metriek, filters, en/of functies sleept om berekende metrisch te bouwen. <ul><li>Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. </li> <li>U kunt definities nesten met containers. In tegenstelling tot filtercontainers werken deze containers echter als een wiskundige expressie en bepalen ze de volgorde van bewerkingen. </li> </ul> |
-| Operator | Gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. |
-| Voorvertoning | Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
-| Productcompatibiliteit | Geeft aan waar in de Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt. <p>De mogelijke waarden zijn:</p><ul><li>[!UICONTROL **overal in Customer Journey Analytics**]: Berekende metrisch kan door alle Customer Journey Analytics, met inbegrip van Analysis Workspace, Report Builder, etc. worden gebruikt.</li><li>[!UICONTROL **overal in Customer Journey Analytics (exclusief experimenteren)**]: Berekende metrisch kan door alle Customer Journey Analytics, behalve in het paneel van de Experimentatie worden gebruikt.</li> <p>Voor informatie over de criteria die bepalen of berekende metrisch met experimenteren kan worden gebruikt, zie [ Berekende metriek van het Gebruik in het paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) in [ het paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
-| Toevoegen | Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u filters en functies ook toevoegen.<ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Wanneer u een filter naar een container sleept, wordt alles in die container gefilterd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere filters in een container stapelen.</li></ul> |
-| Pictogram tandwiel (metrisch type, kenmerk) | Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en de kenmerkmodellen opgeven. <p>**Nota:** overweeg het volgende wanneer het bijwerken van de attributie van een component aan een niet-gebrek attributiemodel:</p><ul><li>**wanneer het gebruiken van de component in een rapport met *één enkele afmeting*:** de attributie van de component negeert het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.</li><li>**wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.</li><li>De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence ](/help/data-views/component-settings/persistence.md).[</p> |
-| Plus (+)-pictogram | Hiermee kunt u een nieuwe component maken, zoals een nieuw filter (waarmee u naar de Filterbouwer gaat). |
-| Componenten zoeken | Met deze zoekbalk kunt u zoeken naar afmetingen, metriek, filters (alleen geavanceerde berekende meetgegevens) en functies (alleen geavanceerde berekende meetgegevens). |
-| Lijst van Dimensionen | In plaats van de berekende metrische bouwer te verlaten om een eenvoudig filter (in de Bouwer van de Filter), b.v. &quot;Pagina = Homepage&quot;te bouwen, kunt u in Pagina slepen en Homepage direct van de berekende metrische bouwer selecteren. Dit resulteert in een veel gestroomlijnder werkschema voor het creëren van gefilterde berekende metriek. |
-| Lijst met meetwaarden | De cijfers zijn ingedeeld in drie categorieën:<ul><li>Standaardwaarden</li><li>Berekende cijfers</li><li>Metrische sjablonen - onder aan de lijst.</li></ul>Wanneer u de cursor boven een metrische waarde houdt, ziet u het pictogram Info rechts ervan. Als u op dit pictogram klikt, krijgt u de volgende informatie:<ul><li>De formule van hoe het wordt berekend.</li><li>Een voorproeftrend van metrisch.</li><li>Een bewerkingspictogram (potlood) rechtsboven dat u naar de berekende metrische builder brengt waar u deze berekende metrische waarde kunt bewerken.</li></ul> |
-| Lijst met filters | (Alleen Geavanceerde berekende metriek) Als beheerder worden in deze lijst alle filters weergegeven die in uw aanmeldingsbedrijf zijn gemaakt. Als u een gebruiker niet-Admin bent, toont deze lijst filters u bezit en die met u worden gedeeld. |
-| Lijst met functies | (Alleen geavanceerde berekende metriek) Functies zijn verdeeld in twee lijsten: Standaard (het meest gebruikt) en Geavanceerd. |
-| Selector gegevensweergave | Met deze kiezer (rechtsboven) kunt u overschakelen naar een andere gegevensweergave. |
+<!-- markdownlint-enable MD034 -->
+
+
+Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om nieuwe berekende waarden te maken of te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New calculated metric]** of **[!UICONTROL Edit calculated metric]** voor metriek die u maakt of beheert via de [[!UICONTROL Calculated metrics] manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md) .
+
+>[!BEGINTABS]
+
+>[!TAB  Berekende metrische bouwer ]
+
+![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
+
+>[!TAB  creeer of geef berekend metrisch ] uit
+
+![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
+
+>[!ENDTABS]
+
+1. Specificeer de volgende details (![ Vereiste ](/help/assets/icons/Required.svg) wordt vereist):
+
+   | Element | Beschrijving |
+   | --- | --- |
+   | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor de berekende metrische waarde selecteren.  De berekende metrisch u bepaalt is beschikbaar in de projecten van Workspace die op de geselecteerde gegevensmening worden gebaseerd. |
+   | **[!UICONTROL Project-only metric]** | Een infovakje om uit te leggen dat metrisch slechts zichtbaar in het project is waar het wordt gecreeerd en dat metrisch niet aan uw componentenlijst zal worden toegevoegd. Schakel **[!UICONTROL Make this metric available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit informatievak is alleen zichtbaar wanneer u in Workspace met **[!UICONTROL Create metric from selection]** een metrische waarde maakt en een functie hebt geselecteerd (zoals **[!UICONTROL Mean]** of **[!UICONTROL Median]** ). En later gebruik [ Info van de Component ](/help/components/use-components-in-workspace.md#component-info) om dat creeerde metrisch uit te geven. |
+   | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef de berekende metrische waarde een naam, bijvoorbeeld `Conversion Rate` . |
+   | **[!UICONTROL External ID]** ![ Vereiste ](/help/assets/icons/Required.svg) | De naam van berekende metrisch wanneer het gebruiken van een extern hulpmiddel van BI en de uitbreiding van BI. De waarde wordt automatisch gedefinieerd als `undefined_xxx` , tenzij u de waarde overschrijft. |
+   | **[!UICONTROL Description]** | Geef een beschrijving voor het filter, bijvoorbeeld `Calculated metric to define the conversion rate.` U hoeft de formule voor de berekende metrische waarde niet te beschrijven omdat de formule al automatisch beschikbaar is in [!UICONTROL Summary] . |
+   | **[!UICONTROL Format]** | Selecteer een indeling voor de berekende metrische waarde: u kunt tussen **[!UICONTROL Decimal]** , **[!UICONTROL Time]** , **[!UICONTROL Percent]** en **[!UICONTROL Currency]** selecteren. |
+   | **[!UICONTROL Decimal places]** | Geef het aantal decimalen op voor de geselecteerde notatie. Wordt alleen ingeschakeld wanneer de geselecteerde indeling Decimaal, Valuta en Percentage is. |
+   | **[!UICONTROL Show upward trend as]** | Geef op of een opwaartse trend van de berekende metrische waarde wordt weergegeven als Staalwaarden **[!UICONTROL Good (Green)]** of als ▼ **[!UICONTROL Bad (Red)]** . |
+   | **[!UICONTROL Currency]** | Geef de valuta van de berekende metrische waarde op. Alleen ingeschakeld wanneer de geselecteerde notatie Valuta is. |
+   | **[!UICONTROL Tags]** | Organiseer de berekende metrisch door één of meerdere markeringen te creëren of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+   | **[!UICONTROL Preview]** | De voorvertoning geldt voor de laatste 90 dagen en is een manier om te bepalen of u de maateenheid correct hebt gedefinieerd. |
+   | **[!UICONTROL Summary]** | Toont een samenvatting van de definitie van berekende metrisch. <br/> bijvoorbeeld: ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Orders]** ![ verdeel ](/help/assets/icons/Divide.svg) ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
+   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw filter gebruikend de [ bouwer van de Definitie ](#definition-builder). |
+
+1. Om te verifiëren of uw berekende metrische definitie correct is, gebruik constant bijgewerkt **[!UICONTROL Preview]** van de resultaten van berekende metrisch. **[!UICONTROL Preview]** geldt voor de laatste 90 dagen en evalueert continu de definitie van de berekende maateenheid.
+
+   **[!UICONTROL Product compatibility]** wijst erop of berekende metrisch in experimenteren kan worden gebruikt. Mogelijke waarden zijn:
+   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan in alle Customers Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan over de hele Customer Journey Analytics worden gebruikt.
+
+1. Selecteren:
+   * **[!UICONTROL Save]** om de berekende metrische waarde op te slaan.
+   * **[!UICONTROL Save As]** om een kopie van de berekende metrische waarde op te slaan.
+   * **[!UICONTROL Cancel]** om wijzigingen in de berekende metrische waarde te annuleren of om het maken van een nieuwe berekende metrische waarde te annuleren.
+
+
+## Definition builder
+
+U gebruikt de bouwer van de Definitie om dimensies, metriek, filters, en functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. In die constructie, kunt u standaardmetriek, Adobe bepaalde metriek, berekende metriek, filters, afmetingen en functies gebruiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Berekende metrische bouwer. Bovendien kunt u operatoren en containers in de definitie gebruiken.
+
+![ creeer berekende metrisch ](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
+
+Alleen metriek worden gedefinieerd als afzonderlijke componenten in het **[!UICONTROL Definition]** -gebied. Alle andere componenten worden gedefinieerd als een container, verpakkingsmetriek of andere containers. Zie [ Containers ](#containers) voor meer informatie.
+
+### Metrics
+
+Een metrische waarde toevoegen:
+
+* Sleep een ![ component van Gebeurtenissen ](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]** van het componentenpaneel aan **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
+
+Wanneer u berekende metrisch als deel van uw definitie gebruikt, wordt berekende metrisch uitgebreid.
+
+Een metrische waarde wijzigen:
+
+1. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) in metrische component in het **[!UICONTROL Definition]** gebied.
+1. In het popup dialoogvenster kunt u het type metrisch en een attributiemodel bepalen. Zie [ Metrisch type en Attributie ](m-metric-type-alloc.md).
+
+Een metrische waarde verwijderen:
+
+* Selecteer ![ dicht ](/help/assets/icons/Close.svg) in metrisch.
+
+### Operatoren
+
+Met operatoren kunt u de operator tussen componenten of containers opgeven. Operatoren worden automatisch weergegeven tussen
+
+* twee of meer meeteenheden in een container,
+* twee of meer recipiënten in een recipiënt,
+* een of meer maateenheden en een of meer containers in een container.
+
+U kunt selecteren:
+
+| Symbool | Operator |
+|:---:|---|
+| ![ Splitsen ](/help/assets/icons/Divide.svg) | Splitsen (standaard) |
+| ![ dicht ](/help/assets/icons/Close.svg) | Vermenigvuldigen |
+| ![ verwijder ](/help/assets/icons/Remove.svg) | Aftrekken |
+| ![ voeg toe ](/help/assets/icons/Add.svg) | Toevoegen |
+
+### Statisch getal
+
+U kunt een statisch aantal aan uw berekende metrische definitie toevoegen. Een statisch getal toevoegen:
+
+* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container.
+* Selecteer **[!UICONTROL Static number]** . Er wordt een container met statische getallen weergegeven.
+* Selecteer [!UICONTROL *klik om een waarde*] toe te voegen en een waarde te typen.
+
+
+### Containers
+
+U voegt afmetingen, filters en functies als containers aan een berekende metrische definitie toe. U kunt ook een algemene container toevoegen. Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Alles in een container wordt verwerkt vóór de volgende component of container.
+
+
+#### Filtercontainer
+
+U gebruikt het concept van een filtercontainer om a [ gefilterde metrische ](metrics-with-segments.md) tot stand te brengen. U kunt een filtercontainer maken met een filter of met een filter dat u maakt op basis van een dimensie.
+
+* Een filtercontainer toevoegen vanuit een dimensie:
+
+   1. De belemmering en laat vallen a ![ Dimensionen ](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** component van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
+   1. Definieer in de pop-up **[!UICONTROL Create Filter from Dimension]** de voorwaarde voor het filter. Selecteer een waarde in de lijst met operatoren en selecteer een waarde of voer een waarde in. Bijvoorbeeld, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. Selecteer **[!UICONTROL Done]** . Er wordt een filtercontainer toegevoegd aan de **[!UICONTROL Definition]** .
+
+
+* Als u een filtercontainer van een filter wilt toevoegen, kunt u:
+
+   * Sleep de component van de a ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke filters te zoeken.
+Er wordt automatisch een filtercontainer toegevoegd aan de **[!UICONTROL Definition]** , met de naam van het filter.
+
+   * De belemmering en laat vallen a ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** component van het componentenpaneel op een generische container. De container wordt gewijzigd in een filtercontainer.
+
+   * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
+
+      1. Selecteer **[!UICONTROL Filter]** . Er wordt een filtercontainer toegevoegd aan de **[!UICONTROL Definition]** .
+      1. In de nieuwe filtercontainer, selecteer een filter van [!UICONTROL *Uitgezocht...*] dropdown menu.
+
+  >[!TIP]
+  >
+  >U kunt meerdere filters toevoegen aan een container.
+
+  De filters in de container worden genoemd naar de filtercomponent. Bijvoorbeeld, ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Web sessions]**. Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup met details op de filter te tonen. In popup, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) uit om de filterdefinitie uit te geven.
+
+Een filter uit een container verwijderen:
+
+* Selecteer ![ dicht ](/help/assets/icons/Close.svg) naast de filternaam.
+
+Zie [ Gefilterde metriek ](metrics-with-segments.md) voor meer details en voorbeelden.
+
+#### Functiecontainer
+
+Als u een functiecontainer wilt toevoegen, kunt u het volgende gebruiken:
+
+* Sleep en zet:
+
+   1. De belemmering en laat vallen a ![ component van de Functie ](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke functies te zoeken.
+   1. Er wordt automatisch een functienotel toegevoegd aan de **[!UICONTROL Definition]** met de naam van de functie.
+
+* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
+
+   1. Selecteer **[!UICONTROL Function]** .
+   1. In de container, selecteer een functie van [!UICONTROL *Uitgezocht...*] dropdown menu.
+
+De functievulling krijgt de naam van de functiecomponent. Bijvoorbeeld, ![ Functie ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup met details op de functie te tonen. Selecteer **[!UICONTROL Learn more]** voor meer informatie over de functie.
+
+Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te om functies te gebruiken en welke functies beschikbaar zijn om berekende metrisch tot stand te brengen.
+
+
+#### Algemene container
+
+Een algemene container toevoegen:
+
+* Selecteer ](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container![
+* Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
+
+
+#### Een container verwijderen
+
+Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg) op het containerniveau.
+
+>[!MORELIKETHIS]
+>
+>[Functies gebruiken](cm-using-functions.md)
+>[Filters ](/help/components/filters/filters-overview.md)
+>
+

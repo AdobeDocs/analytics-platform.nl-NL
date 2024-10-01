@@ -5,40 +5,50 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
-# Instellingen van gedragcomponent
+# Instellingen van gedragcomponent {#behavior-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_behavior"
+>title="Gedrag"
+>abstract="Bepaal hoe regelitems in deze dimensie worden geaggregeerd.<br/><br/>**Parameters **<br/>**Lager geval**: Staat u toe om te specificeren of de koordwaarden op het gebied lager zouden moeten worden toegelaten."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De beschikbaarheid van instellingen is afhankelijk van het gegevenstype van de component en het schema.
 
-![Gedragsinstellingen](../assets/behavior-settings.png)
+![ montages van het Gedrag ](../assets/behavior-settings.png)
 
 ## Instellingen voor gedrag van Dimensionen
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Lower case] | De-dupliceert rijen die de zelfde waarde maar verschillend geval hebben. Indien ingeschakeld, worden alle gevallen van een dimensie met dezelfde waarde gerapporteerd als kleine letters. De gegevens bevatten bijvoorbeeld de waarden `"liverpool"`, `"Liverpool"`, en `"LIVERPOOL"` in een tekenreeksdimensie. Indien [!UICONTROL Lower case] is ingeschakeld, worden alle drie waarden gecombineerd in `"liverpool"`. Als deze optie is uitgeschakeld, worden alle drie de waarden als afzonderlijk van elkaar behandeld. |
+| [!UICONTROL Lower case] | De-dupliceert rijen die de zelfde waarde maar verschillend geval hebben. Indien ingeschakeld, worden alle gevallen van een dimensie met dezelfde waarde gerapporteerd als kleine letters. Uw gegevens bevatten bijvoorbeeld de waarden `"liverpool"` , `"Liverpool"` en `"LIVERPOOL"` in een tekenreeksdimensie. Als [!UICONTROL Lower case] is ingeschakeld, worden alle drie waarden gecombineerd in `"liverpool"` . Als deze optie is uitgeschakeld, worden alle drie de waarden als afzonderlijk van elkaar behandeld. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Als u [!UICONTROL Lower case] op een dimensie van de raadplegingsdataset, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict gebeurt, gebruikt de Customer Journey Analytics de eerste gesorteerde ASCII-waarde (de waarden in hoofdletters staan voor de waarden in kleine letters). De Adobe adviseert tegen het gebruiken van raadplegingsdatasets die de zelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
+>Als u [!UICONTROL Lower case] op een dimensie van een raadplegingsdataset toelaat, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict gebeurt, gebruikt de Customer Journey Analytics de eerste gesorteerde ASCII-waarde (de waarden in hoofdletters staan voor de waarden in kleine letters). Adobe raadt aan geen opzoekgegevenssets te gebruiken die dezelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
 
-![Hoofdlettergevoelige dimensie](../assets/case-sens-workspace.png)
+![ case-sensitive afmeting ](../assets/case-sens-workspace.png)
 
 ## Instellingen voor metrisch gedrag
 
 | Instelling | Omschrijving/gebruik |
 | --- | --- |
-| [!UICONTROL Count values] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog metrisch met de gespecificeerde hoeveelheid. Vergroot bijvoorbeeld de waarde van de kolom met 50 als de waarde van de kolom gelijk is `50`. |
-| [!UICONTROL Count instances] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog de metrische waarde met één, ongeacht de waarde. De aanwezigheid van om het even welke waarde verhoogt metrisch. Hiermee wordt bijvoorbeeld de waarde van een kolom met 1 verhoogd `50`. |
-| [!UICONTROL Values to count] | Zichtbaar op de gegevenstypen van een Booleaans schema. Hiermee kunt u bepalen of de metrische waarde wordt verhoogd door te tellen `true`, `false`, of beide. |
+| [!UICONTROL Count values] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog metrisch met de gespecificeerde hoeveelheid. Hiermee wordt bijvoorbeeld de waarde van de kolom met 50 verhoogd.`50` |
+| [!UICONTROL Count instances] | Zichtbaar op de gegevenstypen Geheel getal en Dubbel schema. Verhoog de metrische waarde met één, ongeacht de waarde. De aanwezigheid van om het even welke waarde verhoogt metrisch. Hiermee wordt bijvoorbeeld een metrische waarde met 1 verhoogd als de waarde van de kolom `50` is. |
+| [!UICONTROL Values to count] | Zichtbaar op de gegevenstypen van een Booleaans schema. Hiermee kunt u bepalen of de metrische waarde toeneemt door `true` , `false` of beide te tellen. |
 
 {style="table-layout:auto"}
 

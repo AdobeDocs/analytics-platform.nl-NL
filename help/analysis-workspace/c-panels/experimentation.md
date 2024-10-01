@@ -4,75 +4,111 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
 
-# Deelvenster Experimentatie
+# Deelvenster Experimentatie {#experimentation-panel}
 
-In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaring, marketing of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk experiment A/B van om het even welk experimentatieplatform-online, off-line, van de oplossingen van de Adobe zoals Doel of Journey Optimizer, en zelfs BYO (brengen-uw-eigen) gegevens evalueren.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_experimentation_button"
+>title="Experimentatie"
+>abstract="Maak een deelvenster om verschillende gebruikerservaringen, marketing of berichtvariaties te vergelijken. En om te bepalen welke variatie het beste is om een specifiek resultaat te bepalen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_experimentation_panel"
+>title="Experimentatie"
+>abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat zal worden geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaring, marketing of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
 
 Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
 
 ## Toegangsbeheer {#access}
 
-Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Voor de installatie (stappen 1 en 2 hieronder) zijn echter handelingen vereist die alleen door beheerders kunnen worden uitgevoerd.
+Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereist de [ eerste vereisten ](#prerequisites) acties die slechts de beheerders kunnen uitvoeren.
 
-## Nieuwe functies in berekende metriek {#functions}
+## Nieuwe functies in berekende metriek
 
-Er zijn twee nieuwe geavanceerde functies toegevoegd: [!UICONTROL Lift] en [!UICONTROL Confidence] . Voor meer informatie, zie [ Verwijzing - geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md).
+Er zijn twee nieuwe geavanceerde functies toegevoegd: Lift and Trust. Voor meer informatie, zie [ Verwijzing - geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md).
 
-## Stap 1: Creeer een verbinding om datasets te experimenteren {#connection}
+## Vereisten
+
+Als u het deelvenster voor experimenten wilt gebruiken, moet u aan de volgende voorwaarden voldoen:
+
+### Verbinding maken om gegevenssets te experimenteren
 
 Het geadviseerde gegevensschema is voor de proefgegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentele gegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
 
 Nadat uw experimentele gegevens [ ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
 
-## Stap 2: Contextlabels toevoegen in gegevensweergaven {#context-labels}
+### Contextlabels toevoegen in gegevensweergaven
 
 In de montages van de gegevensmeningen van de Customer Journey Analytics, kunnen beheerders [ contextetiketten ](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van de Customer Journey Analytics zoals [!UICONTROL Experimentation] paneel kan deze etiketten voor hun doeleinden gebruiken. Er worden twee vooraf gedefinieerde labels gebruikt voor het deelvenster Experimentatie:
 
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
 
-In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één met de experimentatiegegevens en één met de variantgegevens. Vervolgens geeft u die afmetingen het label **[!UICONTROL Experiment]** en **[!UICONTROL Variant]** .
+In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één met de experimentatiegegevens en één met de variantgegevens. Vervolgens geeft u die afmetingen het label **[!UICONTROL Experimentation Experiment]** en **[!UICONTROL Experimentation Variant]** .
 
 ![ de etiketopties van de context voor Experimentatie en Variant van de Experimentatie.](assets/context-label.png)
 
 Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen experimenten zijn om mee te werken.
 
-## Stap 3: Het deelvenster Experimentatie configureren {#configure}
+## Gebruiken
 
-1. Voeg in Analysis Workspace in Customer Journey Analytics het deelvenster Experimentatie toe aan een project. Voor meer informatie over het toevoegen van panelen aan een project, zie [ panelen aan het project ](/help/analysis-workspace/build-workspace-project/create-projects.md#add-panels-to-the-project) toevoegen in [ projecten ](/help/analysis-workspace/build-workspace-project/create-projects.md) creëren.
+Een deelvenster **[!UICONTROL Experimentation]** gebruiken:
+
+1. Maak een deelvenster **[!UICONTROL Experimentation]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+
+
+1. Specificeer de [ input ](#panel-input) voor het paneel.
+
+1. Neem de [ output ](#panel-output) voor het paneel waar.
 
    ![ het deelvenster Experimentatie sleept in een project.](assets/experiment.png)
 
    >[!IMPORTANT]
    >
-   >Als de noodzakelijke opstelling in de gegevensmeningen van de Customer Journey Analytics niet is voltooid, ontvangt u dit bericht alvorens u kunt te werk gaan: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
+   >Als de vereiste instellingen in de gegevensweergaven van de Customer Journey Analytics niet zijn voltooid, ontvangt u dit bericht voordat u verdergaat: [!UICONTROL Please configure the experiment and variant dimensions in Data views] .
    >
 
-1. Configureer de instellingen voor deelvensterinvoer.
+### Deelvensterinvoer
+
+Het deelvenster Experimentatie gebruiken:
+
+1. Configureer de instellingen voor deelvensterinvoer:
 
    | Instelling | Definitie |
    | --- | --- |
+   | **[!UICONTROL Date Range]** | Het datumbereik voor het deelvenster Experimentatie wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
    | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste is om in onbeperkte tijd te houden. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Experiment]** en de waarde van het experiment van de laatste drie maanden. |
    | **[!UICONTROL Control variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Variant]** . Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
-   | **[!UICONTROL Success metrics]** | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt de &quot;best presterende variant&quot; van een experiment genoemd. U kunt maximaal vijf metriek toevoegen. <p>Berekende maatstaven die aan de vereiste criteria voldoen, kunnen ook worden gebruikt. Voor meer informatie, zie [ Berekende metriek van het Gebruik in het paneel van de Experimentatie ](#use-calculated-metrics-in-the-experimentation-panel).</p> |
+   | **[!UICONTROL Success metrics]** | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt de &quot;best presterende variant&quot; van een experiment genoemd. U kunt maximaal vijf metriek toevoegen. |
    | **[!UICONTROL Normalizing metric]** | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als **[!UICONTROL Conversions per session]** of **[!UICONTROL Conversions per person]** . |
-   | [!UICONTROL **omvat vertrouwen hogere/lagere grenzen**] |  |
-   | **[!UICONTROL Date Range]** | Het datumbereik wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
+   | **[!UICONTROL Include confidence upper/lower bounds]** | Schakel deze optie in om boven- en ondergrenzen voor betrouwbaarheidsniveaus weer te geven. |
+
 
 1. Selecteer **[!UICONTROL Build]** .
 
-## Stap 4: De uitvoer van het deelvenster weergeven {#view}
+### Deelvensteruitvoer
 
 Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
 
-U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. Conclusiviteit is gebaseerd op statistische significantie. (Zie &quot;Statistische methodologie&quot; hieronder.) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
+U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
 
 Voor elk succes wordt metrisch u selecteerde, één vrije lijst en één omzettingstendens getoond.
 
@@ -86,17 +122,17 @@ Het diagram [!UICONTROL Line] geeft u de [!UICONTROL Control] versus [!UICONTROL
 >
 >Dit panel ondersteunt momenteel geen analyse van A/A-tests.
 
-## Stap 5: interpreteer de resultaten {#interpret}
+#### De resultaten interpreteren
 
-1. **Experiment is Conclusief**: Telkens als u het experimentatierapport bekijkt, worden de gegevens die in het experiment tot dit punt zijn geaccumuleerd geanalyseerd. En verklaart een experiment &quot;Sluiten&quot;wanneer het wanneer geldige vertrouwen een drempel van 95% voor *overschrijdt minstens één* van de varianten (met een Benjamini-Hochberg correctie toegepast wanneer er meer dan twee armen zijn, om voor veelvoudige hypothesetests te verbeteren).
+1. **Experiment is overtuigend**: Telkens als u het experimentatierapport bekijkt, worden de gegevens die in het experiment tot dit punt zijn geaccumuleerd geanalyseerd. De analyse verklaart een experiment overtuigend te zijn wanneer het wanneer geldige vertrouwen een drempel van 95% voor *minstens één* van de varianten kruist. Met meer dan twee armen wordt een Benjamini-Hochberg-correctie toegepast om meervoudige hypothesetests te corrigeren.
 
-2. **best Uitvoerende Variant**: Wanneer een experiment wordt verklaard om overtuigend te zijn, wordt de variant met de hoogste omzettingspercentage geëtiketteerd als &quot;best presterende variant&quot;. Merk op dat deze variant ofwel de besturingsvariant of de basisvariant moet zijn, ofwel een van de varianten die de betrouwbaarheidsdrempel van 95% overschrijdt (met Benjamini-Hochberg correcties toegepast).
+2. **best presterende variant**: Wanneer een experiment wordt verklaard om overtuigend te zijn, wordt de variant met de hoogste omzettingspercentage geëtiketteerd als best presterende variant. Merk op dat deze variant ofwel de besturingsvariant of de basisvariant moet zijn, ofwel een van de varianten die de betrouwbaarheidsdrempel van 95% overschrijdt (met Benjamini-Hochberg correcties toegepast).
 
-3. **Tarief van de Omzetting**: De omrekeningskoers die wordt getoond is een verhouding van de succes metrische waarde aan het normaliseren metrische waarde. Merk op dat deze waarde soms groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
+3. **het tarief van de Omzetting**: De omzettingspercentage dat wordt getoond is een verhouding van de succes metrische waarde aan het normaliseren van metrische waarde. Merk op dat deze waarde soms groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
 
-4. **Lift**: De samenvatting van het Experimentenrapport toont het Lift over Basislijn, die een maatregel van de percentageverbetering in omzettingstarief van een bepaalde variant over de basislijn is. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
+4. **Lift**: De samenvatting van het Experimentenrapport toont het Lift over Basislijn, die een maatregel van de percentageverbetering in de omzettingssnelheid van een bepaalde variant over de basislijn is. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 
-5. **Vertrouwen**: Het wanneer geldig vertrouwen dat wordt getoond is een probabilistische maatregel van hoeveel bewijs er is dat een bepaalde variant het zelfde als de controlevariant is. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren. Meer in het bijzonder is het vertrouwen dat wordt weergegeven een waarschijnlijkheid (uitgedrukt als een percentage) dat u een kleiner verschil in omrekeningskoersen tussen een bepaalde variant en het besturingselement zou hebben waargenomen, als er in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. In termen van *p* - waarden, is het getoonde vertrouwen 1 - *p* - waarde.
+5. **Vertrouwen**: Het wanneer geldig vertrouwen dat wordt getoond is een probabilistische maatregel van hoeveel bewijs er is dat een bepaalde variant het zelfde als de controlevariant is. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren. Het vertrouwen is een waarschijnlijkheid (uitgedrukt als percentage) dat u een kleiner verschil in omrekeningskoersen tussen een bepaalde variant en het besturingselement zou hebben waargenomen. In werkelijkheid is er geen verschil in de werkelijke onderliggende omrekeningskoersen. In termen van *p* - waarden, is het getoonde vertrouwen 1 - *p* - waarde.
 
 >[!NOTE]
 >
@@ -106,21 +142,21 @@ Het diagram [!UICONTROL Line] geeft u de [!UICONTROL Control] versus [!UICONTROL
 
 Om gemakkelijk te interpreteren en veilige statistische gevolgtrekking te verstrekken, heeft de Adobe een statistische methodologie goedgekeurd die op [ wordt gebaseerd altijd Geldige Reeksen van het Vertrouwen ](https://arxiv.org/abs/2103.06476).
 
-Een vertrouwensopeenvolging is a *opeenvolgend* analoog van een betrouwbaarheidsinterval. Om te begrijpen wat een vertrouwensopeenvolging is, veronderstel herhalend uw experimenten honderd keer, en het berekenen van een schatting van gemiddelde zaken metrisch (bijvoorbeeld open tarief van een e-mail) en zijn bijbehorende 95%-vertrouwenopeenvolging voor *elke nieuwe gebruiker* die het experiment ingaat.
+Een vertrouwensopeenvolging is a *opeenvolgend* analoog van een betrouwbaarheidsinterval. Om te begrijpen wat een vertrouwensvolgorde is, stel je voor dat je je experimenten honderd keer herhaalt. En bereken een schatting van gemiddelde zaken metrisch (bijvoorbeeld het open tarief van een e-mail) en zijn bijbehorende 95%-vertrouwen opeenvolging voor *elke nieuwe gebruiker* die het experiment ingaat.
 
 Een 95% betrouwbaarheidsreeks omvat de &quot;ware&quot;waarde van zaken metrisch in 95 van de 100 experimenten die u in werking stelde. (Een betrouwbaarheidsinterval van 95% kon slechts eenmaal per experiment worden berekend om dezelfde 95% dekkingsgarantie te geven, niet bij elke nieuwe gebruiker). Met vertrouwensreeksen kunt u dus voortdurend experimenten volgen zonder dat het aantal fout-positieve fouten toeneemt, dat wil zeggen dat het gebruik van &quot;peeking&quot; bij resultaten is toegestaan.
 
 ## Niet-gerandomiseerde afmetingen interpreteren {#non-randomized}
 
-Met Customer Journey Analytics kunnen analisten elke gewenste dimensie selecteren als &#39;experiment&#39;. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
+Met Customer Journey Analytics kunnen analisten elke gewenste dimensie kiezen. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
 
-Neem bijvoorbeeld een advertentie die een persoon ziet. Misschien bent u geïnteresseerd in het meten van de verandering in wat metrisch (bijvoorbeeld gemiddelde opbrengst) als u besluit om personen &quot;ad B&quot; in plaats van &quot;ad A&quot; te tonen. Het causale effect van het aantonen van advertentie B in plaats van advertentie A is van cruciaal belang om tot het besluit over het in de handel brengen te komen. Dit causale effect kan worden gemeten als de gemiddelde opbrengst over de gehele bevolking, als u de status-quo van het tonen van advertentie A vervangt door de alternatieve strategie van het tonen van advertentie B.
+Neem bijvoorbeeld een advertentie die een persoon ziet. U kunt in het meten van de verandering in wat metrisch (bijvoorbeeld, gemiddelde opbrengst) geinteresseerd zijn als u besluit om personen *en B* in plaats van *en A* te tonen. Het causale effect van het tonen van advertentie B in plaats van advertentie A is van cruciaal belang voor het nemen van een besluit over het in de handel brengen. Dit causale effect kan worden gemeten als de gemiddelde opbrengst over de gehele bevolking, als u de status-quo van het tonen van advertentie A vervangt door de alternatieve strategie van het tonen van advertentie B.
 
 A/B-tests zijn de gouden standaard in de industrie voor het objectief meten van de effecten van dergelijke interventies. De kritieke reden waarom een A/B-test aanleiding geeft tot een causale schatting is te wijten aan de randomisatie van personen die een van de mogelijke varianten ontvangen.
 
-Kijk nu eens naar een dimensie die niet bereikt wordt door randomisatie, bijvoorbeeld, de staat van de persoon in de VS. Laten we zeggen dat mensen voornamelijk uit twee staten komen, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische situatie van personen verschillend is.
+Kijk nu eens naar een dimensie die niet bereikt wordt door randomisatie, bijvoorbeeld, de staat van de persoon in de VS. Personen komen voornamelijk uit twee staten, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische situatie van personen verschillend is.
 
-Met het deelvenster Experimentatie in Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per staat van de personen. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de staten van de personen.  Deze waarde wordt ook wel &quot;Statistical Hypothesis Testing&quot; genoemd. Het resultaat van deze analyse is misschien interessant, maar niet noodzakelijkerwijs actionabel, omdat u personen niet en soms niet kunt koppelen aan een van de mogelijke waarden van de dimensie.
+Met het deelvenster voor experimenten in de Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per land van de persoon. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de staten van de personen.  Deze waarde wordt ook bedoeld als *Statistische het Testen van de Samenvatting*. Het resultaat van deze analyse kan interessant zijn, maar niet noodzakelijkerwijs uitvoerbaar. Eenvoudig omdat u niet willekeurig hebt gekozen en soms geen personen aan één van de mogelijke waarden van de dimensie kunt willekeurig plaatsen.
 
 In de volgende afbeelding worden deze situaties gecontrasteerd:
 

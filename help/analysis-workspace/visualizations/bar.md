@@ -4,29 +4,57 @@ title: Stapel en balk gestapeld
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Stapel en balk gestapeld
 
-## Balk {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## Balk {#bar}
 
-Bij deze visualisatie worden verticale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
+<!-- markdownlint-disable MD034 -->
 
-![Virtuele staafvisualisatie waarbij meerdere meetgegevens worden weergegeven, waaronder Paginaweergaven, Bezoekingen, Items en Afsluiten.](assets/bar.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_bar_button"
+>title="Balk"
+>abstract="Maak een staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
+
+<!-- markdownlint-enable MD034 -->
+
+
+![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** visualisatie toont verticale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
+
+![ Virtuele bar visualisatie die veelvoudige metriek met inbegrip van de Kijken van de Pagina, Bezoeken, Ingangen, en Uitgangen tonen.](assets/bar.png)
 
 Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
 
-## Stapel gestapeld {#section_9EA83779AE964635907EE5031A785A49}
+## Stapel gestapeld {#bar-stacked}
 
-Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
+<!-- markdownlint-disable MD034 -->
 
-![Gestapelde staafkaart met meerdere meetwaarden.](assets/bar-stacked.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_barstacked_button"
+>title="Stapel gestapeld"
+>abstract="Hiermee maakt u een streepjesvisualisatie die verschillende waarden in een of meer gestapelde metriek vertegenwoordigt."
 
-Met een nieuwe visualisatie-instelling op staafgestapelde visualisaties verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie:
+<!-- markdownlint-enable MD034 -->
 
-![Een 100% gestapeld staafdiagram.](assets/stacked_100_percent.png)
+
+De ![ GraphBarVerticalStacked ](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Bar stacked]** visualisatie is als een staafdiagram, maar met de reeksbars die bovenop elkaar worden gestapeld.
+
+![ Gestapeld bar karretje dat veelvoudige metriek toont.](assets/bar-stacked.png)
+
+Gebruik de **[!UICONTROL 100% stacked]** optie in ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** om de grafiek in een 100% gestapelde visualisatie te veranderen.
+
+![ A 100% gestapeld staafdiagram.](assets/bar-stacked100.png)
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

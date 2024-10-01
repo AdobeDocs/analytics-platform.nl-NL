@@ -5,14 +5,24 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
 
-# Componentinstellingen opmaken
+# Componentinstellingen opmaken {#format-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format"
+>title="Indeling"
+>abstract="Bepaal hoe een component wordt getoond wanneer gebruikt in rapporten."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Het formaat laat u bepalen hoe bepaalde metrisch wanneer gebruikt in rapporten wordt getoond.
 
@@ -20,15 +30,15 @@ Het formaat laat u bepalen hoe bepaalde metrisch wanneer gebruikt in rapporten w
 
 U kunt bepalen hoe een bepaalde metrische waarde wordt getoond door zijn formaatmontages aan te passen.
 
-1. Selecteer in Customer Journey Analytics de optie [!UICONTROL **Gegevensweergaven**] tab.
+1. In Customer Journey Analytics, selecteer de [!UICONTROL **meningen van Gegevens**] tabel.
 
 1. Selecteer de gegevensmening die de component bevat waarvan formaat dat u wilt vormen plaatst.
 
-1. Selecteer de [!UICONTROL **Componenten**] tab.
+1. Selecteer de [!UICONTROL **Componenten**] tabel.
 
-1. Selecteer de component die u wilt vormen, dan breid uit [!UICONTROL **Indeling**] aan de rechterkant van de pagina.
+1. Selecteer de component die u wilt vormen, breid dan de [!UICONTROL **sectie van het Formaat**] op de rechterkant van de pagina uit.
 
-   ![Indelingsinstellingen](../assets/format-settings.png)
+   ![ montages van het Formaat ](../assets/format-settings.png)
 
 1. Geef de volgende informatie op:
 
@@ -38,9 +48,9 @@ U kunt bepalen hoe een bepaalde metrische waarde wordt getoond door zijn formaat
    | **[!UICONTROL Decimal]** | Niet zichtbaar op de gegevenstypen van het schema van het Geheel. Hier kunt u het aantal decimalen opgeven dat metrisch wordt weergegeven. |
    | **[!UICONTROL Date]** | Hiermee kunt u bepalen hoe het datum-tijdveld moet worden weergegeven wanneer dit als een dimensie in de rapportage wordt gebruikt. [Meer informatie](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL Date-Time]** | Hiermee kunt u bepalen hoe het datum-tijdveld moet worden weergegeven wanneer dit als een dimensie in de rapportage wordt gebruikt. [Meer informatie](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Currency]** | Hiermee kunt u bepalen in welke valuta de metrische waarde moet worden weergegeven. <p>Als u globale gegevens analyseert waar transacties in verschillende valuta&#39;s plaatsvinden, zie  [Valuta-conversie gebruiken](#use-currency-conversion).</p> |
+   | **[!UICONTROL Currency]** | Hiermee kunt u bepalen in welke valuta de metrische waarde moet worden weergegeven. <p>Als u globale gegevens analyseert waar de transacties in verschillende valuta voorkomen, zie [ de muntomzetting van het Gebruik ](#use-currency-conversion).</p> |
    | **[!UICONTROL Show upward trend as]** | Hier kunt u opgeven of een opwaartse trend in deze metrische waarde goed (groen) of slecht (rood) is. |
-   | **[!UICONTROL True value]** en **[!UICONTROL False value]** | Alleen zichtbaar op gegevenstypen van een Booleaans schema. Hiermee kunt u het label van het dimensie-item aanpassen voor `true` en `false` waarden. |
+   | **[!UICONTROL True value]** en **[!UICONTROL False value]** | Alleen zichtbaar op gegevenstypen van een Booleaans schema. Hiermee kunt u het label van het dimensie-item aanpassen voor waarden `true` en `false` . |
 
    {style="table-layout:auto"}
 
@@ -55,27 +65,27 @@ Als bijvoorbeeld een e-commercebedrijf actief is in de VS, het Verenigd Koninkri
 >Overweeg het volgende voordat u een metrische waarde voor valutaomzetting gaat configureren:
 >
 >* De metrische waarde die u selecteert voor valutaomzetting, moet een numeriek type hebben (Dubbel, Lang, Geheel getal, Kort, Byte).
->* Opstelling uw verbinding van de Customer Journey Analytics om minstens één gebeurtenisdataset te bevatten die een dimensie van de muntcode voor elke gebeurtenis bevat die een valuta metrisch bevat. Voor deze dimensie van de valutacode wordt een alfabetische valutacode gebruikt die voldoet aan de [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standaard voor de weergave van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
+>* Opstelling uw verbinding van de Customer Journey Analytics om minstens één gebeurtenisdataset te bevatten die een dimensie van de muntcode voor elke gebeurtenis bevat die een valuta metrisch bevat. Die dimensie van de muntcode gebruikt een alfabetische muntcode die aan [ ISO 4217 ](https://www.iso.org/iso-4217-currency-codes.html) norm in overeenstemming is voor het vertegenwoordigen van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
 
 Om te bepalen hoe de valuta&#39;s voor bepaalde metrisch worden getoond en omgezet:
 
-1. Beginnen metrisch te vormen waarvoor u munt als formaat, zoals hierboven beschreven, wilt gebruiken in [Vorm formaatmontages voor metrisch](#configure-format-settings-for-a-metric).
+1. Begin vormend metrisch waarvoor u munt als formaat wilt gebruiken, zoals hierboven beschreven, in [ vorm formaatmontages voor metrisch ](#configure-format-settings-for-a-metric).
 
-1. Selecteer de metrische waarde en maak de volgende selecties in het dialoogvenster [!UICONTROL **Indeling**] aan de rechterkant van de pagina:
+1. Met metrisch geselecteerd, maak de volgende selecties in de [!UICONTROL **sectie van het Formaat**] op de rechterkant van de pagina:
 
-   * In de [!UICONTROL **Indeling**] veld, selecteren [!UICONTROL **Valuta**].
+   * Op het [!UICONTROL **gebied van het Formaat**], uitgezochte [!UICONTROL **Valuta**].
 
-   * In de [!UICONTROL **Decimale plaatsen**] het aantal decimalen dat de metrische weergave bevat.
+   * Op het [!UICONTROL **Decimale plaatsen**] gebied, kies het aantal decimalen de metrische vertoningen.
 
      Deze optie is alleen beschikbaar als de metrische waarde een numeriek type &#39;Double&#39; heeft.
 
-   * Selecteer de [!UICONTROL **Valuta converteren**] -optie.
+   * Selecteer de [!UICONTROL **optie van de Valuta van de Bekeerling**].
 
-   * In de [!UICONTROL **Dimensie valutacode selecteren**] , selecteert u de dimensie die de valuta vertegenwoordigt die u wilt converteren (de valuta waarop uw gegevens zijn gebaseerd). Selecteer bijvoorbeeld een dimensie die [!UICONTROL **Valutacode**].
+   * In het [!UICONTROL **Uitgezochte de afmeting van de muntcode**] gebied, selecteer de afmeting die de munt vertegenwoordigt u van (de munt die uw gegevens gebaseerd is) omzet. Bijvoorbeeld, selecteer een dimensie genoemd [!UICONTROL **code van de Valuta**].
 
-     Als u geen dimensie hebt in uw huidige gegevensschema dat een gebied van de muntcode bevat, kunt u een nieuw gebied van de muntcode tot stand brengen gebruikend [Gegevensprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of [Afgeleide velden](/help/data-views/derived-fields/derived-fields.md). Data Prep is alleen geschikt voor nieuwe implementaties omdat het alleen op doorlopende basis gebeurt. Afhankelijk van de opstelling van een organisatie, kunnen de Gegevens Distiller en Afgeleide Gebieden worden gebruikt om tot de waarden van de valutacode historisch toegang te hebben.
+     Als u geen afmeting in uw huidig gegevensschema hebt dat een gebied van de muntcode bevat, kunt u een nieuw gebied van de muntcode tot stand brengen gebruikend ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) de Prep van Gegevens 0}, [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of [ Voortgekomen Gebieden ](/help/data-views/derived-fields/derived-fields.md). [ Data Prep is alleen geschikt voor nieuwe implementaties omdat het alleen op doorlopende basis gebeurt. Afhankelijk van de opstelling van een organisatie, kunnen de Gegevens Distiller en Afgeleide Gebieden worden gebruikt om tot de waarden van de valutacode historisch toegang te hebben.
 
-   * In de [!UICONTROL **Valuta converteren en weergeven in**] , kiest u de valuta waarin u de gegevens wilt converteren.
+   * In het [!UICONTROL **Bekeerling en vertoningsmunt in**] gebied, kies de munt waarin u gegevens wilt worden omgezet.
 
 1. Herhaal deze stappen als u valutaconversie wilt toepassen op extra metriek.
 

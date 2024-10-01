@@ -4,27 +4,56 @@ title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Horizontale balk en horizontale balk gestapeld
 
-## Horizontale balk {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+## Horizontale balk {#horizontal-bar}
 
-Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
+<!-- markdownlint-disable MD034 -->
 
-![Horizontale balk met meetgegevens, zoals Paginaweergaven, Paginagrootte, Bezoekingen, Items en Afsluiten.](assets/horizontal_bar.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_horizontalbar_button"
+>title="Horizontale balk"
+>abstract="Maak een horizontale staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
 
-## Horizontale balk gestapeld {#section_50C08E9E20A94024A6553BC352ADB597}
+<!-- markdownlint-enable MD034 -->
 
-Deze visualisatie lijkt op de [!UICONTROL Horizontal Bar Chart], maar de reeksbalken worden gestapeld weergegeven.
 
-![Een gestapelde horizontale balk met de weergaven Pagina&#39;s, Bezoekingen, Items en Afsluiten.](assets/horizontal-bar-stacked.png)
+Thie ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualisatie toont horizontale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
 
-De [!UICONTROL Horizontal Bar Stacked] met de visualisatie-instelling op staafgestapelde visualisaties verandert u het diagram in een &quot;100% gestapelde&quot; visualisatie:
+![ Horizontale bar die metriek met inbegrip van de Weergaven van de Pagina, de Snelheid van de Pagina, bezoeken, Ingangen, en Uitgangen tonen.](assets/horizontal-bar.png)
 
-![Horizontale balk die 100% is gestapeld en die bezoeken, paginaweergaven en unieke bezoekers weergeeft.](assets/horizstacked100.png)
+## Horizontale balk gestapeld {#horizontal-bar-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_horizontalbarstacked_button"
+>title="Horizontale balk gestapeld"
+>abstract="Maak een horizontale staafvisualisatie om verschillende waarden voor een of meer gestapelde metriek weer te geven."
+
+<!-- markdownlint-enable MD034 -->
+
+
+![ GraphBarHorizontalStapelde ](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Horizontal bar stacked]** visualisatie is als [!UICONTROL Horizontal bar], maar de reeksbars lijken gestapeld.
+
+![ een gestapelde horizontale bar die de Weergaven van de Pagina, Bezoeken, Ingangen, en Uitgangen toont.](assets/horizontal-bar-stacked.png)
+
+Gebruik de **[!UICONTROL 100% stacked]** optie in ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** om de grafiek in een 100% gestapelde visualisatie te veranderen.
+
+![ Horizontale bar gestapelde 100% ](assets/horizontal-bar-stacked100.png)
+
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

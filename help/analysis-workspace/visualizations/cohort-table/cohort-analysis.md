@@ -1,69 +1,98 @@
 ---
-title: Wat is Cohort Analysis?
-description: Meer informatie over cohortanalyse in Analysis Workspace
+title: Overzicht van de cohortingtabel
+description: Meer informatie over het gebruik van een cohortabel voor cohortanalyse in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Wat is [!UICONTROL Cohort Analysis]?
+# Overzicht van de cohortingtabel {#cohort-table-overview}
 
-A *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een bepaalde periode. [!UICONTROL Cohort Analysis] is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. (Toelichting van [!UICONTROL Cohort Analysis] zijn beschikbaar op het web, bijvoorbeeld op [Cohortanalyse 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+<!-- markdownlint-disable MD034 -->
 
-Na het creëren van een cohortrapport, kunt u zijn componenten (specifieke afmetingen, metriek, en filters) tot stand brengen, dan het cohortrapport met iedereen delen. Zie [Curven en delen](/help/analysis-workspace/curate-share/curate.md).
+>[!CONTEXTUALHELP]
+>id="cja_workspace_cohorttable_button"
+>title="Cohortingtabel"
+>abstract="Maak een cohortvisualisatie om gebruikers te groeperen op basis van de voltooiing van een gebeurtenis en de doorlopende betrokkenheid te analyseren en in de loop van de tijd te verdraaien."
 
-Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_cohorttable_panel"
+>title="Keuzetabel"
+>abstract="Groepeer gebruikers op basis van voltooiing van een gebeurtenis en analyseer vervolgens hun doorlopende betrokkenheid en loop de tijd door.<br/><br/>**Parameters **<br/>**criteria van de Opname**: De componenten die worden gebruikt om uw aanvankelijke bezoekerscohorts te bepalen.<br/>**criteria van de Terugkeer**: De componenten die worden gebruikt om te bepalen als een bezoeker is teruggekeerd."
+
+<!-- markdownlint-enable MD034 -->
+
+
+A *cohort* is een groep mensen die gemeenschappelijke kenmerken over een gespecificeerde periode delen. A ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) [!UICONTROL Cohort table] visualisatie is nuttig, bijvoorbeeld, wanneer u wilt leren hoe een cohort met een merk in dienst neemt. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. (De Verklaringen van [!UICONTROL Cohort Analysis] zijn beschikbaar op het Web, zoals bij [ Analyse 101 van de Cohort ](https://en.wikipedia.org/wiki/Cohort_analysis).)
+
+Na het creëren van een cohortrapport, kunt u zijn componenten (specifieke afmetingen, metriek, en filters) tot stand brengen, dan het cohortrapport met iedereen delen. Zie [ Kromme en Aandeel ](/help/analysis-workspace/curate-share/curate.md).
+
+Voorbeelden van wat u kunt doen met een [!UICONTROL Cohort table] :
 
 * Start campagnes die zijn ontworpen om een gewenste actie te stimuleren.
 * Het marketingbudget verschuiven op precies het juiste moment in de levenscyclus van de klant.
-* Herken wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
+* Bespreek wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 
-[!UICONTROL Cohort Analysis] is beschikbaar voor alle klanten van de Customer Journey Analytics met toegangsrechten tot [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort table] is beschikbaar voor alle klanten van de Customer Journey Analytics met toegangsrechten tot [!UICONTROL Analysis Workspace].
 
-[Videozelfstudie Cohortinganalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) 4:36
++++ Bekijk een videodemonstratie van de cohorttabel.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23990/?quality=12)
+
+{{videoaa}}
+
++++
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] ondersteunt geen niet-filtreerbare metriek (inclusief berekende metriek), niet-geheelmetriek (zoals Opbrengst), of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan worden gebruikt in [!UICONTROL Cohort Analysis]en kunnen slechts één voor één worden verhoogd.
+>[!UICONTROL Cohort Analysis] biedt geen ondersteuning voor niet-filterbare metriek (inclusief berekende meetwaarden), niet-gehele getallen (zoals Opbrengst) of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan in [!UICONTROL Cohort Analysis] worden gebruikt en kan slechts één voor één worden verhoogd.
 
-## Cohortanalyse-mogelijkheden
+## Mogelijkheden voor kleurentabellen
 
 Met de volgende mogelijkheden kunt u de cohorten die u maakt, nauwkeurig instellen:
 
-### [!UICONTROL Retention] Tabel
+### [!UICONTROL Retention] table
 
-A [!UICONTROL Retention] het cohortrapport geeft personen : elke gegevenscel geeft het onbewerkte aantal en het onbewerkte percentage personen in het cohort aan die de actie in die periode hebben uitgevoerd . U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
+Een [!UICONTROL Retention] -cohortentabel retourneert personen: elke gegevenscel geeft het onbewerkte aantal en percentage weer van de personen in de cohort die de actie tijdens die periode hebben uitgevoerd. U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
 
-![Een rapport van de Rention Cohort waarin de eenheden en het percentage personen in de cohort worden weergegeven.](assets/retention-report.png)
+![ het cohort van de Vermindering van A die de eenheden en het percentage van personen in de cohort toont.](assets/retention-report.png)
 
-### [!UICONTROL Churn] Tabel
+### [!UICONTROL Churn] table
 
-A [!UICONTROL Churn] cohort is het omgekeerde van een retentietabel en geeft de personen weer die in de loop der tijd niet of niet aan de criteria voor terugkeer voor uw cohort voldeden. U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
+Een [!UICONTROL Churn] -cohortabel is het omgekeerde van een retentietabel en toont de personen die in de loop der tijd niet of niet aan de retourcriteria voor uw cohort hebben voldaan. U kunt maximaal 3 metriek en maximaal 10 filters opnemen.
 
-![Een Churn-tabel met de eenheden en het percentage personen die niet aan de retourcriteria voor een cohort voldeden.](assets/churn-report.png)
+![ de lijst van het Koord van A die eenheden en percentage van mensen tonen die niet aan de terugkeercriteria voor een cohort beantwoordden.](assets/churn-report.png)
 
 ### [!UICONTROL Rolling Calculation]
 
-Hiermee kunt u de retentie of het verloop berekenen op basis van de vorige kolom, niet de opgenomen kolom.
+U kunt de retentie of het churn berekenen op basis van de vorige kolom, niet de opgenomen kolom, die wordt aangeduid als rolberekening.
 
-![Een rapport van het behoud van de Cohort dat berekeningen toont die op een vorige kolom van gegevens worden gebaseerd.](assets/cohort-rolling-calculation.png)
+![ het bewaarrapport van de Cohort dat berekeningen toont die op een vorige kolom van gegevens worden gebaseerd.](assets/retention-report-rolling.png)
 
-### [!UICONTROL Latency] Tabel
+### [!UICONTROL Latency] table
 
-Hiermee wordt de tijd gemeten die is verstreken vóór en na de opnemingsgebeurtenis. Dit is een uitstekend instrument voor pre- en postanalyse. De **[!UICONTROL Included]** de kolom bevindt zich in het midden van de tabel en de tijdsperiodes voor en na de opnemingsgebeurtenis worden aan beide zijden weergegeven.
+Een latentietabel meet de tijd die is verstreken voor en na de opnemingsgebeurtenis. De latentie meten is een uitstekend hulpmiddel voor pre- en postanalyse. De kolom **[!UICONTROL Included]** bevindt zich in het midden van de tabel en de tijdsperioden vóór en na de gebeurtenis include worden aan beide zijden weergegeven.
 
-![Een Cohort-rapport met de verstreken tijd voor en na een gebeurtenis.](assets/cohort-latency.png)
+![ het rapport van de Cohort van A die de verstreken tijd vóór en na een gebeurtenis tonen.](assets/retention-report-latency.png)
 
-### [!UICONTROL Custom Dimension] Cohort
+### [!UICONTROL Custom dimension] cohort
 
-Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Afmetingen gebruiken zoals [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region]of een andere dimensie in de Customer Journey Analytics om aan te geven hoe de retentie verandert op basis van de verschillende waarden van deze dimensies.
+U kunt cohorten maken op basis van een geselecteerde afmeting en niet op basis van een tijd (de standaardinstelling). Gebruik afmetingen zoals [!UICONTROL City geo] , [!UICONTROL Marketing channel] , [!UICONTROL campaign] , [!UICONTROL product] , [!UICONTROL page] , [!UICONTROL region] of een andere dimensie om aan te geven hoe de retentie verandert. Gebaseerd op de verschillende waarden van deze afmetingen.
 
-![Een rapport van de Cohort dat aangepast rapport met geselecteerde dimensies niet de standaardop tijd-gebaseerde cohort toont.](assets/cohort-customizable-cohort-row.png)
+![ het rapport van de Cohort van A die aangepast rapport met geselecteerde dimensies tonen niet de standaardop tijd-gebaseerde cohort.](assets/retention-dimensions.png)
 
-Ga voor instructies over het instellen en uitvoeren van een cohortrapport naar [Een rapport Cohortanalyse configureren](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+>[!MORELIKETHIS]
+>
+>[ vorm een lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+>
+

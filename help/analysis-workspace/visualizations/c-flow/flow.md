@@ -4,35 +4,55 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Overzicht van stroom
+# Stroom {#flow}
 
-De flowfunctie toont de paden van klanten via uw websites en apps.
+<!-- markdownlint-disable MD034 -->
 
-Hiermee kunt u:
+>[!CONTEXTUALHELP]
+>id="cja_workspace_flow_button"
+>title="Stroom"
+>abstract="Maak een visualisatie om de stroom van personen van het ene controlepunt naar het volgende te bekijken."
 
-* De reis van de klant door uw website of toepassing visualiseren
-* Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
+>[!CONTEXTUALHELP]
+>id="cja_workspace_flow_panel"
+>title="Stroom"
+>abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) [!UICONTROL Flow] visualisatie toont klantenwegen door uw websites en apps.
+
+Met de visualisatie kunt u:
+
+* Visualiseer de reis van de klant door uw website of toepassing.
+* Analyseer waar klanten voor en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting, of uitgang gaan.
 * Filters maken door een specifiek punt in een gekozen pad aan te wijzen
 
-[Videozelfstudie voor stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)4:56
++++ Bekijk een videodemonstratie van de [!UICONTROL Flow] visualisatie.
 
-## Inter-dimensionale stromen {#in}
+>[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 
-U kunt de [stroom tussen dimensies](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
+{{videoaa}}
+
++++
+
+## Interdimensionale stromen
+
+U kunt de [ stroom tussen afmetingen ](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
-## Een stroomvisualisatie configureren
+>[!MORELIKETHIS]
+>
+>[ vorm een stroomvisualisatie ](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
-Voor informatie over hoe te om een stroomvisualisatie te vormen, zie [Een stroomvisualisatie configureren](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
-
-## De Diagrammen van de Stroom van de uitvoer als Deel van de Dossiers .CSV van het Project {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-De diagrammen van de stroom maken deel uit van het .CSV dossier van een project dat u kunt tot stand brengen door te gaan **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.

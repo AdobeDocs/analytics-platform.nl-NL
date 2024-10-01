@@ -5,20 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
 
-# Rapportactiviteiten weergeven in de rapportagManager
+# Rapportactiviteiten weergeven {#view-reporting-activity}
 
 Met [!UICONTROL Reporting Activity Manager] kunnen beheerders snel problemen met de rapportcapaciteit tijdens piekrapportagetijden opsporen en verhelpen.
 
 Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [ het Overzicht van de Manager van de Activiteit ](/help/reporting-activity-manager/reporting-activity-overview.md) melden.
 
-## Rapportactiviteiten voor alle verbindingen weergeven {#view-all-report-suites}
+## Voor alle verbindingen {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Verbindingen"
+>abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
+
+<!-- markdownlint-enable MD034 -->
+
 
 1. Ga in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]** .
 
@@ -36,7 +46,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    * Gebruik het zoekveld om te zoeken naar een specifieke verbinding. Typ de naam of de id van de verbinding en de lijst met updates van verbindingen terwijl u typt.
 
-   * Selecteer het [!UICONTROL **pictogram van de Filter**] pictogram ![ van de Filter ](assets/filter-icon.png) om de lijst van filteropties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
+   * Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de lijst van filteropties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
 
      Als u een verbinding als favoriet wilt markeren, selecteert u het sterpictogram links van de naam van de verbinding.
 
@@ -57,7 +67,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    {style="table-layout:auto"}
 
-## Rapportactiviteiten voor één verbinding weergeven
+## Voor één verbinding
 
 1. In Customer Journey Analytics, uitgezochte [!UICONTROL **Hulpmiddelen**] > [!UICONTROL **die de Manager van de Activiteit**] melden.
 

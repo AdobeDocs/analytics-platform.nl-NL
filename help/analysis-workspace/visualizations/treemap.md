@@ -4,19 +4,39 @@ title: Treemap
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 69%
+source-wordcount: '132'
+ht-degree: 13%
 
 ---
 
-# Treemap
+# Treemap {#treemap}
 
-Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_treemap_button"
+>title="Treemap"
+>abstract="Maak een treemapvisualisatie om hiërarchische (gestructureerde) gegevens met geneste rechthoeken weer te geven."
+
+<!-- markdownlint-enable MD034 -->
+
+
+Gebruik visualisatie a ](/help/assets/icons/GraphTree.svg) GraphTree **[!UICONTROL Treemap]** om hiërarchische (boom-gestructureerde) gegevens als reeks genestelde rechthoeken te tonen.![
 
 Elke tak van de boomstructuur krijgt een rechthoek die vervolgens als tegel naast kleinere rechthoeken wordt geplaatst die de subvertakkingen vertegenwoordigen.
 
-![Treemap-voorbeeld met tegels van kleinere rechthoeken die subvertakkingen vertegenwoordigen.](assets/treemap.png)
+![ Voorbeeld dat van de Treemap tegels van kleinere rechthoeken toont die subtakken vertegenwoordigen.](assets/treemap.png)
 
-Wanneer de kleur- en afmetingsdimensies op de een of andere manier zijn gecorreleerd met de boomstructuur, kunt u vaak gemakkelijk patronen zien die op andere manieren lastig te zien zijn, bijvoorbeeld of een bepaalde kleur bijzonder relevant is. Een tweede voordeel van boomstructuren is dat ze door hun constructie efficiënt gebruikmaken van de beschikbare ruimte.
+Met een treemap kunt u patronen zien die moeilijk op andere manieren te vinden zijn. Met de kleur en de grootte van de dimensies kunt u zien hoe dimensies worden gecorreleerd en of een bepaalde dimensie bijzonder relevant is. Een tweede voordeel van loopvlakken is dat loopvlakken door hun constructie efficiënt gebruik maken van de ruimte.
+
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+
+

@@ -1,19 +1,29 @@
 ---
-title: Scatterplot
+title: Spreiding
 description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Scatterplot
+# Spreiding {#scatter}
 
-De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_scatter_button"
+>title="Spreiding"
+>abstract="Creeer een spreidingsvisualisatie die het verband tussen afmetingspunten en tot drie metriek toont."
+
+<!-- markdownlint-enable MD034 -->
+
+
+![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
 
 * De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
 * In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
@@ -21,4 +31,11 @@ De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie
 * De derde kolom bepaalt de straal van de stip.
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![Voorbeeld van een stootkussen met meerdere dimensie-items ](assets/scatter.png)
+![ Voorbeeld die van het Scatterplot veelvoudige afmetingspunten tonen ](assets/scatter.png)
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

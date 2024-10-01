@@ -4,25 +4,44 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Venn
+# Venn {#venn}
 
-Met de Venn-visualisatie kunt u maximaal drie filters (van Componenten) en één metrisch inslepen om een Venn-diagram te maken.
+<!-- markdownlint-disable MD034 -->
 
-![Venn-visualisatie met drie filters.](assets/venn.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_venn_button"
+>title="Venn"
+>abstract="Creeert een venn grafiekvisualisatie om twee elementen en de grootte van hun overlapping visueel snel te vergelijken."
 
-U kunt dan de filters boven de filters plaatsen om meer inzicht te krijgen in percentages, enz.
+<!-- markdownlint-enable MD034 -->
 
-![Venn visualisatie met uitgebreide informatie over het filter voor deelnemers aan buitenvlucht 2015.](assets/venn_hover.png)
 
-Als u het Venn-diagram wilt omzetten in een tabel voor vrije vorm, klikt u op de gekleurde stip naast de **[!UICONTROL Venn]** en selecteert u **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]**.
+Het ![ Type ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualisatie laat u binnen tot 3 filters en één metrisch (van het paneel van Componenten) slepen om een diagram van de Venn te bouwen.
 
-Als u het Venn-diagram wilt normaliseren (de grootte hiervan weghalen), gaat u naar het pictogram Visualisatie-instellingen en selecteert u **[!UICONTROL Normalization]**.
+![ De visualisatie van de venn die drie filters omvat.](assets/venn.png)
 
-![Visualisatie-instellingen, optie voor het type visualisatie: Venn-diagram.](assets/normalization.png)
+U kunt de muisaanwijzer boven de filters plaatsen om meer inzicht te krijgen in percentages en nog veel meer.
+
+Om a [!UICONTROL Freeform table] van [!UICONTROL Venn] visualisatie te produceren, selecteer gekleurde ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) naast de **[!UICONTROL Venn]** kopbal en selecteer **[!UICONTROL Show data source]**. Er wordt een **[!UICONTROL Venn Data]** Freeform-tabel weergegeven met de gegevens die worden gebruikt om de [!UICONTROL Venn] visualisatie te maken.
+
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
+
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
+
+-->
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+
