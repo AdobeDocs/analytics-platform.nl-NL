@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 9%
+source-wordcount: '1021'
+ht-degree: 10%
 
 ---
 
@@ -127,31 +127,31 @@ ht-degree: 9%
       + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [Intelligente bijschriften](../analysis-workspace/visualizations/intelligent-captions.md)
       + Vrije-vormentabel {#freeform-table}
-         + [Overzicht van de tabel voor vrije vorm](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Overzicht](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace Totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totaal Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
-         + [Overzicht van de cohortingtabel](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Een Cohortingtabel configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Gebruiksgevallen van cohortanalyse](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Gebruik hoofdletters](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Uitval {#fallout}
-         + [Overzicht van uitval](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Een fallout configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Overzicht](../analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Interdimensionale uitval](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Filters toepassen in falloutanalyse](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Filters toepassen](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
-         + [Overzicht van stroom](../analysis-workspace/visualizations/c-flow/flow.md)
-         + [Een stroom configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [Overzicht](../analysis-workspace/visualizations/c-flow/flow.md)
+         + [Configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + Reiscanvas {#journey-canvas}
-         + [Overzicht van het reiscanvas](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + [De visualisatie van het canvas voor een reis configureren](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-         + [Problemen met reiscanvas oplossen](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+         + [Overzicht](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [Configureren](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [Problemen oplossen](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Gebied (gestapeld)](../analysis-workspace/visualizations/area.md)
       + [Staaf (gestapeld)](../analysis-workspace/visualizations/bar.md)
       + [Opsommingsteken](../analysis-workspace/visualizations/bullet-graph.md)
@@ -168,7 +168,7 @@ ht-degree: 9%
       + [Boomstructuur](../analysis-workspace/visualizations/treemap.md)
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
-      + [Overzicht van deelvensters](../analysis-workspace/c-panels/panels.md)
+      + [Overzicht](../analysis-workspace/c-panels/panels.md)
       + [Leeg deelvenster](../analysis-workspace/c-panels/blank-panel.md)
       + [Attributie](../analysis-workspace/c-panels/attribution.md)
       + [Experimentatie](../analysis-workspace/c-panels/experimentation.md)
@@ -185,16 +185,16 @@ ht-degree: 9%
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-weergeven projecten](../analysis-workspace/curate-share/view-only-projects.md)
    + Exporteren {#export}
-      + [Overzicht van exporteren](../analysis-workspace/export/export-project-overview.md)
+      + [Overzicht](../analysis-workspace/export/export-project-overview.md)
       + [Downloaden](../analysis-workspace/export/download-send.md)
       + [Verzenden naar anderen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Anomaliedetectie {#anomaly-detection}
-      + [Overzicht van anomalische detectie](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [anomalieën weergeven in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Statistische technieken voor de opsporing van anomalieën](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + Voorspelling {#forecasting}
-      + [Overzicht van de prognoses](../analysis-workspace/c-forecast/forecasting.md)
+      + [Overzicht](../analysis-workspace/c-forecast/forecasting.md)
       + [Prognoses weergeven in Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Statistische technieken voor de prognose](../analysis-workspace/c-forecast/statistics-forecasting.md)
       + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)

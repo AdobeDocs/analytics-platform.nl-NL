@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 057c9f4a0e8fb163bfb23cea1870f949ad4ae1c0
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,23 @@ Bijvoorbeeld, als u Persoon als container met Zitting als primaire of secundaire
 
 De volgende configuraties kunnen in knopen resulteren die percentages tonen die 100% overschrijden:
 
-* Wanneer het veld **[!UICONTROL Percentage value]** is ingesteld op **[!UICONTROL Percent of total]** en er een primaire metrische waarde is geselecteerd die resulteert in minder gegevens voor het beginknooppunt dan voor volgende knooppunten.
+* Wanneer het veld **[!UICONTROL Percentage value]** is ingesteld op **[!UICONTROL Percent of total]** of **[!UICONTROL Percent of start node]** en er een primaire metrische waarde is geselecteerd die resulteert in minder gegevens voor het beginknooppunt dan voor volgende knooppunten.
 
   Bijvoorbeeld, als de Inkomsten als primaire metrisch wordt geselecteerd, en geen opbrengst op primaire metrisch wordt gerealiseerd, dan op om het even welk knooppunt waar de opbrengst wordt gerealiseerd zal tonen als groter dan 100%.
 
+## Knooppunten met een hoger percentage of een hogere waarde dan vorige knooppunten
+
+## Nodes die een hoger percentage of een hogere waarde dan voorafgaande knopen hebben
+
+## Knooppunten die later op de reis komen, hebben een hoger percentage of een hogere waarde dan die van vroeger
+
+## Een knooppunt met een hoger percentage of een hogere waarde dan knooppunten die eraan voorafgaan tijdens de rit
+
+## Knooppunten met een hoger percentage of een hogere waarde dan vorige knooppunten
+
+## Knooppunten
+
+## Een hoger percentage of een hogere waarde in volgende knooppunten
 
 ## Een reis die geen trechter-vorm heeft
 

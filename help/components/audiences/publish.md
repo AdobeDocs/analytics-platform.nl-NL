@@ -4,9 +4,9 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -126,12 +126,6 @@ Customer Journey Analytics neemt alle namespace en identiteitskaart combinaties 
 RTCP onderzoekt dan elke naamruimte/ID-combinatie en zoekt naar een profiel waarvan het deel kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. <user@adobe.com> kan bijvoorbeeld op alle apparaten en kanalen worden toegepast. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 Customers Journey Analytics in platform weergeven:
-
->[!AVAILABILITY]
->
->De functionaliteit die in de volgende stappen wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Als deze stappen niet aanpassen wat u in uw milieu ziet, gebruik in plaats daarvan de volgende stappen: Ga naar [!UICONTROL **Segmenten**] > [!UICONTROL **creeer segmenten**] > [!UICONTROL **Publiek**] lusje > [!UICONTROL **CJA Soorten**].
->
->Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van de Customer Journey Analytics, zie {de eigenschapversies van de Customer Journey Analytics 0} ](/help/release-notes/releases.md).[
 
 1. Breid [!UICONTROL **Klant**] in het linkerpaneel uit, dan selecteren [!UICONTROL **Soorten publiek**]. <!-- is there a folder called "Customer Journey Analytics? -->
 

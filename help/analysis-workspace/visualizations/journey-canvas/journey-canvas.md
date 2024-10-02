@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt. Het stelt je in staat om een reis helemaal vanaf het begin te definiëren of een reis vanuit Journey Optimizer te bekijken, dan te zien hoe mensen de reis hebben verlaten (verlaten) of doorgezet (doorheen).
 
 U kunt [ analyses van gebruikersreizen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) bouwen door om het even welke combinatie gebeurtenissen, afmetingspunten, filters, en datumwaaiers te gebruiken om reisknopen tot stand te brengen. Verbind de knopen om de stroom van de reis tot stand te brengen, en veelvoudige wegen en beslissingspunten te omvatten. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Gegevens worden realtime bijgewerkt terwijl u wijzigingen aanbrengt.
+
+[ Knooppunten worden verbonden ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) als &quot;uiteindelijke weg,&quot;zo betekent het dat de bezoekers worden geteld zolang zij uiteindelijk van één knoop aan andere, ongeacht om het even welke gebeurtenissen zich tussen de 2 knopen voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling.
+
+![ het canvas van de Reis ](assets/journey-canvas.png)
 
 ## Belangrijkste kenmerken
 
@@ -39,13 +43,13 @@ Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas ka
 
 * Het aantal en het percentage personen dat de reis heeft voltooid (aangekomen bij het eindknooppunt)
 
-* Het aantal en het percentage personen dat op een bepaald punt (knooppunt) van de reis aankwam
+* Het aantal en het percentage personen dat op een bepaald knooppunt van de reis aankwam
 
-* De meest voorkomende stap die voor of na een bepaald punt (knooppunt) van de reis is gezet
+* De meest voorkomende stap die voor of na een bepaald knooppunt van de reis is gezet
 
 **Uitval**
 
-* De punten (knooppunten) van de reis waar mensen meestal uit de reis zijn gevallen (nooit bij een van de volgende knooppunten op het moment aangekomen)
+* De knooppunten van de reis waar mensen het meest uit de reis vielen (nooit bij een van de directe volgende knooppunten aankwamen)
 
 **Andere**
 
