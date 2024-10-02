@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d0dbdcb6fa1402bce73584d1dd9165c1b3f00b33
+source-git-commit: 51d4f05d7d28befed0a5c0d1b47b53c2e045f7f7
 workflow-type: tm+mt
-source-wordcount: '4044'
+source-wordcount: '4070'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Oktober 2024** | |
+| Workspace en componenten | De documentatie over Workspace-projecten (projecten, visualisaties en deelvensters) en -componenten (annotaties, afmetingen, (berekende) meetgegevens, filters, datumbereiken en waarschuwingen) is vernieuwd. |
 | **September 2024** | |
 | Update van samenvattingsgegevens | Bijgewerkte summiere gegevensartikelen met informatie over hoe te om [ raadplegingsgegevens ](/help/data-views/summary-data.md#lookup-data) behoorlijk te gebruiken wanneer het melden van summiere gegevens. |
 | Bijwerken van BI-extensie | Toegevoegde [ gebreken en beperkingssectie ](/help/data-views/bi-extension.md#defaults-and-limitations) aan de de uitbreidingsdocumentatie van BI. |
