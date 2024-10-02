@@ -4,9 +4,9 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
+source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,10 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | Aanmaakmethode | Details |
    | --- | --- |
    | Vanuit het hoofdmenu **[!UICONTROL Components]>[!UICONTROL Audiences]** | De pagina Soortbeheer wordt geopend. Klik op **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
-   | Vanuit een tabel voor vrije vorm | Klik met de rechtermuisknop op een item in een tabel met vrije vorm en selecteer **[!UICONTROL Create audience from selection]** . Met deze methode wordt het filter vooraf gevuld met de dimensie of het dimensie-item dat u in de tabel hebt geselecteerd. |
+   | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het snelmenu. U kunt bijvoorbeeld met de rechtermuisknop op een item in een vrije-vormtabel klikken of op een knooppunt in het canvas Reis klikken en vervolgens **[!UICONTROL Create audience]** selecteren. <p>Met deze methode wordt het filter vooraf gevuld met de dimensie of het dimensie-item dat u in de tabel hebt geselecteerd.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>Cohort</li><li>Fallout</li><li>Stroom</li><li>Vrije-vormtabel</li><li>Reiscanvas</li><li>Venn</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, zal berekende metrisch niet in de publieksdefinitie worden omvat.</p> |
    | Via de interface voor het maken/bewerken van filters | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this filter]** in. Met deze methode wordt het filter vooraf gevuld. |
 
    {style="table-layout:auto"}
-
-   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. Het publiek opbouwen.
 
@@ -64,7 +62,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | Vervaldatum | Wanneer het publiek stopt met vernieuwen. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het verouderen van het publiek wordt op dezelfde manier behandeld als het verlopen van geplande rapporten - admin krijgt een e-mail een maand alvorens het publiek verloopt. |
    | Zoekvenster vernieuwen | Hiermee geeft u aan hoe ver u wilt teruggaan in uw gegevensvenster om dit publiek te maken. De maximale duur is 90 dagen. |
    | [!UICONTROL One-time date range] | Datumbereik wanneer u wilt dat het eenmalig publiek wordt gepubliceerd. |
-   | [!UICONTROL Filter] | Filters zijn de belangrijkste invoer voor het publiek. U kunt maximaal 20 filters toevoegen. Deze filters kunnen worden gekoppeld met `And` - of `Or` -operatoren. |
+   | [!UICONTROL Filter] | Filters zijn de belangrijkste invoer voor het publiek. U kunt maximaal 20 filters toevoegen. Deze filters kunnen worden gekoppeld met `And` - of `Or` -operatoren.<p>Wanneer u een publiek maakt op basis van een visualisatie in Analysis Workspace (zoals een vrije-vormtabel of het canvas Reis), blijven alle filters behouden die op het deelvenster of de kolom zijn toegepast. U kunt alle filters verwijderen die automatisch worden toegepast.</p> |
    | [!UICONTROL View sample IDs] | Een voorbeeld van id&#39;s in dit publiek. Zoek met de zoekbalk naar voorbeeld-id&#39;s. |
 
    {style="table-layout:auto"}
