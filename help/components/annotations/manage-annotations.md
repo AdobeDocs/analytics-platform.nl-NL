@@ -4,9 +4,9 @@ description: Annotaties beheren in Workspace.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -52,16 +52,16 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 U kunt actie ondernemen op annotaties met behulp van het ➋ op de actiebalk. De actiebalk bevat de volgende handelingen:
 
-| Handeling | Beschrijving |
-|---|---|
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere annotatie toe, gebruikend de [ bouwer van de Annotatie ](create-annotations.md#annotation-builder). |
-| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen annotatie is geselecteerd in de lijst, zoekt u naar annotaties met dit zoekveld. |
-| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde annotaties. Selecteer in het dialoogvenster **[!UICONTROL Tag Component]** de tags voor de geselecteerde annotaties of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde annotaties op te slaan. |
-| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde annotaties. In de **[!UICONTROL Share Component]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde annotaties op te slaan. Zie [ Annotaties van het Aandeel ](#share-annotations) voor meer details. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde annotaties. U wordt gevraagd om een bevestiging. |
-| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde annotatie. Als deze optie is geselecteerd, kunt u de naam van de annotatie inline wijzigen. |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde annotaties. Nieuwe annotaties worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Exporteer de annotaties naar een `Annotations List.csv` -bestand. |
+| Pictogram | Handeling | Beschrijving |
+|:--:|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een andere annotatie toe, gebruikend de [ bouwer van de Annotatie ](create-annotations.md#annotation-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen annotatie is geselecteerd in de lijst, zoekt u naar annotaties met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde annotaties. Selecteer in het dialoogvenster **[!UICONTROL Tag Component]** de tags voor de geselecteerde annotaties of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde annotaties op te slaan. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Deel de geselecteerde annotaties. In de **[!UICONTROL Share Component]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde annotaties op te slaan. Zie [ Annotaties van het Aandeel ](#share-annotations) voor meer details. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde annotaties. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde annotatie. Als deze optie is geselecteerd, kunt u de naam van de annotatie inline wijzigen. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde annotaties. Nieuwe annotaties worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de annotaties naar een `Annotations List.csv` -bestand. |
 
 ### Actieve filterbalk
 

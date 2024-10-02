@@ -4,9 +4,9 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 
 
-De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) [!UICONTROL Flow] visualisatie toont klantenwegen door uw websites en apps.
+De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
 
 Met de visualisatie kunt u:
 
@@ -37,7 +37,7 @@ Met de visualisatie kunt u:
 * Analyseer waar klanten voor en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting, of uitgang gaan.
 * Filters maken door een specifiek punt in een gekozen pad aan te wijzen
 
-+++ Bekijk een videodemonstratie van de [!UICONTROL Flow] visualisatie.
++++ Bekijk een videodemonstratie van de stroomvisualisatie.
 
 >[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 

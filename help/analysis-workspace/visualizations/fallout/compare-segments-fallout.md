@@ -5,7 +5,7 @@ title: Filters toepassen in falloutanalyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -18,11 +18,11 @@ U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt e
 
 >[!IMPORTANT]
 >
->Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een persoonlijk-context Fallout, moeten de filters die als controlepunten worden gebruikt bezoek of op gebeurtenis-gebaseerde filters zijn. Bij een &#39;visit-context&#39;-uitval moeten filters die als controlepunt worden gebruikt op gebeurtenissen gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er verschijnt een waarschuwing voor de valutamarkering wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
-
-* Een persoonlijk filter gebruiken als aanraakpunt binnen een persoonlijk-context-uitvalvisualisatie
-* Een persoonlijk filter gebruiken als aanraakpunt binnen een &#39;visit-context&#39;-uitvalvisualisatie
-* Een op bezoek gebaseerd filter gebruiken als aanraakpunt binnen een visualisatie van de &quot;visit-context&quot;
+>Filters die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een persoonlijk-contextUitval, moeten de filters die als controlepunten worden gebruikt zitting of op gebeurtenis-gebaseerde filters zijn. Bij een sessiecontext Fallout moeten filters die als controlepunt worden gebruikt op gebeurtenissen gebaseerde filters zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er verschijnt een waarschuwing voor de valutamarkering wanneer u een incompatibel filter toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van filtercontainers leiden tot ongeldige Fallout-diagrammen, zoals:
+>
+>* Een persoonlijk filter gebruiken als aanraakpunt binnen een persoonlijk-context-uitvalvisualisatie
+>* Het gebruiken van een op persoon-gebaseerd filter als touchpoint binnen een zitting-contextVallout visualisatie
+>* Het gebruiken van een op zitting-gebaseerd filter als touchpoint binnen een zitting-contextVallout visualisatie
 
 ## Een filter maken van een aanraakpunt
 

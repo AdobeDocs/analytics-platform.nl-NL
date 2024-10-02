@@ -1,11 +1,11 @@
 ---
 description: Gebruik gevallen voor waarschuwingen.
-title: Waarschuwingen - gebruik
+title: Gebruikskwesties met waarschuwingen
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ U kunt alarm tot stand brengen zoals die in [ wordt beschreven leidt alarm ](/he
 
 In de volgende secties ziet u voorbeelden van gebruiksgevallen die u kunt overwegen wanneer u waarschuwingen maakt.
 
-## Eenvoudige waarschuwing maken, gefilterd door twee filters {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filterwaarschuwingen
+
+U kunt eenvoudige waarschuwingen maken met behulp van filters. Definieer bijvoorbeeld een waarschuwing over het aantal sessies voor mensen die de startpagina via een mobiele-app-sessie bezoeken.
 
 <!-- 
 
@@ -24,12 +26,12 @@ Update screenshots for better readability.
 
  -->
 
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolideer waarschuwingen (stapel) in plaats van meerdere waarschuwingen te maken {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Stapelwaarschuwingen
 
-Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm.
+U kunt waarschuwingen samenvoegen (stapelen) in plaats van meerdere waarschuwingen te maken. Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm. In het onderstaande voorbeeld wordt een waarschuwing verzonden wanneer een van de meetwaarden wordt geactiveerd.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

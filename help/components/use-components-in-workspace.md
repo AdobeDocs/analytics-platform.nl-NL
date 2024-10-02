@@ -4,9 +4,9 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Zie het [ overzicht van Componenten ](/help/components/overview.md) voor meer in
 
 >[!TIP]
 >
->Voor informatie over elke component, selecteer het ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) pictogram naast de naam van de component.
+>Voor informatie over elke component, gebruik ![ InfoOutline ](/help/assets/icons/InfoOutline.svg). Zie [ Info van de Component ](#component-info) voor meer informatie
 
 ## Componenten aan een project toevoegen
 

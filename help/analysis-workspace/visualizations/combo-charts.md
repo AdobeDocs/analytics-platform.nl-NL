@@ -4,9 +4,9 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Houd er rekening mee dat:
    | Het vergelijkingstype Lijn | Definitie |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison] selecteerde, maak een secundaire selectie over welke tijdspanne u wilt vergelijken.<p>![ LIne vergelijking met de geselecteerde periode van de Tijd en het secundaire selectiegebied voor de periode van de Tijd.](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking introduceren. Hieronder vindt u een lijst met ondersteunde functies.<p>![ LIne vergelijkingsdrop-down menu die Functies tonen en een lijst van beschikbare gesteunde functies.](assets/combo-functions.png) |
+   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking introduceren. Zie de lijst van [ gesteunde functies ](#supported-functions).<p>![ LIne vergelijkingsdrop-down menu die Functies tonen en een lijst van beschikbare gesteunde functies.](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] met een andere metrische waarde vergelijken.<p>![ een Combo grafiek die twee metriek vergelijkt.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}

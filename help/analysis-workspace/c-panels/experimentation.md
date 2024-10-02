@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,6 @@ Berekende meetgegevens met een van de volgende meetwaarden of constanten zijn ni
 * Constanten die worden toegevoegd aan of afgetrokken van een metrische basis (bijvoorbeeld `Revenue+50`)
 * Een of meer van de volgende basismeetwaarden:
    * Mensen
-   * (wat nog?)
 
 De berekende metriek die niet compatibel met het paneel van de Experimentatie zijn hebben de waarde [!UICONTROL **overal in Customer Journey Analytics (exclusief experimenteren)**] op het [!UICONTROL **de verenigbaarheid van het Product**] gebied wanneer het creëren van berekende metrisch. Voor informatie over het creëren van berekende metrisch, zie [ metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) bouwen.
 

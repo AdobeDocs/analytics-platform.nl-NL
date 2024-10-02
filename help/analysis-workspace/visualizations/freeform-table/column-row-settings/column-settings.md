@@ -4,9 +4,9 @@ title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '818'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoud
 
 Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak in Freeform-tabellen wordt ook automatisch ingeschakeld voor uitsplitsingen, tenzij [!UICONTROL Custom] limieten zijn geselecteerd.
 
-<img src="./assets/conditional-formatting.png" alt="De voorwaardelijke opmaakopties met Aangepast geselecteerd" width="40%" />
+![ Voorwaardelijke het formatteren ](./assets/conditional-formatting.png)
 
 | Opties voor voorwaardelijke opmaak | Beschrijving |
 | --- | --- |
@@ -67,9 +67,19 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="Niet-standaard toewijzingsmodel gebruiken"
->abstract="Niet-standaard toewijzingsmodel inschakelen voor de geselecteerde kolommen"
+>abstract="Schakel een niet-standaard toewijzingsmodel in voor de geselecteerde kolommen."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="Niet-standaard toewijzingsmodel gebruiken"
+>abstract="Niet-standaardtoewijzingsmodus is niet beschikbaar voor deze metrische waarde."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 U kunt het standaardattributiemodel met voeten treden dat in [ meningen van Gegevens ](/help/data-views/component-settings/attribution.md) wordt gevormd.

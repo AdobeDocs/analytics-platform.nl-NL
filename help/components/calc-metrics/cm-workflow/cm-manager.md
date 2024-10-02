@@ -3,9 +3,9 @@ description: Met de functie Berekende metrische elementen kunt u bestanden delen
 title: Berekende metrische manager
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -51,17 +51,17 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 U kunt op filters actie ondernemen met de ➋ van de actiebalk. De actiebalk bevat de volgende handelingen:
 
-| Handeling | Beschrijving |
-|---|---|
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere berekende metriek toe, gebruikend [ Berekende metrische bouwer ](cm-build-metrics.md). |
-| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen berekende metrisch is geselecteerd in de lijst, zoekt u naar filters met dit zoekveld. |
-| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde berekende metriek. Selecteer in het dialoogvenster **[!UICONTROL Tag Calculated metric]** de labels voor de geselecteerde berekende metrische waarde of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde berekende metriek op te slaan. Zie [ Markering berekende metriek ](cm-tagging.md) voor meer informatie. |
-| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde berekende metriek. In de **[!UICONTROL Share Calculated metrics]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde berekende metriek op te slaan. Zie [ Aandeel berekende metriek ](cm-sharing.md) voor meer informatie. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde berekende metriek. U wordt gevraagd om een bevestiging. |
-| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde berekende metrische waarde. Als deze optie is geselecteerd, kunt u de naam van de berekende metrische waarde inline wijzigen. |
-| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Goedkeuren van de geselecteerde berekende metriek. Zie [ berekende metriek goedkeuren ](cm-approving.md). |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde berekende metriek. Nieuwe berekende metriek worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Exporteer de berekende metriek naar een `Calculated  metric List.csv` -bestand. |
+| Pictogram | Handeling | Beschrijving |
+|:---:|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een andere berekende metriek toe, gebruikend [ Berekende metrische bouwer ](cm-build-metrics.md). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen berekende metrisch is geselecteerd in de lijst, zoekt u naar filters met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde berekende metriek. Selecteer in het dialoogvenster **[!UICONTROL Tag Calculated metric]** de labels voor de geselecteerde berekende metrische waarde of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde berekende metriek op te slaan. Zie [ Markering berekende metriek ](cm-tagging.md) voor meer informatie. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Deel de geselecteerde berekende metriek. In de **[!UICONTROL Share Calculated metrics]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde berekende metriek op te slaan. Zie [ Aandeel berekende metriek ](cm-sharing.md) voor meer informatie. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde berekende metriek. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde berekende metrische waarde. Als deze optie is geselecteerd, kunt u de naam van de berekende metrische waarde inline wijzigen. |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Goedkeuren van de geselecteerde berekende metriek. Zie [ berekende metriek goedkeuren ](cm-approving.md). |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde berekende metriek. Nieuwe berekende metriek worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de berekende metriek naar een `Calculated  metric List.csv` -bestand. |
 
 ### Actieve filterbalk
 

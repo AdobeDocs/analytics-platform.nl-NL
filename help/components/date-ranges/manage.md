@@ -4,9 +4,9 @@ description: U kunt datumbereiken delen, hernoemen of verwijderen in Analysis Wo
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -46,17 +46,17 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 U kunt op datumbereiken actie ondernemen met de ➋ van de actiebalk. De actiebalk bevat de volgende handelingen:
 
-| Handeling | Beschrijving |
-|---|---|
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een andere datumwaaier toe, gebruikend de [ de waaierbouwer van de Datum ](create.md#date-range-builder). |
-| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen datumbereik is geselecteerd in de lijst, zoekt u naar datumbereiken met dit zoekveld. |
-| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde datumbereiken. Selecteer in het dialoogvenster **[!UICONTROL Tag Date range]** de tags voor de geselecteerde datumbereiken of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde datumbereiken op te slaan. |
-| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde datumbereiken. In de **[!UICONTROL Share Date range]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om de deelgegevens voor de geselecteerde datumbereiken op te slaan. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde datumbereiken. U wordt gevraagd om een bevestiging. |
-| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerd datumbereik. Als deze optie is geselecteerd, kunt u de naam van het datumbereik inline wijzigen. |
-| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Geef de geselecteerde datumbereiken goed. |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde datumbereiken. Nieuwe datumbereiken worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Exporteer de geselecteerde datumbereiken naar een `Date ranges List.csv` -bestand. |
+| Pictogram | Handeling | Beschrijving |
+|:---:|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een andere datumwaaier toe, gebruikend de [ de waaierbouwer van de Datum ](create.md#date-range-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen datumbereik is geselecteerd in de lijst, zoekt u naar datumbereiken met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde datumbereiken. Selecteer in het dialoogvenster **[!UICONTROL Tag Date range]** de tags voor de geselecteerde datumbereiken of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde datumbereiken op te slaan. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Deel de geselecteerde datumbereiken. In de **[!UICONTROL Share Date range]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om de deelgegevens voor de geselecteerde datumbereiken op te slaan. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde datumbereiken. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerd datumbereik. Als deze optie is geselecteerd, kunt u de naam van het datumbereik inline wijzigen. |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Geef de geselecteerde datumbereiken goed. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde datumbereiken. Nieuwe datumbereiken worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de geselecteerde datumbereiken naar een `Date ranges List.csv` -bestand. |
 
 ### Actieve filterbalk
 

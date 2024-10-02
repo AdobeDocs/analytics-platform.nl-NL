@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 0e627d536682f62b499f7f6d477c1d906de13f24
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1052'
 ht-degree: 9%
 
 ---
@@ -173,9 +173,9 @@ ht-degree: 9%
       + [Attributie](../analysis-workspace/c-panels/attribution.md)
       + [Experimentatie](../analysis-workspace/c-panels/experimentation.md)
       + [Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
-      + [Gemiddelde mediumgeluid](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Mediagelijktijdige viewers](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Tijd van afspelen van media besteed](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Gemiddeld aantal minuten voor medium](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Gelijktijdige viewers voor media](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Afspeeltijd media besteed](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Volgende of vorige item](../analysis-workspace/c-panels/next-previous.md)
       + [Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
    + Projecten cureren, delen en plannen {#curate-share}
@@ -257,7 +257,7 @@ ht-degree: 9%
       + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
       + [Afmetingen onderverdelingen](../components/dimensions/t-breakdown-fa.md)
       + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
-      + [Dimensionen met zeer hoge kardinaliteit](../components/dimensions/high-cardinality.md)
+      + [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
    + Filters {#cja-filters}
       + [Overzicht van filters](../components/filters/filters-overview.md)

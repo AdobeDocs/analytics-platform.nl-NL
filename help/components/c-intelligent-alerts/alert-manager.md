@@ -3,9 +3,9 @@ description: Waarschuwingen maken, bewerken of verwijderen.
 title: Aletten beheren
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -50,17 +50,17 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 U kunt actie ondernemen bij waarschuwingen met behulp van de ➋. De actiebalk bevat de volgende handelingen:
 
-| Handeling | Beschrijving |
-|---|---|
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een ander alarm toe, gebruikend de [ Waakzame bouwer ](alert-builder.md#alert-builder). |
-| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen waarschuwing in de lijst is geselecteerd, zoekt u naar waarschuwingen met dit zoekveld. |
-| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label de geselecteerde waarschuwingen. Selecteer in het dialoogvenster **[!UICONTROL Tag Alert]** de tags voor de geselecteerde waarschuwingen of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde waarschuwingen op te slaan. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde waarschuwingen. U wordt gevraagd om een bevestiging. |
-| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerde waarschuwing. Als deze optie is geselecteerd, kunt u de naam van de waarschuwing inline wijzigen. |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer de geselecteerde waarschuwing. Nieuwe waarschuwingen worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
-| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Enable]** of **[!UICONTROL Disable]** | Schakel de geselecteerde waarschuwingen in of uit. |
-| ![ verfrissen zich ](/help/assets/icons/Refresh.svg) **[!UICONTROL Renew]** | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. De vervaldatum is 1 jaar vanaf de dag waarop u deze optie selecteert, ongeacht de oorspronkelijke vervaldatum. |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Exporteer de waarschuwingen naar een `Alerts List.csv` -bestand. |
+| Pictogram | Handeling | Beschrijving |
+|:---:|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een ander alarm toe, gebruikend de [ Waakzame bouwer ](alert-builder.md#alert-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen waarschuwing in de lijst is geselecteerd, zoekt u naar waarschuwingen met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde waarschuwingen. Selecteer in het dialoogvenster **[!UICONTROL Tag Alert]** de tags voor de geselecteerde waarschuwingen of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde waarschuwingen op te slaan. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde waarschuwingen. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde waarschuwing. Als deze optie is geselecteerd, kunt u de naam van de waarschuwing inline wijzigen. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde waarschuwing. Nieuwe waarschuwingen worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** of **[!UICONTROL Disable]** | Schakel de geselecteerde waarschuwingen in of uit. |
+| ![ verfrissen zich ](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. De vervaldatum is 1 jaar vanaf de dag waarop u deze optie selecteert, ongeacht de oorspronkelijke vervaldatum. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de waarschuwingen naar een `Alerts List.csv` -bestand. |
 
 
 ### Actieve filterbalk

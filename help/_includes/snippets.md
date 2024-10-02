@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '3624'
 ht-degree: 0%
@@ -97,18 +97,15 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 ## Adobe Analytics voor videodemonstratie {#videoaa}
 
->[!NOTE]
->
->Deze video demonstreert de functionaliteit met Adobe Analytics. De functionaliteit is echter ook beschikbaar in de Customer Journey Analytics. Houd rekening met de volgende terminologische verschillen.
->
->
->| Adobe Analytics | Customer Journey Analytics |
->|:---:|:---:|
->| Segmenten | Filters |
->| Bezoeker | Persoon |
->| Bezoek | Sessie |
->| Actief | Gebeurtenis |
->
+Deze video demonstreert de functionaliteit met Adobe Analytics. De functionaliteit is echter ook beschikbaar in de Customer Journey Analytics. Houd rekening met de volgende terminologische verschillen.
+
+| Adobe Analytics | Customer Journey Analytics |
+|:---:|:---:|
+| Segmenten | Filters |
+| Bezoeker | Persoon |
+| Bezoek | Sessie |
+| Actief | Gebeurtenis |
+
 
 ## Deelvenster Filters {#filterspanel}
 

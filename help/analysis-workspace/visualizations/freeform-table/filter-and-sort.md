@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Specifieke rijen uitsluiten van een tabel voor vrije vorm:
 
 1. Beweeg over de rij die u wilt uitsluiten, dan selecteren ![ dicht ](/help/assets/icons/Close.svg).
 
-   Houd Shift ingedrukt om een reeks rijen te selecteren of houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere rijen te selecteren.
+   Houd de ***verschuiving*** om een waaier van rijen te selecteren, of houd de ***cmd*** sleutel (op Mac) of de ***ctrl*** sleutel (op Vensters) om veelvoudige rijen te selecteren.
 
 <!--### Right-click > Delete selected rows
 

@@ -4,7 +4,7 @@ title: Afmetingen van tijd tot tijd
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Afmetingen van tijd-paring in Analysis Workspace
 
-Bij tijdpartering wordt de tijdstempel van verzamelde gebeurtenissen gebruikt en wordt deze in meer betekenisvolle dimensies gesplitst, zoals &quot;Uur van dag&quot; of &quot;Dag van week&quot;.
+Het ontleden van de tijd neemt timestamp van verzamelde gebeurtenissen en breekt het in zinvollere dimensies, zoals **Uur van Dag** of **Dag van Week**.
 
 De tijd-ontledende afmetingen zijn gebaseerd op de tijdzone van de gegevensmening. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
