@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 3b9f477001747a96359f77f2e48baf7589b7a1e4
 workflow-type: tm+mt
-source-wordcount: '6575'
+source-wordcount: '6373'
 ht-degree: 0%
 
 ---
@@ -149,10 +149,6 @@ U kunt op de volgende manieren knooppunten maken: door Workspace-componenten van
 
 ### Bovenste knooppunten weergeven op basis van bestaande knooppunten
 
->[!AVAILABILITY]
->
->Deze functie is nog niet beschikbaar.
-
 U kunt de bovenste knooppunten automatisch weergeven op basis van de knooppunten die zich al op het canvas bevinden. U kunt de bovenste knooppunten toevoegen aan het canvas Journey of deze weergeven in een vrije-vormtabel.
 
 Deze optie is beschikbaar voor de volgende objecten op het canvas:
@@ -221,17 +217,17 @@ U kunt een pijl selecteren en de bovenste dimensie-items tonen die tussen twee b
 
 ### Dubbele knooppunten
 
->[!AVAILABILITY]
->
->Deze functie is nog niet beschikbaar.
-
 De optie om te dupliceren is beschikbaar voor de volgende objecten op het canvas:
+
+* Afzonderlijke knooppunten
 
 * Meerdere knooppunten
 
 Om knooppunten te dupliceren:
 
-1. Selecteer meerdere knooppunten die u wilt dupliceren.
+1. Selecteer een of meer knooppunten die u wilt dupliceren.
+
+   Houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere knooppunten te selecteren.
 
 1. Klik met de rechtermuisknop op een van de geselecteerde knooppunten en selecteer vervolgens [!UICONTROL **Dupliceren**] .
 
@@ -263,7 +259,7 @@ U kunt een van de volgende handelingen uitvoeren om knooppunten te combineren in
 
 * Sleep vanuit de linkerrails meerdere componenten tegelijk naar een leeg gebied van het canvas terwijl u de Shift-toets ingedrukt houdt.
 
-* Voor het canvas, selecteer de knopen die u wilt combineren, klik één van de geselecteerde knopen met de rechtermuisknop aan, dan selecteren **combineren**.<!--Is there a limit on how many you can combine? -->
+<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
 
 #### Logica bij het combineren van knooppunten
 
@@ -304,7 +300,7 @@ De knopen worden verbonden door een pijl. Zowel de richting van de pijl als de b
 
 Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend filtreren ](/help/components/filters/seg-sequential-build.md).
 
-Knooppunten worden verbonden als een &quot;uiteindelijk pad&quot;, wat betekent dat bezoekers worden geteld zolang ze uiteindelijk van de ene naar de andere node gaan, ongeacht gebeurtenissen die zich tussen de twee knooppunten voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling. Het kan ook door [ worden gecontroleerd toevoegend een tijdbeperking ](#add-a-time-constraint-between-nodes).
+Knooppunten worden verbonden als een &quot;uiteindelijk pad&quot;, wat betekent dat bezoekers worden geteld zolang ze uiteindelijk van de ene naar de andere node gaan, ongeacht gebeurtenissen die zich tussen de twee knooppunten voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 U kunt de logica van verbonden knopen bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer filter van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
 
@@ -328,23 +324,23 @@ Wanneer u een knooppunt aan het canvas toevoegt, kunt u het tussen twee verbonde
 
 Voor meer informatie, zie [ knopen ](#add-nodes) toevoegen.
 
-### Tijdsbeperking toevoegen tussen knooppunten
+<!--
+
+### Add a time constraint between nodes
 
 >[!AVAILABILITY]
 >
->Deze functie is nog niet beschikbaar.
+>This feature is not yet available.
 
-U kunt een tijdbeperking instellen tussen knooppunten. Wanneer er een tijdbeperking is, worden mensen geacht uit de reis te zijn gevallen als ze de vastgestelde reis volgen maar langer duren dan de toegewezen tijdsperiode om tussen de knooppunten te bewegen.
+You can set a time constraint between nodes. When a time constraint is in place, people are considered to have fallen out of the journey if they follow the defined journey but take longer than the allotted time period to move between the nodes.
 
-De optie om een tijdbeperking toe te voegen is beschikbaar voor de volgende objecten op het canvas:
+The option to add a time constraint is available for the following objects on the canvas:
 
-* De pijl tussen knooppunten
+* The arrow between nodes
 
-Een tijdbeperking toevoegen:
+To add a time constraint:
 
-1. In een visualisatie van het canvas van de Reis, klik de pijl tussen 2 knopen met de rechtermuisknop aan, dan uitgezocht [!UICONTROL **tijdbeperking**] toevoegen.
-
-<!-- 
+1. In a Journey canvas visualization, right-click the arrow between 2 nodes, then select [!UICONTROL **Add time constraint**].
 
 from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
 1. Choose from the following options: 
@@ -353,35 +349,35 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ## Knooppunten of pijlen beheren
 
-### De kleur van een knooppunt of pijl wijzigen
+<!--
+
+### Change the color of a node or arrow
 
 >[!AVAILABILITY]
 >
->Deze functie is nog niet beschikbaar.
+>This feature is not yet available.
 
-U kunt een reis visueel aanpassen door de kleur van om het even welke knoop of pijl op het canvas te veranderen. U kunt bijvoorbeeld de kleuren aanpassen om een ongewenste of ongewenste gebeurtenis aan te geven.
+You can visually customize a journey by changing the color of any node or arrow on the canvas. For example, you could adjust colors to indicate a desirable or undesirable event.
 
-De optie om de kleur te wijzigen is beschikbaar voor de volgende objecten op het canvas:
+The option to change the color is available for the following objects on the canvas:
 
-* Afzonderlijke knooppunten
+* Individual nodes
 
-* De pijl tussen knooppunten
+* The arrow between nodes
 
-De kleur van een knooppunt of pijl wijzigen:
+To change the color of a node or arrow:
 
-1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op het knooppunt of de pijl waarvan u de kleur wilt wijzigen.
+1. In a Journey canvas visualization, right-click the node or arrow whose color you want to change.
 
-1. Selecteer [!UICONTROL **kleur van de Verandering**]. <!--make sure "color" isn't capitalized. It is in the req doc-->
+1. Select [!UICONTROL **Change color**]. 
 
-1. Selecteer de gewenste kleur.
+1. Select the desired color. 
 
-   De volgende kleuren zijn beschikbaar: <!--look into this interaction and color list-->
+   The following colors are available: 
+
+-->
 
 ### Naam knooppunt wijzigen
-
->[!AVAILABILITY]
->
->Deze functie is nog niet beschikbaar.
 
 Wanneer u een component naar het canvas Journey sleept, wordt een knooppunt gemaakt met dezelfde naam als de componentnaam. U kunt de naam van het knooppunt wijzigen zodat deze beter overeenkomt met de stap van de rit die het knooppunt vertegenwoordigt.
 
@@ -453,15 +449,13 @@ Houd rekening met het volgende wanneer u een indeling toepast:
 
 #### Een uitsplitsing toepassen op een of meer knooppunten of pijlen
 
->[!AVAILABILITY]
->
->Deze functie is nog niet beschikbaar.
-
 1. In een reis canvasvisualisatie, selecteer één of meerdere knopen waar u een verdeling wilt toepassen, dan klik één van de geselecteerde knopen met de rechtermuisknop aan.
 
    of
 
    Selecteer in een reiscanvasvisualisatie een of meer pijlen tussen twee knooppunten waarop u de splitsing wilt toepassen en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
+
+   Houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere knooppunten of pijlen te selecteren.
 
 1. Selecteer [!UICONTROL **Uitsplitsing**].
 
@@ -513,6 +507,8 @@ Een publiek maken:
 
    Selecteer in een reiscanvasvisualisatie een of meer pijlen tussen twee knooppunten waar u een publiek wilt maken en klik vervolgens met de rechtermuisknop op een van de geselecteerde pijlen.
 
+   Houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere knooppunten of pijlen te selecteren.
+
    >[!NOTE]
    >
    >Het publiek kan geen berekende metriek of om het even welke metriek omvatten die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn. Als u probeert om een publiek van om het even welk gebied van het canvas van de Reis tot stand te brengen dat berekende metrisch of metrisch bevat die op een summiere dataset gebaseerd is, zal berekende metrisch niet in de publieksdefinitie worden omvat.
@@ -522,10 +518,6 @@ Een publiek maken:
 1. Ga verder creërend en het publiceren van het publiek zoals die in [ wordt beschreven creëren en publiceer publiek ](/help/components/audiences/publish.md).
 
 ### Tendelgegevens weergeven
-
->[!AVAILABILITY]
->
->Deze functie is nog niet beschikbaar.
 
 U kunt de trendgegevens weergeven in een lijngrafiek voor objecten op het canvas Reis. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
@@ -546,6 +538,8 @@ De trendgegevens bekijken:
    of
 
    In een reis canvasvisualisatie, selecteer één of meerdere pijlen tussen 2 knopen waarvoor u trendgegevens wilt bekijken, dan klik één van de geselecteerde pijlen met de rechtermuisknop aan.
+
+   Houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere knooppunten of pijlen te selecteren.
 
 1. Selecteer [!UICONTROL **Trend**].
 
