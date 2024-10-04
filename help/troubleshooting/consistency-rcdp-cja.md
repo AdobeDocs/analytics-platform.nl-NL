@@ -1,18 +1,18 @@
 ---
 description: Verklaart welke factoren de consistentie van metriek en kijkcijfers van het publiekslidmaatschap tussen Real-time Customer Data Platform (in real time CDP) en Customer Journey Analytics beïnvloeden.
-title: De consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Customer Journey Analytics
+title: Consistentie van metriek en publiek lidmaatschap
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 
-# Consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Adobe Customer Journey Analytics
+# Consistentie van metriek en publiek lidmaatschap
 
 In real-world scenario&#39;s, kan de consistentie van metriek en het aantal van het publiekslidmaatschap over Real-time Customer Data Platform (Real-time CDP) en Customer Journey Analytics niet worden gewaarborgd. In dit document wordt uitgelegd waarom.
 
@@ -20,9 +20,9 @@ Wanneer het vergelijken van het aantal van het publiekslidmaatschap tussen CDP i
 
 ## Verschillen in identiteitsconfiguraties
 
-CDP en Customer Journey Analytics in real time delen niet de zelfde definitie van een persoon vandaag. Real-time CDP vertrouwt volledig op de informatie in [Naamgrafiek](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html) om een samengevoegd profiel te maken.
+CDP en Customer Journey Analytics in real time delen niet de zelfde definitie van een persoon vandaag. CDP in real time baseert zich volledig op de informatie in de [ Grafiek van de Identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html) om een samengevoegd profiel te bouwen.
 
-Customer Journey Analytics kan worden gevormd om te gebruiken [Stiksel](../stitching/overview.md) die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
+De Customer Journey Analytics kan worden gevormd om [ Stitching ](../stitching/overview.md) te gebruiken die herkenningstekens uit datasets in het gegevensmeer haalt en douanelogica toepast om hen samen te verbinden.
 
 In de toekomst zal Customer Journey Analytics de Grafiek van de Identiteit kunnen gebruiken.
 
@@ -34,7 +34,7 @@ U kunt verkiezen om sommige gegevens in real time CDP en wat in Customer Journey
 
 Met Customer Journey Analytics kunt u tijdens de query uitgebreide gegevens wijzigen, zoals velden combineren, velden splitsen en andere bewerkingen zoals include/Excludes, substrings, value deduplicatie, sessionization en filter op rijniveau.
 
-CDP in real time biedt een verschillende reeks hulpmiddelen van de gegevensmanipulatie aan. Zij is van toepassing [beleid samenvoegen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html) om te bepalen welke gegevens voorrang krijgen en welke gegevens zullen worden gecombineerd om een verenigde mening van een persoon tot stand te brengen.
+CDP in real time biedt een verschillende reeks hulpmiddelen van de gegevensmanipulatie aan. Het past [ samenvoegbeleid ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html) toe om te bepalen welke gegevens aan voorrang zullen worden gegeven en welke gegevens zullen worden gecombineerd om een verenigde mening van een persoon tot stand te brengen.
 
 ## Verschillen in TTL (Tijd aan Levende) en gegevensopname
 

@@ -1,36 +1,36 @@
 ---
 title: Gegevens verzamelen via de Adobe Experience Platform Edge Network Server-API
-description: Uitleggen hoe u gegevens in Customer Journey Analytics kunt opnemen via de Adobe Experience Platform Edge Network Server-API en het Edge Network
+description: Verklaar hoe te om gegevens in Customer Journey Analytics via de Server API van de Edge Network van Adobe Experience Platform en de Edge Network in te voeren
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2176'
 ht-degree: 0%
 
 ---
 
-# Gegevens verzamelen via de Adobe Experience Platform Edge Network Server-API
+# Gegevens verzamelen via de Edge Network Server-API
 
-In deze snelstartgids wordt uitgelegd hoe u gegevens voor het bijhouden van gegevens kunt invoeren van apparaten zoals IoT-apparaten, set-top boxes, gameconsoles, bureaubladtoepassingen rechtstreeks in Adobe Experience Platform met de Adobe Experience Platform Edge Network Server API en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
+Deze snelstartgids legt uit hoe u de volgende gegevens van apparaten zoals IoT-apparaten, set-top boxes, gameconsoles, bureaubladtoepassingen rechtstreeks in Adobe Experience Platform kunt invoeren met behulp van de Adobe Experience Platform Edge Network Server API en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
 
 Hiervoor moet u:
 
-- **Een schema en gegevensset instellen** in Adobe Experience Platform om het model (schema) te bepalen van de gegevens die u wilt verzamelen en waar te om de gegevens (dataset) daadwerkelijk te verzamelen.
+- **opstelling een schema en dataset** in Adobe Experience Platform om het model (schema) van de gegevens te bepalen die u wilt verzamelen en waar te om de gegevens (dataset) eigenlijk te verzamelen.
 
-- **Een gegevensstroom instellen** om het Adobe Experience Platform Edge Network te configureren om de verzamelde gegevens te routeren naar de gegevensset die u in Adobe Experience Platform hebt geconfigureerd.
+- **opstelling een datastream** om de Edge Network van Adobe Experience Platform te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
 
-- **Server-API gebruiken** om gegevens rechtstreeks vanuit uw toepassing of game die op een desktop, spelconsole, IoT-apparaat of set-top box worden uitgevoerd, naar uw datastream te verzenden.
+- **Server API van het Gebruik** om gegevens van uw toepassing of spel direct te verzenden die op een Desktop, gokkenconsole, apparaat IoT, of reeks-hoogste doos aan uw gegevensstroom lopen.
 
-- **Implementeren en valideren**. Zorg voor een omgeving waarin u uw ontwikkeling kunt doorlopen en publiceer deze live op uw productieomgeving als alles is gevalideerd.
+- **stelt en bevestigt** op. Zorg voor een omgeving waarin u uw ontwikkeling kunt doorlopen en publiceer deze live op uw productieomgeving als alles is gevalideerd.
 
-- **Een verbinding instellen** in de Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
+- **opstelling een verbinding** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
 
-- **Een gegevensweergave instellen** in Customer Journey Analytics om metriek en afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
+- **opstelling een gegevensmening** in Customer Journey Analytics om metriek en afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
 
-- **Een project instellen** in Customer Journey Analytics om uw rapporten en visualisaties te bouwen.
+- **opstelling een project** in Customer Journey Analytics om uw rapporten en visualisaties te bouwen.
 
 >[!NOTE]
 >
@@ -52,97 +52,98 @@ U moet eerst een schema definiëren dat deze gegevens modelleert.
 
 Uw schema instellen:
 
-1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Schemas]** binnen [!UICONTROL DATA MANAGEMENT].
+1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Schemas]** within [!UICONTROL DATA MANAGEMENT] in het linkerspoor.
 
-1. Selecteren **[!UICONTROL Create schema]**. .
+1. Selecteer **[!UICONTROL Create schema]** .
+.
 1. In Uitgezocht een klassenstap van de Create schematovenaar:
 
-   1. Selecteren **[!UICONTROL Experience Event]**.
+   1. Selecteer **[!UICONTROL Experience Event]** .
 
-      ![Een schema maken](./assets/create-ee-schema-wizard-step-1.png)
+      ![ creeer een schema ](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (zoals scènenaam, drukknop om aan winkelwagentje toe te voegen). Een afzonderlijk profielschema wordt gebruikt om het profiel te modelleren _attributes_ (zoals naam, e-mail, geslacht).
+      >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (als scènenaam, drukknop te modelleren om aan wagentje toe te voegen). Een individueel schema van het Profiel wordt gebruikt om de profiel _attributen_ (zoals naam, e-mail, geslacht) te modelleren.
 
-   1. Selecteren **[!UICONTROL Next]**.
+   1. Selecteer **[!UICONTROL Next]** .
 
 
-1. In de [!UICONTROL Name and review step] van de [!UICONTROL Create schema] wizard:
+1. In het gedeelte [!UICONTROL Name and review step] van de wizard [!UICONTROL Create schema] :
 
-   1. Voer een **[!UICONTROL Schema display name]** voor uw schema en (optioneel) a **[!UICONTROL Description]**.
+   1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![Geef uw schema een naam](./assets/create-ee-schema-wizard-step-2.png)
+      ![ Naam uw schema ](./assets/create-ee-schema-wizard-step-2.png)
 
-   1. Selecteren **[!UICONTROL Finish]**.
+   1. Selecteer **[!UICONTROL Finish]** .
 
 1. Op het tabblad Structuur van het voorbeeldschema:
 
-   1. Selecteren **[!UICONTROL + Add]** in [!UICONTROL Field groups].
+   1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
 
-      ![Veldgroep toevoegen](./assets/add-field-group-button.png)
+      ![ voeg gebiedsgroep ](./assets/add-field-group-button.png) toe
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
-   1. In de [!UICONTROL Add fields groups] selecteert u de **[!UICONTROL Blinding Light]** veldgroep in de lijst. Deze veldgroep wordt gemaakt om de voortgang van de gebruiker bij te houden bij het afspelen van een fictieve game met de naam Blinding Light op een console.
+   1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL Blinding Light]** in de lijst. Deze veldgroep wordt gemaakt om de voortgang van de gebruiker bij te houden bij het afspelen van een fictieve game met de naam Blinding Light op een console.
 
-      ![Blinding, lichtveldgroep](assets/schema-fieldgroup-blindinglight.png)
+      ![ Blinding Light veldgroup ](assets/schema-fieldgroup-blindinglight.png)
 
-      U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, zoals `scores > afterMatch`.
+      U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `scores > afterMatch` .
 
-      ![Voorvertoning van bindingslichtveldgroep](assets/schema-fieldgroup-blindinglight-preview.png)
+      ![ Blinding Lichte gebiedsgroepvoorproef ](assets/schema-fieldgroup-blindinglight-preview.png)
 
-      Selecteren **[!UICONTROL Back]** om de voorvertoning te sluiten.
+      Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
-   1. Selecteren **[!UICONTROL Add field groups]**.
+   1. Selecteer **[!UICONTROL Add field groups]** .
 
-1. Selecteren **[!UICONTROL +]** naast de naam van het schema.
+1. Selecteer **[!UICONTROL +]** naast de naam van het schema.
 
-   ![Voorbeeld: Veld toevoegen, knop](./assets/example-gamingschema-plus.png)
+   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](./assets/example-gamingschema-plus.png)
 
-1. In de [!UICONTROL Field Properties] paneel, enter `identification` als de [!UICONTROL Field name], **[!UICONTROL Identification]** als de [!UICONTROL Display name], selecteert u **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteert u **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group].
+1. Typ in het deelvenster [!UICONTROL Field Properties] `identification` als de [!UICONTROL Field name] , **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group] .
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. of [een nieuwe veldgroep maken](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) en [nieuwe identiteitsvelden toevoegen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (zoals `ecid`, `crmId`, en andere die u nodig hebt) naar de veldgroep en selecteer die nieuwe veldgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [ creeer een nieuwe gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) en [ voeg nieuwe identiteitsgebieden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
 
-   ![Identificatieobject](./assets/identification-field-gaming.png)
+   ![ Voorwerp van de Identificatie ](./assets/identification-field-gaming.png)
 
    Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw game afspelen met de Experience Cloud-id en het e-mailadres waarmee ze zich aanmelden bij hun gameconsole. Er zijn veel andere kenmerken beschikbaar om de identiteit van uw persoon te volgen.
 
-   Selecteren **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
+   Selecteer **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
-1. Selecteer de **[!UICONTROL ecid]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** van de [!UICONTROL Identity namespace] in het rechterdeelvenster.
+1. Selecteer het veld **[!UICONTROL ecid]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** in de lijst [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![ECID opgeven als identiteit](./assets/specify-identity-gaming.png)
+   ![ specificeer ECID als identiteit ](./assets/specify-identity-gaming.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (aan te sluiten) met dezelfde ECID.
 
-   Selecteren **[!UICONTROL Apply]**. U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
+   Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
-1. Selecteer de **[!UICONTROL email]** veld in het identificatieobject dat u zojuist hebt toegevoegd, en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** van de [!UICONTROL Identity namespace] in de lijst [!UICONTROL Field Properties] deelvenster.
+1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in de lijst [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![E-mail opgeven als identiteit](./assets/specify-email-identity-gaming.png)
+   ![ specificeer e-mail als identiteit ](./assets/specify-email-identity-gaming.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
-   Selecteren **[!UICONTROL Apply]**. U ziet dat er een vingerafdrukpictogram wordt weergegeven in het e-mailkenmerk.
+   Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het e-mailkenmerk.
 
-   Selecteren **[!UICONTROL Save]**.
+   Selecteer **[!UICONTROL Save]** .
 
-1. Selecteer het basiselement van uw schema dat de naam van het schema toont, dan selecteer **[!UICONTROL Profile]** switch.
+1. Selecteer het hoofdelement van het schema met de naam van het schema en selecteer vervolgens de **[!UICONTROL Profile]** switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [Het schema inschakelen voor gebruik in Real-Time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie .
+   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
 
-   ![Schema voor profiel inschakelen](./assets/enable-for-profile.png)
+   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
 
-1. Selecteren **[!UICONTROL Save]** om uw schema op te slaan.
+1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
 U hebt een minimaal schema gemaakt dat de gegevens modelleert die u van uw game kunt vastleggen. Met het schema kunnen profielen worden geïdentificeerd aan de hand van de identiteit en het e-mailadres van het Experience Cloud. Door het schema voor profiel in te schakelen, zorgt u ervoor dat de gegevens die zijn vastgelegd in uw consolegame worden toegevoegd aan het Real-Time Klantprofiel.
 
@@ -160,7 +161,7 @@ Als u profielgegevens wilt vastleggen, doet u het volgende:
 
 - Het schema inschakelen voor profiel
 
-Zie [Schema&#39;s maken en bewerken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie over het toevoegen en verwijderen van veldgroepen en afzonderlijke velden aan een schema.
+Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -168,25 +169,25 @@ Met uw schema, hebt u uw gegevensmodel bepaald. U moet nu de constructie bepalen
 
 Uw gegevensset instellen:
 
-1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Datasets]** binnen [!UICONTROL DATA MANAGEMENT].
+1. Selecteer in de gebruikersinterface van Adobe Experience Platform de optie **[!UICONTROL Datasets]** within [!UICONTROL DATA MANAGEMENT] in het linkerspoor.
 
-2. Selecteren **[!UICONTROL Create dataset]**.
+2. Selecteer **[!UICONTROL Create dataset]** .
 
-   ![Gegevensset maken](./assets/create-dataset.png)
+   ![ creeer dataset ](./assets/create-dataset.png)
 
-3. Selecteren **[!UICONTROL Create dataset from schema]**.
+3. Selecteer **[!UICONTROL Create dataset from schema]** .
 
-   ![Gegevensset maken van schema](./assets/create-dataset-from-schema.png)
+   ![ creeer dataset van schema ](./assets/create-dataset-from-schema.png)
 
-4. Selecteer het eerder gemaakte schema en selecteer **[!UICONTROL Next]**.
+4. Selecteer het schema dat u eerder hebt gemaakt en selecteer **[!UICONTROL Next]** .
 
 5. Geef uw gegevensset een naam en (optioneel) geef een beschrijving op.
 
-   ![Gegevensset naam](./assets/name-your-datatest.png)
+   ![ dataset van de Naam ](./assets/name-your-datatest.png)
 
-6. Selecteren **[!UICONTROL Finish]**.
+6. Selecteer **[!UICONTROL Finish]** .
 
-7. Selecteer de **[!UICONTROL Profile]** switch.
+7. Selecteer de **[!UICONTROL Profile]** schakelaar.
 
    U wordt ertoe aangezet om de dataset voor profiel toe te laten. Zodra toegelaten, verrijkt de dataset klantenprofielen in real time met zijn opgenomen gegevens.
 
@@ -194,45 +195,45 @@ Uw gegevensset instellen:
    >
    >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
-   ![Schema voor profiel inschakelen](./assets/aepwebsdk-dataset-profile.png)
+   ![ laat schema voor profiel ](./assets/aepwebsdk-dataset-profile.png) toe
 
-Zie [UI-gids voor gegevensbestanden](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te om, voorproef te bekijken, creeer, schrapt een dataset. En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
+Zie {de gids UI van de Datasets van 0} ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te bekijken, voorproef, tot stand brengen, een dataset schrappen. [ En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
 
 ## Een gegevensstroom instellen
 
-Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van Adobe Experience Platform Web en Mobiele SDKs en de Server API van het Netwerk van Adobe Experience Platform Edge. Bij het verzamelen van gegevens met de Adobe Experience Platform SDK&#39;s en Edge Network Server-API&#39;s worden gegevens verzonden naar het Adobe Experience Platform Edge Network. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
+Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs en de Server API van de Edge Network van Adobe Experience Platform. Wanneer het verzamelen van gegevens met Adobe Experience Platform SDKs en de Server APIs van de Edge Network, worden de gegevens verzonden naar de Edge Network van Adobe Experience Platform. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
 
 In uw opstelling, wilt u de gegevens die u van het spel verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
 
 Uw gegevensstroom instellen:
 
-1. Selecteer in de gebruikersinterface van Adobe Experience Platform **[!UICONTROL Datastreams]** van [!UICONTROL DATA COLLECTION] in het linkerspoor.
+1. Selecteer in de gebruikersinterface van Adobe Experience Platform **[!UICONTROL Datastreams]** in [!UICONTROL DATA COLLECTION] in de linkertrack.
 
-2. Selecteren **[!UICONTROL New Datastream]**.
+2. Selecteer **[!UICONTROL New Datastream]** .
 
-3. Geef een naam en beschrijf de gegevensstroom. Selecteer uw schema in het menu [!UICONTROL Event Schema] lijst.
+3. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![Nieuwe DataStream](./assets/new-datastream.png)
+   ![ Nieuwe DataStream ](./assets/new-datastream.png)
 
-4. Selecteren **[!UICONTROL Save]**.
+4. Selecteer **[!UICONTROL Save]** .
 
-5. Selecteren **[!UICONTROL Add Service]**.
+5. Selecteer **[!UICONTROL Add Service]** .
 
-6. In de [!UICONTROL Add Service screen]:
+6. In de lus [!UICONTROL Add Service screen] :
 
-   1. Selecteren **[!UICONTROL Adobe Experience Platform]** van de [!UICONTROL Service] lijst.
+   1. Selecteer **[!UICONTROL Adobe Experience Platform]** in de lijst [!UICONTROL Service] .
 
-   2. Zorgen **[!UICONTROL Enabled]** is geselecteerd.
+   2. Zorg ervoor dat **[!UICONTROL Enabled]** is geselecteerd.
 
-   3. Selecteer uw gegevensset in het menu [!UICONTROL Event Dataset] lijst.
+   3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![DataStream AEP-service](./assets/datastream-aep-service.png)
+      ![ datastream AEP dienst ](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw game zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [Overzicht gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 ## Edge Network Server-API gebruiken
 
@@ -269,53 +270,53 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 }'
 ```
 
-In het verzoek van de POST van het voorbeeld, `{DATASTREAM_ID}` verwijst naar de id van de voorbeeldgegevensstroom die u eerder hebt geconfigureerd. `{sandbox}` Dit is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
+In het verzoek van de POST van het voorbeeld, `{DATASTREAM_ID}` richt aan het herkenningsteken van de voorbeeldgegevensstroom u vroeger vormde. `{sandbox}` is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
 
-Zie [Interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) en [Niet-interactieve gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) voor meer informatie over het gebruik van de Edge Network Server-API.
+Zie [ Interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) en [ Niet-interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) voor meer informatie over hoe te om de Server API van de Edge Network te gebruiken.
 
 ## Een verbinding instellen
 
 Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset, en werkschema voortvloeien.
 
-Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Werkruimte vestigen.
+Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Workspace vestigen.
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Connections]** in de bovenste navigatie.
+1. Selecteer **[!UICONTROL Connections]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
 
-2. Selecteren **[!UICONTROL Create new connection]**.
+2. Selecteer **[!UICONTROL Create new connection]** .
 
-3. In de [!UICONTROL Untitled connection] scherm:
+3. In het [!UICONTROL Untitled connection] -scherm:
 
-   Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings].
+   Geef een naam en beschrijf de verbinding in [!UICONTROL Connection Settings] .
 
-   Selecteer de juiste sandbox in het menu [!UICONTROL Sandbox] lijst in [!UICONTROL Data settings] en selecteert u het aantal dagelijkse gebeurtenissen in het menu [!UICONTROL Average number of daily events] lijst.
+   Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![Verbindingsinstellingen](./assets/cja-connections-1.png)
+   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
 
-   Selecteren **[!UICONTROL Add datasets]**.
+   Selecteer **[!UICONTROL Add datasets]** .
 
-   In de [!UICONTROL Select datasets] stap in [!UICONTROL Add datasets]:
+   In de stap [!UICONTROL Select datasets] in [!UICONTROL Add datasets] :
 
    - Selecteer datasets die u vroeger en/of andere relevante datasets creeerde u in uw verbinding wilt omvatten
 
-   - Selecteren **[!UICONTROL Next]**.
+   - Selecteer **[!UICONTROL Next]** .
 
-   In de [!UICONTROL Datasets settings] stap in [!UICONTROL Add datasets]:
+   In de stap [!UICONTROL Datasets settings] in [!UICONTROL Add datasets] :
 
    - Voor elke gegevensset:
 
-      - Selecteer een [!UICONTROL Person ID] uit de beschikbare identiteiten die zijn gedefinieerd in de gegevenssetschema&#39;s in Adobe Experience Platform.
+      - Selecteer een [!UICONTROL Person ID] van de beschikbare identiteiten die in de datasetschema&#39;s in Adobe Experience Platform worden bepaald.
 
-      - Selecteer de juiste gegevensbron in het menu [!UICONTROL Data source type] lijst. Als u **[!UICONTROL Other]** Voeg vervolgens een beschrijving voor uw gegevensbron toe.
+      - Selecteer de juiste gegevensbron in de lijst [!UICONTROL Data source type] . Als u **[!UICONTROL Other]** opgeeft, voegt u een beschrijving voor de gegevensbron toe.
 
-      - Set **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** volgens uw voorkeuren.
+      - Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-   - Selecteren **[!UICONTROL Add datasets]**.
+   - Selecteer **[!UICONTROL Add datasets]** .
 
-   Selecteren **[!UICONTROL Save]**.
+   Selecteer **[!UICONTROL Save]** .
 
-Zie [Overzicht van verbindingen](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -323,61 +324,61 @@ Een gegevensmening is een container specifiek voor Customer Journey Analytics di
 
 Uw gegevensweergave maken:
 
-1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Data views]** in de bovenste navigatie.
+1. Selecteer **[!UICONTROL Data views]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
 
-2. Selecteren **[!UICONTROL Create new data view]**.
+2. Selecteer **[!UICONTROL Create new data view]** .
 
-3. In de [!UICONTROL Configure] stap:
+3. In de stap [!UICONTROL Configure] :
 
-   Selecteer uw verbinding van [!UICONTROL Connection] lijst.
+   Selecteer de verbinding in de lijst [!UICONTROL Connection] .
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![Gegevensweergave configureren](./assets/cja-dataview-1.png)
+   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
 
-   Selecteren **[!UICONTROL Save and continue]**.
+   Selecteer **[!UICONTROL Save and continue]** .
 
-4. In de [!UICONTROL Components] stap:
+4. In de stap [!UICONTROL Components] :
 
-   Voeg schemagebieden en/of standaardcomponent toe die u aan wilt omvatten [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] deelvakken.
+   Voeg schemagebieden en/of standaardcomponent toe die u aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] componentenvakjes wilt omvatten.
 
-   Selecteren **[!UICONTROL Save and continue]**.
+   Selecteer **[!UICONTROL Save and continue]** .
 
-5. In de [!UICONTROL Settings] stap:
+5. In de stap [!UICONTROL Settings] :
 
-   ![Instellingen voor gegevensweergave](./assets/cja-dataview-3.png)
+   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
 
-   De instellingen ongewijzigd laten en selecteren **[!UICONTROL Save and finish]**.
+   Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [Overzicht van gegevensweergaven](../data-views/data-views.md) voor meer informatie over het maken en bewerken van een gegevensweergave, welke componenten beschikbaar zijn voor u in de gegevensweergave en hoe u filter- en sessieinstellingen kunt gebruiken.
+Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te filter en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
 
-Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen op basis van uw gegevens. U gebruikt de projecten van de Werkruimte om gegevenscomponenten, lijsten, en visualisaties te combineren om uw analyse te bundelen en met iedereen in uw organisatie te delen.
+Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen op basis van uw gegevens. U gebruikt de projecten van Workspace om gegevenscomponenten, lijsten, en visualisaties te combineren om uw analyse te bundelen en met iedereen in uw organisatie te delen.
 
 Uw project maken:
 
-1. Selecteer in de gebruikersinterface van de Customer Journey Analytics de optie **[!UICONTROL Projects]** in de bovenste navigatie.
+1. Selecteer **[!UICONTROL Projects]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
 
-2. Selecteren **[!UICONTROL Projects]** in de linkernavigatie.
+2. Selecteer **[!UICONTROL Projects]** in de linkernavigatie.
 
-3. Selecteren **[!UICONTROL Create project]**.
+3. Selecteer **[!UICONTROL Create project]** .
 
-   ![Werkruimteproject](./assets/cja-projects-1.png)
+   ![ Project van Workspace ](./assets/cja-projects-1.png)
 
-   Selecteren **[!UICONTROL Blank project]**.
+   Selecteer **[!UICONTROL Blank project]** .
 
-   ![Werkruimte - Leeg project](./assets/cja-projects-2.png)
+   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![Werkruimte selecteren, gegevensweergave](./assets/cja-projects-3.png).
+   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
 
-5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek naar het [!UICONTROL Freeform table] in de [!UICONTROL Panel].
+5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] .
 
-Zie [Analysis Workspace-overzicht](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Eerst definieert u welke gegevens u wilt verzamelen (schema) en waar u deze wilt opslaan (dataset) in Adobe Experience Platform. U vormde een gegevensstroom op het Netwerk van de Rand om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de Edge Network Server-API gebruikt om die gegevens naar uw gegevensstroom te verzenden. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw spelgegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en hebt u uiteindelijk uw eerste project gemaakt waarmee u uw gamegegevens kunt visualiseren en analyseren.
+>U hebt alle stappen uitgevoerd. Eerst definieert u welke gegevens u wilt verzamelen (schema) en waar u deze wilt opslaan (dataset) in Adobe Experience Platform. U vormde een gegevensstroom op de Edge Network om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de Edge Network Server-API gebruikt om die gegevens naar uw gegevensstroom te verzenden. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw spelgegevens en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en hebt u uiteindelijk uw eerste project gemaakt waarmee u uw gamegegevens kunt visualiseren en analyseren.

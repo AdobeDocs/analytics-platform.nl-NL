@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '964'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 10%
    + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform Edge Network {#edge-network}
+      + Edge Network Experience Platform {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [Server-API](../data-ingestion/serverapi.md)
@@ -115,7 +115,7 @@ ht-degree: 10%
       + [Projecten openen](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
       + Mappen in Workspace {#workspace-folders}
-         + [Informatie over mappen in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Mappen](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen beheren](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Projecten toevoegen aan of verplaatsen naar mappen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -132,7 +132,7 @@ ht-degree: 10%
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Dynamische versus statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [Dynamische en statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totaal Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
@@ -175,7 +175,7 @@ ht-degree: 10%
       + [Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
       + [Gemiddeld aantal minuten voor medium](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Gelijktijdige viewers voor media](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Afspeeltijd media besteed](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [De afspeeltijd van media is verstreken](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Volgende of vorige item](../analysis-workspace/c-panels/next-previous.md)
       + [Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
    + Projecten cureren, delen en plannen {#curate-share}
@@ -191,20 +191,20 @@ ht-degree: 10%
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [anomalieën weergeven in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Statistische technieken voor de opsporing van anomalieën](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [anomalieën weergeven](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Statistische technieken](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + Voorspelling {#forecasting}
       + [Overzicht](../analysis-workspace/c-forecast/forecasting.md)
-      + [Prognoses weergeven in Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [Statistische technieken voor de prognose](../analysis-workspace/c-forecast/statistics-forecasting.md)
-      + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [Prognoses weergeven](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [Statistische technieken](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
-   + Veelgestelde vragen over Workspace {#workspace-faq}
+   + Workspace - Veelgestelde vragen en meer {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
       + [Foutberichten](../analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace-beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Toegankelijkheid in Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Toegankelijkheid](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytische dashboards {#cja-dashboards}
    + [Analysedashboards - Overzicht](../mobile-app/home.md)
@@ -360,10 +360,10 @@ ht-degree: 10%
 + Gebruik hoofdletters en kleine letters {#cja-usecases}
    + [Gebruiksgevallen Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Gegevens van Googles Analytics {#ga}
-      + [Overzicht van migreren van Googles Analytics naar Customer Journey Analytics](../use-cases/ga/overview.md)
-      + [Historische gegevens van Googles Analytics opnemen in platform](../use-cases/ga/backfill.md)
-      + [Gegevens voor streaming Googles Analytics configureren in Platform](../use-cases/ga/streaming.md)
-      + [Rapport over gegevens over Googles Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
+      + [Gegevens migreren uit Googles Analytics](../use-cases/ga/overview.md)
+      + [Historische gegevens van Googles Analytics samenvoegen](../use-cases/ga/backfill.md)
+      + [Gegevens voor streaming Googles Analytics configureren](../use-cases/ga/streaming.md)
+      + [Rapport over gegevens over Googles Analytics](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
       + [Gegevens van Marketo&#39;s Engage opnemen en gebruiken](../use-cases/data-ingestion/marketo.md)
       + [Experience Platforms publiek opnemen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -390,14 +390,14 @@ ht-degree: 10%
    + Stikken {#stitching}
       + [Gedeelde apparaten](/help/use-cases/stitching/shared-devices.md)
    + Afgeleide velden {#derived-fields}
-      + [Gebruik afgeleide gebieden om over doelstellingen te rapporteren](../use-cases/goals-using-derived-fields.md)
+      + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 
 + Problemen oplossen {#troubleshooting}
-   + [Adobe Analytics-gegevens vergelijken met Customer Journey Analytics-gegevens](../troubleshooting/compare.md)
-   + [De consistentie van metriek en het aantal van het publiekslidmaatschap tussen CDP In real time en Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [Gegevens vergelijken](../troubleshooting/compare.md)
+   + [Consistentie van metriek en publiek](../troubleshooting/consistency-rcdp-cja.md)
    + [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md)
 
 + Technische notities {#technotes}
@@ -408,7 +408,7 @@ ht-degree: 10%
    + [Woordenlijst](../technotes/glossary.md)
    + [Guardrails](../technotes/guardrails.md)
    + [IP-adressen](../technotes/ip-addresses.md)
-   + [Prestaties van Customers Journey Analytics optimaliseren](../technotes/optimizing-performance.md)
+   + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik weergeven en beheren](../technotes/estimate-usage.md)
 
 + [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)

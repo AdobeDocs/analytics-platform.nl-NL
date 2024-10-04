@@ -4,9 +4,9 @@ description: Leer hoe u het publiek in de Customer Journey Analytics beheert
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Door eerder gemaakte soorten publiek te beheren, kunt u:
 * Zie of het publiek in Customer Journey Analytics **actief door het Platform van de Klant in real time** wordt gebruikt. Of (ideaal) om het even welke Experience Platform toepassingen die het publiek verbruiken dat door Customer Journey Analytics wordt gecreeerd.
 
 Als u ](/help/technotes/access-control.md#user-level-access) toegang hebt van de Mening van het publiek [ {, kunt u publiek bekijken. Als u [ publiek hebt leidt tot ](/help/technotes/access-control.md#user-level-access) toegang, kunt u publiek uitgeven en schrappen. De [ lijst van Soorten publiek ](#audiences-list) toont het publiek.
+
+![ de manager van het publiek ](assets/audiences-manager.png)
 
 ## Publiek
 

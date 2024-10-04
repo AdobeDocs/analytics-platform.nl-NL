@@ -1,17 +1,17 @@
 ---
-title: Hyperlinks maken in een vrije-vormtabel in Analysis Workspace
+title: Hyperlinks maken in een vrije-vormtabel
 description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormtabel in Analysis Workspace
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
 
-# Hyperlinks maken voor afmetingen in een vrije-vormtabel
+# Hyperlinks maken in een vrije-vormtabel
 
 U kunt hyperlinks maken voor dimensie-items, zodat hierop kan worden geklikt in een vrije-vormtabel in Analysis Workspace.
 
@@ -31,9 +31,9 @@ Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volge
 
 +++
 
-## Hyperlinks maken voor een of meer afmetingsitems
+## Hyperlinks maken
 
-Houd rekening met het volgende wanneer u hyperlinks maakt voor dimensie-items:
+Overweeg het volgende wanneer u hyperlinks voor één of meerdere afmetingspunten creeert:
 
 * De hyperlinks die u maakt, worden opgeslagen in de vrije-vormtabel in het Analysis Workspace-project. Hyperlinks blijven niet bestaan wanneer u dezelfde dimensie- of dimensie-items in een andere tabel of in een ander project gebruikt.
 

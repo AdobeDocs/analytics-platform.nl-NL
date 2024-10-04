@@ -1,17 +1,17 @@
 ---
-title: Dynamische versus statische dimensie-items in vrije-vormtabellen
+title: Dynamische of statische dimensie-items
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking staan
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# Dynamische en statische dimensie-items in vrije-vormtabellen
+# Dynamische en statische dimensie-items
 
 In Freeform-tabellen kunnen de rijen en kolommen verschillende componentwaarden bevatten. Deze waarden kunnen dynamisch (verandering in tijd) of statisch (veranderen niet in tijd) zijn, afhankelijk van de analyse die u wilt bouwen.
 

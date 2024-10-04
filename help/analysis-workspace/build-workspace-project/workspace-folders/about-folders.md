@@ -5,14 +5,14 @@ title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
-# Mappen
+# Informatie over mappen in Analysis Workspace
 
 De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ hebt geselecteerd toont Omslagen &amp; Projecten ](../freeform-overview.md#show-selector).
 

@@ -4,9 +4,9 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -147,25 +147,25 @@ Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep 
 
 ## Customer Journey Analytics publiek in Experience Platform gebruiken {#audiences-aep}
 
-Customer Journey Analytics neemt alle namespace en identiteitskaart combinaties van uw gepubliceerd publiek en stroomt hen in het Profiel van de Klant in real time (RTCP). Customer Journey Analytics verzendt het publiek naar Experience Platform met de primaire identiteitsreeks, volgens wat als [!UICONTROL Person ID] werd geselecteerd toen de verbinding werd gevormd.
+Customer Journey Analytics neemt alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar Real-time Customer Data Platform. Customer Journey Analytics verzendt het publiek naar Experience Platform met de primaire identiteitsreeks, volgens wat als [!UICONTROL Person ID] werd geselecteerd toen de verbinding werd gevormd.
 
-RTCP onderzoekt dan elke naamruimte/ID-combinatie en zoekt naar een profiel waarvan het deel kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. <user@adobe.com> kan bijvoorbeeld op alle apparaten en kanalen worden toegepast. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
+Real-time Customer Data Platform controleert vervolgens elke naamruimte/ID-combinatie en zoekt naar een profiel waarvan het deel kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. <user@adobe.com> kan bijvoorbeeld op alle apparaten en kanalen worden toegepast. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
 Customers Journey Analytics in platform weergeven:
 
-1. Breid [!UICONTROL **Klant**] in het linkerpaneel uit, dan selecteren [!UICONTROL **Soorten publiek**]. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Vouw **[!UICONTROL Customer]** uit in het linkerdeelvenster en selecteer vervolgens **[!UICONTROL Audiences]** . <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. Selecteer [!UICONTROL **doorbladeren**] tabel.
-
-   ![ optie van het publiek in het linkerpaneel ](assets/audiences-aep.png)
+1. Selecteer de tab **[!UICONTROL Browse]** .
 
 1. Voer een van de volgende handelingen uit om het publiek te zoeken dat u vanuit de Customer Journey Analytics hebt gepubliceerd:
 
-   * Soort de lijst door de [!UICONTROL **kolom van de Oorsprong**] om publiek te bekijken dat [!UICONTROL **Customer Journey Analytics**] als oorsprong toont.
+   ![ optie van het publiek in het linkerpaneel ](assets/aep-audiences.png)
 
-   * Selecteer het filterpictogram.
+   * Soort de lijst door de **[!UICONTROL Origin]** kolom om publiek te bekijken dat [!UICONTROL **Customer Journey Analytics**] als oorsprong toont.
 
-   * Gebruik het zoekveld.
+   * Filter ![ Filter ](/help/assets/icons/Filter.svg) op **[!UICONTROL Origin]** en selecteer **[!UICONTROL Customer Journey Analytics]**.
+
+   * Gebruik het ![ 1} onderzoeksgebied van het Onderzoek {.](/help/assets/icons/Search.svg)
 
 Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek [ in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van het Experience Platform.
 
@@ -186,7 +186,7 @@ Wanneer een Publiek van de Customer Journey Analytics wordt geschrapt, wordt dat
 
 +++
 
-+++**als een overeenkomstig profiel niet in RTCDP bestaat, is een nieuw gecreeerd profiel?**
++++**als een overeenkomstig profiel niet in Real-time Customer Data Platform bestaat, wordt een nieuw profiel gecreeerd?**
 
 Ja, dat zal het wel.
 
@@ -194,7 +194,7 @@ Ja, dat zal het wel.
 
 +++**verzendt de Customer Journey Analytics de publieksgegevens over als pijpleidingsgebeurtenissen of als plat dossier dat ook naar het gegevenspeer gaat?**
 
-De Customer Journey Analytics stroomt de gegevens in RTCP via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
+De Customer Journey Analytics stroomt de gegevens naar Real-time Customer Data Platform via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
 
 +++
 
@@ -210,9 +210,9 @@ Zie hierboven. Er wordt slechts één identiteit per Customer Journey Analytics 
 
 +++
 
-+++**verwerkt RTCP ook de berichten van de Customer Journey Analytics? Kan de Customer Journey Analytics identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
++++**verwerkt Real-time Customer Data Platform ook de berichten van de Customer Journey Analytics? Kan de Customer Journey Analytics identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
 
-Nee. Er wordt slechts één identiteit per persoon verzonden, zodat er geen grafiekranden zijn voor RTCP-gebruik.
+Nee. Er wordt slechts één identiteit per persoon verzonden, dus er zijn geen grafiekranden die Real-time Customer Data Platform kan gebruiken.
 
 +++
 
