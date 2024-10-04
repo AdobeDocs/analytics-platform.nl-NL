@@ -3,9 +3,9 @@ description: Ervaar hoe waarschuwingen verschillen in Customer Journey Analytics
 title: Customer Journey Analytics voor het vergelijken van waarschuwingen met Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -56,9 +56,8 @@ In Adobe Analytics zijn de volgende opties beschikbaar:
 
 * Open een project in Analysis Workspace en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create alert]** .
 
-* Open een project in Analysis Workspace en gebruik vervolgens de volgende sneltoets:
+* Open een project in Analysis Workspace, dan gebruik de volgende kortere weg: **[!UICONTROL *ctrl *]**+**[!UICONTROL * verschuiving *]** + **[!UICONTROL *a *]**(Vensters) of**[!UICONTROL * cmd *]** + **[!UICONTROL *verschuiving *]**+**[!UICONTROL * a *]** (macOS).
 
-  `ctrl (or cmd) + shift + a`
 
 
 

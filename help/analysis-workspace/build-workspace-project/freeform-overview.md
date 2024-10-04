@@ -5,7 +5,7 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -78,21 +78,21 @@ Beweeg over om het even welke kolomkopbal om ![ te tonen ChevronDown ](/help/ass
 
 U kunt acties op één of meerdere projecten nemen gebruikend contextmenu ![ Meer ](/help/assets/icons/More.svg) of de blauwe actiebar.
 
-| Handeling | Beschrijving |
-|---|---|
-| ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *geselecteerd]** | Deselecteer de geselecteerde projecten en mappen en verwijder de blauwe actiebalk. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder een of meer projecten of mappen. U wordt gevraagd om een bevestiging. |
-| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Een project delen. Zie [ een project ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie delen. |
-| ![ geeft ](/help/assets/icons/Edit.svg) anders noemt uit | Wijzig de naam van een project. Opent de dialoog van de a **[!UICONTROL Rename: *projectnaam *]**. Voer een nieuwe naam in en selecteer **[!UICONTROL Save]**. |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer een of meer projecten. Project krijgt niet dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
-| ![ PinOnff ](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** of **[!UICONTROL Unpin]** | Een of meer projecten of mappen vastzetten of de speld eraf. Vastgezette projecten en omslagen verschijnen bij de bovenkant van de lijst en negeren de sorteervolgorde u specificeert. |
-| ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) **[!UICONTROL Move up]** | Verplaats een vastgezet project of een omslag omhoog in de projectlijst. |
-| ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) **[!UICONTROL Move down]** | Verplaats een vastgezet project of een omslag neer in de projectlijst. |
-| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Label een of meer projecten of mappen. Het dialoogvenster **[!UICONTROL Tag Components]** wordt weergegeven om een of meer tags te selecteren. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde projecten of mappen op te slaan. |
-| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** of **[!UICONTROL Unapprove]** | Goedkeuren of goedkeuren van een project ongedaan maken. Alleen beheerders kunnen projecten goedkeuren. |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export CSV]** | Exporteer de geselecteerde projecten naar een CSV-bestand met de naam `Project List.csv` . |
-| ![ ProjectAdd ](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Add Projects]** | Voeg een of meer projecten toe aan een geselecteerde map. In **[!UICONTROL Add Projects]** kunt u een of meer projecten selecteren. Selecteer **[!UICONTROL Add]** om de projecten aan de omslag toe te voegen. Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-inside-a-folder) voor meer informatie toevoegen. |
-| ![ FolderAddTo ](/help/assets/icons/FolderAddTo.svg) **[!UICONTROL Move to]** | Verplaats een of meer geselecteerde projecten naar een map. Selecteer in **[!UICONTROL Select Folder]** de map waarnaar u het geselecteerde project wilt verplaatsen en selecteer **[!UICONTROL Move]** . Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-the-project-list) voor meer informatie toevoegen. |
+| Pictogram | Handeling | Beschrijving |
+|:---:| ---|---|
+| ![ CrossSize75 ](/help/assets/icons/Close.svg) | **[!UICONTROL *x *geselecteerd]** | Deselecteer de geselecteerde projecten en mappen en verwijder de blauwe actiebalk. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder een of meer projecten of mappen. U wordt gevraagd om een bevestiging. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Een project delen. Zie [ een project ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie delen. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van een project. Opent de dialoog van de a **[!UICONTROL Rename: *projectnaam *]**. Voer een nieuwe naam in en selecteer **[!UICONTROL Save]**. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer een of meer projecten. Project krijgt niet dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ PinOnff ](/help/assets/icons/PinOff.svg) | **[!UICONTROL Pin]** of **[!UICONTROL Unpin]** | Een of meer projecten of mappen vastzetten of de speld eraf. Vastgezette projecten en omslagen verschijnen bij de bovenkant van de lijst en negeren de sorteervolgorde u specificeert. |
+| ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Move up]** | Verplaats een vastgezet project of een omslag omhoog in de projectlijst. |
+| ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Move down]** | Verplaats een vastgezet project of een omslag neer in de projectlijst. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label een of meer projecten of mappen. Het dialoogvenster **[!UICONTROL Tag Components]** wordt weergegeven om een of meer tags te selecteren. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde projecten of mappen op te slaan. |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** of **[!UICONTROL Unapprove]** | Goedkeuren of goedkeuren van een project ongedaan maken. Alleen beheerders kunnen projecten goedkeuren. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export CSV]** | Exporteer de geselecteerde projecten naar een CSV-bestand met de naam `Project List.csv` . |
+| ![ ProjectAdd ](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Add Projects]** | Voeg een of meer projecten toe aan een geselecteerde map. In **[!UICONTROL Add Projects]** kunt u een of meer projecten selecteren. Selecteer **[!UICONTROL Add]** om de projecten aan de omslag toe te voegen. Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-inside-a-folder) voor meer informatie toevoegen. |
+| ![ FolderAddTo ](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Move to]** | Verplaats een of meer geselecteerde projecten naar een map. Selecteer in **[!UICONTROL Select Folder]** de map waarnaar u het geselecteerde project wilt verplaatsen en selecteer **[!UICONTROL Move]** . Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-the-project-list) voor meer informatie toevoegen. |
 
 
 

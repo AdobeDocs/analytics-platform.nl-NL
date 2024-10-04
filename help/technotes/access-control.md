@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 | [!UICONTROL Reporting Tools] | [!UICONTROL Filter Creation] | Laat gebruikers [ filters ](/help/components/filters/filters-overview.md) tot stand brengen. Gebruikers kunnen alleen de filters die zij maken of de filters die met hen worden gedeeld, labelen, delen, verwijderen, hernoemen, goedkeuren of goedkeuren. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Labs Access] | Laat gebruikers tot het [ lusje van Laboratoria ](/help/labs/labs.md) in Customer Journey Analytics toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Annotation Creation] | Laat gebruikers [ annotaties ](/help/components/annotations/overview.md) tot stand brengen. Gebruikers kunnen alleen de annotaties die ze maken of annotaties die met hen worden gedeeld, labelen, delen, verwijderen en hernoemen. |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) bekijken. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience Creation] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) tot stand brengen. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audit Logs Access] | Dwing de toestemmingscontrole op [ API ](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) en de controlelogboeken UI af. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Laat gebruikers [ projecten met iedereen delen.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
