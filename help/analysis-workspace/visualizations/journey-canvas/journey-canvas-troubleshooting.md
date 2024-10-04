@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
+source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ De reis die in de volgende scenario&#39;s wordt gebruikt wordt gevormd met de vo
 
 #### Scenario 1 - gebruiker A volgt de weg in de eerste zitting, toen slechts recentere knopen in een verdere zitting
 
-Veronderstel dat gebruiker A de plaats bezoekt en de weg van de reis volgt (Node 1: Bezoek plaats > Node 2: Bekijk Product A > Node 3: Controle). In dit scenario, wordt een gebeurtenis geteld op elke knoop van de reis.
+Stel dat gebruiker A de site bezoekt en de reis voltooit (knooppunt 1: &quot;Visit site&quot; > knooppunt 2: &quot;View Product A&quot; > Node 3: &quot;Check out&quot;). Omdat gebruiker A de reis voltooide, wordt een gebeurtenis geteld op elke knoop van de reis.
 
-Stel nu dat gebruiker A de site opnieuw bezoekt in een latere sessie. Omdat de Gebruiker A reeds aan de vereisten van de reis door de reisweg in een vorige zitting te volgen voldeed, betekent dit dat om het even welke tijdGebruiker A controle uit-zelfs als Gebruiker A niet de weg van de reis in hun huidige zitting-een gebeurtenis op de derde knoop van de reis, &quot;Controle heeft gevolgd.&quot; Dit resulteert in een hoger percentage en een hoger aantal op de knoop van de &quot;Controle uit&quot;dan op de voorafgaande knoop, &quot;Product A van de Mening.&quot;
+Stel nu dat gebruiker A de site opnieuw bezoekt in een latere sessie. Omdat de Gebruiker A reeds de reis in een vorige zitting door de reis weg te volgen voltooide, betekent dit dat om het even welke tijdGebruiker A een gebeurtenis heeft die om het even welke knoop in reis-zelfs aanpast als Gebruiker A niet de weg van de reis in hun huidige zitting-een gebeurtenis op de relevante knoop in de reis heeft geteld. Bijvoorbeeld, als Gebruiker A controles uit, dan wordt een gebeurtenis geteld op de knoop van de &quot;Controle uit&quot;. Dit kan in een hoger percentage en een aantal op de knoop van de &quot;Controle uit&quot;dan op de voorafgaande knoop, &quot;Product A van de Mening resulteren.&quot;
 
-In dit voorbeeld speelt de containerinstelling van de reis een kritieke rol bij het bepalen of de gebeurtenis op het derde knooppunt (&quot;Uitchecken&quot;) wordt geteld in de volgende sessie.
+In dit voorbeeld speelt de containerinstelling van de reis van &quot;Persoon&quot; een kritieke rol bij het bepalen dat de gebeurtenis op het derde knooppunt (&quot;Uitchecken&quot;) wordt geteld in de volgende sessie.
 
-Als de Zitting als container (in plaats van Persoon) was geplaatst, dan zou de gebeurtenis die slechts op de derde knoop in het verdere bezoek plaatsvond niet in de reis geteld hebben, omdat de statistieken die in de reis worden getoond tot één bepaalde zitting voor een bepaalde persoon zouden worden beperkt. Om meer over container te leren plaatsend, zie [ beginnen met de bouw van een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) in het artikel [ vormt een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+Als de containerinstelling was ingesteld op &quot;Sessie&quot;, zou de gebeurtenis die alleen plaatsvond op het derde knooppunt in het volgende bezoek, niet in de reis zijn geteld, omdat de tijdens de reis getoonde statistieken zouden worden beperkt tot één gedefinieerde sessie voor een bepaalde persoon. Om meer over container te leren plaatsend, zie [ beginnen met de bouw van een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) in het artikel [ vormt een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### Scenario 2 - gebruiker B valt uit de reis
 
-Veronderstel dat Gebruiker B de plaats bezoekt en niet de weg van de reis volgt (bezoeken de plaats, bekijkt Product B, en dan controles uit), wordt een gebeurtenis geteld voor de beginknoop van de reis, &quot;de plaats van het Bezoek,&quot;maar een gebeurtenis wordt niet geteld voor de resterende knopen, en Gebruiker B valt uit de reis. Hoewel Gebruiker B gecontroleerd, wordt een gebeurtenis niet geteld op de derde knoop, &quot;Controle uit,&quot;omdat Gebruiker B niet de weg van de reis door Product A te bekijken volgde.
+Stel dat gebruiker B de site bezoekt en de reis niet voltooit (de site bezoekt, Product B bekijkt en vervolgens uitcheckt). In dit geval wordt een gebeurtenis geteld voor het beginknooppunt van de reis, &quot;Visit site&quot;, maar wordt een gebeurtenis niet geteld voor de resterende knooppunten en valt gebruiker B buiten de reis. Hoewel Gebruiker B gecontroleerd, wordt een gebeurtenis niet geteld op de derde knoop (&quot;Controle uit&quot;) omdat Gebruiker B de reis door Product A te bekijken niet voltooide alvorens uit te controleren.
 
-Dit is omdat de gebeurtenissen voor elke knoop slechts worden geteld wanneer de mensen de &quot;uiteindelijke weg van de reis volgen,&quot;zo betekent het dat de gebeurtenissen worden geteld zolang de persoon uiteindelijk van één knoop aan andere, ongeacht om het even welke gebeurtenissen zich tussen de 2 knopen voordoet.
+Dit is omdat de gebeurtenissen voor elke knoop slechts worden geteld wanneer de mensen de &quot;uiteindelijke weg van de reis volgen,&quot;wat betekent dat de gebeurtenissen slechts worden geteld als de persoon uiteindelijk van één knoop aan andere, ongeacht om het even welke gebeurtenissen zich tussen de 2 knopen voordoet.
 
 ### De reis heeft veelvoudige wegen die in één enkele knoop samenkomen
 
