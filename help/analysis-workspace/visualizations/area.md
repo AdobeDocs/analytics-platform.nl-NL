@@ -4,7 +4,7 @@ title: Gebied en gebied gestapeld
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_areastacked_button"
 >title="Gebied gestapeld"
->abstract="Hiermee maakt u een vlakgrafiekvisualisatie die het stapelen van meerdere metingen vertegenwoordigt."
+>abstract="Maak een vlakgrafiekvisualisatie die de stapeling van meerdere metingen vertegenwoordigt."
 
 <!-- markdownlint-enable MD034 -->
 
