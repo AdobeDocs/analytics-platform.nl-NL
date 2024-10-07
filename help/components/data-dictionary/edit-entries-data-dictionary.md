@@ -1,17 +1,17 @@
 ---
 description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers de verschillende componenten in Analysis Workspace, waaronder het beoogde gebruik, die zijn goedgekeurd, duplicaten zijn, catalogiseren en bijhouden, enzovoort.
-title: Items in het gegevenswoordenboek bewerken
+title: Onderdeelitems bewerken
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
-# Onderdeelitems bewerken in het gegevenswoordenboek
+# Onderdeelitems bewerken
 
 Customer Journey Analytics-beheerders kunnen componentitems in het gegevenswoordenboek voor een bepaalde gegevensweergave bewerken. Alle aangebrachte wijzigingen zijn zichtbaar voor alle gebruikers van de gegevensweergave.
 

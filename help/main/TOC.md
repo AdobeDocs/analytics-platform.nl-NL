@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 10%
+source-wordcount: '950'
+ht-degree: 11%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 10%
    + [Basisanalyse uitvoeren](../analysis-workspace/perform-basic-analysis.md)
    + [Geavanceerde analyse uitvoeren](../analysis-workspace/perform-adv-analysis.md)
    + Projecten {#build-workspace-project}
-      + [Overzicht van projecten](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Overzicht](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten openen](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -123,7 +123,7 @@ ht-degree: 10%
       + [Kleurenpaletten](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Weergavedichtheid](../analysis-workspace/build-workspace-project/view-density.md)
    + Visualisaties {#visualizations}
-      + [Overzicht van visualisaties](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Overzicht](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [Intelligente bijschriften](../analysis-workspace/visualizations/intelligent-captions.md)
       + Vrije-vormentabel {#freeform-table}
@@ -179,7 +179,7 @@ ht-degree: 10%
       + [Volgende of vorige item](../analysis-workspace/c-panels/next-previous.md)
       + [Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
    + Projecten cureren, delen en plannen {#curate-share}
-      + [Menu Delen](../analysis-workspace/curate-share/send-schedule-files.md)
+      + [Overzicht](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](../analysis-workspace/curate-share/curate.md)
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
@@ -207,9 +207,9 @@ ht-degree: 10%
       + [Toegankelijkheid](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytische dashboards {#cja-dashboards}
-   + [Analysedashboards - Overzicht](../mobile-app/home.md)
+   + [Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
-   + [Een mobiele scorecard maken](../mobile-app/create-scorecard.md)
+   + [Mobiele scorecards maken](../mobile-app/create-scorecard.md)
    + [Mobiele scorecards beheren](../mobile-app/manage-scorecard.md)
    + [Stel managers in voor het gebruik van dashboards](../mobile-app/set-up-execs.md)
    + [Snelle handleiding voor gebruikers](../mobile-app/executive.md)
@@ -238,7 +238,7 @@ ht-degree: 10%
    + [Veelgestelde vragen](../guided-analysis/faq.md)
 
 + Onderdelen {#cja-components}
-   + [Overzicht van componenten](../components/overview.md)
+   + [Overzicht](../components/overview.md)
    + [Componenten in Analysis Workspace gebruiken](../components/use-components-in-workspace.md)
    + [Componentbeschrijvingen toevoegen](../components/add-component-descriptions.md)
    + Annotaties {#annotations}
@@ -260,7 +260,7 @@ ht-degree: 10%
       + [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
    + Filters {#cja-filters}
-      + [Overzicht van filters](../components/filters/filters-overview.md)
+      + [Overzicht](../components/filters/filters-overview.md)
       + [Filters maken](../components/filters/create-filters.md)
       + [Filters maken](../components/filters/filter-builder.md)
       + [Snelle filters](../components/filters/quick-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 10%
       + [Filters beheren](../components/filters/manage-filters.md)
       + [Operatoren](../components/filters/operators.md)
    + Berekende cijfers {#cja-calcmetrics}
-      + [Overzicht van berekende metriek](../components/calc-metrics/calc-metr-overview.md)
+      + [Overzicht](../components/calc-metrics/calc-metr-overview.md)
       + Workflow voor berekende metriek {#cm-workflow}
          + [Berekende waarden maken](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Berekende maatstaven samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
@@ -315,13 +315,13 @@ ht-degree: 10%
       + [Exportlogboeken beheren](/help/components/exports/manage-export-logs.md)
       + [Problemen met exporteren oplossen](/help/components/exports/troubleshoot-exports.md)
    + Gegevenswoordenboek {#data-dictionary}
-      + [Overzicht van gegevenswoordenboek](../components/data-dictionary/data-dictionary-overview.md)
+      + [Overzicht](../components/data-dictionary/data-dictionary-overview.md)
       + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
       + [Onderdeelitems bewerken in het gegevenswoordenboek](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Gezondheid gegevenswoordenboek controleren](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
-   + [Overzicht van Report Builder](../report-builder/report-buider-overview.md)
+   + [Overzicht](../report-builder/report-buider-overview.md)
    + [Report Builder instellen](../report-builder/report-builder-setup.md)
    + [Een gegevensblok maken](../report-builder/create-a-data-block.md)
    + [Report Builder Hub](../report-builder/report-builder-hub.md)
