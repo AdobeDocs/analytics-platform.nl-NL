@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
+source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,15 @@ Omdat het canvas van de Reizen u toestaat om het even welke metrisch als primair
 
 ![ Weg met knopen met een hoger percentage dan vorige knoop ](assets/journey-canvas-higher-percentage.png)
 
-De reis die in de volgende scenario&#39;s wordt gebruikt wordt gevormd met de volgende montages:
+De reis die in de volgende scenario&#39;s wordt gebruikt wordt gevormd met deze montages:
 
 * **[!UICONTROL Person]** wordt ingesteld als de container
 
 * **[!UICONTROL Event]** is ingesteld als primaire metrisch
 
-#### Scenario 1 - gebruiker A volgt de weg in de eerste zitting, toen slechts recentere knopen in een verdere zitting
+#### Scenario 1: Gebruiker A volgt de weg in de eerste zitting. In een volgende sessie heeft de gebruiker een gebeurtenis die alleen overeenkomt met een later knooppunt.
 
-Stel dat gebruiker A de site bezoekt en de reis voltooit (knooppunt 1: &quot;Visit site&quot; > knooppunt 2: &quot;View Product A&quot; > Node 3: &quot;Check out&quot;). Omdat gebruiker A de reis voltooide, wordt een gebeurtenis geteld op elke knoop van de reis.
+Stel dat gebruiker A de site bezoekt en de reis voltooit (knooppunt 1: &quot;Visit site&quot; > knooppunt 2: &quot;View Product A&quot; > Node 3: &quot;Check out&quot;). Omdat gebruiker A een gebeurtenis had die elke knoop van de reis in orde aanpaste, wordt een gebeurtenis geteld op elke knoop van de reis.
 
 Stel nu dat gebruiker A de site opnieuw bezoekt in een latere sessie. Omdat de Gebruiker A reeds de reis in een vorige zitting door de reis weg te volgen voltooide, betekent dit dat om het even welke tijdGebruiker A een gebeurtenis heeft die om het even welke knoop in reis-zelfs aanpast als Gebruiker A niet de weg van de reis in hun huidige zitting-een gebeurtenis op de relevante knoop in de reis heeft geteld. Bijvoorbeeld, als Gebruiker A controles uit, dan wordt een gebeurtenis geteld op de knoop van de &quot;Controle uit&quot;. Dit kan in een hoger percentage en een aantal op de knoop van de &quot;Controle uit&quot;dan op de voorafgaande knoop, &quot;Product A van de Mening resulteren.&quot;
 
@@ -58,11 +58,11 @@ Als de containerinstelling was ingesteld op &quot;Sessie&quot;, zou de gebeurten
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
-#### Scenario 2 - gebruiker B valt uit de reis
+#### Scenario 2: gebruiker B valt buiten de reis
 
 Stel dat gebruiker B de site bezoekt en de reis niet voltooit (de site bezoekt, Product B bekijkt en vervolgens uitcheckt). In dit geval wordt een gebeurtenis geteld voor het beginknooppunt van de reis, &quot;Visit site&quot;, maar wordt een gebeurtenis niet geteld voor de resterende knooppunten en valt gebruiker B buiten de reis. Hoewel Gebruiker B gecontroleerd, wordt een gebeurtenis niet geteld op de derde knoop (&quot;Controle uit&quot;) omdat Gebruiker B de reis door Product A te bekijken niet voltooide alvorens uit te controleren.
 
-Dit is omdat de gebeurtenissen voor elke knoop slechts worden geteld wanneer de mensen de &quot;uiteindelijke weg van de reis volgen,&quot;wat betekent dat de gebeurtenissen slechts worden geteld als de persoon uiteindelijk van één knoop aan andere, ongeacht om het even welke gebeurtenissen zich tussen de 2 knopen voordoet.
+Dit komt doordat gebeurtenissen alleen voor elk knooppunt worden geteld wanneer mensen het &#39;uiteindelijke pad&#39; van de reis volgen. Dit betekent dat gebeurtenissen alleen worden geteld als de persoon uiteindelijk van het ene knooppunt naar het andere wordt verplaatst, ongeacht eventuele gebeurtenissen tussen de twee knooppunten.
 
 ### De reis heeft veelvoudige wegen die in één enkele knoop samenkomen
 
