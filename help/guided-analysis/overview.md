@@ -5,7 +5,7 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: c403a660e1d60b1ee2e5552d615dffc2b52930a4
 workflow-type: tm+mt
 source-wordcount: '1400'
 ht-degree: 0%
@@ -84,11 +84,11 @@ De geleide analysemeningen zijn op de volgende manier inbegrepen in de pakketten
 
 | Pakket | Beschikbare weergaven |
 | --- | --- |
-| [!UICONTROL CJA add-ons] | Trends: Gebruik, trends: Frequentie, Trechter: Wrijving, Trechter: Conversietrends, Behoud: Behoudsterpercentages, Gebruikersgroei: Actief, Gebruikersgroei: Nettogroei |
-| [!UICONTROL CJA Foundation] | Trends: gebruik |
-| [!UICONTROL CJA Select] | De meningen van de stichting + Trends: Frequentie, Trechter: Wrijving, Trechter: Conversietrends, Behoud: Bewaaringspercentages, de groei van de Gebruiker: Actief, de groei van de Gebruiker: Netto groei |
-| [!UICONTROL CJA Prime] | Weergaven selecteren + Gebruikersstroom: Tijdlijn, Eigenschapmatrix: Betrokkenheid, Effect: Geen, Effect: Eerste gebruik |
-| [!UICONTROL CJA Ultimate] | Eerste weergaven |
+| [!UICONTROL Customer Journey Analytics add-ons] | Trends: Gebruik, trends: Frequentie, Trechter: Wrijving, Trechter: Conversietrends, Behoud: Behoudsterpercentages, Gebruikersgroei: Actief, Gebruikersgroei: Nettogroei |
+| [!UICONTROL Customer Journey Analytics Foundation] | Trends: gebruik |
+| [!UICONTROL Customer Journey Analytics Select] | De meningen van de stichting + Trends: Frequentie, Trechter: Wrijving, Trechter: Conversietrends, Behoud: Bewaaringspercentages, de groei van de Gebruiker: Actief, de groei van de Gebruiker: Netto groei |
+| [!UICONTROL Customer Journey Analytics Prime] | Weergaven selecteren + Gebruikersstroom: Tijdlijn, Eigenschapmatrix: Betrokkenheid, Effect: Geen, Effect: Eerste gebruik |
+| [!UICONTROL Customer Journey Analytics Ultimate] | Eerste weergaven |
 
 {style="table-layout:auto"}
 
