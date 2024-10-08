@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '820'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,13 @@ Bekijk een glimp van de nieuwste verbeteringen in het product en de documentatie
 De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+
+>[!TAB  Geleide Analyse ]
+
+De geleide Analyse is nu beschikbaar direct van binnen Analysis Workspace, toelatend gebruikers om dashboards met uitvoerige inzichten van panelen, visualisaties, en geleide analyses tot stand te brengen.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 >[!TAB Waarschuwingen]
 
@@ -72,27 +79,6 @@ De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Cust
 
 *_u moet het Uitgezochte pakket of hoger hebben om de uitbreiding van BI te gebruiken._*
 
-
-<!--
->[!TAB Improved Audience Publising] 
-
-Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
-
-[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
-
--->
-
->[!TAB  Voorspelling ]
-
-Prognosering is een Analysis Workspace-functie voor het voorspellen van een standaard of berekende metrische waarde met een ondersteunde tijdgranulariteit (uur, dag, week, maand en jaar). Prognosering is alleen beschikbaar voor aan tijdreeksen gerelateerde gegevens.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
->[!TAB  Nieuwe documentatie ]
-
-De nieuwe documentatiesecties zijn nu beschikbaar op:<ul><li>Samenvattingscase voor gegevensgebruik en B2B-voorbeeldgebruik.</li><li>Een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.</li><li>Gebruiksscenario&#39;s voor gegevensuitvoer en de vereiste Experience Platform- en klantenreisfuncties. </li></ul>Selecteer **[!UICONTROL Learn more]** voor deze en andere documentatie-updates.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!ENDTABS]
 
