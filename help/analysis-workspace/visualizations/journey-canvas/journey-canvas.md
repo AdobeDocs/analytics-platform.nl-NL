@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,36 @@ De belangrijkste kenmerken van de visualisatie van het canvas Journey zijn:
 
 ## Potentiële inzichten
 
-Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas kan helpen bieden. U kunt kiezen of deze inzichten gebaseerd zijn op alle mensen in de gegevensweergave, op alle mensen die de reis begonnen, of op alle mensen uit het vorige knooppunt van de reis.
+Reiscanvas biedt actioneerbare inzichten voor de meest complexe reizen.
 
-**Fallthrough**
+### Pad met de hoogste conversiesnelheid {#conversion-rate-caption}
+
+Het belangrijkste inzicht in het canvas Journey wordt weergegeven als een bijschrift boven aan het canvas zelf.
+
+Dit bijschrift geeft een overzicht van alle paden op de reis met de hoogste omrekeningskoers.
+
+![ Reis de sectie van het canvas van de Reis ](assets/journey-canvas-caption.png)
+
+Houd rekening met het volgende wanneer u dit bijschrift interpreteert:
+
+* A _weg_ wordt bepaald als beginknoop die door pijlen aan een eindknoop, met om het even welk aantal knopen wordt verbonden tussen hen.
+
+* De berekening van de omrekeningskoers is afhankelijk van het type transport (het aantal start- en eindknooppunten in de rit en of de paden elkaar snijden).
+
+  In de volgende tabel wordt beschreven hoe de omrekeningskoersen worden berekend op basis van het soort transport:
+
+  | Soort reis | Omrekeningskoers | Voorbeeld |
+  |---------|----------|---------|
+  | **Één enkele beginknoop en één enkele eindknoop** | Conversiesnelheid wordt berekend door het getal van het eindknooppunt te delen door dat van het beginknooppunt. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-single-path.png) samenkomen |
+  | **Één enkele beginknoop en veelvoudige eindknopen** | Conversiesnelheid wordt berekend door het eindknooppunt met het hoogste getal te zoeken en dat getal te delen door dat van het beginknooppunt. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-singlestart-multiend.png) samenkomen |
+  | **Veelvoudige standalone wegen, met elk weg die één enkele beginknoop en één enkele eindknoop** bevatten | Conversiesnelheid wordt berekend door het getal van het eindknooppunt te delen door dat van het beginknooppunt. Het pad met de hoogste conversiesnelheid wordt in het bijschrift beschreven. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-multi-start-separate.png) samenkomen |
+  | **Veelvoudige beginknopen die op om het even welk punt in de reis in een gemeenschappelijke knoop** samenkomen | Conversiesnelheid wordt berekend door het eindknooppunt met het hoogste getal te zoeken en dat getal te delen door dat van het beginknooppunt met het laagste getal. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-multi-start-converge.png) samenkomen |
+
+### Doorvallen, uitvallen en meer
+
+Hier volgen enkele voorbeelden van andere inzichten die Journey canvas kan helpen bieden. U kunt kiezen of deze inzichten gebaseerd zijn op alle mensen in de gegevensweergave, op alle mensen die de reis begonnen, of op alle mensen uit het vorige knooppunt van de reis.
+
+#### Fallthrough
 
 * Het aantal en het percentage personen dat de reis heeft voltooid (aangekomen bij het eindknooppunt)
 
@@ -47,14 +74,13 @@ Hieronder volgen enkele voorbeelden van de typen inzichten die Journey canvas ka
 
 * De meest voorkomende stap die voor of na een bepaald knooppunt van de reis is gezet
 
-**Uitval**
+#### Fallout
 
 * De knooppunten van de reis waar mensen het meest uit de reis vielen (nooit bij een van de directe volgende knooppunten aankwamen)
 
-**Andere**
+#### Aanvullende gegevens voor elk knooppunt
 
-* Extra gegevens voor om het even welk knooppunt in de reis (door een afbraakdimensie voor de knoop toe te voegen)
-
+* Voeg een afbraakdimensie op om het even welk knooppunt van de reis toe om extra gegevens voor die specifieke knoop te bekijken
 
 ## Kiezen tussen de visualisaties voor het canvas en de valklare taal
 
