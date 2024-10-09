@@ -4,10 +4,10 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 1%
+source-wordcount: '993'
+ht-degree: 2%
 
 ---
 
@@ -20,130 +20,417 @@ Hier volgt een alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. [!DNL MAXV(metrics)] staat bijvoorbeeld ook [!DNL MAXV(PageViews + Visits).] toe
+>Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [ MAXIMUM VAN DE KOLOM (metriek) ](#column-maximum) staat ook voor [ MAXIMUM VAN DE KOLOM (PageViews + Visits) ](#column-maximum) toe.
 
 
 ## Tabelfuncties versus rijfuncties
 
-Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
+Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is. Indien van toepassing en relevant, wordt een functie geannoteerd met het type functie.
+
+
+## Absolute waarde
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
+
+[!BADGE  Rij ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de absolute waarde wilt berekenen. |
+
+
+## Maximum kolom
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
+
+Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Minimaal kolom
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
+
+Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Aantal kolommen
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
+
+Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+
+
+## Aantal
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde die u wilt tellen. |
+
+
+## Exponent
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
+
+[!BADGE  Rij ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De exponent die op de basis e wordt toegepast. |
+
+
+## Gemiddeld
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u het gemiddelde wilt berekenen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Mediaan
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de mediaan wilt berekenen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Modulo
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
+
+Retourneert de rest na het delen van x door y met behulp van Euclidean-divisie.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | De eerste metrische waarde die u wilt delen. |
+| metrisch_Y | De tweede metrische waarde die u wilt verdelen. |
+
+### Voorbeelden
+
+De geretourneerde waarde heeft hetzelfde teken als de invoer (of is nul).
+
+```
+MODULO(4,3) = 1
+MODULO(-4,3) = -1
+MODULO(-3,3) = 0
+```
+
+Om ervoor te zorgen dat u altijd een positief getal krijgt, gebruikt u
+
+```
+MODULO(MODULO(x,y)+y,y)
+```
+
+## Percentage
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De percentielwaarde in het bereik 0 tot en met 100. |
+| k | De metrische kolom die relatieve status definieert. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
 
-## Absolute waarde (rij)
+## Energiefunctie
 
-Retourneert de absolute waarde van een getal. De absolute waarde van een getal is het getal met een positieve waarde.
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
+
+Retourneert x opgevoerd naar de y-macht.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u aan de macht wilt verhogen measured_Y. |
+| metrisch_Y | De macht u zou willen verhogen metrisch_X aan. |
+
+
+## Kwart
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}[ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de kwartielwaarde wilt berekenen. |
+| kwartiel | Geeft aan welke kwartielwaarde moet worden geretourneerd. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Rond
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
+
+Rond zonder a *aantal* parameter is het zelfde als rond met a *aantal* parameter van 0, namelijk rond aan het dichtstbijzijnde geheel.  Met a *aantal* parameter, ROUND keert de *aantal* cijfers rechts van decimaal terug.  Als *aantal* negatief is, keert het 0&#39;s links van decimaal terug.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde die u wilt afronden. |
+| getal | Hoeveel cijfers rechts van decimaal om terug te keren. (Als negatief nul links van decimaal terugkeert). |
+
+### Voorbeelden
+
+```
+ROUND( 314.15, 0) = 314
+ROUND( 314.15, 1) = 314.1
+ROUND( 314.15, -1) = 310
+ROUND( 314.15, -2) = 300
+```
+
+
+## Aantal rijen
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
+
+Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1.
+
+
+## Max. rij
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
+
+Maximaal aantal kolommen per rij.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+## Min. rij
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
+
+Minimaal van de kolommen van elke rij.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+
+## Rijsom
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
+
+Som van de kolommen van elke rij.
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
+
+
+## Vierkante hoofdmap
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
+
+[!BADGE  Rij ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de vierkantswortel wilt berekenen. |
+
+
+## Standaardafwijking
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| | De metrische waarde waarvoor u de standaardafwijking wilt berekenen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+## Variantie
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de variantie wilt berekenen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
+
+
+De vergelijking voor VARIANCE is:
+
+![](assets/variance_eq.png){width="100"}
+
+Waar *x* het steekproefmiddel is, [ MEAN (*metrisch*) ](#mean), en *n* is de steekproefgrootte.
+
+
+Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt, gaat u door elke ingang en doet het volgende:
+
+1. Trek het gemiddelde van het getal af.
+
+1. Maak het resultaat vierkant.
+
+1. Voeg dat toe aan het totaal.
+
+Nadat u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat totaal door het aantal items in de kolom. Dat getal is de variantie voor de kolom. Het is een enkel getal. Deze wordt echter weergegeven als een kolom met getallen.
+
+In het voorbeeld van de volgende kolom met drie items:
+
+| kolom |
+|:---:|
+| 1 |
+| 2 |
+| 3 |
+
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2) <sup> 2 </sup> + (2 - 2) <sup> </sup> + (3 - 2) <sup> 2 </sup>/3) = 2/3.
+
+
+
+
+<!--
+
+## Absolute Value (Row)
+
+Returns the absolute value of a number. The absolute value of a number is the number with a positive value.
 
 ```
 ABS(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde waarvoor u de absolute waarde wilt. |
+|  *metric* | The metric for which you want the absolute value.  |
 
-## Maximum kolom
+## Column Maximum
 
-Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Returns the largest value in a set of dimension elements for a metric column. MAXV evaluates vertically within a single column (metric) across dimension elements.
 
 ```
 MAXV(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | Een metrisch die u zou willen geëvalueerd hebben. |
+|  *metric* | A metric that you would like to have evaluated.  |
 
-## Minimaal kolom
+## Column Minimum 
 
-Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
+Returns the smallest value in a set of dimension elements for a metric column. MINV evaluates vertically within a single column (metric) across dimension elements.
 
 ```
 MINV(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | Een metrisch die u zou willen geëvalueerd hebben. |
+|  *metric* | A metric that you would like to have evaluated.  |
 
-## Aantal kolommen
+## Column Sum 
 
-Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
+Adds all of the numeric values for a metric within a column (across the elements of a dimension).
 
 ```
 SUM(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde waarvoor u de totale waarde of som wilt. |
+|  *metric* | The metric for which you want the total value or sum.  |
 
-## Aantal (tabel)
+## Count (Table) 
 
-Retourneert het aantal of het aantal niet-nulwaarden voor een metrische waarde binnen een kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd).
+Returns the number, or count, of non-zero values for a metric within a column (the number of unique elements reported within a dimension).
 
 ```
 COUNT(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde die u wilt tellen. |
+|  *metric* | The metric that you want to count.  |
 
-## Exponent (rij)
+## Exponent (Row) 
 
-Keert *e* op tot de macht van een bepaald aantal. De constante *e* evenaart 2.71828182845904, de basis van natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
+Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
 
 ```
 EXP(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De exponent die op de basis *wordt toegepast e*. |
+|  *metric* | The exponent applied to the base *e*.  |
 
-## Uitstel
+## Exponentiation 
 
 Power Operator
 
 
-pow (x, y) = x <sup> y </sup> = x *x* x*.. (y tijden)
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
 
 
-## Gemiddeld (tabel)
+## Mean (Table) 
 
-Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde in een kolom.
+Returns the arithmetic mean, or average, for a metric in a column.
 
 ```
 MEAN(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde waarvoor u het gemiddelde wilt. |
+|  *metric* | The metric for which you want the average.  |
 
-## Mediaan (tabel)
+## Median (Table) 
 
-Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen, dat wil zeggen dat de helft van de getallen waarden heeft die groter zijn dan of gelijk zijn aan de mediaan, en de helft kleiner dan of gelijk is aan de mediaan.
+Returns the median for a metric in a column. The median is the number in the middle of a set of numbers—that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median.
 
 ```
 MEDIAN(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde waarvoor u de mediaan wilt. |
+|  *metric* | The metric for which you want the median.  |
 
-## Modulo
+## Modulo 
 
-The rest of col1 / col2, using Euclidean Division.
+The remainder of col1 / col2, using Euclidean division.
 
-Retourneert de rest na het delen van x door y.
+Returns the remainder after dividing x by y.
 
 ```
 x = floor(x/y) + modulo(x,y)
 ```
 
-De geretourneerde waarde heeft hetzelfde teken als de invoer (of is nul).
+The return value has the same sign as the input (or is zero).
 
 ```
 modulo(4,3) = 1 
@@ -151,15 +438,15 @@ modulo(-4,3) = -1
 modulo(-3,3) = 0
 ```
 
-Als u altijd een positief getal wilt ophalen, gebruikt u
+To always get a positive number, use 
 
 ```
 modulo(modulo(x,y)+y,y)
 ```
 
-## Percentage (tabel)
+## Percentile (Table) 
 
-Retourneert het k-th-percentiel van waarden voor een metrische waarde. U kunt deze functie gebruiken om een acceptatiedrempel vast te stellen. U kunt bijvoorbeeld afmetingselementen bekijken die boven het 90-percentiel liggen.
+Returns the k-th percentile of values for a metric. You can use this function to establish a threshold of acceptance. For example, you can decide to examine dimension elements who score above the 90  percentile.
 
 ```
 PERCENTILE(metric,k)
@@ -169,24 +456,24 @@ PERCENTILE(metric,k)
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i> metrisch </i> </td> 
-   <td colname="col2"> De metrische kolom die relatieve status definieert. </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> The metric column that defines relative standing. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> De percentielwaarde in het bereik 0 tot en met 100. </td> 
+   <td colname="col2"> The percentile value in the range 0 to 100, inclusive. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Kwartaal (tabel)
+## Quartile (Table) 
 
-Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. MINV, MEDIAN en MAXV retourneren dezelfde waarde als QUARTILE wanneer quart gelijk is aan respectievelijk 0 (nul), 2 en 4.
+Returns the quartile of values for a metric. For example, quartiles can be used to find the top 25% of products driving the most revenue. MINV, MEDIAN, and MAXV return the same value as QUARTILE when quart is equal to 0 (zero), 2, and 4, respectively.
 
 ```
 QUARTILE(metric,quart)
@@ -196,36 +483,36 @@ QUARTILE(metric,quart)
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i> metrisch </i> </td> 
-   <td colname="col2"> De metrische waarde waarvoor u de kwartielwaarde wilt. </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> The metric for which you want the quartile value. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>kwart </p> </td> 
-   <td colname="col2"> Geeft aan welke *value moet worden geretourneerd. </td> 
+   <td colname="col1"> <p>quart </p> </td> 
+   <td colname="col2"> Indicates which *value to return. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; als *kwart* = 0, KWALITEIT de minimumwaarde terugkeert. Als *kwart* = 1, KWALITEIT eerste kwartiel (25 percentiel) terugkeert. Als *kwart* = 2, KWALITEIT eerste kwartiel (percentiel 50) terugkeert. Als *kwart* = 3, KWALITEIT eerste kwartiel (75 percentiel) terugkeert. Als *kwart* = 4, KWALITEIT de maximumwaarde terugkeert.
+&#42;If *quart* = 0, QUARTILE returns the minimum value. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). If *quart* = 4, QUARTILE returns the maximum value.
 
-## Rond
+## Round 
 
-Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Bijvoorbeeld, als u het melden van muntdecimalen voor opbrengst wilt vermijden en een product $569.34 heeft, gebruik de formule Rond ( *Opbrengst*) aan ronde opbrengst aan dichtstbijzijnde dollar, of $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
+Returns the nearest integer for a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula Round( *Revenue*) to round revenue to the nearest dollar, or $569. A product reporting $569.51 will be round to the nearest dollar, or $570.
 
 ```
 ROUND(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *aantal* | De metrische waarde die u wilt afronden. |
+|  *number* | The metric you want to round.  |
 
-Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s aan de linkerzijde van decimaal terug.
+Round without a digits parameter is the same as round with a digits parameter of 0, namely round to the nearest integer. With a digits parameter it returns that many digits to the right of the decimal. If digits is negative, it returns 0's to the left of the decimal.
 
 ```
 round( 314.15, 0) = 314 
@@ -234,43 +521,43 @@ round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
-## Aantal rijen
+## Row Count 
 
-Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). &quot;Onkruisen&quot; wordt geteld als 1.
+Returns the count of rows for a given column (the number of unique elements reported within a dimension). "Uniques exceeded" is counted as 1.
 
-## Max. rij
+## Row Max 
 
-Het maximum van de kolommen in elke rij.
+The maximum of the columns in each row.
 
-## Min. rij
+## Row Min 
 
-Het minimum van de kolommen in elke rij.
+The minimum of the columns in each row.
 
-## Rijsom
+## Row Sum
 
-De som van de kolommen van elke rij.
+The sum of the columns of each row.
 
-## Vierkante hoofdmap (rij)
+## Square Root (Row) 
 
-Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
+Returns the positive square root of a number. The square root of a number is the value of that number raised to the power of 1/2.
 
 ```
 SQRT(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *aantal* | De metrische waarde waarvoor u de vierkantswortel wilt. |
+|  *number* | The metric for which you want the square root.  |
 
-## Standaardafwijking (tabel)
+## Standard Deviation (Table) 
 
-Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
+Returns the standard deviation, or square root of the variance, based on a sample population of data.
 
-De vergelijking voor STDEV is:
+The equation for STDEV is:
 
 ![](assets/std_dev.png)
 
-waar x het steekproefgemiddelde (*metrisch*) is en *n* is de steekproefgrootte.
+where x is the sample mean (*metric*) and *n* is the sample size.
 
 ```
 STDEV(metric)
@@ -279,45 +566,45 @@ STDEV(metric)
 <table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
  <tbody> 
   <tr> 
-   <td> <b> Argument </b> </td> 
-   <td> <b> Beschrijving </b> </td> 
+   <td> <b> Argument</b> </td> 
+   <td> <b> Description</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metrisch </i> </b> </td> 
-   <td> <p> De metrische waarde waarvoor u standaardafwijking wilt. </p> </td> 
+   <td> <b> <i> metric</i> </b> </td> 
+   <td> <p> The metric for which you want for standard deviation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Variantie (tabel)
+## Variance (Table) 
 
-Geeft de variantie gebaseerd op een samplepopulatie van gegevens.
+Returns the variance based on a sample population of data.
 
-De vergelijking voor VARIANCE is:
+The equation for VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waar x het steekproefgemiddelde is, MEAN (*metrisch*), en *n* is de steekproefgrootte.
+where x is the sample mean, MEAN(*metric*), and *n* is the sample size.
 
 ```
 VARIANCE(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde waarvoor u de variantie wilt. |
+|  *metric* | The metric for which you want the variance.  |
 
-Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt gaat u door elke ingang en doet het volgende:
+In order to calculate a variance you look at an entire column of numbers. From that list of numbers you first calculate the average. Once you have the average you go through each entry and do the following:
 
-1. Trek het gemiddelde van het getal af.
+1. Subtract the average from the number.
 
-2. Maak het resultaat vierkant.
+2. Square the result.
 
-3. Voeg dat toe aan het totaal.
+3. Add that to the total.
 
-Als u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat totaal door het aantal items in de kolom. Dat getal is de variantie voor de kolom. Het is een enkel getal. Deze wordt echter weergegeven als een kolom met getallen.
+Once you have iterated over the entire column you have a single total. You then divide that total by the number of items in the column. That number is the variance for the column. It is a single number. It is, however, displayed as a column of numbers.
 
-In het geval van een kolom van drie artikelen:
+In case of a three-item column:
 
 1
 
@@ -325,4 +612,6 @@ In het geval van een kolom van drie artikelen:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom zal ((1 - 2) <sup> 2 </sup> + (2 - 2) zijn <sup> </sup> + (3 - 2) <sup> 2 </sup>/3 = 2/3.
+The average of this column is 2. The variance for the column will be ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+
+-->

@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1530'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | Een histogram visualisatieemmers, bezoeken of gebeurtenissen in emmers op basis van een metrisch volume. |
 | ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | Bij een horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
 | ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | Bij een gestapelde horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ Branch3 ](/help/assets/icons/Branch3.svg) | [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Een reiscanvasvisualisatie helpt u om inzicht in de reizen te analyseren en te krijgen die u aan uw gebruikers en klanten verstrekt. |
 | ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md) | Een zeer belangrijke samenvatting van metriek visualisatie combineert lijn, summiere verandering, en summiere aantalvisualisaties. |
 | ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | Een lijnvisualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijndiagram gebruikt tijd langs de x-as. |
 | ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) | Een scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. |

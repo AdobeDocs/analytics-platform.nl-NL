@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onde
 
 * Als de kolomstructuur al kenmerken bevat, heeft het wijzigen van de toewijzing alleen invloed op de eigenschap die u bewerkt.
 
-+++ Video&#39;s weergeven waarin onderverdelingen worden weergegeven
++++ Video&#39;s weergeven waarin dimensies en dimensies worden geïllustreerd
 
 Dimensionen in Analysis Workspace
 

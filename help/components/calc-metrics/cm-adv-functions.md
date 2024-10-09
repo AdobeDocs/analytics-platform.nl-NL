@@ -4,10 +4,10 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
 workflow-type: tm+mt
-source-wordcount: '3032'
-ht-degree: 1%
+source-wordcount: '2832'
+ht-degree: 2%
 
 ---
 
@@ -17,116 +17,1091 @@ Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder
 
 ## Tabelfuncties versus rijfuncties
 
-Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
+Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is. Indien van toepassing en relevant, wordt een functie geannoteerd met het type functie.
 
-## Wat betekent de Include-Zeros-parameter?
+## Wat betekent de parameter include-zeros?
 
-Het vertelt of nullen in de berekening moeten worden opgenomen. Soms betekent nul &quot;niets&quot;, maar soms is het belangrijk.
+Het vertelt of nullen in de berekening moeten worden opgenomen. Soms betekent nul *niets*, maar soms is het belangrijk.
 
-Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen van de Pagina aan het rapport toevoegt, zijn er plotseling meer rijen voor uw opbrengst die allen nul zijn. U wilt waarschijnlijk niet dat dit invloed heeft op MEAN, MIN, QUARTILE, enzovoort. berekeningen die u op de opbrengstkolom hebt. In dat geval controleert u de parameter include-zeros.
+Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen van de Pagina aan het rapport toevoegt, zijn er plotseling meer rijen voor uw opbrengst, die allen nul zijn. U wilt waarschijnlijk niet dat extra metrisch om het even welk [ MEAN ](cm-functions.md#mean), [ MIN ](cm-functions.md#row-min), [ KWALITEIT ](cm-functions.md#quartile), en meer berekeningen te beïnvloeden die u in de opbrengstkolom hebt. In dit geval controleert u de parameter `include-zeros` .
 
-Aan de andere kant, als u twee metriek hebt die u geinteresseerd in bent, kan het niet eerlijk zijn om te zeggen dat één een hoger gemiddelde of een minimum heeft omdat sommige van zijn rijen nul waren, zodat zou u niet de parameter controleren om nullen te omvatten.
+Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger gemiddelde of een minimum heeft omdat sommige rijen nul zijn.  In dat geval kunt u ervoor kiezen om de parameter niet te controleren en nullen op te nemen.
 
 
-## EN
+## en
 
-Retourneert de waarde van het argument ervan. Gebruik NOT om ervoor te zorgen dat een waarde niet gelijk is aan één bepaalde waarde.
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
+
+
+Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| logical_test | Vereist minstens één parameter, maar kan om het even welk aantal parameters nemen. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE |
+
+## Telling bij benadering onderscheiden
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
+
+
+Retourneert de geschatte, verschillende telling van dimensie-items voor de geselecteerde dimensie.
+
+
+| Argument | Beschrijving |
+|---|---|
+| dimensie | De afmeting waarvoor u de benaderende verschillende punttelling wilt berekenen |
+
+### Voorbeeld
+
+Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal klanten wilt krijgen.
+
+
+
+
+## Arc Cosine
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De cosinus van de hoek die u wilt instellen van -1 tot 1 |
+
+
+
+## Boog sinus
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De sinus van de hoek die u wilt instellen van -1 tot 1 |
+
+
+
+## Booghoek
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De tangens van de hoek u van -1 tot 1 wilt |
+
+
+
+## Cdf-T
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
+
+
+Keert de waarschijnlijkheid terug dat een willekeurige variabele met student-t distributie met n graden van vrijheid een z-score minder dan kolom heeft.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Metrisch waarvoor u de Cumulatieve Functie van de Distributie van de student t-distribution zou willen |
+| getal | De vrijheidsgraden voor de cumulatieve distributiefunctie van de t-distribution van de student |
+
+### Voorbeeld
+
+```
+CDF-T(-∞, n) = 0
+CDF-T(∞, n) = 1
+CDF-T(3, 5) ? 0.99865
+CDF-T(-2, 7) ? 0.0227501
+CDF-T(x, ∞) ? cdf_z(x)
+```
+
+
+## Cdf-Z
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
+
+
+Retourneert de waarschijnlijkheid dat een willekeurige variabele met een normale distributie een z-score heeft minder dan col.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde waarvoor u de cumulatieve distributiefunctie van de Standaard Normale Distributie zou willen |
+
+### Voorbeelden
+
+```
+CDF-Z(-∞) = 0
+CDF-Z(∞) = 1
+CDF-Z(0) = 0.5
+CDF-Z(2) ? 0.97725
+CDF-Z(-3) ? 0.0013499
+```
+
+## Plafond
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde die u wilt afronden |
+
+
+## Vertrouwen (onder)
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+
+Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](http://arxiv.org/pdf/2103.06476).
+
+Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
+
+| Argument | Beschrijving |
+| --- | --- |
+| normalizing-container | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test in werking wordt gesteld. |
+| succesmetrisch | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| besturen | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
+
+## Vertrouwen (boven)
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+
+Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](http://arxiv.org/pdf/2103.06476).
+
+Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
+
+| Argument | Beschrijving |
+| --- | --- |
+| normalizing-container | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test in werking wordt gesteld. |
+| succesmetrisch | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| besturen | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
+
+
+## Cosine
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
+
+[!BADGE  Rij ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de cosinus wilt gebruiken |
+
+
+## Kubus Root
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
+
+
+Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Metrisch waarvoor u de kubuswortel wilt berekenen |
+
+
+
+## Cumulatief
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
+
+Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen.
+
+| Argument | Beschrijving |
+| --- | --- |
+| getal | The last N number of rows to return the sum for. Als N &lt;= 0 is, gebruikt u alle vorige rijen. |
+| metrisch | Metrisch waarvoor u de Cumulatieve Som zou willen. |
+
+### Voorbeelden
+
+| Datum | Ontvangsten | CUMULATIEF(0, inkomsten) | CUMULATIEF(2, inkomsten) |
+|------|------:|--------------:|--------------:|
+| mei | $ 500 | $ 500 | $ 500 |
+| juni | $ 200 | $ 700 | $ 700 |
+| juli | $ 400 | $ 1.100 | $ 600 |
+
+
+## Cumulatief (gemiddeld)
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
+
+Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen.
+
+| Argument | Beschrijving |
+| --- | --- |
+| getal | Het laatste N aantal rijen om het gemiddelde voor terug te keren. Als N &lt;= 0 is, gebruikt u alle vorige rijen. |
+| metrisch | Metrisch waarvoor u het Cumulatieve Gemiddelde zou willen. |
+
+>[!NOTE]
+>
+>Deze functie werkt niet met tariefmaatstaven zoals opbrengst per persoon. De functie gebruikt het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en personen over de laatste N op te tellen en hen vervolgens te verdelen. <br/> in plaats daarvan, gebruik [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![ verdeel ](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>
+
+
+## Gelijk
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+
+
+Gelijk. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | |
+| metrisch_Y | |
+
+### Voorbeeld
+
+`Metric 1 = Metric 2`
+
+
+
+## Exponentiële regressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+## Exponentiële regressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+| metrisch_Y | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Exponentiële regressie: Intercept
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Exponentiële regressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Floor
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
+
+[!BADGE  Rij ]{type="Neutral"}
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrische waarde die u wilt afronden. |
+
+
+## Groter dan
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
+
+
+De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | |
+| metrisch_Y | |
+
+### Voorbeeld
+
+`Metric 1 > Metric 2`
+
+## Groter dan of gelijk aan
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
+
+
+Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X |  |
+| metrisch_Y |  |
+
+### Voorbeeld
+
+`Metric 1 >= Metric 2`
+
+
+
+## Hyperbolische cosinus
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de hyperbolische cosinus wilt vinden |
+
+
+
+## Hyperbolische sinus
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de hyperbolische sinus wilt vinden |
+
+
+
+## Hyperbolische hoek
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de hyperbolische tangens wilt vinden |
+
+
+## Indien
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| logical_test | Vereist. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE |
+| value_if_true | De waarde die u wilt zijn teruggekeerd als het logical_test argument aan WAAR evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
+| value_if_false | De waarde die u wilt worden geretourneerd als het argument logical_test naar FALSE evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
+
+
+## Minder dan
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
+
+
+De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | |
+| metrisch_Y | |
+
+
+### Voorbeeld
+
+`Metric 1 < Metric 2`
+
+## Kleiner dan of gelijk aan
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
+
+Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | |
+| metrisch_Y | |
+
+### Voorbeeld
+
+`Metric 1 <= Metric 2`
+
+
+
+## Lineaire regressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Lineaire regressie: Intercept
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Lineaire regressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Lineaire regressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Logbestand basis 10
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Het positieve reële getal waarvoor u de natuurlijke logaritme met grondtal 10 wilt gebruiken |
+
+
+## Logregressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Logregressie: Onderscheppen
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Logregressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Logregressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Natuurlijk logboek
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
+
+
+Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is gebaseerd op de constante e (2.71828182845904). LN is het omgekeerde van de functie EXP.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Het positieve reële getal waarvoor u de natuurlijke logaritme wilt |
+
+
+
+## Niet
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
+
+
+Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| logisch | Vereist. Een waarde of expressie die kan worden geëvalueerd op TRUE of FALSE |
+
+
+
+## Niet gelijk
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
+
+
+Niet gelijk. De uitvoer is 0 (false) of 1 (true).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | |
+| metrisch_Y | |
+
+### Voorbeeld
+
+`Metric 1 != Metric 2`
+
+
+## of
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| logical_test | Vereist minstens één parameter maar kan om het even welk aantal parameters nemen. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE |
+
 
 >[!NOTE]
 >
 >0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
+
+## Pi
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
+
+Retourneert Pi: 3,14159...
+
+
+## Stroomregressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Stroomregressie: Intercept
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Stroomregressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Stroomregressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Kwartaalregressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+## Quadratische regressie: Intercept
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Quadratische regressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+## Kwadratische regressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+## Wederkerige regressie: Correlatiecoëfficiënt
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
+| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Wederkerige regressie: Intercept
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Wederkerige regressie: voorspeld Y
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## Wederkerige regressie: helling
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE  Lijst ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+
+
+## Sinus
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de sinus wilt gebruiken |
+
+
+
+
+## T-score
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
+
+
+De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score).
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Metrisch waarvoor u de Score van T zou willen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+
+## T-test
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
+
+
+Voert een t-test met mtailed t-score van x en n graden van vrijheid uit.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Metrisch waarop u een Test van T zou willen uitvoeren |
+| graden | Vrijheidsgraden |
+| staarten | De lengte van de staart die moet worden gebruikt voor de T-test |
+
+### Details
+
+De handtekening is T-TEST (metrisch, graden, staarten). Onder, roept het eenvoudig ***m*** ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Deze functie is gelijkaardig aan **[z-TEST](#z-test)** functie, die ***m*** ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** in werking stelt.
+
+- ***m*** is het aantal staarten.
+- ***n*** is de graden van vrijheid, en zou een constant aantal voor het volledige rapport moeten zijn, namelijk niet veranderend op een rij door rijbasis.
+- ***x*** is de t-test statistiek, en zou vaak een formule (bijvoorbeeld, **[z-SCORE](#z-score)**) zijn die op metrisch wordt gebaseerd en op elke rij wordt geëvalueerd.
+
+De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien de vrijheidsgraad en het aantal staarten wordt weergegeven.
+
+**Voorbeelden:**
+
+1. Gebruik het om uitschieters te vinden:
+
+   ```
+   T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
+   ```
+
+1. Combineer het met **[ALS](#if)** om zeer hoge of lage stuittarieven te negeren, en zittingen op alles anders te tellen:
+
+   ```
+   IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
+   ```
+
+
+
+
+## Raaklijn
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
+
+
+Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De hoek in radialen waarvoor u de tangens wilt |
+
+
+
+## Z-score
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+
+
+[!BADGE  Rij ]{type="Neutral"}
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | De metrisch waarvoor u de Score van Z zou willen |
+| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+
+Een Z-score van 0 (nul) impliceert dat de score gelijk is aan het gemiddelde. Een Z-score kan positief of negatief zijn en geeft aan of deze boven of onder het gemiddelde ligt en hoeveel standaardafwijkingen er zijn.
+
+De vergelijking voor Z-score is:
+
+![](assets/z_score.png)
+
+Waar ***[!DNL x]*** de onbewerkte score is, is ***[!DNL μ]*** het gemiddelde van de populatie en is ***[!DNL σ]*** de standaardafwijking van de populatie.
+
+>[!NOTE]
+>
+>***[!DNL μ]*** (mu) en ***[!DNL σ]*** (sigma) worden automatisch berekend op basis van de metrische waarde.
+
+
+
+## Z-test
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+
+
+Voert een n-tailed z-test met een z-score van x uit.
+
+
+| Argument | Beschrijving |
+|---|---|
+| metrisch | Metrisch waarop u een Test van Z zou willen uitvoeren |
+| staarten | De lengte van de staart die moet worden gebruikt voor de Z-test |
+
+>[!NOTE]
+>
+>gaat ervan uit dat de waarden normaal worden verdeeld.
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+## AND
+
+Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
 ```
 AND(logical_test1,[logical_test2],...)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *logical_test1* | Vereist. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE. |
-| *logical_test2* | Optioneel. Aanvullende voorwaarden die u als TRUE of FALSE wilt evalueren |
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
-## Verschil bij benadering aantal (afmeting)
+## Approximate Count Distinct (dimension)
 
-Retourneert de geschatte, verschillende telling van dimensie-items voor de geselecteerde dimensie. De functie gebruikt de methode HyperLogLog (HLL) om verschillende aantallen te benaderen.  Het wordt gevormd om de waarde binnen 5% van de daadwerkelijke waarde 95% van de tijd te waarborgen.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)
 ```
 
-| Argument |  |
+|  Argument  |  |
 |---|---|
-| *afmeting* | De afmeting waarvoor u de benaderende verschillende punttelling wilt. |
+|  *dimension* | The dimension for which you want the approximate distinct item count.  |
 
-### Voorbeeld: hoofdletter gebruiken
+### Example Use Case
 
-Het geschatte Verschil van de Telling (de eVar van identiteitskaart van de klant) is een gemeenschappelijk gebruiksgeval voor deze functie.
+Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
-Definitie voor een nieuwe berekende metrische waarde &quot;Benaderende Klanten&quot;:
+Definition for a new 'Approximate Customers' calculated metric:
 
-![ benaderen graafschap verschillende nieuwe afmetingsdefinitie die identiteitskaart van de Klant tonen (eVar1) ](assets/approx-count-distinct.png)
+![Approximate county distinct new dimension definition showing Customer ID (eVar1)](assets/approx-count-distinct.png)
 
-Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in het melden van:
+This is how the "Approximate Customers" metric could be used in reporting:
 
-![ Vrije-vormlijst die Unieke Bezoekers en Benaderde Klanten toont ](assets/approx-customers.png)
+![Freeform Table showing Unique Visitors and Approximate Customers ](assets/approx-customers.png)
 
-### Telfuncties vergelijken
+### Comparing Count Functions
 
-Distinct() is bij benadering een verbetering ten opzichte van de functies Count() en RowCount() omdat de gemaakte metrische waarde in elk dimensionaal rapport kan worden gebruikt om een geschatte telling van items voor een afzonderlijke dimensie te renderen. Bijvoorbeeld, een telling van klant IDs die in een Mobiel Rapport van het Type van Apparaat wordt gebruikt.
+Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
 
-Deze functie zal marginaal minder nauwkeurig zijn dan Count() en RowCount() omdat het de methode HLL gebruikt, terwijl Count() en RowCount() exacte aantallen zijn.
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
 
-## Boogcosinus (rij)
+## Arc Cosine (Row)
 
-Retourneert de arccosinus, of omgekeerd van de cosinus, van een metrische waarde. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI( ).
+Returns the arccosine, or inverse of the cosine, of a metric. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi. If you want to convert the result from radians to degrees, multiply it by 180/PI( ).
 
 ```
 ACOS(metric)
 ```
 
-| Argument |  |
+|  Argument  |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Boogsinus (rij)
+## Arc Sine (Row)
 
-Retourneert de arcsinus, of omgekeerde sinus, van een getal. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arcsinus in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI( ).
+Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arcsine in degrees, multiply the result by 180/PI( ).
 
 ```
 ASIN(metric)
 ```
 
-| Argument |  |
+|  Argument  |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Booghoek (rij)
+## Arc Tangent (Row)
 
-Retourneert de arctangens, of omgekeerde tangens, van een getal. De arctangens is de hoek waarvan de tangens getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI( ).
+Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arctangent in degrees, multiply the result by 180/PI( ).
 
 ```
 ATAN(metric)
 ```
 
-| Argument |  |
+|  Argument  |  |
 |---|---|
-| *metrisch* | De cosinus van de hoek die u wilt instellen van -1 tot 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Exponentiële regressie: voorspelde Y (rij)
+## Exponential Regression: Predicted Y (Row)
 
-Berekent de voorspelde y-waarden (metrisch_Y), gezien de bekende x-waarden (metrisch_X) gebruikend de &quot;minste vierkanten&quot;methode om de lijn van best te berekenen past gebaseerd op.
+Calculates the predicted y-values (metric_Y), given the known x-values (metric_X) using the "least squares" method for calculating the line of best fit based on .
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
 ## Cdf-T
 
-Retourneert het percentage waarden in de t-distributie van een student met n vrijheidsgraden met een z-score kleiner dan x.
+Returns the percentage of values in a student's t-distribution with n degrees of freedom that have a z-score less than x.
 
 ```
 cdf_t( -∞, n ) = 0
@@ -138,7 +1113,7 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 
 ## Cdf-Z
 
-Retourneert het percentage van waarden in een normale distributie met een z-score van minder dan x.
+Returns the percentage of values in a normal distribution that have a z-score less than x.
 
 ```
 cdf_z( -∞ ) = 0
@@ -146,612 +1121,517 @@ cdf_z( ∞ ) = 1
 cdf_z( 0 ) = 0.5
 cdf_z( 2 ) ? 0.97725
 cdf_z( -3 ) ? 0.0013499
-```
-
-## Plakken (rij)
-
-Geeft als resultaat het kleinste gehele getal dat niet kleiner is dan een bepaalde waarde. Bijvoorbeeld, als u het melden van muntdecimalen voor opbrengst wilt vermijden en een product $569.34 heeft, gebruik de formule CEILING ( *Inkomsten*) aan ronde opbrengst tot de dichtstbijzijnde dollar, of $570.
 
 ```
-CEILING(metric)
-```
 
-| Argument | Beschrijving |
-|---|---|
-| *metrisch* | De metrische waarde die u wilt afronden. |
+## Exponential Regression: Intercept (Table)
 
-## Vertrouwen
-
-[!UICONTROL Confidence] is een probabilistische maat van hoeveel bewijs er is dat een bepaalde variant het zelfde als de controlevariant is. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
-
-```
-fx Confidence (normalizing-container, success-metric, control, significance-threshold)
-```
-
-| Argument | Beschrijving |
-| --- | --- |
-| Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
-| Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
-| Besturing | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
-| Significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
-
-{style="table-layout:auto"}
-
-## Cosinus (rij)
-
-Geeft als resultaat de cosinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
-
-```
-COS(metric)
-```
-
-| Argument | Beschrijving |
-|---|---|
-| *metrisch* | De hoek in radialen waarvoor u de cosinus wilt gebruiken. |
-
-## Kubus Root
-
-Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven.
-
-```
-CBRT(metric)
-```
-
-| Argument | Beschrijving |
-|---|---|
-| *metrisch* | De metrische waarde waarvoor u de kuburoot wilt gebruiken. |
-
-## Cumulatief
-
-Retourneert de som van x voor de laatste N-rijen (zoals geordend door de dimensie, met hashwaarden voor op tekenreeks gebaseerde velden).
-
-Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wordt bevolen is het slechts nuttig op afmetingen die een natuurlijke orde zoals datum of weglengte hebben.
-
-```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) |
-|------+------+--------------+--------------|
-| May  | $500 | $500         | $500         |
-| June | $200 | $700         | $700         |
-| July | $400 | $1100        | $600         |
-```
-
-## Cumulatief gemiddelde
-
-Retourneert het gemiddelde van de laatste N-rijen.
-
-Als N &lt;= 0 gebruikt het alle vorige rijen. Aangezien het door de afmeting wordt bevolen is het slechts nuttig op afmetingen die een natuurlijke orde zoals datum of weglengte hebben.
-
->[!NOTE]
->
->Dit werkt niet zoals u zou kunnen verwachten met tariefmetriek zoals opbrengst/persoon: het gemiddelde van de tarieven in plaats van het optellen van opbrengst over laatste N en het optellen van personen over laatste N en dan het verdelen van hen. Gebruik in plaats daarvan
-
-```
-cumul(revenue)/cumul(person)
-```
-
-## Gelijk
-
-Retourneert items die exact overeenkomen voor een numerieke waarde of tekenreekswaarde.
-
-## Exponentiële regressie_ correlatiecoëfficiënt (tabel)
-
-Keert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen ( *metrisch_A* en *metrisch_B*) voor de regressievergelijking terug.
-
-```
-CORREL.EXP(metric_X, metric_Y)
-```
-
-| Argument | Beschrijving |
-|---|---|
-| *metrisch_X* | Metrisch die u met *wilt correleren metrisch_Y*. |
-| *metrisch_Y* | Metrisch die u met *wilt correleren metrisch_X*. |
-
-## Exponentiële regressie: Intercept (tabel)
-
-Keert intercept, *b*, tussen twee metrische kolommen ( *metrisch_X* en *metrisch_Y*) voor terug
+Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Exponentiële regressie: helling (tabel)
+## Exponential Regression: Slope (Table)
 
-Keert de helling, *a*, tussen twee metrische kolommen ( *metrisch_X* en *metrisch_Y*) voor terug.
+Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Vloer (rij)
+## Floor (Row)
 
-Geeft als resultaat het grootste gehele getal dat niet groter is dan een bepaalde waarde. Bijvoorbeeld, als u het melden van muntdecimalen voor opbrengst wilt vermijden en een product $569.34 heeft, gebruik de formuleFLOOR ( *Inkomsten*) aan ronde opbrengst neer aan de dichtstbijzijnde dollar, of $569.
+Returns the largest integer not greater than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula FLOOR( *Revenue*) to round revenue down to the nearest dollar, or $569.
 
 ```
 FLOOR(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De metrische waarde die u wilt afronden. |
+|  *metric* | The metric you want to round.  |
 
-## Groter dan
+## Greater Than
 
-Retourneert items waarvan het numerieke aantal groter is dan de ingevoerde waarde.
+Returns items whose numeric count is greater than the value entered.
 
-## Groter dan of gelijk aan
+## Greater Than or Equal
 
-Retourneert items waarvan het numerieke getal groter dan of gelijk is aan de ingevoerde waarde.
+Returns items whose numeric count is greater than or equal to the value entered.
 
-## Hyperbolische cosinus (rij)
+## Hyperbolic Cosine (Row)
 
-Geeft de hyperbolische cosinus van een getal.
+Returns the hyperbolic cosine of a number.
 
 ```
 COSH(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De hoek in radialen waarvoor u de hyperbolische cosinus wilt vinden. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic cosine.  |
 
-## Hyperbolische sinus (rij)
+## Hyperbolic Sine (Row)
 
-Geeft de hyperbolische sinus van een getal.
+Returns the hyperbolic sine of a number.
 
 ```
 SINH(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De hoek in radialen waarvoor u de hyperbolische sinus wilt vinden. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic sine.  |
 
-## Hyperbolische hoek (rij)
+## Hyperbolic Tangent (Row)
 
-Retourneert de hyperbolische tangens van een getal.
+Returns the hyperbolic tangent of a number.
 
 ```
 TANH(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De hoek in radialen waarvoor u de hyperbolische tangens wilt vinden. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
 
-## IF (rij)
+## IF (Row)
 
-De IF-functie retourneert één waarde als een door u opgegeven voorwaarde de waarde TRUE oplevert en een andere waarde als die voorwaarde de waarde FALSE oplevert.
+The IF function returns one value if a condition you specify evaluates to TRUE, and another value if that condition evaluates to FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *logical_test* | Vereist. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE. |
-| *[value_if_true]* | De waarde die u wilt zijn teruggekeerd als het *logical_test* argument aan WAAR evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
-| *[value_if_false]* | De waarde die u wilt zijn teruggekeerd als het *logical_test* argument aan VALS evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
+|  *logical_test* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.)  |
+|  *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.)  |
 
-## Minder dan
+## Less Than
 
-Retourneert items waarvan het numerieke aantal kleiner is dan de ingevoerde waarde.
+Returns items whose numeric count is less than the value entered.
 
-## Kleiner dan of gelijk aan
+## Less Than or Equal
 
-Retourneert items waarvan het numerieke getal kleiner dan of gelijk is aan de ingevoerde waarde.
+Returns items whose numeric count is less than or equal to the value entered.
 
-## Optillen
+## Lift
 
-Retourneert de Lift die een bepaalde variant had in conversies over een besturingsvariant. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
+Returns the Lift a particular variant had in conversions over a control variant. It is the difference in performance between a given variant and the baseline, divided by the performance of the baseline, expressed as a percentage. 
 
 ```
 fx Lift (normalizing-container, success-metric, control)
 ```
 
-| Argument | Beschrijving |
+| Argument | Description |
 | --- | --- |
-| Container normaliseren | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test zal worden in werking gesteld. |
-| Metrisch met succes | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
-| Besturing | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| Normalizing Container | The basis (People, Sessions, or Events) on which a test will be run. |
+| Success Metric | The metric or metrics that a user is comparing variants with. |
+| Control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
 {style="table-layout:auto"}
 
-## Lineaire regressie_ Correlatiecoëfficiënt
+## Linear regression_ Correlation Coefficient
 
-Y = a X + b. Retourneert de correlatiecoëfficiënt
+Y = a X + b. Returns the correlation coefficient
 
-## Lineaire regressie_ Intercept
+## Linear regression_ Intercept
 
-Y = a X + b. Retourneert b.
+Y = a X + b. Returns b.
 
-## Lineaire regressie_ Voorspeld Y
+## Linear regression_ Predicted Y
 
-Y = a X + b. Retourneert Y.
+Y = a X + b. Returns Y.
 
-## Lineaire regressie_ Helling
+## Linear regression_ Slope
 
-Y = a X + b. Retourneert a.
+Y = a X + b. Returns a.
 
-## Logbasis 10 (rij)
+## Log Base 10 (Row)
 
-Retourneert de natuurlijke logaritme met grondtal 10 van een getal.
+Returns the base-10 logarithm of a number.
 
 ```
 LOG10(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | Het positieve reële getal waarvoor u de natuurlijke logaritme met grondtal 10 wilt gebruiken. |
+|  *metric* | The positive real number for which you want the base-10 logarithm.  |
 
-## Logregressie: Correlatiecoëfficiënt (tabel)
+## Log regression: Correlation coefficient (Table)
 
-Keert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b] terug. Deze wordt berekend met behulp van de CORREL-vergelijking.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the CORREL equation.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u met *wilt correleren metrisch_Y*. |
-| *metrisch_Y* | Metrisch die u met *wilt correleren metrisch_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Logregressie: Onderscheppen (tabel)
+## Log regression: Intercept (Table)
 
-Keert intercept *b* als minste vierkantsregressie tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b] terug. Deze wordt berekend met behulp van de INTERCEPT-vergelijking.
+Returns the intercept *b* as the least squares regression between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the INTERCEPT equation.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Logregressie: voorspelde Y (rij)
+## Log Regression: Predicted Y (Row)
 
-Berekent de voorspelde [!DNL y] -waarden (metrisch_Y), op basis van de bekende [!DNL x] -waarden (metrisch_X) met de methode &quot;kleinste vierkantjes&quot; voor het berekenen van de regel van best fit op basis van [!DNL Y = a ln(X) + b] . Deze wordt berekend met behulp van de ESTIMATE-vergelijking.
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. It is calculated using the ESTIMATE equation.
 
-In regressieanalyse, berekent deze functie de voorspelde [!DNL y] waarden (*metrisch_Y*), gezien de bekende [!DNL x] waarden (*metrisch_X*) gebruikend logaritme voor het berekenen van de lijn van best past voor de regressievergelijking [!DNL Y = a ln(X) + b]. De [!DNL a] -waarden komen overeen met elke x-waarde en [!DNL b] is een constante waarde.
+In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. The [!DNL a] values correspond to each x value, and [!DNL b] is a constant value.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Logregressie: helling (tabel)
+## Log regression: Slope (Table)
 
-Keert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b] terug. Het wordt berekend gebruikend de vergelijking van de REEKS.
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the SLOPE equation.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_A* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_B* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the independent data.  |
 
-## Natuurlijk logboek
+## Natural Log
 
-Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritmen zijn gebaseerd op constante *e* (2.71828182845904). LN is het omgekeerde van de functie EXP.
+Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
 
 ```
 LN(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | Het positieve reële getal waarvoor u de natuurlijke logaritme wilt. |
+|  *metric* | The positive real number for which you want the natural logarithm.  |
 
 ## NOT
 
-Retourneert 1 als het getal 0 is of retourneert 0 als een ander getal.
+Returns 1 if the number is 0 or returns 0 if another number.
 
 ```
 NOT(logical)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *logisch* | Vereist. Een waarde of expressie die kan worden geëvalueerd op TRUE of FALSE. |
+|  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
 
-Het gebruik van NOT vereist weten of de expressies (&lt;, >, =, &lt;>, enz.) 0 of 1 waarden retourneren.
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
 
-## Niet gelijk
+## Not equal
 
-Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.
+Returns all items that do not contain the exact match of the value entered.
 
-## Of (rij)
+## Or (Row)
 
-Geeft TRUE terug als een argument TRUE is, of FALSE als alle argumenten FALSE zijn.
+Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
 
 >[!NOTE]
 >
->0 (nul) betekent Onwaar en elke andere waarde is Waar.
+>0 (zero) means False, and any other value is True.
 
 ```
 OR(logical_test1,[logical_test2],...)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *logical_test1* | Vereist. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE. |
-| *logical_test2* | Optioneel. Aanvullende voorwaarden die u als TRUE of FALSE wilt evalueren |
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
 ## Pi
 
-Retourneert de constante PI, 3.14159265358979, nauwkeurig tot 15 cijfers.
+Returns the constant PI, 3.14159265358979, accurate to 15 digits.
 
 ```
 PI()
 ```
 
-De [!DNL PI] functie heeft geen argumenten.
+The [!DNL PI]function has no arguments.
 
-## Stroomregressie: Correlatiecoëfficiënt (tabel)
+## Power regression: Correlation coefficient (Table)
 
-Keert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X] terug.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u met *wilt correleren metrisch_Y*. |
-| *metrisch_Y* | Metrisch die u met *wilt correleren metrisch_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Stroomregressie: Intercept (tabel)
+## Power regression: Intercept (Table)
 
-Keert onderschepping, *b*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X] terug.
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Stroomregressie: voorspeld Y (rij)
+## Power regression: Predicted Y (Row)
 
-Berekent de voorspelde [!DNL y] -waarden ( [!DNL metric_Y] ), op basis van de bekende [!DNL x] -waarden ( [!DNL metric_X] ) met de methode &quot;kleinste vierkantjes&quot; voor het berekenen van de regel die het meest geschikt is voor [!DNL Y = b*X] .
+Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Stroomregressie: helling (tabel)
+## Power regression: Slope (Table)
 
-Keert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X] terug.
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Kwartaalregressie: Correlatiecoëfficiënt (tabel)
+## Quadratic regression: Correlation coefficient (Table)
 
-Keert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y=(a*X+b)] *** terug.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u met *wilt correleren metrisch_Y*. |
-| *metrisch_Y* | Metrisch die u met *wilt correleren metrisch_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Quadratische regressie: Intercept (tabel)
+## Quadratic regression: Intercept (Table)
 
-Keert onderschepping, *b*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y=(a*X+b)]*** terug.
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Quadratische regressie: voorspelde Y (rij)
+## Quadratic regression: Predicted Y (Row)
 
-Berekent de voorspelde [!DNL y] -waarden (metrisch_Y), op basis van de bekende [!DNL x] -waarden (metrisch_X) met de methode met de kleinste vierkantjes voor het berekenen van de best aangepaste regel met [!DNL Y=(a*X+b)] ****.
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_A* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_B* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
-## Kwadratische regressie: helling (tabel)
+## Quadratic regression: Slope (Table)
 
-Keert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en metrisch_Y) voor [!DNL Y=(a*X+b)]*** terug.
+Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Wederkerige regressie: Correlatiecoëfficiënt (tabel)
+## Reciprocal regression: Correlation coefficient (Table)
 
-Keert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X)* en *metrisch_Y*) voor [!DNL Y = a/X+b] terug.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X)* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 CORREL.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u met *wilt correleren metrisch_Y*. |
-| *metrisch_Y* | Metrisch die u met *wilt correleren metrisch_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Wederkerige regressie: Intercept (tabel)
+## Reciprocal regression: Intercept (Table)
 
-Keert onderschepping, *b*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = a/X+b] terug.
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Wederkerige regressie: voorspelde Y (rij)
+## Reciprocal regression: Predicted Y (Row)
 
-Berekent de voorspelde [!DNL y] -waarden (metrisch_Y), op basis van de bekende [!DNL x] -waarden (metrisch_X) met behulp van de methode met de kleinste vierkantjes voor het berekenen van de best aangepaste regel met [!DNL Y = a/X+b] .
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Wederkerige regressie: helling (tabel)
+## Reciprocal regression: Slope (Table)
 
-Keert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = a/X+b] terug.
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch_X* | Metrisch die u als afhankelijke gegevens zou willen aanwijzen. |
-| *metrisch_Y* | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Sinus (rij)
+## Sine (Row)
 
-Geeft als resultaat de sinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+Returns the sine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
 ```
 SIN(metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De hoek in radialen waarvoor u de sinus wilt gebruiken. |
+|  *metric* | The angle in radians for which you want the sine.  |
 
-## T-score
+## T-Score
 
-Alias voor Z-score, d.w.z. de afwijking van het gemiddelde gedeeld door de standaardafwijking
+Alias for Z-Score, namely the deviation from the mean divided by the standard deviation
 
-## T-test
+## T-Test
 
-Voert een t-test uit met t-score van col en n vrijheidsgraden.
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
 
-De handtekening is `t_test( x, n, m )` . Onder, roept het eenvoudig `m*cdf_t(-abs(x),n)`. (Dit is vergelijkbaar met de functie z-test die `m*cdf_z(-abs(x))` uitvoert.
+The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
-Hier is `m` het aantal staarten. `n` is de mate van vrijheid. Dit moeten getallen zijn (constant voor het gehele rapport, d.w.z. niet op rij-voor-rij-basis).
+Here, `m` is the number of tails, and `n` is the degrees of freedom. These should be numbers (constant for the whole report, i.e. not changing on a row by row basis).
 
-`X` is de t-test statistiek en zou vaak een formule (bijvoorbeeld zscore) zijn die op een metrische waarde is gebaseerd en op elke rij wordt geëvalueerd.
+`X` is the t-test statistic, and would often be a formula (e.g. zscore) based on a metric and will be evaluated on every row.
 
-De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien de vrijheidsgraad en het aantal staarten wordt weergegeven.
+The return value is the probability of seeing the test statistic x given the degrees of freedom and number of tails.
 
-**Voorbeelden:**
+**Examples:**
 
-1. Gebruik het om uitschieters te vinden:
+1. Use it to find outliers:
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combineer het met `if` om zeer hoge of lage stuiterende tarieven te negeren, en telbezoeken op alles te tellen:
+1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
    ```
 
-## Raaklijn
+## Tangent
 
-Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+Returns the tangent of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
 ```
 TAN (metric)
 ```
 
-| Argument | Beschrijving |
+|  Argument  | Description  |
 |---|---|
-| *metrisch* | De hoek in radialen waarvoor u de tangens wilt. |
+|  *metric* | The angle in radians for which you want the tangent.  |
 
-## Z-score (rij)
+## Z-Score (Row)
 
-Geeft de Z-score, of de normale score, gebaseerd op een normale distributie. De Z-score is het aantal standaardafwijkingen dat een waarneming van het gemiddelde is. Een Z-score van 0 (nul) betekent dat de score gelijk is aan het gemiddelde. Een Z-score kan positief of negatief zijn en geeft aan of deze boven of onder het gemiddelde ligt en hoeveel standaardafwijkingen er zijn.
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
-De vergelijking voor Z-score is:
+The equation for Z-score is:
 
 ![](assets/z_score.png)
 
-waarbij [!DNL x] de onbewerkte score is, [!DNL μ] het gemiddelde van de populatie is en [!DNL σ] de standaardafwijking van de populatie.
+where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!DNL σ] is the standard deviation of the population.
 
 >[!NOTE]
 >
->[!DNL μ] (mu) en [!DNL σ] (sigma) worden automatisch berekend van metrisch.
+>[!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
 
-Z-score (metrisch)
+Z-score(metric)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B">
  <thead>
   <tr>
    <th colname="col1" class="entry"> Argument </th>
-   <th colname="col2" class="entry"> Beschrijving </th>
+   <th colname="col2" class="entry"> Description </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <i> metrisch </i> </td>
-   <td colname="col2"> <p> Retourneert de waarde van het eerste argument anders dan nul. </p> </td>
+   <td colname="col1"> <i>metric</i> </td>
+   <td colname="col2"> <p> Returns the value of its first non-zero argument. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Z-test
+## Z-Test
 
-Voert een n-tailed Z-test met Z-score van A uit.
+Performs an n-tailed Z-test with Z-score of A.
 
-Retourneert de waarschijnlijkheid dat de huidige rij toevallig in de kolom kan worden weergegeven.
+Returns the probability that the current row could be seen by chance in the column.
 
 >[!NOTE]
 >
->gaat ervan uit dat de waarden normaal worden verdeeld.
+>Assumes that the values are normally distributed.
+
+-->
