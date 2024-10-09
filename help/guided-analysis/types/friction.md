@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 216783872bf4dd26fe2137dffe8994d03193b604
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ tendensen van de Omzetting ](conversion-trends.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één treinstel, waardoor een &quot;forked trechter&quot; ontstaat. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Het is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de trechter. Zie [ de analyse van de frictie van de Trechter ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel/funnel-friction-analysis) in Customer Journey Analytics leerprogramma&#39;s voor een video die verklaart hoe te om trechters te vergelijken.
+   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één treinstel, waardoor een &quot;forked trechter&quot; ontstaat. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Het is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de trechter. Zie [ Kanaal ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) in de leerprogramma&#39;s van de Customer Journey Analytics voor een video die verklaart hoe te om trechters te vergelijken.
 * **[!UICONTROL Counted as]**: Het bereik dat u op de trechter wilt toepassen. De opties zijn [!UICONTROL Sessions] en [!UICONTROL Users] .
    * [!UICONTROL Sessions]: alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
    * [!UICONTROL Users]: alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
