@@ -1,29 +1,33 @@
 ---
-title: Referentie - geavanceerde functies
+title: Geavanceerde functies
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2856'
 ht-degree: 2%
 
 ---
 
-# Referentie - geavanceerde functies
+# Geavanceerde functies
 
-Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** lijst in het paneel van Componenten. Schuif omlaag om de lijst met Geavanceerde functies weer te geven.
+De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de geavanceerde functies en hun definities.
+
+Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** lijst in het paneel van Componenten. Schuif omlaag om de lijst met **[!UICONTROL Advanced functions]** weer te geven.
 
 ## Tabelfuncties versus rijfuncties
 
-Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is. Indien van toepassing en relevant, wordt een functie geannoteerd met het type functie.
+Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
+
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"}[!BADGE  Rij ]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
 Het vertelt of nullen in de berekening moeten worden opgenomen. Soms betekent nul *niets*, maar soms is het belangrijk.
 
-Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen van de Pagina aan het rapport toevoegt, zijn er plotseling meer rijen voor uw opbrengst, die allen nul zijn. U wilt waarschijnlijk niet dat extra metrisch om het even welk [ MEAN ](cm-functions.md#mean), [ MIN ](cm-functions.md#row-min), [ KWALITEIT ](cm-functions.md#quartile), en meer berekeningen te beïnvloeden die u in de opbrengstkolom hebt. In dit geval controleert u de parameter `include-zeros` .
+Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen van de Pagina aan het rapport toevoegt, zijn er plotseling meer rijen voor uw opbrengst, die allen nul zijn. U wilt waarschijnlijk niet dat extra metrisch om het even welke **[MEAN](cm-functions.md#mean)**, **[MINIMUM VAN DE RIJ](cm-functions.md#row-min)**, **[KWALITEIT](cm-functions.md#quartile)**, en meer berekeningen te beïnvloeden die u in de opbrengstkolom hebt. In dit geval controleert u de parameter `include-zeros` .
 
 Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger gemiddelde of een minimum heeft omdat sommige rijen nul zijn.  In dat geval kunt u ervoor kiezen om de parameter niet te controleren en nullen op te nemen.
 
@@ -918,13 +922,13 @@ De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien
 
 **Voorbeelden:**
 
-1. Gebruik het om uitschieters te vinden:
+1. Met de functie kunt u zoeken naar contouren:
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. Combineer het met **[ALS](#if)** om zeer hoge of lage stuittarieven te negeren, en zittingen op alles anders te tellen:
+1. Combineer de functie met **[ALS](#if)** om zeer hoge of lage stuiterende tarieven te negeren, en zittingen op alles anders te tellen:
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )

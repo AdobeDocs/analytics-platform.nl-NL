@@ -1,31 +1,41 @@
 ---
-title: Referentie - basisfuncties
+title: Basisfuncties
 description: Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
 
-# Referentie - basisfuncties
+# Basisfuncties
 
 
-De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen.
-
-Hier volgt een alfabetische lijst van de functies en hun definities.
+De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
 >Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [ MAXIMUM VAN DE KOLOM (metriek) ](#column-maximum) staat ook voor [ MAXIMUM VAN DE KOLOM (PageViews + Visits) ](#column-maximum) toe.
 
 
+
 ## Tabelfuncties versus rijfuncties
 
-Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is. Indien van toepassing en relevant, wordt een functie geannoteerd met het type functie.
+Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
+
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"}[!BADGE  Rij ]{type="Neutral"}
+
+## Wat betekent de parameter include-zeros?
+
+Het vertelt of nullen in de berekening moeten worden opgenomen. Soms betekent nul *niets*, maar soms is het belangrijk.
+
+Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen van de Pagina aan het rapport toevoegt, zijn er plotseling meer rijen voor uw opbrengst, die allen nul zijn. U wilt waarschijnlijk niet dat extra metrisch om het even welke **[MEAN](cm-functions.md#mean)**, **[MINIMUM VAN DE RIJ](cm-functions.md#row-min)**, **[KWALITEIT](cm-functions.md#quartile)**, en meer berekeningen te beïnvloeden die u in de opbrengstkolom hebt. In dit geval controleert u de parameter `include-zeros` .
+
+Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger gemiddelde of een minimum heeft omdat sommige rijen nul zijn.  In dat geval kunt u ervoor kiezen om de parameter niet te controleren en nullen op te nemen
+
 
 
 ## Absolute waarde
