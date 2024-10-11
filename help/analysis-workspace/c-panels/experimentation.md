@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="Experimentatie"
->abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat zal worden geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
+>abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat wordt geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe 
 
 ## Toegangsbeheer {#access}
 
-Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereist de [ eerste vereisten ](#prerequisites) acties die slechts de beheerders kunnen uitvoeren.
+Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
 
 ## Nieuwe functies in berekende metriek
 
@@ -52,6 +52,7 @@ Als u het deelvenster voor experimenten wilt gebruiken, moet u aan de volgende v
 ### Verbinding maken om gegevenssets te experimenteren
 
 Het geadviseerde gegevensschema is voor de proefgegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentele gegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
+
 
 Nadat uw experimentele gegevens [ ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
 
@@ -79,8 +80,6 @@ Een deelvenster **[!UICONTROL Experimentation]** gebruiken:
 
 1. Neem de [ output ](#panel-output) voor het paneel waar.
 
-   ![ het deelvenster Experimentatie sleept in een project.](assets/experiment.png)
-
    >[!IMPORTANT]
    >
    >Als de vereiste instellingen in de gegevensweergaven van de Customer Journey Analytics niet zijn voltooid, ontvangt u dit bericht voordat u verdergaat: [!UICONTROL Please configure the experiment and variant dimensions in Data views] .
@@ -92,13 +91,15 @@ Het deelvenster Experimentatie gebruiken:
 
 1. Configureer de instellingen voor deelvensterinvoer:
 
+   ![ het deelvenster Experimentatie sleept in een project.](assets/experiment-input.png)
+
    | Instelling | Definitie |
    | --- | --- |
    | **[!UICONTROL Date Range]** | Het datumbereik voor het deelvenster Experimentatie wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
    | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste is om in onbeperkte tijd te houden. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Experiment]** en de waarde van het experiment van de laatste drie maanden. |
    | **[!UICONTROL Control variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Variant]** . Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
-   | **[!UICONTROL Success metrics]** | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest gewenste resultaat voor de omzettingsmeting (hoogste of laagste) wordt de &quot;best presterende variant&quot; van een experiment genoemd. U kunt maximaal vijf metriek toevoegen. |
-   | **[!UICONTROL Normalizing metric]** | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als **[!UICONTROL Conversions per session]** of **[!UICONTROL Conversions per person]** . |
+   | **[!UICONTROL Success metrics]** ➊ | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest wenselijke resultaat voor metrische omzetting (of het hoogste of het laagste) wordt verklaard de *best presterende variant* van een experiment. U kunt maximaal vijf metriek toevoegen. |
+   | **[!UICONTROL Normalizing metric]** ➋ | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Schakel deze optie in om boven- en ondergrenzen voor betrouwbaarheidsniveaus weer te geven. |
 
 
@@ -106,17 +107,14 @@ Het deelvenster Experimentatie gebruiken:
 
 ### Deelvensteruitvoer
 
-Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
+Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Bij de bovenkant van het paneel, ](../visualizations/summary-number-change.md) worden de summiere veranderingen van 0} {verstrekt om u aan de paneelmontages te herinneren u selecteerde. [ U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
 
 U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
 
-Voor elk succes wordt metrisch u selecteerde, één vrije lijst en één omzettingstendens getoond.
+Voor elk metrisch succes selecteerde u, wordt de lijst van de a [ vrije vorm ](../visualizations/freeform-table/freeform-table.md) visualisatie en een tarief van de omzettings [ lijn ](../visualizations/line.md) visualisatie getoond.
 
-![ de output van de Experimentatie die één vrije lijst en één trend van de omzettingssnelheid tonen.](assets/exp-output1.png)
+![ de output van de Experimentatie die één vrije lijst en één trend van de omzettingssnelheid tonen.](assets/experiment-output.png)
 
-Het diagram [!UICONTROL Line] geeft u de [!UICONTROL Control] versus [!UICONTROL Control Variant] prestaties:
-
-![ de output van het lijndiagram die Controle tegenover de prestaties van de Variant van de Controle tonen.](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -124,11 +122,11 @@ Het diagram [!UICONTROL Line] geeft u de [!UICONTROL Control] versus [!UICONTROL
 
 #### De resultaten interpreteren
 
-1. **Experiment is overtuigend**: Telkens als u het experimentatierapport bekijkt, worden de gegevens die in het experiment tot dit punt zijn geaccumuleerd geanalyseerd. De analyse verklaart een experiment overtuigend te zijn wanneer het wanneer geldige vertrouwen een drempel van 95% voor *minstens één* van de varianten kruist. Met meer dan twee armen wordt een Benjamini-Hochberg-correctie toegepast om meervoudige hypothesetests te corrigeren.
+1. **Experiment is overtuigend**: Telkens als u het experimentatierapport bekijkt, worden de gegevens die in het experiment tot dit punt zijn geaccumuleerd geanalyseerd. De analyse verklaart een experiment om overtuigend te zijn wanneer *op om het even welk ogenblik* geldig vertrouwen een drempel van 95% voor *minstens één* van de varianten kruist. Met meer dan twee armen wordt een Benjamini-Hochberg-correctie toegepast om meervoudige hypothesetests te corrigeren.
 
-2. **best presterende variant**: Wanneer een experiment wordt verklaard om overtuigend te zijn, wordt de variant met de hoogste omzettingspercentage geëtiketteerd als best presterende variant. Merk op dat deze variant ofwel de besturingsvariant of de basisvariant moet zijn, ofwel een van de varianten die de betrouwbaarheidsdrempel van 95% overschrijdt (met Benjamini-Hochberg correcties toegepast).
+2. **best presterende variant**: Wanneer een experiment wordt verklaard om overtuigend te zijn, wordt de variant met de hoogste omzettingspercentage geëtiketteerd als best presterende variant. Merk op dat deze variant of de controle of basislijnvariant moet zijn, of één van de varianten die de 95% *op elk ogenblik* geldige betrouwbaarheidsdrempel (met toegepaste correcties Benjamini-Hochberg) kruisen.
 
-3. **het tarief van de Omzetting**: De omzettingspercentage dat wordt getoond is een verhouding van de succes metrische waarde aan het normaliseren van metrische waarde. Merk op dat deze waarde soms groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
+3. **het tarief van de Omzetting**: De omzettingspercentage dat wordt getoond is een verhouding van de succes metrische waarde ➊ aan het normaliseren metrische ➋. Merk op dat deze waarde groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
 
 4. **Lift**: De samenvatting van het Experimentenrapport toont het Lift over Basislijn, die een maatregel van de percentageverbetering in de omzettingssnelheid van een bepaalde variant over de basislijn is. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 

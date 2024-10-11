@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De volgende informatie beschrijft de montages die een component van de gegevensm
 | [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |
 | [!UICONTROL Description] | Optioneel, maar aanbevolen. Verstrekt informatie over de component aan andere gebruikers. |
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
-| [!UICONTROL Context labels] | Optioneel. Een vervolgkeuzelijst met beschikbare door het systeem gedefinieerde labels die op een component kunnen worden toegepast. Deze labels kunnen nodig zijn om een set componenten te definiëren die worden gebruikt voor rapportage in Analysis Workspace-projecten of -deelvensters. |
+| [!UICONTROL Context labels] | Optioneel. Een vervolgkeuzelijst met beschikbare door het systeem gedefinieerde labels die op een component kunnen worden toegepast. Deze etiketten kunnen worden vereist om een reeks componenten te bepalen u in experimenteren het melden gebruikend het [ paneel van de Ervaring ](/help/analysis-workspace/c-panels/experimentation.md) in de projecten van Analysis Workspace kunt gebruiken. Zie [ met Journey Optimizer ](/help/integrations/ajo.md#data-view) integreren en [ Doel die ](/help/integrations/at.md) voor meer informatie melden. |
 | [!UICONTROL Schema field name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |
