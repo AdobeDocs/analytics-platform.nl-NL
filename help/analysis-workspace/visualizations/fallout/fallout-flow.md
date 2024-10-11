@@ -4,9 +4,9 @@ title: Informatie over uitvalrapporten en visualisaties
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 02055bd9e6c7bb7b909d6ac0e3822a98ff147443
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL F
 
 +++
 
-Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Met uitvalvisualisaties kunt u:
+Met uitvalvisualisaties kunt u:
 
 * Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.
 * Taalstappen (aanraakpunten) slepen en neerzetten (en opnieuw rangschikken).
@@ -45,11 +45,31 @@ Bij Uitvallen worden de conversie- en uitvalsnelheden tussen elke stap of elk aa
 
 U kunt bijvoorbeeld de uitvalpunten van een persoon bijhouden tijdens een aankoopproces. Selecteer gewoon een begin- en een eindaanraakpunt en voeg tussenliggende aanraakpunten toe om een websitenavigatiepad te maken. Maar je kunt ook multidimensionale fallouts doen.
 
-Een fallout-visualisatie is handig voor het analyseren van:
+## Kies tussen de visualisaties voor Fallout-, Flow- en Reiscanvas
+
+De visualisatie van de Uitval heeft gelijkenissen met de [ visualisatie van de Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md) en de [ visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).
+
+### De verschillen begrijpen
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### Wanneer gebruikt u Fallout
+
+Zowel zijn de Uitval als ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) visualisaties van het canvas van 0} de Reis nuttig om te analyseren:[
 
 * Conversiepercentages via specifieke processen op uw site (zoals een aankoop- of registratieproces).
 * Algemene, bredere verkeersstromen: Van de mensen die de homepage bezochten, toont deze stroom hoeveel een onderzoek uitvoerden. En hoeveel van hen bekeken uiteindelijk een specifiek item.
 * Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
+
+Vallout-visualisaties zijn het meest geschikt voor:
+
+* Fallout-analyse met ritten met een vooraf gedefinieerde reeks pagina&#39;s en één ingangspunt en pad. (Gebruik het canvas Reis voor reizen met meerdere toegangspunten en paden.)
+
+* Reizen waarbij u vergelijkingen van twee verschillende filters naast elkaar in hetzelfde rapport moet uitvoeren.
+
+Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen het canvas van de Reis, Vallout, en de visualisaties van de Stroom te begrijpen.
 
 >[!MORELIKETHIS]
 >

@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -82,32 +82,31 @@ Hier volgen enkele voorbeelden van andere inzichten die Journey canvas kan helpe
 
 * Voeg een afbraakdimensie op om het even welk knooppunt van de reis toe om extra gegevens voor die specifieke knoop te bekijken
 
-## Kiezen tussen de visualisaties voor het canvas en de valklare taal
+## Kiezen tussen de visualisaties voor het canvas, Fallout of Flow
 
-De visualisaties van het canvas van de reis zijn gelijkaardig aan [ Vallout visualizations ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), in die beide visualisaties tonen waar de personen verlieten (vielen uit) en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s verder gingen.
-
-Er zijn echter belangrijke verschillen.
+De visualisatie van het canvas van de Reis heeft gelijkenissen met de [ visualisatie van de Uitval ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) en de [ visualisatie van de Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md), maar met belangrijke verschillen.
 
 ### De verschillen begrijpen
 
-In de volgende tabel worden de typen analyses weergegeven die worden ondersteund in de visualisatie van het canvas Journey en in de visualisatie van de uitvalfunctie:
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
-| Functie | Reiscanvasvisualisatie | Uitvalvisualisatie |
-|---------|----------|---------|
-| Lineaire reizen | Ja | Ja |
-| Niet-lineaire ritten met meerdere toegangspunten en paden | Ja | Nee |
-| Adobe Journey Optimizer-reizen | Ja | Nee |
-| Primair metrisch | Elke metrische waarde, inclusief berekende metriek | Alleen de afmetingen van de sessie of gebruiker kunnen worden gebruikt |
-| Secundair metrisch | Ja<p>Elke metrische waarde, inclusief berekende metriek</p> | Nee |
-| Filters vergelijken | Nee | Ja<p>Vergelijk een [ onbeperkt aantal filters ](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#compare-filters-in-fallout)</p> |
+{{journey-visualization-comparisons}}
 
-### Kies welke visualisatie u wilt gebruiken
+### Wanneer gebruikt u het canvas Reisweg
 
-Alvorens u tussen het gebruiken van het canvas van de Reis of Vallout kiest, zorg ervoor u [ de verschillen tussen twee ](#understand-the-differences) begrijpt.
+Reiscanvas is essentieel voor:
 
-Als uw reserveanalyse slechts een lineaire reis impliceert die één enkel bekend begin en eind heeft, denk na gebruikend visualisatie van de a [ Vallout ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) als eenvoudigere optie voor deze meer eenvoudige gebruikersreizen.
+* Fallout-analyse met ritten met meerdere toegangspunten en -paden.
 
-Reiscanvas is van essentieel belang voor een valanalyse waarbij reizen met meerdere toegangspunten en -paden worden gemaakt, of voor het analyseren van reizen die in Journey Optimizer zijn gemaakt.
+* Niet-lineaire ritten met meerdere ingangspunten en paden, met een vooraf gedefinieerde reeks pagina&#39;s.
+
+* Verkennende, ad-hocanalyse die op een vooraf bepaalde reis gebaseerd is.
+
+* Analyse die primaire metrisch behalve Zitting, Persoon, of Voorkomen vereist.
+
+* Een grondiger analyse van de reizen die van oorsprong zijn uit Adobe Journey Optimizer.
+
+Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen het canvas van de Reis, Vallout, en de visualisaties van de Stroom te begrijpen.
 
 ## Journey Optimizer-reizen analyseren
 

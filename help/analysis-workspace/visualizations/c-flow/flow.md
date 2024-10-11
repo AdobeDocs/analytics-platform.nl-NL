@@ -4,9 +4,9 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,22 @@ Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een d
 >[ vorm een stroomvisualisatie ](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
+## Kies tussen de visualisaties voor vloeiend, uitvalbaar of reiscanvas
+
+De visualisatie van de Stroom heeft gelijkenissen met de [ visualisatie van de Uitval ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) en de [ visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), maar met belangrijke verschillen.
+
+### De verschillen begrijpen
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### Wanneer gebruikt u Stroom
+
+Stroomvisualisaties zijn het meest geschikt voor:
+
+* Verkennende, ad-hocanalyse voor het onmiddellijke volgende aanraakpunt op het pad. (Gebruik het canvas Reis voor reizen met een vooraf gedefinieerde reeks pagina&#39;s of voor reizen met een uiteindelijk pad.)
+
+* Niet-lineaire ritten met meerdere toegangspunten en paden. (Gebruik het canvas Reis voor reizen met een vooraf gedefinieerde reeks pagina&#39;s.)
+
+Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen Stroom, Vallout, en het canvas van de Reis te begrijpen.
