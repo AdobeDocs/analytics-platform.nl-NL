@@ -1,5 +1,5 @@
 ---
-source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
+source-git-commit: a6f543d3b6aab06593d9fa40a5d3d6bbf4aa7c32
 workflow-type: tm+mt
 source-wordcount: '3955'
 ht-degree: 0%
@@ -236,14 +236,15 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | Functie | Reiscanvas | Fallout | Stroom |
 |---------|----------|---------|---------|
 | **Vooraf bepaalde opeenvolging van pagina&#39;s** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Ja </br> de weg kan een uiteindelijke weg zijn of kan aan volgende aanraakpunt worden beperkt | Nee |
-| **Verkennende opeenvolging van pagina&#39;s (ad hoc analyse)** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Beperkt </br> staat u toe om directe reserve in een lijst van de Vrije vorm met de rechtermuisknop aan te klikken en te bekijken. | Ja </br> Verkennende slechts analyse. Elke knoop toont directe (niet uiteindelijke) volgende aanraakpunt langs de weg. |
+| **Verkennende opeenvolging van pagina&#39;s (ad hoc analyse)** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Beperkt </br> staat u toe om directe reserve in een lijst van de Vrije vorm met de rechtermuisknop aan te klikken en te bekijken. | Ja </br> Verkennende slechts analyse. Altijd binnen één afmetingsinstantie tussen knooppunten. Dit betekent dat elk knooppunt het directe (niet uiteindelijke) volgende aanraakpunt langs het pad weergeeft. |
 | **toont waar de mensen weggingen (uit vielen) en door (door vielen) werden voortgezet** | Ja </br> toont voor zowel vooraf bepaalde als verkennende reizen | Ja </br> toont vooraf bepaalde reizen | Ja </br> toont voor verkennende reizen |
 | **Lineaire reizen** | Ja | Ja | Nee |
 | **niet-lineaire reizen met veelvoudige ingangspunten en wegen** | Ja | Nee | Ja |
-| **Primaire metrisch** | Elke metrische waarde, inclusief berekende metriek | Alleen sessie of persoon | Alleen voorvallen |
+| **Primaire metrisch** | Elke metrische waarde, inclusief berekende metriek | Alleen sessie of persoon | Alleen voorkomen (padweergaven) |
 | **Secundaire metrische** | Ja<p>Elke metrische waarde, inclusief berekende metriek</p> | Nee | Nee |
-| **de steun van de Component in knopen of touchpoints** | Elke component voor alle knooppunten, inclusief metriek, berekende metriek, afmetingen, dimensiepunten, filters en datumbereiken. | Elke component voor alle knooppunten, inclusief metriek, berekende metriek, afmetingen, dimensiepunten, filters en datumbereiken. | Alleen afmetingsitems (behalve het begin- en eindpunt) |
+| **de steun van de Component in knopen of touchpoints** | Metriek, afmetingsitems, filters en datumbereiken. | Metriek, afmetingsitems, filters en datumbereiken. | Alleen afmetingsitems (behalve het begin- en eindpunt) |
 | **vergelijk filters** | Nee | Ja<p>Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.</p> | Nee |
+| **belemmering-en-dalingscomponenteninteractie** | Ja | Ja | Nee |
 | **reizen van Adobe Journey Optimizer** | Ja </br> Open reizen van Journey Optimizer voor diepere analyse en aanpassing | Nee | Nee |
 
 {style="table-layout:auto"}
