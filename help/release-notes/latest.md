@@ -3,7 +3,7 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 5f4c24f624c5cd22f1a440a4acfb4307960f6d1c
+source-git-commit: 68bdee0cfc0a8a6718ea16cfdaea407c3c8c6e0b
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (oktober 2024)
 
-**Laatste update**: 9 Oktober, 2024
+**Laatste update**: 15 oktober 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 2 oktober 2024 tot 22 oktober 2024. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,11 +20,11 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 2 oktober 2024 tot 2
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Overdracht van Activa** | Laat u eigendom van componenten zoals projecten, filters, en berekende metriek aan andere gebruikers overbrengen om continuïteit en aangewezen toegang te verzekeren. [Meer informatie](/help/tools/asset-transfer/transfer-assets.md) |  | Oktober 15 |
 | **Geleide analyse: Sluit in Workspace** in | [ Geleide analyse ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview) is nu beschikbaar direct in Analysis Workspace, toelatend gebruikers om dashboards met uitvoerige inzichten van panelen, visualisaties, en geleide analyses tot stand te brengen. Vanuit een nieuw linkerspoor kunt u nieuwe geleide analyses maken die u aan uw projecten kunt toevoegen. U kunt ook toegang krijgen tot opgeslagen analyses met instructies die opnieuw kunnen worden gebruikt als bouwstenen voor veel projecten. | donderdag 2 oktober 2024 | vrijdag 31 oktober 2024 |
 | **het gebruik van het Product** | Zie hoe uw organisatie Customer Journey Analytics gebruikt. Als u deze functie inschakelt, wordt in Adobe Experience Platform een gegevensset gemaakt die gegevens verzamelt wanneer iedereen in uw organisatie Analysis Workspace gebruikt. Er worden ook automatisch een verbinding en een gegevensweergave gemaakt, zodat u toegang hebt tot dimensies zoals de meest actieve projecttypen, de meest gebruikte gebruikers en de meest populaire componenten die in projecten worden gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | donderdag 23 oktober 2024 | januari 2025 |
 | **visualisatie van het canvas van de Reis** | Het canvas van de reis is een visualisatie in de werkruimte van de Analyse die u toestaat om te analyseren hoe de mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt.<p>Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande Journey Optimizer-reizen analyseren.<p>Meer over het canvas van de Reis leren, zie [ Overzicht van het canvas van de Reis ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas).<p>Leren hoe te om een visualisatie van het canvas van de Reis te bouwen, zie [ het canvas van de Reis ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) vormen. | donderdag 2 oktober 2024 | dinsdag 14 oktober 2024 |
 | **de filters van het Comité en de kolomfilters zijn nu inbegrepen wanneer het creëren van een publiek** | Wanneer u een publiek maakt op basis van een visualisatie in Analysis Workspace, worden deelvensterfilters en kolomfilters nu toegevoegd als aanvullende criteria. Als de filters niet nodig zijn, kunnen ze worden verwijderd voordat het publiek wordt gepubliceerd. Eerder werden filters die op het deelvenster of op de kolom van een visualisatie in Analysis Workspace waren toegepast, genegeerd tijdens het maken van een publiek.<p>Voor informatie over hoe te om een publiek van Customer Journey Analytics tot stand te brengen, zie [ publiek creëren en publiceren ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish). |  | donderdag 2 oktober 2024 |
-| **Overdracht van Activa** | Laat u eigendom van componenten zoals projecten, filters, en berekende metriek aan andere gebruikers overbrengen om continuïteit en aangewezen toegang te verzekeren. | Oktober 15 | Oktober 22 |
 
 ## Oplossingen in Customer Journey Analytics
 

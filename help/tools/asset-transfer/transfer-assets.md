@@ -3,10 +3,10 @@ title: Overdrachtsmiddelen
 description: Leer hoe u componenten van de ene gebruiker naar de andere kunt overbrengen
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: faa9545fa3928a19aeaaf7285a9643e7dc253cea
+source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: '531'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Assets is vaak gebonden aan een individuele eigenaar en kan in sommige gevallen,
 
 ## Machtigingen
 
-Voor de overdracht van bedrijfsmiddelen zijn bevoegdheden van de productbeheerder vereist voor de Customer Journey Analytics.
+Voor de overdracht van bedrijfsmiddelen is de toestemming van de productbeheerder vereist voor de Customer Journey Analytics.
 
 ## Overdrachtsmiddelen
 
@@ -44,7 +44,14 @@ Voor de overdracht van bedrijfsmiddelen zijn bevoegdheden van de productbeheerde
 
 1. Doorloop nu elke componentmap in de linkernavigatie om afzonderlijke componenten of alle elementen in een map te selecteren die u wilt overbrengen.
 
-   Houd er rekening mee dat bij het overdragen van middelen van een beheerder naar een andere beheerder de ontvanger niet wordt geüpgraded naar een beheerder.
+   >[!NOTE]
+   >
+   >Als u elementen van een beheerder naar een andere beheerder overbrengt, wordt de ontvanger niet bijgewerkt naar een beheerder.
+
+
+   >[!NOTE]
+   >
+   >    Wanneer het overbrengen van activa die andere componenten van verwijzingen voorzien (bijvoorbeeld, projecten die andere filters en berekende metriek van verwijzingen voorzien), zullen de componenten niet die door de huidige eigenaar van het project worden bezeten slechts met de ontvanger worden gedeeld. De eigendom van alle andere componenten wordt overgedragen aan de ontvanger.
 
 1. Om _alle_ activa in een omslag te selecteren, controleer het vakje naast **[!UICONTROL Name]** bij de bovenkant van de lijst.
 
@@ -58,17 +65,31 @@ Voor de overdracht van bedrijfsmiddelen zijn bevoegdheden van de productbeheerde
    >
    >Sluit het scherm niet tijdens de overdracht om abortus van het proces te voorkomen. Dit zorgt voor een vloeiende overdrachtservaring.
 
+## Overdrachtsresultaten
+
+Er zijn drie mogelijke resultaten voor een overdracht:
+
+- **succes van de Overdracht**: &quot;Assets bracht met succes over.&quot;
+
+- **Gedeeltelijk succes**: &quot;Sommige activa werden met succes overgebracht.&quot;
+
+- **de mislukking van de Overdracht**: &quot;Slaagde er niet in om activa over te brengen. Probeer het opnieuw.&quot;
+
 ## Assets overbrengen tijdens upgrade van Adobe Analytics naar Customer Journey Analytics
 
 Een van de belangrijkste gevallen van overdracht van activa is tijdens de upgrade van Adobe Analytics naar Customer Journey Analytics.
 
 De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in de Customer Journey Analytics en de ontvangende beheerder heeft al die componenten, ongeacht wie ze heeft gemaakt.
 
-Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aan hun rechtmatige eigenaars opnieuw toewijzen.
+Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aan hun rechtmatige eigenaars opnieuw toewijzen, of zij of niet worden beheerd.
+
+>[!IMPORTANT]
+>
+>Terwijl u componenten kunt overbrengen gebruikend dit hulpmiddel, moet u als admin nog ervoor zorgen dat de ontvanger toegang tot de gegevensmeningen heeft die worden vereist om deze componenten te bekijken/te gebruiken. U kunt toestemmingen in de [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) bekijken en toewijzen.
 
 ## Exporteren naar CSV
 
-U kunt een lijst met elementen exporteren die van de ene gebruiker naar een andere gebruiker zijn overgebracht naar een CSV-bestand.
+Met de optie **[!UICONTROL Export to CSV]** kunnen beheerders alleen een lijst met gebruikers downloaden die wordt weergegeven in een CSV-bestand. Ze kunnen geen lijst met overgedragen elementen exporteren naar een CSV-bestand.
 
 <!---## Unknown users
 
