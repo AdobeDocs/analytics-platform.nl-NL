@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
+source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 
 
-In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaring, marketing of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
+In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
 
 Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
 
@@ -41,9 +41,9 @@ Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe 
 
 Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
 
-## Nieuwe functies in berekende metriek
+## Functies in berekende metriek
 
-Er zijn twee nieuwe geavanceerde functies toegevoegd: Lift and Trust. Voor meer informatie, zie [ Verwijzing - geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md).
+Er zijn twee geavanceerde functies beschikbaar: Optillen en Vertrouwen. Voor meer informatie, zie [ Verwijzing - geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md).
 
 ## Vereisten
 
@@ -51,10 +51,10 @@ Als u het deelvenster voor experimenten wilt gebruiken, moet u aan de volgende v
 
 ### Verbinding maken om gegevenssets te experimenteren
 
-Het geadviseerde gegevensschema is voor de proefgegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentele gegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
+Het geadviseerde gegevensschema is voor de experimentatiegegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentatiegegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
 
 
-Nadat uw experimentele gegevens [ ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
+Nadat uw experimentatiegegevens [ ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
 
 ### Contextlabels toevoegen in gegevensweergaven
 
@@ -63,7 +63,7 @@ In de montages van de gegevensmeningen van de Customer Journey Analytics, kunnen
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
 
-In uw gegevensmening die experimentatiegegevens bevat, kies twee afmeting, één met de experimentatiegegevens en één met de variantgegevens. Vervolgens geeft u die afmetingen het label **[!UICONTROL Experimentation Experiment]** en **[!UICONTROL Experimentation Variant]** .
+Kies in de gegevensweergave die experimentatiegegevens bevat twee dimensies, één met de experimentatiegegevens en één met de variantgegevens. Vervolgens geeft u die afmetingen het label **[!UICONTROL Experimentation Experiment]** en **[!UICONTROL Experimentation Variant]** .
 
 ![ de etiketopties van de context voor Experimentatie en Variant van de Experimentatie.](assets/context-label.png)
 
@@ -91,12 +91,12 @@ Het deelvenster Experimentatie gebruiken:
 
 1. Configureer de instellingen voor deelvensterinvoer:
 
-   ![ het deelvenster Experimentatie sleept in een project.](assets/experiment-input.png)
+   ![ het paneel van de Experimentatie sleepte in een project.](assets/experiment-input.png)
 
    | Instelling | Definitie |
    | --- | --- |
    | **[!UICONTROL Date Range]** | Het datumbereik voor het deelvenster Experimentatie wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
-   | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste is om in onbeperkte tijd te houden. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Experiment]** en de waarde van het experiment van de laatste drie maanden. |
+   | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste is om in onbeperkte tijd te houden. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling wordt vooraf gevuld met de afmetingen die in de gegevensweergave zijn gelabeld met het label **[!UICONTROL Experiment]** en de waarde van de experimentele gegevens voor de laatste drie maanden. |
    | **[!UICONTROL Control variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Variant]** . Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
    | **[!UICONTROL Success metrics]** ➊ | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest wenselijke resultaat voor metrische omzetting (of het hoogste of het laagste) wordt verklaard de *best presterende variant* van een experiment. U kunt maximaal vijf metriek toevoegen. |
    | **[!UICONTROL Normalizing metric]** ➋ | De basis ([!UICONTROL People], [!UICONTROL Sessions], of [!UICONTROL Events]) waarop een test wordt uitgevoerd. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave |

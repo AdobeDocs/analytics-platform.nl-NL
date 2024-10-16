@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
+source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt. Het stelt je in staat om een reis helemaal vanaf het begin te definiëren of een reis vanuit Journey Optimizer te bekijken, dan te zien hoe mensen de reis hebben verlaten (verlaten) of doorgezet (doorheen).
 
-U kunt [ analyses van gebruikersreizen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) bouwen door om het even welke combinatie gebeurtenissen, afmetingspunten, filters, en datumwaaiers te gebruiken om reisknopen tot stand te brengen. Verbind de knopen om de stroom van de reis tot stand te brengen, en veelvoudige wegen en beslissingspunten te omvatten. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Gegevens worden realtime bijgewerkt terwijl u wijzigingen aanbrengt.
+U kunt [ analyses van gebruikersreizen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) bouwen door om het even welke combinatie gebeurtenissen, afmetingspunten, filters, en datumwaaiers te gebruiken om reisknopen tot stand te brengen. Verbind de knopen om de stroom van de reis tot stand te brengen, en veelvoudige wegen en beslissingspunten te omvatten. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Gegevens worden in real-time bijgewerkt wanneer u wijzigingen aanbrengt.
 
 [ Knooppunten worden verbonden ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) als &quot;uiteindelijke weg,&quot;zo betekent het dat de bezoekers worden geteld zolang zij uiteindelijk van één knoop aan andere, ongeacht om het even welke gebeurtenissen zich tussen de 2 knopen voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling.
 
@@ -33,7 +33,7 @@ De belangrijkste kenmerken van de visualisatie van het canvas Journey zijn:
 
 * Interacties voor slepen en neerzetten om componenten aan het canvas toe te voegen en bestaande knooppunten te verplaatsen.
 
-* De optie om analyses van gebruikersreizen binnen het canvas van de Reis te bouwen of hen automatisch tot stand te brengen die op de reizen van Journey Optimizer worden gebaseerd.
+* De optie om analyses van gebruikersreizen binnen het canvas van de Reis te bouwen of hen tot stand te brengen automatisch gebaseerd op de reizen van Journey Optimizer.
 
 ## Potentiële inzichten
 
