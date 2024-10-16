@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 1a0422144b795be7f129b13208e93f8d3645a8e7
+source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -218,24 +218,17 @@ ht-degree: 11%
 
 + Analyse met instructies {#guided-analysis}
    + [Overzicht](../guided-analysis/overview.md)
-   + Matrix met functies {#feature-matrix}
-      + [Betrokkenheid](../guided-analysis/types/engagement.md)
-   + Trechter {#funnel}
-      + [Wrijvingsweergave](../guided-analysis/types/friction.md)
-      + [Conversietrends, weergave](../guided-analysis/types/conversion-trends.md)
-   + Effect {#impact}
-      + [Weergave opheffen](../guided-analysis/types/release.md)
-      + [Weergave voor eerste gebruik](../guided-analysis/types/first-use.md)
-   + Bewaren {#retention}
-      + [Bewaarpercentages](../guided-analysis/types/retention-rates.md)
-   + Trends {#trends}
-      + [Gebruiksweergave](../guided-analysis/types/usage.md)
-      + [Frequentieweergave](../guided-analysis/types/frequency.md)
-   + Groei van gebruikers {#user-growth}
-      + [Actieve weergave](../guided-analysis/types/active.md)
-      + [Netto-groeiweergave](../guided-analysis/types/net-growth.md)
-   + Gebruikersstroom {#streams}
-      + [Tijdlijn](../guided-analysis/types/timeline.md)
+   + [Actieve groei](../guided-analysis/types/active-growth.md)
+   + [Conversietrends](../guided-analysis/types/conversion-trends.md)
+   + [Betrokkenheid](../guided-analysis/types/engagement.md)
+   + [Effect voor eerste gebruik](../guided-analysis/types/first-use-impact.md)
+   + [Frequentie](../guided-analysis/types/frequency.md)
+   + [Trechter](../guided-analysis/types/funnel.md)
+   + [Netto groei](../guided-analysis/types/net-growth.md)
+   + [Geen effect](../guided-analysis/types/release-impact.md)
+   + [Bewaren](../guided-analysis/types/retention.md)
+   + [Tijdlijn](../guided-analysis/types/timeline.md)
+   + [Trends](../guided-analysis/types/trends.md)
    + [Industriële gebruiksgevallen](../guided-analysis/industry-use-cases.md)
    + [Veelgestelde vragen](../guided-analysis/faq.md)
 

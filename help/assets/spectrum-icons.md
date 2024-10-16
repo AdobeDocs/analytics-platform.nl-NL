@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 hide: true
 hide-from-toc: true
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1954'
 ht-degree: 2%
 
 ---
@@ -408,7 +408,6 @@ Kijk [ pagina van Wiki ](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Voorspelling | `![Forecast](/help/assets/icons/Forecast.svg)` | ![ Voorspelling ](/help/assets/icons/Forecast.svg) |
 | Formulier | `![Form](/help/assets/icons/Form.svg)` | ![ Vorm ](/help/assets/icons/Form.svg) |
 | Doorsturen | `![Forward](/help/assets/icons/Forward.svg)` | ![ vooruit ](/help/assets/icons/Forward.svg) |
-| Frequentie | `![Frequency](/help/assets/icons/Frequency.svg)` | ![ Frequentie ](/help/assets/icons/Frequency.svg) |
 | FullScreen | `![FullScreen](/help/assets/icons/FullScreen.svg)` | ![ FullScreen ](/help/assets/icons/FullScreen.svg) |
 | FullScreenExit | `![FullScreenExit](/help/assets/icons/FullScreenExit.svg)` | ![ FullScreenExit ](/help/assets/icons/FullScreenExit.svg) |
 | Functie | `![Function](/help/assets/icons/Function.svg)` | ![ Functie ](/help/assets/icons/Function.svg) |
@@ -706,6 +705,7 @@ Kijk [ pagina van Wiki ](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Vereist | `![Required](/help/assets/icons/Required.svg)` | ![ Vereist ](/help/assets/icons/Required.svg) |
 | Formaat wijzigen | `![Resize](/help/assets/icons/Resize.svg)` | ![ Resize ](/help/assets/icons/Resize.svg) |
 | ResolvedComment | `![ResolvedComment](/help/assets/icons/ResolvedComment.svg)` | ![ ResolvedComment ](/help/assets/icons/ResolvedComment.svg) |
+| Bewaren | `![Retention](/help/assets/icons/Retention.svg)` | ![ Behoud ](/help/assets/icons/Retention.svg) |
 | RetretentieRates | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![ RetenceRates ](/help/assets/icons/RetentionRates.svg) |
 | Retweet | `![Retweet](/help/assets/icons/Retweet.svg)` | ![ retweet ](/help/assets/icons/Retweet.svg) |
 | Hergebruik | `![Reuse](/help/assets/icons/Reuse.svg)` | ![ hergebruik ](/help/assets/icons/Reuse.svg) |
@@ -918,7 +918,6 @@ Kijk [ pagina van Wiki ](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | UnresolvedComment | `![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)` | ![ UnresolvedComment ](/help/assets/icons/UnresolvedComment.svg) |
 | UploadToCloud | `![UploadToCloud](/help/assets/icons/UploadToCloud.svg)` | ![ UploadToCloud ](/help/assets/icons/UploadToCloud.svg) |
 | UploadToCloudOutline | `![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)` | ![ UploadToCloudOutline ](/help/assets/icons/UploadToCloudOutline.svg) |
-| Gebruik | `![Usage](/help/assets/icons/Usage.svg)` | ![ Gebruik ](/help/assets/icons/Usage.svg) |
 | Gebruiker | `![User](/help/assets/icons/User.svg)` | ![ Gebruiker ](/help/assets/icons/User.svg) |
 | UserActivity | `![UserActivity](/help/assets/icons/UserActivity.svg)` | ![ UserActivity ](/help/assets/icons/UserActivity.svg) |
 | UserAdd | `![UserAdd](/help/assets/icons/UserAdd.svg)` | ![ UserAdd ](/help/assets/icons/UserAdd.svg) |

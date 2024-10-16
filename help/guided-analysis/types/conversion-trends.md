@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Conversion trends] weergave
 
-De **[!UICONTROL Conversion trends]** de weergave biedt een trendmatige visualisatie van de conversiekoersen in de loop der tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
+De ![ mening van de Trends van de Omzetting ](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
@@ -22,35 +22,35 @@ De **[!UICONTROL Conversion trends]** de weergave biedt een trendmatige visualis
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **Optimalisatie-inspanningen bijhouden**: Na het identificeren van de belangrijkste knelpunten die u wilt verbeteren gebruiken [Wrijving](friction.md)kunt u deze weergave gebruiken om te volgen hoe deze optimalisaties de conversiesnelheid in de loop der tijd beïnvloeden.
-* **A/B-testevaluatie**: De doeltreffendheid van A/B-tests of -experimenten die in de context van een trechter worden uitgevoerd, evalueren. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
-* **Campagneevaluatie in de loop der tijd**: De doeltreffendheid van marketingcampagnes in de loop der tijd meten. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
+* **de optimaliseringsinspanningen van het Spoor**: Na het identificeren van zeer belangrijke knelpunten die u het gebruiken van [ Wrijving ](funnel.md) wilt verbeteren, kunt u deze mening gebruiken om te volgen hoe die optimalisaties omrekeningskoers in tijd beïnvloeden.
+* **A/B testende evaluatie**: Evalueer de doeltreffendheid van tests A/B of experimenten die binnen de context van een trechter worden uitgevoerd. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
+* **de evaluatie van de Campagne in tijd**: Meet de doeltreffendheid van marketing campagnes in tijd. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
 
 ## Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Wrijving](friction.md).
+* **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ Wrijving ](funnel.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Users] en [!UICONTROL Sessions].
-* **[!UICONTROL Segments]**: De segmenten waar u de trechter doorheen wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Users] en [!UICONTROL Sessions] .
+* **[!UICONTROL Segments]**: De segmenten waarin u de trechter wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ## Diagraminstellingen
 
-De [!UICONTROL Conversion trends] de weergave biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
+De weergave [!UICONTROL Conversion trends] biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
-* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties omvatten [!UICONTROL Line].
-* **[!UICONTROL Conversion from]**: Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step].
+* **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties zijn [!UICONTROL Line] .
+* **[!UICONTROL Conversion from]** - Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step] berekenen.
 
 >[!NOTE]
 >
->De **Gemiddeld** de kolom in de de meningslijst van de tendensen van de Omzetting verschilt van **Totaal** in de [Wrijvingsweergave](friction.md) tabel. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
+>De **Gemiddelde** kolom in de de meningslijst van de tendensen van de Omzetting verschilt van de **Totale** kolom in de [ mening van de Wrijving ](funnel.md) lijst. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
 
 ## Tijdvergelijking
 
 {{apply-time-comparison}}
 
-![Conversietrends tijdvergelijking](../assets/conversion-trends-compare.png){style="border:1px solid gray"}
+![ de tendensen van de Omzetting tijdvergelijking ](../assets/conversion-trends-compare.png){style="border:1px solid gray"}
 
 ## Datumbereik
 

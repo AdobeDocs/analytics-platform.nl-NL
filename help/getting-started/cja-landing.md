@@ -4,7 +4,7 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 2%
@@ -142,7 +142,7 @@ Begrijp hoe de Customer Journey Analytics met Adobe Analytics vergelijkt. En hoe
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong> Geleide Analyse </strong><br/> <a href="/help/guided-analysis/overview.md"> Overzicht </a> - <a href="/help/guided-analysis/types/active.md"> de Groei van de Gebruiker </a> - <a href="/help/guided-analysis/types/usage.md"> Trends </a> - <a href="/help/guided-analysis/types/friction.md"> Trechter </a> - <a href="/help/guided-analysis/types/release.md"> Effect </a> - <a href="/help/guided-analysis/industry-use-cases.md"> het gebruikscase van de Industrie </a>
+      <strong> Geleide Analyse </strong><br/> <a href="/help/guided-analysis/overview.md"> Overzicht </a> - <a href="/help/guided-analysis/types/active-growth.md"> de Groei van de Gebruiker </a> - <a href="/help/guided-analysis/types/trends.md"> Trends </a> - <a href="/help/guided-analysis/types/funnel.md"> Trechter </a> - <a href="/help/guided-analysis/types/release-impact.md"> Effect </a> - <a href="/help/guided-analysis/industry-use-cases.md"> het gebruikscase van de Industrie </a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>

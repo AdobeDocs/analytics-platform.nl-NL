@@ -5,9 +5,9 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6497a73aaf7ab7ab597d7a9b00315d126ce402f8
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Met een analyse met instructies kunnen gebruikers, van marketing tot product tot
 
 De volgende analyses met instructies zijn beschikbaar:
 
-| Analyse | Beschrijving |
-| --- | --- |
-| [ Actieve groei ](types/active.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
-| [ trends van de Omzetting ](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
-| [Engagement](types/engagement.md) | Begrijp de breedte en diepte van eigenschapbetrokkenheid. |
-| [ Eerste gebruikeffect ](types/first-use.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
-| [ Frequentie ](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
-| [ Trechter ](types/friction.md) | Vergelijk de conversiesnelheden tussen de stappen. |
-| [ Netto groei ](types/net-growth.md) | Wint of verliest u gebruikers? |
-| [ effect van de Versie ](types/release.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
-| [ Behoud ](types/retention-rates.md) | Meet de doorlopende retourgewoonten van uw gebruikers. |
-| [ Chronologie ](types/timeline.md) | Verken patronen in sessieactiviteiten. |
-| [ Trends ](types/usage.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
+| Pictogram | Analyse | Beschrijving |
+| :----:|--- | --- |
+| ![ PeopleGroup ](/help/assets/icons/PeopleGroup.svg) | [ Actieve groei ](types/active-growth.md) | Identificeer wie nieuw, behouden, terugkeren, of slapend is. |
+| ![ ConversionTrens ](/help/assets/icons/ConversionTrends.svg) | [ trends van de Omzetting ](types/conversion-trends.md) | Wijzigingen in conversietarieven bijhouden in de loop van de tijd. |
+| ![ EngagementGraph ](/help/assets/icons/EngagementGraph.svg) | [Engagement](types/engagement.md) | Begrijp de breedte en diepte van eigenschapbetrokkenheid. |
+| ![ FirstUse ](/help/assets/icons/FirstUse.svg) | [ Eerste gebruikeffect ](types/first-use-impact.md) | Meet het effect van het gebruik van de eerste functie op sleutelindicatoren. |
+| ![Histogram](/help/assets/icons/Histogram.svg) | [ Frequentie ](types/frequency.md) | Meet de betrokkenheid per gebruiksfrequentie. |
+| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [ Trechter ](types/funnel.md) | Vergelijk de conversiesnelheden tussen de stappen. |
+| ![ NetGrowth ](/help/assets/icons/NetGrowth.svg) | [ Netto groei ](types/net-growth.md) | Wint of verliest u gebruikers? |
+| ![ Versie ](/help/assets/icons/Release.svg) | [ effect van de Versie ](types/release-impact.md) | Vergelijk de prestaties in gelijke perioden vóór en na de release. |
+| ![ Behoud ](/help/assets/icons/Retention.svg) | [ Behoud ](types/retention.md) | Meet de doorlopende retourgewoonten van uw gebruikers. |
+| ![ Chronologie ](/help/assets/icons/Timeline.svg) | [ Chronologie ](types/timeline.md) | Verken patronen in sessieactiviteiten. |
+| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [ Trends ](types/trends.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ De volgende analyses met instructies zijn beschikbaar:
 
 U hebt toegang tot Analyse met instructies vanaf de startpagina van de Customer Journey Analytics.
 
-1. Selecteer **[!UICONTROL Guided analysis]** van de homepage, die u rechtstreeks aan de [ mening van de tendensen van het Gebruik ](types/usage.md) neemt.
+1. Selecteer **[!UICONTROL Guided analysis]** van de homepage, die u rechtstreeks aan de [ mening van de tendensen van het Gebruik ](types/trends.md) neemt.
 
    ![ het Bestaan paginatielijn ](assets/landing-page-tile.png){style="border:1px solid gray"}
 

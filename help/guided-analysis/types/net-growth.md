@@ -5,27 +5,27 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Net growth] weergave
 
-De **[!UICONTROL Net growth]** weergavetype biedt inzicht in de snelheid waarmee u gebruikers gedurende een bepaalde periode bereikt of verliest. De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
+Het ](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** meningstype van 0} NetGrowth {verstrekt inzichten rond het tarief waaraan u krijgt of gebruikers over een specifieke periode verliest. ![ De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
 Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wordt berekend:
 
 `([New users] + [Return users]) / [Dormant users]`
 
-Het resultaat van deze formule is een verhouding. Een netto groei van `1` is een evenwicht; het product heeft hetzelfde aantal gebruikers verloren. Een netto groei groter dan `1` geeft een positieve groei weer; er waren meer nieuwe + retourgebruikers dan slapende gebruikers. Evenzo is een nettogroei van minder dan `1` vertegenwoordigt een verlies; er waren meer slapende gebruikers dan nieuwe + terugkeergebruikers.
+Het resultaat van deze formule is een verhouding. Een netto groei van `1` vertegenwoordigt een evenwicht; het product verwierf het zelfde aantal gebruikers het. Een netto groei groter dan `1` vertegenwoordigt een positieve groei; er waren meer nieuwe gebruikers + retourgebruikers dan slapende gebruikers. Evenzo vertegenwoordigt een netto groei onder `1` een verlies; er waren meer slapende gebruikers dan nieuwe + retourgebruikers.
 
-Vergelijkbaar met de [Actief](active.md) weergavetype, worden gebruikers als volgt gedefinieerd:
+Gelijkaardig aan het [ Actieve ](active-growth.md) meningstype, worden de gebruikers bepaald als het volgende:
 
-* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terug kijkt om een nieuwe gebruiker te bepalen door over te hangen &#39;[!UICONTROL New users]in de legenda van het diagram. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
-* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk voorafgaande periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terug kijkt om een terugkeergebruiker te bepalen door over te hevelen &#39;[!UICONTROL Return users]in de legenda van het diagram. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terug kijkt om een nieuwe gebruiker te bepalen door over &quot;[!UICONTROL New users]&quot;in de grafieklegenda te hangen. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terug kijkt om een terugkeergebruiker te bepalen door over &quot;[!UICONTROL Return users]&quot;in de grafieklegenda te bewegen. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Dormant]**: De gebruiker was actief in de onmiddellijk vorige periode, maar is niet actief in de huidige periode. slapende gebruikers tellen niet mee voor het totale aantal actieve gebruikers.
 
 >[!NOTE]
@@ -38,17 +38,17 @@ Vergelijkbaar met de [Actief](active.md) weergavetype, worden gebruikers als vol
 
 U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
 
-* **Prestatiebeoordeling**: Hiermee kunt u de algemene prestaties van uw product beoordelen in termen van het aanschaffen van nieuwe gebruikers. Door de groeitrends te volgen, kunt u beter begrijpen of uw product gebruikers aantrekt en in een gewenst tempo houdt.
-* **Analyse van overname door gebruiker**: Hiermee kunt u de effectiviteit van uw strategieën voor het verkrijgen van gebruikersgegevens beoordelen. Door de bronnen van groei van gebruikers te analyseren, zoals zoekmachines, campagnes of andere marketingkanalen, kunt u de belangrijkste bronnen van groei identificeren zodat u bronnen op basis daarvan kunt toewijzen.
-* **Churn-analyse**: De netto groei omvat een beperking in de formule (slapende gebruikers). U kunt de algemene gezondheid van uw gebruikersbasis in tijd beoordelen. Indien de nettogroei constant onder blijft `1`, geeft het een grote hoeveelheid aandacht die kan leiden tot het implementeren van retentiestrategieën.
+* **evaluatie van Prestaties**: Staat u toe om de algemene prestaties van uw product in termen van het verwerven van nieuwe gebruikers te beoordelen. Door de groeitrends te volgen, kunt u beter begrijpen of uw product gebruikers aantrekt en in een gewenst tempo houdt.
+* **de acquisitieanalyse van de Gebruiker**: Staat u toe om de doeltreffendheid van uw strategieën van de gebruikersverwerving te beoordelen. Door de bronnen van groei van gebruikers te analyseren, zoals zoekmachines, campagnes of andere marketingkanalen, kunt u de belangrijkste bronnen van groei identificeren zodat u bronnen op basis daarvan kunt toewijzen.
+* **de analyse van de Kurn**: De netto groei omvat attributie in zijn formule (slapende gebruikers). U kunt de algemene gezondheid van uw gebruikersbasis in tijd beoordelen. Als de netto groei constant onder `1` is, wijst het op een hoge hoeveelheid nadruk die tot het uitvoeren van behoudstrategieën zou kunnen leiden.
 
 ## Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakel tussen dit weergavetype en [Actief](active.md).
+* **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ Actief ](active-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien dit weergavetype op gebruiker is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. Opties omvatten [!UICONTROL Number of users] en [!UICONTROL Percentage of users].
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Number of users] en [!UICONTROL Percentage of users] .
 * **[!UICONTROL Segments]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.
 
 ## Tijdvergelijking
