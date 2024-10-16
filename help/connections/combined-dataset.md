@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
+source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 1%
+source-wordcount: '919'
+ht-degree: 3%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 Wanneer u een verbinding creeert, combineert de Customer Journey Analytics alle gebeurtenisdatasets in één enkele dataset. Deze gecombineerde gebeurtenisdataset is wat de Customer Journey Analytics voor het melden (samen met profiel en raadplegingsdatasets) gebruikt. Wanneer u veelvoudige gebeurtenisdatasets in een verbinding omvat:
 
-* De gegevens voor velden in gegevensreeksen op basis van de **hetzelfde schema-pad** worden samengevoegd tot één kolom in de gecombineerde gegevensset.
-* De kolom Person ID, die voor elke dataset wordt gespecificeerd, wordt samengevoegd in één kolom in de gecombineerde dataset, **ongeacht hun naam**. Deze kolom vormt de basis voor het identificeren van unieke personen in Customer Journey Analytics.
+* De gegevens voor gebieden in datasets die op de **zelfde schemapad** worden gebaseerd worden samengevoegd in één enkele kolom in de gecombineerde dataset.
+* De kolom van identiteitskaart van de Persoon, die voor elke dataset wordt gespecificeerd, wordt samengevoegd in één enkele kolom in de gecombineerde dataset, **ongeacht hun naam**. Deze kolom vormt de basis voor het identificeren van unieke personen in Customer Journey Analytics.
 * Rijen worden verwerkt op basis van een tijdstempel.
 * Gebeurtenissen worden tot op het millisecondenniveau opgelost.
 
@@ -30,65 +30,77 @@ Kijk eens naar het volgende voorbeeld. U hebt twee gebeurtenisdatasets, elk met 
 >
 >Adobe Experience Platform slaat doorgaans een tijdstempel op in UNIX® milliseconden. Voor leesbaarheid in dit voorbeeld worden datum en tijd gebruikt.
 
-| `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
-| --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
-| `user_310` | `1 Jan 7:04 AM` | | | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` | | | `2` |
+| example_id | tijdstempel | string_color | string_animal | metrisch_a |
+| --- | --- | --- | --- | ---: |
+| user_310 | 01 jan. 7:02 | Rood | Fox | |
+| user_310 | 01 jan. 7:04 | | | 2 |
+| user_310 | 01 jan. 7:08 | Blauw | | 3 |
+| user_847 | 12:31 | | Turf | 4 |
+| user_847 | 12:44 | | | 2 |
 
-| `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
-| --- | --- | --- | --- | --- |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
+| different_id | tijdstempel | string_color | string_shape | metrisch_b |
+| --- | --- | --- | --- | ---: |
+| user_847 | 2 jan. 12:26 | Geel | Cirkel | 8,5 |
+| user_847 | 2 jan. 13:01 | Rood | | |
+| alternateid_656 | 2 jan. 8:58 | Rood | Vierkant | 4,2 |
+| alternateid_656 | 2 jan. 9:03 | | Driehoek | 3,1 |
 
 Wanneer u een verbinding gebruikend deze twee gebeurtenisdatasets creeert en hebt geïdentificeerd
 
 * `example_id` als Persoon-id voor de eerste gegevensset, en
-* `different_id` als Persoon-id voor de tweede gegevensset,
+* `different_id` als Persoon-id voor de tweede dataset,
 
 de volgende gecombineerde gegevensset wordt gebruikt voor de rapportage.
 
-| `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
-| --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
-| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
-| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
+| id | tijdstempel | string_color | string_animal | string_shape | metrisch_a | metrisch_b |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| user_310 | 01 jan. 7:02 | Rood | Fox | | | |
+| user_310 | 01 jan. 7:04 | | | | 2 | |
+| user_310 | 01 jan. 7:08 | Blauw | | | 3 | |
+| user_847 | 2 jan. 12:26 | Geel | | Cirkel | | 8,5 |
+| user_847 | 12:31 | | Turf | | 4 | |
+| user_847 | 12:44 | | | | 2 | |
+| user_847 | 2 jan. 13:01 | Rood | | | | |
+| alternateid_656 | 2 jan. 8:58 | Rood | | Vierkant | | 4,2 |
+| alternateid_656 | 2 jan. 9:03 | | | Driehoek | | 3,1 |
 
-Om het belang van schemawegen te illustreren, overweeg dit scenario. In de eerste gegevensset `string_color` is gebaseerd op een schemapad `_experience.whatever.string_color` en in de tweede dataset op schemaweg  `_experience.somethingelse.string_color`. In dit scenario zijn de gegevens **niet** samengevoegd tot één kolom in de resulterende gecombineerde dataset. In plaats daarvan is het resultaat twee `string_color` kolommen in de gecombineerde gegevensset.
+Om het belang van schemawegen te illustreren, overweeg dit scenario. In de eerste dataset, is `string_color` gebaseerd op schemapad `_experience.whatever.string_color` en in de tweede dataset op schemapad `_experience.somethingelse.string_color`. In dit scenario, wordt het gegeven **niet** samengevoegd in één kolom in de resulterende gecombineerde dataset. In plaats daarvan is het resultaat twee `string_color` kolommen in de gecombineerde dataset:
+
+| id | tijdstempel | _experience.<br/> alles.<br/> string_color | ervaring.<br/> iets anders.<br/> string_color | string_animal | string_shape | metrisch_a | metrisch_b |
+| --- | --- | --- | --- | --- | --- | ---: | ---:|
+| user_310 | 01 jan. 7:02 | Rood | | Fox | | | |
+| user_310 | 01 jan. 7:04 | | | | | 2 | |
+| user_310 | 01 jan. 7:08 | Blauw | | | | 3 | |
+| user_847 | 2 jan. 12:26 | | Geel | | Cirkel | | 8,5 |
+| user_847 | 12:31 | | | Turf |  | 4 | |
+| user_847 | 12:44 | | | | | 2 | |
+| user_847 | 2 jan. 13:01 | | Rood | | | | |
+| alternateid_656 | 2 jan. 8:58 | | Rood | | Vierkant | | 4,2 |
+| alternateid_656 | 2 jan. 9:03 | | | | Driehoek | | 3,1 |
 
 Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is. Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie. Velden met identieke schemapaden worden samengevoegd.
 
 Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke dataset een rij afkomstig is; de attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
 
-Als uw verbinding slechts de eerste lijst en niet de tweede omvatte, trekkend een rapport gebruikend `string_color` dimensie en `metric_a` Metrisch met laatste aanraakkenmerk geeft het volgende weer:
+Als uw verbinding alleen de eerste tabel bevatte en niet de tweede, zou het trekken van een rapport aan de hand van de `string_color` -dimensie en `metric_a` -meting met de laatste aanraakkenmerk het volgende laten zien:
 
 | string_color | metrisch_a |
-| --- | --- |
+| --- | ---: |
 | Niet opgegeven | 6 |
 | Blauw | 3 |
 | Rood | 2 |
 
-Als u echter beide tabellen hebt opgenomen in uw verbinding, verandert de toewijzing sinds `user_847` bevindt zich in beide gegevenssets. Een rij van de tweede dataset attributen `metric_a` op &#39;Geel&#39; waar ze voorheen niet waren gespecificeerd:
+Als u echter beide tabellen hebt opgenomen in uw verbinding, verandert de toewijzing omdat `user_847` zich in beide gegevenssets bevindt. Een rij van de tweede dataset attributen `metric_a` aan &quot;Geel&quot;waar zij eerder niet specificeerden:
 
 | string_color | metrisch_a |
-| --- | --- |
+| --- | ---: |
 | Geel | 6 |
 | Blauw | 3 |
 | Rood | 2 |
 
 >[!NOTE]
 >
->Als een samengevoegd gebied een raadplegingssleutel voor één gebeurtenisdataset in de verbinding is, zal de bijbehorende raadplegingsdataset verrijken **alles** waarden van dat veld. Het maakt niet uit van welke gebeurtenisdataset een rij afkomstig is, aangezien de raadplegingsverhouding met de gedeelde schemapad wordt geassocieerd.
+>Als een samengevoegd gebied een raadplegingssleutel voor één gebeurtenisdataset in de verbinding is, zal de bijbehorende raadplegingsdataset **alle** waarden van dat gebied verrijken. Het maakt niet uit van welke gebeurtenisdataset een rij afkomstig is, aangezien de raadplegingsverhouding met de gedeelde schemapad wordt geassocieerd.
 
 ## Kanaaloverschrijdende analyse
 
