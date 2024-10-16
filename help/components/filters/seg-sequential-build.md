@@ -3,16 +3,16 @@ description: Opeenvolgende filters zijn filters die de operator THEN gebruiken o
 title: Opeenvolgende filters
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
 
 # Opeenvolgende filters
 
-U creeert opeenvolgende filters gebruikend toen logische exploitant, in plaats van en of logische exploitant tussen component, containers en componenten, of containers. De logische operator Dan impliceert dat een filtervoorwaarde optreedt, gevolgd door een andere.
+U creeert opeenvolgende filters gebruikend toen logische exploitant tussen componenten, containers en componenten, of containers. De logische operator Dan impliceert dat een filtervoorwaarde optreedt, gevolgd door een andere.
 
 +++ Hier is een video waarin sequentiële segmentatie wordt getoond.
 
@@ -23,16 +23,16 @@ U creeert opeenvolgende filters gebruikend toen logische exploitant, in plaats v
 +++
 
 
-Een opeenvolgend filter heeft sommige [ basisfunctionaliteit ](#basics) en extra opties u kunt vormen om meer ingewikkeldheid aan de opeenvolgende filter toe te voegen:
+Een opeenvolgend filter heeft sommige [ basisfunctionaliteit ](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan de opeenvolgende filter toe te voegen:
 
 ![ Opeenvolgende filter ](assets/sequential-filter.gif)
 
 * [ na en binnen ](#after-and-within) beperkingen voor toen logica in de definitie van de opeenvolgingsfilter:
 
-* Welke gegevens aan [ omvatten ](#include) als deel van de algemene opeenvolging voor de filterdefinitie. Of voor een reeks die is gedefinieerd als onderdeel van een container. Door gebrek wordt al passend gegeven overwogen, dat door ![ wordt geïdentificeerd UserGroup ](/help/assets/icons/UserGroup.svg) [!UICONTROL Include Everyone].
+* Welke gegevens aan [ omvatten ](#include) als deel van de algemene opeenvolging voor de filterdefinitie. Of voor een reeks die is gedefinieerd als onderdeel van een container. Standaard wordt rekening gehouden met alle overeenkomende gegevens. Dat gegeven wordt geïdentificeerd door ![ UserGroup ](/help/assets/icons/UserGroup.svg) [!UICONTROL Include Everyone].
 
    * Selecteer ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** om slechts gegevens vóór de opeenvolging te overwegen.
-   * Selecteer ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** om gegevens na de opeenvolging slechts na te denken.
+   * Selecteer ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** om slechts gegevens na de opeenvolging te overwegen.
 
 * Welke gegevens aan [ uitsluiten ](#exclude) als deel van de opeenvolgende filterdefinitie.
 
@@ -50,7 +50,7 @@ In de onderstaande voorbeelden ziet u hoe u sequentiële filters in verschillend
 
 #### Eenvoudige reeks
 
-Identificeer personen die een pagina hebben bekeken en vervolgens een andere pagina hebben bekeken. De gegevens op gebeurtenisniveau filteren deze reeks ongeacht eerdere, afgelopen of tussentijdse sessies van personen of de tijd of het aantal paginaweergaven die zich tussen de sessies voordoen.
+Identificeer personen die een pagina hebben bekeken en vervolgens een andere pagina hebben bekeken. De gegevens op gebeurtenisniveau worden gefilterd met deze reeks. Ongeacht eerdere sessies of sessies van voorbije, vorige of tijdelijke personen, of de tijd of het aantal paginaweergaven die zich tussen de sessies voordoen.
 
 ![ Opeenvolgende filter omvat iedereen ](assets/sequence-include-everyone.png)
 
@@ -75,7 +75,7 @@ Identificeer personen die tijdens hun eerste sessie een specifieke pagina bezoch
 
 #### Een reeks nesten
 
-Identificeer alle zittingen waar een persoon één pagina vóór een andere pagina bezoekt en dan follow-upzittingen hebben die twee andere pagina&#39;s impliceren. Stel bijvoorbeeld dat u alle sessies opgeeft waarin een persoon eerst de startpagina en vervolgens de pagina van categorie 1 bezoekt en vervolgens andere sessies heeft waarin in elke sessie de pagina van categorie 2 en 3 wordt bezocht.
+Identificeer alle zittingen waar een persoon één pagina vóór een andere pagina bezoekt en dan follow-up zittingen heeft die twee andere pagina&#39;s impliceren. U kunt bijvoorbeeld alle sessies identificeren waarbij een persoon eerst de startpagina bezoekt, vervolgens een pagina van categorie 1 en vervolgens andere sessies heeft waarin in elke sessie de pagina van categorie 2 en 3 wordt bezocht.
 
 ![ Geneste opeenvolging ](assets/sequence-nested.png)
 
@@ -98,7 +98,7 @@ In de onderstaande tabel worden de tijdbeperkingsoperatoren gedetailleerder uitg
 
 | Operatoren | Beschrijving |
 |--- |--- |
-| **[!UICONTROL After]** | De operator [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer het plaatsen van na waarden, zal de tijdgrens beginnen wanneer de filter wordt toegepast. Bijvoorbeeld, als de Na exploitant op een container wordt geplaatst om personen te identificeren die pagina A bezoeken maar niet om pagina B tot na één dag terugkeren te bezoeken, dan zal die dag beginnen wanneer de bezoeker pagina A verlaat.  De bezoeker die in het filter moet worden opgenomen, moet na het verlaten van pagina A ten minste 1440 minuten (één dag) overbrengen om pagina B te kunnen bekijken. |
+| **[!UICONTROL After]** | De operator [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer u de waarden Na instelt, begint de tijdlimiet wanneer het filter wordt toegepast. Als de operator [!UICONTROL After] bijvoorbeeld op een container is ingesteld om personen te identificeren die pagina A bezoeken, maar pas na één dag naar pagina B terugkeren, begint die dag wanneer de bezoeker pagina A verlaat.  De bezoeker die in het filter moet worden opgenomen, moet na het verlaten van pagina A ten minste 1440 minuten (één dag) overbrengen om pagina B te kunnen bekijken. |
 | **[!UICONTROL Within]** | De operator [!UICONTROL Within] wordt gebruikt om een maximumlimiet op te geven voor de hoeveelheid tijd tussen twee controlepunten. Als de operator [!UICONTROL Within] bijvoorbeeld op een container is ingesteld om personen te identificeren die pagina A bezoeken en vervolgens binnen één dag naar pagina B terugkeren, begint die dag wanneer de persoon pagina A verlaat. Om in het filter te worden opgenomen, heeft de persoon een maximumtijd van één dag alvorens pagina B te openen. De persoon die in het filter moet worden opgenomen, moet pagina B openen binnen maximaal 1440 minuten (één dag) nadat hij pagina A heeft verlaten om pagina B te bekijken. |
 | **[!UICONTROL After but Within]** | Wanneer u zowel de operatoren [!UICONTROL After] als [!UICONTROL Within] gebruikt, beginnen en eindigen beide operatoren parallel, niet opeenvolgend. <br/> bijvoorbeeld, bouwt u een filter met de container die aan wordt geplaatst: `After = 1 Week(s) and Within = 2 Week(s)`.<br/> de voorwaarden om bezoekers in dit filter te identificeren worden voldaan slechts tussen één en twee weken. Beide voorwaarden worden afgedwongen vanaf het moment van de eerste paginaweergave. |
 
@@ -113,7 +113,7 @@ Identificeer personen die slechts na twee weken een pagina en vervolgens een and
 
 ![ Opeenvolging na ](assets/sequence-after.png)
 
-Als er op 1 juni 2024 om 00:01 een paginaweergave voor Home plaatsvindt, wordt er een paginaweergave voor Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt na 15 juni 2024 00:01.
+Als er op 1 juni 2024 om 00:01 een paginaweergave voor Home plaatsvindt, wordt de pagina Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt na 15 juni 2024 00:01.
 
 ##### Binnen, operator
 
@@ -138,7 +138,7 @@ De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/
 
 #### Voorbeeld
 
-Hieronder ziet u een voorbeeld van een sequentieel filter dat zoekt naar personen die een productcategoriepagina hebben bezocht (Vrouw | Shoes), gevolgd door een afrekenpagina (Afhandeling | Bedankt) op één pagina.
+Hieronder ziet u een voorbeeld van een sequentieel filter dat zoekt naar personen die een productcategoriepagina hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Bedankt) op één pagina.
 
 ![ filter van de Opeenvolging binnen ](assets/sequence-filter-within.png)
 
@@ -163,18 +163,18 @@ Het opeenvolgende filter identificeert gegevens die overeenkomen met het opgegev
 
 De volgende voorbeeldreeksen komen overeen of komen niet overeen:
 
-| Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
-|--- | --- |
-| A en B in dezelfde sessie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| A dan C dan D en B (over verschillende zittingen) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| B en A | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
+| | Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | `Women \| Shoes` dan `Checkout \| Thank You` in dezelfde sessie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (voor verschillende sessies) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
 
 ### Alleen voor reeks en Alleen na reeks
 
 De opties ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** en ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** filter de gegevens aan een ondergroep vóór of na de gespecificeerde opeenvolging.
 
-* ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **slechts vóór Opeenvolging**: Omvat alle gegevens vóór een opeenvolging en de eerste gegevens van de opeenvolging zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only Before Sequence] de eerste hit van de laatste instantie van de reeks en alle eerdere treffers (zie voorbeeld 2).
-* ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **slechts na Reeks**: Omvat alle klappen na een opeenvolging en de laatste gegevens van de opeenvolging zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, Alleen na bevat het laatste raakpunt van de eerste instantie van de reeks en alle volgende toetsaanslagen (zie voorbeeld 2).
+* ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **slechts vóór Opeenvolging**: Omvat alle gegevens vóór een opeenvolging en de eerste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only Before Sequence] de eerste hit van de laatste instantie van de reeks en alle vorige treffers.
+* ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **slechts na Reeks**: Omvat alle klappen na een opeenvolging en de laatste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only After Sequence] de laatste hit van de eerste instantie van de reeks en alle volgende treffers.
 
 Overweeg een definitie die een opeenvolging van een component met criteria specificeert die door B worden geïdentificeerd, (toen) door een component met criteria wordt gevolgd die door D worden geïdentificeerd. De drie opties zouden gegevens als volgt identificeren:
 
@@ -199,7 +199,7 @@ U hebt drie versies van een sequentieel filter voor sitesecties gedefinieerd. É
 
 ![ de filter van de Opeenvolging ](assets/site-section-filters.png)
 
-Wanneer het melden van plaatssecties die deze drie filters gebruiken, zal dit de voorbeeldoutput in een vrije vormlijst zijn.
+Wanneer het melden van plaatssecties die deze drie filters gebruiken, kijkt de voorbeeldoutput in een vrije vormlijst als:
 
 ![ Opeenvolgend filterrapport ](assets/sequential-filter-freeform-table.png)
 
@@ -215,7 +215,7 @@ Voorbeeld van uitsluitingsdefinities zijn:
 * **sluit verwijzende domeinen** uit. Gebruik een definitie die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluitt.
 * **identificeer niet-kopers**. Identificeer wanneer orden groter dan nul zijn en sluit dan [!UICONTROL Person] uit.
 
-[!UICONTROL Exclude] kan worden gebruikt om een opeenvolging te identificeren waar de specifieke zittingen of de gebeurtenissen niet door de persoon worden uitgevoerd. [!UICONTROL Exclude] kan ook worden opgenomen in een Logic-groep (zie hieronder).
+[!UICONTROL Exclude] kan worden gebruikt om een opeenvolging te identificeren waar de specifieke zittingen of de gebeurtenissen niet door de persoon worden uitgevoerd. [!UICONTROL Exclude] kan ook worden opgenomen in een [!UICONTROL Logic Group] (zie hieronder).
 
 U kunt containers uitsluiten, geen componenten.
 
@@ -225,7 +225,7 @@ Zie hieronder voor voorbeelden van het gebruik van [!UICONTROL Exclude] .
 
 #### Uitsluiten binnen
 
-Identificeer personen die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) Uitsluiten. Een uitgesloten container wordt geïdentificeerd door een rode dunne balk aan de linkerkant.
+Identificeer personen die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een uitgesloten container wordt geïdentificeerd door een dunne rode balk aan de linkerkant.
 
 ![ sluit opeenvolging ](assets/sequence-exclude.png) uit
 
@@ -239,7 +239,7 @@ Identificeer personen die een pagina hebben bezocht zonder ooit naar een andere 
 
 #### Uitsluiten aan einde
 
-Identificeer personen die één pagina hebben bezocht maar nooit andere pagina&#39;s hebben bezocht. Bijvoorbeeld personen die uw homepage hebben bezocht, maar nooit een van uw uitcheckpagina&#39;s.
+Identificeer personen die één pagina hebben bezocht maar nooit andere pagina&#39;s hebben bezocht. Bijvoorbeeld personen die uw homepage hebben bezocht, maar nooit een van uw afhandelingspagina&#39;s.
 
 ![ Sequentie sluit eind ](assets/sequence-exclude-end.png) uit
 
@@ -252,7 +252,7 @@ Identificeer personen die één pagina hebben bezocht maar nooit andere pagina&#
 
 Met de Logic Group kunt u voorwaarden groeperen in één controlepunt voor opeenvolgende filters. Als onderdeel van de reeks wordt de logica die is gedefinieerd in de container die is geïdentificeerd als Logic Group, geëvalueerd na een voorafgaand controlepunt en vóór een volgend volgend controlepunt.
 
-Aan de voorwaarden binnen de Logische Groep zelf kan in om het even welke orde worden voldaan. Niet-opeenvolgende containers (gebeurtenis, sessie, persoon) vereisen daarentegen niet dat aan hun voorwaarden wordt voldaan binnen de gehele reeks, wat mogelijk niet-intuïtieve resultaten oplevert als ze worden gebruikt met een Dan-operator.
+Aan de voorwaarden binnen de Logische Groep zelf kan in om het even welke orde worden voldaan. Niet-opeenvolgende containers (gebeurtenis, sessie, persoon) vereisen daarentegen niet dat aan de voorwaarden ervan wordt voldaan binnen de gehele reeks, wat mogelijk niet-intuïtieve resultaten oplevert bij gebruik met een Dan-operator.
 
 [!UICONTROL Logic Group] werd ontworpen om *verscheidene voorwaarden als groep te behandelen, zonder enige het opdracht geven tot* onder de gegroepeerde voorwaarden. Anders gezegd, is de volgorde van de voorwaarden binnen een logische groep irrelevant.
 
@@ -269,7 +269,7 @@ Hier volgen voorbeelden van het gebruik van de container van de Logische Groep.
 
 Identificeer personen die een pagina hebben bezocht en bekijk elke pagina in een willekeurige volgorde uit een andere set pagina&#39;s. Bijvoorbeeld, bezochten de mensen die de Homepage bezochten, dan elk van de Mannen pagina, de pagina van Vrouwen, en de pagina van Kinderen, ongeacht de orde.
 
-U kunt dit filter maken zonder een [!UICONTROL Logic Group] , maar de constructie zal complex en ingewikkeld zijn. U moet elke reeks pagina&#39;s opgeven die de bezoeker kan bekijken. Voor duidelijkheid, slechts wordt de eerste container geopend ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en de andere containers zijn gesloten ![ ChevronRight ](/help/assets/icons/ChevronRight.svg). U kunt de inhoud van de andere containers afleiden door de titels.
+U kunt dit filter maken zonder een [!UICONTROL Logic Group] , maar de constructie zal complex en ingewikkeld zijn. Geef elke reeks pagina&#39;s op die de bezoeker kan bekijken. Voor duidelijkheid, slechts wordt de eerste container geopend ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en de andere containers zijn gesloten ![ ChevronRight ](/help/assets/icons/ChevronRight.svg). U kunt de inhoud van de andere containers afleiden door de titels.
 
 ![ Voorbeeld dat geen logische groep ](assets/logicgroup-example-notusing.png) gebruikt
 
@@ -285,13 +285,13 @@ Identificeer personen die een pagina of een andere pagina hebben bezocht en verv
 
 #### Uitsluiten en
 
-Identificeer personen die een pagina bezochten toen de openheid geen reeks andere pagina&#39;s bezocht, maar nog een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen of de Vrouwen pagina, maar bezochten de Kinderen pagina.
+Identificeer personen die een pagina bezochten toen uitdrukkelijk geen reeks andere pagina&#39;s bezochten, maar opnieuw een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen of de Vrouwen pagina, maar bezochten de Kinderen pagina.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-and.png)
 
 #### Uitsluiten of
 
-Identificeer personen die een pagina bezochten toen de openheid geen pagina van een reeks pagina&#39;s bezocht, maar een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen en de Vrouwen pagina, maar bezochten de Kinderen pagina.
+Identificeer personen die een pagina bezochten toen uitdrukkelijk geen pagina van een reeks pagina&#39;s bezocht, maar opnieuw een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen en de Vrouwen pagina, maar bezochten de Kinderen pagina.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-or.png)
 
@@ -307,7 +307,7 @@ An example of a complex sequential filter if you want to find the persons that
 
 ## Een laatste voorbeeld
 
-Als laatste voorbeeld, wilt u mensen identificeren die over een specifieke productpagina leerden, zonder deze personen ooit door uw Empower Uw Verplaatsen campagne worden geraakt. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. In hun volgende sessie direct daarna gingen ze echter naar een productpagina en plaatsten ze een onlinebestelling zonder eerst de startpagina te doorlopen.
+Als laatste voorbeeld, wilt u mensen identificeren die over een specifieke productpagina leerden, zonder deze personen ooit door uw Empower Your Move campagne werden geraakt. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. In hun volgende sessie direct daarna gingen ze echter naar een productpagina en plaatsten ze een onlinebestelling zonder eerst de startpagina te doorlopen.
 
 
 ![ Complex opeenvolgend filtervoorbeeld ](assets/sequential-complex.png)
