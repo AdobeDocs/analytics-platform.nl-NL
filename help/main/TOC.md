@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
+source-git-commit: 29869538b2f2475b707fd3c088b5715f44de319a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 0%
 
 + [Adobe Customer Journey Analytics Guide](../getting-started/cja-landing.md)
 + [AI Assistant voor Adobe Customer Journey Analytics](../ai-assistant.md)
+
 + Opmerkingen bij de release {#releases}
    + [Meest recente release](../release-notes/latest.md)
    + [2024 releases](../release-notes/2024.md)
@@ -287,7 +288,7 @@ ht-degree: 0%
          + [Berekende maatstaven delen](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [Berekende waarden beheren](../components/calc-metrics/cm-workflow/cm-manager.md)
          + [Voorbeelden](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
-      + [Berekende standaardwaarden](../components/calc-metrics/default-calcmetrics.md)
+      + [Sjablonen voor berekende metriek](../components/calc-metrics/default-calcmetrics.md)
       + [Basisfuncties](../components/calc-metrics/cm-functions.md)
       + [Geavanceerde functies](../components/calc-metrics/cm-adv-functions.md)
    + Datumbereiken {#cja-date-ranges}

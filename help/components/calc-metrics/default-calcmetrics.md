@@ -1,19 +1,19 @@
 ---
 description: De Adobe verstrekt diverse berekende metriek die u kunt gebruiken. Deze pagina bevat een overzicht van die metingen en het gebruik waarvoor ze zijn bedoeld.
-title: Berekende standaardwaarden
+title: Sjablonen voor berekende metriek
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: a507417c945f827ebb8bc92f7b5f54a9c4e6faa0
+source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Berekende standaardwaarden
+# Sjablonen voor berekende metriek
 
-Customer Journey Analytics verstrekt de volgende standaard berekende metriek om de gemeenschappelijkste gebruiks-gevallen te behandelen. Deze Adobe bepaalde gebrek berekende metriek wordt geïdentificeerd door een klein ![ 1} embleem AdobeLogoSmall {. ](/help/assets/icons/AdobeLogoSmall.svg) Om snel op deze metriek te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
+Customer Journey Analytics verstrekt de volgende berekende metriesjablonen om de gemeenschappelijkste gebruiks-gevallen te behandelen. Deze Adobe bepaalde berekende metriek wordt geïdentificeerd door een klein ![ 1} embleem AdobeLogoSmall {. ](/help/assets/icons/AdobeLogoSmall.svg) Om snel op deze metriek te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
 
 | Metrische naam berekend | Beschrijving <br/> Formule |
 |---------|----------|

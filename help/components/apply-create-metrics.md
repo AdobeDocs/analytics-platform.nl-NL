@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: d317f6bb9892d0d13fc7723f7e8c2d9ba2ce4f63
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 
 Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
 
+## Metriek gebruiken in Analysis Workspace
+
+Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
+
+Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/components/use-components-in-workspace.md).
+
+
 ## Soorten metingen
 
 De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace aan:
@@ -22,19 +29,19 @@ De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace
 
 * **Standaard metriek**: Voorbeeld van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen.
 
+  In tegenstelling tot Adobe Analytics, staat Customer Journey Analytics u toe om standaardmetriek op een flexibele manier binnen het werkingsgebied van een verbinding en een gegevensmening te bepalen.
+
+   * **Mensen**: De metrische Mensen in Customer Journey Analytics is de telling verschillend van Persoon IDs. Afhankelijk van wat u als identiteitskaart van de Persoon wanneer u datasets in uw verbinding vormt, metrische Mensen verschillende dingen kunnen betekenen.
+   * **Sessies**: Metrische Sessies in Customer Journey Analytics is wat u als deel van de configuratie van de montages van Sessies in uw gegevensmening bepaalt. Zie [ montages van de Zitting ](/help/data-views/session-settings.md).
+   * **Gebeurtenissen**: De metrische Gebeurtenissen in Customer Journey Analytics worden samengesteld uit de gebeurtenissen die deel van om het even welke gebeurtenisdataset uitmaken u als deel van uw verbinding hebt gevormd.
+
 * **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
 
-* **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen.
+* **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen. Zie [ Standaard berekende metriek ](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [ Info van de Component ](use-components-in-workspace.md#component-info) voor meer informatie.
 
 
-
-## Metriek gebruiken in Analysis Workspace
-
-Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
-
-Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/components/use-components-in-workspace.md).
 
 ## Berekende cijfers
 
