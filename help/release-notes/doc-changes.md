@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
+source-git-commit: 18131b0ccabbc8043e2638c735a4a603029f4b93
 workflow-type: tm+mt
-source-wordcount: '4088'
+source-wordcount: '4084'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Prognose van statistische technieken | Toegevoegd artikel beschrijvend de [ statistische technieken die in het voorspellen van de dienst ](../analysis-workspace/c-forecast/statistics-forecasting.md) worden gebruikt. |
 | Toegevoegde informatie met de aanbeveling Volledige uitvoer van tabellen voor afmetingen met hoge kardinaliteit | Toegevoegde kogel in [ Beste praktijken voor hoge kardinaaldimensies ](/help/components/dimensions/high-cardinality.md) om het gebruiken van de Volledige Uitvoer van de Lijst voor hoge kardinaaldimensies aan te bevelen. |
 | Toegevoegde documentatie over intelligente bijschriften in mobiele scorecards | [ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) kunnen niet-analisten helpen beter van hun gegevens zonder de hulp van analisten steek houden. |
-| Nieuwe documentatie voor functies van Adobe Producten Analytics | <ul><li>[ matrijs van de Eigenschap ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Verbeterde [ behoudstarieven ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[ Verbeterde Inzichten in Kanaal ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Vergelijk gebeurtenissen binnen één enkele stap van het Kanaal</li></ul> |
+| Nieuwe documentatie voor functies van Adobe Producten Analytics | <ul><li>[ matrijs van de Eigenschap ](/help/guided-analysis/types/funnel.md)</li><li>Verbeterd [ Behoud ](/help/guided-analysis/types/retention.md)</li><li>[ Verbeterde Inzichten in Kanaal ](/help/guided-analysis/types/funnel.md)</li><li>Vergelijk gebeurtenissen binnen één enkele stap van het Kanaal</li></ul> |
 | **Maart 2024** | |
 | Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt dat gebruiksinformatie betreffende **die in** wordt gebruikt kolom op de [ projecten landend pagina ](/help/getting-started/landing.md) teruggaat slechts tot September 2023. |
 | Toegevoegde documentatie over machtigingenverbetering voor Workspace-componenten die alleen voor een project bestemd zijn | Als u een project met andere gebruikers deelt, kunnen die gebruikers [ snelle filters ](/help/components/filters/quick-filters.md) en andere project-slechts componenten uitgeven die in het gedeelde project worden ingebed. |
