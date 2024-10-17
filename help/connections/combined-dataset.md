@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8241bcc4a2653da456c1577eb95d5504ca118cd9
+source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 3%
@@ -67,7 +67,7 @@ de volgende gecombineerde gegevensset wordt gebruikt voor de rapportage.
 Om het belang van schemawegen te illustreren, overweeg dit scenario. In de eerste dataset, is `string_color` gebaseerd op schemapad `_experience.whatever.string_color` en in de tweede dataset op schemapad `_experience.somethingelse.string_color`. In dit scenario, wordt het gegeven **niet** samengevoegd in één kolom in de resulterende gecombineerde dataset. In plaats daarvan is het resultaat twee `string_color` kolommen in de gecombineerde dataset:
 
 | id | tijdstempel | _experience.<br/> alles.<br/> string_color | _experience.<br/> iets anders.<br/> string_color | string_animal | string_shape | metrisch_a | metrisch_b |
-| --- | --- | --- | --- | --- | --- | ---: | ---:|
+|---|---|---|---|---|---|---:|---:|
 | user_310 | 01 jan. 7:02 | Rood | | Fox | | | |
 | user_310 | 01 jan. 7:04 | | | | | 2 | |
 | user_310 | 01 jan. 7:08 | Blauw | | | | 3 | |
