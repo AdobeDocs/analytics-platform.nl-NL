@@ -5,7 +5,7 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: a7545c5a197bd318212328ef6344245b2026d401
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De volgende analyses met instructies zijn beschikbaar:
 | ![ Chronologie ](/help/assets/icons/Timeline.svg) | [ Chronologie ](types/timeline.md) | Verken patronen in sessieactiviteiten. |
 | ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [ Trends ](types/trends.md) | Meet de betrokkenheid van de gebruiker in de loop van de tijd. |
 
-{style="table-layout:auto"}
+
 
 ## Toegang
 
