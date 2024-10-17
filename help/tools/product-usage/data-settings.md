@@ -3,9 +3,9 @@ title: Gegevensinstellingen voor productgebruik
 description: Instellingen voor productgebruik inschakelen, uitschakelen of configureren.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,7 @@ De _montages van Gegevens_ pagina behandelt uw configuratie van het productgebru
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]** > **[!UICONTROL Data settings]**
 
 >[!IMPORTANT]
->
->Wanneer u deze functie inschakelt, moet u de voorwaarden accepteren voordat u deze kunt gebruiken. Wanneer u deze voorwaarden accepteert, doet u dit namens uw hele organisatie. De persoon die deze voorwaarden accepteert, heeft automatisch de gegevensweergave die wordt gemaakt wanneer deze functie is ingeschakeld.
+>Wanneer u deze functie inschakelt, moet u de voorwaarden accepteren voordat u deze kunt gebruiken. Wanneer u deze voorwaarden accepteert, doet u dit namens uw hele organisatie.
 
 De volgende instellingen zijn beschikbaar op deze pagina:
 

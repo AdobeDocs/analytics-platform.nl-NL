@@ -3,9 +3,9 @@ title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Het gebruik van producten biedt uw organisatie de mogelijkheid om analysegegevens te bekijken over hoe uw organisatie Customer Journey Analytics gebruikt. Het is beschikbaar voor alle organisaties die Customer Journey Analytics gebruiken. Als deze optie is ingeschakeld, worden de volgende Adobe Experience Platform-componenten automatisch gemaakt en geactiveerd:
+Het gebruik van producten biedt uw organisatie de mogelijkheid om analysegegevens te bekijken over hoe uw organisatie Customer Journey Analytics gebruikt. Het is beschikbaar voor alle organisaties die Customer Journey Analytics gebruiken. Als deze optie is ingeschakeld, worden de volgende Adobe Experience Platform-componenten automatisch gemaakt en geactiveerd. Deze componenten zijn allemaal systeemeigendom, alleen-lezen en kunnen niet worden bewerkt.
 
-* Een schema in Adobe Experience Platform. Dit schema is in het bezit van het systeem, read-only, en kan niet worden uitgegeven.
-* Een dataset in Adobe Experience Platform. Deze dataset is systeemeigendom, read-only, en kan niet worden uitgegeven.
-* Een verbinding in Customer Journey Analytics. Deze verbinding is systeemeigendom, alleen-lezen en kan niet worden bewerkt.
-* Een gegevensweergave in Customer Journey Analytics. U kunt deze gegevensweergave bewerken of meer gegevensweergaven maken met de bovenstaande verbinding. De eigenaar van de gegevensweergave is de persoon die het productgebruik voor uw organisatie inschakelt.
+* Een schema in Adobe Experience Platform
+* Een dataset in Adobe Experience Platform
+* Een verbinding in Customer Journey Analytics
+* Een gegevensweergave in Customer Journey Analytics
 
 Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra toegelaten. Elke keer dat een gebruiker een actie uitvoert in Analysis Workspace, wordt die actie bijgehouden en beschikbaar voor rapportage.
 
@@ -29,7 +29,7 @@ Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra to
 
 ## Beschikbare afmetingen
 
-Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar:
+Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Als u dimensie-instellingen wilt wijzigen, maakt u een kopie van de gegevensweergave die eigendom is van het systeem en gebruikt u de gekopieerde gegevensweergave in Analysis Workspace.
 
 | Dimension | Beschrijving |
 | --- | --- |
