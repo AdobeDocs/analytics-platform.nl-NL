@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -168,12 +168,11 @@ Wanneer u het effect van interventie X op resultaat Y wilt meten, is het mogelij
 >
 >Voor organisaties die zowel Customer Journey Analytics als Adobe Journey Optimizer gebruiken, is de informatie in deze sectie ook op experimenteringseigenschappen binnen Journey Optimizer van toepassing.
 
-
 Niet alle berekende meetgegevens zijn compatibel met het deelvenster Experimentatie.
 
 Berekende meetgegevens met een van de volgende meetwaarden of constanten zijn niet compatibel met het deelvenster Experimentatie:
 
-* De metriek van de basis van een summiere dataset <!--add link to Rob's "Summary data" doc when it's published -->
+* De metriek van de basis van a [ summiere dataset ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * De metriek van de basis die door elkaar worden verdeeld of samen worden vermenigvuldigd (bijvoorbeeld, `Revenue`/ `Orders`)
 * Constanten die worden toegevoegd aan of afgetrokken van een metrische basis (bijvoorbeeld `Revenue+50`)
 * Een of meer van de volgende basismeetwaarden:

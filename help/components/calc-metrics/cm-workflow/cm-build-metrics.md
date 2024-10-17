@@ -3,7 +3,7 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 0%
@@ -67,8 +67,8 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 1. Om te verifiëren of uw berekende metrische definitie correct is, gebruik constant bijgewerkt **[!UICONTROL Preview]** van de resultaten van berekende metrisch. **[!UICONTROL Preview]** geldt voor de laatste 90 dagen en evalueert continu de definitie van de berekende maateenheid.
 
    **[!UICONTROL Product compatibility]** wijst erop of berekende metrisch in experimenteren kan worden gebruikt. Mogelijke waarden zijn:
-   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan in alle Customers Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
-   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan over de hele Customer Journey Analytics worden gebruikt.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan over de hele Customer Journey Analytics worden gebruikt.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan in alle Customers Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
 
 1. Selecteren:
    * **[!UICONTROL Save]** om de berekende metrische waarde op te slaan.
