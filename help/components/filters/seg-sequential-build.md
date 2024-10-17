@@ -3,16 +3,16 @@ description: Opeenvolgende filters zijn filters die de operator THEN gebruiken o
 title: Opeenvolgende filters
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
-source-wordcount: '2372'
-ht-degree: 0%
+source-wordcount: '2342'
+ht-degree: 1%
 
 ---
 
 # Opeenvolgende filters
 
-U creeert opeenvolgende filters gebruikend toen logische exploitant tussen componenten, containers en componenten, of containers. De logische operator Dan impliceert dat een filtervoorwaarde optreedt, gevolgd door een andere.
+U maakt opeenvolgende filters met de logische operator [!UICONTROL Then] tussen componenten, containers en componenten of containers. De logische operator [!UICONTROL Then] impliceert dat een filtervoorwaarde optreedt, gevolgd door een andere.
 
 +++ Hier is een video waarin sequentiële segmentatie wordt getoond.
 
@@ -21,7 +21,6 @@ U creeert opeenvolgende filters gebruikend toen logische exploitant tussen compo
 {{videoaa}}
 
 +++
-
 
 Een opeenvolgend filter heeft sommige [ basisfunctionaliteit ](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan de opeenvolgende filter toe te voegen:
 
@@ -42,7 +41,7 @@ Een opeenvolgend filter heeft sommige [ basisfunctionaliteit ](#basics) en extra
 
 
 
-De grondbeginselen van de bouw van een opeenvolgende filter zijn niet verschillend dan de bouw van een regelmatige filter gebruikend de [ bouwer van de Filter ](filter-builder.md). U gebruikt de [ Bouwer van de Definitie ](filter-builder.md#definition-builder) om uw filterdefinitie te construeren. In die constructie, gebruikt u componenten, containers, exploitanten en logica. Een regelmatige filter wordt automatisch een opeenvolgend filter zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ Bouwer van de Definitie ](filter-builder.md#definition-builder) gebruikt.
+De grondbeginselen van de bouw van een opeenvolgende filter zijn niet verschillend dan de bouw van een regelmatige filter gebruikend de [ bouwer van de Filter ](filter-builder.md). U kunt de [ bouwer van de Definitie ](filter-builder.md#definition-builder) gebruiken om uw filterdefinitie te construeren. In die constructie, gebruikt u componenten, containers, exploitanten en logica. Een regelmatige filter wordt automatisch een opeenvolgend filter zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ Bouwer van de Definitie ](filter-builder.md#definition-builder) gebruikt.
 
 ### Voorbeelden
 
@@ -79,7 +78,7 @@ Identificeer alle zittingen waar een persoon één pagina vóór een andere pagi
 
 ![ Geneste opeenvolging ](assets/sequence-nested.png)
 
-## Na en binnen
+## [!UICONTROL After] en [!UICONTROL Within]
 
 U kunt ](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Gebeurtenissen, Zittingen of Dimensionen ](#event-session-and-dimension-constraints) te bepalen.![
 
@@ -107,7 +106,7 @@ In de onderstaande tabel worden de tijdbeperkingsoperatoren gedetailleerder uitg
 
 Enkele voorbeelden van het gebruik van de tijdbeperkingen.
 
-##### After, operator
+##### [!UICONTROL After] operator
 
 Identificeer personen die slechts na twee weken een pagina en vervolgens een andere pagina hebben bezocht. Bijvoorbeeld personen die de startpagina hebben bezocht, maar de vrouwen | Hiermee wordt de pagina pas na twee weken weergegeven.
 
@@ -115,15 +114,15 @@ Identificeer personen die slechts na twee weken een pagina en vervolgens een and
 
 Als er op 1 juni 2024 om 00:01 een paginaweergave voor Home plaatsvindt, wordt de pagina Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt na 15 juni 2024 00:01.
 
-##### Binnen, operator
+##### [!UICONTROL Within] operator
 
 Identificeer personen die een pagina en een andere pagina binnen vijf minuten hebben bezocht. Bijvoorbeeld personen die de startpagina hebben bezocht en vervolgens de vrouwen | Hiermee wordt de pagina binnen 5 minuten weergegeven.
 
 ![ Opeenvolging binnen ](assets/sequence-within.png)
 
-Als er op 1 juni 2024 om 12:01 een paginaweergave voor Home plaatsvindt, wordt er een paginaweergave voor Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt vóór 15 juni 2024 12:16.
+Als op 1 juni 2024 om 12:01 een paginaweergave voor Home plaatsvindt, wordt een paginaweergave voor Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt vóór 15 juni 2024 12:16.
 
-##### After, operator binnen
+##### [!UICONTROL After] but [!UICONTROL Within] operator
 
 Identificeer personen die een pagina bezochten en vervolgens een andere pagina bezochten na twee weken, maar binnen één maand. Bijvoorbeeld personen die de startpagina hebben bezocht en vervolgens na twee weken en binnen een maand de Vrouwen | Shoes page.
 
@@ -132,7 +131,7 @@ Identificeer personen die een pagina bezochten en vervolgens een andere pagina b
 Personen die op 1 juni 2024 op de startpagina komen en die terugkeren naar de Vrouwen | Shoes page na 15 juni 2019 00:01, maar vóór 1 juli 2019 komt in aanmerking voor het segment.
 
 
-### Beperkingen op gebeurtenissen, sessies en Dimensionen
+### [!UICONTROL Event] -, [!UICONTROL Session] - en [!UICONTROL Dimension] -beperkingen
 
 De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een gebeurtenis, een zitting of een afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Event(s)]**, **[!UICONTROL Session(s)]** of **[!UICONTROL Other dimensions]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van het Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
 
@@ -149,15 +148,15 @@ De volgende voorbeeldreeksen komen overeen of komen niet overeen:
 | Pagina `Women \| Shoes` gevolgd door pagina `Checkout \| Thank You` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
 | Pagina `Women \| Shoes` gevolgd door pagina `Women \| Tops` gevolgd door pagina `Checkout \| Thank You` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
 
-## Inclusief
+## [!UICONTROL Include]
 
 U kunt opgeven welke gegevens u wilt opnemen in het opeenvolgende filter of in een opeenvolgende container die deel uitmaakt van het opeenvolgende filter.
 
-### Iedereen {#include_everyone}
+### [!UICONTROL Everyone] {#include_everyone}
 
 Om een opeenvolgend filter tot stand te brengen dat iedereen omvat, selecteer de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-Het opeenvolgende filter identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een filter met een basisreeks waarin wordt gezocht naar personen die een pagina met productcategorieën hebben bezocht (Vrouw | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). De filter wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+Het opeenvolgende filter identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een filter met een standaardsequentie waarmee u zoekt naar personen die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). De filter wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
 ![ Opeenvolgende filter omvat iedereen ](assets/sequence-include-everyone.png)
 
@@ -169,7 +168,7 @@ De volgende voorbeeldreeksen komen overeen of komen niet overeen:
 | 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (voor verschillende sessies) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
 
-### Alleen voor reeks en Alleen na reeks
+### [!UICONTROL Only Before Sequence] en [!UICONTROL Only After Sequence]
 
 De opties ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** en ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** filter de gegevens aan een ondergroep vóór of na de gespecificeerde opeenvolging.
 
@@ -203,7 +202,7 @@ Wanneer het melden van plaatssecties die deze drie filters gebruiken, kijkt de v
 
 ![ Opeenvolgend filterrapport ](assets/sequential-filter-freeform-table.png)
 
-## Uitsluiten
+## [!UICONTROL Exclude]
 
 De definities van de filter omvatten alle gegevens tenzij u specifiek ![ Gebruiker ](/help/assets/icons/User.svg) [!UICONTROL Person] uitsluiten, ![ Bezoek ](/help/assets/icons/Visit.svg) [!UICONTROL Session], of ![ WebPage ](/help/assets/icons/WebPage.svg) [!UICONTROL Event] gegevens gebruikend **[!UICONTROL Exclude]**.
 
@@ -215,7 +214,7 @@ Voorbeeld van uitsluitingsdefinities zijn:
 * **sluit verwijzende domeinen** uit. Gebruik een definitie die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluitt.
 * **identificeer niet-kopers**. Identificeer wanneer orden groter dan nul zijn en sluit dan [!UICONTROL Person] uit.
 
-[!UICONTROL Exclude] kan worden gebruikt om een opeenvolging te identificeren waar de specifieke zittingen of de gebeurtenissen niet door de persoon worden uitgevoerd. [!UICONTROL Exclude] kan ook worden opgenomen in een [!UICONTROL Logic Group] (zie hieronder).
+[!UICONTROL Exclude] kan worden gebruikt om een opeenvolging te identificeren waar de personen geen deel van specifieke zittingen uitmaken of specifieke gebeurtenissen uitvoeren. [!UICONTROL Exclude] kan ook worden opgenomen in een [!UICONTROL Logic Group] (zie hieronder).
 
 U kunt containers uitsluiten, geen componenten.
 
@@ -223,28 +222,28 @@ U kunt containers uitsluiten, geen componenten.
 
 Zie hieronder voor voorbeelden van het gebruik van [!UICONTROL Exclude] .
 
-#### Uitsluiten binnen
+#### [!UICONTROL Exclude] within
 
 Identificeer personen die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een uitgesloten container wordt geïdentificeerd door een dunne rode balk aan de linkerkant.
 
 ![ sluit opeenvolging ](assets/sequence-exclude.png) uit
 
 
-#### Uitsluiten bij begin
+#### [!UICONTROL Exclude] bij begin
 
 Identificeer personen die een pagina hebben bezocht zonder ooit naar een andere pagina te gaan. Mensen die een aankoop hebben uitgecheckt zonder ooit de homepage te hebben bezocht, bijvoorbeeld.
 
 ![ Reeks sluit begin ](assets/sequence-exclude-start.png) uit
 
 
-#### Uitsluiten aan einde
+#### [!UICONTROL Exclude] aan einde
 
 Identificeer personen die één pagina hebben bezocht maar nooit andere pagina&#39;s hebben bezocht. Bijvoorbeeld personen die uw homepage hebben bezocht, maar nooit een van uw afhandelingspagina&#39;s.
 
 ![ Sequentie sluit eind ](assets/sequence-exclude-end.png) uit
 
 
-## Logische groep
+## [!UICONTROL Logic Group]
 
 >[!NOTE]
 >
@@ -283,13 +282,13 @@ Identificeer personen die een pagina of een andere pagina hebben bezocht en verv
 
 ![ Voorbeeld dat eerste gelijke met logische groep ](assets/logicgroup-example-firstmatch.png) gebruikt
 
-#### Uitsluiten en
+#### [!UICONTROL Exclude] [!UICONTROL And]
 
 Identificeer personen die een pagina bezochten toen uitdrukkelijk geen reeks andere pagina&#39;s bezochten, maar opnieuw een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen of de Vrouwen pagina, maar bezochten de Kinderen pagina.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-and.png)
 
-#### Uitsluiten of
+#### [!UICONTROL Exclude] [!UICONTROL Or]
 
 Identificeer personen die een pagina bezochten toen uitdrukkelijk geen pagina van een reeks pagina&#39;s bezocht, maar opnieuw een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen en de Vrouwen pagina, maar bezochten de Kinderen pagina.
 
