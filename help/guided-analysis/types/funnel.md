@@ -5,7 +5,7 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De ](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**analyse 0} C
 
 +++
 
-![ de tijdvergelijking van de Trechter ](../assets/funnel-compare.png){style="border:1px solid gray"}
+![ de tijdvergelijking van de Trechter ](../assets/funnel-compare.png)
 
 ## Gebruik hoofdletters
 
