@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
 workflow-type: tm+mt
-source-wordcount: '3376'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -134,11 +134,67 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_matchingkey"
->title="Overeenkomende toets"
->abstract="Selecteer een veld dat u wilt gebruiken in een van de gebeurtenisgegevenssets. Als deze lijst leeg is, hebt u waarschijnlijk geen gebeurtenisdataset toegevoegd of gevormd."
+>id="cja_connection_primaryID"
+>title="Primaire id"
+>abstract="Selecteer juiste primaire id voor uw verbinding: persoon voor een B2C-scenario. Account voor een B2B-scenario."
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_optionalContainers"
+>title="Optionele containers"
+>abstract="Selecteer extra containers.<br/><br/>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.<br/>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.<br/>**[!UICONTROL Buying group]**: hiermee kunt u groepen aanschaffen in een verbinding."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_personID"
+>title="Persoon-id"
+>abstract="Selecteer een persoonidentiteitskaart van de beschikbare identiteiten die in het datasetschema in het Experience Platform worden bepaald."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_accountID"
+>title="Account-id"
+>abstract="Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_globalAccountID"
+>title="Algemene account-id"
+>abstract="Selecteer een globale account-id (de unieke id voor een globale account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_opportunityID"
+>title="Opportunity-id"
+>abstract="Selecteer een opportuniteits-id (de unieke id voor een opportuniteit) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_buyingGroupID"
+>title="Groep-id voor kopen"
+>abstract="Selecteer een inkoopgroep-id (de unieke id voor een inkoopgroep) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-disable MD034 -->
 
