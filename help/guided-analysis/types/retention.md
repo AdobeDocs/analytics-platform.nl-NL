@@ -1,38 +1,48 @@
 ---
-title: Bewaren
+title: Bewaaranalyse
 description: Meet hoeveel gebruikers uw product blijven gebruiken.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 8592d6d5d4a9d7b8ac6a40963059d386ec5ee804
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
 
-# Bewaren
+# Bewaaranalyse
 
-De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** mening meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
+De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
 * Startgebeurtenis: de gebeurtenis die wordt gebruikt om gebruikers in aanmerking te laten komen voor opname in uw analyse.
 * Geretourneerde gebeurtenis: een of meer gebeurtenissen waarmee een gebruiker moet werken om als terugkerende gebruiker in uw analyse te tellen.
 
-In deze mening, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
+In deze analyse, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
+
++++ Video demo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
++++
+
+![ Behoud ](../assets/retention.png)
+
 ## Gebruik hoofdletters
 
-U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De gevallen van het gebruik voor deze analyse omvatten:
 
 * **analyse van de Cohort**: De gebruikers van de groep in cohorts die op acties worden gebaseerd die zij, zoals sign-ups of aankopen nemen. U kunt vergelijken hoe goed deze groepen behouden en bepalen hoe te om de gebruikerservaring van elke groep te verbeteren.
 * **de marktpas van het Product** past: Meet regelmatig gebruik van uw product en visualiseer als behoudkrommen. Grotere retentie betekent een grotere geschiktheid voor de productmarkt en wanneer de curve wordt afgevlakt, geeft dit aan hoe lang het duurt om uw pasvorm te bereiken. Bekijk deze analyse op een algemeen niveau of uitsplitsing naar afzonderlijke productkenmerken om dieper inzicht te krijgen.
 * **de dienstanalyse van het Abonnement**: Als uw product een abonnement of een ander type van het terugkomende opbrengstmodel aanwendt, kunt u het percentage gebruikers zien die het grootste deel van uw product maken. U kunt bepaalde kwaliteiten en gedragingen identificeren die deze gebruikers vertonen.
 * **Overeenkomst van de Gebruiker**: Evalueer hoe bepaalde types van gebruikers met uw product in dienst nemen, en vergelijk zij naast elkaar hoe vaak zij terugkeren. Een bepaald segment met een lagere retentie dan anderen kan u inzicht verschaffen in het verbeteren van mogelijke ondermaatse ervaringen die zij kunnen hebben.
 
-## Query-rail
+## Interface
+
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+
+### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
@@ -51,13 +61,13 @@ Met de queryrail kunt u de volgende componenten configureren:
       * **[!UICONTROL Custom durations]** staat u toe om de vier die duuremmers aan te passen op de grafiek en de lijst worden getoond.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment voegt een rij toe aan de cohortingtabel. U kunt maximaal drie segmenten opnemen.
 
-## Diagraminstellingen
+### Diagraminstellingen
 
-De weergave [!UICONTROL Retention rates] biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
+De [!UICONTROL Retention] -analyse biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. De opties zijn [!UICONTROL Bar] en [!UICONTROL Line] .
 
-## Datumbereik
+### Datumbereik
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 

@@ -1,58 +1,67 @@
 ---
-title: Conversietrends, weergave
+title: Conversietrends, analyse
 description: Wijzigingen in de conversiesnelheid in de loop der tijd bijhouden.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Conversion trends] weergave
+# [!UICONTROL Conversion trends] analyse
 
-De ![ mening van de Trends van de Omzetting ](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
+De ![ analyse van de Trends van de Omzetting ](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
+
++++ Video demo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
++++
+
+![ de tendensen van de Omzetting tijdvergelijking ](../assets/conversion-trends-compare.png){style="border:1px solid gray"}
+
 ## Gebruik hoofdletters
 
-U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De gevallen van het gebruik voor deze analyse omvatten:
 
-* **de optimaliseringsinspanningen van het Spoor**: Na het identificeren van zeer belangrijke knelpunten die u het gebruiken van [ Wrijving ](funnel.md) wilt verbeteren, kunt u deze mening gebruiken om te volgen hoe die optimalisaties omrekeningskoers in tijd beïnvloeden.
+* **de optimaliseringsinspanningen van het Spoor**: Na het identificeren van zeer belangrijke knelpunten die u het gebruiken van de [ analyse van het Trechter ](funnel.md) wilt verbeteren, kunt u deze analyse gebruiken om te volgen hoe die optimalisaties omzettingspercentage in tijd beïnvloeden.
 * **A/B testende evaluatie**: Evalueer de doeltreffendheid van tests A/B of experimenten die binnen de context van een trechter worden uitgevoerd. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
 * **de evaluatie van de Campagne in tijd**: Meet de doeltreffendheid van marketing campagnes in tijd. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
 
-## Query-rail
+## Interface
+
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+
+### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ Wrijving ](funnel.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Trechter ](funnel.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Users] en [!UICONTROL Sessions] .
 * **[!UICONTROL Segments]**: De segmenten waarin u de trechter wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
-## Diagraminstellingen
+### Diagraminstellingen
 
-De weergave [!UICONTROL Conversion trends] biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
+De [!UICONTROL Conversion trends] -analyse biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. Opties zijn [!UICONTROL Line] .
 * **[!UICONTROL Conversion from]** - Hiermee bepaalt u het percentage van de berekening van stap tot stap. U kunt onder andere de conversie van de [!UICONTROL First step] of [!UICONTROL Previous step] berekenen.
 
 >[!NOTE]
 >
->De **Gemiddelde** kolom in de de meningslijst van de tendensen van de Omzetting verschilt van de **Totale** kolom in de [ mening van de Wrijving ](funnel.md) lijst. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
+>De **Gemiddelde** kolom in de de analyselijst van de tendensen van de Omzetting verschilt van de **Totale** kolom in de [ de analyse van het Trechter ](funnel.md) lijst. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
 
-## Tijdvergelijking
+### Tijdvergelijking
 
 {{apply-time-comparison}}
 
-![ de tendensen van de Omzetting tijdvergelijking ](../assets/conversion-trends-compare.png){style="border:1px solid gray"}
 
-## Datumbereik
+### Datumbereik
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 

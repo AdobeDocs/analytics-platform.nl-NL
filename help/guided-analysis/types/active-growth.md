@@ -1,20 +1,20 @@
 ---
-title: Actieve groeiweergave
+title: Actieve groeianalyse
 description: Identificeer wie nieuw, behouden, terugkeren, of slapend is.
 exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 8592d6d5d4a9d7b8ac6a40963059d386ec5ee804
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Active growth] weergave
+# [!UICONTROL Active growth] analyse
 
-De ![ PeopleGroup ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** mening verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode. De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
+De ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0} PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode. ![ De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
 
 * **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL New users]_te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Repeat]**: De gebruiker was actief in de huidige en onmiddellijk vorige periode.
@@ -23,38 +23,46 @@ De ![ PeopleGroup ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active gro
 
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.
 
++++ Video demo
+
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
+
++++
+
+![ Actieve tijd vergelijk ](../assets/active-growth-compare.png){style="border:1px solid gray"}
 
 ## Gebruik hoofdletters
 
-U kunt onder andere de volgende gevallen gebruiken voor dit weergavetype:
+De gevallen van het gebruik voor deze analyse omvatten:
 
 * **het behoud en het koord van de Gebruiker:** verstrekt een duidelijke visualisatie van periodes van hoog of laag gebruikersbehoud. Als u deze periodes van hoge of lage retentie herkent, kunt u productbeslissingen nemen om een hoge retentie aan te moedigen of om de kans op koorts te minimaliseren.
 * **de beoordeling van de Campagne**: Het bekijken van een specifieke campagne kan u helpen begrijpen hoeveel verkeer het produceerde, en hoe goed het hielp gebruikers betrokken blijven.
 * **de levenscyclusanalyse van de Gebruiker**: Het analyseren van de actieve gebruikerstoename door de gebruikerslevenscyclus kan helpen specifieke stadia identificeren waar de gebruikersbetrokkenheid daalt. Als er bijvoorbeeld een hoge mate van slapende gebruikers is voor personen die zich in een instapfase bevinden, kan dit wijzen op bruikbaarheidsproblemen of op de behoefte aan betere begeleiding in het product.
 
-## Query-rail
+## Interface
+
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+
+### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen dit meningstype en [ Netto groei ](net-growth.md).
-* **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien dit weergavetype op gebruiker is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Netto groei ](net-growth.md).
+* **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Number of users] en [!UICONTROL Percentage of users] .
 * **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt filteren. U kunt één segment in een vraag omvatten.
 
-## Diagraminstellingen
+### Diagraminstellingen
 
-De weergave [!UICONTROL Active] biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
+De [!UICONTROL Active growth] -analyse biedt de volgende diagraminstellingen, die kunnen worden aangepast in het menu boven het diagram:
 
 * **[!UICONTROL Chart type]**: Het type visualisatie dat u wilt gebruiken. De opties zijn [!UICONTROL Stacked bar] en [!UICONTROL Stacked area] .
 
-## Tijdvergelijking
+### Tijdvergelijking
 
 {{apply-time-comparison}}
 
-![ Actieve tijd vergelijk ](../assets/active-compare.png){style="border:1px solid gray"}
-
-## Datumbereik
+### Datumbereik
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 
