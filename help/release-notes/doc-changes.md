@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 18131b0ccabbc8043e2638c735a4a603029f4b93
+source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
 workflow-type: tm+mt
-source-wordcount: '4084'
+source-wordcount: '4118'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2024** | |
+| Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/technotes/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/technotes/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
 | Workspace en componenten | De documentatie over Analysis Workspace-projecten (projecten, visualisaties en deelvensters) en componenten (annotaties, afmetingen, (berekende) meetgegevens, filters, datumbereiken, waarschuwingen, geplande projecten en doelgroepen) is vernieuwd. |
 | Analyse met instructies | Bijgewerkte documentatie met de beschikbaarheid van [ Geleide Analyse ](/help/guided-analysis/overview.md) van binnen Analysis Workspace. |
 | **September 2024** | |
