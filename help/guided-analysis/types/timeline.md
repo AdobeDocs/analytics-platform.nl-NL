@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,12 @@ Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee compo
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
 
 
-## Voorbeeld
+<!--
 
-Zie hieronder voor een voorbeeld van de analyse.
+## Example
 
-![ Chronologie ](../assets/timeline-new.png)
+See below for an example of the analysis.
+
+![Timeline](../assets/timeline-new.png)
+
+-->

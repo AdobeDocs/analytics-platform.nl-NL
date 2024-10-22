@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,11 @@ Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee compo
 * **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Mogelijke geldige opties zijn Uur, Dagelijks, Wekelijks, Maandelijks en Driemaandelijks. Hetzelfde datumbereik kan verschillende intervallen hebben die het aantal gegevenspunten in het diagram en het aantal kolommen in de tabel beïnvloeden. Bijvoorbeeld, zou het bekijken van een analyse die drie dagen met dagelijkse granulariteit overspant slechts drie gegevenspunten tonen, terwijl een analyse die drie dagen met uurgranulariteit overspant 72 gegevenspunten zou tonen.
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
 
+<!-- 
+## Example
 
-## Voorbeeld
+See below for an example of the analysis.
 
-Zie hieronder voor een voorbeeld van de analyse.
+![Net growth compare](../assets/net-growth-compare.png)
 
-![ Netto groei vergelijk ](../assets/net-growth-compare.png)
+-->

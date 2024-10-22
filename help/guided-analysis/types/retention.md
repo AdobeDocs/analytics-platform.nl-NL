@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Als u een datumbereik selecteert dat dicht bij de huidige dag ligt, worden gebru
 * **[!UICONTROL Analyzing users who did the start event in [Date interval]]**: Als een gebruiker binnen dit datumbereik verbinding maakt met de gebeurtenis, worden deze opgenomen in de analyse. Dit datumbereik garandeert alle gebruikers voldoende tijd om in aanmerking te komen voor alle tijdssegmenten. Dit datumbereik kan anders zijn dan de datum die u hebt geselecteerd als deze dicht bij de huidige dag ligt.
 * **[!UICONTROL Data from [Date interval] is reserved to complete the analysis]**: Als een gebruiker voor het eerst binnen deze periode aangaat, zijn zij **niet** inbegrepen in de analyse. Voor recente datumbereiken zouden deze gebruikers niet in de gelegenheid zijn om voor alle tijdssegmenten in aanmerking te komen. Voor datumbereiken in het verleden waren deze gebruikers actief buiten het geselecteerde datumbereik.
 
-## Voorbeeld
+<!--
+## Example
 
-Zie hieronder voor een voorbeeld van de analyse.
+See below for an example of the analysis.
 
-![ Behoud ](../assets/retention.png)
+![Retention](../assets/retention.png)
+
+-->

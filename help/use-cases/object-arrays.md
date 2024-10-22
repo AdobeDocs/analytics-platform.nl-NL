@@ -5,9 +5,9 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sommige platformschema&#39;s kunnen objectarrays hebben. Adobe Customer Journey Analytics biedt ondersteuning voor het opnemen en rapporteren van objectarrays binnen gebeurtenis-, lookup- en profielgegevens. Een van de meest voorkomende voorbeelden is een winkelwagentje, dat meerdere producten bevat. Elk product heeft een naam, SKU, categorie, prijs, hoeveelheid en andere afmetingen die u wilt bijhouden. Al deze facetten hebben verschillende eisen, maar moeten allen in de zelfde klap passen.
 
-In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de opdracht `products` variabele. Het was een samengevoegde tekenreeks, gescheiden door puntkomma&#39;s (`;`) om de facetten van een product te scheiden, met komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. Customer Journey Analytics breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
+In eerdere versies van Adobe Analytics werd deze functie uitgevoerd met de variabele `products` . Het was een aaneengeschakelde tekenreeks gescheiden door puntkomma&#39;s (`;`) om facetten van een product te scheiden, terwijl door komma&#39;s (`,`) afgebakende producten. Het was de enige variabele met beperkte ondersteuning van &quot;object arrays&quot;. Variabelen met meerdere waarden, zoals list vars, kunnen het equivalent van arrays ondersteunen, maar ze kunnen &#39;objectarrays&#39; niet ondersteunen. Customer Journey Analytics breidt zich op dit concept uit door willekeurig diepe hiërarchieën binnen één enkele rij van gegevens te steunen, een eigenschap niet beschikbaar in om het even welke vorige versie van Adobe Analytics.
 
 ## Zelfde gebeurtenisvoorbeeld
 
@@ -75,7 +75,7 @@ Bij het maken van een gegevensweergave zijn de volgende afmetingen en metrische 
    * product : warranty : length
    * product : warranty : name
    * product : warranty : type
-* **Metrisch:**
+* **Metriek:**
    * product : bestellingen
    * product : eenheden
    * product : inkomsten
@@ -84,7 +84,7 @@ Bij het maken van een gegevensweergave zijn de volgende afmetingen en metrische 
 
 ### Zelfde gebeurtenisvoorbeelden (rapportagegedrag)
 
-Gebruikend enkel de bovengenoemde gebeurtenis, tonen de volgende lijsten de rapporten van de Werkruimte met wat afmeting en metrische combinaties.
+Met alleen de bovenstaande gebeurtenis worden in de volgende tabellen Workspace-rapporten met enkele afmetingen en metrische combinaties weergegeven.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -256,7 +256,7 @@ In Customer Journey Analytics worden metriek met dezelfde naam niet gecombineerd
 
 U kunt echter wel een berekende maateenheid maken die de gewenste maatstaven combineert:
 
-Berekende metrische &quot;totale inkomsten&quot;: `[product : revenue] + [product : warranty : revenue]`
+Berekende metrische &quot;Totale omzet&quot;: `[product : revenue] + [product : warranty : revenue]`
 
 Wanneer u deze berekende metrische waarde toepast, worden de gewenste resultaten weergegeven:
 
@@ -265,3 +265,10 @@ Wanneer u deze berekende metrische waarde toepast, worden de gewenste resultaten
 | `Washing Machines` | `1850` |
 | `Dryers` | `500` |
 | `Total` | `2350` |
+
+
+
+## Beperkingen
+
+Beperkingen gelden wel voor arrays in gegevens die door Customer Journey Analytics worden gebruikt en die als onderdeel van een schema in Experience Platform zijn gemodelleerd. Zie {de modelgrenzen van 0} Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) en [ de formaatgrenzen van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) in de [ StandaardGidsen voor gegevens en de segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).[
+
