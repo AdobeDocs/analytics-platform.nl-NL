@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 0%
 
 De ](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** analysegroepen van de frequentie ![ frequentie {gebeurtenisgegevens door hoe vaak de gebeurtenissen in uw product voorkomen. De verticale as van deze analyse bevat emmers die de frequentie van de gebeurtenis vertegenwoordigen. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 
-+++ Video demo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
-
-+++
-
-![ Frequentie ](../assets/frequency.png)
 
 ## Gebruik hoofdletters
 
@@ -72,3 +66,13 @@ Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee compo
 
 * **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. In het diagram en de tabel worden standaard samengevoegde gegevens weergegeven, met de optie om de tabel uit te vouwen tot een trendweergave. In de trended-weergave worden gebruikers ingesloten op basis van de gebruikte frequentie in totaal en in elk interval. Dit betekent dat één gebruiker in verschillende intervallen naar verschillende emmers kan tellen.
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
+
+
+<!--
+## Example
+
+See below foran example of the analysis.
+
+![Frequency](../assets/frequency.png)
+
+-->

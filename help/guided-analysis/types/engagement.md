@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,8 @@ De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop
 * De eigenschappen in de bodem-linkerzijde van de matrijs zijn uw **lage gevolgen** eigenschappen; zij worden niet wijd goedgekeurd of vaak gebruikt.
 * De eigenschappen in het bodem-recht van de matrijs zijn uw **eenmalig** eigenschappen; zij worden wijd goedgekeurd, maar niet vaak gebruikt.
 
-+++ Video demo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
-+++
-
-![ Beheer vergelijk ](../assets/engagement-compare.png)
 
 ## Gebruik hoofdletters
 
@@ -76,3 +71,11 @@ Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee compo
 
 * **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u trendgegevens wilt weergeven. Bij deze analyse wordt [!UICONTROL Interval] op dezelfde manier behandeld als [!UICONTROL Counted as] in de querytrack. Uuractieve gebruikers worden niet ondersteund.
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Enagement compare](../assets/engagement-compare.png)
+-->
