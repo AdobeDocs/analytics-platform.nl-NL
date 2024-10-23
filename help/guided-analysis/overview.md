@@ -5,9 +5,9 @@ keywords: productanalyse
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,6 @@ ht-degree: 0%
 # Overzicht van geleide analyse
 
 Met een analyse met instructies kunnen gebruikers, van marketing tot product tot analisten, zelf hoogwaardige gegevens en inzichten bedienen over de reis van de klant via geleide workflows, gebaseerd op de kanaalgegevens van de Customer Journey Analytics. Gelijkaardig aan Analysis Workspace en Mobiele scorecards, Geleide analyse gebruikt gegevens van de mening van a [ Gegevens ](/help/data-views/data-views.md), die verwijzingen gegevens in Adobe Experience Platform door a [ Verbinding ](../connections/overview.md). Veel rapporten die zijn gemaakt in de analyse met instructies kunnen naadloos worden overgedragen naar Analysis Workspace voor aanvullend onderzoek.
-
->[!NOTE]
->
->Zie [ Veelgestelde vragen ](faq.md) voor verschillen in terminologie (segmenten, filters, en meer) tussen Geleide analyse en Analysis Workspace.
-
 
 De volgende analyses met instructies zijn beschikbaar:
 
