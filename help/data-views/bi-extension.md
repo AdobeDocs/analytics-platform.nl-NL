@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3051'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,22 @@ De belangrijkste voordelen zijn:
 
 ## Vereisten
 
-U moet beschikken over:
-
+Als u deze functionaliteit wilt gebruiken, kunt u verlopen of niet-verlopen referenties gebruiken om BI-gereedschappen te verbinden met de [!DNL Customer Journey Analytics BI extension] . De [ gids van Referenties ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
+Hieronder vindt u aanvullende stappen voor het instellen van CJA-machtigingen
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
+
+### Referenties vervallen
 
 * Verleende toegang tot Experience Platform en Customer Journey Analytics.
 * Beheerders van beperkte producten hebben toegang tot Customer Journey Analytics, zodat u verbindingen en gegevensweergaven kunt weergeven, bewerken, bijwerken of verwijderen.
+* OF
 * Toegang verleend tot de gegevensweergaven die u wilt openen.
 * Toegang verleend tot de CJA BI-extensie.
-* Gebruik het verlopen van niet-vervallende geloofsbrieven om de hulpmiddelen van BI met [!DNL Customer Journey Analytics BI extension] te verbinden. De [ gids van Referenties ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
+
+### Niet-uitbreidende referenties
+
+* Niet-vervallende gegevens maken op het Adobe Experience-platform.
+* De toegang van de subsidie tot de niet-expirerende geloofsbrieven door de zelfde stappen te volgen die in [ worden vermeld Vervalsende Geloofsbrieven ](#Expiring-credentials).
 
 Zie [ Controle van de Toegang van de Reis van de Klant ](../technotes/access-control.md) voor meer informatie, specifiek de [ extra toestemmingen van Admin van het Product ](../technotes/access-control.md#product-admin-additional-permissions) en [ Toestemmingen van de Customer Journey Analytics in de Admin Console ](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
