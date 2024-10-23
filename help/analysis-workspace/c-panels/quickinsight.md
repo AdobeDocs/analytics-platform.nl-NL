@@ -4,7 +4,7 @@ title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 1%
@@ -77,7 +77,7 @@ Selecteer uw bouwstenen:
 * **[!UICONTROL Analyze]** - specificeer een afmeting (oranje)
 * **[!UICONTROL by]** - geef een metrische waarde op (groen)
 * **[!UICONTROL filter by]** - een filter opgeven (blauw)
-* **[!UICONTROL on]** - geef een gegevensbereik op (paars).
+* **[!UICONTROL on]** - geef een datumbereik op (paars).
 
 U moet ten minste één afmeting en één metrisch selecteren om de visualisatie goed te laten functioneren.
 
@@ -114,7 +114,7 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , w
 
   ![ het Snelle bericht van het Comité van Inzichten getoond nadat u het pictogram van de Hulp selecteert.](assets/qibuilder4.png)
 
-* U kunt meerdere dimensies en metriek analyseren, filters combineren of vergelijken en een gegevensbereik opgeven:
+* U kunt meerdere afmetingen en maatstaven analyseren, filters combineren of vergelijken en een datumbereik opgeven:
 
   ![ het Resultaat van de Bouwer van Snelle Inzichten ](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , w
 
    * **[!UICONTROL filter by]**: u kunt maximaal twee filters toevoegen. Voeg bijvoorbeeld Boeken als filter toe en combineer dat filter met de filters Frequent Bookers en First Time Flyers die u vergelijkt. Zie ➏, ➐ en ➑.
 
-   * on: U kunt het gegevensbereik opgeven. Zie ➒.
+   * op: U kunt het datumbereik opgeven. Zie ➒.
 
 ## Bekende beperkingen
 

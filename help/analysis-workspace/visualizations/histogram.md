@@ -4,7 +4,7 @@ title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Een histogram maken:
 >
 >Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
 
-In het onderstaande voorbeeld wordt een histogram gebruikt om sessies voor het aantal personen te emmeren. Het histogram toont aan dat de meeste personen tussen 16 en 21 zittingen voor de geselecteerde gegevenswaaier hebben.
+In het onderstaande voorbeeld wordt een histogram gebruikt om sessies voor het aantal personen te emmeren. Uit het histogram blijkt dat de meeste personen tussen de 16 en 21 sessies hebben voor het geselecteerde datumbereik.
 
 ![](assets/histogram.png)
 

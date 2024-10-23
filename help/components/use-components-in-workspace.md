@@ -4,7 +4,7 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Elk deelvenster bevat standaard een datumbereik. Er zijn meerdere manieren om ee
 
      ![ Daling een datumwaaier ](assets/add-date-range.gif)
 
-   * Een metrische of afmeting in de visualisatie van een Freeform-tabel. Zie [ gegevenswaaiers van het Gebruik ](/help/components/date-ranges/overview.md#use-date-ranges) voor meer informatie.
+   * Een metrische of afmeting in de visualisatie van een Freeform-tabel. Zie [ de datumwaaiers van het Gebruik ](/help/components/date-ranges/overview.md#use-date-ranges) voor meer informatie.
 
 Voor meer informatie over hoe te om datumwaaiers in Analysis Workspace te gebruiken en te beheren, zie [ overzicht van de waaiers van de Datum ](/help/components/date-ranges/overview.md).
 

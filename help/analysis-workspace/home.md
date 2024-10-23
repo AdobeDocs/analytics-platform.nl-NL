@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 |---|---|---|---|
 | **[!UICONTROL Create filter...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Creeer een nieuwe [ filter ](/help/components/filters/create-filters.md). |
 | **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Creeer nieuw [ berekende metrisch ](/help/components/calc-metrics/calc-metr-overview.md). |
-| **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [ gegevenswaaier ](/help/components/date-ranges/overview.md). |
+| **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [ datumwaaier ](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Creeer een nieuwe [ aantekening ](/help/components/annotations/overview.md). |
 | **[!UICONTROL Create audience...]** | **[!UICONTROL *shift+cmd+u *]** | **[!UICONTROL *shift+ctrl+u *]** | Creeer een nieuw [ publiek ](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Refewsh components]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *alt+shift+r *]** | Vernieuw de componenten in het project. |

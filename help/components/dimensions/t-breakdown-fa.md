@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -21,7 +21,7 @@ U kunt uw gegevens op onbeperkte manieren voor uw specifieke behoeften opsplitse
 
    ![ Resultaat van de Stap die alarm van geselecteerde selectie toont.](assets/breakdown.png)
 
-1. Selecteer in het submenu **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Filters]** of **[!UICONTROL Data ranges]** en selecteer vervolgens een item.
+1. Selecteer in het submenu **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Filters]** of **[!UICONTROL Date ranges]** en selecteer vervolgens een item.
 
 U kunt metriek onderverdelen door afmetingspunten of publieksfilters over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
 

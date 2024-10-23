@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '4610'
 ht-degree: 7%
@@ -430,7 +430,7 @@ Na een tijdje, verifieer dat de gegevens van uw datasets behoorlijk in Customer 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Connections]** in het bovenste menu.
 1. Selecteer de verbinding, bijvoorbeeld **[!UICONTROL Example Connection Using Summary Data]** .
-1. Selecteer een geschikt gegevensbereik in de details **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]** .
+1. Selecteer een geschikt datumbereik in de details **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]** .
    1. Selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) en selecteer dan **[!UICONTROL Last 7 days]**.
    1. Selecteer **[!UICONTROL Apply]** .
 
@@ -550,7 +550,7 @@ Maak een nieuw project in Analysis Workspace om uw samenvattingsgegevens te meld
 Er wordt een leeg canvas weergegeven met een deelvenster [!UICONTROL Freeform] , dat bestaat uit een leeg [!UICONTROL Freeform table] .
 
 1. Zorg ervoor dat de gegevensweergave die voor het deelvenster is geselecteerd, verwijst naar de gegevensweergave die de configuratie voor de samenvattingsgegevens bevat. Bijvoorbeeld: **[!UICONTROL Example Data View Using Summary Data.]**
-1. Zorg ervoor dat het gegevensbereik geldig is voor de gegevens waarover u wilt rapporteren. Bijvoorbeeld: **[!UICONTROL Last 2 full months]** .
+1. Zorg ervoor dat het datumbereik geldig is voor de gegevens waarover u wilt rapporteren. Bijvoorbeeld: **[!UICONTROL Last 2 full months]** .
 1. Sleep **[!UICONTROL Tracking Code (Event)]** vanuit **[!UICONTROL Dimensions]** en zet de dimensie neer op de lege tabel voor vrije vorm.
 1. Sleep **[!UICONTROL Orders]** vanuit **[!UICONTROL Metrics]** en zet de metrische waarde neer op de kolom **[!UICONTROL Events]** om die kolom in de tabel voor vrije vorm te vervangen.
 1. Sleep **[!UICONTROL Revenue]** van **[!UICONTROL Metrics]**, en laat vallen metrisch om als extra kolom aan de lijst van de Vrije vorm toe te voegen.

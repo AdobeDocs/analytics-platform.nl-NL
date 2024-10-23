@@ -4,7 +4,7 @@ description: Leer hoe te om de controlelogboeken van de Customer Journey Analyti
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -111,7 +111,7 @@ De volgende items worden weergegeven:
 
 Selecteer het kanaalpictogram (![ filter ](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
 
-![ Logboek van de Controle die de filters tonen voor de Waaier van Gegevens worden getoond.](assets/filters.png)
+![ Logboek van de Controle die de filters tonen voor de Waaier van de Datum worden getoond.](assets/filters.png)
 
 De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 

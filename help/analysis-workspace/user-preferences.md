@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3355'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | **Gestapelde Grafieken** | | |
 | | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. <p>Voor meer informatie, zie [ gestapelde Bar en bar ](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | Aantal emmers | Kies het aantal gegevensbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Voor meer informatie, zie [ Histogram ](/help/analysis-workspace/visualizations/histogram.md).</p> |
+| | Aantal emmers | Kies het aantal datumbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Voor meer informatie, zie [ Histogram ](/help/analysis-workspace/visualizations/histogram.md).</p> |
 | | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Sessie</li><li>Persoon</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per persoon paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per gebeurtenis kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
 | **[Summiere Verandering](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | Waarde | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percentage wijziging</li><li>Onbewerkt verschil</li></ul> |

@@ -4,7 +4,7 @@ title: Rijinstellingen
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -80,8 +80,8 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 | Optie | Beschrijving |
 |---|---|
 | **[!UICONTROL Create metric from selection]** | Creeer nieuwe metrisch van geselecteerde metrisch. De metrische waarden kunnen Gemiddeld zijn, Media, Kolommaximum, Kolom min, Kolomsom. U kunt Open in berekende metrische bouwer ook selecteren om berekende metrisch tot stand te brengen. |
-| **[!UICONTROL Add time period column]** | Voeg een kolom voor de tijdperiode toe. U wordt aangeboden verscheidene opties, waar de kalenderwaaier van het paneel de *datumwaaier* bepaalt: <li>**[!UICONTROL Prior *datumwaaier *aan deze gegevenswaaier]**</li><li>**[!UICONTROL These *datumwaaier *aan deze datumwaaier]**.</li><li>**[!UICONTROL Custom data range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/components/date-ranges/time-comparison.md) voor meer informatie. |
-| **[!UICONTROL Compare time periods]** | Hiermee voegt u de kolommen voor de tijdsperiode toe. Alleen beschikbaar als de dimensie niet op tijd is gebaseerd. U wordt aangeboden verscheidene opties bepaalt de *datumwaaier*: <li>**[!UICONTROL Prior *datumwaaier *aan deze gegevenswaaier]**</li><li>**[!UICONTROL Custom data range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/components/date-ranges/time-comparison.md) voor meer informatie. |
+| **[!UICONTROL Add time period column]** | Voeg een kolom voor de tijdperiode toe. U wordt aangeboden verscheidene opties, waar de kalenderwaaier van het paneel de *datumwaaier* bepaalt: <li>**[!UICONTROL Prior *datumwaaier *aan deze datumwaaier]**</li><li>**[!UICONTROL These *datumwaaier *aan deze datumwaaier]**.</li><li>**[!UICONTROL Custom date range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/components/date-ranges/time-comparison.md) voor meer informatie. |
+| **[!UICONTROL Compare time periods]** | Hiermee voegt u de kolommen voor de tijdsperiode toe. Alleen beschikbaar als de dimensie niet op tijd is gebaseerd. U wordt aangeboden verscheidene opties bepaalt de *datumwaaier*: <li>**[!UICONTROL Prior *datumwaaier *aan deze datumwaaier]**</li><li>**[!UICONTROL Custom date range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/components/date-ranges/time-comparison.md) voor meer informatie. |
 | **[!UICONTROL Modify attribution models]** | Wijzig het attributiemodel voor de kolom. |
 | **[!UICONTROL Compare attribution model]** | Geef een nieuw toewijzingsmodel op en vergelijk dit met het toewijzingsmodel voor de geselecteerde kolom. Een nieuwe kolom wordt toegevoegd met de nieuwe metriek van het attributiemodel. Bovendien wordt een kolom Percentage wijziging toegevoegd ter vergelijking. |
 | **[!UICONTROL Reset column widths]** | Herstel de kolombreedten naar de standaardbreedte. |
