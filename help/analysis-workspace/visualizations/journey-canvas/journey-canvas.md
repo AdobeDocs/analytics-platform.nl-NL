@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,13 @@ Het belangrijkste inzicht in het canvas Journey wordt weergegeven als een bijsch
 
 Dit bijschrift geeft een overzicht van alle paden op de reis met de hoogste omrekeningskoers.
 
+Wanneer de reis veelvoudige beginknopen bevat, kijkt de titel als dit:
+
 ![ Reis de sectie van het canvas van de Reis ](assets/journey-canvas-caption.png)
+
+Wanneer de reis één enkele beginknoop bevat, kijkt de titel als dit:
+
+![ Reis de greep van het canvas van de Reis enige beginknoop ](assets/journey-canvas-caption-singlestart.png)
 
 Houd rekening met het volgende wanneer u dit bijschrift interpreteert:
 
@@ -176,13 +182,9 @@ Dit komt omdat u, in tegenstelling tot Journey Optimizer, met het canvas Journey
 
 #### Verschillen in functies
 
-Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, zou de functionaliteit voor de volgende eigenschappen, afhankelijk van uw wijzigingen kunnen veranderen:
+Nadat u een reis van Journey Optimizer in het canvas van de Reis wijzigt, de opties die in de [!UICONTROL **montages van de Pijl**] drop-down gebiedsverandering beschikbaar zijn, afhankelijk van uw wijzigingen. Voor meer informatie, zie [ montages ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) vormen.
 
-* De waarden die in de [!UICONTROL **het type van Knoop**] gebiedsverandering worden getoond.
-
-* De opties die in de [!UICONTROL **montages van de Pijl**] drop-down gebiedsverandering beschikbaar zijn.
-
-Voor meer informatie over deze gebieden, zie [ montages ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) vormen.
+Het [!UICONTROL **type van Knoop**] gebied is beschikbaar slechts in Journey Optimizer. Het is niet beschikbaar als u een Journey Optimizer-reis weergeeft op het canvas Journey, ongeacht of u de reis wijzigt op het canvas Journey.
 
 #### Synchronisatieverschillen
 
