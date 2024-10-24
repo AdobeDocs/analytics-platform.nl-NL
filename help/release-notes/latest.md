@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Opmerkingen bij de nieuwste release Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3db41390781517932447ab5e67cf9ba8fe02d774
+source-git-commit: 0920203cc40cdf234186851a931492843182cf5c
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '377'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 15 oktober 2024 tot 
 | **Overdracht van Activa** | Laat u eigendom van componenten zoals projecten, filters, en berekende metriek aan andere gebruikers overbrengen om continuïteit en aangewezen toegang te verzekeren. [Meer informatie](/help/tools/asset-transfer/transfer-assets.md) |  | Oktober 15 |
 | **Geleide analyse: Sluit in Workspace** in | [ Geleide analyse ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview) is nu beschikbaar direct in Analysis Workspace, toelatend gebruikers om dashboards met uitvoerige inzichten van panelen, visualisaties, en geleide analyses tot stand te brengen. Vanuit een nieuw linkerspoor kunt u nieuwe geleide analyses maken die u aan uw projecten kunt toevoegen. U kunt ook toegang krijgen tot opgeslagen analyses met instructies die opnieuw kunnen worden gebruikt als bouwstenen voor veel projecten. | donderdag 2 oktober 2024 | donderdag 23 oktober 2024 |
 | **het gebruik van het Product** | Zie hoe uw organisatie Customer Journey Analytics gebruikt. Als u deze functie inschakelt, wordt in Adobe Experience Platform een gegevensset gemaakt die gegevens verzamelt wanneer iedereen in uw organisatie Analysis Workspace gebruikt. Er worden ook automatisch een verbinding en een gegevensweergave gemaakt, zodat u toegang hebt tot dimensies zoals de meest actieve projecttypen, de meest gebruikte gebruikers en de meest populaire componenten die in projecten worden gebruikt. [ de verbinding van de Documentatie te volgen ] | donderdag 23 oktober 2024 | januari 2025 |
+| **Nieuwe informatie over de factoren van het Verzoek in de Prestaties van Analysis Workspace** | Er is nu een nieuwe sectie &#39;Aanvraagfactoren&#39; beschikbaar voor het analyseren van de prestaties in Analysis Workspace. Meer over leren hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden, zie &quot;de factoren van het Verzoek&quot;in [ optimaliseren de prestaties van Analysis Workspace ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/optimizing-performance#request-factors). |  | woensdag 1 oktober 2024 |
 
 
 ## Oplossingen in Customer Journey Analytics
