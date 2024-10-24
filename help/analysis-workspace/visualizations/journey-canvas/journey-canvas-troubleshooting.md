@@ -3,9 +3,7 @@ description: Voorbeelden bij het configureren van de visualisatie van een journa
 title: Voorbeelden van canvas voor reizen
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
+source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -13,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Problemen met reiscanvas oplossen
-
-{{release-limited-testing}}
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt.
 
