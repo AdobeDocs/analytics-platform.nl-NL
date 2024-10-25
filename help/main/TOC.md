@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 12%
+source-wordcount: '942'
+ht-degree: 11%
 
 ---
 
@@ -363,9 +363,10 @@ ht-degree: 12%
       + [Gegevens van Marketo&#39;s Engage opnemen en gebruiken](../use-cases/data-ingestion/marketo.md)
       + [Experience Platforms publiek opnemen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}
-      + [Gebruiksscenario&#39;s voor gegevensweergaven](../use-cases/data-views/data-views-usecases.md)
-      + [Afmetingen en metriek van binding gebruiken](../use-cases/data-views/binding-dimensions-metrics.md)
-      + [Samenvattingsgegevens gebruiken](../use-cases/data-views/summary-data.md)
+      + [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
+      + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
+      + [Gebruikskwesties voor extensie BI](/help/use-cases/data-views/bi-extension-usecases.md)
    + Gegevens exporteren {#data-export}
       + [Overzicht](../use-cases/data-export/overview.md)
       + [BI-extensie](../use-cases/data-export/bi-extension.md)
