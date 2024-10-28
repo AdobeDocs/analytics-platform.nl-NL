@@ -4,7 +4,7 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: 5e239753928f5c994245025c8b5d2aee3eee6091
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 0%
@@ -18,8 +18,6 @@ ht-degree: 0%
 U kunt gegevens vormen die door Journey Optimizer worden geproduceerd om geavanceerde analyse in Customer Journey Analytics uit te voeren. U kunt deze integratie automatisch configureren. Indien nodig, kunt u extra, handaanpassingen aan de datasets, afmetingen, of metriek maken die in uw verbinding of gegevensmeningen beschikbaar zijn.
 
 ## Journey Optimizer-integratie automatisch configureren
-
-{{release-limited-testing-section}}
 
 Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [ begonnen worden met de nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
 
