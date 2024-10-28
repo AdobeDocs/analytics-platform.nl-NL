@@ -1,9 +1,7 @@
 ---
 title: Optie voor het gebruik van producten
 description: De instellingen voor Weigeren beheren voor individuele gebruikers binnen uw organisatie.
-hide: true
-hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
