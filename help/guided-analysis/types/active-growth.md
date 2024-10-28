@@ -5,14 +5,24 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Active growth] analyse
+# [!UICONTROL Active growth] analyse {#active-growth}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_activegrowth_button"
+>title="Actieve groei"
+>abstract="Identificeer wie nieuw, behouden, terugkeren, of slapend is."
+
+<!-- markdownlint-enable MD034 -->
+
 
 De ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0} PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode. ![ De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
 

@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Timeline] analyse
+# [!UICONTROL Timeline] analyse {#timeline}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_timeline_button"
+>title="Tijdlijn"
+>abstract="Bekijk sessiegebeurtenissen op gebruikersniveau in de loop van de tijd."
+
+<!-- markdownlint-enable MD034 -->
 
 De ![ analyse van de Chronologie ](/help/assets/icons/Timeline.svg) **[!UICONTROL Timeline]** staat u toe om gebruiker-vlakke zittingsgebeurtenissen in tijd waar te nemen om ervaringspatronen te vinden en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 

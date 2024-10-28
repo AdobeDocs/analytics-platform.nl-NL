@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Release impact] analyse
+# [!UICONTROL Release impact] analyse {#release-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_releaseimpact_button"
+>title="Geen effect"
+>abstract="Vergelijk de prestaties in gelijke perioden vóór en na de release."
+
+<!-- markdownlint-enable MD034 -->
 
 De ![ 2} analyse van de Versie ](/help/assets/icons/Release.svg) {toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
 

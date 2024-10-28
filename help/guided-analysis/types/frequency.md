@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Frequency] analyse
+# [!UICONTROL Frequency] analyse {#frequency}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_frequency_button"
+>title="Frequentie"
+>abstract="Verspreiding van herhalingsgebruikersactiviteit voor specifieke gebeurtenissen weergeven."
+
+<!-- markdownlint-enable MD034 -->
 
 De ](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** analysegroepen van de frequentie ![ frequentie {gebeurtenisgegevens door hoe vaak de gebeurtenissen in uw product voorkomen. De verticale as van deze analyse bevat emmers die de frequentie van de gebeurtenis vertegenwoordigen. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 

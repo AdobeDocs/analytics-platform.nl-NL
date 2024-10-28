@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
 
-# Bewaaranalyse
+# Bewaaranalyse {#retention}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_retention_button"
+>title="Bewaren"
+>abstract="Meet hoeveel gebruikers uw product blijven gebruiken."
+
+<!-- markdownlint-enable MD034 -->
 
 De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 

@@ -5,14 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Conversion trends] analyse
+# [!UICONTROL Conversion trends] analyse {#conversion-trends}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_conversiontrends_button"
+>title="Conversietrends"
+>abstract="Wijzigingen in conversietarieven bijhouden in de loop van de tijd."
+
+<!-- markdownlint-enable MD034 -->
+
 
 De ![ analyse van de Trends van de Omzetting ](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
 

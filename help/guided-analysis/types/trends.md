@@ -5,14 +5,23 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Trends] analyse
+# [!UICONTROL Trends] analyse {#trends}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_trends_button"
+>title="Trends"
+>abstract="Meet de betrokkenheid van de gebruiker in de loop van de tijd."
+
+<!-- markdownlint-enable MD034 -->
 
 De ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** analyse verstrekt waardevol inzicht rond de prestaties van uw product of het gedrag van uw gebruikers in tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
 

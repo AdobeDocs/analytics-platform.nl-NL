@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Net growth] analyse
+# [!UICONTROL Net growth] analyse {#net-growth}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_netgrowth_button"
+>title="Netto groei"
+>abstract="Wint of verliest u gebruikers?"
+
+<!-- markdownlint-enable MD034 -->
 
 De ](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0} NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest. ![ De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 

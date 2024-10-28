@@ -5,14 +5,23 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Funnel] analyse
+# [!UICONTROL Funnel] analyse {#funnel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_funnel_button"
+>title="Trechter"
+>abstract="Vergelijk de conversiesnelheden tussen de stappen."
+
+<!-- markdownlint-enable MD034 -->
 
 De ](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**analyse 0} ConversionFunnel verstrekt een visuele vertegenwoordiging van een kritieke gebruikerstraject in uw product. ![ De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
 
