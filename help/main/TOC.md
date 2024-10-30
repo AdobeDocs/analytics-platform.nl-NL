@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 5cb8f62b76d2a311ce562b57e5b95206ed4f2f77
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '983'
 ht-degree: 11%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 11%
 
 + [Adobe Customer Journey Analytics Guide](../getting-started/cja-landing.md)
 + [AI Assistant voor Adobe Customer Journey Analytics](../ai-assistant.md)
++ [Gegevensanalyse AI-assistent voor Customer Journey Analytics](../data-analysis-ai.md)
 
 + Opmerkingen bij de release {#releases}
    + [Meest recente release](../release-notes/latest.md)
-   + [2024-versies](../release-notes/2024.md)
-   + [2023-versies](../release-notes/2023.md)
+   + [2024 releases](../release-notes/2024.md)
+   + [2023 releases](../release-notes/2023.md)
    + [2022 introducties](../release-notes/2022.md)
    + [Release 2021](../release-notes/2021.md)
    + [2020 introducties](../release-notes/2020.md)
@@ -42,7 +43,7 @@ ht-degree: 11%
 + Customer Journey Analytics en Adobe Analytics {#compare-aa-cja}
    + Upgrade naar Customer Journey Analytics {#upgrade-to-cja}
       + [Aan de slag](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
-      + [Kies uw upgradepad](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
+      + [Upgradepad kiezen](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Gegevens verzenden naar platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Aanbevolen proces](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
@@ -69,7 +70,7 @@ ht-degree: 11%
 
 + Gegevensinname {#cja-data-ingestion}
    + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
-   + Hulplijnen voor snel starten invoegen en gebruiken {#ingest-use-guides}
+   + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Edge Network Experience Platform {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
@@ -186,8 +187,8 @@ ht-degree: 11%
       + [Experimentatie](../analysis-workspace/c-panels/experimentation.md)
       + [Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
       + [Gemiddeld aantal minuten voor medium](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Mediagelijktijdige viewers](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Doorgebrachte tijd voor afspelen van media](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Gelijktijdige viewers voor media](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [De afspeeltijd van media is verstreken](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Volgende of vorige item](../analysis-workspace/c-panels/next-previous.md)
       + [Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
    + Projecten cureren, delen en plannen {#curate-share}
@@ -256,7 +257,7 @@ ht-degree: 11%
    + Soorten publiek {#audiences}
       + [Overzicht publiek](../components/audiences/audiences-overview.md)
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
-      + [Doelgroepen beheren](../components/audiences/manage.md)
+      + [Soorten publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
       + [Overzicht van Dimensionen](../components/dimensions/overview.md)
       + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
@@ -311,7 +312,7 @@ ht-degree: 11%
       + [Waarschuwingen maken](/help/components/c-intelligent-alerts/alert-builder.md)
       + [Waarschuwingen beheren](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Functievergelijking](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Gebruiksscenario&#39;s](/help/components/c-intelligent-alerts/alerts-use-cases.md)
+      + [Gebruik hoofdletters](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Exporteren {#exports}
       + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
       + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)
@@ -331,7 +332,7 @@ ht-degree: 11%
    + [Een gegevensblok maken](../report-builder/create-a-data-block.md)
    + [Report Builder Hub](../report-builder/report-builder-hub.md)
    + [Een gegevensweergave selecteren](../report-builder/select-data-view.md)
-   + [Selecteer een datumbereik](../report-builder/select-date-range.md)
+   + [Een datumbereik selecteren](../report-builder/select-date-range.md)
    + [Werken met filters](../report-builder/work-with-filters.md)
    + [Dimensionen filteren](../report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
@@ -396,14 +397,14 @@ ht-degree: 11%
    + Stikken {#stitching}
       + [Gedeelde apparaten](/help/use-cases/stitching/shared-devices.md)
    + Afgeleide velden {#derived-fields}
-      + [Doelstellingen rapporteren](../use-cases/goals-using-derived-fields.md)
+      + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
 
 + Problemen oplossen {#troubleshooting}
    + [Gegevens vergelijken](../troubleshooting/compare.md)
-   + [Consistentie van metrics en doelgroepen](../troubleshooting/consistency-rcdp-cja.md)
+   + [Consistentie van metriek en publiek](../troubleshooting/consistency-rcdp-cja.md)
    + [Gebrek aan machtigingen](../troubleshooting/lack-of-permissions.md)
 
 + Technische notities {#technotes}
