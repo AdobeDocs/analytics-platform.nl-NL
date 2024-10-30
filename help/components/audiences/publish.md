@@ -4,9 +4,9 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1886'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Nadat u een publiek in de Customer Journey Analytics creeert en publiceert, is h
 
 * Het publiek in Platform deelt de zelfde naam en de beschrijving zoals het publiek van de Customer Journey Analytics. De naam wordt toegevoegd met de Customer Journey Analytics publiek-id om ervoor te zorgen dat het publiek uniek is.
 * Wijzigingen die worden aangebracht in de naam of beschrijving van het publiek in de Customer Journey Analytics, worden weerspiegeld in het Experience Platform.
-* Als een publiek in Customer Journey Analytics wordt geschrapt, blijft het publiek beschikbaar in Experience Platform.
+* Als een publiek in Customer Journey Analytics wordt geschrapt, blijft het publiek beschikbaar in Experience Platform tot het profiellidmaatschap van het publiek verloopt. Het profiellidmaatschap verloopt na 420 dagen voor eenmalig publiek en na 16 dagen voor terugkerend publiek.
 
 ## Latentieoverwegingen {#latency}
 
