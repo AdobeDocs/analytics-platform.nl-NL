@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: fc82690c63e7ab46746569a995578951809b43bc
+source-git-commit: 4927fbcaa8d0d0ea251c2827fd6c17c2d55c9f11
 workflow-type: tm+mt
-source-wordcount: '8290'
+source-wordcount: '10205'
 ht-degree: 0%
 
 ---
@@ -140,8 +140,8 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_pages"
->title="Sjabloon Pagina&#39;s"
->abstract="Identificeer de populairste en minst populaire pagina&#39;s. <br/>**dit kan u helpen** beter uw publiek en het soort informatie begrijpen zij het meest geinteresseerd zijn in.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals paginadetagegevens aanpassen om zicht op minder bekeken pagina&#39;s te verhogen, of tijd doorbrengen die de inhoud van uw meest bekeken pagina&#39;s verbetert.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Mening van de Pagina."
+>title="Identificeer de populairste en minst populaire pagina&#39;s."
+>abstract="**dit kan u helpen** beter uw publiek en het soort informatie begrijpen zij het meest geinteresseerd zijn in.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals paginadetagegevens aanpassen om zicht op minder bekeken pagina&#39;s te verhogen, of tijd doorbrengen die de inhoud van uw meest bekeken pagina&#39;s verbetert.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Mening van de Pagina."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,8 +149,8 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_page_views"
->title="Sjabloon Paginaweergaven"
->abstract="Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <br/>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische de Meningen van de Pagina."
+>title="Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. "
+>abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische de Meningen van de Pagina."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,8 +158,8 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_web_visits"
->title="Webbezoeken, sjabloon"
->abstract="Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <br/>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische bezoeken."
+>title="Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische bezoeken."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -185,12 +185,82 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_key_metrics"
->title="Sjabloon voor toetsgegevens"
->abstract="Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <br/>**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. <br/> Dit malplaatje gebruikt de afmeting van de Dag, metrische de Mening van de Pagina, metrische Bezoekers, en de Unieke metrische Bezoekers."
+>title="Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. <br/> Dit malplaatje gebruikt de afmeting van de Dag, metrische de Mening van de Pagina, metrische Bezoekers, en de Unieke metrische Bezoekers."
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_site_sections"
+>title="Bekijk de populairste of best presterende gedeelten van uw site."
+>abstract="**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.<br>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.<br/> Dit malplaatje gebruikt de afmeting van de Sectie van de Plaats en metrische Bebezoeken."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_next_previous_page"
+>title="Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken."
+>abstract="**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.<br/> Dit malplaatje gebruikt het Volgende of vorige puntpaneel."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_campaigns"
+>title="Bekijk de koppelingen die het meest succesvol zijn geweest in het besturen van verkeer naar uw site."
+>abstract="**dit kan u helpen** beter begrijpen welke het volgen codes (en de verbindingen zij met) worden geassocieerd het meest gebruikt in de toegang tot van uw plaats.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw strategie aanpassen waar u verbindingen aan uw plaats toevoegt.<br/> Dit malplaatje gebruikt de het Volgen dimensie van de Code en metrische bezoeken."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_products"
+>title="Bekijk het aantal bestellingen per product. Gegevens worden weergegeven over een tijdsperiode."
+>abstract="**dit kan u helpen** begrijpen welke producten in de hoogste of laagste vraag zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing strategieën aanpassen om hoog-presterende producten te bevorderen of te verbeteren of te beëindigen ondermaatse producten. U kunt ook de productvoorraad aanpassen op basis van uw analyse van de gegevens.<br/> Dit malplaatje gebruikt de afmeting van het Product en metrische Orden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_last_touch"
+>title="Bekijk de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
+>abstract="**dit kan u helpen** begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Afmeting van het Kanaal van de Laatste Aanraking en de Unieke metrische Bezoekers."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_last_touch_detail"
+>title="Gegevens over de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
+>abstract="**dit kan u helpen** niet alleen begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen, maar details over die marketing kanalen resulteren. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Laatste meta van het Detail van het Kanaal van de Aanraking en de Unieke metrische Bezoekers. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_revenue"
+>title="Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** begrijpen hoe de opbrengst in tijd stijgt of daalt. U kunt deze metrisch met om het even welke afmeting combineren om te leren welke afmetingspunten aan opbrengst droegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de opbrengst van de projecttoekomst die op vorige tendensen wordt gebaseerd. U zou een andere dimensie, zoals de het Volgen codedimensie, kunnen ook toevoegen om te leren welke campagnes de meeste opbrengst produceren.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Opbrengst."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_orders"
+>title="Het totale aantal aankoopgebeurtenissen weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** beter begrijpen hoe de belangstelling in uw producten en de diensten in tijd stijgt of daalt. U kon een segment toepassen om te leren welke klanten of geographies de meeste orden plaatsen en hoe die orden in tijd trending.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door orden vóór en na de gelanceerde campagne te vergelijken. Of je kunt vakantiebestellingen van jaar tot jaar vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Orden."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
@@ -205,35 +275,161 @@ De volgende sjablonen zijn beschikbaar:
 | **[!UICONTROL Cross-Channel Comparison]** |  |
 | [!UICONTROL **Belangrijkste cijfers**] | <!--duplicated in Engagement section--> Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. </p><p>Deze sjabloon gebruikt de afmetingen Dag, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers en de metrische waarde van de unieke bezoekers.</p> |
 | [!UICONTROL **Sitesecties**] | Bekijk de populairste of best presterende gedeelten van uw site. <p>**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.</p> <p>Deze sjabloon gebruikt de dimensie Site-sectie en de metrische weergave Bezoekingen.</p> |
-| [!UICONTROL **Volgende &amp; Vorige Pagina**] | Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken. <p>**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.</p><p>Deze sjabloon gebruikt het deelvenster Volgende of Vorige item.</p> |
+| [!UICONTROL **Volgende en Vorige Pagina**] | Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken. <p>**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.</p><p>Deze sjabloon gebruikt het deelvenster Volgende of Vorige item.</p> |
 | [!UICONTROL **Campagnes (het Volgen code)**] | Bekijk de koppelingen die het meest succesvol zijn geweest in het besturen van verkeer naar uw site. <p>**dit kan u helpen** beter begrijpen welke het volgen codes (en de verbindingen zij met) worden geassocieerd het meest gebruikt in de toegang tot van uw plaats.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw strategie aanpassen waar u verbindingen aan uw plaats toevoegt.</p><p>Deze sjabloon gebruikt de dimensie Tracking Code en de metrische bezoekers.</p> |
 | [!UICONTROL **Producten**] | Bekijk het aantal bestellingen per product. Gegevens worden weergegeven over een tijdsperiode. <p>**dit kan u helpen** begrijpen welke producten in de hoogste of laagste vraag zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing strategieën aanpassen om hoog-presterende producten te bevorderen of te verbeteren of te beëindigen ondermaatse producten. U kunt ook de productvoorraad aanpassen op basis van uw analyse van de gegevens.</p><p>Deze malplaatje gebruikt de afmeting van het Product en de metrische Orden.</p> |
 | [!UICONTROL **het Laatste Kanaal van de Aanraak Marketing**] | Bekijk de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen).<p>**dit kan u helpen** begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.</p><p>Deze sjabloon gebruikt de afmeting Laatste aanraakkanaal en de metrische waarde Unieke bezoekers.</p> |
 | [!UICONTROL **het Laatste Detail van het Kanaal van de Aanraak op de Marketing**] | Gegevens over de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen).<p>**dit kan u helpen** niet alleen begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen, maar details over die marketing kanalen resulteren. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.</p><p>Deze sjabloon gebruikt de dimensie Laatste aanraakkanaaldetails en de metrische waarde Unieke bezoekers.</p> |
-| [!UICONTROL **Omzet**] | Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden.<p>**dit kan u helpen** begrijpen hoe de opbrengst in tijd stijgt of daalt. U kunt deze metrisch met om het even welke afmeting combineren om te leren welke afmetingspunten aan opbrengst droegen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de opbrengst van de projecttoekomst die op vorige tendensen wordt gebaseerd. U zou een andere dimensie, zoals de het Volgen codedimensie, kunnen ook toevoegen om te leren welke campagnes de meeste opbrengst produceren.</p><p>Deze sjabloon gebruikt de dimensie Dag en de maatstaf van Inkomsten.</p> |
-| [!UICONTROL **Orders**] | Het totale aantal aankoopgebeurtenissen weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe de belangstelling in uw producten en de diensten in tijd stijgt of daalt. U kon een segment toepassen om te leren welke klanten of geographies de meeste orden plaatsen en hoe die orden in tijd trending.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door orden vóór en na de gelanceerde campagne te vergelijken. Of je kunt vakantiebestellingen van jaar tot jaar vergelijken.</p><p>Deze malplaatje gebruikt de afmeting van de Dag en metrische Orden.</p> |
+| [!UICONTROL **Omzet**] | <!--duplicated in Web Conversion section-->Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden.<p>**dit kan u helpen** begrijpen hoe de opbrengst in tijd stijgt of daalt. U kunt deze metrisch met om het even welke afmeting combineren om te leren welke afmetingspunten aan opbrengst droegen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de opbrengst van de projecttoekomst die op vorige tendensen wordt gebaseerd. U zou een andere dimensie, zoals de het Volgen codedimensie, kunnen ook toevoegen om te leren welke campagnes de meeste opbrengst produceren.</p><p>Deze sjabloon gebruikt de dimensie Dag en de maatstaf van Inkomsten.</p> |
+| [!UICONTROL **Orders**] | <!--duplicated in Web Conversion section-->Het totale aantal aankoopgebeurtenissen weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe de belangstelling in uw producten en de diensten in tijd stijgt of daalt. U kon een segment toepassen om te leren welke klanten of geographies de meeste orden plaatsen en hoe die orden in tijd trending.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door orden vóór en na de gelanceerde campagne te vergelijken. Of je kunt vakantiebestellingen van jaar tot jaar vergelijken.</p><p>Deze malplaatje gebruikt de afmeting van de Dag en metrische Orden.</p> |
 
-### web: betrokkenheid
+### web: betrokkenheid {#web-engagement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_time_spent"
+>title="Bekijk de gemiddelde tijd die bezoekers doorbrengen aan uw site tijdens elk bezoek en de gemiddelde tijd die gebruikers doorbrengen voordat een geslaagde gebeurtenis plaatsvindt. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** beter de niveaus van de bezoekersbetrokkenheid begrijpen en hoeveel tijd het bezoekers neemt om een gewenste actie uit te voeren, zoals het maken van een aankoop.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats bezoekers&#39; capaciteit verbeteren om een succesgebeurtenis snel te bereiken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Tijd die per (seconden) metrisch van het Bezoek, de afmeting van de Dag, en de Tijd die per (seconden) metrisch van het Bezoek wordt uitgegeven."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_web_content_consumption"
+>title="Bekijk welke webinhoud het meest wordt verbruikt en aantrekkelijke gebruikers is."
+>abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_media_content_consumption"
+>title="Bekijk welke media-inhoud het meest wordt verbruikt en aantrekkelijke gebruikers zijn."
+>abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Satterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_page_summary"
+>title="Belangrijke informatie over om het even welke pagina over uw eigenschappen bekijken. Toont paginameningen, een trendlijn, een stroomvisualisatie, en meer."
+>abstract="**dit kan u helpen** beter begrijpen hoe de mensen met een bepaalde pagina in wisselwerking staan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de prestaties van de pagina over een periode analyseren of beter begrijpen wat verkeer aan de pagina drijft.<br/> Dit malplaatje gebruikt metrisch de Meningen van de Pagina. Het gebruikt ook de Lijnvisualisatie en de visualisatie van de Stroom."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_entry_pages"
+>title="Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken."
+>abstract="**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_exit_pages"
+>title="Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten."
+>abstract="**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Zeer belangrijke metriek**] | <!--duplicated in Most popular section--> Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. </p><p>Deze sjabloon gebruikt de afmetingen Dag, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers en de metrische waarde van de unieke bezoekers.</p> |
-| [!UICONTROL **de meningen van de Pagina**] | <!--duplicated in Most popular section-->Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.</p><p>Deze sjabloon gebruikt de afmetingen Dag en Paginaweergaven metrisch.</p> |
+| [!UICONTROL **Belangrijkste cijfers**] | <!--duplicated in Most popular section--> Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. </p><p>Deze sjabloon gebruikt de afmetingen Dag, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers en de metrische waarde van de unieke bezoekers.</p> |
+| [!UICONTROL **Paginaweergaven**] | <!--duplicated in Most popular section-->Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.</p><p>Deze sjabloon gebruikt de afmetingen Dag en Paginaweergaven metrisch.</p> |
 | [!UICONTROL **Pagina&#39;s**] | <!--duplicated in Most popular section-->Identificeer de populairste en minst populaire pagina&#39;s. <p>**dit kan u helpen** beter uw publiek en het soort informatie begrijpen zij het meest geinteresseerd zijn in.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals paginadetagegevens aanpassen om zicht op minder bekeken pagina&#39;s te verhogen, of tijd doorbrengen die de inhoud van uw meest bekeken pagina&#39;s verbetert.</p><p>Deze sjabloon gebruikt de afmetingen Pagina en Paginaweergaven.</p> |
 | [!UICONTROL **Bezoeken**] | <!--duplicated in Most popular section-->Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.</p><p>Deze sjabloon gebruikt de dimensie Dag en de metrische weergave Bezoekingen.</p> |
 | [!UICONTROL **Bezoekers**] | <!--duplicated in Most popular section-->Het totale aantal unieke bezoekers weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het bereik en de publieksgrootte van uw plaats in tijd of vergeleken met een vroegere periode stijgt of daalt.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of een onlangs gelanceerde marketing campagne succesvol was in het aantrekken van nieuwe mensen aan de plaats door unieke bezoekers vóór en na de gelanceerde campagne te vergelijken. Of je vergelijkt het aantal mensen dat de site bezoekt tijdens de vakantie van jaar tot jaar.</p><p>Deze sjabloon gebruikt de dimensie Dag en de metrische waarde voor Unieke bezoekers.</p> |
-| [!UICONTROL **bestede Tijd**] | Bekijk de gemiddelde tijd die bezoekers doorbrengen aan uw site tijdens elk bezoek en de gemiddelde tijd die gebruikers doorbrengen voordat een geslaagde gebeurtenis plaatsvindt. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter de niveaus van de bezoekersbetrokkenheid begrijpen en hoeveel tijd het bezoekers neemt om een gewenste actie uit te voeren, zoals het maken van een aankoop.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats bezoekers&#39; capaciteit verbeteren om een succesgebeurtenis snel te bereiken.</p><p>Deze sjabloon gebruikt de afmetingen van de Dag en de metrische waarde van de Tijd die per Bezoek (seconden) wordt uitgegeven, de dimensie van de Dag, en de metrische waarde van de Tijd die per Bezoek (seconden) wordt uitgegeven.</p> |
-| [!UICONTROL **secties van de Plaats**] | <!--duplicated in Most popular section-->Bekijk de populairste of best presterende gedeelten van uw site. <p>**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.</p> <p>Deze sjabloon gebruikt de dimensie Site-sectie en de metrische weergave Bezoekingen.</p> |
-| [!UICONTROL **de inhoudsconsumptie van het Web**] | Bekijk welke webinhoud het meest wordt verbruikt en aantrekkelijke gebruikers is.<p>**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen van de Pagina en de metrische weergave van de Pagina, de metrische bezoekers, de metrische waarde van de Unieke bezoekers, de maateenheid van de Invoersnelheid, de meeteenheid voor Stuitsnelheid, de maateenheid Afsluitingsfrequentie en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties.</p> |
-| [!UICONTROL **de inhoudsconsumptie van Media**] | Bekijk welke media-inhoud het meest wordt verbruikt en aantrekkelijke gebruikers zijn.<p>**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen van de Pagina en de metrische weergave van de Pagina, de metrische bezoekers, de metrische waarde van de Unieke bezoekers, de maateenheid van de Invoersnelheid, de meeteenheid voor Stuitsnelheid, de maateenheid Afsluitingsfrequentie en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Satterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht.</p> |
-| [!UICONTROL **Volgende en vorige pagina**] | Bekijk de meest gangbare plaatsen die mensen voor of na het bezoeken van een bepaalde plaats bezoeken.<p>**dit kan u** helpen beter begrijpen waar de mensen op eerst het ingaan van de plaats gaan, welke secties van de plaatspubliek het meest bezoeken, en welke pagina&#39;s het meest waarschijnlijk zullen worden bezocht alvorens de plaats te verlaten.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen Pagina, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers, de metrische waarde voor Unieke bezoekers, de invoersnelheid, de metrische waarde voor Stuitsnelheid, de maateenheid voor Afloopsnelheid en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Scatterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht.</p> |
+| [!UICONTROL **Tijd besteed**] | Bekijk de gemiddelde tijd die bezoekers doorbrengen aan uw site tijdens elk bezoek en de gemiddelde tijd die gebruikers doorbrengen voordat een geslaagde gebeurtenis plaatsvindt. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter de niveaus van de bezoekersbetrokkenheid begrijpen en hoeveel tijd het bezoekers neemt om een gewenste actie uit te voeren, zoals het maken van een aankoop.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats bezoekers&#39; capaciteit verbeteren om een succesgebeurtenis snel te bereiken.</p><p>Deze sjabloon gebruikt de afmetingen van de Dag en de metrische waarde van de Tijd die per Bezoek (seconden) wordt uitgegeven, de dimensie van de Dag, en de metrische waarde van de Tijd die per Bezoek (seconden) wordt uitgegeven.</p> |
+| [!UICONTROL **Sitesecties**] | <!--duplicated in Most popular section-->Bekijk de populairste of best presterende gedeelten van uw site. <p>**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.</p> <p>Deze sjabloon gebruikt de dimensie Site-sectie en de metrische weergave Bezoekingen.</p> |
+| [!UICONTROL **Verbruik van de Inhoud van het Web**] | Bekijk welke webinhoud het meest wordt verbruikt en aantrekkelijke gebruikers is.<p>**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen van de Pagina en de metrische weergave van de Pagina, de metrische bezoekers, de metrische waarde van de Unieke bezoekers, de maateenheid van de Invoersnelheid, de meeteenheid voor Stuitsnelheid, de maateenheid Afsluitingsfrequentie en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties.</p> |
+| [!UICONTROL **Verbruik van de Inhoud van Media**] | Bekijk welke media-inhoud het meest wordt verbruikt en aantrekkelijke gebruikers zijn.<p>**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen van de Pagina en de metrische weergave van de Pagina, de metrische bezoekers, de metrische waarde van de Unieke bezoekers, de maateenheid van de Invoersnelheid, de meeteenheid voor Stuitsnelheid, de maateenheid Afsluitingsfrequentie en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Satterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht.</p> |
+| [!UICONTROL **Volgende en vorige pagina**] | <!--duplicated in Most popular section-->Bekijk de meest gangbare plaatsen die mensen voor of na het bezoeken van een bepaalde plaats bezoeken.<p>**dit kan u** helpen beter begrijpen waar de mensen op eerst het ingaan van de plaats gaan, welke secties van de plaatspubliek het meest bezoeken, en welke pagina&#39;s het meest waarschijnlijk zullen worden bezocht alvorens de plaats te verlaten.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s mensen uit de plaats <!-- not sure about these takeaways... --> eerder zullen leiden.</p> <p>Deze sjabloon gebruikt de afmetingen Pagina, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers, de metrische waarde voor Unieke bezoekers, de invoersnelheid, de metrische waarde voor Stuitsnelheid, de maateenheid voor Afloopsnelheid en de metrische waarde voor Inhoudssnelheid. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Scatterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht.</p> |
 | **Paginaoverzicht** | Belangrijke informatie over om het even welke pagina over uw eigenschappen bekijken. Toont paginameningen, een trendlijn, een stroomvisualisatie, en meer.  <p>**dit kan u helpen** beter begrijpen hoe de mensen met een bepaalde pagina in wisselwerking staan.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de prestaties van de pagina over een periode analyseren of beter begrijpen wat verkeer aan de pagina drijft.</p><p>Deze sjabloon gebruikt de metrische weergave van paginaweergaven. Het gebruikt ook de Lijnvisualisatie en de visualisatie van de Stroom.</p> |
 | **de Pagina&#39;s van de Ingang** | Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken. <p>**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **Pagina&#39;s van de Uitgang** | Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten.<p>**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 
-### Web: Conversie
+### Web: Conversie {#web-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_product_conversion_funnel"
+>title="Sjabloon voor productieconversie"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_product_performance"
+>title="Bekijk welke producten het best presteren."
+>abstract="**dit kan u helpen** beter begrijpen welke producten het meest succesvol zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals verhoging van financiering aan succesvolle producten en vermindering financiering aan minder succesvolle producten.<br/> dit malplaatje gebruikt de Weergaven van het Product, de Toevoegingen van de Kar, Orden, Inkomsten, en de metriek van Eenheden. Het gebruikt ook de dimensie van het Product."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_conversion_funnels"
+>title="Bekijk het aantal keren dat mensen toetsafhandelingsgebeurtenissen hebben uitgevoerd, zoals het toevoegen van items aan hun winkelwagentje, het bekijken van hun winkelwagentje, het verwijderen van items uit hun winkelwagentje en het uitchecken."
+>abstract="**dit kan u helpen** beter begrijpen welke delen van het controleproces trechter die tot omzetting leiden en die aan kartontroeping vatbaarder zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als vermindering wrijving bij bepaalde stappen van het controleproces.<br/> Dit malplaatje gebruikt"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_carts"
+>title="Bekijk het aantal personen dat een product aan hun winkelwagentje heeft toegevoegd."
+>abstract="**dit kan u helpen** beter het aantal mensen begrijpen die een product aan hun kar, in tegenstelling tot het algemene aantal producten toevoegen die aan een kar worden toegevoegd.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als maatregel de doeltreffendheid van uw productpagina&#39;s.<br/> Dit malplaatje gebruikt metrische Waren."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_views"
+>title="Bekijk het aantal keren dat mensen hun winkelwagentje bekeken."
+>abstract="**dit kan u helpen** beter de controleervaring in een inspanning begrijpen om het tarief van de kartontroeping te verminderen, of de tijd tussen karttoevoegingen en controles onder verschillende producten te analyseren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals aanbiedingsbevorderingen voor producten die in winkelwagentjes het langst blijven en bij het grootste risico voor verlaten zijn.<br/> Dit malplaatje gebruikt metrische de Meningen van het Kart."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_additions"
+>title="Bekijk het aantal keren dat mensen iets aan hun winkelwagen hebben toegevoegd."
+>abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanteninteresse in een product hoog genoeg is dat zij het aan hun kar toevoegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als productaanbevelingen voor alle klanten verbeteren. Dit kan worden gedaan door te analyseren welke producten vaak aan dezelfde karretjes worden toegevoegd en door verwante producten voor te stellen op basis van producten die al in de kar staan."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_removals"
+>title="Bekijk het aantal keren dat mensen iets uit hun winkelwagentje hebben verwijderd."
+>abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanten niet meer in een product geinteresseerd zijn, of het kan u helpen begrijpen waar de problemen in het controleproces zouden kunnen bestaan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als om het even welke potentiële barrières verwijderen die in het controleproces, zoals een gecompliceerde gebruikerservaring zouden kunnen bestaan.<br/> Dit malplaatje gebruikt metrische de Verwijderingen van de Kar."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_purchase_conversion_funnel"
+>title="Sjabloon voor conversietrechter"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
@@ -248,8 +444,8 @@ De volgende sjablonen zijn beschikbaar:
 | **Toevoegingen aan winkelwagen** | Bekijk het aantal keren dat mensen iets aan hun winkelwagen hebben toegevoegd. <p>**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanteninteresse in een product hoog genoeg is dat zij het aan hun kar toevoegen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als productaanbevelingen voor alle klanten verbeteren. Dit kan worden gedaan door te analyseren welke producten vaak aan dezelfde karretjes worden toegevoegd en door verwante producten voor te stellen op basis van producten die al in de kar staan. |
 | **Verwijderingen uit winkelwagen** | Bekijk het aantal keren dat mensen iets uit hun winkelwagentje hebben verwijderd.<p>**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanten niet meer in een product geinteresseerd zijn, of het kan u helpen begrijpen waar de problemen in het controleproces zouden kunnen bestaan.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als om het even welke potentiële barrières verwijderen die in het controleproces, zoals een gecompliceerde gebruikerservaring zouden kunnen bestaan.</p><p>Deze sjabloon gebruikt de metrische gegevens voor winkelwagentjes. |
 | **Kanaal van de Omzetting van de Aankoop** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Omzet** | Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft.<p>**dit kan u** helpen beter begrijpen welke afmetingspunten aan opbrengst, door metrische Inkomsten met om het even welke afmeting te combineren bijdroegen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de het Volgen codedimensie) die tot opbrengst bijdroegen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de opbrengstdoelstellingen ontmoeten u zou verwachten.</p><p>In deze sjabloon wordt de maatstaf voor inkomsten gebruikt. |
-| **Orders** | Geef het totale aantal aankoopgebeurtenissen op uw site weer. <p>**dit kan u helpen** beter begrijpen welke afmetingspunten aan een orde droegen, door metrische Orden met om het even welke afmeting te combineren. U kunt bijvoorbeeld de beste campagnes (met de dimensie Trackingcode) zien die hebben bijgedragen aan aankopen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de aankoopdoelstellingen ontmoeten u zou verwachten. </p><p>Deze sjabloon gebruikt metrische opdrachten. |
+| **Omzet** | <!--duplicated in Most popular section-->Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft.<p>**dit kan u** helpen beter begrijpen welke afmetingspunten aan opbrengst, door metrische Inkomsten met om het even welke afmeting te combineren bijdroegen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de het Volgen codedimensie) die tot opbrengst bijdroegen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de opbrengstdoelstellingen ontmoeten u zou verwachten.</p><p>In deze sjabloon wordt de maatstaf voor inkomsten gebruikt. |
+| **Orders** | <!--duplicated in Most popular section-->Geef het totale aantal aankoopgebeurtenissen op uw site weer. <p>**dit kan u helpen** beter begrijpen welke afmetingspunten aan een orde droegen, door metrische Orden met om het even welke afmeting te combineren. U kunt bijvoorbeeld de beste campagnes (met de dimensie Trackingcode) zien die hebben bijgedragen aan aankopen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de aankoopdoelstellingen ontmoeten u zou verwachten. </p><p>Deze sjabloon gebruikt metrische opdrachten. |
 
 ### Web: Publiek
 
