@@ -1,5 +1,5 @@
 ---
-title: Rapportactiviteiten weergeven in de rapportagManager
+title: Rapportactiviteiten weergeven in de manager van de activiteit Rapportering
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 solution: Customer Journey Analytics
 feature: Basics
@@ -25,7 +25,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
 >title="Verbindingen"
->abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
+>abstract="In deze tabel worden de verbindingen weergegeven waarvoor u rechten hebt om rapportactiviteiten te beheren. In elke kolom van de tabel is informatie beschikbaar over elke verbinding."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -115,9 +115,9 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het maxim
 
 #### Verzoeken om grafiek
 
-De grafiek van Verzoeken toont het aantal verwerkte en een rij gevormde verzoeken voor de geselecteerde verbinding over de laatste 2 uren.
+De grafiek Verzoeken toont het aantal verwerkte en een rij gevormde verzoeken voor de geselecteerde verbinding over de laatste 2 uren.
 
-Houd de cursor boven het diagram om punten in de tijd weer te geven waar het maximale aantal aanvragen het hoogst was voor die minuut.
+Beweeg over de grafiek om punten in tijd te bekijken waar het maximumaantal verzoeken voor die minuut het hoogst was.
 
 * **x-as**: Het aantal verwerkte en een rij gevormde verzoeken over het laatste 2 uur tijdkader.
 * **y-as**: Het aantal verwerkte verzoeken (in groen) en een rij gevormde verzoeken (in paars), door minuut.
@@ -128,12 +128,12 @@ Houd de cursor boven het diagram om punten in de tijd weer te geven waar het max
 
 De rij die grafiek toont de gemiddelde rij wacht tijd (in seconden) voor het melden van verzoeken om de geselecteerde verbinding over de laatste 2 uren.
 
-Houd de cursor boven het diagram om punten in de tijd te bekijken waar de maximale gemiddelde wachttijd het hoogst was voor die minuut.
+Beweeg over de grafiek om punten in tijd te bekijken waar de maximumgemiddelde wachttijd hoogste voor die minuut was.
 
 * **x-as**: De gemiddelde rij wacht tijd voor het melden van verzoeken over het laatste een tijdkader van 2 uur.
-* **y-as**: Het gemiddelde wacht tijd (in seconden).
+* **y-as**: De gemiddelde wachttijd (in seconden).
 
-  ![ de Afzonderlijke grafiek van Gebruikers ](assets/queueing-graph.png)
+  ![ Afzonderlijke grafiek van Gebruikers ](assets/queueing-graph.png)
 
 ### Tabel weergeven {#view-table}
 
@@ -165,9 +165,9 @@ Wanneer u het [!UICONTROL **Verzoek**] lusje selecteert, zijn de volgende kolomm
 | [!UICONTROL **Gebruiker**] | De gebruiker die de aanvraag heeft gestart. <p>**Nota:** als de waarde van deze kolom [!UICONTROL **Onbekend**] is, betekent dit dat de verzoekmeta-gegevens niet beschikbaar voor de gebruiker zijn.</p> |
 | [!UICONTROL **Project**] | Opgeslagen Workspace-projectnamen, API-rapport-id&#39;s enzovoort. (Metagegevens kunnen per toepassing verschillen.)<p>**Nota:** als de waarde van deze kolom [!UICONTROL **Onbekend**] is, betekent dit dat het project niet is bewaard of dat de verzoekmeta-gegevens niet beschikbaar voor de gebruiker is.</p> |
 | [!UICONTROL **Status**] | Statusindicatoren: <ul><li>**Lopend**: Het verzoek wordt momenteel verwerkt.</li><li>**Hangende**: Het verzoek wacht om te worden verwerkt.</li></ul> |
-| [!UICONTROL **Complexiteit**] | Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken. <p>Mogelijke waarden zijn:</p> <ul><li>[!UICONTROL **Laag**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **Hoog**]</li></ul>Deze waarde wordt beïnvloed door de waarden in de volgende kolommen:<ul><li>[!UICONTROL **grenzen van de Maand**]</li><li>[!UICONTROL **Kolommen**]</li><li>[!UICONTROL **Segmenten**]</li></ul> |
-| [!UICONTROL **grenzen van de Maand**] | Het aantal maanden dat in een verzoek is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
-| [!UICONTROL **Kolommen**] | Het aantal metriek en onderverdelingen in het verzoek. Meer kolommen maken de aanvraag complexer. |
+| [!UICONTROL **Complexiteit**] | Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken. <p>Mogelijke waarden zijn:</p> <ul><li>[!UICONTROL **Laag**]</li><li>[!UICONTROL **Normaal**]</li><li>[!UICONTROL **Hoog**]</li></ul>Deze waarde wordt beïnvloed door de waarden in de volgende kolommen:<ul><li>[!UICONTROL **grenzen van de Maand**]</li><li>[!UICONTROL **Kolommen**]</li><li>[!UICONTROL **Segmenten**]</li></ul> |
+| [!UICONTROL **Maandgrenzen**] | Het aantal maanden dat in een verzoek is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
+| [!UICONTROL **Kolommen**] | Het aantal metrics en uitsplitsingen in de aanvraag. Meer kolommen vergroten de complexiteit van de aanvraag. |
 | [!UICONTROL **Segmenten**] | Het aantal segmenten dat op de aanvraag wordt toegepast. Meer segmenten maken de aanvraag complexer. |
 
 {style="table-layout:auto"}
@@ -198,7 +198,7 @@ Wanneer u het [!UICONTROL **lusje van het Project**] selecteert, zijn de volgend
 | [!UICONTROL **Project**] | Het project waar de verzoeken werden ingediend. |
 | [!UICONTROL **Aantal verzoeken**] | Het aantal verzoeken verbonden aan het project. |
 | [!UICONTROL **Aantal gebruikers**] | Het aantal gebruikers dat aan het project is gekoppeld. <!-- ??? --> |
-| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Workspace-projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende metriek, Annotaties, Soorten publiek enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen van anderen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
+| [!UICONTROL **Toepassing**] | De toepassingen die worden ondersteund door [!UICONTROL Reporting Activity Manager] zijn: <ul><li>ANALYSIS WORKSPACE UI</li><li>Workspace-projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende metriek, Annotaties, Soorten publiek enzovoort.</li><li>API-aanroepen vanuit de 2.0-API</li><li>Waarschuwingen<li>Volledige tabelexport</li><li>Delen met koppelingen voor iedereen</li><li>Analyse met instructies</li><li>Een andere toepassing die de Analyse meldend motor vraagt</li></li></ul> |
 | [!UICONTROL **Avg Complexiteit**] | De gemiddelde complexiteit van aanvragen die in het project zijn opgenomen. <p>Niet alle verzoeken vereisen de zelfde hoeveelheid tijd om te verwerken. De complexiteit van aanvragen kan u helpen een algemeen idee te geven van de tijd die nodig is om de aanvraag te verwerken.</p><p>De waarde in deze kolom is gebaseerd op een score die wordt bepaald door de waarden in de volgende kolommen:</p><ul><li>[!UICONTROL **Gem de grenzen van de Maand**]</li><li>[!UICONTROL **Avg Kolommen**]</li><li>[!UICONTROL **Avg Segmenten**]</li></ul> |
 | [!UICONTROL **Gem de grenzen van de Maand**] | Het gemiddelde aantal maanden dat in de verzoeken is opgenomen. Meer maandgrenzen vergroot de complexiteit van het verzoek. |
 | [!UICONTROL **Avg Kolommen**] | Het gemiddelde aantal metriek en onderverdelingen in de inbegrepen verzoeken. Meer kolommen maken de aanvraag complexer. |

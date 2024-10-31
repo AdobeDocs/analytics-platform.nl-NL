@@ -57,13 +57,13 @@ De bestede afspeeltijd kan u helpen begrijpen:
 
 +++
 
-## Gebruiken
+## Gebruik
 
 Een deelvenster **[!UICONTROL Media playback time spent]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Media playback time spent]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een **[!UICONTROL Media playback time spent]** -deelvenster. Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
 
-1. Zorg ervoor dat u een gegevensweergave selecteert voor het deelvenster waarvoor componenten zijn geconfigureerd via de invoegtoepassing voor het streamen van mediaconzameling.
+1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de invoegtoepassing voor de verzameling van streaming media.
 
 1. Specificeer de [ input ](#panel-input) voor het paneel.
 
@@ -72,13 +72,13 @@ Een deelvenster **[!UICONTROL Media playback time spent]** gebruiken:
 
 ### Deelvensterinvoer
 
-U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende invoerinstellingen:
+U kunt het deelvenster Tijd voor afspelen van media configureren met behulp van de volgende invoerinstellingen:
 
 | Instelling | Beschrijving |
 |---|---|
 | Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag. U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven.<br> Deze visualisatie is beperkt tot 1440 rijen van gegevens (bijvoorbeeld, 24 uur bij miniem-vlakke granulariteit). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
-| Granulariteit | De standaardwaarde voor granulariteit is Minute.<br> Deze visualisatie is beperkt tot 1440 rijen van gegevens (bijvoorbeeld, 24 uur bij miniem-vlakke granulariteit). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
-| Samenvattingsnummers deelvenster | Er is een samenvattingsnummer beschikbaar om datum- of tijdgegevens voor de afspeeltijd te zien. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimum worden details voor de dal weergegeven. De som verhoogt de totale playbacktijd die voor de selectie wordt doorgebracht. De paneelstandaard toont slechts Maximum, maar u kunt het veranderen om Minimum, Som, of om het even welke combinatie drie te tonen.<br> als u onderverdelingen gebruikt, wordt een samenvattingsaantal getoond voor elk. |
+| Granulariteit | De standaardwaarde voor granulariteit is Minute.<br> Deze visualisatie is beperkt tot 1440 rijen van gegevens (bijvoorbeeld, 24 uur bij miniem-vlakke granulariteit). Als een datumbereik en een combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om ruimte te maken voor het volledige datumbereik. |
+| Samenvattingsnummers deelvenster | Er is een samenvattingsnummer beschikbaar om datum- of tijdgegevens voor de bestede afspeeltijd te zien. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimaal worden de details voor de dal weergegeven. De som verhoogt de totale playbacktijd die voor de selectie wordt doorgebracht. De paneelstandaard toont slechts Maximum, maar u kunt het veranderen om Minimum, Som, of om het even welke combinatie drie te tonen.<br> als u onderverdelingen gebruikt, wordt een samenvattingsaantal getoond voor elk. |
 | Uitsplitsing naar serie | U kunt desgewenst de visualisatie opsplitsen in filters, dimensies, dimensiepunten of datumbereiken.<p>- U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.</p><p>- Wanneer u een dimensie sleept, worden de bovenste dimensie-items automatisch geselecteerd op basis van het datumbereik van het geselecteerde deelvenster.</p>- Als u datumbereiken wilt vergelijken, sleept u twee of meer datumbereiken naar het filter voor reeksindeling. |
 | Tijdnotatie | U kunt de afspeeltijd in `Hours:Minutes:Seconds` (standaard) of in `Minutes` (die in gehele getallen wordt weergegeven, naar boven afgerond op 0,5) weergeven. |
 | Weergave datumvolgorde | Als u minstens twee filters van het datumbereik als reeksonderverdelingen hebt geplaatst, ziet u de optie om of bedekking (gebrek) of opeenvolgend te selecteren. Met Bedekking worden de lijnen weergegeven met een gemeenschappelijke beginpunt op de x-as, zodat deze parallel lopen. De lijnen met hun specifieke beginpunt op de x-as worden opeenvolgend weergegeven. Als de gegevensregels omhoog gaan (filter 1 eindigt bijvoorbeeld om 8:44 uur en filter 2 om 8:45 uur), worden de regels op volgorde weergegeven. |
@@ -88,11 +88,11 @@ U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende
 
 ### Deelvensteruitvoer
 
-In het deelvenster Afspeeltijd van media worden een regeldiagram en samenvattingsnummers geretourneerd met gegevens over de maximale, minimale en/of totale afspeeltijd. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren.
+Het deelvenster Tijd voor afspelen van media retourneert een regeldiagram en samenvattingsnummers met gegevens over het maximum, minimum en/of de som van de afspeeltijd die is doorgebracht. Boven in het deelvenster ziet u een overzichtsregel om u te herinneren aan de deelvensterinstellingen die u hebt geselecteerd.
 
-Op elk ogenblik, uitgezocht ![ geef de playbacktijd van Media uit doorbrengt paneel ](/help/assets/icons/Edit.svg) om het paneel uit te geven en opnieuw te bouwen.
+Op elk ogenblik, uitgezocht ![ geef het paneel van de playbacktijd van Media uit ](/help/assets/icons/Edit.svg) om het paneel uit te geven en opnieuw te bouwen.
 
-Als u reeksindeling selecteert, worden een regel in het lijndiagram en een samenvattingsnummer voor elke regel weergegeven:
+Als u reeksindeling selecteert, worden een regel in het lijndiagram en een samenvattingsnummer voor elk weergegeven:
 
 ![ de media playbacktijd bestede output die een lijngrafiek en een samenvatting toont.](assets/mpts_outputs1.png)
 
@@ -112,13 +112,13 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 | <p>Waarom veranderde mijn granulariteit?</p> | <p>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken.</p><p></p><p>Wanneer u overschakelt van een groter datumbereik naar een kleiner datumbereik, wordt de granulariteit bijgewerkt naar het laagste detailniveau dat is toegestaan als het datumbereik wordt gewijzigd. Als u een hogere granulariteit wilt weergeven, bewerkt u het deelvenster en maakt u het opnieuw.</p> |
 | <p></p><p>Hoe vergelijk ik videonamen, filters, inhoudstypen en meer?</p> | <p>Als u deze in één visualisatie wilt vergelijken, sleept u filters, dimensies of specifieke dimensiepunten in het filter voor de reeksafbraak.</p><p></p><p>De weergave is beperkt tot tien uitsplitsingen. Als u meer dan 10 wilt weergeven, moet u meerdere deelvensters gebruiken.</p> |
 | Hoe vergelijk ik datumbereiken? | Om datumwaaiers in één enkele visualisatie te vergelijken, gebruik de reeksonderverdelingen door 2 of meer datumwaaiers te slepen. Deze datumbereiken overschrijven het datumbereik van het deelvenster. |
-| Hoe kan ik het visualisatietype wijzigen? | <p></p><p>In dit deelvenster kunt u alleen de lijnen voor de tijdreeks visualiseren.</p> |
-| Kan ik anomaliedetectie uitvoeren? | <p></p><p>Nee. Anomaly-detectie is niet beschikbaar voor dit deelvenster.</p> |
+| Hoe wijzig ik het visualisatietype? | <p></p><p>In dit deelvenster is alleen de lijnvisualisatie voor de tijdreeks mogelijk.</p> |
+| Kan ik afwijkingsdetectie uitvoeren? | <p></p><p>Nee. Afwijkingsdetectie is niet beschikbaar voor dit deelvenster.</p> |
 
 
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>[Mediagemiddelde minieme doelgroeppaneel ](average-minute-audience-panel.md)
 >[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
 >

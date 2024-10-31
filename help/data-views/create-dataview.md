@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bab067f50e04b7eb1a211d8767cd2cd7a2acd9c5
+source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -25,20 +25,10 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 Een gegevensweergave maken of bewerken:
 
 1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en ga naar het **[!UICONTROL Data views]** lusje.
-1. Selecteer **[!UICONTROL Create new data view]** om een gegevensweergave te maken. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
+1. Als u een gegevensweergave wilt maken, selecteert u **[!UICONTROL Create new data view]**. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 
 ## Configureren {#configure}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
->title="Externe id"
->abstract="Het wijzigen van de externe id kan van invloed zijn op de manier waarop de naam van de gegevensweergave wordt weergegeven in externe bronnen, zoals hulpprogramma&#39;s voor bedrijfsinformatie."
-
-<!-- markdownlint-enable MD034 -->
-
 
 Een nieuwe of bestaande gegevensweergave configureren:
 
@@ -49,7 +39,16 @@ Een nieuwe of bestaande gegevensweergave configureren:
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
 
-### Instellingen
+### Instellingen {#settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="Externe id"
+>abstract="Het wijzigen van de externe id kan van invloed zijn op de manier waarop de naam van de gegevensweergave wordt weergegeven in externe bronnen, zoals hulpprogramma&#39;s voor bedrijfsinformatie."
+
+<!-- markdownlint-enable MD034 -->
 
 Verstrekt overkoepelende montages voor de gegevensmening.
 
@@ -93,7 +92,7 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 | --- | --- |
 | [!UICONTROL **de containernaam van de Persoon**] | [!UICONTROL Person] (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | [!UICONTROL **de containernaam van de Zitting**] | [!UICONTROL Session] (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
-| [!UICONTROL **de containernaam van de Gebeurtenis**] | [!UICONTROL Event] (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
+| [!UICONTROL **Naam van gebeurteniscontainer**] | [!UICONTROL Event] (standaardinstelling). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -175,8 +174,8 @@ U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/wo
 
 U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert. Sleep een filter van de lijst in de linkerspoorstaaf aan het [!UICONTROL Add filters] gebied.
 
-### Sessieinstellingen
+### Sessie-instellingen
 
-Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [ montages van de Zitting ](session-settings.md) voor meer details.
+Bepaal de tijdsperiode van inactiviteit tussen gebeurtenissen voordat een sessie verloopt en een nieuwe sessie wordt gestart. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [ montages van de Zitting ](session-settings.md) voor meer details.
 
 Klik op **[!UICONTROL Save and finish]** als alle gewenste instellingen zijn opgegeven.

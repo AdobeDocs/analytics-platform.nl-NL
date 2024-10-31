@@ -5,7 +5,7 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 1%
@@ -22,16 +22,6 @@ ht-degree: 1%
 >abstract="Bepaal hoe een component wordt getoond wanneer gebruikt in rapporten."
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format_currencyconversion"
->title="Omrekening in valuta"
->abstract="Selecteer een valutacodedimensie om valuta in een geselecteerd valutatype te configureren en weer te geven."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 Het formaat laat u bepalen hoe bepaalde metrisch wanneer gebruikt in rapporten wordt getoond.
@@ -64,7 +54,16 @@ U kunt bepalen hoe een bepaalde metrische waarde wordt getoond door zijn formaat
 
    {style="table-layout:auto"}
 
-## Valuta-conversie gebruiken
+## Valuta-conversie gebruiken {#use-currency-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format_currencyconversion"
+>title="Omrekening in valuta"
+>abstract="Selecteer een valutacodedimensie om valuta in een geselecteerd valutatype te configureren en weer te geven."
+
+<!-- markdownlint-enable MD034 -->
 
 Valutaconversie in Customer Journey Analytics kan van zeer groot belang zijn voor bedrijven die internationaal actief zijn. Door de complexiteit van handmatige valutaomrekening weg te nemen, zorgt valutaomrekening in Customer Journey Analytics voor uniformiteit en duidelijkheid in de financiële gegevens. Bij de omrekening van valuta worden de dagelijkse historische wisselkoersen bijgehouden en deze dagkoersen gedurende een periode van vier jaar gehandhaafd.
 
