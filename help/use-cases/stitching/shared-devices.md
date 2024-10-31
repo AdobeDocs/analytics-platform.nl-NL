@@ -3,13 +3,11 @@ title: Gedeelde apparaten
 description: Uitleg van hoe te om gedeelde apparaten te behandelen gebruikend het stitching en andere technieken.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
+source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -67,7 +65,7 @@ Wanneer kenmerk last-auth wordt gebruikt in stitching, worden id&#39;s met titel
 
 ### Apparaatsplitsing
 
-Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de gebruiker in dichtste nabijheid van de anonieme activiteit. Apparaatsplitsing is de voorkeursbenadering voor analytische gebruikgevallen, aangezien apparaatsplitsing zowel de ongeautoriseerde als de geverifieerde activiteit aan de dichtstbijzijnde bekende persoon krediet geeft. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
+Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de gebruiker in dichtste nabijheid van de anonieme activiteit. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
 
 Wanneer de apparaat-gespleten attributie in het stitching wordt gebruikt, oplossen de Getegrafeerde IDs zoals aangetoond in de hieronder lijst.
 
