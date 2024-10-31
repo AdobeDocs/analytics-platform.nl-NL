@@ -59,14 +59,14 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
    | **[!UICONTROL Decimal places]** | Geef het aantal decimalen op voor de geselecteerde notatie. Wordt alleen ingeschakeld wanneer de geselecteerde indeling Decimaal, Valuta en Percentage is. |
    | **[!UICONTROL Show upward trend as]** | Geef op of een opwaartse trend van de berekende metrische waarde wordt weergegeven als Staalwaarden **[!UICONTROL Good (Green)]** of als ▼ **[!UICONTROL Bad (Red)]** . |
    | **[!UICONTROL Currency]** | Geef de valuta van de berekende metrische waarde op. Alleen ingeschakeld wanneer de geselecteerde notatie Valuta is. |
-   | **[!UICONTROL Tags]** | Orden de berekende metrische waarde door een of meer tags te maken of toe te passen. Begin te typen om te zoeken naar bestaande tags die je kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+   | **[!UICONTROL Tags]** | Organiseer de berekende metrisch door één of meerdere markeringen te creëren of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
    | **[!UICONTROL Preview]** | De voorvertoning geldt voor de laatste 90 dagen en is een manier om te bepalen of u de maateenheid correct hebt gedefinieerd. |
    | **[!UICONTROL Summary]** | Toont een samenvatting van de definitie van berekende metrisch. <br/> bijvoorbeeld: ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Orders]** ![ verdeel ](/help/assets/icons/Divide.svg) ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
    | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw filter gebruikend de [ bouwer van de Definitie ](#definition-builder). |
 
-1. Als u wilt controleren of de berekende metrische definitie correct is, gebruikt u de constant bijgewerkte **[!UICONTROL Preview]** resultaten van de berekende metrische waarde. De **[!UICONTROL Preview]** heeft betrekking op de laatste 90 dagen en evalueert continu de definitie van de berekende waarde.
+1. Om te verifiëren of uw berekende metrische definitie correct is, gebruik constant bijgewerkt **[!UICONTROL Preview]** van de resultaten van berekende metrisch. **[!UICONTROL Preview]** geldt voor de laatste 90 dagen en evalueert continu de definitie van de berekende maateenheid.
 
-   De **[!UICONTROL Product compatibility]** geeft aan of de berekende metrische waarde kan worden gebruikt voor experimenteren. Mogelijke waarden zijn:
+   **[!UICONTROL Product compatibility]** wijst erop of berekende metrisch in experimenteren kan worden gebruikt. Mogelijke waarden zijn:
    * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan over de hele Customer Journey Analytics worden gebruikt.
    * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan in alle Customers Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
 
@@ -78,7 +78,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ## Definition builder
 
-Met de Definition Builder kunt u dimensies, metrics, filters en functies slepen en neerzetten om aangepaste metrics te maken op basis van containerhiërarchische logica, regels en operatoren. In die constructie kun je standaardmetrics, door Adoben gedefinieerde metrics, berekende metrics, filters, dimensies en functies gebruiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Berekende metrische bouwer. Bovendien kunt u in de definitie operatoren en containers gebruiken.
+U gebruikt de bouwer van de Definitie om dimensies, metriek, filters, en functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. In die constructie, kunt u standaardmetriek, Adobe bepaalde metriek, berekende metriek, filters, afmetingen en functies gebruiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Berekende metrische bouwer. Bovendien kunt u operatoren en containers in de definitie gebruiken.
 
 ![ creeer berekende metrisch ](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
@@ -90,7 +90,7 @@ Een metrische waarde toevoegen:
 
 * Sleep een ![ component van Gebeurtenissen ](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]** van het componentenpaneel aan **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
 
-Als u een berekende metrische waarde gebruikt als onderdeel van uw definitie, wordt de berekende metrische waarde uitgebreid.
+Wanneer u berekende metrisch als deel van uw definitie gebruikt, wordt berekende metrisch uitgebreid.
 
 Een metrische waarde wijzigen:
 
@@ -134,7 +134,7 @@ U voegt afmetingen, filters en functies als containers aan een berekende metrisc
 
 #### Filtercontainer
 
-U gebruikt het concept van een filtercontainer om a [ gefilterde metrisch ](metrics-with-segments.md) tot stand te brengen. U kunt een filtercontainer maken met een filter of met een filter dat u maakt op basis van een dimensie.
+U gebruikt het concept van een filtercontainer om a [ gefilterde metrische ](metrics-with-segments.md) tot stand te brengen. U kunt een filtercontainer maken met een filter of met een filter dat u maakt op basis van een dimensie.
 
 * Een filtercontainer toevoegen vanuit een dimensie:
 
@@ -174,7 +174,7 @@ Als u een functiecontainer wilt toevoegen, kunt u het volgende gebruiken:
 * Sleep en zet:
 
    1. De belemmering en laat vallen a ![ component van de Functie ](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke functies te zoeken.
-   1. Er wordt automatisch een functiecontainer aan de **[!UICONTROL Definition]** toegevoegd met de naam van de functie.
+   1. Er wordt automatisch een functienotel toegevoegd aan de **[!UICONTROL Definition]** met de naam van de functie.
 
 * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
 

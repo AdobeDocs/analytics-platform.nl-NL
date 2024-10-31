@@ -34,9 +34,9 @@ De volgende informatie instrueert curatoren van Customer Journey Analytics gegev
 
 Een scorecard van Analytics toont zeer belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een tegellay-out, zoals hieronder getoond:
 
-![ de scorecardvoorbeeld die van Analytics de Mobiele Scorecard Demo tonen ](assets/intro_scorecard.png)
+![ het scorecardvoorbeeld van Analytics die de Mobiele Demo van de Scorecard tonen ](assets/intro_scorecard.png)
 
-Als curator van deze scorecard, kunt u de scorecard bouwer gebruiken om te vormen welke tegels op de scorecard voor uw uitvoerend consument verschijnen. U kunt ook configureren hoe de gedetailleerde weergaven, of de uitsplitsingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De scorecard bouwerinterface wordt hieronder getoond:
+Als curator van dit scorecard, kunt u de scorecard bouwer gebruiken om te vormen welke tegels op scorecard voor uw uitvoerende consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de onderverdelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De scorecard bouwerinterface wordt hieronder getoond:
 
 ![ Scorecard Bouwer die het nieuwe mobiele scorecardvenster toont. ](assets/scorecard_builder.png)
 
@@ -47,7 +47,7 @@ Om scorecard tot stand te brengen, moet u het volgende doen:
 
 ## Toegang krijgen tot de sjabloon [!UICONTROL Blank Mobile Scorecard] {#template}
 
-U kunt de [!UICONTROL Blank Mobile Scorecard] -sjabloon openen door een nieuw project te maken of via het menu Gereedschappen.
+U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben door een nieuw project te creëren, of van het menu van Hulpmiddelen.
 
 ### Een nieuw project maken {#create}
 
@@ -145,7 +145,7 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 
 ### [!UICONTROL Donut]
 
-Net als bij een cirkeldiagram toont deze visualisatie gegevens als delen van een geheel. Gebruik een donutgrafiek wanneer u percentages van een totaal vergelijkt. U wilt bijvoorbeeld zien welke ad-platform heeft bijgedragen aan het totale aantal unieke personen:
+Net als bij een cirkeldiagram toont deze visualisatie gegevens als delen van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. U wilt bijvoorbeeld zien welk platform heeft bijgedragen aan het totale aantal unieke personen:
 
 ![ Nieuwe movile scorecard die een visualisatie van de Donut tonen ](assets/donut-viz.png)
 
@@ -157,11 +157,11 @@ De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te t
 
 ### [!UICONTROL Horizontal Bar]
 
-Deze visualisatie toont horizontale balken die verschillende waarden voor een of meer metrics vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor de gewenste visualisatie.
+Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor visualisatie van uw voorkeur.
 
 ![ Nieuwe mobiele scorecard die een horizontale bar tonen ](assets/horizontal.png)
 
-## Scorecards Name {#name}
+## Naamscorecards {#name}
 
 Als u de scorecard een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
@@ -254,13 +254,13 @@ Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te vo
 Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
    * Tik op + om een nieuwe dia te maken.
    * Tik op het dubbele pictogram om de bestaande dia te dupliceren.
-1. Als u een lege dia maakt, sleept u componenten vanuit het linkerdeelvenster of kiest u een lay-out om de dia automatisch te vullen met de gegevens uit de tegel.
+1. Als u een lege dia maakt, sleept u componenten vanuit de linkerrail en zet u de component neer. U kunt ook een lay-out kiezen om de dia automatisch te vullen met de gegevens uit de tegel.
    ![ creeer een gegevensverhaal ](assets/data-story2.png)
 Tik op het prullenbakpictogram om een dia te verwijderen.
 
 ### Een gegevensartikel aanpassen {#customize-data-story}
 
-Met behulp van gegevensverhalen kun je alles aanpassen, zodat je informatie kunt delen die je wilt delen, en alles kunt uitsluiten wat je niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om filters toe te voegen, indelingen weer te geven, de lay-out te wijzigen en de visualisaties te wijzigen.
+Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om filters toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisatie te wijzigen.
 
 **om tegels** aan te passen
 
@@ -346,7 +346,7 @@ Een scorecard delen met behulp van een shareable-koppeling
 
 1. Kopieer de koppeling en plak deze in een e-mail-, document- of IM-app.
 
-   Als een ontvanger een bureaubladtoepassing of browser gebruikt om de koppeling te openen, wordt het mobiele scorecardproject geopend in Workspace.
+   Wanneer een ontvanger een bureaubladtoepassing of browser gebruikt om de koppeling te openen, wordt het mobiele scorecard-project geopend in Workspace.
 
    Wanneer een ontvanger de koppeling op een mobiel apparaat opent, wordt de scorecard rechtstreeks geopend in de Adobe Analytics-dashboardapp.
 

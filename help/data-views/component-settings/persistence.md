@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="Persistentie"
->abstract="Configureer het standaardtoewijzingsmodel dat wordt toegepast op een dimensie. Toewijzing is van toepassing vóór filters in rapportage. Zie voor meer informatie [ toewijzingsmontages ](/help/data-views/component-settings/persistence.md#allocation-settings), [ vervalmontages ](/help/data-views/component-settings/persistence.md#expiration-settings), [ bindende afmeting ](/help/data-views/component-settings/persistence.md#binding-dimension) en bindende metriek."
+>abstract="Vorm het standaardtoewijzingsmodel dat op een dimensie wordt toegepast. Toewijzing is van toepassing vóór filters in rapportage. Zie voor meer informatie [ toewijzingsmontages ](/help/data-views/component-settings/persistence.md#allocation-settings), [ vervalmontages ](/help/data-views/component-settings/persistence.md#expiration-settings), [ bindende afmeting ](/help/data-views/component-settings/persistence.md#binding-dimension) en bindende metriek."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,17 +36,17 @@ ht-degree: 5%
   >
   >Als u a [ niet-gebrek attributiemodel ](/help/data-views/component-settings/attribution.md) op metrisch in een rapport hebt geplaatst, negeert het attributiemodel de toewijzing u op de afmeting voor het zelfde rapport plaatst.
   >
-  >Nochtans, wanneer het doen van a [ volledige lijstuitvoer ](/help/analysis-workspace/export/export-cloud.md) die veelvoudige afmetingen omvat, behoudt de attributie de toewijzingsmodellen die op elke afmeting worden toegepast.
+  >Nochtans, wanneer het doen van a [ volledige lijstuitvoer ](/help/analysis-workspace/export/export-cloud.md) die veelvoudige dimensies omvat, behoudt de attributie de toewijzingsmodellen die op elke afmeting worden toegepast.
 
-* **Vervaldatum** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
+* **Vervalsing** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
 
-[!UICONTROL Persistence] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die plaatsvindt voordat filterbewerkingen of andere analysebewerkingen worden toegepast.
+[!UICONTROL Persistence] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Set persistence] | Laat persistentie voor de afmeting toe. Als persistentie niet is ingeschakeld, heeft de dimensie alleen betrekking op metrics die in dezelfde gebeurtenis bestaan. Deze instelling is standaard uitgeschakeld. |
+| [!UICONTROL Set persistence] | Laat persistentie voor de afmeting toe. Als persistentie niet is ingeschakeld, heeft de dimensie alleen betrekking op metriek die in dezelfde gebeurtenis bestaan. Deze instelling is standaard uitgeschakeld. |
 | [!UICONTROL Allocation] | Hier kunt u het toewijzingsmodel opgeven dat wordt gebruikt voor een dimensie voor persistentie. De opties zijn: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All] . Vanaf 28 oktober 2021 wordt een terugzoekvenster van maximaal 90 dagen toegevoegd aan de instelling voor [!UICONTROL Allocation] . |
-| [!UICONTROL Expiration] | Hier kunt u het persistentievenster voor een dimensie opgeven. De opties zijn: [!UICONTROL Session] (standaardwaarde), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric] . Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). De maximale vervaltijd die u kunt instellen, is 90 dagen. Als u een toewijzing van [!UICONTROL All] selecteert, is alleen de vervaldatum [!UICONTROL Session] of [!UICONTROL Person] beschikbaar. |
+| [!UICONTROL Expiration] | Hier geeft u het venster voor persistentie voor een dimensie op. De opties zijn: [!UICONTROL Session] (standaardwaarde), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric] . Mogelijk moet u de afmeting van een aankoop kunnen verlopen (zoals interne zoektermen of andere gevallen waarin u zaken voor koopwaar gebruikt). De maximale vervaltijd die u kunt instellen, is 90 dagen. Als u een toewijzing van [!UICONTROL All] selecteert, is alleen de vervaldatum [!UICONTROL Session] of [!UICONTROL Person] beschikbaar. |
 
 {style="table-layout:auto"}
 
@@ -63,19 +63,19 @@ Details over de beschikbare toewijzingsinstellingen.
 
 * **[!UICONTROL Original]**: behoudt de oorspronkelijke waarde met een tijdstempel die binnen de dimensie aanwezig is gedurende de verloopperiode. Als deze dimensie een waarde heeft, wordt deze niet overschreven wanneer een andere waarde wordt waargenomen bij een volgende gebeurtenis. Neem bijvoorbeeld de volgende tabel met [!UICONTROL Original] toewijzing en [!UICONTROL Session] vervaldatum:
 
-  | Dimension | Hit 1 | Hit 2 | Actief 3 | Hit 4 | Actief 5 |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
   | --- | --- | --- | --- | --- | --- |
   | Waarden voor gegevensset |  | C | B |  | A |
   | Oorspronkelijke toewijzing |  | C | C | C | C |
 
 * **[!UICONTROL All]**: werkt hetzelfde als het [!UICONTROL Participation] -attributiemodel voor metriek. Hiermee worden alle waarden op gelijke wijze gehandhaafd, zodat elke waarde bij rapportage volledige creditering voor de maatstaf krijgt. Neem bijvoorbeeld de volgende tabel met [!UICONTROL All] toewijzing en [!UICONTROL Session] vervaldatum:
 
-  | Dimension | Hit 1 | Hit 2 | Actief 3 | Hit 4 | Actief 5 |
+  | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
   | --- | --- | --- | --- | --- | --- |
   | Waarden voor gegevensset | A | B | C |  | A |
   | Alle toewijzingen | A | A,B | A,B,C | A,B,C | A,B,C |
 
-* **[!UICONTROL First Known]** en **[!UICONTROL Last Known]**: (19 januari 2022) Deze twee toewijzingsmodellen voldoen aan gebruiksscenario&#39;s voor de dimensies &quot;entry&quot; en &quot;exit&quot;. Zij nemen de eerste of laatst waargenomen waarde voor een afmeting binnen een gespecificeerd persistentiewerkingsgebied (zitting, persoon, of douanetermijn met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
+* **[!UICONTROL First Known]** en **[!UICONTROL Last Known]**: (19 januari 2022) Deze twee toewijzingsmodellen voldoen aan de gebruiksscenario&#39;s &quot;entry&quot; en &quot;exit&quot;. Zij nemen de eerste of laatste waargenomen waarde voor een afmeting binnen een gespecificeerd persistentieschema (zitting, persoon, of douanetijdspanne met raadpleging) en passen het op alle gebeurtenissen binnen het gespecificeerde werkingsgebied toe. Voorbeeld:
 
   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
   | --- | --- | --- | --- | --- | --- |

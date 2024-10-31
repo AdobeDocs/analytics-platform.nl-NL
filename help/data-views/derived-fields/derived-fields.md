@@ -123,7 +123,7 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
    - Selecteer **[!UICONTROL ** sparen **]** om uw bijgewerkt afgeleid gebied te bewaren.
 
-   - Selecteer **[!UICONTROL ** annuleer **]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
+   - Selecteer **[!UICONTROL ** annuleert **]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
 
    - Selecteer **[!UICONTROL ** sparen als **]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld waaraan `(copy)` is toegevoegd.
 
@@ -151,7 +151,7 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 1. Selecteer de component. De component kan een andere naam hebben dan het afgeleide veld.
 
-1. In het paneel van de Component, selecteer ![ uitgeven pictogram ](assets/Smock_Edit_18_N.svg) naast uw afgeleid gebied, onder het gebiedsnaam van het Schema.
+1. In het paneel van de Component, selecteer het ![ uitgeven pictogram ](assets/Smock_Edit_18_N.svg) naast uw afgeleid gebied, onder de het gebiedsnaam van het Schema.
 
 1. Selecteer **[!UICONTROL Delete]** in de interface van [!UICONTROL Edit derived field] .
 
@@ -238,7 +238,7 @@ Deze functiesjabloon classificeert belangrijke tijden van het jaar.
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
-![ Screenshot van de de regelbuilder van de Reden van de Vaktijd ](assets/function-template-holiday-season.png)
+![ Screenshot van de de regelbouwer van de Seizoenregel van de Vakantie ](assets/function-template-holiday-season.png)
 
 +++
 
@@ -432,7 +432,7 @@ U wilt regels definiëren om verschillende marketingkanalen te identificeren doo
 - Als de verwijzer van een verwijzend domein van [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com], of [!DNL tiktok.com] is, zou het marketing kanaal als a [!DNL *Natuurlijk Sociale*] moeten worden geïdentificeerd.
 - Als geen van de bovengenoemde regels worden aangepast, dan zou het marketing kanaal als [!DNL *Andere Referrer*] moeten worden geïdentificeerd.
 
-Als uw site de volgende voorbeeldgebeurtenissen ontvangt die [!UICONTROL Referrer] en [!UICONTROL Page URL] bevatten, moeten deze gebeurtenissen als volgt worden geïdentificeerd:
+Als uw site de volgende voorbeeldgebeurtenissen ontvangt, die [!UICONTROL Referrer] en [!UICONTROL Page URL] bevatten, moeten deze gebeurtenissen als volgt worden geïdentificeerd:
 
 | [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
@@ -558,9 +558,9 @@ Veronderstellingen:
 - 50 reizen werden geboekt voor een duur van 9 dagen
 - 44 reizen werden geboekt voor een duur van tien dagen
 - 38 reizen werden geboekt voor een duur van 11 dagen
-- 31 reizen werden geboekt voor een duur van 12 dagen
+- 31 reizen werden geboekt voor een duur van twaalf dagen
 
-Uw gewenste rapport moet er als volgt uitzien:
+Uw gewenste rapport zou als moeten kijken:
 
 | [!DNL Trip Duration Type] | [!DNL Bookings] |
 |----|---:|
@@ -713,7 +713,7 @@ U verzamelt [!DNL Hotel ID] in een dimensie, maar u wilt een [!DNL Hotel Name] -
 
 ### Afgeleid veld {#classify-uc1-derivedfield}
 
-U definieert een `Hotel Name` afgeleid veld. U gebruikt de functie [!UICONTROL CLASSIFY] om een regel te definiëren waarin u waarden van het veld [!UICONTROL Hotel ID] kunt classificeren en kunt vervangen door nieuwe waarden.
+U definieert een `Hotel Name` afgeleid veld. U gebruikt de functie [!UICONTROL CLASSIFY] om een regel te definiëren waarin u waarden van het veld [!UICONTROL Hotel ID] kunt classificeren en door nieuwe waarden kunt vervangen.
 
 Selecteer **[!UICONTROL Show original values]** als u oorspronkelijke waarden wilt opnemen die u niet hebt gedefinieerd als onderdeel van de waarden die u wilt classificeren (bijvoorbeeld Hotel ID AMS789). Dit zorgt ervoor dat AMS789 deel uitmaakt van de uitvoer voor het afgeleide veld, ondanks dat die waarde niet wordt geclassificeerd.
 
@@ -732,7 +732,7 @@ Selecteer **[!UICONTROL Show original values]** als u oorspronkelijke waarden wi
 
 ## Hoofdlettergebruik 2 {#classify-uc2}
 
-U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor meerdere pagina&#39;s. Deze gemengde verzameling waarden breekt de rapportage.
+U hebt URL&#39;s verzameld in plaats van de vriendelijke paginanaam voor verschillende pagina&#39;s. Deze gemengde verzameling van waarden breekt de rapportage af.
 
 ### Gegevens voor {#classify-uc2-databefore}
 
@@ -1095,8 +1095,8 @@ U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer opnemen, die reeds
 
 1. Selecteer **[!UICONTROL Schema fields]** in de kiezer.
 1. Selecteer ![ het gebiedspictogram van het Schema ](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
-1. Selecteer uw opzoekgegevensset en zoek het veld dat u voor opzoekacties wilt gebruiken.
-1. Sleep het zoekveld naar een van de beschikbare invoervelden voor een functie (bijvoorbeeld Als). Wanneer geldig, een blauw vakje, geëtiketteerd **[!UICONTROL + Add]**, staat u toe om het gebied te laten vallen en automatisch een functie van de Opzoekopdracht op te nemen alvorens de functie u het raadplegingsgebied op liet vallen. De ingevoegde opzoekfunctie wordt automatisch gevuld met relevante waarden voor alle velden.
+1. Selecteer uw raadplegingsdataset en vind het gebied u voor raadpleging wilt gebruiken.
+1. Sleep het opzoekveld naar een van de beschikbare invoervelden voor een functie (bijvoorbeeld Als). Wanneer geldig, een blauwe doos, geëtiketteerd **[!UICONTROL + Add]**, staat u toe om het gebied te laten vallen en automatisch een functie van de Opzoekopdracht op te nemen vóór de functie u het raadplegingsgebied op liet vallen. De ingevoegde opzoekfunctie wordt automatisch gevuld met relevante waarden voor alle velden.
    ![ Opzoeken belemmering ](assets/lookup-drag.png)
 
 +++
@@ -1247,7 +1247,7 @@ Er zijn enkele belangrijke overwegingen wanneer u werkt met statische getallen i
      ![ Math Meer Info 4 ](assets/math-more-info-4.png)
 
    - Deze formule is geldig.
-     ![ Mathematisch meer Info 5 ](assets/math-more-info-5.png)
+     ![ Math Meer Info 5 ](assets/math-more-info-5.png)
 
 Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [ vat ](#summarize) functie voor gebeurtenis samen, zitting of persoon op werkingsgebied gebaseerde berekeningen.
 
@@ -1599,7 +1599,7 @@ U maakt een afgeleid veld `First Response` . U gebruikt de functie [!UICONTROL S
 
 ![ Screenshot van de Gesplitste regel - eerste waarde ](assets/split-2.png)
 
-U maakt een `Second Response` -afgeleid veld om de laatste waarde uit het [!UICONTROL Responses] -veld te halen door Van rechts 1 als scheidingsteken en 1 als index te selecteren.
+U maakt een `Second Response` afgeleid veld om de laatste waarde uit het veld [!UICONTROL Responses] te halen door Aan de rechterkant 1 als scheidingsteken en 1 als index te selecteren.
 
 ![ Screenshot van de Gesplitste regel - laatste waarde ](assets/split-3.png)
 
@@ -1721,7 +1721,7 @@ Hiermee wordt witruimte, speciale tekens of het aantal tekens vanaf het begin of
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>Witruimte bijsnijden</li><li>Speciale tekens bijsnijden<ul><li>Invoer van speciale tekens</li></ul></li><li>Verkleinen vanaf links<ul><li>Van <ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>Tekenreeks<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li><li>Bijsnijden vanaf rechts<ul><li>Van <ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>1 functie per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul></li><li>Witruimte bijsnijden</li><li>Speciale tekens bijsnijden<ul><li>Invoer van speciale tekens</li></ul></li><li>Verkleinen vanaf links<ul><li>Van <ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li><li>Bijsnijden vanaf rechts<ul><li>Van <ul><li>Einde tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li></ul></li><li>Naar<ul><li>Begin tekenreeks</li><li>Positie<ul><li>Positienummer</li></ul></li><li>String<ul><li>String, waarde</li><li>Index</li><li>Markering voor opnemen van tekenreeks</li></ul></li><li>Lengte</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>1 functie per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 
 ## Hoofdlettergebruik 1 {#trim-uc1}
@@ -1843,7 +1843,7 @@ Hiermee worden verschillende delen van een URL uitgeparseerd, zoals protocol-, h
 
 | Gegevenstype invoer | Invoer | Opgenomen operatoren | Limiet | Uitvoer |
 |---|---|---|---|---|
-| <ul><li>Tekenreeks</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Option]:<ul><li>[!UICONTROL Get protocol]</li><li>[!UICONTROL Get host]</li><li>[!UICONTROL Get path]</li><li>[!UICONTROL Get query string value]<ul><li>[!UICONTROL Query parameter]:<ul><li>String</li></ul></li></ul></li><li>[!UICONTROL Get hash value]</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
+| <ul><li>String</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regels</li><li>Standaardvelden</li><li>Velden</li></ul><li>[!UICONTROL Option]:<ul><li>[!UICONTROL Get protocol]</li><li>[!UICONTROL Get host]</li><li>[!UICONTROL Get path]</li><li>[!UICONTROL Get query string value]<ul><li>[!UICONTROL Query parameter]:<ul><li>String</li></ul></li></ul></li><li>[!UICONTROL Get hash value]</li></ul></li></ul></li></ul> | <p>N.v.t.</p> | <p>5 functies per afgeleid veld</p> | <p>Nieuw afgeleid veld</p> |
 
 {style="table-layout:auto"}
 
@@ -1927,8 +1927,8 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 | Functie | Beperkingen |
 |---|---|
 | <p>Hoofdletter als</p> | <ul><li>5 Geval wanneer functies per afgeleid gebied</li><li>200 [ exploitanten ](#operators) per afgeleid gebied</li></ul> |
-| <p>Classificeren</p> | <ul><li>5 Classificeer functies per afgeleid veld</li><li>200 [ exploitanten ](#operators) per afgeleid gebied</li></ul> |
-| <p>samenvoegen</p> | <ul><li>2 Samengevoegde functies per afgeleid veld</li></ul> |
+| <p>Classificeren</p> | <ul><li>5 Classificeer functies per afgeleid gebied</li><li>200 [ exploitanten ](#operators) per afgeleid gebied</li></ul> |
+| <p>Samenvoegen</p> | <ul><li>2 Samengevoegde functies per afgeleid veld</li></ul> |
 | <p>Dedupliceren</p> | <ul><li>5 Deduplicatiefuncties per afgeleid veld</li></ul> |
 | <p>Zoeken en vervangen</p> | <ul><li>2 Functies zoeken en vervangen per afgeleid veld</li></ul> |
 | <p>Opzoeken</p> | <ul><li>5 Opzoekfuncties per afgeleid veld</li></ul> |

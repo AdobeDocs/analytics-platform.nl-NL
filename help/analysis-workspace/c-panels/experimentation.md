@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_button"
 >title="Experimentatie"
->abstract="Maak een deelvenster om verschillende varianten van gebruikerservaringen, marketing of berichten met elkaar te vergelijken. En om te bepalen welke variatie het beste is om een specifiek resultaat te bereiken."
+>abstract="Maak een deelvenster om verschillende gebruikerservaringen, marketing of berichtvariaties te vergelijken. En om te bepalen welke variatie het beste is om een specifiek resultaat te bepalen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,20 +26,20 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
->title="Proefneming"
->abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat wordt geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze metriek heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
+>title="Experimentatie"
+>abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat wordt geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-In **[!UICONTROL Experimentation]** het deelvenster kunnen analisten verschillende gebruikerservaringen, marketing- of berichtenvarianten vergelijken om te bepalen welke het beste is voor een specifieke uitkomst. U kunt het welzijn en de betrouwbaarheid van elk A/B-experiment via elk experimenteerplatform evalueren: online, offline, van Adobe-oplossingen zoals Target of Journey Optimizer en zelfs BYO-gegevens (bring-your-own).
+In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
 
-Lees meer over de [integratie tussen Adobe Customer Journey Analytics en Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
+Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
 
-## Toegangscontrole {#access}
+## Toegangsbeheer {#access}
 
-Het deelvenster Experimenteren is beschikbaar voor gebruik door alle gebruikers van Customer Journey Analytics. Hiervoor zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
+Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
 
 ## Functies in berekende metriek
 
@@ -87,11 +87,11 @@ Een deelvenster **[!UICONTROL Experimentation]** gebruiken:
 
 ### Deelvensterinvoer
 
-Het deelvenster Experimenteren gebruiken:
+Het deelvenster Experimentatie gebruiken:
 
-1. Configureer de invoerinstellingen van het deelvenster:
+1. Configureer de instellingen voor deelvensterinvoer:
 
-   ![Het deelvenster Experiment wordt naar een project gesleept.](assets/experiment-input.png)
+   ![ het paneel van de Experimentatie sleepte in een project.](assets/experiment-input.png)
 
    | Instelling | Definitie |
    | --- | --- |
@@ -107,7 +107,7 @@ Het deelvenster Experimenteren gebruiken:
 
 ### Deelvensteruitvoer
 
-Het deelvenster Experimenteert bevat een rijke set gegevens en visualisaties om u te helpen beter te begrijpen hoe uw experimenten worden uitgevoerd. Boven aan het deelvenster [worden overzichtsvisualisaties](../visualizations/summary-number-change.md) weergegeven om u te herinneren aan de deelvenster-instellingen die u hebt geselecteerd. U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
+Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Bij de bovenkant van het paneel, ](../visualizations/summary-number-change.md) worden de summiere veranderingen van 0} {verstrekt om u aan de paneelmontages te herinneren u selecteerde. [ U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
 
 U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
 
@@ -128,13 +128,13 @@ Voor elk metrisch succes selecteerde u, wordt de lijst van de a [ vrije vorm ](.
 
 3. **het tarief van de Omzetting**: De omzettingspercentage dat wordt getoond is een verhouding van de succes metrische waarde ➊ aan het normaliseren metrische ➋. Merk op dat deze waarde groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
 
-4. **Lift**: De samenvatting van het experiment toont de lift over de basislijn. Dit is een maatstaf voor de procentuele verbetering van de conversiesnelheid van een variant op de basislijn. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
+4. **Lift**: De samenvatting van het Experimentenrapport toont het Lift over Basislijn, die een maatregel van de percentageverbetering in de omzettingssnelheid van een bepaalde variant over de basislijn is. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 
-5. **Vertrouwen**: De altijd geldige betrouwbaarheid die wordt getoond, is een probabilistische maat voor hoeveel bewijs er is dat een bepaalde variant hetzelfde is als de controlevariant. Een hogere betrouwbaarheid geeft minder bewijs aan voor de veronderstelling dat de controle- en niet-controlevariant gelijke prestaties hebben. De betrouwbaarheid is een waarschijnlijkheid (uitgedrukt als een percentage) dat u een kleiner verschil in conversiepercentages tussen een bepaalde variant en de besturingselement zou hebben waargenomen. Terwijl in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. Qua p-waarden *wordt een vertrouwenswaarde van* 1 -*p* weergegeven.
+5. **Vertrouwen**: Het wanneer geldig vertrouwen dat wordt getoond is een probabilistische maatregel van hoeveel bewijs er is dat een bepaalde variant het zelfde als de controlevariant is. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren. Het vertrouwen is een waarschijnlijkheid (uitgedrukt als percentage) dat u een kleiner verschil in omrekeningskoersen tussen een bepaalde variant en het besturingselement zou hebben waargenomen. In werkelijkheid is er geen verschil in de werkelijke onderliggende omrekeningskoersen. In termen van *p* - waarden, is het getoonde vertrouwen 1 - *p* - waarde.
 
 >[!NOTE]
 >
->Bij een volledige beschrijving van de resultaten moet rekening worden houden met alle beschikbare bewijzen (bijvoorbeeld ontwerp van een experiment, steekproefomvang, conversiepercentages, vertrouwen, enz.), en niet alleen de sluitende verklaring of niet. Zelfs wanneer een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat een bepaalde variant anders is dan een andere (betrouwbaarheidsintervallen zijn bijvoorbeeld bijna niet-overlapt). Idealiter zouden alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd, de besluitvorming moeten beïnvloeden.
+>Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bijvoorbeeld het ontwerp van het experiment, de steekproefgrootten, de omrekeningskoersen, het vertrouwen, enzovoort) en niet alleen met de verklaring van overtuigend of niet. Zelfs wanneer een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat een bepaalde variant anders is dan een andere (betrouwbaarheidsintervallen zijn bijvoorbeeld bijna niet-overlapt). Idealiter zouden alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd, de besluitvorming moeten beïnvloeden.
 
 ## Statistische methodologie van de Adobe {#statistics}
 

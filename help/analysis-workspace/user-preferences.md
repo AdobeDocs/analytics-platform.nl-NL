@@ -20,7 +20,7 @@ U kunt gebruikersinstellingen of voorkeuren voor Analysis Workspace en verwante 
 
 U kunt uw voorkeuren op de volgende manieren bijwerken:
 
-- Selecteer ![UserAdmin in](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** het hoofdscherm van de werkruimte.
+- Selecteer ![ UserAdmin ](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** van het belangrijkste interface van Workspace.
 - Selecteer **[!UICONTROL Project]** > **[!UICONTROL User preferences]** in het menu wanneer u in een Workspace-project werkt.
 - Selecteer **[!UICONTROL Components]** > **[!UICONTROL Preferences]** in de bovenste hoofdbalk van de Customer Journey Analytics (alleen beschikbaar voor productbeheerders).
 
@@ -36,7 +36,7 @@ Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics in de b
 | --- | --- |
 | **[!UICONTROL Landing page]** | Kies welke pagina als standaardpagina wordt weergegeven wanneer u Customer Journey Analytics opent: <ul><li>Projectlijst (standaard)</li><li>Leeg project</li><li>Lege analyse met instructies voor trends</li><li>Specifiek project, geselecteerd uit een lijst</li></ul> |
 | **[!UICONTROL Tips]** | Hiermee geeft u tips weer in een blauw vak rechtsonder in Analysis Workspace. <p>Deze optie is standaard ingeschakeld.</p> |
-| **[!UICONTROL Components displayed in left panel groups]** | Kies in het menu Componenten in het linkerdeelvenster hoeveel van elke componentgroep u wilt weergeven. <p>Als u 0 kiest voor een componentgroep, is de componentgroep niet meer toegankelijk vanuit het linkerdeelvenster.</p><p>Standaard worden er vijf componenten weergegeven voor elk van de volgende componentgroepen:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace, zie [ Overzicht van Componenten ](/help/components/overview.md).</p> |
+| **[!UICONTROL Components displayed in left panel groups]** | Kies in het menu Componenten in het linkerdeelvenster hoeveel van elke componentgroep u wilt weergeven. <p>Als u 0 kiest voor een componentgroep, is de componentgroep niet langer toegankelijk vanuit het linkerdeelvenster.</p><p>Standaard worden 5 componenten weergegeven voor elk van de volgende componentgroepen:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace, zie [ Overzicht van Componenten ](/help/components/overview.md).</p> |
 
 ### Voorkeuren IMS-organisatie {#ims-organization-preferences}
 
@@ -45,7 +45,7 @@ Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics in de b
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_shareonlyworkspace"
 >title="Alleen delen met Workspace-gebruikers toestaan"
->abstract="Als deze optie is ingeschakeld, is de optie **[!UICONTROL Share with anyone]** niet meer beschikbaar voor gebruikers die een Analysis Workspace-project delen. Mensen die eerder toegang tot een project hebben gekregen via deze deeloptie hebben niet langer toegang tot het project."
+>abstract="Als deze optie is ingeschakeld, is de optie **[!UICONTROL Share with anyone]** niet meer beschikbaar voor gebruikers die een Analysis Workspace-project delen. De mensen die eerder toegang tot een project door deze aandeeloptie kregen kunnen niet meer tot het project toegang hebben."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics in de b
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_requireexperiencecloudauth"
->title="Verificatie van Experiencen Cloud vereisen"
+>title="Verificatie van Experience Cloud vereisen"
 >abstract="Wanneer toegelaten, moeten de mensen die toegang tot een project van het Aandeel met iedereen optie in Analysis Workspace worden verleend voor authentiek verklaren gebruikend hun geloofsbrieven van het Experience Cloud."
 
 <!-- markdownlint-enable MD034 -->
@@ -86,7 +86,7 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_divergingpalette"
 >title="Verticaal, palet"
->abstract="Toegepast op de cohorttabel in de Analysewerkruimte en de begeleide analyse voor gebruikersgroei. Dit palet heeft een numerieke betekenis met twee uitersten en een basislijn in het midden."
+>abstract="Toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,11 +108,11 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 | --- | --- | --- |
 | **Vertoning** | | |
 |  | [ dichtheid van de Mening ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-| | [ palet van de Kleur ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt en de geleide analyse. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en op geleide analyses. Elke kleur vertegenwoordigt een duidelijke categorische waarde. Kies een van de opties die door de Adobe worden opgegeven of voer een aangepast palet in dat wordt gedefinieerd door kommagescheiden hexadecimale waarden.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
+| | [ palet van de Kleur ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt en de geleide analyse. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en op geleide analyses. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
 | **Gegevens** | | |
 |  | [ mening van Gegevens ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies de gegevens waar tabellen en visualisaties hun gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke gegevensweergave die is geselecteerd in een lijst</li></ul> |
-|  | [ Kalender ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe verschafte bereiken (de standaardwaarde is Deze maand)</li><li>U kunt de optie [!UICONTROL Make date range components relative to panel calendar by default].</li></ul> |
-|  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
+|  | [ Kalender ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>U kunt [!UICONTROL Make date range components relative to panel calendar by default] inschakelen.</li></ul> |
+|  | [ Type van Comité ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Instantie tellen | Schakel [!UICONTROL Count repeat instances] in om op te geven of herhalingsinstanties worden geteld in rapporten. Als deze optie is ingeschakeld, worden meerdere weergaven van opeenvolgende pagina&#39;s naar dezelfde pagina beschouwd als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, worden meerdere opeenvolgende paginaweergaven weergegeven op hetzelfde aantal pagina&#39;s als een weergave van één pagina. <p>**Nota:** Dit het plaatsen beïnvloedt slechts bepaalde metriek (zoals Sessies) en het is niet van toepassing op Stroom of Vallout visualisaties.</p> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1.000,00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
@@ -140,11 +140,11 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 <!-- markdownlint-enable MD034 -->
 
 
-U kunt de voorkeuren voor vrije-vormtabellen aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Zie Voorkeuren bijwerken voor informatie over hoe u toegang instellen tot deze voorkeuren[](#update-preferences).
+U kunt de voorkeuren voor vrije-vormtabellen aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
 Sommige van deze voorkeuren kunnen ook worden aangepast voor afzonderlijke tabellen.
 
-Selecteer de gekoppelde sectietitels voor meer informatie en context over de beschikbare voorkeuren.
+Selecteer de titels van de gekoppelde sectie voor meer informatie en context over de beschikbare voorkeuren.
 
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
@@ -158,7 +158,7 @@ Selecteer de gekoppelde sectietitels voor meer informatie en context over de bes
 | | Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total] . Dit weerspiegelt alle tabelfilters die binnen de vrije-vormtabel worden toegepast, inclusief de optie [!UICONTROL Include None] . |
 | | Totaal tonen | Dit totaal vertegenwoordigt alle gebeurtenissen die zijn verzameld, ook wel &#39;totaal gegevensweergave&#39; genoemd. Wanneer een filter op paneelniveau of binnen de vrije vormlijst wordt toegepast, past dit totaal aan om op alle gebeurtenissen te wijzen die aan de filtercriteria voldoen. Het grote totaal wordt niet gesteund voor lijsten of onderverdelingen met [ statische rijen ](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Menggrijswaarden tonen | Lijngrafieken onder aan het diagram weergeven of verbergen. Als de legenda is verborgen, wordt deze niet langer visueel doorverwezen naar de regels. |
-| | Getal | Hiermee bepaalt u of een cel de numerieke waarde voor de metriek toont/verbergt. Als de metriek bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rijitem. |
+| | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 | | Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: we kunnen percentages van meer dan 100% weergeven, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
 | | anomalieën tonen <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
 | | Voorvertoning weergeven | Hiermee bepaalt u of de voorspelde waarden automatisch worden weergegeven voor de eerste metrische kolom in een tijdreeks vrije-vormtabel die u maakt. |
@@ -168,11 +168,11 @@ Selecteer de gekoppelde sectietitels voor meer informatie en context over de bes
 | **[Rij](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Uitsplitsing naar positie | Selecteer deze optie als u wilt dat de uitsplitsing bij de positie van het item blijft en niet bij het item zelf. Voor meer informatie over onderverdelingen, zie [ onderverdelingen dimensies ](/help/components/dimensions/t-breakdown-fa.md). |
 | | Percentage berekening | <ul><li>Kolom</li><li>Rij</li></ul> |
-| | Kolomtotalen (alleen statische rijen) | <ul><li>De som van rijen weergeven: geeft de som van de afzonderlijke regelitems weer </li><li>Eindtotaal weergeven: hiermee wordt het totaal aantal rijen weergegeven dat niet meer is gedupliceerd.</li></ul> |
+| | Kolomtotalen (alleen statische rijen) | <ul><li>De som van rijen weergeven: geeft de som van de afzonderlijke regelitems weer </li><li>Totaal-generaal weergeven: geeft de gedupliceerde som van rijen weer.</li></ul> |
 
-### Voorkeuren voor visualisaties
+### Voorkeuren voor visualisatie
 
-U kunt de visualisatievoorkeuren bijwerken voor alle nieuwe prjects die u maakt in de Analysewerkruimte. Zie Voorkeuren bijwerken voor informatie over hoe u toegang instellen tot deze voorkeuren[](#update-preferences).
+U kunt de visualisatievoorkeuren bijwerken voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
 Sommige van deze voorkeuren kunnen ook worden aangepast voor afzonderlijke visualisaties.
 
@@ -191,7 +191,7 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | **[Lijn](/help/analysis-workspace/visualizations/line.md)** | | |
 | | Percentage | Hiermee geeft u waarden weer in percentages voor de lijnvisualisatie. |
 | | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor lijnvisualisatie verbergen. |
-| | Maximale items | Hiermee vermindert u het aantal items op de X-as in de Lijnvisualisatie. Dit kan handig zijn als u een grote gegevensset hebt. |
+| | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de lijnvisualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 | | Dubbele as weergeven (indien van toepassing) | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | | Normalisatie (indien van toepassing) | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | | x-as tonen | Hiermee geeft u de x-as weer op het lijndiagram. |
@@ -203,8 +203,8 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | max. tonen | bedek een label voor de maximumwaarde om de pieken snel in metrisch formaat te markeren. Opmerking: de maximale waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie. |
 | | Trendline tonen | Toon een regressie of bewegende gemiddelde trendline aan uw lijnreeks. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven. |
 | **[Cohort](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | Granulariteit | Voor getrendeerde visualisaties kunt u de tijdsgranulariteit wijzigen (Dag, Week, Maand, Kwartaal of Jaar). Deze wijziging geldt ook voor de gegevensbrontabel. |
-| | Alleen percentages weergeven | Verwijdert de getalwaarde en geeft alleen het percentage weer. |
+| | Granulariteit | Voor getreneerde visualisaties kunt u de tijdsgranulariteit (Dag, Week, Maand, Kwart, of Jaar) veranderen. Deze wijziging geldt ook voor de gegevensbrontabel. |
+| | Alleen percentages weergeven | Hiermee verwijdert u de getalwaarde en geeft u alleen het percentage weer. |
 | | Percentages afronden naar dichtstbijzijnde gehele getal | Rondt de percentagewaarde aan het meest dichtbijgelegen geheel in plaats van het tonen van de decimale waarde. |
 | | Gemiddelde percentagerij weergeven | Hiermee voegt u een nieuwe rij boven aan de tabel in en voegt u vervolgens het gemiddelde voor de waarden binnen elke kolom toe. |
 | **[Combo grafieken](/help/analysis-workspace/visualizations/combo-charts.md)** | | |
@@ -218,7 +218,7 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | Vergelijking tonen | Vergelijkingsgegevens tonen. Wanneer deze optie is verborgen, worden zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
 | | Nummerwaardeopties | In de [!UICONTROL **Zeer belangrijke Metrische Summiere**] sectie <ul><li>Percentage wijziging tonen</li><li>Raw-verschil tonen</li>Onbewerkt verschil tussen de totale waarde van de meting in het primaire datumbereik en het secundaire datumbereik</ul> |
 | **[Uitval](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | Container | Hiermee kunt u schakelen tussen **[!UICONTROL Session]** en **[!UICONTROL Person]** om het plakken van personen te analyseren. De standaardinstelling is **[!UICONTROL Person]**. Met deze instellingen kunt u de betrokkenheid van personen op persoonlijke niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Sessie</li><li>Persoon</li></ul> |
+| | Container | Hiermee kunt u schakelen tussen **[!UICONTROL Session]** en **[!UICONTROL Person]** om het plakken van personen te analyseren. De standaardwaarde is **[!UICONTROL Person]** . Met deze instellingen kunt u de betrokkenheid van personen op persoonlijke niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Sessie</li><li>Persoon</li></ul> |
 | **[Stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
 | | Container | In de [!UICONTROL **Stroom**] sectie <ul><li>Sessie</li><li>Persoon</li></ul> |
 | | Labels voor tekstomloop | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen. Standaard = uitgeschakeld. |
@@ -226,8 +226,8 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | Knopinfo weergeven | Bepaalt of tooltips die knoopgegevens bevatten wanneer het hangen over individuele knopen binnen een stroomvisualisatie worden getoond. |
 | | Aantal kolommen | Hiermee bepaalt u hoeveel kolommen u in het stroomdiagram wilt opnemen. |
 | | Items uitgevouwen per kolom | Hoeveel punten u in elke kolom wilt. |
-| **Gestapelde grafieken** | | |
-| | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staafweergaven of horizontale staafvisualisaties wordt het diagram omgezet in een gestapelde visualisatie van 100%. <p>Voor meer informatie, zie [ gestapelde Bar en bar ](/help/analysis-workspace/visualizations/bar.md).</p> |
+| **Gestapelde Grafieken** | | |
+| | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. <p>Voor meer informatie, zie [ gestapelde Bar en bar ](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | Aantal emmers | Kies het aantal datumbereiken (emmers) in de visualisatie. Het maximumaantal emmers is 50. <p>Voor meer informatie, zie [ Histogram ](/help/analysis-workspace/visualizations/histogram.md).</p> |
 | | Telmethode | Kies een van de volgende opties: <ul><li>Actief</li><li>Sessie</li><li>Persoon</li></ul> <p>Als u dit bijvoorbeeld gebruikt in combinatie met paginaweergaven, kunt u per persoon paginaweergaven, paginaweergaven voor een bezoek of paginaweergaven per gebeurtenis kiezen. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel.</p> |
@@ -242,12 +242,12 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | Afkorting | In de [!UICONTROL **Summiere sectie van het Aantal**] |
 | **[Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)** | | |
 | | Percentage | Hiermee geeft u waarden weer in percentages voor de Treemap-visualisaties. |
-| | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de Treemap-visualisatie. Dit kan handig zijn als u een grote gegevensset hebt. |
+| | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de Treemap-visualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 | **[Venn](/help/analysis-workspace/visualizations/venn.md)** | | |
 | | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legendetekst voor de Venn-visualisatie verbergen. |
 | **[Spreiding](/help/analysis-workspace/visualizations/scatterplot.md)** | | |
 | | Percentage | Hiermee geeft u waarden weer in percentages voor de verstrooiingsvisualisaties. |
-| | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legendatekst voor de spreidingsvisualisatie verbergen. |
+| | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor de verstrooiing verbergen. |
 | | Maximale aantal items | Hiermee verkleint u het aantal items op de X-as in de verstrooiingsvisualisatie. Dit kan nuttig zijn als u een grote dataset hebt. |
 | | Anker y-as bij nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 
