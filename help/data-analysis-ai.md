@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 1442aa9be5e6a6dc283ba559a2ff6c46de862425
+source-git-commit: e723339831bf835b43096affd4e0f15f41462f54
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Functies buiten bereik:
 | Niet-ondersteunde functie | Beschrijving |
 | --- | --- |
 | Samenvatting of reactie online | De AI-assistent kan niet online reageren in de chatrail met een beknopt antwoord van een gebruiker prompt.Voorbeeld van aanwijzingen die buiten het bereik vallen:<ul><li>*geef me een samenvatting van de inzichten van mijn laatste herinnering.*</li><li>*vat de hoogtepunten van de lijnvisualisatie samen.*</li></ul> |
-| Vragen verduidelijken | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De AI-assistent kan geen duidelijkheid verschaffen over gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking, bereik, enzovoort. Zonder vragen te verduidelijken, blijft de Medewerker aan wat de gebruiker het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kan de gebruiker dan de multi-draai/updatemogelijkheid gebruiken om de visualisatie en de gegevens aan te passen. |
+| Vragen verduidelijken | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De AI-assistent kan geen duidelijkheid verschaffen over gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking, bereik, enzovoort. Zonder vragen te verduidelijken, blijft de Medewerker aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u het multi-draai/updatemogelijkheid dan gebruiken om de visualisatie en de gegevens aan te passen. |
 | Workspace-acties/mogelijkheden | De AI-assistent kan geen actie ondernemen voor een gebruiker in Workspace, behalve het maken en bijwerken van visualisaties. Het kan bijvoorbeeld het volgende niet doen:<ul><li>Contextafhankelijke knoppen voor handelingen (toevoegen aan diagram, nieuw deelvenster, nieuwe tabel)</li><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Curate</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li></ul> |
 | Niet-ondersteunde visualisatietypen | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li></ul> |
 | Uitleg en controleerbaarheid | Transparante beschrijving of citaat voor hoe de Medewerker AI een reactie produceerde, en die u van een manier voorzien om te bevestigen dat het antwoord correct is. |
@@ -67,22 +67,40 @@ Het is ook beschikbaar in Adobe Experience Platform, Adobe Journey Optimizer, Ad
 
 Zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control) voor meer informatie.
 
-## AI-assistent voor gegevensanalyse openen
+## Toegang tot en gebruik Data Analysis AI Assistant
 
+1. Ga naar deze koppeling om Workspace te openen in de Labs IMS Org (in het werkgebied) en u aan te melden bij uw Adobe ID.
 
+1. Klik op **[!UICONTROL Blank project]** in de banner boven aan de projectpagina om een nieuw, leeg project te openen.
 
+1. Klik op het AI Assistant-chatpictogram rechtsboven.
 
-## AI-assistent voor gegevensanalyse gebruiken
+   ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
-1. Navigeer in Customer Journey Analytics naar de geleverde sandbox.
+1. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onderaan uw eerste vraag over gegevensanalyse in de AI-assistent in.
 
-1. Open een Workspace-project.
+   Stel bijvoorbeeld dat u geïnteresseerd bent in de orders die uw bedrijf in juli heeft ontvangen. Je zou dus &quot;Bestellingen tonen in juli&quot; kunnen invoeren.
+
+   ![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
 
 
 ## Voorbeeldgegevens, aanwijzingen voor analyse
 
 Hier zijn een paar voorbeelden van hoe de AI Assistent op herinneringen, en de verwachte visualisaties antwoordt:
 
+| Voorbeeldprompt | Verwachte visualisatie |
+| --- | --- |
+| Toon me winsten in [ Maand ] | Lijn<p>Het vragen voor een trend of metrisch door een bepaalde tijdwaaier zal door gebrek een lijnvisualisatie terugkeren. |
+| De orden van de trend in [ Maand ] | Lijn |
+| Toon opbrengst door gebied in [ Maand ] | Balk |
+| Aandeel van de ontvangsten per productcategorie | Donut |
+| Orders op de dag van de week van januari tot mei | Balk |
+| Bestanden weergeven per geslacht van maart tot juni | Balk |
+| Wat is de winst voor SKU&#39;s van februari tot mei | Balk |
+| Ontvangsten door opslagnaam in [ Maand ] | Balk |
+| Wat waren mijn top 10 skus door winst in [ Maand ]? | Balk |
+| Aankoopaandeel per maand van het jaar | Donut |
+| Totale winst in [ Maand ] | Samenvattingsnummer<p>Het vragen voor &quot;totaal&quot;van metrisch over een bepaalde tijdwaaier zou een Summiere aantalvisualisatie moeten terugkeren. |
 
 
 ## Aankondiging van aanbevolen procedures
@@ -91,7 +109,7 @@ TBD
 
 ## Alpha testverwachtingen en gevraagde feedback
 
-TB D
+TBD
 
 ## Vragen en contact
 
