@@ -4,10 +4,10 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8ff3a1c874a0eb67e4b7a6edda6156c4d07edc9f
+source-git-commit: ad51c3cab669121e270603e133d53b6c97be8846
 workflow-type: tm+mt
-source-wordcount: '4153'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2024** | |
-| Gedeelde apparaten | Er is een gebruikscaseartikel toegevoegd dat context biedt op gedeelde apparaten, hoe gegevens van gedeelde apparaten kunnen worden afgehandeld en beperkt met behulp van stitching en hoe gedeelde blootstelling aan apparaten in uw gegevens kan worden begrepen met behulp van Query Service. |
+| Gedeelde apparaten | Toegevoegd a [ gebruikscase artikel ](/help/use-cases/stitching/shared-devices.md) dat context op gedeelde apparaten verstrekt, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend het stitching, en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag. |
 | Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/technotes/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/technotes/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
 | Workspace en componenten | De documentatie over Analysis Workspace-projecten (projecten, visualisaties en deelvensters) en componenten (annotaties, afmetingen, (berekende) meetgegevens, filters, datumbereiken, waarschuwingen, geplande projecten en doelgroepen) is vernieuwd. |
 | Analyse met instructies | Bijgewerkte documentatie met de beschikbaarheid van [ Geleide Analyse ](/help/guided-analysis/overview.md) van binnen Analysis Workspace. |
