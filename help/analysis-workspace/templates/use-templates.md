@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4927fbcaa8d0d0ea251c2827fd6c17c2d55c9f11
+source-git-commit: 9f2f79e264d9cdd460751c50fe252bb7237682fd
 workflow-type: tm+mt
-source-wordcount: '10205'
+source-wordcount: '13205'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_training_tutorial"
+>id="cja-template--training"
 >title="Sjabloon voor trainingszelfstudie"
 >abstract="Leer algemene Analysis Workspace-terminologie en stappen voor het maken van uw eerste analyse."
 
@@ -139,7 +139,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_pages"
+>id="cja-template--pagesRankedReport"
 >title="Identificeer de populairste en minst populaire pagina&#39;s."
 >abstract="**dit kan u helpen** beter uw publiek en het soort informatie begrijpen zij het meest geinteresseerd zijn in.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals paginadetagegevens aanpassen om zicht op minder bekeken pagina&#39;s te verhogen, of tijd doorbrengen die de inhoud van uw meest bekeken pagina&#39;s verbetert.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Mening van de Pagina."
 
@@ -148,7 +148,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_page_views"
+>id="cja-template--pageViewsOvertimeReport"
 >title="Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. "
 >abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische de Meningen van de Pagina."
 
@@ -157,7 +157,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_web_visits"
+>id="cja-template--visitsOvertimeReport"
 >title="Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische bezoeken."
 
@@ -166,25 +166,16 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_multi_channel_overview"
->title="Sjabloon voor meerdere kanalen-overzicht"
->abstract=" "
+>id="cja-template--visitorsOvertimeReport"
+>title="Het totale aantal unieke bezoekers weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. "
+>abstract="**dit kan u helpen** beter begrijpen hoe het bereik en de publieksgrootte van uw plaats in tijd of vergeleken met een vroegere periode stijgt of daalt.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of een onlangs gelanceerde marketing campagne succesvol was in het aantrekken van nieuwe mensen aan de plaats door unieke bezoekers vóór en na de gelanceerde campagne te vergelijken. Of je vergelijkt het aantal mensen dat de site bezoekt tijdens de vakantie van jaar tot jaar.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Unieke metrische Bezoekers. "
 
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_multi_channel_comparison"
->title="Vergelijkingssjabloon voor meerdere kanalen"
->abstract=" "
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_template_desc_key_metrics"
+>id="cja-template--keyMetricsReport"
 >title="Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. <br/> Dit malplaatje gebruikt de afmeting van de Dag, metrische de Mening van de Pagina, metrische Bezoekers, en de Unieke metrische Bezoekers."
 
@@ -193,7 +184,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_site_sections"
+>id="cja-template--siteSectionRankedReport"
 >title="Bekijk de populairste of best presterende gedeelten van uw site."
 >abstract="**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.<br>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.<br/> Dit malplaatje gebruikt de afmeting van de Sectie van de Plaats en metrische Bebezoeken."
 
@@ -202,7 +193,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_next_previous_page"
+>id="cja-template--next-page-report"
 >title="Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken."
 >abstract="**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.<br/> Dit malplaatje gebruikt het Volgende of vorige puntpaneel."
 
@@ -211,7 +202,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_campaigns"
+>id="cja-template--campaignRankedReport"
 >title="Bekijk de koppelingen die het meest succesvol zijn geweest in het besturen van verkeer naar uw site."
 >abstract="**dit kan u helpen** beter begrijpen welke het volgen codes (en de verbindingen zij met) worden geassocieerd het meest gebruikt in de toegang tot van uw plaats.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw strategie aanpassen waar u verbindingen aan uw plaats toevoegt.<br/> Dit malplaatje gebruikt de het Volgen dimensie van de Code en metrische bezoeken."
 
@@ -220,7 +211,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_products"
+>id="cja-template--productsRankedReport"
 >title="Bekijk het aantal bestellingen per product. Gegevens worden weergegeven over een tijdsperiode."
 >abstract="**dit kan u helpen** begrijpen welke producten in de hoogste of laagste vraag zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing strategieën aanpassen om hoog-presterende producten te bevorderen of te verbeteren of te beëindigen ondermaatse producten. U kunt ook de productvoorraad aanpassen op basis van uw analyse van de gegevens.<br/> Dit malplaatje gebruikt de afmeting van het Product en metrische Orden."
 
@@ -229,7 +220,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_last_touch"
+>id="cja-template--lastTouchChannelRankedReport"
 >title="Bekijk de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
 >abstract="**dit kan u helpen** begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Afmeting van het Kanaal van de Laatste Aanraking en de Unieke metrische Bezoekers."
 
@@ -238,7 +229,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_last_touch_detail"
+>id="cja-template--lastTouchChannelDetailRankedReport"
 >title="Gegevens over de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
 >abstract="**dit kan u helpen** niet alleen begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen, maar details over die marketing kanalen resulteren. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Laatste meta van het Detail van het Kanaal van de Aanraking en de Unieke metrische Bezoekers. "
 
@@ -247,7 +238,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_revenue"
+>id="cja-template--revenueOvertimeReport"
 >title="Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** begrijpen hoe de opbrengst in tijd stijgt of daalt. U kunt deze metrisch met om het even welke afmeting combineren om te leren welke afmetingspunten aan opbrengst droegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de opbrengst van de projecttoekomst die op vorige tendensen wordt gebaseerd. U zou een andere dimensie, zoals de het Volgen codedimensie, kunnen ook toevoegen om te leren welke campagnes de meeste opbrengst produceren.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Opbrengst."
 
@@ -256,7 +247,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_desc_orders"
+>id="cja-template--ordersOvertimeReport"
 >title="Het totale aantal aankoopgebeurtenissen weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** beter begrijpen hoe de belangstelling in uw producten en de diensten in tijd stijgt of daalt. U kon een segment toepassen om te leren welke klanten of geographies de meeste orden plaatsen en hoe die orden in tijd trending.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door orden vóór en na de gelanceerde campagne te vergelijken. Of je kunt vakantiebestellingen van jaar tot jaar vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Orden."
 
@@ -271,8 +262,6 @@ De volgende sjablonen zijn beschikbaar:
 | [!UICONTROL **Paginaweergaven**] | <!--duplicated in Engagement section--> Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.</p><p>Deze sjabloon gebruikt de afmetingen Dag en Paginaweergaven metrisch.</p> |
 | [!UICONTROL **Bezoeken van het Web**] | <!--duplicated in Engagement section--> Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.</p><p>Deze sjabloon gebruikt de dimensie Dag en de metrische weergave Bezoekingen.</p> |
 | [!UICONTROL **Bezoekers van het Web**] | <!--duplicated in Engagement section--> Het totale aantal unieke bezoekers weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** beter begrijpen hoe het bereik en de publieksgrootte van uw plaats in tijd of vergeleken met een vroegere periode stijgt of daalt.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of een onlangs gelanceerde marketing campagne succesvol was in het aantrekken van nieuwe mensen aan de plaats door unieke bezoekers vóór en na de gelanceerde campagne te vergelijken. Of je vergelijkt het aantal mensen dat de site bezoekt tijdens de vakantie van jaar tot jaar.</p><p>Deze sjabloon gebruikt de dimensie Dag en de metrische waarde voor Unieke bezoekers.</p> |
-| **[!UICONTROL Multi-Channel Overview]** |  |
-| **[!UICONTROL Cross-Channel Comparison]** |  |
 | [!UICONTROL **Belangrijkste cijfers**] | <!--duplicated in Engagement section--> Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. <p>**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. </p><p>Deze sjabloon gebruikt de afmetingen Dag, de metrische weergave van de Paginaweergave, de metrische weergave van bezoekers en de metrische waarde van de unieke bezoekers.</p> |
 | [!UICONTROL **Sitesecties**] | Bekijk de populairste of best presterende gedeelten van uw site. <p>**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.</p> <p>Deze sjabloon gebruikt de dimensie Site-sectie en de metrische weergave Bezoekingen.</p> |
 | [!UICONTROL **Volgende en Vorige Pagina**] | Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken. <p>**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.</p><p>Deze sjabloon gebruikt het deelvenster Volgende of Vorige item.</p> |
@@ -297,7 +286,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_web_content_consumption"
+>id="cja-template--web-content-consumption"
 >title="Bekijk welke webinhoud het meest wordt verbruikt en aantrekkelijke gebruikers is."
 >abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties."
 
@@ -306,7 +295,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_media_content_consumption"
+>id="cja-template--media-content-consumption"
 >title="Bekijk welke media-inhoud het meest wordt verbruikt en aantrekkelijke gebruikers zijn."
 >abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Satterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht."
 
@@ -315,7 +304,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_page_summary"
+>id="cja-template--page-summary-report"
 >title="Belangrijke informatie over om het even welke pagina over uw eigenschappen bekijken. Toont paginameningen, een trendlijn, een stroomvisualisatie, en meer."
 >abstract="**dit kan u helpen** beter begrijpen hoe de mensen met een bepaalde pagina in wisselwerking staan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de prestaties van de pagina over een periode analyseren of beter begrijpen wat verkeer aan de pagina drijft.<br/> Dit malplaatje gebruikt metrisch de Meningen van de Pagina. Het gebruikt ook de Lijnvisualisatie en de visualisatie van de Stroom."
 
@@ -324,7 +313,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_entry_pages"
+>id="cja-template--entryPageRankedReport"
 >title="Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken."
 >abstract="**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
 
@@ -333,7 +322,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_exit_pages"
+>id="cja-template--exitPageRankedReport"
 >title="Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten."
 >abstract="**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
 
@@ -362,7 +351,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_product_conversion_funnel"
+>id="cja-template--productConversionReport"
 >title="Sjabloon voor productieconversie"
 >abstract=""
 
@@ -371,7 +360,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_product_performance"
+>id="cja-template--retail-products-template"
 >title="Bekijk welke producten het best presteren."
 >abstract="**dit kan u helpen** beter begrijpen welke producten het meest succesvol zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals verhoging van financiering aan succesvolle producten en vermindering financiering aan minder succesvolle producten.<br/> dit malplaatje gebruikt de Weergaven van het Product, de Toevoegingen van de Kar, Orden, Inkomsten, en de metriek van Eenheden. Het gebruikt ook de dimensie van het Product."
 
@@ -380,7 +369,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_cart_conversion_funnels"
+>id="cja-template--cartConversionReport"
 >title="Bekijk het aantal keren dat mensen toetsafhandelingsgebeurtenissen hebben uitgevoerd, zoals het toevoegen van items aan hun winkelwagentje, het bekijken van hun winkelwagentje, het verwijderen van items uit hun winkelwagentje en het uitchecken."
 >abstract="**dit kan u helpen** beter begrijpen welke delen van het controleproces trechter die tot omzetting leiden en die aan kartontroeping vatbaarder zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als vermindering wrijving bij bepaalde stappen van het controleproces.<br/> Dit malplaatje gebruikt"
 
@@ -389,7 +378,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_carts"
+>id="cja-template--cartsOvertimeReport"
 >title="Bekijk het aantal personen dat een product aan hun winkelwagentje heeft toegevoegd."
 >abstract="**dit kan u helpen** beter het aantal mensen begrijpen die een product aan hun kar, in tegenstelling tot het algemene aantal producten toevoegen die aan een kar worden toegevoegd.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als maatregel de doeltreffendheid van uw productpagina&#39;s.<br/> Dit malplaatje gebruikt metrische Waren."
 
@@ -398,7 +387,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_cart_views"
+>id="cja-template--cartViewsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen hun winkelwagentje bekeken."
 >abstract="**dit kan u helpen** beter de controleervaring in een inspanning begrijpen om het tarief van de kartontroeping te verminderen, of de tijd tussen karttoevoegingen en controles onder verschillende producten te analyseren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals aanbiedingsbevorderingen voor producten die in winkelwagentjes het langst blijven en bij het grootste risico voor verlaten zijn.<br/> Dit malplaatje gebruikt metrische de Meningen van het Kart."
 
@@ -407,7 +396,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_cart_additions"
+>id="cja-template--cartAdditionsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen iets aan hun winkelwagen hebben toegevoegd."
 >abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanteninteresse in een product hoog genoeg is dat zij het aan hun kar toevoegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als productaanbevelingen voor alle klanten verbeteren. Dit kan worden gedaan door te analyseren welke producten vaak aan dezelfde karretjes worden toegevoegd en door verwante producten voor te stellen op basis van producten die al in de kar staan."
 
@@ -416,7 +405,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_cart_removals"
+>id="cja-template--cartRemovalsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen iets uit hun winkelwagentje hebben verwijderd."
 >abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanten niet meer in een product geinteresseerd zijn, of het kan u helpen begrijpen waar de problemen in het controleproces zouden kunnen bestaan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als om het even welke potentiële barrières verwijderen die in het controleproces, zoals een gecompliceerde gebruikerservaring zouden kunnen bestaan.<br/> Dit malplaatje gebruikt metrische de Verwijderingen van de Kar."
 
@@ -425,7 +414,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_purchase_conversion_funnel"
+>id="cja-template--purchaseConversionReport"
 >title="Sjabloon voor conversietrechter"
 >abstract=""
 
@@ -447,52 +436,331 @@ De volgende sjablonen zijn beschikbaar:
 | **Omzet** | <!--duplicated in Most popular section-->Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft.<p>**dit kan u** helpen beter begrijpen welke afmetingspunten aan opbrengst, door metrische Inkomsten met om het even welke afmeting te combineren bijdroegen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de het Volgen codedimensie) die tot opbrengst bijdroegen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de opbrengstdoelstellingen ontmoeten u zou verwachten.</p><p>In deze sjabloon wordt de maatstaf voor inkomsten gebruikt. |
 | **Orders** | <!--duplicated in Most popular section-->Geef het totale aantal aankoopgebeurtenissen op uw site weer. <p>**dit kan u helpen** beter begrijpen welke afmetingspunten aan een orde droegen, door metrische Orden met om het even welke afmeting te combineren. U kunt bijvoorbeeld de beste campagnes (met de dimensie Trackingcode) zien die hebben bijgedragen aan aankopen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals campagnes aanpassen die niet de aankoopdoelstellingen ontmoeten u zou verwachten. </p><p>Deze sjabloon gebruikt metrische opdrachten. |
 
-### Web: Publiek
+### Web: Publiek {#web-audience}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--countryGeoReport"
+>title="Bekijk het land van oorsprong van de bezoekers van de site."
+>abstract="**dit kan u** helpen beter begrijpen wat de populairste landbezoekers van wie uw plaats bezoeken voortkomen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze landen te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in landen is die verschillende primaire talen hebben.<br/> Dit malplaatje gebruikt de dimensie van Landen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--stateGeoReport"
+>title="Bekijk de staat (in de Verenigde Staten) waaruit mensen die de site bezoeken, zijn ontstaan. Dit is vergelijkbaar met de Geo Regions template, behalve dat deze specifiek is voor de Verenigde Staten."
+>abstract="**dit kan u** helpen beter begrijpen de populairste staten van de V.S. bezoekers van wie uw plaats bezoeken voortkomen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze staten te concentreren.<br/> Dit malplaatje gebruikt de dimensie van Staten van de VS."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--regionGeoReport"
+>title="Bekijk het geografische gebied van waaruit de bezoekers van de site afkomstig zijn. Een regio is een geografisch gebied dat kleiner is dan een land maar groter dan een stad. In sommige landen is een regio een staat, provincie of prefectuur. In andere gebieden is het een deelland, afdeling of metropolitane regio. "
+>abstract="**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze gebieden te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in gebieden is die verschillende primaire talen hebben. <br/> Dit malplaatje gebruikt identiteitskaart (variabelen/geocountry) en Gebieden dimensies. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--cityGeoReport"
+>title="Bekijk de stad van waar mensen die de site bezoeken, vandaan komen."
+>abstract="**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. <br/> Dit malplaatje gebruikt de dimensie van Steden"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dmaGeoReport"
+>title="Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn."
+>abstract="**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--languageRankedReport"
+>title="Bekijk de bovenste talen waarin bezoekers inhoud liever zien."
+>abstract="**dit kan u helpen** beter de vaakst aangewezen talen van bezoekers begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de inspanningen van de focuslokalisatie of marketing voor de populairste talen.<br/> Dit malplaatje gebruikt de afmeting van de Taal."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--web-technology-template"
+>title="Overzicht van technologie"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--browserRankedReport"
+>title="Bekijk de naam en versie van de bovenste browsers die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen de gemeenschappelijkste browsers die bezoekers gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.<br/> Dit malplaatje gebruikt de Browser afmeting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--browserTypeRankedReport"
+>title="Geef de namen weer van de organisaties die de beste browsers hebben gemaakt die mensen gebruiken om toegang te krijgen tot uw site. Dit verschilt van het Browser malplaatje in zoverre dat het geen verschillende versies van zelfde browser zoals afzonderlijke afmetingspunten opsomt."
+>abstract="**dit kan u helpen** beter de gemeenschappelijkste browsers begrijpen die bezoekers <br/>**gebruiken Gebaseerd op wat u leert, zou u om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers.** Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd. <br/> Dit malplaatje gebruikt de Browser typeafmeting. "
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Eerste vs Herhaal Gebruikers**] | Een vergelijking weergeven van nieuwe bezoekers die voor het eerst bezoekers willen herhalen. <p>**dit kan u helpen** beter begrijpen de doeltreffendheid van uw plaats in het behouden van klantenloyaliteit, of het tarief waartegen u nieuwe klanten verwerft.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als aansporingen voor toekomstige aankopen aan eerste-tijdbezoekers aanbieden om hen te dwingen terug te keren.</p><p>Deze sjabloon gebruikt de |
-| **Identiteitskaart van de Persoon/Namespace** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Overzicht van de Plaats** | Bekijk een overzicht van de locatie van de bezoeker in een kaartvisualisatie.<p>**dit kan u helpen** beter begrijpen waar de bezoekers worden gevestigd die uw plaats bezoeken. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing middelen in de plaatsen waar u de meeste interesse en de kans ziet.</p><p>Deze sjabloon gebruikt de |
-| **Geo Landen** | Bekijk het land van oorsprong van de bezoekers van de site.<p>**dit kan u** helpen beter begrijpen wat de populairste landbezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze landen te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in landen is die verschillende primaire talen hebben.</p><p>In deze sjabloon wordt de landendimensie gebruikt. |
-| **Geo de Staten van de V.S.** | Bekijk de staat (in de Verenigde Staten) waaruit mensen die de site bezoeken, zijn ontstaan. Dit is vergelijkbaar met de Geo Regions template, behalve dat deze specifiek is voor de Verenigde Staten.<p>**dit kan u** helpen beter begrijpen de populairste staten van de V.S. bezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze staten te concentreren.</p><p>Deze sjabloon gebruikt de Amerikaanse dimensie Staten. |
-| **Geo Gebieden** | Bekijk het geografische gebied van waaruit de bezoekers van de site afkomstig zijn. Een regio is een geografisch gebied dat kleiner is dan een land maar groter dan een stad. In sommige landen is een regio een staat, provincie of prefectuur. In andere gebieden is het een deelland, afdeling of metropolitane regio. <p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze gebieden te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in gebieden is die verschillende primaire talen hebben. </p><p>Deze sjabloon gebruikt de afmetingen ID(variabelen/geocountry) en Gebieden. |
-| **Geo Steden** | Bekijk de stad van waar mensen die de site bezoeken, vandaan komen. <p>**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. </p><p>Deze sjabloon gebruikt de |
-| **Geo US DMA** | Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn.<p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. </p><p>Deze sjabloon gebruikt de |
-| **Talen** | Bekijk de bovenste talen waarin bezoekers inhoud liever zien. <p>**dit kan u helpen** beter de vaakst aangewezen talen van bezoekers begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de inspanningen van de focuslokalisatie of marketing voor de populairste talen.</p><p>Deze sjabloon gebruikt de taaldimensie. |
-| **Overzicht van de Technologie** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Browsers** | Bekijk de naam en versie van de bovenste browsers die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u helpen** beter begrijpen de gemeenschappelijkste browsers die bezoekers gebruiken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.</p><p>Deze sjabloon gebruikt de browserdimensie. |
-| **Browsertypen** | Geef de namen weer van de organisaties die de beste browsers hebben gemaakt die mensen gebruiken om toegang te krijgen tot uw site. Dit verschilt van het Browser malplaatje in zoverre dat het geen verschillende versies van zelfde browser zoals afzonderlijke afmetingspunten opsomt.<p>**dit kan u** helpen beter begrijpen gemeenschappelijkste browsers die de bezoekers gebruiken</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd. </p><p>Deze sjabloon gebruikt de afmetingen voor het browsertype. |
+| [!UICONTROL **Eerste vs Herhaal Gebruikers**] | Een vergelijking weergeven van nieuwe bezoekers die voor het eerst bezoekers willen herhalen. <p>**dit kan u helpen** beter begrijpen de doeltreffendheid van uw plaats in het behouden van klantenloyaliteit, of het tarief waartegen u nieuwe klanten verwerft.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als aansporingen voor toekomstige aankopen aan eerste-tijdbezoekers aanbieden om hen te dwingen terug te keren.</p><p>Deze sjabloon gebruikt de </p> |
+| **Identiteitskaart van de Persoon/Namespace** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de  </p> |
+| **Overzicht van de Plaats** | Bekijk een overzicht van de locatie van de bezoeker in een kaartvisualisatie.<p>**dit kan u helpen** beter begrijpen waar de bezoekers worden gevestigd die uw plaats bezoeken. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing middelen in de plaatsen waar u de meeste interesse en de kans ziet.</p><p>Deze sjabloon gebruikt de  </p> |
+| **Geo Landen** | Bekijk het land van oorsprong van de bezoekers van de site.<p>**dit kan u** helpen beter begrijpen wat de populairste landbezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze landen te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in landen is die verschillende primaire talen hebben.</p><p>In deze sjabloon wordt de landendimensie gebruikt. </p> |
+| **Geo de Staten van de V.S.** | Bekijk de staat (in de Verenigde Staten) waaruit mensen die de site bezoeken, zijn ontstaan. Dit is vergelijkbaar met de Geo Regions template, behalve dat deze specifiek is voor de Verenigde Staten.<p>**dit kan u** helpen beter begrijpen de populairste staten van de V.S. bezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze staten te concentreren.</p><p>Deze sjabloon gebruikt de Amerikaanse dimensie Staten. </p> |
+| **Geo Gebieden** | Bekijk het geografische gebied van waaruit de bezoekers van de site afkomstig zijn. Een regio is een geografisch gebied dat kleiner is dan een land maar groter dan een stad. In sommige landen is een regio een staat, provincie of prefectuur. In andere gebieden is het een deelland, afdeling of metropolitane regio. <p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze gebieden te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in gebieden is die verschillende primaire talen hebben. </p><p>Deze sjabloon gebruikt de afmetingen ID(variabelen/geocountry) en Gebieden. </p> |
+| **Geo Steden** | Bekijk de stad van waar mensen die de site bezoeken, vandaan komen. <p>**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. </p><p>Deze sjabloon gebruikt de dimensie Steden </p> |
+| **Geo US DMA** | Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn.<p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. </p><p>Deze sjabloon gebruikt de </p> |
+| **Talen** | Bekijk de bovenste talen waarin bezoekers inhoud liever zien. <p>**dit kan u helpen** beter de vaakst aangewezen talen van bezoekers begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de inspanningen van de focuslokalisatie of marketing voor de populairste talen.</p><p>Deze sjabloon gebruikt de taaldimensie.</p> |
+| **Overzicht van de Technologie** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de </p> |
+| **Browsers** | Bekijk de naam en versie van de bovenste browsers die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u helpen** beter begrijpen de gemeenschappelijkste browsers die bezoekers gebruiken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.</p><p>Deze sjabloon gebruikt de browserdimensie. </p> |
+| **Browsertypen** | Geef de namen weer van de organisaties die de beste browsers hebben gemaakt die mensen gebruiken om toegang te krijgen tot uw site. Dit verschilt van het Browser malplaatje in zoverre dat het geen verschillende versies van zelfde browser zoals afzonderlijke afmetingspunten opsomt.<p>**dit kan u** helpen beter begrijpen gemeenschappelijkste browsers die de bezoekers gebruiken</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd. </p><p>Deze sjabloon gebruikt de afmetingen voor het browsertype. </p> |
 
-### Web: Verwerving
+### Web: Verwerving {#web-acquisition}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--marketing-channel-overview-template"
+>title="Wanneer u aangepaste kenmerk gebruikt, wordt in deze sjabloon getoond hoe bezoekers op uw site aankomen."
+>abstract="**dit kan u helpen** beter begrijpen welke van uw marketing kanalen het meest efficiënt zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zou zwaarder in efficiënte marketing kanalen investeren en van minder het uitvoeren van marketing kanalen afstoten.<br/> Dit malplaatje gebruikt identiteitskaart (variabelen/het marketingkanaal) afmeting en metrisch van de Opbrengst."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--firstouchChannelRankedReport"
+>title="Bekijk het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)."
+>abstract="**dit kan u helpen** beter begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.<br/> Dit malplaatje gebruikt de Eerste dimensie van het Kanaal van de Aanraking."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--firstouchChannelDetailRankedReport"
+>title="Bekijk details over het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)."
+>abstract="**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.<br/> Dit malplaatje gebruikt de Eerste dimensie van het Detail van het Kanaal van de Aanraking."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--campaignConversionReport"
+>title="Campagneconversietrechter"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--retail-campaign-performance-template"
+>title="Bekijk details over hoe je marketingcampagnes presteren."
+>abstract="**dit kan u** helpen meer over de diverse succesindicatoren begrijpen verbonden aan campagnes, zoals opbrengst, productmeningen, orden, etc.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven. <br/> Dit malplaatje gebruikt metrische de Inkomsten, metrische de Kijken van het Product, metrische de Toevoegingen van de Kar, Metrische Orden, en metrische Eenheden. Het gebruikt ook de het Volgen dimensie van de Code en de Verwijzende dimensie van het Domein."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--web-acquisition-template"
+>title="Bekijk hoe uw website bezoekers verkrijgt."
+>abstract="**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen in de meest efficiënte kanalen.<br/> Dit malplaatje gebruikt metrische het Tarief van de Stuitage en metrische Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchKeywordRankedReport"
+>title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken, ongeacht of deze betaald of natuurlijk is."
+>abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.<br/> Dit malplaatje gebruikt de afmeting van het Sleutelwoord van het Onderzoek."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchPaidKeywordRankedReport"
+>title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen overeen met gevonden zoekopdrachten."
+>abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven. <br/> Dit malplaatje gebruikt het Trefwoord van het Onderzoek - Betaalde afmeting. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchNaturalKeywordRankedReport"
+>title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten."
+>abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.<br/> Dit malplaatje gebruikt het Sleutelwoord van het Onderzoek - Natuurlijke afmeting. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchRankedReport"
+>title="Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken, ongeacht of ze betaald of natuurlijk zijn."
+>abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.<br/> Dit malplaatje gebruikt de afmeting van de Motor van het Onderzoek. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchPaidRankedReport"
+>title="Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken en die overeenkomen met betaalde zoekdetectie."
+>abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven. <br/> Dit malplaatje gebruikt de Motor van het Onderzoek - Betaalde afmeting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--searchNaturalRankedReport"
+>title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten."
+>abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.<br/> Dit malplaatje gebruikt de Motor van het Onderzoek - Natuurlijke afmeting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--referringDomainRankedReport"
+>title="Bekijk welke domeinen mensen door klikken om uw plaats te bereiken."
+>abstract="**dit kan u helpen** beter begrijpen welke derdeplaatsen het meeste verkeer aan u drijven. (Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.)<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste verwijzende domeinen komen. <br/> Dit malplaatje gebruikt de Verwijzende dimensie van het Domein."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--referringDomainOriginalRankedReport"
+>title="Bekijk het eerste verwijzende domein dat mensen door klikte om uw plaats te bereiken. (Nadat deze is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van de desbetreffende bezoekersidentiteitskaart.)"
+>abstract="**dit kan u helpen** beter begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste originele verwijzende domeinen komen. <br/> Dit malplaatje gebruikt de Originele Verwijzende dimensie van het Domein."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--referrerRankedReport"
+>title="Bekijk welke URL&#39;s bezoekers hadden toen u door klikte om uw site te bereiken. (De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.)"
+>abstract="**dit kan u helpen** beter begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van hoogste URLs komen. <br/> Dit malplaatje gebruikt de Verwijzende dimensie van het Domein.</p>"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--referrerTypeRankedReport"
+>title="Bekijk welke algemene kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk kanaal. Mogelijke kanalen zijn zoekprogramma&#39;s, sociale netwerken, andere websites, vaste schijf of e-mail."
+>abstract="**dit kan u helpen** beter begrijpen welk type van verwijzers het meeste verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van een bepaald kanaal komen.<br/> Dit malplaatje gebruikt de afmeting van het Type van Referateur."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| **]>[!UICONTROL ** het Rapport van het Overzicht van het Kanaal van de Marketing van 0} de Kanalen van de Marketing **][!UICONTROL ** | Wanneer u aangepaste kenmerk gebruikt, wordt in deze sjabloon getoond hoe bezoekers op uw site aankomen.<p>**dit kan u helpen** beter begrijpen welke van uw marketing kanalen het meest efficiënt zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zou zwaarder in efficiënte marketing kanalen investeren en van minder het uitvoeren van marketing kanalen afstoten.</p><p>Deze sjabloon gebruikt de dimensie ID(variables/marketing channel) en de maatstaf van de Opbrengst. |
-| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **Eerste Aanraak Marketend Kanaal**] | Bekijk het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen). <p>**dit kan u helpen** beter begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>Deze sjabloon gebruikt de dimensie Eerste aanraakkanaal. |
-| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **het Detail van het Kanaal van de Aanraak**] | Bekijk details over het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen).<p>**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>In deze sjabloon wordt de dimensie Details eerste aanraakkanaal gebruikt, |
-| [!UICONTROL **de Kanalen van de Marketing**] > [!UICONTROL **het Laatste Kanaal van de Aanraak**] | Bekijk het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen).<p>**dit kan u helpen** beter begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>Deze sjabloon gebruikt de afmeting Laatste aanraakkanaal. |
-| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **het Detail van het Kanaal van de Aanraak**] | Details weergeven over het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)<p>**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn. </p><p>In deze sjabloon wordt de dimensie Details laatste aanraakkanaal gebruikt. |
-| [!UICONTROL **Campagnes**] > [!UICONTROL **Campagnes (het Volgen Code)**] | Geef de namen van trackingcodes op uw site weer. U kunt koppelingen met verschillende parameterwaarden voor queryreeksen op verschillende locaties op internet plaatsen.<p>**dit kan u helpen** beter begrijpen welke verbindingen het meest succesvol in het drijven van verkeer aan uw plaats waren. Tekenreeksen voor bijhouden van code worden vaak toegevoegd in e-mails, advertenties, berichten op sociale media en andere marketingactiviteiten die uw organisatie gebruikt</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven.</p><p>Deze sjabloon gebruikt de dimensie Trackingcode. |
-| [!UICONTROL **Campagnes**] > [!UICONTROL **het Kanaal van de Omzetting van de Campagne**] | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| [!UICONTROL **Campagnes**] > [!UICONTROL **Prestaties van de Campagne**] | Bekijk details over hoe je marketingcampagnes presteren.<p>**dit kan u** helpen meer over de diverse succesindicatoren begrijpen verbonden aan campagnes, zoals opbrengst, productmeningen, orden, etc.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven. </p><p>Deze sjabloon gebruikt metrische inkomsten, Metrische productweergaven, Metrische optellingen van kunsttoevoegingen, Metrische Orden, en metrische eenheden. Het gebruikt ook de het Volgen dimensie van de Code en de Verwijzende dimensie van het Domein. |
-| **Opname van het Web** | Bekijk hoe uw website bezoekers verkrijgt.<p>**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de metrische waarde Bounce Rate en de metrische waarde Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur. |
-| **Onderzoek Keywords-Alles** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken, ongeacht of deze betaald of natuurlijk is. <p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.</p><p>Deze sjabloon gebruikt de dimensie Trefwoord zoeken. |
-| **Onderzoek Keywords-Betaald** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven. </p><p>Deze sjabloon gebruikt de afmeting Trefwoord zoeken - Betaald. |
-| **onderzoek Keywords-Natural** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.</p><p>Deze sjabloon gebruikt het trefwoord Zoeken - Natuurlijk. |
-| **Onderzoek motor-allen** | Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken, ongeacht of ze betaald of natuurlijk zijn. <p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.</p><p>Deze sjabloon gebruikt de dimensie Zoekmachine. |
-| **Onderzoek motor-betaalde** | Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken en die overeenkomen met betaalde zoekdetectie.<p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven. </p><p>Deze sjabloon gebruikt de afmeting Zoekmachine - Betaald. |
-| **van het 0} Onderzoek motor-Natuurlijk** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.</p><p>Deze sjabloon gebruikt de zoekengine - Natuurlijke dimensie. |
-| **Verwijzende domeinen** | Bekijk welke domeinen mensen door klikken om uw plaats te bereiken.<p>**dit kan u helpen** beter begrijpen welke derdeplaatsen het meeste verkeer aan u drijven. (Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.)</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste verwijzende domeinen komen. </p><p>Deze sjabloon gebruikt de dimensie Refererend domein. |
-| **Oorspronkelijke verwijzende domeinen** | Bekijk het eerste verwijzende domein dat mensen door klikte om uw plaats te bereiken. (Nadat deze is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van de desbetreffende bezoekersidentiteitskaart.)<p>**dit kan u helpen** beter begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste originele verwijzende domeinen komen. </p><p>Deze sjabloon gebruikt de dimensie Origineel verwijzend domein. |
-| **Referrers** | Bekijk welke URL&#39;s bezoekers hadden toen u door klikte om uw site te bereiken. (De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.)  <p>**dit kan u helpen** beter begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van hoogste URLs komen. </p><p>Deze sjabloon gebruikt de dimensie Refererend domein </p><p>Deze sjabloon gebruikt de dimensie Referrer. |
-| **Types van Refererder** | Bekijk welke algemene kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk kanaal. Mogelijke kanalen zijn zoekprogramma&#39;s, sociale netwerken, andere websites, vaste schijf of e-mail.<p>**dit kan u helpen** beter begrijpen welk type van verwijzers het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van een bepaald kanaal komen.</p><p>Deze sjabloon gebruikt de dimensie Type referentie. |
+| **]>[!UICONTROL ** het Rapport van het Overzicht van het Kanaal van de Marketing van 0} de Kanalen van de Marketing **][!UICONTROL ** | Wanneer u aangepaste kenmerk gebruikt, wordt in deze sjabloon getoond hoe bezoekers op uw site aankomen.<p>**dit kan u helpen** beter begrijpen welke van uw marketing kanalen het meest efficiënt zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zou zwaarder in efficiënte marketing kanalen investeren en van minder het uitvoeren van marketing kanalen afstoten.</p><p>Deze sjabloon gebruikt de dimensie ID(variables/marketing channel) en de maatstaf van de Opbrengst.</p> |
+| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **Eerste Aanraak Marketend Kanaal**] | Bekijk het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen). <p>**dit kan u helpen** beter begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>Deze sjabloon gebruikt de dimensie Eerste aanraakkanaal.</p> |
+| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **het Detail van het Kanaal van de Aanraak**] | Bekijk details over het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen).<p>**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>In deze sjabloon wordt de dimensie Details eerste aanraakkanaal gebruikt.</p> |
+| [!UICONTROL **de Kanalen van de Marketing**] > [!UICONTROL **het Laatste Kanaal van de Aanraak**] | Bekijk het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen).<p>**dit kan u helpen** beter begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>Deze sjabloon gebruikt de afmeting Laatste aanraakkanaal.  </p> |
+| [!UICONTROL **de In de handel brengende Kanalen**] > [!UICONTROL **het Detail van het Kanaal van de Aanraak**] | Details weergeven over het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)<p>**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn. </p><p>In deze sjabloon wordt de dimensie Details laatste aanraakkanaal gebruikt. </p> |
+| [!UICONTROL **Campagnes**] > [!UICONTROL **Campagnes (het Volgen Code)**] | Geef de namen van trackingcodes op uw site weer. U kunt koppelingen met verschillende parameterwaarden voor queryreeksen op verschillende locaties op internet plaatsen.<p>**dit kan u helpen** beter begrijpen welke verbindingen het meest succesvol in het drijven van verkeer aan uw plaats waren. Tekenreeksen voor bijhouden van code worden vaak toegevoegd in e-mails, advertenties, berichten op sociale media en andere marketingactiviteiten die uw organisatie gebruikt</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven.</p><p>Deze sjabloon gebruikt de dimensie Trackingcode. </p> |
+| [!UICONTROL **Campagnes**] > [!UICONTROL **het Kanaal van de Omzetting van de Campagne**] | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de  </p> |
+| [!UICONTROL **Campagnes**] > [!UICONTROL **Prestaties van de Campagne**] | Bekijk details over hoe je marketingcampagnes presteren.<p>**dit kan u** helpen meer over de diverse succesindicatoren begrijpen verbonden aan campagnes, zoals opbrengst, productmeningen, orden, etc.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven. </p><p>Deze sjabloon gebruikt metrische inkomsten, Metrische productweergaven, Metrische optellingen van kunsttoevoegingen, Metrische Orden, en metrische eenheden. Het gebruikt ook de het Volgen dimensie van de Code en de Verwijzende dimensie van het Domein. </p> |
+| **Opname van het Web** | Bekijk hoe uw website bezoekers verkrijgt.<p>**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen in de meest efficiënte kanalen.</p><p>Deze sjabloon gebruikt de metrische waarde Bounce Rate en de metrische waarde Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur.  </p> |
+| **Onderzoek Keywords-Alles** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken, ongeacht of deze betaald of natuurlijk is. <p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.</p><p>Deze sjabloon gebruikt de dimensie Trefwoord zoeken. </p> |
+| **Onderzoek Keywords-Betaald** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven. </p><p>Deze sjabloon gebruikt de afmeting Trefwoord zoeken - Betaald. </p> |
+| **onderzoek Keywords-Natural** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.</p><p>Deze sjabloon gebruikt het trefwoord Zoeken - Natuurlijk. </p> |
+| **Onderzoek motor-allen** | Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken, ongeacht of ze betaald of natuurlijk zijn. <p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.</p><p>Deze sjabloon gebruikt de dimensie Zoekmachine. </p> |
+| **Onderzoek motor-betaalde** | Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken en die overeenkomen met betaalde zoekdetectie.<p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven. </p><p>Deze sjabloon gebruikt de afmeting Zoekmachine - Betaald. </p> |
+| **van het 0} Onderzoek motor-Natuurlijk** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten.<p>**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.</p><p>Deze sjabloon gebruikt de zoekengine - Natuurlijke dimensie. </p> |
+| **Verwijzende domeinen** | Bekijk welke domeinen mensen door klikken om uw plaats te bereiken.<p>**dit kan u helpen** beter begrijpen welke derdeplaatsen het meeste verkeer aan u drijven. (Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.)</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste verwijzende domeinen komen. </p><p>Deze sjabloon gebruikt de dimensie Refererend domein. </p> |
+| **Oorspronkelijke verwijzende domeinen** | Bekijk het eerste verwijzende domein dat mensen door klikte om uw plaats te bereiken. (Nadat deze is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van de desbetreffende bezoekersidentiteitskaart.)<p>**dit kan u helpen** beter begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste originele verwijzende domeinen komen. </p><p>Deze sjabloon gebruikt de dimensie Origineel verwijzend domein. </p> |
+| **Referrers** | Bekijk welke URL&#39;s bezoekers hadden toen u door klikte om uw site te bereiken. (De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.)  <p>**dit kan u helpen** beter begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van hoogste URLs komen. </p><p>Deze sjabloon gebruikt de dimensie Refererend domein </p><p>Deze sjabloon gebruikt de dimensie Referrer. </p> |
+| **Types van Refererder** | Bekijk welke algemene kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk kanaal. Mogelijke kanalen zijn zoekprogramma&#39;s, sociale netwerken, andere websites, vaste schijf of e-mail.<p>**dit kan u helpen** beter begrijpen welk type van verwijzers het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van een bepaald kanaal komen.</p><p>Deze sjabloon gebruikt de dimensie Type referentie.</p> |
 
-### Mobiel: mobiele toepassing
+### Mobiel: mobiele toepassing {#mobile-app}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-lifecycle-metrics-app-usage-template"
+>title="Gebruik van mobiele apps"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-app-journeys"
+>title="Mobiele app-reizen"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-app-key-metrics"
+>title="Metrische mobiele apps"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-app-messaging"
+>title="Mobiele app-berichten"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-app-performance-template"
+>title="Prestaties van mobiele apps"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobile-app-retention"
+>title="Behoud van mobiele apps"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
@@ -507,16 +775,52 @@ De volgende sjablonen zijn beschikbaar:
 | **Mobiele App Prestaties** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
 | **Mobiele Toepassing Behoud** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
 
-### Mobiel: informatie over mobiele apparaten
+### Mobiel: informatie over mobiele apparaten {#mobile-devices}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobileCarrierRankedReport"
+>title="Bekijk het telecommunicatiebedrijf dat cellulaire netwerkconnectiviteit aan de mobiele apparaten verstrekt.die de mensen gebruiken om tot uw plaats toegang te hebben."
+>abstract="**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Drager."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobileDeviceNameRankedReport"
+>title="Bekijk het merk en het model van mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u** helpen beter begrijpen welke mobiele apparaten het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste mobiele apparaten.<br/> Dit malplaatje gebruikt de Mobiele dimensie van de Naam van het Apparaat."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobileDeviceTypeRankedReport"
+>title="Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets."
+>abstract="**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.<br/> Dit malplaatje gebruikt de Mobiele dimensie van het Type van Apparaat."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--mobileManufacturerRankedReport"
+>title="Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung."
+>abstract="**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Fabrikant."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Mobiele aanbieder**] | Bekijk de mobiele dragers die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele drager. |
-| **Mobiele Apparaten** | Bekijk de mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u** helpen beter begrijpen welke mobiele apparaten het populairst onder uw gebruikersbasis zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste mobiele apparaten.</p><p>Deze sjabloon gebruikt de dimensie Mobiele apparaatnaam. |
-| **Mobiel Type van Apparaat** | Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets.<p>**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.</p><p>Deze sjabloon gebruikt de dimensie Mobiel apparaattype. |
-| **Fabrikant** | Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung.<p>**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele fabrikant. |
+| [!UICONTROL **Mobiele aanbieder**] | Bekijk het telecommunicatiebedrijf dat cellulaire netwerkconnectiviteit aan de mobiele apparaten verstrekt.die de mensen gebruiken om tot uw plaats toegang te hebben.<p>**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele drager.</p> |
+| **Mobiele Apparaten** | Bekijk het merk en het model van mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u** helpen beter begrijpen welke mobiele apparaten het populairst onder uw gebruikersbasis zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste mobiele apparaten.</p><p>Deze sjabloon gebruikt de dimensie Mobiele apparaatnaam.</p> |
+| **Mobiel Type van Apparaat** | Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets.<p>**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.</p><p>Deze sjabloon gebruikt de dimensie Mobiel apparaattype.</p> |
+| **Fabrikant** | Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung.<p>**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele fabrikant.</p> |
 
 ### Tijd delen
 
@@ -524,16 +828,16 @@ De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Minuut van Uur**] | Bekijk de minuut dat metrisch voorkwam (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut in de datumwaaier, en het laatste afmetingspunt is de laatste minuut in de datumwaaier. <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Uur van Dag** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **AM/PM** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Dag van Week** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Dag van Maand** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Dag van Jaar** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Weekdag/Weekend** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Week van Jaar** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Maand van Jaar** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Kwartaal van Jaar** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
+| [!UICONTROL **Minuut van Uur**] | Bekijk het aantal gebeurtenissen, sessies en personen op uw site, opgesplitst per minuut. Bijvoorbeeld, als u een rapport met een rapporteringstimeframe van één enkele dag hebt, wordt de eerste minuut van elk uur in de dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter tendensen op een korrelig niveau begrijpen.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt het Minuut van de dimensie van het Uur. |
+| **Uur van Dag** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar uur van de dag. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, wordt het eerste uur van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter de tijd van dag begrijpen wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie Uur van Dag. |
+| **AM/PM** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar AM en PM. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, worden de uren AM van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter begrijpen de tijd van dag wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie AM/PM. |
+| **Dag van Week** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de week. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspant, wordt elke dag van de week gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van de week uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van de Week. |
+| **Dag van Maand** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de maand. Bijvoorbeeld, als u een rapport hebt dat een volledig jaar overspant, wordt elke dag van de maand gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elke maand uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Maand. |
+| **Dag van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke dag van het jaar gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elk jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Jaar. |
+| **Weekdag/Weekend** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar weekdagen en weekends. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspannen, worden de weekdagen en weekends gegroepeerd in afzonderlijke afmetingspunten. <p>**dit kan u helpen** beter de verschillen in plaatsverkeer voor weekdagen tegenover weekends begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum zwaarder op weekends, als het rapport erop wijst dat de weekends meer dan weekdagen zijn.</p><p>Deze sjabloon gebruikt de dimensie Weekdag/Weekend. |
+| **Week van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar week van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke week gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke weken van het jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersweken, zoals tijdens de vakanties.</p><p>Deze sjabloon gebruikt de Week van Jaar dimensie. |
+| **Maand van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar maand van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke maand gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke maanden uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersmaanden, zoals tijdens de vakanties.</p><p>In deze sjabloon wordt de maand van het jaar gebruikt. |
+| **Kwartaal van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar kwart van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elk kwartaal gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke kwarten uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals tijd de lancering van producten om historisch laag-verkeerskwarten op te voeren.</p><p>Deze sjabloon gebruikt de dimensie Kwartaal van jaar. |
 
 ### Kanaal overschrijden
 
@@ -558,17 +862,62 @@ De volgende sjablonen zijn beschikbaar:
 | **E-mail/AJO** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
 | **Onderzoek** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
 
-### AJO
+### AJO {#AJO-templates}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--ajo-campaign"
+>title="AJO-campagnes"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--ajo-journey"
+>title="AJO-reizen"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--ajo-landing-page"
+>title="AJO-openingspagina&#39;s"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--ajo-channel"
+>title="Overzicht AJO-rapport"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--ajo-subscription"
+>title="AJO-abonnementen"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **de Campagnes van AJO**] | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **de Reizen van AJO** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **AJO die Pagina&#39;s** landt | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **het Overzicht van AJO Rapport** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Abonnementen van AJO** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
+| [!UICONTROL **de Campagnes van AJO**] | Bekijk essentiële gegevens voor uw Journey Optimizer-campagnes, zoals e-mailcampagnes, experimenten, in-app, SMS en meer.<p>**dit kan u helpen** beter details zoals het aantal kliks en het aantal geleverde berichten begrijpen, die een uitvoerig inzicht in de doeltreffendheid van uw campagne en niveau van overeenkomst aanbieden.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
+| **de Reizen van AJO** | Bekijk essentiële gegevens voor uw Journey Optimizer-reizen, zoals e-mailreizen, experimenten, in-app, SMS en meer.<p>**dit kan u helpen** beter details zoals het aantal kliks en aantal geleverde berichten begrijpen, die een uitvoerig inzicht in de doeltreffendheid van uw reis en niveau van overeenkomst aanbieden.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
+| **AJO die Pagina&#39;s** landt | Bekijk gebruikersgedrag, betrokkenheidspatronen, conversietarieven en andere belangrijke meetgegevens.<p>**dit kan u helpen** beter de doeltreffendheid van uw het landen pagina begrijpen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw het landen paginaprestaties.</p> |
+| **het Overzicht van AJO Rapport** | Bekijk een uitgebreide samenvatting van verkeers- en betrokkenheidsgegevens voor alle campagnes en reizen binnen uw omgeving.<p>**dit kan u helpen** beter de doeltreffendheid op hoog niveau van uw campagnes en reizen begrijpen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes en reizen aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
+| **Abonnementen van AJO** | Abonnementen en abonnementen van profielen voor bepaalde lijsten weergeven.<p>**dit kan u** helpen beter de doeltreffendheid van verschillende abonnementscampagnes en initiatieven in het drijven overeenkomst en omzettingen begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw abonnementscampagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
 
 
 <!-- deleted: 
