@@ -4,7 +4,7 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5e239753928f5c994245025c8b5d2aee3eee6091
+source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 0%
@@ -19,7 +19,7 @@ U kunt gegevens vormen die door Journey Optimizer worden geproduceerd om geavanc
 
 ## Journey Optimizer-integratie automatisch configureren
 
-Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [ begonnen worden met de nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
+Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [ begonnen worden met de nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
 
 Wanneer u Customer Journey Analytics die voor Journey Optimizer rapporteert hebt toegelaten, automatisch wordt de a [ verbinding ](/help/connections/overview.md) en [ gegevensmening ](/help/data-views/data-views.md) gecreeerd voor de specifieke zandbak.
 
