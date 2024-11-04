@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
 workflow-type: tm+mt
-source-wordcount: '8487'
+source-wordcount: '8486'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,6 @@ Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterf
 ![ Schermafbeelding van de Afgeleide gebiedsdialoog ](assets/derived-field-dialog.png)
 
 
-![ ProgramOverview ](/help/assets/icons/ProgramOverview.svg)
 
 |  | Naam | Beschrijving |
 |---------|----------|--------|
@@ -188,6 +187,8 @@ Deze functiemalplaatje gebruikt een inzameling van regels om plaatsgrenzen te id
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Schermafbeelding van de de regelbouwer van Bounces ](assets/function-template-bounces.png)
@@ -199,6 +200,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon combineert twee waarden in één.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -212,6 +215,8 @@ Deze functiesjabloon bevat een leesbare naam voor de gegevensset.
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Screenshot van de Vriendelijke bouwer van de Regel van de Naam van de Dataset ](assets/function-template-friendly-dataset-name.png)
@@ -223,6 +228,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon maakt een eenvoudige paginanaam.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -236,6 +243,8 @@ Deze functiesjabloon classificeert belangrijke tijden van het jaar.
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Screenshot van de de regelbouwer van de Seizoenregel van de Vakantie ](assets/function-template-holiday-season.png)
@@ -247,6 +256,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon stelt aangepaste maandelijkse doelen in.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -260,6 +271,8 @@ Deze functiesjabloon zet een beperkte lijst om in een array.
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Screenshot van Get Alle Waarden in Gescheiden de bouwer van de lijstregel ](assets/function-template-get-all-values-in-delimited-list.png)
@@ -271,6 +284,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon haalt de eerste waarde op in een lijst met scheidingstekens.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -284,6 +299,8 @@ Deze functiesjabloon haalt de laatste waarde in een lijst met scheidingstekens o
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Screenshot van de Get Laatste Waarde in Gescheiden de regelbouwer van de Lijst ](assets/function-template-get-last-value-in-delimited-list.png)
@@ -295,6 +312,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon extraheert de domeinnaam met behulp van een reguliere expressie.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -308,6 +327,8 @@ Deze functiesjabloon extraheert querytekenreekswaarden.
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Screenshot van de Get de regelbouwer van de Parameter van het Koord van de Vraag ](assets/function-template-get-query-string-parameter.png)
@@ -319,6 +340,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon gaat van het ene veld naar het andere.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
@@ -332,6 +355,8 @@ Deze functiesjabloon implementeert de identificatie van lichtbot.
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Schermafbeelding van de Eenvoudige bouwer van de Bot-detectieregel ](assets/function-template-simple-bot-detection.png)
@@ -344,6 +369,8 @@ Deze functiesjabloon identificeert de laatste koppeling waarop in een sessie is 
 
 +++ Details
 
+{{select-package}}
+
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
 ![ Schermafbeelding van de de regelbouwer van de Verbinding van de Uitgang ](assets/function-template-exit-link.png)
@@ -355,6 +382,8 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 Deze functiesjabloon markeert algemene downloadkoppelingen.
 
 +++ Details
+
+{{select-package}}
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
