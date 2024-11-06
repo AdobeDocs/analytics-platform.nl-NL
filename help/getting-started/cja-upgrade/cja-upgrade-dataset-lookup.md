@@ -8,12 +8,12 @@ hide: true
 hidefromtoc: true
 source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-# Een gegevensstroom maken voor gebruik met Customer Journey Analytics
+# Opzoekgegevenssets maken om gegevens in Customer Journey Analytics te classificeren
 
 >[!NOTE]
 > 
@@ -21,23 +21,18 @@ ht-degree: 0%
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
-<!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
+Net als classificatiegegevens in Adobe Analytics zijn opzoekgegevenssets de methode voor het classificeren van gegevens in Customer Journey Analytics.
 
-Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens naar de Adobe Experience Platform-Edge Network verzonden. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
+Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige standaardraadplegingsdatasets automatisch toegepast in rapporttijd. Voor meer informatie, zie [ standaardraadplegingen aan uw datasets ](/help/connections/standard-lookups.md) toevoegen.
 
-In uw opstelling, wilt u de gegevensstroom vormen om de verzamelde gegevens naar uw dataset in Adobe Experience Platform te verzenden.
+Om gegevens met een nieuwe implementatie van het Web SDK van het Experience Platform te classificeren, moet u een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
 
-Uw gegevensstroom instellen:
+Om raadplegingsdatasets voor gebruik in Customer Journey Analytics tot stand te brengen:
 
-1. Selecteer in Adobe Experience Platform **[!UICONTROL Datastreams]** in [!UICONTROL DATA COLLECTION] in de linkertrack.
+1. Maak in AEP een nieuw schema. Dit is een nieuw schema dat voor raadplegingsdatasets specifiek is. U kunt geen bestaand schema gebruiken.
 
-1. Selecteer **[!UICONTROL New Datastream]** .
+1. U moet een nieuwe schemaklasse tot stand brengen die voor raadplegingen is.
 
-1. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
-
-   ![ Nieuwe DataStream ](assets/new-datastream.png)
-
-1. Selecteer **[!UICONTROL Save]** .
+1. Creeer een raadplegingsdataset van dat.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-

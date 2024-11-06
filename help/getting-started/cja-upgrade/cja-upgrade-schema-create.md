@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,10 @@ ht-degree: 0%
 # Een XDM-schema maken voor gebruik met Customer Journey Analytics
 
 >[!NOTE]
->
->Deze documentatie zou na de voltooiing van [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) moeten worden gebruikt.
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige stappen hebt uitgevoerd die dynamisch voor uw organisatie zijn gegenereerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
->Nadat u de stappen op deze pagina voltooit, ga na de verbeteringsstappen voort die dynamisch voor uw organisatie van [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
 >[!IMPORTANT]
 >
@@ -62,13 +60,13 @@ Een schema maken:
 
    1. Selecteer **[!UICONTROL Finish]** .
 
-1. Op het tabblad Structuur van het voorbeeldschema:
+1. In het [!UICONTROL **lusje van de Structuur**] van uw schema:
 
-   1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
-
-      ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
+   1. Selecteer **[!UICONTROL + Add]** in de sectie **[!UICONTROL Field groups]** .
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
+
+      ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Web SDK ExperienceEvent]** in de lijst.
 
@@ -116,7 +114,7 @@ Een schema maken:
 
    Selecteer **[!UICONTROL Save]** .
 
-1. Selecteer het hoofdelement van het schema met de naam van het schema en selecteer vervolgens de **[!UICONTROL Profile]** switch.
+1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het basiselement van het schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
@@ -124,7 +122,7 @@ Een schema maken:
 
    >[!IMPORTANT]
    >
-   >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
+   >Nadat u een schema voor profiel hebt ingeschakeld, kan het niet voor profiel worden uitgeschakeld.
 
    ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
 
@@ -148,5 +146,5 @@ Een schema maken:
 
    Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
-1. Ga na de verbeteringsstappen verder die dynamisch voor uw organisatie van [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
 
