@@ -7,16 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: adc9e888eece72031ed234e634b206475d1539d7
+source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7254'
+ht-degree: 1%
 
 ---
 
 # Gebruikskwesties voor extensie BI
 
-Dit artikel documenteert hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI. Voor elke gebruiksgeval legt u de functionaliteit van de Customer Journey Analytics uit, gevolgd door gegevens voor elk van de ondersteunde BI-gereedschappen:
+Dit artikel documenteert hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI. In elke gebruikszaak wordt de functionaliteit van de Customer Journey Analytics uitgelegd, gevolgd door de details van elk van de ondersteunde BI-gereedschappen:
 
 * **Desktop van de Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
@@ -1470,21 +1470,21 @@ De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day
 Metrische gegevens van Customer Journey Analytics worden geïdentificeerd door de [!UICONTROL Component ID] . [!UICONTROL Component ID] wordt bepaald in uw de gegevensmening van de Customer Journey Analytics. Metrisch **[!UICONTROL Purchase Revenue]** in Customer Journey Analytics heeft bijvoorbeeld een [!UICONTROL Component ID] **[!UICONTROL purchase_revenue]** . Dit is de naam voor de metrische waarde in Power BI Desktop. Een **[!UICONTROL ∑]** geeft metriek aan. Wanneer u metrisch in om het even welke visualisatie gebruikt, wordt metrisch anders genoemd aan **[!UICONTROL Sum of *metrisch *]**.
 
 **Filters**
-Filters die u in de Customer Journey Analytics hebt gedefinieerd, zijn beschikbaar als onderdeel van het veld **[!UICONTROL filterName]** . Wanneer u een veld **[!UICONTROL filterName]** in het bureaublad van Power BI gebruikt, kunt u opgeven welk filter u wilt gebruiken.
+Filters die u in de Customer Journey Analytics definieert, zijn beschikbaar als onderdeel van het veld **[!UICONTROL filterName]** . Wanneer u een veld **[!UICONTROL filterName]** in het bureaublad van Power BI gebruikt, kunt u opgeven welk filter u wilt gebruiken.
 
 **Berekende metriek**
 De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL External ID] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** en wordt weergegeven als **[!UICONTROL cm_product_name_count_distinc]**t in Power BI Desktop.
 
 **waaiers van de Datum**
-Datumbereiken die u in Customer Journey Analytics hebt gedefinieerd, zijn beschikbaar als onderdeel van het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
+Datumbereiken die u in de Customer Journey Analytics definieert, zijn beschikbaar als onderdeel van het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van de Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren. Dit doet u als volgt:
+De Desktop van de Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer in de rapportweergave de streepjesvisualisatie.
 1. Selecteer product_name in de ruit van Gegevens.
 1. Selecteer Nieuwe kolom op de werkbalk.
-1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als in `product_name_lower = LOWER('public.cc_data_view[product_name])` .
+1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als `product_name_lower = LOWER('public.cc_data_view[product_name])` .
    ![ Transformatie van de Desktop van de Power BI aan Laag ](assets/uc14-powerbi-transformation.png)
 1. Zorg ervoor dat u de nieuwe kolom product_name_lower selecteert in het venster Gegevens in plaats van de kolom product_name.
 1. Selecteer Rapport als Lijst van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
@@ -1545,16 +1545,16 @@ De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day
 Metrische gegevens van Customer Journey Analytics worden geïdentificeerd door de [!UICONTROL Component Name] . [!UICONTROL Component Name] wordt bepaald in uw de gegevensmening van de Customer Journey Analytics. Metrisch **[!UICONTROL Purchase Revenue]** in Customer Journey Analytics heeft bijvoorbeeld een [!UICONTROL Component Name] **[!UICONTROL Purchase Revenue]** . Dit is de naam voor de metrische waarde in Tableau. Alle metriek worden geïdentificeerd door **[!UICONTROL #]**. Wanneer u metrisch in om het even welke visualisatie gebruikt, wordt metrisch anders genoemd aan **[!UICONTROL Sum(*metrisch *)]**.
 
 **Filters**
-Filters die u in de Customer Journey Analytics hebt gedefinieerd, zijn beschikbaar als onderdeel van het veld **[!UICONTROL Filter Name]** . Wanneer u een veld **[!UICONTROL Filter Name]** in Tableau gebruikt, kunt u opgeven welk filter u wilt gebruiken.
+Filters die u in de Customer Journey Analytics definieert, zijn beschikbaar als onderdeel van het veld **[!UICONTROL Filter Name]** . Wanneer u een veld **[!UICONTROL Filter Name]** in Tableau gebruikt, kunt u opgeven welk filter u wilt gebruiken.
 
 **Berekende metriek**
-De berekende metriek u in Customer Journey Analytics hebt bepaald worden geïdentificeerd door [!UICONTROL Title] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** en wordt weergegeven als **[!UICONTROL Cm Product Name Count Distinct]** in Tableau.
+De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL Title] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** en wordt weergegeven als **[!UICONTROL Cm Product Name Count Distinct]** in Tableau.
 
 **waaiers van de Datum**
-Datumbereiken die u in Customer Journey Analytics hebt gedefinieerd, zijn beschikbaar als onderdeel van het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
+Datumbereiken die u in de Customer Journey Analytics definieert, zijn beschikbaar als onderdeel van het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren. Dit doet u als volgt:
+De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
