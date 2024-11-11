@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
+source-git-commit: ae07aa8a275a37f88d7626bac2f59e21d4c40e5a
 workflow-type: tm+mt
-source-wordcount: '7254'
-ht-degree: 1%
+source-wordcount: '7932'
+ht-degree: 0%
 
 ---
 
@@ -23,31 +23,38 @@ Dit artikel documenteert hoe te om een aantal gebruiksgevallen te verwezenlijken
 
 De volgende gebruiksgevallen worden gedocumenteerd:
 
-* [Weergaven van Connect- en lijstgegevens](#connect-and-validate)
-* [Dagelijkse trend](#daily-trend)
-* [Uurtrend](#hourly-trend)
-* [Maandelijkse trend](#monthly-trend)
-* [Eén dimensie, gerangschikt](#single-dimension-ranked)
-* [Meerdere dimensies gerangschikt](#multiple-dimension-ranked)
-* [Waarden voor verschillende dimensies tellen](#count-distinct-dimension-values)
-* [Namen van datumbereik gebruiken om te filteren](#use-date-range-names-to-filter)
-* [Filternamen gebruiken om te filteren](#use-filter-names-to-filter)
-* [Dimensiewaarden gebruiken om te filteren](#use-dimension-values-to-filter)
-* [Sorteren](#sort)
-* [Limieten](#limits)
-* [Naar FLATTEN of niet](#to-flatten-or-not)
-* [Transformaties](#transformations)
-* [Visualisaties](#visualizations)
+* **verbind**
+   * [Weergaven van Connect- en lijstgegevens](#connect-and-validate)
+   * [Naar FLATTEN of niet](#to-flatten-or-not)
 
-Het eerste gebruiksgeval concentreert zich op hoe te om de hulpmiddelen van BI te verbinden gebruikend de uitbreiding van Customer Journey Analytics BI.
+* **Rapport en analyseer**
+   * [Dagelijkse trend](#daily-trend)
+   * [Uurtrend](#hourly-trend)
+   * [Maandelijkse trend](#monthly-trend)
+   * [Eén dimensie, gerangschikt](#single-dimension-ranked)
+   * [Meerdere dimensies gerangschikt](#multiple-dimension-ranked)
+   * [Waarden voor verschillende dimensies tellen](#count-distinct-dimension-values)
+   * [Namen van datumbereik gebruiken om te filteren](#use-date-range-names-to-filter)
+   * [Filternamen gebruiken om te filteren](#use-filter-names-to-filter)
+   * [Dimensiewaarden gebruiken om te filteren](#use-dimension-values-to-filter)
+   * [Sorteren](#sort)
+   * [Limieten](#limits)
 
-In de gebruiksgevallen 2 - 12 zijn instructies beschikbaar voor het uitvoeren van soortgelijke Customer Journey Analytics-visualisaties in de momenteel ondersteunde BI-gereedschappen.
+* **Begrijp**
 
-Gebruik de gevallen 13 - 15 voor meer informatie over:
+   * [Transformaties](#transformations)
+   * [Visualisaties](#visualizations)
+   * [Caveats](#caveats)
 
-* Verschillende manieren om met de hulpmiddelen van BI te verbinden.
+**verbind** gebruiksgeval concentreert zich op hoe te om de hulpmiddelen van BI te verbinden gebruikend de uitbreiding van Customer Journey Analytics BI.
+
+Het **rapport en de analyse** gebruiksgevallen instrueren hoe te om gelijkaardige Customer Journey Analytics visualisaties in de momenteel gesteunde hulpmiddelen van BI te verwezenlijken.
+
+**begrijpt** gebruiksgevallen meer details op verstrekken:
+
 * Transformaties die voorkomen wanneer u een hulpmiddel van BI gebruikt om te melden en te analyseren.
 * Visualisatieovereenkomsten en verschillen tussen Customer Journey Analytics- en BI-gereedschappen.
+* Voorzie van elk van de hulpmiddelen van BI u zou moeten op de hoogte zijn.
 
 
 ## Verbinding maken en valideren
@@ -147,6 +154,57 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
       1. Sleep het item **[!UICONTROL cc_data_view]** en zet het neer in de hoofdweergave die **[!UICONTROL Drag tables]** hier leest.
    1. In het hoofdvenster worden de details van de gegevensweergave van **[!UICONTROL cc_data_view]** weergegeven.
       ![ Verbonden Tableau ](assets/tableau-validation.png)
+
+>[!ENDTABS]
+
++++
+
+## Naar FLATTEN of niet
+
+In dit geval, wilt u begrijpen of u een extra `FLATTEN` parameter voor het gegevensbestand moet gebruiken wanneer u met Customer Journey Analytics gebruikend de uitbreiding van BI verbindt.
+
++++ Customer Journey Analytics
+
+Customer Journey Analytics verstrekt informatie over hoe te in de interface van het Experience Platform te verbinden.
+
+1. Navigeer naar de sandbox van uw Experience Platform.
+1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
+1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+
+![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+
+
++++
+
++++ BI-gereedschappen
+
+>[!PREREQUISITES]
+>
+>Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen. Zie de BI-gereedschapssectie voor welke expliciete `FLATTEN` parameteropties vereist zijn voor een juiste verbinding.
+>
+
+>[!BEGINTABS]
+
+>[!TAB  Desktop van de Power BI ]
+
+Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
+
+| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
+|---|---|:---:|---|
+| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Fout in weergave van Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+
+>[!TAB  Desktop Tableau ]
+
+Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
+
+| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
+|---|---|:---:|---|
+| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
 
 >[!ENDTABS]
 
@@ -862,8 +920,8 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
    1. Sleep de vermelding **[!UICONTROL Daterange Name]** uit de lijst **[!UICONTROL Tables]** in de lijst **[!UICONTROL Filters]** .
    1. Controleer in het dialoogvenster **[!UICONTROL Filter \[Daterange Name\]]** of **[!UICONTROL Select from list]** is geselecteerd en selecteer **[!UICONTROL Last Year 2023]** in de lijst. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Sleep **[!UICONTROL Daterangemonth]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Daterangemonth]** en selecteer **[!UICONTROL Month]** . De waarde verandert in **[!UICONTROL MONTH(Daterangemonth)]** .
-   1. Sleep **[!UICONTROL Occurrences]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Daterangemonth]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Daterangemonth]** en selecteer **[!UICONTROL Month]** . De waarde verandert in **[!UICONTROL MONTH(Daterangemonth)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Swap Rows and Columns]** op de werkbalk.
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
@@ -938,7 +996,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `01/02/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
 
@@ -1014,7 +1072,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `1/2/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
 
@@ -1168,7 +1226,7 @@ limit 1000001
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `1/2/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** uit de lijst **[!UICONTROL Tables]** en zet de vermelding neer in het veld naast **[!UICONTROL Rows]** .
-   1. Sleep **[!UICONTROL Purchases]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
+   1. Sleep **[!UICONTROL Purchases]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** , naast **[!UICONTROL SUM(Purchases)]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
@@ -1333,7 +1391,7 @@ limit 1000001
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Relative dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** , selecteer **[!UICONTROL Years]** en selecteer **[!UICONTROL Previous years]** . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item van de **[!UICONTROL Tables]** -lijst naar **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
    1. Selecteer **[!UICONTROL Product Name]** in **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
@@ -1383,60 +1441,6 @@ GROUP BY 1
 >[!ENDTABS]
 
 +++
-
-
-## Naar FLATTEN of niet
-
-U wilt begrijpen of u een extra `FLATTEN` parameter voor het gegevensbestand moet gebruiken wanneer u met Customer Journey Analytics gebruikend de uitbreiding van BI verbindt.
-
-+++ Customer Journey Analytics
-
-Customer Journey Analytics verstrekt informatie over hoe te in de interface van het Experience Platform te verbinden.
-
-1. Navigeer naar de sandbox van uw Experience Platform.
-1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
-1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
-
-![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
-
-
-+++
-
-+++ BI-gereedschappen
-
->[!PREREQUISITES]
->
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen. Zie de BI-gereedschapssectie voor welke expliciete `FLATTEN` parameteropties vereist zijn voor een juiste verbinding.
->
-
->[!BEGINTABS]
-
->[!TAB  Desktop van de Power BI ]
-
-Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
-
-| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
-|---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Fout in weergave van Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
-
->[!TAB  Desktop Tableau ]
-
-Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
-
-| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
-|---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-
->[!ENDTABS]
-
-+++
-
-
 
 ## Transformaties
 
@@ -1603,7 +1607,9 @@ Customer Journey Analytics heeft een aantal visualisaties. Zie [ Visualisaties ]
 
 >[!TAB  Desktop van de Power BI ]
 
-De volgende Customer Journey Analytics visualisaties zijn in een gelijkaardige ervaring beschikbaar in de Desktop van Power BI.
+### Vergelijking
+
+Voor de meeste visualisaties van de Customer Journey Analytics, biedt de Desktop gelijkwaardige ervaringen. Zie de onderstaande tabel.
 
 | Pictogram | Customer Journey Analytics visualisatie | Power BI Desktop visualisatie |
 | :---: | --- | ---| 
@@ -1631,10 +1637,62 @@ De volgende Customer Journey Analytics visualisaties zijn in een gelijkaardige e
 | ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
 | ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
 
+
+### Boor omlaag
+
+Power BI steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
+
+![ Power BI boor neer ](assets/uc15-powerbi-drilldown.png)
+
+Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
+
+![ Power BI boor omhoog ](assets/uc15-powerbi-drillup.png)
+
+De boor neer resulteert in de volgende SQL vraag die een `WHERE` clausule gebruikt:
+
+```sql
+select "_"."product_category" as "c25",
+    "_"."product_name" as "c26",
+    "_"."a0" as "a0"
+from 
+(
+    select "_"."product_category",
+        "_"."product_name",
+        "_"."a0"
+    from 
+    (
+        select "_"."product_category",
+            "_"."product_name",
+            "_"."a0"
+        from 
+        (
+            select "rows"."product_category" as "product_category",
+                "rows"."product_name" as "product_name",
+                sum("rows"."purchase_revenue") as "a0"
+            from 
+            (
+                select "_"."product_category",
+                    "_"."product_name",
+                    "_"."purchase_revenue"
+                from "public"."cc_data_view" "_"
+                where ("_"."daterange" >= date '2023-01-01' and "_"."product_category" = 'Fishing') and "_"."daterange" < date '2024-01-01'
+            ) "rows"
+            group by "product_category",
+                "product_name"
+        ) "_"
+        where not "_"."a0" is null
+    ) "_"
+) "_"
+order by "_"."product_category",
+        "_"."product_name"
+limit 1001
+```
+
 >[!TAB  Desktop Tableau ]
 
+### Vergelijking
 
-De volgende Customer Journey Analytics visualisaties zijn in een vergelijkbare ervaring beschikbaar in Tableau.
+Voor de meeste visualisaties van Customers Journey Analytics biedt Tableau vergelijkbare ervaringen. Zie de onderstaande tabel.
 
 | Pictogram | Customer Journey Analytics visualisatie | Power BI Desktop visualisatie |
 | :---: | --- | ---| 
@@ -1661,6 +1719,67 @@ De volgende Customer Journey Analytics visualisaties zijn in een vergelijkbare e
 | ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | |
 | ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm) |
 | ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
+
+
+### Boor omlaag
+
+Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [ hiërarchieën ](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld Productnaam in Tabellen selecteert en deze boven Productcategorie sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
+
+![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png)
+
+Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
+
+![ boor van Tableau omhoog ](assets/uc15-tableau-drillup.png)
+
+De boor neer resulteert in de volgende SQL vraag die een GROUP DOOR clausule gebruikt:
+
+```sql
+SELECT CAST("cc_data_view"."product_category" AS TEXT) AS "product_category",
+  CAST("cc_data_view"."product_name" AS TEXT) AS "product_name",
+  SUM("cc_data_view"."purchase_revenue") AS "sum:purchase_revenue:ok"
+FROM "public"."cc_data_view" "cc_data_view"
+WHERE (("cc_data_view"."daterange" >= (TIMESTAMP '2023-01-01 00:00:00.000')) AND ("cc_data_view"."daterange" < (TIMESTAMP '2024-01-01 00:00:00.000')))
+GROUP BY 1,
+  2
+```
+
+De vraag beperkt **** niet de resultaten tot de geselecteerde productcategorie; slechts toont visualisatie de geselecteerde productcategorie.
+
+![ boor van Tableau omhoog ](assets/uc15-tableau-drillup2.png)
+
+U kunt ook een dashboard maken voor de boor omlaag, waarbij de ene visuele weergave het resultaat is van de selectie in een andere visuele weergave. In het onderstaande voorbeeld wordt de **[!UICONTROL Product Categories]** visualisatie gebruikt als een filter om de **[!UICONTROL Product Names]** -tabel bij te werken. Dit visualisatiefilter is alleen client en leidt niet tot een extra SQL-query.
+
+![ de visualisatiefilter van Tableau ](assets/uc15-tableau-visualizationfilter.png)
+
+
+>[!ENDTABS]
+
++++
+
+
+## Caveats
+
+Elk van de gesteunde hulpmiddelen van BI heeft sommige bedenkingen in het werken met de uitbreiding van Customer Journey Analytics BI.
+
++++ BI-gereedschappen
+
+>[!BEGINTABS]
+
+>[!TAB  Desktop van de Power BI ]
+
+* Filteren van datumbereik via Power BI Desktop Advanced is exclusief.  Voor uw einddatum moet u een andere datum selecteren dan de dag waarop u wilt rapporteren. Bijvoorbeeld **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL and before]** `1/2/2023` .
+* Power BI Desktop wordt standaard ingesteld op **[!UICONTROL Import]** wanneer u een verbinding maakt. Gebruik **[!UICONTROL Direct Query]** niet.
+* Power BI Desktop stelt gegevenstransformaties beschikbaar via Power Query.  De Vraag van de macht werkt hoofdzakelijk met het type van de Invoer verbindingen zodat veel transformaties u als datum of koordfuncties toepast zal een fout veroorzaken die u zegt moet overschakelen op een het typeverbinding van de Invoer.  Als u gegevens bij vraagtijd moet omzetten, zou u afgeleide dimensies en metriek moeten gebruiken zodat te hoeven de Power BI niet om de transformaties zelf te doen.
+* De Desktop van de Power BI begrijpt niet hoe te om datum-tijd typekolommen te behandelen zodat worden de **[!UICONTROL daterange*X *]**dimensies zoals **[!UICONTROL daterangehour]**en **[!UICONTROL daterangeminute]**niet gesteund.
+* De Desktop van de Power BI probeert door gebrek om veelvoudige verbindingen te maken die omhoog meer zittingen van de Dienst van de Vraag gebruiken.  U zou in de montages van de Power BI voor uw project moeten gaan en parallelle vragen onbruikbaar maken.
+* De Desktop van de Power BI sorteert en beperkt cliënt-kant, en heeft ook verschillende semantiek voor hoogste *X* het filtreren die gebonden waarden omvat zodat kunt u niet het nauwkeurige zelfde sorteren en het beperken tot stand brengen aangezien u in Analysis Workspace kunt doen.
+* Eerdere versies van de release van Power BI Desktop Oktober 2024 breken PostSQL-gegevensbronnen af. Gebruik de versie die in dit artikel wordt vermeld.
+
+>[!TAB  Desktop Tableau ]
+
+* Het filtreren van de Waaier van de Waaier van de Desktop van Tableau van Daten is exclusief. Voor uw einddatum moet u een andere datum selecteren dan de dag waarop u wilt rapporteren.
+* Wanneer u een datum- of datum-tijddimensie zoals **[!UICONTROL Daterangemonth]** toevoegt aan de rijen van een blad, plaatst Tableau Desktop het veld standaard in een **[!UICONTROL YEAR()]** -functie.  Om te krijgen wat u wilt, moet u die afmeting selecteren en van het drop-down menu selecteren de datumfunctie u wilt gebruiken.  Wijzig **[!UICONTROL Year]** bijvoorbeeld in **[!UICONTROL Month]** wanneer u **[!UICONTROL Daterangemonth]** wilt gebruiken.
+* Het beperken van resultaten tot Top *X* is niet duidelijk in de Desktop van Tableau. U kunt de resultaten expliciet beperken of een berekend veld en de functie **[!UICONTROL INDEX()]** gebruiken.  Het toevoegen van een Hoogste *X* filter aan een afmeting produceert complexe SQL gebruikend binnen-sluit zich aan dat niet wordt gesteund.
 
 >[!ENDTABS]
 
