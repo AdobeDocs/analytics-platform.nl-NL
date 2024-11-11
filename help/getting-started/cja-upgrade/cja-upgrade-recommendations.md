@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 6fe081690782272f550c8f9c33dfd9ae6b227d13
+exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
+source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1489'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, z
 >
 >Nochtans, afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, zouden de geadviseerde verbeteringsstappen niet praktisch voor uw organisatie kunnen zijn. In dat geval, gebruik [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) om verbeteringsstappen dynamisch te produceren die aan de unieke omstandigheden van uw organisatie worden aangepast.
 
-De geadviseerde stappen wanneer bevordering van Adobe Analytics aan Customer Journey Analytics is een nieuwe implementatie van het Web SDK van het Experience Platform, dat de aangewezen methode van de gegevensinzameling voor Customer Journey Analytics is. In combinatie met de SDK van het Web, adviseert de Adobe ook het gebruiken van de de bronschakelaar van de Analyse om historische gegevens van Adobe Analytics te behouden en zij-aan-zijgegevensvergelijking uit te voeren.
+Het geadviseerde proces om van Adobe Analytics aan Customer Journey Analytics te bevorderen is een nieuwe implementatie van het Web SDK van het Experience Platform, dat de aangewezen methode van de gegevensinzameling voor Customer Journey Analytics is. Samen met het Web SDK, adviseert de Adobe ook gebruikend de de bronschakelaar van Analytics om met uw overgang aan Customer Journey Analytics te helpen. Gebruik de gegevensbronconnector Analytics om historische Adobe Analytics-gegevens te behouden en gegevens naast elkaar te vergelijken.
 
 Na volledig transitioning aan Customer Journey Analytics, kan de bron van Analytics schakelaar worden uitgezet en het Web SDK van het Experience Platform kan exclusief worden gebruikt.
 
@@ -79,7 +80,7 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. (Optioneel) Als u classificatiegegevens gebruikt in Adobe Analytics, kunt u classificatiegegevens in Customer Journey Analytics toevoegen aan uw gegevensset.
 
-   Creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens bevat.
+   Om dit te doen, [ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) bevat.
 
 1. Voor de implementaties van Adobe Analytics die AppMeasurement of de uitbreiding van de Analyse (markeringen) gebruiken, [ creeer een gegevensstroom in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
@@ -93,7 +94,7 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    Voor meer informatie, zie [ Gebruik een bronschakelaar ](/help/data-ingestion/sources.md#use-a-source-connector) in [ Samenvatten en gebruik gegevens gebruikend bronschakelaars ](/help/data-ingestion/sources.md).
 
-1. Vouw de sectie uit waarin de gewenste Customer Journey Analytics-implementatie wordt beschreven en voer vervolgens de bijbehorende stappen uit:
+1. Breid de sectie uit die beschrijft hoe u het Web SDK van het Experience Platform voor uw implementatie van de Customer Journey Analytics wilt uitvoeren, dan de bijbehorende stappen voltooien:
 
    +++Handmatige implementatie (JS-bestand)
 
@@ -105,13 +106,11 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    +++Tags
 
-   1. [ creeer een markeringsbezit in de gegevensinzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start#create-a-property).
+   1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md) uit.
 
-   1. Voeg de extensie Adobe Experience Platform Web SDK toe.
+   1. [ creeer een markeringsbezit en voeg de uitbreiding van SDK van het Web van Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) toe.
 
-   1. Implementeer de ladertag op uw site.
-
-   1. Voeg XDM-logica voor gegevensverzameling toe aan uw tag.
+   1. [ voeg de logica van de gegevensinzameling XDM aan uw markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md) toe.
 
 +++
 
@@ -220,12 +219,3 @@ Generic upgrade steps are also available.
    The Analytics source connector as a stand-alone implementation is not a recommended long-term method for using Customer Journey Analytics. This is because of high latency, cluttered and complex schemas, reliance on Adobe Analytics nomenclature (prop, eVar, and so forth), and difficulty in eventually moving from the source connector to the recommended Web SDK implementation. 
    
 -->
-
-
-
-
-
-
-
-
-
