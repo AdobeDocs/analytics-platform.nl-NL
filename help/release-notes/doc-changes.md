@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
+source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
 workflow-type: tm+mt
-source-wordcount: '4153'
+source-wordcount: '4175'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 
 | Functie | Beschrijving |
 | --- | --- |
+| **November 2024** | |
+| Aanvragen voor titels en privacy | Toegevoegde bericht op [ aanstaande veranderingen in het het ontstikken proces ](/help/stitching/faq.md#frequently-asked-questions) die het resultaat van privacyverzoeken zijn. |
 | **Oktober 2024** | |
 | Gedeelde apparaten | Toegevoegd a [ gebruikscase artikel ](/help/use-cases/stitching/shared-devices.md) dat context op gedeelde apparaten verstrekt, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend het stitching, en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag. |
 | Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/technotes/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/technotes/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
