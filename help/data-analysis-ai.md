@@ -5,19 +5,19 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 376ad62c3883eef675f9b1df639e8c46ee259229
+exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
+source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
 
 ---
 
+# Gegevensvisualisatie is nu beschikbaar in AI Assistant in CJA
 
-# AI-assistent voor gegevensanalyse in Customer Journey Analytics - Alpha
+De AI Medewerker in Customer Journey Analytics (CJA) is een Generatieve AI gespreksagent die u kan helpen sneller en efficiënt vragen beantwoorden u van uw gegevens van Analysis Workspace in CJA kunt hebben.
 
-De Medewerker van AI van de Analyse van Gegevens is een Generatieve AI gespreksagent die u kan helpen sneller en efficiënt vragen beantwoorden u van uw gegevens van Analysis Workspace in Customer Journey Analytics hebt.
-
-Wanneer u een vraag in AI Medewerker stelt, scant de Medewerker AI door alle componenten in uw gegevensmening, met inbegrip van de verschillende soorten metriek en componenten, en vertaalt uw herinnering in de juiste afmeting, metrisch, en datumwaaier voor uw analyse. In plaats van vertrouwd te moeten zijn met de componenten van de gegevensmening, en dan die componenten te slepen en te laten vallen in de beste combinatie om uw vraag te beantwoorden, kunt u de vraag eenvoudig typen in de Medewerker AI.
+Wanneer u een vraag van de visualisatie van Gegevens stelt, scant de Medewerker AI door alle componenten in uw gegevensmening, met inbegrip van de verschillende soorten metriek en componenten, en vertaalt uw herinnering in de juiste afmeting, metrisch, en datumwaaier voor uw analyse. In plaats van vertrouwd te moeten zijn met de componenten van de gegevensmening, en dan die componenten te slepen en te laten vallen in de beste combinatie om uw vraag te beantwoorden, kunt u de vraag eenvoudig typen in de Medewerker AI.
 
 ![ AI van de Analyse van Gegevens Medewerker ](assets/cja-ai-asst-da.gif)
 
@@ -48,20 +48,20 @@ Wanneer u een vraag in AI Medewerker stelt, scant de Medewerker AI door alle com
 
 [Do we even need this section for the Alpha?]
 
-The following parameters govern access to the Data Analysis AI Assistant feature:
+The following parameters govern access to Data visualization in AI Assistant:
 
-* **Solution access**: The Data Analysis AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
+* **Solution access**: Data visualization in AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
 
 It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP and additional Experience Platform apps.
 
-* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data Analysis AI Assistant, your must agree to certain GenAI-related legal terms.
+* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data visualization in AI Assistant, your must agree to certain GenAI-related legal terms.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data Analysis]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
    1. Navigate to **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
    1. Select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
    1. In the specific product profile, select **[!UICONTROL Permissions]**.
    1. Select ![Edit](/help/assets/icons/Edit.svg) to edit **[!UICONTROL Reporting Tools]**.
-   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data Analysis** to **[!UICONTROL Included permission items]**.
+   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data visualization** to **[!UICONTROL Included permission items]**.
    
       ![Add permission](assets/ai-assistant-permissions.png).
 
@@ -69,7 +69,7 @@ It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adob
 
 See [Access control](/help/technotes/access-control.md#access-control) for more information.--->
 
-## Toegang tot en gebruik Data Analysis AI Assistant
+## Toegang tot en gebruik gegevensvisualisatie in AI Assistant
 
 1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/), en login met uw Adobe ID.
 
@@ -83,7 +83,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
-6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onderaan een vraag over gegevensanalyse in de AI-assistent.
+6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onderaan een vraag over gegevensvisualisatie in de AI-assistent.
 
 ### Voorbeeld 1
 
@@ -125,11 +125,11 @@ Laten we tot slot eens kijken naar de inkomsten per productcategorie.
 
 1. In het snelle venster, ga *&quot;Deel van opbrengst door productcategorie in&quot;.*
 
-2. De AI-assistent voor gegevensanalyse gebruikt opnieuw de meest geschikte visualisatie, in dit geval de **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
+2. Ook hier wordt voor gegevensvisualisatie in AI Assistant de meest geschikte visualisatie gekozen, in dit geval de **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
 
    ![Cirkeldiagram](/help/assets/ai-asst-result3.png)
 
-## Voorbeeld van aanwijzingen voor gegevensanalyse
+## Voorbeelden van vragen over gegevensvisualisatie
 
 Hier volgen enkele voorbeelden van veelvoorkomende vragen en van de visualisatie van het gebruik van AI Assistent voor het reageren op deze vragen.
 
@@ -152,7 +152,7 @@ Hier volgen enkele voorbeelden van veelvoorkomende vragen en van de visualisatie
 
 De AI Medewerker verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie evenals componenten in een vrije vormlijst te antwoorden. De reactie van de AI Assistant kan echter variëren op basis van de specifieke woorden en uitdrukkingen die worden gebruikt bij een prompt, zodat kleine taalwijzigingen tot verschillende resultaten kunnen leiden. Hieronder wordt beschreven hoe u het beste kunt maken: <ul><li>Wees specifiek: neem exacte termen op (zoals &quot;verkoop vorige maand in Californië&quot;) om de reactie te beperken.</li><li>Gebruik Metriek en filters wissen: wanneer u specifieke maatstaven toevoegt (zoals &quot;Opbrengst&quot;), afmetingen (bijvoorbeeld &quot;Websitenaam&quot;), filters (zoals &quot;iPhone-gebruikers&quot;) en datumbereiken (zoals &quot;Laatste drie maanden&quot;), kan de AI-assistent zich concentreren op de juiste gegevens.</li><li>Rechtstreekse vragen stellen: Rechtstreeks vragen, zoals &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot; maakt het voor de AI Assistant gemakkelijker om duidelijke, relevante inzichten te verschaffen.</li></ul>
 
-Controleer de onderstaande voorbeeldtermen en woordgroepen die u kunt gebruiken in aanwijzingen met de Data Analysis AI Assistant in CJA, samen met de soorten reacties die u kunt verwachten. Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. Houd er rekening mee dat de AI-assistent gebruikmaakt van Generative AI, zodat de visualisaties of geselecteerde gegevens enigszins kunnen variëren voor verschillende, vergelijkbare aanwijzingen.
+Lees de onderstaande tabel met voorbeeldtermen en woordgroepen die u kunt gebruiken bij aanwijzingen voor gegevensvisualisatie in AI Assistant, samen met de soorten reacties die u kunt verwachten. Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. Houd er rekening mee dat de AI-assistent gebruikmaakt van Generative AI, zodat de visualisaties of geselecteerde gegevens enigszins kunnen variëren voor verschillende, vergelijkbare aanwijzingen.
 
 | Gewenst resultaat | Voorbeelden van termen en woordgroepen |
 | --- | --- |
@@ -181,5 +181,3 @@ Na de duimen omhoog/omlaag selectie, gelieve een selectie voor de relevante mult
 ## Vragen en contact
 
 * Vragen en feedback verzenden op de slack channel van de Alpha: #aep-cja-ai-assistent-testers???
-
-
