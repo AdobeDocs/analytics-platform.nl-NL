@@ -4,9 +4,9 @@ description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig fil
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -174,9 +174,13 @@ Wanneer u containers in andere containers maakt, maakt u een filter in feite. De
 2. Pas de geneste filterdefinitie toe op de resterende gegevens. De geneste filterdefinitie is NIET van toepassing op gegevens die de eerste definitie heeft verwijderd.
 3. Herhaal deze bewerking totdat alle geneste containerfilterdefinities zijn berekend. De overige gegevens worden vervolgens in het resultaat opgenomen en voor rapportage gebruikt.
 
+>[!NOTE]
+>
+>Wanneer u een filter negeert binnen een filter (bijvoorbeeld wanneer u een filter uit het deelvenster Componenten naar de filterdefinitie sleept), wordt een container gemaakt met een kopie (geen referentie) van de gesleepte filterdefinitie.
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
+
 
 | Container | What container you can nest inside |
 | Event | Only event conditions |
