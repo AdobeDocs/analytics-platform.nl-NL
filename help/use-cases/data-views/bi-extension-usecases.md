@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
+source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -89,35 +89,35 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){width="100" zoomable="yes"}
+      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. Start Power BI Desktop.
    1. Selecteer **[!UICONTROL Get data from other sources]** in de hoofdinterface.
    1. In het dialoogvenster **[!UICONTROL Get Data]** :
-      ![ gegevensbestand PowerBI PostgreSQL ](assets/powerbi-postgresql.png)
+      ![ gegevensbestand PowerBI PostgreSQL ](assets/powerbi-postgresql.png){zoomable="yes"}
       1. Zoek en selecteer **[!UICONTROL PostgreSQL database]** .
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** :
-      ![ de Server en montages van het Gegevensbestand van de Desktop PowerBI ](assets/powerbi-serverdatabase.png)
+      ![ de Server en montages van het Gegevensbestand van de Desktop PowerBI ](assets/powerbi-serverdatabase.png){zoomable="yes"}
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** en **[!UICONTROL Port]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel, dat door `:` als waarde voor **[!UICONTROL Server]** wordt gescheiden. Bijvoorbeeld: `examplecompany.platform-query.adobe.io:80` .
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel. Voeg `?FLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja?FLATTEN` .
       1. Selecteer **[!UICONTROL DirectQuery]** als de **[!UICONTROL Data connectivity mode]** .
       1. Selecteer **[!UICONTROL OK]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** - **[!UICONTROL Database]** :
-      ![ Gebruiker en Wachtwoord van de Desktop PowerBI ](assets/powerbi-userpassword.png)
+      ![ Gebruiker en Wachtwoord van de Desktop PowerBI ](assets/powerbi-userpassword.png){zoomable="yes"}
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Zorg ervoor dat het vervolgkeuzemenu voor **[!UICONTROL Select which level to apply these settings to]** is ingesteld op de **[!UICONTROL Server]** die u eerder hebt gedefinieerd.
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL Navigator]** worden de gegevensweergaven opgehaald. Dit kan enige tijd duren. Zodra teruggewonnen, ziet u het volgende in de Desktop van Power BI.
-      ![ de Gegevens van de Lading van de Desktop van de Power BI ](assets/powerbi-navigator-load.png)
+      ![ de Gegevens van de Lading van de Desktop van de Power BI ](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL public.cc_data_view]** in de lijst in het linkerdeelvenster.
       1. U hebt twee opties:
          1. Selecteer **[!UICONTROL Load]** om door te gaan en de installatie te voltooien.
          1. Selecteer **[!UICONTROL Transform Data]** . Er wordt een dialoogvenster weergegeven waarin u desgewenst transformaties kunt toepassen als onderdeel van de configuratie.
-            ![ Gegevens van de Transformatie van de Desktop van Power BI ](assets/powerbi-transform-data.png)
+            ![ Gegevens van de Transformatie van de Desktop van Power BI ](assets/powerbi-transform-data.png){zoomable="yes"}
             * Selecteer **[!UICONTROL Close & Apply]** .
    1. Na enige tijd wordt **[!UICONTROL public.cc_data_view]** weergegeven in het deelvenster **[!UICONTROL Data]** . Selecteer ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) om afmetingen en metriek te tonen.
-      ![ Gegevens van de Server van de Desktop van de Power BI Geladen ](assets/powerbi-navigator-loaded.png)
+      ![ Gegevens van de Server van de Desktop van de Power BI Geladen ](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
 >[!TAB  Desktop Tableau ]
@@ -133,9 +133,9 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
 
 1. Start Tableau.
    1. Selecteer **[!UICONTROL PostgreSQL]** in de linkertrack onder **[!UICONTROL To a Server]** . Als deze optie niet beschikbaar is, selecteert u **[!UICONTROL More...]** en selecteert u **[!UICONTROL PostgreSQL]** in het menu **[!UICONTROL Installed Connectors]** .
-      ![ Verbindingen van Tableau ](assets/tableau-connectors.png)
+      ![ Verbindingen van Tableau ](assets/tableau-connectors.png){zoomable="yes"}
    1. Ga in het dialoogvenster **[!UICONTROL PostgreSQL]** op het tabblad **[!UICONTROL General]** naar:
-      ![ Teken van Tableau binnen dialoog ](assets/tableau-signin.png)
+      ![ Teken van Tableau binnen dialoog ](assets/tableau-signin.png){zoomable="yes"}
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Host]** van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan **[!UICONTROL Server]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Port]** van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan **[!UICONTROL Port]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
@@ -150,10 +150,10 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
       * De naam van de verbinding, onder **[!UICONTROL Connections]** .
       * De naam van de database, onder **[!UICONTROL Database]** .
       * Een lijst met tabellen, onder **[!UICONTROL Table]** .
-        ![ Verbonden Tableau ](assets/tableau-connected.png)
+        ![ Verbonden Tableau ](assets/tableau-connected.png){zoomable="yes"}
       1. Sleep het item **[!UICONTROL cc_data_view]** en zet het neer in de hoofdweergave die **[!UICONTROL Drag tables]** hier leest.
    1. In het hoofdvenster worden de details van de gegevensweergave van **[!UICONTROL cc_data_view]** weergegeven.
-      ![ Verbonden Tableau ](assets/tableau-validation.png)
+      ![ Verbonden Tableau ](assets/tableau-validation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -172,7 +172,7 @@ Customer Journey Analytics verstrekt informatie over hoe te in de interface van 
 1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
 1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
 
-![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
 
 +++
@@ -219,7 +219,7 @@ In dit geval wilt u een tabel en eenvoudige lijnvisualisatie weergeven met een d
 
 Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Daily Trend paneel ](assets/cja_daily_trend.png)
+![ Customer Journey Analytics Daily Trend paneel ](assets/cja_daily_trend.png){zoomable="yes"}
 
 +++
 
@@ -253,7 +253,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    Een lijngrafiekvisualisatie vervangt de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval van het Gebruik van de Desktop 2 van de Datum waaierfilter ](assets/uc2-pbi-daterange.png)
+   ![ Geval van het Gebruik van de Desktop 2 van de Datum waaierfilter ](assets/uc2-pbi-daterange.png){zoomable="yes"}
 
 1. Op het grafiekvisualisatie van de Lijn:
 
@@ -262,7 +262,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc2-pbi-final.png)
+   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc2-pbi-final.png){zoomable="yes"}
 
 >[!TAB  Desktop Tableau ]
 
@@ -271,7 +271,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filters Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en geef een punt op van `01/01/2023` - `01/02/2023` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc2-tableau-filter.png)
+      ![ de Filter van de Desktop van Tableau ](assets/uc2-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
@@ -281,7 +281,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc2-tableau-graph.png)
+      ![ Grafiek van de Desktop van Tableau ](assets/uc2-tableau-graph.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -293,7 +293,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc2-tableau-data.png)
+      ![ Gegevens van de Desktop van Tableau ](assets/uc2-tableau-data.png){zoomable="yes"}
 
 1. Selecteer de tabknop **[!UICONTROL New Dashboard]** (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -302,7 +302,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc2-tableau-dashboard.png)
+      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc2-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -317,7 +317,7 @@ In dit gebruiksgeval wilt u een tabel en eenvoudige lijnvisualisatie weergeven m
 
 Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics de Uur visualisaties van de Trend ](assets/cja_hourly_trend.png)
+![ Customer Journey Analytics de Uur visualisaties van de Trend ](assets/cja_hourly_trend.png){zoomable="yes"}
 
 +++
 
@@ -341,7 +341,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filters Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en geef een punt op van `01/01/2023` - `02/01/2023` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc3-tableau-filter.png)
+      ![ de Filter van de Desktop van Tableau ](assets/uc3-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Daterangehour]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL More]** > **[!UICONTROL Hours]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL HOUR(Daterangeday)]** .
@@ -351,7 +351,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc3-tableau-graph.png)
+      ![ Grafiek van de Desktop van Tableau ](assets/uc3-tableau-graph.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -363,7 +363,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc3-tableau-data.png)
+      ![ Gegevens van de Desktop van Tableau ](assets/uc3-tableau-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -372,7 +372,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc3-tableau-dashboard.png)
+      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc3-tableau-dashboard.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -388,7 +388,7 @@ In dit gebruiksgeval, wilt u een lijst en eenvoudige lijnvisualisatie tonen die 
 
 Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics maandelijkse visualisatie van de Trend ](assets/cja_monthly_trend.png)
+![ Customer Journey Analytics maandelijkse visualisatie van de Trend ](assets/cja_monthly_trend.png){zoomable="yes"}
 
 +++
 
@@ -424,7 +424,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
    Een lijngrafiekvisualisatie vervangt de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval van het Gebruik van de Desktop 2 van de Datum waaierfilter ](assets/uc4-pbi-filter-daterange.png)
+   ![ Geval van het Gebruik van de Desktop 2 van de Datum waaierfilter ](assets/uc4-pbi-filter-daterange.png){zoomable="yes"}
 
 1. Op het grafiekvisualisatie van de Lijn:
 
@@ -433,7 +433,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc4-pbi-filter-final.png)
+   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc4-pbi-filter-final.png){zoomable="yes"}
 
 >[!TAB  Desktop Tableau ]
 
@@ -442,7 +442,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filters Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en geef een punt op van `01/01/2023` - `01/01/2024` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc4-tableau-filter.png)
+      ![ de Filter van de Desktop van Tableau ](assets/uc4-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL MONTH]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL MONTH(Daterangeday)]** .
@@ -452,7 +452,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc4-tableau-graph.png)
+      ![ Grafiek van de Desktop van Tableau ](assets/uc4-tableau-graph.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -464,7 +464,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc4-tableau-data.png)
+      ![ Gegevens van de Desktop van Tableau ](assets/uc4-tableau-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -473,7 +473,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc4-tableau-dashboard.png)
+      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc4-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -488,7 +488,7 @@ In dit gebruiksgeval wilt u een tabel en eenvoudige streepjesvisualisatie weerge
 
 Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Enige gerangschikte afmeting visualisatie ](assets/cja-single-dimension-ranked.png)
+![ Customer Journey Analytics Enige gerangschikte afmeting visualisatie ](assets/cja-single-dimension-ranked.png){zoomable="yes"}
 +++
 
 +++ BI-gereedschappen
@@ -528,7 +528,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    1. Selecteer **[!UICONTROL Sum of purchase_revenue]** om de productnamen te sorteren in aflopende volgorde van inkoopopbrengsten. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval van het Gebruik van de Desktop van de Desktop 5 de status van de Lijst ](assets/uc5-pbi-table.png)
+   ![ Geval van het Gebruik van de Desktop van de Desktop 5 de status van de Lijst ](assets/uc5-pbi-table.png){zoomable="yes"}
 
 1. In het deelvenster **[!UICONTROL Filters]** :
 
@@ -550,7 +550,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De lijn en gestapelde kolomgrafiek worden bijgewerkt. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Geval van het Gebruik van de Desktop van de Desktop 5 Grafiek ](assets/uc5-pbi-chart.png)
+   ![ Geval van het Gebruik van de Desktop van de Desktop 5 Grafiek ](assets/uc5-pbi-chart.png){zoomable="yes"}
 
 1. Op de Lijn en gestapelde kolomgrafiekvisualisatie:
 
@@ -559,7 +559,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven.
 
-   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc5-pbi-final.png)
+   ![ Geval 2 van het Gebruik van de Desktop van de Desktop Def. Dagelijkse visualisatie van de Trend ](assets/uc5-pbi-final.png){zoomable="yes"}
 
 >[!TAB  Desktop Tableau ]
 
@@ -568,7 +568,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filters Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en geef een punt op van `01/01/2023` - `31/12/2024` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc5-tableau-filter.png)
+      ![ de Filter van de Desktop van Tableau ](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Product Name]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer.
    1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
@@ -585,7 +585,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Grafiek van de Desktop van Tableau ](assets/uc5-tableau-graph.png)
+   ![ Grafiek van de Desktop van Tableau ](assets/uc5-tableau-graph.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
@@ -597,7 +597,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Gegevens van de Desktop van Tableau ](assets/uc5-tableau-data.png)
+   ![ Gegevens van de Desktop van Tableau ](assets/uc5-tableau-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -606,7 +606,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc5-tableau-dashboard.png)
+   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc5-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -621,7 +621,7 @@ In dit geval wilt u een tabel weergeven die de aankoopopbrengsten en -aankopen v
 
 Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Veelvoudig Dimension Rangschikte paneel ](assets/cja-multiple-dimension-ranked.png)
+![ Customer Journey Analytics Veelvoudig Dimension Rangschikte paneel ](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
 
 +++
 
@@ -663,7 +663,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 1. Selecteer **[!UICONTROL +]** op productcategorieniveau om elke categorie in de tabel op te splitsen. Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ de Veelvoudige Dimensionen van de Desktop van de Desktop Rangschikte matrixlijst ](assets/uc6-powerbi-data.png)
+   ![ de Veelvoudige Dimensionen van de Desktop van de Desktop Rangschikte matrixlijst ](assets/uc6-powerbi-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -677,7 +677,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Veelvoudige Dimensionen van de Desktop van de Power BI Rangschikte treemap ](assets/uc6-powerbi-treemap.png)
+   ![ Veelvoudige Dimensionen van de Desktop van de Power BI Rangschikte treemap ](assets/uc6-powerbi-treemap.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -694,7 +694,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Veelvoudige Dimensionen van de Desktop van de Power BI Rangschikte definitief ](assets/uc6-powerbi-final.png)
+   ![ Veelvoudige Dimensionen van de Desktop van de Power BI Rangschikte definitief ](assets/uc6-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB  Desktop Tableau ]
@@ -706,7 +706,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc6-tableau-filter.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc6-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Product Category]** en zet de muisknop los naast **[!UICONTROL Columns]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** en zet de muisknop los naast **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
@@ -719,7 +719,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimensionen Rangschikte Categorie ](assets/uc6-tableau-category.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimensionen Rangschikte Categorie ](assets/uc6-tableau-category.png){zoomable="yes"}
 
 1. Wijzig de naam van het huidige **[!UICONTROL Sheet 1]** blad in `Category` .
 1. Selecteer **[!UICONTROL New Worksheet]** om een nieuw blad te maken en wijzig de naam in `Data` .
@@ -738,7 +738,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Gegevens ](assets/uc6-tableau-data.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Gegevens ](assets/uc6-tableau-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New worksheet]** om een nieuw blad te maken en de naam ervan te wijzigen in **[!UICONTROL Treemap]** .
    1. Sleep de vermelding **[!UICONTROL Daterange]** uit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet deze op de **[!UICONTROL Filters]** shelf neer.
@@ -755,7 +755,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Gegevens ](assets/uc6-tableau-treemap.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Gegevens ](assets/uc6-tableau-treemap.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Category]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -765,7 +765,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc6-tableau-final.png)
+   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc6-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -780,11 +780,11 @@ U wilt het duidelijke aantal productnamen krijgen waarop in januari 2023 is gera
 
 Als u een duidelijke telling van productnamen wilt rapporteren, stelt u een berekende metrische waarde in Customer Journey Analytics in met **[!UICONTROL Title]** `Product Name (Count Distinct)` en **[!UICONTROL External Id]** `product_name_count_distinct` .
 
-{de Naam van het Product van 0} Customer Journey Analytics (Afzonderlijke Telling) berekende metrisch ](assets/cja-calc-metric-distinct-count-product-names.png)![
+{de Naam van het Product van 0} Customer Journey Analytics (Afzonderlijke Telling) berekende metrisch ](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}![
 
 Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[!UICONTROL Count Distinct Dimension Values]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-count-distinct-dimension-values.png)
+![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-count-distinct-dimension-values.png){zoomable="yes"}
 
 +++
 
@@ -813,7 +813,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ de Veelvoudige Lijst van de Telling van de Desktop van de Desktop Veelvoudige ](assets/uc7-powerbi-table.png)
+   ![ de Veelvoudige Lijst van de Telling van de Desktop van de Desktop Veelvoudige ](assets/uc7-powerbi-table.png){zoomable="yes"}
 
 1. Selecteer de tabelvisualisatie. Selecteer **[!UICONTROL Copy]** > **[!UICONTROL Copy visual]** in het contextmenu.
 1. Plak de visualisatie met **[!UICONTROL ctrl-v]** . De exacte kopie van de visualisatie overlapt de originele versie. Verplaats het naar rechts in het rapportgebied.
@@ -821,7 +821,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ de Veelvoudige Lijst van de Telling van de Desktop van de Desktop Veelvoudige ](assets/uc7-powerbi-final.png)
+   ![ de Veelvoudige Lijst van de Telling van de Desktop van de Desktop Veelvoudige ](assets/uc7-powerbi-final.png){zoomable="yes"}
 
 >[!TAB  Desktop Tableau ]
 
@@ -837,7 +837,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc7-tableau-data.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc7-tableau-data.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
@@ -852,7 +852,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc7-tableau-card.png)
+   ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc7-tableau-card.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Card]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -860,7 +860,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc7-tableau-final.png)
+   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc7-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -876,11 +876,11 @@ U wilt een datumbereik gebruiken dat u in Customer Journey Analytics hebt gedefi
 
 Als u een datumbereik wilt rapporteren, stelt u een datumbereik in Customer Journey Analytics in met **[!UICONTROL Title]** `Last Year 2023` .
 
-![ de Namen van de Datumwaaier van het Gebruik van de Customer Journey Analytics aan filter ](assets/cja-daterange.png)
+![ de Namen van de Datumwaaier van het Gebruik van de Customer Journey Analytics aan filter ](assets/cja-daterange.png){zoomable="yes"}
 
 Vervolgens kunt u dat datumbereik gebruiken in een voorbeelddeelvenster **[!UICONTROL Using Date Range Names To Filter]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-date-range-filter-names-to-filter.png)
+![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-date-range-filter-names-to-filter.png){zoomable="yes"}
 
 Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedefinieerd, het datumbereik overtreft dat op het deelvenster wordt toegepast.
 
@@ -913,7 +913,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL daterangeName]** . Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc8-powerbi-final.png)
+   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc8-powerbi-final.png){zoomable="yes"}
 
 >[!TAB  Desktop Tableau ]
 
@@ -928,7 +928,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc8-tableau-final.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc8-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -944,11 +944,11 @@ U wilt een bestaand filter gebruiken voor de categorie visserijproducten die u i
 
 Inspect het filter dat u in Customer Journey Analytics wilt gebruiken.
 
-![ de Namen van de Filter van het Gebruik van de Customer Journey Analytics aan filter ](assets/cja-fishing-products.png)
+![ de Namen van de Filter van het Gebruik van de Customer Journey Analytics aan filter ](assets/cja-fishing-products.png){zoomable="yes"}
 
 Vervolgens kunt u dat filter in een voorbeeldvenster van **[!UICONTROL Using Date Range Names To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-filter-names-to-filter.png)
+![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -984,7 +984,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL filterName]** . Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc9-powerbi-final.png)
+   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc9-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB  Desktop Tableau ]
@@ -1002,7 +1002,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc9-tableau-final.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc9-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1017,11 +1017,11 @@ U maakt een nieuw filter in de Customer Journey Analytics dat op producten uit d
 
 Maak een nieuw filter met **[!UICONTROL Title]** `Hunting Products` in Customer Journey Analytics.
 
-![ de Waarden van het Dimension van het Gebruik van de Customer Journey Analytics om ](assets/cja-hunting-products.png) te filtreren
+![ de Waarden van het Dimension van het Gebruik van de Customer Journey Analytics om ](assets/cja-hunting-products.png){zoomable="yes"} te filtreren
 
 Vervolgens kunt u dat filter in een voorbeeldvenster van **[!UICONTROL Using Dimension Values To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-dimension-values-to-filter.png)
+![ de Verschillende Waarden van de Telling van de Customer Journey Analytics ](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -1058,7 +1058,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL filterName]** . Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc10-powerbi-final.png)
+   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
@@ -1078,7 +1078,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc10-tableau-final.png)
+      ![ Van de Desktop van Tableau Veelvoudige Dimension Rangschikte Filter ](assets/uc10-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1094,7 +1094,7 @@ U wilt in januari 2023 een rapport opstellen over de aankoopinkomsten en -aankop
 
 Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
-![ het paneel van de Soort van de Customer Journey Analytics ](assets/cja-sort.png)
+![ het paneel van de Soort van de Customer Journey Analytics ](assets/cja-sort.png){zoomable="yes"}
 
 +++
 
@@ -1128,7 +1128,7 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc11-powerbi-final.png)
+   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc11-powerbi-final.png){zoomable="yes"}
 
 De query die wordt uitgevoerd door Power BI Desktop met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van een instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -1234,7 +1234,7 @@ limit 1000001
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Soort van de Desktop van Tableau ](assets/uc11-tableau-final.png)
+      ![ de Soort van de Desktop van Tableau ](assets/uc11-tableau-final.png){zoomable="yes"}
 
 De query die wordt uitgevoerd door Tableau Desktop met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van deze instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -1260,7 +1260,7 @@ U wilt in 2023 melding maken van de vijf meest voorkomende productnamen.
 
 Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
-![ het paneel van de Limiet van de Customer Journey Analytics ](assets/cja-limit.png)
+![ het paneel van de Limiet van de Customer Journey Analytics ](assets/cja-limit.png){zoomable="yes"}
 
 +++
 
@@ -1296,7 +1296,7 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
 
-   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc12-powerbi-final.png)
+   ![ Desktop die de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc12-powerbi-final.png){zoomable="yes"}
 
 De query die wordt uitgevoerd door Power BI Desktop met de BI-extensie bevat een `limit` -instructie, maar niet de instructie die wordt verwacht. De beperking tot top 5 voorkomen wordt afgedwongen door Desktop gebruikend expliciete productnaamresultaten.
 
@@ -1407,7 +1407,7 @@ limit 1000001
 
          Uw Tableau Desktop moet er hieronder uitzien.
 
-         ![ Limieten van de Desktop van Tableau ](assets/uc12-tableau-final.png)
+         ![ Limieten van de Desktop van Tableau ](assets/uc12-tableau-final.png){zoomable="yes"}
 
 Zoals hierboven getoond, ontbreekt deze vraag die door Desktop van Tableau wordt uitgevoerd, wanneer het bepalen van Hoogste 5 voorvalenfilter op productnamen, ontbreekt.
 
@@ -1489,12 +1489,12 @@ De Desktop van de Power BI verstrekt de functionaliteit van de douanetransformat
 1. Selecteer product_name in de ruit van Gegevens.
 1. Selecteer Nieuwe kolom op de werkbalk.
 1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als `product_name_lower = LOWER('public.cc_data_view[product_name])` .
-   ![ Transformatie van de Desktop van de Power BI aan Laag ](assets/uc14-powerbi-transformation.png)
+   ![ Transformatie van de Desktop van de Power BI aan Laag ](assets/uc14-powerbi-transformation.png){zoomable="yes"}
 1. Zorg ervoor dat u de nieuwe kolom product_name_lower selecteert in het venster Gegevens in plaats van de kolom product_name.
 1. Selecteer Rapport als Lijst van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
 
    Uw Power BI Desktop zou hieronder moeten kijken als.
-   ![ Definitieve Transformatie van de Desktop van Power BI ](assets/uc14-powerbi-final.png)
+   ![ Definitieve Transformatie van de Desktop van Power BI ](assets/uc14-powerbi-final.png){zoomable="yes"}
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `lower` in het volgende SQL-voorbeeld:
 
@@ -1562,7 +1562,7 @@ De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie g
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
-      ![ Berekend Gebied van Tableau ](assets/uc14-tableau-calculated-field.png)
+      ![ Berekend Gebied van Tableau ](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
    1. Selecteer **[!UICONTROL OK]** .
 1. Selecteer het **[!UICONTROL Data]** blad.
    1. Sleep **[!UICONTROL Lowercase Product Name]** van **[!UICONTROL Tables]** en laat vallen de ingang in het gebied naast **[!UICONTROL Rows]**.
@@ -1571,7 +1571,7 @@ De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie g
 
 Uw Tableau Desktop moet er hieronder uitzien.
 
-![ Desktop Tableau na transformatie ](assets/uc14-tableau-final.png)
+![ Desktop Tableau na transformatie ](assets/uc14-tableau-final.png){zoomable="yes"}
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
 
@@ -1642,11 +1642,11 @@ Voor de meeste visualisaties van de Customer Journey Analytics, biedt de Desktop
 
 Power BI steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
 
-![ Power BI boor neer ](assets/uc15-powerbi-drilldown.png)
+![ Power BI boor neer ](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
 Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
-![ Power BI boor omhoog ](assets/uc15-powerbi-drillup.png)
+![ Power BI boor omhoog ](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
 De boor neer resulteert in de volgende SQL vraag die een `WHERE` clausule gebruikt:
 
@@ -1725,11 +1725,11 @@ Voor de meeste visualisaties van Customers Journey Analytics biedt Tableau verge
 
 Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [ hiërarchieën ](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld Productnaam in Tabellen selecteert en deze boven Productcategorie sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
 
-![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png)
+![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
 Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
-![ boor van Tableau omhoog ](assets/uc15-tableau-drillup.png)
+![ boor van Tableau omhoog ](assets/uc15-tableau-drillup.png){zoomable="yes"}
 
 De boor neer resulteert in de volgende SQL vraag die een GROUP DOOR clausule gebruikt:
 
@@ -1745,11 +1745,11 @@ GROUP BY 1,
 
 De vraag beperkt **** niet de resultaten tot de geselecteerde productcategorie; slechts toont visualisatie de geselecteerde productcategorie.
 
-![ boor van Tableau omhoog ](assets/uc15-tableau-drillup2.png)
+![ boor van Tableau omhoog ](assets/uc15-tableau-drillup2.png){zoomable="yes"}
 
 U kunt ook een dashboard maken voor de boor omlaag, waarbij de ene visuele weergave het resultaat is van de selectie in een andere visuele weergave. In het onderstaande voorbeeld wordt de **[!UICONTROL Product Categories]** visualisatie gebruikt als een filter om de **[!UICONTROL Product Names]** -tabel bij te werken. Dit visualisatiefilter is alleen client en leidt niet tot een extra SQL-query.
 
-![ de visualisatiefilter van Tableau ](assets/uc15-tableau-visualizationfilter.png)
+![ de visualisatiefilter van Tableau ](assets/uc15-tableau-visualizationfilter.png){zoomable="yes"}
 
 
 >[!ENDTABS]
