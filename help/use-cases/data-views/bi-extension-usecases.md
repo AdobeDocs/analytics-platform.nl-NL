@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
+source-git-commit: d6d6777f3d40a979eefecea6ab6d4bd818be2401
 workflow-type: tm+mt
-source-wordcount: '7932'
+source-wordcount: '7896'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ De volgende gebruiksgevallen worden gedocumenteerd:
 
 * **verbind**
    * [Weergaven van Connect- en lijstgegevens](#connect-and-validate)
-   * [Naar FLATTEN of niet](#to-flatten-or-not)
 
 * **Rapport en analyseer**
    * [Dagelijkse trend](#daily-trend)
@@ -120,6 +119,25 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
       ![ Gegevens van de Server van de Desktop van de Power BI Geladen ](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
+### Naar FLATTEN of niet
+
+Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+
+| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
+|---|---|:---:|---|
+| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om te gebruiken!** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Fout in weergave van Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+
+### Meer informatie
+
+* [Vereisten](/help/data-views/bi-extension.md#prerequisites)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [ verbind Power BI met de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+
+
+
+
 >[!TAB  Desktop Tableau ]
 
 1. Heb toegang tot de vereiste geloofsbrieven en de parameters van de Dienst UI van de Vraag van het Experience Platform.
@@ -155,56 +173,23 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
    1. In het hoofdvenster worden de details van de gegevensweergave van **[!UICONTROL cc_data_view]** weergegeven.
       ![ Verbonden Tableau ](assets/tableau-validation.png){zoomable="yes"}
 
->[!ENDTABS]
+### Naar FLATTEN of niet
 
-+++
-
-## Naar FLATTEN of niet
-
-In dit geval, wilt u begrijpen of u een extra `FLATTEN` parameter voor het gegevensbestand moet gebruiken wanneer u met Customer Journey Analytics gebruikend de uitbreiding van BI verbindt.
-
-+++ Customer Journey Analytics
-
-Customer Journey Analytics verstrekt informatie over hoe te in de interface van het Experience Platform te verbinden.
-
-1. Navigeer naar de sandbox van uw Experience Platform.
-1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
-1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
-
-![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
-
-
-+++
-
-+++ BI-gereedschappen
-
->[!PREREQUISITES]
->
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen. Zie de BI-gereedschapssectie voor welke expliciete `FLATTEN` parameteropties vereist zijn voor een juiste verbinding.
->
-
->[!BEGINTABS]
-
->[!TAB  Desktop van de Power BI ]
-
-Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
+Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
 | Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Fout in weergave van Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
 
->[!TAB  Desktop Tableau ]
+### Meer informatie
 
-Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` .
+* [Vereisten](/help/data-views/bi-extension.md#prerequisites)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [ verbind de Desktop van Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
 
-| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
-|---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+
 
 >[!ENDTABS]
 
@@ -277,7 +262,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
    1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
       * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -289,7 +274,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd. In de weergave **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (bovenste visualisatie linksboven) om de inhoud van de gegevensweergave te wijzigen in een tabel.
    1. Selecteer **[!UICONTROL Swap Rows and Columns]** op de werkbalk.
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -347,7 +332,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
       * Selecteer **[!UICONTROL More]** > **[!UICONTROL Hours]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL HOUR(Daterangeday)]** .
    1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
       * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -359,7 +344,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd. In de weergave **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (bovenste visualisatie linksboven) om de inhoud van de gegevensweergave te wijzigen in een tabel.
    1. Sleep **[!UICONTROL HOUR(Daterangeday)]** van **[!UICONTROL Columns]** naar **[!UICONTROL Rows]** .
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -448,7 +433,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
       * Selecteer **[!UICONTROL MONTH]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL MONTH(Daterangeday)]** .
    1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
       * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -460,7 +445,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd. In de weergave Gegevens:
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (bovenste visualisatie linksboven) om de inhoud van de gegevensweergave te wijzigen in een tabel.
    1. Sleep **[!UICONTROL MONTH(Daterangeday)]** van **[!UICONTROL Columns]** naar **[!UICONTROL Rows]** .
-   1. Wijzig **[!UICONTROL Standard]** aan **[!UICONTROL Entire View]** van **[IUICONTROL]** dropdown menu van de Passendheid {in de toolbar.
+   1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -823,6 +808,15 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    ![ de Veelvoudige Lijst van de Telling van de Desktop van de Desktop Veelvoudige ](assets/uc7-powerbi-final.png){zoomable="yes"}
 
+U kunt ook de telfunctie gebruiken, maar niet de Power BI.
+
+1. Selecteer de **[!UICONTROL product_name]** -dimensie.
+1. Pas de functie **[!UICONTROL Count (Distinct)]** toe op de **[!UICONTROL product_name]** dimensie in **[!UICONTROL Columns]** .
+
+   ![ Uitzondering van de Telling van de Power BI ](assets/uc7-powerbi-alternative.png){zoomable="yes"}
+
+
+
 >[!TAB  Desktop Tableau ]
 
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
@@ -861,6 +855,14 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
    ![ Dashboard 1 van de Desktop van Tableau ](assets/uc7-tableau-final.png){zoomable="yes"}
+
+
+Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruiken Tableau.
+
+1. Gebruik **[!UICONTROL Product Name]** in plaats van **[!UICONTROL Cm Product Name Count Distinct]** .
+1. Pas **[!UICONTROL Measure]** > **[!UICONTROL Count (Distinct)]** on **[!UICONTROL Product Name]** toe in **[!UICONTROL Marks]** .
+
+   ![ Uitzondering van de Telling van de Power BI ](assets/uc7-tableau-alternative.png){zoomable="yes"}
 
 >[!ENDTABS]
 
