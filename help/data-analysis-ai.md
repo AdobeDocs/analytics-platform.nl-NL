@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
+source-git-commit: 6f264ffd30bb1308f95a913a16fb587f36d95a04
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 4. Zorg ervoor dat de geselecteerde gegevensweergave voor het deelvenster de gegevensweergave is die is ingeschakeld voor gebruik door AI Assistant voor het testen van Alpha&#39;s (bereik bij twijfel de weergave in het stapelkanaal van de Alpha).
 
-5. Klik op het AI Assistant-chatpictogram rechtsboven.
+5. Klik op het AI Assistant-chatpictogram rechtsboven. Nota: Als u niet het praatjepictogram in het hoogste recht ziet, te bereiken gelieve uit aan uw Admin en hen te hebben [ deze instructies ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/ai-assistant#feature-access) volgen om &quot;AI Medewerker toe te laten: De Kennis van het Product&quot;en &quot;AI Medewerker: De Analyse van Gegevens&quot;in Admin Console.
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
