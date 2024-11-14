@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
+source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
 
-# Een XDM-schema maken voor gebruik met Customer Journey Analytics
+# Creeer een schema XDM om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken
 
 >[!NOTE]
 > 
@@ -39,7 +40,7 @@ Een schema maken:
 
 1. Selecteer **[!UICONTROL Create schema]** .
 
-1. In Uitgezocht een klassenstap van de Create schematovenaar:
+1. In de stap **[!UICONTROL Select a class]** van de wizard Schema maken:
 
    1. Selecteer **[!UICONTROL Experience Event]** .
 
@@ -60,11 +61,11 @@ Een schema maken:
 
    1. Selecteer **[!UICONTROL Finish]** .
 
-1. In het [!UICONTROL **lusje van de Structuur**] van uw schema:
+1. Voeg alle veldgroepen toe die velden bevatten die u in uw schema wilt opnemen.
+
+   Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
    1. Selecteer **[!UICONTROL + Add]** in de sectie **[!UICONTROL Field groups]** .
-
-      Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
       ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
 
@@ -78,7 +79,19 @@ Een schema maken:
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
+   1. (Optioneel) Selecteer eventuele extra veldgroepen die u wilt opnemen.
+
    1. Selecteer **[!UICONTROL Add field groups]** .
+
+1. (Optioneel) Als u aangepaste velden hebt die u in het schema wilt opnemen, maakt u een aangepaste veldgroep en voegt u de aangepaste velden toe aan de veldgroep.
+
+   1. Selecteer **[!UICONTROL + Add]** in de sectie **[!UICONTROL Field groups]** .
+
+      ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
+
+   1. Selecteer **[!UICONTROL Create new field group]** in het dialoogvenster [!UICONTROL Add fields groups] .
+
+   1. Geef een weergavenaam en optionele beschrijving op en selecteer vervolgens **[!UICONTROL Add field groups]** .
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema in het deelvenster [!UICONTROL Structure] .
 
@@ -147,4 +160,3 @@ Een schema maken:
    Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-

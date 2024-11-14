@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
+source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -90,9 +90,13 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. (Optioneel) Als u Customer Journey Analytics wilt integreren met Adobe Journey Optimizer, gebruikt u het aanpassingsobject in uw implementatie voor gebruik in Adobe Journey Optimizer.
 
-1. (Optioneel) Breng historische gegevens van Adobe Analytics met behulp van de bronconnector Analytics.
+1. (Optioneel) Breng historische gegevens van Adobe Analytics met behulp van de bronconnector Analytics:
 
-   Voor meer informatie, zie [ Gebruik een bronschakelaar ](/help/data-ingestion/sources.md#use-a-source-connector) in [ Samenvatten en gebruik gegevens gebruikend bronschakelaars ](/help/data-ingestion/sources.md).
+   1. [ creeer een schema voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+
+   1. [ creeer de de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [ voeg de gegevensset van de bron van Analytics aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toe.
 
 1. Breid de sectie uit die beschrijft hoe u het Web SDK van het Experience Platform voor uw implementatie van de Customer Journey Analytics wilt uitvoeren, dan de bijbehorende stappen voltooien:
 
@@ -106,7 +110,7 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    +++Tags
 
-   1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md) uit.
+   1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md) uit.
 
    1. [ creeer een markeringsbezit en voeg de uitbreiding van SDK van het Web van Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) toe.
 

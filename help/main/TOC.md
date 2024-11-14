@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
+source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1062'
 ht-degree: 10%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 10%
       + [De implementatie van Analytics begrijpen](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Opzoekgegevenssets maken voor classificaties](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Een afgeleid veld voor een marketingkanaal maken](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [De loader-tag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [De loader-tag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [Een tag voor uw eigenschap maken](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [De Web SDK-extensie toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [XDM-logica voor gegevensverzameling toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
@@ -64,6 +64,9 @@ ht-degree: 10%
       + [Een gegevensweergave maken](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Gegevensstroom valideren](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [Sneltoets voor upgrade: migreren naar SDK van web](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+      + [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics-gegevens gebruiken](../getting-started/aa-vs-cja/aa-data-in-cja.md)
