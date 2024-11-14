@@ -4,12 +4,10 @@ description: Veelvoudige gebruiksgevallen die tonen hoe te om de uitbreiding van
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: d6d6777f3d40a979eefecea6ab6d4bd818be2401
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
-source-wordcount: '7896'
+source-wordcount: '7902'
 ht-degree: 0%
 
 ---
@@ -260,8 +258,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
-      * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -330,8 +327,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangehour]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL More]** > **[!UICONTROL Hours]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL HOUR(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
-      * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -431,8 +427,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL MONTH]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL MONTH(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
-      * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Occurrences)]** .
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -556,10 +551,8 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
       ![ de Filter van de Desktop van Tableau ](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. Sleep **[!UICONTROL Product Name]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer.
-   1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**.
-      * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Purchases)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Purchase Revenue]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Columns]**en verlaten van **[!UICONTROL SUM(Purchases)]**.
-      * De waarden worden automatisch omgezet in **[!UICONTROL SUM(Purchase Revenue)]** .
+   1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchases)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Purchase Revenue]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Columns]**en verlaten van **[!UICONTROL SUM(Purchases)]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchase Revenue)]**.
    1. Als u beide grafieken wilt bestellen in aflopende volgorde van inkoopopbrengsten, plaatst u de muisaanwijzer op de titel van **[!UICONTROL Purchase Revenue]** en selecteert u het sorteerpictogram.
    1. Als u het aantal items in de grafieken wilt beperken, selecteert u **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Filter]** in het vervolgkeuzemenu.
    1. Selecteer **[!UICONTROL Range of values]** in het dialoogvenster **[!UICONTROL Filter \[Purchase Revenue\]]** en voer de gewenste waarden in. Bijvoorbeeld: `1,000,000` - `2,000,000` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
@@ -744,8 +737,8 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Category]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
-   1. Sleep het **[!UICONTROL Treemap]** -werkblad van de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Category]** -werkblad naar de **[!UICONTROL Dashboard 1]** -weergave.
-   1. Sleep het **[!UICONTROL Data]** -werkblad van de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Treemap]** -werkblad naar de **[!UICONTROL Dashboard 1]** -weergave.
+   1. Sleep het **[!UICONTROL Treemap]** -werkblad vanuit de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Category]** -werkblad in de **[!UICONTROL Dashboard 1]** -weergave.
+   1. Sleep het **[!UICONTROL Data]** -werkblad vanuit de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Treemap]** -werkblad in de **[!UICONTROL Dashboard 1]** -weergave.
    1. Wijzig de grootte van elk blad in de weergave.
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
@@ -759,7 +752,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 ## Waarden voor verschillende dimensies tellen
 
-U wilt het duidelijke aantal productnamen krijgen waarop in januari 2023 is gerapporteerd.
+In dit geval wilt u het duidelijke aantal productnamen ophalen waarop in januari 2023 is gerapporteerd.
 
 +++ Customer Journey Analytics
 
@@ -850,7 +843,7 @@ U kunt ook de telfunctie gebruiken, maar niet de Power BI.
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Card]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
-   1. Sleep het **[!UICONTROL Data]** -werkblad van de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Card]** -werkblad naar de **[!UICONTROL Dashboard 1]** -weergave.
+   1. Sleep het **[!UICONTROL Data]** -werkblad vanuit de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Card]** -werkblad in de **[!UICONTROL Dashboard 1]** -weergave.
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
@@ -872,7 +865,7 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 
 ## Namen van datumbereik gebruiken om te filteren
 
-U wilt een datumbereik gebruiken dat u in Customer Journey Analytics hebt gedefinieerd om gebeurtenissen (gebeurtenissen) in het laatste jaar te filteren en te rapporteren.
+In dit geval wilt u een datumbereik gebruiken dat u in Customer Journey Analytics hebt gedefinieerd om gebeurtenissen (gebeurtenissen) in het laatste jaar te filteren en te rapporteren.
 
 +++ Customer Journey Analytics
 
@@ -940,7 +933,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 ## Filternamen gebruiken om te filteren
 
-U wilt een bestaand filter gebruiken voor de categorie visserijproducten die u in de Customer Journey Analytics hebt gedefinieerd, om productnamen en voorvallen (gebeurtenissen) in januari 2023 te filteren en te rapporteren.
+In dit geval wilt u een bestaand filter gebruiken voor de categorie visserijproducten die u in de Customer Journey Analytics hebt gedefinieerd, om productnamen en voorvallen (gebeurtenissen) in januari 2023 te filteren en te rapporteren.
 
 +++ Customer Journey Analytics
 
@@ -1090,7 +1083,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 ## Sorteren
 
-U wilt in januari 2023 een rapport opstellen over de aankoopinkomsten en -aankopen voor productnamen, gesorteerd in aflopende inkooporders.
+In dit geval wilt u in januari 2023 voor productnamen de aankoopopbrengsten en -aankopen rapporteren, gesorteerd in aflopende inkoopopdracht.
 
 +++ Customer Journey Analytics
 
@@ -1256,7 +1249,7 @@ GROUP BY 1
 
 ## Limieten
 
-U wilt in 2023 melding maken van de vijf meest voorkomende productnamen.
+In dit geval, wilt u over de hoogste 5 voorkomen van productnamen tijdens 2023 rapporteren.
 
 +++ Customer Journey Analytics
 
@@ -1544,7 +1537,7 @@ limit 1000001
 De objecten Customer Journey Analytics zijn beschikbaar in de zijbalk van **[!UICONTROL Data]** wanneer u in een werkblad werkt. En worden opgehaald uit de tabel die u hebt geselecteerd als onderdeel van de pagina **[!UICONTROL Data source]** in Tableau. Bijvoorbeeld **[!UICONTROL cc_data_view]** . De naam van de tabel is gelijk aan de externe id die u voor de gegevensweergave in Customer Journey Analytics hebt gedefinieerd. Gegevens worden bijvoorbeeld weergegeven met **[!UICONTROL Title]** `C&C - Data View` en **[!UICONTROL External ID]** `cc_data_view` .
 
 **Dimensionen**
-Dimensionen van Customer Journey Analytics worden geïdentificeerd door [!UICONTROL Component name]. [!UICONTROL Component name] wordt bepaald in uw de gegevensmening van de Customer Journey Analytics. Dimensies **[!UICONTROL Product Name]** in Customer Journey Analytics hebben bijvoorbeeld een [!UICONTROL Component name] **[!UICONTROL Product Name]** . Dit is de naam voor de dimensie in Tableau. Alle dimensies worden geïdentificeerd door **[!UICONTROL Abc]** .
+Dimensionen van Customer Journey Analytics worden geïdentificeerd door [!UICONTROL Component name]. [!UICONTROL Component name] wordt bepaald in uw de gegevensmening van de Customer Journey Analytics. Dimensies **[!UICONTROL Product Name]** in Customer Journey Analytics hebben bijvoorbeeld een [!UICONTROL Component name] **[!UICONTROL Product Name]** . Dit is de naam voor de dimensie in Tableau. Alle afmetingen worden aangegeven met **[!UICONTROL Abc]** .
 De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day]** , **[!UICONTROL Week]** , **[!UICONTROL Month]** en meer, zijn beschikbaar als **[!UICONTROL Daterangeday]** , **[!UICONTROL Daterangeweek]** , **[!UICONTROL Daterangemonth]** en meer. Wanneer u een dimensie van het datumbereik gebruikt, moet u een aangewezen definitie van datum of tijd selecteren om op die afmeting van het datumbereik van het drop-down menu toe te passen. Bijvoorbeeld **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Day]** .
 
 **Metriek**
@@ -1595,7 +1588,7 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 
 ## Visualisaties
 
-In dit gebruiksgeval wil ik begrijpen hoe de visualisaties, beschikbaar in de Customer Journey Analytics, op dezelfde manier kunnen worden gecreeerd gebruikend de beschikbare visualisaties in de hulpmiddelen van BI.
+U wilt begrijpen hoe de visualisaties, beschikbaar in de Customer Journey Analytics, op dezelfde manier kunnen worden gecreeerd gebruikend de beschikbare visualisaties in de hulpmiddelen van BI.
 
 +++ Customer Journey Analytics
 
@@ -1642,11 +1635,11 @@ Voor de meeste visualisaties van de Customer Journey Analytics, biedt de Desktop
 
 ### Boor omlaag
 
-Power BI steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
+Power BI steunt de wijze van de a [ boor ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
 
 ![ Power BI boor neer ](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
-Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
+Met de optie Omlaag kunt u de visualisatie bijwerken met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
 ![ Power BI boor omhoog ](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
@@ -1725,7 +1718,7 @@ Voor de meeste visualisaties van Customers Journey Analytics biedt Tableau verge
 
 ### Boor omlaag
 
-Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [ hiërarchieën ](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld Productnaam in Tabellen selecteert en deze boven Productcategorie sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
+Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [ hiërarchieën ](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld **[!UICONTROL Product Name]** binnen **[!UICONTROL Tables]** selecteert en het boven **[!UICONTROL Product Category]** sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
 
 ![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
@@ -1769,18 +1762,18 @@ Elk van de gesteunde hulpmiddelen van BI heeft sommige bedenkingen in het werken
 
 >[!TAB  Desktop van de Power BI ]
 
-* Filteren van datumbereik via Power BI Desktop Advanced is exclusief.  Voor uw einddatum moet u een andere datum selecteren dan de dag waarop u wilt rapporteren. Bijvoorbeeld **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL and before]** `1/2/2023` .
+* Filteren van datumbereik via Power BI Desktop Advanced is exclusief.  Voor uw einddatum, moet u één meer dan de dag selecteren u wilt melden. Bijvoorbeeld **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL and before]** `1/2/2023` .
 * Power BI Desktop wordt standaard ingesteld op **[!UICONTROL Import]** wanneer u een verbinding maakt. Gebruik **[!UICONTROL Direct Query]** niet.
-* Power BI Desktop stelt gegevenstransformaties beschikbaar via Power Query.  De Vraag van de macht werkt hoofdzakelijk met het type van de Invoer verbindingen zodat veel transformaties u als datum of koordfuncties toepast zal een fout veroorzaken die u zegt moet overschakelen op een het typeverbinding van de Invoer.  Als u gegevens bij vraagtijd moet omzetten, zou u afgeleide dimensies en metriek moeten gebruiken zodat te hoeven de Power BI niet om de transformaties zelf te doen.
+* Power BI Desktop stelt gegevenstransformaties beschikbaar via Power Query.  De Vraag van de macht werkt hoofdzakelijk met het type van de Invoer verbindingen zodat een vele transformaties die u als datum of koordfuncties toepast een fout werpen die u op een het typeverbinding van de Invoer moet schakelen.  Als u gegevens bij vraagtijd moet omzetten, zou u afgeleide dimensies en metriek moeten gebruiken zodat te hoeven de Power BI niet om de transformaties zelf te doen.
 * De Desktop van de Power BI begrijpt niet hoe te om datum-tijd typekolommen te behandelen zodat worden de **[!UICONTROL daterange*X *]**dimensies zoals **[!UICONTROL daterangehour]**en **[!UICONTROL daterangeminute]**niet gesteund.
-* De Desktop van de Power BI probeert door gebrek om veelvoudige verbindingen te maken die omhoog meer zittingen van de Dienst van de Vraag gebruiken.  U zou in de montages van de Power BI voor uw project moeten gaan en parallelle vragen onbruikbaar maken.
-* De Desktop van de Power BI sorteert en beperkt cliënt-kant, en heeft ook verschillende semantiek voor hoogste *X* het filtreren die gebonden waarden omvat zodat kunt u niet het nauwkeurige zelfde sorteren en het beperken tot stand brengen aangezien u in Analysis Workspace kunt doen.
+* De Desktop van de Power BI probeert door gebrek om veelvoudige verbindingen te maken die omhoog meer zittingen van de Dienst van de Vraag gebruiken.  Ga binnen aan de montages van de Power BI voor uw project en maak parallelle vragen onbruikbaar.
+* Power BI Desktop sorteert en beperkt alle client-side. De Desktop van de Power BI heeft ook verschillende semantiek voor hoogste *X* het filtreren die gebonden waarden omvat. U kunt dus niet dezelfde sortering en beperking maken als in Analysis Workspace.
 * Eerdere versies van de release van Power BI Desktop Oktober 2024 breken PostSQL-gegevensbronnen af. Gebruik de versie die in dit artikel wordt vermeld.
 
 >[!TAB  Desktop Tableau ]
 
-* Het filtreren van de Waaier van de Waaier van de Desktop van Tableau van Daten is exclusief. Voor uw einddatum moet u een andere datum selecteren dan de dag waarop u wilt rapporteren.
-* Wanneer u een datum- of datum-tijddimensie zoals **[!UICONTROL Daterangemonth]** toevoegt aan de rijen van een blad, plaatst Tableau Desktop het veld standaard in een **[!UICONTROL YEAR()]** -functie.  Om te krijgen wat u wilt, moet u die afmeting selecteren en van het drop-down menu selecteren de datumfunctie u wilt gebruiken.  Wijzig **[!UICONTROL Year]** bijvoorbeeld in **[!UICONTROL Month]** wanneer u **[!UICONTROL Daterangemonth]** wilt gebruiken.
+* Het filtreren van de Waaier van de Waaier van de Desktop van Tableau van Daten is exclusief. Voor uw einddatum, moet u één meer dan de dag selecteren u wilt melden.
+* Wanneer u standaard een datum- of datum-tijddimensie zoals **[!UICONTROL Daterangemonth]** toevoegt aan de rijen van een blad, plaatst Tableau Desktop het veld in een **[!UICONTROL YEAR()]** -functie.  Om te krijgen wat u wilt, moet u die afmeting selecteren en van het drop-down menu selecteren de datumfunctie u wilt gebruiken.  Wijzig bijvoorbeeld **[!UICONTROL Year]** in **[!UICONTROL Month]** wanneer u **[!UICONTROL Daterangemonth]** wilt gebruiken.
 * Het beperken van resultaten tot Top *X* is niet duidelijk in de Desktop van Tableau. U kunt de resultaten expliciet beperken of een berekend veld en de functie **[!UICONTROL INDEX()]** gebruiken.  Het toevoegen van een Hoogste *X* filter aan een afmeting produceert complexe SQL gebruikend binnen-sluit zich aan dat niet wordt gesteund.
 
 >[!ENDTABS]

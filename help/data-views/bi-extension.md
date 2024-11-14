@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics BI-extensie
-description: Leer hoe u Power BI of Tableau kunt gebruiken om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
+description: Leer hoe u Power BI of Desktop kunt gebruiken Tableau om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
+source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensingenieurs en analisten zouden met Power BI, Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (verder die als hulpmiddelen van BI worden bedoeld) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die gebruikers van Customers Journey Analytics gebruiken bij het maken van hun Analysis Workspace-projecten.
+[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensingenieurs en analisten zouden met Power BI, Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die gebruikers van Customers Journey Analytics gebruiken bij het maken van hun Analysis Workspace-projecten.
 
 De Dienst van de Vraag van Adobe Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om de gegevensweergaven van uw Customer Journey Analytics als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
 
@@ -100,7 +100,7 @@ Zie de [ gids UI van de Redacteur van de Vraag ](https://experienceleague.adobe.
 
 ### BI-gereedschappen
 
-Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteund en getest op Power BI en Tableau. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden ook kunnen werken, maar officieel nog niet gesteund.
+Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteund en getest voor Power BI en Tableau Desktop. Andere hulpmiddelen van BI die de interface PSQL gebruiken zouden ook kunnen werken, maar officieel nog niet gesteund.
 
 +++ Power BI
 
@@ -145,7 +145,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteun
 
 +++
 
-+++Tableau
++++Tableau-desktop
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
@@ -155,9 +155,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteun
 
    1. Selecteer het ` cja` **[!UICONTROL ** Gegevensbestand **]**.
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Tableau.
+   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de geloofsbrieven van Postgres parameters ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in de Desktop van Tableau.
 
-1. In Tableau:
+1. In Tableau Desktop:
 
    1. Selecteer **[!UICONTROL ** Meer **]** van **[!UICONTROL ** aan een Server **]** in het linkerspoor.
 
@@ -192,6 +192,8 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteun
 +++
 
 Zie [ cliënten met de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
+
+Zie [ gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI
 
 ## Functionaliteit
 

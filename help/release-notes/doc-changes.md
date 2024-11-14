@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4196'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Functie | Beschrijving |
 | --- | --- |
 | **November 2024** | |
+| Gebruikskwesties voor extensie BI | Documentatie van verscheidene [ BI uitbreidingsgebruiksgevallen ](/help/use-cases/data-views/bi-extension-usecases.md) voor de hulpmiddelen van BI zoals de Desktop van de Desktop en van Tableau. |
 | Aanvragen voor titels en privacy | Toegevoegde bericht op [ aanstaande veranderingen in het het ontstikken proces ](/help/stitching/faq.md#frequently-asked-questions) die het resultaat van privacyverzoeken zijn. |
 | **Oktober 2024** | |
 | Gedeelde apparaten | Toegevoegd a [ gebruikscase artikel ](/help/use-cases/stitching/shared-devices.md) dat context op gedeelde apparaten verstrekt, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend het stitching, en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag. |

@@ -4,9 +4,9 @@ description: Customer Journey Analytics landingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '824'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Nieuwe afgeleide veldfuncties (Math, Next of Previous, Summarize, Deduplicate) e
 
 >[!TAB  BI uitbreiding* ]
 
-De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. U kunt uw favoriete hulpmiddel van BI nu gebruiken om rapportering en dashboards tot stand te brengen die op de zelfde gegevensmeningen die de gebruikers van de Customer Journey Analytics met hun projecten van Analysis Workspace gebruiken.
+De uitbreiding van BI laat SQL toegang tot de gegevensmeningen toe die u in Customer Journey Analytics hebt bepaald. U kunt uw favoriete hulpmiddel van BI nu gebruiken om rapportering en dashboards tot stand te brengen die op de zelfde gegevensmeningen die de gebruikers van de Customer Journey Analytics met hun projecten van Analysis Workspace gebruiken. [ de gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) worden verstrekt.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

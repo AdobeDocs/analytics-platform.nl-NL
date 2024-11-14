@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 62779154e889158c62e4713a951fb3633c16d5e1
+source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Zie het [ bindende metriek van het Gebruik ](binding-dimensions-metrics.md) gebr
 
 Zie het [ summiere gegevens van het Gebruik ](summary-data.md) gebruiksgeval voor meer details.
 
+## Gebruikskwesties voor extensie BI
+
+Zie de [ BI uitbreidingsgebruiksgevallen ](bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
+
 ## Een metrische waarde maken op basis van een tekenreeksschemaveld {#string}
 
 Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders] -metrische waarde maken vanuit een [!UICONTROL Page Title] -schemaveld dat een tekenreeks is.
@@ -35,7 +39,7 @@ Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders
 1. Open de sectie **[!UICONTROL Include/Exclude Values]** en geef de volgende instellingen op:
    1. Schakel **[!UICONTROL Set include exclude values]** in.
    1. Selecteer **[!UICONTROL If all criteria are met]** in **[!UICONTROL Match]** .
-   1. Geef `confirmation` op. Deze tekst voor page_title wijst erop dat deze pagina met het plaatsen van een orde verwant is. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is nieuw metrisch (niet berekend metrisch.) Een metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt andere metrisch. Het werkt met Attribution IQ, filters, en overal anders kunt u standaardmetriek gebruiken.
+   1. Geef `confirmation` op. Deze tekst voor page_title wijst erop dat deze pagina met het plaatsen van een orde verwant is. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Het werkt met Attribution IQ, filters, en overal anders kunt u standaardmetriek gebruiken.
 
    ![ Dimension aan metrisch ](../assets/string-to-metric.gif) {width=100%}
 1. U kunt een attributiemodel voor deze metrische waarde, zoals [!UICONTROL Last Touch] , verder opgeven met een [!UICONTROL Lookback window] van [!UICONTROL Session] .
