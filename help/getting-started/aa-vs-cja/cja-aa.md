@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
+source-git-commit: 1cf7ae6635f51f0ca06cbc235032525e3d9b3fec
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2311'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 
 | Functie | Notities |
 | --- | --- |
+| **Advertising Cloud** | U kunt [ historische gegevens voor AMO IDs en EF IDs voor Gebruik in Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars) verzamelen |
 | **Waarschuwingen** | Het proces van [ het gebruiken van alarm in Customer Journey Analytics ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) is bijna identiek aan het gebruiken van alarm in Adobe Analytics. <p>Wegens het tijdstip waarop de gegevens in de Customer Journey Analytics worden verzameld, zijn uurwaarschuwingen echter niet beschikbaar. In Customer Journey Analytics, kunnen de alarm voor dagelijks, wekelijks, of maandelijks worden gevormd.</p> |
 | **Analytics voor Doel (A4T)** | De [ integratie tussen Adobe Customer Journey Analytics en Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma. |
 | **Publiek publiceren** | Wordt ondersteund als de Adobe een licentie heeft voor Customer Data Platform of Journey Optimizer-producten. [ Publiceren van het publiek ](/help/components/audiences/audiences-overview.md) verzendt publiek naar het Profiel van de Klant in real time in Experience Platform. |
@@ -127,9 +128,6 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | Functie | Notities |
 | --- | --- |
 | **Activity Map** | De steun is nog niet gepland. |
-| **Advertising Cloud** | De steun is nog niet gepland. |
-
-{style="table-layout:auto"}
 
 ## Wordt nooit ondersteund {#never}
 
