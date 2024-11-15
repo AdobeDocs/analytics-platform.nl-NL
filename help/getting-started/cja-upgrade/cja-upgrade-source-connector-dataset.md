@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d30a1a7cbe441529f5b094215c0ea1131c1f67fc
+exl-id: 424485a3-a076-4656-83b6-733f16cc2326
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,30 @@ ht-degree: 0%
 >Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+
+>[!NOTE]
+>
+>De informatie op deze pagina gaat uit van het volgende:
+>
+>* U gaat een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.
+>* U gebruikt SDK van het Web voor uw toekomstige gegevensinzameling van de Customer Journey Analytics.
+>* U wilt de de bronschakelaar van de Analyse gebruiken om uw historische gegevens van de Adobe te brengen in Customer Journey Analytics.
+
+## Begrijp hoe de de bronschakelaar van de Analyse historische gegevens in Customer Journey Analytics kan brengen
+
+U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
+
+Dit proces veronderstelt dat u een schema wilt [ tot stand brengen XDM wanneer het bevorderen aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+
+Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
+
+1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. Voeg de gegevensset van de bron van Analytics aan de verbinding toe, zoals hieronder beschreven.
+
+## Voeg de gegevensset van de bron van de Analyse aan de verbinding toe
 
 Nadat u [ een Analytics bronschakelaar voor historische gegevens ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) creeert, wordt een dataset automatisch gecreeerd voor de gegevens van Analytics.
 
@@ -68,7 +93,7 @@ Om de automatisch gecreeerde dataset aan de zelfde verbinding toe te voegen die 
 
 1. Bepaal de periode die u backfill wilt omvatten door de begin en einddata in te gaan of door het kalenderpictogram ![ Kalender ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) te selecteren.
 
-   De bronschakelaar van de Analyse voert tot 13 maanden van gegevens (ongeacht grootte) voor productiesandboxen in. De back-up van niet-productiesandboxen is beperkt tot 3 maanden.
+   De bronschakelaar van de Analyse voert 13 maanden van gegevens (ongeacht grootte) voor productiesandboxen in. De back-up van niet-productie sandboxen is 3 maanden.
 
    >[!IMPORTANT]
    >
@@ -83,4 +108,3 @@ Om de automatisch gecreeerde dataset aan de zelfde verbinding toe te voegen die 
 1. Selecteer **[!UICONTROL Add datasets]** en selecteer vervolgens **[!UICONTROL Save]** om de verbinding op te slaan.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-

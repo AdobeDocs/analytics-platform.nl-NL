@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: f96565a2-f556-4b45-b88e-984613614d2e
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -21,13 +22,23 @@ ht-degree: 0%
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
+## Begrijp hoe de de bronschakelaar van de Analyse historische gegevens in Customer Journey Analytics kan brengen
+
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
 
-De volgende stappen veronderstellen dat u een schema wilt [ tot stand brengen XDM wanneer het bevorderen aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een schema wilt [ tot stand brengen XDM wanneer het bevorderen aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
-Als uw XDM-schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken.
+Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
 
-Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.
+1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. Maak de bronconnector voor Analytics en kaartvelden, zoals hieronder wordt beschreven.
+
+1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## De bronaansluiting voor Analytics en kaartvelden maken
+
+Als uw XDM-schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
 
 Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
@@ -78,7 +89,3 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
    Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van SDK van het Web van de Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-
-
-
-

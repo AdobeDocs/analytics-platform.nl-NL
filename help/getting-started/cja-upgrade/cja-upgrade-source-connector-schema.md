@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,22 @@ ht-degree: 0%
 >Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+
+## Begrijp hoe de de bronschakelaar van de Analyse historische gegevens in Customer Journey Analytics kan brengen
+
+U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
+
+Dit proces veronderstelt dat u een schema wilt [ tot stand brengen XDM wanneer het bevorderen aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+
+Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
+
+1. Maak een XDM-schema voor de bronconnector Analytics, zoals hieronder wordt beschreven.
+
+1. [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## Maak een XDM-schema voor de bronconnector van Analytics
 
 U zou reeds [ een nieuw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) voor uw implementatie van SDK van het Web van Experience Platforms aan gebruik met Customer Journey Analytics moeten hebben gecreeerd. Dit schema moet alle veldgroepen bevatten voor velden waarop u gegevens wilt verzamelen.
 
@@ -52,4 +69,3 @@ U kunt als volgt het XDM-schema maken voor gebruik met de bronconnector Analytic
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-
