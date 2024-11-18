@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1078'
 ht-degree: 10%
 
 ---
@@ -67,6 +67,8 @@ ht-degree: 10%
       + [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [De bronaansluiting Analytics uitsluitend gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
+      + [Van de bron van Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics-gegevens gebruiken](../getting-started/aa-vs-cja/aa-data-in-cja.md)

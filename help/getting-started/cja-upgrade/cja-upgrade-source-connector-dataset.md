@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,6 @@ ht-degree: 0%
 >Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
-
->[!NOTE]
->
->De informatie op deze pagina gaat uit van het volgende:
->
->* U gaat een upgrade uitvoeren van Adobe Analytics naar Customer Journey Analytics.
->* U gebruikt SDK van het Web voor uw toekomstige gegevensinzameling van de Customer Journey Analytics.
->* U wilt de de bronschakelaar van de Analyse gebruiken om uw historische gegevens van de Adobe te brengen in Customer Journey Analytics.
 
 ## Begrijp hoe de de bronschakelaar van de Analyse historische gegevens in Customer Journey Analytics kan brengen
 

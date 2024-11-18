@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
->
->Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+>Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in de [ controlelijst van de Customer Journey Analytics verbetering ](https://gigazelle.github.io/cja-ttv/).
 
-Er zijn verschillende manieren om naar Customer Journey Analytics te upgraden, maar niet alle upgradepaden zijn beschikbaar voor elk type Adobe Analytics-implementatie. Het aanbevolen upgradepad is echter altijd beschikbaar, ongeacht de manier waarop Adobe Analytics in uw organisatie is geïmplementeerd.
+Adobe Analytics kan op verschillende manieren worden geïmplementeerd. Bij de upgrade naar de Customer Journey Analytics zijn niet alle upgradepaden beschikbaar voor alle Adobe Analytics-implementaties. Het aanbevolen upgradepad is echter altijd beschikbaar, ongeacht de manier waarop Adobe Analytics in uw organisatie is geïmplementeerd.
 
-Gebruik de onderstaande informatie om u te helpen inzicht te krijgen in uw huidige Adobe Analytics-implementatie en welke upgradepaden beschikbaar zijn voor uw organisatie.
+Gebruik de onderstaande informatie voor meer informatie over uw huidige Adobe Analytics-implementatie en over de upgradepaden die beschikbaar zijn voor uw organisatie.
 
 Neem contact op met uw Adobe als u meer specifiek advies, advies of ondersteuning nodig hebt.
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -90,14 +90,6 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. (Optioneel) Als u Customer Journey Analytics wilt integreren met Adobe Journey Optimizer, gebruikt u het aanpassingsobject in uw implementatie voor gebruik in Adobe Journey Optimizer.
 
-1. (Optioneel) Breng historische gegevens van Adobe Analytics met behulp van de bronconnector Analytics:
-
-   1. [ creeer een schema voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
-
-   1. [ creeer de de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-   1. [ voeg de gegevensset van de bron van Analytics aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toe.
-
 1. Breid de sectie uit die beschrijft hoe u het Web SDK van het Experience Platform voor uw implementatie van de Customer Journey Analytics wilt uitvoeren, dan de bijbehorende stappen voltooien:
 
    +++Handmatige implementatie (JS-bestand)
@@ -135,6 +127,20 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 1. [ creeer een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
 1. [ bevestigt dat het gegeven in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md) stroomt.
+
+1. (Optioneel) Breng historische gegevens van Adobe Analytics met behulp van de bronconnector Analytics:
+
+   >[!NOTE]
+   >
+   >Gebruik de volgende stappen als u nog geen bronconnector voor Analytics hebt gemaakt.
+   >
+   >Als u reeds de Analytics bronschakelaar met Customer Journey Analytics gebruikt, volg de stappen in [ beweging van de Analytics bronschakelaar aan het Web SDK voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+
+   1. [ creeer een schema XDM voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
+
+   1. [ creeer de de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [ voeg de gegevensset van de bron van Analytics aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toe.
 
 1. [ Migreer projecten en componenten ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
