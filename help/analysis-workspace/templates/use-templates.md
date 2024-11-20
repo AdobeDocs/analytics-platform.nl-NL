@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9f2f79e264d9cdd460751c50fe252bb7237682fd
+exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
+source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
 workflow-type: tm+mt
-source-wordcount: '13205'
+source-wordcount: '15294'
 ht-degree: 0%
 
 ---
@@ -523,14 +524,14 @@ De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Eerste vs Herhaal Gebruikers**] | Een vergelijking weergeven van nieuwe bezoekers die voor het eerst bezoekers willen herhalen. <p>**dit kan u helpen** beter begrijpen de doeltreffendheid van uw plaats in het behouden van klantenloyaliteit, of het tarief waartegen u nieuwe klanten verwerft.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als aansporingen voor toekomstige aankopen aan eerste-tijdbezoekers aanbieden om hen te dwingen terug te keren.</p><p>Deze sjabloon gebruikt de </p> |
-| **Identiteitskaart van de Persoon/Namespace** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de  </p> |
-| **Overzicht van de Plaats** | Bekijk een overzicht van de locatie van de bezoeker in een kaartvisualisatie.<p>**dit kan u helpen** beter begrijpen waar de bezoekers worden gevestigd die uw plaats bezoeken. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing middelen in de plaatsen waar u de meeste interesse en de kans ziet.</p><p>Deze sjabloon gebruikt de  </p> |
+| [!UICONTROL **Eerste vs Herhaal Gebruikers**] | Een vergelijking weergeven van nieuwe bezoekers die voor het eerst bezoekers willen herhalen. <p>**dit kan u helpen** beter begrijpen de doeltreffendheid van uw plaats in het behouden van klantenloyaliteit, of het tarief waartegen u nieuwe klanten verwerft.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als aansporingen voor toekomstige aankopen aan eerste-tijdbezoekers aanbieden om hen te dwingen terug te keren.</p><!-- This template uses the --> |
+| **Identiteitskaart van de Persoon/Namespace** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><!-- This template uses the --> |
+| **Overzicht van de Plaats** | Bekijk een overzicht van de locatie van de bezoeker in een kaartvisualisatie.<p>**dit kan u helpen** beter begrijpen waar de bezoekers worden gevestigd die uw plaats bezoeken. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing middelen in de plaatsen waar u de meeste interesse en de kans ziet.</p><!-- This template uses the --> |
 | **Geo Landen** | Bekijk het land van oorsprong van de bezoekers van de site.<p>**dit kan u** helpen beter begrijpen wat de populairste landbezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze landen te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in landen is die verschillende primaire talen hebben.</p><p>In deze sjabloon wordt de landendimensie gebruikt. </p> |
 | **Geo de Staten van de V.S.** | Bekijk de staat (in de Verenigde Staten) waaruit mensen die de site bezoeken, zijn ontstaan. Dit is vergelijkbaar met de Geo Regions template, behalve dat deze specifiek is voor de Verenigde Staten.<p>**dit kan u** helpen beter begrijpen de populairste staten van de V.S. bezoekers van wie uw plaats bezoeken voortkomen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze staten te concentreren.</p><p>Deze sjabloon gebruikt de Amerikaanse dimensie Staten. </p> |
 | **Geo Gebieden** | Bekijk het geografische gebied van waaruit de bezoekers van de site afkomstig zijn. Een regio is een geografisch gebied dat kleiner is dan een land maar groter dan een stad. In sommige landen is een regio een staat, provincie of prefectuur. In andere gebieden is het een deelland, afdeling of metropolitane regio. <p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze gebieden te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in gebieden is die verschillende primaire talen hebben. </p><p>Deze sjabloon gebruikt de afmetingen ID(variabelen/geocountry) en Gebieden. </p> |
-| **Geo Steden** | Bekijk de stad van waar mensen die de site bezoeken, vandaan komen. <p>**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. </p><p>Deze sjabloon gebruikt de dimensie Steden </p> |
-| **Geo US DMA** | Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn.<p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. </p><p>Deze sjabloon gebruikt de </p> |
+| **Geo Steden** | Bekijk de stad van waar mensen die de site bezoeken, vandaan komen. <p>**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. </p><p>Deze sjabloon gebruikt de dimensie Steden. </p> |
+| **Geo US DMA** | Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn.<p>**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. </p><!-- This template uses the --> |
 | **Talen** | Bekijk de bovenste talen waarin bezoekers inhoud liever zien. <p>**dit kan u helpen** beter de vaakst aangewezen talen van bezoekers begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de inspanningen van de focuslokalisatie of marketing voor de populairste talen.</p><p>Deze sjabloon gebruikt de taaldimensie.</p> |
 | **Overzicht van de Technologie** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de </p> |
 | **Browsers** | Bekijk de naam en versie van de bovenste browsers die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u helpen** beter begrijpen de gemeenschappelijkste browsers die bezoekers gebruiken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.</p><p>Deze sjabloon gebruikt de browserdimensie. </p> |
@@ -708,12 +709,14 @@ De volgende sjablonen zijn beschikbaar:
 
 ### Mobiel: mobiele toepassing {#mobile-app}
 
+<!-- add contextual help for Mobile app screens and mobile app actions -->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-lifecycle-metrics-app-usage-template"
->title="Gebruik van mobiele apps"
->abstract=""
+>title="Bekijk het aantal gebruikers, startende gebruikers en wordt de app voor het eerst gestart, plus de gemiddelde sessielengte."
+>abstract="**dit kan u** helpen beter begrijpen hoeveel uw app wordt gebruikt. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als toepassingsprestaties verbeteren zodat kan het aan de hoeveelheid gebruik schrapen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -721,8 +724,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-journeys"
->title="Mobiele app-reizen"
->abstract=""
+>title="Bekijk de opvallende gebruikspatronen voor uw mobiele app."
+>abstract="**dit kan u** helpen beter begrijpen hoe de mensen uw app gebruiken. <br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren hoe de mensen van één scherm aan een andere kunnen krijgen om de gemeenschappelijkste werkschema&#39;s te richten."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -730,8 +733,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-key-metrics"
->title="Metrische mobiele apps"
->abstract=""
+>title="Bekijk enkele van de meest gangbare maatstaven voor mobiele apps."
+>abstract="**dit kan u** helpen basisprestaties van uw mobiele app beter begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de algemene gezondheid en de prestaties van uw app beoordelen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -739,8 +742,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-messaging"
->title="Mobiele app-berichten"
->abstract=""
+>title="Geef prestatiegegevens weer voor berichten in de app en pushberichten voor uw app."
+>abstract="**dit kan u** helpen beter begrijpen hoe de mensen in-app overseinenmogelijkheden gebruiken, evenals hoe effectief duwen berichten verkeer aan uw app drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren de ervaring van het in-app overseinenpushbericht."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -748,8 +751,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-performance-template"
->title="Prestaties van mobiele apps"
->abstract=""
+>title="Bekijk hoe uw app presteert en waar gebruikers problemen ondervinden."
+>abstract="**dit kan u helpen** beter begrijpen als de mensen die uw app gebruiken langzame of degraded prestaties tegenkomen. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als moeilijke situatie bestaande kwesties of verbetert app prestaties alvorens de kwesties voorkomen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -757,8 +760,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-retention"
->title="Behoud van mobiele apps"
->abstract=""
+>title="Bekijk welke gebruikers de meest loyale gebruikers van uw app zijn en wat ze in de app doen."
+>abstract="**dit kan u helpen** beter begrijpen hoe uw meest loyale gebruikers uw app gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing inspanningen voor de eigenschappen verbeteren die uw meest loyale gebruikers gebruiken."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -766,14 +769,14 @@ De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Mobiele App Screens**] | Informatie weergeven over de mobiele schermen die mensen gebruiken bij het openen van uw site, zoals schermgrootte, schermbreedte en schermhoogte. <p>**dit kan u helpen** beter begrijpen hoe de mensen uw plaats ervaren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste het schermgrootte.</p><p>Deze sjabloon gebruikt de |
-| **Mobiele Acties van de Toepassing** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiel App Gebruik** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiele Reizen van de Toepassing** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiele Metriek van de Toepassing** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiel App Overseinen** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiele App Prestaties** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Mobiele Toepassing Behoud** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
+| [!UICONTROL **Mobiele App Screens**] | Bekijk het aantal gebeurtenissen, sessies en personen dat aan elk scherm op de mobiele app is gekoppeld.<p>**dit kan u** helpen beter begrijpen welke schermen op uw plaats het populairst zijn.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als inhoud op de populairste schermen verbeteren.</p><p>Deze sjabloon gebruikt de metriek voor gebeurtenissen, sessies, personen en percentage. Ook wordt de dimensie Paginatitel gebruikt.</p> |
+| **Mobiele Acties van de Toepassing** | Bekijk de acties die mensen uitvoeren op uw mobiele app. <p>**dit kan u helpen** beter begrijpen hoe de mensen uw app en de waarde gebruiken zij uit het krijgen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als ontwikkelt eigenschappen die aanvullen of op die verbeteren die het populairst zijn.</p><p>Deze sjabloon gebruikt de metriek voor gebeurtenissen, sessies, personen en percentage. |
+| **Mobiel App Gebruik** | Bekijk het aantal gebruikers, startende gebruikers en wordt de app voor het eerst gestart, plus de gemiddelde sessielengte.<p>**dit kan u** helpen beter begrijpen hoeveel uw app wordt gebruikt. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als toepassingsprestaties verbeteren zodat kan het aan de hoeveelheid gebruik schrapen.</p><!-- This template uses the --> |
+| **Mobiele Reizen van de Toepassing** | Bekijk de opvallende gebruikspatronen voor uw mobiele app. <p>**dit kan u** helpen beter begrijpen hoe de mensen uw app gebruiken. </p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren hoe de mensen van één scherm aan een andere kunnen krijgen om de gemeenschappelijkste werkschema&#39;s te richten. </p><!-- This template uses the --> |
+| **Mobiele Metriek van de Toepassing** | Bekijk enkele van de meest gangbare maatstaven voor mobiele apps. <p>**dit kan u** helpen basisprestaties van uw mobiele app beter begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de algemene gezondheid en de prestaties van uw app beoordelen.</p><!-- This template uses the --> |
+| **Mobiel App Overseinen** | Geef prestatiegegevens weer voor berichten in de app en pushberichten voor uw app.<p>**dit kan u** helpen beter begrijpen hoe de mensen in-app overseinenmogelijkheden gebruiken, evenals hoe effectief duwen berichten verkeer aan uw app drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren de ervaring van het in-app overseinenpushbericht.</p><!-- This template uses the --> |
+| **Mobiele App Prestaties** | Bekijk hoe uw app presteert en waar gebruikers problemen ondervinden. <p>**dit kan u helpen** beter begrijpen als de mensen die uw app gebruiken langzame of degraded prestaties tegenkomen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als moeilijke situatie bestaande kwesties of verbetert app prestaties alvorens de kwesties voorkomen.</p><!-- This template uses the --> |
+| **Mobiele Toepassing Behoud** | Bekijk welke gebruikers de meest loyale gebruikers van uw app zijn en wat ze in de app doen. <p>**dit kan u helpen** beter begrijpen hoe uw meest loyale gebruikers uw app gebruiken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing inspanningen voor de eigenschappen verbeteren die uw meest loyale gebruikers gebruiken.</p><!-- This template uses the --> |
 
 ### Mobiel: informatie over mobiele apparaten {#mobile-devices}
 
@@ -822,45 +825,170 @@ De volgende sjablonen zijn beschikbaar:
 | **Mobiel Type van Apparaat** | Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets.<p>**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.</p><p>Deze sjabloon gebruikt de dimensie Mobiel apparaattype.</p> |
 | **Fabrikant** | Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung.<p>**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele fabrikant.</p> |
 
-### Tijd delen
+### Tijd delen {#time-parting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--minuteOfHour"
+>title="Bekijk het aantal gebeurtenissen, sessies en personen op uw site, opgesplitst per minuut. Bijvoorbeeld, als u een rapport met een rapporteringstimeframe van één enkele dag hebt, wordt de eerste minuut van elk uur in de dag gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u helpen** beter tendensen op een korrelig niveau begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer middelen voor piektijden, neer aan de minuut.<br/> Dit malplaatje gebruikt het Minuut van de afmeting van het Uur."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--hourOfDay"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar uur van de dag. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, wordt het eerste uur van elke dag gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u helpen** beter de tijd van dag begrijpen wanneer uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.<br/> Dit malplaatje gebruikt de dimensie van het Uur van Dag."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--am-pm"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar AM en PM. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, worden de uren AM van elke dag gegroepeerd in het zelfde afmetingspunt."
+>abstract="***dit kan u helpen** beter begrijpen de tijd van dag wanneer uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.<br/> Dit malplaatje gebruikt de dimensie AM/PM."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfWeek"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de week. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspant, wordt elke dag van de week gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke dagen van de week uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.<br/> Dit malplaatje gebruikt de dimensie van de Dag van Week."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfMonth"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de maand. Bijvoorbeeld, als u een rapport hebt dat een volledig jaar overspant, wordt elke dag van de maand gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke dagen van elke maand uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.<br/> Dit malplaatje gebruikt de dimensie van de Dag van Maand."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfYear"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke dag van het jaar gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke dagen van elk jaar uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.<br/> Dit malplaatje gebruikt de dimensie van Dag van Jaar."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekdayWeekend"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar weekdagen en weekends. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspannen, worden de weekdagen en weekends gegroepeerd in afzonderlijke afmetingspunten."
+>abstract="**dit kan u helpen** beter de verschillen in plaatsverkeer voor weekdagen tegenover weekends begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum zwaarder op weekends, als het rapport erop wijst dat de weekends meer dan weekdagen zijn.<br/> Dit malplaatje gebruikt de dimensie Weekday/Weekend."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekOfYear"
+>title="Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar week van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke week gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke weken van het jaar uw plaats het vaakst en minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersweken, zoals tijdens de vakanties.<br/> Dit malplaatje gebruikt de Week van de dimensie van het Jaar."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--monthOfYear"
+>title="Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar maand van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke maand gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke maanden uw plaats het vaakst en het minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersmaanden, zoals tijdens de vakanties.<br/> Dit malplaatje gebruikt de Maand van de afmeting van het Jaar."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--quarterOfYear"
+>title="Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar kwart van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elk kwartaal gegroepeerd in het zelfde afmetingspunt."
+>abstract="**dit kan u** helpen beter begrijpen welke kwarten uw plaats het vaakst en het minst vaak wordt bezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals tijd de lancering van producten om historisch laag-verkeerskwarten op te voeren.<br/> Dit malplaatje gebruikt het Kwartaal van de afmeting van het Jaar."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Minuut van Uur**] | Bekijk het aantal gebeurtenissen, sessies en personen op uw site, opgesplitst per minuut. Bijvoorbeeld, als u een rapport met een rapporteringstimeframe van één enkele dag hebt, wordt de eerste minuut van elk uur in de dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter tendensen op een korrelig niveau begrijpen.</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt het Minuut van de dimensie van het Uur. |
-| **Uur van Dag** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar uur van de dag. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, wordt het eerste uur van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter de tijd van dag begrijpen wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie Uur van Dag. |
-| **AM/PM** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar AM en PM. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, worden de uren AM van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter begrijpen de tijd van dag wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie AM/PM. |
-| **Dag van Week** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de week. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspant, wordt elke dag van de week gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van de week uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van de Week. |
-| **Dag van Maand** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de maand. Bijvoorbeeld, als u een rapport hebt dat een volledig jaar overspant, wordt elke dag van de maand gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elke maand uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Maand. |
-| **Dag van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke dag van het jaar gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elk jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Jaar. |
-| **Weekdag/Weekend** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar weekdagen en weekends. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspannen, worden de weekdagen en weekends gegroepeerd in afzonderlijke afmetingspunten. <p>**dit kan u helpen** beter de verschillen in plaatsverkeer voor weekdagen tegenover weekends begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum zwaarder op weekends, als het rapport erop wijst dat de weekends meer dan weekdagen zijn.</p><p>Deze sjabloon gebruikt de dimensie Weekdag/Weekend. |
-| **Week van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar week van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke week gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke weken van het jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersweken, zoals tijdens de vakanties.</p><p>Deze sjabloon gebruikt de Week van Jaar dimensie. |
-| **Maand van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar maand van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke maand gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke maanden uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersmaanden, zoals tijdens de vakanties.</p><p>In deze sjabloon wordt de maand van het jaar gebruikt. |
-| **Kwartaal van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar kwart van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elk kwartaal gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke kwarten uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals tijd de lancering van producten om historisch laag-verkeerskwarten op te voeren.</p><p>Deze sjabloon gebruikt de dimensie Kwartaal van jaar. |
+| [!UICONTROL **Minuut van Uur**] | Bekijk het aantal gebeurtenissen, sessies en personen op uw site, opgesplitst per minuut. Bijvoorbeeld, als u een rapport met een rapporteringstimeframe van één enkele dag hebt, wordt de eerste minuut van elk uur in de dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter tendensen op een korrelig niveau begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer middelen voor piektijden, neer aan de minuut.</p><p>Deze sjabloon gebruikt het Minuut van de dimensie van het Uur.</p> |
+| **Uur van Dag** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar uur van de dag. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, wordt het eerste uur van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter de tijd van dag begrijpen wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie Uur van Dag.</p> |
+| **AM/PM** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar AM en PM. Bijvoorbeeld, als u een rapport hebt dat 1 Januari - 7 overspant, worden de uren AM van elke dag gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u helpen** beter begrijpen de tijd van dag wanneer uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer gegevensverwerkingsmiddelen aan uw plaats tijdens hoog-verkeersuren toewijzen.</p><p>Deze sjabloon gebruikt de dimensie AM/PM.</p> |
+| **Dag van Week** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de week. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspant, wordt elke dag van de week gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van de week uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van de Week.</p> |
+| **Dag van Maand** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van de maand. Bijvoorbeeld, als u een rapport hebt dat een volledig jaar overspant, wordt elke dag van de maand gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elke maand uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Maand.</p> |
+| **Dag van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar dag van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke dag van het jaar gegroepeerd in het zelfde afmetingspunt. <p>**dit kan u** helpen beter begrijpen welke dagen van elk jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersdagen.</p><p>Deze sjabloon gebruikt de dimensie Dag van Jaar.&lt;/> |
+| **Weekdag/Weekend** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar weekdagen en weekends. Bijvoorbeeld, als u een rapport hebt dat de maand van Januari overspannen, worden de weekdagen en weekends gegroepeerd in afzonderlijke afmetingspunten. <p>**dit kan u helpen** beter de verschillen in plaatsverkeer voor weekdagen tegenover weekends begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum zwaarder op weekends, als het rapport erop wijst dat de weekends meer dan weekdagen zijn.</p><p>Deze sjabloon gebruikt de dimensie Weekdag/Weekend.</p> |
+| **Week van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar week van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke week gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke weken van het jaar uw plaats het vaakst en minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersweken, zoals tijdens de vakanties.</p><p>Deze sjabloon gebruikt de Week van Jaar dimensie.</p> |
+| **Maand van Jaar** | Gebeurtenissen, sessies en personen op uw site weergeven, uitgesplitst naar maand van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elke maand gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke maanden uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als personeel uw vraagcentrum geschikter voor hoog-verkeersmaanden, zoals tijdens de vakanties.</p><p>In deze sjabloon wordt de maand van het jaar gebruikt.</p> |
+| **Kwartaal van Jaar** | Bekijk gebeurtenissen, sessies en personen op uw site, uitgesplitst naar kwart van het jaar. Bijvoorbeeld, als u een rapport hebt dat veelvoudige jaren overspant, wordt elk kwartaal gegroepeerd in het zelfde afmetingspunt.<p>**dit kan u** helpen beter begrijpen welke kwarten uw plaats het vaakst en het minst vaak wordt bezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals tijd de lancering van producten om historisch laag-verkeerskwarten op te voeren.</p><p>Deze sjabloon gebruikt de dimensie Kwartaal van jaar.</p> |
 
-### Kanaal overschrijden
+### Kanaal overschrijden {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--multiChannelOverview"
+>title="Bekijk de distributie van verkeer over veelvoudige kanalen."
+>abstract="**dit kan u** helpen beter begrijpen welke kanalen met succes verkeer en overeenkomst drijven. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de kanalen die het hoogste rendement op investering bereiken.<br/> Dit malplaatje gebruikt de gebruiker, de zitting, en gebeurtenismetriek."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--callCenterDeflection"
+>title="Bekijk hoe het Webverkeer het verkeer van het vraagcentrum beïnvloedt."
+>abstract="**dit kan u helpen** beter begrijpen hoe met succes de zelfbediening inhoud op uw website verkeer aan uw vraagcentrum afleidt.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zelfbediening inhoud verbeteren om verkeer aan uw vraagcentrum te verminderen, of ROI van uw zelfbediening inhoud te meten door het bedrag te berekenen dat door minder steunvraag wordt bewaard.<br/> dit malplaatje gebruikt de Sessies van het Web, Mobiele Toepassingen, en Web+App de metriek van de Zittingen van het Kanaal."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--webAppTemplate"
+>title="Bekijk het webverkeer en het mobiele verkeer samen."
+>abstract="**dit kan u helpen** beter de distributie van Web en mobiel verkeer aan uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw mobiele toepassingservaring wijden wanneer het een bepaald niveau van verkeer bereikt.<br/> dit malplaatje gebruikt de Sessies van het Web, Mobiele Toepassingen, en Web+App de metriek van de Zittingen van het Kanaal."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--onlineOffline"
+>title="Online en offline verkeer samen weergeven."
+>abstract="**dit kan u helpen** beter de distributie van online en off-line verkeer aan uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw online ervaring wijden wanneer het een bepaald niveau van verkeer bereikt."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Meerkanaals Overzicht**] | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Vergelijking over het Kanaal 1}** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Vervorming van het Centrum van de Vraag (Centrum Web+Call)** | Bekijk hoe het Webverkeer het verkeer van het vraagcentrum beïnvloedt.<p>**dit kan u helpen** beter begrijpen hoe met succes de zelfbediening inhoud op uw website verkeer aan uw vraagcentrum afleidt.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zelfbediening inhoud verbeteren om verkeer aan uw vraagcentrum te verminderen, of ROI van uw zelfbediening inhoud te meten door het bedrag te berekenen dat door minder steunvraag wordt bewaard.</p><p>Deze sjabloon gebruikt de |
-| **Web+App** | Bekijk het webverkeer en het mobiele verkeer samen.<p>**dit kan u helpen** beter de distributie van Web en mobiel verkeer aan uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw mobiele toepassingservaring wijden wanneer het een bepaald niveau van verkeer bereikt.</p><p>Deze sjabloon gebruikt de |
-| **Online/Off-line** | Online en offline verkeer samen weergeven.<p>**dit kan u helpen** beter de distributie van online en off-line verkeer aan uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw online ervaring wijden wanneer het een bepaald niveau van verkeer bereikt.</p><p>Deze sjabloon gebruikt de |
+| [!UICONTROL **Meerkanaals Overzicht**] | Bekijk de distributie van verkeer over veelvoudige kanalen. <p>**dit kan u** helpen beter begrijpen welke kanalen met succes verkeer en overeenkomst drijven. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de kanalen die het hoogste rendement op investering bereiken.</p><p>Deze sjabloon gebruikt de metriek van gebruiker, sessie en gebeurtenis.</p> |
+| **Vervorming van het Centrum van de Vraag (Centrum Web+Call)** | Bekijk hoe het Webverkeer het verkeer van het vraagcentrum beïnvloedt.<p>**dit kan u helpen** beter begrijpen hoe met succes de zelfbediening inhoud op uw website verkeer aan uw vraagcentrum afleidt.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zelfbediening inhoud verbeteren om verkeer aan uw vraagcentrum te verminderen, of ROI van uw zelfbediening inhoud te meten door het bedrag te berekenen dat door minder steunvraag wordt bewaard.</p><p>Deze sjabloon gebruikt de metriek Websessies, Mobiele App-sessies en Web+App voor verschillende sessies.</p> |
+| **Web+App** | Bekijk het webverkeer en het mobiele verkeer samen.<p>**dit kan u helpen** beter de distributie van Web en mobiel verkeer aan uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw mobiele toepassingservaring wijden wanneer het een bepaald niveau van verkeer bereikt.</p><p>Deze sjabloon gebruikt de metriek Websessies, Mobiele App-sessies en Web+App voor verschillende sessies.</p> |
+| **Online/Off-line** | Online en offline verkeer samen weergeven.<p>**dit kan u helpen** beter de distributie van online en off-line verkeer aan uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw online ervaring wijden wanneer het een bepaald niveau van verkeer bereikt.</p><!-- This template uses the ... --> |
 
-### Andere kanalen
+### Andere kanalen {#other-channels}
 
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Dashboard van het Centrum van de Vraag**] | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **POS/Off-line** | POS (point-of-sale) en offline transactiegegevens weergeven.<p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
+| **POS/Off-line** | Transactiegegevens van verkooppunten weergeven, inclusief verdiende inkomsten, uitgevoerde orders en verkochte eenheden. Deze sjabloon bevat ook visualisaties die informatie weergeven over winkels, producten van topniveau en de belangrijkste productcategorieën, en ook online versus offline verkoop. <p>**dit kan u** helpen beter begrijpen welke uw top-verkopende producten over opslagplaats en online zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer marketing middelen aan uw best-presterende producten en kanalen toewijzen.</p><p>In deze sjabloon worden de metriek Gebruikers, Opbrengsten en Bestellingen gebruikt.</p> |
 | **E-mail/AJO** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
-| **Onderzoek** | <p>**dit kan u helpen** beter begrijpen</p><p>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen, als kunnen doen </p><p>Deze sjabloon gebruikt de |
+| **Onderzoek** | Bekijk de betrokkenheid van gebruikers voor uw enquêtes. Bekijk het aantal start- en voltooiingsopdrachten, de bovenste vragen en antwoorden en het aantal eerste versus vorige deelnemers.<p>**dit kan u** helpen de betrokkenheidsniveaus en het succestarief van uw onderzoeken beter begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als toekomstige onderzoeken aanpassen om betere participatie te produceren.</p><p>In deze sjabloon worden de volgende cijfers gebruikt: Gebruikers, Gebeurtenissen, Begin van enquête, Voltooien van enquête en Eindpercentage van enquête.</p> |
 
 ### AJO {#AJO-templates}
 
@@ -868,8 +996,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-campaign"
->title="AJO-campagnes"
->abstract=""
+>title="Bekijk essentiële gegevens voor uw Journey Optimizer-campagnes, zoals e-mailcampagnes, experimenten, in-app, SMS en meer."
+>abstract="**dit kan u helpen** beter details zoals het aantal kliks en het aantal geleverde berichten begrijpen, die een uitvoerig inzicht in de doeltreffendheid van uw campagne en niveau van overeenkomst aanbieden.<br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -877,8 +1005,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-journey"
->title="AJO-reizen"
->abstract=""
+>title="Bekijk essentiële gegevens voor uw Journey Optimizer-reizen, zoals e-mailreizen, experimenten, in-app, SMS en meer."
+>abstract="**dit kan u helpen** beter details zoals het aantal kliks en aantal geleverde berichten begrijpen, die een uitvoerig inzicht in de doeltreffendheid van uw reis en niveau van overeenkomst aanbieden.<br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -886,8 +1014,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
->title="AJO-openingspagina&#39;s"
->abstract=""
+>title="Bekijk gebruikersgedrag, betrokkenheidspatronen, conversietarieven en andere belangrijke meetgegevens."
+>abstract="**dit kan u helpen** beter de doeltreffendheid van uw het landen pagina begrijpen. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw het landen paginaprestaties."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -895,8 +1023,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
->title="Overzicht AJO-rapport"
->abstract=""
+>title="Bekijk een uitgebreide samenvatting van verkeers- en betrokkenheidsgegevens voor alle campagnes en reizen binnen uw omgeving."
+>abstract="**dit kan u helpen** beter de doeltreffendheid op hoog niveau van uw campagnes en reizen begrijpen. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes en reizen aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -904,8 +1032,8 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
->title="AJO-abonnementen"
->abstract=""
+>title="Abonnementen en abonnementen van profielen voor bepaalde lijsten weergeven."
+>abstract="**dit kan u** helpen beter de doeltreffendheid van verschillende abonnementscampagnes en initiatieven in het drijven overeenkomst en omzettingen begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw abonnementscampagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd."
 
 <!-- markdownlint-enable MD034 -->
 
