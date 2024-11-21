@@ -3,10 +3,11 @@ description: Hoe te om de vragen van de gegevensanalyse van de documentatie van 
 title: AI-assistent voor gegevensanalyse in Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: cc743d74a98dae9029654add65d3e685320fe9f3
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
@@ -150,7 +151,7 @@ Hier volgen enkele voorbeelden van veelvoorkomende vragen en van de visualisatie
 
 ## Aankondiging van aanbevolen procedures
 
-De AI Medewerker verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie evenals componenten in een vrije vormlijst te antwoorden. De reactie van de AI Assistant kan echter variëren op basis van de specifieke woorden en uitdrukkingen die worden gebruikt bij een prompt, zodat kleine taalwijzigingen tot verschillende resultaten kunnen leiden. Hieronder wordt beschreven hoe u het beste kunt maken: <ul><li>Wees specifiek: neem exacte termen op (zoals &quot;verkoop vorige maand in Californië&quot;) om de reactie te beperken.</li><li>Gebruik Metriek en filters wissen: wanneer u specifieke maatstaven toevoegt (zoals &quot;Opbrengst&quot;), afmetingen (bijvoorbeeld &quot;Websitenaam&quot;), filters (zoals &quot;iPhone-gebruikers&quot;) en datumbereiken (zoals &quot;Laatste drie maanden&quot;), kan de AI-assistent zich concentreren op de juiste gegevens.</li><li>Rechtstreekse vragen stellen: Rechtstreeks vragen, zoals &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot; maakt het voor de AI Assistant gemakkelijker om duidelijke, relevante inzichten te verschaffen.</li></ul>
+De AI Medewerker verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie evenals componenten in een vrije vormlijst te antwoorden. De reactie van de AI Assistant kan echter variëren op basis van de specifieke woorden en uitdrukkingen die worden gebruikt bij een prompt, zodat kleine taalwijzigingen tot verschillende resultaten kunnen leiden. Hier is hoe u er optimaal gebruik van kunt maken: <ul><li>Wees specifiek: neem exacte termen op (zoals &quot;verkoop vorige maand in Californië&quot;) om de reactie te beperken.</li><li>Gebruik Metriek en filters wissen: wanneer u specifieke maatstaven toevoegt (zoals &quot;Opbrengst&quot;), afmetingen (bijvoorbeeld &quot;Websitenaam&quot;), filters (zoals &quot;iPhone-gebruikers&quot;) en datumbereiken (zoals &quot;Laatste drie maanden&quot;), kan de AI-assistent zich concentreren op de juiste gegevens.</li><li>Rechtstreekse vragen stellen: Rechtstreeks vragen, zoals &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot; maakt het voor de AI Assistant gemakkelijker om duidelijke, relevante inzichten te verschaffen.</li></ul>
 
 Lees de onderstaande tabel met voorbeeldtermen en woordgroepen die u kunt gebruiken bij aanwijzingen voor gegevensvisualisatie in AI Assistant, samen met de soorten reacties die u kunt verwachten. Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. Houd er rekening mee dat de AI-assistent gebruikmaakt van Generative AI, zodat de visualisaties of geselecteerde gegevens enigszins kunnen variëren voor verschillende, vergelijkbare aanwijzingen.
 
