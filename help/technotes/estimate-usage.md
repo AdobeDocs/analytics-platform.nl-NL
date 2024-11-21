@@ -4,9 +4,9 @@ description: Toont twee methodes om gebruik en één methode te schatten om het 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
+source-git-commit: 191d1b7a4b851e93a44487dad4794709cbbd0374
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Om het gebruik van uw Customer Journey Analytics te beheren:
 ## De verbindingsgrootte schatten {#estimate-size}
 
 Mogelijk moet u weten hoeveel rijen met gebeurtenisgegevens u momenteel in [!UICONTROL Customer Journey Analytics] hebt. Om een nauwkeurige rekening van de de gebeurtenisgegevensverslagen van uw organisatie (gegevensrijen) gebruik te krijgen, doe het volgende **voor elk van de verbindingen die door uw organisatie** worden gecreeerd.
-
->[!NOTE]
->
->Doe dit op de eerste vrijdag van elke maand, aangezien de Adobe uw recentste gebruiksrapport op die dag in werking stelt.
 
 1. Klik in [!UICONTROL Customer Journey Analytics] op de tab **[!UICONTROL Connections]** .
 
