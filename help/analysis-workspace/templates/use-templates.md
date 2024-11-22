@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
+source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
-source-wordcount: '15294'
+source-wordcount: '15370'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,17 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. In Analysis Workspace, selecteer [!UICONTROL **Workspace**] tabel.
 
-1. Selecteer [!UICONTROL **Malplaatjes**].
+   ![ lusjes van Malplaatjes ](assets/view-prebuilt-templates.png)
 
-   ![ het lusje van Rapporten ](assets/view-prebuilt-reports.png)
+1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
+
+   * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door de Adobe worden aangeboden.
+
+   * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor in uw organisatie zijn gecreeerd.
+
+     De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd.
+
+1. Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of van de kaartmening ![ van de kaartmening ](assets/card-view-icon.png) te selecteren.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen.
 
@@ -61,19 +69,19 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. Selecteer het malplaatje om een rapport tot stand te brengen dat op het malplaatje wordt gebaseerd u koos.
 
-## Een sjabloon aanpassen en opslaan {#use-reports}
+## Een project maken op basis van een sjabloon {#use-reports}
 
-Een sjabloon past mogelijk niet precies aan uw wensen aan, maar het kan u sluiten. In deze gevallen kunt u de sjabloon gebruiken als beginpunt en vervolgens aanpassen aan uw specifieke doelen.
+Een sjabloon past mogelijk niet precies aan uw wensen aan, maar het kan u sluiten. In deze gevallen kunt u de sjabloon gebruiken als beginpunt voor uw project en deze vervolgens aanpassen aan uw specifieke doelen.
 
 Als u na het aanbrengen van wijzigingen weg navigeert van een sjabloon, wordt u gevraagd om de wijzigingen op te slaan of te negeren. Als u wijzigingen in een sjabloon opslaat, wordt de sjabloon als een nieuw project opgeslagen.
 
-Een sjabloon aanpassen en opslaan:
+Een sjabloon aanpassen en opslaan als project:
 
 1. In Adobe Analytics, selecteer [!UICONTROL **Workspace**] tabel.
 
 1. Selecteer de [!UICONTROL **Malplaatjes**] tabel.
 
-1. Selecteer de sjabloon die u wilt weergeven. Bijvoorbeeld, onder [!UICONTROL **het populairste**], selecteer het [!UICONTROL **pagina&#39;s**] rapport.
+1. Selecteer de sjabloon die u wilt weergeven. Bijvoorbeeld, onder [!UICONTROL **het populairste**], selecteer het [!UICONTROL **malplaatje van Pagina&#39;s**].
 
    Het malplaatje van Pagina&#39;s, zoals getoond in Analysis Workspace, toont twee [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([ grafiek van de Bar ](/help/analysis-workspace/visualizations/bar.md) en [ Samenvattingsaantal ](/help/analysis-workspace/visualizations/summary-number-change.md)) en a [ lijst van de Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De gebruikte metrische waarde is Voorvallen.
 
@@ -82,7 +90,7 @@ Een sjabloon aanpassen en opslaan:
 1. Voer een van de volgende handelingen uit:
 
    * De sjabloon weergeven.
-   * Sleep een of meer segmenten naar de neerzetzone Segment bovenaan. Bijvoorbeeld, sleep de segment [!UICONTROL **Mobiele Klanten**] en bekijk de resultaten.
+   * Sleep een of meer filters naar de neerzetzone van het filter bovenaan. Bijvoorbeeld, sleep de filter [!UICONTROL **Mobiele Klanten**] en bekijk de resultaten.
    * Wijzig het datumbereik door naar de kalender in de rechterbovenhoek te gaan.
    * Voeg afmetingsonderverdelingen toe, sleep in andere metriek, en pas over het algemeen het malplaatje aan uw behoeften aan.
 
