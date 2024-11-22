@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Cust
 
 1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. Als u reeds geen Analytics bronschakelaar hebt, [ creeer de Analytics bronschakelaar en kaartgebieden aan uw XDM schema ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   of
+
+   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. Voeg de gegevensset van de bron van Analytics aan de verbinding toe, zoals hieronder beschreven.
 
@@ -83,20 +87,26 @@ Om de automatisch gecreeerde dataset aan de zelfde verbinding toe te voegen die 
 
 1. Selecteer **[!UICONTROL Request backfill]** in de sectie **[!UICONTROL Dataset backfill]** .
 
-1. Bepaal de periode die u backfill wilt omvatten door de begin en einddata in te gaan of door het kalenderpictogram ![ Kalender ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) te selecteren.
+1. Bepaal de periode die u de verbindingsbackfill in Customer Journey Analytics wilt omvatten door de begin en einddata in te gaan of door het kalenderpictogram ![ Kalender ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) te selecteren.
 
-   De bronschakelaar van de Analyse voert 13 maanden van gegevens (ongeacht grootte) voor productiesandboxen in. De back-up van niet-productie sandboxen is 3 maanden.
+   Wees expliciet wanneer u de datums opgeeft die u wilt terugvullen. Afhankelijk van verschillende factoren kunt u een van de volgende handelingen uitvoeren:
 
-   >[!IMPORTANT]
-   >
-   >Wees expliciet wanneer u de datums opgeeft die u wilt terugvullen. De einddatum zou de datum moeten zijn toen u eerst begonnen gegevens met uw implementatie van SDK van het Web te verzamelen.
-   >
-   >Alternatief, kunt u een datum kiezen kort na de datum toen u eerst begonnen gegevens met uw implementatie van SDK van het Web te verzamelen, dan gebruiksegmenten om de overlappende gegevens uit te filteren.
+   * Kies een einddatum die de zelfde datum is zoals toen u eerst begonnen gegevens met uw implementatie van SDK van het Web te verzamelen.
+
+   * Kies een einddatum die kort na de datum is toen u eerst begonnen gegevens met uw implementatie van SDK van het Web te verzamelen, dan de segmenten van de gegevensmening te gebruiken om de overlappende gegevens uit te filteren.
+
+   * Kies een einddatum die resulteert in een grotere gegevensoverlapping en gebruik vervolgens de segmenten van de gegevensweergave om de overlappende gegevens uit te filteren.
+
+     **Nota:** Deze optie zou in verhoogde kosten resulteren omdat er meer rijen in de verbinding zouden zijn.
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
 1. Selecteer **[!UICONTROL Queue backfill]** .
 
 1. Selecteer **[!UICONTROL Add datasets]** en selecteer vervolgens **[!UICONTROL Save]** om de verbinding op te slaan.
+
+1. (Voorwaardelijk) als u raadplegingsdatasets gebruikt, moet u de raadplegingsdataset tot stand brengen en het toevoegen aan uw verbinding. Voor meer informatie, zie [ raadplegingsdatasets creëren om gegevens in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) te classificeren.
+
+   Dit wordt vereist slechts als u het niet reeds deed toen het vormen van uw implementatie van SDK van het Web.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.

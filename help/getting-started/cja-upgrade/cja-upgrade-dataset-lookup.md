@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige stand
 
 Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van het Experience Platform, moet u een schema XDM en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
 
-## Een XDM-schema maken
+## Creeer een schema XDM om met de raadplegingsdataset te gebruiken
 
 Creeer een nieuw schema XDM voor elke dimensie die gegevens bevat die u in Customer Journey Analytics wilt classificeren. Wanneer u de raadplegingsdataset in een recentere stap creeert, zal het naar dit schema verwijzen.
 
@@ -100,7 +100,7 @@ Om een raadplegingsdataset voor gebruik met een schema in Customer Journey Analy
 
 ## Voeg de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe
 
-Nadat u [ een schema XDM ](#create-an-xdm-schema-for-lookup-datasets) creeert en [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
+Nadat u [ een schema XDM ](#create-an-xdm-schema-for-lookup-datasets) creeert en u [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
@@ -120,9 +120,9 @@ Om de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe te
 
 1. Selecteer **[!UICONTROL Add datasets]** en selecteer vervolgens **[!UICONTROL Save]** .
 
+   <!-- is there a step right in between here where you select the dataset -->
+
 1. Gebruikend het **[!UICONTROL Key]** gebied en het **[!UICONTROL Matching key]** gebied, creeer een correlatie tussen het gebied in uw raadplegingsdataset met dat in uw gebeurtenis of samenvattingsdataset.
 
 1. Nadat alle raadplegingsdatasets aan uw verbinding in Customer Journey Analytics worden toegevoegd, ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-
-1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
 

@@ -1,57 +1,64 @@
 ---
-title: Ga van de bron van Analytics schakelaar naar Web SDK voor Customer Journey Analytics
-description: Leer hoe te zich aan het Web SDK van de de bronschakelaar van de Analyse wanneer bevordering aan Customer Journey Analytics te bewegen
+title: Overgang van de bron van Analytics schakelaar aan het Web SDK voor Customer Journey Analytics
+description: Leer hoe te overgang aan het Web SDK van de bron Analytics schakelaar wanneer bevordering aan Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: a1feb2e8458169ed208da2c42fab62d25e1015bb
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Ga van de bron van Analytics schakelaar naar Web SDK voor Customer Journey Analytics
+# Overgang van de bron van Analytics schakelaar aan het Web SDK voor Customer Journey Analytics
 
 >[!NOTE]
 > 
 >Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in de [ controlelijst van de Customer Journey Analytics verbetering ](https://gigazelle.github.io/cja-ttv/).
 
-Er zijn inherente nadelen aan het gebruiken van de bron van Analytics schakelaar als uw enige implementatie voor Customer Journey Analytics. Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, zou u moeten overwegen zich aan een implementatie van SDK van het Web te bewegen.
+Er zijn inherente nadelen aan het gebruiken van de bron van Analytics schakelaar als uw enige implementatie voor Customer Journey Analytics.
 
-De Adobe adviseert gebruikend de Analytics bronschakelaar (voor het brengen van historische gegevens), samen met een nieuwe implementatie van het Web SDK (voor aan de gang zijnde gegevensinzameling).
+Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, zou u moeten overwegen overgaand aan een implementatie die de bron van Analytics schakelaar (voor het brengen van historische gegevens) gebruikt, samen met een nieuwe implementatie van het Web SDK (voor aan de gang zijnde gegevensinzameling).
 
 ## Voor- en nadelen van het exclusief gebruiken van de bronconnector Analytics
 
 Voor informatie over de voordelen en de nadelen van het gebruiken van de Analyse bronschakelaar, zie [ Gebruik de Analytics bronschakelaar exclusief om aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md) te bevorderen.
 
-## Van de bron van Analytics schakelaar aan het Web SDK
+## Overgang van de bron van Analytics schakelaar aan het Web SDK
 
-Na is het proces op hoog niveau om van de de bronschakelaar van de Analyse aan een implementatie te bewegen die van zowel de de bronschakelaar van de Analyse als een implementatie van SDK van het Web wordt samengesteld:
+Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebruiken van de de bronschakelaar van Analytics aan een implementatie die van zowel de Analytics bronschakelaar als een implementatie van SDK van het Web wordt samengesteld:
 
 1. Creeer een implementatie van SDK van het Web, zoals die in [ wordt beschreven Gedetailleerde geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) in het artikel, [ Verbetering van Adobe Analytics aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
    Nadat de implementatie van SDK van het Web wordt gevormd, ga met de volgende stappen verder.
 
-1. Bepaal of u het schema van Adobe Analytics of een schema XDM in uw implementatie van SDK van het Web zult gebruiken.
+1. [ creeer een schema XDM voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
-   Voor meer informatie, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
+1. Wijs elke afmeting van Adobe Analytics van uw de bronschakelaar van Analytics aan de afmeting in het schema van SDK van het Web toe.
 
-1. (Voorwaardelijk) als u van plan bent om het schema van Adobe Analytics met uw implementatie van SDK van het Web te gebruiken, voeg de dataset toe die automatisch door de de bronschakelaar van de Analyse aan uw verbinding van de Customer Journey Analytics werd gecreeerd.
+   1. 
+      <!-- how do you get here -->
 
-   Voor meer informatie, zie [ de gegevensset van de bron van Analytics toevoegen aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
+   1. Selecteer in de sectie **[!UICONTROL Map standard fields]** de tab **[!UICONTROL Custom]** .
 
-1. (Voorwaardelijk) als u van plan bent om een schema XDM met uw implementatie van SDK van het Web te gebruiken:
+   1. Selecteer **[!UICONTROL Add new mapping]** .
 
-   1. [ creeer een schema XDM voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
+      ![ gebieden van het kaartschema ](assets/schema-mapping.png)
 
-   1. Voeg de dataset toe die automatisch met uw originele de bronschakelaar van de Analyse aan uw verbinding van de Customer Journey Analytics werd gecreeerd.
+   1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het XDM-veld waaraan u het wilt toewijzen.
 
-      Voor meer informatie, zie [ de dataset van uw huidige Analytics bronschakelaar aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toevoegen.
+   1. Herhaal dit proces voor elk veld in de Adobe Analytics ExperienceEvent-sjabloonveldgroep dat u gebruikt om gegevens te verzamelen in Adobe Analytics.
 
-   1. Verwijder de originele bronaansluiting voor Analytics. <!-- need to add steps somewhere about how to do this -->
+1. Voeg de dataset toe die automatisch met uw originele de bronschakelaar van de Analyse aan uw verbinding van de Customer Journey Analytics werd gecreeerd.
 
-   1. [ creeer een nieuwe de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+   Voor meer informatie, zie [ de dataset van uw huidige Analytics bronschakelaar aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toevoegen.
+
+1. (Voorwaardelijk) als u raadplegingsdatasets gebruikt, moet u de raadplegingsdataset tot stand brengen en het toevoegen aan uw verbinding. Voor meer informatie, zie [ raadplegingsdatasets creëren om gegevens in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) te classificeren.
+
+1. Verwijder de originele bronaansluiting voor Analytics. <!-- need to add steps somewhere about how to do this -->
+
+1. [ creeer een nieuwe de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).

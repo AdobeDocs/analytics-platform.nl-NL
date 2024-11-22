@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Cust
 
 1. Maak een XDM-schema voor de bronconnector Analytics, zoals hieronder wordt beschreven.
 
-1. [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. Als u reeds geen Analytics bronschakelaar hebt, [ creeer de Analytics bronschakelaar en kaartgebieden aan uw XDM schema ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   of
+
+   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
@@ -40,11 +44,11 @@ Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Cust
 
 U zou reeds [ een nieuw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) voor uw implementatie van SDK van het Web van Experience Platforms aan gebruik met Customer Journey Analytics moeten hebben gecreeerd. Dit schema moet alle veldgroepen bevatten voor velden waarop u gegevens wilt verzamelen.
 
-Naast het XDM schema u reeds voor uw implementatie van SDK van het Web creeerde, moet u nu een tweede schema XDM aan gebruik met de Analytics bronschakelaar creëren om historische gegevens in Customer Journey Analytics te brengen.
+U moet nu die zelfde gebiedsgroepen van uw schema van SDK van het Web gebruiken en hen toevoegen aan een nieuw schema dat u met de Analytics bronschakelaar kunt gebruiken.
 
-Dit tweede schema moet het volgende bevatten:
+Dit schema voor de de bronschakelaar van de Analyse moet bevatten:
 
-* Alle gebiedsgroepen (met inbegrip van om het even welke groepen van het douanegebied) die in het schema inbegrepen zijn dat u voor uw implementatie van SDK van het Web creeerde. (Om het even welke douanevelden die geen deel van een standaardgebiedsgroep uitmaken zouden aan uw schema van SDK van het Web als deel van een groep van het douanegebied moeten zijn toegevoegd.)
+* Alle gebiedsgroepen (met inbegrip van om het even welke groepen van het douanegebied die u) creeerde die in uw douaneschema inbegrepen zijn dat u voor uw implementatie van SDK van het Web creeerde. (Om het even welke douanevelden die geen deel van een standaardgebiedsgroep uitmaken zouden aan uw schema van SDK van het Web als deel van een groep van het douanegebied moeten zijn toegevoegd.)
 
 * De Adobe Analytics ExperienceEvent-sjabloonveldgroep
 

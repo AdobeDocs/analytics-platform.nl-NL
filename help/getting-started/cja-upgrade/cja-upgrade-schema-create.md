@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 >
 >Voordat u begint met het maken van uw XDM-schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-Adobe raadt u aan een XDM-schema (Experience Data Model) te maken bij de upgrade naar Customer Journey Analytics. Een XDM-schema maakt een gestroomlijnd schema mogelijk dat is afgestemd op de behoeften van uw organisatie en de specifieke platformtoepassingen die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
+Adobe raadt u aan een XDM-schema (Custom Experience Data Model) te maken bij de upgrade naar Customer Journey Analytics. Een douaneschema staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
 
 ## Het schema maken
 
 Het XDM-schema dat u definieert, vertegenwoordigt het model van de gegevens die u in Adobe Experience Platform verzamelt.
 
-Een schema maken:
+Een aangepast schema maken:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 

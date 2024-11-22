@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Cust
 
 1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Maak de bronconnector voor Analytics en kaartvelden, zoals hieronder wordt beschreven.
+1. Als u nog geen bronconnector voor Analytics hebt, maakt u de bronaansluiting voor Analytics en kaartvelden naar uw XDM-schema, zoals hieronder beschreven.
+
+   of
+
+   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
@@ -69,6 +73,8 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
    ![ gebieden van het kaartschema ](assets/schema-mapping.png)
 
    1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het XDM-veld waaraan u het wilt toewijzen.
+
+      Niet hebben alle gebieden van Adobe Analytics een overeenkomstig gebied in XDM toe te schrijven aan de inherente architectuurverschillen tussen AppMeasurement en XDM.
 
    1. Herhaal dit proces voor elk veld in de Adobe Analytics ExperienceEvent-sjabloonveldgroep dat u gebruikt om gegevens te verzamelen in Adobe Analytics.
 
