@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-Wanneer de bevordering aan Customer Journey Analytics, beveelt de Adobe het creëren van een nieuw schema XDM aan om beter op de behoeften van uw organisatie te richten aangezien u begint andere diensten van het Platform te gebruiken. U kunt ook het bestaande Adobe Analytics-schema gebruiken.
+Wanneer de bevordering aan Customer Journey Analytics, beveelt de Adobe het creëren van een schema van de Gegevens van de Ervaring van het Model (XDM) aan om beter op de behoeften van uw organisatie te richten aangezien u begint andere diensten van het Platform te gebruiken. U kunt ook het bestaande Adobe Analytics-schema gebruiken.
 
 Houd rekening met de voor- en nadelen van beide.
 
-## Maak een XDM-schema op maat van uw organisatie (aanbevolen)
+## Een aangepast schema maken voor uw organisatie (aanbevolen)
 
-Adobe raadt u aan een nieuw XDM-schema te maken wanneer u een upgrade naar Customer Journey Analytics uitvoert.
+Adobe raadt u aan een aangepast schema te maken wanneer u de upgrade naar Customer Journey Analytics uitvoert.
 
 | Voordelen | Nadelen |
 |----------|---------|
-| <ul><p>De voordelen van het bijwerken aan uw eigen schema XDM omvatten:</p><ul><li>Een gestroomlijnd schema dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.</li><p>Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.</p></ul> | <p>De nadelen van het bijwerken aan uw eigen schema XDM omvatten:</p><ul><li>Het bijwerken van uw schema is een tijdrovend proces dat wordt vereist alvorens u begint gegevens naar Platform te verzenden.</li></ul> |
+| <ul><p>De voordelen van het bijwerken aan uw eigen douaneschema omvatten:</p><ul><li>Een gestroomlijnd schema dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.</li><p>Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.</p></ul> | <p>De nadelen van het bijwerken aan uw eigen douaneschema omvatten:</p><ul><li>Het bijwerken van uw schema is een tijdrovend proces dat wordt vereist alvorens u begint gegevens naar Platform te verzenden.</li></ul> |
 
 ## Het bestaande Adobe Analytics-schema gebruiken
 

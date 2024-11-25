@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ ht-degree: 0%
 
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
 
-Dit proces veronderstelt dat u een schema wilt [ tot stand brengen XDM wanneer het bevorderen aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
 Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
 
-1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Creeer een douaneschema voor de bronschakelaar van de Analyse](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Als u nog geen bronconnector voor Analytics hebt, maakt u de bronaansluiting voor Analytics en kaartvelden naar uw XDM-schema, zoals hieronder beschreven.
+1. Als u reeds geen Analytics bronschakelaar hebt, creeer de de bronschakelaar en kaartgebieden van Analytics aan uw schema van SDK van het douaneWeb, zoals hieronder beschreven.
 
    of
 
-   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema van SDK van het douaneWeb ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## De bronaansluiting voor Analytics en kaartvelden maken
 
-Als uw XDM-schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
+Als uw aangepaste schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
 
 Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
@@ -60,11 +60,11 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
 1. Selecteer **[!UICONTROL Next]** in de rechterbovenhoek van het scherm.
 
-1. Selecteer **[!UICONTROL Custom schema]**, dan selecteren het schema dat u in [ creeerde een schema XDM dat de het gebiedsgroep van Adobe Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md) omvat. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. Selecteer **[!UICONTROL Custom schema]**, dan selecteren het schema dat u in [ creeerde een douaneschema dat de het gebiedsgroep van Adobe Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md) omvat. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
-1. Wijs elke dimensie van Adobe Analytics aan een dimensie van het douaneXDM schema toe.
+1. Wijs elke dimensie van Adobe Analytics aan een dimensie van het douaneschema toe.
 
    1. Selecteer in de sectie **[!UICONTROL Map standard fields]** de tab **[!UICONTROL Custom]** .
 
@@ -72,7 +72,7 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    ![ gebieden van het kaartschema ](assets/schema-mapping.png)
 
-   1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het XDM-veld waaraan u het wilt toewijzen.
+   1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het aangepaste veld in het XDM-schema waaraan u het wilt toewijzen.
 
       Niet hebben alle gebieden van Adobe Analytics een overeenkomstig gebied in XDM toe te schrijven aan de inherente architectuurverschillen tussen AppMeasurement en XDM.
 

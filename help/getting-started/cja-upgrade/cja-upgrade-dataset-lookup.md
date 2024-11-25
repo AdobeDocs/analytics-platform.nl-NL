@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Net als classificatiegegevens in Adobe Analytics zijn opzoekgegevenssets de meth
 
 Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige standaardraadplegingsdatasets automatisch toegepast in rapporttijd. Voor meer informatie, zie [ standaardraadplegingen aan uw datasets ](/help/connections/standard-lookups.md) toevoegen.
 
-Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van het Experience Platform, moet u een schema XDM en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
+Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van het Experience Platform, moet u een douaneschema en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
 
-## Creeer een schema XDM om met de raadplegingsdataset te gebruiken
+## Creeer een douaneschema om met de raadplegingsdataset te gebruiken
 
-Creeer een nieuw schema XDM voor elke dimensie die gegevens bevat die u in Customer Journey Analytics wilt classificeren. Wanneer u de raadplegingsdataset in een recentere stap creeert, zal het naar dit schema verwijzen.
+Creeer een nieuw douaneschema voor elke afmeting die gegevens bevat die u in Customer Journey Analytics wilt classificeren. Wanneer u de raadplegingsdataset in een recentere stap creeert, zal het naar dit schema verwijzen.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
@@ -58,7 +58,7 @@ Om een schema voor gebruik met een raadplegingsdataset in Customer Journey Analy
 
 ## Een opzoekgegevensset maken
 
-Nadat u [ een schema XDM ](#create-an-xdm-schema-for-lookup-datasets) creeert om voor een raadplegingsdataset te gebruiken, moet u de raadplegingsdataset tot stand brengen en het in kaart brengen aan uw schema.
+Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert om voor een raadplegingsdataset te gebruiken, moet u de raadplegingsdataset tot stand brengen en het in kaart brengen aan uw schema.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
@@ -100,7 +100,7 @@ Om een raadplegingsdataset voor gebruik met een schema in Customer Journey Analy
 
 ## Voeg de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe
 
-Nadat u [ een schema XDM ](#create-an-xdm-schema-for-lookup-datasets) creeert en u [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
+Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert en u [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 

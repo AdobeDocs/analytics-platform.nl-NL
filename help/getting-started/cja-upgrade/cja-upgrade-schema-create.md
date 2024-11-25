@@ -1,20 +1,20 @@
 ---
-title: Een schema voor Customer Journey Analytics maken
-description: Meer informatie over het aanbevolen pad wanneer u een upgrade uitvoert van Adobe Analytics naar Customer Journey Analytics
+title: Een aangepast schema voor Customer Journey Analytics maken
+description: Leer hoe u een aangepast schema voor Customer Journey Analytics maakt
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
 
-# Creeer een schema XDM om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken
+# Creeer een douaneschema om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken
 
 >[!NOTE]
 > 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Voordat u begint met het maken van uw XDM-schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+>Voordat u begint met het maken van uw aangepaste schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-Adobe raadt u aan een XDM-schema (Custom Experience Data Model) te maken bij de upgrade naar Customer Journey Analytics. Een douaneschema staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
+De Adobe adviseert het creëren van een schema van de Gegevens van de douaneErvaring (XDM) om met het Web SDK te gebruiken wanneer het bevorderen aan Customer Journey Analytics. Een douaneschema staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
 
 ## Het schema maken
 
-Het XDM-schema dat u definieert, vertegenwoordigt het model van de gegevens die u in Adobe Experience Platform verzamelt.
+Het douaneschema u voor uw implementatie van SDK van het Web bepaalt vertegenwoordigt het model van de gegevens die u in Adobe Experience Platform verzamelt.
 
 Een aangepast schema maken:
 

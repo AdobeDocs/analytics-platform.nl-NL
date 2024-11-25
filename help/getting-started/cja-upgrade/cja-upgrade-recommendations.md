@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. Vergelijk gegevens in Adobe Analytics van uw oude implementatie tot gegevens in de Customer Journey Analytics van uw nieuwe implementatie en zorg ervoor dat u alle verschillen begrijpt en waarom deze bestaan. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
-1. (Optioneel) Breng historische gegevens van Adobe Analytics met behulp van de bronconnector Analytics:
+1. Breng historische gegevens van Adobe Analytics met behulp van de Analytics-bronconnector:
 
    >[!NOTE]
    >
