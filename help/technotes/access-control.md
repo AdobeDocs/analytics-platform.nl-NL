@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,16 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
   | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Alleen-lezen toegang voor naamruimten. |
 
   Voor meer informatie over de toestemmingen van het Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+
+
+* Als Adobe Journey Optimizer is geïntegreerd met CJA waar AJO Connections bestaat, moeten ook de rechten voor reizen worden toegevoegd om toegang te krijgen tot Verbindingen:
+
+  | Categorie | Machtiging | Beschrijving |
+  |---|---|---|
+  | [!UICONTROL Journeys] | [!UICONTROL View Journeys Events, Data Sources and Actions] | Alleen-lezen toegang tot reisgebeurtenissen, aangepaste acties voor reizen en gegevensbronnen voor reizen. |
+  | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys Events, Data Sources and Actions] | Gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen. |
+  | [!UICONTROL Journeys] | [!UICONTROL View Journeys] | Alleen-lezen toegang tot reizen. |
+  | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys] | Reizen lezen, maken, bewerken en verwijderen. |
 
 * De datasets van de uitvoer aan [ bestemmingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
