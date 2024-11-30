@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 96844fae07734e979e9dd4689d5eded6a7a3b926
+exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
+source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -20,15 +21,13 @@ De mensen in het login bedrijf kunnen deze bedrijfmalplaatjes gebruiken zoals di
 
 ## Een sjabloon maken
 
-<!-- is this only admins? -->
-
 Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf kan worden gebruikt:
 
 1. In Analysis Workspace, bouw een project aan uw gewenste staat.
 
 1. Selecteer [!UICONTROL **Project**] > **[!UICONTROL Save as template…]**.
 
-   ![ het rapport van het Bedrijf ](assets/company-template-save.png)
+   ![ malplaatje van het Bedrijf ](assets/company-template-save.png)
 
 1. Geef de volgende informatie op in het dialoogvenster [!UICONTROL Save as template] :
 
@@ -45,11 +44,37 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
 
 Voor informatie over hoe de gebruikers een project kunnen tot stand brengen dat op een malplaatje wordt gebaseerd, zie [ een project creëren dat op een malplaatje ](/help/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) wordt gebaseerd in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md).
 
-## Bedrijfssjablonen beheren
+## Sjablonen bewerken of verwijderen
 
-Beheerders kunnen bedrijfssjablonen verwijderen, hernoemen, labelen en goedkeuren.
+Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
 
-Zo kunt u bedrijfssjablonen weergeven en beheren:
+1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan uitgezochte **[!UICONTROL _login_company_name _malplaatjes]**.
+
+1. Als u malplaatjes in een pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) bekijkt:
+
+   1. Ga naar de sjabloon die u wilt bewerken of verwijderen, selecteer het informatiepictogram naast de sjabloonnaam.
+
+      ![ het malplaatjeinfo van het Bedrijf ](assets/company-template-info.png)
+
+   1. Selecteer **[!UICONTROL Preview]** .
+
+   1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
+
+      ![ geef of schrap malplaatje ](assets/company-template-edit-delete.png) uit
+
+1. Als u malplaatjes in een pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) bekijkt:
+
+   1. Zoek de sjabloon die u wilt bewerken of verwijderen.
+
+      ![ de kaartmening van het het malplaatje van het Bedrijf ](assets/company-template-cards.png)
+
+   1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
+
+      ![ de malplaatjekaart van het Bedrijf geeft uit of schrapt ](assets/company-template-card-edit-delete.png)
+
+## Sjablonen hernoemen, labelen of goedkeuren
+
+Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 
 1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan selecteer **[!UICONTROL Projects tab]** in het linkerspoor.
 
@@ -61,24 +86,20 @@ Zo kunt u bedrijfssjablonen weergeven en beheren:
 
    De malplaatjes van het bedrijf kunnen door het ![ malplaatjepictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) worden geïdentificeerd die de malplaatjenaam voorafgaat.
 
-   <!-- Update screenshot -->
-
-   ![ het bedrijf van de vertoning malplaatjes filters ](assets/company-reports-filter.png)
-
-1. Selecteer een of meer bedrijfssjablonen in de lijst met sjablonen.
+   ![ het bedrijf van de vertoning malplaatjes filters ](assets/company-templates-filter.png)
 
 1. Klik op het pictogram **...** elilpsis naast een sjabloon om de beschikbare opties weer te geven.
 
-   <!-- Update screenshot -->
+   ![ de malplaatjeacties van het Bedrijf ](assets/company-templates-actions.png)
 
-   ![ de malplaatjeacties van het Bedrijf ](assets/company-reports-actions.png)
+1. Selecteer **[!UICONTROL Rename]**, **[!UICONTROL Tag]** of **[!UICONTROL Approve]** .
 
-1. Selecteer **[!UICONTROL Delete]**, **[!UICONTROL Rename]**, **[!UICONTROL Tag]** of **[!UICONTROL Approve]**).
+   U kunt een malplaatje ook schrappen, of u kunt een malplaatje schrappen zoals die in [ wordt beschreven uitgeven of malplaatjes ](#edit-or-delete-templates) schrappen.
 
 1. (Optioneel) Schakel **[!UICONTROL Company templates]** uit als u wilt terugkeren naar de standaardweergave in de filterrail.
 
 ## Toegang tot een bedrijfssjabloon
 
-Net als met sjablonen die worden geleverd door Adobe, kunt u sjablonen openen die mensen in uw organisatie hebben gemaakt.
+Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
 Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md) in werking.

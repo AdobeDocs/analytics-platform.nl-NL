@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
+source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
 workflow-type: tm+mt
-source-wordcount: '15370'
+source-wordcount: '15380'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door de Adobe worden aangeboden.
 
-   * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor in uw organisatie zijn gecreeerd.
+   * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
-     De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd.
+     De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd. Voor informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analysis-workspace/templates/create-templates.md) creëren en beheren.
 
-1. Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of van de kaartmening ![ van de kaartmening ](assets/card-view-icon.png) te selecteren.
+1. Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen.
 
@@ -77,13 +77,15 @@ Als u na het aanbrengen van wijzigingen weg navigeert van een sjabloon, wordt u 
 
 Een sjabloon aanpassen en opslaan als project:
 
-1. In Adobe Analytics, selecteer [!UICONTROL **Workspace**] tabel.
+1. In Customer Journey Analytics, selecteer [!UICONTROL **Workspace**] tabel.
 
 1. Selecteer de [!UICONTROL **Malplaatjes**] tabel.
 
 1. Selecteer de sjabloon die u wilt weergeven. Bijvoorbeeld, onder [!UICONTROL **het populairste**], selecteer het [!UICONTROL **malplaatje van Pagina&#39;s**].
 
    Het malplaatje van Pagina&#39;s, zoals getoond in Analysis Workspace, toont twee [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([ grafiek van de Bar ](/help/analysis-workspace/visualizations/bar.md) en [ Samenvattingsaantal ](/help/analysis-workspace/visualizations/summary-number-change.md)) en a [ lijst van de Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De gebruikte metrische waarde is Voorvallen.
+
+   <!--update screenshot. The following is AA -->
 
    ![ malplaatje van Pagina&#39;s ](assets/pages-report.png)
 
@@ -96,7 +98,7 @@ Een sjabloon aanpassen en opslaan als project:
 
 1. (Facultatief) sparen het malplaatje als project door [!UICONTROL **Project**] te selecteren > [!UICONTROL **sparen**].
 
-   Het malplaatje wordt bewaard als nieuw project; het wijzigt niet het bestaande rapport. Voor meer informatie over het bewaren van een rapport als project, zie [ projecten ](/help/analysis-workspace/build-workspace-project/save-projects.md) sparen.
+   De sjabloon wordt als een nieuw project opgeslagen; de bestaande sjabloon wordt niet gewijzigd. Voor meer informatie over het bewaren van projecten, zie [ projecten ](/help/analysis-workspace/build-workspace-project/save-projects.md) sparen.
 
 ## Beschikbare sjablonen
 
