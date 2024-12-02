@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
+source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
 workflow-type: tm+mt
-source-wordcount: '15380'
+source-wordcount: '15430'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,11 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
      De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd. Voor informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analysis-workspace/templates/create-templates.md) creëren en beheren.
 
-1. Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
+
+   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+
+   * Wanneer het gebruiken van het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen.
 
@@ -57,17 +61,23 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    Voor een lijst van malplaatjes die beschikbaar zijn, zie de [ Beschikbare malplaatjes ](#available-templates) hieronder sectie.
 
-1. (Optioneel) Sjablonen weergeven en gebruiken die componenten bevatten die niet beschikbaar zijn in de gegevensweergave. (Standaard worden alleen sjablonen weergegeven die componenten gebruiken die beschikbaar zijn in de gegevensweergave.)
+1. (Optioneel) Sjablonen weergeven en gebruiken die componenten bevatten die niet beschikbaar zijn in de gegevensweergave. (Door gebrek, worden de malplaatjes getoond slechts als zij componenten gebruiken die in uw gegevensmening beschikbaar zijn.)
 
-   1. Selecteren (naam van filteroptie?) om sjablonen weer te geven waarvoor extra componenten nodig zijn.
+   1. Selecteer het filterpictogram.
 
-      <!-- add screenshot -->
+   1. Selecteer **[!UICONTROL Not ready for use]** om sjablonen weer te geven waarvoor extra componenten nodig zijn.
 
-   1. Selecteer de sjabloon die u wilt gebruiken.
-
-   1. Als de sjabloon componenten bevat die niet beschikbaar zijn in de gegevensweergave, wordt een bericht weergegeven waarin wordt aangegeven welke componenten ontbreken. Klikken (knop?) om naar de gegevensmening te gaan waar u hen kunt automatisch creëren. <!--how do you do this? Walk through the process -->
+      ![ Gebruik een malplaatje dat componenten ](assets/template-not-ready.png) mist
 
 1. Selecteer het malplaatje om een rapport tot stand te brengen dat op het malplaatje wordt gebaseerd u koos.
+
+1. (Voorwaardelijk) Als de sjabloon componenten bevat die niet beschikbaar zijn in de gegevensweergave, wordt het dialoogvenster Niet-compatibele gegevensweergave weergegeven. Hierin wordt aangegeven dat de gegevensweergave niet compatibel is met de sjabloon en wordt aangegeven welke componenten ontbreken.
+
+   Voer een van de volgende handelingen uit:
+
+   * Kies een andere gegevensweergave in de vervolgkeuzelijst **[!UICONTROL Change data view]** .
+
+   * Selecteer **[!UICONTROL Continue anyway]** om de sjabloon met de ontbrekende componenten weer te geven.
 
 ## Een project maken op basis van een sjabloon {#use-reports}
 
