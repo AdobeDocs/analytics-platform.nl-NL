@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voor informatie over hoe de gebruikers een project kunnen tot stand brengen dat 
 
 Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
 
-1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan uitgezochte **[!UICONTROL _login_company_name _malplaatjes]**.
+1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan onder **[!UICONTROL Templates]** in het linkerspoor, uitgezochte **[!UICONTROL _login_company_name _malplaatjes]**.
 
 1. Als u malplaatjes in een pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) bekijkt:
 
@@ -67,6 +67,8 @@ Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
    1. Zoek de sjabloon die u wilt bewerken of verwijderen.
 
       ![ de kaartmening van het het malplaatje van het Bedrijf ](assets/company-template-cards.png)
+
+   1. Houd de cursor boven de sjabloon en selecteer vervolgens **[!UICONTROL Preview]** .
 
    1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
 
@@ -97,6 +99,73 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
    U kunt een malplaatje ook schrappen, of u kunt een malplaatje schrappen zoals die in [ wordt beschreven uitgeven of malplaatjes ](#edit-or-delete-templates) schrappen.
 
 1. (Optioneel) Schakel **[!UICONTROL Company templates]** uit als u wilt terugkeren naar de standaardweergave in de filterrail.
+
+## Ontbrekende componenten toevoegen aan de gegevensweergave voor een bepaalde sjabloon
+
+Door gebrek, zullen sommige malplaatjes die door Adobe worden verstrekt niet werken omdat zij componenten bevatten die niet in uw gegevensmening zijn.
+
+Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet het overeenkomende contextlabel toevoegen aan een component die zich al in de gegevensweergave bevindt, of u moet een nieuwe component aan de gegevensweergave toevoegen en er een contextlabel aan toevoegen.
+
+Ontbrekende componenten toevoegen aan een sjabloon:
+
+1. In Analysis Workspace, selecteer [!UICONTROL **Workspace**] tabel, dan onder **[!UICONTROL Templates]** in het linkerspoor, uitgezochte **[!UICONTROL Adobe templates]**.
+
+1. Selecteer het filterpictogram om de lijst met sjablonen te filteren.
+
+1. Selecteer **[!UICONTROL Not ready for use]** om sjablonen weer te geven waarvoor componenten nodig zijn die zich niet in de gegevensweergave bevinden.
+
+   ![ Gebruik een malplaatje dat componenten ](assets/template-not-ready.png) mist
+
+1. Zoek een sjabloon die nog niet kan worden gebruikt in de gegevensweergave.
+
+1. Voer een van de volgende handelingen uit:
+
+   * **als u malplaatjes in een kolommening** ![ pictogram van de kolommening ](assets/column-view-icon.png) bekijkt:
+
+      1. Ga naar de sjabloon die nog niet kan worden gebruikt in de gegevensweergave en selecteer vervolgens het informatiepictogram naast de sjabloonnaam.
+
+         ![ het malplaatjeinfo van het Bedrijf ](assets/company-template-info.png)
+
+      1. Selecteer **[!UICONTROL Preview]** .
+
+         ![ de voorproefpagina van het Malplaatje ](assets/template-preview.png)
+
+   * **als u malplaatjes in een kaartmening** ![ pictogram van de kaartmening ](assets/card-view-icon.png) bekijkt:
+
+      1. Zoek de sjabloon die nog niet kan worden gebruikt in de gegevensweergave.
+
+         ![ de kaartmening van het het malplaatje van het Bedrijf ](assets/company-template-cards.png)
+
+      1. Houd de cursor boven de sjabloon en selecteer vervolgens **[!UICONTROL Preview]** .
+
+         ![ de voorproefpagina van het Malplaatje ](assets/template-preview.png)
+
+1. In de sectie **[!UICONTROL Missing components]** wordt een lijst met componenten weergegeven die ontbreken in de gegevensweergave. Selecteer **[!UICONTROL Add these components to your data view]** .
+
+   De configuratiepagina voor de gegevensweergave wordt weergegeven op een nieuw tabblad.
+
+1. Selecteer de tab **[!UICONTROL Components]** voor de gegevensweergave.
+
+   ![ de componenten tabel van de mening van Gegevens ](assets/template-dataview.png)
+
+1. Voer een van de volgende handelingen uit op het tabblad **[!UICONTROL Components]** voor elke component die in de sjabloon als ontbrekend werd weergegeven:
+
+   * Selecteer in de sectie **[!UICONTROL Included components]** een component die al is opgenomen in de gegevensweergave die u voor de ontbrekende component wilt gebruiken.
+
+   * Voeg een nieuwe component aan de gegevensmening toe die u voor de ontbrekende component wilt gebruiken, dan selecteer de component.
+
+     Als u een nieuwe component aan de gegevensweergave wilt toevoegen, zoekt u in de lijst met schemavelden en sleept u deze naar de sectie **[!UICONTROL Included components]** .
+
+1. Selecteer de component en zoek het vervolgkeuzemenu **[!UICONTROL Context labels]** in de rechterkolom.
+
+   ![ de componenten tabel van de mening van Gegevens ](assets/template-dataview-context-label.png)
+
+1. Selecteer in het vervolgkeuzemenu **[!UICONTROL Context labels]** het contextlabel dat dezelfde naam heeft als de ontbrekende component.
+
+1. Selecteer **[!UICONTROL Save and continue]** .
+
+1. Herhaal voor elke ontbrekende component het proces waarbij u het overeenkomende contextlabel toevoegt aan een component in de gegevensweergave.
+
 
 ## Toegang tot een bedrijfssjabloon
 

@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
 workflow-type: tm+mt
-source-wordcount: '15430'
+source-wordcount: '15471'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,11 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    Voor een lijst van malplaatjes die beschikbaar zijn, zie de [ Beschikbare malplaatjes ](#available-templates) hieronder sectie.
 
-1. (Optioneel) Sjablonen weergeven en gebruiken die componenten bevatten die niet beschikbaar zijn in de gegevensweergave. (Door gebrek, worden de malplaatjes getoond slechts als zij componenten gebruiken die in uw gegevensmening beschikbaar zijn.)
+1. (Optioneel) U kunt sjablonen weergeven die componenten bevatten die niet beschikbaar zijn in de gegevensweergave. (Door gebrek, worden de malplaatjes getoond slechts als zij componenten gebruiken die in uw gegevensmening beschikbaar zijn.)
+
+   >[!NOTE]
+   >
+   >   Voordat u deze sjablonen kunt gebruiken, moet een beheerder eerst de vereiste contextlabels voor deze ontbrekende componenten toevoegen aan de gegevensweergave. Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaald malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/create-templates.md) toevoegen.
 
    1. Selecteer het filterpictogram.
 
