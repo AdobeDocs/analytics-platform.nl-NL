@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3350'
 ht-degree: 0%
 
 ---
@@ -107,12 +107,12 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
 | **Vertoning** | | |
-|  | [ dichtheid van de Mening ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-| | [ palet van de Kleur ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt en de geleide analyse. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en op geleide analyses. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
+|  | [ dichtheid van de Mening ](/help/analysis-workspace/build-workspace-project/view-density.md) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
+| | [ palet van de Kleur ](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt en de geleide analyse. <ul><li> Categorisch palet: toegepast op veel visualisaties in Analysis Workspace en op geleide analyses. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li> Divergent palet: toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.<li> Sequentieel palet: toegepast op de geleide analyse van de frequentie-trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
 | **Gegevens** | | |
-|  | [ mening van Gegevens ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies de gegevens waar tabellen en visualisaties hun gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke gegevensweergave die is geselecteerd in een lijst</li></ul> |
-|  | [ Kalender ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>U kunt [!UICONTROL Make date range components relative to panel calendar by default] inschakelen.</li></ul> |
-|  | [ Type van Comité ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
+|  | [ mening van Gegevens ](/help/analysis-workspace/c-panels/panels.md#data-view) | Kies de gegevens waar tabellen en visualisaties hun gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke gegevensweergave die is geselecteerd in een lijst</li></ul> |
+|  | [ Kalender ](/help/analysis-workspace/c-panels/panels.md#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>U kunt [!UICONTROL Make date range components relative to panel calendar by default] inschakelen.</li></ul> |
+|  | [ Type van Comité ](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Instantie tellen | Schakel [!UICONTROL Count repeat instances] in om op te geven of herhalingsinstanties worden geteld in rapporten. Als deze optie is ingeschakeld, worden meerdere weergaven van opeenvolgende pagina&#39;s naar dezelfde pagina beschouwd als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, worden meerdere opeenvolgende paginaweergaven weergegeven op hetzelfde aantal pagina&#39;s als een weergave van één pagina. <p>**Nota:** Dit het plaatsen beïnvloedt slechts bepaalde metriek (zoals Sessies) en het is niet van toepassing op Stroom of Vallout visualisaties.</p> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1.000,00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |

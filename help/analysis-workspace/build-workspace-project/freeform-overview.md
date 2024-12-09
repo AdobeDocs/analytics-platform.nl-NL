@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ In de projectlijst ➋ alle projecten worden weergegeven die u bezit en die met 
 | ![ SelectBox ](/help/assets/icons/SelectBox.svg) | Wanneer één of meerdere projecten worden geselecteerd, verschijnt een blauwe actiebar bij de bodem van de interface van het Project. Zie [ Acties ](#actions) voor meer details. |
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een project te begunstigen. |
 | **[!UICONTROL Title and description]** | Om het project uit te geven, selecteer de titelverbinding, die het [ project van Workspace ](/help/analysis-workspace/home.md) opent. De projecten die met u worden gedeeld worden vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om een popup menu met meer details op het project te tonen. Selecteer ![ Meer ](/help/assets/icons/More.svg) om een contextmenu met acties te openen. Zie [ Acties ](#actions) voor meer details. |
-| **[!UICONTROL Type]** | Een project van Workspace, a ![ FolderUser ](/help/assets/icons/FolderUser.svg) omslag, of a [ Mobiele Scorecard ](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| **[!UICONTROL Type]** | Een project van Workspace, a ![ FolderUser ](/help/assets/icons/FolderUser.svg) omslag, of a [ Mobiele Scorecard ](/help/mobile-app/home.md). |
 | **[!UICONTROL Tags]** | De labels die op het project zijn toegepast. |
 | Gepland | Of een project gepland is om aan ontvangers te worden gemaild. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Zie [ projectgegevens naar anderen ](/help/analysis-workspace/export/t-schedule-report.md) verzenden. |
 | **[!UICONTROL Shared link (anyone)]** | Of een project met iedereen wordt gedeeld, zelfs met mensen die geen toegang tot Analysis Workspace hebben. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Active]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactive]**. Zie [ een project met iedereen (geen vereiste login) delen ](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [ projecten van het Aandeel ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie. |

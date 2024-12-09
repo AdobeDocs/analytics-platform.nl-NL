@@ -5,9 +5,9 @@ title: Deelbare koppelingen maken
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 ## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Om een verbinding aan een project te delen, ga naar het project u wilt delen, dan selecteren ga **]>[!UICONTROL ** projectverbinding **]krijgen (of** Aandeel **] >[!UICONTROL ** Aandeel met de gebruikers van Workspace **]> [!UICONTROL** Aandeel door verbinding **).[!UICONTROL ** Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
+Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar **[!UICONTROL Share]** > **[!UICONTROL Get project link]** (of **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** > **[!UICONTROL Share by link]** ). Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-Als de ontvanger van de verbinding niet a [ projectrol ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
+Als de ontvanger van de verbinding niet a [ projectrol ](/help/analysis-workspace/curate-share/share-projects.md) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 

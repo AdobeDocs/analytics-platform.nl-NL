@@ -4,9 +4,9 @@ title: Tekst
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Wanneer u het tekstvak of de beschrijving bewerkt, kunt u de tekengrootte (kopni
 
 ## Hyperlinks toevoegen {#hyperlinks}
 
-Om een hyperlink toe te voegen, benadruk de tekst en selecteer ![ Verbinding ](/help/assets/icons/Link.svg) in het menu. U kunt hyperlinks gebruiken om verdere hulp aan uw projectontvangers te verlenen. De hyperlinks kunnen met externe websites, documentatiepagina&#39;s, [ projecten van Workspace, panelen, of visualisaties ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links), en meer verbinden.
+Om een hyperlink toe te voegen, benadruk de tekst en selecteer ![ Verbinding ](/help/assets/icons/Link.svg) in het menu. U kunt hyperlinks gebruiken om verdere hulp aan uw projectontvangers te verlenen. De hyperlinks kunnen met externe websites, documentatiepagina&#39;s, [ projecten van Workspace, panelen, of visualisaties ](/help/analysis-workspace/curate-share/shareable-links.md), en meer verbinden.
 
 ![ de opties van de Tekst met het benadrukte verbindingspictogram.](assets/hyperlink.png)
 

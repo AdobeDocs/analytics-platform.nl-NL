@@ -4,9 +4,9 @@ title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) voor een naadloze werkschema aan.
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
@@ -64,7 +64,7 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. Deze le
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [ het kleurenpalet van het Project ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes).
+Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md).
 
 ## Vereiste validatie
 

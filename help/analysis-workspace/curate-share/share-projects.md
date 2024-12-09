@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    of
 
-   Selecteer **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Selecteer **[!UICONTROL Curate & Update]** als het project al is gedeeld.) Leer meer over [ projectcuratie ](curate.md).
+   Selecteer **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Als het project reeds is gedeeld, uitgezochte **[!UICONTROL Curate & Update]**.) Leer meer over [ projectcuratie ](curate.md).
 
 ## Een koppeling naar een project delen
 
@@ -171,7 +171,7 @@ Een Analysis Workspace-project met iedereen delen:
 
    Als u deze optie selecteert, wordt een koppeling naar het project gemaakt die met iedereen kan worden gedeeld. U kunt toegang tot het project op elk ogenblik onbruikbaar maken door deze optie onbruikbaar te maken.
 
-   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker worden overgebracht slechts wanneer de projecteigendom wordt overgebracht, zoals die in [ wordt beschreven de gebruikersactiva van de Overdracht of de termijnen van de vastgestelde rekening ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) in de gids van Admin van de Analyse.
+   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker worden overgebracht slechts wanneer de projecteigendom wordt overgebracht, zoals die in [ wordt beschreven de gebruikersactiva van de Overdracht ](/help/tools/asset-transfer/transfer-assets.md) in de gids Admin van Analytics.
 
 1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van de Customer Journey Analytics):
 

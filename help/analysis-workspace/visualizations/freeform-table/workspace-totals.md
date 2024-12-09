@@ -4,9 +4,9 @@ title: Totaal Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: b9abcf48c5334d71639d7d96558a63611a4a491c
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven
 
 ## Totalen weergeven
 
-Onder ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Column settings]**, zijn er opties aan **[!UICONTROL Show totals]** en **[!UICONTROL Show grand total]**. Als deze instellingen niet zijn ingeschakeld, worden de totalen uit de tabel verwijderd. Dit is mogelijk het geval als totalen onzinnig zijn. Bijvoorbeeld, in bepaalde [ Berekende Metrische scenario&#39;s ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals).
+Onder ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Column settings]**, zijn er opties aan **[!UICONTROL Show totals]** en **[!UICONTROL Show grand total]**. Als deze instellingen niet zijn ingeschakeld, worden de totalen uit de tabel verwijderd. Dit is mogelijk het geval als totalen onzinnig zijn.
 
 
 [ Statische rij ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) gedraagt zich verschillend, en wordt gecontroleerd gebruikend ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
@@ -53,7 +53,7 @@ Zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](column-
 | Vragen | Antwoord |
 |---|---|
 | Welk *totaal* zijn de grijze kolompercentages die op worden gebaseerd? | Dit *totaal* hangt van **[!UICONTROL Percentages]** het plaatsen selectie onder **[!UICONTROL Row Settings]** af:<ul><li>Percentage berekenen op kolom - Dit is de standaardinstelling. De percentages zijn gebaseerd op het totaal van de Lijst.</li><li>Percentage berekenen op rij - Percentages worden gebaseerd op het Eindtotaal.</li></ul> |
-| Hoe beïnvloedt de instelling van **[!UICONTROL Include "No value"]** de totalen? | Als het **[!UICONTROL Include "No value"]** plaatsen ongecontroleerd is, wordt de **[!UICONTROL No value]** rij verwijderd uit de lijst, het totaal van de Lijst, en door om het even welke berekende metriek loopt die [*Totale* metrische types ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc) gebruiken |
+| Hoe beïnvloedt de instelling van **[!UICONTROL Include "No value"]** de totalen? | Als het **[!UICONTROL Include "No value"]** plaatsen wordt ongecontroleerd, wordt de **[!UICONTROL No value]** rij verwijderd uit de lijst, het totaal van de Lijst, en door aan om het even welke berekende metriek loopt die [*Totale* metrische types ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) gebruiken. |
 | Wanneer de filters van de douanetabel op een vrije vormlijst worden toegepast, doe al mijn berekende metriek en voorwaardelijke het formatteren rekening voor de filter? | Momenteel niet. **[!UICONTROL Include "No value"]** is een account, maar aangepaste tabelfilters hebben geen invloed op het volgende:<ul><li>Het maximale/minimale bereik van de kolom dat bij voorwaardelijke opmaak wordt gebruikt, loopt over alle gegevens.</li><li>Berekende waarden die gebruikmaken van **[!UICONTROL Grand total]** -metrische typen.</li><li>Berekende metriek met functies die over rijen in een vrije vormlijst berekenen: Kolomsom, Kolommaximum, Kolom min, Aantal, Gemiddelde, Mediaan, Percentage, Kwartaal, Aantal rijen, Standaardafwijking, Variantie, Cumulatief, Cumulatief Gemiddelde, Regressievarianten, T-Score, T-Test, Z-Score en Z-Test.</li></ul> |
 | Wat weerspiegelt het metrische type **[!UICONTROL Grand total]** in Berekende metriek? | **[!UICONTROL Grand total]** blijft naar **[!UICONTROL Grand total]** verwijzen en geeft geen filters weer die op een tabel of de **[!UICONTROL Table total]** zijn toegepast. |
 | Welk totaal wordt getoond wanneer de gegevens of van een vrije vormlijst worden gekopieerd en worden gekleefd of via CSV worden gedownload? | De totale rij geeft alleen **[!UICONTROL Table total]** weer en neemt de instelling voor de kolom **[!UICONTROL Show totals]** in acht. |

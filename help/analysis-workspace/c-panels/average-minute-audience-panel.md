@@ -4,9 +4,9 @@ description: Het mediapictogram voor een gemiddeld aantal minuten in Analysis Wo
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 28a43ef92bee1359509c0c3f92d51a08653830c3
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 0%
 >title="Gemiddeld aantal minuten voor medium"
 >abstract="Maak een deelvenster om het gemiddelde aantal minuten voor specifieke inhoud of over een bepaalde periode te analyseren."
 
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -29,8 +28,6 @@ ht-degree: 0%
 >id="cja_workspace_mediaaverageminuteaudience_panel"
 >title="Gemiddeld aantal minuten voor medium"
 >abstract="Toont de prestaties van specifieke media inhoud of over een periode van de douanetijd.<br/><br/>**Algemene parameters **<br/>**berekenen metrisch voor**: Selecteer metrisch aan gebruik voor het paneel. Selecteer **Specifieke inhoud** om gemiddeld minieme publiek voor specifieke inhoud of gebeurtenis te analyseren die op de inhoudslengte wordt gebaseerd. **Uitgezochte de tijdperiode van de Douane** om te analyseren hoe het gemiddelde minieme publiek over een douane geselecteerde periode verandert.<br/>**Meldend afmeting**: Uitgezocht om door **VideoNaam** van **te melden identiteitskaart van de Inhoud** afmeting. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde.<br/>**Korreligheid**: Selecteer granulariteit voor het melden. Alleen beschikbaar wanneer u Aangepaste tijdsperiode hebt geselecteerd als metrisch.<br/>**inhoud van de Filter door (facultatief)**: Selecteer een specifieke show, een seizoen, een episode, of selecteer een douaneafmeting om de inhoud te filtreren.<br/><br/>**Geavanceerde montages **<br/>**de montages van de Lijst**: Selecteer of om berekeningswaarden in de lijst te tonen.<br/>**bestede tijd metrisch**: Selecteer welke tijd metrisch doorbracht u voor de specifieke inhoudsberekening zou willen gebruiken. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#specific-content" text="Specifieke inhoud"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#custom-time-period" text="Aangepaste tijdsperiode"
 
 <!-- markdownlint-enable MD034 -->
 

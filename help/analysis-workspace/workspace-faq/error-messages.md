@@ -4,9 +4,9 @@ title: Algemene fouten en probleemoplossing in Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: ec32b7bca6fd4fc4b2652d1265048ec788f19718
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ Sommige veelvoorkomende foutberichten die u kunt zien bij het gebruik van Analys
 | [!UICONTROL This report is too complex. Please review best practices for building Analysis Workspace reports.] | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn time-outs vanwege de complexiteit van het verzoek. | Vereenvoudig uw verzoek. U kunt bijvoorbeeld het datumbereik verkorten of de filtercriteria vereenvoudigen of kolommen of rijen uit de tabel verwijderen. U zou ook kunnen overwegen de lijst in afzonderlijke verzoeken te verdelen. |
 | [!UICONTROL The data view is currently exceeding its reporting capacity. Please simplify the request or try again later.] | Uw organisatie probeert te veel gelijktijdige aanvragen uit te voeren in een specifieke gegevensweergave. Medewerkers aan deze fout zijn API verzoeken, geplande projecten, en gezamenlijke gebruikers die rapportageverzoeken indienen. | Verspreid uw verzoeken en programma&#39;s voor de gegevensmening gelijkmatiger door de dag. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under **[!UICONTROL Help > Submit Support Ticket]** and include your error code.] | Adobe heeft te maken met een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
-| [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [ firewallmontages ](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses), zijn een bijdragende factor aan deze fout. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
+| [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [ firewallmontages ](/help/technotes/ip-addresses.md), zijn een bijdragende factor aan deze fout. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | Uw tabel bevat te veel vrije-vormcellen (rij * kolommen). | Verwijder kolommen of rijen in de tabel of u kunt de tabel opsplitsen in afzonderlijke aanvragen. |
 
 

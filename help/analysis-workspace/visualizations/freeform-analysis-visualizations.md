@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1529'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 
-   * Voeg a [ leeg paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) toe, dan selecteer de visualisatie die u wilt toevoegen.
+   * Voeg a [ leeg paneel ](/help/analysis-workspace/c-panels/blank-panel.md) toe, dan selecteer de visualisatie die u wilt toevoegen.
 
    * Selecteer **[!UICONTROL Duplicate visualization]** of **[!UICONTROL Copy visualization]** in het contextmenu van een bestaande visualisatie in uw Analysis Workspace-project.
 
