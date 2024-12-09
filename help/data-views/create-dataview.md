@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
+source-git-commit: 60daea2b6c376c417a998a986c8fdfdff85decd9
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 Een gegevensweergave maken of bewerken:
 
 1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en ga naar het **[!UICONTROL Data views]** lusje.
-1. Als u een gegevensweergave wilt maken, selecteert u **[!UICONTROL Create new data view]**. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
+1. Selecteer **[!UICONTROL Create new data view]** om een gegevensweergave te maken. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 
 ## Configureren {#configure}
@@ -80,7 +80,7 @@ Deze sectie is alleen zichtbaar voor beheerders die zijn ingericht met Journey O
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Reeks als standaardgegevensmening in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage voor Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Het staat u ook toe om geavanceerde analyse van uw gegevens van Adobe Journey Optimizer in Customer Journey Analytics uit te voeren (door ![ Open ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) te selecteren [!UICONTROL **analyseert in CJA**] terwijl in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een gegevensweergave voor Customers Journey Analytics om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van de Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li></ul>Zie [ Adobe Journey Optimizer met Adobe Customer Journey Analytics ](/help/integrations/ajo.md) voor meer informatie integreren. |
+| [!UICONTROL **Reeks als standaardgegevensmening in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage voor Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Het staat u ook toe om geavanceerde analyse van uw gegevens van Adobe Journey Optimizer in Customer Journey Analytics uit te voeren (door ![ Open ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) te selecteren [!UICONTROL **analyseert in CJA**] terwijl in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een gegevensweergave voor Customers Journey Analytics om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van de Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li><li>Als deze optie is geselecteerd, kan de verbinding die aan de gegevensweergave is gekoppeld, niet worden verwijderd.</li></ul>Zie [ Adobe Journey Optimizer met Adobe Customer Journey Analytics ](/help/integrations/ajo.md) voor meer informatie integreren. |
 
 {style="table-layout:auto"}
 
@@ -92,7 +92,7 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 | --- | --- |
 | [!UICONTROL **de containernaam van de Persoon**] | [!UICONTROL Person] (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | [!UICONTROL **de containernaam van de Zitting**] | [!UICONTROL Session] (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
-| [!UICONTROL **Naam van gebeurteniscontainer**] | [!UICONTROL Event] (standaardinstelling). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
+| [!UICONTROL **de containernaam van de Gebeurtenis**] | [!UICONTROL Event] (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -174,8 +174,8 @@ U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/wo
 
 U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert. Sleep een filter van de lijst in de linkerspoorstaaf aan het [!UICONTROL Add filters] gebied.
 
-### Sessie-instellingen
+### Sessieinstellingen
 
-Bepaal de tijdsperiode van inactiviteit tussen gebeurtenissen voordat een sessie verloopt en een nieuwe sessie wordt gestart. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [ montages van de Zitting ](session-settings.md) voor meer details.
+Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [ montages van de Zitting ](session-settings.md) voor meer details.
 
 Klik op **[!UICONTROL Save and finish]** als alle gewenste instellingen zijn opgegeven.
