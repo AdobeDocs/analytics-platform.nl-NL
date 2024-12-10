@@ -4,7 +4,7 @@ title: Snelle filters
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Wanneer u snelle filters wilt gebruiken, moet u het volgende opmerken:
 
 ## Maken
 
-Snelle filters zijn van toepassing op panelen. U kunt één meer snelle filters voor elk paneel in uw Workspace project tot stand brengen. Elke gebruiker in Analysis Workspace kan snelle filters maken.
+Snelle filters zijn van toepassing op panelen. U kunt een of meer snelle filters maken voor elk deelvenster in uw Workspace-project. Elke gebruiker in Analysis Workspace kan snelle filters maken.
 
 Een snelfilter maken:
 

@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Voorbeelden van wat u kunt doen met een [!UICONTROL Cohort table] :
 >[!IMPORTANT]
 >
 >[!UICONTROL Cohort Analysis] biedt geen ondersteuning voor niet-filterbare metriek (inclusief berekende meetwaarden), niet-gehele getallen (zoals Opbrengst) of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan in [!UICONTROL Cohort Analysis] worden gebruikt en kan slechts één voor één worden verhoogd.
+
+De lijsten van de cohort in Customer Journey Analytics steunen dubbel-gebaseerd (of om het even welk numeriek-gebaseerd) metrisch. Purchase.Value (een dubbele waarde) kan bijvoorbeeld worden gebruikt als een insluitings-/retourmetrisch object. Bovendien zijn alle meetgegevens die via de Analytics Source Connector naar Adobe Experience Platform worden doorgegeven, verdubbelbaar.
 
 ## Mogelijkheden voor kleurentabellen
 
