@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
+source-git-commit: 78803a2062b38b0f4a80837d18dbf3e9cc609cc8
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Als u de de afmetingspunten van identiteitskaart van de dataset zou willen ander
 
 +++
 
-### Opnieuw afspelen
+## Opnieuw afspelen
 
 +++ Hoe ver is het stitching replay bezoekers?
 
