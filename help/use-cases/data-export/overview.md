@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In deze sectie worden gebruiksgevallen voor gegevensuitvoer beschreven en wordt 
 
 ## Inleiding
 
-Een van de unieke verschillen tussen Adobe Analytics en Customer Journey Analytics houdt verband met de verwerking van gegevens voor attributie en sessionisatie. Zie [Gegevensverwerking in Adobe Analytics en Customer Journey Analytics vergelijken](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) voor meer informatie .
+Een van de unieke verschillen tussen Adobe Analytics en Customer Journey Analytics houdt verband met de verwerking van gegevens voor attributie en sessionisatie. Zie [ gegevensverwerking over Adobe Analytics en Customer Journey Analytics ](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) voor meer informatie vergelijken.
 
 ### Adobe Analytics: toewijzing en sessionisatie van de verzameltijd.
 
@@ -38,7 +38,7 @@ Dit is van invloed op de uitvoer van gegevens uit Adobe Analytics:
 
 In Customer Journey Analytics, worden de gebeurtenissen niet verzameld in orde en een persoon identiteitskaart wordt gebruikt in plaats van een apparatenidentiteitskaart, toestaand Customer Journey Analytics om attributie en zittingsonisatie bij rapporttijd bij te werken. Dit type gegevensverzameling introduceert flexibiliteit, zoals:
 
-* Stitching kan _replay_ gegevens dagelijks of wekelijks, associërend anonieme gebeurtenissen met bekende gebeurtenissen. Zie [Stiksel](../../stitching/overview.md) voor meer informatie .
+* Stitching kan _gegevens dagelijks of wekelijks opnieuw spelen 1}, associerend anonieme gebeurtenissen met bekende gebeurtenissen._ Zie [ het Plaatsen ](../../stitching/overview.md) voor meer informatie.
 * Sessionisatie en aanhoudend waarden veranderen telkens als
    * nieuwe gegevens worden verzameld of
    * stitching voegt gebeurtenissen toe aan de geschiedenis van een persoon .
@@ -73,7 +73,7 @@ Over het algemeen worden bij het exporteren van gegevens een aantal gebruiksgeva
 
 | Gebruiksscenario&#39;s bij exporteren van gegevens | Functies voor Experience Platform en Customer Journey Analytics |
 |---|---|
-| **Gegevensback-up**<br/> Bewaar een volledige kopie van uw digitale gegevens voor compatibiliteits- of regelgevingsdoeleinden. | **Experience Platform**: [**Gegevensbestanden exporteren**](export-datasets.md)<br/> Exporteer gegevens die in Experience Platform zijn verzameld rechtstreeks naar cloudinstellingen volgens een planning of een ad-hoc-procedure.<br/>*Momenteel beperkte release is er naar verwachting in juni 2024 een volledige release voor klanten van Customers Journey Analytics.* |
-| **Gegevensvalidatie**<br/> Evalueer klikstroomgegevens voor de nauwkeurigheid van de gegevensinzameling. | **Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br/> Interactieve PostSQL-interface om ad-hoc SQL-query&#39;s uit te voeren met uw favoriete SQL-gereedschap om de gegevens in uw datasets te valideren.<br/><br/>**Customer Journey Analytics**: [**Volledige tabel exporteren**](export-full-table.md)<br/> Valideer verwerkte gegevens van CJA met toegepaste attributie en sessionisatie. |
-| **Data Lake-, Data Warehouse- of BI-gereedschappen**<br/> Breng digitale gegevens in uw eigen hulpmiddelen BI of het Meer van Gegevens voor gebruik met extra datasets. | **Customer Journey Analytics**: [**BI Extension**](bi-extension.md)<br/> Voeg Customer Journey Analytics verwerkte metriek aan de hulpmiddelen van de gegevensvisualisatie zoals Power BI toe en combineer met extra gegevens voor douanerapporten <br/><br/>**Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br> Genereer aangepaste klikstreamgegevens met behulp van SQL die naar wolkendoelen moeten worden geleverd. |
-| **Gereedheid voor AI/ML**<br/> Verbeter de modellen en taken voor kunstmatige intelligentie/machinaal leren met gegevens over Customers Journey Analytics. | **Customer Journey Analytics**: [**Volledige tabel exporteren**](export-full-table.md)<br/> De verwerkte afmetingen en metriek van de Customer Journey Analytics van de uitvoer naar wolkenbestemmingen eenmalig of terugkerend, met inbegrip van berekende metriek en segmentatie.<br/><br/>**Experience Platform**: [**Query-service (Data Distiller) en exportgegevenssets**](queryservice-export-datasets.md)<br/> Genereer aangepaste klikstreamgegevens met behulp van SQL om AI / ML-modellen te verrijken. |
+| **Steun van Gegevens**<br/> behoudt een volledig exemplaar van uw digitale gegevens voor naleving of regelgevende doeleinden. | **Experience Platform**: [**de datasets van de Uitvoer**](export-datasets.md)<br/> gegevens die in Experience Platform direct aan wolkenbestemmingen op een programma of ad hoc worden verzameld. |
+| **Bevestiging van Gegevens**<br/> evalueert klikstroomgegevens voor de nauwkeurigheid van de gegevensinzameling. | **Experience Platform**: [**de Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer**](queryservice-export-datasets.md)<br/> Interactieve interface PostgreSQL om ad-hoc SQL vragen uit te voeren gebruikend uw favoriete SQL hulpmiddel om de gegevens in uw datasets te bevestigen.<br/><br/>**Customer Journey Analytics**: [**de volledige lijst van de Uitvoer**](export-full-table.md)<br/> bevestigt verwerkte gegevens van CJA met toegepaste attributie en sessionization. |
+| **het Meer van Gegevens, Data Warehouse of de hulpmiddelen van BI**<br/> brengen digitale gegevens in uw eigen hulpmiddelen van BI of het Meer van Gegevens voor gebruik met extra datasets. | **Customer Journey Analytics**: [**BI de Uitbreiding**](bi-extension.md)<br/> verwerkt de metriek van de Customer Journey Analytics aan de hulpmiddelen van de gegevensvisualisatie zoals Power BI en combineert met extra gegevens voor douanerapporten <br/><br/>**Experience Platform**: [**de Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer**](queryservice-export-datasets.md)<br> produceren aangepaste klikstroomgegevens gebruikend SQL om aan wolkenbestemmingen te worden geleverd. |
+| **Readiness voor AI / ML**<br/> verbeter Kunstmatige Intelligentie/het Leren van de Machine modellen en taken met Customer Journey Analytics gegevens. | **Customer Journey Analytics**: [**de Uitvoer volledige lijst**](export-full-table.md)<br/> verwerkte afmetingen en metriek van de Uitvoer naar wolkenbestemmingen één keer of terugkerend, met inbegrip van berekende metriek en segmentatie.<br/><br/>**Experience Platform**: [**de Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer**](queryservice-export-datasets.md)<br/> produceer aangepaste klikstroomgegevens gebruikend SQL om modellen te verrijken AI / ML. |

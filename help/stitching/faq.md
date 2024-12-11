@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1910'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 Hier volgen een aantal veelgestelde vragen over stitching:
 
-+++**hoe kan ik het stitching gebruiken om te zien hoe de mensen zich van één kanaal aan een andere bewegen?**
+## Verplaatsen over kanalen
+
++++ Hoe kan ik stitching gebruiken om te zien hoe mensen zich van één kanaal aan een andere bewegen?
 
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
@@ -29,13 +31,17 @@ Als u de de afmetingspunten van identiteitskaart van de dataset zou willen ander
 
 +++
 
-+++**Hoe ver terug stitching replay bezoekers?**
+### Opnieuw afspelen
+
++++ Hoe ver is het stitching replay bezoekers?
 
 Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie van gegevensreplay af. Als u bijvoorbeeld stitching instelt om gegevens eenmaal per week opnieuw af te spelen, is het terugzoekvenster voor het opnieuw afspelen zeven dagen. Als u stitching opstelling om gegevens elke dag opnieuw te spelen, is het raadplegingsvenster voor het opnieuw beginnen één dag.
 
 +++
 
-+++**hoe worden gedeelde apparaten behandeld?**
+## Gedeelde apparaten
+
++++ Hoe worden gedeelde apparaten afgehandeld?
 
 In sommige situaties, is het mogelijk dat de veelvoudige mensen van het zelfde apparaat login. De voorbeelden omvatten een gedeeld apparaat thuis, gedeelde PCs in een bibliotheek, of een kiosk in een detailhandelsafzet.
 
@@ -43,7 +49,9 @@ De tijdelijke id negeert de blijvende id, zodat gedeelde apparaten als afzonderl
 
 +++
 
-+++**hoe het stitching behandelen situaties waar één enkele persoon vele blijvende IDs heeft?**
+## Veel permanente id&#39;s
+
++++ Hoe kan stitching situaties verwerken waarin één persoon vele blijvende IDs heeft?
 
 In sommige situaties kan een individuele gebruiker veel permanente id&#39;s koppelen. Een voorbeeld hiervan is dat een gebruiker vaak de cookies van de browser wist of de persoonlijke/incognitomodus van de browser gebruikt.
 
@@ -53,13 +61,17 @@ Voor op een grafiek gebaseerde stitching, kan één enkele persoon vele blijvend
 
 +++
 
-+++**Zodra ik mijn Team van de Rekening van de Adobe met de gewenste informatie contacteer, hoe lang neemt het voor de opgespoorde dataset om beschikbaar te worden?**
+## Stikproces
+
++++ Zodra ik mijn Team van de Rekening van de Adobe van het Team met de gewenste informatie contacteer, hoe lang duurt het voor de opgeklapte dataset om beschikbaar te worden?
 
 Livestitching is ongeveer een week beschikbaar nadat de Adobe stitching mogelijk maakt. De beschikbaarheid van back-ups is afhankelijk van de hoeveelheid bestaande gegevens. Kleine datasets (minder dan 1 miljoen gebeurtenissen per dag) nemen doorgaans een paar dagen in beslag, terwijl grote gegevenssets (1 miljard gebeurtenissen per dag) een week of meer kunnen duren.
 
 +++
 
-+++**wat is het verschil tussen dwars-apparatenanalyse (een eigenschap in traditionele Analytics) en dwars-kanaalanalyse?**
+## Apparaatanalyse versus kanaalanalyse
+
++++ Wat is het verschil tussen apparaatanalyse (een functie in traditionele Analytics) en kanaalanalyse?
 
 [ dwars-apparaat analyseert ](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) is een eigenschap specifiek voor traditionele Adobe Analytics die u toestaat om te begrijpen hoe de mensen over apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
 
@@ -67,7 +79,9 @@ Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journ
 
 +++
 
-+++**Hoe behandelt het Stitching privacyverzoeken?**
+## Privacy
+
++++ Hoe behandelt Stitching privacyverzoeken?
 
 Adobe behandelt verzoeken om privacy in overeenstemming met de lokale en internationale wetgeving. De Adobe biedt [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om verzoeken van de gegevenstoegang en schrapping voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
@@ -147,7 +161,9 @@ Wanneer een privacyverzoek voor klant met Loodje CustID wordt ontvangen, worden 
 
 +++
 
-+++**wat gebeurt als het Persistente gebied van identiteitskaart in één of meerdere gebeurtenissen leeg is?**
+## Lege permanente id-waarden
+
++++ Wat gebeurt er als het veld Persistent-id in een of meer gebeurtenissen leeg is?
 
 Als het veld Persistent-id leeg is voor een gebeurtenis in een gegevensset die wordt vastgezet, kunt u de opgetekende id voor die gebeurtenis op twee manieren bepalen:
 
@@ -157,7 +173,9 @@ Als het veld Persistent-id leeg is voor een gebeurtenis in een gegevensset die w
 +++
 
 
-+++**wat gebeurt als het Voorbijgaande gebied van identiteitskaart in één of meerdere gebeurtenissen placeholder waarden, als &quot;Onbepaald&quot;heeft?**
+## Ongedefinieerde overgangswaarden voor id&#39;s
+
++++ Wat gebeurt er als het veld Tijdelijke id in een of meer gebeurtenissen plaatsaanduidingswaarden heeft, zoals `Undefined` ?
 
 Wees voorzichtig met &#39;samenvouwen van persoon&#39;, wat optreedt wanneer het naaien wordt toegepast op gegevens die plaatsaanduidingswaarden gebruiken voor tijdelijke id&#39;s. In de onderstaande voorbeeldtabel worden niet-gedefinieerde personen-id&#39;s die afkomstig zijn van een gegevensset die afkomstig is van een CRM-systeem, gevuld met de waarde &#39;Ongedefinieerd&#39;, wat resulteert in een onjuiste weergave van personen.
 
@@ -177,7 +195,9 @@ Wees voorzichtig met &#39;samenvouwen van persoon&#39;, wat optreedt wanneer het
 
 +++
 
-+++**hoe vergelijken de metriek in Customer Journey Analytics gestikte datasets met gelijkaardige metriek in Customer Journey Analytics unstitched datasets en met Adobe Analytics?**
+## Metrische vergelijking
+
++++ Hoe vergelijken de metriek in Customer Journey Analytics gestikte datasets met gelijkaardige metriek in Customer Journey Analytics unstitched datasets en met Adobe Analytics?
 
 Bepaalde metriek in Customer Journey Analytics zijn gelijkaardig aan metriek in traditionele Analytics, maar anderen zijn verschillend, afhankelijk van wat u vergelijkt. In de onderstaande tabel worden verschillende gangbare meetwaarden vergeleken:
 
@@ -191,13 +211,18 @@ Andere meetgegevens zijn vergelijkbaar in Customer Journey Analytics en Adobe An
 
 +++
 
-+++**kan de Customer Journey Analytics de gebieden van de Kaart van de Identiteit gebruiken?**
+## Identiteitskaart
+
++++ Kan de Customer Journey Analytics de gebieden van de Kaart van de Identiteit gebruiken?
 
 Nee, Customer Journey Analytics kan de identiteitskaartvelden momenteel niet gebruiken voor stitching.
 
 +++
 
-+++**zullen de gegevens moeten worden opnieuw opgenomen om van op gebied-gebaseerde het stitching aan op grafiek-gebaseerde het stitching over te schakelen?**
+## Overschakelen naar op grafiek gebaseerde stitatie
+
++++ Moeten de gegevens opnieuw worden ingevoerd om van op het veld gebaseerde stitching naar op grafiek gebaseerde stitching over te schakelen?
+
 De gegevens moeten niet in Experience Platform opnieuw worden opgenomen, nochtans zal het in Customer Journey Analytics moeten worden opnieuw gevormd. Voer de volgende stappen uit:
 
 1. Opstelling de nieuwe grafiek-gebaseerde gestikte dataset.
@@ -207,7 +232,9 @@ De gegevens moeten niet in Experience Platform opnieuw worden opgenomen, nochtan
 
 +++
 
-+++**zou er om het even welke verstoring aan bestaande rapporten zijn?**
+## Verstoring van de rapportage
+
++++ Zou er een verstoring zijn van bestaande rapporten?
 
 Niet als u de hierboven beschreven stappen uitvoert. Anders vraagt u Adobe Consulting om aanvullende ondersteuning.
 
