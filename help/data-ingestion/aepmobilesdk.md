@@ -1,18 +1,18 @@
 ---
 title: Gegevens verzamelen via de Adobe Experience Platform Mobile SDK
-description: Verklaar hoe te om gegevens in Customer Journey Analytics via Adobe Experience Platform Mobile SDK en de Edge Network in te voeren
+description: Uitleggen hoe u gegevens in Customer Journey Analytics kunt opnemen via de Adobe Experience Platform Mobile SDK en de Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3085'
 ht-degree: 0%
 
 ---
 
-# Gegevens invoeren via de Mobile SDK
+# Gegevens verzamelen via de Mobile SDK
 
 In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van mobiele apps rechtstreeks in Adobe Experience Platform kunt opnemen met de Adobe Experience Platform Mobile SDK en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
 
@@ -392,7 +392,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteer **[!UICONTROL Save & Build to Development]** .
 
-   Uw tag wordt opgeslagen en gebouwd voor uw ontwikkelomgeving. Een groene stip geeft aan dat uw tag met succes is opgebouwd in uw ontwikkelomgeving.
+   Uw tag wordt opgeslagen en gemaakt voor uw ontwikkelomgeving. Een groene stip geeft aan dat uw tag met succes is opgebouwd in uw ontwikkelomgeving.
 
 4. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 

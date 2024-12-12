@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
+exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
+source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -39,10 +40,9 @@ Nadat u uw implementatie van SDK van het Web vormt, moet u de status van individ
 
 1. Selecteer de batch-id voor een bepaalde gegevensset en controleer vervolgens of **[!UICONTROL Success]** wordt weergegeven in het veld **[!UICONTROL Status]** .
 
-   Als **[!UICONTROL Failed]** in het **[!UICONTROL Status]** gebied wordt getoond, controleer uw implementatie van SDK van het Web om ervoor te zorgen dat het correct gegevens naar Adobe verzendt.
+   Als **[!UICONTROL Failed]** wordt weergegeven in het veld **[!UICONTROL Status]** , controleert u of de Web SDK-implementatie correct gegevens naar de Adobe verzendt.
 
    Herhaal deze stap om de status van elke batch te controleren.
 
-
-
+1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
 

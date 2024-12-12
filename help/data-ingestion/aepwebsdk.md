@@ -1,20 +1,20 @@
 ---
-title: Gegevens invoeren via de Adobe Experience Platform Web SDK
+title: Gegevens verzamelen via de Adobe Experience Platform Web SDK
 description: Verklaar hoe te om gegevens in Customer Journey Analytics via het Web SDK van Adobe Experience Platform en de Edge Network in te voeren
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3218'
 ht-degree: 0%
 
 ---
 
-# Gegevens verzamelen via de SDK van het web
+# Gegevens via Web SDK invoegen
 
-In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van websites rechtstreeks in Adobe Experience Platform kunt invoeren met de Adobe Experience Platform Web SDK en Edge Network en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
+In deze handleiding voor snel starten wordt uitgelegd hoe u gegevens voor het bijhouden van websites rechtstreeks in Adobe Experience Platform kunt invoeren met Adobe Experience Platform Web SDK en Edge Network en deze gegevens vervolgens in Customer Journey Analytics kunt gebruiken.
 
 Hiervoor moet u:
 
@@ -87,7 +87,7 @@ Uw schema instellen:
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Web SDK ExperienceEvent]** in de lijst.
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroep ](./assets/select-aepwebsdk-experienceevent.png)
+      ![ AEP Web SDK ExperienceEvent veldgroup ](./assets/select-aepwebsdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `web > webPageDetails > name` .
 
@@ -260,15 +260,15 @@ Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om deze te o
 
 #### **Uitbreidingen**
 
-Om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom), voegt u de extensie Web SDK van het platform Adobe toe aan uw tag.
+Om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw datastream), voegt u de extensie Web SDK van het Adobe Platform toe aan uw tag.
 
-U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configureren:
+U kunt als volgt de Adobe Experience Platform Web SDK-extensie maken en configureren:
 
 1. Selecteer **[!UICONTROL Extensions]** in het linkerspoor.
 
 2. Selecteer **[!UICONTROL Catalog]** in de bovenste balk.
 
-3. Zoek naar of blader naar de extensie van Adobe Experience Platform Web SDK en selecteer **[!UICONTROL Install]** om de extensie te installeren.
+3. Zoek of blader naar de extensie Adobe Experience Platform Web SDK en selecteer **[!UICONTROL Install]** om de extensie te installeren.
 
    <img src="./assets/aepwebsdk-extension.png" width="35%"/>
 
@@ -280,7 +280,7 @@ U kunt als volgt de extensie Adobe Experience Platform Web SDK maken en configur
 
 Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) voor meer informatie vormen.
 
-De SDK van het Web omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
+De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
 #### **Elementen van Gegevens**
 
@@ -312,7 +312,7 @@ Een gegevenselement voor de paginanaam definiëren:
 
    - Selecteer **[!UICONTROL Save]** .
 
-U wilt nu opstelling een gegevenselement van verwijzingen voorzien van Experience Cloud identiteitskaart die automatisch door het Web SDK van Adobe Experience Platform en beschikbaar door de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud wordt verstrekt.
+U wilt nu opstelling een gegevenselement van verwijzingen voorzien van Experience Cloud identiteitskaart die automatisch door SDK van het Web van Adobe Experience Platform en beschikbaar door de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud wordt verstrekt.
 
 Een ECID-gegevenselement definiëren:
 
@@ -444,13 +444,13 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteer **[!UICONTROL Save & Build to Development]** .
 
-   Uw tag wordt opgeslagen en gebouwd voor uw ontwikkelomgeving. Een groene stip geeft aan dat uw tag met succes is opgebouwd in uw ontwikkelomgeving.
+   Uw tag wordt opgeslagen en gemaakt voor uw ontwikkelomgeving. Een groene stip geeft aan dat uw tag met succes is opgebouwd in uw ontwikkelomgeving.
 
 4. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
    ![ Publish - bouwt Bibliotheek ](./assets/build-library.png)
 
-Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform Web SDK.
+Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK.
 
 Zie [ het Publiceren overzicht ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) voor meer informatie.
 
@@ -475,7 +475,7 @@ De code ophalen die naar de tag verwijst:
 
 3. Selecteer **[!UICONTROL Close]** .
 
-In plaats van de code voor het ontwikkelmilieu, zou u een ander milieu (het opvoeren, productie) kunnen selecteren die op waar wordt gebaseerd u in het opstellen van het Web SDK van Adobe Experience Platform bent.
+In plaats van de code voor de ontwikkelomgeving, zou u een andere omgeving (het opvoeren, de productie) kunnen selecteren die op waar wordt gebaseerd u bezig bent om het Web SDK van Adobe Experience Platform op te stellen.
 
 Zie [ Milieu&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?) voor meer informatie.
 
