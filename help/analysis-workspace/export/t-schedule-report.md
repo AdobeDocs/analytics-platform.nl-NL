@@ -6,7 +6,7 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Voor meer informatie, zie [ Geplande projecten ](/help/components/scheduled-proj
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_sendfile_password"
+>id="workspace_sendfile_password"
 >title="Wachtwoordversleuteling"
 >abstract="Het opgegeven wachtwoord wordt gebruikt om het bestand voor het geplande project te coderen. De beveiligingsvereisten voor uw organisatie vereisen wachtwoordversleuteling."
 

@@ -4,7 +4,7 @@ title: Leeg deelvenster
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_blankpanel_button"
+>id="workspace_blankpanel_button"
 >title="Leeg deelvenster"
 >abstract="Een selectie van deelvensters of visualisaties weergeven die u kunt maken om een volledig aangepaste analyse te maken."
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Deelvensters in Analysis Workspace"

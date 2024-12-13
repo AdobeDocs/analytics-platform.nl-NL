@@ -4,7 +4,7 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_keymetricsummary_button"
+>id="workspace_keymetricsummary_button"
 >title="Samenvatting van metrische sleutel"
 >abstract="Maak een visualisatie die een combinatie is van de diagrammen voor de regel, de samenvattingswijziging en het samenvattingsnummer. Gebruik deze visualisatie om te vergelijken hoe belangrijk de metriek tussen twee periodes trending."
 

@@ -5,7 +5,7 @@ title: Gegevensbronnen beheren
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_lockselection"
+>id="workspace_freeformtable_lockselection"
 >title="Selectie vergrendelen"
 >abstract="Schakel deze instelling in om de visualisatie te vergrendelen op de geselecteerde posities of op de geselecteerde items in de gegevensbron."
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_lockselection_showtable"
+>id="workspace_freeformtable_lockselection_showtable"
 >title="Tabel tonen"
 >abstract="Als u **[!UICONTROL Show table]** selecteert, wordt een nieuwe gegevensbron voor uw huidige visualisatie gegenereerd, los van de oorspronkelijke gegevensbron."
 

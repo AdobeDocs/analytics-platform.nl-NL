@@ -4,7 +4,7 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_button"
+>id="workspace_mediaconcurrentviewers_button"
 >title="Gelijktijdige viewers voor media"
 >abstract="Maak een deelvenster om het gemiddelde aantal minuten voor specifieke inhoud of over een bepaalde periode te analyseren."
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_panel"
+>id="workspace_mediaconcurrentviewers_panel"
 >title="Gelijktijdige viewers voor media"
 >abstract="Analyseer gelijktijdige viewers in de loop der tijd, bekijk de piektijkgelijktijdige, of onderbreek en vergelijk.<br/><br>**Korreligheid**: Selecteer tijdspanne om gezamenlijke kijkers door te bekijken.<br/>**de summiere aantallen van het Comité**:<br/> Optie om summiere aantallen met datum of tijddetails voor elke lijn te tonen. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimaal worden details voor de trog weergegeven.<br/>**(Facultatieve) de indeling van de Reeks**: Onderbreking visualisatie door segmenten, dimensies, afmetingspunten of datumwaaiers. U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau."
 

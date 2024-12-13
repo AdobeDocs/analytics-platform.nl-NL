@@ -4,7 +4,7 @@ title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_goalvalue"
+>id="workspace_bullet_goalvalue"
 >title="Waarde van doel"
 >abstract="**[!UICONTROL High goal]** is het belangrijkste doel dat u nastreeft. **[!UICONTROL Low goal]** en **[!UICONTROL Mid goal]** maken bereiken onder de [!UICONTROL High goal] . Opmerking: als de optie **[!UICONTROL Percentages]** is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is."
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_button"
+>id="workspace_bullet_button"
 >title="Opsommingsteken"
 >abstract="Creeer een visualisatie van de kogelgrafiek om te tonen hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt."
 

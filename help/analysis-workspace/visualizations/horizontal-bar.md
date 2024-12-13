@@ -4,7 +4,7 @@ title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De horizontale staafvisualisatie heeft een standaard en gestapelde optie.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbar_button"
+>id="workspace_horizontalbar_button"
 >title="Horizontale balk"
 >abstract="Maak een horizontale staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
 
@@ -36,7 +36,7 @@ Thie ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) **[!UICO
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbarstacked_button"
+>id="workspace_horizontalbarstacked_button"
 >title="Horizontale balk gestapeld"
 >abstract="Maak een horizontale staafvisualisatie om verschillende waarden voor een of meer gestapelde metriek weer te geven."
 

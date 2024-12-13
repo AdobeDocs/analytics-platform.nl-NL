@@ -4,7 +4,7 @@ title: Kleurenpalet Visualisatie
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_colorpalette"
+>id="workspace_project_colorpalette"
 >title="Kleurenpalet Project"
 >abstract="Wijzig het kleurenpalet dat in dit project wordt gebruikt."
 

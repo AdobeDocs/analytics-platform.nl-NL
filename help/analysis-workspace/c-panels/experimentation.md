@@ -4,7 +4,7 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_button"
+>id="workspace_experimentation_button"
 >title="Experimentatie"
 >abstract="Maak een deelvenster om verschillende gebruikerservaringen, marketing of berichtvariaties te vergelijken. En om te bepalen welke variatie het beste is om een specifiek resultaat te bepalen."
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_panel"
+>id="workspace_experimentation_panel"
 >title="Experimentatie"
 >abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat wordt geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
 
@@ -109,7 +109,7 @@ Het deelvenster Experimentatie gebruiken:
 
 Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Bij de bovenkant van het paneel, ](../visualizations/summary-number-change.md) worden de summiere veranderingen van 0} {verstrekt om u aan de paneelmontages te herinneren u selecteerde. [ U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
 
-U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsnummers zien voor de best presterende variant met de hoogste lichtsterkte en betrouwbaarheid.
+U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsaantallen voor de best presterende variant met de hoogste lift en het vertrouwen zien.
 
 Voor elk metrisch succes selecteerde u, wordt de lijst van de a [ vrije vorm ](../visualizations/freeform-table/freeform-table.md) visualisatie en een tarief van de omzettings [ lijn ](../visualizations/line.md) visualisatie getoond.
 

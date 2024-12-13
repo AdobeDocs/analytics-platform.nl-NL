@@ -4,7 +4,7 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_countrepeatinstances"
+>id="workspace_project_countrepeatinstances"
 >title="Herhalingsinstanties tellen"
 >abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/><br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
 
@@ -59,7 +59,7 @@ Nu u een Leeg project van Workspace hebt gecreeerd, zorg ervoor u met het [ Anal
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_repeatinstances"
+>id="workspace_project_repeatinstances"
 >title="Herhalingsinstanties tellen"
 >abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
 

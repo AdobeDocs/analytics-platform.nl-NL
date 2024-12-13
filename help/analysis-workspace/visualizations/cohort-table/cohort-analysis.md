@@ -4,7 +4,7 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_cohorttable_button"
+>id="workspace_cohorttable_button"
 >title="Cohortingtabel"
 >abstract="Maak een cohortvisualisatie om gebruikers te groeperen op basis van de voltooiing van een gebeurtenis en de doorlopende betrokkenheid te analyseren en in de loop van de tijd te verdraaien."
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_cohorttable_panel"
+>id="workspace_cohorttable_panel"
 >title="Keuzetabel"
 >abstract="Groepeer gebruikers op basis van voltooiing van een gebeurtenis en analyseer vervolgens hun doorlopende betrokkenheid en loop de tijd door.<br/><br/>**Parameters **<br/>**criteria van de Opname**: De componenten die worden gebruikt om uw aanvankelijke bezoekerscohorts te bepalen.<br/>**criteria van de Terugkeer**: De componenten die worden gebruikt om te bepalen als een bezoeker is teruggekeerd."
 

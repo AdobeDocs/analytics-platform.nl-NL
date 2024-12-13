@@ -4,7 +4,7 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_button"
+>id="workspace_flow_button"
 >title="Stroom"
 >abstract="Maak een visualisatie om de stroom van personen van het ene controlepunt naar het volgende te bekijken."
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_panel"
+>id="workspace_flow_panel"
 >title="Stroom"
 >abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
 

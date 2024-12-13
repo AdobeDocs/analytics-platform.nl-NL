@@ -4,7 +4,7 @@ title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_quickinsights_button"
+>id="workspace_quickinsights_button"
 >title="Snelle inzichten"
 >abstract="Maak een deelvenster om snel een vrije-vormtabel te maken en de bijbehorende visualisatie om inzichten sneller te analyseren en zichtbaar te maken."
 

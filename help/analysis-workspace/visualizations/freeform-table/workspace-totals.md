@@ -4,7 +4,7 @@ title: Totaal Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_grandtotal"
+>id="workspace_freeformtable_grandtotal"
 >title="Eindtotaal"
 >abstract="Groot totaal wordt niet ondersteund voor tabellen of uitsplitsingen met statische rijen"
 

@@ -4,7 +4,7 @@ title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 7%
@@ -65,7 +65,7 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
+>id="workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="Niet-standaard toewijzingsmodel gebruiken"
 >abstract="Schakel een niet-standaard toewijzingsmodel in voor de geselecteerde kolommen."
 
@@ -74,7 +74,7 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="Niet-standaard toewijzingsmodel gebruiken"
 >abstract="Niet-standaardtoewijzingsmodus is niet beschikbaar voor deze metrische waarde."
 

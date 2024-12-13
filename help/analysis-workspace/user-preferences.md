@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '3350'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics in de b
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_shareonlyworkspace"
+>id="workspace_prefs_shareonlyworkspace"
 >title="Alleen delen met Workspace-gebruikers toestaan"
 >abstract="Als deze optie is ingeschakeld, is de optie **[!UICONTROL Share with anyone]** niet meer beschikbaar voor gebruikers die een Analysis Workspace-project delen. De mensen die eerder toegang tot een project door deze aandeeloptie kregen kunnen niet meer tot het project toegang hebben."
 
@@ -52,7 +52,7 @@ Algemene voorkeuren zijn van toepassing op uw Customer Journey Analytics in de b
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_requireexperiencecloudauth"
+>id="workspace_prefs_requireexperiencecloudauth"
 >title="Verificatie van Experience Cloud vereisen"
 >abstract="Wanneer toegelaten, moeten de mensen die toegang tot een project van het Aandeel met iedereen optie in Analysis Workspace worden verleend voor authentiek verklaren gebruikend hun geloofsbrieven van het Experience Cloud."
 
@@ -75,7 +75,7 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_categoricalpalette"
+>id="workspace_prefs_categoricalpalette"
 >title="Categorisch palet"
 >abstract="Toegepast op vele visualisaties in Analysis Workspace en analyse met instructies. Elke kleur vertegenwoordigt een duidelijke categoriale waarde."
 
@@ -84,7 +84,7 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_divergingpalette"
+>id="workspace_prefs_divergingpalette"
 >title="Verticaal, palet"
 >abstract="Toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden."
 
@@ -93,7 +93,7 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_sequentialpalette"
+>id="workspace_prefs_sequentialpalette"
 >title="Sequentieel, palet"
 >abstract="Toegepast op de geleide analyse van de frequentie trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker."
 
@@ -124,7 +124,7 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showanomalies"
+>id="workspace_prefs_showanomalies"
 >title="anomalieën tonen"
 >abstract="Als u **[!UICONTROL Show anomalies]** selecteert, worden automatisch anomaliedetectie uitgevoerd voor de eerste metrische kolom die wordt toegevoegd aan de visualisatie van een Freeform-tabel uit een tijdreeks."
 
@@ -133,7 +133,7 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showforecast"
+>id="workspace_prefs_showforecast"
 >title="Voorvertoning weergeven"
 >abstract="Als u **[!UICONTROL Show forecast]** selecteert, wordt automatisch de eerste metrische kolom voorspeld die wordt toegevoegd aan de visualisatie van een tijdreeks voor de Freeform-tabel."
 

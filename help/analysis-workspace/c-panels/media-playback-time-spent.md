@@ -4,7 +4,7 @@ description: Het deelvenster Media afspelen in Analysis Workspace gebruiken en i
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_button"
+>id="workspace_mediaplaybacktimespent_button"
 >title="De afspeeltijd van media is verstreken"
 >abstract="Maak een deelvenster voor het analyseren van het videoverbruik in de loop der tijd, met verschillende granulariteitsniveaus en de mogelijkheid om af te breken en te vergelijken."
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_panel"
+>id="workspace_mediaplaybacktimespent_panel"
 >title="De afspeeltijd van media is verstreken"
 >abstract="Analyseer het videoverbruik in de loop der tijd, selecteer verschillende granulariteiten, verdeel en vergelijk het.<br/><br/>**Korreligheid**: Selecteer tijdspanne om gezamenlijke kijkers door te bekijken.<br/>**de summiere aantallen van het Comité (facultatief)**: Optie om summiere aantallen met datum of tijddetails voor elke lijn te tonen. Bij Maximaal worden details voor de piekafspeeltijd weergegeven. Bij Minimaal worden details voor de trog weergegeven. De som zal details voor de totale som bestede playbacktijd tonen.<br/>**(Facultatieve) de indeling van de Reeks**: Onderbreking visualisatie door segmenten, dimensies, afmetingspunten of datumwaaiers. U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.<br/>**formaat van de Tijd**: Optie om het tijdformaat voor visualisaties in of uren of notulen te tonen."
 
