@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
+source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
 workflow-type: tm+mt
-source-wordcount: '15471'
+source-wordcount: '17950'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,23 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
 ### Meest populair {#most-popular}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--training"
+>id="aa-template--unitsOvertimeReport"
+>title="Geef het totale aantal eenheden weer dat is aangeschaft binnen alle bestellingen. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u helpen** beter begrijpen hoe de eenheidsverkoop in tijd stijgt of daalt. U zou een segment kunnen toepassen om te leren welke klanten of geographies de meeste eenheden kopen en hoe die eenheidsverkoop in tijd trending.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door eenheidsverkoop vóór en na de gelanceerde campagne te vergelijken. Of je vergelijkt de jaaromzet per eenheid tijdens de vakantie.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Eenheden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!--both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--training"
 >title="Sjabloon voor trainingszelfstudie"
 >abstract="Leer algemene Analysis Workspace-terminologie en stappen voor het maken van uw eerste analyse."
 
@@ -164,7 +177,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--pagesRankedReport"
+>id="template--pagesRankedReport"
 >title="Identificeer de populairste en minst populaire pagina&#39;s."
 >abstract="**dit kan u helpen** beter uw publiek en het soort informatie begrijpen zij het meest geinteresseerd zijn in.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals paginadetagegevens aanpassen om zicht op minder bekeken pagina&#39;s te verhogen, of tijd doorbrengen die de inhoud van uw meest bekeken pagina&#39;s verbetert.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Mening van de Pagina."
 
@@ -173,7 +186,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--pageViewsOvertimeReport"
+>id="template--pageViewsOvertimeReport"
 >title="Het totale aantal paginaweergaven weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. "
 >abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische de Meningen van de Pagina."
 
@@ -182,7 +195,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--visitsOvertimeReport"
+>id="template--visitsOvertimeReport"
 >title="Het totale aantal bezoeken weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** beter begrijpen hoe het verkeer op uw plaats in tijd zou kunnen stijgen of verminderen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door plaatsverkeer vóór en na de gelanceerde campagne te vergelijken. Of je zou jaar-over-jaar vakantieverkeer kunnen vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische bezoeken."
 
@@ -191,7 +204,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--visitorsOvertimeReport"
+>id="template--visitorsOvertimeReport"
 >title="Het totale aantal unieke bezoekers weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden. "
 >abstract="**dit kan u helpen** beter begrijpen hoe het bereik en de publieksgrootte van uw plaats in tijd of vergeleken met een vroegere periode stijgt of daalt.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of een onlangs gelanceerde marketing campagne succesvol was in het aantrekken van nieuwe mensen aan de plaats door unieke bezoekers vóór en na de gelanceerde campagne te vergelijken. Of je vergelijkt het aantal mensen dat de site bezoekt tijdens de vakantie van jaar tot jaar.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Unieke metrische Bezoekers. "
 
@@ -200,7 +213,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--keyMetricsReport"
+>id="template--keyMetricsReport"
 >title="Bekijk een rapport waarin de paginaweergaven, bezoeken en unieke bezoekersstatistieken naast elkaar worden weergegeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** deze belangrijke metriek vergelijken om een vollediger beeld van het aantal unieke mensen te bereiken die de plaats bezoeken, het aantal tijden werden de pagina&#39;s bezocht, en het aantal zittingen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het gemiddelde aantal pagina&#39;s beoordelen elke bekeken persoon wanneer het bezoeken van de plaats in een bepaalde week of een maand, en hoe dat tijdens bepaalde tijden van het jaar of vóór en na marketing campagnes veranderde in werking werden gesteld. <br/> Dit malplaatje gebruikt de afmeting van de Dag, metrische de Mening van de Pagina, metrische Bezoekers, en de Unieke metrische Bezoekers."
 
@@ -209,7 +222,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--siteSectionRankedReport"
+>id="template--siteSectionRankedReport"
 >title="Bekijk de populairste of best presterende gedeelten van uw site."
 >abstract="**dit kan u** helpen beter begrijpen welke secties van uw plaats het bezochte meest zijn.<br>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke producten of de diensten die u de meeste rente produceert.<br/> Dit malplaatje gebruikt de afmeting van de Sectie van de Plaats en metrische Bebezoeken."
 
@@ -218,7 +231,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--next-page-report"
+>id="template--next-page-report"
 >title="Bekijk de meest gangbare plaatsen die mensen direct na het bezoeken of vlak voor het bezoeken van een bepaalde plaats bezoeken."
 >abstract="**dit kan u helpen** begrijpen hoe het verkeer zich van een bepaalde pagina naar andere delen van uw plaats beweegt, en de wegen begrijpt die de mensen nemen om bij een bepaalde pagina aan te komen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen of het paginaontwerp of de lay-out zouden kunnen worden geoptimaliseerd om mensen aan wenselijke pagina&#39;s, zoals een pagina te leiden om een aankoop te maken of een overzicht te verlaten. Of ga na of de informatie op de huidige pagina waarschijnlijk de richting(en) aangeeft waarnaar mensen op zoek zijn wanneer ze van vorige pagina&#39;s komen. Of u zou kunnen beoordelen of de pagina&#39;s die niet zoals vorige pagina&#39;s verschijnen prominentere verbindingen aan de huidige pagina nodig hebben.<br/> Dit malplaatje gebruikt het Volgende of vorige puntpaneel."
 
@@ -227,7 +240,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--campaignRankedReport"
+>id="template--campaignRankedReport"
 >title="Bekijk de koppelingen die het meest succesvol zijn geweest in het besturen van verkeer naar uw site."
 >abstract="**dit kan u helpen** beter begrijpen welke het volgen codes (en de verbindingen zij met) worden geassocieerd het meest gebruikt in de toegang tot van uw plaats.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw strategie aanpassen waar u verbindingen aan uw plaats toevoegt.<br/> Dit malplaatje gebruikt de het Volgen dimensie van de Code en metrische bezoeken."
 
@@ -236,7 +249,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--productsRankedReport"
+>id="template--productsRankedReport"
 >title="Bekijk het aantal bestellingen per product. Gegevens worden weergegeven over een tijdsperiode."
 >abstract="**dit kan u helpen** begrijpen welke producten in de hoogste of laagste vraag zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing strategieën aanpassen om hoog-presterende producten te bevorderen of te verbeteren of te beëindigen ondermaatse producten. U kunt ook de productvoorraad aanpassen op basis van uw analyse van de gegevens.<br/> Dit malplaatje gebruikt de afmeting van het Product en metrische Orden."
 
@@ -245,7 +258,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--lastTouchChannelRankedReport"
+>id="template--lastTouchChannelRankedReport"
 >title="Bekijk de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
 >abstract="**dit kan u helpen** begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Afmeting van het Kanaal van de Laatste Aanraking en de Unieke metrische Bezoekers."
 
@@ -254,7 +267,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--lastTouchChannelDetailRankedReport"
+>id="template--lastTouchChannelDetailRankedReport"
 >title="Gegevens over de meest recente marketingkanalen waarmee bezoekers te maken hebben tijdens hun serviceperiode (standaard 30 dagen)."
 >abstract="**dit kan u helpen** niet alleen begrijpen welke marketing kanalen het meest effectief in het brengen van mensen aan uw plaats waren die in omzettingen, maar details over die marketing kanalen resulteren. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen toewijzen aan hoog-presterende kanalen, of minder middelen toewijzen aan ondermaatse kanalen.<br/> Dit malplaatje gebruikt de Laatste meta van het Detail van het Kanaal van de Aanraking en de Unieke metrische Bezoekers. "
 
@@ -263,7 +276,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--revenueOvertimeReport"
+>id="template--revenueOvertimeReport"
 >title="Geef het geldbedrag weer van de producten die in alle bestellingen zijn aangeschaft. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** begrijpen hoe de opbrengst in tijd stijgt of daalt. U kunt deze metrisch met om het even welke afmeting combineren om te leren welke afmetingspunten aan opbrengst droegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de opbrengst van de projecttoekomst die op vorige tendensen wordt gebaseerd. U zou een andere dimensie, zoals de het Volgen codedimensie, kunnen ook toevoegen om te leren welke campagnes de meeste opbrengst produceren.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Opbrengst."
 
@@ -272,7 +285,7 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--ordersOvertimeReport"
+>id="template--ordersOvertimeReport"
 >title="Het totale aantal aankoopgebeurtenissen weergeven. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** beter begrijpen hoe de belangstelling in uw producten en de diensten in tijd stijgt of daalt. U kon een segment toepassen om te leren welke klanten of geographies de meeste orden plaatsen en hoe die orden in tijd trending.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling van de doeltreffendheid van onlangs gelanceerde marketing campagne door orden vóór en na de gelanceerde campagne te vergelijken. Of je kunt vakantiebestellingen van jaar tot jaar vergelijken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en metrische Orden."
 
@@ -299,6 +312,127 @@ De volgende sjablonen zijn beschikbaar:
 
 ### web: betrokkenheid {#web-engagement}
 
+<!--AA only-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timeSpentVisitOvertimeReport"
+>title="Bekijk de gemiddelde tijd die bezoekers tijdens elk bezoek aan uw site doorbrengen. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u** helpen de niveaus van de bezoekersbetrokkenheid beter begrijpen en hoeveel tijd bezoekers aan de plaats uitgeven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats in bezoekers resulteren die meer tijd op de plaats doorbrengen.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Tijd die per (seconden) metrisch van het Bezoek besteedt."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timePriorRankedReport"
+>title="Geef de gemiddelde tijd weer die gebruikers doorbrengen voordat een geslaagde gebeurtenis plaatsvindt."
+>abstract="**dit kan u helpen** beter begrijpen hoeveel tijd het bezoekers neemt om een gewenste actie uit te voeren, zoals het maken van een aankoop.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats bezoekers&#39; capaciteit verbeteren om een succesgebeurtenis snel te bereiken.<br/> Dit malplaatje gebruikt de Tijd voorafgaand aan de afmeting van de Gebeurtenis en de Unieke metrische Bezoekers."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--falloutReport"
+>title="Bekijk waar mensen een vooraf gedefinieerde reeks pagina&#39;s verlaten of doorlopen."
+>abstract="**dit kan u helpen** beter begrijpen waar de mensen uit de gebruikersreis vallen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals omzettingspercentages door specifieke processen op uw plaats (zoals een aankoop of registratieproces) analyseren, of correlaties tussen gebeurtenissen op uw plaats analyseren. (Bijvoorbeeld, welk percentage van mensen die naar uw privacybeleid keken ging om een product te kopen.) U kunt dit malplaatje ook gebruiken om zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit te voeren.<br/> Dit malplaatje gebruikt de visualisatie van de Vallout."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--cross-device-analysis"
+>title="Bekijk welke apparaten mensen over alle punten van de reis gebruikten."
+>abstract="**dit kan u helpen** beter begrijpen hoeveel mensen met uw merk, de soorten apparaten interactie aangaan zij gebruiken, en hoe hun gebruik van veelvoudige apparaten hun ervaring beïnvloedt. Bijvoorbeeld, hoe vaak beginnen de mensen een taak op een mobiel apparaat en dan later naar een Desktop gaan om een taak te voltooien? Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze? En zo verder.<br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als bepaalde delen van de gebruikersreis voor een mobiele ervaring optimaliseren.<br/> Dit malplaatje gebruikt de visualisatie van de Stroom, de visualisatie van de Vallout, de analyse van de Cohort, metrische Mensen, en de Unieke metrische apparaten."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--web-retention"
+>title="Bekijk wie uw loyale gebruikers zijn en wat zij op uw plaats doen."
+>abstract="**dit kan u helpen** beter begrijpen het aantal tijden de gemiddelde persoon uw plaats bezoekt, de frequentie waarmee de mensen aan de plaats terugkeren, en het aantal dagen tussen terugkeerbezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als analyseert welke inhoud het meest effectief in het brengen van mensen terug naar de plaats is.<br/> Dit malplaatje gebruikt metrische Bebezoeken en de Unieke bezoekers metrische."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--audio-consumption-template"
+>title="De trends en de belangrijkste meetwaarden voor het audioverbruik van media op alle digitale apparaten bekijken."
+>abstract="**dit kan u helpen** beter begrijpen hoe de bezoekers audio inhoud op uw plaats verbruiken.<br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als analyseren welke inhoud het meest wordt verbruikt.<br/> Dit malplaatje gebruikt metrische Bebezoeken en de Unieke bezoekers metrische."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--media-recency-frequency-loyalty"
+>title="De trends en de belangrijkste meetwaarden van het mediaconsumptie op alle digitale apparaten bekijken."
+>abstract="**dit kan u helpen** beter begrijpen het aantal tijden de gemiddelde persoon uw plaats bezoekt, de frequentie waarmee de mensen aan de plaats terugkeren, en het aantal dagen tussen terugkeerbezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als analyseert welke inhoud het meest effectief in het brengen van mensen terug naar de plaats is.<br/> Dit malplaatje gebruikt metrische Bebezoeken en de Unieke bezoekers metrische."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--reloadsRankedReport"
+>title="Bekijk het aantal tijden een afmetingspunt tijdens een herlading aanwezig was. Een bezoeker die zijn browser vernieuwt, is de meest gebruikelijke manier om een nieuwe laadbewerking te starten."
+>abstract="**dit kan u helpen** identificeren wanneer de kwesties op een bepaalde pagina zouden kunnen voorkomen die een bezoeker zou ertoe aanzetten om de pagina opnieuw te laden.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordelen welke pagina&#39;s kwesties hebben die moeten worden gericht.<br/> Dit malplaatje gebruikt metrisch opnieuw laden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timeSpentPageRankedReport"
+>title="Bekijk de gemiddelde tijd die bezoekers tijdens elk bezoek aan uw site doorbrengen. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
+>abstract="**dit kan u** helpen de niveaus van de bezoekersbetrokkenheid beter begrijpen en hoeveel tijd bezoekers aan de plaats uitgeven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats in bezoekers resulteren die meer tijd op de plaats doorbrengen.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Tijd die per (seconden) metrisch van het Bezoek besteedt."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--entryPageOriginalRankedReport"
+>title="Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken gedurende de levensduur van een bezoeker."
+>abstract="**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--singlePageVisitsRankedReport"
+>title="Bekijk het aantal bezoeken dat uit één enkele unieke pagina bestond."
+>abstract="**dit kan u** helpen de niveaus van de bezoekersbetrokkenheid beter begrijpen en hoeveel tijd bezoekers aan de plaats uitgeven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats in bezoekers resulteren die meer tijd op de plaats doorbrengen.<br/> Dit malplaatje gebruikt de Enige dimensie van paginabezoeken."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--sitePerformanceOverview"
+>title="Geef prestatiegegevens voor je Adobe Experience Manager-site weer."
+>abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--itp-impact"
+>title="De effecten van Intelligent Tracking Prevention (ITP) op gegevensverzameling en -rapportage weergeven en analyseren."
+>abstract="**dit kan u** beter begrijpen potentieel gegevensverlies toe te schrijven aan koekjesbeperkingen die door ITP worden opgelegd.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw analytische opstelling aanpassen om het effect van ITP te minimaliseren."
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -311,7 +445,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-content-consumption"
+>id="template--web-content-consumption"
 >title="Bekijk welke webinhoud het meest wordt verbruikt en aantrekkelijke gebruikers is."
 >abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties."
 
@@ -320,7 +454,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--media-content-consumption"
+>id="template--media-content-consumption"
 >title="Bekijk welke media-inhoud het meest wordt verbruikt en aantrekkelijke gebruikers zijn."
 >abstract="**dit kan u helpen** beter begrijpen waar de mensen op eerste het ingaan van de plaats gaan, welke secties van de plaatsmensen het meest bezoeken, en welke pagina&#39;s hoogstwaarschijnlijk mensen weg van de plaats zullen drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als evalueert welke wegen op de plaats mensen tot de belangrijkste pagina&#39;s drijven, en welke pagina&#39;s eerder mensen buiten de plaats zullen leiden.<br/> Dit malplaatje gebruikt de afmeting van de Pagina en metrische de Weergaven van de Pagina, metrische Bezoekingen, de Unieke metrische Bezoekers, de metrische het Tarief van de Ingang, metrische het Tarief van de Stuitstempel, metrische het Tarief van de Uitgang, en metrische de Snelheid van de Inhoud. Het gebruikt ook de visualisaties van de Stroom voor ingang, uitgang, en hoogste secties; een visualisatie van het Satterplot die paginameningen voor de gemeenschappelijkste pagina&#39;s toont; een Staafvisualisatie die paginameningen door buckette tijd toont; en een visualisatie van de Lijn die een trended mening van de gemiddelde tijd toont die aan de plaats wordt doorgebracht."
 
@@ -329,7 +463,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--page-summary-report"
+>id="template--page-summary-report"
 >title="Belangrijke informatie over om het even welke pagina over uw eigenschappen bekijken. Toont paginameningen, een trendlijn, een stroomvisualisatie, en meer."
 >abstract="**dit kan u helpen** beter begrijpen hoe de mensen met een bepaalde pagina in wisselwerking staan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de prestaties van de pagina over een periode analyseren of beter begrijpen wat verkeer aan de pagina drijft.<br/> Dit malplaatje gebruikt metrisch de Meningen van de Pagina. Het gebruikt ook de Lijnvisualisatie en de visualisatie van de Stroom."
 
@@ -338,7 +472,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--entryPageRankedReport"
+>id="template--entryPageRankedReport"
 >title="Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken."
 >abstract="**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
 
@@ -347,7 +481,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--exitPageRankedReport"
+>id="template--exitPageRankedReport"
 >title="Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten."
 >abstract="**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.<br/> Dit malplaatje gebruikt metrische Sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie."
 
@@ -373,10 +507,32 @@ De volgende sjablonen zijn beschikbaar:
 
 ### Web: Conversie {#web-conversion}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--productConversionReport"
+>id="aa-template--categoryRankedReport"
+>title="."
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--commerce-and-marketing-management"
+>title="Bekijk vooraf gebouwde inzichten voor detailhandelaren over uw handelsactiviteiten om verkoop te helpen verbeteren. Dit is gericht op gebruikers van Magento, maar kan door om het even welke online detailhandelaar worden gebruikt."
+>abstract="**dit kan u helpen** beter begrijpen hoe uw handelsactiviteiten aan verkoopaantallen bijdragen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als begrotingen aanpassen aan activiteiten die het meeste ROI krijgen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--productConversionReport"
 >title="Sjabloon voor productieconversie"
 >abstract=""
 
@@ -385,7 +541,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--retail-products-template"
+>id="template--retail-products-template"
 >title="Bekijk welke producten het best presteren."
 >abstract="**dit kan u helpen** beter begrijpen welke producten het meest succesvol zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals verhoging van financiering aan succesvolle producten en vermindering financiering aan minder succesvolle producten.<br/> dit malplaatje gebruikt de Weergaven van het Product, de Toevoegingen van de Kar, Orden, Inkomsten, en de metriek van Eenheden. Het gebruikt ook de dimensie van het Product."
 
@@ -394,7 +550,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartConversionReport"
+>id="template--cartConversionReport"
 >title="Bekijk het aantal keren dat mensen toetsafhandelingsgebeurtenissen hebben uitgevoerd, zoals het toevoegen van items aan hun winkelwagentje, het bekijken van hun winkelwagentje, het verwijderen van items uit hun winkelwagentje en het uitchecken."
 >abstract="**dit kan u helpen** beter begrijpen welke delen van het controleproces trechter die tot omzetting leiden en die aan kartontroeping vatbaarder zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als vermindering wrijving bij bepaalde stappen van het controleproces.<br/> Dit malplaatje gebruikt"
 
@@ -403,7 +559,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartsOvertimeReport"
+>id="template--cartsOvertimeReport"
 >title="Bekijk het aantal personen dat een product aan hun winkelwagentje heeft toegevoegd."
 >abstract="**dit kan u helpen** beter het aantal mensen begrijpen die een product aan hun kar, in tegenstelling tot het algemene aantal producten toevoegen die aan een kar worden toegevoegd.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als maatregel de doeltreffendheid van uw productpagina&#39;s.<br/> Dit malplaatje gebruikt metrische Waren."
 
@@ -412,7 +568,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartViewsOvertimeReport"
+>id="template--cartViewsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen hun winkelwagentje bekeken."
 >abstract="**dit kan u helpen** beter de controleervaring in een inspanning begrijpen om het tarief van de kartontroeping te verminderen, of de tijd tussen karttoevoegingen en controles onder verschillende producten te analyseren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals aanbiedingsbevorderingen voor producten die in winkelwagentjes het langst blijven en bij het grootste risico voor verlaten zijn.<br/> Dit malplaatje gebruikt metrische de Meningen van het Kart."
 
@@ -421,7 +577,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartAdditionsOvertimeReport"
+>id="template--cartAdditionsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen iets aan hun winkelwagen hebben toegevoegd."
 >abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanteninteresse in een product hoog genoeg is dat zij het aan hun kar toevoegen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als productaanbevelingen voor alle klanten verbeteren. Dit kan worden gedaan door te analyseren welke producten vaak aan dezelfde karretjes worden toegevoegd en door verwante producten voor te stellen op basis van producten die al in de kar staan."
 
@@ -430,7 +586,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartRemovalsOvertimeReport"
+>id="template--cartRemovalsOvertimeReport"
 >title="Bekijk het aantal keren dat mensen iets uit hun winkelwagentje hebben verwijderd."
 >abstract="**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanten niet meer in een product geinteresseerd zijn, of het kan u helpen begrijpen waar de problemen in het controleproces zouden kunnen bestaan.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als om het even welke potentiële barrières verwijderen die in het controleproces, zoals een gecompliceerde gebruikerservaring zouden kunnen bestaan.<br/> Dit malplaatje gebruikt metrische de Verwijderingen van de Kar."
 
@@ -439,7 +595,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--purchaseConversionReport"
+>id="template--purchaseConversionReport"
 >title="Sjabloon voor conversietrechter"
 >abstract=""
 
@@ -463,10 +619,158 @@ De volgende sjablonen zijn beschikbaar:
 
 ### Web: Publiek {#web-audience}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--countryGeoReport"
+>id="aa-template--timeZoneRankedReport"
+>title="Bekijk de bovenste tijdzones van bezoekers die uw site openen."
+>abstract="**dit kan u helpen** beter begrijpen waarin tijdstreken uw bezoekers leven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals plaatsonderhoud op tijden aanpassen die het minste aantal mensen zullen beïnvloeden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--domainRankedReport"
+>title="Bekijk de bovenste domeinen van bezoekers die uw site openen."
+>abstract="**dit kan u** helpen beter begrijpen welke organisaties uw bezoekers uit komen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als doel uw inhoud bij uw grootste klanten."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--topLevelDomainRankedReport"
+>title="Bekijk de bovenste domeinen van bezoekers die uw site openen."
+>abstract="**dit kan u** helpen beter begrijpen welke organisaties uw bezoekers uit komen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als doel uw inhoud bij uw grootste klanten."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--browserWidthRankedReport"
+>title="Geef de bovenste browserbreedten weer die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen hoe de inhoudsvertoningen aan bezoekers.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de gemeenschappelijkste browser breedten. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.<br/> Dit malplaatje gebruikt de Browser afmeting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--browserHeightRankedReport"
+>title="De hoogste browserhoogten weergeven die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen hoe de inhoudsvertoningen aan bezoekers.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de gemeenschappelijkste browser hoogten. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.<br/> Dit malplaatje gebruikt de Browser afmeting. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--operatingSystemRankedReport"
+>title="Geef de naam weer van de besturingssystemen en de versie die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter de gemeenschappelijkste werkende systemen en de versies begrijpen die bezoekers gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de hoogste werkende systemen en de versie. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--operatingSystemTypeRankedReport"
+>title="Geef de naam weer van de besturingssystemen die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter de gemeenschappelijkste werkende systemen begrijpen die de bezoekers gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de hoogste werkende systemen. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--returnFrequencyRankedReport"
+>title="Bekijk het telecommunicatiebedrijf dat cellulaire netwerkconnectiviteit aan de mobiele apparaten verstrekt.die de mensen gebruiken om tot uw plaats toegang te hebben."
+>abstract="**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Drager."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--returnVisitorsOvertimeReport"
+>title="Bekijk het telecommunicatiebedrijf dat cellulaire netwerkconnectiviteit aan de mobiele apparaten verstrekt.die de mensen gebruiken om tot uw plaats toegang te hebben."
+>abstract="**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Drager."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--visitNumberRankedReport"
+>title="Bekijk hoe vaak een bezoeker de site heeft bezocht."
+>abstract="**dit kan u helpen** beter begrijpen hoe betrokken bezoekers wanneer het terugkeren naar uw plaats zijn. Dit geldt voor de levensduur van de bezoeker, ongeacht het datumbereik van het project.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals het aanpassen van marketing inspanningen voor frequente bezoekers.<br/> Dit malplaatje gebruikt de het aantalafmeting van het Bezoek."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--customerLoyaltyRankedReport"
+>title="Bekijk het aantal bezoekers van uw site dat 0 eerdere aankopen, 1 eerdere aankoop, 2 eerdere aankopen of 3+ eerdere aankopen heeft gedaan."
+>abstract="**dit kan u** helpen beter begrijpen hoe uw plaats het kopen gedrag beïnvloedt. .<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk op bezoekers die terugkeren om een aankoop te maken, zodat u gelijkaardig gedrag voor nieuwe bezoekers kunt aanmoedigen.<br/> Dit malplaatje gebruikt de dimensie van de klantenloyaliteit."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--daysBeforeFirstPurchaseRankedReport"
+>title="Bekijk het aantal dagen dat verstrijkt tussen de eerste keer dat een bezoeker uw site bereikt en het moment dat hij of zij een aankoop doet. Als een bezoeker bijvoorbeeld één dag na de eerste visite een aankoop doet, behoort een volgend bezoek of evenement tot het item met de dimensie 1 dag."
+>abstract="**dit kan u helpen** beter begrijpen hoe lang het bezoekers duurt om een aankoop te maken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als update uw plaats om snellere verwerving aan te moedigen.<br/> Dit malplaatje gebruikt de Dagen vóór eerste koopdimensie."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--daysSinceLastPurchaseRankedReport"
+>title="Bekijk de hoeveelheid tijd die is verstreken tussen de huidige treffer van de bezoeker en de meest recente aankoop op dat moment."
+>abstract="**dit kan u** helpen bezoekersgedrag beter begrijpen na het kopen van iets op uw plaats.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als update uw plaats om opvolgingsaankopen aan te moedigen.<br/> Dit malplaatje gebruikt de Dagen sinds laatste aankoopafmeting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenSizeRankedReport"
+>title="Bekijk de grootten voor mobiele schermen die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen hoe de inhoudsvertoningen aan bezoekers.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de gemeenschappelijkste mobiele het schermgrootte. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenHeightRankedReport"
+>title="Hoogten van mobiele schermen bovenaan weergeven die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen hoe de inhoudsvertoningen aan bezoekers.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de gemeenschappelijkste mobiele het schermhoogten. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenWidthRankedReport"
+>title="De bovenste breedten van mobiele schermen weergeven die mensen gebruiken om toegang te krijgen tot uw site."
+>abstract="**dit kan u helpen** beter begrijpen hoe de inhoudsvertoningen aan bezoekers.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend de gemeenschappelijkste mobiele het schermbreedten. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--countryGeoReport"
 >title="Bekijk het land van oorsprong van de bezoekers van de site."
 >abstract="**dit kan u** helpen beter begrijpen wat de populairste landbezoekers van wie uw plaats bezoeken voortkomen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze landen te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in landen is die verschillende primaire talen hebben.<br/> Dit malplaatje gebruikt de dimensie van Landen."
 
@@ -475,7 +779,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--stateGeoReport"
+>id="template--stateGeoReport"
 >title="Bekijk de staat (in de Verenigde Staten) waaruit mensen die de site bezoeken, zijn ontstaan. Dit is vergelijkbaar met de Geo Regions template, behalve dat deze specifiek is voor de Verenigde Staten."
 >abstract="**dit kan u** helpen beter begrijpen de populairste staten van de V.S. bezoekers van wie uw plaats bezoeken voortkomen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze staten te concentreren.<br/> Dit malplaatje gebruikt de dimensie van Staten van de VS."
 
@@ -484,7 +788,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--regionGeoReport"
+>id="template--regionGeoReport"
 >title="Bekijk het geografische gebied van waaruit de bezoekers van de site afkomstig zijn. Een regio is een geografisch gebied dat kleiner is dan een land maar groter dan een stad. In sommige landen is een regio een staat, provincie of prefectuur. In andere gebieden is het een deelland, afdeling of metropolitane regio. "
 >abstract="**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze gebieden te concentreren, of ervoor te zorgen dat uw plaatservaring optimaal in gebieden is die verschillende primaire talen hebben. <br/> Dit malplaatje gebruikt identiteitskaart (variabelen/geocountry) en Gebieden dimensies. "
 
@@ -493,7 +797,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cityGeoReport"
+>id="template--cityGeoReport"
 >title="Bekijk de stad van waar mensen die de site bezoeken, vandaan komen."
 >abstract="**dit kan u** helpen beter begrijpen de populairste stadsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in deze steden te concentreren. <br/> Dit malplaatje gebruikt de dimensie van Steden"
 
@@ -502,7 +806,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--dmaGeoReport"
+>id="template--dmaGeoReport"
 >title="Geef de aangewezen marketinggebieden (DMA&#39;s) in de Verenigde Staten weer van waaruit mensen die de site bezoeken, afkomstig zijn."
 >abstract="**dit kan u helpen** beter begrijpen de populairste gebiedsbezoekers voortkomen uit wie uw plaats bezoeken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gebruik de gegevens om zich op marketing inspanningen in de meest succesvolle gebieden te concentreren. "
 
@@ -511,7 +815,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--languageRankedReport"
+>id="template--languageRankedReport"
 >title="Bekijk de bovenste talen waarin bezoekers inhoud liever zien."
 >abstract="**dit kan u helpen** beter de vaakst aangewezen talen van bezoekers begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de inspanningen van de focuslokalisatie of marketing voor de populairste talen.<br/> Dit malplaatje gebruikt de afmeting van de Taal."
 
@@ -520,7 +824,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-technology-template"
+>id="template--web-technology-template"
 >title="Overzicht van technologie"
 >abstract=""
 
@@ -529,7 +833,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--browserRankedReport"
+>id="template--browserRankedReport"
 >title="Bekijk de naam en versie van de bovenste browsers die mensen gebruiken om toegang te krijgen tot uw site."
 >abstract="**dit kan u helpen** beter begrijpen de gemeenschappelijkste browsers die bezoekers gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd.<br/> Dit malplaatje gebruikt de Browser afmeting."
 
@@ -538,7 +842,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--browserTypeRankedReport"
+>id="template--browserTypeRankedReport"
 >title="Geef de namen weer van de organisaties die de beste browsers hebben gemaakt die mensen gebruiken om toegang te krijgen tot uw site. Dit verschilt van het Browser malplaatje in zoverre dat het geen verschillende versies van zelfde browser zoals afzonderlijke afmetingspunten opsomt."
 >abstract="**dit kan u helpen** beter de gemeenschappelijkste browsers begrijpen die bezoekers <br/>**gebruiken Gebaseerd op wat u leert, zou u om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers.** Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd. <br/> Dit malplaatje gebruikt de Browser typeafmeting. "
 
@@ -563,10 +867,43 @@ De volgende sjablonen zijn beschikbaar:
 
 ### Web: Verwerving {#web-acquisition}
 
+<!--CJA only-->
+
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--marketing-channel-overview-template"
+>id="aa-template--mobile-app-acquisition-template"
+>title="Bekijk hoe uw website bezoekers op mobiele apparaten verkrijgt."
+>abstract="**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen in de meest efficiënte kanalen.<br/> Dit malplaatje gebruikt metrische het Tarief van de Stuitage en metrische Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--advertisingAnalyticsPaidSearch"
+>title="Bekijk al je gegevens voor Google en Bing Paid Search naast elkaar."
+>abstract="**dit kan u helpen** beter begrijpen de hoeveelheid verkeer dat naar uw plaats wordt verzonden en of de klanten converteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als schatting van de kosteneffectiviteit van een advertentiecampagne."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--searchEngineRankRankedReport"
+>title="Bekijk welke pagina met zoekresultaten een bezoeker op uw site heeft geklikt. Als uw site bijvoorbeeld op de tweede pagina van de zoekresultaten van een zoekmachine wordt weergegeven, is Pagina 2 zoeken het dimensie-item voor deze variabele."
+>abstract="**dit kan u helpen** beter begrijpen hoe hoog uw pagina&#39;s in onderzoeksresultaten rangschikken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, uw strategie van ZOO verbeteren om ervoor te zorgen dat uw inhoud op de eerste pagina van onderzoeksresultaten verschijnt."
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--marketing-channel-overview-template"
 >title="Wanneer u aangepaste kenmerk gebruikt, wordt in deze sjabloon getoond hoe bezoekers op uw site aankomen."
 >abstract="**dit kan u helpen** beter begrijpen welke van uw marketing kanalen het meest efficiënt zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als zou zwaarder in efficiënte marketing kanalen investeren en van minder het uitvoeren van marketing kanalen afstoten.<br/> Dit malplaatje gebruikt identiteitskaart (variabelen/het marketingkanaal) afmeting en metrisch van de Opbrengst."
 
@@ -575,7 +912,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--firstouchChannelRankedReport"
+>id="template--firstouchChannelRankedReport"
 >title="Bekijk het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)."
 >abstract="**dit kan u helpen** beter begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.<br/> Dit malplaatje gebruikt de Eerste dimensie van het Kanaal van de Aanraking."
 
@@ -584,7 +921,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--firstouchChannelDetailRankedReport"
+>id="template--firstouchChannelDetailRankedReport"
 >title="Bekijk details over het eerste marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)."
 >abstract="**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.<br/> Dit malplaatje gebruikt de Eerste dimensie van het Detail van het Kanaal van de Aanraking."
 
@@ -593,7 +930,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--campaignConversionReport"
+>id="template--campaignConversionReport"
 >title="Campagneconversietrechter"
 >abstract=""
 
@@ -602,7 +939,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--retail-campaign-performance-template"
+>id="template--retail-campaign-performance-template"
 >title="Bekijk details over hoe je marketingcampagnes presteren."
 >abstract="**dit kan u** helpen meer over de diverse succesindicatoren begrijpen verbonden aan campagnes, zoals opbrengst, productmeningen, orden, etc.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven. <br/> Dit malplaatje gebruikt metrische de Inkomsten, metrische de Kijken van het Product, metrische de Toevoegingen van de Kar, Metrische Orden, en metrische Eenheden. Het gebruikt ook de het Volgen dimensie van de Code en de Verwijzende dimensie van het Domein."
 
@@ -611,7 +948,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-acquisition-template"
+>id="template--web-acquisition-template"
 >title="Bekijk hoe uw website bezoekers verkrijgt."
 >abstract="**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen in de meest efficiënte kanalen.<br/> Dit malplaatje gebruikt metrische het Tarief van de Stuitage en metrische Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur."
 
@@ -620,7 +957,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchKeywordRankedReport"
+>id="template--searchKeywordRankedReport"
 >title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken, ongeacht of deze betaald of natuurlijk is."
 >abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.<br/> Dit malplaatje gebruikt de afmeting van het Sleutelwoord van het Onderzoek."
 
@@ -629,7 +966,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchPaidKeywordRankedReport"
+>id="template--searchPaidKeywordRankedReport"
 >title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen overeen met gevonden zoekopdrachten."
 >abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven. <br/> Dit malplaatje gebruikt het Trefwoord van het Onderzoek - Betaalde afmeting. "
 
@@ -638,7 +975,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchNaturalKeywordRankedReport"
+>id="template--searchNaturalKeywordRankedReport"
 >title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten."
 >abstract="**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen sleutelwoorden die worden gebruikt en die die plaatsverkeer drijven.<br/> Dit malplaatje gebruikt het Sleutelwoord van het Onderzoek - Natuurlijke afmeting. "
 
@@ -647,7 +984,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchRankedReport"
+>id="template--searchRankedReport"
 >title="Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken, ongeacht of ze betaald of natuurlijk zijn."
 >abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.<br/> Dit malplaatje gebruikt de afmeting van de Motor van het Onderzoek. "
 
@@ -656,7 +993,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchPaidRankedReport"
+>id="template--searchPaidRankedReport"
 >title="Bekijk de zoekprogramma&#39;s die bezoekers gebruiken om uw site te bereiken en die overeenkomen met betaalde zoekdetectie."
 >abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven. <br/> Dit malplaatje gebruikt de Motor van het Onderzoek - Betaalde afmeting."
 
@@ -665,7 +1002,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchNaturalRankedReport"
+>id="template--searchNaturalRankedReport"
 >title="Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken. Deze trefwoorden komen niet overeen met gevonden zoekopdrachten."
 >abstract="**dit kan u helpen** beter begrijpen de onderzoeksmotoren mensen gebruiken die in plaatsverkeer resulteren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als nadruk uw inspanningen SEO op de onderzoeksmotoren die het meeste verkeer aan de plaats drijven.<br/> Dit malplaatje gebruikt de Motor van het Onderzoek - Natuurlijke afmeting."
 
@@ -674,7 +1011,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referringDomainRankedReport"
+>id="template--referringDomainRankedReport"
 >title="Bekijk welke domeinen mensen door klikken om uw plaats te bereiken."
 >abstract="**dit kan u helpen** beter begrijpen welke derdeplaatsen het meeste verkeer aan u drijven. (Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.)<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste verwijzende domeinen komen. <br/> Dit malplaatje gebruikt de Verwijzende dimensie van het Domein."
 
@@ -683,7 +1020,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referringDomainOriginalRankedReport"
+>id="template--referringDomainOriginalRankedReport"
 >title="Bekijk het eerste verwijzende domein dat mensen door klikte om uw plaats te bereiken. (Nadat deze is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van de desbetreffende bezoekersidentiteitskaart.)"
 >abstract="**dit kan u helpen** beter begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die uit hoogste originele verwijzende domeinen komen. <br/> Dit malplaatje gebruikt de Originele Verwijzende dimensie van het Domein."
 
@@ -692,7 +1029,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referrerRankedReport"
+>id="template--referrerRankedReport"
 >title="Bekijk welke URL&#39;s bezoekers hadden toen u door klikte om uw site te bereiken. (De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.)"
 >abstract="**dit kan u helpen** beter begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van hoogste URLs komen. <br/> Dit malplaatje gebruikt de Verwijzende dimensie van het Domein.</p>"
 
@@ -701,7 +1038,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referrerTypeRankedReport"
+>id="template--referrerTypeRankedReport"
 >title="Bekijk welke algemene kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk kanaal. Mogelijke kanalen zijn zoekprogramma&#39;s, sociale netwerken, andere websites, vaste schijf of e-mail."
 >abstract="**dit kan u helpen** beter begrijpen welk type van verwijzers het meeste verkeer aan uw plaats drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan beter zich aan de belangen van bezoekers die van een bepaald kanaal komen.<br/> Dit malplaatje gebruikt de afmeting van het Type van Referateur."
 
@@ -735,10 +1072,12 @@ De volgende sjablonen zijn beschikbaar:
 
 <!-- add contextual help for Mobile app screens and mobile app actions -->
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-lifecycle-metrics-app-usage-template"
+>id="template--mobile-lifecycle-metrics-app-usage-template"
 >title="Bekijk het aantal gebruikers, startende gebruikers en wordt de app voor het eerst gestart, plus de gemiddelde sessielengte."
 >abstract="**dit kan u** helpen beter begrijpen hoeveel uw app wordt gebruikt. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als toepassingsprestaties verbeteren zodat kan het aan de hoeveelheid gebruik schrapen."
 
@@ -747,7 +1086,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-journeys"
+>id="template--mobile-app-journeys"
 >title="Bekijk de opvallende gebruikspatronen voor uw mobiele app."
 >abstract="**dit kan u** helpen beter begrijpen hoe de mensen uw app gebruiken. <br/>**gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren hoe de mensen van één scherm aan een andere kunnen krijgen om de gemeenschappelijkste werkschema&#39;s te richten."
 
@@ -756,7 +1095,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-key-metrics"
+>id="template--mobile-app-key-metrics"
 >title="Bekijk enkele van de meest gangbare maatstaven voor mobiele apps."
 >abstract="**dit kan u** helpen basisprestaties van uw mobiele app beter begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de algemene gezondheid en de prestaties van uw app beoordelen."
 
@@ -765,7 +1104,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-messaging"
+>id="template--mobile-app-messaging"
 >title="Geef prestatiegegevens weer voor berichten in de app en pushberichten voor uw app."
 >abstract="**dit kan u** helpen beter begrijpen hoe de mensen in-app overseinenmogelijkheden gebruiken, evenals hoe effectief duwen berichten verkeer aan uw app drijven.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als verbeteren de ervaring van het in-app overseinenpushbericht."
 
@@ -774,7 +1113,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-performance-template"
+>id="template--mobile-app-performance-template"
 >title="Bekijk hoe uw app presteert en waar gebruikers problemen ondervinden."
 >abstract="**dit kan u helpen** beter begrijpen als de mensen die uw app gebruiken langzame of degraded prestaties tegenkomen. <br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als moeilijke situatie bestaande kwesties of verbetert app prestaties alvorens de kwesties voorkomen."
 
@@ -783,7 +1122,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-retention"
+>id="template--mobile-app-retention"
 >title="Bekijk welke gebruikers de meest loyale gebruikers van uw app zijn en wat ze in de app doen."
 >abstract="**dit kan u helpen** beter begrijpen hoe uw meest loyale gebruikers uw app gebruiken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw marketing inspanningen voor de eigenschappen verbeteren die uw meest loyale gebruikers gebruiken."
 
@@ -807,7 +1146,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileCarrierRankedReport"
+>id="template--mobileCarrierRankedReport"
 >title="Bekijk het telecommunicatiebedrijf dat cellulaire netwerkconnectiviteit aan de mobiele apparaten verstrekt.die de mensen gebruiken om tot uw plaats toegang te hebben."
 >abstract="**dit kan u** helpen beter begrijpen welke mobiele dragers het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de netwerkmogelijkheden van verschillende dragers wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Drager."
 
@@ -816,7 +1155,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileDeviceNameRankedReport"
+>id="template--mobileDeviceNameRankedReport"
 >title="Bekijk het merk en het model van mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site."
 >abstract="**dit kan u** helpen beter begrijpen welke mobiele apparaten het populairst onder uw gebruikersbasis zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste mobiele apparaten.<br/> Dit malplaatje gebruikt de Mobiele dimensie van de Naam van het Apparaat."
 
@@ -825,7 +1164,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileDeviceTypeRankedReport"
+>id="template--mobileDeviceTypeRankedReport"
 >title="Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets."
 >abstract="**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.<br/> Dit malplaatje gebruikt de Mobiele dimensie van het Type van Apparaat."
 
@@ -834,7 +1173,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileManufacturerRankedReport"
+>id="template--mobileManufacturerRankedReport"
 >title="Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung."
 >abstract="**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.<br/> Dit malplaatje gebruikt de Mobiele afmeting van de Fabrikant."
 
@@ -850,6 +1189,8 @@ De volgende sjablonen zijn beschikbaar:
 | **Fabrikant** | Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung.<p>**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele fabrikant.</p> |
 
 ### Tijd delen {#time-parting}
+
+<!--CJA only-->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -958,6 +1299,8 @@ De volgende sjablonen zijn beschikbaar:
 
 ### Kanaal overschrijden {#cross-channel}
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -1016,6 +1359,8 @@ De volgende sjablonen zijn beschikbaar:
 
 ### AJO {#AJO-templates}
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -1071,27 +1416,3 @@ De volgende sjablonen zijn beschikbaar:
 | **het Overzicht van AJO Rapport** | Bekijk een uitgebreide samenvatting van verkeers- en betrokkenheidsgegevens voor alle campagnes en reizen binnen uw omgeving.<p>**dit kan u helpen** beter de doeltreffendheid op hoog niveau van uw campagnes en reizen begrijpen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes en reizen aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
 | **Abonnementen van AJO** | Abonnementen en abonnementen van profielen voor bepaalde lijsten weergeven.<p>**dit kan u** helpen beter de doeltreffendheid van verschillende abonnementscampagnes en initiatieven in het drijven overeenkomst en omzettingen begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw abonnementscampagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
 
-
-<!-- deleted: 
-
-| [!UICONTROL **Real-Time**] | View the dimensions and metrics that are currently being collected on your site. <p>**This can help you** better understand what is trending on your site.</p><p>**Based on what you learn, you might** respond to and actively manage the performance of your current marketing content and campaigns.</p> <p>This template uses the [Real-time report](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md).</p> | 
-| [!UICONTROL **Fallout**] | View where people leave or continue through a predefined sequence of pages.<p>**This can help you** better understand where people are falling out of the user journey.</p><p>**Based on what you learn, you might** do any number of things, like analyze conversion rates through specific processes on your site (such as a purchase or registration process), or analyze correlations between events on your site. (For example, what percentage of people who looked at your privacy policy went on to purchase a product.) You can also use this template to perform side-by-side comparisons of two different segments in the same report.</p> <p>This template uses the [Fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).</p> | 
-| [!UICONTROL **Cross-device analysis**] | View which devices people used across all points of the journey.<p>**This can help you** better understand how many people interact with your brand, the types of devices they use, and how their use of multiple devices affects their experience. For example, how often do people begin a task on a mobile device and then later move to a desktop to complete a task? What are the most common paths users take from one device to another? Where do they drop out? Where do they succeed? And so forth.</p><p>**Based on what you learn, you might** do any number of things, like optimize certain parts of the user journey for a mobile experience.</p> <p>This template uses the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), [Fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md), [Cohort analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), [the People metric](/help/components/metrics/people.md), and [the Unique devices metric](/help/components/metrics/unique-devices.md).</p> |
-| [!UICONTROL **Web retention**] | View who your loyal users are and what they are doing on your site.<p>**This can help you** better understand the number of times the average person visits your site, the frequency with which people return to the site, and the number of days between return visits.</p><p>**Based on what you learn, you might** do any number of things, like analyze what content is most effective at bringing people back to the site.<p>This template uses the [Visits metric](/help/components/metrics/visits.md) and the [Unique visitors metric](/help/components/metrics/unique-visitors.md).</p> | 
-| [!UICONTROL **Streaming Media Consumption**] | View  trends and top metrics of media consumption across all digital devices.<p>**This can help you** better understand the number of times the average person visits your site, the frequency with which people return to the site, and the number of days between return visits.</p><p>**Based on what you learn, you might** do any number of things, like analyze what content is most effective at bringing people back to the site.<p>This template uses the [Visits metric](/help/components/metrics/visits.md) and the [Unique visitors metric](/help/components/metrics/unique-visitors.md).</p> | 
-
--->
-
-<!--
-
-Ignore below this 
-
-| Menu item | Reports under this menu item |
-| --- | --- | 
-| **[!UICONTROL Most Popular]** | <ul><li>Training Tutorial (Pre-existing Workspace template)</li><li>Pages (What are my top pages?)</li><li>Page views (How many page views am I generating?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Key metrics (How are my most important metrics performing?)</li><li>Site sections (Which sections of my site generated the most page views?)</li><li>Real-Time (What is trending on my site, and why?)</li><li>Next page (What are the next pages my visitors go to?)</li><li>Previous page (What are the previous pages my visitors went to?)</li><li>Campaigns (What campaigns are driving my key metrics?)</li><li>Products (What products are driving my key metrics?)</li><li>Last touch channel (Which last touch channel is performing best?</li><li>Last touch channel detail (Which specific last touch channel is outperforming others?)</li><li>Revenue (How is my revenue performing?)</li><li>Orders (How are my orders performing?)</li><li>Units (How many units am I selling?)</li></ul> | 
-| **[!UICONTROL Engagement]** | <ul><li>Key metrics (How are my most important metrics performing?)</li><li>Page views (How many page views am I generating?)</li><li>Pages (What are my top pages?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Time spent per visit (How much time do my users spend per visit?)</li><li>Time prior to event (How much time do my users spend prior to a success event?)</li><li>Site sections (Which sections of my site generated the most page views?</li><li>Web content consumption (Which content is consumed most and is engaging users?)</li><li>Media content consumption (Which content is consumed most and is engaging users?)</li><li>Next and previous page flow (What are/were the next/previous paths my visitors take/took?)</li><li>Fallout (Where am I seeing fallout through my digital properties?)</li><li>Cross-device analysis (Using cross-device analysis in Analysis Workspace)</li><li>Web retention (Who are my loyal users and what do they do?)</li><li>Media audio consumption (What are trends and top metrics of audio consumption?)</li><li>Media recency, frequency, loyalty (Who are my loyal readers?)</li><li>Page analysis > Reloads (Which pages generate the most reloads?)</li><li>Page analysis > Time spent on page (How much time do my users spend on my pages?)</li><li>Entries & exits > Entry pages (What are my top entry pages?)</li><li>Entries & exits > Original entry pages (What page did my visitor originally enter from?)</li><li>Entries & exits > Single-page visits (Which pages generated the most single-page visits?)</li><li>Entries & exits > Exit pages (What are my top exit pages?)</li><li>Page Analysis > Page summary</li></ul> |
-| **[!UICONTROL Conversion]** | <ul><li>Products > Products (Which products are driving my key metrics?)</li><li>Products > Product performance (Which products are performing best?)</li><li>Products > Categories (What are my best performing product categories?</li><li>Shopping cart > Carts (How many users added a product to cart?</li><li>Shopping cart > Cart views (How many times did my visitors view their carts?)</li><li>Shopping cart > Cart additions (How often are users adding a product to their cart?)</li><li>Shopping cart > Cart removals (How often are users removing a product from their cart?)</li><li>Purchases > Revenue (How is my revenue performing?)</li><li>Purchases > Orders (How are my orders performing?)</li><li>Purchases > Units (How many units am I selling?)</li><li>[Magento: marketing and commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#commerce)</li></ul> |
-| **[!UICONTROL Audience]** |<ul><li>People metric (How many people are interacting with my brand?)</li><li>Visitor profile > Location overview (Which locations are driving the most usage among users)</li><li>Visitor profile > Geosegmentation > Geo Counties, Geo US States, Geo Regions, Geo Cities, Geo US DMA (Which geographies are my users visiting from?)</li><li>Visitor profile > Languages (Which language do my users prefer?)</li><li>Visitor profile > Time zones (Which time zones are my users visiting from?)</li><li>Visitor profile > Domains (Which ISPs are my visitors using to access my site?)</li><li>Visitor profile > Top level domains (Which domains are driving traffic to my site?)</li><li>Visitor profile > Technology > Technology overview (What technologies are people using to access my site?)</li><li>Visitor profile > Technology > Browsers, Browser type, Browser width, Browser height (Which company's browser, browser version, and its width and height, are people using to access my site?)</li><li>Visitor profile > Technology > Operating system, Operating system types (Which OS and which version of it do my visitors use?)</li><li>Visitor profile > Technology > Mobile carrier (Which mobile carriers do my visitors use to access my site?)</li><li>Visitor retention > Return frequency (How much time passes between my user's current visit and previous visits?)</li><li>Visitor retention > Return visits (How many of my visits are returning users?)</li><li>Visitor retention > Visit number (Which visit number bucket drives most of my key metrics)</li><li>Visitor retention > Sales cycle > Customer loyalty (Which loyalty segment do my users belong to?)</li><li>Visitor retention > Sales cycle > Days before first purchase (How many days passed between my users' first visit and their first purchase?)</li><li>Visitor retention > Sales cycle > Days since last purchase (How many days have passed between my users' current visit and their last purchase? )</li><li>Visitor retention > Mobile > Devices and Device types (Which devices and device types are my visitors using?)</li><li>Visitor retention > Mobile > Manufacturer (Which mobile device manufacturer do my visitors use?)</li><li>Visitor retention > Mobile > Screen size, Screen height, Screen width (Which mobile screen size/height/width do my visitors have?)</li><li>Visitor retention > Mobile > [Mobile app usage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app journeys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app metrics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app messaging](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app performance](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app retention](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li></ul> |
-| **[!UICONTROL Acquisition]** |<ul><li>Marketing channels > First touch channel, First touch channel detail (Which first touch channel, and which specific first touch channel is performing best?)</li><li>Marketing channels > First last channel, First last channel detail (Which last touch channel, and which specific last touch channel is performing best?)</li><li>Campaigns > Campaigns (Which campaigns are driving my key metrics?)</li><li>Campaigns > Campaign performance (What campaigns are driving the most revenue?)</li><li>Campaigns > Tracking code (Which campaign tracking codes perform the best?)</li><li>[Web acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#web)</li><li>[Mobile acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>[Advertising Analytics: paid search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#advertising)</li><li>Search keywords - all, paid, natural (Which search keywords and paid/natural search keywords drive my key metrics the best?)</li><li>Search engines - all, paid, natural (Which search engines and paid/natural search engines drive my key metrics the best?)</li><li>All search page ranking (Which search page are my users visiting from?)</li><li>Referring domains (Which domains are driving traffic to my site?)</li><li>Original referring domains (What was the first domain users were on before visiting my site?)</li><li>Referrers (Which URLs were my users on before clicking through to my site?)</li><li>Referrer types (Which category do my referring URLs belong to?)</li></ul> |
-
--->
