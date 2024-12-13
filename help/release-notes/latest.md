@@ -3,9 +3,9 @@ title: De opmerkingen bij de huidige release van de Customer Journey Analytics w
 description: Aanvullende informatie voor de nieuwste versie van Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1fffde84a332a7ae2911b8d8e8bb62717e5f2043
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '374'
 ht-degree: 5%
 
 ---
@@ -40,11 +40,10 @@ Report Builder: AN-361022
 | --- | --- | --- |
 | N.v.t. | | |
 
-
 ## Gerelateerde bronnen
 
 * [Opmerkingen bij de vorige release van Customer Journey Analytics voor 2024](/help/release-notes/2024.md)
 * [ de versienota&#39;s van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-* [ het stromen toe:voegen-op versienota&#39;s van de Inzameling van Media ](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [ het stromen de versienota&#39;s van de Inzameling van Media ](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Documentatieupdates Customer Journey Analytics](/help/release-notes/doc-changes.md)

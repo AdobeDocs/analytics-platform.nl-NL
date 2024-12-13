@@ -4,9 +4,9 @@ description: Het mediapictogram voor een gemiddeld aantal minuten in Analysis Wo
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Het deelvenster **[!UICONTROL Media average minute audience]** is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Customer Journey Analytics hebben aangeschaft.
+>Het deelvenster **[!UICONTROL Media average minute audience]** is alleen beschikbaar voor klanten die de streamingmedia-verzameling voor Customer Journey Analytics hebben aangeschaft.
 >
 >Neem voor meer informatie contact op met uw Adobe Verkoopvertegenwoordiger of accountteam van de Adobe.
 >
@@ -62,8 +62,7 @@ Een deelvenster **[!UICONTROL Media average minute audience]** gebruiken:
 
 1. Maak een deelvenster **[!UICONTROL Media average minute audience]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
 
-1. Zorg ervoor dat u een gegevensweergave selecteert voor het deelvenster waarvoor componenten zijn geconfigureerd via de invoegtoepassing voor het streamen van mediaconzameling.
-
+1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de verzameling Streaming media.
 
 1. Specificeer de [ input ](#panel-input) voor het paneel.
 

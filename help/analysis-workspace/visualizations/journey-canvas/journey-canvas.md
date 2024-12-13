@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tu
 
 Het analyseren van Journey Optimizer-reizen op het canvas Journey biedt diepgaande, activeerbare inzichten over hoe mensen met een reis omgaan.
 
-Wanneer u een Journey Optimizer-reis analyseert in het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Als u veranderingen in een reis binnen het canvas van de Reis kunt aanbrengen, [ de veranderingen worden niet meer gesynchroniseerd van Journey Optimizer ](#synchronization-between-journey-optimizer-and-journey-canvas).
+Wanneer u een Journey Optimizer-reis analyseert in het canvas Journey, wordt de reis weergegeven met dezelfde volgorde, volgorde en structuur als in Journey Optimizer. Als u significante veranderingen in een reis binnen het canvas van de Reis aanbrengt, [ worden de veranderingen niet meer gesynchroniseerd van Journey Optimizer ](#synchronization-between-journey-optimizer-and-journey-canvas).
 
 ### Voordelen van het analyseren van Journey Optimizer-reizen met Reiscanvas
 
@@ -152,7 +152,7 @@ Het gebruik van het canvas Journey voor het analyseren van reizen die in Journey
 
 Nadat u een analyse hebt gemaakt van een Journey Optimizer-reis in het canvas Journey, worden gegevens in slechts één richting gesynchroniseerd, van Journey Optimizer tot het canvas Journey. Dit betekent dat veranderingen die zijn aangebracht in een reis op het canvas Journey nooit worden weerspiegeld in Journey Optimizer.
 
-Bovendien worden wijzigingen in een reis bij Journey Optimizer-synchronisatie alleen doorgevoerd in Journey canvas als de reis ongewijzigd blijft op Journey canvas. Nadat u een reis in het canvas van de Reis wijzigt, worden om het even welke veranderingen u aan de reis in Journey Optimizer aanbrengt niet weerspiegeld in het canvas van de Reis. Om de veranderingen te zien die in het canvas van de Reis worden weerspiegeld, kunt u de reis in het canvas van de Reis schrappen en [ opnieuw creëren ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Voorts veranderingen die aan een reis in de synchronisatie van Journey Optimizer aan het canvas van de Reis [ worden aangebracht slechts als de reis niet beduidend in het canvas van de Reis ](#differences-after-modifying-a-journey-in-journey-canvas) is gewijzigd. Nadat u een reis in het canvas van de Reis wijzigt, worden om het even welke veranderingen u aan de reis in Journey Optimizer aanbrengt niet weerspiegeld in het canvas van de Reis. Om de veranderingen te zien die in het canvas van de Reis worden weerspiegeld, kunt u de reis in het canvas van de Reis schrappen en [ opnieuw creëren ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Verschillen na het wijzigen van een reis in het canvas van de Reis {#differences-after-modifying}
 

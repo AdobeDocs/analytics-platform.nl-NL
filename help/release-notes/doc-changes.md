@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
 workflow-type: tm+mt
-source-wordcount: '4196'
+source-wordcount: '4199'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Afgeleide veld dedupliceert functie | Toegevoegde documentatie op het afgeleide gebied [ dedupliceert ](/help/data-views/derived-fields/derived-fields.md#deduplicate) functie. |
 | Algemene foutberichten zijn bijgewerkt | Gemaakte minder belangrijke updates aan de [ gemeenschappelijke foutenmeldingen ](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
-| Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn beschikbaar door de documentatie van de Customer Journey Analytics evenals [ het stromen de Invoegtoepassing van de Inzameling van Media van de Media ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
+| Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen instanties van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de namen &quot;Streaming Media Collection Add-on&quot; en &quot;Streaming Media Collection&quot; bij verwijzing naar de reeks streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten doorlopen. <p>Deze updates zijn beschikbaar door de documentatie van de Customer Journey Analytics evenals de [ Streaming documentatie van de Inzameling van Media ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Op grafiek gebaseerde stitching | Bijgewerkt en geherstructureerde [ het stitching documentatie ](/help/stitching/overview.md) met de introductie van op grafiek-gebaseerd het stitching. |
 | AI-assistent | Toegevoegde [ documentatie ](../ai-assistant.md) op de Medewerker AI voor Customer Journey Analytics. |
 | Gegevenssets transformeren voor B2B-zoekopdrachten | Toegevoegde documentatie op hoe te om [ persoon-gebaseerde raadplegingen op B2B- gegevens ](/help/connections//transform-datasets-b2b-lookups.md) (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) te steunen gebruikend transformatie van B2B raadplegingsdatasets. |
