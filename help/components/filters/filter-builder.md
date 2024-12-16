@@ -4,9 +4,9 @@ title: Filters maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ ht-degree: 0%
 >abstract="Soorten publiek kan worden gemaakt op basis van een filter en worden gedeeld met de Adobe Experience Platform voor activering."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_filter_datapreview"
+>title="Gegevensvoorbeeld"
+>abstract="Vergelijkt de gegevens van dit filter met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 Het dialoogvenster **[!UICONTROL Filter builder]** wordt gebruikt om nieuwe filters te maken of bestaande filters te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New filter]** of **[!UICONTROL Edit filter]** voor filters die u maakt of beheert met [[!UICONTROL Filters] Manager ](/help/components/filters/manage-filters.md) .
