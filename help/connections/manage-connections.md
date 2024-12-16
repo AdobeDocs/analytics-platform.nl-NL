@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3049'
+source-wordcount: '3150'
 ht-degree: 0%
 
 ---
@@ -205,6 +205,46 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 
 ## Gebruik
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_keyusagemetrics"
+>title="Metingen van sleutelgebruik"
+>abstract="Maandelijkse en totale gegevens verstrekken voor kern- en historische te rapporteren rijen."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyingestedrows"
+>title="Maandelijkse gegeneerde rijen"
+>abstract="Hiermee wordt het totale aantal records gemeten dat maandelijks aan het systeem wordt toegevoegd om inzicht te verschaffen in de groei van gegevens en de innamesnelheden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyreportablerows"
+>title="Maandelijkse te rapporteren rijen"
+>abstract="Tracks the number of rows available for reporting. Te rapporteren rijen zijn de ingesloten rijen min de rijen die tijdens inname worden overgeslagen en verwijderd. Te rapporteren rijen fungeren als een belangrijke metrische factor voor facturering en gegevensgebruik."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_detailbreakdown"
+>title="Gedetailleerde uitsplitsing."
+>abstract="U kunt gedetailleerde metriek door verbinding, dataset, zandbak, en markeringen bekijken, met de optie om een Csv- dossier van de gegevens te downloaden."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 De interface [!UICONTROL Usage] toont het gebruik van ingebedde en te melden rijen over alle verbindingen. Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen. Naast controledoeleinden, kunt u UI van het Gebruik gebruiken om uw de vergunningsvernieuwing van de Customer Journey Analytics te plannen.
 

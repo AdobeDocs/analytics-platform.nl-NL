@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3588'
-ht-degree: 1%
+source-wordcount: '3610'
+ht-degree: 0%
 
 ---
 
@@ -204,8 +204,6 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 
 <!-- markdownlint-enable MD034 -->
 
-
-
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -232,6 +230,16 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 >abstract="Deze optie zal de dataset omzetten zodat kan het voor op persoon-gebaseerde raadplegingen in scenario&#39;s B2B worden gebruikt. Als de gegevensset eenmaal is ingeschakeld, is de transformatie ervan onomkeerbaar."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_connectionmap"
+>title="Verbindingsmap"
+>abstract="De kaart van de Verbinding visualiseert het verband tussen gebeurtenis, persoon, rekening en relevante raadplegingsdatasets (als kansen, campagnereleden, en meer)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Met de nieuwe workflow kunt u een gegevensset voor Experience Platforms toevoegen wanneer u een verbinding maakt.
 
