@@ -4,10 +4,10 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
+source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
 workflow-type: tm+mt
-source-wordcount: '2856'
-ht-degree: 2%
+source-wordcount: '4153'
+ht-degree: 1%
 
 ---
 
@@ -32,19 +32,36 @@ Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen
 Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger gemiddelde of een minimum heeft omdat sommige rijen nul zijn.  In dat geval kunt u ervoor kiezen om de parameter niet te controleren en nullen op te nemen.
 
 
-## en
+## en {#and}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_and"
+>title="en"
+>abstract="Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
-
 Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
 | logical_test | Vereist minstens één parameter, maar kan om het even welk aantal parameters nemen. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE |
 
-## Telling bij benadering onderscheiden
+
+## Telling bij benadering onderscheiden {#approximate_count_distinct}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_approximate_count_distinct"
+>title="Telling bij benadering onderscheiden"
+>abstract="Retourneert de geschatte, verschillende telling van dimensie-items voor de geselecteerde dimensie."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
 
@@ -62,8 +79,16 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 
 
+## Arc Cosine {#arc-cosine}
 
-## Arc Cosine
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_arc_cosine"
+>title="Arc Cosine"
+>abstract="Retourneert de arccosinus, of omgekeerd van de cosinus, van een metrische waarde. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI()."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
@@ -77,7 +102,16 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 
 
-## Boog sinus
+## Boog sinus {#arc-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_arc_sine"
+>title="Boog sinus"
+>abstract="Retourneert de arcsinus, of omgekeerde sinus, van een getal. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arcsinus in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI()"
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
@@ -91,7 +125,16 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 
 
-## Booghoek
+## Booghoek {#arc-tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_arc_tangent"
+>title="Booghoek"
+>abstract="Retourneert de arctangens, of omgekeerde tangens, van een getal. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI()."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
@@ -105,13 +148,20 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 
 
-## Cdf-T
+## Cdf-T {#cdf-t}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cdf_t"
+>title="Cdf-T"
+>abstract="Keert de waarschijnlijkheid terug dat een willekeurige variabele met student-t distributie met n graden van vrijheid een z-score minder dan kolom heeft."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
 
-
 Keert de waarschijnlijkheid terug dat een willekeurige variabele met student-t distributie met n graden van vrijheid een z-score minder dan kolom heeft.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -129,13 +179,20 @@ CDF-T(x, ∞) ? cdf_z(x)
 ```
 
 
-## Cdf-Z
+## Cdf-Z {#cdf-z}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cdf_z"
+>title="Cdf-Z"
+>abstract="Retourneert de waarschijnlijkheid dat een willekeurige variabele met een normale distributie een z-score heeft minder dan col."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
 
-
 Retourneert de waarschijnlijkheid dat een willekeurige variabele met een normale distributie een z-score heeft minder dan col.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -151,20 +208,61 @@ CDF-Z(2) ? 0.97725
 CDF-Z(-3) ? 0.0013499
 ```
 
-## Plafond
+## Plafond {#ceiling}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_ceiling"
+>title="Plafond"
+>abstract="Geeft als resultaat het kleinste gehele getal dat niet kleiner is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch | De metrische waarde die u wilt afronden |
 
 
-## Vertrouwen (onder)
+## Vertrouwen {#confidence}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_confidence"
+>title="Vertrouwen"
+>abstract="Bereken het om het even welk-tijd-geldige vertrouwen gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
+
+<!-- markdownlint-enable MD034 -->
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+
+Bereken het om het even welk-tijd-geldige vertrouwen gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476).
+
+Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
+
+| Argument | Beschrijving |
+| --- | --- |
+| normalizing-container | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test in werking wordt gesteld. |
+| succesmetrisch | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| besturen | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+| significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
+
+
+## Vertrouwen (onder) {#confidence-lower}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_confidence_lower"
+>title="Vertrouwen (onder)"
+>abstract="Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
@@ -179,7 +277,16 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 | besturen | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
 | significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
 
-## Vertrouwen (boven)
+## Vertrouwen (boven) {#confidence-upper}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_confidence_upper"
+>title="Vertrouwen (boven)"
+>abstract="Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
@@ -195,7 +302,16 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 | significantiedrempel | De drempel in deze functie is ingesteld op een standaardwaarde van 95%. |
 
 
-## Cosine
+## Cosine {#cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cosine"
+>title="Cosine"
+>abstract="Geeft als resultaat de cosinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
@@ -206,7 +322,16 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 | metrisch | De hoek in radialen waarvoor u de cosinus wilt gebruiken |
 
 
-## Kubus Root
+## Kubus Root {#cube-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cube_root"
+>title="Kubus Root"
+>abstract="Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
 
@@ -220,7 +345,16 @@ Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aanta
 
 
 
-## Cumulatief
+## Cumulatief {#cumulative}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cumulative"
+>title="Cumulatief"
+>abstract="Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
 
@@ -240,7 +374,16 @@ Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de 
 | juli | $ 400 | $ 1.100 | $ 600 |
 
 
-## Cumulatief (gemiddeld)
+## Cumulatief (gemiddeld) {#cumulative-average}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_cumulative_average"
+>title="Cumulatief (gemiddeld)"
+>abstract="Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
@@ -257,10 +400,18 @@ Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0,
 >
 
 
-## Gelijk
+## Gelijk {#equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_equal"
+>title="Gelijk"
+>abstract="Gelijk. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
-
 
 Gelijk. De uitvoer is 0 (false) of 1 (true).
 
@@ -275,8 +426,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 `Metric 1 = Metric 2`
 
 
+## Exponentiële regressie: Correlatiecoëfficiënt {#exponential-regression-correlation-coefficient}
 
-## Exponentiële regressie: Correlatiecoëfficiënt
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponential_regression_correlation_coefficient"
+>title="Exponentiële regressie: Correlatiecoëfficiënt"
+>abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert de correlatiecoëfficiënt."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
@@ -290,7 +449,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 | metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
-## Exponentiële regressie: voorspeld Y
+## Exponentiële regressie: voorspeld Y {#exponential-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponential_regression_predicted_y"
+>title="Exponentiële regressie: voorspeld Y"
+>abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
@@ -305,7 +473,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Exponentiële regressie: Intercept
+## Exponentiële regressie: Intercept {#exponential-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponential_regression_intercept"
+>title="Exponentiële regressie: Intercept"
+>abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
@@ -319,7 +496,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Exponentiële regressie: helling
+## Exponentiële regressie: helling {#exponential-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponential_regression_slope"
+>title="Exponentiële regressie: helling"
+>abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert a."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
@@ -334,7 +520,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Floor
+## Floor {#floor}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_floor"
+>title="Floor"
+>abstract="Geeft als resultaat het grootste gehele getal dat niet groter is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
@@ -345,13 +540,20 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 | metrisch | De metrische waarde die u wilt afronden. |
 
 
-## Groter dan
+## Groter dan {#greather-than}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_greater_than"
+>title="Groter dan"
+>abstract="De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
 
-
 De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -362,13 +564,21 @@ De uitvoer is 0 (false) of 1 (true).
 
 `Metric 1 > Metric 2`
 
-## Groter dan of gelijk aan
+
+## Groter dan of gelijk aan {#greater-than-or-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_greater_than_or_equal"
+>title="Groter dan of gelijk aan"
+>abstract="Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
 
-
 Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -381,7 +591,16 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Hyperbolische cosinus
+## Hyperbolische cosinus {#hyperbolic-cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_hyperbolic_cosine"
+>title="Hyperbolische cosinus"
+>abstract="Geeft de hyperbolische cosinus van een getal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
@@ -395,34 +614,56 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Hyperbolische sinus
+## Hyperbolische sinus {#hyperbolic-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_hyperbolic_sine"
+>title="Hyperbolische sinus"
+>abstract="Geeft de hyperbolische sinus van een getal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch | De hoek in radialen waarvoor u de hyperbolische sinus wilt vinden |
 
 
+## Hyperbolische hoek {#hyperbolic-tangent}
 
-## Hyperbolische hoek
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_hyperbolic_tangent"
+>title="Hyperbolische hoek"
+>abstract="Retourneert de hyperbolische tangens van een getal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch | De hoek in radialen waarvoor u de hyperbolische tangens wilt vinden |
 
 
-## Indien
+## Indien {#if}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_if"
+>title="Indien"
+>abstract="Als de waarde van de parameter condition niet-nul is (true), is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
@@ -437,30 +678,45 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 | value_if_false | De waarde die u wilt worden geretourneerd als het argument logical_test naar FALSE evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
 
 
-## Minder dan
+## Minder dan {#less-than}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_less_than"
+>title="Minder dan"
+>abstract="De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
 
-
 De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch_X | |
 | metrisch_Y | |
 
-
 ### Voorbeeld
 
 `Metric 1 < Metric 2`
 
-## Kleiner dan of gelijk aan
+
+## Kleiner dan of gelijk aan {#less-than-or-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_less_than_or_equal"
+>title="Kleiner dan of gelijk aan"
+>abstract="Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
 
 Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -473,7 +729,35 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Lineaire regressie: Correlatiecoëfficiënt
+## Lift (#lift)
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_lift"
+>title="Optillen"
+>abstract="De hoogte van de verhouding ten opzichte van de controlewaarde."
+
+<!-- markdownlint-enable MD034 -->
+
+| Argument | Beschrijving |
+| --- | --- |
+| normalizing-container | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test in werking wordt gesteld. |
+| succesmetrisch | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+| besturen | De variant waarmee alle andere varianten in het experiment worden vergeleken. Voer de naam in van het element Dimensie besturingsvariant. |
+
+
+
+## Lineaire regressie: Correlatiecoëfficiënt {#linear-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_linear_regression_correlation_coefficient"
+>title="Lineaire regressie: Correlatiecoëfficiënt"
+>abstract="Lineaire regressie: Y = a X + b. Retourneert de correlatiecoëfficiënt."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
@@ -489,7 +773,16 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Lineaire regressie: Intercept
+## Lineaire regressie: Intercept {#linear-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_linear_regression_intercept"
+>title="Lineaire regressie: Intercept"
+>abstract="Lineaire regressie: Y = a X + b. Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
@@ -505,7 +798,16 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Lineaire regressie: voorspeld Y
+## Lineaire regressie: voorspeld Y {#linear-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_linear_regression_predicted_y"
+>title="Lineaire regressie: voorspeld Y"
+>abstract="Lineaire regressie: Y = a X + b. Retourneert Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
@@ -521,13 +823,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Lineaire regressie: helling
+## Lineaire regressie: helling {#linear-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_linear_regression_slope"
+>title="Lineaire regressie: helling"
+>abstract="Lineaire regressie: Y = a X + b. Retourneert a."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -536,7 +845,16 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Logbestand basis 10
+## Logbestand basis 10 {#log-base-ten}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_log_base_ten"
+>title="Logbestand basis 10"
+>abstract="Retourneert de natuurlijke logaritme met grondtal 10 van een getal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
@@ -549,13 +867,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 | metrisch | Het positieve reële getal waarvoor u de natuurlijke logaritme met grondtal 10 wilt gebruiken |
 
 
-## Logregressie: Correlatiecoëfficiënt
+## Logboekregressie: Correlatiecoëfficiënt {#log-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_log_regression_coefficient"
+>title="Logboekregressie: Correlatiecoëfficiënt"
+>abstract="abstract"
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -564,13 +889,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Logregressie: Onderscheppen
+## Logboekregressie: Onderscheppen {#log-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_log_regression_intercept"
+>title="Logboekregressie: Onderscheppen"
+>abstract="Logregressie: Y = a ln(X) + b. Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -580,13 +912,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Logregressie: voorspeld Y
+## Logregressie: voorspeld Y {#log-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_log_regression_predicted_y"
+>title="Logregressie: voorspeld Y"
+>abstract="Logregressie: Y = a ln(X) + b. Retourneert Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -596,13 +935,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Logregressie: helling
+## Logregressie: helling {#log-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_log_regression_slope"
+>title="Logregressie: helling"
+>abstract="Logregressie: Y = a ln(X) + b. Retourneert a."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -612,13 +958,20 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Natuurlijk logboek
+## Natuurlijk logboek {#natural-log}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_natural_log"
+>title="Natuurlijk logboek"
+>abstract="Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is gebaseerd op de constante e (2.71828182845904). LN is het omgekeerde van de functie EXP."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
 
-
 Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is gebaseerd op de constante e (2.71828182845904). LN is het omgekeerde van de functie EXP.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -626,13 +979,20 @@ Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is geba
 
 
 
-## Niet
+## Niet {#not}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_not"
+>title="Niet"
+>abstract="Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
 
-
 Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -640,7 +1000,16 @@ Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Niet gelijk
+## Niet gelijk {#not-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_not_equal"
+>title="Niet gelijk"
+>abstract="Niet gelijk. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
 
@@ -658,7 +1027,16 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 `Metric 1 != Metric 2`
 
 
-## of
+## of {#or}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_or"
+>title="of"
+>abstract="Afscherming. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
@@ -676,20 +1054,36 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 >0 (nul) betekent Onwaar en elke andere waarde is Waar.
 
 
-## Pi
+## Pi {#pi}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_pi"
+>title="Pi"
+>abstract="Retourneert Pi: 3,14159..."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
 
 Retourneert Pi: 3,14159...
 
 
-## Stroomregressie: Correlatiecoëfficiënt
+## Regressie van het vermogen: Correlatiecoëfficiënt {#power-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_regression_correlation_coefficient"
+>title="Regressie van het vermogen: Correlatiecoëfficiënt"
+>abstract="Stroomregressie: Y = b X ^ a. Retourneert de correlatiecoëfficiënt."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -699,7 +1093,16 @@ Retourneert Pi: 3,14159...
 
 
 
-## Stroomregressie: Intercept
+## Regressie voeding: onderscheppen {#power-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_regression_intercept"
+>title="Regressie voeding: onderscheppen"
+>abstract="Stroomregressie: Y = b X ^ a. Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
@@ -714,13 +1117,20 @@ Retourneert Pi: 3,14159...
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Stroomregressie: voorspeld Y
+## Stroomregressie: voorspeld Y {#power-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_regression_predicted_y"
+>title="Stroomregressie: voorspeld Y"
+>abstract="Stroomregressie: Y = b X ^ a. Retourneert Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -730,13 +1140,20 @@ Retourneert Pi: 3,14159...
 
 
 
-## Stroomregressie: helling
+## Stroomregressie: helling {#power-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_regression_slope"
+>title="Stroomregressie: helling"
+>abstract="Stroomregressie: Y = b X ^ a. Retourneert a."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -746,13 +1163,20 @@ Retourneert Pi: 3,14159...
 
 
 
-## Kwartaalregressie: Correlatiecoëfficiënt
+## kwadratische regressie: correlatiecoëfficiënt {#quadratic-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quadratic_regression_correlation_coefficient"
+>title="kwadratische regressie: correlatiecoëfficiënt"
+>abstract="Kwartaalregressie: Y = (a + bX) ^ 2, retourneert de correlatiecoëfficiënt."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -760,13 +1184,20 @@ Retourneert Pi: 3,14159...
 | metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
-## Quadratische regressie: Intercept
+## kwadratische regressie: onderscheppen {#quadratic-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quadratic_regression_intercept"
+>title="kwadratische regressie: onderscheppen"
+>abstract="Quadratische regressie: Y = (a + bX) ^ 2, Geeft a."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -775,13 +1206,20 @@ Retourneert Pi: 3,14159...
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Quadratische regressie: voorspeld Y
+## kwadratische regressie: voorspeld Y {#quadratic-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quadratic_regression_predicted_y"
+>title="kwadratische regressie: voorspeld Y"
+>abstract="Quadratische regressie: Y = (a + bX) ^ 2, Geeft Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -789,13 +1227,21 @@ Retourneert Pi: 3,14159...
 | metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
-## Kwadratische regressie: helling
+
+## kwadratische regressie: helling {#quadratic-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quadratic_regression_slope"
+>title="kwadratische regressie: helling"
+>abstract="Quadratische regressie: Y = (a + bX) ^ 2, Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -805,13 +1251,20 @@ Retourneert Pi: 3,14159...
 
 
 
-## Wederkerige regressie: Correlatiecoëfficiënt
+## Wederkerige regressie: Correlatiecoëfficiënt {#reciprocal-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_reciprocal_regression_correlation_coefficient"
+>title="Wederkerige regressie: Correlatiecoëfficiënt"
+>abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -820,13 +1273,20 @@ Retourneert Pi: 3,14159...
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Wederkerige regressie: Intercept
+## Wederkerige regressie: onderscheppen {#reciprocal-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_reciprocal_regression_intercept"
+>title="Wederkerige regressie: onderscheppen"
+>abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert een."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -835,13 +1295,20 @@ Retourneert Pi: 3,14159...
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Wederkerige regressie: voorspeld Y
+## Wederkerige regressie: voorspeld Y {#reciprocal-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_reciprocal_regression_predicted_y"
+>title="Wederkerige regressie: voorspeld Y"
+>abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -850,13 +1317,20 @@ Retourneert Pi: 3,14159...
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## Wederkerige regressie: helling
+## Wederkerige regressie: helling {#reciprocal-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_reciprocal_regression_slope"
+>title="Reciprole regressie: helling"
+>abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert b."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-
 [!BADGE  Lijst ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -867,7 +1341,16 @@ Retourneert Pi: 3,14159...
 
 
 
-## Sinus
+## Sinus {#sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_sine"
+>title="Sinus"
+>abstract="Geeft als resultaat de sinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
@@ -882,13 +1365,20 @@ Retourneert Pi: 3,14159...
 
 
 
-## T-score
+## T-score {#t-score}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_t_score"
+>title="T-score"
+>abstract="De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score)."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
 
-
 De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score).
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -896,13 +1386,20 @@ De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking 
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
-## T-test
+## T-test {#t-test}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_t_test"
+>title="T-test"
+>abstract="Voert een t-test met mtailed t-score van x en n graden van vrijheid uit."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
 
-
 Voert een t-test met mtailed t-score van x en n graden van vrijheid uit.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -920,7 +1417,7 @@ De handtekening is T-TEST (metrisch, graden, staarten). Onder, roept het eenvoud
 
 De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien de vrijheidsgraad en het aantal staarten wordt weergegeven.
 
-**Voorbeelden:**
+### Voorbeelden
 
 1. Met de functie kunt u zoeken naar contouren:
 
@@ -936,14 +1433,20 @@ De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien
 
 
 
+## Raaklijn {#tangent}
 
-## Raaklijn
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_tangent"
+>title="Raaklijn"
+>abstract="Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-
 Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -951,13 +1454,20 @@ Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenig
 
 
 
-## Z-score
+## Z-score {#z-score}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_z_score"
+>title="Z-score"
+>abstract="De afwijking van het gemiddelde gedeeld door de standaardafwijking."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-
 [!BADGE  Rij ]{type="Neutral"}
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -978,13 +1488,20 @@ Waar ***[!DNL x]*** de onbewerkte score is, is ***[!DNL μ]*** het gemiddelde va
 
 
 
-## Z-test
+## Z-test {#z-test}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_z_test"
+>title="Z-test"
+>abstract="Voert een n-tailed z-test met een z-score van x uit."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-
 Voert een n-tailed z-test met een z-score van x uit.
-
 
 | Argument | Beschrijving |
 |---|---|
@@ -994,11 +1511,6 @@ Voert een n-tailed z-test met een z-score van x uit.
 >[!NOTE]
 >
 >gaat ervan uit dat de waarden normaal worden verdeeld.
-
-
-
-
-
 
 
 

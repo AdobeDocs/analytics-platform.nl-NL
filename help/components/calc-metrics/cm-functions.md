@@ -4,10 +4,10 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 2%
+source-wordcount: '1569'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,17 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 
 
-## Absolute waarde
+## Absolute waarde {#absolute-value}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_absolute_value"
+>title="Absolute waarde"
+>abstract="Retourneert de absolute waarde van een getal. De absolute waarde van een getal is het getal met een positieve waarde."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
@@ -49,7 +59,16 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 | metrisch | De metrische waarde waarvoor u de absolute waarde wilt berekenen. |
 
 
-## Maximum kolom
+## Maximum kolom {#column-maximum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_maximum"
+>title="Maximum kolom"
+>abstract="Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
 
@@ -61,7 +80,17 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Minimaal kolom
+## Minimaal kolom {#column-minimum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_minimum"
+>title="Minimaal kolom"
+>abstract="Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
 
@@ -73,7 +102,17 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Aantal kolommen
+## Aantal kolommen {#column-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_sum"
+>title="Aantal kolommen"
+>abstract="Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
 
@@ -84,7 +123,17 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 
 
-## Aantal
+## Aantal {#count}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_count"
+>title="Aantal"
+>abstract="Retourneert het aantal of het aantal niet-nulwaarden voor een metrische waarde binnen een kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
@@ -95,7 +144,16 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 | metrisch | De metrische waarde die u wilt tellen. |
 
 
-## Exponent
+## Exponent {#exponent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponent"
+>title="Exponent"
+>abstract="Retourneert e verhoogd tot de macht van een bepaald getal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
@@ -106,7 +164,17 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 | metrisch | De exponent die op de basis e wordt toegepast. |
 
 
-## Gemiddeld
+## Gemiddeld {#mean}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_mean"
+>title="Gemiddeld"
+>abstract="Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde in een kolom."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
@@ -118,7 +186,17 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Mediaan
+## Mediaan {#median}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_median"
+>title="Mediaan"
+>abstract="Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
@@ -130,7 +208,17 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Modulo
+## Modulo {#modulo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_modulo"
+>title="Modulo"
+>abstract="Retourneert de rest na het delen van x door y met behulp van Euclidean-divisie. "
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
 
@@ -157,7 +245,17 @@ Om ervoor te zorgen dat u altijd een positief getal krijgt, gebruikt u
 MODULO(MODULO(x,y)+y,y)
 ```
 
-## Percentage
+## Percentage {#percentile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_percentile"
+>title="Percentage"
+>abstract="Retourneert het nde percentiel. Dit is een waarde tussen 0 en 100. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
@@ -171,7 +269,16 @@ MODULO(MODULO(x,y)+y,y)
 
 
 
-## Energiefunctie
+## Power Operator {#power-operator}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_operator"
+>title="Power Operator"
+>abstract="Retourneert x opgevoerd naar de y-macht."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
@@ -183,7 +290,17 @@ Retourneert x opgevoerd naar de y-macht.
 | metrisch_Y | De macht u zou willen verhogen metrisch_X aan. |
 
 
-## Kwart
+## Kwart {#quartile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quartile"
+>title="Kwart"
+>abstract="Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
@@ -196,7 +313,16 @@ Retourneert x opgevoerd naar de y-macht.
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Rond
+## Rond {#round}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_round"
+>title="Rond"
+>abstract="Rond zonder a *aantal* parameter is het zelfde als rond met a *aantal* parameter van 0, namelijk rond aan het dichtstbijzijnde geheel.  Met a *aantal* parameter, ROUND keert de *aantal* cijfers rechts van decimaal terug.  Als *aantal* negatief is, keert het 0&#39;s links van decimaal terug."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
 
@@ -216,15 +342,32 @@ ROUND( 314.15, -1) = 310
 ROUND( 314.15, -2) = 300
 ```
 
+## Aantal rijen {#row-count}
 
-## Aantal rijen
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_count"
+>title="Aantal rijen"
+>abstract="Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
 Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1.
 
 
-## Max. rij
+## Max. rij {#row-max}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_max"
+>title="Max. rij"
+>abstract="Maximaal aantal kolommen per rij."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
 
@@ -235,7 +378,17 @@ Maximaal aantal kolommen per rij.
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
-## Min. rij
+
+## Min. rij {#row-min}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_min"
+>title="Min. rij"
+>abstract="Minimaal van de kolommen van elke rij."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
 
@@ -248,7 +401,16 @@ Minimaal van de kolommen van elke rij.
 
 
 
-## Rijsom
+## Rijsom {#row-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_sum"
+>title="Rijsom"
+>abstract="Som van de kolommen van elke rij."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
 
@@ -259,7 +421,17 @@ Som van de kolommen van elke rij.
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 
 
-## Vierkante hoofdmap
+## Vierkante hoofdmap {#square-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_square_root"
+>title="Vierkante hoofdmap"
+>abstract="Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
@@ -270,7 +442,16 @@ Som van de kolommen van elke rij.
 | metrisch | De metrische waarde waarvoor u de vierkantswortel wilt berekenen. |
 
 
-## Standaardafwijking
+## Standaardafwijking {#standard-deviation}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_standard_deviation"
+>title="Standaardafwijking"
+>abstract="Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
@@ -282,7 +463,16 @@ Som van de kolommen van elke rij.
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
 
-## Variantie
+## Variantie {#variance}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_variance"
+>title="Variantie"
+>abstract="Geeft de variantie gebaseerd op een samplepopulatie van gegevens."
+
+<!-- markdownlint-enable MD034 -->
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
@@ -320,9 +510,6 @@ In het voorbeeld van de volgende kolom met drie items:
 | 3 |
 
 Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2) <sup> 2 </sup> + (2 - 2) <sup> </sup> + (3 - 2) <sup> 2 </sup>/3) = 2/3.
-
-
-
 
 <!--
 
