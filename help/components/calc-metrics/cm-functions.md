@@ -4,7 +4,7 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 1%
@@ -191,7 +191,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_median"
+>id="calcmetrics_function_median"
 >title="Mediaan"
 >abstract="Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan."
 
@@ -426,7 +426,7 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_square_root"
+>id="calcmetrics_function_square_root"
 >title="Vierkante hoofdmap"
 >abstract="Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven."
 
