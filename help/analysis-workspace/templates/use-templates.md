@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
+source-git-commit: 34b94eeeeb501f6c0deb982351b7c65e0a97bc68
 workflow-type: tm+mt
-source-wordcount: '17950'
+source-wordcount: '18087'
 ht-degree: 0%
 
 ---
@@ -1347,6 +1347,24 @@ De volgende sjablonen zijn beschikbaar:
 | **Online/Off-line** | Online en offline verkeer samen weergeven.<p>**dit kan u helpen** beter de distributie van online en off-line verkeer aan uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer middelen aan uw online ervaring wijden wanneer het een bepaald niveau van verkeer bereikt.</p><!-- This template uses the ... --> |
 
 ### Andere kanalen {#other-channels}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--pointOfSale"
+>title="Transactiegegevens van verkooppunten weergeven, inclusief verdiende inkomsten, uitgevoerde orders en verkochte eenheden. Deze sjabloon bevat ook visualisaties die informatie weergeven over winkels, producten van topniveau en de belangrijkste productcategorieën, en ook online versus offline verkoop."
+>abstract="**dit kan u** helpen beter begrijpen welke uw top-verkopende producten over opslagplaats en online zijn.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als meer marketing middelen aan uw best-presterende producten en kanalen toewijzen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--survey"
+>title="Bekijk de betrokkenheid van gebruikers voor uw enquêtes. Bekijk het aantal start- en voltooiingsopdrachten, de bovenste vragen en antwoorden en het aantal eerste versus vorige deelnemers."
+>abstract="**dit kan u** helpen de betrokkenheidsniveaus en het succestarief van uw onderzoeken beter begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als toekomstige onderzoeken aanpassen om betere participatie te produceren."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende sjablonen zijn beschikbaar:
 
