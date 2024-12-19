@@ -4,7 +4,7 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_absolute_value"
+>id="functions-abs"
 >title="Absolute waarde"
 >abstract="Retourneert de absolute waarde van een getal. De absolute waarde van een getal is het getal met een positieve waarde."
 
@@ -64,7 +64,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_maximum"
+>id="functions-col-max"
 >title="Maximum kolom"
 >abstract="Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen."
 
@@ -85,7 +85,7 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_minimum"
+>id="functions-col-min"
 >title="Minimaal kolom"
 >abstract="Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen."
 
@@ -107,7 +107,7 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_sum"
+>id="functions-col-sum"
 >title="Aantal kolommen"
 >abstract="Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe."
 
@@ -128,7 +128,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_count"
+>id="functions-count"
 >title="Aantal"
 >abstract="Retourneert het aantal of het aantal niet-nulwaarden voor een metrische waarde binnen een kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd)."
 
@@ -149,7 +149,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponent"
+>id="functions-exp"
 >title="Exponent"
 >abstract="Retourneert e verhoogd tot de macht van een bepaald getal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal."
 
@@ -169,7 +169,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_mean"
+>id="functions-mean"
 >title="Gemiddeld"
 >abstract="Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde in een kolom."
 
@@ -191,7 +191,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_median"
+>id="functions-median"
 >title="Mediaan"
 >abstract="Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan."
 
@@ -213,7 +213,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_modulo"
+>id="functions-modulo"
 >title="Modulo"
 >abstract="Retourneert de rest na het delen van x door y met behulp van Euclidean-divisie. "
 
@@ -250,7 +250,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_percentile"
+>id="functions-percentile"
 >title="Percentage"
 >abstract="Retourneert het nde percentiel. Dit is een waarde tussen 0 en 100. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug."
 
@@ -274,7 +274,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_operator"
+>id="functions-pow"
 >title="Power Operator"
 >abstract="Retourneert x opgevoerd naar de y-macht."
 
@@ -295,7 +295,7 @@ Retourneert x opgevoerd naar de y-macht.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quartile"
+>id="functions-quartile"
 >title="Kwart"
 >abstract="Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven."
 
@@ -318,7 +318,7 @@ Retourneert x opgevoerd naar de y-macht.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_round"
+>id="functions-round"
 >title="Rond"
 >abstract="Rond zonder a *aantal* parameter is het zelfde als rond met a *aantal* parameter van 0, namelijk rond aan het dichtstbijzijnde geheel.  Met a *aantal* parameter, ROUND keert de *aantal* cijfers rechts van decimaal terug.  Als *aantal* negatief is, keert het 0&#39;s links van decimaal terug."
 
@@ -347,7 +347,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_count"
+>id="functions-count-rows"
 >title="Aantal rijen"
 >abstract="Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1."
 
@@ -363,7 +363,7 @@ Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_max"
+>id="functions-row-max"
 >title="Max. rij"
 >abstract="Maximaal aantal kolommen per rij."
 
@@ -384,7 +384,7 @@ Maximaal aantal kolommen per rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_min"
+>id="functions-row-min"
 >title="Min. rij"
 >abstract="Minimaal van de kolommen van elke rij."
 
@@ -406,7 +406,7 @@ Minimaal van de kolommen van elke rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_sum"
+>id="functions-row-sum"
 >title="Rijsom"
 >abstract="Som van de kolommen van elke rij."
 
@@ -426,7 +426,7 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_square_root"
+>id="functions-sqrt"
 >title="Vierkante hoofdmap"
 >abstract="Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven."
 
@@ -447,7 +447,7 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_standard_deviation"
+>id="functions-stdev"
 >title="Standaardafwijking"
 >abstract="Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens."
 
@@ -468,7 +468,7 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_variance"
+>id="functions-variance"
 >title="Variantie"
 >abstract="Geeft de variantie gebaseerd op een samplepopulatie van gegevens."
 

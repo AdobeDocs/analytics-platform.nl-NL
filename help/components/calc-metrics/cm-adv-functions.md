@@ -4,7 +4,7 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4163'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_and"
+>id="functions-and"
 >title="en"
 >abstract="Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true)."
 
@@ -57,7 +57,7 @@ Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_approximate_count_distinct"
+>id="functions-count-distinct-metric"
 >title="Telling bij benadering onderscheiden"
 >abstract="Retourneert de geschatte, verschillende telling van dimensie-items voor de geselecteerde dimensie."
 
@@ -84,7 +84,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_cosine"
+>id="functions-acos"
 >title="Arc Cosine"
 >abstract="Retourneert de arccosinus, of omgekeerd van de cosinus, van een metrische waarde. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI()."
 
@@ -107,7 +107,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_sine"
+>id="functions-asin"
 >title="Boog sinus"
 >abstract="Retourneert de arcsinus, of omgekeerde sinus, van een getal. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arcsinus in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI()"
 
@@ -130,7 +130,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_tangent"
+>id="functions-atan"
 >title="Booghoek"
 >abstract="Retourneert de arctangens, of omgekeerde tangens, van een getal. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI()."
 
@@ -153,7 +153,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_t"
+>id="functions-cdf-t"
 >title="Cdf-T"
 >abstract="Keert de waarschijnlijkheid terug dat een willekeurige variabele met student-t distributie met n graden van vrijheid een z-score minder dan kolom heeft."
 
@@ -184,7 +184,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_z"
+>id="functions-cdf-z"
 >title="Cdf-Z"
 >abstract="Retourneert de waarschijnlijkheid dat een willekeurige variabele met een normale distributie een z-score heeft minder dan col."
 
@@ -213,7 +213,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_ceiling"
+>id="functions-ceil"
 >title="Plafond"
 >abstract="Geeft als resultaat het kleinste gehele getal dat niet kleiner is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570."
 
@@ -233,7 +233,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence"
+>id="functions-waskr-confidence"
 >title="Vertrouwen"
 >abstract="Bereken het om het even welk-tijd-geldige vertrouwen gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
 
@@ -258,7 +258,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_lower"
+>id="functions-waskr-confidence-interval-lower"
 >title="Vertrouwen (onder)"
 >abstract="Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
 
@@ -282,7 +282,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_upper"
+>id="functions-waskr-confidence-interval-upper"
 >title="Vertrouwen (boven)"
 >abstract="Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
 
@@ -307,7 +307,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cosine"
+>id="functions-cos"
 >title="Cosine"
 >abstract="Geeft als resultaat de cosinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
 
@@ -327,7 +327,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cube_root"
+>id="functions-cube-root"
 >title="Kubus Root"
 >abstract="Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven."
 
@@ -350,7 +350,7 @@ Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aanta
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative"
+>id="functions-cumul"
 >title="Cumulatief"
 >abstract="Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen."
 
@@ -379,7 +379,7 @@ Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative_average"
+>id="functions-cumul-avg"
 >title="Cumulatief (gemiddeld)"
 >abstract="Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen."
 
@@ -405,7 +405,7 @@ Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0,
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_equal"
+>id="functions-eq"
 >title="Gelijk"
 >abstract="Gelijk. De uitvoer is 0 (false) of 1 (true)."
 
@@ -431,7 +431,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_correlation_coefficient"
+>id="functions-ls-corr-exp"
 >title="Exponentiële regressie: Correlatiecoëfficiënt"
 >abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert de correlatiecoëfficiënt."
 
@@ -454,7 +454,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_predicted_y"
+>id="functions-ls-pred-exp"
 >title="Exponentiële regressie: voorspeld Y"
 >abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert Y."
 
@@ -478,7 +478,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_intercept"
+>id="functions-ls-intercept-exp"
 >title="Exponentiële regressie: Intercept"
 >abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert b."
 
@@ -501,7 +501,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_slope"
+>id="functions-ls-slope-exp"
 >title="Exponentiële regressie: helling"
 >abstract="Exponentiële regressie: Y = a exp(X) + b. Retourneert a."
 
@@ -525,7 +525,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_floor"
+>id="functions-floor"
 >title="Floor"
 >abstract="Geeft als resultaat het grootste gehele getal dat niet groter is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569."
 
@@ -545,7 +545,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than"
+>id="functions-gt"
 >title="Groter dan"
 >abstract="De uitvoer is 0 (false) of 1 (true)."
 
@@ -570,7 +570,7 @@ De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than_or_equal"
+>id="functions-ge"
 >title="Groter dan of gelijk aan"
 >abstract="Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true)."
 
@@ -596,7 +596,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_cosine"
+>id="functions-cosh"
 >title="Hyperbolische cosinus"
 >abstract="Geeft de hyperbolische cosinus van een getal."
 
@@ -619,7 +619,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_sine"
+>id="functions-sinh"
 >title="Hyperbolische sinus"
 >abstract="Geeft de hyperbolische sinus van een getal."
 
@@ -639,7 +639,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_tangent"
+>id="functions-tanh"
 >title="Hyperbolische hoek"
 >abstract="Retourneert de hyperbolische tangens van een getal."
 
@@ -659,7 +659,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_if"
+>id="functions-if"
 >title="Indien"
 >abstract="Als de waarde van de parameter condition niet-nul is (true), is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false."
 
@@ -683,7 +683,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than"
+>id="functions-lt"
 >title="Minder dan"
 >abstract="De uitvoer is 0 (false) of 1 (true)."
 
@@ -708,7 +708,7 @@ De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than_or_equal"
+>id="functions-le"
 >title="Kleiner dan of gelijk aan"
 >abstract="Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true)."
 
@@ -734,7 +734,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_lift"
+>id="functions-waskr-lift"
 >title="Optillen"
 >abstract="De hoogte van de verhouding ten opzichte van de controlewaarde."
 
@@ -753,7 +753,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_correlation_coefficient"
+>id="functions-ls-corr-linear"
 >title="Lineaire regressie: Correlatiecoëfficiënt"
 >abstract="Lineaire regressie: Y = a X + b. Retourneert de correlatiecoëfficiënt."
 
@@ -778,7 +778,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_intercept"
+>id="functions-ls-intercept-linear"
 >title="Lineaire regressie: Intercept"
 >abstract="Lineaire regressie: Y = a X + b. Retourneert b."
 
@@ -803,7 +803,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_predicted_y"
+>id="functions-ls-pred-linear"
 >title="Lineaire regressie: voorspeld Y"
 >abstract="Lineaire regressie: Y = a X + b. Retourneert Y."
 
@@ -828,7 +828,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_slope"
+>id="functions-ls-slope-linear"
 >title="Lineaire regressie: helling"
 >abstract="Lineaire regressie: Y = a X + b. Retourneert a."
 
@@ -850,7 +850,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_base_ten"
+>id="functions-log10"
 >title="Logbestand basis 10"
 >abstract="Retourneert de natuurlijke logaritme met grondtal 10 van een getal."
 
@@ -872,7 +872,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_coefficient"
+>id="functions-ls-corr-log"
 >title="Logboekregressie: Correlatiecoëfficiënt"
 >abstract="Logregressie: Y = a ln(X) + b. Retourneert de correlatiecoëfficiënt."
 
@@ -894,7 +894,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_intercept"
+>id="functions-ls-intercept-log"
 >title="Logboekregressie: Onderscheppen"
 >abstract="Logregressie: Y = a ln(X) + b. Retourneert b."
 
@@ -917,7 +917,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_predicted_y"
+>id="functions-ls-pred-log"
 >title="Logregressie: voorspeld Y"
 >abstract="Logregressie: Y = a ln(X) + b. Retourneert Y."
 
@@ -940,7 +940,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_slope"
+>id="functions-ls-slope-log"
 >title="Logregressie: helling"
 >abstract="Logregressie: Y = a ln(X) + b. Retourneert a."
 
@@ -963,7 +963,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_natural_log"
+>id="functions-log"
 >title="Natuurlijk logboek"
 >abstract="Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is gebaseerd op de constante e (2.71828182845904). LN is het omgekeerde van de functie EXP."
 
@@ -984,7 +984,7 @@ Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is geba
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not"
+>id="functions-not"
 >title="Niet"
 >abstract="Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true)."
 
@@ -1005,7 +1005,7 @@ Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not_equal"
+>id="functions-ne"
 >title="Niet gelijk"
 >abstract="Niet gelijk. De uitvoer is 0 (false) of 1 (true)."
 
@@ -1032,7 +1032,7 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_or"
+>id="functions-or"
 >title="of"
 >abstract="Afscherming. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true)."
 
@@ -1059,7 +1059,7 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_pi"
+>id="functions-pi"
 >title="Pi"
 >abstract="Retourneert Pi: 3,14159..."
 
@@ -1075,7 +1075,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_correlation_coefficient"
+>id="functions-ls-corr-power"
 >title="Regressie van het vermogen: Correlatiecoëfficiënt"
 >abstract="Stroomregressie: Y = b X ^ a. Retourneert de correlatiecoëfficiënt."
 
@@ -1098,7 +1098,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_intercept"
+>id="functions-ls-intercept-power"
 >title="Regressie voeding: onderscheppen"
 >abstract="Stroomregressie: Y = b X ^ a. Retourneert b."
 
@@ -1122,7 +1122,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_predicted_y"
+>id="functions-ls-pred-power"
 >title="Stroomregressie: voorspeld Y"
 >abstract="Stroomregressie: Y = b X ^ a. Retourneert Y."
 
@@ -1145,7 +1145,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_slope"
+>id="functions-ls-slope-power"
 >title="Stroomregressie: helling"
 >abstract="Stroomregressie: Y = b X ^ a. Retourneert a."
 
@@ -1168,7 +1168,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_correlation_coefficient"
+>id="functions-ls-corr-quadratic"
 >title="kwadratische regressie: correlatiecoëfficiënt"
 >abstract="Kwartaalregressie: Y = (a + bX) ^ 2, retourneert de correlatiecoëfficiënt."
 
@@ -1189,7 +1189,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_intercept"
+>id="functions-ls-intercept-quadratic"
 >title="kwadratische regressie: onderscheppen"
 >abstract="Quadratische regressie: Y = (a + bX) ^ 2, Geeft a."
 
@@ -1211,7 +1211,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_predicted_y"
+>id="functions-ls-pred-quadratic"
 >title="kwadratische regressie: voorspeld Y"
 >abstract="Quadratische regressie: Y = (a + bX) ^ 2, Geeft Y."
 
@@ -1233,7 +1233,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_slope"
+>id="functions-ls-slope-quadratic"
 >title="kwadratische regressie: helling"
 >abstract="Quadratische regressie: Y = (a + bX) ^ 2, Retourneert b."
 
@@ -1256,7 +1256,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_correlation_coefficient"
+>id="functions-ls-corr-reciprocal"
 >title="Wederkerige regressie: Correlatiecoëfficiënt"
 >abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt."
 
@@ -1278,7 +1278,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_intercept"
+>id="functions-ls-intercept-reciprocal"
 >title="Wederkerige regressie: onderscheppen"
 >abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert een."
 
@@ -1300,7 +1300,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_predicted_y"
+>id="functions-ls-pred-reciprocal"
 >title="Wederkerige regressie: voorspeld Y"
 >abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y."
 
@@ -1322,7 +1322,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_slope"
+>id="functions-ls-slope-reciprocal"
 >title="Reciprole regressie: helling"
 >abstract="Wederkerige regressie: Y = a + b X ^ -1. Retourneert b."
 
@@ -1346,7 +1346,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_sine"
+>id="functions-sin"
 >title="Sinus"
 >abstract="Geeft als resultaat de sinus van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
 
@@ -1370,7 +1370,7 @@ Retourneert Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_score"
+>id="functions-t-score"
 >title="T-score"
 >abstract="De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score)."
 
@@ -1391,7 +1391,7 @@ De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_test"
+>id="functions-t-test"
 >title="T-test"
 >abstract="Voert een t-test met mtailed t-score van x en n graden van vrijheid uit."
 
@@ -1438,7 +1438,7 @@ De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_tangent"
+>id="functions-tan"
 >title="Raaklijn"
 >abstract="Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180."
 
@@ -1459,7 +1459,7 @@ Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenig
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_score"
+>id="functions-z-score"
 >title="Z-score"
 >abstract="De afwijking van het gemiddelde gedeeld door de standaardafwijking."
 
@@ -1493,7 +1493,7 @@ Waar ***[!DNL x]*** de onbewerkte score is, is ***[!DNL μ]*** het gemiddelde va
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_test"
+>id="functions-z-test"
 >title="Z-test"
 >abstract="Voert een n-tailed z-test met een z-score van x uit."
 
