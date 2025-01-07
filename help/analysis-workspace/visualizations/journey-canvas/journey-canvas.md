@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
+source-git-commit: 05e1b5e26d5a1dc1e46a675131185f0927c65f22
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="Reiscanvas"
->abstract="Net als bij Fallout laat deze visualisatie zien hoe mensen door of uit een reeks aanraakpunten gaan. Gebruik Reis canvas voor reizen met meerdere toegangspunten en paden, of om reizen te analyseren die in Journey Optimizer zijn gemaakt."
+>abstract="Toont hoe mensen door of uit een reeks aanraakpunten te werk gaan. Wordt gebruikt voor reizen met meerdere toegangspunten en -paden, of voor het analyseren van reizen die in Journey Optimizer worden gemaakt."
 
 <!-- markdownlint-enable MD034 -->
 
