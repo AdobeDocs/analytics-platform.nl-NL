@@ -4,14 +4,34 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
+source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1766'
 ht-degree: 0%
 
 ---
 
-# Overzicht van het reiscanvas
+# Overzicht van het reiscanvas {#journey-canvas-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_button"
+>title="Reiscanvas"
+>abstract="Net als bij Fallout laat deze visualisatie zien hoe mensen door of uit een reeks aanraakpunten gaan. Gebruik Reis canvas voor reizen met meerdere toegangspunten en paden, of om reizen te analyseren die in Journey Optimizer zijn gemaakt."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_panel"
+>title="Reiscanvas"
+>abstract="Analyseer hoe mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt. <br/><br/> Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande reizen van Journey Optimizer analyseren"
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt. Het stelt je in staat om een reis helemaal vanaf het begin te definiëren of een reis vanuit Journey Optimizer te bekijken, dan te zien hoe mensen de reis hebben verlaten (verlaten) of doorgezet (doorheen).
 
