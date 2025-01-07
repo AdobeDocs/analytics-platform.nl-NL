@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
+source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Dit artikel verstrekt context op gedeelde apparaten, hoe te om gegevens van gede
 
 ## Wat is een gedeeld apparaat?
 
-Een gedeeld apparaat is een apparaat dat door meer dan één persoon wordt gebruikt. De gemeenschappelijke scenario&#39;s zijn apparaten zoals tabletten, apparaten die in kiosken worden gebruikt of computermateriaal dat door agenten in een vraagcentra wordt gedeeld.
+Een gedeeld apparaat is een apparaat dat door meer dan één persoon wordt gebruikt. De gemeenschappelijke scenario&#39;s zijn apparaten zoals tabletten, apparaten die in kiosken worden gebruikt of computermateriaal dat door agenten in een vraagcentrum wordt gedeeld.
 
 Wanneer twee personen hetzelfde apparaat gebruiken en beide een aankoop doen, kunnen voorbeeldgebeurtenisgegevens er als volgt uitzien:
 
@@ -49,7 +49,7 @@ Bij het instellen van tekenreeksen kunnen gedeelde apparaatgegevens worden toege
 
 ### Attributie laatste auth
 
-Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De identiteitsdienst van het Experience Platform bouwt de grafiek op de last-auth attributie en als zodanig gebruikt in grafiek-gebaseerde stitching. Zie [ grafiek die van de Identiteit regels verbindt overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) voor meer informatie.
+Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De identiteitsdienst van het Experience Platform bouwt de grafiek op de last-auth attributie en als zodanig gebruikt in grafiek-gebaseerde stitching. Zie [ grafiek die van de Identiteit regels ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) met elkaar verbindt voor meer informatie.
 
 Wanneer kenmerk last-auth wordt gebruikt in stitching, worden id&#39;s met titel omgezet zoals in de onderstaande tabel wordt getoond.
 
@@ -65,7 +65,7 @@ Wanneer kenmerk last-auth wordt gebruikt in stitching, worden id&#39;s met titel
 
 ### Apparaatsplitsing
 
-Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de gebruiker in dichtste nabijheid van de anonieme activiteit. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
+Apparaat-spleet attributen anonieme activiteit van een gedeeld apparaat aan de meest recente bekende gebruiker, die in het verleden kijkt. Apparaatsplitsing wordt momenteel gebruikt voor stitching op basis van veld.
 
 Wanneer de apparaat-gespleten attributie in het stitching wordt gebruikt, oplossen de Getegrafeerde IDs zoals aangetoond in de hieronder lijst.
 
