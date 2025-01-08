@@ -5,9 +5,9 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 1ba2ef57a6ecc8246c1481f02d28ebeb62cc9909
+source-git-commit: cb4c2721867585fd11c0929f0947436872272da6
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2214'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,11 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
 >[!IMPORTANT]
 >
->Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
+>Houd rekening met het volgende wanneer u AEP Data Landing Zone gebruikt voor uw exportaccount:
+>
+> * Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
+> * AEP Data Landing Zone gebruikt opslag in Azure of AWS. Als uw organisatie een login die bedrijf gebruikt wordt wordt gevormd om Azure te gebruiken, dan gebruikt de Streek van de Landing van Gegevens AEP Azure. Als het login bedrijf wordt gevormd om AWS te gebruiken, dan gebruikt de Gebieden van de Gegevens AEP AWS.
+>
 
 1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
 
@@ -74,42 +78,75 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    * Wanneer [ het uitvoeren van volledige lijsten van Analysis Workspace ](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. Selecteer [!UICONTROL **sparen**].
+1. Nadat u **[!UICONTROL AEP Data Landing Zone]** op het **[!UICONTROL Account type]** gebied selecteert, uitgezocht [!UICONTROL **sparen**].
 
-   De [!UICONTROL **gecreeerde rekening van de Uitvoer**] dialoogvertoningen.
+   Elk van de volgende dialoogvensters wordt weergegeven, afhankelijk van het feit of uw AEP Data Landing Zone is geconfigureerd voor gebruik van Azure- of AWS-opslag:
 
-   ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep.png)
+   * **Azure opslag:**
 
-1. Kopieer de inhoud van het [!UICONTROL **SAS URI**] gebied aan uw klembord. U gebruikt deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Data Landing Zone.
+     De [!UICONTROL **gecreeerde rekening van de Uitvoer**] dialoogvertoningen.
 
-   Als dit veld leeg is, moet u toestemming krijgen om toegang te krijgen tot Adobe Experience Platform.
+     ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep.png)
 
-1. In Adobe Experience Platform configureert u de gegevenslandingszone-container zodanig dat de door u gekopieerde SAS-URI wordt gebruikt.
+   * **opslag van AWS:**
 
-   >[!NOTE]
-   >
-   >Omdat de AEP Data Landing Zone-account is gebaseerd op Azure, is de eenvoudigste manier om toegang te krijgen tot rapporten die u exporteert naar AEP Data Landing Zone, de Azure Storage Explorer. In de volgende stappen wordt deze methode gebruikt.
+     >[!AVAILABILITY]
+     >
+     >Deze sectie is van toepassing op implementaties van Experience Platform dat op Amazon Web Services (AWS) loopt. Experience Platform dat op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van het Experience Platform leren, zie het [ Experience Platform multi-cloud overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud).
 
-   1. Als u niet reeds hebt, download [ Microsoft Azure de Ontdekkingsreiziger van de Opslag ](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+     De [!UICONTROL **gecreeerde Rekening**] dialoogvertoningen.
 
-   1. In de documentatie van Adobe Experience Platform, volg de stappen die in [ worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+     ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep-aws.png)
 
-      U kunt de taken overslaan die in de secties [ worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) en [ Gegevens het Landing van de Zone van de Update geloofsbrieven ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
+1. (Voorwaardelijk) Als u Azure-opslag gebruikt:
 
-   1. Wanneer het volgen van de documentatie van Adobe Experience Platform en u aan het [!UICONTROL **de containerSAS URL van de Blob**] gebied komt, kleef SAS URI die u in Stap 3 kopieerde.
+   1. Kopieer de inhoud van het [!UICONTROL **SAS URI**] gebied aan uw klembord. U gebruikt deze SAS-URI om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Data Landing Zone.
+
+      Als dit veld leeg is, moet u toestemming krijgen om toegang te krijgen tot Adobe Experience Platform.
+
+   1. In Adobe Experience Platform configureert u de gegevenslandingszone-container zodanig dat de door u gekopieerde SAS-URI wordt gebruikt.
 
       >[!NOTE]
       >
-      >U moet deze actie om de 7 dagen uitvoeren, omdat de SAS URI 7 dagen na het creëren vervalt. U kunt een script maken om dit proces te automatiseren.
+      >Als u een AEP Data Landing Zone-account gebruikt die is gebaseerd op Azure, kunt u het eenvoudigst rapporten openen die u exporteert naar AEP Data Landing Zone door de Azure Storage Explorer te gebruiken. In de volgende stappen wordt deze methode gebruikt.
 
+      1. Als u niet reeds hebt, download [ Microsoft Azure de Ontdekkingsreiziger van de Opslag ](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-      ![ ga het venster van Info van de Verbinding die het gebied van SAS URL tonen ](assets/blob-container-sas-uri.png)
+      1. In de documentatie van Adobe Experience Platform, volg de stappen die in [ worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+
+         U kunt de taken overslaan die in de secties [ worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) en [ Gegevens het Landing van de Zone van de Update geloofsbrieven ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
+
+      1. Wanneer het volgen van de documentatie van Adobe Experience Platform en u aan het [!UICONTROL **de containerSAS URL van de Blob**] gebied komt, kleef SAS URI die u in Stap 3 kopieerde.
+
+         >[!NOTE]
+         >
+         >U moet deze actie om de 7 dagen uitvoeren, omdat de SAS URI 7 dagen na het creëren vervalt. U kunt een script maken om dit proces te automatiseren.
+
+         ![ ga het venster van Info van de Verbinding die het gebied van SAS URL tonen ](assets/blob-container-sas-uri.png)
 
    1. Selecteer [!UICONTROL **daarna**] > [!UICONTROL **verbinden**].
 
-1. In Customer Journey Analytics, in de [!UICONTROL **gecreeerde rekening van de Uitvoer**] dialoog, uitgezochte [!UICONTROL **O.K.**].
+   1. In Customer Journey Analytics, in de [!UICONTROL **gecreeerde rekening van de Uitvoer**] dialoog, uitgezochte [!UICONTROL **O.K.**].
 
-   ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep.png)
+      ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep.png)
+
+1. (Voorwaardelijk) Als u AWS-opslag gebruikt:
+
+   1. Kopieer de inhoud van de volgende velden naar het klembord (u gebruikt deze informatie om toegang te krijgen tot de gegevens die vanuit Analysis Workspace worden geëxporteerd vanuit de AEP Data Landing Zone):
+
+      * [!UICONTROL **Sleutelidentiteitskaart van de Toegang**]
+
+      * **[!UICONTROL Secret access key]**
+
+      * **[!UICONTROL Session token]**
+
+      * **[!UICONTROL Bucket name]**
+
+      * **[!UICONTROL DLZ folder]**
+
+      ![ de rekeningsdialoog van de Uitvoer AEP Gegevens Landing Zone ](assets/export-account-aep-aws.png)
+
+   1. Selecteer [!UICONTROL **O.K.**].
 
 1. Ga met [ verder vormen de plaatsen van de wolkenuitvoer ](/help/components/exports/cloud-export-locations.md).
 
