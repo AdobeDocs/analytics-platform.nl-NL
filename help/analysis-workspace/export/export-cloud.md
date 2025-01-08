@@ -5,9 +5,9 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2226'
 ht-degree: 1%
 
 ---
@@ -178,6 +178,7 @@ De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u d
    * Is gecreeerd van een gebied dat deel van een [ serie van voorwerpen ](/help/use-cases/object-arrays.md) uitmaakt (gelijkend op multi-waardevariabelen in Adobe Analytics)
    * Heeft [ toegelaten persistentie ](/help/data-views/component-settings/persistence.md)
    * Gebruikt niet a [ bindende afmeting ](/help/use-cases/data-views/binding-dimensions-metrics.md)
+* De veelvoudige afmetingen die van gebieden zijn die verschillende [ series van voorwerpen ](/help/use-cases/object-arrays.md) van verwijzingen voorzien. (Meerdere afmetingen die verwijzen naar dezelfde array van objecten zijn toegestaan.)
 * Meer dan 5 dimensies en 5 metriek per rapport (maximaal 5 dimensies en 5 metriek worden gesteund)
 * In tabelkolommen:
    * Datumbereiken
