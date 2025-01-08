@@ -4,7 +4,7 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 4fac7b05f8972028df5c06a40394dc0527b22208
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
->title="Keuzetabel"
+>title="Cohortingtabel"
 >abstract="Groepeer gebruikers op basis van voltooiing van een gebeurtenis en analyseer vervolgens hun doorlopende betrokkenheid en loop de tijd door.<br/><br/>**Parameters **<br/>**criteria van de Opname**: De componenten die worden gebruikt om uw aanvankelijke bezoekerscohorts te bepalen.<br/>**criteria van de Terugkeer**: De componenten die worden gebruikt om te bepalen als een bezoeker is teruggekeerd."
 
 <!-- markdownlint-enable MD034 -->
