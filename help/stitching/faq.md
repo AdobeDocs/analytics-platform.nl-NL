@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 78803a2062b38b0f4a80837d18dbf3e9cc609cc8
+source-git-commit: 02026709480872216ee76e842045517822c59bff
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1919'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ Het terugkijkvenster voor het opnieuw beginnen hangt van uw gewenste frequentie 
 In sommige situaties, is het mogelijk dat de veelvoudige mensen van het zelfde apparaat login. De voorbeelden omvatten een gedeeld apparaat thuis, gedeelde PCs in een bibliotheek, of een kiosk in een detailhandelsafzet.
 
 De tijdelijke id negeert de blijvende id, zodat gedeelde apparaten als afzonderlijke personen worden beschouwd (zelfs als ze van hetzelfde apparaat afkomstig zijn).
+
+Zie [ Gedeelde apparaten ](/help/use-cases/stitching/shared-devices.md) gebruiksgeval voor meer details.
 
 +++
 
