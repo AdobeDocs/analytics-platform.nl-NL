@@ -4,20 +4,15 @@ title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 7980286bed4f08b2ca23c0930538adb6c694344e
+badgePremium: label="Adobe Analytics-versie" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Adobe Analytics-versie van dit artikel"
+source-git-commit: f13f5be06cfadc9ff875c378a0505b4f1f4469dd
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # Opsommingsteken {#bullet}
-
-<!-- markdownlint-disable MD034 -->
-
-[!BADGE  versie van Adobe Analytics ]{type=Informative url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html"}
-
-<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -37,7 +32,6 @@ ht-degree: 0%
 >abstract="Creeer een visualisatie van de kogelgrafiek om te tonen hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt."
 
 <!-- markdownlint-enable MD034 -->
-
 
 ![ GraphBullet ](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** visualisatie toont hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt.
 
