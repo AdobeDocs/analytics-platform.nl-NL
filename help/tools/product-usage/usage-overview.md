@@ -1,9 +1,10 @@
 ---
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
+source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,12 @@ Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra to
 >[!IMPORTANT]
 >
 >Deze functie telt mee voor je contractuele rijlimieten in Adobe Experience Platform. Zorg ervoor dat uw organisatie de gegevens kan aanpassen die door deze eigenschap worden geproduceerd alvorens het toe te laten.
+
+## Productgebruik inschakelen
+
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]**
+
+Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [ montages van Gegevens ](data-settings.md) waar u deze eigenschap kunt toelaten.
 
 ## Beschikbare afmetingen
 
