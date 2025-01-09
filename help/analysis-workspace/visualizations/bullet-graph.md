@@ -4,10 +4,10 @@ title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: b1cdaa871bf5040cf1cf436348b4ca03c5553a76
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 1%
 >id="workspace_bullet_goalvalue"
 >title="Waarde van doel"
 >abstract="**[!UICONTROL High goal]** is het belangrijkste doel dat u nastreeft. **[!UICONTROL Low goal]** en **[!UICONTROL Mid goal]** maken bereiken onder de [!UICONTROL High goal] . Opmerking: als de optie **[!UICONTROL Percentages]** is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph" text="Opsommingsteken (Adobe Analytics)"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-enable MD034 -->
 
