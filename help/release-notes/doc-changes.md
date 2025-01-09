@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
 workflow-type: tm+mt
-source-wordcount: '4199'
+source-wordcount: '4236'
 ht-degree: 5%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 5%
 # Customer Journey Analytics - documentatie-updates
 
 De volgende updates zijn aangebracht aan de documentatie van de Customer Journey Analytics sinds zijn aanvang.
+
+## 2025
+
+| Functie | Beschrijving |
+| --- | --- |
+| **Januari 2025** |  |
+| Gebruiksmetriek | Bijgewerkte documentatie op de betere ](/help/connections/manage-connections.md#usage) interface van het gebruiksmetriek 0}.[ |
+
 
 ## 2024
 
@@ -23,6 +31,7 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Gebruikskwesties voor extensie BI | Documentatie van verscheidene [ BI uitbreidingsgebruiksgevallen ](/help/use-cases/data-views/bi-extension-usecases.md) voor de hulpmiddelen van BI zoals de Desktop van de Desktop en van Tableau. |
 | Aanvragen voor titels en privacy | Toegevoegde bericht op [ aanstaande veranderingen in het het ontstikken proces ](/help/stitching/faq.md#frequently-asked-questions) die het resultaat van privacyverzoeken zijn. |
 | **Oktober 2024** | |
+| Verbeterde gebruiksinterface | Bijgewerkt het artikel op de betere interface om uw [ gebruik van ingebedde en te melden rijen over alle verbindingen ](/help/connections/manage-connections.md#usage) te tonen |
 | Gedeelde apparaten | Toegevoegd a [ gebruikscase artikel ](/help/use-cases/stitching/shared-devices.md) dat context op gedeelde apparaten verstrekt, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend het stitching, en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag. |
 | Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/technotes/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/technotes/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
 | Workspace en componenten | De documentatie over Analysis Workspace-projecten (projecten, visualisaties en deelvensters) en componenten (annotaties, afmetingen, (berekende) meetgegevens, filters, datumbereiken, waarschuwingen, geplande projecten en doelgroepen) is vernieuwd. |
