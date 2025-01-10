@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
+source-git-commit: 27ce8f565688dc23a3f069a10078de55cd6da395
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -37,14 +37,16 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
    | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
    | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
    | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
-   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]** , **[!UICONTROL Conversion]** , **[!UICONTROL Audience]** en **[!UICONTROL Acquisition]** . <p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** het kiezen **[!UICONTROL Journey Optimizer]** maakt het malplaatje ook beschikbaar in Adobe Journey Optimizer. In Journey Optimizer is op de pagina **[!UICONTROL Reports]** een vervolgkeuzemenu beschikbaar waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
+   | **[!UICONTROL Journey Optimizer activity type]** | Kies het type Journey Optimizer-activiteit dat u aan deze sjabloon wilt koppelen: **[!UICONTROL Campaigns]** , **[!UICONTROL Journeys]** , **[!UICONTROL Landing pages]** , **[!UICONTROL Reports]** of **[!UICONTROL Subscriptions]** . <p>Laat dit veld leeg als u deze sjabloon wilt koppelen aan alle typen activiteiten.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
+   | **[!UICONTROL Journey Optimizer activity]** | Kies de Journey Optimizer-activiteit die u aan deze sjabloon wilt koppelen. <p>Laat dit veld leeg als u wilt dat deze sjabloon wordt gekoppeld aan alle activiteiten van het geselecteerde type activiteit.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
 
 1. Selecteer [!UICONTROL **sparen als malplaatje**].
 
 Voor informatie over hoe de gebruikers een project kunnen tot stand brengen dat op een malplaatje wordt gebaseerd, zie [ een project creëren dat op een malplaatje ](/help/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) wordt gebaseerd in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md).
 
-## Sjablonen bewerken of verwijderen
+## Een sjabloon bewerken of verwijderen
 
 Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
 
@@ -73,6 +75,25 @@ Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
    1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
 
       ![ de malplaatjekaart van het Bedrijf geeft uit of schrapt ](assets/company-template-card-edit-delete.png)
+
+1. Als u een malplaatje uitgeeft, maak om het even welke gewenste uitgeeft, dan uitgezocht [!UICONTROL **Project**] > **[!UICONTROL Save as template…]**.
+
+   ![ malplaatje van het Bedrijf ](assets/company-template-save.png)
+
+1. Geef de volgende informatie op in het dialoogvenster [!UICONTROL Save as template] :
+
+   | Veld | Beschrijving |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Geef een beschrijvende naam op voor de sjabloon. |
+   | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
+   | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
+   | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** . Als er geen kanalen zijn geselecteerd, wordt de sjabloon bij alle kanalen gevoegd.<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** het kiezen **[!UICONTROL Journey Optimizer]** maakt het malplaatje ook beschikbaar in Adobe Journey Optimizer. In Journey Optimizer is op de pagina **[!UICONTROL Reports]** een vervolgkeuzemenu beschikbaar waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
+   | **[!UICONTROL Journey Optimizer activity type]** | Kies het type Journey Optimizer-activiteit dat u aan deze sjabloon wilt koppelen: **[!UICONTROL Campaigns]** , **[!UICONTROL Journeys]** , **[!UICONTROL Landing pages]** , **[!UICONTROL Reports]** of **[!UICONTROL Subscriptions]** . <p>Laat dit veld leeg als u deze sjabloon wilt koppelen aan alle typen activiteiten.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
+   | **[!UICONTROL Journey Optimizer activity]** | Kies de Journey Optimizer-activiteit die u aan deze sjabloon wilt koppelen. <p>Laat dit veld leeg als u wilt dat deze sjabloon wordt gekoppeld aan alle activiteiten van het geselecteerde type activiteit.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
+   | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
+
+1. Selecteer [!UICONTROL **sparen als malplaatje**].
 
 ## Sjablonen hernoemen, labelen of goedkeuren
 
