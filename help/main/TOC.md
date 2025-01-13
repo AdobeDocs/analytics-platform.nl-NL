@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 06e4346effcde3e2bec66cfdba801fc2420dcc81
+source-git-commit: d05990b0eac6b08530b8526b3b48b722139be018
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 10%
 
 ---
@@ -51,9 +51,9 @@ ht-degree: 10%
       + [Opzoekgegevenssets maken voor classificaties](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Inname van gegevensset controleren](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
       + [Een afgeleid veld voor een marketingkanaal maken](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [De loader-tag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+      + [De ladertag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [Een tag voor uw eigenschap maken](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [De Web SDK-extensie toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [De extensie Web SDK toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [XDM-logica voor gegevensverzameling toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Uw schema archiveren](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Uw schema maken](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
@@ -64,12 +64,12 @@ ht-degree: 10%
       + [Verbinding maken](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Een gegevensweergave maken](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Gegevensstroom valideren](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [Sneltoets voor upgrade: migreren naar SDK van web](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [Sneltoets voor upgrade: migreren naar Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
       + [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [De bronaansluiting Analytics uitsluitend gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [Van de bron van Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+      + [Van de bron Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
       + [Gegevensverzameling AppMeasurement uitschakelen](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
@@ -192,6 +192,7 @@ ht-degree: 10%
       + [Horizontale balk (gestapeld)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [Samenvatting van metrische sleutel](../analysis-workspace/visualizations/key-metric.md)
       + [Lijn](../analysis-workspace/visualizations/line.md)
+      + [Kaart](/help/analysis-workspace/visualizations/map.md)
       + [Spreiding](../analysis-workspace/visualizations/scatterplot.md)
       + [Samenvattingsnummer en wijziging](../analysis-workspace/visualizations/summary-number-change.md)
       + [Sectiekop](/help/analysis-workspace/visualizations/section-header.md)
