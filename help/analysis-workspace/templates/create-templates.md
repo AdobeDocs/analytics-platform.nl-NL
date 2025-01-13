@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 27ce8f565688dc23a3f069a10078de55cd6da395
+source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 
 ## Ontbrekende componenten toevoegen aan de gegevensweergave voor een bepaalde sjabloon
 
-Door gebrek, zullen sommige malplaatjes die door Adobe worden verstrekt niet werken omdat zij componenten bevatten die niet in uw gegevensmening zijn.
+Door gebrek, kunnen sommige malplaatjes die door Adobe worden verstrekt niet worden gebruikt omdat zij componenten bevatten die niet in uw gegevensmening zijn.
 
 Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet het overeenkomende contextlabel toevoegen aan een component die zich al in de gegevensweergave bevindt, of u moet een nieuwe component aan de gegevensweergave toevoegen en er een contextlabel aan toevoegen.
 
