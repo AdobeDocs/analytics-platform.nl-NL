@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
 source-wordcount: '4092'
 ht-degree: 0%
@@ -187,7 +187,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_primaryID"
+>id="cja_connection_primaryid"
 >title="Primaire id"
 >abstract="Selecteer juiste primaire id voor uw verbinding: persoon voor een B2C-scenario. Account voor een B2B-scenario."
 
@@ -196,7 +196,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_optionalContainers"
+>id="cja_connection_optionalcontainers"
 >title="Optionele containers"
 >abstract="Selecteer extra containers.<br/><br/>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.<br/>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.<br/>**[!UICONTROL Buying group]**: hiermee kunt u groepen aanschaffen in een verbinding."
 
@@ -205,7 +205,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_personID"
+>id="cja_connection_personid"
 >title="Persoon-id"
 >abstract="Selecteer een persoonidentiteitskaart van de beschikbare identiteiten die in het datasetschema in het Experience Platform worden bepaald."
 
@@ -214,7 +214,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountID"
+>id="cja_connection_accountid"
 >title="Account-id"
 >abstract="Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -223,7 +223,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountField"
+>id="cja_connection_accountfield"
 >title="Rekeningveld"
 >abstract="Selecteer een veld dat de account-id vertegenwoordigt (de unieke id van een account)."
 
@@ -233,7 +233,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_globalAccountID"
+>id="cja_connection_globalaccountid"
 >title="Algemene account-id"
 >abstract="Selecteer een globale account-id (de unieke id voor een globale account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -242,7 +242,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_opportunityID"
+>id="cja_connection_opportunityid"
 >title="Opportunity-id"
 >abstract="Selecteer een opportuniteits-id (de unieke id voor een opportuniteit) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -251,7 +251,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_buyingGroupID"
+>id="cja_connection_buyinggroupid"
 >title="Groep-id voor kopen"
 >abstract="Selecteer een inkoopgroep-id (de unieke id voor een inkoopgroep) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -305,7 +305,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_primaryID"
+>id="connection_primaryid"
 >title="Primaire id"
 >abstract="Selecteer juiste primaire id voor uw verbinding: persoon voor een B2C-scenario. Account voor een B2B-scenario."
 
@@ -314,7 +314,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_optionalContainers"
+>id="connection_optionalcontainers"
 >title="Optionele containers"
 >abstract="Selecteer extra containers.<br/><br/>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.<br/>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.<br/>**[!UICONTROL Buying group]**: hiermee kunt u groepen aanschaffen in een verbinding."
 
@@ -323,7 +323,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_personID"
+>id="connection_personid"
 >title="Persoon-id"
 >abstract="Selecteer een persoonidentiteitskaart van de beschikbare identiteiten die in het datasetschema in het Experience Platform worden bepaald."
 
@@ -332,14 +332,14 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountID"
+>id="connection_accountid"
 >title="Account-id"
 >abstract="Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountField"
+>id="connection_accountfield"
 >title="Rekeningveld"
 >abstract="Selecteer een veld dat de account-id vertegenwoordigt (de unieke id van een account)."
 
@@ -348,7 +348,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_globalAccountID"
+>id="connection_globalaccountid"
 >title="Algemene account-id"
 >abstract="Selecteer een globale account-id (de unieke id voor een globale account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -357,7 +357,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_opportunityID"
+>id="connection_opportunityid"
 >title="Opportunity-id"
 >abstract="Selecteer een opportuniteits-id (de unieke id voor een opportuniteit) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 
@@ -366,7 +366,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_buyingGroupID"
+>id="connection_buyinggroupid"
 >title="Groep-id voor kopen"
 >abstract="Selecteer een inkoopgroep-id (de unieke id voor een inkoopgroep) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in het Experience Platform."
 

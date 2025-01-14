@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,15 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
+>title="Verbindingen"
+>abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
 >title="Verbindingen"
 >abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
 
