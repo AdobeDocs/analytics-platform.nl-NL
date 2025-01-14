@@ -4,7 +4,7 @@ title: Filters maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_createaudience"
+>id="components_filters_createaudience"
 >title="Publiek maken"
 >abstract="Soorten publiek kan worden gemaakt op basis van een filter en worden gedeeld met de Adobe Experience Platform voor activering."
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_datapreview"
+>id="components_filters_datapreview"
 >title="Gegevensvoorbeeld"
 >abstract="Vergelijkt de gegevens van dit filter met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 
@@ -158,7 +158,7 @@ Of u zou 52 filters kunnen definiÃ«ren: 50 filters voor de Amerikaanse staten, Ã
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_repeating"
+>id="components_filters_attribution_repeating"
 >title="Herhalend"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
@@ -167,7 +167,7 @@ Of u zou 52 filters kunnen definiÃ«ren: 50 filters voor de Amerikaanse staten, Ã
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_instance"
+>id="components_filters_attribution_instance"
 >title="Instantie"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
@@ -176,7 +176,7 @@ Of u zou 52 filters kunnen definiÃ«ren: 50 filters voor de Amerikaanse staten, Ã
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_nonrepeatinginstance"
+>id="components_filters_attribution_nonrepeatinginstance"
 >title="Niet-herhalende instantie"
 >abstract="Bevat unieke (niet-herhalende) instanties voor de dimensie."
 

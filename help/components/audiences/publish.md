@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1886'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_refreshfrequency"
+>id="components_audiences_refreshfrequency"
 >title="Frequentie vernieuwen"
 >abstract="Zie hoe vaak het lidmaatschap van een publiek opnieuw wordt beoordeeld.<br/> Één keer wordt het publiek geëvalueerd slechts eenmaal."
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_audiencelimit"
+>id="components_audiences_audiencelimit"
 >title="Audioregimiet"
 >abstract="Het vernieuwen van het publiek is beperkt op basis van hoe vaak ze worden vernieuwd."
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_refreshlookbackwindow"
+>id="component_audiences_refreshlookbackwindow"
 >title="Zoekvenster vernieuwen"
 >abstract="Definieer het aantal terugzoekdagen vanaf vandaag waaruit een publiek wordt geëvalueerd."
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_audiencesizelimit"
+>id="component_audiences_audiencesizelimit"
 >title="Limiet voor doelgrootte"
 >abstract="Het publiek mag niet meer dan 20 miljoen leden tellen."
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_namespacesincluded"
+>id="component_audiences_namespacesincluded"
 >title="Ingesloten naamruimten"
 >abstract="De identiteiten in dit publiek bestaan uit de onderstaande naamruimten."
 

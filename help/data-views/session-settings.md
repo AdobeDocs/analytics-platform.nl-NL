@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 614e15a492b247d98e4e32c0f06d8ae438ca6d45
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_settings_datapreview"
+>id="dataview_settings_datapreview"
 >title="Gegevensvoorbeeld"
 >abstract="Vergelijkt de gegevens van deze gegevensweergave met gegevens van de verbinding. Het voorproefpercentage is gebaseerd op het totale aantal in de verbinding van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 

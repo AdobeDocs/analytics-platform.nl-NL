@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '19266'
 ht-degree: 0%
@@ -464,7 +464,7 @@ De volgende sjablonen zijn beschikbaar:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_time_spent"
+>id="template_time_spent"
 >title="Bekijk de gemiddelde tijd die bezoekers doorbrengen aan uw site tijdens elk bezoek en de gemiddelde tijd die gebruikers doorbrengen voordat een geslaagde gebeurtenis plaatsvindt. Gegevens worden over een bepaalde periode weergegeven en vergeleken met eerdere perioden."
 >abstract="**dit kan u helpen** beter de niveaus van de bezoekersbetrokkenheid begrijpen en hoeveel tijd het bezoekers neemt om een gewenste actie uit te voeren, zoals het maken van een aankoop.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats bezoekers&#39; capaciteit verbeteren om een succesgebeurtenis snel te bereiken.<br/> Dit malplaatje gebruikt de afmeting van de Dag en de Tijd die per (seconden) metrisch van het Bezoek, de afmeting van de Dag, en de Tijd die per (seconden) metrisch van het Bezoek wordt uitgegeven."
 

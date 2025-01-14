@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '8486'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields"
+>id="dataview_derivedfields"
 >title="Afgeleide velden"
 >abstract="Een afgeleid gebied staat u toe om gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld gebruiken als een component (metrisch of dimensionaal) in Workspace of zelfs verder definiëren als een component in de gegevensweergave."
 
@@ -430,7 +430,7 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_casewhen"
+>id="dataview_derivedfields_casewhen"
 >title="Hoofdletter als"
 >abstract="Deze functie biedt de mogelijkheid om voorwaarden toe te passen op basis van gedefinieerde criteria in een of meer velden. Die criteria worden vervolgens gebruikt om de waarden in het nieuwe afgeleide veld te definiëren op basis van de volgorde van de voorwaarden."
 
@@ -670,7 +670,7 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_classify"
+>id="dataview_derivedfields_classify"
 >title="Classificeren"
 >abstract="Deze functie biedt de mogelijkheid een set waarden te definiëren die worden vervangen door corresponderende waarden door tekstinvoer."
 
@@ -815,7 +815,7 @@ De volgende aanvullende functionaliteit is beschikbaar in de interface van de re
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_concatenate"
+>id="dataview_derivedfields_concatenate"
 >title="Samenvoegen"
 >abstract="Met deze functie kunt u twee of meer velden, afgeleide velden of door de gebruiker ingevoerde tekenreekswaarden combineren tot één veld met gedefinieerde scheidingstekens"
 
@@ -902,7 +902,7 @@ U definieert een `Origin - Destination` afgeleid veld. U gebruikt de functie [!U
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_deduplicate"
+>id="dataview_derivedfields_deduplicate"
 >title="Dedupliceren"
 >abstract="Deze functie biedt de mogelijkheid om een veld te configureren zodat alleen waarden op sessieniveau of op persoonlijke niveau zonder herhaling worden geteld. Bovendien kan een deduplicatie-id worden gebruikt om ervoor te zorgen dat op basis van een bepaalde id (zoals een aankoop-id) slechts één waarde wordt gebruikt (de eerste of de laatste instantie)."
 
@@ -997,7 +997,7 @@ U definieert een nieuw `Tracking Code (deduplicated)` afgeleid veld. U gebruikt 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_findandreplace"
+>id="dataview_derivedfields_findandreplace"
 >title="Zoeken en vervangen"
 >abstract="Met deze functie kunt u alle waarden in een geselecteerd veld vinden en deze waarden vervangen door een andere waarde in een nieuw afgeleid veld."
 
@@ -1077,7 +1077,7 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de functi
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lookup"
+>id="dataview_derivedfields_lookup"
 >title="Opzoeken"
 >abstract="Deze functie verstrekt de capaciteit om gebieden van een raadplegingsdataset te gebruiken gebruikend een passende sleutel tussen datasets."
 
@@ -1138,7 +1138,7 @@ U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer opnemen, die reeds
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lowercase"
+>id="dataview_derivedfields_lowercase"
 >title="Kleine letters"
 >abstract="Deze functie converteert de volledige tekenreekstekst naar kleine letters."
 
@@ -1199,7 +1199,7 @@ U definieert een `Product Names` afgeleid veld. U gebruikt de functie [!UICONTRO
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_math"
+>id="dataview_derivedfields_math"
 >title="Math"
 >abstract="Deze functie biedt de mogelijkheid om wiskundige bewerkingen uit te voeren op een veld. De functie kan worden gebruikt om rekenkundige basisbewerkingen uit te voeren, zoals optellen, aftrekken, vermenigvuldigen en delen."
 
@@ -1290,7 +1290,7 @@ Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_mergefields"
+>id="dataview_derivedfields_mergefields"
 >title="Velden samenvoegen"
 >abstract="Deze functie biedt de mogelijkheid om waarden te nemen van twee verschillende velden en hun respectieve waarden in één dimensie op te nemen. De regel controleert eerst of de eerste waarde is ingesteld. Zo niet, dan wordt de tweede waarde gebruikt enzovoort."
 
@@ -1366,7 +1366,7 @@ U moet hetzelfde type velden selecteren in een regel voor het samenvoegen van ve
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_nextprevious"
+>id="dataview_derivedfields_nextprevious"
 >title="Volgende of Vorige"
 >abstract="Met deze functie kunt u de volgende of vorige waarde bekijken die voor een bepaald veld is verzameld."
 
@@ -1448,7 +1448,7 @@ U kunt alleen velden selecteren die behoren tot de tabel Visit of Event.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_regexreplace"
+>id="dataview_derivedfields_regexreplace"
 >title="Regex Replace"
 >abstract="Deze functie biedt de mogelijkheid om delen van een tekenreeks te extraheren met behulp van reguliere expressies."
 
@@ -1555,7 +1555,7 @@ U kunt deze reeksen gebruiken in [!UICONTROL Output format] om het even welk aan
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_split"
+>id="dataview_derivedfields_split"
 >title="Splitsen"
 >abstract="Met deze functie kunt u een veld opsplitsen in meerdere velden op basis van een scheidingsteken."
 
@@ -1657,7 +1657,7 @@ U maakt een `Second Response` afgeleid veld om de laatste waarde uit het veld [!
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_summarize"
+>id="dataview_derivedfields_summarize"
 >title="Samenvatten"
 >abstract="Deze functie biedt de mogelijkheid om waarden samen te voegen op het niveau van een gebeurtenis, sessie of persoon. Afhankelijk van het veldtype voor het geselecteerde veld zijn verschillende opties beschikbaar."
 
@@ -1735,7 +1735,7 @@ Gebruik de functie Samenvatten voor op gebeurtenissen, sessies of personebereik 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_trim"
+>id="dataview_derivedfields_trim"
 >title="Verkleinen"
 >abstract="Deze functie biedt de mogelijkheid witruimte of speciale tekens te verwijderen vanaf het begin of het einde van een tekenreeks. Ook de mogelijkheid om het aantal tekens op te geven dat voor de geretourneerde waarde moet worden gebruikt, vanaf de voorzijde of het einde van de tekenreeks."
 
@@ -1857,7 +1857,7 @@ U maakt een afgeleid veld `Store Identifier` . U gebruikt de functie [!UICONTROL
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_urlparse"
+>id="dataview_derivedfields_urlparse"
 >title="URL-parse"
 >abstract="Met deze functie kunt u verschillende delen van een URL parseren, inclusief de parameters host, path of query."
 

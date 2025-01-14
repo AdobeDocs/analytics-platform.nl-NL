@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 60daea2b6c376c417a998a986c8fdfdff85decd9
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1817'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Een nieuwe of bestaande gegevensweergave configureren:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
+>id="dataview_externalid"
 >title="Externe id"
 >abstract="Het wijzigen van de externe id kan van invloed zijn op de manier waarop de naam van de gegevensweergave wordt weergegeven in externe bronnen, zoals hulpprogramma&#39;s voor bedrijfsinformatie."
 
@@ -66,7 +66,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Gegevensweergaven in Journey Optimizer"
 >abstract="Customers Journey Analytics moeten een verbinding en gegevensweergave gebruiken die compatibel zijn met Adobe Journey Optimizer. Standaard worden automatisch een verbinding en een gegevensweergave voor dit doel gemaakt.<br/> Alternatief, kunt u deze optie toelaten om dit de standaardgegevensmening te maken die in Adobe Journey Optimizer rapportering wordt gebruikt. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
 >additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."

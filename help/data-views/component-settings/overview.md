@@ -5,7 +5,7 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_settings"
+>id="dataview_component_settings"
 >title="Componentinstellingen"
 >abstract="De naam, beschrijving en andere instellingen die betrekking hebben op een component weergeven en configureren.<br/><br/>**Parameters **<br/>**verbergen component in het melden**: Het controleren van dit vakje zal deze component van niet-admin gebruikers in het melden verbergen. Beheerders hebben er nog steeds toegang toe door **[!UICONTROL Show all components]** te selecteren in een Workspace-project."
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_contextlabels"
+>id="dataview_component_contextlabels"
 >title="Contextlabels"
 >abstract="Het verwijderen van een contextlabel kan gevolgen hebben voor specifieke deelvensters of rapporten waar de component wordt vereist."
 

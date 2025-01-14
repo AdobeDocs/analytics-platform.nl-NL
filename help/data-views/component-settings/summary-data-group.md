@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup"
+>id="dataview_component_dimension_summarydatagroup"
 >title="Samenvattingsgegevensgroep"
 >abstract="Een summiere gegevensgroep leidt tot een vereniging tussen alle dimensies in de groepering en gebruikt om dimensies van summiere datasets met andere dimensies voor het melden te combineren."
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
+>id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Verbergen in rapportage"
 >abstract="Als u deze optie selecteert, wordt de **[!UICONTROL Hide component in reporting]** voor die dimensie ingeschakeld en wordt de component niet weergegeven in Analysis Workspace en andere rapportgereedschappen voor Customers Journey Analytics."
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,15 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
+>title="Migreer uw implementatie van Analytics om het Web SDK te gebruiken"
+>abstract="In plaats van gegevens via een XDM-object te verzenden, kunt u al uw variabelen in AppMeasurement-indeling via het gegevensobject verzenden. Met deze sneltoets kunt u doorgaan met het gebruik van de logica van uw AppMeasurement om gegevens naar Platform te verzenden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="migrate_aa_to_websdk"
 >title="Migreer uw implementatie van Analytics om het Web SDK te gebruiken"
 >abstract="In plaats van gegevens via een XDM-object te verzenden, kunt u al uw variabelen in AppMeasurement-indeling via het gegevensobject verzenden. Met deze sneltoets kunt u doorgaan met het gebruik van de logica van uw AppMeasurement om gegevens naar Platform te verzenden."
 

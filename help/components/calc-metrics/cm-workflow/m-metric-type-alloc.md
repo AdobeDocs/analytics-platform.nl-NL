@@ -3,7 +3,7 @@ description: Meer informatie over metrische tekst en kenmerk
 title: Metrisch type en kenmerk
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_nondefaultattributionmodel"
+>id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Niet-standaard toewijzingsmodel gebruiken"
 >abstract="Schakel een niet-standaard attributiemodel in voor de geselecteerde metrische waarde."
 
@@ -57,7 +57,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attributionmodel"
+>id="components_calculatedmetrics_attributionmodel"
 >title="Model"
 >abstract="Selecteer een attributiemodel voor metrisch."
 
@@ -66,7 +66,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lasttouch"
+>id="components_calculatedmetrics_attribution_lasttouch"
 >title="Laatste aanraking"
 >abstract="100% van het krediet gaat naar de laatste waarde van de dimensie die een bezoeker heeft gezien."
 
@@ -75,7 +75,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_firsttouch"
+>id="components_calculatedmetrics_attribution_firsttouch"
 >title="Eerste aanraking"
 >abstract="100% van het krediet gaat naar de waarde van de eerste dimensie die een bezoeker ziet."
 
@@ -84,7 +84,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_linear"
+>id="components_calculatedmetrics_attribution_linear"
 >title="Lineair"
 >abstract="De creditering wordt gelijkmatig over alle afmetingswaarden verdeeld."
 
@@ -93,7 +93,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_participation"
+>id="components_calculatedmetrics_attribution_participation"
 >title="Deelname"
 >abstract="100% is bestemd voor elke waarde van de dimensie die een bezoeker ziet.<br/> de totalen van de Kolom zijn overdreven."
 
@@ -102,7 +102,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_sametouch"
+>id="components_calculatedmetrics_attribution_sametouch"
 >title="Zelfde aanraking"
 >abstract="Er wordt alleen rekening gehouden met waarden van dimensies die zich voordoen bij dezelfde gebeurtenis als conversie."
 
@@ -111,7 +111,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_ushaped"
+>id="components_calculatedmetrics_attribution_ushaped"
 >title="U-vorm"
 >abstract="40% van de kredieten voor de waarde van de eerste dimensie, 40% tot de laatste, 20% gedeeld door het midden."
 
@@ -120,7 +120,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_jcurve"
+>id="components_calculatedmetrics_attribution_jcurve"
 >title="J Curve"
 >abstract="60% is bestemd voor de laatste dimensie, 20% voor de eerste, 20% voor het midden."
 
@@ -129,7 +129,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_inversej"
+>id="components_calculatedmetrics_attribution_inversej"
 >title="Omgekeerd J"
 >abstract="60% is bestemd voor de waarde van de eerste dimensie, 20% voor de laatste, 20% voor het midden."
 
@@ -138,7 +138,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_timedecay"
+>id="components_calculatedmetrics_attribution_timedecay"
 >title="Tijdverlies"
 >abstract="De waarden van het Dimension dichtst in tijd aan een omzetting krijgen het meeste krediet."
 
@@ -147,7 +147,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_custom"
+>id="components_calculatedmetrics_attribution_custom"
 >title="Aangepast"
 >abstract="Definieer uw eigen op positie gebaseerde toewijzingsweging."
 
@@ -156,7 +156,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_algorithmic"
+>id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmic"
 >abstract="Krediet wordt dynamisch bepaald op basis van een statistisch algoritme."
 
@@ -171,7 +171,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lookbackwindow"
+>id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Venster Opzoeken"
 >abstract="Deze instelling bepaalt het venster met gegevenstoewijzing dat voor elke conversie wordt toegepast."
 
