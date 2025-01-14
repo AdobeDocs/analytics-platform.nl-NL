@@ -3,12 +3,10 @@ description: Een overzicht van het gebruik van standaardsjablonen in Analysis Wo
 title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -37,7 +35,7 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
    | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
    | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
    | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
-   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** het kiezen **[!UICONTROL Journey Optimizer]** maakt het malplaatje ook beschikbaar in Adobe Journey Optimizer. In Journey Optimizer is op de pagina **[!UICONTROL Reports]** een vervolgkeuzemenu beschikbaar waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** de **[!UICONTROL Journey Optimizer]** optie is beschikbaar slechts als de gegevens van Journey Optimizer in de gegevensmening bestaan u in Customer Journey Analytics gebruikt. Als u **[!UICONTROL Journey Optimizer]** kiest, wordt de sjabloon beschikbaar voor gebruik in Adobe Journey Optimizer. In Journey Optimizer is een vervolgkeuzemenu beschikbaar op de pagina **[!UICONTROL Reports]** , waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
    | **[!UICONTROL Journey Optimizer activity type]** | Kies het type Journey Optimizer-activiteit dat u aan deze sjabloon wilt koppelen: **[!UICONTROL Campaigns]** , **[!UICONTROL Journeys]** , **[!UICONTROL Landing pages]** , **[!UICONTROL Reports]** of **[!UICONTROL Subscriptions]** . <p>Laat dit veld leeg als u deze sjabloon wilt koppelen aan alle typen activiteiten.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Journey Optimizer activity]** | Kies de Journey Optimizer-activiteit die u aan deze sjabloon wilt koppelen. <p>Laat dit veld leeg als u wilt dat deze sjabloon wordt gekoppeld aan alle activiteiten van het geselecteerde type activiteit.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |

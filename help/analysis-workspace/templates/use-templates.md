@@ -3,12 +3,10 @@ description: Een overzicht van het gebruik van standaardsjablonen in Analysis Wo
 title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '19266'
+source-wordcount: '19275'
 ht-degree: 0%
 
 ---
@@ -65,7 +63,9 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    >[!NOTE]
    >
-   >   Voordat u deze sjablonen kunt gebruiken, moet een beheerder eerst de vereiste contextlabels voor deze ontbrekende componenten toevoegen aan de gegevensweergave. Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaald malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/create-templates.md) toevoegen.
+   >Voordat u deze sjablonen kunt gebruiken, moet een beheerder eerst de vereiste contextlabels voor deze ontbrekende componenten toevoegen aan de gegevensweergave. Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaald malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/create-templates.md) toevoegen.
+   >
+   >Voor meer informatie over contextetiketten, zie [ montages van de Component ](/help/data-views/component-settings/overview.md).
 
    1. Selecteer het filterpictogram.
 

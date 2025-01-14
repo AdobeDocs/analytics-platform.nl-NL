@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e326b5457c82a7b4789c68588546707fabca42f6
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De volgende informatie beschrijft de montages die een component van de gegevensm
 | [!UICONTROL Component Name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |
 | [!UICONTROL Description] | Optioneel, maar aanbevolen. Verstrekt informatie over de component aan andere gebruikers. |
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
-| [!UICONTROL Context labels] | Optioneel. Een vervolgkeuzelijst met beschikbare door het systeem gedefinieerde labels die op een component kunnen worden toegepast. Deze etiketten kunnen worden vereist om een reeks componenten te bepalen u in experimenteren het melden kunt gebruiken gebruikend het [ paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md) in de projecten van Analysis Workspace. Zie [ met Journey Optimizer ](/help/integrations/ajo.md#data-view) integreren en [ Doel die ](/help/integrations/at.md) voor meer informatie melden. |
+| [!UICONTROL Context labels] | Optioneel. Een vervolgkeuzelijst met beschikbare door het systeem gedefinieerde labels die op een component kunnen worden toegepast. <p>Deze etiketten kunnen in de volgende situaties worden vereist:</p> <ul><li>Om een reeks componenten te bepalen kunt u in experimenteren die het gebruiken van het [ paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md) in de projecten van Analysis Workspace gebruiken.<p>Voor meer informatie, zie [ met Journey Optimizer ](/help/integrations/ajo.md#data-view) integreren en [ Doel rapporterend ](/help/integrations/at.md).</p></li><li>Wanneer u sjablonen gebruikt die door de Adobe worden aangeboden. Door gebrek, zullen sommige malplaatjes die door Adobe worden verstrekt niet werken omdat zij componenten bevatten die niet in uw gegevensmening zijn.<p>Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet het overeenkomende contextlabel toevoegen aan een component die zich al in de gegevensweergave bevindt, of u moet een nieuwe component aan de gegevensweergave toevoegen en er een contextlabel aan toevoegen.</p><p>Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaalde malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in het artikel [ toevoegen en malplaatjes ](/help/analysis-workspace/templates/create-templates.md) beheren.</p> |
 | [!UICONTROL Schema field name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |
