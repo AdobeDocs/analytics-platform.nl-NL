@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
+source-git-commit: 198d2670b2008cb669433753d5bfedd90f71c220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -191,3 +191,10 @@ Ontbrekende componenten toevoegen aan een sjabloon:
 Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
 Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md) in werking.
+
+## Het tabblad Sjablonen verbergen
+
+Beheerders kunnen het tabblad Sjablonen verbergen voor alle gebruikers binnen hun organisatie.
+
+1. Ga naar **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]** .
+1. Selecteer de optie die u wilt **[!UICONTROL Hide Templates tab]** .
