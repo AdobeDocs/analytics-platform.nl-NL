@@ -4,9 +4,9 @@ title: Leeg deelvenster
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert het Lege paneel in **Customer Journey Analytics**. Zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor de **Adobe Analytics**versie van dit artikel.*
+*Dit artikel documenteert het Lege paneel in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 

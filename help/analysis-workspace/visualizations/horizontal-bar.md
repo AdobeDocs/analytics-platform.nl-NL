@@ -4,9 +4,9 @@ title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De horizontale staafvisualisatie heeft een standaard en gestapelde optie.
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de Horizontale bar en de Horizontale bar gestapelde visualisaties in **Customer Journey Analytics**. Zie [ Horizontale bar en horizontale bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) voor de **Adobe Analytics**versie van dit artikel.*
+*dit artikel documenteert de Horizontale bar en de Horizontale bar gestapelde visualisaties in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Horizontale bar en horizontale bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 

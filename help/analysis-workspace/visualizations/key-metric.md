@@ -4,9 +4,9 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in **Customer Journey Analytics**. Zie [ Zeer belangrijke metrische samenvatting ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) voor de **Adobe Analytics**versie van dit artikel.*
+*dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Zeer belangrijke metrische samenvatting ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 

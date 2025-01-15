@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert het paneel van de Experimentatie in **Customer Journey Analytics**. Zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in **Adobe Analytics**te analyseren.*
+*Dit artikel documenteert het paneel van de Experimentatie in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) te analyseren **Adobe Analytics**.*
 
 >[!ENDSHADEBOX]
 

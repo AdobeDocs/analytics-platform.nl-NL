@@ -4,9 +4,9 @@ title: Treemap
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 11%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de visualisatie van de Treemap in **Customer Journey Analytics**. Zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) voor de **Adobe Analytics**versie van dit artikel.*
+*dit artikel documenteert de visualisatie van de Treemap in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 

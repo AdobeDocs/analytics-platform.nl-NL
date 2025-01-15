@@ -4,9 +4,9 @@ title: Lijn
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de visualisatie van de Lijn in **Customer Journey Analytics**. Zie [ Lijn ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) voor de **Adobe Analytics**versie van dit artikel.*
+*dit artikel documenteert de visualisatie van de Lijn in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Lijn ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 
