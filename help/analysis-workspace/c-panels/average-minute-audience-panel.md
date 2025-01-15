@@ -4,9 +4,9 @@ description: Het mediapictogram voor een gemiddeld aantal minuten in Analysis Wo
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1773'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in **Customer Journey Analytics**. Zie {het gemiddelde minieme minieme publiek van media paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor **Adobe Analytics**versie van dit artikel.*[
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

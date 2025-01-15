@@ -4,9 +4,9 @@ title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het paneel van de Experimentatie in **Customer Journey Analytics**. Zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in **Adobe Analytics**te analyseren.*
+
+>[!ENDSHADEBOX]
 
 
 In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.

@@ -4,9 +4,9 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de visualisatie van de Stroom in **Customer Journey Analytics**. Zie [ Stroom ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.

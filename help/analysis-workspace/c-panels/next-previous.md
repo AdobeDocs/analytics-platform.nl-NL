@@ -4,9 +4,9 @@ title: Volgend of vorig deelvenster met items
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
 
+*Dit artikel documenteert het Volgende of vorige puntenpaneel in **Customer Journey Analytics**. Zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 Het deelvenster **[!UICONTROL Next or previous item]** bevat een aantal tabellen en visualisaties om het volgende of vorige dimensie-item voor een specifieke dimensie te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
 

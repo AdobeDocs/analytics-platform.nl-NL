@@ -4,9 +4,9 @@ description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 0%
 >abstract="Creeer een spreidingsvisualisatie die het verband tussen afmetingspunten en tot drie metriek toont."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Spreiding visualisatie in **Customer Journey Analytics**. Zie [ Spreiding ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.

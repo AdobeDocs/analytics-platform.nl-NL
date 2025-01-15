@@ -4,9 +4,9 @@ title: Stapel en balk gestapeld
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ De staafvisualisatie heeft een standaard en gestapelde optie.
 >abstract="Maak een staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in **Customer Journey Analytics**. Zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** visualisatie toont verticale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.

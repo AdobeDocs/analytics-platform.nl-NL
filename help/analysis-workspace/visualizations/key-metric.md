@@ -4,9 +4,9 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: e4107e2f795b9beb7aa2802aa7ea646be6733212
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 0%
 >abstract="Maak een visualisatie die een combinatie is van de diagrammen voor de regel, de samenvattingswijziging en het samenvattingsnummer. Gebruik deze visualisatie om te vergelijken hoe belangrijk de metriek tussen twee periodes trending."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in **Customer Journey Analytics**. Zie [ Zeer belangrijke metrische samenvatting ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
 
 ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie laat u zien hoe belangrijke metrisch binnen één enkel tijdkader trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 

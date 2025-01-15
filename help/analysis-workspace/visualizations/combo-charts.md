@@ -4,9 +4,9 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 0%
 >abstract="Maak snel een combografievisualisatie zonder eerst een vrije-vormtabel te hoeven maken."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert Combo visualization in **Customer Journey Analytics**. Zie [ Combo ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 De ![ Commentaar ](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** visualisatie maakt het gemakkelijk om snel een vergelijkingsvisualisatie te bouwen zonder het moeten eerst een lijst bouwen. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.

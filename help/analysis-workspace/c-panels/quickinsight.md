@@ -4,9 +4,9 @@ title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 1%
 >abstract="Maak een deelvenster om snel een vrije-vormtabel te maken en de bijbehorende visualisatie om inzichten sneller te analyseren en zichtbaar te maken."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het Snelle paneel van Inzichten in **Customer Journey Analytics**. Zie [ Snelle het paneel van Inzichten ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 [!UICONTROL Quick Insights] biedt richtlijnen voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] over hoe ze zakelijke kwesties snel en eenvoudig kunnen beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.

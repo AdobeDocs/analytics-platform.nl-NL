@@ -4,14 +4,14 @@ title: Gebied en gebied gestapeld
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# Gebied en gebied gestapeld
+# Gebied (gestapeld)
 
 ## Gebied {#area}
 
@@ -23,6 +23,13 @@ ht-degree: 0%
 >abstract="Maak een vlakgrafiekvisualisatie die de doorsnede van meerdere metingen vertegenwoordigt."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in **Customer Journey Analytics**. Zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 ![ GraphArea ](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** visualisatie is als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Voeg een vlakgrafiek toe wanneer u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer maateenheden.

@@ -4,10 +4,10 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 8%
+source-wordcount: '679'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 8%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het paneel van de Attributie in **Customer Journey Analytics**. Zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 Het deelvenster **[!UICONTROL Attribution]** is een eenvoudige manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. In het deelvenster vindt u een speciale werkruimte voor het gebruik en vergelijken van attributiemodellen.
 

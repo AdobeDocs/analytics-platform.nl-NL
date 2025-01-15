@@ -4,9 +4,9 @@ title: Leeg deelvenster
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '237'
 ht-degree: 6%
 
 ---
@@ -22,6 +22,13 @@ ht-degree: 6%
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Deelvensters in Analysis Workspace"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het Lege paneel in **Customer Journey Analytics**. Zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 A **[!UICONTROL Blank panel]** toont een selectie van panelen (die door ![ WebPage ](/help/assets/icons/WebPage.svg) worden vermeld) of visualisaties die u kunt tot stand brengen om een volledig aangepaste analyse te bouwen.

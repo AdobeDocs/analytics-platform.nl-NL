@@ -4,9 +4,9 @@ title: Tekst
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 0%
 >abstract="Voeg een user-defined rijke tekstvisualisatie aan uw project toe."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de visualisatie van de Tekst in **Customer Journey Analytics**. Zie [ Tekst ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 Om user-defined rijke tekst aan uw project van Workspace toe te voegen, kunt u a ](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualisatie gebruiken van de Tekst ![ {voor een visualisatie en een paneel.

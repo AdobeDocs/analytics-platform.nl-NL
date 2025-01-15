@@ -4,7 +4,7 @@ title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 59b0462f114ca98289b4f7de92478d031d97fd31
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de Opsommingstekening in **Customer Journey Analytics**. Zie [ Bullet ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) voor de **3} versie van de Analyse van de Adobe {van dit artikel.***
+*Dit artikel documenteert de Opsommingstekening in **Customer Journey Analytics**. Zie [ Bullet ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) voor de **Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 

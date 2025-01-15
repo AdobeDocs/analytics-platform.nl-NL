@@ -4,9 +4,9 @@ title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ De horizontale staafvisualisatie heeft een standaard en gestapelde optie.
 >abstract="Maak een horizontale staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Horizontale bar en de Horizontale bar gestapelde visualisaties in **Customer Journey Analytics**. Zie [ Horizontale bar en horizontale bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 Thie ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualisatie toont horizontale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.

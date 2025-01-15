@@ -4,9 +4,9 @@ title: Samenvattingsnummer en Samenvattingswijziging
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 >abstract="Maak een visualisatie met totalen en subtotalen."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*dit artikel documenteert het Summiere aantal en de Summiere veranderingsvisualisatie in **Customer Journey Analytics**. Zie [ Samenvattingsaantal en Summiere verandering ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
 
 Gebruik ![ vat ](/help/assets/icons/123.svg) samen **[!UICONTROL Summary number]** visualisatie om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie gedraagt zich op de volgende manieren, gebruikend de bijbehorende gegevensbron:
 

@@ -4,9 +4,9 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 0%
 >abstract="Maak een venn-diagramvisualisatie om twee elementen en de grootte van hun overlapping snel visueel te vergelijken."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*dit artikel documenteert de visualisatie van de Venn in **Customer Journey Analytics**. Zie [ Venn ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 
 Het ![ Type ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualisatie laat u binnen tot 3 filters en één metrisch (van het paneel van Componenten) slepen om een diagram van de Venn te bouwen.
