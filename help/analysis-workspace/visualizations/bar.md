@@ -4,9 +4,9 @@ title: Stapel en balk gestapeld
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De staafvisualisatie heeft een standaard en gestapelde optie.
 
 >[!BEGINSHADEBOX]
 
-*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/> zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) voor ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**versie van dit artikel.*
+*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in **Customer Journey Analytics**.<br/> zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) voor de **Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 
