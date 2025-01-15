@@ -4,7 +4,7 @@ title: Filters maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 8eb146fccbdbe47df8ca28f7b8dcbce2bf6888fd
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomp
 |---|---|
 | **[!UICONTROL Repeating model (default)]** | Instantie en doorlopende waarden voor de dimensie opnemen om kwalificatie te bepalen. |
 | **[!UICONTROL Instance]** | Neem alleen instantiewaarden op voor de dimensie om de kwalificatie te bepalen. |
-| **[!UICONTROL Non-repeating instance]** | Inclusief unieke instantie-waarden (niet-herhalende waarden) voor de dimensie die wordt gebruikt om de kwalificatie te bepalen. |
+| **[!UICONTROL Non-repeating instance]** | U kunt unieke instantie-waarden (niet-herhalende waarden) voor de dimensie opnemen om de kwalificatie te bepalen. |
 
 
 ![ model van de Attributie op afmeting wanneer het bouwen van een filter ](assets/filter-dimension-attribution.png)

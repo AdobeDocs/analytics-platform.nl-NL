@@ -4,9 +4,9 @@ title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2033'
 ht-degree: 1%
 
 ---
@@ -149,17 +149,21 @@ De niet-filtercomponenten kunnen ook rechtstreeks in de dalingsstreek worden ges
 
 Voor meer informatie, zie [ Snelle filters ](/help/components/filters/quick-filters.md).
 
-![ Ad hoc filters die openbaar worden gemaakt en in de dalingsstreek gelaten vallen.](assets/adhoc-segment-filter.png)
+![ Ad hoc filters die openbaar worden gemaakt en in de dalingsstreek ](assets/adhoc-segment-filter.png) gelaten vallen
 
 ### Vervolgkeuzefilters
 
-+++ Bekijk een video waarin dropdown-filters worden uitgelegd.
-
 >[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
-{{videoaa}}
+Deze video demonstreert de functionaliteit met Adobe Analytics. De functionaliteit is echter ook beschikbaar in de Customer Journey Analytics. Houd rekening met de volgende terminologische verschillen.
 
-+++
+| Adobe Analytics | Klantreisanalyse |
+| --- | --- |
+| Segmenten | Filters |
+| Bezoeker | Persoon |
+| Bezoek | Sessie |
+| Actief | Gebeurtenis |
+
 
 #### Statische vervolgkeuzefilters
 
