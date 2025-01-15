@@ -5,7 +5,7 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 0e4e4621abe02c022981e458282543908b2396c2
+source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Workspace-projecten in Customer Journey Analytics zijn gebaseerd op gegevensweer
 De meningen van gegevens laten u spontaan de montages van het schemaelement veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu van de Customer Journey Analytics opnieuw uitvoeren.
 
 * U kunt een component veranderen van metrisch in een afmeting en vice versa. U kunt metriek van koordgebieden tot stand brengen of dimensies van numerieke gebieden tot stand brengen. Deze functionaliteit maakt uw leven gemakkelijker, omdat u geen numeriek gebied in uw schema XDM voor elke metrisch moet creëren u wilt. In plaats daarvan kunt u deze alleen spontaan maken in het dialoogvenster met gegevensweergaven. Hier volgen enkele voorbeelden:
-   * **creeer één of meerdere en/of één dimensies van één enkel schemagebied**. Het is een één-op-veel relatie. U kunt bijvoorbeeld een of meer omzetmaatstaven en/of een of meer inkomstendimensies maken van één schemaveld.
+   * **creeer één of meerdere metriek en/of afmetingen van één enkel schemagebied**. Het is een één-op-veel relatie. U kunt bijvoorbeeld een of meer omzetmaatstaven en/of een of meer inkomstendimensies maken van één schemaveld.
    * **Gebruik een koordgebied als metrisch**: Wanneer u een schema in Experience Platform met een dataset bevolkt, zou u niet omhoog kunnen weten welke schemaelementen u nodig hebt. Bijvoorbeeld, kunt u niet gerealiseerd hebben dat u metrisch voor *Fouten op een pagina* nodig had. Als gevolg hiervan hebt u geen numeriek schema-element voor dit effect gemaakt. Wanneer u een tekenreekselement als metrisch gebruikt, kunt u nu de instellingen voor gegevensweergaven gebruiken om op te geven dat een tekenreeks altijd het woord `error` bevat en als metrisch kan worden gebruikt.
    * **gebruik een numeriek gebied als afmeting**: Bijvoorbeeld, als u metrische Inkomsten van de afmeting van de Inkomsten wilt trekken, zou de afmeting van de Inkomsten elke waarde als afmetingspunt tonen. En het aantal instanties voor elk afmetingspunt als metrisch.
 
@@ -46,7 +46,7 @@ De meningen van gegevens laten u spontaan de montages van het schemaelement vera
 * U kunt meer op schema betrekking hebbende informatie over componenten bekijken. Bijvoorbeeld:
 
    * het type gegevensset (gebeurtenis, profiel, opzoekopdracht, samenvatting) waaruit de component afkomstig is;
-   * welk schematype (koord, geheel, etc.) het van oorsprong is, en
+   * welk schematype (koord, geheel, enz.) het voortkomt uit, en
    * het schemapad (het XDM gebied dat het gebaseerd is op).
 
 * U kunt een component labelen om het zoeken naar de component in Workspace eenvoudiger te maken.
