@@ -4,7 +4,7 @@ title: Stapel en balk gestapeld
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -12,6 +12,12 @@ ht-degree: 0%
 ---
 
 # Staaf (gestapeld)
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in **Customer Journey Analytics**.<br/> zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) voor de **Adobe Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 De staafvisualisatie heeft een standaard en gestapelde optie.
 
@@ -26,12 +32,6 @@ De staafvisualisatie heeft een standaard en gestapelde optie.
 
 <!-- markdownlint-enable MD034 -->
 
-
->[!BEGINSHADEBOX]
-
-*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in **Customer Journey Analytics**.<br/> zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) voor de **Adobe Analytics**versie van dit artikel.*
-
->[!ENDSHADEBOX]
 
 
 ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** visualisatie toont verticale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
