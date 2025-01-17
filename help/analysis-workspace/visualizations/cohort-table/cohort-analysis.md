@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,9 @@ De lijsten van de cohort in Customer Journey Analytics steunen dubbel-gebaseerd 
 
 ## Mogelijkheden voor kleurentabellen
 
-Met de volgende mogelijkheden kunt u de cohorten die u maakt, nauwkeurig instellen:
+De volgende secties beschrijven de eigenschappen van de Analyse van de Cohort die voor nauwkeurige controle over de cohorts toestaan u bouwt.
+
+Voor meer gedetailleerde informatie over het creëren van een cohort en het runnen van a [!UICONTROL Cohort Analysis] rapport, zie [ een lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) vormen.
 
 ### [!UICONTROL Retention] table
 
