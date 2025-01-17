@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 5b440a8029aab392739e573a680123d0bd8a1318
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,39 @@ Na [ het creëren van de markering en het toevoegen van de uitbreiding van SDK v
 
 ## Gegevenselementen configureren
 
-Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden.
+Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden. (Voor meer informatie over gegevenselementen, zie [ elementen van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) in de Documentatie van Markeringen.)
 
-Er zijn verschillende typen gegevenselementen. Stel eerst een gegevenselement in om de paginanaam vast te leggen die personen op uw site bekijken. Stel vervolgens een gegevenselement in dat verwijst naar de Experience Cloud-id. Definieer ten slotte een XDM-objectelement.
+De volgende secties beschrijven voorgestelde gegevenselementen en andere gemeenschappelijke gegevenselementen die u kunt vormen.
 
-### Gegevenselement paginanaam
+Er zijn verschillende soorten gegevenselementen. Twee gemeenschappelijke gegevenselementen die u zou kunnen willen vormen zijn: één die de paginanaam vangt die de personen op uw plaats bekijken, en een andere die Experience Cloud identiteitskaart van elke persoon vangt die uw plaats bezoekt.
 
-Een gegevenselement voor de paginanaam definiëren:
+Nadat u deze twee gegevenselementen vormt, kunt u extra gegevenselementen voor de specifieke gegevens vormen u wilt vangen.
+
+Tot slot nadat u al uw gewenste gegevenselementen bepaalt, moet u de gegevenselementen aan het [ schema toewijzen u ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-gegevenselement dat een representatie van uw XDM-schema biedt.
+
+<!-- Assigning data elements to an XDM object. All of the available XDM objects are based on the schema -->
+
+### Voorgestelde gegevenselementen maken
+
+De volgende secties beschrijven hoe te om gemeenschappelijke gegevenselementen tot stand te brengen die op de meeste organisaties van toepassing zijn.
+
+#### Gegevenselement paginanaam
+
+Een gemeenschappelijk gegevenselement dat op de meeste organisaties van toepassing is is een gegevenselement dat de paginanaam vangt die de personen bekijken.
+
+Een gegevenselement voor de paginanaam maken:
 
 1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
 
 1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]** .
 
-1. Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om deze te openen.
+1. Selecteer op de pagina **[!UICONTROL Tag Properties]** de zojuist gemaakte tag in de lijst met eigenschappen om deze te openen.
 
 1. Selecteer **[!UICONTROL Data Elements]** in het linkerspoor.
 
 1. Selecteer **[!UICONTROL Add Data Element]** .
 
-1. Geef in het dialoogvenster [!UICONTROL Create Data Element] de volgende informatie op:
+1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
    * **[!UICONTROL Name]**: De naam van het gegevenselement. Bijvoorbeeld `Page Name` .
 
@@ -66,9 +80,11 @@ Een gegevenselement voor de paginanaam definiëren:
 
 1. Ga met [ ECID gegevenselement ](#ecid-data-element) verder.
 
-### ECID-gegevenselement
+#### ECID-gegevenselement
 
-Een ECID-gegevenselement definiëren:
+Een gemeenschappelijk gegevenselement dat op de meeste organisaties van toepassing is is een gegevenselement dat Experience Cloud identiteitskaart van elke persoon vangt die uw plaats bezoekt.
+
+Een ECID-gegevenselement maken:
 
 1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
 
@@ -76,11 +92,23 @@ Een ECID-gegevenselement definiëren:
 
 1. Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om deze te openen.
 
+1. (Voorwaardelijk) Installeer de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud als het niet reeds geïnstalleerd is:
+
+   1. Selecteer **[!UICONTROL Extensions]** in het linkerspoor.
+
+   1. Het tabblad **[!UICONTROL Installed]** is standaard geselecteerd. Als de **[!UICONTROL Experience Cloud ID Service]** -tegel wordt weergegeven, gaat u verder met Stap 5.
+
+   1. Als de **[!UICONTROL Experience Cloud ID Service]** -tegel niet in de lijst staat, selecteert u de tab **[!UICONTROL Catalog]** .
+
+   1. Zoek in het zoekveld naar **[!UICONTROL Experience Cloud ID Service]** en selecteer vervolgens de tegel wanneer deze wordt weergegeven
+
+   1. Selecteer **[!UICONTROL Install]** > **[!UICONTROL Save]** .
+
 1. Selecteer **[!UICONTROL Data Elements]** in het linkerspoor.
 
 1. Selecteer **[!UICONTROL Add Data Element]** .
 
-1. Geef in het dialoogvenster [!UICONTROL Create Data Element] de volgende informatie op:
+1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
    * **[!UICONTROL Name]**: De naam van het gegevenselement. Bijvoorbeeld `ECID` .
 
@@ -92,11 +120,45 @@ Een ECID-gegevenselement definiëren:
 
 1. Selecteer **[!UICONTROL Save]** .
 
-1. Ga met [ XDM objecten gegevenselement ](#xdm-object-data-element) verder.
+1. Ga met [ verder creeer extra gegevenselementen ](#create-additional-data-elements).
+
+### Aanvullende gegevenselementen maken
+
+Maak een gegevenselement voor elk type gegevens dat u wilt verzamelen. Gebruik het zelfde proces dat in [ wordt beschreven het gegevenselement van de Naam van de Pagina ](#page-name-data-element) en [ ECID gegevenselement ](#ecid-data-element) om elk extra gegevenselement tot stand te brengen.
+
+De gegevenselementen die u creeert zouden een correlerend gebied in uw schema moeten hebben.
+
+De gemeenschappelijke gegevenselementen variëren afhankelijk van industrie en bedrijfsvereisten. Overweeg de volgende gemeenschappelijke gegevenselementen, die door industrie worden georganiseerd:
+
+**Detailhandel gegevenselementen**
+
+* Producten
+
+* Extra winkelwagentjes
+
+* Afbeeldingen
+
+**Financiële gegevenselementen**
+
+* Transactie-id
+
+* Transactiedatum
+
+* Servicetype
+
+**de gegevenselementen van de Gezondheidszorg**
+
+* Provider-id
+
+* Bezoekdatum
+
+* Type behandeling
+
+Nadat u alle gegevenselementen creeert die door uw organisatie voor uw implementatie worden vereist, ga met [ XDM objecten gegevenselement ](#xdm-object-data-element) verder.
 
 ### XDM-objectgegevenselement
 
-Tot slot wilt u nu om het even welke specifieke gegevenselementen aan het schema in kaart brengen u vroeger bepaalde. U definieert een ander gegevenselement dat een representatie van uw XDM-schema biedt.
+Tot slot wilt u nu om het even welk gegevenselement in kaart brengen dat u aan het [ schema creeerde u ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-objectelement dat een representatie van uw XDM-schema biedt.
 
 Een XDM-objectelement definiëren:
 
@@ -110,7 +172,7 @@ Een XDM-objectelement definiëren:
 
 1. Selecteer **[!UICONTROL Add Data Element]** .
 
-1. Geef in het dialoogvenster [!UICONTROL Create Data Element] de volgende informatie op:
+1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
    * **[!UICONTROL Name]**: De naam van het gegevenselement. Bijvoorbeeld `XDM - Page View` .
 
@@ -127,7 +189,6 @@ Een XDM-objectelement definiëren:
    ![ Uitgezocht ECID het Element van Gegevens ](assets/pick-ecid-dataelement.png)
 
    ![ het Element van Gegevens van de Kaart ECID ](assets/map-ecid.png)
-
 
 1. Wijs het kenmerk `web > webPageDetails > name`, dat in uw schema is gedefinieerd, toe aan het gegevenselement Paginanaam.
 
@@ -159,13 +220,13 @@ Een regel definiëren:
 
 1. Selecteer **[!UICONTROL Rules]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Create New Rule]** .
+1. Selecteer **[!UICONTROL Add Rule]** .
 
-1. Geef in het dialoogvenster [!UICONTROL Create Rule] de volgende informatie op:
+1. Geef in het dialoogvenster **[!UICONTROL Create Rule]** de volgende informatie op:
 
    * **[!UICONTROL Name]**: De naam van de regel. Bijvoorbeeld `Page View` .
 
-   * **[!UICONTROL Events]**: Selecteer **[!UICONTROL + Add]** . Geef vervolgens in het dialoogvenster [!UICONTROL Event Configuration] de volgende informatie op. Selecteer **[!UICONTROL Keep Changes]** wanneer u klaar bent.
+   * **[!UICONTROL Events]**: Selecteer **[!UICONTROL + Add]** . Geef vervolgens in het dialoogvenster **[!UICONTROL Event Configuration]** de volgende informatie op. Selecteer **[!UICONTROL Keep Changes]** wanneer u klaar bent.
 
       * **[!UICONTROL Extension]**: selecteer **[!UICONTROL Core]** in de lijst.
 
@@ -177,9 +238,9 @@ Een regel definiëren:
 
       * **[!UICONTROL Extension]**: selecteer **[!UICONTROL Adobe Experience Platform Web SDK]** in de lijst.
 
-      * **[!UICONTROL Action Type]**: selecteer **[!UICONTROL Send Event]** in de lijst.
+      * **[!UICONTROL Action Type]**: selecteer **[!UICONTROL Send event]** in de lijst.
 
-      * **[!UICONTROL Type]**: selecteer **[!UICONTROL web.webpagedetails.pageViews]** in de lijst.
+      * **[!UICONTROL Type]**: selecteer **[!UICONTROL Web Webpagedetails Page Views]** in de lijst.
 
       * **[!UICONTROL XDM data]**: Selecteer het cilinderpictogram en selecteer vervolgens **[!UICONTROL XDM - Page View]** in de lijst met gegevenselementen.
 
@@ -190,6 +251,12 @@ Een regel definiëren:
         ![ creeer Regel ](assets/rule-pageview.png)
 
 1. Selecteer **[!UICONTROL Save]** .
+
+1. Herhaal dit proces voor elke regel die u aan uw site wilt toevoegen.
+
+   Voor meer informatie over regels, zie [ Regels ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) in de Documentatie van Markeringen.
+
+1. Ga met [ verder bouw en publiceer uw markering ](#build-and-publish-your-tag).
 
 ## Uw tag maken en publiceren
 
@@ -207,9 +274,9 @@ Om uw markering te bouwen en te publiceren:
 
 1. Selecteer **[!UICONTROL Publishing Flow]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Select a working library]** , gevolgd door **[!UICONTROL Add Library…]** .
+1. Selecteer **[!UICONTROL Add Library]** .
 
-1. Geef in het dialoogvenster [!UICONTROL Create Library] de volgende informatie op:
+1. Geef in het dialoogvenster **[!UICONTROL Create Library]** de volgende informatie op:
 
    * **[!UICONTROL Name]**: De naam van de bibliotheek.
 

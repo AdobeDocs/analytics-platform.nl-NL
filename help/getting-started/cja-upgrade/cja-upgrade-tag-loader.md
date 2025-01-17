@@ -1,20 +1,20 @@
 ---
-title: De loader-tag voor de Web SDK-extensie implementeren
-description: Leer hoe te om de ladermarkering voor de uitbreiding van SDK van het Web uit te voeren
+title: De ladertag voor de Web SDK-extensie implementeren
+description: Leer hoe u de ladertag voor de extensie Web SDK implementeert
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: 937a7f31361027438929194f8ccc5aee83c33bc0
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# De loader-tag voor de Web SDK-extensie implementeren
+# De ladertag voor de Web SDK-extensie implementeren
 
 >[!NOTE]
 > 
@@ -27,6 +27,12 @@ U moet de tag installeren op de website die u wilt bijhouden. Dit houdt in dat c
 In het volgende proces wordt beschreven hoe u de code ophaalt die naar de tag verwijst. Voor supplementaire informatie, zie de [ gidsen van de Implementatie voor markeringen en gebeurtenis door:sturen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) in de documentatie van het Experience Platform.
 
 De code ophalen die naar de tag verwijst:
+
+1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
+
+1. Ga in Adobe Experience Platform naar **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]** .
+
+1. Selecteer op de pagina **[!UICONTROL Tag Properties]** de zojuist gemaakte tag in de lijst met eigenschappen om deze te openen.
 
 1. Selecteer **[!UICONTROL Environments]** in het linkerspoor.
 
@@ -42,7 +48,7 @@ De code ophalen die naar de tag verwijst:
 
 1. Selecteer **[!UICONTROL Close]** .
 
-   In plaats van de code voor het ontwikkelmilieu, zou u een ander milieu (het opvoeren, productie) kunnen selecteren die op waar wordt gebaseerd u in het opstellen van het Web SDK van Adobe Experience Platform bent.
+   In plaats van de code voor de ontwikkelomgeving, zou u een andere omgeving (het opvoeren, de productie) kunnen selecteren die op waar wordt gebaseerd u bezig bent om het Web SDK van Adobe Experience Platform op te stellen.
 
    Zie [ Milieu&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?) voor meer informatie.
 

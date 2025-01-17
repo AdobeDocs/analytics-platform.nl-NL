@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 Een gegevensstroom zou reeds moeten bestaan alvorens u de stappen in deze sectie voltooit. Wanneer en hoe de gegevensstroom werd gecreeerd hangt van uw implementatie van Adobe Analytics af, als volgt:
 
-* Als uw Adobe Analytics-implementatie gebruikmaakt van de Web SDK of de Web SDK Extension, was de datastream beschikbaar voor uw Adobe Analytics-omgeving, voorafgaand aan het upgradeproces.
+* Als uw Adobe Analytics-implementatie gebruikmaakt van de extensie Web SDK of Web SDK, was de gegevensstroom beschikbaar voor uw Adobe Analytics-omgeving, voorafgaand aan het upgradeproces.
 
 * Voor andere implementaties van Adobe Analytics, maakt het creëren van een gegevensstroom deel uit van het verbeteringsproces, zoals die in [ wordt beschreven creeer een gegevensstroom om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) te gebruiken.
 

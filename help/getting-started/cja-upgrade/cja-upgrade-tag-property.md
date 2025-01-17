@@ -1,14 +1,15 @@
 ---
 title: Een eigenschap tag maken en de extensie Web SDK toevoegen
-description: Leer hoe te om een markeringsbezit tot stand te brengen en de uitbreiding van SDK van het Web toe te voegen
+description: Leer hoe u een markeringseigenschap maakt en de extensie Web SDK toevoegt
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: 156df830-541d-4c92-9c49-98f346e040a7
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 Met de functie Codes in Adobe Experience Platform kunt u code op uw site implementeren om gegevens te verzamelen. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform via de Adobe Experience Platform Web SDK-extensie.
 
-In de volgende informatie wordt beschreven hoe u een tag voor uw eigenschap maakt. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van het Experience Platform vormen. De SDK van het Web omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
+De volgende informatie beschrijft hoe u een tag voor uw eigenschap kunt maken. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van het Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
 Een eigenschap is in feite een container die u vult met extensies, regels, gegevenselementen en bibliotheken wanneer u tags op uw site implementeert. Veel mensen maken een eigenschap voor elke website (of groep nauw verwante sites) waar ze dezelfde set tags willen implementeren. Voor meer over eigenschappen, zie [ Eigenschappen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/companies-and-properties) in de documentatie van de de gegevensinzameling van het Experience Platform.
 
@@ -40,4 +41,3 @@ U kunt als volgt een tag voor uw eigenschap maken:
    ![ creeer een bezit ](assets/create-property.png)
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-

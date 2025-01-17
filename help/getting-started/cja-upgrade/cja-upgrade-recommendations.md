@@ -7,18 +7,16 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
 
 # Upgrade van Adobe Analytics naar Customer Journey Analytics
 
-Wanneer bevordering van Adobe Analytics aan Customer Journey Analytics, adviseert de Adobe een nieuwe implementatie van het Web SDK van het Experience Platform, samen met de Analytics bronschakelaar, zoals die in [ wordt beschreven Geadviseerde verbeteringsstappen voor de meeste organisaties ](#recommended-upgrade-steps-for-most-organizations).
-
-Afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, zouden de geadviseerde verbeteringsstappen niet praktisch voor uw organisatie kunnen zijn. In dat geval, gebruik [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) om verbeteringsstappen dynamisch te produceren die aan de unieke omstandigheden van uw organisatie worden aangepast.
+Wanneer bevordering van Adobe Analytics aan Customer Journey Analytics, kunt u de [ geadviseerde verbeteringsstappen ](#recommended-upgrade-steps-for-most-organizations) volgen. Of u kunt [ verbeteringsstappen ](#dynamically-generate-upgrade-steps-for-your-organization) voor de unieke omstandigheden van uw organisatie dynamisch produceren.
 
 ## Aanbevolen upgradestappen voor de meeste organisaties
 
@@ -100,9 +98,11 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    +++Tags
 
-   1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md) uit.
-
    1. [ creeer een markeringsbezit en voeg de uitbreiding van SDK van het Web van Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) toe.
+
+   1. [De extensie Adobe Experience Platform Web SDK toevoegen aan de eigenschap tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+
+   1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md) uit.
 
    1. [ voeg de logica van de gegevensinzameling XDM aan uw markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md) toe.
 
@@ -120,11 +120,11 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. (Optioneel) Til webgegevens met gegevens uit andere kanalen, zoals gegevens van het callcenter.
 
-   U verwezenlijkt dit door extra datasets aan uw verbinding van de Customer Journey Analytics toe te voegen.
+   U verwezenlijkt dit door extra datasets aan uw verbinding van de Customer Journey Analytics toe te voegen, zoals die in [ wordt beschreven de vraagcentrum van de Invoer en Webgegevens ](/help/use-cases/cross-channel/call-center.md).
 
 1. [ creeer een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
-1. [ bevestigt dat het gegeven in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md) stroomt.
+1. [ bevestigt dat het gegeven in de gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md) stroomt.
 
 1. [ Migreer projecten en componenten ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 

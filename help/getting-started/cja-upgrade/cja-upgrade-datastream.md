@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: f76d098d-d223-40e4-be81-d28e7581396b
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,12 @@ Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoe
 
 In uw opstelling, wilt u de gegevensstroom vormen om de verzamelde gegevens naar uw dataset in Adobe Experience Platform te verzenden.
 
+>[!NOTE]
+>
+>De volgende stappen zijn alleen vereist voor Adobe Analytics-implementaties die gebruikmaken van AppMeasurement of de extensie Analytics (tags).
+>
+>Als in uw Adobe Analytics-implementatie de extensie Web SDK of Web SDK wordt gebruikt, bestaat de gegevensstroom al in uw Adobe Analytics-omgeving.
+
 Uw gegevensstroom instellen:
 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Datastreams]** in [!UICONTROL DATA COLLECTION] in de linkertrack.
@@ -40,4 +47,3 @@ Uw gegevensstroom instellen:
 1. Selecteer **[!UICONTROL Save]** .
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-
