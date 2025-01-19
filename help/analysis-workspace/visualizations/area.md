@@ -4,7 +4,7 @@ title: Gebied en gebied gestapeld
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
+source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 *Dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in **Customer Journey Analytics**.<br/> zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) voor de **Adobe Analytics**versie van dit artikel.*
 
 >[!ENDSHADEBOX]
+
 
 De gebiedvisualisatie heeft een standaard en gestapelde optie.
 
