@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Dit artikel verstrekt context op gedeelde apparaten, hoe te om gegevens van gede
 
 Een gedeeld apparaat is een apparaat dat door meer dan één persoon wordt gebruikt. De gemeenschappelijke scenario&#39;s zijn apparaten zoals tabletten, apparaten die in kiosken worden gebruikt of computermateriaal dat door agenten in een vraagcentrum wordt gedeeld.
 
-Wanneer twee personen hetzelfde apparaat gebruiken en beide een aankoop doen, kunnen voorbeeldgebeurtenisgegevens er als volgt uitzien:
+Wanneer twee personen hetzelfde apparaat gebruiken en beide een geverifieerde aankoop uitvoeren, kunnen de voorbeeldgebeurtenisgegevens er als volgt uitzien:
 
 | Gebeurtenis | Tijdstempel | Paginanaam | Apparaat-id | E-mail |
 |--:|---|---|---|---|
