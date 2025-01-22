@@ -2,9 +2,9 @@
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
+source-git-commit: ae22dc84406427567d45b670aa9737ea3a8b2f7b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -36,17 +36,96 @@ Het navigeren aan deze sectie van de interface in Customer Journey Analytics nee
 
 Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Als u dimensie-instellingen wilt wijzigen, maakt u een kopie van de gegevensweergave die eigendom is van het systeem en gebruikt u de gekopieerde gegevensweergave in Analysis Workspace.
 
-| Dimension | Beschrijving |
-| --- | --- |
-| Naam van handeling | Het type actie dat de gebruiker heeft uitgevoerd. U kunt deze dimensie als elke gewenste metrische waarde gebruiken door een kopie in de weergave-instellingen voor gegevens te maken. |
-| Attributiemodel gebruikt | Het type attributiemodel dat de component gebruikt. |
-| Component | Een afgeleid veld dat het componenttype en de componentnaam bevat. |
-| Componenttype | Het type component dat is toegevoegd, verwijderd of gewijzigd. |
-| Gebruiker aanmelden | De gebruiker die de handeling heeft uitgevoerd. |
-| Gebruikt deelvenster | Het deelvenster waar de component is toegevoegd, verwijderd of gewijzigd. |
-| Projectnaam | De vriendelijke naam van het project. |
-| Projecttype | Het projecttype. |
-| Gebruikers-id | De gebruikers-id die de gebeurtenis heeft geactiveerd. |
-| Gebruikte visualisatie | De visualisatie die is toegevoegd, verwijderd of gewijzigd. |
+* **[!UICONTROL Action Name]**: Het type actie dat de gebruiker heeft uitgevoerd. U kunt deze dimensie als elke gewenste metrische waarde gebruiken door een kopie in de weergave-instellingen voor gegevens te maken. Tot de Dimensionen behoren:
+   * [!UICONTROL Add attribution]
+   * [!UICONTROL Add component]
+   * [!UICONTROL Add panel]
+   * [!UICONTROL Add visualization]
+   * [!UICONTROL Create new guided analysis]
+   * [!UICONTROL Create new project]
+   * [!UICONTROL Curate components]
+   * [!UICONTROL Download CSV]
+   * [!UICONTROL Download PDF]
+   * [!UICONTROL Load guided analysis]
+   * [!UICONTROL Load project]
+   * [!UICONTROL New scorecard loaded]
+   * [!UICONTROL Open data dictionary]
+   * [!UICONTROL Open intelligent captions]
+   * [!UICONTROL Project share]
+   * [!UICONTROL Run Experimentation panel]
+   * [!UICONTROL Save project]
+   * [!UICONTROL Scorecard saved]
+   * [!UICONTROL Send file]
+   * [!UICONTROL Send file on schedule]
+   * [!UICONTROL Share project with anyone]
+   * [!UICONTROL Share project with Workspace users]
+* **[!UICONTROL Attribution Model Used]**: Het type attributiemodel dat de component gebruikt. Tot de Dimensionen behoren:
+   * [!UICONTROL Last touch]
+   * [!UICONTROL First touch]
+   * [!UICONTROL Linear]
+   * [!UICONTROL Participation]
+   * [!UICONTROL Same touch]
+   * [!UICONTROL U shaped]
+   * [!UICONTROL J curve]
+   * [!UICONTROL Inverse J]
+   * [!UICONTROL Time decay]
+   * [!UICONTROL Custom]
+   * [!UICONTROL Algorithmic]
+* **[!UICONTROL Component Name]**: De naam van de component die is toegevoegd, verwijderd of gewijzigd.
+* **[!UICONTROL Component Type]**: Het type component dat is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+   * [!UICONTROL Dimension]
+   * [!UICONTROL Metric]
+   * [!UICONTROL Filter]
+   * [!UICONTROL Calculated metric]
+   * [!UICONTROL Date range]
+   * [!UICONTROL Annotation]
+   * [!UICONTROL Alert]
+* **[!UICONTROL Login User]**: De gebruiker die de handeling heeft uitgevoerd.
+* **[!UICONTROL Panel Used]**: Het deelvenster waarin de component is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+   * [!UICONTROL Attribution]
+   * [!UICONTROL Blank panel]
+   * [!UICONTROL Experimentation]
+   * [!UICONTROL Freeform]
+   * [!UICONTROL Next or previous item]
+   * [!UICONTROL Quick insights]
+   * [!UICONTROL Trends]
+   * [!UICONTROL Funnel]
+   * [!UICONTROL User growth]
+   * [!UICONTROL Impact]
+   * [!UICONTROL User stream]
+   * [!UICONTROL Retention]
+   * [!UICONTROL Feature matrix]
+* **[!UICONTROL Project Name]**: De vriendelijke naam van het project.
+* **[!UICONTROL Project Type]**: Het projecttype. Tot de Dimensionen behoren:
+   * `workspace-projects`
+   * `guided-analysis`
+   * `mobile-scorecard-builder`
+* **[!UICONTROL User ID]**: De gebruikers-id die de gebeurtenis heeft geactiveerd.
+* **[!UICONTROL Visualization Used]**: De visualisatie die is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+   * [!UICONTROL Freeform table]
+   * [!UICONTROL Cohort table]
+   * [!UICONTROL Fallout]
+   * [!UICONTROL Flow]
+   * [!UICONTROL Journey Canvas reportlet]
+   * [!UICONTROL Area]
+   * [!UICONTROL Area stacked]
+   * [!UICONTROL Bar]
+   * [!UICONTROL Bar stacked]
+   * [!UICONTROL Bullet]
+   * [!UICONTROL Combo]
+   * [!UICONTROL Donut]
+   * [!UICONTROL Histogram]
+   * [!UICONTROL Horizontal bar]
+   * [!UICONTROL Horizontal bar stacked]
+   * [!UICONTROL Key metric summary]
+   * [!UICONTROL Line]
+   * [!UICONTROL Map]
+   * [!UICONTROL Scatter]
+   * [!UICONTROL Section header]
+   * [!UICONTROL Summary change]
+   * [!UICONTROL Summary number]
+   * [!UICONTROL Text]
+   * [!UICONTROL Treemap]
+   * [!UICONTROL Venn]
 
 Het gebruik van het product houdt geen individuele projectcomponenten bij wanneer een project slechts wordt geopend of bekeken. De gebruikersactie van het openen van een project wordt echter gevolgd.
