@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
 workflow-type: tm+mt
-source-wordcount: '19275'
+source-wordcount: '19269'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. In Analysis Workspace, selecteer [!UICONTROL **Workspace**] tabel.
 
-   ![ lusjes van Malplaatjes ](assets/view-prebuilt-templates.png)
+   ![ lusjes van Malplaatjes ](assets/view-prebuilt-templates-full.png)
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
@@ -43,9 +43,9 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
 
-   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of de kolommening ![ ViewColumn ](/help/assets/icons/ViewColumn.svg) of het pictogram van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg) te selecteren.
 
-   * Wanneer het gebruiken van het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Wanneer het gebruiken van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen.
 
