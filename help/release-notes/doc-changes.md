@@ -4,9 +4,9 @@ description: Vermeldt de inhoudsupdates voor de Customer Journey Analytics docum
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
+source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
 workflow-type: tm+mt
-source-wordcount: '4236'
+source-wordcount: '4382'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,8 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | --- | --- |
 | **Januari 2025** |  |
 | Gebruiksmetriek | Bijgewerkte documentatie op de betere ](/help/connections/manage-connections.md#usage) interface van het gebruiksmetriek 0}.[ |
-
+| Productgebruik | [ het gebruik van het Product ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) toont u hoe uw organisatie Customer Journey Analytics gebruikt. |
+| Analyse met instructies | Bijgewerkte documentatie met de beschikbaarheid van [ Geleide Analyse ](/help/guided-analysis/overview.md) van binnen Geleide Analyse. |
 
 ## 2024
 
@@ -31,15 +32,19 @@ De volgende updates zijn aangebracht aan de documentatie van de Customer Journey
 | Gebruikskwesties voor extensie BI | Documentatie van verscheidene [ BI uitbreidingsgebruiksgevallen ](/help/use-cases/data-views/bi-extension-usecases.md) voor de hulpmiddelen van BI zoals de Desktop van de Desktop en van Tableau. |
 | Aanvragen voor titels en privacy | Toegevoegde bericht op [ aanstaande veranderingen in het het ontstikken proces ](/help/stitching/faq.md#frequently-asked-questions) die het resultaat van privacyverzoeken zijn. |
 | **Oktober 2024** | |
+| Reiscanvasvisualisatie | [ het canvas van de Reis ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) is een visualisatie in de werkruimte van de Analyse die u toestaat om te analyseren hoe de mensen door of uit een bepaalde reis te werk gaan vallen. |
+| Middelen overdragen | Laat u [ overdrachtseigendom ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) van componenten zoals projecten, filters, en berekende metriek aan andere gebruikers overbrengen om continuïteit en aangewezen toegang te verzekeren. |
 | Verbeterde gebruiksinterface | Bijgewerkt het artikel op de betere interface om uw [ gebruik van ingebedde en te melden rijen over alle verbindingen ](/help/connections/manage-connections.md#usage) te tonen |
 | Gedeelde apparaten | Toegevoegd a [ gebruikscase artikel ](/help/use-cases/stitching/shared-devices.md) dat context op gedeelde apparaten verstrekt, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend het stitching, en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag. |
 | Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/technotes/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/technotes/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
 | Workspace en componenten | De documentatie over Analysis Workspace-projecten (projecten, visualisaties en deelvensters) en componenten (annotaties, afmetingen, (berekende) meetgegevens, filters, datumbereiken, waarschuwingen, geplande projecten en doelgroepen) is vernieuwd. |
 | Analyse met instructies | Bijgewerkte documentatie met de beschikbaarheid van [ Geleide Analyse ](/help/guided-analysis/overview.md) van binnen Analysis Workspace. |
+| Bijgewerkte documentatie van het publiek | Wanneer [ creërend een publiek ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish?lang=en) van een visualisatie binnen Analysis Workspace, zijn de paneelfilters en kolomfilters nu inbegrepen als extra criteria. |
 | **September 2024** | |
 | Update van samenvattingsgegevens | Bijgewerkte summiere gegevensartikelen met informatie over hoe te om [ raadplegingsgegevens ](/help/data-views/summary-data.md#lookup-data) behoorlijk te gebruiken wanneer het melden van summiere gegevens. |
 | Bijwerken van BI-extensie | Toegevoegde [ gebreken en beperkingssectie ](/help/data-views/bi-extension.md#defaults-and-limitations) aan de de uitbreidingsdocumentatie van BI. |
 | Waarschuwingen | Toegevoegde documentatie voor de [ 1} functionaliteit van Alarm {nu beschikbaar in Customer Journey Analytics.](/help/components/c-intelligent-alerts/intelligent-alerts.md) |
+| Aanvullende informatie in de kolom &quot;Gebruikt in&quot; in de berekende metrische manager en filtermanager | De &quot;Gebruikte in&quot;kolom in de [ berekende metrische manager ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) en [ filtermanager ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en) bevat de volgende nieuwe rapporteringsgebieden: Report Builder en Ad-hoc componenten |
 | **Augustus 2024** | |
 | Een B2B-voorbeeldproject | Toegevoegd a [ gebruiksgeval ](/help/use-cases/b2b/example.md) documenterend hoe te opstelling, vorm en rapport op profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics, gebruikend de nieuwe [ transformatiedatasets voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) functionaliteit. |
 | Gebruiksscenario&#39;s voor het exporteren van gegevens | Toegevoegde meer gedetailleerde vraagvoorbeelden aan [ Dienst van de Vraag (Gegevens Distiller) &amp; de datasets van de Uitvoer ](/help/use-cases/data-export/queryservice-export-datasets.md) om te illustreren hoe te om attributie over zittingen behoorlijk toe te passen gebruikend een raadplegingsvenster. |

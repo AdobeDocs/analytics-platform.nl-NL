@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 55da4faa73d708a450274c2b4d44c246ef5feb49
+source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 1%
@@ -34,7 +34,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de Custom
 | **Geleide analyse** | [ Geleide analyse ](/help/guided-analysis/overview.md) laat gebruikers toe om hoogkwalitatieve gegevens en inzichten over de klantenreis door geleide werkschema&#39;s te dienen, die op de gegevens over meerdere kanalen van Customer Journey Analytics worden voortgebouwd. |
 | **Intelligente Bijschriften** | [ Intelligente titels ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) gebruiken het Geavanceerde Leren van de Machine en Generatieve AI om waardevolle natuurlijk-taalinzichten voor Workspace visualisaties te verstrekken. Intelligente bijschriften worden ondersteund voor de volgende visualisaties: Lijn, Meerdere regels, Staaf, Horizontale balk, Donut, Gebied, Stroom en Fallout. |
 | **Canvas van de Reis** | [ het canvas van de Reis ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) is een visualisatie in de werkruimte van de Analyse die u toestaat om te analyseren hoe de mensen door of uit een bepaalde reis te werk gaan vallen. |
-| **Gebruik van het Product** | [ het gebruik van het Product ] (https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview() toont u hoe uw organisatie Customer Journey Analytics gebruikt. |
+| **Gebruik van het Product** | [ het gebruik van het Product ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) toont u hoe uw organisatie Customer Journey Analytics gebruikt. |
 | **rapport-tijd transformaties** | [ de meningen van Gegevens ](/help/data-views/data-views.md) in Customer Journey Analytics staan u toe om gegevens van een verbinding verder te interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
 | **SQL toegang** | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij de backendverwerking van de Adobe. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | **Stitching** | [ Stitching ](/help/stitching/overview.md) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse opheft. De analyse van het dwars-kanaal is een belangrijkste gebruiksgeval dat de Customer Journey Analytics kan behandelen, toestaand u om rapporten over veelvoudige datasets van verschillende kanalen naadloos te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoonidentiteitskaart) worden gebaseerd. |
