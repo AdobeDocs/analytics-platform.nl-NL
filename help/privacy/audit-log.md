@@ -4,10 +4,10 @@ description: Leer hoe te om de controlelogboeken van de Customer Journey Analyti
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 2%
+source-wordcount: '872'
+ht-degree: 1%
 
 ---
 
@@ -63,22 +63,22 @@ Dubbelklik op de knop Info (i) naast een beschrijving.
 De volgende items worden weergegeven:
 
 * **[!UICONTROL Action Name]**: De actie die is uitgevoerd. Mogelijke waarden zijn:
-   * API_REQUEST
-   * GOEDKEUREN
-   * MAKEN
-   * DELETE
-   * BEWERKEN
-   * EMBARGO
-   * EXPORT
-   * ORG_CHANGE
-   * VERNIEUWEN
-   * DELEN
-   * OVERDRACHT
-   * ONGOEDKEUREN
-   * ONDELEN
+   * API_REQUEST: Elke actie activeert een back-end API-aanvraag. Er worden details weergegeven over wat de API-aanvraag was.
+   * GOEDKEURING: er is een &quot;goedkeuringshandeling&quot; uitgevoerd.
+   * CREATE: Er is een handeling &quot;create&quot; uitgevoerd.
+   * DELETE: Er is een handeling &quot;delete&quot; uitgevoerd.
+   * BEWERKEN: er is een bewerking &quot;bewerken&quot; uitgevoerd.
+   * EMBARGO:
+   * EXPORTEREN: er is een handeling &quot;exporteren&quot; uitgevoerd.
+   * ORG_CHANGE: Er is een actie tot wijziging van de organisatie uitgevoerd.
+   * REFRESH: Er is een actie &quot;vernieuwen&quot; uitgevoerd.
+   * DELEN: er is een actie &quot;delen&quot; uitgevoerd.
+   * OVERDRACHT: er is een overdrachtsactie uitgevoerd.
+   * ONGOEDKEURING: er is een actie &quot;unaccept&quot; uitgevoerd.
+   * UNSHARE: Er is een handeling &quot;unshare&quot; uitgevoerd.
 * **[!UICONTROL Date Created]**: De datum en tijd waarop de actie is uitgevoerd.
 * **[!UICONTROL Description]**: Een overzicht van de handeling.
-* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd.
+* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) eigenschap van het Gebruik van het 0} Product, aangezien het altijd de login gebruikersnaam omvat.[
 * **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
 * **[!UICONTROL Component Type]**: Het type component. Mogelijke waarden zijn:
@@ -94,7 +94,7 @@ De volgende items worden weergegeven:
    * FILTER
    * IMS_ORG
    * MOBIEL
-   * PROJECT
+   * PROJECT (Workspace)
    * RAPPORT
    * SCHEDULED_PROJECT
    * GEBRUIKER
