@@ -5,16 +5,16 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
+source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2409'
 ht-degree: 1%
 
 ---
 
 # Ondersteuning van Customer Journey Analytics-functies
 
-In de volgende tabellen wordt aangegeven welke functies uniek zijn voor de Customer Journey Analytics en welke Adobe Analytics wordt ondersteund, gedeeltelijk of niet ondersteund in de Customer Journey Analytics. Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan de Customer Journey Analytics worden toegevoegd.
+In de volgende tabellen wordt aangegeven welke functies uniek zijn voor de Customer Journey Analytics en welke Adobe Analytics-functies worden ondersteund, gedeeltelijk of niet ondersteund in de Customer Journey Analytics. Deze lijsten worden na verloop van tijd gewijzigd wanneer functies aan de Customer Journey Analytics worden toegevoegd.
 
 ## Functies die uniek zijn voor Adobe Customer Journey Analytics {#cja-not-aa}
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Wanneer bevordering van Adobe Analytics aan Customer Journey Analytics, kunt u de [ geadviseerde verbeteringsstappen ](#recommended-upgrade-steps-for-most-organizations) volgen. Of u kunt [ verbeteringsstappen ](#dynamically-generate-upgrade-steps-for-your-organization) voor de unieke omstandigheden van uw organisatie dynamisch produceren.
 
-## Aanbevolen upgradestappen voor de meeste organisaties
+## Aanbevolen upgradestappen voor de meeste organisaties {#upgrade-process}
 
 Het geadviseerde proces om van Adobe Analytics aan Customer Journey Analytics te bevorderen is een nieuwe implementatie van het Web SDK van het Experience Platform, dat de aangewezen methode van de gegevensinzameling voor Customer Journey Analytics is. Samen met het Web SDK, adviseert de Adobe ook gebruikend de de bronschakelaar van de Analyse om met uw overgang aan Customer Journey Analytics te helpen. Gebruik de gegevensbronconnector Analytics om historische Adobe Analytics-gegevens te behouden en gegevens naast elkaar te vergelijken.
 
@@ -28,7 +28,16 @@ Nadat u genoeg historische gegevens gebruikend het Web SDK van het Experience Pl
 >
 >Als de verbeteringsstappen die in deze sectie worden beschreven niet praktisch voor uw organisatie zijn, gebruik [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) om verbeteringsstappen dynamisch te produceren die aan de unieke omstandigheden van uw organisatie worden aangepast.
 
-### Aanbevolen upgradeproces op hoog niveau
+### Aanbevolen upgradeproces op hoog niveau {#high-level-upgade-process}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-historical-data"
+>title="Historische gegevens van Adobe Analytics"
+>abstract="Breng uw historische Adobe Analytics-rapportenpakket gegevens naar Adobe Experience Platform en Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
 
 1. **voer SDK van het Web van het Experience Platform (voor aan de gang zijnde gegevensinzameling) uit**
 
@@ -54,7 +63,7 @@ Nadat u genoeg historische gegevens gebruikend het Web SDK van het Experience Pl
 
      U kunt de bronaansluiting voor Analytics actief houden totdat u bekend bent met de verschillen en deze op uw gemak kunt gebruiken. <!--elaborate on what those differences are? -->
 
-   De bronschakelaar van de Analyse als stand-alone implementatie is geen geadviseerde methode op lange termijn voor het gebruiken van Customer Journey Analytics. Dit komt door hoge latentie, geclusterde en complexe schema&#39;s, afhankelijkheid van de nomenclatuur van Adobe Analytics (steun, eVar, etc.), en moeilijkheden in uiteindelijk het bewegen van de bronschakelaar aan de geadviseerde implementatie van SDK van het Web.
+   De bronschakelaar van de Analyse als stand-alone implementatie is geen geadviseerde methode op lange termijn voor het gebruiken van Customer Journey Analytics. Dit komt door hoge latentie, geclusterde en complexe schema&#39;s, afhankelijkheid van de nomenclatuur van Adobe Analytics (steun, eVar, etc.), en moeilijkheden in uiteindelijk het bewegen van de de bronschakelaar van de Analyse aan de geadviseerde implementatie van SDK van het Web.
 
 ### Gedetailleerde aanbevolen upgradestappen
 

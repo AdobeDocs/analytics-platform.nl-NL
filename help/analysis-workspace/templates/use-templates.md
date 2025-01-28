@@ -4,7 +4,7 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
+source-git-commit: c4ea1ffd6ffb21f972bb144fe6b56526ad4697ff
 workflow-type: tm+mt
 source-wordcount: '19269'
 ht-degree: 0%
@@ -947,8 +947,6 @@ De volgende sjablonen zijn beschikbaar:
 | **Browser types** | Geef de namen weer van de organisaties die de beste browsers hebben gemaakt die mensen gebruiken om toegang te krijgen tot uw site. Dit verschilt van het Browser malplaatje in zoverre dat het geen verschillende versies van zelfde browser zoals afzonderlijke afmetingspunten opsomt.<p>**dit kan u** helpen beter begrijpen gemeenschappelijkste browsers die de bezoekers gebruiken</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als plaatskwaliteit verbeteren door nieuwe versies van uw plaats te testen gebruikend hoogste browsers. Zo kunnen de inspanningen op het gebied van kwaliteitscontrole worden gemaximaliseerd. </p><p>Deze sjabloon gebruikt de afmetingen voor het browsertype. </p> |
 
 ### Web: Verwerving {#web-acquisition}
-
-<!--CJA only-->
 
 <!--AA only-->
 
