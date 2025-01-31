@@ -4,9 +4,9 @@ description: Het deelvenster Media afspelen in Analysis Workspace gebruiken en i
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,15 @@ De bestede afspeeltijd kan u helpen begrijpen:
 
 * Waar is een offsite opgetreden.
 
-+++ Bekijk een videodemonstratie van deze functionaliteit.
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+>[!BEGINSHADEBOX]
 
-+++
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ bestede tijd van de media ](https://video.tv.adobe.com/v/338699){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Gebruiken
 

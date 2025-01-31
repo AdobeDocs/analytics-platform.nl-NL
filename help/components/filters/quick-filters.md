@@ -4,9 +4,9 @@ title: Snelle filters
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,13 @@ ht-degree: 0%
 De snelle filters staan u toe om gegevens binnen een project van Workspace snel te onderzoeken, zonder de behoefte om een filter in de [ Bouwer van de Filter ](/help/components/filters/create-filters.md) tot stand te brengen.
 
 
-+++ In de volgende video ziet u hoe u snelle filters kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Snelle segmenten in Analysis Workspace ](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} voor een demo video.
 
-+++
+>[!ENDSHADEBOX]
+
 
 Wanneer u snelle filters wilt gebruiken, moet u het volgende opmerken:
 

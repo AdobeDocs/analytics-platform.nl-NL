@@ -4,9 +4,9 @@ description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormta
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ U kunt hyperlinks maken voor dimensie-items, zodat hierop kan worden geklikt in 
 
 Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volgende typen dimensies:
 
-* Dimension-items met URL-waarden (bijvoorbeeld een pagina-URL-dimensie)
+* Dimension-items met URL-waarden (bijvoorbeeld een pagina-URL-dimensie).
 
-* Dimension-items die onderverdelingen bevatten met URL-waarden (bijvoorbeeld een paginanummer met een indeling van een pagina-URL-dimensie)
+* Items van een Dimension die onderverdelingen bevatten die URL-waarden hebben (bijvoorbeeld een pagina-naamdimensie met een indeling van een pagina-URL-dimensie).
 
-* Items of uitsplitsingen in Dimensionen met waarden die onderdeel zijn van een URL (bijvoorbeeld een dimensie Paginanaam die onderdeel is van een URL)
+* Items of uitsplitsingen in Dimensionen die waarden hebben die onderdeel zijn van een URL (bijvoorbeeld een dimensie Paginanaam die deel uitmaakt van een URL).
 
-+++ Bekijk een videodemonstratie van deze functionaliteit.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ hyperlinks in een vrije vormlijst ](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Hyperlinks maken
 

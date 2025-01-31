@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,15 @@ Via verbindingen kunnen Customer Journey Analytics-productbeheerders verbindinge
 
 We raden u aan de toegang tot het Connections-beheer te beperken tot een kernbeheergroep. Configuraties op het niveau van de Verbinding hebben contractuele implicaties met betrekking tot volumetoewijzing voor gegevens die in Customer Journey Analytics worden gebracht.
 
-Hier volgt een video-overzicht:
+<!-- Outdated interface 
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/v/35111/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
 
 ## Vereiste machtigingen
 

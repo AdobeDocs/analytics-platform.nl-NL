@@ -3,9 +3,9 @@ description: Opeenvolgende filters zijn filters die de operator THEN gebruiken o
 title: Opeenvolgende filters
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2343'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 1%
 
 U maakt opeenvolgende filters met de logische operator [!UICONTROL Then] tussen componenten, containers en componenten of containers. De logische operator [!UICONTROL Then] impliceert dat een filtervoorwaarde optreedt, gevolgd door een andere.
 
-+++ Hier is een video waarin sequentiële segmentatie wordt getoond.
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Opeenvolgende segmentatie ](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 Een opeenvolgend filter heeft sommige [ basisfunctionaliteit ](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan de opeenvolgende filter toe te voegen:
 

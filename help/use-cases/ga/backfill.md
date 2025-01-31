@@ -5,9 +5,9 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ De gegevensstructuur in Universal Analytics-eigenschappen verschilt van de gegev
 
 Met de Universal Analytics-eigenschappen wordt elke record in de gegevens opgeslagen als een gebruikerssessie in plaats van als afzonderlijke gebeurtenissen. Er is een SQL-query vereist om de Universal Analytics-gegevens om te zetten in een indeling die compatibel is met Adobe Experience Platform. Pas de functie `UNNEST` toe op het `hits` -veld in het GA-schema en sla deze op als een BigQuery-tabel.
 
->[!VIDEO](https://video.tv.adobe.com/v/332634)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ van Googles Analytics aan Customer Journey Analytics - BigQuery ](https://video.tv.adobe.com/v/332634?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ```sql
 SELECT
@@ -74,7 +80,13 @@ In het Platform van de Wolk van Google, navigeer aan **Uitvoer > de Uitvoer aan 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Sources]** aan de linkerkant.
 1. Zoek in de catalogus de optie **[!UICONTROL Google Cloud Storage]** . Klik op **[!UICONTROL Add data]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/332676)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ gegevens van de Googles Analytics van de Invoer in Adobe Experience Platform ](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!TIP]
 >

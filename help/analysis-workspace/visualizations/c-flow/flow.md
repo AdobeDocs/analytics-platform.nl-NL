@@ -4,9 +4,9 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,17 @@ Met de visualisatie kunt u:
 
 * Visualiseer de reis van de klant door uw website of toepassing.
 * Analyseer waar klanten voor en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting, of uitgang gaan.
-* Filters maken door een specifiek punt in een gekozen pad aan te wijzen
+* Maak filters door een specifiek punt in een gekozen pad aan te wijzen.
 
-+++ Bekijk een videodemonstratie van de stroomvisualisatie.
 
->[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een stroomvisualisatie ](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Interdimensionale stromen
 

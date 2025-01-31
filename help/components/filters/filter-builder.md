@@ -4,7 +4,7 @@ title: Filters maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8eb146fccbdbe47df8ca28f7b8dcbce2bf6888fd
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -132,13 +132,13 @@ U kunt filters bouwen die het rollen datumwaaiers bevatten. U kunt dus vragen be
 
 ![ Filter gebruikend het rollen datumwaaier ](assets/filter-rolling-date-range.gif)
 
-+++ Hier is een video over het gebruik van roldatumbereiken in filters
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Rolling datumwaaiers in segmenten ](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demo video.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Stapelfilters {#stack}
 

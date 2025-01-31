@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -51,28 +51,49 @@ Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onde
 
 * Als de kolomstructuur al kenmerken bevat, heeft het wijzigen van de toewijzing alleen invloed op de eigenschap die u bewerkt.
 
-+++ Video&#39;s weergeven waarin dimensies en dimensies worden geïllustreerd
+>[!BEGINSHADEBOX]
 
-Dimensionen in Analysis Workspace
-
->[!VIDEO](https://video.tv.adobe.com/v/23971)
-
-Uitsplitsingen naar Dimension
-
->[!VIDEO](https://video.tv.adobe.com/v/23969)
-
-Afmetingen en metriek toevoegen aan uw project in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/30606)
-
-Werken met afmetingen in een tabel voor vrije vorm:
-
->[!VIDEO](https://video.tv.adobe.com/v/40179)
-
-Uitsplitsingen naar positie van Dimension:
-
->[!VIDEO](https://video.tv.adobe.com/v/24033)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Dimension in Analysis Workspace ](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Dimension onderverdelingen ](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Toevoegend dimensies en metriek ](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Werkend met afmetingen in een Vrije Lijst van de Vorm ](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Dimension onderbreking door positie ](https://video.tv.adobe.com/v/24033){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+

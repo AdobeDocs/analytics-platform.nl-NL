@@ -4,9 +4,9 @@ title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,18 @@ _dit artikel documenteert de bulletvisualisatie in_ ![ CustomerJourneyAnalytics 
 
 ![ GraphBullet ](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** visualisatie toont hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt.
 
-![](assets/bullet.png)
+![ de grafiekvisualisatie van het Bullet ](assets/bullet.png)
 
 De opsommingsgrafiek bevat één primaire maatstaf (bijvoorbeeld de huidige omzet van het jaar tot aan de datum) en stelt u in staat om kwalitatieve bereiken van prestatieswaaiers (bijvoorbeeld, in vergelijking met een doelopbrengst) in te gaan. U kunt hoge, gemiddelde, en lage doelwaaiers specificeren. U kunt doelwaaiers in ![ plaatsen ](/help/assets/icons/Setting.svg) specificeren **[!UICONTROL Settings]**.
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de grafiekvisualisatie van de Bullet ](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Instellingen
 

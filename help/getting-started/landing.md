@@ -4,9 +4,9 @@ title: Customer Journey Analytics landingspagina
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 De landingspagina voor Customer Journey Analytics markeert [!DNL Analysis Workspace] en heeft een startpagina voor projectmanager en een leergedeelte om u te helpen de gegevens van de klantenreis effectiever beheren.
 
-+++ Bekijk de video voor een inleiding.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Bestaan pagina in Analysis Workspace ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 De Customer Journey Analytics landende pagina bestaat uit volgende subtabs: Projecten en Leren.
 
@@ -107,7 +109,7 @@ The available columns are:
 
 -->
 
-## Leren
+## Learning
 
 De pagina Learning bevat praktische videolessen, zelfstudies en koppelingen naar documentatie.
 

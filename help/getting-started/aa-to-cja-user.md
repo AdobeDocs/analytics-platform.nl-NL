@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,21 @@ De gegevens van de klant in het Experience Platform worden opgeslagen als datase
 
 Uw Customer Journey Analytics Admin vestigt [ verbindingen ](/help/connections/create-connection.md) aan datasets in Experience Platform. Zij bouwen dan [ gegevensmeningen ](/help/data-views/data-views.md) gebruikend die verbindingen. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in Customer Journey Analytics. Aangezien het Experience Platform alle gegevens voor rapportering verstrekt, bestaan de rapportreeksen niet meer als container voor gegevens.
 
-Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience Platform integreren in Customer Journey Analytics, die in de volgende video is opgenomen:
+Met een verbinding kunnen uw Analytics-beheerder gegevenssets van Adobe Experience Platform integreren in Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-De Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de de bronschakelaar van de Analyse of SDK van het Web. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
+<!-- Outdated UI
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
+
+
+De Adobe biedt veelvoudige manieren aan om gegevens in te brengen in Adobe Experience Platform, met inbegrip van rapportreeksgegevens door de de bronschakelaar van de Analyse of het Web SDK. De bestaande implementaties van veelvoudige rapportreeksen kunnen in Experience Platform worden gecombineerd. De verbindingen en gegevensmeningen die op deze datasets gebaseerd zijn kunnen gegevens combineren die eerder in afzonderlijke rapportreeksen bestonden.
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 
@@ -78,9 +88,14 @@ Naast het concept van segmenten die veranderen, worden de segmentcontainers ook 
 
 ## Wijzigingen in het concept van berekende meetwaarden
 
-Berekende metriek hebben een vergelijkbare naam tussen Adobe Analytics en Customer Journey Analytics. [!UICONTROL Customer Journey Analytics] gebruikt echter niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan geen Experience Platform-schema-element. Deze fundamentele wijziging houdt in dat geen van de bestaande berekende meetgegevens compatibel is met [!UICONTROL Customer Journey Analytics] . Bekijk de volgende video als u berekende metriek van Adobe Analytics naar Customer Journey Analytics wilt verplaatsen:
+Berekende metriek hebben een vergelijkbare naam tussen Adobe Analytics en Customer Journey Analytics. [!UICONTROL Customer Journey Analytics] gebruikt echter niet langer eVars, props of gebeurtenissen en gebruikt in plaats daarvan geen Experience Platform-schema-element. Deze fundamentele wijziging houdt in dat geen van de bestaande berekende meetgegevens compatibel is met [!UICONTROL Customer Journey Analytics] .
 
->[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Bewegend berekende metriek van Adobe Analytics aan Customer Journey Analytics ](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} voor een demovideo op hoe te om berekende metriek te bewegen.
+
+>[!ENDSHADEBOX]
 
 ## Wijzigingen in instellingen voor variabeletoewijzing en -vervaldatum
 
@@ -100,9 +115,14 @@ De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets va
 
 ## Wijzigingen in de manier waarop bezoekers door de Adobe worden geïdentificeerd
 
-Customer Journey Analytics breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Het gebruiken van gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken van [ het Stitching ](../stitching/overview.md) hulp verbindt mensen samen over verschillende datasets. Om het even welke gebruiker die opstelling een project van Workspace in Customer Journey Analytics moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt:
+Customer Journey Analytics breidt de concepten van identiteiten voorbij ECIDs uit om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Het gebruiken van gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken van [ het Stitching ](../stitching/overview.md) hulp verbindt mensen samen over verschillende datasets. Om het even welke gebruiker die opstelling een project van Workspace in Customer Journey Analytics moet IDs begrijpen over de datasets wordt gebruikt. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt
 
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend identiteit in Customer Journey Analytics ](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 

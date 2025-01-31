@@ -4,9 +4,9 @@ title: Donut
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,15 @@ Gelijkaardig aan een cirkeldiagram, ![ GraphDonut ](/help/assets/icons/GraphDonu
 
 ![ een grafiek van de Donut die gegevens als delen of filters van een geheel tonen.](assets/donut.png)
 
-+++ Bekijk een videodemonstratie van deze functionaliteit.
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een donutvisualisatie ](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"} voor een demo video toevoegen.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

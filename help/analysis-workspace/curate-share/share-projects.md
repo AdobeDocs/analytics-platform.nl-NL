@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,15 @@ U kunt een Analysis Workspace-project delen met de volgende typen personen:
 
 Om het even welke [ kromming ](curate.md) u voorafgaand aan het delen toepast wordt weerspiegeld wanneer de ontvangers het project openen.
 
-+++ Bekijk een video waarin wordt getoond hoe u projecten kunt delen.
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Delen van het Project in Analysis Workspace ](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Delen met gebruikers en groepen van Customers Journey Analytics in uw organisatie {#Add}
 
@@ -153,9 +155,13 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >* De functie [!UICONTROL Share with anyone] is geblokkeerd voor licenties voor zowel het Healthcare Shield als het Privacy &amp; Security Shield.
 
-In de volgende videodemonstratie en de bijbehorende documentatie worden de opties beschreven voor het delen van een koppeling met iedereen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 Een Analysis Workspace-project met iedereen delen:
 
@@ -203,9 +209,16 @@ Wanneer iemand een project met u deelt door een verbinding (of van het [ het pro
 
 ## Ingesloten componenten delen
 
-Hier volgt een video over het onderwerp:
+U kunt de ingesloten componenten delen die deel uitmaken van uw project.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Deel ingebedde componenten in Analysis Workspace ](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Veelgestelde vragen {#FAQs}
 

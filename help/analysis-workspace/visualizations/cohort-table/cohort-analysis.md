@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,15 @@ Voorbeelden van wat u kunt doen met een [!UICONTROL Cohort table] :
 
 [!UICONTROL Cohort table] is beschikbaar voor alle klanten van de Customer Journey Analytics met toegangsrechten tot [!UICONTROL Analysis Workspace].
 
-+++ Bekijk een videodemonstratie van de cohorttabel.
 
->[!VIDEO](https://video.tv.adobe.com/v/23990/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Cohort in Analysis Workspace ](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!IMPORTANT]
 >

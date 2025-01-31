@@ -4,9 +4,9 @@ description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ _dit artikel documenteert de Spreiding visualisatie in_ ![ CustomerJourneyAnalyt
 >[!ENDSHADEBOX]
 
 
-![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
+![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. De visualisatie vereist drie componenten, en steunt het visualiseren van tot vier componenten.
 
 * De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
 * In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
@@ -39,6 +39,14 @@ _dit artikel documenteert de Spreiding visualisatie in_ ![ CustomerJourneyAnalyt
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
 ![ Voorbeeld die van het Scatterplot veelvoudige afmetingspunten tonen ](assets/scatter.png)
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van het Scatterplot ](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

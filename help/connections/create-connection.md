@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '4092'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -131,11 +131,13 @@ De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle datas
 * U kunt datasets uitgeven, bijvoorbeeld om een andere backfill te verzoeken.
 * U kunt bestaande gegevens per dataset importeren.
 
-+++ Video ter illustratie van het maken en bewerken van een verbindingservaring
 
->[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een verbinding ](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} voor een demo video creëren en uitgeven.
+
+>[!ENDSHADEBOX]
+
 
 ## Vereisten
 

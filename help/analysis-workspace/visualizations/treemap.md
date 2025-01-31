@@ -4,9 +4,9 @@ title: Treemap
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 11%
 
 ---
@@ -37,6 +37,13 @@ Elke tak van de boomstructuur krijgt een rechthoek die vervolgens als tegel naas
 ![ Voorbeeld dat van de Treemap tegels van kleinere rechthoeken toont die subtakken vertegenwoordigen.](assets/treemap.png)
 
 Met een treemap kunt u patronen zien die moeilijk op andere manieren te vinden zijn. Met de kleur en de grootte van de dimensies kunt u zien hoe dimensies worden gecorreleerd en of een bepaalde dimensie bijzonder relevant is. Een tweede voordeel van loopvlakken is dat loopvlakken door hun constructie efficiënt gebruik maken van de ruimte.
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Treemap ](https://video.tv.adobe.com/v/334458/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]

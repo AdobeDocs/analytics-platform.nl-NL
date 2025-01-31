@@ -4,9 +4,9 @@ title: Informatie over uitvalrapporten en visualisaties
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,15 @@ _dit artikel documenteert de visualisatie van de Uitval in_ ![ CustomerJourneyAn
 
 A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
 
-+++ Bekijk een videodemonstratie van [!UICONTROL Fallout visualization].
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een rapport van de fallout visualisatie ](https://video.tv.adobe.com/v/345883/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 Met uitvalvisualisaties kunt u:
 

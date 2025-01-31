@@ -4,9 +4,9 @@ title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,15 @@ Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerder
 De beheerders van Analytics zijn verantwoordelijk voor het krommen van informatie over elke component in het Woordenboek van Gegevens om het ter beschikking te stellen van gebruikers.
 
 
-+++ Een video weergeven om het gegevenswoordenboek weer te geven
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het woordenboek van Gegevens voor Analyse Workspace ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## Voordelen voor gebruikers
 

@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2631'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,13 @@ ht-degree: 0%
 
 De volgende informatie instrueert curatoren van Customer Journey Analytics gegevens over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer mobiele scorecard ](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -202,7 +208,14 @@ Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervol
 
 Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeningen van de Douane ](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
 
@@ -240,7 +253,15 @@ Bijvoorbeeld, als u zich op Webverkeer concentreert, kan uw belangrijkste metris
 
 Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobiele scorecardprojecten in Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ verhalen van Gegevens voor een Mobiel scorecard project ](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 **om een gegevensverhaal** te creëren {#data-story-create}
 

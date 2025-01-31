@@ -5,9 +5,9 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '878'
 ht-degree: 5%
 
 ---
@@ -99,7 +99,13 @@ Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie 
 
 Zie [ Gebruikend bindende dimensies en metriek in Customer Journey Analytics ](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden rond hoe te om bindende dimensies effectief te gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Bindende afmetingen ](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL Binding Metric]
 
