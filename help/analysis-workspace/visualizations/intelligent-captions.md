@@ -4,7 +4,7 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 5d391a73fb30ebc8f443f5a88357c866df03ce96
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Intelligente bijschriften zijn gericht op:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intellgent titels ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
