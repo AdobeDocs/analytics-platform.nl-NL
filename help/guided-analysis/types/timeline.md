@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -34,7 +34,7 @@ De ![ analyse van de Chronologie ](/help/assets/icons/Timeline.svg) **[!UICONTRO
 >* **Admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te voegen identiteitskaart van de Persoon aan de gegevensmening toe.*
 >* **niet-admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te werken met uw beheerder van de Customer Journey Analytics om identiteitskaart van de Persoon aan de gegevensmening toe te voegen.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
 
 
 

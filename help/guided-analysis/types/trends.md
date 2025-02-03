@@ -5,7 +5,7 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -25,7 +25,8 @@ ht-degree: 0%
 
 De ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** analyse verstrekt waardevol inzicht rond de prestaties van uw product of het gedrag van uw gebruikers in tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Gebruik hoofdletters
 

@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 De ](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** analysegroepen van de frequentie ![ frequentie {gebeurtenisgegevens door hoe vaak de gebeurtenissen in uw product voorkomen. De verticale as van deze analyse bevat emmers die de frequentie van de gebeurtenis vertegenwoordigen. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## Gebruik hoofdletters
 

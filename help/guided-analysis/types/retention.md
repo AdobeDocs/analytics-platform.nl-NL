@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -30,7 +30,7 @@ De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** anal
 
 In deze analyse, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## Gebruik hoofdletters

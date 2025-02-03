@@ -4,9 +4,9 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ _dit artikel documenteert Combo visualization in_ ![ CustomerJourneyAnalytics ](
 >[!ENDSHADEBOX]
 
 
-De ![ Commentaar ](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** visualisatie maakt het gemakkelijk om snel een vergelijkingsvisualisatie te bouwen zonder het moeten eerst een lijst bouwen. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.
+De ![ kaart Combo ](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** visualisatie maakt het gemakkelijk om een vergelijkingsvisualisatie snel te bouwen zonder het moeten eerst een lijst bouwen. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.
 
 Een [!UICONTROL Combo] gebruiken om:
 

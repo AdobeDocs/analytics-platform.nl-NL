@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1338'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van de werkruimte van de Analyse ](https://video.tv.adobe.com/v/26266/?quality=12){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van de werkruimte van de Analyse ](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -27,11 +27,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van
 
 In de volgende afbeelding en de bijbehorende tabel worden de belangrijkste elementen in de Analysis Workspace-gebruikersinterface uitgelegd:
 
-![ het venster van Analysis Workspace die het verre linker en linkerpaneel, het canvas, en het drop-down menu van de gegevensmening benadrukken.](assets/analysis-workspace-overview.png)
+![ Analysis Workspace venster dat de diverse secties van de interface ](assets/analysis-workspace-overview.png) benadrukt
 
 | Locatie | Naam en functie |
 |:---------:|----------|
-| ?? | Bevat de naam van het project, een menustructuur aan toegangsfunctionaliteit, a knoop ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg) om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop aan [ deel uw project van Workspace ](/help/analysis-workspace/curate-share/share-projects.md). <br/> selecteer de naam van uw project (bijvoorbeeld: Nieuw project) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![ StarOutline ](/help/assets/icons/StarOutline.svg) om uw project als Favoriete project ![ Ster ](/help/assets/icons/Star.svg) te merken. |
+| ?? | Bevat de naam van het project, een menustructuur om tot functionaliteit, een knoop ![ Achterknoop ](/help/assets/icons/ChevronLeft.svg) toegang te hebben om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop aan [ deel uw project van Workspace ](/help/analysis-workspace/curate-share/share-projects.md). <br/> selecteer de naam van uw project (bijvoorbeeld: Nieuw project) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![ Ver ](/help/assets/icons/StarOutline.svg) om uw project als Favor ![ ](/help/assets/icons/Star.svg) te merken. |
 | ?? | **paneel van de Knoop:** bevat knopen voor de toegang tot van de belangrijkste [ eigenschappen ](#features) van Analysis Workspace:<ul><li>![ WebPage ](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analysis-workspace/c-panels/panels.md)</li><li>![ Geleide Analyse ](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Guided Analysis]](/help/guided-analysis/overview.md)</li><li>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![ Kromme ](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/overview.md)</li><li>![ ViewList ](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![ Bladwijzer ](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | ?? | **Linkerpaneel:** Dit gebied bevat individuele panelen, visualisaties, componenten, of lijsten. De inhoud is afhankelijk van de knop die in het deelvenster met knoppen is geselecteerd. |
 | ?? | **Canvas:** het belangrijkste gebied waar u inhoud van het linkerpaneel sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters toevoegt, visualisaties toevoegt aan deelvensters en componenten toevoegt aan visualisaties. U kunt meerdere deelvensters maken en in elk deelvenster kunt u meerdere visualisaties maken.<br/> elk paneel is gebaseerd op een geselecteerde gegevensmening. De geselecteerde gegevensweergave bepaalt de beschikbare componenten, zoals metriek en afmetingen. Zie [ Panelen - de mening van Gegevens ](/help/analysis-workspace/c-panels/panels.md#data-view) voor meer informatie. |

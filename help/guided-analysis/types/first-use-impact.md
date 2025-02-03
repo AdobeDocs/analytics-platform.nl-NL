@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 De ![ FirstUse ](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** analyse toont een vergelijking van hoe de zeer belangrijke indicatoren vóór en na een gebruiker een producteigenschap voor het eerst uitvoerden. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale bar in het midden van de grafiek vertegenwoordigt dag 0 voor wanneer een eigenschap voor het eerst door een bepaalde gebruiker wordt gebruikt. Omdat de gebruikers niet altijd eigenschappen op de zelfde dag goedkeuren en uw rollouts kunnen over verscheidene dagen gebeuren, kan dag 0 iets betekenen verschillend voor elke individuele gebruiker.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
 
 
 ## Gebruik hoofdletters

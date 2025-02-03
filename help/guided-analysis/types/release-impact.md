@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 De ![ 2} analyse van de Versie ](/help/assets/icons/Release.svg) {toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## Gebruik hoofdletters
 

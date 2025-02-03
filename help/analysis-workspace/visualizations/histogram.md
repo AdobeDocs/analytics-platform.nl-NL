@@ -4,9 +4,9 @@ title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Een histogram maken:
 
 In het onderstaande voorbeeld wordt een histogram gebruikt om sessies voor het aantal personen te emmeren. Uit het histogram blijkt dat de meeste personen tussen de 16 en 21 sessies hebben voor het geselecteerde datumbereik.
 
-![](assets/histogram.png)
+![Histogram](assets/histogram.png)
 
 ## Geavanceerde instellingen
 
@@ -74,9 +74,5 @@ Als onderdeel van de visualisatie zijn specifieke histograminstellingen beschikb
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->
+>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-
-## Blogbericht
-
-Verwijs naar dit blogpost over informatie over [ gebruikend histogrammen om onverwachte gegevenswaarden ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168) te identificeren.

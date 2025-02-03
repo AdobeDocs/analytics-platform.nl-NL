@@ -4,7 +4,7 @@ title: Gebied en gebied gestapeld
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -51,8 +51,6 @@ De gebiedvisualisatie heeft een standaard en gestapelde optie.
 >abstract="Maak een vlakgrafiekvisualisatie die de stapeling van meerdere metingen vertegenwoordigt."
 
 <!-- markdownlint-enable MD034 -->
-
-
 
 
 De ![ GraphAreaStated ](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** visualisatie is als een Gebied, maar elke reeks begint bij de bovenkant van de vorige reeks.

@@ -4,9 +4,9 @@ title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2003'
 ht-degree: 1%
 
 ---
@@ -153,16 +153,13 @@ Voor meer informatie, zie [ Snelle filters ](/help/components/filters/quick-filt
 
 ### Vervolgkeuzefilters
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-Deze video demonstreert de functionaliteit met Adobe Analytics. De functionaliteit is echter ook beschikbaar in de Customer Journey Analytics. Houd rekening met de volgende terminologische verschillen.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ drop-down filters ](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} voor een demo video.
 
-| Adobe Analytics | Klantreisanalyse |
-| --- | --- |
-| Segmenten | Filters |
-| Bezoeker | Persoon |
-| Bezoek | Sessie |
-| Actief | Gebeurtenis |
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 
 #### Statische vervolgkeuzefilters

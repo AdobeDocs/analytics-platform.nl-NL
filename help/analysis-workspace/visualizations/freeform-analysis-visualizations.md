@@ -5,7 +5,7 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 1%
@@ -126,8 +126,6 @@ Welke visualisatie-instellingen beschikbaar zijn, is afhankelijk van de visualis
 | **[!UICONTROL Show min]** | De minimale waarde in de visualisatie weergeven. |
 | **[!UICONTROL Show max]** | De maximale waarde in de visualisatie tonen. |
 | **[!UICONTROL Show trendline]** | Toon een trendlijn in de visualisatie. Als deze optie is geselecteerd, kunt u het type trendline selecteren in het vervolgkeuzemenu. |
-
-
 
 U kunt de instellingen aanpassen voor alle visualisaties die u maakt. Voor meer informatie, zie [ voorkeur van de Gebruiker ](/help/analysis-workspace/user-preferences.md).
 
