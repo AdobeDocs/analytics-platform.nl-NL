@@ -4,9 +4,9 @@ description: Breng gegevens die door Adobe Journey Optimizer zijn gegenereerd, i
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
+source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '3354'
 ht-degree: 0%
 
 ---
@@ -169,6 +169,31 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 | Openingspagina-id (AJO) | Unieke id voor landingspagina. | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | Componenttype: Dimension |
 | Openingspagina Source (AJO) | De bron van de bestemmingspagina. | AJO Email Tracking Experience Event Dataset | Afgeleide velden | Componenttype: Dimension (Afgeleid veld) |
 | Koppelings-URL (AJO) | De URL waarop de gebruiker heeft geklikt. | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | Componenttype: Dimension |
+| Reden voor uitsluiting van bericht (AJO) | Uitsluitingsreden | Dataset voor AJO-feedbackgebeurtenis | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageExclusion.reason` | Componenttype: Dimension |
+| Berichtuitvalcategorie (AJO) | Foutcategorie | Dataset voor AJO-feedbackgebeurtenis | ` _experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.category` | Componenttype: Dimension |
+| Reden voor mislukte berichten (AJO) | Mislukt | Dataset voor AJO-feedbackgebeurtenis | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.reason` | Componenttype: Dimension |
+| Type berichtfout (AJO) | Type fout | Dataset voor AJO-feedbackgebeurtenis | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.type` | Componenttype: Dimension |
+| Status van berichtfout (AJO) | Status van fout | Dataset voor AJO-feedbackgebeurtenis | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.status` | Componenttype: Dimension |
+| Bericht-ID (AJO) | The message id to which this data should be correlated. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.messageID` | Componenttype: Dimension |
+| Bericht opnieuw proberen (AJO) | Aantal pogingen opnieuw | Dataset voor AJO-feedbackgebeurtenis | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.retryCount` | Componenttype: Dimension |
+| Knooppunt-id (AJO) | The node id of the trip node. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | Componenttype: Dimension |
+| Node Name (AJO) | De knooppuntnaam van het reisknooppunt. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeName` | Componenttype: Dimension |
+| Knooppunttype (AJO) | Het knooptype van de wegknoop. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | Componenttype: Dimension |
+| OS (AJO) | De naam van het besturingssysteem. | Dataset voor AJO Push Tracking Experience | `environment.operatingSystem` | Componenttype: Dimension |
+| Versie besturingssysteem (AJO) | De versie van het besturingssysteem. | Dataset voor AJO Push Tracking Experience | environment.operatingSystemVersion | Componenttype: Dimension |
+| Push Platform (AJO) | Push provider service, bv. apns of fcm. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`pushChannelContext.platform` | Componenttype: Dimension |
+| Push Title (AJO) | Push Title, non-personalized. | Dataset AJO-entiteitsgegevens, Dataset AJO Message Feedback Event, AJO Push Tracking Experience Event-gegevensset | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.push.title | Component type: Dimension` |
+| Beleid voor geweigerde toestemming (AJO) | Naam van het overeenkomstige verworpen toestemmingsbeleid. | Gebeurtenissen reisstap | `_experience.journeyOrchestration.`<br/>`stepEvents.consent.rejectedPolicies.name` | Componenttype: Dimension |
+| SMS Inbound Message (AJO) | Binnenkomend SMS-antwoord, bijvoorbeeld stoppen, starten, abonneren, enz. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | Componenttype: Dimension |
+| Sms-berichttype (AJO) | SMS-provider, bijvoorbeeld inkomend, inboundReply of send. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | ` _experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | Componenttype: Dimension |
+| SMS-provider (AJO) | SMS-provider, bv. sonde of twilio. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | Componenttype: Dimension |
+| Selectietype (AJO) | Het kanaaloppervlak waarop het bericht is weergegeven. | Gebeurtenissen reisstap, AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.decisioning.propositions.`<br/>`items.itemSelection.`<br/>`selectionDetail.selectionType` | Componenttype: Dimension |
+| Abonnementenlijst-id (AJO) | Unieke id voor abonnementenlijst. | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.subscription.`<br/>` subscriptionListID` | Componenttype: Dimension |
+| Oppervlak (AJO) |  | Gebeurtenissen reisstap, AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositions.scope` | Componenttype: Dimension |
+| Behandelings-id (AJO) | De id van de geselecteerde behandeling voor het experiment. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentID` | Componenttype: Dimension |
+| Naam behandeling (AJO) | De naam van de geselecteerde behandeling voor het experiment. | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentName` | Componenttype: Dimension |
+| URL-id (AJO) | De unieke id van de URL waarop de gebruiker heeft geklikt. | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | Componenttype: Dimension |
+| URL-label (AJO) | Label voor menselijke vriendelijkheid voor URL. | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.label` | Componenttype: Dimension |
 
 {style="table-layout:auto"}
 
@@ -186,7 +211,7 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Aantal voorstellen (AJO) | Aantal voorstellen. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | ` _experience.decisioning.`<br/>`propositions.items.id` | Componenttype: Metrisch |
 | Metrisch opmaken (AJO) | Dedup, metrisch | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_id` | Componenttype: Metrisch |
 | Geleverd (AJO) | Totaal aantal geleverde berichten. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | Afgeleide velden | Componenttype: Metrisch (Afgeleid veld) |
-| Afgewezen (AJO) | Telt telkens wanneer het inApp-bericht wordt gesloten door de Adobe-SDK, ongeacht welke actie de eindgebruiker kiest om het te sluiten. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Componenttype: Metrisch |
+| Afgewezen (AJO) | Telt elke keer dat het inApp-bericht wordt gesloten door de Adobe SDK, ongeacht welke actie de eindgebruiker kiest om het te sluiten. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Componenttype: Metrisch |
 | Weergaven (AJO) | Dit aantal geeft AJO-berichten weer. Dit omvat e-mail die wordt geopend, Webvertoningen, en inapp vertoningen. Mobiele platforms rapporteren geen SMS- en pushberichtweergaven en worden daarom niet geteld. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset | Afgeleide velden | Componenttype: Metrisch (Afgeleid veld) |
 | E-mail wordt geopend (AJO) | Totaal aantal e-mailberichten wordt geopend | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Componenttype: Metrisch |
 | Binnenkomende klikken (AJO) | Totaal aantal klikken over binnenkomende kanalen | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositionEventType.interact` | Componenttype: Metrisch |
@@ -212,7 +237,7 @@ U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke ge
 | Abonnementenlijst toegevoegd (AJO) | Totaal aantal toevoegingen aan abonnementenlijst. | AJO Email Tracking Experience Event Dataset | Afgeleide velden | Componenttype: Metrisch (Afgeleid veld) |
 | Abonnementenlijst wordt verwijderd (AJO) | Het totale aantal verwijderingen uit de abonnementenlijst. | AJO Email Tracking Experience Event Dataset | Afgeleide velden | Componenttype: Metrisch (Afgeleid veld) |
 | Gericht (AJO) | Dit aantal van het aantal keren dat een voorstel gericht was op een persoon. Dit is het aantal tijden een voorstel voor vertoning aan een persoon werd overwogen. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | Afgeleide velden | Componenttype: Metrisch (Afgeleid veld) |
-| Teweeggebracht (AJO) | Het voorstel is gekozen om door de Adobe SDK te worden weergegeven. Andere factoren kunnen voorkomen dat het daadwerkelijk wordt weergegeven. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Componenttype: Metrisch |
+| Teweeggebracht (AJO) | Het voorstel werd gekozen om door de Adobe SDK te worden weergegeven. Andere factoren kunnen voorkomen dat het daadwerkelijk wordt weergegeven. | AJO Push Tracking Experience Event Dataset, Journey Step Events, AJO Message Feedback Event Dataset, AJO Email Tracking Experience Event Dataset | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Componenttype: Metrisch |
 | Unieke bezoekers in de experimenten (AJO) | De unieke bezoekers in het experiment | Gegevensset AJO Entiteit | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | Componenttype: Metrisch |
 | Abonnement opzeggen (AJO) | Totaal aantal afgeschreven bedragen | AJO Email Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Componenttype: Metrisch |
 
