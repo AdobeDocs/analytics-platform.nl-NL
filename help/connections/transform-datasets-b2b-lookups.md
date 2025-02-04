@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
+source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekenin
 
 Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B raadplegingsschema&#39;s, die op de volgende klassen worden gebaseerd:
 
-* [XDM Zakelijke account Person Relatie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM Business Opportunity Person Relatie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Leden van XDM Business Marketing List](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM Business Campaign-leden](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [ XDM de Verhouding van de Persoon van de Bedrijfs Rekening ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [ XDM de Verhouding van de Person van BedrijfsOpportunity ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [ XDM Bedrijfs de Leden van de Lijst van de Marketing ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [ XDM Bedrijfs Campagne Leden ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -30,20 +30,23 @@ Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B ra
 
 Om transformatie voor zulk een dataset toe te laten:
 
-![Transformatiegegevensset inschakelen](assets/transform-dataset.gif)
+![ laat transformatiedataset ](/help/connections/assets/transform.gif) toe
 
-* Zorg ervoor dat u de juiste id selecteert voor **[!UICONTROL Key]** en **[!UICONTROL Matching key]** bijvoorbeeld `personKey.sourceKey`.
+* Controleer voor elke dataset de voorgestelde waarden voor **[!UICONTROL Key]** en **[!UICONTROL Matching key]**. Als u de waarden wijzigt op basis van de voorgestelde waarden, verschijnt er een waarschuwing met de vraag of u wilt doorgaan. U moet ervoor zorgen dat:
+
+   * De waarde u voor **Sleutel** selecteert is gebaseerd op het gegevenstype van identiteitskaart van de Persoon.
+   * De waarde u voor **het Aanpassen Sleutel** selecteert wordt bepaald als primair identiteitsgebied voor de gebeurtenisdataset.
 
 * Selecteer de opties voor het importeren van nieuwe gegevens en gegevenssetbackfill.
 
-* Selecteren **[!UICONTROL Transform dataset for B2B lookups]**.
+* Selecteer **[!UICONTROL Transform dataset for B2B lookups]** .
 
   Deze optie transformeert de dataset zodat kan het voor op persoon-gebaseerde raadplegingen in scenario&#39;s B2B worden gebruikt.
 
 
   >[!IMPORTANT]
   >
-  >Wanneer de transformatie is ingeschakeld en wanneer de verbinding is opgeslagen, is deze onomkeerbaar. U kunt transformatie niet wijzigen die voor een dataset plaatst zodra een verbinding wordt bewaard, behalve door de dataset te verwijderen en opnieuw aan de verbinding toe te voegen.
+  >Wanneer de transformatie is ingeschakeld en wanneer de verbinding is opgeslagen, is deze onomkeerbaar. U kunt de Sleutel, het Aanpassen sleutel en de configuratie van de dataset van de Transformatie niet wijzigen. U kunt de dataset slechts verwijderen, toevoegen en dan aanpassen.
 
 Om transformatie voor één of meerdere datasets toe te laten die reeds deel van een bestaande verbinding uitmaken:
 
@@ -57,4 +60,4 @@ Niet-getransformeerde datasets, voor schema&#39;s die op de vier hierboven verme
 
 De transformatie wijzigt de dataset van elk van de vier schemaklassen (oranje in de illustratie hieronder) zodat voor elke persoonsidentificatie een (voorwerp) serie voor de relevante gegevens (rekeningen, kansen, marketing lijsten of campagnes) in de raadplegingsdatasets (roze in de illustratie hieronder) wordt gecreeerd. Deze transformatie maakt het mogelijk om correct te werken met op personen-id gebaseerde zoekopdrachten.
 
-![B2B-schema&#39;s](./assets/b2b-schemas.svg)
+![ B2B- schema&#39;s ](./assets/b2b-schemas.svg)
