@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 >[!NOTE]
 >Er is geen vaste gegevensgrootte in Customer Journey Analytics en Adobe kan zich dus niet vastleggen op een standaardinnametijd. Adobe werkt actief aan het reduceren van deze latentie door nieuwe updates en optimalisatie van inname.
 
-<ul><li>Live-gegevens of -gebeurtenissen: verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.)</li><li>Kleine backfills: binnen zeven dagen<li>Grote achtergronden: binnen 30 dagen</li></ul>
+<ul><li>Live-gegevens of -gebeurtenissen: verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte &gt; 50 miljoen rijen: langer dan 90 minuten.) **Opmerking:** Als stitching is ingeschakeld, kan de inname tot 3,25 uur duren. Zie [guardrails] (https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) voor meer informatie.</li><li>Kleine backfills: binnen zeven dagen<li>Grote achtergronden: binnen 30 dagen</li></ul>
 
 Adobe heeft onlangs gewijzigd hoe gegevens in de Customer Journey Analytics worden verwerkt:
 
