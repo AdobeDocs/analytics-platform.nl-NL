@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 0%
+source-wordcount: '1596'
+ht-degree: 1%
 
 ---
 
@@ -92,7 +92,7 @@ Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Gegevens, weergave"
->abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen.<br/>[ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) {target=\"_blank\"}"
+>abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -119,7 +119,7 @@ Als u een bestaande configuratie bewerkt, worden in de lijst alleen de gegevensw
 Een mening van Gegevens is gebonden aan een Customer Journey Analytics [ Verbinding ](/help/connections/overview.md). En een Verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt **[!UICONTROL Sandbox]** automatisch gevuld met de juiste naam van de sandbox op basis van de geselecteerde gegevensweergave.
 
 
-### Vastleggen en definiëren van ervaring
+### Vastleggen en definiëren van ervaring {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -203,12 +203,12 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
->title="Gegevensverzameling"
+>title="Dataverzameling"
 >abstract="U kunt de instellingen voor pagina&#39;s bewerken in de extensie Inhoud Adoben in de eigenschap Code die is gekoppeld aan de geselecteerde configuratie."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_edit_button"
->title="Gegevensverzameling"
+>title="Dataverzameling"
 >abstract="U kunt de instellingen voor elementen bewerken in de extensie Inhoud Adobe analyseren in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
 
 <!-- markdownlint-enable MD034 -->
