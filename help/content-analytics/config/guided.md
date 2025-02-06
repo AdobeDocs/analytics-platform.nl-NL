@@ -2,13 +2,14 @@
 title: Configuratie met instructies voor inhoudsanalyse
 description: Inhoud-analyse configureren met behulp van een configuratie met instructies aan boord
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 69e2f358398fd8d2646e5a3c1cb6dfd1b5b5efbb
+exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -200,6 +201,16 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 >title="Dataverzameling"
 >abstract="Wijs op welke activa **** of **uitgesloten** zouden moeten zijn wanneer het verzamelen van gegevens voor Analytics van de Inhoud"
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_experiences_edit_button"
+>title="Gegevensverzameling"
+>abstract="U kunt de instellingen voor pagina&#39;s bewerken in de extensie Inhoud Adoben in de eigenschap Code die is gekoppeld aan de geselecteerde configuratie."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_assets_edit_button"
+>title="Gegevensverzameling"
+>abstract="U kunt de instellingen voor elementen bewerken in de extensie Inhoud Adobe analyseren in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
+
 <!-- markdownlint-enable MD034 -->
 
 #### Nieuwe configuratie
@@ -272,5 +283,3 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
       1. Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
       1. Als het Web SDK voor dit bezit van de Markering wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
 * **[!UICONTROL Save]**: wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en de implementatie wordt bijgewerkt.
-
-
