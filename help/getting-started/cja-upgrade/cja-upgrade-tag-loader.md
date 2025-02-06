@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# De ladertag voor de Web SDK-extensie implementeren
+# De ladertag voor de Web SDK-extensie implementeren {#upgrade-tag-loader}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-loader"
+>title="De ladertag op uw site implementeren"
+>abstract="Werk met het ontwikkelingsteam van uw website om de ladermarkering op elke pagina van uw plaats te installeren.<br><br> de tijd van de Voltooiing voor deze taak hangt sterk van de reactietijd van het technische team af dat u met werkt om de code op te stellen. Sommige organisaties die zeer adaptieve techniekteams hebben kunnen deze stap in dagen voltooien, terwijl de techniekteams met een uitgebreide achterstand van taken potentieel een maand of langer kunnen nemen."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

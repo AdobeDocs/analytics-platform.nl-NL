@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 701e3d3ce535318e3d3debcdcd591615ea9ca4a1
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# Gebruik de bronschakelaar van de Analyse uitsluitend om aan Customer Journey Analytics te bevorderen
+# Gebruik de bronschakelaar van de Analyse uitsluitend om aan Customer Journey Analytics te bevorderen {#use-source-connector-exclusively}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-exclusively"
+>title="Gebruik de bronaansluiting voor Analytics"
+>abstract="(Niet aanbevolen) U kunt niet integreren met andere Adobe Experience Platform-services of Adobe Analytics uitschakelen via de bronconnector van Analytics. Het binden van gegevens uit andere bronnen vereist waarschijnlijk stitching. Aan al deze vereisten in de vragenlijst voldoen om deze optie te selecteren."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

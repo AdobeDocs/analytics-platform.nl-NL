@@ -1,19 +1,29 @@
 ---
 title: Een eigenschap tag maken en de extensie Web SDK toevoegen
-description: Leer hoe te om een markeringsbezit tot stand te brengen en de uitbreiding van SDK van het Web toe te voegen
+description: Leer hoe u een markeringseigenschap maakt en de extensie Web SDK toevoegt
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
-# De Web SDK-extensie toevoegen aan uw tag
+# De extensie Web SDK toevoegen aan uw tag {#upgrade-tag-extension}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-extension"
+>title="De extensie Platform Web SDK toevoegen aan de eigenschap tag"
+>abstract="Voeg de extensie Adobe Experience Platform Web SDK toe aan de eigenschap tag. Het toevoegen van de extensie Web SDK aan de eigenschap tag wordt gestroomlijnd en duurt slechts een paar minuten voordat de bewerking is voltooid."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -23,11 +33,11 @@ ht-degree: 0%
 
 Met de functie Codes in Adobe Experience Platform kunt u code op uw site implementeren om gegevens te verzamelen. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform via de Adobe Experience Platform Web SDK-extensie.
 
-De volgende informatie beschrijft hoe te om de uitbreiding van SDK van het Web aan uw markering toe te voegen. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van het Experience Platform vormen. De SDK van het Web omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
+De volgende informatie beschrijft hoe u de extensie Web SDK aan uw tag kunt toevoegen. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van het Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
 Nadat u [ een markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) creeert, moet u het met de uitbreiding van SDK van het Web van Adobe Experience Platform vormen. Op deze manier kunt u gegevens naar Adobe Experience Platform verzenden (via uw gegevensstroom).
 
-U voegt als volgt de extensie SDK voor het web toe aan uw tag:
+De extensie Web SDK toevoegen aan uw tag:
 
 1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
 

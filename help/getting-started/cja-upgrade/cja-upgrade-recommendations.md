@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -177,13 +177,11 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. Leer over [ eigenschapsteun in Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md). De meeste Adobe Analytics-functies worden ondersteund in de Customer Journey Analytics en er zijn veel extra functies beschikbaar in de Customer Journey Analytics.
 
-1. [ maak de gegevensinzameling van het AppMeasurement ](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md) onbruikbaar wanneer uw implementatie van SDK van het Web volledig is en u met de gegevens vertrouwd bent die u verzamelt.
+1. Schakel Adobe Analytics uit wanneer de implementatie van Web SDK voor uw Customer Journey Analytics is voltooid en u vertrouwd bent met de gegevens die u verzamelt.
 
-1. Schakel de connector van de bron voor Analytics uit nadat alle gegevens van de bronconnector voor Analytics de periode voor gegevensbewaring hebben verlaten.
+   Adobe raadt u aan de Adobe Analytics-omgeving na de implementatie van de Customer Journey Analytics gedurende een bepaalde periode in bedrijf te houden.
 
-   Met de implementatie van het Web SDK van het Experience Platform, is de bron van Analytics schakelaar nodig slechts voor historische gegevens van Adobe Analytics en om gegevens van uw originele implementatie met dat van uw nieuwe implementatie te vergelijken.
-
-   Wanneer u genoeg historische gegevens van uw nieuwe implementatie hebt en u met de rapporteringsverschillen in Customer Journey Analytics vertrouwd bent, zou u de Analytics bronschakelaar moeten uitzetten.
+   Voor meer informatie over het gebruik van Adobe Analytics tijdens en na een verbetering, evenals de voorgestelde timing van het onbruikbaar maken van Adobe Analytics, zie [ evalueren hoe lang u Adobe Analytics na bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) nodig hebt.
 
 ## Upgrade-stappen voor uw organisatie dynamisch genereren
 

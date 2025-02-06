@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
-# De bronaansluiting voor Analytics en kaartvelden maken
+# De bronaansluiting voor Analytics en kaartvelden maken {#create-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create"
+>title="De bronaansluiting voor Analytics maken"
+>abstract="Gebruik de de bronschakelaar van de Analyse aan ingeste gegevens van de rapportreeks voor gebruik in Customer Journey Analytics.<br><br> Creërend de bron van Analytics schakelaar neemt enkel een paar notulen met standaardmontages."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-map-fields"
+>title="De bronaansluiting voor Analytics en kaartschemavelden maken"
+>abstract="De bronschakelaar moet weten hoe te om de gebieden van Adobe Analytics aan het schema van uw organisatie in kaart te brengen. Gebruik deze interface om de bronschakelaar van die afbeelding te voorzien. Deze stap maakt deel uit van het toevoegen van historische gegevens aan Customer Journey Analytics.<br><br> de tijd die deze stap neemt hangt sterk van het aantal dimensies en metriek af die u moet in kaart brengen. Deze stap is niet zo moeilijk als vervelend en repetitief. Gegevensstroomtoewijzing wordt ongeveer een week lang voltooid."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,13 +44,13 @@ ht-degree: 0%
 
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
 
-Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
 Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
 
 1. [Creeer een douaneschema voor de bronschakelaar van de Analyse](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Als u reeds geen Analytics bronschakelaar hebt, creeer de de bronschakelaar en kaartgebieden van Analytics aan uw schema van SDK van het douaneWeb, zoals hieronder beschreven.
+1. Als u reeds geen Analytics bronschakelaar hebt, creeer de de bronschakelaar van de Analyse en kaartgebieden aan uw schema van SDK van het douaneWeb, zoals hieronder beschreven.
 
    of
 
@@ -92,6 +110,6 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    Nadat de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 
-   Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van SDK van het Web van de Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
+   Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van het Web SDK van de Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.

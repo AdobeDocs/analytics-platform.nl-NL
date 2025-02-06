@@ -5,14 +5,23 @@ title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
 
-# Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
+# Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk {#full-table-export}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-full-table-export"
+>title="Volledige tabelexport maken, vergelijkbaar met Data Warehouse"
+>abstract="De volledige tabelexport is beschikbaar zodra de gegevens in Analysis Workspace worden weergegeven. U kunt volledige tabelexporten maken of plannen als dat nodig is.<br><br> Creërend volledige lijstuitvoer neemt slechts een paar minuten om te voltooien als u reeds weet welke gegevens in de uitvoer te omvatten."
+
+<!-- markdownlint-enable MD034 -->
 
 U kunt volledige Workspace-tabellen exporteren vanuit Customer Journey Analytics en exporteren naar opgegeven cloudinstellingen.
 

@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# Opzoekgegevenssets maken om gegevens in Customer Journey Analytics te classificeren
+# Opzoekgegevenssets maken om gegevens in Customer Journey Analytics te classificeren {#upgrade-lookup-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-lookup-dataset-create"
+>title="Maak een opzoekgegevensset voor elke dimensie met classificatiegegevens"
+>abstract="Net als classificatiegegevens in Adobe Analytics zijn opzoekgegevenssets de methode voor het classificeren van gegevens in Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

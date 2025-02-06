@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
 
-# Schema voor Customer Journey Analytics kiezen
+# Schema voor Customer Journey Analytics kiezen {#choose-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-tailored"
+>title="Een aangepast schema gebruiken"
+>abstract="(Aanbevolen) Door uw schema aan te passen, kan uw organisatie alleen bijhouden wat u nodig hebt en kunt u overhead voorkomen die aan rommelige en onnodige velden is gekoppeld. Deze optie omvat gebiedsgroepen die door het Web SDK worden toegevoegd en gebiedsgroepen die aan uw organisatie worden aangepast."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-default"
+>title="Het standaardschema gebruiken"
+>abstract="(Niet aanbevolen) Het Adobe Analytics-schema bevat meer dan duizend velden, wat tot een onoverzichtelijk en complex schema kan leiden. Uw organisatie zou gedwongen worden om het concept van &quot;props&quot; en &quot;eVars&quot; te blijven volgen, een erfenisconcept dat niet in de Customer Journey Analytics wordt gebruikt. Integratie met andere Adobe Experience Platform-services is moeilijker."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
@@ -36,7 +54,7 @@ Adobe raadt u aan een aangepast schema te maken wanneer u de upgrade naar Custom
 
 ## Het bestaande Adobe Analytics-schema gebruiken
 
-De optie om uw bestaand schema van Adobe Analytics met Customer Journey Analytics te gebruiken is beschikbaar slechts als uw implementatie van Adobe Analytics met de SDK van het Web van Adobe Experience Platform wordt gevormd. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+De optie om uw bestaand schema van Adobe Analytics met Customer Journey Analytics te gebruiken is beschikbaar slechts als uw implementatie van Adobe Analytics met het Web SDK van Adobe Experience Platform wordt gevormd. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Voordelen | Nadelen |
 |----------|---------|

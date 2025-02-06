@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Een gegevensweergave maken in Customer Journey Analytics
+# Een gegevensweergave maken in Customer Journey Analytics {#upgrade-create-dataview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataview"
+>title="Een gegevensweergave maken in Customer Journey Analytics"
+>abstract="Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren.<br><br> terwijl de aanvankelijke verwezenlijking van de gegevensmening een paar notulen neemt, kan het vormen van elke afmeting en metrisch met de gewenste componentenmontages verscheidene dagen vergen. Als u deze instellingen wijzigt, worden deze met terugwerkende kracht toegepast, zodat uw organisatie ze in de loop der tijd kan verfijnen."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -56,4 +66,3 @@ Een gegevensweergave maken:
 1. Selecteer **[!UICONTROL Save and finish]** nadat alle gewenste instellingen zijn opgegeven.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
-

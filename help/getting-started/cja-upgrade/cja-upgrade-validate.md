@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Controleren of de gegevens naar de Customer Journey Analytics stromen
+# Controleren of de gegevens naar de Customer Journey Analytics stromen {#validate-data}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-data-validate"
+>title="Controleren of de gegevens stromen"
+>abstract="Gebruik de verbindingsdetails om te bevestigen of de gegevens in Customer Journey Analytics stromen.<br><br> als alles correct en foutloos werd gedaan, kan deze stap in minder dan een dag worden gedaan. Als er meerdere problemen met gegevensverzameling zijn, kan het oplossen van problemen aanzienlijk langer duren."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
 
-# Voeg de gegevensset van de bron van de Analyse aan de verbinding toe
+# Voeg de gegevensset van de bron van de Analyse aan de verbinding toe {#upgrade-source-connector-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-dataset"
+>title="Voeg de gegevensset van de bron van de Analyse aan uw verbinding toe"
+>abstract="Nu de historische gegevens van uw het rapportreeks van Analytics in Adobe Experience Platform zijn, voeg die dataset aan uw bestaande verbinding toe die u toen aanvankelijk het vormen van Customer Journey Analytics creeerde. Zodra deze stap volledig is, zijn de historische gegevens in Customer Journey Analytics beschikbaar.<br><br> Toevoegend een dataset aan een verbinding in Customer Journey Analytics is ongecompliceerd, die slechts een paar minuten neemt om te voltooien."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -107,6 +116,6 @@ Om de automatisch gecreeerde dataset aan de zelfde verbinding toe te voegen die 
 
 1. (Voorwaardelijk) als u raadplegingsdatasets gebruikt, moet u de raadplegingsdataset tot stand brengen en het toevoegen aan uw verbinding. Voor meer informatie, zie [ raadplegingsdatasets creëren om gegevens in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) te classificeren.
 
-   Dit wordt vereist slechts als u het niet reeds deed toen het vormen van uw implementatie van SDK van het Web.
+   Dit is alleen vereist als u dit nog niet hebt gedaan bij het configureren van uw Web SDK-implementatie.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.

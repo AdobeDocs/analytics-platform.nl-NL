@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 59089146b8e56db3b0b4084615f99dc65899b74f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Uw schema archiveren voor gebruik met Customer Journey Analytics
+# Uw schema archiveren voor gebruik met Customer Journey Analytics {#upgrade-schema-architect}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-architect"
+>title="Een schema archiveren"
+>abstract="Bespreek binnen uw organisatie de vereisten van gegevensinzameling, en bepaal hoe u een schema voor gebruik in Adobe Experience Platform wilt bouwen. Deze stap verschijnt omdat u het geadviseerde proces wilt gebruiken om een schema te gebruiken dat aan uw organisatie wordt aangepast. Het correct uitvoeren van deze stap is essentieel, aangezien een schema dat alle teams binnen uw organisatie zich richt op maakt gegevensopname beduidend gemakkelijker.<br><br> de geschatte tijd om alle relevante partijen in uw organisatie samen te brengen zich op een verenigd schema te richten is 1-2 maanden. Dit tijdkader hangt sterk af van het aantal teams die worden vereist om te coördineren, en het aantal dimensies + metriek om zich op te richten."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -22,7 +31,11 @@ ht-degree: 0%
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
-Adobe raadt u aan een XDM-schema (Experience Data Model) te maken bij de upgrade naar Customer Journey Analytics. Een XDM-schema maakt een gestroomlijnd schema mogelijk dat is afgestemd op de behoeften van uw organisatie en de specifieke platformtoepassingen die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
+Adobe raadt u aan een XDM-schema (Custom Experience Data Model) te maken voor gebruik met het Web SDK bij de upgrade van Adobe Analytics naar Customer Journey Analytics. U kunt ook het standaard Adobe Analytics-schema gebruiken, dat gebruikmaakt van de Adobe Analytics ExperienceEvent-veldgroep.
+
+Een aangepast XDM-schema maakt een gestroomlijnd schema mogelijk dat is afgestemd op de behoeften van uw organisatie en de specifieke platformtoepassingen die u gebruikt. In tegenstelling tot het standaard Adobe Analytics-schema dat gebruikmaakt van de Adobe Analytics ExperienceEvent-veldgroep, hoeft u, wanneer wijzigingen in een aangepast XDM-schema vereist zijn, niet door duizenden ongebruikte velden te bladeren om het veld te zoeken dat moet worden bijgewerkt.
+
+Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
 Bekijk de volgende secties terwijl u uw XDM-schema gaat ontwerpen.
 

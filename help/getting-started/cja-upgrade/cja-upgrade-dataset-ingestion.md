@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
-source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-# Gegevenssetopname controleren bij upgrade naar Customer Journey Analytics
+# Gegevenssetopname controleren bij upgrade naar Customer Journey Analytics {#monitor-ingestion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataset-validate"
+>title="Gegevens in de gegevensset valideren"
+>abstract="Nu u uw implementatie van SDK van het Web hebt gevormd, kunt u de de activiteitenmanager van de Dataset gebruiken om ingebedde en ontbroken partijen te zien. Als u voornamelijk ingeslikte batches ziet, is deze stap voltooid. Als u hoofdzakelijk ontbroken partijen of geen partijen ziet, controleer uw implementatie van SDK van het Web om ervoor te zorgen dat het correct gegevens naar Adobe verzendt.<br><br> als alles correct en foutloos werd gedaan, kan deze stap in minder dan een dag worden gedaan. Als er meerdere problemen met gegevensverzameling zijn, kan het oplossen van problemen aanzienlijk langer duren."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

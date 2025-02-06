@@ -7,14 +7,41 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
 
-# Creeer een douaneschema om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken
+# Creeer een douaneschema om met uw implementatie van het Web SDK van de Customer Journey Analytics te gebruiken {#create-custom-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create"
+>title="Het gewenste aangepaste schema maken in Adobe Experience Platform"
+>abstract="Gebruik de gebruikersinterface van Adobe Experience Platform om een schema te maken zodat de Adobe de juiste indeling voor het opslaan van uw gegevens kent.<br><br> deze stap impliceert de daadwerkelijke verwezenlijking van het schema dat door uw organisatie wordt overeengekomen. De geschatte tijd om uw schema in de interface van Adobe Experience Platform tot stand te brengen is ongeveer één week, afhankelijk van het aantal dimensies en metriek die moeten worden gecreeerd."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create-default-aa"
+>title="Een schema maken met de Adobe Analytics ExperienceEvent-veldgroep"
+>abstract="Met de veldgroep &#39;Adobe Analytics ExperienceEvent&#39; kunt u in Adobe Experience Platform een schema maken dat alle velden bevat die door Adobe Analytics worden gebruikt.<br><br> Creërend een schema dat op de het gebiedsgroep wordt gebaseerd van de ExperienceEvent van Adobe Analytics is eenvoudig, die slechts een paar minuten neemt om te voltooien."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-profile"
+>title="Schema inschakelen voor profiel"
+>abstract="Laat profiel in uw schema voor gebruik in Adobe in real time CDP toe. Deze stap verschijnt omdat u de wens selecteerde om met Adobe in real time CDP te integreren.<br><br> aangezien deze stap het klikken van één enkel vakje impliceert, neemt deze stap slechts een paar notulen."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +53,13 @@ ht-degree: 0%
 >
 >Voordat u begint met het maken van uw aangepaste schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-De Adobe adviseert het creëren van een schema van de Gegevens van de douaneErvaring (XDM) om met het Web SDK te gebruiken wanneer het bevorderen aan Customer Journey Analytics. Een douaneschema staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.
+De volgende secties beschrijven hoe te om een schema tot stand te brengen dat met Customer Journey Analytics kan worden gebruikt. De volgende schema-opties zijn beschikbaar:
+
+* **Aangepast XDM schema:** (Geadviseerd) staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Eventuele toekomstige wijzigingen zijn eenvoudig.
+
+* **het schema van Adobe Analytics dat de het gebiedsgroep van de ErvaringEvent van Adobe Analytics gebruikt:** vereist de toevoeging van duizenden onnodige gebieden. Eventuele toekomstige wijzigingen zijn moeilijker.
+
+Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
 ## Het schema maken
 
@@ -71,7 +104,7 @@ Een aangepast schema maken:
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Web SDK ExperienceEvent]** in de lijst.
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroep ](assets/select-aepwebsdk-experienceevent.png)
+      ![ AEP Web SDK ExperienceEvent veldgroup ](assets/select-aepwebsdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `web > webPageDetails > name` .
 
@@ -80,6 +113,10 @@ Een aangepast schema maken:
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
    1. (Optioneel) Selecteer eventuele extra veldgroepen die u wilt opnemen.
+
+      Als u het standaard Adobe Analytics-schema wilt gebruiken in plaats van een aangepast XDM-schema te maken, kunt u nu de Adobe Analytics ExperienceEvent-veldgroep toevoegen. Adobe raadt echter aan een aangepast XDM-schema te maken in plaats van deze veldgroep toe te voegen.
+
+      Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
    1. Selecteer **[!UICONTROL Add field groups]** .
 

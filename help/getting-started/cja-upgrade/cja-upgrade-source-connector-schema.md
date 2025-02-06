@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
-# Creeer een douaneschema voor de bronschakelaar van de Analyse
+# Creeer een douaneschema voor de bronschakelaar van de Analyse {#create-custom-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create-schema"
+>title="Creeer een schema voor de bron van de Analyse schakelaar"
+>abstract="Dit schema is een combinatie van de Adobe Analytics ExperienceEvent-veldgroep met alle veldgroepen die het aangepaste schema van uw organisatie vormen. Het staat u toe om de gebieden in kaart te brengen die door de bron van de Analyse schakelaar aan het schema van uw organisatie worden gebruikt, en slechts voor historische gegevens wordt gebruikt.<br><br> terwijl technisch in aard, kan het creëren van dit schema in uren, misschien sneller worden voltooid als u precies weet welke gebiedsgroepen omhoog het douaneschema van uw organisatie maken."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
 
-Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
 Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
 
@@ -54,7 +63,7 @@ Dit schema voor de de bronschakelaar van de Analyse moet bevatten:
 
 Om het douaneschema tot stand te brengen om met de Analytics bronschakelaar te gebruiken:
 
-1. In Adobe Experience Platform, begin creërend een nieuw douaneschema zoals die in [ wordt beschreven een douaneschema tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. In Adobe Experience Platform, begin creërend een nieuw douaneschema zoals die in [ wordt beschreven creeer een douaneschema om met uw implementatie van SDK van het Web van de Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 1. Voeg alle gebiedsgroepen (met inbegrip van om het even welke groepen van het douanegebied) toe die in het schema inbegrepen zijn dat u voor uw implementatie van SDK van het Web creeerde.
 

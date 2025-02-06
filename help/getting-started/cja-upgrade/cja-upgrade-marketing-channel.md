@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: ef6afb2872b88c82801ceb279dd757e6e1f5e78c
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# Een afgeleid veld voor een marketingkanaal maken voor Customer Journey Analytics
+# Een afgeleid veld voor een marketingkanaal maken voor Customer Journey Analytics {#create-marketing-channel-derived-field}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-marketing-channel"
+>title="Een van een markeringskanaal afgeleid veld maken"
+>abstract="Afgeleide velden worden gemaakt in een gegevensweergave.<br><br> Gebruikend een standaard marketing kanaalopstelling neemt slechts een paar notulen; het creëren van een hoogst aangepaste marketing kanaalopstelling zou verscheidene uren kunnen vergen."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -24,7 +33,7 @@ ht-degree: 0%
 
 Wanneer het gebruiken van de Bron van Analytics schakelaar, stromen de marketing kanaalgegevens in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Voor meer informatie, zie [ de dimensies van het gebruiks marketing kanaal ](/help/use-cases/aa-data/marketing-channels.md).
 
-Om marketing kanalen in Customer Journey Analytics te gebruiken wanneer het gebruiken van het Web SDK van het Experience Platform, kunt u afgeleide gebieden in een gegevensmening gebruiken om de zelfde marketing kanalen en verwerkingsregels voor Customer Journey Analytics opnieuw tot stand te brengen.
+Om marketingkanalen in Customer Journey Analytics te gebruiken wanneer het gebruiken van het Web SDK van het Experience Platform, kunt u afgeleide gebieden in een gegevensmening gebruiken om de zelfde marketing kanalen en verwerkingsregels voor Customer Journey Analytics opnieuw tot stand te brengen.
 
 1. Selecteer in Customer Journey Analytics de gegevensweergave waaraan u marketingkanalen wilt toevoegen.
 
