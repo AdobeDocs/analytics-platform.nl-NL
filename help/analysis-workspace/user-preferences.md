@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3387'
 ht-degree: 0%
 
 ---
@@ -138,6 +138,17 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 >abstract="Als u **[!UICONTROL Show forecast]** selecteert, wordt automatisch de eerste metrische kolom voorspeld die wordt toegevoegd aan de visualisatie van een tijdreeks voor de Freeform-tabel."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer standaard metrisch of container voor vrije vormlijsten te gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardmetrische waarde of -container bevat, schakelt de tabel automatisch over naar een andere primaire metrische waarde."
+
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 U kunt de voorkeuren voor vrije-vormtabellen aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
