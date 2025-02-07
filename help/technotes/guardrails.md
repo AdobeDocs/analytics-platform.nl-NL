@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2dd215b0fe689c9370e9f5867fd1bd5fdee83d42
+source-git-commit: 22b95bce42ee9f04b828cf5b765f40008a1534b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 5%
@@ -236,7 +236,7 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 | Gegevensinsluiting in Data Lake van Edge Network- of streaming inscriptie | &lt; 60 minuten |
 | Gegevensinname in Data Lake vanaf Adobe Analytics Source Connector | &lt; 2,25 uur |
 | Gegevensinname in Customer Journey Analytics van Data Lake | &lt; 90 minuten |
-| Stitching (facultatieve eigenschap; zie [ Stitching overzicht ](../stitching/overview.md) voor meer informatie) | 4 uur |
+| Stitching (facultatieve eigenschap; zie [ Stitching overzicht ](../stitching/overview.md) voor meer informatie) | &lt; 4 uur |
 | Adobe Analytics Source Connector Backfill van minder dan 10 miljard gebeurtenissen (maximaal 13 maanden historische gegevens) | &lt; 4 weken |
 | Publiceren van het publiek aan het Profiel van de Klant in real time, met inbegrip van automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | staan voor 60 minuten |
 | Frequentie vernieuwen voor publiek | Eenmalige vernieuwing: latentie van minder dan 5 minuten.<br/> verfrist zich om de 4 uren, dag, wekelijks, maandelijks (de latentie gaat hand in hand met verfrist tarief). |
