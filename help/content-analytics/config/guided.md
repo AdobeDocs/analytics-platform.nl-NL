@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
+source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -283,3 +283,9 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
       1. Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
       1. Als het Web SDK voor dit bezit van de Markering wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
 * **[!UICONTROL Save]**: wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en de implementatie wordt bijgewerkt.
+* **[!UICONTROL Exit]**. Sluit de configuratie met instructies af. Alle wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden genegeerd.
+
+>[!MORELIKETHIS]
+>
+>[ Handmatige configuratie van de Analytics van de Inhoud ](manual.md)
+>

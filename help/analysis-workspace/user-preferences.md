@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Standaardtabelmetrisch"
->abstract="Selecteer standaard metrisch of container voor vrije vormlijsten te gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardmetrische waarde of -container bevat, schakelt de tabel automatisch over naar een andere primaire metrische waarde."
+>abstract="Selecteer standaard metrisch voor vrije vormlijsten te gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardmetrische waarde bevat, schakelt de tabel automatisch over naar een andere primaire metrische waarde."
 
 
 <!-- markdownlint-enable MD034 -->
@@ -181,7 +181,17 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | Percentage berekening | <ul><li>Kolom</li><li>Rij</li></ul> |
 | | Kolomtotalen (alleen statische rijen) | <ul><li>De som van rijen weergeven: geeft de som van de afzonderlijke regelitems weer </li><li>Totaal-generaal weergeven: geeft de gedupliceerde som van rijen weer.</li></ul> |
 
-### Voorkeuren voor visualisatie
+### Voorkeuren voor visualisatie {#visalization-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultflowcontainer"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer de standaardcontainer die u wilt gebruiken voor stroomvisualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de stroomvisualisatie automatisch over naar een andere primaire container."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultfalloutcontainer"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer de standaardcontainer die u voor Fallout-visualisaties wilt gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, wordt automatisch overgeschakeld op een andere primaire container voor de uitvalweergave."
 
 U kunt de visualisatievoorkeuren bijwerken voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
