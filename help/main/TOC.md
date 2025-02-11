@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
+source-git-commit: f8b984d2b429c731608b9774b44acea75ff1dfc7
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1134'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 + [Adobe Customer Journey Analytics Guide](../getting-started/cja-landing.md)
 + [AI Assistant voor Adobe Customer Journey Analytics](../ai-assistant.md)
-+ [Gegevensanalyse AI-assistent voor Customer Journey Analytics](../data-analysis-ai.md)
++ [Data Analysis AI Assistent for Customer Journey Analytics](../data-analysis-ai.md)
 
 + Opmerkingen bij de release {#releases}
    + [Meest recente release](../release-notes/latest.md)
@@ -33,15 +33,15 @@ ht-degree: 10%
    + [Documentatie-updates](../release-notes/doc-changes.md)
 
 + Aan de slag {#cja-overview}
-   + [Overzicht van Customer Journey Analytics](../getting-started/cja-overview.md)
+   + [Customer Journey Analytics-overzicht](../getting-started/cja-overview.md)
    + [Handleiding voor snel starten](../getting-started/cja-getting-started.md)
    + [Openingspagina](../getting-started/landing.md)
    + [Openingspagina (oud)](../getting-started/cja-landing-old.md)
    + [Veelgestelde vragen](../getting-started/cja-faq.md)
-   + [Vergelijk Customer Journey Analytics met de oplossingen van BI](../getting-started/cja-vs-bi.md)
+   + [Customer Journey Analytics- en BI-oplossingen vergelijken](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics en Adobe Analytics {#compare-aa-cja}
-   + Upgrade naar Customer Journey Analytics {#upgrade-to-cja}
+   + Upgrade uitvoeren naar Customer Journey Analytics {#upgrade-to-cja}
       + [Aan de slag](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [Upgradepad kiezen](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Gegevens verzenden naar platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
@@ -70,7 +70,7 @@ ht-degree: 10%
       + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [De bronaansluiting Analytics uitsluitend gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
       + [Van de bron Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
-      + [Gegevensverzameling AppMeasurement uitschakelen](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + [AppMeasurement-gegevensverzameling uitschakelen](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
       + [Upgrade van een externe analyseoplossing](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
       + [Adobe Analytics-functieondersteuning bij upgrades](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
       + [Adobe Analytics tijdens en na een upgrade](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
@@ -90,7 +90,7 @@ ht-degree: 10%
    + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Edge Network Experience Platform {#edge-network}
+      + Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [Server-API](../data-ingestion/serverapi.md)
@@ -290,7 +290,7 @@ ht-degree: 10%
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
       + [Soorten publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
-      + [Overzicht van Dimensionen](../components/dimensions/overview.md)
+      + [Overzicht van afmetingen](../components/dimensions/overview.md)
       + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
       + [Afmetingen onderverdelingen](../components/dimensions/t-breakdown-fa.md)
       + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
@@ -365,7 +365,7 @@ ht-degree: 10%
    + [Een gegevensweergave selecteren](../report-builder/select-data-view.md)
    + [Een datumbereik selecteren](../report-builder/select-date-range.md)
    + [Werken met filters](../report-builder/work-with-filters.md)
-   + [Dimensionen filteren](../report-builder/filter-dimensions.md)
+   + [Filterafmetingen](../report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](../report-builder/manage-reportbuilder.md)
    + [Workbooks plannen](../report-builder/schedule-reportbuilder.md)
    + [Beperkte labels](../report-builder/restricted-labels.md)
@@ -384,7 +384,7 @@ ht-degree: 10%
    + [Verstikte gegevenssets maken en beheren](/help/stitching/stitching-ui.md)
    + [Veelgestelde vragen](/help/stitching/faq.md)
 
-+ Integraties van Adoben {#integrations}
++ Adobe-integratie {#integrations}
    + [Overzicht](/help/integrations/overview.md)
    + [Adobe Analytics integreren](/help/integrations/aa.md)
    + [Doel integreren](/help/integrations/at.md)
@@ -398,20 +398,21 @@ ht-degree: 10%
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
 + Gebruik hoofdletters en kleine letters {#cja-usecases}
-   + [Gebruiksgevallen Customer Journey Analytics](../use-cases/cja-usecases.md)
-   + Gegevens van Googles Analytics {#ga}
-      + [Gegevens migreren uit Googles Analytics](../use-cases/ga/overview.md)
-      + [Historische gegevens van Googles Analytics samenvoegen](../use-cases/ga/backfill.md)
-      + [Gegevens voor streaming Googles Analytics configureren](../use-cases/ga/streaming.md)
-      + [Rapport over gegevens over Googles Analytics](../use-cases/ga/report.md)
+   + [Customer Journey Analytics-gebruikskwesties](../use-cases/cja-usecases.md)
+   + Google Analytics-gegevens {#ga}
+      + [Gegevens migreren uit Google Analytics](../use-cases/ga/overview.md)
+      + [Historische gegevens van Google Analytics weergeven](../use-cases/ga/backfill.md)
+      + [Streaming Google Analytics-gegevens configureren](../use-cases/ga/streaming.md)
+      + [Rapport over Google Analytics-gegevens](../use-cases/ga/report.md)
    + Gegevensinvoer {#data-ingestion}
-      + [Gegevens van Marketo&#39;s Engage opnemen en gebruiken](../use-cases/data-ingestion/marketo.md)
-      + [Experience Platforms publiek opnemen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Marketo Engage-gegevens invoegen en gebruiken](../use-cases/data-ingestion/marketo.md)
+      + [Experience Platform-publiek voorstellen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Gegevensweergaven {#data-views}
       + [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
       + [Gebruikskwesties voor extensie BI](/help/use-cases/data-views/bi-extension-usecases.md)
+      + [Gebruiksgevallen voor BI-extensie (Looker)](/help/use-cases/data-views/bi-extension-usecases-looker.md)
    + Gegevens exporteren {#data-export}
       + [Overzicht](../use-cases/data-export/overview.md)
       + [BI-extensie](../use-cases/data-export/bi-extension.md)

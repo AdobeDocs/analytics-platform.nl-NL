@@ -7,7 +7,7 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
+source-git-commit: e29b22fe7ba78faa5d4d169f1ff755b0ca488f8e
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -54,19 +54,19 @@ Voor Content Analytics worden de volgende sleuteltermen gebruikt:
 
 ## Hoe werkt het
 
-Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verzameld in gebeurtenisdatasets in Experience Platform. Deze gegevens kunnen worden verzameld via de verschillende beschikbare methoden: Experience Platform Edge Network (Web SDK, Server API) of Analytics-bronconnector.
+Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verzameld in gebeurtenisgegevenssets in Experience Platform. Deze gegevens kunnen worden verzameld via de verschillende beschikbare methoden: Experience Platform Edge Network (Web SDK, Server API) of de bronaansluiting Analytics.
 
 ![ Analytics van de Inhoud - hoe het ](assets/how-it-works.png) werkt
 
 
 1. Het detectiedeel van de service featurization wordt geactiveerd bij elke nieuwe momentopname van gegevens die aankomen bij een voor Content Analytics ingeschakelde gebeurtenisdataset.
 1. De service voor detectie van functies bepaalt welke gegevens in die momentopname relevant zijn voor inhoudsanalyses en herziet de ervaring en elementen van deze weergaven van webafbeeldingen.
-1. Op de revisit, worden de specifieke gegevens van de inhoudanalyse verzameld door een juiste configuratie van de Edge Network van het Web SDK van het Experience Platform en van het Experience Platform. En dan worden de gegevens verzonden naar een specifieke dataset van de inhoudsanalyse en relevante raadplegingsdatasets.
+1. Tijdens het reviseren worden specifieke gegevens voor inhoudsanalyse verzameld via een correcte configuratie van de Experience Platform Web SDK en Experience Platform Edge Network. En dan worden de gegevens verzonden naar een specifieke dataset van de inhoudsanalyse en relevante raadplegingsdatasets.
 1. De service voor het samenstellen van functies en de identiteitsservice verwerken de herziene gegevens.
-1. De resultaten van deze diensten (componenten, kenmerken en identiteiten) worden gebruikt om de relevante specifieke gegevenssets voor inhoudsanalyses in Experience Platform bij te werken.
-1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsdatasets, kunnen dan in een configuratie van de Customer Journey Analytics (Verbinding, de mening van Gegevens en Workspace) worden gebruikt. Die configuratie vormt de basis voor de unieke macroniveauinzichten van uw inhoud.
+1. De resultaten van deze services (componenten, kenmerken en identiteiten) worden gebruikt om de relevante specifieke gegevenssets voor inhoudsanalyses in Experience Platform bij te werken.
+1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsdatasets, kunnen dan in een configuratie van Customer Journey Analytics (Verbinding, de mening van Gegevens en Workspace) worden gebruikt. Die configuratie vormt de basis voor de unieke macroniveauinzichten van uw inhoud.
 
 >[!MORELIKETHIS]
 >
->[ Analytics die van de Inhoud ](#report/report.md) melden
+>[ Analytics die van de Inhoud ](report/report.md) melden
 >[Inhoud analyseren configureren ](config/configuration.md)
