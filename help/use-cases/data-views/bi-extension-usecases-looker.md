@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: cf46b490e498af5a0d7f3b83f3beb4632d1124cb
+source-git-commit: 676f6c83bcf35f8da1a07841c043e1b56c57baf6
 workflow-type: tm+mt
-source-wordcount: '9857'
+source-wordcount: '10346'
 ht-degree: 0%
 
 ---
@@ -229,13 +229,13 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
    1. Selecteer **[!UICONTROL Projects]** .
    1. Selecteer **[!UICONTROL New Model]** in projecten LookML.
    1. Om ervoor te zorgen dat u geen invloed hebt op andere gebruikers. Selecteer Modus voor ontwikkeling openen als u hierom wordt gevraagd.
-   1. In de Maken modelervaring:
+   1. In de **[!UICONTROL Create Model]** -ervaring:
       1. In **[!UICONTROL ➊ Select Database Connection]**:
          1. Selecteer uw databaseverbinding in **[!UICONTROL Select database connection]** . Bijvoorbeeld: **[!UICONTROL example_looker_connection]** .
          1. Geef uw project een naam in **[!UICONTROL Create a new LookML Project for this model]** . Voor `example: example_looker_project` .
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➋ Select Tables]**:
-         1. Selecteer **[!UICONTROL public]** en selecteer vervolgens of de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![ Vinkje ](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**.
+         1. Selecteer **[!UICONTROL public]** en zorg ervoor dat de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![ Vinkje ](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**.
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➌ Select Primary Keys]**:
          1. Selecteer **[!UICONTROL Next]** .
@@ -730,16 +730,16 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
-1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Product Name]** .
+1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom measure]** :
+   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
       1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
       1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
-      1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
+      1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
@@ -752,8 +752,18 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
       1. Selecteer **[!UICONTROL Save]** .
    1. Beide velden worden automatisch toegevoegd aan de gegevensweergave.
+1. Selecteer **[!UICONTROL + Filter]** om nog een **[!UICONTROL Filters]** toe te voegen en de gegevens te beperken.
+1. Selecteer **[!UICONTROL ‣ Custom Fields]** in het dialoogvenster **[!UICONTROL Purchase Revenue]** van **[!UICONTROL Add Filter]** .
+1. Maak de juiste selecties en voer de voorgestelde waarden in, zodat het filter **[!UICONTROL is between inclusive]** `1000000` **[!UICONTROL AND]** `2000000` leest.
 1. Selecteer **[!UICONTROL Run]** .
 1. Selecteer **[!UICONTROL ‣ Visualization]** om de lijnvisualisatie weer te geven.
+1. Selecteer **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** om de visualisatie bij te werken. In het dialoogvenster Pop-up:
+   1. Selecteer de tab **[!UICONTROL Series]** .
+   1. Schuif omlaag om **[!UICONTROL Purchases]** weer te geven en wijzig de **[!UICONTROL Type]** in **[!UICONTROL Line]** .
+   1. Selecteer de tab **[!UICONTROL Y]** .
+   1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
+      ![ Leerdere visualisatieconfiguratie ](assets/uc5-looker-visualization.png)
+   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
@@ -925,14 +935,15 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Category]** .
    1. Selecteer **[!UICONTROL Product Name]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom measure]** :
+   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
       1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
       1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
@@ -948,11 +959,19 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
       1. Selecteer **[!UICONTROL Save]** .
    1. Beide velden worden automatisch toegevoegd aan de gegevensweergave.
-1. Selecteer + Filter in de sectie Filters. In het dialoogvenster Filter toevoegen
-   1. Selecteer ‣ Aangepaste velden en vervolgens Inkomsten.
+1. Selecteer **[!UICONTROL + Filter]** in de sectie **[!UICONTROL Filters]** . In het dialoogvenster **[!UICONTROL Add Filter]** . Selecteer **[!UICONTROL ‣ Custom Fields]** en vervolgens **[!UICONTROL Purchase Revenue]** .
 1. Selecteer **[!UICONTROL is >]** en voer `800000` in om de resultaten te beperken.
 1. Selecteer **[!UICONTROL Run]** .
 1. Selecteer **[!UICONTROL ‣ Visualization]** om de lijnvisualisatie weer te geven.
+1. Selecteer **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** om de visualisatie bij te werken. In het dialoogvenster Pop-up:
+   1. Selecteer de tab **[!UICONTROL Plot]** .
+   1. Schuif omlaag en selecteer **[!UICONTROL Edit Chart Config]** .
+   1. Wijzig de JSON in **[!UICONTROL Chart Config (Override)]** zoals in de onderstaande schermafbeelding en selecteer vervolgens **[!UICONTROL Preview]** .
+
+      ![ Laagere virtualisatie config ](assets/uc6-looker-visualization.png)
+
+   1. Selecteer **[!UICONTROL Apply]** .
+   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
@@ -1077,15 +1096,15 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Daterange Date]** en vervolgens **[!UICONTROL Date]** .
-   1. Selecteer Verschil tellen in het contextmenu **⋮ Meer** **[!UICONTROL Product Name]** .
+   1. Selecteer **[!UICONTROL Aggregate ‣ Count Distinct]** in het contextmenu **⋮ Meer** in **[!UICONTROL Product Name]** .
       ![ het Contextmenu van de Naam van het Product van de Leider ](assets/uc7-looker-count-distinct.png)
 1. Selecteer **[!UICONTROL Run]** .
-1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ om een getalvisualisatie weer te geven.
+1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ op de werkbalk om één waardenvisualisatie weer te geven.
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
@@ -1094,7 +1113,6 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 >[!ENDTABS]
 
 +++
-
 
 
 ## Namen van datumbereik gebruiken om te filteren
@@ -1149,8 +1167,8 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
    1. Sleep de vermelding **[!UICONTROL Daterange Name]** uit de lijst **[!UICONTROL Tables]** in de lijst **[!UICONTROL Filters]** .
    1. Controleer in het dialoogvenster **[!UICONTROL Filter \[Daterange Name\]]** of **[!UICONTROL Select from list]** is geselecteerd en selecteer **[!UICONTROL Last Year 2023]** in de lijst. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Sleep **[!UICONTROL Daterangemonth]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Daterangemonth]** en selecteer **[!UICONTROL Month]** . De waarde verandert in **[!UICONTROL MONTH(Daterangemonth)]** .
-   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Daterangemonth]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer. Selecteer **[!UICONTROL Daterangemonth]** en selecteer **[!UICONTROL Month]** . De waarde verandert in **[!UICONTROL MONTH(Daterangemonth)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Swap Rows and Columns]** op de werkbalk.
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
@@ -1185,7 +1203,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ## Filternamen gebruiken om te filteren
 
-In dit geval wilt u een bestaand filter gebruiken voor de categorie visserijproducten die u in Customer Journey Analytics hebt gedefinieerd, om productnamen en voorvallen (gebeurtenissen) in januari 2023 te filteren en te rapporteren.
+In dit geval wilt u een bestaand filter gebruiken voor de categorie visserijproducten die u in Customer Journey Analytics hebt gedefinieerd. Filteren en rapporteren van productnamen en voorvallen (gebeurtenissen) in januari 2023.
 
 +++ Customer Journey Analytics
 
@@ -1243,7 +1261,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `01/02/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
 
@@ -1257,14 +1275,14 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Filter name]** in de lijst met velden.
-1. Controleer **[!UICONTROL is]** als de selectie voor het filter.
+1. Controleer **[!UICONTROL is]** de selectie voor het filter.
 1. Selecteer **[!UICONTROL Fishing Products]** in de lijst met mogelijke waarden.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Name]** .
@@ -1344,7 +1362,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `1/2/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
 
@@ -1359,7 +1377,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
@@ -1372,9 +1390,8 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Product Name]** .
    1. Selecteer **[!UICONTROL Count]** onder **[!UICONTROL MEASURES]** in de linkertrack (onder).
 1. Selecteer **[!UICONTROL Run]** .
-1. Selecteer **[!UICONTROL ‣ Visualization]** .
 
-U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
+U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
 
 ![ minder duidelijke telling ](assets/uc10-looker-result.png)
 
@@ -1524,7 +1541,7 @@ limit 1000001
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `1/2/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** uit de lijst **[!UICONTROL Tables]** en zet de vermelding neer in het veld naast **[!UICONTROL Rows]** .
-   1. Sleep **[!UICONTROL Purchases]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
+   1. Sleep **[!UICONTROL Purchases]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** , naast **[!UICONTROL SUM(Purchases)]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
@@ -1553,13 +1570,13 @@ GROUP BY 1
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
-1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Product Name]** .
-Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom measure]** :
+1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
+1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
+   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
       1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
       1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
@@ -1736,7 +1753,7 @@ limit 1000001
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Relative dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** , selecteer **[!UICONTROL Years]** en selecteer **[!UICONTROL Previous years]** . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
-   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** . De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
+   1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
    1. Selecteer **[!UICONTROL Product Name]** in **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
@@ -1790,7 +1807,7 @@ GROUP BY 1
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Year]** in de lijst met velden.
+   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
@@ -1867,20 +1884,20 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer in de rapportweergave de streepjesvisualisatie.
-1. Selecteer product_name in de ruit van Gegevens.
-1. Selecteer Nieuwe kolom op de werkbalk.
+1. Selecteer **[!UICONTROL product_name]** in het venster Gegevens.
+1. Selecteer **[!UICONTROL New column]** op de werkbalk.
 1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als `product_name_lower = LOWER('public.cc_data_view[product_name])` .
    ![ de Transformatie van de Desktop van Power BI aan Laag ](assets/uc14-powerbi-transformation.png){zoomable="yes"}
-1. Zorg ervoor dat u de nieuwe kolom product_name_lower selecteert in het venster Gegevens in plaats van de kolom product_name.
-1. Selecteer Rapport als Lijst van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
+1. Selecteer de nieuwe kolom **[!UICONTROL product_name_lower]** in het deelvenster **[!UICONTROL Data]** in plaats van de kolom **[!UICONTROL product_name]** .
+1. Selecteer **[!UICONTROL Report as Table]** van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
 
    Je Power BI Desktop moet er hieronder uitzien.
    ![ Definitieve Transformatie van de Desktop van Power BI ](assets/uc14-powerbi-final.png){zoomable="yes"}
 
-De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `lower` in het volgende SQL-voorbeeld:
+De aangepaste transformatie resulteert in een update van SQL-query&#39;s. Zie het gebruik van de functie `lower` in het volgende SQL-voorbeeld:
 
 ```sql
 select "_"."product_name_lower",
@@ -1942,7 +1959,7 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u het Enige afmetingsgerangschikte gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
@@ -1967,6 +1984,57 @@ FROM "public"."cc_data_view" "cc_data_view"
 WHERE (("cc_data_view"."daterange" >= (DATE '2023-01-01')) AND ("cc_data_view"."daterange" <= (DATE '2023-12-31')))
 GROUP BY 1
 HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM("cc_data_view"."purchase_revenue") <= 2000000.00000002))
+```
+
+>[!TAB  Leider ]
+
+De Customer Journey Analytics-objecten zijn beschikbaar via de interface van **[!UICONTROL Explore]** . En worden teruggewonnen als deel van vestiging uw verbinding, project, en model in Drager. Bijvoorbeeld **[!UICONTROL cc_data_view]** . De naam van de weergave is gelijk aan de externe id die u voor de gegevensweergave in Customer Journey Analytics hebt gedefinieerd. Gegevens worden bijvoorbeeld weergegeven met **[!UICONTROL Title]** `C&C - Data View` en **[!UICONTROL External ID]** `cc_data_view` .
+
+**Afmetingen**
+Dimensies van Customer Journey Analytics worden weergegeven als **[!UICONTROL DIMENSION]** in de **[!UICONTROL Cc Data View]** linkerrails. De dimensie wordt gedefinieerd in uw Customer Journey Analytics-gegevensweergave. Dimensies **[!UICONTROL Product Name]** in Customer Journey Analytics hebben bijvoorbeeld een **[!UICONTROL DIMENSION]** **[!UICONTROL Product Name]** . Dit is de naam voor de dimensie in Looker.
+De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day]** , **[!UICONTROL Week]** , **[!UICONTROL Month]** en meer, zijn beschikbaar als **[!UICONTROL Daterangeday Date]** , **[!UICONTROL Daterangeweek Date]** , **[!UICONTROL Daterangemonth Date]** en meer.  Wanneer u een dimensie van het datumbereik gebruikt, moet u een aangewezen definitie van datum of tijd selecteren. Bijvoorbeeld **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Date]** .
+
+**Metriek**
+Metrische gegevens uit Customer Journey Analytics worden weergegeven als **[!UICONTROL DIMENSION]** in de **[!UICONTROL Cc Data View]** left rail. Metrisch **[!UICONTROL Purchase Revenue]** in Customer Journey Analytics heeft bijvoorbeeld een **[!UICONTROL DIMENSION]** **[!UICONTROL Purchase Revenue]** . Als u daadwerkelijk als metrisch wilt gebruiken, maakt u een aangepast metingsveld, zoals in de bovenstaande voorbeelden wordt getoond, of gebruikt u de sneltoets voor een dimensie. Selecteer bijvoorbeeld **[!UICONTROL ⋮]** , **[!UICONTROL Aggregate]** en selecteer vervolgens **[!UICONTROL Sum]** .
+
+**Filters**
+Filters die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Filter Name]** . Wanneer u een veld **[!UICONTROL Filter Name]** in Drager gebruikt, kunt u opgeven welk filter u wilt gebruiken.
+
+**Berekende metriek**
+De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL Title] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** en wordt weergegeven als **[!UICONTROL Cm Product Name Count Distinct]** in Looker.
+
+**waaiers van de Datum**
+Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
+
+**de transformaties van de Douane**
+Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+
+1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
+   1. Selecteer **[!UICONTROL Custom Dimension]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
+      ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png)
+   1. Voer `product name` in als de **[!UICONTROL Name]** .
+   1. Selecteer **[!UICONTROL Save]** .
+
+U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
+
+![ Lager transformatieresultaat ](assets/uc14-looker-result.png)
+
+
+De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
+
+```sql
+SELECT
+    LOWER((cc_data_view."product_name")) AS "product_name",
+    COALESCE(SUM(CAST(( cc_data_view."purchase_revenue"  ) AS DOUBLE PRECISION)), 0) AS "sum_of_purchase_revenue",
+    COALESCE(SUM(CAST(( cc_data_view."purchases"  ) AS DOUBLE PRECISION)), 0) AS "sum_of_purchases"
+FROM public.cc_data_view  AS cc_data_view
+WHERE ((( cc_data_view."daterange"  ) >= (DATE_TRUNC('day', DATE '2023-01-01')) AND ( cc_data_view."daterange"  ) < (DATE_TRUNC('day', DATE '2024-01-01'))))
+GROUP BY
+    1
+ORDER BY
+    2 DESC
+FETCH NEXT 500 ROWS ONLY
 ```
 
 >[!ENDTABS]
@@ -2111,7 +2179,7 @@ Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consume
 
 ![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
-Met de optie Omlaag bogen wordt de visualisatie bijgewerkt met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
+Met de optie Omlaag kunt u de visualisatie bijwerken met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
 ![ boor van Tableau omhoog ](assets/uc15-tableau-drillup.png){zoomable="yes"}
 
@@ -2199,11 +2267,11 @@ Elk van de ondersteunde BI-gereedschappen heeft een aantal bedenkingen bij het w
 
 >[!TAB  Leider ]
 
-* De plukker heeft een maximumaantal verbindingen per knoop die wordt vereist om tussen 5-100 te zijn.  U kunt dit niet instellen op 1.  Dit impliceert dat een Minder verbinding altijd bij een minimum 5 van de beschikbare zittingen van de Dienst van de Vraag gebruikt.
+* De laagker heeft een maximumaantal verbindingen per knoop die tussen 5-100 wordt vereist plaatsen.  U kunt deze waarde niet instellen op 1.  Deze instelling houdt in dat een lagere verbinding altijd minimaal 5 van de beschikbare Query Service-sessies gebruikt.
 * Met Liniaal kunt u een project maken met een weergave op basis van een Customer Journey Analytics-gegevensweergave. De plukker leidt dan tot een model dat op de afmetingen en metriek wordt gebaseerd, beschikbaar in de mening van Gegevens, gebruikend LookerML.  Deze projectweergave wordt niet automatisch bijgewerkt naar de bron.  Als u veranderingen of toevoegingen aan de de meningsafmetingen van CJA- Gegevens, metriek, berekende-metriek, of filters aanbrengt, dan verschijnen deze veranderingen niet automatisch in Lager.  U moet de projectweergave handmatig bijwerken of een nieuw project maken.
 * De gebruikerservaring van de kiezer op datum- of datum-tijdvelden zoals **[!UICONTROL Daterange Date]** of **[!UICONTROL Daterangeday Date]** is verwarrend.
-* Het datumbereik van Lager is exclusief in plaats van inclusief.  **[!UICONTROL until (before)]** is grijs, zodat u dat aspect kunt missen.  Voor uw einddag moet u een andere dag selecteren dan de dag waarop u wilt rapporteren.
-* In de viewer worden uw meetgegevens niet automatisch als meetgegevens beschouwd.  Wanneer u metrisch selecteert, door gebrek zal de Teller proberen om metrisch als afmeting in de vraag te behandelen.  Om metriek als metrisch te behandelen, moet u een douanegebied tot stand brengen zoals hierboven geïllustreerd. Als sneltoets kunt u **[!UICONTROL ⋮]** selecteren, **[!UICONTROL Aggregate]** selecteren en vervolgens **[!UICONTROL Sum]** selecteren.
+* Het datumbereik van Lager is exclusief in plaats van inclusief.  **[!UICONTROL until (before)]** is grijs, zodat u dat aspect kunt missen.  Voor uw einddag, moet u één meer dan de dag selecteren u wilt melden.
+* In de viewer worden uw meetgegevens niet automatisch als meetgegevens beschouwd.  Wanneer u metrisch selecteert, door gebrek probeert de Teller metrisch als afmeting in de vraag te behandelen.  Om metriek als metrisch te behandelen, moet u een douanegebied tot stand brengen zoals hierboven geïllustreerd. Als sneltoets kunt u **[!UICONTROL ⋮]** selecteren, **[!UICONTROL Aggregate]** selecteren en vervolgens **[!UICONTROL Sum]** selecteren.
 
 >[!ENDTABS]
 
