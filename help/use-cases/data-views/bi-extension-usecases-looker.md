@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 676f6c83bcf35f8da1a07841c043e1b56c57baf6
+source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
 workflow-type: tm+mt
-source-wordcount: '10346'
+source-wordcount: '10355'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen kunt uitvoeren
 
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
+* **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com) {target="_blank"}
 
 De volgende gebruiksgevallen worden gedocumenteerd:
 
@@ -208,7 +209,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
    1. Selecteer **[!UICONTROL Add Connection]** .
    1. In de lus **[!UICONTROL Connect your database to Looker screen]** .
 
-      ![ Leider verbindt met gegevensbestand ](assets/looker-connect.png)
+      ![ Leider verbindt met gegevensbestand ](assets/looker-connect.png){zoomable="yes"}
 
       1. Voer een **[!UICONTROL Name]** in voor uw verbinding, bijvoorbeeld `Example Looker Connection` .
       1. Zorg ervoor dat **[!UICONTROL All Projects]** is geselecteerd als de **[!UICONTROL Connection Scope]** .
@@ -370,7 +371,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en **[!UICONTROL Date]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -380,7 +381,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc2-looker-result.png)
+![ Minder resultaat dagelijkse trend ](assets/uc2-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -460,7 +461,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/01/02]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
    1. Selecteer **[!UICONTROL ‣ Daterangehour Date]** en **[!UICONTROL Time]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -470,7 +471,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc3-looker-result.png)
+![ Minder resultaat dagelijkse trend ](assets/uc3-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -579,7 +580,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanaf de linkerspoorstaaf **[!UICONTROL Cc Data View]** ,
    1. Selecteer **[!UICONTROL ‣ Daterangemonth Date]** en **[!UICONTROL Month]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -589,7 +590,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc4-looker-result.png)
+![ Minder resultaat dagelijkse trend ](assets/uc4-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -731,7 +732,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -742,7 +743,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
@@ -762,12 +763,12 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Schuif omlaag om **[!UICONTROL Purchases]** weer te geven en wijzig de **[!UICONTROL Type]** in **[!UICONTROL Line]** .
    1. Selecteer de tab **[!UICONTROL Y]** .
    1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
-      ![ Leerdere visualisatieconfiguratie ](assets/uc5-looker-visualization.png)
+      ![ Leerdere visualisatieconfiguratie ](assets/uc5-looker-visualization.png){zoomable="yes"}
    1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc5-looker-result.png)
+![ Minder resultaat dagelijkse trend ](assets/uc5-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -936,7 +937,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Category]** .
@@ -949,7 +950,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
@@ -968,14 +969,14 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Schuif omlaag en selecteer **[!UICONTROL Edit Chart Config]** .
    1. Wijzig de JSON in **[!UICONTROL Chart Config (Override)]** zoals in de onderstaande schermafbeelding en selecteer vervolgens **[!UICONTROL Preview]** .
 
-      ![ Laagere virtualisatie config ](assets/uc6-looker-visualization.png)
+      ![ Laagere virtualisatie config ](assets/uc6-looker-visualization.png){zoomable="yes"}
 
    1. Selecteer **[!UICONTROL Apply]** .
    1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc6-looker-result.png)
+![ Minder resultaat dagelijkse trend ](assets/uc6-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1097,18 +1098,18 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Daterange Date]** en vervolgens **[!UICONTROL Date]** .
    1. Selecteer **[!UICONTROL Aggregate ‣ Count Distinct]** in het contextmenu **⋮ Meer** in **[!UICONTROL Product Name]** .
-      ![ het Contextmenu van de Naam van het Product van de Leider ](assets/uc7-looker-count-distinct.png)
+      ![ het Contextmenu van de Naam van het Product van de Leider ](assets/uc7-looker-count-distinct.png){zoomable="yes"}
 1. Selecteer **[!UICONTROL Run]** .
 1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ op de werkbalk om één waardenvisualisatie weer te geven.
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc7-looker-result.png)
+![ minder duidelijke telling ](assets/uc7-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1193,7 +1194,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc8-looker-result.png)
+![ minder duidelijke telling ](assets/uc8-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1276,7 +1277,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -1292,7 +1293,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc9-looker-result.png)
+![ minder duidelijke telling ](assets/uc9-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1378,7 +1379,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -1393,7 +1394,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc10-looker-result.png)
+![ minder duidelijke telling ](assets/uc10-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1571,7 +1572,7 @@ GROUP BY 1
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -1582,7 +1583,7 @@ GROUP BY 1
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
 1. Selecteer **[!UICONTROL ↓]** (**[!UICONTROL Descending, Sort Order: 1]** ) in de kolom **[!UICONTROL Purchase Revenue]** .
 1. Selecteer **[!UICONTROL Run]** .
@@ -1590,7 +1591,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc11-looker-result.png)
+![ minder duidelijke telling ](assets/uc11-looker-result.png){zoomable="yes"}
 
 
 De vraag die door het gebruiken van de uitbreiding van BI wordt geproduceerd van het plukker is met inbegrip van `ORDER BY`, wat impliceert dat de soort door de uitbreiding van het plukker en van BI wordt uitgevoerd.
@@ -1808,7 +1809,7 @@ GROUP BY 1
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![ filter van de Leider ](assets/uc2-looker-filter.png){zoomable="yes"}
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Name]** .
@@ -1820,7 +1821,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc12-looker-result.png)
+![ minder duidelijke telling ](assets/uc12-looker-result.png){zoomable="yes"}
 
 De vraag die door de uitbreiding wordt geproduceerd Loker die van BI gebruikt omvat `FETCH NEXT 5 ROWS ONLY`, wat impliceert dat de grens door Leider en de uitbreiding van BI wordt uitgevoerd.
 
@@ -2012,13 +2013,13 @@ Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuil
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
    1. Selecteer **[!UICONTROL Custom Dimension]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
    1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
-      ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png)
+      ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png){zoomable="yes"}
    1. Voer `product name` in als de **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Save]** .
 
 U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
 
-![ Lager transformatieresultaat ](assets/uc14-looker-result.png)
+![ Lager transformatieresultaat ](assets/uc14-looker-result.png){zoomable="yes"}
 
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
