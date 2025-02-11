@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
+source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
 workflow-type: tm+mt
-source-wordcount: '10355'
+source-wordcount: '10356'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
          1. Geef uw project een naam in **[!UICONTROL Create a new LookML Project for this model]** . Voor `example: example_looker_project` .
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➋ Select Tables]**:
-         1. Selecteer **[!UICONTROL public]** en zorg ervoor dat de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![ Vinkje ](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**.
+         1. Selecteer **[!UICONTROL public]** en zorg ervoor dat de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![ SelectBox ](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**.
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➌ Select Primary Keys]**:
          1. Selecteer **[!UICONTROL Next]** .
@@ -244,7 +244,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
          1. Zorg ervoor dat u de weergave selecteert. Bijvoorbeeld: **[!UICONTROL cc_data_view.view]** .
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➎ Enter Model Name]**:
-         1. Geef het model een naam. Bijvoorbeeld: `example_looker_mode` l.
+         1. Geef het model een naam. Bijvoorbeeld: `example_looker_model` .
       1. Selecteer **[!UICONTROL Complete and Explore Data]** .
 
    U wordt omgeleid naar de **[!UICONTROL Explore]** interface van Looker, klaar om de gegevens te onderzoeken.
@@ -258,8 +258,8 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
 | Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om te gebruiken!** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Weergavefout: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
 
 ### Meer informatie
 
