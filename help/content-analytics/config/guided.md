@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1755'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,14 @@ ht-degree: 1%
 >Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
 
 De geleide configuratie helpt u om Inhoud Analytics snel en gemakkelijk te vormen. De configuratie met instructies gebruikt een wizard om de vereisten in te stellen voor het automatisch configureren van Content Analytics voor uw organisatie. In het **[!UICONTROL Configuration]** scherm, kunt u of een nieuwe configuratie tot stand brengen of een bestaande configuratie uitgeven.
+
+>[!IMPORTANT]
+>
+>Per sandbox in uw organisatie kunt u slechts één configuratie voor Content Analytics-gegevens gebruiken.
+
 
 De configuratie voor inhoudanalyse openen
 
@@ -92,12 +97,12 @@ Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Gegevens, weergave"
->abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen."
+>abstract="Selecteer in Customer Journey Analytics een bestaande gegevensweergave waarin u de analysegegevens voor de inhoud wilt samenvoegen."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Gegevens, weergave"
->abstract="Selecteer een bestaande gegevensmening van Customer Journey Analytics dat u uw gegevens van de inhoudsanalyse met wilt samenvoegen.<br/>"
+>abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen.<br/>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -116,7 +121,7 @@ Als u een bestaande configuratie bewerkt, worden in de lijst alleen de gegevensw
    * Om te bepalen welke kolommen in de lijst te tonen, selecteer ![ Montages van de Kolom ](/help/assets/icons/ColumnSetting.svg). Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 1. Selecteer **[!UICONTROL Save]** om de geselecteerde gegevensweergave te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-Een mening van Gegevens is gebonden aan een Customer Journey Analytics [ Verbinding ](/help/connections/overview.md). En een Verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt **[!UICONTROL Sandbox]** automatisch gevuld met de juiste naam van de sandbox op basis van de geselecteerde gegevensweergave.
+Een mening van Gegevens is gebonden aan een Verbinding van Customer Journey Analytics [ ](/help/connections/overview.md). En een Verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt **[!UICONTROL Sandbox]** automatisch gevuld met de juiste naam van de sandbox op basis van de geselecteerde gegevensweergave.
 
 
 ### Vastleggen en definiëren van ervaring {#onboarding-experiences}
@@ -141,13 +146,15 @@ Een mening van Gegevens is gebonden aan een Customer Journey Analytics [ Verbind
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_edit_button"
 >title="Vastleggen en definiëren van ervaring"
->abstract="U kunt de montages in de uitbreiding van de Analyse van de Inhoud van de Adobe in het bezit van de Markering uitgeven, verbonden aan de geselecteerde configuratie."
+>abstract="U kunt de instellingen in de extensie Adobe Content Analytics bewerken in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
 
 
 
 <!-- markdownlint-enable MD034 -->
 
-In deze sectie kunt u Ervaringen opnemen in de gegevens die u verzamelt met Content Analytics. Een ervaring is alle tekst op een webpagina die reproduceerbaar is met de URL die wordt gebruikt door de eerste gebruiker die die webpagina bezoekt. Als deze optie is geselecteerd, moet u definiëren voor welke URL&#39;s u ervaringen wilt opnemen.
+In deze sectie kunt u Ervaringen opnemen in de gegevens die u verzamelt met Content Analytics.  Een ervaring is alle tekst op een webpagina die reproduceerbaar is met de URL die wordt gebruikt door de eerste gebruiker die die webpagina bezoekt.
+
+Standaard is **[!UICONTROL Include experiences]** uitgeschakeld. Als deze optie is geselecteerd, moet u definiëren voor welke URL&#39;s u ervaringen wilt opnemen.
 
 Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
@@ -157,14 +164,14 @@ Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 1. Geef de parameters op die bepalen hoe inhoud op uw website wordt weergegeven. De parameters zijn nul of meer combinaties van a **[!UICONTROL Domain regular expression]** en **[!UICONTROL Query parameters]**.
    1. Voer een **[!UICONTROL Domain regular expression]** in, bijvoorbeeld `(?!.*\b(store|help|admin)\b)` .
    1. Geef een door komma&#39;s gescheiden lijst op van **[!UICONTROL Query parameters,]** bijvoorbeeld `outdoors, patio, kitchen` .
-   1. Selecteer **[!UICONTROL Remove]** als u een combinatie wilt verwijderen.
-   1. Selecteer **[!UICONTROL Add another]** als u een andere combinatie wilt toevoegen.
+1. Selecteer **[!UICONTROL Remove]** als u een combinatie van de reguliere expressie van het domein en queryparameters wilt verwijderen.
+1. Selecteer **[!UICONTROL Add another]** als u een andere combinatie van een reguliere expressie en queryparameters wilt toevoegen.
 
 Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplementeerde configuratie:
 
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience-edit.png)
 
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) uitgeeft om de parameters in de uitbreiding van de Analyse van de Inhoud van de Adobe in het bezit van de Markering uit te geven, verbonden aan de geselecteerde configuratie.
+* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) uitgeeft om de parameters in de uitbreiding van de Analyse van de Inhoud van Adobe in het bezit van de Markering uit te geven, verbonden aan de geselecteerde configuratie.
 
 
 ### Dataverzameling {#onboarding-data-collection}
@@ -204,12 +211,12 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
 >title="Dataverzameling"
->abstract="U kunt de instellingen voor pagina&#39;s bewerken in de extensie Inhoud Adoben in de eigenschap Code die is gekoppeld aan de geselecteerde configuratie."
+>abstract="U kunt de instellingen voor pagina&#39;s in de extensie Adobe Content Analytics bewerken in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_edit_button"
 >title="Dataverzameling"
->abstract="U kunt de instellingen voor elementen bewerken in de extensie Inhoud Adobe analyseren in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
+>abstract="U kunt de instellingen voor elementen bewerken in de extensie Adobe Content Analytics in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -230,10 +237,7 @@ In een nieuwe configuratie, moet u bepalen welk bezit van de Markering u wilt ge
 
    1. Selecteer **[!UICONTROL Create new]** .
    2. Geef een **[!UICONTROL Tag name]** op, bijvoorbeeld `ACA Test` .
-   3. Geef een of meer **[!UICONTROL Domains]** op, bijvoorbeeld `example.com` .
-
-   * Selecteer **[!UICONTROL Add another]** als u meer domeinen wilt toevoegen.
-   * Om een domein te verwijderen, selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
+   3. Geef **[!UICONTROL Domains]** op, bijvoorbeeld `example.com` .
 
 * Als u ervoor hebt gekozen om ervaringen op te nemen, geeft u aan welke pagina&#39;s moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
@@ -254,13 +258,25 @@ Voor een bestaande configuratie kunt u de eigenschap Tag niet bewerken. U kunt d
 
 ### Samenvatting
 
-Zodra u alle noodzakelijke details hebt verstrekt, ziet u de naam van de a **[!UICONTROL You're almost ready to implement _configuratie _voor de Samenvatting van de Analyse van de Inhoud]**.
+Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting details over de artefacten die worden gecreeerd of gewijzigd.
 
-Voor bestaande uitgevoerde configuraties, ziet u de naam van de a **[!UICONTROL You have implemented _configuratie _voor de Samenvatting van de Analyse van de Inhoud]**.
+* U ziet a **[!UICONTROL You're almost ready to implement _configuratienaam _voor de Samenvatting van de Analyse van de Inhoud]**wanneer u een nieuwe configuratie uitvoert.
+
+* Voor bestaande uitgevoerde configuraties, ziet u de naam van de a **[!UICONTROL You have implemented _configuratie _voor de Samenvatting van de Analyse van de Inhoud]**.
 
 ![ Samenvatting van de Configuratie van de Analytics van de Inhoud ](../assets/aca-configuration-summary.png)
 
 ### Handelingen
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_implementation_warning"
+>title="Waarschuwing bij onboarding-implementatie"
+>abstract="Hiermee configureert u de inhoudanalyse gedeeltelijk op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende andere instellingen worden automatisch gekozen op basis van wat doorgaans nuttig is voor Content Analytics. U wordt aangeraden de instellingen van elk artefact te controleren om te controleren of deze aan uw vereisten en richtlijnen voldoen. <br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/> ook merk op dat om attributen van beelden en tekst af te leiden, Adobe deze attributen zal terugwinnen gebruikend url die op het tijdstip van het gebruikersbezoek wordt gevangen per de montages van de gegevensinzameling u hebt uitgevoerd."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties beschikbaar.
 
@@ -277,9 +293,9 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
       1. De verbinding die aan de geselecteerde mening van Gegevens wordt gebonden wordt gewijzigd om de gebeurtenis van de Analyse van de Inhoud en attributendatasets te omvatten.
       1. Rapportsjablonen voor Content Analytics worden toegevoegd aan Workspace.
    * **[!UICONTROL Data collection]** configuratie:
-      1. Het nieuwe of bestaande bezit van de Markering wordt gevormd om de gegevensinzameling van de Analyse van de Inhoud te steunen. Deze configuratie impliceert de opneming van de uitbreiding van de Analyse van de Inhoud van de Adobe voor Markeringen.
+      1. Het nieuwe of bestaande bezit van de Markering wordt gevormd om de gegevensinzameling van de Analyse van de Inhoud te steunen. Deze configuratie houdt in dat de extensie Adobe Content Analytics voor tags wordt opgenomen.
       1. Er wordt een gegevensstroom gemaakt voor gebeurtenissen van Content Analytics.
-      1. De Adobe Content Analytics-extensie is zo geconfigureerd dat Content Analytics-gebeurtenissen naar de gegevensstroom worden verzonden voor Content Analytics.
+      1. De extensie Adobe Content Analytics is geconfigureerd om ervoor te zorgen dat gebeurtenissen Content Analytics naar de gegevensstroom worden verzonden voor Content Analytics.
       1. Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
       1. Als het Web SDK voor dit bezit van de Markering wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
 * **[!UICONTROL Save]**: wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en de implementatie wordt bijgewerkt.

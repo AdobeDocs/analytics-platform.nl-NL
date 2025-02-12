@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e29b22fe7ba78faa5d4d169f1ff755b0ca488f8e
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ This is a placeholder article for upcoming Content Analytics documentation. Curr
 
 {#release-limited-testing}
 
-Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de traditionele, op microniveau gebaseerde functies voor het testen van inhoud (bijvoorbeeld A/B-tests), biedt Content Analytics inzicht in de manier waarop inhoud invloed heeft op macroniveau. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifieke kleurenpallet, of specifieke thema&#39;s?
+Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over het gebruik van inhoud en de invloed van inhoud op de inhoud. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifieke kleurenpallet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
 
 De Analytics van de inhoud gebruikt AI en machine het leren baseerde **featurization dienst** om inhoud in componenten en attributen neer te breken. Door een gestructureerd metagegevensprofiel voor al uw inhoud te maken, kunt u analyseren welke inhoud en welke kenmerken van die inhoud de bedrijfsresultaten beïnvloeden.
 
-Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verleent de Analyse van de Inhoud een **identiteitsdienst** die activa en ervaringen gebruikend één enkel herkenningsteken identificeert. De identiteitsdienst begrijpt of een middel, bijvoorbeeld, resized, bijgesneden, of opgeslagen aan een verschillend dossierformaat is. De service wijst alle variaties van dat element toe aan dezelfde id. Dientengevolge, staat de identiteitsdienst u toe om de prestaties van activa te groeperen die op zijn diverse vormen en plaatsingen worden gebaseerd.
+Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verleent de Analyse van de Inhoud een **identiteitsdienst** die activa en ervaringen gebruikend één enkel herkenningsteken identificeert. De identiteitsservice kan herkennen wanneer exact hetzelfde element op meerdere plaatsen wordt weergegeven. Wanneer dat gebeurt, worden de twee elementen op dezelfde manier behandeld, zodat een meer holistische kijk op het gebruik en het verbruik van inhoud mogelijk wordt.
 
 ## Waarde
 
@@ -59,9 +59,7 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 ![ Analytics van de Inhoud - hoe het ](assets/how-it-works.png) werkt
 
 
-1. Het detectiedeel van de service featurization wordt geactiveerd bij elke nieuwe momentopname van gegevens die aankomen bij een voor Content Analytics ingeschakelde gebeurtenisdataset.
-1. De service voor detectie van functies bepaalt welke gegevens in die momentopname relevant zijn voor inhoudsanalyses en herziet de ervaring en elementen van deze weergaven van webafbeeldingen.
-1. Tijdens het reviseren worden specifieke gegevens voor inhoudsanalyse verzameld via een correcte configuratie van de Experience Platform Web SDK en Experience Platform Edge Network. En dan worden de gegevens verzonden naar een specifieke dataset van de inhoudsanalyse en relevante raadplegingsdatasets.
+1. Wanneer een gebruiker een plaats bezoekt, registreert het Web SDK van het Plarform van de Ervaring, dat voor Inhoud Analytics wordt gevormd, interactie met inhoud.
 1. De service voor het samenstellen van functies en de identiteitsservice verwerken de herziene gegevens.
 1. De resultaten van deze services (componenten, kenmerken en identiteiten) worden gebruikt om de relevante specifieke gegevenssets voor inhoudsanalyses in Experience Platform bij te werken.
 1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsdatasets, kunnen dan in een configuratie van Customer Journey Analytics (Verbinding, de mening van Gegevens en Workspace) worden gebruikt. Die configuratie vormt de basis voor de unieke macroniveauinzichten van uw inhoud.

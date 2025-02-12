@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
+source-git-commit: 007674fd9da69a4a333d5300c4f4d30640c4b366
 workflow-type: tm+mt
 source-wordcount: '10356'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
       1. Selecteer **[!UICONTROL Expand all]** bij **[!UICONTROL Optional Settings]** .
       1. Stel **[!UICONTROL Max connections]** per knooppunt in op `5` .
       1. Controleer of **[!UICONTROL SSL]** is ingeschakeld.
-      1. Selecteer **[!UICONTROL Test]** om de verbinding te testen. U ziet dat een banner boven aan het scherm wordt weergegeven met een bericht als **[!UICONTROL Success, can connect JDBC string: jdbc:postgresql://examplecompany.platform-query-stage.adobe.io:80/prod:cja?FLATTEN?tcpKeepAlive=true&ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&sslmode=prefer]** .
+      1. Selecteer **[!UICONTROL Test]** om de verbinding te testen. U ziet dat een banner boven aan het scherm wordt weergegeven met een bericht als **[!UICONTROL Success, can connect JDBC ....]** .
       1. Selecteer **[!UICONTROL Connect]** om de verbinding tot stand te brengen en op te slaan.
    1. De nieuwe verbinding wordt weergegeven in de interface **[!UICONTROL Connections]** .
    1. Selecteer **←** in **[!UICONTROL Admin]** om naar de hoofdnavigatie in de linkertrack te gaan.
