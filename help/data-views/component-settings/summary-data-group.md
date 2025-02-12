@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Verbergen in rapportage"
->abstract="Als u deze optie selecteert, wordt de **[!UICONTROL Hide component in reporting]** voor die dimensie ingeschakeld en wordt de component niet weergegeven in Analysis Workspace en andere rapportgereedschappen voor Customers Journey Analytics."
+>abstract="Als u deze optie selecteert, wordt de **[!UICONTROL Hide component in reporting]** voor die dimensie ingeschakeld en wordt de component niet weergegeven in Analysis Workspace en andere Customer Journey Analytics-rapportagegereedschappen."
 
 <!-- markdownlint-enable MD034 -->
 

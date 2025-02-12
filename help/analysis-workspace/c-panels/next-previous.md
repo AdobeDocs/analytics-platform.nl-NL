@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Nesten of vorig item"
->abstract="Analyseer wat de meest gangbare plaatsen zijn waar bezoekers eerder vandaan kwamen of naar de volgende gaan.<br/><br/>**Dimension**: Selecteer een afmeting. Bijvoorbeeld **Pagina**.<br/>**punt van het Dimension**: Selecteer een specifiek afmetingspunt. Bijvoorbeeld **Homepage**.<br/>**Richting**: Selecteer **daarna** om de afmetingspunten onmiddellijk na uw geselecteerd afmetingspunt te zien. Selecteer **Vorige** om de afmetingspunten te zien die tot uw geselecteerd afmetingspunt leiden.<br/>**Container**: Selecteer **Zitting** om de volgende/vorige afmetingspunten binnen de zelfde zitting te zien, of **Persoon** te selecteren om het volgende/vorige afmetingspunt voor de zelfde persoon te zien."
+>abstract="Analyseer wat de meest gangbare plaatsen zijn waar bezoekers eerder vandaan kwamen of naar de volgende gaan.<br/><br/>**Dimension**: Selecteer een afmeting. Bijvoorbeeld **Pagina**.<br/>**het punt van Dimension**: Selecteer een specifiek afmetingspunt. Bijvoorbeeld **Homepage**.<br/>**Richting**: Selecteer **daarna** om de afmetingspunten onmiddellijk na uw geselecteerd afmetingspunt te zien. Selecteer **Vorige** om de afmetingspunten te zien die tot uw geselecteerd afmetingspunt leiden.<br/>**Container**: Selecteer **Zitting** om de volgende/vorige afmetingspunten binnen de zelfde zitting te zien, of **Persoon** te selecteren om het volgende/vorige afmetingspunt voor de zelfde persoon te zien."
 
 <!-- markdownlint-enable MD034 -->
 

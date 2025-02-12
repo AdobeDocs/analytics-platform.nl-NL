@@ -1,5 +1,5 @@
 ---
-description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
->abstract="Geeft aan waar in de Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
+>abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
 >additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 <!-- markdownlint-enable MD034 -->
@@ -67,8 +67,8 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 1. Om te verifiëren of uw berekende metrische definitie correct is, gebruik constant bijgewerkt **[!UICONTROL Preview]** van de resultaten van berekende metrisch. **[!UICONTROL Preview]** geldt voor de laatste 90 dagen en evalueert continu de definitie van de berekende maateenheid.
 
    **[!UICONTROL Product compatibility]** wijst erop of berekende metrisch in experimenteren kan worden gebruikt. Mogelijke waarden zijn:
-   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan over de hele Customer Journey Analytics worden gebruikt.
-   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan in alle Customers Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: De berekende metrische waarde kan in alle Customer Journey Analytics worden gebruikt.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: De berekende metrische waarde kan in alle Customer Journey Analytics worden gebruikt, behalve in het deelvenster Experimentatie.
 
 1. Selecteren:
    * **[!UICONTROL Save]** om de berekende metrische waarde op te slaan.
@@ -78,7 +78,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ## Definition builder
 
-U gebruikt de bouwer van de Definitie om dimensies, metriek, filters, en functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. In die constructie, kunt u standaardmetriek, Adobe bepaalde metriek, berekende metriek, filters, afmetingen en functies gebruiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Berekende metrische bouwer. Bovendien kunt u operatoren en containers in de definitie gebruiken.
+U gebruikt de bouwer van de Definitie om dimensies, metriek, filters, en functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. In die constructie kunt u standaardmetriek, door Adobe gedefinieerde metriek, berekende metriek, filters, afmetingen en functies gebruiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Berekende metrische bouwer. Bovendien kunt u operatoren en containers in de definitie gebruiken.
 
 ![ creeer berekende metrisch ](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
@@ -138,7 +138,7 @@ U gebruikt het concept van een filtercontainer om a [ gefilterde metrische ](met
 
 * Een filtercontainer toevoegen vanuit een dimensie:
 
-   1. De belemmering en laat vallen a ![ Dimensionen ](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** component van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
+   1. De belemmering en laat vallen a ![ Dimensies ](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** component van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, filters, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
    1. Definieer in de pop-up **[!UICONTROL Create Filter from Dimension]** de voorwaarde voor het filter. Selecteer een waarde in de lijst met operatoren en selecteer een waarde of voer een waarde in. Bijvoorbeeld, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Selecteer **[!UICONTROL Done]** . Er wordt een filtercontainer toegevoegd aan de **[!UICONTROL Definition]** .
 

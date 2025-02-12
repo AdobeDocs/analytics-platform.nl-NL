@@ -1,19 +1,20 @@
 ---
-title: Adobe Analytics-functieondersteuning begrijpen bij upgraden naar Customer Journey Analytics
+title: Adobe Analytics-functieondersteuning begrijpen bij upgrades naar Customer Journey Analytics
 description: Meer informatie over Adobe Analytics-functieondersteuning bij upgrades naar Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8d14bb23283107402332106df36e8f7898ea5d30
+exl-id: 92053109-f80d-47ab-b011-c28a5411149c
+source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
 
 ---
 
-# Adobe Analytics-functieondersteuning begrijpen bij upgraden naar Customer Journey Analytics {#feature-support-upgrade}
+# Adobe Analytics-functieondersteuning begrijpen bij upgrades naar Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -80,9 +81,9 @@ ht-degree: 1%
 
 >[!NOTE]
 > 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in de [ controlelijst van de Customer Journey Analytics verbetering ](https://gigazelle.github.io/cja-ttv/).
+>Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
 
-In de volgende lijst staan alleen die Adobe Analytics-functies die tijdens het upgradeproces naar Customer Journey Analytics in overweging moeten worden genomen. Voor een uitvoerige lijst die toont welke eigenschappen van Adobe Analytics volledig, gedeeltelijk gesteund, of niet gesteund in Customer Journey Analytics worden gesteund, zie {de eigenschapsteun van de Customer Journey Analytics 0} ](/help/getting-started/aa-vs-cja/cja-aa.md).[
+In de volgende lijst staan alleen die Adobe Analytics-functies die tijdens het upgradeproces naar Customer Journey Analytics in overweging moeten worden genomen. Voor een uitvoerige lijst die toont welke eigenschappen van Adobe Analytics volledig, gedeeltelijk gesteund, of niet gesteund in Customer Journey Analytics worden gesteund, zie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 Houd rekening met de volgende Adobe Analytics-functies die u wilt blijven gebruiken wanneer u een upgrade uitvoert naar Customer Journey Analytics:
 
@@ -90,9 +91,8 @@ Houd rekening met de volgende Adobe Analytics-functies die u wilt blijven gebrui
 |---------|----------|
 | [ Componenten en projecten van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [ Migreer projecten en hun bijbehorende componenten aan Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
 | [ de kaartbedekking van de Activiteit en verbinding het volgen ](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | Nog niet beschikbaar |
-| [ Gegevens van de Classificatie ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | De datasets van de opzoekopdracht zijn de methode om gegevens in Customer Journey Analytics te classificeren.<p>[ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens bevat.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
+| [ Gegevens van de Classificatie ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | Gegevenssets opzoeken zijn de methode voor het classificeren van gegevens in Customer Journey Analytics.<p>[ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens bevat.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | Afgeleide velden worden gemaakt in een gegevensweergave. <p>[ creeer een marketing kanaal afgeleid gebied.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [Gegevensfeeds](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | De uitvoer van gegevens van de eerste generatie van datasets is beschikbaar door de [ Toegang API van de Gegevens van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) en door [ Doelen van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html). Deze opties verstrekken gebeurtenis/rijniveau de uitvoer van alle gegevens die in het meer van Gegevens van het Experience Platform worden verzameld of worden opgenomen. Gegevenskolommen na verwerking zijn niet beschikbaar omdat postkolommen bij vraagtijd worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
-| [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [ de Volledige Uitvoer van de Lijst van de Customer Journey Analytics ](/help/analysis-workspace/export/export-cloud.md) is de evolutie van de rapporten van de Data Warehouse in Adobe Analytics, met vele nieuwe, vaak-gevraagde eigenschappen die niet vandaag in Data Warehouse beschikbaar zijn. |
+| [Gegevensfeeds](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | De uitvoer van gegevens van de eerste generatie van datasets is beschikbaar door [ de Toegang API van Gegevens van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) en door [ Doelen van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html). Met deze opties kunt u alle verzamelde of opgenomen gegevens op gebeurtenis-/rijniveau exporteren naar het Experience Platform Data Lake. Gegevenskolommen na verwerking zijn niet beschikbaar omdat postkolommen bij vraagtijd worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
+| [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [ de Volledige Uitvoer van de Lijst van Customer Journey Analytics ](/help/analysis-workspace/export/export-cloud.md) is de evolutie van de rapporten van Data Warehouse in Adobe Analytics, met vele nieuwe, vaak-gevraagde eigenschappen die niet vandaag in Data Warehouse beschikbaar zijn. |
 | [ het stromen gegevens van Media ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) | Streaming-mediagegevens zijn beschikbaar via de bronaansluiting Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
-

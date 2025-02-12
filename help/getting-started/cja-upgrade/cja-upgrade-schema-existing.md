@@ -1,5 +1,5 @@
 ---
-title: Schema voor Customer Journey Analytics kiezen
+title: Kies uw schema voor Customer Journey Analytics
 description: Meer informatie over de beschikbare opties bij het kiezen van een schema voor Customer Journey Analytics en over de voor- en nadelen van beide
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Schema voor Customer Journey Analytics kiezen {#choose-schema}
+# Kies uw schema voor Customer Journey Analytics {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -30,23 +30,23 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
 >title="Het standaardschema gebruiken"
->abstract="(Niet aanbevolen) Het Adobe Analytics-schema bevat meer dan duizend velden, wat tot een onoverzichtelijk en complex schema kan leiden. Uw organisatie zou gedwongen worden om het concept van &quot;props&quot; en &quot;eVars&quot; te blijven volgen, een erfenisconcept dat niet in de Customer Journey Analytics wordt gebruikt. Integratie met andere Adobe Experience Platform-services is moeilijker."
+>abstract="(Niet aanbevolen) Het Adobe Analytics-schema bevat meer dan duizend velden, wat tot een onoverzichtelijk en complex schema kan leiden. Uw organisatie zou gedwongen worden het concept van props en eVars te blijven volgen, een erfenisconcept dat niet in Customer Journey Analytics wordt gebruikt. Integratie met andere Adobe Experience Platform-services is moeilijker."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
->Deze documentatie zou als deel van [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) moeten worden gebruikt.
+>Deze documentatie zou als deel van [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) moeten worden gebruikt.
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-Wanneer de bevordering aan Customer Journey Analytics, beveelt de Adobe het creëren van een schema van de Gegevens van de Ervaring van het Model (XDM) aan om beter op de behoeften van uw organisatie te richten aangezien u begint andere diensten van het Platform te gebruiken. U kunt ook het bestaande Adobe Analytics-schema gebruiken.
+Bij de upgrade naar Customer Journey Analytics raadt Adobe aan een XDM-schema (Custom Experience Data Model) te maken dat beter aansluit bij de behoeften van uw organisatie wanneer u andere platformservices gaat gebruiken. U kunt ook het bestaande Adobe Analytics-schema gebruiken.
 
 Houd rekening met de voor- en nadelen van beide.
 
 ## Een aangepast schema maken voor uw organisatie (aanbevolen)
 
-Adobe raadt u aan een aangepast schema te maken wanneer u de upgrade naar Customer Journey Analytics uitvoert.
+Adobe raadt u aan een aangepast schema te maken wanneer u een upgrade naar Customer Journey Analytics uitvoert.
 
 | Voordelen | Nadelen |
 |----------|---------|
@@ -54,11 +54,11 @@ Adobe raadt u aan een aangepast schema te maken wanneer u de upgrade naar Custom
 
 ## Het bestaande Adobe Analytics-schema gebruiken
 
-De optie om uw bestaand schema van Adobe Analytics met Customer Journey Analytics te gebruiken is beschikbaar slechts als uw implementatie van Adobe Analytics met het Web SDK van Adobe Experience Platform wordt gevormd. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+De optie om uw bestaande Adobe Analytics-schema met Customer Journey Analytics te gebruiken is alleen beschikbaar als uw Adobe Analytics-implementatie is geconfigureerd met de Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Voordelen | Nadelen |
 |----------|---------|
-| <p>De voordelen van het Adobe Analytics-schema zijn:</p><ul><li>Eenvoudig upgraden<p>Als u reeds gegevens naar Adobe Analytics met het Web SDK van Adobe Experience Platform verzendt, kunt u de extra dienst aan uw gegevensstroom toevoegen om gegevens naar Adobe Experience Platform te verzenden (die dan in uw configuratie van de Customer Journey Analytics kan worden gebruikt).</p></li></ul> | <p>De nadelen van het gebruik van het Adobe Analytics-schema zijn:</p><ul><li>Terwijl het gebruiken van het schema van Adobe Analytics beperkt u niet in termen van hoe het met andere toepassingen van het Platform kan worden gebruikt, resulteert het in een schema dat complexer is dan het anders zou kunnen zijn. Dit komt omdat het Adobe Analytics-schema veel objecten bevat die specifiek zijn voor Adobe Analytics en die waarschijnlijk niet door uw organisatie zullen worden gebruikt.<p>Wanneer wijzigingen in het schema vereist zijn, moet u door duizenden ongebruikte velden bladeren om het veld te zoeken dat moet worden bijgewerkt.</p></li></ul> |
+| <p>De voordelen van het Adobe Analytics-schema zijn:</p><ul><li>Eenvoudig upgraden<p>Als u reeds gegevens naar Adobe Analytics met het Web SDK van Adobe Experience Platform verzendt, kunt u de extra dienst aan uw gegevensstroom toevoegen om gegevens naar Adobe Experience Platform te verzenden (die dan in uw configuratie van Customer Journey Analytics kan worden gebruikt).</p></li></ul> | <p>De nadelen van het gebruik van het Adobe Analytics-schema zijn:</p><ul><li>Terwijl het gebruiken van het schema van Adobe Analytics beperkt u niet in termen van hoe het met andere toepassingen van het Platform kan worden gebruikt, resulteert het in een schema dat complexer is dan het anders zou kunnen zijn. Dit komt omdat het Adobe Analytics-schema veel objecten bevat die specifiek zijn voor Adobe Analytics en die waarschijnlijk niet door uw organisatie zullen worden gebruikt.<p>Wanneer wijzigingen in het schema vereist zijn, moet u door duizenden ongebruikte velden bladeren om het veld te zoeken dat moet worden bijgewerkt.</p></li></ul> |
 
 
 

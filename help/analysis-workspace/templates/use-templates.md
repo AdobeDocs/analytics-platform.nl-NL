@@ -35,7 +35,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
-   * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door de Adobe worden aangeboden.
+   * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door Adobe worden aangeboden.
 
    * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
@@ -437,7 +437,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="aa-template--sitePerformanceOverview"
 >title="Geef prestatiegegevens voor je Adobe Experience Manager-site weer."
->abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager."
+>abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -446,7 +446,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="aa-template--formsPerformanceOverview"
 >title="Geef prestatiegegevens voor je Adobe Experience Manager Forms weer."
->abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager."
+>abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -528,7 +528,7 @@ De volgende sjablonen zijn beschikbaar:
 
 >[!CONTEXTUALHELP]
 >id="template--productUsageOverviewReport"
->title="Bekijk hoe het product van de Customer Journey Analytics binnen uw organisatie wordt gebruikt."
+>title="Bekijk hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt."
 >abstract="**dit kan u helpen** beter begrijpen hoeveel mensen Customer Journey Analytics gebruiken, hoe vaak zij het, en gebruikstrends in tijd gebruiken. U kunt ook het aantal projecten zien die worden gecreeerd en details over die projecten (zoals welke componenten, visualisaties, en panelen het meest algemeen worden gebruikt), en vele andere gebruiksstatistieken.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals schrapping ongebruikte projecten of componenten, of gebruikersopleiding voor populaire eigenschappen verstrekken."
 
 <!-- markdownlint-enable MD034 -->
@@ -550,7 +550,7 @@ De volgende sjablonen zijn beschikbaar:
 | **Overzicht van de Pagina** | Belangrijke informatie over om het even welke pagina over uw eigenschappen bekijken. Toont paginameningen, een trendlijn, een stroomvisualisatie, en meer.  <p>**dit kan u helpen** beter begrijpen hoe de mensen met een bepaalde pagina in wisselwerking staan.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als de prestaties van de pagina over een periode analyseren of beter begrijpen wat verkeer aan de pagina drijft.</p><p>Deze sjabloon gebruikt de metrische weergave van paginaweergaven. Het gebruikt ook de Lijnvisualisatie en de visualisatie van de Stroom.</p> |
 | **pagina&#39;s van de Ingang** | Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken. <p>**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **Pagina&#39;s van de uitgang** | Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten.<p>**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
-| **het gebruiksoverzicht van het Product** (Binnenkort komend) | Bekijk hoe het product van de Customer Journey Analytics binnen uw organisatie wordt gebruikt. <p>**dit kan u helpen** beter begrijpen hoeveel mensen Customer Journey Analytics gebruiken, hoe vaak zij het, en gebruikstrends in tijd gebruiken. U kunt ook het aantal projecten zien die worden gecreeerd en details over die projecten (zoals welke componenten, visualisaties, en panelen het meest algemeen worden gebruikt), en vele andere gebruiksstatistieken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals schrapping ongebruikte projecten of componenten, of gebruikersopleiding voor populaire eigenschappen verstrekken.</p> |
+| **het gebruiksoverzicht van het Product** (Binnenkort komend) | Bekijk hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt. <p>**dit kan u helpen** beter begrijpen hoeveel mensen Customer Journey Analytics gebruiken, hoe vaak zij het, en gebruikstrends in tijd gebruiken. U kunt ook het aantal projecten zien die worden gecreeerd en details over die projecten (zoals welke componenten, visualisaties, en panelen het meest algemeen worden gebruikt), en vele andere gebruiksstatistieken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals schrapping ongebruikte projecten of componenten, of gebruikersopleiding voor populaire eigenschappen verstrekken.</p> |
 
 ### Web: Conversie {#web-conversion}
 

@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 1%
@@ -256,7 +256,7 @@ Voor een bestaande configuratie kunt u de eigenschap Tag niet bewerken. U kunt d
 
 * Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Analytics van de Inhoud, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven.
 
-### Samenvatting
+### Samenvatting {#summary}
 
 Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting details over de artefacten die worden gecreeerd of gewijzigd.
 
@@ -266,7 +266,7 @@ Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting de
 
 ![ Samenvatting van de Configuratie van de Analytics van de Inhoud ](../assets/aca-configuration-summary.png)
 
-### Handelingen
+### Handelingen {#actions}
 
 <!-- markdownlint-disable MD034 -->
 

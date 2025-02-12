@@ -140,7 +140,7 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Tijdverlies"
->abstract="De waarden van het Dimension dichtst in tijd aan een omzetting krijgen het meeste krediet."
+>abstract="Dimension-waarden die het dichtst bij een conversie liggen, krijgen het meeste krediet."
 
 <!-- markdownlint-enable MD034 -->
 

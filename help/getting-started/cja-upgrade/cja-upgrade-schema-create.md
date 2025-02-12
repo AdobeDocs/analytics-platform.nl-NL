@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# Creeer een douaneschema om met uw implementatie van het Web SDK van de Customer Journey Analytics te gebruiken {#create-custom-schema}
+# Een aangepast schema maken voor gebruik met uw Customer Journey Analytics Web SDK-implementatie {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
 >title="Het gewenste aangepaste schema maken in Adobe Experience Platform"
->abstract="Gebruik de gebruikersinterface van Adobe Experience Platform om een schema te maken zodat de Adobe de juiste indeling voor het opslaan van uw gegevens kent.<br><br> deze stap impliceert de daadwerkelijke verwezenlijking van het schema dat door uw organisatie wordt overeengekomen. De geschatte tijd om uw schema in de interface van Adobe Experience Platform tot stand te brengen is ongeveer één week, afhankelijk van het aantal dimensies en metriek die moeten worden gecreeerd."
+>abstract="Gebruik de gebruikersinterface van Adobe Experience Platform om een schema te maken zodat Adobe de juiste indeling voor het opslaan van uw gegevens kent.<br><br> deze stap impliceert de daadwerkelijke verwezenlijking van het schema dat door uw organisatie wordt overeengekomen. De geschatte tijd om uw schema in de interface van Adobe Experience Platform tot stand te brengen is ongeveer één week, afhankelijk van het aantal dimensies en metriek die moeten worden gecreeerd."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,13 +39,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="Schema inschakelen voor profiel"
->abstract="Laat profiel in uw schema voor gebruik in Adobe in real time CDP toe. Deze stap verschijnt omdat u de wens selecteerde om met Adobe in real time CDP te integreren.<br><br> aangezien deze stap het klikken van één enkel vakje impliceert, neemt deze stap slechts een paar notulen."
+>abstract="Profiel in uw schema inschakelen voor gebruik in Adobe Real-time CDP. Deze stap wordt weergegeven omdat u de wens hebt geselecteerd om te integreren met Adobe Real-time CDP.<br><br> aangezien deze stap het klikken van één enkel vakje impliceert, neemt deze stap slechts een paar notulen."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >Voordat u begint met het maken van uw aangepaste schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-De volgende secties beschrijven hoe te om een schema tot stand te brengen dat met Customer Journey Analytics kan worden gebruikt. De volgende schema-opties zijn beschikbaar:
+In de volgende secties wordt beschreven hoe u een schema kunt maken dat u met Customer Journey Analytics kunt gebruiken. De volgende schema-opties zijn beschikbaar:
 
 * **Aangepast XDM schema:** (Geadviseerd) staat voor een gestroomlijnd schema toe dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt. Eventuele toekomstige wijzigingen zijn eenvoudig.
 
@@ -150,7 +150,7 @@ Een aangepast schema maken:
 
    ![ specificeer ECID als identiteit ](./assets/specify-identity.png)
 
-   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (aan te sluiten) met dezelfde ECID.
+   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
    Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
@@ -164,7 +164,7 @@ Een aangepast schema maken:
 
    Selecteer **[!UICONTROL Save]** .
 
-1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het basiselement van het schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
+1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het hoofdelement van uw schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
@@ -178,7 +178,7 @@ Een aangepast schema maken:
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
-   U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw website kunt vastleggen. Met het schema kunnen profielen worden geïdentificeerd aan de hand van de identiteit en het e-mailadres van het Experience Cloud. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die vanaf uw website zijn vastgelegd, worden toegevoegd aan het realtime-klantprofiel.
+   U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw website kunt vastleggen. In het schema kunnen profielen worden geïdentificeerd met Experience Cloud Identity en e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die vanaf uw website zijn vastgelegd, worden toegevoegd aan het realtime-klantprofiel.
 
    Naast gedragsgegevens kunt u ook profielkenmerkgegevens van uw site vastleggen (bijvoorbeeld gegevens over profielen die zijn geabonneerd op een nieuwsbrief).
 

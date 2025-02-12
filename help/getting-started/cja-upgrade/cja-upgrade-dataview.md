@@ -21,19 +21,19 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
 >title="Een gegevensweergave maken in Customer Journey Analytics"
->abstract="Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren.<br><br> terwijl de aanvankelijke verwezenlijking van de gegevensmening een paar notulen neemt, kan het vormen van elke afmeting en metrisch met de gewenste componentenmontages verscheidene dagen vergen. Als u deze instellingen wijzigt, worden deze met terugwerkende kracht toegepast, zodat uw organisatie ze in de loop der tijd kan verfijnen."
+>abstract="Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd.<br><br> terwijl de aanvankelijke verwezenlijking van de gegevensmening een paar notulen neemt, kan het vormen van elke afmeting en metrisch met de gewenste componentenmontages verscheidene dagen vergen. Als u deze instellingen wijzigt, worden deze met terugwerkende kracht toegepast, zodat uw organisatie ze in de loop der tijd kan verfijnen."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-views/create-dataview.md -->
 
-Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. De meeste schemaelementen kunnen of een afmeting of metrisch, afhankelijk van de vereisten van uw zaken zijn. Nadat u een schema-element naar een gegevensweergave hebt gesleept, worden aan de rechterkant opties weergegeven waarmee u de werking van de dimensie of metrische elementen in de Customer Journey Analytics kunt aanpassen.
+Het creëren van een gegevensmening impliceert of het creëren van metriek en dimensies van schemaelementen of het gebruiken van standaardcomponenten. De meeste schemaelementen kunnen of een afmeting of metrisch, afhankelijk van de vereisten van uw zaken zijn. Nadat u een schema-element naar een gegevensweergave hebt gesleept, worden aan de rechterkant opties weergegeven waarmee u de werking van de dimensie of de metrische instelling in Customer Journey Analytics kunt aanpassen.
 
 Een gegevensweergave maken:
 
@@ -53,7 +53,7 @@ Een gegevensweergave maken:
 
    ![ Componenten tabel ](assets/dataview-components.png)
 
-1. Van het [!UICONTROL **lusje van Componenten**], sleep schemaelementen van het linkerspoor in de [!UICONTROL **sectie van Metriek**] of de [!UICONTROL **Dimensionen**] sectie. De schema-elementen die u toevoegt, worden metriek of afmetingen in de gegevensweergave.
+1. Van het [!UICONTROL **lusje van Componenten**], sleep schemaelementen van het linkerspoor in de [!UICONTROL **sectie van Metriek**] of de [!UICONTROL **sectie van Dimensies**]. De schema-elementen die u toevoegt, worden metriek of afmetingen in de gegevensweergave.
 
    Voor gedetailleerde informatie over de beschikbare opties wanneer het toevoegen van componenten aan een gegevensmening, zie [ Componenten ](/help/data-views/create-dataview.md#components) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
 

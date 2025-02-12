@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
 >title="De bronaansluiting voor Analytics maken"
->abstract="Gebruik de de bronschakelaar van de Analyse aan ingeste gegevens van de rapportreeks voor gebruik in Customer Journey Analytics.<br><br> Creërend de bron van Analytics schakelaar neemt enkel een paar notulen met standaardmontages."
+>abstract="Gebruik de bron van Analytics schakelaar om rapportreeksgegevens voor gebruik in Customer Journey Analytics in te voeren.<br><br> Creërend de bron van Analytics schakelaar neemt enkel een paar notulen met standaardmontages."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,17 +36,17 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
 ## Begrijp hoe de de bronschakelaar van de Analyse historische gegevens in Customer Journey Analytics kan brengen
 
-U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens als historische gegevens in Customer Journey Analytics worden gebruikt.
+U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens worden gebruikt als historische gegevens in Customer Journey Analytics.
 
-Dit proces veronderstelt dat u een douaneschema wilt [ tot stand brengen om met uw implementatie van SDK van het Web van de Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema [ wilt tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
-Om de bron van Analytics schakelaar te gebruiken om historische gegevens in Customer Journey Analytics te brengen, moet u:
+Als u de Analytics-bronconnector wilt gebruiken om historische gegevens over te brengen naar Customer Journey Analytics, moet u:
 
 1. [Creeer een douaneschema voor de bronschakelaar van de Analyse](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
@@ -70,7 +70,7 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
 1. Selecteer **[!UICONTROL Add data]** in de tegel Adobe Analytics.
 
-   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van de Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
+   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
 
 1. Selecteer **[!UICONTROL Report suite]** en selecteer vervolgens in de lijst met rapportsuites de rapportsuite met de historische gegevens die u in Customer Journey Analytics wilt gebruiken.
 
@@ -92,7 +92,7 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het aangepaste veld in het XDM-schema waaraan u het wilt toewijzen.
 
-      Niet hebben alle gebieden van Adobe Analytics een overeenkomstig gebied in XDM toe te schrijven aan de inherente architectuurverschillen tussen AppMeasurement en XDM.
+      Niet alle Adobe Analytics-velden hebben een corresponderend veld in XDM vanwege de inherente architectuurverschillen tussen AppMeasurement en XDM.
 
    1. Herhaal dit proces voor elk veld in de Adobe Analytics ExperienceEvent-sjabloonveldgroep dat u gebruikt om gegevens te verzamelen in Adobe Analytics.
 
@@ -110,6 +110,6 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    Nadat de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 
-   Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van het Web SDK van de Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
+   Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van SDK van het Web van Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.

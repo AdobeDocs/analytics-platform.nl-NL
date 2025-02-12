@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="XDM-logica voor gegevensverzameling toevoegen aan uw tag"
->abstract="Als de ladertag op uw site is geïnstalleerd, kunt u regels en gegevenselementen toevoegen om een XDM-object te vullen dat naar de Adobe wordt verzonden. Adobe raadt u aan een document voor het ontwerp van een oplossing te onderhouden om te controleren hoe uw tags zijn geconfigureerd.<br><br> Deze stap is veel werk, aangezien het vestiging alle logica van Analytics voor uw bezit impliceert. Verwacht een maand of langer te wijden om de correcte markeringsregels te vestigen, hen te testen, en hen op uw plaats op te stellen."
+>abstract="Als de ladertag op uw site is geïnstalleerd, kunt u regels en gegevenselementen toevoegen om een XDM-object te vullen dat naar Adobe wordt verzonden. Adobe raadt u aan een document voor het ontwerp van een oplossing te onderhouden om na te gaan hoe uw tags zijn geconfigureerd.<br><br> Deze stap is veel werk, aangezien het vestiging alle logica van Analytics voor uw bezit impliceert. Verwacht een maand of langer te wijden om de correcte markeringsregels te vestigen, hen te testen, en hen op uw plaats op te stellen."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
@@ -39,7 +39,7 @@ Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaa
 
 De volgende secties beschrijven voorgestelde gegevenselementen en andere gemeenschappelijke gegevenselementen die u kunt vormen.
 
-Er zijn verschillende soorten gegevenselementen. Twee gemeenschappelijke gegevenselementen die u zou kunnen willen vormen zijn: één die de paginanaam vangt die de personen op uw plaats bekijken, en een andere die Experience Cloud identiteitskaart van elke persoon vangt die uw plaats bezoekt.
+Er zijn verschillende soorten gegevenselementen. Twee gemeenschappelijke gegevenselementen die u zou kunnen willen vormen zijn: die de paginanaam vangen die de personen op uw plaats bekijken, en een andere die Experience Cloud identiteitskaart van elke persoon vangen die uw plaats bezoekt.
 
 Nadat u deze twee gegevenselementen vormt, kunt u extra gegevenselementen voor de specifieke gegevens vormen u wilt vangen.
 
@@ -85,13 +85,13 @@ Een gegevenselement voor de paginanaam maken:
 
 1. Selecteer **[!UICONTROL Save]** .
 
-   U wilt nu opstelling een gegevenselement van verwijzingen voorzien van Experience Cloud identiteitskaart die automatisch door SDK van het Web van Adobe Experience Platform en beschikbaar door de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud wordt verstrekt.
+   U wilt nu een gegevenselement instellen dat verwijst naar de Experience Cloud-id die automatisch wordt verstrekt door de Adobe Experience Platform Web SDK en beschikbaar is via de Experience Cloud ID Service-extensie.
 
 1. Ga met [ ECID gegevenselement ](#ecid-data-element) verder.
 
 #### ECID-gegevenselement
 
-Een gemeenschappelijk gegevenselement dat op de meeste organisaties van toepassing is is een gegevenselement dat Experience Cloud identiteitskaart van elke persoon vangt die uw plaats bezoekt.
+Een gemeenschappelijk gegevenselement dat op de meeste organisaties van toepassing is is een gegevenselement dat Experience Cloud ID van elke persoon vangt die uw plaats bezoekt.
 
 Een ECID-gegevenselement maken:
 
@@ -101,7 +101,7 @@ Een ECID-gegevenselement maken:
 
 1. Selecteer de nieuwe tag in de lijst met [!UICONTROL Tag Properties] om deze te openen.
 
-1. (Voorwaardelijk) Installeer de uitbreiding van de Dienst van identiteitskaart van het Experience Cloud als het niet reeds geïnstalleerd is:
+1. (Voorwaardelijk) Installeer de extensie Experience Cloud ID Service als deze nog niet is geïnstalleerd:
 
    1. Selecteer **[!UICONTROL Extensions]** in het linkerspoor.
 
@@ -293,7 +293,7 @@ Om uw markering te bouwen en te publiceren:
 
 1. Selecteer **[!UICONTROL + Add All Changed Resources]** .
 
-   ![ Publish - creeer Bibliotheek ](assets/create-library-aep.png)
+   ![ publiceer - creeer Bibliotheek ](assets/create-library-aep.png)
 
 1. Selecteer **[!UICONTROL Save & Build to Development]** .
 
@@ -301,4 +301,4 @@ Om uw markering te bouwen en te publiceren:
 
 1. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
-   ![ Publish - bouwt Bibliotheek ](assets/build-library.png)
+   ![ publiceer - bouwt Bibliotheek ](assets/build-library.png)

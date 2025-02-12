@@ -1,6 +1,6 @@
 ---
-title: Overgang van de de bronschakelaar van de Analyse aan het Web SDK voor Customer Journey Analytics
-description: Leer hoe te overgang aan het Web SDK van de Analytics bronschakelaar wanneer bevordering aan Customer Journey Analytics
+title: Overgang van de de bronschakelaar van de Analytics aan het Web SDK voor Customer Journey Analytics
+description: Leer hoe u van de Analytics-bronconnector naar de Web SDK overschakelt wanneer u een upgrade naar Customer Journey Analytics uitvoert
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Overgang van de de bronschakelaar van de Analyse aan het Web SDK voor Customer Journey Analytics {#transition-from-source-connector}
+# Overgang van de de bronschakelaar van de Analytics aan het Web SDK voor Customer Journey Analytics {#transition-from-source-connector}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector"
 >title="Implementatie van analytische bronconnector"
->abstract="Met de bronaansluiting Analytics kunt u eenvoudig waarde ophalen van Customer Journey Analytics, maar u moet zowel voor Adobe Analytics als voor Customer Journey Analytics betalen. Deze gids kan u helpen zich op een onafhankelijke implementatie van SDK van het Web bewegen."
+>abstract="Met de bronaansluiting voor Analytics kunt u eenvoudig waarde ophalen uit Customer Journey Analytics, maar u moet zowel voor Adobe Analytics als voor Customer Journey Analytics betalen. Deze gids kan u helpen zich op een onafhankelijke implementatie van SDK van het Web bewegen."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in de [ controlelijst van de Customer Journey Analytics verbetering ](https://gigazelle.github.io/cja-ttv/).
+>Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
 
-Er zijn inherente nadelen aan het gebruiken van de bron van Analytics schakelaar als uw enige implementatie voor Customer Journey Analytics.
+Er zijn inherente nadelen aan het gebruiken van de de bronschakelaar van de Analyse als uw enige implementatie voor Customer Journey Analytics.
 
-Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, adviseert de Adobe transitioning aan een implementatie die de Analytics bronschakelaar (voor historische gegevens) gebruikt, samen met een nieuwe implementatie van het Web SDK (voor aan de gang zijnde gegevensinzameling).
+Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, adviseert Adobe transitioning aan een implementatie die de bronschakelaar van de Analyse (voor historische gegevens) gebruikt, samen met een nieuwe implementatie van het Web SDK (voor aan de gang zijnde gegevensinzameling).
 
 ## Voor- en nadelen van het exclusief gebruiken van de bronconnector Analytics
 
@@ -62,7 +62,7 @@ Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebru
 
    1. Herhaal dit proces voor elk veld in de Adobe Analytics ExperienceEvent-sjabloonveldgroep dat u gebruikt om gegevens te verzamelen in Adobe Analytics.
 
-1. Voeg de dataset toe die automatisch met uw originele de bronschakelaar van de Analyse aan uw verbinding van de Customer Journey Analytics werd gecreeerd.
+1. Voeg de dataset toe die automatisch met uw originele de bronschakelaar van de Analyse aan uw verbinding van Customer Journey Analytics werd gecreeerd.
 
    Voor meer informatie, zie [ de dataset van uw huidige Analytics bronschakelaar aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toevoegen.
 

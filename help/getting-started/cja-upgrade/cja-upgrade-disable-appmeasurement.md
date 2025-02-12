@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Gegevensverzameling AppMeasurement uitschakelen {#disable-appmeasurement}
+# AppMeasurement-gegevensverzameling uitschakelen {#disable-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement"
->title="Gegevensverzameling AppMeasurement uitschakelen"
->abstract="Als de gegevens van SDK van het Web volledig functioneel, werk met uw ontwikkelaarsteam om AppMeasurement.js uit uw website of bezit te verwijderen.<br><br> de handeling van het verwijderen van AppMeasurement uit een website neemt slechts een paar notulen, maar vereist tijd van uw techniekteam om te voltooien. Nochtans, zorg ervoor dat uw gebruikers van Analytics Customer Journey Analytics en niet Adobe Analytics gebruiken; dit aankondigingsproces om iedereen over te bewegen zou beduidend langer kunnen duren als u dit nog niet hebt gedaan."
+>title="AppMeasurement-gegevensverzameling uitschakelen"
+>abstract="Als de gegevens van Web SDK volledig functioneel zijn, werkt u samen met uw ontwikkelaarsteam om AppMeasurement.js uit uw website of bezit te verwijderen.<br><br> het verwijderen van AppMeasurement uit een website vergt slechts een paar minuten, maar vereist tijd van uw technische team om te voltooien. Zorg er echter wel voor dat uw Analytics-gebruikers Customer Journey Analytics gebruiken en niet Adobe Analytics. Het kan aanzienlijk langer duren voordat iedereen naar het scherm wordt verplaatst als u dit nog niet hebt gedaan."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 

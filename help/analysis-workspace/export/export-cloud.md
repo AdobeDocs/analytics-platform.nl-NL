@@ -1,7 +1,7 @@
 ---
 description: Leer hoe u een Analysis Workspace-project exporteert naar een locatie in de cloud.
 keywords: Analysis Workspace
-title: Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk
+title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Rapporten van de Customer Journey Analytics van de uitvoer naar de wolk {#full-table-export}
+# Customer Journey Analytics-rapporten exporteren naar de cloud {#full-table-export}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,11 +25,11 @@ ht-degree: 1%
 
 U kunt volledige Workspace-tabellen exporteren vanuit Customer Journey Analytics en exporteren naar opgegeven cloudinstellingen.
 
-Andere methodes om de rapporten van de Customer Journey Analytics uit te voeren zijn ook beschikbaar, zoals die in [ overzicht van de Uitvoer ](/help/analysis-workspace/export/export-project-overview.md) wordt beschreven.
+Andere methodes om de rapporten van Customer Journey Analytics uit te voeren zijn ook beschikbaar, zoals die in [ wordt beschreven Overzicht van de Uitvoer ](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Volledige tabelexport begrijpen
 
-U kunt volledige tabellen van Analysis Workspace naar cloudproviders exporteren, zoals Google, Azure, Amazon en Adobe.
+U kunt volledige tabellen exporteren van Analysis Workspace naar cloudproviders zoals Google, Azure, Amazon en Adobe.
 
 [ Voordelen om volledige lijsten naar de wolk ](#advantages-of-exporting-to-the-cloud) uit te voeren omvatten de capaciteit om miljoenen rijen uit te voeren, berekende metriek, structuurgegevensoutput in samengevoegde waarden, en meer omvatten.
 
@@ -125,7 +125,7 @@ Een manifestbestand met de bestandsnaam `cja-export-{reportInstanceId}-{idx}.jso
 
 ## Voordelen van exporteren naar de cloud
 
-Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt u:
+Door Customer Journey Analytics-gegevens naar de cloud te exporteren, kunt u:
 
 * Exporteer naar een gedeelde locatie, zoals Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 of Snowflake.
 
@@ -135,7 +135,7 @@ Door gegevens van Customers Journey Analytics naar de cloud te exporteren, kunt 
 
 * Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten (3 miljoen, 30 miljoen, 150 miljoen of 300 miljoen rijen, afhankelijk van het type licentie). Met andere exportmethoden kunt u maximaal 50.000 rijen exporteren.
 
-* Berekende metriek opnemen in de geëxporteerde gegevens van de Customer Journey Analytics.
+* Berekende metriek opnemen in de geëxporteerde Customer Journey Analytics-gegevens.
 
 * De gegevensoutput van de structuur als samengevoegde waarden.
 
@@ -155,7 +155,7 @@ Zorg ervoor dat uw lijsten, uw milieu, en uw toestemmingen aan de volgende verei
 
 * **Milieu:** zorg ervoor dat de [ IP adressen ](/help/technotes/ip-addresses.md) en [ Domeinen ](/help/technotes/domains.md) die door Customer Journey Analytics worden gebruikt door de firewall van hun organisatie worden toegestaan.
 
-* **Toestemmingen:** in Adobe Admin Console, moeten de gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige die toestemming heeft van de Uitvoer van de Lijst**] aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een toestemming aan een productprofiel in de Admin Console, zie {de toestemming van de Customer Journey Analytics van 0} in Admin Console ](/help/technotes/access-control.md).[
+* **Toestemmingen:** in Adobe Admin Console, moeten de gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige die toestemming heeft van de Uitvoer van de Lijst**] aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een toestemming aan een productprofiel in Admin Console, zie [ toestemming van Customer Journey Analytics in Admin Console ](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
@@ -174,7 +174,7 @@ De volgende functies worden niet ondersteund en worden automatisch verwijderd ui
 * Dynamische afmetingen
 
   Voor meer informatie, zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
-* Dimensionen in de eerste uitsplitsing worden omgezet en toegevoegd als een secundaire dimensie in de rij van de geëxporteerde tabel; andere uitsplitsingen worden niet in de tabel opgenomen
+* Dimensies in de eerste uitsplitsing worden geconverteerd en toegevoegd als een secundaire dimensie in de rij van de geëxporteerde tabel; eventuele andere uitsplitsingen worden niet in de tabel opgenomen
 * Sorteren wordt niet ondersteund voor de meeste gegevenssets; gegevens kunnen worden gesorteerd voor kleine gegevenssets
 
 ### Niet-ondersteunde componenten
@@ -218,7 +218,7 @@ Als een niet-gebrek attributiemodel in een rapport wordt gebruikt, wordt het toe
 
 ## Vergelijking van de volledige uitvoer van tabellen (in Customer Journey Analytics) naar Data Warehouse (in Adobe Analytics)
 
-Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporteren, kunt u met de volgende tabel de verschillen begrijpen tussen het exporteren van volledige tabellen in Customer Journey Analytics en het exporteren van gegevens met Data Warehouse in Adobe Analytics.
+Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporteren, kunt u met de volgende tabel de verschillen zien tussen het exporteren van volledige tabellen in Customer Journey Analytics en het exporteren van gegevens met Data Warehouse in Adobe Analytics.
 
 
 | Functie | Volledige tabelexport in Customer Journey Analytics | Data Warehouse in Adobe Analytics |
