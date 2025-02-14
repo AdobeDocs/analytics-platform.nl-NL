@@ -1,5 +1,5 @@
 ---
-description: Hoe te om de vragen van de gegevensanalyse van de documentatie van de Customer Journey Analytics te stellen
+description: Vragen over gegevensanalyse van Customer Journey Analytics-documentatie stellen
 title: AI-assistent voor gegevensanalyse in Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
@@ -7,42 +7,42 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
+source-git-commit: 3814e3241a202fda802934685b4472b4c11c4245
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
 
-# Gegevensvisualisatie is nu beschikbaar in AI Assistant in CJA
+# Gegevens visualiseren met de AI Assistant in Customer Journey Analytics
 
-De AI Medewerker in Customer Journey Analytics (CJA) is een Generatieve AI gespreksagent die u kan helpen sneller en efficiënt vragen beantwoorden u van uw gegevens van Analysis Workspace in CJA kunt hebben.
+De AI Medewerker in Customer Journey Analytics is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
 
-Wanneer u een vraag van de visualisatie van Gegevens stelt, scant de Medewerker AI door alle componenten in uw gegevensmening, met inbegrip van de verschillende soorten metriek en componenten, en vertaalt uw herinnering in de juiste afmeting, metrisch, en datumwaaier voor uw analyse. In plaats van vertrouwd te moeten zijn met de componenten van de gegevensmening, en dan die componenten te slepen en te laten vallen in de beste combinatie om uw vraag te beantwoorden, kunt u de vraag eenvoudig typen in de Medewerker AI.
+Met de AI-assistent voor het beantwoorden van gegevenscentrische vragen in Analysis Workspace kunt u ontelbare uren besparen die u anders handmatig zou kunnen besteden aan het maken van visualisaties in Analysis Workspace en het vertrouwd maken met de componenten van de gegevensweergave.
 
 ![ AI van de Analyse van Gegevens Medewerker ](assets/cja-ai-asst-da.gif)
 
-## Functies binnen bereik versus functies buiten bereik voor de versie van de Alpha
+## Functies binnen bereik versus functies buiten bereik voor de Alpha-versie
 
-### Functies voor Alpha binnen bereik
+### Alpha-functies binnen bereik
 
 | Ondersteunde functie | Beschrijving |
 | --- | --- |
-| **bouwt en werkt visualisaties** bij | Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (bijvoorbeeld lijn, balk, donut, enz.).<p>Voorbeeld: *wat is de winst over SKUs van Februari aan Mei?* |
-| **Ondersteunde visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije vorm</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> |
-| **uit-van-werkingsgebied snelle opsporing** | Als u een herinnering voorlegt die buiten werkingsgebied, zoals &quot;uitvoert dit project&quot;is, antwoordt de Medewerker door u te laten weten dat de vraag buiten werkingsgebied is. |
-| **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context voor de Medewerker AI heeft om te antwoorden, of te algemeen is, antwoordt de Medewerker AI met een het verduidelijken vraag en/of voorgestelde opties. Voorbeelden: <p>**Onderdelen**<ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Filter: *Welke &quot;filter van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand&quot;, bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul>**punten van het Dimension**: Welke &quot;opslagnaam&quot;bedoelde u? (bijvoorbeeld Winkel #5274, Winkel #2949, enz.) |
-| **Multi-draai** | De AI-assistent reageert op een vraag met de context van de voorgaande prompt(s), zodat gebruikers de visualisaties kunnen bijwerken en vervolgvragen kunnen stellen.Voorbeeld: <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> |
+| **bouwt en werkt visualisaties** bij | Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Voorbeeld: *wat is de winst over SKUs van Februari aan Mei?* |
+| **Ondersteunde visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> |
+| **uit-van-werkingsgebied snelle opsporing** | Als u een herinnering voorlegt die buiten werkingsgebied, zoals &quot;uitvoert dit project,&quot;antwoordt de Medewerker door u te laten weten dat de vraag buiten werkingsgebied is. |
+| **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context voor de Medewerker AI heeft om te antwoorden, of te algemeen is, antwoordt de Medewerker AI met een het verduidelijken vraag of voorgestelde opties. Voorbeelden: <p>**Onderdelen**<ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Filter: *Welke &quot;filter van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul>**de punten van Dimension**: Welke &quot;opslagnaam&quot;bedoelde u? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.) |
+| **Multi-draai** | De AI-assistent reageert op een vraag met de context van eerdere vragen, zodat gebruikers de visualisaties kunnen bijwerken en vervolgvragen kunnen stellen. Voorbeeld: <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> |
 | **Verifiability** | De verifieerbaarheid en juistheid van gegevens kunnen worden bevestigd via de gegenereerde vrije-vormlijst en gegevensvisualisatie. Bijvoorbeeld, als een gebruiker *de orden van de Trend van de Tendens* vraagt, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. |
 | **Terugkoppeling** | <ul><li>Stompelen omhoog</li><li>Miniatuur omlaag</li><li>Markering</li></ul> |
 
-### Functies voor Alpha buiten bereik
+### Alpha-functies buiten bereik
 
 | Niet-ondersteunde functie | Beschrijving |
 | --- | --- |
-| **overzicht of reactie van binnen-lijn** | De AI-assistent kan niet online reageren in de chatrail met een beknopt antwoord van een gebruiker prompt.Voorbeeld van aanwijzingen die buiten het bereik vallen:<ul><li>*geef me een samenvatting van de inzichten van mijn laatste herinnering.*</li><li>*vat de hoogtepunten van de lijnvisualisatie samen.*</li></ul> |
-| **het Verhelderen van vragen** | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De AI-assistent kan geen duidelijkheid verschaffen over gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking, bereik, enzovoort. Zonder vragen te verduidelijken, blijft de Medewerker aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u het multi-draai/updatemogelijkheid dan gebruiken om de visualisatie en de gegevens aan te passen. |
-| **de Acties van Workspace / Mogelijkheden** | De AI-assistent kan geen actie ondernemen voor een gebruiker in Workspace, behalve het maken en bijwerken van visualisaties. Het kan bijvoorbeeld het volgende niet doen:<ul><li>Contextafhankelijke knoppen voor handelingen (toevoegen aan diagram, nieuw deelvenster, nieuwe tabel)</li><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Curate</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li></ul> |
+| **overzicht of reactie van binnen-lijn** | De AI-assistent kan niet online reageren in de chatrail met een beknopt antwoord van een gebruikersprompt. Voorbeeld-vragen buiten bereik:<ul><li>*geef me een samenvatting van de inzichten van mijn laatste herinnering.*</li><li>*vat de hoogtepunten van de lijnvisualisatie samen.*</li></ul> |
+| **het Verhelderen van vragen** | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De AI-assistent kan geen duidelijkheid verschaffen over zaken als gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking en bereik. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de Medewerker aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u het multi-draai/updatemogelijkheid dan gebruiken om de visualisatie en de gegevens aan te passen. |
+| **de acties van Workspace / Mogelijkheden** | De AI-assistent kan geen actie ondernemen voor een gebruiker in Workspace, behalve het maken en bijwerken van visualisaties. Het kan bijvoorbeeld geen van de volgende handelingen uitvoeren:<ul><li>Contextafhankelijke knoppen voor handelingen (toevoegen aan diagram, nieuw deelvenster, nieuwe tabel)</li><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Curate</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li></ul> |
 | **Niet gestaafde visualisatietypen** | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li></ul> |
 
 <!---## Feature access in the Customer Journey Analytics UI
@@ -72,67 +72,79 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ## Toegang tot en gebruik gegevensvisualisatie in AI Assistant
 
-1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/), en login met uw Adobe ID.
+1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/) en login met uw Adobe ID.
 
-2. Selecteer **Customer Journey Analytics** van het Huis van het Experience Cloud
+2. Selecteer **Customer Journey Analytics** van het Huis van Experience Cloud.
 
-3. Klik op **[!UICONTROL Blank project]** in de banner boven aan de projectpagina om een nieuw, leeg project te openen.
+3. Selecteer **[!UICONTROL Blank project]** in de banner bij de bovenkant van de projectpagina om een nieuw leeg project te openen.
 
-4. Zorg ervoor dat de geselecteerde gegevensweergave voor het deelvenster de gegevensweergave is die is ingeschakeld voor gebruik door AI Assistant voor het testen van Alpha&#39;s (bereik bij twijfel de weergave in het stapelkanaal van de Alpha).
+4. Zorg ervoor dat de geselecteerde gegevensweergave voor het deelvenster dezelfde gegevensweergave is als de gegevensweergave die is ingeschakeld voor gebruik met de AI-assistent voor Alpha-tests.
 
-5. Klik op het AI Assistant-chatpictogram rechtsboven. Nota: Als u niet het praatjepictogram in het hoogste recht ziet, te bereiken gelieve uit aan uw Admin en hen te hebben [ deze instructies ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/ai-assistant#feature-access) volgen om &quot;AI Medewerker toe te laten: De Kennis van het Product&quot;en &quot;AI Medewerker: De Analyse van Gegevens&quot;in Admin Console.
+   Neem contact op met het Alpha Slack-kanaal als u het niet zeker weet.
+
+5. Selecteer het AI Assistant-chatpictogram rechtsboven op de pagina.
+
+   Als u het praatjepictogram niet ziet, contacteer uw beheerder zodat kunnen zij de volgende eigenschappen in Admin Conole toelaten:
+
+   * **[!UICONTROL AI Assistant: Product Knowledge]**
+
+   * **[!UICONTROL AI Assistant: Data Analysis]**
+
+   Voor extra details, kunnen de beheerders [ deze instructies ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/ai-assistant#feature-access) zien.
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
-6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onderaan een vraag over gegevensvisualisatie in de AI-assistent.
+6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie in de AI-assistent.
+
+   Zie de volgende voorbeelden voor meer informatie.
 
 ### Voorbeeld 1
 
 Stel bijvoorbeeld dat u geïnteresseerd bent in de orders die uw bedrijf in juli heeft ontvangen.
 
-1. Voer *&quot;Trend orders in Juli.&quot;* in
+**Herinnering:** ga *&quot;De orden van de Trend in Juli in.&quot;*
 
-   ![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
+![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
 
-2. De AI-assistent verzamelt nu inzichten door de gegevens in de gegevensweergave te bekijken, inclusief de meetgegevens en componenten. Het vertaalt de herinnering in de juiste afmeting/s, metrisch/s, en gegevenswaaier.
+**Reactie:** AI Medewerker verzamelt inzicht door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
 
-   Zoals u kunt zien, heeft het automatisch een grafiek van de Lijn en een vrije lijst geproduceerd die orden voor Juli tonen.
+Zoals u kunt zien, produceerde het automatisch een lijngrafiek en een vrije lijst om orden voor Juli te tonen.
 
-   ![ Antwoord aan herinnering - lijngrafiek en vrije vormlijst ](/help/assets/ai-asst-result.png)
+![ Antwoord aan herinnering - lijngrafiek en vrije vormlijst ](/help/assets/ai-asst-result.png)
 
 ### Voorbeeld 2
 
 Daarna, wilt u zien hoe uw opbrengst per regio vergelijkt.
 
-1. In het snelle venster, ga *&quot;tonen opbrengst door gebied in.&quot;*
+**Herinnering:** in het snelle venster, ga *&quot;Show opbrengst door gebied in.&quot;*
 
-2. De AI Assistant begrijpt op intelligente wijze dat u met &quot;regio&quot; het begrip &quot;klantgebied&quot; bedoelt. Het produceert een staafdiagram dat opbrengst door gebied het best toont:
+**Reactie:** AI Medewerker begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt.&quot; Het produceert een staafdiagram dat opbrengst door gebied het best toont:
 
-   ![ Grafiek van de Bar ](/help/assets/ai-asst-result2.png)
+![ Grafiek van de Bar ](/help/assets/ai-asst-result2.png)
 
 ### Voorbeeld 3
 
-Naast het begrip van de opbrengsten per regio wilt u ook gegevens voor winst per regio zien. In plaats van het moeten de laatste herinnering opnieuw typen, kunt u de Medewerker van AI vragen om de meest recente visualisatie en vrije vormlijst bij te werken.
+Naast het begrip van de opbrengsten per regio wilt u ook gegevens voor winst per regio zien. In plaats van de vorige vraag te herhalen, kunt u de AI Medewerker vragen om de meest recente visualisatie en de vrije vormlijst bij te werken.
 
-1. In het snelle venster, type *&quot;voeg winst toe.&quot;*
+**Herinnering:** in het snelle venster, type *&quot;voeg winst toe.&quot;*
 
-2. De grafiek **[!UICONTROL Bar]** verstrekt nog het meest beknopte antwoord, maar de winst metrische is toegevoegd als kolom in de vrije vormlijst:
+**Reactie:** De **[!UICONTROL Bar]** grafiek verstrekt nog het meest beknopte antwoord, maar de winst metrische is toegevoegd als kolom in de vrije vormlijst:
 
-   ![ Grafiek van de Bar ](/help/assets/ai-asst-result4.png)
+![ Grafiek van de Bar ](/help/assets/ai-asst-result4.png)
 
 ### Voorbeeld 4
 
-Laten we tot slot eens kijken naar de inkomsten per productcategorie.
+Tot slot, kijk de opbrengst per productcategorie.
 
-1. In het snelle venster, ga *&quot;Deel van opbrengst door productcategorie in&quot;.*
+**Herinnering:** in het snelle venster, ga *&quot;Deel van opbrengst door productcategorie in.&quot;*
 
-2. Ook hier wordt voor gegevensvisualisatie in AI Assistant de meest geschikte visualisatie gekozen, in dit geval de **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
+**Reactie:** Opnieuw, neemt de gegevensvisualisatie in AI Medewerker de meest aangewezen visualisatie, in dit geval **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
 
-   ![Cirkeldiagram](/help/assets/ai-asst-result3.png)
+![Cirkeldiagram](/help/assets/ai-asst-result3.png)
 
-## Voorbeelden van vragen over gegevensvisualisatie
+## Voorbeeld van vragen voor gegevensvisualisatie
 
-Hier volgen enkele voorbeelden van veelvoorkomende vragen en van de visualisatie van het gebruik van AI Assistent voor het reageren op deze vragen.
+Hier volgen enkele voorbeelden van veelvoorkomende herinneringen en de visualisaties die door de AI Assistant worden gebruikt om op deze vragen te reageren.
 
 | Voorbeeldprompt | Verwachte visualisatie |
 | --- | --- |
@@ -151,34 +163,48 @@ Hier volgen enkele voorbeelden van veelvoorkomende vragen en van de visualisatie
 
 ## Aankondiging van aanbevolen procedures
 
-De AI Medewerker verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie evenals componenten in een vrije vormlijst te antwoorden. De reactie van de AI Assistant kan echter variëren op basis van de specifieke woorden en uitdrukkingen die worden gebruikt bij een prompt, zodat kleine taalwijzigingen tot verschillende resultaten kunnen leiden. Hier is hoe u er optimaal gebruik van kunt maken: <ul><li>Wees specifiek: neem exacte termen op (zoals &quot;verkoop vorige maand in Californië&quot;) om de reactie te beperken.</li><li>Gebruik Metriek en filters wissen: wanneer u specifieke maatstaven toevoegt (zoals &quot;Opbrengst&quot;), afmetingen (bijvoorbeeld &quot;Websitenaam&quot;), filters (zoals &quot;iPhone-gebruikers&quot;) en datumbereiken (zoals &quot;Laatste drie maanden&quot;), kan de AI-assistent zich concentreren op de juiste gegevens.</li><li>Rechtstreekse vragen stellen: Rechtstreeks vragen, zoals &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot; maakt het voor de AI Assistant gemakkelijker om duidelijke, relevante inzichten te verschaffen.</li></ul>
+De AI Medewerker verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie en de componenten in een vrije vormlijst te antwoorden.
 
-Lees de onderstaande tabel met voorbeeldtermen en woordgroepen die u kunt gebruiken bij aanwijzingen voor gegevensvisualisatie in AI Assistant, samen met de soorten reacties die u kunt verwachten. Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. Houd er rekening mee dat de AI-assistent gebruikmaakt van Generative AI, zodat de visualisaties of geselecteerde gegevens enigszins kunnen variëren voor verschillende, vergelijkbare aanwijzingen.
+De reacties kunnen variëren afhankelijk van de specifieke woorden en uitdrukkingen die in de herinnering worden gebruikt, en lichte veranderingen in taal kunnen tot verschillende resultaten leiden.
+
+Houd rekening met de volgende richtlijnen om de beste resultaten te bereiken:
+
+* Wees specifiek: neem exacte termen op om de reactie te beperken. Hier volgt een voorbeeld van een specifieke prompt: &quot;De verkoop van vorige maand in Californië&quot;
+
+* Gebruik duidelijke maatstaven en filters: wanneer u specifieke maatstaven (zoals &quot;Opbrengst&quot;), afmetingen (zoals &quot;Websitenaam&quot;), filters (zoals &quot;iPhone-gebruikers&quot;) en datumbereiken (zoals &quot;Laatste drie maanden&quot;) toevoegt, kan de AI-assistent zich op de juiste gegevens concentreren.
+
+* Stel directe vragen: Door vragen rechtstreeks te formuleren maakt u het voor de AI Assistant gemakkelijker om duidelijke en relevante inzichten te verschaffen. Hier volgt een voorbeeld van een directe vraag: &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot;
+
+Controleer de volgende lijst van voorbeeldtermijnen en uitdrukkingen die u in herinneringen met gegevensvisualisatie in AI Medewerker kunt gebruiken, samen met de soorten reacties kunt u verwachten.
+
+Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. In de AI-assistent wordt gebruikgemaakt van generatieve AI, zodat de visualisatie of de geselecteerde gegevens enigszins kunnen variëren tussen vergelijkbare aanwijzingen.
 
 | Gewenst resultaat | Voorbeelden van termen en woordgroepen |
 | --- | --- |
-| Samenvattingsnummer visualisatie | <ul><li>Totaal</li></ul> |
+| Visualisatie van overzichtsnummers | <ul><li>Totaal</li></ul> |
 | Componenten vergelijken | <ul><li>Ververgelijken</li><li>VS</li><li>Contrast</li><li>Week tot week</li><li>Maand-over-maand</li><li>Kwart-over-Kwart</li><li>Jaar na jaar</li></ul> |
-| Donut Visualization | <ul><li>Verhouding</li><li>Aandeel van</li><li>Distributie</li><li>Percentage</li><li>Bijdrage</li><li>Portion</li><li>Onderdelen</li></ul> |
-| Lijnvisualisatie | <ul><li>Trend</li><li>[ Metrisch ] in [ Waaier van de Tijd ]</li></ul> |
-| Staafvisualisatie | <ul><li>[ Metrisch ] door [ dimensie ]</li></ul> |
+| Donut visualisatie | <ul><li>Verhouding</li><li>Aandeel van</li><li>Distributie</li><li>Percentage</li><li>Bijdrage</li><li>Portion</li><li>Onderdelen</li></ul> |
+| Lijnvisualisatie | <ul><li>Trend</li><li>[ Metrisch ] in [ waaier van de Tijd ]</li></ul> |
+| Staafvisualisatie | <ul><li>[ Metrisch ] door [ Dimension ]</li></ul> |
 
 ## Alpha testverwachtingen en gevraagde feedback
 
-Na het stellen van elke vraag, herzie zorgvuldig het verstrekte antwoord van de medewerker. Het is cruciaal om de gegenereerde visualisaties uitgebreid te evalueren voordat u feedback geeft. Denk aan het volgende wanneer het evalueren van de reactie van AI Medewerker:
+Na het stellen van elke vraag, herzie zorgvuldig het verstrekte antwoord van de medewerker. Het is cruciaal om de gegenereerde visualisaties uitgebreid te evalueren voordat u feedback geeft.
 
-* Chat-spoorwegrespons of -sjabloon: evalueer de tekstreactie van de assistent. Is het antwoord geschikt gezien de context van uw vraag(en)?
+Houd rekening met het volgende wanneer u een reactie van de AI Assistant evalueert:
 
-* Visualisatie/grafiek: evalueer de visualisatie. Is het de aangewezen/verwachte visualisatie voor uw vraag, of zou u een verschillende visualisatie hebben verwacht?
+* Chat-spoorwegrespons of -sjabloon: evalueer de tekstreactie van de assistent. Is het antwoord passend gezien de context van uw vraag?
+
+* Visualisatie/grafiek: evalueer de visualisatie. Is het de aangewezen of verwachte visualisatie voor uw vraag, of zou u een verschillende visualisatie hebben verwacht?
 
 * Vrije-vormtabel: evalueer de vrije-vormtabel. Zijn de gegevens van de vrije-vormlijst correct? Is het opsplitsen van gegevens op verzoek? Zijn de toegepaste filters die u vroeg of verwachtte?
 
-* Foutbericht/Buiten-bereik: als een algemeen foutbericht wordt weergegeven waarin wordt aangegeven dat de vraag buiten het bereik valt, geef dan feedback of u van mening bent dat het bericht buiten het bereik geschikt is gezien uw vraag. Was uw vraag eigenlijk binnen het bereik?
+* Foutbericht / Buiten-bereik: als een algemeen foutbericht wordt gegeven waarin wordt aangegeven dat de vraag buiten bereik valt, geef dan feedback of u het bericht buiten bereik geschikt acht, gegeven uw vraag. Was uw vraag eigenlijk binnen bereik?
 
-**voor elke reactie, te geven gelieve duimen omhoog of duimen neer, die op de reactie** worden gebaseerd
+**voor elke reactie, geef omhoog duimen of duimen neer, die op de reactie wordt gebaseerd.**
 
-Na de duimen omhoog/omlaag selectie, gelieve een selectie voor de relevante multi-uitgezochte doos terugkoppelt. Als u aanvullende feedback wilt geven, voegt u notities toe in het geopende tekstvak.
+Na de duimen omhoog of duim onderaan selectie, te maken gelieve een selectie voor de relevante multi-uitgezochte doos terugkoppelt. Als u aanvullende feedback wilt geven, voegt u notities toe in het geopende tekstvak.
 
 ## Vragen en contact
 
-* Vragen en feedback verzenden in het zwarte kanaal van de Alpha: #cja-Assistant-data-alpha
+* Stuur vragen en feedback op de Alpha Slack-zender: #cja-Assistant-data-alpha
