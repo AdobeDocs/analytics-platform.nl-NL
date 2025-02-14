@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: ffa5bcbe246696a8364ff312bff1b7cc1256ff2c
+source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
 workflow-type: tm+mt
-source-wordcount: '10356'
+source-wordcount: '11956'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen kunt uitvoeren
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
 * **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com) {target="_blank"}
+* **Jupyter Notitieboekje**. De gebruikte versie is 7.3.2
 
 De volgende gebruiksgevallen worden gedocumenteerd:
 
@@ -264,6 +265,199 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
 * [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
 
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
+
+   1. Navigeer naar uw Experience Platform-sandbox.
+   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
+   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+
+      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
+
+1. Zorg ervoor dat u een speciale virtuele Python-omgeving hebt ingesteld voor het uitvoeren van uw Jupyter-laptopomgeving.
+1. Controleer of u de vereiste bibliotheken in uw virtuele omgeving hebt geïnstalleerd:
+   * ipython-sql: `pip install ipython-sql`.
+   * psycopg2-binary: `pip install psycopg-binary`.
+   * sqlalchemy: pip `install sqlalchemy` .
+
+1. Start Jupyter-laptop vanuit uw virtuele omgeving: `jupyter notebook` .
+1. Creeer een nieuwe notitieboekje, of download [ deze steekproefnotitieboekje ](assets/BI-Extension.ipynb.zip).
+1. Voer in de eerste cel de volgende gegevens in en voer deze uit:
+
+   ```
+   %config SqlMagic.style = '_DEPRECATED_DEFAULT'
+   ```
+
+1. In een nieuwe cel, ga de config parameters voor uw verbinding in. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de config parameters worden vereist. Bijvoorbeeld:
+
+   ```
+   import ipywidgets as widgets
+   from IPython.display import display
+   
+   config_host = widgets.Text(description='Host:', value='example.platform-query-stage.adobe.io',
+                           layout=widgets.Layout(width="600px"))
+   display(config_host)
+   config_port = widgets.IntText(description='Port:', value=80,
+                              layout=widgets.Layout(width="200px"))
+   display(config_port)
+   config_db = widgets.Text(description='Database:', value='prod:cja',
+                         layout=widgets.Layout(width="300px"))
+   display(config_db)
+   config_username = widgets.Text(description='Username:', value='EC582F955C8A79F70A49420E@AdobeOrg',
+                               layout=widgets.Layout(width="600px"))
+   display(config_username)
+   config_password = widgets.Password(description='Password:', value='***',
+                                   layout=widgets.Layout(width="600px"))
+   display(config_password)
+   ```
+
+1. Voer de cel uit.
+1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan het **[!UICONTROL Password]** gebied in Jupyter Notitieboekje.
+
+   ![ Stap 1 van Config van het Notitieboekje van Jupter ](assets/jupyter-config-step1.png)
+
+1. Voer in een nieuwe cel de instructies in om de SQL-extensie, de vereiste bibliotheek en de verbinding met Customer Journey Analytics te laden.
+
+   ```python
+   %load_ext sql
+   from sqlalchemy import create_engine
+   %sql postgresql://{config_username.value}:{config_password.value}@{config_host.value}:{config_port.value}/{config_db.value}?sslmode=require
+   ```
+
+   Voer de shell uit. Er wordt geen uitvoer weergegeven, maar de cel moet zonder waarschuwing worden uitgevoerd.
+
+   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1}](assets/jupyter-config-step2.png)
+
+1. In een nieuwe vraag, ga de verklaringen in om een lijst van beschikbare gegevensmeningen te krijgen die op de verbinding worden gebaseerd.
+
+   ```python
+   %%sql
+   SELECT n.nspname as "Schema",
+      c.relname as "Name",
+      CASE c.relkind WHEN 'r' THEN 'table' WHEN 'v' THEN 'view' WHEN 'm' THEN 'materialized view' WHEN 'i' THEN 'index' WHEN 'S' THEN 'sequence' WHEN 's' THEN 'special' WHEN 't' THEN 'TOAST table' WHEN 'f' THEN 'foreign table' WHEN 'p' THEN 'partitioned table' WHEN 'I' THEN 'partitioned index' END as "Type",
+      pg_catalog.pg_get_userbyid(c.relowner) as "Owner"
+   FROM pg_catalog.pg_class c
+   LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+   WHERE c.relkind IN ('v','')
+      AND n.nspname <> 'pg_catalog'
+      AND n.nspname !~ '^pg_toast'
+      AND n.nspname <> 'information_schema'
+      AND pg_catalog.pg_table_is_visible(c.oid)
+      AND c.relname NOT LIKE '%test%'
+      AND c.relname NOT LIKE '%ajo%'
+   ORDER BY 1,2;
+   ```
+
+   Voer de shell uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
+
+   ![ Stap 5 van Config van het Notitieboekje van Jupyter ](assets/jupyter-config-step3.png)
+
+   De **[!UICONTROL cc_data_view]** wordt weergegeven in de lijst met gegevensweergaven.
+
+### Naar FLATTEN of niet
+
+Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+
+| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
+|---|---|:---:|---|
+| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
+
+### Meer informatie
+
+* [Vereisten](/help/data-views/bi-extension.md#prerequisites)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+
+>[!TAB  RStudio ]
+
+1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
+
+   1. Navigeer naar uw Experience Platform-sandbox.
+   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
+   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+
+      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
+
+1. Start RStudio.
+1. Creeer een nieuw dossier van de Markering R, of download [ dit voorbeeld of markeringsdossier ](assets/BI-Extension.Rmd.zip).
+1. Voer in het eerste segment de volgende instructies in tussen ` ```{r} ` en ` ``` ` . Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de diverse parameters, zoals `host` worden vereist, `dbname`, en `user`. Bijvoorbeeld:
+
+   ```R
+   library(rstudioapi)
+   library(DBI)
+   library(dplyr)
+   library(tidyr)
+   library(RPostgres)
+   library(ggplot2)
+   
+   host <- rstudioapi::showPrompt(title = "Host", message = "Host", default = "orangestagingco.platform-query-stage.adobe.io")
+   dbname <- rstudioapi::showPrompt(title = "Database", message = "Database", default = "prod:cja?FLATTEN")
+   user <- rstudioapi::showPrompt(title = "Username", message = "Username", default = "EC582F955C8A79F70A49420E@AdobeOrg")
+   password <- rstudioapi::askForPassword(prompt = "Password")
+   ```
+
+1. Voer het segment uit. U wordt gevraagd om **[!UICONTROL Host]** , **[!UICONTROL Database]** en **[!UICONTROL User]** . Accepteer gewoon de waarden die u hebt opgegeven als onderdeel van de vorige stap.
+1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de **[!UICONTROL Password]** dialoogherinnering in RStudio te kopiëren en te kleven.
+
+   ![ RStudio config stap 1 ](assets/rstudio-config-step1.png)
+
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
+
+   ```R
+   con <- dbConnect(
+      RPostgres::Postgres(),
+      host = host,
+      port = 80,
+      dbname = dbname,
+      user = user,
+      password = password,
+      sslmode = 'require'
+   )
+   ```
+
+1. Voer het segment uit. Er wordt geen uitvoer weergegeven als de verbinding is gelukt.
+
+
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
+
+   ```R
+   views <- dbListTables(con)
+   print(views)
+   ```
+
+1. Voer het segment uit. U moet `character(0)` zien als de enige uitvoer.
+
+
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
+
+   ```R
+   glimpse(dv)
+   ```
+
+1. Voer het segment uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
+
+   ![ RStudio config stap 2 ](assets/rstudio-config-step2.png)
+
+### Naar FLATTEN of niet
+
+RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+
+| FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
+|---|---|:---:|---|
+| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | |
+
+### Meer informatie
+
+* [Vereisten](/help/data-views/bi-extension.md#prerequisites)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+
 >[!ENDTABS]
 
 +++
@@ -381,6 +575,54 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ Minder resultaat dagelijkse trend ](assets/uc2-looker-result.png){zoomable="yes"}
 
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangeday AS Date, COUNT(*) AS Events \
+             FROM cc_data_view \
+             WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+             GROUP BY 1 \
+             ORDER BY Date ASC
+   df = data.DataFrame()
+   df = df.groupby('Date', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Date', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc2-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Daily Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      group_by(daterangeday) %>%
+      count() %>%
+      arrange(daterangeday, .by_group = FALSE)
+   ggplot(df, aes(x = daterangeday, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Date")
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc2-rstudio-results.png)
+
 >[!ENDTABS]
 
 +++
@@ -470,6 +712,54 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ Minder resultaat dagelijkse trend ](assets/uc3-looker-result.png){zoomable="yes"}
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangehour AS Hour, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-01-02' \
+               GROUP BY 1 \
+                ORDER BY Hour ASC
+   df = data.DataFrame()
+   df = df.groupby('Hour', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Hour', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc3-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Hourly Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-01-02") %>%
+      group_by(daterangehour) %>%
+      count() %>%
+      arrange(daterangehour, .by_group = FALSE)
+   ggplot(df, aes(x = daterangehour, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc3-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -589,6 +879,54 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ Minder resultaat dagelijkse trend ](assets/uc4-looker-result.png){zoomable="yes"}
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangemonth AS Month, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               ORDER BY Month ASC
+   df = data.DataFrame()
+   df = df.groupby('Month', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Month', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc4-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Hourly Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-01-02") %>%
+      group_by(daterangehour) %>%
+      count() %>%
+      arrange(daterangehour, .by_group = FALSE)
+   ggplot(df, aes(x = daterangehour, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc4-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -767,6 +1105,57 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ Minder resultaat dagelijkse trend ](assets/uc5-looker-result.png){zoomable="yes"}
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Purchase Revenue', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc5-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   library(tidyr)
+   
+   ## Single dimension ranked
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases)) %>%
+      arrange(product_name, .by_group = FALSE)
+   dfV <- df %>%
+      head(5)
+   ggplot(dfV, aes(x = purchase_revenue, y = product_name)) +
+      geom_col(position = "dodge") +
+      geom_text(aes(label = purchase_revenue), vjust = -0.5)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -976,6 +1365,52 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ Minder resultaat dagelijkse trend ](assets/uc6-looker-result.png){zoomable="yes"}
 
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_category AS `Product Category`, product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1, 2 \
+               ORDER BY `Purchase Revenue` DESC \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby(['Product Category', 'Product Name'], as_index=False).sum()
+   plt.figure(figsize=(8, 8))
+   sns.scatterplot(x='Product Category', y='Product Name', size='Purchase Revenue', sizes=(10, 200), hue='Purchases', palette='husl', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc6-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Multiple dimensions ranked
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_category, product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases), .groups = "keep") %>%
+      arrange(desc(purchase_revenue), .by_group = FALSE)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc6-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1109,6 +1544,40 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ minder duidelijke telling ](assets/uc7-looker-result.png){zoomable="yes"}
 
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT COUNT(DISTINCT(product_name)) AS `Product Name` \
+      FROM cc_data_view \
+      WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01';
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc7-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Count Distinct
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      summarise(product_name_count_distinct = n_distinct(product_name))
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc7-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1193,6 +1662,73 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ minder duidelijke telling ](assets/uc8-looker-result.png){zoomable="yes"}
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT daterangeName FROM cc_data_view;
+   style = {'description_width': 'initial'}
+   daterange_name = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Date Range Name:',
+      style=style
+   )
+   display(daterange_name)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-input.png)
+
+1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangemonth AS Month, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterangeName = '{daterange_name.value}' \
+               GROUP BY 1 \
+               ORDER BY Month ASC
+   df = data.DataFrame()
+   df = df.groupby('Month', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Month', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Zorg ervoor dat u de juiste naam voor het datumbereik gebruikt. Bijvoorbeeld `Last Year 2023` .
+
+   ```R
+   ## Monthly Events for Last Year
+   df <- dv %>%
+      filter(daterangeName == "Last Year 2023") %>%
+      group_by(daterangemonth) %>%
+      count() %>%
+      arrange(daterangemonth, .by_group = FALSE)
+   ggplot(df, aes(x = daterangemonth, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc8-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1293,6 +1829,72 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ![ minder duidelijke telling ](assets/uc9-looker-result.png){zoomable="yes"}
 
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT filterName FROM cc_data_view;
+   style = {'description_width': 'initial'}
+   filter_name = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Filter Name:',
+      style=style
+   )
+   display(filter_name)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-input.png)
+
+1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+                  AND filterName = '{filter_name.value}' \
+               GROUP BY 1 \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Events', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Controleer of u de juiste filternaam gebruikt. Bijvoorbeeld `Fishing Products` .
+
+   ```R
+   ## Dimension filtered by name
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01" & filterName == "Fishing Products") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc9-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1300,7 +1902,8 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 ## Dimensiewaarden gebruiken om te filteren
 
-U maakt een nieuw filter in Customer Journey Analytics dat op producten uit de categorie jachtproducten filtert. Vervolgens wilt u het nieuwe filter gebruiken om productnamen en voorvallen (voorvallen) te rapporteren voor producten uit de jachtcategorie in januari 2023.
+U gebruikt de dynamische **[!UICONTROL Hunting]** waarde voor **[!UICONTROL Product Category]** om producten van de jachtcategorie te filteren. Voor de BI-gereedschappen die het dynamisch ophalen van productcategoriewaarden niet ondersteunen, maakt u in Customer Journey Analytics een nieuw filter dat op producten uit de categorie van het jachtproduct filtert.
+Vervolgens wilt u het nieuwe filter gebruiken om productnamen en voorvallen (voorvallen) te rapporteren voor producten uit de jachtcategorie in januari 2023.
 
 +++ Customer Journey Analytics
 
@@ -1329,7 +1932,7 @@ Vervolgens kunt u dat filter in een voorbeeldvenster van **[!UICONTROL Using Dim
 
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterange]** .
-   1. Selecteer **[!UICONTROL filterName]** .
+   1. Selecteer **[!UICONTROL product_category]** .
    1. Selecteer **[!UICONTROL product_name]** .
    1. Selecteer **[!UICONTROL ∑ occurrences]** .
 
@@ -1338,20 +1941,22 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. In het deelvenster **[!UICONTROL Filters]** :
    1. Selecteer **[!UICONTROL filterName is (All)]** in **[!UICONTROL Filters on this visual]** .
    1. Selecteer **[!UICONTROL Basic filtering]** als de **[!UICONTROL Filter type]** .
-   1. Onder het veld **[!UICONTROL Search]** selecteert u **[!UICONTROL Hunting Products]** . Dit is de naam van het bestaande filter dat in Customer Journey Analytics is gedefinieerd.
    1. Selecteer **[!UICONTROL daterange is (All)]** in **[!UICONTROL Filters on this visual]** .
    1. Selecteer **[!UICONTROL Advanced filtering]** als de **[!UICONTROL Filter type]** .
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
+   1. Selecteer **[!UICONTROL Basic filter]** als de **[!UICONTROL Filter type]** for **[!UICONTROL product_category]** en selecteer **[!UICONTROL Hunting]** in de lijst met mogelijke waarden.
    1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
    1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
 
-   De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL filterName]** . Je Power BI Desktop moet er hieronder uitzien.
+   De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL product_category]** . Je Power BI Desktop moet er hieronder uitzien.
 
    ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
 >[!TAB  Desktop Tableau ]
+
+![ AlertRed ](/help/assets/icons/AlertRed.svg) Desktop van Tableau steunt het halen van de dynamische lijst van productcategorieën van Customer Journey Analytics niet. In plaats daarvan wordt in dit geval het nieuwe filter voor **[!UICONTROL Hunting Products]** gebruikt en worden de criteria voor de filternaam gebruikt.
 
 1. Selecteer **[!UICONTROL Refresh]** onder **[!UICONTROL Data]** in de **[!UICONTROL Data Source]** -weergave in het contextmenu op **[!UICONTROL cc_data_view(prod:cja%3FFLATTEN)]** . U moet de verbinding vernieuwen om het nieuwe filter op te halen dat u net in Customer Journey Analytics hebt gedefinieerd.
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
@@ -1384,15 +1989,75 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Product Category]** in de lijst met velden.
 1. Controleer **[!UICONTROL is]** als de selectie voor het filter.
-1. Selecteer **[!UICONTROL Hunting Products]** in de lijst met mogelijke waarden.
-1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Product Name]** .
-   1. Selecteer **[!UICONTROL Count]** onder **[!UICONTROL MEASURES]** in de linkertrack (onder).
-1. Selecteer **[!UICONTROL Run]** .
 
-U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
+![ AlertRed ](/help/assets/icons/AlertRed.svg) Lijnen toont niet de lijst van mogelijke waarden voor **[!UICONTROL Product Category]**.
 
 ![ minder duidelijke telling ](assets/uc10-looker-result.png){zoomable="yes"}
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT DISTINCT product_category FROM cc_data_view WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01';
+   style = {'description_width': 'initial'}
+   category_filter = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Product Category:',
+      style=style
+   )
+   display(category_filter)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-input.png)
+
+1. Selecteer **[!UICONTROL Hunting]** in het vervolgkeuzemenu.
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               AND product_category = '{category_filter.value}' \
+               GROUP BY 1 \
+               ORDER BY Events DESC \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Events', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-results.png)
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Gebruik de juiste categorie. Bijvoorbeeld `Hunting` .
+
+   ```R
+   ## Dimension 1 Filtered by Dimension 2 value
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01" & product_category == "Hunting") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc10-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1601,12 +2266,69 @@ SELECT
     COALESCE(SUM(CAST(( cc_data_view."purchase_revenue"  ) AS DOUBLE PRECISION)), 0) AS "purchase_revenue"
 FROM
     "public"."cc_data_view" AS "cc_data_view"
-WHERE ((( cc_data_view."daterange"  ) >= (DATE_TRUNC('day', DATE '2023-01-31')) AND ( cc_data_view."daterange"  ) < (DATE_TRUNC('day', DATE '2023-02-01'))))
+WHERE ((( cc_data_view."daterange"  ) >= (DATE_TRUNC('day', DATE '2024-01-31')) AND ( cc_data_view."daterange"  ) < (DATE_TRUNC('day', DATE '2023-02-01'))))
 GROUP BY
     1
 ORDER BY
     2 DESC
 FETCH NEXT 500 ROWS ONLY
+```
+
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               GROUP BY 1 \
+               ORDER BY `Purchase Revenue` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc11-jupyter-results.png)
+
+De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
+
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Dimension 1 Sorted
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      group_by(product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases), .groups = "keep") %>%
+      arrange(desc(purchase_revenue), .by_group = FALSE)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc11-rstudio-results.png)
+
+De query die wordt gegenereerd door RStudio met de BI-extensie bevat `ORDER BY` . Dit houdt in dat de volgorde wordt toegepast via RStudio en de BI-extensie.
+
+```sql
+SELECT
+  "product_name",
+  SUM("purchase_revenue") AS "purchase_revenue",
+  SUM("purchases") AS "purchases"
+FROM (
+  SELECT "cc_data_view".*
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" < '2023-02-01')
+) AS "q01"
+GROUP BY "product_name"
+ORDER BY "purchase_revenue" DESC
+LIMIT 1000
 ```
 
 >[!ENDTABS]
@@ -1838,6 +2560,60 @@ ORDER BY
 FETCH NEXT 5 ROWS ONLY
 ```
 
+
+>[!TAB  Jupyter Notitieboekje ]
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               GROUP BY 1 \
+               ORDER BY `Events` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc12-jupyter-results.png)
+
+De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
+
+>[!TAB  RStudio ]
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   ## Dimension 1 Limited
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE) %>%
+      head(5)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc12-rstudio-results.png)
+
+De query die wordt gegenereerd door RStudio met de BI-extensie bevat `LIMIT 5` . Dit houdt in dat de limiet wordt toegepast via RStudio en de BI-extensie.
+
+```sql
+SELECT "product_name", COUNT(*) AS "n"
+FROM (
+  SELECT "cc_data_view".*
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" < '2024-01-01')
+) AS "q01"
+GROUP BY "product_name"
+ORDER BY "n" DESC
+LIMIT 5
+```
+
 >[!ENDTABS]
 
 +++
@@ -1987,7 +2763,7 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 
 >[!TAB  Leider ]
 
-De Customer Journey Analytics-objecten zijn beschikbaar via de interface van **[!UICONTROL Explore]** . En worden teruggewonnen als deel van vestiging uw verbinding, project, en model in Drager. Bijvoorbeeld **[!UICONTROL cc_data_view]** . De naam van de weergave is gelijk aan de externe id die u voor de gegevensweergave in Customer Journey Analytics hebt gedefinieerd. Gegevens worden bijvoorbeeld weergegeven met **[!UICONTROL Title]** `C&C - Data View` en **[!UICONTROL External ID]** `cc_data_view` .
+De Customer Journey Analytics-objecten zijn beschikbaar in de **[!UICONTROL Explore]** -interface. En worden teruggewonnen als deel van vestiging uw verbinding, project, en model in Drager. Bijvoorbeeld **[!UICONTROL cc_data_view]** . De naam van de weergave is gelijk aan de externe id die u voor de gegevensweergave in Customer Journey Analytics hebt gedefinieerd. Gegevens worden bijvoorbeeld weergegeven met **[!UICONTROL Title]** `C&C - Data View` en **[!UICONTROL External ID]** `cc_data_view` .
 
 **Afmetingen**
 Dimensies van Customer Journey Analytics worden weergegeven als **[!UICONTROL DIMENSION]** in de **[!UICONTROL Cc Data View]** linkerrails. De dimensie wordt gedefinieerd in uw Customer Journey Analytics-gegevensweergave. Dimensies **[!UICONTROL Product Name]** in Customer Journey Analytics hebben bijvoorbeeld een **[!UICONTROL DIMENSION]** **[!UICONTROL Product Name]** . Dit is de naam voor de dimensie in Looker.
@@ -2034,6 +2810,66 @@ GROUP BY
 ORDER BY
     2 DESC
 FETCH NEXT 500 ROWS ONLY
+```
+
+>[!TAB  Jupyter Notitieboekje ]
+
+De Customer Journey Analytics-objecten (afmetingen, metriek, filters, berekende metriek en datumbereiken) zijn beschikbaar als onderdeel van de ingesloten SQL-query&#39;s die u maakt. Zie eerdere voorbeelden.
+
+**de transformaties van de Douane**
+
+1. Voer de volgende instructies in een nieuwe cel in.
+
+   ```python
+   data = %sql SELECT LOWER(product_category) AS `Product Category`, COUNT(*) AS EVENTS \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               ORDER BY `Events` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc13-jupyter-results.png)
+
+De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
+
+>[!TAB  RStudio ]
+
+De Customer Journey Analytics-componenten (afmetingen, metriek, filters, berekende metriek en datumbereiken) zijn beschikbaar als vergelijkbare benoemde objecten in de R-taal. Raadpleeg de componenten die de component gebruiken Zie eerdere voorbeelden.
+
+**de transformaties van de Douane**
+
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+
+   ```R
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange <= "2024-01-01") %>%
+      mutate(d2=lower(product_category)) %>%
+      group_by(d2) %>%
+      count() %>%
+      arrange(d2, .by_group = FALSE)
+   print(df)
+   ```
+
+1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+
+   ![ Resultaten RStudio ](assets/uc13-rstudio-results.png)
+
+De query die wordt gegenereerd door RStudio met de BI-extensie bevat `lower` . Dit houdt in dat de aangepaste transformatie wordt uitgevoerd door RStudio en de BI-extensie.
+
+```sql
+SELECT "d2", COUNT(*) AS "n"
+FROM (
+  SELECT "cc_data_view".*, lower("product_category") AS "d2"
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" <= '2024-01-01')
+) AS "q01"
+GROUP BY "d2"
+ORDER BY "d2"
+LIMIT 1000
 ```
 
 >[!ENDTABS]
@@ -2235,7 +3071,19 @@ Voor de meeste Customer Journey Analytics-visualisaties biedt Lader vergelijkbar
 | ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | [Boomstructuur](https://cloud.google.com/looker/docs/treemap) |
 | ![ Type ](/help/assets/icons/TwoDots.svg) | [ Diagram van de Venn ](/help/analysis-workspace/visualizations/venn.md) | [ Diagram van de Venn ](https://cloud.google.com/looker/docs/venn) |
 
+>[!TAB  Jupyter Notitieboekje ]
+
+Het vergelijken van de visualiseringsmogelijkheden van **matplotlib.pyplot**, de op staat-gebaseerde interface aan matplotlib, is voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [ matplotlib.pyplot ](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) documentatie.
+
+
+>[!TAB  RStudio ]
+
+Het vergelijken van de visualiseringsmogelijkheden van **ggplot2**, is het pakket van de gegevensvisualisatie in R, voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [ gplot2 ](https://ggplot2.tidyverse.org/articles/ggplot2.html) documentatie.
+
 >[!ENDTABS]
+
+
+
 
 +++
 
@@ -2271,6 +3119,15 @@ Elk van de ondersteunde BI-gereedschappen heeft een aantal bedenkingen bij het w
 * De gebruikerservaring van de kiezer op datum- of datum-tijdvelden zoals **[!UICONTROL Daterange Date]** of **[!UICONTROL Daterangeday Date]** is verwarrend.
 * Het datumbereik van Lager is exclusief in plaats van inclusief.  **[!UICONTROL until (before)]** is grijs, zodat u dat aspect kunt missen.  Voor uw einddag, moet u één meer dan de dag selecteren u wilt melden.
 * In de viewer worden uw meetgegevens niet automatisch als meetgegevens beschouwd.  Wanneer u metrisch selecteert, door gebrek probeert de Teller metrisch als afmeting in de vraag te behandelen.  Om metriek als metrisch te behandelen, moet u een douanegebied tot stand brengen zoals hierboven geïllustreerd. Als sneltoets kunt u **[!UICONTROL ⋮]** selecteren, **[!UICONTROL Aggregate]** selecteren en vervolgens **[!UICONTROL Sum]** selecteren.
+
+>[!TAB  Jupyter Notitieboekje ]
+
+* Het belangrijkste voorbehoud voor Jupyter Notitieboekje is dat het hulpmiddel geen belemmering-en-dalingsgebruikersinterface zoals andere hulpmiddelen van BI heeft. U kunt goede beelden tot stand brengen, maar u moet code schrijven om dit te verwezenlijken.
+
+>[!TAB  RStudio ]
+
+* De illustratie werkt met een plat schema, dus de optie **[!UICONTROL FLATTEN]** is vereist.
+* Het belangrijkste voorbehoud voor RStudio is dat het hulpmiddel geen belemmering-en-dalingsgebruikersinterface zoals andere hulpmiddelen van BI heeft. U kunt goede beelden tot stand brengen, maar u moet code schrijven om dit te verwezenlijken.
 
 >[!ENDTABS]
 
