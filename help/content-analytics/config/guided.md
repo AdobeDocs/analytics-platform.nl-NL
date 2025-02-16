@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
+source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 1%
@@ -273,7 +273,7 @@ Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting de
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="Waarschuwing bij onboarding-implementatie"
->abstract="Hiermee configureert u de inhoudanalyse gedeeltelijk op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende andere instellingen worden automatisch gekozen op basis van wat doorgaans nuttig is voor Content Analytics. U wordt aangeraden de instellingen van elk artefact te controleren om te controleren of deze aan uw vereisten en richtlijnen voldoen. <br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/> ook merk op dat om attributen van beelden en tekst af te leiden, Adobe deze attributen zal terugwinnen gebruikend url die op het tijdstip van het gebruikersbezoek wordt gevangen per de montages van de gegevensinzameling u hebt uitgevoerd."
+>abstract="Hiermee configureert u de inhoudanalyse gedeeltelijk op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende andere instellingen worden automatisch gekozen op basis van wat doorgaans nuttig is voor Content Analytics. U wordt aangeraden de instellingen van elk artefact te controleren om te controleren of deze aan uw vereisten en richtlijnen voldoen. <br/><br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/><br/> ook merk op dat om attributen van beelden en tekst af te leiden, Adobe deze attributen zal terugwinnen gebruikend url die op het tijdstip van het gebruikersbezoek wordt gevangen per de montages van de gegevensinzameling u hebt uitgevoerd."
 
 <!-- markdownlint-enable MD034 -->
 
