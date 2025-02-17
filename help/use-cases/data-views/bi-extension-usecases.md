@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
+source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 0%
@@ -318,7 +318,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 1. Voer de cel uit.
 1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan het **[!UICONTROL Password]** gebied in Jupyter Notitieboekje.
 
-   ![ Stap 1 van Config van het Notitieboekje van Jupter ](assets/jupyter-config-step1.png)
+   ![ Stap 1 van Config van het Notitieboekje van Jupter ](assets/jupyter-config-step1.png){zoomable="yes"}
 
 1. Voer in een nieuwe cel de instructies in om de SQL-extensie, de vereiste bibliotheek en de verbinding met Customer Journey Analytics te laden.
 
@@ -330,7 +330,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
    Voer de shell uit. Er wordt geen uitvoer weergegeven, maar de cel moet zonder waarschuwing worden uitgevoerd.
 
-   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1}](assets/jupyter-config-step2.png)
+   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1}](assets/jupyter-config-step2.png){zoomable="yes"}
 
 1. In een nieuwe vraag, ga de verklaringen in om een lijst van beschikbare gegevensmeningen te krijgen die op de verbinding worden gebaseerd.
 
@@ -354,7 +354,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
    Voer de shell uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
 
-   ![ Stap 5 van Config van het Notitieboekje van Jupyter ](assets/jupyter-config-step3.png)
+   ![ Stap 5 van Config van het Notitieboekje van Jupyter ](assets/jupyter-config-step3.png){zoomable="yes"}
 
    De **[!UICONTROL cc_data_view]** wordt weergegeven in de lijst met gegevensweergaven.
 
@@ -405,7 +405,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 1. Voer het segment uit. U wordt gevraagd om **[!UICONTROL Host]** , **[!UICONTROL Database]** en **[!UICONTROL User]** . Accepteer gewoon de waarden die u hebt opgegeven als onderdeel van de vorige stap.
 1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de **[!UICONTROL Password]** dialoogherinnering in RStudio te kopiëren en te kleven.
 
-   ![ RStudio config stap 1 ](assets/rstudio-config-step1.png)
+   ![ RStudio config stap 1 ](assets/rstudio-config-step1.png){zoomable="yes"}
 
 1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
 
@@ -442,7 +442,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
 1. Voer het segment uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
 
-   ![ RStudio config stap 2 ](assets/rstudio-config-step2.png)
+   ![ RStudio config stap 2 ](assets/rstudio-config-step2.png){zoomable="yes"}
 
 ### Naar FLATTEN of niet
 
@@ -599,7 +599,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc2-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc2-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -622,7 +622,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc2-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc2-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -737,7 +737,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc3-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc3-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -760,7 +760,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc3-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc3-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -904,7 +904,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc4-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc4-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -927,7 +927,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc4-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc4-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1130,7 +1130,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc5-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc5-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -1156,7 +1156,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc5-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc5-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1390,7 +1390,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc6-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc6-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -1409,7 +1409,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc6-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc6-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1559,7 +1559,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc7-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc7-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -1576,7 +1576,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc7-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc7-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1682,7 +1682,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-input.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-input.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
 
@@ -1706,7 +1706,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -1729,7 +1729,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc8-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc8-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1849,7 +1849,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-input.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-input.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
 
@@ -1874,7 +1874,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -1893,7 +1893,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc9-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc9-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -2013,7 +2013,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-input.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-input.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Hunting]** in het vervolgkeuzemenu.
 
@@ -2039,7 +2039,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB  RStudio ]
@@ -2058,7 +2058,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc10-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc10-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -2292,7 +2292,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc11-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc11-jupyter-results.png){zoomable="yes"}
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2313,7 +2313,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc11-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc11-rstudio-results.png){zoomable="yes"}
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `ORDER BY` . Dit houdt in dat de volgorde wordt toegepast via RStudio en de BI-extensie.
 
@@ -2578,7 +2578,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc12-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc12-jupyter-results.png){zoomable="yes"}
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2599,7 +2599,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc12-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc12-rstudio-results.png){zoomable="yes"}
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `LIMIT 5` . Dit houdt in dat de limiet wordt toegepast via RStudio en de BI-extensie.
 
@@ -2833,7 +2833,7 @@ De Customer Journey Analytics-objecten (afmetingen, metriek, filters, berekende 
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc13-jupyter-results.png)
+   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc13-jupyter-results.png){zoomable="yes"}
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2857,7 +2857,7 @@ De Customer Journey Analytics-componenten (afmetingen, metriek, filters, bereken
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc13-rstudio-results.png)
+   ![ Resultaten RStudio ](assets/uc13-rstudio-results.png){zoomable="yes"}
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `lower` . Dit houdt in dat de aangepaste transformatie wordt uitgevoerd door RStudio en de BI-extensie.
 

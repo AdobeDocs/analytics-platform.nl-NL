@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics BI-extensie
-description: Leer hoe u Power BI of Desktop kunt gebruiken Tableau om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
+description: Leer hoe u Power BI of Tableau Desktop kunt gebruiken om tot gegevensmeningen toegang te hebben gebruikend de uitbreiding van Customer Journey Analytics BI.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
+source-git-commit: 30e3df15aecec0bab180cd06e0ae7c79f58cdf44
 workflow-type: tm+mt
-source-wordcount: '3145'
+source-wordcount: '3561'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensingenieurs en analisten zouden met Power BI, Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die gebruikers van Customers Journey Analytics gebruiken bij het maken van hun Analysis Workspace-projecten.
+[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensengineers en analisten zouden met Power BI, de Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
 
-De Dienst van de Vraag van Adobe Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om de gegevensweergaven van uw Customer Journey Analytics als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
+De Dienst van de Vraag van Adobe Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
 
 De belangrijkste voordelen zijn:
 
-* Het is niet nodig om een gelijkwaardige vertegenwoordiging van de gegevensmeningen van de Customer Journey Analytics binnen het hulpmiddel van BI zelf te ontspannen. <br/> zie [ meningen van Gegevens ](data-views.md) voor meer informatie over de functionaliteit van gegevensmeningen om te begrijpen wat moet worden ontspannen.
+* Het is niet nodig om een gelijkwaardige weergave van Customer Journey Analytics-gegevensweergaven opnieuw te maken in het BI-gereedschap zelf. <br/> zie [ meningen van Gegevens ](data-views.md) voor meer informatie over de functionaliteit van gegevensmeningen om te begrijpen wat moet worden ontspannen.
 * Meer consistentie in rapportage en analyse tussen BI-instrumenten en Customer Journey Analytics.
-* Combineer de gegevens van de Customer Journey Analytics met andere gegevensbronnen reeds beschikbaar in de hulpmiddelen van BI.
+* Combineer Customer Journey Analytics-gegevens met andere gegevensbronnen die al beschikbaar zijn in BI-gereedschappen.
 
 ## Vereisten
 
@@ -37,7 +37,7 @@ Hieronder vindt u aanvullende stappen voor het instellen van CJA-machtigingen
 Als u verlopen referenties wilt gebruiken, kunt u:
 
 * Toegang verlenen tot Experience Platform en Customer Journey Analytics.
-* De admin van het Product toegang tot Customer Journey Analytics verlenen, zodat kunt u verbindingen en gegevensmeningen bekijken, uitgeven, bijwerken, of schrappen.
+* Bied productbeheerders toegang tot Customer Journey Analytics, zodat u verbindingen en gegevensweergaven kunt weergeven, bewerken, bijwerken of verwijderen.
 
 U kunt ook:
 
@@ -48,10 +48,10 @@ U kunt ook:
 
 Niet-vervallende referenties gebruiken:
 
-* Niet-vervallende referenties maken in Experience Platform.
+* Niet-vervallende gegevens maken in Experience Platform.
 * De toegang van de subsidie tot de niet-vervallende geloofsbrieven door de stappen te volgen die in [ worden vermeld het Verlopen Referenties ](#Expiring-credentials).
 
-Zie [ Controle van de Toegang van de Reis van de Klant ](../technotes/access-control.md) voor meer informatie, specifiek de [ extra toestemmingen van Admin van het Product ](../technotes/access-control.md#product-admin-additional-permissions) en [ Toestemmingen van de Customer Journey Analytics in de Admin Console ](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
+Zie [ Controle van de Toegang van de Reis van de Klant ](../technotes/access-control.md) voor meer informatie, specifiek de [ extra toestemmingen van Admin van het Product ](../technotes/access-control.md#product-admin-additional-permissions) en [ de Toestemmingen van Customer Journey Analytics in Admin Console ](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Gebruik
@@ -124,24 +124,24 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteun
 
    1. In het **[!UICONTROL ** PostgressSQL- gegevensbestand **]** dialoog:
 
-      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van het Experience Platform [!UICONTROL Credentials] op het **[!UICONTROL ** de tekstgebied van de Server **]**.
+      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van Experience Platform [!UICONTROL Credentials] op het **[!UICONTROL ** de tekstgebied van de Server **]**.
 
-      1. Plak de **[!UICONTROL ** parameter van het Gegevensbestand **]** van de Vragen van het Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
+      1. Plak de **]** parameter van het Gegevensbestand **[!UICONTROL ** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
 
          Voeg `?FLATTEN` aan de **[!UICONTROL ** 2} parameter van het Gegevensbestand {toe, zodat leest het als `prod:cja?FLATTEN` bijvoorbeeld. **]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL DirectQuery]** wanneer hierom wordt gevraagd voor de modus **[!UICONTROL Data Connectivity]** .
 
-      1. U wordt gevraagd om **[!UICONTROL Username]** en **[!UICONTROL Password]** . Gebruik de equivalente parameters van Experience Platforms query&#39;s [!UICONTROL Credentials] .
+      1. U wordt gevraagd om **[!UICONTROL Username]** en **[!UICONTROL Password]** . Gebruik de equivalente parameters van Experience Platform Queries [!UICONTROL Credentials] .
 
 
-   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van de Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL ** **]**.
+   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL ** **]**.
 
    1. Selecteer de lijsten van de gegevensmening die u **[!UICONTROL ** Lading **]** wilt gebruiken en selecteren.
 
    Alle dimensies en metriek die aan een of meer geselecteerde tabellen zijn gekoppeld, worden in het rechterdeelvenster weergegeven en kunnen in uw visualisaties worden gebruikt.
 
-   Zie [ verbinden Power BI met de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) voor meer informatie.
+   Zie [ Power BI aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) voor meer informatie verbinden. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -165,35 +165,110 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] alleen ondersteun
 
    1. In het dialoogvenster [!UICONTROL PostgresSQL] :
 
-      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van het Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** de tekstgebied van de Server **]**.
+      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** de tekstgebied van de Server **]**.
 
-      1. Plak de **[!UICONTROL ** Poort **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** Poort **]** tekstgebied.
+      1. Plak de **[!UICONTROL ** Poort **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** Poort **]** tekstgebied.
 
-      1. Plak de **[!UICONTROL ** parameter van het Gegevensbestand **]** van de Vragen van het Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
+      1. Plak de **]** parameter van het Gegevensbestand **[!UICONTROL ** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
 
          Voeg `%3FFLATTEN` aan de **[!UICONTROL ** 2} parameter van het Gegevensbestand {toe, zodat leest het als `prod:cja%3FFLATTEN` bijvoorbeeld. **]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL ** Gebruikersnaam en Wachtwoord **]** van **[!UICONTROL ** Authentificatie **]** lijst.
 
-      1. Plak **[!UICONTROL ** Gebruikersnaam **]** parameter van de Vragen van het Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstgebied.
+      1. Plak **[!UICONTROL ** Gebruikersnaam **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstgebied.
 
-      1. Plak de **[!UICONTROL ** parameter van het Wachtwoord **]** van de Vragen van het Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Wachtwoord.**]**
+      1. Plak de **[!UICONTROL ** parameter van het Wachtwoord **]** van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Wachtwoord.**]**
 
       1. Selecteer het **[!UICONTROL ** Teken binnen **]**.
 
-   1. De de gegevensmeningen van de Customer Journey Analytics tonen omhoog als lijsten in de **[!UICONTROL ** lijst van de Lijst **]**.
+   1. De gegevensmeningen van Customer Journey Analytics verschijnen omhoog als lijsten in de **[!UICONTROL ** Lijst **]** lijst.
 
    1. Sleep de tabellen die u op het canvas wilt gebruiken.
 
    U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [ Connect Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) voor meer informatie.
+   Zie [ Connect Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) voor meer informatie. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+
++++
+
++++ Liniaal
+
+1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
+
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+
+   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+
+   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Leider.
+
+1. Minder:
+
+   1. Selecteer **[!UICONTROL Admin]** in het linkerspoor.
+   1. Selecteer **[!UICONTROL Connections]** .
+   1. Selecteer **[!UICONTROL Add Connection]** .
+   1. Plak in het scherm **[!UICONTROL Connect your database to Looker]** de juiste waarden wanneer u de nieuwe verbinding instelt. Selecteer **[!UICONTROL PostgreSQL 9.5+]** als dialect.
+   1. Selecteer **[!UICONTROL Test]** om de verbinding te testen.
+   1. Wanneer succesvol, uitgezochte **[!UICONTROL Update]** om uw verbinding te bewaren.
+
+   U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
+
+   Zie [ Drager aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker) voor meer informatie verbinden. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+
++++
+
++++ Jupyter-notebook
+
+1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
+
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+
+   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+
+   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
+
+1. In Jupyter-laptop:
+
+   1. Zorg ervoor dat u de vereiste bibliotheken gebruikt.
+   1. Gebruik de juiste waarden bij het instellen en uitvoeren van de verbinding.
+   1. Test uw verbinding door een relevante query uit te voeren.
+
+   Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
+
+   Zie [ Verbind Jupyter Notitieboekje aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook) voor meer informatie. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+
++++
+
++++ RStudio
+
+1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
+
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+
+   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+
+   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
+
+1. In RStudio:
+
+   1. Zorg ervoor dat u de vereiste bibliotheken gebruikt.
+   1. Gebruik de juiste waarden bij het instellen en uitvoeren van de verbinding.
+   1. Test uw verbinding door een relevante query uit te voeren.
+
+   Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
+
+   Zie [ Connect RStudio aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio) voor meer informatie. Zie ook [ BI het gebruiksgevallen van het uitbreidingsgebruik ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld (dat in plaats daarvan het pakket RPostgres gebruikt).
 
 +++
 
 Zie [ cliënten met de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
 
-Zie [ gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI
+Zie [ gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
 
 ## Functionaliteit
 
@@ -203,9 +278,9 @@ Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u 
 
 ### Datagovernance
 
-De aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics worden overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige gegevens van Customers Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
+De instellingen voor gegevensbeheer in Customer Journey Analytics zijn overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige gegevens van Customer Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
 
-De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van de Customer Journey Analytics worden bezocht. Daarom geven gegevens die met [!DNL Customer Journey Analytics BI extension] worden gevraagd, passende waarschuwingen of fouten weer wanneer ze niet voldoen aan de gedefinieerde privacylabels en beleidsregels.
+De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de gegevensmeningen van Customer Journey Analytics worden aangeschept. Daarom geven gegevens die met [!DNL Customer Journey Analytics BI extension] worden gevraagd, passende waarschuwingen of fouten weer wanneer ze niet voldoen aan de gedefinieerde privacylabels en beleidsregels.
 
 ### Weergaven van gegevens weergeven
 
@@ -386,7 +461,7 @@ ORDER BY -metric1 DESC
 
 {style="table-layout:auto"}
 
-### Ondersteuning van Dimension-functies
+### Dimension-functieondersteuning
 
 Deze functies kunnen worden gebruikt voor afmetingen in de component `SELECT` , `WHERE` of in voorwaardelijke metriek.
 
