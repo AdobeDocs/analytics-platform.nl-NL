@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Customer Journey Analytics
 description: Aanvullende informatie voor de nieuwste versie van Customer Journey Analytics weergeven
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 89ad5b445c79ee318ca064cbeb1da5948a714671
+source-git-commit: 419676a446bd04a1d0f7a96ffc564e439db48f54
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '208'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 24 januari 2025 tot 
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **BI Uitbreiding - de steun van de Leider** | De uitbreiding van Customer Journey Analytics BI nu [ steunt Leider, Notitieboekje Jupyter en de Studio van R ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | zaterdag 24 januari 2025 |
+| **BI Uitbreiding - de steun van de Leider** | De uitbreiding van Customer Journey Analytics BI steunt nu [ Leider, Notitieboekje Jupyter en de Studio van R ](/help/data-views/bi-extension.md). De [ BI de gevallen van het uitbreidingsgebruik ](/help/use-cases/data-views/bi-extension-usecases.md) worden bijgewerkt om op de extra gesteunde hulpmiddelen te wijzen. |   | zaterdag 24 januari 2025 |
 
 ## Oplossingen in Customer Journey Analytics
 
