@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
+source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1810'
 ht-degree: 1%
 
 ---
@@ -148,13 +148,16 @@ Een mening van Gegevens is gebonden aan een Verbinding van Customer Journey Anal
 >title="Vastleggen en definiëren van ervaring"
 >abstract="U kunt de instellingen in de extensie Adobe Content Analytics bewerken in de eigenschap Tag die is gekoppeld aan de geselecteerde configuratie."
 
-
-
 <!-- markdownlint-enable MD034 -->
 
 In deze sectie kunt u Ervaringen opnemen in de gegevens die u verzamelt met Content Analytics.  Een ervaring is alle tekst op een webpagina die reproduceerbaar is met de URL die wordt gebruikt door de eerste gebruiker die die webpagina bezoekt.
 
 Standaard is **[!UICONTROL Include experiences]** uitgeschakeld. Als deze optie is geselecteerd, moet u definiëren voor welke URL&#39;s u ervaringen wilt opnemen.
+
+U zou slechts moeten overwegen om ervaringen op te nemen wanneer het volgende van toepassing is:
+
+* De inhoud op de site wordt alleen met een URL bestuurd.
+* De pagina&#39;s op de site moeten reproduceerbaar zijn met de pagina-URL.
 
 Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
@@ -286,6 +289,7 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
    * **[!UICONTROL Adobe Experience Platform]** configuratie:
       1. Het maken van schema&#39;s om gebeurtenissen voor Content Analytics, elementkenmerken en (indien geconfigureerd) ervaringskenmerken te modelleren.
       1. Het creëren van datasets om de gebeurtenissen van de Analytics van de Inhoud, activa attributen en (indien gevormd) ervaringsattributen te verzamelen.
+      1. Het creëren van een gegevensstroom die de featurization dienst gebruikt om inhoudsattributen van de gebeurtenissen van de Analyse van de Inhoud te produceren en bij te werken.
    * **[!UICONTROL Content Analytics]** configuratie:
       * Opstelling van een proces van de kenmerkassembleur die op de configuratie wordt gebaseerd.
    * **[!UICONTROL Customer Journey Analytics]** configuratie:
