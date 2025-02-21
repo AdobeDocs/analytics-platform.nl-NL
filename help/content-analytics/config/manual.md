@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,16 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-*en nu voor iets volledig verschillend..*
+In dit artikel worden de handmatige configuratiehandelingen beschreven die u nodig hebt om wijzigingen aan te brengen in de implementatie van Content Analytics. In het algemeen, zou u de [ geleide configuratietovenaar ](guided.md) moeten gebruiken om veranderingen in uw implementatie aan te brengen maar niet kunnen alle veranderingen worden aangebracht gebruikend die configuratietovenaar.
+
+De volgende handmatige configuratiehandelingen zijn beschikbaar:
+
+## Publiceren
+
+Om een configuratie van de Analyse van de Inhoud te activeren, moet u het bijbehorende bezit van de Markering publiceren.
+
+
+## Wijzigen
 
 >[!MORELIKETHIS]
 >
