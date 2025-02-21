@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1891'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,11 @@ Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content
 >id="aca_onboarding_dataview_header_alt"
 >title="Gegevens, weergave"
 >abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen.<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change"
+>title="Gegevens selecteren, weergave"
+>abstract="De selectie van een nieuwe gegevensweergave resulteert in een update van die gegevensweergave, zodat deze de metriek en afmetingen voor Content Analytics bevat. Indien nodig, wordt de bijbehorende verbinding ook bijgewerkt om de gegevenssets van Content Analytics op te nemen. De verbinding en de gegevensmening die momenteel voor Inhoud Analytics worden gevormd worden niet gewijzigd."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +281,7 @@ Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting de
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="Waarschuwing bij onboarding-implementatie"
->abstract="Hiermee configureert u de inhoudanalyse gedeeltelijk op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende andere instellingen worden automatisch gekozen op basis van wat doorgaans nuttig is voor Content Analytics. U wordt aangeraden de instellingen van elk artefact te controleren om te controleren of deze aan uw vereisten en richtlijnen voldoen. <br/><br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/><br/> ook merk op dat om attributen van beelden en tekst af te leiden, Adobe deze attributen zal terugwinnen gebruikend url die op het tijdstip van het gebruikersbezoek wordt gevangen per de montages van de gegevensinzameling u hebt uitgevoerd."
+>abstract="Als u **[!UICONTROL Implement]** selecteert, configureert u Inhoud analyseren op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende instellingen worden standaard gekozen op basis van wat doorgaans nuttig is voor Content Analytics, maar u (als de voor de verwerking verantwoordelijke) moet de instellingen van elk artefact controleren om te bevestigen dat de instellingen zijn geïmplementeerd in overeenstemming met uw privacybeleid, contractuele rechten en verplichtingen en toestemmingsvereisten onder de toepasselijke wetgeving.<br/><br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/><br/> om attributen van beelden en tekst af te leiden, zal Adobe de attributen terugwinnen gebruikend:<ol><li>De URL die tijdens het bezoek van de gebruikerssite is vastgelegd, volgens de instellingen voor gegevensverzameling die u hebt geconfigureerd, en</li><li>De URL waar de afbeelding wordt gehost.</li></ol>U mag geen tags toewijzen aan afbeeldingen die worden gehost op sites van derden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,27 +290,25 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
 
 * **[!UICONTROL Discard]**: alle wijzigingen die zijn aangebracht als onderdeel van het maken van een nieuwe configuratie of het bewerken van een bestaande configuratie, worden genegeerd.
 * **[!UICONTROL Save for later]**: Wijzigingen die in een nieuwe configuratie of een bestaande, nog niet geïmplementeerde configuratie zijn aangebracht, worden opgeslagen. U kunt de configuratie in een later stadium herzien om verdere veranderingen aan te brengen, of de configuratie uit te voeren.
-* **[!UICONTROL Implement]**: Wijzigingen die in een nieuwe configuratie of in een bestaande, nog niet geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en geïmplementeerd. De uitvoering bestaat uit:
+* **[!UICONTROL Implement]**: instellingen voor of wijzigingen die zijn aangebracht in een nieuwe configuratie of een bestaande, nog niet geïmplementeerde configuratie, worden opgeslagen en geïmplementeerd. De uitvoering bestaat uit:
    * **[!UICONTROL Adobe Experience Platform]** configuratie:
-      1. Het maken van schema&#39;s om gebeurtenissen voor Content Analytics, elementkenmerken en (indien geconfigureerd) ervaringskenmerken te modelleren.
-      1. Het creëren van datasets om de gebeurtenissen van de Analytics van de Inhoud, activa attributen en (indien gevormd) ervaringsattributen te verzamelen.
-      1. Het creëren van een gegevensstroom die de featurization dienst gebruikt om inhoudsattributen van de gebeurtenissen van de Analyse van de Inhoud te produceren en bij te werken.
-   * **[!UICONTROL Content Analytics]** configuratie:
-      * Opstelling van een proces van de kenmerkassembleur die op de configuratie wordt gebaseerd.
-   * **[!UICONTROL Customer Journey Analytics]** configuratie:
-      1. De geselecteerde gegevensweergave wordt bijgewerkt met de dimensie Content Analytics en metriek.
-      1. De verbinding die aan de geselecteerde mening van Gegevens wordt gebonden wordt gewijzigd om de gebeurtenis van de Analyse van de Inhoud en attributendatasets te omvatten.
-      1. Rapportsjablonen voor Content Analytics worden toegevoegd aan Workspace.
+      * Het maken van schema&#39;s om gebeurtenissen voor Content Analytics, elementkenmerken en (indien geconfigureerd) ervaringskenmerken te modelleren.
+      * Het creëren van datasets om de gebeurtenissen van de Analytics van de Inhoud, activa attributen en (indien gevormd) ervaringsattributen te verzamelen.
+      * Het creëren van een gegevensstroom die de featurization dienst gebruikt om inhoudsattributen van de gebeurtenissen van de Analyse van de Inhoud te produceren en bij te werken.
    * **[!UICONTROL Data collection]** configuratie:
-      1. Het nieuwe of bestaande bezit van de Markering wordt gevormd om de gegevensinzameling van de Analyse van de Inhoud te steunen. Deze configuratie houdt in dat de extensie Adobe Content Analytics voor tags wordt opgenomen.
-      1. Er wordt een gegevensstroom gemaakt voor gebeurtenissen van Content Analytics.
-      1. De extensie Adobe Content Analytics is geconfigureerd om ervoor te zorgen dat gebeurtenissen Content Analytics naar de gegevensstroom worden verzonden voor Content Analytics.
-      1. Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
-      1. Als het Web SDK voor dit bezit van de Markering wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
+      * Het nieuwe of bestaande bezit van de Markering wordt gevormd om de gegevensinzameling van de Analyse van de Inhoud te steunen. Deze configuratie houdt in dat de extensie Adobe Content Analytics voor tags wordt opgenomen.
+      * Er wordt een gegevensstroom gemaakt voor gebeurtenissen van Content Analytics.
+      * De extensie Adobe Content Analytics is geconfigureerd om ervoor te zorgen dat gebeurtenissen Content Analytics naar de gegevensstroom worden verzonden voor Content Analytics.
+      * Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
+      * Als het Web SDK voor dit bezit van de Markering wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
+   * **[!UICONTROL Customer Journey Analytics]** configuratie:
+      * De geselecteerde gegevensweergave wordt bijgewerkt met de dimensie Content Analytics en metriek.
+      * De verbinding die aan de geselecteerde mening van Gegevens wordt gebonden wordt gewijzigd om de gebeurtenis van de Analyse van de Inhoud en attributendatasets te omvatten.
+      * Er wordt een rapportsjabloon voor Content Analytics toegevoegd aan Workspace.
 * **[!UICONTROL Save]**: wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en de implementatie wordt bijgewerkt.
 * **[!UICONTROL Exit]**. Sluit de configuratie met instructies af. Alle wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden genegeerd.
 
 >[!MORELIKETHIS]
 >
->[ Handmatige configuratie van de Analytics van de Inhoud ](manual.md)
+>[ Handmatige configuratie ](manual.md)
 >

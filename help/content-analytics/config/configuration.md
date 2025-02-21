@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 
 
 Om Inhoud Analytics voor uw organisatie te vormen, gebruikt u de Inhoud Analytics [ geleide configuratie ](guided.md). De configuratietovenaar begeleidt u door alle stappen die worden vereist om de eerste vereisten voor een automatische configuratie van de Analytics van de Inhoud te plaatsen.
+
+Na een geslaagde implementatie kunt u enkele wijzigingen aanbrengen met behulp van de configuratietovenaar met instructies. Nochtans, [ zouden de handveranderingen ](manual.md) bovenop dat kunnen worden vereist.
 
 ## Vereisten
 
@@ -56,6 +58,8 @@ Voordat u Content Analytics configureert, moet u controleren of aan de volgende 
 >>
 [!MORELIKETHIS]
 >>
+* [ Geleide configuratie ](guided.md)
+* [ Handmatige configuratie ](manual.md)
 * [ Toegangsbeheer ](/help/technotes/access-control.md)
 >
 
