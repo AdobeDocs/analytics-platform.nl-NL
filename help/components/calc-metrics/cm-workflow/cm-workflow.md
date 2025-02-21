@@ -3,9 +3,9 @@ description: Leer hoe u berekende metriek maakt.
 title: Berekende waarden maken
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 17d3e8ed5986348bb4ba50822dfd9bb43d5a7570
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Standaard kunnen alleen beheerders berekende metriek maken. Gebruikers hebben rechten om berekende metriek weer te geven, vergelijkbaar met de manier waarop gebruikers andere componenten (zoals filters, annotaties en meer) weergeven.
 
-Nochtans, kunnen de beheerders de **[!UICONTROL Calculated Metric Creation]** toestemming voor **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** aan gebruikers via de [ Admin Console ](/help/technotes/access-control.md#user-level-access) geven.
+Nochtans, kunnen de beheerders de **[!UICONTROL Calculated Metric Creation]** toestemming voor **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** aan gebruikers via [ Admin Console ](/help/technotes/access-control.md#user-level-access) geven.
 
 
 U kunt op de volgende manieren een berekende metrische waarde maken:
@@ -23,7 +23,7 @@ U kunt op de volgende manieren een berekende metrische waarde maken:
 
 * ?? Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Calculated metrics]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Calculated metrics] manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 * ?? In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ Gebeurtenis ](/help/assets/icons/Event.svg) **Metriek** toe.
-* ?? Selecteer **[!UICONTROL Create metric from selection]** in een Workspace-project in het contextmenu in de kolomkop Metrics. In het submenu kunt u een functie selecteren of **[!UICONTROL Open in calculated metric builder]** selecteren. <br/> als u een functie selecteert, wordt berekende metrisch bepaald als project-slechts metrisch. Wanneer u later dit metrisch uitgeeft, door [ Info van de Component ](/help/components/use-components-in-workspace.md#component-info) popup, u een bericht in de [ Berekende metrische bouwer ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+* ?? Selecteer **[!UICONTROL Create metric from selection]** in een Workspace-project in het contextmenu in de kolomkop Metrics. In het submenu kunt u een functie selecteren of **[!UICONTROL Open in calculated metric builder]** selecteren. <br/> als u een functie selecteert, wordt berekende metrisch bepaald als project-slechts metrisch. Wanneer u later dit metrisch uitgeeft, door [ Info van de Component ](/help/components/use-components-in-workspace.md#component-info) popup, ziet u een bericht in de [ Berekende metrische bouwer ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 * ?? Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create metric]** .
 * ?? In een Workspace-project gebruikt u de sneltoets **[!UICONTROL shift+cmd+c]** (macOS) of **[!UICONTROL shift+ctrl+c]** (Windows).
 

@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 17d3e8ed5986348bb4ba50822dfd9bb43d5a7570
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor informatie over hoe te om metriek en andere soorten componenten aan Analysi
 
 ## Soorten metingen
 
-De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace aan:
+Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
 
 * **Standaard metriek**: Voorbeeld van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen.
@@ -33,66 +33,13 @@ De Adobe biedt verscheidene types van metriek voor gebruik in Analysis Workspace
 
    * **Mensen**: De metrische Mensen in Customer Journey Analytics is de telling verschillend van Persoon IDs. Afhankelijk van wat u als identiteitskaart van de Persoon wanneer u datasets in uw verbinding vormt, metrische Mensen verschillende dingen kunnen betekenen.
    * **Sessies**: Metrische Sessies in Customer Journey Analytics is wat u als deel van de configuratie van de montages van Sessies in uw gegevensmening bepaalt. Zie [ montages van de Zitting ](/help/data-views/session-settings.md).
-   * **Gebeurtenissen**: De metrische Gebeurtenissen in Customer Journey Analytics worden samengesteld uit de gebeurtenissen die deel van om het even welke gebeurtenisdataset uitmaken u als deel van uw verbinding hebt gevormd.
+   * **Gebeurtenissen**: De metrische Gebeurtenissen in Customer Journey Analytics worden samengesteld van de gebeurtenissen die deel van om het even welke gebeurtenisdataset uitmaken u als deel van uw verbinding hebt gevormd.
 
 * **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
 
 * **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen. Zie [ Standaard berekende metriek ](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [ Info van de Component ](use-components-in-workspace.md#component-info) voor meer informatie.
-
-
-
-## Berekende cijfers
-
-Met de berekende metriek kunt u eenvoudig configureren hoe de metriek met elkaar verwant is door eenvoudige operatoren of statistische functies te gebruiken. Zie [ Berekend metriek overzicht ](/help/components/calc-metrics/calc-metr-overview.md) voor meer informatie.
-
-<!--
-
-There are several ways to create calculated metrics. See [Create calculated metrics]()
-
-### Create calculated metrics for all projects
-
-You can use the calculated metric builder to create calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. 
-
-For information about how to access the calculated metrics builder, see [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-
-### Create calculated metrics for a single project
-
-You can create quick calculated metrics that are available only for the project where they were created.
-
-To create a calculated metric for a single project:
-
-1. In Analysis Workspace, open the project where you want to create the calculated metric.
-
-1. In a freeform table, select **[!UICONTROL Create metric from selection]** from the context menu in a column header.
-
-   ![Workspace panel highlighting Create from selection](assets/create-metric-from-selection.png)
-
-1. To create a calculated metric for this project only, choose from the following options:
-
-   * [!UICONTROL **Divide**]
-   
-   * [!UICONTROL **Subtract**]
-
-   * [!UICONTROL **Add**]
-
-   * [!UICONTROL **Multiply**]
-
-   Or, to open the calculated metric builder and create the calculated metric for all projects, select [!UICONTROL **Open in Calculated Metric Builder**], then continue with [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-
-
-<!-- This video really shows an AA example using hits, etc.  Not suitable for CJA... >
-+++ See the following video on how to create an implementation-less calculated metric from within Analysis Workspace.
-
-[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
-
-
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
-
-+++
-
--->
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
@@ -101,3 +48,63 @@ Als u één attributiemodel voor metrisch wilt snel en gemakkelijk vergelijken m
 ![ het paneel dat van Workspace het benadrukken vergelijkt attributiemodellen ](assets/compare-attribution.png)
 
 Met deze sneltoets kunt u snel en eenvoudig attributiemodellen vergelijken.
+
+## Berekende waarden maken
+
+Met de berekende metriek kunt u eenvoudig configureren hoe de metriek op elkaar betrekking heeft, met behulp van eenvoudige operatoren of statistische functies. Zie [ Berekend metriek overzicht ](/help/components/calc-metrics/calc-metr-overview.md) voor meer informatie.
+
+Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest bepaalt of berekende metrisch van de componentenlijst over alle projecten, of slechts in het project beschikbaar is waar het werd gecreeerd.
+
+### Berekende waarden maken voor alle projecten
+
+U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt.
+
+Voor informatie over hoe te om tot de berekende metriebouwer toegang te hebben, zie [ berekende metriek ](/help/components/calc-metrics/cm-workflow/cm-workflow.md) creëren.
+
+### Berekende waarden maken voor één project
+
+U kunt snelle berekende metriek tot stand brengen die slechts voor het project beschikbaar zijn waar zij werden gecreeerd.
+
+Om berekende metrisch voor één enkel project tot stand te brengen:
+
+1. Open in Analysis Workspace het project waar u de berekende metrische waarde wilt maken.
+
+1. Klik in een vrije-vormlijst met de rechtermuisknop op de kolomkop van één kolom.
+
+   of
+
+   Selecteer twee kolommen terwijl u Shift ingedrukt houdt en klik vervolgens met de rechtermuisknop op een van de geselecteerde kolommen.
+
+1. Selecteren **[!UICONTROL Create metric from selection]**
+
+   ![ het paneel dat van Workspace creeert van selectie ](assets/create-metric-from-selection.png) benadrukt
+
+1. Als u alleen voor dit project een berekende metrische waarde wilt maken, kiest u een van de beschikbare opties.
+
+   Wanneer u één kolom selecteert, zijn de volgende opties beschikbaar:
+
+   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mean ](/help/components/calc-metrics/cm-functions.md#mean) functie.
+
+   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mediaan ](/help/components/calc-metrics/cm-functions.md#median) functie.
+
+   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Maximale functie van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-maximum).
+
+   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Minimale functie van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-minimum).
+
+   * [!UICONTROL **som van de Kolom**]:Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Dit gebruikt de [ functie van de Som van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-sum).
+
+   Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
+
+   * [!UICONTROL **verdeel**]: Creeert een nieuwe kolom die de waarden van de twee geselecteerde kolommen verdeelt.
+
+   * [!UICONTROL **trekt af**]: Creeert een nieuwe kolom die de waarden van de twee geselecteerde kolommen aftrekt.
+
+   * [!UICONTROL **voegt**] toe: Creeert een nieuwe kolom die de waarden van de twee geselecteerde kolommen toevoegt.
+
+   * [!UICONTROL **vermenigvuldigt**]: Creeert een nieuwe kolom die de waarden van de twee geselecteerde kolommen vermenigvuldigt.
+
+   * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentenverandering van de twee geselecteerde kolommen toont.
+
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+
+
