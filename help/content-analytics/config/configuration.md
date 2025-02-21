@@ -55,12 +55,11 @@ Voordat u Content Analytics configureert, moet u controleren of aan de volgende 
    * U hebt een duidelijk inzicht in welke (type) elementen u de analyse en inzichten van de betrokkenheid van inhoud wilt vastleggen.
 
 
->>
-[!MORELIKETHIS]
->>
-* [ Geleide configuratie ](guided.md)
-* [ Handmatige configuratie ](manual.md)
-* [ Toegangsbeheer ](/help/technotes/access-control.md)
+>[!MORELIKETHIS]
+>
+>* [ Geleide configuratie ](guided.md)
+>* [ Handmatige configuratie ](manual.md)
+>* [ Toegangsbeheer ](/help/technotes/access-control.md)
 >
 
 
