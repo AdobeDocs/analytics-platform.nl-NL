@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
    | Element | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor de berekende metrische waarde selecteren.  De berekende metrisch u bepaalt is beschikbaar in de projecten van Workspace die op de geselecteerde gegevensmening worden gebaseerd. |
-   | **[!UICONTROL Project-only metric]** | Een infovakje om uit te leggen dat metrisch slechts zichtbaar in het project is waar het wordt gecreeerd en dat metrisch niet aan uw componentenlijst zal worden toegevoegd. Schakel **[!UICONTROL Make this metric available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit informatievak is alleen zichtbaar wanneer u in Workspace met **[!UICONTROL Create metric from selection]** een metrische waarde maakt en een functie hebt geselecteerd (zoals **[!UICONTROL Mean]** of **[!UICONTROL Median]** ). En later gebruik [ Info van de Component ](/help/components/use-components-in-workspace.md#component-info) om dat creeerde metrisch uit te geven. |
+   | **[!UICONTROL Project-only metric]** | Een infodoos verschijnt bij de bovenkant van deze dialoog wanneer u berekende metrisch uitgeeft die voor één enkel project werd gecreeerd, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Als u deze berekende metrische waarde beschikbaar wilt maken voor alle projecten, selecteert u de optie, **[!UICONTROL Make this metric available to all your projects and add it to your component list]**.</p> |
    | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef de berekende metrische waarde een naam, bijvoorbeeld `Conversion Rate` . |
    | **[!UICONTROL External ID]** ![ Vereiste ](/help/assets/icons/Required.svg) | De naam van berekende metrisch wanneer het gebruiken van een extern hulpmiddel van BI en de uitbreiding van BI. De waarde wordt automatisch gedefinieerd als `undefined_xxx` , tenzij u de waarde overschrijft. |
    | **[!UICONTROL Description]** | Geef een beschrijving voor het filter, bijvoorbeeld `Calculated metric to define the conversion rate.` U hoeft de formule voor de berekende metrische waarde niet te beschrijven omdat de formule al automatisch beschikbaar is in [!UICONTROL Summary] . |

@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 84ab8434671ccbce12dce95e1164b9a25c7b8439
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Voor informatie over hoe te om tot de berekende metriebouwer toegang te hebben, 
 
 ### Berekende waarden maken voor één project
 
-U kunt snelle berekende metriek tot stand brengen die slechts voor het project beschikbaar zijn waar zij werden gecreeerd.
+U kunt snel een metrische berekening tot stand brengen die slechts voor het project beschikbaar is waar het werd gecreeerd.
 
 Om berekende metrisch voor één enkel project tot stand te brengen:
 
