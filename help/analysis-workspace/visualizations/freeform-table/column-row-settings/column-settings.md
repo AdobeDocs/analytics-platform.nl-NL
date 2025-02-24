@@ -4,7 +4,7 @@ title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 7%
@@ -41,7 +41,7 @@ U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoud
 | **[!UICONTROL Percent]** | Bepaal of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem, gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: percentages van meer dan 100% zijn mogelijk om accuraat te zijn. Het bovenste gebonden uiteinde kan naar 1.000% worden verplaatst om te voorkomen dat de kolombreedte te groot wordt. |
 | **[!UICONTROL Show anomalies]** | Bepaal of de waarden in deze kolom een anomaliedetectie uitvoeren. |
 | **[!UICONTROL Show forecast]** | Bepaal of de voorspelde waarden in deze kolom worden weergegeven. |
-| **[!UICONTROL Wrap header text]** | Plaats de koptekst in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Wrappen is handig voor het renderen van PDF en voor metriek met lange namen. Standaard ingeschakeld. |
+| **[!UICONTROL Wrap header text]** | Plaats de koptekst in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Overvullen is handig voor PDF-rendering en voor metrische objecten met lange namen. Standaard ingeschakeld. |
 | **[!UICONTROL Interpret zero as no value]** | Bepaal of voor cellen met een waarde 0 een cel of een lege cel moet worden weergegeven. Deze interpretatie is handig wanneer u gegevens voor elke dag van een maand bekijkt en bepaalde dagen in de toekomst.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, worden lege cellen weergegeven. Bij grafieken wordt deze instelling ook gebruikt (diagrammen geven geen lijn of balk met 0 waarden weer). |
 | **[!UICONTROL Background]** | Bepaal of in een cel alle celopmaak wordt weergegeven of verborgen, inclusief de staafgrafiek en voorwaardelijke opmaak. |
 | **[!UICONTROL Bar Graph]** | Een horizontale staafgrafiek tonen die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
@@ -57,7 +57,7 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 | Opties voor voorwaardelijke opmaak | Beschrijving |
 | --- | --- |
-| **[!UICONTROL  Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
+| **[!UICONTROL Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
 | **[!UICONTROL Auto-generated]** | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
 | **[!UICONTROL Custom]** | Wijs **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** en **[!UICONTROL Lower limit]** handmatig toe. De grenzen verstrekken de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 | **[!UICONTROL Conditional formatting palette]** | Pas een vooraf geconfigureerde kleurenset toe op cellen. Afhankelijk van welke van de vier beschikbare kleurenschema&#39;s u selecteert, worden de verschillende kleuren toegewezen aan hoge waarden, middelpuntwaarden, en lage waarden. <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |

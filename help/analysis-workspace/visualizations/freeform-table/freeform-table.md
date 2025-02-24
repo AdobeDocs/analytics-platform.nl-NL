@@ -4,7 +4,7 @@ description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspac
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -103,7 +103,7 @@ De volgende [ opties van het contextmenu ](../freeform-analysis-visualizations.m
 | **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie direct naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
 | **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
 | **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie direct naar uw lokale apparaat. |
-| **[!UICONTROL  Export full table...]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van de Customer Journey Analytics van Uitvoer aan de wolk ](../../export/export-cloud.md) |
+| **[!UICONTROL Export full table...]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](../../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
 | **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](../text.md). |
 | **[!UICONTROL Get visualization link]** | Kopieer en deel een koppeling rechtstreeks naar de visualisatie. De koppeling wordt weergegeven in een dialoogvenster voor het delen van een koppeling. Selecteer Kopiëren om de koppeling naar het klembord te kopiëren. |
