@@ -4,7 +4,7 @@ title: Interdimensionale stromen
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 80522177d5258e4b5046b3872483ce2b482ae77d
+source-git-commit: 1eeba4dc9de52f2890cf25794e767f199a4aa04c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Als u de interactie tussen schermen en gebeurtenistypen (zoals toevoegen aan win
 
   ![ de stroom van A die de afmeting van de Pagina toont aan het witte die ruimte aan het eind wordt gesleept.](assets/flowapp-add.png)
 
-De stroomvisualisatie hieronder toont het resultaat van het toevoegen van de **[!UICONTROL  Event Types]** dimensie. De visualisatie biedt inzicht in de manier waarop gebruikers van mobiele apps verschillende schermen in de app doorlopen voordat ze producten aan een winkelwagentje toevoegen, de toepassing sluiten, een aanbieding krijgen en nog veel meer.
+De stroomvisualisatie hieronder toont het resultaat van het toevoegen van de **[!UICONTROL Event Types]** dimensie. De visualisatie biedt inzicht in de manier waarop gebruikers van mobiele apps verschillende schermen in de app doorlopen voordat ze producten aan een winkelwagentje toevoegen, de toepassing sluiten, een aanbieding krijgen en nog veel meer.
 
 ![ A fLow die de de afmetingsresultaten van de Pagina bij de bovenkant van de lijst tonen.](assets/flowapp-result.png)
 
