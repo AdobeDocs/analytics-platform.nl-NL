@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
+source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -105,14 +105,9 @@ Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content
 >abstract="Selecteer een bestaande gegevensweergave in Customer Journey Analytics waarmee u de analysegegevens van de inhoud wilt samenvoegen.<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_content"
+>id="aca_onboarding_dataview_change_dialog"
 >title="Nieuwe gegevensweergave"
 >abstract="De selectie van een nieuwe gegevensweergave resulteert in een update van die gegevensweergave, zodat deze de metriek en afmetingen voor Content Analytics bevat. Indien nodig, wordt de bijbehorende verbinding ook bijgewerkt om de gegevenssets van Content Analytics op te nemen. De verbinding en de gegevensmening die momenteel voor Inhoud Analytics worden gevormd worden niet gewijzigd."
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_title"
->title="Nieuwe gegevensweergave"
->abstract="Nieuwe gegevensweergave"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -284,19 +279,9 @@ Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting de
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_content"
->title="Waarschuwing bij onboarding-implementatie"
->abstract="Als u **[!UICONTROL Implement]** selecteert, configureert u Inhoud analyseren op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende instellingen worden standaard gekozen op basis van wat doorgaans nuttig is voor Content Analytics, maar u (als de voor de verwerking verantwoordelijke) moet de instellingen van elk artefact controleren om te bevestigen dat de instellingen zijn geïmplementeerd in overeenstemming met uw privacybeleid, contractuele rechten en verplichtingen en toestemmingsvereisten onder de toepasselijke wetgeving.<br/><br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/><br/> om attributen van beelden en tekst af te leiden, zal Adobe de attributen terugwinnen gebruikend:<ol><li>De URL die tijdens het bezoek van de gebruikerssite is vastgelegd, volgens de instellingen voor gegevensverzameling die u hebt geconfigureerd, en</li><li>De URL waar de afbeelding wordt gehost.</li></ol>U mag geen tags toewijzen aan afbeeldingen die worden gehost op sites van derden."
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_title"
+>id="aca_onboarding_implementation_warning_dialog"
 >title="Bevestiging van uitvoering"
->abstract="Bevestiging van uitvoering"
-
-<!-- markdownlint-enable MD034 -->
-
+>abstract="Als u **[!UICONTROL Implement]** selecteert, configureert u Inhoud analyseren op basis van de invoer die u in deze workflow hebt opgegeven. Verschillende instellingen worden standaard gekozen op basis van wat doorgaans nuttig is voor Content Analytics, maar u (als de voor de verwerking verantwoordelijke) moet de instellingen van elk artefact controleren om te bevestigen dat de instellingen zijn geïmplementeerd in overeenstemming met uw privacybeleid, contractuele rechten en verplichtingen en toestemmingsvereisten onder de toepasselijke wetgeving.<br/><br/> Merk op dat geen gegevens zullen worden verzameld tot de bibliotheek van Markeringen verbonden aan deze configuratie manueel wordt gepubliceerd.<br/><br/> om attributen van beelden en tekst af te leiden, zal Adobe de attributen terugwinnen gebruikend:<ol><li>De URL die tijdens het bezoek van de gebruikerssite is vastgelegd, volgens de instellingen voor gegevensverzameling die u hebt geconfigureerd, en</li><li>De URL waar de afbeelding wordt gehost.</li></ol>U mag geen tags toewijzen aan afbeeldingen die worden gehost op sites van derden."
 
 <!-- markdownlint-enable MD034 -->
 
