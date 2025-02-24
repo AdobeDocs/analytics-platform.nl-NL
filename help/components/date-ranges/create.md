@@ -4,7 +4,7 @@ description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a913f23506f692e64633408b8cd9bad6be27970b
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Iedereen kan een aangepast datumbereik maken. U kunt op de volgende manieren een
 
 ![ creeer een aantekening ](assets/create-date-range.png)
 
-* ?? Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Date range]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Date range] manager ](/help/components/date-ranges/manage.md).
+* ?? Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Date range]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van de [[!UICONTROL Date range] manager ](/help/components/date-ranges/manage.md).
 * ?? Selecteer **[!UICONTROL Custom date range to this date range]** in een Workspace-project in het contextmenu in een visualisatie.
 * ?? Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create date range]**
 * ?? In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+d]** (Windows) of **[!UICONTROL shift+command+d]** (macOS).
