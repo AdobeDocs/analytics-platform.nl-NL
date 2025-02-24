@@ -5,9 +5,9 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="Extra datasets toevoegen aan uw verbinding"
->abstract="Zodra u gegevens aan een dataset in Adobe Experience Platform hebt toegevoegd, kunt u die dataset aan uw verbinding in Customer Journey Analytics toevoegen. Zorg ervoor dat wanneer het toevoegen van gegevens van andere kanalen die zij aan het schema aanhangen dat uw organisatie gebruikt.<br><br> elke dataset die u toevoegt vereist een enorme hoeveelheid werk, in het bijzonder rond het verzekeren dat het unieke herkenningsteken voor elke gebeurtenis bestaat en ervoor zorgt dat de overkoepelende gegevensstructuur aan het douaneschema van uw organisatie voldoet. Het vestigen van deze werkschema kan coördinatie over vele teams binnen uw organisatie over verscheidene maanden verspreiden."
+>abstract="Nadat u gegevens aan een dataset in Adobe Experience Platform toevoegt, kunt u die dataset aan uw verbinding in Customer Journey Analytics toevoegen. Zorg ervoor dat wanneer het toevoegen van gegevens van andere kanalen die zij aan het schema aanhangen dat uw organisatie gebruikt.<br><br> elke dataset die u toevoegt vereist een enorme hoeveelheid werk, in het bijzonder rond het verzekeren dat het unieke herkenningsteken voor elke gebeurtenis bestaat en ervoor zorgt dat de overkoepelende gegevensstructuur aan het douaneschema van uw organisatie voldoet. Het vestigen van deze werkschema kan coördinatie over vele teams binnen uw organisatie over verscheidene maanden verspreiden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,12 +31,12 @@ De analyse tussen kanalen laat één enkele geconsolideerde mening van klantenge
 
 1. [ creeer schema&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden opgenomen.
 1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
-1. [ Samenvatting gegevens in Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
+1. [ Ingest gegevens in Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
    1. Op gebeurtenis-gebaseerde gegevens ![ gebeurtenis ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) van website of mobiele app door de Edge Network of de bron van Analytics schakelaar.
    2. De gegevens van het profiel ![ profiel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (bijvoorbeeld van een systeem van CRM, de toepassing van het vraagcentrum, loyaliteitstoepassing).
    3. Opzoekgegevens ![ raadpleging ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (bijvoorbeeld productnaam, categorie van een systeem van de productinformatie).
 
-1. Gebruik een gemeenschappelijke namespaceidentiteitskaart over datasets. Het gebruik [ Stitching ](../../stitching/overview.md) om het even welke op gebeurtenis-gebaseerde dataset ![ gegevens op te heffen verfrist zich ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) met betrekking tot het verstrekken van gemeenschappelijke identiteitskaart op elke rij. Merk op dat de Customer Journey Analytics momenteel niet de diensten van het Profiel van het Experience Platform of van de Identiteit voor het stitching gebruikt.
+1. Gebruik een gemeenschappelijke namespaceidentiteitskaart over datasets. Het gebruik [ Stitching ](../../stitching/overview.md) om het even welke op gebeurtenis-gebaseerde dataset ![ gegevens op te heffen verfrist zich ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) met betrekking tot het verstrekken van gemeenschappelijke identiteitskaart op elke rij. Customer Journey Analytics gebruikt momenteel de services Experience Platform Profile of Identity niet voor stitching.
 1. Voer om het even welke voorbereiding van douanegegevens uit om een gemeenschappelijke sleutel over tijdreeksdatasets te verzekeren die in Customer Journey Analytics moeten worden opgenomen.
 1. Opzoekgegevens een primaire id geven die kan worden gekoppeld aan een veld in de gebeurtenisgegevens. Telt als rijen in licentie.
 1. Stel dezelfde primaire id voor profielgegevens in als de primaire id van de gebeurtenisgegevens.
@@ -52,5 +52,5 @@ Zorg ervoor dat u bij het instellen van deze workflow rekening houdt met de volg
 * Het verenigingsproces van het verenigen van verschillende datasets vereist een gemeenschappelijke primaire persoon/entiteitsleutel over de datasets.
 * Secundaire op sleutels gebaseerde unies worden momenteel niet ondersteund.
 * Het stitching proces staat voor het opnieuw teweegbrengen van identiteiten in rijen toe die op voorbijgaande identiteitskaart (zoals een authentificatie ID) informatie van verslagen worden gebaseerd die zelfde blijvende identiteitskaart delen.Dit staat voor het oplossen van ongelijke verslagen aan één enkele gestikte identiteitskaart voor analyse op het persoonniveau, eerder dan op het apparaat of koekjesniveau toe.
-* Objecten en kenmerken van hetzelfde XDM-veld worden samengevoegd in één dimensie in de Customer Journey Analytics. Om veelvoudige attributen van diverse datasets in de zelfde afmeting van de Customer Journey Analytics samen te voegen, zouden de datasets het zelfde XDM gebied of schema moeten van verwijzingen voorzien.
+* Objecten en kenmerken van hetzelfde XDM-veld worden in Customer Journey Analytics samengevoegd tot één dimensie. Om veelvoudige attributen van diverse datasets in de zelfde dimensie van Customer Journey Analytics samen te voegen, zouden de datasets het zelfde XDM gebied of schema moeten van verwijzingen voorzien.
 

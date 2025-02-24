@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
-# Evalueer hoe lang u Adobe Analytics nodig hebt na de upgrade naar Customer Journey Analytics {#evaluate-aa-needs}
+# Bepalen wanneer Adobe Analytics moet worden uitgeschakeld na upgrade naar Customer Journey Analytics {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="Volledig verplaatsen naar Customer Journey Analytics"
->abstract="(Aanbevolen) Customer Journey Analytics is het belangrijkste analytische hulpmiddel voor uw organisatie. Uw organisatie kan echter nog steeds Adobe Analytics nodig hebben als deze sterk afhankelijk is van functies die exclusief zijn voor het hulpprogramma en deze workflows niet kunnen worden gewijzigd."
+>abstract="(Aanbevolen) Adobe raadt u aan de overgang van Adobe Analytics naar Customer Journey Analytics volledig te voltooien. Tijdens de overgangsperiode moet u Adobe Analytics naast Customer Journey Analytics uitvoeren om gegevens naast elkaar te vergelijken. Als u op de hoogte bent van de gegevens, kunt u Adobe Analytics uitschakelen."
 
 <!-- markdownlint-enable MD034 -->
 

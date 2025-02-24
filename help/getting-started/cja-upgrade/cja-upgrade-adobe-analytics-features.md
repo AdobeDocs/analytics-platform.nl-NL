@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 1%
 >id="cja-upgrade-activity-map"
 >title="Bedekking activiteitenoverzicht en koppeling bijhouden"
 >abstract="Een browserextensie waarmee u de gegevens voor het bijhouden van koppelingen kunt zien als een overlay op uw site."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-activity-map-support"
+>title="Ondersteuning voor Activity Map-overlay is nog niet beschikbaar"
+>abstract="Activity Map-overlayondersteuning is nog niet beschikbaar in Customer Journey Analytics. Het is de bedoeling dat het in de toekomst beschikbaar zal zijn."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,6 +85,15 @@ ht-degree: 1%
 >id="cja-upgrade-streaming-media"
 >title="Streaming mediagegevens"
 >abstract="Een invoegtoepassing voor Adobe Analytics die gespecialiseerd is in het verzamelen van gegevens over media, zoals audio, video of gestreamde inhoud."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-component-migration"
+>title="Projecten en onderdelen migreren"
+>abstract="Breng Adobe Analytics-projecten en de bijbehorende onderdelen naar Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

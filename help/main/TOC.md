@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 4bbd661ce2cac94a2d532c13320e98eb0015e358
+source-git-commit: 0dd3dcc819b6e4a7b13fb4601322d94fd5db179a
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1160'
 ht-degree: 10%
 
 ---
@@ -47,34 +47,44 @@ ht-degree: 10%
       + [Upgradepad kiezen](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Gegevens verzenden naar platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
-      + [Aanbevolen proces](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [De implementatie van Analytics begrijpen](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
-      + [Opzoekgegevenssets maken voor classificaties](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
-      + [Inname van gegevensset controleren](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + [Een afgeleid veld voor een marketingkanaal maken](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [De ladertag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [Een tag voor uw eigenschap maken](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [De extensie Web SDK toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
-      + [XDM-logica voor gegevensverzameling toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
-      + [Uw schema archiveren](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
-      + [Uw schema maken](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
-      + [Het bestaande schema gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
-      + [Een gegevensset maken](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
-      + [Een gegevensstroom maken](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
-      + [Platform toevoegen als service](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [Aanbevolen upgradeproces](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + Een schema maken en archiveren {#schema}
+         + [Uw schema archiveren](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+         + [Uw schema maken](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+         + [Het bestaande schema gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + Een gegevensstroom maken {#create-datastream}
+         + [Een gegevensstroom maken](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+         + [Platform toevoegen als service](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + Gegevenssets maken {#create-datasets}
+         + [Een gegevensset maken](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
+         + [Opzoekgegevenssets maken voor classificaties](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+         + [Inname van gegevensset controleren](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
+      + Tags maken {#create-tags}
+         + [Een tag voor uw eigenschap maken](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+         + [De extensie Web SDK toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+         + [De ladertag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+         + [XDM-logica voor gegevensverzameling toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Verbinding maken](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Een gegevensweergave maken](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+      + [Een afgeleid veld voor een marketingkanaal maken](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Gegevensstroom valideren](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [Sneltoets voor upgrade: migreren naar Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
-      + [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
-      + [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
-      + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
-      + [De bronaansluiting Analytics uitsluitend gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [Van de bron Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
-      + [AppMeasurement-gegevensverzameling uitschakelen](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
-      + [Upgrade van een externe analyseoplossing](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
-      + [Adobe Analytics-functieondersteuning bij upgrades](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
-      + [Adobe Analytics tijdens en na een upgrade](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
+      + Historische gegevens behouden met de bronaansluiting Analytics {#historical-data-source-connector}
+         + [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+         + [De bronaansluiting voor Analytics en kaartvelden maken](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+         + [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [Bepalen wanneer Adobe Analytics moet worden uitgeschakeld](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
+      + [Adobe Analytics uitschakelen](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + Alternatieve upgrademethoden {#alternative-upgrade-methods}
+         + [AppMeasurement-gegevensverzameling gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
+         + [Gegevenslaag verzenden](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
+         + [Bronconnector voor analyse](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)
+      + Andere upgradescenario&#39;s {#other-upgrade-scenarios}
+         + [Van de bron Analytics schakelaar aan het Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+         + [Upgrade van een niet-Adobe Analytics-oplossing](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
+      + Aanvullende informatie {#additional-information}
+         + [De implementatie van Analytics begrijpen](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+         + [Adobe Analytics-functieondersteuning bij upgrades](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
+         + [Customer Journey Analytics-functies](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
    + Vergelijking met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics-gegevens gebruiken](../getting-started/aa-vs-cja/aa-data-in-cja.md)
@@ -87,7 +97,7 @@ ht-degree: 10%
    + [Evolutie uit Adobe Analytics](../getting-started/aa-to-cja.md)
    + [Gebruikershandleiding voor Adobe Analytics-gebruikers](../getting-started/aa-to-cja-user.md)
 
-+ Gegevensinname {#cja-data-ingestion}
++ Gegevensinvoer {#cja-data-ingestion}
    + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
@@ -170,7 +180,7 @@ ht-degree: 10%
             + [Dynamische en statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totaal Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + Cohorttabel {#cohort-table}
+      + Cohortingtabel {#cohort-table}
          + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Gebruik hoofdletters](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)

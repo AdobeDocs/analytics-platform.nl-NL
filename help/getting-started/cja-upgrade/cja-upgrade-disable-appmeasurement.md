@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# AppMeasurement-gegevensverzameling uitschakelen {#disable-appmeasurement}
+# Adobe Analytics uitschakelen {#disable-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
 
-<!-- need to work on this -->
+Alvorens Adobe Analytics onbruikbaar te maken, herzie de informatie in [ evalueert wanneer om Adobe Analytics na bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) onbruikbaar te maken.
 
 * **Markeringen:** maak de uitbreiding van Adobe Analytics onbruikbaar
 

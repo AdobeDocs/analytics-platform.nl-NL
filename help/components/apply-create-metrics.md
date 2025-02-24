@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spe
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
-Als u één attributiemodel voor metrisch wilt snel en gemakkelijk vergelijken met een ander, uitgezochte **[!UICONTROL Compare attribution models]** van het contextmenu voor metrisch.
+Als u het ene attributiemodel snel wilt vergelijken met het andere voor een metrische waarde, selecteert u **[!UICONTROL Compare attribution models]** in het contextmenu voor een metrische waarde.
 
 ![ het paneel dat van Workspace het benadrukken vergelijkt attributiemodellen ](assets/compare-attribution.png)
 
-Met deze sneltoets kunt u snel en eenvoudig attributiemodellen vergelijken.
+Met deze sneltoets kunt u het ene attributiemodel vergelijken met het andere zonder dat u het twee keer hoeft te slepen en te configureren.
 
 ## Berekende waarden maken
 
