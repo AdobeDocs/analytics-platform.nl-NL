@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: 3c11f204b73ec1cc5c4c359b6cc5c88023c93e43
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,23 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
+Customer Journey Analytics biedt een canvas voor het slepen en neerzetten van dimensies, metriek, filters en functies om aangepaste metrische gegevens te maken op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe berekende meetgegevens maken en opslaan.
+
+## Beginnen met het bouwen van een berekende metrische waarde
+
+U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen of uit te geven. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt. Alternatief, kunt u snel berekende metrisch tot stand brengen die slechts voor het project beschikbaar is waar het werd gecreeerd, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [ Metriek ](/help/components/apply-create-metrics.md).
+
+Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metrisch die in de componentenlijst beschikbaar is.
+
+1. Heb toegang tot de berekende metrische bouwer op om het even welke volgende manieren:
+
+   * Open in Analysis Workspace een project en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create metric]** .
+   * In Analysis Workspace, open een project, dan selecteer **plus** pictogram naast de [!UICONTROL **sectie van Metriek**] in de linkerspoorlijn.
+   * Ga in [!DNL Customer Journey Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** en selecteer vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende meetgegevens.
+
+1. Ga met [ Gebieden van de berekende metrische bouwer ](#areas-of-the-calculated-metrics-builder) verder.
+
+## Gebieden van de berekende metriebouwer
 
 Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om nieuwe berekende waarden te maken of te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New calculated metric]** of **[!UICONTROL Edit calculated metric]** voor metriek die u maakt of beheert via de [[!UICONTROL Calculated metrics] manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md) .
 
