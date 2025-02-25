@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
+source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -185,22 +185,22 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
->title="Standaardtabelmetrisch"
+>title="Standaardcontainer"
 >abstract="Selecteer de standaardcontainer voor [!UICONTROL Flow] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Flow] visualisatie automatisch over naar een andere primaire container."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
->title="Standaardtabelmetrisch"
+>title="Standaardcontainer"
 >abstract="Selecteer de standaardcontainer voor [!UICONTROL Fallout] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Fallout] visualisatie automatisch over naar een andere primaire container."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
->title="Standaardtabelmetrisch"
+>title="Standaardtelmethode"
 >abstract="Selecteer de standaardtelmethode die voor [!UICONTROL Histogram] visualisaties moet worden gebruikt. Als de geselecteerde gegevensweergave niet de geselecteerde standaardtelmethode bevat, schakelt de visualisatie van [!UICONTROL Histogram] automatisch over naar een andere primaire telmethode."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
->title="Standaardtabelmetrisch"
+>title="Standaardcontainer"
 >abstract="Selecteer de standaardcontainer voor [!UICONTROL Journey canvas] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Journey canvas] visualisatie automatisch over naar een andere primaire container."
 
 
