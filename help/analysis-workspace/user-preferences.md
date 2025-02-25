@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
+source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3514'
 ht-degree: 0%
 
 ---
@@ -186,12 +186,23 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="Standaardtabelmetrisch"
->abstract="Selecteer de standaardcontainer die u wilt gebruiken voor stroomvisualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de stroomvisualisatie automatisch over naar een andere primaire container."
+>abstract="Selecteer de standaardcontainer voor [!UICONTROL Flow] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Flow] visualisatie automatisch over naar een andere primaire container."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="Standaardtabelmetrisch"
->abstract="Selecteer de standaardcontainer die u voor Fallout-visualisaties wilt gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, wordt automatisch overgeschakeld op een andere primaire container voor de uitvalweergave."
+>abstract="Selecteer de standaardcontainer voor [!UICONTROL Fallout] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Fallout] visualisatie automatisch over naar een andere primaire container."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulthistogramcountingmethod"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer de standaardtelmethode die voor [!UICONTROL Histogram] visualisaties moet worden gebruikt. Als de geselecteerde gegevensweergave niet de geselecteerde standaardtelmethode bevat, schakelt de visualisatie van [!UICONTROL Histogram] automatisch over naar een andere primaire telmethode."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultjourneycanvascontainer"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer de standaardcontainer voor [!UICONTROL Journey canvas] visualisaties. Als de geselecteerde gegevensweergave niet de geselecteerde standaardcontainer bevat, schakelt de [!UICONTROL Journey canvas] visualisatie automatisch over naar een andere primaire container."
+
 
 U kunt de visualisatievoorkeuren bijwerken voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
