@@ -5,9 +5,9 @@ title: Inhoudsopgave
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -42,3 +42,8 @@ De inhoudsopgave van een project weergeven:
    De geselecteerde visualisatie wordt automatisch naar de geselecteerde afbeelding geschoven en kort gemarkeerd.
 
    ![ benadrukte TOC ](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [ vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

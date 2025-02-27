@@ -4,9 +4,9 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,11 @@ Reiscanvas biedt een diepgaande, diepgaande analyse die niet mogelijk is in Jour
 
 Het gebruik van het canvas Journey voor het analyseren van reizen die in Journey Optimizer zijn gemaakt, biedt verschillende voordelen:
 
-* Maak gebeurtenissen met behulp van Customers Journey Analytics, maateenheden, filters of datumbereiken.
+* Maak gebeurtenissen met behulp van Customer Journey Analytics-afmetingen, maateenheden, filters of datumbereiken.
 
   In Journey Optimizer moet een technische gebruiker een gebeurtenis maken voordat deze aan een reis kan worden toegevoegd.
 
-* Creeer publiek dat op een douaneknoop wordt gebaseerd die u creeert (lanceert de het publieksbouwer van de Customer Journey Analytics).
+* Maak een publiek op basis van een aangepast knooppunt dat u maakt (start de Customer Journey Analytics-publieksbuilder).
 
   In Journey Optimizer kunt u alleen een publiek maken voor vooraf gedefinieerde activiteiten.
 
@@ -234,11 +234,11 @@ Nadat u een Journey Optimizer-reis in het canvas Journey hebt aangepast, worden 
 
 ### Terminologische verschillen tussen Journey Optimizer en Customer Journey Analytics
 
-Bepaalde termen die één ding betekenen in Journey Optimizer, betekenen iets anders in de Customer Journey Analytics. Wanneer u het canvas Reis gebruikt, worden de termen Customer Journey Analytics gebruikt.
+Bepaalde termen die in Journey Optimizer één ding betekenen, betekenen iets anders in Customer Journey Analytics. Wanneer u het canvas Journey gebruikt, worden de Customer Journey Analytics-termen gebruikt.
 
 | Term | Reiscanvas | Journey Optimizer |
 |---------|----------|---------|
-| **Gebeurtenis** | Één van verscheidene standaardmetriek die in Customer Journey Analytics beschikbaar is. Deze metrische tellingen dingen zoals opbrengst, abonnementen, of geproduceerde lood. | De categorie van activiteit die een gepersonaliseerde reis, zoals een online aankoop teweegbrengt. |
+| **Gebeurtenis** | Een van de vele standaardmeetgegevens die beschikbaar zijn in Customer Journey Analytics. Deze metrische tellingen dingen zoals opbrengst, abonnementen, of geproduceerde lood. | De categorie van activiteit die een gepersonaliseerde reis, zoals een online aankoop teweegbrengt. |
 
 ### Een Journey Optimizer-reis analyseren in het canvas Journey
 
@@ -247,3 +247,9 @@ Voor informatie over het analyseren van een reis van Journey Optimizer in het ca
 ## Analyses maken in Reis canvas
 
 U kunt analyses maken op het canvas Journey die zijn gebaseerd op alle afmetingen of maatstaven die beschikbaar zijn in Analysis Workspace. Of je kunt reizen analyseren die gemaakt zijn in Journey Optimizer. Voor meer informatie, zie [ een visualisatie van het canvas van de Reis vormen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+
+
+>[!MORELIKETHIS]
+>
+> * [ Gids van A aan Visualisatie van het Canvas van de Reis in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+
