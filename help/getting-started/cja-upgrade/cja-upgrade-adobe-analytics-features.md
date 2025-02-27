@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
+source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -109,6 +109,6 @@ Houd rekening met de volgende Adobe Analytics-functies die u wilt blijven gebrui
 | [ de kaartbedekking van de Activiteit en verbinding het volgen ](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | Nog niet beschikbaar |
 | [ Gegevens van de Classificatie ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | Gegevenssets opzoeken zijn de methode voor het classificeren van gegevens in Customer Journey Analytics.<p>[ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens bevat.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | Afgeleide velden worden gemaakt in een gegevensweergave. <p>[ creeer een marketing kanaal afgeleid gebied.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [Gegevensfeeds](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | De uitvoer van gegevens van de eerste generatie van datasets is beschikbaar door [ de Toegang API van Gegevens van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) en door [ Doelen van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html). Met deze opties kunt u alle verzamelde of opgenomen gegevens op gebeurtenis-/rijniveau exporteren naar het Experience Platform Data Lake. Gegevenskolommen na verwerking zijn niet beschikbaar omdat postkolommen bij vraagtijd worden berekend. Exporteren van postkolommen is beschikbaar via rapportage. |
+| [Gegevensfeeds](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform en Customer Journey Analytics bieden een aantal functies die onafhankelijk of gecombineerd de verschillende uitvoervereisten kunnen oplossen. Deze functies omvatten [ de Toegang API van Gegevens van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html), [ Doelen van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html), [ de Volledige Uitvoer van de Lijst van Customer Journey Analytics ](/help/analysis-workspace/export/export-cloud.md), en [ BI hulpmiddelintegratie ](/help/data-views/bi-extension.md).<p>Voor meer informatie over de uitvoeropties, zie [ de uitvoergebruiksgevallen van Gegevens ](/help/use-cases/data-export/overview.md).</p> |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [ de Volledige Uitvoer van de Lijst van Customer Journey Analytics ](/help/analysis-workspace/export/export-cloud.md) is de evolutie van de rapporten van Data Warehouse in Adobe Analytics, met vele nieuwe, vaak-gevraagde eigenschappen die niet vandaag in Data Warehouse beschikbaar zijn. |
 | [ het stromen gegevens van Media ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) | Streaming-mediagegevens zijn beschikbaar via de bronaansluiting Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
