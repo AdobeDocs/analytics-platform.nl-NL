@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Er zijn inherente nadelen aan het gebruiken van de de bronschakelaar van de Analyse als uw enige implementatie voor Customer Journey Analytics.
 
-Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, adviseert Adobe transitioning aan een implementatie die de bronschakelaar van de Analyse (voor historische gegevens) gebruikt, samen met een nieuwe implementatie van het Web SDK (voor aan de gang zijnde gegevensinzameling).
+Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de bronschakelaarimplementatie van de Analyse heeft bevorderd, adviseert Adobe transitioning aan een nieuwe implementatie van het Web SDK voor aan de gang zijnde gegevensinzameling, en het gebruiken van de Analytics bronschakelaar slechts voor historische gegevens.
 
 ## Voor- en nadelen van het exclusief gebruiken van de bronconnector Analytics
 

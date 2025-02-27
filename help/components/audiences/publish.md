@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e444474d9f859f59613caa8fad06998372cdf742
 workflow-type: tm+mt
 source-wordcount: '1886'
 ht-degree: 1%
@@ -61,9 +61,9 @@ ht-degree: 1%
 
 
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan [ in real time het Profiel van de Klant ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant wordt geïdentificeerd die en verpersoonlijking richt.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [ Real-Time Profiel van de Klant ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
 
-Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met het concept publiek van de Customer Journey Analytics vertrouwd te maken.
+Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met het concept van het publiek van Customer Journey Analytics vertrouwd te maken.
 
 ## Een publiek maken en publiceren {#create}
 
@@ -71,7 +71,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
 
    | Aanmaakmethode | Details |
    | --- | --- |
-   | Vanuit de **[!UICONTROL Audiences]** -interface. | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** maken en [!UICONTROL Audience builder] wordt geopend. |
+   | Vanuit de **[!UICONTROL Audiences]** -interface. | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
    | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Met deze methode wordt het filter in de Audience Builder vooraf gevuld met de dimensie of het dimensie-item dat u hebt geselecteerd.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
    | Via de interface voor het maken/bewerken van filters | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this filter]** in. Met deze methode wordt het filter vooraf gevuld. Zie [ filters ](/help/components/filters/create-filters.md) voor meer informatie creëren. |
 
@@ -100,7 +100,7 @@ Configureer deze instellingen om uw publiek te definiëren of bij te werken.
 | **[!UICONTROL Name]** | De naam van het publiek. Bijvoorbeeld: `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Tags]** | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een of meer bestaande tags selecteren of een nieuwe tags invoeren. |
 | **[!UICONTROL Description]** | Een beschrijving van het publiek, om het van anderen te onderscheiden. Bijvoorbeeld: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Refresh frequency]** | De frequentie waarmee u het publiek wilt vernieuwen.<p/>U kunt kiezen tussen <ul><li>**[!UICONTROL One time]** publiek: een publiek (standaard) dat niet hoeft te worden vernieuwd. Deze optie kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.<br/> u moet specificeren a **[!UICONTROL One time date range]**. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier in te gaan.</li><li>Een verfrissend publiek. U kunt uit de volgende opties selecteren:<ul><li>**[!UICONTROL Every 4 hour]** s: een publiek dat om de 4 uur verfrist.</li><li>**[!UICONTROL Daily]**: een publiek dat dagelijks vernieuwt</li><li>**[!UICONTROL Weekly]** : een publiek dat wekelijks vernieuwt.</li><li>**[!UICONTROL Monthly]**: een publiek dat maandelijks vernieuwt</li></ul></li>Voor het vernieuwen van publiek moet u opgeven:<ul><li>**[!UICONTROL Refresh lookback window]**. Definieer het aantal terugzoekdagen vanaf vandaag dat een publiek wordt geëvalueerd. U kunt opties selecteren of een aangepaste tijd definiëren. Het maximum is 90 dagen.</li><li>**[!UICONTROL Expiration date]**: Definieer wanneer het publiek stopt met vernieuwen. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datum te selecteren. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het uitbreiden van het publiek wordt gelijkaardig behandeld aan het verlopen van geplande rapporten. De beheerder krijgt een maand voordat het publiek vervalt een e-mail.</li></ul> Let op: er geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van de machtiging van uw Customer Journey Analytics.</li></ul> |
+| **[!UICONTROL Refresh frequency]** | De frequentie waarmee u het publiek wilt vernieuwen.<p/>U kunt kiezen tussen <ul><li>**[!UICONTROL One time]** publiek: een publiek (standaard) dat niet hoeft te worden vernieuwd. Deze optie kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.<br/> u moet specificeren a **[!UICONTROL One time date range]**. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier in te gaan.</li><li>Een verfrissend publiek. U kunt uit de volgende opties selecteren:<ul><li>**[!UICONTROL Every 4 hour]** s: een publiek dat om de 4 uur verfrist.</li><li>**[!UICONTROL Daily]**: een publiek dat dagelijks vernieuwt</li><li>**[!UICONTROL Weekly]** : een publiek dat wekelijks vernieuwt.</li><li>**[!UICONTROL Monthly]**: een publiek dat maandelijks vernieuwt</li></ul></li>Voor het vernieuwen van publiek moet u opgeven:<ul><li>**[!UICONTROL Refresh lookback window]**. Definieer het aantal terugzoekdagen vanaf vandaag dat een publiek wordt geëvalueerd. U kunt opties selecteren of een aangepaste tijd definiëren. Het maximum is 90 dagen.</li><li>**[!UICONTROL Expiration date]**: Definieer wanneer het publiek stopt met vernieuwen. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datum te selecteren. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het uitbreiden van het publiek wordt gelijkaardig behandeld aan het verlopen van geplande rapporten. De beheerder krijgt een maand voordat het publiek vervalt een e-mail.</li></ul> Let op: er geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw Customer Journey Analytics-machtiging.</li></ul> |
 | **[!UICONTROL Filter]** | Filters zijn de belangrijkste invoer voor het publiek. De belemmering en laat vallen één of meerdere filters van het linker ![ deelvenster van de Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filter]** op het gebied van de Filter. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) gebruiken [!UICONTROL *filters van het Onderzoek*] om naar filters te zoeken. U kunt maximaal 20 filters toevoegen. Filters kunnen worden gekoppeld met **[!UICONTROL And]** - of **[!UICONTROL Or]** -operatoren.<p>Wanneer u een publiek maakt op basis van een visualisatie in Analysis Workspace (zoals een vrije-vormtabel of het canvas Reis), blijven alle filters behouden die op het deelvenster of de kolom zijn toegepast. U kunt alle filters verwijderen die automatisch worden toegepast.</p> |
 | **[!UICONTROL Data preview]** | Selecteer ![ Info ](/help/assets/icons/Info.svg) om de [ voorproef van Gegevens ](#data-preview) voor de geselecteerde datumwaaier te tonen of te verbergen. |
 
@@ -116,16 +116,16 @@ Het deelvenster Gegevensvoorbeeld bevat de volgende informatie.
 | **[!UICONTROL Estimated to return]** | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u selecteerde. Dit aantal wordt voorspeld gebruikend het historische kinnetarief voor dit publiek. |
 | **[!UICONTROL Preview metrics]** | U kunt specifieke metrisch selecteren om te zien hoe de gegevens voor dat metrisch is gebaseerd op het publiek u bepaalt.  Elke metrische vertoningen van de Voorproef een totaal voor metrisch die op het publiek wordt gebaseerd. En een percentage van het publiek baseerde metrisch van het algemene totaal van metrisch, zoals die door de gegevensmening wordt bepaald. 381 personen (de metrische waarde die u hebt geselecteerd) zijn bijvoorbeeld het resultaat van uw publieksdefinitie. Dit is 5% van het totale aantal personen dat beschikbaar is in de gegevensweergave. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
 | **[!UICONTROL Namespaces included]** | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-| **[!UICONTROL Sandbox]** | De [ zandbak van het Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
+| **[!UICONTROL Sandbox]** | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
 
 {style="table-layout:auto"}
 
 ## Wat gebeurt er nadat een publiek is gemaakt en gepubliceerd? {#after-audience-created}
 
-Nadat u een publiek in de Customer Journey Analytics creeert en publiceert, is het publiek beschikbaar in Experience Platform. Er wordt alleen een Adobe Experience Platform-streamingsegment gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
+Nadat u een publiek in Customer Journey Analytics hebt gemaakt en gepubliceerd, is het publiek beschikbaar in Experience Platform. Er wordt alleen een Adobe Experience Platform-streamingsegment gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
 
-* Het publiek in Platform deelt de zelfde naam en de beschrijving zoals het publiek van de Customer Journey Analytics. De naam wordt toegevoegd met de Customer Journey Analytics publiek-id om ervoor te zorgen dat het publiek uniek is.
-* Wijzigingen die worden aangebracht in de naam of beschrijving van het publiek in de Customer Journey Analytics, worden weerspiegeld in het Experience Platform.
+* Het publiek in Platform heeft dezelfde naam en beschrijving als het Customer Journey Analytics-publiek. De naam wordt met de gebruikers-id van Customer Journey Analytics toegevoegd om ervoor te zorgen dat het publiek uniek is.
+* Wijzigingen die worden aangebracht in de naam of beschrijving van het publiek in Customer Journey Analytics, worden weerspiegeld in Experience Platform.
 * Als een publiek in Customer Journey Analytics wordt geschrapt, blijft het publiek beschikbaar in Experience Platform tot het profiellidmaatschap van het publiek verloopt. Het profiellidmaatschap verloopt na 420 dagen voor eenmalig publiek en na 16 dagen voor terugkerend publiek.
 
 ## Latentieoverwegingen {#latency}
@@ -145,19 +145,19 @@ Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep 
 
 {style="table-layout:auto"}
 
-## Customer Journey Analytics publiek in Experience Platform gebruiken {#audiences-aep}
+## Customer Journey Analytics-publiek gebruiken in Experience Platform {#audiences-aep}
 
-Customer Journey Analytics neemt alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar Real-time Customer Data Platform. Customer Journey Analytics verzendt het publiek naar Experience Platform met de primaire identiteitsreeks, volgens wat als [!UICONTROL Person ID] werd geselecteerd toen de verbinding werd gevormd.
+Customer Journey Analytics haalt alle naamruimte- en id-combinaties van uw gepubliceerde publiek en streamt deze naar Real-Time Customer Data Platform. Customer Journey Analytics stuurt het publiek naar Experience Platform met de primaire identiteitsset, afhankelijk van wat is geselecteerd als de [!UICONTROL Person ID] toen de verbinding werd geconfigureerd.
 
-Real-time Customer Data Platform controleert vervolgens elke naamruimte/ID-combinatie en zoekt naar een profiel waarvan het deel kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. <user@adobe.com> kan bijvoorbeeld op alle apparaten en kanalen worden toegepast. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
+Real-Time Customer Data Platform controleert vervolgens elke naamruimte/ID-combinatie en zoekt naar een profiel waarvan het deel kan uitmaken. Een profiel is in feite een cluster van gekoppelde naamruimten, id&#39;s en apparaten. Als er een profiel wordt gevonden, worden de naamruimte en de id toegevoegd aan de andere id&#39;s in dit profiel als kenmerk voor segmentlidmaatschap. <user@adobe.com> kan bijvoorbeeld op alle apparaten en kanalen worden toegepast. Als er geen profiel wordt gevonden, wordt er een nieuw profiel gemaakt.
 
-Customers Journey Analytics in platform weergeven:
+Customer Journey Analytics-publiek in platform weergeven:
 
 1. Vouw **[!UICONTROL Customer]** uit in het linkerdeelvenster en selecteer vervolgens **[!UICONTROL Audiences]** . <!-- is there a folder called "Customer Journey Analytics? -->
 
 1. Selecteer de tab **[!UICONTROL Browse]** .
 
-1. Voer een van de volgende handelingen uit om het publiek te zoeken dat u vanuit de Customer Journey Analytics hebt gepubliceerd:
+1. Voer een van de volgende handelingen uit om het publiek te zoeken dat u hebt gepubliceerd vanuit Customer Journey Analytics:
 
    ![ optie van het publiek in het linkerpaneel ](assets/aep-audiences.png)
 
@@ -167,7 +167,7 @@ Customers Journey Analytics in platform weergeven:
 
    * Gebruik het ![ 1} onderzoeksgebied van het Onderzoek {.](/help/assets/icons/Search.svg)
 
-Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek [ in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van het Experience Platform.
+Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek [ in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
 
 ## Veelgestelde vragen {#faq}
@@ -176,29 +176,29 @@ Veelgestelde vragen over het publiceren van publiek.
 
 +++**wat gebeurt als een gebruiker niet meer een lid van een publiek in Customer Journey Analytics is?**
 
-In dit geval wordt een afsluitgebeurtenis vanuit de Customer Journey Analytics naar het Experience Platform verzonden.
+In dit geval wordt vanuit Customer Journey Analytics een afsluitgebeurtenis naar Experience Platform verzonden.
 
 +++
 
 +++**wat gebeurt als u een publiek in Customer Journey Analytics schrapt?**
 
-Wanneer een Publiek van de Customer Journey Analytics wordt geschrapt, wordt dat publiek niet meer getoond in het Experience Platform UI. Profielen die aan dat publiek zijn gekoppeld, worden echter niet verwijderd in het Experience Platform.
+Wanneer een publiek van Customer Journey Analytics wordt geschrapt, wordt dat publiek niet meer getoond in de UI van Experience Platform. Profielen die aan dat publiek zijn gekoppeld, worden echter niet verwijderd in Experience Platform.
 
 +++
 
-+++**als een overeenkomstig profiel niet in Real-time Customer Data Platform bestaat, wordt een nieuw profiel gecreeerd?**
++++**als een overeenkomstig profiel niet in Real-Time Customer Data Platform bestaat, wordt een nieuw profiel gecreeerd?**
 
 Ja, dat zal het wel.
 
 +++
 
-+++**verzendt de Customer Journey Analytics de publieksgegevens over als pijpleidingsgebeurtenissen of als plat dossier dat ook naar het gegevenspeer gaat?**
++++**verzendt Customer Journey Analytics de publieksgegevens over als pijpleidingsgebeurtenissen of als plat dossier dat ook naar het gegevensmeer gaat?**
 
-De Customer Journey Analytics stroomt de gegevens naar Real-time Customer Data Platform via pijpleiding, en deze gegevens worden ook verzameld in een systeemdataset in het gegevensmeer.
+Customer Journey Analytics streamt de gegevens via pijpleiding naar Real-Time Customer Data Platform en deze gegevens worden ook verzameld in een systeem dataset in het datumpigment.
 
 +++
 
-+++**Welke identiteiten verzendt de Customer Journey Analytics over?**
++++**Welke identiteiten verzendt Customer Journey Analytics over?**
 
 Welke identiteit/namespace paren die in de [ opstelling van de Verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
 
@@ -206,13 +206,13 @@ Welke identiteit/namespace paren die in de [ opstelling van de Verbinding ](http
 
 +++**Welke identiteitskaart wordt gekozen als primaire identiteit?**
 
-Zie hierboven. Er wordt slechts één identiteit per Customer Journey Analytics verzonden.
+Zie hierboven. Er wordt slechts één identiteit per Customer Journey Analytics-persoon verzonden.
 
 +++
 
-+++**verwerkt Real-time Customer Data Platform ook de berichten van de Customer Journey Analytics? Kan de Customer Journey Analytics identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
++++**verwerkt Real-Time Customer Data Platform ook de berichten van Customer Journey Analytics? Kan Customer Journey Analytics identiteiten aan een grafiek van de profielidentiteit toevoegen door publiek te delen?**
 
-Nee. Er wordt slechts één identiteit per persoon verzonden, dus er zijn geen grafiekranden die Real-time Customer Data Platform kan gebruiken.
+Nee. Er wordt slechts één identiteit per persoon verzonden, dus er zijn geen grafiekranden die Real-Time Customer Data Platform kan gebruiken.
 
 +++
 

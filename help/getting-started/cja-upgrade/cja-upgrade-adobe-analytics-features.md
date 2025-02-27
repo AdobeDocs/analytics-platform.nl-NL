@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="Streaming mediagegevens"
->abstract="Een invoegtoepassing voor Adobe Analytics die gespecialiseerd is in het verzamelen van gegevens over media, zoals audio, video of gestreamde inhoud."
+>abstract="Een invoegtoepassing voor Adobe Analytics en Customer Journey Analytics die gespecialiseerd is in het verzamelen van gegevens over media, zoals audio, video of gestreamde inhoud."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -97,9 +97,7 @@ ht-degree: 1%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 In de volgende lijst staan alleen die Adobe Analytics-functies die tijdens het upgradeproces naar Customer Journey Analytics in overweging moeten worden genomen. Voor een uitvoerige lijst die toont welke eigenschappen van Adobe Analytics volledig, gedeeltelijk gesteund, of niet gesteund in Customer Journey Analytics worden gesteund, zie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).
 

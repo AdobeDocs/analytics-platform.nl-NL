@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '923'
 ht-degree: 1%
 
 ---
@@ -88,9 +88,7 @@ ht-degree: 1%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Adobe Analytics kan op verschillende manieren worden geïmplementeerd. Wanneer u een upgrade uitvoert naar Customer Journey Analytics, zijn niet alle upgradepaden beschikbaar voor alle Adobe Analytics-implementaties. Het aanbevolen upgradepad is echter altijd beschikbaar, ongeacht de manier waarop Adobe Analytics in uw organisatie is geïmplementeerd.
 

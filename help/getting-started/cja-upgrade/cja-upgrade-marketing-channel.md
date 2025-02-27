@@ -1,15 +1,15 @@
 ---
 title: Een afgeleid veld voor een marketingkanaal maken voor Customer Journey Analytics
-description: Leer hoe u een van een marketingkanaal afgeleid veld voor Customer Journey Analytics maakt
+description: Meer informatie over het maken van een afgeleid veld voor een marketingkanaal voor Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
->
->Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+{{upgrade-note-step}}
 
-Wanneer het gebruiken van de Bron van Analytics schakelaar, stromen de marketing kanaalgegevens in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Voor meer informatie, zie [ de dimensies van het gebruiks marketing kanaal ](/help/use-cases/aa-data/marketing-channels.md).
+Wanneer het gebruiken van de de bronschakelaar van de Analyse, stromen de marketing kanaalgegevens in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Voor meer informatie, zie [ de dimensies van het gebruiks marketing kanaal ](/help/use-cases/aa-data/marketing-channels.md).
 
-Om marketingkanalen in Customer Journey Analytics te gebruiken wanneer het gebruiken van het Web SDK van het Experience Platform, kunt u afgeleide gebieden in een gegevensmening gebruiken om de zelfde marketing kanalen en verwerkingsregels voor Customer Journey Analytics opnieuw tot stand te brengen.
+Als u marketingkanalen in Customer Journey Analytics wilt gebruiken wanneer u de Experience Platform Web SDK gebruikt, kunt u afgeleide velden in een gegevensweergave gebruiken om dezelfde marketingkanalen en verwerkingsregels voor Customer Journey Analytics opnieuw te maken.
 
 1. Selecteer in Customer Journey Analytics de gegevensweergave waaraan u marketingkanalen wilt toevoegen.
 

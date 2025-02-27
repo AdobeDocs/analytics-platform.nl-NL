@@ -1,7 +1,7 @@
 ---
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3162'
 ht-degree: 0%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van de Customer Journey Analytics, zie {de eigenschapversies van de Customer Journey Analytics 0} ](/help/release-notes/releases.md).[
+>De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 
 ## Beperkte testsectie voor releasefase {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van de Customer Journey Analytics, zie {de eigenschapversies van de Customer Journey Analytics 0} ](/help/release-notes/releases.md).[
+>De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 
 ## Pakket selecteren {#select-package}
 
@@ -57,7 +57,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 ## Adobe Analytics voor videodemonstratie {#videoaa}
 
-*Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in de Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld segmenten versus filters, of bezoeken versus sessies).*
+*Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld segmenten versus filters, of bezoeken versus sessies).*
 
 
 ## Deelvenster Filters {#filterspanel}
@@ -201,3 +201,17 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | **reizen van Adobe Journey Optimizer** | Ja </br> Open reizen van Journey Optimizer voor diepere analyse en aanpassing | Nee | Nee |
 
 {style="table-layout:auto"}
+
+## Opmerking voor checklist voor upgrades {#upgrade-note}
+
+>[!NOTE]
+> 
+>Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+
+## Volgende stap van de controlelijst voor upgrades {#upgrade-note-step}
+
+>[!NOTE]
+> 
+>Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
+>
+>Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.

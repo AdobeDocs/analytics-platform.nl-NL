@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
-# Een aangepast schema maken voor gebruik met uw Customer Journey Analytics Web SDK-implementatie {#create-custom-schema}
+# Een aangepast schema maken voor gebruik met Customer Journey Analytics {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -43,11 +43,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
->
->Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+{{upgrade-note-step}}
 
 >[!IMPORTANT]
 >
@@ -164,7 +160,7 @@ Een aangepast schema maken:
 
    Selecteer **[!UICONTROL Save]** .
 
-1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het hoofdelement van uw schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
+1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het basiselement van uw schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 

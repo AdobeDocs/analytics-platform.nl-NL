@@ -1,12 +1,12 @@
 ---
 title: Begrijp de implementatieopties van SDK van het Web wanneer het bevorderen aan Customer Journey Analytics
-description: Meer informatie over de implementatieopties van Web SDK bij de upgrade naar Customer Journey Analytics
+description: Meer informatie over de implementatieopties van de Web SDK bij de upgrade naar Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -42,7 +42,9 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-Het geadviseerde proces om van Adobe Analytics aan Customer Journey Analytics te bevorderen is een nieuwe implementatie van het Web SDK van het Experience Platform, dat de aangewezen methode van de gegevensinzameling voor Customer Journey Analytics is.
+{{upgrade-note}}
+
+Het aanbevolen proces om van Adobe Analytics naar Customer Journey Analytics te upgraden is een nieuwe implementatie van de Experience Platform Web SDK, de voorkeursmethode voor gegevensverzameling voor Customer Journey Analytics.
 
 Er zijn drie ondersteunde manieren om Adobe Experience Platform Web SDK te gebruiken:
 
@@ -52,7 +54,7 @@ Er zijn drie ondersteunde manieren om Adobe Experience Platform Web SDK te gebru
 
 * [ NPM ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm): Installeer het Web SDK op uw plaats gebruikend NPM pakketmanager.
 
-Voor meer informatie, zie [ het installatieoverzicht van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview) in de Gids van SDK van het Web van de Experience Platform.
+Voor meer informatie, zie [ het installatieoverzicht van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview) in de Gids van SDK van het Web van Experience Platform.
 
 
 

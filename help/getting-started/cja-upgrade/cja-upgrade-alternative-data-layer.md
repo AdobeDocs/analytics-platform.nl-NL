@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -42,9 +43,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Wanneer bevordering aan Customer Journey Analytics, adviseert Adobe [ een nieuwe implementatie van de SDK van het Web van Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Nochtans, afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, zouden de geadviseerde verbeteringsstappen niet praktisch voor uw organisatie kunnen zijn.
 
@@ -71,6 +70,3 @@ De basisstappen voor het verzenden van uw volledige gegevenslaag naar Customer J
 1. Wijs elk element van de gegevenslaag aan het gewenste gebied XDM toe.
 
    Om het even welke elementen van de gegevenslaag die niet aan een XDM gebied in kaart worden gebracht worden permanent gelaten vallen, aangezien Adobe niet weet waar of hoe te om die gegevens op te slaan.
-
-
-

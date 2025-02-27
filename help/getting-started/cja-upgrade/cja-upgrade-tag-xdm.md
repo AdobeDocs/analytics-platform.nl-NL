@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
->
->Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+{{upgrade-note-step}}
 
 Na [ het creëren van de markering en het toevoegen van de uitbreiding van SDK van het Web ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), moet u het met gegevenselementen en regels vormen, volgens hoe u uw plaats wilt volgen en gegevens verzenden naar Adobe Experience Platform. Nadat u gegevenselementen en regels voor uw markering vormt, kunt u het bouwen en publiceren.
 

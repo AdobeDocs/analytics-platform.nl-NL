@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 2b66e2db9b22bab5304fe981e58828d4ae9fabbd
+exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -24,9 +25,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Wanneer bevordering aan Customer Journey Analytics, adviseert Adobe [ een nieuwe implementatie van de SDK van het Web van Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Nochtans, afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, zouden de geadviseerde verbeteringsstappen niet praktisch voor uw organisatie kunnen zijn.
 
@@ -73,4 +72,3 @@ De basisstappen voor het migreren van een implementatie van Adobe Analytics (of 
    1. Gebruik gegevenstoewijzing om alle velden in het gegevensobject toe te wijzen aan uw XDM-schema.
 
       Voor meer informatie, zie [ Afbeelding ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [ Prep van Gegevens voor de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) in de documentatie van Experience Platform.
-

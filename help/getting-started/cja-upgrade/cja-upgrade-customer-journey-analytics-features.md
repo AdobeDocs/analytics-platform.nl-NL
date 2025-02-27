@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 74719504960f00f4593633bb62f29d8655cdadd9
+exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -78,9 +79,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Gebruik de informatie op deze pagina wanneer het beantwoorden van vragen in [ Customer Journey Analytics verbeteringschecklist ](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 In de volgende lijst staan alleen die Customer Journey Analytics-functies die tijdens het upgradeproces in overweging moeten worden genomen. Voor een uitvoerige lijst die toont welke eigenschappen van Adobe Analytics volledig, gedeeltelijk gesteund, of niet gesteund in Customer Journey Analytics worden gesteund, zie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).
 
@@ -94,5 +93,3 @@ Houd rekening met de volgende Customer Journey Analytics-functies die u wilt geb
 | [ integreren tijdelijk met Adobe Target (A4T) ](/help/integrations/at.md) | Het doel dat in Customer Journey Analytics meldt laat u toe om [ te meten en over de activiteiten van Adobe Target ](/help/integrations/at.md) direct in Customer Journey Analytics te rapporteren. |
 | [ integreren met Adobe Journey Optimizer ](/help/integrations/ajo.md) | U kunt gegevens vormen die door Journey Optimizer worden geproduceerd om [ geavanceerde analyse in Customer Journey Analytics ](/help/integrations/ajo.md) uit te voeren. |
 | Tijdelijk integreren met Adobe Audience Manager |  |
-
-

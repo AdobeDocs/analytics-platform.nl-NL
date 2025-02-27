@@ -1,15 +1,15 @@
 ---
 title: Opzoekgegevenssets maken om gegevens in Customer Journey Analytics te classificeren
-description: Leer hoe te om raadplegingsdatasets te creëren om gegevens in Customer Journey Analytics te classificeren
+description: Leer hoe u opzoekgegevenssets maakt om gegevens in Customer Journey Analytics te classificeren
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -25,25 +25,21 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Voer de stappen op deze pagina pas uit nadat u alle vorige upgradestappen hebt uitgevoerd. U kunt de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) volgen, of u kunt de verbeteringsstappen volgen die dynamisch voor uw organisatie met [ Adobe Analytics aan de verbeteringsvragenlijst van de Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) werden geproduceerd.
->
->Nadat u de stappen op deze pagina hebt uitgevoerd, gaat u door met het volgen van de aanbevolen upgradestappen of de dynamisch gegenereerde upgradestappen.
+{{upgrade-note-step}}
 
 Net als classificatiegegevens in Adobe Analytics zijn opzoekgegevenssets de methode voor het classificeren van gegevens in Customer Journey Analytics.
 
 Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige standaardraadplegingsdatasets automatisch toegepast in rapporttijd. Voor meer informatie, zie [ standaardraadplegingen aan uw datasets ](/help/connections/standard-lookups.md) toevoegen.
 
-Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van het Experience Platform, moet u een douaneschema en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
+Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van Experience Platform, moet u een douaneschema en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
 
 ## Creeer een douaneschema om met de raadplegingsdataset te gebruiken
 
-Creeer een nieuw douaneschema voor elke afmeting die gegevens bevat die u in Customer Journey Analytics wilt classificeren. Wanneer u de raadplegingsdataset in een recentere stap creeert, zal het naar dit schema verwijzen.
+Maak een nieuw aangepast schema voor elke dimensie die gegevens bevat die u in Customer Journey Analytics wilt classificeren. Wanneer u de raadplegingsdataset in een recentere stap creeert, zal het naar dit schema verwijzen.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
-Om een schema voor gebruik met een raadplegingsdataset in Customer Journey Analytics tot stand te brengen:
+Een schema maken voor gebruik met een opzoekgegevensset in Customer Journey Analytics:
 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Schemas]** in het gedeelte **[!UICONTROL Data Management]** in de linkertrack.
 
@@ -71,11 +67,11 @@ Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-data
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
-Om een raadplegingsdataset voor gebruik met een schema in Customer Journey Analytics tot stand te brengen:
+Een opzoekgegevensset maken voor gebruik met een schema in Customer Journey Analytics:
 
 >[!NOTE]
 >
->Het volgende proces gebruikt een Csv- dossier om de dataset tot stand te brengen. U kunt ook elke andere methode gebruiken die beschikbaar is voor het importeren van gegevens naar een Experience Platform, zoals het instellen van een gegevensstroom.
+>Het volgende proces gebruikt een Csv- dossier om de dataset tot stand te brengen. U kunt ook elke andere methode gebruiken die beschikbaar is voor het importeren van gegevens naar Experience Platform, zoals het instellen van een gegevensstroom.
 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Workflows]** in de linkertrack.
 
@@ -101,13 +97,13 @@ Om een raadplegingsdataset voor gebruik met een schema in Customer Journey Analy
 
    Het platform verstrekt automatisch intelligente aanbevelingen voor auto-in kaart gebrachte gebieden die op het doelschema of de dataset worden gebaseerd dat u selecteerde. U kunt toewijzingsregels handmatig aanpassen aan uw gebruiksgevallen.
 
-   Voor meer informatie over het toewijzingsproces, zie [ een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van het Experience Platform in kaart brengen.
+   Voor meer informatie over het toewijzingsproces, zie [ een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van Experience Platform in kaart brengen.
 
 1. Selecteer **[!UICONTROL Finish]** .
 
 1. Ga met [ verder toevoegen de raadplegingsdataset aan uw verbinding in Customer Journey Analytics ](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
 
-## Voeg de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe
+## De opzoekgegevensset toevoegen aan uw verbinding in Customer Journey Analytics
 
 Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert en u [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
 
@@ -125,7 +121,7 @@ Om de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe te
 
 1. Selecteer in het dialoogvenster **[!UICONTROL Add datasets]** de opzoekgegevensset die u hebt gemaakt en selecteer vervolgens **[!UICONTROL Next]** .
 
-1. In het **[!UICONTROL Person ID]** gebied, selecteer een persoonsidentiteitskaart van de beschikbare identiteiten die in het uw datasetschema worden bepaald dat u in Experience Platform vormde. <!-- fill out other fields? -->
+1. Selecteer in het veld **[!UICONTROL Person ID]** een persoon-id uit de beschikbare identiteiten die zijn gedefinieerd in het schema voor uw gegevensset dat u hebt geconfigureerd in Experience Platform. <!-- fill out other fields? -->
 
 1. Selecteer **[!UICONTROL Add datasets]** en selecteer vervolgens **[!UICONTROL Save]** .
 
