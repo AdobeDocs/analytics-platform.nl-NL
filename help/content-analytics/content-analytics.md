@@ -7,25 +7,21 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 8c257279353112df583b46d87ea17749a75867e2
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Content Analytics
 
-<!-- 
-This is a placeholder article for upcoming Content Analytics documentation. Currently used to set up contextual help entries for developer working on onboarding UI and workspace UI 
--->
-
 >[!WARNING]
 >
 >Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
 
 Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over het gebruik van inhoud en de invloed van inhoud op de inhoud. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifieke kleurenpallet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
 
@@ -63,6 +59,12 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 1. De service voor het samenstellen van functies en de identiteitsservice verwerken de herziene gegevens.
 1. De resultaten van deze services (componenten, kenmerken en identiteiten) worden gebruikt om de relevante specifieke gegevenssets voor inhoudsanalyses in Experience Platform bij te werken.
 1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsdatasets, kunnen dan in een configuratie van Customer Journey Analytics (Verbinding, de mening van Gegevens en Workspace) worden gebruikt. Die configuratie vormt de basis voor de unieke macroniveauinzichten van uw inhoud.
+
+>[!NOTE]
+>
+>Content Analytics maakt gebruik van AI/ML. De resultaten (voor de kenmerking van ervaringen en middelen) kunnen onjuist zijn.
+>
+
 
 >[!MORELIKETHIS]
 >

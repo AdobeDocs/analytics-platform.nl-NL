@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 4650718a067f68d4edfad3db71e822898f661648
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience-edit.png)
 
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) uitgeeft om de parameters in de uitbreiding van de Analyse van de Inhoud van Adobe in het bezit van de Markering uit te geven, verbonden aan de geselecteerde configuratie.
+* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de parameters in de [ uitbreiding van de Analyse van de Inhoud van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) in het bezit van de Markering uit te geven, verbonden aan de geselecteerde configuratie.
 
 
 ### Dataverzameling {#onboarding-data-collection}
@@ -260,9 +260,9 @@ In een nieuwe configuratie, moet u bepalen welk bezit van de Markering u wilt ge
 
 Voor een bestaande configuratie kunt u de eigenschap Tag niet bewerken. U kunt de pagina&#39;s en elementen echter wel bewerken om deze in of uit te sluiten.
 
-* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Analytics van de Inhoud, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven.
+* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Analytics van de Inhoud, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven. U wordt opnieuw gericht aan de [ uitbreiding van de Analyse van de Inhoud van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) verbonden aan het bezit van de Markering voor u de configuratie van de Analyse van de Inhoud. U kunt de reguliere expressie bewerken om pagina&#39;s op te nemen of uit te sluiten. Verzeker u [ publiceert ](manual.md#publish) u verandert.
 
-* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Analytics van de Inhoud, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven.
+* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Analytics van de Inhoud, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven. U wordt opnieuw gericht aan de [ uitbreiding van de Analyse van de Inhoud van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) verbonden aan het bezit van de Markering voor u de configuratie van de Analyse van de Inhoud. U kunt de reguliere expressie bewerken om elementen op te nemen of uit te sluiten. Verzeker u [ publiceert ](manual.md#publish) uw veranderingen.
 
 ### Samenvatting {#summary}
 

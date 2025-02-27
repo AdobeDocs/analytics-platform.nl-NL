@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Rapporten over inhoudanalyse vanaf nul starten:
 
 1. [ creeer een nieuw ](/help/analysis-workspace/build-workspace-project/create-projects.md) of [ open een bestaand ](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
 1. Sleep a ![ Lijst ](/help/assets/icons/Table.svg) [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
-1. De specifieke dimensies en metriek van de Analyse van de Inhoud en andere generische [ componenten ](/help/components/overview.md) (als filters, datumwaaiers, annotaties) gebruiken om uw inzichten van de inhoudsanalyse te bouwen.
+1. Gebruik [ specifieke componenten van de Analyse van de Inhoud ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als filters, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen.
 
 ## Miniaturen
 
@@ -49,7 +49,7 @@ U opent de voorvertoning met de volgende details:
   |---|---|
   | ![ de Ervaring van de Analyse van de Inhoud ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van de Analyse van de Inhoud ](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
-  | **[!UICONTROL Impressions (all times)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
+  | **[!UICONTROL Impressions (all times)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all mes)]**: aantal afbeeldingen voor het element. |
   | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. Selecteer ](/help/assets/icons/Breakdown.svg) Uitsplitsing van 0} Uitsplitsing {om de activa te inspecteren.![ | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. ](/help/assets/icons/Breakdown.svg) Uitsplitsing van 0} Uitsplitsing {om de activa te inspecteren.[ |
   | **[!UICONTROL First impression]**: Datum waarop de ervaring voor het eerst wordt weergegeven. | **[!UICONTROL First impression]**: Datum waarop het element voor het eerst wordt weergegeven. |
   | **[!UICONTROL  Most recent impression]**: Datum van de meest recente indruk van de ervaring. | **[!UICONTROL Most recent impression]**: Datum van meest recente indruk van het element. |

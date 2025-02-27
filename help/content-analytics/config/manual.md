@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De volgende handmatige configuratiehandelingen zijn beschikbaar:
 
 ## Publiceren
 
-Om een configuratie van de Analyse van de Inhoud te activeren, moet u het bijbehorende bezit van de Markering publiceren.
+Om een configuratie van de Analyse van de Inhoud te activeren, moet u ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"} publiceren het bijbehorende bezit van de Markering. [ Alleen wanneer u de eigenschap Content Analytics Tag publiceert, worden de gegevens van Content Analytics verzameld voor de domeinen, ervaring en elementen die u hebt geconfigureerd
 
 
 ## Wijzigen
@@ -37,4 +37,5 @@ Om een configuratie van de Analyse van de Inhoud te activeren, moet u het bijbeh
 >[!MORELIKETHIS]
 >
 >[ Geleide configuratie ](guided.md)
+>[Overzicht van de Codes voor gegevensverzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 >
