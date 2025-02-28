@@ -5,9 +5,9 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Gedrag"
->abstract="Bepaal hoe regelitems in deze dimensie worden geaggregeerd.<br/><br/>**Parameters **<br/>**Lager geval**: Staat u toe om te specificeren of de koordwaarden op het gebied lager zouden moeten worden toegelaten."
+>abstract="Bepaal hoe regelitems in deze dimensie worden geaggregeerd. Geef op of de tekenreekswaarden in het veld lager moeten worden ingesteld."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De b
 
 ![ montages van het Gedrag ](../assets/behavior-settings.png)
 
-## Instellingen voor gedrag van Dimensionen
+## Dimension-gedragsinstellingen
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -38,7 +38,7 @@ Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De b
 
 >[!NOTE]
 >
->Als u [!UICONTROL Lower case] op een dimensie van een raadplegingsdataset toelaat, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict gebeurt, gebruikt de Customer Journey Analytics de eerste gesorteerde ASCII-waarde (de waarden in hoofdletters staan voor de waarden in kleine letters). Adobe raadt aan geen opzoekgegevenssets te gebruiken die dezelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
+>Als u [!UICONTROL Lower case] op een dimensie van een raadplegingsdataset toelaat, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict optreedt, gebruikt Customer Journey Analytics de eerste ASCII-gesorteerde waarde (hoofdletters staan voor waarden in kleine letters). Adobe raadt u af opzoekgegevenssets te gebruiken die dezelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
 
 ![ case-sensitive afmeting ](../assets/case-sens-workspace.png)
 

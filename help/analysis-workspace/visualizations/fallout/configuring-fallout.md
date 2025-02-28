@@ -4,14 +4,15 @@ title: Een fallout-visualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Een fallout-visualisatie configureren
+# Een fallout-visualisatie configureren {#configure-fallout-visualization}
+
 
 U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen, zoals eenheden, en unieke personen en terugkeerbezoeken toevoegen. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
 
@@ -54,7 +55,12 @@ U kunt op afmetingen, metriek, en filters kleven. Stel dat iemand bijvoorbeeld n
    | **[!UICONTROL Next event]** | die op de volgende pagina op het pad zal komen te liggen, helemaal bij de volgende gebeurtenis. |
 
 
-## Instellingen
+## Instellingen {#settings}
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_container"
+>title="Fallout container"
+>abstract="Selecteer een container om het plakken te analyseren. Deze selectie helpt u om betrokkenheid te begrijpen en beperkt de analyse tot de geselecteerde container."
 
 Als onderdeel van de visualisatie zijn specifieke instellingen beschikbaar.
 

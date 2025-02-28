@@ -4,9 +4,9 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Stroom"
->abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
+>abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende. Geef een component (metrisch, dimensionaal of item) op waarmee moet worden begonnen, om met te eindigen. Naar keuze, kunt u geavanceerde montages bepalen om de visualisatie verder te vormen."
 
 <!-- markdownlint-enable MD034 -->
 

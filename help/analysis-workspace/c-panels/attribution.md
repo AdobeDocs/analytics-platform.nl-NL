@@ -4,10 +4,10 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 7%
+source-wordcount: '649'
+ht-degree: 8%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attributie"
->abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch"
+>abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend succes metrisch, kanaal en raadplegingsvenster."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ-deelvenster"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Kenmerk, deelvenster"
->abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters **<br/>**Kanaal**<br/> de afmeting tegen attributen. Deze dimensie kan afzetkanalen, campagnes, of een andere dimensie zijn.<br/>**Modellen**<br/> het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**venster van de Lookback**<br/> Dit het plaatsen bepaalt het venster van gegevensattributie dat op elke omzetting van toepassing is."
+>abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen voor een succes metrisch. Selecteer het kanaal (afmetingen), de modellen om en het terugkijkvenster op te nemen."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ-deelvenster"
 
 <!-- markdownlint-enable MD034 -->

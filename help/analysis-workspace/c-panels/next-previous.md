@@ -4,9 +4,9 @@ title: Volgend of vorig deelvenster met items
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,12 @@ ht-degree: 0%
 >title="Volgende of vorige item"
 >abstract="Maak een deelvenster om te begrijpen welke dimensies mensen uit het verleden hebben gekregen of waar mensen uit de volgende dimensie naar toe gaan."
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
->title="Nesten of vorig item"
->abstract="Analyseer wat de meest gangbare plaatsen zijn waar bezoekers eerder vandaan kwamen of naar de volgende gaan.<br/><br/>**Dimension**: Selecteer een afmeting. Bijvoorbeeld **Pagina**.<br/>**het punt van Dimension**: Selecteer een specifiek afmetingspunt. Bijvoorbeeld **Homepage**.<br/>**Richting**: Selecteer **daarna** om de afmetingspunten onmiddellijk na uw geselecteerd afmetingspunt te zien. Selecteer **Vorige** om de afmetingspunten te zien die tot uw geselecteerd afmetingspunt leiden.<br/>**Container**: Selecteer **Zitting** om de volgende/vorige afmetingspunten binnen de zelfde zitting te zien, of **Persoon** te selecteren om het volgende/vorige afmetingspunt voor de zelfde persoon te zien."
+>title="Volgende of vorige item"
+>abstract="Analyseer wat de meest gangbare plaatsen zijn waar bezoekers eerder vandaan kwamen of naar de volgende gaan. Geef afmetingen, afmetingen, richting en container op die u voor de visualisatie wilt gebruiken."
+
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +37,12 @@ _dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ CustomerJou
 
 Het deelvenster **[!UICONTROL Next or previous item]** bevat een aantal tabellen en visualisaties om het volgende of vorige dimensie-item voor een specifieke dimensie te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
 
-## Gebruiken
+## Gebruiken {#use}
+
+>[!CONTEXTUALHELP]
+>id="workspace_nextorpreviousitem_container"
+>title="Container"
+>abstract="Selecteer de container om het uiteinde van uw vraag te bepalen."
 
 Een deelvenster **[!UICONTROL Next or previous item]** gebruiken:
 

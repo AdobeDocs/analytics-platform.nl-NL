@@ -4,14 +4,20 @@ title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
 
-# Een stroomvisualisatie configureren
+# Een stroomvisualisatie configureren {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Stroomcontainer"
+>abstract="Selecteer de container die u wilt gebruiken om het plakken weer te geven (nummers voor)."
+
 
 Stroomvisualisaties helpen u de reis te begrijpen die voortkomt uit een specifieke conversiegebeurtenis op uw website of uw app. Of leidt tot een specifieke conversiegebeurtenis. De visualisatie traceert een pad door uw dimensies (en dimensie-items) of metriek.
 
@@ -113,7 +119,7 @@ Gebruik een contextmenu op een knooppunt in de stroomvisualisatie met de volgend
 | **[!UICONTROL Focus on this node]** | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | **[!UICONTROL Start over]** | Ga terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
 | **[!UICONTROL Create a filter for this path]** | Maak een filter. Deze selectie neemt u in de Bouwer van de Filter, waar u de nieuwe filter kunt vormen. |
-| **[!UICONTROL Breakdown]** | Verdeel de knoop neer door beschikbare Dimensionen, Metriek, of Tijd. |
+| **[!UICONTROL Breakdown]** | Verdeel de knoop neer door beschikbare Dimensies, Metriek, of Tijd. |
 | **[!UICONTROL Filter column]** | Dezelfde filteropties worden weergegeven als beschikbaar zijn in de tabel Vrije vorm. Voor meer informatie over de beschikbare opties, zie de sectie &quot;een eenvoudig of geavanceerd filter op een lijst&quot;in [ Filter en sorteerlijsten ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) toepassen. |
 | **[!UICONTROL Exclude item]** of **[!UICONTROL Restore excluded items]** | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Selecteer **[!UICONTROL Restore Excluded Item]** in het contextmenu om het uitgesloten item te herstellen. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | **[!UICONTROL Trend]** | Creeer een trended diagram voor de knoop. |

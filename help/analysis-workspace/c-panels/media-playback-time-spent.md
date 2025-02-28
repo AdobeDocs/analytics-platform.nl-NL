@@ -4,9 +4,9 @@ description: Het deelvenster Media afspelen in Analysis Workspace gebruiken en i
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="De afspeeltijd van media is verstreken"
->abstract="Analyseer het videoverbruik in de loop der tijd, selecteer verschillende granulariteiten, verdeel en vergelijk het.<br/><br/>**Korreligheid**: Selecteer tijdspanne om gezamenlijke kijkers door te bekijken.<br/>**de summiere aantallen van het Comité (facultatief)**: Optie om summiere aantallen met datum of tijddetails voor elke lijn te tonen. Bij Maximaal worden details voor de piekafspeeltijd weergegeven. Bij Minimaal worden details voor de trog weergegeven. De som zal details voor de totale som bestede playbacktijd tonen.<br/>**(Facultatieve) de indeling van de Reeks**: Onderbreking visualisatie door segmenten, dimensies, afmetingspunten of datumwaaiers. U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.<br/>**formaat van de Tijd**: Optie om het tijdformaat voor visualisaties in of uren of notulen te tonen."
+>abstract="Analyseer het videogebruik in de loop der tijd, selecteer diverse granulariteiten, en onderbreek en vergelijk naar keuze gebruikend filters, dimensies, afmetingspunten, of datumwaaiers."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,8 +41,8 @@ _Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJo
 
 >[!NOTE]
 >
->Het deelvenster Mediapubliek met een gemiddelde minuut is alleen beschikbaar voor klanten die de invoegtoepassing voor het streamen van media-verzamelingen voor Customer Journey Analytics hebben aangeschaft.
->Neem voor meer informatie contact op met uw Adobe verkoper of Adobe accountteam.
+>Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Customer Journey Analytics hebben aangeschaft.
+>Neem contact op met uw Adobe-verkoper of Adobe-accountteam voor meer informatie.
 >
 
 In het deelvenster **[!UICONTROL Media playback time spent]** kunt u het afspelen in de loop van de tijd analyseren met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.

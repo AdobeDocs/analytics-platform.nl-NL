@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u de resultaten van tests A/B in het paneel van de Experimentatie van de Customer Journey Analytics kunt analyseren.
+description: Leer hoe u de resultaten van A/B tests in het deelvenster Customer Journey Analytics Experimentation kunt analyseren.
 title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2097'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Experimentatie"
->abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is.<br/><br/>**Parameters **<br/>**Experiment**: Het experiment dat wordt geanalyseerd.<br>**variant van de Controle**: De variant van de controle voor het geselecteerde experiment.<br/>**metrisch van het Succes**: Tot 5 standaard (niet-berekende) succesmetriek om het experiment tegen te analyseren.<br/>**Normaliserend metrisch**: Mensen, zittingen, of gebeurtenissen. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Deze maatstaf heeft ook invloed op de manier waarop de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast."
+>abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is. Geef het experiment op, de besturingsvariant die u wilt vergelijken, de succesmetrische methode en de normalisatiemethode. Stel desgewenst boven- en ondergrenzen in voor vertrouwen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,13 +39,13 @@ _dit artikel documenteert het paneel van de Experimentatie in_ ![ CustomerJourne
 >[!ENDSHADEBOX]
 
 
-In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren: online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.
+In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen evalueren van elk A/B-experiment vanuit elk testplatform: online, offline, vanuit Adobe-oplossingen zoals Target of Journey Optimizer, en zelfs via BYO-gegevens (uw eigen gegevens).
 
 Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
 
 ## Toegangsbeheer {#access}
 
-Het deelvenster Experimentatie kan door alle gebruikers van Customers Journey Analytics worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
+Het deelvenster Experimentatie kan door alle Customer Journey Analytics-gebruikers worden gebruikt. Er zijn geen beheerdersrechten of andere machtigingen vereist. Nochtans, vereisen de eerste vereisten acties die slechts de beheerders kunnen uitvoeren.
 
 ## Functies in berekende metriek
 
@@ -64,7 +64,7 @@ Nadat uw experimentatiegegevens [ ](https://experienceleague.adobe.com/en/docs/e
 
 ### Contextlabels toevoegen in gegevensweergaven
 
-In de montages van de gegevensmeningen van de Customer Journey Analytics, kunnen beheerders [ contextetiketten ](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van de Customer Journey Analytics zoals [!UICONTROL Experimentation] paneel kan deze etiketten voor hun doeleinden gebruiken. Er worden twee vooraf gedefinieerde labels gebruikt voor het deelvenster Experimentatie:
+In de montages van de gegevensmeningen van Customer Journey Analytics, kunnen beheerders [ contextetiketten ](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van Customer Journey Analytics zoals [!UICONTROL Experimentation] paneel kan deze etiketten voor hun doeleinden gebruiken. Er worden twee vooraf gedefinieerde labels gebruikt voor het deelvenster Experimentatie:
 
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
@@ -88,7 +88,7 @@ Een deelvenster **[!UICONTROL Experimentation]** gebruiken:
 
    >[!IMPORTANT]
    >
-   >Als de vereiste instellingen in de gegevensweergaven van de Customer Journey Analytics niet zijn voltooid, ontvangt u dit bericht voordat u verdergaat: [!UICONTROL Please configure the experiment and variant dimensions in Data views] .
+   >Als de vereiste instellingen in de Customer Journey Analytics-gegevensweergaven niet zijn voltooid, ontvangt u dit bericht voordat u verdergaat: [!UICONTROL Please configure the experiment and variant dimensions in Data views] .
    >
 
 ### Deelvensterinvoer
@@ -142,9 +142,9 @@ Voor elk metrisch succes selecteerde u, wordt de lijst van de a [ vrije vorm ](.
 >
 >Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bijvoorbeeld het ontwerp van het experiment, de steekproefgrootten, de omrekeningskoersen, het vertrouwen, enzovoort) en niet alleen met de verklaring van overtuigend of niet. Zelfs wanneer een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat een bepaalde variant anders is dan een andere (betrouwbaarheidsintervallen zijn bijvoorbeeld bijna niet-overlapt). Idealiter zouden alle statistische gegevens, die op een continu spectrum worden geïnterpreteerd, de besluitvorming moeten beïnvloeden.
 
-## Statistische methodologie van de Adobe {#statistics}
+## Statistische methodologie voor Adobe {#statistics}
 
-Om gemakkelijk te interpreteren en veilige statistische gevolgtrekking te verstrekken, heeft de Adobe een statistische methodologie goedgekeurd die op [ wordt gebaseerd altijd Geldige Reeksen van het Vertrouwen ](https://arxiv.org/abs/2103.06476).
+Om gemakkelijk te interpreteren en veilige statistische gevolgtrekking te verstrekken, heeft Adobe een statistische methodologie goedgekeurd die op [ wordt gebaseerd altijd Geldige Reeksen van het Vertrouwen ](https://arxiv.org/abs/2103.06476).
 
 Een vertrouwensopeenvolging is a *opeenvolgend* analoog van een betrouwbaarheidsinterval. Om te begrijpen wat een vertrouwensvolgorde is, stel je voor dat je je experimenten honderd keer herhaalt. En bereken een schatting van gemiddelde zaken metrisch (bijvoorbeeld het open tarief van een e-mail) en zijn bijbehorende 95%-vertrouwen opeenvolging voor *elke nieuwe gebruiker* die het experiment ingaat.
 
@@ -152,7 +152,7 @@ Een 95% betrouwbaarheidsreeks omvat de &quot;ware&quot;waarde van zaken metrisch
 
 ## Niet-gerandomiseerde afmetingen interpreteren {#non-randomized}
 
-Met Customer Journey Analytics kunnen analisten elke gewenste dimensie kiezen. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
+In Customer Journey Analytics kunnen analisten elke gewenste dimensie als experiment selecteren. Maar hoe interpreteer je een analyse waarbij de als experiment gekozen dimensie niet een is waarvoor mensen willekeurig worden gekozen?
 
 Neem bijvoorbeeld een advertentie die een persoon ziet. U kunt in het meten van de verandering in wat metrisch (bijvoorbeeld, gemiddelde opbrengst) geinteresseerd zijn als u besluit om personen *en B* in plaats van *en A* te tonen. Het causale effect van het tonen van advertentie B in plaats van advertentie A is van cruciaal belang voor het nemen van een besluit over het in de handel brengen. Dit causale effect kan worden gemeten als de gemiddelde opbrengst over de gehele bevolking, als u de status-quo van het tonen van advertentie A vervangt door de alternatieve strategie van het tonen van advertentie B.
 
@@ -160,7 +160,7 @@ A/B-tests zijn de gouden standaard in de industrie voor het objectief meten van 
 
 Kijk nu eens naar een dimensie die niet bereikt wordt door randomisatie, bijvoorbeeld, de staat van de persoon in de VS. Personen komen voornamelijk uit twee staten, New York en Californië. De gemiddelde omzet van de verkoop van een winterkledingmerk kan in beide staten verschillen als gevolg van de verschillen in het regionale weer. In een dergelijke situatie kan het weer de werkelijke oorzaak zijn van de verkoop van winterkleding, en niet het feit dat de geografische situatie van personen verschillend is.
 
-Met het deelvenster voor experimenten in de Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per land van de persoon. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de staten van de personen.  Deze waarde wordt ook bedoeld als *Statistische het Testen van de Samenvatting*. Het resultaat van deze analyse kan interessant zijn, maar niet noodzakelijkerwijs uitvoerbaar. Eenvoudig omdat u niet willekeurig hebt gekozen en soms geen personen aan één van de mogelijke waarden van de dimensie kunt willekeurig plaatsen.
+Met het deelvenster voor experimenten in Customer Journey Analytics kunt u gegevens analyseren als het gemiddelde inkomstenverschil per land van de persoon. In een dergelijke situatie heeft de output geen causale interpretatie. Een dergelijke analyse kan echter nog steeds van belang zijn. Het geeft een schatting (samen met maatstaven voor onzekerheid) van het verschil in gemiddelde inkomsten van de staten van de personen.  Deze waarde wordt ook bedoeld als *Statistische het Testen van de Samenvatting*. Het resultaat van deze analyse kan interessant zijn, maar niet noodzakelijkerwijs uitvoerbaar. Eenvoudig omdat u niet willekeurig hebt gekozen en soms geen personen aan één van de mogelijke waarden van de dimensie kunt willekeurig plaatsen.
 
 In de volgende afbeelding worden deze situaties gecontrasteerd:
 

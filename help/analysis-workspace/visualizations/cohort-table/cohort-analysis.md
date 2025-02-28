@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van een cohortabel voor cohortanal
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Cohortingtabel"
->abstract="Groepeer gebruikers op basis van voltooiing van een gebeurtenis en analyseer vervolgens hun doorlopende betrokkenheid en loop de tijd door.<br/><br/>**Parameters **<br/>**criteria van de Opname**: De componenten die worden gebruikt om uw aanvankelijke bezoekerscohorts te bepalen.<br/>**criteria van de Terugkeer**: De componenten die worden gebruikt om te bepalen als een bezoeker is teruggekeerd."
+>abstract="Groepeer gebruikers op basis van voltooiing van een gebeurtenis en analyseer vervolgens hun doorlopende betrokkenheid en loop de tijd door. Geef aanvullende instellingen op, zoals granulariteit, type cohortanalyse en of u rolberekening wilt gebruiken. U kunt geavanceerde opties instellen om een latentietabel of een aangepaste dimensie-cohort te maken op basis van een geselecteerde dimensie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ Voorbeelden van wat u kunt doen met een [!UICONTROL Cohort table] :
 * Bespreek wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 
-[!UICONTROL Cohort table] is beschikbaar voor alle klanten van de Customer Journey Analytics met toegangsrechten tot [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort table] is beschikbaar voor alle Customer Journey Analytics-klanten met toegangsrechten tot [!UICONTROL Analysis Workspace] .
 
 
 >[!BEGINSHADEBOX]
@@ -66,7 +66,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van d
 >
 >[!UICONTROL Cohort Analysis] biedt geen ondersteuning voor niet-filterbare metriek (inclusief berekende meetwaarden), niet-gehele getallen (zoals Opbrengst) of Voorvallen. Alleen metriek die in filters kan worden gebruikt, kan in [!UICONTROL Cohort Analysis] worden gebruikt en kan slechts één voor één worden verhoogd.
 
-De lijsten van de cohort in Customer Journey Analytics steunen dubbel-gebaseerd (of om het even welk numeriek-gebaseerd) metrisch. Purchase.Value (een dubbele waarde) kan bijvoorbeeld worden gebruikt als een insluitings-/retourmetrisch object. Bovendien zijn alle meetgegevens die via de Analytics Source Connector naar Adobe Experience Platform worden doorgegeven, verdubbelbaar.
+Cohort-tabellen in Customer Journey Analytics ondersteunen op twee gebaseerd metrisch (of numeriek). Purchase.Value (een dubbele waarde) kan bijvoorbeeld worden gebruikt als een insluitings-/retourmetrisch object. Bovendien zijn alle meetgegevens die via de Analytics Source Connector naar Adobe Experience Platform worden doorgegeven, verdubbelbaar.
 
 ## Mogelijkheden voor kleurentabellen
 

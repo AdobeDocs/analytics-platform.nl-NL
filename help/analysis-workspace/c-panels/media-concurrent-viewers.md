@@ -4,9 +4,9 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="Gelijktijdige viewers voor media"
->abstract="Maak een deelvenster om het gemiddelde aantal minuten voor specifieke inhoud of over een bepaalde periode te analyseren."
+>abstract="Maak een deelvenster om gelijktijdige viewers gedurende een bepaalde periode te analyseren."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Gelijktijdige viewers voor media"
->abstract="Analyseer gelijktijdige viewers in de loop der tijd, bekijk de piektijkgelijktijdige, of onderbreek en vergelijk.<br/><br>**Korreligheid**: Selecteer tijdspanne om gezamenlijke kijkers door te bekijken.<br/>**de summiere aantallen van het Comité**:<br/> Optie om summiere aantallen met datum of tijddetails voor elke lijn te tonen. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimaal worden details voor de trog weergegeven.<br/>**(Facultatieve) de indeling van de Reeks**: Onderbreking visualisatie door segmenten, dimensies, afmetingspunten of datumwaaiers. U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau."
+>abstract="Analyseer gelijktijdige viewers in de loop der tijd, bekijk piekgelijktijdige pieken en onderdruk en vergelijk desgewenst met behulp van filters, dimensies, dimensiepunten of datumbereiken."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,9 +41,9 @@ _dit artikel documenteert het de gezamenlijke kijkers van Media paneel in_ ![ Cu
 
 >[!NOTE]
 >
->Het deelvenster Mediapubliek met een gemiddelde minuut is alleen beschikbaar voor klanten die de invoegtoepassing voor het streamen van media-verzamelingen voor Customer Journey Analytics hebben aangeschaft.
+>Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Customer Journey Analytics hebben aangeschaft.
 >
->Neem voor meer informatie contact op met uw Adobe Verkoopvertegenwoordiger of accountteam van de Adobe.
+>Neem contact op met uw Adobe Sales-vertegenwoordiger of Adobe-accountteam voor meer informatie.
 >
 
 Met het deelvenster **[!UICONTROL Media concurrent viewers]** kunt u in de loop der tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.

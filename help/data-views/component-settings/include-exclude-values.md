@@ -5,9 +5,9 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="Waarden uitsluiten opnemen"
->abstract="Verfijn een dimensie om alleen waarden op te nemen die aan specifieke criteria voldoen. Opnamen en uitsluitingen vinden plaats vóór de toewijzing en filters in rapporten.<br/><br/>**Gevoelige Geval van Parameters **<br/>****: Bepaal als de filterlogica hieronder case-sensitive is."
+>abstract="Verfijn een dimensie om alleen waarden op te nemen die aan specifieke criteria voldoen. Opnamen en uitsluitingen vinden plaats vóór de toewijzing en filters in rapporten. Bepaal of de opgegeven filterlogica hoofdlettergevoelig is."
 
 <!-- markdownlint-enable MD034 -->
 
