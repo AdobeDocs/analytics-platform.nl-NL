@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '8486'
+source-wordcount: '8489'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt dat afgeleid gebied als component (metrisch of afmeting) in [ Workspace ](../../analysis-workspace/home.md) dan gebruiken of zelfs het afgeleide gebied als component in [ mening van Gegevens ](../data-views.md) verder bepalen.
 
-Afgeleide velden kunnen veel tijd en moeite besparen, in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten de Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
+Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
 
 De afgeleide gebieden worden bepaald binnen [ meningen van Gegevens ](../data-views.md), zijn gebaseerd op een reeks die functies als regels worden bepaald, en op beschikbare standaard en/of schemagebieden worden toegepast.
 
@@ -195,7 +195,7 @@ Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke 
 
 +++
 
-### Combineren met meerdere Dimensionen {#multi-dim}
+### Combineren met meerdere Dimension&#39;s {#multi-dim}
 
 Deze functiesjabloon combineert twee waarden in één.
 
@@ -205,7 +205,7 @@ Deze functiesjabloon combineert twee waarden in één.
 
 Als u de sjabloon wilt gebruiken, moet u de juiste parameters opgeven voor elke functie die wordt vermeld als onderdeel van de regels in de sjabloon. Zie [ Verwijzing van de Functie ](#function-reference) voor meer informatie.
 
-![ Schermafbeelding van de Meerdere Dimensionen de regelbouwer van de Combinatie ](assets/function-template-multi-dimension-combine.png)
+![ Schermafbeelding van de Multi-Dimension de regelbouwer van de Combinatie ](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -643,7 +643,7 @@ U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [
 
 ## Meer informatie {#casewhen-more-info}
 
-De Customer Journey Analytics gebruikt een genestelde containerstructuur, die na Adobe Experience Platform [ wordt gemodelleerd XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (het Model van Gegevens van de Ervaring). Zie [ Containers ](../create-dataview.md#containers) en [ containers van de Filter ](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
+Customer Journey Analytics gebruikt een genestelde containerstructuur, gemodelleerd na Adobe Experience Platform [ XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (het Model van Gegevens van de Ervaring). Zie [ Containers ](../create-dataview.md#containers) en [ containers van de Filter ](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
 
 Customer Journey Analytics gebruikt het volgende standaardcontainermodel:
 
@@ -1118,7 +1118,7 @@ U definieert een `Activity Name` afgeleid veld. U gebruikt de functie [!UICONTRO
 
 ## Meer informatie {#lookup-more-info}
 
-De functie van de Opzoekopdracht wordt toegepast in rapporttijd aan de gegevens die door Customer Journey Analytics van de raadplegingsdataset worden teruggewonnen u als deel van uw verbinding hebt gevormd.
+De opzoekfunctie wordt toegepast in rapporttijd op de gegevens die door Customer Journey Analytics van de opzoekdataset worden teruggewonnen u als deel van uw verbinding hebt gevormd.
 
 U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer opnemen, die reeds één of meerdere andere functies bevat.
 
@@ -1500,7 +1500,7 @@ U maakt een afgeleid veld `Page Identifier` . U gebruikt de functie [!UICONTROL 
 
 ## Meer informatie {#regex-replace-more-info}
 
-Customer Journey Analytics gebruikt een subset van de Perl regex syntaxis. De volgende expressies worden ondersteund:
+Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. De volgende expressies worden ondersteund:
 
 | Uitdrukking | Beschrijving |
 | --- | --- |
@@ -1948,7 +1948,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 
 - U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
    - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
-- U kunt maximaal 100 afgeleide velden per verbinding van de Customer Journey Analytics hebben.
+- Per Customer Journey Analytics-verbinding kunt u maximaal 100 afgeleide velden hebben.
 
 
 ### Overzicht van functiebeperkingen
@@ -1990,12 +1990,13 @@ De onderstaande regel voor classificeren gebruikt bijvoorbeeld 3 operatoren.
 
 ## Meer informatie {#trim-more-info}
 
-[`Trim`](#trim) en [`Lowercase`](#lowercase) zijn eigenschappen reeds beschikbaar in de componentenmontages in [ meningen van Gegevens ](../component-settings/overview.md). Door Afgeleide velden te gebruiken, kunt u deze functies combineren om complexe gegevenstransformatie rechtstreeks in Customer Journey Analytics uit te voeren. U kunt `Lowercase` bijvoorbeeld gebruiken om hoofdlettergevoeligheid in een gebeurtenisveld te verwijderen en vervolgens [`Lookup`](#lookup) gebruiken om het nieuwe kleine-hoofdveld aan te passen aan een opzoekgegevensset die alleen opzoektoetsen in kleine letters bevat. U kunt `Trim` ook gebruiken om tekens te verwijderen voordat u `Lookup` instelt op het nieuwe veld.
+[`Trim`](#trim) en [`Lowercase`](#lowercase) zijn eigenschappen reeds beschikbaar in de componentenmontages in [ meningen van Gegevens ](../component-settings/overview.md). Door gebruik te maken van Afgeleide velden kunt u deze functies combineren, zodat u complexe gegevenstransformaties rechtstreeks in Customer Journey Analytics kunt uitvoeren. U kunt `Lowercase` bijvoorbeeld gebruiken om hoofdlettergevoeligheid in een gebeurtenisveld te verwijderen en vervolgens [`Lookup`](#lookup) gebruiken om het nieuwe kleine-hoofdveld aan te passen aan een opzoekgegevensset die alleen opzoektoetsen in kleine letters bevat. U kunt `Trim` ook gebruiken om tekens te verwijderen voordat u `Lookup` instelt op het nieuwe veld.
 
 De steun voor raadpleging en profielgebieden in Voortgekomen Gebieden laat u toe om gegevens om te zetten die op gebeurtenisraadplegingen en profielattributen worden gebaseerd. Dit kan vooral nuttig in scenario&#39;s B2B met rekening-vlakke gegevens in raadpleging of profieldatasets zijn. Daarnaast is deze ondersteuning handig voor het manipuleren van gegevens in veelvoorkomende velden van opzoekgegevens (zoals campagne-info en aanbiedingstype) of van profielgegevens (zoals ledenlijst en accounttype).
 
-Zie voor meer achtergrondinformatie over Afgeleide Gebieden:
+>[!MORELIKETHIS]
+>
+>- [ Blog: Making the most of Your Data: A Framework for Using Derived Fields in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [ Blog: Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [ Blog: Adobe Customer Journey Analytics Afgeleide Verbeteringen van Gebieden ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
-- [ Making het meest van Uw Gegevens: Een Kader voor het Gebruiken van Afgeleide Gebieden in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
-
-- [ Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)

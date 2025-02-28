@@ -5,7 +5,7 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 2%
@@ -104,8 +104,8 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Architectuur 
 
 >[!ENDSHADEBOX]
 
-* [ Adobe Customer Journey Analytics Crash Cursus voor Analysts ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
-
-* [ Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
-
-* [ de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>[!MORELIKETHIS]
+>
+>* [ Adobe Customer Journey Analytics Crash Cursus voor Analysts ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [ Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [ de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)

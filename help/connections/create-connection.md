@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4108'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,6 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
    | **[!UICONTROL Backfill data]** | U kunt verzoeken om de gegevens in een dataset terug te vullen. U kunt bijvoorbeeld een verzoek indienen om een back-up te maken van de gegevens van de laatste 7 dagen. Vorm correct de dataset en test uw verbinding. Als alles er goed uitziet, kunt u eenvoudig back-ups maken van alle resterende gegevens.<p>Bovendien kunt u de invoer van nieuwe gegevens door dataset toelaten. |
    | **[!UICONTROL Backfill status]** | Deze status geeft aan of er backfill-gegevens worden verwerkt. |
 
-   {style="table-layout:auto"}
 
 ## Gegevenssets toevoegen en configureren {#add-dataset}
 
@@ -501,7 +500,9 @@ Er zijn verschillende gegevenstypen: [!UICONTROL Event] data, [!UICONTROL Profil
 | **[!UICONTROL Profile]** | Gegevens die worden toegepast op uw personen, gebruikers of klanten in de [!UICONTROL Event] -gegevens. Staat u bijvoorbeeld toe om CRM-gegevens over uw klanten te uploaden. | N.v.t. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Individual Profile&quot;. | U kunt kiezen welke persoon-id u wilt opnemen. Elke dataset (behalve summiere datasets), die in [!DNL Experience Platform] wordt bepaald, heeft zijn eigen reeks van één of meerdere Persoon IDs bepaald. Bijvoorbeeld Cookie-id, Stitched ID, Gebruikersnaam, Code bijhouden enzovoort.](assets/person-id.png)**Nota** van identiteitskaart van de Persoon <br>![: Als u een verbinding creeert die datasets met verschillende IDs omvat, geeft het rapporteren op dat. Om datasets samen te voegen, moet u zelfde Persoon identiteitskaart gebruiken. |
 | **Samenvatting** | Gegevens uit tijdreeksen die niet aan een individuele persoon-id zijn gekoppeld. De summiere gegevens vertegenwoordigen samengevoegde gegevens op een verschillend niveau van samenvoeging, bijvoorbeeld campagnes. U kunt deze gegevens in Customer Journey Analytics gebruiken om verschillende gebruiksgevallen te ondersteunen. Zie [ Summiere gegevens ](/help/data-views/summary-data.md) voor meer informatie. | Automatisch instellen op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde overzichtsmetrieschema&#39;s in Experience Platform. Alleen granulariteit per uur of per dag wordt ondersteund. | Een ingebouwd of aangepast schema dat is gebaseerd op de klasse &quot;XDM Summary Metrics&quot;. | N.v.t. |
 
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>Blog: [ hoe te Gebeurtenis, Opzoeken, en de Datasets van het Profiel in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478) gebruiken
 
 ## Numerieke velden gebruiken als opzoektoetsen en opzoekwaarden {#numeric}
 
