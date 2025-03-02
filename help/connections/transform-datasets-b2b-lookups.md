@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
+source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,19 @@ Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B ra
 >
 >Er geldt een limiet van maximaal 10.000 items voor elke id. Deze beperking houdt in dat voor elke id van een persoon u slechts 10.000 rekeningen, of 10.000 kansen, of 10.000 marketing lijsten, of 10.000 campagnes kunt hebben.
 
+>[!PREREQUISITES]
+>
+>Voor opname om behoorlijk te werken, moet u bevestigen dat de B2B raadplegingsdatasets gegevens bevolkt voor de volgende gebieden (zoals die in de B2B raadplegingsschema&#39;s worden bepaald) hebben:
+>
+>| Gegevensset met gegevens die conform het schema zijn | Veld gevuld met gegevens |
+>|---|---|
+>| XDM Zakelijke account Person Relatie | `accountPersonID` |
+>| XDM Business Opportunity Person | `opportunityPersonID` |
+>| XDM Business Marketing List | `marketingListMemberID` |
+>| XDM Business Campaign-leden | `campaign.sourceKey` |
+>
 
-Om transformatie voor zulk een dataset toe te laten:
+Om transformatie voor een B2B raadplegingsdataset toe te laten:
 
 ![ laat transformatiedataset ](/help/connections/assets/transform.gif) toe
 
