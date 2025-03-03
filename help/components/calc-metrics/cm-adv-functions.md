@@ -4,9 +4,9 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
+source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4267'
 ht-degree: 1%
 
 ---
@@ -418,8 +418,8 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | |
-| metrisch_Y | |
+| metrisch_X | De metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
@@ -557,8 +557,8 @@ De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | |
-| metrisch_Y | |
+| metrisch_X | De standaard metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
@@ -582,8 +582,8 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X |  |
-| metrisch_Y |  |
+| metrisch_X | De standaard metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
@@ -695,8 +695,8 @@ De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | |
-| metrisch_Y | |
+| metrisch_X | De metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
@@ -720,8 +720,8 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | |
-| metrisch_Y | |
+| metrisch_X | De metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
@@ -1019,8 +1019,8 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | |
-| metrisch_Y | |
+| metrisch_X | De metrische waarde die u wilt gebruiken om te vergelijken. |
+| metrisch_Y | De metrische waarde die u wilt gebruiken om te vergelijken met. |
 
 ### Voorbeeld
 
