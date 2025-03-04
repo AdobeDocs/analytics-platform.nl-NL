@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d47fabb35e6674b8accb6ce3b56cb13c334f4d96
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Delen van
 >[!ENDSHADEBOX]
 
 
-## Delen met gebruikers en groepen van Customers Journey Analytics in uw organisatie {#Add}
+## Delen met Customer Journey Analytics-gebruikers en -groepen in uw organisatie {#Add}
 
-U kunt een project met bestaande gebruikers of groepen van de Customer Journey Analytics in uw organisatie delen. Wanneer u een project deelt zoals beschreven in deze sectie, moeten de gebruikers u met delen reeds een rekening van de Customer Journey Analytics hebben.
+U kunt een project delen met bestaande Customer Journey Analytics-gebruikers of -groepen in uw organisatie. Wanneer u een project deelt zoals beschreven in deze sectie, moeten de gebruikers u met delen reeds een rekening van Customer Journey Analytics hebben.
 
 U kunt een specifieke rol met gebruikers of groepen delen, of u kunt een verbinding delen.
 
@@ -66,7 +66,7 @@ Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw 
 
 * Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in de [ worden beheerd Adobe Experience Cloud admin console ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in de [ Adobe Experience Cloud admin console ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Beheerders kunnen gegevens delen met elke groep, inclusief Alles. Niet-beheerders kunnen delen met elke groep waarvan zij lid zijn, met uitzondering van &quot;Alle&quot;.
+* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in de [ admin console van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Beheerders kunnen gegevens delen met elke groep, inclusief Alles. Niet-beheerders kunnen delen met elke groep waarvan zij lid zijn, met uitzondering van &quot;Alle&quot;.
 
 * Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Read only]** rol als lid van een groep krijgt, krijgt hij een **[!UICONTROL Edit original]** project beleving.
 
@@ -99,7 +99,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    **geef exemplaar uit:** Ontvangers kunnen **[!UICONTROL Save as]** en hebben toegang tot het linkerpaneel. Projectinteracties zijn in deze rol niet beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw project veranderen.
 
-   **las slechts:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot het linkerpaneel. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics over het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Leer meer over [ las slechts projectervaring ](/help/analysis-workspace/curate-share/view-only-projects.md).
+   **las slechts:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot het linkerpaneel. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Leer meer over [ las slechts projectervaring ](/help/analysis-workspace/curate-share/view-only-projects.md).
 
 1. (Voorwaardelijk) Als u één project deelt, kies of om de volgende opties toe te laten wanneer het delen van het project:
 
@@ -117,7 +117,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
 Houd rekening met het volgende wanneer u een koppeling deelt zoals wordt beschreven in deze sectie:
 
-* Ontvangers die de koppeling gebruiken, moeten zich aanmelden bij de Customer Journey Analytics voordat ze toegang krijgen tot het project.
+* Ontvangers die de koppeling gebruiken, moeten zich aanmelden bij Customer Journey Analytics voordat ze toegang krijgen tot het project.
 
 * Als een ontvanger geen rol wordt toegewezen en a [ verbinding ](/help/analysis-workspace/curate-share/shareable-links.md) aan het project (**[!UICONTROL Share]ontvangt >[!UICONTROL Get project link]**), worden zij gegeven een rol door gebrek. Beheerders ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** .
 
@@ -143,9 +143,9 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >Houd rekening met het volgende wanneer u een Analysis Workspace-project deelt met mensen die geen toegang hebben tot Customer Journey Analytics:
 >
->* De capaciteit om een project op deze manier te delen kan door de beheerder van de Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. Als u een project niet kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder van de Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
+>* De capaciteit om een project op deze manier te delen kan door de beheerder van Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. Als u een project niet kunt delen zoals in deze sectie wordt beschreven, heeft uw beheerder van Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
 >
->* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang tot Customer Journey Analytics hebben.
+>* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Customer Journey Analytics.
 >
 >* De gebruikers u met deelt kunnen om het even welke filters bekijken die op het project tijdens [ kromming ](curate.md) werden toegepast.
 > 
@@ -153,8 +153,7 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 >
->* De functie [!UICONTROL Share with anyone] is geblokkeerd voor licenties voor zowel het Healthcare Shield als het Privacy &amp; Security Shield.
-
+>* Voor [!DNL Healthcare Shield] - en [!DNL Privacy & Security Shield] -licenties is Experience Cloud-verificatie vereist voor de functie [!UICONTROL Share with anyone] . Voor [!DNL Healthcare Shield] -klanten wordt een waarschuwing met betrekking tot de HIPAA-compatibiliteit weergegeven, maar u kunt deze functie nog steeds gebruiken na verificatie bij Experience Cloud.
 
 >[!BEGINSHADEBOX]
 
@@ -179,17 +178,17 @@ Een Analysis Workspace-project met iedereen delen:
 
    De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker worden overgebracht slechts wanneer de projecteigendom wordt overgebracht, zoals die in [ wordt beschreven de gebruikersactiva van de Overdracht ](/help/tools/asset-transfer/transfer-assets.md) in de gids Admin van Analytics.
 
-1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van de Customer Journey Analytics):
+1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door uw Customer Journey Analytics-beheerder):
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-     Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u echter deelt, hoeven geen toegang tot Customer Journey Analytics te hebben.
+     Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Customer Journey Analytics te hebben.
 
-     De beheerders van de Customer Journey Analytics kunnen deze voorkeur voor het bedrijf vormen, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
+     De beheerders van Customer Journey Analytics kunnen deze voorkeur voor het bedrijf vormen, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
-      * Als deze optie niet zichtbaar is, heeft de beheerder van de Customer Journey Analytics deze functie niet ingeschakeld.
+      * Als deze optie niet wordt weergegeven, heeft uw Customer Journey Analytics-beheerder deze functie niet ingeschakeld.
 
-      * Als deze optie wordt toegelaten en u het niet kunt onbruikbaar maken, betekent dit dat uw beheerder van de Customer Journey Analytics Experience Cloud authentificatie voor iedereen vereist die tot de projecten van Analysis Workspace toegang heeft. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
+      * Als deze optie is ingeschakeld en u kunt deze niet uitschakelen, betekent dit dat uw Customer Journey Analytics-beheerder Experience Cloud-verificatie vereist voor iedereen die Analysis Workspace-projecten opent. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
 
 1. Naast het **[!UICONTROL Share with anyone (no login required)]** gebied, uitgezochte ![ Verbinding ](/help/assets/icons/Link.svg) om de verbinding aan uw systeemklembord te kopiëren.
 
