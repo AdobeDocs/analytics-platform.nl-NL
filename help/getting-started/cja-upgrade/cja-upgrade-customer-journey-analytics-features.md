@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: d745e0c3bc75ba6f9d29aedcdbaaae9aa17d6ab8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
 >title="Gegevens van verschillende bronnen samenvoegen"
->abstract="(Aanbevolen) De mogelijkheid om analysegegevens uit andere kanalen te combineren is het belangrijkste gebruiksgeval voor Customer Journey Analytics."
+>abstract="(Aanbevolen) Gegevens van verschillende web-, mobiele en offline eigenschappen tellen om één geconsolideerde weergave van het gedrag van de klant te maken. Dit vermogen om analysegegevens uit andere kanalen te combineren is het belangrijkste gebruiksgeval voor Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
 >title="Tijdelijk integreren met Adobe Target"
->abstract="Adobe raadt aan om Adobe Journey Optimizer te integreren met het oog op het gebruik van personalisatie. Integratie met Adobe Target is mogelijk, maar een tijdelijke oplossing."
+>abstract="Adobe raadt aan om Adobe Journey Optimizer te integreren met het oog op het gebruik van personalisatie. Integratie met Adobe Target is mogelijk, maar een kortetermijnoplossing."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="Tijdelijk integreren met Adobe Audience Manager"
->abstract="Adobe raadt aan om voor publiek-gebaseerde gebruiksgevallen te integreren met Adobe Real-time CDP. Integratie met Audience Manager is mogelijk, maar een tijdelijke oplossing."
+>abstract="Adobe raadt aan om voor publiek-gebaseerde gebruiksgevallen te integreren met Adobe Real-time CDP. Integratie met Audience Manager is mogelijk, maar een kortetermijnoplossing."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -90,6 +90,6 @@ Houd rekening met de volgende Customer Journey Analytics-functies die u wilt geb
 | [ het Webgegevens van de tijd met gegevens van andere kanalen, zoals de gegevens van het vraagcentrum ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics wordt gecombineerd met de mogelijkheid van Experience Platform om allerlei gegevensschema&#39;s en -typen te bevatten. Gebruikend [ Model van de Gegevens van de Ervaring (XDM) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl), kunnen de gegevens uniform worden vertegenwoordigd en georganiseerd, klaar voor combinatie en exploratie. Adobe Analytics is hoofdzakelijk geconcentreerd op Web en mobiele analysegegevens met sommige mogelijkheden om gegevens [ in te voeren ](https://experienceleague.adobe.com/docs/analytics/import/home.html). |
 | [ Stitch de klappen van andere datasets die een douaneafmeting gebruiken ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics staat u toe om gegevens ](/help/connections/combined-dataset.md) van veelvoudige rapportreeksen te combineren [ alsof zij één enkele rapportreeks in Adobe Analytics waren. |
 | [ integreer met Adobe in real time CDP ](/help/components/audiences/audiences-overview.md) | U kunt [ publiek ](/help/components/audiences/audiences-overview.md) creëren en publiceren dat in Customer Journey Analytics aan het Profiel van de Klant in real time in Adobe Experience Platform voor klant wordt ontdekt die en verpersoonlijking richt. |
-| [ integreren tijdelijk met Adobe Target (A4T) ](/help/integrations/at.md) | Het doel dat in Customer Journey Analytics meldt laat u toe om [ te meten en over de activiteiten van Adobe Target ](/help/integrations/at.md) direct in Customer Journey Analytics te rapporteren. |
+| [ integreer met Adobe Target (A4T) ](/help/integrations/at.md) | Het doel dat in Customer Journey Analytics meldt laat u toe om [ te meten en over de activiteiten van Adobe Target ](/help/integrations/at.md) direct in Customer Journey Analytics te rapporteren. Adobe raadt echter aan om de integratie met Adobe Journey Optimizer te bevorderen voor het gebruik van personalisatie. |
 | [ integreren met Adobe Journey Optimizer ](/help/integrations/ajo.md) | U kunt gegevens vormen die door Journey Optimizer worden geproduceerd om [ geavanceerde analyse in Customer Journey Analytics ](/help/integrations/ajo.md) uit te voeren. |
-| Tijdelijk integreren met Adobe Audience Manager |  |
+| [ integreren met Adobe Audience Manager ](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing) | U kunt [ de eigenschappen en de segmenten van Audience Manager aan Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing) delen. Adobe raadt echter aan om voor publieksgebaseerde gebruikscase te integreren met Adobe Real-time CDP. |
