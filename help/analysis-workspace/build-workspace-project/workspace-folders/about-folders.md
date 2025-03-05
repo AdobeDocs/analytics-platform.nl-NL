@@ -5,16 +5,16 @@ title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Informatie over mappen in Analysis Workspace
 
-De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ hebt geselecteerd toont Omslagen &amp; Projecten ](../freeform-overview.md#show-selector).
+De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
 
 Met mappen in Workspace kunt u uw projecten ordenen en indelen. Met de omslagfunctionaliteit, kunt u omslagen en subfolders tot stand brengen om uw projecten te beheren.
 
@@ -49,12 +49,7 @@ Non-Admins have limited options.
 Hieronder volgen enkele richtlijnen wanneer u werkt met de map Company:
 
 - De beheerders kunnen projecten aan de omslag van het Bedrijf toevoegen of een nieuw project tot stand brengen en het nieuwe project aan de omslag van het Bedrijf bewaren. Niet-beheerders kunnen de inhoud van de map Company weergeven.
-
 - Beheerders kunnen submappen maken in de map Company.
-
 - Beheerders kunnen een map in de map Company verwijderen die een andere beheerder heeft gemaakt. Beheerders moeten mogelijk met andere beheerders coördineren om de map- en projecttoegang consistent te houden.
-
 - Wanneer een beheerder een project naar de omslag van het Bedrijf beweegt, wordt de omslag gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt.
-- Wanneer een beheerder een project uit de omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.
-
 - Wanneer een beheerder een project uit de omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.

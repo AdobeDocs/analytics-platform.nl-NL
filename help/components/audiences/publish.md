@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e444474d9f859f59613caa8fad06998372cdf742
+source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
 workflow-type: tm+mt
 source-wordcount: '1886'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
 
    | Aanmaakmethode | Details |
    | --- | --- |
-   | Vanuit de **[!UICONTROL Audiences]** -interface. | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
+   | Vanuit de interface **[!UICONTROL Audiences]** | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
    | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Met deze methode wordt het filter in de Audience Builder vooraf gevuld met de dimensie of het dimensie-item dat u hebt geselecteerd.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
    | Via de interface voor het maken/bewerken van filters | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this filter]** in. Met deze methode wordt het filter vooraf gevuld. Zie [ filters ](/help/components/filters/create-filters.md) voor meer informatie creëren. |
 
