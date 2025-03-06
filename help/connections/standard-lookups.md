@@ -1,13 +1,13 @@
 ---
 title: Standaardraadplegingen toevoegen aan uw datasets
-description: Gebruik standaardraadplegingen om rapportage met nuttige dimensies in Customer Journey Analytics te vergroten.
+description: Gebruik standaardraadplegingen om rapportage met nuttige dimensies te vergroten in Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5807700b9fe10769bf86f5c4020dd7c23df6e616
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de bron van de Analyse schakelaar in Customer Journey Analytics. U kunt ze gebruiken met standaard Adobe Analytics-implementaties, of de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)of de Experience Platform-API&#39;s voor gegevensverzameling.
+>De standaard Lookups zijn slechts beschikbaar voor de gegevensbronnen van de bron van de Analyse schakelaar in Customer Journey Analytics. U kunt hen met standaardAdobe Analytics implementaties, of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), of de de gegevensinzameling APIs van Experience Platform gebruiken.
 >
 
-De standaardraadplegingen (die ook als Adobe-geleverde raadplegingen worden bekend) verbeteren de capaciteit van Customer Journey Analytics om over sommige dimensies/attributen te melden die niet door zich nuttig zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. De standaardraadplegingen zijn van toepassing op organisaties van het Experience Cloud. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden. bevatten) Een standaardraadplegingsdataset bestaat voor elke schemalplaats die de Adobe classificeert.
+De standaardraadplegingen (ook genoemd als Adobe-Geleide raadplegingen) verbeteren de capaciteit van Customer Journey Analytics om op sommige dimensies/attributen te melden die niet nuttig door zich zijn maar wanneer zich bij andere gegevens gevoegd. Voorbeelden zijn kenmerken van mobiele apparaten en kenmerken van de afmetingen van het besturingssysteem en de browser, zoals versienummers van de browser. Een &quot;StandaardOpzoeken&quot;is gelijkaardig aan een raadplegingsdataset. Standaardzoekopdrachten zijn van toepassing op alle Experience Cloud-organisaties. Zij worden automatisch toegepast op alle gebeurtenisdatasets die bepaalde XDM schemagebieden (zie hieronder voor de specifieke gebieden.) bevatten een standaardraadplegingsdataset bestaat voor elke schemaplaats die Adobe classificeert.
 
-In traditionele Adobe Analytics worden deze dimensies op zichzelf weergegeven, terwijl u deze dimensies in de Customer Journey Analytics actief moet opnemen wanneer u gegevensweergaven maakt. In het werkschema van Verbindingen, selecteert u een dataset die als met een sleutel voor standaardraadpleging wordt gemarkeerd. De interface voor gegevensweergaven weet automatisch dat alle standaardopzoekafmetingen moeten worden opgenomen, zoals beschikbaar is voor rapportage. De opzoekbestanden worden automatisch bijgewerkt en beschikbaar gehouden in alle regio&#39;s en voor alle accounts. Zij worden opgeslagen in regio-specifieke organisaties verbonden aan de klant.
+In traditionele Adobe Analytics worden deze dimensies op zichzelf weergegeven, terwijl in Customer Journey Analytics deze dimensies actief moeten worden opgenomen wanneer u gegevensweergaven maakt. In het werkschema van Verbindingen, selecteert u een dataset die als met een sleutel voor standaardraadpleging wordt gemarkeerd. De interface voor gegevensweergaven weet automatisch dat alle standaardopzoekafmetingen moeten worden opgenomen, zoals beschikbaar is voor rapportage. De opzoekbestanden worden automatisch bijgewerkt en beschikbaar gehouden in alle regio&#39;s en voor alle accounts. Zij worden opgeslagen in regio-specifieke organisaties verbonden aan de klant.
 
 ## Standaardraadplegingen gebruiken met de gegevenssets van de bronconnector van Analytics
 
-De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de de bronschakelaar van de Analyse gebruikt en u in een afmeting brengt waarvoor de Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
+De standaard raadplegingsdatasets worden automatisch toegepast op rapporttijd. Als u de bronschakelaar van de Analyse gebruikt en u in een afmeting brengt waarvoor Adobe een standaardraadpleging verstrekt, passen wij automatisch deze standaardraadpleging toe. Als een gebeurtenisdataset XDM gebieden bevat, kunnen wij standaardraadplegingen op het toepassen.
 
 <!--
 ### Specific IDs that need to be populated
@@ -75,10 +75,15 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 ## Rapport over standaardopzoekafmetingen
 
-Om over de standaardraadplegingsdimensies te rapporteren, moet u hen toevoegen wanneer u een gegevensmening in Customer Journey Analytics creeert:
+Om op de standaardraadplegingsdimensies van Adobe te rapporteren, moet u één of meer van deze dimensies toevoegen wanneer u a [ gegevensmening ](/help/data-views/data-views.md) in Customer Journey Analytics creeert. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** :
 
-![Een gegevensweergave maken met de lijst Componenten toevoegen](assets/global-lookup.png)
+1. Selecteer **[!UICONTROL Schema fields]** in het vervolgkeuzemenu in de linkertrack.
+1. Selecteer **[!UICONTROL Adobe lookups]** in de lijst met containers voor schemavelden.
+1. Blader omlaag naar **[!UICONTROL Browser]** , **[!UICONTROL Mobile]** of **[!UICONTROL Operating System]** totdat u de dimensie vindt die u wilt toevoegen.
+1. Sleep de dimensie naar de **[!UICONTROL Metrics]** - of **[!UICONTROL Dimensions]** -tabel in **[!UICONTROL Included components]** .
 
-U kunt de opgezochte gegevens in Werkruimte dan zien:
+   ![ creeer een gegevensmening die de Add lijst van Componenten tonen ](assets/add-standard-lookup-dimension.gif)
 
-![Vrije-vormtabel met de gegevens](assets/gl-reporting.png)
+Vervolgens kunt u de opzoekgegevens in Workspace gebruiken:
+
+![ Vrije Lijst die de gegevens ](assets/gl-reporting.png) tonen

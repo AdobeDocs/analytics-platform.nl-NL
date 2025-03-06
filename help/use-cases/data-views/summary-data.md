@@ -1,11 +1,11 @@
 ---
 title: Samenvattingsgegevens gebruiken in Customer Journey Analytics
-description: Het geval van het gebruik verklaren alle details over hoe te om summiere gegevens in Customer Journey Analytics te brengen
+description: Gebruik hoofdletters/kleine letters om alle details uit te leggen over hoe u samenvattingsgegevens naar Customer Journey Analytics kunt overbrengen
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '4610'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Samenvattingsgegevens gebruiken
 
-Dit is handig als u wilt weten hoe u overzichtsgegevens kunt gebruiken in uw rapportage en analyse. Het gebruiksgeval detailleert alle stappen die worden vereist om summiere gegevens in Customer Journey Analytics te gebruiken:
+Dit is handig als u wilt weten hoe u overzichtsgegevens kunt gebruiken in uw rapportage en analyse. In het gebruiksgeval worden alle stappen beschreven die vereist zijn om summiere gegevens in Customer Journey Analytics te gebruiken:
 
 - [ Samenvatting ](#ingest) gegevens en andere gegevensbronnen in Experience Platform.
 - Opstelling uw [ Verbinding ](#connection) voor de summiere gegevens en andere gegevensbronnen.
@@ -25,7 +25,7 @@ Het gebruiksgeval verstrekt steekproefgegevens voor summiere gegevens, gebeurten
 
 ## Ingest
 
-U gebruikt de volgende voorbeeldsummiere gegevens voor dit gebruiksgeval, tonend summiere gegevens voor lopende campagnes op Facebook.
+U gebruikt de volgende voorbeeldsamenvattingsgegevens voor dit gebruik, met samenvattingsgegevens voor het uitvoeren van campagnes op Facebook.
 
 +++Samenvattingsgegevens
 
@@ -56,10 +56,10 @@ U gebruikt de volgende voorbeeldsummiere gegevens voor dit gebruiksgeval, tonend
 
 Als u de samenvattingsgegevens wilt gebruiken in Customer Journey Analytics, in een rapport of als onderdeel van het analyseren van gegevens in Workspace, hebt u
 
-- een samenvattingsschema in Experience Platform,
-- een samenvattende dataset in Experience Platform,
-- een verbinding in Customer Journey Analytics die wordt gevormd om de summiere dataset te gebruiken,
-- een gegevensmening in Customer Journey Analytics, correct gevormd met metriek en dimensies voor de summiere gegevens.
+- een samenvattingsschema in Experience Platform;
+- een samenvattende dataset in Experience Platform;
+- een verbinding in Customer Journey Analytics die is geconfigureerd om de summiere dataset te gebruiken;
+- een gegevensweergave in Customer Journey Analytics, correct geconfigureerd met maateenheden en afmetingen voor de samenvattingsgegevens.
 
 U gebruikt deze samenvattingsgegevens naast een dataset voor gebeurtenisgegevens en een dataset voor raadplegingsgegevens.
 
@@ -289,7 +289,7 @@ De gegevens van de opzoekopdracht zijn beschikbaar in de Dataset van de Gegevens
 
 ### Samenvattingsschema
 
-Voor samenvattingsgegevens is een samenvattingsschema in Experience Platform vereist. Een samenvattingsschema is een schema dat de XDM Summary Metrics als basisklasse gebruikt.
+Voor overzichtsgegevens is een overzichtsschema in Experience Platform vereist. Een samenvattingsschema is een schema dat de XDM Summary Metrics als basisklasse gebruikt.
 
 Een overzichtsschema maken in Experience Platform:
 
@@ -338,7 +338,7 @@ U hebt nu een schema gedefinieerd waarin het model voor uw samenvattingsgegevens
 
 ### Samenvattingsgegevensset
 
-Om uw summiere gegevens in Experience Platform op te slaan, moet u eerst een dataset tot stand brengen, en dan uw summiere gegevens in de dataset uploaden.
+Om uw summiere gegevens in Experience Platform op te slaan, moet u eerst een dataset tot stand brengen, en dan uw summiere gegevens uploaden in de dataset.
 
 Een gegevensset maken:
 
@@ -376,14 +376,14 @@ Om uw steekproefgegevens in deze dataset te uploaden:
    1. U kunt naar keuze selecteren ![ Voorproef ](/help/assets/icons/Preview.svg) **[!UICONTROL Preview data]** om een dialoog met een voorproef van de gegevens te openen zodra geladen in de dataset.
    1. Selecteer **[!UICONTROL Finish]** .
 
-In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]** wordt de status van het uploaden weergegeven. Vernieuw om updates van de upload te zien. Wanneer dit is gelukt, worden de voorbeeldgegevens in het Experience Platform geladen.
+In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]** wordt de status van het uploaden weergegeven. Vernieuw om updates van de upload te zien. Wanneer dit lukt, worden de voorbeeldgegevens geladen in Experience Platform.
 
 
 
 
 ## Verbinding
 
-Om uw steekproefgegevens in Customer Journey Analytics te gebruiken, creeert u een verbinding die de Dataset van de Gegevens van het Voorbeeld Summiere van Experience Platform omvat.
+Als u de voorbeeldgegevens in Customer Journey Analytics wilt gebruiken, maakt u een verbinding met de voorbeeldgegevensset van Experience Platform.
 
 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
@@ -423,9 +423,9 @@ Om uw steekproefgegevens in Customer Journey Analytics te gebruiken, creeert u e
 
 1. Selecteer in het **[!UICONTROL Connections]** > **[!UICONTROL Example Connection using Summary Data]** verbindingsscherm **[!UICONTROL Save]** om de verbinding op te slaan.
 
-De gegevens van de datasets worden toegevoegd aan Customer Journey Analytics, die een paar uren kan vergen. Wees dus alstublieft geduldig voordat u verdergaat.
+De gegevens uit de gegevenssets worden toegevoegd aan Customer Journey Analytics, wat een paar uur kan duren. Wees dus alstublieft geduldig voordat u verdergaat.
 
-Na een tijdje, verifieer dat de gegevens van uw datasets behoorlijk in Customer Journey Analytics worden geladen.
+Controleer na enige tijd of de gegevens uit uw gegevenssets correct zijn geladen in Customer Journey Analytics.
 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Connections]** in het bovenste menu.
@@ -434,7 +434,7 @@ Na een tijdje, verifieer dat de gegevens van uw datasets behoorlijk in Customer 
    1. Selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) en selecteer dan **[!UICONTROL Last 7 days]**.
    1. Selecteer **[!UICONTROL Apply]** .
 
-In de lijst van **[!UICONTROL Datasets]**, zouden de waarden in de **[!UICONTROL Records added]** kolom moeten bevestigen dat de gegevens van uw datasets nu deel van Customer Journey Analytics uitmaken.
+In de lijst met **[!UICONTROL Datasets]** moeten de waarden in de kolom **[!UICONTROL Records added]** bevestigen dat gegevens uit uw gegevenssets nu deel uitmaken van Customer Journey Analytics.
 
 ![ Verbinding van het Voorbeeld voor summiere gegevens ](../assets/example-connection-summary-data.png)
 
@@ -452,7 +452,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
       1. Laat alle andere instellingen staan.
       1. Selecteer **[!UICONTROL Save and continue]** .
    1. In de **[!UICONTROL Components]** stap van **[!UICONTROL Data views]** > **[!UICONTROL Example Data View Using Summary Data]** :
-      1. Voeg de volgende componenten aan de lijst van Dimensionen en van Metriek toe. Voor de duidelijkheid worden de componentnamen gewijzigd van hun standaardnaam met **[!UICONTROL Component name]** in **[!UICONTROL Component settings]** in het deelvenster Componenten (rechts).
+      1. Voeg de volgende componenten toe aan de lijst Afmetingen en Metriek. Voor de duidelijkheid worden de componentnamen gewijzigd van hun standaardnaam met **[!UICONTROL Component name]** in **[!UICONTROL Component settings]** in het deelvenster Componenten (rechts).
 
          **Cijfers**
 
@@ -469,7 +469,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
          |---|---|---|---|
          | Advertentiegroep (opzoeken) | Voorbeeld van gegevensdatabase opzoeken | String | *_huurder*.ad_group |
          | Advertentiegroep (overzicht) | Gegevensset voorbeeldsamenvattingsgegevens | String | *_huurder*.ad_group |
-         | Campagne-id | Gegevensset van samenvattingsgegevens controleren | String | *_huurder* .campagne_id |
+         | Campagne-id | Gegevensset voorbeeldsamenvattingsgegevens | String | *_huurder* .campagne_id |
          | Campagnenaam (opzoeken) | Voorbeeld van gegevensdatabase opzoeken | String | *_huurder* .campagne_name |
          | Naam campagne (overzicht) | Gegevensset voorbeeldsamenvattingsgegevens | String | *_huurder* .campagne_name |
          | Netwerk | Gegevensset voorbeeldsamenvattingsgegevens | String | *_huurder* .network |
@@ -484,7 +484,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
          1. Schakel **[!UICONTROL Create grouping]** in.
          1. Selecteer **[!UICONTROL Campaign Id]** in de vervolgkeuzelijst **[!UICONTROL Dimension]** . Deze stap zorgt ervoor dat gebeurtenisgegevens en samenvattingsgegevens correct worden gecombineerd voor rapportage.
-         1. U kunt desgewenst **[!UICONTROL Hide in reporting]** inschakelen. [!UICONTROL Hide in reporting] zorgt ervoor dat de geselecteerde dimensie ([!UICONTROL Campaign Id]) wordt verborgen in Analysis Workspace en andere Customer Journey Analytics rapportagegereedschappen. Als u deze optie hebt ingeschakeld, kunt u de optie verifiëren:
+         1. U kunt desgewenst **[!UICONTROL Hide in reporting]** inschakelen. [!UICONTROL Hide in reporting] zorgt ervoor dat de geselecteerde dimensie ([!UICONTROL Campaign Id]) verborgen is in Analysis Workspace en andere Customer Journey Analytics-rapportagegereedschappen. Als u deze optie hebt ingeschakeld, kunt u de optie verifiëren:
             1. Selecteer de **[!UICONTROL Campaign Id]** -dimensie in de lijst **[!UICONTROL Dimensions]** .
             1. U ziet dat **[!UICONTROL Hide component in reporting]** in **[!UICONTROL Component settings]** nu automatisch is ingeschakeld.
 

@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 596e54a559bac69214e1de3ea37da6177f110b7a
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -39,10 +39,11 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
    * Gegevensverzameling
       * Een gegevensstroom wordt gecreeerd en de dienst van Experience Platform wordt gevormd binnen de gegevensstroom om gegevens aan de de ervaringsdataset van de Analyse van de Inhoud te stromen.
       * Een eigenschap Tag wordt gemaakt met de Adobe Content Analytics-extensie die is geconfigureerd voor de juiste sandbox, datastream en andere configuratieopties van de configuratietovenaar.
-1. Alleen wanneer u de eigenschap Tag handmatig publiceert, wordt Content Analytics op effectieve wijze geïmplementeerd en geactiveerd.
+1. Slechts wanneer u [ manueel ](manual.md) het bezit van de Markering publiceert, wordt de Analytics van de Inhoud effectief opgesteld en geactiveerd.
+
 1. U kunt sommige beperkte veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ gegevensmening ](/help/data-views/data-views.md).
 1. U kunt andere veranderingen in een uitgevoerde configuratie door de [ uitbreiding van de Analyse van de Inhoud van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van de Markering aanbrengen.
-1. Slechts wanneer u manueel het bezit van de Markering opnieuw publiceert, worden de configuratiewijzigingen van stap 4 en 5 effectief opgesteld en geactiveerd.
+1. Slechts wanneer u [ manueel ](manual.md) het bezit van de Markering herpubliceert, worden de configuratiewijzigingen van stap 4 en 5 effectief opgesteld en geactiveerd.
 
 
 Voordat u Content Analytics configureert, moet u controleren of aan de volgende voorwaarden is voldaan:

@@ -6,7 +6,8 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 1%
@@ -49,6 +50,9 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Ervaar de horizontale pixeldiepte | Kwantificeerbare waarde van de horizontale pixeldiepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar verticale pixeldiepte | Kwantificeerbare waarde van de verticale pixeldiepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 
+{style="table-layout:fixed"}
+
+
 
 ## Ervingkenmerken
 
@@ -68,6 +72,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Aantal woorden beleven | ![ AI produceerde ](/help/assets/icons/AI.svg) Aantal woorden voor de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Ervaar het aantal woorden per zin | ![ AI produceerde ](/help/assets/icons/AI.svg) Aantal woorden per zin voor de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 
+{style="table-layout:fixed"}
+
 
 ## Gebeurtenissen van Experience
 
@@ -75,6 +81,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 |---|---|---|---|
 | Weergaven beleven | Kwantificeerbare maat voor het aantal weergaven van de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Ervaar klikken | Kwantificeerbare maat voor het aantal klikken op de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
+
+{style="table-layout:fixed"}
 
 
 ## Metagegevens van element
@@ -96,6 +104,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Aanmaakdatum van element | Aanmaakdatum van element. | Dimension | Recentste \| Sessie |
 | Element laatst bijgewerkt door | Id voor bijwerken van element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Laatste bijgewerkte datum van element | Datum van update van element. | Dimension | Recentste \| Sessie |
+
+{style="table-layout:fixed"}
 
 
 ## Elementkenmerken
@@ -119,6 +129,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Belichtingsvoorwaarde voor element | ![ AI produceerde ](/help/assets/icons/AI.svg) Verlichtingsvoorwaarde van de activa. Mogelijke waarden zijn: golden hour, blue hour, midday, overcast, night, high key, low key, daylighting, incandescent, fluorescerend, kleurrijk en studio. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Instelling van camera-elementen | ![ AI produceerde ](/help/assets/icons/AI.svg) het plaatsen van de Camera van de activa. Mogelijke waarden zijn: snelle sluitersnelheid, lange belichting. Bokeh-vervaging, bewegingsvervaging, vervaging met kantelen, flash, groothoek, zwart-wit, surrealistisch, dubbele belichting, macro en normale modus. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 
+{style="table-layout:fixed"}
+
 
 ## Gebeurtenissen van Asset
 
@@ -126,6 +138,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 |---|---|---|---|
 | Elementweergaven | Kwantificeerbare waarde van het aantal weergaven van het actief. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Elementklikken | Kwantificeerbare maatstaf voor het aantal klikken op het actief. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
+
+{style="table-layout:fixed"}
 
 
 <!--
@@ -137,6 +151,8 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Experience Path Root | Root path to the experience. | Derived Field | |
 | Asset Location | Location of the asset. | Derived Field | |
 | Asset Percenption ID + Asset ID | Combiination of asset perception identifier and asset identifier | Derived Field | |
+
+{style="table-layout:fixed"}
 -->
 
 ## Berekende cijfers
@@ -145,3 +161,5 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 |---|---|---|---|
 | Middelen klikken-dalingssnelheid | Elementklikken/Elementweergaven | Berekende metrische waarde | |
 | ervaringsdoorkliksnelheid | Ervaar klikken/Weergaven ervaren | Berekende metrische waarde | |
+
+{style="table-layout:fixed"}
