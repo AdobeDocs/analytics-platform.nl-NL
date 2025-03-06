@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 0%
 >id="cja-upgrade-source-connector"
 >title="Implementatie van analytische bronconnector"
 >abstract="Met de bronaansluiting voor Analytics kunt u eenvoudig waarde ophalen uit Customer Journey Analytics, maar u moet zowel voor Adobe Analytics als voor Customer Journey Analytics betalen. Deze gids kan u helpen zich op een onafhankelijke implementatie van SDK van het Web bewegen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-delete"
+>title="De bestaande bronconnector voor Analytics verwijderen"
+>abstract="De bronschakelaar van Analytics die u momenteel hebt is niet compatibel met het douaneschema van uw organisatie. De gegevens staan echter nog steeds in het pakket Analytics-rapporten. Deze stap verwijdert de huidige bronschakelaar van de Analyse zodat kunt u het ontspannen gebruikend het correcte schema in een verdere stap.<br><br> alvorens u de bronschakelaar schrapt, zou u met anderen in uw organisatie kunnen willen coördineren om ervoor te zorgen dat de verwijdering van de bronschakelaar geen rapportering binnen uw organisatie beïnvloedt. Deze coördinatie kan enkele weken duren."
 
 <!-- markdownlint-enable MD034 -->
 

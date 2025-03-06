@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 >id="cja-upgrade-keep-aa"
 >title="Beide analytische producten behouden"
 >abstract="(Niet aanbevolen) Als u deze optie selecteert, worden in uw contract met Adobe zowel Adobe Analytics als Customer Journey Analytics opgenomen. Dit kan in de loop der tijd duurder zijn voor uw organisatie."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-source-connector"
+>title="Schakel de connector van de bron Analytics uit om uitsluitend gegevens van de Web SDK te gebruiken"
+>abstract="De bronschakelaar van de Analyse wordt gebruikt om zij aan zij gegevensvergelijking, historische gegevens, en toegang tot sommige eigenschappen te verstrekken die niet volledig beschikbaar in Customer Journey Analytics zijn. Wanneer u Adobe Analytics niet meer nodig hebt voor deze doeleinden, kunt u de bronconnector van Analytics uitschakelen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,6 +67,24 @@ Wanneer u besluit of en wanneer uw organisatie Adobe Analytics moet uitschakelen
 >id="cja-upgrade-disable-appmeasurement-third-pary"
 >title="Een systeem voor tagbeheer van derden uitschakelen"
 >abstract="Als de Web SDK-gegevens volledig functioneel zijn, werkt u samen met uw tagbeheer om de AppMeasurement-bibliotheek te verwijderen uit uw externe tagbeheersysteem.<br><br> Geschatte tijd om deze stap uit te voeren hangt van het gemak af om AppMeasurement van uw product van het markeringsbeheer, evenals de versiecyclus onbruikbaar te maken die uw organisatie aanwendt om markeringscode op te stellen en te beheren."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-tags"
+>title="De extensie Analytics uitschakelen in tags"
+>abstract="Als de gegevens van SDK van het Web volledig - functioneel, werk met uw markeringsbeheerder om de uitbreiding van Adobe Analytics uit het markeringsbezit te verwijderen. Voordat u dit doet, moet u ervoor zorgen dat uw gebruikers zijn overgegaan van het gebruik van Adobe Analytics naar Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-api"
+>title="API-gegevensverzameling voor Adobe Analytics uitschakelen"
+>abstract="Met de gegevens van SDK van het Web volledig functioneel, werk met het toepasselijke technische team om de code van Adobe Analytics uit het project te verwijderen. Voordat u dit doet, moet u ervoor zorgen dat uw gebruikers zijn overgegaan van het gebruik van Adobe Analytics naar Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -20,40 +20,48 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="Het aanpassingsobject voor Adobe Journey Optimizer gebruiken"
->abstract="Gebruik het verpersoonlijkingsvoorwerp in uw implementatie voor gebruik in Adobe Journey Optimizer."
+>abstract="Door de geavanceerde technologieën in het onder toezicht houden van machine het leren en diep leren te gebruiken, staat de Persoonlijke optimalisering een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-Het resultaat van het verpersoonlijkingsvoorwerp eindigt omhoog in een dataset. Het resultaat van experimenten. Wanneer een klant AA met Target heeft gebruikt, komt dat in een volledig andere ruimte terecht dan wanneer ze naar CJA migreren en ze CJA met Adobe Target gaan gebruiken.
+Door de geavanceerde technologieën in het onder toezicht houden van machine het leren en diep leren te gebruiken, staat de Persoonlijke optimalisering een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
 
-Doel was de oude manier om een A/B-test of een proef uit te voeren. Vervolgens werden de resultaten van die tests in Target in AA afgerond voor rapportage. Nu als u Doel gebruikt, in plaats van te zeggen dat u de gegevens in Doel wilt, kunt u CJA nu selecteren als uw rapporteringsbron voor een activiteit van Adobe Target. Dus als een klant dit doet in AA en ze naar CJA willen verhuizen, ...
+Voor meer informatie, zie [ Gepersonaliseerd optimaliseringsmodel ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) in de Gids van Journey Optimizer.
 
-Als een klant AJO heeft en aanbiedingen in AJO gebruikt, kunnen zij aanbiedingen instellen en dat leidt ook tot datasets in Platform... Maar dat is niet relevant bij upgrade.
+<!--
 
+The result of the personalization object ends up in a dataset. The result of experimentation. When a customer has used AA with Target, that ends up in a complete different space than when they're migrating to CJA and they're going to use CJA with Adobe Target. 
 
+Target was the old way of setting up an A/B test or experimentation. Then ensuring the results of those tests in Target ended up in AA for reporting. Now if you're using Target, instead of saying that you want the data in Target, you can now select CJA as your reporting source for an Adobe Target activity. So if a customer is doing this in AA and they want to move to CJA, ...
 
-De vragen die we moeten beantwoorden:
-
-1. Hoe bepalen wij de verpersoonlijkheidscriteria (rood voor gebruiker A en blauw voor Gebruiker B)
-
-1. Wat implementeren we op de site om het rode/blauwe object te bepalen?
+If a customer has AJO, and is using Offers in AJO, then they can set up offers, and that also creates datasets in Platform... But that's not relevant with upgrade, exactly.
 
 
-2 manieren om dit te doen :
 
-Inhoud handmatig renderen of Inhoud automatisch renderen.
+Questions we need to answer:
+
+1. How do we determine the personalization criteria (Red for user A and blue for User B)
+
+1. What do we implement on the site to determine the red / blue object?
 
 
-## Handmatige implementatie van de Web SDK
+2 ways we can do it:
+
+Manually rendering content or Automatically rendering content. 
 
 
-## Mobiele SDK-implementatie
+## Manual implementation of the Web SDK
+
+
+## Mobile SDK implementation 
 
 
 
 
 
 ## Tags
+
+-->
 

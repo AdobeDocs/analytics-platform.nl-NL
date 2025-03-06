@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 0%
 >id="cja-upgrade-appmeasurement-logic"
 >title="AppMeasurement-logica gebruiken met de Web SDK"
 >abstract="In plaats van gegevens via een XDM-object te verzenden, verzendt u al uw variabelen in AppMeasurement-indeling via het gegevensobject.<br><br> deze optie bespaart implementatietijd door u toe te staan om uw logica van AppMeasurement aan XDM in kaart te brengen, eerder dan het bevolken van een voorwerp XDM van kras. Het leidt echter in de loop der tijd tot extra complexiteit omdat elk veld dat u in de toekomst toevoegt, in de gegevensstroom aan XDM moet worden toegewezen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-appmeasurement-logic-step"
+>title="Wijzig je AppMeasurement logica om naar het Web SDK te verwijzen"
+>abstract="Deze stap wordt weergegeven omdat u een sneltoets voor de implementatie hebt gekozen. Kopieer of wijzig uw AppMeasurement-logica om het gegevensobject te vullen in plaats van het s-object. Wijzig bijvoorbeeld de toewijzing van s.eVar1 aan gegevens.__adobe.analytics.eVar1 en repeat voor alle variabelen van de Analyse."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +48,7 @@ Overweeg de volgende voor- en nadelen van het gebruik van dit upgradealternatief
 
 | Voordelen | Nadelen |
 |----------|---------|
-| <ul><li>**verstrekt alle voordelen om gegevens in Ervaring Edge Network** te ontvangen: <p>Deze voordelen zijn onder meer:</p><ul><li>Zeer krachtige rapportering en gegevensbeschikbaarheid omdat Adobe Experience Platform aan macht [ wordt gebouwd verpersoonlijkingsgebruiksgevallen in real time ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolideer implementatie voor Adobe Experience Cloud-gegevensverzameling tussen andere Experience Cloud-producten (AJO, RTCDP, enzovoort)</li><li>Niet beperkt tot de Adobe Analytics-nomenclatuur (prop, eVar, event, enzovoort)</li></ul><li>**gebruikt uw bestaande implementatie**: Terwijl deze benadering sommige implementatieveranderingen vereist, vereist het geen volledig nieuwe implementatie van kras. Hiermee kunt u uw AppMeasurement-logica toewijzen aan XDM in plaats van een XDM-object helemaal vanaf het begin te vullen.</li></ul> | <ul><li>**vereist afbeelding om gegevens naar Platform** te verzenden: Wanneer uw organisatie klaar is om Customer Journey Analytics te gebruiken, moet u gegevens naar een gegevensreeks in Adobe Experience Platform verzenden. Deze actie vereist dat elk gebied in het gegevensvoorwerp een ingang in het hulpmiddel van de gegevenstoewijzing is dat het aan een XDM schemagebied toewijst. Voor deze workflow hoeft u slechts één keer toewijzingen uit te voeren, en dit betekent niet dat u implementatiewijzigingen aanbrengt. Het is echter een extra stap die niet vereist is bij het verzenden van gegevens in een XDM-object.</li><li>**introduceert extra ingewikkeldheid in tijd**: Om het even welk gebied u in de toekomst toevoegt moet aan XDM in de gegevensstroom in kaart worden gebracht.<p>Telkens wanneer een nieuw veld aan uw implementatie wordt toegevoegd, kunt u een van de volgende handelingen uitvoeren:</p><ul><li>**Optie 1:** bevolkt een nieuwe willekeurige gebeurtenis of nieuwe steun in het gegevensvoorwerp, dan kaart het aan het gewenste gebied XDM.<p>Dit proces bevordert consistentie voor de cliënt-zijimplementatie, maar het vereist afbeelding.</p></li><li>**Optie 2:** verlaat het gegevensvoorwerp als erfenisimplementatie en begin slechts het voorwerp XDM voor alle nieuwe gebieden te bevolken.<p>Dit proces vereist geen toewijzing, maar het betekent dat sommige van uw variabelen slechts in een gegevensvoorwerp worden gevestigd, terwijl andere variabelen slechts in een voorwerp XDM worden gevestigd. Wanneer u uw implementatie moet problemen oplossen, moet u naar twee plaatsen gaan. Zorg ervoor dat uw interne workflows hiervoor geschikt zijn.</p></li></ul> </li></ul> |
+| Dit is het voorkeurspad voor upgrades als uw Adobe Analytics-implementatie al gebruikmaakt van de Web SDK.<ul><li>**verstrekt alle voordelen om gegevens in Ervaring Edge Network** te ontvangen: <p>Deze voordelen zijn onder meer:</p><ul><li>Zeer krachtige rapportering en gegevensbeschikbaarheid omdat Adobe Experience Platform aan macht [ wordt gebouwd verpersoonlijkingsgebruiksgevallen in real time ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolideer implementatie voor Adobe Experience Cloud-gegevensverzameling tussen andere Experience Cloud-producten (AJO, RTCDP, enzovoort)</li><li>Niet afhankelijk van de Adobe Analytics-nomenclatuur (zoals prop, eVar, event, enzovoort)</li></ul><li>**gebruikt uw bestaande implementatie**: Terwijl deze benadering sommige implementatieveranderingen vereist, vereist het geen volledig nieuwe implementatie van kras. U kunt de bestaande gegevenslaag en -code gebruiken met minimale wijzigingen in de implementatielogica zonder dat dit van invloed is op uw bestaande Adobe Analytics-rapportage.</li><li>**verstrekt een optie om een schema XDM** te gebruiken: U kunt verkiezen om uw bestaand schema van Adobe Analytics te gebruiken of een XDM schema en kaartgebieden in het gegevensvoorwerp tot stand te brengen aan uw schema XDM. [ XDM- schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) zijn een flexibel schema om het even welke gebieden te bepalen u, en slechts die gebieden nodig hebt die relevant zijn. <p>Zie &quot;Gebruikend uw eigen schema XDM&quot;hieronder voor meer informatie over de voordelen om uw eigen schema te gebruiken XDM.</p></li><li>**behoudt regels en gegevenselementen**: Terwijl het nieuwe regelacties vereist, kunt u uw bestaande gegevenselementen en regelvoorwaarden met minimale veranderingen opnieuw gebruiken.</li><li>**Toekomstbestendig**: Als u verkiest om uw eigen schema te gebruiken XDM, dan zijn de toekomstige implementatieupdates gemakkelijker.</li></ul> | <ul><li>**vereist afbeelding om gegevens naar Platform** te verzenden: Wanneer uw organisatie klaar is om Customer Journey Analytics te gebruiken, moet u gegevens naar een gegevensreeks in Adobe Experience Platform verzenden. Deze actie vereist dat elk gebied in het gegevensvoorwerp een ingang in het hulpmiddel van de gegevenstoewijzing is dat het aan een XDM schemagebied toewijst. Voor deze workflow hoeft u slechts één keer toewijzingen uit te voeren, en dit betekent niet dat u implementatiewijzigingen aanbrengt. Het is echter een extra stap die niet vereist is bij het verzenden van gegevens in een XDM-object.</li><li>**introduceert extra ingewikkeldheid in tijd**: Om het even welk gebied u in de toekomst toevoegt moet aan XDM in de gegevensstroom in kaart worden gebracht.<p>Telkens wanneer een nieuw veld aan uw implementatie wordt toegevoegd, kunt u een van de volgende handelingen uitvoeren:</p><ul><li>**Optie 1:** bevolkt een nieuwe willekeurige gebeurtenis of nieuwe steun in het gegevensvoorwerp, dan kaart het aan het gewenste gebied XDM.<p>Dit proces bevordert consistentie voor de cliënt-zijimplementatie, maar het vereist afbeelding.</p></li><li>**Optie 2:** verlaat het gegevensvoorwerp als erfenisimplementatie en begin slechts het voorwerp XDM voor alle nieuwe gebieden te bevolken.<p>Dit proces vereist geen toewijzing, maar het betekent dat sommige van uw variabelen slechts in een gegevensvoorwerp worden gevestigd, terwijl andere variabelen slechts in een voorwerp XDM worden gevestigd. Wanneer u uw implementatie moet problemen oplossen, moet u naar twee plaatsen gaan. Zorg ervoor dat uw interne workflows hiervoor geschikt zijn.</p></li></ul> |
 
 {style="table-layout:auto"}
 
@@ -47,9 +56,9 @@ Overweeg de volgende voor- en nadelen van het gebruik van dit upgradealternatief
 
 De basisstappen voor het migreren van een implementatie van Adobe Analytics (of AppMeasurement of de uitbreiding van Analytics) om Web SDK te gebruiken om gegevens naar Customer Journey Analytics te verzenden zijn:
 
-1. (Optioneel) Migreer uw Adobe Analytics-implementatie om de Adobe Experience Platform Web SDK te gebruiken en gegevens naar Edge Network te verzenden.
+1. Migreer uw Adobe Analytics-implementatie om de Adobe Experience Platform Web SDK te gebruiken en gegevens naar Edge Network te verzenden.
 
-   Dit is een optionele stap waarmee u uw bestaande Adobe Analytics-implementatie kunt migreren voor gebruik van de Web SDK en kunt controleren of alles in Adobe Analytics werkt. Nadat dit wordt gevormd en de gegevens in Adobe Analytics bevredigend zijn, kunt u gegevens van Edge Network naar Customer Journey Analytics verzenden.
+   Met deze stap kunt u uw bestaande Adobe Analytics-implementatie migreren voor gebruik van de Web SDK. U kunt desgewenst gegevens naar Adobe Analytics verzenden om te controleren of alles in Adobe Analytics werkt voordat u gegevens naar Customer Journey Analytics verzendt. Nadat dit wordt gevormd en de gegevens in Adobe Analytics bevredigend zijn, kunt u gegevens van Edge Network naar Customer Journey Analytics verzenden.
 
    Dankzij deze flexibiliteit is een meer methodische en doordachte upgrade naar Customer Journey Analytics mogelijk.
 
@@ -59,16 +68,40 @@ De basisstappen voor het migreren van een implementatie van Adobe Analytics (of 
 
    * [ Migreer aan het Web SDK gebruikend JavaScript ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)
 
-1. Gegevens verzenden van Edge Network naar Customer Journey Analytics.
+1. Gegevens verzenden van Edge Network naar Platform.
 
    1. Verzend al uw variabelen in AppMeasurement-indeling via het gegevensobject.
 
       Voor meer informatie, zie [ objecten van Gegevens veranderlijke afbeelding aan Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping).
 
-   1. Als u nog niet hebt, maakt u een XDM-schema voor uw organisatie.
+   1. Kies uw schema.
 
-      Voor meer informatie, zie [ een douaneschema tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken.
+      U kunt kiezen of u uw bestaande Adobe Analytics-schema wilt gebruiken, of u kunt een XDM-schema maken dat beter op de behoeften van uw organisatie wordt afgestemd wanneer u andere platformservices gaat gebruiken.
+
+      Adobe raadt u aan een XDM-schema te maken. Voor meer informatie, zie [ een douaneschema tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken.
+
+      +++Adobe Analytics-schema gebruiken
+
+      | Voordelen | Nadelen |
+      |----------|---------|
+      | <p>De voordelen van het Adobe Analytics-schema zijn:</p><ul><li>Eenvoudig upgraden<p>Als u reeds gegevens naar Adobe Analytics met het Web SDK van Adobe Experience Platform verzendt, kunt u de extra dienst aan uw gegevensstroom toevoegen om gegevens naar Adobe Experience Platform te verzenden (die dan in uw configuratie van Customer Journey Analytics kan worden gebruikt).</p></li></ul> | <p>De nadelen van het gebruik van het Adobe Analytics-schema zijn:</p><ul><li>Terwijl het gebruiken van het schema van Adobe Analytics beperkt u niet in termen van hoe het met andere toepassingen van het Platform kan worden gebruikt, resulteert het in een schema dat complexer is dan het anders zou kunnen zijn. Dit komt omdat het Adobe Analytics-schema veel objecten bevat die specifiek zijn voor Adobe Analytics en die waarschijnlijk niet door uw organisatie zullen worden gebruikt.<p>Wanneer wijzigingen in het schema vereist zijn, moet u door duizenden ongebruikte velden bladeren om het veld te zoeken dat moet worden bijgewerkt.</p></li></ul> |
+
++++
+
+      +++Een XDM-schema maken
+
+      | Voordelen | Nadelen |
+      |----------|---------|
+      | <ul><p>De voordelen van het bijwerken aan uw eigen schema XDM omvatten:</p><ul><li>Een gestroomlijnd schema dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.</li><p>Wanneer veranderingen in het schema worden vereist, moet u niet door duizenden ongebruikte gebieden bewegen om het gebied te vinden dat het bijwerken vereist.</p></ul> | <p>De nadelen van het bijwerken aan uw eigen schema XDM omvatten:</p><ul><li>Het bijwerken van uw schema is een tijdrovend proces dat wordt vereist alvorens u begint gegevens naar Platform te verzenden.</li></ul> |
+
++++
 
    1. Gebruik gegevenstoewijzing om alle velden in het gegevensobject toe te wijzen aan uw XDM-schema.
 
       Voor meer informatie, zie [ Afbeelding ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [ Prep van Gegevens voor de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) in de documentatie van Experience Platform.
+
+   1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+
+
+
+

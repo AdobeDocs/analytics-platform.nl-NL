@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 1ac7059e76797b14c00993a2a46aa51b1ebfe6a2
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,24 @@ ht-degree: 0%
 >id="cja-upgrade-websdk-api"
 >title="NPM-pakket"
 >abstract="Gebruik de API voor gegevensverzameling om gegevens rechtstreeks naar een gegevensstroom te verzenden. Zowel niet-geverifieerde (client-naar-server) als geverifieerde (server-naar-server) typen worden ondersteund."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-no-selection"
+>title="Voer SDK van het Web voor uw bepaalde bezit uit"
+>abstract="Selecteer het gewenste implementatietype in de vragenlijst voor meer gedetailleerde instructies."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-third-party"
+>title="De Web SDK-bibliotheek toevoegen aan uw externe tagbeheersysteem"
+>abstract="Werk met de beheerder via het tagbeheersysteem om de Web SDK-bibliotheek aan uw site toe te voegen.<br><br> Voltooiingstijd voor deze taak hangt sterk van de ontvankelijkheid van het individu verantwoordelijk voor uw systeem van het markeringsbeheer af. Het toevoegen van de bibliotheek van SDK van het Web zou met bijbehorende implementatielogica kunnen worden gebundeld, en tijdens de standaardversiecycli van uw organisatie worden opgesteld."
 
 <!-- markdownlint-enable MD034 -->
 
