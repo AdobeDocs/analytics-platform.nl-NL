@@ -6,24 +6,24 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 19771d5cd2d2a38919c42e7f76bd700016020912
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
 
 ---
 
-# Report Builder voor Customer Journey Analytics
+# Informatie over Report Builder voor Customer Journey Analytics
 
-Met de Report Builder voor Customer Journey Analytics kunt u eenvoudig aangepaste rapporten maken, bewerken en vernieuwen met behulp van Adobe Customer Journey Analytics-gegevens. Customer Journey Analytics is de dienst die op Adobe Experience Platform wordt voortgebouwd die u bij veelvoudige gegevensbronnen laat aansluiten om een holistische mening van uw zaken tot stand te brengen. Met eenvoudige en flexibele belemmering en dalingsUI van de Report Builder, kunt u complexe gegevensvragen en douanerapporten van de gegevens van de Customer Journey Analytics, allen binnen Excel tot stand brengen.
+Met Report Builder for Customer Journey Analytics kunt u eenvoudig aangepaste rapporten maken, bewerken en vernieuwen met behulp van Adobe Customer Journey Analytics-gegevens. Customer Journey Analytics is een service die is gebaseerd op Adobe Experience Platform en waarmee u zich kunt aansluiten bij meerdere gegevensbronnen om een holistische weergave van uw bedrijf te maken. Met de eenvoudige en flexibele interface van Report Builder voor slepen en neerzetten kunt u complexe gegevensquery&#39;s en aangepaste rapporten maken vanuit Customer Journey Analytics-gegevens, allemaal in Excel.
 
-Met Report Builder voor Customer Journey Analytics, kunt u:
+Met Report Builder for Customer Journey Analytics kunt u:
 
 - Verwijs naar bestaande werkbladcellen om de perfecte rijvolgorde, datumbereik of filter op te halen
 - Aangepaste datums maken met gebruik van kalender, celverwijzingen of wiskunde voor datums
 - Ontwerp uw lijsten en visualisaties met vertrouwde het formatteren van Excel hulpmiddelen
 
-Report Builder voor Customer Journey Analytics is beschikbaar voor Excel op de volgende platforms:
+Report Builder for Customer Journey Analytics is beschikbaar voor Excel op de volgende platforms:
 
 - macOS
 - Windows
@@ -37,7 +37,7 @@ Report Builder voor Customer Journey Analytics is beschikbaar voor Excel op de v
 
 - **ad hoc Analyse**: De gebruikers kunnen ad hoc rapporten snel produceren om specifieke vragen te beantwoorden of gegevenstrends te onderzoeken zonder het moeten door een langdurig proces van de rapportverwezenlijking gaan.
 
-- **Dashboarding**: Gegevens die uit CJA worden gehaald kunnen worden gebruikt om op Excel-Gebaseerde dashboards en visualisaties voor een overzicht op hoog niveau van zeer belangrijke prestatiesindicatoren (KPIs) tot stand te brengen.
+- **Dashboarding**: De gegevens die uit CJA worden gehaald kunnen worden gebruikt om op Excel-Gebaseerde dashboards en visualisaties voor een overzicht op hoog niveau van zeer belangrijke prestatiesindicatoren (KPIs) tot stand te brengen.
 
 - **het Delen van Inzichten**: U kunt de rapporten en de inzichten van Excel met teamleden of bewaarders delen die geen directe toegang tot CJA zouden kunnen hebben.
 
@@ -50,5 +50,5 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Boder van het
 
 >[!ENDSHADEBOX]
 
-U kunt Report Builder voor Customer Journey Analytics downloaden van de
-[ Opslag van Microsoft ](https://www.microsoft.com/en-us/store/apps/windows).
+U kunt Report Builder for Customer Journey Analytics downloaden van het
+[ Opslag van Microsoft ](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).
