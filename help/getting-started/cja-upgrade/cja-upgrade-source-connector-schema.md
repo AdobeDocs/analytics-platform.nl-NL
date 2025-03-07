@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 0%
 >id="cja-upgrade-source-connector-create-schema"
 >title="Creeer een schema voor de bron van de Analyse schakelaar"
 >abstract="Dit schema is een combinatie van de Adobe Analytics ExperienceEvent-veldgroep met alle veldgroepen die het aangepaste schema van uw organisatie vormen. Het staat u toe om de gebieden in kaart te brengen die door de bron van de Analyse schakelaar aan het schema van uw organisatie worden gebruikt, en slechts voor historische gegevens wordt gebruikt.<br><br> terwijl technisch in aard, kan het creëren van dit schema in uren, misschien sneller worden voltooid als u precies weet welke gebiedsgroepen omhoog het douaneschema van uw organisatie maken."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-historical"
+>title="De bronaansluiting Analytics maken voor historische gegevens"
+>abstract="U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens worden gebruikt als historische gegevens in Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

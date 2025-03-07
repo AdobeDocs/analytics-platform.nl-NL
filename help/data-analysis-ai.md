@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 99f82353e41180a0090e84e58593d63fc5cbe803
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Met de AI-assistent voor het beantwoorden van gegevenscentrische vragen in Analy
 | **Verifiability** | De verifieerbaarheid en juistheid van gegevens kunnen worden bevestigd via de gegenereerde vrije-vormlijst en gegevensvisualisatie. Bijvoorbeeld, als een gebruiker *de orden van de Trend van de Tendens* vraagt, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. |
 | **Terugkoppeling** | <ul><li>Stompelen omhoog</li><li>Miniatuur omlaag</li><li>Markering</li></ul> |
 
-### Alpha-functies buiten bereik
+### Beta-functies buiten bereik
 
 | Niet-ondersteunde functie | Beschrijving |
 | --- | --- |
@@ -78,9 +78,9 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. Selecteer **[!UICONTROL Blank project]** in de banner bij de bovenkant van de projectpagina om een nieuw leeg project te openen.
 
-4. Zorg ervoor dat de geselecteerde gegevensweergave voor het deelvenster dezelfde gegevensweergave is als de gegevensweergave die is ingeschakeld voor gebruik met de AI-assistent voor Alpha-tests.
+4. Zorg ervoor dat de geselecteerde gegevensweergave voor het deelvenster dezelfde gegevensweergave is als de gegevensweergave die is ingeschakeld voor gebruik met de AI-assistent voor Beta-tests.
 
-   Neem contact op met het Alpha Slack-kanaal als u het niet zeker weet.
+   Neem contact op met het Beta Slack-kanaal als u het niet zeker weet.
 
 5. Selecteer het AI Assistant-chatpictogram rechtsboven op de pagina.
 
@@ -187,7 +187,7 @@ Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop spe
 | Lijnvisualisatie | <ul><li>Trend</li><li>[ Metrisch ] in [ waaier van de Tijd ]</li></ul> |
 | Staafvisualisatie | <ul><li>[ Metrisch ] door [ Dimension ]</li></ul> |
 
-## Alpha testverwachtingen en gevraagde feedback
+## Beta testverwachtingen en gevraagde feedback
 
 Na het stellen van elke vraag, herzie zorgvuldig het verstrekte antwoord van de medewerker. Het is cruciaal om de gegenereerde visualisaties uitgebreid te evalueren voordat u feedback geeft.
 
