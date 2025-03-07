@@ -5,20 +5,20 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1782'
 ht-degree: 0%
 
 ---
 
 # scorecards beheren
 
-Dit onderwerp instrueert curators van Customer Journey Analytics gegevens over hoe te om scorecard elementen te bekijken en te beheren.
+Dit onderwerp instrueert curators van de gegevens van Customer Journey Analytics over hoe te om scorecard elementen te bekijken en te beheren.
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en alternatief de tegel vormen door filters toe te passen. Segmenten zijn filters in Customer Journey Analytics.
+Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en alternatief de tegel vormen door segmenten toe te passen.
 
 ![ de tegel van Eigenschappen ](assets/properties-tile-new.png)
 
@@ -109,7 +109,7 @@ Tik op het prullenbakpictogram om een dia te verwijderen.
 
 ### Een gegevensartikel aanpassen {#customize-data-story}
 
-Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om filters toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisatie te wijzigen.
+Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om segmenten toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisaties te wijzigen.
 
 **om tegels** aan te passen
 

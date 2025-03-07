@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De volgende informatie instrueert curatoren van Customer Journey Analytics gegevens over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
+De volgende informatie instrueert curatoren van de gegevens van Customer Journey Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Om met te beginnen, kunt u de de bouwervideo bekijken van de dashboards van Analytics:
 
 
 >[!BEGINSHADEBOX]
@@ -36,7 +36,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer mobiel
 
 >[!NOTE]
 >
->Er zijn beeldschermafbeeldingen van analysescorecard voor deze pagina gemaakt vanuit de gebruikersinterface van Adobe Analytics, niet vanuit de Customer Journey Analytics. De gebruikersinterface is bijna identiek.
+>Er zijn beeldschermafbeeldingen voor deze pagina gemaakt op basis van de Adobe Analytics-gebruikersinterface, niet op basis van Customer Journey Analytics. De gebruikersinterface is bijna identiek.
 
 Een scorecard van Analytics toont zeer belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een tegellay-out, zoals hieronder getoond:
 
@@ -87,17 +87,17 @@ Om het scorecardmalplaatje uit te voeren:
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
-U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]** -meting door deze naar de tegel te slepen. Uitsplitsingen naar Dimensionen worden weergegeven onder de sectie [!UICONTROL Drill Ins] (uitsplitsing) van de tegelspecifieke sectie **[!UICONTROL Properties]** . U kunt meerdere afmetingen aan elke tegel toevoegen.
+U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]** -meting door deze naar de tegel te slepen. Uitsplitsingen naar afmetingen worden weergegeven onder de sectie [!UICONTROL Drill Ins] (uitsplitsing) van de tegelspecifieke sectie **[!UICONTROL Properties]** . U kunt meerdere afmetingen aan elke tegel toevoegen.
 
 ![ Nieuw mobiel scorecard venster met een pijl die van de dimensielijst aan de scorecard ruit richten.](assets/layer_dimensions.png)
 
-## Filters toepassen {#filters}
+## Segmenten toepassen {#segments}
 
-Als u filters wilt toepassen op afzonderlijke tegels, sleept u een filter (segmenten zijn filters in Customer Journey Analytics) uit het linkerdeelvenster en zet u het rechtstreeks boven op de tegel neer.
+Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het filter op alle tegels in de scorecard wilt toepassen, laat vallen de tegel bovenop de scorecard. U kunt ook filters toepassen door filters te selecteren in het filtermenu onder de datumbereiken. U [ vormt en past filters voor uw scorecards ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door deze te selecteren in het segmentmenu onder de datumbereiken. U [ vormt en past segmenten voor uw scorecards ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
 
-![ drop-down selecteur die van de Filter de bouwstijlfilters benadrukt ](assets/segment_ui.png)
+![ drop-down selecteur die van het Segment de bouwstijlsegmenten ](assets/segment_ui.png) benadrukt
 
 ## Datumbereiken toevoegen {#dates}
 
@@ -186,7 +186,7 @@ Als u [!UICONTROL Unspecified] dimensie-items uit uw gegevens wilt verwijderen, 
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en alternatief de tegel vormen door filters toe te passen. Segmenten zijn filters in Customer Journey Analytics.
+Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en alternatief de tegel vormen door segmenten toe te passen.
 
 ![ de tegel van Eigenschappen ](assets/properties-tile-new.png)
 
@@ -281,7 +281,7 @@ Tik op het prullenbakpictogram om een dia te verwijderen.
 
 ### Een gegevensartikel aanpassen {#customize-data-story}
 
-Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om filters toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisatie te wijzigen.
+Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die u wilt delen en alles kunt uitsluiten wat u niet nodig hebt. U kunt tegels en afzonderlijke dia&#39;s aanpassen om segmenten toe te voegen, onderverdelingen weer te geven, de lay-out te wijzigen en de visualisaties te wijzigen.
 
 **om tegels** aan te passen
 
