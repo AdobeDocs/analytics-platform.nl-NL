@@ -1,23 +1,23 @@
 ---
-title: Wat is de Hub van de Report Builder in Customer Journey Analytics
-description: Beschrijft de componenten van de Hub van de Report Builder
+title: Wat is de Report Builder Hub in Customer Journey Analytics
+description: Beschrijft de componenten van de Hub van Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 # Report Builder Hub
 
-Gebruik de hub van de Report Builder om, gegevensblokken tot stand te brengen bij te werken te schrappen en te beheren.
+Met de Report Builder-hub kunt u gegevensblokken maken, bijwerken, verwijderen en beheren.
 
-Het knooppunt Report Builder bevat de knoppen Maken en Beheren, de lijst OPDRACHTEN en de deelvensters SNEL BEWERKEN.
+De Report Builder-hub bevat de knoppen Maken en Beheren, de lijst OPDRACHTEN en de deelvensters SNEL BEWERKEN.
 
 <img src="./assets/hub51.png" width="50%" alt="Report Builder Hub"/>
 
@@ -30,7 +30,7 @@ Met de knoppen Maken of Beheren kunt u nieuwe gegevensblokken maken of bestaande
 
 Gebruik het deelvenster OPDRACHTEN voor toegang tot opdrachten die compatibel zijn met de geselecteerde cellen of een vorige handeling.
 
-![Het paneel van Bevelen in de Hub van de Bouwer van het Rapport](./assets/hub1.png)
+![ het paneel van Bevelen in de Hub van de Bouwer van het Rapport ](./assets/hub1.png)
 
 ### Opdrachten
 
@@ -45,26 +45,26 @@ Gebruik het deelvenster OPDRACHTEN voor toegang tot opdrachten die compatibel zi
 
 ## Deelvenster SNEL BEWERKEN
 
-Wanneer u een of meer gegevensblokken in een spreadsheet selecteert, wordt het deelvenster SNEL BEWERKEN weergegeven met de Report Builder. U kunt het deelvenster SNEL BEWERKEN gebruiken om parameters in één gegevensblok te wijzigen of om parameters in meerdere gegevensblokken tegelijk te wijzigen.
+Wanneer u een of meer gegevensblokken in een spreadsheet selecteert, geeft Report Builder het deelvenster SNEL BEWERKEN weer. U kunt het deelvenster SNEL BEWERKEN gebruiken om parameters in één gegevensblok te wijzigen of om parameters in meerdere gegevensblokken tegelijk te wijzigen.
 
-![Het deelvenster Snel bewerken in Report Builder](./assets/hub2.png)
+![ Snel geeft paneel in Report Builder uit ](./assets/hub2.png)
 
 De wijzigingen die u hebt aangebracht met de secties Snel bewerken zijn van toepassing op alle geselecteerde gegevensblokken.
 
 ### Gegevensweergaven
 
-Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als er meerdere gegevensblokken zijn geselecteerd in een werkblad en deze geen gegevens ophalen uit dezelfde gegevensweergave, worden de **Gegevensweergaven** koppelingsweergaven *Meerdere*.
+Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde gegevensmening, de **verbindingsvertoningen van de meningen van Gegevens *Veelvoud*.**
 
-Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld id ```evars```). Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
+Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok komen overeen met de nieuwe gegevensweergave op basis van bijvoorbeeld de id die overeenkomt met ```evars``` . Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
 
 Als u de gegevensweergave wilt wijzigen, selecteert u een nieuwe gegevensweergave in het keuzemenu.
 
-![De Hub van de Report Builder die het drop-down menu toont van de gegevensmening.](./assets/image16.png)
+![ de Hub van Report Builder die het drop-down menu van de gegevensmening toont.](./assets/image16.png)
 
 ### Datumbereik
 
-**Datumbereik** Hiermee geeft u het datumbereik voor de geselecteerde gegevensblokken weer. Als er meerdere gegevensblokken met meerdere datumbereiken zijn geselecteerd, wordt de **Datumbereik** koppelingsweergaven *Meerdere*.
+**waaier van de Datum** toont de datumwaaier voor de geselecteerde gegevensblokken. Als de veelvoudige gegevensblokken met veelvoudige datumwaaiers worden geselecteerd, de **verbindingsvertoningen van de waaier van de Datum** *Veelvoud*.
 
-### Filters
+### Segmenten
 
-De **Filters** de verbinding toont een summiere lijst van de filters die door de geselecteerde gegevensblokken worden gebruikt. Als er meerdere gegevensblokken zijn geselecteerd met meerdere filters toegepast, wordt **Filters** koppelingsweergaven *Meerdere*.
+De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten *Veelvoudig*.**

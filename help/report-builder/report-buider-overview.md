@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 19771d5cd2d2a38919c42e7f76bd700016020912
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Met Report Builder for Customer Journey Analytics kunt u eenvoudig aangepaste ra
 
 Met Report Builder for Customer Journey Analytics kunt u:
 
-- Verwijs naar bestaande werkbladcellen om de perfecte rijvolgorde, datumbereik of filter op te halen
+- Verwijs bestaande aantekenvelcellen om de perfecte rijorde, datumwaaier, of segment te krijgen
 - Aangepaste datums maken met gebruik van kalender, celverwijzingen of wiskunde voor datums
 - Ontwerp uw lijsten en visualisaties met vertrouwde het formatteren van Excel hulpmiddelen
 
