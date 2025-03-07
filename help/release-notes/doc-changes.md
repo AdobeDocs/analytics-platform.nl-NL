@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
+source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
 workflow-type: tm+mt
-source-wordcount: '4629'
+source-wordcount: '4644'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Maart 2025** | |
+| Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
 | **Februari 2025** |  |
 | Media Collection: Adobe Source Connector updates voor nieuwe Media die XDM melden | De Schakelaar van Source van Analytics [ kaarten automatisch het stromen media gegevens in Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) aan de zelfde gebieden die door het Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. |
 | BI-extensie - uitgebreide ondersteuning | De uitbreiding van Customer Journey Analytics BI steunt nu [ Leider, Notitieboekje Jupyter en de Studio van R ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
@@ -199,7 +201,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Oktober 2022 | Mobiele app: Nieuw onderwerp op [ meningen van het douanedetail ](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides). |
 | Oktober 2022 | Updates aan het [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md) onderwerp. |
 | **September 2022** | |
-| September 2022 | Het nieuwe gebruiksgeval op [ migrerend de gegevens van Google Analytics aan Customer Journey Analytics ](/help/use-cases/ga/overview.md). |
+| September 2022 | Het nieuwe gebruiksgeval op [ migrerend de gegevens van Google Analytics aan Customer Journey Analytics ](/help/use-cases/third-party/ga/overview.md). |
 | September 2022 | Nieuw onderwerp op [ Combo grafieken ](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
 | September 2022 | Nieuw onderwerp op [ het paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | **Augustus 2022** | |
@@ -269,7 +271,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | April 2021 | Nieuw onderwerp op [ persistentie ](/help/data-views/component-settings/persistence.md). |
 | April 2021 | Nieuwe documentatie over steun voor geplande projecten in Workspace. |
 | April 2021 | Nieuwe onderwerpen op de [ verbeterde ervaring van de Kijken van Gegevens ](/help/data-views/data-views.md). |
-| April 2021 | Nieuwe onderwerpen op [ het opnemen van de gegevens van Google Analytics ](/help/use-cases/ga/overview.md) en [ het analyseren van die gegevens ](/help/use-cases/ga/report.md). |
+| April 2021 | Nieuwe onderwerpen op [ het opnemen van de gegevens van Google Analytics ](/help/use-cases/third-party/ga/overview.md) en [ het analyseren van die gegevens ](/help/use-cases/third-party/ga/report.md). |
 | April 2021 | Toegevoegd onderwerp op [ geplande rapporten ](/help/analysis-workspace/export/t-schedule-report.md) in Workspace. |
 | April 2021 | Nieuw onderwerp op [ high-cardinality dimensies in Customer Journey Analytics ](/help/components/dimensions/high-cardinality.md). |
 | **Maart 2021** | |

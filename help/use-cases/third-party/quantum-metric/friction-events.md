@@ -1,0 +1,60 @@
+---
+title: Metrische wrijvingsgebeurtenissen voor Quantum toevoegen aan Customer Journey Analytics
+description: Voeg diepten toe aan inzichten in Customer Journey Analytics met behulp van wrijvingsgebeurtenissen verzameld in Quantum Metric.
+role: User, Admin
+solution: Customer Journey Analytics
+feature: Use Cases
+hidefromtoc: true
+hide: true
+source-git-commit: e6a77e75963fb43041c0533a28a9563a3849b8b0
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 0%
+
+---
+
+# Metrische wrijvingsgebeurtenissen voor Quantum toevoegen aan Customer Journey Analytics
+
+Quantum Metric verzamelt wrijvingsgebeurtenissen zoals vertraging bij het laden van pagina&#39;s, fouten bij het laden van pagina&#39;s, het klikken van rages en meer. Deze gebeurtenissen kunnen in Customer Journey Analytics worden doorgegeven als complementaire gebeurtenissen op de reis van de gebruiker. Met deze gecombineerde gegevens kunt u beter begrijpen wat de invloed van wrijving is op de stroomafwaartse metriek.
+
+Voor dit gebruiksgeval gelden twee vereisten:
+
+* U moet gerechtigd zijn tot het pakket van Metrische Quantum **Dev Ops**.
+* U moet labels gebruiken in Adobe Experience Platform Data Collection.
+
+## Stap 1: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
+
+Het Quantum Metric CSM team kan u helpen de juiste schemaelementen bepalen om toe te voegen, en hulp u instrueert om uw implementatie te wijzigen om de gewenste gegevens voor gebruik in Customer Journey Analytics te verzamelen. Neem voor meer informatie contact op met uw Quantum Metric Customer Succesmanager.
+
+Uiteindelijk wilt u de naam van de wrijvingsgebeurtenis in een veld volgen.
+
+## Stap 2: Ingesloten gegevenssetvelden bevestigen
+
+Bevestig dat de datasets in uw verbinding nu Quantum Metric zittings identiteitskaart in de gewenste dataset hebben.
+
+## Stap 3: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
+
+Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
+
+1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** in het bovenste menu.
+1. Selecteer de gewenste bestaande gegevensweergave.
+1. Zoek de lijst met het gebeurtenisveld Quantum Metric friction aan de linkerkant en sleep deze naar het meetgebied in het midden.
+1. In de juiste ruit, plaats [ omvatten/uitsluiten waarden ](/help/data-views/component-settings/include-exclude-values.md) het plaatsen aan de gewenste wrijvingsgebeurtenissen die u wilt volgen. U kunt veelvoudige wrijvingsgebeurtenissen aan zelfde metrisch toevoegen om hen te combineren. U kunt ook een andere kopie van het veld wrijvingsgebeurtenissen naar het metrische gebied slepen om andere wrijvingsgebeurtenissen als een aparte metrische waarde bij te houden.
+1. Klik op **[!UICONTROL Save]** als u alle gewenste afmetingen en metriek hebt gemaakt.
+
+## Stap 4: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
+
+Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersgegevens worden verzameld, kunt u ze precies gebruiken zoals u dat zou doen met andere maten of metrische gegevens in Customer Journey Analytics.
+
+1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
+1. Selecteer een bestaand project of maak een project.
+1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Sleep de gewenste afmetingen en afmetingen naar het Workspace-canvas voor analyse.
+
+Mogelijke analyses zijn:
+
+* Trend friction event data over time
+* Voeg bij een fallout- of trechter-visualisatie Customer Journey Analytics-gebeurtenissen toe als een paar stappen en Quantum Metric friction-gebeurtenissen. Met dit rapport kunt u zien waar bezoekers meestal in de problemen komen.
+* Een filter maken en toepassen voor bezoekers die wrijvingsgebeurtenissen ervaren voor een diepgaande analyse
