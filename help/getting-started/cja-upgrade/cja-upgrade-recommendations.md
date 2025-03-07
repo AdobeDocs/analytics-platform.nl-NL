@@ -1,15 +1,15 @@
 ---
-title: Aanbevolen pad bij upgrade van Adobe Analytics naar Customer Journey Analytics
-description: Meer informatie over het aanbevolen pad wanneer u een upgrade uitvoert van Adobe Analytics naar Customer Journey Analytics
+title: Upgrade van Adobe Analytics naar Customer Journey Analytics
+description: Meer informatie over de aanbevolen stappen bij het upgraden van Adobe Analytics naar Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Nadat u genoeg historische gegevens gebruikend het Web SDK van Experience Platfo
 
 >[!NOTE]
 >
->Als de verbeteringsstappen die in deze sectie worden beschreven niet praktisch voor uw organisatie zijn, gebruik [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/) om verbeteringsstappen dynamisch te produceren die aan de unieke omstandigheden van uw organisatie worden aangepast.
+>Als de upgrade-stappen die in deze sectie worden beschreven niet praktisch zijn voor uw organisatie, gebruikt u de Customer Journey Analytics Upgrade Guide om upgradestappen dynamisch te genereren die zijn afgestemd op de unieke omstandigheden van uw organisatie. (Als u vanuit Customer Journey Analytics toegang wilt krijgen tot de hulplijn, selecteert u de tab **[!UICONTROL Workspace]** en vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** in het linkerdeelvenster. Volg de aanwijzingen op het scherm.)
 
 ### Aanbevolen upgradeproces op hoog niveau {#high-level-upgade-process}
 
@@ -189,9 +189,11 @@ Afhankelijk van verscheidene factoren, zoals chronologie en middelbeperkingen, b
 
 Om verbeteringsstappen voor de unieke omstandigheden van uw organisatie dynamisch te produceren:
 
-1. Voltooi de [ Adobe Analytics aan de verbeteringsvragenlijst van Customer Journey Analytics ](https://gigazelle.github.io/cja-ttv/).
+1. Voltooi de Customer Journey Analytics Upgrade Guide.
 
-   Nadat u deze vragenlijst hebt voltooid, ontvangt u stapsgewijze instructies met een beschrijving van de optimale upgradestappen die uniek zijn voor uw organisatie-vereisten. Dit zijn de upgradestappen die het beste aansluiten op uw bestaande Adobe Analytics-omgeving en uw doelen voor Customer Journey Analytics.
+   Als u vanuit Customer Journey Analytics toegang wilt tot de hulplijn, selecteert u de tab **[!UICONTROL Workspace]** en vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** in het linkerdeelvenster. Volg de aanwijzingen op het scherm.
+
+   Nadat u deze upgradehandleiding hebt voltooid, ontvangt u stapsgewijze instructies waarin de optimale upgradestappen worden beschreven die uniek zijn voor uw organisatie-vereisten. Dit zijn de upgradestappen die het beste aansluiten op uw bestaande Adobe Analytics-omgeving en uw doelen voor Customer Journey Analytics.
 
 1. Volg de gegenereerde stapsgewijze instructies om te upgraden naar Customer Journey Analytics.
 

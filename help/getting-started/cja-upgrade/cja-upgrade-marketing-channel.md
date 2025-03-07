@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Als u marketingkanalen in Customer Journey Analytics wilt gebruiken wanneer u de
 
    Uw nieuwe afgeleide gebied wordt toegevoegd aan de Afgeleide gebieden > container, als deel van de gebieden van het Schema in de linkerspoorstaaf van uw mening van Gegevens.
 
-1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+{{upgrade-final-step}}

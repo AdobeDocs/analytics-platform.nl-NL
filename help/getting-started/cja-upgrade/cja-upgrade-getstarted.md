@@ -1,30 +1,34 @@
 ---
-title: Aan de slag met de upgrade naar Customer Journey Analytics
-description: Uw upgrade van Adobe Analytics naar Customer Journey Analytics plannen
+title: Ga aan de slag met de upgrade naar Customer Journey Analytics
+description: Upgrade van Adobe Analytics naar Customer Journey Analytics plannen
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Stap 1: Ga aan de slag met de upgrade naar Customer Journey Analytics
 
+>[!AVAILABILITY]
+>
+>De informatie op deze pagina wordt vervangen door de volgende uitgebreidere upgrade-informatie: <ul><li>**Aanbevolen verbeteringsstappen**<p>Voor gedetailleerde informatie, zie [ Geadviseerde weg wanneer bevordering van Adobe Analytics aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Gids van de Verbetering van Customer Journey Analytics**<p>Er is een nieuwe upgradehandleiding beschikbaar waarmee op dynamische wijze upgradestappen worden gegenereerd die zijn afgestemd op uw organisatie en uw unieke omstandigheden.</p><p>Als u vanuit Customer Journey Analytics toegang wilt tot de hulplijn, selecteert u de tab **[!UICONTROL Workspace]** en vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** in het linkerdeelvenster. Volg de aanwijzingen op het scherm.</p></li></ul>
+
 Customer Journey Analytics is de volgende generatie analyses. Het staat multi-kanaalgegevensinzameling (zowel online als off-line gegevens) toe, gecombineerd met krachtige rapport-tijd verwerkingsfunctionaliteit (door de definitie van componenten en afgeleide gebieden in gegevensmeningen).
 
 Voordat u begint met het upgraden van Adobe Analytics naar Customer Journey Analytics, dient u te weten wat de voordelen van Customer Journey Analytics zijn en welke stappen nodig zijn om de upgrade te voltooien.
 
-## Begrijp de voordelen van Customer Journey Analytics
+## De voordelen van Customer Journey Analytics begrijpen
 
-Hieronder vindt u een aantal belangrijke voordelen: (Voor een uitgebreide lijst en meer informatie over elk van deze belangrijkste functies raadpleegt u [Functies die alleen beschikbaar zijn in Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics).)
+Na zijn enkele zeer belangrijke voordelen: (Voor een uitvoerige lijst, evenals meer informatie over elk van deze zeer belangrijke eigenschappen, zie [ Eigenschappen beschikbaar slechts in Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics).)
 
 * [Melding via meerdere kanalen](/help/getting-started/aa-to-cja-user.md#changes-to-data-architecture)
 
-  Customer Journey Analytics wordt gecombineerd met de capaciteit van het Experience Platform om allerlei gegevensschema&#39;s en types te houden. Verzamel en rapporteer gegevens van meerdere kanalen, zoals digitale (Web), verkooppuntsystemen, mobiele systemen, CRM-systemen en meer.
+  Customer Journey Analytics wordt gecombineerd met de mogelijkheid van Experience Platform om allerlei gegevensschema&#39;s en -typen te bevatten. Verzamel en rapporteer gegevens van meerdere kanalen, zoals digitale (Web), verkooppuntsystemen, mobiele systemen, CRM-systemen en meer.
 
 * [Transformaties in de gegevensweergave bij uitvoering rapporteren](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
@@ -44,7 +48,7 @@ Hieronder vindt u een aantal belangrijke voordelen: (Voor een uitgebreide lijst 
 
 * [Onbeperkte klantdimensies en metriek](/help/getting-started/aa-to-cja-user.md#changes-to-the-concept-of-evars-and-props)
 
-  Waarden kunnen numeriek zijn, tekst, objecten, lijsten of mengsels van alle waarden. Dimensionen kunnen worden genest of hiërarchisch.
+  Waarden kunnen numeriek zijn, tekst, objecten, lijsten of mengsels van alle waarden. Dimensies kunnen genest of hiërarchisch zijn.
 
 ## Het upgradeproces begrijpen
 
@@ -53,16 +57,16 @@ De informatie op deze pagina behandelt Stap 1 van het verbeteringsproces, zoals 
 
 | Upgradetaak | Details |
 |---------|----------|
-| <span class="preview">**Stap 1: Ga aan de slag met de upgrade**</span> | <span class="preview">Leer de voordelen van een upgrade naar de Customer Journey Analytics en het standaard upgradeproces.</span> |
-| **Stap 2: [Het upgradepad kiezen](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Er zijn verschillende methoden beschikbaar voor de upgrade naar de Customer Journey Analytics. Kies de methode die het meest geschikt is voor uw organisatie, afhankelijk van de huidige Adobe Analytics-omgeving van uw organisatie en langetermijndoelstellingen. |
-| **Stap 3: [Gegevens verzenden naar Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | Het proces voor het verzenden van gegevens naar Adobe Experience Platform is afhankelijk van het upgradepad dat u hebt gekozen in Stap 2. |
-| **Stap 4: [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | De meeste organisaties moeten hun historische gegevens van Adobe Analytics voor een bepaalde hoeveelheid tijd behouden. Hiervoor zijn verschillende opties beschikbaar. |
-| **Stap 5: [Extra implementatietaken uitvoeren](/help/getting-started/cja-getting-started.md)** | Op dit punt in het verbeteringsproces, moet u diverse taken uitvoeren alvorens uw milieu van de Customer Journey Analytics klaar is te gebruiken.<p>Deze extra taken zijn van toepassing op upgrades vanuit Adobe Analytics en op nieuwe implementaties van Customers Journey Analytics.</p><p>Deze taken omvatten:</p><ul><li>Andere gegevens in Experience Platform plaatsen</li><li>Verbindingen maken tussen de gegevenssets van het Platform en Customer Journey Analytics</li><li>Gegevensweergaven maken</li><li>Het gebruik van de API voor rapportage porteren</li><li>Verantwoording van gegevensfeeds en -Data Warehouse</li><li>Projecten en onderdelen migreren</li><li>Gebruiker aan boord plannen</li></ul> <p>Zie voor meer informatie [Aan de slag met Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
+| <span class="preview">**Stap 1: Krijg begonnen met de verbetering**</span> | <span class="preview"> leer de voordelen om aan Customer Journey Analytics en het basis verbeteringsproces te bevorderen.</span> |
+| **Stap 2: [ kies de verbeteringspad](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Er zijn verschillende methoden beschikbaar voor de upgrade naar Customer Journey Analytics. Kies de methode die het meest geschikt is voor uw organisatie, afhankelijk van de huidige Adobe Analytics-omgeving van uw organisatie en langetermijndoelstellingen. |
+| **Stap 3: [ verzendt gegevens naar Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | Het proces voor het verzenden van gegevens naar Adobe Experience Platform is afhankelijk van het upgradepad dat u hebt gekozen in Stap 2. |
+| **Stap 4: [ behoud historische gegevens](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | De meeste organisaties moeten hun historische gegevens van Adobe Analytics voor een bepaalde hoeveelheid tijd behouden. Hiervoor zijn verschillende opties beschikbaar. |
+| **Stap 5: [ voer extra implementatietaken uit](/help/getting-started/cja-getting-started.md)** | Op dit punt in het upgradeproces moet u verschillende taken uitvoeren voordat uw Customer Journey Analytics-omgeving gebruiksklaar is.<p>Deze extra taken zijn van toepassing op upgrades vanuit Adobe Analytics en nieuwe Customer Journey Analytics-implementaties.</p><p>Deze taken omvatten:</p><ul><li>Andere gegevens in Experience Platform plaatsen</li><li>Verbindingen maken tussen de gegevenssets van het Platform en Customer Journey Analytics</li><li>Gegevensweergaven maken</li><li>Het gebruik van de API voor rapportage porteren</li><li>Boekhouding voor gegevensfeeds en Data Warehouse</li><li>Projecten en onderdelen migreren</li><li>Gebruiker aan boord plannen</li></ul> <p>Voor meer informatie, zie [ Customer Journey Analytics Begonnen ](/help/getting-started/cja-getting-started.md) worden. |
 
 {style="table-layout:auto"}
 
 ## Kies eerst het upgradepad
 
-Er zijn verschillende methoden beschikbaar voor de upgrade naar de Customer Journey Analytics. [Kies de methode die het beste bij uw organisatie past](/help/getting-started/cja-upgrade/cja-upgrade-path.md).
+Er zijn verschillende methoden beschikbaar voor de upgrade naar Customer Journey Analytics. [ kies de methode die voor uw organisatie ](/help/getting-started/cja-upgrade/cja-upgrade-path.md) het best is.
 
 Het upgradepad dat u kiest, is afhankelijk van de huidige Adobe Analytics-omgeving van uw organisatie en van langetermijndoelen.

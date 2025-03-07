@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,7 @@ ht-degree: 0%
 
 U kunt het Web SDK van het Platform manueel installeren door de basiscode aan elke pagina in uw implementatie direct toe te voegen.
 
-Voor meer informatie, zie [ Optie 2: Installerend de prebuilt standalone versie ](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) in [ installeer SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk) in de Gids van SDK van het Web.
+1. Volg de stappen in de sectie, [ Optie 2: Installerend de prebuilt standalone versie ](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) in [ installeer SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk) in de Gids van SDK van het Web.
+
+{{upgrade-final-step}}
+

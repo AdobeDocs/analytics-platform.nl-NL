@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 0%
 
 Door de geavanceerde technologieën in het onder toezicht houden van machine het leren en diep leren te gebruiken, staat de Persoonlijke optimalisering een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
 
-Voor meer informatie, zie [ Gepersonaliseerd optimaliseringsmodel ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) in de Gids van Journey Optimizer.
+1. Volg de informatie in [ Gepersonaliseerd optimaliseringsmodel ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) in de Gids van Journey Optimizer.
+
+{{upgrade-final-step}}
 
 <!--
 

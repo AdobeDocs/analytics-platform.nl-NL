@@ -4,9 +4,9 @@ description: Gegevens verzenden naar Adobe Experience Platform tijdens migreren 
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,9 @@ De informatie op deze pagina behandelt Stap 3 van het verbeteringsproces, zoals 
 
 +++
 
+>[!AVAILABILITY]
+>
+>De informatie op deze pagina wordt vervangen door de volgende uitgebreidere upgrade-informatie: <ul><li>**Aanbevolen verbeteringsstappen**<p>Voor gedetailleerde informatie, zie [ Geadviseerde weg wanneer bevordering van Adobe Analytics aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Gids van de Verbetering van Customer Journey Analytics**<p>Er is een nieuwe upgradehandleiding beschikbaar waarmee op dynamische wijze upgradestappen worden gegenereerd die zijn afgestemd op uw organisatie en uw unieke omstandigheden.</p><p>Als u vanuit Customer Journey Analytics toegang wilt tot de hulplijn, selecteert u de tab **[!UICONTROL Workspace]** en vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** in het linkerdeelvenster. Volg de aanwijzingen op het scherm.</p></li></ul>
 
 Nadat u [ de verbeteringspad ](/help/getting-started/cja-upgrade/cja-upgrade-path.md) kiest die voor uw organisatie het best is, kunt u beginnen verzendend gegevens naar Adobe Experience Platform om het in Customer Journey Analytics beschikbaar te maken.
 

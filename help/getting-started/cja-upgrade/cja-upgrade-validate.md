@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,6 @@ U kunt controleren of de verbinding actief is en of de gegevens doorlopen in de 
 
 1. Zie [ details van de Verbinding ](/help/connections/manage-connections.md#manage-connections) in [ verbindingen ](/help/connections/manage-connections.md) voor informatie over de details beschikbaar over elke verbinding beheren.
 
-1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+{{upgrade-final-step}}
 
 <!-- Should we duplicate the content here or single source it with /help/connections/manage-connections.md -->

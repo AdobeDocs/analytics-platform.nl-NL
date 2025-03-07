@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -108,4 +108,4 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    Als u de Analytics bronschakelaar gebruikt om historische gegevens in uw implementatie van SDK van het Web van Customer Journey Analytics te brengen, dan moet u deze automatisch gecreeerde dataset aan de verbinding toevoegen die u voor uw implementatie van SDK van het Web creeerde.
 
-1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+{{upgrade-final-step}}

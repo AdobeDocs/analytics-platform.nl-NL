@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -129,5 +129,7 @@ Om de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe te
 
 1. Gebruikend het **[!UICONTROL Key]** gebied en het **[!UICONTROL Matching key]** gebied, creeer een correlatie tussen het gebied in uw raadplegingsdataset met dat in uw gebeurtenis of samenvattingsdataset.
 
-1. Nadat alle raadplegingsdatasets aan uw verbinding in Customer Journey Analytics worden toegevoegd, ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+1. Herhaal dit proces totdat alle opzoekgegevenssets zijn toegevoegd aan uw verbinding in Customer Journey Analytics.
+
+{{upgrade-final-step}}
 

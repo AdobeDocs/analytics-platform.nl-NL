@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,23 @@ Bekijk de volgende secties terwijl u uw XDM-schema gaat ontwerpen.
 
 De onderliggende architectuur van Customer Journey Analytics biedt veel meer flexibiliteit dan Adobe Analytics. Het maken van een nieuw XDM-schema is een belangrijke manier om die flexibiliteit te ontgrendelen. Wanneer u een upgrade uitvoert naar Customer Journey Analytics, moet u voorkomen dat u overbodige Adobe Analytics-beperkingen in uw schema doorvoert.
 
+>[!NOTE]
+>
+>De volgende informatie is nog niet volledig. Het zal in de nabije toekomst volledig zijn.
+
 | Adobe Analytics-gegevensarchitectuur | XDM-schemaarchitectuur |
 |---------|----------|
 | De individuele metriek worden toegevoegd aan de de gegevensarchitectuur van Analytics.<br/> Bijvoorbeeld, in Adobe Analytics, hebt u verschillende eVar voor elke gebeurtenis. | Maak afzonderlijke metriek in de gegevensweergave in plaats van in het XDM-schema. Dit biedt meer flexibiliteit als u later wijzigingen wilt aanbrengen.<br/> Bijvoorbeeld, in Customer Journey Analytics, hebt u één enkele gebeurtenis in het schema, en het gebruik creeert gebeurtenissen in de gegevensmening. |
-| Props en eVars zijn vereist om aangepaste variabelen te maken. | B2 |
-| A3 | B3 |
+| Props en eVars zijn vereist om aangepaste variabelen te maken. |  |
 
 ## Identificeer uw gegevensteam en andere belanghebbenden door uw organisatie
 
+>[!NOTE]
+>
+>Deze informatie is nog niet beschikbaar. Het zal in de nabije toekomst beschikbaar zijn.
 
 ## Overweeg andere Adobe Experience Platform-toepassingen die in uw organisatie worden gebruikt
 
-
-
-1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of [ dynamisch geproduceerde verbeteringsstappen ](https://gigazelle.github.io/cja-ttv/) verder.
+>[!NOTE]
+>
+>Deze informatie is nog niet beschikbaar. Het zal in de nabije toekomst beschikbaar zijn.

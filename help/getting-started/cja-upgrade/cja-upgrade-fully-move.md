@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -135,3 +135,6 @@ Wanneer u Adobe Analytics niet meer nodig hebt voor de in de bovenstaande sectie
    Nadat u genoeg historische gegevens in Customer Journey Analytics met uw nieuwe implementatie van SDK van het Web hebt verzameld, kunt u de Analytics bronschakelaar volledig verwijderen.
 
    Doe dit wanneer u niet meer de historische gegevens van uw milieu van Adobe Analytics door de Analytics bronschakelaar nodig hebt, en u kunt zich alleen op de historische gegevens baseren u met de nieuwe implementatie van SDK van het Web verzamelde.
+
+{{upgrade-final-step}}
+
