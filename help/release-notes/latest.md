@@ -3,18 +3,18 @@ title: Opmerkingen bij de release van Customer Journey Analytics
 description: Aanvullende informatie voor de nieuwste versie van Customer Journey Analytics weergeven
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f61e3c1563187a4852734fcca5ffbd21b70849f0
+source-git-commit: 816208ae82ac8cc0b79ba2621aa4174306cf7397
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 7%
+source-wordcount: '324'
+ht-degree: 6%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (februari 2025)
 
-**Laatste update**: 20 februari, 2025
+**Laatste update**: 11 Maart, 2025
 
-Deze opmerkingen hebben betrekking op de releaseperiode van 24 januari 2025 tot 18 maart 2025. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze opmerkingen hebben betrekking op de releaseperiode van 24 januari 2025 tot 12 maart 2025. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of bijgewerkte functies
 
@@ -22,6 +22,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 24 januari 2025 tot 
 | ----------- | ---------- | ------- | ---- |
 | **BI Uitbreiding - uitgebreide steun** | De uitbreiding van Customer Journey Analytics BI nu [ steunt Leider, Notitieboekje Jupyter en de Studio van R ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | zaterdag 24 januari 2025 |
 | **de Inzameling van Media: De Verbindingsupdates van Adobe Source voor nieuwe Media die XDM** melden | De Analytics Source Connector wijst streaming mediagegevens in Adobe Analytics automatisch toe aan dezelfde velden die door de Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | vrijdag 30 januari 2025 |
+| **de verbeteringsgids van Customer Journey Analytics** | Hiermee kunt u een stapsgewijze gids genereren voor het upgraden van Adobe Analytics naar Customer Journey Analytics. Deze handleiding is toegesneden op uw organisatie en houdt rekening met uw huidige Adobe Analytics-omgeving, uw beoogde gebruik voor Customer Journey Analytics en eventuele tijdbesparende afwegingen die uw organisatie wil maken.<p>Als u uw aangepaste hulplijn wilt genereren, meldt u zich aan bij [!DNL Customer Journey Analytics] en selecteert u vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** op het tabblad **[!UICONTROL Workspace]** .<p>[Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | woensdag 11 maart 2025 |
 
 
 ## Oplossingen in Customer Journey Analytics
