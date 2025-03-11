@@ -4,13 +4,11 @@ description: Meer informatie over het aanbevolen pad wanneer u een upgrade uitvo
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: ff951b6ca03fc5be4d24651b8b8e4bdd06216274
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '939'
+ht-degree: 1%
 
 ---
 
@@ -93,7 +91,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
 >title="Het bestaande implementatietype bepalen"
->abstract="Werk intern binnen uw organisatie om te bepalen welk type implementatie u momenteel gebruikt om gegevens naar Adobe Analytics te verzenden. Als u samenwerkt met het individu of het team dat weet dat deze informatie waarschijnlijk is, wanneer u klaar bent om te migreren naar Customer Journey Analytics.<br><br> nadat u het type van implementatie bepaalt dat uw organisatie gebruikt, wijzig uw antwoord in de vragenlijst."
+>abstract="Werk intern binnen uw organisatie om te bepalen welk type implementatie u momenteel gebruikt om gegevens naar Adobe Analytics te verzenden. Terwijl u aan Customer Journey Analytics bevordert, partner met het individu of het team dat deze informatie kent.<br><br> nadat u het type van implementatie bepaalt dat uw organisatie gebruikt, wijzig uw antwoord in de Gids van de Verbetering van Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

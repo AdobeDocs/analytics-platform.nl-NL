@@ -4,12 +4,10 @@ description: Leer hoe u van een externe analyseoplossing naar Customer Journey A
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="Een niet-Adobe Analytics-product"
->abstract="Een implementatie die gegevens verzamelt voor een ander product dan Adobe Analytics, zoals Google Analytics. Als u deze optie selecteert, worden verschillende opties in de vragenlijst uitgeschakeld die niet van toepassing zijn bij de upgrade naar Customer Journey Analytics vanuit een niet-Adobe Analytics-product."
+>abstract="Een implementatie die gegevens verzamelt voor een ander product dan Adobe Analytics, zoals Google Analytics. Als u deze optie selecteert, worden verschillende opties in de upgradehandleiding uitgeschakeld die niet van toepassing zijn bij het upgraden naar Customer Journey Analytics vanuit een niet-Adobe Analytics-product."
 
 <!-- markdownlint-enable MD034 -->
 
