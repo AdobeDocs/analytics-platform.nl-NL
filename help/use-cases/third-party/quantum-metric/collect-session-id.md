@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
+source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -51,23 +52,4 @@ Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een besch
 1. In de juiste ruit, plaats [ persistentie ](/help/data-views/component-settings/persistence.md) het plaatsen aan &quot;Zitting&quot;.
 1. Klik op **[!UICONTROL Save]**.
 
-## Stap 4: Vorm Workspace om de dimensie van zitting-identiteitskaart aan te passen
 
-Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zittingidentiteitskaart verbindingen direct aan Metric Quantum zijn.
-
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
-1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
-1. Selecteer een bestaand project of maak een project.
-1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
-1. Sleep de dimensie van sessie-id naar het Workspace-canvas.
-1. Klik met de rechtermuisknop op de kolomkop voor de dimensie en selecteer vervolgens **[!UICONTROL Create hyperlinks for all dimension items]** .
-1. Selecteer **[!UICONTROL Create a custom URL]** .
-1. Plak de volgende URL-structuur:
-
-   ```
-   https://adobe.quantummetric.com/#/replay/cookie:$value
-   ```
-
-1. Klik op **[!UICONTROL Create]**.
-
-Elke sessie-id is nu een klikbare koppeling. Deze verbindingen brengen u aan Metrisch Quantum in een nieuw lusje, dat u toestaat om die bepaalde zitting in detail te analyseren. Zie [ hyperlinks in een vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
