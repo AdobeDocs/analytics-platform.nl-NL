@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: '2624'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Als curator van dit scorecard, kunt u de scorecard bouwer gebruiken om te vormen
 
 Om scorecard tot stand te brengen, moet u het volgende doen:
 
-1. Open de sjabloon [!UICONTROL Blank Mobile Scorecard] .
+1. Open de sjabloon [!UICONTROL Blank mobile scorecard] in Workspace.
 2. Vorm scorecard met gegevens en bewaar het.
 
 ## Toegang krijgen tot de sjabloon [!UICONTROL Blank Mobile Scorecard] {#template}
@@ -58,6 +58,7 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben 
 ### Een nieuw project maken {#create}
 
 1. Open Customer Journey Analytics en klik op de tab **[!UICONTROL Workspace]** .
+1. Klik op **[!UICONTROL Projects]** in het linkerspoor.
 1. Klik op **[!UICONTROL Create project]** en selecteer de **[!UICONTROL Blank mobile scorecard]** -projectsjabloon.
 1. Klik op **[!UICONTROL Create]**.
 
@@ -72,7 +73,7 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben 
 
 Om het scorecardmalplaatje uit te voeren:
 
-1. Geef onder **[!UICONTROL Properties]** (in de rechterrails) een **[!UICONTROL Project data view]** op waaruit u gegevens wilt gebruiken.
+1. Geef onder **[!UICONTROL Scorecard properties]** (in de rechterrails) een **[!UICONTROL Project data view]** op waaruit u gegevens wilt gebruiken.
 
    ![ Nieuw mobiel scorecard venster dat de selectie van de gegevensmening benadrukt ](assets/properties_save.png)
 
