@@ -1,28 +1,28 @@
 ---
 title: IP adressen die door Customer Journey Analytics worden gebruikt
-description: Als de firewall van uw organisatie IP adressen blokkeert die uit Adobe voortkomen, gebruik deze lijst om uw firewallmontages bij te werken.
+description: Als de firewall van uw organisatie IP-adressen blokkeert die afkomstig zijn van Adobe, gebruikt u deze lijst om uw firewallinstellingen bij te werken.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 0e4ea634a604a65484a57f5af8021badb86a865a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # IP adressen die door Customer Journey Analytics worden gebruikt
 
-Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van gegevensverzamelingsservers of servers van de Adobe die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
+Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van Adobe-servers voor gegevensverzameling of servers die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
 
-Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoegen opdat de uitgaande systemen functioneren, zoals [gegevens exporteren naar een cloudprovider](/help/analysis-workspace/export/export-cloud.md).
+Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoegen opdat de uitgaande systemen aan functie, zoals [ het uitvoeren gegevens aan een wolkenleverancier ](/help/analysis-workspace/export/export-cloud.md) werken.
 
 >[!IMPORTANT]
 >
->Hoewel de Adobe zijn best doet om dit document huidig te houden, kan het niet garanderen dat de lijst van IP waaiers het zelfde blijft. Mogelijke veranderingen omvatten groei en uitbreiding van de zaken, vereist een register van Internet veranderingen in IP van de Adobe adresruimte, of een dienstverlener van Internet houdt werkend op.
+>Hoewel Adobe zijn best doet om dit document huidig te houden, kan het niet garanderen dat de lijst van IP waaiers het zelfde blijft. Mogelijke veranderingen omvatten groei en uitbreiding van de zaken, vereist een register van Internet veranderingen in Adobe IP adresruimte, of een dienstverlener van Internet houdt werkend op.
 
-## VA7: Amerikaanse en Amerikaanse klanten
+## Amerikaanse en Amerikaanse klanten
 
 | IP-blok (CIDR-notatie) |
 | --- |
@@ -47,8 +47,9 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 | `52.254.106.208/28` |
 | `20.186.185.227` |
 | `52.254.107.0/28` |
+| `66.117.18.0/24` |
 
-## NLD2: Europa
+## Europa
 
 | IP-blok (CIDR-notatie) |
 | --- |
@@ -76,7 +77,7 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 | `40.74.7.208/28` |
 | `40.74.6.112/28` |
 
-## AUS5: Australië
+## Australië
 
 | IP-blok (CIDR-notatie) |
 | --- |
@@ -108,7 +109,7 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 | `20.193.56.128/28` |
 | `20.227.32.175` |
 
-## CAN2: Canada
+## Canada
 
 | IP-blok (CIDR-notatie) |
 | --- |
@@ -141,6 +142,6 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 
 >[!MORELIKETHIS]
 >
->[Door Customer Journey Analytics gebruikte domeinen](domains.md)
+>[ Domeinen die door Customer Journey Analytics ](domains.md) worden gebruikt
 >
->[IP adressen die door Adobe Experience Cloud worden gebruikt](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[ IP adressen die door Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) worden gebruikt
