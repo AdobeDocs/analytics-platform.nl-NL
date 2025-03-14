@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 5fa4d47bcd42e4e392a7075076895826cf7061b1
+source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
 workflow-type: tm+mt
-source-wordcount: '3559'
+source-wordcount: '3188'
 ht-degree: 0%
 
 ---
@@ -322,20 +322,174 @@ Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 
 +++ Voorbeelden
 
-| Patroon | Voorbeeld |
-|---|---|
-| Schema-detectie | <pre>SELECTEREN * VANUIT dv1 WAAR 1=0</pre> |
-| Geschikt of uitgesplitst | <pre>SELECTEER dim1, SUM(metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;GROUP DOOR dim1<br/></pre><pre>SELECTEER dim1, SUM(metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;EN <br/> filterId = &quot;12345&quot;<br/> GROUP DOOR dim1</pre><pre>SELECTEER dim1, SUM(metrisch1) ALS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;EN <br/> EN (dim2 = &quot;A&quot;OF dim3 IN (&#39;X&#39;, &quot;Y&quot;Z&quot;,&#39;) <br/> GROEP DOOR dim1</pre> |
-| `HAVING` component | <pre>SELECTEER dim1, SUM(metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/> GROEP DOOR dim1 <br/> HEBBENDE m1 > 100</pre> |
-| Afzonderlijk, hoogste <br/> afmetingswaarden | <pre>DIM1 VERSCHUIVEN VANUIT dv1 SELECTEREN</pre><pre>SELECTEER dim1 AS dv1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/> GROEP DOOR dim1</pre><pre>SELECTEER dim1 AS dv1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot; >= &quot;2022-01-01&quot;EN \ &quot;timestamp\&quot;&lt; &quot;2022-01-02&quot;<br/> GROUP DOOR dim1 <br/> ORDER DOOR SUM(meetnorm1) <br/> LIMIT 1 5</pre> |
-| Metrische totalen | <pre>SELECTEER SUM (metrisch1) ALS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;</pre> |
-| De multi-dimensie <br/> breken <br/> en top-Distts | <pre>SELECTEER dim1, dim2, SUM (metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/> GROEP DOOR dim1, dim2</pre><pre>SELECTEER dim1, dim2, SUM (metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;GROEP DOOR 1, 2 <br/> ORDER DOOR 1, 2<br/></pre><pre>SELECTEER DISTINCT dim1, dim2 <br/> VAN dv1</pre> |
-| Subselect:<br/> de extra resultaten van de Filter <br/> | <pre>SELECTEER dim1, m1 <br/> VAN (<br/> SELECTEER dim1, SUM (metrisch1) ALS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;</br> GROUP DOOR dim1 <br/>) <br/> WAAR dim1 in (&quot;A&quot;, &quot;B&quot;)</pre> |
-| Subselect:<br/> het Vragen over <br/> gegevensmeningen | <pre>SELECTEER sleutel, SUM(m1) ALS totaal <br/> VAN (<br/> SELECTEER dim1 ALS sleutel, SUM(metrisch1) AS m1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;GROUP DOOR m1 <br/><br/> UNION <br/><br/> SELECTEER dim2 ALS sleutel, SUM(m1) AS m1 <br/> VAN dv2 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/> GROEP DOOR dim2 <br/> GROUP sleutel <br/> ORDER DOOR totaal<br/></pre> |
-| Subselect: <br/> Gelaagde bron, <br/> het filtreren, <br/> en samenvoeging | Gelaagd gebruikend subselects:<br><pre>SELECT rows.dim1, SUM (rows.m1) ALS totaal <br/> VAN (<br/> SELECT \_.dim1, \_.m1 <br/> VAN (<br/>    SELECTEER \* UIT dv1 <br/>    WAAR \&quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/>) \_ <br/> WAAR \_.dim1 in (&quot;A&quot;, &quot;B&quot;, &quot;C&quot;) <br/>) rijen <br/> GROEP DOOR 1 <br/> ORDER DOOR totaal</pre><br/> Lagen die CTE gebruiken MET:<br/><pre>MET rijen AS (<br/> MET \_ AS (<br/>    SELECT * FROM data_ares <br/>    WAAR \&quot;timestamp\&quot;TUSSEN &quot;2021-01-01&quot;EN &quot;2021-02-01&quot;<br/>) <br/> SELECT \_.item, \_.units VAN \_<br/> WAAR \_.item NIET ONGELDIG <br/> IS) <br/> SELECT rows.item, SUM (rows.units) ALS eenheden <br/> VAN rijen WAAR rows.item in (&quot;A&quot;, &quot;B&quot;, &quot;C&quot;) <br/> GROEP DOOR rows.item</pre> |
-| Selecteert waar de <br/> metriek vóór <br/> komen of met <br/> gemengd zijn | <pre>SELECTEER SUM (metrisch1) ALS m1, dim1 <br/> VAN dv1 <br/> WAAR \ &quot;timestamp\&quot;TUSSEN &quot;2022-01-01&quot;EN &quot;2022-01-02&quot;<br/> GROEP DOOR 2</pre> |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <thead>
+        <tr>
+            <th>Patroon</th>
+            <th>Voorbeeld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Schema-detectie </td>
+            <td>
+                <pre><code>SELECT * FROM dv1 WHERE 1=0</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Geschikt of uitgesplitst </td>
+            <td>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02' AND
+  filterId = '12345'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02' AND
+  AND (dim2 = 'A' OR dim3 IN ('X', 'Y', 'Z'))
+GROUP BY dim1</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td><code>HAVING</code> clausule </td>
+            <td>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1
+HAVING m1 > 100</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Onderscheiden, boven 
+dimensiewaarden </td>
+            <td>
+                <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
+                <pre><code>SELECT dim1 AS dv1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1 AS dv1
+FROM dv1
+WHERE `timestamp` >= '2022-01-01' AND `timestamp` < '2022-01-02'
+GROUP BY dim1
+ORDER BY SUM(metric1)
+LIMIT 15</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Metrische totalen </td>
+            <td>
+                <pre><code>SELECT SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Meerdere dimensies
+uitsplitsingen
+en toponderscheidingen </td>
+            <td>
+                <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1, dim2</code></pre>
+                <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY 1, 2
+ORDER BY 1, 2</code></pre>
+                <pre><code>SELECT DISTINCT dim1, dim2
+FROM dv1</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Subselectie maken:
+Aanvullende filters
+resultaten </td>
+            <td>
+                <pre><code>SELECT dim1, m1
+FROM (
+  SELECT dim1, SUM(metric1) AS m1
+  FROM dv1
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  GROEP OP DIm1
+)
+WAAR grijs 1 in ('A', 'B')</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Subselectie maken:
+Doorheen zoeken
+gegevensweergaven </td>
+            <td>
+                <pre><code>SELECT key, SUM(m1) AS total
+FROM (
+  SELECT dim1 AS key, SUM(metric1) AS m1
+  FROM dv1
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  GROUP BY dim1
+<br>
+  UNION
+<br>
+  SELECT dim2 AS key, SUM(m1) AS m1
+  FROM dv2
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  GROUP BY dim2
+)
+GROUP BY key
+ORDER BY total</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Subselectie maken: 
+Gelaagde bron, 
+filteren, 
+en aggregatie </td>
+            <td>Gelaagd met subselecties:
+<pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
+FROM (
+  SELECT _.dim1,_.m1
+  FROM (
+    SELECT * FROM dv1
+    WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  ) _
+  WHERE _.dim1 in ('A', 'B', 'C')
+) rows
+GROUP BY 1
+ORDER BY total</code></pre>
+Lagen met CTE:
+<pre><code>WITH rows AS (
+  WITH _ AS (
+    SELECT * FROM data_ares
+    WHERE `timestamp` BETWEEN '2021-01-01' AND '2021-02-01'
+  )
+  SELECT _.item, _.units FROM _
+  WHERE _.item IS NOT NULL
+)
+SELECT rows.item, SUM(rows.units) AS units
+FROM rows WHERE rows.item in ('A', 'B', 'C')
+GROUP BY rows.item</code></pre>
+        </td>
+        </tr>
+        <tr>
+            <td>Hiermee selecteert u waar de
+metriek komt voor
+ of worden gemengd met
+de afmetingen </td>
+            <td>
+                <pre><code>SELECT SUM(metric1) AS m1, dim1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY 2</code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 +++
 
