@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: a0f82948895f3eac86cf00df1dec8abc2f723fc2
+source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
 # Quantum Metric heatmaps gebruiken met Customer Journey Analytics
 
-Door Quantum Metric heatmapping aan CJA-gegevens te koppelen, kunt u de betrokkenheid op paginaniveau beter begrijpen en pagina&#39;s optimaliseren op basis van consumentengedrag. Workspace kan worden gebruikt om consumentengebruikersstromen te begrijpen en te zien welke paden consumenten volgen van de ene pagina naar de andere. Vervolgens kunt u op URL&#39;s van hypergekoppelde pagina klikken om visueel te koppelen hoe gebruikers de inhoud gebruiken.
+Door Quantum Metric heatmapping aan CJA-gegevens te koppelen, kunt u de betrokkenheid op paginaniveau beter begrijpen en pagina&#39;s optimaliseren op basis van consumentengedrag. Workspace kan worden gebruikt om consumentengebruikersstromen te begrijpen en te zien welke paden consumenten volgen van de ene pagina naar de andere. Vervolgens kunt u op URL&#39;s van hypergekoppelde pagina klikken om visueel te koppelen hoe gebruikers de inhoud gebruiken.  Door Quantum Metric Heatmapping aan CJA te koppelen, kunt u nu interacties op paginaniveau koppelen aan bedrijfsresultaten en uw analyse naar het volgende niveau brengen.
 
 De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Meer informatie over Quantum Metric session replay vindt u op https://www.quantummetric.com/platform/session-replay
 
@@ -48,6 +48,6 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
 
 ## Heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
 
-Nadat u een pagina hebt gevonden waarvoor u de warmteverdeling wilt bekijken, kunt u deze toepassen op het deelvenster waarin de URL zich bevindt. De tabel retourneert een URL waarmee u de heatmaps voor de pagina in kwestie, de schuifdiepte en belangrijke zones voor interactie kunt verkennen.  Meer informatie over metrische Quantum-Heatmaps vindt u op https://www.quantummetric.com/platform/interaction-heatmaps
+Nadat u een pagina hebt gevonden waarvoor u de warmteverdeling wilt bekijken, kunt u deze toepassen op het deelvenster waarin de URL zich bevindt. De tabel retourneert een URL waarmee u de heatmaps voor de pagina in kwestie, de schuifdiepte en belangrijke zones voor interactie kunt verkennen.  Leer meer over Metrische Heatmaps van Quantum bij [ https://www.quantummetric.com/platform/interaction-heatmaps ](https://www.quantummetric.com/platform/interaction-heatmaps)
 
 
