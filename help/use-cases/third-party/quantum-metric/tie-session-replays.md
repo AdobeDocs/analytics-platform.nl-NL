@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d722e88d163dd99aa7b98c6fa6cd75028d7d9e6f
+source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # De metrische tijdsessie van Tie Quantum wordt opnieuw afgespeeld op gegevens in Customer Journey Analytics
 
-Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten beter begrijpen waarom achter &quot;wat&quot; zit.  Workspace kan worden gebruikt om sessies met wrijving te ontdekken, dan kunt u hyperlinked zitting IDs klikken om zittingsreplay in Quantum Metric te onderzoeken.  Deze gegevens maken het mogelijk om gedrag binnen een sessie te bekijken en beter te begrijpen wat de wrijving van de consument stimuleert.
+Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten beter begrijpen waarom achter &quot;wat&quot; zit.  Workspace kan worden gebruikt om sessies met wrijving te ontdekken, dan kunt u hyperlinked zitting IDs klikken om zittingsreplay in Quantum Metric te onderzoeken.  Deze gegevens maken het mogelijk om gedrag binnen een sessie te bekijken en beter te begrijpen wat de wrijving van de consument stimuleert.  Door sessiereacties die aan CJA zijn gekoppeld, kunt u in uw ervaring kritieke context rond het gedrag van de klant vastleggen.
 
 ## Vereisten
 
@@ -46,5 +46,5 @@ Elke sessie-id is nu een klikbare koppeling. Deze verbindingen brengen u aan Met
 ## Stap 2 Weergavesessies vanuit Customer Journey Analytics
 
 Als u het Workspace-rapport hebt gemaakt met klikbare koppelingen, kunt u met Filters in Customer Journey Analytics interessante sessies identificeren die u verder kunt analyseren in Quantum Metric.
-De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Meer informatie over Quantum Metric session replay vindt u op https://www.quantummetric.com/platform/session-replay
+De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Leer meer over Metrische zittingsreplay van Quantum bij [ https://www.quantummetric.com/platform/session-replay ](https://www.quantummetric.com/platform/session-replay)
 
