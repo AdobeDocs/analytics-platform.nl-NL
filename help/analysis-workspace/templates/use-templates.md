@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: a3817114534ddea434ee0c5b8147ba90e1d144dc
+source-git-commit: 6480eb4cd5210cd9318614a507516bd3736da40a
 workflow-type: tm+mt
-source-wordcount: '19456'
+source-wordcount: '19642'
 ht-degree: 0%
 
 ---
@@ -533,6 +533,16 @@ De volgende sjablonen zijn beschikbaar:
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--content-analytics"
+>title="Leer welke inhoud en inhoudskenmerken het best presteren."
+>abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. [ leer meer ](/help/content-analytics/content-analytics.md).<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
+
+<!-- markdownlint-enable MD034 -->
+
+
 De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
@@ -551,6 +561,7 @@ De volgende sjablonen zijn beschikbaar:
 | **pagina&#39;s van de Ingang** | Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken. <p>**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **Pagina&#39;s van de uitgang** | Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten.<p>**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **overzicht van het het gebruiksgebruik van het Product** | Bekijk hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt. <p>**dit kan u helpen** beter begrijpen hoeveel mensen Customer Journey Analytics gebruiken, hoe vaak zij het, en gebruikstrends in tijd gebruiken. U kunt ook het aantal projecten zien die worden gecreeerd en details over die projecten (zoals welke componenten, visualisaties, en panelen het meest algemeen worden gebruikt), en vele andere gebruiksstatistieken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals schrapping ongebruikte projecten of componenten, of gebruikersopleiding voor populaire eigenschappen verstrekken.</p> |
+| **Analytics van de Inhoud** | Leer welke inhoud en inhoudskenmerken het best presteren.<p>**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. [ leer meer ](/help/content-analytics/content-analytics.md).</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop.</p> |
 
 ### Web: Conversie {#web-conversion}
 
