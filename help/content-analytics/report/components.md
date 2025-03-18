@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Met Content Analytics worden de volgende categorieën componenten (afmetingen, (
 * [Assets-gebeurtenissen](#asset-events)
 * [Berekende cijfers](#calculated-metrics)
 
-In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst op AI / ML geproduceerde waarde.
+In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst op een AI/ML geproduceerde waarde.
 
 ## Metagegevens ervaren
 
@@ -63,7 +63,7 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Ervaar Persusiestrategieën | ![ AI produceerde ](/help/assets/icons/AI.svg) strategieën van de Uitdrukking die in de bepaalde ervaring aanwezig zijn. De mogelijke waarden zijn: Sociale identiteit, Sociale Bewijs, Autoriteit, Betrouwheid, Voetbal in de deur, Overkomende Reacantie, Wederkerigheid, Anchoring en Vergelijking, Sociale Effect, Schoolheid, en Anthropomorisme. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar verhalen | ![ AI produceerde ](/help/assets/icons/AI.svg) Narratives die de ervaring bouwt op relevantie van het de meningspunt van een teller wordt gebaseerd. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaring met tinten | ![ AI produceerde ](/help/assets/icons/AI.svg) Tonen die de ervaring voortbouwt die op relevantie van het de meningspunt van een teller wordt gebaseerd | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Geniet van marketing | ![ AI produceerde ](/help/assets/icons/AI.svg) de emotie die in de lezer wordt aangehaald wanneer het lezen van de ervaring: Urgentie, Exclusiviteit, Aanmoediging, Uitdaging, Curiositeit, Verwezenlijking, Vertrouwen, Eenvoud, en Fascination. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
+| Geniet van marketing | ![ AI produceerde ](/help/assets/icons/AI.svg) de emotie die in de lezer wordt aangehaald wanneer het lezen van de tekst die als deel van de ervaring wordt gebruikt: Urgentie, Exclusiviteit, Aanmoediging, Uitdaging, Curiositeit, Verwezenlijking, Vertrouwen, Eenvoud, en Fascination. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar het aantal emojis | ![ AI produceerde ](/help/assets/icons/AI.svg) Aantal emojis voor de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Aantal hashtags ervaren | ![ AI produceerde ](/help/assets/icons/AI.svg) Aantal hashtags voor de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Aantal waardenreeksen van ervaring | ![ AI produceerde ](/help/assets/icons/AI.svg) Aantal zinnen voor de ervaring. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
@@ -163,3 +163,4 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | ervaringsdoorkliksnelheid | Ervaar klikken/Weergaven ervaren | Berekende metrische waarde | |
 
 {style="table-layout:fixed"}
+

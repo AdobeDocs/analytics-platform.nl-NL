@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ De volgende handmatige configuratiehandelingen zijn beschikbaar:
 
 Om een nieuwe configuratie of veranderingen te activeren u aan een bestaande configuratie aanbracht:
 
-1. U moet de [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) volgen {target="_blank"}. Slechts wanneer u met succes de bibliotheek voor het bezit van de Markering hebt gepubliceerd dat uw configuratie van de Analytics van de Inhoud bevat, worden de gegevens van de Analytics van de Inhoud verzameld voor de domeinen, ervaringen en activa die u hebt gevormd.
+1. U moet de [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) volgen {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat. Alleen dan worden Content Analytics-gegevens verzameld voor de domeinen, ervaringen en elementen die u hebt geconfigureerd.
 
-1. U moet [ installeren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) inbedt code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens de Analytics van de Inhoud.
+1. U moet [ installeren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) de ingebedde code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens Content Analytics.
 
 
 ## Deactiveren
 
 Het verzamelen van gegevens voor inhoudsanalyse uitschakelen:
 
-1. Verwijder [ bed code ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of productiemilieu, behoudens de Analytics van de Inhoud in.
-1. [ Schrap ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) het bijbehorende bezit van de Markering voor u de configuratie van de Analytics van de Inhoud.
+1. Verwijder de [ ingebedde code ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of productiemilieu, behoudens Content Analytics.
+1. [ Schrap ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) het bijbehorende bezit van Markeringen voor uw configuratie van Content Analytics.
 
 
 
 ## Wijzigen
 
-In het algemeen, zou u de [ geleide configuratietovenaar ](guided.md) moeten gebruiken om veranderingen in uw implementatie aan te brengen.
+U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ geleide configuratietovenaar ](guided.md). Wijzig bijvoorbeeld de gegevensweergave.
 
-Alternatief, kunt u de [ uitbreiding van de Analyse van de Inhoud van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bezit van de Markering gebruiken verbonden aan uw configuratie van de Analyse van de Inhoud om veranderingen in de volgende artefacten aan te brengen:
+U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bezit van Markeringen verbonden aan uw configuratie van Content Analytics om veranderingen in de volgende artefacten aan te brengen:
 
 * [ Sandbox en datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams) {target="_blank"}.
 
   >[!CAUTION]
   >
-  >U moet verifiëren dat de zandbak en de gegevensstroom u in de uitbreiding van de Analyse van de Inhoud van Adobe vormt reeds voor Analytics van de Inhoud gebruikend de [ geleide configuratie ](guided.md) in een vroeger stadium worden gevormd. Deze configuratie zorgt ervoor dat alle vereiste artefacten beschikbaar zijn.<br/><br/> u moet ook verifiëren dat u updates voor zandbak of gegevensstromen zich niet in een andere configuratie van de Analyse van de Inhoud mengt die wordt gevormd om de zelfde zandbak of gegevensstromen te gebruiken.
+  >Verifieer dat de zandbak en de gegevensstroom u in de uitbreiding van Adobe Content Analytics vormt reeds voor Content Analytics gebruikend de [ geleide configuratie ](guided.md) in een vroeger stadium worden gevormd. Deze configuratie zorgt ervoor dat alle vereiste artefacten beschikbaar zijn.<br/><br/> verifieert ook dat de updates voor zandbak of gegevensstromen zich niet in een andere configuratie van Content Analytics mengen die wordt gevormd om de zelfde zandbak of gegevensstromen te gebruiken.
   >
 
 * [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) {target="_blank"}
@@ -76,9 +76,9 @@ Nadat u veranderingen in de uitbreiding van de Analyse van de Inhoud van Adobe a
 
 ## Versioning
 
-Als u een versie van de ervaringen met Content Analytics nodig hebt, moet u een algemene `adobe.getContentExperienceVersion` functie toevoegen aan de pagina&#39;s die u een ervaring hebt die u wilt analyseren.
+Als u een versie van uw Content Analytics-ervaringen nodig hebt, moet u een algemene `adobe.getContentExperienceVersion` functie toevoegen aan de pagina&#39;s die u een analyse wilt maken.
 
-De functie `adobe.getContentExperienceVersion` moet een tekenreeks als waarde retourneren. Dit kan alles zijn wat u kiest om de versie te identificeren. De versie wordt toegevoegd aan de URL van de ervaring-id.
+De functie `adobe.getContentExperienceVersion` moet een tekenreeks retourneren als waarde, wat u ook kunt kiezen, om de versie te identificeren. De versie wordt toegevoegd aan [ identiteitskaart URL van de Ervaring ](/help/content-analytics/report/components.md#experience-metadata).
 
 Als de functie niet aanwezig is of geen waarde wordt geretourneerd van de functie, wordt de waarde `NoVersion` als standaardwaarde gebruikt.
 
