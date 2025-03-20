@@ -4,9 +4,9 @@ description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 2ed18bcf2767d513265f909690ea53fdbd90a2b5
+source-git-commit: a6295d550e0e357569d530b72fe50a58d7ecfbbe
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,12 @@ Iedereen kan een aangepast datumbereik maken. U kunt op de volgende manieren een
 
 ![ creeer een aantekening ](assets/create-date-range.png)
 
-* (A) Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Date range]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van de [[!UICONTROL Date range] manager ](/help/components/date-ranges/manage.md).
-* (B) Selecteer in een Workspace-project in het contextmenu in een visualisatie de optie **[!UICONTROL Custom date range to this date range]** .
-* (C) Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create date range]**
-* (D) In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+d]** (Windows) of **[!UICONTROL shift+command+d]** (macOS).
-* (E) In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ Kalender ](/help/assets/icons/Calendar.svg) **waaiers van de Datum** toe.
+* **A**. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Date range]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van de [[!UICONTROL Date range] manager ](/help/components/date-ranges/manage.md).
+* **B**. Selecteer **[!UICONTROL Custom date range to this date range]** in een Workspace-project in het contextmenu in een visualisatie.
+* **C**. Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create date range]**
+* **D**. In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+d]** (Windows) of **[!UICONTROL shift+command+d]** (macOS).
+* **E**. In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) **Datum** toe.
+* F. In een gesteunde visualisatie, zoals een lijnvisualisatie, van het contextmenu op een gegevenspunt, uitgezochte **[!UICONTROL Annotate Selection]**.
 
 Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Date range builder]](#annotation-builder) :
 

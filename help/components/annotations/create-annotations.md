@@ -4,9 +4,9 @@ description: Annotaties maken in Workspace.
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ U kunt op de volgende manieren een aantekening maken:
 
 ![ creeer een aantekening ](assets/create-annotation.png)
 
-* ?? Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Annotations]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Annotations] manager ](/help/components/annotations/manage-annotations.md).
-* ?? Selecteer **[!UICONTROL Create annotation from selection]** in een Workspace-project in het contextmenu in een visualisatie.
-* ?? Selecteer in een Workspace-project in het contextmenu in een lijngrafiek de optie **[!UICONTROL Annotate Selection]** .
-* ??In een Workspace-project selecteert u **[!UICONTROL Components]** in het menu en selecteert u **[!UICONTROL Create annotation]** .
-* ?? In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+o]** (Windows) of **[!UICONTROL shift+command+o]** (macOS)
+* **A**. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Annotations]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Annotations] manager ](/help/components/annotations/manage-annotations.md).
+* **B**. Selecteer **[!UICONTROL Create annotation from selection]** in een Workspace-project in het contextmenu in een visualisatie.
+* **C**. Selecteer in een Workspace-project in het contextmenu in een lijngrafiek de optie **[!UICONTROL Annotate Selection]** .
+* **D**. Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create annotation]** .
+* **E**.  In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+o]** (Windows) of **[!UICONTROL shift+command+o]** (macOS)
 
 Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annotation builder]](#annotation-builder) :
 
