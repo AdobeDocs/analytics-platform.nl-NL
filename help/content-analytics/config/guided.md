@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: e8ba272d2deb535374a47b61c22d58c4168ff50c
 workflow-type: tm+mt
-source-wordcount: '3215'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -262,7 +262,7 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
   ![ Inhoud analyseert de Verzameling van Gegevens de Bestaande Markering ](../assets/aca-configuration-datacollection-existingtag.png)
 
-   1. Selecteer **[!UICONTROL Existing]** .
+   1. Selecteer **[!UICONTROL Choose existing]** .
    2. Selecteer een bestaande eigenschap in het vervolgkeuzemenu **[!UICONTROL Tags property]** . U kunt beginnen te typen om naar de beschikbare opties te zoeken en te beperken.
 
 * Een nieuwe eigenschap voor tags maken:
@@ -271,16 +271,15 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
    1. Selecteer **[!UICONTROL Create new]** .
    1. Geef een **[!UICONTROL Tags name]** op, bijvoorbeeld `ACA Test for Documentation` .
-  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
-   1. Selecteer **[!UICONTROL Add]** .
+   1. Geef **[!UICONTROL Domains]** op, bijvoorbeeld `example.com` .
 
 * Als u ervoor hebt gekozen om ervaringen op te nemen, geeft u aan welke pagina&#39;s moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
-   * Geef een reguliere expressie op voor **[!UICONTROL Experience]** . Bijvoorbeeld: `/^(?!.*documentation).*/` om alle documentatiepagina&#39;s van Content Analytics uit te sluiten. Gebruik `/` om normale expressies te omzeilen.
+   * Geef een reguliere-expressiereeks op voor **[!UICONTROL Pages to include / exclude]** . Bijvoorbeeld: `/^(?!.*documentation).*/` om alle documentatiepagina&#39;s van Content Analytics uit te sluiten. Gebruik `/` om normale expressies te omzeilen.
 
 * Geef aan welke elementen moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
-   * Geef een reguliere expressie op voor **[!UICONTROL Asset]** . Bijvoorbeeld: `/^(?!.*(logo\.jpg|\.svg)).*$/` als u alle logo-JPEG- en SVG-afbeeldingen van Content Analytics wilt uitsluiten. Gebruik `/` om normale expressies te omzeilen.
+   * Geef een reguliere-expressiereeks op voor **[!UICONTROL Assets to include / exclude]** . Bijvoorbeeld: `/^(?!.*(logo\.jpg|\.svg)).*$/` als u alle logo-JPEG- en SVG-afbeeldingen van Content Analytics wilt uitsluiten. Gebruik `/` om normale expressies te omzeilen.
 
 
 #### Bestaande configuratie {#existing-configuration}
