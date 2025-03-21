@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Op basis van de specifieke afmetingen voor inhoudsanalyse die u in uw project ge
 
 ![ de duimnagels van de Analytics van de Inhoud ](../assets/aca-thumbnails.png)
 
-De weergave van miniaturen configureren voor een Content Analytics-dimensie:
+Standaard worden miniaturen weergegeven voor relevante Content Analytics-afmetingen. De weergave van miniaturen configureren voor een Content Analytics-dimensie:
 
 * Houd de muisaanwijzer boven een koptekstrij voor een Content Analytics-dimensie. Bijvoorbeeld **[!UICONTROL Asset Name]** of **[!UICONTROL Experience IDs]** .
 * Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg).
