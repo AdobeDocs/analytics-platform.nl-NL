@@ -4,9 +4,9 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
+source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
-source-wordcount: '4267'
+source-wordcount: '4376'
 ht-degree: 1%
 
 ---
@@ -729,7 +729,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 
 
-## Lift (#lift)
+## Optillen {#lift}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -739,6 +739,10 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 >abstract="De hoogte van de verhouding ten opzichte van de controlewaarde."
 
 <!-- markdownlint-enable MD034 -->
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(normalizing-container, success-metric, control)]**
+
+De hoogte van de verhouding ten opzichte van de controlewaarde.
 
 | Argument | Beschrijving |
 | --- | --- |
@@ -1338,6 +1342,27 @@ Retourneert Pi: 3,14159...
 | metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
+
+
+## Samplevariatie
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-variance-estimate"
+>title="Samplevariatie"
+>abstract="Berekent een schatting van de variantie van het monster met behulp van de formule (som(metrisch^2) / (N - 1)) - (som(metrisch))^2/(N*(N-1)). waarin N het aantal van de normaliserende container is. <br/> dit wordt gebruikt als deel van *om het even welk-tijd geldige* vertrouwensberekeningen. Over het algemeen, is deze functie niet nuttig alleen, maar kan worden gebruikt om berekeningen te controleren of voor het uitvoeren van vertrouwensberekeningen *manueel*."
+
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(normalizing-container, success-metric)]**
+
+Hiermee wordt een schatting van de variantie van het monster berekend.
+
+| Argument | Beschrijving |
+| --- | --- |
+| normalizing-container | De basis (Mensen, Zittingen, of Gebeurtenissen) waarop een test in werking wordt gesteld. |
+| succesmetrisch | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. |
+
+<!-- markdownlint-enable MD034 -->
 
 
 

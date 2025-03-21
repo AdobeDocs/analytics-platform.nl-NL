@@ -4,7 +4,7 @@ description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: a6295d550e0e357569d530b72fe50a58d7ecfbbe
+source-git-commit: 6e4f23d65a620104cfbd36fc9b4ccd06146f143c
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Iedereen kan een aangepast datumbereik maken. U kunt op de volgende manieren een
 * **C**. Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create date range]**
 * **D**. In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+d]** (Windows) of **[!UICONTROL shift+command+d]** (macOS).
 * **E**. In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) **Datum** toe.
-* F. In een gesteunde visualisatie, zoals een lijnvisualisatie, van het contextmenu op een gegevenspunt, uitgezochte **[!UICONTROL Annotate Selection]**.
+* **F**. Selecteer **[!UICONTROL Annotate Selection]** in een ondersteunde visualisatie, zoals een lijnvisualisatie, in het contextmenu op een gegevenspunt.
 
 Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Date range builder]](#annotation-builder) :
 
