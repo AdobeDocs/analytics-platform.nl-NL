@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
+source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%
@@ -76,7 +76,7 @@ De sjabloon gebruiken:
 1. Selecteer in het dialoogvenster **[!UICONTROL Set up your template]** een metrische waarde in het dialoogvenster **[!UICONTROL Select a conversion metric]** . Bijvoorbeeld **[!UICONTROL Asset CTR]** .
 1. Selecteer **[!UICONTROL Continue]** .
 
-Er wordt een **[!UICONTROL Content Analytics Overview]** -project geopend in Workspace. Het project bestaat uit vier deelvensters, waarin elk deelvenster vrije tabellen en visualisaties biedt voor het beantwoorden van een specifieke vraag:
+Een **[!UICONTROL Content Analytics Overview]** project opent in [ Analysis Workspace ](/help/analysis-workspace/home.md). Het project bestaat uit vier [ panelen ](/help/analysis-workspace/c-panels/panels.md), waar elk paneel [ vrije vormlijsten ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) en [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) verstrekt om een specifieke vraag te beantwoorden:
 
 * **Welke inhoud voert het beste uit?**
 Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervaringen de drijvende kracht zijn achter betrokkenheid en conversie. Ervaringen zijn een volledige webpagina, die op een bepaald moment wordt vastgelegd. Een ervaring kan zowel tekst als meerdere afzonderlijke afbeeldingselementen bevatten. Een element is een afzonderlijke afbeelding.
@@ -85,9 +85,9 @@ Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervari
 
    * **Ervaringen**
 
-      * **Ervaring CTR**: een summiere verandering visualisatie, tonend Ervaring CTR.
-      * **Hoogste het omzetten ervaringen**: Een horizontale visualisatie van het staafdiagram die hoogste het omzetten ervaringen tonen die op geselecteerde metrische omzetting worden gebaseerd.
-      * **Hoogst uitvoerend ervaringen**: Een vrije vormlijst (met inbegrip van duimnagels en voorproeven) voor de hoogste het uitvoeren ervaringen.
+      * **Ervaring CTR**: a [ summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie, tonend Ervaring CTR.
+      * **Hoogste het omzetten ervaringen**: A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten ervaringen tonen die op geselecteerde metrische omzetting worden gebaseerd.
+      * **Hoogst uitvoerend ervaringen**: A [ vrije lijst van de vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)) voor de hoogste uitvoerend ervaringen.
 
    * **Assets**
 
