@@ -7,19 +7,16 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Handmatige configuratie van Content Analytics
 
->[!WARNING]
->
->Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -31,14 +28,14 @@ De volgende handmatige configuratiehandelingen zijn beschikbaar:
 
 Om een nieuwe configuratie of veranderingen te activeren u aan een bestaande configuratie aanbracht:
 
-1. U moet de [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) volgen {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat. Alleen dan worden Content Analytics-gegevens verzameld voor de domeinen, ervaringen en elementen die u hebt geconfigureerd.
+1. U moet de [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) volgen {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat.
 
 1. U moet [ installeren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) de ingebedde code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens Content Analytics.
 
 
 ## Deactiveren
 
-Het verzamelen van gegevens voor inhoudsanalyse uitschakelen:
+De verzameling analytische gegevens van inhoud uitschakelen:
 
 1. Verwijder de [ ingebedde code ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of productiemilieu, behoudens Content Analytics.
 1. [ Schrap ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) het bijbehorende bezit van Markeringen voor uw configuratie van Content Analytics.
@@ -57,6 +54,10 @@ U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleag
   >
   >Verifieer dat de zandbak en de gegevensstroom u in de uitbreiding van Adobe Content Analytics vormt reeds voor Content Analytics gebruikend de [ geleide configuratie ](guided.md) in een vroeger stadium worden gevormd. Deze configuratie zorgt ervoor dat alle vereiste artefacten beschikbaar zijn.<br/><br/> verifieert ook dat de updates voor zandbak of gegevensstromen zich niet in een andere configuratie van Content Analytics mengen die wordt gevormd om de zelfde zandbak of gegevensstromen te gebruiken.
   >
+
+* [ Ervaring vangen en definitie ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
+
+  U kunt de reguliere expressie bewerken om de manier waarop u werkt te wijzigen.
 
 * [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) {target="_blank"}
 

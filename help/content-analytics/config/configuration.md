@@ -7,43 +7,30 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
 
 # Inhoud analyseren configureren
 
->[!WARNING]
->
->Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
 De configuratie van Content Analytics bestaat uit de volgende stappen:
 
-![ Configuratie van Inhoud Analytics ](../assets/aca-configuration.svg)
+![ Configuratie van Inhoud Analytics ](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. Gebruik de Content Analytics [ geleide configuratie ](guided.md) tovenaar om u door alle stappen te begeleiden die worden vereist aan opstelling de eerste vereisten voor een configuratie van Content Analytics. U kunt uw configuraties opslaan en later terugkeren.
-1. Zodra u met de configuratiewaarden vertrouwd bent, kunt u de configuratie uitvoeren. Deze implementatie leidt tot alle vereiste artefacten, die op wat worden gebaseerd u in de tovenaar hebt gevormd. De volgende artefacten worden gecreeerd, bijgewerkt of geselecteerd:
-   * Customer Journey Analytics
-      * A [ gegevensmening ](/help/data-views/data-views.md) wordt geselecteerd.
-      * A [ verbinding ](/help/connections/overview.md) wordt geselecteerd, automatisch afgeleid uit de geselecteerde gegevensmening.
-   * Experience Platform
-      * De sandbox wordt geselecteerd en wordt automatisch afgeleid van de verbinding. De benodigde workflows en services worden ingeschakeld in de sandbox.
-      * Content Analytics-schema&#39;s worden geselecteerd in de sandbox. Indien niet beschikbaar, worden de noodzakelijke schema&#39;s gecreeerd.
-      * Content Analytics-gegevenssets worden geselecteerd in de sandbox. Indien niet beschikbaar, worden de noodzakelijke datasets gecreeerd.
-   * Gegevensverzameling
-      * Een gegevensstroom wordt gecreeerd en de dienst van Experience Platform wordt gevormd binnen de gegevensstroom om gegevens aan de de ervaringsdataset van de Analyse van de Inhoud te stromen.
-      * Er wordt een eigenschap Tags gemaakt waarbij de Adobe Content Analytics-extensie is geconfigureerd voor de juiste sandbox, datastream en andere configuratieopties van de configuratietovenaar.
+1. Gebruik de Content Analytics [ geleide configuratie ](guided.md) tovenaar om u door alle stappen te begeleiden die worden vereist aan opstelling de eerste vereisten voor een configuratie van Content Analytics. U kunt uw configuraties op elk ogenblik bewaren en later terugkeren.
+1. Zodra u met de configuratiewaarden vertrouwd bent, kunt u de configuratie uitvoeren. Deze implementatie leidt tot alle vereiste artefacten, die op wat worden gebaseerd u in de tovenaar hebt gevormd.
 1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen publiceert, zal uw configuratie van Content Analytics effectief worden opgesteld en geactiveerd.
 
 1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ mening van Gegevens ](/help/data-views/data-views.md).
-1. U kunt andere wijzigingen aanbrengen in een geïmplementeerde configuratie. Gebruik de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
-1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen van stap 4 en 5 effectief opgesteld en geactiveerd.
+1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
+1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen effectief opgesteld en geactiveerd.
 
 
 ## Vereisten

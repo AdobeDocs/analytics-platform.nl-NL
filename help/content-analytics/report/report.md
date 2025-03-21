@@ -7,30 +7,27 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: df3a877feed82f6cbd181561da68837373bdafb8
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
 
 # Overzicht van rapportage voor inhoudsanalyse
 
->[!WARNING]
->
->Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
-De rapportage over Content Analytics vindt plaats in Analysis Workspace. Een specifiek Workspace [ malplaatje ](#template) is beschikbaar, zodat kunt u tot een pre-bevolkt project van Workspace met relevante inhoudsinzichten onmiddellijk toegang hebben.
+U rapporteert, voert analyse uit en krijgt inzicht in Content Analytics binnen [ Analysis Workspace ](/help/analysis-workspace/home.md). Een specifiek Workspace [ malplaatje ](#template) is beschikbaar, zodat kunt u tot een pre-bevolkt project van Workspace met relevante inhoudsinzichten onmiddellijk toegang hebben.
 
 Rapporten over inhoudanalyse vanaf nul starten:
 
 1. [ creeer een nieuw ](/help/analysis-workspace/build-workspace-project/create-projects.md) of [ open een bestaand ](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
 1. Verzeker u [ selecteert een gegevensmening ](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [ ](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
 1. Sleep a ![ Lijst ](/help/assets/icons/Table.svg) [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
-1. Gebruik [ specifieke componenten van de Analyse van de Inhoud ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als filters, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen. Alternatief, gebruik het [ analytische malplaatje van de Inhoud ](#template).
+1. Gebruik [ specifieke componenten van de Analyse van de Inhoud ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als filters, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen.
 
 ## Miniaturen
 
@@ -38,9 +35,16 @@ Op basis van de specifieke afmetingen voor inhoudsanalyse die u in uw project ge
 
 ![ de duimnagels van de Analytics van de Inhoud ](../assets/aca-thumbnails.png)
 
+De weergave van miniaturen configureren voor een Content Analytics-dimensie:
+
+* Houd de muisaanwijzer boven een koptekstrij voor een Content Analytics-dimensie. Bijvoorbeeld **[!UICONTROL Asset Name]** of **[!UICONTROL Experience IDs]** .
+* Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg).
+* Schakel **[!UICONTROL Show Thumbnails]** onder **[!UICONTROL Settings]** in de pop-up **[!UICONTROL Row setting]** in of uit.
+
+
 ## Voorvertoningen
 
-Voor afmetingen met miniaturen (zoals Naam element, Naam ervaring en andere) kunt u een voorvertoningsvenster openen.
+Voor rijen van een Content Analytics-afmeting die miniaturen weergeven, kunt u een voorvertoningsvenster openen.
 
 U opent de voorvertoning met de volgende details:
 
@@ -50,11 +54,11 @@ U opent de voorvertoning met de volgende details:
   |---|---|
   | ![ de Ervaring van de Analyse van de Inhoud ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van de Analyse van de Inhoud ](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
-  | **[!UICONTROL Impressions (all times)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
-  | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. Selecteer ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
+  | **[!UICONTROL Impressions (all time)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
+  | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
   | **[!UICONTROL First impression]**: Datum waarop de ervaring voor het eerst wordt weergegeven. | **[!UICONTROL First impression]**: Datum waarop het element voor het eerst wordt weergegeven. |
   | **[!UICONTROL  Most recent impression]**: Datum van de meest recente indruk van de ervaring. | **[!UICONTROL Most recent impression]**: Datum van meest recente indruk van het element. |
-  | **[!UICONTROL Experience attributes]**: De kenmerken van de ervaring. | **[!UICONTROL Asset attributes]**: De kenmerken van het element. |
+  | **[!UICONTROL Experience attributes]**: De [ attributen ](/help/content-analytics/report/components.md#experience-attributes) van de ervaring. | **[!UICONTROL Asset attributes]**: De [ attributen ](/help/content-analytics/report/components.md#asset-attributes) van de activa. |
 
 
 ## Sjabloon
@@ -72,7 +76,7 @@ De sjabloon gebruiken:
 1. Selecteer in het dialoogvenster **[!UICONTROL Set up your template]** een metrische waarde in het dialoogvenster **[!UICONTROL Select a conversion metric]** . Bijvoorbeeld **[!UICONTROL Asset CTR]** .
 1. Selecteer **[!UICONTROL Continue]** .
 
-Er wordt een **[!UICONTROL Content Analytics Overview]** -project geopend in Workspace. Het project bestaat uit vier panels, die elk specifieke vragen beantwoorden:
+Er wordt een **[!UICONTROL Content Analytics Overview]** -project geopend in Workspace. Het project bestaat uit vier deelvensters, waarin elk deelvenster vrije tabellen en visualisaties biedt voor het beantwoorden van een specifieke vraag:
 
 * **Welke inhoud voert het beste uit?**
 Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervaringen de drijvende kracht zijn achter betrokkenheid en conversie. Ervaringen zijn een volledige webpagina, die op een bepaald moment wordt vastgelegd. Een ervaring kan zowel tekst als meerdere afzonderlijke afbeeldingselementen bevatten. Een element is een afzonderlijke afbeelding.
@@ -129,18 +133,18 @@ A [ lijn ](/help/analysis-workspace/visualizations/line.md) visualisatie die de 
 A [ vrije lijst van de vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste ervaringstrefwoorden toont die op geselecteerde metrische omzetting worden gebaseerd.
 
 * **waar verschijnen de activa op mijn plaats?**
-Een deelvenster dat bestaat uit één vrije-vormtabel waarin wordt aangegeven waar de meeste weergaveelementen op uw site worden weergegeven.
+Een deelvenster dat bestaat uit één vrije-vormtabel waarin de meest bekeken elementen op uw site worden weergegeven.
 
   Het paneel bestaat uit één visualisatie:
 
    * **waar verschijnen de meest bekeken activa?**
-U kunt elke identificatie voor middelen opsplitsen op basis van afmetingen die u helpen beter te begrijpen waar die afbeelding voorkomt.
+U kunt elk element onderverdelen op basis van afmetingen, zodat u beter begrijpt waar de afbeelding voorkomt.
 
-     In dit voorbeeld [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)), [!UICONTROL *identiteitskaart van de Perceptie van Activa*] wordt gebruikt in plaats van [!UICONTROL *identiteitskaart van Activa*]. Soms kan exact dezelfde afbeelding op uw site worden gedupliceerd met een andere afbeeldings-URL. De _]attribuut van de Waarneming van activa 0} {helpt deze duplicaten onder één enkele identiteitskaart groeperen.[!UICONTROL _ Omdat de activa op een pagina kunnen veranderen, wordt elk element verdeeld door [!UICONTROL _identiteitskaart van de Ervaring_], om te identificeren welke versie van die pagina die activa verschenen.
+     In de voorbeeld [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)), **[!UICONTROL Asset Perception ID]** wordt gebruikt in plaats van [!UICONTROL Asset Id]. Soms kan exact dezelfde afbeelding op uw site worden gedupliceerd met een andere afbeeldings-URL. Met het kenmerk [!UICONTROL Asset Perception ID] kunt u deze duplicaten groeperen onder één id.
 
-     U kunt [!UICONTROL _identiteitskaart van de Ervaring_] met andere afmetingen vervangen die u helpen de plaats van een activaplaats op uw plaats begrijpen. Bijvoorbeeld, {de naam van de 0} Pagina _],[!UICONTROL _ Pagina URL _], of[!UICONTROL _ sectie van de Plaats _].[!UICONTROL _
+     Omdat elementen op een pagina kunnen veranderen, wordt elk element uitgesplitst door **[!UICONTROL Experience Id]** om te bepalen op welke versie van die pagina het element is weergegeven. U kunt [!UICONTROL Experience Id] vervangen door andere afmetingen die u helpen de locatie van een element op uw site te begrijpen. Bijvoorbeeld [!UICONTROL Page name] , [!UICONTROL Page URL] of [!UICONTROL Site section] .
 
-     U kunt ook uit [!UICONTROL _identiteitskaart van de Perceptie_] met [!UICONTROL _identiteitskaart van Activa_] ruilen om een verslag te krijgen van waar specifiek beeld URLs wordt van verwijzingen voorzien.
+     U kunt [!UICONTROL Asset Perception ID] ook omwisselen met [!UICONTROL Asset Id] om een record te verkrijgen waarin wordt aangegeven waar naar specifieke afbeeldings-URL&#39;s wordt verwezen.
 
 
 >[!MORELIKETHIS]

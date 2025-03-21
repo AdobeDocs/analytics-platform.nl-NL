@@ -7,27 +7,24 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Content Analytics
 
->[!WARNING]
->
->Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
-Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over hoe inhoud wordt verbruikt en hoe inhoud invloed heeft. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifieke kleurenpallet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
+Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over hoe inhoud wordt verbruikt en hoe inhoud invloed heeft. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifiek kleurenpalet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
 
 De Analytics van de inhoud gebruikt AI en machine het leren baseerde **featurization dienst** om inhoud in componenten en attributen neer te breken. Door een gestructureerd metagegevensprofiel voor al uw inhoud te maken, kunt u analyseren welke inhoud en welke kenmerken van die inhoud de bedrijfsresultaten beïnvloeden.
 
-Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt Content Analytics de **identiteitsdienst** die activa en ervaringen gebruikend één enkel herkenningsteken identificeert. De identiteitsservice kan herkennen wanneer hetzelfde element op meerdere plaatsen wordt weergegeven. Wanneer dat gebeurt, worden de twee exemplaren van activa als zelfde behandeld, die voor een holistischer beeld van inhoudsgebruik en consumptie toestaan.
+Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt Content Analytics de **identiteitsdienst** die activa en ervaringen gebruikend één enkel herkenningsteken identificeert. De identiteitsservice kan herkennen wanneer exact hetzelfde element op meerdere plaatsen wordt weergegeven. Wanneer dat gebeurt, worden de instanties van dit actief als hetzelfde actief behandeld, waardoor een meer holistische kijk op het gebruik en de consumptie van inhoud mogelijk wordt.
 
 ## Waarde
 
@@ -44,7 +41,7 @@ Voor Content Analytics worden de volgende sleuteltermen gebruikt:
 
 ![ Assets en ervaringen ](/help/content-analytics/assets//content-analytics-experience-asset.png)
 
-* **Ervaring**: Een ervaring is al tekst op een Web-pagina die reproduceerbaar gebruikend URL is die door de aanvankelijke gebruiker wordt gebruikt die die die Web-pagina bezoekt. Elke ervaring krijgt een unieke id.
+* **Ervaring**: Een ervaring is al tekst op een Web-pagina die reproduceerbaar gebruikend URL is die door de aanvankelijke gebruiker wordt gebruikt die de Web-pagina bezocht. Elke ervaring krijgt een unieke id.
 * **Activa**: Een activa is een individueel en uniek stuk van inhoud, zoals een beeld. Elk element krijgt ook een unieke id.
 * **Attribuut**: Een attribuut is een beschrijvend meta-gegevenselement verbonden aan een ervaring of activa. Voorbeelden van een kenmerk zijn: stijl van fotografie, leesbaarheid, overredingsstrategie, objectkleur en achtergrondkleur.
 
@@ -55,10 +52,10 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 ![ Analytics van de Inhoud - hoe het ](assets/aca-overview.gif) werkt
 
 
-1. Wanneer een gebruiker een plaats bezoekt, die voor Content Analytics wordt gevormd, registreert het Web SDK van Experience Platform interactie met inhoud.
-1. De service voor het samenstellen van functies en de identiteitsservice verwerken de herziene gegevens. Dat proces bestaat uit een kruipper die de publiek-gerichte versies van gevormde URLs terugkeert en de diensten AI/ML toepast.
-1. De resultaten van deze services (componenten, kenmerken en identiteiten) worden gebruikt om de relevante specifieke gegevenssets voor inhoudsanalyses in Experience Platform bij te werken.
-1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsdatasets, gebruikt u in de opstelling van Customer Journey Analytics (combinatie Verbinding, de mening van Gegevens en Workspace). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud.
+1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform interactie met inhoud.
+1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een kruipper die de publiek-gerichte versies van gevormde URLs terugkeert die de interactie bepalen. Voor al deze gekropen URLs, identificeert de identiteitsdienst uniek de ervaringen en de activa. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
+1. De resultaten van deze diensten ([ componenten, attributen, en identiteiten ](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van inhoudsanalyses in Experience Platform bij te werken.
+1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([ Verbinding ](/help/connections/overview.md), [ mening van Gegevens ](/help/data-views/data-views.md) en [ Workspace ](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template).
 
 >[!NOTE]
 >

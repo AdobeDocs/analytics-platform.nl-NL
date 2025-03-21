@@ -7,19 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
 
 # Componenten van Content Analytics
 
->[!WARNING]
->
->Dit artikel is een voorlopige niet-officiële ontwerpversie van een toekomstige definitieve versie en maakt deel uit van de documentatie van Content Analytics. Alle inhoud kan worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -33,7 +30,7 @@ Met Content Analytics worden de volgende categorieën componenten (afmetingen, (
 * [Assets-gebeurtenissen](#asset-events)
 * [Berekende cijfers](#calculated-metrics)
 
-In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst op een AI/ML geproduceerde waarde.
+In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst op een AI/ML geproduceerd attribuut/waardepaar.
 
 ## Metagegevens ervaren
 

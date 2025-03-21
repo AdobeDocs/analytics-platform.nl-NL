@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
@@ -217,3 +217,11 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 ## Laatste stap voor checklist voor upgrades {#upgrade-final-step}
 
 1. Ga na de [ geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) of de dynamisch geproduceerde verbeteringsstappen in de Gids van de Verbetering van Customer Journey Analytics verder. Als u vanuit Customer Journey Analytics toegang wilt tot de hulplijn, selecteert u de tab **[!UICONTROL Workspace]** en vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** in het linkerdeelvenster. Volg de aanwijzingen op het scherm.
+
+
+## Conceptdocumentatie voor Content Analytics {#draft-aca}
+
+>[!WARNING]
+>
+>Dit artikel maakt deel uit van de Content Analytics-ontwerpdocumentatie. Alle ontwerp-Content Analytics-documentatie kan nog worden gewijzigd en geen enkele juridische verplichting kan worden afgeleid uit de huidige versie van dit artikel of uit enig ander artikel dat deel uitmaakt van de Content Analytics-documentatie.
+>
