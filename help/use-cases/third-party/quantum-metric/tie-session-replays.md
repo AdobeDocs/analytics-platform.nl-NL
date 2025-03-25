@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
+source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,11 @@ Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zitting
 
 1. Klik op **[!UICONTROL Create]**.
 
-Elke sessie-id is nu een klikbare koppeling. Deze verbindingen brengen u aan Metrisch Quantum in een nieuw lusje, dat u toestaat om die bepaalde zitting in detail te analyseren. Zie [ hyperlinks in een vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
+Elke sessie-id is nu een klikbare koppeling. Zie [ hyperlinks in een vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
 
 ## Stap 2 Weergavesessies vanuit Customer Journey Analytics
 
-Als u het Workspace-rapport hebt gemaakt met klikbare koppelingen, kunt u met Filters in Customer Journey Analytics interessante sessies identificeren die u verder kunt analyseren in Quantum Metric.
-De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Leer meer over Metrische zittingsreplay van Quantum bij [ https://www.quantummetric.com/platform/session-replay ](https://www.quantummetric.com/platform/session-replay). Voor om het even welke extra middelen gelieve uw Metrische vertegenwoordiger van de klantensteun van Quantum te contacteren of een verzoek door het Metrische Deel van het Verzoek van de Klant van Quantum [ ](https://community.quantummetric.com/s/public-support-page) voor te leggen.
+Zodra u een Instesting segment hebt gevonden waarvoor u zittingsreplay wilt onderzoeken, kunt u het op het paneel toepassen dat uw verbindingen van identiteitskaart van de zitting en filter door segment omvat. De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welk van hen klikken om verder in Quantum Metric te onderzoeken.
+
+Leer meer over Metrische zittingsreplay van Quantum bij [ https://www.quantummetric.com/platform/session-replay ](https://www.quantummetric.com/platform/session-replay). Voor om het even welke extra middelen gelieve uw Metrische vertegenwoordiger van de klantensteun van Quantum te contacteren of een verzoek door het Metrische Deel van het Verzoek van de Klant van Quantum [ ](https://community.quantummetric.com/s/public-support-page) voor te leggen.
 
