@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
+source-git-commit: 255f06ba504a0fa189a02966c5d3c63e1a4fadfd
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 Sommige gebruiksgevallen, zoals [ het binden van de Metrische zitting van Quantum replay ](tie-session-replays.md) of [ gebruikend Metrische Quantum heatmaps ](heatmap.md) vereisen dat u uw implementatie wijzigt om Quantum Metrische zittingsIdentiteitskaart te verzamelen. Deze pagina schetst dat proces om die gegevens in uw bestaande implementatie met succes over te brengen.
 
+## Vereisten
+
 Bij deze stappen wordt ervan uitgegaan dat u tags gebruikt in de gegevensverzameling van Adobe Experience Platform. U kunt deze methodes van de gegevensinzameling in een handmatige implementatie van SDK van het Web aanpassen als uw organisatie geen markeringen gebruikt.
 
-## Stap 1: Leg de metrische sessie-id voor Quantum vast met de extensie Metrische tags Quantum
+### Stap 1: Leg de metrische sessie-id voor Quantum vast met de extensie Metrische tags Quantum
 
 Ga als volgt te werk om de metrische sessie-id van Quantum toe te voegen aan de gegevens die u naar Adobe Experience Platform verzendt.
 
@@ -37,11 +39,11 @@ Ga als volgt te werk om de metrische sessie-id van Quantum toe te voegen aan de 
 
 Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
 
-## Stap 2: Ingesloten gegevenssetvelden bevestigen
+### Stap 2: Ingesloten gegevenssetvelden bevestigen
 
 Bevestig dat de datasets in uw verbinding nu Quantum Metric zittings identiteitskaart in de gewenste dataset hebben.
 
-## Stap 3: Quantum metrische sessie-id toevoegen als een beschikbare dimensie
+### Stap 3: Quantum metrische sessie-id toevoegen als een beschikbare dimensie
 
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
