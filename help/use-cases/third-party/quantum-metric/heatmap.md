@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
+source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,6 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
 
 ## Heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
 
-Nadat u een pagina hebt gevonden waarvoor u de warmteverdeling wilt bekijken, kunt u deze toepassen op het deelvenster waarin de URL zich bevindt. De tabel retourneert een URL waarmee u de heatmaps voor de pagina in kwestie, de schuifdiepte en belangrijke zones voor interactie kunt verkennen.  Leer meer over Metrische Heatmaps van Quantum bij [ https://www.quantummetric.com/platform/interaction-heatmaps ](https://www.quantummetric.com/platform/interaction-heatmaps)
+Nadat u een pagina hebt gevonden waarvoor u de warmteverdeling wilt bekijken, kunt u deze toepassen op het deelvenster waarin de URL zich bevindt. De tabel retourneert een URL waarmee u de heatmaps voor de pagina in kwestie, de schuifdiepte en belangrijke zones voor interactie kunt verkennen.  Leer meer over Metrische Quantum Heatmaps in [ https://www.quantummetric.com/platform/interaction-heatmaps ](https://www.quantummetric.com/platform/interaction-heatmaps).  Voor om het even welke extra middelen gelieve uw Metrische vertegenwoordiger van de klantensteun van Quantum te contacteren of een verzoek door het Metrische Deel van het Verzoek van de Klant van Quantum [ ](https://community.quantummetric.com/s/public-support-page) voor te leggen.
 
 
