@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: e6a77e75963fb43041c0533a28a9563a3849b8b0
+exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
+source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,8 @@ ht-degree: 0%
 # Metrische wrijvingsgebeurtenissen voor Quantum toevoegen aan Customer Journey Analytics
 
 Quantum Metric verzamelt wrijvingsgebeurtenissen zoals vertraging bij het laden van pagina&#39;s, fouten bij het laden van pagina&#39;s, het klikken van rages en meer. Deze gebeurtenissen kunnen in Customer Journey Analytics worden doorgegeven als complementaire gebeurtenissen op de reis van de gebruiker. Met deze gecombineerde gegevens kunt u beter begrijpen wat de invloed van wrijving is op de stroomafwaartse metriek.
+
+## Vereisten:
 
 Voor dit gebruiksgeval gelden twee vereisten:
 
