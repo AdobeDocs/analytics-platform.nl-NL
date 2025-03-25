@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
+source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,5 @@ Elke sessie-id is nu een klikbare koppeling. Deze verbindingen brengen u aan Met
 ## Stap 2 Weergavesessies vanuit Customer Journey Analytics
 
 Als u het Workspace-rapport hebt gemaakt met klikbare koppelingen, kunt u met Filters in Customer Journey Analytics interessante sessies identificeren die u verder kunt analyseren in Quantum Metric.
-De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Leer meer over Metrische zittingsreplay van Quantum bij [ https://www.quantummetric.com/platform/session-replay ](https://www.quantummetric.com/platform/session-replay)
+De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Leer meer over Metrische zittingsreplay van Quantum bij [ https://www.quantummetric.com/platform/session-replay ](https://www.quantummetric.com/platform/session-replay). Voor om het even welke extra middelen gelieve uw Metrische vertegenwoordiger van de klantensteun van Quantum te contacteren of een verzoek door het Metrische Deel van het Verzoek van de Klant van Quantum [ ](https://community.quantummetric.com/s/public-support-page) voor te leggen.
 
