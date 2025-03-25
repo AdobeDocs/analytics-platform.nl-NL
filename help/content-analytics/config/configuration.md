@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
+source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,9 @@ Voordat u Content Analytics configureert, moet u controleren of aan de volgende 
 
 * U hebt de gebruikersagent en IP adres voor de featurisatieservice toegestaan-vermeld die in de Analytics van de Inhoud wordt gebruikt. Het koord van de Agent van de Gebruiker om te vormen is: <code> AdobeFeaturization/1.0</code>.
 * U hebt een Customer Journey Analytics Product Administrator-rol, met de extra machtigingen om verbindingen te beheren en gegevensweergaven te beheren.
-* U hebt de vereiste Experience Platform-machtigingen:
-
-  | Categorie | Machtiging | Beschrijving |
-  |---|---|---|
-  | [!UICONTROL Data Collection] | Gegevensstromen weergeven | Alleen-lezen toegang tot gegevensstreams. |
-  | [!UICONTROL Data Collection] | Gegevensstromen beheren | Toegang tot het lezen, maken, bewerken en verwijderen van gegevensstromen. |
-  | [!UICONTROL Data Modeling] | [!UICONTROL View Schemas] | Alleen-lezen toegang tot schema&#39;s en gerelateerde bronnen. |
-  | [!UICONTROL Data Modeling] | [!UICONTROL Manage Schemas] | Toegang tot het lezen, maken, bewerken en verwijderen van schema&#39;s en gerelateerde bronnen. |
-  | [!UICONTROL Data Management] | [!UICONTROL View Datasets] | Alleen-lezen toegang voor gegevenssets en schema&#39;s. |
-  | [!UICONTROL Data Management] | [!UICONTROL Manage Datasets] | Toegang tot het lezen, creëren, uitgeven, en schrappen datasets. Alleen-lezen toegang voor schema&#39;s. |
-  | [!UICONTROL Data Ingestion] | [!UICONTROL Manage Sources] | Toegang tot bronnen lezen, maken, bewerken en uitschakelen. |
-  | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Alleen-lezen toegang voor naamruimten. |
-
+* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions) {target="_blank"} hebben. Deze machtiging bestaat uit:
+   * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions) {target="_blank"}
+   * [ de toestemmingen van de Inzameling van Gegevens van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions) {target="_blank" }
 * U hebt zorgvuldig de volgende belangrijke configuratieopties overwogen:
 
    * Uw site is geschikt voor ervaringsrapporten. Een correcte rapportage van de ervaring is alleen mogelijk als aan de volgende voorwaarden is voldaan:
