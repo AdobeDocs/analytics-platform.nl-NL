@@ -4,7 +4,7 @@ description: Leer hoe u Quantum Metric-gegevens kunt combineren met de rest van 
 hide: true
 hidefromtoc: true
 exl-id: a74e7143-e814-42c3-a706-b64427dc9ecb
-source-git-commit: be9a3325b3108e921841f7bc9ad529dd5ca395b6
+source-git-commit: 7e6c9fc2e8505b46a2674301261922af18e6c842
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Quantum Metric Integration use cases
 
-Deze pagina laat zien hoe u Customer Journey Analytics (CJA) en Quantum Metric aan elkaar koppelt om optimaal te profiteren van beide producten.  De betrokken gebruiksgevallen zijn onder meer:
+Deze pagina laat zien hoe u Customer Journey Analytics (CJA) en Quantum Metric aan elkaar koppelt om optimaal te profiteren van beide producten.  De betrokken gebruiksgevallen omvatten:
 
 1. [ verzamel Metrische Sessie-identiteitskaart van het Quantum in Customer Journey Analytics ](collect-session-id.md) om het verbinden van hitteafbeelding en zitting replay gegevens aan CJA toe te laten.
 1. [ de Metrische zitting van de Tijdreeks keert aan gegevens in Customer Journey Analytics ](tie-session-replays.md) terug om &quot;beter te begrijpen waarom&quot;achter &quot;wat&quot;.
