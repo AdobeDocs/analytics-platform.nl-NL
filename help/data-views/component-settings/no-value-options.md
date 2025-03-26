@@ -5,9 +5,9 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 16e8668d88dda2784ba60a1fa4302225ceff190f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-Geen waardeopties laten u bepalen hoe Analysis Workspace situaties behandelt waar een gebeurtenis in een dataset metrisch bevat maar de afmeting geen waarde bevatte. U kunt de naam van dit dimensie-item kiezen, het geheel verbergen of het zelfs als een werkelijke waarde behandelen.
+[!UICONTROL No value options] laat u bepalen hoe Analysis Workspace situaties behandelt waar een gebeurtenis in een dataset metrisch bevat maar de afmeting geen waarde bevatte. U kunt de naam van dit dimensie-item kiezen, het geheel verbergen of het zelfs als een werkelijke waarde behandelen.
 
 ![ Geen waardeopties ](../assets/no-value-options.png)
 
@@ -32,13 +32,20 @@ Geen waardeopties laten u bepalen hoe Analysis Workspace situaties behandelt waa
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL If shown, call "No value"] | Een tekstveld waarin u de naam van het dimensie-item **[!UICONTROL No value]** kunt wijzigen in iets anders. |
-| [!UICONTROL Don't show No value by default] | Deze waarde wordt niet weergegeven in de rapportage. Metrische voorvallen die niet aan deze dimensie zijn gekoppeld, zijn niet zichtbaar in het rapport. |
-| [!UICONTROL Show No value by default] | Deze waarde wordt in de rapportage weergegeven. |
-| [!UICONTROL Treat No value as a value] | Hiermee vervangt u lege waarden in de gegevens door de tekst die u onder [!UICONTROL If shown, call "No value"] hebt opgegeven. Als u bijvoorbeeld mobiele apparaattypen als afmetingen hebt, kunt u de naam van het item **[!UICONTROL No value]** wijzigen in &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Rood&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Rood&quot; die in de gegevens zelf worden weergegeven, daarom onder hetzelfde lijstitem als u hebt opgegeven. |
+| **[!UICONTROL If shown, call "No value"]** | Een tekstveld waarin u de naam van het dimensie-item **[!UICONTROL No value]** kunt wijzigen in iets anders. |
+| **[!UICONTROL Don't show "No value" by default]** | Deze waarde wordt niet weergegeven in de rapportage. Metrische voorvallen die niet aan deze dimensie zijn gekoppeld, zijn niet zichtbaar in het rapport. |
+| **[!UICONTROL Show "No value" by default]** | Deze waarde wordt in de rapportage weergegeven. |
+| **[!UICONTROL Treat "No value" as a value]** | (Niet ondersteund voor numerieke afmetingen) Hiermee vervangt u lege waarden in de gegevens door de tekst die u onder [!UICONTROL If shown, call "No value"] hebt opgegeven. Als u bijvoorbeeld mobiele apparaattypen als afmetingen hebt, kunt u de naam van het item **[!UICONTROL No value]** wijzigen in &quot;Computer&quot;. Wanneer u dit veld wijzigt in een aangepaste waarde, wordt de aangepaste waarde beschouwd als een geldige tekenreekswaarde. Als u de waarde &quot;Rood&quot; in dit veld invoert, worden alle instanties van de tekenreeks &quot;Rood&quot; die in de gegevens zelf worden weergegeven, daarom onder hetzelfde lijstitem als u hebt opgegeven. |
 
-{style="table-layout:auto"}
+## Ondersteuning voor Geen waarde voor numerieke afmetingen {#numeric}
 
-## Blogbericht
+Wanneer u een numerieke waarde als een afmeting gebruikt, kunt u
 
-Hier is een verwante blogpost over [ behandelend &quot;geen waarde&quot;in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+* Configureer de optie Geen waarde in een gegevensweergave. Alle configuratie-instellingen worden ondersteund, behalve **[!UICONTROL Treat "No value" as a value]** .
+* Gebruik [!UICONTROL Include "No value"] voor numerieke afmetingen in een tabel voor vrije vorm in Workspace.
+* Gebruik in de Filterbouwer de operatoren &quot;exists&quot; of &quot;does not exist&quot; met numerieke afmetingen.
+
+>[!MORELIKETHIS]
+>
+>Hier is een verwante blogpost over [ behandelend &quot;geen waarde&quot;in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+
