@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
+source-git-commit: 9563b13da52963eaf7b17050fb9a7cb3a47ef1ed
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten beter begrijpen waarom achter &quot;wat&quot; zit.  Workspace kan worden gebruikt om sessies met wrijving te ontdekken, dan kunt u hyperlinked zitting IDs klikken om zittingsreplay in Quantum Metric te onderzoeken.  Deze gegevens maken het mogelijk om gedrag binnen een sessie te bekijken en beter te begrijpen wat de wrijving van de consument stimuleert.  Door sessiereacties die aan CJA zijn gekoppeld, kunt u in uw ervaring kritieke context rond het gedrag van de klant vastleggen.
 
-## Vereisten
+## Vereisten:
 
 Voor dit gebruiksgeval moet u de sessie-id van Quantum Metric naast de rest van de implementatie verzamelen. Zie [ Metrische Sessie IDs van het Quantum in Customer Journey Analytics ](collect-session-id.md) verzamelen om te leren hoe te om uw implementatie te wijzigen.
 
