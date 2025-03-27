@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,31 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-In dit artikel worden de handmatige handelingen beschreven die vereist zijn om een Content Analytics-configuratie te activeren of deactiveren of om uw Content Analytics-implementatie te bewerken.
+In dit artikel worden de handmatige handelingen beschreven die vereist zijn om de gegevensverzameling van een Content Analytics-configuratie te starten of te stoppen, of om uw Content Analytics-implementatie te bewerken.
 
 De volgende handmatige configuratiehandelingen zijn beschikbaar:
 
-## Activeren
+## Gegevensverzameling starten
 
-Om een nieuwe configuratie of veranderingen te activeren u aan een bestaande configuratie aanbracht:
+De gegevensverzameling starten voor een geïmplementeerde Content Analytics-configuratie:
 
-1. U moet de [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) volgen {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat.
+1. Volg [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat.
 
-1. U moet [ installeren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) de ingebedde code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens Content Analytics.
+1. [ installeer ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) de ingebedde code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens Content Analytics.
 
 
-## Deactiveren
+## Gegevensverzameling stoppen
 
-De verzameling analytische gegevens van inhoud uitschakelen:
+De gegevensverzameling voor een geïmplementeerde Content Analytics-configuratie stoppen:
 
 1. Verwijder de [ ingebedde code ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of productiemilieu, behoudens Content Analytics.
 1. [ Schrap ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) het bijbehorende bezit van Markeringen voor uw configuratie van Content Analytics.
 
 
 
-## Wijzigen
+## Gegevensverzameling wijzigen
 
-U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ geleide configuratietovenaar ](guided.md). Wijzig bijvoorbeeld de gegevensweergave.
+U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ geleide configuratietovenaar ](guided.md). Wijzig bijvoorbeeld de gegevensweergave of schakel ervaringen in of uit.
 
 U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bezit van Markeringen verbonden aan uw configuratie van Content Analytics om veranderingen in de volgende artefacten aan te brengen:
 
@@ -57,14 +57,14 @@ U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleag
 
 * [ Ervaring vangen en definitie ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
-  U kunt de reguliere expressie bewerken om de manier waarop u werkt te wijzigen.
+  U kunt ervaringen in- of uitschakelen en de combinaties van reguliere expressie en queryparameters bewerken om te bepalen hoe inhoud op uw website wordt weergegeven.
 
 * [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) {target="_blank"}
 
   U kunt reguliere expressies bewerken om de manier te wijzigen waarop u pagina&#39;s en elementen filtert.
 
 
-Nadat u veranderingen in de uitbreiding van de Analyse van de Inhoud van Adobe aanbrengt, verzeker uw gebruik [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"} om uw veranderingen te activeren.
+Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, verzeker uw gebruik [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"} om de inzameling van gegevens te beginnen die op de aangebrachte veranderingen worden gebaseerd.
 
 
 

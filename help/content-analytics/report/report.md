@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U opent de voorvertoning met de volgende details:
   | Voorvertoning van ervaring | Voorvertoning van element |
   |---|---|
   | ![ de Ervaring van de Analyse van de Inhoud ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van de Analyse van de Inhoud ](../assets/aca-asset-preview.png) |
-  | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
+  | Naam van de dimensie (bijvoorbeeld, **[!UICONTROL Experience ID])** | Naam van de afmeting van het element (bijvoorbeeld, **[!UICONTROL Asset ID])** |
   | **[!UICONTROL Impressions (all time)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
   | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
   | **[!UICONTROL First impression]**: Datum waarop de ervaring voor het eerst wordt weergegeven. | **[!UICONTROL First impression]**: Datum waarop het element voor het eerst wordt weergegeven. |
@@ -83,7 +83,12 @@ Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervari
 
   Het deelvenster bestaat uit de volgende visualisaties:
 
-   * **Ervaringen**
+   * **Ervaringen**.
+
+     >[!NOTE]
+     >
+     >Deze visualisaties tonen slechts wanneer u [ inbegrepen ervaringen ](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics hebt.
+     > 
 
       * **Ervaring CTR**: a [ summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie, tonend Ervaring CTR.
       * **Hoogste het omzetten ervaringen**: A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten ervaringen tonen die op geselecteerde metrische omzetting worden gebaseerd.
@@ -116,8 +121,14 @@ A [ lijn ](/help/analysis-workspace/visualizations/line.md) visualisatie die de 
    * **Voorgrondkleur van Activa**
 Een voorbeeld [ vrije lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de prestaties van punten van één enkele categorie van activaattributen vergelijkt: Voorgrondkleuren. U kunt dit elementkenmerk vervangen door andere klassendimensies van het elementkenmerk.
 
-* **Welke ervaringsattributen dragen tot omzettingen bij?**
-Elementkenmerken zijn vooral gericht op de visuele kwaliteiten van afbeeldingen, terwijl kenmerken de tekst van de pagina beïnvloeden. Met de onderstaande visualisaties kunt u nagaan welke ervaringskenmerken bijdragen aan de conversie. Deze kenmerken worden ook automatisch toegewezen met behulp van AI- en GenAI-modellen.
+* **Welke ervaringsattributen dragen aan omzettingen bij?**
+
+  >[!NOTE]
+  >
+  >Dit paneel toont slechts wanneer u [ inbegrepen ervaringen ](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics hebt.
+  > 
+
+  Elementkenmerken zijn vooral gericht op de visuele kwaliteiten van afbeeldingen, terwijl kenmerken de tekst van de pagina beïnvloeden. Met de onderstaande visualisaties kunt u nagaan welke ervaringskenmerken bijdragen aan de conversie. Deze kenmerken worden ook automatisch toegewezen met behulp van AI- en GenAI-modellen.
 
   Het deelvenster bestaat uit de volgende visualisaties:
 

@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Content Analytics biedt wel een hogere waarde:
 
 Voor Content Analytics worden de volgende sleuteltermen gebruikt:
 
-![ Assets en ervaringen ](/help/content-analytics/assets//content-analytics-experience-asset.png)
+![ Assets en ervaringen ](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **Ervaring**: Een ervaring is al tekst op een Web-pagina die reproduceerbaar gebruikend URL is die door de aanvankelijke gebruiker wordt gebruikt die de Web-pagina bezocht. Elke ervaring krijgt een unieke id.
-* **Activa**: Een activa is een individueel en uniek stuk van inhoud, zoals een beeld. Elk element krijgt ook een unieke id.
+* **Ervaring**: Een ervaring is al tekst op een Web-pagina die reproduceerbaar gebruikend URL is die door de aanvankelijke gebruiker wordt gebruikt die de Web-pagina bezocht. Elke ervaring krijgt een unieke id. Wijzigingen in de pagina die leiden tot wijzigingen in de HTML van de pagina, leiden tot een nieuwe ervaring.
+* **Activa**: Een activa is een individueel en uniek stuk van inhoud, zoals een beeld. Elk element krijgt ook een unieke id en een perceptuele id. Een perceptuele id is een id die wordt gedeeld met elementen die visueel identiek zijn. Met perceptuele id&#39;s kunt u elementen dedupliceren die een andere element-URL en dus een andere element-id hebben, maar die wel exact hetzelfde zijn.
 * **Attribuut**: Een attribuut is een beschrijvend meta-gegevenselement verbonden aan een ervaring of activa. Voorbeelden van een kenmerk zijn: stijl van fotografie, leesbaarheid, overredingsstrategie, objectkleur en achtergrondkleur.
 
 ## Hoe werkt het
@@ -52,7 +52,7 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 ![ Analytics van de Inhoud - hoe het ](assets/aca-overview.gif) werkt
 
 
-1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform interactie met inhoud.
+1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform indrukkingen en interactie met inhoud.
 1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een kruipper die de publiek-gerichte versies van gevormde URLs terugkeert die de interactie bepalen. Voor al deze gekropen URLs, identificeert de identiteitsdienst uniek de ervaringen en de activa. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
 1. De resultaten van deze diensten ([ componenten, attributen, en identiteiten ](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van inhoudsanalyses in Experience Platform bij te werken.
 1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([ Verbinding ](/help/connections/overview.md), [ mening van Gegevens ](/help/data-views/data-views.md) en [ Workspace ](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template).

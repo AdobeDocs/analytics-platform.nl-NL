@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ba386bf8055498ba1cecdd49890194dd2a7d69f9
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '3219'
-ht-degree: 1%
+source-wordcount: '2308'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ De geleide configuratie helpt u om Inhoud Analytics snel en gemakkelijk te vorme
 
 De Content Analytics-configuratie openen
 
-* Selecteer **[!UICONTROL Data Management]** > **[!UICONTROL Content Analytics]** in het hoofdmenu in Customer Journey Analytics.
+* Selecteer **[!UICONTROL Data Management]** > **[!UICONTROL Content Analytics Configuration]** in het hoofdmenu in Customer Journey Analytics.
 
 In het **[!UICONTROL Content Analytics Configurations]** -scherm ziet u een tabel met bestaande Content Analytics-configuraties.
 
@@ -42,7 +42,7 @@ Voor elke configuratie zijn de volgende details beschikbaar:![
 | **[!UICONTROL Created on]** | De tijdstempel op het moment dat de configuratie werd gemaakt. |
 | **[!UICONTROL Modified on]** | De tijdstempel wanneer de configuratie voor het laatst is gewijzigd. |
 | **[!UICONTROL Sandbox]** | De sandbox binnen de organisatie waarin Content Analytics is (gepland) geconfigureerd en geïmplementeerd. |
-| **[!UICONTROL Status]** | De status van de configuratie. De status kan zijn:<br/>![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: De configuratie wordt bewaard voor later, en niet opgesteld.<br/>![ StatusRed ](/help/assets/icons/StatusRed.svg) **[!UICONTROL Failed]**: De configuratie heeft ontbroken. U moet de configuratie bewerken en de benodigde wijzigingen aanbrengen.<br/>![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: de configuratie is voltooid en met succes uitgevoerd. |
+| **[!UICONTROL Status]** | De status van de configuratie. De status kan zijn:<br/>![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: De configuratie wordt bewaard voor later, en niet opgesteld.<br/>![ StatusRed ](/help/assets/icons/StatusRed.svg) **[!UICONTROL Failed]**: De configuratie heeft ontbroken. U kunt **[!UICONTROL Edit]** selecteren om informatie over de fout op te halen. Adobe pakt eventuele mislukte implementaties proactief aan. U kunt contact opnemen met de klantenservice voor meer informatie.<br/>![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: de configuratie is voltooid en met succes uitgevoerd. |
 
 U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om de lijst aan te passen. Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 
@@ -134,7 +134,7 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
 
    ![ configuratie van Content Analytics van een mening van Gegevens - de lijst van de meningen van Gegevens ](../assets/aca-configuration-dataview-dialog.png)
 
-   Voor een nieuwe configuratie, toont de lijst slechts de meningen van Gegevens die met zandbakken worden geassocieerd die geen actieve configuratie hebben.
+   Voor een nieuwe configuratie, toont de lijst slechts de meningen van Gegevens die met zandbakken worden geassocieerd die geen actieve configuratie hebben. Bovendien ziet u alleen gegevensweergaven die zijn gekoppeld aan sandboxen waartoe u toegang hebt en verbindingen die u kunt wijzigen.
 
    Als u een bestaande configuratie bewerkt, worden in de lijst alleen de gegevensweergaven weergegeven die beschikbaar zijn in de sandbox die al is gekoppeld aan de bestaande configuratie.
 
@@ -191,8 +191,8 @@ Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience.png)
 
 1. Schakel **[!UICONTROL Include experiences]** in.
-1. Optioneel. Geef de parameters op voor de manier waarop inhoud op uw website wordt weergegeven. De parameters zijn nul of meer combinaties van a **[!UICONTROL Domain regular expression]** en **[!UICONTROL Query parameters]**.
-   1. Voer een **[!UICONTROL Domain regular expression]** in, bijvoorbeeld `/^(?!.*\b(store|help|admin)\b)/` . Gebruik `/` om normale expressies te omzeilen.
+1. Geef desgewenst de parameters op voor de weergave van inhoud op uw website. De parameters zijn nul of meer combinaties van a **[!UICONTROL Domain regular expression]** en **[!UICONTROL Query parameters]**. De vraagparameters wijzen op welke parameters de inhoud op uw pagina beïnvloeden. Met deze invoer kan Content Analytics parameters negeren die geen invloed hebben op de inhoud van de pagina wanneer een unieke ervaring wordt gedefinieerd.
+   1. Voer een **[!UICONTROL Domain regular expression]** in, bijvoorbeeld `/^(?!.*\b(store|help|admin)\b)/` . Gebruik `/` om normale expressies te omzeilen. De reguliere expressie van het domein geeft aan op welke URL&#39;s deze parameters van toepassing zijn. U kunt bijvoorbeeld meerdere sites hebben en voor elke site wordt de inhoud door verschillende parameters aangedreven. Als de queryparameters op al uw pagina&#39;s van toepassing zijn, kunt u met `.*` alle pagina&#39;s aangeven.
    1. Geef een door komma&#39;s gescheiden lijst op van **[!UICONTROL Query parameters,]** bijvoorbeeld `outdoors, patio, kitchen` .
 1. Selecteer **[!UICONTROL Remove]** als u een combinatie van de reguliere expressie van het domein en queryparameters wilt verwijderen.
 1. Selecteer **[!UICONTROL Add Regex]** als u een andere combinatie van een reguliere expressie en queryparameters wilt toevoegen.
@@ -201,7 +201,8 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience-edit.png)
 
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van het verzamelen van Ervaringen in Content Analytics uit te geven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
+* Schakel **[!UICONTROL Include experiences]** in of uit om de beschikbaarheid van ervaringscomponenten, -visualisaties en -deelvensters in Analysis Workspace in of uit te schakelen.
+* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics uit te geven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
 
 
 
@@ -322,322 +323,12 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
       * De verbinding die aan de geselecteerde mening van Gegevens wordt gebonden wordt gewijzigd om de gebeurtenissen van Content Analytics en attributen datasets te omvatten.
       * Er wordt een rapportsjabloon voor Content Analytics toegevoegd aan Workspace.
 
-+++ Details
-
-     Voor de volgende scenario&#39;s worden nadere gegevens verstrekt:
-
-      * **het bezit van Markeringen** bestaat **✓** of bestaat niet **✕**.
-      * **SDK van het Web** uitbreiding voor het bezit van Markeringen bestaat **✓** of bestaat niet **✕**.
-      * Adobe **Content Analytics** uitbreiding voor het bezit van de Markering bestaat **✓** of bestaat niet **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Scenario's:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong> Plaatsende </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✓ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✕ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td>Rapportsjabloon</td>
-          <td colspan="4">Een rapportsjabloon is beschikbaar</td>
-        </tr>
-        <tr>
-          <td>Gegevens, weergave</td>
-          <td colspan="4">Gewijzigd/Gemaakt voor ACA-afmetingen en -cijfers</td>
-        </tr>
-        <tr>
-          <td>Verbinding</td>
-          <td colspan="4">Gewijzigd om ACA-gegevenssets op te nemen (ACA-gebeurtenissen, Asset-kenmerken, Experience Attribute)</td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
    * **[!UICONTROL Adobe Experience Platform]** configuratie:
       * Het maken van schema&#39;s om gebeurtenissen voor Content Analytics, elementkenmerken en (indien geconfigureerd) ervaringskenmerken te modelleren.
       * Het creëren van datasets om de gebeurtenissen van de Analytics van de Inhoud, activa attributen en (indien gevormd) ervaringsattributen te verzamelen.
       * Het creëren van een gegevensstroom die de featurization dienst gebruikt om inhoudsattributen van de gebeurtenissen van de Analyse van de Inhoud te produceren en bij te werken.
 
-+++ Details
-
-     Voor de volgende scenario&#39;s worden nadere gegevens verstrekt:
-
-      * **het bezit van Markeringen** bestaat **✓** of bestaat niet **✕**.
-      * **SDK van het Web** uitbreiding voor het bezit van Markeringen bestaat **✓** of bestaat niet **✕**.
-      * Adobe **Content Analytics** uitbreiding voor het bezit van de Markering bestaat **✓** of bestaat niet **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Scenario's:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong> Plaatsende </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✓ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✕ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td colspan="5"><strong><br/>Content Analytics Events-schema</strong></td>
-        </tr>
-        <tr>
-          <td style="margin-left: 160.0px;">Naam</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Gegevensset Content Analytics Events</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-          <td>Content Analytics Events</td>
-        </tr>
-        <tr>
-          <td>Schema</td>
-          <td>Content Analytics-gebeurtenis</td>
-          <td>Content Analytics-gebeurtenis</td>
-          <td>Content Analytics-gebeurtenis</td>
-          <td>Content Analytics-gebeurtenis</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Tags</td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-        </tr>
-        <tr>
-          <td>Systeemgegevensset</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td>Gegevensbeheer (DULE-labels)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Content Analytics-schema voor elementkenmerken</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Gegevensset Content Analytics Assets Attributes</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-        </tr>
-        <tr>
-          <td>Schema</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-          <td>Kenmerken Content Analytics-element</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Tags</td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-        </tr>
-        <tr>
-          <td>Systeemgegevensset</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td>Gegevensbeheer (DULE-labels)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Schema Content Analytics-ervaringskenmerken</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Gegevensset Content Analytics Experience Attributes</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-        </tr>
-        <tr>
-          <td>Schema</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-          <td>Content Analytics Experience Attributes</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-          <td><i>vooraf bepaalde tbd</i></td>
-        </tr>
-        <tr>
-          <td>Tags</td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-          <td><i>leeg?</i></td>
-        </tr>
-        <tr>
-          <td>Systeemgegevensset</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Profiel ingeschakeld</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-          <td>Nee</td>
-        </tr>
-        <tr>
-          <td>Gegevensbeheer (DULE-labels)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
    * **[!UICONTROL Data collection]** configuratie:
       * Het nieuwe of bestaande bezit van Markeringen wordt gevormd om de gegevensinzameling van Content Analytics te steunen. Deze configuratie houdt in dat de extensie Adobe Content Analytics voor tags wordt opgenomen.
@@ -646,340 +337,6 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
       * Als het Web SDK niet voor het bezit van Markeringen wordt gevormd, wordt een nieuwe configuratie van SDK van het Web gecreeerd om slechts de gebeurtenissen van de Analyse van de Inhoud te verzenden.
       * Als het Web SDK voor dit bezit van Markeringen wordt gevormd, worden geen veranderingen aangebracht in de bestaande configuratie van SDK van het Web.
 
-+++ Details
-
-     Voor de volgende scenario&#39;s worden nadere gegevens verstrekt:
-
-      * **het bezit van Markeringen** bestaat **✓** of bestaat niet **✕**.
-      * **SDK van het Web** uitbreiding voor het bezit van Markeringen bestaat **✓** of bestaat niet **✕**.
-      * Adobe **Content Analytics** uitbreiding voor het bezit van de Markering bestaat **✓** of bestaat niet **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Scenario's:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong> Plaatsende </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✓ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✓ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✓ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-        <th>
-          <strong> ✕ Tags <br> ✕ Web SDK <br/> ✕ Content Analytics </strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td colspan="5"><strong><br/>DataStream</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Content Analytics</td>
-          <td>Content Analytics</td>
-          <td>Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Beschrijving</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-        </tr>
-        <tr>
-          <td>Toewijzingsschema</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-        </tr>
-        <tr>
-          <td>Geolocatie en netwerk opzoeken</td>
-          <td><i>bestaande waarden</i></td>
-          <td>Alle opties uitgeschakeld</td>
-          <td>Alle opties uitgeschakeld</td>
-          <td>Alle opties uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Apparaat opzoeken</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Geen apparaatgegevens verzamelen</td>
-          <td>Geen apparaatgegevens verzamelen</td>
-          <td>Geen apparaatgegevens verzamelen</td>
-        </tr>
-        <tr>
-          <td>IP Obfuscatie</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Geen</td>
-          <td>Geen</td>
-          <td>Geen</td>
-        </tr>
-        <tr>
-          <td>Cookie eerste-id</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uit</td>
-          <td>Uit</td>
-          <td>Uit</td>
-        </tr>
-        <tr>
-          <td>Identiteitskaart van derden synchroniseren</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uit</td>
-          <td>Uit</td>
-          <td>Uit</td>
-        </tr>
-        <tr>
-          <td>Toegangstype</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Gemengd verifiëren</td>
-          <td>Gemengd verifiëren</td>
-          <td>Gemengd verifiëren</td>
-        </tr>
-        <tr>
-          <td>Media Analytics</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uit</td>
-          <td>Uit</td>
-          <td>Uit</td>
-        </tr>
-            <tr>
-          <td>Boot Detection</td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uit</td>
-          <td>Uit</td>
-          <td>Uit</td>
-        </tr>
-        <tr>
-          <td>Toewijzing</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/> bezit van Markeringen </strong><br/> een bestaand bezit of nieuw bezit. De naam en het domein worden verstrekt door de gebruiker.</td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td><i> verstrekte gebruiker </i> (gebrek "Content Analytics")</td>
-        </tr>
-        <tr>
-          <td>Domein</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td ><i>vooraf bepaald</i></td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Tags, bibliotheek</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>
-            <br/>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Web SDK-extensie</strong></td>
-        </tr>
-        <tr>
-          <td>Naam</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Content Analytics - Web SDK</td>
-          <td>Content Analytics - Web SDK</td>
-        </tr>
-        <tr>
-          <td>IMS Org</td>
-          <td><i>automatisch gevuld</i></td>
-          <td><i>automatisch gevuld</i></td>
-          <td><i>automatisch gevuld</i></td>
-          <td><i>automatisch gevuld</i></td>
-        </tr>
-        <tr>
-          <td>Edge-domein</td>
-          <td><i>de bestaande waarde <br/> zou een update kunnen vereisen om de implementatie van AppMeasurement aan te passen</i></td>
-          <td><i>de bestaande waarde <br/> zou een update kunnen vereisen om de implementatie van AppMeasurement aan te passen</i></td>
-          <td>
-            <a href="http://edge.adobedc.net"> edge.adobedc.net </a>
-          </td>
-          <td>
-            <a href="http://edge.adobedc.net"> edge.adobedc.net </a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Gegevensstromen</strong></td>
-        </tr>
-        <tr>
-          <td>Productie</td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i> verstrekte gebruiker </i>?</td>
-          <td><i> verstrekte gebruiker </i>?</td>
-        </tr>
-        <tr>
-          <td>Staging</td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i> verstrekte gebruiker </i>?</td>
-          <td><i> verstrekte gebruiker </i>?</td>
-        </tr>
-        <tr>
-          <td>Ontwikkeling</td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i>bestaande die waarde <br/> de opheffing van de Gegevensstroom wordt gebruikt om naar een verschillende gegevensstroom te verzenden</i></td>
-          <td><i> verstrekte gebruiker </i>?</td>
-          <td><i> verstrekte gebruiker </i>?</td>
-        </tr>
-        <tr>
-          <td>Privacy</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>In?</td>
-          <td>In?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Identiteit</strong></td>
-        </tr>
-        <tr>
-          <td>ECID migreren</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Ingeschakeld</td>
-          <td>Ingeschakeld</td>
-        </tr>
-        <tr>
-          <td>Cookies van derden gebruiken</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Ingeschakeld</td>
-          <td>Ingeschakeld</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Personalisatie</strong></td>
-        </tr>
-        <tr>
-          <td>Doel migreren van at.js naar Web SDK</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uitgeschakeld</td>
-          <td>Uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Opslag voor personalisatie inschakelen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uitgeschakeld</td>
-          <td>Uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Automatisch klikken op verzameling voor Adobe Journey Optimizer</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Altijd</td>
-          <td>Altijd</td>
-        </tr>
-        <tr>
-          <td>Automatisch klikken op verzameling voor Adobe Target</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Nooit</td>
-          <td>Nooit</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Gegevensverzameling</strong></td>
-        </tr>
-        <tr>
-          <td>Klikken op interne koppelingen verzamelen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uitgeschakeld</td>
-          <td>Uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Externe koppelingsklikken verzamelen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uitgeschakeld</td>
-          <td>Uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Klikken op downloadkoppelingen verzamelen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Uitgeschakeld</td>
-          <td>Uitgeschakeld</td>
-        </tr>
-        <tr>
-          <td>Wanneer u gebeurtenisgegevens verzendt, neemt u automatisch</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Alle standaardcontextgegevens</td>
-          <td>Alle standaardcontextgegevens</td>
-        </tr>
-        <tr>
-          <td>Streaming media</td>
-          <td><i>bestaande waarden</i></td>
-          <td><i>bestaande waarden</i></td>
-          <td>Lege waarden</td>
-          <td>Lege waarden</td>
-        </tr>
-        <tr>
-          <td>DataStream-configuratieoverschrijvingen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>Identieke gegevensstroomconfiguratie</td>
-          <td>Identieke gegevensstroomconfiguratie</td>
-        </tr>
-        <tr>
-          <td>Geavanceerde instellingen - Edge-basispad</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>bestaande waarde</i></td>
-          <td>ee</td>
-          <td>ee</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Content Analytics-extensie</strong></td>
-        </tr>
-        <tr>
-          <td>Gegevensstromen</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-          <td><i>vooraf bepaald</i></td>
-        </tr>
-        <tr>
-          <td>Ervaring vastleggen en definiëren</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-        </tr>
-        <tr>
-          <td>Gebeurtenisfilters</td>
-          <td><i>bestaande waarde</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-          <td><i>door gebruiker opgegeven</i></td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
 * **[!UICONTROL Save]**: wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden opgeslagen en de implementatie wordt bijgewerkt.
 * **[!UICONTROL Exit]**. Sluit de configuratie met instructies af. Alle wijzigingen die in een geïmplementeerde configuratie zijn aangebracht, worden genegeerd.
@@ -987,7 +344,7 @@ Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties besc
 
 ## Publiceren {#publish}
 
-Om uw configuratie van Content Analytics te activeren, moet u [ manueel ](manual.md) publiceren het bezit van Markeringen dat wordt gecreeerd nadat u **[!UICONTROL Implement]** selecteerde.
+Om gegevens voor uw configuratie van Content Analytics te beginnen verzamelen, moet u [ manueel ](manual.md) publiceren het bezit van Markeringen dat wordt gecreeerd nadat u **[!UICONTROL Implement]** selecteerde.
 
 
 >[!MORELIKETHIS]

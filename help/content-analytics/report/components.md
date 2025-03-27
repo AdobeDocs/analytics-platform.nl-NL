@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Experience Thumbnail URL | URL voor de miniatuur van de ervaring. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar de Horizontale Diepte van het Percentage | Kwantificeerbare waarde van de horizontale percentagediepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar de verticale percentagediepte | Kwantificeerbare waarde van de verticale percentagediepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Ervaar de horizontale pixeldiepte | Kwantificeerbare waarde van de horizontale pixeldiepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Ervaar verticale pixeldiepte | Kwantificeerbare waarde van de verticale pixeldiepte van de ervaring. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 
 {style="table-layout:fixed"}
 
@@ -55,7 +53,6 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 
 | Titel | Beschrijving | Type | Instellingen |
 |---|---|---|---|
-| Ervaar leesbaarheid | ![ AI produceerde ](/help/assets/icons/AI.svg) Readability score voor de ervaring. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar trefwoorden | ![ AI produceerde ](/help/assets/icons/AI.svg) Sleutelwoorden voor de ervaring. | Dimension <br> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar Persusiestrategieën | ![ AI produceerde ](/help/assets/icons/AI.svg) strategieën van de Uitdrukking die in de bepaalde ervaring aanwezig zijn. De mogelijke waarden zijn: Sociale identiteit, Sociale Bewijs, Autoriteit, Betrouwheid, Voetbal in de deur, Overkomende Reacantie, Wederkerigheid, Anchoring en Vergelijking, Sociale Effect, Schoolheid, en Anthropomorisme. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Ervaar verhalen | ![ AI produceerde ](/help/assets/icons/AI.svg) Narratives die de ervaring bouwt op relevantie van het de meningspunt van een teller wordt gebaseerd. | Dimension <br/> Afgeleid Gebied | \| tonen Geen waarde <br/> Recentste \| Sessie |
@@ -88,19 +85,12 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 |---|---|---|---|
 | Source-element | Openbare toegankelijke bron-URL voor het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Element-id | Unieke id van het element. Het binaire element bepaalt de uniciteit. Als het element binair verandert, verandert identiteitskaart wel. De unieke id kan de URL zijn, maar ook een gemaakte hash. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Elementnaam | Naam van het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Elementtype | Type van het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| URL van elementminiatuur | URL voor de miniatuur van het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | HTML-pad voor element | Samengevoegd HTML-pad voor het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Koppelings-URL voor element | Naaste paginanker voor het element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Breedte van middelenweergave | Weergavebreedte van inhoudselementen. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Hoogte van bedrijfsmiddelenweergave | Hoogte van weergave van inhoudselementen. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Absoluut linkerelement | Content asset absolute left. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
 | Absoluut bovenaan | Absolute top inhoudselement. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Element gemaakt door | Identifier voor het maken van elementen. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Aanmaakdatum van element | Aanmaakdatum van element. | Dimension | Recentste \| Sessie |
-| Element laatst bijgewerkt door | Id voor bijwerken van element. | Dimension | \| tonen Geen waarde <br/> Recentste \| Sessie |
-| Laatste bijgewerkte datum van element | Datum van update van element. | Dimension | Recentste \| Sessie |
 
 {style="table-layout:fixed"}
 
@@ -133,7 +123,7 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 
 | Titel | Beschrijving | Type | Instellingen |
 |---|---|---|---|
-| Elementweergaven | Kwantificeerbare waarde van het aantal weergaven van het actief. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
+| Weergaven van elementen | Kwantificeerbare waarde van het aantal weergaven van het actief. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 | Elementklikken | Kwantificeerbare maatstaf voor het aantal klikken op het actief. | Metrisch | Aantal waarden <br/> Decimaal \| Decimalen: 0 |
 
 {style="table-layout:fixed"}
@@ -157,7 +147,7 @@ In de lijsten hieronder, ![ geproduceerde AI ](/help/assets/icons/AI.svg) wijst 
 | Titel | Beschrijving | Type | Instellingen |
 |---|---|---|---|
 | Middelen klikken-dalingssnelheid | Elementklikken/Elementweergaven | Berekende metrische waarde | |
-| ervaringsdoorkliksnelheid | Ervaar klikken/Weergaven ervaren | Berekende metrische waarde | |
+| ervaringsdoorkliksnelheid | Ervaar de klikken/Ervaar Weergaven | Berekende metrische waarde | |
 
 {style="table-layout:fixed"}
 
