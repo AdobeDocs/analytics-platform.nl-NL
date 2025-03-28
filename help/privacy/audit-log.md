@@ -1,12 +1,12 @@
 ---
 title: Controlelogboeken
-description: Leer hoe te om de controlelogboeken van de Customer Journey Analytics te bekijken en te beheren.
+description: Leer hoe u Customer Journey Analytics-auditlogs kunt weergeven en beheren.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
+source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inb
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u de toegangsbeheerbevoegdheid van **[!UICONTROL Audit Logs Access]** hebben gekregen in de console van de Adobe. Leren hoe te om individuele toestemmingen voor de eigenschappen van de Customer Journey Analytics te beheren, gelieve te verwijzen naar de [ documentatie van de toegangscontrole ](../technotes/access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u de toegangsbeheermachtiging van **[!UICONTROL Audit Logs Access]** in Adobe Console hebben gekregen. Leren hoe te om individuele toestemmingen voor de eigenschappen van Customer Journey Analytics te beheren, gelieve te verwijzen naar de [ documentatie van de toegangscontrole ](../technotes/access-control.md).
 
 ## Bekijk het controlelogboek in UI
 
@@ -66,9 +66,9 @@ De volgende items worden weergegeven:
    * API_REQUEST: Elke actie activeert een back-end API-aanvraag. Er worden details weergegeven over wat de API-aanvraag was.
    * GOEDKEURING: er is een &quot;goedkeuringshandeling&quot; uitgevoerd.
    * CREATE: Er is een handeling &quot;create&quot; uitgevoerd.
-   * DELETE: Er is een handeling &quot;delete&quot; uitgevoerd.
+   * DELETE: er is een handeling &quot;delete&quot; uitgevoerd.
    * BEWERKEN: er is een bewerking &quot;bewerken&quot; uitgevoerd.
-   * EMBARGO:
+   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
    * EXPORTEREN: er is een handeling &quot;exporteren&quot; uitgevoerd.
    * ORG_CHANGE: Er is een actie tot wijziging van de organisatie uitgevoerd.
    * REFRESH: Er is een actie &quot;vernieuwen&quot; uitgevoerd.
@@ -158,4 +158,4 @@ U kunt controlelogboeken in CSV of formaten downloaden JSON. Alle toegepaste fil
 
 ## De controlelogboeken beheren in de API
 
-Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie het [ Customer Journey Analytics API verwijzingsdocument ](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie.
+Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie [ Customer Journey Analytics API verwijzingsdocument ](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie.
