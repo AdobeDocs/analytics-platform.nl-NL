@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Customer Journey Analytics
 description: Aanvullende informatie voor de nieuwste versie van Customer Journey Analytics weergeven
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a349c310dab40c012afa796bad2347235693341f
+source-git-commit: 916afd0d70f2690df61dde70f46f63e78d62b21a
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 5%
 # Opmerkingen bij de huidige Adobe Customer Journey Analytics-release (maart 2025)
 
 
-**Laatste update**: 26 Maart, 2025
+**Laatste update**: 28 Maart, 2025
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 5 maart tot 14 april 2025. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -24,7 +24,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 5 maart tot 14 april
 | **malplaatje van het Gebruik van het Product** | Met een nieuwe Workspace-sjabloon kunt u bekijken hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt. [ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates). |  | donderdag 5 maart 2025 |
 | **de verbeteringsgids van Customer Journey Analytics** | Hiermee kunt u een stapsgewijze gids genereren voor het upgraden van Adobe Analytics naar Customer Journey Analytics. Deze handleiding is toegesneden op uw organisatie en houdt rekening met uw huidige Adobe Analytics-omgeving, uw beoogde gebruik voor Customer Journey Analytics en eventuele tijdbesparende afwegingen die uw organisatie wil maken.<p>Als u uw aangepaste hulplijn wilt genereren, meldt u zich aan bij [!DNL Customer Journey Analytics] en selecteert u vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** op het tabblad **[!UICONTROL Workspace]** .<p>[Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | woensdag 11 maart 2025 |
 | **Updates aan de lijnpunt van de &quot;Geen Waarde&quot;op numerieke afmetingen** | Voor numerieke afmetingen kunt u met deze update<ul><li>Gebruik het item voor de afmeting Geen waarde in een filter.</li><li>Voer een uitsplitsing uit in een rapport over de post &quot;Geen waarde&quot;.</li></ul> [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | vrijdag 27 maart 2025 |
-| **Adobe Content Analytics** | Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.<p>U kunt tijd besparen met vooraf gebouwde rapportagesjablonen en nieuwe functies, zoals Asset Inspector. Met deze functie kunt u het middel niet alleen visualiseren in overeenstemming met uw gegevens, maar ook elk middel openen voor samengevatte details, zoals prestaties, plaatsingen, kenmerken en meer.<p>U kunt deze nieuwe reeks inhoudsgegevens binnen de context van de volledige klantenreis onderzoeken om belangrijke bedrijfsvragen te beantwoorden, inhoudsprestaties te beoordelen, segmentatie te verbeteren, optimalisatiemogelijkheden te identificeren, en nieuw publiek voor activering te bepalen.<p>Content Analytics is een add-on bij Customer Journey Analytics. (Koppeling naar documentatie) |  | vrijdag 27 maart 2025 |
+| **Adobe Content Analytics** | Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.<p>U kunt tijd besparen met vooraf gebouwde rapportagesjablonen en nieuwe functies, zoals Asset Inspector. Met deze functie kunt u het middel niet alleen visualiseren in overeenstemming met uw gegevens, maar ook elk middel openen voor samengevatte details, zoals prestaties, plaatsingen, kenmerken en meer.<p>U kunt deze nieuwe reeks inhoudsgegevens binnen de context van de volledige klantenreis onderzoeken om belangrijke bedrijfsvragen te beantwoorden, inhoudsprestaties te beoordelen, segmentatie te verbeteren, optimalisatiemogelijkheden te identificeren, en nieuw publiek voor activering te bepalen.<p>Content Analytics is een add-on bij Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) |  | vrijdag 27 maart 2025 |
 | **de Inzameling van Media: De Verbindingsupdates van Adobe Source voor nieuwe Media die XDM** melden | De Analytics Source Connector wijst streaming mediagegevens in Adobe Analytics automatisch toe aan dezelfde velden die door de Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | dinsdag 31 maart 2025 |
 
 
