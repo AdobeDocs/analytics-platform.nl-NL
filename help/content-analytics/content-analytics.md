@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: a7bed5bdab20c1a995ccaf4294a5f9ba5918f43d
+source-git-commit: 177def4edce1908a099627e96ed159b0154c3715
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 
 
 1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform indrukkingen en interactie met inhoud.
-1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een kruipper die de publiek-gerichte versies van gevormde URLs terugkeert die de interactie bepalen. Voor al deze gekropen URLs, identificeert de identiteitsdienst uniek de ervaringen en de activa. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
+1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een herwinningsdienst die de openbaar-onder ogen ziet versies van gevormde URLs herziet die de interactie bepalen. Voor al deze opgehaalde URL&#39;s identificeert de identiteitsservice de ervaringen en elementen op unieke wijze. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
 1. De resultaten van deze diensten ([ componenten, attributen, en identiteiten ](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van inhoudsanalyses in Experience Platform bij te werken.
 1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([ Verbinding ](/help/connections/overview.md), [ mening van Gegevens ](/help/data-views/data-views.md) en [ Workspace ](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template).
 
