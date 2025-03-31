@@ -4,7 +4,7 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 32d7d2f21e2f906e25d0dfccd92d0be2f515d781
+source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
 workflow-type: tm+mt
 source-wordcount: '19643'
 ht-degree: 0%
@@ -538,7 +538,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Leer welke inhoud en inhoudskenmerken het best presteren."
->abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. [ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) {target="_blank"}.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
+>abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. [ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) <br/>**Gebaseerd op wat u leert, zou u om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verouderd.**"
 
 <!-- markdownlint-enable MD034 -->
 
