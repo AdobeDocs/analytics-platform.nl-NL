@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,12 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ Nota&#39;s van de Versie ](../release-notes/latest.md). Bezoek de [ pagina van documentatieupdates ](../release-notes/doc-changes.md) om met de recentste veranderingen bijgewerkt te blijven.
 
 >[!BEGINTABS]
+
+>[!TAB  Content Analytics ]
+
+Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB  AI Medewerker ]
 
@@ -65,18 +71,6 @@ Door op grafiek-gebaseerde het stitching, kunt u de identiteitsgrafiek van de Di
 [![afbeelding](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_u moet het pakket van Prime voor op grafiek-gebaseerd het stitching hebben._*
-
->[!TAB  B2B raadplegingen ]
-
-Als deel van het vormen van een verbinding, kunt u datasets voor specifieke B2B raadplegingsschema&#39;s omzetten om op persoon-gebaseerde raadplegingen op B2B- gegevens beter te steunen.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
-
->[!TAB  Voortgekomen gebieden ]
-
-Nieuwe afgeleide veldfuncties (Math, Next of Previous, Summarize, Deduplicate) en extra functiesjablonen (zoals Stuiterwaarden, Friendly Dataset Name, Holiday Season, Monthly Goals, Simple Bot Detection, enzovoort) zijn nu beschikbaar.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB  BI uitbreiding* ]
 

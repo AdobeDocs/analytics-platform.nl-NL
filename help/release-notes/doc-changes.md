@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '4644'
+source-wordcount: '4681'
 ht-degree: 5%
 
 ---
@@ -19,6 +19,8 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 
 | Functie | Beschrijving |
 | --- | --- |
+| **April 2025** | |
+| Content Analytics | [ Documentatie ](/help/content-analytics/content-analytics.md) voor Adobe Content Analytics. Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken. |
 | **Maart 2025** | |
 | Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
 | **Februari 2025** |  |
