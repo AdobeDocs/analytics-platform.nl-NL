@@ -1,14 +1,14 @@
 ---
-title: Hoe te om verbindingen in Customer Journey Analytics te beheren
-description: Beschrijft hoe te om verbindingen aan de datasets van het Experience Platform in Customer Journey Analytics (Customer Journey Analytics) te beheren.
+title: Verbindingen beheren in Customer Journey Analytics
+description: Beschrijft hoe te om verbindingen aan de datasets van Experience Platform in Customer Journey Analytics (Customer Journey Analytics) te beheren.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 7f2f2fc92c188c4cdfba7d87b7b64458daf2f0a6
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3913'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Zodra u [ creeerde of uitgegeven één of meerdere verbindingen ](/help/connecti
 * Maak een gegevensweergave via een verbinding.
 * Alle gegevenssets weergeven in een verbinding.
 * Controleer de status van de datasets van uw verbinding en de status van het innameproces. Wanneer zijn bijvoorbeeld uw gegevens beschikbaar, zodat u in Analysis Workspace kunt beginnen met rapporteren en analyseren.
-* Identificeer om het even welke gegevensdiscrepanties toe te schrijven aan misconfiguration. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd gevormd en ontbrekende gegevens in Customer Journey Analytics veroorzaakt?
+* Identificeer om het even welke gegevensdiscrepanties toe te schrijven aan misconfiguration. Ontbreekt u rijen? Zo ja, welke rijen ontbreken en waarom? Hebt u verbindingen verkeerd geconfigureerd en ontbrekende gegevens veroorzaakt in Customer Journey Analytics?
 * Krijg inzicht in het gebruik van ingeklapte en te melden rijen over al uw verbindingen.
 
 [!UICONTROL Connections] heeft twee interfaces: [[!UICONTROL List]](#list) en [[!UICONTROL Usage]](#usage) .
@@ -45,8 +45,8 @@ De volgende kolommen of pictogrammen zijn beschikbaar in de tabel.
 | ![ Informatie ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Om informatie over [!UICONTROL Datasets included], [!UICONTROL Sandbox], [!UICONTROL Owner], en meer te bekijken, selecteer ![ Informatie ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) naast de verbindingsnaam.<p>Een popup venster toont details. <p><img src="./assets/conn-info.png" alt="Verbindingsgegevens weergeven" width="400"/> |
 | ![ mening van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Om [ een gegevensmening ](#create-a-data-view) voor de verbinding tot stand te brengen, uitgezochte ![ mening van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Dit pictogram wordt alleen weergegeven wanneer er al geen gegevensweergave is gekoppeld aan de verbinding. |
 | ![ Meer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Selecteer ![ Meer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) aan: <p>![ geef ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [ uit ](#edit-a-connection) een verbinding.<p>![ Schrap ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [ schrapt ](#delete-a-connection) een verbinding.<p>![ mening van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [ creeer nieuwe gegevensmening ](#create-a-data-view). Aanvullende gegevensweergaven maken voor de verbinding. |
-| [!UICONTROL Datasets] | Één of meerdere verbindingen met de datasets die deel van de verbinding uitmaken. U kunt de datasethyperlink selecteren om de dataset in de verbinding te bekijken. Als meer datasets deel van de geselecteerde verbinding uitmaken, selecteer **[!UICONTROL +*x *meer]**om een **[!UICONTROL Datasets included]**paneel te tonen. Dit paneel toont verbindingen aan alle datasets en een optie om naar een specifieke dataset te zoeken die deel van de verbinding uitmaakt.<p><img src="./assets/datasets-included.png" alt="Bijbehorende gegevenselementen" width="400"/><p>Het selecteren van een datasetnaam opent de dataset in Experience Platform UI in een nieuw lusje. |
-| [!UICONTROL Sandbox] | De [ zandbak van het Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarvan deze verbinding zijn datasets trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
+| [!UICONTROL Datasets] | Één of meerdere verbindingen met de datasets die deel van de verbinding uitmaken. U kunt de datasethyperlink selecteren om de dataset in de verbinding te bekijken. Als meer datasets deel van de geselecteerde verbinding uitmaken, selecteer **[!UICONTROL +*x *meer]**om een **[!UICONTROL Datasets included]**paneel te tonen. Dit paneel toont verbindingen aan alle datasets en een optie om naar een specifieke dataset te zoeken die deel van de verbinding uitmaakt.<p><img src="./assets/datasets-included.png" alt="Bijbehorende gegevenselementen" width="400"/><p>Als u een naam van een gegevensset selecteert, wordt de gegevensset in de gebruikersinterface van Experience Platform op een nieuw tabblad geopend. |
+| [!UICONTROL Sandbox] | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarvan deze verbinding zijn datasets trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
 | [!UICONTROL Owner] | De persoon die de verbinding heeft gemaakt. |
 | [!UICONTROL Import new data] | De status van het invoeren van nieuwe gegevens voor datasets: <p>![ groene Status ](assets/status-green.svg))    **[!UICONTROL _x _op]**voor datasets die worden gevormd om nieuwe gegevens in te voeren, en<p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _x van_]** voor datasets niet gevormd om nieuwe gegevens in te voeren. |
 | [!UICONTROL Date created] | De tijdstempel op het moment dat de verbinding werd gemaakt. |
@@ -136,7 +136,7 @@ De interface van de Details van Verbindingen verstrekt een gedetailleerde mening
 | [!UICONTROL Metrics] | Geef een overzicht van de gebeurtenissen, opzoekactie, profielen en samenvattingsrecords die zijn toegevoegd, overgeslagen en verwijderd, en van het aantal toegevoegde batches. Deze metriek zijn gebaseerd op **de dataset en de datumwaaier u** hebt geselecteerd.<p>Selecteer **[!UICONTROL Check detail]** om de pop-up **[!UICONTROL Check skipped detail]** weer te geven. popup maakt een lijst van het aantal overgeslagen verslagen en de reden voor alle gebeurtenisdatasets of geselecteerde dataset.<p><img src="./assets/skipped-records.png" width="500"/><p>Selecteer ![ Pop-up Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) met meer informatie. Voor sommige overgeslagen redenen, zoals [!UICONTROL Empty visitor ID], toont popup Steekproef PSQL voor EQS (Experience Platform voor de Dienst van de Vraag) u in [ de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) kunt gebruiken om voor de overgeslagen verslagen in de dataset te vragen. Selecteer ![ Exemplaar ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** om SQL te kopiëren. |
 | [!UICONTROL Records added] | Wijst op hoeveel rijen in de geselecteerde tijdspanne, **voor de dataset en de datumwaaier werden toegevoegd u** hebt geselecteerd. Om de 10 minuten bijgewerkt. |
 | [!UICONTROL Records skipped] | Wijst op hoeveel rijen in de geselecteerde tijdspanne, **voor de dataset en de datumwaaier werden overgeslagen u** hebt geselecteerd. Redenen voor het overslaan van records zijn onder andere: ontbrekende tijdstempels, ontbrekende of ongeldige personen-id enzovoort. Om de 10 minuten bijgewerkt. <p>Ongeldige personen-id&#39;s (zoals `undefined` of `00000000` , of een combinatie van getallen en letters in een [!UICONTROL Person ID] die in een gebeurtenis meer dan 1 miljoen keer in een bepaalde maand voorkomen) zijn id&#39;s die niet aan een bepaalde gebruiker of persoon kunnen worden toegewezen. Deze rijen kunnen niet in het systeem worden opgenomen en in fout-prone opname en rapportering resulteren. U kunt ongeldige personen-id&#39;s corrigeren aan de hand van drie opties:<ul><li>Het gebruik [ Stitching ](/help/stitching/overview.md) om undefined of volledig-nul gebruiker te bevolken - identiteitskaarts met geldige gebruiker IDs.</li><li>Maak de gebruikersnaam leeg. Deze wordt overgeslagen tijdens het invoeren (voorkeur aan ongeldige of geen gebruikers-id&#39;s).</li><li>Corrigeer eventuele ongeldige gebruikers-id&#39;s in uw systeem voordat u de gegevens opneemt.</li></ul> |
-| [!UICONTROL Records] verwijderd | Wijst op hoeveel rijen in de geselecteerde tijdspanne werden geschrapt, **voor de dataset en de datumwaaier u** hebt geselecteerd. Iemand heeft bijvoorbeeld een gegevensset verwijderd in [!DNL Experience Platform] . Om de 10 minuten bijgewerkt.<p>In sommige scenario&#39;s, kan deze waarde ook verslagen omvatten die, zoals met het stitching of sommige updates van de raadplegingsdataset worden vervangen. Bekijk dit voorbeeld:</p><ul><li>U uploadt één verslag aan een individuele dataset van het Profiel XDM, die Customer Journey Analytics wordt gevormd om als gegevens van de profielraadpleging in te voeren. In de verbindingsdetails, zou deze dataset 1 toegevoegde verslag tonen.</li><li>U uploadt een duplicaat van de oorspronkelijke record naar dezelfde AEP-gegevensset, die nu twee records bevat. Customer Journey Analytics neemt het extra verslag van de dataset van de profielraadpleging op. Aangezien het reeds een profielverslag in de verbinding voor die persoonsidentiteitskaart heeft opgenomen, schrapt de Customer Journey Analytics zijn vroegere versie en voegt de nieuwe profielgegevens toe. In de verbindingsdetails, zou deze actie 1 toegevoegde verslag en 1 schrapte verslag vertegenwoordigen, omdat de Customer Journey Analytics slechts de meest recente gegevens van de profielraadpleging voor om het even welke opgenomen persoonsidentiteitskaart behoudt.</li><li>In totaal bevat de AEP-gegevensset twee records die identiek zijn. Afzonderlijk, tonen de de verbindingsdetails van de Customer Journey Analytics de status van zijn opgenomen gegevens: 2 verslagen toegevoegd en 1 verslag geschrapt voor deze profieldataset. </li></ul> |
+| [!UICONTROL Records] verwijderd | Wijst op hoeveel rijen in de geselecteerde tijdspanne werden geschrapt, **voor de dataset en de datumwaaier u** hebt geselecteerd. Iemand heeft bijvoorbeeld een gegevensset verwijderd in [!DNL Experience Platform] . Om de 10 minuten bijgewerkt.<p>In sommige scenario&#39;s, kan deze waarde ook verslagen omvatten die, zoals met het stitching of sommige updates van de raadplegingsdataset worden vervangen. Bekijk dit voorbeeld:</p><ul><li>U uploadt één verslag aan een individuele dataset van het Profiel XDM, die Customer Journey Analytics wordt gevormd om als gegevens van de profielraadpleging in te voeren. In de verbindingsdetails, zou deze dataset 1 toegevoegde verslag tonen.</li><li>U uploadt een duplicaat van de oorspronkelijke record naar dezelfde AEP-gegevensset, die nu twee records bevat. Customer Journey Analytics neemt het extra verslag van de dataset van de profielraadpleging op. Aangezien Customer Journey Analytics al een profielrecord heeft opgenomen in de verbinding voor die persoon-id, verwijdert de eerdere versie en voegt het de nieuwe profielgegevens toe. In de verbindingsdetails, zou deze actie 1 toegevoegde verslag en 1 schrapte verslag vertegenwoordigen, omdat Customer Journey Analytics slechts de meest recente gegevens van de profielraadpleging voor om het even welke opgenomen persoonsidentiteitskaart behoudt.</li><li>In totaal bevat de AEP-gegevensset twee records die identiek zijn. Afzonderlijk, tonen de de verbindingsdetails van Customer Journey Analytics de status van zijn opgenomen gegevens: 2 verslagen toegevoegd en 1 verslag geschrapt voor deze profieldataset. </li></ul> |
 | ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _de datasetnaam of identiteitskaart van het Onderzoek van 0} Onderzoek_![ | Veld voor het zoeken naar gegevenssets. U kunt de datasetlijst door datasetnaam of [!UICONTROL Dataset ID] zoeken. |
 | [!UICONTROL Datasets table] | De datasets die deel van de verbinding uitmaken. |
 | [!UICONTROL Datasets] | De naam van de dataset die deel van de verbinding uitmaakt. U kunt de hyperlink selecteren om de dataset in Experience Platform UI op een nieuw lusje te openen. U kunt de rij of checkbox selecteren om details voor de geselecteerde dataset slechts te tonen. |
@@ -148,7 +148,7 @@ De interface van de Details van Verbindingen verstrekt een gedetailleerde mening
 | [!UICONTROL Last added] | De tijdstempel van de laatste batch uit de dataset die is toegevoegd aan een verbinding. |
 | [!UICONTROL Data source type] | Het brontype van de dataset. U definieert het brontype wanneer u een verbinding maakt. |
 | [!UICONTROL Dataset type] | Het gegevenstype van de dataset voor deze dataset. Type kan [!UICONTROL Event], [!UICONTROL Profile], [!UICONTROL Lookup] of [!UICONTROL Summary] zijn. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| Schema | Het schema van het Experience Platform waarop de dataset is gebaseerd. |
+| Schema | Het schema van Experience Platform waarop de dataset is gebaseerd. |
 | [!UICONTROL Import new data] | De status van het invoeren van nieuwe gegevens voor de dataset: <p>![ groene Status ](assets/status-green.svg)   **[!UICONTROL _x _op]**als de dataset wordt gevormd om nieuwe gegevens in te voeren, en<p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _x van_]** als de dataset wordt gevormd om nieuwe gegevensimport niet in te voeren. |
 | [!UICONTROL Transform data] | De transformatiestatus van toepasselijke B2B-opzoekgegevenssets. Zie [ datasets van de Transformatie voor B2B raadplegingen ](transform-datasets-b2b-lookups.md) voor meer informatie.<p>![ groene Status ](assets/status-green.svg)   **[!UICONTROL _x _op]**voor toepasselijke datasets die voor transformatie worden toegelaten, <p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _x van_]** voor toepasselijke datasets niet toegelaten voor transformatie, en<p>**[!UICONTROL N/A]** voor alle andere gegevenssets, niet van toepassing voor transformatie. |
 | [!UICONTROL Backfill data] | De status van backfill-gegevens voor de dataset.<p>![ rode Status ](assets/status-red.svg)   **[!UICONTROL _x _ontbroken backfills]**voor aantal ontbroken backfills,<p>![ rode Status ](assets/status-orange.svg)   **[!UICONTROL _x _backfills verwerking]**voor aantal verwerkings backfills,<p>![ groene Status ](assets/status-green.svg)   **[!UICONTROL _x _voltooide backfills]**voor aantal voltooide backfills, en<p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _weg_]** in het geval de backfills niet worden gevormd. |
@@ -170,7 +170,7 @@ Wanneer geen dataset in de datasetlijst wordt geselecteerd, toont een paneel op 
 | ![ voeg gegevensmening ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) toe **[!UICONTROL Create data view]** | [ creeer een gegevensmening ](#create-a-data-view) die op deze verbinding wordt gebaseerd. Zie [ meningen van Gegevens ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) voor meer informatie. |
 | [!UICONTROL Connection name] | De vriendelijke naam van de verbinding. |
 | [!UICONTROL Connection description] | Een meer gedetailleerde beschrijving die het doel van deze verbinding beschrijft. |
-| [!UICONTROL Sandbox] | De [ zandbak van het Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarvan deze verbinding zijn dataset/s trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
+| [!UICONTROL Sandbox] | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarvan deze verbinding zijn dataset/s trekt. Deze sandbox werd geselecteerd toen u de verbinding voor het eerst maakte. Het kan niet worden gewijzigd. |
 | [!UICONTROL Connection ID] | Deze id wordt gegenereerd in Experience Platform. U kunt ![ Exemplaar ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) gebruiken om identiteitskaart te kopiëren. |
 | [!UICONTROL Data views using connection] | Hier worden alle gegevensweergaven weergegeven die deze verbinding gebruiken. |
 | [!UICONTROL Import new data] | De status van het invoeren van nieuwe gegevens voor datasets: <p>![ groene Status ](assets/status-green.svg)   **[!UICONTROL _x _op]**voor hoeveel datasets worden gevormd om nieuwe gegevens in te voeren, en<p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _x van_]** voor hoeveel datasets de nieuwe gegevensinvoer wordt uitgezet. |
@@ -186,7 +186,7 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 | Details | Beschrijving |
 | --- | --- |
-| [!UICONTROL Person ID] | Een identiteit die in het datasetschema in het Experience Platform werd bepaald. Dit is de persoon-id die u hebt geselecteerd tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, weerspiegelt het melden dat. Om datasets samen te voegen, moet u zelfde identiteitskaart van de Persoon over datasets gebruiken. |
+| [!UICONTROL Person ID] | An identity that was defined in the dataset schema in the Experience Platform. Dit is de persoon-id die u hebt geselecteerd tijdens het maken van de verbinding. Als u een verbinding creeert die datasets met verschillende IDs omvat, weerspiegelt het melden dat. Om datasets samen te voegen, moet u zelfde identiteitskaart van de Persoon over datasets gebruiken. |
 | [!UICONTROL Key] | De sleutel die u voor een raadplegingsdataset hebt gespecificeerd. |
 | [!UICONTROL Matching Key] | De passende sleutel die u voor een raadplegingsdataset hebt gespecificeerd. |
 | [!UICONTROL Timestamp] | De tijdstempel die is gedefinieerd voor een gebeurtenisgegevensset. |
@@ -200,8 +200,8 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 | [!UICONTROL Backfill data] | De status van backfill-gegevens voor de dataset.<p>![ rode Status ](assets/status-red.svg)   **[!UICONTROL _x _ontbroken backfills]**voor aantal ontbroken backfills,<p>![ rode Status ](assets/status-orange.svg)   **[!UICONTROL _x _backfills verwerking]**voor aantal verwerkings backfills,<p>![ groene Status ](assets/status-green.svg)   **[!UICONTROL _x _voltooide backfills]**voor aantal voltooide backfills, en<p>![ grijze Status ](assets/status-gray.svg)   **[!UICONTROL _weg_]** voor het geval dat geen backfills wordt gevormd.<p>Om een dialoog met een overzicht van de vroegere backfills voor de dataset te tonen, selecteer <img src="./assets/pastbackfill.svg" alt="Achtervullingen verleden" width="15"/> **[!UICONTROL Past backfills]**. |
 | [!UICONTROL Data source type] | Het type van gegevensbron zoals bepaald toen het toevoegen van de dataset aan de verbinding. |
 | [!UICONTROL Dataset type] | Ofwel [!UICONTROL Event] , [!UICONTROL Profile] , [!UICONTROL Lookup] of [!UICONTROL Summary] . [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| [!UICONTROL Schema] | Het schema van het Experience Platform waarop deze dataset is gebaseerd. |
-| [!UICONTROL Dataset ID] | Deze dataset-id wordt gegenereerd in Experience Platform. |
+| [!UICONTROL Schema] | Het Experience Platform-schema waarop deze gegevensset is gebaseerd. |
+| [!UICONTROL Dataset ID] | Deze gegevensset-id wordt gegenereerd in Experience Platform. |
 
 
 ## Gebruik {#connections-usage}
@@ -356,10 +356,30 @@ Wanneer een dataset in de datasetlijst wordt geselecteerd, toont een paneel op d
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_corereportablerows"
+>title="Vermelde kernrijen"
+>abstract="De kern rapporteerde rijen zijn momentopnamegrenzen, niet samengevoegde totalen. Deze waarden worden dynamisch bijgewerkt op basis van de laatste maand in het geselecteerde datumbereik. Als een klant Januari - Maart selecteert, zullen de waarden op de momentopname van Maart wijzen."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_historicalreportablerows"
+>title="Historische te rapporteren rijen"
+>abstract="Historische te rapporteren rijen zijn momentopnamewaarden, niet samengevoegde totalen. Deze waarden worden dynamisch bijgewerkt op basis van de laatste maand in het geselecteerde datumbereik. Als een klant Januari - Maart selecteert, zullen de waarden op de momentopname van Maart wijzen."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_cumulativereportablerows"
+>title="Cumulatieve te rapporteren rijen"
+>abstract="Cumulatieve te rapporteren rijen zijn momentopnamewaarden, niet samengevoegde totalen. Deze waarden worden dynamisch bijgewerkt op basis van de laatste maand in het geselecteerde datumbereik. Als een klant Januari - Maart selecteert, zullen de waarden op de momentopname van Maart wijzen."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 De interface [!UICONTROL Usage] toont het gebruik van ingebedde en te melden rijen over alle verbindingen. Als deze optie niet is geselecteerd, selecteert u de tab **[!UICONTROL Usage]** voor toegang tot de interface.
 
-Deze interface ondersteunt u om te bepalen of uw gebruik van de Customer Journey Analytics voldoet aan wat contractueel is overeengekomen. Naast controledoeleinden, kunt u de interface van het Gebruik gebruiken om uw de vergunningsvernieuwing van de Customer Journey Analytics te plannen.
+Deze interface ondersteunt u om te bepalen of uw Customer Journey Analytics-gebruik voldoet aan wat contractueel is overeengekomen. Naast controledoeleinden kunt u de interface van het Gebruik gebruiken om uw Customer Journey Analytics vergunningsvernieuwing te plannen.
 
 De interface van het Gebruik gebruikt de volgende metriek
 
