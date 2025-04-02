@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 40739525db8061f32a4cef1a27177fedad9bc458
+source-git-commit: c01fbe7b991da9c21a598ebac551775afd7deeed
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
 Voordat u Content Analytics configureert, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U hebt de gebruikersagent en IP adres voor de featurisatieservice toegestaan-vermeld die in de Analytics van de Inhoud wordt gebruikt. Het koord van de Agent van de Gebruiker om te vormen is: <code> AdobeFeaturization/1.0</code>.
+* Als u [ SDK van het Web gebruikend Javascript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) {target="_blank"} uitvoert, zorg u ervoor gebruikt de standaardnaam <code> legering.</code> voor de Javascript-bibliotheek.
 * U hebt een Customer Journey Analytics Product Administrator-rol, met de extra machtigingen om verbindingen te beheren en gegevensweergaven te beheren.
 * U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions) {target="_blank"} hebben. Deze machtiging bestaat uit:
    * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions) {target="_blank"}
