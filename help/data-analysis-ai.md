@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
+source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 
 ![ Agent van de Inzichten van Gegevens binnen de Medewerker AI ](assets/cja-ai-asst-da.gif)
 
-## Functies binnen bereik versus functies buiten bereik voor de Alpha-versie
+## Functies binnen bereik versus functionaliteit buiten bereik voor de Beta
 
-### Alpha-functies binnen bereik
+### Beta-functies binnen bereik
 
 | Ondersteunde functie | Beschrijving |
 | --- | --- |
 | **bouwt en werkt visualisaties** bij | Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Voorbeeld: *wat is de winst over SKUs van Februari aan Mei?* |
 | **Ondersteunde visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> |
-| **uit-van-werkingsgebied snelle opsporing** | Als u een herinnering voorlegt die buiten werkingsgebied, zoals &quot;uitvoert dit project,&quot;antwoordt de Medewerker door u te laten weten dat de vraag buiten werkingsgebied is. |
+| **uit-van-werkingsgebied snelle opsporing** | Als u een herinnering voorlegt die buiten werkingsgebied, zoals &quot;uitvoert dit project,&quot;de Agent van Gegevens antwoordt door u te laten weten dat de vraag buiten werkingsgebied is. |
 | **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context voor de Agent van Gegevens heeft om te antwoorden, of te algemeen is, antwoordt de Agent van Gegevens met een het verduidelijken vraag of voorgestelde opties. Voorbeelden: <p>**Onderdelen**<ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Filter: *Welke &quot;filter van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul>**de punten van Dimension**: Welke &quot;opslagnaam&quot;bedoelde u? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.) |
 | **Multi-draai** | De agent van Gegevens komt op een vraag met de context van om het even welke vroegere herinneringen tegemoet, die gebruikers toestaan om visualisaties bij te werken en follow-upvragen te stellen. Voorbeeld: <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> |
 | **Verifiability** | De verifieerbaarheid en juistheid van gegevens kunnen worden bevestigd via de gegenereerde vrije-vormlijst en gegevensvisualisatie. Bijvoorbeeld, als een gebruiker *de orden van de Trend van de Tendens* vraagt, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. |
@@ -41,7 +41,7 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 | Niet-ondersteunde functie | Beschrijving |
 | --- | --- |
 | **overzicht of reactie van binnen-lijn** | De Data Insights Agent kan niet online in de chatrail reageren met een beknopt antwoord van een gebruikersprompt. Voorbeeld-vragen buiten bereik:<ul><li>*geef me een samenvatting van de inzichten van mijn laatste herinnering.*</li><li>*vat de hoogtepunten van de lijnvisualisatie samen.*</li></ul> |
-| **het Verhelderen van vragen** | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De agent van Gegevens kan geen dingen zoals gegevensmeningen, visualisaties, gegevensgranulariteit, vergelijking, en werkingsgebied verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de Medewerker aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u het multi-draai/updatemogelijkheid dan gebruiken om de visualisatie en de gegevens aan te passen. |
+| **het Verhelderen van vragen** | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De agent van Gegevens kan geen dingen zoals gegevensmeningen, visualisaties, gegevensgranulariteit, vergelijking, en werkingsgebied verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de Agent aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u het multi-draai/updatemogelijkheid dan gebruiken om de visualisatie en de gegevens aan te passen. |
 | **de acties van Workspace / Mogelijkheden** | De Data Insights Agent kan geen acties ondernemen voor een gebruiker in Workspace, behalve het maken en bijwerken van visualisaties. Het kan bijvoorbeeld geen van de volgende handelingen uitvoeren:<ul><li>Contextafhankelijke knoppen voor handelingen (toevoegen aan diagram, nieuw deelvenster, nieuwe tabel)</li><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Curate</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li></ul> |
 | **Niet gestaafde visualisatietypen** | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li></ul> |
 
@@ -51,7 +51,7 @@ De volgende parameters regelen de toegang tot de Data Insights Agent in Customer
 
 * **de toegang van de Oplossing**: De Agent van Gegevens is beschikbaar voor de klanten van Customer Journey Analytics Prime en Ultimate. Het is niet beschikbaar in Adobe Analytics.
 
-* **Contractuele toegang**: Als u niet de Agent van Gegevens van Inzichten in de Medewerker kunt gebruiken AI, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe te contacteren. Voordat uw organisatie de Data Insights Agent in de AI Assistant kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
+* **Contractuele toegang**: Als u niet de Agent van Gegevens van Inzichten in de Medewerker kunt gebruiken AI, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe te contacteren. Voordat uw organisatie de Data Insights Agent kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
 
 * **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** toestemming toegang tot dit hulpmiddel. Admin van het a [ productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
@@ -90,7 +90,7 @@ Zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
-6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie in de AI-assistent.
+6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie met de Data Insights Agent.
 
    Zie de volgende voorbeelden voor meer informatie.
 
@@ -102,7 +102,7 @@ Stel bijvoorbeeld dat u geïnteresseerd bent in de orders die uw bedrijf in juli
 
 ![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
 
-**Reactie:** de Agent van Gegevens Inzicht in AI Medewerker verzamelt inzichten door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
+**Reactie:** de Agent van Gegevens vangt inzichten door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
 
 Zoals u kunt zien, produceerde het automatisch een lijngrafiek en een vrije lijst om orden voor Juli te tonen.
 
@@ -114,13 +114,13 @@ Daarna, wilt u zien hoe uw opbrengst per regio vergelijkt.
 
 **Herinnering:** in het snelle venster, ga *&quot;Show opbrengst door gebied in.&quot;*
 
-**Reactie:** De Agent van Gegevens Inzicht in AI Medewerker begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt. Het produceert een staafdiagram dat opbrengst door gebied het best toont:
+**Reactie:** De Agent van Gegevens begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt.&quot; Het produceert een staafdiagram dat opbrengst door gebied het best toont:
 
 ![ Grafiek van de Bar ](/help/assets/ai-asst-result2.png)
 
 ### Voorbeeld 3
 
-Naast het begrip van de opbrengsten per regio wilt u ook gegevens voor winst per regio zien. In plaats van de vorige vraag te herhalen, kunt u de AI Medewerker vragen om de meest recente visualisatie en de vrije vormlijst bij te werken.
+Naast het begrip van de opbrengsten per regio wilt u ook gegevens voor winst per regio zien. In plaats van de vorige herinnering te herhalen, kunt u de Agent van Gegevens vragen om de meest recente visualisatie en vrijevormlijst bij te werken.
 
 **Herinnering:** in het snelle venster, type *&quot;voeg winst toe.&quot;*
 
@@ -134,7 +134,7 @@ Tot slot, kijk de opbrengst per productcategorie.
 
 **Herinnering:** in het snelle venster, ga *&quot;Deel van opbrengst door productcategorie in.&quot;*
 
-**Reactie:** Opnieuw, neemt de Agent van Gegevens in de Medewerker AI de meest aangewezen visualisatie, in dit geval **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
+**Reactie:** Opnieuw, neemt de Agent van Gegevens de meest aangewezen visualisatie, in dit geval de **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
 
 ![Cirkeldiagram](/help/assets/ai-asst-result3.png)
 
@@ -171,9 +171,9 @@ Houd rekening met de volgende richtlijnen om de beste resultaten te bereiken:
 
 * Stel directe vragen: Door vragen te formuleren wordt het voor de Data Insights Agent eenvoudiger om duidelijke, relevante inzichten te bieden. Hier volgt een voorbeeld van een directe vraag: &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot;
 
-Herzie de volgende lijst van voorbeeldtermijnen en uitdrukkingen die u in herinneringen met de Agent van Gegevens in de Medewerker AI, samen met de soorten reacties kunt gebruiken u kunt verwachten.
+Herzie de volgende lijst van voorbeeldtermijnen en uitdrukkingen die u in herinneringen met de Agent van Gegevens kunt gebruiken, samen met de soorten reacties kunt u verwachten.
 
-Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop specifieke woorden of structuren de uitvoer van de AI Assistant kunnen beïnvloeden, zodat u nauwkeurige en waardevolle inzichten krijgt. De agent van Gegevens in AI Medewerker gebruikt generatieve AI, zodat visualisaties of geselecteerde gegevens lichtjes over gelijkaardige herinneringen kunnen variëren.
+Deze voorbeelden worden ontworpen om u vertrouwd te maken met hoe de specifieke woorden of structuren de output van de Agent van het Inzicht van Gegevens kunnen beïnvloeden, die nauwkeurigere en waardevolle inzichten verzekeren. De agent van Gegevens gebruikt generatieve AI, zodat kunnen de visualisaties of de geselecteerde gegevens lichtjes over gelijkaardige herinneringen variëren.
 
 | Gewenst resultaat | Voorbeelden van termen en woordgroepen |
 | --- | --- |
@@ -187,9 +187,9 @@ Deze voorbeelden zijn ontworpen om u vertrouwd te maken met de manier waarop spe
 
 Na het stellen van elke vraag, herzie zorgvuldig het verstrekte antwoord van de medewerker. Het is cruciaal om de gegenereerde visualisaties uitgebreid te evalueren voordat u feedback geeft.
 
-Overweeg het volgende wanneer het evalueren van een reactie van de Agent van Gegevens in de Medewerker AI:
+Overweeg het volgende wanneer het evalueren van een reactie van de Agent van Gegevens Inzichten:
 
-* Chat-spoorwegrespons of -sjabloon: evalueer de tekstreactie van de assistent. Is het antwoord passend gezien de context van uw vraag?
+* Chat rail response of template: evalueer de geboden tekstuele respons. Is het antwoord passend gezien de context van uw vraag?
 
 * Visualisatie/grafiek: evalueer de visualisatie. Is het de aangewezen of verwachte visualisatie voor uw vraag, of zou u een verschillende visualisatie hebben verwacht?
 
@@ -203,4 +203,4 @@ Na de duimen omhoog of duim onderaan selectie, te maken gelieve een selectie voo
 
 ## Vragen en contact
 
-* Stuur vragen en feedback op de Alpha Slack-zender: #cja-Assistant-data-alpha
+* Stuur vragen en feedback op de Beta Slack-zender: #data-insights-agent-in-cja-beta
