@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ceb6ac97686165c2883ad8057730bb09e4d7ad16
+source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2349'
 ht-degree: 0%
 
 ---
@@ -249,6 +249,11 @@ In deze sectie configureert u hoe u de gegevens van de inhoudsanalyse kunt verza
 >title="Dataverzameling"
 >abstract="U kunt de instellingen voor elementen in de Adobe Content Analytics-extensie bewerken in de eigenschap Codes die is gekoppeld aan de huidige configuratie."
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_tags_disabled_description "
+>title="Tags, eigenschap uitgeschakeld"
+>abstract="Content Analytics-extensie is al actief."
+
 <!-- markdownlint-enable MD034 -->
 
 #### Nieuwe configuratie {#new-configuration}
@@ -277,6 +282,11 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 * Geef aan welke elementen moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
    * Geef een reguliere-expressiereeks op voor **[!UICONTROL Assets to include / exclude]** . Bijvoorbeeld: `/^(?!.*(logo\.jpg|\.svg)).*$/` als u alle logo-JPEG- en SVG-afbeeldingen van Content Analytics wilt uitsluiten. Gebruik `/` om normale expressies te omzeilen.
+
+>[!IMPORTANT]
+>
+>Als u een bestaande implementatie van SDK van het Web gebruikend Javascript, en het gebruiken van geen Markeringen hebt, moet u de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen manueel verwijderen.
+
 
 
 #### Bestaande configuratie {#existing-configuration}
