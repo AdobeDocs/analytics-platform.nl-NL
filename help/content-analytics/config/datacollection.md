@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
+source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Content Analytics-gebeurtenissen worden verzameld als een reeks van:
 1. [ A geregistreerde mening of klik ](#recorded-view-or-click).
 1. [ een regelmatige of specifieke (gedrags) gebeurtenis ](#regular-or-specific-behaviorial-event).
 
-Content Analytics verzamelt gegevens op deze manier om die reeks te weerspiegelen in plaats van een weergave te verzamelen of klik apart van het verzamelen van de gebeurtenis direct na die weergave of klik. Op deze manier wordt ook de hoeveelheid verzamelde gegevens verminderd. verzameling van gegevens.
+Content Analytics verzamelt gegevens op deze manier om die reeks te weerspiegelen in plaats van een weergave te verzamelen of klik apart van het verzamelen van de gebeurtenis direct na die weergave of klik. Op deze manier wordt ook de hoeveelheid verzamelde gegevens verminderd.
 
 ### Opgenomen weergave of klik
 
@@ -71,7 +71,7 @@ Een elementweergave wordt opgenomen wanneer:
 Een elementklik wordt opgenomen wanneer:
 
 * Het element is weergegeven.
-* Het middel is niet uitgesloten volgens de ACA-extensieconfiguratie.
+* Het middel is niet uitgesloten volgens de Content Analytics-extensieconfiguratie.
 * Klik rechtstreeks op het element (een koppeling) dat naar een andere pagina leidt.
 
 Er wordt een ervaringsweergave opgenomen wanneer:
@@ -95,7 +95,7 @@ Triggers om een reguliere of specifieke (gedrags)gebeurtenis in de context van C
    * Browser sluiten
    * Scherm vergrendelen
 * De URL verandert, wat resulteert in een gewijzigde relevante URL.
-* Een elementweergave overschrijdt de batchlimiet van 32.
+* De geregistreerde en klaar om te worden verzonden meningen van activa overschrijden het aantal van 32.
 
 
 ## Schema&#39;s
