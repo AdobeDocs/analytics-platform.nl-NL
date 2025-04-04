@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 0%
 # Inhoud analyseren configureren
 
 {{release-limited-testing}}
+
 
 De configuratie van Content Analytics bestaat uit de volgende stappen:
 
@@ -42,8 +43,8 @@ Voordat u Content Analytics configureert, moet u controleren of aan de volgende 
 * U hebt zorgvuldig de volgende belangrijke configuratieopties overwogen:
 
    * Uw site is geschikt voor ervaringsrapporten. Een correcte rapportage van de ervaring is alleen mogelijk als aan de volgende voorwaarden is voldaan:
-      * U kunt de site-inhoud alleen benaderen door openbare URL&#39;s. Voor toegang tot de site zijn geen persoonlijke tokens, cookies of andere mechanismen vereist die niet beschikbaar zijn via de URL.
-      * De pagina&#39;s op uw site kunnen worden gereproduceerd met de pagina-URL en u begrijpt welke optionele URL-parameters een rol spelen.
+      * De pagina&#39;s op de site moeten reproduceerbaar zijn met de pagina-URL.
+      * De tekstinhoud die door een bepaalde gebruiker wordt gezien, kan met de pagina-URL worden gereproduceerd en is niet afhankelijk van cookies of andere verpersoonlijkingsmechanismen.
    * U hebt een duidelijk inzicht in welke pagina&#39;s u de analyse en inzichten van de betrokkenheid van inhoud wilt vastleggen.
    * U hebt een duidelijk inzicht in welke (type) elementen u de analyse en inzichten van de betrokkenheid van inhoud wilt vastleggen.
 

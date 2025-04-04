@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 0%
 # Configuratie met instructies voor inhoudsanalyse
 
 {{release-limited-testing}}
+
 
 De geleide configuratie helpt u om Inhoud Analytics snel en gemakkelijk te vormen. De configuratie met instructies gebruikt een wizard om de vereisten in te stellen voor het automatisch configureren van Content Analytics voor uw organisatie. In het **[!UICONTROL Configuration]** scherm, kunt u of een nieuwe configuratie tot stand brengen of een bestaande configuratie uitgeven.
 
@@ -179,15 +180,20 @@ Standaard is **[!UICONTROL Include experiences]** uitgeschakeld. Als deze optie 
 
 Neem alleen ervaringen op als het volgende van toepassing is:
 
-* U kunt de site-inhoud alleen benaderen met openbare URL&#39;s. Voor toegang tot de site zijn geen persoonlijke tokens, cookies of andere mechanismen vereist die niet beschikbaar zijn via de URL.
 * De pagina&#39;s op de site moeten reproduceerbaar zijn met de pagina-URL.
+* De tekstinhoud die door een bepaalde gebruiker wordt gezien, kan met de pagina-URL worden gereproduceerd en is niet afhankelijk van cookies of andere verpersoonlijkingsmechanismen.
 
 Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience.png)
 
-1. Schakel **[!UICONTROL Include experiences]** in.
-1. Geef desgewenst de parameters op voor de weergave van inhoud op uw website. De parameters zijn nul of meer combinaties van a **[!UICONTROL Domain regular expression]** en **[!UICONTROL Query parameters]**. De vraagparameters wijzen op welke parameters de inhoud op uw pagina beïnvloeden. Met deze invoer kan Content Analytics parameters negeren die geen invloed hebben op de inhoud van de pagina wanneer een unieke ervaring wordt gedefinieerd.
+1. Schakel **[!UICONTROL Include experiences]** in. De knevel om ervaringen toe te laten beïnvloedt het volgende:
+
+   * Gegevensverzameling in de extensie Content Analytics
+   * Het proces dat ervaringskenmerken genereert van Content Analytics-gebeurtenisgegevens
+   * De rapportagesjabloon in Customer Journey Analytics.
+
+1. Geef de parameters op voor de weergave van inhoud op uw website. De parameters zijn nul of meer combinaties van a **[!UICONTROL Domain regular expression]** en **[!UICONTROL Query parameters]**. De vraagparameters wijzen op welke parameters de inhoud op uw pagina beïnvloeden. Met deze invoer kan Content Analytics parameters negeren die geen invloed hebben op de inhoud van de pagina wanneer een unieke ervaring wordt gedefinieerd.
    1. Voer een **[!UICONTROL Domain regular expression]** in, bijvoorbeeld `/^(?!.*\b(store|help|admin)\b)/` . Gebruik `/` om normale expressies te omzeilen. De reguliere expressie van het domein geeft aan op welke URL&#39;s deze parameters van toepassing zijn. U kunt bijvoorbeeld meerdere sites hebben en voor elke site wordt de inhoud door verschillende parameters aangedreven. Als de queryparameters op al uw pagina&#39;s van toepassing zijn, kunt u met `.*` alle pagina&#39;s aangeven.
    1. Geef een door komma&#39;s gescheiden lijst op van **[!UICONTROL Query parameters,]** bijvoorbeeld `outdoors, patio, kitchen` .
 1. Selecteer **[!UICONTROL Remove]** als u een combinatie van de reguliere expressie van het domein en queryparameters wilt verwijderen.
@@ -197,10 +203,9 @@ Bestaande bewerkingen uitvoeren of nieuwe ervaringen opnemen in een geïmplement
 
 ![ de configuratieervaring van de Analyse van de Inhoud vangen en definitie ](../assets/aca-configuration-experience-edit.png)
 
-* Schakel **[!UICONTROL Include experiences]** in of uit om de beschikbaarheid van ervaringscomponenten, -visualisaties en -deelvensters in Analysis Workspace in of uit te schakelen.
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics uit te geven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
+* Schakel **[!UICONTROL Include experiences]** in of uit om de beschikbaarheid van ervaringscomponenten, visualisaties, deelvensters en sjablonen in Analysis Workspace in of uit te schakelen.
 
-
+* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics verder uit te geven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
 
 
 ### Dataverzameling {#onboarding-data-collection}
@@ -265,7 +270,8 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
   ![ Inhoud analyseert de Verzameling van Gegevens de Bestaande Markering ](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Selecteer **[!UICONTROL Choose existing]** .
-   2. Selecteer een bestaande eigenschap in het vervolgkeuzemenu **[!UICONTROL Tags property]** . U kunt beginnen te typen om naar de beschikbare opties te zoeken en te beperken.
+   2. Selecteer een bestaande eigenschap in het vervolgkeuzemenu **[!UICONTROL Tags property]** . U kunt beginnen te typen om naar de beschikbare opties te zoeken en te beperken. U kunt geen eigenschap Codes selecteren die al wordt gebruikt door een andere geïmplementeerde Content Analytics-configuratie.
+
 
 * Een nieuwe eigenschap voor tags maken:
 
@@ -275,13 +281,13 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
    1. Geef een **[!UICONTROL Tags name]** op, bijvoorbeeld `ACA Test for Documentation` .
    1. Geef **[!UICONTROL Domains]** op, bijvoorbeeld `example.com` .
 
-* Als u ervoor hebt gekozen om ervaringen op te nemen, geeft u aan welke pagina&#39;s moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
+* Geef aan welke pagina&#39;s moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
-   * Geef een reguliere-expressiereeks op voor **[!UICONTROL Pages to include / exclude]** . Bijvoorbeeld: `/^(?!.*documentation).*/` om alle documentatiepagina&#39;s van Content Analytics uit te sluiten. Gebruik `/` om normale expressies te omzeilen.
+  Geef een reguliere-expressiereeks op voor **[!UICONTROL Pages to include / exclude]** . <br/> Bijvoorbeeld: `^(?!.*documentation).*` om alle documentatiepagina&#39;s van Content Analytics uit te sluiten.
 
 * Geef aan welke elementen moeten worden opgenomen of uitgesloten bij het verzamelen van gegevens voor Content Analytics.
 
-   * Geef een reguliere-expressiereeks op voor **[!UICONTROL Assets to include / exclude]** . Bijvoorbeeld: `/^(?!.*(logo\.jpg|\.svg)).*$/` als u alle logo-JPEG- en SVG-afbeeldingen van Content Analytics wilt uitsluiten. Gebruik `/` om normale expressies te omzeilen.
+  Geef een reguliere-expressiereeks op voor **[!UICONTROL Assets to include / exclude]** . <br/> Bijvoorbeeld: `^(?!.*(logo\.jpg|\.svg)).*$` om alle embleem JPEG en beelden van SVG van Content Analytics uit te sluiten.
 
 >[!IMPORTANT]
 >
@@ -318,11 +324,11 @@ Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting de
 
 <!-- markdownlint-enable MD034 -->
 
-Wanneer u een configuratie hebt gemaakt of bewerkt, zijn de volgende acties beschikbaar.
+Wanneer u een configuratie maakt of bewerkt, hebt u de volgende opties:
 
-* **[!UICONTROL Discard]**: alle wijzigingen die zijn aangebracht als onderdeel van het maken van een nieuwe configuratie of het bewerken van een bestaande configuratie, worden genegeerd.
-* **[!UICONTROL Save for later]**: Wijzigingen die in een nieuwe configuratie of een bestaande, nog niet geïmplementeerde configuratie zijn aangebracht, worden opgeslagen. U kunt de configuratie in een later stadium herzien om verdere veranderingen aan te brengen, of de configuratie uit te voeren.
-* **[!UICONTROL Implement]**: instellingen voor of wijzigingen die zijn aangebracht in een nieuwe configuratie of een bestaande, nog niet geïmplementeerde configuratie, worden opgeslagen en geïmplementeerd. De uitvoering bestaat uit:
+* **[!UICONTROL Discard]**: alle wijzigingen die als onderdeel van de configuratie zijn aangebracht, worden genegeerd.
+* **[!UICONTROL Save for later]**: in een configuratie aangebrachte wijzigingen worden opgeslagen. U kunt de configuratie in een later stadium herzien om verdere veranderingen aan te brengen, of de configuratie uit te voeren. Alleen een waarde voor [!UICONTROL Name] is vereist om een configuratie op te slaan.
+* **[!UICONTROL Implement]**: instellingen voor of wijzigingen die in een configuratie zijn aangebracht, worden opgeslagen en geïmplementeerd. Alle gebieden die als ![ worden gemerkt Vereiste ](/help/assets/icons/Required.svg) vereiste waarden moeten hebben. De uitvoering bestaat uit:
 
    * **[!UICONTROL Customer Journey Analytics]** configuratie:
       * De geselecteerde gegevensweergave wordt bijgewerkt met de dimensie Content Analytics en metriek.

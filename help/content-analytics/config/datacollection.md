@@ -7,14 +7,16 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Content Analytics-gegevensverzameling
+
+{{release-limited-testing}}
 
 In dit artikel wordt gedetailleerd uitgelegd hoe content Analytics gegevens verzamelt
 
@@ -23,8 +25,8 @@ In dit artikel wordt gedetailleerd uitgelegd hoe content Analytics gegevens verz
 
 In het kader van dit artikel worden de volgende definities gebruikt:
 
-* **Ervaring**: Een ervaring wordt bepaald als tekstinhoud op een volledige Web-pagina. Voor gegevensverzameling registreert Content Analytics de ervaring-id. Content Analytics neemt de tekst niet op de pagina op.
-* **identiteitskaart van de Ervaring**: Een unieke combinatie relevante URL en ervaringsversie.
+* **Ervaring**: Een ervaring wordt bepaald als tekstinhoud op een volledige Web-pagina. Voor gegevensverzameling registreert Content Analytics de ervaring-id die is gebaseerd op de pagina-URL. Later wordt de tekst op de pagina vastgelegd via de ophaalservice.
+* **identiteitskaart van de Ervaring**: Een unieke combinatie relevante URL (basis URL plus om het even welke parameters die inhoud op de pagina drijven) en [ ervaringsversie ](manual.md#versioning).
    * U specificeert, als deel van de [ configuratie ](configuration.md), welke parameters voor om het even welke bepaalde volledige URL relevant zijn.
    * U kunt het [ versieherkenningsteken ](manual.md#versioning) bepalen dat wordt gebruikt.
 * **Activa**: Een beeld. Content Analytics registreert de URL van het element.
@@ -64,7 +66,7 @@ Content Analytics verzamelt gegevens op deze manier om die reeks te weerspiegele
 
 Een elementweergave wordt opgenomen wanneer:
 
-* Het middel is niet uitgesloten volgens de ACA-extensieconfiguratie.
+* Het middel is niet uitgesloten volgens de Content Analytics-extensieconfiguratie.
 * De waarde van de activa is 75%.
 * Dit element is nog niet opgenomen voor deze pagina.
 
@@ -100,7 +102,7 @@ Triggers om een reguliere of specifieke (gedrags)gebeurtenis in de context van C
 
 ## Schema&#39;s
 
-Content Analytics-gegevens worden verzameld in datasets in Experience Platform, op basis van specifieke Content Analytics-schema&#39;s. Referentieschema&#39;s zijn openbaar en worden gebruikt in een standaardimplementatie van Content Analytics.
+Content Analytics-gegevens worden verzameld in datasets in Experience Platform, op basis van specifieke Content Analytics-schema&#39;s. Referentieschema&#39;s zijn openbaar:
 
 * [ Digitaal schema van Activa ](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [ Digitaal schema van de Ervaring ](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)
