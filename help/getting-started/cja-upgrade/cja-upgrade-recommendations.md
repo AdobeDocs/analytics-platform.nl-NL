@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dafd4360d12c5b8a6b9ce99799722cecbca9768c
+source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,8 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 1. [ creeer een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
 1. [ bevestigt dat het gegeven in de gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md) stroomt.
+
+1. In uw milieu van Adobe Analytics, [ gebruik de Inventaris van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) om een uitvoerig overzicht van uw milieu van Adobe Analytics, met inbegrip van het aantal projecten en componenten, rapportreeksen, gebruikers, en meer te zien.
 
 1. [ Migreer projecten en componenten ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
