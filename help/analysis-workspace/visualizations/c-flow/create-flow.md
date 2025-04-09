@@ -4,9 +4,9 @@ title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ U kunt het begin of het eind van de weg vormen u in geinteresseerd bent. U kunt 
    | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen of eindigen met de eerste of laatste instantie van een dimensie, item of metrische waarde. Zie [ Beperken tot eerste/laatste voorkomen ](#example-scenario-for-limit-to-firstlast-occurrence) voor een meer gedetailleerde verklaring. |
    | **[!UICONTROL Number of columns]** | Het aantal kolommen u in uw diagram van de Stroom wilt. U kunt maximaal vijf kolommen opgeven. |
    | **[!UICONTROL Items expanded per column]** | Het aantal items dat u in elke kolom wilt opnemen. U kunt maximaal tien items opgeven die per kolom worden uitgevouwen. |
-   | **[!UICONTROL Flow container]** | U kunt schakelen tussen **[!UICONTROL Sessions]** en **[!UICONTROL Person]** om het plakken te analyseren. Met deze instellingen kunt u de betrokkenheid van een persoon op persoonlijk niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. |
+   | **[!UICONTROL Flow container]** | U kunt tussen **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} schakelen, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Sessions]** en **[!UICONTROL Person]** om het kleven te analyseren. Met deze instellingen kunt u de betrokkenheid van een persoon op persoonlijk niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. |
 
    >[!IMPORTANT]
    >

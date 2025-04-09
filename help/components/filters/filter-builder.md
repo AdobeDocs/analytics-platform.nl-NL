@@ -1,12 +1,12 @@
 ---
-description: De filterontwikkelaar biedt een canvas voor het slepen en neerzetten van metrische Dimensionen, filters en gebeurtenissen om personen te filteren op basis van containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee u persoonlijke kenmerken en handelingen kunt identificeren voor bezoeken en gebeurtenissen.
+description: De filterontwikkelaar biedt een canvas waarin u Metrische afmetingen, filters en gebeurtenissen kunt slepen en neerzetten om personen te filteren op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee u persoonlijke kenmerken en handelingen kunt identificeren voor bezoeken en gebeurtenissen.
 title: Filters maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -26,75 +26,75 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
->title="Gegevensvoorbeeld"
->abstract="Vergelijkt de gegevens van dit filter met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
+>title="Voorbeeld van gegevens"
+>abstract="Vergelijkt de gegevens van dit filter met de gegevens van de gegevensweergave. Het voorbeeldpercentage is gebaseerd op het totale aantal in de gegevensweergave van de **afgelopen 90 dagen**.<br><br/>Als het voorbeeld niet wordt geladen, wordt uw verbinding mogelijk nog steeds opgevuld."
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-Het dialoogvenster **[!UICONTROL Filter builder]** wordt gebruikt om nieuwe filters te maken of bestaande filters te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New filter]** of **[!UICONTROL Edit filter]** voor filters die u maakt of beheert met [[!UICONTROL Filters] Manager ](/help/components/filters/manage-filters.md) .
+Het **[!UICONTROL Filter builder]** dialoogvenster wordt gebruikt om nieuwe filters te maken of bestaande filters te bewerken. Het dialoogvenster heeft de titel **[!UICONTROL New filter]** of **[!UICONTROL Edit filter]** voor filters die u maakt of beheert vanuit de [[!UICONTROL Filters] manager](/help/components/filters/manage-filters.md).
 
 >[!BEGINTABS]
 
->[!TAB  Bouwer van de Filter ]
+>[!TAB Filter bouwer]
 
-![ de detailvenster die van de Filter gebieden en opties tonen in de volgende sectie worden beschreven.](assets/filter-builder.png)
+![Venster met filterdetails met velden en opties die in de volgende sectie worden beschreven.](assets/filter-builder.png)
 
->[!TAB  creeer of geef filter ] uit
+>[!TAB Filter maken of bewerken]
 
-![ de detailvenster die van de Filter gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-filter.png)
+![Venster met filterdetails met velden en opties die in de volgende sectie worden beschreven.](assets/create-edit-filter.png)
 
 >[!ENDTABS]
 
-1. Specificeer de volgende details (![ Vereiste ](/help/assets/icons/Required.svg) wordt vereist):
+1. Geef de volgende gegevens op (![vereist](/help/assets/icons/Required.svg) is vereist):
 
    | Element | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor het filter selecteren.  Het filter u bepaalt is beschikbaar als filter op het [ lusje van Montages ](/help/data-views/create-dataview.md#settings-filters) van een gegevensmening. |
-   | **[!UICONTROL Project-only filter]** | Een informatievak om uit te leggen dat het filter alleen zichtbaar is in het project waar het is gemaakt en dat het filter niet wordt toegevoegd aan de lijst met componenten. Schakel **[!UICONTROL Make this filter available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snelle filter ](quick-filters.md) creeert en de snelle filterinfo een regelmatige filter draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick filter] interface. |
-   | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef het filter een naam, bijvoorbeeld `Last month mobile customers` . |
+   | **[!UICONTROL Project-only filter]** | Een infobox om uit te leggen dat het filter alleen zichtbaar is in het project waar het is gemaakt en dat het filter niet wordt toegevoegd aan uw componentenlijst. Schakel deze **[!UICONTROL Make this filter available to all your projects and add it to your component list]** optie in om die instelling te wijzigen. Dit infovak is alleen zichtbaar wanneer u een [snelfilter](quick-filters.md) maakt en de snelfilterinformatie instelt in een normaal filter met behulp **[!UICONTROL Open builder]** van de [!UICONTROL Quick filter] interface. |
+   | **[!UICONTROL Title]**![ Vereist](/help/assets/icons/Required.svg) | Geef het filter een naam, bijvoorbeeld `Last month mobile customers` . |
    | **[!UICONTROL Description]** | Geef een beschrijving voor het filter op, bijvoorbeeld `Filter to define the mobile customers for the last month` . |
    | **[!UICONTROL Tags]** | Organiseer het filter door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
-   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw filter gebruikend de [ bouwer van de Definitie ](#definition-builder). |
+   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Definieer uw filter met behulp van de [Definitiebouwer](#definition-builder). |
 
    {style="table-layout:auto"}
 
 1. Als u wilt controleren of de filterdefinitie correct is, gebruikt u de constant bijgewerkte voorvertoning van de resultaten van het filter in de rechterbovenhoek.
-1. Selecteer **[!UICONTROL Create audience from filter]** om een publiek van het filter te maken en het publiek met Experience Platform te delen. Zie [ publiek ](/help/components/audiences/publish.md) voor meer informatie creëren en publiceren.
+1. Selecteer **[!UICONTROL Create audience from filter]** als u een publiek wilt maken van het filter en het publiek wilt delen met Experience Platform. Zie [ publiek ](/help/components/audiences/publish.md) voor meer informatie creëren en publiceren.
 1. Selecteren:
    * **[!UICONTROL Save]** om het filter op te slaan.
    * **[!UICONTROL Save As]** om een kopie van het filter op te slaan.
    * **[!UICONTROL Delete]** om het filter te verwijderen.
-   * **[!UICONTROL Cancel]** om wijzigingen die u in het filter hebt aangebracht, te annuleren of om het maken van een nieuw filter te annuleren.
+   * **[!UICONTROL Cancel]** om eventuele wijzigingen die u in het filter hebt aangebracht te annuleren of het maken van een nieuw filter te annuleren.
 
 
-## Definition builder
+## Definitie bouwer
 
-Met de definitieontwikkelaar kunt u de filterdefinitie samenstellen. In die constructie, gebruikt u componenten, containers, exploitanten en logica.
+U gebruikt de Definition Builder om uw filterdefinitie samen te stellen. In die constructie gebruik je componenten, containers, operators en logica.
 
 U kunt het type en het werkingsgebied van uw definitie vormen:
 
 1. Om het type van uw definitie te specificeren, specificeer of u de bouwstijl wilt omvatten of definitie uitsluiten. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** en van dropdown knevel **[!UICONTROL Include]** of **[!UICONTROL Exclude]**.
-1. Als u het bereik van uw definitie wilt opgeven, selecteert u in het vervolgkeuzemenu **[!UICONTROL Include]** of **[!UICONTROL Exclude]** of het bereik van de definitie **[!UICONTROL Event]** , **[!UICONTROL Session]** of **[!UICONTROL Person]** moet zijn.
+1. Om het werkingsgebied van uw definitie te specificeren, selecteer van **[!UICONTROL Include]** of **[!UICONTROL Exclude]** dropdown of u het werkingsgebied van de definitie **[!UICONTROL Event]** wilt zijn, **[!UICONTROL Session]**, **[!UICONTROL Person]**, **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, of **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}}
 
 U kunt deze instellingen altijd later wijzigen.
 
 ### Onderdelen
 
-Een essentieel onderdeel van de constructie van uw filterdefinitie is het gebruik van afmetingen, meetwaarden, bestaande filters en datumbereiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Bouwer van de Filter.
+Een essentieel onderdeel van de constructie van uw filterdefinitie is het gebruik van dimensies, metrische gegevens, bestaande filters en datumbereiken. Al deze componenten zijn beschikbaar via het componentenpaneel in de filterbouwer.
 
-![ Begin bouwend een definitie ](assets/start-building-filter.gif) {width=100%}
+![Begin met het bouwen van een definitie](assets/start-building-filter.gif){width=100%}
 
 Een component toevoegen:
 
-1. Sleep een component van het deelvenster Componenten naar **[!UICONTROL Drag and drop Metric(s), Filter(s), and/or Dimensions here]** . U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
-1. Geef details voor de component op. Selecteer bijvoorbeeld een waarde in **[!UICONTROL Select value]** . Of voer een waarde in. Wat en hoe u een of meer waarden kunt opgeven, is afhankelijk van de component en de operator.
-1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld van **[!UICONTROL equals]** tot **[!UICONTROL equals any of]** . Zie [ Exploitanten ](operators.md) voor een gedetailleerd overzicht van de beschikbare exploitanten.
+1. Sleep een component van het componentenpaneel naar **[!UICONTROL Drag and drop Metric(s), Filter(s), and/or Dimensions here]**. U kunt de ![zoekfunctie](/help/assets/icons/Search.svg) in de onderdelenbalk gebruiken om naar specifieke onderdelen te zoeken.
+1. Geef details voor de component op. Selecteer bijvoorbeeld een waarde uit **[!UICONTROL Select value]**. Of voer een waarde in. Wat en hoe u een of meer waarden kunt opgeven, is afhankelijk van het onderdeel en de operator.
+1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld, van **[!UICONTROL equals]** naar **[!UICONTROL equals any of]**. Zie [Operators](operators.md) voor een gedetailleerd overzicht van de beschikbare operators.
 
 Een component bewerken:
 
-* Selecteer een nieuwe operator voor de component in het vervolgkeuzemenu van de operator.
+* Selecteer een nieuwe operator voor het onderdeel in het vervolgkeuzemenu van de operator.
 * Selecteer indien van toepassing een andere waarde voor de operator of geef deze op.
 * Als het componenttype een dimensie is, kunt u het attributiemodel definiëren. Zie [ model van de Attributie ](#attribution-models) voor meer informatie.
 
@@ -106,51 +106,51 @@ Een component verwijderen:
 
 U kunt meerdere componenten groeperen in een of meer containers en logica definiëren binnen en tussen containers. Met containers kunt u complexe definities voor uw filter maken.
 
-![ voeg een container ](assets/add-container.gif) toe{Width=100%}
+![ voeg een container ](assets/add-container.gif){Width=100%} toe
 
 * Om een container toe te voegen, selecteer **[!UICONTROL Add container]** van ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
 * Als u een bestaande component aan de container wilt toevoegen, sleept u de component naar de container.
-* Als u een andere component aan de container wilt toevoegen, sleept u een component uit het deelvenster met componenten naar de container. Gebruik de blauwe invoeglijn als hulplijn.
-* Als u een andere component buiten de container wilt toevoegen, sleept u een component uit het deelvenster met componenten buiten de container, maar binnen de container met de hoofddefinitie. Gebruik de blauwe invoeglijn als hulplijn.
-* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een component wilt wijzigen, selecteert u de desbetreffende **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** . Wanneer u vervolgens selecteert, verandert u het filter in een opeenvolgend filter. Zie [ opeenvolgend filter ](seg-sequential-build.md) voor meer informatie creëren.
-* Om het containerniveau te schakelen, selecteer ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** of ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]**.
+* Als u een andere component aan de container wilt toevoegen, sleept u een component uit het deelvenster met componenten naar de container. Gebruik de blauwe invoeglijn als richtlijn.
+* Als u een ander onderdeel buiten de container wilt toevoegen, sleept u een onderdeel van het deelvenster Onderdeel buiten de container, maar binnen de hoofddefinitiecontainer. Gebruik de blauwe invoeglijn als richtlijn.
+* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een onderdeel wilt wijzigen, selecteert u de juiste **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. Wanneer u Dan selecteert, verandert u het filter in een sequentieel filter. Zie [Sequentieel filter](seg-sequential-build.md) maken voor meer informatie.
+* Om het containerniveau te schakelen, selecteer ](/help/assets/icons/Globe.svg) Globe **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, ![ Rekening ](/help/assets/icons/Account.svg) **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ Opportunity ](/help/assets/icons/Opportunity.svg) **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ BuyingGroup ](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Buying Group]** [!BADGE  B2B edition 19}, ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** of ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]**.![]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-U kunt ![ Plaatsen ](/help/assets/icons/Setting.svg) in een container voor de volgende acties gebruiken:
+U kunt Instellingen](/help/assets/icons/Setting.svg) in een container gebruiken ![voor de volgende acties:
 
-| Container, actie | Beschrijving |
+| Container actie | Beschrijving |
 |---|---|
 | **[!UICONTROL Add container]** | Voeg een geneste container toe aan de container. |
-| **[!UICONTROL Exclude]** | Sluit het resultaat uit van de container in de filterdefinitie. Een dunne, rode linkerbalk geeft een uitsluitingscontainer aan. |
-| **[!UICONTROL Include]** | Neem het resultaat van de container op in de filterdefinitie. Opnemen is de standaardinstelling. Een dunne grijze linkerbalk geeft een include-container aan. |
-| **[!UICONTROL Name container]** | Wijzig de naam van de container ten opzichte van de standaardbeschrijving. Typ een naam in het tekstveld. Als u geen invoer opgeeft, wordt de standaardbeschrijving gebruikt. |
+| **[!UICONTROL Exclude]** | Sluit het resultaat uit van de container in de filterdefinitie. Een dunne rode linkerbalk geeft een uitsluitingscontainer aan. |
+| **[!UICONTROL Include]** | Neem het resultaat van de container op in de filterdefinitie. Opnemen is de standaardinstelling. Een dunne grijze linkerbalk identificeert een include-container. |
+| **[!UICONTROL Name container]** | Wijzig de naam van de container vanuit de standaardbeschrijving. Typ een naam in het tekstveld. Als u geen invoer geeft, wordt de standaardbeschrijving gebruikt. |
 | **[!UICONTROL Delete container]** | Verwijder de container uit de definitie. |
 
 
 ## Datumbereiken
 
-U kunt filters bouwen die het rollen datumwaaiers bevatten. U kunt dus vragen beantwoorden over lopende campagnes of evenementen. Bijvoorbeeld, kunt u een filter bouwen dat *iedereen omvat die een online aankoop in de afgelopen 60 dagen* heeft gemaakt.
+U kunt filters bouwen die het rollen datumwaaiers bevatten. U bent dus in staat om vragen over lopende campagnes of evenementen te beantwoorden. U kunt bijvoorbeeld een filter maken dat iedereen omvat *die de afgelopen 60 dagen* een online aankoop heeft gedaan.
 
-![ Filter gebruikend het rollen datumwaaier ](assets/filter-rolling-date-range.gif)
+![Filteren op voortschrijdend datumbereik](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Rolling datumwaaiers in segmenten ](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![VideoUitgecheckt Voortschrijdende](/help/assets/icons/VideoCheckedOut.svg) [datumbereiken in segmenten](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Stapelfilters {#stack}
+## Filters stapelen {#stack}
 
-U kunt een filter bouwen gebruikend filters. Wanneer u filters in een filter gebruikt, kunt u het filter optimaliseren en de complexiteit verminderen.
+U kunt een filter bouwen met behulp van filters. Wanneer u filters in een filter gebruikt, kunt u uw filter optimaliseren en de complexiteit verminderen.
 
-Stel dat u wilt filteren op de combinatie van apparaattype (2) en status VS (50). U kunt 100 filters maken, elk voor de unieke combinatie van apparaattype (mobiele telefoon versus tablet) en de Amerikaanse status. Om de gebruikers van de Californische tablet te krijgen, zou u één van de 100 filters gebruiken:
+Stel je voor dat je wilt filteren op de combinatie van apparaattype (2) en Amerikaanse staten (50). Je kunt 100 filters bouwen, elk voor de unieke combinatie van apparaattype (mobiele telefoon versus tablet) en Amerikaanse staat. Om de Californische tabletgebruikers te krijgen, zou je een van de 100 filters gebruiken:
 
-![ Eenvoudige filter voor CA en tablet ](assets/filter-ca-tablet-single.png)
+![Eenvoudig filter voor CA en tablet](assets/filter-ca-tablet-single.png)
 
-Of u zou 52 filters kunnen definiëren: 50 filters voor de Amerikaanse staten, één voor mobiele telefoon en één voor tablet. Vervolgens stapelt u de filters om dezelfde resultaten te verkrijgen. Als u de gebruikers van de Californische tablet wilt ophalen, stapelt u twee filters:
+Of u kunt 52 filters definiëren: 50 filters voor de Amerikaanse staten, één voor mobiele telefoons en één voor tablets. En stapel vervolgens de filters om dezelfde resultaten te verkrijgen. Als u de gebruikers van de Californische tablet wilt ophalen, stapelt u twee filters:
 
-![ Gestapelde filter voor CA en tablet ](assets/filter-ca-tablet-stacked.png)
+![Gestapeld filter voor CA en tablet](assets/filter-ca-tablet-stacked.png)
 
 
 ## Attributie {#attribution}
@@ -159,8 +159,8 @@ Of u zou 52 filters kunnen definiëren: 50 filters voor de Amerikaanse staten, �
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
->title="Herhalend"
->abstract="Bevat varianten en doorlopende waarden voor de dimensie."
+>title="Herhalende"
+>abstract="Bevat instanties en permanente waarden voor de dimensie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -168,7 +168,7 @@ Of u zou 52 filters kunnen definiëren: 50 filters voor de Amerikaanse staten, �
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
->title="Instantie"
+>title="Voorbeeld"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
 <!-- markdownlint-enable MD034 -->
@@ -190,18 +190,18 @@ Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomp
 
 | Modellen | Beschrijving |
 |---|---|
-| **[!UICONTROL Repeating model (default)]** | Instantie en doorlopende waarden voor de dimensie opnemen om kwalificatie te bepalen. |
+| **[!UICONTROL Repeating model (default)]** | Neem exemplaar- en persistente waarden op voor de dimensie om de kwalificatie te bepalen. |
 | **[!UICONTROL Instance]** | Neem alleen instantiewaarden op voor de dimensie om de kwalificatie te bepalen. |
 | **[!UICONTROL Non-repeating instance]** | U kunt unieke instantie-waarden (niet-herhalende waarden) voor de dimensie opnemen om de kwalificatie te bepalen. |
 
 
-![ model van de Attributie op afmeting wanneer het bouwen van een filter ](assets/filter-dimension-attribution.png)
+![Attributiemodel op dimensie bij het bouwen van een filter](assets/filter-dimension-attribution.png)
 
 ### Voorbeeld
 
-Als onderdeel van een filterdefinitie hebt u de volgende voorwaarde opgegeven: De paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het bovenstaande voorbeeld. U herhaalt deze filterdefinitie met de twee andere attributiemodellen. Dus u hebt drie filters elk met hun eigen attributiemodel:
+Als onderdeel van een filterdefinitie heb je de volgende voorwaarde opgegeven: Paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het voorbeeld hierboven. U herhaalt deze filterdefinitie met behulp van de twee andere attributiemodellen. Je hebt dus drie filters met elk hun eigen attributiemodel:
 
-* Vrouwenpagina - Attributie - Herhaling (standaard)
+* Pagina Vrouwen - Toeschrijving - Herhalend (standaard)
 * Women page - Attribution - Instance
 * Vrouwenpagina - Attributie - Niet-herhalende instantie
 
@@ -211,10 +211,10 @@ De lijst verklaart hieronder, voor elk attributiemodel, die de inkomende gebeurt
 
 | De Pagina van vrouwen - Attributie - <br/>*attributiemodel* | Gebeurtenis 1:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 2:<br/> de Naam van de Pagina evenaart <br/> Mannen | Gebeurtenis 3:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 4:<br/> de Naam van de Pagina evenaart <br/> Vrouwen <br/> (voortgeduurd) | Gebeurtenis 5:<br/> de Naam van de Pagina evenaart <br/> Controle | Gebeurtenis 6:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 7:<br/> de Naam van de Pagina evenaart <br/> Huis |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Herhaald (standaard) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
+| Herhalend (standaard) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
 | Instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
-| Niet-herhalende instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
+| Niet-herhalende instantie | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) |
 
-Een voorbeeldrapport over gebeurtenissen die de drie filters gebruiken ziet er als volgt uit:
+Een voorbeeldrapport over evenementen met behulp van de drie filters ziet er als volgt uit:
 
-![ de resultaten van het de attributiemodel van de Filter ](assets/filter-dimension-attribution-results.png)
+![Resultaten van attributiemodel filteren](assets/filter-dimension-attribution-results.png)

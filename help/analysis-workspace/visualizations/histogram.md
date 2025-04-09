@@ -4,9 +4,9 @@ title: Histogram
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '368'
 ht-degree: 2%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="Histogram"
->abstract="Maak een histogramvisualisatie om de distributie van numerieke gegevens in groepen bereiken weer te geven."
+>abstract="Maak een histogramvisualisatie om de verdeling van numerieke gegevens in groepen bereiken weer te geven."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Histogram in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Histogram ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_In dit artikel wordt de histogramvisualisatie in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** beschreven._<br/>_Zie [Histogram](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) voor de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics-versie** van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-De ![ visualisatie van de Histogram ](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** is gelijkaardig aan a [!UICONTROL Bar] visualisatie, maar het groepeert aantallen in waaiers (emmers). De analyse automatiseert het &quot;knippen&quot;van aantallen in waaiers, maar u kunt de montages in [ Geavanceerde Montages ](#advanced-settings) veranderen.
+De ![histogramvisualisatie](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** is vergelijkbaar met een [!UICONTROL Bar] visualisatie, maar groepeert getallen in bereiken (buckets). Analytics automatiseert het &#39;indelen&#39; van getallen in bereiken, maar u kunt de instellingen wijzigen in [Geavanceerde instellingen](#advanced-settings).
 
 ## Gebruiken
 
@@ -43,9 +43,9 @@ Een histogram maken:
 
 >[!NOTE]
 >
->Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
+>Histogrammen ondersteunen alleen standaardstatistieken, geen berekende statistieken.
 
-In het onderstaande voorbeeld wordt een histogram gebruikt om sessies voor het aantal personen te emmeren. Uit het histogram blijkt dat de meeste personen tussen de 16 en 21 sessies hebben voor het geselecteerde datumbereik.
+In het onderstaande voorbeeld wordt een histogram gebruikt om sessies te bucketen voor het aantal personen. Het histogram laat zien dat de meeste personen tussen de 16-21 sessies hebben voor het geselecteerde datumbereik.
 
 ![Histogram](assets/histogram.png)
 
@@ -53,26 +53,26 @@ In het onderstaande voorbeeld wordt een histogram gebruikt om sessies voor het a
 
 Als onderdeel van de visualisatie zijn specifieke histograminstellingen beschikbaar.
 
-| Histograminstellingen | Beschrijving |
+| Instellingen voor histogrammen | Beschrijving |
 |---|---|
 | **[!UICONTROL Starting bucket]** | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
 | **[!UICONTROL Metric buckets]** | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
-| **[!UICONTROL Metric bucket size]** | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
-| **[!UICONTROL Counting method]** | Selecteer uit **[!UICONTROL Person]**, **[!UICONTROL Session]** of **[!UICONTROL Event]** . Bijvoorbeeld paginaweergaven per sessie, of paginaweergaven per persoon of paginaweergaven per gebeurtenis. |
+| **[!UICONTROL Metric bucket size]** | Hiermee kunt u de grootte van elke emmer instellen. U kunt bijvoorbeeld de grootte van de bucket wijzigen van 1 paginaweergave naar 2 paginaweergaven. |
+| **[!UICONTROL Counting method]** | Kies uit **[!UICONTROL Global Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, [!BADGE **[!UICONTROL Account]** B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Opportunity]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Person]**, **[!UICONTROL Session]** of **[!UICONTROL Event]**. Bijvoorbeeld paginaweergaven per account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, paginaweergaven per sessie, of paginaweergaven per persoon, of paginaweergaven per evenement. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Voorbeelden**:
 
-| Beginemmer | Metrische emmers | Grootte van metrische emmer | Resultaat |
+| Startbak | Metrische emmers | Grootte van metrische emmer | Resultaat |
 |:----:|:--:|:--:|:--|
-| 1 | 5 | 2 | ![ Histogram, beginnend emmer 1, metrische emmers 5, metrische emmer grootte 2 ](assets/histogram-1-5-2.png) |
+| 1 | 5 | 2 | ![Histogram, startbak 1, metrische bakken 5, metrische bak maat 2](assets/histogram-1-5-2.png) |
 | 0 | 3 | 5 | ![ Histogram, beginnend emmer 0, metrische emmers 3, metrische emmer grootte 5 ](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[Visualisatie-instellingen](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualisatie contextmenu](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
