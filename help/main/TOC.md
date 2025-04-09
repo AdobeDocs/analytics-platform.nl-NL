@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
+source-git-commit: 3bdde8181ec2a0e507dae907acb3da2b702f5578
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1216'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 + [Adobe Customer Journey Analytics Guide](../getting-started/cja-landing.md)
 
-+ Opmerkingen bij de release {#releases}
++ Aanvullende informatie {#releases}
    + [Meest recente release](../release-notes/latest.md)
    + [2025 releases](../release-notes/2025.md)
    + [2024 releases](../release-notes/2024.md)
@@ -32,23 +32,27 @@ ht-degree: 10%
    + [Documentatie-updates](../release-notes/doc-changes.md)
 
 + Aan de slag {#cja-overview}
-   + [Customer Journey Analytics-overzicht](../getting-started/cja-overview.md)
-   + [Handleiding voor snel starten](../getting-started/cja-getting-started.md)
-   + [Openingspagina](../getting-started/landing.md)
-   + [Openingspagina (oud)](../getting-started/cja-landing-old.md)
-   + [Veelgestelde vragen](../getting-started/cja-faq.md)
-   + [Customer Journey Analytics- en BI-oplossingen vergelijken](../getting-started/cja-vs-bi.md)
-   + [AI Assistant voor Adobe Customer Journey Analytics](../ai-assistant.md)
-   + [Data Analysis AI Assistent for Customer Journey Analytics](../data-analysis-ai.md)
+   + Customer Journey Analytics {#cja-b2c-overview}
+      + [Overzicht](../getting-started/cja-overview.md)
+      + [Handleiding voor snel starten](../getting-started/cja-getting-started.md)
+      + [Openingspagina](../getting-started/landing.md)
+      + [Veelgestelde vragen](../getting-started/cja-faq.md)
+      + [Vergelijk met BI-oplossingen](../getting-started/cja-vs-bi.md)
+      + [AI-assistent](../ai-assistant.md)
+      + [Data Insights-agent](../data-analysis-ai.md)
+   + Customer Journey Analytics B2B edition {#cja-b2b}
+      + [Overzicht](/help/getting-started/cja-b2b-edition.md)
+      + [B2B-concepten en -functies](/help/getting-started/cja-b2b-concepts-features.md)
+      + [Handleiding voor snel starten](/help/getting-started/cja-b2b-quick-start-guide.md)
 
 + Customer Journey Analytics en Adobe Analytics {#compare-aa-cja}
-   + Upgrade uitvoeren naar Customer Journey Analytics {#upgrade-to-cja}
+   + Upgrade naar Customer Journey Analytics {#upgrade-to-cja}
       + [Aan de slag](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [Upgradepad kiezen](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Gegevens verzenden naar platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Aanbevolen upgradeproces](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + Een schema maken en archiveren {#schema}
+      + Architect en maak een schema {#schema}
          + [Uw schema archiveren](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [Uw schema maken](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
          + [Het bestaande schema gebruiken](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
@@ -59,7 +63,7 @@ ht-degree: 10%
          + [Een gegevensset maken](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [Opzoekgegevenssets maken voor classificaties](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [Inname van gegevensset controleren](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + Web SDK implementeren met tags {#create-tags}
+      + De Web SDK implementeren met tags {#create-tags}
          + [Een tag voor uw eigenschap maken](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [De extensie Web SDK toevoegen aan uw tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [De ladertag voor de Web SDK-extensie implementeren](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
@@ -105,7 +109,7 @@ ht-degree: 10%
 
 + Gegevensinvoer {#cja-data-ingestion}
    + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
-   + Hulplijnen voor snel starten samenstellen en gebruiken {#ingest-use-guides}
+   + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
@@ -177,7 +181,7 @@ ht-degree: 10%
       + [Overzicht](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [Intelligente bijschriften](../analysis-workspace/visualizations/intelligent-captions.md)
-      + Vrije-vormentabel {#freeform-table}
+      + Vrije-vormtabel {#freeform-table}
          + [Overzicht](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
@@ -190,7 +194,7 @@ ht-degree: 10%
          + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Gebruik hoofdletters](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Uitval {#fallout}
+      + Fallout {#fallout}
          + [Overzicht](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Interdimensionale uitval](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -251,14 +255,14 @@ ht-degree: 10%
       + [Statistische technieken](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
-   + Workspace - Veelgestelde vragen en meer {#workspace-faq}
+   + Veelgestelde vragen over Workspace en meer {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
       + [Foutberichten](../analysis-workspace/workspace-faq/error-messages.md)
       + [Beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ Inhoud analyseren {#content-analytics}
++ Content Analytics {#content-analytics}
    + [Overzicht](/help/content-analytics/content-analytics.md)
    + Rapport {#report}
       + [Overzicht](/help/content-analytics/report/report.md)
@@ -269,7 +273,7 @@ ht-degree: 10%
       + [Handmatige configuratie](/help/content-analytics/config/manual.md)
       + [Dataverzameling](/help/content-analytics/config/datacollection.md)
 
-+ Analytische dashboards {#cja-dashboards}
++ Analysedashboards {#cja-dashboards}
    + [Overzicht](../mobile-app/home.md)
    + [Curatortaken](../mobile-app/curator.md)
    + [Mobiele scorecards maken](../mobile-app/create-scorecard.md)
@@ -363,7 +367,7 @@ ht-degree: 10%
       + [Waarschuwingen beheren](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Functievergelijking](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [Gebruik hoofdletters](/help/components/c-intelligent-alerts/alerts-use-cases.md)
-   + Exporteren {#exports}
+   + Uitvoer {#exports}
       + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
       + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)
       + [Cloud-exportlocaties beheren](/help/components/exports/manage-export-locations.md)
@@ -395,7 +399,7 @@ ht-degree: 10%
    + [Rapportactiviteiten weergeven](../reporting-activity-manager/reporting-activity.md)
    + [Rapportageverzoeken annuleren](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
-+ Stikken {#stitching}
++ Stiksel {#stitching}
    + [Overzicht](/help/stitching/overview.md)
    + [Veldgebaseerde stitatie](/help/stitching/fbs.md)
    + [Op grafiek gebaseerde stitching](/help/stitching/gbs.md)
@@ -411,12 +415,12 @@ ht-degree: 10%
    + [Beslissingsbeheergegevens integreren](/help/integrations/ajo-od.md)
    + [AI van klant integreren](/help/integrations/customer-ai.md)
 
-+ Data Governance {#cja-privacy}
++ Datagovernance {#cja-privacy}
    + [Datagovernance](../privacy/privacy-overview.md)
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
-+ Gebruik hoofdletters en kleine letters {#cja-usecases}
++ Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruikskwesties](../use-cases/cja-usecases.md)
    + Gegevens van derden {#third-party}
       + [Overzicht](/help/use-cases/third-party/overview.md)
@@ -456,7 +460,7 @@ ht-degree: 10%
       + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
    + Complexe gegevens {#complex-data}
       + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
-   + Stikken {#stitching}
+   + Stiksel {#stitching}
       + [Gedeelde apparaten](/help/use-cases/stitching/shared-devices.md)
    + Afgeleide velden {#derived-fields}
       + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
