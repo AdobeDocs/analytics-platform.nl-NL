@@ -1,23 +1,23 @@
 ---
-description: Overzicht van het reiscanvas
-title: Reiscanvas
+description: Overzicht reiscanvas
+title: Reis canvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 0%
 
 ---
 
-# Overzicht van het reiscanvas {#journey-canvas-overview}
+# Overzicht reiscanvas {#journey-canvas-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
->title="Reiscanvas"
+>title="Reis canvas"
 >abstract="Toont hoe mensen door of uit een reeks aanraakpunten te werk gaan. Wordt gebruikt voor reizen met meerdere toegangspunten en -paden, of voor het analyseren van reizen die in Journey Optimizer worden gemaakt."
 
 <!-- markdownlint-enable MD034 -->
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Reiscanvas"
->abstract="Analyseer hoe mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt. <br/><br/> Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande reizen van Journey Optimizer analyseren"
+>abstract="Analyseer hoe mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt. <br/><br/> Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande reizen van Journey Optimizer analyseren."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Reiscanvas"
->abstract="Analyseer hoe mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Net als u worden de gegevens dienovereenkomstig bijgewerkt. <br/><br/> Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande reizen van Journey Optimizer analyseren"
+>abstract="Analyseer hoe mensen door of uit een bepaalde reis te werk gaan. Analyseert gebruikersreizen door een flexibele grafiek van knopen en pijlen te creëren die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen. Sleep knooppunten op het canvas om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken. Terwijl u dat doet, worden de gegevens dienovereenkomstig bijgewerkt. <br/><br/>Klanten met toegang tot Adobe Journey Optimizer kunnen bestaande Journey Optimizer-reizen analyseren."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van het canvas van de Reis in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/> er is geen gelijkwaardige visualisatie in **Adobe Analytics**._
+_In dit artikel wordt de visualisatie van het reiscanvas in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** beschreven.<br/>Er is geen equivalente visualisatie in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -81,17 +81,17 @@ Reiscanvas biedt actioneerbare inzichten voor de meest complexe reizen.
 
 ### Pad met de hoogste conversiesnelheid {#conversion-rate-caption}
 
-Het belangrijkste inzicht in het canvas Journey wordt weergegeven als een bijschrift boven aan het canvas zelf.
+De meest prominente insight op het canvas Journey wordt weergegeven als een bijschrift boven aan het canvas zelf.
 
 Dit bijschrift geeft een overzicht van alle paden op de reis met de hoogste omrekeningskoers.
 
 Wanneer de reis veelvoudige beginknopen bevat, kijkt de titel als dit:
 
-![ Reis de sectie van het canvas van de Reis ](assets/journey-canvas-caption.png)
+![Journey canvas insight caption](assets/journey-canvas-caption.png)
 
 Wanneer de reis één enkele beginknoop bevat, kijkt de titel als dit:
 
-![ Reis de greep van het canvas van de Reis enige beginknoop ](assets/journey-canvas-caption-singlestart.png)
+![ het bijschrift van insight van het canvas van de Reis enige beginknoop ](assets/journey-canvas-caption-singlestart.png)
 
 Houd rekening met het volgende wanneer u dit bijschrift interpreteert:
 
@@ -101,22 +101,22 @@ Houd rekening met het volgende wanneer u dit bijschrift interpreteert:
 
   In de volgende tabel wordt beschreven hoe de omrekeningskoersen worden berekend op basis van het soort transport:
 
-  | Soort reis | Omrekeningskoers | Voorbeeld |
+  | Type reis | Berekening van de conversieratio | Voorbeeld |
   |---------|----------|---------|
-  | **Één enkele beginknoop en één enkele eindknoop** | Conversiesnelheid wordt berekend door het getal van het eindknooppunt te delen door dat van het beginknooppunt. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-single-path.png) samenkomen |
+  | **Een enkel startknooppunt en een enkel eindknooppunt** | De conversieratio wordt berekend door het getal van het eindknooppunt te delen door dat van het startknooppunt. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-single-path.png) samenkomen |
   | **Één enkele beginknoop en veelvoudige eindknopen** | Conversiesnelheid wordt berekend door het eindknooppunt met het hoogste getal te zoeken en dat getal te delen door dat van het beginknooppunt. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-singlestart-multiend.png) samenkomen |
   | **Veelvoudige standalone wegen, met elk weg die één enkele beginknoop en één enkele eindknoop** bevatten | Conversiesnelheid wordt berekend door het getal van het eindknooppunt te delen door dat van het beginknooppunt. Het pad met de hoogste conversiesnelheid wordt in het bijschrift beschreven. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-multi-start-separate.png) samenkomen |
   | **Veelvoudige beginknopen die op om het even welk punt in de reis in een gemeenschappelijke knoop** samenkomen | Conversiesnelheid wordt berekend door het eindknooppunt met het hoogste getal te zoeken en dat getal te delen door dat van het beginknooppunt met het laagste getal. | ![ Reis met veelvoudige begin die in een gemeenschappelijke knoop ](assets/journey-canvas-multi-start-converge.png) samenkomen |
 
 ### Doorvallen, uitvallen en meer
 
-Hier volgen enkele voorbeelden van andere inzichten die Journey canvas kan helpen bieden. U kunt kiezen of deze inzichten gebaseerd zijn op alle mensen in de gegevensweergave, op alle mensen die de reis begonnen, of op alle mensen uit het vorige knooppunt van de reis.
+Hieronder volgen enkele voorbeelden van andere inzichten die Journey Canvas kan bieden. U kunt kiezen of deze inzichten gebaseerd zijn op alle mensen in de gegevensweergave, op alle mensen die de reis begonnen, of op alle mensen uit het vorige knooppunt van de reis.
 
-#### Fallthrough
+#### Doorval
 
-* Het aantal en het percentage personen dat de reis heeft voltooid (aangekomen bij het eindknooppunt)
+* Het aantal en percentage mensen dat de reis heeft voltooid (aangekomen bij het eindknooppunt)
 
-* Het aantal en het percentage personen dat op een bepaald knooppunt van de reis aankwam
+* Het aantal en percentage mensen dat op een bepaald knooppunt van de reis is aangekomen
 
 * De meest voorkomende stap die voor of na een bepaald knooppunt van de reis is gezet
 
@@ -144,11 +144,11 @@ Reiscanvas is essentieel voor:
 
 * Fallout-analyse met ritten met meerdere toegangspunten en -paden.
 
-* Niet-lineaire ritten met meerdere ingangspunten en paden, met een vooraf gedefinieerde reeks pagina&#39;s.
+* Niet-lineaire reizen met meerdere beginpunten en paden, met een vooraf gedefinieerde reeks pagina&#39;s.
 
-* Verkennende, ad-hocanalyse die op een vooraf bepaalde reis gebaseerd is.
+* Verkennende, ad hoc analyse die gebaseerd is op een vooraf gedefinieerd traject.
 
-* Analyse die primaire metrisch behalve Zitting, Persoon, of Voorkomen vereist.
+* Analyse waarvoor een andere primaire statistiek dan Sessie, Persoon of Gebeurtenissen is vereist.
 
 * Een grondiger analyse van de reizen die van oorsprong zijn uit Adobe Journey Optimizer.
 
@@ -230,11 +230,11 @@ Het [!UICONTROL **type van Knoop**] gebied is beschikbaar slechts in Journey Opt
 
 Wijzigingen die in Journey Optimizer tijdens een reis worden aangebracht, worden alleen doorgevoerd in het canvas Journey als de reis ongewijzigd blijft op het canvas Journey.
 
-Nadat u een Journey Optimizer-reis in het canvas Journey hebt aangepast, worden wijzigingen die u aanbrengt in de reis in Journey Optimizer niet meer doorgevoerd in het canvas Journey. Om de veranderingen te zien die in het canvas van de Reis worden weerspiegeld, kunt u de reis in het canvas van de Reis schrappen en [ opnieuw creëren ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Nadat u een Journey Optimizer-reis in het canvas Journey hebt aangepast, worden wijzigingen die u aanbrengt in de reis in Journey Optimizer niet meer doorgevoerd in het canvas Journey. Als u de wijzigingen wilt zien die worden weerspiegeld in het reiscanvas, kunt u de reis verwijderen en [opnieuw maken in het reiscanvas](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Terminologische verschillen tussen Journey Optimizer en Customer Journey Analytics
 
-Bepaalde termen die in Journey Optimizer één ding betekenen, betekenen iets anders in Customer Journey Analytics. Wanneer u het canvas Journey gebruikt, worden de Customer Journey Analytics-termen gebruikt.
+Bepaalde termen die in Journey Optimizer het ene betekenen, betekenen ook iets anders in Customer Journey Analytics. Bij het gebruik van Journey canvas worden de termen Customer Journey Analytics gebruikt.
 
 | Term | Reiscanvas | Journey Optimizer |
 |---------|----------|---------|
@@ -246,10 +246,10 @@ Voor informatie over het analyseren van een reis van Journey Optimizer in het ca
 
 ## Analyses maken in Reis canvas
 
-U kunt analyses maken op het canvas Journey die zijn gebaseerd op alle afmetingen of maatstaven die beschikbaar zijn in Analysis Workspace. Of je kunt reizen analyseren die gemaakt zijn in Journey Optimizer. Voor meer informatie, zie [ een visualisatie van het canvas van de Reis vormen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+U kunt analyses maken op het canvas Journey die zijn gebaseerd op alle afmetingen of maatstaven die beschikbaar zijn in Analysis Workspace. Of u kunt reizen analyseren die zijn gemaakt in Journey Optimizer. Voor meer informatie, zie [ een visualisatie van het canvas van de Reis vormen ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 
 >[!MORELIKETHIS]
 >
-> * [ Gids van A aan Visualisatie van het Canvas van de Reis in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [Een handleiding voor visualisatie van reiscanvassen in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
