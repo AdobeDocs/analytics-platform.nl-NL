@@ -4,9 +4,9 @@ title: Een fallout-visualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U kunt op afmetingen, metriek, en filters kleven. Stel dat iemand bijvoorbeeld n
    | Optie | Beschrijving |
    |---|---|
    | **[!UICONTROL Eventual path]** (standaardwaarde) | De personen worden geteld dat *uiteindelijk* op de volgende pagina in de weg zal landen, maar niet noodzakelijk op de volgende gebeurtenis. |
-   | **[!UICONTROL Next event]** | die op de volgende pagina op het pad zal komen te liggen, helemaal bij de volgende gebeurtenis. |
+   | **[!UICONTROL Next event]** | Personen worden geteld die op de volgende pagina op het pad zullen landen bij de allervolgende gebeurtenis. |
 
 
 ## Instellingen {#settings}

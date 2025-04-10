@@ -4,7 +4,7 @@ description: Begrijp waarvoor filters worden gebruikt en hoe u een eenvoudig fil
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Filters kunnen worden gebaseerd op:
 
 - kenmerken (browsertype, apparaat, aantal bezoeken, land, geslacht);
 - interacties (campagnes, trefwoordzoekers, zoekmachines);
-- uitgang en binnenkomst (personen uit Facebook, een bepaalde landingspagina, verwijzend domein, gebeurtenis geofence);
+- uitgang en binnenkomst (personen van Facebook, een gedefinieerde landingspagina, verwijzend domein, geofence-gebeurtenis);
 - aangepaste variabelen (formulierveld, gedefinieerde categorieën, klant-id),
 - en andere criteria.
 
-Zie [ filters ](/help/components/filters/create-filters.md) voor de diverse beschikbare opties creëren om filters tot stand te brengen. U bouwt dan, wijzigt, en bewaart de definitie van een filter in de [ bouwer van de Filter ](filter-builder.md). Alternatief, kunt u snelle filters tot stand brengen gebruikend de [ Snelle filtermeester ](quick-filters.md). En u kunt filters van visualisaties in Workspace ook produceren, bijvoorbeeld gebruikend de [ Vallout ](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) visualisatie.
+Zie [ filters ](/help/components/filters/create-filters.md) voor de diverse beschikbare opties creëren om filters tot stand te brengen. U bouwt dan, wijzigt, en bewaart de definitie van een filter in de [ bouwer van de Filter ](filter-builder.md). Alternatief, kunt u snelle filters tot stand brengen gebruikend de [ Snelle filterbouwer ](quick-filters.md). En u kunt filters van visualisaties in Workspace ook produceren, bijvoorbeeld gebruikend de [ Vallout ](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) visualisatie.
 
 U gebruikt de [ manager van Filters ](manage-filters.md) om filters te beheren.
 
@@ -41,7 +41,7 @@ Vooral als beheerder verhoogt de juiste planning van filters de kans dat de filt
 
 - **Componenten**: Beslis welke componenten om in de filterdefinitie te omvatten, en tegen welke waarden de voorwaarden zouden moeten bevestigen.
 
-- **Proces**: Overweeg een goedkeuringsproces voor uw filter. Er is geen goedkeuringswerkstroom in Customer Journey Analytics maar u kunt wel een proces organiseren om te bepalen of u een filter goedkeurt of niet.
+- **Proces**: Overweeg een goedkeuringsproces voor uw filter. Er is geen goedkeuringswerkstroom in Customer Journey Analytics, maar u kunt wel een proces organiseren om te bepalen of u een filter goedkeurt of niet.
 
 - **Modulariteit**: Bepaal filters met modulariteit in mening. Zo, kunnen de gebruikers van uw filters gemakkelijk [ stapelfilters ](filter-builder.md#stack-filters) creëren om krachtige nieuwe filters tot stand te brengen.
 
