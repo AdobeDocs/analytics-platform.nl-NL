@@ -4,10 +4,10 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
+source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 1%
+source-wordcount: '2259'
+ht-degree: 0%
 
 ---
 
@@ -169,6 +169,38 @@ Customer Journey Analytics-publiek in platform weergeven:
 
 Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek [ in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
+### Begrijp verschillen in kijkcijfers tussen Customer Journey Analytics en Real-Time Customer Data Platform
+
+Tussen Customer Journey Analytics en Real-Time Customer Data Platform kunnen er verschillen in het aantal doelgroepen optreden. In de onderstaande punten wordt een gedetailleerde uitleg gegeven van deze verschillen:
+
+![ Infographic op publieksverschillen tussen Customer Journey Analytics en Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+
+**Probabilistic tegenover deterministische tellingen**
+
+De methode waarmee de lidmaatschapsnummers van de doelgroep worden berekend, verschilt tussen de twee apps, zoals hieronder wordt beschreven.
+
+* **Customer Journey Analytics**: **[!UICONTROL Total People]** metrisch in Customer Journey Analytics is een geschatte waarde. Dit betekent dat de telling een raming is die op de regels van het publiek wordt gebaseerd en het kan tussen verfrissen intervallen veranderen.
+* **Real-Time Customer Data Platform**: De telling in Real-Time Customer Data Platform is deterministisch, die op dagelijkse evaluatietaken wordt gebaseerd, en bevestigd op het tijdstip dat het publiek eindigt publicerend in het publieksportaal.
+
+**het Publiceren interval en tarief**
+
+Het publiek publiceert naar Real-Time Customer Data Platform met een snelheid van 1500 records per seconde (RPS). Bijvoorbeeld, zal een publiek van 20 miljoen leden ongeveer 3.7 uren vergen volledig te publiceren (20M/1500 RPS/3600 seconden per uur). Tijdens deze periode zijn er waarschijnlijk verschillen in het aantal gebruikers tussen de twee apps.
+
+**de fragmentatie van het Profiel**
+
+Als er al profielen bestaan die uit Customer Journey Analytics zijn geïmporteerd in Real-Time Customer Data Platform, worden deze niet als nieuwe profielen geteld. Dit kan leiden tot een lager dan verwachte profieltelling in Real-Time Customer Data Platform.
+
+**Partij tegenover het stromen publiek**
+
+Het publiek van Customer Journey Analytics wordt niet opgenomen in de dagelijkse batchevaluatietaak en blijft vast tot het volgende publicatieinterval. Andere batchdoelgroepen in Real-Time Customer Data Platform worden daarentegen om de 24 uur opnieuw beoordeeld.
+
+### Toetsmethoden om te onthouden
+
+* **Geschatte tellingen in Customer Journey Analytics**: Begrijp dat de **[!UICONTROL Total People]** telling in Customer Journey Analytics een schatting is en kan wegens het stromen gegevens en identiteitsgedrag variëren.
+* **Deterministische tellingen in Real-Time Customer Data Platform**: De telling in Real-Time Customer Data Platform is vast en verandert niet tot volgende publiceer interval.
+* **Fragmentation van het Profiel**: Houd zich ervan bewust dat de bestaande profielen in Real-Time Customer Data Platform niet tot nieuwe profieltellingen kunnen bijdragen wanneer het invoeren van Customer Journey Analytics.
+
+Door deze aspecten duidelijk te onderscheiden, kunt u uw publieksgegevens in Customer Journey Analytics en Real-Time Customer Data Platform beter begrijpen en beheren.
 
 ## Veelgestelde vragen {#faq}
 
