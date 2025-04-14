@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1918'
 ht-degree: 3%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Hier volgen een aantal veelgestelde vragen over stitching:
 
-## Verplaatsen over kanalen
+## Move across channels
 
-+++ Hoe kan ik stitching gebruiken om te zien hoe mensen zich van één kanaal aan een andere bewegen?
++++ How can I use stitching to see how people move from one channel to another?
 
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
@@ -193,7 +193,7 @@ Wees voorzichtig met &#39;samenvouwen van persoon&#39;, wat optreedt wanneer het
 | 8 | 2023-05-12 12:03 | 789 | Ongedefinieerd | **niet gedefiniëerd** |
 | 9 | 2023-05-12 12:09 | 456 | - | **niet gedefiniëerd** |
 | 10 | 2023-05-12 12:02 | 123 | - | **Cory** |
-| | | **4 apparaten** | **2 mensen**:<br/> Gebeurtenissen 1, 4, 7, 9, 10 gelaten vallen | **2 mensen**:<br/> Cory, Niet voor authentiek verklaard (doen ineenstorten aan één persoon) |
+| | | **4 devices** | **2 people**:<br/>Events 1, 4, 7, 9, 10 dropped | **2 mensen**:<br/> Cory, Niet voor authentiek verklaard (doen ineenstorten aan één persoon) |
 
 +++
 
