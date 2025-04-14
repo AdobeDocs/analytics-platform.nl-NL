@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
+source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ De volgende parameters regelen de toegang tot de Data Insights Agent in Customer
    1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
    1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
-   1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) om **Medewerker AI toe te voegen: De visualisatie van gegevens** aan **[!UICONTROL Included permission items]**.
+   1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) om **Medewerker AI toe te voegen: De Kennis van het Product** en **AI Medewerker: De Analyse van Gegevens** aan **[!UICONTROL Included permission items]**.
 
       ![ voeg toestemming ](assets/ai-assistant-permissions.png) toe.
 
