@@ -7,9 +7,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
-source-git-commit: 0e4e52cfd42db321c4a7a18a9b1473a67f87e785
+exl-id: ff8d419e-5cc6-4e1b-8cf8-9dbaa8054179
+source-git-commit: d7ee16c64761440989f2850d72b8159799bb8479
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,10 @@ Voor de implementatie van Customer Journey Analytics B2B edition gelden de volge
 | **Stap 3: Creeer gegevensmeningen** | Een gegevensmening is gefilterde a ** mening van de gegevens. U kunt verschillende gegevensweergaven maken voor dezelfde verbinding, met verschillende instellingen voor de time-out van een bezoek, toewijzing en meer. U kunt veelvoudige gegevensmeningen voor één enkele dataset tot stand brengen. U hebt extra opties wanneer u een gegevensmening vormt wanneer u de B2B edition hebt.<br> zie [ een gegevensmening ](/help/data-views/create-dataview.md) creëren. |
 | **Stap 4: Rapport over uw dwars-kanaalgegevens in Workspace** | Nadat u verbindingen en gegevensmeningen hebt gecreeerd, analyseer de B2B gegevens u binnen gebruikend de macht en de flexibiliteit van Analysis Workspace hebt gebracht.<br> zie [ basisanalyse ](/help/analysis-workspace/perform-basic-analysis.md) uitvoeren en [ geavanceerde analyse ](/help/analysis-workspace/perform-adv-analysis.md) uitvoeren. |
 
-## Hoofdletters gebruiken
+<!--
 
-Het [ B2B document van het Geval van het Gebruik ](../data-ingestion/data-ingestion.md) verstrekt een geval van het voorbeeldgebruik op hoe te om Customer Journey Analytics B2B edition uit te voeren.
+## Use Case
+
+The [B2B Use Case ](../data-ingestion/data-ingestion.md) document provides an example use case on how to implement Customer  Journey Analytics B2B Edition.
+
+-->
