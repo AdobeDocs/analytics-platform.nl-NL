@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 320b1cb94f63d0e6813999c1dc293b7e78ac7845
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -25,7 +25,7 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
 1. Zodra u met de configuratiewaarden vertrouwd bent, kunt u de configuratie uitvoeren. Deze implementatie leidt tot alle vereiste artefacten, die op wat worden gebaseerd u in de tovenaar hebt gevormd.
 1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen publiceert, wordt uw configuratie van Content Analytics effectief opgesteld en de gegevensinzameling is begonnen.
 
-1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ mening van Gegevens ](/help/data-views/data-views.md).
+1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ gegevensmening ](/help/data-views/data-views.md).
 1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
 1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen effectief opgesteld en de gegevensinzameling, die op uw veranderingen wordt gebaseerd, is begonnen.
 
@@ -35,11 +35,11 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
 Voordat u Content Analytics configureert, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U hebt de gebruikersagent en IP adres voor de featurisatieservice toegestaan-vermeld die in de Analytics van de Inhoud wordt gebruikt. Het koord van de Agent van de Gebruiker om te vormen is: <code> AdobeFeaturization/1.0</code>.
-* Als u [ SDK van het Web gebruikend Javascript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) {target="_blank"} voor regelmatige inzameling van gedragsgegevens hebt uitgevoerd, zorg ervoor u de standaardnaam <code> legering gebruikt</code> voor de Javascript-bibliotheek.
+* Als u [ SDK van het Web gebruikend Javascript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"} voor regelmatige gedragsgegevensinzameling hebt uitgevoerd, zorg ervoor u de standaardnaam <code> gebruikt.</code> voor de Javascript-bibliotheek.
 * U hebt een Customer Journey Analytics Product Administrator-rol, met de extra machtigingen om verbindingen te beheren en gegevensweergaven te beheren.
-* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions) {target="_blank"} hebben. Deze machtiging bestaat uit:
-   * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions) {target="_blank"}
-   * [ de toestemmingen van de Inzameling van Gegevens van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions) {target="_blank" }
+* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"} hebben. Deze machtiging bestaat uit:
+   * [Experience Platform permissions](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Experience Platform Data Collection permissions](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * U hebt zorgvuldig de volgende belangrijke configuratieopties overwogen:
 
    * Uw site is geschikt voor ervaringsrapporten. Een correcte rapportage van de ervaring is alleen mogelijk als aan de volgende voorwaarden is voldaan:
