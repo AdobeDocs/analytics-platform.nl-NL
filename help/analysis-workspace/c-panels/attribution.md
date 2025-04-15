@@ -4,7 +4,7 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 8%
@@ -43,7 +43,7 @@ Customer Journey Analytics verbetert de attributie door het volgende te laten:
 * Gebruik een onbeperkte vergelijkingsmodelvergelijking: vergelijk dynamisch zoveel modellen als u wilt.
 * Vermijd implementatieveranderingen: Met rapport-tijd verwerking en context-bewuste zittingen, kan de context van de klantenreis binnen worden gebouwd en bij runtime worden toegepast.
 * Construeer de sessie die het beste overeenkomt met uw attributiescenario.
-* Verdeling naar filters: vergelijk eenvoudig de prestaties van uw marketingkanalen met elk belangrijk filter (bijvoorbeeld New versus Repeat-klanten, Product X versus Product Y, Loyalty level of CLV).
+* Uitsplitsing naar kenmerk per segment: vergelijk eenvoudig de prestaties van uw marketingkanalen voor elk belangrijk segment (bijvoorbeeld New vs. Repeat-klanten, Product X versus Product Y, Loyalty level of CLV).
 * Controle dankzij &#39;channel cross-over&#39; en multi-touchanalyse: gebruik Venn-diagrammen en histogrammen en volg de trends in attributieresultaten.
 * Visuele analyse van belangrijke marketingreeksen: werk met visuele methoden die leiden tot conversie, zoals flows voor meerdere knooppunten en uitvalvisualisaties.
 * Stel berekende standaarden samen: gebruik een willekeurig aantal toewijzingsmethoden voor attributie.
@@ -82,7 +82,7 @@ De volgende visualisatie maakt deel uit van de paneeluitvoer.
 
 * **Totaal metrisch**: Het totale aantal omzettingen die over het rapporteringstijdvenster voorkwamen, en aan de afmeting worden toegeschreven u selecteerde.
 * **de Vergelijkingsbar van de Attributie**: Vergelijkt visueel de toegeschreven omzettingen over elk van de afmetingspunten van uw geselecteerde afmeting. Elke staafkleur vertegenwoordigt een afzonderlijk attributiemodel.
-* **Lijst van de Vergelijking van de Attributie**: Toont de zelfde gegevens zoals het staafdiagram, dat als lijst wordt vertegenwoordigd. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze tabel werkt op dezelfde manier als elke andere Freeform-tabel in Workspace, zodat u componenten kunt toevoegen, zoals metriek, filters of indelingen.
+* **Lijst van de Vergelijking van de Attributie**: Toont de zelfde gegevens zoals het staafdiagram, dat als lijst wordt vertegenwoordigd. Als u verschillende kolommen of rijen in deze tabel selecteert, wordt het staafdiagram en een aantal andere visualisaties in het deelvenster geselecteerd. Deze lijst doet gelijkaardig aan een andere lijst van Freeform in Workspace - toestaand u om componenten zoals metriek, segmenten, of onderverdelingen toe te voegen.
 * **Overlap Diagram**: Een beeld die van de Venn de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. Bijvoorbeeld, wijst de grootte van de bel overlapping erop hoe vaak omzettingen voorkwamen wanneer een persoon aan beide afmetingspunten werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
 * **Detail van Prestaties**: Een spreidingsvisualisatie om tot drie attributiemodellen visueel te vergelijken.
 * **Getweende Prestaties**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.

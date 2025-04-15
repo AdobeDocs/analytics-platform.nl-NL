@@ -5,7 +5,7 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 100fe0c9bf5dd1db78ae8188e8de1f8ea53123dc
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1969'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
 1. (Voorwaardelijk) Als u één project deelt, kies of om de volgende opties toe te laten wanneer het delen van het project:
 
-   * **Deel ingebedde projectcomponenten:** de filters van Aandelen, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten zijn gedeeld, worden deze weergegeven in de vervolgkeuzelijst Componenten van de Workspace van de ontvanger. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
+   * **Deel ingebedde projectcomponenten:** deelt segmenten, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten zijn gedeeld, worden deze weergegeven in de vervolgkeuzelijst Componenten van de Workspace van de ontvanger. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
    * **Reeks als het landen pagina voor ontvangers:** plaatst deze pagina als het landen pagina voor ontvangers. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
@@ -147,7 +147,7 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Customer Journey Analytics.
 >
->* De gebruikers u met deelt kunnen om het even welke filters bekijken die op het project tijdens [ kromming ](curate.md) werden toegepast.
+>* De gebruikers u met deelt kunnen om het even welke segmenten bekijken die op het project tijdens [ curatie ](curate.md) werden toegepast.
 > 
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 >

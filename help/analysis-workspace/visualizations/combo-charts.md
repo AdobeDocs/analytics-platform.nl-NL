@@ -4,7 +4,7 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: acb4d9269d604857eaef80466d6f7b9b46d53c26
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de Combo visualization in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Dit artikel documenteert Combo visualization in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 _zie [ Combo ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
@@ -45,7 +45,7 @@ Houd er rekening mee dat:
 * U kunt meerdere vergelijkingen toevoegen in één [!UICONTROL Combo chart] .
 * Als u een of meer vergelijkingen toevoegt, moeten deze van hetzelfde type zijn, zoals [!UICONTROL Time comparison] .
 * U kunt maximaal vijf vergelijkingen maken.
-* U kunt maximaal drie filters toepassen op een metrische waarde.
+* U kunt maximaal drie segmenten toepassen op een metrische waarde.
 * Berekende metriek worden niet ondersteund in Combo-diagrammen.
 
 ## Gebruiken

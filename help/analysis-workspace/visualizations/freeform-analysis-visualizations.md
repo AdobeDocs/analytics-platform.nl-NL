@@ -5,7 +5,7 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 1%
@@ -28,7 +28,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) | Een grafiekvisualisatie van opsommingstekens, die toont hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
 | ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Een cohortvisualisatie is een groep mensen die gemeenschappelijke kenmerken gedurende een bepaalde periode delen. Een cohorttabel is handig voor analyse van retentie, churn of latentie. |
 | ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](combo-charts.md) | Met een combinatiekaart kunt u snel een vergelijkingsvisualisatie maken zonder eerst een tabel te hoeven maken. |
-| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden gegevens in een donutvisualisatie weergegeven als delen of filters van een geheel. |
+| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden gegevens in een donutvisualisatie weergegeven als delen of segmenten van een geheel. |
 | ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Een fallout-visualisatie laat zien waar personen een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorvallen). |
 | ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Met een stroomvisualisatie kunt u via uw websites en apps precies zien wat de klanten precies doen. |
 | ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een vrije tabelvisualisatie is een interactieve visualisatie. De visualisatie van de vrije-vormlijst is de stichting voor gegevensanalyse in Workspace. |
@@ -44,7 +44,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) | Bij een overzichtsnummervisualisatie wordt de geselecteerde cel weergegeven als één groot getal. |
 | ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | Met een tekstvisualisatie kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
 | ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | Bij een treemapvisualisatie worden hiërarchische (gestructureerde) gegevens weergegeven als een set geneste rechthoeken. |
-| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | Bij een vlindervisualisatie worden cirkels gebruikt om de metrische overlapping van maximaal drie filters weer te geven. |
+| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | Bij een vlindervisualisatie worden cirkels gebruikt om de metrische overlapping van maximaal 3 segmenten weer te geven. |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -144,7 +144,7 @@ Gebruik het contextmenu (beschikbaar via een alternatieve selectie, bijvoorbeeld
 | **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
 | **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
 | **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie naar uw lokale apparaat. |
-| **[!UICONTROL Export full table]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van de Customer Journey Analytics van Uitvoer aan de wolk ](../export/export-cloud.md) |
+| **[!UICONTROL Export full table]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
 | **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](text.md). |
 | **[!UICONTROL Get visualization link]** | Kopieer en deel een koppeling rechtstreeks naar de visualisatie. De koppeling wordt weergegeven in een dialoogvenster voor het delen van een koppeling. Selecteer Kopiëren om de koppeling naar het klembord te kopiëren. |
@@ -158,6 +158,6 @@ Sommige visualisaties (zoals de lijst van de Cohort, Vallout, Stroom, en anderen
 
 ## Visualiseren
 
-Als u niet zeker bent welke visualisatie om te plukken, uitgezochte ![ GraphBarVerticalAdd ](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualize]** in om het even welke vrije rij van de lijstlijst (beschikbaar bij aanwijzen). Deze selectie is de snelste manier om een visualisatie toe te voegen. Analysis Workspace neemt een goed doordachte veronderstelling waar visualisatie het beste aan uw gegevens zou voldoen. Bijvoorbeeld, als u één geselecteerde rij hebt, leidt het tot een trended [ lijngrafiek ](line.md). Als u drie geselecteerde filterrijen hebt, leidt het tot a [ vlinderdiagram ](venn.md).
+Als u niet zeker bent welke visualisatie om te plukken, uitgezochte ![ GraphBarVerticalAdd ](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualize]** in om het even welke vrije rij van de lijstlijst (beschikbaar bij aanwijzen). Deze selectie is de snelste manier om een visualisatie toe te voegen. Analysis Workspace neemt een goed doordachte veronderstelling waar visualisatie het beste aan uw gegevens zou voldoen. Bijvoorbeeld, als u één geselecteerde rij hebt, leidt het tot een trended [ lijngrafiek ](line.md). Als u drie geselecteerde segmentrijen hebt, leidt het a [ venn ](venn.md) diagram.
 
 ![ Snelle visualisatie ](assets/quick-viz.png)

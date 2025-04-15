@@ -5,7 +5,7 @@ feature: Workspace Basics
 title: Workspace-sneltoetsen gebruiken
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 | Een waarschuwing maken | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
 | Berekende metrisch maken | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
 | Een datumbereik maken | **[!UICONTROL *cmd + shift + d *]** | **[!UICONTROL *ctrl + shift + d *]** |
-| Een filter maken | **[!UICONTROL *cmd + shift + e *]** | **[!UICONTROL *ctrl + shift + e *]** |
+| Een segment maken | **[!UICONTROL *cmd + shift + e *]** | **[!UICONTROL *ctrl + shift + e *]** |
 | Alles wissen | **[!UICONTROL *alt + w *]** | **[!UICONTROL *opt + w *]** |
 | Kopiëren | **[!UICONTROL *cmd + c *]** | **[!UICONTROL *ctrl + c *]** |
 | Opnieuw | **[!UICONTROL *cmd + shift + z *]** | **[!UICONTROL *ctrl + shift + z *]** |

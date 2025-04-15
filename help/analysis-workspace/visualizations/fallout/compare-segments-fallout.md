@@ -1,20 +1,20 @@
 ---
-description: U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
-keywords: fallout en filters;filters in fallout-analyse;vergelijk filters in fallout
-title: Filters toepassen in falloutanalyse
+description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
+keywords: fallout en segmenten;segmenten in falloutanalyse;vergelijk segmenten in fallout
+title: Segmenten toepassen in een falloutanalyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# Filters toepassen in falloutanalyse
+# Segmenten toepassen in een falloutanalyse
 
-U kunt filters maken vanuit een aanraakpunt, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
+U kunt vanuit een aanraakpunt segmenten maken, filters toevoegen als aanraakpunt en hoofdworkflows vergelijken met verschillende filters in Analysis Workspace.
 
 >[!IMPORTANT]
 >

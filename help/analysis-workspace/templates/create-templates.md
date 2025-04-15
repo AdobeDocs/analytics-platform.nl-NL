@@ -4,7 +4,7 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
    | **[!UICONTROL Name]** | Geef een beschrijvende naam op voor de sjabloon. |
    | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
    | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
-   | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke segmenten van toepassing zijn op gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
    | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** de **[!UICONTROL Journey Optimizer]** optie is beschikbaar slechts als de gegevens van Journey Optimizer in de gegevensmening bestaan u in Customer Journey Analytics gebruikt. Als u **[!UICONTROL Journey Optimizer]** kiest, wordt de sjabloon beschikbaar voor gebruik in Adobe Journey Optimizer. In Journey Optimizer is een vervolgkeuzemenu beschikbaar op de pagina **[!UICONTROL Reports]** , waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
    | **[!UICONTROL Journey Optimizer activity type]** | Kies het type Journey Optimizer-activiteit dat u aan deze sjabloon wilt koppelen: **[!UICONTROL Campaigns]** , **[!UICONTROL Journeys]** , **[!UICONTROL Landing pages]** , **[!UICONTROL Reports]** of **[!UICONTROL Subscriptions]** . <p>Laat dit veld leeg als u deze sjabloon wilt koppelen aan alle typen activiteiten.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Journey Optimizer activity]** | Kies de Journey Optimizer-activiteit die u aan deze sjabloon wilt koppelen. <p>Laat dit veld leeg als u wilt dat deze sjabloon wordt gekoppeld aan alle activiteiten van het geselecteerde type activiteit.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
@@ -121,7 +121,7 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 
 ## Ontbrekende componenten toevoegen aan de gegevensweergave voor een bepaalde sjabloon
 
-Door gebrek, kunnen sommige malplaatjes die door Adobe worden verstrekt niet worden gebruikt omdat zij componenten bevatten die niet in uw gegevensmening zijn.
+Bepaalde sjablonen die door Adobe worden aangeboden, kunnen standaard niet worden gebruikt omdat ze componenten bevatten die niet in de gegevensweergave staan.
 
 Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet het overeenkomende contextlabel toevoegen aan een component die zich al in de gegevensweergave bevindt, of u moet een nieuwe component aan de gegevensweergave toevoegen en er een contextlabel aan toevoegen.
 
@@ -188,7 +188,7 @@ Ontbrekende componenten toevoegen aan een sjabloon:
 
 ## Toegang tot een bedrijfssjabloon
 
-Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
+Net als met sjablonen die door Adobe worden geleverd, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
 Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md) in werking.
 

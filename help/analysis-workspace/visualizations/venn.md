@@ -1,10 +1,10 @@
 ---
-description: Met de Venn-visualisatie kunt u maximaal drie filters (van Componenten) en één metrisch inslepen om een Venn-diagram te maken.
+description: Met de Venn-visualisatie kunt u maximaal drie segmenten (van Componenten) en één metrische waarde slepen om een Venn-diagram te maken.
 title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -30,11 +30,11 @@ _dit artikel documenteert de visualisatie van de Venn in_ ![ CustomerJourneyAnal
 >[!ENDSHADEBOX]
 
 
-Het ![ Type ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualisatie laat u binnen tot 3 filters en één metrisch (van het paneel van Componenten) slepen om een diagram van de Venn te bouwen.
+Het ![ Type ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualisatie laat u in maximaal 3 segmenten en één metrisch (van het paneel van Componenten) slepen om een diagram van de Venn te bouwen.
 
-![ De visualisatie van de venn die drie filters omvat.](assets/venn.png)
+![ Vlinvisualisatie die drie segmenten omvat.](assets/venn.png)
 
-U kunt de muisaanwijzer boven de filters plaatsen om meer inzicht te krijgen in percentages en nog veel meer.
+U kunt de muisaanwijzer op de segmenten plaatsen om meer insight in percentages en meer te verkrijgen.
 
 Om a [!UICONTROL Freeform table] van [!UICONTROL Venn] visualisatie te produceren, selecteer gekleurde ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) naast de **[!UICONTROL Venn]** kopbal en selecteer **[!UICONTROL Show data source]**. Er wordt een **[!UICONTROL Venn Data]** Freeform-tabel weergegeven met de gegevens die worden gebruikt om de [!UICONTROL Venn] visualisatie te maken.
 

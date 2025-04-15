@@ -4,7 +4,7 @@ title: Statistische technieken voor de opsporing van anomalieën
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 ## Anomalische detectie voor dagelijkse granulariteit
 
-Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele filtering genoemd).
+Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele segmentering genoemd).
 
-De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven in [Hyndman et al. 2008](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van de tijdreeksen is gebaseerd op de volgende combinaties voor type van fout, trend, en seizoonaliteit (ETS) zoals die door [ wordt beschreven Hyndman et al. (2008) ](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)
@@ -29,7 +29,7 @@ De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor he
 1. MNA (multiplicatieve fout, geen trend, additieve seizoensgebondenheid)
 1. AN (additieve fout, additieve trend, geen seizoensgebonden karakter)
 
-Het algoritme test de geschiktheid van elk van deze door één met het beste gemiddelde absolute percentagefout (MAPE) te selecteren. Als de MAPE van het beste tijdreeksmodel echter groter is dan 15%, wordt functionele filtering toegepast. Doorgaans zijn gegevens met een hoge herhalingsgraad (bv. week in week of maand in maand) het meest geschikt voor een tijdreeksmodel.
+Het algoritme test de geschiktheid van elk van deze door één met het beste gemiddelde absolute percentagefout (MAPE) te selecteren. Als de MAPE van het beste tijdreeksmodel echter groter is dan 15%, wordt functionele segmentering toegepast. Doorgaans zijn gegevens met een hoge herhalingsgraad (bv. week in week of maand in maand) het meest geschikt voor een tijdreeksmodel.
 
 Na modelselectie past het algoritme vervolgens de resultaten aan op basis van vakantie en seizoensgebondenheid van jaar tot jaar. Voor feestdagen controleert het algoritme of een van de volgende feestdagen aanwezig is in het rapportagedatumbereik:
 
@@ -56,7 +56,7 @@ Zodra het model is geselecteerd en de feestdagen zijn geïdentificeerd in de rap
 
 U ziet de dramatische verbetering van de prestaties op kerstdag en Nieuwjaarsdag in het volgende voorbeeld:
 
-![Twee lijngrafieken die prestatiesveranderingen met en zonder vakantieprestaties tonen.](assets/anomaly_statistics.png)
+![ twee lijngrafieken die prestatiesveranderingen met en zonder vakantieprestaties tonen.](assets/anomaly_statistics.png)
 
 ## Anomaly-detectie voor korrelvormigheid per uur
 

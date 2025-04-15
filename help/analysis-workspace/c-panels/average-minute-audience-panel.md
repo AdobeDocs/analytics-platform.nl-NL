@@ -4,7 +4,7 @@ description: Het mediapictogram voor een gemiddeld aantal minuten in Analysis Wo
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Gemiddeld aantal minuten voor medium"
->abstract="Toont de prestaties van specifieke media inhoud of de prestaties over een periode van de douanetijd. Geef de rapportdimensie en eventueel de filterinhoud op."
+>abstract="Toont de prestaties van specifieke media inhoud of de prestaties over een periode van de douanetijd. Geef de rapportdimensie en eventueel de segmentinhoud op."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Met de invoerinstellingen die in deze sectie worden beschreven, kunt u het deelv
    | Instelling | Beschrijving |
    |---------|------------|
    | **waaier van de paneeldatum** | Het gebrek van de waaier van de paneeldatum is [!UICONTROL **Deze maand**]. U kunt de presentatie bewerken om één dag of meerdere maanden tegelijk weer te geven. <br></br> Deze visualisatie is beperkt tot 1440 rijen met gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
-   | [!UICONTROL **Daling een segment hier (of een andere component)**] | Net als andere deelvensters worden met deze instelling de selecties gefilterd op basis van segmenten die u hebt gemaakt. Deze instelling is een uitstekende manier om naar specifieke platforms, live streams of andere veelgebruikte mediasegmenten te kijken. |
+   | [!UICONTROL **Daling een segment hier (of een andere component)**] | Net als andere deelvensters segmenteert deze instelling uw selecties op basis van segmenten die u hebt gemaakt. Deze instelling is een uitstekende manier om naar specifieke platforms, live streams of andere veelgebruikte mediasegmenten te kijken. |
    | [!UICONTROL **berekent metrisch voor**] | Kies of u het gemiddelde aantal minuten voor [**[!UICONTROL Specific content]**](#specific-content) wilt zien. Of als u het gemiddelde aantal minuten voor een [**[!UICONTROL Custom time period]**](#custom-time-period) wilt zien.<br/><br/> Uitgezochte [!UICONTROL **de tijdperiode van de Douane**]: <ul><li>Als de duur niet beschikbaar is, of </li><li>als u het gemiddelde aantal minuten voor een tijdreeks met meerdere inhoud wilt weergeven, of</li><li>voor inhoud zonder een specifieke toegewezen duur (zoals tijdens een live stream of gebeurtenis)</li></ul></li></li></ul> <p>Met deze instelling wijzigt u de workflow en de rapportuitvoer.</p> |
 
 1. Ga met [ Specifieke inhoud ](#specific-content) of [ de tijdperiode van de Douane ](#custom-time-period), afhankelijk van de optie voort u in [!UICONTROL **kiest metrisch voor**] drop-down lijst berekent.

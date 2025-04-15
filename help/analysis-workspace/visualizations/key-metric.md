@@ -4,7 +4,7 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Deze visualisatie is gericht op verschillende veelvoorkomende gebruiksgevallen, 
    | **[!UICONTROL Metric]** | Selecteer metrisch u wilt onderzoeken. Alle metriek worden ondersteund. |
    | **[!UICONTROL Primary date range]** | Het huidige datumbereik voor de vrije-vormtabel.<p>Maak een keuze uit de beschikbare datumbereiken in de gegevensweergave.</p> <p>Kies [!UICONTROL **de datumwaaier van het Comité**] als u de zelfde datumwaaier wilt gebruiken die op het paneel wordt gebruikt waar de visualisatie wordt gevestigd.</p> |
    | **[!UICONTROL Comparison date range]** | Het datumbereik dat u wilt vergelijken met het primaire datumbereik. |
-   | **[!UICONTROL Filter (optional)]** | Filters waarin u interesse hebt voor deze samenvatting. |
+   | **[!UICONTROL Filter (optional)]** | Elk segment waarin u geïnteresseerd bent voor deze samenvatting. |
 
    {style="table-layout:auto"}
 
@@ -153,7 +153,7 @@ Na het bouwen van visualisatie, kunt u de originele configuratie nog uitgeven.
 
    U wordt nu teruggezet naar de originele configuratiemening.
 
-1. Wijzig desgewenst het metrische bereik, het primaire datumbereik, het vergelijkingsdatumbereik of het filter.
+1. Verander metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, of het segment zoals aangewezen.
 
 >[!MORELIKETHIS]
 >

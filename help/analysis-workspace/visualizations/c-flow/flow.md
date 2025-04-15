@@ -4,7 +4,7 @@ title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Met de visualisatie kunt u:
 
 * Visualiseer de reis van de klant door uw website of toepassing.
 * Analyseer waar klanten voor en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting, of uitgang gaan.
-* Maak filters door een specifiek punt in een gekozen pad aan te wijzen.
+* Maak segmenten door een specifiek punt op te geven in een gekozen pad.
 
 
 >[!BEGINSHADEBOX]

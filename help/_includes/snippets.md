@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3f84fd36c4859a4325774be2a6cb8793cda2295e
+source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
 workflow-type: tm+mt
-source-wordcount: '3466'
+source-wordcount: '3756'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ ht-degree: 0%
 
 | Optie | Functie |
 |---------|----------|
-| **[!UICONTROL Recommended]** | Sorteer componenten voor elk type (afmeting, metrisch, filter en datumbereik) op basis van hun aanbeveling. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in elke lijst. |
-| **[!UICONTROL Last modified]** | Sorteer componenten voor elk type (afmeting, metrisch, filter en datumbereik) op basis van de datum die als laatste is gewijzigd. De componenten die onlangs worden gewijzigd worden getoond hoger in elke lijst. |
-| **[!UICONTROL Alphabetical]** | Sorteer componenten voor elk type (afmeting, metrisch, filter en datumbereik) in oplopende alfabetische volgorde. |
-| **[!UICONTROL Categorical]** | Sorteer componenten voor elk type (afmeting, metrisch, filter en datumbereik) op basis van hun categorie. Bijvoorbeeld gekromde versus niet-gekromde componenten van de gegevensmening. |
+| **[!UICONTROL Recommended]** | De componenten van de soort voor elk type (afmeting, metrisch, segment en datumwaaier) die op hun aanbeveling wordt gebaseerd. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in elke lijst. |
+| **[!UICONTROL Last modified]** | De componenten van de soort voor elk type (afmeting, metrisch, segment en datumwaaier) die op hun laatste gewijzigde datum wordt gebaseerd. De componenten die onlangs worden gewijzigd worden getoond hoger in elke lijst. |
+| **[!UICONTROL Alphabetical]** | Sorteer componenten voor elk type (afmeting, metrisch, segment en datumbereik) in oplopende alfabetische volgorde. |
+| **[!UICONTROL Categorical]** | De componenten van de soort voor elk type (afmeting, metrisch, segment en datumwaaier) die op hun categorie wordt gebaseerd. Bijvoorbeeld gekromde versus niet-gekromde componenten van de gegevensmening. |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 ## Adobe Analytics voor videodemonstratie {#videoaa}
 
-*Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld segmenten versus filters, of bezoeken versus sessies).*
+*Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld &quot;bezoeken&quot; versus &quot;sessies&quot;).*
 
 
 ## Deelvenster Filters {#filterspanel}
@@ -138,13 +138,13 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **30 Dagen**: Zoekt file tot 30 dagen vanaf toen de omzetting gebeurde.
 * **60 Dagen**: Zoekt file tot 60 dagen vanaf toen de omzetting gebeurde.
 * **90 Dagen**: Zoekt file tot 90 dagen vanaf toen de omzetting gebeurde.
-* **13 Maanden** [!BADGE  B2B edition ]{type=Informative}
+* **13 maanden** [!BADGE  B2B edition ]{type=Informative}: Zoekt file aan 13 maanden vanaf toen de omzetting gebeurde.
 * **Zitting**: Zoekt file aan het begin van de zitting waar een omzetting gebeurde. De raadplegingsvensters van de zitting respecteren de gewijzigde [ onderbreking van de Zitting ](/help/data-views/create-dataview.md#session-settings) in een gegevensmening.
 * **Persoon (Meldend Venster)**: Zoekt bij alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de persoonlijke terugzoekdatum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
-* **Globale Rekening (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}
-* **Rekeningen (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}
-* **Kans (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}
-* **het Kopen groep (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}
+* **Globale Rekening (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle globale rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de globale terugzoekdatum van de account 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Rekeningen (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de accountolookback-datum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Kans (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle kansen tot aan de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de opportunitylookbackdatum 1-30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **het Kopen groep (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt bij alle het kopen groepen file tot de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugnamedatum van de inkoopgroep de periode van 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
 * **Tijd van de Douane:** staat u toe om een venster van de douaneterugblik van te plaatsen wanneer een omzetting gebeurde. U kunt het aantal minuten, uren, dagen, weken, maanden of kwartalen opgeven. Bijvoorbeeld, als een omzetting op 20 februari gebeurde, zou een terugkijkvenster van vijf dagen alle afmetingstips van 15 februari tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld van kenmerk {#attribution-example}
@@ -236,7 +236,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ] wordt badged{type=Informative}<br/> ook, [!BADGE  B2B edition ]{type=Informative}[!BADGE  B2B edition ]{type=Informative}<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ]{type=Informative} wordt badged.  bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. <br/> ook, [!BADGE  B2B edition ]{type=Informative} functionaliteiten en documentatie van [!BADGE  B2B edition ]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 >
 
 
@@ -244,4 +244,4 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!INFO]
 >
-In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE  B2B edition ]{type=Informative}
+>In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE  B2B edition ]{type=Informative}.

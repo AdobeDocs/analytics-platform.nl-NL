@@ -5,7 +5,7 @@ title: Gebruiksgevallen van cohortanalyse
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -32,23 +32,23 @@ De personen tellen niet als *bezeten* in verdere maanden, tenzij zij een zitting
 
 ## Gebruiksscenario voor abonnement
 
-U werkt op Adobe.com en biedt een gratis abonnement op Creatives Cloud. Het is de bedoeling dat gebruikers een upgrade uitvoeren van de gratis versie naar de proefversie van 30 dagen of uiteindelijk naar de betaalde versie.
+U werkt op Adobe.com en biedt een gratis Creative Cloud-abonnement. Het is de bedoeling dat gebruikers een upgrade uitvoeren van de gratis versie naar de proefversie van 30 dagen of uiteindelijk naar de betaalde versie.
 
 **Korreligheid**: Maandelijks
 
 **metrische Opname**: De Verbinding van de download
 
-**metrische terugkeer**: Schaf betaald Creative Cloud aan
+**metrische terugkeer**: Koop Betaalde Creative Cloud
 
-Met [!UICONTROL Cohort Analysis] kunt u bijvoorbeeld zien dat gebruikers met een gratis Creative Cloud in de eerste maand na de installatie overal tussen 8% en 10% een upgrade uitvoeren. Ongeacht wanneer de gebruikers hebben geïnstalleerd. 12-15% verbetering in de tweede maand van gebruik. Daarna daalt de opwaardering aanzienlijk: 4-5% in maand drie, 3-4% in maand vier en 1-2% in maand vijf.
+Met [!UICONTROL Cohort Analysis] kunt u bijvoorbeeld zien dat 8% tot 10% van de gratis Creative Cloud-gebruikers de eerste maand na de installatie een upgrade uitvoeren. Ongeacht wanneer de gebruikers hebben geïnstalleerd. 12-15% verbetering in de tweede maand van gebruik. Daarna daalt de opwaardering aanzienlijk: 4-5% in maand drie, 3-4% in maand vier en 1-2% in maand vijf.
 
 U wilt geen potentiële klanten in maand drie verliezen. U hebt dus een e-mailcampagne opgezet om halverwege de derde maand naar een voorbeeld van gebruikers te gaan. Gebruikers die nog geen upgrade hebben uitgevoerd, krijgen een coupon van $50 te zien.
 
-Bekijk de rapporten van uw cohortanalyse een paar maanden later. Voor cohorten die na de start van de campagne zijn gevormd, is de conversie naar abonnementen op betaalbaar Creative Cloud in maand drie gestegen van 4-5% naar 13-14%. Deze stijging van de conversie resulteert in honderdduizenden dollars per cohort, voor elke maandelijkse cohort die maand drie van dat punt vooruit raakt.
+Bekijk de rapporten van uw cohortanalyse een paar maanden later. Voor cohorten die na de start van de campagne zijn gevormd, is de conversie naar betaalabonnementen voor Creative Cloud in maand drie gestegen van 4-5% naar 13-14%. Deze stijging van de conversie resulteert in honderdduizenden dollars per cohort, voor elke maandelijkse cohort die maand drie van dat punt vooruit raakt.
 
-## Complexe cohortfilters gebruiken hoofdletters
+## Complexe Cohortsegmenten gebruiken hoofdletters
 
-Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen van gebruikerscohorten te identificeren aan doel, willen zij zeer specifieke cohortgroepen tot stand brengen. Met behulp van de toegevoegde [!UICONTROL Inclusion] - en [!UICONTROL Return] criteria in [!UICONTROL Cohort] tabellen kan de hotelketen alleen de juiste cohortgroepen definiëren met meerdere meetwaarden en filters. Zo, kan de hotelketen ondermaatse klantengroepen identificeren om klanten met bevorderingen en overeenkomsten te richten om boekingen te verhogen.
+Een belangrijke hotelketen richt veelvoudige klantengroepen voor bevorderingen en sporen tegen prestaties. Om de beste groepen van gebruikerscohorten te identificeren aan doel, willen zij zeer specifieke cohortgroepen tot stand brengen. Met behulp van de toegevoegde [!UICONTROL Inclusion] - en [!UICONTROL Return] criteria in [!UICONTROL Cohort] tabellen kan de hotelketen alleen de juiste cohortgroepen definiëren met meerdere maateenheden en segmenten. Zo, kan de hotelketen ondermaatse klantengroepen identificeren om klanten met bevorderingen en overeenkomsten te richten om boekingen te verhogen.
 
 ## Toepassingsversie adoptie-case
 
@@ -60,8 +60,8 @@ Een multinational in de media gebruikt gerichte campagnes om gebruikers naar hun
 
 ## Gebruiksscenario bij starten van product
 
-Een grote apparel detailhandelaar heeft vele specifieke klantenfilters die grote delen van opbrengst voor hun zaken drijven. Elk filter heeft specifieke producten die met het filter in mening worden ontworpen en gecreeerd. Bij elke productintroductie willen ze weten hoe het nieuwe product de verkoop aan verschillende cohorten in de loop der tijd heeft gestimuleerd. Met de nieuwe instelling [!UICONTROL Latency Table] in [!UICONTROL Cohort Analysis] kunnen ze het gedrag en de inkomsten van een bepaald klantfilter voor en na het starten analyseren. Op basis van deze informatie kunnen zij vaststellen welke producten nieuwe inkomsten genereren en die geen tractie krijgen met klanten.
+Een grote apparel retailer heeft vele specifieke klantensegmenten die grote delen van opbrengst voor hun zaken drijven. Elk segment heeft specifieke producten die met het segment in mening worden ontworpen en worden gecreeerd. Bij elke productintroductie willen ze weten hoe het nieuwe product de verkoop aan verschillende cohorten in de loop der tijd heeft gestimuleerd. Met de nieuwe instelling [!UICONTROL Latency Table] in [!UICONTROL Cohort Analysis] kunnen ze het gedrag en de inkomsten van een bepaald klantensegment vóór en na het starten analyseren. Op basis van deze informatie kunnen zij vaststellen welke producten nieuwe inkomsten genereren en die geen tractie krijgen met klanten.
 
 ## Individuele filiaalheid - De meest geliefde gebruikers gebruiken hoofdletters/kleine letters
 
-Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen zijn hun loyale reizigers het grootste deel van hun inkomsten en het behoud van die klanten van cruciaal belang voor hun succes op lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Met de nieuwe [!UICONTROL Rolling Calculation] -instelling in [!UICONTROL Cohort Analysis] kan de luchtvaartmaatschappij echter loyale klantfilters analyseren en nagaan welke reizigers maand na maand herhaalde kopers waren. De luchtvaartmaatschappij is ook in staat om deze reizigers te bestraffen met beloningen en perken voor hun loyaliteit. Bovendien kan de luchtvaartmaatschappij, door van het type Cohort over te schakelen van retentie naar churn, bepalen welke klanten geen maand-over-maand terugkerende kopers zijn en zich richten op die klanten met promoties. De luchtvaartmaatschappij kan dus opnieuw contact opnemen met deze klanten en ervoor zorgen dat ze in de toekomst loyale klanten blijven.
+Een grote luchtvaartmaatschappij haalt het grootste deel van haar succes en inkomsten uit herhaalde en loyale klanten. In veel gevallen zijn hun loyale reizigers het grootste deel van hun inkomsten en het behoud van die klanten van cruciaal belang voor hun succes op lange termijn. Het identificeren van hun meest loyale en verenigbare klanten kan vaak moeilijk zijn. Met de nieuwe [!UICONTROL Rolling Calculation] -instelling in [!UICONTROL Cohort Analysis] kan de luchtvaartmaatschappij echter loyale klantsegmenten analyseren en nagaan welke reizigers maandelijks meerdere kopers waren. De luchtvaartmaatschappij is ook in staat om deze reizigers te bestraffen met beloningen en perken voor hun loyaliteit. Bovendien kan de luchtvaartmaatschappij, door van het type Cohort over te schakelen van retentie naar churn, bepalen welke klanten geen maand-over-maand terugkerende kopers zijn en zich richten op die klanten met promoties. De luchtvaartmaatschappij kan dus opnieuw contact opnemen met deze klanten en ervoor zorgen dat ze in de toekomst loyale klanten blijven.

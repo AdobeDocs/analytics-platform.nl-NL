@@ -1,10 +1,10 @@
 ---
-description: Bij Donut-visualisatie worden gegevens als delen of filters van een geheel weergegeven.
+description: Bij Donut-visualisatie worden gegevens weergegeven als delen of segmenten van een geheel.
 title: Donut
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -30,9 +30,9 @@ _dit artikel documenteert de visualisatie van de Donut in_ ![ CustomerJourneyAna
 >[!ENDSHADEBOX]
 
 
-Gelijkaardig aan een cirkeldiagram, ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** visualisatie toont gegevens als delen of filters van een geheel. Gebruik een donutvisualisatie wanneer het vergelijken van percentages van een totaal, typisch met een klein aantal punten.
+Gelijkaardig aan een cirkeldiagram, ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** visualisatie toont gegevens als delen of segmenten van een geheel. Gebruik een donutvisualisatie wanneer het vergelijken van percentages van een totaal, typisch met een klein aantal punten.
 
-![ een grafiek van de Donut die gegevens als delen of filters van een geheel tonen.](assets/donut.png)
+![ een grafiek van de Donut die gegevens als delen of segmenten van een geheel tonen.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]

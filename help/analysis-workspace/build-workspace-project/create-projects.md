@@ -4,7 +4,7 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Nu u een Leeg project van Workspace hebt gecreeerd, zorg ervoor u met het [ Anal
    * **[!DNL Store Country]** [ dimensie ](/help/components/dimensions/overview.md) ➍
    * **[!DNL People]** [ metrische ](/help/components/apply-create-metrics.md) ➎
    * **[!DNL Avg Order Value]** [ berekende metrische ](/help/components/calc-metrics/calc-metr-overview.md) ➏
-   * **[!DNL Mobile App Sessions]** [ filter ](/help/components/filters/filters-overview.md) ➐
+   * **[!DNL Mobile App Sessions]** [ segment ](/help/components/filters/filters-overview.md) ➐
    * **[!DNL Last Month]** [ datumwaaier ](/help/components/date-ranges/overview.md) ➑
    * **[!DNL Example]** [ annotation ](/help/components/annotations/overview.md) ➒
 
