@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
-source-wordcount: '4681'
+source-wordcount: '4696'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2025** | |
+| Gebruik weergeven en beheren | Herwerkte de documentatie op hoe te [ mening ](/help/connections/manage-connections.md#usage) en [ het gebruik van Customer Journey Analytics beheren ](/help/technotes/estimate-usage.md) |
 | Content Analytics | [ Documentatie ](/help/content-analytics/content-analytics.md) voor Adobe Content Analytics. Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken. |
 | **Maart 2025** | |
 | Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
@@ -193,7 +194,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Datum | Beschrijving bijwerken |
 | --- | --- |
 | **December 2022** |  |
-| 16 december 2022 | Nieuw onderwerp op [ het meten van en het beheren van uw het gegevensgebruik van Customer Journey Analytics ](/help/technotes/estimate-usage.md). |
+| 16 december 2022 | Nieuw onderwerp op [ het leiden van uw de gegevensgebruik van Customer Journey Analytics ](/help/technotes/estimate-usage.md). |
 | **Oktober 2022** | |
 | Oktober 2022 | Nieuw onderwerp op [ wachtwoordbescherming van geplande projecten ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password). Deze eigenschap is in steun van [ HIPAA bereidheid ](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Oktober 2022 | Nieuw onderwerp op [ Klant Beheerde Sleutels ](/help/privacy/cmk.md). Deze eigenschap is in steun van [ HIPAA bereidheid ](https://www.adobe.com/trust/compliance/hipaa-ready.html). |

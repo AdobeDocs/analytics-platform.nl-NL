@@ -1,5 +1,5 @@
 ---
-source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 0%
@@ -236,7 +236,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ]{type=Informative} wordt badged.  bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. <br/> ook, [!BADGE  B2B edition ]{type=Informative} functionaliteiten en documentatie van [!BADGE  B2B edition ]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ]{type=Informative} wordt badged, is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. <br/> ook, [!BADGE  B2B edition ]{type=Informative} functionaliteiten en documentatie van [!BADGE  B2B edition ]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 >
 
 
