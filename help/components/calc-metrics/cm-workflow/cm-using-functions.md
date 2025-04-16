@@ -3,7 +3,7 @@ description: Met functies kunt u uw gegevens filteren/sorteren en statistische a
 title: Functies gebruiken
 feature: Calculated Metrics
 exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Voor een lijst van alle functies, verwijs naar [ Basisfuncties ](/help/component
 
 >[!NOTE]
 >
->Wanneer u functies opneemt in de definitie van de berekende metrieke builder, past u altijd de functie toe voordat u in metriek of filters sleept.
+>Wanneer u functies in de Definitie van berekende metriek bouwer omvat, pas altijd de functie toe alvorens in metriek of segmenten te slepen.
 >
 
 

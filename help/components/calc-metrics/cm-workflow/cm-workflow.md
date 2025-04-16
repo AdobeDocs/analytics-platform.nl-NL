@@ -3,7 +3,7 @@ description: Leer hoe u berekende metriek maakt.
 title: Berekende waarden maken
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Berekende waarden maken
 
-Standaard kunnen alleen beheerders berekende metriek maken. Gebruikers hebben rechten om berekende metriek weer te geven, vergelijkbaar met de manier waarop gebruikers andere componenten (zoals filters, annotaties en meer) weergeven.
+Standaard kunnen alleen beheerders berekende metriek maken. Gebruikers hebben rechten om berekende metriek weer te geven, vergelijkbaar met de manier waarop gebruikers andere componenten (zoals segmenten, annotaties en meer) weergeven.
 
 Nochtans, kunnen de beheerders de **[!UICONTROL Calculated Metric Creation]** toestemming voor **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** aan gebruikers via [ Admin Console ](/help/technotes/access-control.md#user-level-access) geven.
 

@@ -3,7 +3,7 @@ description: Afhankelijk van uw machtigingen kunt u statistieken delen met uw he
 title: Berekende maatstaven delen
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In de [ Berekende metriekmanager ](cm-manager.md), kunt u berekende metriek delen. Afhankelijk van uw toestemmingen, kunt u berekende metriek met uw volledige organisatie, groepen, of individuele gebruikers delen:
 
-* **Beheerders**: De beheerders kunnen berekende metrisch met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van de Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) voor meer informatie.
+* **Beheerders**: De beheerders kunnen berekende metrisch met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) voor meer informatie.
 * **niet-beheerders**: De niet-beheerders kunnen berekende metrisch slechts delen zij en slechts met individuele gebruikers hebben gecreeerd. |
 
 Een of meer berekende metrische waarden delen:
@@ -39,7 +39,7 @@ Hieronder vindt u een aantal aanbevolen procedures voor het delen van berekende 
 
 * Als beheerder, deel berekende metrisch met een specifieke groep als dat berekende metrisch bedrijfswaarde voor het gebruikersdeel van die groep verstrekt.
 
-* Als beheerder of een individuele gebruiker, deel berekende metrisch met één of meerdere individuen om berekende metrisch te bevestigen. Als de filters niet nuttig blijken te zijn, kunt u berekende metrisch schrappen.
+* Als beheerder of een individuele gebruiker, deel berekende metrisch met één of meerdere individuen om berekende metrisch te bevestigen. Als de segmenten niet nuttig blijken te zijn, kunt u berekende metrisch schrappen.
 
 
 <!--
