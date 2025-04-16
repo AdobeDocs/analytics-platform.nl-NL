@@ -4,7 +4,7 @@ description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspac
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -46,7 +46,7 @@ De snelste manier om een lijst te bouwen is componenten in een leeg project, een
 
 ## Opbouwfunctie voor tabellen met vrije vorm
 
-Als u liever eerst meerdere componenten aan de tabel toevoegt en de gegevens vervolgens rendert, kunt u **[!UICONTROL Enable table builder]** selecteren. Als de builder is ingeschakeld, kunt u dimensies, onderverdelingen, metriek en filters slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden bijgewerkt nadat u **[!UICONTROL Build]** hebt geselecteerd.
+Als u liever eerst meerdere componenten aan de tabel toevoegt en de gegevens vervolgens rendert, kunt u **[!UICONTROL Enable table builder]** selecteren. Met de bouwer toegelaten, kunt u dimensies, onderverdelingen, metriek en segmenten slepen en laten vallen om lijsten te bouwen die complexere vragen beantwoorden. Gegevens worden bijgewerkt nadat u **[!UICONTROL Build]** hebt geselecteerd.
 
 ![ A Freeform Table Builder display ](assets/table-builder.png)
 
@@ -56,7 +56,7 @@ U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpasse
 
 ### Filteren en sorteren
 
-* U kunt [ filter en soort ](filter-and-sort.md) de gegevens in een lijst.
+* U kunt [ segmenteren en sorteren ](filter-and-sort.md) de gegevens in een lijst.
 
 ### Rijen
 
@@ -64,11 +64,11 @@ U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpasse
 * U kunt meer rijen in één enkel scherm passen door de de meningsdichtheid van het project [ ](/help/analysis-workspace/build-workspace-project/view-density.md) aan te passen.
 * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Selecteer het nummer naast **[!UICONTROL Rows]** in de eerste kolomkop om meer rijen op een pagina weer te geven. Navigeer aan een verschillende pagina gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) in de eerste kolomkopbal.
 * U kunt rijen onderbreken door extra componenten. Als u een groot aantal rijen tegelijk wilt onderbreken, selecteert u meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Leer meer over [ onderbrekingen ](/help/components/dimensions/t-breakdown-fa.md).
-* De rijen kunnen [ worden gefiltreerd ](/help/components/filters/filters-overview.md) om een verminderde reeks punten te tonen. De extra montages zijn beschikbaar onder [ montages van de Rij ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
+* De rijen kunnen [ gesegmenteerd ](/help/components/filters/filters-overview.md) zijn om een verminderde reeks punten te tonen. De extra montages zijn beschikbaar onder [ montages van de Rij ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Kolommen
 
-* Componenten kunnen in kolommen worden gestapeld om gefilterde metriek, cross-tab analyse en meer te maken.
+* Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
 * De mening van elke kolom kan onder de [ kolommontages ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) worden aangepast.
 * Verscheidene acties zijn beschikbaar door het [ contextmenu ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). Het menu bevat verschillende handelingen, afhankelijk van de keuze van de tabelkoptekst, -rijen of -kolommen.
 

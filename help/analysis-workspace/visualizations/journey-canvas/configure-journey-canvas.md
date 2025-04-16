@@ -4,7 +4,7 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: a909804e066339750c2271f6c65c108a6a6199f8
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '6207'
 ht-degree: 0%
@@ -101,7 +101,7 @@ U kunt op de volgende manieren knooppunten maken: door Workspace-componenten van
 
 1. In Analysis Workspace, open een bestaande visualisatie van het canvas van de Reis, of [ beginnen bouwend nieuwe ](#begin-building-a-journey-canvas-visualization).
 
-1. Sleep metriek, dimensies, afmetingsitems, filters of datumbereiken van de linkerspoorstaaf naar het canvas. De metriek die op a [ afgeleid gebied ](/help/data-views/derived-fields/derived-fields.md) gebaseerd zijn wordt gesteund. Nochtans, worden de berekende metriek, evenals om het even welke metriek of dimensies die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn niet gesteund.
+1. Sleep metriek, afmetingen, afmetingspunten, segmenten, of datumwaaiers van de linkerspoorstaaf op het canvas. De metriek die op a [ afgeleid gebied ](/help/data-views/derived-fields/derived-fields.md) gebaseerd zijn wordt gesteund. Nochtans, worden de berekende metriek, evenals om het even welke metriek of dimensies die op a [ summiere dataset ](/help/data-views/summary-data.md) gebaseerd zijn niet gesteund.
 
    U kunt meerdere componenten in de linkertrack selecteren door Shift ingedrukt te houden of door Command (in Mac) of Ctrl (in Windows) ingedrukt te houden.
 
@@ -118,10 +118,10 @@ U kunt op de volgende manieren knooppunten maken: door Workspace-componenten van
    | Dimension-item | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, los van om het even welke bestaande knopen. |
    | Dimension-item | Een bestaand knooppunt | De component wordt automatisch gecombineerd met het bestaande knooppunt. |
    | Dimension-item | Een pijl die 2 bestaande knopen verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p> |
-   | Filter | Leeg gebied van canvas | Het knooppunt geeft aan waar de component is neergezet zonder verbinding met andere knooppunten.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, gefilterd door de filter u selecteerde.</p> <p>Als Personen bijvoorbeeld is geselecteerd als de primaire metrische waarde voor de rit, worden bij het toevoegen van een filter Vandaag aan een leeg gebied van het canvas alle personen weergegeven die vandaag een gebeurtenis hebben gehad.</p> |
-   | Filter | Een bestaand knooppunt | Past het filter op de bestaande knoop toe. |
-   | Filter | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Hiermee past u het filter toe op het punt op het pad waar de component is neergezet.</p> |
-   | Datumbereik | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, losgemaakt van een andere knopen.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, gefilterd door de datumwaaier u selecteerde.</p> <p>Als Personen bijvoorbeeld is geselecteerd als de primaire metrische waarde voor de rit, worden bij het toevoegen van een datumbereik van Deze maand aan een leeg gebied van het canvas alle personen weergegeven die een gebeurtenis hebben gehad tijdens de huidige maand.</p> |
+   | Filter | Leeg gebied van canvas | Het knooppunt geeft aan waar de component is neergezet zonder verbinding met andere knooppunten.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, die door het segment wordt gesegmenteerd u selecteerde.</p> <p>Bijvoorbeeld, als de Mensen als primaire metrisch voor de reis wordt geselecteerd, dan het toevoegen van een segment van Vandaag aan een leeg gebied van het canvas toont alle mensen die een gebeurtenis vandaag hadden.</p> |
+   | Filter | Een bestaand knooppunt | Past het segment op de bestaande knoop toe. |
+   | Filter | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het segment op het punt op de weg toe waar de component werd gelaten vallen.</p> |
+   | Datumbereik | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, losgemaakt van een andere knopen.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, die door de datumwaaier wordt gesegmenteerd u selecteerde.</p> <p>Als Personen bijvoorbeeld is geselecteerd als de primaire metrische waarde voor de rit, worden bij het toevoegen van een datumbereik van Deze maand aan een leeg gebied van het canvas alle personen weergegeven die een gebeurtenis hebben gehad tijdens de huidige maand.</p> |
    | Datumbereik | Een bestaand knooppunt | Past het datumbereik toe op het bestaande knooppunt. |
    | Datumbereik | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het datumbereik toe op het punt op het pad waar de component is neergezet.</p> |
    | Meerdere componenten | Een leeg gebied van het canvas | **als geen van de componenten afmetingen zijn:**<p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. </p><p>**als om het even welke componenten u toevoegt dimensies zijn:**</p><p>Elke component wordt weergegeven als een afzonderlijk knooppunt waar de componenten zijn neergezet, zonder verbinding met bestaande knooppunten.</p><p>Er kan slechts één dimensie tegelijk worden toegevoegd. Wanneer de afmeting wordt toegevoegd, worden 3 knopen gecreeerd voor top 3 afmetingspunten waar de component werd gelaten vallen.</p><p>Houd de Shift-toets ingedrukt wanneer u de componenten op het canvas neerzet om ze als één gecombineerd knooppunt toe te voegen. De top 3 afmetingspunten worden gecombineerd met elke knoop. (Zie [ knopen ](#combine-nodes) voor meer informatie combineren.)</p> |
@@ -238,7 +238,7 @@ Nadat knooppunten aan het canvas zijn toegevoegd, kunt u deze opnieuw rangschikk
 
 ### Knoppen opnieuw rangschikken
 
-De reizen in het canvas van de Reis bestaan uit een flexibele grafiek van knopen en pijlen die om het even welke combinatie gebeurtenissen, afmetingspunten, en filters vertegenwoordigen.
+De reizen in het canvas van de Reis bestaan uit een flexibele grafiek van knopen en pijlen die om het even welke combinatie gebeurtenissen, afmetingspunten, en segmenten vertegenwoordigen.
 
 U kunt knooppunten naar het canvas slepen om de gebeurtenissen en omstandigheden van de rit opnieuw te rangschikken.
 
@@ -266,7 +266,7 @@ De logica die op knopen wordt toegepast wanneer zij worden gecombineerd verschil
 
 >[!TIP]
 >
->U kunt de logica van een gecombineerde knoop bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer filter van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
+>U kunt de logica van een gecombineerde knoop bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer segment van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
 
 
 | Te combineren componenttypen | Gebruikte logica (operator) |
@@ -297,11 +297,11 @@ De knopen worden verbonden door een pijl. Zowel de richting van de pijl als de b
 
 #### Logica wanneer knooppunten worden aangesloten
 
-Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend filtreren ](/help/components/filters/seg-sequential-build.md).
+Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md).
 
 Knooppunten worden verbonden als een &quot;uiteindelijk pad&quot;, wat betekent dat bezoekers worden geteld zolang ze uiteindelijk van de ene naar de andere node gaan, ongeacht gebeurtenissen die zich tussen de twee knooppunten voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
-U kunt de logica van verbonden knopen bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer filter van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
+U kunt de logica van verbonden knopen bekijken door de knoop met de rechtermuisknop aan te klikken, dan selecterend [!UICONTROL **creeer segment van knoop**]. De logica wordt getoond in de [!UICONTROL **sectie van de Definitie**].
 
 #### Bestaande knooppunten verbinden
 
@@ -542,25 +542,25 @@ De trendgegevens bekijken:
 
 1. Selecteer [!UICONTROL **Trend**].
 
-### Een filter maken op basis van een knooppunt of pijl
+### Een segment maken op basis van een knooppunt of pijl
 
-U kunt een nieuw filter creëren dat op een knoop of een pijl binnen een reis wordt gebaseerd. Nadat het filter is gemaakt, kunt u het overal in Analysis Workspace gebruiken.
+U kunt een nieuw segment tot stand brengen dat op een knoop of een pijl binnen een reis wordt gebaseerd. Nadat het segment is gemaakt, kunt u het overal in Analysis Workspace gebruiken.
 
-De filters die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend het filtreren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het filter de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die door mensen zijn verlopen, te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het filter.
+De filters die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het segment de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het segment.
 
-Als u een filter maakt op basis van een knooppunt met daarin meerdere paden, worden alle paden opgenomen in het filter. Afzonderlijke paden worden verbonden met de operator OR.
+Als u een segment maakt dat is gebaseerd op een knooppunt met meerdere paden die erin vloeien, worden alle paden in het segment opgenomen. Afzonderlijke paden worden verbonden met de operator OR.
 
-Een filter maken:
+Een segment maken:
 
-1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op het knooppunt of de pijl dat u wilt gebruiken om het filter te maken.
+1. Klik in een reiscanvasvisualisatie met de rechtermuisknop op het knooppunt of de pijl die u wilt gebruiken om het segment te maken.
 
-1. Selecteer [!UICONTROL **creeer filter van knoop**] of [!UICONTROL **creeer filter van pijl**].
+1. Selecteer [!UICONTROL **creeer segment van knoop**] of [!UICONTROL **creeer segment van pijl**].
 
-   De construcder voor filters wordt weergegeven. In de [!UICONTROL **sectie van de Definitie**], wordt de filterdefinitie gecreeerd gebaseerd op de knoop of de pijl u en zijn context binnen de reis selecteerde.
+   De construcder voor filters wordt weergegeven. In de [!UICONTROL **sectie van de Definitie**], wordt de segmentdefinitie gecreeerd gebaseerd op de knoop of de pijl u en zijn context binnen de reis selecteerde.
 
-1. Geef een titel op voor het filter en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een filter, zie [ de bouwer van de Filter ](/help/components/filters/filter-builder.md).
+1. Geef een titel voor het segment op en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een segment, zie [ de bouwer van de Filter ](/help/components/filters/filter-builder.md).
 
-1. Selecteer [!UICONTROL **sparen**] om de filter te bewaren.
+1. Selecteer [!UICONTROL **sparen**] om het segment te bewaren.
 
 ### Knooppunten verwijderen
 

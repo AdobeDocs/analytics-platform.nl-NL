@@ -4,7 +4,7 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Componenten in Analysis Workspace gebruiken
 
-Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, filters en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
+Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, segmenten en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
 
 Zie het [ overzicht van Componenten ](/help/components/overview.md) voor meer informatie over de types van componenten die u kunt toevoegen.
 
@@ -31,8 +31,8 @@ Zie het [ overzicht van Componenten ](/help/components/overview.md) voor meer in
 
 1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of visualisatie in uw project.
 
-1. U kunt een component naar keuze naar de filterneerzetzone in een deelvensterkop slepen. Met dit slepen en neerzetten definieert u de component als een filter en past u het filter toe op alle inhoud in het deelvenster.
-Voor informatie over hoe u de zone van de filterdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [ de streek van de Daling ](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analysis-workspace/c-panels/panels.md).
+1. U kunt een component naar keuze slepen naar de neerzetzone van het segment in een deelvensterkop. Met dit slepen en neerzetten definieert u de component als een segment en past u het segment toe op alle inhoud in het deelvenster.
+Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analysis-workspace/c-panels/panels.md).
 
 1. Raadpleeg de volgende secties voor meer informatie:
 
@@ -40,13 +40,13 @@ Voor informatie over hoe u de zone van de filterdaling op een paneel kunt gebrui
 
    * [Metriek toevoegen aan een project](#add-metrics-to-a-project)
 
-   * [Filters toevoegen aan een project](#add-filters-to-a-project)
+   * [Segmenten toevoegen aan een project](#add-segments-to-a-project)
 
    * [Datumbereiken toevoegen aan een project](#add-date-ranges-to-a-project)
 
 ### Afmetingen toevoegen aan een project
 
-[ Dimensionen ](/help/components/dimensions/overview.md) zijn variabelen in Customer Journey Analytics die typisch koordwaarden bevatten. In tegenstelling, [ metriek ](/help/components/calc-metrics/calc-metr-overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
+[ Afmetingen ](/help/components/dimensions/overview.md) zijn variabelen in Customer Journey Analytics die typisch koordwaarden bevatten. In tegenstelling, [ metriek ](/help/components/calc-metrics/calc-metr-overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
 
 1. Begin toevoegend een afmeting aan uw project in Analysis Workspace, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
 
@@ -56,7 +56,7 @@ Voor informatie over hoe u de zone van de filterdaling op een paneel kunt gebrui
 
    * Sleep een dimensie naar een visualisatie (zoals een vrije-vormlijst) in Analysis Workspace.
 
-   * Sleep één of meerdere afmetingen van het linkerpaneel op de gebied van de filterdaling om een snelle filter tot stand te brengen, zoals die in [ wordt beschreven voegt filters aan een project ](#add-filters-to-a-project) toe.
+   * Sleep één of meerdere dimensies van het linkerpaneel op de gebied van het segmentdaling om een snel segment tot stand te brengen, zoals die in [ wordt beschreven voegt segmenten aan een project ](#add-filters-to-a-project) toe.
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/components/dimensions/t-breakdown-fa.md).
 
@@ -93,17 +93,17 @@ Voor meer informatie over metriek, zie [ Metriek ](/help/components/apply-create
 
 [ Filters ](/help/components/filters/filters-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
 
-U kunt filters in Analysis Workspace op de volgende manieren gebruiken:
+U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
-* Filters toevoegen aan een deelvenster
-Wanneer u filters toevoegt aan een deelvenster, worden de filters toegepast op alle inhoud in het deelvenster.
-Voor informatie over hoe u de zone van de filterdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [ de streek van de Daling ](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analysis-workspace/c-panels/panels.md).
+* Segmenten toevoegen aan een deelvenster
+Wanneer u segmenten toevoegt aan een deelvenster, worden de segmenten toegepast op alle inhoud in het deelvenster.
+Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analysis-workspace/c-panels/panels.md).
 
-* Filters toevoegen aan een visualisatie
-Wanneer u filters toevoegt aan een kolom in een vrije-vormlijst, zijn de filters van toepassing op alle inhoud binnen de lijstkolom. U kunt filters ook toevoegen als onderdeel van een fallout-visualisatie.
+* Segmenten toevoegen aan een visualisatie
+Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
 
-* Filters gebruiken in componenten
-Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ filters ](/help/components/filters/filter-builder.md) kunt u filters als deel van de definitie gebruiken.
+* Segmenten in componenten gebruiken
+Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/filters/filter-builder.md) kunt u filters als deel van de definitie gebruiken.
 
 
 ### Datumbereiken toevoegen aan een project

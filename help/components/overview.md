@@ -1,42 +1,42 @@
 ---
-title: Wat zijn componenten in Customer Journey Analytics?
-description: Leer welke componenten Customer Journey Analytics aanbiedt, en hoe u hen in rapportering kunt gebruiken.
+title: Wat zijn onderdelen in Customer Journey Analytics?
+description: Leer welke componenten Customer Journey Analytics aanbiedt en hoe u deze kunt gebruiken voor rapportage.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
 
 # Overzicht van componenten
 
-Componenten zijn functies in de Customer Journey Analytics die kunnen worden gebruikt in visualisaties (zoals een tabel in Freeform) of als aanvulling op rapportagefuncties.
+Componenten zijn functies in Customer Journey Analytics die kunnen worden gebruikt in visualisaties (zoals een tabel in Freeform) of als aanvulling op rapportagefuncties.
 
-Om componenten van de belangrijkste interface van de Customer Journey Analytics te beheren:
+Componenten beheren vanuit de Customer Journey Analytics-hoofdinterface:
 
 1. Selecteer **[!UICONTROL Components]** in de bovenste balk.
 1. Selecteer **[!UICONTROL Components]** om een overzicht te zien van de componenten die u kunt beheren of selecteer rechtstreeks de component die u wilt beheren in het menu.
 
 U kunt de volgende componenten beheren:
 
-* [ Filters ](filters/filters-overview.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publieksfilters op uw rapporten toe. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
+* [ Segmenten ](filters/filters-overview.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publiekssegmenten op uw rapporten toe. Met filters kunt u subsets van personen identificeren op basis van kenmerken of interacties.
 * [ Berekende metriek ](calc-metrics/calc-metr-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in het melden
 * [ waaiers van de Datum ](date-ranges/create.md): Pas en verfijn de aanbiedingen van de datumwaaiers Analysis Workspace aan.
 * [ Annotaties ](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
 * [ Intelligente alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
 * [ Geplande projecten ](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): Beheer uw geplande projecten.
 * [ Voorkeur ](/help/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
-* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
+* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
 * [ voert ](/help/components/exports/manage-export-locations.md) uit: beheer uw de uitvoerrekening en plaatsen.
 
 
 ## Analysis Workspace-componenten
 
-Componenten in Analysis Workspace bestaan uit metriek, afmetingen, filters en datumbereiken die u kunt slepen en neerzetten op deelvensters en visualisaties in uw Workspace-project. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals een berekende metrische waarde of een aangepast datumbereik.
+Componenten in Analysis Workspace bestaan uit metriek, afmetingen, segmenten en datumbereiken die u naar deelvensters en visualisaties in uw Workspace-project kunt slepen en neerzetten. Aangepaste componenten die u maakt, worden aan deze deelvensters toegevoegd, zoals een berekende metrische waarde of een aangepast datumbereik.
 
 Om tot het paneel van Componenten toegang te hebben, selecteer ![ Kromme ](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** in het knooppaneel.
 
@@ -69,10 +69,10 @@ U kunt componenten beheren (afzonderlijk of door meerdere componenten te selecte
    | ![ Ster ](/help/assets/icons/Star.svg) [!UICONTROL **Favoriet**] | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerdeelvenster en door hen filteren in de componentmanagers. |
    | ![ StarOutline ](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Verwijder de component uit de lijst met favorieten. |
    | ![ Vinkje ](/help/assets/icons/Checkmark.svg) [!UICONTROL **goedkeuren**] | Markeer componenten zoals Goedgekeurd om aan uw gebruikers te laten weten dat de component door de organisatie is goedgekeurd. Net als tags kunt u zoeken en filteren op Goedgekeurd in het linkerdeelvenster. A ![ Vinkje ](/help/assets/icons/Checkmark.svg) identificeert goedgekeurde componenten. |
-   | ![ Aandeel ](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
-   | ![ Schrapping ](/help/assets/icons/Delete.svg) [!UICONTROL **Schrapping**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals filters of berekende meetwaarden. |
+   | ![ Aandeel ](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
+   | ![ Schrapping ](/help/assets/icons/Delete.svg) [!UICONTROL **Schrapping**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
 
-De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ filters ](/help/components/filters/manage-filters.md) leiden.
+De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ segmenten ](/help/components/filters/manage-filters.md) beheren.
 
 ## De componentenlijst beheren
 
@@ -84,7 +84,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **Dimensionen** ![ pictogram van het Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje, **het pictogram van de Filters** ![ van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw, **waaiers van de Datum** ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de 10} Datum is paars, en **Metriek** ![ metrisch pictogram 15} is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van de Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een filtermalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** het pictogram van de Filters **![ van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**![<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in de vervolgkeuzelijst.
 
@@ -100,11 +100,11 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
    |---------|---|----------|
    | ![ Vinkje ](/help/assets/icons/Checkmark.svg) | **[!UICONTROL Approved]** | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
    | ![ Ster ](/help/assets/icons/Star.svg) | **[!UICONTROL Favorites]** | Alleen componenten tonen die zich in de lijst Favorieten bevinden. <br/> voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [ componenten ](#manage-components) leiden. |
-   | ![Dimensies](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Alleen componenten weergeven die Dimensionen zijn. |
+   | ![Dimensies](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Alleen componenten weergeven die afmetingen hebben. |
    | ![ Gebeurtenis ](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Alleen componenten weergeven die Metrisch zijn. |
-   | ![Segmentering](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Filters]** | Alleen componenten weergeven die filters zijn. |
+   | ![Segmentering](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segments]** | Alleen componenten weergeven die segmenten zijn. |
    | ![ Kalender ](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Alleen componenten tonen die Datumbereiken zijn. |
-   | ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL *naam van de Markering *]** | Alleen componenten met de specifieke geselecteerde labels weergeven. Een specifieke markering is beschikbaar voor het Malplaatje van de Adobe die [ gebrek berekende metriek ](/help/components/calc-metrics/default-calcmetrics.md) van Adobe zijn. |
+   | ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL *naam van de Markering *]** | Alleen componenten met de specifieke geselecteerde labels weergeven. Een specifieke markering is beschikbaar voor het Malplaatje van Adobe die de [ gebrek berekende metriek ](/help/components/calc-metrics/default-calcmetrics.md) van Adobe zijn. |
 
    Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) in een filter om de filter te verwijderen.
 

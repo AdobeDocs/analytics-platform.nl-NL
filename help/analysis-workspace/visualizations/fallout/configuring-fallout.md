@@ -4,7 +4,7 @@ title: Een fallout-visualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen, zoals eenheden, en unieke personen en terugkeerbezoeken toevoegen. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
 
-U kunt zelfs filters toevoegen binnen een aanraakpunt. U kunt bijvoorbeeld filters, zoals iOS- en Android™-gebruikers, vergelijken. Sleep de gewenste filters naar de bovenkant van de uitval en de informatie over die filters wordt toegevoegd aan het uitvalrapport. Als u alleen die filters wilt tonen, kunt u de basislijn Alle bezoeken verwijderen.
+U kunt zelfs segmenten binnen een aanraakpunt toevoegen. U kunt bijvoorbeeld segmenten, zoals iOS- en Android™-gebruikers, vergelijken. Sleep de gewenste segmenten naar de bovenkant van de uitval en de informatie over die segmenten wordt toegevoegd aan het uitvalrapport. Als u alleen die segmenten wilt tonen, kunt u de basislijn Alle bezoeken verwijderen.
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt op afmetingen, metriek, en filters kleven. Stel dat iemand bijvoorbeeld naar schoenen, shirt kijkt op de ene pagina en op de volgende pagina naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt op afmetingen, metriek, en segmenten schilderen. Stel dat iemand bijvoorbeeld naar schoenen, shirt kijkt op de ene pagina en op de volgende pagina naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
 ## Gebruiken
 
@@ -41,7 +41,7 @@ U kunt op afmetingen, metriek, en filters kleven. Stel dat iemand bijvoorbeeld n
 
    >[!NOTE]
    >
-   >De veelvoudige filters worden aangesloten bij EN, maar de veelvoudige punten zoals afmetingspunten en metriek worden aangesloten bij OF.
+   >De veelvoudige segmenten worden aangesloten bij EN, maar de veelvoudige punten zoals afmetingspunten en metriek worden aangesloten bij OF.
 
    ![ de Pagina:CamerRoll of Pagina: Gemarkeerde de aanrakingspunten van de Camera.](assets/fallout-or.png)
 
@@ -82,7 +82,7 @@ Als onderdeel van de visualisatie zijn specifieke opties voor contextmenu&#39;s 
 | **[!UICONTROL Trend all touchpoints (%)]** | Hiermee worden alle aanraakpuntpercentages in de fallout (behalve **[!UICONTROL All People]** als deze is opgenomen) in hetzelfde diagram gekweekt. |
 | **[!UICONTROL Break down fallthrough at this touchpoint]** | Bekijk wat personen deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
 | **[!UICONTROL Break down fallout at this touchpoint]** | Bekijk wat mensen die het niet door de trechter maakten onmiddellijk na de geselecteerde stap deden. |
-| **[!UICONTROL Create filter from touchpoint]** | Maak een nieuw filter van het geselecteerde aanraakpunt. |
+| **[!UICONTROL Create segment from touchpoint]** | Maak een nieuw segment van het geselecteerde aanraakpunt. |
 
 >[!MORELIKETHIS]
 >

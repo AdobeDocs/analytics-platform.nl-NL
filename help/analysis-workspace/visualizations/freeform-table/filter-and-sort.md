@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende geavanceerde filteropties zijn beschikbaar:
 
-   ![ Eenvoudige Filter ](assets/filter-advanced.png){width= 500}
+   ![ Eenvoudige Filter ](assets/filter-advanced.png){width=500}
 
    | Optie | Functie |
    |---------|----------|
@@ -94,7 +94,7 @@ Gegevens filteren in Freeform-tabellen:
 
 1. Selecteer **[!UICONTROL Apply]** om de gegevens te filteren. Selecteer **[!UICONTROL Clear]** om alle invoer te wissen. Selecteer **[!UICONTROL Cancel]** om het dialoogvenster te annuleren en te sluiten. <br/> een gekleurde ![ Filter ](/help/assets/icons/FilterColored.svg) **pictogram van de Filter** wijst op en toont details wanneer een filter op de lijst wordt toegepast.
 
-### publieksfilters gebruiken
+### publiekssegmenten gebruiken
 
 Zie [ Overzicht van Filters ](/help/components/filters/filters-overview.md) voor meer details.
 

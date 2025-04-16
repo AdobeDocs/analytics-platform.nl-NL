@@ -4,7 +4,7 @@ title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: a0e301130cf7f8c4b3be17dfe52648fde5ee4fe4
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De beschrijvingen helpen gebruikers weten hoe te om de diverse componenten te gebruiken wanneer het bouwen van projecten in Analysis Workspace of wanneer het bekijken van rapporten.
 
-Customer Journey Analytics beheerders kunnen beschrijvingen voor componenten (afmetingen, metriek, filters, en datumwaaiers) binnen een gegevensmening of het gebruiken van het Woordenboek van Gegevens toevoegen.
+Customer Journey Analytics-beheerders kunnen beschrijvingen voor componenten (afmetingen, metriek, segmenten en datumbereiken) toevoegen in een gegevensweergave of met gebruik van het gegevenswoordenboek.
 
 ## Beschrijvingen toevoegen in een gegevensweergave
 

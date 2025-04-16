@@ -4,7 +4,7 @@ title: Informatie over uitvalrapporten en visualisaties
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een rapport v
 
 Met uitvalvisualisaties kunt u:
 
-* Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.
+* Voer zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit.
 * Taalstappen (aanraakpunten) slepen en neerzetten (en opnieuw rangschikken).
 * Mengen en waarden uit verschillende afmetingen en maatstaven met elkaar in overeenstemming brengen.
 * Maak een multidimensionaal uitvalrapport.
@@ -75,7 +75,7 @@ Vallout-visualisaties zijn het meest geschikt voor:
 
 * Fallout-analyse met ritten met een vooraf gedefinieerde reeks pagina&#39;s en één ingangspunt en pad. (Gebruik het canvas Reis voor reizen met meerdere toegangspunten en paden.)
 
-* Reizen waarbij u vergelijkingen van twee verschillende filters naast elkaar in hetzelfde rapport moet uitvoeren.
+* De reizen waar u zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport moet uitvoeren.
 
 Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen het canvas van de Reis, Vallout, en de visualisaties van de Stroom te begrijpen.
 
