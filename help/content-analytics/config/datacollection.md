@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
+source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-In dit artikel wordt gedetailleerd uitgelegd hoe content Analytics gegevens verzamelt
+In dit artikel wordt gedetailleerd uitgelegd hoe Content Analytics gegevens verzamelt
 
 
 ## Definities
@@ -37,7 +37,7 @@ In het kader van dit artikel worden de volgende definities gebruikt:
 De Content Analytics-bibliotheek verzamelt gegevens wanneer:
 
 * Content Analytics is opgenomen in de tagbibliotheek die op de pagina is geladen.
-* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) {target="_blank"}, deel van de inbegrepen bibliotheek van Markeringen.
+* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
 
 
 ## Content Analytics, gebeurtenis

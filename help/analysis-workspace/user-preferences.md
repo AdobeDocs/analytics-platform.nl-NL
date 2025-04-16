@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60074b300cb5fa07ed3b2d6bb2e4501881909984
+source-git-commit: 693227516950aec921d82564b39622a9e3ef4b9d
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3726'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,15 @@ Algemene voorkeuren gelden voor uw Customer Journey Analytics-ervaring in de bro
 
 ### Voorkeuren IMS-organisatie {#ims-organization-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_shareonlyworkspace"
 >title="Alleen delen met Workspace-gebruikers toestaan"
 >abstract="Als deze optie is ingeschakeld, is de optie **[!UICONTROL Share with anyone]** niet meer beschikbaar voor gebruikers die een Analysis Workspace-project delen. De mensen die eerder toegang tot een project door deze aandeeloptie kregen kunnen niet meer tot het project toegang hebben."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud-verificatie vereisen"
 >abstract="Wanneer toegelaten, moeten de mensen die toegang tot een project van het Aandeel met iedereen optie in Analysis Workspace worden verleend voor authentiek verklaren gebruikend hun geloofsbrieven van Experience Cloud."
-
-<!-- markdownlint-enable MD034 -->
 
 
 U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw organisatie van toepassing is. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
@@ -71,34 +63,20 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 
 ### Voorkeuren voor projecten en analyses {#project-and-analysis-preferences}
 
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="Categorisch palet"
 >abstract="Toegepast op vele visualisaties in Analysis Workspace en analyse met instructies. Elke kleur vertegenwoordigt een duidelijke categoriale waarde."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="Verticaal, palet"
 >abstract="Toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="Sequentieel, palet"
 >abstract="Toegepast op de geleide analyse van de frequentie trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker."
-
-<!-- markdownlint-enable MD034 -->
-
 
 U kunt deze voorkeuren aanpassen voor alle nieuwe Analysis Workspace-projecten, nieuwe Analysis Workspace-deelvensters en nieuwe analyses met instructies. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
@@ -121,34 +99,21 @@ Sommige van deze zelfde voorkeur kunnen ook voor individuele projecten in Analys
 
 ### Voorkeuren voor de tabel Vrije vorm {#freeform-table-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="anomalieën tonen"
 >abstract="Als u **[!UICONTROL Show anomalies]** selecteert, worden automatisch anomaliedetectie uitgevoerd voor de eerste metrische kolom die wordt toegevoegd aan de visualisatie van een Freeform-tabel uit een tijdreeks."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="Voorvertoning weergeven"
 >abstract="Als u **[!UICONTROL Show forecast]** selecteert, wordt automatisch de eerste metrische kolom voorspeld die wordt toegevoegd aan de visualisatie van een tijdreeks voor de Freeform-tabel."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Standaardtabelmetrisch"
 >abstract="Selecteer standaard metrisch voor vrije vormlijsten te gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardmetrische waarde bevat, schakelt de tabel automatisch over naar een andere primaire metrische waarde."
-
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 U kunt de voorkeuren voor vrije-vormtabellen aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
@@ -250,16 +215,16 @@ Selecteer de titels van de gekoppelde sectie voor meer informatie en context ove
 | | Vergelijking tonen | Vergelijkingsgegevens tonen. Wanneer deze optie is verborgen, zijn zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
 | | Nummerwaardeopties | In de [!UICONTROL **Zeer belangrijke Metrische Summiere**] sectie <ul><li>Percentage wijziging tonen</li><li>Raw-verschil tonen</li>Onbewerkt verschil tussen de totale waarde van de meting in het primaire datumbereik en het secundaire datumbereik</ul> |
 | **[Uitval](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | Container | Hiermee kunt u tussen **[!UICONTROL Session]** en **[!UICONTROL Person]** schakelen om het plakken te analyseren. Deze montages helpen u rekeningsovereenkomst op diverse B2B containerniveaus [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} begrijpen, personenbetrokkenheid op het persoonniveau (over zittingen), of de analyse beperken tot één enkele zitting. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
+| | Container | Selecteer de voorkeurscontainer om het plakken te analyseren. De aangewezen container helpt u rekenschap overeenkomst op diverse B2B containerniveaus [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} begrijpen, persoonbetrokkenheid op het persoonniveau (over zittingen), of de analyse beperken tot één enkele zitting. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
 | **[Stroom](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | Container | In de sectie **[!UICONTROL Flow]** : <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
+| | Container | Selecteer de voorkeurscontainer die u wilt analyseren. De aangewezen container helpt u rekenschap overeenkomst op diverse B2B containerniveaus [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} begrijpen, persoonbetrokkenheid op het persoonniveau (over zittingen), of de analyse beperken tot één enkele zitting. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
 | | Labels voor tekstomloop | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen. Standaard = uitgeschakeld. |
 | | Herhalingsinstanties opnemen | Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Deze instelling biedt u de mogelijkheid om herhaalde exemplaren op te nemen of uit te sluiten, bijvoorbeeld Pagina opnieuw wordt geladen. Herhalingen kunnen echter niet worden verwijderd uit Flow-visualisaties met multigetaxeerde afmetingen, zoals listVars, listProps, s.product, merchandising Vars, enz. Standaard = uitgeschakeld. |
 | | Knopinfo weergeven | Bepaalt of tooltips, die knoopgegevens bevatten, wanneer het hangen over individuele knopen binnen een stroomvisualisatie worden getoond. |
 | | Aantal kolommen | Hiermee bepaalt u hoeveel kolommen u in het stroomdiagram wilt opnemen. |
 | | Items uitgevouwen per kolom | Hoeveel punten u in elke kolom wilt. |
 | **[het canvas van de Reis](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | Container | Hiermee kunt u tussen **[!UICONTROL Session]** en **[!UICONTROL Person]** schakelen om het plakken te analyseren. De standaardwaarde is **[!UICONTROL Person]** . Deze montages helpen u rekeningsovereenkomst op diverse B2B containerniveaus [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} begrijpen, personenbetrokkenheid op het persoonniveau (over zittingen), of de analyse beperken tot één enkele zitting. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
+| | Container | Selecteer de voorkeurscontainer om het plakken te analyseren. De aangewezen container helpt u rekenschap overeenkomst op diverse B2B containerniveaus [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} begrijpen, persoonbetrokkenheid op het persoonniveau (over zittingen), of de analyse beperken tot één enkele zitting. <p>De volgende opties zijn beschikbaar:</p> <ul><li>Globale Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Rekeningen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Het kopen van Groepen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Kansen [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sessie</li><li>Persoon</li></ul> |
 | **Gestapelde Grafieken** | | |
 | | 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. <p>Voor meer informatie, zie [ gestapelde bar en bar ](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histogram](/help/analysis-workspace/visualizations/histogram.md)** | | |
