@@ -4,9 +4,9 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
+source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -92,7 +92,14 @@ Voorbeelden van instellingen:
 | Annotaties tonen | Geef op of er annotaties worden weergegeven voor dit project. |
 | [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel dingen in Workspace, waaronder de meeste visualisaties. |
 | [Dichtheid weergeven](/help/analysis-workspace/build-workspace-project/view-density.md) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. |
-| Opmerkingen toestaan | Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace. Voor meer informatie, zie [ commentaren in projecten ](/help/analysis-workspace/build-workspace-project/comment-projects.md) toevoegen en beheren. |
+
+<!--
+
+Add this to the table above - exchange - for pipe: (End of April, 2025 when project commenting is GA)
+
+Allow commenting - When this option is enabled, a comments area is available in the right rail of the project in Analysis Workspace. For more information, see [Add and manage comments in projects](/help/analysis-workspace/build-workspace-project/comment-projects.md). 
+
+-->
 
 
 

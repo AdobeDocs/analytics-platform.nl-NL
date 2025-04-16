@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
+source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1760'
 ht-degree: 5%
 
 ---
@@ -53,14 +53,23 @@ Sommige functies en de bijbehorende waarde voor de limiet zijn afhankelijk van h
 | Deelvensters per project | 15 | Door het systeem afgedwongen Guardrail | Maximum aantal [ panelen ](../analysis-workspace/home.md#panels) per project. |
 | Visualisaties per deelvenster | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal [ visualisaties ](../analysis-workspace/home.md#visualizations) per paneel. |
 | Afgeleide velden per vrije-vormtabel | 5 | Door het systeem afgedwongen Guardrail | Maximum aantal verschillende afgeleide gebieden in één enkele vrije vormlijst. |
-| Opmerkingen per project | 1.000 | Door het systeem afgedwongen Guardrail | Maximumaantal opmerkingen per project. |
-| Reacties per opmerking | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal reacties per opmerking. |
-| Afbeeldingen per opmerking | 5 | Door het systeem afgedwongen Guardrail | Maximumaantal afbeeldingen per opmerking. |
-| Afbeeldingsgrootte | 2 | Door het systeem afgedwongen Guardrail | Maximale uploadgrootte per afbeelding in MB |
 
 {style="table-layout:auto"}
 
+
 <!--
+
+Add this to the table above, change - for pipe : (End of April, 2025 when project commenting is GA)
+
+Comments per project - 1,000 - System-enforced Guardrail - Maximum number of comments per project. 
+Replies per comment - 100 - System-enforced Guardrail - Maximum number of replies per comment. 
+Images per comment - 5 - System-enforced Guardrail - Maximum number of images per comment. 
+Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB 
+
+-->
+
+<!--
+
 ## Attribution AI
 
 | Name |  Value | Description | PD? |
@@ -69,7 +78,6 @@ Sommige functies en de bijbehorende waarde voor de limiet zijn afhankelijk van h
 | Region based iterations | 10 | Maximum number of region-based iterations of each Attribution AI model. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  | 
 | Export Insights batches | 12 | Maximum number of export batches times the number of authorized Attribution AI Insights per year. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) | 
 
-{style="table-layout:auto"}
 -->
 
 ## Soorten publiek
