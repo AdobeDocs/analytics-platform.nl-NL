@@ -4,9 +4,9 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---
@@ -65,6 +65,15 @@ Nu u een Leeg project van Workspace hebt gecreeerd, zorg ervoor u met het [ Anal
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="Opmerkingen toestaan"
+>abstract="Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace."
+
+<!-- markdownlint-enable MD034 -->
+
 
 De montages van het project verstrekken project-vlakke informatie over het momenteel actieve project.
 
@@ -83,6 +92,7 @@ Voorbeelden van instellingen:
 | Annotaties tonen | Geef op of er annotaties worden weergegeven voor dit project. |
 | [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel dingen in Workspace, waaronder de meeste visualisaties. |
 | [Dichtheid weergeven](/help/analysis-workspace/build-workspace-project/view-density.md) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. |
+| Opmerkingen toestaan | Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace. Voor meer informatie, zie [ commentaren in projecten ](/help/analysis-workspace/build-workspace-project/comment-projects.md) toevoegen en beheren. |
 
 
 

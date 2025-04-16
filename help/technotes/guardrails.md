@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 22b95bce42ee9f04b828cf5b765f40008a1534b1
+source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
@@ -22,12 +22,12 @@ Dit document bevat twee typen standaardlimieten:
 
 | Het type Guardrail | Beschrijving |
 |----------|---------|
-| **Guardrails van Prestaties (zachte grens)** | Prestatiehandleidingen zijn gebruikslimieten die betrekking hebben op het bereik van uw gebruiksgevallen. Bij het overschrijden van de prestatiesGrafieken, kunt u prestatiesdegradatie en latentie ervaren. Adobe is niet verantwoordelijk voor een dergelijke verslechtering van de prestaties. Klanten die een prestatiehandleiding consequent overschrijden, kunnen ervoor kiezen om extra capaciteit in licentie te geven om een verslechtering van de prestaties te voorkomen. |
-| **systeem-afgedwongen Guardrails (harde grens)** | Systeem-afgedwongen Guardrails worden afgedwongen door de Customer Journey Analytics UI of API. Dit zijn grenzen die u niet kunt overschrijden aangezien UI en API u verhindert dit te doen of een fout terugkeert. |
+| **Guardrails van Prestaties (zachte grens)** | Prestatiehandleidingen zijn gebruikslimieten die betrekking hebben op het bereik van uw gebruiksgevallen. Bij het overschrijden van de prestatiesGrafieken, kunt u prestatiesdegradatie en latentie ervaren. Adobe is niet verantwoordelijk voor deze verslechtering van de prestaties. Klanten die een prestatiehandleiding consequent overschrijden, kunnen ervoor kiezen om extra capaciteit in licentie te geven om een verslechtering van de prestaties te voorkomen. |
+| **systeem-afgedwongen Guardrails (harde grens)** | Systeemgestuurde hulplijnen worden afgedwongen door de gebruikersinterface of API van Customer Journey Analytics. Dit zijn grenzen die u niet kunt overschrijden aangezien UI en API u verhindert dit te doen of een fout terugkeert. |
 
 {style="table-layout:auto"}
 
-Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pakket van de Customer Journey Analytics af u aan gemachtigd bent.
+Sommige functies en de bijbehorende waarde voor de limiet zijn afhankelijk van het Customer Journey Analytics-pakket waarop u recht hebt.
 
 >[!NOTE]
 >
@@ -53,6 +53,10 @@ Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pa
 | Deelvensters per project | 15 | Door het systeem afgedwongen Guardrail | Maximum aantal [ panelen ](../analysis-workspace/home.md#panels) per project. |
 | Visualisaties per deelvenster | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal [ visualisaties ](../analysis-workspace/home.md#visualizations) per paneel. |
 | Afgeleide velden per vrije-vormtabel | 5 | Door het systeem afgedwongen Guardrail | Maximum aantal verschillende afgeleide gebieden in één enkele vrije vormlijst. |
+| Opmerkingen per project | 1.000 | Door het systeem afgedwongen Guardrail | Maximumaantal opmerkingen per project. |
+| Reacties per opmerking | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal reacties per opmerking. |
+| Afbeeldingen per opmerking | 5 | Door het systeem afgedwongen Guardrail | Maximumaantal afbeeldingen per opmerking. |
+| Afbeeldingsgrootte | 2 | Door het systeem afgedwongen Guardrail | Maximale uploadgrootte per afbeelding in MB |
 
 {style="table-layout:auto"}
 
@@ -77,11 +81,11 @@ Sommige eigenschappen en hun bijbehorende waarde voor de grens hangen van het Pa
 | Frequentie van publiek vernieuwen | 4 | Door het systeem afgedwongen Guardrail | Maximale frequentie in uren een [ publiek ](../components/audiences/audiences-overview.md) kan worden verfrist. |
 | Venster Opzoeken vernieuwen | 90 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen voor vernieuwen terugzoekvenster. |
 | Vernieuwende vervaldatum van het publiek | 13 | Door het systeem afgedwongen Guardrail | Het maximumaantal maanden dat het publiek vanaf de aanmaakdatum mag vernieuwen. Klanten kunnen dit met nog eens 13 maanden verlengen. |
-| Aantal verfrissende soorten publiek | 75 150 | Door het systeem afgedwongen Guardrail | Maximumaantal verfrissende doelgroepen. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Aantal verfrissende soorten publiek | 75 150 | Door het systeem afgedwongen Guardrail | Maximumaantal verfrissende doelgroepen. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
-Zie ook Experience Platform [ Real-time Customer Data Platform Guardrails ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
+Zie ook de Gidsen van het Platform van Gegevens van de Klant van Experience Platform [ in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
 
 
 ## Vervaldatum automatische gegevensset
@@ -100,7 +104,7 @@ Zie ook Experience Platform [ Real-time Customer Data Platform Guardrails ](http
 |---|--:|---|---|
 | Projecten | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal projecten voor een organisatie. |
 | Gegevens weergeven | 2.000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ gegevensmeningen ](../data-views/data-views.md) voor een organisatie. |
-| Gegevens weergeven | 500 - 1000 | Door het systeem afgedwongen Guardrail | Maximumaantal gegevensweergaven voor een verbinding. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Gegevens weergeven | 500 - 1000 | Door het systeem afgedwongen Guardrail | Maximumaantal gegevensweergaven voor een verbinding. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 | Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [ datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) per verbinding. |
 | Verbindingen | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ verbindingen ](../connections/overview.md) voor een organisatie. |
 | Verbindingstitel | 500 | Door het systeem afgedwongen Guardrail | Maximum aantal tekens voor een verbindingstitel. |
@@ -110,7 +114,7 @@ Zie ook Experience Platform [ Real-time Customer Data Platform Guardrails ](http
 | Beschrijving van aantekening | 250 | Door het systeem afgedwongen Guardrail | Maximumaantal tekens voor een beschrijving van een aantekening. |
 | Schema-velden | 10 | Door het systeem afgedwongen Guardrail | Maximum aantal schemagebieden (zonder standaardgebieden) wanneer het bepalen van regels voor a [ afgeleid gebied ](../data-views/derived-fields/derived-fields.md). |
 | Opzoeken/profielvelden | 3 | Door het systeem afgedwongen Guardrail | Maximumaantal velden voor opzoekopdrachten of profielschema&#39;s binnen het maximumaantal schemavelden (exclusief standaardvelden) bij het definiëren van regels voor een afgeleid veld. |
-| Afgeleide velden | 100 - 500 | Door het systeem afgedwongen Guardrail | Maximumaantal afgeleide velden per verbinding. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Afgeleide velden | 100 - 500 | Door het systeem afgedwongen Guardrail | Maximumaantal afgeleide velden per verbinding. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
@@ -122,7 +126,7 @@ Zie ook Experience Platform [ Real-time Customer Data Platform Guardrails ](http
 | Velden | 10.000 | Door het systeem afgedwongen Guardrail | Maximumaantal eigenschappen of velden per rij in een gegevensset. |
 | Unieke tekenreeksen | 10 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal unieke sleutels per raadplegingsdataset. |
 | Rijen | 1 miljoen | Door het systeem afgedwongen Guardrail | Maximum aantal rijen per unieke persoon-id in een bepaalde maand binnen een verbinding. |
-| Rijgrootte | 2 | Prestatiehandleiding / door het systeem afgedwongen geleider | Gemiddelde grootte in kilobytes per rij gegevens die in Customer Journey Analytics worden opgenomen (zachte limiet). Een statische limiet voor de rijgrootte wordt bepaald door de instructies voor het opnemen van gegevens in het Experience Platform. |
+| Rijgrootte | 2 | Prestatiehandleiding / door het systeem afgedwongen geleider | Gemiddelde grootte in kilobytes per rij gegevens die in Customer Journey Analytics worden opgenomen (zachte limiet). Een statische limiet voor de rijgrootte wordt bepaald door Guardrails voor gegevensinvoer in Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -134,11 +138,11 @@ Zie ook Experience Platform [ Guardrails voor de Ingestie van Gegevens ](https:/
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Gegevens exporteren | Totaal toegestane gegevensmeeropslag | Prestatiehandleiding | De klant kan de Uitvoer van de Dataset van de Bestemming gebruiken om de Gegevens van de Klant in het meer van Gegevens tot de Totale Erkende Opslag van Gegevens uit te voeren. |
-| Beschikbare gegevensbestanden | Profiel en gebeurtenis | Systeem geforceerde geleider | De datasets van de gebeurtenis, van het Profiel of van de Opzoeken die in de UI van het Experience Platform na het opnemen van of het verzamelen van gegevens door Bronnen, het Web SDK, Mobiele SDK, de Verbinding van Gegevens van de Analyse, en Audience Manager worden gecreeerd. |
+| Beschikbare gegevensbestanden | Profiel en gebeurtenis | Systeem geforceerde geleider | Gegevenssets voor gebeurtenissen, profielen of opzoekopdrachten die in de Experience Platform-gebruikersinterface zijn gemaakt nadat gegevens via Bronnen, Web SDK, Mobile SDK, Analytics Data Connector en Audience Manager zijn ingevoerd of verzameld. |
 
 {style="table-layout:auto"}
 
-Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Gegevenslandingszone
@@ -155,9 +159,9 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Datasets met titels | 5 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
-| Lengte achtergrondvulling | 6 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden back-upgegevens. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
-| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Datasets met titels | 5 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
+| Lengte achtergrondvulling | 6 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden back-upgegevens. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
+| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 {style="table-layout:auto"}
 
@@ -166,9 +170,9 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Datasets met titels | 10 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
-| Lengte achtergrondvulling | 13 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden back-upgegevens. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
-| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Datasets met titels | 10 - 50 | Door het systeem afgedwongen Guardrail | Maximum aantal gestikte datasets per klant. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
+| Lengte achtergrondvulling | 13 - 25 | Door het systeem afgedwongen Guardrail | Maximumaantal maanden back-upgegevens. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
+| Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 
 ## Filters en berekende metriek
@@ -177,7 +181,7 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 |---|--:|---|---|
 | Containers per filter | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal containers per filter. |
 | Metrisch per berekend metrisch | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per berekende metrisch. |
-| Metriek en Dimensionen per filter | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per filter. |
+| Metrisch en Afmetingen per filter | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per filter. |
 | Geneste containers per filter | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal geneste containers per filter. |
 | Regels per filter | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal regels per filter. |
 | Tekenreeks vergelijkt per Dimension per filter | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal tekenreeksvergelijkingen per afmeting per filter. |
@@ -215,7 +219,7 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Rijen per rapport | 3 miljoen - 300 miljoen | Door het systeem afgedwongen Guardrail | Maximumaantal rapportrijen per rapport. De waarde varieert afhankelijk van het Customer Journey Analytics pakket (zie de Beschrijving van het Product). |
+| Rijen per rapport | 3 miljoen - 300 miljoen | Door het systeem afgedwongen Guardrail | Maximumaantal rapportrijen per rapport. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 | Uitsplitsingen per tabel | 5 | Door het systeem afgedwongen Guardrail | Maximumaantal uitsplitsingen per tabel. |
 | Metrisch per tabel | 5 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per lijst. |
 | Planningsfrequentie | 1 | Door het systeem afgedwongen Guardrail | De uitvoer kan één keer (1) per dag of op een langer programma (bijvoorbeeld: eens om de 2 dagen, of wekelijks) worden gepland. |
@@ -226,16 +230,16 @@ Zie ook Experience Platform [ Guardrails van de Uitvoer van de Dataset ](https:/
 
 >[!NOTE]
 >
->De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Verwijs naar uw contract van de Customer Journey Analytics voor uw specifieke contractvoorwaarden en SLAs. Zie Experience Platform [ Grafieken voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) voor meer informatie.
+>De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Raadpleeg uw Customer Journey Analytics-overeenkomst voor uw specifieke contractvoorwaarden en SLA&#39;s. Zie Experience Platform [ Grafieken voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) voor meer informatie.
 
 | Gegevensstroom | Verwachte vertraging |
 |---|---|
 | Adobe Analytics naar Adobe Analytics Source Connector (A4T ingeschakeld) | &lt; 30 minuten |
 | Adobe Analytics Source Connector voor realtime klantprofiel (A4T niet ingeschakeld) | &lt; 2 minuten |
 | Adobe Analytics Source Connector voor realtime klantprofiel (A4T ingeschakeld) | &lt; 30 minuten |
-| Gegevensinsluiting in Data Lake van Edge Network- of streaming inscriptie | &lt; 60 minuten |
+| Gegevensopname in het Data Lake van Edge Network of Streaming Ingestie | &lt; 60 minuten |
 | Gegevensinname in Data Lake vanaf Adobe Analytics Source Connector | &lt; 2,25 uur |
-| Gegevensinname in Customer Journey Analytics van Data Lake | &lt; 90 minuten |
+| Gegevensinname in Customer Journey Analytics vanaf Data Lake | &lt; 90 minuten |
 | Stitching (facultatieve eigenschap; zie [ Stitching overzicht ](../stitching/overview.md) voor meer informatie) | &lt; 4 uur |
 | Adobe Analytics Source Connector Backfill van minder dan 10 miljard gebeurtenissen (maximaal 13 maanden historische gegevens) | &lt; 4 weken |
 | Publiceren van het publiek aan het Profiel van de Klant in real time, met inbegrip van automatische verwezenlijking van het het stromen segment, en het toestaan van het segment klaar om de gegevens te ontvangen. | staan voor 60 minuten |
