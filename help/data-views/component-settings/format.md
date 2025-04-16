@@ -65,7 +65,7 @@ U kunt bepalen hoe een bepaalde metrische waarde wordt getoond door zijn formaat
 
 <!-- markdownlint-enable MD034 -->
 
-Valutaconversie in Customer Journey Analytics kan van zeer groot belang zijn voor bedrijven die internationaal actief zijn. Door de complexiteit van handmatige valutaomrekening weg te nemen, zorgt valutaomrekening in Customer Journey Analytics voor uniformiteit en duidelijkheid in de financiële gegevens. Bij de omrekening van valuta worden de dagelijkse historische wisselkoersen bijgehouden en deze dagkoersen gedurende een periode van vier jaar gehandhaafd.
+De conversie van valuta in Customer Journey Analytics kan van zeer groot belang zijn voor bedrijven die internationaal actief zijn. Door de complexiteit van handmatige valutaomrekening weg te nemen, zorgt de valutaomrekening in Customer Journey Analytics voor uniformiteit en duidelijkheid in de financiële gegevens. Bij de omrekening van valuta worden de dagelijkse historische wisselkoersen bijgehouden en deze dagkoersen gedurende een periode van vier jaar gehandhaafd.
 
 Als bijvoorbeeld een e-commercebedrijf actief is in de VS, het Verenigd Koninkrijk en de EU, kunnen verkoopgegevens automatisch worden omgezet in USD, waardoor een gemakkelijke vergelijking en een holistisch begrip van de prestaties worden gewaarborgd.
 
@@ -74,7 +74,7 @@ Als bijvoorbeeld een e-commercebedrijf actief is in de VS, het Verenigd Koninkri
 >Overweeg het volgende voordat u een metrische waarde voor valutaomzetting gaat configureren:
 >
 >* De metrische waarde die u selecteert voor valutaomzetting, moet een numeriek type hebben (Dubbel, Lang, Geheel getal, Kort, Byte).
->* Opstelling uw verbinding van de Customer Journey Analytics om minstens één gebeurtenisdataset te bevatten die een dimensie van de muntcode voor elke gebeurtenis bevat die een valuta metrisch bevat. Die dimensie van de muntcode gebruikt een alfabetische muntcode die aan [ ISO 4217 ](https://www.iso.org/iso-4217-currency-codes.html) norm in overeenstemming is voor het vertegenwoordigen van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
+>* Stel uw Customer Journey Analytics-verbinding zo in dat deze ten minste één gebeurtenisdataset bevat die een valutacodedimensie bevat voor elke gebeurtenis die een valutawaarde bevat. Die dimensie van de muntcode gebruikt een alfabetische muntcode die aan [ ISO 4217 ](https://www.iso.org/iso-4217-currency-codes.html) norm in overeenstemming is voor het vertegenwoordigen van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
 
 Om te bepalen hoe de valuta&#39;s voor bepaalde metrisch worden getoond en omgezet:
 
