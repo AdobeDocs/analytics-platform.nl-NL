@@ -1,35 +1,35 @@
 ---
-title: Rapportage van content Analytics
-description: Over het rapporteren van Content Analytics
+title: Content Analytics-rapportage
+description: Hoe rapporteren over Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 0%
 
 ---
 
-# Overzicht van rapportage voor inhoudsanalyse
+# Overzicht van Content Analytics-rapportage
 
 {{release-limited-testing}}
 
 U rapporteert, voert analyse uit en krijgt inzicht in Content Analytics binnen [ Analysis Workspace ](/help/analysis-workspace/home.md). Een specifiek Workspace [ malplaatje ](#template) is beschikbaar, zodat kunt u tot een pre-bevolkt project van Workspace met relevante inhoudsinzichten onmiddellijk toegang hebben.
 
-Rapporten over inhoudanalyse vanaf nul starten:
+Volledige rapportage over Content Analytics starten:
 
 1. [ creeer een nieuw ](/help/analysis-workspace/build-workspace-project/create-projects.md) of [ open een bestaand ](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
 1. Verzeker u [ selecteert een gegevensmening ](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [ ](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
 1. Sleep a ![ Lijst ](/help/assets/icons/Table.svg) [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
-1. Gebruik [ specifieke componenten van de Analyse van de Inhoud ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als filters, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen.
+1. Het gebruik [ specifieke componenten van Content Analytics ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als segmenten, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen.
 
 ## Miniaturen
 
-Op basis van de specifieke afmetingen voor inhoudsanalyse die u in uw project gebruikt, worden miniaturen weergegeven voor elementen en dimensies.
+Op basis van de Content Analytics-specifieke afmetingen die u in uw project gebruikt, worden miniaturen weergegeven voor elementen en dimensies.
 
-![ de duimnagels van de Analytics van de Inhoud ](../assets/aca-thumbnails.png)
+![ de duimnagels van Content Analytics ](../assets/aca-thumbnails.png)
 
 Standaard worden miniaturen weergegeven voor relevante Content Analytics-afmetingen. De weergave van miniaturen configureren voor een Content Analytics-dimensie:
 
@@ -48,7 +48,7 @@ U opent de voorvertoning met de volgende details:
 
   | Voorvertoning van ervaring | Voorvertoning van element |
   |---|---|
-  | ![ de Ervaring van de Analyse van de Inhoud ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van de Analyse van de Inhoud ](../assets/aca-asset-preview.png) |
+  | ![ de voorproef van de Ervaring van Content Analytics ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van de Analyse van de Inhoud ](../assets/aca-asset-preview.png) |
   | Naam van de dimensie (bijvoorbeeld, **[!UICONTROL Experience ID])** | Naam van de afmeting van het element (bijvoorbeeld, **[!UICONTROL Asset ID])** |
   | **[!UICONTROL Impressions (all time)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
   | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
@@ -67,7 +67,7 @@ De sjabloon gebruiken:
 
 1. Selecteer **[!UICONTROL Workspace]** in het hoofdmenu.
 1. Controleer of u een gegevensweergave hebt geselecteerd die is geconfigureerd voor Content Analytics.
-1. Zoek naar, of gebruik filters (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor ** [!UICONTROL Use Case] **s) om het **[!UICONTROL Content analytics]** malplaatje te vinden en te selecteren.
+1. Zoek naar, of gebruik segmenten (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor ** [!UICONTROL Use Case] **s) om het **[!UICONTROL Content analytics]** malplaatje te vinden en te selecteren.
 1. Selecteer **[!UICONTROL Use template]** .
 1. Selecteer in het dialoogvenster **[!UICONTROL Set up your template]** een metrische waarde in het dialoogvenster **[!UICONTROL Select a conversion metric]** . Bijvoorbeeld **[!UICONTROL Asset CTR]** .
 1. Selecteer **[!UICONTROL Continue]** .
@@ -156,6 +156,6 @@ U kunt elk element onderverdelen op basis van afmetingen, zodat u beter begrijpt
 
 >[!MORELIKETHIS]
 >
->{de componenten van Analytics van 0} Inhoud ](components.md)[
+>[ de componenten van Content Analytics ](components.md)
 >[Sjablonen gebruiken ](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

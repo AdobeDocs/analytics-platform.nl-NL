@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -56,9 +56,9 @@ U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleag
 
   U kunt ervaringen in- of uitschakelen en de combinaties van reguliere expressie en queryparameters bewerken om te bepalen hoe inhoud op uw website wordt weergegeven.
 
-* [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
+* [ Gebeurtenissegmentering ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
-  U kunt reguliere expressies bewerken om de manier te wijzigen waarop u pagina&#39;s en elementen filtert.
+  U kunt reguliere expressies bewerken om de manier te wijzigen waarop u pagina&#39;s en elementen segmenteert.
 
 
 Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, verzeker uw gebruik [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} om de inzameling van gegevens te beginnen die op de aangebrachte veranderingen worden gebaseerd.

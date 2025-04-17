@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '3188'
 ht-degree: 0%
@@ -519,7 +519,7 @@ Vanwege de onderliggende aard van hoe Customer Journey Analytics werkt, is de `a
 
 #### Voorwaardelijke metriek
 
-U kunt een `IF` - of `CASE` -component insluiten in de `SUM` - of `COUNT` -functies om aanvullende filters toe te voegen die specifiek zijn voor een geselecteerde metrische waarde. Het toevoegen van deze clausules is gelijkaardig aan het toepassen van een filter op een metrische kolom in een het rapportlijst van Workspace.
+U kunt een `IF` - of `CASE` -component insluiten in de `SUM` - of `COUNT` -functies om extra segmentering toe te voegen die specifiek is voor een geselecteerde metrische waarde. Het toevoegen van deze clausules is gelijkaardig aan het toepassen van een segment op een metrische kolom in een het rapportlijst van Workspace.
 
 Voorbeelden:
 
@@ -556,26 +556,26 @@ De speciale kolom `timestamp` wordt gebruikt om de datumwaaiers voor de vraag te
 * Als alleen een max wordt opgegeven (`timestamp < X` of `timestamp <= X` ), loopt het bereik van X min 30 dagen tot X.
 * Als er niets is opgegeven, ligt het bereik van nu min 30 dagen tot nu.
 
-Het tijdstempelbereik wordt geconverteerd naar een algemeen filter voor het datumbereik in RankedRequest.
+Het tijdstempelbereik wordt geconverteerd naar een algemeen segment met datumbereik in het RankedRequest.
 Het tijdstempelveld kan ook worden gebruikt in datum-/tijdfuncties om de tijdstempel van de gebeurtenis te parseren of af te kappen.
 
 #### Datumbereik
 
-De speciale kolom van `daterange` werkt gelijkaardig aan `timestamp`; nochtans is het filtreren beperkt tot volledige dagen. `daterange` is ook optioneel en heeft dezelfde standaardwaarden voor het bereik als `timestamp` .
+De speciale kolom van `daterange` werkt ongeveer zoals in `timestamp` . Het segmenteren is echter beperkt tot volledige dagen. `daterange` is ook optioneel en heeft dezelfde standaardwaarden voor het bereik als `timestamp` .
 Het veld `daterange` kan ook worden gebruikt in datum-/tijdfuncties om de gebeurtenisdatum te parseren of af te kappen.
 
-De speciale kolom van `daterangeName` kan worden gebruikt om uw vraag te filtreren gebruikend een genoemde datumwaaier zoals `Last Quarter`.
+De speciale kolom van `daterangeName` kan worden gebruikt om uw vraag te segmenteren gebruikend een genoemde datumwaaier zoals `Last Quarter`.
 
 >[!NOTE]
 >
 >Power BI biedt geen ondersteuning voor `daterange` -meetwaarden die minder dan een dag zijn (uur, 30 minuten, 5 minuten, enzovoort).
 >
 
-#### Filter-id
+#### Segment-id
 
-De speciale kolom `filterId` is optioneel en wordt gebruikt om een extern gedefinieerd filter toe te passen op de query. Het toepassen van een extern gedefinieerd filter op een query lijkt op het slepen van een filter op een deelvenster in Workspace. U kunt meerdere filter-id&#39;s gebruiken door ze `AND` te laten renderen.
+De speciale kolom `filterId` is optioneel en wordt gebruikt om een extern gedefinieerd segment toe te passen op de query. Het toepassen van een extern gedefinieerd segment op een query lijkt op het slepen van een segment in een deelvenster in Workspace. U kunt meerdere segment-id&#39;s gebruiken door ze `AND` te laten omgaan.
 
-Samen met `filterId` kunt u `filterName` gebruiken om de naam van een filter te gebruiken in plaats van de id.
+Samen met `filterId` kunt u `filterName` gebruiken om de naam van een segment te gebruiken in plaats van de id.
 
 ### Indien clausule
 
@@ -583,11 +583,11 @@ De component `WHERE` wordt in drie stappen afgehandeld:
 
 1. Zoek het datumbereik in de speciale velden `timestamp` , `daterange` of `daterangeName` .
 
-1. Zoek om het even welke extern gedefiniëerde `filterId` s of `filterName` s om in het filtreren te omvatten.
+1. Zoek om het even welke extern gedefiniëerde `filterId` s of `filterName` s om in het segment te omvatten.
 
-1. Zet de resterende expressies om in ad-hocfilters.
+1. Zet de resterende expressies om in ad-hocsegmenten.
 
-De afhandeling wordt uitgevoerd door het eerste niveau van `AND` s in de `WHERE` -component te parseren. Elke `AND` -ed-expressie op het hoogste niveau moet overeenkomen met een van de bovenstaande expressies. Om het even wat dieper dan het eerste niveau van `AND` s, of, als de `WHERE` clausule `OR` op het hoogste niveau gebruikt, wordt behandeld als ad hoc filter.
+De afhandeling wordt uitgevoerd door het eerste niveau van `AND` s in de `WHERE` -component te parseren. Elke `AND` -ed-expressie op het hoogste niveau moet overeenkomen met een van de bovenstaande expressies. Om het even wat dieper dan het eerste niveau van `AND` s, of, als de `WHERE` clausule `OR` op het hoogste niveau gebruikt, wordt behandeld als ad hoc segment.
 
 ### Sorteervolgorde
 

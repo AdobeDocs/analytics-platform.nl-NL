@@ -4,7 +4,7 @@ title: Snelle segmenten
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 0%
@@ -65,18 +65,18 @@ Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld w
 
 ![ Snelle segmentbouwer ](assets/quick-filter-builder.png)
 
-De snelle filterbouwer bestaat uit de volgende gebieden en de knopen.
+De snelle segmentbouwer bestaat uit de volgende gebieden en de knopen.
 
 ### Koptekstgebied
 
-Het koptekstgebied bepaalt de naam, het type en het bereik van het snelle filter. Ook wordt een visuele weergave weergegeven voor de resultaten van het snelle filter.
+Het koptekstgebied bepaalt de naam, het type en het bereik van het snelle segment. Het toont ook visueel voor de resultaten van het snelle segment.
 
 | Element | Beschrijving |
 |---|---|
-| **[!UICONTROL Name]** | De naam wordt automatisch afgeleid van de snelle filterdefinitie. |
-| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning weergeven van de gegevens die het snelle filter oplevert. Een balk en percentage geven insight in hoeveel van de algemene gegevens deel uitmaken van het resultaat van het snelle filter. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat de snelle filter geen gegevens terugkeert. |
-| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van de snelle filter van de gegevens in het paneel wilt omvatten of uitsluiten. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van de snelle filter. |
+| **[!UICONTROL Name]** | De naam wordt automatisch afgeleid uit de snelle segmentdefinitie. |
+| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning van de gegevens die het snelle segment oplevert. Een bar en een percentage verstrekken insight in hoeveel van de algemene gegevens deel van het resultaat van het snelle segment uitmaken. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat het snelle segment geen gegevens terugkeert. |
+| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van het snelle segment van de gegevens in het paneel wilt omvatten of uitsluiten. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van het snelle segment. |
 
 ### Voorwaardegebied
 
@@ -88,25 +88,25 @@ In het voorwaardengebied worden de voorwaarden opgegeven (maximaal drie). Voor e
 | **[!UICONTROL *component *]** | Het componentveld voor de voorwaarde. U kunt [!UICONTROL *Type*] toevoegen een component, een component van de lijst selecteren, of u kunt een component van het componentenpaneel slepen en laten vallen. U kunt vergelijkbare componenten alleen neerzetten in het deelveld van de voorwaarde. U kunt bijvoorbeeld alleen een dimensie-component uit het deelvenster Componenten neerzetten als aan een afmetingsvoorwaarde is voldaan. <br/> u kunt ook slepen en laten vallen om een bestaande component te vervangen.<br/> Uitgezochte ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om de component van het componentengebied te schrappen. |
 | **[!UICONTROL *exploitant *]** | De operator voor de component. Zie [ Operatoren ](operators.md) voor meer informatie. Alleen beschikbaar voor afmetingen en metriek. |
 | **[!UICONTROL *waarde *]** | De waarde voor de voorwaarde. Afhankelijk van de geselecteerde operator kunt u de waarde in een lijst selecteren of een waarde invoeren. |
-| ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) | Selecteer deze optie om een voorwaarde uit het filter Snel te verwijderen. |
+| ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) | Selecteer deze optie om een voorwaarde uit het snelle segment te verwijderen. |
 
 ### Knoppen
 
 | Knop | Beschrijving |
 |---|---|
-| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Deze optie is alleen beschikbaar wanneer u meerdere voorwaarden definieert. Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) tussen de voorwaarden. De selectie bepaalt de booleaanse logica voor het snelle filter. U kunt logica niet mengen wanneer er drie voorwaarden zijn. De Booleaanse logica is **[!UICONTROL AND]** of **[!UICONTROL OR]** . |
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | Hiermee voegt u een andere voorwaarde toe aan het snelle filter. Deze knop is alleen beschikbaar als u een of twee voorwaarden voor het snelle filter hebt gedefinieerd. |
-| **[!UICONTROL Apply]** | Pas de wijzigingen toe op het snelle filter. |
-| **[!UICONTROL Open builder]** | U wordt om bevestiging gevraagd met een dialoogvenster **[!UICONTROL Are your sure?]** . Als u **[!UICONTROL OK]** selecteert, kunt u uw filter in [ Snelle filterbouwer ](#quick-filter-builder) niet meer wijzigen Uw snelle filter wordt anders genoemd aan **[!UICONTROL Filter]** en heeft nu een donkerdere blauwe dunne linkerbar.<br/> de regelmatige [ bouwer van de Filter ](filter-builder.md) opent met de optie aan **[!UICONTROL Make this filter available to all your projects and add it to your component list]**. <ul><li>Als u deze optie selecteert en **[!UICONTROL Apply]** selecteert, wordt de filter toegevoegd aan de ![ de componentenlijst van de Filter ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** in het componentenpaneel.</li><li>Als u deze optie niet selecteert en **[!UICONTROL Apply]** selecteert, blijft het filter alleen beschikbaar voor Workspace-projecten.</li></ul> |
-| **[!UICONTROL Cancel]** | Selecteer deze optie om het maken of bewerken van een snel filter te annuleren. |
+| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Deze optie is alleen beschikbaar wanneer u meerdere voorwaarden definieert. Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) tussen de voorwaarden. De selectie bepaalt de booleaanse logica voor het snelle segment. U kunt logica niet mengen wanneer er drie voorwaarden zijn. De Booleaanse logica is **[!UICONTROL AND]** of **[!UICONTROL OR]** . |
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | Hiermee voegt u een andere voorwaarde toe aan het snelle segment. Deze knop is alleen beschikbaar wanneer u een of twee voorwaarden voor het snelle segment hebt gedefinieerd. |
+| **[!UICONTROL Apply]** | Pas de wijzigingen toe op het snelle segment. |
+| **[!UICONTROL Open builder]** | U wordt om bevestiging gevraagd met een dialoogvenster **[!UICONTROL Are your sure?]** . Als u **[!UICONTROL OK]** selecteert, kunt u uw segment in [ Snelle segmentbouwer ](#quick-filter-builder) niet meer wijzigen Uw snel segment wordt anders genoemd aan **[!UICONTROL Segment]** en heeft nu een donkerdere blauwe dunne linkerbar.<br/> de regelmatige [ bouwer van het Segment ](filter-builder.md) opent met de optie aan **[!UICONTROL Make this segment available to all your projects and add it to your component list]**. <ul><li>Als u deze optie selecteert en **[!UICONTROL Apply]** selecteert, wordt het segment toegevoegd aan de ![ 2} **[!UICONTROL Filters]** componentenlijst van het Segment in het componentenpaneel.](/help/assets/icons/Segmentation.svg)</li><li>Als u deze optie niet selecteert en **[!UICONTROL Apply]** selecteert, blijft het segment een segment met alleen het Workspace-project.</li></ul> |
+| **[!UICONTROL Cancel]** | Selecteer deze optie om het maken of bewerken van een snel segment te annuleren. |
 
-## Snelle filters versus filters
+## Snelle segmenten versus segmenten
 
-Quick filters zijn precies wat ze noemen. U kunt snelle filters snel inline maken en bewerken en de effecten direct in het deelvenster bekijken.
+Quick segments is precies wat ze hebben genoemd. U kunt snelle segmenten snel inline maken en bewerken en de effecten direct in het deelvenster bekijken.
 
-Filters hebben de volgende voordelen ten opzichte van snelle filters.
+Segmenten hebben de volgende voordelen ten opzichte van snelle segmenten.
 
-* Filters kunnen beschikbaar worden gesteld voor al uw Workspace-projecten
-* Filters ondersteunen meer complexiteit met behulp van geneste en hiërarchische containers en reeksen (met behulp van reeksfilters).
+* Segmenten kunnen beschikbaar worden gesteld voor al uw Workspace-projecten
+* Segmenten ondersteunen meer complexiteit met behulp van geneste en hiërarchische containers en reeksen (met behulp van reekssegmenten).
 
 

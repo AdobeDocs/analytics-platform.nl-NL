@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Deze sectie is alleen zichtbaar voor beheerders die zijn ingericht met Journey O
 
 ### Containers
 
-Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen van de container worden vaak gebruikt in [ filters ](/help/components/filters/filters-overview.md#Filter-containers).
+Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen van de container worden vaak gebruikt in [ segmenten ](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -185,13 +185,13 @@ U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/wo
 ## Instellingen
 
 1. Selecteer de tab **[!UICONTROL Settings]** .
-1. Configureer filters om toe te passen op de volledige gegevensweergave. Zie [ Montages (filters) ](#settings-filters) hieronder.
+1. Vorm segmenten om op uw volledige gegevensmening toe te passen. Zie [ Montages (segmenten) ](#settings-filters) hieronder.
 1. Configureer de sessietime-out en metriek. Zie [ montages van de Zitting ](#session-settings) hieronder.
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
-### Instellingen (filters)
+### Instellingen (segmenten)
 
-U kunt filters toevoegen die op een volledige gegevensmening van toepassing zijn. Dit filter wordt toegepast op elk rapport dat u in Workspace uitvoert. Sleep een filter van de lijst in de linkerspoorstaaf aan het [!UICONTROL Add filters] gebied.
+U kunt segmenten toevoegen die van toepassing zijn op een volledige gegevensweergave. Dit segment wordt toegepast op om het even welk rapport dat u in Workspace loopt. Sleep een segment van de lijst in de linkerspoor aan het [!UICONTROL Add segments] gebied.
 
 ### Sessieinstellingen
 
