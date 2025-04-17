@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6e59b029542b7b4353f03b6dd083e25955aacc7b
+source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
 1. Selecteer **[!UICONTROL Save]** om de geselecteerde gegevensweergave te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
-In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [ ](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
+In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [ ](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt het veld **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
 
 
 ### Vastleggen en definiëren van ervaring {#onboarding-experiences}
@@ -180,7 +180,7 @@ In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="Vastleggen en definiëren van ervaring"
->abstract="U moet de montages voor ervaringsgegevensinzameling in de uitbreiding van Adobe Content Analytics in het bezit van Markeringen uitgeven dat met de huidige configuratie wordt geassocieerd."
+>abstract="U moet de instellingen voor het verzamelen van ervaringsgegevens bewerken in de Adobe Content Analytics-extensie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -192,6 +192,14 @@ Neem alleen ervaringen op als het volgende van toepassing is:
 
 * De pagina&#39;s op de site moeten reproduceerbaar zijn met de pagina-URL.
 * De tekstinhoud die door een bepaalde gebruiker wordt gezien, kan met de pagina-URL worden gereproduceerd en is niet afhankelijk van cookies of andere verpersoonlijkingsmechanismen.
+
+>[!IMPORTANT]
+>
+>Voer [ het versioning van Content Analytics ](manual.md#versioning) uit om veranderingen te verzamelen die u aan de ervaringen (pagina&#39;s) onderworpen aan Content Analytics aanbrengt.
+
+
+
+#### Nieuwe configuratie {#new-experiences-configuration}
 
 Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
@@ -208,6 +216,9 @@ Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
    1. Geef een door komma&#39;s gescheiden lijst op van **[!UICONTROL Query parameters,]** bijvoorbeeld `outdoors, patio, kitchen` .
 1. Selecteer **[!UICONTROL Remove]** als u een combinatie van de reguliere expressie van het domein en queryparameters wilt verwijderen.
 1. Selecteer **[!UICONTROL Add Regex]** als u een andere combinatie van een reguliere expressie en queryparameters wilt toevoegen.
+
+
+### Geïmplementeerde configuratie {#implemented-experiences-configuration}
 
 Bestaande bewerkingen bewerken of nieuwe ervaringen opnemen in een geïmplementeerde configuratie:
 
@@ -304,7 +315,8 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
 >[!IMPORTANT]
 >
->In het geval dat u een bestaande implementatie van SDK van het Web hebt die de [ bibliotheek Javascript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) gebruikt, en niet de [ uitbreiding van Markeringen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt, moet u de automatische inbegrepen uitbreiding van SDK van het Web van het pas gecreëerde bezit van Markeringen manueel verwijderen.
+>Verwijder manueel de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen in het geval u een bestaande implementatie van SDK van het Web hebt die de [ bibliotheek van JavaScript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) in plaats van de [ uitbreiding van Markeringen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt.
+>
 
 
 
