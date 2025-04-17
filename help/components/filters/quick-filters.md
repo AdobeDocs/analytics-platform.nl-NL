@@ -1,19 +1,19 @@
 ---
-description: Snelle filters gebruiken in Analysis Workspace voor Customer Journey Analytics
-title: Snelle filters
+description: Snelle segmenten in Analysis Workspace gebruiken voor Customer Journey Analytics
+title: Snelle segmenten
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
 
-# Snelle filters
+# Snelle segmenten
 
-De snelle filters staan u toe om gegevens binnen een project van Workspace snel te onderzoeken, zonder de behoefte om een filter in de [ Bouwer van de Filter ](/help/components/filters/create-filters.md) tot stand te brengen.
+De snelle segmenten staan u toe om gegevens binnen een project van Workspace snel te onderzoeken, zonder de behoefte om een segment in de [ Bouwer van het Segment ](/help/components/filters/create-filters.md) tot stand te brengen.
 
 
 
@@ -24,46 +24,46 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Snelle segmen
 >[!ENDSHADEBOX]
 
 
-Wanneer u snelle filters wilt gebruiken, moet u het volgende opmerken:
+Wanneer u snelle segmenten wilt gebruiken, gelieve te merken dat:
 
-* Snelle filters worden direct in een Workspace-project gemaakt. Een snelfilter wordt daarom alleen toegepast op het Workspace-project waarin u het snelfilter maakt. De snelfilters in uw Workspace-project zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers.
-* U kunt slechts drie voorwaarden opgeven als onderdeel van een snel filter.
-* Snelle filters ondersteunen geen geneste containers of sequentiële voorwaarden.
-* U kunt snelle filters binnen een gedeeld Workspace-project bewerken. Andere gebruikers kunnen de snelfilters dus bewerken in een Workspace-project dat u met deze gebruikers hebt gedeeld.
+* Snelle segmenten worden direct in een Workspace-project gemaakt. Een snel segment is daarom alleen van toepassing op het Workspace-project waarin u het snelsegment maakt. De snelle segmenten in uw Workspace-project zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers.
+* U kunt slechts drie voorwaarden opgeven als onderdeel van een snel segment.
+* Snelle segmenten ondersteunen geen geneste containers of sequentiële voorwaarden.
+* U kunt snelle segmenten binnen een gedeeld Workspace-project bewerken. Andere gebruikers kunnen de snelsegmenten dus bewerken in een Workspace-project dat u met deze gebruikers hebt gedeeld.
 
 ## Maken
 
-Snelle filters zijn van toepassing op panelen. U kunt een of meer snelle filters maken voor elk deelvenster in uw Workspace-project. Elke gebruiker in Analysis Workspace kan snelle filters maken.
+Snelle segmenten worden toegepast op deelvensters. U kunt een of meer snelle segmenten maken voor elk deelvenster in uw Workspace-project. Elke gebruiker in Analysis Workspace kan snelle segmenten maken.
 
-Een snelfilter maken:
+Een snel segment maken:
 
-* Selecteer ![ FilterAdd ](/help/assets/icons/FilterAdd.svg) bij de bovenkant van het paneel. <br/> dan, geef direct het filter in de [ Snelle filterbouwer ](#quick-filter-builder) uit.
-* Sleep een component van het componentenpaneel aan de filterdalingsstreek in de paneelkopbal. Zodra gelaten vallen, beweegt over de filter en selecteert ![ ](/help/assets/icons/Edit.svg) uitgeven om de filter in de [ Snelle filterbouwer ](#quick-filter-builder) uit te geven.
+* Selecteer ![ SegmentAdd ](/help/assets/icons/FilterAdd.svg) bij de bovenkant van het paneel. <br/> dan, geef direct het segment in de [ Snelle segmentbouwer ](#quick-filter-builder) uit.
+* Sleep een component van het componentenpaneel aan de gebied van de segmentdaling in de paneelkopbal. Zodra gelaten vallen, beweegt over het segment en selecteert ![ ](/help/assets/icons/Edit.svg) uitgeven om het segment in de [ Snelle segmentbouwer ](#quick-filter-builder) uit te geven.
 
-Wanneer u een snel filter maakt met slepen en neerzetten, moet u het volgende opmerken:
+Wanneer u een snel segment maakt door te slepen en neer te zetten, moet u het volgende opmerken:
 
-* Niet alle componenttypen worden ondersteund. Berekende metriek worden niet ondersteund en alleen afmetingen en metriek van waaruit u filters kunt maken, worden ondersteund.
-* Voor dimensies en metriekcomponenten, leidt de [ Snelle filterbouwer ](#quick-filter-builder) automatisch tot een `exists` voorwaarden. Als u bijvoorbeeld `City` sleept en neerzet, wordt de voorwaarde `City exists` gemaakt.
-* Voor afmetingswaarden, leidt de [ Snelle filteraannemer ](#quick-filter-builder) automatisch tot een `equals` voorwaarde. Als u bijvoorbeeld `amsterdam` sleept vanuit de `City` -dimensie, wordt de voorwaarde `City equals amsterdam` gemaakt.
-* Als u sleept en `unspecified` of `none` laat vallen, [ Snelle filterbouwer ](#quick-filter-builder) leidt automatisch tot een `does not exist` voorwaarde.
+* Niet alle componenttypen worden ondersteund. Berekende metriek worden niet ondersteund en alleen dimensies en metriek waaruit u segmenten kunt samenstellen, worden ondersteund.
+* Voor dimensies en metriekcomponenten, leidt de [ Snelle segmentbouwer ](#quick-filter-builder) automatisch tot een `exists` voorwaarden. Als u bijvoorbeeld `City` sleept en neerzet, wordt de voorwaarde `City exists` gemaakt.
+* Voor afmetingswaarden, leidt de [ Snelle segmentbouwer ](#quick-filter-builder) automatisch tot een `equals` voorwaarde. Als u bijvoorbeeld `amsterdam` sleept vanuit de `City` -dimensie, wordt de voorwaarde `City equals amsterdam` gemaakt.
+* Als u sleept en `unspecified` of `none` laat vallen, [ Snelle segmentbouwer ](#quick-filter-builder) leidt automatisch tot een `does not exist` voorwaarde.
 
-Snelle filters die u maakt, worden boven in het deelvenster weergegeven. Snelle filters hebben wel een lichtblauwe dunne linkerbalk. Wanneer een snelle filter op uitgeeft wijze gebruikend de [ Snelle filterbouwer ](#quick-filter-builder) is, is de achtergrond van de Snelle filter lichtblauw.
+Snelle segmenten die u maakt, worden boven in het deelvenster weergegeven. Snelle segmenten hebben wel een lichtblauwe, dunne linkerbalk. Wanneer een snel segment op uitgeeft wijze gebruikend de [ Snelle segmentbouwer ](#quick-filter-builder) is, is de achtergrond van het Snelle segment lichtblauw.
 
-De resultaten van de snelle filters die u in een deelvenster maakt, worden toegepast (met AND-logica) op alle visualisaties die deel uitmaken van het deelvenster.
+De resultaten van de snelle segmenten die u in een deelvenster maakt, worden toegepast (met de logica AND) op alle visualisaties die deel uitmaken van het deelvenster.
 
 
 ## Beheren
 
-Als u een snel filter wilt beheren, houdt u de muisaanwijzer boven de specifieke **[!UICONTROL Quick filter]** .
+Als u een snel segment wilt beheren, houdt u de muisaanwijzer boven het specifieke segment **[!UICONTROL Quick segment]** .
 
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om de [ Snelle filterbouwer ](#quick-filter-builder) te openen en de snelle filter uit te geven.
-* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De pop-up toont informatie over de filter. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om de filter aan de ![ de componentenlijst van de Filter ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** toe te voegen in het componentenpaneel. Er wordt een dialoogvenster **[!UICONTROL Save quick filter]** weergegeven waarin u wordt gevraagd een naam voor het filter op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick filter] verandert in een **[!UICONTROL Filter]** . U kunt niet de Filter meer uitgeven gebruikend de [ Snelle filterbouwer ](#quick-filter-builder). In plaats daarvan, moet u de filter als regelmatige filter uitgeven, gebruikend de [ bouwer van de Filter ](filter-builder.md).
+* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om de [ Snelle segmentbouwer ](#quick-filter-builder) te openen en het snelle segment uit te geven.
+* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De pop-up toont informatie over de filter. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om het segment aan de ![ 2} **[!UICONTROL Segments]** componentenlijst van het Segment {in het componentenpaneel toe te voegen. ](/help/assets/icons/Segmentation.svg) Er wordt een dialoogvenster **[!UICONTROL Save quick segment]** weergegeven waarin u wordt gevraagd een naam voor het segment op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick segment] verandert in een **[!UICONTROL Segment]** . U kunt niet het segment meer uitgeven gebruikend de [ Snelle segmentbouwer ](#quick-filter-builder). In plaats daarvan, moet u het segment als regelmatig segment uitgeven, gebruikend de [ bouwer van het Segment ](filter-builder.md).
 
-## Snelle filterbuilder
+## Quick segment builder
 
-Zie hieronder voor een voorbeeld van de snelle filterbuilder. In het voorbeeld wordt de builder geopend voor een snel filter met de naam `Call Reason = Order Change AND Online Orders is greater than or equal 1` . Beide snelle filters bovenaan zijn van toepassing op het deelvenster [!UICONTROL Average Order Value Dashboard] en alle visualisaties daarbinnen, zoals de vrije-vormtabel van [!UICONTROL Average Order Value Per Country] .
+Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld wordt de builder geopend voor een snel filter met de naam `Call Reason = Order Change AND Online Orders is greater than or equal 1` . Beide snelle filters bovenaan zijn van toepassing op het deelvenster [!UICONTROL Average Order Value Dashboard] en alle visualisaties daarbinnen, zoals de vrije-vormtabel van [!UICONTROL Average Order Value Per Country] .
 
-![ Snelle de filterbouwer ](assets/quick-filter-builder.png)
+![ Snelle segmentbouwer ](assets/quick-filter-builder.png)
 
 De snelle filterbouwer bestaat uit de volgende gebieden en de knopen.
 
@@ -74,7 +74,7 @@ Het koptekstgebied bepaalt de naam, het type en het bereik van het snelle filter
 | Element | Beschrijving |
 |---|---|
 | **[!UICONTROL Name]** | De naam wordt automatisch afgeleid van de snelle filterdefinitie. |
-| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning weergeven van de gegevens die het snelle filter oplevert. Een balk en een percentage geven inzicht in hoeveel van de algemene gegevens deel uitmaken van het resultaat van het snelle filter. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat de snelle filter geen gegevens terugkeert. |
+| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning weergeven van de gegevens die het snelle filter oplevert. Een balk en percentage geven insight in hoeveel van de algemene gegevens deel uitmaken van het resultaat van het snelle filter. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat de snelle filter geen gegevens terugkeert. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van de snelle filter van de gegevens in het paneel wilt omvatten of uitsluiten. |
 | **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van de snelle filter. |
 

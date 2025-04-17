@@ -1,10 +1,10 @@
 ---
 title: Operatoren
-description: Bepaal hoe een component met een waarde binnen een filter interactie aangaat.
+description: Bepaal hoe een component met een waarde binnen een segment interactie aangaat.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Met de filterbuilder kunt u waarden voor componenten vergelijken en beperken met
 
 ## Operatoren voor onderscheiden tellen
 
-U kunt filteren op een aantal verschillende items binnen een dimensie. U kunt bijvoorbeeld filters maken voor personen die meer dan vijf verschillende producten hebben bekeken of bezoeken waarbij meer dan vijf afzonderlijke pagina&#39;s zijn weergegeven.
+U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. U kunt bijvoorbeeld segmenten maken voor personen die meer dan vijf verschillende producten hebben bekeken of bezoeken waarbij meer dan vijf afzonderlijke pagina&#39;s zijn weergegeven.
 
 | Operator | Beschrijving |
 | --- | --- |

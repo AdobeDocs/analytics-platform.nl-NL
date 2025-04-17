@@ -1,27 +1,27 @@
 ---
 description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
-title: De lijst met filters filteren
+title: De lijst met segmenten filteren
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# De lijst met filters filteren
+# De lijst met segmenten filteren
 
-U kunt een filterlijst maken. Het gebruiken van een filter op filters maakt het gemakkelijker om de filters te vinden die aan u beschikbaar zijn, en filters van de [ manager van de Filter ](manage-filters.md) te beheren.
+U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmenten maakt het gemakkelijker om de segmenten te vinden die aan u beschikbaar zijn, en segmenten van de [ manager van het Segment ](manage-filters.md) te beheren.
 
 >[!NOTE]
 >
->De lijst van filters verwijst naar de [ filterlijst ](manage-filters.md#filters-list) als deel van de [ manager van de Filter ](manage-filters.md). U kunt die lijst filtreren gebruikend het ](/help/assets/icons/Filter.svg) [ paneel van de Filter ](manage-filters.md#filter-panel), deel van die zelfde [ manager van de Filter ](manage-filters.md).![
+>De lijst van segmenten verwijst naar de [ segmentlijst ](manage-filters.md#filters-list) als deel van de [ manager van het Segment ](manage-filters.md). U kunt die lijst filtreren gebruikend het ](/help/assets/icons/Filter.svg) [ paneel van de Filter ](manage-filters.md#filter-panel), deel van die zelfde [ manager van het Segment ](manage-filters.md).![
 >
 
 
-De lijst met filters filteren:
+De lijst met segmenten filteren:
 
 1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
 1. Selecteer filters van om het even welke beschikbare [ filtersecties ](#filter-sections).
