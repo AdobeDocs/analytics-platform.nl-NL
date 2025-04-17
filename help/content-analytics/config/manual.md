@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De volgende handmatige configuratiehandelingen zijn beschikbaar:
 
 De gegevensverzameling starten voor een geïmplementeerde Content Analytics-configuratie:
 
-1. Volg [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat.
+1. Volg [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Publiceer met succes de bibliotheek voor het bezit van Markeringen dat uw configuratie van Content Analytics bevat.
 
 1. [ installeer ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) de ingebedde code in het `<head>` element van de pagina&#39;s op uw ontwikkelings, het opvoeren of het publiceren milieu, behoudens Content Analytics.
 
@@ -45,7 +45,7 @@ U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie 
 
 U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bezit van Markeringen verbonden aan uw configuratie van Content Analytics om veranderingen in de volgende artefacten aan te brengen:
 
-* [ Sandbox en datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams) {target="_blank"}.
+* [ Sandbox en datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
 
   >[!CAUTION]
   >
@@ -56,12 +56,12 @@ U gebruikt de [ uitbreiding van Adobe Content Analytics ](https://experienceleag
 
   U kunt ervaringen in- of uitschakelen en de combinaties van reguliere expressie en queryparameters bewerken om te bepalen hoe inhoud op uw website wordt weergegeven.
 
-* [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) {target="_blank"}
+* [ Gebeurtenis het filtreren ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
 
   U kunt reguliere expressies bewerken om de manier te wijzigen waarop u pagina&#39;s en elementen filtert.
 
 
-Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, verzeker uw gebruik [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) {target="_blank"} om de inzameling van gegevens te beginnen die op de aangebrachte veranderingen worden gebaseerd.
+Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, verzeker uw gebruik [ het publiceren stroom ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} om de inzameling van gegevens te beginnen die op de aangebrachte veranderingen worden gebaseerd.
 
 
 
@@ -74,7 +74,9 @@ Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, v
 
 ## Versioning
 
-Als u een versie van uw Content Analytics-ervaringen nodig hebt, moet u een algemene `adobe.getContentExperienceVersion` functie toevoegen aan de pagina&#39;s die u een analyse wilt maken.
+Als u Content Analytics-ervaringen wilt verzamelen, kunt u het beste een versie implementeren om ervoor te zorgen dat nieuwe ervaringen (wijzigingen in uw webpagina) correct worden verzameld.
+
+Als u versioning wilt implementeren, voegt u een algemene `adobe.getContentExperienceVersion` functie toe op de pagina&#39;s die u een ervaring hebt die u wilt analyseren.
 
 De functie `adobe.getContentExperienceVersion` moet een tekenreeks retourneren als waarde, wat u ook kunt kiezen, om de versie te identificeren. De versie wordt toegevoegd aan [ identiteitskaart URL van de Ervaring ](/help/content-analytics/report/components.md#experience-metadata).
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In het kader van dit artikel worden de volgende definities gebruikt:
 * **Ervaring**: Een ervaring wordt bepaald als tekstinhoud op een volledige Web-pagina. Voor gegevensverzameling registreert Content Analytics de ervaring-id die is gebaseerd op de pagina-URL. Later wordt de tekst op de pagina vastgelegd via de ophaalservice.
 * **identiteitskaart van de Ervaring**: Een unieke combinatie relevante URL (basis URL plus om het even welke parameters die inhoud op de pagina drijven) en [ ervaringsversie ](manual.md#versioning).
    * U specificeert, als deel van de [ configuratie ](configuration.md), welke parameters voor om het even welke bepaalde volledige URL relevant zijn.
-   * U kunt het [ versieherkenningsteken ](manual.md#versioning) bepalen dat wordt gebruikt.
+   * U bepaalt het herkenningsteken van de a [ versie ](manual.md#versioning) aan gebruik, zodat verzamelt u behoorlijk veranderingen in uw ervaringen.
 * **Activa**: Een beeld. Content Analytics registreert de URL van het element.
 * **identiteitskaart van Activa**: URL van de activa.
 * **Relevante URL**: De basis URL plus om het even welke parameters die inhoud op de pagina drijven.
@@ -85,7 +85,7 @@ Er wordt een ervaringsklik opgenomen wanneer:
 
 ### Gewone of specifieke (gedrags)gebeurtenis
 
-Triggers om een reguliere of specifieke (gedrags)gebeurtenis in de context van Content Analytics te starten zijn:
+Triggers om een reguliere of specifieke (gedrags)gebeurtenis te starten in de context van Content Analytics zijn:
 
 * Web SDK of AppMettings verzendt een gebeurtenis.
 * De zichtbaarheid verandert in verborgen, bijvoorbeeld:
