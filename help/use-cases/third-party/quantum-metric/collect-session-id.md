@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: ae88ab16e85bd1274990f8c4d04771398293fe09
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Bevestig dat de datasets in uw verbinding nu Quantum Metric zittings identiteits
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
-1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** in het bovenste menu.
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** (optioneel vanuit **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Selecteer de gewenste bestaande gegevensweergave.
 1. Zoek de lijst met het veld Metrische sessie-id van Quantum links en sleep deze naar het gebied met afmetingen in het midden.
 1. In de juiste ruit, plaats [ persistentie ](/help/data-views/component-settings/persistence.md) het plaatsen aan &quot;Zitting&quot;.

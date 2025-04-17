@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ Zie [ Adobe Experience Platform bronschakelaars ](https://experienceleague.adobe
 Het creëren van een bronschakelaar voor Metrische gegevens Quantum leidt automatisch tot een dataset in Adobe Experience Platform. Voeg deze dataset aan een nieuwe of bestaande [ verbinding ](/help/connections/overview.md) in Customer Journey Analytics toe.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
-1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Connections]** in het bovenste menu.
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Connections]** (optioneel vanuit **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Geef de verbinding een naam, en voeg de Metrische dataset van het Aantal aan de verbinding toe.
 1. Klik op **[!UICONTROL Save]**.
 
@@ -46,7 +47,7 @@ Het creëren van een bronschakelaar voor Metrische gegevens Quantum leidt automa
 Creeer a [ gegevensmening ](/help/data-views/data-views.md) om afmeting en metrische montages te vormen.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
-1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** in het bovenste menu.
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** (optioneel vanuit **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Selecteer de gewenste gegevensweergave of maak een gegevensweergave.
 1. Zoek de gewenste metrische afmetingen en metriek van Quantum in de lijst van schemagebieden op het recht, en sleep hen aan de afmetingen en het metriekgebied in het centrum.
 1. Gebruik de juiste ruit om elke gewenste afmeting en metrisch te vormen.

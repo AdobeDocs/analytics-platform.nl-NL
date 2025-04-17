@@ -1,26 +1,26 @@
 ---
 title: Gegevens verzamelen via de Adobe Experience Platform Edge Network Server-API
-description: Verklaar hoe te om gegevens in Customer Journey Analytics via de Server API van de Edge Network van Adobe Experience Platform en de Edge Network in te voeren
+description: Uitleggen hoe u gegevens in Customer Journey Analytics kunt opnemen via de Adobe Experience Platform Edge Network Server-API en de Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
 
 # Gegevens verzamelen via de Edge Network Server-API
 
-Deze snelstartgids legt uit hoe u de volgende gegevens van apparaten zoals IoT-apparaten, set-top boxes, gameconsoles, bureaubladtoepassingen rechtstreeks in Adobe Experience Platform kunt invoeren met behulp van de Adobe Experience Platform Edge Network Server API en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
+In deze snelstartgids wordt uitgelegd hoe u gegevens voor het bijhouden van gegevens kunt invoeren van apparaten zoals IoT-apparaten, set-top boxes, gameconsoles, bureaubladtoepassingen rechtstreeks in Adobe Experience Platform met de Adobe Experience Platform Edge Network Server-API en Edge Network. Gebruik die gegevens vervolgens in Customer Journey Analytics.
 
 Hiervoor moet u:
 
 - **opstelling een schema en dataset** in Adobe Experience Platform om het model (schema) van de gegevens te bepalen die u wilt verzamelen en waar te om de gegevens (dataset) eigenlijk te verzamelen.
 
-- **opstelling een datastream** om de Edge Network van Adobe Experience Platform te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
+- **opstelling een datastream** om Adobe Experience Platform Edge Network te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
 
 - **Server API van het Gebruik** om gegevens van uw toepassing of spel direct te verzenden die op een Desktop, gokkenconsole, apparaat IoT, of reeks-hoogste doos aan uw gegevensstroom lopen.
 
@@ -109,7 +109,7 @@ Uw schema instellen:
 
    ![ Voorwerp van de Identificatie ](./assets/identification-field-gaming.png)
 
-   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw game afspelen met de Experience Cloud-id en het e-mailadres waarmee ze zich aanmelden bij hun gameconsole. Er zijn veel andere kenmerken beschikbaar om de identiteit van uw persoon te volgen.
+   Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen die uw game afspelen identificeren aan de hand van de Experience Cloud-id en het e-mailadres dat ze gebruiken om u aan te melden bij hun gameconsole. Er zijn veel andere kenmerken beschikbaar om de identiteit van uw persoon te volgen.
 
    Selecteer **[!UICONTROL Apply]** om dit object aan uw schema toe te voegen.
 
@@ -117,7 +117,7 @@ Uw schema instellen:
 
    ![ specificeer ECID als identiteit ](./assets/specify-identity-gaming.png)
 
-   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (aan te sluiten) met dezelfde ECID.
+   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
    Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
@@ -145,7 +145,7 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
-U hebt een minimaal schema gemaakt dat de gegevens modelleert die u van uw game kunt vastleggen. Met het schema kunnen profielen worden geïdentificeerd aan de hand van de identiteit en het e-mailadres van het Experience Cloud. Door het schema voor profiel in te schakelen, zorgt u ervoor dat de gegevens die zijn vastgelegd in uw consolegame worden toegevoegd aan het Real-Time Klantprofiel.
+U hebt een minimaal schema gemaakt dat de gegevens modelleert die u van uw game kunt vastleggen. In het schema kunnen profielen worden geïdentificeerd met Experience Cloud Identity en e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat de gegevens die zijn vastgelegd in uw consolegame worden toegevoegd aan het Real-Time Klantprofiel.
 
 Naast gedragsgegevens kunt u ook profielkenmerkgegevens vastleggen vanaf uw console (bijvoorbeeld details van profielen die zijn ondertekend in de console).
 
@@ -201,7 +201,7 @@ Zie {de gids UI van de Datasets van 0} ](https://experienceleague.adobe.com/docs
 
 ## Een gegevensstroom instellen
 
-Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs en de Server API van de Edge Network van Adobe Experience Platform. Wanneer het verzamelen van gegevens met Adobe Experience Platform SDKs en de Server APIs van de Edge Network, worden de gegevens verzonden naar de Edge Network van Adobe Experience Platform. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
+Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs en de Server API van Adobe Experience Platform Edge Network. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform en de API&#39;s van Edge Network Server worden gegevens verzonden naar de Adobe Experience Platform Edge Network. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
 
 In uw opstelling, wilt u de gegevens die u van het spel verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
 
@@ -227,7 +227,7 @@ Uw gegevensstroom instellen:
 
    3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ datastream AEP dienst ](./assets/datastream-aep-service.png)
+      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
@@ -237,7 +237,7 @@ Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/ex
 
 ## Edge Network Server-API gebruiken
 
-Bij de ontwikkeling van uw game kunt u desgewenst relevante aanroepen toevoegen aan de Adobe Experience Platform Edge Network Server-API.
+Bij de ontwikkeling van uw game kunt u desgewenst relevante aanroepen toevoegen aan de Adobe Experience Platform Edge Network Server API.
 
 Als u bijvoorbeeld de score van de speler wilt bijwerken, gebruikt u:
 
@@ -270,19 +270,19 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 }'
 ```
 
-In het verzoek van de POST van het voorbeeld, `{DATASTREAM_ID}` richt aan het herkenningsteken van de voorbeeldgegevensstroom u vroeger vormde. `{sandbox}` is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
+In het voorbeeld POST-verzoek verwijst `{DATASTREAM_ID}` naar de id van de voorbeeldgegevensstroom die u eerder hebt geconfigureerd. `{sandbox}` is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
 
-Zie [ Interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) en [ Niet-interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) voor meer informatie over hoe te om de Server API van de Edge Network te gebruiken.
+Zie [ Interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) en [ Niet-interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) voor meer informatie over hoe te om de Server API van Edge Network te gebruiken.
 
 ## Een verbinding instellen
 
-Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset, en werkschema voortvloeien.
+Als u de Adobe Experience Platform-gegevens in Customer Journey Analytics wilt gebruiken, maakt u een verbinding die de gegevens bevat die het resultaat zijn van het instellen van het schema, de gegevensset en de workflow.
 
 Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Workspace vestigen.
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer **[!UICONTROL Connections]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new connection]** .
 
@@ -320,11 +320,11 @@ Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informa
 
 ## Een gegevensweergave instellen
 
-Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 Uw gegevensweergave maken:
 
-1. Selecteer **[!UICONTROL Data views]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Data views]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new data view]** .
 
@@ -359,7 +359,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer **[!UICONTROL Projects]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Projects]** in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Projects]** in de linkernavigatie.
 

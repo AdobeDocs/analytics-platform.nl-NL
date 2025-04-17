@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '4659'
+source-wordcount: '4661'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="Records overgeslagen"
->abstract="Het aantal records (rijen) dat is overgeslagen tijdens de gegevensoverdracht voor een verbinding tijdens het geselecteerde tijdsinterval voor de geselecteerde gegevenssets."
+>abstract="Het aantal verslagen (rijen) die tijdens gegevensoverdracht voor een Verbinding tijdens het geselecteerde tijdinterval voor de geselecteerde datasets worden overgeslagen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="connections_recordsskipped"
 >title="Records overgeslagen"
->abstract="Het aantal records (rijen) dat is overgeslagen tijdens de gegevensoverdracht voor een verbinding tijdens het geselecteerde tijdsinterval voor de geselecteerde gegevenssets."
+>abstract="Het aantal verslagen (rijen) die tijdens gegevensoverdracht voor een Verbinding tijdens het geselecteerde tijdinterval voor de geselecteerde datasets worden overgeslagen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -90,8 +90,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="connections_recordsdeleted"
->title="Records verwijderd"
->abstract="Het aantal records (rijen) dat uit een verbinding is verwijderd tijdens het geselecteerde tijdsinterval voor de geselecteerde gegevenssets"
+>title="Verslagen verwijderd"
+>abstract="Het aantal verslagen (rijen) die uit een Verbinding tijdens het geselecteerde tijdinterval voor de geselecteerde datasets worden verwijderd"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="connection_lastadded"
 >title="Laatst toegevoegd"
->abstract="Het tijdstempel van de meest recente batch van elke gegevensset die naar een verbinding is overgebracht."
+>abstract="De tijdstempel van de laatste batch van elke gegevensset die is overgedragen naar een verbinding."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="connection_enablerollingdatawindow"
->title="Venster voor voortschrijdende gegevens inschakelen"
+>title="Het venster Rolgegevens inschakelen"
 >abstract="Definieer de gegevensbewaring als een schuifvenster in maanden op verbindingsniveau."
 
 <!-- markdownlint-enable MD034 -->
@@ -120,7 +120,6 @@ ht-degree: 0%
 >title="Gemiddeld aantal dagelijkse toepassingen"
 >abstract="Selecteer een bereik voor het aantal verwachte dagelijkse gebeurtenissen voor de volledige verbinding."
 
-<!-- markdownlint-enable MD034 -->
 
 
 De verbindings verwezenlijking en geeft werkschemaervaring uit brengt alle dataset en montages van de verbindingsconfiguratie aan het centrum van het scherm met een hulpwerkschema uit. Het verstrekt gedetailleerde datasetselectie, configuratie, en overzichtservaring. En staat u toe om kritieke informatie zoals datasettype, grootte, schema, dataset identiteitskaart, partijstatus, backfill status, Persoon IDs, en veel meer te specificeren, om het risico van verkeerde verbindingsconfiguratie te verminderen. Hier volgt een overzicht van de mogelijkheden:
@@ -154,7 +153,7 @@ Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Ana
 
 ## Verbinding maken en configureren {#create-connection}
 
-1. Selecteer in Customer Journey Analytics **[!UICONTROL Connections]** in het hoofdmenu.
+1. Selecteer in Customer Journey Analytics **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Selecteer **[!UICONTROL Create new connection]** .
 
 >[!BEGINTABS]
@@ -177,18 +176,18 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
    | --- | --- |
    | **[!UICONTROL Connection name]** | Voer een unieke naam in voor de verbinding. |
    | **[!UICONTROL Connection description]** | Beschrijf het doel van deze verbinding. |
-   | [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"} <br/>**[!UICONTROL Primary ID]** | Selecteer de juiste primaire id voor uw verbinding: <ul><li>![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]** voor een scenario B2C</li><li> ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** voor een scenario B2B.</li></ul> |
-   | [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"} <br/>**[!UICONTROL Optional containers]** | Selecteer extra containers.<ul><li>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.</li><li>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.</li><li>**[!UICONTROL Buying group]**: maakt het mogelijk om groepen kopen in een verbinding te configureren.</li><ul> |
-   | **[!UICONTROL Sandbox]** | Kies een sandbox in Experience Platform die de dataset(s) bevat waarmee u een verbinding wilt maken.<p>Adobe Experience Platform verstrekt [ zandbakken ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en evolueren. U kunt sandboxen zien als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om toegang tot datasets te controleren.<p>Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. |
+   | [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Primary ID]** | Selecteer de juiste primaire id voor uw verbinding: <ul><li>![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]** voor een scenario B2C</li><li> ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** voor een scenario B2B.</li></ul> |
+   | [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Optional containers]** | Selecteer extra containers.<ul><li>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.</li><li>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.</li><li>**[!UICONTROL Buying group]**: hiermee kunt u groepen aanschaffen in een verbinding.</li><ul> |
+   | **[!UICONTROL Sandbox]** | Kies een sandbox in Experience Platform die de gegevensset(s) bevat (bevatten) waarmee u verbinding wilt maken.<p>Adobe Experience Platform verstrekt [ zandbakken ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en evolueren. U kunt sandboxen zien als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om toegang tot datasets te controleren.<p>Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. |
    | **[!UICONTROL Enable rolling data window]** | Als u dit selectievakje inschakelt, kunt u Customer Journey Analytics-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden enzovoort) op verbindingsniveau.<p>Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor het schuivende gegevensvenster voor profiel- of opzoekgegevenssets, omdat er geen relevante tijdstempels zijn. Nochtans, als uw verbinding om het even welk profiel of raadplegingsdatasets (naast één of meerdere gebeurtenisdatasets) omvat, worden die gegevens bewaard voor de zelfde tijdspanne.<p> Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.<p>Als u de standaardinstelling (uitgeschakeld) verlaat, vervangt de bewaarinstelling voor Adobe Experience Platform-gegevens de bewaarperiode. Als je 25 maanden aan gegevens hebt in Experience Platform, krijgt Customer Journey Analytics 25 maanden aan gegevens via back-up. Als u 10 van die maanden in Platform schrapte, zou Customer Journey Analytics de resterende 15 maanden behouden. |
-   | **[!UICONTROL Add datasets]** (zie hieronder) | Voeg datasets toe als geen datasets in uw datasetlijst verschijnen. Anders ziet u een lijst met de gegevenssets die u al hebt toegevoegd als onderdeel van het maken van de verbinding. |
+   | **[!UICONTROL Add datasets]** (zie hieronder) | Voeg datasets toe als geen datasets in uw datasetlijst verschijnen. Anders zult u een lijst van de datasets zien u reeds als deel van de verwezenlijking van de verbinding toevoegde. |
 
 
-   Voor de gegevenssets die u hebt geconfigureerd, worden in de tabel met gegevenssets de volgende kolommen weergegeven:
+   Voor de datasets u hebt gevormd, toont de lijst van datasets de volgende kolommen:
 
    | Kolom | Beschrijving |
    |---|---|
-   | **[!UICONTROL Dataset name]** | Selecteer een of meer gegevenssets die u in Customer Journey Analytics wilt ophalen en selecteer **[!UICONTROL Add]**.<p>(Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met behulp van de zoekbalk met zoekgegevens boven de lijst met gegevenssets.) |
+   | **[!UICONTROL Dataset name]** | Selecteer een of meer gegevenssets die u in Customer Journey Analytics wilt gebruiken en selecteer **[!UICONTROL Add]** .<p>(Als u veel datasets hebt waaruit u kunt kiezen, kunt u naar de juiste zoeken met behulp van de zoekbalk met zoekgegevens boven de lijst met gegevenssets.) |
    | **[!UICONTROL Last updated]** | Alleen voor gebeurtenisgegevenssets wordt deze instelling automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in Experience Platform. &quot;N.v.t.&quot; betekent dat deze gegevensset geen gegevens bevat. |
    | **[!UICONTROL Number of records]** | The total records in the previous month for the dataset in Experience Platform. |
    | **[!UICONTROL Schema]** | Het [ die schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) wordt gebaseerd waarop de dataset in Adobe Experience Platform werd gecreeerd. |
@@ -270,8 +269,8 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityid"
->title="Verkoopkans-ID"
->abstract="Selecteer een gelegenheids-id (de unieke id voor een kans) uit de beschikbare identiteiten die in het datasetschema in het Experience Platform zijn gedefinieerd."
+>title="Opportunity-id"
+>abstract="Selecteer een opportuniteits-id (de unieke id voor een opportuniteit) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -279,7 +278,7 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyinggroupid"
->title="Groeps-ID kopen"
+>title="Groep-id voor kopen"
 >abstract="Selecteer een inkoopgroep-id (de unieke id voor een inkoopgroep) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
@@ -316,7 +315,7 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="Gegevensset transformeren"
->abstract="Met deze optie wordt de gegevensset getransformeerd, zodat deze kan worden gebruikt voor opzoekingen op basis van personen in B2B-scenario&#39;s. Als de gegevensset eenmaal is ingeschakeld, is de transformatie ervan onomkeerbaar."
+>abstract="Deze optie zal de dataset omzetten zodat kan het voor op persoon-gebaseerde raadplegingen in scenario&#39;s B2B worden gebruikt. Als de gegevensset eenmaal is ingeschakeld, is de transformatie ervan onomkeerbaar."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -324,8 +323,8 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_connectionmap"
->title="Kaart van de verbinding"
->abstract="De Verbindingstoewijzing visualiseert de relaties tussen gebeurtenis, persoon, account en relevante opzoekgegevenssets (zoals verkoopkansen, campagneleden en meer)."
+>title="Verbindingsmap"
+>abstract="De kaart van de Verbinding visualiseert het verband tussen gebeurtenis, persoon, rekening en relevante raadplegingsdatasets (als kansen, campagnereleden, en meer)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -442,7 +441,6 @@ In het scherm **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]*
 >title="Verbindingsmap"
 >abstract="De kaart van de Verbinding visualiseert het verband tussen gebeurtenis, persoon, rekening en relevante raadplegingsdatasets (als kansen, campagnereleden, en meer)."
 
-<!-- markdownlint-enable MD034 -->
 
 
 Met de workflow kunt u een of meer Experience Platform-gegevenssets toevoegen wanneer u een verbinding maakt.
@@ -462,8 +460,8 @@ Met de workflow kunt u een of meer Experience Platform-gegevenssets toevoegen wa
    | **[!UICONTROL Dataset type]** | Het type gegevensset: Event, Profile, Lookup of Summary. |
    | **[!UICONTROL Number of records]** | The total records in the previous month for the dataset in Experience Platform. |
    | **[!UICONTROL Schema]** | Het schema voor de dataset. Selecteer de naam om u naar het schema in Experience Platform te leiden. |
-   | **[!UICONTROL Last batch]** | De status van de laatste batch die is opgenomen in Experience Platform. Zie [Batchstaten](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) voor meer informatie. |
-   | **[!UICONTROL Dataset ID]** | De id van de dataset. |
+   | **[!UICONTROL Last batch]** | De status van de laatste partij die in Experience Platform is ingenomen. Zie [ de staten van de Partij ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) meer informatie. |
+   | **[!UICONTROL Dataset ID]** | De id van de gegevensset. |
    | **[!UICONTROL Last updated]** | De laatst bijgewerkte tijdstempel van de gegevensset. |
 
    * Om de kolommen te veranderen die voor de lijst van datasets worden getoond, selecteer ![ montages van de Kolom ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) en selecteer de kolommen die in de [!UICONTROL Customize table] dialoog moeten worden getoond.

@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 
 Een gegevensweergave maken:
 
-1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en ga naar het **[!UICONTROL Data views]** lusje.
+1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
 
 1. Selecteer **[!UICONTROL Create new data view]** . U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 

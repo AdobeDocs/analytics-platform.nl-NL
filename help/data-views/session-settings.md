@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-In Customer Journey Analytics, kunt u een zitting op om het even welke manier bepalen om hoe de mensen met uw digitale ervaringen in wisselwerking staan. U configureert de sessiemontages in een gegevensweergave.
+In Customer Journey Analytics kunt u op elke manier een sessie definiëren die aansluit bij de manier waarop personen met uw digitale ervaringen werken. U configureert de sessiemontages in een gegevensweergave.
 
 Definities van instellingen van de sessie zijn niet-destructief en wijzigen de onderliggende gegevens niet. U kunt veelvoudige gegevensmeningen (elk met hun eigen specifieke definitie van zittingsmontages) als basis voor uw projecten van Workspace plaatsen.
 
 De context van een sessie in een gegevensweergave definiëren:
 
-1. Selecteer **[!UICONTROL Data views]** in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer **[!UICONTROL Data views]** (optioneel) in **[!UICONTROL Data management]** in de hoofdnavigatie van de gebruikersinterface van Customer Journey Analytics.
 
 2. Maak een nieuwe of bewerk een bestaande gegevensweergave. Zie [ creeer of geef een gegevensmening ](create-dataview.md) voor meer informatie uit.
 

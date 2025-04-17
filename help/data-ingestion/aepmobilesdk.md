@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Hiervoor moet u:
 
 - **opstelling een schema en dataset** in Adobe Experience Platform om het model (schema) van de gegevens te bepalen die u wilt verzamelen en waar te om de gegevens (dataset) eigenlijk te verzamelen.
 
-- **opstelling een datastream** om de Edge Network van Adobe Experience Platform te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
+- **opstelling een datastream** om Adobe Experience Platform Edge Network te vormen om uw verzamelde gegevens aan de dataset te leiden u in Adobe Experience Platform vormde.
 
-- **Markeringen van het Gebruik** om regels en gegevenselementen tegen de gegevens in uw mobiele toepassing gemakkelijk te vormen. Dan zorg ervoor dat het gegeven wordt verzonden naar de datastream die op de Edge Network van Adobe Experience Platform wordt gevormd.
+- **Markeringen van het Gebruik** om regels en gegevenselementen tegen de gegevens in uw mobiele toepassing gemakkelijk te vormen. Dan zorg ervoor dat de gegevens naar de datastream worden verzonden die op Adobe Experience Platform Edge Network wordt gevormd.
 
 - **stelt en bevestigt** op. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen en publiceer deze live in uw productieomgeving als alles is gevalideerd.
 
@@ -87,11 +87,11 @@ Uw schema instellen:
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Mobile SDK ExperienceEvent]** in de lijst.
 
-      ![ AEP Mobiele het gebiedsgroep van de Details van de Levenscyclus van de Levenscyclus ](./assets/select-aepmobilesdk-experienceevent.png)
+      ![ AEP Mobile Lifecycle Details fieldgroup ](./assets/select-aepmobilesdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `application > name` .
 
-      ![ AEP Mobiele het gebiedsvoorproef van de Detailgroep van de Levenscyclus van de Levenscyclus ](./assets/aepmobilesdk-experienceevent-preview.png)
+      ![ AEP Mobile Lifecycle Details fieldgroup voorproef ](./assets/aepmobilesdk-experienceevent-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -117,7 +117,7 @@ Uw schema instellen:
 
    ![ specificeer ECID als identiteit ](./assets/specify-identity-mobile.png)
 
-   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (aan te sluiten) met dezelfde ECID.
+   U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
    Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het ecid-kenmerk.
 
@@ -145,7 +145,7 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
-U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw mobiele toepassing kunt vangen. Met het schema kunnen profielen worden geïdentificeerd aan de hand van de identiteit en het e-mailadres van het Experience Cloud. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die zijn vastgelegd vanuit uw mobiele toepassing, worden toegevoegd aan het realtime-klantprofiel.
+U hebt een minimumschema gemaakt dat de gegevens modelleert die u van uw mobiele toepassing kunt vangen. In het schema kunnen profielen worden geïdentificeerd met Experience Cloud Identity en e-mailadres. Door het schema voor profiel in te schakelen, zorgt u ervoor dat gegevens die zijn vastgelegd vanuit uw mobiele toepassing, worden toegevoegd aan het realtime-klantprofiel.
 
 Naast gedragsgegevens kunt u ook profielkenmerkgegevens vastleggen vanuit uw mobiele toepassing (bijvoorbeeld gegevens over profielen die zijn geabonneerd op een nieuwsbrief).
 
@@ -201,7 +201,7 @@ Zie {de gids UI van de Datasets van 0} ](https://experienceleague.adobe.com/docs
 
 ## Een gegevensstroom instellen
 
-Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens naar de Adobe Experience Platform-Edge Network verzonden. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
+Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web van Adobe Experience Platform en Mobiele SDKs. Bij het verzamelen van gegevens met de SDK&#39;s van Adobe Experience Platform worden gegevens naar de Adobe Experience Platform Edge Network verzonden. Het is de gegevensstroom die bepaalt aan welke diensten dat de gegevens door:sturen.
 
 In uw opstelling, wilt u de gegevens die u van mobiele app verzamelt worden verzonden naar uw dataset in Adobe Experience Platform.
 
@@ -227,7 +227,7 @@ Uw gegevensstroom instellen:
 
    3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ datastream AEP dienst ](./assets/datastream-aep-service.png)
+      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
@@ -260,7 +260,7 @@ Als u de nieuwe tag wilt configureren, selecteert u deze in de lijst met [!UICON
 
 #### **Uitbreidingen**
 
-Voeg de extensie Adobe Platform Edge Network toe aan de tag om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom).
+Voeg de extensie Adobe Platform Edge Network toe aan uw tag om ervoor te zorgen dat u gegevens naar Adobe Experience Platform kunt verzenden (via uw gegevensstroom).
 
 U kunt als volgt de extensie Adobe Experience Platform Mobile SDK maken en configureren:
 
@@ -272,13 +272,13 @@ U kunt als volgt de extensie Adobe Experience Platform Mobile SDK maken en confi
 
 1. Selecteer de sandbox en de eerder gemaakte gegevensstroom voor de [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment] .
 
-   ![ AEP Mobiele de uitbreidingsconfiguratie van SDK ](./assets/aepmobilesdk-extension-datastream.png)
+   ![ AEP Mobile SDK uitbreidingsconfiguratie ](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Voer de **[!UICONTROL Edge Network domain]** onderliggende waarde [!UICONTROL Domain configuration] in. Gebruik doorgaans `<organizationName>.data.adobedc.net` .
 
 1. Selecteer **[!UICONTROL Save]** .
 
-Zie [ de uitbreiding van de Edge Network van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/edge-network) voor meer informatie vormen.
+Zie [ de uitbreiding van Adobe Experience Platform Edge Network ](https://developer.adobe.com/client-sdks/documentation/edge-network) voor meer informatie vormen.
 
 U wilt ook de volgende extra extensies instellen vanuit de catalogus:
 
@@ -318,7 +318,7 @@ U kunt zoveel gegevenselementen maken als u wilt en deze gebruiken in regels.
 
 #### **Regels**
 
-Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een XDM-object) naar Adobe Experience Platform te verzenden met de extensie Adobe Experience Platform Edge Network.
+Tags in Adobe Experience Platform volgen een op regels gebaseerd systeem. Zij zoeken gebruikersinteractie en bijbehorende gegevens. Wanneer aan de criteria die in uw regels worden geschetst wordt voldaan, teweegbrengt de regel de uitbreiding, het manuscript, of cliënt-zijcode in werking u identificeerde. U kunt regels gebruiken om gegevens (zoals een XDM-object) naar Adobe Experience Platform te verzenden met de Adobe Experience Platform Edge Network-extensie.
 
 U wilt bijvoorbeeld gebeurtenisgegevens verzenden wanneer de mobiele app wordt gebruikt (op de voorgrond) en wanneer de mobiele app niet wordt gebruikt (teruggeduwd naar de achtergrond).
 
@@ -370,7 +370,7 @@ U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bew
 
 Zie [ Regels ](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/#configure-a-rule-to-forward-lifecycle-metrics-to-platform) voor meer informatie.
 
-### Uw tag maken en Publish
+### Uw tag maken en publiceren
 
 Nadat u gegevenselementen en regels hebt gedefinieerd, moet u de tag maken en publiceren. Wanneer u een bibliotheek maakt, moet u deze toewijzen aan een omgeving. De uitbreidingen, de regels, en de gegevenselementen van de bouwstijl worden dan gecompileerd en in het toegewezen milieu geplaatst. Elke omgeving bevat een unieke insluitcode waarmee u de toegewezen build in uw site kunt integreren.
 
@@ -388,7 +388,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteer **[!UICONTROL + Add All Changed Resources]** .
 
-     ![ Publish - creeer Bibliotheek ](./assets/build-library-mobile.png)
+     ![ publiceer - creeer Bibliotheek ](./assets/build-library-mobile.png)
 
    - Selecteer **[!UICONTROL Save & Build to Development]** .
 
@@ -396,7 +396,7 @@ Om uw markering te bouwen en te publiceren:
 
 4. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
-Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform-Edge Network.
+Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform Edge Network.
 
 Zie [ het Publiceren overzicht ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) voor meer informatie.
 
@@ -431,13 +431,13 @@ Zie [ Adobe Experience Cloud in mobiele apps uitvoeren zelfstudie ](https://expe
 
 ## Een verbinding instellen
 
-Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset, en werkschema voortvloeien.
+Als u de Adobe Experience Platform-gegevens in Customer Journey Analytics wilt gebruiken, maakt u een verbinding die de gegevens bevat die het resultaat zijn van het instellen van het schema, de gegevensset en de workflow.
 
 Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Workspace vestigen.
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer **[!UICONTROL Connections]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new connection]** .
 
@@ -479,11 +479,11 @@ Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informa
 
 ## Een gegevensweergave instellen
 
-Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 Uw gegevensweergave maken:
 
-1. Selecteer **[!UICONTROL Data views]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Data views]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new data view]** .
 
@@ -520,7 +520,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer **[!UICONTROL Projects]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Projects]** in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Projects]** in de linkernavigatie.
 
@@ -544,4 +544,4 @@ Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor mee
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u (schema) wilt verzamelen en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op de Edge Network om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Edge Network en andere), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw mobiele app en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om gegevens voor het bijhouden van pushmeldingen voor uw mobiele app en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken. Ten slotte hebt u uw eerste project gemaakt waarmee u uw gegevens van uw mobiele app kunt visualiseren en analyseren.
+>U hebt alle stappen uitgevoerd. Beginnend door te bepalen welke gegevens u wilt verzamelen (schema) en waar om het (dataset) in Adobe Experience Platform op te slaan, vormde u een gegevensstroom op Edge Network om ervoor te zorgen dat de gegevens aan die dataset kunnen door:sturen. Vervolgens hebt u de tag gedefinieerd en geïmplementeerd die de extensies (Adobe Experience Platform Edge Network en andere), gegevenselementen en regels bevat voor het vastleggen van gegevens van uw mobiele app en het verzenden van die gegevens naar uw gegevensstroom. U hebt een verbinding in Customer Journey Analytics gedefinieerd om uw gegevens voor pushmeldingen voor mobiele apps en andere gegevens te gebruiken. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken. Ten slotte hebt u uw eerste project gemaakt waarmee u uw gegevens van uw mobiele app kunt visualiseren en analyseren.

@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer of gee
 
 Een gegevensweergave maken of bewerken:
 
-1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en ga naar het **[!UICONTROL Data views]** lusje.
+1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
 1. Selecteer **[!UICONTROL Create new data view]** om een gegevensweergave te maken. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 
@@ -51,7 +51,7 @@ Een nieuwe of bestaande gegevensweergave configureren:
 
 
 1. Geef details [!UICONTROL Settings] , [!UICONTROL Container] en [!UICONTROL Calendar] op (zie hieronder).
-1. Selecteer deze optie **[!UICONTROL Save and continue]** om door te gaan met het configureren van uw nieuwe of bestaande gegevensweergave. Selecteer deze optie **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
+1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
 
 ### Instellingen {#settings}
@@ -69,7 +69,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Connection]** | In dit veld wordt de gegevensweergave gekoppeld aan de verbinding die u eerder tot stand hebt gebracht en die een of meer Adobe Experience Platform-gegevenssets bevat. |
+| **[!UICONTROL Connection]** | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die één of meerdere datasets van Adobe Experience Platform bevat. |
 | **[!UICONTROL Name]** | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in de vervolgkeuzelijst rechtsboven in Analysis Workspace. |
 | **[!UICONTROL External ID]** | Vereist. De naam van gegevensmening u in externe bronnen, zoals bedrijfsintelligentiegereedschappen kunt gebruiken. De standaardwaarde is `unspecified` . Als u geen externe id opgeeft, wordt de naam gegenereerd op basis van de naam van de gegevensweergave en worden spaties vervangen door onderstrepingstekens. |
 | **[!UICONTROL Description]** | Optioneel. Adobe raadt een gedetailleerde beschrijving aan, zodat gebruikers begrijpen waarom de gegevensweergave bestaat en voor wie deze is ontworpen. |
@@ -83,7 +83,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Gegevensweergaven in Journey Optimizer"
->abstract="Customer Journey Analytics moet gebruikmaken van een verbinding en gegevensweergave die compatibel zijn met Adobe Journey Optimizer. Standaard worden hiervoor automatisch een verbinding en gegevensweergave gemaakt.<br/>U kunt deze optie ook inschakelen om dit de standaardgegevensweergave te maken die wordt gebruikt in Adobe Journey Optimizer-rapportage. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
+>abstract="Customer Journey Analytics moet een verbinding en gegevensweergave gebruiken die compatibel zijn met Adobe Journey Optimizer. Standaard worden automatisch een verbinding en een gegevensweergave voor dit doel gemaakt.<br/> Alternatief, kunt u deze optie toelaten om dit de standaardgegevensmening te maken die in Adobe Journey Optimizer rapportering wordt gebruikt. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
 >additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
 
 <!-- markdownlint-enable MD034 -->
@@ -95,7 +95,7 @@ Deze sectie is alleen zichtbaar voor beheerders die zijn ingericht met Journey O
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Instellen als standaardgegevensweergave in Adobe Journey Optimizer**] | Deze configuratieoptie standaardiseert de rapportage in Journey Optimizer en Customer Journey Analytics. Hiermee kunt u ook geavanceerde analyse van uw Adobe Journey Optimizer-gegevens uitvoeren in Customer Journey Analytics (door Open](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **Analyze te selecteren ![in CJA**] in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een Customer Journey Analytics-gegevensweergave om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li><li>Als deze optie is geselecteerd, kan de verbinding die aan de gegevensweergave is gekoppeld, niet worden verwijderd.</li></ul>Zie [ Adobe Journey Optimizer met Adobe Customer Journey Analytics ](/help/integrations/ajo.md) voor meer informatie integreren. |
+| [!UICONTROL **Reeks als standaardgegevensmening in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage in Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Het staat u ook toe om geavanceerde analyse van uw gegevens van Adobe Journey Optimizer in Customer Journey Analytics uit te voeren (door ![ Open ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) te selecteren [!UICONTROL **analyseert in CJA**] terwijl in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een Customer Journey Analytics-gegevensweergave om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li><li>Als deze optie is geselecteerd, kan de verbinding die aan de gegevensweergave is gekoppeld, niet worden verwijderd.</li></ul>Zie [ Adobe Journey Optimizer met Adobe Customer Journey Analytics ](/help/integrations/ajo.md) voor meer informatie integreren. |
 
 {style="table-layout:auto"}
 
@@ -111,7 +111,7 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 | [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Person container name]** | `Person` (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Session container name]** | `Session` (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
-| **[!UICONTROL Event container name]** | `Event` (standaard). De [!UICONTROL Event] container definieert afzonderlijke gebeurtenissen in een gegevensset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &#39;Hits&#39; of &#39;Paginaweergaven&#39;), kunt u de naam van de container hier wijzigen. |
+| **[!UICONTROL Event container name]** | `Event` (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -121,21 +121,21 @@ Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegeven
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL **streek van de Tijd**] | Choose which time zone that you want your data to be presented in. If you choose a time zone that operates on Daylight Savings Time, data is automatically adjusted to reflect that. In de lente wanneer de klokken één uur vooruit aanpassen, is een gat van één uur aanwezig. In de val wanneer de klokken één uur achter aanpassen, wordt één uur herhaald tijdens de verschuiving van DST. |
+| [!UICONTROL **streek van de Tijd**] | Kies in welke tijdzone de gegevens moeten worden weergegeven. Als u een tijdzone kiest die op de Tijd van de Besparing van het Daglicht werkt, worden de gegevens automatisch aangepast om dat te weerspiegelen. In de lente wanneer de klokken één uur vooruit aanpassen, is een gat van één uur aanwezig. In de val wanneer de klokken één uur achter aanpassen, wordt één uur herhaald tijdens de verschuiving van DST. |
 | [!UICONTROL **Type van Kalender**] | Bepaal hoe weken van de maand worden gegroepeerd.<br>**Gregorian:** Standaard kalenderformaat. Kwarten worden gegroepeerd op maand.<br>**4-5-4 Kleinhandel:** Een gestandaardiseerde 4-5-4 detailhandelkalender. De eerste en laatste maanden van het kwartaal bevatten vier weken, terwijl de tweede maand van het kwartaal uit vijf weken bestaat.<br>**Douane (4-5-4):** Gelijkaardig aan 4-5-4 kalender behalve kunt u de eerste dag van het jaar kiezen en welk jaar dat de &quot;extra&quot;week voorkomt.<br>**Douane (4-4-5):** de eerste en tweede maanden van elk kwartaal bevatten 4 weken, terwijl de laatste week van elk kwartaal uit 5 weken bestaat.<br>**Douane (5-4-4):** De eerste maand van elk kwartaal bestaat uit 5 weken, terwijl de tweede en derde maand van elk kwartaal uit 4 weken bestaat. |
-| [!UICONTROL **Eerste maand van het jaar**] en [!UICONTROL **Eerste dag van week**] | Zichtbaar voor het Gregoriaanse kalendertype. Geef aan op welke maand u het kalenderjaar wilt laten beginnen en op welke dag u elke week wilt laten beginnen. |
+| [!UICONTROL **Eerste maand van het jaar**] en [!UICONTROL **Eerste dag van week**] | Zichtbaar voor het Gregoriaanse kalendertype. Geef op op welke maand het kalenderjaar moet beginnen en op welke dag elke week moet beginnen. |
 | [!UICONTROL **Eerste dag van huidig jaar**] | Zichtbaar voor aangepaste kalendertypen. Geef op welke dag van het jaar het huidige jaar moet beginnen. Op basis van deze waarde wordt de eerste dag van elke week automatisch opgemaakt in de kalender. |
-| [!UICONTROL **Jaar waarin de &quot;extra&quot;week voorkomt**] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen) worden er elk jaar resterende dagen opgestapeld totdat ze samen een extra week vormen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef aan aan welk jaar je de extra week wilt toevoegen. |
+| [!UICONTROL **Jaar waarin de &quot;extra&quot;week voorkomt**] | Met de meeste kalenders van 364 dagen (52 weken van elk 7 dagen), accumuleert elk jaar leftoverdagen tot zij aan een extra week toevoegen. Deze extra week wordt dan toegevoegd aan de laatste maand van dat jaar. Geef op aan welk jaar u de extra week wilt toevoegen. |
 
 {style="table-layout:auto"}
 
 ## Onderdelen
 
-Vervolgens kunt u de componenten van een gegevensweergave instellen, wat betekent dat u metrische gegevens en dimensies kunt maken op basis van schema-elementen. U kunt ook standaardcomponenten gebruiken.
+Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit betekent dat u metriek en afmetingen kunt maken op basis van schema-elementen. U kunt ook standaardcomponenten gebruiken.
 
 >[!IMPORTANT]
 >
->Er kunnen maximaal 5.000 metrische gegevens en 5.000 dimensies worden toegevoegd aan één gegevensweergave.
+>Tot 5.000 metriek en 5.000 dimensies kunnen aan één enkele gegevensmening worden toegevoegd.
 
 1. Selecteer de tab **[!UICONTROL Components]** .
 
@@ -186,7 +186,7 @@ U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/wo
 
 1. Selecteer de tab **[!UICONTROL Settings]** .
 1. Configureer filters om toe te passen op de volledige gegevensweergave. Zie [ Montages (filters) ](#settings-filters) hieronder.
-1. Configureer de sessietime-out en metriek. Zie [Sessie-instellingen](#session-settings) hieronder.
+1. Configureer de sessietime-out en metriek. Zie [ montages van de Zitting ](#session-settings) hieronder.
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
 ### Instellingen (filters)

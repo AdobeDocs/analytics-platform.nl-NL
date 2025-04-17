@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificere
 
 Om de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe te voegen:
 
-1. Selecteer in Customer Journey Analytics de tab **[!UICONTROL Connections]** .
+1. Selecteer in Customer Journey Analytics **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 1. Selecteer ![ Meer pictogram ](assets/More.svg) naast de verbinding waar u de raadplegingsdataset wilt toevoegen, dan selecteren **[!UICONTROL Edit]**.
 

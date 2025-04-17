@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
 # Gegevens van Adobe Analytics invoegen en gebruiken
 
-In deze handleiding voor snel starten wordt uitgelegd hoe u de gegevens die door Adobe Analytics in Customer Journey Analytics zijn verzameld, kunt gebruiken.
+In deze snelstartgids wordt uitgelegd hoe u de gegevens kunt gebruiken die door Adobe Analytics in Customer Journey Analytics zijn verzameld.
 
 >[!PREREQUISITES]
 >
@@ -39,7 +39,7 @@ Hiervoor moet u:
 
 >[!NOTE]
 >
->Deze snelle startgids is een vereenvoudigde gids over hoe te om gegevens in te voeren, gebruikend de bron van Adobe Analytics schakelaar, en gebruik die gegevens in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Deze snelstartgids is een vereenvoudigde gids over hoe te om gegevens in te voeren, gebruikend de Adobe Analytics bronschakelaar, en gebruik die gegevens in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 
 ## Een Adobe Analytics-bronaansluiting instellen
@@ -54,7 +54,7 @@ Een Adobe Analytics-bronaansluiting maken:
 
 3. Selecteer **[!UICONTROL Set up]** of **[!UICONTROL Add data]** in de tegel Adobe Analytics.
 
-   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van de Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
+   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
 
 4. Selecteer **[!UICONTROL Report suite]** . Selecteer in de lijst met rapportsuites de versie die u wilt gebruiken.
 
@@ -81,20 +81,20 @@ Een Adobe Analytics-bronaansluiting maken:
 
 Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 
-Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door de Customer Journey Analytics te worden gebruikt.
+Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door Customer Journey Analytics te worden gebruikt.
 
 Zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor een veel uitvoeriger leerprogramma tot stand brengen.
 
 
 ## Een verbinding instellen
 
-Om de gegevens van Adobe Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de gegevens omvat die uit vestiging uw schema, dataset, en werkschema voortvloeien.
+Als u de Adobe Experience Platform-gegevens in Customer Journey Analytics wilt gebruiken, maakt u een verbinding die de gegevens bevat die het resultaat zijn van het instellen van het schema, de gegevensset en de workflow.
 
 Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Workspace vestigen.
 
 Om uw verbinding tot stand te brengen:
 
-1. Selecteer **[!UICONTROL Connections]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new connection]** .
 
@@ -136,11 +136,11 @@ Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informa
 
 ## Een gegevensweergave instellen
 
-Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 Uw gegevensweergave maken:
 
-1. Selecteer **[!UICONTROL Data views]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Data views]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Create new data view]** .
 
@@ -177,7 +177,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Uw project maken:
 
-1. Selecteer **[!UICONTROL Projects]** in de bovenste navigatie in de gebruikersinterface van de Customer Journey Analytics.
+1. Selecteer in de gebruikersinterface van Customer Journey Analytics de optie **[!UICONTROL Projects]** in het bovenste menu.
 
 2. Selecteer **[!UICONTROL Projects]** in de linkernavigatie.
 
@@ -202,5 +202,5 @@ Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor mee
 
 >[!SUCCESS]
 >
->U hebt alle stappen uitgevoerd. Om te beginnen wordt de Adobe Analytics-gegevensbronaansluiting ingesteld en de aansluiting voor uw rapportsuite geconfigureerd, worden uw Adobe Analytics-gegevens automatisch geüpload naar Adobe Experience Platform. U hebt een verbinding in Customer Journey Analytics gedefinieerd voor het gebruik van de opgenomen Adobe Analytics-gegevens en andere gegevens. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
+>U hebt alle stappen uitgevoerd. Om te beginnen wordt de Adobe Analytics-gegevensbronaansluiting ingesteld en de aansluiting voor uw rapportsuite geconfigureerd, worden uw Adobe Analytics-gegevens automatisch geüpload naar Adobe Experience Platform. U hebt een verbinding in Customer Journey Analytics gedefinieerd voor het gebruik van de ingesloten Adobe Analytics-gegevens en andere gegevens. Met de definitie van uw gegevensweergave kunt u opgeven welke dimensie en metriek u wilt gebruiken en ten slotte hebt u uw eerste project gemaakt waarin uw gegevens worden gevisualiseerd en geanalyseerd.
 

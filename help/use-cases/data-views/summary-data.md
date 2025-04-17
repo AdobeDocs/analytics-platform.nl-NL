@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '4610'
+source-wordcount: '4616'
 ht-degree: 7%
 
 ---
@@ -387,7 +387,7 @@ Als u de voorbeeldgegevens in Customer Journey Analytics wilt gebruiken, maakt u
 
 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
-1. Selecteer **[!UICONTROL Connections]** in het bovenste menu.
+1. Selecteer **[!UICONTROL Connections]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer **[!UICONTROL Create new connection]** .
 1. In **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]** :
    1. Voer een **[!UICONTROL Connection name]** in, bijvoorbeeld `Example Connection Using Summary Data` .
@@ -428,7 +428,7 @@ De gegevens uit de gegevenssets worden toegevoegd aan Customer Journey Analytics
 Controleer na enige tijd of de gegevens uit uw gegevenssets correct zijn geladen in Customer Journey Analytics.
 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
-1. Selecteer **[!UICONTROL Connections]** in het bovenste menu.
+1. Selecteer **[!UICONTROL Connections]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer de verbinding, bijvoorbeeld **[!UICONTROL Example Connection Using Summary Data]** .
 1. Selecteer een geschikt datumbereik in de details **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]** .
    1. Selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) en selecteer dan **[!UICONTROL Last 7 days]**.
@@ -443,7 +443,7 @@ In de lijst met **[!UICONTROL Datasets]** moeten de waarden in de kolom **[!UICO
 Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt u een gegevensweergave maken met de relevante maatstaven en afmetingen.
 
 1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
-1. Selecteer **[!UICONTROL Data views]** in het bovenste menu.
+1. Selecteer **[!UICONTROL Data views]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer **[!UICONTROL Create new data view]** .
 1. In **[!UICONTROL Data views]**, ga door de tovenaar schermen om uw gegevensmening te vormen.
    1. In de **[!UICONTROL Configure]** -stap van **[!UICONTROL Data views]** :

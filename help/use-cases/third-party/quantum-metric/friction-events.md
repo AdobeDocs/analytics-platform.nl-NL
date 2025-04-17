@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Bevestig dat de datasets in uw verbinding nu Quantum Metric zittings identiteits
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
-1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** in het bovenste menu.
+1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** (optioneel vanuit **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Selecteer de gewenste bestaande gegevensweergave.
 1. Zoek de lijst met het gebeurtenisveld Quantum Metric friction aan de linkerkant en sleep deze naar het meetgebied in het midden.
 1. In de juiste ruit, plaats [ omvatten/uitsluiten waarden ](/help/data-views/component-settings/include-exclude-values.md) het plaatsen aan de gewenste wrijvingsgebeurtenissen die u wilt volgen. U kunt veelvoudige wrijvingsgebeurtenissen aan zelfde metrisch toevoegen om hen te combineren. U kunt ook een andere kopie van het veld wrijvingsgebeurtenissen naar het metrische gebied slepen om andere wrijvingsgebeurtenissen als een aparte metrische waarde bij te houden.
