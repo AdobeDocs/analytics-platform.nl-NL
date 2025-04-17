@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 0f4b396bb44612ef52b640ffaeba6aa5aeace423
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,16 @@ Beheerders kunnen sjablonen maken en deze opslaan voor gebruik door anderen in h
 
 De mensen in het login bedrijf kunnen deze bedrijfmalplaatjes gebruiken zoals die in [ worden beschreven malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md).
 
-## Een sjabloon maken
+## Een sjabloon maken {#create-templates}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="use-case-ajo-template"
+>title="Sjabloon gebruiken in Journey Optimizer"
+>abstract="Wanneer u deze sjabloon gebruikt in Journey Optimizer, wordt de gegevensweergave gebruikt die is ingesteld als de standaardgegevensweergave in Adobe Journey Optimizer, ongeacht de gegevensweergave die is geselecteerd met deze sjabloon in Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
 
 Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf kan worden gebruikt:
 
@@ -86,7 +95,7 @@ Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
    | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
    | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
    | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** . Als er geen kanalen zijn geselecteerd, wordt de sjabloon bij alle kanalen gevoegd.<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
-   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** het kiezen **[!UICONTROL Journey Optimizer]** maakt het malplaatje ook beschikbaar in Adobe Journey Optimizer. In Journey Optimizer is op de pagina **[!UICONTROL Reports]** een vervolgkeuzemenu beschikbaar waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer. |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, **[!UICONTROL Acquisition]** en **[!UICONTROL Journey Optimizer]** . <p>De selecties die u kiest, bepalen de locatie van de sjabloon op de pagina Organisatiesjablonen. Gebruikers kunnen naar de sjabloon navigeren of de lijst filteren op gebruik. </p><p>**Nota:** wanneer u de **[!UICONTROL Journey Optimizer]** optie selecteert, is het malplaatje beschikbaar voor gebruik in Adobe Journey Optimizer. In Journey Optimizer is een vervolgkeuzemenu beschikbaar op de pagina **[!UICONTROL Reports]** , waarmee gebruikers deze sjabloon of de standaardsjabloon kunnen selecteren. Voor meer informatie, zie [ begonnen worden met de bijgewerkte rapporteringservaring ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.</p><p>Houd rekening met het volgende wanneer u de optie Journey Optimizer selecteert:</p><ul><li>Deze optie is alleen beschikbaar als er Journey Optimizer-gegevens aanwezig zijn in de gegevensweergave die u in Customer Journey Analytics gebruikt.</li><li>Wanneer u deze sjabloon gebruikt in Journey Optimizer, wordt de gegevensweergave gebruikt die is ingesteld als de standaardgegevensweergave in Adobe Journey Optimizer, ongeacht de gegevensweergave die is geselecteerd met deze sjabloon in Customer Journey Analytics. <br/> voor meer informatie over het plaatsen van een gegevensmening als standaardgegevensmening in Journey Optimizer, zie [ Verenigbaarheid ](/help/data-views/create-dataview.md#compatibility) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.</li></ul> |
    | **[!UICONTROL Journey Optimizer activity type]** | Kies het type Journey Optimizer-activiteit dat u aan deze sjabloon wilt koppelen: **[!UICONTROL Campaigns]** , **[!UICONTROL Journeys]** , **[!UICONTROL Landing pages]** , **[!UICONTROL Reports]** of **[!UICONTROL Subscriptions]** . <p>Laat dit veld leeg als u deze sjabloon wilt koppelen aan alle typen activiteiten.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Journey Optimizer activity]** | Kies de Journey Optimizer-activiteit die u aan deze sjabloon wilt koppelen. <p>Laat dit veld leeg als u wilt dat deze sjabloon wordt gekoppeld aan alle activiteiten van het geselecteerde type activiteit.</p><p>Dit veld wordt alleen weergegeven als **[!UICONTROL Journey Optimizer]** is geselecteerd in het veld **[!UICONTROL Use cases]** .</p> |
    | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
