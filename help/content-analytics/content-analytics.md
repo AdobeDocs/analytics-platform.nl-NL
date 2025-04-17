@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 1acb6ee56ec3d1c5ae21bb857205a0b9cc66cea0
+source-git-commit: 28a0abd3415a167e6dd3de3b77bd49b78fc003cd
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over hoe inhoud wordt verbruikt en hoe inhoud invloed heeft. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifiek kleurenpalet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
 
-De Analytics van de inhoud gebruikt AI en machine het leren baseerde **featurization dienst** om inhoud in componenten en attributen neer te breken. Door een gestructureerd metagegevensprofiel voor al uw inhoud te maken, kunt u analyseren welke inhoud en welke kenmerken van die inhoud de bedrijfsresultaten beïnvloeden.
+Content Analytics gebruikt AI en machine het leren de gebaseerde **featurization dienst** om inhoud in componenten en attributen neer te breken. Door een gestructureerd metagegevensprofiel voor al uw inhoud te maken, kunt u analyseren welke inhoud en welke kenmerken van die inhoud de bedrijfsresultaten beïnvloeden.
 
 Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt Content Analytics de **identiteitsdienst** die activa en ervaringen gebruikend één enkel herkenningsteken identificeert. De identiteitsservice kan herkennen wanneer exact hetzelfde element op meerdere plaatsen wordt weergegeven. Wanneer dat gebeurt, worden de instanties van dit actief als hetzelfde actief behandeld, waardoor een meer holistische kijk op het gebruik en de consumptie van inhoud mogelijk wordt.
 
@@ -26,8 +26,8 @@ Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt
 
 Content Analytics biedt wel een hogere waarde:
 
-1. Het gebruik van de inhoud ****: Met de Analytics van de Inhoud krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
-1. Inhoud **overeenkomsten**: De Analytics van de inhoud kan betrokkenheidsinzichten zoals het gemiddelde klikken door tarief voor activa met bepaalde attributen verstrekken. Deze inzichten helpen u om te bepalen of specifieke soorten ervaringen nog efficiënt zijn.
+1. Het gebruik van de inhoud ****: Met Content Analytics krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
+1. Inhoud **overeenkomsten**: Content Analytics kan betrokkenheidsinzichten zoals het gemiddelde klikken door tarief voor activa met bepaalde attributen verstrekken. Deze inzichten helpen u om te bepalen of specifieke soorten ervaringen nog efficiënt zijn.
 1. Inhoud **reizen**: Voorts wanneer gecombineerd met alle andere gegevens beschikbaar in Experience Platform, kunt u extra inzichten op uw inhoudstrajecten verkrijgen. Of specifieke inhoud bijvoorbeeld leidt tot conversies, bovenop de betrokkenheid. En met die kennis kunt u ROI op types van inhoud bepalen.
 1. De inhoud **verpersoonlijking**: De Analytics van de Inhoud staat u toe om op uw inzichten te handelen en deze inzichten te gebruiken om te bepalen hoe te om geld aan inhoud uit te geven. Moet ik bijvoorbeeld specifieke typen inhoud naar specifieke doelgroepen sturen? Welke inhoud biedt me mogelijkheden tot high-personalization?
 
@@ -43,7 +43,7 @@ Voor Content Analytics worden de volgende sleuteltermen gebruikt:
 
 ## Hoe werkt het
 
-Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verzameld in gebeurtenisgegevenssets in Experience Platform. Deze gegevens kunnen worden verzameld via de verschillende beschikbare methoden: Experience Platform Edge Network (Web SDK, Server API) of de bronaansluiting Analytics.
+Content Analytics gebruikt webafbeeldingsweergavegegevens die zijn verzameld in gegevenssets voor gebeurtenissen in Experience Platform. Deze gegevens kunnen worden verzameld via de verschillende beschikbare methoden: Experience Platform Edge Network (Web SDK, Server API) of de bronaansluiting Analytics.
 
 ![ Analytics van de Inhoud - hoe het ](assets/aca-overview.gif) werkt
 
@@ -65,10 +65,15 @@ Content Analytics maakt gebruik van webafbeeldingsweergavegegevens die zijn verz
 >Als u een licentie hebt verleend voor de &#39;Privacy and Security Shield add-on&#39;, dient u er rekening mee te houden dat (alle gegevens die zijn gegenereerd op basis van) ervaringen en bedrijfsmiddelen, afhankelijk van Content Analytics, niet worden gedekt door DULE-labels of door Klant beheerde sleutels.
 >
 
+>[!NOTE]
+>
+>Content Analytics [ verzendt extra gebeurtenissen ](config/datacollection.md#content-analytics-event) die zeer waarschijnlijk om het even welke definitie van het stuiteringstarief beïnvloeden die op het aantal gebeurtenissen in een zitting of een pagina gebaseerd is.
+>
 
 >[!MORELIKETHIS]
 >
->[ Analytics die van de Inhoud ](report/report.md) melden
->[Inhoud analyseren configureren ](config/configuration.md)
+>[ Content Analytics die ](report/report.md) meldt
+>[Content Analytics configureren ](config/configuration.md)
+>[Het berekenen van stuitingen en het stuiteren tarief in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
