@@ -1,24 +1,24 @@
 ---
-description: De filterontwikkelaar biedt een canvas waarin u Metrische afmetingen, filters en gebeurtenissen kunt slepen en neerzetten om personen te filteren op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe filters maken en opslaan waarmee u persoonlijke kenmerken en handelingen kunt identificeren voor bezoeken en gebeurtenissen.
-title: Filters maken
+description: De bouwer van het Segment verstrekt een canvas om Metrische Dimensies, Segmenten, en Gebeurtenissen te slepen en te laten vallen om personen te segmenteren die op de logica van de containerhiërarchie, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe segmenten maken en opslaan die persoonlijke kenmerken en handelingen tijdens bezoeken en gebeurtenissen identificeren.
+title: Segmenten maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
 
-# Filters maken {#build-filters}
+# Segmenten maken {#build-segments}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Publiek maken"
->abstract="Soorten publiek kan worden gemaakt op basis van een filter en worden gedeeld met de Adobe Experience Platform voor activering."
+>abstract="Soorten publiek kan worden gemaakt op basis van een segment en worden gedeeld met de Adobe Experience Platform voor activering."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,75 +26,75 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
->title="Voorbeeld van gegevens"
->abstract="Vergelijkt de gegevens van dit filter met de gegevens van de gegevensweergave. Het voorbeeldpercentage is gebaseerd op het totale aantal in de gegevensweergave van de **afgelopen 90 dagen**.<br><br/>Als het voorbeeld niet wordt geladen, wordt uw verbinding mogelijk nog steeds opgevuld."
+>title="Gegevensvoorbeeld"
+>abstract="Vergelijkt de gegevens van dit segment met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-Het **[!UICONTROL Filter builder]** dialoogvenster wordt gebruikt om nieuwe filters te maken of bestaande filters te bewerken. Het dialoogvenster heeft de titel **[!UICONTROL New filter]** of **[!UICONTROL Edit filter]** voor filters die u maakt of beheert vanuit de [[!UICONTROL Filters] manager](/help/components/filters/manage-filters.md).
+Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe segmenten te maken of bestaande segmenten te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New segment]** of **[!UICONTROL Edit segment]** voor segmenten die u maakt of beheert met de [[!UICONTROL Segment] manager ](/help/components/filters/manage-filters.md) .
 
 >[!BEGINTABS]
 
->[!TAB Filter bouwer]
+>[!TAB  de bouwer van het Segment ]
 
-![Venster met filterdetails met velden en opties die in de volgende sectie worden beschreven.](assets/filter-builder.png)
+![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/filter-builder.png)
 
->[!TAB Filter maken of bewerken]
+>[!TAB  creeer of geef segment ] uit
 
-![Venster met filterdetails met velden en opties die in de volgende sectie worden beschreven.](assets/create-edit-filter.png)
+![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-filter.png)
 
 >[!ENDTABS]
 
-1. Geef de volgende gegevens op (![vereist](/help/assets/icons/Required.svg) is vereist):
+1. Specificeer de volgende details (![ Vereiste ](/help/assets/icons/Required.svg) wordt vereist):
 
    | Element | Beschrijving |
    | --- | --- |
-   | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor het filter selecteren.  Het filter u bepaalt is beschikbaar als filter op het [ lusje van Montages ](/help/data-views/create-dataview.md#settings-filters) van een gegevensmening. |
-   | **[!UICONTROL Project-only filter]** | Een infobox om uit te leggen dat het filter alleen zichtbaar is in het project waar het is gemaakt en dat het filter niet wordt toegevoegd aan uw componentenlijst. Schakel deze **[!UICONTROL Make this filter available to all your projects and add it to your component list]** optie in om die instelling te wijzigen. Dit infovak is alleen zichtbaar wanneer u een [snelfilter](quick-filters.md) maakt en de snelfilterinformatie instelt in een normaal filter met behulp **[!UICONTROL Open builder]** van de [!UICONTROL Quick filter] interface. |
-   | **[!UICONTROL Title]**![ Vereist](/help/assets/icons/Required.svg) | Geef het filter een naam, bijvoorbeeld `Last month mobile customers` . |
-   | **[!UICONTROL Description]** | Geef een beschrijving voor het filter op, bijvoorbeeld `Filter to define the mobile customers for the last month` . |
-   | **[!UICONTROL Tags]** | Organiseer het filter door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
-   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Definieer uw filter met behulp van de [Definitiebouwer](#definition-builder). |
+   | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor het segment selecteren.  Het segment u bepaalt is beschikbaar als segment op het [ lusje van Montages ](/help/data-views/create-dataview.md#settings-filters) van een gegevensmening. |
+   | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd en dat het segment niet aan uw componentenlijst zal worden toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snel segment ](quick-filters.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
+   | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef het segment een naam, bijvoorbeeld `Last month mobile customers` . |
+   | **[!UICONTROL Description]** | Geef een beschrijving voor het segment op, bijvoorbeeld `Filter to define the mobile customers for the last month` . |
+   | **[!UICONTROL Tags]** | Organiseer het segment door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw segment gebruikend de [ bouwer van de Definitie ](#definition-builder). |
 
    {style="table-layout:auto"}
 
-1. Als u wilt controleren of de filterdefinitie correct is, gebruikt u de constant bijgewerkte voorvertoning van de resultaten van het filter in de rechterbovenhoek.
-1. Selecteer **[!UICONTROL Create audience from filter]** als u een publiek wilt maken van het filter en het publiek wilt delen met Experience Platform. Zie [ publiek ](/help/components/audiences/publish.md) voor meer informatie creëren en publiceren.
+1. Om te verifiëren of uw segmentdefinitie correct is, gebruik de constant bijgewerkte voorproef van de resultaten van het segment bij hoogste recht.
+1. Selecteer **[!UICONTROL Create audience from segment]** als u een publiek wilt maken van het segment en het publiek wilt delen met Experience Platform. Zie [ publiek ](/help/components/audiences/publish.md) voor meer informatie creëren en publiceren.
 1. Selecteren:
-   * **[!UICONTROL Save]** om het filter op te slaan.
-   * **[!UICONTROL Save As]** om een kopie van het filter op te slaan.
-   * **[!UICONTROL Delete]** om het filter te verwijderen.
-   * **[!UICONTROL Cancel]** om eventuele wijzigingen die u in het filter hebt aangebracht te annuleren of het maken van een nieuw filter te annuleren.
+   * **[!UICONTROL Save]** om het segment op te slaan.
+   * **[!UICONTROL Save As]** om een kopie van het segment op te slaan.
+   * **[!UICONTROL Delete]** om het segment te verwijderen.
+   * **[!UICONTROL Cancel]** om eventuele wijzigingen die u hebt aangebracht in het segment te annuleren of om het maken van een nieuw segment te annuleren.
 
 
-## Definitie bouwer
+## Definition builder
 
-U gebruikt de Definition Builder om uw filterdefinitie samen te stellen. In die constructie gebruik je componenten, containers, operators en logica.
+U gebruikt de Bouwer van de Definitie om uw segmentdefinitie te construeren. In die constructie, gebruikt u componenten, containers, exploitanten en logica.
 
 U kunt het type en het werkingsgebied van uw definitie vormen:
 
 1. Om het type van uw definitie te specificeren, specificeer of u de bouwstijl wilt omvatten of definitie uitsluiten. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** en van dropdown knevel **[!UICONTROL Include]** of **[!UICONTROL Exclude]**.
-1. Om het werkingsgebied van uw definitie te specificeren, selecteer van **[!UICONTROL Include]** of **[!UICONTROL Exclude]** dropdown of u het werkingsgebied van de definitie **[!UICONTROL Event]** wilt zijn, **[!UICONTROL Session]**, **[!UICONTROL Person]**, **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, of **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}}
+1. Om het werkingsgebied van uw definitie te specificeren, selecteer van **[!UICONTROL Include]** of **[!UICONTROL Exclude]** dropdown of u het werkingsgebied van de definitie **[!UICONTROL Event]** wilt zijn, **[!UICONTROL Session]**, **[!UICONTROL Person]**, **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, of **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}}
 
 U kunt deze instellingen altijd later wijzigen.
 
 ### Onderdelen
 
-Een essentieel onderdeel van de constructie van uw filterdefinitie is het gebruik van dimensies, metrische gegevens, bestaande filters en datumbereiken. Al deze componenten zijn beschikbaar via het componentenpaneel in de filterbouwer.
+Een essentieel onderdeel van de constructie van uw segmentdefinitie is het gebruik van dimensies, metriek, bestaande segmenten en datumbereiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Bouwer van de Filter.
 
-![Begin met het bouwen van een definitie](assets/start-building-filter.gif){width=100%}
+![ Begin bouwend een definitie ](assets/start-building-filter.gif){width=100%}
 
 Een component toevoegen:
 
-1. Sleep een component van het componentenpaneel naar **[!UICONTROL Drag and drop Metric(s), Filter(s), and/or Dimensions here]**. U kunt de ![zoekfunctie](/help/assets/icons/Search.svg) in de onderdelenbalk gebruiken om naar specifieke onderdelen te zoeken.
-1. Geef details voor de component op. Selecteer bijvoorbeeld een waarde uit **[!UICONTROL Select value]**. Of voer een waarde in. Wat en hoe u een of meer waarden kunt opgeven, is afhankelijk van het onderdeel en de operator.
-1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld, van **[!UICONTROL equals]** naar **[!UICONTROL equals any of]**. Zie [Operators](operators.md) voor een gedetailleerd overzicht van de beschikbare operators.
+1. Sleep een component van het deelvenster Componenten naar **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]** . U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
+1. Geef details voor de component op. Selecteer bijvoorbeeld een waarde in **[!UICONTROL Select value]** . Of voer een waarde in. Wat en hoe u een of meer waarden kunt opgeven, is afhankelijk van de component en de operator.
+1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld van **[!UICONTROL equals]** tot **[!UICONTROL equals any of]** . Zie [ Exploitanten ](operators.md) voor een gedetailleerd overzicht van de beschikbare exploitanten.
 
 Een component bewerken:
 
-* Selecteer een nieuwe operator voor het onderdeel in het vervolgkeuzemenu van de operator.
+* Selecteer een nieuwe operator voor de component in het vervolgkeuzemenu van de operator.
 * Selecteer indien van toepassing een andere waarde voor de operator of geef deze op.
 * Als het componenttype een dimensie is, kunt u het attributiemodel definiëren. Zie [ model van de Attributie ](#attribution-models) voor meer informatie.
 
@@ -104,53 +104,53 @@ Een component verwijderen:
 
 ### Containers
 
-U kunt meerdere componenten groeperen in een of meer containers en logica definiëren binnen en tussen containers. Met containers kunt u complexe definities voor uw filter maken.
+U kunt meerdere componenten groeperen in een of meer containers en logica definiëren binnen en tussen containers. Met containers kunt u complexe definities voor uw segment maken.
 
 ![ voeg een container ](assets/add-container.gif){Width=100%} toe
 
 * Om een container toe te voegen, selecteer **[!UICONTROL Add container]** van ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
 * Als u een bestaande component aan de container wilt toevoegen, sleept u de component naar de container.
-* Als u een andere component aan de container wilt toevoegen, sleept u een component uit het deelvenster met componenten naar de container. Gebruik de blauwe invoeglijn als richtlijn.
-* Als u een ander onderdeel buiten de container wilt toevoegen, sleept u een onderdeel van het deelvenster Onderdeel buiten de container, maar binnen de hoofddefinitiecontainer. Gebruik de blauwe invoeglijn als richtlijn.
-* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een onderdeel wilt wijzigen, selecteert u de juiste **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. Wanneer u Dan selecteert, verandert u het filter in een sequentieel filter. Zie [Sequentieel filter](seg-sequential-build.md) maken voor meer informatie.
-* Om het containerniveau te schakelen, selecteer ](/help/assets/icons/Globe.svg) Globe **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B-editie"}, ![ Rekening ](/help/assets/icons/Account.svg) **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ Opportunity ](/help/assets/icons/Opportunity.svg) **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ BuyingGroup ](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Buying Group]** [!BADGE  B2B edition 19}, ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** of ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]**.![]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+* Als u een andere component aan de container wilt toevoegen, sleept u een component uit het deelvenster met componenten naar de container. Gebruik de blauwe invoeglijn als hulplijn.
+* Als u een andere component buiten de container wilt toevoegen, sleept u een component uit het deelvenster met componenten buiten de container, maar binnen de container met de hoofddefinitie. Gebruik de blauwe invoeglijn als hulplijn.
+* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een component wilt wijzigen, selecteert u de desbetreffende **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** . Wanneer u toen selecteert, verandert u het segment in een opeenvolgend segment. Zie [ opeenvolgend segment ](seg-sequential-build.md) voor meer informatie creëren.
+* Om het containerniveau te schakelen, selecteer ](/help/assets/icons/Globe.svg) Globe **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ Rekening ](/help/assets/icons/Account.svg) **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ Opportunity ](/help/assets/icons/Opportunity.svg) **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![ BuyingGroup ](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Buying Group]** [!BADGE  B2B edition 19}, ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** of ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]**.![]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-U kunt Instellingen](/help/assets/icons/Setting.svg) in een container gebruiken ![voor de volgende acties:
+U kunt ![ Plaatsen ](/help/assets/icons/Setting.svg) in een container voor de volgende acties gebruiken:
 
-| Container actie | Beschrijving |
+| Container, actie | Beschrijving |
 |---|---|
 | **[!UICONTROL Add container]** | Voeg een geneste container toe aan de container. |
-| **[!UICONTROL Exclude]** | Sluit het resultaat uit van de container in de filterdefinitie. Een dunne rode linkerbalk geeft een uitsluitingscontainer aan. |
-| **[!UICONTROL Include]** | Neem het resultaat van de container op in de filterdefinitie. Opnemen is de standaardinstelling. Een dunne grijze linkerbalk identificeert een include-container. |
-| **[!UICONTROL Name container]** | Wijzig de naam van de container vanuit de standaardbeschrijving. Typ een naam in het tekstveld. Als u geen invoer geeft, wordt de standaardbeschrijving gebruikt. |
+| **[!UICONTROL Exclude]** | Sluit het resultaat uit van de container in de segmentdefinitie uit. Een dunne, rode linkerbalk geeft een uitsluitingscontainer aan. |
+| **[!UICONTROL Include]** | Neem het resultaat van de container op in de segmentdefinitie. Opnemen is de standaardinstelling. Een dunne grijze linkerbalk geeft een include-container aan. |
+| **[!UICONTROL Name container]** | Wijzig de naam van de container ten opzichte van de standaardbeschrijving. Typ een naam in het tekstveld. Als u geen invoer opgeeft, wordt de standaardbeschrijving gebruikt. |
 | **[!UICONTROL Delete container]** | Verwijder de container uit de definitie. |
 
 
 ## Datumbereiken
 
-U kunt filters bouwen die het rollen datumwaaiers bevatten. U bent dus in staat om vragen over lopende campagnes of evenementen te beantwoorden. U kunt bijvoorbeeld een filter maken dat iedereen omvat *die de afgelopen 60 dagen* een online aankoop heeft gedaan.
+U kunt segmenten samenstellen die roldatumbereiken bevatten. Op deze manier kunt u vragen beantwoorden over lopende campagnes of gebeurtenissen. Bijvoorbeeld, kunt u een segment bouwen dat *iedereen omvat die een online aankoop in de afgelopen 60 dagen* heeft gemaakt.
 
-![Filteren op voortschrijdend datumbereik](assets/filter-rolling-date-range.gif)
+![ Filter gebruikend het rollen datumwaaier ](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![VideoUitgecheckt Voortschrijdende](/help/assets/icons/VideoCheckedOut.svg) [datumbereiken in segmenten](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demovideo.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Rolling datumwaaiers in segmenten ](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
-## Filters stapelen {#stack}
+## Segmenten stapelen {#stack}
 
-U kunt een filter bouwen met behulp van filters. Wanneer u filters in een filter gebruikt, kunt u uw filter optimaliseren en de complexiteit verminderen.
+U kunt segmenten samenstellen met behulp van segmenten. Wanneer u segmenten in een segment gebruikt, kunt u het segment optimaliseren en de complexiteit verminderen.
 
-Stel je voor dat je wilt filteren op de combinatie van apparaattype (2) en Amerikaanse staten (50). Je kunt 100 filters bouwen, elk voor de unieke combinatie van apparaattype (mobiele telefoon versus tablet) en Amerikaanse staat. Om de Californische tabletgebruikers te krijgen, zou je een van de 100 filters gebruiken:
+Stel dat u wilt segmenteren op de combinatie van apparaattype (2) en status VS (50). U zou of 100 segmenten, elk voor de unieke combinatie apparatentype (mobiele telefoon tegenover tablet) en de staat van de V.S. kunnen bouwen. Om de tabletgebruikers in Californië te krijgen, zou u één van de 100 segmenten gebruiken:
 
-![Eenvoudig filter voor CA en tablet](assets/filter-ca-tablet-single.png)
+![ Eenvoudig segment voor Californië en tablet ](assets/filter-ca-tablet-single.png)
 
-Of u kunt 52 filters definiëren: 50 filters voor de Amerikaanse staten, één voor mobiele telefoons en één voor tablets. En stapel vervolgens de filters om dezelfde resultaten te verkrijgen. Als u de gebruikers van de Californische tablet wilt ophalen, stapelt u twee filters:
+Of u kunt 52 segmenten definiëren: 50 segmenten voor de Amerikaanse staten, één voor mobiele telefoon en één voor tablet. Vervolgens stapelt u de segmenten om dezelfde resultaten te verkrijgen. Om de de tabletgebruikers van Californië te krijgen, zou u twee segmenten stapelen:
 
-![Gestapeld filter voor CA en tablet](assets/filter-ca-tablet-stacked.png)
+![ Gestapeld segment voor CA en tablet ](assets/filter-ca-tablet-stacked.png)
 
 
 ## Attributie {#attribution}
@@ -159,8 +159,8 @@ Of u kunt 52 filters definiëren: 50 filters voor de Amerikaanse staten, één v
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
->title="Herhalende"
->abstract="Bevat instanties en permanente waarden voor de dimensie."
+>title="Herhalend"
+>abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -168,7 +168,7 @@ Of u kunt 52 filters definiëren: 50 filters voor de Amerikaanse staten, één v
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
->title="Voorbeeld"
+>title="Instantie"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
 <!-- markdownlint-enable MD034 -->
@@ -184,24 +184,24 @@ Of u kunt 52 filters definiëren: 50 filters voor de Amerikaanse staten, één v
 
 
 
-Wanneer u een afmeting in de filterbouwer gebruikt, hebt u de opties om het attributiemodel voor die afmeting te specificeren. Het toewijzingsmodel dat u selecteert, bepaalt of de gegevens in aanmerking komen voor de voorwaarde die u voor de dimensie-component hebt opgegeven.
+Wanneer u een afmeting in de bouwer van het Segment gebruikt, hebt u de opties om het attributiemodel voor die afmeting te specificeren. Het toewijzingsmodel dat u selecteert, bepaalt of de gegevens in aanmerking komen voor de voorwaarde die u voor de dimensie-component hebt opgegeven.
 
 Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomponent en selecteer één van de modellen van de Attributie van popup:
 
 | Modellen | Beschrijving |
 |---|---|
-| **[!UICONTROL Repeating model (default)]** | Neem exemplaar- en persistente waarden op voor de dimensie om de kwalificatie te bepalen. |
+| **[!UICONTROL Repeating model (default)]** | Instantie en doorlopende waarden voor de dimensie opnemen om kwalificatie te bepalen. |
 | **[!UICONTROL Instance]** | Neem alleen instantiewaarden op voor de dimensie om de kwalificatie te bepalen. |
 | **[!UICONTROL Non-repeating instance]** | U kunt unieke instantie-waarden (niet-herhalende waarden) voor de dimensie opnemen om de kwalificatie te bepalen. |
 
 
-![Attributiemodel op dimensie bij het bouwen van een filter](assets/filter-dimension-attribution.png)
+![ model van de Attributie op afmeting wanneer het bouwen van een segment ](assets/filter-dimension-attribution.png)
 
 ### Voorbeeld
 
-Als onderdeel van een filterdefinitie heb je de volgende voorwaarde opgegeven: Paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het voorbeeld hierboven. U herhaalt deze filterdefinitie met behulp van de twee andere attributiemodellen. Je hebt dus drie filters met elk hun eigen attributiemodel:
+Als onderdeel van een segmentdefinitie hebt u de volgende voorwaarde opgegeven: De paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het bovenstaande voorbeeld. U herhaalt deze segmentdefinitie met de twee andere attributiemodellen. Dus u hebt drie segmenten elk met hun eigen attributiemodel:
 
-* Pagina Vrouwen - Toeschrijving - Herhalend (standaard)
+* Vrouwenpagina - Attributie - Herhaling (standaard)
 * Women page - Attribution - Instance
 * Vrouwenpagina - Attributie - Niet-herhalende instantie
 
@@ -211,10 +211,10 @@ De lijst verklaart hieronder, voor elk attributiemodel, die de inkomende gebeurt
 
 | De Pagina van vrouwen - Attributie - <br/>*attributiemodel* | Gebeurtenis 1:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 2:<br/> de Naam van de Pagina evenaart <br/> Mannen | Gebeurtenis 3:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 4:<br/> de Naam van de Pagina evenaart <br/> Vrouwen <br/> (voortgeduurd) | Gebeurtenis 5:<br/> de Naam van de Pagina evenaart <br/> Controle | Gebeurtenis 6:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 7:<br/> de Naam van de Pagina evenaart <br/> Huis |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Herhalend (standaard) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
+| Herhaald (standaard) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
 | Instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
-| Niet-herhalende instantie | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) | ![Vinkje Cirkel](/help/assets/icons/CheckmarkCircle.svg) | ![Verwijderen](/help/assets/icons/Remove.svg) |
+| Niet-herhalende instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
 
-Een voorbeeldrapport over evenementen met behulp van de drie filters ziet er als volgt uit:
+Een voorbeeldrapport over gebeurtenissen die de drie segmenten gebruiken ziet er als volgt uit:
 
-![Resultaten van attributiemodel filteren](assets/filter-dimension-attribution-results.png)
+![ de resultaten van het de attributiemodel van het Segment ](assets/filter-dimension-attribution-results.png)
