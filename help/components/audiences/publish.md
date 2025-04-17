@@ -4,7 +4,7 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | --- | --- |
    | Vanuit de interface **[!UICONTROL Audiences]** | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
    | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Het gebruiken van deze methode vult het segment in de bouwer van de Publiek met de dimensie of afmetingspunt vooraf in dat u selecteerde.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
-   | Via de interface voor het maken/bewerken van segmenten | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this segment]** in. Met deze methode wordt het segment vooraf gevuld. Zie [ filters ](/help/components/filters/create-filters.md) voor meer informatie creëren. |
+   | Via de interface voor het maken/bewerken van segmenten | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this segment]** in. Met deze methode wordt het segment vooraf gevuld. Zie [ segmenten ](/help/components/filters/create-filters.md) voor meer informatie creëren. |
 
    {style="table-layout:auto"}
 

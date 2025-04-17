@@ -1,29 +1,29 @@
 ---
-description: U kunt een workflow instellen die het goedkeuren van filters voor verschillende toepassingsniveaus, voor specifieke afdelingen of groepen en consistent met het rapportagebeleid omvat.
-title: Filters goedkeuren
+description: U kunt een werkschema opzetten dat het goedkeuren van segmenten voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
+title: Segmenten goedkeuren
 feature: Filters
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Filters goedkeuren
+# Segmenten goedkeuren
 
-In de [ manager van de Filter ](manage-filters.md), kunt u filters goedkeuren en goedkeuren. Alleen beheerders kunnen filters goedkeuren.
+In de [ manager van het Segment ](manage-filters.md), kunt u segmenten goedkeuren en goedkeuren. Alleen beheerders kunnen segmenten goedkeuren.
 
-Filters goedkeuren:
+Segmenten goedkeuren:
 
-1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt goedkeuren.
-1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. De goedgekeurde filters worden vermeld met ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg)
+1. In de [ manager van het Segment ](manage-filters.md), selecteer één of meerdere segmenten u wilt goedkeuren.
+1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. De goedgekeurde segmenten worden vermeld met ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg)
 
-Filters niet goedkeuren:
+Segmenten niet goedkeuren:
 
-1. In de [ manager van de Filter ](manage-filters.md), selecteer één of meerdere filters u wilt goedkeuren.
+1. In de [ manager van het Segment ](manage-filters.md), selecteer één of meerdere segmenten u wilt goedkeuren.
 1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
 
-U kunt de lijst met filters filteren op goedgekeurde filters. Selecteer **[!UICONTROL Other filters]** van het ![ paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** en selecteer **[!UICONTROL Approved]**. Zie [ de lijst van filters ](/help/components/filters/filters-filter.md) voor meer informatie filtreren.
+U kunt uw lijst met segmenten segmenteren op goedgekeurde segmenten. Selecteer **[!UICONTROL Other segments]** van het ![ paneel van het Segment ](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** en selecteer **[!UICONTROL Approved]**. Zie [ Segment de lijst van segmenten ](/help/components/filters/filters-filter.md) voor meer informatie.

@@ -1,22 +1,22 @@
 ---
-description: Het filtreren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
-title: Gefilterde metriek
+description: Het segmenteren van individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
+title: Gesegmenteerde metriek
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 2f87afb9c87b0436ee40cc67a04d99d4f4f10e74
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-# Gefilterde metriek
+# Gesegmenteerde metriek
 
-In de [ Berekende metrische bouwer ](cm-build-metrics.md#definition-builder), kunt u filters binnen uw metrische definitie toepassen. Het toepassen van filters is nuttig als u metriek voor een ondergroep van uw gegevens in uw analyse wilt gebruiken.
+In de [ Berekende metrische bouwer ](cm-build-metrics.md#definition-builder), kunt u segmenten binnen uw metrische definitie toepassen. Het toepassen van segmenten is nuttig als u metriek voor een ondergroep van uw gegevens in uw analyse wilt gebruiken.
 
 >[!NOTE]
 >
->De definities van de filter worden bijgewerkt door de [ bouwer van de Filter ](/help/components/filters/filter-builder.md). Als u een wijziging aanbrengt in een filter, wordt het filter automatisch bijgewerkt wanneer het filter wordt gebruikt, ook als het filter deel uitmaakt van een berekende metrische definitie.
+>De definities van het segment worden bijgewerkt door de [ bouwer van het Segment ](/help/components/filters/filter-builder.md). Als u een verandering in een segment aanbrengt, wordt het segment automatisch bijgewerkt overal het wordt gebruikt, met inbegrip van als het segment deel van een berekende metrische definitie uitmaakt.
 >
 
 Je wilt meetgegevens vergelijken voor Duitse mensen die interageren met je merk versus mensen buiten Duitsland. U kunt dus vragen beantwoorden zoals:
@@ -25,36 +25,36 @@ Je wilt meetgegevens vergelijken voor Duitse mensen die interageren met je merk 
 1. Hoeveel Duitse versus internationale mensen in [ totaal ](#totals) online met uw merk deze maand hebben gecommuniceerd.
 1. Wat zijn de [ percentages ](#percentages) van Duitsers en internationale mensen die uw populaire pagina&#39;s hebben bezocht?
 
-Zie de volgende secties om te illustreren hoe gefilterde metriek u kan helpen deze vragen te beantwoorden. In voorkomend geval wordt verwezen naar meer gedetailleerde documentatie.
+Zie de volgende secties om te illustreren hoe u deze vragen kunt beantwoorden met gesegmenteerde meetgegevens. In voorkomend geval wordt verwezen naar meer gedetailleerde documentatie.
 
 ## Populaire pagina&#39;s
 
 1. [ creeer berekende metrisch ](cm-workflow.md) van een project van Workspace, genoemd `German people`.
-1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een filter ](/help/components/filters/filter-builder.md), getiteld `Germany`, die het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon van komt.
+1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een segment ](/help/components/filters/filter-builder.md), getiteld `Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon van komt.
 
    >[!TIP]
    >
-   >In de Berekende metrische bouwer, kunt u een filter direct tot stand brengen gebruikend het paneel van Componenten.
+   >In de Berekende metrische bouwer, kunt u een segment tot stand brengen direct gebruikend het paneel van Componenten.
    >   
 
-   Uw filter kan er zo uitzien.
+   Je segment zou er zo kunnen uitzien.
 
    ![ Filter Duitsland ](assets/filter-germany.png)
 
-1. In de Berekende metrische bouwer, gebruik de filter terug om berekende metrisch bij te werken.
+1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 
    ![ Berekende metrisch Duitsland ](assets/calculated-metric-germany.png)
 
 Herhaal bovenstaande stappen voor de internationale versie van de berekende metrische waarde.
 
 1. Maak een berekende metrische waarde van het Workspace-project met de naam `International people` .
-1. Van binnen de Berekende metrische bouwer, creeer een filter, genoemd `Not Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon uit komt.
+1. Van binnen de Berekende metrische bouwer, creeer een segment, genoemd `Not Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon uit komt.
 
-   Het filter moet er zo uitzien.
+   Uw segment zou moeten kijken als.
 
    ![ Filter Duitsland ](assets/filter-not-germany.png)
 
-1. In de Berekende metrische bouwer, gebruik de filter terug om berekende metrisch bij te werken.
+1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 
    ![ Berekende metrisch Duitsland ](assets/calculated-metric-notgermany.png)
 
@@ -66,7 +66,7 @@ Herhaal bovenstaande stappen voor de internationale versie van de berekende metr
 
 ## Totalen
 
-1. Maak twee nieuwe filters op basis van Eindtotaal. Open elk van de eerder gemaakte filters, wijzig de naam van het filter, stel de **[!UICONTROL Metric type]** for **[!UICONTROL People]** in op **[!UICONTROL Grand Total]** en gebruik **[!UICONTROL Save As]** om het filter op te slaan met de nieuwe naam. Bijvoorbeeld:
+1. Maak twee nieuwe segmenten op basis van Eindtotaal. Open elk van de eerder gemaakte segmenten, wijzig de naam van het segment, stel de **[!UICONTROL Metric type]** for **[!UICONTROL People]** to **[!UICONTROL Grand Total]** in en gebruik **[!UICONTROL Save As]** om het segment op te slaan met de nieuwe naam. Bijvoorbeeld:
 
    ![ Totale metrisch voor Duitsland ](assets/calculated-metric-germany-total.png)
 
@@ -90,7 +90,7 @@ Herhaal bovenstaande stappen voor de internationale versie van de berekende metr
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruik gefilterd berekend metrisch als implementationless metrisch ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ gebruiken gesegmenteerd berekend metrisch als implementationless metrisch ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

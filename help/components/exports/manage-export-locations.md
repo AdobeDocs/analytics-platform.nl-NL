@@ -1,13 +1,13 @@
 ---
-description: De exportlocatie van de cloud beheren waar Customer Journey Analytics-gegevens kunnen worden verzonden
+description: De exportlocatie van de cloud beheren waarnaar Customer Journey Analytics-gegevens kunnen worden verzonden
 keywords: Analysis Workspace
 title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voor informatie over hoe te om een nieuwe plaats tot stand te brengen, zie [ de 
 
 ## Filter- en zoeklocaties
 
-Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filteren of naar een locatie zoeken.
+Als u informatie wilt zoeken, kunt u filteren op de lijst met locaties of naar een locatie zoeken.
 
 ### De lijst met locaties filteren
 
@@ -36,7 +36,7 @@ Als u informatie wilt zoeken die u nodig hebt, kunt u de lijst met locaties filt
 
    | Filter | Beschrijving |
    |---------|----------|
-   | [!UICONTROL **Type van Plaats**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **AEP Gegevens het Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Rol ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Type van Plaats**]<!--should this be changed to Account type?--> | Het accounttype waaraan de locatie is gekoppeld. De volgende accounttypen kunnen beschikbaar zijn: <ul><li>[!UICONTROL **AEP Gegevens die Zone**] aanvoeren</li><li>[!UICONTROL **Amazon S3 Rol ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Rekening**] | De naam van de account waaraan de locatie is gekoppeld. |
    | [!UICONTROL **die door**] wordt gecreeerd | Het e-mailadres van de gebruiker die de locatie heeft gemaakt. |
 
@@ -154,7 +154,7 @@ Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locat
 
 ### Configureren of gebruikers accounts kunnen maken en bewerken
 
-Door gebrek, kunnen alle gebruikers in de organisatie rekeningen tot stand brengen en rekeningen uitgeven die zij in uw milieu van de Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormen wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md).
+Door gebrek, kunnen alle gebruikers in de organisatie rekeningen tot stand brengen en rekeningen uitgeven die zij in uw milieu van Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormen wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md).
 
 U kunt voorkomen dat gebruikers accounts maken. Wanneer u dat doet, kunnen gebruikers nog steeds accounts gebruiken die ze al hebben gemaakt, maar ze kunnen ze niet meer bewerken. U kunt rekeningen schrappen die de gebruikers hebben gecreeerd, zoals die in [ wordt beschreven een rekening ](#delete-an-account) schrappen.
 
@@ -170,7 +170,7 @@ Alle gebruikers beperken in het maken en bewerken van accounts:
 
 ### Configureren of gebruikers locaties kunnen maken en bewerken
 
-Door gebrek, kunnen alle gebruikers in de organisatie plaatsen tot stand brengen en plaatsen uitgeven zij in uw milieu van de Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormen de plaatsen van de wolkenuitvoer ](/help/components/exports/cloud-export-locations.md).
+Door gebrek, kunnen alle gebruikers in de organisatie plaatsen tot stand brengen en plaatsen uitgeven zij in uw milieu van Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).
 
 U kunt voorkomen dat gebruikers locaties maken. Wanneer u dat doet, kunnen gebruikers nog steeds alle locaties gebruiken die ze al hebben gemaakt, maar kunnen ze ze niet meer bewerken. U kunt plaatsen schrappen die de gebruikers hebben gecreeerd, zoals die in [ worden beschreven plaats van de Schrapping ](#delete-a-location).
 
@@ -221,7 +221,7 @@ U kunt als volgt de accounttypen beperken die beschikbaar zijn voor gebruikers b
 
    De volgende accounttypen zijn standaard beschikbaar voor gebruikers. Schakel een van deze accounttypen uit die u gebruikers wilt beperken.
 
-   * [!UICONTROL **AEP Gegevens het Landing Zone**]
+   * [!UICONTROL **AEP Gegevens die Zone**] aanvoeren
 
    * [!UICONTROL **Amazon S3 Rol ARN**]
 

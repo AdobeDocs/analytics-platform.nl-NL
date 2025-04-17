@@ -4,7 +4,7 @@ title: Gezondheid gegevenswoordenboek controleren
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gezondheid gegevenswoordenboek controleren
 
-De beheerders van de Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens.
+Customer Journey Analytics-beheerders zijn verantwoordelijk voor het bijhouden van een gezond gegevenswoordenboek.
 
 ## Kenmerken van een gezond gegevenswoordenboek
 
@@ -33,22 +33,22 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
 1. Open een Analysis Workspace-project.
 
-1. Selecteer het pictogram Gegevenswoordenboek aan de linkerkant van Analysis Workspace. (Alternatieve manieren om toegang te krijgen tot het gegevenswoordenboek worden beschreven in &quot;Toegang tot het gegevenswoordenboek&quot; in [Overzicht van gegevenswoordenboek](/help/components/data-dictionary/data-dictionary-overview.md).)
+1. Selecteer het pictogram Gegevenswoordenboek aan de linkerkant van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in &quot;toegang tot het Woordenboek van Gegevens&quot;in [ het Overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md).)
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![De weergave van de beheerder van het gegevenswoordenboek waarin de status van het woordenboek wordt weergegeven](assets/data-dictionary-admin.png)
+   ![ de mening van de beheerder van het Woordenboek van Gegevens die de gezondheid van het Woordenboek tonen ](assets/data-dictionary-admin.png)
 
 1. Controleer of de juiste gegevensweergave is geselecteerd in het keuzemenu.
 
-1. Op de [!UICONTROL **Woordenboekgezondheid**] tab, selecteert u [!UICONTROL **Weergave**] naast een van de volgende opties:
+1. Op het [!UICONTROL **gezondheid van het Woordenboek**] lusje, uitgezochte [!UICONTROL **Mening**] naast om het even welke volgende opties:
 
-   * [!UICONTROL **componenten ontbreken beschrijvingen**]
+   * [!UICONTROL **componenten missen beschrijvingen**]
 
-   * [!UICONTROL **componenten hebben duplicaten**]
+   * [!UICONTROL **de componenten hebben duplicaten**]
 
-   * [!UICONTROL **componenten hebben geen gegevens verbonden**]
+   * [!UICONTROL **componenten hebben geen verbonden gegevens**]
 
-   Afhankelijk van wat u selecteert, wordt het juiste filter toegepast op het gegevenswoordenboek en worden alleen de relevante componenten weergegeven.
+   Afhankelijk van wat u selecteert, wordt het aangewezen segment toegepast op het Woordenboek van Gegevens, en slechts worden de relevante componenten getoond.
 
-1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over het bewerken van een component in het gegevenswoordenboek raadpleegt u [Onderdeelitems bewerken in het gegevenswoordenboek](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over hoe te om een component in het Woordenboek van Gegevens uit te geven, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.

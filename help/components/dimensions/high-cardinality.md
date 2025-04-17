@@ -1,11 +1,11 @@
 ---
 title: Afmetingen van hoge kardinaliteit
-description: Verklaart hoe de Customer Journey Analytics dimensies met vele unieke waarden behandelt
+description: Verklaart hoe Customer Journey Analytics dimensies met vele unieke waarden behandelt
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Wanneer u om een rapport met teveel unieke waarden verzoekt, toont Analysis Work
 
 ## Bepalen welke dimensie-items moeten worden weergegeven
 
-De processen van de Customer Journey Analytics rapporten in de tijd dat zij in werking worden gesteld, die de gecombineerde dataset aan verscheidene servers verdelen. Gegevens per verwerkingsserver worden gegroepeerd op persoon-id, wat betekent dat één verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra een server klaar is met de verwerking, stuurt deze de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
+Customer Journey Analytics verwerkt rapporten op het tijdstip dat zij in werking worden gesteld, die de gecombineerde dataset aan verscheidene servers verdelen. Gegevens per verwerkingsserver worden gegroepeerd op persoon-id, wat betekent dat één verwerkingsserver alle gegevens voor een bepaalde persoon bevat. Zodra een server klaar is met de verwerking, stuurt deze de subset verwerkte gegevens door naar een aggregatorserver. Alle subsets van verwerkte gegevens worden gecombineerd en geretourneerd in de vorm van een Workspace-rapport.
 
 Als om het even welke individuele server gegevens verwerkt die een unieke drempel overschrijden, beknotten het de resultaten alvorens de verwerkte ondergroep van gegevens terug te keren. Afgeknot dimensieitems worden bepaald op basis van de metrische waarde die wordt gebruikt voor sorteren.
 
@@ -34,8 +34,8 @@ Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zoude
 
 De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
-* Gebruik a [ Filter ](/help/components/filters/create-filters.md). Filters worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
-* Gebruik een zoekopdracht. De punten van het Dimension die van de onderzoekstermijn worden uitgesloten worden verwijderd uit de rapportresultaten, die het waarschijnlijker maken dat u de gewenste afmetingspunten ziet.
+* Gebruik a [ segment ](/help/components/filters/create-filters.md). Segmenten worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
+* Gebruik een zoekopdracht. Dimension-items die zijn uitgesloten van de zoekterm worden verwijderd uit de rapportresultaten, waardoor de kans groter is dat u de gewenste dimensie-items ziet.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 * Gebruik [ omvatten/uitsluiten ](/help/data-views/component-settings/include-exclude-values.md) component die in de manager van de gegevensmening plaatst.
 * Verkort het datumbereik van de aanvraag. Als er zich in de loop der tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.
