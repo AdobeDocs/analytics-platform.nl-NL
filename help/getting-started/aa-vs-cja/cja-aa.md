@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 916afd0d70f2690df61dde70f46f63e78d62b21a
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2448'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **Stitching** | [ Stitching ](/help/stitching/overview.md) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse opheft. Kanaaloverschrijdende analyse is een belangrijkste gebruikscase die Customer Journey Analytics kan behandelen, die u toestaat om rapporten over veelvoudige datasets van verschillende kanalen naadloos te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoon ID) wordt gebaseerd. |
 | **Malplaatjes in Adobe Journey Optimizer** | Pas de nieuwe rapporteringsinterface in Adobe Journey Optimizer aan door a [ malplaatje ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) in Customer Journey Analytics te creëren of uit te geven, dan sparen het malplaatje dat op de pagina van Rapporten in Journey Optimizer moet worden gebruikt. |
 | **Onbeperkte klantendimensies en metriek** | Customer Journey Analytics-afmetingen zijn onbeperkt; waarden kunnen numeriek, tekst, objecten, lijsten of mengsels van allemaal zijn. Dimensies kunnen genest of hiërarchisch zijn. <br/> door contrast, steunt Adobe Analytics tot een maximum van 75 steunen en 250 eVars. |
-| **Onbeperkte unieke waarden** | Customer Journey Analytics biedt ondersteuning voor onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [ kardinaliteitsgrenzen op een dimensie ](/help/components/dimensions/high-cardinality.md), die voor om het even welke unieke waarde toestaat om te verschijnen en worden geteld.</p><p>Met deze methode worden rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, verwijderd. Dit leidt tot [!UICONTROL Low Traffic] -labels.</p><p>In Customer Journey Analytics is het mogelijk om een label [!UICONTROL Uniques Exceeded] te zien, maar deze komen veel minder vaak voor en kunnen worden beperkt door een filter of segment op de gegevens toe te passen.</p> |
+| **Onbeperkte unieke waarden** | Customer Journey Analytics biedt ondersteuning voor onbeperkte unieke waarden of dimensie-items die binnen één dimensie kunnen worden gerapporteerd.<p>Er zijn geen [ kardinaliteitsgrenzen op een dimensie ](/help/components/dimensions/high-cardinality.md), die voor om het even welke unieke waarde toestaat om te verschijnen en worden geteld.</p><p>Met deze methode worden rapportage- en analysebeperkingen die kunnen bestaan bij grootschalige Adobe Analytics-implementaties, verwijderd. Dit leidt tot [!UICONTROL Low Traffic] -labels.</p><p>In Customer Journey Analytics is het mogelijk om een label [!UICONTROL Uniques Exceeded] te zien, maar deze komen veel minder vaak voor en kunnen worden beperkt door een segment op de gegevens toe te passen.</p> |
 
 ## Volledig ondersteunde Adobe Analytics-functies/onderdelen {#full-support}
 
@@ -109,7 +109,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **veranderlijke Producten** | Binnen Experience Platform, kunnen de gebruikers een serie van voorwerpen binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. In Customer Journey Analytics kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
 | **het delen van het Project** | Het delen van projecten wordt alleen ondersteund door gebruikers van Customer Journey Analytics. Er wordt geen project gedeeld tussen Customer Journey Analytics en de traditionele Analysis Workspace. |
 | **Report Builder** | Ondersteund met een nieuwe Office 365-insteekmodule voor Excel. |
-| **de toestemmingen van de Gebruiker/de toegangscontroles van Gegevens** | Customer Journey Analytics onderscheidt tussen [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, de beheerders van het productprofiel, en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, filters of annotaties. |
+| **de toestemmingen van de Gebruiker/de toegangscontroles van Gegevens** | Customer Journey Analytics onderscheidt tussen [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, de beheerders van het productprofiel, en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, segmenten of annotaties. |
 | **Visualisaties** | Alle Workspace-visualisaties worden ondersteund, met uitzondering van de Kaartweergave. |
 | **dwars-apparaat/dwars-kanaal het stitching** | Ondersteund voor gebeurtenisgegevenssets die identiteitsgegevens bevatten. Zie [ Plaatsen ](../../stitching/overview.md). |
 

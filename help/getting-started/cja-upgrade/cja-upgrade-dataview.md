@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Een gegevensweergave maken:
 
    Voor gedetailleerde informatie over de beschikbare opties wanneer het toevoegen van componenten aan een gegevensmening, zie [ Componenten ](/help/data-views/create-dataview.md#components) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
 
-1. Selecteer het [!UICONTROL **lusje van Montages**]. Van hier, kunt u filters vormen om op uw volledige gegevensmening van toepassing te zijn en zittingsonderbreking en metriek te vormen.
+1. Selecteer het [!UICONTROL **lusje van Montages**]. Van hier, kunt u segmenten vormen om op uw volledige gegevensmening van toepassing te zijn en zittingsonderbreking en metriek te vormen.
 
    Voor gedetailleerde informatie over de opties beschikbaar wanneer het vormen van montages voor een gegevensmening, zie [ Montages ](/help/data-views/create-dataview.md#settings) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
 

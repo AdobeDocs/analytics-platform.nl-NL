@@ -4,7 +4,7 @@ title: Snelle segmenten
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 0%
@@ -57,11 +57,11 @@ De resultaten van de snelle segmenten die u in een deelvenster maakt, worden toe
 Als u een snel segment wilt beheren, houdt u de muisaanwijzer boven het specifieke segment **[!UICONTROL Quick segment]** .
 
 * Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om de [ Snelle segmentbouwer ](#quick-filter-builder) te openen en het snelle segment uit te geven.
-* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De pop-up toont informatie over de filter. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om het segment aan de ![ 2} **[!UICONTROL Segments]** componentenlijst van het Segment {in het componentenpaneel toe te voegen. ](/help/assets/icons/Segmentation.svg) Er wordt een dialoogvenster **[!UICONTROL Save quick segment]** weergegeven waarin u wordt gevraagd een naam voor het segment op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick segment] verandert in een **[!UICONTROL Segment]** . U kunt niet het segment meer uitgeven gebruikend de [ Snelle segmentbouwer ](#quick-filter-builder). In plaats daarvan, moet u het segment als regelmatig segment uitgeven, gebruikend de [ bouwer van het Segment ](filter-builder.md).
+* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De popup vertoningeninformatie over het segment. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om het segment aan de ![ 2} **[!UICONTROL Segments]** componentenlijst van het Segment {in het componentenpaneel toe te voegen. ](/help/assets/icons/Segmentation.svg) Er wordt een dialoogvenster **[!UICONTROL Save quick segment]** weergegeven waarin u wordt gevraagd een naam voor het segment op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick segment] verandert in een **[!UICONTROL Segment]** . U kunt niet het segment meer uitgeven gebruikend de [ Snelle segmentbouwer ](#quick-filter-builder). In plaats daarvan, moet u het segment als regelmatig segment uitgeven, gebruikend de [ bouwer van het Segment ](filter-builder.md).
 
 ## Quick segment builder
 
-Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld wordt de builder geopend voor een snel filter met de naam `Call Reason = Order Change AND Online Orders is greater than or equal 1` . Beide snelle filters bovenaan zijn van toepassing op het deelvenster [!UICONTROL Average Order Value Dashboard] en alle visualisaties daarbinnen, zoals de vrije-vormtabel van [!UICONTROL Average Order Value Per Country] .
+Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld wordt de builder geopend voor een snel segment met de naam `Call Reason = Order Change AND Online Orders is greater than or equal 1` . Beide snelle segmenten bovenaan zijn van toepassing op het deelvenster [!UICONTROL Average Order Value Dashboard] en alle visualisaties daarbinnen, zoals de vrije-vormtabel [!UICONTROL Average Order Value Per Country] .
 
 ![ Snelle segmentbouwer ](assets/quick-filter-builder.png)
 

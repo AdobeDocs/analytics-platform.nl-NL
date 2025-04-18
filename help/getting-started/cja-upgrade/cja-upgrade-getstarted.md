@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Na zijn enkele zeer belangrijke voordelen: (Voor een uitvoerige lijst, evenals m
 
 * [Transformaties in de gegevensweergave bij uitvoering rapporteren](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
-  Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, subtekenreeksen te filteren, of afgeleide gebieden te gebruiken. Al deze transformaties zijn niet-destructief.
+  Met gegevensweergaven in Customer Journey Analytics kunt u gegevens van een verbinding verder interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om dimensies te manipuleren, metriek van om het even welke waarde, segmentsubevents, of afgeleide gebieden te gebruiken. Al deze transformaties zijn niet-destructief.
 
 * [Transformaties gelden voor historische en nieuwe gegevens](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
 

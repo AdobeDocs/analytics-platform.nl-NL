@@ -1,19 +1,19 @@
 ---
 description: Verklaart de eigenschappen van de nieuwe het landen pagina.
-title: Customer Journey Analytics landingspagina
+title: Customer Journey Analytics-landingspagina
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics landingspagina
+# Customer Journey Analytics-landingspagina
 
-De landingspagina voor Customer Journey Analytics markeert [!DNL Analysis Workspace] en heeft een startpagina voor projectmanager en een leergedeelte om u te helpen de gegevens van de klantenreis effectiever beheren.
+De landingspagina voor Customer Journey Analytics markeert [!DNL Analysis Workspace] en is voorzien van een startpagina voor projectmanager en een leergedeelte om u te helpen bij het effectiever beheren van de reisgegevens van klanten.
 
 
 >[!BEGINSHADEBOX]
@@ -25,7 +25,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Bestaan p
 >[!ENDSHADEBOX]
 
 
-De Customer Journey Analytics landende pagina bestaat uit volgende subtabs: Projecten en Leren.
+De Customer Journey Analytics-landingspagina bestaat uit de volgende subtabbladen: Projecten en Leren.
 
 **[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, tabellen en visualisaties combineren die u hebt gemaakt of die iemand anders met u heeft gemaakt en gedeeld. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
 
@@ -53,7 +53,7 @@ Het tabblad **[!UICONTROL Learning]** bevat praktische videolessen, zelfstudies 
 
 >[!NOTE]
 >
->Verschillende van de volgende instellingen blijven aanwezig tijdens de sessie en tijdens verschillende sessies. Het geselecteerde tabblad, de geselecteerde filters, de geselecteerde kolommen en de sorteerrichting van de kolom. De zoekresultaten zijn niet blijvend.
+>Verschillende van de volgende instellingen blijven aanwezig tijdens de sessie en tijdens verschillende sessies. Bijvoorbeeld het tabblad dat u hebt geselecteerd, de geselecteerde segmenten, de geselecteerde kolommen en de sorteerrichting van de kolom. De zoekresultaten zijn niet blijvend.
 
 Zie [ Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) voor meer informatie.
 
@@ -113,7 +113,7 @@ The available columns are:
 
 De pagina Learning bevat praktische videolessen, zelfstudies en koppelingen naar documentatie.
 
-Gebruik de het Leren pagina in Customer Journey Analytics om te leren:
+Gebruik de pagina Leren in Customer Journey Analytics voor meer informatie:
 
 * Begin-, tussenliggende of geavanceerde functies en gebruiksgevallen in Customer Journey Analytics
 * Hoe kan ik naadloos overstappen van Adobe Analytics naar Customer Journey Analytics?
@@ -128,9 +128,9 @@ De leerpagina bevat de volgende functies
 
 * **inhoud van de Filter:** Gebruik ![ Filter ](/help/assets/icons/Filter.svg) aan filter het leren inhoud door **[!UICONTROL Type]** (**[!UICONTROL Document]**, **[!UICONTROL Video]**, en **[!UICONTROL Tours & tutorials]**) en **[!UICONTROL Experience Level]** (**[!UICONTROL Beginner]**, **[!UICONTROL Intermediate]**, of **[!UICONTROL Advanced]**).
 * **vooruitgang van het Spoor:** Nadat u een stuk van inhoud selecteert, verschijnt de markering van a ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]**. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de {](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]** markering 0} CheckmarkCircle selecteren om het uit een stuk van inhoud te verwijderen.![
-* **Mening extra inhoud:** terwijl het bekijken van om het even welke video, uitgezochte **[!UICONTROL Learn more]** om verwante documentinhoud op Experience League te bekijken. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
+* **Mening extra inhoud:** terwijl het bekijken van om het even welke video, selecteer **[!UICONTROL Learn more]** om verwante documentinhoud op Experience League te bekijken. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
    * **[!UICONTROL Visit YouTube]:** bekijk de volledige Analysis Workspace YouTube-afspeellijst.
-   * [!UICONTROL **Experience League van het Bezoek**]: Bekijk de volledige reeks van de documentatie van de Customer Journey Analytics op Experience League.
+   * [!UICONTROL **Bezoek Experience League**]: Bekijk de volledige reeks van de documentatie van Customer Journey Analytics op Experience League.
 * **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Learning Workspace Fundamentals] tour wordt geadviseerd voor nieuwe gebruikers. Deze tour leidt je rechtstreeks naar Workspace en begeleidt je door de meest voorkomende acties. Deze tour kan ook om het even welke tijd in Workspace via tooltip van het [ deelvenster Vrije vorm ](/help/analysis-workspace/c-panels/freeform-panel.md) of [ Lege paneelkopbal ](/help/analysis-workspace/c-panels/blank-panel.md) worden opnieuw gelanceerd.
 
 ## Voorkeurspagina
