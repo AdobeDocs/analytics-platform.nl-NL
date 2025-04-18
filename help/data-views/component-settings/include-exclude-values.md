@@ -5,7 +5,7 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="Waarden uitsluiten opnemen"
->abstract="Verfijn een dimensie om alleen waarden op te nemen die aan specifieke criteria voldoen. Opnamen en uitsluitingen vinden plaats vóór de toewijzing en filters in rapporten. Bepaal of de opgegeven filterlogica hoofdlettergevoelig is."
+>abstract="Verfijn een dimensie om alleen waarden op te nemen die aan specifieke criteria voldoen. Opnamen en uitsluitingen vinden plaats vóór de toerekening en segmentering in rapporten. Bepaal of de opgegeven segmentlogica hoofdlettergevoelig is."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,8 +40,8 @@ Met Waarden voor uitsluiten kunt u regels maken die afhankelijk zijn van de waar
 | --- | --- |
 | [!UICONTROL Set include/exclude values] | Een selectievakje waarmee u voorwaarden kunt inschakelen waarin gegevens worden opgenomen in een gegevensweergave. |
 | [!UICONTROL Case sensitive] | Zichtbaar op de gegevenstypen van het schema van het Koord. Standaard ingeschakeld. Deze instelling is alleen van toepassing op de [!UICONTROL Include/Exclude Values] -logica, niet op de resulterende waarde. Het staat u toe om te specificeren als de regel gevoelig geval is. |
-| [!UICONTROL Match] | Hier kunt u opgeven welke waarden u wilt gebruiken voor de rapportage voorafgaand aan de toewijzing en filters (bijvoorbeeld alleen waarden gebruiken die de uitdrukking &quot;fout&quot; bevatten). U kunt **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]** opgeven. Scheid elke waarde met een spatie. |
-| [!UICONTROL Criteria] | Hier geeft u de logica op die moet worden toegepast op een bepaalde filterregel.<ul><li>**Koord**: [!UICONTROL Contains the phrase], [!UICONTROL Contains any term], [!UICONTROL Contains all terms], [!UICONTROL Does not contain any term], [!UICONTROL Does not contain the phrase], [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Starts with], [!UICONTROL Ends with]</li><li>**dubbel/Geheel**: [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Is greater than], [!UICONTROL Is less than], [!UICONTROL Is greater than or equal to], [!UICONTROL Is less than or equal to]</li><li>**Datum**: [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Is later than], [!UICONTROL Is before], [!UICONTROL Occurs within]</li></ul> |
+| [!UICONTROL Match] | Hier kunt u opgeven met welke waarden u rekening wilt houden voor rapportage voorafgaand aan de toewijzing en segmenten (bijvoorbeeld alleen waarden gebruiken die de uitdrukking &quot;error&quot; bevatten). U kunt **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]** opgeven. Scheid elke waarde met een spatie. |
+| [!UICONTROL Criteria] | Hier kunt u de logica voor de overeenkomst opgeven die op een specifieke segmentregel moet worden toegepast.<ul><li>**Koord**: [!UICONTROL Contains the phrase], [!UICONTROL Contains any term], [!UICONTROL Contains all terms], [!UICONTROL Does not contain any term], [!UICONTROL Does not contain the phrase], [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Starts with], [!UICONTROL Ends with]</li><li>**dubbel/Geheel**: [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Is greater than], [!UICONTROL Is less than], [!UICONTROL Is greater than or equal to], [!UICONTROL Is less than or equal to]</li><li>**Datum**: [!UICONTROL Equals], [!UICONTROL Does not equal], [!UICONTROL Is later than], [!UICONTROL Is before], [!UICONTROL Occurs within]</li></ul> |
 | [!UICONTROL Match operand] | Hier geeft u de overeenkomende operand op waarop de overeenkomende operator moet worden toegepast.<ul><li>**Koord**: Het gebied van de Tekst</li><li>**dubbel/Geheel Geheel**: Het Gebied van de tekst met omhoog/onderaan pijlen voor numerieke waarden</li><li>**Datum**: De selecteur van de granulariteit van de dag (kalender)</li><li>**Tijd van de Datum**: De selecteur van de datum en van de tijdgranulariteit</li></ul> |
 | [!UICONTROL Add rule] | Hier kunt u een extra match-operator en -operand opgeven. |
 

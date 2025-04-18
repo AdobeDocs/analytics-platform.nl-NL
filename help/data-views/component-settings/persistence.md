@@ -5,7 +5,7 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistentie"
->abstract="Vorm het standaardtoewijzingsmodel dat op een dimensie wordt toegepast. Toewijzing is van toepassing vóór filters in rapportage. Zie voor meer informatie [ toewijzingsmontages ](/help/data-views/component-settings/persistence.md#allocation-settings), [ vervalmontages ](/help/data-views/component-settings/persistence.md#expiration-settings), [ bindende afmeting ](/help/data-views/component-settings/persistence.md#binding-dimension) en [ bindende metriek ](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Vorm het standaardtoewijzingsmodel dat op een dimensie wordt toegepast. Toewijzing geldt vóór segmenten in rapportage. Zie voor meer informatie [ toewijzingsmontages ](/help/data-views/component-settings/persistence.md#allocation-settings), [ vervalmontages ](/help/data-views/component-settings/persistence.md#expiration-settings), [ bindende afmeting ](/help/data-views/component-settings/persistence.md#binding-dimension) en [ bindende metriek ](/help/data-views/component-settings/persistence.md#binding-metric)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 * **Vervalsing** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
 
-[!UICONTROL Persistence] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
+[!UICONTROL Persistence] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die plaatsvindt voordat segmentering of andere analysebewerkingen worden toegepast.
 
 | Instelling | Beschrijving |
 | --- | --- |
