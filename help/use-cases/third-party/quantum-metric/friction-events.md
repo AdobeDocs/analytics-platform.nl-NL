@@ -1,15 +1,15 @@
 ---
 title: Metrische wrijvingsgebeurtenissen voor Quantum toevoegen aan Customer Journey Analytics
-description: Voeg diepten toe aan inzichten in Customer Journey Analytics met behulp van wrijvingsgebeurtenissen verzameld in Quantum Metric.
+description: Voeg Quantum Metric verzamelde wrijvingsgebeurtenissen toe aan Customer Journey Analytics-gedragsgegevens om diepte toe te voegen aan inzichten in CJA.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,20 @@ Voor dit gebruiksgeval gelden twee vereisten:
 
 ## Stap 1: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
 
-Het Quantum Metric CSM team kan u helpen de juiste schemaelementen bepalen om toe te voegen, en hulp u instrueert om uw implementatie te wijzigen om de gewenste gegevens voor gebruik in Customer Journey Analytics te verzamelen. Neem voor meer informatie contact op met uw Quantum Metric Customer Succesmanager.
+Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
 
-Uiteindelijk wilt u de naam van de wrijvingsgebeurtenis in een veld volgen.
+Gebruik labels in de gegevensverzameling van Adobe Experience Platform om de naam van de wrijvingsgebeurtenis handmatig in te stellen, zodat deze in het XDM-object kan worden opgenomen en geanalyseerd. Één manier om dit te doen is in de de douanecode van de regel:
 
-## Stap 2: Ingesloten gegevenssetvelden bevestigen
+```js
+_satellite.setVar('qm_error_name','error rage click');
+return true;
+```
 
-Bevestig dat de datasets in uw verbinding nu Quantum Metric zittings identiteitskaart in de gewenste dataset hebben.
+Voeg vervolgens het dynamisch ingestelde gegevenselement toe aan uw XDM-object:
 
-## Stap 3: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
+![ het schermschot van de de foutennaam van het Quantum Metrische ](assets/error-name.png)
+
+## Stap 2: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
 
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
@@ -45,8 +50,9 @@ Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een besch
 1. Zoek de lijst met het gebeurtenisveld Quantum Metric friction aan de linkerkant en sleep deze naar het meetgebied in het midden.
 1. In de juiste ruit, plaats [ omvatten/uitsluiten waarden ](/help/data-views/component-settings/include-exclude-values.md) het plaatsen aan de gewenste wrijvingsgebeurtenissen die u wilt volgen. U kunt veelvoudige wrijvingsgebeurtenissen aan zelfde metrisch toevoegen om hen te combineren. U kunt ook een andere kopie van het veld wrijvingsgebeurtenissen naar het metrische gebied slepen om andere wrijvingsgebeurtenissen als een aparte metrische waarde bij te houden.
 1. Klik op **[!UICONTROL Save]** als u alle gewenste afmetingen en metriek hebt gemaakt.
+1. Raadpleeg de documentatie bij Quantum Metric voor een volledige lijst met foutgebeurtenissen. Als u extra vragen hebt, contacteer uw Metrische vertegenwoordiger van de klantensteun van Quantum of voorleg een verzoek door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrische ](https://community.quantummetric.com/s/public-support-page).
 
-## Stap 4: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
+## Stap 3: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
 
 Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersgegevens worden verzameld, kunt u ze precies gebruiken zoals u dat zou doen met andere maten of metrische gegevens in Customer Journey Analytics.
 

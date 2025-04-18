@@ -7,26 +7,24 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
+source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # Quantum Metric heatmaps gebruiken met Customer Journey Analytics
 
-Door Quantum Metric heatmapping aan CJA-gegevens te koppelen, kunt u de betrokkenheid op paginaniveau beter begrijpen en pagina&#39;s optimaliseren op basis van consumentengedrag. Workspace kan worden gebruikt om consumentengebruikersstromen te begrijpen en te zien welke paden consumenten volgen van de ene pagina naar de andere. Vervolgens kunt u op URL&#39;s van hypergekoppelde pagina klikken om visueel te koppelen hoe gebruikers de inhoud gebruiken.  Door Quantum Metric Heatmapping aan CJA te koppelen, kunt u nu interacties op paginaniveau koppelen aan bedrijfsresultaten en uw analyse naar het volgende niveau brengen.
+Door Quantum Metric heatmapping aan CJA-gegevens te koppelen, kunt u de betrokkenheid op paginaniveau beter begrijpen en pagina&#39;s optimaliseren op basis van consumentengedrag. Workspace kan worden gebruikt om consumentengebruikersstromen te begrijpen en te zien welke paden consumenten volgen van de ene pagina naar de andere. Vervolgens kunt u op URL&#39;s van hypergekoppelde pagina klikken om visueel te koppelen hoe gebruikers de inhoud gebruiken. Door Quantum Metric Heatmapping aan CJA te koppelen, kunt u nu interacties op paginaniveau koppelen aan bedrijfsresultaten en uw analyse naar het volgende niveau brengen.
 
 De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even welke hen klikken om verder in QM te onderzoeken.  Meer informatie over Quantum Metric session replay vindt u op https://www.quantummetric.com/platform/session-replay
 
 ## Vereisten
 
-Voor dit gebruiksgeval moet u de sessie-id van Quantum Metric naast de rest van de implementatie verzamelen. Zie [ Metrische Sessie IDs van het Quantum in Customer Journey Analytics ](collect-session-id.md) verzamelen om te leren hoe te om uw implementatie te wijzigen.
-
 U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn om tot de mogelijkheden van de heatmap van Quantum Metric toegang te hebben.
 
-## Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zittingidentiteitskaart verbindingen direct aan Metric Quantum zijn.
+## Stap 1: Creeer een vrije lijst in Workspace en vorm het zodat de waarden van zittingidentiteitskaart verbindingen direct aan Metric Quantum zijn.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
@@ -42,12 +40,8 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
    ```
 
 1. Klik op **[!UICONTROL Create]**.
+1. Test een van de koppelingen om te zien of deze wordt geopend in de URL terwijl de extensie Quantum Metric zichtbaar is. Deze koppelingen worden geopend op een nieuw tabblad, zodat uw Workspace-project open blijft.
 
-1. Klik op Maken en test vervolgens een van de koppelingen om te zien of deze wordt geopend in de URL met de extensie QM open. Opmerking: deze wordt op een apart tabblad geopend, zodat u uw werk niet verliest.
+## Stap 2: heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
 
-
-## Heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
-
-Nadat u een pagina hebt gevonden waarvoor u de warmteverdeling wilt bekijken, kunt u deze toepassen op het deelvenster waarin de URL zich bevindt. De tabel retourneert een URL waarmee u de heatmaps voor de pagina in kwestie, de schuifdiepte en belangrijke zones voor interactie kunt verkennen.  Leer meer over Metrische Quantum Heatmaps in [ https://www.quantummetric.com/platform/interaction-heatmaps ](https://www.quantummetric.com/platform/interaction-heatmaps).  Voor om het even welke extra middelen gelieve uw Metrische vertegenwoordiger van de klantensteun van Quantum te contacteren of een verzoek door het Metrische Deel van het Verzoek van de Klant van Quantum [ ](https://community.quantummetric.com/s/public-support-page) voor te leggen.
-
-
+Nadat u een pagina hebt gevonden die u wilt verkennen, kunt u deze toepassen op het gewenste deelvenster. De tabel retourneert een URL waarmee u met behulp van Quantum Metric warmtekaarten, schuifdiepte en belangrijke zones voor interactie kunt verkennen. Zie [ het Metrische overzicht van het Kwartaalproduct van de heatmap ](https://www.quantummetric.com/platform/interaction-heatmaps) voor meer informatie. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch ](https://community.quantummetric.com/s/public-support-page).

@@ -4,7 +4,7 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
 source-wordcount: '4696'
 ht-degree: 5%
@@ -23,7 +23,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Gebruik weergeven en beheren | Herwerkte de documentatie op hoe te [ mening ](/help/connections/manage-connections.md#usage) en [ het gebruik van Customer Journey Analytics beheren ](/help/technotes/estimate-usage.md) |
 | Content Analytics | [ Documentatie ](/help/content-analytics/content-analytics.md) voor Adobe Content Analytics. Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken. |
 | **Maart 2025** | |
-| Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
+| Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/qm-overview.md). |
 | **Februari 2025** |  |
 | Media Collection: Adobe Source Connector updates voor nieuwe Media die XDM melden | De Schakelaar van Source van Analytics [ kaarten automatisch het stromen media gegevens in Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) aan de zelfde gebieden die door het Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. |
 | BI-extensie - uitgebreide ondersteuning | De uitbreiding van Customer Journey Analytics BI steunt nu [ Leider, Notitieboekje Jupyter en de Studio van R ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
