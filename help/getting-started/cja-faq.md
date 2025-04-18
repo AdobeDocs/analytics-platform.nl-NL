@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '2387'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen 
 
 +++**Hoe verbind ik online gegevens met off-line gegevens in [!UICONTROL Customer Journey Analytics]?**
 
-Zolang de persoonidentiteitskaart tussen datasets aanpast, kan [!UICONTROL Customer Journey Analytics] filters, attributie, stroom, reserve, etc. over datasets verbinden.
+Zolang de persoonidentiteitskaart tussen datasets aanpast, kan [!UICONTROL Customer Journey Analytics] segmenten, attributie, stroom, reserve, etc. over datasets verbinden.
 
 +++
 
@@ -174,7 +174,7 @@ Als u van plan bent om de gegevens van Adobe Analytics door de [ bron van Adobe 
 | [!UICONTROL Sessions] en [!UICONTROL People] counts | Ze worden gededupliceerd door de rapportsuites. Hierdoor komen aantallen mogelijk niet overeen. |
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders] ) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID] ). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, kunnen de metriek zoals [!UICONTROL Orders] niet over rapportsuites optellen. |
 | Valuta | Valuta-conversie wordt nog niet ondersteund in Customer Journey Analytics. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
-| [!UICONTROL Persistence] | [ persistentie ](../data-views/component-settings/persistence.md) breidt zich over rapportsuites uit, die [!UICONTROL filters], [!UICONTROL attribution], etc. beïnvloedt. Het is mogelijk dat getallen niet correct worden opgeteld. |
+| [!UICONTROL Persistence] | [ persistentie ](../data-views/component-settings/persistence.md) breidt zich over rapportsuites uit, die [!UICONTROL segments], [!UICONTROL attribution], etc. beïnvloedt. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] wordt niet automatisch gededupliceerd bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden combineert in één [!UICONTROL lookup] -dataset, kunnen er problemen optreden. |
 
 ## 8. [!UICONTROL Adobe Analytics] componenten

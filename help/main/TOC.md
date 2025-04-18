@@ -9,7 +9,7 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 10%
@@ -199,7 +199,7 @@ ht-degree: 10%
          + [Overzicht](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Interdimensionale uitval](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Filters toepassen](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Segmenten toepassen](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
          + [Overzicht](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configureren](../analysis-workspace/visualizations/c-flow/create-flow.md)
@@ -320,19 +320,19 @@ ht-degree: 10%
       + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
       + [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
-   + Filters {#cja-filters}
+   + Segmenten {#cja-segments}
       + [Overzicht](../components/filters/filters-overview.md)
-      + [Filters maken](../components/filters/create-filters.md)
-      + [Filters maken](../components/filters/filter-builder.md)
-      + [Snelle filters](../components/filters/quick-filters.md)
-      + [Opeenvolgende filters](../components/filters/seg-sequential-build.md)
-      + [Filters delen](../components/filters/filters-share.md)
-      + [Labelfilters](../components/filters/filters-tag.md)
-      + [De lijst met filters filteren](../components/filters/filters-filter.md)
-      + [Filters markeren als favorieten](../components/filters/filters-favorite.md)
-      + [Filters goedkeuren](../components/filters/filters-approve.md)
-      + [Filters kopiëren](../components/filters/filters-copy.md)
-      + [Filters beheren](../components/filters/manage-filters.md)
+      + [Segmenten maken](../components/filters/create-filters.md)
+      + [Segmenten maken](../components/filters/filter-builder.md)
+      + [Snelle segmenten](../components/filters/quick-filters.md)
+      + [Sequentiële segmenten](../components/filters/seg-sequential-build.md)
+      + [Segmenten delen](../components/filters/filters-share.md)
+      + [Tagsegmenten](../components/filters/filters-tag.md)
+      + [De lijst met segmenten filteren](../components/filters/filters-filter.md)
+      + [Segmenten markeren als favorieten](../components/filters/filters-favorite.md)
+      + [Segmenten goedkeuren](../components/filters/filters-approve.md)
+      + [Segmenten kopiëren](../components/filters/filters-copy.md)
+      + [Segmenten beheren](../components/filters/manage-filters.md)
       + [Operatoren](../components/filters/operators.md)
    + Berekende cijfers {#cja-calcmetrics}
       + [Overzicht](../components/calc-metrics/calc-metr-overview.md)
@@ -342,8 +342,8 @@ ht-degree: 10%
          + [Metrische gegevens zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Type en attributie metrisch](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [Een metrische deelname maken](../components/calc-metrics/cm-workflow/participation-metric.md)
-         + [Gefilterde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
-         + [Filters stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Gesegmenteerde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [Segmenten stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Berekende maateenheden filteren](../components/calc-metrics/cm-workflow/cm-filter.md)
          + [Berekende metriek markeren als favorieten](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Berekende cijfers kopiëren](../components/calc-metrics/cm-workflow/cm-copy.md)

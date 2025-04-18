@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3812b10e558c1b8a3ee4fe474405543c68433d8e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In dit artikel worden algemene concepten en kenmerken op datasets en containers 
 
 Datasets zijn de bronnen van een verbinding. Als deel van vestiging een verbinding, bepaalt u datasets om deel van die verbinding te uitmaken.
 
-Containers worden in Customer Journey Analytics gebruikt om functies zoals filters, berekende meetgegevens en geavanceerde analysemogelijkheden te ondersteunen en te vereenvoudigen.
+Containers worden in Customer Journey Analytics gebruikt om functies zoals segmenten, berekende meetgegevens en geavanceerde analysemogelijkheden te ondersteunen en te vereenvoudigen.
 
 
 
@@ -36,12 +36,12 @@ U kunt opnieuw bepalen hoe deze containers worden genoemd wanneer u een mening v
 
 ![ B2C ](assets/b2c-containers.svg){zoomable="yes"}
 
-In de verbinding voegt u gegevenssets voor gebeurtenissen, profielen en opzoeken toe en selecteert u identiteiten die u wilt gebruiken om de verbinding tussen deze gegevenssets te definiëren. Als onderdeel van de verbinding wordt automatisch een op personen gebaseerde containerhiërarchie gegenereerd. In die hiërarchie wordt de sessiecontainer gedefinieerd door de [sessie-instellingen](/help/data-views/session-settings.md) in de gegevensweergave.
+In de verbinding, voegt u de datasets van de Gebeurtenis, van het Profiel en van de Opzoeker toe en u selecteert identiteiten om te gebruiken om de verbinding tussen deze datasets te bepalen. Als deel van de verbinding, wordt een op persoon-gebaseerde containerhiërarchie automatisch geproduceerd. In die hiërarchie wordt de container van de Zitting bepaald door de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw mening van Gegevens.
 
 
 ## B2B-containers
 
-In Customer Journey Analytics B2B Edition wordt een accountcontainer toegevoegd aan de lijst met gegenereerde containers.  En u hebt de optie om de generatie van extra containers, zoals Globale Rekening, het Kopen Groep, en Kans te vormen.
+In Customer Journey Analytics B2B edition wordt een container Account toegevoegd aan de lijst met gegenereerde containers.  En u hebt de optie om de generatie van extra containers, zoals Globale Rekening, het Kopen Groep, en Kans te vormen.
 
 ![ B2B ](assets/b2b-containers.svg){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Opportunity, Buying Group en Person zijn alle containers op hetzelfde niveau van
 | Account | Een bedrijf dat een klant of potentiële klant van uw zaken is. Dit zou een dochteronderneming of afdeling van een grotere organisatie kunnen zijn. Account vertegenwoordigt de organisatie waarnaar u verkoopt en die u wilt bijhouden op organisatieniveau. |
 | Globale account (optioneel) | De belangrijkste moedermaatschappij van een groep verbonden ondernemingen. Een global account heeft geen moedermaatschappij, maar kan dochterondernemingen of afdelingen hebben die tot de global account behoren. Een account zonder moedermaatschappij of dochterondernemingen moet zowel in het accountveld als in het veld voor de globale account worden vermeld, als beide accounts zijn ingeschakeld als onderdeel van het instellen van een verbinding. |
 | Opportunity (optioneel) | Een verzameling producten en diensten die samen worden verkocht. Bij een gelegenheid waren vaak verschillende fasen van de verkoopcyclus betrokken om als verkoop te worden gesloten.<br> u zou opportuniteitsgegevens gebruiken om de opportuniteitsvooruitgang door de verkooptrechter te meten. Bijvoorbeeld, een rapport dat details over de topkansen verstrekt die van opportuniteitsfase 3 aan fase 4 zijn overgegaan. |
-| Groep voor kopen (optioneel) | Een verzameling van mensen binnen een organisatie die betrokken zijn bij het besluitvormingsproces om een product of dienst aan te schaffen. <br/>U zou gegevens van koopgroepen gebruiken om koopgroepen te volgen via campagnebeheer. Bijvoorbeeld, buikd een publiekssegment van de belangrijkste inkoopgroepen.<br/> U wilt waarschijnlijk een zoekopdracht van de koopgroep naar profielgegevens, zodat u kunt rapporteren over de mensen in een koopgroep. |
+| Groep voor kopen (optioneel) | Een verzameling personen binnen een organisatie die betrokken is bij het besluitvormingsproces voor de aankoop van een product of dienst. <br/> u zou het kopen groepsgegevens gebruiken om het kopen groepen door campagnebeheer te volgen. Bijvoorbeeld, bouwde een publiekssegment van zeer belangrijke het kopen groepen.<br/> U wilt waarschijnlijk een zoekopdracht vanuit de inkoopgroep naar profielgegevens, zodat u gegevens over de personen in een inkoopgroep kunt melden. |
 | Persoon | Een individu, dat vaak door een uniek e-mailadres wordt geïdentificeerd dat met het bedrijf in wisselwerking heeft gestaan. <br/> u zou de profielgegevens gebruiken om mensen te identificeren die voor een rekening werken. Bijvoorbeeld: richt alle mensen bij een rekening die zich voor een conferentie hebben aangemeld. |
 
 

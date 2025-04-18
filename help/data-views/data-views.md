@@ -1,11 +1,11 @@
 ---
 title: Overzicht van gegevensweergaven
-description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de verbinding met de Customer Journey Analytics wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
+description: In een gegevensweergave wordt aangegeven hoe u elementen van de gegevens in de Customer Journey Analytics-verbinding wilt interpreteren, zoals metriek, afmetingen, sessies, enzovoort.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Workspace-projecten in Customer Journey Analytics zijn gebaseerd op gegevensweer
 
 ## Mogelijkheden voor gegevensweergaven {#capabilities}
 
-De meningen van gegevens laten u spontaan de montages van het schemaelement veranderen, zonder het moeten het schema in Adobe Experience Platform veranderen of uw milieu van de Customer Journey Analytics opnieuw uitvoeren.
+Met gegevensweergaven kunt u automatisch de instellingen van schema-elementen wijzigen zonder dat u het schema hoeft te wijzigen in Adobe Experience Platform of de Customer Journey Analytics-omgeving opnieuw hoeft te implementeren.
 
 * U kunt een component veranderen van metrisch in een afmeting en vice versa. U kunt metriek van koordgebieden tot stand brengen of dimensies van numerieke gebieden tot stand brengen. Deze functionaliteit maakt uw leven gemakkelijker, omdat u geen numeriek gebied in uw schema XDM voor elke metrisch moet creëren u wilt. In plaats daarvan kunt u deze alleen spontaan maken in het dialoogvenster met gegevensweergaven. Hier volgen enkele voorbeelden:
    * **creeer één of meerdere metriek en/of afmetingen van één enkel schemagebied**. Het is een één-op-veel relatie. U kunt bijvoorbeeld een of meer omzetmaatstaven en/of een of meer inkomstendimensies maken van één schemaveld.
@@ -55,7 +55,7 @@ De meningen van gegevens laten u spontaan de montages van het schemaelement vera
 
 * U kunt opmaak toepassen op metrische gegevens, zoals cijfers achter de komma, de tijd, het percentage of de valuta, decimalen, groene of rode cijfers en de groene of rode cijfers die u opgeeft en valutaopties.
 
-* U kunt een metrische of afmeting tot stand brengen die op slechts enkele waarden op het schemagebied wordt gebaseerd. Als u bijvoorbeeld een metrische waarde voor fouten wilt, kunt u een metrische waarde maken in het veld Paginanaam, maar alleen pagina&#39;s opnemen die het woord `error` bevatten. De op deze manier gemaakte fouten ondersteunen filters, kunnen in berekende metriek worden ingevoegd en werken met kenmerk, stroom, fallout, enzovoort.
+* U kunt een metrische of afmeting tot stand brengen die op slechts enkele waarden op het schemagebied wordt gebaseerd. Als u bijvoorbeeld een metrische waarde voor fouten wilt, kunt u een metrische waarde maken in het veld Paginanaam, maar alleen pagina&#39;s opnemen die het woord `error` bevatten. Metrisch gecreeerd van Fouten steunt segmenten, kan in berekende metriek worden opgenomen, en werkt met attributie, stroom, reserve, enz.
 
 * Voor afmetingen kunt u automatisch alleen bepaalde waarden in een bepaald veld opnemen of uitsluiten. Als een ontwikkelaar bijvoorbeeld een onjuiste waarde van `dev mistake` naar een veld verzendt, kunt u deze eenvoudig uitsluiten van rapportage met een regel voor uitsluiten. De dimensie gedraagt zich alsof de verkeerde waarde nooit in de gegevens bestond.
 
@@ -63,7 +63,7 @@ De meningen van gegevens laten u spontaan de montages van het schemaelement vera
 
 ## Voorwaarden voor gegevensweergaven {#prerequisites}
 
-* Alvorens u gegevensmeningen kunt tot stand brengen, moet u opstelling één of meerdere verbindingen aan Experience Platform datasets ](/help/connections/create-connection.md).[
+* Alvorens u gegevensmeningen kunt tot stand brengen, moet u opstelling één of meerdere verbindingen aan de datasets van Experience Platform ](/help/connections/create-connection.md).[
 * Om een gegevensmening tot stand te brengen of te beheren, hebt u a [ reeks toestemmingen in Adobe Admin Console ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) nodig.
 * Als u de [ bronschakelaar van Adobe Analytics ](/help/data-ingestion/analytics.md) gebruikt of Adobe Analytics achtergrondkennis hebt, zou u kunnen willen begrijpen hoe de gebieden in uw schema&#39;s en datasets op de tegenhangers van Adobe Analytics betrekking hebben. Zie [ het gebiedsafbeeldingen van Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) voor meer informatie.
 
@@ -80,7 +80,7 @@ Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysi
 * [!UICONTROL Component type]
 * Metrische opmaak
 * Naam gegevensweergave
-* Toewijzing Dimension
+* Dimension-toewijzing
 
 ## Gegevensweergaven verwijderen {#delete}
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Met de instellingen van de component [!UICONTROL Substring] kunt u meerdere teke
 
 ![ montages Substring ](../assets/substring-settings.png)
 
-[!UICONTROL Substring] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die gebeurt alvorens het filtreren of andere analyseverrichtingen worden toegepast.
+[!UICONTROL Substring] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die plaatsvindt voordat segmentering of andere analysebewerkingen worden toegepast.
 
 ## Van links/rechts
 
@@ -81,7 +81,7 @@ Pas reguliere expressies toe op een dimensie om de gewenste waarde op te halen.
 * **[!UICONTROL Output format]**: Een optioneel veld waarmee u tekst kunt toevoegen of de volgorde van de uitvoer van de regex-subgroep kunt wijzigen. Als dit veld leeg is, is de tekenreeksuitvoer de geëvalueerde regex-expressie.
 * **[!UICONTROL Case sensitive]**: Een selectievakje waarmee wordt afgedwongen dat de reguliere expressie hoofdlettergevoelig is als deze is ingeschakeld.
 
-Customer Journey Analytics gebruikt een subset van de Perl regex syntaxis. Als de input niet de regelmatige uitdrukking aanpast en **[!UICONTROL Output format]** leeg is, [ Geen waardeopties ](no-value-options.md) van toepassing zijn. De volgende expressies worden ondersteund:
+Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. Als de input niet de regelmatige uitdrukking aanpast en **[!UICONTROL Output format]** leeg is, [ Geen waardeopties ](no-value-options.md) van toepassing zijn. De volgende expressies worden ondersteund:
 
 | Uitdrukking | Beschrijving |
 | --- | --- |
