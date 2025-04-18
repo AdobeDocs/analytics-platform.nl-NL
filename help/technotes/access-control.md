@@ -1,12 +1,12 @@
 ---
-title: Toegangsbeheer Customer Journey Analytics
-description: Leer over manieren om toegangsbeheer in Customer Journey Analytics uit te voeren.
+title: Customer Journey Analytics Access Control
+description: Leer hoe u toegangsbeheer in Customer Journey Analytics kunt implementeren.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Toegangsbeheer
 
-Drie niveaus van toegang of drie rollen regeren Customer Journey Analytics: de rol van de systeembeheerder van het product, de rol van de de profielbeheerder van het Product, en gebruiker-vlakke toegang. In dit onderwerp worden deze rollen gedetailleerder beschreven.
+Customer Journey Analytics heeft drie toegangsniveaus of drie rollen: de rol van de productbeheerder, de beheerderrol van het productprofiel en de toegang op gebruikersniveau. In dit onderwerp worden deze rollen gedetailleerder beschreven.
 
 Bovendien bespreekt dit artikel meer korrelige manieren om toegang, zoals de kromming van Workspace en rij-niveau evenals waarde-vlakke toegangsbeheer te beperken.
 
@@ -25,11 +25,11 @@ De volgende op rol-gebaseerde toegangsbeheerniveaus zijn beschikbaar.
 
 ### De rol van productbeheerder
 
-De gebruikers die de de beheerderrol worden toegewezen van het Product worden gegeven de noodzakelijke toestemmingen om de meeste taken binnen Customer Journey Analytics door gebrek uit te voeren. Voor sommige taken zijn echter aanvullende machtigingen vereist.
+Gebruikers aan wie de rol van productbeheerder is toegewezen, krijgen de benodigde machtigingen om de meeste taken standaard in Customer Journey Analytics uit te voeren. Voor sommige taken zijn echter aanvullende machtigingen vereist.
 
 Een gebruiker toevoegen als productbeheerder:
 
-1. Ga naar de [ Admin Console ](https://adminconsole.adobe.com/enterprise/).
+1. Ga naar [ Admin Console ](https://adminconsole.adobe.com/enterprise/).
 
 1. Selecteer [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Admins**] lusje > [!UICONTROL **Admin**] toevoegen.
 
@@ -37,23 +37,23 @@ Een gebruiker toevoegen als productbeheerder:
 
 #### Standaardmachtigingen van productbeheerder
 
-Productbeheerders hebben machtigingen om de meeste taken binnen de Customer Journey Analytics uit te voeren.
+Productbeheerders hebben machtigingen om de meeste taken binnen Customer Journey Analytics uit te voeren.
 
 Productbeheerders krijgen standaard de benodigde machtigingen om de volgende taken uit te voeren:
 
 * Gegevensweergaven maken, bijwerken en verwijderen
-* Werk en schrap projecten, filters, berekende metriek, publiek, annotaties, of filters bij die door andere gebruikers worden gecreeerd
+* Werk en schrap projecten, segmenten, berekende metriek, publiek, annotaties, of segmenten bij die door andere gebruikers worden gecreeerd
 * Workspace-projecten delen met alle gebruikers
 * Beheer rapporteringsactiviteit in de [ Rapporterende Manager van de Activiteit ](/help/reporting-activity-manager/reporting-activity-overview.md)
 * [ de Uitvoer volledige lijsten ](/help/analysis-workspace/export/export-cloud.md) van Analysis Workspace
 
 #### Aanvullende machtigingen voor productbeheerder
 
-Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Product van de Customer Journey Analytics** in de [ Admin Console ](https://adminconsole.adobe.com/enterprise/), worden de extra toestemmingen vereist om de volgende taken binnen Customer Journey Analytics te voltooien:
+Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Product van Customer Journey Analytics** in [ Admin Console ](https://adminconsole.adobe.com/enterprise/), worden de extra toestemmingen vereist om de volgende taken binnen Customer Journey Analytics te voltooien:
 
 * Creeer, werk, en schrap gegevens [ Verbindingen ](/help/connections/overview.md) bij
 
-  Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Profiel van het Product van het Experience Platform** dat de volgende toestemmingen verstrekt:
+  Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Profiel van het Product van Experience Platform** dat de volgende toestemmingen verstrekt:
 
   | Categorie | Machtiging | Beschrijving |
   |---|---|---|
@@ -64,7 +64,7 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
   | [!UICONTROL Data Ingestion] | [!UICONTROL Manage Sources] | Toegang tot bronnen lezen, maken, bewerken en uitschakelen. |
   | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Alleen-lezen toegang voor naamruimten. |
 
-  Voor meer informatie over de toestemmingen van het Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
 
 * Als Adobe Journey Optimizer is geïntegreerd met CJA waar AJO Connections bestaat, moeten ook de rechten voor reizen worden toegevoegd om toegang te krijgen tot Verbindingen:
@@ -78,29 +78,29 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
 
 * De datasets van de uitvoer aan [ bestemmingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Profiel van het Product van het Experience Platform** dat de volgende toestemmingen verstrekt:
+  Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Profiel van het Product van Experience Platform** dat de volgende toestemmingen verstrekt:
 
   | Categorie | Machtiging | Beschrijving |
   |---|---|---|
   | [!UICONTROL Destinations] | [!UICONTROL Manage Destinations] | Toegang tot het lezen, creëren, en schrappen van bestemmingsverbindingen en bestemmingsrekeningen. |
   | [!UICONTROL Destinations] | [!UICONTROL Activate Destinations] | Sta gebruikers toe om segmenten aan bestaande bestemmingen te activeren. Hiermee schakelt u de toewijzingsstap in de activeringsworkflow in. Deze toestemming vereist ook de toestemming van de Doelen van de Mening die aan de gebruiker moet worden verleend die gegevens aan bestemmingen wil activeren. |
 
-  Voor meer informatie over de toestemmingen van het Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
 * Gebruik de [ uitbreiding van BI ](../data-views/bi-extension.md)
 
   Voor gebruikers om de uitbreiding van BI te gebruiken, een beheerder van het Product
 
-   * moet ervoor zorgen dat de Experience Platform toestemmingen voor de gebruiker een rol omvatten die het middel van de Dienst van de Vraag met de Manage Opties heeft van de Vragen en van de Dienst van de Vraag beheren de opties van de Integratie van de Vraag. Voor meer informatie over de toestemmingen van het Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+   * moet ervoor zorgen dat de Experience Platform-machtigingen voor de gebruiker een rol bevatten die over de bron Query Service beschikt met de opties Query&#39;s beheren en Query Service Integration beheren. Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
      | Categorie | Machtiging | Beschrijving |
      |---|---|---| 
      | [!UICONTROL Query Service] | [!UICONTROL Manage Queries] | Toegang tot het lezen, creëren, uitgeven, en schrappen van gestructureerde SQL vragen voor de gegevens van het Platform. |
      | [!UICONTROL Query Service] | [!UICONTROL Manage Query Service Integration] | Toegang tot het creëren, bijwerken, en schrappen van niet-vervallende geloofsbrieven voor de toegang van de Dienst van de Vraag. |
 
-   * moet de juiste machtigingen voor de Customer Journey Analytics voor de gebruiker garanderen:
+   * moet de juiste Customer Journey Analytics-machtigingen voor de gebruiker garanderen:
       * toestemming voor toegang tot de relevante gegevensweergaven. Zie [!UICONTROL Data Views] in [ gebruiker-vlakke toegang ](#user-level-access).
-      * toestemming om tot de uitbreiding van Customer Journey Analytics BI toegang te hebben. Zie [!UICONTROL Data View Tools] in [ gebruiker-vlakke toegang ](#user-level-access).
+      * toestemming voor toegang tot de extensie Customer Journey Analytics BI. Zie [!UICONTROL Data View Tools] in [ gebruiker-vlakke toegang ](#user-level-access).
 
 ### Beheerdersrol voor productprofiel
 
@@ -108,13 +108,13 @@ Een productprofiel is een set machtigingen. Productbeheerders maken productprofi
 
 * De toegewezen productprofielen beheren. U kunt bijvoorbeeld gebruikers of gebruikersgroepen toevoegen of verwijderen en de machtigingen voor de productprofielen wijzigen.
 
-* In Customer Journey Analytics, geef gegevensmeningen uit die deel van een toegewezen productprofiel uitmaken. Beheerders van productprofielen kunnen geen nieuwe gegevensweergaven maken.
+* In Customer Journey Analytics kunt u gegevensweergaven bewerken die deel uitmaken van een toegewezen productprofiel. Beheerders van productprofielen kunnen geen nieuwe gegevensweergaven maken.
 
 ### Toegang op gebruikersniveau
 
-In de onderstaande tabel worden de belangrijkste toegangsmachtigingen voor verschillende mogelijkheden van de Customer Journey Analytics beschreven die u voor de desbetreffende gebruikers kunt configureren. U kunt verschillende niveaus van gebruikerstoegang door productprofielen beheren. Een productprofiel combineert een aantal machtigingen die u vervolgens kunt toewijzen aan individuele gebruikers of gebruikersgroepen.
+In de onderstaande tabel staan de belangrijkste toegangsmachtigingen voor verschillende Customer Journey Analytics-mogelijkheden die u voor relevante gebruikers kunt configureren. U kunt verschillende niveaus van gebruikerstoegang door productprofielen beheren. Een productprofiel combineert een aantal machtigingen die u vervolgens kunt toewijzen aan individuele gebruikers of gebruikersgroepen.
 
-Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in de [ Admin Console ](https://adminconsole.adobe.com/enterprise/).
+Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in [ Admin Console ](https://adminconsole.adobe.com/enterprise/).
 
 ![ admin consoletoestemmingen ](assets/permissions.png)
 
@@ -124,7 +124,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 | [!UICONTROL Reporting Tools] | [!UICONTROL Analysis Workspace Access] | Laat gebruikers tot [ Analysis Workspace ](/help/analysis-workspace/home.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Guided Analysis Access] | Laat gebruikers tot [ Geleide Analyse ](/help/guided-analysis/overview.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Calculated Metrics Creation] | Laat gebruikers [ berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md) creëren. Gebruikers kunnen alleen de berekende metriek die zij maken of de met hen gedeelde berekeningsmethoden coderen, delen, verwijderen, hernoemen, goedkeuren of goedkeuren. |
-| [!UICONTROL Reporting Tools] | [!UICONTROL Filter Creation] | Laat gebruikers [ filters ](/help/components/filters/filters-overview.md) tot stand brengen. Gebruikers kunnen alleen de filters die zij maken of de filters die met hen worden gedeeld, labelen, delen, verwijderen, hernoemen, goedkeuren of goedkeuren. |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Filter Creation] | Laat gebruikers [ segmenten ](/help/components/filters/filters-overview.md) tot stand brengen. Gebruikers kunnen alleen de segmenten die zij maken of de segmenten die met hen worden gedeeld, labelen, delen, verwijderen, hernoemen, goedkeuren of niet goedkeuren. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Labs Access] | Laat gebruikers tot het [ lusje van Laboratoria ](/help/labs/labs.md) in Customer Journey Analytics toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Annotation Creation] | Laat gebruikers [ annotaties ](/help/components/annotations/overview.md) tot stand brengen. Gebruikers kunnen alleen de annotaties die ze maken of annotaties die met hen worden gedeeld, labelen, delen, verwijderen en hernoemen. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) bekijken. |
@@ -141,7 +141,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 
 ## Workspace project curation
 
-Een ander niveau van toegangscontrole kan op het Workspace rapporteringsniveau worden gebruikt. U kunt de toegang tot specifieke componenten voor bepaalde gebruikers beperken. Voor meer informatie over hoe te om componenten (afmetingen, metriek, filters, datumwaaiers) op het het projectniveau van Workspace te beperken, en hoe de besnoeiing aan gegevensmeningen gebonden is, zie [ projecten van de Kromme ](/help/analysis-workspace/curate-share/curate.md).
+Een ander niveau van toegangscontrole kan op het Workspace rapporteringsniveau worden gebruikt. U kunt de toegang tot specifieke componenten voor bepaalde gebruikers beperken. Voor meer informatie over hoe te om componenten (afmetingen, metriek, segmenten, datumwaaiers) op het het projectniveau van Workspace te beperken, en hoe de besnoeiing aan gegevensmeningen gebonden is, zie [ projecten van de Kromme ](/help/analysis-workspace/curate-share/curate.md).
 
 ## Toegang verlenen tot individuele metriek of dimensies
 
@@ -161,7 +161,7 @@ U wilt gebruikers slechts vanaf één dag toegang geven tot gegevens. Hieronder 
 
 1. Maak een filter in [!UICONTROL Settings] van een specifieke gegevensweergave, waarbij [!UICONTROL Day] gelijk is aan de datum waarop de gegevens toegankelijk moeten zijn. Zie [ gegevensmening ](/help/data-views/create-dataview.md#settings-filters) voor meer informatie creëren.
 1. Sparen de gegevensmening, die het filter op het gegevensdeel van de datasets in de onderliggende verbinding toepast. Rijen die niet in de filterdefinitie passen, worden automatisch uitgesloten van de gegevensweergave en zijn niet beschikbaar voor Analysis Workspace wanneer deze gegevensweergave wordt gebruikt.
-1. Creeer een nieuw [ profiel van het Product ](#product-profile-admin-role) in de Admin Console, voeg gebruikers aan het productprofiel toe, en omvat slechts deze specifieke gegevensmening aan het productprofiel.
+1. Creeer een nieuw [ profiel van het Product ](#product-profile-admin-role) in Admin Console, voeg gebruikers aan het productprofiel toe, en omvat slechts deze specifieke gegevensmening aan het productprofiel.
 
 ### Toegangsbeheer op waardeniveau
 

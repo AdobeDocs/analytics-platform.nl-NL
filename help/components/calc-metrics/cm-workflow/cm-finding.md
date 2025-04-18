@@ -1,9 +1,9 @@
 ---
-description: Beschrijft de twee belangrijkste manieren om uw metriek het sorteren en het filtreren te vinden.
+description: Beschrijft het sorteren en het filtreren, de twee belangrijkste manieren om uw metriek te vinden.
 title: Metrische gegevens zoeken
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: d2fb161151bb909152470041449ab3010e72e5e3
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

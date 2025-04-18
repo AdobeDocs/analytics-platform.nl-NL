@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Customer Journey Analytics gebruikt een krachtige bedrijfseigen architectuur die
 
 De rapporteringsmotor is fundamenteel voor Customer Journey Analytics om u toe te staan om geleidelijk met alle gegevens van de klantenreis binnen die rapporteringsmotor in wisselwerking te staan en te handelen. Customer Journey Analytics wordt geleverd met een uitgebreide set componenten die u in staat stellen dit visueel en via slepen en neerzetten te doen. Met BI-visualisatieprogramma&#39;s kunt u zoeken binnen de grenzen van SQL-voorbereide gegevens (zoals gedefinieerd door IT). Met Customer Journey Analytics kunt u naar wens afsplitsen en segment-en-dice maken zonder dat u naar IT hoeft terug te keren om nog een SQL-weergave te bouwen.
 
-&quot;Progressief&quot;is een zeer belangrijk concept hier: in tegenstelling tot de meeste visualisaties in de hulpmiddelen van BI, staat visuele belemmering-en-dalingsUI in Customer Journey Analytics u toe om uw gegevens voor uw specifieke behoeften onophoudelijk te breken: u kunt visuele vragen op interactieve wijze bouwen gebruikend relevante metriek, dimensies, filters (segmenten), berekeningen, tijdlijnen, annotaties, en andere analysewaarden.
+&quot;Progressief&quot;is een zeer belangrijk concept hier: in tegenstelling tot de meeste visualisaties in de hulpmiddelen van BI, staat visuele belemmering-en-dalingsUI in Customer Journey Analytics u toe om uw gegevens voor uw specifieke behoeften onophoudelijk te breken: u kunt visuele vragen op interactieve wijze bouwen gebruikend relevante metriek, dimensies, segmenten, berekeningen, tijdlijnen, annotaties, en andere analysewaarden.
 
 De volgende onderdelen van visualisatie zijn ingebouwd:
 

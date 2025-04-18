@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 *Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld &quot;bezoeken&quot; versus &quot;sessies&quot;).*
 
 
-## Deelvenster Filters {#filterspanel}
+## Deelvenster Segmenten {#filterspanel}
 
 1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
 1. Selecteer filters uit een van de beschikbare filtersecties.

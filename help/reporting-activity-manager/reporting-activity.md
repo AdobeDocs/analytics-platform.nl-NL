@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 0%
@@ -51,11 +51,11 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    ![ het Melden van Activiteit die de rapportrij ](assets/reporting-activity-monthly.png) toont
 
-1. (Optioneel) U kunt de lijst met verbindingen opzoeken of filteren:
+1. (Optioneel) U kunt de lijst met verbindingen opzoeken of segmenteren:
 
    * Gebruik het zoekveld om te zoeken naar een specifieke verbinding. Typ de naam of de id van de verbinding en de lijst met updates van verbindingen terwijl u typt.
 
-   * Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de lijst van filteropties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
+   * Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de lijst van segmentopties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
 
      Als u een verbinding als favoriet wilt markeren, selecteert u het sterpictogram links van de naam van de verbinding.
 
@@ -78,7 +78,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
 ## Voor één verbinding
 
-1. In Customer Journey Analytics, uitgezochte [!UICONTROL **Hulpmiddelen**] > [!UICONTROL **die de Manager van de Activiteit**] melden.
+1. In Customer Journey Analytics, uitgezochte [!UICONTROL **Hulpmiddelen**] > [!UICONTROL **Meldend de Manager van de Activiteit**].
 
 1. Selecteer de gekoppelde titel van de verbinding waarvoor u details wilt weergeven.
 

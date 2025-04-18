@@ -3,23 +3,23 @@ title: Overdrachtsmiddelen
 description: Leer hoe u componenten van de ene gebruiker naar de andere kunt overbrengen
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
+exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
-
 # Overdrachtsmiddelen
 
-Met het gereedschap Asset Transfer kunt u de eigendom van elementen overdragen aan andere gebruikers. Assets kan componenten omvatten zoals projecten, filters, datumwaaiers, berekende metriek, annotaties, alarm en geplande projecten.
+Met het gereedschap Asset Transfer kunt u de eigendom van elementen overdragen aan andere gebruikers. Assets kan componenten omvatten zoals projecten, segmenten, datumwaaiers, berekende metriek, annotaties, alarm en geplande projecten.
 
-Assets is vaak gebonden aan een individuele eigenaar en kan in sommige gevallen, zoals filters en berekende meetgegevens, niet worden bewerkt of gedeeld, zelfs niet door beheerders. Wanneer gebruikers de organisatie verlaten of hun rolveranderingen, kan het noodzakelijk worden om eigendom van deze activa aan andere gebruikers over te brengen om continuïteit en aangewezen toegang te verzekeren.
+Assets is vaak gebonden aan een individuele eigenaar en kan in sommige gevallen, zoals segmenten en berekende maatstaven, niet worden bewerkt of gedeeld, zelfs niet door beheerders. Wanneer gebruikers de organisatie verlaten of hun rolveranderingen, kan het noodzakelijk worden om eigendom van deze activa aan andere gebruikers over te brengen om continuïteit en aangewezen toegang te verzekeren.
 
 ## Machtigingen
 
-Voor de overdracht van bedrijfsmiddelen is de toestemming van de productbeheerder vereist voor de Customer Journey Analytics.
+Voor Asset Transfer is de toestemming van de productbeheerder voor Customer Journey Analytics vereist.
 
 ## Overdrachtsmiddelen
 
@@ -51,7 +51,7 @@ Voor de overdracht van bedrijfsmiddelen is de toestemming van de productbeheerde
 
    >[!NOTE]
    >
-   >    Wanneer het overbrengen van activa die andere componenten van verwijzingen voorzien (bijvoorbeeld, projecten die andere filters en berekende metriek van verwijzingen voorzien), zullen de componenten niet die door de huidige eigenaar van het project worden bezeten slechts met de ontvanger worden gedeeld. De eigendom van alle andere componenten wordt overgedragen aan de ontvanger.
+   >    Wanneer het overbrengen van activa die andere componenten van verwijzingen voorzien (bijvoorbeeld, projecten die andere segmenten en berekende metriek van verwijzingen voorzien), zullen de componenten niet die door de huidige eigenaar van het project worden bezeten slechts met de ontvanger worden gedeeld. De eigendom van alle andere componenten wordt overgedragen aan de ontvanger.
 
 1. Om _alle_ activa in een omslag te selecteren, controleer het vakje naast **[!UICONTROL Name]** bij de bovenkant van de lijst.
 
@@ -79,13 +79,13 @@ Er zijn drie mogelijke resultaten voor een overdracht:
 
 Een van de belangrijkste gevallen van overdracht van activa is tijdens de upgrade van Adobe Analytics naar Customer Journey Analytics.
 
-De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in de Customer Journey Analytics en de ontvangende beheerder heeft al die componenten, ongeacht wie ze heeft gemaakt.
+De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in Customer Journey Analytics en de beheerder van de ontvanger heeft al die componenten, ongeacht wie ze heeft gemaakt.
 
 Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aan hun rechtmatige eigenaars opnieuw toewijzen, of zij of niet worden beheerd.
 
 >[!IMPORTANT]
 >
->Terwijl u componenten kunt overbrengen gebruikend dit hulpmiddel, moet u als admin nog ervoor zorgen dat de ontvanger toegang tot de gegevensmeningen heeft die worden vereist om deze componenten te bekijken/te gebruiken. U kunt toestemmingen in de [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) bekijken en toewijzen.
+>Terwijl u componenten kunt overbrengen gebruikend dit hulpmiddel, moet u als admin nog ervoor zorgen dat de ontvanger toegang tot de gegevensmeningen heeft die worden vereist om deze componenten te bekijken/te gebruiken. U kunt toestemmingen in [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) bekijken en toewijzen.
 
 ## Exporteren naar CSV
 

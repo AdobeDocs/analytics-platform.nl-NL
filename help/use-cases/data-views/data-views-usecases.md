@@ -1,13 +1,13 @@
 ---
-title: Gebruik gevallen voor gegevensweergaven in Customer Journey Analytics
+title: Gebruik hoofdletters en kleine letters voor gegevensweergaven in Customer Journey Analytics
 description: Meerdere gebruiksgevallen die de flexibiliteit en kracht van gegevensweergaven in Customer Journey Analytics tonen
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders
 1. Open de sectie **[!UICONTROL Include/Exclude Values]** en geef de volgende instellingen op:
    1. Schakel **[!UICONTROL Set include exclude values]** in.
    1. Selecteer **[!UICONTROL If all criteria are met]** in **[!UICONTROL Match]** .
-   1. Geef `confirmation` op. Deze tekst voor page_title wijst erop dat deze pagina met het plaatsen van een orde verwant is. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Het werkt met Attribution IQ, filters, en overal anders kunt u standaardmetriek gebruiken.
+   1. Geef `confirmation` op. Deze tekst voor page_title wijst erop dat deze pagina met het plaatsen van een orde verwant is. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Het werkt met Attribution IQ, segmenten, en overal anders kunt u standaardmetriek gebruiken.
 
-   ![ Dimension aan metrisch ](../assets/string-to-metric.gif) {width=100%}
+   ![ Dimension aan metrisch ](../assets/string-to-metric.gif){width=100%}
 1. U kunt een attributiemodel voor deze metrische waarde, zoals [!UICONTROL Last Touch] , verder opgeven met een [!UICONTROL Lookback window] van [!UICONTROL Session] .
 U kunt ook een andere [!UICONTROL Orders] -metrische waarde maken vanuit hetzelfde veld en een ander attributiemodel opgeven. Bijvoorbeeld [!UICONTROL First Touch] en een andere [!UICONTROL Lookback window] , zoals [!UICONTROL 30 days] .
 
@@ -49,13 +49,13 @@ Een ander voorbeeld zou identiteitskaart van de Persoon, een dimensie, als metri
 
 ## Gehele getallen gebruiken als afmetingen {#integers}
 
-Eerder, zouden gehelen automatisch als metriek in Customer Journey Analytics worden behandeld. Cijfers (inclusief aangepaste gebeurtenissen uit Adobe Analytics) kunnen nu als afmetingen worden beschouwd. Hier volgt een voorbeeld:
+Eerder zouden gehele getallen automatisch worden behandeld als metriek in Customer Journey Analytics. Cijfers (inclusief aangepaste gebeurtenissen uit Adobe Analytics) kunnen nu als afmetingen worden beschouwd. Hier volgt een voorbeeld:
 
 
 
 1. Sleep het gehele getal **[!UICONTROL Duration]** naar de sectie **[!UICONTROL Dimensions]** onder [!UICONTROL Included Components] :
 1. U kunt nu **[!UICONTROL Value Bucketing]** toevoegen om deze dimensie op een gekorte manier in de rapportage te presenteren. Zonder boekingen, zou elk geval van deze dimensie als lijnpunt in Workspace rapportering verschijnen.
-   ![ Geheel Geheel aan afmeting ](../assets/integer-to-dimension.gif) {width=100%}
+   ![ Geheel aan afmeting ](../assets/integer-to-dimension.gif){width=100%}
 
 
 ## Numerieke afmetingen gebruiken als meetwaarden in stroomdiagrammen {#numeric}
@@ -88,7 +88,7 @@ Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijke
 
 Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;voor dimensies in rapporten te verwachten. De standaardwaarde voor afmetingen in gegevensweergaven is &quot;Geen waarde&quot;. U kunt echter per dimensie opgeven hoe geen waarde moet worden gerapporteerd. Zie de No value opties voor een afmetingscomponent.
 
-![ Geen waardeopties ](../assets/no-value-options.gif) {width=100%}
+![ Geen waardeopties ](../assets/no-value-options.gif){width=100%}
 
 
 ## Meerdere metriek met verschillende attributie-instellingen maken {#attribution}
@@ -97,7 +97,7 @@ Gebruik de functie **[!UICONTROL Duplicate]** rechtsboven om een aantal metrisch
 
 Vergeet niet elke metrische naam te wijzigen om de verschillen te weerspiegelen, zoals `Total Revenue (Algorithmic)`
 
-![ Dupliceer metrisch voor verschillende attributie montages ](../assets/duplicate-metric-for-attribution.gif) {width=100%}
+![ Dupliceer metrisch voor verschillende attributie montages ](../assets/duplicate-metric-for-attribution.gif){width=100%}
 
 Voor meer informatie over andere montages van gegevensmeningen, zie [ gegevensmeningen ](/help/data-views/create-dataview.md) creëren.
 Voor een conceptueel overzicht van gegevensmeningen, zie [ overzicht van de meningen van Gegevens ](/help/data-views/data-views.md).
@@ -132,7 +132,7 @@ Nieuwe sessies worden bijna altijd correct gerapporteerd. De enige uitzonderinge
 
 ## De functionaliteit Datum en tijd gebruiken {#date}
 
-Schema&#39;s in Adobe Experience Platform bevatten [!UICONTROL Date] - en [!UICONTROL Date-Time] -velden. De weergave Gegevens van Customers Journey Analytics ondersteunt deze velden nu. Wanneer u deze gebieden in een gegevensmening als afmeting sleept, kunt u hun [ formaat ](/help/data-views/component-settings/format.md) specificeren. Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
+Schema&#39;s in Adobe Experience Platform bevatten [!UICONTROL Date] - en [!UICONTROL Date-Time] -velden. In Customer Journey Analytics-gegevensweergaven worden deze velden nu ondersteund. Wanneer u deze gebieden in een gegevensmening als afmeting sleept, kunt u hun [ formaat ](/help/data-views/component-settings/format.md) specificeren. Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
 
 * Als u voor de datumnotatie **[!UICONTROL Day]** met de notatie **[!UICONTROL Month, Day, Year]** selecteert, ziet een voorbeelduitvoer in de rapportage er als volgt uit: 23 augustus 2022.
 

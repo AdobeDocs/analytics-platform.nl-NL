@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,6 @@ Elke sessie-id is nu een klikbare koppeling. Zie [ hyperlinks in een vrije vorml
 
 ## Stap 5: sessies van Customer Journey Analytics weergeven
 
-Zodra u een Instesting segment hebt gevonden dat u zittingsreplay wilt onderzoeken, kunt u het op het paneel toepassen dat uw verbindingen van identiteitskaart van de zitting en filter door segment omvat. De lijst keert alle zittingen in dat segment terug, en u kunt om het even welk van hen klikken om verder in Metrisch Quantum te onderzoeken.
+Zodra u een Instesting segment hebt gevonden dat u zittingsreplay wilt onderzoeken, kunt u het op het paneel toepassen dat uw verbindingen en segment van zittingidentiteitskaart omvat. De lijst keert alle zittingen in dat segment terug, en u kunt om het even welk van hen klikken om verder in Metrisch Quantum te onderzoeken.
 
 Zie [ de ondernemingsgids om ](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay) op Metrisch Quantum voor meer informatie opnieuw te spelen. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch ](https://community.quantummetric.com/s/public-support-page).

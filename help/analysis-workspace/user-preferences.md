@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3753'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Algemene voorkeuren gelden voor uw Customer Journey Analytics-ervaring in de bro
 | --- | --- |
 | **[!UICONTROL Landing page]** | Kies welke pagina als de standaardpagina wordt weergegeven wanneer u Customer Journey Analytics opent: <ul><li>Projectlijst (standaard)</li><li>Leeg project</li><li>Lege analyse met instructies voor trends</li><li>Specifiek project, geselecteerd uit een lijst</li></ul> |
 | **[!UICONTROL Tips]** | Hiermee geeft u tips weer in een blauw vak rechtsonder in Analysis Workspace. <p>Deze optie is standaard ingeschakeld.</p> |
-| **[!UICONTROL Components displayed in left panel groups]** | Kies in het menu Componenten in het linkerdeelvenster hoeveel van elke componentgroep u wilt weergeven. <p>Als u 0 kiest voor een componentgroep, is de componentgroep niet langer toegankelijk vanuit het linkerdeelvenster.</p><p>Standaard worden 5 componenten weergegeven voor elk van de volgende componentgroepen:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace, zie [ Overzicht van Componenten ](/help/components/overview.md).</p> |
+| **[!UICONTROL Components displayed in left panel groups]** | Kies in het menu Componenten in het linkerdeelvenster hoeveel van elke componentgroep u wilt weergeven. <p>Als u 0 kiest voor een componentgroep, is de componentgroep niet langer toegankelijk vanuit het linkerdeelvenster.</p><p>Standaard worden 5 componenten weergegeven voor elk van de volgende componentgroepen:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Segmenten</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace, zie [ Overzicht van Componenten ](/help/components/overview.md).</p> |
 
 ### Voorkeuren IMS-organisatie {#ims-organization-preferences}
 

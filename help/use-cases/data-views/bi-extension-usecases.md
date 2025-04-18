@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 0%
@@ -18,7 +18,7 @@ In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen kunt uitvoeren
 
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
-* **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com) {target="_blank"}
+* **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com){target="_blank"}
 * **Jupyter Notitieboekje**. De gebruikte versie is 7.3.2.
 * **RStudio**. De gebruikte versie is 2024.12.0, build 467.
 
@@ -34,9 +34,9 @@ De volgende gebruiksgevallen worden gedocumenteerd:
    * [Eén dimensie, gerangschikt](#single-dimension-ranked)
    * [Meerdere dimensies gerangschikt](#multiple-dimension-ranked)
    * [Waarden voor verschillende dimensies tellen](#count-distinct-dimension-values)
-   * [Namen van datumbereik gebruiken om te filteren](#use-date-range-names-to-filter)
-   * [Filternamen gebruiken om te filteren](#use-filter-names-to-filter)
-   * [Dimensiewaarden gebruiken om te filteren](#use-dimension-values-to-filter)
+   * [Gebruik namen van datumbereiken om te segmenteren](#use-date-range-names-to-segment)
+   * [Segmentnamen gebruiken](#use-segment-names-to-segment)
+   * [Dimensiewaarden gebruiken om te segmenteren](#use-dimension-values-to-segment)
    * [Sorteren](#sort)
    * [Limieten](#limits)
 
@@ -3116,7 +3116,7 @@ Elk van de ondersteunde BI-gereedschappen heeft een aantal bedenkingen bij het w
 >[!TAB  Leider ]
 
 * De laagker heeft een maximumaantal verbindingen per knoop die tussen 5-100 wordt vereist plaatsen.  U kunt deze waarde niet instellen op 1.  Deze instelling houdt in dat een lagere verbinding altijd minimaal 5 van de beschikbare Query Service-sessies gebruikt.
-* Met Liniaal kunt u een project maken met een weergave op basis van een Customer Journey Analytics-gegevensweergave. De plukker leidt dan tot een model dat op de afmetingen en metriek wordt gebaseerd, beschikbaar in de mening van Gegevens, gebruikend LookerML.  Deze projectweergave wordt niet automatisch bijgewerkt naar de bron.  Als u veranderingen of toevoegingen aan de de meningsafmetingen van CJA- Gegevens, metriek, berekende-metriek, of filters aanbrengt, dan verschijnen deze veranderingen niet automatisch in Lager.  U moet de projectweergave handmatig bijwerken of een nieuw project maken.
+* Met Liniaal kunt u een project maken met een weergave op basis van een Customer Journey Analytics-gegevensweergave. De plukker leidt dan tot een model dat op de afmetingen en metriek wordt gebaseerd, beschikbaar in de mening van Gegevens, gebruikend LookerML.  Deze projectweergave wordt niet automatisch bijgewerkt naar de bron.  Als u wijzigingen aanbrengt in of toevoegt aan de afmetingen, metriek, berekende metriek of filters van de CJA-gegevensweergave, worden deze wijzigingen niet automatisch weergegeven in Kiezer.  U moet de projectweergave handmatig bijwerken of een nieuw project maken.
 * De gebruikerservaring van de kiezer op datum- of datum-tijdvelden zoals **[!UICONTROL Daterange Date]** of **[!UICONTROL Daterangeday Date]** is verwarrend.
 * Het datumbereik van Lager is exclusief in plaats van inclusief.  **[!UICONTROL until (before)]** is grijs, zodat u dat aspect kunt missen.  Voor uw einddag, moet u één meer dan de dag selecteren u wilt melden.
 * In de viewer worden uw meetgegevens niet automatisch als meetgegevens beschouwd.  Wanneer u metrisch selecteert, door gebrek probeert de Teller metrisch als afmeting in de vraag te behandelen.  Om metriek als metrisch te behandelen, moet u een douanegebied tot stand brengen zoals hierboven geïllustreerd. Als sneltoets kunt u **[!UICONTROL ⋮]** selecteren, **[!UICONTROL Aggregate]** selecteren en vervolgens **[!UICONTROL Sum]** selecteren.

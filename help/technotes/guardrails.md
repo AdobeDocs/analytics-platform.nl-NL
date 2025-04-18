@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 5%
@@ -84,7 +84,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Auditiefilters | 20 | Door het systeem afgedwongen Guardrail | Maximum aantal [ filters ](../components/filters/filters-overview.md) per publiek. |
+| Poortsegmenten | 20 | Door het systeem afgedwongen Guardrail | Maximum aantal [ segmenten ](../components/filters/filters-overview.md) per publiek. |
 | Aantal identiteiten publiek | 20 miljoen | Door het systeem afgedwongen Guardrail | Maximumaantal identiteiten per publiek. |
 | Frequentie van publiek vernieuwen | 4 | Door het systeem afgedwongen Guardrail | Maximale frequentie in uren een [ publiek ](../components/audiences/audiences-overview.md) kan worden verfrist. |
 | Venster Opzoeken vernieuwen | 90 | Door het systeem afgedwongen Guardrail | Maximumaantal dagen voor vernieuwen terugzoekvenster. |
@@ -183,18 +183,18 @@ Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](http
 | Frequentie voor terugzoeken/opnieuw afspelen | 01-30-7 | Door het systeem afgedwongen Guardrail | Maximum terugkijkvenster in dagen/Replay frequentie. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
 
 
-## Filters en berekende metriek
+## Segmenten en berekende cijfers
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Containers per filter | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal containers per filter. |
+| Containers per filter | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal containers per segment. |
 | Metrisch per berekend metrisch | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per berekende metrisch. |
-| Metrisch en Afmetingen per filter | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per filter. |
-| Geneste containers per filter | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal geneste containers per filter. |
-| Regels per filter | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal regels per filter. |
-| Tekenreeks vergelijkt per Dimension per filter | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal tekenreeksvergelijkingen per afmeting per filter. |
+| Metrisch en Afmetingen per filter | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per segment. |
+| Geneste containers per filter | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal geneste containers per segment. |
+| Regels per segment | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal regels per segment. |
+| Tekenreeks vergelijkt per Dimension per segment | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal tekenreeksvergelijkingen per dimensie per segment. |
 | Berekende standaarden | 6.000 | Door het systeem afgedwongen Guardrail | Maximumaantal berekende metriek voor een organisatie. |
-| Filters | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal filters dat u voor een organisatie kunt definiëren. |
+| Segmenten | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal segmenten dat u voor een organisatie kunt definiëren. |
 | API-aanroepen | 120 | Door het systeem afgedwongen Guardrail | API-aanvragen per minuut (12 aanvragen om de 6 seconden). |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](http
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Tegels | 16 | Door het systeem afgedwongen Guardrail | Maximumaantal tegels per scorecard. |
-| Filters | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal filters per scorecard. |
+| Segmenten | 10 | Door het systeem afgedwongen Guardrail | Maximum aantal segmenten per scorecard. |
 | Dimensies | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal dimensies per scorecard. |
 
 {style="table-layout:auto"}

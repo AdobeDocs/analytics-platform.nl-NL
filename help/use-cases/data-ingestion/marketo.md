@@ -1,20 +1,20 @@
 ---
-title: Verslag over gegevens van Marketo's Engage
-description: Leer hoe te om over Marketo Engage gegevens in Customer Journey Analytics te rapporteren
+title: Rapport over Marketo Engage-gegevens
+description: Meer informatie over Marketo Engage-gegevens in Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
-# Verslag over gegevens van Marketo&#39;s Engage
+# Rapport over Marketo Engage-gegevens
 
-U kunt de nieuw beschikbare datasets van het Marketo Engage in Adobe Experience Platform (Adobe Experience Platform) gebruiken om waardevolle analyses en rapporteringsoplossingen aan B2B marketers te verstrekken. Geef vervolgens verslag over deze gegevenssets in Adobe Customer Journey Analytics.
+U kunt de nieuwe Marketo Engage-datasets in Adobe Experience Platform (Adobe Experience Platform) gebruiken om waardevolle analytische en rapporteringsoplossingen aan B2B-marketers te bieden. Geef vervolgens verslag over deze gegevenssets in Adobe Customer Journey Analytics.
 
 ## Stap 1: Wijs Marketo-brongegevensvelden toe aan hun XDM-doelen
 
@@ -22,11 +22,11 @@ Wijs de [ Personen ](https://experienceleague.adobe.com/docs/experience-platform
 
 ## Stap 2: Marketo-gegevens in Adobe Experience Platform opnemen
 
-Gebruik de [ schakelaar van het Marketo Engage ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
+Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 ## Stap 3: Opstelling een verbinding aan deze dataset in Customer Journey Analytics
 
-Om over de datasets van het Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie voor meer informatie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) uit.
+Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie voor meer informatie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) uit.
 
 ## Stap 4: Een of meer gegevensweergaven maken
 
@@ -37,13 +37,13 @@ A [ gegevensmening ](/help/data-views/data-views.md) is een container specifiek 
 Een gebruiksgeval dat u zou kunnen onderzoeken is: hoeveel webpagina-bezoeken door leads hebben we in april-juni 2020 gehad?
 
 1. Open [ Analytics Workspace ](/help/analysis-workspace/home.md) en creeer een nieuw project.
-Klanten met B2B/B2P CDP kunnen B2C-stijlanalyse in Customer Journey Analytics uitvoeren. B2B-objecten zijn nog niet beschikbaar.
+Klanten met B2B/B2P CDP kunnen in Customer Journey Analytics een B2C-analyse uitvoeren. B2B-objecten zijn nog niet beschikbaar.
 
-1. Creeer a [ filter ](/help/components/filters/create-filters.md) voor Web-pagina meningen als volgt - het Type van Gebeurtenis = web.webpagedetails.pageViews:
+1. Creeer a [ segment ](/help/components/filters/create-filters.md) voor Web-pagina meningen als volgt - het Type van gebeurtenis = web.webpagedetails.pageViews:
 
    ![ het venster van de Definitie die Gebeurtenis en Type van Gebeurtenis tonen ](../assets/marketo-filter.png)
 
-1. Trek in de tabel Vrije vorm het filter dat u hebt gemaakt - Weergaven webpagina&#39;s en trek vervolgens het datumbereik Maand in. Dit geeft u Webpagina bezoeken door lood elke maand:
+1. Trek in het segment u in de Freeform lijst - de Mening van de Web-pagina creeerde, dan trek in de de datumwaaier van de Maand. Dit geeft u Webpagina bezoeken door lood elke maand:
 
    ![ Vrije lijst die Gebeurtenissen door Maand toont.](../assets/marketo-freeform.png)
 
