@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 11e6d5a2aace4554b48c05c2316061de1e628108
+exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
+source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ Met opmerkingen in Analysis Workspace kunt u inzichten delen en vragen stellen i
 >* **Organisatie:** de beheerder van Customer Journey Analytics kan deze functionaliteit voor de organisatie onbruikbaar maken, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven.
 
 ## Opmerkingen weergeven
+
+U kunt opmerkingen bekijken in het gebied met opmerkingen in de rechtertrack of vanaf de commentaarbadge als deze bestaat.
+
+![ commentaren van de Mening in Analysis Workspace ](assets/workspace-comments-view.png)
 
 ### Opmerkingen weergeven in het gebied Opmerkingen
 
@@ -61,6 +66,12 @@ Als u opmerkingen wilt maken over een specifiek gebied van het project (bijvoorb
 
 1. Open het project in Analysis Workspace en klik met de rechtermuisknop op het gebied van het project waar u de opmerking wilt invoegen.
 
+   Alle visualisaties ondersteunen commentaarbadges op de vizualization-header, maar alleen de volgende visualisaties ondersteunen commentaarbadges op specifieke gegevenspunten binnen de visualisatie:
+
+   * Vrije-vormtabel
+   * Cohortingtabel
+   * Lijn
+
    <!--add screenshot-->
 
 1. Selecteer **[!UICONTROL Add comment]** .
@@ -97,6 +108,8 @@ Met de functie voor opmerkingen in Analysis Workspace kunt u gemakkelijker met a
 
 1. Typ het @-symbool en typ vervolgens de voornaam, achternaam of het e-mailadres van de persoon die u wilt opnemen.
 
+   ![ markeringsgebruiker ](assets/comments-tag-user.png)
+
 1. Selecteer de naam van de persoon wanneer deze wordt weergegeven in het keuzemenu.
 
 Houd rekening met het volgende wanneer u het @-symbool gebruikt om personen in een opmerking op te nemen:
@@ -122,6 +135,38 @@ Houd rekening met het volgende wanneer u het @-symbool gebruikt om personen in e
 1. (Optioneel) U kunt een andere persoon op de hoogte stellen van uw opmerking door het @-symbool te typen, gevolgd door de naam. Voor meer informatie over het gebruiken van het @ symbool om anderen op de hoogte te brengen, zie [ anderen in een commentaar ](#include-others-in-a-comment) omvatten.
 
 1. Selecteer **[!UICONTROL Submit]** .
+
+## Een badge voor een bestaande opmerking plaatsen
+
+Als er een opmerking beschikbaar is in het opmerkingengebied op de rechterspoorstaaf maar er nog geen badge in het project staat, kunt u de badge toevoegen.
+
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+
+1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar waarvoor u een badge wilt plaatsen, dan selecteren **[!UICONTROL Place badge]**.
+
+1. Selecteer het gebied van het project waar u de badge voor de bestaande opmerking wilt plaatsen.
+
+   A **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.png) wordt geplaatst in het gebied van het project van Workspace u selecteerde. De opmerking staat ook boven aan het commentaargebied in de rechterspoorlijn.
+
+   Zie [ de commentaarbadges van de Mening in een project ](#view-comment-badges-in-a-project) voor meer informatie.
+
+Een badge verwijderen:
+
+1. Selecteer het symbool dat u wilt verwijderen en selecteer vervolgens **[!UICONTROL Remove badge]** .
+
+   De badge wordt verwijderd, maar de opmerking is nog steeds beschikbaar in het opmerkinggebied in de rechterspoorlijn.
+
+## Een badge voor een bestaande opmerking verplaatsen
+
+U kunt een opmerkingenbadge verplaatsen die al voor een bestaande opmerking is geplaatst.
+
+1. Open het project in Analysis Workspace en zoek de badge voor de opmerking die u wilt verplaatsen.
+
+1. Klik met de rechtermuisknop op de badge en selecteer vervolgens **[!UICONTROL Move placement]** .
+
+1. Selecteer het gebied van het project waar u de badge wilt plaatsen.
+
+<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
 
 ## De koppeling naar een opmerking kopiëren
 
@@ -182,36 +227,3 @@ Een opmerking oplossen:
 Standaard worden opgeloste opmerkingen verborgen in het gebied met opmerkingen. Opgeloste opmerkingen weergeven:
 
 1. Selecteer het filterpictogram in het opmerkingengebied en schakel vervolgens de optie **[!UICONTROL Hide resolved comments]** uit.
-
-## Een badge voor een bestaande opmerking plaatsen
-
-Als er een opmerking beschikbaar is in het opmerkingengebied op de rechterspoorstaaf maar er nog geen badge in het project staat, kunt u de badge toevoegen.
-
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
-
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar waarvoor u een badge wilt plaatsen, dan selecteren **[!UICONTROL Place badge]**.
-
-1. Selecteer het gebied van het project waar u de badge voor de bestaande opmerking wilt plaatsen.
-
-   A **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.png) wordt geplaatst in het gebied van het project van Workspace u selecteerde. De opmerking staat ook boven aan het commentaargebied in de rechterspoorlijn.
-
-   Zie [ de commentaarbadges van de Mening in een project ](#view-comment-badges-in-a-project) voor meer informatie.
-
-Een badge verwijderen:
-
-1. Selecteer het symbool dat u wilt verwijderen en selecteer vervolgens **[!UICONTROL Remove badge]** .
-
-   De badge wordt verwijderd, maar de opmerking is nog steeds beschikbaar in het opmerkinggebied in de rechterspoorlijn.
-
-## Een badge voor een bestaande opmerking verplaatsen
-
-U kunt een opmerkingenbadge verplaatsen die al voor een bestaande opmerking is geplaatst.
-
-1. Open het project in Analysis Workspace en zoek de badge voor de opmerking die u wilt verplaatsen.
-
-1. Klik met de rechtermuisknop op de badge en selecteer vervolgens **[!UICONTROL Move placement]** .
-
-1. Selecteer het gebied van het project waar u de badge wilt plaatsen.
-
-<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
-
