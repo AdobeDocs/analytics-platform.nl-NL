@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 28a0abd3415a167e6dd3de3b77bd49b78fc003cd
+source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Voor Content Analytics worden de volgende sleuteltermen gebruikt:
 
 ## Hoe werkt het
 
-Content Analytics gebruikt webafbeeldingsweergavegegevens die zijn verzameld in gegevenssets voor gebeurtenissen in Experience Platform. Deze gegevens kunnen worden verzameld via de verschillende beschikbare methoden: Experience Platform Edge Network (Web SDK, Server API) of de bronaansluiting Analytics.
+Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld in gebeurtenisdatasets in Experience Platform om [ gegevens van de inhoudsgebeurtenis ](config/datacollection.md) te verzamelen. En combineert die inhoudsgegevensverzameling met de (bestaande) implementatie van gegevensverzameling van gedragsgegevens.
 
 ![ Analytics van de Inhoud - hoe het ](assets/aca-overview.gif) werkt
-
 
 1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform indrukkingen en interactie met inhoud.
 1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een herwinningsdienst die de openbaar-onder ogen ziet versies van gevormde URLs herziet die de interactie bepalen. Voor al deze opgehaalde URL&#39;s identificeert de identiteitsservice de ervaringen en elementen op unieke wijze. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
 1. De resultaten van deze diensten ([ componenten, attributen, en identiteiten ](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van inhoudsanalyses in Experience Platform bij te werken.
 1. De gegevens van de inhoudsanalyse, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([ Verbinding ](/help/connections/overview.md), [ mening van Gegevens ](/help/data-views/data-views.md) en [ Workspace ](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template).
+
 
 >[!NOTE]
 >
