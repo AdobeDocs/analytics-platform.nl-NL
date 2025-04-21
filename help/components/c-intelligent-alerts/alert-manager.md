@@ -3,9 +3,10 @@ description: Waarschuwingen maken, bewerken of verwijderen.
 title: Aletten beheren
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ U kunt waarschuwingen filteren, labelen, verwijderen, hernoemen, kopiëren, insc
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Alerts]** .
 
-De manager van het Alarm is zeer gestructureerd zoals de [ manager van de Filter ](/help/components/filters/manage-filters.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+De manager van het Alarm is gestructureerd als de [ manager van het Segment ](/help/components/filters/manage-filters.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 
 ## Waarschuwingenbeheer
@@ -34,7 +35,7 @@ In de lijst met waarschuwingen ➊ alle waarschuwingen worden weergegeven die u 
 |---|---|
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een alarm te begunstigen. |
 | **[!UICONTROL Title and description]** | Om het alarm uit te geven, selecteer de titelverbinding, die de [ bouwer van Alarm ](alert-builder.md#alert-builder) opent. |
-| **[!UICONTROL Type]** | Toont of het alarm een alarm van het de vraaggebruik van de Customer Journey Analytics of een alarm van het de vraaggebruik van de Server is. |
+| **[!UICONTROL Type]** | Toont of het alarm een het gegevensalarm van Customer Journey Analytics of een het vraaggebruik van de Server alarm is. |
 | **[!UICONTROL Enabled]** | Geeft aan of de waarschuwing is in- of uitgeschakeld. |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop deze waarschuwing van toepassing is. |
 | **[!UICONTROL Owner]** | De eigenaar van de waarschuwing. Als niet-beheerder, ziet u slechts alarm u bezit of die die met u worden gedeeld. |
@@ -116,6 +117,6 @@ U gebruikt de [ Waakzame bouwer ](alert-builder.md#alert-builder) om het alarm u
 
 ## Een waarschuwing oplossen
 
-Wanneer u een probleem met een waarschuwing oplost, geeft u het JID-nummer (Job Instance ID) op aan de ondersteuning van Adoben. Het JID-nummer bevindt zich onder aan het e-mailbericht dat u ontvangt.
+Geef Adobe Support het JID-nummer (Job Instance ID) op wanneer u een probleem met een waarschuwing oplost. Het JID-nummer bevindt zich onder aan het e-mailbericht dat u ontvangt.
 
 ![ Alert e-mail ](assets/alerts-email.PNG)

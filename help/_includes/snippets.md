@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 *Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld &quot;bezoeken&quot; versus &quot;sessies&quot;).*
 
 
-## Deelvenster Segmenten {#filterspanel}
+## Deelvenster Filter {#filterspanel}
 
 1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
 1. Selecteer filters uit een van de beschikbare filtersecties.
@@ -200,8 +200,8 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | **niet-lineaire reizen met veelvoudige ingangspunten en wegen** | Ja | Nee | Ja |
 | **Primaire metrisch** | Elke metrische waarde, inclusief berekende metriek. | Alleen sessie of persoon | Alleen voorkomen (padweergaven) |
 | **Secundaire metrische** | Ja<p>Elke metrische waarde, inclusief berekende metriek.</p> | Nee | Nee |
-| **de steun van de Component in knopen of touchpoints** | Metriek, afmetingsitems, filters en datumbereiken. | Metriek, afmetingsitems, filters en datumbereiken. | Alleen afmetingsitems (behalve het begin- en eindpunt) |
-| **vergelijk filters** | Nee | Ja<p>Voer zij aan zij vergelijkingen van twee verschillende filters in het zelfde rapport uit.</p> | Nee |
+| **de steun van de Component in knopen of touchpoints** | Metriek, dimensiepunten, segmenten, en datumwaaiers. | Metriek, dimensiepunten, segmenten, en datumwaaiers. | Alleen afmetingsitems (behalve het begin- en eindpunt) |
+| **vergelijk segmenten** | Nee | Ja<p>Voer zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit.</p> | Nee |
 | **belemmering-en-dalingscomponenteninteractie** | Ja | Ja | Nee |
 | **reizen van Adobe Journey Optimizer** | Ja </br> Open reizen van Journey Optimizer voor diepere analyse en aanpassing. | Nee | Nee |
 

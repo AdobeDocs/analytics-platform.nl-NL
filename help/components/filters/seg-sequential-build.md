@@ -3,7 +3,7 @@ description: De opeenvolgende segmenten zijn segmenten die de exploitant THEN ge
 title: Sequentiële segmenten
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Een opeenvolgend segment heeft sommige [ basisfunctionaliteit ](#basics) en extr
 
 
 
-De grondbeginselen van de bouw van een opeenvolgend segment zijn niet verschillend dan de bouw van een regelmatig segment gebruikend de [ bouwer van het Segment ](filter-builder.md). U kunt de [ bouwer van de Definitie ](filter-builder.md#definition-builder) gebruiken om uw segmentdefinitie te construeren. In die constructie, gebruikt u componenten, containers, exploitanten en logica. Een regelmatig segment wordt een opeenvolgend filter zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ Bouwer van de Definitie ](filter-builder.md#definition-builder) gebruikt.
+De grondbeginselen van de bouw van een opeenvolgend segment zijn niet verschillend dan de bouw van een regelmatig segment gebruikend de [ bouwer van het Segment ](filter-builder.md). U kunt de [ bouwer van de Definitie ](filter-builder.md#definition-builder) gebruiken om uw segmentdefinitie te construeren. In die constructie, gebruikt u componenten, containers, exploitanten en logica. Een regelmatig segment wordt een opeenvolgend segment zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ Bouwer van de Definitie ](filter-builder.md#definition-builder) gebruikt.
 
 ### Voorbeelden
 

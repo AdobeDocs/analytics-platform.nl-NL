@@ -3,7 +3,7 @@ description: Het segmenteren van individuele metriek staat u toe om metrische ve
 title: Gesegmenteerde metriek
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 2f87afb9c87b0436ee40cc67a04d99d4f4f10e74
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Zie de volgende secties om te illustreren hoe u deze vragen kunt beantwoorden me
 
    Je segment zou er zo kunnen uitzien.
 
-   ![ Filter Duitsland ](assets/filter-germany.png)
+   ![ Segment Duitsland ](assets/filter-germany.png)
 
 1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 
@@ -52,7 +52,7 @@ Herhaal bovenstaande stappen voor de internationale versie van de berekende metr
 
    Uw segment zou moeten kijken als.
 
-   ![ Filter Duitsland ](assets/filter-not-germany.png)
+   ![ Segment Duitsland ](assets/filter-not-germany.png)
 
 1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 

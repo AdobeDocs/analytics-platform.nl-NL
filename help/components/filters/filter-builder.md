@@ -4,7 +4,7 @@ title: Segmenten maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe seg
    | **[!UICONTROL Data view]** | U kunt de gegevensweergave voor het segment selecteren.  Het segment u bepaalt is beschikbaar als segment op het [ lusje van Montages ](/help/data-views/create-dataview.md#settings-filters) van een gegevensmening. |
    | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd en dat het segment niet aan uw componentenlijst zal worden toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snel segment ](quick-filters.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
    | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef het segment een naam, bijvoorbeeld `Last month mobile customers` . |
-   | **[!UICONTROL Description]** | Geef een beschrijving voor het segment op, bijvoorbeeld `Filter to define the mobile customers for the last month` . |
+   | **[!UICONTROL Description]** | Geef een beschrijving voor het segment op, bijvoorbeeld `Segment to define the mobile customers for the last month` . |
    | **[!UICONTROL Tags]** | Organiseer het segment door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
    | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw segment gebruikend de [ bouwer van de Definitie ](#definition-builder). |
 
@@ -82,7 +82,7 @@ U kunt deze instellingen altijd later wijzigen.
 
 ### Onderdelen
 
-Een essentieel onderdeel van de constructie van uw segmentdefinitie is het gebruik van dimensies, metriek, bestaande segmenten en datumbereiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Bouwer van de Filter.
+Een essentieel onderdeel van de constructie van uw segmentdefinitie is het gebruik van dimensies, metriek, bestaande segmenten en datumbereiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Bouwer van het Segment.
 
 ![ Begin bouwend een definitie ](assets/start-building-filter.gif){width=100%}
 
@@ -130,7 +130,7 @@ U kunt ![ Plaatsen ](/help/assets/icons/Setting.svg) in een container voor de vo
 
 U kunt segmenten samenstellen die roldatumbereiken bevatten. Op deze manier kunt u vragen beantwoorden over lopende campagnes of gebeurtenissen. Bijvoorbeeld, kunt u een segment bouwen dat *iedereen omvat die een online aankoop in de afgelopen 60 dagen* heeft gemaakt.
 
-![ Filter gebruikend het rollen datumwaaier ](assets/filter-rolling-date-range.gif)
+![ Segment die het rollen datumwaaier gebruiken ](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]

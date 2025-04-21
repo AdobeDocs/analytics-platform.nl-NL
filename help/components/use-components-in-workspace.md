@@ -4,7 +4,7 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -89,9 +89,9 @@ Om metrisch aan een project in Analysis Workspace toe te voegen:
 
 Voor meer informatie over metriek, zie [ Metriek ](/help/components/apply-create-metrics.md).
 
-### Filters toevoegen aan een project
+### Segmenten toevoegen aan een project
 
-[ Filters ](/help/components/filters/filters-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
+[ Segmenten ](/help/components/filters/filters-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
 
 U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
@@ -103,7 +103,7 @@ Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt geb
 Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
 
 * Segmenten in componenten gebruiken
-Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/filters/filter-builder.md) kunt u filters als deel van de definitie gebruiken.
+Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/filters/filter-builder.md) kunt u segmenten als deel van de definitie gebruiken.
 
 
 ### Datumbereiken toevoegen aan een project

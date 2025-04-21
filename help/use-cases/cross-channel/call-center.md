@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Deze visualisatie helpt u begrijpen hoe goed CCA gegevens samenbrengt.
    * Persoonscontainer waarin de gegevensset-id gelijk is aan uw webgegevens
    * De container van de persoon waar identiteitskaart van de Dataset uw gegevens van het vraagcentrum evenaart
 2. In Analysis Workspace, sleep de visualisatie van de a [ Venn ](/help/analysis-workspace/visualizations/venn.md) op het werkruimtekanvas.
-3. Sleep de twee nieuwe segmenten naar het **[!UICONTROL Add Filter]** -gebied en de metrische waarde Personen naar het **[!UICONTROL Add Metric]** -gebied.
+3. Sleep de twee nieuwe segmenten naar het **[!UICONTROL Add Segment]** -gebied en de metrische waarde Personen naar het **[!UICONTROL Add Metric]** -gebied.
 
 De resulterende Venn visualisatie toont het aantal mensen in uw dataset die zowel Web als vraagcentrumgegevens bevatten. Hoe groter de overlapping, des te meer mensen met succes werden vastgezet. De gebieden die elkaar niet overlappen vertegenwoordigen mensen die uitsluitend in één dataset of andere verblijven.
 

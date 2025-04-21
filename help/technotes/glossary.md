@@ -5,7 +5,7 @@ exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sommige Customer Journey Analytics-termen verschillen van de traditionele manier
 | Profielgegevensset | Klant, kenmerk | Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een dataset van het Profiel in Adobe Experience Platform uploaden. Zodra u een verbinding met die dataset in Customer Journey Analytics creeert en een gegevensmening creeert, hefboomwerking de gegevens in Workspace. |
 | Experience Cloud | Aanmeldingsbedrijf | Zie [ Organisaties en rekening die ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1) verbinden. |
 | N.v.t. | Rapportsuite | Keuringssuites in de traditionele Adobe Analytics-zin bestaan niet meer. In plaats daarvan, creeert u (virtueel) [ gegevensmeningen ](/help/data-views/create-dataview.md) van de datasets van het Platform die u verbindingen aan vestigde. |
-| Segment | Segment | Segmenten die filters zijn. De naam van deze segmenten is gewijzigd in &quot;segmenten&quot;. |
+| Segment | Segment | Segmenten die &quot;filters&quot; zijn. De naam van deze segmenten is gewijzigd in &quot;segmenten&quot;. |
 | Gegevens, weergave | Virtuele rapportsuite | In Adobe Analytics is een virtuele rapportsuite een gefilterde weergave van een bovenliggende rapportsuite. Het belangrijkste verschil tussen een virtuele rapportsuite en een gegevensweergave in Customer Journey Analytics is dat de virtuele rapportsuite een subset is van een &#39;basis&#39;- of &#39;parent&#39;-rapportsuite en als zodanig een aantal instellingen overneemt. Aangezien de ouder/basisrapportreeksen niet meer bestaan, bepaalt u gegevensmeningen met hun eigen montages. |
 
 ## Adobe Experience Platform glossary

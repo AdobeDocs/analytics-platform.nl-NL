@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL  Flow]
 
 ## Filteren van subgebeurtenissen uitvoeren {#sub-event}
 
-Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op het niveau van de subgebeurtenis, terwijl filters (segmenten) die in de filterbuilder zijn ingebouwd, u alleen filteren op het niveau van de gebeurtenis geven. Zo, kunt u subevent filtreren door te gebruiken omvat/sluit in de meningen van Gegevens, en dan die nieuwe metrische dimensie in een filter op het gebeurtenisniveau van verwijzingen te voorzien.
+Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op het niveau van de subgebeurtenis, terwijl de segmenten die zijn ingebouwd in de Segment Builder u alleen filteren op het gebeurtenisniveau geven. U kunt sub-gebeurtenis het filtreren door te gebruiken omvat/sluit in de meningen van Gegevens, en dan van verwijzingen die nieuwe metrisch/afmeting in een segment op het gebeurtenisniveau.
 
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in de gegevensweergaven om alleen de nadruk te leggen op producten die verkopen van meer dan € 50 hebben gegenereerd. Dus als u een bestelling hebt die een productaankoop van 50 dollar en een productaankoop van 25 dollar bevat, verwijdert de functie voor het opnemen/uitsluiten de productaankoop van 25 dollar, niet de volledige bestelling.
 

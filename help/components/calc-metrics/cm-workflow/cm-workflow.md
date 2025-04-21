@@ -3,9 +3,9 @@ description: Leer hoe u berekende metriek maakt.
 title: Berekende waarden maken
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Nochtans, kunnen de beheerders de **[!UICONTROL Calculated Metric Creation]** to
 
 U kunt op de volgende manieren een berekende metrische waarde maken:
 
-![ Manieren om een filter ](assets/create-metric.png) te creëren
+![ Manieren om berekende metrisch ](assets/create-metric.png) te creëren
 
 * **A**. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Calculated metrics]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Calculated metrics] manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 * **B**. In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ Gebeurtenis ](/help/assets/icons/Event.svg) **Metriek** toe.

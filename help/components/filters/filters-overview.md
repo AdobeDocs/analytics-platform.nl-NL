@@ -4,7 +4,7 @@ description: Begrijp welke segmenten worden gebruikt voor en hoe te om een eenvo
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Overzicht van segmentatie
 
-Met Customer Journey Analytics kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten. Met filters kunt u subsets van personen, sessies of gebeurtenissen identificeren op basis van kenmerken of interacties. Filters zijn ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en met andere teamleden kunt delen.
+Met Customer Journey Analytics kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten. Met segmenten kunt u subsets van personen, sessies of gebeurtenissen identificeren op basis van kenmerken of interacties. De segmenten worden ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden.
 
-Filters kunnen worden gebaseerd op:
+Segmenten kunnen worden gebaseerd op:
 
 - kenmerken (browsertype, apparaat, aantal bezoeken, land, geslacht);
 - interacties (campagnes, trefwoordzoekers, zoekmachines);
@@ -119,7 +119,7 @@ De container van de Persoon omvat elke zitting en elke gebeurtenis voor de perso
 - Alle sessies voor deze personen.
 - Alle gebeurtenisgegevens voor deze personen.
 
-Als meest algemeen bepaalde container, rapporten die op het niveau van de container van de Persoon worden geproduceerd terugkeergebeurtenissen en zittingen voor alle personen die voor de filter kwalificeren. De container van de Persoon is het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
+Als meest algemeen bepaalde container, rapporten die op het niveau van de container van de Persoon worden geproduceerd terugkeergebeurtenissen en zittingen voor alle personen die voor het segment kwalificeren. De container van de Persoon is het meest vatbaar om te veranderen gebaseerd op bepaalde datumwaaiers.
 De containers van de persoon kunnen waarden omvatten die op de algemene geschiedenis van een persoon worden gebaseerd:
 
 - Dagen vóór de eerste aankoop.
@@ -191,7 +191,7 @@ You can use nesting between containers and between conditions within a container
 
 Traditional Analytics comes with numerous out-of-the-box templates and calculated metrics. Many of them do not apply in Customer Journey Analytics, or have to be renamed or recreated. Others depend on a solution for context-aware variables in Customer Journey Analytics.
 
-| Filter Name | Description |
+| Segment Name | Description |
 | --- | --- |
 | All Data | All Data is a required segment that gets dynamically added to reporting when a metric is added to the row of a Freeform table. |
 -->

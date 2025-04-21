@@ -5,7 +5,7 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Wanneer u een numerieke waarde als een afmeting gebruikt, kunt u
 
 * Configureer de optie Geen waarde in een gegevensweergave. Alle hierboven weergegeven configuratie-instellingen worden ondersteund, behalve **[!UICONTROL Treat "No value" as a value]** .
 * Gebruik **[!UICONTROL Include "No value"]** voor numerieke afmetingen in een tabel voor vrije vorm in Workspace.
-* Gebruik in de Filterbouwer de operatoren **[!UICONTROL exists]** of **[!UICONTROL does not exist]** met numerieke afmetingen.
+* Gebruik in de Segment Builder de operatoren **[!UICONTROL exists]** of **[!UICONTROL does not exist]** met numerieke afmetingen.
 
 
 >[!MORELIKETHIS]

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 0%
@@ -138,7 +138,7 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
    U kunt de volgende handelingen uitvoeren:
 
    * Om naar een specifieke gegevensmening te zoeken, gebruik het ![ 1} gebied van het Onderzoek {.](/help/assets/icons/Search.svg)
-   * Om de lijst van beschikbare gegevensmeningen te segmenteren, selecteer ![ segmenten ](/help/assets/icons/Filter.svg) tonen. U kunt de lijst segmenteren op [!UICONTROL Connection] , [!UICONTROL Owner] en [!UICONTROL Sandbox] .![ Verbergen van het gebruik ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide segments]** om de segmentruit te verbergen.<br/>
+   * Om de lijst van beschikbare gegevensmeningen te segmenteren, selecteer ![ segmenten ](/help/assets/icons/Filter.svg) tonen. U kunt de lijst filteren op [!UICONTROL Connection] , [!UICONTROL Owner] en [!UICONTROL Sandbox] .![ Verbergen van het gebruik ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide segments]** om de segmentruit te verbergen.<br/>
    * Om te bepalen welke kolommen in de lijst te tonen, selecteer ![ Montages van de Kolom ](/help/assets/icons/ColumnSetting.svg). Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 
 1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) de gegevensmening die u wilt gebruiken.

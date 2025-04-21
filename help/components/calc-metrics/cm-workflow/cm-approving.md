@@ -3,9 +3,9 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende waarden goedkeuren
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Berekende waarden goedkeuren:
 
 Berekende waarden niet goedkeuren:
 
-1. In de [ manager van de Filter ](cm-approving.md), selecteer één of meerdere van de berekende metriek u wilt goedkeuren.
+1. In de [ Berekende metriekmanager ](cm-approving.md), selecteer één of meer van de berekende metriek u wilt goedkeuren.
 1. Van de actiebar, uitgezochte ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
 

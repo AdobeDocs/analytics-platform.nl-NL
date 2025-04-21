@@ -2,7 +2,7 @@
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Het navigeren aan deze sectie van de interface in Customer Journey Analytics nee
 
 Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Als u dimensie-instellingen wilt wijzigen, maakt u een kopie van de gegevensweergave die eigendom is van het systeem en gebruikt u de gekopieerde gegevensweergave in Analysis Workspace.
 
-* **[!UICONTROL Action Name]**: Het type actie dat de gebruiker heeft uitgevoerd. U kunt deze dimensie als elke gewenste metrische waarde gebruiken door een kopie in de weergave-instellingen voor gegevens te maken. Tot de Dimensionen behoren:
+* **[!UICONTROL Action Name]**: Het type actie dat de gebruiker heeft uitgevoerd. U kunt deze dimensie als elke gewenste metrische waarde gebruiken door een kopie in de weergave-instellingen voor gegevens te maken. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Add attribution]
    * [!UICONTROL Add component]
    * [!UICONTROL Add panel]
@@ -57,7 +57,7 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Send file on schedule]
    * [!UICONTROL Share project with anyone]
    * [!UICONTROL Share project with Workspace users]
-* **[!UICONTROL Attribution Model Used]**: Het type attributiemodel dat de component gebruikt. Tot de Dimensionen behoren:
+* **[!UICONTROL Attribution Model Used]**: Het type attributiemodel dat de component gebruikt. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Last touch]
    * [!UICONTROL First touch]
    * [!UICONTROL Linear]
@@ -70,16 +70,16 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Custom]
    * [!UICONTROL Algorithmic]
 * **[!UICONTROL Component Name]**: De naam van de component die is toegevoegd, verwijderd of gewijzigd.
-* **[!UICONTROL Component Type]**: Het type component dat is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+* **[!UICONTROL Component Type]**: Het type component dat is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Dimension]
    * [!UICONTROL Metric]
-   * [!UICONTROL Filter]
+   * [!UICONTROL Segment]
    * [!UICONTROL Calculated metric]
    * [!UICONTROL Date range]
    * [!UICONTROL Annotation]
    * [!UICONTROL Alert]
 * **[!UICONTROL Login User]**: De gebruiker die de handeling heeft uitgevoerd.
-* **[!UICONTROL Panel Used]**: Het deelvenster waarin de component is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+* **[!UICONTROL Panel Used]**: Het deelvenster waarin de component is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Attribution]
    * [!UICONTROL Blank panel]
    * [!UICONTROL Experimentation]
@@ -94,11 +94,11 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Retention]
    * [!UICONTROL Feature matrix]
 * **[!UICONTROL Project Name]**: De vriendelijke naam van het project.
-* **[!UICONTROL Project Type]**: Het projecttype. Tot de Dimensionen behoren:
+* **[!UICONTROL Project Type]**: Het projecttype. Voorbeelden van Dimension-objecten:
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL Visualization Used]**: De visualisatie die is toegevoegd, verwijderd of gewijzigd. Tot de Dimensionen behoren:
+* **[!UICONTROL Visualization Used]**: De visualisatie die is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Freeform table]
    * [!UICONTROL Cohort table]
    * [!UICONTROL Fallout]

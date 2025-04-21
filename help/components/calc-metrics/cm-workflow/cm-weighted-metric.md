@@ -3,7 +3,7 @@ description: Hier ziet u voorbeelden van berekende metriek.
 title: Voorbeelden van berekende metriek
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -20,10 +20,10 @@ U wilt de stuiteringsfrequentie berekenen.
 
 +++ Details
 
-De definitie van een stuit is onderwerp voor een andere bespreking maar voor dit voorbeeld definieert u een Omgeslagen gebeurtenisfilter waarbij het Begin van de sessie gelijk is aan 1 en Sessie eindigt op 1. Met dit filter definieert u wel de frequentie van teruggestuurde sessies aan sessies.
+De definitie van een stuit is onderwerp voor een andere bespreking maar voor dit voorbeeld, definieert u een Verworpen gebeurtenissegment waar het Begin van de Zitting 1 en Zitting Eind evenaart 1. Met dit segment definieert u wel de frequentie van teruggestuurde sessies aan sessies.
 
 
-### Filter
+### Segment
 
 ![ Stuiterende gebeurtenissen ](assets/example-bounce-bouncedevents.png)
 
@@ -36,9 +36,9 @@ De definitie van een stuit is onderwerp voor een andere bespreking maar voor dit
 
 Alternatief, kunt u a [ stuittarief bepalen gebruikend afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md#bounces).
 
-Afgeleide gebieden maken deel uit van een mening van Gegevens die het voordeel heeft dat niet elke gebruiker de definitie van metrisch tarief met betrekking tot Stuiteren kan met voeten treden of wijzigen. Dat voordeel heeft ook een beperking ingevoerd. Gebruikers die geen toegang hebben tot een gegevensweergave, kunnen geen afgeleide velden gebruiken en moeten hun toevlucht nemen tot filters en berekende meetwaarden om een stuiteringsfrequentie te definiëren.
+Afgeleide gebieden maken deel uit van een mening van Gegevens die het voordeel heeft dat niet elke gebruiker de definitie van metrisch tarief met betrekking tot Stuiteren kan met voeten treden of wijzigen. Dat voordeel heeft ook een beperking ingevoerd. De gebruikers die geen toegang tot een gegevensmening hebben kunnen geen afgeleide gebieden gebruiken en moeten aan segmenten en berekende metriek een stuiteringstarief gebruiken.
 
-Zie voor meer achtergrondinformatie over hoe te om grenzen en stuitend tarief in Customer Journey Analytics te berekenen, dit [ blogpost ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+Zie voor meer achtergrondinformatie over hoe te om grenzen en stuittarief in Customer Journey Analytics te berekenen, dit [ blogpost ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
 
 +++
 

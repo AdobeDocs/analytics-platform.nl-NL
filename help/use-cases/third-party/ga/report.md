@@ -5,7 +5,7 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Met behulp van een berekende maatstaf kunt u die toewijzing toepassen op uw webi
 
 ![ Berekende metrisch ](../../assets/calc-metric.png)
 
-Met Attribution IQ kunt u ook uw gegevens filteren. De attributie kan alleen worden weergegeven op basis van specifieke sets gebruikers, zoals gebruikers die meerdere apparaten gebruiken.
+Met Attribution IQ kunt u ook uw gegevens segmenteren. De attributie kan alleen worden weergegeven op basis van specifieke sets gebruikers, zoals gebruikers die meerdere apparaten gebruiken.
 
-![ Filter ](../../assets/filter.png)
+![ Segment ](../../assets/filter.png)
 
 U kunt ook uw Web- en App-inkomsten toewijzen aan uw Google Ad Content. Het voorbeeld van deze dataset heeft meer inkomsten gekregen van de mobiele app die wordt aangestuurd door online Google Ads dan van het web. Door advertenties te sorteren op het web en op app-inkomsten krijgt u een ander beeld van wat uw best presterende Google-advertenties waren.
 

@@ -4,7 +4,7 @@ description: Leer hoe u segmenten beheert in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 66ec61ea64f1265d887d4941a22e1f9757120daa
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -21,7 +21,7 @@ U kunt ](filters-share.md) delen, [ segment ](filters-filter.md), [ markering ](
 
 >[!NOTE]
 >
->De snelle segmenten die u binnen een specifiek Workspace-project maakt, worden niet weergegeven in de [!UICONTROL Filters] -manager, tenzij u het segment beschikbaar hebt gemaakt voor al uw projecten.
+>De snelle segmenten die u binnen een specifiek Workspace-project maakt, worden niet weergegeven in de [!UICONTROL Segment] -manager, tenzij u het segment beschikbaar hebt gemaakt voor al uw projecten.
 >
 
 ## Segmentbeheer
@@ -37,7 +37,7 @@ De segmentlijst ➊ toont alle segmenten die u bezit, de segmenten die aan al uw
 | Kolom | Beschrijving |
 | --- | --- | 
 | ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een segment te begunstigen. Zie [ segment van het Teken als favoriet ](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Om het segment uit te geven, selecteer de titelverbinding, die de [ bouwer van Filters ](filter-builder.md) opent. Een gedeeld segment wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Title and description]** | Om het segment uit te geven, selecteer de titelverbinding, die de [ bouwer van het Segment ](filter-builder.md) opent. Een gedeeld segment wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop dit segment van toepassing is. |
 | **[!UICONTROL Owner]** | De eigenaar van het segment. Als gebruiker, ziet u slechts de segmenten die u bezit of de annotaties die met u worden gedeeld. |
 | **[!UICONTROL Tags]** | De labels voor dit segment. |
@@ -54,7 +54,7 @@ U kunt op segmenten actie ondernemen met de ➋ van de actiebalk. De actiebalk b
 
 | Handeling | Beschrijving |
 |---|---|
-| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een ander segment toe, gebruikend de [ bouwer van de Filter ](filter-builder.md). |
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een ander segment toe, gebruikend de [ bouwer van het Segment ](filter-builder.md). |
 | ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen segment in de lijst is geselecteerd, zoekt u naar segmenten met dit zoekveld. |
 | ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tags toewijzen aan de geselecteerde segmenten. Selecteer in het dialoogvenster **[!UICONTROL Tag Segment]** de tags voor de geselecteerde segmenten of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde segmenten op te slaan. Zie [ de segmenten van de Markering ](/help/components/filters/filters-tag.md) voor meer informatie. |
 | ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde segmenten. In de **[!UICONTROL Share Segment]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde segmenten op te slaan. Zie [ de segmenten van het Aandeel ](filters-share.md) voor meer informatie. |
@@ -62,7 +62,7 @@ U kunt op segmenten actie ondernemen met de ➋ van de actiebalk. De actiebalk b
 | ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerd segment. Als deze optie is geselecteerd, kunt u de naam van het segment inline wijzigen. |
 | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Geef de geselecteerde segmenten goed. Zie [ segmenten ](filters-approve.md) voor meer informatie goedkeuren. |
 | ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer het geselecteerde segment. Nieuwe segmenten worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
-| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | De segmenten exporteren naar een `Filters List.csv` -bestand. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | De segmenten exporteren naar een `Segments List.csv` -bestand. |
 
 ### Actieve segmentbalk
 

@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2432'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **variabelen van de Lijst/Props van de Lijst** | Volledige ondersteuning. Customer Journey Analytics gebruikt XDM en ondersteunt onbeperkte tekenreeksarrays die op dezelfde manier kunnen worden gebruikt als listVars. |
 | **Merchandising Vars** | Volledige steun via [ bindende dimensies en bindende metriek ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | **Cijfers** | Volledige ondersteuning; Customer Journey Analytics gebruikt het Experience Data Model (XDM) en ondersteunt onbeperkte metriek en is niet gekoppeld aan de aangepaste succesgebeurtenissen van Adobe Analytics. Sommige standaardmetriek zijn anders genoemd van Adobe Analytics: Bezoekers = Mensen, Bezoekingen = Sessies, Hits = Gebeurtenissen. |
-| **het Migreren projecten, filters, en berekende metriek van Adobe Analytics aan Customer Journey Analytics** | Volledige ondersteuning. |
+| **migrerende projecten, segmenten, en berekende metriek van Adobe Analytics aan Customer Journey Analytics** | Volledige ondersteuning. |
 | **Mobiele scorecard/dashboards** | Volledige ondersteuning |
 | **Panelen** | Volledige ondersteuning voor de volgende deelvensters: Leeg deelvenster, Kenmerken, Vrije vorm, Snelle inzichten en Volgende of vorige item. |
 | **de uitvoer van PDF** | Volledige ondersteuning |
@@ -73,7 +73,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **Verwerking rapportduur** | Volledige ondersteuning; Customer Journey Analytics is uitsluitend afhankelijk van de rapporttijdverwerking. |
 | **Meldend API toegang** | Volledige Steun; Beschikbaar door [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/). |
 | **Geplande rapporten/projecten** | Volledige ondersteuning |
-| **Segmenten** | Volledige ondersteuning. Nu &quot;Filters&quot; genoemd - merk op dat bestaande segmenten in traditionele Analysis Workspace niet naar Customer Journey Analytics worden geëxporteerd. |
+| **Segmenten** | Volledige ondersteuning. (voorheen &quot;Filters&quot; genoemd.) |
 | **het stromen de Inzameling van Media** | Streaming-mediagegevens zijn beschikbaar via de bronaansluiting Analytics als onderdeel van het deelvenster Mediagelijktijdige viewers en het deelvenster Media Playback Time Spent in Workspace. |
 | **Summiere-vlakke gegevensbronnen** | Volledige ondersteuning |
 | **Virtuele rapportsuites** | Volledige ondersteuning. Nu geroepen [ meningen van Gegevens ](/help/data-views/create-dataview.md). |
@@ -109,7 +109,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **veranderlijke Producten** | Binnen Experience Platform, kunnen de gebruikers een serie van voorwerpen binnen een datasetschema gebruiken om aan dit gebruiksgeval te voldoen. In Customer Journey Analytics kunnen klanten een willekeurig aantal productvariabelen gebruiken en zijn ze niet beperkt tot één variabele, zoals in Adobe Analytics. |
 | **het delen van het Project** | Het delen van projecten wordt alleen ondersteund door gebruikers van Customer Journey Analytics. Er wordt geen project gedeeld tussen Customer Journey Analytics en de traditionele Analysis Workspace. |
 | **Report Builder** | Ondersteund met een nieuwe Office 365-insteekmodule voor Excel. |
-| **de toestemmingen van de Gebruiker/de toegangscontroles van Gegevens** | Customer Journey Analytics onderscheidt tussen [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, de beheerders van het productprofiel, en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, filters of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, segmenten of annotaties. |
+| **de toestemmingen van de Gebruiker/de toegangscontroles van Gegevens** | Customer Journey Analytics onderscheidt tussen [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) productbeheerders, de beheerders van het productprofiel, en gebruikers. Alleen productbeheerders kunnen verbindingen, projecten, segmenten of berekende metriek maken/bijwerken/verwijderen die door andere gebruikers zijn gemaakt, terwijl productbeheerders en productprofielbeheerders de weergave Gegevens kunnen bewerken. Er zijn aanvullende gebruikersmachtigingen beschikbaar voor bijvoorbeeld het maken van berekende metriek, segmenten of annotaties. |
 | **Visualisaties** | Alle Workspace-visualisaties worden ondersteund, met uitzondering van de Kaartweergave. |
 | **dwars-apparaat/dwars-kanaal het stitching** | Ondersteund voor gebeurtenisgegevenssets die identiteitsgegevens bevatten. Zie [ Plaatsen ](../../stitching/overview.md). |
 

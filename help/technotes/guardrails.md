@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 5%
@@ -187,10 +187,10 @@ Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](http
 
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
-| Containers per filter | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal containers per segment. |
+| Containers per segment | 50 | Door het systeem afgedwongen Guardrail | Maximumaantal containers per segment. |
 | Metrisch per berekend metrisch | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per berekende metrisch. |
-| Metrisch en Afmetingen per filter | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per segment. |
-| Geneste containers per filter | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal geneste containers per segment. |
+| Metriek en afmetingen per segment | 25 | Door het systeem afgedwongen Guardrail | Maximumaantal unieke metingen en afmetingen per segment. |
+| Geneste containers per segment | 10 | Door het systeem afgedwongen Guardrail | Maximumaantal geneste containers per segment. |
 | Regels per segment | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal regels per segment. |
 | Tekenreeks vergelijkt per Dimension per segment | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal tekenreeksvergelijkingen per dimensie per segment. |
 | Berekende standaarden | 6.000 | Door het systeem afgedwongen Guardrail | Maximumaantal berekende metriek voor een organisatie. |

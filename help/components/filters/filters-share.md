@@ -4,7 +4,7 @@ title: Segmenten delen
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Een of meer segmenten delen:
 
 1. In de [ manager van het Segment ](manage-filters.md), selecteer één of meerdere segmenten u wilt delen.
 1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
-1. In het dialoogvenster **[!UICONTROL Share Filters]** :
+1. In het dialoogvenster **[!UICONTROL Share Segments]** :
 
-   ![ de dialoog van de Filters van het Aandeel ](assets/share-filter-dialog.png)
+   ![ de dialoog van het Segment van het Aandeel ](assets/share-filter-dialog.png)
 
    1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u het segment met wilt delen.
 

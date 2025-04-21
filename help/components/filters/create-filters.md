@@ -4,7 +4,7 @@ description: Begrijp het de gebruikersinterface van de segmentverwezenlijking.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
@@ -23,8 +23,8 @@ U kunt op de volgende manieren een segment maken:
 
 ![ Manieren om een segment ](assets/create-filter.png) te creëren
 
-* **A**. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Segments]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Filters] manager ](/help/components/filters/manage-filters.md).
-* **B**. In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ Segment ](/help/assets/icons/Segmentation.svg) **Filters** toe.
+* **A**. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer **[!UICONTROL Segments]** . Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] van de [[!UICONTROL Segment] manager ](/help/components/filters/manage-filters.md).
+* **B**. In een project van Workspace, van het linkerpaneel van Componenten, voegt de uitgezochte ![ ](/help/assets/icons/Add.svg) bij ![ Segment ](/help/assets/icons/Segmentation.svg) **Segmenten** toe.
 * **C**. Selecteer **[!UICONTROL Create segment from selection]** in een Workspace-project in het contextmenu in een visualisatie.
 * **D**. Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create segment]** .
 * **E**. In een Workspace-project gebruikt u de sneltoets **[!UICONTROL shift+cmd+e]** (macOS) of **[!UICONTROL shift+ctrl+e]** (Windows).

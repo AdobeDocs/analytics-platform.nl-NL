@@ -5,7 +5,7 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,7 +48,7 @@ De geleide analyse en [ Analysis Workspace ](../analysis-workspace/home.md) rich
 | Gebruikers | Mensen |
 | Dimension | Dimension |
 | Dimension-item | Dimension-item |
-| Segment | Filter |
+| Segment | Segment |
 | Filter | Rapportfilter |
 | Berekende metrisch, Metrisch | Berekende metrische waarde |
 
@@ -60,7 +60,7 @@ De geleide analyse en [ Analysis Workspace ](../analysis-workspace/home.md) rich
 
 Terwijl [ Analysis Workspace ](../analysis-workspace/home.md) en geleide analyse de zelfde onderliggende gegevens gebruiken, de manier dat elk hulpmiddel u toelaat om vragen van die gegevens te vormen is verschillend.
 
-* **Analysis Workspace is een dimensie-gecentreerde ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen meestal metriek zijn. Filters kunnen zowel in rijen als in kolommen worden toegepast om de gewenste gegevens te verkrijgen.
+* **Analysis Workspace is een dimensie-gecentreerde ervaring.** Tabellen bestaan meestal uit dimensionale rijen, terwijl kolommen meestal metriek zijn. U kunt segmenten in zowel rijen als kolommen toepassen om de gewenste gegevens te verkrijgen.
 
 * **Geleide analyse is een gebeurtenis en gebruiker-gecentreerde ervaring.** Elke analyse begint met het selecteren van gebeurtenissen, waarna dimensies en segmenten kunnen worden toegevoegd om die gebeurtenisgegevens te verfijnen.
 

@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 | [!UICONTROL Reporting Tools] | [!UICONTROL Analysis Workspace Access] | Laat gebruikers tot [ Analysis Workspace ](/help/analysis-workspace/home.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Guided Analysis Access] | Laat gebruikers tot [ Geleide Analyse ](/help/guided-analysis/overview.md) toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Calculated Metrics Creation] | Laat gebruikers [ berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md) creëren. Gebruikers kunnen alleen de berekende metriek die zij maken of de met hen gedeelde berekeningsmethoden coderen, delen, verwijderen, hernoemen, goedkeuren of goedkeuren. |
-| [!UICONTROL Reporting Tools] | [!UICONTROL Filter Creation] | Laat gebruikers [ segmenten ](/help/components/filters/filters-overview.md) tot stand brengen. Gebruikers kunnen alleen de segmenten die zij maken of de segmenten die met hen worden gedeeld, labelen, delen, verwijderen, hernoemen, goedkeuren of niet goedkeuren. |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Segment Creation] | Laat gebruikers [ segmenten ](/help/components/filters/filters-overview.md) tot stand brengen. Gebruikers kunnen alleen de segmenten die zij maken of de segmenten die met hen worden gedeeld, labelen, delen, verwijderen, hernoemen, goedkeuren of niet goedkeuren. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Labs Access] | Laat gebruikers tot het [ lusje van Laboratoria ](/help/labs/labs.md) in Customer Journey Analytics toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Annotation Creation] | Laat gebruikers [ annotaties ](/help/components/annotations/overview.md) tot stand brengen. Gebruikers kunnen alleen de annotaties die ze maken of annotaties die met hen worden gedeeld, labelen, delen, verwijderen en hernoemen. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) bekijken. |

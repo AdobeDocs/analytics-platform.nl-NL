@@ -5,7 +5,7 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 * **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Netto groei ](net-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Number of users] en [!UICONTROL Percentage of users] .
-* **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt filteren. U kunt één segment in een vraag omvatten.
+* **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt segmenteren. U kunt één segment in een vraag omvatten.
 
 ### Diagraminstellingen
 

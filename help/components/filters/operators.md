@@ -4,7 +4,7 @@ description: Bepaal hoe een component met een waarde binnen een segment interact
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Operatoren
 
-Met de filterbuilder kunt u waarden voor componenten vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn twee categorieën operatoren: [[!UICONTROL Standard]](#standard-operators) en [[!UICONTROL Distinct Count]](#distinct-count-operators) .
+Met de Segment Builder kunt u waarden voor componenten vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn twee categorieën operatoren: [[!UICONTROL Standard]](#standard-operators) en [[!UICONTROL Distinct Count]](#distinct-count-operators) .
 
 ## Standaardoperatoren
 

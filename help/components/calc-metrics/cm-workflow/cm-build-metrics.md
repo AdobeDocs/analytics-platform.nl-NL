@@ -1,9 +1,9 @@
 ---
-description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Filters, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 0%
@@ -156,7 +156,7 @@ U gebruikt het concept van een segmentcontainer om metrische a [ gesegmenteerde 
 * Een segmentcontainer toevoegen vanuit een dimensie:
 
    1. De belemmering en laat vallen a ![ Dimensies ](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** component van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
-   1. Definieer in de pop-up **[!UICONTROL Create Filter from Dimension]** de voorwaarde voor het segment. Selecteer een waarde in de lijst met operatoren en selecteer een waarde of voer een waarde in. Bijvoorbeeld, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. Definieer in de pop-up **[!UICONTROL Create Segment from Dimension]** de voorwaarde voor het segment. Selecteer een waarde in de lijst met operatoren en selecteer een waarde of voer een waarde in. Bijvoorbeeld, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Selecteer **[!UICONTROL Done]** . Er wordt een segmentcontainer toegevoegd aan de **[!UICONTROL Definition]** .
 
 
@@ -165,11 +165,11 @@ U gebruikt het concept van een segmentcontainer om metrische a [ gesegmenteerde 
    * Sleep de component van de a ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** van het componentenpaneel op **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke segmenten te zoeken.
 Er wordt automatisch een segmentcontainer toegevoegd aan de **[!UICONTROL Definition]** , met de naam van het segment.
 
-   * De belemmering en laat vallen a ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** component van het componentenpaneel op een generische container. De container wordt gewijzigd in een segmentcontainer.
+   * De belemmering en laat vallen a ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** component van het componentenpaneel op een generische container. De container wordt gewijzigd in een segmentcontainer.
 
    * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
 
-      1. Selecteer **[!UICONTROL Filter]** . Er wordt een segmentcontainer toegevoegd aan de **[!UICONTROL Definition]** .
+      1. Selecteer **[!UICONTROL Segment]** . Er wordt een segmentcontainer toegevoegd aan de **[!UICONTROL Definition]** .
       1. In de nieuwe segmentcontainer, selecteer een segment van [!UICONTROL *Uitgezocht..*] dropdown menu.
 
   >[!TIP]
@@ -182,7 +182,7 @@ Een segment verwijderen uit een container:
 
 * Selecteer ![ dicht ](/help/assets/icons/Close.svg) naast de segmentnaam.
 
-Zie [ Gefilterde metriek ](metrics-with-segments.md) voor meer details en voorbeelden.
+Zie [ Gesegmenteerde metriek ](metrics-with-segments.md) voor meer details en voorbeelden.
 
 #### Functiecontainer
 
@@ -218,6 +218,6 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->[Filters ](/help/components/filters/filters-overview.md)
+>[Segmenten ](/help/components/filters/filters-overview.md)
 >
 

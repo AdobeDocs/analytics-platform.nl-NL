@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '8489'
 ht-degree: 2%
@@ -643,7 +643,7 @@ U definieert een `Trip Duration (bucketed)` afgeleid veld. U maakt de volgende [
 
 ## Meer informatie {#casewhen-more-info}
 
-Customer Journey Analytics gebruikt een genestelde containerstructuur, gemodelleerd na Adobe Experience Platform [ XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (het Model van Gegevens van de Ervaring). Zie [ Containers ](../create-dataview.md#containers) en [ containers van de Filter ](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
+Customer Journey Analytics gebruikt een genestelde containerstructuur, gemodelleerd na Adobe Experience Platform [ XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (het Model van Gegevens van de Ervaring). Zie [ Containers ](../create-dataview.md#containers) en [ de containers van het Segment ](../../components/filters/filters-overview.md#filter-containers) voor meer achtergrondinformatie. Dit containermodel, zij het flexibel door aard, legt sommige beperkingen op wanneer het gebruiken van de regelbouwer.
 
 Customer Journey Analytics gebruikt het volgende standaardcontainermodel:
 
