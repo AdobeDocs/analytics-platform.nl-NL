@@ -1,20 +1,18 @@
 ---
-title: Componenten van Content Analytics
-description: Bijzonderheden over de specifieke componenten voor de analyse van inhoud, zoals afmetingen, (berekende) meetwaarden en afgeleide velden
+title: Content Analytics-componenten
+description: Details over de specifieke Content Analytics-componenten, zoals afmetingen, (berekende) meetwaarden en afgeleide velden
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 0731eadd403ecb428d36492b83351aa0e696b41f
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 1%
 
 ---
 
-# Componenten van Content Analytics
-
-{{release-limited-testing}}
+# Content Analytics-componenten
 
 Met Content Analytics worden de volgende categorieën componenten (afmetingen, (berekende) waarden, afgeleide velden) toegevoegd aan de reeds beschikbare componenten in Customer Journey Analytics:
 
