@@ -4,7 +4,7 @@ description: Leer hoe u segmenten beheert in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -64,12 +64,12 @@ U kunt op segmenten actie ondernemen met de ➋ van de actiebalk. De actiebalk b
 | ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer het geselecteerde segment. Nieuwe segmenten worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
 | ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | De segmenten exporteren naar een `Segments List.csv` -bestand. |
 
-### Actieve segmentbalk
+### Actieve filterbalk
 
-De ➌ van de segmentbar toont de actieve segmenten die van het segmentpaneel op de lijst van segmenten (als om het even welk) worden toegepast. U kunt een segment snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meerdere segmenten zijn opgegeven, kunt u alle segmenten verwijderen met **[!UICONTROL Remove all]** .
+De filterbalk ➌ de actieve segmenten die van het filterdeelvenster zijn toegepast op de lijst met segmenten (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meerdere filters zijn opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
-### Deelvenster Segment
+### Deelvenster Filter
 
-U kunt de lijst van segmenten segmenteren gebruikend de ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel➍ van het 1} Segment {. ![ In het deelvenster Segment worden het type segment en het aantal segmenten weergegeven dat het specifieke segment respecteert. Selecteer ![ Segment ](/help/assets/icons/Filter.svg) om de vertoning van het segmentpaneel van een knevel te voorzien.
+U kunt de lijst van segmenten filtreren gebruikend de ![ linker paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
 
 Zie [ de lijst van segmenten ](filters-filter.md) voor meer informatie filtreren.

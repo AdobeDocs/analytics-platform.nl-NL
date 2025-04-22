@@ -6,12 +6,13 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
+
 
 # Filterafmetingen
 
@@ -21,9 +22,9 @@ Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
 1. Selecteer een gegevensblok en klik op Gegevensblok bewerken in het deelvenster OPDRACHTEN.
 
-1. Klik op **[!UICONTROL Next]** om het tabblad Dimensies weer te geven.
+1. Selecteer **[!UICONTROL Next]** om het tabblad Dimensies weer te geven.
 
-1. Klik op het pictogram **...** naast de naam van een component in de tabel.
+1. Selecteer ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) naast een componentennaam in de lijst.
 
    ![ de pictogramopties van de ellips.](./assets/image27.png)
 
@@ -39,29 +40,40 @@ Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
    Report Builder geeft een melding weer ter bevestiging van het toegevoegde filter.
 
-Houd de muisaanwijzer boven een dimensie om toegepaste filters weer te geven. Bij afmetingen met toegepaste filters wordt rechts van de Dimension-naam een filterpictogram weergegeven.
+Houd de muisaanwijzer boven een dimensie om toegepaste filters weer te geven. De afmetingen met toegepaste filters tonen a ![ filter ](/help/assets/icons/Filter.svg) filterpictogram naast de naam van Dimension.
+
+## Het filter en de sorteervolgorde wijzigen
+
+Er wordt een pijl weergegeven naast de metrische waarde die wordt gebruikt om het gegevensblok te filteren en te sorteren. De richting van de pijl geeft aan of de metrische waarde in oplopende of aflopende volgorde wordt gesorteerd.
+
+Als u de sorteerrichting wilt wijzigen, selecteert u de pijl naast de metrische waarde.
+
+Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en te sorteren,
+
+1. Houd de muisaanwijzer boven de gewenste metrische component in de Tabelbouwer om aanvullende opties weer te geven.
+
+2. Selecteer de pijl op aangewezen metrisch.
+
+   ![ de bouwer en metriek van de Lijst.](./assets/image30.png)
+
+
 
 ## Filtertype
 
 Er zijn twee manieren om dimensiepunten te filteren: het populairste en Specifieke.
 
-## Meest populair
+### Meest populair
 
 Met de populairste optie kunt u dimensie-items dynamisch filteren op basis van metrische waarden. Het populairste filtreren keert de hoogste gerangschikte afmetingspunten terug die op metrische waarden worden gebaseerd. Standaard worden de eerste 10 dimensies weergegeven, gesorteerd op de eerste metrische waarde die aan het gegevensblok is toegevoegd.
 
 ![ de populairste optie.](./assets/image29.png)
 
 
-### Opties voor Pagina en Rijen
+**de opties van de Pagina en van Rijen**
 
 Gebruik de **Pagina** en **Rijen** gebieden om gegevens in opeenvolgende groepen of pagina&#39;s te verdelen. Dit staat u toe om gerangschikte rijwaarden buiten de hoogste waarden in uw rapport te trekken. Deze functie is vooral handig voor het ophalen van gegevens boven de limiet van 50.000 rijen.
 
-#### Standaardwaarden voor pagina en rijen
-
-- Pagina = 1
-- Rijen = 10
-
-Met de standaardinstellingen Pagina en Rijen geeft u aan dat elke pagina tien rijen gegevens bevat. Pagina 1 retourneert de bovenste 10 items, pagina 2 retourneert de volgende 10 items, enzovoort.
+De standaardwaarde voor Pagina is 1 en voor Rijen is 10. Deze standaardinstellingen impliceren dat elke pagina 10 rijen gegevens heeft. Pagina 1 retourneert de bovenste 10 items, pagina 2 retourneert de volgende 10 items, enzovoort.
 
 In de onderstaande tabel staan voorbeelden van pagina- en rijwaarden en de resulterende uitvoer.
 
@@ -73,16 +85,16 @@ In de onderstaande tabel staan voorbeelden van pagina- en rijwaarden en de resul
 | 2 | 100 | Items 101-200 |
 | 2 | 50.000 | Items 50.001-100.000 |
 
-#### Minimum- en maximumwaarden
+De minimum- en maximumwaarden zijn:
 
 - Beginpagina: Min = 1, Max: 50 miljoen
 - Aantal rijen: Min = 1, Max: 50.000
 
 ### Inclusief &quot;Geen waarde&quot;
 
-In Customer Journey Analytics verzamelen sommige dimensies een item zonder waarde. Met dit filter kunt u deze waarden uitsluiten van rapporten. U kunt bijvoorbeeld een classificatie maken, zoals de classificatie Productnaam op basis van de sleutel Product SKU. Als een specifiek product-SKU niet is ingesteld met de specifieke productnaamclassificatie, wordt de productnaam ingesteld op &quot;geen waarde&quot;.
+In Customer Journey Analytics verzamelen sommige dimensies een item &#39;Geen waarde&#39;. Met dit filter kunt u deze waarden uitsluiten van rapporten. U kunt bijvoorbeeld een classificatie maken, zoals de classificatie Productnaam op basis van de sleutel Product SKU. Als een specifiek product-SKU niet is ingesteld met de specifieke productnaamclassificatie, wordt de productnaam ingesteld op &quot;geen waarde&quot;.
 
-Omvat &quot;**Geen waarde**&quot;wordt geselecteerd door gebrek. Schakel deze optie uit als u items zonder waarde wilt uitsluiten.
+**[!UICONTROL Include "No value"]** is standaard geselecteerd. Schakel deze optie uit als u items zonder waarde wilt uitsluiten.
 
 ### Filteren op criteria
 
@@ -96,34 +108,19 @@ Filtercriteria instellen
 
 1. Voer een waarde in het zoekveld in.
 
-1. Klik op Rij toevoegen om de selectie te bevestigen en nog een item voor criteria toe te voegen.
+1. Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) **[!UICONTROL Add row]** om de selectie te bevestigen en een ander criterium punt toe te voegen.
 
-1. Klik op het pictogram Verwijderen om een item met criteria te verwijderen.
+1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een criterium punt te verwijderen.
 
    U kunt maximaal 10 criteria toevoegen.
 
-### Het filter en de sorteervolgorde wijzigen
-
-Er wordt een pijl weergegeven naast de metrische waarde die wordt gebruikt om het gegevensblok te filteren en te sorteren. De richting van de pijl geeft aan of de meting het grootst tot het minst of het minst tot het grootst is gesorteerd.
-
-Klik op de pijl naast de metrische waarde om de sorteerrichting te wijzigen. 
-
-Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en te sorteren,
-
-1. Houd de muisaanwijzer boven de gewenste metrische component in de Tabelbouwer om aanvullende opties weer te geven.
-
-2. Klik op de pijl op de gewenste metrische waarde. 
-
-   ![ de bouwer en metriek van de Lijst.](./assets/image30.png)
-
-
-## Specifieke filtering
+### Specifieke filtering
 
 Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het **Specifieke** filtrerende type om de nauwkeurige afmetingspunten te specificeren in uw filter te omvatten. U kunt items in een lijst of uit een reeks cellen selecteren.
 
 ![ de Specifieke opties en de geselecteerde punten.](./assets/image32.png)
 
-### Van lijst
+#### Van lijst
 
 1. Selecteer **van lijst** optie om afmetingspunten te zoeken en te selecteren.
 
@@ -157,7 +154,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
    Report Builder werkt de lijst bij om het specifieke filter te tonen u toepaste.
 
-### Uit celbereik
+#### Uit celbereik
 
 Selecteer **van waaier van cellen** optie om een waaier van cel te kiezen die de lijst van dimensiepunten bevatten om aan te passen.
 

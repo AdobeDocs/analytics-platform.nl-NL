@@ -4,9 +4,9 @@ description: Begrijp welke segmenten worden gebruikt voor en hoe te om een eenvo
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,14 @@ Gebeurteniscontainers bevatten op waarde gebaseerde uitsplitsingen van één pag
 - Props weergeven
 - Lijstafmetingen
 - Merchandising-afmetingen (in de context van gebeurtenissen)
+
+
+
+### B2B-containers
+
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+Wanneer u toegang tot [ Customer Journey Analytics B2B edition ](/help/getting-started/cja-b2b-edition.md) hebt, zijn de extra containers voor gebruik in segmenten beschikbaar. U kunt meer details over het gebruik van deze extra containers in [ B2B concepten en eigenschappen ](/help/getting-started/cja-b2b-concepts-features.md) vinden.
 
 
 ### Logische-groepscontainer

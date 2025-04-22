@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 0%
@@ -34,7 +34,7 @@ De volgende gebruiksgevallen worden gedocumenteerd:
    * [Eén dimensie, gerangschikt](#single-dimension-ranked)
    * [Meerdere dimensies gerangschikt](#multiple-dimension-ranked)
    * [Waarden voor verschillende dimensies tellen](#count-distinct-dimension-values)
-   * [Gebruik namen van datumbereiken om te segmenteren](#use-date-range-names-to-segment)
+   * [Namen van datumbereik gebruiken om te filteren](#use-date-range-names-to-filter)
    * [Segmentnamen gebruiken](#use-segment-names-to-segment)
    * [Dimensiewaarden gebruiken om te segmenteren](#use-dimension-values-to-segment)
    * [Sorteren](#sort)
@@ -1737,17 +1737,17 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 
 
-## Filternamen gebruiken om te filteren
+## Segmentnamen gebruiken
 
-In dit geval wilt u een bestaand filter gebruiken voor de categorie visserijproducten die u in Customer Journey Analytics hebt gedefinieerd. Filteren en rapporteren van productnamen en voorvallen (gebeurtenissen) in januari 2023.
+In dit geval wilt u een bestaand segment gebruiken voor de categorie visserijproducten die u in Customer Journey Analytics hebt gedefinieerd. Segmenteren en rapporteren over productnamen en voorvallen (gebeurtenissen) in januari 2023.
 
 +++ Customer Journey Analytics
 
-Controleer het filter dat u in Customer Journey Analytics wilt gebruiken.
+Controleer het segment dat u in Customer Journey Analytics wilt gebruiken.
 
 ![ Customer Journey Analytics gebruiken de Namen van de Filter ](assets/cja-fishing-products.png){zoomable="yes"}
 
-Vervolgens kunt u dat filter in een voorbeeldvenster van **[!UICONTROL Using Date Range Names To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
+Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Segment Names To Segment]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
 ![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
@@ -1901,18 +1901,18 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 +++
 
 
-## Dimensiewaarden gebruiken om te filteren
+## Dimensiewaarden gebruiken om te segmenteren
 
-U gebruikt de dynamische **[!UICONTROL Hunting]** waarde voor **[!UICONTROL Product Category]** om producten van de jachtcategorie te filteren. Voor de BI-gereedschappen die het dynamisch ophalen van productcategoriewaarden niet ondersteunen, maakt u in Customer Journey Analytics een nieuw filter dat op producten uit de categorie van het jachtproduct filtert.
-Vervolgens wilt u het nieuwe filter gebruiken om productnamen en voorvallen (voorvallen) te rapporteren voor producten uit de jachtcategorie in januari 2023.
+U gebruikt de dynamische **[!UICONTROL Hunting]** waarde voor **[!UICONTROL Product Category]** om producten van de jachtcategorie te segmenteren. U kunt ook voor de BI-gereedschappen die het dynamisch ophalen van productcategoriewaarden niet ondersteunen, een nieuw segment in Customer Journey Analytics maken dat zich segmenteert op producten uit de categorie jachtproducten.
+Vervolgens wilt u het nieuwe segment gebruiken om productnamen en voorvallen (voorvallen) te rapporteren voor producten uit de jachtcategorie in januari 2023.
 
 +++ Customer Journey Analytics
 
-Maak een nieuw filter met **[!UICONTROL Title]** `Hunting Products` in Customer Journey Analytics.
+Maak een nieuw segment met **[!UICONTROL Title]** `Hunting Products` in Customer Journey Analytics.
 
-![ de Waarden van Dimension van het Gebruik van Customer Journey Analytics om ](assets/cja-hunting-products.png){zoomable="yes"} te filtreren
+![ de Waarden van Dimension van het Gebruik van Customer Journey Analytics aan segment ](assets/cja-hunting-products.png){zoomable="yes"}
 
-Vervolgens kunt u dat filter in een voorbeeldvenster van **[!UICONTROL Using Dimension Values To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
+Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Dimension Values To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
 ![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 

@@ -4,7 +4,7 @@ title: Segmenten maken
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 0%
@@ -20,17 +20,10 @@ ht-degree: 0%
 >title="Publiek maken"
 >abstract="Soorten publiek kan worden gemaakt op basis van een segment en worden gedeeld met de Adobe Experience Platform voor activering."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Gegevensvoorbeeld"
 >abstract="Vergelijkt de gegevens van dit segment met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe segmenten te maken of bestaande segmenten te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New segment]** of **[!UICONTROL Edit segment]** voor segmenten die u maakt of beheert met de [[!UICONTROL Segment] manager ](/help/components/filters/manage-filters.md) .
@@ -155,32 +148,23 @@ Of u kunt 52 segmenten definiëren: 50 segmenten voor de Amerikaanse staten, é�
 
 ## Attributie {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="Herhalend"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instantie"
 >abstract="Bevat varianten en doorlopende waarden voor de dimensie."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="Niet-herhalende instantie"
 >abstract="Bevat unieke (niet-herhalende) instanties voor de dimensie."
 
-<!-- markdownlint-enable MD034 -->
 
 
 
@@ -218,3 +202,5 @@ De lijst verklaart hieronder, voor elk attributiemodel, die de inkomende gebeurt
 Een voorbeeldrapport over gebeurtenissen die de drie segmenten gebruiken ziet er als volgt uit:
 
 ![ de resultaten van het de attributiemodel van het Segment ](assets/filter-dimension-attribution-results.png)
+
+<!-- markdownlint-enable MD034 -->

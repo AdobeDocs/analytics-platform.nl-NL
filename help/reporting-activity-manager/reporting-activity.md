@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    ![ het Melden van Activiteit die de rapportrij ](assets/reporting-activity-monthly.png) toont
 
-1. (Optioneel) U kunt de lijst met verbindingen opzoeken of segmenteren:
+1. (Optioneel) U kunt de lijst met verbindingen opzoeken of filteren:
 
    * Gebruik het zoekveld om te zoeken naar een specifieke verbinding. Typ de naam of de id van de verbinding en de lijst met updates van verbindingen terwijl u typt.
 

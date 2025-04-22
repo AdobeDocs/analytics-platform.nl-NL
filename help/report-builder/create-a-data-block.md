@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,33 @@ A *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek w
 
 Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van Gegevens, de meningen van Gegevens, en een waaier van de Datum.
 
-1. Klik **creëren gegevensblok**.
+1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
 
-   ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
+   ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create-datablock.png)
 
-1. Plaats de **plaats van het blok van Gegevens**.
+1. Stel de **[!UICONTROL Data block location]** in.
 
    De optie voor gegevensbloklocatie definieert de werkbladlocatie waar de rapportbuilder de gegevens aan uw werkblad toevoegt.
 
-   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
+   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals `a3` , `\\\$a3` , `a\\\$3` of `sheet1!a2` . De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
-1. Kies de **meningen van Gegevens**.
+   Het gebruik ![ DataBlockSelector ](/help/assets/icons/DataBlockSelector.svg) om een het blokplaats van Gegevens van de huidige geselecteerde cel in het blad te kiezen.
+
+1. Kies de **[!UICONTROL Data views]** .
 
    Met de optie Gegevens kunt u een gegevensweergave kiezen in een vervolgkeuzelijst of naar een gegevensweergave verwijzen vanuit een cellocatie.
 
-1. Plaats de **waaier van de Datum**.
+   Selecteer ![ DataViewSelector ](/help/assets/icons/DataViewSelector.svg) om een gegevensmening van een cel tot stand te brengen.
+
+1. Stel de **[!UICONTROL Date range]** in.
 
    Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over de opties van de datumwaaier, zie [ Selecteer een Waaier van de Datum ](select-date-range.md).
 
-1. Klik **daarna**.
+   Selecteer **[!UICONTROL Calendar]** om een gegevenswaaier te plukken gebruikend ![ Kalender ](/help/assets/icons/Calendar.svg) of een datumwaaier manueel in te gaan. U kunt desgewenst een voorinstelling kiezen in het keuzemenu Voorinstellingen zoeken.
+
+   Selecteer **[!UICONTROL From Cell]** om een begin- en eindgegevens te definiëren op basis van een cel in het huidige blad.
+
+1. Selecteer **daarna**.
 
    ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
 
@@ -53,17 +61,17 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Schuif de componentenlijsten of gebruik het **onderzoek** gebied om van componenten de plaats te bepalen. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
 
-   Dubbelklik op een component om deze toe te voegen aan een standaardsectie van de tabel.
+   Dubbelklik op een component om de component toe te voegen aan een standaardsectie van de tabel.
 
    - Dimension-componenten worden toegevoegd aan de sectie Rij of aan de sectie Kolom als u al een dimensie hebt in de kolommen.
    - Datumcomponenten worden toegevoegd aan de sectie Kolom.
    - De componenten van het segment worden toegevoegd aan de sectie van Segmenten.
 
-   **begindatum als Dimension**
+### Begindatum als Dimension
 
-   Stel de begindatum in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u van de begindatum moet duidelijk zijn.
+Stel de begindatum in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u van de begindatum moet duidelijk zijn.
 
-   ![ het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png){width="30%"}
+![ het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png)
 
 1. Rangschik de punten in de ruit van de Lijst om de lay-out van uw gegevensblok aan te passen.
 
@@ -73,28 +81,29 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    ![ Schermafbeelding die de toegevoegde componenten en het bijgewerkte werkblad tonen.](./assets/image10.png)
 
-   **Vertoning of verbergt rij en kolomkopballen**
+### Rij- en kolomkoppen weergeven of verbergen
 
-1. Klik het **de montagespictogram van de Lijst**.
+1. Selecteer het **[!UICONTROL Table]** ![ Plaatsende ](/help/assets/icons/Setting.svg) montagespictogram.
 
-   ![ Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png){width="35%"}
+   ![ Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png)
 
 1. Schakel de optie Rij- en kolomkoppen weergeven in of uit. De kopteksten worden standaard weergegeven.
 
-   **verberg of toon afmetingsetiketten en metrische kopballen**
+### Dimensie-labels en metrische koppen verbergen of weergeven
 
-1. Klik op het ellipspictogram op de afmetingen of de kolomkoppen om de instellingen weer te geven.
+Selecteer het pictogram van de ellips op of de afmetingen of de kolomkopballen om de montages te tonen.
 
-   ![ het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png){width="35%"}
+![ het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png)
 
-1. Klik op Verbergen of Tonen om de dimensielabels of kolomkoppen in en uit te schakelen. Alle labels worden standaard weergegeven.
+1. Selecteer ![ VisibilityOff ](/help/assets/icons/VisibilityOff.svg) **[!UICONTROL Hide]** of ![ Zichtbaarheid ](/help/assets/icons/Visibility.svg) **[!UICONTROL Show]** om de afmetingsetiketten of kolomkopballen van een knevel te voorzien. Alle labels worden standaard weergegeven.
 
-1. Klik **Afwerking**.
+1. Selecteer **[!UICONTROL Finish]** .
 
-   Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
 
-   ![ Het verwerkingsbericht.](./assets/image11.png)
+Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
 
-   Report Builder haalt de gegevens op en geeft het voltooide gegevensblok weer in het werkblad.
+![ Het verwerkingsbericht.](./assets/image11.png)
 
-   ![ het voltooide gegevensblok.](./assets/image12.png)
+Report Builder haalt de gegevens op en geeft het voltooide gegevensblok weer in het werkblad.
+
+![ het voltooide gegevensblok.](./assets/image12.png)

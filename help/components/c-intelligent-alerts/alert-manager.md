@@ -4,9 +4,9 @@ title: Aletten beheren
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,9 @@ De filterbalk ➌ de actieve filters weer die van het filterdeelvenster zijn toe
 
 U kunt de lijst van alarm filtreren gebruikend de ![ linker paneel➍ van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
 
-{{filterspanel}}
+
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Alarm nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer filters uit een van de beschikbare filtersecties.
 
 
 #### Sectie Labels, filter

@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: b98cd4dc73e57f9ae5704a5d9e529ae3b518576c
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 
 1. Selecteer het filterpictogram om de lijst met projecten te filteren.
 
-1. In het filterspoor, uitgezochte **ANDERE FILTERS** en selecteer dan **de malplaatjes van het Bedrijf**.
+1. Selecteer **[!UICONTROL Other filters]** in de filterrail en selecteer vervolgens **[!UICONTROL Company templates]** .
 
    Er wordt een lijst met bedrijfssjablonen weergegeven. Alle gewone projecten worden niet weergegeven, tenzij ze vastgezet zijn.
 

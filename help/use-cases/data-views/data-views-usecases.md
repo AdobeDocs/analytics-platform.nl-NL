@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders
 1. Open de sectie **[!UICONTROL Include/Exclude Values]** en geef de volgende instellingen op:
    1. Schakel **[!UICONTROL Set include exclude values]** in.
    1. Selecteer **[!UICONTROL If all criteria are met]** in **[!UICONTROL Match]** .
-   1. Geef `confirmation` op. Deze tekst voor page_title wijst erop dat deze pagina met het plaatsen van een orde verwant is. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Het werkt met Attribution IQ, segmenten, en overal anders kunt u standaardmetriek gebruiken.
+   1. Geef `confirmation` op. Deze tekst voor de **[!UICONTROL page_title]** geeft aan dat deze pagina te maken heeft met het plaatsen van een volgorde. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Het werkt met Attribution IQ, segmenten, en overal anders kunt u standaardmetriek gebruiken.
 
    ![ Dimension aan metrisch ](../assets/string-to-metric.gif){width=100%}
 1. U kunt een attributiemodel voor deze metrische waarde, zoals [!UICONTROL Last Touch] , verder opgeven met een [!UICONTROL Lookback window] van [!UICONTROL Session] .
@@ -69,7 +69,7 @@ U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL  Flow]
 
 ## Filteren van subgebeurtenissen uitvoeren {#sub-event}
 
-Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op het niveau van de subgebeurtenis, terwijl de segmenten die zijn ingebouwd in de Segment Builder u alleen filteren op het gebeurtenisniveau geven. U kunt sub-gebeurtenis het filtreren door te gebruiken omvat/sluit in de meningen van Gegevens, en dan van verwijzingen die nieuwe metrisch/afmeting in een segment op het gebeurtenisniveau.
+Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionaliteit include/exclude kunt u filteren op het niveau van de subgebeurtenis, terwijl de segmenten die zijn ingebouwd in de Segment Builder u alleen segmentatie op het gebeurtenisniveau geven. U kunt sub-gebeurtenis het filtreren door te gebruiken omvat/sluit in de meningen van Gegevens, en dan van verwijzingen die nieuwe metrisch/afmeting in een segment op het gebeurtenisniveau.
 
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in de gegevensweergaven om alleen de nadruk te leggen op producten die verkopen van meer dan € 50 hebben gegenereerd. Dus als u een bestelling hebt die een productaankoop van 50 dollar en een productaankoop van 25 dollar bevat, verwijdert de functie voor het opnemen/uitsluiten de productaankoop van 25 dollar, niet de volledige bestelling.
 
