@@ -4,7 +4,7 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Deze visualisatie is gericht op verschillende veelvoorkomende gebruiksgevallen, 
 
 1. Voeg a ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
 
-1. Configureer de visualisatie door een **[!UICONTROL Metric]** , een **[!UICONTROL Primary date range]** , een **[!UICONTROL Comparison date range]** (optioneel) en een **[!UICONTROL Filter]** (optioneel) te selecteren:
+1. Configureer de visualisatie door een **[!UICONTROL Metric]** , een **[!UICONTROL Primary date range]** , een **[!UICONTROL Comparison date range]** (optioneel) en een **[!UICONTROL Segment]** (optioneel) te selecteren:
 
    ![ Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metrics-config.png)
 
@@ -61,7 +61,7 @@ Deze visualisatie is gericht op verschillende veelvoorkomende gebruiksgevallen, 
    | **[!UICONTROL Metric]** | Selecteer metrisch u wilt onderzoeken. Alle metriek worden ondersteund. |
    | **[!UICONTROL Primary date range]** | Het huidige datumbereik voor de vrije-vormtabel.<p>Maak een keuze uit de beschikbare datumbereiken in de gegevensweergave.</p> <p>Kies [!UICONTROL **de datumwaaier van het Comité**] als u de zelfde datumwaaier wilt gebruiken die op het paneel wordt gebruikt waar de visualisatie wordt gevestigd.</p> |
    | **[!UICONTROL Comparison date range]** | Het datumbereik dat u wilt vergelijken met het primaire datumbereik. |
-   | **[!UICONTROL Filter (optional)]** | Elk segment waarin u geïnteresseerd bent voor deze samenvatting. |
+   | **[!UICONTROL Segment (optional)]** | Elk segment waarin u geïnteresseerd bent voor deze samenvatting. |
 
    {style="table-layout:auto"}
 

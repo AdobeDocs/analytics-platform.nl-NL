@@ -4,7 +4,7 @@ title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst 
 | [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over persoonactiviteit, zoals meningen, klik-door, herladingen, gemiddelde tijd besteed, eenheden, orden, opbrengst, etc. |
 | **[!UICONTROL Visualization]** | Workspace biedt [ een aantal visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
 | **[!UICONTROL Dimension Breakdown]** | Een uitsplitsing naar dimensie is een manier om een dimensie naar andere dimensies uit te splitsen. U kunt bijvoorbeeld de VS-staten opdelen door Mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen. Of u kunt mobiele apparaten onderbreken op typen mobiele apparaten, op regio&#39;s, op interne campagnes en nog veel meer. |
-| **[!UICONTROL Filter]** | Met filters kunt u subsets van personen identificeren op basis van eigenschappen of interacties van websites. U kunt bijvoorbeeld [!UICONTROL People] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>verlaten en binnenkomen: personen van Facebook, een bepaalde landingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
+| **[!UICONTROL Segment]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL People] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>verlaten en binnenkomen: personen van Facebook, een bepaalde landingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
 ## Gebruiken
 

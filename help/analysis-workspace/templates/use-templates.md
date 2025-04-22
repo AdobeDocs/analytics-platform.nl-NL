@@ -4,7 +4,7 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '19643'
 ht-degree: 0%
@@ -67,7 +67,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
    >
    >Voor meer informatie over contextetiketten, zie [ montages van de Component ](/help/data-views/component-settings/overview.md).
 
-   1. Selecteer het filterpictogram.
+   1. Selecteer het segmentpictogram.
 
    1. Selecteer **[!UICONTROL Not ready for use]** om sjablonen weer te geven waarvoor extra componenten nodig zijn.
 
@@ -106,7 +106,7 @@ Een sjabloon aanpassen en opslaan als project:
 1. Voer een van de volgende handelingen uit:
 
    * De sjabloon weergeven.
-   * Sleep een of meer filters naar de neerzetzone van het filter bovenaan. Bijvoorbeeld, sleep de filter [!UICONTROL **Mobiele Klanten**] en bekijk de resultaten.
+   * Sleep een of meer segmenten naar de neerzetzone Segment bovenaan. Bijvoorbeeld, sleep de segment [!UICONTROL **Mobiele Klanten**] en bekijk de resultaten.
    * Wijzig het datumbereik door naar de kalender in de rechterbovenhoek te gaan.
    * Voeg afmetingsonderverdelingen toe, sleep in andere metriek, en pas over het algemeen het malplaatje aan uw behoeften aan.
 

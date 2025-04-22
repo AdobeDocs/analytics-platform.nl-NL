@@ -4,7 +4,7 @@ title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Gebruik een contextmenu op een knooppunt in de stroomvisualisatie met de volgend
 |--- |--- |
 | **[!UICONTROL Focus on this node]** | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | **[!UICONTROL Start over]** | Ga terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
-| **[!UICONTROL Create a filter for this path]** | Maak een filter. Deze selectie neemt u in de Bouwer van de Filter, waar u de nieuwe filter kunt vormen. |
+| **[!UICONTROL Create a segment for this path]** | Maak een segment. Deze selectie neemt u in de bouwer van het Segment, waar u het nieuwe segment kunt vormen. |
 | **[!UICONTROL Breakdown]** | Verdeel de knoop neer door beschikbare Dimensies, Metriek, of Tijd. |
 | **[!UICONTROL Filter column]** | Dezelfde filteropties worden weergegeven als beschikbaar zijn in de tabel Vrije vorm. Voor meer informatie over de beschikbare opties, zie de sectie &quot;een eenvoudig of geavanceerd filter op een lijst&quot;in [ Filter en sorteerlijsten ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) toepassen. |
 | **[!UICONTROL Exclude item]** of **[!UICONTROL Restore excluded items]** | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Selecteer **[!UICONTROL Restore Excluded Item]** in het contextmenu om het uitgesloten item te herstellen. u kunt ook het segment openen boven aan de kolom en de pillbox verwijderen met het item dat u zojuist hebt uitgesloten. |

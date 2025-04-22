@@ -4,7 +4,7 @@ title: Rijinstellingen
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -66,12 +66,12 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 | **[!UICONTROL Create hyperlink]** | Maak een hyperlink voor het item. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Edit hyperlink]** | Bewerk een hyperlink voor het item. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Remove hyperlink]** | Een hyperlink voor het item verwijderen. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
-| **[!UICONTROL Breakdown]** | Hiermee wordt het item voor de dimensie opgesplitst. Selecteer een optie in de lijst met **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Filters]** of **[!UICONTROL Date ranges]** . Alternatief onderzoek naar een component, gebruikend *Onderzoek*. |
+| **[!UICONTROL Breakdown]** | Hiermee wordt het item voor de dimensie opgesplitst. Selecteer een optie in de lijst met **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Segments]** of **[!UICONTROL Date ranges]** . Alternatief onderzoek naar een component, gebruikend *Onderzoek*. |
 | **[!UICONTROL Delete selected]** | Verwijder de geselecteerde rijen (items). |
 | **[!UICONTROL Trend selection]** | Maak een trendlijngrafiekvisualisatie voor de selectie. |
 | **[!UICONTROL Display only selected rows]** | Alleen de geselecteerde rijen in de visualisatie weergeven. |
 | **[!UICONTROL Display all rows]** | Alle rijen in de visualisatie weergeven. |
-| **[!UICONTROL Create segment from selection]** | Open **[!UICONTROL Filter builder]** om een segment van de selectie te bouwen. |
+| **[!UICONTROL Create segment from selection]** | Open **[!UICONTROL Segment builder]** om een segment van de selectie te bouwen. |
 | **[!UICONTROL Create audience from selection]** | Open het dialoogvenster **[!UICONTROL Create audience]** om een publiek te maken op basis van de selectie. |
 
 De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u een kolomkop met een metrische waarde selecteert.
@@ -85,7 +85,7 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 | **[!UICONTROL Compare attribution model]** | Geef een nieuw toewijzingsmodel op en vergelijk dit met het toewijzingsmodel voor de geselecteerde kolom. Een nieuwe kolom wordt toegevoegd met de nieuwe metriek van het attributiemodel. Bovendien wordt een kolom Percentage wijziging toegevoegd ter vergelijking. |
 | **[!UICONTROL Reset column widths]** | Herstel de kolombreedten naar de standaardbreedte. |
 | **[!UICONTROL Create annotation from selection]** | Open **[!UICONTROL Annotation details]** om een annotatie toe te voegen. |
-| **[!UICONTROL Create segment from selection]** | Open **[!UICONTROL Filter builder]** om een segment van de selectie te bouwen. |
+| **[!UICONTROL Create segment from selection]** | Open **[!UICONTROL Segment builder]** om een segment van de selectie te bouwen. |
 | **[!UICONTROL Create audience from selection]** | Open het dialoogvenster **[!UICONTROL Create audience]** om een publiek te maken op basis van de selectie. |
 
 ## Rijhoogte wijzigen

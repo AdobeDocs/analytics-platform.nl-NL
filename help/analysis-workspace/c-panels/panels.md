@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 1%
@@ -136,26 +136,26 @@ Selecteer **[!UICONTROL Apply to all panels]** om het datumbereik toe te passen 
 
 Met de dropzone van het deelvenster kunt u segmenten en vervolgkeuzelijsten toepassen op alle tabellen en visualisaties in een deelvenster. U kunt een of meerdere segmenten toepassen op een deelvenster.
 
-### Filters
+### Segmenten
 
-Sleep segmenten van het linkerdeelvenster naar de neerzetzone van het deelvenster om te beginnen met het segmenteren van het deelvenster. Herhaal dit proces om extra segmenten aan het deelvenster toe te voegen. Filters worden naast elkaar boven in het deelvenster weergegeven.
+Sleep segmenten van het linkerdeelvenster naar de neerzetzone van het deelvenster om te beginnen met het segmenteren van het deelvenster. Herhaal dit proces om extra segmenten aan het deelvenster toe te voegen. Segmenten worden naast elkaar boven in het deelvenster weergegeven.
 
 ![ het linkerpaneel toont beschikbare Metriek en de Mobiele Klant die aan de plaats van het paneeldaling wordt gesleept.](assets/segment-filter.png)
 
 #### Snelle segmenten
 
-De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [ bouwer van het Segment ](/help/components/filters/filter-builder.md) te gaan. Filters die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![ te selecteren geeft ](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
+De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [ bouwer van het Segment ](/help/components/filters/filter-builder.md) te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![ te selecteren geeft ](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
 
 
 Voor meer informatie, zie [ Snelle segmenten ](/help/components/filters/quick-filters.md).
 
 ![ Ad hoc segmenten die openbaar worden gemaakt en in de dalingsstreek ](assets/adhoc-segment-filter.png) gelaten vallen
 
-### Vervolgkeuzefilters
+### Vervolgkeuzesegmenten
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ drop-down filters ](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ drop-down segmenten ](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

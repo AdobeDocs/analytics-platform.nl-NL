@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,6 @@ Zie [ Controle van de Toegang ](/help/technotes/access-control.md).
 
 Verschillende functies in Customer Journey Analytics hebben in vergelijking met traditionele Adobe Analytics een andere naam gekregen om zich aan te passen aan de industrienormen. Enkele bijgewerkte terminologie:
 
-* Segmenten worden nu &#39;filters&#39; genoemd.
 * Virtuele rapportsuites worden nu &#39;gegevensweergaven&#39; genoemd.
 * Classificaties worden nu &#39;Gegevensbestanden opzoeken&#39; genoemd.
 * Klantkenmerken worden nu &#39;profielgegevenssets&#39; genoemd.

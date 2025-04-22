@@ -4,9 +4,9 @@ title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Tabellen
 
 * Datumvergelijkingskolommen kunnen niet worden toegevoegd wanneer datumbereiken of metriek worden gebruikt als rijen van een tabel.
-* De optie Metrisch maken op basis van selectie is uitgeschakeld wanneer filters worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
+* Metrisch maken van selectie is uitgeschakeld wanneer segmenten worden gebruikt als rijen van een tabel. Bovendien moet Metrisch maken van selectie niet worden toegepast op kolommen met datumuitlijning.
 * Voorwaardelijke opmaak voor splitsingsrijen kan geen aangepaste bereiken gebruiken.
 * De totale rijen van de lijst kunnen niet worden getrand wanneer Berekende totalen door de rijwaarden op te tellen wordt toegepast die (typisch wordt gebruikt met Statische rijpunten) plaatsen.
 
@@ -28,10 +28,10 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 * [!UICONTROL Flow]: de afmetingen voor in- en uitstappen, bijvoorbeeld [!UICONTROL Entry page] , kunnen niet worden gebruikt in de stroom.
 * [!UICONTROL Cohort]: niet-gehele getallen kunnen niet worden gebruikt als Cohortcriteria.
 
-## Filters
+## Segmenten
 
 * Bepaalde metriek en afmetingen kunnen niet worden gesegmenteerd, zoals [!UICONTROL Events] , [!UICONTROL Persons] , enzovoort.
-* Ad hoc segmenten die in [ worden gecreeerd paneeldropzone ](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in het beheer van de filtercomponent als ze openbaar zijn gemaakt. Voor meer informatie, zie [ Snelle segmenten ](/help/components/filters/quick-filters.md).
+* Ad hoc segmenten die in [ worden gecreeerd paneeldropzone ](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in Segmentbeheer als ze openbaar zijn gemaakt. Voor meer informatie, zie [ Snelle segmenten ](/help/components/filters/quick-filters.md).
 
 ## Berekende standaarden
 

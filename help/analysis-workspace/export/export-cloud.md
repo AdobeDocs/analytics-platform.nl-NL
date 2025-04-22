@@ -5,7 +5,7 @@ title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: a7bd67894b02174d980a730086f89df97b524356
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 1%
@@ -183,7 +183,7 @@ De volgende functies worden niet ondersteund en worden automatisch verwijderd ui
 De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u deze uit uw tabel te verwijderen wanneer u een volledige-tabelexport uitvoert:
 
 * Berekende metriek die basis of geavanceerde functies in de metrische definitie gebruiken (zie [ Basisfuncties ](/help/components/calc-metrics/cm-functions.md) en [ Geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md) voor meer informatie)
-* De componenten die door een beheerder van worden uitgevoerd beperkt zijn (zie de *Filter op het beleid van de Overheid van Gegevens in gegevensmeningen* sectie in [ Etiketten en beleid ](/help/data-views/data-governance.md) voor meer informatie)
+* De componenten die door een beheerder van worden uitgevoerd beperkt zijn (zie het *Segment op het beleid van het Beleid van het Beleid van het Beleid van het Beleid van Gegevens in gegevensmeningen* sectie in [ Etiketten en beleid ](/help/data-views/data-governance.md) voor meer informatie)
 * Elke dimensie die aan alle volgende criteria voldoet:
    * Is gecreeerd van een gebied dat deel van een [ serie van voorwerpen ](/help/use-cases/object-arrays.md) uitmaakt (gelijkend op multi-waardevariabelen in Adobe Analytics)
    * Heeft [ toegelaten persistentie ](/help/data-views/component-settings/persistence.md)
@@ -197,7 +197,7 @@ De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u d
    * Berekende cijfers
    * Metrics
    * Datumbereiken
-   * Filters
+   * Segmenten
 
 ### Attributiegedrag
 

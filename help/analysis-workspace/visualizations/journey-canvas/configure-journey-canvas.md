@@ -4,7 +4,7 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '6207'
 ht-degree: 0%
@@ -118,9 +118,9 @@ U kunt op de volgende manieren knooppunten maken: door Workspace-componenten van
    | Dimension-item | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, los van om het even welke bestaande knopen. |
    | Dimension-item | Een bestaand knooppunt | De component wordt automatisch gecombineerd met het bestaande knooppunt. |
    | Dimension-item | Een pijl die 2 bestaande knopen verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p> |
-   | Filter | Leeg gebied van canvas | Het knooppunt geeft aan waar de component is neergezet zonder verbinding met andere knooppunten.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, die door het segment wordt gesegmenteerd u selecteerde.</p> <p>Bijvoorbeeld, als de Mensen als primaire metrisch voor de reis wordt geselecteerd, dan het toevoegen van een segment van Vandaag aan een leeg gebied van het canvas toont alle mensen die een gebeurtenis vandaag hadden.</p> |
-   | Filter | Een bestaand knooppunt | Past het segment op de bestaande knoop toe. |
-   | Filter | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het segment op het punt op de weg toe waar de component werd gelaten vallen.</p> |
+   | Segment | Leeg gebied van canvas | Het knooppunt geeft aan waar de component is neergezet zonder verbinding met andere knooppunten.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, die door het segment wordt gesegmenteerd u selecteerde.</p> <p>Bijvoorbeeld, als de Mensen als primaire metrisch voor de reis wordt geselecteerd, dan het toevoegen van een segment van Vandaag aan een leeg gebied van het canvas toont alle mensen die een gebeurtenis vandaag hadden.</p> |
+   | Segment | Een bestaand knooppunt | Past het segment op de bestaande knoop toe. |
+   | Segment | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het segment op het punt op de weg toe waar de component werd gelaten vallen.</p> |
    | Datumbereik | Leeg gebied van canvas | De knoop toont waar de component werd gelaten vallen, losgemaakt van een andere knopen.<p>Het aantal en het percentage dat op de knoop verschijnen omvatten het totaal van primaire metrisch, die door de datumwaaier wordt gesegmenteerd u selecteerde.</p> <p>Als Personen bijvoorbeeld is geselecteerd als de primaire metrische waarde voor de rit, worden bij het toevoegen van een datumbereik van Deze maand aan een leeg gebied van het canvas alle personen weergegeven die een gebeurtenis hebben gehad tijdens de huidige maand.</p> |
    | Datumbereik | Een bestaand knooppunt | Past het datumbereik toe op het bestaande knooppunt. |
    | Datumbereik | Een pijl die 2 knooppunten verbindt | De knoop toont tussen de twee bestaande knopen waar de component werd gelaten vallen en met beide bestaande knopen verbonden. (Zie [ verbind knopen ](#connect-nodes) voor meer informatie.)</p><p>Past het datumbereik toe op het punt op het pad waar de component is neergezet.</p> |
@@ -274,10 +274,10 @@ De logica die op knopen wordt toegepast wanneer zij worden gecombineerd verschil
 | Metrisch + metrisch | Samengevoegd met OR |
 | Dimension-item + Dimension-item (vanuit dezelfde bovenliggende dimensie) | Samengevoegd met OR |
 | Dimension-item + Dimension-item (van verschillende bovenliggende afmetingen) | Deelnemen met AND |
-| Filter + Filter | Deelnemen met AND |
-| Dimension + Metrisch, Datumbereik of Filter | Deelnemen met AND |
-| Datumbereik + Metrisch, Filter of Dimension | Deelnemen met AND |
-| Filter + Metrisch, Datumbereik of Dimension | Deelnemen met AND |
+| Segment + Segment | Deelnemen met AND |
+| Dimension + Metrisch, Datumbereik of Segment | Deelnemen met AND |
+| Datumbereik + Metrisch, Segment of Dimension | Deelnemen met AND |
+| Segment + metrisch, Datumbereik of Dimension | Deelnemen met AND |
 
 ### Verbindingsknooppunten
 
@@ -546,7 +546,7 @@ De trendgegevens bekijken:
 
 U kunt een nieuw segment tot stand brengen dat op een knoop of een pijl binnen een reis wordt gebaseerd. Nadat het segment is gemaakt, kunt u het overal in Analysis Workspace gebruiken.
 
-De filters die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het segment de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het segment.
+De segmenten die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het segment de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het segment.
 
 Als u een segment maakt dat is gebaseerd op een knooppunt met meerdere paden die erin vloeien, worden alle paden in het segment opgenomen. Afzonderlijke paden worden verbonden met de operator OR.
 
@@ -556,9 +556,9 @@ Een segment maken:
 
 1. Selecteer [!UICONTROL **creeer segment van knoop**] of [!UICONTROL **creeer segment van pijl**].
 
-   De construcder voor filters wordt weergegeven. In de [!UICONTROL **sectie van de Definitie**], wordt de segmentdefinitie gecreeerd gebaseerd op de knoop of de pijl u en zijn context binnen de reis selecteerde.
+   De bouwer van het Segment toont. In de [!UICONTROL **sectie van de Definitie**], wordt de segmentdefinitie gecreeerd gebaseerd op de knoop of de pijl u en zijn context binnen de reis selecteerde.
 
-1. Geef een titel voor het segment op en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een segment, zie [ de bouwer van de Filter ](/help/components/filters/filter-builder.md).
+1. Geef een titel voor het segment op en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een segment, zie [ de bouwer van het Segment ](/help/components/filters/filter-builder.md).
 
 1. Selecteer [!UICONTROL **sparen**] om het segment te bewaren.
 

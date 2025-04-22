@@ -4,7 +4,7 @@ description: Hoe te met dynamische en statische afmetingspunten in lijsten in wi
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De dynamische afmetingspunten hebben de optie van de rijfilter ![ Filter ](/help
 
 De statische afmetingspunten veranderen niet met tijd; zij zijn vaste componenten die altijd in een vrije vormlijst zijn teruggekeerd. De statische afmetingspunten worden geprefereerd wanneer u altijd het zelfde punt wilt analyseren, of het specifieke campagnes of specifieke dagen in de week zijn.
 
-Wanneer u handmatig bepaalde componentwaarden (afmetingen, metrisch, filter, datumbereik) in een tabel selecteert en neerzet, bestaat het resultaat uit een statische lijst met rijen of kolommen.
+Wanneer u handmatig bepaalde componentwaarden (afmetingen, metrisch, segment, datumbereik) in een tabel selecteert en neerzet, is het resultaat een statische lijst met rijen of kolommen.
 
 Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft en Apple, worden die twee specifieke items altijd in de tabel geplaatst.
 
@@ -44,9 +44,9 @@ De statische afmetingspunten hebben **** niet de optie van de rijfilter. In plaa
 
 ## Items met gemengde dimensies
 
-Items van verschillende Dimensionen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat de rijkop op **[!UICONTROL Mixed Dimensions]** . Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van de Groep en andere afmetingspunten van de Browser afmeting van de Naam.
+Dimension-items van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat de rijkop op **[!UICONTROL Mixed Dimensions]** . Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van de Groep en andere afmetingspunten van de Browser afmeting van de Naam.
 
-![ A Freeform Lijst die de Gemengde kolom van Dimensionen benadrukt.](assets/mixed-dimensions.png)
+![ A Freeform Lijst die de Gemengde kolom van Afmetingen benadrukt.](assets/mixed-dimensions.png)
 
 ## Totaal aantal rijen vrije vorm
 
