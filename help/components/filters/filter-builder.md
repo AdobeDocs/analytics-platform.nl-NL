@@ -1,10 +1,10 @@
 ---
 description: De bouwer van het Segment verstrekt een canvas om Metrische Dimensies, Segmenten, en Gebeurtenissen te slepen en te laten vallen om personen te segmenteren die op de logica van de containerhiërarchie, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige of complexe segmenten maken en opslaan die persoonlijke kenmerken en handelingen tijdens bezoeken en gebeurtenissen identificeren.
 title: Segmenten maken
-feature: Filters
+feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 0%
