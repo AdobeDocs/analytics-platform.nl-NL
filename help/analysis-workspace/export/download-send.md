@@ -4,7 +4,7 @@ title: Customer Journey Analytics-gegevens downloaden
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 0%
@@ -94,7 +94,7 @@ De functies van de tabel worden als volgt op het gedownloade bestand toegepast:
 * De onderbrekingen **boven** de geselecteerde afmeting in de lijst worden toegepast als filters boven elke kolom.
 * De onderbrekingen **onder** worden de geselecteerde afmeting in de lijst verwijderd.
 
-In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvensterfilter (Nieuwe bezoekers) en de bovenstaande componenten (Marketing Channel = e-mail) toegepast als filters, en worden de onderliggende componenten (Type mobiel apparaat) verwijderd uit de gedownloade CSV.
+In het bovenstaande voorbeeld worden pagina-items gedownload met het deelvenstersegment (Nieuwe bezoekers) en de bovenstaande componenten (Marketing Channel = e-mail) toegepast als filters, en worden de onderliggende componenten (Type mobiel apparaat) verwijderd uit de gedownloade CSV.
 
 ![ het gedownloade.csv- dossier dat in Excel wordt geopend.](assets/downloaded-file.png)
 

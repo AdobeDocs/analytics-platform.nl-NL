@@ -4,7 +4,7 @@ title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te f
 
 - Specifieke rijen uitsluiten van een tabel
 - Filters toepassen op een tabel
-- publieksfilters gebruiken
+- publiekssegmenten gebruiken
 
 Ben zeker om te lezen hoe elke methode [ Gratis lijsttotalen ](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md) beïnvloedt.
 
@@ -96,7 +96,7 @@ Gegevens filteren in Freeform-tabellen:
 
 ### publiekssegmenten gebruiken
 
-Zie [ Overzicht van Filters ](/help/components/filters/filters-overview.md) voor meer details.
+Zie [ Overzicht van de Segmentatie ](/help/components/filters/filters-overview.md) voor meer details.
 
 ## Tabellen sorteren
 
