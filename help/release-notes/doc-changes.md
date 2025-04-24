@@ -4,10 +4,10 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
 workflow-type: tm+mt
-source-wordcount: '4696'
-ht-degree: 5%
+source-wordcount: '5031'
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,16 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | --- | --- |
 | **April 2025** | |
 | Gebruik weergeven en beheren | Herwerkte de documentatie op hoe te [ mening ](/help/connections/manage-connections.md#usage) en [ het gebruik van Customer Journey Analytics beheren ](/help/technotes/estimate-usage.md) |
-| Content Analytics | [ Documentatie ](/help/content-analytics/content-analytics.md) voor Adobe Content Analytics. Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken. |
+| Adobe Content Analytics | [ Content Analytics ](/help/content-analytics/content-analytics.md) staat u toe om grote volumes van inhoudsgegevens snel en gemakkelijk te onderzoeken om tendensen, vlekanomalieën te ontdekken, inhoudsvermoeidheid te identificeren, en inzichten van inhoudblootstelling te bereiken. |
+| Bijgewerkte XDM-velden voor het verzamelen van Streaming Media-gegevens in Adobe Experience Platform | Wanneer het verzamelen van de Gegevens van Media van de Streaming in Adobe Experience Platform, zouden de XDM gebiedspaden onder de rubriek van &quot;Pad van het Gebied XDM&quot;van de Streaming de parameterdocumentatie van Media niet meer moeten worden gebruikt. Deze gebiedspaden worden gevonden op de volgende pagina&#39;s en als &quot;Vervangen&quot;duidelijk: [ Audio en videoparameters ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [ Advertentieparameters ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [ de parameters van het Hoofdstuk ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [ de staatsparameters van de Speler ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters), en [ de parameters van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters). |
+| Media Collection: Adobe Source Connector updates voor nieuwe Media die XDM melden | De Analytics Source Connector wijst streaming mediagegevens in Adobe Analytics automatisch toe aan dezelfde velden die door de Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
+| **de verandering van de Terminologie: &quot;Filters&quot;in &quot;Segmenten&quot;** | Eerder verwees Adobe Customer Journey Analytics naar segmenten als &quot;filters&quot;. Deze terminologie is nu in overeenstemming gebracht met Adobe Analytics. &quot;Filters&quot; worden nu &quot;segmenten&quot; genoemd. (Doorzoekfilters worden natuurlijk nog steeds &#39;filters&#39; genoemd.) De interface en documentatie zijn bijgewerkt. |
 | **Maart 2025** | |
 | Quantum Metric use cases | Toegevoegde gebruiksgevallen voor het verzamelen van gegevens van [ Metrische Quantum ](/help/use-cases/third-party/quantum-metric/qm-overview.md). |
+| Sjabloon voor productgebruik | Met een nieuwe Workspace-sjabloon kunt u bekijken hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt. [ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates). |
+| Customer Journey Analytics-upgradehandleiding | Hiermee kunt u een stapsgewijze gids genereren voor het upgraden van Adobe Analytics naar Customer Journey Analytics. Als u uw aangepaste hulplijn wilt genereren, meldt u zich aan bij [!DNL Customer Journey Analytics] en selecteert u vervolgens **[!UICONTROL Upgrade to Customer Journey Analytics]** op het tabblad **[!UICONTROL Workspace]** . [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
+| Updates voor regelitem Geen waarde op numerieke afmetingen | Voor numerieke afmetingen, laat deze update u het &quot;Geen waarde&quot;afmetingspunt in een segment gebruiken en een verdeling in een rapport op het &quot;Geen waarde&quot;lijnpunt uitvoeren. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
+| Media Collection: Adobe Source Connector updates voor nieuwe Media die XDM melden | De Analytics Source Connector wijst streaming mediagegevens in Adobe Analytics automatisch toe aan dezelfde velden die door de Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **Februari 2025** |  |
 | Media Collection: Adobe Source Connector updates voor nieuwe Media die XDM melden | De Schakelaar van Source van Analytics [ kaarten automatisch het stromen media gegevens in Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) aan de zelfde gebieden die door het Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. |
 | BI-extensie - uitgebreide ondersteuning | De uitbreiding van Customer Journey Analytics BI steunt nu [ Leider, Notitieboekje Jupyter en de Studio van R ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
