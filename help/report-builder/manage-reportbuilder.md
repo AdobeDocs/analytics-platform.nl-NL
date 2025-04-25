@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ U kunt bijvoorbeeld een bestaand segment vervangen door een nieuw segment in een
 
 ## Gegevensblokken vernieuwen
 
-Selecteer ![ verfrissen zich ](/help/assets/icons/Refresh.svg) verfrist de lijst van gegevensblokken.
+Selecteer ![ verfrissen zich ](/help/assets/icons/Refresh.svg) om de lijst van gegevensblokken te verfrissen.
 
 Als u wilt controleren of een gegevensblok is vernieuwd, bekijkt u het pictogram Status vernieuwen:
 

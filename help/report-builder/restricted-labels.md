@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,9 @@ De componenten onderworpen aan dit beleid zijn grijs uit en hebben een ![ InfoOu
 
 Voor meer informatie, zie [ Etiketten en beleid ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
 
-<!--
 
-![The policy note indicating prohibited use of data.](assets/rb-restricted-label.png){zoomable="yes"}
--->
+![ de beleidsnota die op het verboden gebruik van gegevens wijst.](assets/restricted-label.png){zoomable="yes"}
+
 
 ## Rapporten bijwerken die beperkte gegevens bevatten
 
