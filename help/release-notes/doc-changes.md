@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9cda9a2b8d5ec876a1c4a5c539daa1e0624a4460
+source-git-commit: f3e1f5190024a38dc26199061fb7f466b8d0c472
 workflow-type: tm+mt
-source-wordcount: '5040'
+source-wordcount: '5062'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2025** | |
+| Gebruiksscenario voor productanalyse | Toegevoegde [ analyse van het Product in Customer Journey Analytics ](/help/use-cases/product-analysis.md). |
+| Gedeelde metriek en dimensies | Toegevoegde documentatie voor de [ Gedeelde metriek &amp; dimensies ](/help/data-views/shared-metrics-dimensions/smd-overview.md) eigenschap. |
 | Report Builder | Herzien en bijgewerkt de [ documentatie van Report Builder ](/help/report-builder/report-buider-overview.md). |
 | Gebruik weergeven en beheren | Herwerkte de documentatie op hoe te [ mening ](/help/connections/manage-connections.md#usage) en [ het gebruik van Customer Journey Analytics beheren ](/help/technotes/estimate-usage.md) |
 | Adobe Content Analytics | [ Content Analytics ](/help/content-analytics/content-analytics.md) staat u toe om grote volumes van inhoudsgegevens snel en gemakkelijk te onderzoeken om tendensen, vlekanomalieën te ontdekken, inhoudsvermoeidheid te identificeren, en inzichten van inhoudblootstelling te bereiken. |

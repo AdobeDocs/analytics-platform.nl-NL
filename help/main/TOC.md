@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: aa7b73db10e81a96f532eedf09091109209124c0
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1223'
 ht-degree: 10%
 
 ---
@@ -148,6 +148,9 @@ ht-degree: 10%
    + [Afgeleide velden](../data-views/derived-fields/derived-fields.md)
    + [Samenvattingsgegevens](../data-views/summary-data.md)
    + [Labels en beleid](../data-views/data-governance.md)
+   + Gedeelde metriek en dimensies{#shared-metrics-dimensions}
+      + [Overzicht](/help/data-views/shared-metrics-dimensions/smd-overview.md)
+      + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
@@ -165,7 +168,7 @@ ht-degree: 10%
       + [Overzicht](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten openen](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [Opmerkingen in projecten](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [Opmerkingen over projecten](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
       + Mappen in Workspace {#workspace-folders}
          + [Mappen](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -424,6 +427,36 @@ ht-degree: 10%
 
 + Gebruik hoofdletters {#cja-usecases}
    + [Customer Journey Analytics-gebruikskwesties](../use-cases/cja-usecases.md)
+   + Adobe Analytics-gegevens {#aa-data}
+      + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
+      + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
+   + B2B {#b2b}
+      + [Een B2B-voorbeeldproject](../use-cases/b2b/example.md)
+   + Complexe gegevens {#complex-data}
+      + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
+   + Kanaalgegevens {#cross-channel}
+      + [Gegevens via kanalen analyseren](../use-cases/cross-channel/cross-channel.md)
+      + [Telefooncentrum en webgegevens importeren](../use-cases/cross-channel/call-center.md)
+   + Gegevens exporteren {#data-export}
+      + [Overzicht](../use-cases/data-export/overview.md)
+      + [BI-extensie](../use-cases/data-export/bi-extension.md)
+      + [Gegevensbestanden exporteren](../use-cases/data-export/export-datasets.md)
+      + [Volledige tabel exporteren](../use-cases/data-export/export-full-table.md)
+      + [De Dienst van de vraag en de datasets van de Uitvoer](../use-cases/data-export/queryservice-export-datasets.md)
+   + Gegevensinvoer {#data-ingestion}
+      + [Marketo Engage-gegevens invoegen en gebruiken](../use-cases/data-ingestion/marketo.md)
+      + [Experience Platform-publiek voorstellen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + Gegevensweergaven {#data-views}
+      + [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
+      + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
+      + [Gebruikskwesties voor extensie BI](/help/use-cases/data-views/bi-extension-usecases.md)
+   + Afgeleide velden {#derived-fields}
+      + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
+   + Productanalyse {#product-analysis}
+      + [Productanalyse](/help/use-cases/product-analysis.md)
+   + Stiksel {#stitching}
+      + [Gedeelde apparaten](/help/use-cases/stitching/shared-devices.md)
    + Gegevens van derden {#third-party}
       + [Overzicht](/help/use-cases/third-party/overview.md)
       + Google Analytics {#ga}
@@ -437,34 +470,6 @@ ht-degree: 10%
          + [Hatmaps gebruiken](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [Wrijvingsgebeurtenissen toevoegen](/help/use-cases/third-party/quantum-metric/friction-events.md)
          + [Source-connector](/help/use-cases/third-party/quantum-metric/source-connector.md)
-   + Gegevensinvoer {#data-ingestion}
-      + [Marketo Engage-gegevens invoegen en gebruiken](../use-cases/data-ingestion/marketo.md)
-      + [Experience Platform-publiek voorstellen en gebruiken](../use-cases/data-ingestion/ingest-aep-segments.md)
-   + Gegevensweergaven {#data-views}
-      + [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
-      + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
-      + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
-      + [Gebruikskwesties voor extensie BI](/help/use-cases/data-views/bi-extension-usecases.md)
-   + Gegevens exporteren {#data-export}
-      + [Overzicht](../use-cases/data-export/overview.md)
-      + [BI-extensie](../use-cases/data-export/bi-extension.md)
-      + [Gegevensbestanden exporteren](../use-cases/data-export/export-datasets.md)
-      + [Volledige tabel exporteren](../use-cases/data-export/export-full-table.md)
-      + [De Dienst van de vraag en de datasets van de Uitvoer](../use-cases/data-export/queryservice-export-datasets.md)
-   + B2B {#b2b}
-      + [Een B2B-voorbeeldproject](../use-cases/b2b/example.md)
-   + Kanaalgegevens {#cross-channel}
-      + [Gegevens via kanalen analyseren](../use-cases/cross-channel/cross-channel.md)
-      + [Telefooncentrum en webgegevens importeren](../use-cases/cross-channel/call-center.md)
-   + Adobe Analytics-gegevens {#aa-data}
-      + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
-      + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
-   + Complexe gegevens {#complex-data}
-      + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
-   + Stiksel {#stitching}
-      + [Gedeelde apparaten](/help/use-cases/stitching/shared-devices.md)
-   + Afgeleide velden {#derived-fields}
-      + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Gebruikershandleiding voor labels](../labs/labs.md)
